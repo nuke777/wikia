@@ -22,3 +22,10 @@ table.wikitable td {
     width: calc(50% - 10px);
     margin-left: 10px;
 }
+
+
+@media (max-width: 1023px) {
+	table.wikitable {
+		height: 450px;
+	}
+}
