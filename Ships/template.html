@@ -21,10 +21,12 @@
 	<!-- Fetch Script -->
 	<script>
 	function loadJSON(callback) {   
-
+		var hash = window.location.hash;
+		var hashTrimmed = hash.substr(1);
+		var path = hashTrimmed + "/" + hashTrimmed + ".json";
 		var xobj = new XMLHttpRequest();
 			xobj.overrideMimeType("application/json");
-		xobj.open('GET', 'essex/essex.json', true); // Replace 'my_data' with the path to your file
+		xobj.open('GET', path, true); // Replace 'my_data' with the path to your file
 		xobj.onreadystatechange = function () {
 			  if (xobj.readyState == 4 && xobj.status == "200") {
 				// Required use of an anonymous callback as .open will NOT return a value but simply returns undefined in asynchronous mode
@@ -136,7 +138,7 @@
 <table class="wikitable" style="width:100%;text-align:center;word-break:break-word">
 	<tbody>
 		<tr>
-			<td colspan="5" style="background:#f9f593">
+			<td colspan="5" style="background:#AEAB66" id="shipRarityColor">
 				<b>
 					<font style="vertical-align: inherit;">
 						<font style="vertical-align: inherit;" id="shipHeader"></font>
