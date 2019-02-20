@@ -11,8 +11,8 @@
     <!-- Bootstrap CSS CDN -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
     <!-- Our Custom CSS -->
-    <link rel="stylesheet" href="../css/mainstyle.css">
-	<link rel="stylesheet" href="../css/ship.css">
+    <link rel="stylesheet" href="css/mainstyle.css">
+	<link rel="stylesheet" href="css/ship.css">
 
     <!-- Font Awesome JS -->
     <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/solid.js" integrity="sha384-tzzSw1/Vo+0N5UhStP3bvwWPq+uvzCMfrN1fEFe+xBmv1C/AtVX5K0uZtmcHitFZ" crossorigin="anonymous"></script>
@@ -23,7 +23,7 @@
 	function loadJSON(callback) {   
 		var hash = window.location.hash;
 		var hashTrimmed = hash.substr(1);
-		var path = hashTrimmed + "/" + hashTrimmed + ".json";
+		var path = "Ships/" + hashTrimmed + "/" + hashTrimmed + ".json";
 		var xobj = new XMLHttpRequest();
 			xobj.overrideMimeType("application/json");
 		xobj.open('GET', path, true); // Replace 'my_data' with the path to your file
