@@ -39,7 +39,18 @@
 		  // Parse JSON string into object
 			var actual_JSON = JSON.parse(response);
 			console.log(actual_JSON);
-			document.getElementById("shipHeader").innerHTML = actual_JSON.name;
+			document.getElementById("shipHeader").innerHTML = actual_JSON.prefix + " " + actual_JSON.name "\(JP: " + actual_JSON.nameJP + ", CN: " + actual_JSON.nameCN + "\)";
+			document.getElementById("shipID").innerHTML = actual_JSON.ID;
+			document.getElementById("shipStarRating").innerHTML = actual_JSON.initialStar;			
+			document.getElementById("shipStarRating").innerHTML = actual_JSON.initialStar;			
+			document.getElementById("shipHull").innerHTML = actual_JSON.hull;						
+			document.getElementById("shipNavy").innerHTML = actual_JSON.navy;					
+			document.getElementById("shipBuildTime").innerHTML = actual_JSON.buildTime;					
+			document.getElementById("shipAcquisition").innerHTML = actual_JSON.aquisitionMethod;	
+			
+			var enhancementJSON = JSON.parse(actual_JSON.enhance);		
+			document.getElementById("shipEnhancementIncome").innerHTML = "Firepower: " + enhancementJSON.firepower + "<br>Torpedo: " + enhancementJSON.torpedo + "<br>Aviation: " + enhancementJSON.aviation + "<br>Reload: " + enhancementJSON.reload;
+			
 		 });
 	}
 	
