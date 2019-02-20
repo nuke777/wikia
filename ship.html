@@ -52,6 +52,7 @@
 			document.getElementById("shipEnhancementIncome").innerHTML = "Firepower: " + actual_JSON.enhance.firepower + "<br>Torpedo: " + actual_JSON.enhance.torpedo + "<br>Aviation: " + actual_JSON.enhance.aviation + "<br>Reload: " + actual_JSON.enhance.reload;
 			document.getElementById("shipScrapIncome").innerHTML = "Gold: " + actual_JSON.scrap.gold + "<br>Oil: " + actual_JSON.scrap.oil + "<br>Medal: " + actual_JSON.scrap.medal;
 			
+			document.getElementById("shipIcon").src = actual_JSON.imageSRC;
 		 });
 	}
 	
