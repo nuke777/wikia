@@ -48,6 +48,7 @@
 			document.getElementById("shipBuildTime").innerHTML = actual_JSON.buildTime;					
 			document.getElementById("shipAcquisition").innerHTML = actual_JSON.acquisitionMethod;	
 			document.getElementById("shipEnhancementIncome").innerHTML = "Firepower: " + actual_JSON.enhance.firepower + "<br>Torpedo: " + actual_JSON.enhance.torpedo + "<br>Aviation: " + actual_JSON.enhance.aviation + "<br>Reload: " + actual_JSON.enhance.reload;
+			document.getElementById("shipScrapIncome").innerHTML = "Gold: " + actual_JSON.scrap.gold + "<br>Oil: " + actual_JSON.scrap.oil + "<br>Medal: " + actual_JSON.scrap.medal;
 			
 		 });
 	}
@@ -138,14 +139,14 @@
 			<td colspan="5" style="background:#f9f593">
 				<b>
 					<font style="vertical-align: inherit;">
-						<font style="vertical-align: inherit;" id="shipHeader">Essex class aircraft carrier No. 1 </font>
+						<font style="vertical-align: inherit;" id="shipHeader"></font>
 					</font>
 				</b>
 			</td>
 		</tr>
 		<tr>
 			<td style="width:20%;text-align:center" rowspan="3">
-				<img alt="Essex head.jpg" src="http://p8.qhimg.com/dr/100__/t0127f44ef7c74cf8fd.jpg1" width="100" height="100" data-file-name="埃塞克斯头像.jpg" data-file-width="100" data-file-height="100" id="shipIcon">
+				<img width="100" height="100" id="shipIcon">
 				</td>
 				<td style="width:20%">
 					<b>
@@ -160,7 +161,7 @@
 					</font>
 					<span id="PNN">
 						<font style="vertical-align: inherit;">
-							<font style="vertical-align: inherit;" id="shipID">357</font>
+							<font style="vertical-align: inherit;" id="shipID"></font>
 						</font>
 					</span>
 				</td>
@@ -173,8 +174,7 @@
 				</td>
 				<td style="width:20%">
 					<font style="vertical-align: inherit;">
-						<font style="vertical-align: inherit;" id="shipStarRating"> ★★★☆☆☆
-</font>
+						<font style="vertical-align: inherit;" id="shipStarRating"></font>
 					</font>
 				</td>
 			</tr>
@@ -188,11 +188,10 @@
 				</td>
 				<td style="padding-left: 0px;padding-right: 0px;">
 					<a href="/blhx/%E5%88%86%E7%B1%BB:%E8%88%AA%E6%AF%8D" target="_blank">
-						<img alt="Aircraft carrier" src="http://p2.qhimg.com/dr/30__/t012321038050a2efca.png1" width="30" height="19" data-file-name="ShipType-航母.png" data-file-width="50" data-file-height="31">
+						<img width="30" height="19" id="shipHullIcon">
 						</a>
 						<font style="vertical-align: inherit;">
-							<font style="vertical-align: inherit;"  id="shipHull">Aircraft carrier
-</font>
+							<font style="vertical-align: inherit;"  id="shipHull"></font>
 						</font>
 					</td>
 					<td>
@@ -204,8 +203,7 @@
 					</td>
 					<td>
 						<font style="vertical-align: inherit;">
-							<font style="vertical-align: inherit;" id="shipRarity">Super rare
-</font>
+							<font style="vertical-align: inherit;" id="shipRarity"></font>
 						</font>
 					</td>
 				</tr>
@@ -218,12 +216,9 @@
 						</b>
 					</td>
 					<td style="padding-left: 0px;padding-right: 0px;background:#">
-						<a href="/blhx/%E5%88%86%E7%B1%BB:%E9%98%B5%E8%90%A5:%E7%99%BD%E9%B9%B0" target="_blank">
-							<img alt="White eagle" src="http://p7.qhimg.com/dr/30__/t01bf67b03a5536250b.png1" width="30" height="30" data-file-name="Camplogo_白鹰.png" data-file-width="500" data-file-height="500">
-							</a>
+							<img width="30" height="30" id="shipNavyIcon">
 							<font style="vertical-align: inherit;">
-								<font style="vertical-align: inherit;" id="shipNavy">White eagle
-</font>
+								<font style="vertical-align: inherit;" id="shipNavy"></font>
 							</font>
 						</td>
 						<td>
@@ -235,7 +230,7 @@
 						</td>
 						<td>
 								<font style="vertical-align: inherit;">
-									<font style="vertical-align: inherit;" id="shipBuildTime">04:25:00</font>
+									<font style="vertical-align: inherit;" id="shipBuildTime"></font>
 								</font>
 						</td>
 					</tr>
@@ -249,7 +244,7 @@
 						</td>
 						<td colspan="4">
 								<font style="vertical-align: inherit;" id="shipAcquisition">
-										<font style="vertical-align: inherit;">Limited time construction</font>
+										<font style="vertical-align: inherit;"></font>
 								</font>
 						</td>
 					</tr>
@@ -264,8 +259,7 @@
 						</td>
 						<td colspan="4">
 							<font style="vertical-align: inherit;">
-								<font style="vertical-align: inherit;" id="shipEnhancementIncome">Firepower 0 Torpedo 0 Aviation 68 Reload 9
-</font>
+								<font style="vertical-align: inherit;" id="shipEnhancementIncome"></font>
 							</font>
 						</td>
 					</tr>
@@ -279,8 +273,7 @@
 						</td>
 						<td colspan="4">
 							<font style="vertical-align: inherit;">
-								<font style="vertical-align: inherit;" id="shipScrapIncome">Gold 9 Oil 3 Medal 10
-</font>
+								<font style="vertical-align: inherit;" id="shipScrapIncome"></font>
 							</font>
 						</td>
 					</tr>
