@@ -23,7 +23,7 @@
 	function loadJSON(callback) {   
 		var hash = window.location.hash;
 		var hashTrimmed = hash.substr(1);
-		var path = "Ships/" + hashTrimmed + "/" + hashTrimmed + ".json";
+		var path = "ship/" + hashTrimmed + "/" + hashTrimmed + ".json";
 		var xobj = new XMLHttpRequest();
 			xobj.overrideMimeType("application/json");
 		xobj.open('GET', path, true); // Replace 'my_data' with the path to your file
