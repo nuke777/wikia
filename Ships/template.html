@@ -47,9 +47,7 @@
 			document.getElementById("shipNavy").innerHTML = actual_JSON.navy;					
 			document.getElementById("shipBuildTime").innerHTML = actual_JSON.buildTime;					
 			document.getElementById("shipAcquisition").innerHTML = actual_JSON.acquisitionMethod;	
-			
-			var enhancementJSON = JSON.parse(actual_JSON.enhance);		
-			document.getElementById("shipEnhancementIncome").innerHTML = "Firepower: " + enhancementJSON.firepower + "<br>Torpedo: " + enhancementJSON.torpedo + "<br>Aviation: " + enhancementJSON.aviation + "<br>Reload: " + enhancementJSON.reload;
+			document.getElementById("shipEnhancementIncome").innerHTML = "Firepower: " + actual_JSON.enhance.firepower + "<br>Torpedo: " + actual_JSON.enhance.torpedo + "<br>Aviation: " + actual_JSON.enhance.aviation + "<br>Reload: " + actual_JSON.enhance.reload;
 			
 		 });
 	}
