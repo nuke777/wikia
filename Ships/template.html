@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <title>Collapsible sidebar using Bootstrap 4</title>
+
+    <!-- Bootstrap CSS CDN -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+    <!-- Our Custom CSS -->
+    <link rel="stylesheet" href="../css/mainstyle.css">
+	<link rel="stylesheet" href="../css/ship.css">
+
+    <!-- Font Awesome JS -->
+    <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/solid.js" integrity="sha384-tzzSw1/Vo+0N5UhStP3bvwWPq+uvzCMfrN1fEFe+xBmv1C/AtVX5K0uZtmcHitFZ" crossorigin="anonymous"></script>
+    <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/fontawesome.js" integrity="sha384-6OIrr52G08NpOFSZdxxz1xdNSndlD4vdcf/q2myIUVO0VsqaGHJsB0RaBE01VTOY" crossorigin="anonymous"></script>
+	
+	<!-- Fetch Script -->
+	<script>
+	function loadJSON(callback) {   
+
+		var xobj = new XMLHttpRequest();
+			xobj.overrideMimeType("application/json");
+		xobj.open('GET', 'essex/essex.json', true); // Replace 'my_data' with the path to your file
+		xobj.onreadystatechange = function () {
+			  if (xobj.readyState == 4 && xobj.status == "200") {
+				// Required use of an anonymous callback as .open will NOT return a value but simply returns undefined in asynchronous mode
+				callback(xobj.responseText);
+			  }
+		};
+		xobj.send(null);  
+	}
+	
+	function init() {
+		 loadJSON(function(response) {
+		  // Parse JSON string into object
+			var actual_JSON = JSON.parse(response);
+			console.log(actual_JSON);
+		 });
+	}
+	
+	window.onload = function() {
+	  init();
+	};
+	
+	</script>
+
+
+</head>
+
+<body>
+
+    <div class="wrapper">
+        <!-- Sidebar  -->
+        <nav id="sidebar">
+            <div class="sidebar-header">
+                <h3>AL Wiki</h3>
+                <strong>AL</strong>
+            </div>
+
+            <ul class="list-unstyled components">
+                <li class="active">
+                    <a href="#homeSubmenu">
+                        Home
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        Ships
+                    </a>
+                    <a href="#pageSubmenu">
+                        Equipments
+                    </a>
+                </li>
+                
+            </ul>
+
+            
+        </nav>
+
+        <!-- Page Content  -->
+        <div id="content" style="background-color:#515c6b">
+
+            <nav class="navbar navbar-expand-lg navbar-light" style="background-color:#262f3b">
+                <div class="container-fluid">
+
+                    <!--<button type="button" id="sidebarCollapse" class="btn btn-secondary" style="background-color:#3b434e">
+                        <i class="fas fa-align-left"></i>
+                        <span></span>
+                    </button>
+                    <button class="btn btn-dark d-inline-block d-lg-none ml-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <i class="fas fa-align-justify"></i>
+                    </button>-->
+
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="nav navbar-nav ml-auto">
+                            <li class="nav-item active">
+                                <a class="nav-link" href="#" style="color:#ffffff">Page</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#" style="color:#ffffff">Page</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#" style="color:#ffffff">Page</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#" style="color:#ffffff">Page</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+			
+<!-- content -->
+<!-- content -->
+<!-- content -->
+
+<div class="leftCol">
+
+<!-- General Info -->
+
+<table class="wikitable" style="width:100%;text-align:center;word-break:break-word">
+	<tbody>
+		<tr>
+			<td colspan="5" style="background:#f9f593">
+				<b>
+					<font style="vertical-align: inherit;">
+						<font style="vertical-align: inherit;" id="shipHeader">Essex class aircraft carrier No. 1 </font>
+					</font>
+				</b>
+			</td>
+		</tr>
+		<tr>
+			<td style="width:20%;text-align:center" rowspan="3">
+				<img alt="Essex head.jpg" src="http://p8.qhimg.com/dr/100__/t0127f44ef7c74cf8fd.jpg1" width="100" height="100" data-file-name="埃塞克斯头像.jpg" data-file-width="100" data-file-height="100" id="shipIcon">
+				</td>
+				<td style="width:20%">
+					<b>
+						<font style="vertical-align: inherit;">
+							<font style="vertical-align: inherit;">Ship ID</font>
+						</font>
+					</b>
+				</td>
+				<td style="width:20%">
+					<font style="vertical-align: inherit;">
+						<font style="vertical-align: inherit;">NO. </font>
+					</font>
+					<span id="PNN">
+						<font style="vertical-align: inherit;">
+							<font style="vertical-align: inherit;" id="shipID">357</font>
+						</font>
+					</span>
+				</td>
+				<td style="width:20%;padding-left: 0px;padding-right: 0px;">
+					<b>
+						<font style="vertical-align: inherit;">
+							<font style="vertical-align: inherit;">Star Rating</font>
+						</font>
+					</b>
+				</td>
+				<td style="width:20%">
+					<font style="vertical-align: inherit;">
+						<font style="vertical-align: inherit;" id="shipStarRating"> ★★★☆☆☆
+</font>
+					</font>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<b>
+						<font style="vertical-align: inherit;">
+							<font style="vertical-align: inherit;">Hull</font>
+						</font>
+					</b>
+				</td>
+				<td style="padding-left: 0px;padding-right: 0px;">
+					<a href="/blhx/%E5%88%86%E7%B1%BB:%E8%88%AA%E6%AF%8D" title="Aircraft carrier" target="_blank">
+						<img alt="Aircraft carrier" src="http://p2.qhimg.com/dr/30__/t012321038050a2efca.png1" width="30" height="19" data-file-name="ShipType-航母.png" data-file-width="50" data-file-height="31">
+						</a>
+						<font style="vertical-align: inherit;">
+							<font style="vertical-align: inherit;"  id="shipHull">Aircraft carrier
+</font>
+						</font>
+					</td>
+					<td>
+						<b>
+							<font style="vertical-align: inherit;">
+								<font style="vertical-align: inherit;">Rarity</font>
+							</font>
+						</b>
+					</td>
+					<td>
+						<font style="vertical-align: inherit;">
+							<font style="vertical-align: inherit;" id="shipRarity">Super rare
+</font>
+						</font>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<b>
+							<font style="vertical-align: inherit;">
+								<font style="vertical-align: inherit;">Navy</font>
+							</font>
+						</b>
+					</td>
+					<td style="padding-left: 0px;padding-right: 0px;background:#">
+						<a href="/blhx/%E5%88%86%E7%B1%BB:%E9%98%B5%E8%90%A5:%E7%99%BD%E9%B9%B0" title="White eagle" target="_blank">
+							<img alt="White eagle" src="http://p7.qhimg.com/dr/30__/t01bf67b03a5536250b.png1" width="30" height="30" data-file-name="Camplogo_白鹰.png" data-file-width="500" data-file-height="500">
+							</a>
+							<font style="vertical-align: inherit;">
+								<font style="vertical-align: inherit;" id="shipNavy">White eagle
+</font>
+							</font>
+						</td>
+						<td>
+							<b>
+								<font style="vertical-align: inherit;">
+									<font style="vertical-align: inherit;">Build Time</font>
+								</font>
+							</b>
+						</td>
+						<td>
+								<font style="vertical-align: inherit;">
+									<font style="vertical-align: inherit;" id="shipBuildTime">04:25:00</font>
+								</font>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<b>
+								<font style="vertical-align: inherit;">
+									<font style="vertical-align: inherit;">Aquisition</font>
+								</font>
+							</b>
+						</td>
+						<td colspan="4">
+								<font style="vertical-align: inherit;" id="shipAquisition">
+										<font style="vertical-align: inherit;">Limited time construction</font>
+								</font>
+						</td>
+					</tr>
+					
+					<tr>
+						<td style="padding-left: 0px;padding-right: 0px">
+							<b>
+								<font style="vertical-align: inherit;">
+									<font style="vertical-align: inherit;">Enhancement Income</font>
+								</font>
+							</b>
+						</td>
+						<td colspan="4">
+							<font style="vertical-align: inherit;">
+								<font style="vertical-align: inherit;" id="shipEnhancementIncome">Firepower 0 Torpedo 0 Aviation 68 Reload 9
+</font>
+							</font>
+						</td>
+					</tr>
+					<tr>
+						<td style="padding-left: 0px;padding-right: 0px">
+							<b>
+								<font style="vertical-align: inherit;">
+									<font style="vertical-align: inherit;">Scrap Income</font>
+								</font>
+							</b>
+						</td>
+						<td colspan="4">
+							<font style="vertical-align: inherit;">
+								<font style="vertical-align: inherit;" id="shipScrapIncome">Gold 9 Oil 3 Medal 10
+</font>
+							</font>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+
+
+</div>
+<!-- content -->
+<!-- content -->
+<!-- content -->
+            
+        </div>
+    </div>
+
+    <!-- jQuery CDN - Slim version (=without AJAX) -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <!-- Popper.JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
+    <!-- Bootstrap JS -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
+
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $('#sidebarCollapse').on('click', function () {
+                $('#sidebar').toggleClass('active');
+            });
+        });
+    </script>
+</body>
+
+</html>
