@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-    <title>Collapsible sidebar using Bootstrap 4</title>
+    <title>/alg/ - Azur Lane Wiki</title>
 
     <!-- Bootstrap CSS CDN -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
@@ -41,6 +41,7 @@
 		  // Parse JSON string into object
 			var actual_JSON = JSON.parse(response);
 			console.log(actual_JSON);
+			document.title = actual_JSON.prefix + " " + actual_JSON.name + " - /alg/ Azur Lane Wiki";
 			document.getElementById("shipHeader").innerHTML = actual_JSON.prefix + " " + actual_JSON.name + "\(JP: " + actual_JSON.nameJP + ", CN: " + actual_JSON.nameCN + "\)";
 			document.getElementById("shipID").innerHTML = actual_JSON.ID;
 			document.getElementById("shipStarRating").innerHTML = actual_JSON.initialStar;			
@@ -85,15 +86,17 @@
             </div>
 
             <ul class="list-unstyled components">
-                <li class="active">
+                <li>
                     <a href="#homeSubmenu">
                         Home
                     </a>
                 </li>
-                <li>
+                <li class="active">
                     <a href="#">
                         Ships
                     </a>
+				</li>
+				<li>
                     <a href="#pageSubmenu">
                         Equipments
                     </a>
