@@ -6,15 +6,13 @@ table.wikitable {
 	border-color: #515c6b;
     border-collapse: collapse;
     color: #ffffff;
+	height: 400px;
 }
 table.wikitable td {
 	border-style: solid;
 	border-width: 1px;
 	border-color: #515c6b;
     border-collapse: collapse;
-}
-.wikitable-a {	
-	height: 400px;
 }
 table.wikitablewide {
 	margin: 1em 0;
@@ -96,7 +94,7 @@ table.wikitablewide td {
 
 
 @media screen and (max-width: 1279px) {
-	.wikitable-a {	
-		height: 400px;
+	table.wikitable {
+		height: 450px;
 	}
 }
