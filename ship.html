@@ -119,11 +119,16 @@
 		console.log(obj);
 		
 		for (i = 0; i < obj.length; ++i){
-			if (obj[i].id == id) {
-				document.getElementById(id).className = 'btnContainer activeButton';
-			} else {
-				document.getElementById(obj[i].id).className = 'btnContainer';
-			}
+			var child = obj[i].children;
+			for (j = 0; j < child.length; ++j){
+				var identifier = child[i].id.substring(0,4);
+				console.log(identifier);
+				if (child[i].id == id) {
+					document.getElementById(id).className = 'btnContainer activeButton';
+				} else if (child[i].id != id && identifier == "ovr_"){
+					document.getElementById(obj[i].id).className = 'btnContainer';
+				}
+			}			
 		}
 	}
 	
