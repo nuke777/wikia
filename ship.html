@@ -139,7 +139,7 @@
 	
 	function loadShipSkinElements(skin){
 		document.getElementById("shipSkinDesc").innerHTML = skin.description;
-		document.getElementById("shipSkinSD").innerHTML = skin.sd;
+		document.getElementById("shipSkinSD").src = skin.sd;
 	}
 	
 	window.onload = function() {
@@ -521,7 +521,7 @@
 	<tr>
 		<td rowspan="3" id="shipSkinDisplay" style="width:50%;">
 		</td>
-		<td id="shipSkinDesc" style="width:50%;text-align:left;">
+		<td id="shipSkinDesc" style="width:50%;text-align:left;padding:10px;">
 		</td>
 	</tr>
 	<tr>
