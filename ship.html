@@ -144,6 +144,35 @@
 		document.getElementById("shipSkinSD").src = skin.sd;
 		document.getElementById("shipSkinName").innerHTML = skin.name;
 		document.getElementById("shipSkinDisplay").src = skin.image;
+		
+		removeShipExpressionNav();
+		setShipExpressionNav(skin);
+	}
+	
+	function setShipExpressionNav(data){
+		var firstIteration = true;
+		var initial = "";
+		for (x in data.expression) {
+			var container = document.createElement('img');
+			//container.setAttribute('onclick','onSkinNavButtonClick(\'' + JSON.stringify(data.skin[x]) + '\')');
+			if (firstIteration){
+				container.src = data.expression[x].icon;
+				firstIteration = false;
+				//initial = JSON.stringify(data.skin[x]);
+			} else {
+				container.src = data.expression[x].icon;
+			}
+			
+			document.getElementById('shipSkinExpressions').appendChild(container);
+		}
+		//onSkinNavButtonClick(initial);
+	}
+	
+	function removeShipExpressionNav(){
+		var myNode = document.getElementById('shipSkinExpressions');
+		while (myNode.firstChild) {
+			myNode.removeChild(myNode.firstChild);
+		}
 	}
 	
 	window.onload = function() {
@@ -507,13 +536,13 @@
 
 <div class="wideCol">
 
-<!-- Sprites -->
+<!-- Skins -->
 <table class="wikitablewide" style="width:100%;text-align:center">
 	<tr>
 		<td colspan="2"  style="background:#000000" id="shipRarityColor3">
 			<b>
 				<font style="vertical-align: inherit;">
-					<font style="vertical-align: inherit;">Sprites</font>
+					<font style="vertical-align: inherit;">Skins</font>
 				</font>
 			</b>
 		</td>
@@ -564,7 +593,16 @@
 		</td>
 	</tr>
 	<tr>
-		<td id="shipSkinExpressions" style="width:50%;">
+		<td style="width:50%;height:1px;">
+			<table class="wikitablewide" style="width:100%;height:100%;text-align:center;margin:0 0 0 0;">
+				<tr>
+					<td style="background:#262f3b">Expressions</td>
+				</tr>
+				<tr>
+					<td id="shipSkinExpressions" >
+					</td>
+				</tr>
+			</table>
 		</td>
 	</tr>
 </table>
