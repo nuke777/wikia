@@ -50,7 +50,7 @@
 			document.getElementById("shipHeader").innerHTML = actual_JSON.prefix + " " + actual_JSON.name + " \(JP: " + actual_JSON.nameJP + ", CN: " + actual_JSON.nameCN + "\)";
 			document.getElementById("shipID").innerHTML = actual_JSON.ID;
 			document.getElementById("shipStarRating").innerHTML = actual_JSON.initialStar;			
-			document.getElementById("shipStarRating").innerHTML = actual_JSON.initialStar;			
+			document.getElementById("shipRarity").innerHTML = actual_JSON.rarity;			
 			document.getElementById("shipHull").innerHTML = actual_JSON.hull;						
 			document.getElementById("shipNavy").innerHTML = actual_JSON.navy;					
 			document.getElementById("shipBuildTime").innerHTML = actual_JSON.buildTime;					
@@ -363,7 +363,7 @@
 					<font style="vertical-align: inherit;">Acquisition</font>
 				</b>
 			</td>
-			<td colspan="4" style="padding-left: 0px;padding-right: 0px">
+			<td colspan="4" style="text-align:left;padding-left:10px;">
 					<font style="vertical-align: inherit;" id="shipAcquisition"></font>
 			</td>
 		</tr>
