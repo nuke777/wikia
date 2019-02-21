@@ -45,7 +45,7 @@
 			var actual_JSON = JSON.parse(response);
 			console.log(actual_JSON);
 			document.title = actual_JSON.prefix + " " + actual_JSON.name + " - /alg/ Azur Lane Wiki";
-			document.getElementById("shipHeader").innerHTML = actual_JSON.prefix + " " + actual_JSON.name + "\(JP: " + actual_JSON.nameJP + ", CN: " + actual_JSON.nameCN + "\)";
+			document.getElementById("shipHeader").innerHTML = actual_JSON.prefix + " " + actual_JSON.name + " \(JP: " + actual_JSON.nameJP + ", CN: " + actual_JSON.nameCN + "\)";
 			document.getElementById("shipID").innerHTML = actual_JSON.ID;
 			document.getElementById("shipStarRating").innerHTML = actual_JSON.initialStar;			
 			document.getElementById("shipStarRating").innerHTML = actual_JSON.initialStar;			
@@ -523,7 +523,7 @@
 		</td>
 	</tr>
 	<tr>
-		<td rowspan="3"style="width:50%;">
+		<td rowspan="3"style="width:50%;height:1px;">
 			<table class="wikitablewide" style="width:100%;height:100%;text-align:center;margin:0 0 0 0;">
 				<tr>
 					<td style="background:#262f3b" id="shipSkinName"></td>
