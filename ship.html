@@ -97,17 +97,19 @@
 		var firstIteration = true;
 		for (x in data.skin) {
 			var container = document.createElement('div');
-			if (firstIteration)
-			{
-				container.className = 'btnContainer activeButton';
+			container.className = 'btnContainer';			
+			container.setAttribute('onclick','onSkinNavButtonClick("ovr_' + data.skin[x].id + '")');
+			if (firstIteration){
+				container.innerHTML = 
+				'<img class="btnImage" id="' + data.skin[x].id + '" src="' + data.skin[x].icon + '"></img>\
+				<div class="btnOverlay activeButton" id="ovr_' + data.skin[x].id+ '"></div>';
 				firstIteration = false;
 			} else {
-				container.className = 'btnContainer';
-			}
-			container.setAttribute('onclick','onSkinNavButtonClick("ovr_' + data.skin[x].id + '")');
-			container.innerHTML = 
+				container.innerHTML = 
 				'<img class="btnImage" id="' + data.skin[x].id + '" src="' + data.skin[x].icon + '"></img>\
 				<div class="btnOverlay" id="ovr_' + data.skin[x].id+ '"></div>';
+			}
+			
 			document.getElementById('shipSkinNav').appendChild(container);
 		}
 	}
