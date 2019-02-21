@@ -154,12 +154,13 @@
 		var initial = "";
 		for (x in data.expression) {
 			var container = document.createElement('img');
-			//container.setAttribute('onclick','onSkinNavButtonClick(\'' + JSON.stringify(data.skin[x]) + '\')');
+			container.id = "expr_" + data.expression[x].id;
+			container.setAttribute('onclick','onExpressionNavButtonClick(\'' + JSON.stringify(data.expression[x]) + '\')');
 			if (firstIteration){
 				container.src = data.expression[x].icon;
 				container.className = "btnExpr btnExprActive";
 				firstIteration = false;
-				//initial = JSON.stringify(data.skin[x]);
+				initial = JSON.stringify(data.expression[x]);
 			} else {
 				container.src = data.expression[x].icon;
 				container.className = "btnExpr";
@@ -167,7 +168,7 @@
 			
 			document.getElementById('shipSkinExpressions').appendChild(container);
 		}
-		//onSkinNavButtonClick(initial);
+		onExpressionNavButtonClick(initial);
 	}
 	
 	function removeShipExpressionNav(){
@@ -175,6 +176,24 @@
 		while (myNode.firstChild) {
 			myNode.removeChild(myNode.firstChild);
 		}
+	}
+	
+	function onExpressionNavButtonClick(raw_expr){
+		var expr = JSON.parse(raw_expr);		
+		var id = "expr_"+expr.id;
+		var obj = document.getElementById('shipSkinExpressions').children;
+		
+		for (i = 0; i < obj.length; ++i){
+			if (obj[i].id == id) {
+				document.getElementById(id).className = 'btnExpr btnExprActive';
+				loadShipSkinExpressionElements(expr);
+			} else if (obj[i].id != id){
+				document.getElementById(obj[i].id).className = 'btnExpr';		
+		}
+	}
+	
+	function loadShipSkinExpressionElements(expr){
+		document.getElementById("shipSkinDisplay").src = expr.full;
 	}
 	
 	window.onload = function() {
