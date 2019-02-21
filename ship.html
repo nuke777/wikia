@@ -142,6 +142,8 @@
 	function loadShipSkinElements(skin){
 		document.getElementById("shipSkinDesc").innerHTML = skin.description;
 		document.getElementById("shipSkinSD").src = skin.sd;
+		document.getElementById("shipSkinName").innerHTML = skin.name;
+		document.getElementById("shipSkinDisplay").src = skin.image;
 	}
 	
 	window.onload = function() {
@@ -521,7 +523,17 @@
 		</td>
 	</tr>
 	<tr>
-		<td rowspan="3" id="shipSkinDisplay" style="width:50%;">
+		<td rowspan="3"style="width:50%;">
+			<table class="wikitablewide" style="width:100%;height:100%;text-align:center;margin:0 0 0 0;">
+				<tr>
+					<td style="background:#262f3b" id="shipSkinName"></td>
+				</tr>
+				<tr>
+					<td> 
+						<img id="shipSkinDisplay" style="max-width:100%;height:auto;">
+					</td>
+				</tr>
+			</table>
 		</td>
 		<td id="shipSkinDesc" style="width:50%;text-align:left;padding:10px;">
 		</td>
