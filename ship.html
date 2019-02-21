@@ -127,14 +127,17 @@
 		
 		for (i = 0; i < obj.length; ++i){
 			var child = obj[i].children;
+			console.log("container " + i);
 			for (j = 0; j < child.length; ++j){
 				var identifier = child[j].id.substring(0,4);
-				console.log(child[j].id);
+				console.log(child[j].id + ", " + identifier);
 				if (child[j].id == id) {
 					document.getElementById(id).className = 'btnOverlay activeButton';
-					loadShipSkinElements(skin);					
+					loadShipSkinElements(skin);
+					console.log(id + " converted to active");
 				} else if (child[j].id != id && identifier == "ovr_"){
 					document.getElementById(child[j].id).className = 'btnOverlay';
+					console.log(child[j].id) + " converted to inactive");
 				}
 			}			
 		}
