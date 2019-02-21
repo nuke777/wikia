@@ -129,10 +129,10 @@
 			var child = obj[i].children;
 			for (j = 0; j < child.length; ++j){
 				var identifier = child[j].id.substring(0,4);
+				console.log(id);
 				if (child[j].id == id) {
 					document.getElementById(id).className = 'btnOverlay activeButton';
-					loadShipSkinElements(skin);
-					console.log(id);
+					loadShipSkinElements(skin);					
 				} else if (child[j].id != id && identifier == "ovr_"){
 					document.getElementById(child[j].id).className = 'btnOverlay';
 				}
