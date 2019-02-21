@@ -121,12 +121,12 @@
 		for (i = 0; i < obj.length; ++i){
 			var child = obj[i].children;
 			for (j = 0; j < child.length; ++j){
-				var identifier = child[i].id.substring(0,4);
+				var identifier = child[j].id.substring(0,4);
 				console.log(identifier);
-				if (child[i].id == id) {
+				if (child[j].id == id) {
 					document.getElementById(id).className = 'btnContainer activeButton';
-				} else if (child[i].id != id && identifier == "ovr_"){
-					document.getElementById(obj[i].id).className = 'btnContainer';
+				} else if (child[j].id != id && identifier == "ovr_"){
+					document.getElementById(child[j].id).className = 'btnContainer';
 				}
 			}			
 		}
