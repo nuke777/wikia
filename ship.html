@@ -55,7 +55,11 @@
 			document.getElementById("shipNavy").innerHTML = actual_JSON.navy;					
 			document.getElementById("shipBuildTime").innerHTML = actual_JSON.buildTime;					
 			document.getElementById("shipAcquisition").innerHTML = actual_JSON.acquisitionMethod;	
-			document.getElementById("shipEnhancementIncome").innerHTML = "Firepower: " + actual_JSON.enhance.firepower + "<br>Torpedo: " + actual_JSON.enhance.torpedo + "<br>Aviation: " + actual_JSON.enhance.aviation + "<br>Reload: " + actual_JSON.enhance.reload;
+			document.getElementById("shipEnhancementIncome").innerHTML = 
+				'<img src="https://i.imgur.com/bDXQQg8.png">&emsp;Firepower: ' + actual_JSON.enhance.firepower + 
+				'<br><img src="https://i.imgur.com/JNDOCmX.png">&emsp;Torpedo: ' + actual_JSON.enhance.torpedo + 
+				'<br><img src="https://i.imgur.com/iy5ZBP3.png">&emsp;Aviation: ' + actual_JSON.enhance.aviation + 
+				'<br><img src="https://i.imgur.com/XHoLMQ5.png">&emsp;Reload: ' + actual_JSON.enhance.reload;
 			document.getElementById("shipScrapIncome").innerHTML = "Gold: " + actual_JSON.scrap.gold + "<br>Oil: " + actual_JSON.scrap.oil + "<br>Medal: " + actual_JSON.scrap.medal;
 			document.getElementById("shipReleaseDate").innerHTML = "JP: " + actual_JSON.releaseDate.JP + "<br>CN: " + actual_JSON.releaseDate.CN + "<br>KR: " + actual_JSON.releaseDate.KR + "<br>EN: " + actual_JSON.releaseDate.EN;
 			document.getElementById("shipVoiceActress").innerHTML = actual_JSON.voiceActress;
@@ -393,7 +397,7 @@
 						</td>
 						<td colspan="4">
 								<font style="vertical-align: inherit;" id="shipAcquisition">
-										<font style="vertical-align: inherit;"></font>
+										<font style="text-align:left;vertical-align: inherit;"></font>
 								</font>
 						</td>
 					</tr>
