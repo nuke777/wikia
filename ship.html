@@ -23,7 +23,7 @@
 	function loadJSON(callback) {   
 		var hash = window.location.hash;
 		var hashTrimmed = hash.substr(1);
-		var path = "Ships/" + hashTrimmed + "/" + hashTrimmed + ".json";
+		var path = "Ships/" + hashTrimmed + ".json";
 		var xobj = new XMLHttpRequest();
 			xobj.overrideMimeType("application/json");
 		xobj.open('GET', path, true); // Replace 'my_data' with the path to your file
@@ -66,20 +66,41 @@
 			
 			document.getElementById("shipIcon").src = actual_JSON.imageSRC;
 			
-			if (actual_JSON.hull == "Aircraft Carrier" || actual_JSON.hull == "Light Aircraft Carrier") {
-				document.getElementById("shipHullIcon").src = "Images/Hull/CVicon.png";
-			}
-			
-			if (actual_JSON.navy == "Eagle Union") {
-				document.getElementById("shipNavyIcon").src = "Images/Navy/USSicon.png";
-			}
-			
-			if (actual_JSON.rarity == "Super Rare") {
-				document.getElementById("shipRarityColor").style = "background:#AEAB66";
-				document.getElementById("shipRarityColor2").style = "background:#AEAB66";
-			}
-			
+			setShipHullIcon(actual_JSON.hull);
+			setShipNavyIcon(actual_JSON.navy);
+			setShipRarityHighlight(actual_JSON.rarity);
+			setShipSkinNav(actual_JSON)
 		 });
+	}
+	
+	function setShipHullIcon(hull){
+		if (hull == "Aircraft Carrier" || hull == "Light Aircraft Carrier") {
+			document.getElementById("shipHullIcon").src = "https://i.imgur.com/tlBrE32.png";
+		}
+	}
+	
+	function setShipNavyIcon(navy){
+		if (navy == "Eagle Union") {
+			document.getElementById("shipNavyIcon").src = "https://i.imgur.com/19Od9ak.png";
+		}
+	}
+	
+	function setShipRarityHighlight(rarity){
+		if (rarity == "Super Rare") {
+			document.getElementById("shipRarityColor").style = "background:#AEAB66";
+			document.getElementById("shipRarityColor2").style = "background:#AEAB66";
+			document.getElementById("shipRarityColor3").style = "background:#AEAB66";
+		}
+	}
+	
+	function setShipSkinNav(data){
+		for (x in data.skin) {
+			var container = document.createElement('div');
+			container.className = 'btnContainer';
+			div.innerHTML = 
+				'<img class="btnImage" id="' + data.skin[x].id + '" src="' + data.skin[x].icon + '"></img>\
+				<div class="btnOverlay"></div>';
+		}
 	}
 	
 	window.onload = function() {
@@ -123,10 +144,10 @@
             
         </nav>
 
-        <!-- Page Content  -->
-        <div id="content" style="background-color:#515c6b">
+<!-- Page Content  -->
+<div id="content" style="background-color:#515c6b">
 
-            <nav class="navbar navbar-expand-lg navbar-light" style="background-color:#262f3b">
+<nav class="navbar navbar-expand-lg navbar-light" style="background-color:#262f3b">
                 <div class="container-fluid">
 
                     <!--<button type="button" id="sidebarCollapse" class="btn btn-secondary" style="background-color:#3b434e">
@@ -438,6 +459,46 @@
 			</tr>
 		</tbody>
 	</table>
+
+</div>
+
+<div class="wideCol">
+
+<!-- Sprites -->
+<table class="wikitablewide" style="width:100%;text-align:center">
+	<tr>
+		<td colspan="2"  style="background:#000000" id="shipRarityColor3">
+			<b>
+				<font style="vertical-align: inherit;">
+					<font style="vertical-align: inherit;">Sprites</font>
+				</font>
+			</b>
+		</td>
+	</tr>
+	<tr>
+		<td colspan="2" id="shipSkinNav">
+			<div class="btnContainer">
+				<img class="btnImage" id=""></img>
+				<div class="btnOverlay">
+				</div>
+			</div>
+		</td>
+	</tr>
+	<tr>
+		<td rowspan="3" id="shipSkinDisplay" style="width:50%;">
+		</td>
+		<td id="shipSkinDesc" style="width:50%;">
+		</td>
+	</tr>
+	<tr>
+		<td id="shipSkinSD" style="width:50%;">
+		</td>
+	</tr>
+	<tr>
+		<td id="shipSkinExpressions" style="width:50%;">
+		</td>
+	</tr>
+</table>
 
 </div>
 <!-- content -->

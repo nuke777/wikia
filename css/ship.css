@@ -14,15 +14,61 @@ table.wikitable td {
 	border-color: #515c6b;
     border-collapse: collapse;
 }
+table.wikitablewide {
+	margin: 1em 0;
+    background-color: #3b434e;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #515c6b;
+    border-collapse: collapse;
+    color: #ffffff;
+}
+table.wikitablewide td {
+	border-style: solid;
+	border-width: 1px;
+	border-color: #515c6b;
+    border-collapse: collapse;
+}
 .leftCol {
     float: left;
     width: 50%;
 }
 .rightCol {
-    float: left;
+	float: left;
     width: calc(50% - 10px);
     margin-left: 10px;
 }
+.wideCol {
+	width: 100%;
+}
+.btnContainer {
+	height: 35px;
+	width: 90px;
+	position: relative;
+	margin-left: 10px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.btnImage {
+	width: 100%;
+	height: 100%;
+	background-color: #ffffff;
+}
+.btnOverlay {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background-color: #262f3b;
+	overflow: hidden;
+	width: 100%;
+	height: 100%;
+	transition: .5s ease;
+}
+.btnContainer:hover .btnOverlay {
+	width: 0%;
+}
+
 
 
 @media screen and (max-width: 1279px) {
