@@ -97,9 +97,10 @@
 		for (x in data.skin) {
 			var container = document.createElement('div');
 			container.className = 'btnContainer';
-			div.innerHTML = 
+			container.innerHTML = 
 				'<img class="btnImage" id="' + data.skin[x].id + '" src="' + data.skin[x].icon + '"></img>\
 				<div class="btnOverlay"></div>';
+			document.getElementById('shipSkinNav').appendChild(container);
 		}
 	}
 	
@@ -477,11 +478,6 @@
 	</tr>
 	<tr>
 		<td colspan="2" id="shipSkinNav">
-			<div class="btnContainer">
-				<img class="btnImage" id=""></img>
-				<div class="btnOverlay">
-				</div>
-			</div>
 		</td>
 	</tr>
 	<tr>
