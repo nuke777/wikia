@@ -60,7 +60,10 @@
 				'<br><img src="https://i.imgur.com/JNDOCmX.png">&emsp;Torpedo: ' + actual_JSON.enhance.torpedo + 
 				'<br><img src="https://i.imgur.com/iy5ZBP3.png">&emsp;Aviation: ' + actual_JSON.enhance.aviation + 
 				'<br><img src="https://i.imgur.com/XHoLMQ5.png">&emsp;Reload: ' + actual_JSON.enhance.reload;
-			document.getElementById("shipScrapIncome").innerHTML = "Gold: " + actual_JSON.scrap.gold + "<br>Oil: " + actual_JSON.scrap.oil + "<br>Medal: " + actual_JSON.scrap.medal;
+			document.getElementById("shipScrapIncome").innerHTML = 
+				'<img src="https://i.imgur.com/ZYkCzss.png">&emspGold: ' + actual_JSON.scrap.gold + 
+				'<br><img src="https://i.imgur.com/gGlQE7q.png">&emspOil: ' + actual_JSON.scrap.oil + 
+				'<br><img src="https://i.imgur.com/gGlQE7q.png">&emspMedal: ' + actual_JSON.scrap.medal;
 			document.getElementById("shipReleaseDate").innerHTML = "JP: " + actual_JSON.releaseDate.JP + "<br>CN: " + actual_JSON.releaseDate.CN + "<br>KR: " + actual_JSON.releaseDate.KR + "<br>EN: " + actual_JSON.releaseDate.EN;
 			document.getElementById("shipVoiceActress").innerHTML = actual_JSON.voiceActress;
 			document.getElementById("shipIllustrator").innerHTML = actual_JSON.artist.name;
