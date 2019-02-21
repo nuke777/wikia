@@ -94,9 +94,16 @@
 	}
 	
 	function setShipSkinNav(data){
+		var firstIteration = true;
 		for (x in data.skin) {
 			var container = document.createElement('div');
-			container.className = 'btnContainer';
+			if (firstIteration)
+			{
+				container.className = 'btnContainer activeButton';
+				firstIteration = false;
+			} else {
+				container.className = 'btnContainer';
+			}
 			container.setAttribute('onclick','onSkinNavButtonClick("ovr_' + data.skin[x].id + '")');
 			container.innerHTML = 
 				'<img class="btnImage" id="' + data.skin[x].id + '" src="' + data.skin[x].icon + '"></img>\
@@ -106,7 +113,15 @@
 	}
 	
 	function onSkinNavButtonClick(id){
-		document.getElementById(id).className = 'btnContainer activeButton';
+		var obj = document.getElementById('shipSkinNav').children;
+		
+		for (i = 0; i < obj.length; ++i){
+			if (obj[i].id == id) {
+				document.getElementById(id).className = 'btnContainer activeButton';
+			} else {
+				document.getElementById(obj[i].id).className = 'btnContainer';
+			}
+		}
 	}
 	
 	window.onload = function() {
