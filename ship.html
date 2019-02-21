@@ -129,7 +129,7 @@
 			var child = obj[i].children;
 			for (j = 0; j < child.length; ++j){
 				var identifier = child[j].id.substring(0,4);
-				console.log(id);
+				console.log(child[j].id);
 				if (child[j].id == id) {
 					document.getElementById(id).className = 'btnOverlay activeButton';
 					loadShipSkinElements(skin);					
@@ -139,6 +139,12 @@
 			}			
 		}
 	}
+	
+	//image
+	//ovr
+	
+	//image
+	//ovr
 	
 	function loadShipSkinElements(skin){
 		document.getElementById("shipSkinDesc").innerHTML = skin.description;
