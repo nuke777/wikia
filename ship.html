@@ -6,7 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-    <title>/alg/ - Azur Lane Wiki</title>
+    <title>/alg/ - Azur Lane General Wiki</title>
+	
+	<link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
 
     <!-- Bootstrap CSS CDN -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
@@ -44,7 +46,7 @@
 		  // Parse JSON string into object
 			var actual_JSON = JSON.parse(response);
 			console.log(actual_JSON);
-			document.title = actual_JSON.prefix + " " + actual_JSON.name + " - /alg/ Azur Lane Wiki";
+			document.title = actual_JSON.prefix + " " + actual_JSON.name + " - /alg/ Azur Lane General Wiki";
 			document.getElementById("shipHeader").innerHTML = actual_JSON.prefix + " " + actual_JSON.name + " \(JP: " + actual_JSON.nameJP + ", CN: " + actual_JSON.nameCN + "\)";
 			document.getElementById("shipID").innerHTML = actual_JSON.ID;
 			document.getElementById("shipStarRating").innerHTML = actual_JSON.initialStar;			
@@ -219,7 +221,7 @@
 
             <ul class="list-unstyled components">
                 <li>
-                    <a href="#homeSubmenu">
+                    <a href="./">
                         Home
                     </a>
                 </li>
