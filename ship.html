@@ -97,11 +97,16 @@
 		for (x in data.skin) {
 			var container = document.createElement('div');
 			container.className = 'btnContainer';
+			container.setAttribute('onclick','onSkinNavButtonClick(ovr_' + data.skin[x].id + ')');
 			container.innerHTML = 
 				'<img class="btnImage" id="' + data.skin[x].id + '" src="' + data.skin[x].icon + '"></img>\
-				<div class="btnOverlay"></div>';
+				<div class="btnOverlay" id="ovr_' + data.skin[x].id+ '"></div>';
 			document.getElementById('shipSkinNav').appendChild(container);
 		}
+	}
+	
+	function onSkinNavButtonClick(id){
+		document.getElementById(id).className = 'btnContainer activeButton';
 	}
 	
 	window.onload = function() {
