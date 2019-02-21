@@ -99,7 +99,7 @@
 	function setShipSkinNav(data){
 		var firstIteration = true;
 		var initial = "";
-		for (x in data.skin) {
+		for (var x in data.skin) {
 			var container = document.createElement('div');
 			container.className = 'btnContainer';			
 			container.setAttribute('onclick','onSkinNavButtonClick(\'' + JSON.stringify(data.skin[x]) + '\')');
@@ -153,7 +153,7 @@
 	function setShipExpressionNav(data){
 		var firstIteration = true;
 		var initial = "";
-		for (x in data.expression) {
+		for (var x in data.expression) {
 			var container = document.createElement('img');
 			container.id = "expr_" + data.expression[x].id;
 			container.setAttribute('onclick','onExpressionNavButtonClick(\'' + JSON.stringify(data.expression[x]) + '\')');
