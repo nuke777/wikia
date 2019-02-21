@@ -20,6 +20,9 @@
 	
 	<!-- Fetch Script -->
 	<script>
+	
+	window.skinData = null;
+	
 	function loadJSON(callback) {   
 		var hash = window.location.hash;
 		var hashTrimmed = hash.substr(1);
@@ -98,7 +101,7 @@
 		for (x in data.skin) {
 			var container = document.createElement('div');
 			container.className = 'btnContainer';			
-			container.setAttribute('onclick','onSkinNavButtonClick("ovr_' + data.skin[x].id + '")');
+			container.setAttribute('onclick','onSkinNavButtonClick("' + JSON.stringify(data.skin[x]) + '")');
 			if (firstIteration){
 				container.innerHTML = 
 				'<img class="btnImage" id="' + data.skin[x].id + '" src="' + data.skin[x].icon + '"></img>\
@@ -114,7 +117,9 @@
 		}
 	}
 	
-	function onSkinNavButtonClick(id){
+	function onSkinNavButtonClick(raw_skin){
+		var skin = JSON.parse(raw_skin);
+		var id = "ovr_"+skin.id;
 		var obj = document.getElementById('shipSkinNav').children;
 		
 		for (i = 0; i < obj.length; ++i){
@@ -128,6 +133,11 @@
 				}
 			}			
 		}
+	}
+	
+	function loadShipSkinElements(skin){
+		document.getElementById("shipSkinDesc").innerHTML = skin.description;
+		document.getElementById("shipSkinSD").innerHTML = skin.sd;
 	}
 	
 	window.onload = function() {
@@ -509,11 +519,12 @@
 	<tr>
 		<td rowspan="3" id="shipSkinDisplay" style="width:50%;">
 		</td>
-		<td id="shipSkinDesc" style="width:50%;">
+		<td id="shipSkinDesc" style="width:50%;text-align:left;">
 		</td>
 	</tr>
 	<tr>
-		<td id="shipSkinSD" style="width:50%;">
+		<td style="width:50%;">
+			<img id="shipSkinSD">
 		</td>
 	</tr>
 	<tr>
