@@ -59,10 +59,9 @@
 			document.getElementById("shipEnhancementTorpedo").innerHTML = actual_JSON.enhance.torpedo;
 			document.getElementById("shipEnhancementAviation").innerHTML = actual_JSON.enhance.aviation;
 			document.getElementById("shipEnhancementReload").innerHTML = actual_JSON.enhance.reload;
-			document.getElementById("shipScrapIncome").innerHTML = 
-				'<img src="https://i.imgur.com/ZYkCzss.png">&emsp;Gold: ' + actual_JSON.scrap.gold + 
-				'<br><img src="https://i.imgur.com/gGlQE7q.png">&emsp;Oil: ' + actual_JSON.scrap.oil + 
-				'<br><img src="https://i.imgur.com/ZfY8Jl8.png">&emsp;Medal: ' + actual_JSON.scrap.medal;
+			document.getElementById("shipScrapIncomeGold").innerHTML = actual_JSON.scrap.gold; 
+			document.getElementById("shipScrapIncomeOil").innerHTML = actual_JSON.scrap.oil;
+			document.getElementById("shipScrapIncomeMedal").innerHTML = actual_JSON.scrap.medal;
 			document.getElementById("shipReleaseDate").innerHTML = "JP: " + actual_JSON.releaseDate.JP + "<br>CN: " + actual_JSON.releaseDate.CN + "<br>KR: " + actual_JSON.releaseDate.KR + "<br>EN: " + actual_JSON.releaseDate.EN;
 			document.getElementById("shipVoiceActress").innerHTML = actual_JSON.voiceActress;
 			document.getElementById("shipIllustrator").innerHTML = actual_JSON.artist.name;
@@ -376,7 +375,6 @@
 				</b>
 			</td>
 			<td colspan="4" style="text-align:left;height:1px;">
-				<!--<font style="vertical-align: inherit;" id="shipEnhancementIncome"></font>-->
 				<table class="wikitablewide" style="width:100%;height:100%;text-align:left;margin:0 0 0 0;">
 					<tr>
 						<td style="width:70%"><img src="https://i.imgur.com/bDXQQg8.png">&emsp;Firepower</td>
@@ -404,7 +402,21 @@
 				</b>
 			</td>
 			<td colspan="4" style="text-align:left;padding-left:10px;">
-				<font style="vertical-align: inherit;" id="shipScrapIncome"></font>
+				<!--<font style="vertical-align: inherit;" id="shipScrapIncome"></font>-->
+				<table class="wikitablewide" style="width:100%;height:100%;text-align:left;margin:0 0 0 0;">
+					<tr>
+						<td style="width:70%"><img src="https://i.imgur.com/ZYkCzss.png">&emsp;Gold</td>
+						<td style="padding-left:5px" id="shipScrapIncomeGold"></td>
+					<tr>
+					<tr>
+						<td style="width:70%"><img src="https://i.imgur.com/gGlQE7q.png">&emsp;Oil</td>
+						<td style="padding-left:5px" id="shipScrapIncomeOil"></td>
+					<tr>
+					<tr>
+						<td style="width:70%"><img src="https://i.imgur.com/ZfY8Jl8.png">&emsp;Medal</td>
+						<td style="padding-left:5px" id="shipScrapIncomeMedal"></td>
+					<tr>
+				</table>
 			</td>
 		</tr>
 	</tbody>
