@@ -116,14 +116,50 @@ table.wikitablewide td {
 	cursor: pointer; 
 	box-shadow: 1px 1px 4px white, -1px 1px 4px white, 1px -1px 4px white, -1px -1px 4px white;
 }
-.btnGeneric {
+.btnGeneric {	
 	float: left;
-	height: 30px;
-	border-radius: 2.5px;
+	height: 1px;
+    width: 1px;
 	margin-left: 10px;
 	margin-top: 10px;
 	margin-bottom: 10px;
+}
+.btnGenericText {
+	height: 35px;
+    text-align: center;
+    vertical-align: middle;
+    display: table-cell;
+    background-color:#262f3b;    
+	border-radius: 5px;
+    border-color:gray;
+    border-style:solid;
+    border-width:1px;
 	cursor: pointer;  
+    padding: 0px 15px 0px 15px;
+    font-size: 20;
+    color:white;
+}
+.btnGenericText:hover {
+	box-shadow: 0px 0px 10px white;
+}
+.btnGenericText:active {
+	box-shadow: 1px 1px 4px white, -1px 1px 4px white, 1px -1px 4px white, -1px -1px 4px white;
+}
+.btnGenericTextActive{
+	height: 35px;
+    text-align: center;
+    vertical-align: middle;
+    display: table-cell;
+    background-color:#262f3b;    
+	border-radius: 5px;
+    border-color:gray;
+    border-style:solid;
+    border-width:1px;
+	cursor: pointer;  
+    padding: 0px 15px 0px 15px;
+    font-size: 20;
+    color:white;
+    box-shadow: 1px 1px 4px white, -1px 1px 4px white, 1px -1px 4px white, -1px -1px 4px white;
 }
 
 
