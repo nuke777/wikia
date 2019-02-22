@@ -215,17 +215,37 @@
 		document.getElementById("shipSkinDisplay").src = expr.full;
 	}
 	
-	function setActiveFromButtonGroup(idList, activeId){
+	function setActiveFromButtonGroup(idList, activeId, jsonID){
 		document.getElementById(activeId).className = "btnGenericTextActive";
 		for (var i = 0; i < idList.length; ++i){
 			if (idList[i] != activeId){
 				document.getElementById(idList[i]).className = "btnGenericText";
 			}
 		}
+		loadActiveStats(jsonID);
+	}
+	
+	function loadActiveStats(stats){
+		loadJSON(function(response) {
+			var actual_JSON = JSON.parse(response);
+			document.getElementById("shipStatsHP").innerHTML = actual_JSON.stats[stats].hp;
+			document.getElementById("shipStatsReload").innerHTML = actual_JSON.stats[stats].reload;
+			document.getElementById("shipStatsFirepower").innerHTML = actual_JSON.stats[stats].firepower;
+			document.getElementById("shipStatsTorpedo").innerHTML = actual_JSON.stats[stats].torpedo;
+			document.getElementById("shipStatsEvasion").innerHTML = actual_JSON.stats[stats].evasion;
+			document.getElementById("shipStatsAntiAir").innerHTML = actual_JSON.stats[stats].antiAir;
+			document.getElementById("shipStatsAviation").innerHTML = actual_JSON.stats[stats].aviation;
+			document.getElementById("shipStatsCost").innerHTML = actual_JSON.stats[stats].cost;
+			document.getElementById("shipStatsASW").innerHTML = actual_JSON.stats[stats].asw;
+			document.getElementById("shipStatsSpeed").innerHTML = actual_JSON.stats[stats].speed;
+			document.getElementById("shipStatsArmor").innerHTML = actual_JSON.stats[stats].armor;
+			
+		});
 	}
 	
 	window.onload = function() {
 	  init();
+	  loadActiveStats("base");
 	};
 	
 	</script>
@@ -667,7 +687,7 @@
 		<td style="padding-left:5px" id="shipParameterFirepower"></td>
 	</tr>
 	<tr>
-		<td colspan="2" style="background:#262f3b;height:30px">
+		<td colspan="2" style="background:#262f3b;height:30px;text-align:center">
 			<b>
 				<font style="vertical-align: inherit;">Stats</font>
 			</b>
@@ -676,14 +696,54 @@
 	<tr>
 		<td colspan="2">
 			<div class="btnGeneric">
-				<div class="btnGenericText" id="shipStatBase" onclick='setActiveFromButtonGroup(["shipStatBase","shipStatMax","shipStatMaxKai"],"shipStatBase")'>Base</div>
+				<div class="btnGenericText" id="shipStatBase" onclick='setActiveFromButtonGroup(["shipStatBase","shipStatMax","shipStatMaxKai"],"shipStatBase","base")'>Base</div>
 			</div>
 			<div class="btnGeneric">
-				<div class="btnGenericText" id="shipStatMax" onclick='setActiveFromButtonGroup(["shipStatBase","shipStatMax","shipStatMaxKai"],"shipStatMax")'>Lv. 120</div>
+				<div class="btnGenericText" id="shipStatMax" onclick='setActiveFromButtonGroup(["shipStatBase","shipStatMax","shipStatMaxKai"],"shipStatMax","120")'>Lv. 120</div>
 			</div>
 			<div class="btnGeneric">
-				<div class="btnGenericText" id="shipStatMaxKai" onclick='setActiveFromButtonGroup(["shipStatBase","shipStatMax","shipStatMaxKai"],"shipStatMaxKai")'>Retrofit (120)</div>
+				<div class="btnGenericText" id="shipStatMaxKai" onclick='setActiveFromButtonGroup(["shipStatBase","shipStatMax","shipStatMaxKai"],"shipStatMaxKai","120retrofit)'>Retrofit (120)</div>
 			</div>
+		</td>
+	</tr>
+	<tr>
+		<td colspan="2" style="text-align:left;height:1px;">
+			<table class="wikitablewide" style="width:100%;height:100%;text-align:left;margin:0 0 0 0;">
+				<tr>
+					<td style="width:35%;padding-left:5px"><img src="https://i.imgur.com/FrqZYPR.png">&emsp;HP</td>
+					<td style="width:15%;text-align:center" id="shipStatsHP"></td>
+					<td style="width:35%;padding-left:5px"><img src="https://i.imgur.com/XHoLMQ5.png">&emsp;Reload</td>
+					<td style="width:15%;text-align:center" id="shipStatsReload"></td>
+				</tr>
+				<tr>
+					<td style="width:35%;padding-left:5px"><img src="https://i.imgur.com/bDXQQg8.png">&emsp;Firepower</td>
+					<td style="width:15%;text-align:center" id="shipStatsFirepower"></td>
+					<td style="width:35%;padding-left:5px"><img src="https://i.imgur.com/JNDOCmX.png">&emsp;Torpedo</td>
+					<td style="width:15%;text-align:center" id="shipStatsTorpedo"></td>
+				</tr>
+				<tr>
+					<td style="width:35%;padding-left:5px"><img src="https://i.imgur.com/oOsVAXZ.png">&emsp;Evasion</td>
+					<td style="width:15%;text-align:center" id="shipStatsEvasion"></td>
+					<td style="width:35%;padding-left:5px"><img src="https://i.imgur.com/2DLhZpS.png">&emsp;Anti-air</td>
+					<td style="width:15%;text-align:center" id="shipStatsAntiAir"></td>
+				</tr>
+				<tr>
+					<td style="width:35%;padding-left:5px"><img src="https://i.imgur.com/iy5ZBP3.png">&emsp;Aviation</td>
+					<td style="width:15%;text-align:center" id="shipStatsAviation"></td>
+					<td style="width:35%;padding-left:5px"><img src="https://i.imgur.com/mZDSI98.png">&emsp;Cost</td>
+					<td style="width:15%;text-align:center" id="shipStatsCost"></td>
+				</tr>
+				<tr>
+					<td style="width:35%;padding-left:5px"><img src="https://i.imgur.com/e9y5Y8x.png">&emsp;ASW</td>
+					<td style="width:15%;text-align:center" id="shipStatsASW"></td>
+					<td style="width:35%;padding-left:5px">Speed</td>
+					<td style="width:15%;text-align:center" id="shipStatsSpeed"></td>
+				</tr>
+				<tr>
+					<td style="padding-left:5px"><img src="https://i.imgur.com/e7GKwuJ.png">&emsp;Armor</td>
+					<td colspan="3" style="text-align:center" id="shipStatsArmor"></td>
+				</tr>
+			</table>
 		</td>
 	</tr>
 </table>
