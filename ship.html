@@ -55,11 +55,10 @@
 			document.getElementById("shipNavy").innerHTML = actual_JSON.navy;					
 			document.getElementById("shipBuildTime").innerHTML = actual_JSON.buildTime;					
 			document.getElementById("shipAcquisition").innerHTML = actual_JSON.acquisitionMethod;	
-			document.getElementById("shipEnhancementIncome").innerHTML = 
-				'<img src="https://i.imgur.com/bDXQQg8.png">&emsp;Firepower: ' + actual_JSON.enhance.firepower + 
-				'<br><img src="https://i.imgur.com/JNDOCmX.png">&emsp;Torpedo: ' + actual_JSON.enhance.torpedo + 
-				'<br><img src="https://i.imgur.com/iy5ZBP3.png">&emsp;Aviation: ' + actual_JSON.enhance.aviation + 
-				'<br><img src="https://i.imgur.com/XHoLMQ5.png">&emsp;Reload: ' + actual_JSON.enhance.reload;
+			document.getElementById("shipEnhancementFirepower").innerHTML = actual_JSON.enhance.firepower;
+			document.getElementById("shipEnhancementTorpedo").innerHTML = actual_JSON.enhance.torpedo;
+			document.getElementById("shipEnhancementAviation").innerHTML = actual_JSON.enhance.aviation;
+			document.getElementById("shipEnhancementReload").innerHTML = actual_JSON.enhance.reload;
 			document.getElementById("shipScrapIncome").innerHTML = 
 				'<img src="https://i.imgur.com/ZYkCzss.png">&emsp;Gold: ' + actual_JSON.scrap.gold + 
 				'<br><img src="https://i.imgur.com/gGlQE7q.png">&emsp;Oil: ' + actual_JSON.scrap.oil + 
@@ -376,8 +375,26 @@
 					<font style="vertical-align: inherit;">Enhance Income</font>
 				</b>
 			</td>
-			<td colspan="4" style="text-align:left;padding-left:10px;">
-				<font style="vertical-align: inherit;" id="shipEnhancementIncome"></font>
+			<td colspan="4" style="text-align:left;height:1px;">
+				<!--<font style="vertical-align: inherit;" id="shipEnhancementIncome"></font>-->
+				<table class="wikitablewide" style="width:100%;height:100%;text-align:center;margin:0 0 0 0;">
+					<tr>
+						<td><img src="https://i.imgur.com/bDXQQg8.png">&emsp;Firepower</td>
+						<td id="shipEnhancementFirepower"></td>
+					<tr>
+					<tr>
+						<td><img src="https://i.imgur.com/JNDOCmX.png">&emsp;Torpedo</td>
+						<td id="shipEnhancementTorpedo"></td>
+					<tr>
+					<tr>
+						<td><img src="https://i.imgur.com/iy5ZBP3.png">&emsp;Aviation</td>
+						<td id="shipEnhancementAviation"></td>
+					<tr>
+					<tr>
+						<td><img src="https://i.imgur.com/XHoLMQ5.png">&emsp;Reload</td>
+						<td id="shipEnhancementReload"></td>
+					<tr>
+				</table>
 			</td>
 		</tr>
 		<tr>
@@ -401,125 +418,95 @@
 
 <table class="wikitable" style="width:100%;text-align:center">
 	<tbody>
-			<tr>
-				<td colspan="2"  style="background:#000000;height:30px" id="shipRarityColor2">
-					<b>
-						<font style="vertical-align: inherit;">
-							<font style="vertical-align: inherit;">Information</font>
-						</font>
-					</b>
-				</td>
-			</tr>
-			<tr>
-				<td>
-					<b>
-						<font style="vertical-align: inherit;">
-							<font style="vertical-align: inherit;">Release Date</font>
-						</font>
-					</b>
-				</td>
-				<td>
-					<font style="vertical-align: inherit;">
-						<font style="vertical-align: inherit;" id="shipReleaseDate"></font>
-					</font>
-				</td>
-			</tr>
-			<tr>
-				<td>
-					<b>
-						<font style="vertical-align: inherit;">
-							<font style="vertical-align: inherit;">Voice Actress</font>
-						</font>
-					</b>
-				</td>
-				<td>
-					<font style="vertical-align: inherit;">
-						<font style="vertical-align: inherit;" id="shipVoiceActress"></font>
-					</font>
-				</td>
-			</tr>
-			<tr>
-				<td colspan="2" style="background:#262f3b;height:30px">
-					<b>
-						<font style="vertical-align: inherit;">
-							<font style="vertical-align: inherit;">Illustrator</font>
-						</font>
-					</b>
-				</td>
-			</tr>
-			<tr>
-				<td colspan="2">
-					<font style="vertical-align: inherit;">
-						<font style="vertical-align: inherit;" id="shipIllustrator"></font>
-					</font>
-				</td>
-			</tr>
-			<tr>
-				<td style="width:20%">
-					<b>
-						<font style="vertical-align: inherit;">
-							<font style="vertical-align: inherit;">Weibo</font>
-						</font>
-					</b>
-				</td>
-				<td style="width:80%">
-					<a class="external text" id="shipIllusWeiboLink">
-						<font style="vertical-align: inherit;">
-							<font style="vertical-align: inherit;" id="shipIllusWeibo"></font>
-						</font>
-					</a>
-				</td>
-			</tr>
-			<tr>
-				<td>
-					<b>
-						<font style="vertical-align: inherit;">
-							<font style="vertical-align: inherit;">Twitter</font>
-						</font>
-					</b>
-				</td>
-				<td>
-					<a class="external text" id="shipIllusTwitterLink">
-						<font style="vertical-align: inherit;">
-							<font style="vertical-align: inherit;" id="shipIllusTwitter"></font>
-						</font>
-					</a>
-				</td>
-			</tr>
-			<tr>
-				<td>
-					<b>
-						<font style="vertical-align: inherit;">
-							<font style="vertical-align: inherit;">Pixiv</font>
-						</font>
-					</b>
-				</td>
-				<td>
-					<a class="external text" id="shipIllusPixivLink">
-						<font style="vertical-align: inherit;">
-							<font style="vertical-align: inherit;" id="shipIllusPixiv"></font>
-						</font>
-					</a>
-				</td>
-			</tr>
-			<tr>
-				<td>
-					<b>
-						<font style="vertical-align: inherit;">
-							<font style="vertical-align: inherit;">Other</font>
-						</font>
-					</b>
-				</td>
-				<td>
-					<a class="external text" id="shipIllusOtherLink">
-						<font style="vertical-align: inherit;">
-							<font style="vertical-align: inherit;" id="shipIllusOther"></font>
-						</font>
-					</a>
-				</td>
-			</tr>
-		</tbody>
-	</table>
+		<tr>
+			<td colspan="2"  style="background:#000000;height:30px" id="shipRarityColor2">
+				<b>
+					<font style="vertical-align: inherit;">Information</font>
+				</b>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<b>
+					<font style="vertical-align: inherit;">Release Date</font>
+				</b>
+			</td>
+			<td>
+					<font style="vertical-align: inherit;" id="shipReleaseDate"></font>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<b>
+					<font style="vertical-align: inherit;">Voice Actress</font>
+				</b>
+			</td>
+			<td>
+				<font style="vertical-align: inherit;" id="shipVoiceActress"></font>
+			</td>
+		</tr>
+		<tr>
+			<td colspan="2" style="background:#262f3b;height:30px">
+				<b>
+					<font style="vertical-align: inherit;">Illustrator</font>
+				</b>
+			</td>
+		</tr>
+		<tr>
+			<td colspan="2">
+				<font style="vertical-align: inherit;" id="shipIllustrator"></font>
+			</td>
+		</tr>
+		<tr>
+			<td style="width:20%">
+				<b>
+					<font style="vertical-align: inherit;">Weibo</font>
+				</b>
+			</td>
+			<td style="width:80%">
+				<a class="external text" id="shipIllusWeiboLink">
+					<font style="vertical-align: inherit;" id="shipIllusWeibo"></font>
+				</a>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<b>
+					<font style="vertical-align: inherit;">Twitter</font>
+				</b>
+			</td>
+			<td>
+				<a class="external text" id="shipIllusTwitterLink">
+					<font style="vertical-align: inherit;" id="shipIllusTwitter"></font>
+				</a>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<b>
+					<font style="vertical-align: inherit;">Pixiv</font>
+				</b>
+			</td>
+			<td>
+				<a class="external text" id="shipIllusPixivLink">
+					<font style="vertical-align: inherit;" id="shipIllusPixiv"></font>
+				</a>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<b>
+					<font style="vertical-align: inherit;">Other</font>
+				</b>
+			</td>
+			<td>
+				<a class="external text" id="shipIllusOtherLink">
+					<font style="vertical-align: inherit;" id="shipIllusOther"></font>
+				</a>
+			</td>
+		</tr>
+	</tbody>
+</table>
 
 </div>
 
