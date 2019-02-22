@@ -75,9 +75,15 @@
 			document.getElementById("shipIllusPixiv").innerHTML = actual_JSON.artist.name;
 			document.getElementById("shipIllusPixivLink").href = actual_JSON.artist.pixiv;
 			document.getElementById("shipIllusOther").innerHTML = actual_JSON.artist.name;
-			document.getElementById("shipIllusOtherLink").href = actual_JSON.artist.other;
-			
+			document.getElementById("shipIllusOtherLink").href = actual_JSON.artist.other;			
 			document.getElementById("shipIcon").src = actual_JSON.imageSRC;
+			document.getElementById("shipParameterHP").innerHTML = actual_JSON.parameters.hp;
+			document.getElementById("shipParameterAntiAir").innerHTML = actual_JSON.parameters.antiAir;
+			document.getElementById("shipParameterEvasion").innerHTML = actual_JSON.parameters.evasion;
+			document.getElementById("shipParameterAviation").innerHTML = actual_JSON.parameters.aviation;
+			document.getElementById("shipParameterTorpedo").innerHTML = actual_JSON.parameters.torpedo;
+			document.getElementById("shipParameterFirepower").innerHTML = actual_JSON.parameters.firepower;
+			
 			
 			setShipHullIcon(actual_JSON.hull);
 			setShipNavyIcon(actual_JSON.navy);
@@ -103,6 +109,7 @@
 			document.getElementById("shipRarityColor").style = "background:#AEAB66;height:30px";
 			document.getElementById("shipRarityColor2").style = "background:#AEAB66;height:30px";
 			document.getElementById("shipRarityColor3").style = "background:#AEAB66;height:30px";
+			document.getElementById("shipRarityColor4").style = "background:#AEAB66;height:30px";
 		}
 	}
 	
@@ -219,7 +226,7 @@
 
 <body>
 
-    <div class="wrapper">
+<div class="wrapper">
         <!-- Sidebar  -->
         <nav id="sidebar">
             <div class="sidebar-header">
@@ -612,6 +619,48 @@
 </table>
 
 </div>
+
+<div class="leftCol">
+
+<!-- -->
+<table class="wikitable-a" style="width:100%;">
+	<tr style="text-align:center">
+		<td colspan="2"  style="background:#000000;height:30px" id="shipRarityColor4">
+			<b>
+				<font style="vertical-align: inherit;">
+					<font style="vertical-align: inherit;">Parameters</font>
+				</font>
+			</b>
+		</td>
+	</tr>
+	<tr>
+		<td style="width:70%"><img src="https://i.imgur.com/FrqZYPR.png">&emsp;HP</td>
+		<td style="padding-left:5px" id="shipParameterHP"></td>
+	</tr>
+	<tr>
+		<td style="width:70%"><img src="https://i.imgur.com/2DLhZpS.png">&emsp;Anti-air</td>
+		<td style="padding-left:5px" id="shipParameterAntiAir"></td>
+	</tr>
+	<tr>
+		<td style="width:70%"><img src="https://i.imgur.com/2DLhZpS.png">&emsp;Evasion</td>
+		<td style="padding-left:5px" id="shipParameterEvasion"></td>
+	</tr>
+	<tr>
+		<td style="width:70%"><img src="https://i.imgur.com/iy5ZBP3.png">&emsp;Aviation</td>
+		<td style="padding-left:5px" id="shipParameterAviation"></td>
+	</tr>
+	<tr>
+		<td style="width:70%"><img src="https://i.imgur.com/JNDOCmX.png">&emsp;Torpedo</td>
+		<td style="padding-left:5px" id="shipParameterTorpedo"></td>
+	</tr>
+	<tr>
+		<td style="width:70%"><img src="https://i.imgur.com/bDXQQg8.png">&emsp;Firepower</td>
+		<td style="padding-left:5px" id="shipParameterFirepower"></td>
+	</tr>
+</table>
+
+</div>
+
 <!-- content -->
 <!-- content -->
 <!-- content -->
