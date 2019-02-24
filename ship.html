@@ -113,7 +113,8 @@
 			setShipHullIcon(actual_JSON.hull);
 			setShipNavyIcon(actual_JSON.navy);
 			setShipRarityHighlight(actual_JSON.rarity);
-			setShipSkinNav(actual_JSON)
+			setShipSkinNav(actual_JSON);
+			setDefaultEquipment(actual_JSON);
 		 });
 	}
 	
@@ -269,6 +270,24 @@
 		});
 	}
 	
+	function setDefaultEquipment(data){
+		var i = 1;
+		var text = "";
+		for (var x in data.defaultEquipment) {
+			text = text + '\
+			<tr style="text-align:center">\
+				<td style="width:20%">'+i+'</td>\
+				<td style="width:80%">'+data.defaultEquipment[x]+'</td>\
+			</tr>';
+			++i;			
+		}
+		document.getElementById("shipDefaultEquipment").innerHTML = text;
+	}
+	
+	<tr style="text-align:center">
+		<td>1</td>
+		<td style="width:80%">F6F Hellcat</td>		
+	</tr>
 	window.onload = function() {
 	  init();
 	  setActiveFromButtonGroup(["shipStatBase","shipStatMax","shipStatMaxKai"],"shipStatBase","base");
@@ -781,7 +800,7 @@
 <div class="rightCol">
 
 <!-- Equipments -->
-<table class="wikitable-a" style="width:100%;">
+<table class="wikitable-a" style="width:100%;" id="shipEquipmentTable">
 	<tr style="text-align:center">
 		<td colspan="5"  style="background:#000000;height:30px" id="shipRarityColor5">
 			<b>
@@ -870,17 +889,12 @@
 			</b>
 		</td>
 	</tr>
-	<tr style="text-align:center">
-		<td id="def_eq_no_">1</td>
-		<td id="def_eq_name_" colspan="4">F6F Hellcat</td>		
-	</tr>
-	<tr style="text-align:center">
-		<td id="def_eq_no_">1</td>
-		<td id="def_eq_name_" colspan="4">F6F Hellcat</td>		
-	</tr>
-	<tr style="text-align:center">
-		<td id="def_eq_no_">1</td>
-		<td id="def_eq_name_" colspan="4">F6F Hellcat</td>		
+	<tr>
+		<td colspan="5" style="text-align:left;height:1px;">
+			<table id="shipDefaultEquipment" class="wikitablewide" style="width:100%;height:100%;text-align:left;margin:0 0 0 0;">
+				
+			</table>
+		</td>
 	</tr>
 </table>
 
