@@ -85,6 +85,29 @@
 			document.getElementById("shipParameterAviation").innerHTML = actual_JSON.parameters.aviation;
 			document.getElementById("shipParameterTorpedo").innerHTML = actual_JSON.parameters.torpedo;
 			document.getElementById("shipParameterFirepower").innerHTML = actual_JSON.parameters.firepower;
+			document.getElementById("shipLimitBreakT1").innerHTML = actual_JSON.limitBreak.tier1;
+			document.getElementById("shipLimitBreakT2").innerHTML = actual_JSON.limitBreak.tier2;
+			document.getElementById("shipLimitBreakT3").innerHTML = actual_JSON.limitBreak.tier3;
+			document.getElementById("shipEquipmentLoadoutType1").innerHTML = actual_JSON.equipmentLoadout.1.type;
+			document.getElementById("shipEquipmentLoadoutType2").innerHTML = actual_JSON.equipmentLoadout.2.type;
+			document.getElementById("shipEquipmentLoadoutType3").innerHTML = actual_JSON.equipmentLoadout.3.type;
+			document.getElementById("shipEquipmentLoadoutType4").innerHTML = actual_JSON.equipmentLoadout.4.type;
+			document.getElementById("shipEquipmentLoadoutType5").innerHTML = actual_JSON.equipmentLoadout.5.type;
+			document.getElementById("shipEquipmentLoadoutEfficiency1").innerHTML = actual_JSON.equipmentLoadout.1.efficiency;
+			document.getElementById("shipEquipmentLoadoutEfficiency2").innerHTML = actual_JSON.equipmentLoadout.2.efficiency;
+			document.getElementById("shipEquipmentLoadoutEfficiency3").innerHTML = actual_JSON.equipmentLoadout.3.efficiency;
+			document.getElementById("shipEquipmentLoadoutEfficiency4").innerHTML = actual_JSON.equipmentLoadout.4.efficiency;
+			document.getElementById("shipEquipmentLoadoutEfficiency5").innerHTML = actual_JSON.equipmentLoadout.5.efficiency;
+			document.getElementById("shipEquipmentLoadoutQuantity1").innerHTML = actual_JSON.equipmentLoadout.1.amount;
+			document.getElementById("shipEquipmentLoadoutQuantity2").innerHTML = actual_JSON.equipmentLoadout.2.amount;
+			document.getElementById("shipEquipmentLoadoutQuantity3").innerHTML = actual_JSON.equipmentLoadout.3.amount;
+			document.getElementById("shipEquipmentLoadoutQuantity4").innerHTML = actual_JSON.equipmentLoadout.4.amount;
+			document.getElementById("shipEquipmentLoadoutQuantity5").innerHTML = actual_JSON.equipmentLoadout.5.amount;
+			document.getElementById("shipEquipmentLoadoutPreload1").innerHTML = actual_JSON.equipmentLoadout.1.preload;
+			document.getElementById("shipEquipmentLoadoutPreload2").innerHTML = actual_JSON.equipmentLoadout.2.preload;
+			document.getElementById("shipEquipmentLoadoutPreload3").innerHTML = actual_JSON.equipmentLoadout.3.preload;
+			document.getElementById("shipEquipmentLoadoutPreload4").innerHTML = actual_JSON.equipmentLoadout.4.preload;
+			document.getElementById("shipEquipmentLoadoutPreload5").innerHTML = actual_JSON.equipmentLoadout.5.preload;
 			
 			
 			setShipHullIcon(actual_JSON.hull);
@@ -112,6 +135,7 @@
 			document.getElementById("shipRarityColor2").style = "background:#AEAB66;height:30px";
 			document.getElementById("shipRarityColor3").style = "background:#AEAB66;height:30px";
 			document.getElementById("shipRarityColor4").style = "background:#AEAB66;height:30px";
+			document.getElementById("shipRarityColor5").style = "background:#AEAB66;height:30px";
 		}
 	}
 	
@@ -749,6 +773,110 @@
 				</tr>
 			</table>
 		</td>
+	</tr>
+</table>
+
+</div>
+
+<div class="rightCol">
+
+<!-- Equipments -->
+<table class="wikitable-a" style="width:100%;">
+	<tr style="text-align:center">
+		<td colspan="5"  style="background:#000000;height:30px" id="shipRarityColor5">
+			<b>
+				<font style="vertical-align: inherit;">Limit Break</font>
+			</b>
+		</td>
+	</tr> 
+	<tr style="text-align:center">
+		<td>Tier 1</td>
+		<td colspan="4" id="shipLimitBreakT1"></td>
+	</tr>	
+	<tr style="text-align:center">
+		<td>Tier 2</td>
+		<td colspan="4" id="shipLimitBreakT2"></td>
+	</tr>	
+	<tr style="text-align:center">
+		<td>Tier 3</td>
+		<td colspan="4" id="shipLimitBreakT3"></td>
+	</tr>
+	<tr style="text-align:center">
+		<td colspan="5"  style="background:#262f3b;height:30px">
+			<b>
+				<font style="vertical-align: inherit;">Equipments</font>
+			</b>
+		</td>
+	</tr> 
+	<tr style="text-align:center;background:#262f3b;vertical-align:top">
+		<td>
+			<b>Slot</b>
+		</td>
+		<td>
+			<b>Equipment Type</b>
+		</td>
+		<td>
+			<b>Efficiency</b><br>
+			<font style="font-size:10px">LB Rank 0/1/2/3</font>
+		</td>
+		<td>
+			<b>Quantity</b><br>
+			<font style="font-size:10px">LB Rank 0/1/2/3</font>
+		</td>
+		<td>
+			<b>Preload</b><br>
+			<font style="font-size:10px">LB Rank 0/1/2/3</font>
+		</td>
+	</tr> 
+	<tr style="text-align:center;">
+		<td>1</td>
+		<td id="shipEquipmentLoadoutType1"></td>
+		<td id="shipEquipmentLoadoutEfficiency1"></td>
+		<td id="shipEquipmentLoadoutQuantity1"></td>
+		<td id="shipEquipmentLoadoutPreload1"></td>
+	</tr><tr style="text-align:center;">
+		<td>2</td>
+		<td id="shipEquipmentLoadoutType2"></td>
+		<td id="shipEquipmentLoadoutEfficiency2"></td>
+		<td id="shipEquipmentLoadoutQuantity2"></td>
+		<td id="shipEquipmentLoadoutPreload2"></td>
+	</tr><tr style="text-align:center;">
+		<td>3</td>
+		<td id="shipEquipmentLoadoutType3"></td>
+		<td id="shipEquipmentLoadoutEfficiency3"></td>
+		<td id="shipEquipmentLoadoutQuantity3"></td>
+		<td id="shipEquipmentLoadoutPreload3"></td>
+	</tr><tr style="text-align:center;">
+		<td>4</td>
+		<td id="shipEquipmentLoadoutType14"></td>
+		<td id="shipEquipmentLoadoutEfficiency4"></td>
+		<td id="shipEquipmentLoadoutQuantity4"></td>
+		<td id="shipEquipmentLoadoutPreload4"></td>
+	</tr><tr style="text-align:center;">
+		<td>5</td>
+		<td id="shipEquipmentLoadoutType5"></td>
+		<td id="shipEquipmentLoadoutEfficiency5"></td>
+		<td id="shipEquipmentLoadoutQuantity5"></td>
+		<td id="shipEquipmentLoadoutPreload5"></td>
+	</tr>
+	<tr style="text-align:center">
+		<td colspan="5"  style="background:#262f3b;height:30px">
+			<b>
+				<font style="vertical-align: inherit;">Default Equipments</font>
+			</b>
+		</td>
+	</tr>
+	<tr style="text-align:center">
+		<td id="def_eq_no_">1</td>
+		<td id="def_eq_name_" colspan="4">F6F Hellcat</td>		
+	</tr>
+	<tr style="text-align:center">
+		<td id="def_eq_no_">1</td>
+		<td id="def_eq_name_" colspan="4">F6F Hellcat</td>		
+	</tr>
+	<tr style="text-align:center">
+		<td id="def_eq_no_">1</td>
+		<td id="def_eq_name_" colspan="4">F6F Hellcat</td>		
 	</tr>
 </table>
 
