@@ -313,7 +313,7 @@
 				</td>\
 				<td style="background:#262f3b;height:30px">\
 					<b>\
-						<font style="vertical-align: inherit;">Unlock Requirements</font>\
+						<font style="vertical-align: inherit;white-space: nowrap;">Unlock Requirements</font>\
 					</b>\
 				</td>\
 			</tr>'
@@ -324,7 +324,7 @@
 					<img src="'+data.skill[x].skillIcon+'">&emsp;'+data.skill[x].name+'\
 				</td>\
 				<td style="text-align:left;padding:10px">'+data.skill[x].description+'</td>\
-				<td style="padding:10pxwhite-space: nowrap;">'+data.skill[x].requirement+'</td>\
+				<td style="padding:10px;white-space: nowrap;">'+data.skill[x].requirement+'</td>\
 			</tr>';		
 		}
 		document.getElementById("shipSkillSet").innerHTML = text;
