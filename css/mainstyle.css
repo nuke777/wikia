@@ -161,14 +161,21 @@ a.article:hover {
 }
 
 .vshide {
+	
 	visibility: hidden;
+}
+
+.test {
+	background-color: blue;
+	height: 20px;
+	width: 40px;
 }
 
 /* ---------------------------------------------------
     MEDIAQUERIES
 ----------------------------------------------------- */
 
-@media (max-width: 1023px) {
+@media (max-width: 1220px) {
     #sidebar {
         margin-left: -250px;
     }
