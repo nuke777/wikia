@@ -112,9 +112,15 @@
 			
 			setShipHullIcon(actual_JSON.hull);
 			setShipNavyIcon(actual_JSON.navy);
-			setShipRarityHighlight(actual_JSON.rarity);
 			setShipSkinNav(actual_JSON);
 			setDefaultEquipment(actual_JSON);
+			setSkillSet(actual_JSON);
+			
+			
+			
+			
+			//need last
+			setShipRarityHighlight(actual_JSON.rarity);
 		 });
 	}
 	
@@ -137,6 +143,7 @@
 			document.getElementById("shipRarityColor3").style = "background:#AEAB66;height:30px";
 			document.getElementById("shipRarityColor4").style = "background:#AEAB66;height:30px";
 			document.getElementById("shipRarityColor5").style = "background:#AEAB66;height:30px";
+			document.getElementById("shipRarityColor6").style = "background:#AEAB66;height:30px";
 		}
 	}
 	
@@ -282,6 +289,45 @@
 			++i;			
 		}
 		document.getElementById("shipDefaultEquipment").innerHTML = text;
+	}
+	
+	function setSkillSet(data){
+		var text = '\
+			<tr style="text-align:center">\
+				<td colspan="3"  style="background:#000000;height:30px" id="shipRarityColor6">\
+					<b>\
+						<font style="vertical-align: inherit;">Skillset</font>\
+					</b>\
+				</td>\
+			</tr>\
+			<tr style="text-align:center">\
+				<td style="background:#262f3b;height:30px">\
+					<b>\
+						<font style="vertical-align: inherit;">Skill Name</font>\
+					</b>\
+				</td>\
+				<td style="background:#262f3b;height:30px">\
+					<b>\
+						<font style="vertical-align: inherit;">Description</font>\
+					</b>\
+				</td>\
+				<td style="background:#262f3b;height:30px">\
+					<b>\
+						<font style="vertical-align: inherit;">Unlock Requirements</font>\
+					</b>\
+				</td>\
+			</tr>'
+		for (var x in data.skill) {
+			text = text + '\
+			<tr>\
+				<td style="text-align:left;padding-left:5px;">\
+					<img src="'+data.skill[x].skillIcon+'">&emsp;'+data.skill[x].name+'\
+				</td>\
+				<td>'+data.skill[x].description+'</td>\
+				<td>'+data.skill[x].requirement+'</td>\
+			</tr>';		
+		}
+		document.getElementById("shipSkillSet").innerHTML = text;
 	}
 	
 	window.onload = function() {
@@ -892,6 +938,48 @@
 			</table>
 		</td>
 	</tr>
+</table>
+
+</div>
+
+<div class="wideCol">
+
+<!-- Skills -->
+<table class="wikitablewide" style="width:100%;text-align:center" id="shipSkillSet">
+	<!--<tr style="text-align:center">
+		<td colspan="3"  style="background:#000000;height:30px" id="shipRarityColor6">
+			<b>
+				<font style="vertical-align: inherit;">Skillset</font>
+			</b>
+		</td>
+	</tr>
+	<tr style="text-align:center">
+		<td style="background:#262f3b;height:30px">
+			<b>
+				<font style="vertical-align: inherit;">Skill Name</font>
+			</b>
+		</td>
+		<td style="background:#262f3b;height:30px">
+			<b>
+				<font style="vertical-align: inherit;">Description</font>
+			</b>
+		</td>
+		<td style="background:#262f3b;height:30px">
+			<b>
+				<font style="vertical-align: inherit;">Unlock Requirements</font>
+			</b>
+		</td>
+	</tr> 
+	
+	<tr>
+		<td style="text-align:left;padding-left:5px;">
+			<img src="">&emsp;
+		</td>
+		<td></td>
+		<td></td>
+	</tr>-->
+	
+	
 </table>
 
 </div>
