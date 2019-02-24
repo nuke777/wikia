@@ -194,7 +194,7 @@
 	function loadShipSkinElements(skin){
 		document.getElementById("shipSkinDesc").innerHTML = skin.description;
 		document.getElementById("shipSkinSD").src = skin.sd;
-		document.getElementById("shipSkinName").innerHTML = skin.name;
+		document.getElementById("shipSkinName").innerHTML = '<b>' +skin.name '</b>';
 		document.getElementById("shipSkinDisplay").src = skin.image;
 		
 		removeShipExpressionNav();
@@ -313,7 +313,7 @@
 				</td>\
 				<td style="background:#262f3b;height:30px">\
 					<b>\
-						<font style="vertical-align: inherit;white-space: nowrap;">Unlock Requirements</font>\
+						<font style="vertical-align: inherit;white-space: nowrap;padding: 10px 0px 10px 0px;">Unlock Requirements</font>\
 					</b>\
 				</td>\
 			</tr>'
@@ -696,7 +696,9 @@
 		<td style="width:50%;height:1px;">
 			<table class="wikitablewide" style="width:100%;height:100%;text-align:center;margin:0 0 0 0">
 				<tr>
-					<td style="background:#262f3b;height:30px">Description</td>
+					<td style="background:#262f3b;height:30px">
+						<b>Description</b>
+					</td>
 				</tr>
 				<tr>
 					<td style="text-align:left;padding:10px;">
@@ -710,7 +712,9 @@
 		<td style="width:50%;height:1px;">
 			<table class="wikitablewide" style="width:100%;height:100%;text-align:center;margin:0 0 0 0;">
 				<tr>
-					<td style="background:#262f3b;height:30px">SD</td>
+					<td style="background:#262f3b;height:30px">
+						<b>SD</b>
+					</td>
 				</tr>
 				<tr>
 					<td>
@@ -725,7 +729,9 @@
 		<td style="width:50%;height:1px;">
 			<table class="wikitablewide" style="width:100%;height:100%;text-align:center;margin:0 0 0 0;">
 				<tr>
-					<td style="background:#262f3b;height:30px">Expressions</td>
+					<td style="background:#262f3b;height:30px">
+						<b>Expressions</b>
+					</td>
 				</tr>
 				<tr>
 					<td id="shipSkinExpressions" >
@@ -946,6 +952,7 @@
 
 <!-- Skills -->
 <table class="wikitablewide" style="width:100%;text-align:center" id="shipSkillSet">
+	<!-- JS generated table -->
 	<!--<tr style="text-align:center">
 		<td colspan="3"  style="background:#000000;height:30px" id="shipRarityColor6">
 			<b>
@@ -978,8 +985,7 @@
 		<td></td>
 		<td></td>
 	</tr>-->
-	
-	
+		
 </table>
 
 </div>
