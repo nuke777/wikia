@@ -47,14 +47,17 @@ table.wikitablewide td {
 .leftCol {
     float: left;
     width: 50%;
+	overflow:auto;
 }
 .rightCol {
 	float: left;
     width: calc(50% - 10px);
     margin-left: 10px;
+	overflow:auto;
 }
 .wideCol {
 	width: 100%;
+	overflow:auto;
 }
 .btnContainer {
 	float: left;
