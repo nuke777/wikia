@@ -362,6 +362,12 @@
 		}
 	}
 	
+	function onSelectShipDropEventSelection(){
+		var e = document.getElementById("shipDropEventSelection");
+		var strUser = e.options[e.selectedIndex].text;
+		document.getElementById("shipDropEventSelectionTitle").innerHTML = strUser;
+	}
+	
 	window.onload = function() {
 	  init();
 	  setActiveFromButtonGroup(["shipStatBase","shipStatMax","shipStatMaxKai"],"shipStatBase","base");
@@ -1088,7 +1094,7 @@
 			</table>
 		</td>
 		<td style="min-width:70%;padding:5px 10px 5px 10px;height:1px;text-align:left;">
-			<select class="form-control" id="shipDropEventSelection" style="width:250px;background-color:#262f3b;color:#ffffff;float:left;">
+			<select class="form-control" id="shipDropEventSelection" style="width:250px;background-color:#262f3b;color:#ffffff;float:left;" onchange="onSelectShipDropEventSelection()">
 
 			</select>&emsp;<font id="shipDropEventSelectionTitle">test</font>
 		</td>
