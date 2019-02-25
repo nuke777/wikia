@@ -392,21 +392,30 @@
 					text = text + '\
 					</tr>';
 					
+					var count = 0;
+					
+					for (var y in actual_JSON.drop.list[x].chapter["1"].node){
+						++count;
+					}
+					
 					var node = 1;	
-						
-					for (var y in actual_JSON.drop.list[x].chapter){
+					
+					while (node <= count){
 						text = text + '\
 					<tr style="text-align:center;">\
 						<td style="width:1px;padding: 0px 5px 0px 5px;background-color:#262f3b;">\
 							<b>'+node+'</b>\
-						</td>\
-						<td style="min-width:55px">'+actual_JSON.drop.list[x].chapter[y].node[''+node].drop+'</td>\
-						<td style="min-width:55px">'+actual_JSON.drop.list[x].chapter[y].node[''+node].drop+'</td>\
-						<td style="min-width:55px">'+actual_JSON.drop.list[x].chapter[y].node[''+node].drop+'</td>\
+						</td>';
+						for (var y in actual_JSON.drop.list[x].chapter){
+							text = text + '\
+						<td style="min-width:55px">'+actual_JSON.drop.list[x].chapter[y].node[''+node].drop+'</td>';
+						}
+						text = text + '\
 					</tr>';
 						++node;
 					}
-					
+						
+										
 					document.getElementById("shipDropTable").innerHTML = text;
 				}
 			}
