@@ -366,6 +366,52 @@
 		var e = document.getElementById("shipDropEventSelection");
 		var strUser = e.options[e.selectedIndex].text;
 		document.getElementById("shipDropEventSelectionTitle").innerHTML = strUser;
+		setShipDropTable(strUser);
+	}
+	
+	function setShipDropTable(selected){
+		loadJSON(function(response) {
+		  // Parse JSON string into object
+			var actual_JSON = JSON.parse(response);
+			
+			for (var x in actual_JSON.drop.list){
+				if (actual_JSON.drop.list[x].event == selected){
+					var text = 
+					'<tr style="text-align:center;background-color:#262f3b;">\
+						<td style="width:1px;padding: 0px 5px 0px 5px;">\
+							<b>Node</b>\
+						</td>';
+					
+					for (var y in actual_JSON.drop.list[x].chapter){
+						text = text + '\
+						<td style="min-width:55px">\
+							<b>'+actual_JSON.drop.list[x].chapter[y].label+'</b>\
+						</td>;
+					}
+					
+					text = text + '\
+					</tr>;
+					
+					var node = 1;	
+						
+					for (var y in actual_JSON.drop.list[x].chapter){
+						text = text + '\
+					<tr style="text-align:center;">\
+						<td style="width:1px;padding: 0px 5px 0px 5px;background-color:#262f3b;">\
+							<b>'+node+'</b>\
+						</td>\
+						<td style="min-width:55px">'+actual_JSON.drop.list[x].chapter[y].node[''+node].drop+'</td>\
+						<td style="min-width:55px">'+actual_JSON.drop.list[x].chapter[y].node[''+node].drop+'</td>\
+						<td style="min-width:55px">'+actual_JSON.drop.list[x].chapter[y].node[''+node].drop+'</td>\
+					</tr>;
+						++node;
+					}
+					
+					document.getElementById("shipDropTable").innerHTML = text;
+				}
+			}
+			
+		});
 	}
 	
 	window.onload = function() {
@@ -1102,8 +1148,8 @@
 	<tr>
 		<td style="vertical-align:top;text-align:left;width:70%;">	
 			<div style="overflow-x:auto;width:100%;">
-			<table class="wikitablewide" style="height:100%;text-align:left;margin:0 0 0 0;">
-				<tr style="text-align:center;background-color:#262f3b;">
+			<table class="wikitablewide" style="height:100%;text-align:left;margin:0 0 0 0;" id="shipDropTable">
+				<!--<tr style="text-align:center;background-color:#262f3b;">
 					<td style="width:1px;padding: 0px 5px 0px 5px;">
 						<b>Node</b>
 					</td>
@@ -1121,16 +1167,10 @@
 					<td style="width:1px;padding: 0px 5px 0px 5px;background-color:#262f3b;">
 						<b>Node</b>
 					</td>
-					<td style="min-width:55px">
-						Ch.1
-					</td>
-					<td style="min-width:55px">
-						Ch.2
-					</td>					
-					<td style="min-width:55px">
-						Ch.3
-					</td>					
-				</tr>
+					<td style="min-width:55px"></td>
+					<td style="min-width:55px"></td>					
+					<td style="min-width:55px"></td>					
+				</tr>-->
 			</table>
 			</div>
 		</td>
