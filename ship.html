@@ -355,7 +355,7 @@
 			document.getElementById("shipDropEventSelection").innerHTML = text;
 			var e = document.getElementById("shipDropEventSelection");
 			var strUser = e.options[e.selectedIndex].text;
-			document.getElementById("shipDropEventSelectionTitle").innerHTML = strUser;
+			onSelectShipDropEventSelection(strUser);
 		} else {
 			document.getElementById("shipDropEventSelection").disabled = true;
 			document.getElementById("shipDropEventSelectionTitle").innerHTML = "Ship does not drop on any map";
