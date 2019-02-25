@@ -127,6 +127,7 @@
 			setShipSkinNav(actual_JSON);
 			setDefaultEquipment(actual_JSON);
 			setSkillSet(actual_JSON);
+			setShipDropEventSelection(actual_JSON);
 			
 			
 			
@@ -342,6 +343,19 @@
 			</tr>';		
 		}
 		document.getElementById("shipSkillSet").innerHTML = text;
+	}
+	
+	function setShipDropEventSelection(data){
+		if (data.drop.droppable == "true"){
+			var text = "";
+			for (var x in data.drop.list){
+				text = text + '\
+				<option>'+data.drop.list[x].event+'</option>';
+			}
+			document.getElementById("shipDropEventSelection").innerHTML = text;
+		} else {
+			document.getElementById("shipDropEventSelection").disabled = true;
+		}
 	}
 	
 	window.onload = function() {
@@ -1007,21 +1021,21 @@
 <div class="wideCol">
 
 <!-- Acquisition -->
-<table class="wikitablewide" style="width:100%;text-align:center">
+<table class="wikitablewide" style="width:100%;text-align:center;table-layout:fixed;">
 	<tr style="text-align:center">
-		<td style="background:#000000;height:30px;width:40%;" id="shipRarityColor7">
+		<td style="background:#000000;height:30px;width:30%;" id="shipRarityColor7">
 			<b>
 				<font style="vertical-align: inherit;">Construction</font>
 			</b>
 		</td>
-		<td style="background:#000000;height:30px;width:60%;" id="shipRarityColor8">
+		<td style="background:#000000;height:30px;width:70%;" id="shipRarityColor8">
 			<b>
 				<font style="vertical-align: inherit;">Drop</font>
 			</b>
 		</td>
 	</tr> 
 	<tr>
-		<td style="width:40%;height:1px;" rowspan="2">
+		<td style="width:30%;height:1px;" rowspan="2">
 			<table class="wikitablewide" style="width:100%;height:100%;text-align:left;margin:0 0 0 0;">
 				<tr style="text-align:center;background-color:#262f3b;">
 					<td style="width:40%;padding-left:10px;text-align:left;" id="shipConstructionBuildTime"></td>
@@ -1042,7 +1056,7 @@
 					<td id="shipLightBuildJP"></td>
 					<td id="shipLightBuildCN"></td>
 					<td id="shipLightBuildEN"></td>
-				</td>
+				</tr>
 				<tr style="text-align:center;">
 					<td style="padding-left:10px;background-color:#262f3b;text-align:left;">
 						<b>Heavy</b>
@@ -1050,7 +1064,7 @@
 					<td id="shipHeavyBuildJP"></td>
 					<td id="shipHeavyBuildCN"></td>
 					<td id="shipHeavyBuildEN"></td>
-				</td>
+				</tr>
 				<tr style="text-align:center;">
 					<td style="padding-left:10px;background-color:#262f3b;text-align:left;">
 						<b>Special</b>
@@ -1058,7 +1072,7 @@
 					<td id="shipSpecialBuildJP"></td>
 					<td id="shipSpecialBuildCN"></td>
 					<td id="shipSpecialBuildEN"></td>
-				</td>
+				</tr>
 				<tr style="text-align:center;">
 					<td style="padding-left:10px;background-color:#262f3b;text-align:left;">
 						<b>Limited</b>
@@ -1066,18 +1080,49 @@
 					<td id="shipLimitedBuildJP"></td>
 					<td id="shipLimitedBuildCN"></td>
 					<td id="shipLimitedBuildEN"></td>
-				</td>
+				</tr>
 			</table>
 		</td>
-		<td style="width:60%;padding:10px;">
-			testtest
+		<td style="min-width:70%;padding:5px 10px 5px 10px;height:1px;text-align:left;">
+			<select class="form-control" id="shipDropEventSelection" style="width:250px;background-color:#262f3b;color:#ffffff;float:left;">
+
+			</select>&emsp;<font id="shipDropEventSelectionTitle">test</font>
 		</td>
 	</tr>
 	<tr>
-		<td>			
-			<table class="wikitablewide" style="width:100%;height:100%;text-align:left;margin:0 0 0 0;">
-				
+		<td style="vertical-align:top;text-align:left;width:70%;">	
+			<div style="overflow-x:auto;width:100%;">
+			<table class="wikitablewide" style="height:100%;text-align:left;margin:0 0 0 0;">
+				<tr style="text-align:center;background-color:#262f3b;">
+					<td style="width:1px;padding: 0px 5px 0px 5px;">
+						<b>Node</b>
+					</td>
+					<td style="min-width:55px">
+						<b>Ch.1</b>
+					</td>
+					<td style="min-width:55px">
+						<b>Ch.2</b>
+					</td>					
+					<td style="min-width:55px">
+						<b>Ch.3</b>
+					</td>					
+				</tr>
+				<tr style="text-align:center;">
+					<td style="width:1px;padding: 0px 5px 0px 5px;background-color:#262f3b;">
+						<b>Node</b>
+					</td>
+					<td style="min-width:55px">
+						Ch.1
+					</td>
+					<td style="min-width:55px">
+						Ch.2
+					</td>					
+					<td style="min-width:55px">
+						Ch.3
+					</td>					
+				</tr>
 			</table>
+			</div>
 		</td>
 	</tr>
 	
