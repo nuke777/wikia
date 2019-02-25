@@ -108,7 +108,18 @@
 			document.getElementById("shipEquipmentLoadoutPreload3").innerHTML = actual_JSON.equipmentLoadout["3"].preload;
 			document.getElementById("shipEquipmentLoadoutPreload4").innerHTML = actual_JSON.equipmentLoadout["4"].preload;
 			document.getElementById("shipEquipmentLoadoutPreload5").innerHTML = actual_JSON.equipmentLoadout["5"].preload;
-			
+			document.getElementById("shipLightBuildJP").innerHTML = actual_JSON.build.light.JP;
+			document.getElementById("shipLightBuildCN").innerHTML = actual_JSON.build.light.CN;
+			document.getElementById("shipLightBuildEN").innerHTML = actual_JSON.build.light.EN;
+			document.getElementById("shipHeavyBuildJP").innerHTML = actual_JSON.build.heavy.JP;
+			document.getElementById("shipHeavyBuildCN").innerHTML = actual_JSON.build.heavy.CN;
+			document.getElementById("shipHeavyBuildEN").innerHTML = actual_JSON.build.heavy.EN;
+			document.getElementById("shipSpecialBuildJP").innerHTML = actual_JSON.build.special.JP;
+			document.getElementById("shipSpecialBuildCN").innerHTML = actual_JSON.build.special.CN;
+			document.getElementById("shipSpecialBuildEN").innerHTML = actual_JSON.build.special.EN;
+			document.getElementById("shipLimitedBuildJP").innerHTML = actual_JSON.build.limited.JP;
+			document.getElementById("shipLimitedBuildCN").innerHTML = actual_JSON.build.limited.CN;
+			document.getElementById("shipLimitedBuildEN").innerHTML = actual_JSON.build.limited.EN;
 			
 			setShipHullIcon(actual_JSON.hull);
 			setShipNavyIcon(actual_JSON.navy);
@@ -144,6 +155,8 @@
 			document.getElementById("shipRarityColor4").style = "background:#AEAB66;height:30px";
 			document.getElementById("shipRarityColor5").style = "background:#AEAB66;height:30px";
 			document.getElementById("shipRarityColor6").style = "background:#AEAB66;height:30px";
+			document.getElementById("shipRarityColor7").style = "background:#AEAB66;height:30px;width:40%;";
+			document.getElementById("shipRarityColor8").style = "background:#AEAB66;height:30px;width:60%;";
 		}
 	}
 	
@@ -986,6 +999,81 @@
 		<td></td>
 	</tr>-->
 		
+</table>
+
+</div>
+
+<div class="wideCol">
+
+<!-- Acquisition -->
+<table class="wikitablewide" style="width:100%;text-align:center">
+	<tr style="text-align:center">
+		<td style="background:#000000;height:30px;width:40%;" id="shipRarityColor7">
+			<b>
+				<font style="vertical-align: inherit;">Construction</font>
+			</b>
+		</td>
+		<td style="background:#000000;height:30px;width:60%;" id="shipRarityColor8">
+			<b>
+				<font style="vertical-align: inherit;">Drop</font>
+			</b>
+		</td>
+	</tr> 
+	<tr>
+		<td style="width:40%;height:1px;">
+			<table class="wikitablewide" style="width:100%;height:100%;text-align:left;margin:0 0 0 0;">
+				<tr style="text-align:center;background-color:#262f3b;">
+					<td style="width:40%"></td>
+					<td style="width:20%">
+						<b>JP</b>
+					</td>
+					<td style="width:20%">
+						<b>CN</b>
+					</td>					
+					<td style="width:20%">
+						<b>EN</b>
+					</td>
+				</tr>
+				<tr style="text-align:center;">
+					<td style="padding-left:10px;background-color:#262f3b;text-align:left;">
+						<b>Light</b>
+					</td>
+					<td id="shipLightBuildJP"></td>
+					<td id="shipLightBuildCN"></td>
+					<td id="shipLightBuildEN"></td>
+				</td>
+				<tr style="text-align:center;">
+					<td style="padding-left:10px;background-color:#262f3b;text-align:left;">
+						<b>Heavy</b>
+					</td>
+					<td id="shipHeavyBuildJP"></td>
+					<td id="shipHeavyBuildCN"></td>
+					<td id="shipHeavyBuildEN"></td>
+				</td>
+				<tr style="text-align:center;">
+					<td style="padding-left:10px;background-color:#262f3b;text-align:left;">
+						<b>Special</b>
+					</td>
+					<td id="shipSpecialBuildJP"></td>
+					<td id="shipSpecialBuildCN"></td>
+					<td id="shipSpecialBuildEN"></td>
+				</td>
+				<tr style="text-align:center;">
+					<td style="padding-left:10px;background-color:#262f3b;text-align:left;">
+						<b>Limited</b>
+					</td>
+					<td id="shipLimitedBuildJP"></td>
+					<td id="shipLimitedBuildCN"></td>
+					<td id="shipLimitedBuildEN"></td>
+				</td>
+			</table>
+		</td>
+		<td style="width:60%;height:1px;">
+			<table class="wikitablewide" style="width:100%;height:100%;text-align:left;margin:0 0 0 0;">
+			
+			</table>
+		</td>
+	</tr>
 </table>
 
 </div>
