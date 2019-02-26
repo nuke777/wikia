@@ -543,15 +543,17 @@
 				}
 			}
 			
-			function switchTranslation(translation, id){
-				var temp = document.getElementById(id).innerHTML;
-				document.getElementById(id).innerHTML = translation;
-				document.getElementById(id).setAttribute('onclick','switchTranslation(&quot;'+temp+'&quot;,\''+id+'\')');
-			}
-			
 			document.getElementById('shipDialogueTable').innerHTML = text;
 			
 		});
+	}
+	
+	
+			
+	function switchTranslation(translation, id){
+		var temp = document.getElementById(id).innerHTML;
+		document.getElementById(id).innerHTML = translation;
+		document.getElementById(id).setAttribute('onclick','switchTranslation(&quot;'+temp+'&quot;,\''+id+'\')');
 	}
 	
 	window.onload = function() {
