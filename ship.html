@@ -503,10 +503,10 @@
 					<b>Event</b>\
 				</td>\
 				<td style="width:3%"></td>\
-				<td style="width:27%;cursor:pointer;" onclick="toggleChinese(&quot;'+skinId+'&quot;)">\
+				<td style="width:27%;cursor:pointer;" onclick="toggleChinese(&quot;'+skinId+'&quot;,&quot;cn_header&quot;)" id="cn_header">\
 					<b>Chinese</b>\
 				</td>\
-				<td style="width:27%;cursor:pointer;" onclick="toggleJapanese(&quot;'+skinId+'&quot;)">\
+				<td style="width:27%;cursor:pointer;" onclick="toggleJapanese(&quot;'+skinId+'&quot;,&quot;jp_header&quot;)" id="jp_header">\
 					<b>Japanese</b>\
 				</td>\
 				<td style="width:27%">\
@@ -562,10 +562,20 @@
 		}
 	}
 	
-	function toggleChinese(skinId){
+	function toggleChinese(skinId, id){
 		var count = 1;
-		while (document.getElementById('cn_'+skinId+'_'+count+'')){
-			switchTranslation(translation, id);
+		if (id.substring(0,3) != "tl_")
+			while (document.getElementById('cn_'+skinId+'_'+count+'') != null){
+				document.getElementById('cn_'+skinId+'_'+count+'').click();
+			}
+			document.getElementById(id).id = "tl_" + id;
+			document.getElementById("tl_" + id).setAttribute('onclick','toggleChinese("'+skinId+'","tl_'+id+'")');
+		} else if (id.substring(0,3) == "tl_"){
+			while (document.getElementById('tl_cn_'+skinId+'_'+count+'') != null){
+				document.getElementById('tl_cn_'+skinId+'_'+count+'').click();
+			}
+			document.getElementById(id).id = id.substring(3);
+			document.getElementById(id.substring(3)).setAttribute('onclick','toggleChinese("'+skinId+'","'+id.substring(3)+'")');
 		}
 	}
 	
