@@ -496,9 +496,11 @@
 					<b>English</b>\
 				</td>\
 			</tr>';
-			
+			console.log("generating table");
 			for (var x in actual_JSON.lines.skin){
+				console.log("selecting: "+actual_JSON.lines.skin[x].label+" vs. "+skinId);
 				if (actual_JSON.lines.skin[x].label == skinId){
+					console.log("Selected");
 					for (var y in actual_JSON.lines.skin[x].label.dialogue){		
 						text = text + '\
 			<tr style="text-align:left">\
