@@ -553,7 +553,7 @@
 	function switchTranslation(translation, id){
 		var temp = document.getElementById(id).innerHTML;
 		document.getElementById(id).innerHTML = translation;
-		document.getElementById(id).setAttribute('onclick','switchTranslation(&quot;'+temp+'&quot;,\''+id+'\')');
+		document.getElementById(id).setAttribute('onclick','switchTranslation("'+temp+'",\''+id+'\')');
 	}
 	
 	window.onload = function() {
