@@ -503,10 +503,10 @@
 					<b>Event</b>\
 				</td>\
 				<td style="width:3%"></td>\
-				<td style="width:27%">\
+				<td style="width:27%;cursor:pointer;" onclick="toggleChinese(&quot;'+skinId+'&quot;)">\
 					<b>Chinese</b>\
 				</td>\
-				<td style="width:27%">\
+				<td style="width:27%;cursor:pointer;" onclick="toggleJapanese(&quot;'+skinId+'&quot;)">\
 					<b>Japanese</b>\
 				</td>\
 				<td style="width:27%">\
@@ -537,7 +537,7 @@
 				</td>\
 				<td id="cn_'+skinId+'_'+y+'" style="padding: 0px 5px 0px 5px;cursor:pointer;" onclick="switchTranslation(&quot;'+actual_JSON.lines.skin[x].dialogue[y].chineseTL+'&quot;,\'cn_'+skinId+'_'+y+'\')">'+actual_JSON.lines.skin[x].dialogue[y].chinese+'</td>\
 				<td id="jp_'+skinId+'_'+y+'" style="padding: 0px 5px 0px 5px;cursor:pointer;" onclick="switchTranslation(&quot;'+actual_JSON.lines.skin[x].dialogue[y].japaneseTL+'&quot;,\'jp_'+skinId+'_'+y+'\')">'+actual_JSON.lines.skin[x].dialogue[y].japanese+'</td>\
-				<td id="en_'+skinId+'_'+y+'" style="padding: 0px 5px 0px 5px;cursor:pointer;">'+actual_JSON.lines.skin[x].dialogue[y].english+'</td>\
+				<td id="en_'+skinId+'_'+y+'" style="padding: 0px 5px 0px 5px;">'+actual_JSON.lines.skin[x].dialogue[y].english+'</td>\
 			</tr>';
 					}
 				}
@@ -553,7 +553,20 @@
 	function switchTranslation(translation, id){
 		var temp = document.getElementById(id).innerHTML;
 		document.getElementById(id).innerHTML = translation;
-		document.getElementById(id).setAttribute('onclick','switchTranslation("'+temp+'",\''+id+'\')');
+		if (document.getElementById(id).id.substring(0,3) != "tl_"){
+			document.getElementById(id).id = "tl_" + id;
+			document.getElementById("tl_" + id).setAttribute('onclick','switchTranslation("'+temp+'",\'tl_'+id+'\')');
+		} else if (document.getElementById(id).id.substring(0,3) == "tl_"){
+			document.getElementById(id).id = id.substring(3);
+			document.getElementById(id.substring(3)).setAttribute('onclick','switchTranslation("'+temp+'",\''+id.substring(3)+'\')');
+		}
+	}
+	
+	function toggleChinese(skinId){
+		var count = 1;
+		while (document.getElementById('cn_'+skinId+'_'+count+'')){
+			switchTranslation(translation, id);
+		}
 	}
 	
 	window.onload = function() {
