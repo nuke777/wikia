@@ -440,7 +440,7 @@
 		for (var x in data.skin) {
 			var container = document.createElement('div');
 			container.className = 'btnContainer';			
-			container.setAttribute('onclick','onDialogueNavButtonClick(\'' + data.skin[x].id + '\')');
+			container.setAttribute('onclick','onDialogueSkinNavButtonClick(\'' + data.skin[x].id + '\')');
 			if (firstIteration){
 				container.innerHTML = 
 				'<img class="btnImage" id="diaNav_' + data.skin[x].id + '" src="' + data.skin[x].icon + '"></img>\
