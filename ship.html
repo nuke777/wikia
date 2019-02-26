@@ -440,13 +440,13 @@
 		for (var x in data.skin) {
 			var container = document.createElement('div');
 			container.className = 'btnContainer';			
-			container.setAttribute('onclick','onDialogueNavButtonClick(\'' + JSON.stringify(data.skin[x]) + '\')');
+			container.setAttribute('onclick','onDialogueNavButtonClick(\'' + data.skin[x].id + '\')');
 			if (firstIteration){
 				container.innerHTML = 
 				'<img class="btnImage" id="diaNav_' + data.skin[x].id + '" src="' + data.skin[x].icon + '"></img>\
 				<div class="btnOverlay activeButton" id="ovrDia_' + data.skin[x].id+ '"></div>';
 				firstIteration = false;
-				initial = JSON.stringify(data.skin[x]);
+				initial = data.skin[x].id;
 			} else {
 				container.innerHTML = 
 				'<img class="btnImage" id="' + data.skin[x].id + '" src="' + data.skin[x].icon + '"></img>\
@@ -455,7 +455,25 @@
 			
 			document.getElementById('shipDialogueSkinNav').appendChild(container);
 		}
-		onSkinNavButtonClick(initial);
+		onDialogueSkinNavButtonClick(initial);
+	}
+	
+	function onDialogueSkinNavButtonClick(skinId){
+		var id = "ovrDia_"+skinId;
+		var obj = document.getElementById('shipDialogueSkinNav').children;
+		
+		for (var i = 0; i < obj.length; ++i){
+			var child = obj[i].children;
+			for (var j = 0; j < child.length; ++j){
+				var identifier = child[j].id.substring(0,7);
+				if (child[j].id == id) {
+					document.getElementById(id).className = 'btnOverlay activeButton';
+					//loadShipSkinElements(skin);
+				} else if (child[j].id != id && identifier == "ovrDia_"){
+					document.getElementById(child[j].id).className = 'btnOverlay';
+				}
+			}	
+		}
 	}
 	
 	window.onload = function() {
