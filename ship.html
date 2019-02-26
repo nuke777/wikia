@@ -563,16 +563,30 @@
 	}
 	
 	function toggleChinese(skinId, id){
-		var count = 1;
+		var count = 1;		
+		var length = 0;
+		while (document.getElementById('event_'+skinId+'_'+count+'') != null){
+			++length;
+			++count;
+		}
+		count = 1;
 		if (id.substring(0,3) != "tl_"){
-			while (document.getElementById('cn_'+skinId+'_'+count+'') != null){
+			while (count <= length){
+				if (document.getElementById('cn_'+skinId+'_'+count+'') == null){
+					++count;
+					continue;
+				}
 				document.getElementById('cn_'+skinId+'_'+count+'').click();
 				++count;
 			}
 			document.getElementById(id).id = "tl_" + id;
 			document.getElementById("tl_" + id).setAttribute('onclick','toggleChinese("'+skinId+'","tl_'+id+'")');
 		} else if (id.substring(0,3) == "tl_"){
-			while (document.getElementById('tl_cn_'+skinId+'_'+count+'') != null){
+			while (count <= length){
+				if (document.getElementById('tl_cn_'+skinId+'_'+count+'') == null){
+					++count;
+					continue;
+				}
 				document.getElementById('tl_cn_'+skinId+'_'+count+'').click();
 				++count;
 			}
@@ -587,7 +601,6 @@
 		while (document.getElementById('event_'+skinId+'_'+count+'') != null){
 			++length;
 			++count;
-			console.log(length + " " + count);
 		}
 		count = 1;
 		if (id.substring(0,3) != "tl_"){
@@ -1400,6 +1413,9 @@
 	</tr>
 	<tr>
 		<td id="shipDialogueSkinNav"></td>
+	</tr>
+	<tr>
+		<td style="font-size:10px">Click on the text to toggle translation. Click on the header to toggle all.</td>
 	</tr>
 	<tr>
 		<td style="width:30%;height:1px;">
