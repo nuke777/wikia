@@ -564,7 +564,7 @@
 	
 	function toggleChinese(skinId, id){
 		var count = 1;
-		if (id.substring(0,3) != "tl_")
+		if (id.substring(0,3) != "tl_"){
 			while (document.getElementById('cn_'+skinId+'_'+count+'') != null){
 				document.getElementById('cn_'+skinId+'_'+count+'').click();
 			}
