@@ -535,12 +535,18 @@
 					
 						text = text + '\
 				</td>\
-				<td id="cn_'+skinId+'_'+y+'" style="padding: 0px 5px 0px 5px;cursor:pointer;">'+actual_JSON.lines.skin[x].dialogue[y].chinese+'</td>\
+				<td id="cn_'+skinId+'_'+y+'" style="padding: 0px 5px 0px 5px;cursor:pointer;" onclick="switchTranslation(\''+actual_JSON.lines.skin[x].dialogue[y].chineseTL+'\',\'cn_'+skinId+'_'+y+'\')">'+actual_JSON.lines.skin[x].dialogue[y].chinese+'</td>\
 				<td id="jp_'+skinId+'_'+y+'" style="padding: 0px 5px 0px 5px;cursor:pointer;">'+actual_JSON.lines.skin[x].dialogue[y].japanese+'</td>\
 				<td id="en_'+skinId+'_'+y+'" style="padding: 0px 5px 0px 5px;cursor:pointer;">'+actual_JSON.lines.skin[x].dialogue[y].english+'</td>\
 			</tr>';
 					}
 				}
+			}
+			
+			function switchTranslation(translation, id){
+				temp = document.getElementById(id).innerHTML;
+				document.getElementById(id).innerHTML = translation;
+				document.getElementById(id).setAttribute('onclick','switchTranslation(\''+temp+'\',\''+id+'\')');
 			}
 			
 			document.getElementById('shipDialogueTable').innerHTML = text;
