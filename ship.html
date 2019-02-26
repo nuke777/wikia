@@ -501,19 +501,19 @@
 				console.log("selecting: "+actual_JSON.lines.skin[x].label+" vs. "+skinId);
 				if (actual_JSON.lines.skin[x].label == skinId){
 					console.log("Selected");
-					for (var y in actual_JSON.lines.skin[x].label.dialogue){		
+					for (var y in actual_JSON.lines.skin[x].dialogue){		
 						text = text + '\
 			<tr style="text-align:left">\
-				<td id="event_'+skinId+'_'+y+'" style="padding: 0px 5px 0px 5px;">'+actual_JSON.lines.skin[x].label.dialogue[y].event+'</td>\
+				<td id="event_'+skinId+'_'+y+'" style="padding: 0px 5px 0px 5px;">'+actual_JSON.lines.skin[x].dialogue[y].event+'</td>\
 				<td style="text-align:center;">\
 					<img id="btn_'+skinId+'_'+y+'" onclick="playAudio(\'btn_'+skinId+'_'+y+'\',\'audio_'+skinId+'_'+y+'\')" class="btnAudio" src="https://s3.us-east-2.amazonaws.com/alg-wiki.com/General/sound_off.png">\
 					<audio id="audio_'+skinId+'_'+y+'">\
-					  <source src="'+actual_JSON.lines.skin[x].label.dialogue[y].media+'" type="audio/ogg">\
+					  <source src="'+actual_JSON.lines.skin[x].dialogue[y].media+'" type="audio/ogg">\
 					</audio>\
 				</td>\
-				<td id="cn_'+skinId+'_'+y+'" style="padding: 0px 5px 0px 5px;cursor:pointer;">'+actual_JSON.lines.skin[x].label.dialogue[y].chinese+'</td>\
-				<td id="jp_'+skinId+'_'+y+'" style="padding: 0px 5px 0px 5px;cursor:pointer;">'+actual_JSON.lines.skin[x].label.dialogue[y].japanese+'</td>\
-				<td id="en_'+skinId+'_'+y+'" style="padding: 0px 5px 0px 5px;cursor:pointer;">'+actual_JSON.lines.skin[x].label.dialogue[y].english+'</td>\
+				<td id="cn_'+skinId+'_'+y+'" style="padding: 0px 5px 0px 5px;cursor:pointer;">'+actual_JSON.lines.skin[x].dialogue[y].chinese+'</td>\
+				<td id="jp_'+skinId+'_'+y+'" style="padding: 0px 5px 0px 5px;cursor:pointer;">'+actual_JSON.lines.skin[x].dialogue[y].japanese+'</td>\
+				<td id="en_'+skinId+'_'+y+'" style="padding: 0px 5px 0px 5px;cursor:pointer;">'+actual_JSON.lines.skin[x].dialogue[y].english+'</td>\
 			</tr>';
 					}
 				}
