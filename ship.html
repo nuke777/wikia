@@ -544,7 +544,7 @@
 			}
 			
 			function switchTranslation(translation, id){
-				temp = document.getElementById(id).innerHTML;
+				var temp = document.getElementById(id).innerHTML;
 				document.getElementById(id).innerHTML = translation;
 				document.getElementById(id).setAttribute('onclick','switchTranslation(&quot;'+temp+'&quot;,\''+id+'\')');
 			}
