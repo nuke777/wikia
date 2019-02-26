@@ -581,6 +581,36 @@
 		}
 	}
 	
+	function toggleJapanese(skinId, id){
+		var count = 1;		
+		var length = 0;
+		while (document.getElementById('event_'+skinId+'_'+count+'') != null){
+			++length;
+		}
+		count = 1;
+		if (id.substring(0,3) != "tl_"){
+			while (count <= length){
+				if (document.getElementById('jp_'+skinId+'_'+count+'') == null){
+					continue;
+				}
+				document.getElementById('jp_'+skinId+'_'+count+'').click();
+				++count;
+			}
+			document.getElementById(id).id = "tl_" + id;
+			document.getElementById("tl_" + id).setAttribute('onclick','toggleJapanese("'+skinId+'","tl_'+id+'")');
+		} else if (id.substring(0,3) == "tl_"){
+			while (count <= length){
+				if (document.getElementById('tl_jp_'+skinId+'_'+count+'') == null){
+					continue;
+				}
+				document.getElementById('tl_jp_'+skinId+'_'+count+'').click();
+				++count;
+			}
+			document.getElementById(id).id = id.substring(3);
+			document.getElementById(id.substring(3)).setAttribute('onclick','toggleJapanese("'+skinId+'","'+id.substring(3)+'")');
+		}
+	}
+	
 	window.onload = function() {
 	  init();
 	  setActiveFromButtonGroup(["shipStatBase","shipStatMax","shipStatMaxKai"],"shipStatBase","base");
