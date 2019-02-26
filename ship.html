@@ -159,6 +159,7 @@
 			document.getElementById("shipRarityColor6").style = "background:#AEAB66;height:30px";
 			document.getElementById("shipRarityColor7").style = "background:#AEAB66;height:30px;width:40%;";
 			document.getElementById("shipRarityColor8").style = "background:#AEAB66;height:30px;width:60%;";
+			document.getElementById("shipRarityColor9").style = "background:#AEAB66;height:30px";
 		}
 	}
 	
@@ -421,6 +422,39 @@
 			}
 			
 		});
+	}
+	
+	function playAudio(btnId,audioId){
+		var audio = document.getElementById(audioId);
+		audio.play();
+		document.getElementById(btnId).src = "https://s3.us-east-2.amazonaws.com/alg-wiki.com/General/sound_on.png";
+		audio.onended = function() {
+		  document.getElementById(btnId).src = "https://s3.us-east-2.amazonaws.com/alg-wiki.com/General/sound_off.png";
+		};
+	}
+	
+	function setDialogueSkinNav(data){
+		var firstIteration = true;
+		var initial = "";
+		for (var x in data.skin) {
+			var container = document.createElement('div');
+			container.className = 'btnContainer';			
+			container.setAttribute('onclick','onDialogueNavButtonClick(\'' + JSON.stringify(data.skin[x]) + '\')');
+			if (firstIteration){
+				container.innerHTML = 
+				'<img class="btnImage" id="diaNav_' + data.skin[x].id + '" src="' + data.skin[x].icon + '"></img>\
+				<div class="btnOverlay activeButton" id="ovrDia_' + data.skin[x].id+ '"></div>';
+				firstIteration = false;
+				initial = JSON.stringify(data.skin[x]);
+			} else {
+				container.innerHTML = 
+				'<img class="btnImage" id="' + data.skin[x].id + '" src="' + data.skin[x].icon + '"></img>\
+				<div class="btnOverlay" id="ovrDia_' + data.skin[x].id+ '"></div>';
+			}
+			
+			document.getElementById('shipDialogueSkinNav').appendChild(container);
+		}
+		onSkinNavButtonClick(initial);
 	}
 	
 	window.onload = function() {
@@ -884,13 +918,19 @@
 	<tr>
 		<td colspan="2">
 			<div class="btnGeneric">
-				<div class="btnGenericText" id="shipStatBase" onclick='setActiveFromButtonGroup(["shipStatBase","shipStatMax","shipStatMaxKai"],"shipStatBase","base")'>Base</div>
+				<div class="btnGenericText" id="shipStatBase" onclick='setActiveFromButtonGroup(["shipStatBase","shipStat100","shipStat100Kai","shipStatMax","shipStatMaxKai"],"shipStatBase","base")'>Base</div>
+			</div>			
+			<div class="btnGeneric">
+				<div class="btnGenericText" id="shipStat100" onclick='setActiveFromButtonGroup(["shipStatBase","shipStat100","shipStat100Kai","shipStatMax","shipStatMaxKai"],"shipStat100","100")'>100</div>
+			</div>			
+			<div class="btnGeneric">
+				<div class="btnGenericText" id="shipStat100Kai" onclick='setActiveFromButtonGroup(["shipStatBase","shipStat100","shipStat100Kai","shipStatMax","shipStatMaxKai"],"shipStat100Kai","100retrofit")'>100 Retrofit</div>
 			</div>
 			<div class="btnGeneric">
-				<div class="btnGenericText" id="shipStatMax" onclick='setActiveFromButtonGroup(["shipStatBase","shipStatMax","shipStatMaxKai"],"shipStatMax","120")'>Lv. 120</div>
+				<div class="btnGenericText" id="shipStatMax" onclick='setActiveFromButtonGroup(["shipStatBase","shipStat100","shipStat100Kai","shipStatMax","shipStatMaxKai"],"shipStatMax","120")'>120</div>
 			</div>
 			<div class="btnGeneric">
-				<div class="btnGenericText" id="shipStatMaxKai" onclick='setActiveFromButtonGroup(["shipStatBase","shipStatMax","shipStatMaxKai"],"shipStatMaxKai","120retrofit")'>Retrofit (120)</div>
+				<div class="btnGenericText" id="shipStatMaxKai" onclick='setActiveFromButtonGroup(["shipStatBase","shipStat100","shipStat100Kai","shipStatMax","shipStatMaxKai"],"shipStatMaxKai","120retrofit")'>120 Retrofit</div>
 			</div>
 		</td>
 	</tr>
@@ -1185,6 +1225,57 @@
 		</td>
 	</tr>
 	
+</table>
+
+</div>
+
+<div class="wideCol">
+
+<!-- Dialogue -->
+<table class="wikitablewide" style="width:100%;text-align:center;">
+	<tr style="text-align:center">
+		<td style="background:#000000;height:30px;" id="shipRarityColor9">
+			<b>
+				<font style="vertical-align: inherit;">Dialogue</font>
+			</b>
+		</td>
+	</tr>
+	<tr>
+		<td id="shipDialogueSkinNav"></td>
+	</tr>
+	<tr>
+		<td style="width:30%;height:1px;">
+			<table class="wikitablewide" style="width:100%;height:100%;text-align:left;margin:0 0 0 0;table-layout:fixed;">
+				<tr style="background-color:#262f3b;text-align:center;">
+					<td style="width:14%">
+						<b>Event</b>
+					</td>
+					<td style="width:3%"></td>
+					<td style="width:27%">
+						<b>Chinese</b>
+					</td>
+					<td style="width:27%">
+						<b>Japanese</b>
+					</td>
+					<td style="width:27%">
+						<b>English</b>
+					</td>
+				</tr>
+				<tr style="text-align:left">
+					<td id="event_skin1_1" style="padding: 0px 5px 0px 5px;">Ship Description</td>
+					<td style="text-align:center;">
+						<img id="btn_skin1_1" onclick="playAudio('btn_skin1_1','audio_skin1_1')" class="btnAudio" src="https://s3.us-east-2.amazonaws.com/alg-wiki.com/General/sound_off.png">
+						<audio id="audio_skin1_1">
+						  <source src="https://s3.us-east-2.amazonaws.com/alg-wiki.com/Ships/357_Essex/Sound/skin1_self_introduction.ogg" type="audio/ogg">
+						</audio>
+					</td>
+					<td id="cn_skin1_1" style="padding: 0px 5px 0px 5px;">埃塞克斯级航空母舰一号舰——埃塞克斯</td>
+					<td id="jp_skin1_1" style="padding: 0px 5px 0px 5px;">エセックス級航空母艦・エセックス（CV-9)</td>
+					<td id="en_skin1_1" style="padding: 0px 5px 0px 5px;"></td>
+				</tr>
+			</table>
+		</td>
+	</tr>
 </table>
 
 </div>

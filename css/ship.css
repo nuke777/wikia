@@ -125,13 +125,13 @@ table.wikitablewide td {
 	display: table;
 	height: 1px;
     width: 1px;
-	margin-left: 10px;
-	margin-top: 10px;
-	margin-bottom: 10px;
+	margin-left: 5px;
+	margin-top: 5px;
+	margin-bottom: 5px;
 }
 .btnGenericText {
 	white-space: nowrap;
-	height: 35px;
+	height: 30px;
     text-align: center;
     vertical-align: middle;
     display: table-cell;
@@ -140,8 +140,8 @@ table.wikitablewide td {
     border-color:gray;
     border-width:1px;
 	cursor: pointer;  
-    padding: 0px 15px 0px 15px;
-    font-size: 20;
+    padding: 0px 7px 0px 7px;
+    font-size: 14px;
     color:white;
 }
 .btnGenericText:hover {
@@ -152,7 +152,7 @@ table.wikitablewide td {
 }
 .btnGenericTextActive{
 	white-space: nowrap;
-	height: 35px;
+	height: 30px;
     text-align: center;
     vertical-align: middle;
     display: table-cell;
@@ -161,10 +161,13 @@ table.wikitablewide td {
     border-color:gray;
     border-width:1px;
 	cursor: pointer;  
-    padding: 0px 15px 0px 15px;
-    font-size: 20;
+    padding: 0px 7px 0px 7px;
+    font-size: 14px;
     color:#262f3b;
     box-shadow: 1px 1px 4px white, -1px 1px 4px white, 1px -1px 4px white, -1px -1px 4px white;
+}
+.btnAudio{
+	cursor: pointer;  
 }
 
 

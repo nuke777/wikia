@@ -109,7 +109,33 @@
 		"aviation": "83",
 		"cost": "4",
 		"asw": "0",
-		"speed": "16"
+		"speed": "33"
+	},
+	"100": {
+		"hp": "5730",
+		"armor": "Medium",
+		"reload": "114",
+		"firepower": "0",
+		"torpedo": "0",
+		"evasion": "34",
+		"antiAir": "293",
+		"aviation": "391",
+		"cost": "13",
+		"asw": "0",
+		"speed": "33"
+	},
+	"100retrofit": {
+		"hp": "",
+		"armor": "",
+		"reload": "",
+		"firepower": "",
+		"torpedo": "",
+		"evasion": "",
+		"antiAir": "",
+		"aviation": "",
+		"cost": "",
+		"asw": "",
+		"speed": ""
 	},
 	"120": {
 		"hp": "6647",
@@ -122,7 +148,7 @@
 		"aviation": "433",
 		"cost": "13",
 		"asw": "0",
-		"speed": "16"
+		"speed": "33"
 	},
 	"120retrofit": {
 		"hp": "",
@@ -302,11 +328,11 @@
   "lines": {
 	"skin": {
 		"1": {
-			"label": "Default",
+			"label": "essex_skin1",
 			"dialogue": {
 				"1": {
 					"event": "Ship Description",
-					"media": "https://s3.us-east-2.amazonaws.com/alg-wiki.com/Ships/357_Essex/Sound/skin1_self_introduction.ogg",
+					"media": "",
 					"chinese": "埃塞克斯级航空母舰一号舰——埃塞克斯",
 					"chineseTL": "Essex-Class Aircraft Carrier - Essex (CV-9)",
 					"chineseNote": "",
@@ -318,12 +344,24 @@
 				},
 				"2": {
 					"event": "Self Introduction",
-					"media": "",
+					"media": "https://s3.us-east-2.amazonaws.com/alg-wiki.com/Ships/357_Essex/Sound/skin1_self_introduction.ogg",
 					"chinese": "我是埃塞克斯级首舰埃塞克斯号，从诞生起就备受大家的期待。不过，果然相比之下，还是企业前辈的活跃更加受到关注呢。要是我也能够早点加入战局的话…",
 					"chineseTL": "I'm Essex, the first carrier of the Essex class of carriers. I was highly anticipated since birth, but as expected, Enterprise's exploits do get more attention in comparison. If only I had entered the war earlier...",
 					"chineseNote": "",
 					"japanese": "エセックス級のネームシップエセックスです。建造されてから多くの期待を寄せられていましたが、やはり私よりエンタープライズの活躍の方がもっと注目されていましたね。……私だってもっと早く戦闘に参加していたら……",
 					"japaneseTL": "I am Essex, the name ship of my class. Though people had high hopes in me ever since my construction, in the end Enterprise received more attention for her service. …If only I'd been able to participate in battle sooner…",
+					"japaneseNote": "",
+					"english": "",
+					"englishNote": ""
+				},
+				"3": {
+					"event": "Acquisition",
+					"media": "https://s3.us-east-2.amazonaws.com/alg-wiki.com/Ships/357_Essex/Sound/skin1_acquisition.ogg",
+					"chinese": "这里就是企业前辈也在的…咳、咳咳，来自白鹰的最新锐航母、埃塞克斯号，正式报到！我不会辜负大家期望的，请期待我的表现吧，指挥官",
+					"chineseTL": "This is where Enterpise is at too... Ahem, the newest fleet carrier from Eagle Union, Essex, officially reporting in! I will live up to everyone's expectations. Please look forward to my performance, Commander.",
+					"chineseNote": "",
+					"japanese": "	ここがエンタープライズの…こ、コホン！ユニオンの最新鋭空母・エセックス、正式に着任しました。指揮官、私の活躍を期待していてください！みんなの期待を絶対に裏切ったりはしません！",
+					"japaneseTL": "Is this where Enterprise… A-Ahem!—Essex, the Union's ground-breaking aircraft carrier, formally reporting for duty. Please, expect much from my combat performance! I would never let anyone be disappointed in me!",
 					"japaneseNote": "",
 					"english": "",
 					"englishNote": ""
