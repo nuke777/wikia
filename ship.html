@@ -567,12 +567,14 @@
 		if (id.substring(0,3) != "tl_"){
 			while (document.getElementById('cn_'+skinId+'_'+count+'') != null){
 				document.getElementById('cn_'+skinId+'_'+count+'').click();
+				++count;
 			}
 			document.getElementById(id).id = "tl_" + id;
 			document.getElementById("tl_" + id).setAttribute('onclick','toggleChinese("'+skinId+'","tl_'+id+'")');
 		} else if (id.substring(0,3) == "tl_"){
 			while (document.getElementById('tl_cn_'+skinId+'_'+count+'') != null){
 				document.getElementById('tl_cn_'+skinId+'_'+count+'').click();
+				++count;
 			}
 			document.getElementById(id).id = id.substring(3);
 			document.getElementById(id.substring(3)).setAttribute('onclick','toggleChinese("'+skinId+'","'+id.substring(3)+'")');
