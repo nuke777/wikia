@@ -468,12 +468,58 @@
 				var identifier = child[j].id.substring(0,7);
 				if (child[j].id == id) {
 					document.getElementById(id).className = 'btnOverlay activeButton';
-					//loadShipSkinElements(skin);
+					loadShipDialogueElements(skinId);
 				} else if (child[j].id != id && identifier == "ovrDia_"){
 					document.getElementById(child[j].id).className = 'btnOverlay';
 				}
 			}	
 		}
+	}
+	
+	function loadShipDialogueElements(skinId){
+		loadJSON(function(response) {
+			// Parse JSON string into object
+			var actual_JSON = JSON.parse(response);
+			var text = '\
+			<tr style="background-color:#262f3b;text-align:center;">\
+				<td style="width:14%">\
+					<b>Event</b>\
+				</td>\
+				<td style="width:3%"></td>\
+				<td style="width:27%">\
+					<b>Chinese</b>\
+				</td>\
+				<td style="width:27%">\
+					<b>Japanese</b>\
+				</td>\
+				<td style="width:27%">\
+					<b>English</b>\
+				</td>\
+			</tr>';
+			
+			for (var x in actual_JSON.lines.skin){
+				if (actual_JSON.lines.skin[x].label == skinId){
+					for (var y in actual_JSON.lines.skin[x].label.dialogue){		
+						text = text + '\
+			<tr style="text-align:left">\
+				<td id="event_'+skinId+'_'+y+'" style="padding: 0px 5px 0px 5px;">'+actual_JSON.lines.skin[x].label.dialogue[y].event+'</td>\
+				<td style="text-align:center;">\
+					<img id="btn_'+skinId+'_'+y+'" onclick="playAudio(\'btn_'+skinId+'_'+y+'\',\'audio_'+skinId+'_'+y+'\')" class="btnAudio" src="https://s3.us-east-2.amazonaws.com/alg-wiki.com/General/sound_off.png">\
+					<audio id="audio_'+skinId+'_'+y+'">\
+					  <source src="'+actual_JSON.lines.skin[x].label.dialogue[y].media+'" type="audio/ogg">\
+					</audio>\
+				</td>\
+				<td id="cn_'+skinId+'_'+y+'" style="padding: 0px 5px 0px 5px;cursor:pointer;">'+actual_JSON.lines.skin[x].label.dialogue[y].chinese+'</td>\
+				<td id="jp_'+skinId+'_'+y+'" style="padding: 0px 5px 0px 5px;cursor:pointer;">'+actual_JSON.lines.skin[x].label.dialogue[y].japanese+'</td>\
+				<td id="en_'+skinId+'_'+y+'" style="padding: 0px 5px 0px 5px;cursor:pointer;">'+actual_JSON.lines.skin[x].label.dialogue[y].english+'</td>\
+			</tr>';
+					}
+				}
+			}
+			
+			document.getElementById('shipDialogueTable').innerHTML = text;
+			
+		});
 	}
 	
 	window.onload = function() {
@@ -1264,8 +1310,8 @@
 	</tr>
 	<tr>
 		<td style="width:30%;height:1px;">
-			<table class="wikitablewide" style="width:100%;height:100%;text-align:left;margin:0 0 0 0;table-layout:fixed;">
-				<tr style="background-color:#262f3b;text-align:center;">
+			<table class="wikitablewide" id="shipDialogueTable" style="width:100%;height:100%;text-align:left;margin:0 0 0 0;table-layout:fixed;">
+				<!--<tr style="background-color:#262f3b;text-align:center;">
 					<td style="width:14%">
 						<b>Event</b>
 					</td>
@@ -1288,10 +1334,10 @@
 						  <source src="https://s3.us-east-2.amazonaws.com/alg-wiki.com/Ships/357_Essex/Sound/skin1_self_introduction.ogg" type="audio/ogg">
 						</audio>
 					</td>
-					<td id="cn_skin1_1" style="padding: 0px 5px 0px 5px;">埃塞克斯级航空母舰一号舰——埃塞克斯</td>
-					<td id="jp_skin1_1" style="padding: 0px 5px 0px 5px;">エセックス級航空母艦・エセックス（CV-9)</td>
-					<td id="en_skin1_1" style="padding: 0px 5px 0px 5px;"></td>
-				</tr>
+					<td id="cn_skin1_1" style="padding: 0px 5px 0px 5px;cursor:pointer;">埃塞克斯级航空母舰一号舰——埃塞克斯</td>
+					<td id="jp_skin1_1" style="padding: 0px 5px 0px 5px;cursor:pointer;">エセックス級航空母艦・エセックス（CV-9)</td>
+					<td id="en_skin1_1" style="padding: 0px 5px 0px 5px;cursor:pointer;"></td>
+				</tr>-->
 			</table>
 		</td>
 	</tr>
