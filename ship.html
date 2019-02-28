@@ -140,13 +140,13 @@
 	
 	function setShipHullIcon(hull){
 		if (hull == "Aircraft Carrier" || hull == "Light Aircraft Carrier") {
-			document.getElementById("shipHullIcon").src = "https://s3.us-east-2.amazonaws.com/alg-wiki.com/General/Hull/cv.png";
+			document.getElementById("shipHullIcon").src = "Images/Hull/cv.png";
 		}
 	}
 	
 	function setShipNavyIcon(navy){
 		if (navy == "Eagle Union") {
-			document.getElementById("shipNavyIcon").src = "https://s3.us-east-2.amazonaws.com/alg-wiki.com/General/Navy/uss_icon.png";
+			document.getElementById("shipNavyIcon").src = "Images/Navy/uss_icon.png";
 		}
 	}
 	
@@ -438,16 +438,16 @@
 		if (!audio.paused){
 			audio.pause();	
 		} else {
-			document.getElementById(btnId).src = "https://s3.us-east-2.amazonaws.com/alg-wiki.com/General/sound_on.png";
+			document.getElementById(btnId).src = "Images/sound_on.png";
 			audio.play();			
 		}
 		audio.onended = function() {
-			document.getElementById(btnId).src = "https://s3.us-east-2.amazonaws.com/alg-wiki.com/General/sound_off.png";
+			document.getElementById(btnId).src = "Images/sound_off.png";
 		};
 		
 		audio.onpause = function() {
 		  
-			document.getElementById(btnId).src = "https://s3.us-east-2.amazonaws.com/alg-wiki.com/General/sound_off.png";
+			document.getElementById(btnId).src = "Images/sound_off.png";
 		};
 	}
 	
@@ -526,7 +526,7 @@
 				
 						if (actual_JSON.lines.skin[x].dialogue[y].media != ""){
 							text = text + '\
-					<img id="btn_'+skinId+'_'+y+'" onclick="playAudio(\'btn_'+skinId+'_'+y+'\',\'audio_'+skinId+'_'+y+'\')" class="btnAudio" src="https://s3.us-east-2.amazonaws.com/alg-wiki.com/General/sound_off.png">\
+					<img id="btn_'+skinId+'_'+y+'" onclick="playAudio(\'btn_'+skinId+'_'+y+'\',\'audio_'+skinId+'_'+y+'\')" class="btnAudio" src="Images/sound_off.png">\
 					<audio id="audio_'+skinId+'_'+y+'">\
 					  <source src="'+actual_JSON.lines.skin[x].dialogue[y].media+'" type="audio/ogg">\
 					</audio>';
@@ -803,19 +803,19 @@
 			<td colspan="4" style="text-align:left;height:1px;">
 				<table class="wikitablewide" style="width:100%;height:100%;text-align:left;margin:0 0 0 0;">
 					<tr>
-						<td style="width:70%"><img src="https://s3.us-east-2.amazonaws.com/alg-wiki.com/General/firepower_icon.png">&emsp;Firepower</td>
+						<td style="width:70%"><img src="Images/firepower_icon.png">&emsp;Firepower</td>
 						<td style="padding-left:5px" id="shipEnhancementFirepower"></td>
 					</tr>
 					<tr>
-						<td style="width:70%"><img src="https://s3.us-east-2.amazonaws.com/alg-wiki.com/General/torpedo_icon.png">&emsp;Torpedo</td>
+						<td style="width:70%"><img src="Images/torpedo_icon.png">&emsp;Torpedo</td>
 						<td style="padding-left:5px" id="shipEnhancementTorpedo"></td>
 					</tr>
 					<tr>
-						<td style="width:70%"><img src="https://s3.us-east-2.amazonaws.com/alg-wiki.com/General/aviation_icon.png">&emsp;Aviation</td>
+						<td style="width:70%"><img src="Images/aviation_icon.png">&emsp;Aviation</td>
 						<td style="padding-left:5px" id="shipEnhancementAviation"></td>
 					</tr>
 					<tr>
-						<td style="width:70%"><img src="https://s3.us-east-2.amazonaws.com/alg-wiki.com/General/reload_icon.png">&emsp;Reload</td>
+						<td style="width:70%"><img src="Images/reload_icon.png">&emsp;Reload</td>
 						<td style="padding-left:5px" id="shipEnhancementReload"></td>
 					</tr>
 				</table>
@@ -830,15 +830,15 @@
 			<td colspan="4" style="text-align:left;height:1px;">
 				<table class="wikitablewide" style="width:100%;height:100%;text-align:left;margin:0 0 0 0;">
 					<tr>
-						<td style="width:70%"><img src="https://s3.us-east-2.amazonaws.com/alg-wiki.com/General/gold_icon.png">&emsp;Gold</td>
+						<td style="width:70%"><img src="Images/gold_icon.png">&emsp;Gold</td>
 						<td style="padding-left:5px" id="shipScrapIncomeGold"></td>
 					</tr>
 					<tr>
-						<td style="width:70%"><img src="https://s3.us-east-2.amazonaws.com/alg-wiki.com/General/oil_icon.png">&emsp;Oil</td>
+						<td style="width:70%"><img src="Images/oil_icon.png">&emsp;Oil</td>
 						<td style="padding-left:5px" id="shipScrapIncomeOil"></td>
 					</tr>
 					<tr>
-						<td style="width:70%"><img src="https://s3.us-east-2.amazonaws.com/alg-wiki.com/General/medal_icon.png">&emsp;Medal</td>
+						<td style="width:70%"><img src="Images/medal_icon.png">&emsp;Medal</td>
 						<td style="padding-left:5px" id="shipScrapIncomeMedal"></td>
 					</tr>
 				</table>
@@ -1056,27 +1056,27 @@
 		</td>
 	</tr>
 	<tr>
-		<td style="width:70%;padding-left:5px"><img src="https://s3.us-east-2.amazonaws.com/alg-wiki.com/General/health_icon.png">&emsp;HP</td>
+		<td style="width:70%;padding-left:5px"><img src="Images/health_icon.png">&emsp;HP</td>
 		<td style="padding-left:5px" id="shipParameterHP"></td>
 	</tr>
 	<tr>
-		<td style="width:70%;padding-left:5px"><img src="https://s3.us-east-2.amazonaws.com/alg-wiki.com/General/anti_air_icon.png">&emsp;Anti-air</td>
+		<td style="width:70%;padding-left:5px"><img src="Images/anti_air_icon.png">&emsp;Anti-air</td>
 		<td style="padding-left:5px" id="shipParameterAntiAir"></td>
 	</tr>
 	<tr>
-		<td style="width:70%;padding-left:5px"><img src="https://s3.us-east-2.amazonaws.com/alg-wiki.com/General/evasion_icon.png">&emsp;Evasion</td>
+		<td style="width:70%;padding-left:5px"><img src="Images/evasion_icon.png">&emsp;Evasion</td>
 		<td style="padding-left:5px" id="shipParameterEvasion"></td>
 	</tr>
 	<tr>
-		<td style="width:70%;padding-left:5px"><img src="https://s3.us-east-2.amazonaws.com/alg-wiki.com/General/aviation_icon.png">&emsp;Aviation</td>
+		<td style="width:70%;padding-left:5px"><img src="Images/aviation_icon.png">&emsp;Aviation</td>
 		<td style="padding-left:5px" id="shipParameterAviation"></td>
 	</tr>
 	<tr>
-		<td style="width:70%;padding-left:5px"><img src="https://s3.us-east-2.amazonaws.com/alg-wiki.com/General/torpedo_icon.png">&emsp;Torpedo</td>
+		<td style="width:70%;padding-left:5px"><img src="Images/torpedo_icon.png">&emsp;Torpedo</td>
 		<td style="padding-left:5px" id="shipParameterTorpedo"></td>
 	</tr>
 	<tr>
-		<td style="width:70%;padding-left:5px"><img src="https://s3.us-east-2.amazonaws.com/alg-wiki.com/General/firepower_icon.png">&emsp;Firepower</td>
+		<td style="width:70%;padding-left:5px"><img src="Images/firepower_icon.png">&emsp;Firepower</td>
 		<td style="padding-left:5px" id="shipParameterFirepower"></td>
 	</tr>
 	<tr>
@@ -1109,37 +1109,37 @@
 		<td colspan="2" style="text-align:left;height:1px;">
 			<table class="wikitablewide" style="width:100%;height:100%;text-align:left;margin:0 0 0 0;">
 				<tr>
-					<td style="width:35%;padding-left:5px"><img src="https://s3.us-east-2.amazonaws.com/alg-wiki.com/General/health_icon.png">&emsp;HP</td>
+					<td style="width:35%;padding-left:5px"><img src="Images/health_icon.png">&emsp;HP</td>
 					<td style="width:15%;text-align:center" id="shipStatsHP"></td>
-					<td style="width:35%;padding-left:5px"><img src="https://s3.us-east-2.amazonaws.com/alg-wiki.com/General/reload_icon.png">&emsp;Reload</td>
+					<td style="width:35%;padding-left:5px"><img src="Images/reload_icon.png">&emsp;Reload</td>
 					<td style="width:15%;text-align:center" id="shipStatsReload"></td>
 				</tr>
 				<tr>
-					<td style="width:35%;padding-left:5px"><img src="https://s3.us-east-2.amazonaws.com/alg-wiki.com/General/firepower_icon.png">&emsp;Firepower</td>
+					<td style="width:35%;padding-left:5px"><img src="Images/firepower_icon.png">&emsp;Firepower</td>
 					<td style="width:15%;text-align:center" id="shipStatsFirepower"></td>
-					<td style="width:35%;padding-left:5px"><img src="https://s3.us-east-2.amazonaws.com/alg-wiki.com/General/torpedo_icon.png">&emsp;Torpedo</td>
+					<td style="width:35%;padding-left:5px"><img src="Images/torpedo_icon.png">&emsp;Torpedo</td>
 					<td style="width:15%;text-align:center" id="shipStatsTorpedo"></td>
 				</tr>
 				<tr>
-					<td style="width:35%;padding-left:5px"><img src="https://s3.us-east-2.amazonaws.com/alg-wiki.com/General/evasion_icon.png">&emsp;Evasion</td>
+					<td style="width:35%;padding-left:5px"><img src="Images/evasion_icon.png">&emsp;Evasion</td>
 					<td style="width:15%;text-align:center" id="shipStatsEvasion"></td>
-					<td style="width:35%;padding-left:5px"><img src="https://s3.us-east-2.amazonaws.com/alg-wiki.com/General/anti_air_icon.png">&emsp;Anti-air</td>
+					<td style="width:35%;padding-left:5px"><img src="Images/anti_air_icon.png">&emsp;Anti-air</td>
 					<td style="width:15%;text-align:center" id="shipStatsAntiAir"></td>
 				</tr>
 				<tr>
-					<td style="width:35%;padding-left:5px"><img src="https://s3.us-east-2.amazonaws.com/alg-wiki.com/General/aviation_icon.png">&emsp;Aviation</td>
+					<td style="width:35%;padding-left:5px"><img src="Images/aviation_icon.png">&emsp;Aviation</td>
 					<td style="width:15%;text-align:center" id="shipStatsAviation"></td>
-					<td style="width:35%;padding-left:5px"><img src="https://s3.us-east-2.amazonaws.com/alg-wiki.com/General/cost_icon.png">&emsp;Cost</td>
+					<td style="width:35%;padding-left:5px"><img src="Images/cost_icon.png">&emsp;Cost</td>
 					<td style="width:15%;text-align:center" id="shipStatsCost"></td>
 				</tr>
 				<tr>
-					<td style="width:35%;padding-left:5px"><img src="https://s3.us-east-2.amazonaws.com/alg-wiki.com/General/asw_icon.png">&emsp;ASW</td>
+					<td style="width:35%;padding-left:5px"><img src="Images/asw_icon.png">&emsp;ASW</td>
 					<td style="width:15%;text-align:center" id="shipStatsASW"></td>
 					<td style="width:35%;padding-left:5px">Speed</td>
 					<td style="width:15%;text-align:center" id="shipStatsSpeed"></td>
 				</tr>
 				<tr>
-					<td style="padding-left:5px"><img src="https://s3.us-east-2.amazonaws.com/alg-wiki.com/General/armor_icon.png">&emsp;Armor</td>
+					<td style="padding-left:5px"><img src="Images/armor_icon.png">&emsp;Armor</td>
 					<td colspan="3" style="text-align:left;padding-left:5px" id="shipStatsArmor"></td>
 				</tr>
 			</table>
@@ -1438,7 +1438,7 @@
 				<tr style="text-align:left">
 					<td id="event_skin1_1" style="padding: 0px 5px 0px 5px;">Ship Description</td>
 					<td style="text-align:center;">
-						<img id="btn_skin1_1" onclick="playAudio('btn_skin1_1','audio_skin1_1')" class="btnAudio" src="https://s3.us-east-2.amazonaws.com/alg-wiki.com/General/sound_off.png">
+						<img id="btn_skin1_1" onclick="playAudio('btn_skin1_1','audio_skin1_1')" class="btnAudio" src="Images/sound_off.png">
 						<audio id="audio_skin1_1">
 						  <source src="https://s3.us-east-2.amazonaws.com/alg-wiki.com/Ships/357_Essex/Sound/skin1_self_introduction.ogg" type="audio/ogg">
 						</audio>
