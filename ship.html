@@ -539,6 +539,7 @@
 						}
 						
 						var chineseTL = actual_JSON.lines.skin[x].dialogue[y].chineseTL.replace(/"/g, "\\&quot;");
+						var japaneseTL = actual_JSON.lines.skin[x].dialogue[y].japaneseTL.replace(/"/g, "\\&quot;");
 					
 						text = text + '\
 				</td>\
@@ -559,6 +560,7 @@
 			
 	function switchTranslation(translation, id){
 		var temp = document.getElementById(id).innerHTML;
+		temp = temp.replace(/"/g, "\\\"");
 		document.getElementById(id).innerHTML = translation;
 		if (document.getElementById(id).id.substring(0,3) != "tl_"){
 			document.getElementById(id).id = "tl_" + id;
