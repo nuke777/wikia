@@ -174,7 +174,7 @@
 		for (var x in data.skin) {
 			var container = document.createElement('div');
 			container.className = 'btnContainer';			
-			container.setAttribute('onclick','onSkinNavButtonClick(&quot;' + JSON.stringify(data.skin[x]) + '&quot;)');
+			container.setAttribute('onclick','onSkinNavButtonClick("' + JSON.stringify(data.skin[x]) + '")');
 			if (firstIteration){
 				container.innerHTML = 
 				'<img class="btnImage" id="' + data.skin[x].id + '" src="' + data.skin[x].icon + '"></img>\
