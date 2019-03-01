@@ -141,12 +141,16 @@
 	function setShipHullIcon(hull){
 		if (hull == "Aircraft Carrier" || hull == "Light Aircraft Carrier") {
 			document.getElementById("shipHullIcon").src = "Images/Hull/cv.png";
+		} else if (hull == "Destroyer") {
+			document.getElementById("shipHullIcon").src = "Images/Hull/dd.png";
 		}
 	}
 	
 	function setShipNavyIcon(navy){
 		if (navy == "Eagle Union") {
 			document.getElementById("shipNavyIcon").src = "Images/Navy/uss_icon.png";
+		} else if (navy == "Sakura Empire") {
+			document.getElementById("shipNavyIcon").src = "Images/Navy/ijn_icon.png";
 		}
 	}
 	
