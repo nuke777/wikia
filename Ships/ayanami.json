@@ -1,1284 +1,1284 @@
 {
-  "name": "Ayanami",
-  "nameJP": "綾波",
-  "nameCN": "柚",
-  "class": "Fubuki Type II",
-  "hull": "Destroyer",
-  "prefix": "IJN",
-  "ID": "155",
-  "imageSRC": "https://s3.us-east-2.amazonaws.com/alg-wiki.com/Ships/155_Ayanami/Icon/icon.jpg",
-  "navy": "Sakura Empire",  
-  "initialStar": "★★☆☆☆",
-  "rarity": "Elite",
-  "buildTime": "00:23:00",
-  "acquisitionMethod": "Drop/Light (JP), Collection (CN/EN/KR)",
-  "enhance": {
-	"firepower": "4",
-    "torpedo": "32",
-    "aviation": "0",
-    "reload": "15"
-  },
-  "scrap": {
-    "gold": "4",
-    "oil": "3",
-    "medal": "4"
-  },
-  "skin": {
-	"1": {
-		"id": "ayanami_skin1",
-		"name": "Default",
-		"icon": "https://s3.us-east-2.amazonaws.com/alg-wiki.com/Ships/155_Ayanami/Icon/skin1.jpg",
-		"image": "https://s3.us-east-2.amazonaws.com/alg-wiki.com/Ships/155_Ayanami/Sprite/skin1_expr1.png",
-		"description": "First ship of the special Type-II Fubuki-class destroyers, Ayanami",
-		"sd": "https://s3.us-east-2.amazonaws.com/alg-wiki.com/Ships/155_Ayanami/Sprite/skin1_sd.png",
-		"expression": {
-			"1": {
-				"id": "ayanami_skin1_expr1",
-				"full": "https://s3.us-east-2.amazonaws.com/alg-wiki.com/Ships/155_Ayanami/Sprite/skin1_expr1.png",
-				"icon": "https://s3.us-east-2.amazonaws.com/alg-wiki.com/Ships/155_Ayanami/Icon/skin1_expr1.png"
-			}
-		}
-	},
-	"2": {
-		"id": "ayanami_skin2",
-		"name": "Retrofit",
-		"icon": "https://s3.us-east-2.amazonaws.com/alg-wiki.com/Ships/155_Ayanami/Icon/skin2.jpg",
-		"image": "https://s3.us-east-2.amazonaws.com/alg-wiki.com/Ships/155_Ayanami/Sprite/skin2_expr1.png",
-		"description": "Ayanami, retrofit complete. I feel stronger, yes... Having that said, Commander, can you pat my head? I want to be spoiled a bit...",
-		"sd": "https://s3.us-east-2.amazonaws.com/alg-wiki.com/Ships/155_Ayanami/Sprite/skin2_sd.png",
-		"expression": {
-			"1": {
-				"id": "ayanami_skin2_expr1",
-				"full": "https://s3.us-east-2.amazonaws.com/alg-wiki.com/Ships/155_Ayanami/Sprite/skin2_expr1.png",
-				"icon": "https://s3.us-east-2.amazonaws.com/alg-wiki.com/Ships/155_Ayanami/Icon/skin2_expr1.png"
-			}
-		}
-	},
-	"3": {
-		"id": "ayanami_skin3",
-		"name": "Demon's Finest Dress",
-		"icon": "https://s3.us-east-2.amazonaws.com/alg-wiki.com/Ships/155_Ayanami/Icon/skin3.jpg",
-		"image": "https://s3.us-east-2.amazonaws.com/alg-wiki.com/Ships/155_Ayanami/Sprite/skin3_expr1.png",
-		"description": "This dress is... Ayanami's. I'm not used to this dress yet... Commander, do you think it fits me?",
-		"sd": "https://s3.us-east-2.amazonaws.com/alg-wiki.com/Ships/155_Ayanami/Sprite/skin3_sd.png",
-		"expression": {
-			"1": {
-				"id": "ayanami_skin3_expr1",
-				"full": "https://s3.us-east-2.amazonaws.com/alg-wiki.com/Ships/155_Ayanami/Sprite/skin3_expr1.png",
-				"icon": "https://s3.us-east-2.amazonaws.com/alg-wiki.com/Ships/155_Ayanami/Icon/skin3_expr1.png"
-			},
-			"2": {
-				"id": "ayanami_skin3_expr2",
-				"full": "https://s3.us-east-2.amazonaws.com/alg-wiki.com/Ships/155_Ayanami/Sprite/skin3_expr2.png",
-				"icon": "https://s3.us-east-2.amazonaws.com/alg-wiki.com/Ships/155_Ayanami/Icon/skin3_expr2.png"
-			},
-			"3": {
-				"id": "ayanami_skin3_expr3",
-				"full": "https://s3.us-east-2.amazonaws.com/alg-wiki.com/Ships/155_Ayanami/Sprite/skin3_expr3.png",
-				"icon": "https://s3.us-east-2.amazonaws.com/alg-wiki.com/Ships/155_Ayanami/Icon/skin3_expr3.png"
-			},
-			"4": {
-				"id": "ayanami_skin3_expr4",
-				"full": "https://s3.us-east-2.amazonaws.com/alg-wiki.com/Ships/155_Ayanami/Sprite/skin3_expr4.png",
-				"icon": "https://s3.us-east-2.amazonaws.com/alg-wiki.com/Ships/155_Ayanami/Icon/skin3_expr4.png"
-			},
-			"5": {
-				"id": "ayanami_skin3_expr5",
-				"full": "https://s3.us-east-2.amazonaws.com/alg-wiki.com/Ships/155_Ayanami/Sprite/skin3_expr5.png",
-				"icon": "https://s3.us-east-2.amazonaws.com/alg-wiki.com/Ships/155_Ayanami/Icon/skin3_expr5.png"
-			},
-			"6": {
-				"id": "ayanami_skin3_expr6",
-				"full": "https://s3.us-east-2.amazonaws.com/alg-wiki.com/Ships/155_Ayanami/Sprite/skin3_expr6.png",
-				"icon": "https://s3.us-east-2.amazonaws.com/alg-wiki.com/Ships/155_Ayanami/Icon/skin3_expr6.png"
-			}
-		}
-	},
-	"4": {
-		"id": "ayanami_skin4",
-		"name": "Witch in Ambush",
-		"icon": "https://s3.us-east-2.amazonaws.com/alg-wiki.com/Ships/155_Ayanami/Icon/skin4.jpg",
-		"image": "https://s3.us-east-2.amazonaws.com/alg-wiki.com/Ships/155_Ayanami/Sprite/skin4_expr1.png",
-		"description": "I heard that... I need to wear a costume like this to participate in Halloween festivities. Commander... do I look cute?",
-		"sd": "https://s3.us-east-2.amazonaws.com/alg-wiki.com/Ships/155_Ayanami/Sprite/skin4_sd.png",
-		"expression": {
-			"1": {
-				"id": "ayanami_skin4_expr1",
-				"full": "https://s3.us-east-2.amazonaws.com/alg-wiki.com/Ships/155_Ayanami/Sprite/skin4_expr1.png",
-				"icon": "https://s3.us-east-2.amazonaws.com/alg-wiki.com/Ships/155_Ayanami/Icon/skin4_expr1.png"
-			}
-		}
-	},
-	"5": {
-		"id": "ayanami_skin5",
-		"name": "Niconico",
-		"icon": "https://s3.us-east-2.amazonaws.com/alg-wiki.com/Ships/155_Ayanami/Icon/skin5.jpg",
-		"image": "https://s3.us-east-2.amazonaws.com/alg-wiki.com/Ships/155_Ayanami/Sprite/skin5_expr1.png",
-		"description": "I've found a new video… Commander, how about we watch a live stream together later?",
-		"sd": "https://s3.us-east-2.amazonaws.com/alg-wiki.com/Ships/155_Ayanami/Sprite/skin5_sd.png",
-		"expression": {
-			"1": {
-				"id": "ayanami_skin5_expr1",
-				"full": "https://s3.us-east-2.amazonaws.com/alg-wiki.com/Ships/155_Ayanami/Sprite/skin5_expr1.png",
-				"icon": "https://s3.us-east-2.amazonaws.com/alg-wiki.com/Ships/155_Ayanami/Icon/skin5_expr1.png"
-			}
-		}
-	},
-	"6": {
-		"id": "ayanami_skin6",
-		"name": "Rock'n KIJIN",
-		"icon": "https://s3.us-east-2.amazonaws.com/alg-wiki.com/Ships/155_Ayanami/Icon/skin6.jpg",
-		"image": "https://s3.us-east-2.amazonaws.com/alg-wiki.com/Ships/155_Ayanami/Sprite/skin6_expr1.png",
-		"description": "Commander, shall we listen to some music together? Do you like… this non-weaponized version of me?",
-		"sd": "https://s3.us-east-2.amazonaws.com/alg-wiki.com/Ships/155_Ayanami/Sprite/skin6_sd.png",
-		"expression": {
-			"1": {
-				"id": "ayanami_skin6_expr1",
-				"full": "https://s3.us-east-2.amazonaws.com/alg-wiki.com/Ships/155_Ayanami/Sprite/skin6_expr1.png",
-				"icon": "https://s3.us-east-2.amazonaws.com/alg-wiki.com/Ships/155_Ayanami/Icon/skin6_expr1.png"
-			}
-		}
-	},
-	"7": {
-		"id": "ayanami_skin7",
-		"name": "Lunar Demon",
-		"icon": "https://s3.us-east-2.amazonaws.com/alg-wiki.com/Ships/155_Ayanami/Icon/skin7.jpg",
-		"image": "https://s3.us-east-2.amazonaws.com/alg-wiki.com/Ships/155_Ayanami/Sprite/skin7_expr1.png",
-		"description": "Compared to the way we celebrate New Year in the Sakura Empire, the festivities of the Dragon Empery have a completely different atmosphere... But, I don't really mind the liveliness... Commander, do you like festivals?",
-		"sd": "https://s3.us-east-2.amazonaws.com/alg-wiki.com/Ships/155_Ayanami/Sprite/skin1_sd.png",
-		"expression": {
-			"1": {
-				"id": "ayanami_skin7_expr1",
-				"full": "https://s3.us-east-2.amazonaws.com/alg-wiki.com/Ships/155_Ayanami/Sprite/skin7_expr1.png",
-				"icon": "https://s3.us-east-2.amazonaws.com/alg-wiki.com/Ships/155_Ayanami/Icon/skin7_expr1.png"
-			}
-		}
-	}
-  },
-  "releaseDate": {
-	"JP": "September 13, 2017",
-	"CN": "August 28, 2017",
-	"KR": "March 27, 2018",
-	"EN": "August 16, 2018"
-  },
-  "voiceActress": "You Taichi",
-  "artist": {
-	"name": "大月紅葉",
-	"weibo": "http://weibo.com/ootsukimomiji",
-	"twitter": "",
-	"pixiv": "https://www.pixiv.net/member.php?id=591937",
-	"other": ""
-  },
-  "parameters": {
-	"hp": "D",
-	"antiAir": "D",
-	"evasion": "A",
-	"aviation": "E",
-	"torpedo": "A -> S",
-	"firepower": "D"
-  },
-  "stats": {
-	"base": {
-		"hp": "290",
-		"armor": "Light",
-		"reload": "78",
-		"firepower": "12",
-		"torpedo": "98",
-		"evasion": "72",
-		"antiAir": "27",
+	"name": "Ayanami",
+	"nameJP": "綾波",
+	"nameCN": "柚",
+	"class": "Fubuki Type II",
+	"hull": "Destroyer",
+	"prefix": "IJN",
+	"ID": "155",
+	"imageSRC": "https://s3.us-east-2.amazonaws.com/alg-wiki.com/Ships/155_Ayanami/Icon/icon.jpg",
+	"navy": "Sakura Empire",
+	"initialStar": "★★☆☆☆",
+	"rarity": "Elite",
+	"buildTime": "00:23:00",
+	"acquisitionMethod": "Drop/Light (JP), Collection (CN/EN/KR)",
+	"enhance": {
+		"firepower": "4",
+		"torpedo": "32",
 		"aviation": "0",
-		"cost": "2",
-		"asw": "50",
-		"speed": "45"
+		"reload": "15"
 	},
-	"100": {
-		"hp": "1498",
-		"armor": "Light",
-		"reload": "186",
-		"firepower": "57",
-		"torpedo": "463",
-		"evasion": "188",
-		"antiAir": "127",
-		"aviation": "0",
-		"cost": "9",
-		"asw": "183",
-		"speed": "45"
+	"scrap": {
+		"gold": "4",
+		"oil": "3",
+		"medal": "4"
 	},
-	"100retrofit": {
-		"hp": "1663",
-		"armor": "Light",
-		"reload": "201",
-		"firepower": "67",
-		"torpedo": "523",
-		"evasion": "208",
-		"antiAir": "127",
-		"aviation": "0",
-		"cost": "9",
-		"asw": "183",
-		"speed": "48"
-	},
-	"120": {
-		"hp": "1798",
-		"armor": "Light",
-		"reload": "213",
-		"firepower": "65",
-		"torpedo": "509",
-		"evasion": "194",
-		"antiAir": "146",
-		"aviation": "0",
-		"cost": "9",
-		"asw": "203",
-		"speed": "45"
-	},
-	"120retrofit": {
-		"hp": "1963",
-		"armor": "Light",
-		"reload": "228",
-		"firepower": "75",
-		"torpedo": "569",
-		"evasion": "214",
-		"antiAir": "146",
-		"aviation": "0",
-		"cost": "9",
-		"asw": "203",
-		"speed": "48"
-	}
-  },
-  "limitBreak": {
-	"tier1": "Full Barrage I, Torpedo Efficiency +5%",
-	"tier2": "Max Torpedo Capacity +1, Pre-Loaded Torpedo +1, Torpedo Efficiency +10%",
-	"tier3": "Full Barrage II, All Weapon Efficiency +5%"
-  },
-  "equipmentLoadout": {
-	"1": {
-		"type": "Destroyer Gun",
-		"efficiency": "75%/75%(80%)/75%(80%)/80%(85%)",
-		"amount": "1/1/1/1",
-		"preload": "0/0/0/0"
-	},
-	"2": {
-		"type": "Torpedo",
-		"efficiency": "140%/145%/155%(160%)/160%(165%)",
-		"amount": "1/1/2/2",
-		"preload": "0/0/1/1"
-	},
-	"3": {
-		"type": "Anti-Air Gun",
-		"efficiency": "70%/70%/70%/75%",
-		"amount": "1/1/1/1",
-		"preload": "0/0/0/0"
-	},
-	"4": {
-		"type": "Auxilliary",
-		"efficiency": "-",
-		"amount": "-",
-		"preload": "-"
-	},
-	"5": {
-		"type": "Auxilliary",
-		"efficiency": "-",
-		"amount": "-",
-		"preload": "-"
-	}
-  },
-  "defaultEquipment": {
-	"1": "Twin 127mm Type 3 T1"
-  },
-  "skill": {
-	"1": {
-		"name": "Demon God",
-		"type": "Offensive",
-		"skillIcon": "https://s3.us-east-2.amazonaws.com/alg-wiki.com/Ships/155_Ayanami/Icon/skill1.png",
-		"requirement": "Default Unlocked",
-		"description": "5% chance of activation upon firing. For 12 seconds, increases own torpedo stats by 30% (60%)"
-	},
-	"2": {
-		"name": "Demon Dance",
-		"type": "Defensive",
-		"skillIcon": "https://s3.us-east-2.amazonaws.com/alg-wiki.com/Ships/155_Ayanami/Icon/skill2.png",
-		"requirement": "Retrofit",
-		"description": "Every 20 seconds, has a 40% (70%) chance to active Demon Mode, increasing own Evasion by 30% for 5 seconds and releasing a powerful barrage while launching fast torpedoes in a helical pattern"
-	},
-	"3": {
-		"name": "Full Barrage I-II",
-		"type": "Offensive",
-		"skillIcon": "https://s3.us-east-2.amazonaws.com/alg-wiki.com/Ships/155_Ayanami/Icon/skill3.png",
-		"requirement": "Limit Break Rank 1, Rank 3 upgrade",
-		"description": "Every 15 (10) times the main battery is fired, trigger Full Barrage - Ayanami I (II)"
-	}
-  },
-  "build": {
-	"light": {
-		"JP": "✓",
-		"CN": "-",
-		"EN": "-"
-	},
-	"heavy": {
-		"JP": "-",
-		"CN": "-",
-		"EN": "-"
-	},
-	"special": {
-		"JP": "-",
-		"CN": "-",
-		"EN": "-"
-	},
-	"limited": {
-		"JP": "-",
-		"CN": "-",
-		"EN": "-"
-	}
-  },
-  "drop": {
-	"droppable": "true",
-	"list": {
-		"1": {
-			"event": "World",
-			"chapter": {
-				"1": {
-					"label": "Ch.2",
-					"node": {
-						"1": {
-							"drop": "✓",
-							"note": "JP Only"
-						},
-						"2": {
-							"drop": "✓",
-							"note": "JP Only"
-						},
-						"3": {
-							"drop": "✓",
-							"note": "JP Only"
-						},
-						"4": {
-							"drop": "✓",
-							"note": "JP Only"
-						}
-					}
-				},
-				"2": {
-					"label": "Ch.3",
-					"node": {
-						"1": {
-							"drop": "✓",
-							"note": "JP Only"
-						},
-						"2": {
-							"drop": "✓",
-							"note": "JP Only"
-						},
-						"3": {
-							"drop": "✓",
-							"note": "JP Only"
-						},
-						"4": {
-							"drop": "✓",
-							"note": "JP Only"
-						}
-					}
-				},
-				"3": {
-					"label": "Ch.4",
-					"node": {
-						"1": {
-							"drop": "✓",
-							"note": "JP Only"
-						},
-						"2": {
-							"drop": "✓",
-							"note": "JP Only"
-						},
-						"3": {
-							"drop": "✓",
-							"note": "JP Only"
-						},
-						"4": {
-							"drop": "✓",
-							"note": "JP Only"
-						}
-					}				
-				},
-				"4": {
-					"label": "Ch.5",
-					"node": {
-						"1": {
-							"drop": "✓",
-							"note": "JP Only"
-						},
-						"2": {
-							"drop": "✓",
-							"note": "JP Only"
-						},
-						"3": {
-							"drop": "✓",
-							"note": "JP Only"
-						},
-						"4": {
-							"drop": "✓",
-							"note": "JP Only"
-						}
-					}
-				},
-				"5": {
-					"label": "Ch.6",
-					"node": {
-						"1": {
-							"drop": "✓",
-							"note": "JP Only"
-						},
-						"2": {
-							"drop": "✓",
-							"note": "JP Only"
-						},
-						"3": {
-							"drop": "✓",
-							"note": "JP Only"
-						},
-						"4": {
-							"drop": "✓",
-							"note": "JP Only"
-						}
-					}
-				},
-				"6": {
-					"label": "Ch.7",
-					"node": {
-						"1": {
-							"drop": "✓",
-							"note": "JP Only"
-						},
-						"2": {
-							"drop": "✓",
-							"note": "JP Only"
-						},
-						"3": {
-							"drop": "✓",
-							"note": "JP Only"
-						},
-						"4": {
-							"drop": "✓",
-							"note": "JP Only"
-						}
-					}
-				},
-				"7": {
-					"label": "Ch.8",
-					"node": {
-						"1": {
-							"drop": "✓",
-							"note": "JP Only"
-						},
-						"2": {
-							"drop": "✓",
-							"note": "JP Only"
-						},
-						"3": {
-							"drop": "✓",
-							"note": "JP Only"
-						},
-						"4": {
-							"drop": "✓",
-							"note": "JP Only"
-						}
-					}
-				},
-				"8": {
-					"label": "Ch.9",
-					"node": {
-						"1": {
-							"drop": "✓",
-							"note": "JP Only"
-						},
-						"2": {
-							"drop": "✓",
-							"note": "JP Only"
-						},
-						"3": {
-							"drop": "✓",
-							"note": "JP Only"
-						},
-						"4": {
-							"drop": "✓",
-							"note": "JP Only"
-						}
-					}
-				},
-				"9": {
-					"label": "Ch.10",
-					"node": {
-						"1": {
-							"drop": "✓",
-							"note": "JP Only"
-						},
-						"2": {
-							"drop": "✓",
-							"note": "JP Only"
-						},
-						"3": {
-							"drop": "✓",
-							"note": "JP Only"
-						},
-						"4": {
-							"drop": "✓",
-							"note": "JP Only"
-						}
-					}
-				},
-				"10": {
-					"label": "Ch.11",
-					"node": {
-						"1": {
-							"drop": "✓",
-							"note": "JP Only"
-						},
-						"2": {
-							"drop": "✓",
-							"note": "JP Only"
-						},
-						"3": {
-							"drop": "✓",
-							"note": "JP Only"
-						},
-						"4": {
-							"drop": "✓",
-							"note": "JP Only"
-						}
-					}
-				},
-				"11": {
-					"label": "Ch.12",
-					"node": {
-						"1": {
-							"drop": "✓",
-							"note": "JP Only"
-						},
-						"2": {
-							"drop": "✓",
-							"note": "JP Only"
-						},
-						"3": {
-							"drop": "✓",
-							"note": "JP Only"
-						},
-						"4": {
-							"drop": "✓",
-							"note": "JP Only"
-						}
-					}
-				}
-			}
-		}
-	}
-  },
-  "lines": {
 	"skin": {
 		"1": {
-			"label": "ayanami_skin1",
-			"dialogue": {
+			"id": "ayanami_skin1",
+			"name": "Default",
+			"icon": "https://s3.us-east-2.amazonaws.com/alg-wiki.com/Ships/155_Ayanami/Icon/skin1.jpg",
+			"image": "https://s3.us-east-2.amazonaws.com/alg-wiki.com/Ships/155_Ayanami/Sprite/skin1_expr1.png",
+			"description": "First ship of the special Type-II Fubuki-class destroyers, Ayanami",
+			"sd": "https://s3.us-east-2.amazonaws.com/alg-wiki.com/Ships/155_Ayanami/Sprite/skin1_sd.png",
+			"expression": {
 				"1": {
-					"event": "Ship Description",
-					"media": "",
-					"chinese": "特II型綾波级驱逐舰一番舰—綾波",
-					"chineseTL": "First ship of the special Type-II Ayanami-class destroyer - Ayanami",
-					"chineseNote": "",
-					"japanese": "特Ⅱ型駆逐艦一番艦・綾波",
-					"japaneseTL": "Special Type II Destroyer Number One - Ayanami",
-					"japaneseNote": "",
-					"english": "",
-					"englishNote": ""
-				},
-				"2": {
-					"event": "Self Introduction",
-					"media": "https://s3.us-east-2.amazonaws.com/alg-wiki.com/Ships/155_Ayanami/Sound/skin1_self_introduction.ogg",
-					"chinese": "吹雪级驱逐舰的改良舰綾波……的说，对我来说，战斗没什么好害怕的，所以虽然只是驱逐舰，但是无论什么敌人我都敢一战……",
-					"chineseTL": "I am...the improved model of the Fubuki-class destroyers, Ayanami. I'm not afraid of battling, so although I'm just a destroyer, I dare to challenge any enemy I face...",
-					"chineseNote": "",
-					"japanese": "吹雪型駆逐艦の改良型、綾波……です。戦闘は怖くないです。駆逐艦だけど、どんな敵とも戦える、です……",
-					"japaneseTL": "I'm Ayanami… an improved model of the Fubuki-class destroyer. I'm not afraid of combat. Although I'm just a destroyer, no matter what the enemy is, I can fight them…",
-					"japaneseNote": "",
-					"english": "",
-					"englishNote": ""
-				},
-				"3": {
-					"event": "Acquisition",
-					"media": "https://s3.us-east-2.amazonaws.com/alg-wiki.com/Ships/155_Ayanami/Sound/skin1_acquisition.ogg",
-					"chinese": "綾波……的说，他们喜欢叫我“鬼神”就是了。请多指教",
-					"chineseTL": "I'm...Ayanami, they like calling me the "Demon". Thanks for having me.",
-					"chineseNote": "",
-					"japanese": "綾波……です。「鬼神」とよく言われるのです。よろしくです",
-					"japaneseTL": "I'm… Ayanami. I'm often called a demon. Pleasure to meet you.",
-					"japaneseNote": "",
-					"english": "",
-					"englishNote": ""
-				},
-				"4": {
-					"event": "Login",
-					"media": "https://s3.us-east-2.amazonaws.com/alg-wiki.com/Ships/155_Ayanami/Sound/skin1_login.ogg",
-					"chinese": "指挥官，吃了吗？我这里还有点心",
-					"chineseTL": "Commander, have you eaten already? I have some dim sum here.",
-					"chineseNote": "",
-					"japanese": "指揮官は食べました？おやつ、です",
-					"japaneseTL": "Commander, have you eaten yet? Here, a snack.",
-					"japaneseNote": "",
-					"english": "",
-					"englishNote": ""
-				},
-				"5": {
-					"event": "Details",
-					"media": "https://s3.us-east-2.amazonaws.com/alg-wiki.com/Ships/155_Ayanami/Sound/skin1_details.ogg",
-					"chinese": "这次有好好的检查了通讯设备，不会再给您添麻烦了……",
-					"chineseTL": "I have properly maintained the communication equipment this time. It won't be causing you annoyance anymore...",
-					"chineseNote": "",
-					"japanese": "通信設備、今度はちゃんと整備したのです。迷惑をかけないのです……",
-					"japaneseTL": "I'm maintaining my communication equipment properly this time. It won't be causing anyone trouble…",
-					"japaneseNote": "",
-					"english": "",
-					"englishNote": ""
-				},
-				"6": {
-					"event": "Idle 1",
-					"media": "https://s3.us-east-2.amazonaws.com/alg-wiki.com/Ships/155_Ayanami/Sound/skin1_idle_1.ogg",
-					"chinese": "綾波的耳朵……比较可爱吗？不太懂……指挥官开心就好",
-					"chineseTL": "Ayanami's ears...are pretty cute right? I don't really understand...but it's fine if the Commander is happy.",
-					"chineseNote": "",
-					"japanese": "綾波のミミ……可愛いですか？…わからないです。指揮官が楽しんでいればいいです",
-					"japaneseTL": "My ears are… cute? …I don't get it. As long as you like them, I don't mind.",
-					"japaneseNote": "",
-					"english": "",
-					"englishNote": ""
-				},
-				"7": {
-					"event": "Idle 2",
-					"media": "https://s3.us-east-2.amazonaws.com/alg-wiki.com/Ships/155_Ayanami/Sound/skin1_idle_2.ogg",
-					"chinese": "最近时常会做和大家走散的噩梦，一定是我做的还不够好……",
-					"chineseTL": "Recently I've been having nightmares about being separated from everyone, it must be because I've not been working hard enough...",
-					"chineseNote": "",
-					"japanese": "最近みんなとはぐれる夢をよく見るのです。きっとまだ十分上手く頑張っていないからです……",
-					"japaneseTL": "Lately I've been having dreams where I lose sight of everyone else. It's got to be because I've not been working hard enough…",
-					"japaneseNote": "",
-					"english": "",
-					"englishNote": ""
-				},
-				"8": {
-					"event": "Idle 3",
-					"media": "https://s3.us-east-2.amazonaws.com/alg-wiki.com/Ships/155_Ayanami/Sound/skin1_idle_3.ogg",
-					"chinese": "指挥官？…不，没事。我只是确认一下你是不是还在",
-					"chineseTL": "Commander?..no,nothing. I am just confirming if you are still here.",
-					"chineseNote": "",
-					"japanese": "指揮官？…いいえ、大丈夫です。まだいるか確認するだけです",
-					"japaneseTL": "Commander? …No, everything is fine. I was just checking to see if you were still here.",
-					"japaneseNote": "",
-					"english": "",
-					"englishNote": ""
-				},
-				"9": {
-					"event": "Touch",
-					"media": "https://s3.us-east-2.amazonaws.com/alg-wiki.com/Ships/155_Ayanami/Sound/skin1_touch.ogg",
-					"chinese": "唔——有点痒……",
-					"chineseTL": "Uuu——that's ticklish...",
-					"chineseNote": "",
-					"japanese": "うぅーーちょっとくすぐったいです……",
-					"japaneseTL": "Uuuh… I'm a little ticklish there…",
-					"japaneseNote": "",
-					"english": "",
-					"englishNote": ""
-				},
-				"10": {
-					"event": "Special Touch",
-					"media": "https://s3.us-east-2.amazonaws.com/alg-wiki.com/Ships/155_Ayanami/Sound/skin1_special_touch.ogg",
-					"chinese": "指挥官，请不要……乱碰，感觉……有点奇怪",
-					"chineseTL": "Commander, please don't touch...randomly, It feels...a bit strange.",
-					"chineseNote": "",
-					"japanese": "指揮官、あまり触らないで……です。変な感じです…",
-					"japaneseTL": "Commander, don't… touch me there so much. It feels weird…",
-					"japaneseNote": "",
-					"english": "",
-					"englishNote": ""
-				},
-				"11": {
-					"event": "New Mission",
-					"media": "https://s3.us-east-2.amazonaws.com/alg-wiki.com/Ships/155_Ayanami/Sound/skin1_mission.ogg",
-					"chinese": "指挥官的新任务下达了",
-					"chineseTL": "Commander there are new missions.",
-					"chineseNote": "",
-					"japanese": "指揮官、新しい任務が通達されたのです",
-					"japaneseTL": "Commander, we've been notified of a new mission.",
-					"japaneseNote": "",
-					"english": "",
-					"englishNote": ""
-				},
-				"12": {
-					"event": "Mission Complete",
-					"media": "https://s3.us-east-2.amazonaws.com/alg-wiki.com/Ships/155_Ayanami/Sound/skin1_mission_complete.ogg",
-					"chinese": "",
-					"chineseTL": "",
-					"chineseNote": "",
-					"japanese": "この前の任務、報酬が来たのです……",
-					"japaneseTL": "The rewards for the previous mission have arrived…",
-					"japaneseNote": "",
-					"english": "",
-					"englishNote": ""
-				},
-				"13": {
-					"event": "New Mail",
-					"media": "https://s3.us-east-2.amazonaws.com/alg-wiki.com/Ships/155_Ayanami/Sound/skin1_mail.ogg",
-					"chinese": "有新的……邮件……",
-					"chineseTL": "There is new...mail...",
-					"chineseNote": "",
-					"japanese": "新しい……メールです",
-					"japaneseTL": "You have… new mail.",
-					"japaneseNote": "",
-					"english": "",
-					"englishNote": ""
-				},
-				"14": {
-					"event": "Return From Sortie",
-					"media": "https://s3.us-east-2.amazonaws.com/alg-wiki.com/Ships/155_Ayanami/Sound/skin1_return_from_sortie.ogg",
-					"chinese": "指挥官在战场上和我有点像，稍微……有点帅",
-					"chineseTL": "Commander on the battlefield looked a bit like me, and...looked a bit cool.",
-					"chineseNote": "",
-					"japanese": "戦場での指揮官はちょっと綾波と似てるです。ちょっと……かっこいいです",
-					"japaneseTL": "You're a little like me on the battlefield, Commander. That's pretty… cool.",
-					"japaneseNote": "",
-					"english": "",
-					"englishNote": ""
-				},
-				"15": {
-					"event": "Commission Complete",
-					"media": "https://s3.us-east-2.amazonaws.com/alg-wiki.com/Ships/155_Ayanami/Sound/skin1_commission_complete.ogg",
-					"chinese": "……指挥官，有委托完成了",
-					"chineseTL": "	...Commander, a commission has been completed.",
-					"chineseNote": "",
-					"japanese": "……指揮官、委託が完了したのです",
-					"japaneseTL": "…Commander, a commission has been completed.",
-					"japaneseNote": "",
-					"english": "",
-					"englishNote": ""
-				},
-				"16": {
-					"event": "Enhancement",
-					"media": "https://s3.us-east-2.amazonaws.com/alg-wiki.com/Ships/155_Ayanami/Sound/skin1_enhancement.ogg",
-					"chinese": "力量涌出来了……",
-					"chineseTL": "My strength is overflowing...",
-					"chineseNote": "",
-					"japanese": "力が溢れてきたのです……",
-					"japaneseTL": "I'm overflowing with power.",
-					"japaneseNote": "",
-					"english": "",
-					"englishNote": ""
-				},
-				"17": {
-					"event": "Sortie Start",
-					"media": "https://s3.us-east-2.amazonaws.com/alg-wiki.com/Ships/155_Ayanami/Sound/skin1_sortie_start.ogg",
-					"chinese": "想去……所罗门吗？",
-					"chineseTL": "Want to go to...Solomon?",
-					"chineseNote": "",
-					"japanese": "ソロモンに……行きたい？",
-					"japaneseTL": "Do you want to… go to Solomon?",
-					"japaneseNote": "",
-					"english": "",
-					"englishNote": ""
-				},
-				"18": {
-					"event": "MVP",
-					"media": "https://s3.us-east-2.amazonaws.com/alg-wiki.com/Ships/155_Ayanami/Sound/skin1_mvp.ogg",
-					"chinese": "第一名吗？虽然并不是很懂那是什么意思，不过，谢谢",
-					"chineseTL": "MVP? Even if I don't really understand, regardless, thank you.",
-					"chineseNote": "",
-					"japanese": "一位、ですか？よくわからないですけど、でも、ありがとです",
-					"japaneseTL": "First place? I'm not sure what that means, but, thank you.",
-					"japaneseNote": "",
-					"english": "",
-					"englishNote": ""
-				},
-				"19": {
-					"event": "Defeat",
-					"media": "https://s3.us-east-2.amazonaws.com/alg-wiki.com/Ships/155_Ayanami/Sound/skin1_defeat.ogg",
-					"chinese": "没关系……我自己很快就会好起来的",
-					"chineseTL": "	Its okay...I will quickly recover.",
-					"chineseNote": "",
-					"japanese": "大丈夫です……自分でよくなるです…",
-					"japaneseTL": "It's all right… I'll improve myself…",
-					"japaneseNote": "",
-					"english": "",
-					"englishNote": ""
-				},
-				"20": {
-					"event": "Skill Activation",
-					"media": "https://s3.us-east-2.amazonaws.com/alg-wiki.com/Ships/155_Ayanami/Sound/skin1_skill_activation.ogg",
-					"chinese": "“鬼神”之力，好好感受吧！",
-					"chineseTL": "The power of the "Demon", come feel it!",
-					"chineseNote": "",
-					"japanese": "「鬼神」の力、味わうがいい…！",
-					"japaneseTL": "Taste the power of the demon…!",
-					"japaneseNote": "",
-					"english": "",
-					"englishNote": ""
-				},
-				"21": {
-					"event": "Low Health",
-					"media": "https://s3.us-east-2.amazonaws.com/alg-wiki.com/Ships/155_Ayanami/Sound/skin1_low_health.ogg",
-					"chinese": "我不要……一个人……",
-					"chineseTL": "I don't want to be...alone...",
-					"chineseNote": "",
-					"japanese": "ひとりが…嫌…",
-					"japaneseTL": "I don't want to be… alone…",
-					"japaneseNote": "",
-					"english": "",
-					"englishNote": ""
-				},
-				"22": {
-					"event": "Affinity (Disappointed)",
-					"media": "https://s3.us-east-2.amazonaws.com/alg-wiki.com/Ships/155_Ayanami/Sound/skin1_affinity_disappointed.ogg",
-					"chinese": "……不是很想靠近指挥官……",
-					"chineseTL": "...I don't really want to get close to Commander...",
-					"chineseNote": "",
-					"japanese": "……指揮官にはあまり近づきたくないのです…",
-					"japaneseTL": "…I don't really want to come close to you, Commander.",
-					"japaneseNote": "",
-					"english": "",
-					"englishNote": ""
-				},
-				"23": {
-					"event": "Affinity (Stranger)",
-					"media": "https://s3.us-east-2.amazonaws.com/alg-wiki.com/Ships/155_Ayanami/Sound/skin1_affinity_stranger.ogg",
-					"chinese": "对指挥官的看法？綾波不是很明白……",
-					"chineseTL": "My thoughts on the Commander? Ayanami doesn't really understand...",
-					"chineseNote": "",
-					"japanese": "指揮官のイメージですか？綾波わからないのです……",
-					"japaneseTL": "My impression of you? I don't know…",
-					"japaneseNote": "",
-					"english": "",
-					"englishNote": ""
-				},
-				"24": {
-					"event": "Affinity (Friendly)",
-					"media": "https://s3.us-east-2.amazonaws.com/alg-wiki.com/Ships/155_Ayanami/Sound/skin1_affinity_friendly.ogg",
-					"chinese": "指挥官……你一直说綾波的耳朵可爱，但是为什么不摸摸看呢？",
-					"chineseTL": "Commander...you keep saying that my ears are cute, but why haven't you tried touching them yet?",
-					"chineseNote": "",
-					"japanese": "指揮官……綾波のミミがかわいいとずっと言っているようですが、なぜ触らないのです？",
-					"japaneseTL": "Commander… you keep saying that my ears are cute, but why haven't you tried touching them yet?",
-					"japaneseNote": "",
-					"english": "",
-					"englishNote": ""
-				},
-				"25": {
-					"event": "Affinity (Like)",
-					"media": "https://s3.us-east-2.amazonaws.com/alg-wiki.com/Ships/155_Ayanami/Sound/skin1_affinity_like.ogg",
-					"chinese": "如果说有什么担心的事情……大概就是不在指挥官身边吧……",
-					"chineseTL": "If there's one thing that bothers me...it's probably whenever I'm not beside that Commander...",
-					"chineseNote": "",
-					"japanese": "心配することと言えば……指揮官がそばにいないこと、ですね……",
-					"japaneseTL": "If there's anything I worry about… it would be you not being by my side, Commander…",
-					"japaneseNote": "",
-					"english": "",
-					"englishNote": ""
-				},
-				"26": {
-					"event": "Affinity (Love)",
-					"media": "https://s3.us-east-2.amazonaws.com/alg-wiki.com/Ships/155_Ayanami/Sound/skin1_affinity_love.ogg",
-					"chinese": "我不讨厌战斗，也不喜欢，只是普通地战斗而已……现在的话，为了指挥官……感觉，会变得更强",
-					"chineseTL": "I don't hate nor like combat, I just fight as normal...and now, for the Commander...I feel like, I would become stronger.",
-					"chineseNote": "",
-					"japanese": "戦闘は嫌いではないけど好きじゃないです。ただ普通に戦ってただけ……だけど、今は指揮官のためなら……もう少し、強くなれる気がするのです",
-					"japaneseTL": "I don't hate combat, but I don't like it either. I just fight, like always… but now, if I'm fighting for you, Commander… then I feel like I can become a little stronger.",
-					"japaneseNote": "",
-					"english": "",
-					"englishNote": ""
-				},
-				"27": {
-					"event": "Pledge",
-					"media": "https://s3.us-east-2.amazonaws.com/alg-wiki.com/Ships/155_Ayanami/Sound/skin1_pledge.ogg",
-					"chinese": "放心吧，这次我无论如何都会活下来，然后回到指挥官面前……因为……我想见指挥官……",
-					"chineseTL": "Relax, this time no matter what happens I will survive, then return to the Commander...because...I want to see the Commander again...",
-					"chineseNote": "",
-					"japanese": "	安心して、今度こそどんなことがあっても生き延びて指揮官のもとに帰るのです……だって……指揮官にはまた会いたいんですもの……",
-					"japaneseTL": "Rest assured that this time, no matter what happens, I'll live through it and return to you, Commander… because I'll always want to see you again…	",
-					"japaneseNote": "",
-					"english": "",
-					"englishNote": ""
-				},
-				"28": {
-					"event": "Valentines 2018",
-					"media": "",
-					"chinese": "",
-					"chineseTL": "",
-					"chineseNote": "",
-					"japanese": "なんと言えばいいですか…とにかく、ここには指揮官がいて、みんながいて、楽しいです。これからもみんなと一緒にいたいです。うん…綾波のチョコです。よろしくです。",
-					"japaneseTL": "I don't know what I should say… Anyway, you're here, Commander, and everyone else is too, so I'm happy. I hope we can all stay here together. Yeah… here is my chocolate. You have my thanks.",
-					"japaneseNote": "",
-					"english": "",
-					"englishNote": ""
-				},
-				"29": {
-					"event": "Valentines 2019",
-					"media": "",
-					"chinese": "指挥官，情人节的巧克力，希望你能收下。里面有绫波的心意，应该会好吃……请多指教",
-					"chineseTL": "",
-					"chineseNote": "",
-					"japanese": "指揮官、バレンタインのチョコ、受け取って欲しいです。綾波のキモチを込めたですから、美味しく作れたはず…です。よろしくです",
-					"japaneseTL": "",
-					"japaneseNote": "",
-					"english": "",
-					"englishNote": ""
+					"id": "ayanami_skin1_expr1",
+					"full": "https://s3.us-east-2.amazonaws.com/alg-wiki.com/Ships/155_Ayanami/Sprite/skin1_expr1.png",
+					"icon": "https://s3.us-east-2.amazonaws.com/alg-wiki.com/Ships/155_Ayanami/Icon/skin1_expr1.png"
 				}
 			}
 		},
 		"2": {
-			"label": "ayanami_skin2",
-			"dialogue": {
+			"id": "ayanami_skin2",
+			"name": "Retrofit",
+			"icon": "https://s3.us-east-2.amazonaws.com/alg-wiki.com/Ships/155_Ayanami/Icon/skin2.jpg",
+			"image": "https://s3.us-east-2.amazonaws.com/alg-wiki.com/Ships/155_Ayanami/Sprite/skin2_expr1.png",
+			"description": "Ayanami, retrofit complete. I feel stronger, yes... Having that said, Commander, can you pat my head? I want to be spoiled a bit...",
+			"sd": "https://s3.us-east-2.amazonaws.com/alg-wiki.com/Ships/155_Ayanami/Sprite/skin2_sd.png",
+			"expression": {
 				"1": {
-					"event": "Ship Description, Acquisition",
-					"media": "",
-					"chinese": "綾波，改造完毕…的说。感觉变得更强了，不过…指挥官，能摸摸我的头吗？稍微有点…想要撒娇…	",
-					"chineseTL": "",
-					"chineseNote": "",
-					"japanese": "綾波、改造完了……です。強くなったのです、けど…指揮官、綾波をナデナデしてもらっていい…ですか？少しだけ、甘えたい気分……です",
-					"japaneseTL": "My retrofitting has been… completed. But… Commander, could you pat my head… please? I feel like being indulged… just a little.",
-					"japaneseNote": "",
-					"english": "",
-					"englishNote": ""
-				},
-				"2": {
-					"event": "Idle 1",
-					"media": "",
-					"chinese": "和指挥官在一起，感觉就能有更多干劲——",
-					"chineseTL": "",
-					"chineseNote": "",
-					"japanese": "指揮官と一緒なら、やる気ももっと出る、です",
-					"japaneseTL": "When I'm with you I feel more… motivated, Commander.",
-					"japaneseNote": "",
-					"english": "",
-					"englishNote": ""
-				},
-				"3": {
-					"event": "Idle 2",
-					"media": "",
-					"chinese": "和大家在一起很开心，所以我…想和大家在一起",
-					"chineseTL": "",
-					"chineseNote": "",
-					"japanese": "みんなと一緒にいるのは楽しいですから、綾波も…みんなともっと一緒にいたいです",
-					"japaneseTL": "It's fun to be with everyone, so I want to stay together with everyone.",
-					"japaneseNote": "",
-					"english": "",
-					"englishNote": ""
-				},
-				"4": {
-					"event": "Idle 3",
-					"media": "",
-					"chinese": "指挥官不理我的话，会有点…伤心",
-					"chineseTL": "",
-					"chineseNote": "",
-					"japanese": "指揮官が綾波をかまってくれないと、少しだけ悲しい…です",
-					"japaneseTL": "Commander, when you won't pay attention to me, it makes me just a little… sad.",
-					"japaneseNote": "",
-					"english": "",
-					"englishNote": ""
-				},
-				"5": {
-					"event": "Touch",
-					"media": "",
-					"chinese": "指挥官的手，很温暖…",
-					"chineseTL": "",
-					"chineseNote": "",
-					"japanese": "指揮官の手、温かいです…",
-					"japaneseTL": "Your hand is… warm.",
-					"japaneseNote": "",
-					"english": "",
-					"englishNote": ""
-				},
-				"6": {
-					"event": "Sortie Start",
-					"media": "",
-					"chinese": "没关系的，指挥官…相信我——",
-					"chineseTL": "",
-					"chineseNote": "",
-					"japanese": "大丈夫です、指揮官…綾波を信じて――	",
-					"japaneseTL": "It's all right, Commander… Believe in me.",
-					"japaneseNote": "",
-					"english": "",
-					"englishNote": ""
-				},
-				"7": {
-					"event": "MVP",
-					"media": "",
-					"chinese": "如果是为了大家，我愿意化身为“鬼神”…",
-					"chineseTL": "",
-					"chineseNote": "",
-					"japanese": "みんなのためなら、「鬼神」になってもいい…です",
-					"japaneseTL": "I'm fine with becoming a demon… if it's for everyone else's sake.",
-					"japaneseNote": "",
-					"english": "",
-					"englishNote": ""
+					"id": "ayanami_skin2_expr1",
+					"full": "https://s3.us-east-2.amazonaws.com/alg-wiki.com/Ships/155_Ayanami/Sprite/skin2_expr1.png",
+					"icon": "https://s3.us-east-2.amazonaws.com/alg-wiki.com/Ships/155_Ayanami/Icon/skin2_expr1.png"
 				}
 			}
 		},
 		"3": {
-			"label": "ayanami_skin3",
-			"dialogue": {
+			"id": "ayanami_skin3",
+			"name": "Demon's Finest Dress",
+			"icon": "https://s3.us-east-2.amazonaws.com/alg-wiki.com/Ships/155_Ayanami/Icon/skin3.jpg",
+			"image": "https://s3.us-east-2.amazonaws.com/alg-wiki.com/Ships/155_Ayanami/Sprite/skin3_expr1.png",
+			"description": "This dress is... Ayanami's. I'm not used to this dress yet... Commander, do you think it fits me?",
+			"sd": "https://s3.us-east-2.amazonaws.com/alg-wiki.com/Ships/155_Ayanami/Sprite/skin3_sd.png",
+			"expression": {
 				"1": {
-					"event": "Ship Description, Acquisition",
-					"media": "",
-					"chinese": "",
-					"chineseTL": "",
-					"chineseNote": "",
-					"japanese": "綾波……です。この衣装、まだ慣れないですけど…指揮官、綾波に似合っているのですか？",
-					"japaneseTL": "",
-					"japaneseNote": "",
-					"english": "",
-					"englishNote": ""
+					"id": "ayanami_skin3_expr1",
+					"full": "https://s3.us-east-2.amazonaws.com/alg-wiki.com/Ships/155_Ayanami/Sprite/skin3_expr1.png",
+					"icon": "https://s3.us-east-2.amazonaws.com/alg-wiki.com/Ships/155_Ayanami/Icon/skin3_expr1.png"
+				},
+				"2": {
+					"id": "ayanami_skin3_expr2",
+					"full": "https://s3.us-east-2.amazonaws.com/alg-wiki.com/Ships/155_Ayanami/Sprite/skin3_expr2.png",
+					"icon": "https://s3.us-east-2.amazonaws.com/alg-wiki.com/Ships/155_Ayanami/Icon/skin3_expr2.png"
+				},
+				"3": {
+					"id": "ayanami_skin3_expr3",
+					"full": "https://s3.us-east-2.amazonaws.com/alg-wiki.com/Ships/155_Ayanami/Sprite/skin3_expr3.png",
+					"icon": "https://s3.us-east-2.amazonaws.com/alg-wiki.com/Ships/155_Ayanami/Icon/skin3_expr3.png"
+				},
+				"4": {
+					"id": "ayanami_skin3_expr4",
+					"full": "https://s3.us-east-2.amazonaws.com/alg-wiki.com/Ships/155_Ayanami/Sprite/skin3_expr4.png",
+					"icon": "https://s3.us-east-2.amazonaws.com/alg-wiki.com/Ships/155_Ayanami/Icon/skin3_expr4.png"
+				},
+				"5": {
+					"id": "ayanami_skin3_expr5",
+					"full": "https://s3.us-east-2.amazonaws.com/alg-wiki.com/Ships/155_Ayanami/Sprite/skin3_expr5.png",
+					"icon": "https://s3.us-east-2.amazonaws.com/alg-wiki.com/Ships/155_Ayanami/Icon/skin3_expr5.png"
+				},
+				"6": {
+					"id": "ayanami_skin3_expr6",
+					"full": "https://s3.us-east-2.amazonaws.com/alg-wiki.com/Ships/155_Ayanami/Sprite/skin3_expr6.png",
+					"icon": "https://s3.us-east-2.amazonaws.com/alg-wiki.com/Ships/155_Ayanami/Icon/skin3_expr6.png"
 				}
 			}
 		},
 		"4": {
-			"label": "ayanami_skin4",
-			"dialogue": {
+			"id": "ayanami_skin4",
+			"name": "Witch in Ambush",
+			"icon": "https://s3.us-east-2.amazonaws.com/alg-wiki.com/Ships/155_Ayanami/Icon/skin4.jpg",
+			"image": "https://s3.us-east-2.amazonaws.com/alg-wiki.com/Ships/155_Ayanami/Sprite/skin4_expr1.png",
+			"description": "I heard that... I need to wear a costume like this to participate in Halloween festivities. Commander... do I look cute?",
+			"sd": "https://s3.us-east-2.amazonaws.com/alg-wiki.com/Ships/155_Ayanami/Sprite/skin4_sd.png",
+			"expression": {
 				"1": {
-					"event": "Ship Description, Acquisition",
-					"media": "",
-					"chinese": "听说参加万圣夜必须得穿上类似的衣服……指挥官……现在的我好看吗？",
-					"chineseTL": "I heard that I should wear appropriate clothes for Halloween...Commander...do I look good?",
-					"chineseNote": "",
-					"japanese": "	ハロウィンに参加するにはこういう服を着なければならない、と聞いたのです。指揮官…今の綾波はカワイイですか？",
-					"japaneseTL": "I heard that one must wear these kinds of clothes when participating in Halloween festivities. Commander… do I look cute like this?",
-					"japaneseNote": "",
-					"english": "",
-					"englishNote": ""
-				},
-				"2": {
-					"event": "Idle 1",
-					"media": "",
-					"chinese": "这是……糖果？谢谢，我会尝尝看的……",
-					"chineseTL": "Is this...candy? Thank you, I shall try it...",
-					"chineseNote": "",
-					"japanese": "これは……お菓子ですか？ありがとです。食べるです",
-					"japaneseTL": "Are these… sweets? Thank you. I will eat them.",
-					"japaneseNote": "",
-					"english": "",
-					"englishNote": ""
-				},
-				"3": {
-					"event": "Idle 2",
-					"media": "",
-					"chinese": "除去战斗与训练，世界上好像还存在其他形式的乐趣……",
-					"chineseTL": "Other than combat and training, there seems to be other forms of entertainment in this world...",
-					"chineseNote": "",
-					"japanese": "戦闘と訓練以外も、楽しいことはあるのです、ね……",
-					"japaneseTL": "There are fun things outside of combat and training, too…",
-					"japaneseNote": "",
-					"english": "",
-					"englishNote": ""
-				},
-				"4": {
-					"event": "Idle 3",
-					"media": "",
-					"chinese": "如果站在南瓜灯上，会不会离天空更近些呢？",
-					"chineseTL": "If I stand on the pumpkin lantern, would I be closer to the sky?",
-					"chineseNote": "",
-					"japanese": "かぼちゃのライトの上に立っていれば、空により近づけるのですか？",
-					"japaneseTL": "If I were to stand on this pumpkin lamp, will I come even closer to the sky?",
-					"japaneseNote": "",
-					"english": "",
-					"englishNote": ""
-				},
-				"5": {
-					"event": "Touch",
-					"media": "",
-					"chinese": "这身衣服，我很中意……",
-					"chineseTL": "These clothes, I like them a lot...",
-					"chineseNote": "",
-					"japanese": "この服は…好き、です",
-					"japaneseTL": "I like… these clothes.",
-					"japaneseNote": "",
-					"english": "",
-					"englishNote": ""
-				},
-				"6": {
-					"event": "Special Touch",
-					"media": "",
-					"chinese": "今夜的我不是鬼神，而是魔女……",
-					"chineseTL": "I am not a demon tonight, but a witch...",
-					"chineseNote": "",
-					"japanese": "",
-					"japaneseTL": "「今夜の私（わたくし）はキシンではなく、マジョ……」（ひらひら）",
-					"japaneseNote": ""Tonight I'm not a demon, but a witch…" (Flicker)",
-					"english": "",
-					"englishNote": ""
+					"id": "ayanami_skin4_expr1",
+					"full": "https://s3.us-east-2.amazonaws.com/alg-wiki.com/Ships/155_Ayanami/Sprite/skin4_expr1.png",
+					"icon": "https://s3.us-east-2.amazonaws.com/alg-wiki.com/Ships/155_Ayanami/Icon/skin4_expr1.png"
 				}
 			}
 		},
 		"5": {
-			"label": "ayanami_skin5",
-			"dialogue": {
+			"id": "ayanami_skin5",
+			"name": "Niconico",
+			"icon": "https://s3.us-east-2.amazonaws.com/alg-wiki.com/Ships/155_Ayanami/Icon/skin5.jpg",
+			"image": "https://s3.us-east-2.amazonaws.com/alg-wiki.com/Ships/155_Ayanami/Sprite/skin5_expr1.png",
+			"description": "I've found a new video… Commander, how about we watch a live stream together later?",
+			"sd": "https://s3.us-east-2.amazonaws.com/alg-wiki.com/Ships/155_Ayanami/Sprite/skin5_sd.png",
+			"expression": {
 				"1": {
-					"event": "Ship Description, Acquisition",
-					"media": "",
-					"chinese": "",
-					"chineseTL": "",
-					"chineseNote": "",
-					"japanese": "新着動画、発見です…指揮官、あとで生放送でも一緒にどうです？",
-					"japaneseTL": "I've found a new video… Commander, how about we watch a live stream together later?",
-					"japaneseNote": "",
-					"english": "",
-					"englishNote": ""
+					"id": "ayanami_skin5_expr1",
+					"full": "https://s3.us-east-2.amazonaws.com/alg-wiki.com/Ships/155_Ayanami/Sprite/skin5_expr1.png",
+					"icon": "https://s3.us-east-2.amazonaws.com/alg-wiki.com/Ships/155_Ayanami/Icon/skin5_expr1.png"
 				}
 			}
 		},
 		"6": {
-			"label": "ayanami_skin6",
-			"dialogue": {
+			"id": "ayanami_skin6",
+			"name": "Rock'n KIJIN",
+			"icon": "https://s3.us-east-2.amazonaws.com/alg-wiki.com/Ships/155_Ayanami/Icon/skin6.jpg",
+			"image": "https://s3.us-east-2.amazonaws.com/alg-wiki.com/Ships/155_Ayanami/Sprite/skin6_expr1.png",
+			"description": "Commander, shall we listen to some music together? Do you like… this non-weaponized version of me?",
+			"sd": "https://s3.us-east-2.amazonaws.com/alg-wiki.com/Ships/155_Ayanami/Sprite/skin6_sd.png",
+			"expression": {
 				"1": {
-					"event": "Ship Description, Acquisition",
-					"media": "",
-					"chinese": "指挥官，一起听歌吗？兵器以外的我…喜欢吗？",
-					"chineseTL": "",
-					"chineseNote": "",
-					"japanese": "指揮官、一緒に音楽を聞くのはどうですか？兵器ではない綾波…お気に入りですか？",
-					"japaneseTL": "Commander, shall we listen to some music together? Do you like… this non-weaponized version of me?",
-					"japaneseNote": "",
-					"english": "",
-					"englishNote": ""
-				},
-				"2": {
-					"event": "Login",
-					"media": "",
-					"chinese": "指挥官，工作之前，要先听一会儿音乐吗？",
-					"chineseTL": "",
-					"chineseNote": "",
-					"japanese": "指揮官、仕事の前に、音楽でも一緒にどうですか？",
-					"japaneseTL": "Commander, before we get to work, shall we listen to some music together?",
-					"japaneseNote": "",
-					"english": "",
-					"englishNote": ""
-				},
-				"3": {
-					"event": "Details",
-					"media": "",
-					"chinese": "戴上耳机后，感觉全世界就只剩下音乐，还有……眼前的人",
-					"chineseTL": "",
-					"chineseNote": "",
-					"japanese": "ヘッドホンをつければ、流れる音…そして目の前にいる人だけが世界の全てです",
-					"japaneseTL": "When I wear these headphones, the music that plays… and the person in front of my eyes are the only things in the world to me.",
-					"japaneseNote": "",
-					"english": "",
-					"englishNote": ""
-				},
-				"4": {
-					"event": "Idle 1",
-					"media": "",
-					"chinese": "指挥官，标枪约我等会儿一起去玩，我可以去吗？",
-					"chineseTL": "",
-					"chineseNote": "",
-					"japanese": "指揮官、ジャベリンから誘われたのですけど、行っていいですか？",
-					"japaneseTL": "Commander, Javelin called me over, but… Is it okay for me to go?",
-					"japaneseNote": "",
-					"english": "",
-					"englishNote": ""
-				},
-				"5": {
-					"event": "Idle 2",
-					"media": "",
-					"chinese": "指挥官喜欢什么样的歌呢？我的话……唔，摇滚？",
-					"chineseTL": "",
-					"chineseNote": "",
-					"japanese": "指揮官はどんな曲が好きですか？綾波は…ロックンロール？",
-					"japaneseTL": "Commander, what kind of tunes do you like? I think I like… Rock 'n' Roll?",
-					"japaneseNote": "",
-					"english": "",
-					"englishNote": ""
-				},
-				"6": {
-					"event": "Idle 3",
-					"media": "",
-					"chinese": "雷说她最近在玩“手机游戏”……指挥官，“手机游戏”是什么？",
-					"chineseTL": "",
-					"chineseNote": "",
-					"japanese": "雷は「そしゃげ」にハマっていると言っていたのですけど……指揮官、「そしゃげ」は何ですか？",
-					"japaneseTL": "Ikazuchi said she's hooked on a "casual game," but… Commander, what is a "casual game"?",
-					"japaneseNote": "",
-					"english": "",
-					"englishNote": ""
-				},
-				"7": {
-					"event": "Touch",
-					"media": "",
-					"chinese": "綾波的武器，现在还能变形成乐器…指挥官，想听听看吗？",
-					"chineseTL": "",
-					"chineseNote": "",
-					"japanese": "綾波の艤装、楽器になれるのです。…指揮官、綾波の演奏を聞きたいですか？",
-					"japaneseTL": "My rigging can turn into a musical instrument. …Commander, do you want to hear me play?",
-					"japaneseNote": "",
-					"english": "",
-					"englishNote": ""
-				},
-				"8": {
-					"event": "Mission Complete",
-					"media": "",
-					"chinese": "今天的奖励，稍微有些期待…",
-					"chineseTL": "",
-					"chineseNote": "",
-					"japanese": "今日の報酬、少し期待できるのです",
-					"japaneseTL": "You can look forward to the reward today.",
-					"japaneseNote": "",
-					"english": "",
-					"englishNote": ""
-				},
-				"9": {
-					"event": "Commission Complete",
-					"media": "",
-					"chinese": "训练与委托…无论何时都不能懈怠…",
-					"chineseTL": "",
-					"chineseNote": "",
-					"japanese": "訓練と委託…どんな時でも怠けてはいけないのです",
-					"japaneseTL": "Training and commissions… One must never be idle.",
-					"japaneseNote": "",
-					"english": "",
-					"englishNote": ""
-				},
-				"10": {
-					"event": "Sortie Start",
-					"media": "",
-					"chinese": "这首歌，正适合战场…",
-					"chineseTL": "",
-					"chineseNote": "",
-					"japanese": "今聞いている曲、戦場にはピッタリです",
-					"japaneseTL": "The tune I'm listening to right now is perfect for battle.",
-					"japaneseNote": "",
-					"english": "",
-					"englishNote": ""
-				},
-				"11": {
-					"event": "MVP",
-					"media": "",
-					"chinese": "“只要微笑就可以了”…那是什么意思？",
-					"chineseTL": "",
-					"chineseNote": "",
-					"japanese": "「笑えばいい」…どういう意味ですか？",
-					"japaneseTL": ""It's okay to smile"… what does that mean?",
-					"japaneseNote": "",
-					"english": "",
-					"englishNote": ""
+					"id": "ayanami_skin6_expr1",
+					"full": "https://s3.us-east-2.amazonaws.com/alg-wiki.com/Ships/155_Ayanami/Sprite/skin6_expr1.png",
+					"icon": "https://s3.us-east-2.amazonaws.com/alg-wiki.com/Ships/155_Ayanami/Icon/skin6_expr1.png"
 				}
 			}
 		},
 		"7": {
-			"label": "ayanami_skin7",
-			"dialogue": {
+			"id": "ayanami_skin7",
+			"name": "Lunar Demon",
+			"icon": "https://s3.us-east-2.amazonaws.com/alg-wiki.com/Ships/155_Ayanami/Icon/skin7.jpg",
+			"image": "https://s3.us-east-2.amazonaws.com/alg-wiki.com/Ships/155_Ayanami/Sprite/skin7_expr1.png",
+			"description": "Compared to the way we celebrate New Year in the Sakura Empire, the festivities of the Dragon Empery have a completely different atmosphere... But, I don't really mind the liveliness... Commander, do you like festivals?",
+			"sd": "https://s3.us-east-2.amazonaws.com/alg-wiki.com/Ships/155_Ayanami/Sprite/skin1_sd.png",
+			"expression": {
 				"1": {
-					"event": "Ship Description, Acquisition",
-					"media": "",
-					"chinese": "",
-					"chineseTL": "",
-					"chineseNote": "",
-					"japanese": "東煌のお正月と重桜のお正月、結構雰囲気が違う…です。みんなでワイワイやる雰囲気も悪くないです。指揮官もこういう祝日が好き…ですか？",
-					"japaneseTL": "",
-					"japaneseNote": "",
-					"english": "",
-					"englishNote": ""
+					"id": "ayanami_skin7_expr1",
+					"full": "https://s3.us-east-2.amazonaws.com/alg-wiki.com/Ships/155_Ayanami/Sprite/skin7_expr1.png",
+					"icon": "https://s3.us-east-2.amazonaws.com/alg-wiki.com/Ships/155_Ayanami/Icon/skin7_expr1.png"
+				}
+			}
+		}
+	},
+	"releaseDate": {
+		"JP": "September 13, 2017",
+		"CN": "August 28, 2017",
+		"KR": "March 27, 2018",
+		"EN": "August 16, 2018"
+	},
+	"voiceActress": "You Taichi",
+	"artist": {
+		"name": "大月紅葉",
+		"weibo": "http://weibo.com/ootsukimomiji",
+		"twitter": "",
+		"pixiv": "https://www.pixiv.net/member.php?id=591937",
+		"other": ""
+	},
+	"parameters": {
+		"hp": "D",
+		"antiAir": "D",
+		"evasion": "A",
+		"aviation": "E",
+		"torpedo": "A -> S",
+		"firepower": "D"
+	},
+	"stats": {
+		"base": {
+			"hp": "290",
+			"armor": "Light",
+			"reload": "78",
+			"firepower": "12",
+			"torpedo": "98",
+			"evasion": "72",
+			"antiAir": "27",
+			"aviation": "0",
+			"cost": "2",
+			"asw": "50",
+			"speed": "45"
+		},
+		"100": {
+			"hp": "1498",
+			"armor": "Light",
+			"reload": "186",
+			"firepower": "57",
+			"torpedo": "463",
+			"evasion": "188",
+			"antiAir": "127",
+			"aviation": "0",
+			"cost": "9",
+			"asw": "183",
+			"speed": "45"
+		},
+		"100retrofit": {
+			"hp": "1663",
+			"armor": "Light",
+			"reload": "201",
+			"firepower": "67",
+			"torpedo": "523",
+			"evasion": "208",
+			"antiAir": "127",
+			"aviation": "0",
+			"cost": "9",
+			"asw": "183",
+			"speed": "48"
+		},
+		"120": {
+			"hp": "1798",
+			"armor": "Light",
+			"reload": "213",
+			"firepower": "65",
+			"torpedo": "509",
+			"evasion": "194",
+			"antiAir": "146",
+			"aviation": "0",
+			"cost": "9",
+			"asw": "203",
+			"speed": "45"
+		},
+		"120retrofit": {
+			"hp": "1963",
+			"armor": "Light",
+			"reload": "228",
+			"firepower": "75",
+			"torpedo": "569",
+			"evasion": "214",
+			"antiAir": "146",
+			"aviation": "0",
+			"cost": "9",
+			"asw": "203",
+			"speed": "48"
+		}
+	},
+	"limitBreak": {
+		"tier1": "Full Barrage I, Torpedo Efficiency +5%",
+		"tier2": "Max Torpedo Capacity +1, Pre-Loaded Torpedo +1, Torpedo Efficiency +10%",
+		"tier3": "Full Barrage II, All Weapon Efficiency +5%"
+	},
+	"equipmentLoadout": {
+		"1": {
+			"type": "Destroyer Gun",
+			"efficiency": "75%/75%(80%)/75%(80%)/80%(85%)",
+			"amount": "1/1/1/1",
+			"preload": "0/0/0/0"
+		},
+		"2": {
+			"type": "Torpedo",
+			"efficiency": "140%/145%/155%(160%)/160%(165%)",
+			"amount": "1/1/2/2",
+			"preload": "0/0/1/1"
+		},
+		"3": {
+			"type": "Anti-Air Gun",
+			"efficiency": "70%/70%/70%/75%",
+			"amount": "1/1/1/1",
+			"preload": "0/0/0/0"
+		},
+		"4": {
+			"type": "Auxilliary",
+			"efficiency": "-",
+			"amount": "-",
+			"preload": "-"
+		},
+		"5": {
+			"type": "Auxilliary",
+			"efficiency": "-",
+			"amount": "-",
+			"preload": "-"
+		}
+	},
+	"defaultEquipment": {
+		"1": "Twin 127mm Type 3 T1"
+	},
+	"skill": {
+		"1": {
+			"name": "Demon God",
+			"type": "Offensive",
+			"skillIcon": "https://s3.us-east-2.amazonaws.com/alg-wiki.com/Ships/155_Ayanami/Icon/skill1.png",
+			"requirement": "Default Unlocked",
+			"description": "5% chance of activation upon firing. For 12 seconds, increases own torpedo stats by 30% (60%)"
+		},
+		"2": {
+			"name": "Demon Dance",
+			"type": "Defensive",
+			"skillIcon": "https://s3.us-east-2.amazonaws.com/alg-wiki.com/Ships/155_Ayanami/Icon/skill2.png",
+			"requirement": "Retrofit",
+			"description": "Every 20 seconds, has a 40% (70%) chance to active Demon Mode, increasing own Evasion by 30% for 5 seconds and releasing a powerful barrage while launching fast torpedoes in a helical pattern"
+		},
+		"3": {
+			"name": "Full Barrage I-II",
+			"type": "Offensive",
+			"skillIcon": "https://s3.us-east-2.amazonaws.com/alg-wiki.com/Ships/155_Ayanami/Icon/skill3.png",
+			"requirement": "Limit Break Rank 1, Rank 3 upgrade",
+			"description": "Every 15 (10) times the main battery is fired, trigger Full Barrage - Ayanami I (II)"
+		}
+	},
+	"build": {
+		"light": {
+			"JP": "✓",
+			"CN": "-",
+			"EN": "-"
+		},
+		"heavy": {
+			"JP": "-",
+			"CN": "-",
+			"EN": "-"
+		},
+		"special": {
+			"JP": "-",
+			"CN": "-",
+			"EN": "-"
+		},
+		"limited": {
+			"JP": "-",
+			"CN": "-",
+			"EN": "-"
+		}
+	},
+	"drop": {
+		"droppable": "true",
+		"list": {
+			"1": {
+				"event": "World",
+				"chapter": {
+					"1": {
+						"label": "Ch.2",
+						"node": {
+							"1": {
+								"drop": "✓",
+								"note": "JP Only"
+							},
+							"2": {
+								"drop": "✓",
+								"note": "JP Only"
+							},
+							"3": {
+								"drop": "✓",
+								"note": "JP Only"
+							},
+							"4": {
+								"drop": "✓",
+								"note": "JP Only"
+							}
+						}
+					},
+					"2": {
+						"label": "Ch.3",
+						"node": {
+							"1": {
+								"drop": "✓",
+								"note": "JP Only"
+							},
+							"2": {
+								"drop": "✓",
+								"note": "JP Only"
+							},
+							"3": {
+								"drop": "✓",
+								"note": "JP Only"
+							},
+							"4": {
+								"drop": "✓",
+								"note": "JP Only"
+							}
+						}
+					},
+					"3": {
+						"label": "Ch.4",
+						"node": {
+							"1": {
+								"drop": "✓",
+								"note": "JP Only"
+							},
+							"2": {
+								"drop": "✓",
+								"note": "JP Only"
+							},
+							"3": {
+								"drop": "✓",
+								"note": "JP Only"
+							},
+							"4": {
+								"drop": "✓",
+								"note": "JP Only"
+							}
+						}
+					},
+					"4": {
+						"label": "Ch.5",
+						"node": {
+							"1": {
+								"drop": "✓",
+								"note": "JP Only"
+							},
+							"2": {
+								"drop": "✓",
+								"note": "JP Only"
+							},
+							"3": {
+								"drop": "✓",
+								"note": "JP Only"
+							},
+							"4": {
+								"drop": "✓",
+								"note": "JP Only"
+							}
+						}
+					},
+					"5": {
+						"label": "Ch.6",
+						"node": {
+							"1": {
+								"drop": "✓",
+								"note": "JP Only"
+							},
+							"2": {
+								"drop": "✓",
+								"note": "JP Only"
+							},
+							"3": {
+								"drop": "✓",
+								"note": "JP Only"
+							},
+							"4": {
+								"drop": "✓",
+								"note": "JP Only"
+							}
+						}
+					},
+					"6": {
+						"label": "Ch.7",
+						"node": {
+							"1": {
+								"drop": "✓",
+								"note": "JP Only"
+							},
+							"2": {
+								"drop": "✓",
+								"note": "JP Only"
+							},
+							"3": {
+								"drop": "✓",
+								"note": "JP Only"
+							},
+							"4": {
+								"drop": "✓",
+								"note": "JP Only"
+							}
+						}
+					},
+					"7": {
+						"label": "Ch.8",
+						"node": {
+							"1": {
+								"drop": "✓",
+								"note": "JP Only"
+							},
+							"2": {
+								"drop": "✓",
+								"note": "JP Only"
+							},
+							"3": {
+								"drop": "✓",
+								"note": "JP Only"
+							},
+							"4": {
+								"drop": "✓",
+								"note": "JP Only"
+							}
+						}
+					},
+					"8": {
+						"label": "Ch.9",
+						"node": {
+							"1": {
+								"drop": "✓",
+								"note": "JP Only"
+							},
+							"2": {
+								"drop": "✓",
+								"note": "JP Only"
+							},
+							"3": {
+								"drop": "✓",
+								"note": "JP Only"
+							},
+							"4": {
+								"drop": "✓",
+								"note": "JP Only"
+							}
+						}
+					},
+					"9": {
+						"label": "Ch.10",
+						"node": {
+							"1": {
+								"drop": "✓",
+								"note": "JP Only"
+							},
+							"2": {
+								"drop": "✓",
+								"note": "JP Only"
+							},
+							"3": {
+								"drop": "✓",
+								"note": "JP Only"
+							},
+							"4": {
+								"drop": "✓",
+								"note": "JP Only"
+							}
+						}
+					},
+					"10": {
+						"label": "Ch.11",
+						"node": {
+							"1": {
+								"drop": "✓",
+								"note": "JP Only"
+							},
+							"2": {
+								"drop": "✓",
+								"note": "JP Only"
+							},
+							"3": {
+								"drop": "✓",
+								"note": "JP Only"
+							},
+							"4": {
+								"drop": "✓",
+								"note": "JP Only"
+							}
+						}
+					},
+					"11": {
+						"label": "Ch.12",
+						"node": {
+							"1": {
+								"drop": "✓",
+								"note": "JP Only"
+							},
+							"2": {
+								"drop": "✓",
+								"note": "JP Only"
+							},
+							"3": {
+								"drop": "✓",
+								"note": "JP Only"
+							},
+							"4": {
+								"drop": "✓",
+								"note": "JP Only"
+							}
+						}
+					}
+				}
+			}
+		}
+	},
+	"lines": {
+		"skin": {
+			"1": {
+				"label": "ayanami_skin1",
+				"dialogue": {
+					"1": {
+						"event": "Ship Description",
+						"media": "",
+						"chinese": "特II型綾波级驱逐舰一番舰—綾波",
+						"chineseTL": "First ship of the special Type-II Ayanami-class destroyer - Ayanami",
+						"chineseNote": "",
+						"japanese": "特Ⅱ型駆逐艦一番艦・綾波",
+						"japaneseTL": "Special Type II Destroyer Number One - Ayanami",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"2": {
+						"event": "Self Introduction",
+						"media": "https://s3.us-east-2.amazonaws.com/alg-wiki.com/Ships/155_Ayanami/Sound/skin1_self_introduction.ogg",
+						"chinese": "吹雪级驱逐舰的改良舰綾波……的说，对我来说，战斗没什么好害怕的，所以虽然只是驱逐舰，但是无论什么敌人我都敢一战……",
+						"chineseTL": "I am...the improved model of the Fubuki-class destroyers, Ayanami. I'm not afraid of battling, so although I'm just a destroyer, I dare to challenge any enemy I face...",
+						"chineseNote": "",
+						"japanese": "吹雪型駆逐艦の改良型、綾波……です。戦闘は怖くないです。駆逐艦だけど、どんな敵とも戦える、です……",
+						"japaneseTL": "I'm Ayanami… an improved model of the Fubuki-class destroyer. I'm not afraid of combat. Although I'm just a destroyer, no matter what the enemy is, I can fight them…",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"3": {
+						"event": "Acquisition",
+						"media": "https://s3.us-east-2.amazonaws.com/alg-wiki.com/Ships/155_Ayanami/Sound/skin1_acquisition.ogg",
+						"chinese": "綾波……的说，他们喜欢叫我“鬼神”就是了。请多指教",
+						"chineseTL": "I'm...Ayanami, they like calling me the \"Demon\". Thanks for having me.",
+						"chineseNote": "",
+						"japanese": "綾波……です。「鬼神」とよく言われるのです。よろしくです",
+						"japaneseTL": "I'm… Ayanami. I'm often called a demon. Pleasure to meet you.",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"4": {
+						"event": "Login",
+						"media": "https://s3.us-east-2.amazonaws.com/alg-wiki.com/Ships/155_Ayanami/Sound/skin1_login.ogg",
+						"chinese": "指挥官，吃了吗？我这里还有点心",
+						"chineseTL": "Commander, have you eaten already? I have some dim sum here.",
+						"chineseNote": "",
+						"japanese": "指揮官は食べました？おやつ、です",
+						"japaneseTL": "Commander, have you eaten yet? Here, a snack.",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"5": {
+						"event": "Details",
+						"media": "https://s3.us-east-2.amazonaws.com/alg-wiki.com/Ships/155_Ayanami/Sound/skin1_details.ogg",
+						"chinese": "这次有好好的检查了通讯设备，不会再给您添麻烦了……",
+						"chineseTL": "I have properly maintained the communication equipment this time. It won't be causing you annoyance anymore...",
+						"chineseNote": "",
+						"japanese": "通信設備、今度はちゃんと整備したのです。迷惑をかけないのです……",
+						"japaneseTL": "I'm maintaining my communication equipment properly this time. It won't be causing anyone trouble…",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"6": {
+						"event": "Idle 1",
+						"media": "https://s3.us-east-2.amazonaws.com/alg-wiki.com/Ships/155_Ayanami/Sound/skin1_idle_1.ogg",
+						"chinese": "綾波的耳朵……比较可爱吗？不太懂……指挥官开心就好",
+						"chineseTL": "Ayanami's ears...are pretty cute right? I don't really understand...but it's fine if the Commander is happy.",
+						"chineseNote": "",
+						"japanese": "綾波のミミ……可愛いですか？…わからないです。指揮官が楽しんでいればいいです",
+						"japaneseTL": "My ears are… cute? …I don't get it. As long as you like them, I don't mind.",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"7": {
+						"event": "Idle 2",
+						"media": "https://s3.us-east-2.amazonaws.com/alg-wiki.com/Ships/155_Ayanami/Sound/skin1_idle_2.ogg",
+						"chinese": "最近时常会做和大家走散的噩梦，一定是我做的还不够好……",
+						"chineseTL": "Recently I've been having nightmares about being separated from everyone, it must be because I've not been working hard enough...",
+						"chineseNote": "",
+						"japanese": "最近みんなとはぐれる夢をよく見るのです。きっとまだ十分上手く頑張っていないからです……",
+						"japaneseTL": "Lately I've been having dreams where I lose sight of everyone else. It's got to be because I've not been working hard enough…",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"8": {
+						"event": "Idle 3",
+						"media": "https://s3.us-east-2.amazonaws.com/alg-wiki.com/Ships/155_Ayanami/Sound/skin1_idle_3.ogg",
+						"chinese": "指挥官？…不，没事。我只是确认一下你是不是还在",
+						"chineseTL": "Commander?..no,nothing. I am just confirming if you are still here.",
+						"chineseNote": "",
+						"japanese": "指揮官？…いいえ、大丈夫です。まだいるか確認するだけです",
+						"japaneseTL": "Commander? …No, everything is fine. I was just checking to see if you were still here.",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"9": {
+						"event": "Touch",
+						"media": "https://s3.us-east-2.amazonaws.com/alg-wiki.com/Ships/155_Ayanami/Sound/skin1_touch.ogg",
+						"chinese": "唔——有点痒……",
+						"chineseTL": "Uuu——that's ticklish...",
+						"chineseNote": "",
+						"japanese": "うぅーーちょっとくすぐったいです……",
+						"japaneseTL": "Uuuh… I'm a little ticklish there…",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"10": {
+						"event": "Special Touch",
+						"media": "https://s3.us-east-2.amazonaws.com/alg-wiki.com/Ships/155_Ayanami/Sound/skin1_special_touch.ogg",
+						"chinese": "指挥官，请不要……乱碰，感觉……有点奇怪",
+						"chineseTL": "Commander, please don't touch...randomly, It feels...a bit strange.",
+						"chineseNote": "",
+						"japanese": "指揮官、あまり触らないで……です。変な感じです…",
+						"japaneseTL": "Commander, don't… touch me there so much. It feels weird…",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"11": {
+						"event": "New Mission",
+						"media": "https://s3.us-east-2.amazonaws.com/alg-wiki.com/Ships/155_Ayanami/Sound/skin1_mission.ogg",
+						"chinese": "指挥官的新任务下达了",
+						"chineseTL": "Commander there are new missions.",
+						"chineseNote": "",
+						"japanese": "指揮官、新しい任務が通達されたのです",
+						"japaneseTL": "Commander, we've been notified of a new mission.",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"12": {
+						"event": "Mission Complete",
+						"media": "https://s3.us-east-2.amazonaws.com/alg-wiki.com/Ships/155_Ayanami/Sound/skin1_mission_complete.ogg",
+						"chinese": "",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "この前の任務、報酬が来たのです……",
+						"japaneseTL": "The rewards for the previous mission have arrived…",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"13": {
+						"event": "New Mail",
+						"media": "https://s3.us-east-2.amazonaws.com/alg-wiki.com/Ships/155_Ayanami/Sound/skin1_mail.ogg",
+						"chinese": "有新的……邮件……",
+						"chineseTL": "There is new...mail...",
+						"chineseNote": "",
+						"japanese": "新しい……メールです",
+						"japaneseTL": "You have… new mail.",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"14": {
+						"event": "Return From Sortie",
+						"media": "https://s3.us-east-2.amazonaws.com/alg-wiki.com/Ships/155_Ayanami/Sound/skin1_return_from_sortie.ogg",
+						"chinese": "指挥官在战场上和我有点像，稍微……有点帅",
+						"chineseTL": "Commander on the battlefield looked a bit like me, and...looked a bit cool.",
+						"chineseNote": "",
+						"japanese": "戦場での指揮官はちょっと綾波と似てるです。ちょっと……かっこいいです",
+						"japaneseTL": "You're a little like me on the battlefield, Commander. That's pretty… cool.",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"15": {
+						"event": "Commission Complete",
+						"media": "https://s3.us-east-2.amazonaws.com/alg-wiki.com/Ships/155_Ayanami/Sound/skin1_commission_complete.ogg",
+						"chinese": "……指挥官，有委托完成了",
+						"chineseTL": "...Commander, a commission has been completed.",
+						"chineseNote": "",
+						"japanese": "……指揮官、委託が完了したのです",
+						"japaneseTL": "…Commander, a commission has been completed.",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"16": {
+						"event": "Enhancement",
+						"media": "https://s3.us-east-2.amazonaws.com/alg-wiki.com/Ships/155_Ayanami/Sound/skin1_enhancement.ogg",
+						"chinese": "力量涌出来了……",
+						"chineseTL": "My strength is overflowing...",
+						"chineseNote": "",
+						"japanese": "力が溢れてきたのです……",
+						"japaneseTL": "I'm overflowing with power.",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"17": {
+						"event": "Sortie Start",
+						"media": "https://s3.us-east-2.amazonaws.com/alg-wiki.com/Ships/155_Ayanami/Sound/skin1_sortie_start.ogg",
+						"chinese": "想去……所罗门吗？",
+						"chineseTL": "Want to go to...Solomon?",
+						"chineseNote": "",
+						"japanese": "ソロモンに……行きたい？",
+						"japaneseTL": "Do you want to… go to Solomon?",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"18": {
+						"event": "MVP",
+						"media": "https://s3.us-east-2.amazonaws.com/alg-wiki.com/Ships/155_Ayanami/Sound/skin1_mvp.ogg",
+						"chinese": "第一名吗？虽然并不是很懂那是什么意思，不过，谢谢",
+						"chineseTL": "MVP? Even if I don't really understand, regardless, thank you.",
+						"chineseNote": "",
+						"japanese": "一位、ですか？よくわからないですけど、でも、ありがとです",
+						"japaneseTL": "First place? I'm not sure what that means, but, thank you.",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"19": {
+						"event": "Defeat",
+						"media": "https://s3.us-east-2.amazonaws.com/alg-wiki.com/Ships/155_Ayanami/Sound/skin1_defeat.ogg",
+						"chinese": "没关系……我自己很快就会好起来的",
+						"chineseTL": "Its okay...I will quickly recover.",
+						"chineseNote": "",
+						"japanese": "大丈夫です……自分でよくなるです…",
+						"japaneseTL": "It's all right… I'll improve myself…",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"20": {
+						"event": "Skill Activation",
+						"media": "https://s3.us-east-2.amazonaws.com/alg-wiki.com/Ships/155_Ayanami/Sound/skin1_skill_activation.ogg",
+						"chinese": "“鬼神”之力，好好感受吧！",
+						"chineseTL": "The power of the \"Demon\", come feel it!",
+						"chineseNote": "",
+						"japanese": "「鬼神」の力、味わうがいい…！",
+						"japaneseTL": "Taste the power of the demon…!",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"21": {
+						"event": "Low Health",
+						"media": "https://s3.us-east-2.amazonaws.com/alg-wiki.com/Ships/155_Ayanami/Sound/skin1_low_health.ogg",
+						"chinese": "我不要……一个人……",
+						"chineseTL": "I don't want to be...alone...",
+						"chineseNote": "",
+						"japanese": "ひとりが…嫌…",
+						"japaneseTL": "I don't want to be… alone…",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"22": {
+						"event": "Affinity (Disappointed)",
+						"media": "https://s3.us-east-2.amazonaws.com/alg-wiki.com/Ships/155_Ayanami/Sound/skin1_affinity_disappointed.ogg",
+						"chinese": "……不是很想靠近指挥官……",
+						"chineseTL": "...I don't really want to get close to Commander...",
+						"chineseNote": "",
+						"japanese": "……指揮官にはあまり近づきたくないのです…",
+						"japaneseTL": "…I don't really want to come close to you, Commander.",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"23": {
+						"event": "Affinity (Stranger)",
+						"media": "https://s3.us-east-2.amazonaws.com/alg-wiki.com/Ships/155_Ayanami/Sound/skin1_affinity_stranger.ogg",
+						"chinese": "对指挥官的看法？綾波不是很明白……",
+						"chineseTL": "My thoughts on the Commander? Ayanami doesn't really understand...",
+						"chineseNote": "",
+						"japanese": "指揮官のイメージですか？綾波わからないのです……",
+						"japaneseTL": "My impression of you? I don't know…",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"24": {
+						"event": "Affinity (Friendly)",
+						"media": "https://s3.us-east-2.amazonaws.com/alg-wiki.com/Ships/155_Ayanami/Sound/skin1_affinity_friendly.ogg",
+						"chinese": "指挥官……你一直说綾波的耳朵可爱，但是为什么不摸摸看呢？",
+						"chineseTL": "Commander...you keep saying that my ears are cute, but why haven't you tried touching them yet?",
+						"chineseNote": "",
+						"japanese": "指揮官……綾波のミミがかわいいとずっと言っているようですが、なぜ触らないのです？",
+						"japaneseTL": "Commander… you keep saying that my ears are cute, but why haven't you tried touching them yet?",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"25": {
+						"event": "Affinity (Like)",
+						"media": "https://s3.us-east-2.amazonaws.com/alg-wiki.com/Ships/155_Ayanami/Sound/skin1_affinity_like.ogg",
+						"chinese": "如果说有什么担心的事情……大概就是不在指挥官身边吧……",
+						"chineseTL": "If there's one thing that bothers me...it's probably whenever I'm not beside that Commander...",
+						"chineseNote": "",
+						"japanese": "心配することと言えば……指揮官がそばにいないこと、ですね……",
+						"japaneseTL": "If there's anything I worry about… it would be you not being by my side, Commander…",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"26": {
+						"event": "Affinity (Love)",
+						"media": "https://s3.us-east-2.amazonaws.com/alg-wiki.com/Ships/155_Ayanami/Sound/skin1_affinity_love.ogg",
+						"chinese": "我不讨厌战斗，也不喜欢，只是普通地战斗而已……现在的话，为了指挥官……感觉，会变得更强",
+						"chineseTL": "I don't hate nor like combat, I just fight as normal...and now, for the Commander...I feel like, I would become stronger.",
+						"chineseNote": "",
+						"japanese": "戦闘は嫌いではないけど好きじゃないです。ただ普通に戦ってただけ……だけど、今は指揮官のためなら……もう少し、強くなれる気がするのです",
+						"japaneseTL": "I don't hate combat, but I don't like it either. I just fight, like always… but now, if I'm fighting for you, Commander… then I feel like I can become a little stronger.",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"27": {
+						"event": "Pledge",
+						"media": "https://s3.us-east-2.amazonaws.com/alg-wiki.com/Ships/155_Ayanami/Sound/skin1_pledge.ogg",
+						"chinese": "放心吧，这次我无论如何都会活下来，然后回到指挥官面前……因为……我想见指挥官……",
+						"chineseTL": "Relax, this time no matter what happens I will survive, then return to the Commander...because...I want to see the Commander again...",
+						"chineseNote": "",
+						"japanese": "安心して、今度こそどんなことがあっても生き延びて指揮官のもとに帰るのです……だって……指揮官にはまた会いたいんですもの……",
+						"japaneseTL": "Rest assured that this time, no matter what happens, I'll live through it and return to you, Commander… because I'll always want to see you again…",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"28": {
+						"event": "Valentines 2018",
+						"media": "",
+						"chinese": "",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "なんと言えばいいですか…とにかく、ここには指揮官がいて、みんながいて、楽しいです。これからもみんなと一緒にいたいです。うん…綾波のチョコです。よろしくです。",
+						"japaneseTL": "I don't know what I should say… Anyway, you're here, Commander, and everyone else is too, so I'm happy. I hope we can all stay here together. Yeah… here is my chocolate. You have my thanks.",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"29": {
+						"event": "Valentines 2019",
+						"media": "",
+						"chinese": "指挥官，情人节的巧克力，希望你能收下。里面有绫波的心意，应该会好吃……请多指教",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "指揮官、バレンタインのチョコ、受け取って欲しいです。綾波のキモチを込めたですから、美味しく作れたはず…です。よろしくです",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					}
+				}
+			},
+			"2": {
+				"label": "ayanami_skin2",
+				"dialogue": {
+					"1": {
+						"event": "Ship Description, Acquisition",
+						"media": "",
+						"chinese": "綾波，改造完毕…的说。感觉变得更强了，不过…指挥官，能摸摸我的头吗？稍微有点…想要撒娇…",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "綾波、改造完了……です。強くなったのです、けど…指揮官、綾波をナデナデしてもらっていい…ですか？少しだけ、甘えたい気分……です",
+						"japaneseTL": "My retrofitting has been… completed. But… Commander, could you pat my head… please? I feel like being indulged… just a little.",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"2": {
+						"event": "Idle 1",
+						"media": "",
+						"chinese": "和指挥官在一起，感觉就能有更多干劲——",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "指揮官と一緒なら、やる気ももっと出る、です",
+						"japaneseTL": "When I'm with you I feel more… motivated, Commander.",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"3": {
+						"event": "Idle 2",
+						"media": "",
+						"chinese": "和大家在一起很开心，所以我…想和大家在一起",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "みんなと一緒にいるのは楽しいですから、綾波も…みんなともっと一緒にいたいです",
+						"japaneseTL": "It's fun to be with everyone, so I want to stay together with everyone.",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"4": {
+						"event": "Idle 3",
+						"media": "",
+						"chinese": "指挥官不理我的话，会有点…伤心",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "指揮官が綾波をかまってくれないと、少しだけ悲しい…です",
+						"japaneseTL": "Commander, when you won't pay attention to me, it makes me just a little… sad.",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"5": {
+						"event": "Touch",
+						"media": "",
+						"chinese": "指挥官的手，很温暖…",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "指揮官の手、温かいです…",
+						"japaneseTL": "Your hand is… warm.",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"6": {
+						"event": "Sortie Start",
+						"media": "",
+						"chinese": "没关系的，指挥官…相信我——",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "大丈夫です、指揮官…綾波を信じて――",
+						"japaneseTL": "It's all right, Commander… Believe in me.",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"7": {
+						"event": "MVP",
+						"media": "",
+						"chinese": "如果是为了大家，我愿意化身为“鬼神”…",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "みんなのためなら、「鬼神」になってもいい…です",
+						"japaneseTL": "I'm fine with becoming a demon… if it's for everyone else's sake.",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					}
+				}
+			},
+			"3": {
+				"label": "ayanami_skin3",
+				"dialogue": {
+					"1": {
+						"event": "Ship Description, Acquisition",
+						"media": "",
+						"chinese": "",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "綾波……です。この衣装、まだ慣れないですけど…指揮官、綾波に似合っているのですか？",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					}
+				}
+			},
+			"4": {
+				"label": "ayanami_skin4",
+				"dialogue": {
+					"1": {
+						"event": "Ship Description, Acquisition",
+						"media": "",
+						"chinese": "听说参加万圣夜必须得穿上类似的衣服……指挥官……现在的我好看吗？",
+						"chineseTL": "I heard that I should wear appropriate clothes for Halloween...Commander...do I look good?",
+						"chineseNote": "",
+						"japanese": "ハロウィンに参加するにはこういう服を着なければならない、と聞いたのです。指揮官…今の綾波はカワイイですか？",
+						"japaneseTL": "I heard that one must wear these kinds of clothes when participating in Halloween festivities. Commander… do I look cute like this?",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"2": {
+						"event": "Idle 1",
+						"media": "",
+						"chinese": "这是……糖果？谢谢，我会尝尝看的……",
+						"chineseTL": "Is this...candy? Thank you, I shall try it...",
+						"chineseNote": "",
+						"japanese": "これは……お菓子ですか？ありがとです。食べるです",
+						"japaneseTL": "Are these… sweets? Thank you. I will eat them.",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"3": {
+						"event": "Idle 2",
+						"media": "",
+						"chinese": "除去战斗与训练，世界上好像还存在其他形式的乐趣……",
+						"chineseTL": "Other than combat and training, there seems to be other forms of entertainment in this world...",
+						"chineseNote": "",
+						"japanese": "戦闘と訓練以外も、楽しいことはあるのです、ね……",
+						"japaneseTL": "There are fun things outside of combat and training, too…",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"4": {
+						"event": "Idle 3",
+						"media": "",
+						"chinese": "如果站在南瓜灯上，会不会离天空更近些呢？",
+						"chineseTL": "If I stand on the pumpkin lantern, would I be closer to the sky?",
+						"chineseNote": "",
+						"japanese": "かぼちゃのライトの上に立っていれば、空により近づけるのですか？",
+						"japaneseTL": "If I were to stand on this pumpkin lamp, will I come even closer to the sky?",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"5": {
+						"event": "Touch",
+						"media": "",
+						"chinese": "这身衣服，我很中意……",
+						"chineseTL": "These clothes, I like them a lot...",
+						"chineseNote": "",
+						"japanese": "この服は…好き、です",
+						"japaneseTL": "I like… these clothes.",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"6": {
+						"event": "Special Touch",
+						"media": "",
+						"chinese": "今夜的我不是鬼神，而是魔女……",
+						"chineseTL": "I am not a demon tonight, but a witch...",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "「今夜の私（わたくし）はキシンではなく、マジョ……」（ひらひら）",
+						"japaneseNote": "\"Tonight I 'm not a demon, but a witch…\" (Flicker)",
+						"english": "",
+						"englishNote": ""
+					}
+				}
+			},
+			"5": {
+				"label": "ayanami_skin5",
+				"dialogue": {
+					"1": {
+						"event": "Ship Description, Acquisition",
+						"media": "",
+						"chinese": "",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "新着動画、発見です…指揮官、あとで生放送でも一緒にどうです？",
+						"japaneseTL": "I've found a new video… Commander, how about we watch a live stream together later?",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					}
+				}
+			},
+			"6": {
+				"label": "ayanami_skin6",
+				"dialogue": {
+					"1": {
+						"event": "Ship Description, Acquisition",
+						"media": "",
+						"chinese": "指挥官，一起听歌吗？兵器以外的我…喜欢吗？",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "指揮官、一緒に音楽を聞くのはどうですか？兵器ではない綾波…お気に入りですか？",
+						"japaneseTL": "Commander, shall we listen to some music together? Do you like… this non-weaponized version of me?",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"2": {
+						"event": "Login",
+						"media": "",
+						"chinese": "指挥官，工作之前，要先听一会儿音乐吗？",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "指揮官、仕事の前に、音楽でも一緒にどうですか？",
+						"japaneseTL": "Commander, before we get to work, shall we listen to some music together?",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"3": {
+						"event": "Details",
+						"media": "",
+						"chinese": "戴上耳机后，感觉全世界就只剩下音乐，还有……眼前的人",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "ヘッドホンをつければ、流れる音…そして目の前にいる人だけが世界の全てです",
+						"japaneseTL": "When I wear these headphones, the music that plays… and the person in front of my eyes are the only things in the world to me.",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"4": {
+						"event": "Idle 1",
+						"media": "",
+						"chinese": "指挥官，标枪约我等会儿一起去玩，我可以去吗？",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "指揮官、ジャベリンから誘われたのですけど、行っていいですか？",
+						"japaneseTL": "Commander, Javelin called me over, but… Is it okay for me to go?",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"5": {
+						"event": "Idle 2",
+						"media": "",
+						"chinese": "指挥官喜欢什么样的歌呢？我的话……唔，摇滚？",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "指揮官はどんな曲が好きですか？綾波は…ロックンロール？",
+						"japaneseTL": "Commander, what kind of tunes do you like? I think I like… Rock 'n' Roll?",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"6": {
+						"event": "Idle 3",
+						"media": "",
+						"chinese": "雷说她最近在玩“手机游戏”……指挥官，“手机游戏”是什么？",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "雷は「そしゃげ」にハマっていると言っていたのですけど……指揮官、「そしゃげ」は何ですか？",
+						"japaneseTL": "Ikazuchi said she's hooked on a \"casual game,\" but… Commander, what is a \"casual game \"?",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"7": {
+						"event": "Touch",
+						"media": "",
+						"chinese": "綾波的武器，现在还能变形成乐器…指挥官，想听听看吗？",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "綾波の艤装、楽器になれるのです。…指揮官、綾波の演奏を聞きたいですか？",
+						"japaneseTL": "My rigging can turn into a musical instrument. …Commander, do you want to hear me play?",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"8": {
+						"event": "Mission Complete",
+						"media": "",
+						"chinese": "今天的奖励，稍微有些期待…",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "今日の報酬、少し期待できるのです",
+						"japaneseTL": "You can look forward to the reward today.",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"9": {
+						"event": "Commission Complete",
+						"media": "",
+						"chinese": "训练与委托…无论何时都不能懈怠…",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "訓練と委託…どんな時でも怠けてはいけないのです",
+						"japaneseTL": "Training and commissions… One must never be idle.",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"10": {
+						"event": "Sortie Start",
+						"media": "",
+						"chinese": "这首歌，正适合战场…",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "今聞いている曲、戦場にはピッタリです",
+						"japaneseTL": "The tune I'm listening to right now is perfect for battle.",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"11": {
+						"event": "MVP",
+						"media": "",
+						"chinese": "“只要微笑就可以了”…那是什么意思？",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "「笑えばいい」…どういう意味ですか？",
+						"japaneseTL": "\"It 's okay to smile\"… what does that mean?",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					}
+				}
+			},
+			"7": {
+				"label": "ayanami_skin7",
+				"dialogue": {
+					"1": {
+						"event": "Ship Description, Acquisition",
+						"media": "",
+						"chinese": "",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "東煌のお正月と重桜のお正月、結構雰囲気が違う…です。みんなでワイワイやる雰囲気も悪くないです。指揮官もこういう祝日が好き…ですか？",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					}
 				}
 			}
 		}
 	}
-  }
 }
