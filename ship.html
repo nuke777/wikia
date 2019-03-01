@@ -173,8 +173,9 @@
 		var initial = "";
 		for (var x in data.skin) {
 			var container = document.createElement('div');
+			var escaped = JSON.stringify(data.skin[x]).replace(/'/g, "\\'");
 			container.className = 'btnContainer';			
-			container.setAttribute('onclick','onSkinNavButtonClick("' + JSON.stringify(data.skin[x]) + '")');
+			container.setAttribute('onclick','onSkinNavButtonClick(\'' + escaped + '\')');
 			if (firstIteration){
 				container.innerHTML = 
 				'<img class="btnImage" id="' + data.skin[x].id + '" src="' + data.skin[x].icon + '"></img>\
