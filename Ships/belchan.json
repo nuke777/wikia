@@ -1,0 +1,578 @@
+{
+  "name": "Belchan",
+  "nameJP": "ベルちゃん",
+  "nameCN": "小贝法",
+  "class": "Edinburgh",
+  "hull": "Light Cruiser",
+  "prefix": "HMS",
+  "ID": "335",
+  "imageSRC": "https://s3.us-east-2.amazonaws.com/alg-wiki.com/Ships/335_Belchan/Icon/icon.png",
+  "navy": "Royal Navy",
+  "initialStar": "★★☆☆☆",
+  "rarity": "Elite",
+  "buildTime": "Can't Be Constructed",
+  "acquisitionMethod": "Available as mantous reward (10000 total mantous) during \"Operation Mantou\" Event.",
+  "enhance": {
+    "firepower": "12",
+    "torpedo": "20",
+    "aviation": "0 ",
+    "reload": "13 "
+  },
+  "scrap": {
+    "gold": "6",
+    "oil": "3",
+    "medal": "4"
+  },
+  "skin": {
+    "1": {
+      "id": "belchan_skin1",
+      "name": "Default",
+      "icon": "https://s3.us-east-2.amazonaws.com/alg-wiki.com/Ships/335_Belchan/Icon/skin1.png",
+      "image": "https://s3.us-east-2.amazonaws.com/alg-wiki.com/Ships/335_Belchan/Sprite/skin1_expr1.png",
+      "description": "Edinburgh class light cruiser, Belfast. Hull number C35.",
+      "sd": "https://s3.us-east-2.amazonaws.com/alg-wiki.com/Ships/335_Belchan/Sprite/skin1_sd.png",
+      "expression": {
+        "1": {
+          "id": "belchan_skin1_expr1",
+          "full": "https://s3.us-east-2.amazonaws.com/alg-wiki.com/Ships/335_Belchan/Sprite/skin1_expr1.png",
+          "icon": "https://s3.us-east-2.amazonaws.com/alg-wiki.com/Ships/335_Belchan/Icon/skin1_expr1.png"
+        }
+      }
+    }
+  },
+  "releaseDate": {
+    "JP": "April 26, 2018",
+    "CN": "April 26, 2018",
+    "KR": "Not Released",
+    "EN": "Not Released"
+  },
+  "voiceActress": "Yui Horie",
+  "artist": {
+    "name": "梦咲枫",
+    "weibo": "http://weibo.com/u/3558369570",
+    "twitter": "",
+    "pixiv": "https://www.pixiv.net/member.php?id=1023957",
+    "other": ""
+  },
+  "parameters": {
+    "hp": "C",
+    "antiAir": "C",
+    "evasion": "B",
+    "aviation": "",
+    "torpedo": "B",
+    "firepower": "C"
+  },
+  "stats": {
+    "100": {
+      "hp": "2885",
+      "armor": "Light",
+      "reload": "161",
+      "firepower": "138",
+      "torpedo": "286",
+      "evasion": "72",
+      "antiAir": "247",
+      "aviation": "0",
+      "cost": "10",
+      "asw": "131",
+      "speed": "32"
+    },
+    "120": {
+      "hp": "3231",
+      "armor": "Light",
+      "reload": "185",
+      "firepower": "159",
+      "torpedo": "324",
+      "evasion": "96",
+      "antiAir": "282",
+      "aviation": "0",
+      "cost": "10",
+      "asw": "147",
+      "speed": "32"
+    },
+    "base": {
+      "hp": "558",
+      "armor": "Light",
+      "reload": "68",
+      "firepower": "29",
+      "torpedo": "61",
+      "evasion": "28",
+      "antiAir": "53",
+      "aviation": "0",
+      "cost": "3",
+      "asw": "36",
+      "speed": "32"
+    },
+    "100retrofit": {
+      "hp": "",
+      "armor": "",
+      "reload": "",
+      "firepower": "",
+      "torpedo": "",
+      "evasion": "",
+      "antiAir": "",
+      "aviation": "",
+      "cost": "",
+      "asw": "",
+      "speed": ""
+    },
+    "120retrofit": {
+      "hp": "",
+      "armor": "",
+      "reload": "",
+      "firepower": "",
+      "torpedo": "",
+      "evasion": "",
+      "antiAir": "",
+      "aviation": "",
+      "cost": "",
+      "asw": "",
+      "speed": ""
+    }
+  },
+  "limitBreak": {
+    "tier1": "Full Barrage I, Main Guns Efficiency +5%",
+    "tier2": "Max Torpedo Capacity +1, Pre-Loaded Torpedo +1, Torpedo Efficiency +10%",
+    "tier3": "Full Barrage II, Main Guns Efficiency +15%"
+  },
+  "equipmentLoadout": {
+    "1": {
+      "type": "Light Cruiser Gun",
+      "efficiency": "120%/125%/125%/140%",
+      "amount": "1/1/1/1",
+      "preload": "0/0/0/0"
+    },
+    "2": {
+      "type": "Torpedo",
+      "efficiency": "140%/140%/150%/150%/",
+      "amount": "1/1/2/2",
+      "preload": "0/0/1/1"
+    },
+    "3": {
+      "type": "Anti-Air Gun",
+      "efficiency": "100%/100%/100%/100%",
+      "amount": "1/1/1/1",
+      "preload": "0/0/0/0"
+    },
+    "4": {
+      "type": "Auxilliary",
+      "efficiency": "-",
+      "amount": "-",
+      "preload": "-"
+    },
+    "5": {
+      "type": "Auxilliary",
+      "efficiency": "-",
+      "amount": "-",
+      "preload": "-"
+    }
+  },
+  "defaultEquipment": {
+    "1": "Triple 152mm (BL 6\" Mk XXIII) T1",
+    "2": "533mm Triple Torpedo Mount T1"
+  },
+  "skill": {
+    "1": {
+      "name": "The Perfect Chibi Maid",
+      "type": "Defensive",
+      "skillIcon": "https://s3.us-east-2.amazonaws.com/alg-wiki.com/Ships/335_Belchan/Icon/skill1.png",
+      "requirement": "Default Unlocked",
+      "description": "Increase speed by 3(8) and increase evade by 13%(25%)."
+    },
+    "2": {
+      "name": "Ladies' Tea Time",
+      "type": "Defensive",
+      "skillIcon": "https://s3.us-east-2.amazonaws.com/alg-wiki.com/Ships/335_Belchan/Icon/skill2.png",
+      "requirement": "Default Unlocked",
+      "description": "After battle begins, recover HP of entire fleet equal to 1% (3.5%) of Belchan's max HP"
+    },
+    "3": {
+      "name": "Full Barrage I-II",
+      "type": "Offensive",
+      "skillIcon": "https://s3.us-east-2.amazonaws.com/alg-wiki.com/Ships/335_Belchan/Icon/skill3.png",
+      "requirement": "Limit Break Rank 1, Rank 3 upgrade",
+      "description": "Every 12(8) times the main battery is fired, trigger Full Barrage - Edinburgh I (II)"
+    }
+  },
+  "build": {
+    "light": {
+      "JP": "-",
+      "CN": "-",
+      "EN": "-"
+    },
+    "heavy": {
+      "JP": "-",
+      "CN": "-",
+      "EN": "-"
+    },
+    "special": {
+      "JP": "-",
+      "CN": "-",
+      "EN": "-"
+    },
+    "limited": {
+      "JP": "-",
+      "CN": "-",
+      "EN": "-"
+    }
+  },
+  "drop": {
+    "droppable": "false"
+  },
+  "lines": {
+    "skin": {
+      "1": {
+        "label": "belchan_skin1",
+        "dialogue": {
+          "1": {
+            "event": "Ship Description",
+            "media": "",
+            "chinese": "爱丁堡级轻巡洋舰—贝尔法斯特，舷号C35",
+            "chineseTL": "Edinburgh class light cruiser, Belfast. Hull number C35.",
+            "chineseNote": "",
+            "japanese": "エディンバラ級軽巡洋艦・ベルファスト（HMS Belfast）",
+            "japaneseTL": "Edinburgh-class Light Cruiser, Belfast.",
+            "japaneseNote": "",
+            "english": "",
+            "englishNote": ""
+          },
+          "2": {
+            "event": "Self Introduction",
+            "media": "https://s3.us-east-2.amazonaws.com/alg-wiki.com/Ships/335_Belchan/Sound/skin1_self_introduction.ogg",
+            "chinese": "我是在哈兰德与沃尔夫船厂长大的贝尔法斯特，是的，就是泰坦尼克的出生地。我现在是见习女仆，虽然有个姐姐，不过还没见过面呢，稍微有些遗憾……唔，就这样吧，那么轮到指挥官了，指挥官是个什么样的人呢？",
+            "chineseTL": "I am Belfast, born and raised in Harland and Wolff, yes, the place where Titanic was born. I am now a maid in training. Even though I have a sister, but we haven't met yet, which is slightly regrettable...Hmm, that's about it. Now is your turn commander, what kind of person are you?",
+            "chineseNote": "",
+            "japanese": "ハーランド・アンド・ウルフ生まれのベルファストです。はい、あのタイタニックと同じ場所です。実はベルファスト、お姉ちゃんがいますよ？あまり世話をしたことはありませんでしたけど……ええと、以上です。ご主人様はどんな御方ですか？",
+            "japaneseTL": "I am Belfast, born in Harland and Wolff. Yes, the same builder as that Titanic. Actually, I have older sisters, you know? Though we didn't have much contact... erm, that's all for the introduction. Who might my Master be?",
+            "japaneseNote": "",
+            "english": "",
+            "englishNote": ""
+          },
+          "3": {
+            "event": "Acquisition",
+            "media": "https://s3.us-east-2.amazonaws.com/alg-wiki.com/Ships/335_Belchan/Sound/skin1_acquisition.ogg",
+            "chinese": "指…挥…官？唔，是船长一样的东西吗？不太明白……总而言之，好像要在这里待一段时间了，见习女仆贝尔法斯特，请多关照",
+            "chineseTL": "Com...man...der? Hmm, is it similar to a captain? I don't really understand...anyways, since it seems like I will be staying here for a while, I am trainee maid Belfast, please take care of me from now on.",
+            "chineseNote": "",
+            "japanese": "綾波……です。「鬼神」とよく言われるのです。よろしくです",
+            "japaneseTL": "I'm… Ayanami. I'm often called a demon. Pleasure to meet you.",
+            "japaneseNote": "",
+            "english": "",
+            "englishNote": ""
+          },
+          "4": {
+            "event": "Login",
+            "media": "https://s3.us-east-2.amazonaws.com/alg-wiki.com/Ships/335_Belchan/Sound/skin1_login.ogg",
+            "chinese": "指挥官，红茶可以吗？",
+            "chineseTL": "Commander, would you like some tea?",
+            "chineseNote": "",
+            "japanese": "ご主人様、紅茶はいかがですか？",
+            "japaneseTL": "Master, how would you like some black tea?",
+            "japaneseNote": "",
+            "english": "",
+            "englishNote": ""
+          },
+          "5": {
+            "event": "Details",
+            "media": "https://s3.us-east-2.amazonaws.com/alg-wiki.com/Ships/335_Belchan/Sound/skin1_details.ogg",
+            "chinese": "淑女要提裙行礼——欸，要双手？唔…失败了…",
+            "chineseTL": "A proper lady should curtsy...eh, I have to use both hands? Ah...I have failed...",
+            "chineseNote": "",
+            "japanese": "レディのカーテシーは両手で、こう……すみません、失敗しちゃいました……",
+            "japaneseTL": "A lady should curtsy with both hands like this... I\"m sorry, I failed...",
+            "japaneseNote": "",
+            "english": "",
+            "englishNote": ""
+          },
+          "6": {
+            "event": "Idle 1",
+            "media": "https://s3.us-east-2.amazonaws.com/alg-wiki.com/Ships/335_Belchan/Sound/skin1_idle_1.ogg",
+            "chinese": "威士忌？咖啡？唔……只有红茶不行吗？",
+            "chineseTL": "Whiskey? Coffee? Uh...is tea not enough?",
+            "chineseNote": "",
+            "japanese": "ウィスキーとコーヒーは……ええと、こ、紅茶じゃダメですか…？",
+            "japaneseTL": "Whisky and coffee... erm... will black tea not do...?",
+            "japaneseNote": "",
+            "english": "",
+            "englishNote": ""
+          },
+          "7": {
+            "event": "Idle 2",
+            "media": "https://s3.us-east-2.amazonaws.com/alg-wiki.com/Ships/335_Belchan/Sound/skin1_idle_2.ogg",
+            "chinese": "指挥官，有什么能交给我做的吗？",
+            "chineseTL": "Commander, do you have anything for me to do?",
+            "chineseNote": "",
+            "japanese": "ご主人様、ベルファストに任せるお仕事はありますか？",
+            "japaneseTL": "Master, do you have any work for Belfast?",
+            "japaneseNote": "",
+            "english": "",
+            "englishNote": ""
+          },
+          "8": {
+            "event": "Idle 3",
+            "media": "https://s3.us-east-2.amazonaws.com/alg-wiki.com/Ships/335_Belchan/Sound/skin1_idle_3.ogg",
+            "chinese": "指挥官，身为长官，偷懒是不好的哦？",
+            "chineseTL": "Commander, as an officer, it's not good to slack off you know?",
+            "chineseNote": "",
+            "japanese": "ご主人様、指揮官をサボってはめっ、ですよ？",
+            "japaneseTL": "Master, you shouldn't slack from your duties as a Commander, you know?",
+            "japaneseNote": "",
+            "english": "",
+            "englishNote": ""
+          },
+          "9": {
+            "event": "Touch",
+            "media": "https://s3.us-east-2.amazonaws.com/alg-wiki.com/Ships/335_Belchan/Sound/skin1_touch.ogg",
+            "chinese": "指挥官，总是拜托别人可是会变成废人的哟，请偶尔也自己努力一下——唔…没办法，就这一次…",
+            "chineseTL": "Commander, you will become useless you know if you always rely on others? So please at least put in some effort occasionally...Ugh...I guess there's no helping it. Just this once, okay?",
+            "chineseNote": "",
+            "japanese": "ご主人様、人に頼りすぎるとダメ人間になっちゃいますよ？たまには自分で――うぅ、仕方ありませんね。こ、今回だけですよ…？",
+            "japaneseTL": "Master, if you rely on others too much you'll end up as a worthless deadbeat you know? Every now and then, you should do things by yourself - Ugh, I guess there's no helping it. I... I'll help you just this once, okay?",
+            "japaneseNote": "",
+            "english": "",
+            "englishNote": ""
+          },
+          "10": {
+            "event": "Special Touch",
+            "media": "https://s3.us-east-2.amazonaws.com/alg-wiki.com/Ships/335_Belchan/Sound/skin1_special_touch.ogg",
+            "chinese": "指挥官，我会去监狱里给你送饭的，请放心吧",
+            "chineseTL": "Commander, I will deliver food to your jail cell, so you don't have to worry about that.",
+            "chineseNote": "",
+            "japanese": "ご主人様、安心してください。収監されても、ベルファストはお食事をお届けしますよ",
+            "japaneseTL": "Master, please do not worry. Even if you are jailed, I will still bring food to you.",
+            "japaneseNote": "",
+            "english": "",
+            "englishNote": ""
+          },
+          "11": {
+            "event": "New Mission",
+            "media": "https://s3.us-east-2.amazonaws.com/alg-wiki.com/Ships/335_Belchan/Sound/skin1_mission.ogg",
+            "chinese": "指挥官，任务书堆积了那么多不会有事吗？",
+            "chineseTL": "Commander, won't something go wrong if you pile up so many tasks?",
+            "chineseNote": "",
+            "japanese": "ご主人様、任務の書類をあんなに貯められて、大丈夫ですか？",
+            "japaneseTL": "Master, is it all right to let the mission-related documents pile up that high?",
+            "japaneseNote": "",
+            "english": "",
+            "englishNote": ""
+          },
+          "12": {
+            "event": "Mission Complete",
+            "media": "https://s3.us-east-2.amazonaws.com/alg-wiki.com/Ships/335_Belchan/Sound/skin1_mission_complete.ogg",
+            "chinese": "任务奖励？那么我帮指挥官做事也会有奖励吗？",
+            "chineseTL": "The rewards? Then will I be rewarded as well for doing things for you, commander?",
+            "chineseNote": "",
+            "japanese": "任務の報奨ですね。ベルファストもご主人様にご奉仕できたら報奨がもらえますか？",
+            "japaneseTL": "This is a reward for the mission, right? If I provide good service to the Master, will I receive a reward as well?",
+            "japaneseNote": "",
+            "english": "",
+            "englishNote": ""
+          },
+          "13": {
+            "event": "New Mail",
+            "media": "https://s3.us-east-2.amazonaws.com/alg-wiki.com/Ships/335_Belchan/Sound/skin1_mail.ogg",
+            "chinese": "指挥官，信件，应该没有搞错吧？",
+            "chineseTL": "Commander, here's your mail, this should be fine...right?",
+            "chineseNote": "",
+            "japanese": "ご主人様、お手紙はこれで大丈夫でしょうか…？",
+            "japaneseTL": "Master, is it okay to leave your letters here like this...?",
+            "japaneseNote": "",
+            "english": "",
+            "englishNote": ""
+          },
+          "14": {
+            "event": "Return From Sortie",
+            "media": "https://s3.us-east-2.amazonaws.com/alg-wiki.com/Ships/335_Belchan/Sound/skin1_return_from_sortie.ogg",
+            "chinese": "",
+            "chineseTL": "指挥官，饿了吗？我也饿了，一起吃点什么吧",
+            "chineseNote": "Commander, are you hungry? I am as well, let's go eat something",
+            "japanese": "ご主人様、お腹が空きましたか？私もお腹が空きました。一緒に食べませんか？",
+            "japaneseTL": "Master, are you hungry? I'm hungry too. Shall we eat together?\n",
+            "japaneseNote": "",
+            "english": "",
+            "englishNote": ""
+          },
+          "15": {
+            "event": "Commission Complete",
+            "media": "https://s3.us-east-2.amazonaws.com/alg-wiki.com/Ships/335_Belchan/Sound/skin1_commission_complete.ogg",
+            "chinese": "指挥官，完成委托的姐姐们正在等待你的迎接呢",
+            "chineseTL": "Commander, the sisters that have completed the commission are waiting for you to go receive them.",
+            "chineseNote": "",
+            "japanese": "ご主人様、委託を完了したお嬢様方が出迎えを待っていますよ？",
+            "japaneseTL": "Master, the ladies who have returned from completing the commission are waiting for you to welcome them back, you know?",
+            "japaneseNote": "",
+            "english": "",
+            "englishNote": ""
+          },
+          "16": {
+            "event": "Enhancement",
+            "media": "https://s3.us-east-2.amazonaws.com/alg-wiki.com/Ships/335_Belchan/Sound/skin1_enhancement.ogg",
+            "chinese": "虽然还不太习惯战斗，不过请期待我的活跃吧",
+            "chineseTL": "Although I am still not very used to combat, but please look forward to my performance.",
+            "chineseNote": "",
+            "japanese": "戦闘には慣れていませんけど、期待してくださいね",
+            "japaneseTL": "I'm not used to combat yet, but please look forward to it.",
+            "japaneseNote": "",
+            "english": "",
+            "englishNote": ""
+          },
+          "17": {
+            "event": "Sortie Start",
+            "media": "https://s3.us-east-2.amazonaws.com/alg-wiki.com/Ships/335_Belchan/Sound/skin1_sortie_start.ogg",
+            "chinese": "为主人清除障碍好像也是女仆的职责呢",
+            "chineseTL": "Clearing the way for my master seems to be part of the duty of a maid.",
+            "chineseNote": "",
+            "japanese": "主のためにショウガイを取り除くのはメイドの勤めですね",
+            "japaneseTL": "It is the duty of a maid to remove any obstacles for her Master, isn't it?",
+            "japaneseNote": "",
+            "english": "",
+            "englishNote": ""
+          },
+          "18": {
+            "event": "MVP",
+            "media": "https://s3.us-east-2.amazonaws.com/alg-wiki.com/Ships/335_Belchan/Sound/skin1_mvp.ogg",
+            "chinese": "好像……也没什么大不了的，你说是吗，指挥官？",
+            "chineseTL": "I think...this is nothing special. Don't you agree, commander?",
+            "chineseNote": "",
+            "japanese": "別に……大したことではないですね。そうですね？ご主人様？",
+            "japaneseTL": "It's... just a trivial accomplishment right? Isn't that right, Master?",
+            "japaneseNote": "",
+            "english": "",
+            "englishNote": ""
+          },
+          "19": {
+            "event": "Defeat",
+            "media": "https://s3.us-east-2.amazonaws.com/alg-wiki.com/Ships/335_Belchan/Sound/skin1_defeat.ogg",
+            "chinese": "淑女……要优雅地承认失败……呜……",
+            "chineseTL": "A lady...should elegantly admit defeat...(Weeps)",
+            "chineseNote": "",
+            "japanese": "レディは失敗した時でも優雅に……うぅ……",
+            "japaneseTL": "A lady must be elegant even in defeat... Ughhh...",
+            "japaneseNote": "",
+            "english": "",
+            "englishNote": ""
+          },
+          "20": {
+            "event": "Skill Activation",
+            "media": "https://s3.us-east-2.amazonaws.com/alg-wiki.com/Ships/335_Belchan/Sound/skin1_skill_activation.ogg",
+            "chinese": "敌方的诸位，接下来会有些疼哦",
+            "chineseTL": "Dear enemies, this may be a little painful.",
+            "chineseNote": "",
+            "japanese": "敵のみなさま、次はすこーし痛くなりますよ？",
+            "japaneseTL": "Dear enemies, this will be sliiiightly painful, ok?",
+            "japaneseNote": "",
+            "english": "",
+            "englishNote": ""
+          },
+          "21": {
+            "event": "Low Health",
+            "media": "https://s3.us-east-2.amazonaws.com/alg-wiki.com/Ships/335_Belchan/Sound/skin1_low_health.ogg",
+            "chinese": "指挥官，是不是撤退比较好呢？",
+            "chineseTL": "Commander, wouldn't it be better for us to retreat right now?",
+            "chineseNote": "",
+            "japanese": "ご主人様、撤退したほうがいいでしょうか……？",
+            "japaneseTL": "Master, would it be better to retreat...?",
+            "japaneseNote": "",
+            "english": "",
+            "englishNote": ""
+          },
+          "22": {
+            "event": "Affinity (Disappointed)",
+            "media": "https://s3.us-east-2.amazonaws.com/alg-wiki.com/Ships/335_Belchan/Sound/skin1_affinity_disappointed.ogg",
+            "chinese": "唔，指挥官……比厨房的污垢还要棘手呢",
+            "chineseTL": "Ugh, commander...is more troublesome than the stains in a kitchen.",
+            "chineseNote": "",
+            "japanese": "ご主人様は台所の汚れより手がかかりますね",
+            "japaneseTL": "You are more troublesome than the stains in the kitchen, Master.",
+            "japaneseNote": "",
+            "english": "",
+            "englishNote": ""
+          },
+          "23": {
+            "event": "Affinity (Stranger)",
+            "media": "https://s3.us-east-2.amazonaws.com/alg-wiki.com/Ships/335_Belchan/Sound/skin1_affinity_stranger.ogg",
+            "chinese": "指挥官，这里有好多好多的姐姐，难道指挥官是非常非常富有的造船厂老板的称呼吗？",
+            "chineseTL": "Commander, there are so many sisters here, is \"commander\" actually a way to refer to very very rich shipyard owners?",
+            "chineseNote": "",
+            "japanese": "ほかの船もいっぱい……ご主人様、指揮官って、すごくお金持ちの造船所のオーナーって意味でしょうか？",
+            "japaneseTL": "There's so many other ships... Master, does \"Commander\" refer to a very rich owner of a shipyard?",
+            "japaneseNote": "",
+            "english": "",
+            "englishNote": ""
+          },
+          "24": {
+            "event": "Affinity (Friendly)",
+            "media": "https://s3.us-east-2.amazonaws.com/alg-wiki.com/Ships/335_Belchan/Sound/skin1_affinity_friendly.ogg",
+            "chinese": "冷静吗？唔，指挥官是个好人，而且这里有好多友善的姐姐，不像在船厂时，周围都是商船呢，这不是没有什么好慌张的吗？",
+            "chineseTL": "Do I feel at ease? Hmm, commander is a nice person, and there are so many friendly big sisters here, unlike when I was at yard, where I was surrounded with merchant ships. There is nothing for me to be anxious about.",
+            "chineseNote": "",
+            "japanese": "「緊張しないか」ですか？ご主人様はいい人ですし、ここにいるみなさまは私と同じ商船じゃありませんから、別に緊張することもなにもないですよ？",
+            "japaneseTL": "\"Am I nervous\", you ask? Master is a good person, and everyone here is not a merchant ship like me, so there's no need to be nervous or anything, I think?",
+            "japaneseNote": "",
+            "english": "",
+            "englishNote": ""
+          },
+          "25": {
+            "event": "Affinity (Like)",
+            "media": "https://s3.us-east-2.amazonaws.com/alg-wiki.com/Ships/335_Belchan/Sound/skin1_affinity_like.ogg",
+            "chinese": "感觉经常能够猜出指挥官在想什么呢…这就是所谓的心有灵犀吗？还是只是指挥官太好懂了…？",
+            "chineseTL": "It feels like I can always guess what the commander is thinking...is this the so called \"In sync\"? Or is it just that the commander is very easy to read...?",
+            "chineseNote": "",
+            "japanese": "ご主人様が考えていることは手に取るようにわかりますね。…ええと、これって噂の「えんぱしー」ですか？うーん、もしくはご主人様がわかりやすすぎなのでは……",
+            "japaneseTL": "I understand what you are thinking perfectly, master. ...erm, is this what they call 'empathy'? Uhhh, or is it that you are just too easy to understand, Master...",
+            "japaneseNote": "",
+            "english": "",
+            "englishNote": ""
+          },
+          "26": {
+            "event": "Affinity (Love)",
+            "media": "https://s3.us-east-2.amazonaws.com/alg-wiki.com/Ships/335_Belchan/Sound/skin1_affinity_love.ogg",
+            "chinese": "指挥官，你觉得我长大后能够成为一位出色的、足以令你侧目的淑女吗？",
+            "chineseTL": "Commander, do you think that when I grow up, I will become an outstanding lady that can grab your attention?",
+            "chineseNote": "",
+            "japanese": "ご主人様、ベルファストが大きくなったら、ちゃんとご主人様のオメガネに適うレディになれますか？",
+            "japaneseTL": "Master, when Belfast grows up, would I become a lady that befits your expectations?",
+            "japaneseNote": "",
+            "english": "",
+            "englishNote": ""
+          },
+          "27": {
+            "event": "Pledge",
+            "media": "https://s3.us-east-2.amazonaws.com/alg-wiki.com/Ships/335_Belchan/Sound/skin1_pledge.ogg",
+            "chinese": "这是对我的承认吗？十分感谢。不过，对少女递上戒指可是会被世人误会的行为，指挥官，要想好才行哦？",
+            "chineseTL": "Does this mean you recognize me as worthy? I am very grateful. But, giving a young girl a ring can cause a lot of misunderstandings, commander. You should think this through, you know?",
+            "chineseNote": "",
+            "japanese": "ベルファストを認めてくれた、という意味ですか？ありがとうございます。ですが…ベルファストがこの指輪をつけたらご主人様が色々誤解されそうで……ほ、本当によく考えたほうがいいですよ？",
+            "japaneseTL": "Does this mean that I have been considered worthy? Thank you very much. However... if I were to wear this ring, others may misunderstand your intentions, Master... i... it's probably better if you think this over, you know?",
+            "japaneseNote": "",
+            "english": "",
+            "englishNote": ""
+          },
+          "28": {
+            "event": "Valentines 2018",
+            "media": "",
+            "chinese": "",
+            "chineseTL": "",
+            "chineseNote": "",
+            "japanese": "",
+            "japaneseTL": "",
+            "japaneseNote": "",
+            "english": "",
+            "englishNote": ""
+          },
+          "29": {
+            "event": "Valentines 2019",
+            "media": "",
+            "chinese": "姐姐说，情人节对我来说太早了……不过，姐姐也说了，送给指挥官表达平日的感谢也是可以的。所以指挥官，请收下吧，这是淑女的谢礼。",
+            "chineseTL": "",
+            "chineseNote": "",
+            "japanese": "あの、姉さまからわたしにはまだ早いと言われましたけど、メイド修行として作ったチョコレートをご主人さまにお渡ししますね。いつもありがとうございます（ぺこっ)",
+            "japaneseTL": "Even though my older sister told me that it is too early for me, I still wanted to give this chocolate that I made as a part of my maid training to to you, Master. Thank you very much for always (really)",
+            "japaneseNote": "",
+            "english": "",
+            "englishNote": ""
+          }
+        }
+      }
+    }
+  }
+}
