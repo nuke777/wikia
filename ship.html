@@ -25,7 +25,7 @@
 	<!-- Fetch Script -->
 	<script>
 	
-	window.skinData = null;
+	window.folder = "https://s3.us-east-2.amazonaws.com/alg-wiki.com/Ships/";
 	
 	function loadJSON(callback) {   
 		var hash = window.location.hash;
@@ -48,6 +48,7 @@
 		  // Parse JSON string into object
 			var actual_JSON = JSON.parse(response);
 			console.log(actual_JSON);
+			//window.folder = window.folder + actual_JSON.file_id;
 			document.title = actual_JSON.prefix + " " + actual_JSON.name + " - /alg/ Azur Lane General Wiki";
 			document.getElementById("shipHeader").innerHTML = actual_JSON.prefix + " " + actual_JSON.name + " \(JP: " + actual_JSON.nameJP + ", CN: " + actual_JSON.nameCN + "\)";
 			document.getElementById("shipID").innerHTML = actual_JSON.ID;
@@ -79,6 +80,7 @@
 			document.getElementById("shipIllusOther").innerHTML = actual_JSON.artist.name;
 			document.getElementById("shipIllusOtherLink").href = actual_JSON.artist.other;			
 			document.getElementById("shipIcon").src = actual_JSON.imageSRC;
+			//document.getElementById("shipIcon").src = window.folder + "/Icon/icon.png";
 			document.getElementById("shipParameterHP").innerHTML = actual_JSON.parameters.hp;
 			document.getElementById("shipParameterAntiAir").innerHTML = actual_JSON.parameters.antiAir;
 			document.getElementById("shipParameterEvasion").innerHTML = actual_JSON.parameters.evasion;
@@ -211,18 +213,20 @@
 	function setShipSkinNav(data){
 		var firstIteration = true;
 		var initial = "";
+		var id = "";
 		for (var x in data.skin) {
 			var container = document.createElement('div');
 			var escaped = JSON.stringify(data.skin[x]).replace(/'/g, "\\'");
 			escaped = escaped.replace(/"/g, "\\\"");
 			container.className = 'btnContainer';			
-			container.setAttribute('onclick','onSkinNavButtonClick(\'' + escaped + '\')');
+			container.setAttribute('onclick','onSkinNavButtonClick(\'' + escaped + '\',\''+x+'\')');
 			if (firstIteration){
 				container.innerHTML = 
 				'<img class="btnImage" id="' + data.skin[x].id + '" src="' + data.skin[x].icon + '"></img>\
 				<div class="btnOverlay activeButton" id="ovr_' + data.skin[x].id+ '"></div>';
 				firstIteration = false;
 				initial = JSON.stringify(data.skin[x]);
+				id = x;
 			} else {
 				container.innerHTML = 
 				'<img class="btnImage" id="' + data.skin[x].id + '" src="' + data.skin[x].icon + '"></img>\
@@ -231,10 +235,10 @@
 			
 			document.getElementById('shipSkinNav').appendChild(container);
 		}
-		onSkinNavButtonClick(initial);
+		onSkinNavButtonClick(initial, x);
 	}
 	
-	function onSkinNavButtonClick(raw_skin){
+	function onSkinNavButtonClick(raw_skin, skinID){
 		var skin = JSON.parse(raw_skin);		
 		var id = "ovr_"+skin.id;
 		var obj = document.getElementById('shipSkinNav').children;
@@ -245,7 +249,7 @@
 				var identifier = child[j].id.substring(0,4);
 				if (child[j].id == id) {
 					document.getElementById(id).className = 'btnOverlay activeButton';
-					loadShipSkinElements(skin);
+					loadShipSkinElements(skin, skinID);
 				} else if (child[j].id != id && identifier == "ovr_"){
 					document.getElementById(child[j].id).className = 'btnOverlay';
 				}
@@ -254,36 +258,43 @@
 	}
 	
 	
-	function loadShipSkinElements(skin){
+	function loadShipSkinElements(skin, skinID){
 		document.getElementById("shipSkinDesc").innerHTML = skin.description;
 		document.getElementById("shipSkinSD").src = skin.sd;
+		//document.getElementById("shipSkinSD").src = window.folder + "/Sprite/skin" + skinID + "_sd.png";
 		document.getElementById("shipSkinName").innerHTML = '<b>' +skin.name+ '</b>';
 		document.getElementById("shipSkinDisplay").src = skin.image;
+		//document.getElementById("shipSkinDisplay").src = window.folder + "/Sprite/skin" + skinID + "_expr1.png";
+		
 		
 		removeShipExpressionNav();
 		setShipExpressionNav(skin);
 	}
 	
-	function setShipExpressionNav(data){
+	function setShipExpressionNav(data, skinID){
 		var firstIteration = true;
 		var initial = "";
+		var id = "";
 		for (var x in data.expression) {
 			var container = document.createElement('img');
 			container.id = "expr_" + data.expression[x].id;
-			container.setAttribute('onclick','onExpressionNavButtonClick(\'' + JSON.stringify(data.expression[x]) + '\')');
+			container.setAttribute('onclick','onExpressionNavButtonClick(\'' + JSON.stringify(data.expression[x]) + '\',\''+x+'\',\''+skinID+'\')');
 			if (firstIteration){
 				container.src = data.expression[x].icon;
+				//container.src = window.folder + "/Icon/skin" + skinID + "_expr" + x ".png";
 				container.className = "btnExprActive";
 				firstIteration = false;
 				initial = JSON.stringify(data.expression[x]);
+				id = x;
 			} else {
 				container.src = data.expression[x].icon;
+				//container.src = window.folder + "/Icon/skin" + skinID + "_expr" + x ".png";
 				container.className = "btnExpr";
 			}
 			
 			document.getElementById('shipSkinExpressions').appendChild(container);
 		}
-		onExpressionNavButtonClick(initial);
+		onExpressionNavButtonClick(initial, id, skinID);
 	}
 	
 	function removeShipExpressionNav(){
@@ -293,7 +304,7 @@
 		}
 	}
 	
-	function onExpressionNavButtonClick(raw_expr){
+	function onExpressionNavButtonClick(raw_expr, exprID, skinID){
 		var expr = JSON.parse(raw_expr);		
 		var id = "expr_"+expr.id;
 		var obj = document.getElementById('shipSkinExpressions').children;
@@ -301,15 +312,16 @@
 		for (var i = 0; i < obj.length; ++i){
 			if (obj[i].id == id) {
 				document.getElementById(id).className = 'btnExprActive';
-				loadShipSkinExpressionElements(expr);
+				loadShipSkinExpressionElements(expr, exprID, skinID);
 			} else if (obj[i].id != id){
 				document.getElementById(obj[i].id).className = 'btnExpr';	
 			}
 		}
 	}
 	
-	function loadShipSkinExpressionElements(expr){
+	function loadShipSkinExpressionElements(expr, exprID, skinID){
 		document.getElementById("shipSkinDisplay").src = expr.full;
+		//document.getElementById("shipSkinDisplay").src = window.folder + "/Sprite/skin" + skinID + "_expr" + exprID + ".png";
 	}
 	
 	function setActiveFromButtonGroup(idList, activeId, jsonID){
