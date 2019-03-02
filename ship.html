@@ -523,7 +523,7 @@
 				'<img class="btnImage" id="diaNav_' + "skin" + x + '" src="' + window.folder + "/Icon/skin" + x + ".png" + '"></img>\
 				<div class="btnOverlay activeButton" id="ovrDia_' + "skin" + x + '"></div>';
 				firstIteration = false;
-				initial = "skin" + x;
+				initial = x;
 			} else {
 				container.innerHTML = 
 				//'<img class="btnImage" id="' + "skin" + x + '" src="' + data.skin[x].icon + '"></img>\
@@ -537,7 +537,7 @@
 	}
 	
 	function onDialogueSkinNavButtonClick(skinId){
-		var id = "ovrDia_"+ skinId;
+		var id = "ovrDia_"+ "skin" + skinId;
 		var obj = document.getElementById('shipDialogueSkinNav').children;
 		
 		for (var i = 0; i < obj.length; ++i){
@@ -575,7 +575,7 @@
 				</td>\
 			</tr>';
 			for (var x in actual_JSON.lines.skin){
-				if (actual_JSON.lines.skin[x].label == skinId){
+				if (x == skinId){
 					for (var y in actual_JSON.lines.skin[x].dialogue){		
 						text = text + '\
 			<tr style="text-align:left">\
