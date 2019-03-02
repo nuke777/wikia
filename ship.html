@@ -516,17 +516,19 @@
 		for (var x in data.skin) {
 			var container = document.createElement('div');
 			container.className = 'btnContainer';			
-			container.setAttribute('onclick','onDialogueSkinNavButtonClick(\'' + data.skin[x].id + '\')');
+			container.setAttribute('onclick','onDialogueSkinNavButtonClick(\'' + "skin" + x + '\')');
 			if (firstIteration){
 				container.innerHTML = 
-				'<img class="btnImage" id="diaNav_' + data.skin[x].id + '" src="' + data.skin[x].icon + '"></img>\
-				<div class="btnOverlay activeButton" id="ovrDia_' + data.skin[x].id+ '"></div>';
+				//'<img class="btnImage" id="diaNav_' + data.skin[x].id + '" src="' + data.skin[x].icon + '"></img>\
+				'<img class="btnImage" id="diaNav_' + "skin" + x + '" src="' + window.folder + "/Icon/skin" + x + ".png" + '"></img>\
+				<div class="btnOverlay activeButton" id="ovrDia_' + "skin" + x + '"></div>';
 				firstIteration = false;
-				initial = data.skin[x].id;
+				initial = "skin" + x;
 			} else {
 				container.innerHTML = 
-				'<img class="btnImage" id="' + data.skin[x].id + '" src="' + data.skin[x].icon + '"></img>\
-				<div class="btnOverlay" id="ovrDia_' + data.skin[x].id+ '"></div>';
+				//'<img class="btnImage" id="' + "skin" + x + '" src="' + data.skin[x].icon + '"></img>\
+				'<img class="btnImage" id="' + "skin" + x + '" src="' + window.folder + "/Icon/skin" + x + ".png" + '"></img>\
+				<div class="btnOverlay" id="ovrDia_' + "skin" + x + '"></div>';
 			}
 			
 			document.getElementById('shipDialogueSkinNav').appendChild(container);
