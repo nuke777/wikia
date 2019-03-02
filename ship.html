@@ -274,18 +274,19 @@
 		var id = "";
 		for (var x in data.expression) {
 			var container = document.createElement('img');
-			container.id = "expr_" + data.expression[x].id;
+			//container.id = "expr_" + data.expression[x].id;			
+			container.id = "expr_" + x;
 			container.setAttribute('onclick','onExpressionNavButtonClick(\'' + JSON.stringify(data.expression[x]) + '\',\''+x+'\',\''+skinID+'\')');
 			if (firstIteration){
-				container.src = data.expression[x].icon;
-				//container.src = window.folder + "/Icon/skin" + skinID + "_expr" + x ".png";
+				//container.src = data.expression[x].icon;
+				container.src = window.folder + "/Icon/skin" + skinID + "_expr" + x ".png";
 				container.className = "btnExprActive";
 				firstIteration = false;
 				initial = JSON.stringify(data.expression[x]);
 				id = x;
 			} else {
-				container.src = data.expression[x].icon;
-				//container.src = window.folder + "/Icon/skin" + skinID + "_expr" + x ".png";
+				//container.src = data.expression[x].icon;
+				container.src = window.folder + "/Icon/skin" + skinID + "_expr" + x ".png";
 				container.className = "btnExpr";
 			}
 			
@@ -303,7 +304,8 @@
 	
 	function onExpressionNavButtonClick(raw_expr, exprID, skinID){
 		var expr = JSON.parse(raw_expr);		
-		var id = "expr_"+expr.id;
+		//var id = "expr_"+expr.id;
+		var id = "expr_"+exprID;
 		var obj = document.getElementById('shipSkinExpressions').children;
 		
 		for (var i = 0; i < obj.length; ++i){
@@ -317,8 +319,8 @@
 	}
 	
 	function loadShipSkinExpressionElements(expr, exprID, skinID){
-		document.getElementById("shipSkinDisplay").src = expr.full;
-		//document.getElementById("shipSkinDisplay").src = window.folder + "/Sprite/skin" + skinID + "_expr" + exprID + ".png";
+		//document.getElementById("shipSkinDisplay").src = expr.full;
+		document.getElementById("shipSkinDisplay").src = window.folder + "/Sprite/skin" + skinID + "_expr" + exprID + ".png";
 	}
 	
 	function setActiveFromButtonGroup(idList, activeId, jsonID){
