@@ -279,14 +279,14 @@
 			container.setAttribute('onclick','onExpressionNavButtonClick(\'' + JSON.stringify(data.expression[x]) + '\',\''+x+'\',\''+skinID+'\')');
 			if (firstIteration){
 				//container.src = data.expression[x].icon;
-				container.src = window.folder + "/Icon/skin" + skinID + "_expr" + x ".png";
+				container.src = window.folder + "/Icon/skin" + skinID + "_expr" + x + ".png";
 				container.className = "btnExprActive";
 				firstIteration = false;
 				initial = JSON.stringify(data.expression[x]);
 				id = x;
 			} else {
 				//container.src = data.expression[x].icon;
-				container.src = window.folder + "/Icon/skin" + skinID + "_expr" + x ".png";
+				container.src = window.folder + "/Icon/skin" + skinID + "_expr" + x + ".png";
 				container.className = "btnExpr";
 			}
 			
