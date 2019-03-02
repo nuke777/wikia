@@ -78,8 +78,7 @@
 			document.getElementById("shipIllusPixiv").innerHTML = actual_JSON.artist.name;
 			document.getElementById("shipIllusPixivLink").href = actual_JSON.artist.pixiv;
 			document.getElementById("shipIllusOther").innerHTML = actual_JSON.artist.name;
-			document.getElementById("shipIllusOtherLink").href = actual_JSON.artist.other;			
-			//document.getElementById("shipIcon").src = actual_JSON.imageSRC;
+			document.getElementById("shipIllusOtherLink").href = actual_JSON.artist.other;		
 			document.getElementById("shipIcon").src = window.folder + "/Icon/icon.png";
 			document.getElementById("shipParameterHP").innerHTML = actual_JSON.parameters.hp;
 			document.getElementById("shipParameterAntiAir").innerHTML = actual_JSON.parameters.antiAir;
@@ -222,15 +221,17 @@
 			container.setAttribute('onclick','onSkinNavButtonClick(\'' + escaped + '\',\''+x+'\')');
 			if (firstIteration){
 				container.innerHTML = 
-				'<img class="btnImage" id="' + data.skin[x].id + '" src="' + data.skin[x].icon + '"></img>\
-				<div class="btnOverlay activeButton" id="ovr_' + data.skin[x].id+ '"></div>';
+				//'<img class="btnImage" id="' + data.skin[x].id + '" src="' + data.skin[x].icon + '"></img>\ 
+				'<img class="btnImage" id="' + "skin" + x + '" src="' + window.folder + "/Icon/skin" + x + ".png" + '"></img>\
+				<div class="btnOverlay activeButton" id="ovr_' + "skin" + x + '"></div>';
 				firstIteration = false;
 				initial = JSON.stringify(data.skin[x]);
 				id = x;
 			} else {
 				container.innerHTML = 
-				'<img class="btnImage" id="' + data.skin[x].id + '" src="' + data.skin[x].icon + '"></img>\
-				<div class="btnOverlay" id="ovr_' + data.skin[x].id+ '"></div>';
+				//'<img class="btnImage" id="' + data.skin[x].id + '" src="' + data.skin[x].icon + '"></img>\
+				'<img class="btnImage" id="' + "skin" + x + '" src="' + window.folder + "/Icon/skin" + x + ".png" + '"></img>\
+				<div class="btnOverlay" id="ovr_' + "skin" + x + '"></div>';
 			}
 			
 			document.getElementById('shipSkinNav').appendChild(container);
@@ -260,11 +261,11 @@
 	
 	function loadShipSkinElements(skin, skinID){
 		document.getElementById("shipSkinDesc").innerHTML = skin.description;
-		document.getElementById("shipSkinSD").src = skin.sd;
-		//document.getElementById("shipSkinSD").src = window.folder + "/Sprite/skin" + skinID + "_sd.png";
+		//document.getElementById("shipSkinSD").src = skin.sd;
+		document.getElementById("shipSkinSD").src = window.folder + "/Sprite/skin" + skinID + "_sd.png";
 		document.getElementById("shipSkinName").innerHTML = '<b>' +skin.name+ '</b>';
-		document.getElementById("shipSkinDisplay").src = skin.image;
-		//document.getElementById("shipSkinDisplay").src = window.folder + "/Sprite/skin" + skinID + "_expr1.png";
+		//document.getElementById("shipSkinDisplay").src = skin.image;
+		document.getElementById("shipSkinDisplay").src = window.folder + "/Sprite/skin" + skinID + "_expr1.png";
 		
 		
 		removeShipExpressionNav();
