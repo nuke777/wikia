@@ -1,0 +1,1046 @@
+{
+  "name": "Saratoga",
+  "nameJP": "サラトガ",
+  "nameCN": "萨拉托加",
+  "class": "Lexington",
+  "hull": "Aircraft Carrier",
+  "prefix": "USS",
+  "ID": "074",
+  "imageSRC": "https://s3.us-east-2.amazonaws.com/alg-wiki.com/Ships/074_Saratoga/Icon/icon.png",
+  "navy": "Eagle Union",
+  "initialStar": "★★☆☆☆",
+  "rarity": "Elite",
+  "buildTime": "03:40:00",
+  "acquisitionMethod": "Drop/Special",
+  "enhance": {
+    "firepower": "0",
+    "torpedo": "0",
+    "aviation": "63",
+    "reload": "8"
+  },
+  "scrap": {
+    "gold": "9",
+    "oil": "3",
+    "medal": "4"
+  },
+  "skin": {
+    "1": {
+      "id": "saratoga_skin1",
+      "name": "Default",
+      "icon": "https://s3.us-east-2.amazonaws.com/alg-wiki.com/Ships/074_Saratoga/Icon/skin1.png",
+      "image": "https://s3.us-east-2.amazonaws.com/alg-wiki.com/Ships/074_Saratoga/Sprite/skin1_expr1.png",
+      "description": "Lexington-class aircraft carrier - Saratoga, Hull Number CV-3!",
+      "sd": "https://s3.us-east-2.amazonaws.com/alg-wiki.com/Ships/074_Saratoga/Sprite/skin1_sd.png",
+      "expression": {
+        "1": {
+          "id": "saratoga_skin1_expr1",
+          "full": "https://s3.us-east-2.amazonaws.com/alg-wiki.com/Ships/074_Saratoga/Sprite/skin1_expr1.png",
+          "icon": "https://s3.us-east-2.amazonaws.com/alg-wiki.com/Ships/074_Saratoga/Icon/skin1_expr1.png"
+        }
+      }
+    },
+    "2": {
+      "id": "saratoga_skin2",
+      "name": "Retrofit",
+      "icon": "https://s3.us-east-2.amazonaws.com/alg-wiki.com/Ships/074_Saratoga/Icon/skin2.png",
+      "image": "https://s3.us-east-2.amazonaws.com/alg-wiki.com/Ships/074_Saratoga/Sprite/skin2_expr1.png",
+      "description": "「姉から独立して羽ばたき、いざシスター・サラの新路線――魔女っ子アイドルサラトガちゃん、ただいま正式デビューよ！」指揮官、あとは宣伝、よろしくね～",
+      "sd": "https://s3.us-east-2.amazonaws.com/alg-wiki.com/Ships/074_Saratoga/Sprite/skin2_sd.png",
+      "expression": {
+        "1": {
+          "id": "saratoga_skin2_expr1",
+          "full": "https://s3.us-east-2.amazonaws.com/alg-wiki.com/Ships/074_Saratoga/Sprite/skin2_expr1.png",
+          "icon": "https://s3.us-east-2.amazonaws.com/alg-wiki.com/Ships/074_Saratoga/Icon/skin2_expr1.png"
+        }
+      }
+    },
+    "3": {
+      "id": "saratoga_skin3",
+      "name": "Ocean Holidays",
+      "icon": "https://s3.us-east-2.amazonaws.com/alg-wiki.com/Ships/074_Saratoga/Icon/skin3.png",
+      "image": "https://s3.us-east-2.amazonaws.com/alg-wiki.com/Ships/074_Saratoga/Sprite/skin3_expr1.png",
+      "description": "Even if we don't get to relax on holiday, it's always good to have a swimsuit! Ok, let's go! Are you ready to swim?",
+      "sd": "https://s3.us-east-2.amazonaws.com/alg-wiki.com/Ships/074_Saratoga/Sprite/skin3_sd.png",
+      "expression": {
+        "1": {
+          "id": "saratoga_skin3_expr1",
+          "full": "https://s3.us-east-2.amazonaws.com/alg-wiki.com/Ships/074_Saratoga/Sprite/skin3_expr1.png",
+          "icon": "https://s3.us-east-2.amazonaws.com/alg-wiki.com/Ships/074_Saratoga/Icon/skin3_expr1.png"
+        }
+      }
+    }
+  },
+  "releaseDate": {
+    "JP": "September 13, 2017",
+    "CN": "May 27, 2017",
+    "KR": "March 27, 2018",
+    "EN": "August 16, 2018"
+  },
+  "voiceActress": "Sumire Uesaka",
+  "artist": {
+    "name": "Saru",
+    "weibo": "https://www.weibo.com/u/1054234800",
+    "twitter": "https://twitter.com/saru_1127",
+    "pixiv": "https://www.pixiv.net/member.php?id=1422579",
+    "other": ""
+  },
+  "parameters": {
+    "hp": "A",
+    "antiAir": "B -> A",
+    "evasion": "C",
+    "aviation": "A -> S",
+    "torpedo": "E",
+    "firepower": "C"
+  },
+  "stats": {
+    "100": {
+      "hp": "6116",
+      "armor": "Medium",
+      "reload": "96",
+      "firepower": "0",
+      "torpedo": "0",
+      "evasion": "34",
+      "antiAir": "266",
+      "aviation": "356",
+      "cost": "12",
+      "asw": "0",
+      "speed": "33"
+    },
+    "120": {
+      "hp": "6912",
+      "armor": "Medium",
+      "reload": "110",
+      "firepower": "0",
+      "torpedo": "0",
+      "evasion": "57",
+      "antiAir": "303",
+      "aviation": "397",
+      "cost": "12",
+      "asw": "0",
+      "speed": "33"
+    },
+    "base": {
+      "hp": "1183",
+      "armor": "Medium",
+      "reload": "41",
+      "firepower": "0",
+      "torpedo": "0",
+      "evasion": "13",
+      "antiAir": "57",
+      "aviation": "75",
+      "cost": "4",
+      "asw": "0",
+      "speed": "33"
+    },
+    "100retrofit": {
+      "hp": "6326",
+      "armor": "Medium",
+      "reload": "116",
+      "firepower": "0",
+      "torpedo": "0",
+      "evasion": "34",
+      "antiAir": "316",
+      "aviation": "401",
+      "cost": "12",
+      "asw": "0",
+      "speed": "33"
+    },
+    "120retrofit": {
+      "hp": "7122",
+      "armor": "Medium",
+      "reload": "130",
+      "firepower": "0",
+      "torpedo": "0",
+      "evasion": "57",
+      "antiAir": "353",
+      "aviation": "442",
+      "cost": "12",
+      "asw": "0",
+      "speed": "33"
+    }
+  },
+  "limitBreak": {
+    "tier1": "All Fighters +1, Diver Bomber Efficiency +3%",
+    "tier2": "Hangar Capacity +1, All Dive Bombers +1, Fighter Efficiency +5%",
+    "tier3": "All Diver Bombers +1, Diver Bomber Efficiency +7%"
+  },
+  "equipmentLoadout": {
+    "1": {
+      "type": "Fighter",
+      "efficiency": "115%/115%/120%/120%(125%)",
+      "amount": "1/2/2/2",
+      "preload": "0/0/0/0"
+    },
+    "2": {
+      "type": "Dive Bomber",
+      "efficiency": "120%/123%/123%/130%(140%)",
+      "amount": "1/1/2/3",
+      "preload": "0/0/0/0"
+    },
+    "3": {
+      "type": "Dive Bomber",
+      "efficiency": "120%/123%/123%/130%(140%)",
+      "amount": "1/1/2/3",
+      "preload": "0/0/0/0"
+    },
+    "4": {
+      "type": "Auxilliary",
+      "efficiency": "-",
+      "amount": "-",
+      "preload": "-"
+    },
+    "5": {
+      "type": "Auxilliary",
+      "efficiency": "-",
+      "amount": "-",
+      "preload": "-"
+    }
+  },
+  "defaultEquipment": {
+    "1": "F2A Buffalo T1",
+    "2": "SBD Dauntless T1",
+    "3": "BTD-1 Destroyer T1"
+  },
+  "skill": {
+    "1": {
+      "name": "Supporting Fire",
+      "type": "Offensive",
+      "skillIcon": "https://s3.us-east-2.amazonaws.com/alg-wiki.com/Ships/074_Saratoga/Icon/skill1.png",
+      "requirement": "Default Unlocked",
+      "description": "Every 20 (10) seconds, provides supporting fire with 20.3 cm guns (damage varies with skill level)"
+    },
+    "2": {
+      "name": "Fleet Carrier",
+      "type": "Support",
+      "skillIcon": "https://s3.us-east-2.amazonaws.com/alg-wiki.com/Ships/074_Saratoga/Icon/skill2.png",
+      "requirement": "Default Unlocked",
+      "description": "Every time Saratoga launches an airstrike, increases Escort Fleet damage by 5% (15%) for 8 seconds. Does not stack with the same skill."
+    },
+    "3": {
+      "name": "Magical Girl's Prank",
+      "type": "Offensive",
+      "skillIcon": "https://s3.us-east-2.amazonaws.com/alg-wiki.com/Ships/074_Saratoga/Icon/skill3.png",
+      "requirement": "Retrofit",
+      "description": "When Saratoga launches an airstrike: 40% (70%) chance to launch additional planes (damage based on skill level) that inflict flood and burn damage on hit."
+    }
+  },
+  "build": {
+    "light": {
+      "JP": "-",
+      "CN": "-",
+      "EN": "-"
+    },
+    "heavy": {
+      "JP": "-",
+      "CN": "-",
+      "EN": "-"
+    },
+    "special": {
+      "JP": "✓",
+      "CN": "✓",
+      "EN": "✓"
+    },
+    "limited": {
+      "JP": "-",
+      "CN": "-",
+      "EN": "-"
+    }
+  },
+  "drop": {
+    "droppable": "true",
+    "list": {
+      "1": {
+        "event": "World",
+        "chapter": {
+          "1": {
+            "label": "Ch.4",
+            "node": {
+              "1": {
+                "drop": "✓",
+                "note": ""
+              },
+              "2": {
+                "drop": "-",
+                "note": ""
+              },
+              "3": {
+                "drop": "-",
+                "note": ""
+              },
+              "4": {
+                "drop": "-",
+                "note": ""
+              }
+            }
+          },
+          "2": {
+            "label": "Ch.6",
+            "node": {
+              "1": {
+                "drop": "-",
+                "note": ""
+              },
+              "2": {
+                "drop": "-",
+                "note": ""
+              },
+              "3": {
+                "drop": "-",
+                "note": ""
+              },
+              "4": {
+                "drop": "✓",
+                "note": ""
+              }
+            }
+          },
+          "3": {
+            "label": "Ch.10",
+            "node": {
+              "1": {
+                "drop": "-",
+                "note": ""
+              },
+              "2": {
+                "drop": "✓",
+                "note": ""
+              },
+              "3": {
+                "drop": "-",
+                "note": ""
+              },
+              "4": {
+                "drop": "-",
+                "note": ""
+              }
+            }
+          },
+          "4": {
+            "label": "Ch.12",
+            "node": {
+              "1": {
+                "drop": "-",
+                "note": ""
+              },
+              "2": {
+                "drop": "-",
+                "note": ""
+              },
+              "3": {
+                "drop": "✓",
+                "note": ""
+              },
+              "4": {
+                "drop": "-",
+                "note": ""
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "lines": {
+    "skin": {
+      "1": {
+        "label": "saratoga_skin1",
+        "dialogue": {
+          "1": {
+            "event": "Ship Description",
+            "media": "",
+            "chinese": "列克星敦级航空母舰—萨拉托加，舷号CV-3",
+            "chineseTL": "",
+            "chineseNote": "",
+            "japanese": "レキシントン級航空母艦・サラトガ（CV-3)",
+            "japaneseTL": "",
+            "japaneseNote": "",
+            "english": "Lexington-class aircraft carrier — Saratoga, Hull Number CV-3",
+            "englishNote": ""
+          },
+          "2": {
+            "event": "Self Introduction",
+            "media": "https://s3.us-east-2.amazonaws.com/alg-wiki.com/Ships/074_Saratoga/Sound/skin1_self_introduction.ogg",
+            "chinese": "我是航空母舰，列克星敦！的妹妹萨拉托加。嗯……喜欢的事情是恶作剧！啊不过指挥官已经知道了吧。真正的航空战术先驱吗……要是姐姐没有走的那么早，那一定是姐姐的称号吧",
+            "chineseTL": "",
+            "chineseNote": "",
+            "japanese": "私は航空母艦・レキシントン～の、妹サラトガ！うん……好きなことはいたずらすること！でも指揮官にはもうバレちゃったね～航空戦術の先導者？お姉ちゃんが先にいなくなってなかったら、きっとお姉ちゃんにあげるべきだったよね…",
+            "japaneseTL": "",
+            "japaneseNote": "",
+            "english": "I am aircraft carrier Lexington's little sister, Saratoga! Hmm... I like to play pranks! But you already knew that, Commander~ Pioneer of aviation tactics? If my sister hadn't passed away so soon, that title would've definitely been hers.",
+            "englishNote": ""
+          },
+          "3": {
+            "event": "Acquisition",
+            "media": "https://s3.us-east-2.amazonaws.com/alg-wiki.com/Ships/074_Saratoga/Sound/skin1_acquisition.ogg",
+            "chinese": "yo~指挥官你好！我是列克星敦——的妹妹萨拉托加~……如果没什么重要的事的话，我就先走了哦",
+            "chineseTL": "",
+            "chineseNote": "",
+            "japanese": "やあ、指揮官こんにちは！私がレキシントン…の妹のサラトガだよ～特に用事がないんだったらもう行くね",
+            "japaneseTL": "",
+            "japaneseNote": "",
+            "english": "Hey there, and good day, Commander! I am Lexington...'s little sister, Saratoga~ If there's nothing important, I'm leaving now",
+            "englishNote": ""
+          },
+          "4": {
+            "event": "Login",
+            "media": "https://s3.us-east-2.amazonaws.com/alg-wiki.com/Ships/074_Saratoga/Sound/skin1_login.ogg",
+            "chinese": "咻~！啊，指挥官，不好意思，我不是故意对着你放飞机的，欸嘿~",
+            "chineseTL": "",
+            "chineseNote": "",
+            "japanese": "あらら～指揮官ごめんね、わざとそっちに向けて艦載機を飛ばしたんじゃないんだよ～",
+            "japaneseTL": "",
+            "japaneseNote": "",
+            "english": "Oh my~ Sorry Commander. I didn't mean to launch planes at you on purpose~",
+            "englishNote": ""
+          },
+          "5": {
+            "event": "Details",
+            "media": "https://s3.us-east-2.amazonaws.com/alg-wiki.com/Ships/074_Saratoga/Sound/skin1_details.ogg",
+            "chinese": "你再偷看奇怪地方的话，连小学生都不会把你当恋人",
+            "chineseTL": "",
+            "chineseNote": "",
+            "japanese": "変なところを盗み見すると、小学生にも相手にしてもらえないわよ♪",
+            "japaneseTL": "",
+            "japaneseNote": "",
+            "english": "If you keep on peeping where you shouldn't, even kids will not be talking to you~",
+            "englishNote": ""
+          },
+          "6": {
+            "event": "Idle 1",
+            "media": "https://s3.us-east-2.amazonaws.com/alg-wiki.com/Ships/074_Saratoga/Sound/skin1_idle_1.ogg",
+            "chinese": "哇！——嘻嘻，吓吓你~指挥官反应好迟钝呀！?",
+            "chineseTL": "",
+            "chineseNote": "",
+            "japanese": "わ！うふふ、びっくりした？指揮官って反応が遅いのね！？",
+            "japaneseTL": "",
+            "japaneseNote": "",
+            "english": "Boo! Hehe, did I susprise you? Commander, you're slow, aren't you?!",
+            "englishNote": ""
+          },
+          "7": {
+            "event": "Idle 2",
+            "media": "https://s3.us-east-2.amazonaws.com/alg-wiki.com/Ships/074_Saratoga/Sound/skin1_idle_2.ogg",
+            "chinese": "指挥官不要把萨拉托加和姐姐认错哦！",
+            "chineseTL": "",
+            "chineseNote": "",
+            "japanese": "指揮官、私とお姉ちゃんを間違えないでよ！",
+            "japaneseTL": "",
+            "japaneseNote": "",
+            "english": "Commander, don't confuse me with my big sister!",
+            "englishNote": ""
+          },
+          "8": {
+            "event": "Idle 3",
+            "media": "https://s3.us-east-2.amazonaws.com/alg-wiki.com/Ships/074_Saratoga/Sound/skin1_idle_3.ogg",
+            "chinese": "哈？要我叫你“欧尼酱”？这是绝对不可能的事哦~",
+            "chineseTL": "",
+            "chineseNote": "",
+            "japanese": "え？「お兄ちゃん」って呼んでって？それはないでしょ～",
+            "japaneseTL": "",
+            "japaneseNote": "",
+            "english": "Eh? Call you 'big bro'? There's no way that's happening~",
+            "englishNote": ""
+          },
+          "9": {
+            "event": "Touch",
+            "media": "https://s3.us-east-2.amazonaws.com/alg-wiki.com/Ships/074_Saratoga/Sound/skin1_touch.ogg",
+            "chinese": "虽然我个子小，但我可是有好好的发育的！",
+            "chineseTL": "",
+            "chineseNote": "",
+            "japanese": "背は低いけど、ちゃんと成長してるんだよ！",
+            "japaneseTL": "",
+            "japaneseNote": "",
+            "english": "My stature may be small, but I've yet to grow past that fact!",
+            "englishNote": ""
+          },
+          "10": {
+            "event": "Special Touch",
+            "media": "https://s3.us-east-2.amazonaws.com/alg-wiki.com/Ships/074_Saratoga/Sound/skin1_special_touch.ogg",
+            "chinese": "啊呜！！",
+            "chineseTL": "",
+            "chineseNote": "",
+            "japanese": "…うわ！",
+            "japaneseTL": "",
+            "japaneseNote": "",
+            "english": "...wha!",
+            "englishNote": ""
+          },
+          "11": {
+            "event": "New Mission",
+            "media": "https://s3.us-east-2.amazonaws.com/alg-wiki.com/Ships/074_Saratoga/Sound/skin1_mission.ogg",
+            "chinese": "指挥官啊，这么点任务你都不做完呀？",
+            "chineseTL": "",
+            "chineseNote": "",
+            "japanese": "指揮官、こんな任務もできないの？",
+            "japaneseTL": "",
+            "japaneseNote": "",
+            "english": "Commander, can't you complete even a mission?",
+            "englishNote": ""
+          },
+          "12": {
+            "event": "Mission Complete",
+            "media": "https://s3.us-east-2.amazonaws.com/alg-wiki.com/Ships/074_Saratoga/Sound/skin1_mission_complete.ogg",
+            "chinese": "指挥官，大事不好了，任务奖励不见了！欸嘿，露馅了吗~",
+            "chineseTL": "",
+            "chineseNote": "",
+            "japanese": "大変だよ指揮官、ミッションボーナスがなくなっちゃったよ！……ちぇ、バレちゃったか",
+            "japaneseTL": "",
+            "japaneseNote": "",
+            "english": "This is bad, Commander! The mission rewards are missing! --Darn, you caught me.",
+            "englishNote": ""
+          },
+          "13": {
+            "event": "New Mail",
+            "media": "https://s3.us-east-2.amazonaws.com/alg-wiki.com/Ships/074_Saratoga/Sound/skin1_mail.ogg",
+            "chinese": "有新邮件你不看吗？——不然我看了哦？",
+            "chineseTL": "",
+            "chineseNote": "",
+            "japanese": "メール見ないの？……じゃあ私が見るよ？",
+            "japaneseTL": "",
+            "japaneseNote": "",
+            "english": "You didn't see the mail? --Then should I read it?",
+            "englishNote": ""
+          },
+          "14": {
+            "event": "Return From Sortie",
+            "media": "https://s3.us-east-2.amazonaws.com/alg-wiki.com/Ships/074_Saratoga/Sound/skin1_return_from_sortie.ogg",
+            "chinese": "回来了回来了~",
+            "chineseTL": "",
+            "chineseNote": "",
+            "japanese": "戻った戻った～",
+            "japaneseTL": "",
+            "japaneseNote": "",
+            "english": "We~ are back~",
+            "englishNote": ""
+          },
+          "15": {
+            "event": "Commission Complete",
+            "media": "https://s3.us-east-2.amazonaws.com/alg-wiki.com/Ships/074_Saratoga/Sound/skin1_commission_complete.ogg",
+            "chinese": "指挥官，我丢在港口巡逻的孩子说委托组的姐妹们回来了喔~",
+            "chineseTL": "",
+            "chineseNote": "",
+            "japanese": "指揮官、パトロールしに行った艦載機たちから、委託に出た娘たちが帰ってきたって～",
+            "japaneseTL": "",
+            "japaneseNote": "",
+            "english": "Commander, my patrol planes told me the girls out for commission have returned~",
+            "englishNote": ""
+          },
+          "16": {
+            "event": "Enhancement",
+            "media": "https://s3.us-east-2.amazonaws.com/alg-wiki.com/Ships/074_Saratoga/Sound/skin1_enhancement.ogg",
+            "chinese": "萨拉妹妹爱你哦~",
+            "chineseTL": "",
+            "chineseNote": "",
+            "japanese": "サラトガちゃん、あなたがダイスキだよ～♪",
+            "japaneseTL": "",
+            "japaneseNote": "",
+            "english": "Saratoga-chan loves you a lot~!",
+            "englishNote": ""
+          },
+          "17": {
+            "event": "Sortie Start",
+            "media": "https://s3.us-east-2.amazonaws.com/alg-wiki.com/Ships/074_Saratoga/Sound/skin1_sortie_start.ogg",
+            "chinese": "前天是小龙骧，昨天是小千岁，今天就是你们了~上吧！",
+            "chineseTL": "",
+            "chineseNote": "",
+            "japanese": "一昨日は龍驤ちゃん、昨日は千歳ちゃん、今日はあなたたちね～行くよ！",
+            "japaneseTL": "",
+            "japaneseNote": "",
+            "english": "Two days ago it was Ryuujou, yesterday it was Chitose, and today it's you all. Let's go!",
+            "englishNote": ""
+          },
+          "18": {
+            "event": "MVP",
+            "media": "https://s3.us-east-2.amazonaws.com/alg-wiki.com/Ships/074_Saratoga/Sound/skin1_mvp.ogg",
+            "chinese": "欸嘿嘿~姐姐太忙了，偶尔让我客串下不挺好的嘛~",
+            "chineseTL": "",
+            "chineseNote": "",
+            "japanese": "あらら～お姉ちゃんが忙しいから、たまには私が出てきてもいいよね～",
+            "japaneseTL": "",
+            "japaneseNote": "",
+            "english": "Ooh la la~ Big sis is busy, so it's fine that I get to come by once a while~",
+            "englishNote": ""
+          },
+          "19": {
+            "event": "Defeat",
+            "media": "https://s3.us-east-2.amazonaws.com/alg-wiki.com/Ships/074_Saratoga/Sound/skin1_defeat.ogg",
+            "chinese": "欸嘿，可以趁回家维修的时候好好休息一下了~",
+            "chineseTL": "",
+            "chineseNote": "",
+            "japanese": "あちゃ～、かえって修理するから、ついでにゆっくり休むよ～",
+            "japaneseTL": "",
+            "japaneseNote": "",
+            "english": "Oh dang~ I'll go back for repairs, and then have a good rest while I'm at it~",
+            "englishNote": ""
+          },
+          "20": {
+            "event": "Skill Activation",
+            "media": "https://s3.us-east-2.amazonaws.com/alg-wiki.com/Ships/074_Saratoga/Sound/skin1_skill_activation.ogg",
+            "chinese": "在看哪儿呢，是这边唷~",
+            "chineseTL": "",
+            "chineseNote": "",
+            "japanese": "どこ見てるの？こっちだよ～",
+            "japaneseTL": "",
+            "japaneseNote": "",
+            "english": "Where are you looking? I'm right over here~",
+            "englishNote": ""
+          },
+          "21": {
+            "event": "Low Health",
+            "media": "https://s3.us-east-2.amazonaws.com/alg-wiki.com/Ships/074_Saratoga/Sound/skin1_low_health.ogg",
+            "chinese": "呜哇，大危机！",
+            "chineseTL": "",
+            "chineseNote": "",
+            "japanese": "うわぁ！大ピンチ！",
+            "japaneseTL": "",
+            "japaneseNote": "",
+            "english": "Wah! I'm in pinch!",
+            "englishNote": ""
+          },
+          "22": {
+            "event": "Affinity (Disappointed)",
+            "media": "https://s3.us-east-2.amazonaws.com/alg-wiki.com/Ships/074_Saratoga/Sound/skin1_affinity_disappointed.ogg",
+            "chinese": "恶作剧？已经不会对指挥官做了哦，因为没有兴致了",
+            "chineseTL": "",
+            "chineseNote": "",
+            "japanese": "いたずら？もう指揮官にはしないよ？ノリが悪いからね",
+            "japaneseTL": "",
+            "japaneseNote": "",
+            "english": "Pranks? I already stopped pulling them on you~ You're no fun for those",
+            "englishNote": ""
+          },
+          "23": {
+            "event": "Affinity (Stranger)",
+            "media": "https://s3.us-east-2.amazonaws.com/alg-wiki.com/Ships/074_Saratoga/Sound/skin1_affinity_stranger.ogg",
+            "chinese": "今天~捉弄~谁~好呢~♪",
+            "chineseTL": "",
+            "chineseNote": "",
+            "japanese": "今日は～誰に～しよう～かな～♪",
+            "japaneseTL": "",
+            "japaneseNote": "",
+            "english": "Who should I prank today~?",
+            "englishNote": ""
+          },
+          "24": {
+            "event": "Affinity (Friendly)",
+            "media": "https://s3.us-east-2.amazonaws.com/alg-wiki.com/Ships/074_Saratoga/Sound/skin1_affinity_friendly.ogg",
+            "chinese": "指挥官，萨拉妹妹和她的姐姐最大的差别是什么呢~答案就是萨拉妹妹今天的颜色哦~",
+            "chineseTL": "",
+            "chineseNote": "",
+            "japanese": "指揮官、サラトガちゃんとお姉ちゃんの一番大きな違いってなんだと思う～？答えは、サラトガちゃんの今日の色、だよ～",
+            "japaneseTL": "",
+            "japaneseNote": "",
+            "english": "Commander, what's the greatest difference between me and my big sister? The answer, is my 'color' today!",
+            "englishNote": ""
+          },
+          "25": {
+            "event": "Affinity (Like)",
+            "media": "https://s3.us-east-2.amazonaws.com/alg-wiki.com/Ships/074_Saratoga/Sound/skin1_affinity_like.ogg",
+            "chinese": "指挥官，萨拉妹妹有重要的事告诉你，写在你手心里喔~……（笨……蛋）你以为我会写喜欢吗~笨蛋指挥官~",
+            "chineseTL": "",
+            "chineseNote": "",
+            "japanese": "指揮官、サラトガちゃんからオハナシがあるの。手のひらに書いて～っと……好きって書くと思った？バカ指揮官～",
+            "japaneseTL": "",
+            "japaneseNote": "",
+            "english": "Commander, I have something I want to tell you. I'm gonna write it on the back of your hand~ and done... Did you think I'm gonna write 'I like you'? Silly Commander~",
+            "englishNote": ""
+          },
+          "26": {
+            "event": "Affinity (Love)",
+            "media": "https://s3.us-east-2.amazonaws.com/alg-wiki.com/Ships/074_Saratoga/Sound/skin1_affinity_love.ogg",
+            "chinese": "指挥官，你东西掉了~~啾~你掉了萨拉妹妹的芳心哟，还给你~",
+            "chineseTL": "",
+            "chineseNote": "",
+            "japanese": "指揮官、落とし物よ～～チュッ♡…はい、サラトガちゃんの恋心、あげる～",
+            "japaneseTL": "",
+            "japaneseNote": "",
+            "english": "Commander, you dropped something~~ *kiss* ...Hehe, it was my heart♡. Here, you can keep it!",
+            "englishNote": ""
+          },
+          "27": {
+            "event": "Pledge",
+            "media": "https://s3.us-east-2.amazonaws.com/alg-wiki.com/Ships/074_Saratoga/Sound/skin1_pledge.ogg",
+            "chinese": "啊指挥官，等一下哦，白鹰的航母姐妹们马上就要到了呢~欸？这种一生一次的场合当然要找人见证啦，萨拉妹妹可是白鹰的老将呢，很受尊重的哦！",
+            "chineseTL": "",
+            "chineseNote": "",
+            "japanese": "ああ指揮官、ちょっと待ってて～ユニオンの姉妹たちそろそろここに集まるから～え？こうい一生に一度のものは立会人がいないと！サラトガちゃんこう見えてもユニオンでは老兵だから、みんなに尊敬されてるんだ！",
+            "japaneseTL": "",
+            "japaneseNote": "",
+            "english": "Ah, Commander. Please wait for a bit~ The Eagle Union carriers are all gathering~ Eh? This is a once in a lifetime occassion! Despite my appearance I am a veteran. I'm well respected!",
+            "englishNote": ""
+          },
+          "28": {
+            "event": "Easter Egg 1 (Lexington)",
+            "media": "https://s3.us-east-2.amazonaws.com/alg-wiki.com/Ships/074_Saratoga/Sound/skin1_easter_egg_1.ogg",
+            "chinese": "禁忌·双重列克星敦！",
+            "chineseTL": "",
+            "chineseNote": "",
+            "japanese": "禁忌のダブルレキシントン！",
+            "japaneseTL": "",
+            "japaneseNote": "",
+            "english": "Taboo ~ a double Lexington!",
+            "englishNote": ""
+          },
+          "29": {
+            "event": "Easter Egg 2 (Yorktown)",
+            "media": "https://s3.us-east-2.amazonaws.com/alg-wiki.com/Ships/074_Saratoga/Sound/skin1_easter_egg_2.ogg",
+            "chinese": "可爱的萨拉才不是老伙计",
+            "chineseTL": "",
+            "chineseNote": "",
+            "japanese": "このかわいいサラトガに「オールドブラザー」とかないわ～",
+            "japaneseTL": "",
+            "japaneseNote": "",
+            "english": "Saratoga isn't so old, right?",
+            "englishNote": ""
+          },
+          "30": {
+            "event": "Easter Egg 3 (Ranger, Illustrious)",
+            "media": "https://s3.us-east-2.amazonaws.com/alg-wiki.com/Ships/074_Saratoga/Sound/skin1_easter_egg_3.ogg",
+            "chinese": "为什么你们发育这么好啊！",
+            "chineseTL": "",
+            "chineseNote": "",
+            "japanese": "何でみんなよく育ってるのよー！？",
+            "japaneseTL": "",
+            "japaneseNote": "",
+            "english": "Why do you all look so much more mature than me?!",
+            "englishNote": ""
+          },
+          "31": {
+            "event": "Easter Egg 4 (Saru x5)",
+            "media": "https://s3.us-east-2.amazonaws.com/alg-wiki.com/Ships/074_Saratoga/Sound/skin1_easter_egg_4.ogg",
+            "chinese": "猴子军团砸场来啦！",
+            "chineseTL": "",
+            "chineseNote": "",
+            "japanese": "行こう！ビッグニュースを作ってみよう！",
+            "japaneseTL": "",
+            "japaneseNote": "",
+            "english": "Monkey Corps, let's go!",
+            "englishNote": ""
+          },
+          "32": {
+            "event": "Valentines 2018",
+            "media": "",
+            "chinese": "加加的芳心巧克力，送给指挥官♪今后也要一直喜欢加加哟~",
+            "chineseTL": "",
+            "chineseNote": "",
+            "japanese": "サラトガちゃんの恋心チョコ、指揮官にあげる♪ずっとずっとサラトガちゃんを好きでいてね〜",
+            "japaneseTL": "",
+            "japaneseNote": "",
+            "english": "-",
+            "englishNote": ""
+          },
+          "33": {
+            "event": "Valentines 2019",
+            "media": "",
+            "chinese": "快收下萨拉妹妹的情人节巧克力吧~呵呵呵，要不我也试试开辟新路线……我还没来得及贯彻小魔女路线呢！指挥官，今年也请支持萨拉托加妹妹哦！",
+            "chineseTL": "",
+            "chineseNote": "",
+            "japanese": "シスターサラからのバレンタインチョコ、受け取って～ふふふ、私も新路線を…って、まだ魔女っ子路線を極めてないし！指揮官、今年もサラトガちゃんのことを応援してねー！",
+            "japaneseTL": "",
+            "japaneseNote": "",
+            "english": "Here, Commander, you get Sara's Pure Love chocolate♪ Promise you'll love me forever and ever~",
+            "englishNote": ""
+          }
+        }
+      },
+      "2": {
+        "label": "saratoga_skin2",
+        "dialogue": {
+          "1": {
+            "event": "Ship Description, Acquisition",
+            "media": "https://s3.us-east-2.amazonaws.com/alg-wiki.com/Ships/074_Saratoga/Sound/skin2_acquisition.ogg",
+            "chinese": "是时候从姐姐的羽翼下独立了！萨拉妹妹的新路线，魔法少女·萨拉托加，正式出道！指挥官，记得帮我做宣传哦~",
+            "chineseTL": "",
+            "chineseNote": "",
+            "japanese": "「姉から独立して羽ばたき、いざシスター・サラの新路線――魔女っ子アイドルサラトガちゃん、ただいま正式デビューよ！」指揮官、あとは宣伝、よろしくね～",
+            "japaneseTL": "",
+            "japaneseNote": "",
+            "english": "",
+            "englishNote": ""
+          },
+          "2": {
+            "event": "Login",
+            "media": "https://s3.us-east-2.amazonaws.com/alg-wiki.com/Ships/074_Saratoga/Sound/skin2_login.ogg",
+            "chinese": "咻~！指挥官，怎么样，我的飞机欢迎阵列~",
+            "chineseTL": "",
+            "chineseNote": "",
+            "japanese": "ヒュ～！指揮官どうかな？サラトガちゃんの航空隊による歓迎飛行は♪",
+            "japaneseTL": "",
+            "japaneseNote": "",
+            "english": "",
+            "englishNote": ""
+          },
+          "3": {
+            "event": "Details",
+            "media": "https://s3.us-east-2.amazonaws.com/alg-wiki.com/Ships/074_Saratoga/Sound/skin2_details.ogg",
+            "chinese": "胜利pose和咒文可是魔法少女必备的东西~指挥官，来帮我一起想想",
+            "chineseTL": "",
+            "chineseNote": "",
+            "japanese": "勝利のポーズと魔法の呪文は魔女っ子には必要不可欠！指揮官、サラトガちゃんと一緒に考えて♪",
+            "japaneseTL": "",
+            "japaneseNote": "",
+            "english": "",
+            "englishNote": ""
+          },
+          "4": {
+            "event": "Idle 1",
+            "media": "https://s3.us-east-2.amazonaws.com/alg-wiki.com/Ships/074_Saratoga/Sound/skin2_idle_1.ogg",
+            "chinese": "指挥官，你觉得让我的那些后辈们穿上魔法少女服会怎么样？嘻嘻嘻",
+            "chineseTL": "",
+            "chineseNote": "",
+            "japanese": "指揮官、私の後輩たちにも魔女っ子っぽい着せ替えするのはどうかな？へへへ～",
+            "japaneseTL": "",
+            "japaneseNote": "",
+            "english": "",
+            "englishNote": ""
+          },
+          "5": {
+            "event": "Idle 2",
+            "media": "https://s3.us-east-2.amazonaws.com/alg-wiki.com/Ships/074_Saratoga/Sound/skin2_idle_2.ogg",
+            "chinese": "魔法少女萨拉托加的无敌咒文是：会有办法的，绝对没问题的！......怎么样？",
+            "chineseTL": "",
+            "chineseNote": "",
+            "japanese": "魔女っ子アイドルサラトガちゃん、無敵マジック「ナントカナルゼッタイダイジョウブノープロブレム！」……どうかな？",
+            "japaneseTL": "",
+            "japaneseNote": "",
+            "english": "",
+            "englishNote": ""
+          },
+          "6": {
+            "event": "Idle 3",
+            "media": "https://s3.us-east-2.amazonaws.com/alg-wiki.com/Ships/074_Saratoga/Sound/skin2_idle_3.ogg",
+            "chinese": "如果有姐妹能从萨拉妹妹这里获得一点笑容和活力，那就再好不过啦~",
+            "chineseTL": "",
+            "chineseNote": "",
+            "japanese": "サラトガちゃんがみんなに笑顔と元気をお届けできるようになればいいよね♪",
+            "japaneseTL": "",
+            "japaneseNote": "",
+            "english": "",
+            "englishNote": ""
+          },
+          "7": {
+            "event": "Touch",
+            "media": "https://s3.us-east-2.amazonaws.com/alg-wiki.com/Ships/074_Saratoga/Sound/skin2_touch.ogg",
+            "chinese": "指挥官，这把杖说不定......拿来敲人手感会很好？！让我试试吧~",
+            "chineseTL": "",
+            "chineseNote": "",
+            "japanese": "指揮官、この艤装で……人をコツンと叩いたらどうなっちゃうのかな！？ちょっと試させてよ～",
+            "japaneseTL": "",
+            "japaneseNote": "",
+            "english": "",
+            "englishNote": ""
+          },
+          "8": {
+            "event": "Special Touch",
+            "media": "https://s3.us-east-2.amazonaws.com/alg-wiki.com/Ships/074_Saratoga/Sound/skin2_special_touch.ogg",
+            "chinese": "呜呜呜，萨拉妹妹要嫁不出去啦……",
+            "chineseTL": "",
+            "chineseNote": "",
+            "japanese": "ううう、サラトガちゃんお嫁に行けなくなっちゃうよ～",
+            "japaneseTL": "",
+            "japaneseNote": "",
+            "english": "",
+            "englishNote": ""
+          },
+          "9": {
+            "event": "Return from Sortie",
+            "media": "https://s3.us-east-2.amazonaws.com/alg-wiki.com/Ships/074_Saratoga/Sound/skin2_return_from_sortie.ogg",
+            "chinese": "辛苦啦，外套什么的就挂飞机上吧~",
+            "chineseTL": "",
+            "chineseNote": "",
+            "japanese": "お疲れ様～コートは艦載機に掛けといてね♪",
+            "japaneseTL": "",
+            "japaneseNote": "",
+            "english": "",
+            "englishNote": ""
+          },
+          "10": {
+            "event": "MVP",
+            "media": "https://s3.us-east-2.amazonaws.com/alg-wiki.com/Ships/074_Saratoga/Sound/skin2_mvp.ogg",
+            "chinese": "请投可爱的萨拉妹妹一票，谢谢~",
+            "chineseTL": "",
+            "chineseNote": "",
+            "japanese": "サラトガちゃんに清き一票をお願いしまーす！みんな、ありがと～♡",
+            "japaneseTL": "",
+            "japaneseNote": "",
+            "english": "",
+            "englishNote": ""
+          }
+        }
+      },
+      "3": {
+        "label": "Saratoga_skin3",
+        "dialogue": {
+          "1": {
+            "event": "Ship Description, Acquisition",
+            "media": "https://s3.us-east-2.amazonaws.com/alg-wiki.com/Ships/074_Saratoga/Sound/skin3_acquisition.ogg",
+            "chinese": "即使度假也决不松懈，泳装齐整、准备万全！OK，出发！准备好见识Sis.Sara的厉害了吗？",
+            "chineseTL": "",
+            "chineseNote": "",
+            "japanese": "オフの日でも気を緩めない！ふう…水着よし、準備万端！出発！シスターサラの力、見せてあげる！",
+            "japaneseTL": "",
+            "japaneseNote": "",
+            "english": "Even in a day off, I'm not loosening up! Phew... Swimsuit, check. All preparations complete! Launch time! I'll show you Sister Sara's power!",
+            "englishNote": ""
+          },
+          "2": {
+            "event": "Login",
+            "media": "https://s3.us-east-2.amazonaws.com/alg-wiki.com/Ships/074_Saratoga/Sound/skin3_login.ogg",
+            "chinese": "指挥官，今天也一起去海边吧，我还想吃冰镇西瓜！",
+            "chineseTL": "",
+            "chineseNote": "",
+            "japanese": "指揮官、今日も海に行こうよ！私、冷たいスイカ食べたーい！",
+            "japaneseTL": "",
+            "japaneseNote": "",
+            "english": "Commander, let's head to the beach today! I want to eat chilled watermelon!",
+            "englishNote": ""
+          },
+          "3": {
+            "event": "Details",
+            "media": "https://s3.us-east-2.amazonaws.com/alg-wiki.com/Ships/074_Saratoga/Sound/skin3_details.ogg",
+            "chinese": "谢谢指挥官的胸膛，我已经稍微打起精神了。作为这里唯一的白鹰舰娘，我可不能一直消沉下去……萨拉托加，再出击！",
+            "chineseTL": "",
+            "chineseNote": "",
+            "japanese": "指揮官…？さっきはありがとね、ユニオンの空母としてビーチバレーで負けたぐらいで落ち込んではいられないよね！……うん！サラトガ！再出撃！",
+            "japaneseTL": "",
+            "japaneseNote": "",
+            "english": "Commander...? Thank you for before. As an Eagle Union carrier, I shouldn't be feeling down after losing in beach volleyball! ...Yep! Saratoga, launching again!",
+            "englishNote": ""
+          },
+          "4": {
+            "event": "Idle 1",
+            "media": "https://s3.us-east-2.amazonaws.com/alg-wiki.com/Ships/074_Saratoga/Sound/skin3_idle_1.ogg",
+            "chinese": "说到沙滩上的竞技项目，果然就是那个了吧！",
+            "chineseTL": "",
+            "chineseNote": "",
+            "japanese": "浜辺でやるスポーツといえば、やっぱりアレね！",
+            "japaneseTL": "",
+            "japaneseNote": "",
+            "english": "When you talk about a sport to play on the beach, it has to be this!",
+            "englishNote": ""
+          },
+          "5": {
+            "event": "Idle 2",
+            "media": "https://s3.us-east-2.amazonaws.com/alg-wiki.com/Ships/074_Saratoga/Sound/skin3_idle_2.ogg",
+            "chinese": "指挥官，一起下来游泳吧，我可以借你泳圈",
+            "chineseTL": "",
+            "chineseNote": "",
+            "japanese": "指揮官、一緒に海に入らない？浮き輪貸してあげる！",
+            "japaneseTL": "",
+            "japaneseNote": "",
+            "english": "Commander, how about we get into the sea? I'll borrow you my lifesaver!",
+            "englishNote": ""
+          },
+          "6": {
+            "event": "Idle 3",
+            "media": "https://s3.us-east-2.amazonaws.com/alg-wiki.com/Ships/074_Saratoga/Sound/skin3_idle_3.ogg",
+            "chinese": "威、威尔士，抱起我是要干什么……变大了？是、是吗？果然，萨拉我也是有在发育的！",
+            "chineseTL": "",
+            "chineseNote": "",
+            "japanese": "う、ウェールズ？なんでいきなり…お、大きくなった？そう？そうよね！サラトガちゃんはやっぱり大きくなってるのよね！",
+            "japaneseTL": "",
+            "japaneseNote": "",
+            "english": "W-Wales? Why are you hugging me suddenly... I've grown 'bigger'? Really? That's right! I have grown bigger after all!",
+            "englishNote": ""
+          },
+          "7": {
+            "event": "Touch",
+            "media": "https://s3.us-east-2.amazonaws.com/alg-wiki.com/Ships/074_Saratoga/Sound/skin3_touch.ogg",
+            "chinese": "彻、彻彻底底输了……咕，明明只是个驱逐舰……呜呜呜……姐姐也不在……指挥官，我可以在你怀里哭吗？",
+            "chineseTL": "",
+            "chineseNote": "",
+            "japanese": "ビーチバレーで……く、駆逐艦に負けちゃった…お姉ちゃんいないし……指揮官、泣いていい…？",
+            "japaneseTL": "",
+            "japaneseNote": "",
+            "english": "In beach volleyball... I-lost to destroyers... my sister isn't here... Commander, can I cry on your shoulder for a while?",
+            "englishNote": ""
+          },
+          "8": {
+            "event": "Special Touch",
+            "media": "",
+            "chinese": "指挥官，萨拉托加赢了！快来看看，雄伟的总统山和塌陷得乱七八糟的清水寺！",
+            "chineseTL": "https://s3.us-east-2.amazonaws.com/alg-wiki.com/Ships/074_Saratoga/Sound/skin3_special_touch.ogg",
+            "chineseNote": "",
+            "japanese": "サラトガちゃんは砂城作りじゃ負けないわ！指揮官、見てみて！こっちはサラトガちゃんの…あ、あっちのぼろぼろなのはあの子のだよ！へっへっへっー",
+            "japaneseTL": "",
+            "japaneseNote": "",
+            "english": "Commander! Saratoga won! Come and see! I beat Honolulu! She can't believe it!",
+            "englishNote": ""
+          },
+          "9": {
+            "event": "New Mission",
+            "media": "https://s3.us-east-2.amazonaws.com/alg-wiki.com/Ships/074_Saratoga/Sound/skin3_mission.ogg",
+            "chinese": "吃完冰激凌就去做任务吧~我也要开始准备晚上的焰火了",
+            "chineseTL": "",
+            "chineseNote": "",
+            "japanese": "アイスクリーム食べて、ミッションでも行こう！私も夜の篝火を準備しておかなくっちゃ！",
+            "japaneseTL": "",
+            "japaneseNote": "",
+            "english": "Eat the ice cream, and go complete the mission! I'll prepare a fireworks show for tonight!",
+            "englishNote": ""
+          },
+          "10": {
+            "event": "Mission Complete",
+            "media": "https://s3.us-east-2.amazonaws.com/alg-wiki.com/Ships/074_Saratoga/Sound/skin3_mission_complete.ogg",
+            "chinese": "指挥官做完任务啦？我的排球训练也结束了，一起休息一会儿吧……呼~天气太热都没有恶作剧的心思了",
+            "chineseTL": "",
+            "chineseNote": "",
+            "japanese": "指揮官、ミッションはもう終わった？私もビーチバレーの練習で疲れたわーふぅー。暑くて暑くていたずらする余裕もなくなっちゃったよ…",
+            "japaneseTL": "",
+            "japaneseNote": "",
+            "english": "Commander, are you done with the mission? I'm tired from volleyball practice as well. Phew... It's so hot I'm too worn to prank...",
+            "englishNote": ""
+          },
+          "11": {
+            "event": "Return from Sortie",
+            "media": "https://s3.us-east-2.amazonaws.com/alg-wiki.com/Ships/074_Saratoga/Sound/skin3_return_from_sortie.ogg",
+            "chinese": "回来了回来了~呼~好热~",
+            "chineseTL": "",
+            "chineseNote": "",
+            "japanese": "戻った戻った〜ふは〜あつーい！",
+            "japaneseTL": "",
+            "japaneseNote": "",
+            "english": "We~ are back~ Phew~ it's so hot!",
+            "englishNote": ""
+          },
+          "12": {
+            "event": "Commission Complete",
+            "media": "https://s3.us-east-2.amazonaws.com/alg-wiki.com/Ships/074_Saratoga/Sound/skin3_commission_complete.ogg",
+            "chinese": "委托组的姐妹们回来了~指挥官，天上的孩子们刚刚做好了冰激凌，你想吃什么口味的？",
+            "chineseTL": "",
+            "chineseNote": "",
+            "japanese": "委託に出かけた娘たちが帰ってきたよ。艦載機の子たちがアイスを作ったわ。指揮官はシロップはどれにする？",
+            "japaneseTL": "",
+            "japaneseNote": "",
+            "english": "The girls out for commission have returned. I made some shaved ice with my planes. Commander, want some syrup on top?",
+            "englishNote": ""
+          },
+          "13": {
+            "event": "Enhancement",
+            "media": "https://s3.us-east-2.amazonaws.com/alg-wiki.com/Ships/074_Saratoga/Sound/skin3_enhancement.ogg",
+            "chinese": "等萨拉的舷号变成CV-60，一定要给那些皇家舰娘好看！",
+            "chineseTL": "",
+            "chineseNote": "",
+            "japanese": "サラトガちゃんがもう一度進化したら、ロイヤルの子たちには絶対いい目の見せてやるわ！",
+            "japaneseTL": "",
+            "japaneseNote": "",
+            "english": "If I evolve once more, I'm gonna show the Royals what I'm made of!",
+            "englishNote": ""
+          },
+          "14": {
+            "event": "MVP",
+            "media": "https://s3.us-east-2.amazonaws.com/alg-wiki.com/Ships/074_Saratoga/Sound/skin3_mvp.ogg",
+            "chinese": "夏日的萨拉托加也完——完全全没有可乘之机！",
+            "chineseTL": "",
+            "chineseNote": "",
+            "japanese": "夏のサラトガちゃんも――隙はない、だよ☆",
+            "japaneseTL": "",
+            "japaneseNote": "",
+            "english": "Summertime Saratoga has no weakspots!☆",
+            "englishNote": ""
+          }
+        }
+      }
+    }
+  }
+}
