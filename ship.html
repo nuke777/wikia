@@ -241,7 +241,7 @@
 	
 	function onSkinNavButtonClick(raw_skin, skinID){
 		var skin = JSON.parse(raw_skin);		
-		var id = "ovr_"+skin.id;
+		var id = "ovr_"+ "skin" + skinID;
 		var obj = document.getElementById('shipSkinNav').children;
 		
 		for (var i = 0; i < obj.length; ++i){
@@ -535,7 +535,7 @@
 	}
 	
 	function onDialogueSkinNavButtonClick(skinId){
-		var id = "ovrDia_"+ "skin" + skinId;
+		var id = "ovrDia_"+ skinId;
 		var obj = document.getElementById('shipDialogueSkinNav').children;
 		
 		for (var i = 0; i < obj.length; ++i){
