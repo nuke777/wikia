@@ -48,7 +48,7 @@
 		  // Parse JSON string into object
 			var actual_JSON = JSON.parse(response);
 			console.log(actual_JSON);
-			//window.folder = window.folder + actual_JSON.file_id;
+			window.folder = window.folder + actual_JSON.file_id;
 			document.title = actual_JSON.prefix + " " + actual_JSON.name + " - /alg/ Azur Lane General Wiki";
 			document.getElementById("shipHeader").innerHTML = actual_JSON.prefix + " " + actual_JSON.name + " \(JP: " + actual_JSON.nameJP + ", CN: " + actual_JSON.nameCN + "\)";
 			document.getElementById("shipID").innerHTML = actual_JSON.ID;
@@ -79,8 +79,8 @@
 			document.getElementById("shipIllusPixivLink").href = actual_JSON.artist.pixiv;
 			document.getElementById("shipIllusOther").innerHTML = actual_JSON.artist.name;
 			document.getElementById("shipIllusOtherLink").href = actual_JSON.artist.other;			
-			document.getElementById("shipIcon").src = actual_JSON.imageSRC;
-			//document.getElementById("shipIcon").src = window.folder + "/Icon/icon.png";
+			//document.getElementById("shipIcon").src = actual_JSON.imageSRC;
+			document.getElementById("shipIcon").src = window.folder + "/Icon/icon.png";
 			document.getElementById("shipParameterHP").innerHTML = actual_JSON.parameters.hp;
 			document.getElementById("shipParameterAntiAir").innerHTML = actual_JSON.parameters.antiAir;
 			document.getElementById("shipParameterEvasion").innerHTML = actual_JSON.parameters.evasion;
