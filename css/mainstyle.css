@@ -1,3 +1,28 @@
+#footer {
+   position: relative;
+   height: 70px;
+   margin-top:-70px;
+   clear:both;
+   width: calc(100% - 250px);
+   background-color: #262f3b;
+   color: white;
+   text-align: left;
+   padding:20px 20px 20px 20px;
+   font-size:10px;
+   transition: all 0.3s;  
+	margin-left:250px;
+}
+#footer.active {
+   width:100%;
+   margin-left:0px;
+}
+
+html, body{
+	height:100%;
+}
+
+
+
 /*
     DEMO STYLE
 */
@@ -26,10 +51,14 @@ a:focus {
 
 .navbar {
     padding: 15px 10px;
+	height:81px;
     background: #fff;
     border: none;
     border-radius: 0;
     margin-bottom: 40px;
+	margin-top:-40px;
+	margin-left: -40px;
+	margin-right:-40px;
     box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
 	
 }
@@ -54,6 +83,7 @@ a:focus {
 .wrapper {
     display: flex;
     width: 100%;
+	min-height:100%;
 }
 
 #sidebar {
@@ -75,6 +105,7 @@ a:focus {
 #sidebar .sidebar-header {
     padding: 20px;
     background: #262f3b;
+	height:81px;
 }
 
 
@@ -148,12 +179,11 @@ a.article:hover {
 
 #content {
     width: calc(100% - 250px);
-    padding: 40px;
+    padding: 40px 40px 110px 40px;
     min-height: 100vh;
     transition: all 0.3s;
-    position: absolute;
-    top: 0;
-    right: 0;
+	overflow:auto;
+	margin-left:250px;
 }
 
 #content.active {
@@ -183,9 +213,11 @@ a.article:hover {
         margin-left: 0;
     }
     #content {
+		margin-left:0px;
         width: 100%;
     }
     #content.active {
+		margin-left:250px;
         width: calc(100% - 250px);
     }
     #sidebarCollapse span {
@@ -194,4 +226,12 @@ a.article:hover {
 	.vshide {
 	visibility: visible;
 	}
+	#footer {
+        width:100%;
+		margin-left:0px;
+    }
+    #footer.active {
+        width: calc(100% - 250px);
+		margin-left:250px;
+    }
 }

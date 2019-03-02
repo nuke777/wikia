@@ -177,7 +177,7 @@
             <nav class="navbar navbar-expand-lg navbar-light" style="background-color:#262f3b">
                 <div class="container-fluid">
 
-                    <button type="button" id="sidebarCollapse" class="btn btn-info vshide">
+                    <button type="button" id="sidebarCollapse" class="btn btn-secondary vshide">
                         <i class="fas fa-align-left"></i>
                         <span></span>
                     </button>
@@ -237,6 +237,8 @@
 <!-- content -->
 <!-- content -->
 <!-- content -->
+
+
 			
 		</div>
     </div>
@@ -257,12 +259,17 @@
             });
 
             $('#sidebarCollapse').on('click', function () {
-                $('#sidebar, #content').toggleClass('active');
+                $('#sidebar, #content, #footer').toggleClass('active');
                 $('.collapse.in').toggleClass('in');
                 $('a[aria-expanded=true]').attr('aria-expanded', 'false');
             });
         });
     </script>
+	
+<footer id="footer">
+Azur Lane © is owned by Shanghai Manjuu, Xiamen Yongshi, Shanghai Yostar | All logos and trademarks are property of their respective owners.<br>
+Special thanks to /alg/, English Koumakan Wiki, Chinese Wikis, Japanese Wikis, and to all our contributors. /alg/ wiki © 2019. This is a non-profit website. 
+</footer>
     
 </body>
 
