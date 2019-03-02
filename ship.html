@@ -221,7 +221,6 @@
 			container.setAttribute('onclick','onSkinNavButtonClick(\'' + escaped + '\',\''+x+'\')');
 			if (firstIteration){
 				container.innerHTML = 
-				//'<img class="btnImage" id="' + data.skin[x].id + '" src="' + data.skin[x].icon + '"></img>\ 
 				'<img class="btnImage" id="' + "skin" + x + '" src="' + window.folder + "/Icon/skin" + x + ".png" + '"></img>\
 				<div class="btnOverlay activeButton" id="ovr_' + "skin" + x + '"></div>';
 				firstIteration = false;
@@ -229,7 +228,6 @@
 				id = x;
 			} else {
 				container.innerHTML = 
-				//'<img class="btnImage" id="' + data.skin[x].id + '" src="' + data.skin[x].icon + '"></img>\
 				'<img class="btnImage" id="' + "skin" + x + '" src="' + window.folder + "/Icon/skin" + x + ".png" + '"></img>\
 				<div class="btnOverlay" id="ovr_' + "skin" + x + '"></div>';
 			}
@@ -261,10 +259,8 @@
 	
 	function loadShipSkinElements(skin, skinID){
 		document.getElementById("shipSkinDesc").innerHTML = skin.description;
-		//document.getElementById("shipSkinSD").src = skin.sd;
 		document.getElementById("shipSkinSD").src = window.folder + "/Sprite/skin" + skinID + "_sd.png";
 		document.getElementById("shipSkinName").innerHTML = '<b>' +skin.name+ '</b>';
-		//document.getElementById("shipSkinDisplay").src = skin.image;
 		document.getElementById("shipSkinDisplay").src = window.folder + "/Sprite/skin" + skinID + "_expr1.png";
 		
 		
@@ -519,14 +515,12 @@
 			container.setAttribute('onclick','onDialogueSkinNavButtonClick(\'' + x + '\')');
 			if (firstIteration){
 				container.innerHTML = 
-				//'<img class="btnImage" id="diaNav_' + data.skin[x].id + '" src="' + data.skin[x].icon + '"></img>\
 				'<img class="btnImage" id="diaNav_' + "skin" + x + '" src="' + window.folder + "/Icon/skin" + x + ".png" + '"></img>\
 				<div class="btnOverlay activeButton" id="ovrDia_' + "skin" + x + '"></div>';
 				firstIteration = false;
 				initial = x;
 			} else {
 				container.innerHTML = 
-				//'<img class="btnImage" id="' + "skin" + x + '" src="' + data.skin[x].icon + '"></img>\
 				'<img class="btnImage" id="' + "skin" + x + '" src="' + window.folder + "/Icon/skin" + x + ".png" + '"></img>\
 				<div class="btnOverlay" id="ovrDia_' + "skin" + x + '"></div>';
 			}
