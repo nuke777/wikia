@@ -48,12 +48,11 @@
 		function addPatchNotes(path){
 			var rawFile = new XMLHttpRequest();
 			rawFile.open("GET", path, false);
-			rawFile.onreadystatechange = function ()
-			{       
-				var allText = rawFile.responseText;
-				var converter = new showdown.Converter(),
-				html = converter.makeHtml(allText);
-				document.getElementById("notes").innerHTML = html;
+			rawFile.onreadystatechange = function () {
+				//var allText = rawFile.responseText;
+				//var converter = new showdown.Converter(),
+				//html = converter.makeHtml(allText);
+				//document.getElementById("notes").innerHTML = html;
 			}
 			rawFile.send(null);
 		}
