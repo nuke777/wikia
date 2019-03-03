@@ -14,6 +14,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
     <!-- Our Custom CSS -->
     <link rel="stylesheet" href="css\mainstyle.css">
+    <link rel="stylesheet" href="css\patchnotes.css">
 	<!-- Scrollbar Custom CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.min.css">
 	<!-- MD to HTML -->
@@ -52,7 +53,13 @@
 				var allText = rawFile.responseText;
 				var converter = new showdown.Converter(),
 				html = converter.makeHtml(allText);
-				document.getElementById("notes").innerHTML = html;
+				
+				var noteElement = document.createElement('div');
+				noteElement.className = "noteDiv";
+				noteElement.innerHTML = html;
+				document.getElementById('containerLeft').appendChild(noteElement);
+				
+				
 			}
 			rawFile.send(null);
 		}
@@ -145,9 +152,8 @@
                 </div>
             </nav>
 			
-			<div id="notes">
-			
-			<div id="directory"></div>
+			<div id="containerLeft" class="leftCol">
+				
 			
 			</div>
 			
