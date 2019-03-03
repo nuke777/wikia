@@ -52,7 +52,7 @@
 			{       
 				var allText = rawFile.responseText;
 				var converter = new showdown.Converter(),
-				html = converter.makeHtml(allText);
+				var html = converter.makeHtml(allText);
 				document.getElementById("notes").innerHTML = html;
 			}
 			rawFile.send(null);
@@ -63,7 +63,7 @@
 				var actual_JSON = JSON.parse(response);
 				
 				for (var x in actual_JSON){
-					var path = "Patchnotes/jp/" actual_JSON[x].filename + ".txt";
+					var path = "Patchnotes/jp/" + actual_JSON[x].filename + ".txt";
 					addPatchNotes(path);
 				}
 				
