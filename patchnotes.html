@@ -24,24 +24,55 @@
     <script defer src="js/fontawesome.js"></script>
 	
 	<script>
-	
-		function readTextFile(){
-		   var rawFile = new XMLHttpRequest();
-		   rawFile.open("GET", "Patchnotes/test.txt", false);
-		   rawFile.onreadystatechange = function ()
+		function loadJSON(callback) {
+			var hash = window.location.hash;
+			var hashTrimmed = hash.substr(1);
+			var path = "";
+			if (hashTrimmed == "jp") {
+				path = "json/patchnotes_jp.json";
+			} else if (hashTrimmed == "en") {
+				path = "json/patchnotes_en.json";			
+			}
+			var xobj = new XMLHttpRequest();
+				xobj.overrideMimeType("application/json");
+			xobj.open('GET', path, true); // Replace 'my_data' with the path to your file
+			xobj.onreadystatechange = function () {
+				  if (xobj.readyState == 4 && xobj.status == "200") {
+					// Required use of an anonymous callback as .open will NOT return a value but simply returns undefined in asynchronous mode
+					callback(xobj.responseText);
+				  }
+			};
+			xobj.send(null);  
+		}
+		
+		function addPatchNotes(path){
+			var rawFile = new XMLHttpRequest();
+			rawFile.open("GET", path, false);
+			rawFile.onreadystatechange = function ()
 			{       
 				var allText = rawFile.responseText;
 				var converter = new showdown.Converter(),
-				html = converter.makeHtml(allText);
+				var html = converter.makeHtml(allText);
 				document.getElementById("notes").innerHTML = html;
-
 			}
-
-		 rawFile.send(null);
+			rawFile.send(null);
 		}
 	
+		function loadPatchNotes(){
+			loadJSON(function(response) {
+				var actual_JSON = JSON.parse(response);
+				
+				for (var x in actual_JSON){
+					var path = "Patchnotes/jp/" actual_JSON[x].filename + ".txt";
+					addPatchNotes(path);
+				}
+				
+			});
+		}
+		
+	
 		window.onload = function() {
-		  readTextFile();
+		  loadPatchNotes();
 		};
 	
 	</script>
