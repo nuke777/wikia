@@ -105,10 +105,50 @@ Also a few notes
 - For sprites, get full resolution as much as possible, if you're ripping it from the current english wiki, be sure to get the original resolution since the one posted in the pages are scaled. 
 - If you try and compress an image for size, be sure to compare the pixel quality to the original.
 
+## Patch Notes
 
+Compose a markdown using this website 
+- http://demo.showdownjs.com/
+
+The left pane is where you input the code, the right is the visuals it shows. After you are finised, copy the code from the left and paste it in a notepad then save it as:
+````
+"<yyyy>_<mm>_<dd>_patch_<server>.txt" 
+````
+and put it on: 
+````
+Patchnotes/<server>/
+````
+Then update the json file of the corresponding server at the json directory adding a line to the new file 
+```json
+{
+	"1": {
+		"filename": "2019_02_14_patch_jp",
+		"title": "Valentines Patch",
+		"date": "2019/02/14"
+	}
+}
+```
+to
+```json
+{
+	"1": {
+		"filename": "2019_02_14_patch_jp",
+		"title": "Valentines Patch",
+		"date": "2019/02/14"
+	},
+  "2": {
+		"filename": "2019_02_21_patch_jp",
+		"title": "x3 Hard mode",
+		"date": "2019/02/21"
+	}
+}
+```
+  
+
+## Submission
 Just reply to the current OP post in /alg/ if you have a submission. 
 
-## Updates
+# Updates
 
 Adding the following json files provided by anons below:
 
