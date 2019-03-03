@@ -24,7 +24,7 @@
 	
 	<script>
 	
-		function readTextFile(file){
+		function readTextFile(){
 		   var rawFile = new XMLHttpRequest();
 		   rawFile.open("GET", "Patchnotes/test.txt", false);
 		   rawFile.onreadystatechange = function ()
@@ -37,6 +37,9 @@
 		 rawFile.send(null);
 		}
 	
+		window.onload = function() {
+		  readTextFile();
+		};
 	
 	</script>
 
