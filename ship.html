@@ -399,8 +399,6 @@
 		document.getElementById("shipSkillSet").innerHTML = text;
 	}
 	
-	//<img src="'+data.skill[x].skillIcon+'">&emsp;'+data.skill[x].name+'\
-	
 	function setShipDropEventSelection(data){
 		if (data.drop.droppable == "true"){
 			var text = "";
@@ -579,7 +577,7 @@
 							text = text + '\
 					<img id="btn_'+skinId+'_'+y+'" onclick="playAudio(\'btn_'+skinId+'_'+y+'\',\'audio_'+skinId+'_'+y+'\')" class="btnAudio" src="Images/sound_off.png">\
 					<audio id="audio_'+skinId+'_'+y+'">\
-					  <source src="'+actual_JSON.lines.skin[x].dialogue[y].media+'" type="audio/ogg">\
+					  <source src="'+window.folder+"/Sound/skin"+skinId+"_"+actual_JSON.lines.skin[x].dialogue[y].media+".ogg"+'" type="audio/ogg">\
 					</audio>';
 					
 						}
@@ -602,7 +600,7 @@
 		});
 	}
 	
-	
+	//<source src="'+actual_JSON.lines.skin[x].dialogue[y].media+'" type="audio/ogg">\
 			
 	function switchTranslation(translation, id){
 		var temp = document.getElementById(id).innerHTML;
