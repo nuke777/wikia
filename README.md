@@ -108,3 +108,15 @@ Also a few notes
 
 Just reply to the current OP post in /alg/ if you have a submission. 
 
+## Updates
+
+Adding the following json files provided by anons below:
+
+- Neptune https://pastebin.com/XJuAH0Bv 
+- HDN Neptune https://pastebin.com/EPMRWHeL
+- California https://pastebin.com/C54ZsDXL
+
+Also
+- Add retrofit section to ship page
+- Equipment page
+- Events page
