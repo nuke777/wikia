@@ -273,19 +273,16 @@
 		var initial = "";
 		var id = "";
 		for (var x in data.expression) {
-			var container = document.createElement('img');
-			//container.id = "expr_" + data.expression[x].id;			
+			var container = document.createElement('img');		
 			container.id = "expr_" + x;
 			container.setAttribute('onclick','onExpressionNavButtonClick(\'' + JSON.stringify(data.expression[x]) + '\',\''+x+'\',\''+skinID+'\')');
 			if (firstIteration){
-				//container.src = data.expression[x].icon;
 				container.src = window.folder + "/Icon/skin" + skinID + "_expr" + x + ".png";
 				container.className = "btnExprActive";
 				firstIteration = false;
 				initial = JSON.stringify(data.expression[x]);
 				id = x;
 			} else {
-				//container.src = data.expression[x].icon;
 				container.src = window.folder + "/Icon/skin" + skinID + "_expr" + x + ".png";
 				container.className = "btnExpr";
 			}
@@ -303,8 +300,7 @@
 	}
 	
 	function onExpressionNavButtonClick(raw_expr, exprID, skinID){
-		var expr = JSON.parse(raw_expr);		
-		//var id = "expr_"+expr.id;
+		var expr = JSON.parse(raw_expr);	
 		var id = "expr_"+exprID;
 		var obj = document.getElementById('shipSkinExpressions').children;
 		
@@ -319,7 +315,6 @@
 	}
 	
 	function loadShipSkinExpressionElements(expr, exprID, skinID){
-		//document.getElementById("shipSkinDisplay").src = expr.full;
 		document.getElementById("shipSkinDisplay").src = window.folder + "/Sprite/skin" + skinID + "_expr" + exprID + ".png";
 	}
 	
@@ -375,17 +370,17 @@
 				</td>\
 			</tr>\
 			<tr style="text-align:center">\
-				<td style="background:#262f3b;height:30px">\
+				<td style="background:#24252d;height:30px">\
 					<b>\
 						<font style="vertical-align: inherit;">Skill Name</font>\
 					</b>\
 				</td>\
-				<td style="background:#262f3b;height:30px">\
+				<td style="background:#24252d;height:30px">\
 					<b>\
 						<font style="vertical-align: inherit;">Description</font>\
 					</b>\
 				</td>\
-				<td style="background:#262f3b;height:30px">\
+				<td style="background:#24252d;height:30px">\
 					<b>\
 						<font style="vertical-align: inherit;white-space: nowrap;padding: 0px 10px 0px 10px;">Unlock Requirements</font>\
 					</b>\
@@ -395,7 +390,7 @@
 			text = text + '\
 			<tr>\
 				<td style="text-align:left;padding:10px;white-space: nowrap;">\
-					<img src="'+data.skill[x].skillIcon+'">&emsp;'+data.skill[x].name+'\
+					<img src="'+window.folder+"/Icon/skill"+x+".png"+'">&emsp;'+data.skill[x].name+'\
 				</td>\
 				<td style="text-align:left;padding:10px">'+data.skill[x].description+'</td>\
 				<td style="padding:10px;white-space: nowrap;">'+data.skill[x].requirement+'</td>\
@@ -436,7 +431,7 @@
 			for (var x in actual_JSON.drop.list){
 				if (actual_JSON.drop.list[x].event == selected){
 					var text = 
-					'<tr style="text-align:center;background-color:#262f3b;">\
+					'<tr style="text-align:center;background-color:#24252d;">\
 						<td style="width:1px;padding: 0px 5px 0px 5px;">\
 							<b>Node</b>\
 						</td>';
@@ -462,7 +457,7 @@
 					while (node <= count){
 						text = text + '\
 					<tr style="text-align:center;">\
-						<td style="width:1px;padding: 0px 5px 0px 5px;background-color:#262f3b;">\
+						<td style="width:1px;padding: 0px 5px 0px 5px;background-color:#24252d;">\
 							<b>'+node+'</b>\
 						</td>';
 						for (var y in actual_JSON.drop.list[x].chapter){
@@ -555,7 +550,7 @@
 			// Parse JSON string into object
 			var actual_JSON = JSON.parse(response);
 			var text = '\
-			<tr style="background-color:#262f3b;text-align:center;">\
+			<tr style="background-color:#24252d;text-align:center;">\
 				<td style="width:14%">\
 					<b>Event</b>\
 				</td>\
@@ -582,7 +577,7 @@
 							text = text + '\
 					<img id="btn_'+skinId+'_'+y+'" onclick="playAudio(\'btn_'+skinId+'_'+y+'\',\'audio_'+skinId+'_'+y+'\')" class="btnAudio" src="Images/sound_off.png">\
 					<audio id="audio_'+skinId+'_'+y+'">\
-					  <source src="'+actual_JSON.lines.skin[x].dialogue[y].media+'" type="audio/ogg">\
+					  <source src="'+window.folder+"/Sound/skin"+skinId+"_"+actual_JSON.lines.skin[x].dialogue[y].media+".ogg"+'" type="audio/ogg">\
 					</audio>';
 					
 						}
@@ -605,7 +600,7 @@
 		});
 	}
 	
-	
+	//<source src="'+actual_JSON.lines.skin[x].dialogue[y].media+'" type="audio/ogg">\
 			
 	function switchTranslation(translation, id){
 		var temp = document.getElementById(id).innerHTML;
@@ -702,38 +697,42 @@
         <!-- Sidebar  -->
         <nav id="sidebar">
             <div class="sidebar-header">
-                <h3>/alg/ Wikipedia</h3>
+                <h3>/alg/ Wikipedia</h3>				
             </div>
-
+			<div class="sidebar-subheader">
+                Database	
+            </div>
+			
             <ul class="list-unstyled components">
-                <li>
-                    <a href="./">Home</a>
-                   
-                </li>
                 <li class="active">
                     <a href="shiplist">Ship</a>
                 </li>
                 <li>
-                    <a href="#pageSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Equipment</a>
-                    <ul class="collapse list-unstyled" id="pageSubmenu">
-                        <li>
-                            <a href="#">Page 1</a>
-                        </li>
-                        <li>
-                            <a href="#">Page 2</a>
-                        </li>
-                        <li>
-                            <a href="#">Page 3</a>
-                        </li>
-                    </ul>
+                    <a href="">Equipment</a>
+                    
                 </li>
             </ul>
+			
+			<div class="sidebar-subheader">
+                Patch Notes	
+            </div>
+			
+			<ul class="list-unstyled components">
+                <li>
+                    <a href="patchnotes#jp">JP Server</a>
+                </li>
+                <li>
+                    <a href="patchnotes#en">EN Server</a>
+                    
+                </li>
+            </ul>
+			
         </nav>
 
         <!-- Page Content  -->
-        <div id="content"  style="background-color:#515c6b">
+        <div id="content">
 
-            <nav class="navbar navbar-expand-lg navbar-light" style="background-color:#262f3b">
+            <nav class="navbar navbar-expand-lg navbar-light">
                 <div class="container-fluid">
 
                     <button type="button" id="sidebarCollapse" class="btn btn-secondary vshide">
@@ -955,7 +954,7 @@
 			</td>
 		</tr>
 		<tr>
-			<td colspan="2" style="background:#262f3b;height:30px">
+			<td colspan="2" style="background:#24252d;height:30px">
 				<b>
 					<font style="vertical-align: inherit;">Illustrator</font>
 				</b>
@@ -1040,7 +1039,7 @@
 		<td rowspan="3"style="width:50%;height:1px;">
 			<table class="wikitablewide" style="width:100%;height:100%;text-align:center;margin:0 0 0 0;">
 				<tr>
-					<td style="background:#262f3b;height:30px" id="shipSkinName"></td>
+					<td style="background:#24252d;height:30px" id="shipSkinName"></td>
 				</tr>
 				<tr>
 					<td> 
@@ -1052,7 +1051,7 @@
 		<td style="width:50%;height:1px;">
 			<table class="wikitablewide" style="width:100%;height:100%;text-align:center;margin:0 0 0 0">
 				<tr>
-					<td style="background:#262f3b;height:30px">
+					<td style="background:#24252d;height:30px">
 						<b>Description</b>
 					</td>
 				</tr>
@@ -1068,7 +1067,7 @@
 		<td style="width:50%;height:1px;">
 			<table class="wikitablewide" style="width:100%;height:100%;text-align:center;margin:0 0 0 0;">
 				<tr>
-					<td style="background:#262f3b;height:30px">
+					<td style="background:#24252d;height:30px">
 						<b>SD</b>
 					</td>
 				</tr>
@@ -1085,7 +1084,7 @@
 		<td style="width:50%;height:1px;">
 			<table class="wikitablewide" style="width:100%;height:100%;text-align:center;margin:0 0 0 0;">
 				<tr>
-					<td style="background:#262f3b;height:30px">
+					<td style="background:#24252d;height:30px">
 						<b>Expressions</b>
 					</td>
 				</tr>
@@ -1138,7 +1137,7 @@
 		<td style="padding-left:5px" id="shipParameterFirepower"></td>
 	</tr>
 	<tr>
-		<td colspan="2" style="background:#262f3b;height:30px;text-align:center">
+		<td colspan="2" style="background:#24252d;height:30px;text-align:center">
 			<b>
 				<font style="vertical-align: inherit;">Stats</font>
 			</b>
@@ -1231,13 +1230,13 @@
 		<td colspan="4" id="shipLimitBreakT3"></td>
 	</tr>
 	<tr style="text-align:center">
-		<td colspan="5"  style="background:#262f3b;height:30px">
+		<td colspan="5"  style="background:#24252d;height:30px">
 			<b>
 				<font style="vertical-align: inherit;">Equipments</font>
 			</b>
 		</td>
 	</tr> 
-	<tr style="text-align:center;background:#262f3b;vertical-align:top">
+	<tr style="text-align:center;background:#24252d;vertical-align:top">
 		<td>
 			<b>Slot</b>
 		</td>
@@ -1293,7 +1292,7 @@
 		<td id="shipEquipmentLoadoutPreload5"></td>
 	</tr>
 	<tr style="text-align:center">
-		<td colspan="5"  style="background:#262f3b;height:30px">
+		<td colspan="5"  style="background:#24252d;height:30px">
 			<b>
 				<font style="vertical-align: inherit;">Default Equipments</font>
 			</b>
@@ -1323,17 +1322,17 @@
 		</td>
 	</tr>
 	<tr style="text-align:center">
-		<td style="background:#262f3b;height:30px">
+		<td style="background:#24252d;height:30px">
 			<b>
 				<font style="vertical-align: inherit;">Skill Name</font>
 			</b>
 		</td>
-		<td style="background:#262f3b;height:30px">
+		<td style="background:#24252d;height:30px">
 			<b>
 				<font style="vertical-align: inherit;">Description</font>
 			</b>
 		</td>
-		<td style="background:#262f3b;height:30px">
+		<td style="background:#24252d;height:30px">
 			<b>
 				<font style="vertical-align: inherit;">Unlock Requirements</font>
 			</b>
@@ -1371,7 +1370,7 @@
 	<tr>
 		<td style="width:30%;height:1px;" rowspan="2">
 			<table class="wikitablewide" style="width:100%;height:100%;text-align:left;margin:0 0 0 0;">
-				<tr style="text-align:center;background-color:#262f3b;">
+				<tr style="text-align:center;background-color:#24252d;">
 					<td style="width:40%;padding-left:10px;text-align:left;" id="shipConstructionBuildTime"></td>
 					<td style="width:20%">
 						<b>JP</b>
@@ -1384,7 +1383,7 @@
 					</td>
 				</tr>
 				<tr style="text-align:center;">
-					<td style="padding-left:10px;background-color:#262f3b;text-align:left;">
+					<td style="padding-left:10px;background-color:#24252d;text-align:left;">
 						<b>Light</b>
 					</td>
 					<td id="shipLightBuildJP"></td>
@@ -1392,7 +1391,7 @@
 					<td id="shipLightBuildEN"></td>
 				</tr>
 				<tr style="text-align:center;">
-					<td style="padding-left:10px;background-color:#262f3b;text-align:left;">
+					<td style="padding-left:10px;background-color:#24252d;text-align:left;">
 						<b>Heavy</b>
 					</td>
 					<td id="shipHeavyBuildJP"></td>
@@ -1400,7 +1399,7 @@
 					<td id="shipHeavyBuildEN"></td>
 				</tr>
 				<tr style="text-align:center;">
-					<td style="padding-left:10px;background-color:#262f3b;text-align:left;">
+					<td style="padding-left:10px;background-color:#24252d;text-align:left;">
 						<b>Special</b>
 					</td>
 					<td id="shipSpecialBuildJP"></td>
@@ -1408,7 +1407,7 @@
 					<td id="shipSpecialBuildEN"></td>
 				</tr>
 				<tr style="text-align:center;">
-					<td style="padding-left:10px;background-color:#262f3b;text-align:left;">
+					<td style="padding-left:10px;background-color:#24252d;text-align:left;">
 						<b>Limited</b>
 					</td>
 					<td id="shipLimitedBuildJP"></td>
@@ -1418,7 +1417,7 @@
 			</table>
 		</td>
 		<td style="min-width:70%;padding:5px 10px 5px 10px;height:1px;text-align:left;">
-			<select class="form-control" id="shipDropEventSelection" style="width:250px;background-color:#262f3b;color:#ffffff;float:left;" onchange="onSelectShipDropEventSelection()">
+			<select class="form-control" id="shipDropEventSelection" style="width:250px;background-color:#24252d;color:#ffffff;float:left;" onchange="onSelectShipDropEventSelection()">
 
 			</select>&emsp;<font id="shipDropEventSelectionTitle">test</font>
 		</td>
@@ -1427,7 +1426,7 @@
 		<td style="vertical-align:top;text-align:left;width:70%;">	
 			<div style="overflow-x:auto;width:100%;">
 			<table class="wikitablewide" style="height:100%;text-align:left;margin:0 0 0 0;" id="shipDropTable">
-				<!--<tr style="text-align:center;background-color:#262f3b;">
+				<!--<tr style="text-align:center;background-color:#24252d;">
 					<td style="width:1px;padding: 0px 5px 0px 5px;">
 						<b>Node</b>
 					</td>
@@ -1442,7 +1441,7 @@
 					</td>					
 				</tr>
 				<tr style="text-align:center;">
-					<td style="width:1px;padding: 0px 5px 0px 5px;background-color:#262f3b;">
+					<td style="width:1px;padding: 0px 5px 0px 5px;background-color:#24252d;">
 						<b>Node</b>
 					</td>
 					<td style="min-width:55px"></td>
@@ -1478,7 +1477,7 @@
 	<tr>
 		<td style="width:30%;height:1px;">
 			<table class="wikitablewide" id="shipDialogueTable" style="width:100%;height:100%;text-align:left;margin:0 0 0 0;table-layout:fixed;">
-				<tr style="background-color:#262f3b;text-align:center;">
+				<tr style="background-color:#24252d;text-align:center;">
 					<td style="width:14%">
 						<b>Event</b>
 					</td>

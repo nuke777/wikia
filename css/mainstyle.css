@@ -4,7 +4,7 @@
    margin-top:-70px;
    clear:both;
    width: calc(100% - 250px);
-   background-color: #262f3b;
+   background-color: #24252d;
    color: white;
    text-align: left;
    padding:20px 20px 20px 20px;
@@ -52,7 +52,7 @@ a:focus {
 .navbar {
     padding: 15px 10px;
 	height:81px;
-    background: #fff;
+    background: #24252d;
     border: none;
     border-radius: 0;
     margin-bottom: 40px;
@@ -93,9 +93,10 @@ a:focus {
     left: 0;
     height: 100vh;
     z-index: 999;
-    background: #3b434e;
+    background: #373743;
     color: #fff;
     transition: all 0.3s;
+	font-size:15px;
 }
 
 #sidebar.active {
@@ -104,8 +105,16 @@ a:focus {
 
 #sidebar .sidebar-header {
     padding: 20px;
-    background: #262f3b;
+    background: #24252d;
 	height:81px;
+}
+
+#sidebar .sidebar-subheader {
+    background: #24252d;
+	margin-top:10px;
+	margin-bottom:10px;
+	padding:10px;
+	font-size:18px;
 }
 
 
@@ -116,20 +125,18 @@ a:focus {
 }
 
 #sidebar ul li a {
-    padding: 10px;
-    font-size: 1.1em;
+    padding: 5px 10px 5px 10px;
     display: block;
 }
 
 #sidebar ul li a:hover {
-    color: #7386D5;
-    background: #fff;
+    background: #6e6f87;
 }
 
 #sidebar ul li.active>a,
 a[aria-expanded="true"] {
     color: #fff;
-    background: #262f3b;
+    background: #9394b4;
 }
 
 a[data-toggle="collapse"] {
@@ -184,6 +191,7 @@ a.article:hover {
     transition: all 0.3s;
 	overflow:auto;
 	margin-left:250px;
+	background-color: #494a5a;
 }
 
 #content.active {

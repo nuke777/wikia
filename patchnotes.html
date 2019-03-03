@@ -13,21 +13,30 @@
     <!-- Bootstrap CSS CDN -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
     <!-- Our Custom CSS -->
-    <link rel="stylesheet" href="css\mainstyle.css">	
-	<link rel="stylesheet" href="css/shiplist.css">
+    <link rel="stylesheet" href="css\mainstyle.css">
+    <link rel="stylesheet" href="css\patchnotes.css">
 	<!-- Scrollbar Custom CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.min.css">
-
+	<!-- MD to HTML -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/showdown/1.9.0/showdown.min.js"></script>
 
     <!-- Font Awesome JS -->
     <script defer src="js/solid.js"></script>
     <script defer src="js/fontawesome.js"></script>
-
+	
 	<script>
 		function loadJSON(callback) {
+			var hash = window.location.hash;
+			var hashTrimmed = hash.substr(1);
+			var path = "";
+			if (hashTrimmed == "jp") {
+				path = "json/patchnotes_jp.json";
+			} else if (hashTrimmed == "en") {
+				path = "json/patchnotes_en.json";			
+			}
 			var xobj = new XMLHttpRequest();
-				xobj.overrideMimeType("application/json");
-			xobj.open('GET', 'json/shiplist.json', true); // Replace 'my_data' with the path to your file
+			xobj.overrideMimeType("application/json");
+			xobj.open('GET', path, true); // Replace 'my_data' with the path to your file
 			xobj.onreadystatechange = function () {
 				  if (xobj.readyState == 4 && xobj.status == "200") {
 					// Required use of an anonymous callback as .open will NOT return a value but simply returns undefined in asynchronous mode
@@ -37,103 +46,44 @@
 			xobj.send(null);  
 		}
 		
-		function load(){
+		function addPatchNotes(path){
+			var rawFile = new XMLHttpRequest();
+			rawFile.open("GET", path, false);
+			rawFile.onreadystatechange = function () {
+				var allText = rawFile.responseText;
+				var converter = new showdown.Converter(),
+				html = converter.makeHtml(allText);
+				
+				var noteElement = document.createElement('div');
+				noteElement.className = "noteDiv";
+				noteElement.innerHTML = html;
+				document.getElementById('containerLeft').appendChild(noteElement);
+				
+				
+			}
+			rawFile.send(null);
+		}
+	
+		function loadPatchNotes(){
 			loadJSON(function(response) {
-				// Parse JSON string into object
 				var actual_JSON = JSON.parse(response);
-				var text = '';
+				console.log(actual_JSON);
+				
 				for (var x in actual_JSON){
-					text = text + '\
-					<div class="maindiv">\
-						<div class="cornerdiv"">';
-						
-					if (actual_JSON[x].hull == "Aircraft Carrier" || actual_JSON[x].hull == "Light Aircraft Carrier" ){						
-						text = text + '\
-							<img src="http://alg-wiki.com/Images/Hull/cv.png" style="padding-left:3px">';
-					} else if (actual_JSON[x].hull == "Destroyer"){						
-						text = text + '\
-							<img src="http://alg-wiki.com/Images/Hull/dd.png" style="padding-left:3px">';
-					} else if (actual_JSON[x].hull == "Light Cruiser"){						
-						text = text + '\
-							<img src="http://alg-wiki.com/Images/Hull/cl.png" style="padding-left:3px">';
-					} else if (actual_JSON[x].hull == "Heavy Cruiser"){						
-						text = text + '\
-							<img src="http://alg-wiki.com/Images/Hull/ca.png" style="padding-left:3px">';
-					} else if (actual_JSON[x].hull == "Battleship" || actual_JSON[x].hull == "Battlecruiser" || actual_JSON[x].hull == "Monitor"){						
-						text = text + '\
-							<img src="http://alg-wiki.com/Images/Hull/bb.png" style="padding-left:3px">';
-					} else if (actual_JSON[x].hull == "Submarine"){						
-						text = text + '\
-							<img src="http://alg-wiki.com/Images/Hull/ss.png" style="padding-left:3px">';
-					} else if (actual_JSON[x].hull == "Repair Ship"){						
-						text = text + '\
-							<img src="http://alg-wiki.com/Images/Hull/ar.png" style="padding-left:3px">';
-					}
-					text = text + '\
-						</div>\
-						<div class="centerdiv">';
-					if (actual_JSON[x].navy == "Eagle Union") {
-						text = text + '\
-							<img src="http://alg-wiki.com/Images/Navy/uss_icon.png">';
-					} else if (actual_JSON[x].navy == "Sakura Empire") {
-						text = text + '\
-							<img src="http://alg-wiki.com/Images/Navy/ijn_icon.png">';
-					} else if (actual_JSON[x].navy == "Royal Navy") {
-						text = text + '\
-							<img src="http://alg-wiki.com/Images/Navy/hms_icon.png">';
-					} else if (actual_JSON[x].navy == "Ironblood") {
-						text = text + '\
-							<img src="http://alg-wiki.com/Images/Navy/kms_icon.png">';
-					} else if (actual_JSON[x].navy == "Dragon Empery" || actual_JSON[x].navy == "Dragon Empire" || actual_JSON[x].navy == "Eastern Radiance") {
-						text = text + '\
-							<img src="http://alg-wiki.com/Images/Navy/roc_icon.png">';
-					} else if (actual_JSON[x].navy == "Northern Parliament" || actual_JSON[x].navy == "North Union") {
-						text = text + '\
-							<img src="http://alg-wiki.com/Images/Navy/sn_icon.png">';
-					} else if (actual_JSON[x].navy == "Vichya Dominion") {
-						text = text + '\
-							<img src="http://alg-wiki.com/Images/Navy/mnf_icon.png">';
-					} else if (actual_JSON[x].navy == "Iris Libre") {
-						text = text + '\
-							<img src="http://alg-wiki.com/Images/Navy/ffnf_icon.png">';
-					} else if (actual_JSON[x].navy == "Universal") {
-						text = text + '\
-							<img src="http://alg-wiki.com/Images/Navy/univ_icon.png">';
-					} else if (actual_JSON[x].navy == "Neptunia") {
-						text = text + '\
-							<img src="http://alg-wiki.com/Images/Navy/hdn_icon.png">';
-					} else if (actual_JSON[x].navy == "Utawarerumono") {
-						text = text + '\
-							<img src="http://alg-wiki.com/Images/Navy/uwrr_icon.png">';
-					} else if (actual_JSON[x].navy == "Bilibili") {
-						text = text + '\
-							<img src="http://alg-wiki.com/Images/Navy/bili_icon.png">';
-					}
-					text = text + '\
-						</div>\
-						<div class="cornerdiv">'+x+'</div>';
-					if (actual_JSON[x].rarity == "Super Rare"){
-						text = text + '\
-						<div class="imgdiv" style="background-color:#beb988">';
-					} else if (actual_JSON[x].rarity == "Elite"){
-						text = text + '\
-						<div class="imgdiv" style="background-color:#b080b0">';
-					}
-					text = text + '\
-							<a href="ship#'+actual_JSON[x].link+'"><img src="'+actual_JSON[x].icon+'"></a>\
-						</div>\
-						<div class="textdiv">\
-							<a href="ship#'+actual_JSON[x].link+'">'+actual_JSON[x].name+'</a>\
-						</div>\
-					</div>';
+					var path = "Patchnotes/jp/" + actual_JSON[x].filename + ".txt";
+					addPatchNotes(path);
 				}
-				document.getElementById('listtable').innerHTML = text;
+				
 			});
 		}
 		
+		window.onhashchange = function() {
+			window.location.reload();
+		}
 		window.onload = function() {
-			load();
+		  loadPatchNotes();
 		};
+	
 	</script>
 
 </head>
@@ -150,7 +100,7 @@
             </div>
 			
             <ul class="list-unstyled components">
-                <li class="active">
+                <li>
                     <a href="shiplist">Ship</a>
                 </li>
                 <li>
@@ -164,7 +114,7 @@
             </div>
 			
 			<ul class="list-unstyled components">
-                <li>
+                <li class="active">
                     <a href="patchnotes#jp">JP Server</a>
                 </li>
                 <li>
@@ -208,41 +158,10 @@
                 </div>
             </nav>
 			
-<!-- content -->
-<!-- content -->
-<!-- content -->
-
-<table class="wikitablewide" style="width:100%">
-	<tr style="text-align:center;background-color:#24252d;">				
-		<td>
-			Ships
-		</td>
-	</tr>
-	<tr>
-		<td style="text-align:left;padding-bottom:10px;" id="listtable">
-			<div class="maindiv">
-				<div class="cornerdiv"">
-					<img src="http://alg-wiki.com/Images/Hull/ca.png" style="padding-left:3px">
-				</div>
-				<div class="centerdiv">
-					<img src="http://alg-wiki.com/Images/Navy/kms_icon.png">
-				</div>				
-				<div class="cornerdiv">242</div>
-				<div class="imgdiv" style="background-color:#b080b0">
-					<img src="https://s3.us-east-2.amazonaws.com/alg-wiki.com/Ships/242_Admiral_Hipper/Icon/icon.png">
-				</div>
-				<div class="textdiv">Admiral Hipper</div>
+			<div id="containerLeft" class="leftCol">
+				
+			
 			</div>
-		</td>
-		
-	</tr>
-</table>
-
-<!-- content -->
-<!-- content -->
-<!-- content -->
-
-
 			
 		</div>
     </div>
@@ -269,12 +188,12 @@
             });
         });
     </script>
-	
+    
 <footer id="footer">
 Azur Lane © is owned by Shanghai Manjuu, Xiamen Yongshi, Shanghai Yostar | All logos and trademarks are property of their respective owners.<br>
 Special thanks to /alg/, English Koumakan Wiki, Chinese Wikis, Japanese Wikis, and to all our contributors. /alg/ wiki © 2019. This is a non-profit website. 
 </footer>
-    
+
 </body>
 
 </html>
