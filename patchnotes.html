@@ -34,7 +34,7 @@
 				path = "json/patchnotes_en.json";			
 			}
 			var xobj = new XMLHttpRequest();
-				xobj.overrideMimeType("application/json");
+			xobj.overrideMimeType("application/json");
 			xobj.open('GET', path, true); // Replace 'my_data' with the path to your file
 			xobj.onreadystatechange = function () {
 				  if (xobj.readyState == 4 && xobj.status == "200") {
@@ -52,7 +52,7 @@
 			{       
 				var allText = rawFile.responseText;
 				var converter = new showdown.Converter(),
-				var html = converter.makeHtml(allText);
+				html = converter.makeHtml(allText);
 				document.getElementById("notes").innerHTML = html;
 			}
 			rawFile.send(null);
