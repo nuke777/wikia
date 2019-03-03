@@ -70,7 +70,15 @@
 				console.log(actual_JSON);
 				
 				for (var x in actual_JSON){
-					var path = "Patchnotes/jp/" + actual_JSON[x].filename + ".txt";
+					var hash = window.location.hash;
+					var hashTrimmed = hash.substr(1);
+					var path = "";
+					if (hashTrimmed == "jp") {
+						path = "Patchnotes/jp/" + actual_JSON[x].filename + ".txt";
+					} else if (hashTrimmed == "en") {
+						path = "Patchnotes/en/" + actual_JSON[x].filename + ".txt";			
+					}
+					
 					addPatchNotes(path);
 				}
 				
