@@ -16,7 +16,8 @@
     <link rel="stylesheet" href="css\mainstyle.css">
 	<!-- Scrollbar Custom CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.min.css">
-
+	<!-- MD to HTML -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/showdown/1.9.0/showdown.min.js"></script>
 
     <!-- Font Awesome JS -->
     <script defer src="js/solid.js"></script>
@@ -29,8 +30,10 @@
 		   rawFile.open("GET", "Patchnotes/test.txt", false);
 		   rawFile.onreadystatechange = function ()
 			{       
-				 var allText = rawFile.responseText;
-					alert(allText);
+				var allText = rawFile.responseText;
+				var converter = new showdown.Converter(),
+				html = converter.makeHtml(allText);
+				document.getElementById("notes").innerHTML = html;
 
 			}
 
@@ -115,7 +118,7 @@
 			
 			<div id="directory"></div>
 			
-			<div>
+			</div>
 			
 		</div>
     </div>
