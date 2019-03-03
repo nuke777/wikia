@@ -49,17 +49,16 @@
 			var rawFile = new XMLHttpRequest();
 			rawFile.open("GET", path, false);
 			rawFile.onreadystatechange = function () {
-				//var allText = rawFile.responseText;
-				//var converter = new showdown.Converter(),
-				//html = converter.makeHtml(allText);
-				//document.getElementById("notes").innerHTML = html;
+				var allText = rawFile.responseText;
+				var converter = new showdown.Converter(),
+				html = converter.makeHtml(allText);
+				document.getElementById("notes").innerHTML = html;
 			}
 			rawFile.send(null);
 		}
 	
 		function loadPatchNotes(){
 			loadJSON(function(response) {
-			console.log("test");
 				var actual_JSON = JSON.parse(response);
 				console.log(actual_JSON);
 				
