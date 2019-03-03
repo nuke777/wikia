@@ -6,7 +6,7 @@
   "hull": "Aircraft Carrier",
   "prefix": "USS",
   "ID": "073",
-  "imageSRC": "https://s3.us-east-2.amazonaws.com/alg-wiki.com/Ships/073_Lexington/Icon/icon.png",
+  "file_id": "073_Lexington",
   "navy": "Eagle Union",
   "initialStar": "★★☆☆☆",
   "rarity": "Elite",
@@ -25,52 +25,32 @@
   },
   "skin": {
     "1": {
-      "id": "Lexington_skin1",
       "name": "Default",
-      "icon": "https://s3.us-east-2.amazonaws.com/alg-wiki.com/Ships/073_Lexington/Icon/skin1.png",
-      "image": "https://s3.us-east-2.amazonaws.com/alg-wiki.com/Ships/073_Lexington/Sprite/skin1_expr1.png",
       "description": "Lexington-class aircraft carrier - Lexington, Hull Number CV-2!",
-      "sd": "https://s3.us-east-2.amazonaws.com/alg-wiki.com/Ships/073_Lexington/Sprite/skin1_sd.png",
       "expression": {
         "1": {
-          "id": "Lexington_skin1_expr1",
-          "full": "https://s3.us-east-2.amazonaws.com/alg-wiki.com/Ships/073_Lexington/Sprite/skin1_expr1.png",
-          "icon": "https://s3.us-east-2.amazonaws.com/alg-wiki.com/Ships/073_Lexington/Icon/skin1_expr1.png"
+          "id": "Lexington_skin1_expr1"
         }
       }
     },
     "2": {
-      "id": "Lexington_skin2",
       "name": "Spring's Song",
-      "icon": "https://s3.us-east-2.amazonaws.com/alg-wiki.com/Ships/073_Lexington/Icon/skin2.png",
-      "image": "https://s3.us-east-2.amazonaws.com/alg-wiki.com/Ships/073_Lexington/Sprite/skin2_expr1.png",
       "description": "Hehe... sometimes you can completely change the way people see you with just a simple change in attire. Don't you agree, Commander~? Don't worry, I'm still your Lexington~",
-      "sd": "https://s3.us-east-2.amazonaws.com/alg-wiki.com/Ships/073_Lexington/Sprite/skin2_sd.png",
       "expression": {
         "1": {
-          "id": "Lexington_skin2_expr1",
-          "full": "https://s3.us-east-2.amazonaws.com/alg-wiki.com/Ships/073_Lexington/Sprite/skin2_expr1.png",
-          "icon": "https://s3.us-east-2.amazonaws.com/alg-wiki.com/Ships/073_Lexington/Icon/skin2_expr1.png"
+          "id": "Lexington_skin2_expr1"
         },
         "2": {
-          "id": "Lexington_skin2_expr2",
-          "full": "https://s3.us-east-2.amazonaws.com/alg-wiki.com/Ships/073_Lexington/Sprite/skin2_expr2.png",
-          "icon": "https://s3.us-east-2.amazonaws.com/alg-wiki.com/Ships/073_Lexington/Icon/skin2_expr2.png"
+          "id": "Lexington_skin2_expr2"
         },
         "3": {
-          "id": "Lexington_skin2_expr3",
-          "full": "https://s3.us-east-2.amazonaws.com/alg-wiki.com/Ships/073_Lexington/Sprite/skin2_expr3.png",
-          "icon": "https://s3.us-east-2.amazonaws.com/alg-wiki.com/Ships/073_Lexington/Icon/skin2_expr3.png"
+          "id": "Lexington_skin2_expr3"
         },
         "4": {
-          "id": "Lexington_skin2_expr4",
-          "full": "https://s3.us-east-2.amazonaws.com/alg-wiki.com/Ships/073_Lexington/Sprite/skin2_expr4.png",
-          "icon": "https://s3.us-east-2.amazonaws.com/alg-wiki.com/Ships/073_Lexington/Icon/skin2_expr4.png"
+          "id": "Lexington_skin2_expr4"
         },
         "5": {
-          "id": "Lexington_skin2_expr5",
-          "full": "https://s3.us-east-2.amazonaws.com/alg-wiki.com/Ships/073_Lexington/Sprite/skin2_expr5.png",
-          "icon": "https://s3.us-east-2.amazonaws.com/alg-wiki.com/Ships/073_Lexington/Icon/skin2_expr5.png"
+          "id": "Lexington_skin2_expr5"
         }
       }
     }
@@ -88,10 +68,7 @@
     "pixiv": "https://www.pixiv.net/member.php?id=1422579",
     "other": ""
   },
-  "voiceActress": {
-    "name": "Shinoda Minami",
-    "twitter": "https://twitter.com/minami_shinoda"
-  },
+  "voiceActress": "Shinoda Minami",
   "limitBreak": {
     "tier1": "All Fighters +1, Diver Bomber Efficiency +3%",
     "tier2": "Hangar Capacity +1, All Dive Bombers +1, Fighter Efficiency +5%",
@@ -144,6 +121,32 @@
       "cost": "4",
       "asw": "0",
       "speed": "33"
+    },
+    "100retrofit": {
+      "hp": "",
+      "armor": "",
+      "reload": "",
+      "firepower": "",
+      "torpedo": "",
+      "evasion": "",
+      "antiAir": "",
+      "aviation": "",
+      "cost": "",
+      "asw": "",
+      "speed": ""
+    },
+    "120retrofit": {
+      "hp": "",
+      "armor": "",
+      "reload": "",
+      "firepower": "",
+      "torpedo": "",
+      "evasion": "",
+      "antiAir": "",
+      "aviation": "",
+      "cost": "",
+      "asw": "",
+      "speed": ""
     }
   },
   "equipmentLoadout": {
@@ -187,14 +190,12 @@
     "1": {
       "name": "Supporting Fire",
       "type": "Offensive",
-      "skillIcon": "https://s3.us-east-2.amazonaws.com/alg-wiki.com/Ships/073_Lexington/Icon/skill1.png",
       "requirement": "Default Unlocked",
       "description": "Every 20 (10) seconds, provides supporting fire with 20.3 cm guns (damage varies with skill level)"
     },
     "2": {
       "name": "Fleet Carrier",
       "type": "Support",
-      "skillIcon": "https://s3.us-east-2.amazonaws.com/alg-wiki.com/Ships/073_Lexington/Icon/skill2.png",
       "requirement": "Default Unlocked",
       "description": "Every time Lexington launches an airstrike, increases Escort Fleet damage by 5% (15%) for 8 seconds. Does not stack with the same skill."
     }
@@ -249,69 +250,6 @@
             }
           },
           "2": {
-            "label": "Ch.3",
-            "node": {
-              "1": {
-                "drop": "-",
-                "note": ""
-              },
-              "2": {
-                "drop": "-",
-                "note": ""
-              },
-              "3": {
-                "drop": "-",
-                "note": ""
-              },
-              "4": {
-                "drop": "-",
-                "note": ""
-              }
-            }
-          },
-          "3": {
-            "label": "Ch.4",
-            "node": {
-              "1": {
-                "drop": "-",
-                "note": ""
-              },
-              "2": {
-                "drop": "-",
-                "note": ""
-              },
-              "3": {
-                "drop": "-",
-                "note": ""
-              },
-              "4": {
-                "drop": "-",
-                "note": ""
-              }
-            }
-          },
-          "4": {
-            "label": "Ch.5",
-            "node": {
-              "1": {
-                "drop": "-",
-                "note": ""
-              },
-              "2": {
-                "drop": "-",
-                "note": ""
-              },
-              "3": {
-                "drop": "-",
-                "note": ""
-              },
-              "4": {
-                "drop": "-",
-                "note": ""
-              }
-            }
-          },
-          "5": {
             "label": "Ch.6",
             "node": {
               "1": {
@@ -332,70 +270,7 @@
               }
             }
           },
-          "6": {
-            "label": "Ch.7",
-            "node": {
-              "1": {
-                "drop": "-",
-                "note": ""
-              },
-              "2": {
-                "drop": "-",
-                "note": ""
-              },
-              "3": {
-                "drop": "-",
-                "note": ""
-              },
-              "4": {
-                "drop": "-",
-                "note": ""
-              }
-            }
-          },
-          "7": {
-            "label": "Ch.8",
-            "node": {
-              "1": {
-                "drop": "-",
-                "note": ""
-              },
-              "2": {
-                "drop": "-",
-                "note": ""
-              },
-              "3": {
-                "drop": "-",
-                "note": ""
-              },
-              "4": {
-                "drop": "-",
-                "note": ""
-              }
-            }
-          },
-          "8": {
-            "label": "Ch.9",
-            "node": {
-              "1": {
-                "drop": "-",
-                "note": ""
-              },
-              "2": {
-                "drop": "-",
-                "note": ""
-              },
-              "3": {
-                "drop": "-",
-                "note": ""
-              },
-              "4": {
-                "drop": "-",
-                "note": ""
-              }
-            }
-          },
-          "9": {
+          "3": {
             "label": "Ch.10",
             "node": {
               "1": {
@@ -416,28 +291,7 @@
               }
             }
           },
-          "10": {
-            "label": "Ch.11",
-            "node": {
-              "1": {
-                "drop": "-",
-                "note": ""
-              },
-              "2": {
-                "drop": "-",
-                "note": ""
-              },
-              "3": {
-                "drop": "-",
-                "note": ""
-              },
-              "4": {
-                "drop": "-",
-                "note": ""
-              }
-            }
-          },
-          "11": {
+          "4": {
             "label": "Ch.12",
             "node": {
               "1": {
@@ -481,7 +335,7 @@
           },
           "2": {
             "event": "Self Introduction",
-            "media": "https://s3.us-east-2.amazonaws.com/alg-wiki.com/Ships/073_Lexington/Sound/skin1_self_introduction.ogg",
+            "media": "self_introduction",
             "chinese": "我是航空母舰列克星敦。温柔？因为算是大家的大姐姐嘛，而且指挥官在我看来也是可爱的后辈哦。看到萨拉她那么努力，做姐姐的也就放心了，指挥官也请对她多多包涵哦",
             "chineseTL": "",
             "chineseNote": "",
@@ -493,7 +347,7 @@
           },
           "3": {
             "event": "Acquisition",
-            "media": "https://s3.us-east-2.amazonaws.com/alg-wiki.com/Ships/073_Lexington/Sound/skin1_acquisition.ogg",
+            "media": "acquisition",
             "chinese": "贵安~指挥官，我是列克星敦，听说，我的名字来源于白鹰独立战争中荣耀的第一枪呢。职业的偶像是需要拥有丰厚的胸怀的，你觉得我说的对么？（笑）",
             "chineseTL": "",
             "chineseNote": "",
@@ -505,7 +359,7 @@
           },
           "4": {
             "event": "Login",
-            "media": "https://s3.us-east-2.amazonaws.com/alg-wiki.com/Ships/073_Lexington/Sound/skin1_login.ogg",
+            "media": "login",
             "chinese": "指挥官大人~~今天我们要去哪呢？你放心，只要有我在就算是会飞的鹤都逃不出我的手掌~",
             "chineseTL": "",
             "chineseNote": "",
@@ -517,7 +371,7 @@
           },
           "5": {
             "event": "Details",
-            "media": "https://s3.us-east-2.amazonaws.com/alg-wiki.com/Ships/073_Lexington/Sound/skin1_details.ogg",
+            "media": "details",
             "chinese": "眉头都皱成“W”字了呐，指挥官也辛苦了呢…",
             "chineseTL": "",
             "chineseNote": "",
@@ -529,7 +383,7 @@
           },
           "6": {
             "event": "Idle 1",
-            "media": "https://s3.us-east-2.amazonaws.com/alg-wiki.com/Ships/073_Lexington/Sound/skin1_idle_1.ogg",
+            "media": "idle_1",
             "chinese": "虽然不像妹妹们那么有活力，不过作为姐姐的魅力我还是有自信的哦，你说对吗~",
             "chineseTL": "",
             "chineseNote": "",
@@ -541,7 +395,7 @@
           },
           "7": {
             "event": "Idle 2",
-            "media": "https://s3.us-east-2.amazonaws.com/alg-wiki.com/Ships/073_Lexington/Sound/skin1_idle_2.ogg",
+            "media": "idle_2",
             "chinese": "真是的，萨拉那孩子又跑到哪儿去了呢，真是个让人困扰的孩子",
             "chineseTL": "",
             "chineseNote": "",
@@ -553,7 +407,7 @@
           },
           "8": {
             "event": "Idle 3",
-            "media": "https://s3.us-east-2.amazonaws.com/alg-wiki.com/Ships/073_Lexington/Sound/skin1_idle_3.ogg",
+            "media": "idle_3",
             "chinese": "电力十足？偶像当然要有电力十足的眼神呀~~",
             "chineseTL": "",
             "chineseNote": "",
@@ -565,7 +419,7 @@
           },
           "9": {
             "event": "Touch",
-            "media": "https://s3.us-east-2.amazonaws.com/alg-wiki.com/Ships/073_Lexington/Sound/skin1_touch.ogg",
+            "media": "touch",
             "chinese": "指挥官感觉就像是个不成器的后辈似的呢～",
             "chineseTL": "",
             "chineseNote": "",
@@ -577,7 +431,7 @@
           },
           "10": {
             "event": "Special Touch",
-            "media": "https://s3.us-east-2.amazonaws.com/alg-wiki.com/Ships/073_Lexington/Sound/skin1_special_touch.ogg",
+            "media": "special_touch",
             "chinese": "呵呵，指挥官不甘心当后辈吗~",
             "chineseTL": "",
             "chineseNote": "",
@@ -589,7 +443,7 @@
           },
           "11": {
             "event": "New Mission",
-            "media": "https://s3.us-east-2.amazonaws.com/alg-wiki.com/Ships/073_Lexington/Sound/skin1_mission.ogg",
+            "media": "mission",
             "chinese": "还有一些任务没有完成呢，指挥官~",
             "chineseTL": "",
             "chineseNote": "",
@@ -601,7 +455,7 @@
           },
           "12": {
             "event": "Mission Complete",
-            "media": "https://s3.us-east-2.amazonaws.com/alg-wiki.com/Ships/073_Lexington/Sound/skin1_mission_complete.ogg",
+            "media": "mission_complete",
             "chinese": "孩子们，去把任务奖励领回来给指挥官吧",
             "chineseTL": "",
             "chineseNote": "",
@@ -613,7 +467,7 @@
           },
           "13": {
             "event": "New Mail",
-            "media": "https://s3.us-east-2.amazonaws.com/alg-wiki.com/Ships/073_Lexington/Sound/skin1_mail.ogg",
+            "media": "mail",
             "chinese": "新的信件来了，指挥官要是忙的话，就由我代为回复吧？",
             "chineseTL": "",
             "chineseNote": "",
@@ -625,7 +479,7 @@
           },
           "14": {
             "event": "Return From Sortie",
-            "media": "https://s3.us-east-2.amazonaws.com/alg-wiki.com/Ships/073_Lexington/Sound/skin1_return_from_sortie.ogg",
+            "media": "return_from_sortie",
             "chinese": "啊啦，脸上有脏东西，不要动，我来帮你擦掉~",
             "chineseTL": "",
             "chineseNote": "",
@@ -637,7 +491,7 @@
           },
           "15": {
             "event": "Commission Complete",
-            "media": "https://s3.us-east-2.amazonaws.com/alg-wiki.com/Ships/073_Lexington/Sound/skin1_commission_complete.ogg",
+            "media": "commission_complete",
             "chinese": "咦……哎呀，委托组的姐妹们好像回来了呢",
             "chineseTL": "",
             "chineseNote": "",
@@ -649,7 +503,7 @@
           },
           "16": {
             "event": "Enhancement",
-            "media": "https://s3.us-east-2.amazonaws.com/alg-wiki.com/Ships/073_Lexington/Sound/skin1_enhancement.ogg",
+            "media": "enhancement",
             "chinese": "忽然有点想唱歌呢，你愿意听吗？",
             "chineseTL": "",
             "chineseNote": "",
@@ -661,7 +515,7 @@
           },
           "17": {
             "event": "Sortie Start",
-            "media": "https://s3.us-east-2.amazonaws.com/alg-wiki.com/Ships/073_Lexington/Sound/skin1_sortie_start.ogg",
+            "media": "sortie_start",
             "chinese": "诸位，一起为指挥官取回胜利吧！",
             "chineseTL": "",
             "chineseNote": "",
@@ -673,7 +527,7 @@
           },
           "18": {
             "event": "MVP",
-            "media": "https://s3.us-east-2.amazonaws.com/alg-wiki.com/Ships/073_Lexington/Sound/skin1_mvp.ogg",
+            "media": "mvp",
             "chinese": "呵呵，Lady Lex的称呼可不只是好听哦~",
             "chineseTL": "",
             "chineseNote": "",
@@ -685,7 +539,7 @@
           },
           "19": {
             "event": "Defeat",
-            "media": "https://s3.us-east-2.amazonaws.com/alg-wiki.com/Ships/073_Lexington/Sound/skin1_defeat.ogg",
+            "media": "defeat",
             "chinese": "哎呀……已经跟不上他们的节奏了，还是先撤退吧？",
             "chineseTL": "",
             "chineseNote": "",
@@ -697,7 +551,7 @@
           },
           "20": {
             "event": "Skill Activation",
-            "media": "https://s3.us-east-2.amazonaws.com/alg-wiki.com/Ships/073_Lexington/Sound/skin1_skill_activation.ogg",
+            "media": "skill_activation",
             "chinese": "去吧，孩子们",
             "chineseTL": "",
             "chineseNote": "",
@@ -709,7 +563,7 @@
           },
           "21": {
             "event": "Low Health",
-            "media": "https://s3.us-east-2.amazonaws.com/alg-wiki.com/Ships/073_Lexington/Sound/skin1_low_health.ogg",
+            "media": "low_health",
             "chinese": "我来唱支歌为大家加油吧",
             "chineseTL": "",
             "chineseNote": "",
@@ -721,7 +575,7 @@
           },
           "22": {
             "event": "Affinity (Disappointed)",
-            "media": "https://s3.us-east-2.amazonaws.com/alg-wiki.com/Ships/073_Lexington/Sound/skin1_affinity_disappointed.ogg",
+            "media": "affinity_disappointed",
             "chinese": "要是以为姐姐什么都会包容那可就大错特错了唷",
             "chineseTL": "",
             "chineseNote": "",
@@ -733,7 +587,7 @@
           },
           "23": {
             "event": "Affinity (Stranger)",
-            "media": "https://s3.us-east-2.amazonaws.com/alg-wiki.com/Ships/073_Lexington/Sound/skin1_affinity_stranger.ogg",
+            "media": "affinity_stranger",
             "chinese": "所谓偶像，就是要给大家都带来欢笑的职业，其中当然也包括指挥官的笑容哟，呵呵~",
             "chineseTL": "",
             "chineseNote": "",
@@ -745,7 +599,7 @@
           },
           "24": {
             "event": "Affinity (Friendly)",
-            "media": "https://s3.us-east-2.amazonaws.com/alg-wiki.com/Ships/073_Lexington/Sound/skin1_affinity_friendly.ogg",
+            "media": "affinity_friendly",
             "chinese": "最近梦到珊瑚海的时候身边总会出现指挥官的身影，让人安心了许多，为什么呢~",
             "chineseTL": "",
             "chineseNote": "",
@@ -757,7 +611,7 @@
           },
           "25": {
             "event": "Affinity (Like)",
-            "media": "https://s3.us-east-2.amazonaws.com/alg-wiki.com/Ships/073_Lexington/Sound/skin1_affinity_like.ogg",
+            "media": "affinity_like",
             "chinese": "指挥官可以来当我的经纪人吗？既有能力，又了解我，还值得依赖的人，只能想到指挥官了呢~",
             "chineseTL": "",
             "chineseNote": "",
@@ -769,7 +623,7 @@
           },
           "26": {
             "event": "Affinity (Love)",
-            "media": "https://s3.us-east-2.amazonaws.com/alg-wiki.com/Ships/073_Lexington/Sound/skin1_affinity_love.ogg",
+            "media": "affinity_love",
             "chinese": "个人live？呵呵，没有这样的计划哦~不过要是某人忽然送我一枚戒指的话，也许每天都会有哦，而且只有一个位置也说不定~",
             "chineseTL": "",
             "chineseNote": "",
@@ -781,7 +635,7 @@
           },
           "27": {
             "event": "Pledge",
-            "media": "https://s3.us-east-2.amazonaws.com/alg-wiki.com/Ships/073_Lexington/Sound/skin1_pledge.ogg",
+            "media": "pledge",
             "chinese": "哎呀，这是……呵呵，还以为指挥官要让我等多久呢~这样的话，只有一个位置的个人live就要开始售票了呢，举办时间是——永远哦~",
             "chineseTL": "",
             "chineseNote": "",
