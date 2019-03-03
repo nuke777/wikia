@@ -155,6 +155,7 @@ Adding the following json files provided by anons below:
 - Neptune https://pastebin.com/XJuAH0Bv 
 - HDN Neptune https://pastebin.com/EPMRWHeL
 - California https://pastebin.com/C54ZsDXL
+- Lexington: to add media files
 
 Also
 - Add retrofit section to ship page
