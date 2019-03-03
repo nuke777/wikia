@@ -118,5 +118,8 @@ Adding the following json files provided by anons below:
 
 Also
 - Add retrofit section to ship page
+- PR compatibility on ship page
+- Collabs and Retrofits section on ship list
+- Filters on ship list
 - Equipment page
 - Events page
