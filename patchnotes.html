@@ -60,6 +60,7 @@
 		function loadPatchNotes(){
 			loadJSON(function(response) {
 				var actual_JSON = JSON.parse(response);
+				console.log(actual_JSON);
 				
 				for (var x in actual_JSON){
 					var path = "Patchnotes/jp/" + actual_JSON[x].filename + ".txt";
