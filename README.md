@@ -154,7 +154,8 @@ Adding the following json files provided by anons below:
 
 - Neptune https://pastebin.com/XJuAH0Bv 
 - HDN Neptune https://pastebin.com/EPMRWHeL
-- California https://pastebin.com/C54ZsDXL
+- California: to add media files
+- Lexington: to add media files
 
 Also
 - Add retrofit section to ship page
@@ -163,3 +164,5 @@ Also
 - Filters on ship list
 - Equipment page
 - Events page
+
+Also we need somebody that could rip images/sounds from the game
