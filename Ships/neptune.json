@@ -1,0 +1,595 @@
+{
+  "name": "Neptune",
+  "nameJP": "ネプチューン",
+  "nameCN": "海王星",
+  "class": "Research",
+  "hull": "Light Cruiser",
+  "prefix": "HMS",
+  "ID": "Plan001",
+  "file_id": "Plan001_Neptune",
+  "navy": "Royal Navy",
+  "initialStar": "★★★☆☆☆",
+  "rarity": "Research",
+  "buildTime": "-",
+  "acquisitionMethod": "Priority Research",
+  "enhance": {
+    "firepower": "-",
+    "torpedo": "-",
+    "aviation": "-",
+    "reload": "-"
+  },
+  "scrap": {
+    "gold": "-",
+    "oil": "-",
+    "medal": "-"
+  },
+  "skin": {
+    "1": {
+      "name": "Default",
+      "description": "Light cruiser, Neptune.",
+      "expression": {
+        "1": {
+          "id": "Neptune_skin1_expr1"
+        }
+      }
+    }
+  },
+  "releaseDate": {
+    "JP": "April 26, 2018",
+    "CN": "April 26, 2018",
+    "KR": "?",
+    "EN": "-"
+  },
+  "voiceActress": "Mikako Izawa",
+  "artist": {
+    "name": "梦咲枫",
+    "weibo": "https://www.weibo.com/u/3558369570",
+    "twitter": "https://twitter.com/yumesaki_kaede",
+    "pixiv": "https://www.pixiv.net/member.php?id=1023957",
+    "other": ""
+  },
+  "strengthenLevel": {
+    "level5": "Torpedo Base +1, Torpedo Pre-load +1",
+    "level10": "Full Barrage I, Main Gun Efficiency +5%, Limit Break ★★★★☆☆",
+    "level15": "Main Gun Efficiency +5%",
+    "level20": "Torpedo Efficiency +10%, Limit Break ★★★★★☆",
+    "level25": "Main Gun Efficiency +10%",
+    "level30": "Full Barrage II, Main Gun Efficiency +15%, Limit Break ★★★★★★"
+  },
+  "parameters": {
+    "hp": "B",
+    "antiAir": "A",
+    "evasion": "B",
+    "aviation": "E",
+    "torpedo": "A",
+    "firepower": "B"
+  },
+  "stats": {
+    "100": {
+      "hp": "4215",
+      "armor": "Light",
+      "reload": "142",
+      "firepower": "149",
+      "torpedo": "312",
+      "evasion": "73",
+      "antiAir": "323",
+      "aviation": "0",
+      "cost": "12",
+      "asw": "149",
+      "speed": "33"
+    },
+    "120": {
+      "hp": "4637",
+      "armor": "Light",
+      "reload": "164",
+      "firepower": "172",
+      "torpedo": "352",
+      "evasion": "98",
+      "antiAir": "363",
+      "aviation": "0",
+      "cost": "12",
+      "asw": "152",
+      "speed": "33"
+    },
+    "base": {
+      "hp": "815",
+      "armor": "Light",
+      "reload": "60",
+      "firepower": "32",
+      "torpedo": "67",
+      "evasion": "28",
+      "antiAir": "69",
+      "aviation": "0",
+      "cost": "7",
+      "asw": "37",
+      "speed": "33"
+    },
+    "100retrofit": {
+      "hp": "",
+      "armor": "",
+      "reload": "",
+      "firepower": "",
+      "torpedo": "",
+      "evasion": "",
+      "antiAir": "",
+      "aviation": "",
+      "cost": "",
+      "asw": "",
+      "speed": ""
+    },
+    "120retrofit": {
+      "hp": "",
+      "armor": "",
+      "reload": "",
+      "firepower": "",
+      "torpedo": "",
+      "evasion": "",
+      "antiAir": "",
+      "aviation": "",
+      "cost": "",
+      "asw": "",
+      "speed": ""
+    }
+  },
+  "equipmentLoadout": {
+    "1": {
+      "type": "CL Main Gun",
+      "efficiency": "120%/150%",
+      "amount": "1/1",
+      "preload": "0/0"
+    },
+    "2": {
+      "type": "Torpedo",
+      "efficiency": "150%/160%",
+      "amount": "1/2",
+      "preload": "0/0"
+    },
+    "3": {
+      "type": "Anti-Air Gun",
+      "efficiency": "100%/100%",
+      "amount": "1/1",
+      "preload": "0/0"
+    },
+    "4": {
+      "type": "Auxilliary",
+      "efficiency": "-",
+      "amount": "-",
+      "preload": "-"
+    },
+    "5": {
+      "type": "Auxilliary",
+      "efficiency": "-",
+      "amount": "-",
+      "preload": "-"
+    }
+  },
+  "defaultEquipment": {
+    "1": "-",
+    "2": "-",
+    "3": "-"
+  },
+  "skill": {
+    "1": {
+      "name": "MKV-class AP Shell",
+      "type": "Offensive",
+      "requirement": "Default Unlocked",
+      "description": "Increases AP damage dealt by 15% (35%)."
+    },
+    "2": {
+      "name": "Goddess of the Sea",
+      "type": "Defensive",
+      "requirement": "Default Unlocked",
+      "description": "When Neptune's health falls below 20%, recover 15% (25%) of max heath \nand increase reload by 30% until the end of the battle. Only triggers \nonce per battle."
+    },
+    "3": {
+      "name": "Siren's Nemesis",
+      "type": "Offensive",
+      "requirement": "Strenghten Level 10 (I) / Level 20 (II) / Level 30 (III)",
+      "description": "Increase damage against sirens by 5% (15%)."
+    },
+    "4": {
+      "name": "Full Barrage",
+      "type": "Offensive",
+      "requirement": "Strenghten Level 10 (I) / Level 30 (III)",
+      "description": "Every 12 (8) shots from the main gun, trigger Full Barrage - Neptune Class I (II)."
+    }
+  },
+  "build": {
+    "light": {
+      "JP": "-",
+      "CN": "-",
+      "EN": "-"
+    },
+    "heavy": {
+      "JP": "-",
+      "CN": "-",
+      "EN": "-"
+    },
+    "special": {
+      "JP": "-",
+      "CN": "-",
+      "EN": "-"
+    },
+    "limited": {
+      "JP": "-",
+      "CN": "-",
+      "EN": "-"
+    }
+  },
+  "drop": {
+    "droppable": "false",
+    "list": {
+      "1": {
+        "event": "World",
+        "chapter": {
+          "1": {
+            "label": "Ch.1",
+            "node": {
+              "1": {
+                "drop": "-",
+                "note": ""
+              },
+              "2": {
+                "drop": "-",
+                "note": ""
+              },
+              "3": {
+                "drop": "-",
+                "note": ""
+              },
+              "4": {
+                "drop": "-",
+                "note": ""
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "lines": {
+    "skin": {
+      "1": {
+        "label": "Lexington_skin1",
+        "dialogue": {
+          "1": {
+            "event": "Ship Description",
+            "media": "",
+            "chinese": "1944年巡洋舰计划-方案Y 海王星",
+            "chineseTL": "Year 1944 Cruiser Program - Plan Y Neptune",
+            "chineseNote": "",
+            "japanese": "軽巡洋艦・ネプテューヌ",
+            "japaneseTL": "Light cruiser, Neptune.",
+            "japaneseNote": "",
+            "english": "",
+            "englishNote": ""
+          },
+          "2": {
+            "event": "Self Introduction",
+            "media": "self_introduction",
+            "chinese": "我的来历？嗯哼，不知道也是没办法的事，只存在于设计中的大型轻巡洋舰，海王星，正是本小姐。虽然对战场没有那么熟悉，不过性能可是顶尖的，这一点，就让我用事实来证明吧~",
+            "chineseTL": "What's my backstory? Hmm, I guess it can't be helped that you don't know. I am Neptune, the large light cruiser that only existed as a plan. Even though I am not very familiar with the battlefield, my abilities are definitely top notch. I will prove it to you.",
+            "chineseNote": "",
+            "japanese": "私のカンレキ？うふふ、設計のみで存在していた大型巡洋艦のネプチューン、ご存知ないのも仕方のないことですわ。戦場にこそ出たことはありませんが、性能は一流であること……実戦で証明して差し上げますわ♪",
+            "japaneseTL": "My ship history? (Giggle) It's understandable that you don't know about me since I'm Neptune, a large cruiser that only existed in blueprints. I may have never stood on the battlefield, but I'll prove that my performance is top notch in live combat♪",
+            "japaneseNote": "",
+            "english": "",
+            "englishNote": ""
+          },
+          "3": {
+            "event": "Acquisition",
+            "media": "acquisition",
+            "chinese": "我是谁？我是大型轻巡洋舰海王星哦，是不是觉得有些陌生？嗯哼，放心，从今往后会让你想忘也忘不了的~请多指教",
+            "chineseTL": "Who am I? I am the large light cruiser Neptune, does it sound a bit unfamiliar? Hmm, I will make sure that you won't be able to forget this name even if you tried to. Please take care of me from now on.",
+            "chineseNote": "",
+            "japanese": "私？私はロイヤルの大型巡洋艦のネプチューンと申しますわ。うふふ、私のこと、忘れられなくしてさしあげます♪はい、よろしくお願いします♪",
+            "japaneseTL": "Me? I am Neptune, a Royal Navy large cruiser. (Giggle) I'll make sure that you'll never forget me♪ I'm pleased to be of service♪",
+            "japaneseNote": "",
+            "english": "",
+            "englishNote": ""
+          },
+          "4": {
+            "event": "Login",
+            "media": "login",
+            "chinese": "不行哦指挥官，让我等这么久",
+            "chineseTL": "Making me wait for so long, this is unacceptable, commander.",
+            "chineseNote": "",
+            "japanese": "いけませんわ指揮官様、私をこんなに待たせるなんて",
+            "japaneseTL": "It's not good to keep me waiting, Commander.",
+            "japaneseNote": "",
+            "english": "",
+            "englishNote": ""
+          },
+          "5": {
+            "event": "Details",
+            "media": "details",
+            "chinese": "手里这个？哼哼，这个是海神三叉戟哦，很帅对吧~",
+            "chineseTL": "What am I holding? (Laughs) This is Poseidon's trident. Pretty cool, isn't it.",
+            "chineseNote": "",
+            "japanese": "これですか？トライデントといいますわ。カッコイイと思いませんこと？",
+            "japaneseTL": "This? It's called a trident. Don't you think it's cool?",
+            "japaneseNote": "",
+            "english": "",
+            "englishNote": ""
+          },
+          "6": {
+            "event": "Idle 1",
+            "media": "idle_1",
+            "chinese": "和其他姐妹们相比，这里才是我的处女战场，稍微有些想挑战看看所谓经验的差距呢~",
+            "chineseTL": "Compared to my sisters, this is my first ever battlefield. I kind of want to challenge them and see how much good their experience does them.",
+            "chineseNote": "",
+            "japanese": "他の子と違って、私だけの乙女航海（ヴァージンクルーズ）…実戦経験の差というもの、ちょっと確かめたくなりますわ",
+            "japaneseTL": "Unlike the other girls, I'm the only one on my virgin cruise… I want to see the difference between me and them through experiencing live combat.",
+            "japaneseNote": "",
+            "english": "",
+            "englishNote": ""
+          },
+          "7": {
+            "event": "Idle 2",
+            "media": "idle_2",
+            "chinese": "指挥官，你要是说“拜托了，海王星大人”的话，说不定会有好事发生哦",
+            "chineseTL": "I might give you a reward if you were to beg for it, commander.",
+            "chineseNote": "",
+            "japanese": "指揮官様、「お願いしますネプチューン様」と願って下されば、良いことが起こるかも知れませんことよ？",
+            "japaneseTL": "Commander, if you kindly ask me with a \"pretty please, Miss Neptune,\" something good might happen.",
+            "japaneseNote": "",
+            "english": "",
+            "englishNote": ""
+          },
+          "8": {
+            "event": "Idle 3",
+            "media": "idle_3",
+            "chinese": "指挥官，想要吃我亲手做的蛋糕的话，就请泡出好喝的红茶吧~",
+            "chineseTL": "Commander, if you want to eat my hand baked cake, then you better brew some pretty delicious tea.",
+            "chineseNote": "",
+            "japanese": "あら、私の作ったケーキを召し上がりたいと仰るなら、まずは私のために美味しい紅茶を入れるべきなのではなくて？",
+            "japaneseTL": "Oh my, if you're saying that you want to dine on the cake I've made, don't you think you should first make me some delicious tea?",
+            "japaneseNote": "",
+            "english": "",
+            "englishNote": ""
+          },
+          "9": {
+            "event": "Touch",
+            "media": "touch",
+            "chinese": "想要和我玩游戏？可以啊，不过我不会放水的哦？",
+            "chineseTL": "You want to play with me? Sure, but I won't go easy on you.",
+            "chineseNote": "",
+            "japanese": "この私との勝負がご所望？いいですわよ。手を抜くことはいたしませんからね。うふふ♪",
+            "japaneseTL": "You wish for a match with me? So be it. I'm not going to go easy on you. (Giggle)♪",
+            "japaneseNote": "",
+            "english": "",
+            "englishNote": ""
+          },
+          "10": {
+            "event": "Special Touch",
+            "media": "special_touch",
+            "chinese": "不行哦指挥官，这样是获得不了我的心的",
+            "chineseTL": "This won't do commander, doing this won't get you my love.",
+            "chineseNote": "",
+            "japanese": "いけませんわ指揮官様、このようなことをなさっては私を虜にできませんことよ？",
+            "japaneseTL": "That is not okay, Commander. If you do these sorts of things then you can't become my slave.",
+            "japaneseNote": "",
+            "english": "",
+            "englishNote": ""
+          },
+          "11": {
+            "event": "New Mission",
+            "media": "mission",
+            "chinese": "指挥官，任务堆积了不少呢，我不太喜欢懒惰的人哦",
+            "chineseTL": "Commander, there's quite a few tasks piled up. I don't like sloths very much.",
+            "chineseNote": "",
+            "japanese": "指揮官様、未完了の任務がずいぶんと溜まっているようですわ。私、怠けるお方はあまり好きじゃなくてよ？",
+            "japaneseTL": "Commander, you've accumulated quite a lot of uncompleted missions. I can't say I'm too fond of slackers.",
+            "japaneseNote": "",
+            "english": "",
+            "englishNote": ""
+          },
+          "12": {
+            "event": "Mission Complete",
+            "media": "mission_complete",
+            "chinese": "指挥官，任务奖励都不领，难道在等着我催你吗",
+            "chineseTL": "Commander, you didn't even collect the rewards. Do I have to remind you?",
+            "chineseNote": "",
+            "japanese": "指揮官様、任務報酬も受け取らずにしてなにを期待していますの？まさか私からの催促を待っておられるのではなくて？",
+            "japaneseTL": "Commander, what were you expecting when you left your mission rewards uncollected? Don't tell me you were waiting for me to give you a reminder.",
+            "japaneseNote": "",
+            "english": "",
+            "englishNote": ""
+          },
+          "13": {
+            "event": "New Mail",
+            "media": "mail",
+            "chinese": "指挥官，有你的信件。嗯？我什么都没做哦~",
+            "chineseTL": "Commander, here's your letter. Hmm? I definitely didn't tamper with it.",
+            "chineseNote": "",
+            "japanese": "指揮官様、メールですわ。ふーん？私は別になにも？",
+            "japaneseTL": "Commander, you've got mail. Hmm? It's nothing.",
+            "japaneseNote": "",
+            "english": "",
+            "englishNote": ""
+          },
+          "14": {
+            "event": "Return From Sortie",
+            "media": "return_from_sortie",
+            "chinese": "这不是平安回来了，干得不错嘛",
+            "chineseTL": "So you have safely returned, good job.",
+            "chineseNote": "",
+            "japanese": "よく無事でご帰還されましたわね",
+            "japaneseTL": "Good job returning home safe and sound.",
+            "japaneseNote": "",
+            "english": "",
+            "englishNote": ""
+          },
+          "15": {
+            "event": "Commission Complete",
+            "media": "commission_complete",
+            "chinese": "指挥官，允许你暂时离开我去迎接委托回来的姐妹们哦",
+            "chineseTL": "Commander, I shall allow you to leave my side temporarily to welcome those who have returned from the commission.",
+            "chineseNote": "",
+            "japanese": "指揮官様、しばらく私から離れて、委託から戻ってきた子たちを出迎えることを許して差し上げます",
+            "japaneseTL": "Commander, you have my permission to leave my side for a while and greet the girls who have returned from the commission.",
+            "japaneseNote": "",
+            "english": "",
+            "englishNote": ""
+          },
+          "16": {
+            "event": "Enhancement",
+            "media": "enhancement",
+            "chinese": "理所当然~",
+            "chineseTL": "This is a matter of course",
+            "chineseNote": "",
+            "japanese": "当たり前ですわ",
+            "japaneseTL": "But of course.",
+            "japaneseNote": "",
+            "english": "",
+            "englishNote": ""
+          },
+          "17": {
+            "event": "Sortie Start",
+            "media": "sortie_start",
+            "chinese": "这就是战场吗……嗯哼，有点意思",
+            "chineseTL": "So this is how a battlefield is like...hmm, interesting.",
+            "chineseNote": "",
+            "japanese": "ここは戦場？……うふふ、面白いですわ",
+            "japaneseTL": "Is this a battlefield…? (Giggle) How interesting.",
+            "japaneseNote": "",
+            "english": "",
+            "englishNote": ""
+          },
+          "18": {
+            "event": "MVP",
+            "media": "mvp",
+            "chinese": "嗯哼，允许你多夸我两句",
+            "chineseTL": "Uh huh, I shall grant you the permission to sing more praises about me.",
+            "chineseNote": "",
+            "japanese": "うふふ、特別にもっと褒めることを許して差し上げます♪",
+            "japaneseTL": "(Giggle) I'll give you special permission to praise me more♪",
+            "japaneseNote": "",
+            "english": "",
+            "englishNote": ""
+          },
+          "19": {
+            "event": "Defeat",
+            "media": "defeat",
+            "chinese": "……下次，不会犯这种错误了",
+            "chineseTL": "...I won't repeat my mistakes next time.",
+            "chineseNote": "",
+            "japanese": "……二度とこんな間違いを繰り返しませんわ",
+            "japaneseTL": "I will not repeat this mistake again.",
+            "japaneseNote": "",
+            "english": "",
+            "englishNote": ""
+          },
+          "20": {
+            "event": "Skill Activation",
+            "media": "skill_activation",
+            "chinese": "我可没有和敌人玩耍的兴趣哦",
+            "chineseTL": "I don't have time to play with the enemy.",
+            "chineseNote": "",
+            "japanese": "敵さんとじゃれ合う趣味なんてありませんわ",
+            "japaneseTL": "I have no interest in playing around with my enemies.",
+            "japaneseNote": "",
+            "english": "",
+            "englishNote": ""
+          },
+          "21": {
+            "event": "Low Health",
+            "media": "low_health",
+            "chinese": "稍微有些小看了战场呢……",
+            "chineseTL": "I have underestimated the seriousness of the battlefield...",
+            "chineseNote": "",
+            "japanese": "戦場のことを侮っていたようですわ",
+            "japaneseTL": "It seems that I've underestimated the battlefield.",
+            "japaneseNote": "",
+            "english": "",
+            "englishNote": ""
+          },
+          "22": {
+            "event": "Affinity (Disappointed)",
+            "media": "affinity_disappointed",
+            "chinese": "指挥官，你知道我原本对你有多么期待吗？很遗憾，你永远不会知道了~",
+            "chineseTL": "Commander, did you know how much expectations I had of you originally? It's such a shame that you won't ever get to know it now.",
+            "chineseNote": "",
+            "japanese": "指揮官様、この私がどれだけ貴方に期待していたかはご存知？あら残念、もう知ることはできそうにないでしょうに",
+            "japaneseTL": "Commander, did you know just how much I was expecting of you? Ah, too bad, now you'll probably never know.",
+            "japaneseNote": "",
+            "english": "",
+            "englishNote": ""
+          },
+          "23": {
+            "event": "Affinity (Stranger)",
+            "media": "affinity_stranger",
+            "chinese": "指挥官，如果未来你面临只有牺牲我才能获得和平的情况，你会选我，还是和平呢？",
+            "chineseTL": "Commander, if a situation where you can only attain peace by sacrificing me were to arise, would you choose me, or peace?",
+            "chineseNote": "",
+            "japanese": "指揮官様、質問ですわ。私と平和な世界、どちらかを選ぶとしたら――どうなさいますの？",
+            "japaneseTL": "A question for you, Commander: if you had to choose between me and world peace… which would you choose?",
+            "japaneseNote": "",
+            "english": "",
+            "englishNote": ""
+          },
+          "24": {
+            "event": "Affinity (Friendly)",
+            "media": "affinity_friendly",
+            "chinese": "正确答案是——从现在开始努力不让这种情况发生～嘻嘻，指挥官，想要哄我的话，还要多动动脑子才行哦～",
+            "chineseTL": "The right answer is \"I will try my best from now on to prevent that kind of thing from ever happening.\" (Giggles) Commander, if you wish to please me, you need to use your head a little more.",
+            "chineseNote": "",
+            "japanese": "正解は――そうならないよう努力すること、ですわ～ うふふ、私を喜ばせたいのでしたら、もっとアタマをつかったほうがいいですわ",
+            "japaneseTL": "The correct answer is… you'll work hard so that it would never come to that~ (Giggle) You need to use your head more if you wish to please me.",
+            "japaneseNote": "",
+            "english": "",
+            "englishNote": ""
+          },
+          "25": {
+            "event": "Affinity (Like)",
+            "media": "affinity_like",
+            "chinese": "不过我一直觉得，真正聪明的人，是会适当地依赖别人的哦，这样对自己对对方都好，所以指挥官，喂我蛋糕～",
+            "chineseTL": "With that said, I always feel that those who are actually smart will rely on others to a suitable extent. This way, it's better for both parties. That's why commander, please feed me the cake.",
+            "chineseNote": "",
+            "japanese": "私、本当にアタマの良い御仁というのは、時として人を頼りにするものだと、ずっと思ってますの。あら、そうですわ――指揮官様、ケーキを食べさせてもらえませんこと？",
+            "japaneseTL": "I've always thought that truly smart individuals are those that sometimes rely on others to get things done. Oh, that's right… Commander, would you feed me some cake?",
+            "japaneseNote": "",
+            "english": "",
+            "englishNote": ""
+          },
+          "26": {
+            "event": "Affinity (Love)",
+            "media": "affinity_love",
+            "chinese": "指挥官，红茶泡好了吗？约会地点看好了吗？衣服选好了的话帮我穿上～欸，“为什么不自己穿？”？讨厌啦，这是爱哦，爱～❤",
+            "chineseTL": "Commander, is the tea ready? Have you scouted the date spots? And help me wear the clothes once you are done choosing. Eh, \"Why don't I wear them myself\"? Stupid, it's because of love.",
+            "chineseNote": "",
+            "japanese": "指揮官様？デートコースは選びました？お洋服の用意ができましたら着させて下さいませ♪ あら、「自分で着て」って？もう、これは愛ですわ～うふふ、愛、なの♡",
+            "japaneseTL": "Commander? Have you decided on a schedule for our date? When my clothes \nare ready, help me put them on♪ Oh my, \"put them on myself\" you say? Jeez, this is love~ (Giggle) Love♡",
+            "japaneseNote": "",
+            "english": "",
+            "englishNote": ""
+          },
+          "27": {
+            "event": "Pledge",
+            "media": "pledge",
+            "chinese": "“你是我的全部”你觉得我会被这种话骗倒吗？······其实现在的话确实会被骗倒也说不定哦～不过前提是说十遍，不对，说一百遍好了～",
+            "chineseTL": "\"You are my everything\". Did you think that I will be fooled by such simple words?...Actually, I might fall for it, but you would have to repeat it ten...no, a hundred times first...",
+            "chineseNote": "",
+            "japanese": "「あなたこそが自分の全て」こんな言葉に騙される私ではなくってよ？……うふふ、今なら…もしかしたら騙されるかもしれませんわよ？でもぉ、せめて十回、ううん、百回言っていただけませんと～",
+            "japaneseTL": "\"You are my everything,\" did you think I'm one to be deceived by such words? (Giggle) At this moment though… you might be able to deceive me. However, you need to say those words at least ten, nay, one hundred times in order to do so~",
+            "japaneseNote": "",
+            "english": "",
+            "englishNote": ""
+          },
+          "28": {
+            "event": "Valentines 2019",
+            "media": "",
+            "chinese": "哼哼，送巧克力可不止是为了让对方高兴而已，更是把对方的心牢牢抓住的重要手段呢！不要老是只看着女仆队，也要好好关注海王星大人才行哦，指挥官？",
+            "chineseTL": "Fufu, gifting chocolate is not just to make someone happy, but also an important means to firmly grasp his heart! Commander, don't always turn towards the maid fleet, but also pay more attention to Miss Neptune.",
+            "chineseNote": "",
+            "japanese": "ふふふ、チョコを渡すのは愛しい人に喜んでもらえるためだけでなく、その人にもっと振り向いてもらおうってことではなくて？メイド隊たちだけでなく、このネプチューン様のほうももっとよく見ていなさいな、指揮官様♡",
+            "japaneseTL": "",
+            "japaneseNote": "",
+            "english": "",
+            "englishNote": ""
+          }
+        }
+      }
+    }
+  }
+}
