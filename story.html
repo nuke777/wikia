@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <title>/alg/ - Azur Lane General Wiki</title>
+	
+	<link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
+
+    <!-- Bootstrap CSS CDN -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+    <!-- Our Custom CSS -->
+    <link rel="stylesheet" href="css\mainstyle.css">
+    <link rel="stylesheet" href="css\story.css">
+	<!-- Scrollbar Custom CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.min.css">
+
+
+    <!-- Font Awesome JS -->
+    <script defer src="js/solid.js"></script>
+    <script defer src="js/fontawesome.js"></script>
+
+    <script>
+        function loadJSON(callback) {   
+            var hash = window.location.hash;
+            var hashTrimmed = hash.substr(1);
+            var path = "Story_/" + hashTrimmed + ".json";
+            var xobj = new XMLHttpRequest();
+                xobj.overrideMimeType("application/json");
+            xobj.open('GET', path, true); // Replace 'my_data' with the path to your file
+            xobj.onreadystatechange = function () {
+                  if (xobj.readyState == 4 && xobj.status == "200") {
+                    // Required use of an anonymous callback as .open will NOT return a value but simply returns undefined in asynchronous mode
+                    callback(xobj.responseText);
+                  }
+            };
+            xobj.send(null);  
+        }
+
+        function init(){
+            loadJSON(function(response) {
+                // Parse JSON string into object
+                var actual_JSON = JSON.parse(response);
+
+                document.getElementById("storyTitle").innerHTML = actual_JSON.title;
+                document.getElementById("storyDesc").innerHTML = actual_JSON.desc;
+
+                addChapterNav(actual_JSON.chapter);
+            });
+        }
+
+        function addChapterNav(chapter){
+            var text = "";
+            var initial = true;
+            var initialId = "";
+            for (var x in chapter){
+                text = text + '\
+                <div class="btnGeneric">\
+                    <div class="btnGenericText" id="chap_'+x+'" onclick="addLines(\''+x+'\');toggleChapNavStyle(\''+x+'\')">'+chapter[x].title+'</div>\
+                </div>';
+                if (initial){
+                    initialId = 'chap_'+x;
+                    initial = false;
+                }
+            }
+
+            document.getElementById("storyNav").innerHTML = text;
+            document.getElementById(initialId).click();
+            //document.getElementById(initialId).className = "btnGenericTextActive";
+        }
+
+        function addLines(chapId){
+            loadJSON(function(response) {
+                // Parse JSON string into object
+                var actual_JSON = JSON.parse(response);
+                var bg = "https://s3.us-east-2.amazonaws.com/alg-wiki.com/Scene/240p/";
+                var icon = "https://s3.us-east-2.amazonaws.com/alg-wiki.com/BadgeIcons/";
+
+
+                var text = '\
+                <tr style="background:#24252d;height: 30px;text-align: center;" >\
+                    <td style="width: 20%">Character</td>\
+                    <td style="width: 80%" id="storyDialogueLang"></td>\
+                </tr>\
+                <tr>\
+                    <td></td>\
+                    <td style="text-align: left" id="storyNav">\
+                        <div class="btnGeneric" id="tlGen">\
+                            <div class="btnGenericText" id="tlToggle" onclick="toggleTranslationToggleStyle(\''+chapId+'\')">Toggle Translation</div>\
+                        </div>\
+                        <div class="btnGeneric" id="jpGen">\
+                            <div class="btnGenericTextActive" id="jpLang" onclick="toggleLangButtonStyle(\'jp\');toggleLang(\'jp\',\''+chapId+'\');">JP</div>\
+                        </div>\
+                        <div class="btnGeneric" id="cnGen">\
+                            <div class="btnGenericText" id="cnLang" onclick="toggleLangButtonStyle(\'cn\');toggleLang(\'cn\',\''+chapId+'\');">CN</div>\
+                        </div>\
+                        <div class="btnGeneric" id="enGen">\
+                            <div class="btnGenericText" id="enLang" onclick="toggleLangButtonStyle(\'en\');toggleLang(\'en\',\''+chapId+'\');">EN</div>\
+                        </div>\
+                    </td>\
+                </tr>';
+
+                for (var x in actual_JSON.chapter[chapId].dialogue){
+                    var dialogue = actual_JSON.chapter[chapId].dialogue[x];
+                    var shiplink = dialogue.icon_file.split("-")[0];
+
+                    if (dialogue.type == "scene"){
+                        text = text + '\
+                <tr>\
+                    <td colspan="2" style="padding: 20px;text-align: center;"><img src="'+bg+dialogue.icon_file+'.jpg"><br>'+dialogue.caption+'</td>\
+                </tr>';
+                    }
+
+                    if (dialogue.type == "dialogue"){
+                        text = text + '\
+                <tr>';
+                    if (dialogue.icon_file == ""){
+                        text = text + '\
+                    <td style="padding: 20px;text-align: center;">'+dialogue.name+'</td>';
+                    } else {
+                        text = text + '\
+                    <td style="padding: 20px;text-align: center;"><a href="ship#'+shiplink+'"><img style="height:64px;width:64px;" src="'+icon+dialogue.icon_file+'.png"><br>'+dialogue.name+'</a></td>';
+                    }
+                    text = text + '\
+                    <td style="padding: 20px"><font id="dia_'+x+'"></font></td>\
+                </tr>';
+                    }                    
+                }
+                document.getElementById("storyDialogueTable").innerHTML = text;
+                document.getElementById("jpLang").click();
+
+            });
+        }
+
+        function toggleChapNavStyle(id){
+            var i = 1;
+            while (document.getElementById("chap_"+i) != null){
+                document.getElementById("chap_"+i).className = "btnGenericText";
+                if (i == id){
+                    document.getElementById("chap_"+i).className = "btnGenericTextActive";
+                }
+                ++i;
+            }
+        }
+
+        function toggleLangButtonStyle(btnId){
+            if (btnId == "jp"){
+                document.getElementById("jpLang").className = "btnGenericTextActive";
+                document.getElementById("enLang").className = "btnGenericText";
+                document.getElementById("cnLang").className = "btnGenericText";
+                document.getElementById("storyDialogueLang").innerHTML = "Japanese";
+            } else if (btnId == "cn"){
+                document.getElementById("cnLang").className = "btnGenericTextActive";
+                document.getElementById("enLang").className = "btnGenericText";
+                document.getElementById("jpLang").className = "btnGenericText";
+                document.getElementById("storyDialogueLang").innerHTML = "Chinese";
+            } else if (btnId == "en"){
+                document.getElementById("enLang").className = "btnGenericTextActive";
+                document.getElementById("cnLang").className = "btnGenericText";
+                document.getElementById("jpLang").className = "btnGenericText";
+                document.getElementById("storyDialogueLang").innerHTML = "English";
+            }
+        }
+
+        function toggleTranslationToggleStyle(chapId){
+            var currClass = document.getElementById("tlToggle").className;
+            if (currClass == "btnGenericText"){
+                document.getElementById("tlToggle").className = "btnGenericTextActive";
+            } else if (currClass == "btnGenericTextActive"){
+                document.getElementById("tlToggle").className = "btnGenericText";
+            }
+            toggleTranslation(chapId);
+        }
+
+        function toggleLang(region, chapId){
+            loadJSON(function(response) {
+                // Parse JSON string into object
+                var actual_JSON = JSON.parse(response);
+
+                for (var x in actual_JSON.chapter[chapId].dialogue){
+                    var dialogue = actual_JSON.chapter[chapId].dialogue[x];
+
+                    if (region == "jp"){
+                        if (dialogue.type == "dialogue") {
+                            if (document.getElementById("tlToggle").className == "btnGenericText") {
+                                document.getElementById("dia_"+x).innerHTML = dialogue.japanese;
+                            } else if (document.getElementById("tlToggle").className == "btnGenericTextActive") {
+                                document.getElementById("dia_"+x).innerHTML = dialogue.japaneseTL;
+                            }
+                        }                        
+                    } else if (region == "cn"){
+                        if (dialogue.type == "dialogue") {
+                            if (document.getElementById("tlToggle").className == "btnGenericText") {
+                                document.getElementById("dia_"+x).innerHTML = dialogue.chinese;
+                            } else if (document.getElementById("tlToggle").className == "btnGenericTextActive") {
+                                document.getElementById("dia_"+x).innerHTML = dialogue.chineseTL;
+                            }
+                        }                        
+                    } else if (region == "en"){
+                        if (dialogue.type == "dialogue") {
+                            document.getElementById("dia_"+x).innerHTML = dialogue.english;                            
+                        }                        
+                    }
+
+                }
+
+            });
+        }
+
+        function toggleTranslation(chapId){
+            loadJSON(function(response) {
+                // Parse JSON string into object
+                var actual_JSON = JSON.parse(response);
+
+                for (var x in actual_JSON.chapter[chapId].dialogue){
+                    var dialogue = actual_JSON.chapter[chapId].dialogue[x];
+                    if (dialogue.type == "dialogue"){
+                        if (document.getElementById("tlToggle").className == "btnGenericTextActive"){
+                            if (document.getElementById("jpLang").className == "btnGenericTextActive"){
+                                document.getElementById("dia_"+x).innerHTML = dialogue.japaneseTL;
+                            } else if (document.getElementById("cnLang").className == "btnGenericTextActive"){
+                                document.getElementById("dia_"+x).innerHTML = dialogue.chineseTL;
+                            }
+                        } else if (document.getElementById("tlToggle").className == "btnGenericText"){
+                            if (document.getElementById("jpLang").className == "btnGenericTextActive"){
+                                document.getElementById("dia_"+x).innerHTML = dialogue.japanese;
+                            } else if (document.getElementById("cnLang").className == "btnGenericTextActive"){
+                                document.getElementById("dia_"+x).innerHTML = dialogue.chinese;
+                            }
+                        }
+                    }
+                }
+
+            });
+        }
+
+        window.onload = function() {
+          init();
+        };
+    </script>
+
+</head>
+
+<body>
+<div class="wrapper">
+        <!-- Sidebar  -->
+        <nav id="sidebar">
+            <div class="sidebar-header">
+                <h3>/alg/ Wikipedia</h3>				
+            </div>
+			<div class="sidebar-subheader">
+                Database	
+            </div>
+			
+            <ul class="list-unstyled components">
+                <li>
+                    <a href="shiplist">Ship</a>
+                </li>
+                <li>
+                    <a href="">Equipment</a>
+                    
+                </li>
+				<li class="active">
+                    <a href="storylist">Story</a>
+                    
+                </li>
+            </ul>
+			
+			<div class="sidebar-subheader">
+                Patch Notes	
+            </div>
+			
+			<ul class="list-unstyled components">
+                <li>
+                    <a href="patchnotes#jp">JP Server</a>
+                </li>
+                <li>
+                    <a href="patchnotes#en">EN Server</a>
+                    
+                </li>
+            </ul>
+			
+        </nav>
+
+        <!-- Page Content  -->
+        <div id="content">
+
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <div class="container-fluid">
+
+                    <button type="button" id="sidebarCollapse" class="btn btn-secondary vshide">
+                        <i class="fas fa-align-left"></i>
+                        <span></span>
+                    </button>
+                    <button class="btn btn-dark d-inline-block d-lg-none ml-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <i class="fas fa-align-justify"></i>
+                    </button>
+
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="nav navbar-nav ml-auto">
+                            <li class="nav-item active">
+                                <a class="nav-link" href="#" style="color:#ffffff;">Page</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#" style="color:#ffffff;">Page</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#" style="color:#ffffff;">Page</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#" style="color:#ffffff;">Page</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+
+        <!-- Content -->
+        <!-- Content -->
+        <!-- Content -->
+
+        <table class="wikitablewide" style="width:100%;text-align:center">
+            <tr>
+                <td style="background:#24252d;font-size:24px;text-align: left;padding: 10px 20px" id="storyTitle">Visitors Dyed in Red</td>
+            </tr>
+            <tr>
+                <td style="padding: 20px;text-align: left" id="storyDesc">Sample Description</td>
+            </tr>
+            <tr>
+                <td style="text-align: left" id="storyNav">
+                    <div class="btnGeneric">
+                        <div class="btnGenericText">Chapter 1</div>
+                    </div>                    
+                </td>
+            </tr>
+            <tr>
+                <td style="height: 1px;">
+                    <table class="wikitablewide" style="width:100%;height:100%;text-align:left;margin:0 0 0 0;table-layout: fixed;" id="storyDialogueTable">
+                        <tr style="background:#24252d;height: 30px;text-align: center;" >
+                            <td style="width: 20%">Character</td>
+                            <td style="width: 80%" id="storyDialogueLang">Chinese
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td style="text-align: left" id="storyNav">
+                                <div class="btnGeneric">
+                                    <div class="btnGenericText">Toggle Translation</div>
+                                </div>   
+                                <div class="btnGeneric">
+                                    <div class="btnGenericText">JP</div>
+                                </div>   
+                                <div class="btnGeneric">
+                                    <div class="btnGenericText">CN</div>
+                                </div>   
+                                <div class="btnGeneric">
+                                    <div class="btnGenericText">EN</div>
+                                </div>                    
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style="padding: 20px;text-align: center;"><img src="https://i.imgur.com/XKjH12i.png"><br>Essex</td>
+                            <td style="padding: 20px">Test dialogue</td>
+                        </tr>
+                        <tr>
+                            <td colspan="2" style="padding: 20px;text-align: center;"><img src="https://i.imgur.com/Wck9lRh.jpg"><br>test</td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+        </table>
+
+
+        <!-- Content -->
+        <!-- Content -->
+        <!-- Content -->
+			
+		</div>
+    </div>
+
+    <!-- jQuery CDN - Slim version (=without AJAX) -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <!-- Popper.JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
+    <!-- Bootstrap JS -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
+    <!-- jQuery Custom Scroller CDN -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.concat.min.js"></script>
+
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $("#sidebar").mCustomScrollbar({
+                theme: "minimal"
+            });
+
+            $('#sidebarCollapse').on('click', function () {
+                $('#sidebar, #content, #footer').toggleClass('active');
+                $('.collapse.in').toggleClass('in');
+                $('a[aria-expanded=true]').attr('aria-expanded', 'false');
+            });
+        });
+    </script>
+    
+<footer id="footer">
+Azur Lane © is owned by Shanghai Manjuu, Xiamen Yongshi, Shanghai Yostar | All logos and trademarks are property of their respective owners.<br>
+Special thanks to /alg/, English Koumakan Wiki, <a href="http://wiki.joyme.com/blhx/">碧蓝航线wiki</a>, Japanese Wikis, and to all our contributors. /alg/ wiki © 2019. This is a non-profit website. 
+</footer>
+
+</body>
+
+</html>

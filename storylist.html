@@ -14,6 +14,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
     <!-- Our Custom CSS -->
     <link rel="stylesheet" href="css\mainstyle.css">
+    <link rel="stylesheet" href="css\storylist.css">
 	<!-- Scrollbar Custom CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.min.css">
 
@@ -21,6 +22,49 @@
     <!-- Font Awesome JS -->
     <script defer src="js/solid.js"></script>
     <script defer src="js/fontawesome.js"></script>
+
+    <script type="text/javascript">
+        function loadMain(callback) {
+            var path = "json/storylist_main.json";
+            var xobj = new XMLHttpRequest();
+                xobj.overrideMimeType("application/json");
+            xobj.open('GET', path, true); // Replace 'my_data' with the path to your file
+            xobj.onreadystatechange = function () {
+                  if (xobj.readyState == 4 && xobj.status == "200") {
+                    // Required use of an anonymous callback as .open will NOT return a value but simply returns undefined in asynchronous mode
+                    callback(xobj.responseText);
+                  }
+            };
+            xobj.send(null);  
+        }
+
+        function loadMainList(){
+            loadMain(function(response) {
+                // Parse JSON string into object
+                var actual_JSON = JSON.parse(response);
+                var text = "";
+
+                for (var x in actual_JSON){
+
+                    text = text + '\
+                    <a href="story#'+actual_JSON[x].link+'">\
+                        <div class="mainBG">\
+                            <div class="mainTextChapCount"><b>'+actual_JSON[x].chapterNumbers+'/'+actual_JSON[x].chapterNumbers+'</b></div>\
+                            <div class="mainTextTitle"><b>'+actual_JSON[x].title+'</b></div>\
+                        </div>\
+                    </a>';
+
+                }
+
+                document.getElementById("mainList").innerHTML = text;
+
+            });
+        }
+
+        window.onload = function() {
+          loadMainList();
+        };
+    </script>
 
 </head>
 
@@ -43,8 +87,8 @@
                     <a href="">Equipment</a>
                     
                 </li>
-				<li>
-                    <a href="story">Story</a>
+				<li class="active">
+                    <a href="">Story</a>
                     
                 </li>
             </ul>
@@ -98,6 +142,28 @@
                 </div>
             </nav>
 			
+            <!-- Content -->
+            <!-- Content -->
+            <!-- Content -->
+
+            <table class="wikitablewide" style="width:100%">
+                <tr>
+                    <td style="background:#24252d;font-size:24px;text-align: left;padding: 10px 20px" id="storyTitle">Main Story</td>
+                </tr>
+                <tr>
+                    <td style="padding:20px;" id="mainList">
+                        <div class="mainBG">
+                            <div class="mainTextChapCount"><b>20/20</b></div>
+                            <div class="mainTextTitle"><b>20/20</b></div>
+                        </div>
+                        <div class="mainBG">
+                            <div class="mainTextChapCount"><b>20/20</b></div>
+                            <div class="mainTextTitle"><b>20/20</b></div>
+                        </div>
+                    </td>
+                </tr>
+            </table>
+
 		</div>
     </div>
 
