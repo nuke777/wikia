@@ -23,6 +23,225 @@
     <script defer src="js/solid.js"></script>
     <script defer src="js/fontawesome.js"></script>
 
+    <script>
+        function loadJSON(callback) {   
+            var hash = window.location.hash;
+            var hashTrimmed = hash.substr(1);
+            var path = "Story_/" + hashTrimmed + ".json";
+            var xobj = new XMLHttpRequest();
+                xobj.overrideMimeType("application/json");
+            xobj.open('GET', path, true); // Replace 'my_data' with the path to your file
+            xobj.onreadystatechange = function () {
+                  if (xobj.readyState == 4 && xobj.status == "200") {
+                    // Required use of an anonymous callback as .open will NOT return a value but simply returns undefined in asynchronous mode
+                    callback(xobj.responseText);
+                  }
+            };
+            xobj.send(null);  
+        }
+
+        function init(){
+            loadJSON(function(response) {
+                // Parse JSON string into object
+                var actual_JSON = JSON.parse(response);
+
+                document.getElementById("storyTitle").innerHTML = actual_JSON.title;
+                document.getElementById("storyDesc").innerHTML = actual_JSON.desc;
+
+                addChapterNav(actual_JSON.chapter);
+            });
+        }
+
+        function addChapterNav(chapter){
+            var text = "";
+            var initial = true;
+            var initialId = "";
+            for (var x in chapter){
+                text = text + '\
+                <div class="btnGeneric">\
+                    <div class="btnGenericText" id="chap_'+x+'" onclick="addLines(\''+x+'\');toggleChapNavStyle(\''+x+'\')">'+chapter[x].title+'</div>\
+                </div>';
+                if (initial){
+                    initialId = 'chap_'+x;
+                    initial = false;
+                }
+            }
+
+            document.getElementById("storyNav").innerHTML = text;
+            document.getElementById(initialId).click();
+            //document.getElementById(initialId).className = "btnGenericTextActive";
+        }
+
+        function addLines(chapId){
+            loadJSON(function(response) {
+                // Parse JSON string into object
+                var actual_JSON = JSON.parse(response);
+                var bg = "https://s3.us-east-2.amazonaws.com/alg-wiki.com/Scene/240p/";
+                var icon = "https://s3.us-east-2.amazonaws.com/alg-wiki.com/BadgeIcons/";
+
+
+                var text = '\
+                <tr style="background:#24252d;height: 30px;text-align: center;" >\
+                    <td style="width: 20%">Character</td>\
+                    <td style="width: 80%" id="storyDialogueLang"></td>\
+                </tr>\
+                <tr>\
+                    <td></td>\
+                    <td style="text-align: left" id="storyNav">\
+                        <div class="btnGeneric" id="tlGen">\
+                            <div class="btnGenericText" id="tlToggle" onclick="toggleTranslationToggleStyle(\''+chapId+'\')">Toggle Translation</div>\
+                        </div>\
+                        <div class="btnGeneric" id="jpGen">\
+                            <div class="btnGenericTextActive" id="jpLang" onclick="toggleLangButtonStyle(\'jp\');toggleLang(\'jp\',\''+chapId+'\');">JP</div>\
+                        </div>\
+                        <div class="btnGeneric" id="cnGen">\
+                            <div class="btnGenericText" id="cnLang" onclick="toggleLangButtonStyle(\'cn\');toggleLang(\'cn\',\''+chapId+'\');">CN</div>\
+                        </div>\
+                        <div class="btnGeneric" id="enGen">\
+                            <div class="btnGenericText" id="enLang" onclick="toggleLangButtonStyle(\'en\');toggleLang(\'en\',\''+chapId+'\');">EN</div>\
+                        </div>\
+                    </td>\
+                </tr>';
+
+                for (var x in actual_JSON.chapter[chapId].dialogue){
+                    var dialogue = actual_JSON.chapter[chapId].dialogue[x];
+                    var shiplink = dialogue.icon_file.split("-")[0];
+
+                    if (dialogue.type == "scene"){
+                        text = text + '\
+                <tr>\
+                    <td colspan="2" style="padding: 20px;text-align: center;"><img src="'+bg+dialogue.icon_file+'.jpg"><br>'+dialogue.caption+'</td>\
+                </tr>';
+                    }
+
+                    if (dialogue.type == "dialogue"){
+                        text = text + '\
+                <tr>';
+                    if (dialogue.icon_file == ""){
+                        text = text + '\
+                    <td style="padding: 20px;text-align: center;"><img style="height:64px;width:64px;" src=""><br>'+dialogue.name+'</td>';
+                    } else {
+                        text = text + '\
+                    <td style="padding: 20px;text-align: center;"><a href="ship#'+shiplink+'"><img style="height:64px;width:64px;" src="'+icon+dialogue.icon_file+'.png"><br>'+dialogue.name+'</a></td>';
+                    }
+                    text = text + '\
+                    <td style="padding: 20px"><font id="dia_'+x+'"></font></td>\
+                </tr>';
+                    }                    
+                }
+                document.getElementById("storyDialogueTable").innerHTML = text;
+                document.getElementById("jpLang").click();
+
+            });
+        }
+
+        function toggleChapNavStyle(id){
+            var i = 1;
+            while (document.getElementById("chap_"+i) != null){
+                document.getElementById("chap_"+i).className = "btnGenericText";
+                if (i == id){
+                    document.getElementById("chap_"+i).className = "btnGenericTextActive";
+                }
+                ++i;
+            }
+        }
+
+        function toggleLangButtonStyle(btnId){
+            if (btnId == "jp"){
+                document.getElementById("jpLang").className = "btnGenericTextActive";
+                document.getElementById("enLang").className = "btnGenericText";
+                document.getElementById("cnLang").className = "btnGenericText";
+                document.getElementById("storyDialogueLang").innerHTML = "Japanese";
+            } else if (btnId == "cn"){
+                document.getElementById("cnLang").className = "btnGenericTextActive";
+                document.getElementById("enLang").className = "btnGenericText";
+                document.getElementById("jpLang").className = "btnGenericText";
+                document.getElementById("storyDialogueLang").innerHTML = "Chinese";
+            } else if (btnId == "en"){
+                document.getElementById("enLang").className = "btnGenericTextActive";
+                document.getElementById("cnLang").className = "btnGenericText";
+                document.getElementById("jpLang").className = "btnGenericText";
+                document.getElementById("storyDialogueLang").innerHTML = "English";
+            }
+        }
+
+        function toggleTranslationToggleStyle(chapId){
+            var currClass = document.getElementById("tlToggle").className;
+            if (currClass == "btnGenericText"){
+                document.getElementById("tlToggle").className = "btnGenericTextActive";
+            } else if (currClass == "btnGenericTextActive"){
+                document.getElementById("tlToggle").className = "btnGenericText";
+            }
+            toggleTranslation(chapId);
+        }
+
+        function toggleLang(region, chapId){
+            loadJSON(function(response) {
+                // Parse JSON string into object
+                var actual_JSON = JSON.parse(response);
+
+                for (var x in actual_JSON.chapter[chapId].dialogue){
+                    var dialogue = actual_JSON.chapter[chapId].dialogue[x];
+
+                    if (region == "jp"){
+                        if (dialogue.type == "dialogue") {
+                            if (document.getElementById("tlToggle").className == "btnGenericText") {
+                                document.getElementById("dia_"+x).innerHTML = dialogue.japanese;
+                            } else if (document.getElementById("tlToggle").className == "btnGenericTextActive") {
+                                document.getElementById("dia_"+x).innerHTML = dialogue.japaneseTL;
+                            }
+                        }                        
+                    } else if (region == "cn"){
+                        if (dialogue.type == "dialogue") {
+                            if (document.getElementById("tlToggle").className == "btnGenericText") {
+                                document.getElementById("dia_"+x).innerHTML = dialogue.chinese;
+                            } else if (document.getElementById("tlToggle").className == "btnGenericTextActive") {
+                                document.getElementById("dia_"+x).innerHTML = dialogue.chineseTL;
+                            }
+                        }                        
+                    } else if (region == "en"){
+                        if (dialogue.type == "dialogue") {
+                            document.getElementById("dia_"+x).innerHTML = dialogue.english;                            
+                        }                        
+                    }
+
+                }
+
+            });
+        }
+
+        function toggleTranslation(chapId){
+            loadJSON(function(response) {
+                // Parse JSON string into object
+                var actual_JSON = JSON.parse(response);
+
+                for (var x in actual_JSON.chapter[chapId].dialogue){
+                    var dialogue = actual_JSON.chapter[chapId].dialogue[x];
+                    if (dialogue.type == "dialogue"){
+                        if (document.getElementById("tlToggle").className == "btnGenericTextActive"){
+                            if (document.getElementById("jpLang").className == "btnGenericTextActive"){
+                                document.getElementById("dia_"+x).innerHTML = dialogue.japaneseTL;
+                            } else if (document.getElementById("cnLang").className == "btnGenericTextActive"){
+                                document.getElementById("dia_"+x).innerHTML = dialogue.chineseTL;
+                            }
+                        } else if (document.getElementById("tlToggle").className == "btnGenericText"){
+                            if (document.getElementById("jpLang").className == "btnGenericTextActive"){
+                                document.getElementById("dia_"+x).innerHTML = dialogue.japanese;
+                            } else if (document.getElementById("cnLang").className == "btnGenericTextActive"){
+                                document.getElementById("dia_"+x).innerHTML = dialogue.chinese;
+                            }
+                        }
+                    }
+                }
+
+            });
+        }
+
+        window.onload = function() {
+          init();
+        };
+    </script>
+
 </head>
 
 <body>
@@ -119,16 +338,25 @@
             </tr>
             <tr>
                 <td style="height: 1px;">
-                    <table class="wikitablewide" style="width:100%;height:100%;text-align:left;margin:0 0 0 0;table-layout: fixed;">
+                    <table class="wikitablewide" style="width:100%;height:100%;text-align:left;margin:0 0 0 0;table-layout: fixed;" id="storyDialogueTable">
                         <tr style="background:#24252d;height: 30px;text-align: center;" >
                             <td style="width: 20%">Character</td>
-                            <td style="width: 80%">Chinese
+                            <td style="width: 80%" id="storyDialogueLang">Chinese
                         </tr>
                         <tr>
                             <td></td>
                             <td style="text-align: left" id="storyNav">
                                 <div class="btnGeneric">
-                                    <div class="btnGenericText">Chapter 1</div>
+                                    <div class="btnGenericText">Toggle Translation</div>
+                                </div>   
+                                <div class="btnGeneric">
+                                    <div class="btnGenericText">JP</div>
+                                </div>   
+                                <div class="btnGeneric">
+                                    <div class="btnGenericText">CN</div>
+                                </div>   
+                                <div class="btnGeneric">
+                                    <div class="btnGenericText">EN</div>
                                 </div>                    
                             </td>
                         </tr>
