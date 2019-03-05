@@ -31,14 +31,7 @@
 	
 	<script>
 		function loadJSON(callback) {
-			var hash = window.location.hash;
-			var hashTrimmed = hash.substr(1);
-			var path = "";
-			if (hashTrimmed == "jp") {
-				path = "json/patchnotes_jp.json";
-			} else if (hashTrimmed == "en") {
-				path = "json/patchnotes_en.json";			
-			}
+			var path = "json/patchnotes_en.json";		
 			var xobj = new XMLHttpRequest();
 			xobj.overrideMimeType("application/json");
 			xobj.open('GET', path, true); // Replace 'my_data' with the path to your file
@@ -58,11 +51,10 @@
 				var allText = rawFile.responseText;
 				var converter = new showdown.Converter(),
 				html = converter.makeHtml(allText);
+
 				
-				var noteElement = document.createElement('div');
-				noteElement.className = "noteDiv";
-				noteElement.innerHTML = html;
-				document.getElementById('containerLeft').appendChild(noteElement);
+				
+				document.getElementById("patchBody").innerHTML = html;
 				
 				
 			}
@@ -73,32 +65,91 @@
 			loadJSON(function(response) {
 				var actual_JSON = JSON.parse(response);
 				console.log(actual_JSON);
-				
+				var count = 0;
+				var text = "";
+
 				for (var x in actual_JSON){
-					var hash = window.location.hash;
-					var hashTrimmed = hash.substr(1);
-					var path = "";
-					if (hashTrimmed == "jp") {
-						path = "Patchnotes_/jp/" + actual_JSON[x].filename + ".txt";
-					} else if (hashTrimmed == "en") {
-						path = "Patchnotes_/en/" + actual_JSON[x].filename + ".txt";			
-					}
-					
-					addPatchNotes(path);
+					count++;
 				}
+
+				var path = "Patchnotes_/en/" + actual_JSON[count].filename + ".txt";
+				document.getElementById("patchTitle").innerHTML = actual_JSON[count].title;
+				document.getElementById("patchDate").innerHTML = actual_JSON[count].date;
+				addPatchNotes(path);
+
+				while(count != 0){
+					text = text + '\
+					<option value="'+actual_JSON[count].filename+'">'+actual_JSON[count].title+'</option>';
+					--count;
+				}
+
+				document.getElementById("patchSelection").innerHTML = text
+
 				
 			});
 		}
+
+		function loadSelectedPatchNotes(){
+			loadJSON(function(response) {
+				var actual_JSON = JSON.parse(response);
+				console.log(actual_JSON);
+				var count = 0;
+				var text = "";
+				var hash = window.location.hash;
+		  		var hashTrimmed = hash.substr(1);
+		  		var id = "";
+
+				for (var x in actual_JSON){
+					count++;
+					if (hashTrimmed == actual_JSON[x].filename){
+						id = x;
+					}
+				}
+
+				var path = "Patchnotes_/en/" + hashTrimmed + ".txt";
+				document.getElementById("patchTitle").innerHTML = actual_JSON[id].title;
+				document.getElementById("patchDate").innerHTML = actual_JSON[id].date;
+				
+				addPatchNotes(path);
+
+				while(count != 0){
+					if (hashTrimmed == actual_JSON[count].filename){
+						text = text + '\
+						<option value="'+actual_JSON[count].filename+'" selected>'+actual_JSON[count].title+'</option>';
+					} else {
+						text = text + '\
+						<option value="'+actual_JSON[count].filename+'">'+actual_JSON[count].title+'</option>';
+					}
+					--count;
+				}
+
+				document.getElementById("patchSelection").innerHTML = text
+
+				
+			});
+		}
+
+		function onSelectPatchNote(){
+			var e = document.getElementById("patchSelection");
+			var strUser = e.options[e.selectedIndex].value;
+			window.location.href = "patchnotes_en#" + strUser;
+		}	
 		
 		window.onhashchange = function() {
 			window.location.reload();
 		}
 		window.onload = function() {
-		  loadPatchNotes();
+		  var hash = window.location.hash;
+		  var hashTrimmed = hash.substr(1);
+		  if (hashTrimmed == ""){
+		  	loadPatchNotes();
+		  } else {
+		  	loadSelectedPatchNotes();	
+		  }
 		  addFooter();
           addSideBar();
           addHeader();
-          document.getElementById("sbar_PatchJP").className = "active";
+          document.getElementById("sbar_PatchEN").className = "active";
 		};
 	
 	</script>
@@ -121,6 +172,24 @@
             </nav>
 			
 			<div id="containerLeft" class="leftCol">
+				<table class="wikitablewide" style="width:100%">
+	                <tr>
+	                    <td style="background:#24252d;font-size:30px;text-align: left;padding: 10px 20px;"><font id="patchTitle"></font><div class="tableOfContents">
+	                    	
+	                    	<select class="form-control" id="patchSelection" style="width:250px;background-color:#24252d;color:#ffffff;margin-left:-110px;" onchange="onSelectPatchNote()">
+	                    		
+	                    	</select>
+
+
+	                    </div><div style="margin-top:-20px;"><i><font style="font-size: 11px;color:gray;" id="patchDate"></font></i><div></td>
+	                </tr>
+	                <tr>
+	                	<td style="padding: 30px;" id="patchBody">
+	                		
+	                	</td>
+	                </tr>
+	            </table>
+			</div>
 				
 			
 			</div>
