@@ -20,17 +20,32 @@
     <!-- Our Custom CSS -->
     <link rel="stylesheet" href="css/mainstyle.css">
 	<link rel="stylesheet" href="css/ship.css">
+	<link rel="stylesheet" href="css/l2dview.css">
 	<!-- Scrollbar Custom CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.min.css">
 
     <!-- Font Awesome JS -->
     <script defer src="js/solid.js"></script>
     <script defer src="js/fontawesome.js"></script>
+
+    <!-- Include Pixi. -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pixi.js/4.6.1/pixi.min.js"></script>
+
+
+    <!-- Include Cubism Core. -->
+    <!--By including below library in your project you agree to http://live2d.com/eula/live2d-proprietary-software-license-agreement_en.html-->
+    <script src="https://s3-ap-northeast-1.amazonaws.com/cubism3.live2d.com/sdk/js_eap/live2dcubismcore.min.js"></script>
+
+
+    <!-- Include Cubism Components. -->
+    <script src="../../../js/live2dcubismframework.js"></script>
+    <script src="../../../js/live2dcubismpixi.js"></script>
 	
 	<!-- Fetch Script -->
 	<script>
 	
 	window.folder = "https://s3.us-east-2.amazonaws.com/alg-wiki.com/Ships/";
+	window.l2dfolder = "Live2D/";
 	
 	function loadJSON(callback) {   
 		var hash = window.location.hash;
@@ -54,6 +69,7 @@
 			var actual_JSON = JSON.parse(response);
 			console.log(actual_JSON);
 			window.folder = window.folder + actual_JSON.file_id;
+			window.l2dfolder = window.l2dfolder + actual_JSON.file_id;
 			document.title = actual_JSON.prefix + " " + actual_JSON.name + " - /alg/ Azur Lane General Wiki";
 			document.getElementById("shipHeader").innerHTML = actual_JSON.prefix + " " + actual_JSON.name + " \(JP: " + actual_JSON.nameJP + ", CN: " + actual_JSON.nameCN + "\)";
 			document.getElementById("shipID").innerHTML = actual_JSON.ID;
@@ -277,6 +293,20 @@
 		document.getElementById("shipSkinSD").src = window.folder + "/Sprite/skin" + skinID + "_sd.png";
 		document.getElementById("shipSkinName").innerHTML = '<b>' +skin.name+ '</b>';
 		document.getElementById("shipSkinDisplay").src = window.folder + "/Sprite/skin" + skinID + "_expr1.png";
+		document.getElementById("shipSkinDisplay").style = "max-width:100%;height:auto;visibility: visible;";
+		document.getElementById("l2dContainer").style = "visibility:hidden";
+		document.getElementById("toggleL2d").className = "btnGenericText";
+		
+
+
+		if (skin.l2d != null){
+			if (skin.l2d == "true"){
+				document.getElementById("toggleL2dVisibility").style = "position: absolute;left:0;top:0;visibility: visible;z-index: 999;";
+				document.getElementById("toggleL2d").setAttribute('onclick','toggleL2dButton(\''+skinID+'\')');
+			}
+		} else {
+			document.getElementById("toggleL2dVisibility").style = "position: absolute;left:0;top:0;visibility: hidden;z-index: 999;";
+		}
 		
 		
 		removeShipExpressionNav();
@@ -332,7 +362,41 @@
 	function loadShipSkinExpressionElements(expr, exprID, skinID){
 		document.getElementById("shipSkinDisplay").src = window.folder + "/Sprite/skin" + skinID + "_expr" + exprID + ".png";
 	}
-	
+
+	function toggleL2dButton(skinID){
+		if (document.getElementById("toggleL2d").className == "btnGenericText"){
+			document.getElementById("toggleL2d").className = "btnGenericTextActive";
+
+			document.getElementById("shipSkinDisplay").style = "max-width:100%;height:auto;visibility: hidden;";
+
+
+			document.getElementById("l2dContainer").style = "visibility:visible;";
+			loadLive2D(skinID);
+
+
+			return;
+		} else if (document.getElementById("toggleL2d").className == "btnGenericTextActive"){
+			document.getElementById("toggleL2d").className = "btnGenericText";
+			
+			document.getElementById("l2dContainer").style = "visibility:hidden;";
+
+			document.getElementById("shipSkinDisplay").style = "max-width:100%;height:auto;visibility: visible;";
+			return;
+		}
+	}
+
+	function loadLive2D(skinID){
+		var script = document.createElement('script');
+		script.onload = function () {
+		    //do stuff with the script
+		    test();
+
+		};
+		script.src = window.l2dfolder+'/Skin'+skinID+'/live2d.js';
+
+		document.head.appendChild(script);
+	}
+
 	function setActiveFromButtonGroup(idList, activeId, jsonID){
 		document.getElementById(activeId).className = "btnGenericTextActive";
 		for (var i = 0; i < idList.length; ++i){
@@ -985,7 +1049,7 @@
 <div class="wideCol">
 
 <!-- Skins -->
-<table class="wikitablewide" style="width:100%;text-align:center">
+<table class="wikitablewide" style="width:100%;text-align:center;table-layout: fixed;">
 	<tr>
 		<td colspan="2"  style="background:#000000;height:30px" id="shipRarityColor3">
 			<b>
@@ -1000,19 +1064,23 @@
 		</td>
 	</tr>
 	<tr>
-		<td rowspan="3"style="width:50%;height:1px;">
+		<td rowspan="3"style="width:70%;height:1px;">
 			<table class="wikitablewide" style="width:100%;height:100%;text-align:center;margin:0 0 0 0;">
 				<tr>
 					<td style="background:#24252d;height:30px" id="shipSkinName"></td>
 				</tr>
 				<tr>
-					<td> 
-						<img id="shipSkinDisplay" style="max-width:100%;height:auto;">
+					<td style="position: relative;" id="skinDisplayContainer"> 
+						<div class="btnGeneric" style="position: absolute;left:0;top:0;visibility: hidden;z-index: 999;" id="toggleL2dVisibility">
+			                <div class="btnGenericText" id="toggleL2d">L2D</div>
+			            </div>
+			            <div class="sizer" id="l2dContainer" align="center" style="visibility: hidden;"></div> 	
+			            <img id="shipSkinDisplay" style="max-width:100%;height:auto;">			
 					</td>
 				</tr>
 			</table>
 		</td>
-		<td style="width:50%;height:1px;">
+		<td style="width:30%;height:1px;">
 			<table class="wikitablewide" style="width:100%;height:100%;text-align:center;margin:0 0 0 0">
 				<tr>
 					<td style="background:#24252d;height:30px">
@@ -1028,7 +1096,7 @@
 		</td>
 	</tr>
 	<tr>
-		<td style="width:50%;height:1px;">
+		<td style="width:30%;height:1px;">
 			<table class="wikitablewide" style="width:100%;height:100%;text-align:center;margin:0 0 0 0;">
 				<tr>
 					<td style="background:#24252d;height:30px">
@@ -1045,7 +1113,7 @@
 		</td>
 	</tr>
 	<tr>
-		<td style="width:50%;height:1px;">
+		<td style="width:30%;height:1px;">
 			<table class="wikitablewide" style="width:100%;height:100%;text-align:center;margin:0 0 0 0;">
 				<tr>
 					<td style="background:#24252d;height:30px">
@@ -1490,6 +1558,8 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
     <!-- jQuery Custom Scroller CDN -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.concat.min.js"></script>
+
+    
 	
 	
 <footer id="footer">
