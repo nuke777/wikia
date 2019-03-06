@@ -29,6 +29,10 @@
     <script defer src="js/fontawesome.js"></script>    
 
     <script>
+
+        window.currentTab = "jpLang";
+        window.toggleStatus = false;
+
         function loadJSON(callback) {   
             var hash = window.location.hash;
             var hashTrimmed = hash.substr(1);
@@ -135,7 +139,10 @@
                     }                    
                 }
                 document.getElementById("storyDialogueTable").innerHTML = text;
-                document.getElementById("jpLang").click();
+                document.getElementById(window.currentTab).click();
+                if (window.toggleStatus){
+                    document.getElementById("tlToggle").click();
+                }
 
             });
         }
@@ -157,16 +164,19 @@
                 document.getElementById("enLang").className = "btnGenericText";
                 document.getElementById("cnLang").className = "btnGenericText";
                 document.getElementById("storyDialogueLang").innerHTML = "Japanese";
+                window.currentTab = "jpLang";
             } else if (btnId == "cn"){
                 document.getElementById("cnLang").className = "btnGenericTextActive";
                 document.getElementById("enLang").className = "btnGenericText";
                 document.getElementById("jpLang").className = "btnGenericText";
                 document.getElementById("storyDialogueLang").innerHTML = "Chinese";
+                window.currentTab = "cnLang";
             } else if (btnId == "en"){
                 document.getElementById("enLang").className = "btnGenericTextActive";
                 document.getElementById("cnLang").className = "btnGenericText";
                 document.getElementById("jpLang").className = "btnGenericText";
                 document.getElementById("storyDialogueLang").innerHTML = "English";
+                window.currentTab = "enLang";
             }
         }
 
@@ -174,8 +184,10 @@
             var currClass = document.getElementById("tlToggle").className;
             if (currClass == "btnGenericText"){
                 document.getElementById("tlToggle").className = "btnGenericTextActive";
+                window.toggleStatus = true;
             } else if (currClass == "btnGenericTextActive"){
                 document.getElementById("tlToggle").className = "btnGenericText";
+                window.toggleStatus = false;
             }
             toggleTranslation(chapId);
         }
@@ -271,6 +283,12 @@
         <!-- Content -->
         <!-- Content -->
         <!-- Content -->
+
+        <td style="text-align: left">
+            <div class="btnGeneric">
+                <div class="btnGenericText" onclick="window.location.href = 'storylist'">Back to Storylist</div>
+            </div>                    
+        </td>
 
         <table class="wikitablewide" style="width:100%;text-align:center">
             <tr>
