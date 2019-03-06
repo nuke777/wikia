@@ -155,6 +155,7 @@ Adding the following json files provided by anons below:
 - Neptune to implement 
 - HDN Neptune to implement
 - Prinz Eugen https://pastebin.com/XhtDMyTc
+- Bullin https://pastebin.com/vJ0ip0NA
 
 Also
 - Add retrofit section to ship page
