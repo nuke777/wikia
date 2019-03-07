@@ -11,7 +11,7 @@
   "initialStar": "★★☆☆☆",
   "rarity": "Elite",
   "buildTime": "00:29:00",
-  "acquisitionMethod": "Limited in Light Construction",
+  "acquisitionMethod": "Limited in Light Construction, Drops in SP3 in event \"Star of the Shining Fjord\"",
   "enhance": {
     "firepower": "5",
     "torpedo": "27",
@@ -180,13 +180,13 @@
       "requirement": "Default Unlocked",
       "description": "Increases AP shell damage by 15% (25%)"
     },
-    "3": {
+    "2": {
       "name": "Combat Improvement ",
       "type": "Offensive",
       "requirement": "Default Unlocked",
       "description": "Every 10 times the main battery is fired, increase Reload by 1.5% (5%), Full Barrage damage is increased by 20% (40%), and stacks up to 4 times."
     },
-    "2": {
+    "3": {
       "name": "Full Barrage I-II",
       "type": "Offensive",
       "requirement": "Limit Break Rank 1, Rank 3 upgrade",
@@ -216,29 +216,25 @@
     }
   },
   "drop": {
-    "droppable": "false",
+    "droppable": "true",
     "list": {
       "1": {
-        "event": "World",
+        "event": "Star of the Shining Fjord",
         "chapter": {
           "1": {
-            "label": "Ch.2",
+            "label": "SP",
             "node": {
               "1": {
-                "drop": "✓",
-                "note": "JP Only"
+                "drop": "-",
+                "note": ""
               },
               "2": {
-                "drop": "✓",
-                "note": "JP Only"
+                "drop": "-",
+                "note": ""
               },
               "3": {
-                "drop": "✓",
-                "note": "JP Only"
-              },
-              "4": {
-                "drop": "✓",
-                "note": "JP Only"
+                "drop": "-",
+                "note": ""
               }
             }
           }
