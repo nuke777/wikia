@@ -358,7 +358,6 @@ function loadLive2D(skinID){
 	var script = document.createElement('script');
 	script.onload = function () {
 	    //do stuff with the script
-	    test();
 
 	};
 	script.src = window.l2dfolder+'/skin'+skinID+'/live2d.js';
