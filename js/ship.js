@@ -180,7 +180,7 @@ function setShipNavyIcon(navy){
 }
 
 function setShipRarityHighlight(rarity){
-	if (rarity == "Super Rare") {
+	if (rarity == "Super Rare" || rarity == "Priority") {
 		document.getElementById("shipRarityColor").style = "background:#beb988;height:30px";
 		document.getElementById("shipRarityColor2").style = "background:#beb988;height:30px";
 		document.getElementById("shipRarityColor3").style = "background:#beb988;height:30px";
