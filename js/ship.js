@@ -17,6 +17,20 @@ function loadJSON(callback) {
 	xobj.send(null);  
 }
 
+function loadList(callback) {
+	var path = "json/shiplist.json";
+	var xobj = new XMLHttpRequest();
+		xobj.overrideMimeType("application/json");
+	xobj.open('GET', path, true); // Replace 'my_data' with the path to your file
+	xobj.onreadystatechange = function () {
+		  if (xobj.readyState == 4 && xobj.status == "200") {
+			// Required use of an anonymous callback as .open will NOT return a value but simply returns undefined in asynchronous mode
+			callback(xobj.responseText);
+		  }
+	};
+	xobj.send(null);  
+}
+
 function init() {
 	 loadJSON(function(response) {
 	  // Parse JSON string into object
@@ -105,6 +119,7 @@ function init() {
 		setSkillSet(actual_JSON);
 		setShipDropEventSelection(actual_JSON);
 		setDialogueSkinNav(actual_JSON);
+		loadShipList();
 		
 		
 		
@@ -721,9 +736,41 @@ function toggleJapanese(skinId, id){
 }
 
 function loadShipList(){
-	
+	loadList(function(response) {
+		// Parse JSON string into object
+		var actual_JSON = JSON.parse(response);
+		text = "";
+
+		for (var x in actual_JSON){
+			var hash = window.location.hash;
+			var hashTrimmed = hash.substr(1);
+
+			if (hashTrimmed == actual_JSON[x].link){
+				text = text + '\
+				<option value="'+actual_JSON[x].link+'" selected>'+actual_JSON[x].name+'</option>';
+			} else {
+				text = text + '\
+				<option value="'+actual_JSON[x].link+'">'+actual_JSON[x].name+'</option>';
+			}
+
+
+			
+		}
+
+		document.getElementById("shipList").innerHTML = text;
+
+	});
 }
 
+function onSelectShip(){
+	var e = document.getElementById("shipList");
+	var strUser = e.options[e.selectedIndex].value;
+	window.location.href = "ship#" + strUser;
+}	
+
+window.onhashchange = function() {
+	window.location.reload();
+}
 
 window.onload = function() {
   init();
