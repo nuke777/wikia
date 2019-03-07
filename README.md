@@ -152,13 +152,10 @@ Just reply to the current OP post in /alg/ if you have a submission.
 
 Adding the following json files provided by anons below:
 
-- Neptune to implement 
-- HDN Neptune to implement
+- -
 
 Also
 - Add retrofit section to ship page
-- PR compatibility on ship page
-- Collabs and Retrofits section on ship list
 - Filters on ship list
 - Equipment page
 - Events page
