@@ -1,0 +1,758 @@
+{
+  "name": "Tai Yuan",
+  "nameJP": "太原",
+  "nameCN": "太原",
+  "class": "An Shan",
+  "hull": "Destroyer",
+  "prefix": "PRAN",
+  "ID": "256",
+  "file_id": "256_Tai Yuan",
+  "navy": "Eastern Radiance",
+  "initialStar": "★★☆☆☆",
+  "rarity": "Elite",
+  "buildTime": "0:32:00",
+  "acquisitionMethod": "Event",
+  "enhance": {
+    "firepower": "8",
+    "torpedo": "14",
+    "aviation": "0",
+    "reload": "14"
+  },
+  "scrap": {
+    "gold": "4",
+    "oil": "3",
+    "medal": "4"
+  },
+  "skin": {
+    "1": {
+      "name": "Default",
+      "description": "An Shan-class destroyer No. 4 - Tai Yuan, Hull Number 104",
+      "expression": {
+        "1": {
+          "label": "Default"
+        }
+      }
+    },
+    "2": {
+      "name": "Clamorous Tortoise",
+      "description": "O-on behalf of the An Shan class, we wish a prosperous, happy, and healthy new year to Commander, and to everyone here at port... Umm... even though I made this outfit, I feel a bit embarrassed wearing it... Eh? It looks good on me? Um... th-thank you...",
+      "expression": {
+        "1": {
+          "label": "Default"
+        },
+        "2": {
+          "label": "taiyuan_skin2_expr2"
+        },
+        "3": {
+          "label": "taiyuan_skin2_expr3"
+        },
+        "4": {
+          "label": "taiyuan_skin2_expr4"
+        }
+      }
+    }
+  },
+  "releaseDate": {
+    "JP": "February 12, 2018",
+    "CN": "February 12, 2018",
+    "KR": "-",
+    "EN": "January 31, 2019"
+  },
+  "voiceActress": "Kaori Mizuhashi",
+  "artist": {
+    "name": "麻酱",
+    "weibo": "https://www.weibo.com/u/3032064021",
+    "twitter": "https://twitter.com/shenbeixiaoqiu",
+    "pixiv": "https://www.pixiv.net/member.php?id=1480584",
+    "other": ""
+  },
+  "parameters": {
+    "hp": "D",
+    "antiAir": "C",
+    "evasion": "B",
+    "aviation": "E",
+    "torpedo": "D",
+    "firepower": "A"
+  },
+  "stats": {
+    "100": {
+      "hp": "1897",
+      "armor": "Light",
+      "reload": "174",
+      "firepower": "111",
+      "torpedo": "199",
+      "evasion": "159",
+      "antiAir": "151",
+      "aviation": "0",
+      "cost": "9",
+      "asw": "180",
+      "speed": "45"
+    },
+    "120": {
+      "hp": "2277",
+      "armor": "Light",
+      "reload": "199",
+      "firepower": "128",
+      "torpedo": "229",
+      "evasion": "165",
+      "antiAir": "174",
+      "aviation": "0",
+      "cost": "9",
+      "asw": "200",
+      "speed": "45"
+    },
+    "base": {
+      "hp": "367",
+      "armor": "Light",
+      "reload": "73",
+      "firepower": "24",
+      "torpedo": "42",
+      "evasion": "61",
+      "antiAir": "32",
+      "aviation": "0",
+      "cost": "2",
+      "asw": "49",
+      "speed": "45"
+    },
+    "100retrofit": {
+      "hp": "",
+      "armor": "",
+      "reload": "",
+      "firepower": "",
+      "torpedo": "",
+      "evasion": "",
+      "antiAir": "",
+      "aviation": "",
+      "cost": "",
+      "asw": "",
+      "speed": ""
+    },
+    "120retrofit": {
+      "hp": "",
+      "armor": "",
+      "reload": "",
+      "firepower": "",
+      "torpedo": "",
+      "evasion": "",
+      "antiAir": "",
+      "aviation": "",
+      "cost": "",
+      "asw": "",
+      "speed": ""
+    }
+  },
+  "limitBreak": {
+    "tier1": "Gains Full Barrage I / Main Gun Efficiency +2%",
+    "tier2": "Torpedo Base +1 / Torpedo Pre-Load +1 / All Weapon Efficiency +5%",
+    "tier3": "Upgrades Full Barrage I → II / All Weapon Efficiency +5%"
+  },
+  "equipmentLoadout": {
+    "1": {
+      "type": "DD Gun",
+      "efficiency": "140% / 155%",
+      "amount": "43466",
+      "preload": "0/0"
+    },
+    "2": {
+      "type": "Torpedo",
+      "efficiency": "90% / 100%",
+      "amount": "43467",
+      "preload": "0/1"
+    },
+    "3": {
+      "type": "Anti-Air Gun",
+      "efficiency": "95% / 105%",
+      "amount": "43466",
+      "preload": "0/0"
+    },
+    "4": {
+      "type": "Auxilliary",
+      "efficiency": "-",
+      "amount": "-",
+      "preload": "-"
+    },
+    "5": {
+      "type": "Auxilliary",
+      "efficiency": "-",
+      "amount": "-",
+      "preload": "-"
+    }
+  },
+  "defaultEquipment": {
+    "1": "Single 130mm (50 B13 Pattern 1936)",
+    "2": "533mm Triple Torpedo Mount"
+  },
+  "skill": {
+    "1": {
+      "name": "United Front",
+      "type": "Support",
+      "requirement": "Default Unlocked",
+      "description": "During sortie with 6 ships in the fleet, increase own firepower and reload by 10% (25%) , evasion by 4% (10%)"
+    },
+    "2": {
+      "name": "Full Barrage",
+      "type": "Offensive",
+      "requirement": "Limit Break Rank 1 (I) / Rank 3 (II)",
+      "description": "Every 12 (8) times the main battery is fired, trigger Full Barrage - Arethusa Class I (II)"
+    }
+  },
+  "build": {
+    "light": {
+      "JP": "-",
+      "CN": "-",
+      "EN": "-"
+    },
+    "heavy": {
+      "JP": "-",
+      "CN": "-",
+      "EN": "-"
+    },
+    "special": {
+      "JP": "-",
+      "CN": "-",
+      "EN": "-"
+    },
+    "limited": {
+      "JP": "✓",
+      "CN": "✓",
+      "EN": "✓"
+    }
+  },
+  "drop": {
+    "droppable": "false",
+    "list": {
+      "1": {
+        "event": "World",
+        "chapter": {
+          "1": {
+            "label": "Ch. 2",
+            "node": {
+              "1": {
+                "drop": "✓",
+                "note": "JP Only"
+              },
+              "2": {
+                "drop": "✓",
+                "note": "JP Only"
+              },
+              "3": {
+                "drop": "✓",
+                "note": "JP Only"
+              },
+              "4": {
+                "drop": "✓",
+                "note": "JP Only"
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "lines": {
+    "skin": {
+      "1": {
+        "label": "taiyuan_skin1",
+        "dialogue": {
+          "1": {
+            "event": "Ship Description",
+            "media": "",
+            "chinese": "鞍山级驱逐舰4号舰—太原，舷号104",
+            "chineseTL": "Fourth ship of the An Shan class destroyers, Tai Yuan. Hull number 104.",
+            "chineseNote": "",
+            "japanese": "",
+            "japaneseTL": "",
+            "japaneseNote": "",
+            "english": "An Shan-class destroyer No. 4 - Tai Yuan (104)",
+            "englishNote": ""
+          },
+          "2": {
+            "event": "Self Introduction",
+            "media": "self_introduction",
+            "chinese": "东煌鞍山级驱逐舰四号舰“太原”号，东煌第一代“四大金刚”之一。最初被命名为“吉林”号。和同级舰一起在几十年中作为实力薄弱的东煌海军的绝对主力在各种场合活跃，为东煌的海军建设作出了巨大的贡献。这本《核物理假说》很有趣，如果姐姐们也能喜欢就好了",
+            "chineseTL": "Fourth ship of An Shan class destroyer and one of the first generation Eastern Radiance \"Four Devas\", Tai Yuan. Originally I was named 'Ji Lin'. Together with my sisters, I actively participated in many occasions as the main force of the weak Eastern Radiance navy, and contributed greatly towards it's built up. This book, 'Nuclear Physics Hypothesis', is very interesting. If only my sisters could also enjoy it.",
+            "chineseNote": "",
+            "japanese": "東煌アンシャン級駆逐艦、「四天王」の四女『太原』です。昔は「吉林(キツリン)」とも呼ばれていました。",
+            "japaneseTL": "I am Tai Yuan, Anshan-class destroyer from the Eastern Radiance and last ship of the Four Heavenly Kings. Long ago I was also called \"Ji Lin\". We Four Heavenly Kings contributed to the Eastern Radiance navy for decades. This book, \"Nuclear Physics Hypothesis\", is really interesting, so I want my sisters to read it too.",
+            "japaneseNote": "",
+            "english": "Um... I'm Tai Yuan, fourth ship of the An Shan-class and a first-generation member of the Dragon Empery's \"Four Unbreakables.\" I originally was named \"Ji Lin.\" My sisters and I were the mainstay of the Empery's navy for decades, serving in many operations and helping rebuild the strength of the navy. The \"Nuclear Physics Hypothesis\" is a very interesting book... It would be nice if my sisters liked it too...",
+            "englishNote": ""
+          },
+          "3": {
+            "event": "Acquisition",
+            "media": "acquisition",
+            "chinese": "我、我是驱逐舰“太原”，指挥官，你有看到我的三位姐姐吗？",
+            "chineseTL": "I, I am destroyer Tai Yuan. Commander, have you seen my three elder sisters?",
+            "chineseNote": "",
+            "japanese": "私たち「四天王」は東煌海軍に何十年も貢献していました。",
+            "japaneseTL": "De-destroyer Tai Yuan has arrived... Have you seen my sisters around, commander?",
+            "japaneseNote": "",
+            "english": "I... I'm Tai Yuan, a destroyer. Commander, have you seen my sisters?",
+            "englishNote": ""
+          },
+          "4": {
+            "event": "Login",
+            "media": "login",
+            "chinese": "诶诶，是指挥官呀。看书太入神了，已经到这个时间了吗",
+            "chineseTL": "Ah, it's commander. I was too engrossed with reading, is it already time?",
+            "chineseNote": "",
+            "japanese": "この本……『核物理仮説』はとても面白いから、姉さんたちにも読んでほしいですね。",
+            "japaneseTL": "Eh? Oh, it's you, commander... Sorry, I was reading. Is it already this time?",
+            "japaneseNote": "",
+            "english": "H-hey, Commander. I was too absorbed in reading that I lost track of the time...",
+            "englishNote": ""
+          },
+          "5": {
+            "event": "Details",
+            "media": "details",
+            "chinese": "抚顺姐刚才问我“彩虹计划“的事，指挥官也想听听吗？",
+            "chineseTL": "Fu Shun just asked me about 'Philadelphia Experiment', do you also want to know?",
+            "chineseNote": "",
+            "japanese": "さっき「レインボープロジェクト」はなにって撫順姉さんから聞かれましたけど、指揮官も知りたいですか？",
+            "japaneseTL": "Big sister Fu Shun asked me about the Philadelphia Experiment a bit ago, do you want to know about it too, commander?",
+            "japaneseNote": "",
+            "english": "Fu Shun just asked me to tell her about the Philadelphia Experiment. Commander, would you like me to tell you about it too?",
+            "englishNote": ""
+          },
+          "6": {
+            "event": "Idle 1",
+            "media": "idle_1",
+            "chinese": "佛、佛.诺克斯？真不想再和她碰面了",
+            "chineseTL": "F,Frank Knox? I hope we don't meet again.",
+            "chineseNote": "",
+            "japanese": "の、ノックス？あまり会いたくないかも…",
+            "japaneseTL": "K-Knox? I don't really want to meet her again...",
+            "japaneseNote": "",
+            "english": "F-Frank Knox? I don't want to run into her again...",
+            "englishNote": ""
+          },
+          "7": {
+            "event": "Idle 2",
+            "media": "idle_2",
+            "chinese": "鞍山姐姐好辛苦……我什么时候才能帮到她呢？",
+            "chineseTL": "An Shan is working really hard...when will I be able to help her?",
+            "chineseNote": "",
+            "japanese": "鞍山姉さん大変そう……私、いつになったら役に立てるのでしょうか",
+            "japaneseTL": "It looks like big sister An Shan is in trouble... I wonder when will I be able to support her...",
+            "japaneseNote": "",
+            "english": "An Shan is so hardworking... When can I be of help to her?",
+            "englishNote": ""
+          },
+          "8": {
+            "event": "Idle 3",
+            "media": "idle_3",
+            "chinese": "现在在看的书？《酉阳杂俎》——是长春姐姐送给我的",
+            "chineseTL": "What am I reading? \"Miscellaneous Morsels from Youyang\"...Chang Chun gave it to me.",
+            "chineseNote": "",
+            "japanese": "今読んでいる本は『酉陽雑俎(ゆうようざっそ)』といいます。長春姉さんが贈ってくれました",
+            "japaneseTL": "I'm currently reading a book called \"Miscellaneous Morsels from Youyang\". Big sister Chang Chun gave it to me.",
+            "japaneseNote": "",
+            "english": "What am I reading right now? \"Miscellaneous Morsels from Youyang.\" Chang Chun gave it to me...",
+            "englishNote": ""
+          },
+          "9": {
+            "event": "Touch",
+            "media": "touch",
+            "chinese": "指挥官喜欢看什么样的书呢？",
+            "chineseTL": "What kind of book does commander like to read?",
+            "chineseNote": "",
+            "japanese": "指揮官はどんな本が好きですか？",
+            "japaneseTL": "Which kind of books does the commander like?",
+            "japaneseNote": "",
+            "english": "Commander, what kind of books do you like to read?",
+            "englishNote": ""
+          },
+          "10": {
+            "event": "Special Touch",
+            "media": "special_touch",
+            "chinese": "哇、哇，指、指挥官，请不要这样……",
+            "chineseTL": "Wah, Wah! Co, commander, please don't do that...",
+            "chineseNote": "",
+            "japanese": "あぅ！？し、指揮官…これ以上は……",
+            "japaneseTL": "Aahhh!? Co-Commander... any more than this is...",
+            "japaneseNote": "",
+            "english": "W-w-woah... C-commander, please don't do that..",
+            "englishNote": ""
+          },
+          "11": {
+            "event": "Mission",
+            "media": "mission",
+            "chinese": "任务……看起来好像很难呢，能做好吗？",
+            "chineseTL": "A task...seems pretty difficult, can we do it?",
+            "chineseNote": "",
+            "japanese": "任務……難しそうですね…大丈夫ですか？",
+            "japaneseTL": "The task... looks really hard... is that a problem?",
+            "japaneseNote": "",
+            "english": "This mission... looks quite difficult. Will we be able to do it?",
+            "englishNote": ""
+          },
+          "12": {
+            "event": "Mission Complete",
+            "media": "mission_complete",
+            "chinese": "这、这样我算不算成长一点了呢",
+            "chineseTL": "Does, does this mean that I have improved a little?",
+            "chineseNote": "",
+            "japanese": "こ、これで私も成長したのでしょうか…",
+            "japaneseTL": "I-I wonder if this means I have grown up...",
+            "japaneseNote": "",
+            "english": "D-does this mean I've matured a little?",
+            "englishNote": ""
+          },
+          "13": {
+            "event": "Mail",
+            "media": "mail",
+            "chinese": "指、指挥官，有新的信件。和抚顺姐……应该没关系吧",
+            "chineseTL": "Co, commander, a new mail. It isn't related to Fu Shun...probably...",
+            "chineseNote": "",
+            "japanese": "し、指揮官、新しいメールです。撫順姉さんとは関係ないでしょうか…",
+            "japaneseTL": "Co-commander, there is new mail. I wonder if it is about big sister Fu Shun...",
+            "japaneseNote": "",
+            "english": "C-commander, there's new mail. Perhaps Fu Shun should... urn, never mind...",
+            "englishNote": ""
+          },
+          "14": {
+            "event": "Return from Sortie",
+            "media": "return_from_sortie",
+            "chinese": "终于可以安心了。等等，抚顺姐姐你要拽我去哪里呀！",
+            "chineseTL": "I can finally relax. Wait, Fu Shun where are you dragging me off to!",
+            "chineseNote": "",
+            "japanese": "やっと安心できますね。…え、えっと、撫順姉さん、どこに連れていくの！？",
+            "japaneseTL": "We can finally relax. Eh, ehm, where are you taking me, big sister Fu Shun?",
+            "japaneseNote": "",
+            "english": "I can finally settle down. W-wait... Fu Shun, where are you dragging me off to?",
+            "englishNote": ""
+          },
+          "15": {
+            "event": "Commission Complete",
+            "media": "commission_complete",
+            "chinese": "哇，有人回来啦。鞍山姐，我没事的哦",
+            "chineseTL": "Wah, someone's back. I am fine An Shan.",
+            "chineseNote": "",
+            "japanese": "あ、誰かが帰ってきた。鞍山姉さん、私は大丈夫ですよ",
+            "japaneseTL": "Ah, someone came back. I am fine, big sister An Shan",
+            "japaneseNote": "",
+            "english": "Eek! Someone came back... Oh, An Shan, I'm fine...",
+            "englishNote": ""
+          },
+          "16": {
+            "event": "Enhancement",
+            "media": "enhancement",
+            "chinese": "哇……果然还是有点害怕",
+            "chineseTL": "Wah...I guess I am still a bit scared.",
+            "chineseNote": "",
+            "japanese": "うわっ…やっぱりちょっと怖いです",
+            "japaneseTL": "Wha!?...It's a bit scary after all",
+            "japaneseNote": "",
+            "english": "U-um... it's still a bit scary...",
+            "englishNote": ""
+          },
+          "17": {
+            "event": "Sortie Start",
+            "media": "sortie_start",
+            "chinese": "是实、实战呢，我得努力才行",
+            "chineseTL": "It's a re, real battle. I must do my best.",
+            "chineseNote": "",
+            "japanese": "じ、実戦ですね…頑張らないと…！",
+            "japaneseTL": "Th-this is practice too, right?...I have to try my best!",
+            "japaneseNote": "",
+            "english": "L-live combat... I have to do my best...",
+            "englishNote": ""
+          },
+          "18": {
+            "event": "MVP",
+            "media": "mvp",
+            "chinese": "诶诶，这样就可以了吗？",
+            "chineseTL": "Eh, this is enough?",
+            "chineseNote": "",
+            "japanese": "ええ！これで良いのですか…？",
+            "japaneseTL": "Ehhh! Is this really fine...?",
+            "japaneseNote": "",
+            "english": "Umm is this good enough?",
+            "englishNote": ""
+          },
+          "19": {
+            "event": "Defeat",
+            "media": "defeat",
+            "chinese": "果、果然我还差得远呢",
+            "chineseTL": "Of, of course, I still have a long way to go.",
+            "chineseNote": "",
+            "japanese": "や、やはり私はまだまだですね…",
+            "japaneseTL": "I-I still have a ways to go after all...",
+            "japaneseNote": "",
+            "english": "Um... as expected, I still have a long way to go...",
+            "englishNote": ""
+          },
+          "20": {
+            "event": "Skill Activation",
+            "media": "skill_activation",
+            "chinese": "玄天应化，抱元守一",
+            "chineseTL": "Adapt to the changes, keep calm and focus.",
+            "chineseNote": "",
+            "japanese": "玄天后土(げんてんこうど)の玄武、私たちに護りを…！",
+            "japaneseTL": "Xuanwu, of the earth beyond high heavens, protect us...!",
+            "japaneseNote": "",
+            "english": "Let the heavens focus our minds, so we can adapt to any situation!",
+            "englishNote": ""
+          },
+          "21": {
+            "event": "Low Health",
+            "media": "low_health",
+            "chinese": "诶诶，怎、怎么办……",
+            "chineseTL": "Eh, what, what do I do...",
+            "chineseNote": "",
+            "japanese": "えええ、ど、どうしよう……",
+            "japaneseTL": "Ehhhh, wh-what should I do...",
+            "japaneseNote": "",
+            "english": "Eh...? U-um... what should I do...",
+            "englishNote": ""
+          },
+          "22": {
+            "event": "Affinity (Disappointed)",
+            "media": "affinity_disappointed",
+            "chinese": "鞍山姐，我、我有点害怕……",
+            "chineseTL": "An Shan, I, I am scared...",
+            "chineseNote": "",
+            "japanese": "鞍山姉さん、わ、私ちょっと怖いです……",
+            "japaneseTL": "I-I'm a bit scared, big sister An Shan...",
+            "japaneseNote": "",
+            "english": "An Shan, I... I'm a bit scared...",
+            "englishNote": ""
+          },
+          "23": {
+            "event": "Affinity (Stranger)",
+            "media": "affinity_stranger",
+            "chinese": "是指、指挥官吗？对不起，长春姐找我有事！",
+            "chineseTL": "It's co, commander? Sorry, Chang Chun is looking for me!",
+            "chineseNote": "",
+            "japanese": "し、指揮官ですか？すみません、長春姉さんが呼んでいますので……",
+            "japaneseTL": "Co-commander? I'm sorry, big sister Chang Chun called me, so...",
+            "japaneseNote": "",
+            "english": "Comm... Commander? Um, sorry, Chang Chun needs me for something right now!",
+            "englishNote": ""
+          },
+          "24": {
+            "event": "Affinity (Friendly)",
+            "media": "affinity_friendly",
+            "chinese": "除了姐姐们外，指挥官是我的第一个朋友，所，所以指挥官千万不要去坐抚顺姐的自制导弹！",
+            "chineseTL": "Other than my sisters, commander is my first ever friend, s, so, you must not ride on Fu Shun's homemade missile!",
+            "chineseNote": "",
+            "japanese": "指揮官は姉さんたち以外、私の初めてのお友達ですから…だ、だから、撫順姉さんのミサイルは絶対に乗らないでください！！",
+            "japaneseTL": "Other than my big sisters, commander is my first friend ever so...s-so please don't ride big sister Fu Shun's missile no matter what!!",
+            "japaneseNote": "",
+            "english": "Commander, other than my sisters, you're my first friend. S-so, um, whatever you do, please do not get inside Fu Shun's home-made missile!",
+            "englishNote": ""
+          },
+          "25": {
+            "event": "Affinity (Like)",
+            "media": "affinity_like",
+            "chinese": "指挥官，你在这里啊。嗯？并不是出来散步，只是、那个……有点寂寞了，想看看你的脸……",
+            "chineseTL": "There you are, commander. Hmm? I am not taking a stroll, it's just that, umm...I am feeling lonely, so I wanted to see your face...",
+            "chineseNote": "",
+            "japanese": "指揮官はここですね。うん？お散歩じゃありませんよ、えっと、指揮官の顔を見たくて、その……",
+            "japaneseTL": "Here you are commander. Uh? I was not taking a walk, ehm, I just wanted to see the commander's face, err....",
+            "japaneseNote": "",
+            "english": "Commander, are you in here? Eh? I'm not just walking around.. Um, I just got a little lonely... and wanted to see your face...",
+            "englishNote": ""
+          },
+          "26": {
+            "event": "Affinity (Love)",
+            "media": "affinity_love",
+            "chinese": "指挥官……虽然我还很不成熟，但我会加倍努力的。所以，能等等我吗……等我超越姐姐们……是吗？太好了！",
+            "chineseTL": "Commander...even though I am not very mature, I will redouble my efforts. So...will you wait for me...to overtake all my sisters...You will? Great!",
+            "chineseNote": "",
+            "japanese": "指揮官…私まだまだ未熟ですけど、もっと頑張りますから、だから…待っていてくださいますか…？私が姉さんたちを超えるまで……本当ですか！よかった……",
+            "japaneseTL": "Commander... I am still quite inexperienced, but I will try my best, so, so... would you please wait for me?... Until I surpass all of my big sisters... Will you! What a relief...",
+            "japaneseNote": "",
+            "english": "",
+            "englishNote": ""
+          },
+          "27": {
+            "event": "Pledge",
+            "media": "pledge",
+            "chinese": "谢谢你，指挥官……虽然我还不是很可靠，但从今以后，还请多多依赖我！",
+            "chineseTL": "Thank you, commander...Even though I am still not very reliable, but from now on, please rely on me!",
+            "chineseNote": "",
+            "japanese": "指揮官、ありがとうございます……私、まだ頼りないところがありますけど……これからはどんどん頼ってください！",
+            "japaneseTL": "Commander, thank you... I may be somewhat unreliable, but please count on me more and more from now on!",
+            "japaneseNote": "",
+            "english": "",
+            "englishNote": ""
+          },
+          "28": {
+            "event": "Easter Egg (An Shan)",
+            "media": "easter_egg_1",
+            "chinese": "为了帮上鞍山姐姐，我得努力才行…",
+            "chineseTL": "I must work hard, so that I will be able to help An Shan...",
+            "chineseNote": "",
+            "japanese": "鞍山姉さんの役に立てるよう頑張らないと……",
+            "japaneseTL": "I must work hard to be of help to An Shan...",
+            "japaneseNote": "",
+            "english": "",
+            "englishNote": ""
+          },
+          "29": {
+            "event": "Easter Egg (Fu Shun)",
+            "media": "easter_egg_2",
+            "chinese": "抚顺姐姐你冲得太前了——呀！",
+            "chineseTL": "Fu Shun you are going to far in front!",
+            "chineseNote": "",
+            "japanese": "撫順姉さん、前に出過ぎです――きゃっ！",
+            "japaneseTL": "Fu Shun, you are too far in front- Kya!",
+            "japaneseNote": "",
+            "english": "",
+            "englishNote": ""
+          },
+          "30": {
+            "event": "Valentines 2018",
+            "media": "",
+            "chinese": "指挥官，请收下巧克力。啊，为了姐姐们方便，我特意抄了一份《巧克力制作方法》。特别是抚顺姐，不要又惹出什么麻烦就好了…",
+            "chineseTL": "Commander, please take this chocolate. Ah, for my sisters' convenience, I made a copy of \"Chocolate Making\". I hope Fu Shun doesn't end up causing trouble again...",
+            "chineseNote": "",
+            "japanese": "指揮官、チョコをどうぞ。あ、姉さんたちのためにこの『バレンタインチョコの作り方』もコピーしておきました。特に撫順姉さん、トラブルを起こさないように…！",
+            "japaneseTL": "Commander, please take this chocolate. Ah, for the sake of my sisters, I made a copy of this \"Chocolate Making 101\". I hope Fu Shun doesn't end up causing trouble again...!",
+            "japaneseNote": "",
+            "english": "Commander, please take this chocolate! Ah, to save my sisters some time, I pirated this \"Chocolate Making 101\" thing! Hopefully Fu Shun doesn't make a fuss about it...",
+            "englishNote": ""
+          },
+          "31": {
+            "event": "Valentines 2019",
+            "media": "",
+            "chinese": "指挥官，情、情人节快乐…！递巧克力的时候的这个姿势是什么…？额…抚顺姐她跟我说给指挥官巧克力的时候如果用这个姿势指挥官会很高兴…莫非是骗我的吗！？",
+            "chineseTL": "Commander, h-happy valentines...! What is this chocolate delivery pose...? Ah... Fu Shun told me commander would be really happy if I did this pose while giving chocolate... was I lied to?!",
+            "chineseNote": "",
+            "japanese": "指揮官、は、ハッピーバレンタイン！です！チョコはいいけどこのポーズはなんだって…？あぅ！？ちょ、撫順姉さんがこれやると指揮官が喜ぶって教えてくれましたけど…ウソですか！？",
+            "japaneseTL": "Commander, h-happy valentines~~~! The chocolate is fine but what is this pose...? Ah! Fu Shun told me commander would be really happy if did this... was it a lie?!",
+            "japaneseNote": "",
+            "english": "",
+            "englishNote": ""
+          }
+        }
+      },
+      "2": {
+        "label": "taiyuan_skin2",
+        "dialogue": {
+          "1": {
+            "event": "Ship Description, Acquisition",
+            "media": "acquisition",
+            "chinese": "新、新的一年，我谨代表鞍山级祝愿指挥官和港区的大家万事如意、幸福安康…呜…虽然是自己做的衣服，但果然还是好让人害羞啊…欸？很适合我？谢、谢谢…",
+            "chineseTL": "O-on behalf of the An Shan class, we wish a prosperous, happy, and healthy new year to Commander, and to everyone here at port... Umm... even though I made this outfit, I feel a bit embarrassed wearing it... Eh? It looks good on me? Um... th-thank you...",
+            "chineseNote": "",
+            "japanese": "",
+            "japaneseTL": "",
+            "japaneseNote": "",
+            "english": "",
+            "englishNote": ""
+          },
+          "2": {
+            "event": "Login",
+            "media": "login",
+            "chinese": "一到春节抚顺姐姐就特别兴奋呢，还会拉着我和长春姐姐到处跑……",
+            "chineseTL": "Fu Shun gets really excited during spring festival, she would drag me around with Chang Chun to play...",
+            "chineseNote": "",
+            "japanese": "",
+            "japaneseTL": "",
+            "japaneseNote": "",
+            "english": "",
+            "englishNote": ""
+          },
+          "3": {
+            "event": "Details",
+            "media": "details",
+            "chinese": "指挥官，你知道吗？东煌有关于一种叫“年”的怪兽的古老传说哦。每逢春节，家家户户都会贴红对联，放爆竹来驱赶它呢",
+            "chineseTL": "Commander, did you know? In the Eastern Radiance there is a legend about a Nian Shou. During spring festival, everyone would stick red couplets and set off firecrackers to drive it away",
+            "chineseNote": "",
+            "japanese": "",
+            "japaneseTL": "",
+            "japaneseNote": "",
+            "english": "",
+            "englishNote": ""
+          },
+          "4": {
+            "event": "Idle 1",
+            "media": "idle_1",
+            "chinese": "抚、抚顺姐姐，这、这样拆爆竹很危险的啦……欸？要做新的实验？",
+            "chineseTL": "Fu-Fu Shun, setting off firecrackers like that is dangerous... eh? New experiments?",
+            "chineseNote": "",
+            "japanese": "",
+            "japaneseTL": "",
+            "japaneseNote": "",
+            "english": "",
+            "englishNote": ""
+          },
+          "5": {
+            "event": "Idle 2",
+            "media": "idle_2",
+            "chinese": "今年的对联…唔，指挥官也来帮忙想想吧？",
+            "chineseTL": "This year's couplet... umm, would you like to help me, commander?",
+            "chineseNote": "",
+            "japanese": "",
+            "japaneseTL": "",
+            "japaneseNote": "",
+            "english": "",
+            "englishNote": ""
+          },
+          "6": {
+            "event": "Idle 3",
+            "media": "idle_3",
+            "chinese": "长春姐姐，难得过年，不要一直待在房间里了…",
+            "chineseTL": "Chang Chun, since it's New Year, don't always stay in the room all the time...",
+            "chineseNote": "",
+            "japanese": "",
+            "japaneseTL": "",
+            "japaneseNote": "",
+            "english": "",
+            "englishNote": ""
+          },
+          "7": {
+            "event": "Touch",
+            "media": "touch",
+            "chinese": "这身衣服是我自己做的，姐姐们都说好看呢，欸嘿嘿…",
+            "chineseTL": "I made these clothes, my sisters said I look good, hehe...",
+            "chineseNote": "",
+            "japanese": "",
+            "japaneseTL": "",
+            "japaneseNote": "",
+            "english": "",
+            "englishNote": ""
+          },
+          "8": {
+            "event": "Special Touch",
+            "media": "special_touch",
+            "chinese": "呜…指、指挥官，乱来的话，这孩子会生气的！",
+            "chineseTL": "Uuu... C-commander, if you mess around, this child will get angry!",
+            "chineseNote": "",
+            "japanese": "",
+            "japaneseTL": "",
+            "japaneseNote": "",
+            "english": "",
+            "englishNote": ""
+          },
+          "9": {
+            "event": "Return from Sortie",
+            "media": "return_from_sortie",
+            "chinese": "啊，指挥官，欢迎回来…我在做灯笼…一会能麻烦指挥官帮忙挂起来吗？",
+            "chineseTL": "Ah, commander, welcome back... I'm making a lantern... may I get you to help hang it out later?",
+            "chineseNote": "",
+            "japanese": "",
+            "japaneseTL": "",
+            "japaneseNote": "",
+            "english": "",
+            "englishNote": ""
+          },
+          "10": {
+            "event": "Affinity (Love)",
+            "media": "affinity_love",
+            "chinese": "春节的时候，至亲的人们都会为了团圆而聚在一起呢。今、今年除了姐姐们之外，也想和指挥官一起团圆…可以吗…?",
+            "chineseTL": "Spring festival is when the dearest people reunite together. T-this year, aside from my sisters, I want to spend time with commander... is it ok...?",
+            "chineseNote": "",
+            "japanese": "",
+            "japaneseTL": "",
+            "japaneseNote": "",
+            "english": "",
+            "englishNote": ""
+          }
+        }
+      }
+    }
+  }
+}
