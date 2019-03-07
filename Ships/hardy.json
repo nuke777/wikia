@@ -1,17 +1,17 @@
 {
-  "name": "Hunter",
-  "nameJP": "ハンター",
-  "nameCN": "猎人",
+  "name": "Hardy",
+  "nameJP": "ハーディ",
+  "nameCN": "勇敢",
   "class": "H",
   "hull": "Destroyer",
   "prefix": "HMS",
-  "ID": "100",
-  "file_id": "100_Hunter",
+  "ID": "096",
+  "file_id": "096_Hardy",
   "navy": "Royal Navy",
   "initialStar": "★★☆☆☆",
-  "rarity": "Rare",
-  "buildTime": "",
-  "acquisitionMethod": "",
+  "rarity": "Elite",
+  "buildTime": "00:26:00",
+  "acquisitionMethod": "Limited in Light Construction",
   "enhance": {
     "firepower": "",
     "torpedo": "",
@@ -21,12 +21,12 @@
   "scrap": {
     "gold": "4",
     "oil": "3",
-    "medal": "1"
+    "medal": "4"
   },
   "skin": {
     "1": {
       "name": "Default",
-      "description": "H-class Destroyer - Hunter. Pennant number: H35",
+      "description": "H-class Destroyer - Hardy. Pennant number: H87",
       "expression": {
         "1": {
           "label": "Default"
@@ -67,42 +67,42 @@
   },
   "stats": {
     "100": {
-      "hp": "1142",
+      "hp": "1265",
       "armor": "Light",
-      "reload": "171",
-      "firepower": "66",
-      "torpedo": "316",
+      "reload": "175",
+      "firepower": "70",
+      "torpedo": "334",
       "evasion": "204",
-      "antiAir": "146",
+      "antiAir": "136",
       "aviation": "0",
       "cost": "8",
-      "asw": "168",
+      "asw": "172",
       "speed": "43"
     },
     "120": {
-      "hp": "1370",
+      "hp": "1518",
       "armor": "Light",
-      "reload": "196",
-      "firepower": "76",
-      "torpedo": "356",
+      "reload": "201",
+      "firepower": "81",
+      "torpedo": "374",
       "evasion": "210",
-      "antiAir": "156",
+      "antiAir": "157",
       "aviation": "0",
-      "cost": "8",
-      "asw": "187",
+      "cost": "9",
+      "asw": "192",
       "speed": "43"
     },
     "base": {
-      "hp": "221",
+      "hp": "245",
       "armor": "Light",
-      "reload": "72",
-      "firepower": "14",
-      "torpedo": "67",
+      "reload": "76",
+      "firepower": "15",
+      "torpedo": "75",
       "evasion": "78",
       "antiAir": "29",
       "aviation": "0",
       "cost": "2",
-      "asw": "46",
+      "asw": "47",
       "speed": "43"
     },
     "100retrofit": {
@@ -140,13 +140,13 @@
   "equipmentLoadout": {
     "1": {
       "type": "Destroyer Gun",
-      "efficiency": "105%/110%/120%/125%",
+      "efficiency": "110%/115%/125%/130%",
       "amount": "1/1/1/1",
       "preload": "0/0/0/0"
     },
     "2": {
       "type": "Torpedo",
-      "efficiency": "125%/125%/125%/130%",
+      "efficiency": "130%/130%/130%/135%",
       "amount": "1/1/2/2",
       "preload": "0/0/1/1"
     },
@@ -174,10 +174,16 @@
   },
   "skill": {
     "1": {
-      "name": "Rapid Response",
-      "type": "Support",
+      "name": "Concerto in the Unfreezing port",
+      "type": "Offensive",
       "requirement": "Default Unlocked",
-      "description": "Upon sortie start, increase own Firepower and Torpedo by 9.0% (24%). Then for every 12 seconds, decrease own Firepower and Torpedo by 3.0%(8%). Effect can only be stacked up to 3 times."
+      "description": "Upon sortie start, increase crit rate own Torpedo increased by 10.0% (30.0%), increase damage of allied Destroyers by 5.0% (15.0%), and increase allied Royal Navy Destroyer's Torpedo by 4.5% (12.0%)."
+    },
+    "3": {
+      "name": "The Star of the Fjord",
+      "type": "Offensive",
+      "requirement": "Default Unlocked",
+      "description": "On first Torpedo launch, releases a powerful barrage based on skill level. Can only do once per battle."
     },
     "2": {
       "name": "Full Barrage I-II",
@@ -188,9 +194,9 @@
   },
   "build": {
     "light": {
-      "JP": "-",
-      "CN": "-",
-      "EN": "-"
+      "JP": "✓",
+      "CN": "✓",
+      "EN": "✓"
     },
     "heavy": {
       "JP": "-",
@@ -247,8 +253,8 @@
           "1": {
             "event": "Ship Description",
             "media": "",
-            "chinese": "H级驱逐舰—猎人，舷号H35",
-            "chineseTL": "H-class Destroyer - Hunter. Pennant number: H35",
+            "chinese": "H级驱逐舰—勇敢，舷号H87",
+            "chineseTL": "",
             "chineseNote": "",
             "japanese": "",
             "japaneseTL": "",
@@ -259,7 +265,7 @@
           "2": {
             "event": "Self Introduction",
             "media": "",
-            "chinese": "我是皇家海军H级的猎人，参与纳尔维克海战时输给了铁血的驱逐……猎人被猎物咬死，大概也是一种宿命吧",
+            "chinese": "我是皇家海军H级的领舰勇敢号，纳尔维克海战时率领妹妹们突入了铁血港口，虽然重创了敌方，但也被对方的援军给……哼，要是再给我一点时间的话……",
             "chineseTL": "",
             "chineseNote": "",
             "japanese": "",
@@ -271,7 +277,7 @@
           "3": {
             "event": "Acquisition",
             "media": "",
-            "chinese": "指挥官，你好，我是猎人。……？我还要说些什么吗？",
+            "chinese": "幸会，指挥官阁下。皇家海军，勇敢，向您报道",
             "chineseTL": "",
             "chineseNote": "",
             "japanese": "",
@@ -283,7 +289,7 @@
           "4": {
             "event": "Login",
             "media": "",
-            "chinese": "指挥官，要和我一起去打猎吗？",
+            "chinese": "稍微有点慢了，阁下，请尽快进入工作",
             "chineseTL": "",
             "chineseNote": "",
             "japanese": "",
@@ -295,7 +301,7 @@
           "5": {
             "event": "Details",
             "media": "",
-            "chinese": "指挥官，我收集的战利品，想看吗？",
+            "chinese": "无论什么事都需要通过反复训练才能真正掌握，阁下，这点你应该也很清楚吧",
             "chineseTL": "",
             "chineseNote": "",
             "japanese": "",
@@ -307,7 +313,7 @@
           "6": {
             "event": "Idle 1",
             "media": "",
-            "chinese": "这孩子？是我最重要的小伙伴哦",
+            "chinese": "办公室里空气真是舒适呢，呼…？！我、我才没有打瞌睡哦！",
             "chineseTL": "",
             "chineseNote": "",
             "japanese": "",
@@ -319,7 +325,7 @@
           "7": {
             "event": "Idle 2",
             "media": "",
-            "chinese": "其实我也不讨厌勇敢，但她有时候真的有点啰嗦……",
+            "chinese": "虽说我是领舰，但那只是因为大家都信赖我，并不是地位上有什么高下",
             "chineseTL": "",
             "chineseNote": "",
             "japanese": "",
@@ -331,7 +337,7 @@
           "8": {
             "event": "Idle 3",
             "media": "",
-            "chinese": "指挥官，一般打猎是不会穿成我这样的，这只是兴趣而已",
+            "chinese": "猎人，是不是你偷偷吃了我的蛋糕！……啊，不好意思，阁下，吵到您了吗？",
             "chineseTL": "",
             "chineseNote": "",
             "japanese": "",
@@ -343,7 +349,7 @@
           "9": {
             "event": "Touch",
             "media": "",
-            "chinese": "这不是猎枪，是鱼雷管",
+            "chinese": "呀！……阁下，请不要突然碰我",
             "chineseTL": "",
             "chineseNote": "",
             "japanese": "",
@@ -355,7 +361,7 @@
           "10": {
             "event": "Special Touch",
             "media": "",
-            "chinese": "指挥官，Lock on……",
+            "chinese": "刺剑虽是装饰，戳到了也是很疼的！",
             "chineseTL": "",
             "chineseNote": "",
             "japanese": "",
@@ -367,7 +373,7 @@
           "11": {
             "event": "Mission",
             "media": "",
-            "chinese": "这次的悬赏令是要猎杀什么？",
+            "chinese": "阁下，公文批阅完了的话，就开始进行任务吧",
             "chineseTL": "",
             "chineseNote": "",
             "japanese": "",
@@ -379,7 +385,7 @@
           "12": {
             "event": "Mission Complete",
             "media": "",
-            "chinese": "怎么？难道想让我给你吹胜利号吗？",
+            "chinese": "阁下，快看，奖励有不少呢~",
             "chineseTL": "",
             "chineseNote": "",
             "japanese": "",
@@ -391,7 +397,7 @@
           "13": {
             "event": "Mail",
             "media": "",
-            "chinese": "信件，会有狩猎情报吗？",
+            "chinese": "指挥官，我可不会每次都帮您拿邮件哦！",
             "chineseTL": "",
             "chineseNote": "",
             "japanese": "",
@@ -403,7 +409,7 @@
           "14": {
             "event": "Return from Sortie",
             "media": "",
-            "chinese": "指挥官，有战利品吗？",
+            "chinese": "阁下，刚才的战斗，应该还有些需要检讨的地方吧？",
             "chineseTL": "",
             "chineseNote": "",
             "japanese": "",
@@ -415,7 +421,7 @@
           "15": {
             "event": "Commission Complete",
             "media": "",
-            "chinese": "战斗前的准备越充分越好",
+            "chinese": "身为领导者，有给属下发布任务的权利，但也要认真对待她们的努力才行",
             "chineseTL": "",
             "chineseNote": "",
             "japanese": "",
@@ -427,7 +433,7 @@
           "16": {
             "event": "Enhancement",
             "media": "",
-            "chinese": "嗯，下次可以尝试一些大家伙了……",
+            "chinese": "呼，虽然得到了强化，训练也还不能落下……",
             "chineseTL": "",
             "chineseNote": "",
             "japanese": "",
@@ -439,7 +445,7 @@
           "17": {
             "event": "Sortie Start",
             "media": "",
-            "chinese": "你们已经跑不了了",
+            "chinese": "打起精神，不要给敌人可乘之机！",
             "chineseTL": "",
             "chineseNote": "",
             "japanese": "",
@@ -451,7 +457,7 @@
           "18": {
             "event": "MVP",
             "media": "",
-            "chinese": "把敌人当做猎物的话，还是挺简单的……",
+            "chinese": "各位，越是胜利的时候，越不能放松警惕",
             "chineseTL": "",
             "chineseNote": "",
             "japanese": "",
@@ -463,7 +469,7 @@
           "19": {
             "event": "Defeat",
             "media": "",
-            "chinese": "猎人与猎物的关系可不是一成不变的",
+            "chinese": "立刻撤退，不要恋战！",
             "chineseTL": "",
             "chineseNote": "",
             "japanese": "",
@@ -475,7 +481,7 @@
           "20": {
             "event": "Skill Activation",
             "media": "",
-            "chinese": "越是挣扎，越是痛苦……",
+            "chinese": "不会让你们有机可乘的！",
             "chineseTL": "",
             "chineseNote": "",
             "japanese": "",
@@ -487,7 +493,7 @@
           "21": {
             "event": "Low Health",
             "media": "",
-            "chinese": "这次的猎物，有点凶猛呢……",
+            "chinese": "咬紧牙关……",
             "chineseTL": "",
             "chineseNote": "",
             "japanese": "",
@@ -499,7 +505,7 @@
           "22": {
             "event": "Affinity (Disappointed)",
             "media": "",
-            "chinese": "……（猎人的小伙伴在冲你狂吠不止）",
+            "chinese": "我最讨厌不认真的人了！",
             "chineseTL": "",
             "chineseNote": "",
             "japanese": "",
@@ -511,7 +517,7 @@
           "23": {
             "event": "Affinity (Stranger)",
             "media": "",
-            "chinese": "港区附近…有猎场吗？",
+            "chinese": "喝！……啊，是阁下吗，抱歉，一旦有陌生的气息接近我，我就会下意识出剑……无论何时都不放松警惕，是我的准则",
             "chineseTL": "",
             "chineseNote": "",
             "japanese": "",
@@ -523,7 +529,7 @@
           "24": {
             "event": "Affinity (Friendly)",
             "media": "",
-            "chinese": "对于猎人而言，没有不能猎杀的猎物，只有不够充分的准备",
+            "chinese": "茶会吗？非常抱歉，我还有训练没有完成……不过，能请您帮我带一块蛋糕吗？",
             "chineseTL": "",
             "chineseNote": "",
             "japanese": "",
@@ -535,7 +541,7 @@
           "25": {
             "event": "Affinity (Like)",
             "media": "",
-            "chinese": "指挥官，你今天晚餐想吃什么？我看看能不能打下来几只",
+            "chinese": "我知道哦！你想说有时候我太过谨慎了，对吧？这样的话，我也有话要说…阁下你实在太松懈了！从今往后，我可是会好好看管您的！做、做好心理准备吧！",
             "chineseTL": "",
             "chineseNote": "",
             "japanese": "",
@@ -547,7 +553,7 @@
           "26": {
             "event": "Affinity (Love)",
             "media": "",
-            "chinese": "战争结束的话，想和指挥官一起去打猎……嗯，就我们两个人",
+            "chinese": "阁下，就算您想要偷偷靠近我也是没有用的，我已经完全记下您的气息了……呀！您、您这人，真是的，被我这么说后，居然反而正大光明抱了过来……噗，好痒，呀哈哈哈哈……",
             "chineseTL": "",
             "chineseNote": "",
             "japanese": "",
@@ -559,7 +565,7 @@
           "27": {
             "event": "Pledge",
             "media": "",
-            "chinese": "真正的猎人，是会为了寻找猎物而四处漂泊的……不过有个据点，不、有个家，好像也不错",
+            "chinese": "我明白，我有时候太过谨慎，多亏了您的陪伴，现在已经好多了……不过，我要说，您有时候也太过松懈了，从今往后，我会好好督促您的，阁下",
             "chineseTL": "",
             "chineseNote": "",
             "japanese": "",
@@ -569,9 +575,21 @@
             "englishNote": ""
           },
           "28": {
-            "event": "Easter Egg 1 (Hardy)",
+            "event": "Easter Egg 1 (Warspite)",
             "media": "",
-            "chinese": "勇敢，我听到了，别那么大声",
+            "chinese": "这一次，一起出击吧！",
+            "chineseTL": "",
+            "chineseNote": "",
+            "japanese": "",
+            "japaneseTL": "",
+            "japaneseNote": "",
+            "english": "",
+            "englishNote": ""
+          },
+          "29": {
+            "event": "Easter Egg 2 (Queen Elizabeth)",
+            "media": "",
+            "chinese": "荣光属于您，陛下。",
             "chineseTL": "",
             "chineseNote": "",
             "japanese": "",
