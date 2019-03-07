@@ -75,9 +75,13 @@ function init() {
 		document.getElementById("shipParameterAviation").innerHTML = actual_JSON.parameters.aviation;
 		document.getElementById("shipParameterTorpedo").innerHTML = actual_JSON.parameters.torpedo;
 		document.getElementById("shipParameterFirepower").innerHTML = actual_JSON.parameters.firepower;
-		document.getElementById("shipLimitBreakT1").innerHTML = actual_JSON.limitBreak.tier1;
-		document.getElementById("shipLimitBreakT2").innerHTML = actual_JSON.limitBreak.tier2;
-		document.getElementById("shipLimitBreakT3").innerHTML = actual_JSON.limitBreak.tier3;
+		if (actual_JSON.rarity != "Priority"){
+			document.getElementById("shipLimitBreakT1").innerHTML = actual_JSON.limitBreak.tier1;
+			document.getElementById("shipLimitBreakT2").innerHTML = actual_JSON.limitBreak.tier2;
+			document.getElementById("shipLimitBreakT3").innerHTML = actual_JSON.limitBreak.tier3;
+		} else if (actual_JSON.rarity == "Priority"){
+			setPriorityLimitBreaks(actual_JSON.strengthenLevel);
+		}
 		document.getElementById("shipEquipmentLoadoutType1").innerHTML = actual_JSON.equipmentLoadout["1"].type;
 		document.getElementById("shipEquipmentLoadoutType2").innerHTML = actual_JSON.equipmentLoadout["2"].type;
 		document.getElementById("shipEquipmentLoadoutType3").innerHTML = actual_JSON.equipmentLoadout["3"].type;
@@ -176,7 +180,7 @@ function setShipNavyIcon(navy){
 }
 
 function setShipRarityHighlight(rarity){
-	if (rarity == "Super Rare") {
+	if (rarity == "Super Rare" || rarity == "Priority") {
 		document.getElementById("shipRarityColor").style = "background:#beb988;height:30px";
 		document.getElementById("shipRarityColor2").style = "background:#beb988;height:30px";
 		document.getElementById("shipRarityColor3").style = "background:#beb988;height:30px";
@@ -389,7 +393,10 @@ function loadActiveStats(stats){
 		document.getElementById("shipStatsASW").innerHTML = actual_JSON.stats[stats].asw;
 		document.getElementById("shipStatsSpeed").innerHTML = actual_JSON.stats[stats].speed;
 		document.getElementById("shipStatsArmor").innerHTML = actual_JSON.stats[stats].armor;
-		
+		if (actual_JSON.stats[stats].luck != null){
+			document.getElementById("shipStatsLuck").innerHTML = actual_JSON.stats[stats].luck;
+		}
+
 	});
 }
 
@@ -766,6 +773,45 @@ function onSelectShip(){
 	var strUser = e.options[e.selectedIndex].value;
 	window.location.href = "ship#" + strUser;
 }	
+
+function setPriorityLimitBreaks(data){
+	document.getElementById("shipEquipmentTableBody").removeChild(document.getElementById("lbRow2"));
+	document.getElementById("shipEquipmentTableBody").removeChild(document.getElementById("lbRow3"));
+	document.getElementById("lbRow1").innerHTML = "";
+	document.getElementById("lbRow1").style = "";
+	var text = '\
+	<td style="text-align:left;height:1px;" colspan="5">\
+		<table class="wikitablewide" style="width:100%;height:100%;text-align:left;margin:0 0 0 0;table-layout:fixed">\
+			<tr>\
+				<td style="width:20%;padding-left:5px;">Level 5</td>\
+				<td style="width:80%;padding-left:5px;">'+data.level5+'</td>\
+			</tr>\
+			<tr>\
+				<td style="width:20%;padding-left:5px;">Level 10</td>\
+				<td style="width:80%;padding-left:5px;">'+data.level10+'</td>\
+			</tr>\
+			<tr>\
+				<td style="width:20%;padding-left:5px;">Level 15</td>\
+				<td style="width:80%;padding-left:5px;">'+data.level15+'</td>\
+			</tr>\
+			<tr>\
+				<td style="width:20%;padding-left:5px;">Level 20</td>\
+				<td style="width:80%;padding-left:5px;">'+data.level20+'</td>\
+			</tr>\
+			<tr>\
+				<td style="width:20%;padding-left:5px;">Level 25</td>\
+				<td style="width:80%;padding-left:5px;">'+data.level25+'</td>\
+			</tr>\
+			<tr>\
+				<td style="width:20%;padding-left:5px;">Level 30</td>\
+				<td style="width:80%;padding-left:5px;">'+data.level30+'</td>\
+			</tr>\
+		</table>\
+	</td>';
+	console.log(text);
+	document.getElementById("lbRow1").innerHTML = text;
+	document.getElementById("lbTitle").innerHTML = "Strengthen Level";
+}
 
 window.onhashchange = function() {
 	window.location.reload();

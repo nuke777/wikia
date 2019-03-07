@@ -516,7 +516,9 @@
 				</tr>
 				<tr>
 					<td style="padding-left:5px"><img src="Images/armor_icon.png">&emsp;Armor</td>
-					<td colspan="3" style="text-align:left;padding-left:5px" id="shipStatsArmor"></td>
+					<td style="text-align:center;padding-left:5px" id="shipStatsArmor"></td>
+					<td style="padding-left:5px"><img>Luck</td>
+					<td style="text-align:center;padding-left:5px" id="shipStatsLuck"></td>
 				</tr>
 			</table>
 		</td>
@@ -529,101 +531,103 @@
 
 <!-- Equipments -->
 <table class="wikitable-a" style="width:100%;" id="shipEquipmentTable">
-	<tr style="text-align:center">
-		<td colspan="5"  style="background:#000000;height:30px" id="shipRarityColor5">
-			<b>
-				<font style="vertical-align: inherit;">Limit Break</font>
-			</b>
-		</td>
-	</tr> 
-	<tr style="text-align:center">
-		<td>Tier 1</td>
-		<td colspan="4" id="shipLimitBreakT1"></td>
-	</tr>	
-	<tr style="text-align:center">
-		<td>Tier 2</td>
-		<td colspan="4" id="shipLimitBreakT2"></td>
-	</tr>	
-	<tr style="text-align:center">
-		<td>Tier 3</td>
-		<td colspan="4" id="shipLimitBreakT3"></td>
-	</tr>
-	<tr style="text-align:center">
-		<td colspan="5"  style="background:#24252d;height:30px">
-			<b>
-				<font style="vertical-align: inherit;">Equipments</font>
-			</b>
-		</td>
-	</tr> 
-	<tr style="text-align:center;background:#24252d;vertical-align:top">
-		<td>
-			<b>Slot</b>
-		</td>
-		<td>
-			<b>Equipment Type</b>
-		</td>
-		<td>
-			<b>Efficiency</b><br>
-			<font style="font-size:10px">LB Rank 0/1/2/3</font>
-		</td>
-		<td>
-			<b>Quantity</b><br>
-			<font style="font-size:10px">LB Rank 0/1/2/3</font>
-		</td>
-		<td>
-			<b>Preload</b><br>
-			<font style="font-size:10px">LB Rank 0/1/2/3</font>
-		</td>
-	</tr> 
-	<tr style="text-align:center;">
-		<td>1</td>
-		<td id="shipEquipmentLoadoutType1"></td>
-		<td id="shipEquipmentLoadoutEfficiency1"></td>
-		<td id="shipEquipmentLoadoutQuantity1"></td>
-		<td id="shipEquipmentLoadoutPreload1"></td>
-	</tr>
-	<tr style="text-align:center;">
-		<td>2</td>
-		<td id="shipEquipmentLoadoutType2"></td>
-		<td id="shipEquipmentLoadoutEfficiency2"></td>
-		<td id="shipEquipmentLoadoutQuantity2"></td>
-		<td id="shipEquipmentLoadoutPreload2"></td>
-	</tr>
-	<tr style="text-align:center;">
-		<td>3</td>
-		<td id="shipEquipmentLoadoutType3"></td>
-		<td id="shipEquipmentLoadoutEfficiency3"></td>
-		<td id="shipEquipmentLoadoutQuantity3"></td>
-		<td id="shipEquipmentLoadoutPreload3"></td>
-	</tr>
-	<tr style="text-align:center;">
-		<td>4</td>
-		<td id="shipEquipmentLoadoutType4"></td>
-		<td id="shipEquipmentLoadoutEfficiency4"></td>
-		<td id="shipEquipmentLoadoutQuantity4"></td>
-		<td id="shipEquipmentLoadoutPreload4"></td>
-	</tr>
-	<tr style="text-align:center;">
-		<td>5</td>
-		<td id="shipEquipmentLoadoutType5"></td>
-		<td id="shipEquipmentLoadoutEfficiency5"></td>
-		<td id="shipEquipmentLoadoutQuantity5"></td>
-		<td id="shipEquipmentLoadoutPreload5"></td>
-	</tr>
-	<tr style="text-align:center">
-		<td colspan="5"  style="background:#24252d;height:30px">
-			<b>
-				<font style="vertical-align: inherit;">Default Equipments</font>
-			</b>
-		</td>
-	</tr>
-	<tr>
-		<td colspan="5" style="text-align:left;height:1px;">
-			<table id="shipDefaultEquipment" class="wikitablewide" style="width:100%;height:100%;text-align:left;margin:0 0 0 0;">
-				
-			</table>
-		</td>
-	</tr>
+	<tbody id="shipEquipmentTableBody">
+		<tr style="text-align:center">
+			<td colspan="5"  style="background:#000000;height:30px" id="shipRarityColor5">
+				<b>
+					<font style="vertical-align: inherit;" id="lbTitle">Limit Break</font>
+				</b>
+			</td>
+		</tr> 
+		<tr style="text-align:center" id="lbRow1">
+			<td>Tier 1</td>
+			<td colspan="4" id="shipLimitBreakT1"></td>
+		</tr>	
+		<tr style="text-align:center" id="lbRow2">
+			<td>Tier 2</td>
+			<td colspan="4" id="shipLimitBreakT2"></td>
+		</tr>	
+		<tr style="text-align:center" id="lbRow3">
+			<td>Tier 3</td>
+			<td colspan="4" id="shipLimitBreakT3"></td>
+		</tr>
+		<tr style="text-align:center">
+			<td colspan="5"  style="background:#24252d;height:30px">
+				<b>
+					<font style="vertical-align: inherit;">Equipments</font>
+				</b>
+			</td>
+		</tr> 
+		<tr style="text-align:center;background:#24252d;vertical-align:top">
+			<td>
+				<b>Slot</b>
+			</td>
+			<td>
+				<b>Equipment Type</b>
+			</td>
+			<td>
+				<b>Efficiency</b><br>
+				<font style="font-size:10px">LB Rank 0/1/2/3</font>
+			</td>
+			<td>
+				<b>Quantity</b><br>
+				<font style="font-size:10px">LB Rank 0/1/2/3</font>
+			</td>
+			<td>
+				<b>Preload</b><br>
+				<font style="font-size:10px">LB Rank 0/1/2/3</font>
+			</td>
+		</tr> 
+		<tr style="text-align:center;">
+			<td>1</td>
+			<td id="shipEquipmentLoadoutType1"></td>
+			<td id="shipEquipmentLoadoutEfficiency1"></td>
+			<td id="shipEquipmentLoadoutQuantity1"></td>
+			<td id="shipEquipmentLoadoutPreload1"></td>
+		</tr>
+		<tr style="text-align:center;">
+			<td>2</td>
+			<td id="shipEquipmentLoadoutType2"></td>
+			<td id="shipEquipmentLoadoutEfficiency2"></td>
+			<td id="shipEquipmentLoadoutQuantity2"></td>
+			<td id="shipEquipmentLoadoutPreload2"></td>
+		</tr>
+		<tr style="text-align:center;">
+			<td>3</td>
+			<td id="shipEquipmentLoadoutType3"></td>
+			<td id="shipEquipmentLoadoutEfficiency3"></td>
+			<td id="shipEquipmentLoadoutQuantity3"></td>
+			<td id="shipEquipmentLoadoutPreload3"></td>
+		</tr>
+		<tr style="text-align:center;">
+			<td>4</td>
+			<td id="shipEquipmentLoadoutType4"></td>
+			<td id="shipEquipmentLoadoutEfficiency4"></td>
+			<td id="shipEquipmentLoadoutQuantity4"></td>
+			<td id="shipEquipmentLoadoutPreload4"></td>
+		</tr>
+		<tr style="text-align:center;">
+			<td>5</td>
+			<td id="shipEquipmentLoadoutType5"></td>
+			<td id="shipEquipmentLoadoutEfficiency5"></td>
+			<td id="shipEquipmentLoadoutQuantity5"></td>
+			<td id="shipEquipmentLoadoutPreload5"></td>
+		</tr>
+		<tr style="text-align:center">
+			<td colspan="5"  style="background:#24252d;height:30px">
+				<b>
+					<font style="vertical-align: inherit;">Default Equipments</font>
+				</b>
+			</td>
+		</tr>
+		<tr>
+			<td colspan="5" style="text-align:left;height:1px;">
+				<table id="shipDefaultEquipment" class="wikitablewide" style="width:100%;height:100%;text-align:left;margin:0 0 0 0;">
+					
+				</table>
+			</td>
+		</tr>
+	</tbody>
 </table>
 
 </div>
