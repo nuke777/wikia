@@ -1,0 +1,605 @@
+{
+  "name": "Hardy",
+  "nameJP": "ハーディ",
+  "nameCN": "勇敢",
+  "class": "H",
+  "hull": "Destroyer",
+  "prefix": "HMS",
+  "ID": "096",
+  "file_id": "096_Hardy",
+  "navy": "Royal Navy",
+  "initialStar": "★★☆☆☆",
+  "rarity": "Elite",
+  "buildTime": "00:26:00",
+  "acquisitionMethod": "Limited in Light Construction, Clear SP3 of event \"Star of the Shining Fjord\" total 60 times",
+  "enhance": {
+    "firepower": "",
+    "torpedo": "",
+    "aviation": "",
+    "reload": ""
+  },
+  "scrap": {
+    "gold": "4",
+    "oil": "3",
+    "medal": "4"
+  },
+  "skin": {
+    "1": {
+      "name": "Default",
+      "description": "H-class Destroyer - Hardy. Pennant number: H87",
+      "expression": {
+        "1": {
+          "label": "Default"
+        },
+        "2": {
+          "label": "Default"
+        },
+        "3": {
+          "label": "Default"
+        },
+        "4": {
+          "label": "Default"
+        }
+      }
+    }
+  },
+  "releaseDate": {
+    "JP": "March 7, 2019",
+    "CN": "March 7, 2019",
+    "KR": "",
+    "EN": ""
+  },
+  "voiceActress": "",
+  "artist": {
+    "name": "Alisa",
+    "weibo": "https://weibo.com/u/6056658230",
+    "twitter": "",
+    "pixiv": "https://www.pixiv.net/member.php?id=1966676",
+    "other": ""
+  },
+  "parameters": {
+    "hp": "D",
+    "antiAir": "D",
+    "evasion": "A",
+    "aviation": "E",
+    "torpedo": "B",
+    "firepower": "D"
+  },
+  "stats": {
+    "100": {
+      "hp": "1265",
+      "armor": "Light",
+      "reload": "175",
+      "firepower": "70",
+      "torpedo": "334",
+      "evasion": "204",
+      "antiAir": "136",
+      "aviation": "0",
+      "cost": "8",
+      "asw": "172",
+      "speed": "43"
+    },
+    "120": {
+      "hp": "1518",
+      "armor": "Light",
+      "reload": "201",
+      "firepower": "81",
+      "torpedo": "374",
+      "evasion": "210",
+      "antiAir": "157",
+      "aviation": "0",
+      "cost": "9",
+      "asw": "192",
+      "speed": "43"
+    },
+    "base": {
+      "hp": "245",
+      "armor": "Light",
+      "reload": "76",
+      "firepower": "15",
+      "torpedo": "75",
+      "evasion": "78",
+      "antiAir": "29",
+      "aviation": "0",
+      "cost": "2",
+      "asw": "47",
+      "speed": "43"
+    },
+    "100retrofit": {
+      "hp": "",
+      "armor": "",
+      "reload": "",
+      "firepower": "",
+      "torpedo": "",
+      "evasion": "",
+      "antiAir": "",
+      "aviation": "",
+      "cost": "",
+      "asw": "",
+      "speed": ""
+    },
+    "120retrofit": {
+      "hp": "",
+      "armor": "",
+      "reload": "",
+      "firepower": "",
+      "torpedo": "",
+      "evasion": "",
+      "antiAir": "",
+      "aviation": "",
+      "cost": "",
+      "asw": "",
+      "speed": ""
+    }
+  },
+  "limitBreak": {
+    "tier1": "Gains Full Barrage I / Torpedo Efficiency +5%",
+    "tier2": "Max Torpedo Capacity +1 / Pre-loaded Torpedo +1 / Torpedo Efficiency +10%",
+    "tier3": "Upgrades Full Barrage I→II / All Weapon Efficiency +5%"
+  },
+  "equipmentLoadout": {
+    "1": {
+      "type": "Destroyer Gun",
+      "efficiency": "120%/120%/120%/125%",
+      "amount": "1/1/1/1",
+      "preload": "0/0/0/0"
+    },
+    "2": {
+      "type": "Torpedo",
+      "efficiency": "120%/125%/135%/140%",
+      "amount": "1/1/2/2",
+      "preload": "0/0/1/1"
+    },
+    "3": {
+      "type": "Anti-aircraft Gun",
+      "efficiency": "70%/70%/70%/75%",
+      "amount": "1/1/1/1",
+      "preload": "0/0/0/0"
+    },
+    "4": {
+      "type": "Auxilliary",
+      "efficiency": "-",
+      "amount": "-",
+      "preload": "-"
+    },
+    "5": {
+      "type": "Auxilliary",
+      "efficiency": "-",
+      "amount": "-",
+      "preload": "-"
+    }
+  },
+  "defaultEquipment": {
+    "1": "Single 120mm (QF Mark IX) T1"
+  },
+  "skill": {
+    "1": {
+      "name": "Concerto in the Unfreezing port",
+      "type": "Offensive",
+      "requirement": "Default Unlocked",
+      "description": "Upon sortie start, increase crit rate own Torpedo increased by 10.0% (30.0%), increase damage of allied Destroyers by 5.0% (15.0%), and increase allied Royal Navy Destroyer's Torpedo by 4.5% (12.0%)."
+    },
+    "2": {
+      "name": "The Star of the Fjord",
+      "type": "Offensive",
+      "requirement": "Default Unlocked",
+      "description": "On first Torpedo launch, releases a powerful barrage based on skill level. Can only do once per battle."
+    },
+    "3": {
+      "name": "Full Barrage I-II",
+      "type": "Offensive",
+      "requirement": "Limit Break Rank 1, Rank 3 upgrade",
+      "description": "Every 15 (10) times the main battery is fired, trigger Full Barrage - H-class I (II)"
+    }
+  },
+  "build": {
+    "light": {
+      "JP": "✓",
+      "CN": "✓",
+      "EN": "✓"
+    },
+    "heavy": {
+      "JP": "-",
+      "CN": "-",
+      "EN": "-"
+    },
+    "special": {
+      "JP": "-",
+      "CN": "-",
+      "EN": "-"
+    },
+    "limited": {
+      "JP": "-",
+      "CN": "-",
+      "EN": "-"
+    }
+  },
+  "drop": {
+    "droppable": "false",
+    "list": {
+      "1": {
+        "event": "World",
+        "chapter": {
+          "1": {
+            "label": "Ch.2",
+            "node": {
+              "1": {
+                "drop": "✓",
+                "note": "JP Only"
+              },
+              "2": {
+                "drop": "✓",
+                "note": "JP Only"
+              },
+              "3": {
+                "drop": "✓",
+                "note": "JP Only"
+              },
+              "4": {
+                "drop": "✓",
+                "note": "JP Only"
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "lines": {
+    "skin": {
+      "1": {
+        "label": "Default",
+        "dialogue": {
+          "1": {
+            "event": "Ship Description",
+            "media": "",
+            "chinese": "H级驱逐舰—勇敢，舷号H87",
+            "chineseTL": "H class destroyer Hardy. Pennant number H87.",
+            "chineseNote": "",
+            "japanese": "",
+            "japaneseTL": "",
+            "japaneseNote": "",
+            "english": "",
+            "englishNote": ""
+          },
+          "2": {
+            "event": "Self Introduction",
+            "media": "",
+            "chinese": "我是皇家海军H级的领舰勇敢号，纳尔维克海战时率领妹妹们突入了铁血港口，虽然重创了敌方，但也被对方的援军给……哼，要是再给我一点时间的话……",
+            "chineseTL": "I'm the Royal navy's H Class ship Hardy. I led my sisters to battle in Narvik. Though we hurt the enemy, their reinforcements... tch, if only I had more time..",
+            "chineseNote": "",
+            "japanese": "",
+            "japaneseTL": "",
+            "japaneseNote": "",
+            "english": "",
+            "englishNote": ""
+          },
+          "3": {
+            "event": "Acquisition",
+            "media": "",
+            "chinese": "幸会，指挥官阁下。皇家海军，勇敢，向您报道",
+            "chineseTL": "Lord Commander. The Royal Navy's Hardy, reporting for duty.",
+            "chineseNote": "",
+            "japanese": "",
+            "japaneseTL": "",
+            "japaneseNote": "",
+            "english": "",
+            "englishNote": ""
+          },
+          "4": {
+            "event": "Login",
+            "media": "",
+            "chinese": "稍微有点慢了，阁下，请尽快进入工作",
+            "chineseTL": "You're slow. Lord Commander, please hurry up to work.",
+            "chineseNote": "",
+            "japanese": "",
+            "japaneseTL": "",
+            "japaneseNote": "",
+            "english": "",
+            "englishNote": ""
+          },
+          "5": {
+            "event": "Details",
+            "media": "",
+            "chinese": "无论什么事都需要通过反复训练才能真正掌握，阁下，这点你应该也很清楚吧",
+            "chineseTL": "Rigorous training is required to truly master any skill. Lord commander, surely this is something you understand well.",
+            "chineseNote": "",
+            "japanese": "",
+            "japaneseTL": "",
+            "japaneseNote": "",
+            "english": "",
+            "englishNote": ""
+          },
+          "6": {
+            "event": "Idle 1",
+            "media": "",
+            "chinese": "办公室里空气真是舒适呢，呼…？！我、我才没有打瞌睡哦！",
+            "chineseTL": "The atmosphere in the office is really comfortable... Huh!? I-I didn't doze off!",
+            "chineseNote": "",
+            "japanese": "",
+            "japaneseTL": "",
+            "japaneseNote": "",
+            "english": "",
+            "englishNote": ""
+          },
+          "7": {
+            "event": "Idle 2",
+            "media": "",
+            "chinese": "虽说我是领舰，但那只是因为大家都信赖我，并不是地位上有什么高下",
+            "chineseTL": "I may be a leader but that's earned through trust and not rank.",
+            "chineseNote": "",
+            "japanese": "",
+            "japaneseTL": "",
+            "japaneseNote": "",
+            "english": "",
+            "englishNote": ""
+          },
+          "8": {
+            "event": "Idle 3",
+            "media": "",
+            "chinese": "猎人，是不是你偷偷吃了我的蛋糕！……啊，不好意思，阁下，吵到您了吗？",
+            "chineseTL": "Hunter, was it you who secretly ate my cake!? Oh.. apologies Lord Commander, have we disturbed you?",
+            "chineseNote": "",
+            "japanese": "",
+            "japaneseTL": "",
+            "japaneseNote": "",
+            "english": "",
+            "englishNote": ""
+          },
+          "9": {
+            "event": "Touch",
+            "media": "",
+            "chinese": "呀！……阁下，请不要突然碰我",
+            "chineseTL": "Ah! Lord Commander, please don't touch me so suddenly.",
+            "chineseNote": "",
+            "japanese": "",
+            "japaneseTL": "",
+            "japaneseNote": "",
+            "english": "",
+            "englishNote": ""
+          },
+          "10": {
+            "event": "Special Touch",
+            "media": "",
+            "chinese": "刺剑虽是装饰，戳到了也是很疼的！",
+            "chineseTL": "Though this sword may be ceremonial, a jab from it will still hurt!",
+            "chineseNote": "",
+            "japanese": "",
+            "japaneseTL": "",
+            "japaneseNote": "",
+            "english": "",
+            "englishNote": ""
+          },
+          "11": {
+            "event": "Mission",
+            "media": "",
+            "chinese": "阁下，公文批阅完了的话，就开始进行任务吧",
+            "chineseTL": "Lord Commander - if you have finished reviewing the documents, let us begin the mission.",
+            "chineseNote": "",
+            "japanese": "",
+            "japaneseTL": "",
+            "japaneseNote": "",
+            "english": "",
+            "englishNote": ""
+          },
+          "12": {
+            "event": "Mission Complete",
+            "media": "",
+            "chinese": "阁下，快看，奖励有不少呢~",
+            "chineseTL": "Lord Commander, come quick! Rewards aplenty~",
+            "chineseNote": "",
+            "japanese": "",
+            "japaneseTL": "",
+            "japaneseNote": "",
+            "english": "",
+            "englishNote": ""
+          },
+          "13": {
+            "event": "Mail",
+            "media": "",
+            "chinese": "指挥官，我可不会每次都帮您拿邮件哦！",
+            "chineseTL": "Commander, I won't always be the one to retrieve your mail!",
+            "chineseNote": "",
+            "japanese": "",
+            "japaneseTL": "",
+            "japaneseNote": "",
+            "english": "",
+            "englishNote": ""
+          },
+          "14": {
+            "event": "Return from Sortie",
+            "media": "",
+            "chinese": "阁下，刚才的战斗，应该还有些需要检讨的地方吧？",
+            "chineseTL": "Lord Commander, surely there are things we could improve on from the last battle?",
+            "chineseNote": "",
+            "japanese": "",
+            "japaneseTL": "",
+            "japaneseNote": "",
+            "english": "",
+            "englishNote": ""
+          },
+          "15": {
+            "event": "Commission Complete",
+            "media": "",
+            "chinese": "身为领导者，有给属下发布任务的权利，但也要认真对待她们的努力才行",
+            "chineseTL": "As Commander, you have the right to issue orders to your subordinates. But it is only right that proper acknowledgement is given for their hard work.",
+            "chineseNote": "",
+            "japanese": "",
+            "japaneseTL": "",
+            "japaneseNote": "",
+            "english": "",
+            "englishNote": ""
+          },
+          "16": {
+            "event": "Enhancement",
+            "media": "",
+            "chinese": "呼，虽然得到了强化，训练也还不能落下……",
+            "chineseTL": "hu.. Though I have been strengthened, I mustn't fall behind on training.",
+            "chineseNote": "",
+            "japanese": "",
+            "japaneseTL": "",
+            "japaneseNote": "",
+            "english": "",
+            "englishNote": ""
+          },
+          "17": {
+            "event": "Sortie Start",
+            "media": "",
+            "chinese": "打起精神，不要给敌人可乘之机！",
+            "chineseTL": "Buck up! Don't give the enemy any chances!",
+            "chineseNote": "",
+            "japanese": "",
+            "japaneseTL": "",
+            "japaneseNote": "",
+            "english": "",
+            "englishNote": ""
+          },
+          "18": {
+            "event": "MVP",
+            "media": "",
+            "chinese": "各位，越是胜利的时候，越不能放松警惕",
+            "chineseTL": "Everyone, the more you win, the less you should relax!",
+            "chineseNote": "",
+            "japanese": "",
+            "japaneseTL": "",
+            "japaneseNote": "",
+            "english": "",
+            "englishNote": ""
+          },
+          "19": {
+            "event": "Defeat",
+            "media": "",
+            "chinese": "立刻撤退，不要恋战！",
+            "chineseTL": "Retreat immediately! Don't stay and fight!",
+            "chineseNote": "",
+            "japanese": "",
+            "japaneseTL": "",
+            "japaneseNote": "",
+            "english": "",
+            "englishNote": ""
+          },
+          "20": {
+            "event": "Skill Activation",
+            "media": "",
+            "chinese": "不会让你们有机可乘的！",
+            "chineseTL": "I won't give you any chances!",
+            "chineseNote": "",
+            "japanese": "",
+            "japaneseTL": "",
+            "japaneseNote": "",
+            "english": "",
+            "englishNote": ""
+          },
+          "21": {
+            "event": "Low Health",
+            "media": "",
+            "chinese": "咬紧牙关……",
+            "chineseTL": "Keep a stiff upper lip",
+            "chineseNote": "",
+            "japanese": "",
+            "japaneseTL": "",
+            "japaneseNote": "",
+            "english": "",
+            "englishNote": ""
+          },
+          "22": {
+            "event": "Affinity (Disappointed)",
+            "media": "",
+            "chinese": "我最讨厌不认真的人了！",
+            "chineseTL": "I hate people who aren't serious!",
+            "chineseNote": "",
+            "japanese": "",
+            "japaneseTL": "",
+            "japaneseNote": "",
+            "english": "",
+            "englishNote": ""
+          },
+          "23": {
+            "event": "Affinity (Stranger)",
+            "media": "",
+            "chinese": "喝！……啊，是阁下吗，抱歉，一旦有陌生的气息接近我，我就会下意识出剑……无论何时都不放松警惕，是我的准则",
+            "chineseTL": "*sip*... Ah! It's Lord Commander. My apologies. When I feel a strange presence around my I'll instinctively draw my sword. Always vigilant, that's my motto.",
+            "chineseNote": "",
+            "japanese": "",
+            "japaneseTL": "",
+            "japaneseNote": "",
+            "english": "",
+            "englishNote": ""
+          },
+          "24": {
+            "event": "Affinity (Friendly)",
+            "media": "",
+            "chinese": "茶会吗？非常抱歉，我还有训练没有完成……不过，能请您帮我带一块蛋糕吗？",
+            "chineseTL": "A tea party? Sorry, but I'm in the middle of training... no, could you please bring me a slice of cake?",
+            "chineseNote": "",
+            "japanese": "",
+            "japaneseTL": "",
+            "japaneseNote": "",
+            "english": "",
+            "englishNote": ""
+          },
+          "25": {
+            "event": "Affinity (Like)",
+            "media": "",
+            "chinese": "我知道哦！你想说有时候我太过谨慎了，对吧？这样的话，我也有话要说…阁下你实在太松懈了！从今往后，我可是会好好看管您的！做、做好心理准备吧！",
+            "chineseTL": "I know! You think I'm too prudish, don't you? In that case I have something to say: Lord commander, you are too relaxed! From today on I will look after you! P-prepare yourself!",
+            "chineseNote": "",
+            "japanese": "",
+            "japaneseTL": "",
+            "japaneseNote": "",
+            "english": "",
+            "englishNote": ""
+          },
+          "26": {
+            "event": "Affinity (Love)",
+            "media": "",
+            "chinese": "阁下，就算您想要偷偷靠近我也是没有用的，我已经完全记下您的气息了……呀！您、您这人，真是的，被我这么说后，居然反而正大光明抱了过来……噗，好痒，呀哈哈哈哈……",
+            "chineseTL": "Lord Commander, it's useless to try and sneak up to me. I have memorized your smell.. Oh! Y-you.. really now. Right after getting caught you just boldly ran up to me and hugged me. Oh, it's itchy... hahaha....",
+            "chineseNote": "",
+            "japanese": "",
+            "japaneseTL": "",
+            "japaneseNote": "",
+            "english": "",
+            "englishNote": ""
+          },
+          "27": {
+            "event": "Pledge",
+            "media": "",
+            "chinese": "我明白，我有时候太过谨慎，多亏了您的陪伴，现在已经好多了……不过，我要说，您有时候也太过松懈了，从今往后，我会好好督促您的，阁下",
+            "chineseTL": "I understand, I'm too prudish sometimes. But thanks to Lord Commander's company I have gotten much better. However I must say.. you are still too lax! From now on I will properly supervise you, Lord commander.",
+            "chineseNote": "",
+            "japanese": "",
+            "japaneseTL": "",
+            "japaneseNote": "",
+            "english": "",
+            "englishNote": ""
+          },
+          "28": {
+            "event": "Easter Egg 1 (Warspite)",
+            "media": "",
+            "chinese": "这一次，一起出击吧！",
+            "chineseTL": "Let's sortie together this time!",
+            "chineseNote": "",
+            "japanese": "",
+            "japaneseTL": "",
+            "japaneseNote": "",
+            "english": "",
+            "englishNote": ""
+          },
+          "29": {
+            "event": "Easter Egg 2 (Queen Elizabeth)",
+            "media": "",
+            "chinese": "荣光属于您，陛下。",
+            "chineseTL": "Glory belongs to you, your majesty",
+            "chineseNote": "",
+            "japanese": "",
+            "japaneseTL": "",
+            "japaneseNote": "",
+            "english": "",
+            "englishNote": ""
+          }
+        }
+      }
+    }
+  }
+}

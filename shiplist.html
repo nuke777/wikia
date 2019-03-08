@@ -10,6 +10,11 @@
 	
 	<link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
 
+	<!-- Components -->    
+    <script defer src="js/sidebar.js"></script>
+    <script defer src="js/footer.js"></script>
+    <script defer src="js/header.js"></script>
+
     <!-- Bootstrap CSS CDN -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
     <!-- Our Custom CSS -->
@@ -37,12 +42,17 @@
 			xobj.send(null);  
 		}
 		
-		function load(){
+		function load(type, element){
 			loadJSON(function(response) {
 				// Parse JSON string into object
 				var actual_JSON = JSON.parse(response);
 				var text = '';
 				for (var x in actual_JSON){
+
+					if (actual_JSON[x].shipType != type){
+						continue;
+					}
+
 					text = text + '\
 					<div class="maindiv">\
 						<div class="cornerdiv"">';
@@ -112,27 +122,36 @@
 					text = text + '\
 						</div>\
 						<div class="cornerdiv">'+x+'</div>';
-					if (actual_JSON[x].rarity == "Super Rare"){
+					if (actual_JSON[x].rarity == "Super Rare" || actual_JSON[x].rarity == "Priority"){
 						text = text + '\
 						<div class="imgdiv" style="background-color:#beb988">';
 					} else if (actual_JSON[x].rarity == "Elite"){
 						text = text + '\
 						<div class="imgdiv" style="background-color:#b080b0">';
+					} else if (actual_JSON[x].rarity == "Rare"){
+						text = text + '\
+						<div class="imgdiv" style="background-color:#8cb3b8">';
 					}
 					text = text + '\
-							<a href="ship#'+actual_JSON[x].link+'"><img src="'+actual_JSON[x].icon+'"></a>\
+							<a href="ship#'+actual_JSON[x].link+'"><img src="'+actual_JSON[x].icon+'" style="height:100px;width: 100px"></a>\
 						</div>\
 						<div class="textdiv">\
 							<a href="ship#'+actual_JSON[x].link+'">'+actual_JSON[x].name+'</a>\
 						</div>\
 					</div>';
 				}
-				document.getElementById('listtable').innerHTML = text;
+				document.getElementById(element).innerHTML = text;
 			});
 		}
 		
 		window.onload = function() {
-			load();
+			load("common", "listtable");
+			load("research", "listtablePR");
+			load("collab", "listtableCollab");
+			addFooter();
+		    addSideBar();
+		    addHeader();
+		    document.getElementById("sbar_Ship").className = "active";
 		};
 	</script>
 
@@ -142,70 +161,15 @@
 <div class="wrapper">
         <!-- Sidebar  -->
         <nav id="sidebar">
-            <div class="sidebar-header">
-                <h3>/alg/ Wikipedia</h3>				
-            </div>
-			<div class="sidebar-subheader">
-                Database	
-            </div>
-			
-            <ul class="list-unstyled components">
-                <li class="active">
-                    <a href="shiplist">Ship</a>
-                </li>
-                <li>
-                    <a href="">Equipment</a>
-                    
-                </li>
-            </ul>
-			
-			<div class="sidebar-subheader">
-                Patch Notes	
-            </div>
-			
-			<ul class="list-unstyled components">
-                <li>
-                    <a href="patchnotes#jp">JP Server</a>
-                </li>
-                <li>
-                    <a href="patchnotes#en">EN Server</a>
-                    
-                </li>
-            </ul>
+            
 			
         </nav>
 
         <!-- Page Content  -->
         <div id="content">
 
-            <nav class="navbar navbar-expand-lg navbar-light">
-                <div class="container-fluid">
-
-                    <button type="button" id="sidebarCollapse" class="btn btn-secondary vshide">
-                        <i class="fas fa-align-left"></i>
-                        <span></span>
-                    </button>
-                    <button class="btn btn-dark d-inline-block d-lg-none ml-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                        <i class="fas fa-align-justify"></i>
-                    </button>
-
-                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                        <ul class="nav navbar-nav ml-auto">
-                            <li class="nav-item active">
-                                <a class="nav-link" href="#" style="color:#ffffff;">Page</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#" style="color:#ffffff;">Page</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#" style="color:#ffffff;">Page</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#" style="color:#ffffff;">Page</a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
+            <nav class="navbar navbar-expand-lg navbar-light" id="header">
+                
             </nav>
 			
 <!-- content -->
@@ -238,6 +202,57 @@
 	</tr>
 </table>
 
+<table class="wikitablewide" style="width:100%">
+	<tr style="text-align:center;background-color:#24252d;">				
+		<td>
+			Priority Ships
+		</td>
+	</tr>
+	<tr>
+		<td style="text-align:left;padding-bottom:10px;" id="listtablePR">
+			<div class="maindiv">
+				<div class="cornerdiv"">
+					<img src="http://alg-wiki.com/Images/Hull/ca.png" style="padding-left:3px">
+				</div>
+				<div class="centerdiv">
+					<img src="http://alg-wiki.com/Images/Navy/kms_icon.png">
+				</div>				
+				<div class="cornerdiv">242</div>
+				<div class="imgdiv" style="background-color:#b080b0">
+					<img src="https://s3.us-east-2.amazonaws.com/alg-wiki.com/Ships/242_Admiral_Hipper/Icon/icon.png">
+				</div>
+				<div class="textdiv">Admiral Hipper</div>
+			</div>
+		</td>
+		
+	</tr>
+</table>
+
+<table class="wikitablewide" style="width:100%">
+	<tr style="text-align:center;background-color:#24252d;">				
+		<td>
+			Collab Ships
+		</td>
+	</tr>
+	<tr>
+		<td style="text-align:left;padding-bottom:10px;" id="listtableCollab">
+			<div class="maindiv">
+				<div class="cornerdiv"">
+					<img src="http://alg-wiki.com/Images/Hull/ca.png" style="padding-left:3px">
+				</div>
+				<div class="centerdiv">
+					<img src="http://alg-wiki.com/Images/Navy/kms_icon.png">
+				</div>				
+				<div class="cornerdiv">242</div>
+				<div class="imgdiv" style="background-color:#b080b0">
+					<img src="https://s3.us-east-2.amazonaws.com/alg-wiki.com/Ships/242_Admiral_Hipper/Icon/icon.png">
+				</div>
+				<div class="textdiv">Admiral Hipper</div>
+			</div>
+		</td>
+		
+	</tr>
+</table>
 <!-- content -->
 <!-- content -->
 <!-- content -->
@@ -256,23 +271,8 @@
     <!-- jQuery Custom Scroller CDN -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.concat.min.js"></script>
 
-    <script type="text/javascript">
-        $(document).ready(function () {
-            $("#sidebar").mCustomScrollbar({
-                theme: "minimal"
-            });
-
-            $('#sidebarCollapse').on('click', function () {
-                $('#sidebar, #content, #footer').toggleClass('active');
-                $('.collapse.in').toggleClass('in');
-                $('a[aria-expanded=true]').attr('aria-expanded', 'false');
-            });
-        });
-    </script>
 	
 <footer id="footer">
-Azur Lane © is owned by Shanghai Manjuu, Xiamen Yongshi, Shanghai Yostar | All logos and trademarks are property of their respective owners.<br>
-Special thanks to /alg/, English Koumakan Wiki, Chinese Wikis, Japanese Wikis, and to all our contributors. /alg/ wiki © 2019. This is a non-profit website. 
 </footer>
     
 </body>
