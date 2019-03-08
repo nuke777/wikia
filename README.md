@@ -113,6 +113,12 @@ Each skin has its own different set of lines. If you notice the template, aurora
 nodeSettings has 3 fields, "nodetype, node, nodeconnections"
 - "node" is the cell id if the node in the retrofit table in game. Like in microsoft excel or google sheets, the rows are defined by numbers while the columns are defined by letters
 - "nodetype" is the type of node that fills the cell. Can only be of two, a "retronode" which is a1 in the example image and "line" which is c1 in the image
+	- For "line" nodetype, you can omit the rest below like the ff example below:
+```json
+"5": {
+	"nodeSettings": "line, c1, n y n y"
+}
+```
 - "nodeconnections" is the directions on where the node connects to. y means yes, n means no. The format is top right bottom left. In the sample image, a1 connects to the lower cell a2, so the connections are "n n y n" which means: top = no, left = no, bottom = yes, right = no.
 
 #### stat
