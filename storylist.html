@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <title>/alg/ - Azur Lane General Wiki</title>
+	
+	<link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
+
+    <!-- Components -->    
+    <script defer src="js/sidebar.js"></script>
+    <script defer src="js/footer.js"></script>
+    <script defer src="js/header.js"></script>
+
+    <!-- Bootstrap CSS CDN -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+    <!-- Our Custom CSS -->
+    <link rel="stylesheet" href="css\mainstyle.css">
+    <link rel="stylesheet" href="css\storylist.css">
+	<!-- Scrollbar Custom CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.min.css">
+
+
+    <!-- Font Awesome JS -->
+    <script defer src="js/solid.js"></script>
+    <script defer src="js/fontawesome.js"></script>
+
+    <script type="text/javascript">
+        function loadMain(callback) {
+            var path = "json/storylist_main.json";
+            var xobj = new XMLHttpRequest();
+                xobj.overrideMimeType("application/json");
+            xobj.open('GET', path, true); // Replace 'my_data' with the path to your file
+            xobj.onreadystatechange = function () {
+                  if (xobj.readyState == 4 && xobj.status == "200") {
+                    // Required use of an anonymous callback as .open will NOT return a value but simply returns undefined in asynchronous mode
+                    callback(xobj.responseText);
+                  }
+            };
+            xobj.send(null);  
+        }
+
+        function loadEvent(callback) {
+            var path = "json/storylist_event.json";
+            var xobj = new XMLHttpRequest();
+                xobj.overrideMimeType("application/json");
+            xobj.open('GET', path, true); // Replace 'my_data' with the path to your file
+            xobj.onreadystatechange = function () {
+                  if (xobj.readyState == 4 && xobj.status == "200") {
+                    // Required use of an anonymous callback as .open will NOT return a value but simply returns undefined in asynchronous mode
+                    callback(xobj.responseText);
+                  }
+            };
+            xobj.send(null);  
+        }
+
+        function loadChar(callback) {
+            var path = "json/storylist_char.json";
+            var xobj = new XMLHttpRequest();
+                xobj.overrideMimeType("application/json");
+            xobj.open('GET', path, true); // Replace 'my_data' with the path to your file
+            xobj.onreadystatechange = function () {
+                  if (xobj.readyState == 4 && xobj.status == "200") {
+                    // Required use of an anonymous callback as .open will NOT return a value but simply returns undefined in asynchronous mode
+                    callback(xobj.responseText);
+                  }
+            };
+            xobj.send(null);  
+        }
+
+        function loadMainList(){
+            loadMain(function(response) {
+                // Parse JSON string into object
+                var actual_JSON = JSON.parse(response);
+                var text = "";
+
+                for (var x in actual_JSON){
+
+                    text = text + '\
+                    <a href="story#'+actual_JSON[x].link+'">\
+                        <div class="mainBG">\
+                            <div class="mainTextChapCount"><b>'+actual_JSON[x].chapterNumbers+'/'+actual_JSON[x].chapterNumbers+'</b></div>\
+                            <div class="mainTextTitle"><b>'+actual_JSON[x].title+'</b></div>\
+                        </div>\
+                    </a>';
+
+                }
+
+                document.getElementById("mainList").innerHTML = text;
+
+            });
+        }
+
+        function loadEventList(){
+            loadEvent(function(response) {
+                // Parse JSON string into object
+                var actual_JSON = JSON.parse(response);
+                var text = "";
+
+                for (var x in actual_JSON){
+
+                    text = text + '\
+                    <a href="story#'+actual_JSON[x].link+'">\
+                        <div class="eventBG">\
+                            <div class="mainTextChapCount"><b>'+actual_JSON[x].chapterNumbers+'/'+actual_JSON[x].chapterNumbers+'</b></div>\
+                            <div class="mainTextTitle"><b>'+actual_JSON[x].title+'</b></div>\
+                        </div>\
+                    </a>';
+
+                }
+
+                document.getElementById("eventList").innerHTML = text;
+
+            });
+        }
+
+        function loadCharList(){
+            loadChar(function(response) {
+                // Parse JSON string into object
+                var actual_JSON = JSON.parse(response);
+                var text = "";
+
+                for (var x in actual_JSON){
+
+                    text = text + '\
+                    <a href="story#'+actual_JSON[x].link+'">\
+                        <div class="charBG" style="background-image: url(\'https://s3.us-east-2.amazonaws.com/alg-wiki.com/General/story_'+actual_JSON[x].icon+'_folder.png\')">\
+                            <div class="mainTextChapCount"><b>'+actual_JSON[x].chapterNumbers+'/'+actual_JSON[x].chapterNumbers+'</b></div>\
+                            <div class="mainTextTitle"><b>'+actual_JSON[x].title+'</b></div>\
+                        </div>\
+                    </a>';
+
+                }
+
+                document.getElementById("charList").innerHTML = text;
+
+            });
+        }
+
+        window.onload = function() {
+          loadEventList();
+          loadMainList();
+          loadCharList();
+          addFooter();
+          addSideBar();
+          addHeader();
+          document.getElementById("sbar_Story").className = "active";
+        };
+    </script>
+
+</head>
+
+<body>
+<div class="wrapper">
+        <!-- Sidebar  -->
+        <nav id="sidebar">
+            
+			
+        </nav>
+
+        <!-- Page Content  -->
+        <div id="content">
+
+            <nav class="navbar navbar-expand-lg navbar-light" id="header">
+                
+            </nav>
+			
+            <!-- Content -->
+            <!-- Content -->
+            <!-- Content -->
+
+            <table class="wikitablewide" style="width:100%">
+                <tr>
+                    <td style="background:#24252d;font-size:24px;text-align: left;padding: 10px 20px">Main Story</td>
+                </tr>
+                <tr>
+                    <td style="padding:20px;" id="mainList">
+                        
+                    </td>
+                </tr>
+            </table>
+
+            <table class="wikitablewide" style="width:100%">
+                <tr>
+                    <td style="background:#24252d;font-size:24px;text-align: left;padding: 10px 20px">Event Story</td>
+                </tr>
+                <tr>
+                    <td style="padding:20px;" id="eventList">
+                        
+                    </td>
+                </tr>
+            </table>
+
+            <table class="wikitablewide" style="width:100%">
+                <tr>
+                    <td style="background:#24252d;font-size:24px;text-align: left;padding: 10px 20px">Character Story</td>
+                </tr>
+                <tr>
+                    <td style="padding:20px;" id="charList">
+                        
+                    </td>
+                </tr>
+            </table>
+
+		</div>
+    </div>
+
+    <!-- jQuery CDN - Slim version (=without AJAX) -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <!-- Popper.JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
+    <!-- Bootstrap JS -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
+    <!-- jQuery Custom Scroller CDN -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.concat.min.js"></script>
+
+    
+    
+<footer id="footer">
+    
+</footer>
+
+</body>
+
+</html>
