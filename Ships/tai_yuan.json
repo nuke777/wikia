@@ -6,7 +6,7 @@
   "hull": "Destroyer",
   "prefix": "PRAN",
   "ID": "256",
-  "file_id": "256_Tai Yuan",
+  "file_id": "256_Tai_Yuan",
   "navy": "Eastern Radiance",
   "initialStar": "★★☆☆☆",
   "rarity": "Elite",
@@ -36,6 +36,7 @@
     "2": {
       "name": "Clamorous Tortoise",
       "description": "O-on behalf of the An Shan class, we wish a prosperous, happy, and healthy new year to Commander, and to everyone here at port... Umm... even though I made this outfit, I feel a bit embarrassed wearing it... Eh? It looks good on me? Um... th-thank you...",
+      "l2d": "true",
       "expression": {
         "1": {
           "label": "Default"
@@ -142,28 +143,28 @@
     }
   },
   "limitBreak": {
-    "tier1": "Gains Full Barrage I / Main Gun Efficiency +2%",
+    "tier1": "Gains Full Barrage I / Main Gun Efficiency +5%",
     "tier2": "Torpedo Base +1 / Torpedo Pre-Load +1 / All Weapon Efficiency +5%",
     "tier3": "Upgrades Full Barrage I → II / All Weapon Efficiency +5%"
   },
   "equipmentLoadout": {
     "1": {
       "type": "DD Gun",
-      "efficiency": "140% / 155%",
-      "amount": "43466",
-      "preload": "0/0"
+      "efficiency": "140%/145%/150%/155%",
+      "amount": "1/1/1/1",
+      "preload": "0/0/0/0"
     },
     "2": {
       "type": "Torpedo",
-      "efficiency": "90% / 100%",
-      "amount": "43467",
-      "preload": "0/1"
+      "efficiency": "90%/90%/95%/100%",
+      "amount": "1/1/2/2",
+      "preload": "0/0/1/1"
     },
     "3": {
       "type": "Anti-Air Gun",
-      "efficiency": "95% / 105%",
-      "amount": "43466",
-      "preload": "0/0"
+      "efficiency": "95%/95%/100%/105%",
+      "amount": "1/1/1/1",
+      "preload": "0/0/0/0"
     },
     "4": {
       "type": "Auxilliary",
@@ -193,7 +194,7 @@
       "name": "Full Barrage",
       "type": "Offensive",
       "requirement": "Limit Break Rank 1 (I) / Rank 3 (II)",
-      "description": "Every 12 (8) times the main battery is fired, trigger Full Barrage - Arethusa Class I (II)"
+      "description": "Every 15 (10) times the main battery is fired, trigger Full Barrage - Anshan-class I (II)"
     }
   },
   "build": {
@@ -633,7 +634,7 @@
         "dialogue": {
           "1": {
             "event": "Ship Description, Acquisition",
-            "media": "acquisition",
+            "media": "",
             "chinese": "新、新的一年，我谨代表鞍山级祝愿指挥官和港区的大家万事如意、幸福安康…呜…虽然是自己做的衣服，但果然还是好让人害羞啊…欸？很适合我？谢、谢谢…",
             "chineseTL": "O-on behalf of the An Shan class, we wish a prosperous, happy, and healthy new year to Commander, and to everyone here at port... Umm... even though I made this outfit, I feel a bit embarrassed wearing it... Eh? It looks good on me? Um... th-thank you...",
             "chineseNote": "",
@@ -645,7 +646,7 @@
           },
           "2": {
             "event": "Login",
-            "media": "login",
+            "media": "",
             "chinese": "一到春节抚顺姐姐就特别兴奋呢，还会拉着我和长春姐姐到处跑……",
             "chineseTL": "Fu Shun gets really excited during spring festival, she would drag me around with Chang Chun to play...",
             "chineseNote": "",
@@ -657,7 +658,7 @@
           },
           "3": {
             "event": "Details",
-            "media": "details",
+            "media": "",
             "chinese": "指挥官，你知道吗？东煌有关于一种叫“年”的怪兽的古老传说哦。每逢春节，家家户户都会贴红对联，放爆竹来驱赶它呢",
             "chineseTL": "Commander, did you know? In the Eastern Radiance there is a legend about a Nian Shou. During spring festival, everyone would stick red couplets and set off firecrackers to drive it away",
             "chineseNote": "",
@@ -669,7 +670,7 @@
           },
           "4": {
             "event": "Idle 1",
-            "media": "idle_1",
+            "media": "",
             "chinese": "抚、抚顺姐姐，这、这样拆爆竹很危险的啦……欸？要做新的实验？",
             "chineseTL": "Fu-Fu Shun, setting off firecrackers like that is dangerous... eh? New experiments?",
             "chineseNote": "",
@@ -681,7 +682,7 @@
           },
           "5": {
             "event": "Idle 2",
-            "media": "idle_2",
+            "media": "",
             "chinese": "今年的对联…唔，指挥官也来帮忙想想吧？",
             "chineseTL": "This year's couplet... umm, would you like to help me, commander?",
             "chineseNote": "",
@@ -693,7 +694,7 @@
           },
           "6": {
             "event": "Idle 3",
-            "media": "idle_3",
+            "media": "",
             "chinese": "长春姐姐，难得过年，不要一直待在房间里了…",
             "chineseTL": "Chang Chun, since it's New Year, don't always stay in the room all the time...",
             "chineseNote": "",
@@ -705,7 +706,7 @@
           },
           "7": {
             "event": "Touch",
-            "media": "touch",
+            "media": "",
             "chinese": "这身衣服是我自己做的，姐姐们都说好看呢，欸嘿嘿…",
             "chineseTL": "I made these clothes, my sisters said I look good, hehe...",
             "chineseNote": "",
@@ -717,7 +718,7 @@
           },
           "8": {
             "event": "Special Touch",
-            "media": "special_touch",
+            "media": "",
             "chinese": "呜…指、指挥官，乱来的话，这孩子会生气的！",
             "chineseTL": "Uuu... C-commander, if you mess around, this child will get angry!",
             "chineseNote": "",
@@ -729,7 +730,7 @@
           },
           "9": {
             "event": "Return from Sortie",
-            "media": "return_from_sortie",
+            "media": "",
             "chinese": "啊，指挥官，欢迎回来…我在做灯笼…一会能麻烦指挥官帮忙挂起来吗？",
             "chineseTL": "Ah, commander, welcome back... I'm making a lantern... may I get you to help hang it out later?",
             "chineseNote": "",
@@ -741,7 +742,7 @@
           },
           "10": {
             "event": "Affinity (Love)",
-            "media": "affinity_love",
+            "media": "",
             "chinese": "春节的时候，至亲的人们都会为了团圆而聚在一起呢。今、今年除了姐姐们之外，也想和指挥官一起团圆…可以吗…?",
             "chineseTL": "Spring festival is when the dearest people reunite together. T-this year, aside from my sisters, I want to spend time with commander... is it ok...?",
             "chineseNote": "",

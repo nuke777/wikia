@@ -1,0 +1,61 @@
+table.wikitablewide {
+	margin: 1em 0;
+    background-color: #373743;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #5c5d70;
+    border-collapse: collapse;
+    color: #ffffff;
+}
+table.wikitablewide td {
+	border-style: solid;
+	border-width: 1px;
+	border-color: #5c5d70;
+    border-collapse: collapse;
+}
+.btnGeneric {	
+	float: left;
+	display: table;
+	height: 1px;
+    width: 1px;
+	margin-left: 5px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+.btnGenericText {
+	white-space: nowrap;
+	height: 30px;
+    text-align: center;
+    vertical-align: middle;
+    display: table-cell;
+    background-color:#24252d;  
+    border-style:solid;  
+    border-color:#5c5d70;
+    border-width:1px;
+	cursor: pointer;  
+    padding: 0px 7px 0px 7px;
+    font-size: 14px;
+    color:white;
+}
+.btnGenericText:hover {
+	box-shadow: 0px 0px 10px white;
+}
+.btnGenericText:active {
+	box-shadow: 1px 1px 4px white, -1px 1px 4px white, 1px -1px 4px white, -1px -1px 4px white;
+}
+.btnGenericTextActive{
+	white-space: nowrap;
+	height: 30px;
+    text-align: center;
+    vertical-align: middle;
+    display: table-cell;
+    background-color:white; 
+    border-style:solid;   
+    border-color:gray;
+    border-width:1px;
+	cursor: pointer;  
+    padding: 0px 7px 0px 7px;
+    font-size: 14px;
+    color:#24252d;
+    box-shadow: 1px 1px 4px white, -1px 1px 4px white, 1px -1px 4px white, -1px -1px 4px white;
+}
