@@ -96,7 +96,59 @@ The nodes pertain to the playable stages inside the chapter. YOU SHOULD INCLUDE 
           }
 ```
 Each skin has its own different set of lines. If you notice the template, aurora has 3 skins so on the "skin": {"1"} part, you see this repeated 3 times. The "label" is the skin name but this doesn't appear on the page yet but make sure to fill it up with the correct details. the "media" corresponds to the "event" so this needs to be left as it is but if you are willing to help with the media files (in the section below) you can actually edit this to the filename of the sound file. Notes are to be implemented soon but there are already fields for it in the json file.
+### Retrofit Section
+![Retrofit Image](https://i.imgur.com/0JNgi0T.png)
+```json
+"1": {
+	"nodeSettings": "retronode, a1, n n y n",
+	"stat": "evasion, base, Evasion +5",
+	"stage": "1",
+	"desc": "Evasion Enhancement I",
+	"level": "1",
+	"limitBreak": "★★☆☆☆",
+	"material": "bpt1 3, gold 600"
+}
+```
+#### nodeSettings
+nodeSettings has 3 fields, "nodetype, node, nodeconnections"
+- "node" is the cell id if the node in the retrofit table in game. Like in microsoft excel or google sheets, the rows are defined by numbers while the columns are defined by letters
+- "nodetype" is the type of node that fills the cell. Can only be of two, a "retronode" which is a1 in the example image and "line" which is c1 in the image
+- "nodeconnections" is the directions on where the node connects to. y means yes, n means no. The format is top right bottom left. In the sample image, a1 connects to the lower cell a2, so the connections are "n n y n" which means: top = no, left = no, bottom = yes, right = no.
 
+#### stat
+stat has 3 fields, "stat, modifier, description"
+- "stat" is basically the stat of the ship that is increased. Can be one of the following values: aviation, asw, divebomber, firepower, evasion, fighter, hit, hp, maingun, modernization, reload, auxgun, skill, speed, torpedobomber, torpedo.
+- "modifier" is which type of stat increase it does. It can be of the two values: "base" is flat increase, "efficiency" is percentage increase. There is an exception for stats tagged as "skill" and "modernization", in this case, the "modifier" can be: offensive, defensive or support.
+- "description" is the general description of the stat increase. eg. "Evasion +5"
+
+#### stage
+Up to how many times the node can be reinforced. In the case of d1 in the sample image, it's 2
+
+#### desc
+This is the description you see in the node in the sample image, in the case of a1, it's "Evasion Enhancement I"
+
+#### level
+The level where the node can be unlocked
+
+#### limitBreak
+The limit break rank allowed for the node to be unlocked
+
+#### material
+Can be of multiple field entries, but the format is generally
+````
+item amount, item amount, item amount
+````
+- "item" can only have fixed values like the following:
+	- For blueprints, the format is bpt1 where t1 is the tier of the blueprint up to t3
+	- For upgrade plates, the format is plt1_aux where t1 is the tier of the upgrade plate up to t3 and the value after the underscore can be of any of the ff:
+		- aux = auxilliary plates
+		- torp = torpedo plates
+		- gun = gun plates
+		- air = aircraft plates
+	- For gold, just type "gold"
+	- For limitbreak material (bullins/dupe) just use "duplicate"
+	- For special items like san diego and warspite's items, use "special"
+- "amount" is the number of needed items
 ## Media files
 
 If you have extra time to assemble the media files as well, you can check the file structure from this link https://mega.nz/#!1Q9mWSZR!qpC2DluKhYgfq1LrT3ofW_9Tm0LhpaSV7zB9dqk5Sd4. It contains the format of the file names as well as the image resolutions. 
