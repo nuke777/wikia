@@ -152,17 +152,11 @@ Just reply to the current OP post in /alg/ if you have a submission.
 
 Adding the following json files provided by anons below:
 
-- Neptune https://pastebin.com/XJuAH0Bv 
-- HDN Neptune https://pastebin.com/EPMRWHeL
-- California: to add media files
-- Lexington: to add media files
+- -
 
 Also
 - Add retrofit section to ship page
-- PR compatibility on ship page
-- Collabs and Retrofits section on ship list
 - Filters on ship list
 - Equipment page
 - Events page
 
-Also we need somebody that could rip images/sounds from the game

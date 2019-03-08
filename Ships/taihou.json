@@ -1,0 +1,751 @@
+{
+  "name": "Taihou",
+  "nameJP": "大鳳",
+  "nameCN": "鹩",
+  "class": "Taihou",
+  "hull": "Aircraft Carrier",
+  "prefix": "IJN",
+  "ID": "230",
+  "file_id": "230_Taihou",
+  "navy": "Sakura Empire",
+  "initialStar": "★★★☆☆☆",
+  "rarity": "Super Rare",
+  "buildTime": "04:45:00",
+  "acquisitionMethod": "Limited Build, First Anniversary",
+  "enhance": {
+    "firepower": "0",
+    "torpedo": "0",
+    "aviation": "63",
+    "reload": "8"
+  },
+  "scrap": {
+    "gold": "9",
+    "oil": "3",
+    "medal": "10"
+  },
+  "skin": {
+    "1": {
+      "name": "Default",
+      "description": "Taihou-Class Aircraft Carrier - Taihou",
+      "expression": {
+        "1": {
+          "label": "Default"
+        },
+        "2": {
+          "label": "Default"
+        },
+        "3": {
+          "label": "Default"
+        },
+        "4": {
+          "label": "Default"
+        },
+        "5": {
+          "label": "Default"
+        },
+        "6": {
+          "label": "Default"
+        }
+      }
+    },
+    "2": {
+      "name": "Forbidden Feast",
+      "description": "Commander, you're taking a little too long to get changed. Are you considering what clothes would match with me best? Hehe, I will like anything that Commander wears.",
+      "l2d": "true",
+      "expression": {
+        "1": {
+          "label": "Default"
+        },
+        "2": {
+          "label": "Default"
+        },
+        "3": {
+          "label": "Default"
+        },
+        "4": {
+          "label": "Default"
+        }
+      }
+    }
+  },
+  "releaseDate": {
+    "JP": "September 14, 2018",
+    "CN": "September 14, 2018",
+    "KR": "September 14, 2018",
+    "EN": ""
+  },
+  "voiceActress": "Aoi Yuuki",
+  "artist": {
+    "name": "云桑",
+    "weibo": "https://weibo.com/yunsang",
+    "twitter": "https://twitter.com/_Yunsang",
+    "pixiv": "https://www.pixiv.net/member.php?id=5358936",
+    "other": ""
+  },
+  "parameters": {
+    "hp": "S",
+    "antiAir": "B",
+    "evasion": "B",
+    "aviation": "S",
+    "torpedo": "E",
+    "firepower": "E"
+  },
+  "stats": {
+    "100": {
+      "hp": "6412",
+      "armor": "Heavy",
+      "reload": "104",
+      "firepower": "0",
+      "torpedo": "0",
+      "evasion": "34",
+      "antiAir": "281",
+      "aviation": "358",
+      "cost": "13",
+      "asw": "0",
+      "speed": "33"
+    },
+    "120": {
+      "hp": "7310",
+      "armor": "Heavy",
+      "reload": "120",
+      "firepower": "0",
+      "torpedo": "0",
+      "evasion": "54",
+      "antiAir": "319",
+      "aviation": "399",
+      "cost": "13",
+      "asw": "0",
+      "speed": "33"
+    },
+    "base": {
+      "hp": "1240",
+      "armor": "Heavy",
+      "reload": "44",
+      "firepower": "0",
+      "torpedo": "0",
+      "evasion": "13",
+      "antiAir": "60",
+      "aviation": "76",
+      "cost": "4",
+      "asw": "26",
+      "speed": "33"
+    },
+    "100retrofit": {
+      "hp": "",
+      "armor": "",
+      "reload": "",
+      "firepower": "",
+      "torpedo": "",
+      "evasion": "",
+      "antiAir": "",
+      "aviation": "",
+      "cost": "",
+      "asw": "",
+      "speed": ""
+    },
+    "120retrofit": {
+      "hp": "",
+      "armor": "",
+      "reload": "",
+      "firepower": "",
+      "torpedo": "",
+      "evasion": "",
+      "antiAir": "",
+      "aviation": "",
+      "cost": "",
+      "asw": "",
+      "speed": ""
+    }
+  },
+  "limitBreak": {
+    "tier1": "Number of Dive Bombers +1 / Dive Bomber Efficiency +5%",
+    "tier2": "Hanger Capacity +1 / Number of Torpedo Bombers +1 / Fighter Efficiency +10%",
+    "tier3": "Number of All Planes +1 / Torpedo Bombers Efficiency +15%"
+  },
+  "equipmentLoadout": {
+    "1": {
+      "type": "Fighter",
+      "efficiency": "110%/110%/120%/120%",
+      "amount": "1/1/1/2",
+      "preload": "0/0/0/0"
+    },
+    "2": {
+      "type": "Dive Bomber",
+      "efficiency": "125%/130%/130%/130%",
+      "amount": "1/2/2/3",
+      "preload": "0/0/0/0"
+    },
+    "3": {
+      "type": "Torpedo Bomber",
+      "efficiency": "125%/125%/125%/140%",
+      "amount": "1/1/2/3",
+      "preload": "0/0/0/0"
+    },
+    "4": {
+      "type": "Auxilliary",
+      "efficiency": "-",
+      "amount": "-",
+      "preload": "-"
+    },
+    "5": {
+      "type": "Auxilliary",
+      "efficiency": "-",
+      "amount": "-",
+      "preload": "-"
+    }
+  },
+  "defaultEquipment": {
+    "1": "A6M5 Zero T1",
+    "2": "D4Y Suisei T1",
+    "3": "Nakajima B6N Tenzan"
+  },
+  "skill": {
+    "1": {
+      "name": "Dice of Destiny",
+      "type": "Offensive",
+      "requirement": "Default Unlocked",
+      "description": "Every time own airstrike finishes loading, 20% (40%) chance to launch an attack with Ryuusei, Suisei, and/or Saiun squadrons (the squadrons are independent variables of each other). Saiun squadron does not carry any ammunition and increases main fleet's damage by 10% for 8 seconds upon activation."
+    },
+    "2": {
+      "name": "Sakura Armored Carrier",
+      "type": "Defensive",
+      "requirement": "Default Unlocked",
+      "description": "Reduce high explosive damage by 5% (20%) (only applies to self) and reduce aviation damage received by 5% (20%) (only applies to self)."
+    }
+  },
+  "build": {
+    "light": {
+      "JP": "-",
+      "CN": "-",
+      "EN": "-"
+    },
+    "heavy": {
+      "JP": "-",
+      "CN": "-",
+      "EN": "-"
+    },
+    "special": {
+      "JP": "-",
+      "CN": "-",
+      "EN": "-"
+    },
+    "limited": {
+      "JP": "✓",
+      "CN": "✓",
+      "EN": "✓"
+    }
+  },
+  "drop": {
+    "droppable": "false",
+    "list": {
+      "1": {
+        "event": "World",
+        "chapter": {
+          "1": {
+            "label": "Ch.2",
+            "node": {
+              "1": {
+                "drop": "✓",
+                "note": "JP Only"
+              },
+              "2": {
+                "drop": "✓",
+                "note": "JP Only"
+              },
+              "3": {
+                "drop": "✓",
+                "note": "JP Only"
+              },
+              "4": {
+                "drop": "✓",
+                "note": "JP Only"
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "lines": {
+    "skin": {
+      "1": {
+        "label": "Default",
+        "dialogue": {
+          "1": {
+            "event": "Ship Description",
+            "media": "",
+            "chinese": "大凤号航空母舰",
+            "chineseTL": "Aircraft carrier Taihou",
+            "chineseNote": "",
+            "japanese": "大鳳型航空母艦・大鳳",
+            "japaneseTL": "Taihou-Class Aircraft Carrier - Taihou",
+            "japaneseNote": "",
+            "english": "",
+            "englishNote": ""
+          },
+          "2": {
+            "event": "Self Introduction",
+            "media": "self_introduction",
+            "chinese": "我可是专门强化过防御装甲的最新型航母唷，看着飞行甲板，看这封闭式机库，是不是很棒呢~？——嗯？您说装载数量和消防？这些小事无所谓啦……比起这个，您对大凤的身体……满意吗？",
+            "chineseTL": "I'm the newest type of aircraft carrier with reinforced armor. Look at my flight deck and enclosed hangar. Aren't they amazing~? Hm? My load capacity and firefighting systems? Those things don't matter... Rather than that, are you satisfied with... my body?",
+            "chineseNote": "",
+            "japanese": "装甲を強化された最新型空母ですわ。この飛行甲板、そしてこの閉鎖式の格納庫、すごくいいと思いません~？ん？搭載数と消防システム？そんなのどうでもいいの……それより、大鳳のこの体は……どぉ？",
+            "japaneseTL": "I'm the newest, armor-reinforced type of aircraft carrier. Wouldn't you say my flight deck and enclosed hangar are just amazing~? What's that? My load capacity and firefighting systems? Who cares about those… That aside, what do you think about my… body?",
+            "japaneseNote": "",
+            "english": "",
+            "englishNote": ""
+          },
+          "3": {
+            "event": "Acquisition",
+            "media": "acquisition",
+            "chinese": "这身体的灼热、内心的鼓动……终于等到您了，指挥官大人，不才大凤，请多指教~❤",
+            "chineseTL": "This burning in my body, this beating in my heart... I meet you at last, Commander. Though I am unworthy, I hope to be of service to you~❤",
+            "chineseNote": "",
+            "japanese": "この火照り、そしてこのときめき……やっと会えましたわ、指揮官様！大鳳、不束者ですが、よろしくお願いします♡",
+            "japaneseTL": "My body is burning and my heart is throbbing… at last I get to meet you, Commander! I may not be much, but I hope I'll be of service to you♡",
+            "japaneseNote": "",
+            "english": "",
+            "englishNote": ""
+          },
+          "4": {
+            "event": "Login",
+            "media": "login",
+            "chinese": "是吃大凤呢，和大凤一起洗澡呢，还是~要和大凤做没羞没臊的事情呢~",
+            "chineseTL": "Would you like to eat me or would you like to bathe with me? Or~ would you rather do those shameless things with me?",
+            "chineseNote": "",
+            "japanese": "大鳳と一緒にお風呂に入ります？大鳳を食べてみます？それとも~大鳳とあんなこと、シちゃいます…？うふふ",
+            "japaneseTL": "Would you like to bathe with me? Or would you rather eat me? Or maybe you'd like to do it with me…? (Giggle)",
+            "japaneseNote": "",
+            "english": "",
+            "englishNote": ""
+          },
+          "5": {
+            "event": "Details",
+            "media": "details",
+            "chinese": "我的一切，都是属于指挥官大人的……",
+            "chineseTL": "My everything belongs to Commander...",
+            "chineseNote": "",
+            "japanese": "私の全ては、指揮官様に……",
+            "japaneseTL": "My whole being belongs to you…",
+            "japaneseNote": "",
+            "english": "",
+            "englishNote": ""
+          },
+          "6": {
+            "event": "Idle 1",
+            "media": "idle_1",
+            "chinese": "嘻嘻，只要是指挥官的要求，就算是天上的月亮，大凤也会去取来呦~",
+            "chineseTL": "Hehe, as long as it is Commander's request, I would bring you anything, even the moon in the sky.",
+            "chineseNote": "",
+            "japanese": "ふふっ、指揮官様がほしいというなら、お月様だって摘み取って見せますわ~",
+            "japaneseTL": "(Giggle) If you desired it, I would even bring down the moon from the skies for you~",
+            "japaneseNote": "",
+            "english": "",
+            "englishNote": ""
+          },
+          "7": {
+            "event": "Idle 2",
+            "media": "idle_2",
+            "chinese": "指挥官喜欢小的吗？不喜欢的话，大凤就让大的那些全部都消失好了，嘻嘻……",
+            "chineseTL": "Does Commander like smaller ones? If you don't like them, I'll make all the big ones disappear, hehe...",
+            "chineseNote": "",
+            "japanese": "指揮官様は小さいのはお好みかしら？そう、なら大きいのからを消し去ってやりますわ、うふふ……",
+            "japaneseTL": "Are smaller ones to your liking, Commander? I see, then I shall start by getting rid of the big ones, (Giggle)…",
+            "japaneseNote": "",
+            "english": "",
+            "englishNote": ""
+          },
+          "8": {
+            "event": "Idle 3",
+            "media": "idle_3",
+            "chinese": "指挥官，唯有谎言不要对大凤说哦，否则的话……",
+            "chineseTL": "Commander, make sure to never tell me lies! Otherwise...",
+            "chineseNote": "",
+            "japanese": "指揮官様、大鳳にウソだけはつかないでくださいね。でないと……",
+            "japaneseTL": "Commander, please, never tell lies to me, okay? Or else…",
+            "japaneseNote": "",
+            "english": "",
+            "englishNote": ""
+          },
+          "9": {
+            "event": "Touch",
+            "media": "touch",
+            "chinese": "多摸摸我吧~",
+            "chineseTL": "Touch me more~",
+            "chineseNote": "",
+            "japanese": "もっと触ってぇ~",
+            "japaneseTL": "Touch me more~!",
+            "japaneseNote": "",
+            "english": "",
+            "englishNote": ""
+          },
+          "10": {
+            "event": "Special Touch",
+            "media": "special_touch",
+            "chinese": "要是对其他女孩子做这种事，就要给您一点惩罚了哦，指挥官大人？",
+            "chineseTL": "If you do this to any other girl, then I'll have to give you a little punishment, Commander. Understood?",
+            "chineseNote": "",
+            "japanese": "他の子にこんなことをしたら、少し罰をあたえますわよ、指揮官様？",
+            "japaneseTL": "If you do this to anyone else then a small punishment will befall you. Understood?",
+            "japaneseNote": "",
+            "english": "",
+            "englishNote": ""
+          },
+          "11": {
+            "event": "Mission",
+            "media": "mission",
+            "chinese": "新的任务下达了~ 一起去看看吗？",
+            "chineseTL": "A new mission has arrived! Want to go look together?",
+            "chineseNote": "",
+            "japanese": "新しい任務~一緒ににいきましょ？",
+            "japaneseTL": "We have a new mission~ Shall we carry it out together?",
+            "japaneseNote": "",
+            "english": "",
+            "englishNote": ""
+          },
+          "12": {
+            "event": "Mission Complete",
+            "media": "mission_complete",
+            "chinese": "任务完成~ 要去领奖励吗？",
+            "chineseTL": "Mission complete! Want to go claim the rewards?",
+            "chineseNote": "",
+            "japanese": "任務完了~ご褒美もらいに行ってみます？",
+            "japaneseTL": "Mission completed~ Shall we go receive our rewards?",
+            "japaneseNote": "",
+            "english": "",
+            "englishNote": ""
+          },
+          "13": {
+            "event": "Mail",
+            "media": "mail",
+            "chinese": "指挥官，新邮件~大凤已经用舌头检查过没有毒了唷~",
+            "chineseTL": "Commander, new mail! I've already inspected it for poison with my tongue.",
+            "chineseNote": "",
+            "japanese": "指揮官様、新しいメールです~毒味は大鳳がしっかり舌でしておきましたわ～",
+            "japaneseTL": "You have new mail, Commander~ I already thoroughly tested it for poison with my tongue~",
+            "japaneseNote": "",
+            "english": "",
+            "englishNote": ""
+          },
+          "14": {
+            "event": "Return from Sortie",
+            "media": "return_from_sortie",
+            "chinese": "作战结束！您在战场上的英姿真是太帅了~",
+            "chineseTL": "Operation finished! You look so handsome on the battlefield!",
+            "chineseNote": "",
+            "japanese": "作戦完了です！戦場での姿も素敵ですわ~",
+            "japaneseTL": "Operation complete! You look marvelous even on the battlefield~",
+            "japaneseNote": "",
+            "english": "",
+            "englishNote": ""
+          },
+          "15": {
+            "event": "Commission Complete",
+            "media": "commission_complete",
+            "chinese": "委托完成……其实只要指挥官一声令下，大凤就算是一口气完成所有委托也毫无怨言，指挥官太怜爱大凤了呢……",
+            "chineseTL": "Commission complete... Actually, if Commander just ordered, I would do all of the commissions without complaint. Commander just cares for me too much...",
+            "chineseNote": "",
+            "japanese": "委託完了……指揮官様が命令してくださるなら大鳳は全部やってもいいのに…やはり指揮官様は大鳳のことを大切に思ってますのね~",
+            "japaneseTL": "Commission complete… Even though all you have to do is order it and I could do them all myself… You must care very deeply for me~",
+            "japaneseNote": "",
+            "english": "",
+            "englishNote": ""
+          },
+          "16": {
+            "event": "Enhancement",
+            "media": "enhancement",
+            "chinese": "呵呵呵，这样就能为指挥官做更多事了……",
+            "chineseTL": "Hehehe, I can do even more things for Commander like this...",
+            "chineseNote": "",
+            "japanese": "うふふ、これでもっと指揮官様の役に立てるわ……",
+            "japaneseTL": "(Giggle) Now I can be of even more service to you…",
+            "japaneseNote": "",
+            "english": "",
+            "englishNote": ""
+          },
+          "17": {
+            "event": "Sortie Start",
+            "media": "sortie_start",
+            "chinese": "挡在我和指挥官大人面前的一切，全部都毁掉好了！啊哈哈哈哈！",
+            "chineseTL": "Everything standing in front of Commander and me should be destroyed! Ahahahaha!",
+            "chineseNote": "",
+            "japanese": "指揮官様との間のすべてが全部壊れてしまえばいいのに！あははははは！",
+            "japaneseTL": "How I wish everything standing between me and the commander would just break apart! Ahahahahaha!",
+            "japaneseNote": "",
+            "english": "",
+            "englishNote": ""
+          },
+          "18": {
+            "event": "MVP",
+            "media": "mvp",
+            "chinese": "为指挥官大人献上胜利！",
+            "chineseTL": "I present this victory to Commander!",
+            "chineseNote": "",
+            "japanese": "この勝利を指揮官様に捧げるわ！",
+            "japaneseTL": "I dedicate this victory to you, Commander!",
+            "japaneseNote": "",
+            "english": "",
+            "englishNote": ""
+          },
+          "19": {
+            "event": "Defeat",
+            "media": "defeat",
+            "chinese": "大家都死掉就好了，全部都去死就好了！！",
+            "chineseTL": "Everybody should just die. Just go die!!",
+            "chineseNote": "",
+            "japanese": "みんな死んじゃえ…死んじゃえばいいのに！！",
+            "japaneseTL": "How I wish… you would all just die!",
+            "japaneseNote": "",
+            "english": "",
+            "englishNote": ""
+          },
+          "20": {
+            "event": "Skill Activation",
+            "media": "skill_activation",
+            "chinese": "幸福安心地死去吧，呵呵呵……",
+            "chineseTL": "Go die in peace, hehehe...",
+            "chineseNote": "",
+            "japanese": "幸せそうに逝っちゃって、ふふふ…",
+            "japaneseTL": "Now die, joyfully… (Giggle)",
+            "japaneseNote": "",
+            "english": "",
+            "englishNote": ""
+          },
+          "21": {
+            "event": "Low Health",
+            "media": "low_health",
+            "chinese": "为了指挥官，一定要赢……！",
+            "chineseTL": "I must win for Commander...!",
+            "chineseNote": "",
+            "japanese": "指揮官様のために勝たなきゃ……！",
+            "japaneseTL": "I need to win, for the commander's sake…!",
+            "japaneseNote": "",
+            "english": "",
+            "englishNote": ""
+          },
+          "22": {
+            "event": "Affinity (Disappointed)",
+            "media": "affinity_disappointed",
+            "chinese": "一定是那些害虫……（咬牙）指挥官大人，等着哦，大凤这就去把您身边那些害虫全部清理掉……",
+            "chineseTL": "It must be those pests... (Clenches teeth) Commander, please wait. I'm going to remove all these pests around you...",
+            "chineseNote": "",
+            "japanese": "あの害虫たち……指揮官様、ちょっと待てて、今あのしつこく付きまとっている害虫たちを……",
+            "japaneseTL": "Those vermin… Commander, please wait. There are some incessant vermin who stalk us that I must take care of…",
+            "japaneseNote": "",
+            "english": "",
+            "englishNote": ""
+          },
+          "23": {
+            "event": "Affinity (Stranger)",
+            "media": "affinity_stranger",
+            "chinese": "只要是有关指挥官大人的事情，大凤全~部都想知道喔，因为大凤的眼里只有指挥官呢",
+            "chineseTL": "If it has to do with Commander, then I want to know everything about it. That's because I only have eyes for Commander.",
+            "chineseNote": "",
+            "japanese": "指揮官様のことなら、大鳳はぜんぶぜーんぶ知ってますもの~だって大鳳の目に映るのは指揮官様だけですよぉ~",
+            "japaneseTL": "I know everything, everything there is to know about you~ Because to me, you are the only person in the world, Commander~",
+            "japaneseNote": "",
+            "english": "",
+            "englishNote": ""
+          },
+          "24": {
+            "event": "Affinity (Friendly)",
+            "media": "affinity_friendly",
+            "chinese": "——那孩子送的礼物？啊，我处理掉了呢。这不算理所当然的吗？只有大凤送的东西能能留在您的桌子上啊~",
+            "chineseTL": "...The gift from that girl? Ah, I took care of it. Isn't that to be expected? Only things that I send may be left upon your desk~",
+            "chineseNote": "",
+            "japanese": "ーーあの娘からの贈り物？はい、処分しましたわ。だって当たり前じゃないですか？指揮官様の机の上に置けるのは大鳳のものだけですよ～",
+            "japaneseTL": "…The gift from that girl? Ah, I disposed of it. Is it not obvious that I did? The only things that find their way to the top of your desk are my gifts~",
+            "japaneseNote": "",
+            "english": "",
+            "englishNote": ""
+          },
+          "25": {
+            "event": "Affinity (Like)",
+            "media": "affinity_like",
+            "chinese": "忘了带外套吗?您真是健忘呢,没办法,大凤去帮您拿吧~欸,房间钥匙?嘻嘻,请放心吧,大鳳有的~",
+            "chineseTL": "You forgot your coat? You're just so forgetful. Oh well, I'll go get it for you. Eh, the room key? Hehe, don't worry, I already have it~",
+            "chineseNote": "",
+            "japanese": "コート忘れました？指揮官様ったら結構忘れっぽいですね…仕方ありませんね、大鳳が取ってきてあげますーーん？部屋のカギ、ですか？うふふ、ご安心ください。大鳳はちゃんと用意してありますから~",
+            "japaneseTL": "You forgot your coat? You're oh so forgetful, aren't you… Nevertheless, such things happen. I will go get it for you… Hm? The key to your room? (Giggle) You need not worry. I already have it, you see~",
+            "japaneseNote": "",
+            "english": "",
+            "englishNote": ""
+          },
+          "26": {
+            "event": "Affinity (Love)",
+            "media": "affinity_love",
+            "chinese": "房间里的床铺和生活用品?当然是大凤的~我真是笨呢,指挥官大人说不要随便进出,那大凤从一开始就和您住在一起不就好了吗······呵呵,从今往后,还请您多多指教吶~",
+            "chineseTL": "The bed and articles for daily use in your room? Those are mine, of course! I'm so stupid. You told me not to go in and out of your room as I pleased, so I should have just lived inside with you to begin with... Hehe, I look forward to living with you from now on~",
+            "chineseNote": "",
+            "japanese": "指揮官様の自室にあるあのベッドと日用品？もちろん大鳳の分ですよ。私ったらうっかりしてぇ～指揮官様が勝手に出入りしないって仰るなら、同衾すればいいですもの……うふふ、これからも、よろしくお願いしますね~",
+            "japaneseTL": "That bed and those everyday items in your private quarters? They're mine, of course. My, I'm so careless~ If you're implying you don't want me to come and go as I please then we can just sleep together… (Giggle) I hope I'll be a good roommate~",
+            "japaneseNote": "",
+            "english": "",
+            "englishNote": ""
+          },
+          "27": {
+            "event": "Pledge",
+            "media": "pledge",
+            "chinese": "终于送到大凤手里了呢~如果不是上面写着大凤的名字,早就把它处理掉了呢嘻嘻一一嗯?为什么会知道?指挥官的全~部大凤都知道的呦,从今往后也会全心想着您的~",
+            "chineseTL": "I finally received it~ If my name were not written on it, I would've disposed of it long ago, hehe... Hm? How did I know about it? I know everythingabout Commander. From now on, I will continue to wholeheartedly care for you.",
+            "chineseNote": "",
+            "japanese": "ようやく大鳳の手に届きましたね～大鳳の名前が書いていなければとっくに処分しましたの、うふふーーうん？なぜ知ってるかって？大鳳、指揮官様のことぜーんぶ知っています。これからも指揮官様のことをぜーんぶ愛してあげますよ～",
+            "japaneseTL": "At last this ring is on my finger~ I would've disposed of it long ago, were my name not written on it, (Giggle)… How did I know about that? I know everything about you, Commander. And from now on, I'll love everything about you~",
+            "japaneseNote": "",
+            "english": "",
+            "englishNote": ""
+          }
+        }
+      },
+      "2": {
+        "label": "Forbidden Feast",
+        "dialogue": {
+          "1": {
+            "event": "Acquisition",
+            "media": "acquisition",
+            "chinese": "指挥官大人，换衣服用的时间稍微有些久呢，在想穿什么搭配大凤的衣服吗？嘻嘻，指挥官大人穿什么大凤都喜欢哦",
+            "chineseTL": "Commander, you're taking a little too long to get changed. Are you considering what clothes would match with me best? Hehe, I will like anything that Commander wears.",
+            "chineseNote": "",
+            "japanese": "",
+            "japaneseTL": "",
+            "japaneseNote": "",
+            "english": "",
+            "englishNote": ""
+          },
+          "2": {
+            "event": "Login",
+            "media": "login",
+            "chinese": "指挥官，大凤一直在等着您哦",
+            "chineseTL": "Commander, Taihou is always waiting for you.",
+            "chineseNote": "",
+            "japanese": "",
+            "japaneseTL": "",
+            "japaneseNote": "",
+            "english": "",
+            "englishNote": ""
+          },
+          "3": {
+            "event": "Details",
+            "media": "details",
+            "chinese": "真羡慕你呢，小猫咪。大凤要是变成你，就能一直被指挥官大人抱在怀里了",
+            "chineseTL": "I envy you, little kitty. If I could transform in you, I could always stay in Commander's arms.",
+            "chineseNote": "",
+            "japanese": "",
+            "japaneseTL": "",
+            "japaneseNote": "",
+            "english": "",
+            "englishNote": ""
+          },
+          "4": {
+            "event": "Idle 1",
+            "media": "idle_1",
+            "chinese": "指挥官大人，您刚才看了别的人一眼，对吧？",
+            "chineseTL": "Commander, you just looked at someone else, didn't you?",
+            "chineseNote": "",
+            "japanese": "",
+            "japaneseTL": "",
+            "japaneseNote": "",
+            "english": "",
+            "englishNote": ""
+          },
+          "5": {
+            "event": "Idle 2",
+            "media": "idle_2",
+            "chinese": "指挥官大人，大凤要是醉了的话，就要麻烦您把大凤送回去了呢",
+            "chineseTL": "Commander, if I get drunk, please help send me back.",
+            "chineseNote": "",
+            "japanese": "",
+            "japaneseTL": "",
+            "japaneseNote": "",
+            "english": "",
+            "englishNote": ""
+          },
+          "6": {
+            "event": "Idle 3",
+            "media": "idle_3",
+            "chinese": "指挥官大人，没有人的时候，突然袭击大凤也是可以的哦～",
+            "chineseTL": "Commander, when nobody's around, it's alright if you suddenly attack me~",
+            "chineseNote": "",
+            "japanese": "",
+            "japaneseTL": "",
+            "japaneseNote": "",
+            "english": "",
+            "englishNote": ""
+          },
+          "7": {
+            "event": "Touch",
+            "media": "touch",
+            "chinese": "指挥官大人，和大凤两个人去僻静无人的地方走走吧？",
+            "chineseTL": "Commander, want to come with me and take this to a more secluded place?",
+            "chineseNote": "",
+            "japanese": "",
+            "japaneseTL": "",
+            "japaneseNote": "",
+            "english": "",
+            "englishNote": ""
+          },
+          "8": {
+            "event": "Special Touch",
+            "media": "special_touch",
+            "chinese": "这样就对了，指挥官大人，您只需要关注大凤一个人……",
+            "chineseTL": "That's it, Commander. You only need to pay attention to me...",
+            "chineseNote": "",
+            "japanese": "",
+            "japaneseTL": "",
+            "japaneseNote": "",
+            "english": "",
+            "englishNote": ""
+          },
+          "9": {
+            "event": "Return from Sortie",
+            "media": "return_from_sortie",
+            "chinese": "指挥官大人，要是还有害虫没有清理干净，就让大凤去吧",
+            "chineseTL": "Commander, if there are any more pests that need to be cleared, then let me go.",
+            "chineseNote": "",
+            "japanese": "",
+            "japaneseTL": "",
+            "japaneseNote": "",
+            "english": "",
+            "englishNote": ""
+          },
+          "10": {
+            "event": "Sortie Start",
+            "media": "sortie_start",
+            "chinese": "让指挥官大人无法专心宴会的就是你们吗？",
+            "chineseTL": "Are you the ones making Commander unable to concentrate on the party?",
+            "chineseNote": "",
+            "japanese": "",
+            "japaneseTL": "",
+            "japaneseNote": "",
+            "english": "",
+            "englishNote": ""
+          },
+          "11": {
+            "event": "MVP",
+            "media": "mvp",
+            "chinese": "这就是妨碍指挥官大人的下场！",
+            "chineseTL": "This is what you get for hindering Commander!",
+            "chineseNote": "",
+            "japanese": "",
+            "japaneseTL": "",
+            "japaneseNote": "",
+            "english": "",
+            "englishNote": ""
+          },
+          "12": {
+            "event": "Affinity (Love)",
+            "media": "affinity_love",
+            "chinese": "指挥官大人，走吧，这是一个多么好的机会，让我们在宴会上宣布对彼此的爱意，告诉所有人我们是对方的所有物吧~",
+            "chineseTL": "Commander, let's go. This is a good chance for us to declare our love for each other. We can tell everybody at the party that we are everything to each other.",
+            "chineseNote": "",
+            "japanese": "",
+            "japaneseTL": "",
+            "japaneseNote": "",
+            "english": "",
+            "englishNote": ""
+          }
+        }
+      }
+    }
+  }
+}
