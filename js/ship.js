@@ -195,6 +195,7 @@ function setShipRarityHighlight(rarity){
 		document.getElementById("shipRarityColor7").style = "background:#beb988;height:30px;width:40%;";
 		document.getElementById("shipRarityColor8").style = "background:#beb988;height:30px;width:60%;";
 		document.getElementById("shipRarityColor9").style = "background:#beb988;height:30px";
+		document.getElementById("shipRarityColor10").style = "background:#beb988;height:30px";
 	} else if (rarity == "Elite") {
 		document.getElementById("shipRarityColor").style = "background:#b080b0;height:30px";
 		document.getElementById("shipRarityColor2").style = "background:#b080b0;height:30px";
@@ -205,6 +206,7 @@ function setShipRarityHighlight(rarity){
 		document.getElementById("shipRarityColor7").style = "background:#b080b0;height:30px;width:40%;";
 		document.getElementById("shipRarityColor8").style = "background:#b080b0;height:30px;width:60%;";
 		document.getElementById("shipRarityColor9").style = "background:#b080b0;height:30px";
+		document.getElementById("shipRarityColor10").style = "background:#b080b0;height:30px";
 	} else if (rarity == "Rare") {
 		document.getElementById("shipRarityColor").style = "background:#8cb3b8;height:30px";
 		document.getElementById("shipRarityColor2").style = "background:#8cb3b8;height:30px";
@@ -215,6 +217,7 @@ function setShipRarityHighlight(rarity){
 		document.getElementById("shipRarityColor7").style = "background:#8cb3b8;height:30px;width:40%;";
 		document.getElementById("shipRarityColor8").style = "background:#8cb3b8;height:30px;width:60%;";
 		document.getElementById("shipRarityColor9").style = "background:#8cb3b8;height:30px";
+		document.getElementById("shipRarityColor10").style = "background:#8cb3b8;height:30px";
 	}
 }	
 
@@ -287,7 +290,7 @@ function loadShipSkinElements(skin, skinID){
 	}
 	
 	
-	removeShipExpressionNav();
+	clearAllChildren("shipSkinExpressions");
 	setShipExpressionNav(skin, skinID);
 }
 
@@ -313,13 +316,6 @@ function setShipExpressionNav(data, skinID){
 		document.getElementById('shipSkinExpressions').appendChild(container);
 	}
 	onExpressionNavButtonClick(initial, id, skinID);
-}
-
-function removeShipExpressionNav(){
-	var myNode = document.getElementById('shipSkinExpressions');
-	while (myNode.firstChild) {
-		myNode.removeChild(myNode.firstChild);
-	}
 }
 
 function onExpressionNavButtonClick(raw_expr, exprID, skinID){
@@ -638,7 +634,7 @@ function loadShipDialogueElements(skinId){
 			<td id="event_'+skinId+'_'+y+'" style="padding: 0px 5px 0px 5px;">'+actual_JSON.lines.skin[x].dialogue[y].event+'</td>\
 			<td style="text-align:center;">';
 			
-					if (actual_JSON.lines.skin[x].dialogue[y].media != ""){
+					if (actual_JSON.lines.skin[x].dialogue[y].media != "" || !ifFileExists(window.folder+"/Sound/skin"+skinId+"_"+actual_JSON.lines.skin[x].dialogue[y].media+".ogg")){
 						text = text + '\
 				<img id="btn_'+skinId+'_'+y+'" onclick="playAudio(\'btn_'+skinId+'_'+y+'\',\'audio_'+skinId+'_'+y+'\')" class="btnAudio" src="Images/sound_off.png">\
 				<audio id="audio_'+skinId+'_'+y+'">\
@@ -932,7 +928,11 @@ function setRetrofitDetails(desc, statChange, level, star, materials){
 }
 
 function setRetrofitMaterialDetails(materials){
+<<<<<<< HEAD
 	removeRetrofitMaterials()
+=======
+	clearAllChildren("retroMats");
+>>>>>>> master
 	var mats = materials.split(",");
 	for (var i = 0; i < mats.length; ++i){
 		var item = mats[i].trim().split(" ")[0];
@@ -998,6 +998,7 @@ function setRetrofitMaterialDetails(materials){
 	}
 }
 
+<<<<<<< HEAD
 function removeRetrofitMaterials(){
 	var myNode = document.getElementById('retroMats');
 	while (myNode.firstChild) {
@@ -1005,6 +1006,8 @@ function removeRetrofitMaterials(){
 	}
 }
 
+=======
+>>>>>>> master
 window.onhashchange = function() {
 	window.location.reload();
 }
