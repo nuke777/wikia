@@ -642,7 +642,7 @@ function loadShipDialogueElements(skinId){
 			<td id="event_'+skinId+'_'+y+'" style="padding: 0px 5px 0px 5px;">'+actual_JSON.lines.skin[x].dialogue[y].event+'</td>\
 			<td style="text-align:center;">';
 			
-					if (actual_JSON.lines.skin[x].dialogue[y].media != "" || !ifFileExists(window.folder+"/Sound/skin"+skinId+"_"+actual_JSON.lines.skin[x].dialogue[y].media+".ogg")){
+					if (actual_JSON.lines.skin[x].dialogue[y].media != ""){
 						text = text + '\
 				<img id="btn_'+skinId+'_'+y+'" onclick="playAudio(\'btn_'+skinId+'_'+y+'\',\'audio_'+skinId+'_'+y+'\')" class="btnAudio" src="Images/sound_off.png">\
 				<audio id="audio_'+skinId+'_'+y+'">\
@@ -1025,4 +1025,5 @@ window.onload = function() {
   addSideBar();
   addHeader();
   document.getElementById("sbar_Ship").className = "active";
+  
 };

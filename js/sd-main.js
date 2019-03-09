@@ -29,6 +29,7 @@ var viewer = {
         viewer.spine.state.setAnimation(0, "stand", true);
         viewer.app.stage.addChild(viewer.spine);
         viewer.spine.position.set(viewer.app.view.width * 0.5 , viewer.app.view.height * 0.8);
+        centerSD();
     },
     changeAnimation : function(num) {
         var name = viewer.spine.spineData.animations[num].name;
