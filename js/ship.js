@@ -928,11 +928,8 @@ function setRetrofitDetails(desc, statChange, level, star, materials){
 }
 
 function setRetrofitMaterialDetails(materials){
-<<<<<<< HEAD
-	removeRetrofitMaterials()
-=======
 	clearAllChildren("retroMats");
->>>>>>> master
+
 	var mats = materials.split(",");
 	for (var i = 0; i < mats.length; ++i){
 		var item = mats[i].trim().split(" ")[0];
@@ -998,16 +995,6 @@ function setRetrofitMaterialDetails(materials){
 	}
 }
 
-<<<<<<< HEAD
-function removeRetrofitMaterials(){
-	var myNode = document.getElementById('retroMats');
-	while (myNode.firstChild) {
-		myNode.removeChild(myNode.firstChild);
-	}
-}
-
-=======
->>>>>>> master
 window.onhashchange = function() {
 	window.location.reload();
 }
