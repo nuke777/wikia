@@ -1,5 +1,7 @@
 window.folder = "https://s3.us-east-2.amazonaws.com/alg-wiki.com/Ships/";
 window.l2dfolder = "Live2D/";
+window.hull = "";
+window.rarity = "";
 
 function loadJSON(callback) {   
 	var hash = window.location.hash;
@@ -42,8 +44,10 @@ function init() {
 		document.getElementById("shipHeader").innerHTML = actual_JSON.prefix + " " + actual_JSON.name + " \(JP: " + actual_JSON.nameJP + ", CN: " + actual_JSON.nameCN + "\)";
 		document.getElementById("shipID").innerHTML = actual_JSON.ID;
 		document.getElementById("shipStarRating").innerHTML = actual_JSON.initialStar;			
-		document.getElementById("shipRarity").innerHTML = actual_JSON.rarity;			
-		document.getElementById("shipHull").innerHTML = actual_JSON.hull;						
+		document.getElementById("shipRarity").innerHTML = actual_JSON.rarity;	
+		window.rarity = actual_JSON.rarity;		
+		document.getElementById("shipHull").innerHTML = actual_JSON.hull;	
+		window.hull = actual_JSON.hull;					
 		document.getElementById("shipNavy").innerHTML = actual_JSON.navy;					
 		document.getElementById("shipBuildTime").innerHTML = actual_JSON.buildTime;					
 		document.getElementById("shipAcquisition").innerHTML = actual_JSON.acquisitionMethod;	
@@ -123,6 +127,7 @@ function init() {
 		setSkillSet(actual_JSON);
 		setShipDropEventSelection(actual_JSON);
 		setDialogueSkinNav(actual_JSON);
+		setRetrofit(actual_JSON);
 		loadShipList();
 		
 		
@@ -811,6 +816,193 @@ function setPriorityLimitBreaks(data){
 	console.log(text);
 	document.getElementById("lbRow1").innerHTML = text;
 	document.getElementById("lbTitle").innerHTML = "Strengthen Level";
+}
+
+function setRetrofit(data){
+	if (data.retrofit == null){
+		document.getElementById("content").removeChild(document.getElementById("shipRetrofitTable"));
+		return;
+	}
+
+	for (var x in data.retrofit){
+		var nodeType = data.retrofit[x].nodeSettings.split(",")[0].trim();
+		var nodeCell = data.retrofit[x].nodeSettings.split(",")[1].trim();
+		var nodeConn = data.retrofit[x].nodeSettings.split(",")[2].trim();
+
+		if (nodeType == "line"){
+			document.getElementById(nodeCell).style.background = "url('../Images/Retrofit/"+nodeConn+".png')";
+			continue;
+		}
+
+		var statType = data.retrofit[x].stat.split(",")[0].trim();
+		var statModifier = data.retrofit[x].stat.split(",")[1].trim();
+		var statChange = data.retrofit[x].stat.split(",")[2].trim();
+		var stage = data.retrofit[x].stage.trim();
+		var desc = data.retrofit[x].desc.trim();
+		var level = data.retrofit[x].level.trim();
+		var star = data.retrofit[x].limitBreak.trim();
+		var materials = data.retrofit[x].material.trim();
+
+		if (nodeType == "retronode"){
+			var img = setRetrofitStatIcon(statType, statModifier, stage);
+			setNode(nodeCell, nodeConn, img, stage, nodeConn, desc, statChange, level, star, materials);
+			console.log(img);
+		}
+
+
+	}
+
+}
+
+function setRetrofitStatIcon(statType, statModifier, stage){
+	if (statType == "antiair"){
+		if (statModifier == "base"){
+			return "../Images/Retrofit/aa_"+stage+".png";
+		} else if (statModifier == "efficiency"){
+			return "../Images/Retrofit/aaup_"+stage+".png";
+		}
+	} else if (statType == "aviation"){
+		return "../Images/Retrofit/air_"+stage+".png";
+	} else if (statType == "asw"){
+		return "../Images/Retrofit/as_"+stage+".png";
+	} else if (statType == "divebomber"){
+		return "../Images/Retrofit/bfup_"+stage+".png";
+	} else if (statType == "firepower"){
+		return "../Images/Retrofit/cn_"+stage+".png";
+	} else if (statType == "evasion"){
+		return "../Images/Retrofit/dd_"+stage+".png";
+	} else if (statType == "fighter"){
+		return "../Images/Retrofit/ffup_"+stage+".png";
+	} else if (statType == "hit"){
+		return "../Images/Retrofit/hit_"+stage+".png";
+	} else if (statType == "hp"){
+		return "../Images/Retrofit/hp_"+stage+".png";
+	} else if (statType == "maingun"){
+		return "../Images/Retrofit/mgup_"+stage+".png";
+	} else if (statType == "modernization"){
+		if (statModifier == "defensive"){
+			return "../Images/Retrofit/mt_blue.png";
+		} else if (statModifier == "offensive"){
+			return "../Images/Retrofit/mt_red.png";
+		} else if (statModifier == "support"){
+			return "../Images/Retrofit/mt_yellow.png";
+		}
+	} else if (statType == "reload"){
+		return "../Images/Retrofit/rl_"+stage+".png";
+	} else if (statType == "auxgun"){
+		return "../Images/Retrofit/sgup_"+stage+".png";
+	} else if (statType == "skill"){
+		if (statModifier == "defensive"){
+			return "../Images/Retrofit/skill_blue.png";
+		} else if (statModifier == "offensive"){
+			return "../Images/Retrofit/skill_red.png";
+		} else if (statModifier == "support"){
+			return "../Images/Retrofit/skill_yellow.png";
+		}
+	} else if (statType == "speed"){
+		return "../Images/Retrofit/sp_"+stage+".png";
+	} else if (statType == "torpedobomber"){
+		return "../Images/Retrofit/tfup_"+stage+".png";
+	} else if (statType == "torpedo"){
+		if (statModifier == "base"){
+			return "../Images/Retrofit/tp_"+stage+".png";
+		} else if (statModifier == "efficiency"){
+			return "../Images/Retrofit/tpup_"+stage+".png";
+		}
+	}
+}
+
+function setNode(nodeCell, nodeConn, img, stage, nodeConn, desc, statChange, level, star, materials){
+	var nodeIcon = document.createElement('div');
+	nodeIcon.className = "retroNodeIcon";
+	nodeIcon.style.background = "url('"+img+"')";
+	nodeIcon.innerHTML = '<b><font class="retroNodeStage">'+stage+'/'+stage+'</font></b>';
+	nodeIcon.setAttribute("onclick", 'setRetrofitDetails(\''+desc+'\',\''+statChange+'\',\''+level+'\',\''+star+'\',\''+materials+'\')');
+
+	document.getElementById(nodeCell).appendChild(nodeIcon);
+	document.getElementById(nodeCell).style.background = "url('../Images/Retrofit/"+nodeConn+".png')";
+}
+
+function setRetrofitDetails(desc, statChange, level, star, materials){
+	document.getElementById("retroTitle").innerHTML = desc;
+	document.getElementById("retroDesc").innerHTML = statChange;
+	document.getElementById("retroLevel").innerHTML = level;
+	document.getElementById("retroLimitBreak").innerHTML = star;
+	setRetrofitMaterialDetails(materials);
+}
+
+function setRetrofitMaterialDetails(materials){
+	removeRetrofitMaterials()
+	var mats = materials.split(",");
+	for (var i = 0; i < mats.length; ++i){
+		var item = mats[i].trim().split(" ")[0];
+		var amount = mats[i].trim().split(" ")[1];
+		var img = "";
+		var bgimg = "";
+
+		if (item.substring(0,2) == "bp"){
+			if (window.hull == "Destroyer"){
+				img = "../Images/Items/" + item + "_dd.png";
+			} else if (window.hull == "Heavy Cruiser" || window.hull == "Light Cruiser"){
+				img = "../Images/Items/" + item + "_ca.png";
+			} else if (window.hull == "Battleship" || window.hull == "Battlecruiser"){
+				img = "../Images/Items/" + item + "_bb.png";
+			} else if (window.hull == "Aircraft Carrier" || window.hull == "Light Aircraft Carrier"){
+				img = "../Images/Items/" + item + "_cv.png";
+			}
+
+			if (item.slice(-2) == "t1"){
+				bgimg = "../Images/bg2.png";
+			} else if (item.slice(-2) == "t2"){
+				bgimg = "../Images/bg3.png";
+			} else if (item.slice(-2) == "t3"){
+				bgimg = "../Images/bg4.png";
+			}
+		} else if (item.substring(0,2) == "pl"){
+			img = "../Images/Items/" + item + ".png";
+
+			if (item.substring(2,4) == "t1"){
+				bgimg = "../Images/bg1.png";
+			} else if (item.substring(2,4) == "t2"){
+				bgimg = "../Images/bg2.png";
+			} else if (item.substring(2,4) == "t3"){
+				bgimg = "../Images/bg3.png";
+			}
+		} else if (item == "duplicate"){
+			img = window.folder + "/Icon/icon.png";
+
+			if (window.rarity == "Common"){
+				bgimg = "../Images/bg1.png";
+			} else if (window.rarity == "Rare"){
+				bgimg = "../Images/bg2.png";
+			} else if (window.rarity == "Elite"){
+				bgimg = "../Images/bg3.png";
+			} else if (window.rarity == "Super Rare" || window.rarity == "Priority"){
+				bgimg = "../Images/bg4.png";
+			} else if (window.rarity == "Ultra Rare"){
+				bgimg = "../Images/bg5.png";
+			}
+
+		} else if (item == "gold"){
+			img = "../Images/gold.png";
+			bgimg = "../Images/bg4.png";
+		}
+
+		var materialIcon = document.createElement('div');
+		materialIcon.className = "retroMaterial";
+		materialIcon.style.background = "url('"+img+"'), url('"+bgimg+"')";
+		materialIcon.style.backgroundSize = "100% 100%";
+		materialIcon.innerHTML = '<b><font class="retroMaterialCount">'+amount+'</font></b>';
+
+		document.getElementById("retroMats").appendChild(materialIcon);
+	}
+}
+
+function removeRetrofitMaterials(){
+	var myNode = document.getElementById('retroMats');
+	while (myNode.firstChild) {
+		myNode.removeChild(myNode.firstChild);
+	}
 }
 
 window.onhashchange = function() {
