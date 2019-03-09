@@ -929,7 +929,6 @@ function setRetrofitDetails(desc, statChange, level, star, materials){
 
 function setRetrofitMaterialDetails(materials){
 	clearAllChildren("retroMats");
-
 	var mats = materials.split(",");
 	for (var i = 0; i < mats.length; ++i){
 		var item = mats[i].trim().split(" ")[0];
