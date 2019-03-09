@@ -1,5 +1,6 @@
 window.folder = "https://s3.us-east-2.amazonaws.com/alg-wiki.com/Ships/";
 window.l2dfolder = "Live2D/";
+window.sdfolder = "";
 window.hull = "";
 window.rarity = "";
 
@@ -40,6 +41,7 @@ function init() {
 		console.log(actual_JSON);
 		window.folder = window.folder + actual_JSON.file_id;
 		window.l2dfolder = window.l2dfolder + actual_JSON.file_id;
+		viewer.init(window.folder + "/SD");
 		document.title = actual_JSON.prefix + " " + actual_JSON.name + " - /alg/ Azur Lane General Wiki";
 		document.getElementById("shipHeader").innerHTML = actual_JSON.prefix + " " + actual_JSON.name + " \(JP: " + actual_JSON.nameJP + ", CN: " + actual_JSON.nameCN + "\)";
 		document.getElementById("shipID").innerHTML = actual_JSON.ID;
@@ -271,14 +273,20 @@ function onSkinNavButtonClick(raw_skin, skinID){
 
 function loadShipSkinElements(skin, skinID){
 	document.getElementById("shipSkinDesc").innerHTML = skin.description;
-	document.getElementById("shipSkinSD").src = window.folder + "/Sprite/skin" + skinID + "_sd.png";
 	document.getElementById("shipSkinName").innerHTML = '<b>' +skin.name+ '</b>';
 	document.getElementById("shipSkinDisplay").src = window.folder + "/Sprite/skin" + skinID + "_expr1.png";
 	document.getElementById("shipSkinDisplay").style = "max-width:100%;height:auto;visibility: visible;";
 	document.getElementById("l2dContainer").style = "visibility:hidden";
 	document.getElementById("toggleL2d").className = "btnGenericText";
 	
+	try {
+		viewer.removeSd();
+    } catch (err){
 
+    }
+	if (ifFileExists(window.folder + "/SD/skin" + skinID + ".png")){
+		viewer.loadSd("skin" + skinID);
+	}
 
 	if (skin.l2d != null){
 		if (skin.l2d == "true"){
@@ -994,8 +1002,20 @@ function setRetrofitMaterialDetails(materials){
 	}
 }
 
+function centerSD(){
+	var containerWidth = document.getElementById("containerSD").getBoundingClientRect().width;
+	var sdWidth = viewer.sdWidth();
+	document.getElementById("sdAnim").style.left = Math.floor((containerWidth / 2) - (sdWidth / 2)) + "px";
+	console.log(((sdWidth / 2)) + "px");
+}
+
 window.onhashchange = function() {
 	window.location.reload();
+}
+
+window.onresize = function(){
+	viewer.onResize();
+	centerSD();
 }
 
 window.onload = function() {
