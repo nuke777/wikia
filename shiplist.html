@@ -42,12 +42,17 @@
 			xobj.send(null);  
 		}
 		
-		function load(){
+		function load(type, element){
 			loadJSON(function(response) {
 				// Parse JSON string into object
 				var actual_JSON = JSON.parse(response);
 				var text = '';
 				for (var x in actual_JSON){
+
+					if (actual_JSON[x].shipType != type){
+						continue;
+					}
+
 					text = text + '\
 					<div class="maindiv">\
 						<div class="cornerdiv"">';
@@ -117,7 +122,7 @@
 					text = text + '\
 						</div>\
 						<div class="cornerdiv">'+x+'</div>';
-					if (actual_JSON[x].rarity == "Super Rare"){
+					if (actual_JSON[x].rarity == "Super Rare" || actual_JSON[x].rarity == "Priority"){
 						text = text + '\
 						<div class="imgdiv" style="background-color:#beb988">';
 					} else if (actual_JSON[x].rarity == "Elite"){
@@ -135,12 +140,14 @@
 						</div>\
 					</div>';
 				}
-				document.getElementById('listtable').innerHTML = text;
+				document.getElementById(element).innerHTML = text;
 			});
 		}
 		
 		window.onload = function() {
-			load();
+			load("common", "listtable");
+			load("research", "listtablePR");
+			load("collab", "listtableCollab");
 			addFooter();
 		    addSideBar();
 		    addHeader();
@@ -195,6 +202,57 @@
 	</tr>
 </table>
 
+<table class="wikitablewide" style="width:100%">
+	<tr style="text-align:center;background-color:#24252d;">				
+		<td>
+			Priority Ships
+		</td>
+	</tr>
+	<tr>
+		<td style="text-align:left;padding-bottom:10px;" id="listtablePR">
+			<div class="maindiv">
+				<div class="cornerdiv"">
+					<img src="http://alg-wiki.com/Images/Hull/ca.png" style="padding-left:3px">
+				</div>
+				<div class="centerdiv">
+					<img src="http://alg-wiki.com/Images/Navy/kms_icon.png">
+				</div>				
+				<div class="cornerdiv">242</div>
+				<div class="imgdiv" style="background-color:#b080b0">
+					<img src="https://s3.us-east-2.amazonaws.com/alg-wiki.com/Ships/242_Admiral_Hipper/Icon/icon.png">
+				</div>
+				<div class="textdiv">Admiral Hipper</div>
+			</div>
+		</td>
+		
+	</tr>
+</table>
+
+<table class="wikitablewide" style="width:100%">
+	<tr style="text-align:center;background-color:#24252d;">				
+		<td>
+			Collab Ships
+		</td>
+	</tr>
+	<tr>
+		<td style="text-align:left;padding-bottom:10px;" id="listtableCollab">
+			<div class="maindiv">
+				<div class="cornerdiv"">
+					<img src="http://alg-wiki.com/Images/Hull/ca.png" style="padding-left:3px">
+				</div>
+				<div class="centerdiv">
+					<img src="http://alg-wiki.com/Images/Navy/kms_icon.png">
+				</div>				
+				<div class="cornerdiv">242</div>
+				<div class="imgdiv" style="background-color:#b080b0">
+					<img src="https://s3.us-east-2.amazonaws.com/alg-wiki.com/Ships/242_Admiral_Hipper/Icon/icon.png">
+				</div>
+				<div class="textdiv">Admiral Hipper</div>
+			</div>
+		</td>
+		
+	</tr>
+</table>
 <!-- content -->
 <!-- content -->
 <!-- content -->

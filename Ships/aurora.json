@@ -43,8 +43,8 @@
       }
     },
     "3": {
-      "name": "Dawn's  Paean",
-      "description": "Arethusa-class light cruiser - Aurora, Pennant Number 12",
+      "name": "Dawn's Paean",
+      "description": "I always felt music has a unique power that can move hearts, for that matter I tried to learn the violin. Commander, please enjoy my performance.",
       "expression": {
         "1": {
           "label": "Default"
@@ -98,7 +98,8 @@
       "aviation": "0",
       "cost": "10",
       "asw": "96",
-      "speed": "32"
+      "speed": "32",
+      "luck": "84"
     },
     "120": {
       "hp": "2914",
@@ -111,7 +112,8 @@
       "aviation": "0",
       "cost": "10",
       "asw": "109",
-      "speed": "32"
+      "speed": "32",
+      "luck": "84"
     },
     "base": {
       "hp": "497",
@@ -124,7 +126,8 @@
       "aviation": "0",
       "cost": "3",
       "asw": "26",
-      "speed": "32"
+      "speed": "32",
+      "luck": "84"
     },
     "100retrofit": {
       "hp": "",
@@ -137,7 +140,8 @@
       "aviation": "",
       "cost": "",
       "asw": "",
-      "speed": ""
+      "speed": "",
+      "luck": ""
     },
     "120retrofit": {
       "hp": "",
@@ -150,7 +154,8 @@
       "aviation": "",
       "cost": "",
       "asw": "",
-      "speed": ""
+      "speed": "",
+      "luck": ""
     }
   },
   "limitBreak": {
@@ -611,11 +616,11 @@
           "29": {
             "event": "Valentines 2019",
             "media": "",
-            "chinese": "",
-            "chineseTL": "",
+            "chinese": "指挥官，情人节快乐！今年东煌的春节正好也近，所以巧克力用了一些喜庆的颜色，比如红色的玫瑰和红盒子……有点太过于热情了吗？",
+            "chineseTL": "Commander, happy valentines! As it's close to the Eastern Radiance's spring festival this year, I made you chocolate in festive colors, adorned with red roses in a red box... was it too passionate?",
             "chineseNote": "",
             "japanese": "指揮官さん、ハッピーバレンタイン♪ 今年は東煌の春節に近いですし、赤い薔薇に赤い箱、チョコのコーデまでちょっと赤くなりましたけど…ちょっと情熱過ぎたのかな…？",
-            "japaneseTL": "",
+            "japaneseTL": "Commander, happy valentines♪ As it is close to the Eastern Radiance's spring festival, red roses, red box... the chocolate turned out to be very festive... was it too passionate?",
             "japaneseNote": "",
             "english": "",
             "englishNote": ""
@@ -638,30 +643,6 @@
             "englishNote": ""
           },
           "2": {
-            "event": "Idle 1",
-            "media": "idle_1",
-            "chinese": "指挥官，要吃火锅吗？如果您不吃辣的话，我来准备鸳鸯锅~",
-            "chineseTL": "Commander, shall we have hotpot? If you can't take the spiciness, let me prepare the double-flavor hotpot.",
-            "chineseNote": "",
-            "japanese": "指揮官さん、火鍋とかはどうです？辛いのは苦手でしたら、両方楽しめる「鴛鴦」（ユアンヤン）をご用意しますよ？",
-            "japaneseTL": "Commander, shall we have hotpot? If you can't take the spiciness, let me prepare the double-flavor hotpot.",
-            "japaneseNote": "",
-            "english": "Commander, shall we have hotpot? If you can't take the spiciness, let me prepare the double-flavor hotpot.",
-            "englishNote": ""
-          },
-          "3": {
-            "event": "Idle 2",
-            "media": "idle_2",
-            "chinese": "要是累了的话，就一边吃橘子一边听我为您讲书吧~",
-            "chineseTL": "",
-            "chineseNote": "",
-            "japanese": "みんなと一緒にいるのは楽しいですから、綾波も…みんなともっと一緒にいたいです",
-            "japaneseTL": "If you're tired, then please have some tangerine while listening to my stories~",
-            "japaneseNote": "",
-            "english": "If you're tired, why don't you enjoy a mandarin while listening to me read a story?",
-            "englishNote": ""
-          },
-          "4": {
             "event": "Login",
             "media": "login",
             "chinese": "指挥官，欢迎回来，不用急，我也才刚到哦~",
@@ -673,19 +654,7 @@
             "english": "Commander, welcome back. Please take your time, I only just got here myself",
             "englishNote": ""
           },
-          "5": {
-            "event": "Touch",
-            "media": "touch",
-            "chinese": "嗯？怎么了吗，啊，我只是在想，要是明年，后年，大后年，一直都能和现在一样就好了呢",
-            "chineseTL": "Hmm? How am I? Ah, I was just thinking that, if in the next year, the year after that, and the year after - that everyone would remain the same like right now, that would be wonderful",
-            "chineseNote": "",
-            "japanese": "うん？私がどうかしました？はい、来年も、再来年も、そしてそのあとも…ずっとこのままでいられればいいなって思っていました",
-            "japaneseTL": "Hmm? How am I? Ah, I was just thinking that, if in the next year, the year after that, and the year after - that everyone would remain the same like right now, that would be wonderful",
-            "japaneseNote": "",
-            "english": "Eh? What's the matter? Ah, I was thinking... it'd be great if things could stay like this next year, and the year after that, and forever more...",
-            "englishNote": ""
-          },
-          "6": {
+          "3": {
             "event": "Details",
             "media": "details",
             "chinese": "稍微有些意外吗？呵呵，您往后还会知道更多的我哦~",
@@ -696,9 +665,158 @@
             "japaneseNote": "",
             "english": "My outfit is a bit surprising? Ehehe, from now on, you'll learn more and more about a different side of me~",
             "englishNote": ""
+          },
+          "4": {
+            "event": "Idle 1",
+            "media": "idle_1",
+            "chinese": "指挥官，要吃火锅吗？如果您不吃辣的话，我来准备鸳鸯锅~",
+            "chineseTL": "Commander, shall we have hotpot? If you can't take the spiciness, let me prepare the double-flavor hotpot.",
+            "chineseNote": "",
+            "japanese": "指揮官さん、火鍋とかはどうです？辛いのは苦手でしたら、両方楽しめる「鴛鴦」（ユアンヤン）をご用意しますよ？",
+            "japaneseTL": "Commander, shall we have hotpot? If you can't take the spiciness, let me prepare the double-flavor hotpot.",
+            "japaneseNote": "",
+            "english": "Commander, shall we have hotpot? If you can't take the spiciness, let me prepare the double-flavor hotpot.",
+            "englishNote": ""
+          },
+          "5": {
+            "event": "Idle 2",
+            "media": "idle_2",
+            "chinese": "要是累了的话，就一边吃橘子一边听我为您讲书吧~",
+            "chineseTL": "If you're tired, come listen to my stories while eating tangerines~",
+            "chineseNote": "",
+            "japanese": "疲れたら、そこでみかんを食べながら私の評書お楽しみください",
+            "japaneseTL": "If you're tired, then please have some tangerine while listening to my stories~",
+            "japaneseNote": "",
+            "english": "If you're tired, why don't you enjoy a mandarin while listening to me read a story?",
+            "englishNote": ""
+          },
+          "6": {
+            "event": "Touch",
+            "media": "touch",
+            "chinese": "嗯？怎么了吗，啊，我只是在想，要是明年，后年，大后年，一直都能和现在一样就好了呢",
+            "chineseTL": "Hmm? How am I? Ah, I was just thinking that, if in the next year, the year after that, and the year after - that everyone would remain the same like right now, that would be wonderful",
+            "chineseNote": "",
+            "japanese": "うん？私がどうかしました？はい、来年も、再来年も、そしてそのあとも…ずっとこのままでいられればいいなって思っていました",
+            "japaneseTL": "Hmm? How am I? Ah, I was just thinking that, if in the next year, the year after that, and the year after - that everyone would remain the same like right now, that would be wonderful",
+            "japaneseNote": "",
+            "english": "Eh? What's the matter? Ah, I was thinking... it'd be great if things could stay like this next year, and the year after that, and forever more...",
+            "englishNote": ""
           }
         }
-      }
+      },
+      "3": {
+        "label": "aurora_skin3",
+        "dialogue": {
+          "1": {
+            "event": "Ship Description, Acquisition",
+            "media": "acquisition",
+            "chinese": "我一直觉得，音乐有着独特的，能够震撼人心的力量，所以尝试学习了一下小提琴。指挥官，请欣赏我的表演吧",
+            "chineseTL": "I always felt music has a unique power that can move hearts, for that matter I tried to learn the violin. Commander, please enjoy my performance.",
+            "chineseNote": "",
+            "japanese": "",
+            "japaneseTL": "",
+            "japaneseNote": "",
+            "english": "",
+            "englishNote": ""
+          },
+          "2": {
+            "event": "Details",
+            "media": "details",
+            "chinese": "指挥官，平时我会在广场演奏，有兴趣的话可以过来欣赏哦",
+            "chineseTL": "Commander, I usually perform in the square plaza, you can come and enjoy it any time.",
+            "chineseNote": "",
+            "japanese": "",
+            "japaneseTL": "",
+            "japaneseNote": "",
+            "english": "",
+            "englishNote": ""
+          },
+          "3": {
+            "event": "Idle 1",
+            "media": "idle_1",
+            "chinese": "演奏的时候鸽子们不知不觉就聚集了起来，呵呵，看起来要准备些饲料了呢",
+            "chineseTL": "Doves seem to often gather around me during performances. Hehe, looks like I will have to prepare some feed.",
+            "chineseNote": "",
+            "japanese": "",
+            "japaneseTL": "",
+            "japaneseNote": "",
+            "english": "",
+            "englishNote": ""
+          },
+          "4": {
+            "event": "Idle 2",
+            "media": "idle_2",
+            "chinese": "指挥官对乐器感兴趣吗？私心来说，我希望指挥官能弹钢琴来跟我合奏呢～",
+            "chineseTL": "Is commander interested in musical instruments? Personally, I am hoping commander can play the piano for a duet with me~",
+            "chineseNote": "",
+            "japanese": "",
+            "japaneseTL": "",
+            "japaneseNote": "",
+            "english": "",
+            "englishNote": ""
+          },
+          "5": {
+            "event": "Idle_3",
+            "media": "idle_3",
+            "chinese": "指挥官，当我身处黑暗之中而不知光明何在的时候，就来听我的演奏吧",
+            "chineseTL": "Commander, when I am shrouded in darkness unaware of where the light is, come listen to my performance.",
+            "chineseNote": "",
+            "japanese": "",
+            "japaneseTL": "",
+            "japaneseNote": "",
+            "english": "",
+            "englishNote": ""
+          },
+          "6": {
+            "event": "Touch",
+            "media": "touch",
+            "chinese": "工作告一段落了吗，那么，想听些什么呢？",
+            "chineseTL": "Now that we are done with work, what would you like to hear?",
+            "chineseNote": "",
+            "japanese": "",
+            "japaneseTL": "",
+            "japaneseNote": "",
+            "english": "",
+            "englishNote": ""
+          },
+          "7": {
+            "event": "Special Touch",
+            "media": "special_touch",
+            "chinese": "真是的，指挥官，这样会扰乱我的演奏的……",
+            "chineseTL": "Really, commander, you will ruin my performance...",
+            "chineseNote": "",
+            "japanese": "",
+            "japaneseTL": "",
+            "japaneseNote": "",
+            "english": "",
+            "englishNote": ""
+          },
+          "8": {
+            "event": "Return From Sortie",
+            "media": "return_from_sortie",
+            "chinese": "辛苦了，指挥官，让我用音乐来治愈你的心灵吧",
+            "chineseTL": "Good work, commander, let my music heal your soul.",
+            "chineseNote": "",
+            "japanese": "",
+            "japaneseTL": "",
+            "japaneseNote": "",
+            "english": "",
+            "englishNote": ""
+          },
+          "9": {
+            "event": "Affinity (Love)",
+            "media": "affinity_love",
+            "chinese": "指挥官，战争结束后我们去旅行吧，在不同的地方演奏，为不同的人送去祝福，这是只有我们才能做到的事呢",
+            "chineseTL": "Commander, when the war is over let's travel faraway and perform in different places, to send blessings to different people. This is something only we can do.",
+            "chineseNote": "",
+            "japanese": "",
+            "japaneseTL": "",
+            "japaneseNote": "",
+            "english": "",
+            "englishNote": ""
+          }
+        }
+      }     
     }
   }
 }

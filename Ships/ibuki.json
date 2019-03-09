@@ -1,0 +1,750 @@
+{
+	"name": "Ibuki",
+	"nameJP": "伊吹",
+	"nameCN": "峦",
+	"class": "Research",
+	"hull": "Heavy Cruiser",
+	"prefix": "IJN",
+	"ID": "Plan003",
+	"file_id": "Plan003_Ibuki",
+	"navy": "Sakura Empire",
+	"initialStar": "★★★☆☆☆",
+	"rarity": "Priority",
+	"buildTime": "N/A",
+	"acquisitionMethod": "Priority Research",
+	"enhance": {
+		"firepower": "-",
+		"torpedo": "-",
+		"aviation": "-",
+		"reload": "-"
+	},
+	"scrap": {
+		"gold": "-",
+		"oil": "-",
+		"medal": "-"
+	},
+	"skin": {
+		"1": {
+			"name": "Default",
+			"description": "Ibuki-class Heavy cruiser - Ibuki",
+			"expression": {
+				"1": {
+					"label": "Default"
+				}
+			}
+		},
+		"2": {
+			"name": "Wish of a Snow Goddess",
+			"description": "Milord, it's snowing... If you don't mind, come hide under my umbrella.",
+			"expression": {
+				"1": {
+					"label": "Default"
+				},
+				"2": {
+					"label": "ibuki_skin2_expr2"
+				},
+				"3": {
+					"label": "ibuki_skin2_expr3"
+				},
+				"4": {
+					"label": "ibuki_skin2_expr4"
+				},
+				"5": {
+					"label": "ibuki_skin2_expr5"
+				},
+				"6": {
+					"label": "ibuki_skin2_expr6"
+				},
+				"7": {
+					"label": "ibuki_skin2_expr7"
+				}
+			}
+		}
+	},
+	"releaseDate": {
+		"JP": "April 26, 2018",
+		"CN": "April 26, 2018",
+		"KR": "?",
+		"EN": "-"
+	},
+	"voiceActress": "Misato Fukuen",
+	"artist": {
+		"name": "玛雅G",
+		"weibo": "https://www.weibo.com/p/1005051970961102",
+		"twitter": "https://twitter.com/mayag_nya",
+		"pixiv": "https://www.pixiv.net/member.php?id=1287983",
+		"other": ""
+	},
+	"parameters": {
+		"hp": "A",
+		"antiAir": "C",
+		"evasion": "C",
+		"aviation": "Evasion",
+		"torpedo": "B",
+		"firepower": "A"
+	},
+	"stats": {
+		"100": {
+			"hp": "4260",
+			"armor": "Medium",
+			"reload": "163",
+			"firepower": "236",
+			"torpedo": "254",
+			"evasion": "41",
+			"antiAir": "169",
+			"aviation": "0",
+			"cost": "13",
+			"asw": "0",
+			"luck": "0"
+		},
+		"120": {
+			"hp": "4793",
+			"armor": "Medium",
+			"reload": "187",
+			"firepower": "270",
+			"torpedo": "289",
+			"evasion": "86",
+			"antiAir": "194",
+			"aviation": "0",
+			"cost": "13",
+			"asw": "0",
+			"speed": "28",
+			"luck": "0"
+		},
+		"base": {
+			"hp": "824",
+			"armor": "Medium",
+			"reload": "69",
+			"firepower": "51",
+			"torpedo": "54",
+			"evasion": "10",
+			"antiAir": "36",
+			"aviation": "0",
+			"cost": "7",
+			"asw": "0",
+			"speed": "28",
+			"luck": "0"
+		},
+		"100retrofit": {
+			"hp": "",
+			"armor": "",
+			"reload": "",
+			"firepower": "",
+			"torpedo": "",
+			"evasion": "",
+			"antiAir": "",
+			"aviation": "",
+			"cost": "",
+			"asw": "",
+			"speed": "",
+			"luck": ""
+		},
+		"120retrofit": {
+			"hp": "",
+			"armor": "",
+			"reload": "",
+			"firepower": "",
+			"torpedo": "",
+			"evasion": "",
+			"antiAir": "",
+			"aviation": "",
+			"cost": "",
+			"asw": "",
+			"speed": "",
+			"luck": ""
+		}
+	},
+	"strengthenLevel": {
+		"level5": "Torpedo Base +1, Torpedo Pre-load +1",
+		"level10": "Full Barrage I, Main Gun Efficiency +5%, Limit Break ★★★★☆☆",
+		"level15": "Main Gun Efficiency +5%, Torpedo Pre-load +1",
+		"level20": "Torpedo Efficiency +10%, Limit Break ★★★★★☆",
+		"level25": "-",
+		"level30": "Full Barrage II, Torpedo Efficiency +15%, Limit Break ★★★★★★"
+	},
+	"equipmentLoadout": {
+		"1": {
+			"type": "CA Gun",
+			"efficiency": "125% / 140%",
+			"amount": "1/1",
+			"preload": "0/0"
+		},
+		"2": {
+			"type": "Torpedo",
+			"efficiency": "160% / 185%",
+			"amount": "1/2",
+			"preload": "0/2"
+		},
+		"3": {
+			"type": "Anti-Air Gun",
+			"efficiency": "110% / 110%",
+			"amount": "1/1",
+			"preload": "0/0"
+		},
+		"4": {
+			"type": "Auxilliary",
+			"efficiency": "-",
+			"amount": "-",
+			"preload": "-"
+		},
+		"5": {
+			"type": "Auxilliary",
+			"efficiency": "-",
+			"amount": "-",
+			"preload": "-"
+		}
+	},
+	"defaultEquipment": {
+		"1": "-",
+		"2": "-"
+	},
+	"skill": {
+		"1": {
+			"name": "Body and Soul",
+			"type": "Offensive",
+			"requirement": "Default Unlocked",
+			"description": "Increases torpedo critical rate by 20%(40%), and critical damage by 65%"
+		},
+		"2": {
+			"name": "Flash of Lightning",
+			"type": "Offensive",
+			"requirement": "Default Unlocked",
+			"description": "15% (30%) activation upon firing torpedo: launches a special barrage (damage based on skill level)"
+		},
+		"3": {
+			"name": "Siren's Nemesis",
+			"type": "Offensive",
+			"requirement": "Strenghten Level 10 (I) / Level 20 (II) / Level 30 (III)",
+			"description": "Increase damage against sirens by 5% (15%)"
+		},
+		"4": {
+			"name": "Full Barrage",
+			"type": "Offensive",
+			"requirement": "Strenghten Level 10 (I) / Level 30 (III)",
+			"description": "Every 9 (6) shots from the main guns, triggers Full Barrage - Ibuki Class I(II)"
+		}
+	},
+	"build": {
+		"light": {
+			"JP": "-",
+			"CN": "-",
+			"EN": "-"
+		},
+		"heavy": {
+			"JP": "-",
+			"CN": "-",
+			"EN": "-"
+		},
+		"special": {
+			"JP": "-",
+			"CN": "-",
+			"EN": "-"
+		},
+		"limited": {
+			"JP": "-",
+			"CN": "-",
+			"EN": "-"
+		}
+	},
+	"drop": {
+		"droppable": "false",
+		"list": {
+			"1": {
+				"event": "World",
+				"chapter": {
+					"1": {
+						"label": "Ch. 1",
+						"node": {
+							"1": {
+								"drop": "-",
+								"note": ""
+							},
+							"2": {
+								"drop": "-",
+								"note": ""
+							},
+							"3": {
+								"drop": "-",
+								"note": ""
+							},
+							"4": {
+								"drop": "-",
+								"note": ""
+							}
+						}
+					}
+				}
+			}
+		}
+	},
+	"lines": {
+		"skin": {
+			"1": {
+				"label": "ibuki_skin1",
+				"dialogue": {
+					"1": {
+						"event": "Ship Description",
+						"media": "",
+						"chinese": "将我从亘久之梦中唤醒的是你吗？在下伊吹，虽然仍是修行之身，若不嫌弃，任凭差遣",
+						"chineseTL": "Are you the one who awakened me from my eternal slumber? I am Ibuki, though my body is still in training, if you do not mind, please use me as you will.",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"2": {
+						"event": "Self Introduction",
+						"media": "self_introduction",
+						"chinese": "主上对我感到好奇吗？不过过去我不曾来到世间，也就没有值得一提的事迹……唔，喜欢和歌，擅长剑术，这样可以吗？还有……我不太习惯和人相处……",
+						"chineseTL": "Milord is curious about me? Because I did not exist in the past I don't have any exploits worth mentioning... Uh, I like Waka and I'm adept in swordsmanship, are you satisfied with that? Also... I'm not very accustomed to interacting with people...",
+						"chineseNote": "",
+						"japanese": "主殿、この伊吹に興味が…？うん…一度も生まれることがなかった伊吹は、誇れるカンレキもないのは当然として……えっと、趣味は短歌で、剣術が得意です！というところでよろしいでしょうか？あ、あとは……本当は人と話すのがちょっと苦手で……",
+						"japaneseTL": "Milord, have you taken an interest in me…? Um… Since I was never born, naturally, I don't have a history to be proud of… Erm, I compose tanka as a hobby, and I'm good at fencing! Was that introduction good enough? A-also… I'm actually not very good at talking to people…",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"3": {
+						"event": "Acquisition",
+						"media": "acquisition",
+						"chinese": "将我从亘久之梦中唤醒的是你吗？在下伊吹，虽然仍是修行之身，若不嫌弃，任凭差遣",
+						"chineseTL": "Are you the one who awakened me from my eternal slumber? I am Ibuki, though my body is still in training, if you do not mind, please use me as you will.",
+						"chineseNote": "",
+						"japanese": "永き夢から私を目覚めさせたのはあなたでしょうか？ 不肖伊吹、まだ修行中の身ですが、この私でよろしければ、何卒お使いください",
+						"japaneseTL": "Was it you who woke me up from my long dream? I am unworthy and still training, but if that is okay with you then please put me to use.",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"4": {
+						"event": "Login",
+						"media": "login",
+						"chinese": "主上，外出辛苦了",
+						"chineseTL": "Milord, you worked hard out there.",
+						"chineseNote": "",
+						"japanese": "主殿、外出お疲れ様でした",
+						"japaneseTL": "Milord, your hard work is to be commended.",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"5": {
+						"event": "Details",
+						"media": "details",
+						"chinese": "主上，欢迎......没有什么好招待的，只有茶可以吗？",
+						"chineseTL": "Milord, welcome... There's nothing much to serve, are you okay with just tea?",
+						"chineseNote": "",
+						"japanese": "主殿、よ、ようこそ……あまり出せるものはないですが…お茶でもどうでしょうか？",
+						"japaneseTL": "W-welcome, Milord… I don't have much to offer, but… would you like some tea?",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"6": {
+						"event": "Idle 1",
+						"media": "idle_1",
+						"chinese": "只有我和主上两个人…总觉得有点…害羞",
+						"chineseTL": "Only the two of us, Milord and I... It still feels a little... embarrassing.",
+						"chineseNote": "",
+						"japanese": "主殿と二人っきり……なんだか…ドキドキ……",
+						"japaneseTL": "Being alone with Milord… makes my heart race... a bit",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"7": {
+						"event": "Idle 2",
+						"media": "idle_2",
+						"chinese": "主上，要是暂时没有事，我能去冥想一下吗？",
+						"chineseTL": "Milord, if you don't need me right now, may I go meditate?",
+						"chineseNote": "",
+						"japanese": "主殿、ご命令がなければ、瞑想に…少し席を外してもよろしいでしょうか",
+						"japaneseTL": "Milord, if you do not need me right now then I'd like to medita-… I'd like to take my leave, if that's okay with you. ",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"8": {
+						"event": "Idle 3",
+						"media": "idle_3",
+						"chinese": "为了精进剑术，每天必须至少空挥千回……请放心，在主上离开的时候我已经完成了",
+						"chineseTL": "In order to improve swordsmanship, it is necessary to swing my sword one-thosand times daily... Please don't worry, I was done while Milord was away.",
+						"chineseNote": "",
+						"japanese": "剣の腕、落とさないようにするだけでも毎日素振り千回…… あ、ご安心ください！主殿がいない間に済ませてまいりました",
+						"japaneseTL": "I swing my sword a thousand times a day to prevent my swordsmanship from worsening… Ah, please don't worry! I finished my training while you were not here, Milord. ",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"9": {
+						"event": "Touch",
+						"media": "touch",
+						"chinese": "展示一下剑术吗？对不起，被人这么看着有点……",
+						"chineseTL": "Showcase my swordsmanship? Sorry, but demonstrating in front of others is a bit...",
+						"chineseNote": "",
+						"japanese": "演武を披露してほしい、ですか？す、すみません、人前ではちょっと……",
+						"japaneseTL": "Do you want me to demonstrate my martial art skills? I-I'm sorry, but I lack the confidence to demonstrate it to others… ",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"10": {
+						"event": "Special Touch",
+						"media": "special_touch",
+						"chinese": "烦恼退却，六根清净……呀！主、主上……",
+						"chineseTL": "Purge the worries, purify all senses... Ah! M-Milord...",
+						"chineseNote": "",
+						"japanese": "ぼ、煩悩退散六根清浄……あぅ！あ、主殿……",
+						"japaneseTL": "P-purge my sinful thoughts… Ah! Oh, Milord… ",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"11": {
+						"event": "Mission",
+						"media": "mission",
+						"chinese": "有任务...需要我也一同出击吗？",
+						"chineseTL": "There's a mission... Do you need me to sortie too?",
+						"chineseNote": "",
+						"japanese": "任務ですね…伊吹も一緒に出撃しましょうか？",
+						"japaneseTL": "There's a mission… Shall I sortie as well? ",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"12": {
+						"event": "Mission Complete",
+						"media": "mission_complete",
+						"chinese": "主上，那边好像堆了好多东西？喔，那就是奖励吗？",
+						"chineseTL": "Milord, what is that pile of stuff over there? Oh, are those rewards?",
+						"chineseNote": "",
+						"japanese": "主殿、向こうに結構物資が積み上がっているようですが…あれがホウシュウ…ですか？",
+						"japaneseTL": "Milord, there seems to be a pile of resources over there… Are those what are called… \"rewards\"?",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"13": {
+						"event": "Mail",
+						"media": "mail",
+						"chinese": "主上，你的信件…诶？念给你听？那种害羞的事情…",
+						"chineseTL": "Milord, your mail... Huh? Read it for you? That's kind of embarrassing...",
+						"chineseNote": "",
+						"japanese": "主殿、お手紙…え？読み上げるのですか？そ、そんな恥ずかしいこと……",
+						"japaneseTL": "Milord, there's a letter for you… Huh? Read it out loud? T-that's too embarrassing…",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"14": {
+						"event": "Return from Sortie",
+						"media": "return_from_sortie",
+						"chinese": "主上，受伤了的话请用我的艾草把，我还有很多喔",
+						"chineseTL": "Milord, if you get injured, please use some of my mugwort, I still have plenty.",
+						"chineseNote": "",
+						"japanese": "主殿、もし怪我していたら伊吹のヨモギを敷いてみてはどうですか？まだまだありますよ？",
+						"japaneseTL": "Milord, if you get injured, how about applying this mugwort from Mount Ibuki? There's plenty more where it came from.",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"15": {
+						"event": "Commission Complete",
+						"media": "commission_complete",
+						"chinese": "主上，委托……唔，是叫这个吗？总之完成了",
+						"chineseTL": "Master, commission... Oh, so that's what it's called? Anyway, it's completed.",
+						"chineseNote": "",
+						"japanese": "主殿、イタクって……これですか？はい、とにかく無事完了しました",
+						"japaneseTL": "Milord, is this what is known as a… \"commission\"? Understood. Anyhow, it has been completed without issue.",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"16": {
+						"event": "Enhancement",
+						"media": "enhancement",
+						"chinese": "这就是...变强的感觉？感激不尽",
+						"chineseTL": "This is... the feeling of becoming strong? My deepest gratitude.",
+						"chineseNote": "",
+						"japanese": "これは…強くなった感触…感謝です！",
+						"japaneseTL": "This is… how it feels to get stronger… You have my gratitude!",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"17": {
+						"event": "Sortie Start",
+						"media": "sortie_start",
+						"chinese": "战场无情...伊吹，出击！",
+						"chineseTL": "There are no emotions in a place of battle... Ibuki, sortieing!",
+						"chineseNote": "",
+						"japanese": "戦に情けなど無用…伊吹、参ります！",
+						"japaneseTL": "There is no room for any mercy in battle… Ibuki, advancing!",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"18": {
+						"event": "MVP",
+						"media": "mvp",
+						"chinese": "雕虫小技，见笑了",
+						"chineseTL": "A minor accomplishment. Hardly worth mentioning.",
+						"chineseNote": "",
+						"japanese": "これしきの手前、褒められるほどでは御座いません",
+						"japaneseTL": "My performance was nothing special, it does not deserve to be praised.",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"19": {
+						"event": "Defeat",
+						"media": "defeat",
+						"chinese": "呜…需要加倍修行了…",
+						"chineseTL": "Uuu... I need to train twice as hard...",
+						"chineseNote": "",
+						"japanese": "うぅ…修行を倍にするべきか……",
+						"japaneseTL": "Uuh… I need to train twice as hard…",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"20": {
+						"event": "Skill Activation",
+						"media": "skill_activation",
+						"chinese": "伊吹之山岳……尽在这一剑之中",
+						"chineseTL": "The mountain of Ibuki... Its weight is in this blade.",
+						"chineseNote": "",
+						"japanese": "この一刀、伊吹の嶺にかけて！",
+						"japaneseTL": "I make this slash in the name of Mount Ibuki!",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"21": {
+						"event": "Low Health",
+						"media": "low_health",
+						"chinese": "背水一战……求之不得！",
+						"chineseTL": "To fight with the odds stacked against me... Just what I had hoped for!",
+						"chineseNote": "",
+						"japanese": "背水の陣……望むところです！",
+						"japaneseTL": "Fighting with my back against the wall… Just what I was hoping for!",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"22": {
+						"event": "Affinity (Disappointed)",
+						"media": "affinity_disappointed",
+						"chinese": "早知会遇到你这样的人，这个世间不来也罢......",
+						"chineseTL": "If I knew that I would meet a person like you, it would have been fine to not even come into this world...",
+						"chineseNote": "",
+						"japanese": "主殿のような人に仕えると知っていたら、伊吹は具現されなくても……",
+						"japaneseTL": "If I had known that I was to serve someone like you, it would have been better if I had never been created…",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"23": {
+						"event": "Affinity (Stranger)",
+						"media": "affinity_stranger",
+						"chinese": "我喜欢在高山之上，坐看浮云悠悠的生活......不过来到这里后我知道，我也不讨厌和大家一起的生活",
+						"chineseTL": "I enjoyed living a relaxing life on top of a mountain, watching the clouds float by... Though after coming here, I don't dislike living with everybody here.",
+						"chineseNote": "",
+						"japanese": "伊吹は山で暮らして、毎日雲を眺める生活も好きですけど…… ここに来てから、今の生活でも悪くないと思うようになりました",
+						"japaneseTL": "While I liked living in the mountains and gaze at the passing clouds every day… I don't think living here is so bad either.",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"24": {
+						"event": "Affinity (Friendly)",
+						"media": "affinity_friendly",
+						"chinese": "帅气……吗？我倒是更加羡慕总是笑容满面的大家……和她们相比，我只是不知道怎么表露感情而已",
+						"chineseTL": "I'm cool...? On the contrary, I'm the one who admires everyone else with their faces always full of smiles... Compared to them, I just don't know how to express my own feelings.",
+						"chineseNote": "",
+						"japanese": "カッコイイ……ですか？伊吹はむしろ笑顔にあふれるみんなのほうが羨ましいです。 ……伊吹は、みんなと比べて感情を表すすべがわからないだけ……",
+						"japaneseTL": "You think I'm… \"cool\"? I am simply jealous of everyone's bright smiles. I just don't know how to express my feelings as well as everyone else…",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"25": {
+						"event": "Affinity (Like)",
+						"media": "affinity_like",
+						"chinese": "而且和大家相处之后我才更加体会到，想要正确地表达自己的想法是一件很难的事，比如说喜悦，比如说……爱慕",
+						"chineseTL": "After interacting with everyone, I realized that expressing your feelings correctly is difficult. For example, happiness, or ...adoration.",
+						"chineseNote": "",
+						"japanese": "みんなと一緒に生活してようやく気づきました。 自分の気持ちを正しく表すのは難しいと…。「楽しい」とか……「恋」とか……",
+						"japaneseTL": "After living here with everyone I've finally come to realize how difficult it is to correctly express my feelings… Feelings like \"fun\"… or \"love\"…",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"26": {
+						"event": "Affinity (Love)",
+						"media": "affinity_love",
+						"chinese": "伊吹山的艾草，常被用来比喻安静燃烧的恋心，就好比现在…指挥官能感觉到吗？伊吹的…心",
+						"chineseTL": "The mugwort of Mount Ibuki is often used as a metaphor for the quiet burning of love, just like right now... Commander, can you feel Ibuki's... heart?",
+						"chineseNote": "",
+						"japanese": "伊吹山、ヨモギの恋は静かに燃ゆる――た、例えば今…主殿、伊吹の心…感じて…いますか？",
+						"japaneseTL": "On Mount Ibuki, the mugwort's love quietly burns. S-say… Milord, can you feel… my heart?",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"27": {
+						"event": "Pledge",
+						"media": "pledge",
+						"chinese": "我过去从不知道，心意得到回应，是一件这么幸福的事情…请不要看我，主上…我现在的表情一定很奇怪…",
+						"chineseTL": "Back then, I never knew that having my feelings reciprocated would be something so joyous.... Please don't look at me, Master... My expression right now must be really weird...",
+						"chineseNote": "",
+						"japanese": "自分の気持ちが報われるのは、こんなに嬉しいことなんて……主殿、み、見ないでください ……今の伊吹は嬉しすぎて、きっと顔がヘンになってますから……",
+						"japaneseTL": "I did not know that having my feelings reciprocated would bring such joy… Milord, p-please don't look… I'm so happy right now that I must have a weird expression on my face…",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"28": {
+						"event": "Valentines 2019",
+						"media": "",
+						"chinese": "主上，我听说这是赠与重要之人巧克力的节日…对我来说，这是第一次过情人节，也是第一次做的巧克力…今后，还会和主上一起度过许多“第一次”吧。如果这也能成为主上一段难忘的回忆..就好了",
+						"chineseTL": "Milord, I heard this is a holiday when you give chocolate to your most important person... This is my first time celebrating Valentines and the first time I crafted chocolate... From now on, there will be still lots of \"first times\" with Milord. I hope I can ingrain this unforgettable memory into Milord...",
+						"chineseNote": "",
+						"japanese": "主殿、バレンタインでは大切な方にチョコを贈るものと聞きました…。初めてのバレンタイン、初めてのチョコ。これからも主殿とたくさんの「ハジメテ」を過ごすのでしょう。主殿にとっても大切な思い出になれば……うれしいです",
+						"japaneseTL": "Milord, I heard that Valentines is when you give chocolate to your most precious person... First Valentines, first chocolate. From now on, there will a lot of \"first times\" with Milord. I will be happy if... this can become an unforgettable memory to Milord.",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					}
+				}
+			},
+			"2": {
+				"label": "ibuki_skin2",
+				"dialogue": {
+					"1": {
+						"event": "Ship Description, Acquisition",
+						"media": "acquisition",
+						"chinese": "主上，下雪了呢……不介意的话，请来伊吹的伞下躲一躲吧。",
+						"chineseTL": "Milord, it's snowing... If you don't mind, come hide under my umbrella.",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"2": {
+						"event": "Login",
+						"media": "login",
+						"chinese": "主上，要一起外出吗",
+						"chineseTL": "Milord, are we going out?",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"3": {
+						"event": "Details",
+						"media": "details",
+						"chinese": "这一身衣服，不好好感谢凤翔小姐可不行",
+						"chineseTL": "I'm very grateful to Houshou for these clothes",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"4": {
+						"event": "Idle 1",
+						"media": "idle_1",
+						"chinese": "阿嚏！……打喷嚏的样子很可爱？请、请不要笑话我了……",
+						"chineseTL": "Achoo!... my sneezing face is very cute? P-please don't make fun of me...",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"5": {
+						"event": "Idle 2",
+						"media": "idle_2",
+						"chinese": "这就是真正的雪……真漂亮啊",
+						"chineseTL": "So this is real snow... it's very beautiful",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"6": {
+						"event": "Idle 3",
+						"media": "idle_3",
+						"chinese": "冬天会有很热闹的祭典吗……稍微……有些感兴趣",
+						"chineseTL": "There are lively festivals during winter?... I'm slightly... interested",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"7": {
+						"event": "Touch",
+						"media": "touch",
+						"chinese": "主上……有想去的地方了？我会陪您一起去的",
+						"chineseTL": "Milord... is there somewhere you want to go? I'll go with you",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"8": {
+						"event": "Special Touch",
+						"media": "special_touch",
+						"chinese": "主、主上，手好冷……",
+						"chineseTL": "M-Milord, your hands are cold...",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"9": {
+						"event": "Return from Sortie",
+						"media": "return_from_sortie",
+						"chinese": "外面在下雪呢……主上，我给您再添一件毛衣吧",
+						"chineseTL": "It's snowing outside... Milord, I'll prepare a wool sweater for you",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"10": {
+						"event": "Affinity (Love)",
+						"media": "affinity_love",
+						"chinese": "在永梦之中，冬天的安静的，冰冷的。但在这里，在主上身边，冬天依然是温暖的……主上，我能和您……牵手吗？",
+						"chineseTL": "In my unending dreams, winter was quiet and cold. But here next to Milord, even though it's winter it's still warm... Milord, may I... hold hands with you?",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					}
+				}
+			}
+		}
+	}
+}

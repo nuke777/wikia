@@ -45,6 +45,14 @@ table.wikitablewide td {
 	border-color: #5c5d70;
     border-collapse: collapse;
 }
+table.retroTable{
+	border-style: none;
+	border-width: 0px;
+}
+table.retroTable td{
+	border-style: none;
+	border-width: 0px;
+}
 .leftCol {
     float: left;
     width: 50%;
@@ -205,7 +213,47 @@ table.wikitablewide td {
   visibility: visible;
 }
 
+.retroNodeContainer {
+	width: 100px;
+	height: 100px;
+}
 
+.retroNodeIcon {
+	width: 78px;
+	height: 78px;
+	cursor: pointer;
+	position: relative;
+}
+
+.retroNodeStage {
+	position: absolute;
+	right: 12px;
+	top: 46px;
+	font-size: 16px;
+	text-align: right;
+	text-shadow: 0px 0px 8px black;
+}
+
+.retroMaterial {
+	position: relative;
+	height: 64px;
+	width: 64px;
+	border-style:solid;  
+    border-color:white;
+    border-radius: 5px;
+    border-width:2px;
+    margin: 10px 0px 0px 10px;
+    float: left;
+}
+
+.retroMaterialCount{
+	position: absolute;
+	right: 6px;
+	top: 38px;
+	font-size: 14px;
+	text-align: right;
+	text-shadow: 0px 0px 5px black;
+}
 
 @media screen and (max-width: 1279px) {
 	table.wikitable {
