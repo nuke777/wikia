@@ -4,7 +4,7 @@ function ifFileExists(file){
 
     http.open('HEAD', file, false);
     http.send();
-    return (http.status != 404 || http.status != 403);
+    return (http.status != 404 && http.status != 403);
 
 }
 

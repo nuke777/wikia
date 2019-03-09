@@ -29,7 +29,7 @@
     <script defer src="js/fontawesome.js"></script>
 
     <!-- Include Pixi. -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/pixi.js/4.6.1/pixi.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pixi.js/4.7.1/pixi.min.js"></script>
 
 
     <!-- Include Cubism Core. -->
@@ -38,9 +38,16 @@
 
 
     <!-- Include Cubism Components. -->
-    <script src="../../../js/live2dcubismframework.js"></script>
-    <script src="../../../js/live2dcubismpixi.js"></script>
-	
+    <script src="js/live2dcubismframework.js"></script>
+    <script src="js/live2dcubismpixi.js"></script>
+
+    <!-- SD -->
+	<script src="js/pixi-spine.js"></script>
+	<script src="js/SkeletonBinary.js"></script>
+	<script src="js/sd.js"></script>
+	<script src="js/sd-main.js"></script>
+
+
 	<!-- Fetch Script -->
 	<script src="js/ship.js"></script>
 	<script src="js/util.js"></script>
@@ -392,8 +399,11 @@
 					</td>
 				</tr>
 				<tr>
-					<td>
-						<img id="shipSkinSD">
+					<td id="containerSD" style="position: relative;height: 512px">
+						<select class="selectAnimation form-control" style="width:250px;background-color:#24252d;color:#ffffff;float:left;position: absolute;top: 0;left: 0;z-index: 999;margin-top: 5px;margin-left: 5px" id="selectSD">
+
+						</select>
+						<div class="Canvas" style="height: 100%; width: 1px;position: absolute;top: 0;left: 0" id="sdAnim"></div>
 					</td>
 				</tr>
 			</table>
