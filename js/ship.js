@@ -1026,8 +1026,8 @@ function setTotalRetroStats(data){
 	document.getElementById("shipRetroStatsEvasion").innerHTML = "+" + evasion;
 	document.getElementById("shipRetroStatsAntiAir").innerHTML = "+" + antiAir;
 	document.getElementById("shipRetroStatsAviation").innerHTML = "+" + aviation;
-	document.getElementById("shipRetroStatsASW").innerHTML = asw;
-	document.getElementById("shipRetroStatsSpeed").innerHTML = speed;
+	document.getElementById("shipRetroStatsASW").innerHTML = "+" + asw;
+	document.getElementById("shipRetroStatsSpeed").innerHTML = "+" + speed;
 
 	if (data.equipmentLoadout["1"].type.search("Gun") > -1){
 		var efficiency = data.equipmentLoadout["1"].efficiency.replace(/\s+/g, '').replace(/%/g, '').split("/");
