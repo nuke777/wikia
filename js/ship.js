@@ -130,6 +130,7 @@ function init() {
 		setShipDropEventSelection(actual_JSON);
 		setDialogueSkinNav(actual_JSON);
 		setRetrofit(actual_JSON);
+		setTotalRetroStats(actual_JSON);
 		loadShipList();
 		
 		
@@ -668,8 +669,6 @@ function loadShipDialogueElements(skinId){
 		
 	});
 }
-
-//<source src="'+actual_JSON.lines.skin[x].dialogue[y].media+'" type="audio/ogg">\
 		
 function switchTranslation(translation, id){
 	var temp = document.getElementById(id).innerHTML;
@@ -828,6 +827,8 @@ function setRetrofit(data){
 		return;
 	}
 
+	var materialCollection = "";
+
 	for (var x in data.retrofit){
 		var nodeType = data.retrofit[x].nodeSettings.split(",")[0].trim();
 		var nodeCell = data.retrofit[x].nodeSettings.split(",")[1].trim();
@@ -853,8 +854,10 @@ function setRetrofit(data){
 			console.log(img);
 		}
 
-
+		materialCollection += materials + ",";
 	}
+
+	setTotalMaterials(materialCollection);
 
 }
 
@@ -932,12 +935,11 @@ function setRetrofitDetails(desc, statChange, level, star, materials){
 	document.getElementById("retroDesc").innerHTML = statChange;
 	document.getElementById("retroLevel").innerHTML = level;
 	document.getElementById("retroLimitBreak").innerHTML = star;
-	setRetrofitMaterialDetails(materials);
+	setRetrofitMaterialDetails(materials.split(","), "retroMats");
 }
 
-function setRetrofitMaterialDetails(materials){
-	clearAllChildren("retroMats");
-	var mats = materials.split(",");
+function setRetrofitMaterialDetails(mats, id){
+	clearAllChildren(id);
 	for (var i = 0; i < mats.length; ++i){
 		var item = mats[i].trim().split(" ")[0];
 		var amount = mats[i].trim().split(" ")[1];
@@ -998,8 +1000,106 @@ function setRetrofitMaterialDetails(materials){
 		materialIcon.style.backgroundSize = "100% 100%";
 		materialIcon.innerHTML = '<b><font class="retroMaterialCount">'+amount+'</font></b>';
 
-		document.getElementById("retroMats").appendChild(materialIcon);
+		document.getElementById(id).appendChild(materialIcon);
 	}
+}
+
+function setTotalRetroStats(data){
+	if (data.retrofit == null){ return;}
+
+	var hp = parseInt(data.stats["100retrofit"].hp) - parseInt(data.stats["100"].hp);
+	var reload = parseInt(data.stats["100retrofit"].reload) - parseInt(data.stats["100"].reload);
+	var firepower = parseInt(data.stats["100retrofit"].firepower) - parseInt(data.stats["100"].firepower);
+	var torpedo = parseInt(data.stats["100retrofit"].torpedo) - parseInt(data.stats["100"].torpedo);
+	var evasion = parseInt(data.stats["100retrofit"].evasion) - parseInt(data.stats["100"].evasion);
+	var antiAir = parseInt(data.stats["100retrofit"].antiAir) - parseInt(data.stats["100"].antiAir);
+	var aviation = parseInt(data.stats["100retrofit"].aviation) - parseInt(data.stats["100"].aviation);
+	var asw = parseInt(data.stats["100retrofit"].asw) - parseInt(data.stats["100"].asw);
+	var speed = parseInt(data.stats["100retrofit"].speed) - parseInt(data.stats["100"].speed);
+	var regPar = /\(([^)]+)\)/; //parenthesis
+	var reg = /([^()]+)/; 
+
+	document.getElementById("shipRetroStatsHP").innerHTML = "+" + hp;
+	document.getElementById("shipRetroStatsReload").innerHTML = "+" + reload;
+	document.getElementById("shipRetroStatsFirepower").innerHTML = "+" + firepower;
+	document.getElementById("shipRetroStatsTorpedo").innerHTML = "+" + torpedo;
+	document.getElementById("shipRetroStatsEvasion").innerHTML = "+" + evasion;
+	document.getElementById("shipRetroStatsAntiAir").innerHTML = "+" + antiAir;
+	document.getElementById("shipRetroStatsAviation").innerHTML = "+" + aviation;
+	document.getElementById("shipRetroStatsASW").innerHTML = asw;
+	document.getElementById("shipRetroStatsSpeed").innerHTML = speed;
+
+	if (data.equipmentLoadout["1"].type.search("Gun") > -1){
+		var efficiency = data.equipmentLoadout["1"].efficiency.replace(/\s+/g, '').replace(/%/g, '').split("/");
+		var total = 0;
+		if (regPar.exec(efficiency[3]) != null)
+			total = parseInt(regPar.exec(efficiency[3])[1]) - parseInt(reg.exec(efficiency[3])[0]);
+		document.getElementById("shipRetroStatsMainGun").innerHTML = "+" + total + "%";
+	} 
+	if (data.equipmentLoadout["2"].type.search("Gun") > -1){
+		var efficiency = data.equipmentLoadout["2"].efficiency.replace(/\s+/g, '').replace(/%/g, '').split("/");
+		var total = 0;
+		if (regPar.exec(efficiency[3]) != null)
+			total = parseInt(regPar.exec(efficiency[3])[1]) - parseInt(reg.exec(efficiency[3])[0]);
+		document.getElementById("shipRetroStatsAuxGun").innerHTML = "+" + total + "%";
+	}
+	if (data.equipmentLoadout["2"].type == "Torpedo"){
+		var efficiency = data.equipmentLoadout["2"].efficiency.replace(/\s+/g, '').replace(/%/g, '').split("/");
+		var total = 0;
+		if (regPar.exec(efficiency[3]) != null)
+			total = parseInt(regPar.exec(efficiency[3])[1]) - parseInt(reg.exec(efficiency[3])[0]);
+		document.getElementById("shipRetroStatsTorpedo").innerHTML += "/+" + total + "%";
+	} 
+	if (data.equipmentLoadout["3"].type.search("Anti") > -1){
+		var efficiency = data.equipmentLoadout["3"].efficiency.replace(/\s+/g, '').replace(/%/g, '').split("/");
+		var total = 0;
+		if (regPar.exec(efficiency[3]) != null)
+			total = parseInt(regPar.exec(efficiency[3])[1]) - parseInt(reg.exec(efficiency[3])[0]);
+		document.getElementById("shipRetroStatsAntiAir").innerHTML += "/+" + total + "%";
+	} 
+	for (var i = 1; i <= 3; ++i){
+		if (data.equipmentLoadout[i].type == "Fighter"){
+			var efficiency = data.equipmentLoadout[i].efficiency.replace(/\s+/g, '').replace(/%/g, '').split("/");
+			var total = 0;
+		if (regPar.exec(efficiency[3]) != null)
+			total = parseInt(regPar.exec(efficiency[3])[1]) - parseInt(reg.exec(efficiency[3])[0]);
+			document.getElementById("shipRetroStatsFighter").innerHTML = "/+" + total + "%";
+		}
+		if (data.equipmentLoadout[i].type == "Dive Bomber"){
+			var efficiency = data.equipmentLoadout[i].efficiency.replace(/\s+/g, '').replace(/%/g, '').split("/");
+			var total = 0;
+		if (regPar.exec(efficiency[3]) != null)
+			total = parseInt(regPar.exec(efficiency[3])[1]) - parseInt(reg.exec(efficiency[3])[0]);
+			document.getElementById("shipRetroStatsDiveBomber").innerHTML = "/+" + total + "%";
+		}
+		if (data.equipmentLoadout[i].type == "Torpedo Bomber"){
+			var efficiency = data.equipmentLoadout[i].efficiency.replace(/\s+/g, '').replace(/%/g, '').split("/");
+			var total = 0;
+		if (regPar.exec(efficiency[3]) != null)
+			total = parseInt(regPar.exec(efficiency[3])[1]) - parseInt(reg.exec(efficiency[3])[0]);
+			document.getElementById("shipRetroStatsTorpedoBomber").innerHTML = "/+" + total + "%";
+		}
+	}
+}
+
+function setTotalMaterials(materialCollection){
+	var materials = materialCollection.slice(0, -1).split(",");
+	var materialTotal = [];
+	for (var i = 0; i < materials.length; ++i){
+		if (i == 0){ materialTotal.push(materials[i].trim()); continue;}
+		for (var j = 0; j < materialTotal.length; ++j){
+			if (materials[i].trim().split(" ")[0] == materialTotal[j].trim().split(" ")[0]){
+				materialTotal[j] = materialTotal[j].trim().split(" ")[0] + " "+ (parseInt(materials[i].trim().split(" ")[1]) + parseInt(materialTotal[j].trim().split(" ")[1]));
+				break;
+			} else {
+				if ((materialTotal.length - j) == 1){
+					materialTotal.push(materials[i].trim());
+					break;
+				}
+			}
+		}
+	}
+	setRetrofitMaterialDetails(materialTotal, "totalMaterials");
 }
 
 function centerSD(){
@@ -1025,5 +1125,5 @@ window.onload = function() {
   addSideBar();
   addHeader();
   document.getElementById("sbar_Ship").className = "active";
-  
+
 };
