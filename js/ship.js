@@ -924,7 +924,7 @@ function setNode(nodeCell, nodeConn, img, stage, nodeConn, desc, statChange, lev
 	nodeIcon.className = "retroNodeIcon";
 	nodeIcon.style.background = "url('"+img+"')";
 	nodeIcon.innerHTML = '<b><font class="retroNodeStage">'+stage+'/'+stage+'</font></b>';
-	nodeIcon.setAttribute("onclick", 'setRetrofitDetails(\''+desc+'\',\''+statChange.replace(/"/g, "\\\"")+'\',\''+level+'\',\''+star+'\',\''+materials+'\')');
+	nodeIcon.setAttribute("onclick", 'setRetrofitDetails(\''+desc+'\',\''+statChange.replace(/'/g, "\\'")+'\',\''+level+'\',\''+star+'\',\''+materials+'\')');
 
 	document.getElementById(nodeCell).appendChild(nodeIcon);
 	document.getElementById(nodeCell).style.background = "url('../Images/Retrofit/"+nodeConn+".png')";
