@@ -924,7 +924,7 @@ function setNode(nodeCell, nodeConn, img, stage, nodeConn, desc, statChange, lev
 	nodeIcon.className = "retroNodeIcon";
 	nodeIcon.style.background = "url('"+img+"')";
 	nodeIcon.innerHTML = '<b><font class="retroNodeStage">'+stage+'/'+stage+'</font></b>';
-	nodeIcon.setAttribute("onclick", 'setRetrofitDetails(\''+desc+'\',\''+statChange+'\',\''+level+'\',\''+star+'\',\''+materials+'\')');
+	nodeIcon.setAttribute("onclick", 'setRetrofitDetails(\''+desc+'\',\''+statChange.replace(/"/g, "\\\"")+'\',\''+level+'\',\''+star+'\',\''+materials+'\')');
 
 	document.getElementById(nodeCell).appendChild(nodeIcon);
 	document.getElementById(nodeCell).style.background = "url('../Images/Retrofit/"+nodeConn+".png')";
@@ -1063,21 +1063,21 @@ function setTotalRetroStats(data){
 			var total = 0;
 		if (regPar.exec(efficiency[3]) != null)
 			total = parseInt(regPar.exec(efficiency[3])[1]) - parseInt(reg.exec(efficiency[3])[0]);
-			document.getElementById("shipRetroStatsFighter").innerHTML = "/+" + total + "%";
+			document.getElementById("shipRetroStatsFighter").innerHTML = "+" + total + "%";
 		}
 		if (data.equipmentLoadout[i].type == "Dive Bomber"){
 			var efficiency = data.equipmentLoadout[i].efficiency.replace(/\s+/g, '').replace(/%/g, '').split("/");
 			var total = 0;
 		if (regPar.exec(efficiency[3]) != null)
 			total = parseInt(regPar.exec(efficiency[3])[1]) - parseInt(reg.exec(efficiency[3])[0]);
-			document.getElementById("shipRetroStatsDiveBomber").innerHTML = "/+" + total + "%";
+			document.getElementById("shipRetroStatsDiveBomber").innerHTML = "+" + total + "%";
 		}
 		if (data.equipmentLoadout[i].type == "Torpedo Bomber"){
 			var efficiency = data.equipmentLoadout[i].efficiency.replace(/\s+/g, '').replace(/%/g, '').split("/");
 			var total = 0;
 		if (regPar.exec(efficiency[3]) != null)
 			total = parseInt(regPar.exec(efficiency[3])[1]) - parseInt(reg.exec(efficiency[3])[0]);
-			document.getElementById("shipRetroStatsTorpedoBomber").innerHTML = "/+" + total + "%";
+			document.getElementById("shipRetroStatsTorpedoBomber").innerHTML = "+" + total + "%";
 		}
 	}
 }
