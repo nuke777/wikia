@@ -213,7 +213,7 @@ Adding the following json files provided by anons below:
 - -
 
 Also
-- Add retrofit section to ship page
+- Add jukebox section [https://mega.nz/#F!SaZkHAIL!v2vRbqpbeOEjz9-tTDe94A](https://mega.nz/#F!SaZkHAIL!v2vRbqpbeOEjz9-tTDe94A)
 - Filters on ship list
 - Equipment page
 - Events page
