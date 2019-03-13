@@ -1,0 +1,823 @@
+{
+	"name": "Vincennes",
+	"nameJP": "ヴィンセンス",
+	"nameCN": "文森斯",
+	"class": "New Orleans",
+	"hull": "Heavy Cruiser",
+	"prefix": "USS",
+	"ID": "48",
+	"file_id": "048_Vincennes",
+	"navy": "Eagle Union",
+	"initialStar": "★★☆☆☆",
+	"rarity": "Elite",
+	"buildTime": "N/A",
+	"acquisitionMethod": "Reward for clearing daily mission of event \"Moonlit Overture\"",
+	"enhance": {
+		"firepower": "22",
+		"torpedo": "0",
+		"aviation": "0",
+		"reload": "11"
+	},
+	"scrap": {
+		"gold": "9",
+		"oil": "3",
+		"medal": "4"
+	},
+	"skin": {
+		"1": {
+			"name": "Default",
+			"description": "New Orleans-class heavy cruiser— Vincennes. Pennant number CA-44        ",
+			"expression": {
+				"1": {
+					"label": "Default"
+				}
+			}
+		},
+		"2": {
+			"name": "Sweet Dream",
+			"description": "",
+			"expression": {
+				"1": {
+					"label": "Default"
+				}
+			}
+		},
+		"3": {
+			"name": "Easy School",
+			"description": "",
+			"expression": {
+				"1": {
+					"label": "Default"
+				}
+			}
+		}
+	},
+	"releaseDate": {
+		"JP": "July 17th, 2018",
+		"CN": "July 17th, 2018",
+		"KR": "July 18th, 2018",
+		"EN": "March 14th, 2019"
+	},
+	"voiceActress": "Minami Tsuda",
+	"artist": {
+		"name": "Sky-FreeDom",
+		"weibo": "https://weibo.com/skyfreedom",
+		"twitter": "https://twitter.com/sky_freedom_",
+		"pixiv": "https://www.pixiv.net/member.php?id=1017056",
+		"other": ""
+	},
+	"parameters": {
+		"hp": "B",
+		"antiAir": "C",
+		"evasion": "C",
+		"aviation": "E",
+		"torpedo": "E",
+		"firepower": "B"
+	},
+	"stats": {
+		"100": {
+			"hp": "3585",
+			"armor": "Medium",
+			"reload": "140",
+			"firepower": "190",
+			"torpedo": "0",
+			"evasion": "24",
+			"antiAir": "200",
+			"aviation": "0",
+			"cost": "11",
+			"asw": "0",
+			"luck": "12",
+			"speed": "26"
+		},
+		"120": {
+			"hp": "4015",
+			"armor": "Medium",
+			"reload": "161",
+			"firepower": "218",
+			"torpedo": "0",
+			"evasion": "57",
+			"antiAir": "230",
+			"aviation": "0",
+			"cost": "11",
+			"asw": "0",
+			"luck": "12",
+			"speed": "26"
+		},
+		"base": {
+			"hp": "693",
+			"armor": "Medium",
+			"reload": "59",
+			"firepower": "40",
+			"torpedo": "0",
+			"evasion": "9",
+			"antiAir": "43",
+			"aviation": "0",
+			"cost": "3",
+			"asw": "0",
+			"luck": "12",
+			"speed": "26"
+		},
+		"100retrofit": {
+			"hp": "",
+			"armor": "",
+			"reload": "",
+			"firepower": "",
+			"torpedo": "",
+			"evasion": "",
+			"antiAir": "",
+			"aviation": "",
+			"cost": "",
+			"asw": "",
+			"luck": "",
+			"speed": ""
+		},
+		"120retrofit": {
+			"hp": "",
+			"armor": "",
+			"reload": "",
+			"firepower": "",
+			"torpedo": "",
+			"evasion": "",
+			"antiAir": "",
+			"aviation": "",
+			"cost": "",
+			"asw": "",
+			"luck": "",
+			"speed": ""
+		}
+	},
+	"limitBreak": {
+		"tier1": "Gains Full Barrage I / All Weapon Efficiency +2%",
+		"tier2": "Main Gun Mount +1 / All Weapon Efficiency +3%",
+		"tier3": "Upgrades Full Barrage I→II / All Weapon Efficiency +5%"
+	},
+	"equipmentLoadout": {
+		"1": {
+			"type": "CA Gun",
+			"efficiency": "105%/107%/110%/115%",
+			"amount": "1/1/2/2",
+			"preload": "0/0/0/0"
+		},
+		"2": {
+			"type": "DD Gun",
+			"efficiency": "50%/52%/55%/60%",
+			"amount": "1/1/1/1",
+			"preload": "0/0/0/0"
+		},
+		"3": {
+			"type": "Anti-Air Gun",
+			"efficiency": "120%/122%/125%/130%",
+			"amount": "1/1/1/1",
+			"preload": "0/0/0/0"
+		},
+		"4": {
+			"type": "Auxilliary",
+			"efficiency": "-",
+			"amount": "-",
+			"preload": "-"
+		},
+		"5": {
+			"type": "Auxilliary",
+			"efficiency": "-",
+			"amount": "-",
+			"preload": "-"
+		}
+	},
+	"defaultEquipment": {
+		"1": "Triple 203mm (8\" / 55 caliber gun) T1 ",
+		"2": "-",
+		"3": "Twin 20mm AA Oerlikon"
+	},
+	"skill": {
+		"1": {
+			"name": "Full Firepower",
+			"type": "Offensive",
+			"requirement": "Default Unlocked",
+			"description": "30% (60%) activation every 20 seconds: For 10 seconds, increases own Firepower by 20% (40%)."
+		},
+		"2": {
+			"name": "Protective Armor",
+			"type": "Defensive",
+			"requirement": "Default Unlocked",
+			"description": "Reduce gun-based damage from enemy Destroyers and Light Cruisers by 5% (20%)."
+		},
+		"3": {
+			"name": "Full Barrage",
+			"type": "Offensive",
+			"requirement": "Limit Break Rank 1 (I) / Rank 3 (II)",
+			"description": "Every 12 (8) times the main gun is fired, trigger Full Barrage - New Orleans-Class I (II)"
+		}
+	},
+	"build": {
+		"light": {
+			"JP": "-",
+			"CN": "-",
+			"EN": "-"
+		},
+		"heavy": {
+			"JP": "-",
+			"CN": "-",
+			"EN": "-"
+		},
+		"special": {
+			"JP": "-",
+			"CN": "-",
+			"EN": "-"
+		},
+		"limited": {
+			"JP": "-",
+			"CN": "-",
+			"EN": "-"
+		}
+	},
+	"drop": {
+		"droppable": "false",
+		"list": {
+			"1": {
+				"event": "World",
+				"chapter": {
+					"1": {
+						"label": "Ch. 2",
+						"node": {
+							"1": {
+								"drop": "✓",
+								"note": "JP Only"
+							},
+							"2": {
+								"drop": "✓",
+								"note": "JP Only"
+							},
+							"3": {
+								"drop": "✓",
+								"note": "JP Only"
+							},
+							"4": {
+								"drop": "✓",
+								"note": "JP Only"
+							}
+						}
+					}
+				}
+			}
+		}
+	},
+	"lines": {
+		"skin": {
+			"1": {
+				"label": "Default",
+				"dialogue": {
+					"1": {
+						"event": "Ship Description",
+						"media": "",
+						"chinese": "新奥尔良级重巡洋舰——文森斯，舷号CA-44",
+						"chineseTL": "New Orleans-class heavy cruiser—— Vincennes. Pennant number CA-44.",
+						"chineseNote": "",
+						"japanese": "ニューオリンズ級重巡洋艦――ヴィンセンス（CA-44）",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"2": {
+						"event": "Self Introduction",
+						"media": "self_introduction",
+						"chinese": "新奥尔良级重巡洋舰七号舰文森斯，去过很多地方…并且在许多战役中都努力过…最后在萨沃岛迎来了自己的结局——",
+						"chineseTL": "New Orleans-class heavy cruiser 7th ship Vincennes. I have been to many places... and fought in many battles... until my ending at Savo Island.",
+						"chineseNote": "",
+						"japanese": "ニューオリンズ級重巡洋艦七番艦ヴィンセンス。昔は色んなとこに行ってたよ。たくさん戦闘に参加したけど、最後は…サボ島だったかな……",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"3": {
+						"event": "Acquisition",
+						"media": "acquisition",
+						"chinese": "新奥尔良级文森斯…指挥官，能把我抱回家吗？",
+						"chineseTL": "Vincennes of the New Orleans-class... Commander, want to carry me home?",
+						"chineseNote": "",
+						"japanese": "ニューオリンズ級ヴィンセンスよ…指揮官、ヴィンセンスを連れて帰ってね…？",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"4": {
+						"event": "Login",
+						"media": "login",
+						"chinese": "指挥官的睡脸，很可爱…",
+						"chineseTL": "Commander's sleepy face is so cute...",
+						"chineseNote": "",
+						"japanese": "指揮官、寝顔、カワイイ…",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"5": {
+						"event": "Details",
+						"media": "details",
+						"chinese": "指挥官，要一起对着天上的云发会呆吗？",
+						"chineseTL": "Commander, want to stare at the clouds with me?",
+						"chineseNote": "",
+						"japanese": "雲を見てぼーっとしない？",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"6": {
+						"event": "Idle 1",
+						"media": "idle_1",
+						"chinese": "因为姐姐们都很喜欢照顾我，所以大部分时候我只要负责发呆就好了…",
+						"chineseTL": "Because big sister likes to take care of me, I can usually just zone out...",
+						"chineseNote": "",
+						"japanese": "姉たちは世話担当、ヴィンセンスはほぼボケ担当……",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"7": {
+						"event": "Idle 2",
+						"media": "idle_2",
+						"chinese": "姐姐们塞给了我很多零食，指挥官……一起吃…？",
+						"chineseTL": "Big sister prepared a lot of snacks for me. Commander... want to eat with me...?",
+						"chineseNote": "",
+						"japanese": "姉たちからおやつ、たくさん貰った。指揮官……一緒に食べる？",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"8": {
+						"event": "Idle 3",
+						"media": "idle_3",
+						"chinese": "好无聊…指挥官一起来玩—玩什么？嗯…发呆？",
+						"chineseTL": "So bored... Want to play with me? Play what? Uh... zoning out?",
+						"chineseNote": "",
+						"japanese": "つまらない…指揮官、なんか一緒にやってみない？ええと…いっしょにぼーっとする？",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"9": {
+						"event": "Touch",
+						"media": "touch",
+						"chinese": "指挥官……知道我在想些什么吗？",
+						"chineseTL": "Commander... do you know what I'm thinking about?",
+						"chineseNote": "",
+						"japanese": "指揮官……ヴィンセンスが何を思っているか知ってる？",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"10": {
+						"event": "Special Touch",
+						"media": "special_touch",
+						"chinese": "咿喵！指挥官想干什么！？",
+						"chineseTL": "M-meow! What are you doing!?",
+						"chineseNote": "",
+						"japanese": "ふにゃ！何をするの！？",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"11": {
+						"event": "Mission",
+						"media": "mission",
+						"chinese": "任务……也不是都得完成的吧…",
+						"chineseTL": "It's not like all the missions have to be completed right...",
+						"chineseNote": "",
+						"japanese": "任務……全部こなさなくてもいいよね…",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"12": {
+						"event": "Mission Complete",
+						"media": "mission_complete",
+						"chinese": "指挥官，我来替你休息吧…？",
+						"chineseTL": "Commander, how about I rest in your stead...?",
+						"chineseNote": "",
+						"japanese": "指揮官、代わりにヴィンセンスが休んであげよ？",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"13": {
+						"event": "Mail",
+						"media": "mail",
+						"chinese": "新的邮件出现了……好远，不想去拿……",
+						"chineseTL": "New mail has arrived... It's so far away. I don't want to go get it....",
+						"chineseNote": "",
+						"japanese": "新手のメールが現れたー遠い…取りに行きたくない……",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"14": {
+						"event": "Return from Sortie",
+						"media": "return_from_sortie",
+						"chinese": "欢迎回来，指挥官，今天天上云朵的形状很罕见呢…",
+						"chineseTL": "Welcome back, Commander. The shapes of the clouds in the sky today are pretty unusual...",
+						"chineseNote": "",
+						"japanese": "指揮官おかえりー。今日は珍しい雲を見た…",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"15": {
+						"event": "Commission Complete",
+						"media": "commission_complete",
+						"chinese": "委托队们回来了…发呆时间结束了…",
+						"chineseTL": "The commission team has returned... The time for zoning out is over...",
+						"chineseNote": "",
+						"japanese": "委託チームおかえり～ボケタイムおわり～",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"16": {
+						"event": "Enhancement",
+						"media": "enhancement",
+						"chinese": "变强…好像也没什么好处呢…",
+						"chineseTL": "Becoming stronger... doesn't seem to have any benefits...",
+						"chineseNote": "",
+						"japanese": "強くなるって…別にいいとこなさそう……",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"17": {
+						"event": "Sortie Start",
+						"media": "sortie_start",
+						"chinese": "一起游泳吧…？",
+						"chineseTL": "Want to swim together...?",
+						"chineseNote": "",
+						"japanese": "一緒に泳ご？",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"18": {
+						"event": "MVP",
+						"media": "mvp",
+						"chinese": "胜利的V！",
+						"chineseTL": "V is for victory!",
+						"chineseNote": "",
+						"japanese": "勝利のV～",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"19": {
+						"event": "Defeat",
+						"media": "defeat",
+						"chinese": "指挥官，要准备跑了…",
+						"chineseTL": "Commander, running away...",
+						"chineseNote": "",
+						"japanese": "指揮官、エスケープ……",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"20": {
+						"event": "Skill Activation",
+						"media": "skill_activation",
+						"chinese": "要认真了…！",
+						"chineseTL": "Getting serious...!",
+						"chineseNote": "",
+						"japanese": "本気だすよ…にゃ！",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"21": {
+						"event": "Low Health",
+						"media": "low_health",
+						"chinese": "还、还能战斗！大概…",
+						"chineseTL": "I c-can still fight! Probably...",
+						"chineseNote": "",
+						"japanese": "ま、まだ戦える！かも…",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"22": {
+						"event": "Affinity (Disappointed)",
+						"media": "affinity_disappointed",
+						"chinese": "指挥官？！好危险……",
+						"chineseTL": "Commander?! How dangerous...",
+						"chineseNote": "",
+						"japanese": "指揮官！？危なかった……",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"23": {
+						"event": "Affinity (Stranger)",
+						"media": "affinity_stranger",
+						"chinese": "昆西姐姐一直在帮各种各样的人忙，都没时间陪我发呆了……",
+						"chineseTL": "Quincy is always busy helping all sorts of people, so she never has time to waste with me...",
+						"chineseNote": "",
+						"japanese": "クインシー姉ちゃんはほかの人の手伝いでいっぱいだから、あまりヴィンセンスと一緒にぼーっとしなくなった……",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"24": {
+						"event": "Affinity (Friendly)",
+						"media": "affinity_friendly",
+						"chinese": "指挥官……不论对谁都很温柔…",
+						"chineseTL": "Commander... is gentle to everybody, no matter who it is...",
+						"chineseNote": "",
+						"japanese": "指揮官……誰にも優しいね…",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"25": {
+						"event": "Affinity (Like)",
+						"media": "affinity_like",
+						"chinese": "不是对谁都一样喵？但是只要一看着我，指挥官的脸就变得十分温柔呢……这是为什么？",
+						"chineseTL": "You're not like this to everybody? Commander's face always becomes so gentle when he sees me... Why is that?",
+						"chineseNote": "",
+						"japanese": "みんな同じじゃない？でもヴィンセンスを見る指揮官の顔は優しいね……なんでだろう…",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"26": {
+						"event": "Affinity (Love)",
+						"media": "affinity_love",
+						"chinese": "比起观察云彩和大海，现在我更喜欢观察指挥官了……指挥官的笑容、焦虑、喜悦、无奈都好有趣……",
+						"chineseTL": "Rather than observing the clouds and the sea, I now prefer to observe Commander... Whether Commander is smiling, anxious, joyful, or helpless, it is all so amusing.",
+						"chineseNote": "",
+						"japanese": "海と空を見ることより、指揮官の顔を見るのが好き……楽しい顔も慌てる顔も、焦る顔も呆れる顔も、みんな面白いの……",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"27": {
+						"event": "Pledge",
+						"media": "pledge",
+						"chinese": "虽然只和姐姐们一起也能玩得很快乐…但如果有指挥官的陪伴，一定会比现在更加有趣。所以，接下来也请多指教！",
+						"chineseTL": "Although I can have fun playing with just my sisters... If Commander will accompany me, I will have even more fun. So, I will be in your care from now on!",
+						"chineseNote": "",
+						"japanese": "姉ちゃんたちと一緒に遊んでもいいけど…指揮官がいてくれるともっと面白くなるよね…？うん、これからもよろしくー",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"28": {
+						"event": "Valentines 2019",
+						"media": "",
+						"chinese": "",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					}
+				}
+			},
+			"2": {
+				"label": "Sweet Dream",
+				"dialogue": {
+					"1": {
+						"event": "Ship Description, Acquisition",
+						"media": "acquisition",
+						"chinese": "呼呼……好舒服……嗯？是，是指挥官…喵？",
+						"chineseTL": "(breathing)... So comfortable... huh? C-commander... meow?",
+						"chineseNote": "",
+						"japanese": "ふにゃ……ぐったり……うん？指揮官だ…ふにゃ？",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"2": {
+						"event": "Login",
+						"media": "login",
+						"chinese": "好舒服，不想起来…",
+						"chineseTL": "So comfortable. I don't want to get up...",
+						"chineseNote": "",
+						"japanese": "起きたくない……",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"3": {
+						"event": "Details",
+						"media": "details",
+						"chinese": "我喜欢做梦。梦里面什么都不用做……不用战斗，也不用悲伤……",
+						"chineseTL": "I like to dream. In my dream, I don't have to do anything... I don't have to fight, nor do I have to feel sad...",
+						"chineseNote": "",
+						"japanese": "夢を見るのが好き。夢の中では何もしなくていいから……戦うことも、悲しむことも……",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"4": {
+						"event": "Idle 1",
+						"media": "idle_1",
+						"chinese": "在梦里面，大家都开开心心地在一起玩…",
+						"chineseTL": "In my dream, everybody is playing happily together...",
+						"chineseNote": "",
+						"japanese": "夢の中ではみんなが楽しく遊んでた…",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"5": {
+						"event": "Idle 2",
+						"media": "idle_2",
+						"chinese": "呼呼……甜甜圈怪人…追上来了…",
+						"chineseTL": "(breathing)... Donut Man... has caught up...",
+						"chineseNote": "",
+						"japanese": "ふにゃ……ドーナツ怪人…追ってきた…",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"6": {
+						"event": "Idle 3",
+						"media": "idle_3",
+						"chinese": "喵喵…变得好大…呼呼……",
+						"chineseTL": "Meow... It's become so big... (breathing)...",
+						"chineseNote": "",
+						"japanese": "ニャンニャン…巨大化した……ふにゃ……",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"7": {
+						"event": "Touch",
+						"media": "touch",
+						"chinese": "阿斯托利亚姐姐……不要摇我……呼呼……",
+						"chineseTL": "Astoria... don't shake me... (breathing)",
+						"chineseNote": "",
+						"japanese": "アストリア姉ちゃん……揺らさないで……ふにゃ……",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"8": {
+						"event": "Special Touch",
+						"media": "special_touch",
+						"chinese": "唔唔……甜甜圈怪人……不要摸那里……指挥官快救我……",
+						"chineseTL": "(snoring)... Donut Man... Don't touch me there... Commander, save me...",
+						"chineseNote": "",
+						"japanese": "ふにゃ……ドーナツ怪人……そこは……指揮官、助けて……",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"9": {
+						"event": "Return from Sortie",
+						"media": "return_from_sortie",
+						"chinese": "呼呼……呼呼……",
+						"chineseTL": "(breathing)...(breathing)...",
+						"chineseNote": "",
+						"japanese": "Zzzzz……Zzzz……",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					}
+				}
+			},
+			"3": {
+				"label": "Easy School",
+				"dialogue": {
+					"1": {
+						"event": "Ship Description, Acquisition",
+						"media": "acquisition",
+						"chinese": "",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "学校にしゅっぱーつ。時間を守るヴィンセンス、いい子～",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"2": {
+						"event": "Details",
+						"media": "details",
+						"chinese": "",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "写真？じゃあ…ポーズ～",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"3": {
+						"event": "Idle 1",
+						"media": "idle_1",
+						"chinese": "",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "授業では何を教えられたかって？わからない…お外の雲が面白かった…",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"4": {
+						"event": "Idle 2",
+						"media": "idle_2",
+						"chinese": "",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "朝黒いニャンニャンを見た。…幸運の証？",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"5": {
+						"event": "Idle 3",
+						"media": "idle_3",
+						"chinese": "",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "ぼーっとしてればいいだけの授業、なんでないの…",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"6": {
+						"event": "Touch",
+						"media": "touch",
+						"chinese": "",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "指揮官も授業？",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"7": {
+						"event": "Special Touch",
+						"media": "special_touch",
+						"chinese": "",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "ふにゃ！ふ、風紀違反だよ！",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"8": {
+						"event": "Return from Sortie",
+						"media": "return_from_sortie",
+						"chinese": "",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "次の授業が始まるの？",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					}
+				}
+			}
+		}
+	}
+}
