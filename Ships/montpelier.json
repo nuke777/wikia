@@ -1,0 +1,631 @@
+{
+	"name": "Montpelier",
+	"nameJP": "モントピリア",
+	"nameCN": "蒙彼利",
+	"class": "Cleveland",
+	"hull": "Light Cruiser",
+	"prefix": "USS",
+	"ID": "329",
+	"file_id": "329_Montpelier",
+	"navy": "Eagle Union",
+	"initialStar": "★★★☆☆☆",
+	"rarity": "Super Rare",
+	"buildTime": "01:25:00",
+	"acquisitionMethod": "Light Build",
+	"enhance": {
+		"firepower": "13",
+		"torpedo": "0",
+		"aviation": "0",
+		"reload": "13"
+	},
+	"scrap": {
+		"gold": "6",
+		"oil": "3",
+		"medal": "10"
+	},
+	"skin": {
+		"1": {
+			"name": "Default",
+			"description": "Cleveland-class light cruiser Montpelier, designation CL-57.",
+			"expression": {
+				"1": {
+					"label": "Default"
+				}
+			}
+		},
+		"skin": {
+			"2": {
+				"name": "Flower in the Snowy Night",
+				"description": "",
+				"expression": {
+					"1": {
+						"label": "Default"
+					}
+				}
+			}
+		},
+		"releaseDate": {
+			"JP": "April 26, 2018",
+			"CN": "March 21, 2018",
+			"KR": "",
+			"EN": ""
+		},
+		"voiceActress": "Rie Takahashi",
+		"artist": {
+			"name": "幻象黑兔",
+			"weibo": "https://weibo.com/u/3188613133",
+			"twitter": "",
+			"pixiv": "https://www.pixiv.net/member.php?id=4462245",
+			"other": ""
+		},
+		"parameters": {
+			"hp": "B",
+			"antiAir": "B",
+			"evasion": "B",
+			"aviation": "E",
+			"torpedo": "E",
+			"firepower": "B"
+		},
+		"stats": {
+			"100": {
+				"hp": "3929",
+				"armor": "Light",
+				"reload": "168",
+				"firepower": "148",
+				"torpedo": "0",
+				"evasion": "77",
+				"antiAir": "295",
+				"aviation": "0",
+				"cost": "11",
+				"asw": "91",
+				"luck": "72",
+				"speed": "32"
+			},
+			"120": {
+				"hp": "4361",
+				"armor": "Light",
+				"reload": "193",
+				"firepower": "170",
+				"torpedo": "0",
+				"evasion": "92",
+				"antiAir": "333",
+				"aviation": "0",
+				"cost": "11",
+				"asw": "104",
+				"luck": "72",
+				"speed": "32"
+			},
+			"base": {
+				"hp": "760",
+				"armor": "Light",
+				"reload": "71",
+				"firepower": "31",
+				"torpedo": "0",
+				"evasion": "30",
+				"antiAir": "63",
+				"aviation": "0",
+				"cost": "3",
+				"asw": "25",
+				"luck": "72",
+				"speed": "32"
+			},
+			"100retrofit": {
+				"hp": "",
+				"armor": "",
+				"reload": "",
+				"firepower": "",
+				"torpedo": "",
+				"evasion": "",
+				"antiAir": "",
+				"aviation": "",
+				"cost": "",
+				"asw": "",
+				"luck": "",
+				"speed": ""
+			},
+			"120retrofit": {
+				"hp": "",
+				"armor": "",
+				"reload": "",
+				"firepower": "",
+				"torpedo": "",
+				"evasion": "",
+				"antiAir": "",
+				"aviation": "",
+				"cost": "",
+				"asw": "",
+				"luck": "",
+				"speed": ""
+			}
+		},
+		"limitBreak": {
+			"tier1": "Gains Full Barrage I / Main Gun Efficiency +5%",
+			"tier2": "Main Gun Mount +1 / Main Gun Efficiency +10%",
+			"tier3": "Upgrades Full Barrage I→II / Main Gun Efficiency +15%"
+		},
+		"equipmentLoadout": {
+			"1": {
+				"type": "CL Gun",
+				"efficiency": "100%/105%/115%/130%",
+				"amount": "1/1/2/2",
+				"preload": "0/0/0/0"
+			},
+			"2": {
+				"type": "DD Gun",
+				"efficiency": "75%/75%/75%/75%",
+				"amount": "1/1/1/1",
+				"preload": "0/0/0/0"
+			},
+			"3": {
+				"type": "Anti-Air Gun",
+				"efficiency": "120%/120%/120%/120%",
+				"amount": "1/1/1/1",
+				"preload": "0/0/0/0"
+			},
+			"4": {
+				"type": "Auxilliary",
+				"efficiency": "-",
+				"amount": "-",
+				"preload": "-"
+			},
+			"5": {
+				"type": "Auxilliary",
+				"efficiency": "-",
+				"amount": "-",
+				"preload": "-"
+			}
+		},
+		"defaultEquipment": {
+			"1": "Triple 152mm (6\"/53 caliber gun) T1.",
+			"2": "-",
+			"3": "Quadruple 40mm L60 Mk2 Bofors T1"
+		},
+		"skill": {
+			"1": {
+				"name": "Legend of the Solomons",
+				"type": "Support",
+				"requirement": "Default Unlocked",
+				"description": "30% (60%) activation every 20s: For 8 seconds, decrease the damage all allied cruisers receive by 5% (15%) and increase firepower and accuracy by 5% (25%)."
+			},
+			"2": {
+				"name": "Anti-Air Mode",
+				"type": "Defensive",
+				"requirement": "Default Unlocked",
+				"description": "25% activation when attacking with Anti-Air Guns: For 3 seconds, increase own Anti-Air by 20% (40%) but decrease Firepower by 40% (20%)."
+			},
+			"3": {
+				"name": "Full Barrage",
+				"type": "Offensive",
+				"requirement": "Limit Break Rank 1 (I) / Rank 3 (II)",
+				"description": "Every 15 (10) times the main gun is fired, trigger Full Barrage - Cleveland Class I (II)."
+			}
+		},
+		"build": {
+			"light": {
+				"JP": "✓",
+				"CN": "✓",
+				"EN": "-"
+			},
+			"heavy": {
+				"JP": "-",
+				"CN": "-",
+				"EN": "-"
+			},
+			"special": {
+				"JP": "-",
+				"CN": "-",
+				"EN": "-"
+			},
+			"limited": {
+				"JP": "-",
+				"CN": "-",
+				"EN": "-"
+			}
+		},
+		"drop": {
+			"droppable": "false",
+			"list": {
+				"1": {
+					"event": "World",
+					"chapter": {
+						"1": {
+							"label": "Ch. 11",
+							"node": {
+								"1": {
+									"drop": "-",
+									"note": ""
+								},
+								"2": {
+									"drop": "-",
+									"note": ""
+								},
+								"3": {
+									"drop": "-",
+									"note": ""
+								},
+								"4": {
+									"drop": "✓",
+									"note": "Boss"
+								}
+							}
+						}
+					}
+				}
+			}
+		},
+		"lines": {
+			"skin": {
+				"1": {
+					"label": "Default",
+					"dialogue": {
+						"1": {
+							"event": "Ship Description",
+							"media": "",
+							"chinese": "克利夫兰级轻巡洋舰—蒙彼利埃，舷号CL-57",
+							"chineseTL": "Cleveland class light cruiser, Montpelier. Hull number CL-57.",
+							"chineseNote": "",
+							"japanese": "クリーブランド級軽巡洋艦・モントピリア（CL-57)",
+							"japaneseTL": "Cleveland Class Light Cruiser, Montpelier. Hull Number CL-57.",
+							"japaneseNote": "",
+							"english": "",
+							"englishNote": ""
+						},
+						"2": {
+							"event": "Self Introduction",
+							"media": "self_introduction",
+							"chinese": "你知道吗？我们克利夫兰级是大战中白鹰最出色的轻巡，所以你要对大姐头更加尊敬一点才行。至于我，伦内尔，皇后湾，还有些其他作战，也算是参加过一些战斗吧",
+							"chineseTL": "Did you know? The Cleveland class are the best light cruisers in Eagle Union during the great war, so you should show more respect towards big sis. As for me, Rennell islands, Empress Augusta Bay, and a few other operations, I guess I did participate in some engagements.",
+							"chineseNote": "",
+							"japanese": "お前、クリーブランド級はあの大戦でのユニオンの最強軽巡だ。姉貴にはもっと敬意を払ってもらうぞ。――ぼくか？レンネル、オーガスタ湾、あと何個か作戦に出た。まあまあかな",
+							"japaneseTL": "You.. the Cleveland Class was the Union's strongest Light Cruiser in that great war. I'll have you be more respectful to Big Sis -- Me? I went to Rennel, Augusta Bay, and countless other operations. It was ok I guess.",
+							"japaneseNote": "",
+							"english": "",
+							"englishNote": ""
+						},
+						"3": {
+							"event": "Acquisition",
+							"media": "acquisition",
+							"chinese": "指挥官吗？看起来…不是那么可靠啊…不过既然大姐头也在这里…没办法，蒙彼利埃、报道，不用请多指教也没关系",
+							"chineseTL": "Are you the commander? Doesn't look...very reliable...but since sis is here...Oh well, Montpelier, reporting in. It's fine if even if you don't give me any guidance.",
+							"chineseNote": "",
+							"japanese": "指揮官か？頼りに…ならなそうね。でも姉貴はここにいる…仕方ない、モントピリア、着任した。指示なんてしなくても構わないよ",
+							"japaneseTL": "You're the Commander? You... don't seem too reliable. But Big Sis is here.. guess it can't be helped. Montpelier, has arrived. I'll be fine without guidance.",
+							"japaneseNote": "",
+							"english": "",
+							"englishNote": ""
+						},
+						"4": {
+							"event": "Login",
+							"media": "login",
+							"chinese": "你回来了？那我出去透透气，好闷",
+							"chineseTL": "You are back? Then I'm going out for some fresh air, it's too boring here.",
+							"chineseNote": "",
+							"japanese": "戻ったか？じゃあ出掛けてくる。ここは窮屈だ",
+							"japaneseTL": "You came back? Then let's go out. This place is too formal.",
+							"japaneseNote": "",
+							"english": "",
+							"englishNote": ""
+						},
+						"5": {
+							"event": "Details",
+							"media": "details",
+							"chinese": "大姐—原来是指挥官啊，有什么事吗？",
+							"chineseTL": "Sis...oh it's you, commander. What's the matter?",
+							"chineseNote": "",
+							"japanese": "姉貴ぃ！…って指揮官か。何か用？",
+							"japaneseTL": "Big Sis!.... Oh it's just the Commander. You need something?",
+							"japaneseNote": "",
+							"english": "",
+							"englishNote": ""
+						},
+						"6": {
+							"event": "Idle 1",
+							"media": "idle_1",
+							"chinese": "怎么才能变得像大姐头那样呢……笑容？……似乎，不太行",
+							"chineseTL": "How can I be more like sis...Try smiling?...Seems like it won't work.",
+							"chineseNote": "",
+							"japanese": "どうすればクリーブ姉貴のようになれるか……笑顔？……ちょっと、無理かも…",
+							"japaneseTL": "How should I become more like Sis.. Smile?.. That'd be difficult..",
+							"japaneseNote": "",
+							"english": "",
+							"englishNote": ""
+						},
+						"7": {
+							"event": "Idle 2",
+							"media": "idle_2",
+							"chinese": "我不太习惯和同级姐妹之外的人相处，至于指挥官你……唔，我会加油的",
+							"chineseTL": "I am not that used to dealing with people other than my sisters. As for you...hmm, I will try my best.",
+							"chineseNote": "",
+							"japanese": "同型の姉妹たち以外の人は苦手だ。指揮官、お前は……努力する",
+							"japaneseTL": "Unlike my sisters I'm bad with people. Commander, I'll try for you.",
+							"japaneseNote": "",
+							"english": "",
+							"englishNote": ""
+						},
+						"8": {
+							"event": "Idle 3",
+							"media": "idle_3",
+							"chinese": "指挥官，我有点好奇，大姐头当秘书的时候是什么样的？",
+							"chineseTL": "I am a bit curious commander, how was it like when sis was the secretary?",
+							"chineseNote": "",
+							"japanese": "指揮官、ぼくは気になる。姉貴が秘書艦を勤める時はどんな感じなのか？",
+							"japaneseTL": "Admiral, I'm curious. How was it like when my Big sis was the secretary ship?",
+							"japaneseNote": "",
+							"english": "",
+							"englishNote": ""
+						},
+						"9": {
+							"event": "Touch",
+							"media": "touch",
+							"chinese": "……？没有什么事的话请不要叫我",
+							"chineseTL": "...? If there's nothing please do not call me.",
+							"chineseNote": "",
+							"japanese": "……？用がないなら呼ぶな",
+							"japaneseTL": "..? If you don't have business with me, don't call out to me.",
+							"japaneseNote": "",
+							"english": "",
+							"englishNote": ""
+						},
+						"10": {
+							"event": "Special Touch",
+							"media": "special_touch",
+							"chinese": "忍耐，我要忍耐…这一定是在考验我对大姐头的信任…",
+							"chineseTL": "Bear with it, I need to bear with it...this must be a test of my trust is big sis...",
+							"chineseNote": "",
+							"japanese": "た、耐えるんだ……これは姉貴への信頼を試すことに決まっている…！",
+							"japaneseTL": "B..bear with it... this is a test that will decide my trust in Big Sis..!",
+							"japaneseNote": "",
+							"english": "",
+							"englishNote": ""
+						},
+						"11": {
+							"event": "Mission",
+							"media": "mission",
+							"chinese": "指挥官，任务来了，时间就是金钱，赶快完成吧",
+							"chineseTL": "Commander, a task has been given. Time is money, let's complete it quickly.",
+							"chineseNote": "",
+							"japanese": "指揮官、任務だ。時は金なり――早くしろ",
+							"japaneseTL": "Admiral, it's a mission. Time is money - hurry and do it.",
+							"japaneseNote": "",
+							"english": "",
+							"englishNote": ""
+						},
+						"12": {
+							"event": "Mission Complete",
+							"media": "mission_complete",
+							"chinese": "奖励吗……好吧，这也是职责的一部分，我去拿吧",
+							"chineseTL": "Rewards?...Alright, I guess it's a part of the job. I will go get it.",
+							"chineseNote": "",
+							"japanese": "報酬か……これも職務だな。持ってくる",
+							"japaneseTL": "A bonus huh... This too is a part of the job. I'll bring it to you.",
+							"japaneseNote": "",
+							"english": "",
+							"englishNote": ""
+						},
+						"13": {
+							"event": "Mail",
+							"media": "mail",
+							"chinese": "你的信，我放那了",
+							"chineseTL": "Your mail, I'm leaving it there.",
+							"chineseNote": "",
+							"japanese": "メール、ここに置いた",
+							"japaneseTL": "Your mail, I'll leave it here.",
+							"japaneseNote": "",
+							"english": "",
+							"englishNote": ""
+						},
+						"14": {
+							"event": "Return from Sortie",
+							"media": "return_from_sortie",
+							"chinese": "辛苦了，不休息会儿吗？",
+							"chineseTL": "Good work, are you going to take a break?",
+							"chineseNote": "",
+							"japanese": "お疲れ。休めば？",
+							"japaneseTL": "Good work. Gonna rest?",
+							"japaneseNote": "",
+							"english": "",
+							"englishNote": ""
+						},
+						"15": {
+							"event": "Commission Complete",
+							"media": "commission_complete",
+							"chinese": "委托完成了，不去接一下她们吗？",
+							"chineseTL": "The commission's completed. Are you going to go welcome them?",
+							"chineseNote": "",
+							"japanese": "委託が完了した。出かけた子たちを迎えにいのか？",
+							"japaneseTL": "The commission has finished. Aren't you going to meet the returnees?",
+							"japaneseNote": "",
+							"english": "",
+							"englishNote": ""
+						},
+						"16": {
+							"event": "Enhancement",
+							"media": "enhancement",
+							"chinese": "这样就离大姐头更近一点了…",
+							"chineseTL": "Now I am closer to big sis...",
+							"chineseNote": "",
+							"japanese": "姉貴にもう一歩!づけた…！",
+							"japaneseTL": "I've gotten one step closer to Big Sis..!",
+							"japaneseNote": "",
+							"english": "",
+							"englishNote": ""
+						},
+						"17": {
+							"event": "Sortie Start",
+							"media": "sortie_start",
+							"chinese": "海上骑士，出击！",
+							"chineseTL": "Knights of the sea, sortieing!",
+							"chineseNote": "",
+							"japanese": "海上騎士団、進軍！",
+							"japaneseTL": "Knights of the Sea, advance!",
+							"japaneseNote": "",
+							"english": "",
+							"englishNote": ""
+						},
+						"18": {
+							"event": "MVP",
+							"media": "mvp",
+							"chinese": "胜利的感觉…还不坏",
+							"chineseTL": "The feeling of victory...ain't too bad.",
+							"chineseNote": "",
+							"japanese": "勝利の感触……悪くない",
+							"japaneseTL": "The feeling of victory... isn't bad.",
+							"japaneseNote": "",
+							"english": "",
+							"englishNote": ""
+						},
+						"19": {
+							"event": "Defeat",
+							"media": "defeat",
+							"chinese": "对不起…大姐头…丢了海上骑士的脸…",
+							"chineseTL": "Sorry...sis...I brought shame to the knights of the sea.",
+							"chineseNote": "",
+							"japanese": "姉貴…ごめんなさい…海上の騎士の名に泥を塗ってしまいました……",
+							"japaneseTL": "Big sis... sorry... I've sullied the name of the Knights of the Sea....",
+							"japaneseNote": "",
+							"english": "",
+							"englishNote": ""
+						},
+						"20": {
+							"event": "Skill Activation",
+							"media": "skill_activation",
+							"chinese": "碍眼，消失吧",
+							"chineseTL": "Annoying, disappear!",
+							"chineseNote": "",
+							"japanese": "目障りだ。消えろ",
+							"japaneseTL": "You're an eyesore. Disappear.",
+							"japaneseNote": "",
+							"english": "",
+							"englishNote": ""
+						},
+						"21": {
+							"event": "Low Health",
+							"media": "low_health",
+							"chinese": "大姐头说了，不能放弃！",
+							"chineseTL": "Big sis said that we can never give up!",
+							"chineseNote": "",
+							"japanese": "姉貴が言ってました…諦めてはならないって！！",
+							"japaneseTL": "Big sis told me.... to never give up!",
+							"japaneseNote": "",
+							"english": "",
+							"englishNote": ""
+						},
+						"22": {
+							"event": "Affinity (Disappointed)",
+							"media": "affinity_disappointed",
+							"chinese": "大姐头果然看走眼了吗……",
+							"chineseTL": "Was big sis wrong...",
+							"chineseNote": "",
+							"japanese": "姉貴も人を見る目がないか……",
+							"japaneseTL": "Big Sis doesn't have a good eye for people it seems...",
+							"japaneseNote": "",
+							"english": "",
+							"englishNote": ""
+						},
+						"23": {
+							"event": "Affinity (Stranger)",
+							"media": "affinity_stranger",
+							"chinese": "虽然还不理解大姐头为什么会选择你，不过我还是相信大姐头的眼光的",
+							"chineseTL": "Even though I still am not quite sure why sis chose you, but I trust her judgement.",
+							"chineseNote": "",
+							"japanese": "姉貴がお前を選ぶ理由はわからん。だが姉貴の目は信じている",
+							"japaneseTL": "I don't understand the reason why Big Sis choose you. But I'll believe in her judgement.",
+							"japaneseNote": "",
+							"english": "",
+							"englishNote": ""
+						},
+						"24": {
+							"event": "Affinity (Friendly)",
+							"media": "affinity_friendly",
+							"chinese": "大姐头又厉害又酷，而且总是笑的很帅，就好像没有什么能打倒她一样，我的梦想就是有一天变成她那样",
+							"chineseTL": "Sis is both strong and cool, and her smile is so handsome, as though nothing can defeat her. I want to become like her one day.",
+							"chineseNote": "",
+							"japanese": "姉貴は…強くてかっこよくて、笑顔が輝かしくて、まるでどんな相手も倒せそうな……ぼくもいつか、ああなりたいな",
+							"japaneseTL": "Big Sis is... strong and cool, her smile is sparkling, as if nobody can beat her.. one day I too would like to be like that.",
+							"japaneseNote": "",
+							"english": "",
+							"englishNote": ""
+						},
+						"25": {
+							"event": "Affinity (Like)",
+							"media": "affinity_like",
+							"chinese": "说起来，指挥这种工作，我以前一直以为就是趾高气扬地在那发号施令的家伙……实际看过之后才知道，当指挥官也很辛苦呢",
+							"chineseTL": "I always thought that as a commander, you just had to bark out orders arrogantly...but after seeing how it really works, being a commander is pretty tough.",
+							"chineseNote": "",
+							"japanese": "指揮することって安全な場所で偉そうに命令しているだけっ思ってた……実際身近で見て分かった。指揮官も大変だな",
+							"japaneseTL": "I always thought commanding meant giving out orders from a safe spot pretentiously.. Turns out after looking closely I understand. It's difficult being a Commander.",
+							"japaneseNote": "",
+							"english": "",
+							"englishNote": ""
+						},
+						"26": {
+							"event": "Affinity (Love)",
+							"media": "affinity_love",
+							"chinese": "倒也不是说大姐头的话我什么都会听，只是大姐头总是对的……比如我现在已经理解了，她选择的指挥官有多么优秀",
+							"chineseTL": "It's not that I listen to everything sis says, it's just that she is always right...for example, now I finally understand how excellent her choice of a commander is.",
+							"chineseNote": "",
+							"japanese": "姉貴の言うことを闇雲になんでも聞いているわけじゃない。姉貴がいつも正しいから聞いている……今分かった。姉貴が選んだお前はやっぱり優秀だ",
+							"japaneseTL": "I don't mean that I always recklessly listen to everything Bis Sis says. I hear from her constantly that she's always right... And now I know why. The you who was chosen by Big Sis is truly excellent.",
+							"japaneseNote": "",
+							"english": "",
+							"englishNote": ""
+						},
+						"27": {
+							"event": "Pledge",
+							"media": "pledge",
+							"chinese": "大姐头说了，这种大事必须要遵从自己的内心。所以我现在站在了这里，指挥官你呢？",
+							"chineseTL": "Sis said that for this kind of important matter, I should follow my heart. That's why I am here, what about you?",
+							"chineseNote": "",
+							"japanese": "姉貴は自分のこころに従えって言ってた。だからぼくはここにいる――自分のこころに従って。指揮官、お前は？",
+							"japaneseTL": "Big Sis told me to obey my heart. That's why I am here. I followed my heart. Commander, what about you?",
+							"japaneseNote": "",
+							"english": "",
+							"englishNote": ""
+						},
+						"28": {
+							"event": "Easter Egg 1 ",
+							"media": "easter_egg_1",
+							"chinese": "（克利夫兰）…不能给大姐头丢人！",
+							"chineseTL": "(Cleveland) ...I cannot bring shame to big sis!",
+							"chineseNote": "",
+							"japanese": "(クリーブランドと出撃) ……姉貴に恥をかかせません！",
+							"japaneseTL": "...I won't embarass Big Sis!",
+							"japaneseNote": "",
+							"english": "",
+							"englishNote": ""
+						},
+						"29": {
+							"event": "Valentines 2019",
+							"media": "",
+							"chinese": "在给大姐头做的时候，想起来就把你的份一起做了。不用客气，毕竟你也是个很不错的指挥官。",
+							"chineseTL": "",
+							"chineseNote": "",
+							"japanese": "姉貴のためにチョコを作った時、お前の分も一緒に作った。遠慮するな。お前もいい指揮官だからな",
+							"japaneseTL": "",
+							"japaneseNote": "",
+							"english": "",
+							"englishNote": ""
+						}
+					}
+				},
+				"2": {
+					"label": "Default",
+					"dialogue": {
+						"1": {
+							"event": "Ship Description",
+							"media": "",
+							"chinese": "",
+							"chineseTL": "",
+							"chineseNote": "",
+							"japanese": "",
+							"japaneseTL": "",
+							"japaneseNote": "",
+							"english": "",
+							"englishNote": ""
+						}
+					}
+				}
+			}
+		}
+	}
+}
