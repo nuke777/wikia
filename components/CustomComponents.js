@@ -589,9 +589,245 @@ class ChapterNode extends HTMLElement{
 	}
 }
 
+class NodeMap extends HTMLElement{
+	constructor(){
+		super();
+		this.parentID = "_" + util.guidGenerator();
+		this.setAttribute('id', this.parentID);
+		this.root = this.attachShadow({mode: "open"});
+		render(this.template(),this.root);
+		this.init();
+	}
+
+	get size(){
+		return this.getAttribute('size');
+	}
+
+	get spawn(){
+		return this.getAttribute('spawn');
+	}
+
+	get terrain(){
+		return this.getAttribute('terrain');
+	}
+
+	get fleet(){
+		return this.getAttribute('fleet');
+	}
+
+	get boss(){
+		return this.getAttribute('boss');
+	}
+
+	get ammo(){
+		return this.getAttribute('ammo');
+	}
+
+	get bonus(){
+		return this.getAttribute('bonus');
+	}
+
+	get humanoid(){
+		return this.getAttribute('humanoid');
+	}
+
+	get memory(){
+		return this.getAttribute('memory');
+	}
+
+	get artillery(){
+		return this.getAttribute('artillery');
+	}
+
+	template(){
+		return html`
+		<style>
+			table.wikitablewide {
+			    margin: 1em 0;
+			    background-color: #373743;
+			    border-style: solid;
+			    border-width: 1px;
+			    border-color: #5c5d70;
+			    border-collapse: collapse;
+			    color: #ffffff;
+			}
+			table.wikitablewide td {
+			    border-style: solid;
+			    border-width: 1px;
+			    border-color: #5c5d70;
+			}
+		</style>
+		<table class="wikitablewide" style="text-align:left;margin:0 0 0 0;" id="content${this.parentID}">
+
+        </table>
+		`;
+	}
+
+	init(){
+		if (this.size != null){
+			this.generateTable(this.size.split("x")[0].trim(), this.size.split("x")[1].trim());
+			if (this.spawn != null){
+				this.setNode(this.spawn.split(" "), "Spawn");
+			}
+			if (this.boss != null){
+				this.setNode(this.boss.split(" "), "Boss");
+			}
+			if (this.fleet != null){
+				this.setNode(this.fleet.split(" "), "Fleet");
+			}
+			if (this.humanoid != null){
+				this.setNode(this.humanoid.split(" "), "Humanoid");
+			}
+			if (this.ammo != null){
+				this.setNode(this.ammo.split(" "), "Ammo");
+			}
+			if (this.bonus != null){
+				this.setNode(this.bonus.split(" "), "Bonus");
+			}
+			if (this.memory != null){
+				this.setNode(this.memory.split(" "), "Memory");
+			}
+			if (this.artillery != null){
+				this.setArtillery(this.artillery.split(";"), "Artillery");
+			}
+			if (this.terrain != null){
+				this.setTerrain(this.terrain.split(" "), "Terrain");
+			}
+		}
+	}
+
+	generateTable(width, height){
+		var str = "_abcdefghijklmnopqrstuvwxyz";
+		var html = "";
+		for (var i = 0; i <= height;++i){
+			html += '<tr>';
+			for (var j = 0; j <= width; ++j){
+				
+				if (i == 0 || j == 0){
+					html += '<td id="'+str.charAt(j)+i+this.parentID+'" style="height: 48px; width: 48px; text-align: center; background: #24252d;">';
+					if (i == 0 && j != 0)
+						html += str.charAt(j).toUpperCase();
+					else if (j == 0 && i != 0)
+						html += i;
+					html += '</td>';
+				} else {
+					html += '<td id="'+str.charAt(j)+i+this.parentID+'" style="height: 48px; width: 48px; text-align: center; background: #243659"></td>';
+				}
+			}
+			html += '</tr>';
+		}
+		this.root.getElementById("content"+this.parentID).innerHTML = html;
+		render(this.template(),this.root);
+	}
+
+	setNode(node, type){
+		for (var i = 0; i < node.length; ++i){
+			this.root.getElementById(node[i].trim()+this.parentID).style.background = "url('Images/"+type+".png'), #243659";
+			this.root.getElementById(node[i].trim()+this.parentID).style.backgroundSize = "80% 80%";
+			this.root.getElementById(node[i].trim()+this.parentID).style.backgroundRepeat = "no-repeat";
+			this.root.getElementById(node[i].trim()+this.parentID).style.backgroundPosition = "center";
+			this.root.getElementById(node[i].trim()+this.parentID).title = type;
+		}
+	}
+
+	setTerrain(node, type){
+		for (var i = 0; i < node.length; ++i){
+			this.root.getElementById(node[i].trim()+this.parentID).style.backgroundColor = "#313707"
+			this.root.getElementById(node[i].trim()+this.parentID).title = type;
+		}
+	}
+
+	setArtillery(artillery, tip){
+		var str = "_abcdefghijklmnopqrstuvwxyz";
+		for (var i = 0; i < artillery.length; ++i){
+			var node = artillery[i].split(",");
+			if (node[1].trim() == "west"){
+				var icon = node[0].trim().split(" ");
+				for (var j = 0; j < icon.length; ++j){
+					this.root.getElementById(icon[j].trim()+this.parentID).style.background = "url('Images/"+tip+"_West.png'), #243659";
+					this.root.getElementById(icon[j].trim()+this.parentID).style.backgroundSize = "80% 80%";
+					this.root.getElementById(icon[j].trim()+this.parentID).style.backgroundRepeat = "no-repeat";
+					this.root.getElementById(icon[j].trim()+this.parentID).style.backgroundPosition = "center";
+					this.root.getElementById(icon[j].trim()+this.parentID).title = tip;
+					var index = -1;
+					var limit = parseInt(node[2].trim());
+					for (var a = 0; a < 27; ++a){
+						++index;
+						if (str.charAt(a) == icon[j].trim().charAt(0)){
+							break;
+						}
+					}
+					while (limit != 0){
+						--index;
+						this.root.getElementById(str.charAt(index)+icon[j].trim().charAt(1)+this.parentID).style.backgroundColor = "rgba(135,32,28,0.3)";
+						--limit;
+					}
+
+				}
+			} else if (node[1].trim() == "east"){
+				var icon = node[0].trim().split(" ");
+				for (var j = 0; j < icon.length; ++j){
+					this.root.getElementById(icon[j].trim()+this.parentID).style.background = "url('Images/"+tip+"_East.png'), #243659";
+					this.root.getElementById(icon[j].trim()+this.parentID).style.backgroundSize = "80% 80%";
+					this.root.getElementById(icon[j].trim()+this.parentID).style.backgroundRepeat = "no-repeat";
+					this.root.getElementById(icon[j].trim()+this.parentID).style.backgroundPosition = "center";
+					this.root.getElementById(icon[j].trim()+this.parentID).title = tip;
+					var index = -1;
+					var limit = parseInt(node[2].trim());
+					for (var a = 0; a < 27; ++a){
+						++index;
+						if (str.charAt(a) == icon[j].trim().charAt(0)){
+							break;
+						}
+					}
+					while (limit != 0){
+						++index;
+						this.root.getElementById(str.charAt(index)+icon[j].trim().charAt(1)+this.parentID).style.backgroundColor = "rgba(135,32,28,0.3)";
+						--limit;
+					}
+				}
+			} else if (node[1].trim() == "north"){
+				var icon = node[0].trim().split(" ");
+				for (var j = 0; j < icon.length; ++j){
+					this.root.getElementById(icon[j].trim()+this.parentID).style.background = "url('Images/"+tip+"_North.png'), #243659";
+					this.root.getElementById(icon[j].trim()+this.parentID).style.backgroundSize = "80% 80%";
+					this.root.getElementById(icon[j].trim()+this.parentID).style.backgroundRepeat = "no-repeat";
+					this.root.getElementById(icon[j].trim()+this.parentID).style.backgroundPosition = "center";
+					this.root.getElementById(icon[j].trim()+this.parentID).title = tip;
+					var index = icon[j].trim().charAt(1);
+					var limit = parseInt(node[2].trim());
+					while (limit != 0){
+						--index;
+						this.root.getElementById(icon[j].trim().charAt(0)+index+this.parentID).style.backgroundColor = "rgba(135,32,28,0.3)";
+						--limit;
+					}
+				}
+			} else if (node[1].trim() == "south"){
+				var icon = node[0].trim().split(" ");
+				for (var j = 0; j < icon.length; ++j){
+					this.root.getElementById(icon[j].trim()+this.parentID).style.background = "url('Images/"+tip+"_South.png'), #243659";
+					this.root.getElementById(icon[j].trim()+this.parentID).style.backgroundSize = "80% 80%";
+					this.root.getElementById(icon[j].trim()+this.parentID).style.backgroundRepeat = "no-repeat";
+					this.root.getElementById(icon[j].trim()+this.parentID).style.backgroundPosition = "center";
+					this.root.getElementById(icon[j].trim()+this.parentID).title = tip;
+					var index = icon[j].trim().charAt(1);
+					var limit = parseInt(node[2].trim());
+					while (limit != 0){
+						++index;
+						this.root.getElementById(icon[j].trim().charAt(0)+index+this.parentID).style.backgroundColor = "rgba(135,32,28,0.3)";
+						--limit;
+					}
+				}
+			}
+
+		}
+	}
+}
+
 customElements.define('commented-ship-display',CommentedShipDisplay);
 customElements.define('icon-display',IconDisplay);
 customElements.define('naval-campaign',NavalCampaign);
 customElements.define('chapter-element',ChapterElement);
 customElements.define('chapter-node',ChapterNode);
+customElements.define('node-map',NodeMap);
 
