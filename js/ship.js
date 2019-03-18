@@ -285,7 +285,7 @@ function loadShipSkinElements(skin, skinID){
     } catch (err){
 
     }
-	if (ifFileExists(window.folder + "/SD/skin" + skinID + ".png")){
+	if (util.ifFileExists(window.folder + "/SD/skin" + skinID + ".png")){
 		viewer.loadSd("skin" + skinID);
 	}
 
@@ -299,7 +299,7 @@ function loadShipSkinElements(skin, skinID){
 	}
 	
 	
-	clearAllChildren("shipSkinExpressions");
+	util.clearAllChildren("shipSkinExpressions");
 	setShipExpressionNav(skin, skinID);
 }
 
@@ -851,7 +851,7 @@ function setRetrofit(data){
 		if (nodeType == "retronode"){
 			var img = setRetrofitStatIcon(statType, statModifier, stage);
 			setNode(nodeCell, nodeConn, img, stage, nodeConn, desc, statChange, level, star, materials);
-			console.log(img);
+			
 		}
 
 		materialCollection += materials + ",";
@@ -924,7 +924,7 @@ function setNode(nodeCell, nodeConn, img, stage, nodeConn, desc, statChange, lev
 	nodeIcon.className = "retroNodeIcon";
 	nodeIcon.style.background = "url('"+img+"')";
 	nodeIcon.innerHTML = '<b><font class="retroNodeStage">'+stage+'/'+stage+'</font></b>';
-	nodeIcon.setAttribute("onclick", 'setRetrofitDetails(\''+desc+'\',\''+statChange+'\',\''+level+'\',\''+star+'\',\''+materials+'\')');
+	nodeIcon.setAttribute("onclick", 'setRetrofitDetails(\''+desc+'\',\''+statChange.replace(/'/g, "\\'")+'\',\''+level+'\',\''+star+'\',\''+materials+'\')');
 
 	document.getElementById(nodeCell).appendChild(nodeIcon);
 	document.getElementById(nodeCell).style.background = "url('../Images/Retrofit/"+nodeConn+".png')";
@@ -939,67 +939,31 @@ function setRetrofitDetails(desc, statChange, level, star, materials){
 }
 
 function setRetrofitMaterialDetails(mats, id){
-	clearAllChildren(id);
+	util.clearAllChildren(id);
 	for (var i = 0; i < mats.length; ++i){
 		var item = mats[i].trim().split(" ")[0];
 		var amount = mats[i].trim().split(" ")[1];
-		var img = "";
-		var bgimg = "";
+		var materialIcon = document.createElement('icon-display');
 
-		if (item.substring(0,2) == "bp"){
-			if (window.hull == "Destroyer"){
-				img = "../Images/Items/" + item + "_dd.png";
-			} else if (window.hull == "Heavy Cruiser" || window.hull == "Light Cruiser"){
-				img = "../Images/Items/" + item + "_ca.png";
-			} else if (window.hull == "Battleship" || window.hull == "Battlecruiser"){
-				img = "../Images/Items/" + item + "_bb.png";
-			} else if (window.hull == "Aircraft Carrier" || window.hull == "Light Aircraft Carrier"){
-				img = "../Images/Items/" + item + "_cv.png";
+		if (item == "duplicate"){
+			item = window.location.hash.substr(1);
+			materialIcon.ship = item;
+		} else {
+			if (item.substring(0,2) == "bp"){
+				if (window.hull == "Destroyer"){
+					item += "_dd";
+				} else if (window.hull == "Heavy Cruiser" || window.hull == "Light Cruiser"){
+					item += "_ca";
+				} else if (window.hull == "Battleship" || window.hull == "Battlecruiser"){
+					item += "_bb";
+				} else if (window.hull == "Aircraft Carrier" || window.hull == "Light Aircraft Carrier"){
+					item += "_cv";
+				}
 			}
-
-			if (item.slice(-2) == "t1"){
-				bgimg = "../Images/bg2.png";
-			} else if (item.slice(-2) == "t2"){
-				bgimg = "../Images/bg3.png";
-			} else if (item.slice(-2) == "t3"){
-				bgimg = "../Images/bg4.png";
-			}
-		} else if (item.substring(0,2) == "pl"){
-			img = "../Images/Items/" + item + ".png";
-
-			if (item.substring(2,4) == "t1"){
-				bgimg = "../Images/bg1.png";
-			} else if (item.substring(2,4) == "t2"){
-				bgimg = "../Images/bg2.png";
-			} else if (item.substring(2,4) == "t3"){
-				bgimg = "../Images/bg3.png";
-			}
-		} else if (item == "duplicate"){
-			img = window.folder + "/Icon/icon.png";
-
-			if (window.rarity == "Common"){
-				bgimg = "../Images/bg1.png";
-			} else if (window.rarity == "Rare"){
-				bgimg = "../Images/bg2.png";
-			} else if (window.rarity == "Elite"){
-				bgimg = "../Images/bg3.png";
-			} else if (window.rarity == "Super Rare" || window.rarity == "Priority"){
-				bgimg = "../Images/bg4.png";
-			} else if (window.rarity == "Ultra Rare"){
-				bgimg = "../Images/bg5.png";
-			}
-
-		} else if (item == "gold"){
-			img = "../Images/gold.png";
-			bgimg = "../Images/bg4.png";
+			materialIcon.item = item;
 		}
 
-		var materialIcon = document.createElement('div');
-		materialIcon.className = "retroMaterial";
-		materialIcon.style.background = "url('"+img+"'), url('"+bgimg+"')";
-		materialIcon.style.backgroundSize = "100% 100%";
-		materialIcon.innerHTML = '<b><font class="retroMaterialCount">'+amount+'</font></b>';
-
+		materialIcon.description = amount;
 		document.getElementById(id).appendChild(materialIcon);
 	}
 }
@@ -1026,8 +990,8 @@ function setTotalRetroStats(data){
 	document.getElementById("shipRetroStatsEvasion").innerHTML = "+" + evasion;
 	document.getElementById("shipRetroStatsAntiAir").innerHTML = "+" + antiAir;
 	document.getElementById("shipRetroStatsAviation").innerHTML = "+" + aviation;
-	document.getElementById("shipRetroStatsASW").innerHTML = asw;
-	document.getElementById("shipRetroStatsSpeed").innerHTML = speed;
+	document.getElementById("shipRetroStatsASW").innerHTML = "+" + asw;
+	document.getElementById("shipRetroStatsSpeed").innerHTML = "+" + speed;
 
 	if (data.equipmentLoadout["1"].type.search("Gun") > -1){
 		var efficiency = data.equipmentLoadout["1"].efficiency.replace(/\s+/g, '').replace(/%/g, '').split("/");
@@ -1063,21 +1027,21 @@ function setTotalRetroStats(data){
 			var total = 0;
 		if (regPar.exec(efficiency[3]) != null)
 			total = parseInt(regPar.exec(efficiency[3])[1]) - parseInt(reg.exec(efficiency[3])[0]);
-			document.getElementById("shipRetroStatsFighter").innerHTML = "/+" + total + "%";
+			document.getElementById("shipRetroStatsFighter").innerHTML = "+" + total + "%";
 		}
 		if (data.equipmentLoadout[i].type == "Dive Bomber"){
 			var efficiency = data.equipmentLoadout[i].efficiency.replace(/\s+/g, '').replace(/%/g, '').split("/");
 			var total = 0;
 		if (regPar.exec(efficiency[3]) != null)
 			total = parseInt(regPar.exec(efficiency[3])[1]) - parseInt(reg.exec(efficiency[3])[0]);
-			document.getElementById("shipRetroStatsDiveBomber").innerHTML = "/+" + total + "%";
+			document.getElementById("shipRetroStatsDiveBomber").innerHTML = "+" + total + "%";
 		}
 		if (data.equipmentLoadout[i].type == "Torpedo Bomber"){
 			var efficiency = data.equipmentLoadout[i].efficiency.replace(/\s+/g, '').replace(/%/g, '').split("/");
 			var total = 0;
 		if (regPar.exec(efficiency[3]) != null)
 			total = parseInt(regPar.exec(efficiency[3])[1]) - parseInt(reg.exec(efficiency[3])[0]);
-			document.getElementById("shipRetroStatsTorpedoBomber").innerHTML = "/+" + total + "%";
+			document.getElementById("shipRetroStatsTorpedoBomber").innerHTML = "+" + total + "%";
 		}
 	}
 }
@@ -1106,7 +1070,7 @@ function centerSD(){
 	var containerWidth = document.getElementById("containerSD").getBoundingClientRect().width;
 	var sdWidth = viewer.sdWidth();
 	document.getElementById("sdAnim").style.left = Math.floor((containerWidth / 2) - (sdWidth / 2)) + "px";
-	console.log(((sdWidth / 2)) + "px");
+	
 }
 
 window.onhashchange = function() {
