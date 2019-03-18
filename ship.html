@@ -29,7 +29,7 @@
     <script defer src="js/fontawesome.js"></script>
 
     <!-- Include Pixi. -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/pixi.js/4.6.1/pixi.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pixi.js/4.7.1/pixi.min.js"></script>
 
 
     <!-- Include Cubism Core. -->
@@ -38,11 +38,20 @@
 
 
     <!-- Include Cubism Components. -->
-    <script src="../../../js/live2dcubismframework.js"></script>
-    <script src="../../../js/live2dcubismpixi.js"></script>
-	
+    <script src="js/live2dcubismframework.js"></script>
+    <script src="js/live2dcubismpixi.js"></script>
+
+    <!-- SD -->
+	<script src="js/pixi-spine.js"></script>
+	<script src="js/SkeletonBinary.js"></script>
+	<script src="js/sd.js"></script>
+	<script src="js/sd-main.js"></script>
+
+
 	<!-- Fetch Script -->
 	<script src="js/ship.js"></script>
+	<script src="js/util.js"></script>
+	<script src="components/CustomComponents.js" type="module"></script>
 
 
 </head>
@@ -391,8 +400,11 @@
 					</td>
 				</tr>
 				<tr>
-					<td>
-						<img id="shipSkinSD">
+					<td id="containerSD" style="position: relative;height: 512px">
+						<select class="selectAnimation form-control" style="width:250px;background-color:#24252d;color:#ffffff;float:left;position: absolute;top: 0;left: 0;z-index: 999;margin-top: 5px;margin-left: 5px" id="selectSD">
+
+						</select>
+						<div class="Canvas" style="height: 100%; width: 1px;position: absolute;top: 0;left: 0" id="sdAnim"></div>
 					</td>
 				</tr>
 			</table>
@@ -832,13 +844,15 @@
 	</tr>
 </table>
 
+</div>
+
 <div class="wideCol" id="shipRetrofitTable">
 
 <!-- Retrofit -->
 
 <table class="wikitablewide" style="width:100%;text-align:center;">
 	<tr style="text-align:center">
-		<td style="background:#000000;height:30px;" id="shipRarityColor9">
+		<td style="background:#000000;height:30px;" id="shipRarityColor10">
 			<b>
 				<font style="vertical-align: inherit;">Retrofit</font>
 			</b>
@@ -939,11 +953,71 @@
 			</table>
 		</td>
 	</tr>
+	<tr>
+		<td style="height:1px;" align="center">
+			<table class="wikitablewide" style="width:100%;height:100%;text-align:left;margin:0 0 0 0;">
+				<tr style="text-align:center">
+					<td style="background:#24252d;height:30px;width: 50%" colspan="4">
+						<b>
+							<font style="vertical-align: inherit;">Total Stats Gained</font>
+						</b>
+					</td>
+					<td style="background:#24252d;height:30px;width: 50%">
+						<b>
+							<font style="vertical-align: inherit;">Total Materials Needed</font>
+						</b>
+					</td>
+				</tr>
+				<tr>
+					<td style="width:17%%;padding-left:5px"><img src="Images/health_icon.png">&emsp;HP</td>
+					<td style="width:8%;text-align:center" id="shipRetroStatsHP"></td>
+					<td style="width:17%;padding-left:5px"><img src="Images/reload_icon.png">&emsp;Reload</td>
+					<td style="width:8%;text-align:center" id="shipRetroStatsReload"></td>
+					<td rowspan="7" id="totalMaterials"></td>
+				</tr>
+				<tr>
+					<td style="width:17%;padding-left:5px"><img src="Images/firepower_icon.png">&emsp;Firepower</td>
+					<td style="width:8%;text-align:center" id="shipRetroStatsFirepower"></td>
+					<td style="width:17%;padding-left:5px"><img src="Images/firepower_icon.png">&emsp;Main Gun</td>
+					<td style="width:8%;text-align:center" id="shipRetroStatsMainGun">+0%</td>
+				</tr>
+				<tr>
+					<td style="width:17%;padding-left:5px"><img src="Images/firepower_icon.png">&emsp;Auxiliary Gun</td>
+					<td style="width:8%;text-align:center" id="shipRetroStatsAuxGun">+0%</td>
+					<td style="width:17%;padding-left:5px"><img src="Images/torpedo_icon.png">&emsp;Torpedo</td>
+					<td style="width:8%;text-align:center" id="shipRetroStatsTorpedo"></td>
+				</tr>
+				<tr>
+					<td style="width:17%;padding-left:5px"><img src="Images/evasion_icon.png">&emsp;Evasion</td>
+					<td style="width:8%;text-align:center" id="shipRetroStatsEvasion"></td>
+					<td style="width:17%;padding-left:5px"><img src="Images/anti_air_icon.png">&emsp;Anti-air</td>
+					<td style="width:8%;text-align:center" id="shipRetroStatsAntiAir"></td>
+				</tr>
+				<tr>
+					<td style="width:17%;padding-left:5px"><img src="Images/aviation_icon.png">&emsp;Aviation</td>
+					<td style="width:8%;text-align:center" id="shipRetroStatsAviation"></td>
+					<td style="width:17%;padding-left:5px"><img src="Images/aviation_icon.png">&emsp;Fighter</td>
+					<td style="width:8%;text-align:center" id="shipRetroStatsFighter">+0%</td>
+				</tr>
+				<tr>
+					<td style="width:17%;padding-left:5px"><img src="Images/aviation_icon.png">&emsp;Dive Bomber</td>
+					<td style="width:8%;text-align:center" id="shipRetroStatsDiveBomber">+0%</td>
+					<td style="width:17%;padding-left:5px"><img src="Images/aviation_icon.png">&emsp;Torpedo Bomber</td>
+					<td style="width:8%;text-align:center" id="shipRetroStatsTorpedoBomber">+0%</td>
+				</tr>
+				<tr>
+					<td style="width:17%;padding-left:5px"><img src="Images/asw_icon.png">&emsp;ASW</td>
+					<td style="width:8%;text-align:center" id="shipRetroStatsASW"></td>
+					<td style="width:17%;padding-left:5px">Speed</td>
+					<td style="width:8%;text-align:center" id="shipRetroStatsSpeed"></td>
+				</tr>			
+			</table>
+		</td>
+	</tr>
 </table>
 
 </div>
 
-</div>
 
 <!-- content -->
 <!-- content -->

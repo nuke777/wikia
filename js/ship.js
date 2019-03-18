@@ -1,5 +1,6 @@
 window.folder = "https://s3.us-east-2.amazonaws.com/alg-wiki.com/Ships/";
 window.l2dfolder = "Live2D/";
+window.sdfolder = "";
 window.hull = "";
 window.rarity = "";
 
@@ -40,6 +41,7 @@ function init() {
 		console.log(actual_JSON);
 		window.folder = window.folder + actual_JSON.file_id;
 		window.l2dfolder = window.l2dfolder + actual_JSON.file_id;
+		viewer.init(window.folder + "/SD");
 		document.title = actual_JSON.prefix + " " + actual_JSON.name + " - /alg/ Azur Lane General Wiki";
 		document.getElementById("shipHeader").innerHTML = actual_JSON.prefix + " " + actual_JSON.name + " \(JP: " + actual_JSON.nameJP + ", CN: " + actual_JSON.nameCN + "\)";
 		document.getElementById("shipID").innerHTML = actual_JSON.ID;
@@ -128,6 +130,7 @@ function init() {
 		setShipDropEventSelection(actual_JSON);
 		setDialogueSkinNav(actual_JSON);
 		setRetrofit(actual_JSON);
+		setTotalRetroStats(actual_JSON);
 		loadShipList();
 		
 		
@@ -195,6 +198,7 @@ function setShipRarityHighlight(rarity){
 		document.getElementById("shipRarityColor7").style = "background:#beb988;height:30px;width:40%;";
 		document.getElementById("shipRarityColor8").style = "background:#beb988;height:30px;width:60%;";
 		document.getElementById("shipRarityColor9").style = "background:#beb988;height:30px";
+		document.getElementById("shipRarityColor10").style = "background:#beb988;height:30px";
 	} else if (rarity == "Elite") {
 		document.getElementById("shipRarityColor").style = "background:#b080b0;height:30px";
 		document.getElementById("shipRarityColor2").style = "background:#b080b0;height:30px";
@@ -205,6 +209,7 @@ function setShipRarityHighlight(rarity){
 		document.getElementById("shipRarityColor7").style = "background:#b080b0;height:30px;width:40%;";
 		document.getElementById("shipRarityColor8").style = "background:#b080b0;height:30px;width:60%;";
 		document.getElementById("shipRarityColor9").style = "background:#b080b0;height:30px";
+		document.getElementById("shipRarityColor10").style = "background:#b080b0;height:30px";
 	} else if (rarity == "Rare") {
 		document.getElementById("shipRarityColor").style = "background:#8cb3b8;height:30px";
 		document.getElementById("shipRarityColor2").style = "background:#8cb3b8;height:30px";
@@ -215,6 +220,7 @@ function setShipRarityHighlight(rarity){
 		document.getElementById("shipRarityColor7").style = "background:#8cb3b8;height:30px;width:40%;";
 		document.getElementById("shipRarityColor8").style = "background:#8cb3b8;height:30px;width:60%;";
 		document.getElementById("shipRarityColor9").style = "background:#8cb3b8;height:30px";
+		document.getElementById("shipRarityColor10").style = "background:#8cb3b8;height:30px";
 	}
 }	
 
@@ -268,14 +274,20 @@ function onSkinNavButtonClick(raw_skin, skinID){
 
 function loadShipSkinElements(skin, skinID){
 	document.getElementById("shipSkinDesc").innerHTML = skin.description;
-	document.getElementById("shipSkinSD").src = window.folder + "/Sprite/skin" + skinID + "_sd.png";
 	document.getElementById("shipSkinName").innerHTML = '<b>' +skin.name+ '</b>';
 	document.getElementById("shipSkinDisplay").src = window.folder + "/Sprite/skin" + skinID + "_expr1.png";
 	document.getElementById("shipSkinDisplay").style = "max-width:100%;height:auto;visibility: visible;";
 	document.getElementById("l2dContainer").style = "visibility:hidden";
 	document.getElementById("toggleL2d").className = "btnGenericText";
 	
+	try {
+		viewer.removeSd();
+    } catch (err){
 
+    }
+	if (util.ifFileExists(window.folder + "/SD/skin" + skinID + ".png")){
+		viewer.loadSd("skin" + skinID);
+	}
 
 	if (skin.l2d != null){
 		if (skin.l2d == "true"){
@@ -287,7 +299,7 @@ function loadShipSkinElements(skin, skinID){
 	}
 	
 	
-	removeShipExpressionNav();
+	util.clearAllChildren("shipSkinExpressions");
 	setShipExpressionNav(skin, skinID);
 }
 
@@ -313,13 +325,6 @@ function setShipExpressionNav(data, skinID){
 		document.getElementById('shipSkinExpressions').appendChild(container);
 	}
 	onExpressionNavButtonClick(initial, id, skinID);
-}
-
-function removeShipExpressionNav(){
-	var myNode = document.getElementById('shipSkinExpressions');
-	while (myNode.firstChild) {
-		myNode.removeChild(myNode.firstChild);
-	}
 }
 
 function onExpressionNavButtonClick(raw_expr, exprID, skinID){
@@ -664,8 +669,6 @@ function loadShipDialogueElements(skinId){
 		
 	});
 }
-
-//<source src="'+actual_JSON.lines.skin[x].dialogue[y].media+'" type="audio/ogg">\
 		
 function switchTranslation(translation, id){
 	var temp = document.getElementById(id).innerHTML;
@@ -824,6 +827,8 @@ function setRetrofit(data){
 		return;
 	}
 
+	var materialCollection = "";
+
 	for (var x in data.retrofit){
 		var nodeType = data.retrofit[x].nodeSettings.split(",")[0].trim();
 		var nodeCell = data.retrofit[x].nodeSettings.split(",")[1].trim();
@@ -846,11 +851,13 @@ function setRetrofit(data){
 		if (nodeType == "retronode"){
 			var img = setRetrofitStatIcon(statType, statModifier, stage);
 			setNode(nodeCell, nodeConn, img, stage, nodeConn, desc, statChange, level, star, materials);
-			console.log(img);
+			
 		}
 
-
+		materialCollection += materials + ",";
 	}
+
+	setTotalMaterials(materialCollection);
 
 }
 
@@ -917,7 +924,7 @@ function setNode(nodeCell, nodeConn, img, stage, nodeConn, desc, statChange, lev
 	nodeIcon.className = "retroNodeIcon";
 	nodeIcon.style.background = "url('"+img+"')";
 	nodeIcon.innerHTML = '<b><font class="retroNodeStage">'+stage+'/'+stage+'</font></b>';
-	nodeIcon.setAttribute("onclick", 'setRetrofitDetails(\''+desc+'\',\''+statChange+'\',\''+level+'\',\''+star+'\',\''+materials+'\')');
+	nodeIcon.setAttribute("onclick", 'setRetrofitDetails(\''+desc+'\',\''+statChange.replace(/'/g, "\\'")+'\',\''+level+'\',\''+star+'\',\''+materials+'\')');
 
 	document.getElementById(nodeCell).appendChild(nodeIcon);
 	document.getElementById(nodeCell).style.background = "url('../Images/Retrofit/"+nodeConn+".png')";
@@ -928,85 +935,151 @@ function setRetrofitDetails(desc, statChange, level, star, materials){
 	document.getElementById("retroDesc").innerHTML = statChange;
 	document.getElementById("retroLevel").innerHTML = level;
 	document.getElementById("retroLimitBreak").innerHTML = star;
-	setRetrofitMaterialDetails(materials);
+	setRetrofitMaterialDetails(materials.split(","), "retroMats");
 }
 
-function setRetrofitMaterialDetails(materials){
-	removeRetrofitMaterials()
-	var mats = materials.split(",");
+function setRetrofitMaterialDetails(mats, id){
+	util.clearAllChildren(id);
 	for (var i = 0; i < mats.length; ++i){
 		var item = mats[i].trim().split(" ")[0];
 		var amount = mats[i].trim().split(" ")[1];
-		var img = "";
-		var bgimg = "";
+		var materialIcon = document.createElement('icon-display');
 
-		if (item.substring(0,2) == "bp"){
-			if (window.hull == "Destroyer"){
-				img = "../Images/Items/" + item + "_dd.png";
-			} else if (window.hull == "Heavy Cruiser" || window.hull == "Light Cruiser"){
-				img = "../Images/Items/" + item + "_ca.png";
-			} else if (window.hull == "Battleship" || window.hull == "Battlecruiser"){
-				img = "../Images/Items/" + item + "_bb.png";
-			} else if (window.hull == "Aircraft Carrier" || window.hull == "Light Aircraft Carrier"){
-				img = "../Images/Items/" + item + "_cv.png";
+		if (item == "duplicate"){
+			item = window.location.hash.substr(1);
+			materialIcon.ship = item;
+		} else {
+			if (item.substring(0,2) == "bp"){
+				if (window.hull == "Destroyer"){
+					item += "_dd";
+				} else if (window.hull == "Heavy Cruiser" || window.hull == "Light Cruiser"){
+					item += "_ca";
+				} else if (window.hull == "Battleship" || window.hull == "Battlecruiser"){
+					item += "_bb";
+				} else if (window.hull == "Aircraft Carrier" || window.hull == "Light Aircraft Carrier"){
+					item += "_cv";
+				}
 			}
-
-			if (item.slice(-2) == "t1"){
-				bgimg = "../Images/bg2.png";
-			} else if (item.slice(-2) == "t2"){
-				bgimg = "../Images/bg3.png";
-			} else if (item.slice(-2) == "t3"){
-				bgimg = "../Images/bg4.png";
-			}
-		} else if (item.substring(0,2) == "pl"){
-			img = "../Images/Items/" + item + ".png";
-
-			if (item.substring(2,4) == "t1"){
-				bgimg = "../Images/bg1.png";
-			} else if (item.substring(2,4) == "t2"){
-				bgimg = "../Images/bg2.png";
-			} else if (item.substring(2,4) == "t3"){
-				bgimg = "../Images/bg3.png";
-			}
-		} else if (item == "duplicate"){
-			img = window.folder + "/Icon/icon.png";
-
-			if (window.rarity == "Common"){
-				bgimg = "../Images/bg1.png";
-			} else if (window.rarity == "Rare"){
-				bgimg = "../Images/bg2.png";
-			} else if (window.rarity == "Elite"){
-				bgimg = "../Images/bg3.png";
-			} else if (window.rarity == "Super Rare" || window.rarity == "Priority"){
-				bgimg = "../Images/bg4.png";
-			} else if (window.rarity == "Ultra Rare"){
-				bgimg = "../Images/bg5.png";
-			}
-
-		} else if (item == "gold"){
-			img = "../Images/gold.png";
-			bgimg = "../Images/bg4.png";
+			materialIcon.item = item;
 		}
 
-		var materialIcon = document.createElement('div');
-		materialIcon.className = "retroMaterial";
-		materialIcon.style.background = "url('"+img+"'), url('"+bgimg+"')";
-		materialIcon.style.backgroundSize = "100% 100%";
-		materialIcon.innerHTML = '<b><font class="retroMaterialCount">'+amount+'</font></b>';
-
-		document.getElementById("retroMats").appendChild(materialIcon);
+		materialIcon.description = amount;
+		document.getElementById(id).appendChild(materialIcon);
 	}
 }
 
-function removeRetrofitMaterials(){
-	var myNode = document.getElementById('retroMats');
-	while (myNode.firstChild) {
-		myNode.removeChild(myNode.firstChild);
+function setTotalRetroStats(data){
+	if (data.retrofit == null){ return;}
+
+	var hp = parseInt(data.stats["100retrofit"].hp) - parseInt(data.stats["100"].hp);
+	var reload = parseInt(data.stats["100retrofit"].reload) - parseInt(data.stats["100"].reload);
+	var firepower = parseInt(data.stats["100retrofit"].firepower) - parseInt(data.stats["100"].firepower);
+	var torpedo = parseInt(data.stats["100retrofit"].torpedo) - parseInt(data.stats["100"].torpedo);
+	var evasion = parseInt(data.stats["100retrofit"].evasion) - parseInt(data.stats["100"].evasion);
+	var antiAir = parseInt(data.stats["100retrofit"].antiAir) - parseInt(data.stats["100"].antiAir);
+	var aviation = parseInt(data.stats["100retrofit"].aviation) - parseInt(data.stats["100"].aviation);
+	var asw = parseInt(data.stats["100retrofit"].asw) - parseInt(data.stats["100"].asw);
+	var speed = parseInt(data.stats["100retrofit"].speed) - parseInt(data.stats["100"].speed);
+	var regPar = /\(([^)]+)\)/; //parenthesis
+	var reg = /([^()]+)/; 
+
+	document.getElementById("shipRetroStatsHP").innerHTML = "+" + hp;
+	document.getElementById("shipRetroStatsReload").innerHTML = "+" + reload;
+	document.getElementById("shipRetroStatsFirepower").innerHTML = "+" + firepower;
+	document.getElementById("shipRetroStatsTorpedo").innerHTML = "+" + torpedo;
+	document.getElementById("shipRetroStatsEvasion").innerHTML = "+" + evasion;
+	document.getElementById("shipRetroStatsAntiAir").innerHTML = "+" + antiAir;
+	document.getElementById("shipRetroStatsAviation").innerHTML = "+" + aviation;
+	document.getElementById("shipRetroStatsASW").innerHTML = "+" + asw;
+	document.getElementById("shipRetroStatsSpeed").innerHTML = "+" + speed;
+
+	if (data.equipmentLoadout["1"].type.search("Gun") > -1){
+		var efficiency = data.equipmentLoadout["1"].efficiency.replace(/\s+/g, '').replace(/%/g, '').split("/");
+		var total = 0;
+		if (regPar.exec(efficiency[3]) != null)
+			total = parseInt(regPar.exec(efficiency[3])[1]) - parseInt(reg.exec(efficiency[3])[0]);
+		document.getElementById("shipRetroStatsMainGun").innerHTML = "+" + total + "%";
+	} 
+	if (data.equipmentLoadout["2"].type.search("Gun") > -1){
+		var efficiency = data.equipmentLoadout["2"].efficiency.replace(/\s+/g, '').replace(/%/g, '').split("/");
+		var total = 0;
+		if (regPar.exec(efficiency[3]) != null)
+			total = parseInt(regPar.exec(efficiency[3])[1]) - parseInt(reg.exec(efficiency[3])[0]);
+		document.getElementById("shipRetroStatsAuxGun").innerHTML = "+" + total + "%";
 	}
+	if (data.equipmentLoadout["2"].type == "Torpedo"){
+		var efficiency = data.equipmentLoadout["2"].efficiency.replace(/\s+/g, '').replace(/%/g, '').split("/");
+		var total = 0;
+		if (regPar.exec(efficiency[3]) != null)
+			total = parseInt(regPar.exec(efficiency[3])[1]) - parseInt(reg.exec(efficiency[3])[0]);
+		document.getElementById("shipRetroStatsTorpedo").innerHTML += "/+" + total + "%";
+	} 
+	if (data.equipmentLoadout["3"].type.search("Anti") > -1){
+		var efficiency = data.equipmentLoadout["3"].efficiency.replace(/\s+/g, '').replace(/%/g, '').split("/");
+		var total = 0;
+		if (regPar.exec(efficiency[3]) != null)
+			total = parseInt(regPar.exec(efficiency[3])[1]) - parseInt(reg.exec(efficiency[3])[0]);
+		document.getElementById("shipRetroStatsAntiAir").innerHTML += "/+" + total + "%";
+	} 
+	for (var i = 1; i <= 3; ++i){
+		if (data.equipmentLoadout[i].type == "Fighter"){
+			var efficiency = data.equipmentLoadout[i].efficiency.replace(/\s+/g, '').replace(/%/g, '').split("/");
+			var total = 0;
+		if (regPar.exec(efficiency[3]) != null)
+			total = parseInt(regPar.exec(efficiency[3])[1]) - parseInt(reg.exec(efficiency[3])[0]);
+			document.getElementById("shipRetroStatsFighter").innerHTML = "+" + total + "%";
+		}
+		if (data.equipmentLoadout[i].type == "Dive Bomber"){
+			var efficiency = data.equipmentLoadout[i].efficiency.replace(/\s+/g, '').replace(/%/g, '').split("/");
+			var total = 0;
+		if (regPar.exec(efficiency[3]) != null)
+			total = parseInt(regPar.exec(efficiency[3])[1]) - parseInt(reg.exec(efficiency[3])[0]);
+			document.getElementById("shipRetroStatsDiveBomber").innerHTML = "+" + total + "%";
+		}
+		if (data.equipmentLoadout[i].type == "Torpedo Bomber"){
+			var efficiency = data.equipmentLoadout[i].efficiency.replace(/\s+/g, '').replace(/%/g, '').split("/");
+			var total = 0;
+		if (regPar.exec(efficiency[3]) != null)
+			total = parseInt(regPar.exec(efficiency[3])[1]) - parseInt(reg.exec(efficiency[3])[0]);
+			document.getElementById("shipRetroStatsTorpedoBomber").innerHTML = "+" + total + "%";
+		}
+	}
+}
+
+function setTotalMaterials(materialCollection){
+	var materials = materialCollection.slice(0, -1).split(",");
+	var materialTotal = [];
+	for (var i = 0; i < materials.length; ++i){
+		if (i == 0){ materialTotal.push(materials[i].trim()); continue;}
+		for (var j = 0; j < materialTotal.length; ++j){
+			if (materials[i].trim().split(" ")[0] == materialTotal[j].trim().split(" ")[0]){
+				materialTotal[j] = materialTotal[j].trim().split(" ")[0] + " "+ (parseInt(materials[i].trim().split(" ")[1]) + parseInt(materialTotal[j].trim().split(" ")[1]));
+				break;
+			} else {
+				if ((materialTotal.length - j) == 1){
+					materialTotal.push(materials[i].trim());
+					break;
+				}
+			}
+		}
+	}
+	setRetrofitMaterialDetails(materialTotal, "totalMaterials");
+}
+
+function centerSD(){
+	var containerWidth = document.getElementById("containerSD").getBoundingClientRect().width;
+	var sdWidth = viewer.sdWidth();
+	document.getElementById("sdAnim").style.left = Math.floor((containerWidth / 2) - (sdWidth / 2)) + "px";
+	
 }
 
 window.onhashchange = function() {
 	window.location.reload();
+}
+
+window.onresize = function(){
+	viewer.onResize();
+	centerSD();
 }
 
 window.onload = function() {
@@ -1016,4 +1089,5 @@ window.onload = function() {
   addSideBar();
   addHeader();
   document.getElementById("sbar_Ship").className = "active";
+
 };
