@@ -1,0 +1,647 @@
+{
+	"name": "Amagi",
+	"nameJP": "天城",
+	"nameCN": "鳐",
+	"class": "Amagi",
+	"hull": "Battlecruiser",
+	"prefix": "IJN",
+	"ID": "367",
+	"file_id": "367_Amagi",
+	"navy": "Sakura Empire",
+	"initialStar": "★★★☆☆☆",
+	"rarity": "Super Rare",
+	"buildTime": "4:25:00",
+	"acquisitionMethod": "Event",
+	"enhance": {
+		"firepower": "53",
+		"torpedo": "4",
+		"aviation": "0",
+		"reload": "10"
+	},
+	"scrap": {
+		"gold": "10",
+		"oil": "3",
+		"medal": "10"
+	},
+	"skin": {
+		"1": {
+			"name": "Default",
+			"description": "Amagi-class Battlecruiser No. 1 - Amagi",
+			"expression": {
+				"1": {
+					"label": "Default"
+				},
+				"2": {
+					"label": "amagi_skin1_expr2"
+				},
+				"3": {
+					"label": "amagi_skin1_expr3"
+				},
+				"4": {
+					"label": "amagi_skin1_expr4"
+				}
+			}
+		}
+	},
+	"releaseDate": {
+		"JP": "December 27, 2018",
+		"CN": "December 27, 2018",
+		"KR": "December 27, 2018",
+		"EN": "January 10, 2019"
+	},
+	"voiceActress": "Sawashiro Miyuki",
+	"artist": {
+		"name": "麻痹的小日子",
+		"weibo": "https://www.weibo.com/liduke",
+		"twitter": "https://twitter.com/lidukelaya",
+		"pixiv": "https://www.pixiv.net/member.php?id=38088",
+		"other": ""
+	},
+	"parameters": {
+		"hp": "B",
+		"antiAir": "D",
+		"evasion": "C",
+		"aviation": "E",
+		"torpedo": "C",
+		"firepower": "A"
+	},
+	"stats": {
+		"100": {
+			"hp": "6514",
+			"armor": "Medium",
+			"reload": "129",
+			"firepower": "379",
+			"torpedo": "186",
+			"evasion": "24",
+			"antiAir": "162",
+			"aviation": "0",
+			"cost": "15",
+			"asw": "0",
+			"speed": "30",
+			"luck": "23"
+		},
+		"120": {
+			"hp": "7654",
+			"armor": "Medium",
+			"reload": "148",
+			"firepower": "421",
+			"torpedo": "213",
+			"evasion": "41",
+			"antiAir": "187",
+			"aviation": "0",
+			"cost": "15",
+			"asw": "0",
+			"speed": "30",
+			"luck": "23"
+		},
+		"base": {
+			"hp": "1260",
+			"armor": "Medium",
+			"reload": "54",
+			"firepower": "80",
+			"torpedo": "39",
+			"evasion": "9",
+			"antiAir": "35",
+			"aviation": "0",
+			"cost": "5",
+			"asw": "0",
+			"speed": "30",
+			"luck": "23"
+		},
+		"100retrofit": {
+			"hp": "",
+			"armor": "",
+			"reload": "",
+			"firepower": "",
+			"torpedo": "",
+			"evasion": "",
+			"antiAir": "",
+			"aviation": "",
+			"cost": "",
+			"asw": "",
+			"speed": "",
+			"luck": ""
+		},
+		"120retrofit": {
+			"hp": "",
+			"armor": "",
+			"reload": "",
+			"firepower": "",
+			"torpedo": "",
+			"evasion": "",
+			"antiAir": "",
+			"aviation": "",
+			"cost": "",
+			"asw": "",
+			"speed": "",
+			"luck": ""
+		}
+	},
+	"limitBreak": {
+		"tier1": "Main Gun Base +1 / Main Gun Efficiency +5%",
+		"tier2": "Secondary Gun Base +2 / Main Gun Efficiency +10%",
+		"tier3": "Main Gun Base +1 / Main Gun Efficiency +15%"
+	},
+	"equipmentLoadout": {
+		"1": {
+			"type": "BB Gun",
+			"efficiency": "105% / 135%",
+			"amount": "1/3",
+			"preload": "0/0"
+		},
+		"2": {
+			"type": "DD / CL Gun",
+			"efficiency": "180% / 180%",
+			"amount": "1/3",
+			"preload": "3/3"
+		},
+		"3": {
+			"type": "Anti-Air Gun",
+			"efficiency": "90% / 90%",
+			"amount": "1/1",
+			"preload": "0/0"
+		},
+		"4": {
+			"type": "Auxilliary",
+			"efficiency": "-",
+			"amount": "-",
+			"preload": "-"
+		},
+		"5": {
+			"type": "Auxilliary",
+			"efficiency": "-",
+			"amount": "-",
+			"preload": "-"
+		}
+	},
+	"defaultEquipment": {
+		"1": "Twin 410mm Mounted Gun T1",
+		"2": "Single 140mm Main Gun T1"
+	},
+	"skill": {
+		"1": {
+			"name": "Ageless Phoenix",
+			"type": "Support",
+			"requirement": "Default Unlocked",
+			"description": "As long as this ship is alive, decreases all enemies' Firepower, Torpedo, and Aviation by 3.0% (9.0%)"
+		},
+		"2": {
+			"name": "Efficacious Planning",
+			"type": "Defensive",
+			"requirement": "Default Unlocked",
+			"description": "As long as this ship is alive, reduces burn damage taken by the main fleet by 5.0% (15.0%), and increases their evasion by 4.0% (10.0%)"
+		},
+		"3": {
+			"name": "Crippling Strike",
+			"type": "Offensive",
+			"requirement": "Default Unlocked",
+			"description": "40.0% (70.0%) chance to launch a frontal barrage when firing the main gun (damage scales with skill level). During battle, if fleet contains 4 or more Sakura ships, decreases the loading time of the first main gun salvo by 25.0% (45.0%)"
+		}
+	},
+	"build": {
+		"light": {
+			"JP": "-",
+			"CN": "-",
+			"EN": "-"
+		},
+		"heavy": {
+			"JP": "-",
+			"CN": "-",
+			"EN": "-"
+		},
+		"special": {
+			"JP": "-",
+			"CN": "-",
+			"EN": "-"
+		},
+		"limited": {
+			"JP": "✓",
+			"CN": "✓",
+			"EN": "✓"
+		}
+	},
+	"drop": {
+		"droppable": "false",
+		"list": {
+			"1": {
+				"event": "World",
+				"chapter": {
+					"1": {
+						"label": "Ch. 1",
+						"node": {
+							"1": {
+								"drop": "",
+								"note": ""
+							},
+							"2": {
+								"drop": "",
+								"note": ""
+							},
+							"3": {
+								"drop": "",
+								"note": ""
+							},
+							"4": {
+								"drop": "",
+								"note": ""
+							}
+						}
+					}
+				}
+			}
+		}
+	},
+	"lines": {
+		"skin": {
+			"1": {
+				"label": "amagi_skin1",
+				"dialogue": {
+					"1": {
+						"event": "Ship Description",
+						"media": "",
+						"chinese": "天城级战列巡洋舰一番舰—天城",
+						"chineseTL": "Amagi-class Battlecruiser No. 1 - Amagi",
+						"chineseNote": "",
+						"japanese": "天城型巡洋戦艦一番艦・天城",
+						"japaneseTL": "Amagi-class Battlecruiser No. 1 - Amagi",
+						"japaneseNote": "",
+						"english": "Amagi-class Battlecruiser No. 1 - Amagi",
+						"englishNote": ""
+					},
+					"2": {
+						"event": "Self Introduction",
+						"media": "self_introduction",
+						"chinese": "天城级战列巡洋舰首舰·天城，原本预定要和妹妹赤城一起接受改造成为航母…可惜我不幸在那场地震中倒下…咳咳…如您所见，我的身体不是很好，不过还请不要有所顾虑",
+						"chineseTL": "First ship of the Amagi-class Battlecruiser, Amagi. I was originally planned for conversion to an aircraft carrier along with my little sister Akagi... Unfortunately, I succumbed to that earthquake... *cough* *cough*... As you can see, this body is not very healthy, but please do not worry.",
+						"chineseNote": "",
+						"japanese": "天城型巡洋戦艦のネームシップ、天城です。元々は赤城とともに空母に改装される予定でしたけど…あの天災で倒れておりました。げほげほ…はい、見ての通り体があまり丈夫ではありませんが、何卒お気遣いなさらず…",
+						"japaneseTL": "I am the nameship of the Amagi-class, Amagi. I was originally scheduled to be remodelled into a carrier along with Akagi but… I fell in that natural disaster. Cough cough… As you can tell, I am of weak constitution, but please pay it no mind… ",
+						"japaneseNote": "",
+						"english": "I am the nameship of the Amagi-class battlecruisers, Amagi. Along with Akagi, I was originally supposed to be converted into an aircraft carrier, but that plan was scrapped after a certain natural disaster. *cough* *cough* ... As you can see, my body is not in a great condition, but please do not worry about me too much.",
+						"englishNote": ""
+					},
+					"3": {
+						"event": "Acquisition",
+						"media": "acquisition",
+						"chinese": "咳咳...战列巡洋舰、天城，前来拜见。这里似乎能让我稍微发挥一下本领呢...主上，能为在下介绍一下我们的敌人吗？",
+						"chineseTL": "*Cough* *cough*... Battlecruiser, Amagi, here to pay my respects. It appears that this place will allow me to display my abilities a bit... Commander, could you introduce our enemies?",
+						"chineseNote": "",
+						"japanese": "げほげほ…巡洋戦艦天城、参りました。ここなら私も力を発揮できそう…指揮官様、まず私の敵についてご説明をお願いできますか？",
+						"japaneseTL": "Cough cough… Battlecruiser Amagi, at your service. It looks like I'm able to demonstrate my capabilities here… Commander, may I first request to give me explanations on the enemy? ",
+						"japaneseNote": "",
+						"english": "*cough* *cough* Battlecruiser Amagi, reporting in. It looks like I should be able to fully utilize my abilities here. Commander, would you please brief me on our enemies?",
+						"englishNote": ""
+					},
+					"4": {
+						"event": "Login",
+						"media": "login",
+						"chinese": "主上，今日的作战方案已经放在桌上了，请过目",
+						"chineseTL": "Commander, today's combat plans have been placed on your desk, please take a look.",
+						"chineseNote": "",
+						"japanese": "指揮官様、今日の作戦要綱を机に置いておきました。ご確認ください",
+						"japaneseTL": "Commander, I have left today's battle plans on the table. Please examine it.",
+						"japaneseNote": "",
+						"english": "Commander, I've left today's combat operation plans on the table. Please take a look.",
+						"englishNote": ""
+					},
+					"5": {
+						"event": "Details",
+						"media": "details",
+						"chinese": "不想让大家受伤吗......呵呵，主上给我出了个难题呢，不过就让我试试吧",
+						"chineseTL": "Don't let anyone get hurt?... Hehe, Commander, that's a challenging order, but let me try it.",
+						"chineseNote": "",
+						"japanese": "みんなを傷つけたくない、ですか……指揮官様も無理難題を仰いますね…ふふ、工夫は致しますわ",
+						"japaneseTL": "You don't want to let anyone be harmed, is it…? I'm afraid you ask the impossible of me… (Giggles), I shall get to work.",
+						"japaneseNote": "",
+						"english": "Don't let anyone get injured? Commander, that's quite the tall order, but I'm up for the challenge.",
+						"englishNote": ""
+					},
+					"6": {
+						"event": "Idle 1",
+						"media": "idle_1",
+						"chinese": "通往理想的道路虽然艰险，但也因此才有挑战的价值不是吗？",
+						"chineseTL": "Although the road towards our ideals is tough, but due to that, don't you think there is value to the challenges?",
+						"chineseNote": "",
+						"japanese": "道のりは険しいと言われますが、だからこそ挑戦する価値があると思いますわ",
+						"japaneseTL": "It is said that the path ahead will be arduous, but that's precisely why it's worth challenging.",
+						"japaneseNote": "",
+						"english": "The road ahead of us is perilous, but I believe that is also what makes the journey worthwhile.",
+						"englishNote": ""
+					},
+					"7": {
+						"event": "Idle 2",
+						"media": "idle_2",
+						"chinese": "无须畏惧失败，主上。有我在，所有挫折和失败都将化为胜利的食粮",
+						"chineseTL": "There is no need to fear failure, Commander. With me here, every setback and failure will turn into fodder for victory.",
+						"chineseNote": "",
+						"japanese": "指揮官様、失敗を恐れる必要はありませんわ。この天城がいるかぎり、失敗も挫折も次の勝利への糧にして差し上げます",
+						"japaneseTL": "Commander, there is no need to fear failure. As long as I am here, I shall turn all failures and setbacks into fodder for victory.",
+						"japaneseNote": "",
+						"english": "Commander, there is no need to fear failure. As long as I am here, all setbacks are but fodder for our victories.",
+						"englishNote": ""
+					},
+					"8": {
+						"event": "Idle 3",
+						"media": "idle_3",
+						"chinese": "赤城...成长得稍微有些超乎想像呢",
+						"chineseTL": "Akagi... grew up to be slightly beyond what I imagined.",
+						"chineseNote": "",
+						"japanese": "ああ、赤城…変な育ち方をしちゃいましたね……",
+						"japaneseTL": "Ahh, Akagi… her upbringing has turned out to be weird…",
+						"japaneseNote": "",
+						"english": "Akagi turned out... a bit differently from what I expected.",
+						"englishNote": ""
+					},
+					"9": {
+						"event": "Touch",
+						"media": "touch",
+						"chinese": "呵呵呵......啊，主上，我只是在想，点心吃点什么好呢？",
+						"chineseTL": "Hehehe... Ah, Commander, I was just thinking, what shall we have for snacks?",
+						"chineseNote": "",
+						"japanese": "フフフフ…指揮官様、今お菓子は何にするか、思案していたところですわ",
+						"japaneseTL": "Giggles… Commander, I was thinking about what I should make for a snack, you see.",
+						"japaneseNote": "",
+						"english": "Ehehe... Oh, Commander, I was just thinking about what snacks I'd like to eat.",
+						"englishNote": ""
+					},
+					"10": {
+						"event": "Special Touch",
+						"media": "special_touch",
+						"chinese": "主上...我正在想事情呢...",
+						"chineseTL": "Commander... I was thinking...",
+						"chineseNote": "",
+						"japanese": "んっ…指揮官様…今ほかのことについて思案中だったのですが…",
+						"japaneseTL": "Mh… Commander… I'm afraid I was preoccupied with thinking about something else…",
+						"japaneseNote": "",
+						"english": "Oh, Commander... I was contemplating some other things...",
+						"englishNote": ""
+					},
+					"11": {
+						"event": "Mission",
+						"media": "mission",
+						"chinese": "下一个任务是......",
+						"chineseTL": "The next mission is...",
+						"chineseNote": "",
+						"japanese": "次の任務は……",
+						"japaneseTL": "The next mission is…",
+						"japaneseNote": "",
+						"english": "The next mission is...",
+						"englishNote": ""
+					},
+					"12": {
+						"event": "Mission Complete",
+						"media": "mission_complete",
+						"chinese": "任务报酬...要投入到最合适的地方才行呢...",
+						"chineseTL": "Mission rewards... need to be invested in the most optimal ways...",
+						"chineseNote": "",
+						"japanese": "任務報酬…一番有効な使い方にしておかないと",
+						"japaneseTL": "Our mission rewards… We must use them in the most efficient way.",
+						"japaneseNote": "",
+						"english": "Mission rewards... we should think of the most efficient way to utilize them.",
+						"englishNote": ""
+					},
+					"13": {
+						"event": "Mail",
+						"media": "mail",
+						"chinese": "主上，有信件，是新的情报吗？",
+						"chineseTL": "Commander, you have new mail, is it new intel?",
+						"chineseNote": "",
+						"japanese": "指揮官様、お手紙があります。新しい情報でしょうか？",
+						"japaneseTL": "Commander, you have received a letter. Could it be new information?",
+						"japaneseNote": "",
+						"english": "Commander, you have new mail. Might it be new intel?",
+						"englishNote": ""
+					},
+					"14": {
+						"event": "Return from Sortie",
+						"media": "return_from_sortie",
+						"chinese": "主上，我的计策可有发挥用途？",
+						"chineseTL": "Commander, were my strategic plans of any use?",
+						"chineseNote": "",
+						"japanese": "指揮官様、私の作戦はお役に立てたのでしょうか？",
+						"japaneseTL": "Were my plans of use to you, Commander?",
+						"japaneseNote": "",
+						"english": "Commander, were you able to make use of my strategic plans?",
+						"englishNote": ""
+					},
+					"15": {
+						"event": "Commission Complete",
+						"media": "commission_complete",
+						"chinese": "主上，委托完成了，另外，关于接下来的人选我有些建议——",
+						"chineseTL": "Commander, the commission has been completed. Also, I have some suggestions for the next candidates-",
+						"chineseNote": "",
+						"japanese": "指揮官様、委託が完了しましたわ。次に出撃する人選について僭越ながらご提案が――",
+						"japaneseTL": "A commission has been completed, Commander. Pardon my insolence, but I have a proposal regarding the unit composition for the next mission.",
+						"japaneseNote": "",
+						"english": "Commander, a commission has been completed. Also, I have some suggestions for potential candidates to send on the next-",
+						"englishNote": ""
+					},
+					"16": {
+						"event": "Enhancement",
+						"media": "enhancement",
+						"chinese": "感觉身体状况...似乎好了点",
+						"chineseTL": "I feel like my health... seems to have improved a bit",
+						"chineseNote": "",
+						"japanese": "体の調子がだいぶ良くなってきました",
+						"japaneseTL": "My health has started greatly improving.",
+						"japaneseNote": "",
+						"english": "My health... seems to have improved a bit.",
+						"englishNote": ""
+					},
+					"17": {
+						"event": "Sortie Start",
+						"media": "sortie_start",
+						"chinese": "那么，按照计划行事吧，诸位",
+						"chineseTL": "Everyone, let's proceed as planned.",
+						"chineseNote": "",
+						"japanese": "では、計画通りに参りますわ",
+						"japaneseTL": "Now then, let us proceed just as planned.",
+						"japaneseNote": "",
+						"english": "Alright, let's proceed as planned.",
+						"englishNote": ""
+					},
+					"18": {
+						"event": "MVP",
+						"media": "mvp",
+						"chinese": "那么...要如何活用这场胜利呢...",
+						"chineseTL": "Now then... how do we make use of this victory",
+						"chineseNote": "",
+						"japanese": "では…この勝利をどう利用するか……",
+						"japaneseTL": "Now… how can I make use of this victory…",
+						"japaneseNote": "",
+						"english": "Now then, how can we make further use of this victory?",
+						"englishNote": ""
+					},
+					"19": {
+						"event": "Defeat",
+						"media": "defeat",
+						"chinese": "计算...出错了吗...",
+						"chineseTL": "I miscalculated...",
+						"chineseNote": "",
+						"japanese": "計算を…間違えたのでしょうか…",
+						"japaneseTL": "Perhaps… my plan was flawed…",
+						"japaneseNote": "",
+						"english": "Did I... make a miscalculation...?",
+						"englishNote": ""
+					},
+					"20": {
+						"event": "Skill Activation",
+						"media": "skill_activation",
+						"chinese": "呵呵呵......",
+						"chineseTL": "Hehehe...",
+						"chineseNote": "",
+						"japanese": "フフフフ……",
+						"japaneseTL": "Ahaha…",
+						"japaneseNote": "",
+						"english": "Ahahaha...",
+						"englishNote": ""
+					},
+					"21": {
+						"event": "Low Health",
+						"media": "low_health",
+						"chinese": "需要改变一下战术了呢...",
+						"chineseTL": "We need to revise our tactics...",
+						"chineseNote": "",
+						"japanese": "策を改める必要がありますね……",
+						"japaneseTL": "It seems I must revise my strategy…",
+						"japaneseNote": "",
+						"english": "Perhaps a change of plans is in order...",
+						"englishNote": ""
+					},
+					"22": {
+						"event": "Affinity (Disappointed)",
+						"media": "affinity_disappointed",
+						"chinese": "明主难寻呢......",
+						"chineseTL": "A wise commander is hard to find huh...",
+						"chineseNote": "",
+						"japanese": "伯楽(はくらく)とはなかなか見つかりにくいものですわ",
+						"japaneseTL": "Yokels such as you are quite hard to find these days.",
+						"japaneseNote": "",
+						"english": "Swineherds like you are quite hard to find these days.",
+						"englishNote": ""
+					},
+					"23": {
+						"event": "Affinity (Stranger)",
+						"media": "affinity_stranger",
+						"chinese": "对于策士来说最重要的东西就是情报，知道的比对方多，就已经赢了一半",
+						"chineseTL": "To a tactician, the most important is intel, you have already won half the battle if you are more knowledgeable than the opponent.",
+						"chineseNote": "",
+						"japanese": "策を用いるためには情報が要…「能く上智を以て問者と為し、三軍の恃みて動く所なり」、ということになりましょう",
+						"japaneseTL": "Information is needed to make use of a plan… Let us follow a great man's words: \"it is only the wise general who will use spies, because on them depends an army's ability to move.\"",
+						"japaneseNote": "",
+						"english": "Information is a tactician's most valuable asset. Knowing more than your enemy is already half the battle.",
+						"englishNote": ""
+					},
+					"24": {
+						"event": "Affinity (Friendly)",
+						"media": "affinity_friendly",
+						"chinese": "策略只能弥补有限的实力之差，所以...咳咳...让自己变强才是最重要的，主上",
+						"chineseTL": "Tactics can only make up for the difference in strength, so... *cough* *cough*... becoming stronger is the most important, Commander.",
+						"chineseNote": "",
+						"japanese": "奇を以って勝つといえど、正を以って合わねば戦を制すことなかれ…げほげほ、指揮官様、自ら力を鍛えることこそ肝心ですわ",
+						"japaneseTL": "Indirect methods secure victories, and direct methods cannot command an army… (Cough cough), finding the strength within yourself is essential, Commander.",
+						"japaneseNote": "",
+						"english": "Superior tactics can only make up for differences in strength to a limited extent... *cough* *cough* ... That is why becoming stronger is still of paramount importance, Commander.",
+						"englishNote": ""
+					},
+					"25": {
+						"event": "Affinity (Like)",
+						"media": "affinity_like",
+						"chinese": "咳咳……主上是令天城都心悦诚服之人，再自信一些也无妨呦？",
+						"chineseTL": "*Cough* *cough*... Commander is someone who even managed to earn Amagi's acknowledgment, why not have more confidence in yourself?",
+						"chineseNote": "",
+						"japanese": "げほげほ…指揮官様はこの天城をも認めさせた方ですから、もう少し自信を持ったほうがいいですわ",
+						"japaneseTL": "(Cough cough)… Commander, you should be more confident in yourself, as even I acknowledge your worth.",
+						"japaneseNote": "",
+						"english": "*cough* *cough* ... Commander, you've already earned my acknowledgment. Why not have a little more confidence in yourself?",
+						"englishNote": ""
+					},
+					"26": {
+						"event": "Affinity (Love)",
+						"media": "affinity_love",
+						"chinese": "主上如果真的关心天城，就请全力向前迈进吧……您的胜利与笑容，对我来说就是最好的特效药。",
+						"chineseTL": "If Commander really cares about Amagi, please keep moving forward will all you have got... Your victories and smiles are the most effective medicine for me.",
+						"chineseNote": "",
+						"japanese": "げほげほ…天城のことをご心配なさるのでしたら、全力で前へお進みください…指揮官様の勝利、そして笑顔こそ、 私への特効薬ですわ",
+						"japaneseTL": "(Cough cough)… Should you start worrying about my health, continue ahead and don't look back… Your victories and your smile are my cure.",
+						"japaneseNote": "",
+						"english": "Commander, if you truly care about me, *cough* then please keep moving forward with all your might. Your gallant victories and smiling face are the best medicine for me.",
+						"englishNote": ""
+					},
+					"27": {
+						"event": "Pledge",
+						"media": "pledge",
+						"chinese": "主上……选择了我吗？本想若是为了主公之大业，即便此身殒落也在所不惜……这下看来，不得不稍微注意一下自己的身体了呢……",
+						"chineseTL": "Commander... you have chosen me? I originally thought that as long as I was able to contribute to Commander's ambitions, even if I fell I wouldn't have minded... but it seems like, I now have to take better care of my body.",
+						"chineseNote": "",
+						"japanese": "指揮官様…この天城をお選びになったのですね？ふふ、元より指揮官様のために身を捧げる覚悟ですが…選んでいただいたからには、自らの健康にも少し気を使った方がいいですわね",
+						"japaneseTL": "Commander… I am the one you've chosen? Aha, I am prepared to devote my entire being to you… but now that I've been chosen, I should better start thinking a little more about my health.",
+						"japaneseNote": "",
+						"english": "Commander... so you've chosen me, then? Hehe... From the beginning, I was prepared to lay my life down for your ambitions. But with this being the case, perhaps I should take better care of my body.",
+						"englishNote": ""
+					},
+					"28": {
+						"event": "Present (Dislike)",
+						"media": "present_dislike",
+						"chinese": "",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "これは...お薬です...か？",
+						"japaneseTL": "Is this... medicine?",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"29": {
+						"event": "Present (Like)",
+						"media": "present_like",
+						"chinese": "",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "指揮官様の身の回りに、何かいいことでも起きましたか？フフフ...",
+						"japaneseTL": "Did something nice happen to Commander? (Giggles)",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"30": {
+						"event": "Easter Egg (Graf Zeppelin)",
+						"media": "easter_egg_1",
+						"chinese": "赤城…？哎呀，似乎认错了呢",
+						"chineseTL": "Akagi...? Ah, I got the wrong person.",
+						"chineseNote": "",
+						"japanese": "赤城…？あら、人違いでしたか…",
+						"japaneseTL": "Akagi…? Pardon, it seems I mistook you for someone else…",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"31": {
+						"event": "Easter Egg (Akagi)",
+						"media": "easter_egg_2",
+						"chinese": "赤城，听好了，是主上的命令哦？",
+						"chineseTL": "Akagi, listen well, this is an order from the Commander, ok?",
+						"chineseNote": "",
+						"japanese": "赤城、指揮官様のご命令はちゃんと聞くのですよ？",
+						"japaneseTL": "Akagi, make sure you listen to the Commander's orders.",
+						"japaneseNote": "",
+						"english": "Akagi, follow the commander's orders, okay?",
+						"englishNote": ""
+					},
+					"32": {
+						"event": "Valentines 2019",
+						"media": "",
+						"chinese": "咳咳，主上，天城虽善于谋略，对厨艺却是一窍不通，倾尽全力也只能做出这等水平，还请主上不要嫌弃……呵呵，听了这番话，不知道主上品尝巧克力的欲望是否强了一些呢？",
+						"chineseTL": "*Cough* *cough* Commander, although Amagi is a great tactician, I am not knowledgeable in culinary arts. Even with my best efforts I can only achieve this level, I hope Commander doesn't mind... Hehe, after hearing these words, I wonder if Commander still desires to taste this chocolate?",
+						"chineseNote": "",
+						"japanese": "「げほげほ、私、病体ゆえ調理は不得手でして、全力を尽くしてもこのような品にしかできませんが……」と、こう申せば、指揮官様は私の手作りチョコを一層食べたくなるのではないかと……恐縮です。フフフフ……",
+						"japaneseTL": "\"(Cough cough) As I am sickly, I am not good at cooking. Despite my best efforts I can only make something like this...\" Well, I'm afraid Commander will be more eager to eat my homemade chocolate after hearing this. Fufufufu...",
+						"japaneseNote": "",
+						"english": "\"*Cough, cough*... Since I'm so frail, I cannot cook properly, and even with my best efforts I cannot make anything better than this...\" Perhaps you will want to try my handmade chocolate even more if I say that... *Giggle*...",
+						"englishNote": ""
+					}
+				}
+			}
+		}
+	}
+}
