@@ -307,7 +307,7 @@ class IconDisplay extends HTMLElement{
 				self.bgimg = "../Images/bg2.png";
 			} else if (actual_JSON.rarity == "Elite"){
 				self.bgimg = "../Images/bg3.png";
-			} else if (actual_JSON.rarity == "Super Rare" || rarity == "Priority"){
+			} else if (actual_JSON.rarity == "Super Rare" || actual_JSON.rarity == "Priority"){
 				self.bgimg = "../Images/bg4.png";
 			} else if (actual_JSON.rarity == "Ultra Rare"){
 				self.bgimg = "../Images/bg5.png";
