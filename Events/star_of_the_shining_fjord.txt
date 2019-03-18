@@ -1,0 +1,114 @@
+### Event Ships
+
+<div style="overflow:auto">
+<commented-ship-display ship="hardy" comment="Construction|Event Task"></commented-ship-display>
+<commented-ship-display ship="z2" comment="Construction|Drop"></commented-ship-display>
+<commented-ship-display ship="hunter" comment="Provisional"></commented-ship-display>
+</div>
+
+<br>
+### Limited Build
+
+Limited Construction is available from 3/7 to 3/20 (JP)
+
+![](https://s3.us-east-2.amazonaws.com/alg-wiki.com/Event/Arctic_Fjord_Construction_Banner_JP.png)
+
+<div style="overflow:auto">
+<commented-ship-display ship="hardy" comment="00:26:00|1.4%"></commented-ship-display>
+<commented-ship-display ship="z2" comment="00:29:00|1.4%"></commented-ship-display>
+</div>
+
+<br>
+### Event Map
+
+##### ★<strong>How To Play</strong>
+
+
+<ul>
+<li>Bonus element <strong>"Coastal Battery"</strong> may appear in some event maps.
+When an ally fleet (other than a submarine fleet) enters the range of <strong>"Coastal Battery"</strong> (red area), it will be bombarded by the coastal batteries and the movement speed will decrease. In addition, a new enemy alert fleet may appear in the map.
+<li><strong>"Coastal Battery"</strong> can be destroyed by friendly fleets by getting beside them.
+<li>Bonus element <strong>"Encirclement Mode"</strong> will be present.
+<li>After 3 staring and achieving "Safe" Danger Gauge rating in events maps the player can select this mode in the map selection screen; the following changes will take place
+<ul>
+<li>Enemy placement-behavior logic changes.
+<li>You can move freely in the map without tile restrictions
+<li>Enemy coastal batteries will no longer appear.
+</ul>
+</ul>
+
+<naval-campaign chapter="Star of the Shining Fjord">
+    <chapter-element active="true">
+        <chapter-node
+            title="SP0: March of the Ironblood"
+            description=""
+            requirement="None"
+            star-requirement="; ; "
+            cost="10"
+            enemy-level="0"
+            exp="0;0;0"
+            clears="1"
+            boss="eidsvold;Eidsvold"
+            boss-location="K4"
+            boss-level="20"
+            boss-exp="852"
+            boss-battles-required="0"
+            map="https://s3.us-east-2.amazonaws.com/alg-wiki.com/Event/fjord_sp0.png"
+            >                
+                <node-map size="10x6"
+                        spawn="a3 a4"
+                        boss="j4"
+                        terrain="d1 e1 f1 i1 j1 b2 j2 g3 e5 e6 g6 h6 i6"
+                        artillery="c1 f2, south, 3; d6 h5, north, 3"></node-map>
+        </chapter-node>
+        <br>
+        <chapter-node
+            title="SP1: Reconnaissance in the middle of heavy snow"
+            description=""
+            requirement="Clear SP0"
+            star-requirement="Defeat the boss;Clear 25 fleets;Clear all fleets"
+            cost="10"
+            enemy-level="30-31"
+            exp="882;999;1127"
+            clears=""
+            boss="z19;Z19"
+            boss-location="K2"
+            boss-level="35"
+            boss-exp="1580"
+            boss-battles-required="4"
+            map="https://s3.us-east-2.amazonaws.com/alg-wiki.com/Event/fjord_sp1.png"
+            >           
+            	<icon-display slot="clear" item="cube" description="1"></icon-display> 
+            	<icon-display slot="clear" item="gold" description="600"></icon-display>
+            	<icon-display slot="three-star" item="bpt2_ca" description="1"></icon-display>
+            	<icon-display slot="item" item="plt1_all" description=""></icon-display>   
+            	<icon-display slot="item" item="plt2_all" description=""></icon-display>     
+            	<icon-display slot="item" item="boxt1" description=""></icon-display>       
+            	<icon-display slot="item" item="boxt2" description=""></icon-display>       
+            	<icon-display slot="item" item="boxt3" description=""></icon-display>      
+            	<icon-display slot="item" item="gold" description=""></icon-display> 
+            	<icon-display slot="ship" item="thatcher" description=""></icon-display>
+            	<icon-display slot="ship" item="fortune" description=""></icon-display>  
+            	<icon-display slot="ship" item="cassin" description=""></icon-display>    
+            	<icon-display slot="ship" item="craven" description=""></icon-display>  
+            	<icon-display slot="ship" item="mccall" description=""></icon-display>
+            	<icon-display slot="ship" item="foote" description=""></icon-display>
+            	<icon-display slot="ship" item="bulldog" description=""></icon-display>
+            	<icon-display slot="ship" item="comet" description=""></icon-display>  
+            	<icon-display slot="ship" item="crescent" description=""></icon-display>  
+            	<icon-display slot="ship" item="cygnet" description=""></icon-display>
+            	<icon-display slot="ship" item="foxhound" description=""></icon-display>
+            	<icon-display slot="ship" item="omaha" description=""></icon-display>
+            	<icon-display slot="ship" item="raleigh" description=""></icon-display>                
+                <node-map size="11x7"      
+                <node-map size="11x7"
+                        spawn="a3 a4"
+                        boss="k2"
+                        fleet="a5 i2 i1 f3 a6 e5 g4"
+                        humanoid="e1"
+                        submarine="c4"
+                        terrain="a1 b1 c1 j1 f2 g2 j2 g3 d6 d7 i7 j7 k7"
+                        artillery="d2 f4 j3, south, 3; h7, north, 3"></node-map>
+        </chapter-node>
+    </chapter-element>
+</naval-campaign>
