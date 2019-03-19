@@ -1,0 +1,878 @@
+{
+	"name": "Sendai",
+	"nameJP": "川内",
+	"nameCN": "貆",
+	"class": "Sendai",
+	"hull": "Light Cruiser",
+	"prefix": "IJN",
+	"ID": "308",
+	"file_id": "308_Sendai",
+	"navy": "Sakura Empire",
+	"initialStar": "★★☆☆☆",
+	"rarity": "Rare",
+	"buildTime": "N/A",
+	"acquisitionMethod": "Drop in 11-3",
+	"enhance": {
+		"firepower": "11",
+		"torpedo": "21",
+		"aviation": "0",
+		"reload": "13"
+	},
+	"scrap": {
+		"gold": "6",
+		"oil": "3",
+		"medal": "1"
+	},
+	"skin": {
+		"1": {
+			"name": "Default",
+			"description": "First ship of the Sendai-class light cruisers, Sendai.",
+			"expression": {
+				"1": {
+					"label": "Default"
+				}
+			}
+		},
+		"2": {
+			"name": "Retrofit",
+			"description": "",
+			"expression": {
+				"1": {
+					"label": "Default"
+				}
+			}
+		}
+	},
+	"releaseDate": {
+		"JP": "April 19, 2018",
+		"CN": "March 21, 2018",
+		"KR": "",
+		"EN": "March 14, 2019"
+	},
+	"voiceActress": "Tomoyo Chuujou",
+	"artist": {
+		"name": "卑しい人间",
+		"weibo": "https://weibo.com/u/1847715713",
+		"twitter": "",
+		"pixiv": "https://www.pixiv.net/member.php?id=1584611",
+		"other": ""
+	},
+	"parameters": {
+		"hp": "C/B",
+		"antiAir": "B",
+		"evasion": "B",
+		"aviation": "E",
+		"torpedo": "B/A",
+		"firepower": "C"
+	},
+	"stats": {
+		"100": {
+			"hp": "2243",
+			"armor": "Light",
+			"reload": "161",
+			"firepower": "130",
+			"torpedo": "298",
+			"evasion": "75",
+			"antiAir": "241",
+			"aviation": "0",
+			"cost": "9",
+			"asw": "94",
+			"luck": "42",
+			"speed": "35"
+		},
+		"120": {
+			"hp": "2540",
+			"armor": "Light",
+			"reload": "185",
+			"firepower": "150",
+			"torpedo": "326",
+			"evasion": "108",
+			"antiAir": "276",
+			"aviation": "0",
+			"cost": "9",
+			"asw": "107",
+			"luck": "42",
+			"speed": "35"
+		},
+		"base": {
+			"hp": "434",
+			"armor": "Light",
+			"reload": "68",
+			"firepower": "28",
+			"torpedo": "63",
+			"evasion": "29",
+			"antiAir": "52",
+			"aviation": "0",
+			"cost": "2",
+			"asw": "26",
+			"luck": "42",
+			"speed": "35"
+		},
+		"100retrofit": {
+			"hp": "2483",
+			"armor": "Light",
+			"reload": "166",
+			"firepower": "150",
+			"torpedo": "363",
+			"evasion": "75",
+			"antiAir": "241",
+			"aviation": "0",
+			"cost": "9",
+			"asw": "94",
+			"luck": "42",
+			"speed": "35"
+		},
+		"120retrofit": {
+			"hp": "2780",
+			"armor": "Light",
+			"reload": "190",
+			"firepower": "170",
+			"torpedo": "391",
+			"evasion": "108",
+			"antiAir": "276",
+			"aviation": "0",
+			"cost": "9",
+			"asw": "107",
+			"luck": "42",
+			"speed": "35"
+		}
+	},
+	"limitBreak": {
+		"tier1": "Gains Full Barrage I / Main Gun Efficiency +5%",
+		"tier2": "Max Torpedo Capacity +1 / Pre-Loaded Torpedo +1 / Torpedo Efficiency +10%",
+		"tier3": "Upgrades Full Barrage I→II / Torpedo Efficiency +15%"
+	},
+	"equipmentLoadout": {
+		"1": {
+			"type": "CL Gun",
+			"efficiency": "115%/120%/120%(125%)/120%(125%)",
+			"amount": "1/1/1/1",
+			"preload": "0/0/0/0"
+		},
+		"2": {
+			"type": "Torpedo",
+			"efficiency": "140%/140%/150%(155%)/155%(180%)",
+			"amount": "1/1/2/2",
+			"preload": "0/0/1/1"
+		},
+		"3": {
+			"type": "Anti-Air Gun",
+			"efficiency": "115%/115%/115%/115%",
+			"amount": "1/1/1/1",
+			"preload": "0/0/0/0"
+		},
+		"4": {
+			"type": "Auxilliary",
+			"efficiency": "-",
+			"amount": "-",
+			"preload": "-"
+		},
+		"5": {
+			"type": "Auxilliary",
+			"efficiency": "-",
+			"amount": "-",
+			"preload": "-"
+		}
+	},
+	"defaultEquipment": {
+		"1": "Single 140mm (3rd Year Type) T1",
+		"2": "610mm Twin Torpedo Mount T1",
+		"3": "-"
+	},
+	"skill": {
+		"1": {
+			"name": "Torpedo Fleet",
+			"type": "Support",
+			"requirement": "Default Unlocked",
+			"description": "While alive in fleet, increase Torpedo stat and Reload for all destroyers and light cruisers in the same fleet by 3% (15%)."
+		},
+		"2": {
+			"name": "Flares",
+			"type": "Support",
+			"requirement": "Retrofit",
+			"description": "10 seconds after battle begins, and 20% (40%) chance to activate every 20s after that: deploy a flare for 10 seconds. Enemy ships within the flare have their evasion rate decreased by 25%."
+		},
+		"3": {
+			"name": "Full Barrage",
+			"type": "Offensive",
+			"requirement": "Limit Break Rank 1 (I) / Rank 3 (II)",
+			"description": "Every 12 (8) times the main battery is fired, trigger Full Barrage - Sendai Class I (II)"
+		}
+	},
+	"build": {
+		"light": {
+			"JP": "-",
+			"CN": "-",
+			"EN": "-"
+		},
+		"heavy": {
+			"JP": "-",
+			"CN": "-",
+			"EN": "-"
+		},
+		"special": {
+			"JP": "-",
+			"CN": "-",
+			"EN": "-"
+		},
+		"limited": {
+			"JP": "-",
+			"CN": "-",
+			"EN": "-"
+		}
+	},
+	"drop": {
+		"droppable": "true",
+		"list": {
+			"1": {
+				"event": "World",
+				"chapter": {
+					"1": {
+						"label": "Ch. 11",
+						"node": {
+							"1": {
+								"drop": "-",
+								"note": ""
+							},
+							"2": {
+								"drop": "-",
+								"note": ""
+							},
+							"3": {
+								"drop": "✓",
+								"note": ""
+							},
+							"4": {
+								"drop": "-",
+								"note": "Boss"
+							}
+						}
+					}
+				}
+			}
+		}
+	},
+	"lines": {
+		"skin": {
+			"1": {
+				"label": "Default",
+				"dialogue": {
+					"1": {
+						"event": "Ship Description",
+						"media": "",
+						"chinese": "川内级轻巡洋舰一番舰——川内",
+						"chineseTL": "First ship of the Sendai-class light cruisers, Sendai.",
+						"chineseNote": "",
+						"japanese": "川内型軽巡洋艦一番艦・川内",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"2": {
+						"event": "Self Introduction",
+						"media": "self_introduction",
+						"chinese": "我就是川内型一号舰川内，虽然比不上妹妹，也当过三水战的旗舰。参加过不少战役，最后是在布干维尔，作为战士倒是没什么遗憾就是了",
+						"chineseTL": "I am the first ship of the Sendai class, Sendai. Even though I am no match for my sister, I was the flagship of the Third Torpedo Squadron. I participated in many campaigns, the last one being at Bougainville Island. In the end, I don't have any regrets as a warrior.",
+						"chineseNote": "",
+						"japanese": "川内型一番艦の川内だ。妹ほど輝かしい戦歴こそもっていないが、三水戦の旗艦を勤め、たくさんの戦闘に参加した。散ったのはブーゲンビルだけど、まあ戦士として悔いはねぇさ。",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"3": {
+						"event": "Acquisition",
+						"media": "acquisition",
+						"chinese": "指挥官？我不需要这种东西……不过能遇到也是一种缘分，就稍微打扰一下吧，我叫川内，别忘了",
+						"chineseTL": "A commander? I don't need one... but I guess it's fate that brought us together, so I will be troubling you slightly. My name's Sendai, so don't forget it.",
+						"chineseNote": "",
+						"japanese": "指揮官か？そんなもの、俺には不要だが……まあこうして出会えたのは何かの縁だ。少しお邪魔させてもらうぜ。俺は川内だ、忘れんなよ",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"4": {
+						"event": "Login",
+						"media": "login",
+						"chinese": "我已经热身完了，要出击吗？",
+						"chineseTL": "I already warmed up, are we sortieing?",
+						"chineseNote": "",
+						"japanese": "ウォーミングアップは終わった。出撃するか？",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"5": {
+						"event": "Details",
+						"media": "details",
+						"chinese": "绷带？这个是用来保护手部的，可不是我受伤了……能让我受伤的家伙可不多",
+						"chineseTL": "Bandages? These are to protect my hands, not because I am injured... There aren't many guys out there that can hurt me.",
+						"chineseNote": "",
+						"japanese": "包帯？これは怪我とかじゃなくて、拳につけるもんだけど……俺に怪我させるやつはそうそういないもんだぜ",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"6": {
+						"event": "Idle 1",
+						"media": "idle_1",
+						"chinese": "我的梦想是坚持正义……算了，你就当我开玩笑吧",
+						"chineseTL": "My dream is to uphold justice... Never mind, just take what I said as a joke.",
+						"chineseNote": "",
+						"japanese": "夢は正義を……まあ、今のは冗談にしてくれ",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"7": {
+						"event": "Idle 2",
+						"media": "idle_2",
+						"chinese": "我有的只是信念和拳头，即使如此，我也会走下去",
+						"chineseTL": "All I have are my ideals and fists. Nevertheless, I will continue down this path.",
+						"chineseNote": "",
+						"japanese": "俺が持ってるのは理想と拳だけだ。それでも、前に進み続けるさ",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"8": {
+						"event": "Idle 3",
+						"media": "idle_3",
+						"chinese": "指挥官，你觉得最大的敌人是谁，塞壬吗？我觉得是我们自己的内心",
+						"chineseTL": "Commander, who do you think is our biggest enemy? Perhaps the Sirens? I feel that our biggest enemy is ourselves.",
+						"chineseNote": "",
+						"japanese": "指揮官は一番大きな敵は誰だと思う？セイレーンか？俺は自分の心だと思うぜ",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"9": {
+						"event": "Touch",
+						"media": "touch",
+						"chinese": "指挥官，随便靠近我会受伤的",
+						"chineseTL": "Commander, you will get hurt if you approach me carelessly.",
+						"chineseNote": "",
+						"japanese": "指揮官、不意に近づくと怪我するぞ",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"10": {
+						"event": "Special Touch",
+						"media": "special_touch",
+						"chinese": "指挥官，你是不是活腻了，要来两拳冷静下吗，嗯？",
+						"chineseTL": "Commander, are you tired of living? Need a few punches to calm you down huh?",
+						"chineseNote": "",
+						"japanese": "指揮官、生きることに飽きてんのか？ぶん殴って頭冷やしてやろうか？あぁん？",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"11": {
+						"event": "Mission",
+						"media": "mission",
+						"chinese": "任务……我喜欢",
+						"chineseTL": "Mission... I like it.",
+						"chineseNote": "",
+						"japanese": "任務……好きだぜ。こういうの",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"12": {
+						"event": "Mission Complete",
+						"media": "mission_complete",
+						"chinese": "指挥官，不去拿奖励？我倒是无所谓",
+						"chineseTL": "Commander, not going collect the rewards? I don't really care either way.",
+						"chineseNote": "",
+						"japanese": "指揮官、報酬のことはいいのか？俺は別に構わんが",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"13": {
+						"event": "Mail",
+						"media": "mail",
+						"chinese": "接着，信",
+						"chineseTL": "Here, catch.",
+						"chineseNote": "",
+						"japanese": "ほら、手紙だ",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"14": {
+						"event": "Return from Sortie",
+						"media": "return_from_sortie",
+						"chinese": "下次出击是什么时候？我的绷带还有很多呢",
+						"chineseTL": "When's the next fight? I still have a lot of bandages.",
+						"chineseNote": "",
+						"japanese": "次の出撃はいつだ？替えの包帯はたんまり持ってきたぜ",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"15": {
+						"event": "Commission Complete",
+						"media": "commission_complete",
+						"chinese": "喂，委托完成了，你不会想让她们等你吧？",
+						"chineseTL": "Hey, the commission's complete. You don't want to make them wait, do you?",
+						"chineseNote": "",
+						"japanese": "おい、委託が完了した。まさかあの子たちを待たせようなんて思ってないよな",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"16": {
+						"event": "Enhancement",
+						"media": "enhancement",
+						"chinese": "我要变得更强，然后……",
+						"chineseTL": "I want to become stronger, then...",
+						"chineseNote": "",
+						"japanese": "もっと強くなって、そうしたら…！",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"17": {
+						"event": "Sortie Start",
+						"media": "sortie_start",
+						"chinese": "就让我来会会你们吧！",
+						"chineseTL": "Let me deal with you!",
+						"chineseNote": "",
+						"japanese": "この俺が相手になってやる！",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"18": {
+						"event": "MVP",
+						"media": "mvp",
+						"chinese": "啧啧，看起来换绷带的功夫都省了",
+						"chineseTL": "Tsk tsk, seems like I don't even need to change my bandages.",
+						"chineseNote": "",
+						"japanese": "ふっ、包帯を替える手間も省けたな",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"19": {
+						"event": "Defeat",
+						"media": "defeat",
+						"chinese": "……真疼啊，不过……呵，这样才对",
+						"chineseTL": "...That really hurts!... But...ah, this is it.",
+						"chineseNote": "",
+						"japanese": "いってぇ……ふふふ…やっぱこれだ…",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"20": {
+						"event": "Skill Activation",
+						"media": "skill_activation",
+						"chinese": "给我破！",
+						"chineseTL": "Break!",
+						"chineseNote": "",
+						"japanese": "砕けろ！",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"21": {
+						"event": "Low Health",
+						"media": "low_health",
+						"chinese": "",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"22": {
+						"event": "Affinity (Disappointed)",
+						"media": "affinity_disappointed",
+						"chinese": "是时候离开了",
+						"chineseTL": "It's time to leave.",
+						"chineseNote": "",
+						"japanese": "ここはもうおさらばか",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"23": {
+						"event": "Affinity (Stranger)",
+						"media": "affinity_stranger",
+						"chinese": "我不太喜欢跟人扯上关系，放我一个人独处吧。不过放心，我既然在你麾下，事情是会好好做的",
+						"chineseTL": "I don't really like to get involved with others, so leave me alone. Don't worry, since I am your subordinate, I will finish my tasks properly.",
+						"chineseNote": "",
+						"japanese": "人とはあまりつるみたくないタチなんで、放っといてほしいんだが…まあ安心しろ。お前の部下になったからには、仕事はちゃんとやるさ",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"24": {
+						"event": "Affinity (Friendly)",
+						"media": "affinity_friendly",
+						"chinese": "看到不平事我就要用拳头管一管，这是我的生存方式。不过我也知道会给其他人添麻烦，所以一直尽量不和人扯上关系",
+						"chineseTL": "When I see injustice, I will handle matters with my fists. This is my way of life. I understand that doing this will cause trouble for others, so I try not to get too close to anybody.",
+						"chineseNote": "",
+						"japanese": "不正なことは拳で正さんと気が済まない、これこそ俺の生き方だ。だから人に迷惑をかけないよう、敢えてつるまないようにしてんのさ",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"25": {
+						"event": "Affinity (Like)",
+						"media": "affinity_like",
+						"chinese": "话是这么说，我也在这里呆了很长时间了，要说不是你的人估计也没人信了……嗯？回想起来真是不知不觉就呆了这么久啊",
+						"chineseTL": "Well, I have been here for so long that it's no longer possible to distance myself from you... Hmm? Thinking about it, time has really flown by without my noticing.",
+						"chineseNote": "",
+						"japanese": "ずっとここには昔からいたような…と、自分で言うのも何だが、本当に結構経ってるな…",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"26": {
+						"event": "Affinity (Love)",
+						"media": "affinity_love",
+						"chinese": "也是，你是个厉害的家伙，做的也都是我想做的，而且做得更好，跟在你身边不知不觉就忘了时间……好吧，只要你能不忘现在的心情，我川内就奉陪到天涯海角吧",
+						"chineseTL": "Yeah, you are an amazing person. You do everything that I want to do, but better. Time flies when I'm by your side... Alright, as long as you don't forget your current feelings, I, Sendai, shall follow you to the ends of the Earth.",
+						"chineseNote": "",
+						"japanese": "お前というやつは結構凄いな。俺のやりたいことをやってくれるし、俺よりも一枚上手で…お前と一緒にいると時間の流れも忘れたりする…お前が今の自分を忘れない限り、この川内、海の果てまで付き合ってやる",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"27": {
+						"event": "Pledge",
+						"media": "pledge",
+						"chinese": "指挥官，收下这个之前，你若忘了初心，我只会离开你。但收下之后，你要是忘了，可要咬紧牙关了啊，饱含爱与愤怒的拳头可是很疼的",
+						"chineseTL": "Commander, before receiving this, I would have just left if you did not remain faithful to your ideals. However, if you forget your ideals now, you had better clench your teeth. My punches filled with love and anger are very painful.",
+						"chineseNote": "",
+						"japanese": "指揮官、受取るまではお前がもし初心を忘れたら俺が離れるだけだったが……受け取った以上ーー愛と怒りの拳は痛ぇぞ、うふふ",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"28": {
+						"event": "Easter Egg 1 (Kako, Furutaka)",
+						"media": "easter_egg_1",
+						"chinese": "(加古，古鹰）第五战队，出击！",
+						"chineseTL": "(Kako, Furutaka) 5th fleet, sortie!",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"29": {
+						"event": "Easter Egg 2 (Kako)",
+						"media": "easter_egg_2",
+						"chinese": "(加古）加古，别离开我身边",
+						"chineseTL": "(Kako) Kako, don't leave my side.",
+						"chineseNote": "",
+						"japanese": "(Sortied with IJN Kako) 加古、俺から離れんなよ",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"30": {
+						"event": "Easter Egg 3 (Jintsuu)",
+						"media": "easter_egg_3",
+						"chinese": "(神通）神通，我该怎么行动？",
+						"chineseTL": "(Jintsuu) Jintsuu, what should I do?",
+						"chineseNote": "",
+						"japanese": "(Sortied with IJN Jintsū) 神通、俺は何すればいい？",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"31": {
+						"event": "Valentines 2019",
+						"media": "",
+						"chinese": "没想到我也会给人做这种软绵绵的东西…接着，味道我可不保证…不过，如果有什么建议的话尽管告诉我吧",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "まさか俺もこんなものを送るとはなぁ……ほら、食べていいぞ。美味しくなくても知らん…と言いたいところだが、改善点とかはあとで伝えてくれ。",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					}
+				}
+			},
+			"2": {
+				"label": "Retrofit",
+				"dialogue": {
+					"1": {
+						"event": "Acquisition",
+						"media": "acquisition",
+						"chinese": "嗯……看来绷带已经不需要了。指挥官，要不要让我揍一拳看看我变得多强？",
+						"chineseTL": "Hmm... seems like I no longer need to wear bandages. Commander, want to let me hit you once to show how strong I've become?",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"2": {
+						"event": "Login",
+						"media": "login",
+						"chinese": "回来了？你先忙吧，要出击了叫我",
+						"chineseTL": "You're back? You do your thing, but call me when we sortie.",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"3": {
+						"event": "Details",
+						"media": "details",
+						"chinese": "嗯？我在练习下次出击的pose，气势也是很重要的",
+						"chineseTL": "Hmm? I'm practicing my pose for the next sortie. The aura you give off is very important.",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"4": {
+						"event": "Idle 1",
+						"media": "idle_1",
+						"chinese": "我只会用蛮力解决事情，有时候还是挺羡慕你和神通的",
+						"chineseTL": "I only know how to solve problems with brute force, so I am sometimes quite envious of you and Jintsuu.",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"5": {
+						"event": "Idle 2",
+						"media": "idle_2",
+						"chinese": "虽然我也想学神通讲道理，不过最后总会变成用拳头，我也没办法……",
+						"chineseTL": "Although I want to learn from Jintsuu and use reason to solve my problems, somehow I always end up using my fists. I just can't help it...",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"6": {
+						"event": "Idle 3",
+						"media": "idle_3",
+						"chinese": "我不怕苦难，我怕的是有一天我变得忘了现在的自己——",
+						"chineseTL": "I am not afraid of hardship. What I am afraid of is the day that I forget about the current \"me\".",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"7": {
+						"event": "Special Touch",
+						"media": "special_touch",
+						"chinese": "指挥官，站好，看在我们交情的份上这一拳我只用八分力",
+						"chineseTL": "Stand still Commander. Since we are on good terms, I will only use eighty percent of my strength.",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"8": {
+						"event": "Return from Sortie",
+						"media": "return_from_sortie",
+						"chinese": "辛苦了，要吃点糖吗？我随身带了一些，都是我喜欢的",
+						"chineseTL": "Good job, want to eat some sweets? I brought along some sweets that I like.",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"9": {
+						"event": "Sortie Start",
+						"media": "sortie_start",
+						"chinese": "抱歉，你们要葬身于此了",
+						"chineseTL": "Sorry, but all of you will die here.",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"10": {
+						"event": "MVP",
+						"media": "mvp",
+						"chinese": "绷带，绷带……啊，忘了用不着了",
+						"chineseTL": "Where are my bandages... Ah, I forgot that I don't need them anymore.",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					}
+				}
+			}
+		}
+	},
+	"retrofit": {
+		"1": {
+			"nodeSettings": "retronode, a1, n y y n",
+			"stat": "reload, base, Reload +5",
+			"stage": "1",
+			"desc": "Reload Enhancement I",
+			"level": "5",
+			"limitBreak": "★★☆☆☆",
+			"material": "bpt1 2, gold 400"
+		},
+		"2": {
+			"nodeSettings": "retronode, a2, y y n n",
+			"stat": "hp, base, HP +70",
+			"stage": "1",
+			"desc": "Hull Improvement I",
+			"level": "1",
+			"limitBreak": "★★☆☆☆",
+			"material": "bpt1 2, gold 300"
+		},
+		"3": {
+			"nodeSettings": "line, b1, n y n y"
+		},
+		"4": {
+			"nodeSettings": "retronode, b2, n y y y",
+			"stat": "torpedo, efficiency, Torpedo Efficiency +5%",
+			"stage": "1",
+			"desc": "Torpedo Improvement I",
+			"level": "20",
+			"limitBreak": "★★★☆☆",
+			"material": "bpt1 3, gold 600"
+		},
+		"5": {
+			"nodeSettings": "retronode, b3, y y n n",
+			"stat": "torpedo, base, Torpedo +10",
+			"stage": "1",
+			"desc": "Torpedo Enhancement I",
+			"level": "25",
+			"limitBreak": "★★★☆☆",
+			"material": "bpt1 3, gold 800"
+		},
+		"6": {
+			"nodeSettings": "retronode, c1, n n y y",
+			"stat": "maingun, efficiency, Main Gun Efficiency +5%",
+			"stage": "1",
+			"desc": "Main Gun Improvement I",
+			"level": "35",
+			"limitBreak": "★★★★☆",
+			"material": "bpt1 3, gold 1000"
+		},
+		"7": {
+			"nodeSettings": "retronode, c2, y y n y",
+			"stat": "firepower, base, Firepower +10",
+			"stage": "1",
+			"desc": "Firepower Enhancement I",
+			"level": "40",
+			"limitBreak": "★★★★☆",
+			"material": "bpt1 4, gold 1200"
+		},
+		"8": {
+			"nodeSettings": "line, c3, n y n y"
+		},
+		"9": {
+			"nodeSettings": "retronode, d1, n y y n",
+			"stat": "skill, support, Learn skill \"Flares\"",
+			"stage": "1",
+			"desc": "Tactical Learning",
+			"level": "55",
+			"limitBreak": "★★★★☆",
+			"material": "bpt2 3, gold 1800"
+		},
+		"10": {
+			"nodeSettings": "retronode, d2, y y n y",
+			"stat": "hp, base, HP +170",
+			"stage": "2",
+			"desc": "Hull Improvement II",
+			"level": "50",
+			"limitBreak": "★★★★☆",
+			"material": "bpt2 3, gold 3000"
+		},
+		"11": {
+			"nodeSettings": "line, d3, n y n y"
+		},
+		"12": {
+			"nodeSettings": "line, e1, n n y y"
+		},
+		"13": {
+			"nodeSettings": "retronode, e2, y y y y",
+			"stat": "torpedo, efficiency, Torpedo Efficiency +10%",
+			"stage": "2",
+			"desc": "Torpedo Improvement II",
+			"level": "70",
+			"limitBreak": "★★★★★",
+			"material": "bpt2 4, gold 4000"
+		},
+		"14": {
+			"nodeSettings": "retronode, e3, y y n y",
+			"stat": "torpedo, base, Torpedo +20",
+			"stage": "2",
+			"desc": "Torpedo Enhancement II",
+			"level": "75",
+			"limitBreak": "★★★★★",
+			"material": "bpt2 4, gold 5000"
+		},
+		"15": {
+			"nodeSettings": "retronode, f2, n n y y",
+			"stat": "modernization, offensive, Firepower +10 / Torpedo +35",
+			"stage": "1",
+			"desc": "Modernization",
+			"level": "85",
+			"limitBreak": "★★★★★",
+			"material": "bpt3 1, duplicate, gold 3000"
+		},
+		"16": {
+			"nodeSettings": "line, f3, y n n y"
+		}
+	},
+	"retroParameter": "Elite, Light Cruiser, 2"
+}
