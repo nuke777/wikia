@@ -1,0 +1,713 @@
+{
+	"name": "Quincy",
+	"nameJP": "クインシー",
+	"nameCN": "昆西",
+	"class": "New Orleans",
+	"hull": "Heavy Cruiser",
+	"prefix": "USS",
+	"ID": "47",
+	"file_id": "047_Quincy",
+	"navy": "Eagle Union",
+	"initialStar": "★★☆☆☆",
+	"rarity": "Elite",
+	"buildTime": "N/A",
+	"acquisitionMethod": "Reward for daily login in event \"Moonlit Overture\"",
+	"enhance": {
+		"firepower": "22",
+		"torpedo": "0",
+		"aviation": "0",
+		"reload": "11"
+	},
+	"scrap": {
+		"gold": "9",
+		"oil": "3",
+		"medal": "4"
+	},
+	"skin": {
+		"1": {
+			"name": "Default",
+			"description": "New Orleans-class heavy cruiser— Quincy. Pennant number CA-39     ",
+			"expression": {
+				"1": {
+					"label": "Default"
+				}
+			}
+		},
+		"2": {
+			"name": "Sizzling Summer, Brisk Breeze",
+			"description": "",
+			"expression": {
+				"1": {
+					"label": "Default"
+				}
+			}
+		}
+	},
+	"releaseDate": {
+		"JP": "July 17th, 2018",
+		"CN": "July 17th, 2018",
+		"KR": "July 18th, 2018",
+		"EN": "March 14th, 2019"
+	},
+	"voiceActress": "Minami Tsuda",
+	"artist": {
+		"name": "Sky-FreeDom",
+		"weibo": "https://weibo.com/skyfreedom",
+		"twitter": "https://twitter.com/sky_freedom_",
+		"pixiv": "https://www.pixiv.net/member.php?id=1017056",
+		"other": ""
+	},
+	"parameters": {
+		"hp": "B",
+		"antiAir": "C",
+		"evasion": "C",
+		"aviation": "E",
+		"torpedo": "E",
+		"firepower": "B"
+	},
+	"stats": {
+		"100": {
+			"hp": "3585",
+			"armor": "Medium",
+			"reload": "140",
+			"firepower": "190",
+			"torpedo": "0",
+			"evasion": "24",
+			"antiAir": "200",
+			"aviation": "0",
+			"cost": "11",
+			"asw": "0",
+			"luck": "9",
+			"speed": "26"
+		},
+		"120": {
+			"hp": "4015",
+			"armor": "Medium",
+			"reload": "161",
+			"firepower": "218",
+			"torpedo": "0",
+			"evasion": "57",
+			"antiAir": "230",
+			"aviation": "0",
+			"cost": "11",
+			"asw": "0",
+			"luck": "9",
+			"speed": "26"
+		},
+		"base": {
+			"hp": "693",
+			"armor": "Medium",
+			"reload": "59",
+			"firepower": "40",
+			"torpedo": "0",
+			"evasion": "9",
+			"antiAir": "43",
+			"aviation": "0",
+			"cost": "3",
+			"asw": "0",
+			"luck": "9",
+			"speed": "26"
+		},
+		"100retrofit": {
+			"hp": "",
+			"armor": "",
+			"reload": "",
+			"firepower": "",
+			"torpedo": "",
+			"evasion": "",
+			"antiAir": "",
+			"aviation": "",
+			"cost": "",
+			"asw": "",
+			"luck": "",
+			"speed": ""
+		},
+		"120retrofit": {
+			"hp": "",
+			"armor": "",
+			"reload": "",
+			"firepower": "",
+			"torpedo": "",
+			"evasion": "",
+			"antiAir": "",
+			"aviation": "",
+			"cost": "",
+			"asw": "",
+			"luck": "",
+			"speed": ""
+		}
+	},
+	"limitBreak": {
+		"tier1": "Gains Full Barrage I / All Weapon Efficiency +2%",
+		"tier2": "Main Gun Mount +1 / All Weapon Efficiency +3%",
+		"tier3": "Upgrades Full Barrage I→II / All Weapon Efficiency +5%"
+	},
+	"equipmentLoadout": {
+		"1": {
+			"type": "CA Gun",
+			"efficiency": "105%/107%/110%/115%",
+			"amount": "1/1/2/2",
+			"preload": "0/0/0/0"
+		},
+		"2": {
+			"type": "DD Gun",
+			"efficiency": "50%/52%/55%/60%",
+			"amount": "1/1/1/1",
+			"preload": "0/0/0/0"
+		},
+		"3": {
+			"type": "Anti-Air Gun",
+			"efficiency": "120%/122%/125%/130%",
+			"amount": "1/1/1/1",
+			"preload": "0/0/0/0"
+		},
+		"4": {
+			"type": "Auxilliary",
+			"efficiency": "-",
+			"amount": "-",
+			"preload": "-"
+		},
+		"5": {
+			"type": "Auxilliary",
+			"efficiency": "-",
+			"amount": "-",
+			"preload": "-"
+		}
+	},
+	"defaultEquipment": {
+		"1": "Triple 203mm (8\"/55 caliber gun) T1",
+		"2": "-",
+		"3": "Twin 20mm AA Oerlikon"
+	},
+	"skill": {
+		"1": {
+			"name": "Full Firepower",
+			"type": "Offensive",
+			"requirement": "Default Unlocked",
+			"description": "30% (60%) activation every 20 seconds: For 10 seconds, increases own Firepower by 20% (40%)."
+		},
+		"2": {
+			"name": "Protective Armor",
+			"type": "Defensive",
+			"requirement": "Default Unlocked",
+			"description": "Reduce gun-based damage from enemy Destroyers and Light Cruisers by 5% (20%)."
+		},
+		"3": {
+			"name": "Full Barrage",
+			"type": "Offensive",
+			"requirement": "Limit Break Rank 1 (I) / Rank 3 (II)",
+			"description": "Every 12 (8) times the main gun is fired, trigger Full Barrage - New Orleans-Class I (II)"
+		}
+	},
+	"build": {
+		"light": {
+			"JP": "-",
+			"CN": "-",
+			"EN": "-"
+		},
+		"heavy": {
+			"JP": "-",
+			"CN": "-",
+			"EN": "-"
+		},
+		"special": {
+			"JP": "-",
+			"CN": "-",
+			"EN": "-"
+		},
+		"limited": {
+			"JP": "-",
+			"CN": "-",
+			"EN": "-"
+		}
+	},
+	"drop": {
+		"droppable": "false",
+		"list": {
+			"1": {
+				"event": "World",
+				"chapter": {
+					"1": {
+						"label": "Ch. 2",
+						"node": {
+							"1": {
+								"drop": "✓",
+								"note": "JP Only"
+							},
+							"2": {
+								"drop": "✓",
+								"note": "JP Only"
+							},
+							"3": {
+								"drop": "✓",
+								"note": "JP Only"
+							},
+							"4": {
+								"drop": "✓",
+								"note": "JP Only"
+							}
+						}
+					}
+				}
+			}
+		}
+	},
+	"lines": {
+		"skin": {
+			"1": {
+				"label": "Default",
+				"dialogue": {
+					"1": {
+						"event": "Ship Description",
+						"media": "",
+						"chinese": "新奥尔良级重巡洋舰——昆西，舷号CA-39",
+						"chineseTL": "New Orleans-class heavy cruiser—— Quincy. Pennant number CA-39.",
+						"chineseNote": "",
+						"japanese": "ニューオリンズ級重巡洋艦――クインシー（CA-39）",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"2": {
+						"event": "Self Introduction",
+						"media": "self_introduction",
+						"chinese": "我是新奥尔良级重巡洋舰昆西，我不太喜欢和别人斗争，如果大家都能在一起互帮互助就好了呢……",
+						"chineseTL": "I am the heavy cruiser Quincy of the New-Orleans class. I don't really like fighting with others. It would be great if everybody could just get together and help each other out.",
+						"chineseNote": "",
+						"japanese": "ニューオリンズ級のクインシーです。実は戦うのは苦手で……みんな仲良くやればいいのに……",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"3": {
+						"event": "Acquisition",
+						"media": "acquisition",
+						"chinese": "指、指挥官……你好……我是新奥尔良级重巡洋舰——昆西，今后要与指挥官一起生活了，那么，有、有什么我能帮忙的吗？",
+						"chineseTL": "C-commander... Hello... I am the heavy cruiser Quincy of the New-Orleans class. From now on I will be living with Commander. So, i-is there anything that I can help with?",
+						"chineseNote": "",
+						"japanese": "し、指揮官……はじめまして…ニューオリンズ級重巡洋艦のクインシーと申します…ええと、手伝えることはあ、ありますでしょうか…？",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"4": {
+						"event": "Login",
+						"media": "login",
+						"chinese": "指挥官，有什么我能做的事吗？",
+						"chineseTL": "Commander, do you have anything for me to do?",
+						"chineseNote": "",
+						"japanese": "指揮官、私に手伝えることはありませんか…？",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"5": {
+						"event": "Details",
+						"media": "details",
+						"chinese": "这样盯着我看，还挺让人害羞的……",
+						"chineseTL": "Staring at me like this is making me embarrassed...",
+						"chineseNote": "",
+						"japanese": "そんなにじっと見つめては……恥ずかしいですぅ……",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"6": {
+						"event": "Idle 1",
+						"media": "idle_1",
+						"chinese": "指挥官，这、这样好……好害羞呀",
+						"chineseTL": "Commander, t-this is so embarrassing.",
+						"chineseNote": "",
+						"japanese": "指揮官、こんなのは、はは、恥ずかしいよぉ……",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"7": {
+						"event": "Idle 2",
+						"media": "idle_2",
+						"chinese": "我不太懂得怎么去拒绝别人…况且…能帮到别人的话，不也是很开心的事吗",
+						"chineseTL": "I don't really know how to refuse people... Moreover, shouldn't I be happy that I am able to help people?",
+						"chineseNote": "",
+						"japanese": "すみません、私、人のお願いを断るのが苦手で……それに、ええと、人の役に立てるのって嬉しいことじゃありませんか……？",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"8": {
+						"event": "Idle 3",
+						"media": "idle_3",
+						"chinese": "我也有即便被拜托了也会拒绝的事哦，比如说……唔……比如……一下子想不到",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "私だって頼まれても断っちゃうことぐらいはありますっ！例えば？……ええと……た、例えば……うぅ…思いつきません……",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"9": {
+						"event": "Touch",
+						"media": "touch",
+						"chinese": "唔……虽然还是有点不习惯被别人触碰，但既然是指挥官的请求……不过，也别因为我耽误了工作哦~",
+						"chineseTL": "Uu... I'm not used to being touched by others, but since it's Commander's request... However, don't let me hold up your work~",
+						"chineseNote": "",
+						"japanese": "スキンシップは慣れていませんけど、指揮官の頼みですから……あっ、でも、仕事はちゃんとしてくださいね？",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"10": {
+						"event": "Special Touch",
+						"media": "special_touch",
+						"chinese": "指、指挥官……即便是我，也是会生气的！",
+						"chineseTL": "C-commander... Even I would get angry!",
+						"chineseNote": "",
+						"japanese": "し、指揮官……私だってお、おお、怒っちゃう時はありますよー！",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"11": {
+						"event": "Mission",
+						"media": "mission",
+						"chinese": "指挥官，有新任务，我也来帮忙吧",
+						"chineseTL": "Commander, a new mission. Let me help too.",
+						"chineseNote": "",
+						"japanese": "新しい任務ですね。指揮官、私にも手伝わせてください",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"12": {
+						"event": "Mission Complete",
+						"media": "mission_complete",
+						"chinese": "任务的奖励~啊，我一个人不行，指挥官能一起来拿吗？",
+						"chineseTL": "Mission rewards~ Ah, I can't do it myself. Commander, want to grab them with me?",
+						"chineseNote": "",
+						"japanese": "任務報酬～♪んくっ、んん……はぁはぁ…やっぱり私一人では……指揮官すみません、助けていただけないでしょうか…",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"13": {
+						"event": "Mail",
+						"media": "mail",
+						"chinese": "指挥官，我把邮件整理好了",
+						"chineseTL": "Commander, I'm finished organizing the mail.",
+						"chineseNote": "",
+						"japanese": "指揮官、メールを整理しておきました",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"14": {
+						"event": "Return from Sortie",
+						"media": "return_from_sortie",
+						"chinese": "指挥官，辛苦了，欢迎回家。",
+						"chineseTL": "Commander, good work. Welcome home.",
+						"chineseNote": "",
+						"japanese": "指揮官、お疲れ様です。おかえりなさい",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"15": {
+						"event": "Commission Complete",
+						"media": "commission_complete",
+						"chinese": "委托队回来啦，帮忙搬一下物资吗？交给我吧",
+						"chineseTL": "Commission team is back. Want to help move the goods? Hand it over to me.",
+						"chineseNote": "",
+						"japanese": "委託に出かけた子たちが戻ってきました。物資搬送ですか？任せてください！",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"16": {
+						"event": "Enhancement",
+						"media": "enhancement",
+						"chinese": "稍微变强了一点点……",
+						"chineseTL": "Slightly got a bit stronger...",
+						"chineseNote": "",
+						"japanese": "ちょっとだけ強くなりました……",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"17": {
+						"event": "Sortie Start",
+						"media": "sortie_start",
+						"chinese": "被拜托了就一定要努力做好！",
+						"chineseTL": "I was given a request, so I will definitely do my best!",
+						"chineseNote": "",
+						"japanese": "頼まれたからには頑張らないと…！",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"18": {
+						"event": "MVP",
+						"media": "mvp",
+						"chinese": "啊，成功啦！",
+						"chineseTL": "Ah, success!",
+						"chineseNote": "",
+						"japanese": "や、やりました！",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"19": {
+						"event": "Defeat",
+						"media": "defeat",
+						"chinese": "呜……我只能做到这样了吗",
+						"chineseTL": "Ugh...",
+						"chineseNote": "",
+						"japanese": "うぅ……私なんてこの程度ですよね……",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"20": {
+						"event": "Skill Activation",
+						"media": "skill_activation",
+						"chinese": "为什么要互相伤害呢……",
+						"chineseTL": "Why do we have to hurt each other...",
+						"chineseNote": "",
+						"japanese": "なぜ傷つけ合うのでしょうか……",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"21": {
+						"event": "Low Health",
+						"media": "low_health",
+						"chinese": "",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"22": {
+						"event": "Affinity (Disappointed)",
+						"media": "affinity_disappointed",
+						"chinese": "即、即使是这样的指挥官，我也不会放弃帮助你的！大、大概…",
+						"chineseTL": "E-even if you're this kind of commander, I won't give up helping you! P-probably...",
+						"chineseNote": "",
+						"japanese": "こんなにヒドい指揮官でも、クインシーは諦めないで助けちゃいますよ！……た、多分！",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"23": {
+						"event": "Affinity (Stranger)",
+						"media": "affinity_stranger",
+						"chinese": "找我有什么事吗？我正在帮姐妹们搬物资哦~",
+						"chineseTL": "Need me for something? I'm currently helping my sisters carry the goods~",
+						"chineseNote": "",
+						"japanese": "何かご用でしょうか？今みんなの物資搬送を手伝っています",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"24": {
+						"event": "Affinity (Friendly)",
+						"media": "affinity_friendly",
+						"chinese": "伤害他人的时候，自己会比被伤害时还痛苦……咦，大家不都是这样吗？",
+						"chineseTL": "When you hurt others, you become more hurt than the one you harmed... Huh, isn't everybody like that?",
+						"chineseNote": "",
+						"japanese": "人を傷つけるのは、自分が傷つけられる時よりも痛く感じますね……みんなは違うのでしょうか？",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"25": {
+						"event": "Affinity (Like)",
+						"media": "affinity_like",
+						"chinese": "为什么我这么喜欢帮助别人吗？因为，只有互相帮助，明天才会更好啊",
+						"chineseTL": "Why do I like helping others so much? Because only if we help each other will tomorrow become a better day.",
+						"chineseNote": "",
+						"japanese": "なぜ人の手伝いをするのが好きなのか、ですか？ええと、人が助け合うことでより良い未来がやってくるからですよ",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"26": {
+						"event": "Affinity (Love)",
+						"media": "affinity_love",
+						"chinese": "跟指挥官在一起的时候，就会情不自禁想要帮指挥官做点什么，想要帮助指挥官，成为指挥官的力量。",
+						"chineseTL": "When I'm with Commander, I can't help but want to help Commander somehow. I want to help Commander and become Commander's strength.",
+						"chineseNote": "",
+						"japanese": "指揮官と一緒にいると、指揮官の役に立ちたくて、指揮官の力になりたくって、心がいっぱいいっぱいになります……",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"27": {
+						"event": "Pledge",
+						"media": "pledge",
+						"chinese": "哎？希望我能一直陪伴在身边、吗…其实，我也是…想要依靠指挥官，也想要被指挥官依靠，想了解指挥官的心情，想要…和指挥官一直一直在一起…啊，好害羞…",
+						"chineseTL": "Ah? I hope I can always stay by your side... Actually, I... want to rely on Commander, and I also want Commander to rely on me. I want to understand Commander's thoughts, and I want to... always, always be together with Commander... Ah,this is so embarrassing...",
+						"chineseNote": "",
+						"japanese": "え？ずっと指揮官のそばにいてほしい、ですか？……実は私も……指揮官に頼りたくて、指揮官に頼られたくて、指揮官のことをもっと知りたくて、指揮官とずっと一緒に……うぅ…恥ずかしいですぅ…",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"28": {
+						"event": "Valentines 2019",
+						"media": "",
+						"chinese": "",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					}
+				}
+			},
+			"2": {
+				"label": "Sizzling Summer, Brisk Breeze",
+				"dialogue": {
+					"1": {
+						"event": "Ship Description, Acquisition",
+						"media": "acquisition",
+						"chinese": "大家都充满了活力呢……指挥官，累了的话就坐这里休息下吧？",
+						"chineseTL": "Everyone is so lively... Commander, if you're tired, would you like to sit here and rest?",
+						"chineseNote": "",
+						"japanese": "みんな元気ですね……指揮官、ええと、疲れたらここで一休みしませんか？",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"2": {
+						"event": "Login",
+						"media": "login",
+						"chinese": "指挥官，大家都在等着你呢。",
+						"chineseTL": "Commander, everybody's been waiting for you.",
+						"chineseNote": "",
+						"japanese": "指揮官、皆が待っていますよ",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"3": {
+						"event": "Details",
+						"media": "details",
+						"chinese": "我就坐这里帮大家看着东西就好了……运动什么的，我真的不行啦…",
+						"chineseTL": "I'll just sit here and help watch everybody's things... When it comes to physical activity, I'm really not cut out for it...",
+						"chineseNote": "",
+						"japanese": "私はここで皆の荷物を見ますね。……う、運動なんて無理ですよぉ……",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"4": {
+						"event": "Idle 1",
+						"media": "idle_1",
+						"chinese": "这，这样子穿着，被大家看着，总觉得好害羞啊……",
+						"chineseTL": "W-wearing this kind of dress, I feel so embarrassed when everybody is looking at me.",
+						"chineseNote": "",
+						"japanese": "こ、この水着姿がみんなに見られちゃう……恥ずかしいよぉ……",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"5": {
+						"event": "Idle 2",
+						"media": "idle_2",
+						"chinese": "饮料？不用担心，我带了很多过来呢。",
+						"chineseTL": "Refreshment? Don't worry. I brought a lot over.",
+						"chineseNote": "",
+						"japanese": "お飲み物ですか？大丈夫です、たくさん持ってきていますよ",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"6": {
+						"event": "Idle 3",
+						"media": "idle_3",
+						"chinese": "只是听着大海的声音，自己的心情就变得舒畅了许多呢……",
+						"chineseTL": "Just listening to the sound of the sea puts my mind at ease...",
+						"chineseNote": "",
+						"japanese": "海の音に耳を傾けると、心が自然とすっきりしますね……",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"7": {
+						"event": "Touch",
+						"media": "touch",
+						"chinese": "有，有谁遇到麻烦了吗？",
+						"chineseTL": "I-is someone in trouble?",
+						"chineseNote": "",
+						"japanese": "だ、誰かがトラブルにあったのでしょうか？",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"8": {
+						"event": "Special Touch",
+						"media": "special_touch",
+						"chinese": "呜……不要在大家面前做这种事啊……",
+						"chineseTL": "Ugh... Don't do this kind of thing in front of everybody...",
+						"chineseNote": "",
+						"japanese": "うぅ……みんなの前ではしないでくださいよぉ……",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"9": {
+						"event": "Return from Sortie",
+						"media": "return_from_sortie",
+						"chinese": "要来点冰饮料吗？不过一次不能喝太多，不然对身体不太好呢～",
+						"chineseTL": "Want a cold drink? Don't drink too much at once though. Doing so would be bad for your body~",
+						"chineseNote": "",
+						"japanese": "冷たい飲み物でもどうですか？あ、飲みすぎてはダメですよ？体によくありませんし……",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					}
+				}
+			}
+		}
+	}
+}
