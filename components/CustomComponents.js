@@ -154,6 +154,8 @@ class CommentedShipDisplay extends HTMLElement{
 						self.shipRarity = "background-color:#b080b0";
 					} else if (rarity == "Rare"){
 						self.shipRarity = "background-color:#8cb3b8";
+					} else if (rarity == "Common" || rarity == "Normal"){
+						self.shipRarity = "background-color:#737373";
 					}
 					if (self.skinLimited == "true"){
 						self.root.getElementById("limited"+self.parentID).style.display = "block";
@@ -301,7 +303,7 @@ class IconDisplay extends HTMLElement{
 			var actual_JSON = JSON.parse(response);
 			self.icon = "https://s3.us-east-2.amazonaws.com/alg-wiki.com/Ships/" + actual_JSON.file_id + "/Icon/icon.png";
 
-			if (actual_JSON.rarity == "Common"){
+			if (actual_JSON.rarity == "Common" || actual_JSON.rarity == "Normal"){
 				self.bgimg = "../Images/bg1.png";
 			} else if (actual_JSON.rarity == "Rare"){
 				self.bgimg = "../Images/bg2.png";

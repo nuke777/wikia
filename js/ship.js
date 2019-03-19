@@ -221,6 +221,17 @@ function setShipRarityHighlight(rarity){
 		document.getElementById("shipRarityColor8").style = "background:#8cb3b8;height:30px;width:60%;";
 		document.getElementById("shipRarityColor9").style = "background:#8cb3b8;height:30px";
 		document.getElementById("shipRarityColor10").style = "background:#8cb3b8;height:30px";
+	} else if (rarity == "Common" || rarity == "Normal") {
+		document.getElementById("shipRarityColor").style = "background:#737373;height:30px";
+		document.getElementById("shipRarityColor2").style = "background:#737373;height:30px";
+		document.getElementById("shipRarityColor3").style = "background:#737373;height:30px";
+		document.getElementById("shipRarityColor4").style = "background:#737373;height:30px";
+		document.getElementById("shipRarityColor5").style = "background:#737373;height:30px";
+		document.getElementById("shipRarityColor6").style = "background:#737373;height:30px";
+		document.getElementById("shipRarityColor7").style = "background:#737373;height:30px;width:40%;";
+		document.getElementById("shipRarityColor8").style = "background:#737373;height:30px;width:60%;";
+		document.getElementById("shipRarityColor9").style = "background:#737373;height:30px";
+		document.getElementById("shipRarityColor10").style = "background:#737373;height:30px";
 	}
 }	
 
