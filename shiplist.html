@@ -131,6 +131,9 @@
 					} else if (actual_JSON[x].rarity == "Rare"){
 						text = text + '\
 						<div class="imgdiv" style="background-color:#8cb3b8">';
+					} else if (actual_JSON[x].rarity == "Common"){
+						text = text + '\
+						<div class="imgdiv" style="background-color:#737373">';
 					}
 					text = text + '\
 							<a href="ship#'+actual_JSON[x].link+'"><img src="'+actual_JSON[x].icon+'" style="height:100px;width: 100px"></a>\
