@@ -216,5 +216,4 @@ Also
 - Add jukebox section [https://mega.nz/#F!SaZkHAIL!v2vRbqpbeOEjz9-tTDe94A](https://mega.nz/#F!SaZkHAIL!v2vRbqpbeOEjz9-tTDe94A)
 - Filters on ship list
 - Equipment page
-- Events page
 
