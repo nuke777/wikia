@@ -5,8 +5,8 @@
 	"class": "Essex",
 	"hull": "Aircraft Carrier",
 	"prefix": "USS",
-	"ID": "381",
-	"file_id": "381_Bunker_Hill",
+	"ID": "380",
+	"file_id": "380_Bunker_Hill",
 	"navy": "Eagle Union",
 	"initialStar": "★★★☆☆☆",
 	"rarity": "Super Rare",
@@ -95,16 +95,16 @@
 			"speed": "33"
 		},
 		"base": {
-			"hp": "",
+			"hp": "1102",
 			"armor": "Medium",
-			"reload": "",
-			"firepower": "",
-			"torpedo": "",
-			"evasion": "",
-			"antiAir": "",
-			"aviation": "",
-			"cost": "",
-			"asw": "",
+			"reload": "48",
+			"firepower": "0",
+			"torpedo": "0",
+			"evasion": "13",
+			"antiAir": "58",
+			"aviation": "81",
+			"cost": "4",
+			"asw": "0",
 			"luck": "35",
 			"speed": "33"
 		},
@@ -145,19 +145,19 @@
 	"equipmentLoadout": {
 		"1": {
 			"type": "Fighter",
-			"efficiency": "140%/143%/148%/155%",
+			"efficiency": "125%/128%/133%/140%",
 			"amount": "1/2/2/3",
 			"preload": "0"
 		},
 		"2": {
 			"type": "Dive Bomber",
-			"efficiency": "1.3",
+			"efficiency": "115%/118%/123%/130%",
 			"amount": "1/1/2/3",
 			"preload": "0"
 		},
 		"3": {
 			"type": "Torpedo Bomber",
-			"efficiency": "1.15",
+			"efficiency": "100%/103%/108%/115%",
 			"amount": "1/1/1/2",
 			"preload": "0"
 		},
@@ -182,21 +182,15 @@
 	"skill": {
 		"1": {
 			"name": "?",
-			"type": "?",
-			"requirement": "Default",
+			"type": "Support",
+			"requirement": "Default Unlocked",
 			"description": "Increase self Aviation by 5 (15%). When used as flagship, increase allied Eagle Union Battleship Firepower by 5% (15%). When not used as a flagship, increase Eagle Union Destroyer Firepower and Anti-Air by 5% (15%)"
 		},
 		"2": {
 			"name": "?",
-			"type": "?",
-			"requirement": "Default",
+			"type": "Offensive",
+			"requirement": "Default Unlocked",
 			"description": "When there are no CV/CVL in the allied fleet, increase allied main fleet Anti-Air by 4.5% (12%). After launching an airstrike, launch an Aviation Barrage:<br>&emsp;★Fighter: 2x100lb (121 DMG) 120% Efficiency<br>&emsp;★Dive Bomber: 1x2000lb (456 DMG) + 2x100lb (121 DMG) 120% Efficiency<br>&emsp;★Torpedo Bomber: 3x Air Torpedo (240 DMG) 100% Efficiency<br>When there is only one CV/CVL, only launches a Fighter. When there are two CV/CVL, launches a Fighter and a Dive Bomber. When there are three CV/CVL, launches a Fighter, a Dive Bomber and a Torpedo Bomber."
-		},
-		"3": {
-			"name": "",
-			"type": "",
-			"requirement": "",
-			"description": ""
 		}
 	},
 	"build": {
@@ -284,7 +278,7 @@
 					"3": {
 						"event": "Acquisition",
 						"media": "acquisition",
-						"chinese": "",
+						"chinese": "邦克山，埃塞克斯级的一员，从今以后将加入舰队，听从你的号令。放心，会有机会见识到我的实力的。",
 						"chineseTL": "",
 						"chineseNote": "",
 						"japanese": "",

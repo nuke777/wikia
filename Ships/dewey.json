@@ -5,8 +5,8 @@
 	"class": "Farragut",
 	"hull": "Destroyer",
 	"prefix": "USS",
-	"ID": "380",
-	"file_id": "380_Dewey",
+	"ID": "004",
+	"file_id": "004_Dewey",
 	"navy": "Eagle Union",
 	"initialStar": "★★☆☆☆",
 	"rarity": "Rare",
@@ -70,12 +70,12 @@
 		"other": ""
 	},
 	"parameters": {
-		"hp": "",
-		"antiAir": "",
-		"evasion": "",
-		"aviation": "",
-		"torpedo": "",
-		"firepower": ""
+		"hp": "C",
+		"antiAir": "C",
+		"evasion": "B",
+		"aviation": "E",
+		"torpedo": "C",
+		"firepower": "C"
 	},
 	"stats": {
 		"100": {
@@ -150,28 +150,28 @@
 		}
 	},
 	"limitBreak": {
-		"tier1": "",
-		"tier2": "",
-		"tier3": ""
+		"tier1": "Gained Full Barrage I / All Weapon Efficiency +2%",
+		"tier2": "Max Torpedo Capacity +1 / Pre-Loaded Torpedo +1 / All Weapon Efficiency +3%",
+		"tier3": "Upgrades Full Barrage I→II / All Weapon Efficiency +5%"
 	},
 	"equipmentLoadout": {
 		"1": {
 			"type": "DD Gun",
-			"efficiency": "",
-			"amount": "",
-			"preload": ""
+			"efficiency": "110%/112%/115%/120%",
+			"amount": "1/1/1/1",
+			"preload": "0/0/0/0"
 		},
 		"2": {
 			"type": "Torpedo",
-			"efficiency": "",
-			"amount": "",
-			"preload": ""
+			"efficiency": "120%/122%/125%/130%",
+			"amount": "1/1/2/2",
+			"preload": "0/0/1/1"
 		},
 		"3": {
 			"type": "Anti-Air Gun",
-			"efficiency": "",
-			"amount": "",
-			"preload": ""
+			"efficiency": "120%/122%/125%/130%",
+			"amount": "1/1/1/1",
+			"preload": "0/0/0/0"
 		},
 		"4": {
 			"type": "Auxilliary",
@@ -193,9 +193,9 @@
 	},
 	"skill": {
 		"1": {
-			"name": "-",
-			"type": "-",
-			"requirement": "-",
+			"name": "?",
+			"type": "Support",
+			"requirement": "Default Unlocked",
 			"description": "While alive in the fleet, decreases damage taken by allied CV/CVL by 5% (10%). When sortied with Gridley, increases self and Gridley's Firepower by 5% (15%)."
 		},
 		"2": {
@@ -203,12 +203,6 @@
 			"type": "Offensive",
 			"requirement": "Limit Break Rank 1, Rank 3 upgrade",
 			"description": "Every 15 (10) times the main battery is fired, trigger Full Barrage - Farragut-class I (II)"
-		},
-		"3": {
-			"name": "",
-			"type": "",
-			"requirement": "",
-			"description": ""
 		}
 	},
 	"build": {
