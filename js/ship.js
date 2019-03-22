@@ -465,7 +465,7 @@ function setSkillSet(data){
 		text = text + '\
 		<tr>\
 			<td style="text-align:left;padding:10px;white-space: nowrap;">\
-				<img src="'+window.folder+"/Icon/skill"+x+".png"+'">&emsp;'+data.skill[x].name+'\
+				<img src="'+window.folder+"/Icon/skill"+x+".png"+'" style="height: 64px; width: 64px;">&emsp;'+data.skill[x].name+'\
 			</td>\
 			<td style="text-align:left;padding:10px">'+data.skill[x].description+'</td>\
 			<td style="padding:10px;white-space: nowrap;">'+data.skill[x].requirement+'</td>\
