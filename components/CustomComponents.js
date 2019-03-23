@@ -51,6 +51,14 @@ class CommentedShipDisplay extends HTMLElement{
 			return this.getAttribute('retrofit');
 		}
 
+		get new(){
+			return this.getAttribute('new');
+		}
+
+		get discount(){
+			return this.getAttribute('discount');
+		}
+
 		template(){
 			return html`
 			<div style="float:left;margin:10px 0px 0px 10px;" id="${this.parentID}">
@@ -69,9 +77,11 @@ class CommentedShipDisplay extends HTMLElement{
 							<a href="ship#${this.ship}" style="color:white; font-size:10px;text-decoration:none">${this.shipName}</a>
 						</div>
 						<div style="width: 60px; height: 19px; background: url('Images/skin_event.png'); position: absolute; top: 38px; right: 8px; display: none" id="event${this.parentID}"></div> 
+						<div style="position: absolute; top: 38px; right: 8px; display: none; color: #8ed141; text-shadow: 0px 0px 4px #000000;" id="discount${this.parentID}"></div>
 						<div style="width: 70px; height: 16px; background: url('Images/skin_limited.png'); position: absolute; top: 38px; right: 8px; display: none" id="limited${this.parentID}"></div>
 						<div style="width: 30px; height: 26px; background: url('Images/skin_bg.png'); position: absolute; bottom: 43px; left: 5px; display: none" id="bg${this.parentID}"></div>
 						<div style="width: 30px; height: 18px; background: url('Images/skin_l2d.png'); position: absolute; bottom: 47px; right: 8px; display: none" id="l2d${this.parentID}"></div>
+						<div style="width: 73px; height: 66px; background: url('Images/new.png'); position: absolute; top: -25px; left: -30px; display: none" id="new${this.parentID}"></div>
 					</div>
 					
 				</div>	
@@ -169,6 +179,14 @@ class CommentedShipDisplay extends HTMLElement{
 					if (self.skinL2d == "true"){
 						self.root.getElementById("l2d"+self.parentID).style.display = "block";
 					}
+					if (self.new == "true"){
+						self.root.getElementById("new"+self.parentID).style.display = "block";
+					}
+					if (self.discount != null){
+						self.root.getElementById("discount"+self.parentID).style.display = "block";
+						self.root.getElementById("discount"+self.parentID).innerHTML = "<b>"+self.discount+"</b>";
+					}
+
 
 
 					render(self.template(),self.root);
