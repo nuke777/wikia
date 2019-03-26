@@ -11,6 +11,7 @@ class CommentedShipDisplay extends HTMLElement{
 			this.shipRarity = "";
 			this.parentID = "_" + util.guidGenerator();
 			this.root = this.attachShadow({mode: "open"});
+			render(this.template(),this.root);
 			this.loadShip();
 		}
 
@@ -22,10 +23,46 @@ class CommentedShipDisplay extends HTMLElement{
 			return this.getAttribute('comment');
 		}
 
+		set comment(value){
+			return this.setAttribute('comment', value);
+		}
+
+		get skin(){
+			return this.getAttribute('skin');
+		}
+
+		get skinLimited(){
+			return this.getAttribute('skin-limited');
+		}
+
+		get skinEvent(){
+			return this.getAttribute('skin-event');
+		}
+
+		get skinBg(){
+			return this.getAttribute('skin-bg');
+		}
+
+		get skinL2d(){
+			return this.getAttribute('skin-l2d');
+		}
+
+		get retrofit(){
+			return this.getAttribute('retrofit');
+		}
+
+		get new(){
+			return this.getAttribute('new');
+		}
+
+		get discount(){
+			return this.getAttribute('discount');
+		}
+
 		template(){
 			return html`
 			<div style="float:left;margin:10px 0px 0px 10px;" id="${this.parentID}">
-					<div style="border-radius: 10px;border: 3px double #ffffff;background: #24252d;width: 100px;height: 176px;">
+					<div style="border-radius: 10px;border: 3px double #ffffff;background: #24252d;width: 100px;height: 220px; position: relative">
 						<div style="width: 33px;height: 27px;float:left;text-align:center;color:white;padding-top:6px;font-size:13px;">
 							<img src="${this.shipHull}" style="padding-left:3px">
 						</div>
@@ -33,12 +70,18 @@ class CommentedShipDisplay extends HTMLElement{
 							<img src="${this.shipNavy}">
 						</div>
 						<div style="width: 33px;height: 27px;float:left;text-align:center;color:white;padding-top:6px;font-size:13px;">${this.shipID}</div>
-						<div style="${this.shipRarity};border-top: 2px solid #ffffff;border-bottom: 2px solid #ffffff;width:100px; height:104px; float:left;">
-							<a href="ship#${this.ship}"><img src="${this.shipIcon}" style="height:100px;width: 100px"></a>
+						<div style="${this.shipRarity};border-top: 2px solid #ffffff;border-bottom: 2px solid #ffffff;width:100px; height:144px; float:left;">
+							<a href="ship#${this.ship}"><img src="${this.shipIcon}" style="height:144px;width: 100px"></a>
 						</div>
 						<div style="float:left; display:block; text-align: center;vertical-align: middle;line-height: 33px;width:100px; height:33px; color:white; font-size:10px;">
 							<a href="ship#${this.ship}" style="color:white; font-size:10px;text-decoration:none">${this.shipName}</a>
 						</div>
+						<div style="width: 60px; height: 19px; background: url('Images/skin_event.png'); position: absolute; top: 38px; right: 8px; display: none" id="event${this.parentID}"></div> 
+						<div style="position: absolute; top: 38px; right: 8px; display: none; color: #8ed141; text-shadow: 0px 0px 4px #000000;" id="discount${this.parentID}"></div>
+						<div style="width: 70px; height: 16px; background: url('Images/skin_limited.png'); position: absolute; top: 38px; right: 8px; display: none" id="limited${this.parentID}"></div>
+						<div style="width: 30px; height: 26px; background: url('Images/skin_bg.png'); position: absolute; bottom: 43px; left: 5px; display: none" id="bg${this.parentID}"></div>
+						<div style="width: 30px; height: 18px; background: url('Images/skin_l2d.png'); position: absolute; bottom: 47px; right: 8px; display: none" id="l2d${this.parentID}"></div>
+						<div style="width: 73px; height: 66px; background: url('Images/new.png'); position: absolute; top: -25px; left: -30px; display: none" id="new${this.parentID}"></div>
 					</div>
 					
 				</div>	
@@ -51,20 +94,43 @@ class CommentedShipDisplay extends HTMLElement{
 					var actual_JSON = JSON.parse(response);
 					self.shipName = actual_JSON.name;
 					self.shipID = actual_JSON.ID;
-					self.shipIcon = "https://s3.us-east-2.amazonaws.com/alg-wiki.com/Ships/" + actual_JSON.file_id + "/Icon/icon.png";
-					if (actual_JSON.hull == "Aircraft Carrier" || actual_JSON.hull == "Light Aircraft Carrier" ){						
+					var rarity = "";
+					var hull = "";
+
+					if (self.retrofit == "true"){
+						rarity = actual_JSON.retroParameter.split(",")[0].trim();
+						hull = actual_JSON.retroParameter.split(",")[1].trim();
+					} else {
+						rarity = actual_JSON.rarity;
+						hull = actual_JSON.hull;
+					}
+
+					if (self.skin != null){
+						self.comment = actual_JSON.skin[self.skin+""].name;
+						if (self.retrofit == "true")
+							self.shipIcon = "https://s3.us-east-2.amazonaws.com/alg-wiki.com/Ships/" + actual_JSON.file_id + "/Icon/skin"+actual_JSON.retroParameter.split(",")[2].trim()+"_half.png";
+						else
+							self.shipIcon = "https://s3.us-east-2.amazonaws.com/alg-wiki.com/Ships/" + actual_JSON.file_id + "/Icon/skin"+self.skin+"_half.png";
+					} else {
+						if (self.retrofit == "true")
+							self.shipIcon = "https://s3.us-east-2.amazonaws.com/alg-wiki.com/Ships/" + actual_JSON.file_id + "/Icon/skin"+actual_JSON.retroParameter.split(",")[2].trim()+"_half.png";
+						else
+							self.shipIcon = "https://s3.us-east-2.amazonaws.com/alg-wiki.com/Ships/" + actual_JSON.file_id + "/Icon/skin1_half.png";
+					}
+						
+					if (hull == "Aircraft Carrier" || hull == "Light Aircraft Carrier" ){						
 						self.shipHull = "http://alg-wiki.com/Images/Hull/cv.png";
-					} else if (actual_JSON.hull == "Destroyer"){						
+					} else if (hull == "Destroyer"){						
 						self.shipHull = "http://alg-wiki.com/Images/Hull/dd.png";
-					} else if (actual_JSON.hull == "Light Cruiser"){						
+					} else if (hull == "Light Cruiser"){						
 						self.shipHull = "http://alg-wiki.com/Images/Hull/cl.png";
-					} else if (actual_JSON.hull == "Heavy Cruiser"){						
+					} else if (hull == "Heavy Cruiser"){						
 						self.shipHull = "http://alg-wiki.com/Images/Hull/ca.png";
-					} else if (actual_JSON.hull == "Battleship" || actual_JSON.hull == "Battlecruiser" || actual_JSON.hull == "Monitor"){						
+					} else if (hull == "Battleship" || hull == "Battlecruiser" || hull == "Monitor"){						
 						self.shipHull = "http://alg-wiki.com/Images/Hull/bb.png";
-					} else if (actual_JSON.hull == "Submarine"){						
+					} else if (hull == "Submarine"){						
 						self.shipHull = "http://alg-wiki.com/Images/Hull/ss.png";
-					} else if (actual_JSON.hull == "Repair Ship"){						
+					} else if (hull == "Repair Ship"){						
 						self.shipHull = "http://alg-wiki.com/Images/Hull/ar.png";
 					}
 					if (actual_JSON.navy == "Eagle Union") {
@@ -92,13 +158,37 @@ class CommentedShipDisplay extends HTMLElement{
 					} else if (actual_JSON.navy == "Bilibili") {
 						self.shipNavy = "http://alg-wiki.com/Images/Navy/bili_icon.png";
 					}
-					if (actual_JSON.rarity == "Super Rare" || actual_JSON.rarity == "Priority"){
+					if (rarity == "Super Rare" || rarity == "Priority"){
 						self.shipRarity = "background-color:#beb988";
-					} else if (actual_JSON.rarity == "Elite"){
+					} else if (rarity == "Elite"){
 						self.shipRarity = "background-color:#b080b0";
-					} else if (actual_JSON.rarity == "Rare"){
+					} else if (rarity == "Rare"){
 						self.shipRarity = "background-color:#8cb3b8";
+					} else if (rarity == "Common" || rarity == "Normal"){
+						self.shipRarity = "background-color:#737373";
 					}
+					if (self.skinLimited == "true"){
+						self.root.getElementById("limited"+self.parentID).style.display = "block";
+					}
+					if (self.skinEvent == "true"){
+						self.root.getElementById("event"+self.parentID).style.display = "block";
+					}
+					if (self.skinBg == "true"){
+						self.root.getElementById("bg"+self.parentID).style.display = "block";
+					}
+					if (self.skinL2d == "true"){
+						self.root.getElementById("l2d"+self.parentID).style.display = "block";
+					}
+					if (self.new == "true"){
+						self.root.getElementById("new"+self.parentID).style.display = "block";
+					}
+					if (self.discount != null){
+						self.root.getElementById("discount"+self.parentID).style.display = "block";
+						self.root.getElementById("discount"+self.parentID).innerHTML = "<b>"+self.discount+"</b>";
+					}
+
+
+
 					render(self.template(),self.root);
 					self.addComment();
 				});
@@ -231,7 +321,7 @@ class IconDisplay extends HTMLElement{
 			var actual_JSON = JSON.parse(response);
 			self.icon = "https://s3.us-east-2.amazonaws.com/alg-wiki.com/Ships/" + actual_JSON.file_id + "/Icon/icon.png";
 
-			if (actual_JSON.rarity == "Common"){
+			if (actual_JSON.rarity == "Common" || actual_JSON.rarity == "Normal"){
 				self.bgimg = "../Images/bg1.png";
 			} else if (actual_JSON.rarity == "Rare"){
 				self.bgimg = "../Images/bg2.png";

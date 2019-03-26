@@ -1,0 +1,606 @@
+{
+	"name": "Bunker Hill",
+	"nameJP": "バンカー・ヒル",
+	"nameCN": "邦克山",
+	"class": "Essex",
+	"hull": "Aircraft Carrier",
+	"prefix": "USS",
+	"ID": "380",
+	"file_id": "380_Bunker_Hill",
+	"navy": "Eagle Union",
+	"initialStar": "★★★☆☆☆",
+	"rarity": "Super Rare",
+	"buildTime": "N/A",
+	"acquisitionMethod": "Drop 13-4",
+	"enhance": {
+		"firepower": "",
+		"torpedo": "",
+		"aviation": "",
+		"reload": ""
+	},
+	"scrap": {
+		"gold": "9",
+		"oil": "3",
+		"medal": "10"
+	},
+	"skin": {
+		"1": {
+			"name": "Default",
+			"description": "Essex-Class Aircraft Carrier - Essex (CV-17)",
+			"expression": {
+				"1": {
+					"label": "Default"
+				},
+				"2": {
+					"label": "Default"
+				},
+				"3": {
+					"label": "Default"
+				},
+				"4": {
+					"label": "Default"
+				}
+			}
+		}
+	},
+	"releaseDate": {
+		"JP": "March 22, 2019",
+		"CN": "March 22, 2019",
+		"KR": "March 22, 2019",
+		"EN": ""
+	},
+	"voiceActress": "",
+	"artist": {
+		"name": "德意志的科学",
+		"weibo": "https://www.weibo.com/onlykexue",
+		"twitter": "https://twitter.com/ls809251250",
+		"pixiv": "https://www.pixiv.net/member.php?id=6054803",
+		"other": ""
+	},
+	"parameters": {
+		"hp": "",
+		"antiAir": "",
+		"evasion": "",
+		"aviation": "",
+		"torpedo": "",
+		"firepower": ""
+	},
+	"stats": {
+		"100": {
+			"hp": "5698",
+			"armor": "Medium",
+			"reload": "114",
+			"firepower": "0",
+			"torpedo": "0",
+			"evasion": "34",
+			"antiAir": "272",
+			"aviation": "383",
+			"cost": "13",
+			"asw": "0",
+			"luck": "35",
+			"speed": "33"
+		},
+		"120": {
+			"hp": "6610",
+			"armor": "Medium",
+			"reload": "131",
+			"firepower": "0",
+			"torpedo": "0",
+			"evasion": "54",
+			"antiAir": "309",
+			"aviation": "425",
+			"cost": "13",
+			"asw": "0",
+			"luck": "35",
+			"speed": "33"
+		},
+		"base": {
+			"hp": "1102",
+			"armor": "Medium",
+			"reload": "48",
+			"firepower": "0",
+			"torpedo": "0",
+			"evasion": "13",
+			"antiAir": "58",
+			"aviation": "81",
+			"cost": "4",
+			"asw": "0",
+			"luck": "35",
+			"speed": "33"
+		},
+		"100retrofit": {
+			"hp": "",
+			"armor": "",
+			"reload": "",
+			"firepower": "",
+			"torpedo": "",
+			"evasion": "",
+			"antiAir": "",
+			"aviation": "",
+			"cost": "",
+			"asw": "",
+			"luck": "",
+			"speed": ""
+		},
+		"120retrofit": {
+			"hp": "",
+			"armor": "",
+			"reload": "",
+			"firepower": "",
+			"torpedo": "",
+			"evasion": "",
+			"antiAir": "",
+			"aviation": "",
+			"cost": "",
+			"asw": "",
+			"luck": "",
+			"speed": ""
+		}
+	},
+	"limitBreak": {
+		"tier1": "Number of Fighters +1, All Plane Efficiency +3%",
+		"tier2": "Hangar Capacity +1, Number of Dive Bombers +1, All Plane Efficiency +5%",
+		"tier3": "Number of All Planes +1, All Plane Efficiency +7%"
+	},
+	"equipmentLoadout": {
+		"1": {
+			"type": "Fighter",
+			"efficiency": "125%/128%/133%/140%",
+			"amount": "1/2/2/3",
+			"preload": "0"
+		},
+		"2": {
+			"type": "Dive Bomber",
+			"efficiency": "115%/118%/123%/130%",
+			"amount": "1/1/2/3",
+			"preload": "0"
+		},
+		"3": {
+			"type": "Torpedo Bomber",
+			"efficiency": "100%/103%/108%/115%",
+			"amount": "1/1/1/2",
+			"preload": "0"
+		},
+		"4": {
+			"type": "Auxilliary",
+			"efficiency": "-",
+			"amount": "-",
+			"preload": "-"
+		},
+		"5": {
+			"type": "Auxilliary",
+			"efficiency": "-",
+			"amount": "-",
+			"preload": "-"
+		}
+	},
+	"defaultEquipment": {
+		"1": "F6F Hellcat T1",
+		"2": "SB2C Helldiver T1",
+		"3": "TBF Avenger T1"
+	},
+	"skill": {
+		"1": {
+			"name": "Task Group",
+			"type": "Support",
+			"requirement": "Default Unlocked",
+			"description": "Increase self Aviation by 5 (15%). When used as flagship, increase allied Eagle Union Battleship Firepower by 5% (15%). When not used as a flagship, increase Eagle Union Destroyer Firepower and Anti-Air by 5% (15%)"
+		},
+		"2": {
+			"name": "Indomitable Perseverance",
+			"type": "Offensive",
+			"requirement": "Default Unlocked",
+			"description": "When there are no CV/CVL in the allied fleet, increase allied main fleet Anti-Air by 4.5% (12%). After launching an airstrike, launch an Aviation Barrage:<br>&emsp;★Fighter: 2x100lb (121 DMG) 120% Efficiency<br>&emsp;★Dive Bomber: 1x2000lb (456 DMG) + 2x100lb (121 DMG) 120% Efficiency<br>&emsp;★Torpedo Bomber: 3x Air Torpedo (240 DMG) 100% Efficiency<br>When there is only one CV/CVL, only launches a Fighter. When there are two CV/CVL, launches a Fighter and a Dive Bomber. When there are three CV/CVL, launches a Fighter, a Dive Bomber and a Torpedo Bomber."
+		}
+	},
+	"build": {
+		"light": {
+			"JP": "-",
+			"CN": "-",
+			"EN": "-"
+		},
+		"heavy": {
+			"JP": "-",
+			"CN": "-",
+			"EN": "-"
+		},
+		"special": {
+			"JP": "-",
+			"CN": "-",
+			"EN": "-"
+		},
+		"limited": {
+			"JP": "-",
+			"CN": "-",
+			"EN": "-"
+		}
+	},
+	"drop": {
+		"droppable": "true",
+		"list": {
+			"1": {
+				"event": "World",
+				"chapter": {
+					"1": {
+						"label": "Ch. 13",
+						"node": {
+							"1": {
+								"drop": "-",
+								"note": ""
+							},
+							"2": {
+								"drop": "-",
+								"note": ""
+							},
+							"3": {
+								"drop": "-",
+								"note": ""
+							},
+							"4": {
+								"drop": "✓",
+								"note": "Boss"
+							}
+						}
+					}
+				}
+			}
+		}
+	},
+	"lines": {
+		"skin": {
+			"1": {
+				"label": "Default",
+				"dialogue": {
+					"1": {
+						"event": "Ship Description",
+						"media": "",
+						"chinese": "埃塞克斯级航空母舰—邦克山，舷号CV-17",
+						"chineseTL": "Essex Class Carrier - Bunker Hill, Hull Number CV-17",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"2": {
+						"event": "Self Introduction",
+						"media": "self_introduction",
+						"chinese": "埃塞克斯级邦克山号，名字源于独立战争中那场残酷的战斗。曾经活跃于诸多战场，不过…战争让人感受到的，只能是悲伤和痛苦，无需多言",
+						"chineseTL": "Essex Class, Bunker Hill. I was named after that harsh battle for independence. I was active in many battles, but... the things that war makes one feel, could only be sadness and pain, there's nothing else that needs to be said.",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"3": {
+						"event": "Acquisition",
+						"media": "acquisition",
+						"chinese": "邦克山，埃塞克斯级的一员，从今以后将加入舰队，听从你的号令。放心，会有机会见识到我的实力的。",
+						"chineseTL": "Bunker Hill, a member of the Essex Class. From now on I will be part of the fleet, and will listen to your commands. Be at ease, you will have the chance to see my abilities.",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"4": {
+						"event": "Login",
+						"media": "login",
+						"chinese": "现在可是非常时期，及时试假日也要做好出假日特快（Holiday Express）的准备。",
+						"chineseTL": "It is the busy period right now, even if it's the holidays now you will have to make preparations for the \"Holiday Express\".",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"5": {
+						"event": "Details",
+						"media": "details",
+						"chinese": "指挥官，为什么盯着我看......",
+						"chineseTL": "Commander, why are you staring at me.....",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"6": {
+						"event": "Idle 1",
+						"media": "idle_1",
+						"chinese": "今天，又有哪里将会被战争的烈火席卷呢...？",
+						"chineseTL": "Today, will there be any places being dragged into the flames of war...?",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"7": {
+						"event": "Idle 2",
+						"media": "idle_2",
+						"chinese": "埃尔德里奇的能力？我不大清楚...不过隐隐约约好像在哪里见过的样子。",
+						"chineseTL": "Eldridge's powers? I'm not very clear... but I vaguely remember seeing that before.",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"8": {
+						"event": "Idle 3",
+						"media": "idle_3",
+						"chinese": "在埃塞克斯级的攻击编队面前，所有的抵抗都是徒劳的...",
+						"chineseTL": "In the face of the attacking forces of the Essex Class, all resistance is futile.",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"9": {
+						"event": "Touch",
+						"media": "touch",
+						"chinese": "我没有生气，只是不擅长表达。所以，不用担心打扰到我，有什么事尽管来找我吧。",
+						"chineseTL": "I am not angry, I am just not well versed in expressions. So, do not worry about disturbing me, if there are any issues, feel fre to find me.",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"10": {
+						"event": "Special Touch",
+						"media": "special_touch",
+						"chinese": "看来…指挥官需要一点记忆深刻的教训啊？",
+						"chineseTL": "Looks like... Commander needs some punishment that is memorable huh?",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"11": {
+						"event": "Mission",
+						"media": "mission",
+						"chinese": "任务...还是早点完成吧。",
+						"chineseTL": "Missions... it's better to finish them early.",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"12": {
+						"event": "Mission Complete",
+						"media": "mission_complete",
+						"chinese": "回来了吗？那就...准备下一次出击吧。",
+						"chineseTL": "Are you back? Then... let's prepare for the next sortie then.",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"13": {
+						"event": "Mail",
+						"media": "mail",
+						"chinese": "邮件...会有新的情报吗？",
+						"chineseTL": "Mail... will there be new intelligence?",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"14": {
+						"event": "Return from Sortie",
+						"media": "return_from_sortie",
+						"chinese": "奖励不少？那是当然。",
+						"chineseTL": "There's lots of rewards? That is a certainty.",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"15": {
+						"event": "Commission Complete",
+						"media": "commission_complete",
+						"chinese": "失陪一下，我去迎接委托回来的同伴们，你在这等我消息就好了。",
+						"chineseTL": "Please excuse me, I will welcome the comrades that has returned, you can just wait here for my news.",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"16": {
+						"event": "Enhancement",
+						"media": "enhancement",
+						"chinese": "又...变强了啊...",
+						"chineseTL": "Ah... became stronger again huh...",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"17": {
+						"event": "Sortie Start",
+						"media": "sortie_start",
+						"chinese": "为什么，要与我们为敌呢...",
+						"chineseTL": "Why, are you becoming our enemies...",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"18": {
+						"event": "MVP",
+						"media": "mvp",
+						"chinese": "这就是你们所选择的的结局吗...",
+						"chineseTL": "Is this the ending that you choose...?",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"19": {
+						"event": "Defeat",
+						"media": "defeat",
+						"chinese": "这是...堪比龙颚（dragon jaw）的强敌吗......！",
+						"chineseTL": "This is... an enemy that that surpasses even that of the (dragon jaw)?",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"20": {
+						"event": "Skill Activation",
+						"media": "skill_activation",
+						"chinese": "放弃抵抗吧！",
+						"chineseTL": "Give up your resistance!",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"21": {
+						"event": "Low Health",
+						"media": "low_health",
+						"chinese": "怎么偏偏在这个时候......！",
+						"chineseTL": "Why at this time....!",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"22": {
+						"event": "Affinity (Disappointed)",
+						"media": "affinity_disappointed",
+						"chinese": "我现在不想和你说话。",
+						"chineseTL": "I do not wish to speak with you now.",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"23": {
+						"event": "Affinity (Stranger)",
+						"media": "affinity_stranger",
+						"chinese": "战争中不存在美丽，只有丑陋而残酷的死亡和厮杀...",
+						"chineseTL": "In war there does not exist beauty, there's only ugliness, harshness, death and murder...",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"24": {
+						"event": "Affinity (Friendly)",
+						"media": "affinity_friendly",
+						"chinese": "...当我面无表情保持沉默的时候，并不是在生气，只是单纯的在想事情，或者在想该怎么去表达所想的事情而已。",
+						"chineseTL": "... when I am quiet while expressionless, it is not that I am angry, I am just thinking about things, or I am thinking how to express what I am thinking about.",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"25": {
+						"event": "Affinity (Like)",
+						"media": "affinity_like",
+						"chinese": "最近思绪总会受到些莫名的干扰，想事情的时候，总会冒出某人的脸庞，让人难以冷静下来...",
+						"chineseTL": "Recently my thoughts would get disrupted due to some reason, when I am thinking about things, there's always a certain individual's face that would come to mind, it makes one hard to calm down...",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"26": {
+						"event": "Affinity (Love)",
+						"media": "affinity_love",
+						"chinese": "原本以为，为战争而生的我们，除了战斗之外并无更多存在的价值。不过，与指挥官朝夕相处后的现在，我似乎...能感受到战争之外的生存意义了。",
+						"chineseTL": "I originally thought, that us who were born of war, besides war wouldn't have any other value. But from the days that I spent with the Commander, I seem... to be able to feel the meaning of living aside from war.",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"27": {
+						"event": "Pledge",
+						"media": "pledge",
+						"chinese": "对不起，现在脑袋里只有一片空白。呃...这种时候该说什么好呢...对了！\"对你的忠诚与爱将持续到永远\"，这样如何？",
+						"chineseTL": "I apologize, I have only a blank in my mind, ugh... what should I say at this time... Right! \"My loyalty and love to you will last till eternity\", how about this?",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"28": {
+						"event": "Easter Egg 1 (Lexington)",
+						"media": "easter_egg_1",
+						"chinese": "（埃塞克斯，香格里拉）在埃塞克斯级面前，你们毫无胜算。",
+						"chineseTL": "(Sortie with Essex, Shangri-La) In front of (Fleet) Essex, you have no chance of victory.",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"29": {
+						"event": "Easter Egg 2 (Saratoga)",
+						"media": "easter_egg_2",
+						"chinese": "（埃尔德里奇）彩虹计划？…感觉真不错……",
+						"chineseTL": "(Sortie with Eldridge) Project Rainbow? ... That does feel great...",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					}
+				}
+			}
+		}
+	}
+}

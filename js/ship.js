@@ -221,6 +221,17 @@ function setShipRarityHighlight(rarity){
 		document.getElementById("shipRarityColor8").style = "background:#8cb3b8;height:30px;width:60%;";
 		document.getElementById("shipRarityColor9").style = "background:#8cb3b8;height:30px";
 		document.getElementById("shipRarityColor10").style = "background:#8cb3b8;height:30px";
+	} else if (rarity == "Common" || rarity == "Normal") {
+		document.getElementById("shipRarityColor").style = "background:#737373;height:30px";
+		document.getElementById("shipRarityColor2").style = "background:#737373;height:30px";
+		document.getElementById("shipRarityColor3").style = "background:#737373;height:30px";
+		document.getElementById("shipRarityColor4").style = "background:#737373;height:30px";
+		document.getElementById("shipRarityColor5").style = "background:#737373;height:30px";
+		document.getElementById("shipRarityColor6").style = "background:#737373;height:30px";
+		document.getElementById("shipRarityColor7").style = "background:#737373;height:30px;width:40%;";
+		document.getElementById("shipRarityColor8").style = "background:#737373;height:30px;width:60%;";
+		document.getElementById("shipRarityColor9").style = "background:#737373;height:30px";
+		document.getElementById("shipRarityColor10").style = "background:#737373;height:30px";
 	}
 }	
 
@@ -454,7 +465,7 @@ function setSkillSet(data){
 		text = text + '\
 		<tr>\
 			<td style="text-align:left;padding:10px;white-space: nowrap;">\
-				<img src="'+window.folder+"/Icon/skill"+x+".png"+'">&emsp;'+data.skill[x].name+'\
+				<img src="'+window.folder+"/Icon/skill"+x+".png"+'" style="height: 64px; width: 64px;">&emsp;'+data.skill[x].name+'\
 			</td>\
 			<td style="text-align:left;padding:10px">'+data.skill[x].description+'</td>\
 			<td style="padding:10px;white-space: nowrap;">'+data.skill[x].requirement+'</td>\
