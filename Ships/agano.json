@@ -1,0 +1,603 @@
+{
+	"name": "Agano",
+	"nameJP": "阿賀野",
+	"nameCN": "豼",
+	"class": "Agano",
+	"hull": "Light Cruiser",
+	"prefix": "IJN",
+	"ID": "321",
+	"file_id": "321_Agano",
+	"navy": "Sakura Empire",
+	"initialStar": "★★☆☆☆",
+	"rarity": "Elite",
+	"buildTime": "N/A",
+	"acquisitionMethod": "Drop in 11-2",
+	"enhance": {
+		"firepower": "12",
+		"torpedo": "22",
+		"aviation": "0",
+		"reload": "12"
+	},
+	"scrap": {
+		"gold": "6",
+		"oil": "3",
+		"medal": "4"
+	},
+	"skin": {
+		"1": {
+			"name": "Default",
+			"description": "Agano-class light cruiser 1st ship - Agano",
+			"expression": {
+				"1": {
+					"label": "Default"
+				}
+			}
+		}
+	},
+	"releaseDate": {
+		"JP": "April 19, 2018",
+		"CN": "March 21, 2018",
+		"KR": "",
+		"EN": "March 14, 2019"
+	},
+	"voiceActress": "Haruka Shiraishi",
+	"artist": {
+		"name": "和茶",
+		"weibo": "https://weibo.com/538001251",
+		"twitter": "",
+		"pixiv": "https://www.pixiv.net/member.php?id=3312169",
+		"other": ""
+	},
+	"parameters": {
+		"hp": "C",
+		"antiAir": "B",
+		"evasion": "B",
+		"aviation": "E",
+		"torpedo": "B",
+		"firepower": "C"
+	},
+	"stats": {
+		"100": {
+			"hp": "2791",
+			"armor": "Light",
+			"reload": "146",
+			"firepower": "129",
+			"torpedo": "313",
+			"evasion": "76",
+			"antiAir": "285",
+			"aviation": "0",
+			"cost": "10",
+			"asw": "69",
+			"luck": "21",
+			"speed": "35"
+		},
+		"120": {
+			"hp": "3159",
+			"armor": "Light",
+			"reload": "168",
+			"firepower": "148",
+			"torpedo": "353",
+			"evasion": "104",
+			"antiAir": "323",
+			"aviation": "0",
+			"cost": "10",
+			"asw": "79",
+			"luck": "21",
+			"speed": "35"
+		},
+		"base": {
+			"hp": "540",
+			"armor": "Light",
+			"reload": "62",
+			"firepower": "27",
+			"torpedo": "66",
+			"evasion": "29",
+			"antiAir": "61",
+			"aviation": "0",
+			"cost": "3",
+			"asw": "19",
+			"luck": "21",
+			"speed": "35"
+		},
+		"100retrofit": {
+			"hp": "",
+			"armor": "",
+			"reload": "",
+			"firepower": "",
+			"torpedo": "",
+			"evasion": "",
+			"antiAir": "",
+			"aviation": "",
+			"cost": "",
+			"asw": "",
+			"luck": "",
+			"speed": ""
+		},
+		"120retrofit": {
+			"hp": "",
+			"armor": "",
+			"reload": "",
+			"firepower": "",
+			"torpedo": "",
+			"evasion": "",
+			"antiAir": "",
+			"aviation": "",
+			"cost": "",
+			"asw": "",
+			"luck": "",
+			"speed": ""
+		}
+	},
+	"limitBreak": {
+		"tier1": "Gains Full Barrage I / Main Gun Efficiency +5%",
+		"tier2": "Max Torpedo Capacity +1 / Pre-Loaded Torpedo +1 / Torpedo Efficiency +10%",
+		"tier3": "Upgrades Full Barrage I→II / Torpedo Efficiency +15%"
+	},
+	"equipmentLoadout": {
+		"1": {
+			"type": "CL Gun",
+			"efficiency": "95%/100%/100%/100%",
+			"amount": "1/1/1/1",
+			"preload": "0/0/0/0"
+		},
+		"2": {
+			"type": "Torpedo",
+			"efficiency": "145%/145%/155%/170%",
+			"amount": "1/1/2/2",
+			"preload": "0/0/1/1"
+		},
+		"3": {
+			"type": "Anti-Air Gun",
+			"efficiency": "100%/100%/100%/100%",
+			"amount": "1/1/1/1",
+			"preload": "0/0/0/0"
+		},
+		"4": {
+			"type": "Auxilliary",
+			"efficiency": "-",
+			"amount": "-",
+			"preload": "-"
+		},
+		"5": {
+			"type": "Auxilliary",
+			"efficiency": "-",
+			"amount": "-",
+			"preload": "-"
+		}
+	},
+	"defaultEquipment": {
+		"1": "Twin 152mm (45 caliber Pattern 1892) T1",
+		"2": "-",
+		"3": "610mm Quadruple Torpedo Mount T1"
+	},
+	"skill": {
+		"1": {
+			"name": "Artillery Command - Destroyer",
+			"type": "Support",
+			"requirement": "Default Unlocked",
+			"description": "Increase Firepower of Destroyers in the same fleet by 5% (15%). Does not stack with other command skills that have similar effect."
+		},
+		"2": {
+			"name": "Carrier Protection",
+			"type": "Defensive",
+			"requirement": "Default Unlocked",
+			"description": "When alive in fleet, reduce damage taken by allied CV/L by 5% (15%). Does not stack with the same skill."
+		},
+		"3": {
+			"name": "Full Barrage",
+			"type": "Offensive",
+			"requirement": "Limit Break Rank 1 (I) / Rank 3 (II)",
+			"description": "Every 12 (8) times the main battery is fired, trigger Full Barrage - Agano Class I (II)"
+		}
+	},
+	"build": {
+		"light": {
+			"JP": "-",
+			"CN": "-",
+			"EN": "-"
+		},
+		"heavy": {
+			"JP": "-",
+			"CN": "-",
+			"EN": "-"
+		},
+		"special": {
+			"JP": "-",
+			"CN": "-",
+			"EN": "-"
+		},
+		"limited": {
+			"JP": "-",
+			"CN": "-",
+			"EN": "-"
+		}
+	},
+	"drop": {
+		"droppable": "true",
+		"list": {
+			"1": {
+				"event": "World",
+				"chapter": {
+					"1": {
+						"label": "Ch. 11",
+						"node": {
+							"1": {
+								"drop": "-",
+								"note": ""
+							},
+							"2": {
+								"drop": "✓",
+								"note": ""
+							},
+							"3": {
+								"drop": "-",
+								"note": ""
+							},
+							"4": {
+								"drop": "-",
+								"note": "Boss"
+							}
+						}
+					}
+				}
+			}
+		}
+	},
+	"lines": {
+		"skin": {
+			"1": {
+				"label": "Default",
+				"dialogue": {
+					"1": {
+						"event": "Ship Description",
+						"media": "",
+						"chinese": "阿贺野级轻巡洋舰一番舰——阿贺野",
+						"chineseTL": "Agano-class light cruiser 1st ship - Agano",
+						"chineseNote": "",
+						"japanese": "阿賀野型軽巡洋艦二番艦・阿賀野",
+						"japaneseTL": "Second ship of the Agano Light Cruiser class - Agano",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"2": {
+						"event": "Self Introduction",
+						"media": "self_introduction",
+						"chinese": "我正是阿贺野级的大姐~作为轻巡的性能可是顶尖的哦，不过生不逢时也是事实就是了~总之各方面都请指挥官多多包涵了～",
+						"chineseTL": "I am the Agano-class's elder sister~ My performance as a light cruiser is top notch, though it's true that I was born in the wrong time period~ In short, Commander, please overlook any of my shortcomings~",
+						"chineseNote": "",
+						"japanese": "阿賀野型の長女、阿賀野ですわ～軽巡としての実力は上々、まあ、生まれる時期が少々ズレていますけれど…指揮官様、何卒よろしくお願い致しますわ",
+						"japaneseTL": "I'm Agano, the eldest daughter of the Agano class~ My abilities as a Light Cruiser are top-notch, though well, the time I was born was slightly off... Commander, please take care of me.",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"3": {
+						"event": "Acquisition",
+						"media": "acquisition",
+						"chinese": "阁下就是指挥官？不才豼，从今往后请多指教—呵呵呵……没事，我只是对接下来的生活感到期待而已~",
+						"chineseTL": "Are you the Commander? From now on, the untalented Agano will be in your care. (Giggles)... It's nothing, I'm just looking forward to the life after this~",
+						"chineseNote": "",
+						"japanese": "貴方は指揮官様？阿賀野と申します。よろしくおねがいしますね、うふふ……いいえ、なんでもありません。艦隊勤務、楽しみにしておりますわ",
+						"japaneseTL": "Are you the Commander? I am Agano. Pleased to meet you. (Giggles) ...Sorry, it's nothing. I look forward to serving in the fleet.",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"4": {
+						"event": "Login",
+						"media": "login",
+						"chinese": "指挥官，还不到执勤的时间哦，你是不是搞错啦？",
+						"chineseTL": "Commander, it's too early to be on duty, did you make a mistake?",
+						"chineseNote": "",
+						"japanese": "指揮官様、まだ執務の時間ではありませんの。時間を間違えたのではなくて？",
+						"japaneseTL": "Commander, it's not time to start work yet. Did you get the time wrong?",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"5": {
+						"event": "Details",
+						"media": "details",
+						"chinese": "哎呀，这不是指挥官吗~我正好试做了点心，请来试d……来品尝一下吧",
+						"chineseTL": "Oh my, if it isn't Commander~ I just tried to make some snacks, please try s- ...have a taste.",
+						"chineseNote": "",
+						"japanese": "あら、指揮官様ではありませんか。私、お菓子作っていましたの。ちょっと、どく……試食、お願いできます？",
+						"japaneseTL": "Oh my, if it isn't Commander. I made some sweets. Could I trouble you to pois-... taste-test it?",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"6": {
+						"event": "Idle 1",
+						"media": "idle_1",
+						"chinese": "指挥官，据说工作累了绕着办公室青蛙跳有助于血液循环呢~要不要试试？",
+						"chineseTL": "Commander, I heard that after a tiring day of work, frog jumping around the office will help improve blood circulation~ Want to try it?",
+						"chineseNote": "",
+						"japanese": "指揮官様、お疲れなら執務室の中を蛙跳びで回ってみたらどうです？血行がよくなりますわよ～",
+						"japaneseTL": "Commander, if you're feeling tired, do you want to try playing a game of leapfrog in the office? It's good for your circulation~",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"7": {
+						"event": "Idle 2",
+						"media": "idle_2",
+						"chinese": "虽然不上前线的生活很悠哉，不过太悠哉了也会有点无聊呢......",
+						"chineseTL": "Although life far from the front lines is very leisurely, it gets a little boring...",
+						"chineseNote": "",
+						"japanese": "後方勤務は楽ですけど、長くやり続けると飽きちゃいますわ……",
+						"japaneseTL": "While service support is a cushy job, I'll get sick of doing this for long periods of time...",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"8": {
+						"event": "Idle 3",
+						"media": "idle_3",
+						"chinese": "指挥官，工作是不是有点累了？嗯？我就是问一声，请继续加油~の中の偵察",
+						"chineseTL": "Commander, are you getting tired from working? Hmm? I was just curious, please continue your hard work~",
+						"chineseNote": "",
+						"japanese": "指揮官様、お疲れなのでしょうか？うん？うふふ、聞いていみただけです、サボらないで引き続きがんばって頂戴～",
+						"japaneseTL": "Commander, are you feeling tired? Yes? (Giggles) I'm just asking for the sake of asking, please continue your job instead of slacking~",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"9": {
+						"event": "Touch",
+						"media": "touch",
+						"chinese": "这些文件就交给我——嗯？意外？兴趣和工作我还是会好好分清的哦",
+						"chineseTL": "These documents are for me... Hmm? Accident? I can distinguish between my personal interests and work, you know.",
+						"chineseNote": "",
+						"japanese": "この資料は私に――あら？意外？お仕事と趣味は分けて考える主義ですわよ？",
+						"japaneseTL": "These documents are for me... Hmm? This is unexpected. I don't mix business and pleasure, you know?",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"10": {
+						"event": "Special Touch",
+						"media": "special_touch",
+						"chinese": "指~挥~官~（微笑）",
+						"chineseTL": "Com~ man~ der~ (Smiles)",
+						"chineseNote": "",
+						"japanese": "指揮官様～（ニッコリ）",
+						"japaneseTL": "Commander~ (Grins)",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"11": {
+						"event": "Mission",
+						"media": "mission",
+						"chinese": "新的任务整理好了哦~",
+						"chineseTL": "New missions have been sorted out~",
+						"chineseNote": "",
+						"japanese": "新しい任務の書類、片付けちゃいましたわよ",
+						"japaneseTL": "I have arranged documents regarding the new missions.",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"12": {
+						"event": "Mission Complete",
+						"media": "mission_complete",
+						"chinese": "连任务奖励都要秘书舰提醒的话，可是会一步步变成废人的哟，指挥官？虽然变成那样也挺有趣的就是了，嘻嘻嘻",
+						"chineseTL": "If you still need the secretary ship to remind you about claiming mission rewards, Commander, you may be becoming a useless person, you know? Though that outcome would still be pretty interesting. (Giggles)",
+						"chineseNote": "",
+						"japanese": "指揮官様、報酬の輸送も秘書艦に任せっぱなしではノロマになってしまいますわよ？もっとも、そうなるのも面白そうですけど…うふふ♪",
+						"japaneseTL": "Commander, you'll turn into a dimwit if you leave even the collection of rewards for the secretary ship to do, you know? That said, it might be interesting if you did... (Giggles)♪",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"13": {
+						"event": "Mail",
+						"media": "mail",
+						"chinese": "指挥官的邮件，不会是哪个女孩子送来的情书吧~？嘻嘻",
+						"chineseTL": "Commander's mail, it wouldn't be that one girl sent you a love letter, would it~? He-he.",
+						"chineseNote": "",
+						"japanese": "指揮官様へのお手紙、あの子からの恋文ではなくて？うふふ♪",
+						"japaneseTL": "There's a letter for you, Commander. Could it be a love letter from that girl? (Giggles)♪",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"14": {
+						"event": "Return from Sortie",
+						"media": "return_from_sortie",
+						"chinese": "指挥官，出征辛苦了，来喝一杯热 · 茶吧",
+						"chineseTL": "Commander, you worked hard out there, come rest with a cup of hot tea.",
+						"chineseNote": "",
+						"japanese": "指揮官様、出撃お疲れ様でした。熱いお茶でもいかがですか？",
+						"japaneseTL": "Commander, thanks for your hard work in the sortie. Would you like a hot cup of tea?",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"15": {
+						"event": "Commission Complete",
+						"media": "commission_complete",
+						"chinese": "指挥官，委托组回来了喔？再发呆下去就要错过接她们的时间咯？",
+						"chineseTL": "Commander, did you hear me say that the commission group has returned? If you daydream any longer you'll miss the chance to welcome them back, you know?",
+						"chineseNote": "",
+						"japanese": "指揮官様、委託に出かけた子たちは帰ってきましたわ。これ以上油を売っていたら出迎えを逃してしまいますが…？",
+						"japaneseTL": "Commander, the girls who left for the commissions have returned. If you're going to slack much longer, you'll miss the chance to welcome them back, you know?",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"16": {
+						"event": "Enhancement",
+						"media": "enhancement",
+						"chinese": "顶尖轻巡的实力，请尽管期待吧",
+						"chineseTL": "The strength of a top light cruiser, please look forward to it.",
+						"chineseNote": "",
+						"japanese": "阿賀野型軽巡の実力、ご期待くださいませ",
+						"japaneseTL": "Please look forward to the abilities of the Agano Light Cruiser class.",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"17": {
+						"event": "Sortie Start",
+						"media": "sortie_start",
+						"chinese": "大家一起加油吧~",
+						"chineseTL": "Let's work hard everybody~",
+						"chineseNote": "",
+						"japanese": "一緒にがんばりましょうね",
+						"japaneseTL": "Let's work hard together!",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"18": {
+						"event": "MVP",
+						"media": "mvp",
+						"chinese": "指挥官看到豼的奋斗了吗~？",
+						"chineseTL": "Did Commander see Agano's battle~?",
+						"chineseNote": "",
+						"japanese": "阿賀野の活躍、ご覧になりましたか？",
+						"japaneseTL": "Did you see how well I did?",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"19": {
+						"event": "Defeat",
+						"media": "defeat",
+						"chinese": "大意了呢...看来回去之后要特训了...",
+						"chineseTL": "That was careless... Looks like special training for me when we return...",
+						"chineseNote": "",
+						"japanese": "迂闊でしたわ。……戻ったら特訓です。うふふ",
+						"japaneseTL": "That was stupid. ...I'll have to give some special training on our return. (Giggles)...",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"20": {
+						"event": "Skill Activation",
+						"media": "skill_activation",
+						"chinese": "最新锐之名可不是装饰品哦~",
+						"chineseTL": "The title of 'most cutting-edge' is not just for decoration~",
+						"chineseNote": "",
+						"japanese": "最新鋭は伊達じゃありませんわ~",
+						"japaneseTL": "I am 'state of the art' not just in appearance~",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"21": {
+						"event": "Low Health",
+						"media": "low_health",
+						"chinese": "哎呀呀，这下有点不妙了呢~",
+						"chineseTL": "Oh dear, isn't this a little bad~",
+						"chineseNote": "",
+						"japanese": "あらら、ちょっとオオゴトになっちゃったじゃない",
+						"japaneseTL": "Oh my, this seems to have gotten a little serious, hasn't it?",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"22": {
+						"event": "Affinity (Disappointed)",
+						"media": "affinity_disappointed",
+						"chinese": "抱歉，指挥官你呼出的空气让我有些不快呢~",
+						"chineseTL": "Sorry, Commander, the very air that you expel makes me feel a bit uncomfortable~",
+						"chineseNote": "",
+						"japanese": "指揮官様が同じ空気で呼吸していること自体不快ですわ～",
+						"japaneseTL": "It's unpleasant to even breathe the same air as you, Commander~",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"23": {
+						"event": "Affinity (Stranger)",
+						"media": "affinity_stranger",
+						"chinese": "今天会有什么有趣的事发生呢，真令人期待~",
+						"chineseTL": "I wonder if anything interesting will happen today, I look forward to it~",
+						"chineseNote": "",
+						"japanese": "今日はなにが起きるのかしら…うふふ、楽しみですわ",
+						"japaneseTL": "I wonder what will happen today... (Giggles) I look forward to it.",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"24": {
+						"event": "Affinity (Friendly)",
+						"media": "affinity_friendly",
+						"chinese": "指挥官，来聊聊天吧，我也想知道我的指挥官是个怎么样的人~",
+						"chineseTL": "Commander, come chat for a bit, I also want to know what kind of person Commander is~",
+						"chineseNote": "",
+						"japanese": "指揮官様、雑談でもいかがかしら。ええ、指揮官様はどんな殿方か知りたいですわ",
+						"japaneseTL": "Commander, shall we talk about things aside from work? Indeed, I would like to know more about what kind of man you are.",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"25": {
+						"event": "Affinity (Like)",
+						"media": "affinity_like",
+						"chinese": "我吗？我比较喜欢有趣的事情呢，比如骗的指挥官团团转就很有意思~啊哈哈，对不起对不起~",
+						"chineseTL": "Me? I'm partial to interesting things, like, for example, tricking commander into running around in circles is very interesting~ (Giggles) Sorry, sorry~",
+						"chineseNote": "",
+						"japanese": "私ですか？面白いことが好きなんです。例えば…指揮官様をこうしていじることもぉ…うふふ、今のは御免遊ばせ～",
+						"japaneseTL": "Me? I like interesting things. For example, when I play around with you, Commander... (Giggles) Pardon me for that~",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"26": {
+						"event": "Affinity (Love)",
+						"media": "affinity_love",
+						"chinese": "指挥官你知道吗，有一种人就是越喜欢别人就越会欺负他的类型~你觉得…我是不是呢~？",
+						"chineseTL": "Commander, do you know about that type of person where the more they like someone, the more they tease them~? What do you think... Am I like that~?",
+						"chineseNote": "",
+						"japanese": "好きな人をいじめたくなる人種…指揮官様はご存知で？うふふ、私、そのような子なのかしら～",
+						"japaneseTL": "People who toy around with those they like... Commander, do you know anyone like that? (Giggles) I am that sort of girl, you know~",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"27": {
+						"event": "Pledge",
+						"media": "pledge",
+						"chinese": "指挥官，你喜欢阿贺野吗？愿意永远和我在一起吗？欸，为什么是由我问？就算是我，处于被动的时候也会害羞嘛～",
+						"chineseTL": "Commander, do you like Agano? Are you willing to be with me forever? (Sighs) Why is it up to me to ask? Even if it's me, when I'm in such a passive position, I'll become shy~",
+						"chineseNote": "",
+						"japanese": "指揮官様は阿賀野のことがお好きで？阿賀野とずっと一緒にいたいですか？「…なんで阿賀野が聞いている」ですか？うふふ、いくら私でも、こういう時に主導権を握られては、恥ずかしくもなるのではなくて…？",
+						"japaneseTL": "You like me, Commander? You want to be with me forever? \"...Why are you asking this question \", you say? Even someone like me would get embarrassed when someone takes the initiative in a time like this, you know?",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"28": {
+						"event": "Easter Egg 1 (Nagara)",
+						"media": "easter_egg_1",
+						"chinese": "（长良）想欺负长良的话，得先问过我才行呢～",
+						"chineseTL": "(Sortie with Nagara) If you want to bully Nagara, you will have to get through me first~",
+						"chineseNote": "",
+						"japanese": "(長良と出撃) 長良をいじりたいなら、私に断ってからにしなさいな",
+						"japaneseTL": "(Sortie with Nagara) If you want to toy with Nagara, you'll have to get my permission first.",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"29": {
+						"event": "Valentines 2019",
+						"media": "",
+						"chinese": "指挥官，抱歉呢，我好像忘了你的巧克力……不过，要是你现在回到办公桌打开抽屉的话，说不定会有惊喜哦？嘻嘻",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "指揮官、ごめんなさいね。あなたのためのチョコを執務室に忘れてきちゃったみたいです。どこにかく…あるか探してきてもらえます？ふふふ♪",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					}
+				}
+			}
+		}
+	}
+}

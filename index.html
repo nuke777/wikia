@@ -24,7 +24,6 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
     <!-- Our Custom CSS -->
     <link rel="stylesheet" href="css\mainstyle.css">
-    <link rel="stylesheet" href="css\test.css">
 	<!-- Scrollbar Custom CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.min.css">
 
@@ -32,6 +31,22 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
 
+<style>
+table.wikitablewide {
+    margin: 1em 0;
+    background-color: #373743;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #5c5d70;
+    border-collapse: collapse;
+    color: #ffffff;
+}
+table.wikitablewide td {
+    border-style: solid;
+    border-width: 1px;
+    border-color: #5c5d70;
+}
+</style>
 
 
     <!-- Font Awesome JS -->
@@ -45,6 +60,7 @@
           addFooter();
           addSideBar();
           addHeader();
+          document.getElementById("sbar_news").className = "active";
         };
     </script>
 
@@ -73,6 +89,150 @@
             <!-- Content -->
             <!-- Content -->
 
+            <table class="wikitablewide" style="width:100%">
+                <tr style="text-align:center;background-color:#24252d; font-size: 20px; text-decoration: bold; height: 45px">                
+                    <td style="width: 50%; position: relative;">
+                        <font style="position: absolute; right: 10px; top: 7px; text-shadow: 1px 1px 10px red">JP/CN</font>
+                        Event
+                    </td>
+                    <td style="width: 50%; position: relative;">
+                        <font style="position: absolute; left: 10px; top: 7px; text-shadow: 1px 1px 10px blue">EN</font>
+                        Event
+                    </td>
+                </tr>
+                <tr style="text-align: center;">
+                    <td>
+                        <img src="https://s3.us-east-2.amazonaws.com/alg-wiki.com/Event/world_13.png">
+                        <img src="https://s3.us-east-2.amazonaws.com/alg-wiki.com/Event/cygnet_maid_skin.png">
+                    </td>
+                    <td>
+                        <img src="https://s3.us-east-2.amazonaws.com/alg-wiki.com/Event/moonlit_overture.png">
+                        <img src="https://s3.us-east-2.amazonaws.com/alg-wiki.com/Event/kirishima_ninjutsu_class.png">
+                    </td>
+                </tr>
+                <tr style="text-align:center;background-color:#24252d; font-size: 20px; text-decoration: bold; height: 45px">                
+                    <td style="width: 50%; position: relative;">
+                        <font style="position: absolute; right: 10px; top: 7px; text-shadow: 1px 1px 10px red">JP/CN</font>
+                        Ship
+                    </td>
+                    <td style="width: 50%; position: relative;">
+                        <font style="position: absolute; left: 10px; top: 7px; text-shadow: 1px 1px 10px blue">EN</font>
+                        Ship
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <commented-ship-display ship="dewey" comment="Drop in 13-3" new="true"></commented-ship-display>
+                        <commented-ship-display ship="bunker_hill" comment="Drop in 13-4" new="true"></commented-ship-display>
+                    </td>
+                    <td>
+                        <commented-ship-display ship="agano" comment="Drop 11-2"></commented-ship-display>
+                        <commented-ship-display ship="sendai" comment="Drop 11-3"></commented-ship-display>
+                        <commented-ship-display ship="columbia" comment="Drop 11-4"></commented-ship-display>
+                        <commented-ship-display ship="astoria" comment="3-star SP3"></commented-ship-display>
+                        <commented-ship-display ship="quincy" comment="Login Daily 3 days"></commented-ship-display>
+                        <commented-ship-display ship="vincennes" comment="Complete Event Mission"></commented-ship-display>
+                        <commented-ship-display ship="kirishima" comment="Login once on event duration"></commented-ship-display>
+                    </td>
+                </tr>
+                <tr style="text-align:center;background-color:#24252d; font-size: 20px; text-decoration: bold; height: 45px">                
+                    <td style="width: 50%; position: relative;">
+                        <font style="position: absolute; right: 10px; top: 7px; text-shadow: 1px 1px 10px red">JP/CN</font>
+                        Retrofit
+                    </td>
+                    <td style="width: 50%; position: relative;">
+                       <font style="position: absolute; left: 10px; top: 7px; text-shadow: 1px 1px 10px blue">EN</font>
+                        Retrofit
+                    </td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>
+                        <commented-ship-display ship="sendai" retrofit="true"></commented-ship-display>
+                        <commented-ship-display ship="kamikaze" retrofit="true"></commented-ship-display>
+                        <commented-ship-display ship="mutsuki" retrofit="true"></commented-ship-display>
+                    </td>
+                </tr>
+                <tr style="text-align:center;background-color:#24252d; font-size: 20px; text-decoration: bold; height: 45px">                
+                    <td style="width: 50%; position: relative;">
+                        <font style="position: absolute; right: 10px; top: 7px; text-shadow: 1px 1px 10px red">JP/CN</font>
+                        Skin
+                    </td>
+                    <td style="width: 50%; position: relative;">
+                        <font style="position: absolute; left: 10px; top: 7px; text-shadow: 1px 1px 10px blue">EN</font>
+                        Skin
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <commented-ship-display ship="cygnet" skin="6" skin-bg="true" skin-limited="true" new="true"></commented-ship-display>
+                        <commented-ship-display ship="yuugure" skin="2" skin-bg="true" discount="20% OFF"></commented-ship-display>
+                        <commented-ship-display ship="shiratsuyu" skin="2" skin-bg="true" discount="20% OFF"></commented-ship-display>
+                    </td>
+                    <td>
+                        <commented-ship-display ship="astoria" skin="2" skin-bg="true" skin-limited="true"></commented-ship-display>
+                        <commented-ship-display ship="quincy" skin="2" skin-bg="true" skin-limited="true"></commented-ship-display>
+                        <commented-ship-display ship="vincennes" skin="2" skin-limited="true"></commented-ship-display>
+                        <commented-ship-display ship="kirishima" skin="2" skin-bg="true" skin-limited="true"></commented-ship-display>
+                    </td>
+                </tr>
+                <tr style="text-align:center;background-color:#24252d; font-size: 20px; text-decoration: bold; height: 45px">                
+                    <td style="width: 50%; position: relative;">
+                        <font style="position: absolute; right: 10px; top: 7px; text-shadow: 1px 1px 10px red">JP/CN</font>
+                        Equipment
+                    </td>
+                    <td style="width: 50%; position: relative;">
+                        <font style="position: absolute; left: 10px; top: 7px; text-shadow: 1px 1px 10px blue">EN</font>
+                        Equipment
+                    </td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr style="text-align:center;background-color:#24252d; font-size: 20px; text-decoration: bold; height: 45px">                
+                    <td style="width: 50%; position: relative;">
+                        <font style="position: absolute; right: 10px; top: 7px; text-shadow: 1px 1px 10px red">JP/CN</font>
+                        Furniture
+                    </td>
+                    <td style="width: 50%; position: relative;">
+                        <font style="position: absolute; left: 10px; top: 7px; text-shadow: 1px 1px 10px blue">EN</font>
+                        Furniture
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <img src="https://s3.us-east-2.amazonaws.com/alg-wiki.com/Event/ski_resort.png">
+                    </td>
+                    <td>
+                        <img src="https://s3.us-east-2.amazonaws.com/alg-wiki.com/Event/cat_cafe_dorm.png">
+                    </td>
+                </tr>
+            </table>
+
+             <table class="wikitablewide" style="width:100%">
+                <tr style="text-align:center;background-color:#24252d; font-size: 20px; text-decoration: bold; height: 45px">                
+                    <td style="width: 50%; position: relative;">
+                        JP Twitter
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a class="twitter-timeline" data-height="600" data-theme="dark" data-link-color="#2B7BB9" href="https://twitter.com/azurlane_staff?ref_src=twsrc%5Etfw">Tweets by azurlane_staff</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+                    </td>
+            </table>
+
+            <table class="wikitablewide" style="width:100%">
+                <tr style="text-align:center;background-color:#24252d; font-size: 20px; text-decoration: bold; height: 45px">                
+                    <td style="width: 50%; position: relative;">
+                        EN Twitter
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a class="twitter-timeline" data-height="600" data-theme="dark" data-link-color="#2B7BB9" href="https://twitter.com/AzurLane_EN?ref_src=twsrc%5Etfw">Tweets by AzurLane_EN</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+                    </td>
+            </table>
                         
 
             <!-- Content -->
