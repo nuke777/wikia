@@ -154,9 +154,9 @@ function setShipHullIcon(hull){
 		document.getElementById("shipHullIcon").src = "Images/Hull/bb.png";
 	} else if (hull == "Submarine") {
 		document.getElementById("shipHullIcon").src = "Images/Hull/ss.png";
-		document.getElementById("sub1").style.display = "block";
-		document.getElementById("sub2").style.display = "block";
-		document.getElementById("sub3").style.display = "block";
+		document.getElementById("sub1").style.display = "";
+		document.getElementById("sub2").style.display = "";
+		document.getElementById("sub3").style.display = "";
 	} else if (hull == "Repair Ship") {
 		document.getElementById("shipHullIcon").src = "Images/Hull/ar.png";
 	}
