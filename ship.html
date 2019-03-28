@@ -527,10 +527,97 @@
 					<td style="width:15%;text-align:center" id="shipStatsSpeed"></td>
 				</tr>
 				<tr>
-					<td style="padding-left:5px"><img src="Images/armor_icon.png">&emsp;Armor</td>
-					<td style="text-align:center;padding-left:5px" id="shipStatsArmor"></td>
-					<td style="padding-left:5px"><img>Luck</td>
+					<td style="padding-left:5px">Hit</td>
+					<td style="text-align:center;padding-left:5px" id="shipStatsHit"></td>
+					<td style="padding-left:5px">Luck</td>
 					<td style="text-align:center;padding-left:5px" id="shipStatsLuck"></td>
+				</tr>
+				<tr>
+					<td style="padding-left:5px"><img src="Images/armor_icon.png">&emsp;Armor</td>
+					<td style="text-align:center;padding-left:5px" id="shipStatsArmor" colspan="3"></td>
+				</tr>
+				<tr id="sub1" style="display: none;">
+					<td style="width:35%;padding-left:5px"><img src="Images/oxygen_icon.png">&emsp;Oxygen</td>
+					<td style="width:15%;text-align:center" id="shipStatsOxygen"></td>
+					<td style="width:35%;padding-left:5px"><img src="Images/ammo_icon.png">&emsp;Ammo</td>
+					<td style="width:15%;text-align:center" id="shipStatsAmmo"></td>
+				</tr>
+				<tr id="sub2" style="display: none;">
+					<td colspan="2" style="padding-left:5px">
+						<img src="Images/range_icon.png">&emsp;Hunting Range
+					</td>
+					<td style="width:15%;text-align:center" id="shipStatsRange" colspan="2"></td>
+				</tr>
+				<tr id="sub3" style="display: none;">
+					<td colspan="4" align="center" style="line-height: 180px">
+						<img src="Images/arrow_left.png" style="display: inline-block; line-height: normal; vertical-align: middle; cursor: pointer;">
+						<table class="wikitablewide" style="text-align:left;margin:0 0 0 0; display: inline-block; line-height: normal; vertical-align: middle;">
+							<tr>
+								<td style="height: 25px; width: 25px" id="range_a1"></td>
+								<td style="height: 25px; width: 25px" id="range_b1"></td>
+								<td style="height: 25px; width: 25px" id="range_c1"></td>
+								<td style="height: 25px; width: 25px" id="range_d1"></td>
+								<td style="height: 25px; width: 25px" id="range_e1"></td>
+								<td style="height: 25px; width: 25px" id="range_f1"></td>
+								<td style="height: 25px; width: 25px" id="range_g1"></td>
+							</tr>
+							<tr>
+								<td style="height: 25px; width: 25px" id="range_a2"></td>
+								<td style="height: 25px; width: 25px" id="range_b2"></td>
+								<td style="height: 25px; width: 25px" id="range_c2"></td>
+								<td style="height: 25px; width: 25px" id="range_d2"></td>
+								<td style="height: 25px; width: 25px" id="range_e2"></td>
+								<td style="height: 25px; width: 25px" id="range_f2"></td>
+								<td style="height: 25px; width: 25px" id="range_g2"></td>
+							</tr>
+							<tr>
+								<td style="height: 25px; width: 25px" id="range_a3"></td>
+								<td style="height: 25px; width: 25px" id="range_b3"></td>
+								<td style="height: 25px; width: 25px" id="range_c3"></td>
+								<td style="height: 25px; width: 25px" id="range_d3"></td>
+								<td style="height: 25px; width: 25px" id="range_e3"></td>
+								<td style="height: 25px; width: 25px" id="range_f3"></td>
+								<td style="height: 25px; width: 25px" id="range_g3"></td>
+							</tr>
+							<tr>
+								<td style="height: 25px; width: 25px" id="range_a4"></td>
+								<td style="height: 25px; width: 25px" id="range_b4"></td>
+								<td style="height: 25px; width: 25px" id="range_c4"></td>
+								<td style="height: 25px; width: 25px" id="range_d4"><img src="Images/mark_sub.png" style="width: 25px; height: auto;"></td>
+								<td style="height: 25px; width: 25px" id="range_e4"></td>
+								<td style="height: 25px; width: 25px" id="range_f4"></td>
+								<td style="height: 25px; width: 25px" id="range_g4"></td>
+							</tr>
+							<tr>
+								<td style="height: 25px; width: 25px" id="range_a5"></td>
+								<td style="height: 25px; width: 25px" id="range_b5"></td>
+								<td style="height: 25px; width: 25px" id="range_c5"></td>
+								<td style="height: 25px; width: 25px" id="range_d5"></td>
+								<td style="height: 25px; width: 25px" id="range_e5"></td>
+								<td style="height: 25px; width: 25px" id="range_f5"></td>
+								<td style="height: 25px; width: 25px" id="range_g5"></td>
+							</tr>
+							<tr>
+								<td style="height: 25px; width: 25px" id="range_a6"></td>
+								<td style="height: 25px; width: 25px" id="range_b6"></td>
+								<td style="height: 25px; width: 25px" id="range_c6"></td>
+								<td style="height: 25px; width: 25px" id="range_d6"></td>
+								<td style="height: 25px; width: 25px" id="range_e6"></td>
+								<td style="height: 25px; width: 25px" id="range_f6"></td>
+								<td style="height: 25px; width: 25px" id="range_g6"></td>
+							</tr>
+							<tr>
+								<td style="height: 25px; width: 25px" id="range_a7"></td>
+								<td style="height: 25px; width: 25px" id="range_b7"></td>
+								<td style="height: 25px; width: 25px" id="range_c7"></td>
+								<td style="height: 25px; width: 25px" id="range_d7"></td>
+								<td style="height: 25px; width: 25px" id="range_e7"></td>
+								<td style="height: 25px; width: 25px" id="range_f7"></td>
+								<td style="height: 25px; width: 25px" id="range_g7"></td>
+							</tr>
+						</table>
+						<img src="Images/arrow_right.png" style="display: inline-block; line-height: normal; vertical-align: middle; cursor: pointer;">
+					</td>
 				</tr>
 			</table>
 		</td>
