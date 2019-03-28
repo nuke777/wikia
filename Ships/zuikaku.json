@@ -196,8 +196,8 @@
 			"EN": "-"
 		},
 		"special": {
-			"JP": "-",
-			"CN": "-",
+			"JP": "✓",
+			"CN": "✓",
 			"EN": "-"
 		},
 		"limited": {
@@ -207,13 +207,13 @@
 		}
 	},
 	"drop": {
-		"droppable": "false",
+		"droppable": "true",
 		"list": {
 			"1": {
-				"event": "World",
+				"event": "Visitors Dyed in Red",
 				"chapter": {
 					"1": {
-						"label": "Ch. 3",
+						"label": "B",
 						"node": {
 							"1": {
 								"drop": "-",
@@ -226,9 +226,22 @@
 							"3": {
 								"drop": "✓",
 								"note": ""
-							},
-							"4": {
+							}
+						}
+					},
+					"2": {
+						"label": "D",
+						"node": {
+							"1": {
 								"drop": "-",
+								"note": ""
+							},
+							"2": {
+								"drop": "-",
+								"note": ""
+							},
+							"3": {
+								"drop": "✓",
 								"note": ""
 							}
 						}
