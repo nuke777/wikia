@@ -154,6 +154,9 @@ function setShipHullIcon(hull){
 		document.getElementById("shipHullIcon").src = "Images/Hull/bb.png";
 	} else if (hull == "Submarine") {
 		document.getElementById("shipHullIcon").src = "Images/Hull/ss.png";
+		document.getElementById("sub1").style.display = "block";
+		document.getElementById("sub2").style.display = "block";
+		document.getElementById("sub3").style.display = "block";
 	} else if (hull == "Repair Ship") {
 		document.getElementById("shipHullIcon").src = "Images/Hull/ar.png";
 	}
@@ -416,6 +419,15 @@ function loadActiveStats(stats){
 		document.getElementById("shipStatsArmor").innerHTML = actual_JSON.stats[stats].armor;
 		if (actual_JSON.stats[stats].luck != null){
 			document.getElementById("shipStatsLuck").innerHTML = actual_JSON.stats[stats].luck;
+		}
+		if (actual_JSON.stats[stats].hit != null){
+			document.getElementById("shipStatsHit").innerHTML = actual_JSON.stats[stats].hit;
+		}
+		if (actual_JSON.stats[stats].oxygen != null){
+			document.getElementById("shipStatsOxygen").innerHTML = actual_JSON.stats[stats].oxygen;
+		}
+		if (actual_JSON.stats[stats].ammo != null){
+			document.getElementById("shipStatsAmmo").innerHTML = actual_JSON.stats[stats].ammo;
 		}
 
 	});
