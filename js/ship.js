@@ -757,7 +757,8 @@ function loadShipDialogueElements(skinId){
 			
 					if (actual_JSON.lines.skin[x].dialogue[y].media != ""){
 						text = text + '\
-				<img id="btn_'+skinId+'_'+y+'" onclick="playAudio(\'btn_'+skinId+'_'+y+'\',\'audio_'+skinId+'_'+y+'\')" class="btnAudio" src="Images/sound_off.png">\
+				<a href="'+window.folder+"/Sound/skin"+skinId+"_"+actual_JSON.lines.skin[x].dialogue[y].media+".ogg"+'" onclick="return false;">\
+				<img id="btn_'+skinId+'_'+y+'" onclick="playAudio(\'btn_'+skinId+'_'+y+'\',\'audio_'+skinId+'_'+y+'\')" class="btnAudio" src="Images/sound_off.png"></a>\
 				<audio id="audio_'+skinId+'_'+y+'">\
 				  <source src="'+window.folder+"/Sound/skin"+skinId+"_"+actual_JSON.lines.skin[x].dialogue[y].media+".ogg"+'" type="audio/ogg">\
 				</audio>';
