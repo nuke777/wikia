@@ -19,6 +19,12 @@ class CommentedShipDisplay extends HTMLElement{
 			return this.getAttribute('ship');
 		}
 
+		set ship(value){
+			this.setAttribute('ship', value);			
+			render(this.template(),this.root);
+			this.loadShip();
+		}
+
 		get comment(){
 			return this.getAttribute('comment');
 		}
