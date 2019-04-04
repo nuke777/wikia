@@ -1,0 +1,254 @@
+{
+	"name": "Yuubari",
+	"nameJP": "夕張",
+	"nameCN": "狐",
+	"class": "Yuubari",
+"hull": "Light Cruiser",
+"prefix": "IJN",
+"ID": "179",
+"file_id": "179_Yuubari",
+"navy": "Sakura Empire",
+"initialStar": "★★☆☆☆",
+"rarity": "Elite",
+"buildTime": "01:12:00",
+"acquisitionMethod": "Light Build",
+	"enhance": {
+		"firepower": "10", 
+"torpedo": "17",
+"aviation": "0",
+"reload": "13"
+	},
+	"scrap": {
+		"gold": "6", 
+"oil": "3",
+"medal": "4"
+	},
+	"skin": {
+		"1": {"name": "Default",
+"description": "Light Cruiser Yuubari",
+"expression": {"1": {"label": "Default"
+				}
+			}
+		}
+	},
+	"releaseDate": {
+	"JP": "September 13, 2017", 
+"CN": "June 23, 2017",
+"KR": "March 27, 2018",
+"EN": ""
+	},
+	"voiceActress": "Yui Ogura",
+"artist": {"name": "梦咲枫", 
+"weibo": "http://weibo.com/u/3558369570",
+"twitter": "",
+"pixiv": "https://www.pixiv.net/member.php?id=1023957",
+"other": ""
+	},
+	"parameters": {"hp": "C", 
+"antiAir": "B",
+"evasion": "B",
+"aviation": "E",
+"torpedo": "B",
+"firepower": "C"},
+"stats": {"100": {"hp": "1910",
+"armor": "lIGHT",
+"reload": "159",
+"firepower": "114",
+"torpedo": "241",
+"evasion": "80",
+"antiAir": "270",
+"aviation": "0",
+"cost": "8",
+"asw": "73",
+"luck": "53",
+"hit": "125",
+"speed": "35"},
+"120": {"hp": "35",
+"armor": "Light",
+"reload": "182",
+"firepower": "131",
+"torpedo": "276",
+"evasion": "105",
+"antiAir": "307",
+"aviation": "0",
+"cost": "8",
+"asw": "84",
+"luck": "53",
+"hit": "",
+"speed": "35"},
+"base": {"hp": "369",
+"armor": "Light",
+"reload": "67",
+"firepower": "24",
+"torpedo": "51",
+"evasion": "31",
+"antiAir": "58",
+"aviation": "0",
+"cost": "2",
+"asw": "20",
+"luck": "53",
+"hit": "48",
+"speed": "35"},
+"100retrofit": {"hp": "2177",
+"armor": "Light",
+"reload": "182",
+"firepower": "131",
+"torpedo": "276",
+"evasion": "105",
+"antiAir": "307",
+"aviation": "0",
+"cost": "8",
+"asw": "84",
+"luck": "53",
+"hit": "140",
+"speed": "35"},
+"120retrofit": {"hp": "2342",
+"armor": "Light",
+"reload": "202",
+"firepower": "161",
+"torpedo": "286",
+"evasion": "105",
+"antiAir": "332",
+"aviation": "0",
+"cost": "8",
+"asw": "84",
+"luck": "53",
+"hit": "160",
+"speed": "35"
+		}
+	},
+	"limitBreak": {
+		"tier1": "Gains Full Barrage I / Main Gun Efficiency +5%", 
+"tier2": "Max Torpedo Capacity +1 / Pre-Loaded Torpedo +1 / Torpedo Efficiency +10%",
+"tier3": "Upgrades Full Barrage I→II / Torpedo Efficiency +15%"},
+"equipmentLoadout": {"1": {"type": "CL Gun",
+"efficiency": "110%/110% /110%/110% (125%)",
+"amount": "1/1/1/1",
+"preload": "0/0/0/0"},
+"2": {"type": "Torpedo",
+"efficiency": "135%/135%/145%/160% (165%)",
+"amount": "1/1/2/2",
+"preload": "0/0/1/1"},
+"3": {"type": "Anti-Air Gun",
+"efficiency": "120%/125% /125% /125%",
+"amount": "1/1/1/1",
+"preload": "0/0/0/0"},
+"4": {"type": "Auxilliary",
+"efficiency": "-",
+"amount": "-",
+"preload": "-"},
+"5": {"type": "Auxilliary",
+"efficiency": "-",
+"amount": "-",
+"preload": "-"
+		}
+	},
+	"defaultEquipment": {
+		"1": "Single 140mm (3rd Year Type) T1",
+		"2": "610mm Dual Torpedo Mount T1",
+		"3": ""
+	},
+	"skill": {
+	"1": {"name": "Experimental Cruiser",
+"type": "Support",
+"requirement": "Default Unlocked",
+"description": "After combat, increases experience gained by Light Cruisers and Heavy Cruisers by 5% (15%)"},
+"2": {"name": "Full Firepower",
+"type": "Offensive",
+"requirement": "Default Unlocked",
+"description": "30% (60%) activation every 20s: For 10 seconds, increases own FP by 20% (40%)"},
+"3": {"name": "The Unstable Inventor",
+"type": "Support",
+"requirement": "Retrofit Unlock",
+"description": "Use a random piece of prototype equipment with various effects every 12 seconds: <br>&emsp;★(17%) Prototype Gun Type 0: 6x56dmg HE (Main Gun Efficiency 120%, Armor Modifier 135%/95%/70%)<br>&emsp;★(17%) Prototype Chain Torpedos: 12x32 dmg (Armor Modifier 80%/100%/130%)<br>&emsp;★(14%) Yuubari Fireworks: 1x10 dmg Normal (Armor Modifier 100%/80%/60%)<br>&emsp;★(14%) 18s Endurance: Shield that can take 60 hits<br>&emsp;★(14%) 6s Endurance: Shield that can take 99 hits<br>&emsp;★(14%) Entire fleet recovers 2.4% of Yuubari's Max HP<br>&emsp;★(10%) Band-aid: Unknown effect"},
+"4": {"name": "Full Barrage",
+"type": "Offensive",
+"requirement": "Default Unlocked",
+"description": "Every 12 (8) times the main battery is fired, trigger Full Barrage - Yuubari I (II)"
+		}
+	},
+"build": {"light": {"JP": "✓",
+"CN": "✓",
+"EN": "-"},
+"heavy": {"JP": "-",
+"CN": "-",
+"EN": "-"},
+"special": {"JP": "-",
+"CN": "-",
+"EN": "-"},
+"limited": {"JP": "-",
+"CN": "-",
+"EN": "-"
+		}
+	},
+	"drop": {
+		"droppable": "false",
+		"list": {
+			"1": {
+				"event": "World",
+				"chapter": {
+					"1": {
+						"label": "Ch. 1",
+						"node": {
+							"1": {
+								"drop": "-",
+								"note": ""
+							},
+							"2": {
+								"drop": "-",
+								"note": ""
+							},
+							"3": {
+								"drop": "-",
+								"note": ""
+							},
+							"4": {
+								"drop": "-",
+								"note": ""
+							}
+						}
+					}
+				}
+			}
+		}
+	},
+	"lines": {
+		"skin": {
+			"1": {
+				"label": "Default",
+				"dialogue": {
+					"1": {"event": "Ship Description", "media": "", "chinese": "重樱夕张级轻巡洋舰“夕张”。虽然受到了海军条约的限制，但应用了许多实验性的新设计。在太平洋战争中作为水雷旗舰在各处活跃。怎么，也想尝尝夕张的酸素鱼雷吗？", "chineseTL": "Sakura Empire's Yuubari-class light cruiser, Yuubari. Despite being limited by the Naval Treaty, many new, experimental designs have been applied on me. During the Pacific Wars, I was in active service everywhere as flagship of a torpedo division. What is it, you want to taste Yuubari's oxygen torpedoes?", "chineseNote": "Yuubari was a test bed for various new designs and technologies, which had major impacts on future Japanese warship designs on Heavy Cruisers and later on Destroyers.", "japanese": "重桜夕張型軽巡洋艦夕張だ。", "japaneseTL": "I'm Yuubari, a Sakura Empire Yuubari-class Light Cruiser.", "japaneseNote": "Yuubari was built as an experiment on how much one could fit into as small a tonnage so as to maximize the effectiveness of warships built in compliance with the Washington Treaty. Many new innovations were applied to her design, and she strongly influenced the design of subsequent Japanese heavy cruisers and destroyers.", "english": "", "englishNote": ""},
+"2": {"event": "Self Introduction", "media": "self_introduction", "chinese": "轻巡洋舰“夕张”号，主人好像在哪里见过我？不，不可能，我可没有兄弟姐妹", "chineseTL": "I'm light cruiser Yuubari. --Master has seen me from somewhere before? N- no way, I don't have any siblings.", "chineseNote": "", "japanese": "設計は海軍条約の制限を受けたけど、逆に新しいギミックが数多く応用されたぞ。", "japaneseTL": "A naval treaty imposed limitations on my design, although as a result, many new gimmicks were applied to me.", "japaneseNote": "", "english": "", "englishNote": ""},
+"3": {"event": "Acquisition", "media": "acquisition", "chinese": "有主人在的话，夕张就什么都不怕了", "chineseTL": "If master is here, then Yuubari has nothing to fear.", "chineseNote": "", "japanese": "太平洋戦争では水雷戦隊の旗艦として活躍した。", "japaneseTL": "I served as the flagship of destroyer squadrons during the Pacific War.", "japaneseNote": "", "english": "", "englishNote": ""},
+"4": {"event": "Login", "media": "login", "chinese": "无论是锅炉还是别的什么，夕张可都是最先进的", "chineseTL": "Whether it be the boiler or something else, Yuubari is the most advanced-", "chineseNote": "", "japanese": "むむむ、酸素魚雷、研究しに何本か手に入れたいな…", "japaneseTL": "Mmpf, I wish I could get my hands on some books for my research on oxygen torpedoes…", "japaneseNote": "", "english": "", "englishNote": ""},
+"5": {"event": "Details", "media": "details", "chinese": "呼呼呼……", "chineseTL": "Fuu...fuu...fuu...", "chineseNote": "", "japanese": "私は軽巡洋艦・「夕張」。ご主人はどこかで私と会ったことあるって？むむむ…あ、ありえん…私に姉妹などいないはず…", "japaneseTL": "I'm Yuubari, the light cruiser. Master, you say you've seen me somewhere before? Mmpf… th-that's impossible… I shouldn't have any sisters…", "japaneseNote": "Due to her small size, Yuubari was frequently mistaken for a destroyer, and was reported sighted multiple times.", "english": "", "englishNote": ""},
+"6": {"event": "Idle 1", "media": "idle_1", "chinese": "蜜瓜？好想尝尝是什么味道呢", "chineseTL": "Melon? I want to taste it.", "chineseNote": "", "japanese": "ご主人さえいれば、夕張はもう何も怖くない…！", "japaneseTL": "So long as my Master is here, Yuubari fears nothing…!", "japaneseNote": "", "english": "", "englishNote": ""},
+"7": {"event": "Idle 2", "media": "idle_2", "chinese": "猫鲨？那么恐怖的鱼为什么会被叫做猫呢？", "chineseTL": "Catshark? Why would such a horrifying creature have 'cat' in its name?", "chineseNote": "", "japanese": "カマでも兵装でも、夕張のが一番先進的だぞ（ドヤッ", "japaneseTL": "Be it boilers or armaments, Yuubari's ones are the latest (smug.)", "japaneseNote": "", "english": "", "englishNote": ""},
+"8": {"event": "Idle 3", "media": "idle_3", "chinese": "呜~指挥官的手暖暖的好舒服~", "chineseTL": "Mmm~ Commander's hand is so warm and comfortable~", "chineseNote": "", "japanese": "ふぅ……（昼寝中）", "japaneseTL": "Zzz… (napping)", "japaneseNote": "A reference to Yuubari, Hokkaido, a place famous for the cantaloupe cultivar called 'Yuubari Melon' in Japan.", "english": "", "englishNote": ""},
+"9": {"event": "Touch", "media": "touch", "chinese": "呜~~咬你哦！", "chineseTL": "Mmm~~I'll bite you!", "chineseNote": "She should fix that Yukata a bit~", "japanese": "メロン？すごく食べてみたい…", "japaneseTL": "A melon? I'd really like to taste one…", "japaneseNote": "A reference to the Gato-class submarines, one of which sunk Yuubari. Gato is a Spanish, Portuguese, and Galician word for cat.", "english": "", "englishNote": ""},
+"10": {"event": "Special Touch", "media": "special_touch", "chinese": "主人有点幼稚呢，嘻嘻，不过夕张并不讨厌哦", "chineseTL": "", "chineseNote": "", "japanese": "ガトー、怖い…あんな怖いのにネコの名前とかなくね？", "japaneseTL": "'Gato' sounds scary… Even though it's scary, doesn't it sound sort of like a cat's name?", "japaneseNote": "", "english": "", "englishNote": ""},
+"11": {"event": "Mission", "media": "mission", "chinese": "还有待完成的任务……可惜夕张的研究好像对此派不上用场", "chineseTL": "There's still unfinished tasks......too bad Yuubari's researches cannot be applied here.", "chineseNote": "", "japanese": "ご主人の手、暖かくて気持ちい～", "japaneseTL": "My Master's hand is nice and warm~", "japaneseNote": "", "english": "", "englishNote": ""},
+"12": {"event": "Mission Complete", "media": "mission_complete", "chinese": "主人，任务完成之后，差不多就是午睡时间了吧", "chineseTL": "Master, after completing the task, it's about time to take a nap.", "chineseNote": "", "japanese": "ん…うっ…あぅ～～～もう噛むよ！", "japaneseTL": "Mm… Uuh… Ahhh, I'll bite you!", "japaneseNote": "", "english": "", "englishNote": ""},
+"13": {"event": "Mail", "media": "mail", "chinese": "这封信件看起来有点可疑，主人要不要拆开看看？", "chineseTL": "This mail looks a bit suspicious...is Master going to open it up?", "chineseNote": "", "japanese": "未完了の任務……むむむ、残念ながら夕張、研究の成果は役に立たない模様…", "japaneseTL": "There are unfinished missions… Mmpf, I'm sorry to say this, but the results of Yuubari's research cannot be applied to them.", "japaneseNote": "", "english": "", "englishNote": ""},
+"14": {"event": "Return from Sortie", "media": "return_from_sortie", "chinese": "数据收集完毕，接下来就去改进装备吧", "chineseTL": "Data collection completed, let's go improve the equipment next.", "chineseNote": "", "japanese": "ご主人、任務完了したら、そろそろ昼寝の時間かな？", "japaneseTL": "Master, once the missions are complete, wouldn't it be about time for a nap?", "japaneseNote": "", "english": "", "englishNote": ""},
+"15": {"event": "Commission Complete", "media": "commission_complete", "chinese": "委托完成了！唔，不知道有没有带礼物回来呀", "chineseTL": "Commission completed! Mmm, I wonder if any gifts got brought back.", "chineseNote": "", "japanese": "むむむ、怪しいメール…ご主人～開けてみてよ～", "japaneseTL": "Mmpf, a suspicious mail… Master~ Open it up~", "japaneseNote": "", "english": "", "englishNote": ""},
+"16": {"event": "Enhancement", "media": "enhancement", "chinese": "空间有点太紧凑了~", "chineseTL": "The space is getting bit tight~", "chineseNote": "", "japanese": "データ収集完了。次は装備のカイゼンね", "japaneseTL": "Data collection complete. Next up would be equipment improvement.", "japaneseNote": "", "english": "", "englishNote": ""},
+"17": {"event": "Sortie Start", "media": "sortie_start", "chinese": "新型武装实战测试——开始！", "chineseTL": "Real combat test of new type armaments —— start!", "chineseNote": "", "japanese": "委託完了だ！むむむ、お土産あるかな…", "japaneseTL": "The commission is complete! Mmpf, I wonder if they brought any souvenirs…", "japaneseNote": "", "english": "", "englishNote": ""},
+"18": {"event": "MVP", "media": "mvp", "chinese": "这样主人也能稍微认识到更新装备的重要性了吧", "chineseTL": "With this, master understands a bit more of the importance of equipment upgrades.", "chineseNote": "", "japanese": "むむむ、詰め込みすぎたかも…", "japaneseTL": "Mmpf, I may have tried to fit too much in…", "japaneseNote": "", "english": "", "englishNote": ""},
+"19": {"event": "Defeat", "media": "defeat", "chinese": "呜哇……等有了更好的装备后，就不会再输了！", "chineseTL": "Wuah......after I get better equipment, I will not lose again!", "chineseNote": "", "japanese": "新型兵装実戦テストーー始めっ！", "japaneseTL": "Live combat testing for new armament… Begin!", "japaneseNote": "", "english": "", "englishNote": ""},
+"20": {"event": "Skill Activation", "media": "skill_activation", "chinese": "尝尝最新武器的威力吧！", "chineseTL": "Taste the power of the latest weapons!", "chineseNote": "", "japanese": "これでご主人も装備更新の大切さが少しわかったかな。", "japaneseTL": "Does Master now know a little more about the importance of improving your equipment?", "japaneseNote": "", "english": "", "englishNote": ""},
+"21": {"event": "Low Health", "media": "low_health", "chinese": "呜……不过，武器没事就好", "chineseTL": "Wuu......but it's fine as long as the weapons are undamaged.", "chineseNote": "", "japanese": "はわわ！……新しい装備ができたら二度と負けないぞ！", "japaneseTL": "Hawawa! …Once I get new equipment I won't lose to you again!", "japaneseNote": "", "english": "", "englishNote": ""},
+"22": {"event": "Affinity (Disappointed)", "media": "affinity_disappointed", "chinese": "主人，能请你不要靠近夕张吗？", "chineseTL": "Master, can you not get close to Yuubari?", "chineseNote": "", "japanese": "新兵器の力を喰らえ！", "japaneseTL": "Taste the power of my new weapons!", "japaneseNote": "", "english": "", "englishNote": ""},
+"23": {"event": "Affinity (Stranger)", "media": "affinity_stranger", "chinese": "主人，眼睛盯着夕张是在想什么呢？嘻嘻，夕张的感觉可是很敏锐的哦~", "chineseTL": "Master, what are you thinking of while staring at Yuubari? Hehe, my senses are very sharp.", "chineseNote": "", "japanese": "うぅ……兵装が無事ならいいけど…", "japaneseTL": "Uuh… As long as the armaments aren't damaged…", "japaneseNote": "", "english": "", "englishNote": ""},
+"24": {"event": "Affinity (Friendly)", "media": "affinity_friendly", "chinese": "比起出征夕张更喜欢呆在港口，这里才是夕张的家呢。有碧蓝的海面和温暖的太阳……呜…呼呼…", "chineseTL": "Rather than heading out, Yuubari likes to stay at the dorkyard more, because this is Yuubari's home. Great blue sea and the warm sun......mmm...fuu...fuu...", "chineseNote": "", "japanese": "ご主人、夕張には近寄らないでもらえる？", "japaneseTL": "Master, can you please not come close to Yuubari?", "japaneseNote": "", "english": "", "englishNote": ""},
+"25": {"event": "Affinity (Like)", "media": "affinity_like", "chinese": "主人喜欢什么样的女孩子呢？夕张先说？夕张喜欢像主人这样的人哦", "chineseTL": "What type of girl does the Master like? You want me to say it first? Yuubari likes someone like the Master the most.", "chineseNote": "", "japanese": "ご主人、夕張をじっと見つめて何を考えてるの？ふふふ、夕張はこういうのに結構鋭いぞ～", "japaneseTL": "Master, what's on your mind while you stare at Yuubari? Hehehe, Yuubari is quite perceptive of these things~", "japaneseNote": "", "english": "", "englishNote": ""},
+"26": {"event": "Affinity (Love)", "media": "affinity_love", "chinese": "主人，你也想来午睡吗？这是夕张最喜欢的枕头，枕着的话是不是就能梦到夕张的梦了呢？如果那样的话……嘻嘻！", "chineseTL": "Master, do you want to take a nap as well? This is Yuubari's favorite pillow; would you dream about Yuubari if you use it? In that case......hehe!", "chineseNote": "", "japanese": "夕張、出撃よりやっぱり母港にいるほうがいいなあ。ここぞ夕張のお家。青き海に眩しくて暖かい太陽･･････うぅ･･･ふむむ･･････Zzzzz", "japaneseTL": "Yuubari prefers to stay in port rather than sortie after all. This is Yuubari's home. The blue ocean and the warm golden sun… Auh… Mmmf… Zzzzz.", "japaneseNote": "", "english": "", "englishNote": ""},
+"27": {"event": "Pledge", "media": "pledge", "chinese": "以后每个早上，主人睁开眼第一个看到的都会是夕张呢，嘻嘻！", "chineseTL": "From now on, the first thing that Master sees every morning while opening his eyes would be Yuubari, hehe!", "chineseNote": "", "japanese": "ご主人はどんな娘がタイプかな？夕張かな？夕張は、ご主人のような人が好きだよ～", "japaneseTL": "What type of girl does Master fancy? A girl like Yuubari perhaps? Yuubari likes people like you, Master~", "japaneseNote": "", "english": "", "englishNote": ""},
+"28": {"event": "", "media": "easter_egg_1", "chinese": "", "chineseTL": "", "chineseNote": "", "japanese": "", "japaneseTL": "", "japaneseNote": "", "english": "", "englishNote": ""},
+"29": {"event": "", "media": "easter_egg_2", "chinese": "", "chineseTL": "", "chineseNote": "", "japanese": "", "japaneseTL": "", "japaneseNote": "", "english": "", "englishNote": ""
+					}
+				}
+			}
+		}
+	}
+}
