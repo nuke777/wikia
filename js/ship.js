@@ -126,6 +126,7 @@ function init() {
 		setShipNavyIcon(actual_JSON.navy);
 		setShipSkinNav(actual_JSON);
 		setDefaultEquipment(actual_JSON);
+		setSubRange(actual_JSON);
 		setSkillSet(actual_JSON);
 		setShipDropEventSelection(actual_JSON);
 		setDialogueSkinNav(actual_JSON);
@@ -154,6 +155,9 @@ function setShipHullIcon(hull){
 		document.getElementById("shipHullIcon").src = "Images/Hull/bb.png";
 	} else if (hull == "Submarine") {
 		document.getElementById("shipHullIcon").src = "Images/Hull/ss.png";
+		document.getElementById("sub1").style.display = "";
+		document.getElementById("sub2").style.display = "";
+		document.getElementById("sub3").style.display = "";
 	} else if (hull == "Repair Ship") {
 		document.getElementById("shipHullIcon").src = "Images/Hull/ar.png";
 	}
@@ -234,6 +238,94 @@ function setShipRarityHighlight(rarity){
 		document.getElementById("shipRarityColor10").style = "background:#737373;height:30px";
 	}
 }	
+
+function setSubRange(data){
+	if (data.huntingRange == null){
+		return;
+	}
+	var text = "";
+	for (var x in data.huntingRange){
+		text += '\
+		<table class="wikitablewide" style="text-align:left;margin:0 0 0 0; display: inline-block">\
+			<tr>\
+				<td colspan="7" style="background:#24252d;height:30px;text-align:center">\
+					<b>\
+						<font style="vertical-align: inherit;">Lv. '+x+'</font>\
+					</b>\
+				</td>\
+			<tr>\
+				<td style="height: 25px; width: 25px" id="'+x+'_a1"></td>\
+				<td style="height: 25px; width: 25px" id="'+x+'_b1"></td>\
+				<td style="height: 25px; width: 25px" id="'+x+'_c1"></td>\
+				<td style="height: 25px; width: 25px" id="'+x+'_d1"></td>\
+				<td style="height: 25px; width: 25px" id="'+x+'_e1"></td>\
+				<td style="height: 25px; width: 25px" id="'+x+'_f1"></td>\
+				<td style="height: 25px; width: 25px" id="'+x+'_g1"></td>\
+			</tr>\
+			<tr>\
+				<td style="height: 25px; width: 25px" id="'+x+'_a2"></td>\
+				<td style="height: 25px; width: 25px" id="'+x+'_b2"></td>\
+				<td style="height: 25px; width: 25px" id="'+x+'_c2"></td>\
+				<td style="height: 25px; width: 25px" id="'+x+'_d2"></td>\
+				<td style="height: 25px; width: 25px" id="'+x+'_e2"></td>\
+				<td style="height: 25px; width: 25px" id="'+x+'_f2"></td>\
+				<td style="height: 25px; width: 25px" id="'+x+'_g2"></td>\
+			</tr>\
+			<tr>\
+				<td style="height: 25px; width: 25px" id="'+x+'_a3"></td>\
+				<td style="height: 25px; width: 25px" id="'+x+'_b3"></td>\
+				<td style="height: 25px; width: 25px" id="'+x+'_c3"></td>\
+				<td style="height: 25px; width: 25px" id="'+x+'_d3"></td>\
+				<td style="height: 25px; width: 25px" id="'+x+'_e3"></td>\
+				<td style="height: 25px; width: 25px" id="'+x+'_f3"></td>\
+				<td style="height: 25px; width: 25px" id="'+x+'_g3"></td>\
+			</tr>\
+			<tr>\
+				<td style="height: 25px; width: 25px" id="'+x+'_a4"></td>\
+				<td style="height: 25px; width: 25px" id="'+x+'_b4"></td>\
+				<td style="height: 25px; width: 25px" id="'+x+'_c4"></td>\
+				<td style="height: 25px; width: 25px" id="'+x+'_d4"><img src="Images/mark_sub.png" style="width: 23px; height: auto;"></td>\
+				<td style="height: 25px; width: 25px" id="'+x+'_e4"></td>\
+				<td style="height: 25px; width: 25px" id="'+x+'_f4"></td>\
+				<td style="height: 25px; width: 25px" id="'+x+'_g4"></td>\
+			</tr>\
+			<tr>\
+				<td style="height: 25px; width: 25px" id="'+x+'_a5"></td>\
+				<td style="height: 25px; width: 25px" id="'+x+'_b5"></td>\
+				<td style="height: 25px; width: 25px" id="'+x+'_c5"></td>\
+				<td style="height: 25px; width: 25px" id="'+x+'_d5"></td>\
+				<td style="height: 25px; width: 25px" id="'+x+'_e5"></td>\
+				<td style="height: 25px; width: 25px" id="'+x+'_f5"></td>\
+				<td style="height: 25px; width: 25px" id="'+x+'_g5"></td>\
+			</tr>\
+			<tr>\
+				<td style="height: 25px; width: 25px" id="'+x+'_a6"></td>\
+				<td style="height: 25px; width: 25px" id="'+x+'_b6"></td>\
+				<td style="height: 25px; width: 25px" id="'+x+'_c6"></td>\
+				<td style="height: 25px; width: 25px" id="'+x+'_d6"></td>\
+				<td style="height: 25px; width: 25px" id="'+x+'_e6"></td>\
+				<td style="height: 25px; width: 25px" id="'+x+'_f6"></td>\
+				<td style="height: 25px; width: 25px" id="'+x+'_g6"></td>\
+			</tr>\
+			<tr>\
+				<td style="height: 25px; width: 25px" id="'+x+'_a7"></td>\
+				<td style="height: 25px; width: 25px" id="'+x+'_b7"></td>\
+				<td style="height: 25px; width: 25px" id="'+x+'_c7"></td>\
+				<td style="height: 25px; width: 25px" id="'+x+'_d7"></td>\
+				<td style="height: 25px; width: 25px" id="'+x+'_e7"></td>\
+				<td style="height: 25px; width: 25px" id="'+x+'_f7"></td>\
+				<td style="height: 25px; width: 25px" id="'+x+'_g7"></td>\
+			</tr>\
+		</table>';
+	}
+	document.getElementById("subRange").innerHTML = text;
+	for (var x in data.huntingRange){
+		var params = data.huntingRange[x].split(",");
+		for (var i = 0; i < params.length; ++i){
+			document.getElementById(x+'_'+params[i]).style.backgroundColor = "rgba(135,32,28,0.3)";
+		}
+	}
+}
 
 function setShipSkinNav(data){
 	var firstIteration = true;
@@ -416,6 +508,15 @@ function loadActiveStats(stats){
 		document.getElementById("shipStatsArmor").innerHTML = actual_JSON.stats[stats].armor;
 		if (actual_JSON.stats[stats].luck != null){
 			document.getElementById("shipStatsLuck").innerHTML = actual_JSON.stats[stats].luck;
+		}
+		if (actual_JSON.stats[stats].hit != null){
+			document.getElementById("shipStatsHit").innerHTML = actual_JSON.stats[stats].hit;
+		}
+		if (actual_JSON.stats[stats].oxygen != null){
+			document.getElementById("shipStatsOxygen").innerHTML = actual_JSON.stats[stats].oxygen;
+		}
+		if (actual_JSON.stats[stats].ammo != null){
+			document.getElementById("shipStatsAmmo").innerHTML = actual_JSON.stats[stats].ammo;
 		}
 
 	});
@@ -656,7 +757,8 @@ function loadShipDialogueElements(skinId){
 			
 					if (actual_JSON.lines.skin[x].dialogue[y].media != ""){
 						text = text + '\
-				<img id="btn_'+skinId+'_'+y+'" onclick="playAudio(\'btn_'+skinId+'_'+y+'\',\'audio_'+skinId+'_'+y+'\')" class="btnAudio" src="Images/sound_off.png">\
+				<a href="'+window.folder+"/Sound/skin"+skinId+"_"+actual_JSON.lines.skin[x].dialogue[y].media+".ogg"+'" onclick="return false;">\
+				<img id="btn_'+skinId+'_'+y+'" onclick="playAudio(\'btn_'+skinId+'_'+y+'\',\'audio_'+skinId+'_'+y+'\')" class="btnAudio" src="Images/sound_off.png"></a>\
 				<audio id="audio_'+skinId+'_'+y+'">\
 				  <source src="'+window.folder+"/Sound/skin"+skinId+"_"+actual_JSON.lines.skin[x].dialogue[y].media+".ogg"+'" type="audio/ogg">\
 				</audio>';

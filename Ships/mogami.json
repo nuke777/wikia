@@ -1,0 +1,863 @@
+{
+	"name": "Mogami",
+	"nameJP": "最上",
+	"nameCN": "猨",
+	"class": "Mogami",
+	"hull": "Light Cruiser",
+	"prefix": "IJN",
+	"ID": "188",
+	"file_id": "188_Mogami",
+	"navy": "Sakura Empire",
+	"initialStar": "★★☆☆☆",
+	"rarity": "Elite",
+	"buildTime": "01:48:00",
+	"acquisitionMethod": "Construction in Visitors Dyed in Red Rerun",
+	"enhance": {
+		"firepower": "21",
+		"torpedo": "11",
+		"aviation": "0",
+		"reload": "13"
+	},
+	"scrap": {
+		"gold": "6",
+		"oil": "3",
+		"medal": "4"
+	},
+	"skin": {
+		"1": {
+			"name": "Default",
+			"description": "Mogami-class heavy cruiser 1st ship - Mogami",
+			"expression": {
+				"1": {
+					"label": "Default"
+				}
+			}
+		},
+		"2": {
+			"name": "Retrofit",
+			"description": "Mogami-class heavy cruiser 1st ship - Mogami",
+			"expression": {
+				"1": {
+					"label": "Default"
+				}
+			}
+		}
+	},
+	"releaseDate": {
+		"JP": "March 27, 2018",
+		"CN": "March 29, 2018",
+		"KR": "",
+		"EN": "March 21, 2019"
+	},
+	"voiceActress": "Shizuka Itou",
+	"artist": {
+		"name": "realmbw",
+		"weibo": "https://weibo.com/realmbw",
+		"twitter": "https://twitter.com/realmbw",
+		"pixiv": "https://www.pixiv.net/member.php?id=529070",
+		"other": ""
+	},
+	"parameters": {
+		"hp": "A",
+		"antiAir": "C",
+		"evasion": "D",
+		"aviation": "E",
+		"torpedo": "C",
+		"firepower": "B/A"
+	},
+	"stats": {
+		"100": {
+			"hp": "3547",
+			"armor": "Medium",
+			"reload": "164",
+			"firepower": "175",
+			"torpedo": "161",
+			"evasion": "36",
+			"antiAir": "162",
+			"aviation": "0",
+			"cost": "11",
+			"asw": "39",
+			"luck": "14",
+			"speed": "29"
+		},
+		"120": {
+			"hp": "4015",
+			"armor": "Medium",
+			"reload": "189",
+			"firepower": "201",
+			"torpedo": "185",
+			"evasion": "82",
+			"antiAir": "186",
+			"aviation": "0",
+			"cost": "11",
+			"asw": "45",
+			"luck": "14",
+			"speed": "29"
+		},
+		"base": {
+			"hp": "686",
+			"armor": "Medium",
+			"reload": "69",
+			"firepower": "37",
+			"torpedo": "34",
+			"evasion": "14",
+			"antiAir": "35",
+			"aviation": "0",
+			"cost": "3",
+			"asw": "11",
+			"luck": "14",
+			"speed": "29"
+		},
+		"100retrofit": {
+			"hp": "4141",
+			"armor": "Medium",
+			"reload": "164",
+			"firepower": "234",
+			"torpedo": "177",
+			"evasion": "36",
+			"antiAir": "208",
+			"aviation": "0",
+			"cost": "11",
+			"asw": "39",
+			"luck": "14",
+			"speed": "29"
+		},
+		"120retrofit": {
+			"hp": "4623",
+			"armor": "Medium",
+			"reload": "188",
+			"firepower": "264",
+			"torpedo": "202",
+			"evasion": "82",
+			"antiAir": "233",
+			"aviation": "0",
+			"cost": "11",
+			"asw": "45",
+			"luck": "14",
+			"speed": "29"
+		}
+	},
+	"limitBreak": {
+		"tier1": "Gains Full Barrage I / Torpedo Efficiency +5%",
+		"tier2": "Max Torpedo Capacity +1 / Pre-Loaded Torpedo +1 / Main Gun Efficiency +10%",
+		"tier3": "Upgrades Full Barrage I→II / Torpedo Efficiency +15%"
+	},
+	"equipmentLoadout": {
+		"1": {
+			"type": "CL/CA Gun",
+			"efficiency": "100%/100%(105%)/110%(115%)/110%(125%)",
+			"amount": "1/1/1/1(2)",
+			"preload": "0/0/0/0"
+		},
+		"2": {
+			"type": "Torpedo",
+			"efficiency": "140%/145%/145%/160%",
+			"amount": "1/1/2/2(1)",
+			"preload": "0/0/1/1"
+		},
+		"3": {
+			"type": "Anti-Air Gun",
+			"efficiency": "100%/100%/100%(105%)/100%(105%)",
+			"amount": "1/1/1/1",
+			"preload": "0/0/0/0"
+		},
+		"4": {
+			"type": "Auxilliary",
+			"efficiency": "-",
+			"amount": "-",
+			"preload": "-"
+		},
+		"5": {
+			"type": "Auxilliary",
+			"efficiency": "-",
+			"amount": "-",
+			"preload": "-"
+		}
+	},
+	"defaultEquipment": {
+		"1": "Triple 155mm (3rd Year Type) T1",
+		"2": "610mm Triple Torpedo Mount T1",
+		"3": "-"
+	},
+	"skill": {
+		"1": {
+			"name": "Full Firepower",
+			"type": "Offensive",
+			"requirement": "Default Unlocked",
+			"description": "30% (60%) activation every 20s: For 10 seconds, increases own FP by 20% (40%)."
+		},
+		"2": {
+			"name": "AP Protection",
+			"type": "Defensive",
+			"requirement": "Default Unlocked",
+			"description": "Reduces AP damage taken by self by 10% (20%)."
+		},
+		"3": {
+			"name": "Suppression Fire",
+			"type": "Offensive",
+			"requirement": "Retrofit",
+			"description": "Whenever own torpedoes hit 5 times, increase own firepower by 3.5% (8%). Can be stacked up to 3 times."
+		},
+		"4": {
+			"name": "Full Barrage",
+			"type": "Offensive",
+			"requirement": "Full Barrage",
+			"description": "Every 12 (8) times the main battery is fired, trigger Full Barrage - Mogami I (II) (Kai after retrofit)."
+		}
+	},
+	"build": {
+		"light": {
+			"JP": "-",
+			"CN": "-",
+			"EN": "-"
+		},
+		"heavy": {
+			"JP": "-",
+			"CN": "-",
+			"EN": "-"
+		},
+		"special": {
+			"JP": "-",
+			"CN": "-",
+			"EN": "-"
+		},
+		"limited": {
+			"JP": "✓",
+			"CN": "✓",
+			"EN": "✓"
+		}
+	},
+	"drop": {
+		"droppable": "false",
+		"list": {
+			"1": {
+				"event": "World",
+				"chapter": {
+					"1": {
+						"label": "Ch. 3",
+						"node": {
+							"1": {
+								"drop": "-",
+								"note": ""
+							},
+							"2": {
+								"drop": "-",
+								"note": ""
+							},
+							"3": {
+								"drop": "✓",
+								"note": ""
+							},
+							"4": {
+								"drop": "-",
+								"note": ""
+							}
+						}
+					}
+				}
+			}
+		}
+	},
+	"lines": {
+		"skin": {
+			"1": {
+				"label": "Default",
+				"dialogue": {
+					"1": {
+						"event": "Ship Description",
+						"media": "",
+						"chinese": "最上型重巡洋舰一番舰・最上",
+						"chineseTL": "Mogami-class heavy cruiser 1st ship・Mogami",
+						"chineseNote": "",
+						"japanese": "最上型重巡洋艦一番艦・最上",
+						"japaneseTL": "Mogami-Class Heavy Cruiser Number One - Mogami",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"2": {
+						"event": "Self Introduction",
+						"media": "self_introduction",
+						"chinese": "我是最上级的命名舰最上……话是这么说，在中途岛和莱特湾把三隈和那智害成那样，一点也没有当命名舰的资格就是了，虽然撞了那智之后我自己也……总之，工作交给我是没关系，不要太抱期望比较好",
+						"chineseTL": "I am Mogami-class eponymous ship Mogami.... That's what I would say, but after the way I hurt Mikuma and Nachi on the way from Midway Island to Leyte Gulf, I don't have the right to call myself that. Even though after crashing into Nachi, I myself also.... Anyway, there's no problem with giving me work, but it's better if you don't expect too much.",
+						"chineseNote": "",
+						"japanese": "最上型のネームシップ最上よ。……といっても、ミッドウェイで三隈と那智をあんな感じにしちゃって、もうネームシップ失格ね、私。まああの後も……とにかく、私に仕事を任せてもいいけど、あまり期待しないでね",
+						"japaneseTL": "I'm Mogami, the name ship of the Mogami class… is what I would say, but after what happened in Midway to Mikuma and Nachi, I'm not qualified to be a name ship anymore. And then even after that… Whatever, you can send work my way if you want, but please don't expect much.",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"3": {
+						"event": "Acquisition",
+						"media": "acquisition",
+						"chinese": "最上，报道……不用太在意我，放我一个人随便地找个地方呆着就好",
+						"chineseTL": "Mogami, reporting in... Don't mind me, just put me anywhere you want.",
+						"chineseNote": "",
+						"japanese": "最上、着任したよ。……私のことはどうでもいいから、どっかにほっとけばいいわよ",
+						"japaneseTL": "Mogami, reporting in. You don't need to care about me, you can just put me somewhere and ignore me.",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"4": {
+						"event": "Login",
+						"media": "login",
+						"chinese": "欢迎回来。嗯？再热情一点？那还真是抱歉",
+						"chineseTL": "Welcome back. Hmm? With more passion? Sorry about that.",
+						"chineseNote": "",
+						"japanese": "おかえり。うん？もっと親切にできないかって？そりゃごめんね",
+						"japaneseTL": "Welcome back. Hm? Can't I give you a friendlier greeting? Sorry 'bout that.",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"5": {
+						"event": "Details",
+						"media": "details",
+						"chinese": "不说话的时候看起来有点酷？……大概也只有你会这么想了吧",
+						"chineseTL": "When not speaking, I look kind of cool?.... You're probably the only one that thinks that.",
+						"chineseNote": "",
+						"japanese": "黙っていればクールに見える？……そう思うのはあんただけでしょうね",
+						"japaneseTL": "I look cool when I don't say anything? You're probably the only one who thinks that.",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"6": {
+						"event": "Idle 1",
+						"media": "idle_1",
+						"chinese": "三隈现在不知道在干什么……不过她跟我不一样，应该不需要担心吧",
+						"chineseTL": "I wonder what Mikuma's doing right now.... Though she's different from me, so I shouldn't have to worry.",
+						"chineseNote": "",
+						"japanese": "三隈、今なにしてるかな……ま、私と違ってあの子なら心配いらないよね",
+						"japaneseTL": "I wonder what Mikuma's up to right now… Oh well, there's no need to worry about her, unlike me.",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"7": {
+						"event": "Idle 2",
+						"media": "idle_2",
+						"chinese": "选我做秘书真的好吗，还有其他比我好得多的人选吧？我是认真的，可不是想逃避工作",
+						"chineseTL": "Is picking me to be secretary okay, there should be lots of better candidates for the job? I'm serious, not because I'm trying to escape from this job.",
+						"chineseNote": "",
+						"japanese": "私を秘書艦にしていいの？もっと適任な子がいるでしょ？…別に、逃げるつもりはないけど",
+						"japaneseTL": "Are you really okay having me as your secretary? Surely there's gotta be someone more qualified than me? No, I'm not just trying to get away.",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"8": {
+						"event": "Idle 3",
+						"media": "idle_3",
+						"chinese": "我要不要也学一学那智，私下学习怎样才能阳光一点什么的……啊，糟了，说漏嘴了……",
+						"chineseTL": "Should I learn from Nachi, privately learn to be a bit more sunny or whatever... ah, oops, I said that out loud....",
+						"chineseNote": "",
+						"japanese": "こっそり那智に見習って明るくなってみようかな……しまった、口に出しちゃった……",
+						"japaneseTL": "Maybe I should secretly copy Nachi and try to be more positive… Oh crap, I said that out loud…",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"9": {
+						"event": "Touch",
+						"media": "touch",
+						"chinese": "不用你提醒我也会好好工作的",
+						"chineseTL": "Even without your reminder, I will properly do my job.",
+						"chineseNote": "",
+						"japanese": "言われなくても仕事はちゃんとするよ",
+						"japaneseTL": "You don't need to tell me, I'll do my job.",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"10": {
+						"event": "Special Touch",
+						"media": "special_touch",
+						"chinese": "噫？！！！指、指挥官对我这样的人也有兴趣吗…",
+						"chineseTL": "Ehhh?!!! C-Commander is interested in someone like me....",
+						"chineseNote": "",
+						"japanese": "きゃっ！？し、指揮官は私のような子にも興味あるの…？",
+						"japaneseTL": "Kyah!? E-even a girl like me can pique the Commander's interest…?",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"11": {
+						"event": "Mission",
+						"media": "mission",
+						"chinese": "任务已经整理好了……这点程度我还是不会出错的，大概",
+						"chineseTL": "Missions have been sorted out.... even I couldn't have messed that up, probably.",
+						"chineseNote": "",
+						"japanese": "任務の資料は片付けておいた。……これぐらいは間違えないよ。多分",
+						"japaneseTL": "I've sorted out the mission rewards. Not even I could screw that up. Probably.",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"12": {
+						"event": "Mission Complete",
+						"media": "mission_complete",
+						"chinese": "任务奖励的话，我去拿吧，你继续工作就好",
+						"chineseTL": "About the mission rewards, I'll go get them, you can continue doing your work.",
+						"chineseNote": "",
+						"japanese": "任務報酬なら私が取ってくる。指揮官はそのまま仕事してて",
+						"japaneseTL": "I'll go get the mission rewards. Just stay here and keep doing your work.",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"13": {
+						"event": "Mail",
+						"media": "mail",
+						"chinese": "新邮件我取来了，放在这里就好吗？",
+						"chineseTL": "I've retrieved the new mail, is it okay to put it here?",
+						"chineseNote": "",
+						"japanese": "お手紙持ってきた。ここに置いていい？",
+						"japaneseTL": "I've got a letter for you. Should I leave it here?",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"14": {
+						"event": "Return from Sortie",
+						"media": "return_from_sortie",
+						"chinese": "大家都平安回来了吗，这不是挺好的",
+						"chineseTL": "Everybody came back safely, isn't that great.",
+						"chineseNote": "",
+						"japanese": "みんな帰ったの。いいんじゃない？",
+						"japaneseTL": "Everyone's back. That's good.",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"15": {
+						"event": "Commission Complete",
+						"media": "commission_complete",
+						"chinese": "要去迎接委托组吗？我就算了，免得撞到别人…",
+						"chineseTL": "Want to go welcome the commission group back? I'll pass, at least I'll avoid bumping into other people...",
+						"chineseNote": "",
+						"japanese": "委託の子たちを迎えにいくの？私は…私はいいよ。誰かにぶつかったら大変だし",
+						"japaneseTL": "Are you gonna go and welcome back the girls? I think… I'll pass. It'd be pretty bad if I bumped into anyone.",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"16": {
+						"event": "Enhancement",
+						"media": "enhancement",
+						"chinese": "谢谢……怎么了，我说谢谢很奇怪吗？",
+						"chineseTL": "Thank you.... what, is it strange for me to say thanks?",
+						"chineseNote": "",
+						"japanese": "どうも……なに？私がお礼を言うのってそんなにおかしいわけ？",
+						"japaneseTL": "Thanks… What? Is it that weird of me to say \"thanks\"?",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"17": {
+						"event": "Sortie Start",
+						"media": "sortie_start",
+						"chinese": "虽然我不想战斗，但也……不想输",
+						"chineseTL": "Although I don't want to fight, I still... don't want to lose.",
+						"chineseNote": "",
+						"japanese": "戦闘は別にやりたくないけど、でも……負けたくはないっ！",
+						"japaneseTL": "I don't really wanna fight… but I don't wanna lose either!",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"18": {
+						"event": "MVP",
+						"media": "mvp",
+						"chinese": "我是第一…有什么意见吗？",
+						"chineseTL": "I'm number one... Anything you want to say?",
+						"chineseNote": "",
+						"japanese": "一位よ。…文句ある？",
+						"japaneseTL": "First place… Got a problem with that?",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"19": {
+						"event": "Defeat",
+						"media": "defeat",
+						"chinese": "果然我也就这种程度吗……",
+						"chineseTL": "So this is the level I'm at...",
+						"chineseNote": "",
+						"japanese": "私ってこんなもんかな…",
+						"japaneseTL": "Is this really what I am…",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"20": {
+						"event": "Skill Activation",
+						"media": "skill_activation",
+						"chinese": "这次不会再失败了！",
+						"chineseTL": "This time won't end in failure!",
+						"chineseNote": "",
+						"japanese": "今度は失敗しないっ！",
+						"japaneseTL": "I'm not gonna fail this time!",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"21": {
+						"event": "Low Health",
+						"media": "low_health",
+						"chinese": "是我的霉运害了大家吗……",
+						"chineseTL": "Perhaps my bad luck hurt everybody.....",
+						"chineseNote": "",
+						"japanese": "私の悪運がみんなにメイワクをかけたのか……",
+						"japaneseTL": "Maybe I'm annoying everyone else with my bad luck…",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"22": {
+						"event": "Affinity (Disappointed)",
+						"media": "affinity_disappointed",
+						"chinese": "反正，我这种倒霉的家伙，也只能摊上这样的指挥官了……",
+						"chineseTL": "Anyway, for an unlucky person like me, I can only end up with this kind of Commander....",
+						"chineseNote": "",
+						"japanese": "私のような運のない子にはこんな指揮官しかつかないのね……",
+						"japaneseTL": "A girl as unlucky as me was bound to end up with a commander like you…",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"23": {
+						"event": "Affinity (Stranger)",
+						"media": "affinity_stranger",
+						"chinese": "想和我这种倒霉的人交流，你的好奇心也真是够旺盛的。算了，只是聊天的话……就陪陪你吧",
+						"chineseTL": "To want to get along with an unlucky person like me, your curiosity is a certainly strong enough. Whatever, If it's just chatting... I'll accompany you.",
+						"chineseNote": "",
+						"japanese": "私のような運のない子と仲良くしようとするなんて、指揮官は結構物好きね。まあ、いいよ。雑談ぐらいなら……付き合ってあげる",
+						"japaneseTL": "You've got quite exotic taste, trying to make friends with a girl as unlucky as me, Commander. But hey, your choice. If it's smalltalk you want… then I can do that.",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"24": {
+						"event": "Affinity (Friendly)",
+						"media": "affinity_friendly",
+						"chinese": "说到我的角……虽然不是很在意,但是额头长角不是会比较显眼吗,我实在不太习惯在人群里被大家注目这种事……哈……",
+						"chineseTL": "Talking about my horn.... Although I don't mind, this long horn on my forehead makes me stand out. I'm really not used to the attention in a group of people...... haa......",
+						"chineseNote": "",
+						"japanese": "この角は…そこまで気にしてないけど、でもおデコに角があるって結構目立つじゃない？ほんと目立つのが苦手で……はぁ……",
+						"japaneseTL": "My horn… It doesn't bother me that much, but having a horn on your forehead makes you stick out quite a lot, doesn't it? I really don't like sticking out… Sigh…",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"25": {
+						"event": "Affinity (Like)",
+						"media": "affinity_like",
+						"chinese": "……我当然知道那智和三隈都不怪我,但就是这样我才不能原谅自己……呼,不过跟你说了之后感觉好多了……角很可爱?!!!……………………笨、笨蛋",
+						"chineseTL": "..... Of course I know Nachi and Mikuma don't blame me, though this is why I can't forgive myself.... Hu, though after telling you I feel a lot better.... My horn is cute?!!!.......... D-dummy.",
+						"chineseNote": "",
+						"japanese": "那智も三隈も気にしてないってわかっているけど、私どうしても自分が許せなくて……ふぅ…指揮官に話したら、なんかスッキリしたのね…「そんなことより角カワイイ」って…？！？！…………ば、馬鹿……",
+						"japaneseTL": "I know Nachi and Mikuma aren't bothered about what happened, but I just can't forgive myself for it… Phew… Talking to you kinda makes me feel better about it… \"More importantly, your horn 's cute\"…!? Y-you idiot…",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"26": {
+						"event": "Affinity (Love)",
+						"media": "affinity_love",
+						"chinese": "那个……指挥官……就是,如果,我是说如果,你真的喜欢的话……就是……你,你要不要……摸、摸一摸我的角?",
+						"chineseTL": "That.... Commander.... That is, if, I'm saying if, you really want to.... That is.... D-do you want to.... t-touch my horn?",
+						"chineseNote": "",
+						"japanese": "えっと……指揮官……その…もしかして、ええと…もしも指揮官が私のことが好きっていうのなら……あぅ……角を…さ、触ってみたり…してみない？",
+						"japaneseTL": "Hey… Commander… um… do you… um… since you said you love me, why don't… uh… you… t-try touching my… horn?",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"27": {
+						"event": "Pledge",
+						"media": "pledge",
+						"chinese": "选择像我这样的…真的不会后悔吗…唔,我知道啦,往后我也会为了能成为足以和你共同前进的人好好努力的……总之,请、请多关照",
+						"chineseTL": "Picking someone like me... You really won't regret it?.... Yes, I understand, from now on in order to become someone who can move forward with you, I will work hard... in short, p-please take care of me.",
+						"chineseNote": "",
+						"japanese": "私なんか…こ、後悔しないよね？…わかった。じゃあ指揮官と釣り合うようにはちょっと頑張るかな……とにかく…よ、よろしくおねがい…します",
+						"japaneseTL": "I don't know what to… Y-you won't regret this, right? Okay. Then I guess maybe I should try to be a good match for you… So anyway… It's a pleasure… being by your side.",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"28": {
+						"event": "Easter Egg 1 (Zuikaku)",
+						"media": "easter_egg_1",
+						"chinese": "（三隈）三隈，果然还是对不起……",
+						"chineseTL": "(Mikuma) Mikuma, I'm still sorry.....",
+						"chineseNote": "",
+						"japanese": "（三隈と出撃）三隈、やっぱごめん……",
+						"japaneseTL": "(Sortie with Mikuma) Mikuma, I'm so sorry…",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"29": {
+						"event": "Easter Egg 2 (Akagi)",
+						"media": "easter_egg_2",
+						"chinese": "（那智）那智，抱歉……",
+						"chineseTL": "(Nachi) Nachi, I'm sorry....",
+						"chineseNote": "",
+						"japanese": "（那智と出撃）那智、ごめん……",
+						"japaneseTL": "(Sortie with Nachi) Nachi, I'm sorry…",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"30": {
+						"event": "Easter Egg 3 (Kaga)",
+						"media": "easter_egg_3",
+						"chinese": "（扶桑）扶桑姐，结束后能不能帮我驱邪一下……",
+						"chineseTL": "(Fusou) Fusou-big sis, After this can you help exorcise me a bit....",
+						"chineseNote": "",
+						"japanese": "（扶桑と出撃）扶桑さん、終わったらお祓いしてくれない？",
+						"japaneseTL": "(Sortie with Fusou) Fusou, once this is over, could you give me an exorcism?",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"31": {
+						"event": "Valentines 2019",
+						"media": "",
+						"chinese": "",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "ハッピーバレンタイン。もしかしたら私ってこういう日に一番合わないかなって思ったけど、指揮官が楽しみにしてくれたから結局頑張って作ったのね。ふふ、指揮官に渡せてよかった。",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					}
+				}
+			},
+			"2": {
+				"label": "Retrofit",
+				"dialogue": {
+					"1": {
+						"event": "Acquisition",
+						"media": "acquisition",
+						"chinese": "你确定这是改造而不是什么惩罚游戏吗，这一身…不过好像真的变强了…好吧，我会更加努力的，稍微期待一下也没关系",
+						"chineseTL": "Are you sure this is a remodel and not a punishment game? This body... really seems to have gotten stronger... Alright, I will work even harder, it's no problem to have some expectations for me.",
+						"chineseNote": "",
+						"japanese": "この格好、改造とかじゃなくて罰ゲームじゃ……でもたしか強くなったし…まあ、もう少し頑張るから、少し期待しても…いいかも？",
+						"japaneseTL": "Is this outfit meant to be some sort of punishment for me rather than a remodel, or… Although I guess I have gotten stronger now… Alright, I'll try a little harder, so maybe… it's okay to have some expectations of me?",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"2": {
+						"event": "Login",
+						"media": "login",
+						"chinese": "你回来了。嗯？你的脚步声我早就记住了",
+						"chineseTL": "You came back. Hmm? I already memorized the sound of your footsteps.",
+						"chineseNote": "",
+						"japanese": "おかえり。うん？まあ…指揮官の足音、とっくに覚えているからね",
+						"japaneseTL": "Welcome back. Hm? Oh, that… I've long since memorized the sound of your footsteps, Commander.",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"3": {
+						"event": "Details",
+						"media": "details",
+						"chinese": "现在不说话看起来更酷了？……算了，就这样吧",
+						"chineseTL": "While not speaking, I look even cooler now?.... Whatever, so be it.",
+						"chineseNote": "",
+						"japanese": "改造よりも、黙っていればクールに見える？……まあ、別に…いいけど",
+						"japaneseTL": "Even after retrofitting I look cool when I don't say anything? Well, I don't… really mind that.",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"4": {
+						"event": "Idle 1",
+						"media": "idle_1",
+						"chinese": "三隈说我最近自信了不少…我倒是没什么感觉",
+						"chineseTL": "Mikuma says I seem more self-confident... I don't feel that way though.",
+						"chineseNote": "",
+						"japanese": "最近、三隈が言うには、私自信ついたように見えるって…別に私、なにも変わっていないけど",
+						"japaneseTL": "Lately, Mikuma's been telling me I look more confident… I don't really think I've changed at all though.",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"5": {
+						"event": "Idle 2",
+						"media": "idle_2",
+						"chinese": "秘书的工作吗？虽然不知道和其他人比起来怎么样……你喜欢的话，我会一直做下去的",
+						"chineseTL": "My job as secretary? Although I don't know how I'd compare with other people..... If you like it, I'll continue doing it.",
+						"chineseNote": "",
+						"japanese": "秘書艦の仕事？ほかの子と比べてどうか知らないけど……あんたがいいなら、ずっとやってあげるよ",
+						"japaneseTL": "My job as a secretary? I dunno how I perform compared to some other girls, but… If you're okay with having me, then I'll keep doing it as long as you wish.",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"6": {
+						"event": "Idle 3",
+						"media": "idle_3",
+						"chinese": "实话说，指挥官，你觉得改造后的这一身好看吗？……呃，你要是喜欢的话，就这样好了",
+						"chineseTL": "To be honest, Commander, do you think my post-retrofit body looks good?..... Eh, if you do like it, then it's good.",
+						"chineseNote": "",
+						"japanese": "指揮官、改造後のこの格好について正直どう思う？……ええと、気に入っているなら、ずっとこのままでもいいかなって",
+						"japaneseTL": "Commander, be honest, what do you think about how I look after my retrofit? Umm, if you like it then maybe I'll stick with it from now on.",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"7": {
+						"event": "Touch",
+						"media": "touch",
+						"chinese": "要不干脆练一练薙刀术什么的好了……",
+						"chineseTL": "Why not just practice naginata techniques or something....",
+						"chineseNote": "",
+						"japanese": "ナギナタとか勉強してみようかな",
+						"japaneseTL": "Maybe I should do some practice with my naginata.",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"8": {
+						"event": "Sortie Start",
+						"media": "sortie_start",
+						"chinese": "有期待我的人在……我不想输",
+						"chineseTL": "With a person that has expectations for me present... I don't want to lose.",
+						"chineseNote": "",
+						"japanese": "期待してくれる人がいるの……負けはしないよっ！",
+						"japaneseTL": "Someone out there has hopes in me… I'm not gonna lose!",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					}
+				}
+			}
+		}
+	},
+	"retrofit": {
+		"1": {
+			"nodeSettings": "retronode, a1, n n y n",
+			"stat": "reload, base, Reload +5",
+			"stage": "1",
+			"desc": "Reload Enhancement I",
+			"level": "5",
+			"limitBreak": "★★☆☆☆",
+			"material": "bpt1 3, gold 600"
+		},
+		"2": {
+			"nodeSettings": "retronode, a2, y y n n",
+			"stat": "hp, base, HP +80",
+			"stage": "1",
+			"desc": "Hull Improvement I",
+			"level": "1",
+			"limitBreak": "★★☆☆☆",
+			"material": "bpt1 2, gold 400"
+		},
+		"3": {
+			"nodeSettings": "retronode, b1, n y y n",
+			"stat": "maingun, efficiency, Main Weapon Efficiency +5%",
+			"stage": "1",
+			"desc": "Main Gun Improvement I",
+			"level": "20",
+			"limitBreak": "★★★☆☆",
+			"material": "bpt1 3, gold 800"
+		},
+		"4": {
+			"nodeSettings": "retronode, b2, y y n y",
+			"stat": "firepower, base, Firepower +10",
+			"stage": "1",
+			"desc": "Firepower Improvement I",
+			"level": "25",
+			"limitBreak": "★★★☆☆",
+			"material": "bpt1 5, gold 1000"
+		},
+		"5": {
+			"nodeSettings": "line, c1, n y n y"
+		},
+		"6": {
+			"nodeSettings": "retronode, c2, n y y y",
+			"stat": "antiair, efficiency, Anti-Air Efficiency +5%",
+			"stage": "1",
+			"desc": "Anti-Air Improvement I",
+			"level": "35",
+			"limitBreak": "★★★★☆",
+			"material": "bpt2 3, gold 1200"
+		},
+		"7": {
+			"nodeSettings": "retronode, c3, y n n n",
+			"stat": "antiair, base, Anti-Air +10",
+			"stage": "1",
+			"desc": "Anti-Air Enhancement I",
+			"level": "40",
+			"limitBreak": "★★★★☆",
+			"material": "bpt2 2, gold 1500"
+		},
+		"8": {
+			"nodeSettings": "line, d1, n y n y"
+		},
+		"9": {
+			"nodeSettings": "retronode, d2, n y y y",
+			"stat": "hp, base, Reload +80/+120",
+			"stage": "2",
+			"desc": "Hull Improvement II",
+			"level": "50",
+			"limitBreak": "★★★★☆",
+			"material": "bpt2 5, gold 3200"
+		},
+		"10": {
+			"nodeSettings": "retronode, d3, y n n n",
+			"stat": "torpedo, base, Torpedo +10",
+			"stage": "1",
+			"desc": "Torpedo Enhancement I",
+			"level": "55",
+			"limitBreak": "★★★★☆",
+			"material": "bpt2 3, gold 2000"
+		},
+		"11": {
+			"nodeSettings": "retronode, e1, n y y y",
+			"stat": "firepower, base, Firepower +5/+15",
+			"stage": "2",
+			"desc": "Firepower Enhancement II",
+			"level": "75",
+			"limitBreak": "★★★★★",
+			"material": "bpt3 3, plt3_gun 50, gold 6000"
+		},
+		"12": {
+			"nodeSettings": "retronode, e2, y y n y",
+			"stat": "maingun, efficiency, Main Gun Efficiency +5%/+5%",
+			"stage": "2",
+			"desc": "Main Gun Improvement II",
+			"level": "70",
+			"limitBreak": "★★★★★",
+			"material": "bpt3 2, gold 5000"
+		},
+		"13": {
+			"nodeSettings": "line, f1, n n y y"
+		},
+		"14": {
+			"nodeSettings": "retronode, f2, y n y y",
+			"stat": "modernization, offensive, Firepower +10 / Anti-Air +25 / Main Gun Mount +1 / Max Torpedo Capacity -1 / Barrage Skill change to Retrofit Version / Upgrade hull type to Heavy Cruiser",
+			"stage": "1",
+			"desc": "Modernization",
+			"level": "85",
+			"limitBreak": "★★★★★",
+			"material": "bpt3 3, duplicate 1, gold 4000"
+		},
+		"15": {
+			"nodeSettings": "retronode, f3, y n n n",
+			"stat": "skill, offensive, Learn skill \"Supression Fire\"",
+			"stage": "1",
+			"desc": "Tactical Learning",
+			"level": "90",
+			"limitBreak": "★★★★★",
+			"material": "bpt3 2, plt3_aux 50, gold 3000"
+		}
+	},
+	"retroParameter": "Super Rare, Heavy Cruiser, 2"
+}
