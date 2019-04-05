@@ -158,6 +158,11 @@ function setShipHullIcon(hull){
 		document.getElementById("sub1").style.display = "";
 		document.getElementById("sub2").style.display = "";
 		document.getElementById("sub3").style.display = "";
+	} else if (hull == "Submarine Aircraft Carrier") {
+		document.getElementById("shipHullIcon").src = "Images/Hull/ssv.png";
+		document.getElementById("sub1").style.display = "";
+		document.getElementById("sub2").style.display = "";
+		document.getElementById("sub3").style.display = "";
 	} else if (hull == "Repair Ship") {
 		document.getElementById("shipHullIcon").src = "Images/Hull/ar.png";
 	}
