@@ -1,0 +1,767 @@
+{
+	"name": "Mikasa",
+	"nameJP": "三笠",
+	"nameCN": "鲐",
+	"class": "Mikasa",
+	"hull": "Battleship",
+	"prefix": "IJN",
+	"ID": "320",
+	"file_id": "320_Mikasa",
+	"navy": "Sakura Empire",
+	"initialStar": "★★★☆☆☆",
+	"rarity": "Super Rare",
+	"buildTime": "03:30:00",
+	"acquisitionMethod": "Limited Build in event \"The Return of the War God\"",
+	"enhance": {
+		"firepower": "52",
+		"torpedo": "0",
+		"aviation": "0",
+		"reload": "11"
+	},
+	"scrap": {
+		"gold": "11",
+		"oil": "4",
+		"medal": "10"
+	},
+	"skin": {
+		"1": {
+			"name": "Default",
+			"description": "Sole ship of the Mikasa class Pre-Dreadnought Battleship, Mikasa.",
+			"expression": {
+				"1": {
+					"label": "Default"
+				}
+			}
+		},
+		"2": {
+			"name": "Style of the Sakura Capital",
+			"description": "",
+			"expression": {
+				"1": {
+					"label": "Default"
+				},
+				"2": {
+					"label": "Default"
+				},
+				"3": {
+					"label": "Default"
+				},
+				"4": {
+					"label": "Default"
+				}
+			}
+		},
+		"3": {
+			"name": "Sakura Viewing Day",
+			"description": "",
+			"expression": {
+				"1": {
+					"label": "Default"
+				},
+				"2": {
+					"label": "Default"
+				},
+				"3": {
+					"label": "Default"
+				},
+				"4": {
+					"label": "Default"
+				},
+				"5": {
+					"label": "Default"
+				}
+			}
+		}
+	},
+	"releaseDate": {
+		"JP": "November 23, 2017",
+		"CN": "December 1, 2017",
+		"KR": "August 30, 2018",
+		"EN": ""
+	},
+	"voiceActress": "Sayaka Ohara",
+	"artist": {
+		"name": "Criin",
+		"weibo": "https://weibo.com/cirini",
+		"twitter": "https://twitter.com/hanasa_criin",
+		"pixiv": "https://www.pixiv.net/member.php?id=4460847",
+		"other": ""
+	},
+	"parameters": {
+		"hp": "B",
+		"antiAir": "D",
+		"evasion": "D",
+		"aviation": "E",
+		"torpedo": "E",
+		"firepower": "B"
+	},
+	"stats": {
+		"100": {
+			"hp": "4572",
+			"armor": "Heavy",
+			"reload": "142",
+			"firepower": "296",
+			"torpedo": "0",
+			"evasion": "8",
+			"antiAir": "150",
+			"aviation": "0",
+			"cost": "14",
+			"asw": "0",
+			"luck": "95",
+			"hit": "57",
+			"speed": "18"
+		},
+		"120": {
+			"hp": "18",
+			"armor": "Heavy",
+			"reload": "163",
+			"firepower": "334",
+			"torpedo": "0",
+			"evasion": "25",
+			"antiAir": "172",
+			"aviation": "0",
+			"cost": "14",
+			"asw": "0",
+			"luck": "95",
+			"hit": "",
+			"speed": "18"
+		},
+		"base": {
+			"hp": "884",
+			"armor": "Heavy",
+			"reload": "60",
+			"firepower": "63",
+			"torpedo": "0",
+			"evasion": "3",
+			"antiAir": "32",
+			"aviation": "0",
+			"cost": "5",
+			"asw": "0",
+			"luck": "95",
+			"hit": "22",
+			"speed": "18"
+		},
+		"100retrofit": {
+			"hp": "",
+			"armor": "Heavy",
+			"reload": "",
+			"firepower": "",
+			"torpedo": "",
+			"evasion": "",
+			"antiAir": "",
+			"aviation": "",
+			"cost": "",
+			"asw": "",
+			"luck": "",
+			"hit": "",
+			"speed": ""
+		},
+		"120retrofit": {
+			"hp": "",
+			"armor": "Heavy",
+			"reload": "",
+			"firepower": "",
+			"torpedo": "",
+			"evasion": "",
+			"antiAir": "",
+			"aviation": "",
+			"cost": "",
+			"asw": "",
+			"luck": "",
+			"hit": "",
+			"speed": ""
+		}
+	},
+	"limitBreak": {
+		"tier1": "Main Gun Mount +1 / Main Gun Efficiency +5%",
+		"tier2": "Secondary Gun Mount +1 / Main Gun Efficiency +10%",
+		"tier3": "Main Gun Mount +1 / Main Gun Efficiency +15%"
+	},
+	"equipmentLoadout": {
+		"1": {
+			"type": "BB Gun",
+			"efficiency": "100%/105%/115%/130%",
+			"amount": "1/2/2/3",
+			"preload": "0/0/0/0"
+		},
+		"2": {
+			"type": "DD/CL Gun",
+			"efficiency": "150%/150%/150%/150%",
+			"amount": "1/1/2/2",
+			"preload": "0/0/0/0"
+		},
+		"3": {
+			"type": "DD Gun",
+			"efficiency": "150%/150%/150%/150%",
+			"amount": "1/1/1/1",
+			"preload": "0/0/0/0"
+		},
+		"4": {
+			"type": "Auxilliary",
+			"efficiency": "-",
+			"amount": "-",
+			"preload": "-"
+		},
+		"5": {
+			"type": "Auxilliary",
+			"efficiency": "-",
+			"amount": "-",
+			"preload": "-"
+		}
+	},
+	"defaultEquipment": {
+		"1": "Twin 305mm (Type 41 12-inch) T1",
+		"2": "-",
+		"3": "-"
+	},
+	"skill": {
+		"1": {
+			"name": "Reborn Combined Fleet Flagship",
+			"type": "Support",
+			"requirement": "Default Unlocked",
+			"description": "When receiving damage, 4.5% (12%) chance to reduce damage taken by 50%. When sortied as the flagship, increases allied Sakura Empire (IJN) ships' firepower and reload by 5% (20%)."
+		},
+		"2": {
+			"name": "T-Cross Formation",
+			"type": "Support",
+			"requirement": "Default Unlocked",
+			"description": "When firing the main gun, 30% (60%) chance to activate: For 8 seconds, increase fleet's battlecruiser and battleship damage dealt by 5% (20%)."
+		}
+	},
+	"build": {
+		"light": {
+			"JP": "-",
+			"CN": "-",
+			"EN": "-"
+		},
+		"heavy": {
+			"JP": "-",
+			"CN": "-",
+			"EN": "-"
+		},
+		"special": {
+			"JP": "-",
+			"CN": "-",
+			"EN": "-"
+		},
+		"limited": {
+			"JP": "✓",
+			"CN": "✓",
+			"EN": "-"
+		}
+	},
+	"drop": {
+		"droppable": "false",
+		"list": {
+			"1": {
+				"event": "World",
+				"chapter": {
+					"1": {
+						"label": "Ch. A",
+						"node": {
+							"1": {
+								"drop": "-",
+								"note": ""
+							},
+							"2": {
+								"drop": "-",
+								"note": ""
+							},
+							"3": {
+								"drop": "✓",
+								"note": ""
+							}
+						}
+					}
+				}
+			}
+		}
+	},
+	"lines": {
+		"skin": {
+			"1": {
+				"label": "Default",
+				"dialogue": {
+					"1": {
+						"event": "Ship Description",
+						"media": "",
+						"chinese": "",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"2": {
+						"event": "Self Introduction",
+						"media": "self_introduction",
+						"chinese": "我乃敷岛级战舰，六六舰队计划中最后的一级战舰，三笠。作为联合舰队总旗舰，我在令祖国声名远扬的那场大战中，为祖国带来了胜利。",
+						"chineseTL": "I'm the Shikishima-class battleship, the last first-class battleship of the Six-Six Fleet Program, Mikasa.As flagship of the combined fleet, I brought about a great naval victory that spread the name of my country to the ends of the Earth.",
+						"chineseNote": "",
+						"japanese": "我は敷島型戦艦、六六艦隊計画の最後の一級戦艦・三笠である。連合艦隊の総旗艦を勤め、我が国の名を世界に轟かせたかの大海戦において、大勝利を齎したのだぞ",
+						"japaneseTL": "I am Mikasa, the Shikishima-class battleship and the last first-class battleship of the Six-Six Fleet Program.As the flagship of the Combined Fleet, I brought about a great naval victory that spread the name of my country to the ends of the Earth.",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"3": {
+						"event": "Acquisition",
+						"media": "acquisition",
+						"chinese": "穿越炮火纷飞的战场为祖国带回荣耀的重樱舰队旗舰 - 弩级战舰三笠，在此参上！",
+						"chineseTL": "Flagship of the Sakura Empire fleet, who brought glory to my home country through smoke and fire - dreadnought Mikasa, reporting in!",
+						"chineseNote": "",
+						"japanese": "我、弾雨硝煙(だんうしょうえん)を振り払い、勝利を以って祖国に威光栄誉(いこうえいよ)をもたらす者なり――重桜艦隊旗艦・弩級戦艦三笠、推して参る！",
+						"japaneseTL": "I Mikasa, the dreadnought who emerged victorious through smoke and fire to bring power and glory to my home country and the flagship of the Sakura Empire. Pushing forward!",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"4": {
+						"event": "Login",
+						"media": "login",
+						"chinese": "我需勇往直前，继续追求荣耀！",
+						"chineseTL": "I have to press forward and continue the chase for glory!",
+						"chineseNote": "",
+						"japanese": "過ぎた栄光を再び手にするまで、勇往邁進(ゆうおうまいしん)を止めてはならん！",
+						"japaneseTL": "Until we regain the glory we once had, we must continue to press forward!",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"5": {
+						"event": "Details",
+						"media": "details",
+						"chinese": "身为旗舰，必当身先士卒。这是理所应当的。",
+						"chineseTL": "As flagship, of course I would lead the charge. It's only natural.",
+						"chineseNote": "",
+						"japanese": "旗艦たる者、最前線で指揮を執るべき。当然であろう",
+						"japaneseTL": "Flagships are the vessels that should issue commands from the frontlines. It is only natural.",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"6": {
+						"event": "Idle 1",
+						"media": "idle_1",
+						"chinese": "对马海战的胜利并不是偶然。",
+						"chineseTL": "The victory at Tsushima cannot be attributed to mere luck.",
+						"chineseNote": "",
+						"japanese": "対馬の勝利は、偶然ですますことはあるまい",
+						"japaneseTL": "The victory at Tsushima cannot be attributed to mere luck.",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"7": {
+						"event": "Idle 2",
+						"media": "idle_2",
+						"chinese": "皇家料理？不用了，我吃够了。",
+						"chineseTL": "The Royal's cuisine? No, I have enough of it.",
+						"chineseNote": "",
+						"japanese": "ロイヤルの料理？いや、流石に飽きたぞ",
+						"japaneseTL": "The Royal Navy's cuisine? No thank you, I have had enough of it.",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"8": {
+						"event": "Idle 3",
+						"media": "idle_3",
+						"chinese": "在天上飞的那个，嗯，那个应该是…好像是叫「飞机」来着，是玩具吧…诶，不对吗。",
+						"chineseTL": "Those flying things, hm, I think...those are called 'aircraft', they're toys aren't they...eh, I'm wrong?",
+						"chineseNote": "",
+						"japanese": "空に飛んでいる、うん、それ…たしか「ヒコウキ」という、玩具の類だな…違う？",
+						"japaneseTL": "Those flying things, hmm, if I recall correctly… they are a kind of toy called \"aircraft\"… Correct?",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"9": {
+						"event": "Touch",
+						"media": "touch",
+						"chinese": "再努力的人都有想偷懒的时候，而我的职责就是在这个时候督促您。",
+						"chineseTL": "Even the most hardworking person has times when he wants to slack; and it's my duty to remind you not to.",
+						"chineseNote": "",
+						"japanese": "どんなに努力する者も時には怠ける。そうならぬよう諌めるのは我の勤めなのだ",
+						"japaneseTL": "Even the most diligent of workers can be lazy sometimes. It's my duty to keep them from becoming so.",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"10": {
+						"event": "Special Touch",
+						"media": "special_touch",
+						"chinese": "您要邀请我当庆功宴的舞伴吗？……那，那就没办法了……",
+						"chineseTL": "You're inviting me to dance with you at the celebration party? ......It, it can't be helped then......",
+						"chineseNote": "",
+						"japanese": "祝宴会のダンス相手が所望か？……しょ、しょうがないな…",
+						"japaneseTL": "Are you inviting me to be your dance partner at the banquet? S-so be it, then…",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"11": {
+						"event": "Mission",
+						"media": "mission",
+						"chinese": "嗯，今天由我来制定舰队计划啊。那么，我国兴衰，在此一战！……唔，口号为什么让我喊啊！",
+						"chineseTL": "Mmm, so you're letting me to decide on the plans for the fleet today. In that case: the fate of our country, rests on this battle! ......Mmm, why do you have me shout my slogan!?",
+						"chineseNote": "",
+						"japanese": "うむ、本日の艦隊計画は我が立てるのか？では……我が国の興廃、この一戦…うぐぅ！…なぜ我に言わせんのだ！",
+						"japaneseTL": "I see, so you want me to create today's plans for the fleet? In that case… the fate of our country rests on this bat- Urgh! Why won't you let me finish?!",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"12": {
+						"event": "Mission Complete",
+						"media": "mission_complete",
+						"chinese": "好，让我把胜利的果实夺……收下！",
+						"chineseTL": "Alright, let me deprive-... I mean, receive the fruits of victory!",
+						"chineseNote": "",
+						"japanese": "ふむ、では勝利の果実を奪いと――ではなく、受取るのだ！",
+						"japaneseTL": "Very well, I shall embezzle… I mean, receive the fruits of our victory!",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"13": {
+						"event": "Mail",
+						"media": "mail",
+						"chinese": "勋章和奖励来多少要多少，诶嘿嘿-♪",
+						"chineseTL": "I can get as many medals and rewards as I want, ehehe-♪",
+						"chineseNote": "",
+						"japanese": "勲章と恩賞はいくらあっても……えへへー♪",
+						"japaneseTL": "No matter how many medals and awards I get… (Giggle)♪",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"14": {
+						"event": "Return from Sortie",
+						"media": "return_from_sortie",
+						"chinese": "很好！胜利的天平在向我们倾斜！",
+						"chineseTL": "Very well! The scale of victory to tipping in our favor!",
+						"chineseNote": "",
+						"japanese": "良いぞ！戦いの天秤は我に傾きつつあるのだ！",
+						"japaneseTL": "Excellent! The battle is leaning in my favor!",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"15": {
+						"event": "Commission Complete",
+						"media": "commission_complete",
+						"chinese": "没有良好的后勤，再厉害的舰队也只是乌合之众！",
+						"chineseTL": "Without well organized logistics, even the mightiest fleet becomes nothing but an unruly mob!",
+						"chineseNote": "",
+						"japanese": "兵站輜重(へいたんしちょう)がなければ、いくら堅艦巨砲(けんかんきょほう)でも、烏合の衆にすぎない！",
+						"japaneseTL": "Without communication and logistics, no matter how many warships or how powerful the weaponry you assemble, they are but an unruly mob!",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"16": {
+						"event": "Enhancement",
+						"media": "enhancement",
+						"chinese": "优秀或是平凡，上了战场一目了然。",
+						"chineseTL": "Excellence and mediocrity can easily be distinguished on the battlefield.",
+						"chineseNote": "",
+						"japanese": "優秀も平凡も、戦場でのみ見分けがつく",
+						"japaneseTL": "Only on the battlefield can excellence and mediocrity be distinguished.",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"17": {
+						"event": "Sortie Start",
+						"media": "sortie_start",
+						"chinese": "祖国兴衰，在此一战！",
+						"chineseTL": "The fate of our country, rests on this battle!",
+						"chineseNote": "",
+						"japanese": "我が国の興廃、この一戦にあり！",
+						"japaneseTL": "The fate of our country rests on this battle!",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"18": {
+						"event": "MVP",
+						"media": "mvp",
+						"chinese": "勿忘初心，方能常胜！（原文来自易经：大亨以正，天之道也。）",
+						"chineseTL": "Never forget your true nature, and you can win every battle! (Original text from Yi Jing: Prosperity gained through righteousness, as in the way of heaven )",
+						"chineseNote": "",
+						"japanese": "大いに亨りて以て正しきは、天の道なり！",
+						"japaneseTL": "By justice we shall prosper: such is the way of nature.",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"19": {
+						"event": "Defeat",
+						"media": "defeat",
+						"chinese": "壇之浦之戰，是这么回事啊……",
+						"chineseTL": "So this is what the battle of Dan-no-ura is like......",
+						"chineseNote": "",
+						"japanese": "壇ノ浦の如しとは、こういうことか……",
+						"japaneseTL": "So this is what it must feel like to experience the battle of Dan-no-ura…",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"20": {
+						"event": "Skill Activation",
+						"media": "skill_activation",
+						"chinese": "全员，勇往直前！",
+						"chineseTL": "Everyone, push forward!",
+						"chineseNote": "",
+						"japanese": "各員、奮励努力(ふんれいどりょく)せよ！",
+						"japaneseTL": "Everyone, do your utmost!",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"21": {
+						"event": "Low Health",
+						"media": "low_health",
+						"chinese": "不用慌，胜负还未见分晓！",
+						"chineseTL": "Do not panic! The battle has yet to be decided!",
+						"chineseNote": "",
+						"japanese": "慌てるな！まだ勝敗はこれからだ！",
+						"japaneseTL": "Do not panic! The battle has yet to be decided!",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"22": {
+						"event": "Affinity (Disappointed)",
+						"media": "affinity_disappointed",
+						"chinese": "昭和年代的智障！",
+						"chineseTL": "You Shōwa born idiot!",
+						"chineseNote": "",
+						"japanese": "ショウワ生まれのばかぁ！",
+						"japaneseTL": "You Shōwa born fool!",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"23": {
+						"event": "Affinity (Stranger)",
+						"media": "affinity_stranger",
+						"chinese": "见不到和我一个年代的同伴，这也没办法。不过，为了还在成长中的后辈们，我也得有前辈该有的样子。",
+						"chineseTL": "It couldn't be helped that I'm unable to meet my friends from the same era. However, for my still inexperience juniors, I have to uphold expectation of being a senior.",
+						"chineseNote": "",
+						"japanese": "同期の仲間に会えないのは確かに……だが――まだ半人前な後輩たちのためにも、しっかりしないとな！",
+						"japaneseTL": "It is true that I'm unable to meet my friends from my own time… However, I need to be steadfast for the sake of all my inexperienced trainees!",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"24": {
+						"event": "Affinity (Friendly)",
+						"media": "affinity_friendly",
+						"chinese": "如果没想好如何结束战争的话，就不要发起战争。",
+						"chineseTL": "If one hasn't thought of how to end a war, then he should never start one.",
+						"chineseNote": "",
+						"japanese": "戦争の終わらせ方を決められないのなら、戦争を起こすべきではない！",
+						"japaneseTL": "One who cannot decide how to end a fight should not start one!",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"25": {
+						"event": "Affinity (Like)",
+						"media": "affinity_like",
+						"chinese": "主人的努力我看到了。不，不过啊，就这样你想偷懒是没门的！",
+						"chineseTL": "I have seen the hard work of master. B- but that doesn't mean you can slack off!",
+						"chineseNote": "",
+						"japanese": "――お主の努力は認めよう。…だ、だがな！これしきのことで怠けてはならぬぞ！",
+						"japaneseTL": "I acknowledge your hard work. H-however, you cannot slack off simply because of that!",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"26": {
+						"event": "Affinity (Love)",
+						"media": "affinity_love",
+						"chinese": "不用那么拼也没关系的。静下来休息片刻我也是可以宽容一下的。…爱上膝枕了？这，这还真是没辙了啊…",
+						"chineseTL": "It's alright not be work so hard. I would let you rest a bit from time to time. ...you love lap pillows? Th- this really can't be helped then...",
+						"chineseNote": "",
+						"japanese": "そう必死にならなくてもいいよ。落ち着いて、少しだけなら休んでも大目に見てあげる。…膝枕が恋しくなった？し、しょうがないな…",
+						"japaneseTL": "There's no need to be so frantic. At ease, Commander. I'll permit you to have at least a short break. You'd like a lap pillow? I-I suppose I have no choice…",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"27": {
+						"event": "Pledge",
+						"media": "pledge",
+						"chinese": "要达到为人所敬还远远不够！所以在那之前我会一直陪着你的。直到我未曾到达的高峰…",
+						"chineseTL": "Your diligence is still far from worthy of respect! But I would be by your side before then - till I reach heights I've never been to before...",
+						"chineseNote": "",
+						"japanese": "尊敬されるにはまだまだ精進が足りぬぞ！…うふふ、だからそうなるまでとことん付き合ってあげる♪――この私でも届かない高みにまで…",
+						"japaneseTL": "Your diligence is not yet worthy of respect! (Giggle) That is why I will remain by your side until then♪ Until you've reached heights not even I achieve…",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"28": {
+						"event": "Valentines 2018",
+						"media": "",
+						"chinese": "嗯，我也准备了巧克力呢。别看我这样，姑且也算是皇家出身，就让你见识一下正统的皇家礼仪吧——什么？“赠送巧克力是后面才有的风俗”？这、这样啊……",
+						"chineseTL": "Um, I too prepared chocolates. Don't look at me like that, I'm still born Royal, so how about a taste of authentic Royal etiquette?——what? \"Gifting chocolates is a future tradition\"? S, so…",
+						"chineseNote": "",
+						"japanese": "うむ、我もチョコレートを作ったぞ。こう見えてもロイヤル出身、本場の作法やらを披露させてもらうぞ。……なに？「チョコを贈る」のがこっちで後付された風習…だと？そ、そうなのか…",
+						"japaneseTL": "Here, I've made some chocolate as well. I may not look like it, but I am of Royal origin, and I will give you a taste of authentic Royal etiquette. What? Giving chocolate is a custom that originated here, you say…? I-is that so…",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"29": {
+						"event": "Valentines 2019",
+						"media": "",
+						"chinese": "",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "ふむふむ、どうやら今時のバレンタインは「女性から愛しい方に親愛を込めてチョコを送る」という日になっているらしいな。それを解せない我ではあるまい。どれ、我からのバレンタインチョコレートを受け取るが良い！",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					}
+				}
+			},
+			"2": {
+				"label": "Style of the Sakura Capital",
+				"dialogue": {
+					"1": {
+						"event": "Acquisition",
+						"media": "acquisition",
+						"chinese": "整理衣橱的时候发现了令人怀念的服装呢…呵呵，指挥官，要不要准备准备，和我同去开启一段新的旅程呢？",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "収納を整理していたら、懐かしい一張羅が出てきたな。どれ…「旅支度済ませて、ボクと共にいざ参ろうぞ」――指 揮官、どうだ？",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"2": {
+						"event": "Login",
+						"media": "login",
+						"chinese": "嗯哼，不错的早晨。吃过早餐了吗？",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "うむ、良い朝だ。朝餉は済ませたか？",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"3": {
+						"event": "Details",
+						"media": "details",
+						"chinese": "嗯~真是舒服的风，是个适合启程的日子呢",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "ふぅ…心地良い風。これぞ「旅立日和」と謂うものだな",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"4": {
+						"event": "Idle 1",
+						"media": "idle_1",
+						"chinese": "穿上这套衣服，感觉整个人也年轻了许多呢…仿佛正要踏上人生初次的长途之旅的孩子一样呢，呵呵~",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "この服を身にまとうと、なんだか若返ったような気になるな……そう！初めて長旅に出ようとしている子供のような心境だぞ。ふふふ",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"5": {
+						"event": "Idle 2",
+						"media": "idle_2",
+						"chinese": "那个时候，许多人都会远渡重洋去皇家留学呢，我们也去吧？虽然皇家的宿舍没几分钟就到了，哈哈",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "嘗ては留学のために大洋を越え、ロイヤルに渡った者も多かったな。どれ、我とともにロイヤルを見学せぬか？寮ならほんの数分で着くぞ。ははは",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"6": {
+						"event": "Idle 3",
+						"media": "idle_3",
+						"chinese": "对于那个时代虽然还是多少有些留恋，不过这只舰队才是我现在的归宿呢",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "あの時代にはまだ少し懐かしさを覚えておるが……今はこの艦隊こそが我の居場所だ",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"7": {
+						"event": "Special Touch",
+						"media": "special_touch",
+						"chinese": "喂喂！别闹了，行李都要倒掉了——",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "こら！いじくりまわすでない！旅鞄（かばん）が倒れそうになったであろうが……",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"8": {
+						"event": "Return from Sortie",
+						"media": "return_from_sortie",
+						"chinese": "孩子们都平安回来了吗，很好很好",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "皆無事に帰還しておるな。大儀であった",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"9": {
+						"event": "Affinity (Love)",
+						"media": "affinity_love",
+						"chinese": "我在想，若我还是学生，在樱花飞舞的季节中遇到你，然后与你度过漫长的时光，似乎也不错呢",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "まだ学生だった私が桜の季節にお主と出会って、そして共に何度も四季を過ごしてゆく――こういうのも、ふふ、結構良いのかもな",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					}
+				}
+			},
+			"3": {
+				"label": "Sakura Viewing Day",
+				"dialogue": {
+					"1": {
+						"event": "Acquisition",
+						"media": "acquisition",
+						"chinese": "",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					}
+				}
+			}
+		}
+	}
+}
