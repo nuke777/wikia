@@ -130,7 +130,7 @@ class CommentedShipDisplay extends HTMLElement{
 						self.shipHull = "../Images/Hull/dd.png";
 					} else if (hull == "Light Cruiser"){						
 						self.shipHull = "../Images/Hull/cl.png";
-					} else if (hull == "Heavy Cruiser"){						
+					} else if (hull == "Heavy Cruiser" || hull == "Super Cruiser" ){						
 						self.shipHull = "../Images/Hull/ca.png";
 					} else if (hull == "Battleship" || hull == "Battlecruiser" || hull == "Monitor"){						
 						self.shipHull = "../Images/Hull/bb.png";
