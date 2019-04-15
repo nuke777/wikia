@@ -70,7 +70,7 @@ class CommentedShipDisplay extends HTMLElement{
 			<div style="float:left;margin:10px 0px 0px 10px;" id="${this.parentID}">
 					<div style="border-radius: 10px;border: 3px double #ffffff;background: #24252d;width: 100px;height: 220px; position: relative">
 						<div style="width: 33px;height: 27px;float:left;text-align:center;color:white;padding-top:6px;font-size:13px;">
-							<img src="${this.shipHull}" style="padding-left:3px">
+							<img src="${this.shipHull}" style="padding-left:3px;width:33px;height:auto;">
 						</div>
 						<div style="width: 34px;height: 33px;float:left;text-align:center;">
 							<img src="${this.shipNavy}">
@@ -125,44 +125,46 @@ class CommentedShipDisplay extends HTMLElement{
 					}
 						
 					if (hull == "Aircraft Carrier" || hull == "Light Aircraft Carrier" ){						
-						self.shipHull = "http://alg-wiki.com/Images/Hull/cv.png";
+						self.shipHull = "../Images/Hull/cv.png";
 					} else if (hull == "Destroyer"){						
-						self.shipHull = "http://alg-wiki.com/Images/Hull/dd.png";
+						self.shipHull = "../Images/Hull/dd.png";
 					} else if (hull == "Light Cruiser"){						
-						self.shipHull = "http://alg-wiki.com/Images/Hull/cl.png";
-					} else if (hull == "Heavy Cruiser"){						
-						self.shipHull = "http://alg-wiki.com/Images/Hull/ca.png";
+						self.shipHull = "../Images/Hull/cl.png";
+					} else if (hull == "Heavy Cruiser" || hull == "Super Cruiser" ){						
+						self.shipHull = "../Images/Hull/ca.png";
 					} else if (hull == "Battleship" || hull == "Battlecruiser" || hull == "Monitor"){						
-						self.shipHull = "http://alg-wiki.com/Images/Hull/bb.png";
+						self.shipHull = "../Images/Hull/bb.png";
 					} else if (hull == "Submarine"){						
-						self.shipHull = "http://alg-wiki.com/Images/Hull/ss.png";
+						self.shipHull = "../Images/Hull/ss.png";
+					} else if (hull == "Submarine Aircraft Carrier"){						
+						self.shipHull = "../Images/Hull/ssv.png";
 					} else if (hull == "Repair Ship"){						
-						self.shipHull = "http://alg-wiki.com/Images/Hull/ar.png";
+						self.shipHull = "../Images/Hull/ar.png";
 					}
 					if (actual_JSON.navy == "Eagle Union") {
-						self.shipNavy = "http://alg-wiki.com/Images/Navy/uss_icon.png";
+						self.shipNavy = "../Images/Navy/uss_icon.png";
 					} else if (actual_JSON.navy == "Sakura Empire") {
-						self.shipNavy = "http://alg-wiki.com/Images/Navy/ijn_icon.png";
+						self.shipNavy = "../Images/Navy/ijn_icon.png";
 					} else if (actual_JSON.navy == "Royal Navy") {
-						self.shipNavy = "http://alg-wiki.com/Images/Navy/hms_icon.png";
+						self.shipNavy = "../Images/Navy/hms_icon.png";
 					} else if (actual_JSON.navy == "Ironblood") {
-						self.shipNavy = "http://alg-wiki.com/Images/Navy/kms_icon.png";
+						self.shipNavy = "../Images/Navy/kms_icon.png";
 					} else if (actual_JSON.navy == "Dragon Empery" || actual_JSON.navy == "Dragon Empire" || actual_JSON.navy == "Eastern Radiance") {
-						self.shipNavy = "http://alg-wiki.com/Images/Navy/roc_icon.png";
+						self.shipNavy = "../Images/Navy/roc_icon.png";
 					} else if (actual_JSON.navy == "Northern Parliament" || actual_JSON.navy == "North Union") {
-						self.shipNavy = "http://alg-wiki.com/Images/Navy/sn_icon.png";
+						self.shipNavy = "../Images/Navy/sn_icon.png";
 					} else if (actual_JSON.navy == "Vichya Dominion") {
-						self.shipNavy = "http://alg-wiki.com/Images/Navy/mnf_icon.png";
+						self.shipNavy = "../Images/Navy/mnf_icon.png";
 					} else if (actual_JSON.navy == "Iris Libre") {
-						self.shipNavy = "http://alg-wiki.com/Images/Navy/ffnf_icon.png";
+						self.shipNavy = "../Images/Navy/ffnf_icon.png";
 					} else if (actual_JSON.navy == "Universal") {
-						self.shipNavy = "http://alg-wiki.com/Images/Navy/univ_icon.png";
+						self.shipNavy = "../Images/Navy/univ_icon.png";
 					} else if (actual_JSON.navy == "Neptunia") {
-						self.shipNavy = "http://alg-wiki.com/Images/Navy/hnd_icon.png";
+						self.shipNavy = "../Images/Navy/hdn_icon.png";
 					} else if (actual_JSON.navy == "Utawarerumono") {
-						self.shipNavy = "http://alg-wiki.com/Images/Navy/uwrr_icon.png";
+						self.shipNavy = "../Images/Navy/uwrr_icon.png";
 					} else if (actual_JSON.navy == "Bilibili") {
-						self.shipNavy = "http://alg-wiki.com/Images/Navy/bili_icon.png";
+						self.shipNavy = "../Images/Navy/bili_icon.png";
 					}
 					if (rarity == "Super Rare" || rarity == "Priority"){
 						self.shipRarity = "background-color:#beb988";

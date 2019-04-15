@@ -149,12 +149,17 @@ function setShipHullIcon(hull){
 		document.getElementById("shipHullIcon").src = "Images/Hull/dd.png";
 	} else if (hull == "Light Cruiser") {
 		document.getElementById("shipHullIcon").src = "Images/Hull/cl.png";
-	} else if (hull == "Heavy Cruiser") {
+	} else if (hull == "Heavy Cruiser" || hull == "Super Cruiser") {
 		document.getElementById("shipHullIcon").src = "Images/Hull/ca.png";
 	} else if (hull == "Battleship" || hull == "Battlecruiser" || hull == "Monitor") {
 		document.getElementById("shipHullIcon").src = "Images/Hull/bb.png";
 	} else if (hull == "Submarine") {
 		document.getElementById("shipHullIcon").src = "Images/Hull/ss.png";
+		document.getElementById("sub1").style.display = "";
+		document.getElementById("sub2").style.display = "";
+		document.getElementById("sub3").style.display = "";
+	} else if (hull == "Submarine Aircraft Carrier") {
+		document.getElementById("shipHullIcon").src = "Images/Hull/ssv.png";
 		document.getElementById("sub1").style.display = "";
 		document.getElementById("sub2").style.display = "";
 		document.getElementById("sub3").style.display = "";
