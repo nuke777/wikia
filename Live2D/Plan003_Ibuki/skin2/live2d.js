@@ -1,8 +1,8 @@
 var pixiTaihou;
 (function (pixiTaihou) {
     PIXI.loader
-        .add('moc', "https://s3.us-east-2.amazonaws.com/alg-wiki.com/Ships/Plan003_Ibuki/Live2D/yichui_2.moc3", { xhrType: PIXI.loaders.Resource.XHR_RESPONSE_TYPE.BUFFER })
-        .add('texture', "https://s3.us-east-2.amazonaws.com/alg-wiki.com/Ships/Plan003_Ibuki/Live2D/texture_00.png")
+        .add('moc', "https://deo68x5sknl6a.cloudfront.net/Ships/Plan003_Ibuki/Live2D/yichui_2.moc3", { xhrType: PIXI.loaders.Resource.XHR_RESPONSE_TYPE.BUFFER })
+        .add('texture', "https://deo68x5sknl6a.cloudfront.net/Ships/Plan003_Ibuki/Live2D/texture_00.png")
         .add('physics', "Live2D/Plan003_Ibuki/skin2/yichui_2.physics3.json", { xhrType: PIXI.loaders.Resource.XHR_RESPONSE_TYPE.JSON })
         .add('idle', "Live2D/Plan003_Ibuki/skin2/idle.motion3.json", { xhrType: PIXI.loaders.Resource.XHR_RESPONSE_TYPE.JSON })
         .add('login', "Live2D/Plan003_Ibuki/skin2/login.motion3.json", { xhrType: PIXI.loaders.Resource.XHR_RESPONSE_TYPE.JSON })
