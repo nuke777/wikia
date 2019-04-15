@@ -1,4 +1,4 @@
-window.folder = "http://media.alg-wiki.com/Ships/";
+window.folder = "https://s3.us-east-2.amazonaws.com/alg-wiki.com/Ships/";
 window.l2dfolder = "Live2D/";
 window.sdfolder = "";
 window.hull = "";

@@ -1,16 +1,16 @@
 var pixiL2D;
 (function (pixiL2D) {
     PIXI.loader
-        .add('moc', "http://media.alg-wiki.com/Ships/166_Yukikaze/Live2D/skin1/xuefeng.moc3", { xhrType: PIXI.loaders.Resource.XHR_RESPONSE_TYPE.BUFFER })
-        .add('texture', "http://media.alg-wiki.com/Ships/166_Yukikaze/Live2D/skin1/texture_00.png")
-        .add('texture_1', "http://media.alg-wiki.com/Ships/166_Yukikaze/Live2D/skin1/texture_01.png")
-        .add('texture_2', "http://media.alg-wiki.com/Ships/166_Yukikaze/Live2D/skin1/texture_02.png")
-        .add('texture_3', "http://media.alg-wiki.com/Ships/166_Yukikaze/Live2D/skin1/texture_03.png")
-        .add('texture_4', "http://media.alg-wiki.com/Ships/166_Yukikaze/Live2D/skin1/texture_04.png")
-        .add('texture_5', "http://media.alg-wiki.com/Ships/166_Yukikaze/Live2D/skin1/texture_05.png")
-        .add('physics', "http://media.alg-wiki.com/Ships/166_Yukikaze/Live2D/skin1/xuefeng.physics3.json", { xhrType: PIXI.loaders.Resource.XHR_RESPONSE_TYPE.JSON })
-        .add('idle', "http://media.alg-wiki.com/Ships/166_Yukikaze/Live2D/skin1/idle.motion3.json", { xhrType: PIXI.loaders.Resource.XHR_RESPONSE_TYPE.JSON })
-        .add('login', "http://media.alg-wiki.com/Ships/166_Yukikaze/Live2D/skin1/login.motion3.json", { xhrType: PIXI.loaders.Resource.XHR_RESPONSE_TYPE.JSON })
+        .add('moc', "https://s3.us-east-2.amazonaws.com/alg-wiki.com/Ships/166_Yukikaze/Live2D/skin1/xuefeng.moc3", { xhrType: PIXI.loaders.Resource.XHR_RESPONSE_TYPE.BUFFER })
+        .add('texture', "https://s3.us-east-2.amazonaws.com/alg-wiki.com/Ships/166_Yukikaze/Live2D/skin1/texture_00.png")
+        .add('texture_1', "https://s3.us-east-2.amazonaws.com/alg-wiki.com/Ships/166_Yukikaze/Live2D/skin1/texture_01.png")
+        .add('texture_2', "https://s3.us-east-2.amazonaws.com/alg-wiki.com/Ships/166_Yukikaze/Live2D/skin1/texture_02.png")
+        .add('texture_3', "https://s3.us-east-2.amazonaws.com/alg-wiki.com/Ships/166_Yukikaze/Live2D/skin1/texture_03.png")
+        .add('texture_4', "https://s3.us-east-2.amazonaws.com/alg-wiki.com/Ships/166_Yukikaze/Live2D/skin1/texture_04.png")
+        .add('texture_5', "https://s3.us-east-2.amazonaws.com/alg-wiki.com/Ships/166_Yukikaze/Live2D/skin1/texture_05.png")
+        .add('physics', "https://s3.us-east-2.amazonaws.com/alg-wiki.com/Ships/166_Yukikaze/Live2D/skin1/xuefeng.physics3.json", { xhrType: PIXI.loaders.Resource.XHR_RESPONSE_TYPE.JSON })
+        .add('idle', "https://s3.us-east-2.amazonaws.com/alg-wiki.com/Ships/166_Yukikaze/Live2D/skin1/idle.motion3.json", { xhrType: PIXI.loaders.Resource.XHR_RESPONSE_TYPE.JSON })
+        .add('login', "https://s3.us-east-2.amazonaws.com/alg-wiki.com/Ships/166_Yukikaze/Live2D/skin1/login.motion3.json", { xhrType: PIXI.loaders.Resource.XHR_RESPONSE_TYPE.JSON })
         .load(function (loader, resources) {
         var app = new PIXI.Application(558, 1026, { transparent: true });
         document.getElementById("l2dContainer").appendChild(app.view);
