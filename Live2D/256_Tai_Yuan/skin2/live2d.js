@@ -1,9 +1,9 @@
 var pixiTai;
 (function (pixiTai) {
     PIXI.loader
-        .add('moc', "https://s3.us-east-2.amazonaws.com/alg-wiki.com/Ships/256_Tai_Yuan/Live2D/skin2/taiyuan_2.moc3", { xhrType: PIXI.loaders.Resource.XHR_RESPONSE_TYPE.BUFFER })
-        .add('texture', "https://s3.us-east-2.amazonaws.com/alg-wiki.com/Ships/256_Tai_Yuan/Live2D/skin2/texture_00.png")
-        .add('texture_1', "https://s3.us-east-2.amazonaws.com/alg-wiki.com/Ships/256_Tai_Yuan/Live2D/skin2/texture_01.png")
+        .add('moc', "http://media.alg-wiki.com/Ships/256_Tai_Yuan/Live2D/skin2/taiyuan_2.moc3", { xhrType: PIXI.loaders.Resource.XHR_RESPONSE_TYPE.BUFFER })
+        .add('texture', "http://media.alg-wiki.com/Ships/256_Tai_Yuan/Live2D/skin2/texture_00.png")
+        .add('texture_1', "http://media.alg-wiki.com/Ships/256_Tai_Yuan/Live2D/skin2/texture_01.png")
         .add('physics', "Live2D/256_Tai_Yuan/skin2/taiyuan_2.physics3.json", { xhrType: PIXI.loaders.Resource.XHR_RESPONSE_TYPE.JSON })
         .add('idle', "Live2D/256_Tai_Yuan/skin2/idle.motion3.json", { xhrType: PIXI.loaders.Resource.XHR_RESPONSE_TYPE.JSON })        
         .add('login', "Live2D/256_Tai_Yuan/skin2/login.motion3.json", { xhrType: PIXI.loaders.Resource.XHR_RESPONSE_TYPE.JSON })
