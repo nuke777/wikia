@@ -70,7 +70,7 @@ class CommentedShipDisplay extends HTMLElement{
 			<div style="float:left;margin:10px 0px 0px 10px;" id="${this.parentID}">
 					<div style="border-radius: 10px;border: 3px double #ffffff;background: #24252d;width: 100px;height: 220px; position: relative">
 						<div style="width: 33px;height: 27px;float:left;text-align:center;color:white;padding-top:6px;font-size:13px;">
-							<img src="${this.shipHull}" style="padding-left:3px">
+							<img src="${this.shipHull}" style="padding-left:3px;width:33px;height:auto;">
 						</div>
 						<div style="width: 34px;height: 33px;float:left;text-align:center;">
 							<img src="${this.shipNavy}">
@@ -130,7 +130,7 @@ class CommentedShipDisplay extends HTMLElement{
 						self.shipHull = "../Images/Hull/dd.png";
 					} else if (hull == "Light Cruiser"){						
 						self.shipHull = "../Images/Hull/cl.png";
-					} else if (hull == "Heavy Cruiser"){						
+					} else if (hull == "Heavy Cruiser" || hull == "Super Cruiser" ){						
 						self.shipHull = "../Images/Hull/ca.png";
 					} else if (hull == "Battleship" || hull == "Battlecruiser" || hull == "Monitor"){						
 						self.shipHull = "../Images/Hull/bb.png";
