@@ -1,4 +1,4 @@
-window.folder = "https://deo68x5sknl6a.cloudfront.net/Ships/";
+window.folder = "https://media.alg-wiki.com/Ships/";
 window.l2dfolder = "Live2D/";
 window.sdfolder = "";
 window.hull = "";
