@@ -114,14 +114,14 @@ class CommentedShipDisplay extends HTMLElement{
 					if (self.skin != null){
 						self.comment = actual_JSON.skin[self.skin+""].name;
 						if (self.retrofit == "true")
-							self.shipIcon = "https://deo68x5sknl6a.cloudfront.net/Ships/" + actual_JSON.file_id + "/Icon/skin"+actual_JSON.retroParameter.split(",")[2].trim()+"_half.png";
+							self.shipIcon = "https://media.alg-wiki.com/Ships/" + actual_JSON.file_id + "/Icon/skin"+actual_JSON.retroParameter.split(",")[2].trim()+"_half.png";
 						else
-							self.shipIcon = "https://deo68x5sknl6a.cloudfront.net/Ships/" + actual_JSON.file_id + "/Icon/skin"+self.skin+"_half.png";
+							self.shipIcon = "https://media.alg-wiki.com/Ships/" + actual_JSON.file_id + "/Icon/skin"+self.skin+"_half.png";
 					} else {
 						if (self.retrofit == "true")
-							self.shipIcon = "https://deo68x5sknl6a.cloudfront.net/Ships/" + actual_JSON.file_id + "/Icon/skin"+actual_JSON.retroParameter.split(",")[2].trim()+"_half.png";
+							self.shipIcon = "https://media.alg-wiki.com/Ships/" + actual_JSON.file_id + "/Icon/skin"+actual_JSON.retroParameter.split(",")[2].trim()+"_half.png";
 						else
-							self.shipIcon = "https://deo68x5sknl6a.cloudfront.net/Ships/" + actual_JSON.file_id + "/Icon/skin1_half.png";
+							self.shipIcon = "https://media.alg-wiki.com/Ships/" + actual_JSON.file_id + "/Icon/skin1_half.png";
 					}
 						
 					if (hull == "Aircraft Carrier" || hull == "Light Aircraft Carrier" ){						
@@ -327,7 +327,7 @@ class IconDisplay extends HTMLElement{
 		var self = this;
 		util.loadShipJSON(this.ship, function(response, shipname){
 			var actual_JSON = JSON.parse(response);
-			self.icon = "https://deo68x5sknl6a.cloudfront.net/Ships/" + actual_JSON.file_id + "/Icon/icon.png";
+			self.icon = "https://media.alg-wiki.com/Ships/" + actual_JSON.file_id + "/Icon/icon.png";
 
 			if (actual_JSON.rarity == "Common" || actual_JSON.rarity == "Normal"){
 				self.bgimg = "../Images/bg1.png";
@@ -601,7 +601,7 @@ class ChapterNode extends HTMLElement{
                             </td>
                         </tr>
                         <tr>
-                            <td rowspan="2" style="width: 20%; padding: 10px; text-align: center;"><a href ="ship#${this.bossShip[0]}" style="text-decoration:none;color:white"><img src="https://deo68x5sknl6a.cloudfront.net/qicon/${this.bossShip[0]}.png" style="width: 64px; height: 64px"><br>${this.bossShip[1]}</a></td>
+                            <td rowspan="2" style="width: 20%; padding: 10px; text-align: center;"><a href ="ship#${this.bossShip[0]}" style="text-decoration:none;color:white"><img src="https://media.alg-wiki.com/qicon/${this.bossShip[0]}.png" style="width: 64px; height: 64px"><br>${this.bossShip[1]}</a></td>
                             <td style="width: 20%; padding: 10px; background: #24252d;"><b>Location</b></td>
                             <td style="width: 20%; padding: 10px;">${this.bossLocation}</td>
                             <td style="width: 20%; padding: 10px; background: #24252d;"><b>Level</b></td>
