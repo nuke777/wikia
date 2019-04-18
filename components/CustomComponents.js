@@ -174,6 +174,8 @@ class CommentedShipDisplay extends HTMLElement{
 						self.shipRarity = "background-color:#8cb3b8";
 					} else if (rarity == "Common" || rarity == "Normal"){
 						self.shipRarity = "background-color:#737373";
+					} else if (rarity == "Decisive" || rarity == "Ultra Rare"){
+						self.shipRarity = "background-image: linear-gradient(to bottom right, #6cae6c, #5fb0be, #7d84c0, #b45480);";
 					}
 					if (self.skinLimited == "true"){
 						self.root.getElementById("limited"+self.parentID).style.display = "block";
@@ -337,7 +339,7 @@ class IconDisplay extends HTMLElement{
 				self.bgimg = "../Images/bg3.png";
 			} else if (actual_JSON.rarity == "Super Rare" || actual_JSON.rarity == "Priority"){
 				self.bgimg = "../Images/bg4.png";
-			} else if (actual_JSON.rarity == "Ultra Rare"){
+			} else if (actual_JSON.rarity == "Ultra Rare" || actual_JSON.rarity == "Decisive"){
 				self.bgimg = "../Images/bg5.png";
 			}
 			render(self.template(),self.root);

@@ -81,7 +81,7 @@ function init() {
 		document.getElementById("shipParameterAviation").innerHTML = actual_JSON.parameters.aviation;
 		document.getElementById("shipParameterTorpedo").innerHTML = actual_JSON.parameters.torpedo;
 		document.getElementById("shipParameterFirepower").innerHTML = actual_JSON.parameters.firepower;
-		if (actual_JSON.rarity != "Priority"){
+		if (actual_JSON.rarity != "Priority" && actual_JSON.rarity != "Decisive"){
 			document.getElementById("shipLimitBreakT1").innerHTML = actual_JSON.limitBreak.tier1;
 			document.getElementById("shipLimitBreakT2").innerHTML = actual_JSON.limitBreak.tier2;
 			document.getElementById("shipLimitBreakT3").innerHTML = actual_JSON.limitBreak.tier3;
@@ -241,6 +241,17 @@ function setShipRarityHighlight(rarity){
 		document.getElementById("shipRarityColor8").style = "background:#737373;height:30px;width:60%;";
 		document.getElementById("shipRarityColor9").style = "background:#737373;height:30px";
 		document.getElementById("shipRarityColor10").style = "background:#737373;height:30px";
+	} else if (rarity == "Ultra Rare" || rarity == "Decisive") {
+		document.getElementById("shipRarityColor").style = "background-image: linear-gradient(to right, #6cae6c, #5fb0be, #7d84c0, #b45480);height:30px";
+		document.getElementById("shipRarityColor2").style = "background-image: linear-gradient(to right, #6cae6c, #5fb0be, #7d84c0, #b45480);height:30px";
+		document.getElementById("shipRarityColor3").style = "background-image: linear-gradient(to right, #6cae6c, #5fb0be, #7d84c0, #b45480);height:30px";
+		document.getElementById("shipRarityColor4").style = "background-image: linear-gradient(to right, #6cae6c, #5fb0be, #7d84c0, #b45480);height:30px";
+		document.getElementById("shipRarityColor5").style = "background-image: linear-gradient(to right, #6cae6c, #5fb0be, #7d84c0, #b45480);height:30px";
+		document.getElementById("shipRarityColor6").style = "background-image: linear-gradient(to right, #6cae6c, #5fb0be, #7d84c0, #b45480);height:30px";
+		document.getElementById("shipRarityColor7").style = "background-image: linear-gradient(to right, #6cae6c, #5fb0be, #7d84c0, #b45480);height:30px;width:40%;";
+		document.getElementById("shipRarityColor8").style = "background-image: linear-gradient(to right, #6cae6c, #5fb0be, #7d84c0, #b45480);height:30px;width:60%;";
+		document.getElementById("shipRarityColor9").style = "background-image: linear-gradient(to right, #6cae6c, #5fb0be, #7d84c0, #b45480);height:30px";
+		document.getElementById("shipRarityColor10").style = "background-image: linear-gradient(to right, #6cae6c, #5fb0be, #7d84c0, #b45480);height:30px";
 	}
 }	
 
