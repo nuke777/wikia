@@ -85,7 +85,7 @@ function init() {
 			document.getElementById("shipLimitBreakT1").innerHTML = actual_JSON.limitBreak.tier1;
 			document.getElementById("shipLimitBreakT2").innerHTML = actual_JSON.limitBreak.tier2;
 			document.getElementById("shipLimitBreakT3").innerHTML = actual_JSON.limitBreak.tier3;
-		} else if (actual_JSON.rarity == "Priority"){
+		} else if (actual_JSON.rarity == "Priority" || actual_JSON.rarity == "Decisive"){
 			setPriorityLimitBreaks(actual_JSON.strengthenLevel);
 		}
 		document.getElementById("shipEquipmentLoadoutType1").innerHTML = actual_JSON.equipmentLoadout["1"].type;
