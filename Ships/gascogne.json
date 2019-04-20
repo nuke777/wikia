@@ -1,74 +1,19 @@
 {
-	"name": "Gascogne",
+	"name_reference": "gascogne",
+	"cn_reference": "jiasikenie",
 	"nameJP": "ガスコーニュ",
 	"nameCN": "加斯科涅",
-	"class": "Richelieu",
-	"hull": "Battleship",
-	"prefix": "MNF",
 	"ID": "P012",
-	"file_id": "Plan007_Gascogne",
-	"navy": "Vichya Dominion",
-	"initialStar": "★★★☆☆☆",
+	"name": "Gascogne",
+	"internal_id": "999011",
 	"rarity": "Priority",
+	"initialStar": "★★★☆☆☆",
+	"hull": "Battleship",
+	"navy": "Vichya Dominion",
+	"prefix": "MNF",
 	"buildTime": "N/A",
-	"acquisitionMethod": "Priority Research",
-	"enhance": {
-		"firepower": "0",
-		"torpedo": "0",
-		"aviation": "0",
-		"reload": "0"
-	},
-	"scrap": {
-		"gold": "",
-		"oil": "",
-		"medal": ""
-	},
-	"skin": {
-		"1": {
-			"name": "Default",
-			"description": "Improved Richelieu Class Battleship - Gascogne",
-			"expression": {
-				"1": {
-					"label": "Default"
-				},
-				"2": {
-					"label": "Default"
-				},
-				"3": {
-					"label": "Default"
-				},
-				"4": {
-					"label": "Default"
-				},
-				"5": {
-					"label": "Default"
-				},
-				"6": {
-					"label": "Default"
-				},
-				"7": {
-					"label": "Default"
-				},
-				"8": {
-					"label": "Default"
-				}
-			}
-		}
-	},
-	"releaseDate": {
-		"JP": "April 18, 2019",
-		"CN": "April 18, 2019",
-		"KR": "April 18, 2019",
-		"EN": ""
-	},
-	"voiceActress": "Rikako Komatsu",
-	"artist": {
-		"name": "Liduke(日子)",
-		"weibo": "https://weibo.com/liduke",
-		"twitter": "https://twitter.com/lidukelaya",
-		"pixiv": "https://www.pixiv.net/member.php?id=38088",
-		"other": ""
-	},
+	"class": "Richelieu",
+	"voiceActress": "Mikako Komatsu",
 	"parameters": {
 		"firepower": "S",
 		"torpedo": "E",
@@ -76,6 +21,104 @@
 		"evasion": "C",
 		"antiAir": "D",
 		"hp": "A"
+	},
+	"scrap": {
+		"gold": "11",
+		"oil": "4",
+		"medal": "10"
+	},
+	"releaseDate": {
+		"JP": "April 18, 2019",
+		"CN": "April 18, 2019",
+		"KR": "April 18, 2019",
+		"EN": ""
+	},
+	"artist": {
+		"name": "Liduke(日子)",
+		"weibo": "https://weibo.com/liduke",
+		"twitter": "https://twitter.com/lidukelaya",
+		"pixiv": "https://www.pixiv.net/member.php?id=38088",
+		"other": ""
+	},
+	"enhance": {
+		"firepower": "0",
+		"torpedo": "0",
+		"aviation": "0",
+		"reload": "0"
+	},
+	"acquisitionMethod": "Priority Research",
+	"skill": {
+		"1": {
+			"icon": "19250",
+			"requirement": "",
+			"name": "Sensory Inhibition Module ",
+			"type": "Defensive",
+			"description": "When taking damage in battle take brings health below 50%, increase own evasion by 15-30%, recover 8% hp in 8 seconds, activates a maximum of 2 times"
+		},
+		"2": {
+			"icon": "19260",
+			"requirement": "",
+			"name": "Precise Operation Protocol ",
+			"type": "Offensive",
+			"description": "Every main gun shot can be manually aimed, manual aiming damage bonus is increased by 25-40%; Every 20 seconds after the beginning of battle, fire a strong barrage at 50-100% chance (firepower increases with skill level)"
+		},
+		"3": {
+			"icon": "19000",
+			"requirement": "",
+			"name": "Siren Killer Ⅰ",
+			"type": "Offensive",
+			"description": "Increases the DMG this ship deals to Sirens by 5.0%."
+		}
+	},
+	"skin": {
+		"1": {
+			"id": "jiasikenie",
+			"name": "Gascogne",
+			"description": "Improved Richelieu Class Battleship - Gascogne",
+			"expression": {
+				"0": {
+					"id": "0"
+				},
+				"1": {
+					"id": "1"
+				},
+				"2": {
+					"id": "2"
+				},
+				"3": {
+					"id": "3"
+				},
+				"4": {
+					"id": "4"
+				},
+				"5": {
+					"id": "5"
+				},
+				"6": {
+					"id": "6"
+				},
+				"7": {
+					"id": "7"
+				}
+			}
+		}
+	},
+	"defaultEquipment": {
+		"1": {
+			"icon": "",
+			"rarity": "",
+			"name": ""
+		},
+		"2": {
+			"icon": "",
+			"rarity": "",
+			"name": ""
+		},
+		"3": {
+			"icon": "",
+			"rarity": "",
+			"name": ""
+		}
 	},
 	"stats": {
 		"base": {
@@ -209,54 +252,26 @@
 
 		}
 	},
-	"defaultEquipment": {
-		"1": "",
-		"2": "",
-		"3": ""
-	},
-	"skill": {
-		"1": {
-			"icon": "19250",
-			"requirement": "",
-			"name": "Sensory Inhibition Module ",
-			"type": "Defensive",
-			"description": "When taking damage in battle take brings health below 50%, increase own evasion by 15-30%, recover 8% hp in 8 seconds, activates a maximum of 2 times"
-		},
-		"2": {
-			"icon": "19260",
-			"requirement": "",
-			"name": "Precise Operation Protocol ",
-			"type": "Offensive",
-			"description": "Every main gun shot can be manually aimed, manual aiming damage bonus is increased by 25-40%; Every 20 seconds after the beginning of battle, fire a strong barrage at 50-100% chance (firepower increases with skill level)"
-		},
-		"3": {
-			"icon": "19000",
-			"requirement": "",
-			"name": "Siren Killer Ⅰ",
-			"type": "Offensive",
-			"description": "Increases the DMG this ship deals to Sirens by 5.0%."
-		}
-	},
 	"build": {
 		"light": {
-			"JP": "-",
-			"CN": "-",
-			"EN": "-"
+			"JP": "",
+			"CN": "",
+			"EN": ""
 		},
 		"heavy": {
-			"JP": "-",
-			"CN": "-",
-			"EN": "-"
+			"JP": "",
+			"CN": "",
+			"EN": ""
 		},
 		"special": {
-			"JP": "-",
-			"CN": "-",
-			"EN": "-"
+			"JP": "",
+			"CN": "",
+			"EN": ""
 		},
 		"limited": {
-			"JP": "-",
-			"CN": "-",
-			"EN": "-"
+			"JP": "",
+			"CN": "",
+			"EN": ""
 		}
 	},
 	"drop": {
@@ -266,15 +281,11 @@
 				"event": "",
 				"chapter": {
 					"1": {
-						"label": "Ch. B",
+						"label": "Ch .1",
 						"node": {
 							"1": {
 								"drop": "✓",
-								"note": ""
-							},
-							"2": {
-								"drop": "-",
-								"note": ""
+								"note": "-"
 							}
 						}
 					}
@@ -285,380 +296,562 @@
 	"lines": {
 		"skin": {
 			"1": {
-				"label": "Default",
+				"skin_id": "jiasikenie",
+				"id": "0",
+				"label": "ガスコーニュ",
 				"dialogue": {
 					"1": {
-						"event": "Ship Description",
-						"media": "",
-						"chinese": "战列舰—加斯科涅",
-						"chineseTL": "Battleship - Gascogne",
-						"chineseNote": "",
-						"japanese": "戦艦・ガスコーニュ",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "",
-						"englishNote": ""
-					},
-					"2": {
-						"event": "Self Introduction",
-						"media": "self_introduction",
-						"chinese": "加斯科涅，黎塞留级战列舰四号舰，因战争爆发而被迫取消建造…不过这次，加斯科涅将为主人而战，歼灭任何挡在主人面前的敌人",
-						"chineseTL": "Gascogne, Richelieu-class Battleship No. 4. Due to outbreak of war, construction forcefully cancelled... This time, Gascogne fights for Maître. Maître's every enemy will be destroyed.",
-						"chineseNote": "",
-						"japanese": "ガスコーニュ、リシュリュー級戦艦四番艦、戦火により建造頓挫。…今は、主のために戦闘行動を行い、敵を殲滅する",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "",
-						"englishNote": ""
-					},
-					"3": {
-						"event": "Acquisition",
-						"media": "acquisition",
-						"chinese": "加斯科涅，唤醒完成。确认指令：将自由与胜利带给主人——您就是主人吗？加斯科涅，为您服务",
-						"chineseTL": "Gascogne, awakening complete. Command acknowledged: Bring freedom and victory to Maître- Are you Maître? Gascogne, at your service.",
-						"chineseNote": "",
-						"japanese": "ガスコーニュ、起動完了。指示確認：主（maître＝メートル）に自由と勝利を――ガスコーニュ、これより奉仕行動を開始する",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "",
-						"englishNote": ""
-					},
-					"4": {
-						"event": "Login",
-						"media": "login",
-						"chinese": "身份确认——欢迎回来，主人",
-						"chineseTL": "Identity confirmed- Welcome back, Maître.",
-						"chineseNote": "",
-						"japanese": "照合完了――お帰りなさい、主",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "",
-						"englishNote": ""
-					},
-					"5": {
-						"event": "Details",
-						"media": "details",
-						"chinese": "装备检查…状态良好，加斯科涅，随时待命",
-						"chineseTL": "Equipment inspection... in good condition. Gascogne, standby.",
-						"chineseNote": "",
-						"japanese": "兵装検査…状態良好。ガスコーニュ、命令の遂行が可能",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "",
-						"englishNote": ""
-					},
-					"6": {
-						"event": "Idle 1",
-						"media": "idle_1",
-						"chinese": "勾起嘴角…？加斯科涅不是很明白这个行为的意义",
-						"chineseTL": "Quirk up my mouth...? Gascogne does not quite understand the meaning of that action.",
-						"chineseNote": "",
-						"japanese": "「口角を上げる」…その行動の意義を判断しかねる",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "",
-						"englishNote": ""
-					},
-					"7": {
-						"event": "Idle 2",
-						"media": "idle_2",
-						"chinese": "判定，主人正在进行的，是名为”偷懒“的行为，偷懒是不好的",
-						"chineseTL": "Conclusion. Maître's current actions, a behavior called \"slacking off\", being lazy is no good.",
-						"chineseNote": "",
-						"japanese": "検証完了――主の状態は「サボり」という状態に該当と判断。執務への支障を認む",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "",
-						"englishNote": ""
-					},
-					"8": {
-						"event": "Idle 3",
-						"media": "idle_3",
-						"chinese": "”自由行动“？加斯科涅不是很明白这个指令的含义",
-						"chineseTL": "\"Operate freely\"? Gascogne does not quite understand the meaning of that command.",
-						"chineseNote": "",
-						"japanese": "「適当にして」…戦術的な意義は分析不可能と判断",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "",
-						"englishNote": ""
-					},
-					"9": {
-						"event": "Touch",
-						"media": "touch",
-						"chinese": "请下令，主人",
-						"chineseTL": "Orders please, Maître.",
-						"chineseNote": "",
-						"japanese": "主、ご命令を",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "",
-						"englishNote": ""
-					},
-					"10": {
-						"event": "Special Touch",
-						"media": "special_touch",
-						"chinese": "警告，非正常高温，请求检查——",
-						"chineseTL": "Warning. Abnormally high temperatures, inspection requested-",
-						"chineseNote": "",
-						"japanese": "体温の異常を感知。主、特別検査を――",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "",
-						"englishNote": ""
-					},
-					"11": {
-						"event": "Mission",
-						"media": "mission",
-						"chinese": "提示，任务未完成——",
-						"chineseTL": "Notice. Missions not yet completed-",
-						"chineseNote": "",
-						"japanese": "注意、未完了の任務を確認",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "",
-						"englishNote": ""
-					},
-					"12": {
-						"event": "Mission Complete",
-						"media": "mission_complete",
-						"chinese": "提示，任务奖励已下达——",
-						"chineseTL": "Notice. Mission rewards received-",
-						"chineseNote": "",
-						"japanese": "注意、任務報酬の到着を確認",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "",
-						"englishNote": ""
-					},
-					"13": {
-						"event": "Mail",
-						"media": "mail",
-						"chinese": "提示，新邮件——",
-						"chineseTL": "Notice. New mail-",
-						"chineseNote": "",
-						"japanese": "注意、新着メールを確認",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "",
-						"englishNote": ""
-					},
-					"14": {
-						"event": "Return from Sortie",
-						"media": "return_from_sortie",
-						"chinese": "雅马邑白兰地，请用",
-						"chineseTL": "Armagnac, please use.",
-						"chineseNote": "",
-						"japanese": "アルマニャック、どうぞ",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "",
-						"englishNote": ""
-					},
-					"15": {
-						"event": "Commission Complete",
-						"media": "commission_complete",
-						"chinese": "提示，委托组已返回——",
-						"chineseTL": "Notice. Commission team has returned-",
-						"chineseNote": "",
-						"japanese": "注意、委託チームの帰還を確認",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "",
-						"englishNote": ""
-					},
-					"16": {
-						"event": "Enhancement",
-						"media": "enhancement",
-						"chinese": "能力提升…完成",
-						"chineseTL": "Enhancement... complete.",
-						"chineseNote": "",
-						"japanese": "能力上昇…確認",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "",
-						"englishNote": ""
-					},
-					"17": {
-						"event": "Sortie Start",
-						"media": "sortie_start",
-						"chinese": "目标发现——歼灭开始",
-						"chineseTL": "Targets acquired- Commence destruction.",
-						"chineseNote": "",
-						"japanese": "目標視認――殲滅を開始する",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "",
-						"englishNote": ""
-					},
-					"18": {
-						"event": "MVP",
-						"media": "mvp",
-						"chinese": "报告，目标歼灭，战斗任务完成",
-						"chineseTL": "Report. Targets destroyed, combat mission complete.",
-						"chineseNote": "",
-						"japanese": "報告。対象の殲滅を確認、戦闘任務完了",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "",
-						"englishNote": ""
-					},
-					"19": {
-						"event": "Defeat",
-						"media": "defeat",
-						"chinese": "失败是不被允许的，请…销毁加斯科涅",
-						"chineseTL": "Failure is not acceptable, please... scrap Gascogne.",
-						"chineseNote": "",
-						"japanese": "失敗は許されない。……ガスコーニュの機能向上、もしくは廃棄処分を申請する",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "",
-						"englishNote": ""
-					},
-					"20": {
-						"event": "Skill Activation",
-						"media": "skill_activation",
-						"chinese": "就绪，火力全开！",
-						"chineseTL": "Ready, full power!",
-						"chineseNote": "",
-						"japanese": "兵装起動、火力全開",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "",
-						"englishNote": ""
-					},
-					"21": {
-						"event": "Low Health",
-						"media": "low_health",
-						"chinese": "作战执行能力下降，需要增援",
-						"chineseTL": "Combat operational capabilities reduced, reinforcements required.",
-						"chineseNote": "",
-						"japanese": "作戦遂行能力低下、増援を求む",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "",
-						"englishNote": ""
-					},
-					"22": {
-						"event": "Affinity (Disappointed)",
-						"media": "affinity_disappointed",
-						"chinese": "告诫，加斯科涅是兵器，除此之外什么也不是",
-						"chineseTL": "Warning. Gascogne is a weapon, nothing else.",
-						"chineseNote": "",
-						"japanese": "ガスコーニュは兵器、艦船、それ以外の定義を認めない",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "",
-						"englishNote": ""
-					},
-					"23": {
-						"event": "Affinity (Stranger)",
-						"media": "affinity_stranger",
-						"chinese": "提问，其他同僚经常会让加斯科涅加入她们于作战任务无益的活动，加斯科涅应该参加吗？",
-						"chineseTL": "Question. Other colleagues would often invite Gascogne to activities not related to combat missions, should Gascogne participate?",
-						"chineseNote": "",
-						"japanese": "所属艦隊の構成員によるガスコーニュへの、戦術的な意義を有しない行動への参加要請が多数。主のご判断を求む",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "",
-						"englishNote": ""
-					},
-					"24": {
-						"event": "Affinity (Friendly)",
-						"media": "affinity_friendly",
-						"chinese": "疑惑，与她人接触过程中，加斯科涅产生了未知的反应，“感情“和”冲动“，无法理解…您能告诉加斯科涅吗？",
-						"chineseTL": "Uncertainty. When interacting with others, Gascogne produces an unknown reaction. \"Emotion\" and \"Impulse\", can not understand... Are you able to tell Gascogne?",
-						"chineseNote": "",
-						"japanese": "所属艦隊との構成員の共同行動中に、「カンジョウ」「ショウドウ」の事象が発生。次なる対応の指示を求む",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "",
-						"englishNote": ""
-					},
-					"25": {
-						"event": "Affinity (Like)",
-						"media": "affinity_like",
-						"chinese": "分析，与主人、与其他同僚接触过程中产生的反应，是”安心“与”喜悦“，这样的”感情“，加斯科涅似乎并不讨厌",
-						"chineseTL": "Analysis. The reaction produced when interacting with Maître and other colleagues, is \"Relief\" and \"Happiness\". Such \"Emotion\", Gascogne does not dislike it.",
-						"chineseNote": "",
-						"japanese": "接触における「カンジョウ」を分析し、「アンシン」「ヨロコビ」と判断。主の希望上…戦術的な意義はあると認む",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "",
-						"englishNote": ""
-					},
-					"26": {
-						"event": "Affinity (Love)",
-						"media": "affinity_love",
-						"chinese": "加斯科涅在舰队生活中学到了许多“情感”，有了许多原本没有的“烦恼”，但也理解了“乐趣”。您对加斯科涅的期望，加斯科涅现在明白了，发自内心地感谢您，主人",
-						"chineseTL": "Gascogne has learned many \"Emotions\" during life in the fleet. There are lots of \"Worries\" that were not there before, but also understood what is \"Joy\". The hopes you placed in Gascogne, Gascogne now understands. Thank you with utmost gratitude, Maître.",
-						"chineseNote": "",
-						"japanese": "「カンジョウ」の蓄積作業の過程において、「ナヤミ」「タノシミ」なる事象を確認・分析に成功。主のご希望なら、「カンジョウ」の開放及び行動機能の更新が可能。主、「ありがとう」",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "",
-						"englishNote": ""
-					},
-					"27": {
-						"event": "Pledge",
-						"media": "pledge",
-						"chinese": "现在的加斯科涅已经能够理解了，”爱“，那是不求回报的付出，又是期望回报的渴望，是热情，是心跳，是光——谢谢您，主人，这枚戒指会是加斯科涅最珍贵的宝物",
-						"chineseTL": "Gascogne is now able to understand. \"Love\", is a devotion without expectation of returns, yet also the expectation of desire, passion, heartbeat, light- Thank you, Maître, this ring will be Gascogne's most precious treasure.",
-						"chineseNote": "",
-						"japanese": "今なら理解できる、「愛」という感情――それは心のときめき、見返りを求めない相手への貢献、渇望、情熱、そして「光」……この指輪こそ、ガスコーニュにとって一番大切な宝物。主、愛しています",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "",
-						"englishNote": ""
-					},
-					"28": {
-						"event": "Easter Egg 1 (Richelieu)",
-						"media": "easter_egg_1",
-						"chinese": "",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "リシュリュー様、戦術支持を",
-						"japaneseTL": "Richelieu-sama, combat instructions please.",
-						"japaneseNote": "",
-						"english": "",
-						"englishNote": ""
-					},
-					"29": {
-						"event": "Present Dislike",
-						"media": "present_dislike",
-						"chinese": "",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "あぁ...",
-						"japaneseTL": "Oh...",
-						"japaneseNote": "",
-						"english": "",
-						"englishNote": ""
-					},
-					"30": {
-						"event": "Present Like",
-						"media": "present_like",
-						"chinese": "",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "現段階の状態補強に有用と見た目",
-						"japaneseTL": "The current stage of status enhancement appears useful.",
-						"japaneseNote": "",
-						"english": "",
-						"englishNote": ""
-					},
-					"31": {
-						"event": "Main Title",
-						"media": "main_title",
-						"chinese": "",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "",
-						"englishNote": ""
-					}
+					"event": "Ship Description",
+					"media": "",
+					"chinese": "战列舰—加斯科涅",
+					"chineseTL": "Battleship - Gascogne",
+					"chineseNote": "",
+					"japanese": "戦艦・ガスコーニュ",
+					"japaneseTL": "",
+					"japaneseNote": "",
+					"english": "",
+					"englishNote": ""
+				},
+				"2": {
+					"event": "Biography",
+					"media": "profile",
+					"chinese": "加斯科涅，黎塞留级战列舰四号舰，因战争爆发而被迫取消建造…不过这次，加斯科涅将为主人而战，歼灭任何挡在主人面前的敌人",
+					"chineseTL": "Gascogne, Richelieu-class Battleship No. 4. Due to outbreak of war, construction forcefully cancelled... This time, Gascogne fights for Maître. Maître's every enemy will be destroyed.",
+					"chineseNote": "",
+					"japanese": "ガスコーニュ、リシュリュー級戦艦四番艦、戦火により建造頓挫。…今は、主のために戦闘行動を行い、敵を殲滅する",
+					"japaneseTL": "",
+					"japaneseNote": "",
+					"english": "",
+					"englishNote": ""
+				},
+				"3": {
+					"event": "Receive",
+					"media": "get",
+					"chinese": "加斯科涅，唤醒完成。确认指令：将自由与胜利带给主人——您就是主人吗？加斯科涅，为您服务",
+					"chineseTL": "Gascogne, awakening complete. Command acknowledged: Bring freedom and victory to Maître- Are you Maître? Gascogne, at your service.",
+					"chineseNote": "",
+					"japanese": "ガスコーニュ、起動完了。指示確認：主（maître＝メートル）に自由と勝利を――ガスコーニュ、これより奉仕行動を開始する",
+					"japaneseTL": "",
+					"japaneseNote": "",
+					"english": "",
+					"englishNote": ""
+				},
+				"4": {
+					"event": "Log in",
+					"media": "login",
+					"chinese": "身份确认——欢迎回来，主人",
+					"chineseTL": "Identity confirmed- Welcome back, Maître.",
+					"chineseNote": "",
+					"japanese": "照合完了――お帰りなさい、主",
+					"japaneseTL": "",
+					"japaneseNote": "",
+					"english": "",
+					"englishNote": ""
+				},
+				"5": {
+					"event": "Log in (Extra)",
+					"media": "",
+					"chinese": "",
+					"chineseTL": "",
+					"chineseNote": "",
+					"japanese": "照合完了――お帰りなさい、主",
+					"japaneseTL": "",
+					"japaneseNote": "",
+					"english": "",
+					"englishNote": ""
+				},
+				"6": {
+					"event": "View details",
+					"media": "detail",
+					"chinese": "装备检查…状态良好，加斯科涅，随时待命",
+					"chineseTL": "Equipment inspection... in good condition. Gascogne, standby.",
+					"chineseNote": "",
+					"japanese": "兵装検査…状態良好。ガスコーニュ、命令の遂行が可能",
+					"japaneseTL": "",
+					"japaneseNote": "",
+					"english": "",
+					"englishNote": ""
+				},
+				"7": {
+					"event": "View details (Extra)",
+					"media": "",
+					"chinese": "",
+					"chineseTL": "",
+					"chineseNote": "",
+					"japanese": "兵装検査…状態良好。主、ガスコーニュになんなりとご命令を",
+					"japaneseTL": "",
+					"japaneseNote": "",
+					"english": "",
+					"englishNote": ""
+				},
+				"8": {
+					"event": "Main screen 1",
+					"media": "main_1",
+					"chinese": "勾起嘴角…？加斯科涅不是很明白这个行为的意义",
+					"chineseTL": "Quirk up my mouth...? Gascogne does not quite understand the meaning of that action.",
+					"chineseNote": "",
+					"japanese": "「口角を上げる」…その行動の意義を判断しかねる",
+					"japaneseTL": "",
+					"japaneseNote": "",
+					"english": "",
+					"englishNote": ""
+				},
+				"9": {
+					"event": "Main screen 1 (Extra)",
+					"media": "",
+					"chinese": "",
+					"chineseTL": "",
+					"chineseNote": "",
+					"japanese": "「口角を上げる」…命令受諾した。こ、こう…？よくわからない…",
+					"japaneseTL": "",
+					"japaneseNote": "",
+					"english": "",
+					"englishNote": ""
+				},
+				"10": {
+					"event": "Main screen 2",
+					"media": "main_2",
+					"chinese": "判定，主人正在进行的，是名为”偷懒“的行为，偷懒是不好的",
+					"chineseTL": "Conclusion. Maître's current actions, a behavior called \"slacking off\", being lazy is no good.",
+					"chineseNote": "",
+					"japanese": "検証完了――主の状態は「サボり」という状態に該当と判断。執務への支障を認む",
+					"japaneseTL": "",
+					"japaneseNote": "",
+					"english": "",
+					"englishNote": ""
+				},
+				"11": {
+					"event": "Main screen 2 (Extra)",
+					"media": "",
+					"chinese": "",
+					"chineseTL": "",
+					"chineseNote": "",
+					"japanese": "検証完了――主の状態は「サボり」であると。「サボり」、よくない",
+					"japaneseTL": "",
+					"japaneseNote": "",
+					"english": "",
+					"englishNote": ""
+				},
+				"12": {
+					"event": "Main screen 3",
+					"media": "main_3",
+					"chinese": "”自由行动“？加斯科涅不是很明白这个指令的含义",
+					"chineseTL": "Operate freely? Gascogne does not quite understand the meaning of that command.",
+					"chineseNote": "",
+					"japanese": "「適当にして」…戦術的な意義は分析不可能と判断",
+					"japaneseTL": "",
+					"japaneseNote": "",
+					"english": "",
+					"englishNote": ""
+				},
+				"13": {
+					"event": "Main screen 3 (Extra)",
+					"media": "",
+					"chinese": "",
+					"chineseTL": "",
+					"chineseNote": "",
+					"japanese": "「適当にして」…主、ガスコーニュは一体何をすれば…？",
+					"japaneseTL": "",
+					"japaneseNote": "",
+					"english": "",
+					"englishNote": ""
+				},
+				"14": {
+					"event": "Main screen 4 (Extra)",
+					"media": "",
+					"chinese": "",
+					"chineseTL": "",
+					"chineseNote": "",
+					"japanese": "所属艦隊の構成員、ガスコーニュのリュウコツの情報との相違を認む。なぜ、みんな笑顔をしている？",
+					"japaneseTL": "",
+					"japaneseNote": "",
+					"english": "",
+					"englishNote": ""
+				},
+				"15": {
+					"event": "Normal Touch",
+					"media": "touch_1",
+					"chinese": "请下令，主人",
+					"chineseTL": "Orders please, Maître.",
+					"chineseNote": "",
+					"japanese": "主、ご命令を",
+					"japaneseTL": "",
+					"japaneseNote": "",
+					"english": "",
+					"englishNote": ""
+				},
+				"16": {
+					"event": "Normal Touch (Extra)",
+					"media": "",
+					"chinese": "",
+					"chineseTL": "",
+					"chineseNote": "",
+					"japanese": "主、なんでもガスコーニュにおまかせを",
+					"japaneseTL": "",
+					"japaneseNote": "",
+					"english": "",
+					"englishNote": ""
+				},
+				"17": {
+					"event": "Special Touch",
+					"media": "touch_2",
+					"chinese": "警告，非正常高温，请求检查——",
+					"chineseTL": "Warning. Abnormally high temperatures, inspection requested-",
+					"chineseNote": "",
+					"japanese": "体温の異常を感知。主、特別検査を――",
+					"japaneseTL": "",
+					"japaneseNote": "",
+					"english": "",
+					"englishNote": ""
+				},
+				"18": {
+					"event": "Special Touch (Extra)",
+					"media": "",
+					"chinese": "",
+					"chineseTL": "",
+					"chineseNote": "",
+					"japanese": "体温に異常を感知。主、ガスコーニュはど、どうなってるの…？",
+					"japaneseTL": "",
+					"japaneseNote": "",
+					"english": "",
+					"englishNote": ""
+				},
+				"19": {
+					"event": "Mission reminder",
+					"media": "task",
+					"chinese": "提示，任务未完成——",
+					"chineseTL": "Notice. Missions not yet completed-",
+					"chineseNote": "",
+					"japanese": "注意、未完了の任務を確認",
+					"japaneseTL": "",
+					"japaneseNote": "",
+					"english": "",
+					"englishNote": ""
+				},
+				"20": {
+					"event": "Mission reminder (Extra)",
+					"media": "",
+					"chinese": "",
+					"chineseTL": "",
+					"chineseNote": "",
+					"japanese": "注意、未完了の任務を確認。主…？",
+					"japaneseTL": "",
+					"japaneseNote": "",
+					"english": "",
+					"englishNote": ""
+				},
+				"21": {
+					"event": "Mission Complete",
+					"media": "mission_complete",
+					"chinese": "提示，任务奖励已下达——",
+					"chineseTL": "Notice. Mission rewards received-",
+					"chineseNote": "",
+					"japanese": "注意、任務報酬の到着を確認",
+					"japaneseTL": "",
+					"japaneseNote": "",
+					"english": "",
+					"englishNote": ""
+				},
+				"22": {
+					"event": "Mission Complete (Extra)",
+					"media": "",
+					"chinese": "",
+					"chineseTL": "",
+					"chineseNote": "",
+					"japanese": "注意、任務報酬の到着を確認。あぁ…！",
+					"japaneseTL": "",
+					"japaneseNote": "",
+					"english": "",
+					"englishNote": ""
+				},
+				"23": {
+					"event": "Mail",
+					"media": "mail",
+					"chinese": "提示，新邮件——",
+					"chineseTL": "Notice. New mail-",
+					"chineseNote": "",
+					"japanese": "注意、新着メールを確認",
+					"japaneseTL": "",
+					"japaneseNote": "",
+					"english": "",
+					"englishNote": ""
+				},
+				"24": {
+					"event": "Mail (Extra)",
+					"media": "",
+					"chinese": "",
+					"chineseTL": "",
+					"chineseNote": "",
+					"japanese": "注意、新着メールを確認。こ、コホン！",
+					"japaneseTL": "",
+					"japaneseNote": "",
+					"english": "",
+					"englishNote": ""
+				},
+				"25": {
+					"event": "Return to port",
+					"media": "home",
+					"chinese": "雅马邑白兰地，请用",
+					"chineseTL": "Armagnac, please use.",
+					"chineseNote": "",
+					"japanese": "アルマニャック、どうぞ",
+					"japaneseTL": "",
+					"japaneseNote": "",
+					"english": "",
+					"englishNote": ""
+				},
+				"26": {
+					"event": "Return to port (Extra)",
+					"media": "",
+					"chinese": "",
+					"chineseTL": "",
+					"chineseNote": "",
+					"japanese": "アルマニャック。どうぞごゆっくり",
+					"japaneseTL": "",
+					"japaneseNote": "",
+					"english": "",
+					"englishNote": ""
+				},
+				"27": {
+					"event": "Commission Complete",
+					"media": "expedition",
+					"chinese": "提示，委托组已返回——",
+					"chineseTL": "Notice. Commission team has returned-",
+					"chineseNote": "",
+					"japanese": "注意、委託チームの帰還を確認",
+					"japaneseTL": "",
+					"japaneseNote": "",
+					"english": "",
+					"englishNote": ""
+				},
+				"28": {
+					"event": "Commission Complete (Extra)",
+					"media": "",
+					"chinese": "",
+					"chineseTL": "",
+					"chineseNote": "",
+					"japanese": "注意、委託チームの帰還を確認。ふぅ……",
+					"japaneseTL": "",
+					"japaneseNote": "",
+					"english": "",
+					"englishNote": ""
+				},
+				"29": {
+					"event": "Enhancing complete",
+					"media": "upgrade",
+					"chinese": "能力提升…完成",
+					"chineseTL": "Enhancement... complete.",
+					"chineseNote": "",
+					"japanese": "能力上昇…確認",
+					"japaneseTL": "",
+					"japaneseNote": "",
+					"english": "",
+					"englishNote": ""
+				},
+				"30": {
+					"event": "Enhancing complete (Extra)",
+					"media": "",
+					"chinese": "",
+					"chineseTL": "",
+					"chineseNote": "",
+					"japanese": "能力上昇を確認。…よし！",
+					"japaneseTL": "",
+					"japaneseNote": "",
+					"english": "",
+					"englishNote": ""
+				},
+				"31": {
+					"event": "Flagship fight",
+					"media": "warcry",
+					"chinese": "目标发现——歼灭开始",
+					"chineseTL": "Targets acquired- Commence destruction.",
+					"chineseNote": "",
+					"japanese": "目標視認――殲滅を開始する",
+					"japaneseTL": "",
+					"japaneseNote": "",
+					"english": "",
+					"englishNote": ""
+				},
+				"32": {
+					"event": "Victory",
+					"media": "mvp",
+					"chinese": "报告，目标歼灭，战斗任务完成",
+					"chineseTL": "Report. Targets destroyed, combat mission complete.",
+					"chineseNote": "",
+					"japanese": "報告。対象の殲滅を確認、戦闘任務完了",
+					"japaneseTL": "",
+					"japaneseNote": "",
+					"english": "",
+					"englishNote": ""
+				},
+				"33": {
+					"event": "Defeat",
+					"media": "lose",
+					"chinese": "失败是不被允许的，请…销毁加斯科涅",
+					"chineseTL": "Failure is not acceptable, please... scrap Gascogne.",
+					"chineseNote": "",
+					"japanese": "失敗は許されない。……ガスコーニュの機能向上、もしくは廃棄処分を申請する",
+					"japaneseTL": "",
+					"japaneseNote": "",
+					"english": "",
+					"englishNote": ""
+				},
+				"34": {
+					"event": "Skills",
+					"media": "skill",
+					"chinese": "就绪，火力全开！",
+					"chineseTL": "Ready, full power!",
+					"chineseNote": "",
+					"japanese": "兵装起動、火力全開",
+					"japaneseTL": "",
+					"japaneseNote": "",
+					"english": "",
+					"englishNote": ""
+				},
+				"35": {
+					"event": "Low HP",
+					"media": "hp",
+					"chinese": "作战执行能力下降，需要增援",
+					"chineseTL": "Combat operational capabilities reduced, reinforcements required.",
+					"chineseNote": "",
+					"japanese": "作戦遂行能力低下、増援を求む",
+					"japaneseTL": "",
+					"japaneseNote": "",
+					"english": "",
+					"englishNote": ""
+				},
+				"36": {
+					"event": "Upset",
+					"media": "feeling1",
+					"chinese": "告诫，加斯科涅是兵器，除此之外什么也不是",
+					"chineseTL": "Warning. Gascogne is a weapon, nothing else.",
+					"chineseNote": "",
+					"japanese": "ガスコーニュは兵器、艦船、それ以外の定義を認めない",
+					"japaneseTL": "",
+					"japaneseNote": "",
+					"english": "",
+					"englishNote": ""
+				},
+				"37": {
+					"event": "Stranger",
+					"media": "feeling2",
+					"chinese": "提问，其他同僚经常会让加斯科涅加入她们于作战任务无益的活动，加斯科涅应该参加吗？",
+					"chineseTL": "Question. Other colleagues would often invite Gascogne to activities not related to combat missions, should Gascogne participate?",
+					"chineseNote": "",
+					"japanese": "所属艦隊の構成員によるガスコーニュへの、戦術的な意義を有しない行動への参加要請が多数。主のご判断を求む",
+					"japaneseTL": "",
+					"japaneseNote": "",
+					"english": "",
+					"englishNote": ""
+				},
+				"38": {
+					"event": "Friendly",
+					"media": "feeling3",
+					"chinese": "疑惑，与她人接触过程中，加斯科涅产生了未知的反应，“感情“和”冲动“，无法理解…您能告诉加斯科涅吗？",
+					"chineseTL": "Uncertainty. When interacting with others, Gascogne produces an unknown reaction. \"Emotion\" and \"Impulse\", can not understand... Are you able to tell Gascogne?",
+					"chineseNote": "",
+					"japanese": "所属艦隊との構成員の共同行動中に、「カンジョウ」「ショウドウ」の事象が発生。次なる対応の指示を求む",
+					"japaneseTL": "",
+					"japaneseNote": "",
+					"english": "",
+					"englishNote": ""
+				},
+				"39": {
+					"event": "Crush",
+					"media": "feeling4",
+					"chinese": "分析，与主人、与其他同僚接触过程中产生的反应，是”安心“与”喜悦“，这样的”感情“，加斯科涅似乎并不讨厌",
+					"chineseTL": "Analysis. The reaction produced when interacting with Maître and other colleagues, is \"Relief\" and \"Happiness\". Such \"Emotion\", Gascogne does not dislike it.",
+					"chineseNote": "",
+					"japanese": "接触における「カンジョウ」を分析し、「アンシン」「ヨロコビ」と判断。主の希望上…戦術的な意義はあると認む",
+					"japaneseTL": "",
+					"japaneseNote": "",
+					"english": "",
+					"englishNote": ""
+				},
+				"40": {
+					"event": "Love",
+					"media": "feeling5",
+					"chinese": "加斯科涅在舰队生活中学到了许多“情感”，有了许多原本没有的“烦恼”，但也理解了“乐趣”。您对加斯科涅的期望，加斯科涅现在明白了，发自内心地感谢您，主人",
+					"chineseTL": "Gascogne has learned many \"Emotions\" during life in the fleet. There are lots of \"Worries\" that were not there before, but also understood what is \"Joy\". The hopes you placed in Gascogne, Gascogne now understands. Thank you with utmost gratitude, Maître.",
+					"chineseNote": "",
+					"japanese": "「カンジョウ」の蓄積作業の過程において、「ナヤミ」「タノシミ」なる事象を確認・分析に成功。主のご希望なら、「カンジョウ」の開放及び行動機能の更新が可能。主、「ありがとう」",
+					"japaneseTL": "",
+					"japaneseNote": "",
+					"english": "",
+					"englishNote": ""
+				},
+				"41": {
+					"event": "Love (Extra)",
+					"media": "",
+					"chinese": "",
+					"chineseTL": "",
+					"chineseNote": "",
+					"japanese": "この艦隊で学んだ多くの「感情」、「悩み」、そして「楽しみ」……主がガスコーニュに望むこと、今ようやく理解した。主、本当に、ありがとう……",
+					"japaneseTL": "",
+					"japaneseNote": "",
+					"english": "",
+					"englishNote": ""
+				},
+				"42": {
+					"event": "Promise",
+					"media": "propose",
+					"chinese": "现在的加斯科涅已经能够理解了，”爱“，那是不求回报的付出，又是期望回报的渴望，是热情，是心跳，是光——谢谢您，主人，这枚戒指会是加斯科涅最珍贵的宝物",
+					"chineseTL": "Gascogne is now able to understand. \"Love\", is a devotion without expectation of returns, yet also the expectation of desire, passion, heartbeat, light- Thank you, Maître, this ring will be Gascogne's most precious treasure.",
+					"chineseNote": "",
+					"japanese": "今なら理解できる、「愛」という感情――それは心のときめき、見返りを求めない相手への貢献、渇望、情熱、そして「光」……この指輪こそ、ガスコーニュにとって一番大切な宝物。主、愛しています",
+					"japaneseTL": "",
+					"japaneseNote": "",
+					"english": "",
+					"englishNote": ""
+				},
+				"43": {
+					"event": "Easter Egg 1 (Richelieu)",
+					"media": "link1",
+					"chinese": "",
+					"chineseTL": "",
+					"chineseNote": "",
+					"japanese": "リシュリュー様、戦術支持を",
+					"japaneseTL": "Richelieu-sama, combat instructions please.",
+					"japaneseNote": "",
+					"english": "",
+					"englishNote": ""
+				},
+				"44": {
+					"event": "Like Present",
+					"media": "present_like",
+					"chinese": "",
+					"chineseTL": "",
+					"chineseNote": "",
+					"japanese": "あぁ...",
+					"japaneseTL": "Oh...",
+					"japaneseNote": "",
+					"english": "",
+					"englishNote": ""
+				},
+				"45": {
+					"event": "Dislike Present",
+					"media": "present_dislike",
+					"chinese": "",
+					"chineseTL": "",
+					"chineseNote": "",
+					"japanese": "現段階の状態補強に有用と見た目",
+					"japaneseTL": "The current stage of status enhancement appears useful.",
+					"japaneseNote": "",
+					"english": "",
+					"englishNote": ""
+				},
+				"46": {
+					"event": "Main Title",
+					"media": "extra",
+					"chinese": "",
+					"chineseTL": "",
+					"chineseNote": "",
+					"japanese": "",
+					"japaneseTL": "",
+					"japaneseNote": "",
+					"english": "",
+					"englishNote": ""
+				}
 				}
 			}
 		}

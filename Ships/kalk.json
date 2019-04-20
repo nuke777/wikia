@@ -1,0 +1,780 @@
+{
+	"name_reference" : "kalk",
+	"cn_reference" : "keerke",
+	"nameJP" : "カーク",
+	"nameCN" : "科尔克",
+	"ID" : "363",
+	"name" : "Kalk",
+	"internal_id" : "101371",
+	"rarity" : "Rare",
+	"initialStar" : "★★☆☆☆",
+	"hull" : "Destroyer",
+	"navy" : "Eagle Union",
+	"prefix" : "USS",
+	"buildTime" : "",
+	"class" : "Benson",
+	"voiceActress" : "Miyuki Kobori",
+	"parameters": {
+		"firepower" : "C",
+		"torpedo" : "C",
+		"aviation" : "E",
+		"evasion" : "B",
+		"antiAir" : "C",
+		"hp" : "C"
+	},
+	"scrap": {
+		"gold" : "4",
+		"oil" : "3",
+		"medal" : "1"
+	},
+	"releaseDate": {
+		"JP" : "",
+		"CN" : "",
+		"KR" : "",
+		"EN" : ""
+	},
+	"artist": {
+		"name" : "",
+		"weibo" : "",
+		"twitter" : "",
+		"pixiv" : "",
+		"other" : ""
+	},
+	"enhance": {
+		"firepower" : "5",
+		"torpedo" : "20",
+		"aviation" : "0",
+		"reload" : "14"
+	},
+	"acquisitionMethod" : "Event: Fallen Wings",
+	"skill": {
+		"1" : {
+			"icon" : "11740",
+			"requirement" : "",
+			"name" : "Wind Rider ",
+			"type" : "Defensive",
+			"description" : "When this ship fires its Torpedoes: $1 chance to evade all enemy attacks for 5s."
+		},
+		"2" : {
+			"icon" : "20061",
+			"requirement" : "",
+			"name" : "All Out Assault Ⅰ",
+			"type" : "Offensive",
+			"description" : "Activate All Out Assault Ⅰ: Benson Class once every 15 times the main gun is fired."
+		}
+	},
+	"skin": {
+		"1" : {
+			"id" : "keerke",
+			"name" : "Kalk ",
+			"description" : "Benson class Destroyer— Kalk, hull number DD-611. ",
+			"expression" : {
+				"0" : {
+					"id" : "0"
+				}
+			}
+		},
+		"2" : {
+			"id" : "keerke_2",
+			"name" : "Snow Fairy Schoolgirl",
+			"description" : "Kalk, reporting in once again, now with a new outfit! Hehe... Commander, will you walk me to school? ",
+			"expression" : {
+				"0" : {
+					"id" : "0"
+				},
+				"1" : {
+					"id" : "1"
+				},
+				"2" : {
+					"id" : "2"
+				},
+				"3" : {
+					"id" : "3"
+				},
+				"4" : {
+					"id" : "4"
+				}
+			}
+		}
+	},
+	"defaultEquipment": {
+		"1" : {
+			"icon" : "11100",
+			"rarity" : "Common",
+			"name" : "Single 127mm Main Gun"
+		},
+		"2" : {
+			"icon" : "",
+			"rarity" : "",
+			"name" : ""
+		},
+		"3" : {
+			"icon" : "",
+			"rarity" : "",
+			"name" : ""
+		}
+	},
+	"stats": {
+		"base": {
+			"hp" : "294",
+			"firepower" : "16",
+			"torpedo" : "60",
+			"antiAir" : "32",
+			"aviation" : "0",
+			"reload" : "75",
+			"hit" : "67",
+			"evasion" : "60",
+			"speed" : "45",
+			"luck" : "75",
+			"asw" : "47",
+			"oxygen" : "0",
+			"ammo" : "0",
+			"cost" : "2",
+			"armor" : "Light"
+		},
+		"100": {
+			"hp" : "1521",
+			"firepower" : "76",
+			"torpedo" : "282",
+			"antiAir" : "149",
+			"aviation" : "0",
+			"reload" : "178",
+			"hit" : "175",
+			"evasion" : "157",
+			"speed" : "45",
+			"luck" : "75",
+			"asw" : "174",
+			"oxygen" : "0",
+			"ammo" : "0",
+			"cost" : "8",
+			"armor" : "Light"
+		},
+		"120": {
+			"hp" : "1826",
+			"firepower" : "87",
+			"torpedo" : "320",
+			"antiAir" : "172",
+			"aviation" : "0",
+			"reload" : "204",
+			"hit" : "184",
+			"evasion" : "163",
+			"speed" : "45",
+			"luck" : "75",
+			"asw" : "193",
+			"oxygen" : "0",
+			"ammo" : "0",
+			"cost" : "8",
+			"armor" : "Light"
+		},
+		"100retrofit": {
+			"hp" : "",
+			"firepower" : "",
+			"torpedo" : "",
+			"antiAir" : "",
+			"aviation" : "",
+			"reload" : "",
+			"hit" : "",
+			"evasion" : "",
+			"speed" : "45",
+			"luck" : "75",
+			"asw" : "",
+			"oxygen" : "0",
+			"ammo" : "0",
+			"cost" : "8",
+			"armor" : "Light"
+		},
+		"120retrofit": {
+			"hp" : "",
+			"firepower" : "",
+			"torpedo" : "",
+			"antiAir" : "",
+			"aviation" : "",
+			"reload" : "",
+			"hit" : "",
+			"evasion" : "",
+			"speed" : "45",
+			"luck" : "75",
+			"asw" : "",
+			"oxygen" : "0",
+			"ammo" : "0",
+			"cost" : "8",
+			"armor" : "Light"
+		}
+	},
+	"limitBreak": {
+		"tier1": "Unlock All Out Assault Ⅰ/Main gun efficiency +5%",
+		"tier2": "Torpedo base +1/Torpedo preload +1/Main gun efficiency +10%",
+		"tier3": "Improve All Out Assault/All weapons' efficiency +5%"
+	},
+	"equipmentLoadout": {
+		"1": {
+			"type": "Destroyer Gun",
+			"efficiency": "110%/115%/125%/130%",
+			"amount": "1/1/1/1",
+			"preload": "0/0/0/0"
+		},
+		"2": {
+			"type": "Torpedo",
+			"efficiency": "125%/125%/125%/130%",
+			"amount": "1/1/2/2",
+			"preload": "0/0/1/1"
+		},
+		"3": {
+			"type": "Anti-Air Gun",
+			"efficiency": "120%/120%/120%/125%",
+			"amount": "1/1/1/1",
+			"preload": "0/0/0/0"
+		},
+		"4": {
+			"type": "Auxilary",
+			"efficiency": "-",
+			"amount": "-",
+			"preload": "-"
+		},
+		"5": {
+			"type": "Auxilary",
+			"efficiency": "-",
+			"amount": "-",
+			"preload": "-"
+		}
+	},
+	"build": {
+		"light": {
+			"JP": "",
+			"CN": "",
+			"EN": ""
+		},
+		"heavy": {
+			"JP": "",
+			"CN": "",
+			"EN": ""
+		},
+		"special": {
+			"JP": "",
+			"CN": "",
+			"EN": ""
+		},
+		"limited": {
+			"JP": "",
+			"CN": "",
+			"EN": ""
+		}
+	},
+	"drop": {
+		"droppable": "false",
+		"list": {
+			"1": {
+				"event": "",
+				"chapter": {
+					"1": {
+						"label": "Ch .1",
+						"node": {
+							"1": {
+								"drop": "✓",
+								"note": "-"
+							}
+						}
+					}
+				}
+			}
+		}
+	},
+	"lines": {
+		"skin": {
+			"1": {
+				"skin_id" : "keerke",
+				"id" : "0",
+				"label" : "Kalk ",
+				"dialogue" : {
+					"1" : {
+						"event" : "Ship Description",
+						"media" : "",
+						"chinese" : "本森级驱逐舰—科尔克，舷号DD-611",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "ベンソン級駆逐艦・カーク（DD-611)",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Benson class Destroyer— Kalk, hull number DD-611.",
+						"englishNote" : ""
+					},
+					"2" : {
+						"event" : "Biography",
+						"media" : "profile",
+						"chinese" : "我是本森级驱逐舰，DD611的科尔克号。我在白鹰阵营里干过很多跑腿任务，也去过很多地方。虽然并不太喜欢东奔西走……（小声）",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "わたしはベンソン級駆逐艦、DD611のカーク。ユニオンではいろいろ任されて、色んなところに行ったの。（小声）走り回るのは、あんまり好きじゃないんだけどね……",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "I am Benson class Destroyer, Kalk, hull number DD611. I run many errands for the Eagle Union, and I’ve been to many places as such. Although, I don’t really like all this running around… (whispers)",
+						"englishNote" : ""
+					},
+					"3" : {
+						"event" : "Receive",
+						"media" : "get",
+						"chinese" : "科尔克号向您报到（挥袖）指挥官，弯下腰来和我拍拍手嘛。只要击掌后，我们就是朋友啦~",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "カーク、着任したよー（ブンブン）指揮官、ちょっとわたしとハイタッチしてみて！一発でパッとタッチできれば、わたしたちは友達だ！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Kalk, reporting in (flick sleeves) Commander, will you give me a high-five. As long as we high-five, we’re friends.",
+						"englishNote" : ""
+					},
+					"4" : {
+						"event" : "Log in",
+						"media" : "login",
+						"chinese" : "指挥官指挥官，您不在的时候，我又把把大伙儿的伙食偷偷淋上辣椒酱啦，可为什么只有我的那份特别辣……呜哇……不要敲我的头啦……",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "指揮官指揮官、指揮官がいない間に、またこっそりみんなの給食にチリソースをかけたはずなんだけど、なんでかわたしのだけめちゃくちゃ辛くなってたの……わー、頭たたかないで……",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Commander Commander, while you were away I secretly drizzled hot sauce on everyone’s food. But how come only my food is especially spicy... oh no... don’t knock me on the head...",
+						"englishNote" : ""
+					},
+					"5" : {
+						"event" : "View details",
+						"media" : "detail",
+						"chinese" : "要给我配上好装备哦~这样坏坏的飞机们才不会打到我。",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "ちゃんといい装備をつけてね～悪い飛行機がわたしに当たらないようにしないと",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "You need to give me good equipments~ This way, those mean aircrafts won’t hurt me anymore.",
+						"englishNote" : ""
+					},
+					"6" : {
+						"event" : "Main screen 1",
+						"media" : "main_1",
+						"chinese" : "相比于出港东奔西走，果然还是和指挥官待在港里比较好。",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "外で走り回るのよりも、指揮官と一緒に母港にいるのが好き",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Compared to running errands, it’s definitely better to stick together with Commander. ",
+						"englishNote" : ""
+					},
+					"7" : {
+						"event" : "Main screen 2",
+						"media" : "main_2",
+						"chinese" : "嘿嘿，只要指挥官能抓住我的手，就可以获取幸运哦~",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "へへへ、わたしの手をつかめば、指揮官も幸運になれるよ～",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : " Hehe, I am full of luck as long as the Commander holds my hand~ ",
+						"englishNote" : ""
+					},
+					"8" : {
+						"event" : "Main screen 3",
+						"media" : "main_3",
+						"chinese" : "指挥官，需要我把昆虫们放到你的被窝里暖床吗？",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "指揮官、今度出撃する前にぃ～ご褒美の飴ちゃんちょうだい！え？いいの？へへへ～、もう後悔しちゃダメだからね、はい、約束～♪",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : " Commander, do you want me to put insects in your bed?",
+						"englishNote" : ""
+					},
+					"9" : {
+						"event" : "Normal touch",
+						"media" : "touch_1",
+						"chinese" : "咦？又在表扬我把大家的早餐换成自制的意大利地狱辣酱面的战绩啦~谢谢指挥官！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "あれ？またわたしのこと褒めくれるの？ありがと、指揮官！今朝みんなの朝ごはんを特製激辛パスターに入れ替えてよかった～",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Huh? Are you praising me for switching everyone’s breakfast into homemade Italian spicy-sauce noodles~ Thank you Commander!",
+						"englishNote" : ""
+					},
+					"10" : {
+						"event" : "Special touch",
+						"media" : "touch_2",
+						"chinese" : "……这样会让指挥官高兴么？（歪头）",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "……これで指揮官はうれしいの？",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "...Does this make you happy, Commander? (Tilts head)",
+						"englishNote" : ""
+					},
+					"11" : {
+						"event" : "Mission reminder",
+						"media" : "task",
+						"chinese" : "指挥官，任务又来啦！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "指揮官、また任務が来たよ～",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Commander, here comes another mission!",
+						"englishNote" : ""
+					},
+					"12" : {
+						"event" : "Mission complete",
+						"media" : "mission_complete",
+						"chinese" : "任务顺利完成啦，嘿嘿，指挥官辛苦了。",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "任務、無事完了したよ。へへへ、指揮官、おつかれ～",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "The mission has been successfully completed, Commander you’ve worked hard out there.",
+						"englishNote" : ""
+					},
+					"13" : {
+						"event" : "Mail reminder",
+						"media" : "mail",
+						"chinese" : "快点打开邮箱看看吧！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "早くメールボックスを開けてみよ～",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Hurry up and check your mail!",
+						"englishNote" : ""
+					},
+					"14" : {
+						"event" : "Return to port",
+						"media" : "home",
+						"chinese" : "指挥官，就算台风呼噜呼噜吹过来了，我也会陪伴您安然度过的！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "指揮官、台風がびゅーびゅー吹いても、わたしが一緒にいるから、大丈夫～",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Commander, even if a typhoon is blowing our way, I will still accompany you all the way to safety!",
+						"englishNote" : ""
+					},
+					"15" : {
+						"event" : "Commission complete",
+						"media" : "expedition",
+						"chinese" : "指挥官，快去拿战利品吧~",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "指揮官、早く報酬を取りにいこ～",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Commander, come get the spoils of war~",
+						"englishNote" : ""
+					},
+					"16" : {
+						"event" : "Enhancing complete",
+						"media" : "upgrade",
+						"chinese" : "身上有些热，我变强了！（挥袖）身手也敏捷啦~",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "ちょっと、熱い……でもわたし、強くなった！（ブンブン）体も、軽くなった！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "My body is heating up, I’m getting stronger! (flick sleeves) I feel so agile now~",
+						"englishNote" : ""
+					},
+					"17" : {
+						"event" : "Flagship fight",
+						"media" : "warcry",
+						"chinese" : "开战了开战了，要表现好点哦~",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "やるぞ～、ちゃんと頑張らなきゃね～",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "The battle has started, I have to behave myself~",
+						"englishNote" : ""
+					},
+					"18" : {
+						"event" : "Victory",
+						"media" : "mvp",
+						"chinese" : "科尔克今天挺幸运哦！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "今日のカークはついている！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Kalk is very lucky today!",
+						"englishNote" : ""
+					},
+					"19" : {
+						"event" : "Defeat",
+						"media" : "lose",
+						"chinese" : "呜…我讨厌受伤，讨厌啦…  ",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "うぅ……怪我するのはや、やだよ……",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Sigh... I hate it when I get injured, so annoying...",
+						"englishNote" : ""
+					},
+					"20" : {
+						"event" : "Skills",
+						"media" : "skill",
+						"chinese" : "在狂风中继续前进哦——",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "嵐の中でも進もぉ！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Let’s charge ahead against the roaring wind——",
+						"englishNote" : ""
+					},
+					"21" : {
+						"event" : "Low HP",
+						"media" : "hp",
+						"chinese" : "没关系，科尔克很幸运，应该……应该能撑过去的！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "大丈夫、カークは運がいいから、いける……はず！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "It doesn’t matter, I am very lucky. We should... should be able to survive!",
+						"englishNote" : ""
+					},
+					"22" : {
+						"event" : "Upset",
+						"media" : "feeling1",
+						"chinese" : "指挥官，不喜欢我做的冰淇淋拌辣酱么……小气鬼。",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "指揮官、わたしの作ったチリソース入りアイスは嫌い？……ちぇ……",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Commander, don’t you like the ice cream I made with hot sauce... such a meanie.",
+						"englishNote" : ""
+					},
+					"23" : {
+						"event" : "Stranger",
+						"media" : "feeling2",
+						"chinese" : "我去过很多地方，有很多见闻哦，指挥官想听听吗？",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "わたし、色んなところに行って、色んなものを見てきたの。指揮官、わたしのお話、聞いてみたくない？",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "I’ve been to many places, seen a lot, do you want to listen to my tales, Commander?",
+						"englishNote" : ""
+					},
+					"24" : {
+						"event" : "Friendly",
+						"media" : "feeling3",
+						"chinese" : "来啦来啦~科尔克的袖子里藏着兔子哦，指挥官想不想看变戏法？呜哇……怎么兔子先生突然溜了。",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "きたきた～指揮官、手品をみたくない？カークの袖の中にはウサギさんが隠れ――あれ？ウサギさん、なんで急にいなくなっちゃったの？",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Come come~ There’s a rabbit hidden in my sleeves. Commander, do you want to see a magic trick? Wow... how did Mr. Rabbit suddenly slip away?",
+						"englishNote" : ""
+					},
+					"25" : {
+						"event" : "Crush",
+						"media" : "feeling4",
+						"chinese" : "指挥官指挥官，看到你很开心的样子，我就很开心啦！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "指揮官指揮官～！……へへへ～指揮官が楽しそうにしているのをみると、わたしもすごく楽しくなるんだ！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Commander Commander, seeing you this happy has also made me very happy!",
+						"englishNote" : ""
+					},
+					"26" : {
+						"event" : "Love",
+						"media" : "feeling5",
+						"chinese" : "我想多待在港湾里，指挥官不要离开我，好不好嘛……（挥袖）",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "もっと母港にいたーい、指揮官もどっかいかないで～ねぇいいでしょ？",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "I want to stay longer at port, Commander don’t leave me, ok? ...（flick sleeves）.",
+						"englishNote" : ""
+					},
+					"27" : {
+						"event" : "Promise",
+						"media" : "propose",
+						"chinese" : "指挥官把手伸进袖口来嘛……快点快点，抓紧我的手哦，我们的手合在一起，就是双倍的幸运啦。嘿嘿，以后的日子里要永远开心才好！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "指揮官、袖の中に手を入れて……わたしの手、ちゃんとつかんでね！二人で手を合わせれば、幸運も二倍になるよ。へへへ、これからも、楽しい日々が続くといいね！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Commander, reach your hands into my sleeves… hurry hurry, grab my hands, hold them. This will bring us luck. Hehe, I will always be happy with you in the days to come!",
+						"englishNote" : ""
+					},
+					"28" : {
+						"event" : "Easter Egg 1(Hobby, Benson, Laffey, Bailey)",
+						"media" : "link1",
+						"chinese" : "本森级的大家，我们一起出发吧！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "ベンソン級のみんな、一緒にいこう！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Every Benson Class Destroyer, let’s go together!",
+						"englishNote" : ""
+					}
+				}
+			},
+			"2": {
+				"skin_id" : "keerke_2",
+				"id" : "1",
+				"label" : "Snow Fairy Schoolgirl",
+				"dialogue" : {
+					"1" : {
+						"event" : "Ship Description",
+						"media" : "",
+						"chinese" : "重新向您报到一次，科尔克换好校服啦，嘿嘿……指挥官，陪我一起上学去吧。",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "改めまして、カーク、制服に着替えました~へへへ……指揮官、一緒に学校いこ~",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Kalk, reporting in once again, now with a new outfit! Hehe... Commander, will you walk me to school?",
+						"englishNote" : ""
+					},
+					"2" : {
+						"event" : "Receive",
+						"media" : "get_1",
+						"chinese" : "重新向您报到一次，科尔克换好校服啦，嘿嘿……指挥官，陪我一起上学去吧。",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "改めまして、カーク、制服に着替えました~へへへ……指揮官、一緒に学校いこ~",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Kalk, reporting in once again, now with a new outfit! Hehe... Commander, will you walk me to school?",
+						"englishNote" : ""
+					},
+					"3" : {
+						"event" : "Log in",
+						"media" : "login_1",
+						"chinese" : "指挥官，一直在等你啦~唔，快看，在外面站那么久，主炮和鱼雷都成冰棍啦~",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "指揮官、ずっと待っていたの。ええと、ほら、ずっと外にいたから、主砲と魚雷が氷漬けになっちゃった～",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Commander, I've been waiting for you! Uuu.... just look, I've been standing here for so long that my cannon and torpedoes have turned into ice pops~",
+						"englishNote" : ""
+					},
+					"4" : {
+						"event" : "View details",
+						"media" : "detail_1",
+						"chinese" : "兔兔乖哦~嘿嘿，指挥官，我最喜欢和小动物待在一起啦。",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "ウサギさん、いい子いい子～へへへ、指揮官、わたし動物と一緒にいるのが大好き！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Cute little bunny~ Hehe, Commander, I like to hang out with cute little animals.",
+						"englishNote" : ""
+					},
+					"5" : {
+						"event" : "Main screen 1",
+						"media" : "main_1_1",
+						"chinese" : "外面雪下得挺大，指挥官，出门之前要不要喝杯暖暖的果汁呢？",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "外は大雪だね～指揮官、出かける前に温かいジュースでも飲んでいかない？",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "It's snowing pretty hard outside. Commander, want a nice warm cup of cider before you head out?",
+						"englishNote" : ""
+					},
+					"6" : {
+						"event" : "Main screen 2",
+						"media" : "main_2_1",
+						"chinese" : "小霍比很可爱哦~我也想像她那样开朗呢。",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "ホビーちゃんはかわいいな～わたしもああいう明るい感じになりたいな～",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Hobby is so cute, isn't she? I'd love to be as outgoing as her.",
+						"englishNote" : ""
+					},
+					"7" : {
+						"event" : "Main screen 3",
+						"media" : "main_3_1",
+						"chinese" : "外面很冷，指挥官也要注意保暖哦。我已经把指挥官的暖杯果汁倒入辣椒酱了，喝完身体一定会更暖和的~",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "外は寒いから、指揮官も気を付けてね。あと、ホカホカのジュースにチリソースを入れておいたから、飲んだらきっと体も暖まるよ～",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "It's really cold outside, Commander, so you should take care to stay warm. Here, I poured your cider into hot sauce so it will keep you warm better~",
+						"englishNote" : ""
+					},
+					"8" : {
+						"event" : "Normal touch",
+						"media" : "touch_1_1",
+						"chinese" : "要跟我一起走吗？嗯，一起出发去学院吧！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "わたしと一緒に行きたいの？うん、一緒に学校に行こう！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Want to come with me? Mhm, let's head to school together then!",
+						"englishNote" : ""
+					},
+					"9" : {
+						"event" : "Special touch",
+						"media" : "touch_2_1",
+						"chinese" : "指挥官？也喜欢恶作剧么……",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "指揮官もイタズラが好きなの……？",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Commander? So you're also a prankster...",
+						"englishNote" : ""
+					},
+					"10" : {
+						"event" : "Return to port",
+						"media" : "home_1",
+						"chinese" : "指挥官，休息一下吧。我已经堆好雪人啦，一起打雪仗吧~",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "指揮官、ちょっと息抜きしよ～一緒に雪だるま作ったり、雪合戦したりしよ～",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Commander, take a break. I already made a snowman. Now, let's have a snowball fight~",
+						"englishNote" : ""
+					},
+					"11" : {
+						"event" : "Victory",
+						"media" : "mvp_1",
+						"chinese" : "MVP？嘿嘿，谢谢大家的照顾。",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "MVP？へへへ、みんなありがと～",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "MVP? Hehe, thanks for everyone’s support.",
+						"englishNote" : ""
+					},
+					"12" : {
+						"event" : "Love",
+						"media" : "feeling5_1",
+						"chinese" : "指挥官路上辛苦啦，赶紧换上干衣服吧~我来给你捶捶背，给你做热果汁喝！（摇头）没有辣椒酱哦，这次只会放很多很多糖~嘿嘿。",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "指揮官おつかれ、早く着換えよ～それから、肩たたきして、暖かいジュース作ってあげる！……ううん、チリソースはなし！代わりにお砂糖をいっぱい入れてあげるからね～へへへ～",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Commander, you've worked so hard out there, so let's get you a fresh change of clothes. Let me massage your shoulders and make some warm cider for you~ (Shakes head) No, there's no hot sauce this time. Just lots and lots of sugar, hehe~",
+						"englishNote" : ""
+					}
+				}
+			}
+		}
+	}
+}

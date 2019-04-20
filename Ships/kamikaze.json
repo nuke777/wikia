@@ -1,47 +1,31 @@
 {
-	"name": "Kamikaze",
+	"name_reference": "kamikaze",
+	"cn_reference": "shenfeng",
 	"nameJP": "神風",
-	"nameCN": "榊",
-	"class": "Kamikaze",
-	"hull": "Destroyer",
-	"prefix": "IJN",
+	"nameCN": "神风",
 	"ID": "269",
-	"file_id": "269_Kamikaze",
-	"navy": "Sakura Empire",
-	"initialStar": "★★☆☆☆",
+	"name": "Kamikaze",
+	"internal_id": "301301",
 	"rarity": "Rare",
+	"initialStar": "★★☆☆☆",
+	"hull": "Destroyer",
+	"navy": "Sakura Empire",
+	"prefix": "IJN",
 	"buildTime": "00:20:00",
-	"acquisitionMethod": "Light Build",
-	"enhance": {
-		"firepower": "4",
-		"torpedo": "25",
-		"aviation": "0",
-		"reload": "14"
+	"class": "Kamikaze",
+	"voiceActress": "Madoka Asahina",
+	"parameters": {
+		"firepower": "D",
+		"torpedo": "B",
+		"aviation": "E",
+		"evasion": "A",
+		"antiAir": "D",
+		"hp": "D"
 	},
 	"scrap": {
 		"gold": "4",
 		"oil": "3",
 		"medal": "1"
-	},
-	"skin": {
-		"1": {
-			"name": "Default",
-			"description": "First ship of the Kamikaze-class destroyers - Kamikaze",
-			"expression": {
-				"1": {
-					"label": "Default"
-				}
-			}
-		},
-		"2": {
-			"name": "Retrofit",
-			"description": "",
-			"expression": {
-				"1": {
-					"label": "Default"
-				}
-			}
-		}
 	},
 	"releaseDate": {
 		"JP": "",
@@ -49,7 +33,6 @@
 		"KR": "",
 		"EN": "February 14, 2019"
 	},
-	"voiceActress": "Madoka Asahina",
 	"artist": {
 		"name": "NoriZC",
 		"weibo": "https://weibo.com/zicaitangxiansheng",
@@ -57,84 +40,160 @@
 		"pixiv": "https://www.pixiv.net/member.php?id=4592232",
 		"other": ""
 	},
-	"parameters": {
-		"hp": "D",
-		"antiAir": "D/C",
-		"evasion": "A",
-		"aviation": "E",
-		"torpedo": "B",
-		"firepower": "D"
+	"enhance": {
+		"firepower": "4",
+		"torpedo": "25",
+		"aviation": "0",
+		"reload": "14"
+	},
+	"acquisitionMethod": "Light Build",
+	"skill": {
+		"1": {
+			"icon": "10740",
+			"requirement": "Default Unlocked",
+			"name": "Body of War",
+			"type": "Defensive",
+			"description": "4% chance to activate when main cannon is fired, increase own Evasion by 20% (50%) for 8s"
+		},
+		"2": {
+			"icon": "11130",
+			"requirement": "Retrofit",
+			"name": "First Destroyer",
+			"type": "Offensive",
+			"description": "10% (30%) to activate upon receiving a torpedo hit/miss: For 4 seconds, decrease torpedo damage taken by 20% (50%) and increase own torpedo stat by 20% (50%)"
+		},
+		"3": {
+			"icon": "22081",
+			"requirement": "Limit Break Rank 1 (I) / Rank 3 (II)",
+			"name": "Full Barrage",
+			"type": "Offensive",
+			"description": "Every 15 (10) times the main cannon is fired, trigger Full Barrage - Kamikaze-class I (II)"
+		}
+	},
+	"skin": {
+		"1": {
+			"id": "shenfeng",
+			"name": "Kamikaze",
+			"description": "Kamikaze-class destroyer number one – Kamikaze.",
+			"expression": {
+				"0": {
+					"id": "0"
+				}
+			}
+		},
+		"2": {
+			"id": "shenfeng_g",
+			"name": "Kamikaze (Retrofit) ",
+			"description": "Ohohoho, you must have a sharp eye if you've decided to retrofit me~ Now that I've been chosen, I cannot afford to embarrass you. Now, take a good and thorough look at this veteran's aspirations~ ",
+			"expression": {
+				"0": {
+					"id": "0"
+				}
+			}
+		}
+	},
+	"defaultEquipment": {
+		"1": {
+			"icon": "31100",
+			"rarity": "",
+			"name": "Single 120mm Main Gun"
+		},
+		"2": {
+			"icon": "",
+			"rarity": "",
+			"name": ""
+		},
+		"3": {
+			"icon": "",
+			"rarity": "",
+			"name": ""
+		}
 	},
 	"stats": {
 		"100": {
 			"hp": "1301",
-			"armor": "Light",
-			"reload": "182",
 			"firepower": "52",
 			"torpedo": "362",
-			"evasion": "187",
 			"antiAir": "121",
 			"aviation": "0",
-			"cost": "7",
-			"asw": "183",
+			"reload": "182",
+			"hit": "174",
+			"evasion": "187",
+			"speed": "44.8",
 			"luck": "86",
-			"speed": "44"
+			"asw": "183",
+			"oxygen": "0",
+			"ammo": "0",
+			"cost": "7",
+			"armor": "Light"
 		},
 		"120": {
 			"hp": "1561",
-			"armor": "Light",
-			"reload": "209",
 			"firepower": "60",
 			"torpedo": "404",
-			"evasion": "193",
 			"antiAir": "139",
 			"aviation": "0",
-			"cost": "7",
-			"asw": "202",
+			"reload": "209",
+			"hit": "183",
+			"evasion": "193",
+			"speed": "44.8",
 			"luck": "86",
-			"speed": "44"
+			"asw": "202",
+			"oxygen": "0",
+			"ammo": "0",
+			"cost": "7",
+			"armor": "Light"
 		},
 		"base": {
 			"hp": "252",
-			"armor": "Light",
-			"reload": "77",
 			"firepower": "11",
 			"torpedo": "77",
-			"evasion": "72",
 			"antiAir": "26",
 			"aviation": "0",
-			"cost": "1",
-			"asw": "50",
+			"reload": "77",
+			"hit": "67",
+			"evasion": "72",
+			"speed": "44.8",
 			"luck": "86",
-			"speed": "44"
+			"asw": "50",
+			"oxygen": "0",
+			"ammo": "0",
+			"cost": "2",
+			"armor": "Light"
 		},
 		"100retrofit": {
 			"hp": "1466",
-			"armor": "Light",
-			"reload": "202",
 			"firepower": "52",
 			"torpedo": "372",
-			"evasion": "187",
 			"antiAir": "161",
 			"aviation": "0",
-			"cost": "7",
-			"asw": "183",
+			"reload": "202",
+			"hit": "184",
+			"evasion": "187",
+			"speed": "47.8",
 			"luck": "86",
-			"speed": "47"
+			"asw": "183",
+			"oxygen": "0",
+			"ammo": "0",
+			"cost": "7",
+			"armor": "Light"
 		},
 		"120retrofit": {
 			"hp": "1726",
-			"armor": "Light",
-			"reload": "229",
 			"firepower": "60",
 			"torpedo": "414",
-			"evasion": "193",
 			"antiAir": "179",
 			"aviation": "0",
-			"cost": "7",
-			"asw": "202",
+			"reload": "229",
+			"hit": "193",
+			"evasion": "193",
+			"speed": "47.8",
 			"luck": "86",
-			"speed": "47"
+			"asw": "202",
+			"oxygen": "0",
+			"ammo": "0",
+			"cost": "7",
+			"armor": "Light"
 		}
 	},
 	"limitBreak": {
@@ -144,59 +203,34 @@
 	},
 	"equipmentLoadout": {
 		"1": {
-			"type": "DD Gun",
+			"type": "Destroyer Gun",
 			"efficiency": "70%/70%/70%/75%",
 			"amount": "1/1/1/1",
 			"preload": "0/0/0/0"
 		},
 		"2": {
 			"type": "Torpedo",
-			"efficiency": "120%/125%(130%)/135%(140%)/140%(145%)",
+			"efficiency": "120%/125%/135%/140%",
 			"amount": "1/1/2/2",
 			"preload": "0/0/1/1"
 		},
 		"3": {
 			"type": "Anti-Air Gun",
-			"efficiency": "70%/70%/70%(75%)/75%(80%)",
+			"efficiency": "70%/70%/70%/75%",
 			"amount": "1/1/1/1",
 			"preload": "0/0/0/0"
 		},
 		"4": {
-			"type": "Auxilliary",
+			"type": "Auxilary",
 			"efficiency": "-",
 			"amount": "-",
 			"preload": "-"
 		},
 		"5": {
-			"type": "Auxilliary",
+			"type": "Auxilary",
 			"efficiency": "-",
 			"amount": "-",
 			"preload": "-"
-		}
-	},
-	"defaultEquipment": {
-		"1": "Single 120mm (Type 3) T1",
-		"2": "-",
-		"3": "-"
-	},
-	"skill": {
-		"1": {
-			"name": "Body of War",
-			"type": "Defensive",
-			"requirement": "Default Unlocked",
-			"description": "4% chance to activate when main cannon is fired, increase own Evasion by 20% (50%) for 8s"
-		},
-		"2": {
-			"name": "First Destroyer",
-			"type": "Offensive",
-			"requirement": "Retrofit",
-			"description": "10% (30%) to activate upon receiving a torpedo hit/miss: For 4 seconds, decrease torpedo damage taken by 20% (50%) and increase own torpedo stat by 20% (50%)"
-		},
-		"3": {
-			"name": "Full Barrage",
-			"type": "Offensive",
-			"requirement": "Limit Break Rank 1 (I) / Rank 3 (II)",
-			"description": "Every 15 (10) times the main cannon is fired, trigger Full Barrage - Kamikaze-class I (II)"
 		}
 	},
 	"build": {
@@ -225,26 +259,14 @@
 		"droppable": "false",
 		"list": {
 			"1": {
-				"event": "World",
+				"event": "",
 				"chapter": {
 					"1": {
-						"label": "Ch. 11",
+						"label": "Ch .1",
 						"node": {
 							"1": {
-								"drop": "-",
-								"note": ""
-							},
-							"2": {
-								"drop": "-",
-								"note": ""
-							},
-							"3": {
 								"drop": "✓",
-								"note": ""
-							},
-							"4": {
-								"drop": "-",
-								"note": "Boss"
+								"note": "-"
 							}
 						}
 					}
@@ -255,507 +277,355 @@
 	"lines": {
 		"skin": {
 			"1": {
-				"label": "Default",
+				"skin_id": "shenfeng",
+				"id": "0",
+				"label": "Kamikaze",
 				"dialogue": {
 					"1": {
 						"event": "Ship Description",
 						"media": "",
-						"chinese": "神风级驱逐舰一号舰神风",
-						"chineseTL": "First ship of the Kamikaze-class destroyers - Kamikaze",
+						"chinese": "神风级驱逐舰一番舰—神风",
+						"chineseTL": "",
 						"chineseNote": "",
 						"japanese": "神風型駆逐艦一番艦・神風",
-						"japaneseTL": "First ship of the Kamikaze-class destroyers - Kamikaze.",
+						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Kamikaze-class destroyer number one – Kamikaze.",
 						"englishNote": ""
 					},
 					"2": {
-						"event": "Self Introduction",
-						"media": "self_introduction",
+						"event": "Biography",
+						"media": "profile",
 						"chinese": "神风级驱逐舰一号舰神风，隶属第一驱逐队，听起来就很厉害对吧～嘻嘻，别看这样，我可是舰队里的老前辈了哟。从大战初期一直奋战到了战争结束，太平洋及阿留申群岛方面、马六甲、马来半岛，都有过我活跃的身影哟～对潜战我可是很擅长的呢～哎呀呀～现在想起和白鹰的狼群们那场生死决战还是会忍不住热血沸腾呢～",
-						"chineseTL": "First ship of the Kamikaze-class destroyer - Kamikaze, assigned to the First Destroyer Division - sounds awesome, doesn't it~ Hehe, don't judge me by my looks, I am the elder of this fleet. I fought hard form the start till the end of the Great War; I saw service in the Pacific, Aleutian Islands, Malacca and Malay Peninsular~ I'm quite good at anti-submarine warfare~ Ahhhh~ Just thinking back on that life-or-death battle with the Eagle Empire wolf packs, really makes my blood boil~",
+						"chineseTL": "",
 						"chineseNote": "",
-						"japanese": "神風型駆逐艦の一号艦、神風じゃ。第一駆逐隊に所属したわっちのこの名は、力強い響じゃろ?（笑）大戦初期から太平洋諸島で転戦し、伊達や酔狂で艦隊の大先輩をやっておらんのじゃ。こう見えても、対潜は得意じゃ。あの狼の群れとやらとの死闘を思い出度に血が滾るよのう~",
-						"japaneseTL": "First ship of the Kamikaze-class destroyers, Kamikaze.I was known as a member of DesDiv 1, ain't that sound strong? Oho~, been fighting since the beginning of the war around the Pacific Islands, my style craziness doesn't make me a good senior. Despite my appearance, anti submarine is my forte. Just thinking about the battle against that wolf pack got my blood boiling~",
+						"japanese": "神風型駆逐艦の一号艦、神風じゃ。第一駆逐隊に所属したわっちのこの名は、力強い響きじゃろ?（笑）大戦初期から太平洋諸島で転戦し、伊達や酔狂で艦隊の大先輩をやっておらんのじゃ。こう見えても、対潜は得意じゃ。あの狼の群れとやらとの死闘を思い出す度に血が滾るよのう~ ",
+						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "I'm Kamikaze, Kamikaze-class destroyer number one. I was a part of the First Destroyer Division. My name's got a mighty ring to it, don'tcha think? Hoho~! I fought in numerous battles in the Pacific Islands since the start of the World War, so me being a fleet veteran ain't just for show or me being whimsical. I may not look it, but ASW is my forte. Every time I think about my battle with that wolf pack my blood starts to boil~",
 						"englishNote": ""
 					},
 					"3": {
-						"event": "Acquisition",
-						"media": "acquisition",
-						"chinese": "第一驱逐队第一号驱逐舰——神风来也~你就是指挥官吗~？ 看来往后的日子会很有趣呢~哼哼，期待我的表现吧~",
-						"chineseTL": "The first destroyer of the First Destroyer Division - Kamikaze~ Are you the Commander?~ Looks like there shall be interesting days to come~ Hng hng, look forward to my performance~",
+						"event": "Receive",
+						"media": "get",
+						"chinese": "第一驱逐队第一号驱逐舰——神风来也～你就是指挥官吗～？看来往后的日子会很有趣呢～哼哼，期待我的表现吧～",
+						"chineseTL": "",
 						"chineseNote": "",
 						"japanese": "第一駆逐隊、第一号駆逐艦ーー神風、参上じゃ。お主が指揮官とやらに相違ないかえ？これからは楽しくなるかのう。うふふ、わっちの働き、ご覧遊ばせ～",
-						"japaneseTL": "From DesDiv 1, Kamikaze class first ship - Kamikaze, , reporting in. Are you sure you are the Commander? It will get interesting from here. Ufufu, please look forward to my performance~",
+						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Kamikaze, First Destroyer Division ship number one, has arrived. Are you certain you're the commander? Then things are gonna get interesting from now on. *Giggle* Enjoy watching me do my work~",
 						"englishNote": ""
 					},
 					"4": {
-						"event": "Login",
+						"event": "Log in",
 						"media": "login",
-						"chinese": "阿啦，你来了，今天要做些什么有趣的事情哪~~",
-						"chineseTL": "Oh my, you've come - what interesting things shall we do today?~",
+						"chinese": "啊哈，你来啦～今天要做点什么有趣事情呢～？",
+						"chineseTL": "",
 						"chineseNote": "",
 						"japanese": "あら、よぉ来たかのぉ～今日は何か面妖なことでもするんかえ？",
-						"japaneseTL": "Oh my, you came~ what strange things shall we do today?",
+						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Aha, you've finally showed up~! Will we be doin' anything interesting today?",
 						"englishNote": ""
 					},
 					"5": {
-						"event": "Details",
-						"media": "details",
-						"chinese": "嘻嘻~指挥官究竟是对人家哪里有兴趣呢~?",
-						"chineseTL": "Hehe~ Which part of my does the Commander has an interest in?~",
+						"event": "View details",
+						"media": "detail",
+						"chinese": "嘻嘻～指挥官究竟是对人家的哪里有兴趣呢～？",
+						"chineseTL": "",
 						"chineseNote": "",
 						"japanese": "ほほぉ~指揮官はわっちのどこに興味があるんかえ？",
-						"japaneseTL": "Hohoo~ I wonder where on me does the commander take interests in?",
+						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Hoho~ What about me's gotten you so interested?",
 						"englishNote": ""
 					},
 					"6": {
-						"event": "Idle 1",
-						"media": "idle_1",
-						"chinese": "玳瑁啊~虽然不及我，但也是个可敬的对手哪",
-						"chineseTL": "Hawksbill huh~ Though not as good as me, she's still an formidable opponent.",
+						"event": "Main screen 1",
+						"media": "main_1",
+						"chinese": "能坚持到最后的，才足以被称为赢家哦！",
+						"chineseTL": "",
 						"chineseNote": "",
 						"japanese": "最後まで持ちこたえるのが勝ち組よ！",
-						"japaneseTL": "Only those who last till the end can be the winner!",
+						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Winners are those who hold out 'till the very end!",
 						"englishNote": ""
 					},
 					"7": {
-						"event": "Idle 2",
-						"media": "idle_2",
-						"chinese": "能坚持到最后的才能称为赢家哦",
-						"chineseTL": "Only those who last till the end can be called winners.",
+						"event": "Main screen 2",
+						"media": "main_2",
+						"chinese": "玳瑁啊～虽然不及我，但也是个可敬的对手",
+						"chineseTL": "",
 						"chineseNote": "",
 						"japanese": "ホークビル！わっちほどではないが正に兵（つわもの）じゃな",
-						"japaneseTL": "Hawksbill. Not exactly at my level but still a soldier.",
+						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Hawksbill! That girl couldn't beat me, but she put up a real good fight.",
 						"englishNote": ""
 					},
 					"8": {
-						"event": "Idle 3",
-						"media": "idle_3",
-						"chinese": "第五战队的大家都是好人哪",
-						"chineseTL": "Everyone in the Fifth Fleet are good people~",
+						"event": "Main screen 3",
+						"media": "main_3",
+						"chinese": "第五战队的大家也都是好人呢…",
+						"chineseTL": "",
 						"chineseNote": "",
 						"japanese": "第五戦隊…良い奴らよのう…",
-						"japaneseTL": "Those in the 5th fleet...Such good people...",
+						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Those Fifth Carrier Division folks... they're pretty nice...",
 						"englishNote": ""
 					},
 					"9": {
-						"event": "Touch",
-						"media": "touch",
-						"chinese": "嗯哼，有什么事吗",
-						"chineseTL": "Hmm? You need something?",
+						"event": "Normal touch",
+						"media": "touch_1",
+						"chinese": "嗯哼？有什么事吗？",
+						"chineseTL": "",
 						"chineseNote": "",
 						"japanese": "はて？なにかのう",
-						"japaneseTL": "Hmm? You need something?",
+						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Oh? You need somethin'?",
 						"englishNote": ""
 					},
 					"10": {
-						"event": "Special Touch",
-						"media": "special_touch",
-						"chinese": "嘻嘻········指挥官的邪念都溢出来了呢，要给你驱驱邪吗",
-						"chineseTL": "Hehe...Commander is having evil thoughts, shall I perform exocism?",
+						"event": "Special touch",
+						"media": "touch_2",
+						"chinese": "嘻嘻…指挥官的邪念都溢出来了呢，要给你驱驱邪吗？",
+						"chineseTL": "",
 						"chineseNote": "",
 						"japanese": "ほれ、指揮官の煩悩が溢れんばかりよのう。わっちがお祓いしてやろうかえ？",
-						"japaneseTL": "Heh~, worldly desires are overflowing from the Commander. Shall I perform some purification?",
+						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Well well, looks like your naughty desires are starting to show themselves. How about an exorcism for ya?",
 						"englishNote": ""
 					},
 					"11": {
-						"event": "Mission",
-						"media": "mission",
-						"chinese": "任务啊，要一起去看看吗",
-						"chineseTL": "Task huh, want to take a look together?",
+						"event": "Mission reminder",
+						"media": "task",
+						"chinese": "任务啊，要一起去看看吗～？",
+						"chineseTL": "",
 						"chineseNote": "",
 						"japanese": "奉公か。見にいくかえ？",
-						"japaneseTL": "Public duties? Shall we go and take a look?",
+						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Duties, eh. How's about we go give it a look?",
 						"englishNote": ""
 					},
 					"12": {
-						"event": "Mission Complete",
+						"event": "Mission complete",
 						"media": "mission_complete",
 						"chinese": "嗯？任务完成的奖励下发了？运输奖励物资的时候可不能大意哦！",
-						"chineseTL": "Hmm? The rewards for task completion are here? Don't get careless when transporting them!",
+						"chineseTL": "",
 						"chineseNote": "",
 						"japanese": "はて？奉公の給金かえ?どれ、運ぶ時は気を使うんじゃぞ！",
-						"japaneseTL": "Hmm? Pays from public duties? Be careful while transporting them!",
+						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Hm? Payment for those duties? Right then, take care bringing 'em here!",
 						"englishNote": ""
 					},
 					"13": {
-						"event": "Mail",
+						"event": "Mail reminder",
 						"media": "mail",
 						"chinese": "信啊…不会又是从白鹰那寄来的吧…",
-						"chineseTL": "Mail huh...It couldn't be from the Eagle Empire again, is it...",
+						"chineseTL": "",
 						"chineseNote": "",
 						"japanese": "伝書…ユニオンのお使い、じゃないのかのう…",
-						"japaneseTL": "Mail...not from the Union, would they...",
+						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Mail, eh... It ain't an errand from the Union, is it...?",
 						"englishNote": ""
 					},
 					"14": {
-						"event": "Return from Sortie",
-						"media": "return_from_sortie",
-						"chinese": "嗯哼，今天也平安了回来了呢，来尝尝我特制的健康饮料吧~~来吧，不要客气",
-						"chineseTL": "Hmm, we came back safe and sound today as well. Come try my special-made wellness drink~ Come on, don't be shy.",
+						"event": "Return to port",
+						"media": "home",
+						"chinese": "嗯哼，今天也平安回来了呢！作为奖励，给你喝我特制的健康饮料吧！来来～不要客气～",
+						"chineseTL": "",
 						"chineseNote": "",
 						"japanese": "そら、今日も無事帰れたのう！褒美にわっちの栄養飲料でも飲め！ほれほれ～遠慮せんで",
-						"japaneseTL": "Here, got back home safe and sound today too! You can even have my rewarded nutritious drink! Here here~don't be shy.",
+						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Look at you, back safe and sound! Reward yourself with a sip of my nutritious drink! Hey now, don't be shy~!",
 						"englishNote": ""
 					},
 					"15": {
-						"event": "Commission Complete",
-						"media": "commission_complete",
+						"event": "Commission complete",
+						"media": "expedition",
 						"chinese": "今天也平安完成远征回来了呢！嗯嗯，很好！",
-						"chineseTL": "They came back from the commission safe and sound today as well! Hmm, nice job!",
+						"chineseTL": "",
 						"chineseNote": "",
-						"japanese": "今日も委託とやらを無事来なしたか。うむ、大儀じゃ！",
-						"japaneseTL": "You all come back from commissions safely today as well. Great job!",
+						"japanese": "今日も委託とやらを無事こなしたか。うむ、大儀じゃ！",
+						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Guess the commission team's back again all in one piece. Hum hum, splendid!",
 						"englishNote": ""
 					},
 					"16": {
-						"event": "Enhancement",
-						"media": "enhancement",
-						"chinese": "状态绝佳~嘻嘻，感觉又能大闹一场了呢~",
-						"chineseTL": "My condition is perfect~ Hehe, feels like I can go wreck havoc again~",
+						"event": "Enhancing complete",
+						"media": "upgrade",
+						"chinese": "状态绝佳～嘻嘻，感觉又能大闹一场了呢～",
+						"chineseTL": "",
 						"chineseNote": "",
 						"japanese": "うむ、元気溌剌じゃ~（笑）これでまた大暴れできるよのう~",
-						"japaneseTL": "UmU, all strong and lively now~ Oho, I feel like I can go wreck havoc again~",
+						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Yup, I'm just oozing with energy~ Hoho~! Now I can go on another rampage~",
 						"englishNote": ""
 					},
 					"17": {
-						"event": "Sortie Start",
-						"media": "sortie_start",
-						"chinese": "注意鱼雷和潜艇，全力以赴的上吧。",
-						"chineseTL": "Watch out for torpedoes and submarines. Let's give our all.",
+						"event": "Flagship fight",
+						"media": "warcry",
+						"chinese": "注意潜艇和鱼雷～全力以赴地上吧！",
+						"chineseTL": "",
 						"chineseNote": "",
 						"japanese": "潜水艦と魚雷には注意せえ。全力で行くのじゃ！",
-						"japaneseTL": "Keep a look out for torpedoes and submarines. Going out at full force!",
+						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Watch out for them submarines and torpedoes. Full speed ahead!",
 						"englishNote": ""
 					},
 					"18": {
-						"event": "MVP",
+						"event": "Victory",
 						"media": "mvp",
-						"chinese": "看到了吗，这就是年长者的实力！",
-						"chineseTL": "Did you see that? That's the power of a senior!",
+						"chinese": "看到了吗！这就是年长者的实力！",
+						"chineseTL": "",
 						"chineseNote": "",
 						"japanese": "ほれ！これぞ年季による実力じゃ!",
-						"japaneseTL": "Look at this! This is a veteran's skill!",
+						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "You see this? This is what years of experience looks like!",
 						"englishNote": ""
 					},
 					"19": {
 						"event": "Defeat",
-						"media": "defeat",
-						"chinese": "呜咕·······果然性能已经跟不上了吗",
-						"chineseTL": "Guu...my performance cannot keep up huh.",
+						"media": "lose",
+						"chinese": "呜咕……果然性能已经跟不上了吗……",
+						"chineseTL": "",
 						"chineseNote": "",
 						"japanese": "うぐぅ…この性能じゃやはり追いつけんかのう…",
-						"japaneseTL": "Ugh...so my performance just can't catch up...",
+						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Ugh... Should've known I can't keep up like this...",
 						"englishNote": ""
 					},
 					"20": {
-						"event": "Skill Activation",
-						"media": "skill_activation",
-						"chinese": "抱歉，现在没单挑的时间呦",
-						"chineseTL": "Sorry, now is not the time for a duel.",
+						"event": "Skills",
+						"media": "skill",
+						"chinese": "抱歉，现在没单挑的时间哟",
+						"chineseTL": "",
 						"chineseNote": "",
-						"japanese": "一騎打とはいかずすまんのう",
-						"japaneseTL": "Now is not the time to duel.",
+						"japanese": "一騎打ちとはいかずすまんのう",
+						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Sorry, ain't got time for one-on-ones.",
 						"englishNote": ""
 					},
 					"21": {
-						"event": "Low Health",
-						"media": "low_health",
-						"chinese": "",
+						"event": "Upset",
+						"media": "feeling1",
+						"chinese": "指挥官…意外地没什么意思呢……",
 						"chineseTL": "",
 						"chineseNote": "",
-						"japanese": "",
+						"japanese": "指揮官は存外つまらぬ輩よのう",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "You're more boring than I ever imagined, Commander.",
 						"englishNote": ""
 					},
 					"22": {
-						"event": "Affinity (Disappointed)",
-						"media": "affinity_disappointed",
-						"chinese": "指挥官…意外地没什么意思呢……",
-						"chineseTL": "Commander...is surprisingly boring...",
+						"event": "Stranger",
+						"media": "feeling2",
+						"chinese": "只有愚者和菜鸟，才会用装备新旧来评估舰船的实力哟，指挥官～",
+						"chineseTL": "",
 						"chineseNote": "",
-						"japanese": "指揮官は存外つまらぬ輩よのう",
-						"japaneseTL": "Commander is one surprisingly boring fellow.",
+						"japanese": "指揮官。装備を新旧で評するのは丁稚三下のすることじゃ",
+						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Commander, only rookies and small-timers judge equipment by how new it is.",
 						"englishNote": ""
 					},
 					"23": {
-						"event": "Affinity (Stranger)",
-						"media": "affinity_stranger",
-						"chinese": "只有愚者和菜鸟，才会用装备新旧来评估舰船的实力哟，指挥官～",
-						"chineseTL": "Only fools and rookies would judge a ship's performance by the age of their equipment, Commander~",
+						"event": "Friendly",
+						"media": "feeling3",
+						"chinese": "嗯？平时的兴趣？吃饭睡觉逗指挥官？啊哈哈，没错，就是喜欢看指挥官这种一脸困扰的表情～",
+						"chineseTL": "",
 						"chineseNote": "",
-						"japanese": "指揮官。装備を新旧で評するのは丁稚三下のすることじゃ",
-						"japaneseTL": "Commander. Only rookies would judge by equipment and age.",
+						"japanese": "趣味？三度の寝食に指揮官をいじることかのう。（大笑い）その顔が見たかったのじゃ",
+						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "My hobbies? 3 rounds of food and sleep and a bit of teasin' you. Hohoho~! That look there is what I wanted to see.",
 						"englishNote": ""
 					},
 					"24": {
-						"event": "Affinity (Friendly)",
-						"media": "affinity_friendly",
-						"chinese": "嗯？平时的兴趣？吃饭睡觉逗指挥官？啊哈哈，没错，就是喜欢看指挥官这种一脸困扰的表情～",
-						"chineseTL": "Hmm? My hobbies? It's eating, sleeping and teasing the Commander. Ahaha, that's right, I like seeing the confused look on the Commander just like now~",
+						"event": "Crush",
+						"media": "feeling4",
+						"chinese": "嘻嘻，指挥官喜欢什么类型的女孩子呢～？像我这种的？还是更文静点的？——真的？录音完毕～哼哼，要给谁听好呢～",
+						"chineseTL": "",
 						"chineseNote": "",
-						"japanese": "趣味？三度の寝食に指揮官をいじることかのう。（大笑い）その顔が見たかったのじゃ",
-						"japaneseTL": "My hobby? Hmm...3 rounds of eat and sleep with a side of teasing the commander. Ho~ho ho ho. I just like to see that face.",
+						"japanese": "はて、指揮官はどんな子が好みかのう～わっち？それともおしとやかな？ーーそれはまことか？そーれ、しかと録音したわい☆はて、その子に聞かせてやろうかのう-",
+						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Well, Commander, what type of girl do you fancy~? Me? Maybe someone more refined? ... But is that really true? Right, I've got that on tape now~! Now the question is: who will I play it to~?",
 						"englishNote": ""
 					},
 					"25": {
-						"event": "Affinity (Like)",
-						"media": "affinity_like",
-						"chinese": "嘻嘻，指挥官喜欢什么类型的女孩子呢～？像我这种的？还是更文静点的？——真的？录音完毕～哼哼，要给谁听好呢～",
-						"chineseTL": "Hehe, what type of girls does the Commander like?~ Ones like me? Or perhaps the quieter type? ——Really? Alright, recording completed~ Hng hng, who shall I play it to~",
+						"event": "Love",
+						"media": "feeling5",
+						"chinese": "（悄声）最喜欢指挥官了～——嗯？指挥官很热吗～？耳根都红了呢～",
+						"chineseTL": "",
 						"chineseNote": "",
-						"japanese": "はて、指揮官はどんな子が好みかのう～わっち？それともおしとやかな？ーーそれはまことか？そーれ、しかと録音したわい☆はて、その子に聞かせてやろうかのう-",
-						"japaneseTL": "Hmm, Which type of girl would the Commander like~~ is it me? Or someone more gentle? ...Is that true? And...here, cleanly recorded☆ Now, should I let that kid hear this...",
+						"japanese": "（小声）指揮官…お主のこと、気に入っているのじゃ♡ーーはて、指揮官、顔が熱いのう~耳元まで真っ赤になっとるえ",
+						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Commander... Ya know, I like you~ Oh dear, your face is all red~ So red it's even reached your ears~!",
 						"englishNote": ""
 					},
 					"26": {
-						"event": "Affinity (Love)",
-						"media": "affinity_love",
-						"chinese": "（悄声）最喜欢指挥官了～——嗯？指挥官很热吗～？耳根都红了呢～",
-						"chineseTL": "*Whispers* I love the Commander~ ——Hmm? Does the Commander feel hot?~ Your ears are bright red~",
+						"event": "Promise",
+						"media": "propose",
+						"chinese": "指挥官，现在还有反悔的时间哦~嗯嗯，你可以慢慢想，多考虑一点神风的事情也没关系的~嗯？门？哎呀，被谁不小心锁上了呢，真是太不小心了~",
+						"chineseTL": "",
 						"chineseNote": "",
-						"japanese": "（小声）指揮官…お主のこと、気に入っているのじゃ♡ーーはて、指揮官、顔が熱いのう~耳元まで真っ赤になっとるえ",
-						"japaneseTL": "(Mumbling) Commander...I, like you♡ ...Hmm, Commander's face is all red~it's up to your ears.",
+						"japanese": "指揮官、今ならまだ翻意しても遅うないぞ～そうそう、じっくり、この神風のことをようお考え遊ばせ～うん？扉？はて、どうやら鍵をかけておったわい～まったく困ったものよのう～",
+						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Commander, it ain't too late to change your mind yet~ Yeah, that's it, take your time thinking about me~ Hm? The door? Oh no, it looks like it's been locked shut~ What will we do~?",
 						"englishNote": ""
 					},
 					"27": {
-						"event": "Pledge",
-						"media": "pledge",
-						"chinese": "指挥官，现在还有反悔的时间哦~嗯嗯，你可以慢慢想，多考虑一点神风的事情也没关系的~嗯？门？哎呀，被谁不小心锁上了呢，真是太不小心了~",
-						"chineseTL": "Commander, you still have time to back down now~ Yes, it's alright if you take your time and consider~ Hmm? The door? Oh my, who could have locked it by accident, how unfortunate~",
-						"chineseNote": "",
-						"japanese": "指揮官、今ならまだ翻意しても遅うないぞ～そうそう、じっくり、この神風のことをようお考え遊ばせ～うん？扉？はて、どうやら鍵をかけておったわい～まったく困ったものよのう～",
-						"japaneseTL": "Commander, it's still not too late to take that back now~that's right, no rush, this Kamikaze do like that idea~ huh? The door? Oh dear, the door appears to be locked~truly unfortunate~",
-						"japaneseNote": "",
-						"english": "",
-						"englishNote": ""
-					},
-					"28": {
-						"event": "Easter Egg 1 ",
-						"media": "easter_egg_1",
-						"chinese": "",
+						"event": "Easter Egg 1()",
+						"media": "link1",
+						"chinese": "又能并肩作战了呢！",
 						"chineseTL": "",
 						"chineseNote": "",
-						"japanese": "(???) まだ共に戦えるよのう～",
-						"japaneseTL": "We can still fight together~",
-						"japaneseNote": "",
-						"english": "",
-						"englishNote": ""
-					},
-					"29": {
-						"event": "Valentines 2018",
-						"media": "",
-						"chinese": "",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "「指揮官のことが大好きです！受け取ってください！」…うむうむ、これはこれで青春なのじゃ♪",
+						"japanese": "まだ共に戦えるよのう～",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
-						"englishNote": ""
-					},
-					"30": {
-						"event": "Valentines 2019",
-						"media": "",
-						"chinese": "“指挥官，给你充满我爱情的巧克力！张嘴，啊～♡”快看快看，是情人节巧克力哦～！",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "「指揮官、わっちの愛情たっぷりのチョコをあげる！はい、あーん♡」ほれほれ、バレンタインチョコじゃぞ～！",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "",
+						"english": "It's time for us to stand together again!",
 						"englishNote": ""
 					}
 				}
 			},
 			"2": {
-				"label": "Retrofit",
+				"skin_id": "shenfeng_g",
+				"id": "9",
+				"label": "Kamikaze (Retrofit) ",
 				"dialogue": {
 					"1": {
-						"event": "Acquisition",
-						"media": "acquisition",
-						"chinese": "",
+						"event": "Ship Description",
+						"media": "",
+						"chinese": "嘻嘻，选我进行改造，指挥官的品味不错嘛～嗯哼，可不能让人笑话我们的指挥官没有眼光呢，就让你看看老将的志气吧～",
 						"chineseTL": "",
 						"chineseNote": "",
-						"japanese": "",
+						"japanese": "うっふっふー、わっちを「改造」するなんて、指揮官もお目が高いよのう～こうなった以上、選んでくれた指揮官に恥をかかせるわけにはいかぬな。どれ、この年寄りの意地、とくとご覧あそばせ～",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Ohohoho, you must have a sharp eye if you've decided to retrofit me~ Now that I've been chosen, I cannot afford to embarrass you. Now, take a good and thorough look at this veteran's aspirations~",
 						"englishNote": ""
 					}
 				}
 			}
 		}
-	},
-	"retrofit": {
-		"1": {
-			"nodeSettings": "retronode, a1, n y y n",
-			"stat": "reload, base, Reload +5",
-			"stage": "1",
-			"desc": "Reload Enhancement I",
-			"level": "5",
-			"limitBreak": "★★☆☆☆",
-			"material": "bpt1 2, gold 400"
-		},
-		"2": {
-			"nodeSettings": "retronode, a2, y y n n",
-			"stat": "hp, base, HP +45",
-			"stage": "1",
-			"desc": "Hull Improvement I",
-			"level": "1",
-			"limitBreak": "★★☆☆☆",
-			"material": "bpt1 1, gold 300"
-		},
-		"3": {
-			"nodeSettings": "line, b1, n y n y"
-		},
-		"4": {
-			"nodeSettings": "retronode, b2, n y y y",
-			"stat": "torpedo, efficiency, Torpedo Efficiency +5%",
-			"stage": "1",
-			"desc": "Torpedo Improvement I",
-			"level": "20",
-			"limitBreak": "★★★☆☆",
-			"material": "bpt1 3, gold 600"
-		},
-		"5": {
-			"nodeSettings": "retronode, b3, y n n n",
-			"stat": "torpedo, base, Torpedo +10",
-			"stage": "1",
-			"desc": "Torpedo Enhancement I",
-			"level": "25",
-			"limitBreak": "★★★☆☆",
-			"material": "bpt1 3, gold 800"
-		},
-		"6": {
-			"nodeSettings": "line, c1, n y n y"
-		},
-		"7": {
-			"nodeSettings": "retronode, c2, n y y y",
-			"stat": "antiair, efficiency, Anti-Air Efficiency +5%",
-			"stage": "1",
-			"desc": "Anti-Air Improvement I",
-			"level": "35",
-			"limitBreak": "★★★★☆",
-			"material": "bpt1 3, gold 1000"
-		},
-		"8": {
-			"nodeSettings": "retronode, c3, y n n n",
-			"stat": "antiair, base, Anti-Air +15",
-			"stage": "1",
-			"desc": "Anti-Air Enhancement I",
-			"level": "40",
-			"limitBreak": "★★★★☆",
-			"material": "bpt1 4, gold 1200"
-		},
-		"9": {
-			"nodeSettings": "line, d1, n y n y"
-		},
-		"10": {
-			"nodeSettings": "retronode, d2, n y y y",
-			"stat": "speed, base, Speed +3",
-			"stage": "1",
-			"desc": "Power Enhancement I",
-			"level": "50",
-			"limitBreak": "★★★★☆",
-			"material": "bpt2 3, gold 1500"
-		},
-		"11": {
-			"nodeSettings": "retronode, d3, y y n n",
-			"stat": "skill, offensive, Learn skill \"First Destroyer\"",
-			"stage": "1",
-			"desc": "Tactical Learning",
-			"level": "55",
-			"limitBreak": "★★★★☆",
-			"material": "bpt2 3, gold 1800"
-		},
-		"12": {
-			"nodeSettings": "retronode, e1, n y y y",
-			"stat": "reload, base, Reload +15",
-			"stage": "2",
-			"desc": "Reload Enhancement II",
-			"level": "75",
-			"limitBreak": "★★★★★",
-			"material": "bpt2 4, gold 5000"
-		},
-		"13": {
-			"nodeSettings": "retronode, e2, y y n y",
-			"stat": "hp, base, HP +120",
-			"stage": "2",
-			"desc": "Reload Enhancement II",
-			"level": "70",
-			"limitBreak": "★★★★★",
-			"material": "bpt2 3, gold 4000"
-		},
-		"14": {
-			"nodeSettings": "line, e3, n y n y"
-		},
-		"15": {
-			"nodeSettings": "line, f1, n n y y"
-		},
-		"16": {
-			"nodeSettings": "retronode, f2, y n y y",
-			"stat": "modernization, defensive, Hit +10 / Anti-Air +25",
-			"stage": "1",
-			"desc": "Modernization",
-			"level": "85",
-			"limitBreak": "★★★★★",
-			"material": "bpt3 1, duplicate 1, gold 3000"
-		},
-		"17": {
-			"nodeSettings": "line, f3, y n n y"
-		}
-	},
-	"retroParameter": "Elite, Destroyer, 2"
+	}
 }

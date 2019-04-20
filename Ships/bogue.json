@@ -1,0 +1,684 @@
+{
+	"name_reference" : "bogue",
+	"cn_reference" : "boge",
+	"nameJP" : "ボーグ",
+	"nameCN" : "博格",
+	"ID" : "71",
+	"name" : "Bogue",
+	"internal_id" : "106021",
+	"rarity" : "Common",
+	"initialStar" : "★☆☆☆",
+	"hull" : "Light Aircraft Carrier",
+	"navy" : "Eagle Union",
+	"prefix" : "USS",
+	"buildTime" : "",
+	"class" : "Bogue",
+	"voiceActress" : "Koharu Nogata",
+	"parameters": {
+		"firepower" : "E",
+		"torpedo" : "E",
+		"aviation" : "B",
+		"evasion" : "D",
+		"antiAir" : "B",
+		"hp" : "C"
+	},
+	"scrap": {
+		"gold" : "7",
+		"oil" : "3",
+		"medal" : "0"
+	},
+	"releaseDate": {
+		"JP" : "",
+		"CN" : "",
+		"KR" : "",
+		"EN" : ""
+	},
+	"artist": {
+		"name" : "",
+		"weibo" : "",
+		"twitter" : "",
+		"pixiv" : "",
+		"other" : ""
+	},
+	"enhance": {
+		"firepower" : "0",
+		"torpedo" : "0",
+		"aviation" : "34",
+		"reload" : "12"
+	},
+	"acquisitionMethod" : "Honor medal exchange, Explore Stage2-1, Light/Special Construction",
+	"skill": {
+		"1" : {
+			"icon" : "3001",
+			"requirement" : "",
+			"name" : "Quick Takeoff",
+			"type" : "Offensive",
+			"description" : "When this ship launches an Airstrike: $1 chance to make the next Airstrike available immediately."
+		},
+		"2" : {
+			"icon" : "1045",
+			"requirement" : "",
+			"name" : "Anti-Air Command: Main Fleet",
+			"type" : "Support",
+			"description" : "Increases the AA of all friendlies in the Main Fleet by $1. Does not stack with the same skill."
+		}
+	},
+	"skin": {
+		"1" : {
+			"id" : "boge",
+			"name" : "Bogue",
+			"description" : "Bogue-class escort carrier — Bogue, Hull Number CVE-9!",
+			"expression" : {
+				"0" : {
+					"id" : "0"
+				}
+			}
+		},
+		"2" : {
+			"id" : "boge_g",
+			"name" : "Bogue (Retrofit)",
+			"description" : "Commander, there's no need to be so afraid. There are only two things my balls hit-- Enemies, and victory! Ah, sometimes they do hit the windows too, ahaha...",
+			"expression" : {
+				"0" : {
+					"id" : "0"
+				}
+			}
+		}
+	},
+	"defaultEquipment": {
+		"1" : {
+			"icon" : "17000",
+			"rarity" : "",
+			"name" : "F2A Buffalo"
+		},
+		"1" : {
+			"icon" : "19000",
+			"rarity" : "",
+			"name" : "SBD Dauntless"
+		},
+		"3" : {
+			"icon" : "",
+			"rarity" : "",
+			"name" : ""
+		}
+	},
+	"stats": {
+		"base": {
+			"hp" : "654",
+			"firepower" : "0",
+			"torpedo" : "0",
+			"antiAir" : "47",
+			"aviation" : "52",
+			"reload" : "66",
+			"hit" : "28",
+			"evasion" : "15",
+			"speed" : "18",
+			"luck" : "78",
+			"asw" : "36",
+			"oxygen" : "0",
+			"ammo" : "0",
+			"cost" : "2",
+			"armor" : "Medium"
+		},
+		"100": {
+			"hp" : "3379",
+			"firepower" : "0",
+			"torpedo" : "0",
+			"antiAir" : "219",
+			"aviation" : "244",
+			"reload" : "156",
+			"hit" : "72",
+			"evasion" : "39",
+			"speed" : "18",
+			"luck" : "78",
+			"asw" : "131",
+			"oxygen" : "0",
+			"ammo" : "0",
+			"cost" : "9",
+			"armor" : "Medium"
+		},
+		"120": {
+			"hp" : "3953",
+			"firepower" : "0",
+			"torpedo" : "0",
+			"antiAir" : "252",
+			"aviation" : "279",
+			"reload" : "179",
+			"hit" : "86",
+			"evasion" : "67",
+			"speed" : "18",
+			"luck" : "78",
+			"asw" : "148",
+			"oxygen" : "0",
+			"ammo" : "0",
+			"cost" : "9",
+			"armor" : "Medium"
+		},
+		"100retrofit": {
+			"hp" : "3589",
+			"firepower" : "0",
+			"torpedo" : "0",
+			"antiAir" : "254",
+			"aviation" : "304",
+			"reload" : "161",
+			"hit" : "72",
+			"evasion" : "39",
+			"speed" : "18",
+			"luck" : "78",
+			"asw" : "131",
+			"oxygen" : "0",
+			"ammo" : "0",
+			"cost" : "9",
+			"armor" : "Medium"
+		},
+		"120retrofit": {
+			"hp" : "4163",
+			"firepower" : "0",
+			"torpedo" : "0",
+			"antiAir" : "287",
+			"aviation" : "339",
+			"reload" : "184",
+			"hit" : "86",
+			"evasion" : "67",
+			"speed" : "18",
+			"luck" : "78",
+			"asw" : "148",
+			"oxygen" : "0",
+			"ammo" : "0",
+			"cost" : "9",
+			"armor" : "Medium"
+		}
+	},
+	"limitBreak": {
+		"tier1": "All fighters +1/Fighter efficiency +5%",
+		"tier2": "Hangar capacity +1/Max Dive Bombers +1/Fighter efficiency +10%",
+		"tier3": "All aircraft +1/Dive Bomber efficiency +15%"
+	},
+	"equipmentLoadout": {
+		"1": {
+			"type": "Fighter",
+			"efficiency": "115%/120%/130%/130%",
+			"amount": "1/2/2/3",
+			"preload": "0/0/0/0"
+		},
+		"2": {
+			"type": "Dive Bomber",
+			"efficiency": "115%/115%/115%/130%",
+			"amount": "1/1/2/3",
+			"preload": "0/0/0/0"
+		},
+		"3": {
+			"type": "Anti-Air Gun",
+			"efficiency": "80%/80%/80%/80%",
+			"amount": "1/1/1/1",
+			"preload": "0/0/0/0"
+		},
+		"4": {
+			"type": "Auxilary",
+			"efficiency": "-",
+			"amount": "-",
+			"preload": "-"
+		},
+		"5": {
+			"type": "Auxilary",
+			"efficiency": "-",
+			"amount": "-",
+			"preload": "-"
+		}
+	},
+	"build": {
+		"light": {
+			"JP": "",
+			"CN": "",
+			"EN": ""
+		},
+		"heavy": {
+			"JP": "",
+			"CN": "",
+			"EN": ""
+		},
+		"special": {
+			"JP": "",
+			"CN": "",
+			"EN": ""
+		},
+		"limited": {
+			"JP": "",
+			"CN": "",
+			"EN": ""
+		}
+	},
+	"drop": {
+		"droppable": "false",
+		"list": {
+			"1": {
+				"event": "",
+				"chapter": {
+					"1": {
+						"label": "Ch .1",
+						"node": {
+							"1": {
+								"drop": "✓",
+								"note": "-"
+							}
+						}
+					}
+				}
+			}
+		}
+	},
+	"lines": {
+		"skin": {
+			"1": {
+				"skin_id" : "boge",
+				"id" : "0",
+				"label" : "Bogue",
+				"dialogue" : {
+					"1" : {
+						"event" : "Ship Description",
+						"media" : "",
+						"chinese" : "博格级护航航空母舰—博格，舷号CVE-9",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "ボーグ級護衛空母・ボーグ（CVE-9)",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Bogue-class escort carrier — Bogue, Hull Number CVE-9!",
+						"englishNote" : ""
+					},
+					"2" : {
+						"event" : "Biography",
+						"media" : "profile",
+						"chinese" : "我是职业棒球手博格！ 嗯，我的最佳战绩是一场大赛中三振了12个对方投手！ 希望能在指挥官教练身边继续磨练技巧，成为职棒最闪耀的一颗明星！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "私はプロ野球選手ボーグ！はい、一番の成績は一試合で12回も三振を奪ったことよ！指揮官のそばで実力を磨いて、プロリーグの一番星になってみせるわ！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "I am pro baseballer, Bogue! Yep, my greatest record is 12 strikeouts in a single match! I wish to sharpen my skills by your side, and become the shining star of the Major League!",
+						"englishNote" : ""
+					},
+					"3" : {
+						"event" : "Receive",
+						"media" : "get",
+						"chinese" : "呼——哈！手感不错……哎呀，失敬，你就是指挥官教练吗，速球投手博格，向您报到！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "フー、ハッ！いい感じ…あら、失礼、あなたが指揮官ね。速球投手ボーグ、よろしく！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "*inhale*...HAA! Nice one... Oh, apologies. You're the Commander, I see. Fast pitcher, Bogue, here for duty!",
+						"englishNote" : ""
+					},
+					"4" : {
+						"event" : "Log in",
+						"media" : "login",
+						"chinese" : "一流的投手，是时刻都在练习，的！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "一流の投手は、いつでも練習するもの、よ！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "The best pitchers are always training. Yep!",
+						"englishNote" : ""
+					},
+					"5" : {
+						"event" : "View details",
+						"media" : "detail",
+						"chinese" : "请把我的数据牢记心底吧！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "私のデータを心に刻んで！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Please keep my stats in mind!",
+						"englishNote" : ""
+					},
+					"6" : {
+						"event" : "Main screen 1",
+						"media" : "main_1",
+						"chinese" : "我这一球过去，可能会有一艘潜艇会沉",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "この一球で、潜水艦だって沈めてみせるわよ！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "With this ball, I can sink a submarine!",
+						"englishNote" : ""
+					},
+					"7" : {
+						"event" : "Main screen 2",
+						"media" : "main_2",
+						"chinese" : "指挥官！来帮我擦擦B25",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "指揮官！B-25を拭いてくれる？",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Commander, can you polish the B-25s?",
+						"englishNote" : ""
+					},
+					"8" : {
+						"event" : "Main screen 3",
+						"media" : "main_3",
+						"chinese" : "好无聊……指挥官好像很累的样子，我只能去炸鱼了",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "つまんない…指揮官は疲れてるみたいだし、サクッと潜水艦でも撃沈してこようかな",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Boring... You look tired anyway, Commander, so let's go and sink some subs?",
+						"englishNote" : ""
+					},
+					"9" : {
+						"event" : "Normal touch",
+						"media" : "touch_1",
+						"chinese" : "这是抗外界干扰的训练吗？",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "何これ、外部からの攻撃に耐える訓練？",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "What's this? Training to resist against attacks?",
+						"englishNote" : ""
+					},
+					"10" : {
+						"event" : "Special touch",
+						"media" : "touch_2",
+						"chinese" : "哇！！指挥官，这也太卑鄙了！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "わっ！！指揮官、ひどいじゃない！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Waah!! Commander, that's mean!",
+						"englishNote" : ""
+					},
+					"11" : {
+						"event" : "Mission reminder",
+						"media" : "task",
+						"chinese" : "新的指标吗？我博格是不会退缩的！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "新しい目標？決してひるまないわ！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "A new goal? I will not back down!",
+						"englishNote" : ""
+					},
+					"12" : {
+						"event" : "Mission complete",
+						"media" : "mission_complete",
+						"chinese" : "完成指标后的奖励总是让人格外高兴啊，指挥官，快开起来看看吧！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "目標達成の褒美は嬉しいなぁ！指揮官、開けてみてよ！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "It's satisfying to be rewarded for achieving the objective! Commander, check out the rewards!",
+						"englishNote" : ""
+					},
+					"13" : {
+						"event" : "Mail reminder",
+						"media" : "mail",
+						"chinese" : "指挥官，有新的信件！快看看是哪里比赛的邀请函吗？",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "指揮官、メールだよ！どこかの大会の招待か？",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Commander, it's a mail! Which championship is it from?",
+						"englishNote" : ""
+					},
+					"14" : {
+						"event" : "Return to port",
+						"media" : "home",
+						"chinese" : "指挥官不愧是老手，我获益匪浅",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "指揮官、流石のベテランね！いい勉強になった！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Commander, you are a real veteran! That was a learning experience!",
+						"englishNote" : ""
+					},
+					"15" : {
+						"event" : "Commission complete",
+						"media" : "expedition",
+						"chinese" : "曲线球——！哎呀，玻璃打碎了……咦，指挥官，委托组回来了！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "カーブーー！あっちゃーガラス割っちゃった……あ、指揮官、委託軍戻ってきたわ！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Curveball~! Oh crap I broke the window... Ah, Commander, the commission squad is back!",
+						"englishNote" : ""
+					},
+					"16" : {
+						"event" : "Enhancing complete",
+						"media" : "upgrade",
+						"chinese" : "我的球还能更快！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "私のボール、もっと早くなれるわ！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "My balls have become even faster!",
+						"englishNote" : ""
+					},
+					"17" : {
+						"event" : "Flagship fight",
+						"media" : "warcry",
+						"chinese" : "去吧，变速球！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "ゆけ、変化球！！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Go, curveball!",
+						"englishNote" : ""
+					},
+					"18" : {
+						"event" : "Victory",
+						"media" : "mvp",
+						"chinese" : "哼哼，果然我才是最佳投手",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "ふふん、最優秀投手はやっぱりこの私ね",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Hmhmm~ As I thought, I am the best pitcher.",
+						"englishNote" : ""
+					},
+					"19" : {
+						"event" : "Defeat",
+						"media" : "lose",
+						"chinese" : "这场淘汰赛只能止步于此了吗……",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "このトーナメントもこれで終わりか…",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Is this the end of the tournament...?",
+						"englishNote" : ""
+					},
+					"20" : {
+						"event" : "Skills",
+						"media" : "skill",
+						"chinese" : "去吧！我灵魂的一球！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "ゆけ！我が渾身の一球！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Fly, my fastball!",
+						"englishNote" : ""
+					},
+					"21" : {
+						"event" : "Upset",
+						"media" : "feeling1",
+						"chinese" : "指挥官真的能让我变强吗，我很怀疑……",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "指揮官は私を強くすることができるのかな…とても心配……",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Can you really make me stronger, Commander? ...I'm really worried...",
+						"englishNote" : ""
+					},
+					"22" : {
+						"event" : "Stranger",
+						"media" : "feeling2",
+						"chinese" : "我期待着有一天，能在指挥官的带领下登上这片大海的领奖台",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "いつか、指揮官の元でこの海の表彰台に立ちたい！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Someday, I hope to stand on the podium of the sea with your lead!",
+						"englishNote" : ""
+					},
+					"23" : {
+						"event" : "Friendly",
+						"media" : "feeling3",
+						"chinese" : "指挥官总是能给我正确的意见，不愧是名教练！投手博格，一生都会追随您！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "指揮官はいつも正しい意見をくれてる！さっすが名監督！投手ボーグ、一生ついていきます！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "You always give me the right ideas, Commander! As expected of a great coach! I, Bogue the pitcher, will follow you for life!",
+						"englishNote" : ""
+					},
+					"24" : {
+						"event" : "Crush",
+						"media" : "feeling4",
+						"chinese" : "指挥官，投，投手博格申请进行额外辅导！内容是如何解决听到指挥官的声音就浑身发软的症状！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "指揮官！と、投手ボーグ、特別指導をお願いします！内容は、指揮官の声を聞くと力が入らなくなることをどうするか…です！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Commander! I, Bogue, am requesting special training! The reason is, whenever I hear your voice, I lose my strength so I want to know how to prevent that... That's all!",
+						"englishNote" : ""
+					},
+					"25" : {
+						"event" : "Love",
+						"media" : "feeling5",
+						"chinese" : "指，指挥官，这次拿下冠军以后，我、我有很重要的事情要告诉你！所、所以请耐心等待！我一定会更强，比所有人都强！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "し、指揮官、今度優勝したら大事な話があります！だ、だから待っていてください！私、もっと強く、誰よりも強くなりますから！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Co-Commander. If I win in the next league, I- I'll tell you something important! S- So please wait for it! I will become stronger. Stronger than anyone!",
+						"englishNote" : ""
+					},
+					"26" : {
+						"event" : "Promise",
+						"media" : "propose",
+						"chinese" : "……我明白了，指挥官是察觉到了我的想法，所以想要让我不留遗憾地踏上征途吗…………我博格，发自内心地认为能遇到指挥官真是太好了！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "……私、今わかりました！私の指揮官への思いを察して、遺憾を残さないようにするためですね！……ボーグ、指揮官に出会って本当に良かった！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "...Now I understand! You noticed my feelings, Commander, and you want me to continue my journey without regrets! I, Bogue, am truly happy to have met you!",
+						"englishNote" : ""
+					}
+				}
+			},
+			"2": {
+				"skin_id" : "boge_g",
+				"id" : "9",
+				"label" : "Bogue (Retrofit)",
+				"dialogue" : {
+					"1" : {
+						"event" : "Ship Description",
+						"media" : "",
+						"chinese" : "指挥官，不用那么害怕，我的投球只会击中两种东西——敌人与胜利！啊，偶尔还有玻璃，哈哈！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "指揮官、そんなに怯えなくてもいいわ。私のボールが当たるのは二つーー敵と、勝利だけよ！あ、たまには窓にも当たっちゃうけどね、あはは……",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Commander, there's no need to be so afraid. There are only two things my balls hit-- Enemies, and victory! Ah, sometimes they do hit the windows too, ahaha...",
+						"englishNote" : ""
+					},
+					"2" : {
+						"event" : "Receive",
+						"media" : "get_9",
+						"chinese" : "指挥官，不用那么害怕，我的投球只会击中两种东西——敌人与胜利！啊，偶尔还有玻璃，哈哈！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "指揮官、そんなに怯えなくてもいいわ。私のボールが当たるのは二つーー敵と、勝利だけよ！あ、たまには窓にも当たっちゃうけどね、あはは……",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Commander, there's no need to be so afraid. There are only two things my balls hit-- Enemies, and victory! Ah, sometimes they do hit the windows too, ahaha...",
+						"englishNote" : ""
+					},
+					"3" : {
+						"event" : "Main screen 1",
+						"media" : "main_1_9",
+						"chinese" : "我的目标是大联盟最佳投……呃，最佳反潜手",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "私の目標はメジャーリー……じゃなかった、対潜からの！奪三振王よ!",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "My goal is the Major Le... I mean, submarine fighting, a three strike finish!",
+						"englishNote" : ""
+					},
+					"4" : {
+						"event" : "Main screen 2",
+						"media" : "main_2_9",
+						"chinese" : "指挥官，放心吧。在我护航的时候，还没有姐妹被击沉过呢",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "指揮官、安心して！私が護衛していた頃は一隻だって沈ませなかったわ",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Rest assured, Commander! While I'm doing escort duty, no ships sink under my watch!",
+						"englishNote" : ""
+					},
+					"5" : {
+						"event" : "Main screen 3",
+						"media" : "main_3_9",
+						"chinese" : "没有约克城和列克星敦，或许也就没有今天的我，我得感谢她们才行",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "私がこうしていられるのはヨーキィとレディレックスのお陰でもあるわ。彼女たちには感謝しないとね！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "I am here today because of Yorkie and Lady Lex. I have to give them my thanks!",
+						"englishNote" : ""
+					},
+					"6" : {
+						"event" : "Normal touch",
+						"media" : "touch_1_9",
+						"chinese" : "啊，谢谢你帮我捡球",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "はい！ボール拾いありがとな！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Yes! Thanks for getting my ball!",
+						"englishNote" : ""
+					},
+					"7" : {
+						"event" : "Special touch",
+						"media" : "touch_2_9",
+						"chinese" : "哈哈，这种程度的干扰我已经习以为常了！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "ははん、この程度のかく乱はもう慣れっこよ！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Haha, I'm used to this type of interference now!",
+						"englishNote" : ""
+					}
+				}
+			}
+		}
+	}
+}

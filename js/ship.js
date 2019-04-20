@@ -41,7 +41,7 @@ function init() {
 		console.log(actual_JSON);
 		window.folder = window.folder + actual_JSON.file_id;
 		window.l2dfolder = window.l2dfolder + actual_JSON.file_id;
-		viewer.init(window.folder + "/SD");
+		viewer.init("https://media.alg-wiki.com/assets/char");
 		document.title = actual_JSON.prefix + " " + actual_JSON.name + " - /alg/ Azur Lane General Wiki";
 		document.getElementById("shipHeader").innerHTML = actual_JSON.prefix + " " + actual_JSON.name + " \(JP: " + actual_JSON.nameJP + ", CN: " + actual_JSON.nameCN + "\)";
 		document.getElementById("shipID").innerHTML = actual_JSON.ID;
@@ -74,7 +74,7 @@ function init() {
 		document.getElementById("shipIllusPixivLink").href = actual_JSON.artist.pixiv;
 		document.getElementById("shipIllusOther").innerHTML = actual_JSON.artist.name;
 		document.getElementById("shipIllusOtherLink").href = actual_JSON.artist.other;		
-		document.getElementById("shipIcon").src = window.folder + "/Icon/icon.png";
+		document.getElementById("shipIcon").src = "https://media.alg-wiki.com/assets/squareicon/" + actual_JSON.cn_reference + ".png"; 
 		document.getElementById("shipParameterHP").innerHTML = actual_JSON.parameters.hp;
 		document.getElementById("shipParameterAntiAir").innerHTML = actual_JSON.parameters.antiAir;
 		document.getElementById("shipParameterEvasion").innerHTML = actual_JSON.parameters.evasion;
@@ -352,18 +352,18 @@ function setShipSkinNav(data){
 		var escaped = JSON.stringify(data.skin[x]).replace(/'/g, "\\'");
 		escaped = escaped.replace(/"/g, "\\\"");
 		container.className = 'btnContainer';			
-		container.setAttribute('onclick','onSkinNavButtonClick(\'' + escaped + '\',\''+x+'\')');
+		container.setAttribute('onclick','onSkinNavButtonClick(\'' + escaped + '\',\''+data.skin[x].id+'\')');
 		if (firstIteration){
 			container.innerHTML = 
-			'<img class="btnImage" id="' + "skin" + x + '" src="' + window.folder + "/Icon/skin" + x + ".png" + '"></img>\
-			<div class="btnOverlay activeButton" id="ovr_' + "skin" + x + '"></div>';
+			'<img class="btnImage" id="' + "skin" + data.skin[x].id + '" src="https://media.alg-wiki.com/assets/herohrzicon/' + data.skin[x].id + ".png" + '"></img>\
+			<div class="btnOverlay activeButton" id="ovr_' + "skin" + data.skin[x].id + '"></div>';
 			firstIteration = false;
 			initial = JSON.stringify(data.skin[x]);
-			id = x;
+			id = data.skin[x].id;
 		} else {
 			container.innerHTML = 
-			'<img class="btnImage" id="' + "skin" + x + '" src="' + window.folder + "/Icon/skin" + x + ".png" + '"></img>\
-			<div class="btnOverlay" id="ovr_' + "skin" + x + '"></div>';
+			'<img class="btnImage" id="' + "skin" + data.skin[x].id + '" src="https://media.alg-wiki.com/assets/herohrzicon/' + data.skin[x].id + ".png" + '"></img>\
+			<div class="btnOverlay" id="ovr_' + "skin" + data.skin[x].id + '"></div>';
 		}
 		
 		document.getElementById('shipSkinNav').appendChild(container);
@@ -394,7 +394,7 @@ function onSkinNavButtonClick(raw_skin, skinID){
 function loadShipSkinElements(skin, skinID){
 	document.getElementById("shipSkinDesc").innerHTML = skin.description;
 	document.getElementById("shipSkinName").innerHTML = '<b>' +skin.name+ '</b>';
-	document.getElementById("shipSkinDisplay").src = window.folder + "/Sprite/skin" + skinID + "_expr1.png";
+	document.getElementById("shipSkinDisplay").src = "https://media.alg-wiki.com/assets/painting/" + skinID + ".png";
 	document.getElementById("shipSkinDisplay").style = "max-width:100%;height:auto;visibility: visible;";
 	document.getElementById("l2dContainer").style = "visibility:hidden";
 	document.getElementById("toggleL2d").className = "btnGenericText";
@@ -404,8 +404,8 @@ function loadShipSkinElements(skin, skinID){
     } catch (err){
 
     }
-	if (util.ifFileExists(window.folder + "/SD/skin" + skinID + ".png")){
-		viewer.loadSd("skin" + skinID);
+	if (util.ifFileExists("https://media.alg-wiki.com/assets/char/" + skinID + ".png")){
+		viewer.loadSd(skinID);
 	}
 
 	if (skin.l2d != null){
@@ -431,13 +431,13 @@ function setShipExpressionNav(data, skinID){
 		container.id = "expr_" + x;
 		container.setAttribute('onclick','onExpressionNavButtonClick(\'' + JSON.stringify(data.expression[x]) + '\',\''+x+'\',\''+skinID+'\')');
 		if (firstIteration){
-			container.src = window.folder + "/Icon/skin" + skinID + "_expr" + x + ".png";
+			container.src = "https://media.alg-wiki.com/assets/paintingface/" + skinID + "/" + x + ".png";
 			container.className = "btnExprActive";
 			firstIteration = false;
 			initial = JSON.stringify(data.expression[x]);
 			id = x;
 		} else {
-			container.src = window.folder + "/Icon/skin" + skinID + "_expr" + x + ".png";
+			container.src = "https://media.alg-wiki.com/assets/paintingface/" + skinID + "/" + x + ".png";
 			container.className = "btnExpr";
 		}
 		
@@ -462,7 +462,12 @@ function onExpressionNavButtonClick(raw_expr, exprID, skinID){
 }
 
 function loadShipSkinExpressionElements(expr, exprID, skinID){
-	document.getElementById("shipSkinDisplay").src = window.folder + "/Sprite/skin" + skinID + "_expr" + exprID + ".png";
+	if (exprID == 0){
+		exprID = "";
+	} else {
+		exprID = "-" + exprID;
+	}
+	document.getElementById("shipSkinDisplay").src = "https://media.alg-wiki.com/assets/painting/" + skinID + exprID + ".png";
 }
 
 function toggleL2dButton(skinID){
@@ -545,7 +550,7 @@ function setDefaultEquipment(data){
 		text = text + '\
 		<tr style="text-align:center">\
 			<td style="width:20%">'+i+'</td>\
-			<td style="width:80%">'+data.defaultEquipment[x]+'</td>\
+			<td style="width:80%">'+data.defaultEquipment[x].name+'</td>\
 		</tr>';
 		++i;			
 	}
@@ -579,10 +584,15 @@ function setSkillSet(data){
 			</td>\
 		</tr>';
 	for (var x in data.skill) {
+		var tempid = data.skill[x].icon;
+		if (data.skill[x].icon >= 20000 && data.skill[x].icon < 29000){
+			tempid = Math.floor(tempid/100)*100;
+			tempid = tempid - ((Math.floor(tempid/1000)*1000) - 20000)
+		}
 		text = text + '\
 		<tr>\
 			<td style="text-align:left;padding:10px;white-space: nowrap;">\
-				<img src="'+window.folder+"/Icon/skill"+x+".png"+'" style="height: 64px; width: 64px;">&emsp;'+data.skill[x].name+'\
+				<img src="https://media.alg-wiki.com/assets/skillicon/'+Math.floor(tempid/10)*10+'.png" style="height: 64px; width: 64px;">&emsp;'+data.skill[x].name+'\
 			</td>\
 			<td style="text-align:left;padding:10px">'+data.skill[x].description+'</td>\
 			<td style="padding:10px;white-space: nowrap;">'+data.skill[x].requirement+'</td>\
@@ -710,13 +720,13 @@ function setDialogueSkinNav(data){
 		container.setAttribute('onclick','onDialogueSkinNavButtonClick(\'' + x + '\')');
 		if (firstIteration){
 			container.innerHTML = 
-			'<img class="btnImage" id="diaNav_' + "skin" + x + '" src="' + window.folder + "/Icon/skin" + x + ".png" + '"></img>\
+			'<img class="btnImage" id="diaNav_' + "skin" + x + '" src="' +"https://media.alg-wiki.com/assets/herohrzicon/" + data.skin[x].id + ".png" + '"></img>\
 			<div class="btnOverlay activeButton" id="ovrDia_' + "skin" + x + '"></div>';
 			firstIteration = false;
 			initial = x;
 		} else {
 			container.innerHTML = 
-			'<img class="btnImage" id="' + "skin" + x + '" src="' + window.folder + "/Icon/skin" + x + ".png" + '"></img>\
+			'<img class="btnImage" id="' + "skin" + x + '" src="' +"https://media.alg-wiki.com/assets/herohrzicon/" + data.skin[x].id + ".png" + '"></img>\
 			<div class="btnOverlay" id="ovrDia_' + "skin" + x + '"></div>';
 		}
 		
@@ -773,10 +783,10 @@ function loadShipDialogueElements(skinId){
 			
 					if (actual_JSON.lines.skin[x].dialogue[y].media != ""){
 						text = text + '\
-				<a href="'+window.folder+"/Sound/skin"+skinId+"_"+actual_JSON.lines.skin[x].dialogue[y].media+".ogg"+'" onclick="return false;">\
+				<a href="'+"https://media.alg-wiki.com/assets/voice/"+actual_JSON.cn_reference+"/"+actual_JSON.lines.skin[x].dialogue[y].media+".ogg"+'" onclick="return false;">\
 				<img id="btn_'+skinId+'_'+y+'" onclick="playAudio(\'btn_'+skinId+'_'+y+'\',\'audio_'+skinId+'_'+y+'\')" class="btnAudio" src="Images/sound_off.png"></a>\
 				<audio id="audio_'+skinId+'_'+y+'">\
-				  <source src="'+window.folder+"/Sound/skin"+skinId+"_"+actual_JSON.lines.skin[x].dialogue[y].media+".ogg"+'" type="audio/ogg">\
+				  <source src="'+"https://media.alg-wiki.com/assets/voice/"+actual_JSON.cn_reference+"/"+actual_JSON.lines.skin[x].dialogue[y].media+".ogg"+'" type="audio/ogg">\
 				</audio>';
 				
 					}

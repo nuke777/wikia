@@ -1,0 +1,595 @@
+{
+	"name_reference" : "washington",
+	"cn_reference" : "huashengdun",
+	"nameJP" : "ワシントン",
+	"nameCN" : "华盛顿",
+	"ID" : "64",
+	"name" : "Washington",
+	"internal_id" : "105131",
+	"rarity" : "Super Rare",
+	"initialStar" : "★★★☆☆☆",
+	"hull" : "Battleship",
+	"navy" : "Eagle Union",
+	"prefix" : "USS",
+	"buildTime" : "",
+	"class" : "Carolina",
+	"voiceActress" : "Rika Abe",
+	"parameters": {
+		"firepower" : "A",
+		"torpedo" : "E",
+		"aviation" : "E",
+		"evasion" : "D",
+		"antiAir" : "B",
+		"hp" : "S"
+	},
+	"scrap": {
+		"gold" : "11",
+		"oil" : "4",
+		"medal" : "10"
+	},
+	"releaseDate": {
+		"JP" : "",
+		"CN" : "",
+		"KR" : "",
+		"EN" : ""
+	},
+	"artist": {
+		"name" : "",
+		"weibo" : "",
+		"twitter" : "",
+		"pixiv" : "",
+		"other" : ""
+	},
+	"enhance": {
+		"firepower" : "68",
+		"torpedo" : "0",
+		"aviation" : "0",
+		"reload" : "11"
+	},
+	"acquisitionMethod" : "Event: Fallen Wings",
+	"skill": {
+		"1" : {
+			"icon" : "11000",
+			"requirement" : "",
+			"name" : "Courageous Shelling",
+			"type" : "Offensive",
+			"description" : "$1 chance every 20s: fires a special barrage."
+		},
+		"2" : {
+			"icon" : "11010",
+			"requirement" : "",
+			"name" : "Night of the Iron Bottom Sound",
+			"type" : "Defensive",
+			"description" : "Activates when (friendly only) South Dakota's HP falls below 30.0%: increases the DMG this ship deals by $1, absorbs 30.0% of the DMG South Dakota takes (ignores South Dakota's \"The Strongest Shield\" skill) and makes South Dakota invulnerable for 5s. This skill can only activate once per battle."
+		}
+	},
+	"skin": {
+		"1" : {
+			"id" : "huashengdun",
+			"name" : "Washington",
+			"description" : "North Carolina class battleship, Washington. Hull Number BB-56.",
+			"expression" : {
+				"0" : {
+					"id" : "0"
+				}
+			}
+		}
+	},
+	"defaultEquipment": {
+		"1" : {
+			"icon" : "14300",
+			"rarity" : "Common",
+			"name" : "Triple 406mm MK6 Main Gun"
+		},
+		"2" : {
+			"icon" : "",
+			"rarity" : "",
+			"name" : ""
+		},
+		"1" : {
+			"icon" : "16400",
+			"rarity" : "Rare",
+			"name" : "Quadruple 40mm Bofors Gun"
+		}
+	},
+	"stats": {
+		"base": {
+			"hp" : "1353",
+			"firepower" : "82",
+			"torpedo" : "0",
+			"antiAir" : "79",
+			"aviation" : "0",
+			"reload" : "58",
+			"hit" : "22",
+			"evasion" : "7",
+			"speed" : "28",
+			"luck" : "89",
+			"asw" : "0",
+			"oxygen" : "0",
+			"ammo" : "0",
+			"cost" : "5",
+			"armor" : "Heavy"
+		},
+		"100": {
+			"hp" : "6996",
+			"firepower" : "385",
+			"torpedo" : "0",
+			"antiAir" : "368",
+			"aviation" : "0",
+			"reload" : "138",
+			"hit" : "57",
+			"evasion" : "18",
+			"speed" : "28",
+			"luck" : "89",
+			"asw" : "0",
+			"oxygen" : "0",
+			"ammo" : "0",
+			"cost" : "15",
+			"armor" : "Heavy"
+		},
+		"120": {
+			"hp" : "8080",
+			"firepower" : "421",
+			"torpedo" : "0",
+			"antiAir" : "400",
+			"aviation" : "0",
+			"reload" : "159",
+			"hit" : "70",
+			"evasion" : "33",
+			"speed" : "28",
+			"luck" : "89",
+			"asw" : "0",
+			"oxygen" : "0",
+			"ammo" : "0",
+			"cost" : "15",
+			"armor" : "Heavy"
+		},
+		"100retrofit": {
+			"hp" : "",
+			"firepower" : "",
+			"torpedo" : "",
+			"antiAir" : "",
+			"aviation" : "",
+			"reload" : "",
+			"hit" : "",
+			"evasion" : "",
+			"speed" : "28",
+			"luck" : "89",
+			"asw" : "",
+			"oxygen" : "0",
+			"ammo" : "0",
+			"cost" : "15",
+			"armor" : "Heavy"
+		},
+		"120retrofit": {
+			"hp" : "",
+			"firepower" : "",
+			"torpedo" : "",
+			"antiAir" : "",
+			"aviation" : "",
+			"reload" : "",
+			"hit" : "",
+			"evasion" : "",
+			"speed" : "28",
+			"luck" : "89",
+			"asw" : "",
+			"oxygen" : "0",
+			"ammo" : "0",
+			"cost" : "15",
+			"armor" : "Heavy"
+		}
+	},
+	"limitBreak": {
+		"tier1": "Main gun base +1/Main gun efficiency +5%",
+		"tier2": "Auxiliary gun base +2/Main gun efficiency +10%",
+		"tier3": "Main gun base +1/Main gun efficiency +15%"
+	},
+	"equipmentLoadout": {
+		"1": {
+			"type": "Battleship",
+			"efficiency": "100%/105%/115%/130%",
+			"amount": "1/1/1/1",
+			"preload": "0/0/0/0"
+		},
+		"2": {
+			"type": "Destroyer Gun",
+			"efficiency": "200%/200%/200%/200%",
+			"amount": "1/1/3/3",
+			"preload": "0/0/0/0"
+		},
+		"3": {
+			"type": "Anti-Air Gun",
+			"efficiency": "100%/100%/100%/100%",
+			"amount": "1/1/1/1",
+			"preload": "0/0/0/0"
+		},
+		"4": {
+			"type": "Auxilary",
+			"efficiency": "-",
+			"amount": "-",
+			"preload": "-"
+		},
+		"5": {
+			"type": "Auxilary",
+			"efficiency": "-",
+			"amount": "-",
+			"preload": "-"
+		}
+	},
+	"build": {
+		"light": {
+			"JP": "",
+			"CN": "",
+			"EN": ""
+		},
+		"heavy": {
+			"JP": "",
+			"CN": "",
+			"EN": ""
+		},
+		"special": {
+			"JP": "",
+			"CN": "",
+			"EN": ""
+		},
+		"limited": {
+			"JP": "",
+			"CN": "",
+			"EN": ""
+		}
+	},
+	"drop": {
+		"droppable": "false",
+		"list": {
+			"1": {
+				"event": "",
+				"chapter": {
+					"1": {
+						"label": "Ch .1",
+						"node": {
+							"1": {
+								"drop": "✓",
+								"note": "-"
+							}
+						}
+					}
+				}
+			}
+		}
+	},
+	"lines": {
+		"skin": {
+			"1": {
+				"skin_id" : "huashengdun",
+				"id" : "0",
+				"label" : "Washington",
+				"dialogue" : {
+					"1" : {
+						"event" : "Ship Description",
+						"media" : "",
+						"chinese" : "北卡罗来纳级战列舰—华盛顿，舷号BB-56",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "ノースカロライナ級戦艦・ワシントン（BB-56)",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "North Carolina class battleship— Washington, hull number BB-56.",
+						"englishNote" : ""
+					},
+					"2" : {
+						"event" : "Biography",
+						"media" : "profile",
+						"chinese" : "北卡罗来纳级二号舰华盛顿就是本小姐了。喜欢的东西是歼灭敌人，最近正在练习笑容。——战绩？那种东西可不是拿出来炫耀的，总而言之，我笑的还可以吗？",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "ノースカロライナ二番艦がこのアタシだ。好きなことは敵をぶっ飛ばすこと、最近はスマイルの練習をやってるんだ。ーー戦果？見せびらかせるもんじゃねぇし。まあとにかく、このスマイルをどう思う？",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "North Carolina class ship no. 2. I am Washington! The thing I like to do the most is to destroy my enemies. Recently, I am practicing on my smile. —— Battle record? I don’t really show off with such things, all in all, how’s my smile?",
+						"englishNote" : ""
+					},
+					"3" : {
+						"event" : "Receive",
+						"media" : "get",
+						"chinese" : "你好，指挥官，我是华盛顿……姐姐说加入舰队就不能像以前那样了，所以我正在练习笑容，可恶，为什么我非得听她的不可……",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "ちっす、指揮官、アタシはワシントン……姉貴が艦隊に加われば昔のようには行かないって言われてさぁ、スマイルの練習をやってるけど…もうなんで言うこと聞かなきゃなんないの……",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Hello, Commander, I am Washington... my sister told me that I cannot be so rough once I join the fleet, so I am practicing my smile. Darn, why must I listen to her...",
+						"englishNote" : ""
+					},
+					"4" : {
+						"event" : "Log in",
+						"media" : "login",
+						"chinese" : "欢迎回来……这个笑容怎么样？（扯嘴角）",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "お帰りなさいませ……このスマイル、どう？",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Welcome back... how does my smile look? (Forcibly smiles)",
+						"englishNote" : ""
+					},
+					"5" : {
+						"event" : "View details",
+						"media" : "detail",
+						"chinese" : "怎么，想看看我有多强吗？",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "なに？アタシがどれくらい強いか見てみたい？",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Hmm, you want to know how well I fight?",
+						"englishNote" : ""
+					},
+					"6" : {
+						"event" : "Main screen 1",
+						"media" : "main_1",
+						"chinese" : "笑得很好看？你这混……不对，笑容笑容，那真是谢谢您的夸奖",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "いい笑顔だぁ？んにゃろ……じゃなかった。笑顔笑顔。ありがとうございます♪",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "My smile looks beautiful? You jerk... oops, keep smiling, keep smiling. Thank you for your compliments. ",
+						"englishNote" : ""
+					},
+					"7" : {
+						"event" : "Main screen 2",
+						"media" : "main_2",
+						"chinese" : "哼，那个死板的南达科他还是老样子，指挥官你看，我比她要可爱多了吧",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "ふん、あのサウスダコタは相変わらずだな。指揮官見てくれ、アタシあいつよりずっとかわいいだろ？",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : " Hey, that rigid South Dakota is still the same. Commander, you see, I am cuter than her. ",
+						"englishNote" : ""
+					},
+					"8" : {
+						"event" : "Main screen 3",
+						"media" : "main_3",
+						"chinese" : "衡量朋友的真正标准是行为而不是言语，所以我可不喜欢那些花言巧语的家伙",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "友達かどうかを見るのは言葉じゃなくて行動だ。だからあんな話だけがうまい野郎どもが大っ嫌いなんだ",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : " A true measurement of friendship is their actions and not their words, I don’t like people who are rhetorical in nature.",
+						"englishNote" : ""
+					},
+					"9" : {
+						"event" : "Normal touch",
+						"media" : "touch_1",
+						"chinese" : "别好像很熟一样随便碰我",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "勝手に馴れ馴れしく触ってんじゃねぇ！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Don’t touch me as if you’re trying to be intimate with me.",
+						"englishNote" : ""
+					},
+					"10" : {
+						"event" : "Special touch",
+						"media" : "touch_2",
+						"chinese" : "……想死吗？（笑）",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "……死にてぇか？！（冷笑）",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "...You wish to die? (Smiles)",
+						"englishNote" : ""
+					},
+					"11" : {
+						"event" : "Mission reminder",
+						"media" : "task",
+						"chinese" : "新的任务？哈哈，我的血开始沸腾起来了",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "新しいミッション？はは、血が滾るわ！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "A new mission? Haha, now my blood is boiling.",
+						"englishNote" : ""
+					},
+					"12" : {
+						"event" : "Mission complete",
+						"media" : "mission_complete",
+						"chinese" : "奖励你就自己去领吧，我没什么兴趣",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "ボーナスは自分で受け取れ。アタシ興味ないから",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Go grab the reward yourself, I’m not interested.",
+						"englishNote" : ""
+					},
+					"13" : {
+						"event" : "Mail reminder",
+						"media" : "mail",
+						"chinese" : "喂，你的信",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "おい、あんたの手紙だ",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Hey, your mail.",
+						"englishNote" : ""
+					},
+					"14" : {
+						"event" : "Return to port",
+						"media" : "home",
+						"chinese" : "你没受伤真是太好了——哈？这可不是在关心你！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "怪我がなくてよかったーーはあ？あんたのことじゃねぇし！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "I’m glad that you didn’t get hurt—— What?! I don’t have feelings for you!",
+						"englishNote" : ""
+					},
+					"15" : {
+						"event" : "Commission complete",
+						"media" : "expedition",
+						"chinese" : "你不会记性比我还差吧，委托已经完成了，不去迎接一下她们？",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "まさかアタシより忘れっぽくないよね？委託完了したよ？迎えに行かないの？",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Your memory can’t be worse than mine, right? The commission fleet has returned, won’t you go greet them?",
+						"englishNote" : ""
+					},
+					"16" : {
+						"event" : "Enhancing complete",
+						"media" : "upgrade",
+						"chinese" : "变强的感觉真不坏",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "強くなった感じは悪くないぜ",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "It feels so good to become stronger.",
+						"englishNote" : ""
+					},
+					"17" : {
+						"event" : "Flagship fight",
+						"media" : "warcry",
+						"chinese" : "好，来活动一下吧（冷笑）",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "よし、運動でもしよっか",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Ok, let’s work out. (Snickers)",
+						"englishNote" : ""
+					},
+					"18" : {
+						"event" : "Victory",
+						"media" : "mvp",
+						"chinese" : "果然还是消灭敌人最让人心情愉快啊～",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "やっぱ敵をぶっ飛ばすのがいっちばん楽しいねぇ~",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Sure enough, I am happiest when all the foes are annihilated~",
+						"englishNote" : ""
+					},
+					"19" : {
+						"event" : "Defeat",
+						"media" : "lose",
+						"chinese" : "啧，我记住你了！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "ちっ、覚えてろ！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Oh, I will not forget you!",
+						"englishNote" : ""
+					},
+					"20" : {
+						"event" : "Skills",
+						"media" : "skill",
+						"chinese" : "让开，我要出手了！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "どけ！アタシがやるわ！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Out of my way. I'm ready to fight!",
+						"englishNote" : ""
+					},
+					"21" : {
+						"event" : "Low HP",
+						"media" : "hp",
+						"chinese" : "我可不会轻易把胜利拱手让人！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "勝利をそう簡単には譲らねぇぞ！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "I won't let go of victories to my enemies!",
+						"englishNote" : ""
+					},
+					"22" : {
+						"event" : "Upset",
+						"media" : "feeling1",
+						"chinese" : "你这家伙太弱了，我跟这种家伙可玩不来，再去练练吧",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "おめぇ弱ぇな。こんなのじゃ付き合い切れないから、鍛えなおしてきな",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "You are too weak, it’s no fun playing with you, go practice some more.",
+						"englishNote" : ""
+					},
+					"23" : {
+						"event" : "Stranger",
+						"media" : "feeling2",
+						"chinese" : "到底要怎么样才能笑得好看……想想喜欢的事情？这么说的话，我一想到赢过南达科他，就觉得很开心啊……呵呵呵……",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "どうやってうまく笑顔作れるか……好きなことを考えてみるとか？そういえばサウスダコタに勝ったことを思い出すと結構楽しくなるぜ……へへ……",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "What must I do to possess a good smile... think about the things I like? If so, I feel very happy even at the thought of winning against South Dakota... muahahaha...",
+						"englishNote" : ""
+					},
+					"24" : {
+						"event" : "Friendly",
+						"media" : "feeling3",
+						"chinese" : "不对不对，这样的话不就和过去一样了吗……不用勉强？你这家伙有时候也会说些好话耶……欸，刚才笑的就很好？",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "違う違う、これじゃあ昔と同じじゃねぇか……無理しなくていい？あんたってやつはたまにいいことも言うよなぁ……え、今のがいいって？",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "No, no, that’s not right. If we do it this way, won’t it end much the same like in the past? … Don’t try so hard? You sometimes say stuff like that… Hmm? That was a good smile from me just now?",
+						"englishNote" : ""
+					},
+					"25" : {
+						"event" : "Crush",
+						"media" : "feeling4",
+						"chinese" : "最近笑的更自然了？嗯，啊（挠脸），就是那个，我想着找些新的兴趣就好了，找着找着，就觉得跟着你这家伙还不错了……（小声）",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "最近自然に笑えるようになった？うん、まあ、なんだ、新しい趣味でも作ろうかと思ったな、そしたらお前に付いたほうがいいって……",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Lately, my smile has become more natural? Emm, huh (scratches head), I was recently trying to find a new hobby. While I was searching, I realized that being with you is not so bad… (whispers)",
+						"englishNote" : ""
+					},
+					"26" : {
+						"event" : "Love",
+						"media" : "feeling5",
+						"chinese" : "看到你就不自觉地笑出来了，这种感觉还是头一次……不过总觉得还有其他情绪也涌上来了，突然好想看看你被欺负的时候是什么表情呢——指挥官，陪我一会儿（笑）",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "あんたを見るとつい笑っちまうんだ、こんな感じ初めてで……それとさあ、あんたがいじめられた時にどういう表情になるか見たくなってなーー指揮官、表に出な♪",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "I couldn’t help but smile when I saw you, this is the first time that I’m feeling this way... although, I also have other feelings rushing towards me. I suddenly want to see your expression when you are bullied by me—— Commander, stay with me for a while. (Laughs)",
+						"englishNote" : ""
+					},
+					"27" : {
+						"event" : "Promise",
+						"media" : "propose",
+						"chinese" : "……等等，等等等等，这是那、那个对吧，想要逗我笑的新手段对吧！……可恶，你这混蛋，这样的话我都不知道该哭还是该笑了……",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "……待て、待て待て待て、これはあ、あれだな！？アタシをからかうために用意したものだな！？……こんにゃろー！もうこういうの泣くべきか笑うべきかわかんないよ……",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Wait wait! We’re doing “that”, right? Is this your new way of teasing me!... Damn, you bastard, I’m not sure if I should cry or laugh about this...",
+						"englishNote" : ""
+					}
+				}
+			}
+		}
+	}
+}

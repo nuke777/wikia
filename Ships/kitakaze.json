@@ -1,56 +1,31 @@
 {
-	"name": "Kitakaze",
-	"nameJP": "北風",
-	"nameCN": "",
-	"class": "Super Akizuki",
-	"hull": "Destroyer",
-	"prefix": "IJN",
-	"ID": "P009",
-	"file_id": "Plan010_Kitakaze",
-	"navy": "Sakura Empire",
-	"initialStar": "★★★☆☆☆",
-	"rarity": "Priority",
-	"buildTime": "N/A",
-	"acquisitionMethod": "Priority Research",
-	"enhance": {
-		"firepower": "0",
-		"torpedo": "0",
-		"aviation": "0",
-		"reload": "0"
+	"name_reference" : "kitakaze",
+	"cn_reference" : "beifeng",
+	"nameJP" : "北風",
+	"nameCN" : "",
+	"ID" : "P009",
+	"name" : "Kitakaze",
+	"internal_id" : "399031",
+	"rarity" : "Priority",
+	"initialStar" : "★★★☆☆☆",
+	"hull" : "Destroyer",
+	"navy" : "Sakura Empire",
+	"prefix" : "IJN",
+	"buildTime" : "N/A",
+	"class" : "Super Akizuki",
+	"voiceActress" : "Sakura Tange",
+	"parameters": {
+		"firepower" : "C",
+		"torpedo" : "B",
+		"aviation" : "E",
+		"evasion" : "A",
+		"antiAir" : "B",
+		"hp" : "C"
 	},
 	"scrap": {
-		"gold": "",
-		"oil": "",
-		"medal": ""
-	},
-	"skin": {
-		"1": {
-			"name": "Default",
-			"description": "One of the proposed Super Akizuki class Destroyers, Kitakaze",
-			"expression": {
-				"1": {
-					"label": "Default"
-				},
-				"2": {
-					"label": "Default"
-				},
-				"3": {
-					"label": "Default"
-				},
-				"4": {
-					"label": "Default"
-				},
-				"5": {
-					"label": "Default"
-				},
-				"6": {
-					"label": "Default"
-				},
-				"7": {
-					"label": "Default"
-				}
-			}
-		}
+		"gold" : "4",
+		"oil" : "3",
+		"medal" : "10"
 	},
 	"releaseDate": {
 		"JP": "April 18, 2019",
@@ -58,7 +33,6 @@
 		"KR": "April 18, 2019",
 		"EN": ""
 	},
-	"voiceActress": "Sakura Tange",
 	"artist": {
 		"name": "黑猫",
 		"weibo": "http://weibo.com/u/2959771544",
@@ -66,13 +40,89 @@
 		"pixiv": "https://www.pixiv.net/member.php?id=2331978",
 		"other": ""
 	},
-	"parameters": {
-		"firepower": "C",
-		"torpedo": "B",
-		"aviation": "E",
-		"evasion": "A",
-		"antiAir": "B",
-		"hp": "C"
+	"enhance": {
+		"firepower" : "0",
+		"torpedo" : "0",
+		"aviation" : "0",
+		"reload" : "0"
+	},
+	"acquisitionMethod" : "Priority Research",
+	"skill": {
+		"1": {
+			"icon": "19170",
+			"requirement": "",
+			"name": "Kitakaze Style - Unwavering Slash",
+			"type": "Support",
+			"description": "All main gun ammo is not affected by armor type (only applies to main gun). All main gun ammo damage is increased by skill level and when equipping Sakura Empire main guns, increase main gun efficiency by 5-15%"
+		},
+		"2": {
+			"icon": "19180",
+			"requirement": "",
+			"name": "Kitakaze Style - Six Flowing Thunders",
+			"type": "Offensive",
+			"description": "When set as the vanguard flagship, launch a special torpedo barrage after 10 seconds into the battle. After hitting with 10 torpedoes, launch a special torpedo barrage"
+		},
+		"3": {
+			"icon": "19000",
+			"requirement": "",
+			"name": "Siren Killer Ⅰ",
+			"type": "Offensive",
+			"description": "Increases the DMG this ship deals to Sirens by 5.0%."
+		},
+		"4": {
+			"icon": "29381",
+			"requirement": "",
+			"name": "Exclusive barrage - Kitakaze II",
+			"type": "Offensive",
+			"description": "When the main gun attacks 16 times, fire exclusive barrage - Kitakaze II"
+		}
+	},
+	"skin": {
+		"1" : {
+			"id" : "beifeng",
+			"name" : "Kitakaze",
+			"description" : "One of the proposed Super Akizuki class Destroyers, Kitakaze",
+			"expression" : {
+				"0" : {
+					"id" : "0"
+				},
+				"1": {
+					"id": "1"
+				},
+				"2": {
+					"id": "2"
+				},
+				"3": {
+					"id": "3"
+				},
+				"4": {
+					"id": "4"
+				},
+				"5": {
+					"id": "5"
+				},
+				"6": {
+					"id": "6"
+				}
+			}
+		}
+	},
+	"defaultEquipment": {
+		"1" : {
+			"icon" : "",
+			"rarity" : "",
+			"name" : ""
+		},
+		"2" : {
+			"icon" : "",
+			"rarity" : "",
+			"name" : ""
+		},
+		"3" : {
+			"icon" : "",
+			"rarity" : "",
+			"name" : ""
+		}
 	},
 	"stats": {
 		"base": {
@@ -201,79 +251,40 @@
 			"preload": "-"
 		}
 	},
-	"defaultEquipment": {
-		"1": "",
-		"2": "",
-		"3": ""
-	},
-	"skill": {
-		"1": {
-			"icon": "19170",
-			"requirement": "",
-			"name": "Kitakaze Style - Unwavering Slash",
-			"type": "Support",
-			"description": "All main gun ammo is not affected by armor type (only applies to main gun). All main gun ammo damage is increased by skill level and when equipping Sakura Empire main guns, increase main gun efficiency by 5-15%"
-		},
-		"2": {
-			"icon": "19180",
-			"requirement": "",
-			"name": "Kitakaze Style - Six Flowing Thunders",
-			"type": "Offensive",
-			"description": "When set as the vanguard flagship, launch a special torpedo barrage after 10 seconds into the battle. After hitting with 10 torpedoes, launch a special torpedo barrage"
-		},
-		"3": {
-			"icon": "19000",
-			"requirement": "",
-			"name": "Siren Killer Ⅰ",
-			"type": "Offensive",
-			"description": "Increases the DMG this ship deals to Sirens by 5.0%."
-		},
-		"4": {
-			"icon": "29381",
-			"requirement": "",
-			"name": "Exclusive barrage - Kitakaze II",
-			"type": "Offensive",
-			"description": "When the main gun attacks 16 times, fire exclusive barrage - Kitakaze II"
-		}
-	},
 	"build": {
 		"light": {
-			"JP": "-",
-			"CN": "-",
-			"EN": "-"
+			"JP": "",
+			"CN": "",
+			"EN": ""
 		},
 		"heavy": {
-			"JP": "-",
-			"CN": "-",
-			"EN": "-"
+			"JP": "",
+			"CN": "",
+			"EN": ""
 		},
 		"special": {
-			"JP": "-",
-			"CN": "-",
-			"EN": "-"
+			"JP": "",
+			"CN": "",
+			"EN": ""
 		},
 		"limited": {
-			"JP": "-",
-			"CN": "-",
-			"EN": "-"
+			"JP": "",
+			"CN": "",
+			"EN": ""
 		}
 	},
 	"drop": {
 		"droppable": "false",
 		"list": {
 			"1": {
-				"event": "Ink-Stained Steel Sakura",
+				"event": "",
 				"chapter": {
 					"1": {
-						"label": "Ch. B",
+						"label": "Ch .1",
 						"node": {
 							"1": {
 								"drop": "✓",
-								"note": ""
-							},
-							"2": {
-								"drop": "-",
-								"note": ""
+								"note": "-"
 							}
 						}
 					}
@@ -284,8 +295,10 @@
 	"lines": {
 		"skin": {
 			"1": {
-				"label": "Default",
-				"dialogue": {
+				"skin_id" : "beifeng",
+				"id" : "0",
+				"label" : "北風",
+				"dialogue" : {
 					"1": {
 						"event": "Ship Description",
 						"media": "",
@@ -299,8 +312,8 @@
 						"englishNote": ""
 					},
 					"2": {
-						"event": "Self Introduction",
-						"media": "self_introduction",
+						"event": "Biography",
+						"media": "profile",
 						"chinese": "超秋月级驱逐舰、北风…就是我。以前没能活跃在战场上，不过现在展示自己的实力还来得及。就让大家好好见识下如今北风的装备性能和绝佳机动性吧",
 						"chineseTL": "Super Akizuki-class destroyer, Kitakaze... that's me. In the past I was not able to partipate in the battlefield, but it is not too late to show my capabilities now. I shall have everyone witness the equipment performance and excellent mobility of Kitakaze!",
 						"chineseNote": "",
@@ -311,8 +324,8 @@
 						"englishNote": ""
 					},
 					"3": {
-						"event": "Acquisition",
-						"media": "acquisition",
+						"event": "Receive",
+						"media": "get",
 						"chinese": "北风已经准备就绪……今后由我来协助作战指挥的话，指挥官就可以清闲一些了",
 						"chineseTL": "Kitakaze, preparations complete... Now that I will be assisting Commander, Commander can have more leisure time",
 						"chineseNote": "",
@@ -323,7 +336,7 @@
 						"englishNote": ""
 					},
 					"4": {
-						"event": "Login",
+						"event": "Log in",
 						"media": "login",
 						"chinese": "刚好指挥官回来了…北风正要训练刀柄上的小家伙，要让它的站姿具有大将之风才好",
 						"chineseTL": "You came back at the right time, Commander... Kitakaze was about to train this fellow on the katana and teach it an inspiring posture of a great general",
@@ -335,8 +348,8 @@
 						"englishNote": ""
 					},
 					"5": {
-						"event": "Details",
-						"media": "details",
+						"event": "View details",
+						"media": "detail",
 						"chinese": "刀…？一点都不沉的。指挥官不信的话，要让北风挥几下给你看看吗？",
 						"chineseTL": "Katana...? It's not heavy at all. Commander, if you don't believe me, want to let Kitakaze take a few swings?",
 						"chineseNote": "",
@@ -347,8 +360,8 @@
 						"englishNote": ""
 					},
 					"6": {
-						"event": "Idle 1",
-						"media": "idle_1",
+						"event": "Main screen 1",
+						"media": "main_1",
 						"chinese": "经常受到秋月级姐姐们的照顾，北风会好好回报她们的期待，也会努力保护好大家。",
 						"chineseTL": "I often get taken care of by my Akizuki-class sisters. Kitakaze will properly reciprocate their expectations, and also work hard to protect everyone.",
 						"chineseNote": "",
@@ -359,8 +372,8 @@
 						"englishNote": ""
 					},
 					"7": {
-						"event": "Idle 2",
-						"media": "idle_2",
+						"event": "Main screen 2",
+						"media": "main_2",
 						"chinese": "相比于浴血奋战，坐镇后方运筹帷幄的感觉好像更棒…不过请相信北风的实力，就算是直接出击作战，北风也是很强的",
 						"chineseTL": "Compared to bloody battles, the feeling of devising strategies at the back seems more awesome... But please believe in the capabilities of Kitakaze, even if it is a full frontal battle, Kitakaze is very strong",
 						"chineseNote": "",
@@ -371,8 +384,8 @@
 						"englishNote": ""
 					},
 					"8": {
-						"event": "Idle 3",
-						"media": "idle_3",
+						"event": "Main screen 3",
+						"media": "main_3",
 						"chinese": "真正的实力，源于内心的勇气。可不要小看了北风的能耐",
 						"chineseTL": "True strength comes from inner courage. Don't doubt Kitakaze's ability",
 						"chineseNote": "",
@@ -383,8 +396,8 @@
 						"englishNote": ""
 					},
 					"9": {
-						"event": "Touch",
-						"media": "touch",
+						"event": "Normal Touch",
+						"media": "touch_1",
 						"chinese": "身体娇小也是有好处的…哼哼，要玩躲避球的话，指挥官别想击中我",
 						"chineseTL": "There are good points to having a petite body... Hehe, Commander, if you want to play dodgeball, don't even think about hitting me",
 						"chineseNote": "",
@@ -396,7 +409,7 @@
 					},
 					"10": {
 						"event": "Special Touch",
-						"media": "special_touch",
+						"media": "touch_2",
 						"chinese": "虽然不知道该不该阻止指挥官……总之，请停止无礼的举动",
 						"chineseTL": "Despite not knowing if I should stop Commander or not... Anyways, please stop this rude behavior",
 						"chineseNote": "",
@@ -407,8 +420,8 @@
 						"englishNote": ""
 					},
 					"11": {
-						"event": "Mission",
-						"media": "mission",
+						"event": "Mission reminder",
+						"media": "task",
 						"chinese": "指挥官，振作起来，不能丢下这些任务不管",
 						"chineseTL": "Commander, hang in there, you can't leave these missions behind",
 						"chineseNote": "",
@@ -443,8 +456,8 @@
 						"englishNote": ""
 					},
 					"14": {
-						"event": "Return from Sortie",
-						"media": "return_from_sortie",
+						"event": "Return to port",
+						"media": "home",
 						"chinese": "指挥官辛苦了……接下来的事就交给北风来处理吧，不会辜负指挥官期许的",
 						"chineseTL": "Good work, Commander... Let Kitakaze handle the rest, I will live up to your expectations",
 						"chineseNote": "",
@@ -456,7 +469,7 @@
 					},
 					"15": {
 						"event": "Commission Complete",
-						"media": "commission_complete",
+						"media": "expedition",
 						"chinese": "委托组的大家应该带回了很多好东西，指挥官去看看吧…",
 						"chineseTL": "The commission team must have brought back lots of good stuff, Commander go have a look...",
 						"chineseNote": "",
@@ -467,8 +480,8 @@
 						"englishNote": ""
 					},
 					"16": {
-						"event": "Enhancement",
-						"media": "enhancement",
+						"event": "Enhancing complete",
+						"media": "upgrade",
 						"chinese": "希望力量增强后，北风也能保持清醒的头脑",
 						"chineseTL": "I hope that after strengthening my power, Kitakaze can keep a clear head",
 						"chineseNote": "",
@@ -479,8 +492,8 @@
 						"englishNote": ""
 					},
 					"17": {
-						"event": "Sortie Start",
-						"media": "sortie_start",
+						"event": "Flagship fight",
+						"media": "warcry",
 						"chinese": "北风已经预料到敌人的动向了…大家，快跟在北风身后前进",
 						"chineseTL": "Kitakaze already anticipated the enemies' movements... Everyone, follow Kitakaze and proceed",
 						"chineseNote": "",
@@ -491,7 +504,7 @@
 						"englishNote": ""
 					},
 					"18": {
-						"event": "MVP",
+						"event": "Victory",
 						"media": "mvp",
 						"chinese": "一场胜利不足以骄傲，准备下一场吧",
 						"chineseTL": "One victory is not enough to feel proud, let's prepare for the next battle",
@@ -504,7 +517,7 @@
 					},
 					"19": {
 						"event": "Defeat",
-						"media": "defeat",
+						"media": "lose",
 						"chinese": "这不可能…一定哪里计算有误…",
 						"chineseTL": "Impossible... there must be a miscalculation somewhere...",
 						"chineseNote": "",
@@ -515,8 +528,8 @@
 						"englishNote": ""
 					},
 					"20": {
-						"event": "Skill Activation",
-						"media": "skill_activation",
+						"event": "Skills",
+						"media": "skill",
 						"chinese": "看招！会心一击！",
 						"chineseTL": "Take this! Critical hit!",
 						"chineseNote": "",
@@ -527,8 +540,8 @@
 						"englishNote": ""
 					},
 					"21": {
-						"event": "Low Health",
-						"media": "low_health",
+						"event": "Low HP",
+						"media": "hp",
 						"chinese": "知难而进，不是明智之选…不过现在也只能拼了！",
 						"chineseTL": "Advance despite difficulties, not a wise decision... But right now we can only fight!",
 						"chineseNote": "",
@@ -539,8 +552,8 @@
 						"englishNote": ""
 					},
 					"22": {
-						"event": "Affinity (Disappointed)",
-						"media": "affinity_disappointed",
+						"event": "Upset",
+						"media": "feeling1",
 						"chinese": "如果指挥官非要荒废自己的才能，那么很快就会变成废材吧…",
 						"chineseTL": "If Commander keeps wasting your own talents, you will soon become waste itself...",
 						"chineseNote": "",
@@ -551,8 +564,8 @@
 						"englishNote": ""
 					},
 					"23": {
-						"event": "Affinity (Stranger)",
-						"media": "affinity_stranger",
+						"event": "Stranger",
+						"media": "feeling2",
 						"chinese": "想让我展示一下刀法？以后有机会，会给指挥官演示的",
 						"chineseTL": "Want me to show my swordsmanship? If we get the chance, I will do a performance for Commander",
 						"chineseNote": "",
@@ -563,8 +576,8 @@
 						"englishNote": ""
 					},
 					"24": {
-						"event": "Affinity (Friendly)",
-						"media": "affinity_friendly",
+						"event": "Friendly",
+						"media": "feeling3",
 						"chinese": "秋月级的姐姐们每次见面都会给北风很多零食。分一些给指挥官也可以的…",
 						"chineseTL": "I get lots of snacks every time I meet my Akizuki-class sisters. I can share some with Commander...",
 						"chineseNote": "",
@@ -575,8 +588,8 @@
 						"englishNote": ""
 					},
 					"25": {
-						"event": "Affinity (Like)",
-						"media": "affinity_like",
+						"event": "Crush",
+						"media": "feeling4",
 						"chinese": "有点怕黑……就让北风慢慢跟在指挥官的身后吧（扯住衣角）",
 						"chineseTL": "I'm a bit afraid of the dark... Let Kitakaze walk slowly behind Commander *tuggles shirt*",
 						"chineseNote": "",
@@ -587,8 +600,8 @@
 						"englishNote": ""
 					},
 					"26": {
-						"event": "Affinity (Love)",
-						"media": "affinity_love",
+						"event": "Love",
+						"media": "feeling5",
 						"chinese": "哈……（打呵欠）现在北风有些困了，指挥官不会袖手旁观的……嗯，北风的直觉一向很灵验，指挥官一定会把我抱回床上",
 						"chineseTL": "*Yawn*... Kitakaze is a bit tired right now, Commander won't turn a blind eye, right... Hmm, Kitakaze's intuition has always been right, Commander will carry me back to bed",
 						"chineseNote": "",
@@ -599,8 +612,8 @@
 						"englishNote": ""
 					},
 					"27": {
-						"event": "Pledge",
-						"media": "pledge",
+						"event": "Promise",
+						"media": "propose",
 						"chinese": "只要在指挥官身边，心情也会变得安稳起来…所以，北风想一直待在指挥官的身边…可以的话就拉钩？秋月级的姐姐们教我的，像指挥官这样出众的人，只要拉钩就会一直信守承诺",
 						"chineseTL": "As long as I'm beside Commander, I can feel peace of mind... That's why, Kitakaze wants to be on Commander's side forever... If that's possible, let's tie the knot? My Akizuki-class sisters taught me that for such an outstanding person like Commander, as long as we tie the knot he will always keep his promise",
 						"chineseNote": "",
@@ -611,7 +624,7 @@
 						"englishNote": ""
 					},
 					"28": {
-						"event": "Present Like",
+						"event": "Like Present",
 						"media": "present_like",
 						"chinese": "",
 						"chineseTL": "",
@@ -623,7 +636,7 @@
 						"englishNote": ""
 					},
 					"29": {
-						"event": "Present Dislike",
+						"event": "Dislike Present",
 						"media": "present_dislike",
 						"chinese": "",
 						"chineseTL": "",
@@ -636,7 +649,7 @@
 					},
 					"30": {
 						"event": "Main Title",
-						"media": "main_title",
+						"media": "extra",
 						"chinese": "",
 						"chineseTL": "",
 						"chineseNote": "",

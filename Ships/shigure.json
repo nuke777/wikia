@@ -1,47 +1,31 @@
 {
-	"name": "Shigure",
+	"name_reference": "shigure",
+	"cn_reference": "shiyu",
 	"nameJP": "時雨",
-	"nameCN": "栴",
-	"class": "Shiratsuyu",
-	"hull": "Destroyer",
-	"prefix": "IJN",
+	"nameCN": "时雨",
 	"ID": "165",
-	"file_id": "165_Shigure",
-	"navy": "Sakura Empire",
-	"initialStar": "★★☆☆☆",
+	"name": "Shigure",
+	"internal_id": "301151",
 	"rarity": "Elite",
+	"initialStar": "★★☆☆☆",
+	"hull": "Destroyer",
+	"navy": "Sakura Empire",
+	"prefix": "IJN",
 	"buildTime": "-",
-	"acquisitionMethod": "Drop",
-	"enhance": {
-		"firepower": "4",
-		"torpedo": "33",
-		"aviation": "0",
-		"reload": "15"
+	"class": "Shiratsuyu",
+	"voiceActress": "Yuuki Kuwahara",
+	"parameters": {
+		"firepower": "D",
+		"torpedo": "A",
+		"aviation": "E",
+		"evasion": "A",
+		"antiAir": "D",
+		"hp": "D"
 	},
 	"scrap": {
 		"gold": "4",
 		"oil": "3",
 		"medal": "4"
-	},
-	"skin": {
-		"1": {
-			"name": "Default",
-			"description": "Shiratsuyu-class Destroyer No. 2 - Shigure",
-			"expression": {
-				"1": {
-					"label": "Default"
-				}
-			}
-		},
-		"2": {
-			"name": "Attack, I-490!",
-			"description": "Stupid Commander, the great Shigure-sama isn't a damn submarine! Want to get your head knocked by an oxygen torpedo?",
-			"expression": {
-				"1": {
-					"label": "Default"
-				}
-			}
-		}
 	},
 	"releaseDate": {
 		"JP": "September 13, 2017",
@@ -49,7 +33,6 @@
 		"KR": "March 27, 2018",
 		"EN": "August 16, 2018"
 	},
-	"voiceActress": "Kawahara Yuuki",
 	"artist": {
 		"name": "Saru",
 		"weibo": "https://www.weibo.com/p/1005051054234800",
@@ -57,84 +40,148 @@
 		"pixiv": "https://www.pixiv.net/member.php?id=1422579",
 		"other": ""
 	},
-	"parameters": {
-		"hp": "D",
-		"antiAir": "D",
-		"evasion": "A",
-		"aviation": "E",
-		"torpedo": "A",
-		"firepower": "D"
+	"enhance": {
+		"firepower": "4",
+		"torpedo": "33",
+		"aviation": "0",
+		"reload": "15"
+	},
+	"acquisitionMethod": "Drop",
+	"skill": {
+		"1": {
+			"icon": "10370",
+			"requirement": "Default Unlocked",
+			"name": "Sasebo Shigure",
+			"type": "Defensive",
+			"description": "5% activation chance when firing, increase evasion by 30.0% (60.0%), duration lasts 8 seconds"
+		},
+		"2": {
+			"icon": "22031",
+			"requirement": "Limit Break Rank 1 (I) / Rank 3 (II)",
+			"name": "Full Barrage",
+			"type": "Offensive",
+			"description": "Every 15 (10) times the main battery is fired, trigger Full Barrage - Shiratsuyu I (II)"
+		}
+	},
+	"skin": {
+		"1": {
+			"id": "shiyu",
+			"name": "Shigure",
+			"description": "Shiratsuyu-class destroyer number two - Shigure.",
+			"expression": {
+				"0": {
+					"id": "0"
+				}
+			}
+		},
+		"2": {
+			"id": "shiyu_2",
+			"name": "Attack, I-490!",
+			"description": "Stupid Commander, I'm not a damn submarine! Do you wanna get hit in the face with an oxygen torpedo?",
+			"expression": {
+				"0": {
+					"id": "0"
+				}
+			}
+		}
+	},
+	"defaultEquipment": {
+		"1": {
+			"icon": "35200",
+			"rarity": "Rare",
+			"name": "Quadruple 610mm Torpedo"
+		},
+		"3": {
+			"icon": "",
+			"rarity": "",
+			"name": ""
+		}
 	},
 	"stats": {
 		"100": {
 			"hp": "1469",
-			"armor": "Light",
-			"reload": "184",
 			"firepower": "57",
 			"torpedo": "477",
-			"evasion": "184",
 			"antiAir": "131",
 			"aviation": "0",
-			"cost": "9",
+			"reload": "184",
+			"hit": "174",
+			"evasion": "184",
+			"speed": "40.8",
+			"luck": "84",
 			"asw": "162",
-			"speed": "40",
-			"luck": "84"
+			"oxygen": "0",
+			"ammo": "0",
+			"cost": "9",
+			"armor": "Light"
 		},
 		"120": {
 			"hp": "1763",
-			"armor": "Light",
-			"reload": "212",
 			"firepower": "65",
 			"torpedo": "524",
-			"evasion": "190",
 			"antiAir": "150",
 			"aviation": "0",
-			"cost": "9",
+			"reload": "212",
+			"hit": "182",
+			"evasion": "190",
+			"speed": "40.8",
+			"luck": "84",
 			"asw": "181",
-			"speed": "40",
-			"luck": "84"
+			"oxygen": "0",
+			"ammo": "0",
+			"cost": "9",
+			"armor": "Light"
 		},
 		"base": {
 			"hp": "284",
-			"armor": "Light",
-			"reload": "78",
 			"firepower": "12",
 			"torpedo": "101",
-			"evasion": "71",
 			"antiAir": "28",
 			"aviation": "0",
-			"cost": "2",
+			"reload": "78",
+			"hit": "67",
+			"evasion": "71",
+			"speed": "40.8",
+			"luck": "84",
 			"asw": "44",
-			"speed": "40",
-			"luck": "84"
+			"oxygen": "0",
+			"ammo": "0",
+			"cost": "2",
+			"armor": "Light"
 		},
 		"100retrofit": {
 			"hp": "",
-			"armor": "",
-			"reload": "",
 			"firepower": "",
 			"torpedo": "",
-			"evasion": "",
 			"antiAir": "",
 			"aviation": "",
-			"cost": "",
+			"reload": "",
+			"hit": "",
+			"evasion": "",
+			"speed": "40.8",
+			"luck": "84",
 			"asw": "",
-			"speed": "",
-			"luck": ""
+			"oxygen": "0",
+			"ammo": "0",
+			"cost": "9",
+			"armor": "Light"
 		},
 		"120retrofit": {
 			"hp": "",
-			"armor": "",
-			"reload": "",
 			"firepower": "",
 			"torpedo": "",
-			"evasion": "",
 			"antiAir": "",
 			"aviation": "",
-			"cost": "",
+			"reload": "",
+			"hit": "",
+			"evasion": "",
+			"speed": "40.8",
+			"luck": "84",
 			"asw": "",
-			"speed": "",
-			"luck": ""
+			"oxygen": "0",
+			"ammo": "0",
+			"cost": "9",
+			"armor": "Light"
 		}
 	},
 	"limitBreak": {
@@ -144,52 +191,34 @@
 	},
 	"equipmentLoadout": {
 		"1": {
-			"type": "DD Gun",
-			"efficiency": "70% / 75%",
-			"amount": "1/1",
-			"preload": "1/1"
+			"type": "Destroyer Gun",
+			"efficiency": "70%/70%/70%/75%",
+			"amount": "1/1/1/1",
+			"preload": "0/0/0/0"
 		},
 		"2": {
 			"type": "Torpedo",
-			"efficiency": "130% / 150%",
-			"amount": "1/2",
-			"preload": "0/1"
+			"efficiency": "130%/135%/145%/150%",
+			"amount": "1/1/2/2",
+			"preload": "0/0/1/1"
 		},
 		"3": {
 			"type": "Anti-Air Gun",
-			"efficiency": "70% / 75%",
-			"amount": "1/1",
-			"preload": "0/0"
+			"efficiency": "70%/70%/70%/75%",
+			"amount": "1/1/1/1",
+			"preload": "0/0/0/0"
 		},
 		"4": {
-			"type": "Auxilliary",
+			"type": "Auxilary",
 			"efficiency": "-",
 			"amount": "-",
 			"preload": "-"
 		},
 		"5": {
-			"type": "Auxilliary",
+			"type": "Auxilary",
 			"efficiency": "-",
 			"amount": "-",
 			"preload": "-"
-		}
-	},
-	"defaultEquipment": {
-		"1": "Twin 127mm Mounted Gun T1",
-		"2": "Quadruple 610mm Torpedo Mount T1"
-	},
-	"skill": {
-		"1": {
-			"name": "Sasebo Shigure",
-			"type": "Defensive",
-			"requirement": "Default Unlocked",
-			"description": "5% activation chance when firing, increase evasion by 30.0% (60.0%), duration lasts 8 seconds"
-		},
-		"2": {
-			"name": "Full Barrage",
-			"type": "Offensive",
-			"requirement": "Limit Break Rank 1 (I) / Rank 3 (II)",
-			"description": "Every 15 (10) times the main battery is fired, trigger Full Barrage - Shiratsuyu I (II)"
 		}
 	},
 	"build": {
@@ -215,271 +244,17 @@
 		}
 	},
 	"drop": {
-		"droppable": "true",
+		"droppable": "false",
 		"list": {
 			"1": {
-				"event": "World",
+				"event": "",
 				"chapter": {
 					"1": {
-						"label": "Ch. 4",
-						"node": {
-							"1": {
-								"drop": "-",
-								"note": ""
-							},
-							"2": {
-								"drop": "✓",
-								"note": ""
-							},
-							"3": {
-								"drop": "-",
-								"note": ""
-							},
-							"4": {
-								"drop": "-",
-								"note": ""
-							}
-						}
-					},
-					"2": {
-						"label": "Ch.7",
+						"label": "Ch .1",
 						"node": {
 							"1": {
 								"drop": "✓",
-								"note": ""
-							},
-							"2": {
-								"drop": "-",
-								"note": ""
-							},
-							"3": {
-								"drop": "-",
-								"note": ""
-							},
-							"4": {
-								"drop": "-",
-								"note": ""
-							}
-						}
-					},
-					"3": {
-						"label": "Ch.9",
-						"node": {
-							"1": {
-								"drop": "-",
-								"note": ""
-							},
-							"2": {
-								"drop": "-",
-								"note": ""
-							},
-							"3": {
-								"drop": "✓",
-								"note": ""
-							},
-							"4": {
-								"drop": "-",
-								"note": ""
-							}
-						}
-					}
-				}
-			},
-			"2": {
-				"event": "Visitors Dyed in Red",
-				"chapter": {
-					"1": {
-						"label": "A",
-						"node": {
-							"1": {
-								"drop": "✓",
-								"note": ""
-							},
-							"2": {
-								"drop": "-",
-								"note": ""
-							},
-							"3": {
-								"drop": "-",
-								"note": ""
-							}
-						}
-					},
-					"2": {
-						"label": "C",
-						"node": {
-							"1": {
-								"drop": "✓",
-								"note": ""
-							},
-							"2": {
-								"drop": "-",
-								"note": ""
-							},
-							"3": {
-								"drop": "-",
-								"note": ""
-							}
-						}
-					}
-				}
-			},
-			"3": {
-				"event": "Glorious Final Battle",
-				"chapter": {
-					"1": {
-						"label": "SP",
-						"node": {
-							"1": {
-								"drop": "-",
-								"note": ""
-							},
-							"2": {
-								"drop": "-",
-								"note": ""
-							},
-							"3": {
-								"drop": "✓",
-								"note": ""
-							}
-						}
-					}
-				}
-			},
-			"4": {
-				"event": "Visitors Dyed in Red (Rerun)",
-				"chapter": {
-					"1": {
-						"label": "A",
-						"node": {
-							"1": {
-								"drop": "✓",
-								"note": ""
-							},
-							"2": {
-								"drop": "-",
-								"note": ""
-							},
-							"3": {
-								"drop": "-",
-								"note": ""
-							}
-						}
-					},
-					"2": {
-						"label": "C",
-						"node": {
-							"1": {
-								"drop": "✓",
-								"note": ""
-							},
-							"2": {
-								"drop": "-",
-								"note": ""
-							},
-							"3": {
-								"drop": "-",
-								"note": ""
-							}
-						}
-					}
-				}
-			},
-			"5": {
-				"event": "Ink-stained Steel Sakura",
-				"chapter": {
-					"1": {
-						"label": "A",
-						"node": {
-							"1": {
-								"drop": "-",
-								"note": ""
-							},
-							"2": {
-								"drop": "✓",
-								"note": ""
-							},
-							"3": {
-								"drop": "-",
-								"note": ""
-							}
-						}
-					},
-					"2": {
-						"label": "C",
-						"node": {
-							"1": {
-								"drop": "-",
-								"note": ""
-							},
-							"2": {
-								"drop": "✓",
-								"note": ""
-							},
-							"3": {
-								"drop": "-",
-								"note": ""
-							}
-						}
-					}
-				}
-			},
-			"6": {
-				"event": "Iris of the Light and the Dark",
-				"chapter": {
-					"1": {
-						"label": "A",
-						"node": {
-							"1": {
-								"drop": "✓",
-								"note": ""
-							},
-							"2": {
-								"drop": "-",
-								"note": ""
-							},
-							"3": {
-								"drop": "-",
-								"note": ""
-							}
-						}
-					},
-					"2": {
-						"label": "C",
-						"node": {
-							"1": {
-								"drop": "✓",
-								"note": ""
-							},
-							"2": {
-								"drop": "-",
-								"note": ""
-							},
-							"3": {
-								"drop": "-",
-								"note": ""
-							}
-						}
-					}
-				}
-			},
-			"7": {
-				"event": "Star of the Shining Fjord",
-				"chapter": {
-					"1": {
-						"label": "SP",
-						"node": {
-							"1": {
-								"drop": "✓",
-								"note": ""
-							},
-							"2": {
-								"drop": "-",
-								"note": ""
-							},
-							"3": {
-								"drop": "-",
-								"note": ""
+								"note": "-"
 							}
 						}
 					}
@@ -490,479 +265,435 @@
 	"lines": {
 		"skin": {
 			"1": {
-				"label": "shigure_skin1",
+				"skin_id": "shiyu",
+				"id": "0",
+				"label": "Shigure",
 				"dialogue": {
 					"1": {
 						"event": "Ship Description",
 						"media": "",
 						"chinese": "白露级驱逐舰二番舰—时雨",
-						"chineseTL": "Shiratsuyu-class Destroyer No. 2 - Shigure",
+						"chineseTL": "",
 						"chineseNote": "",
 						"japanese": "白露型駆逐艦二番艦・時雨",
-						"japaneseTL": "Shiratsuyu-class Destroyer No. 2 - Shigure",
+						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Shiratsuyu-class destroyer number two -  Shigure.",
 						"englishNote": ""
 					},
 					"2": {
-						"event": "Self Introduction",
-						"media": "self_introduction",
+						"event": "Biography",
+						"media": "profile",
 						"chinese": "白露级驱逐舰2号舰，时雨的说。一开始隶属第一舰队，嘛，还是活跃了好一阵子的。之后编入了第二舰队，加入了那场命运般的莱特湾海战…虽然最后只剩下我一个人了，但我绝对不会忘记姐妹们奋战的英姿的…山城姐姐…扶桑姐姐…",
-						"chineseTL": "Shiratsuyu-class Destroyer No. 2, Shigure. At the beginning I belonged to the first fleet, where I was active for a while. I was later assigned to the second fleet, where I participated in the fateful Battle of Leyte Gulf... Despite only myself remaining, I will absolutely never forget the bravery of my sisters... Big sister Yamashiro... Fusou...",
+						"chineseTL": "",
 						"chineseNote": "",
 						"japanese": "白露型駆逐艦2番艦、時雨というの。最初は第一艦隊に所属して、まあ頑張ったわ。その後第二艦隊に配属され、運命のレイテ沖海戦に参加した…一人だけになったけどあの戦いのみんなの勇姿を忘れないわ…山城姉さん…扶桑姉さん…",
-						"japaneseTL": "Shiratsuyu-class Destroyer No. 2, Shigure is my name. At the beginning I belonged to the first fleet, where I worked really hard. I was later assigned to the second fleet, where I participated in the fateful Battle of Leyte Gulf... Despite being the only one remaining from that battle, I will never forget the bravery shown by everyone... Yamashiro-neesan... Fusou-neesan...",
+						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "I'm Shigure, ship number 2 of the Shiratsuyu-class. I worked pretty hard in the First Fleet before I was reassigned to the Second Fleet and participated in the fated Battle of Leyte Gulf... I was the sole survivor, but I'll never forget the bravery everyone showed in that battle... Yamashiro... Fusou... how I miss you...",
 						"englishNote": ""
 					},
 					"3": {
-						"event": "Acquisition",
-						"media": "acquisition",
-						"chinese": "白露级驱逐舰时雨的说，不是吹牛，我可是被幸运之神眷顾着的，哼哼，运气也是实力呢，不要不服哟？",
-						"chineseTL": "Shiratsuyu-class Destroyer Shigure, not to brag, but I am blessed by the Goddess of Luck. He-he, luck is also part of one's strength, got a problem with that?",
+						"event": "Receive",
+						"media": "get",
+						"chinese": "白露级驱逐舰时雨来啦~不是我吹牛，我可是被幸运之神眷顾着的~哼哼，运气也是实力呢，不要不服哦？",
+						"chineseTL": "",
 						"chineseNote": "",
-						"japanese": "白露型駆逐艦、時雨というの。自慢じゃないけど、幸運のメガミの加護があるのよ～ふふん、運も実力のうち、いい加減認めなさいな♪",
-						"japaneseTL": "Shiratsuyu-class destroyer, Shigure is my name. I don't mean to brag, but I'm protected by the Goddess of Luck~ He-he, luck is also part of one's strenght, you better admit it♪",
+						"japanese": "白露型駆逐艦、時雨というの。自慢じゃないけど、幸運のメガミの加護があるのよ~ふふん、運も実力のうち、いい加減認めなさいな♪",
+						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "I'm Shigure, a Shiratsuyu-class destroyer. I don't wanna brag, but I've got the Goddess of Luck watching over me~ Heheh, it's about time people acknowledged that luck is also a part of one's strength♪",
 						"englishNote": ""
 					},
 					"4": {
-						"event": "Login",
+						"event": "Log in",
 						"media": "login",
 						"chinese": "指挥官！你怎么才来，麻利点快准备下~我等好久了",
-						"chineseTL": "Commander! You're finally here, hurry up and get ready~ I waited for too long",
+						"chineseTL": "",
 						"chineseNote": "",
-						"japanese": "指揮官！おっそいわ！早く支度して～待ってたんだから",
-						"japaneseTL": "Commander! You're late! Hurry up and get ready~ I waited for too long",
+						"japanese": "指揮官！おっそいわ！早く支度して~待ってたんだから",
+						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Commander! You're late! Go get ready~ I've been waiting for you.",
 						"englishNote": ""
 					},
 					"5": {
-						"event": "Details",
-						"media": "details",
+						"event": "View details",
+						"media": "detail",
 						"chinese": "白痴指挥官！再看我咬你哦！",
-						"chineseTL": "Stupid Commander! Look again and I'll bite you!",
+						"chineseTL": "",
 						"chineseNote": "",
 						"japanese": "指揮官のバカ！これ以上見たら噛むわよ！",
-						"japaneseTL": "Stupid Commander! Look again and I'll bite you!",
+						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Stupid Commander! Look at me again and I'll bite you!",
 						"englishNote": ""
 					},
 					"6": {
-						"event": "Idle 1",
-						"media": "idle_1",
+						"event": "Main screen 1",
+						"media": "main_1",
 						"chinese": "真是和平啊……我们要不要来玩玩比运气的游戏？",
-						"chineseTL": "It's so peaceful... Want to play a game of luck?",
+						"chineseTL": "",
 						"chineseNote": "",
 						"japanese": "平和ね……運試しのゲームでもやらない？",
-						"japaneseTL": "It's so peaceful... Want to play a game of luck?",
+						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "It's so peaceful... How about we play a game of luck?",
 						"englishNote": ""
 					},
 					"7": {
-						"event": "Idle 2",
-						"media": "idle_2",
+						"event": "Main screen 2",
+						"media": "main_2",
 						"chinese": "我可是上头面前的红人呢~还不快来讨好我！",
-						"chineseTL": "I'm one of the favorites here~ Come here indulge me!",
+						"chineseTL": "",
 						"chineseNote": "",
 						"japanese": "上の方にとっても可愛がられてるの、さあはやく尻尾振って媚びなさい♪",
-						"japaneseTL": "I'm loved by the higher ups, now hurry up and come indulge me ♪",
+						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "The gods seem to really love me, so hurry up and shower me with compliments♪",
 						"englishNote": ""
 					},
 					"8": {
-						"event": "Idle 3",
-						"media": "idle_3",
+						"event": "Main screen 3",
+						"media": "main_3",
 						"chinese": "看你没什么精神呢，要不要吃我一发鱼雷啊？",
-						"chineseTL": "You seem down, want to eat one of my torpedos?",
+						"chineseTL": "",
 						"chineseNote": "",
 						"japanese": "元気ないわね、魚雷でも一発食らってはどう？",
-						"japaneseTL": "You seem down, want to eat a torpedo?",
+						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "You don't look too good. How about a torpedo to cheer you up?",
 						"englishNote": ""
 					},
 					"9": {
-						"event": "Touch",
-						"media": "touch",
+						"event": "Normal touch",
+						"media": "touch_1",
 						"chinese": "别到处乱摸啦，爆炸了我可不管哦！",
-						"chineseTL": "Don't carelessly touch everywhere, I won't be responsible if it explodes!",
+						"chineseTL": "",
 						"chineseNote": "",
 						"japanese": "あっちこっちさわらない！爆発しても知らないわよ！",
-						"japaneseTL": "Don't touch me everywhere! I won't be resposible if it explodes!",
+						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Stop touching me! Don't blame me if something blows up!",
 						"englishNote": ""
 					},
 					"10": {
-						"event": "Special Touch",
-						"media": "special_touch",
+						"event": "Special touch",
+						"media": "touch_2",
 						"chinese": "来玩个游戏吧指挥官，给你5分钟，现在你能逃出警察追捕范围时雨就放过你喔~",
-						"chineseTL": "Let's play a game Commander, I'll give you 5 minutes, if you can get away from the police search area, Shigure will let you go~",
+						"chineseTL": "",
 						"chineseNote": "",
-						"japanese": "指揮官、ゲームよ。5分間あげるからその間警察に捕まらなければ時雨様が通報を取り下げてあげるわ～",
-						"japaneseTL": "Commander, let's play a game. I'll give you 5 minutes, if you can get away from the police, Shigure-sama will drop the charges~",
+						"japanese": "指揮官、ゲームよ。５分間あげるから、その間警察に捕まらなければ時雨様が通報を取り下げてあげるわ～",
+						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Commander, let's play a game. I'll give you 5 minutes and if you haven't been caught by the police at that point then I'll withdraw my report~",
 						"englishNote": ""
 					},
 					"11": {
-						"event": "Mission",
-						"media": "mission",
+						"event": "Mission reminder",
+						"media": "task",
 						"chinese": "欸，任务？嘛，他们就知道下任务……",
-						"chineseTL": "Eh, mission? Sigh, the only thing they do is to assign missions...",
+						"chineseTL": "",
 						"chineseNote": "",
 						"japanese": "え？お仕事？もう、いつも仕事ばっかり……",
-						"japaneseTL": "Eh? Work? Meh, it's always work...",
+						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Huh? Work? Geez, it's ALWAYS about work...",
 						"englishNote": ""
 					},
 					"12": {
-						"event": "Mission Complete",
+						"event": "Mission complete",
 						"media": "mission_complete",
 						"chinese": "嘁，要不是这些奖励谁会去做那些任务啦~",
-						"chineseTL": "Tsk, if it wasn't for the rewards who would do these missions~",
+						"chineseTL": "",
 						"chineseNote": "",
 						"japanese": "ちぇ、ボーナスがなければ誰がこんな仕事するのよ…",
-						"japaneseTL": "Tsk, if there was no bonus who would do this kind of work...",
+						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "*Tsk*... If it weren't for the rewards then who'd bother with these jobs...",
 						"englishNote": ""
 					},
 					"13": {
-						"event": "Mail",
+						"event": "Mail reminder",
 						"media": "mail",
 						"chinese": "我帮你把信拿来了哦~猜猜在我那个手里呢~",
-						"chineseTL": "I got your mail~ Take a guess in which hand is it~",
+						"chineseTL": "",
 						"chineseNote": "",
 						"japanese": "手紙持ってきてあげたわ～どちらの手で持ってるか当てなさいな♪",
-						"japaneseTL": "I got your mail~ Take a guess in which hand is it~",
+						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "I brought you your mail~ Now guess which hand I'm holding it with♪",
 						"englishNote": ""
 					},
 					"14": {
-						"event": "Return from Sortie",
-						"media": "return_from_sortie",
+						"event": "Return to port",
+						"media": "home",
 						"chinese": "哦~呵~呵~猜猜我是谁？",
-						"chineseTL": "Oh~ho~ho~ Guess who is it?",
+						"chineseTL": "",
 						"chineseNote": "",
-						"japanese": "ふんふんふーん、誰が帰ったか当てなさいな～",
-						"japaneseTL": "Oh~ho~ho~ Guess who is back~",
+						"japanese": "ふんふんふーん~誰が帰ったか当てなさいな～",
+						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "*Laughs* Guess who's back~!",
 						"englishNote": ""
 					},
 					"15": {
-						"event": "Commission Complete",
-						"media": "commission_complete",
+						"event": "Commission complete",
+						"media": "expedition",
 						"chinese": "嗯嗯？时间到了啊，哼哼，即使我本人没有去，只要有我在的舰队委托报酬肯定大丰收啦~",
-						"chineseTL": "Hmmm? It's time already, he-he, even if I didn't go myself, if I'm in the fleet the commission is guaranteed to have good rewards~",
+						"chineseTL": "",
 						"chineseNote": "",
 						"japanese": "うん？時間か。ふふん、自ら行かなくてもこの時雨様がいる艦隊なら豊作が保証されるわよ♪",
-						"japaneseTL": "Hmm? It's time, huh. He-he, even if I didn't go myself, any fleet with Shigure-same is assured to get a good haul♪",
+						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Hm? Guess it's time. Heheh, I don't even need to actually head out, for as long as I'm in the fleet, bountiful rewards are guaranteed♪",
 						"englishNote": ""
 					},
 					"16": {
-						"event": "Enhancement",
-						"media": "enhancement",
+						"event": "Enhancing complete",
+						"media": "upgrade",
 						"chinese": "嗯嗯，让时雨大人变强是个明智的选择呢",
-						"chineseTL": "Hmm, making the great Shigure stronger is a wise decision",
+						"chineseTL": "",
 						"chineseNote": "",
 						"japanese": "うんうん、時雨様を強くするとは賢い選択ね",
-						"japaneseTL": "Hmhm, making Shigure-sama stronger is a wise decision",
+						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Mhm, making me stronger is a smart decision.",
 						"englishNote": ""
 					},
 					"17": {
-						"event": "Sortie Start",
-						"media": "sortie_start",
+						"event": "Flagship fight",
+						"media": "warcry",
 						"chinese": "让我们好好招待一下对面的笨蛋们~",
-						"chineseTL": "Let's give a nice welcome to these opposing idiots~",
+						"chineseTL": "",
 						"chineseNote": "",
-						"japanese": "向こうのバカどもにお見舞いしなさい～",
-						"japaneseTL": "Let's pay those idiots on the other side a visit~",
+						"japanese": "向こうのバカどもにお見舞いしなさい~",
+						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Let's give a warm welcome to our foolish enemies~!",
 						"englishNote": ""
 					},
 					"18": {
-						"event": "MVP",
+						"event": "Victory",
 						"media": "mvp",
 						"chinese": "打得不错嘛，对于你们来讲",
-						"chineseTL": "Not bad, for someone like you",
+						"chineseTL": "",
 						"chineseNote": "",
-						"japanese": "いい戦いっぷりだったわ。お前たちにしては♪",
-						"japaneseTL": "That was a good fight. For someone like you♪",
+						"japanese": "いい戦いっぶりだったわ。お前たちにしては♪",
+						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "That was a good fight, considering how they suck♪",
 						"englishNote": ""
 					},
 					"19": {
 						"event": "Defeat",
-						"media": "defeat",
+						"media": "lose",
 						"chinese": "真……真能干啊……我记住你了！",
-						"chineseTL": "You... You have really done it... I will remember you!",
+						"chineseTL": "",
 						"chineseNote": "",
 						"japanese": "や……やるわね……覚えておきなさい！",
-						"japaneseTL": "You... You have really done it... I will remember you!",
+						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "N... Not bad... You'd better remember this!",
 						"englishNote": ""
 					},
 					"20": {
-						"event": "Skill Activation",
-						"media": "skill_activation",
+						"event": "Skills",
+						"media": "skill",
 						"chinese": "佐世保之时雨，睁大眼看着吧！",
-						"chineseTL": "Shigure of Sasebo, take a good look!",
+						"chineseTL": "",
 						"chineseNote": "",
-						"japanese": "佐世保の時雨よ、よく見てなさい！",
-						"japaneseTL": "Shigure of Sasebo, take a good look!",
+						"japanese": "佐世保の時雨よ，よく見てなさい！",
+						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "I am Shigure of Sasebo! Watch closely!",
 						"englishNote": ""
 					},
 					"21": {
-						"event": "Low Health",
-						"media": "low_health",
+						"event": "Low HP",
+						"media": "hp",
 						"chinese": "要输了？骗人~！",
-						"chineseTL": "I am about to lose? No way~!",
+						"chineseTL": "",
 						"chineseNote": "",
 						"japanese": "負けそう？そんな～！",
-						"japaneseTL": "I am about to lose? No way~!",
+						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "We're gonna lose? That can't be~!",
 						"englishNote": ""
 					},
 					"22": {
-						"event": "Affinity (Disappointed)",
-						"media": "affinity_disappointed",
+						"event": "Upset",
+						"media": "feeling1",
 						"chinese": "你就被噩运笼罩着吧，笨蛋！",
-						"chineseTL": "Go get cursed by bad luck, idiot!",
+						"chineseTL": "",
 						"chineseNote": "",
 						"japanese": "悪運に呪われなさい、馬鹿！",
-						"japaneseTL": "Go get cursed by bad luck, idiot!",
+						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "I curse you with bad luck! You idiot!",
 						"englishNote": ""
 					},
 					"23": {
-						"event": "Affinity (Stranger)",
-						"media": "affinity_stranger",
+						"event": "Stranger",
+						"media": "feeling2",
 						"chinese": "想要好运？可没有那么简单哦",
-						"chineseTL": "Want good luck? It's not that easy",
+						"chineseTL": "",
 						"chineseNote": "",
-						"japanese": "幸運？そう簡単になるもんじゃないわよ",
-						"japaneseTL": "Luck? It's not that easy",
+						"japanese": "幸運？そうかんたんになるもんじゃないわよ",
+						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "You want good luck? It's not something you can just get.",
 						"englishNote": ""
 					},
 					"24": {
-						"event": "Affinity (Friendly)",
-						"media": "affinity_friendly",
+						"event": "Friendly",
+						"media": "feeling3",
 						"chinese": "所谓幸运呢，就是不经意间获得的才叫幸运哦，比如说，嘿！（跳）……指挥官，看到人家的胖次颜色了吗~",
-						"chineseTL": "The so-called fortune, is something you obtain inadvertently, for example, hey! *Jumps*... Commander, you saw the color of my underwear, right?",
+						"chineseTL": "",
 						"chineseNote": "",
 						"japanese": "幸運はね、知らぬ間に得られるものなのよ？例えば、へい！（ジャンプ）……指揮官、今ので下着の色を見たかな～？",
-						"japaneseTL": "Luck is, something you obtain inadvertently? For example, hey! *Jumps*... Commander, you just saw the color of my underwear, didn't you~?",
+						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Luck comes when you least expect it, you know? For example, like this! (Shigure jumps) ... Commander, maybe you caught a glimpse of my underwear just now~?",
 						"englishNote": ""
 					},
 					"25": {
-						"event": "Affinity (Like)",
-						"media": "affinity_like",
+						"event": "Crush",
+						"media": "feeling4",
 						"chinese": "能被时雨我捉弄本身就是一件很幸运的事了，你这个身在福中不知福的笨蛋~不过我就是喜欢这种地方啦",
-						"chineseTL": "To get pranked by me, Shigure, is a sign of good fortune. You are a fortunate idiot that doesn't even realize it~ But that's something I like",
+						"chineseTL": "",
 						"chineseNote": "",
 						"japanese": "この時雨様にいたずらされるだけで幸運なのよ？このわからず屋さん♪まあそういうとこが好きなんだけど",
-						"japaneseTL": "Getting pranked by me, Shigure-sama, is a sign of good fortune, you know? You dimwit♪ But well, something like that is what I like about you",
+						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Getting pranked by me is a lucky thing on its own, you dunce♪ Although I do like that about you.",
 						"englishNote": ""
 					},
 					"26": {
-						"event": "Affinity (Love)",
-						"media": "affinity_love",
+						"event": "Love",
+						"media": "feeling5",
 						"chinese": "嘻嘻，笨笨的指挥官，你就尽管依靠时雨好了，时雨大人什~么都会帮你解决的，你只需要继续喜欢时雨就好了~",
-						"chineseTL": "Hehe, silly Commander, you can rely completely on Shigure~ The great Shigure can help you solve anything~ You only need to keep loving Shigure~",
+						"chineseTL": "",
 						"chineseNote": "",
 						"japanese": "ふふん、指揮官のお馬鹿さんは、時雨様に思う存分頼っていいわよ。な～んでもやってあげるわ。だから時雨様のことも、このまま好きでいなさいな♪",
-						"japaneseTL": "Hehe, silly Commander, you can rely on Shigure-sama all you want. I'll do any~thing for you. That's why, keep loving Shigure-sama♪",
+						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Heheh, silly Commander, you can rely on me as much as you want. I'll do anything you want~! As long as you love me like this, I'm yours♪",
 						"englishNote": ""
 					},
 					"27": {
-						"event": "Pledge",
-						"media": "pledge",
+						"event": "Promise",
+						"media": "propose",
 						"chinese": "指挥官真是让人放心不下呢……这样的话时雨大人就只好一~直在你身边照顾你了",
-						"chineseTL": "Commander surely makes people worry... In that case the great Shigure will always stay by your side and take care of you~",
+						"chineseTL": "",
 						"chineseNote": "",
-						"japanese": "指揮官って放っておけないわね……じゃあこの時雨様がず～っとそばにいて世話をしてあげるわ♪",
-						"japaneseTL": "Commander can't really be left to yourself... In that case Shigure-sama will keep taking care of you for~ever♪",
-						"japaneseNote": "",
-						"english": "",
-						"englishNote": ""
-					},
-					"28": {
-						"event": "Easter Egg 1 (Shiratsuyu, Yuudachi)",
-						"media": "",
-						"chinese": "猴子军团白露小队，出击！",
-						"chineseTL": "Monkey Legion Shiratsuyu Team, Attack!",
-						"chineseNote": "",
-						"japanese": "",
+						"japanese": "指揮官って放っておけないわね……じゃあこの時雨様がず～とそばにいって世話してあげるわ♪ ",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
-						"englishNote": ""
-					},
-					"29": {
-						"event": "Easter Egg 2 (Saru x5)",
-						"media": "",
-						"chinese": "欸，我不可能是猴子吧？",
-						"chineseTL": "Eh, I can't be a monkey, right?",
-						"chineseNote": "",
-						"japanese": "",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "",
-						"englishNote": ""
-					},
-					"30": {
-						"event": "Valentines 2018",
-						"media": "",
-						"chinese": "时雨大人的情人巧克力，好好感恩戴德的收下吧！本命巧克力？还是义理巧克力？呵呵呵——猜一猜？笨蛋指挥官♪",
-						"chineseTL": "This is the Valentine's chocolate from the great Shigure, receive it with the utmost gratefulness! Is is a love chocolate? Or an obligation one? Oh ho ho~ take a guess? Stupid Commander ♪",
-						"chineseNote": "",
-						"japanese": "この時雨様のバレンタインチョコ、ありがた～く受け取りなさい！本命チョコ？それとも義理チョコ？ふふふん――当ててみなさいな、この分からず屋さん♫",
-						"japaneseTL": "Valentine's chocolate from me, Shigure-sama~ take it gratefully! Love chocolate? Or obligation chocolate? Ohhoho~ take a guess, you dimwit ♪",
-						"japaneseNote": "",
-						"english": "",
-						"englishNote": ""
-					},
-					"31": {
-						"event": "Valentines 2019",
-						"media": "",
-						"chinese": "这是时雨大人送的幸运巧克力慰问品！今天是情人节，我在里面增添了特别的口味哦！哦呵呵，哭着品尝吧？",
-						"chineseTL": "This is the great Shigure's Valentine's chocolate! Today is Valentines, I added an extra special flavor to it! Oh ho ho, I hope you don't cry.",
-						"chineseNote": "",
-						"japanese": "この時雨様からのめでたーいチョコの差し入れよ！今日はバレンタインだから、特別な隠し味を仕込んでおいたの！ふふふ、涙流して味わいなさいな♪",
-						"japaneseTL": "Have a chocolate from the great Shigure-sama! Since today is Valentines, I hid an extra special flavor to it! Oh ho ho, I hope you don't cry♪",
-						"japaneseNote": "",
-						"english": "",
+						"english": "You just can't be left alone, Commander... Worry not, I will stay by your side and take care of you forever♪",
 						"englishNote": ""
 					}
 				}
 			},
 			"2": {
-				"label": "shigure_skin2",
+				"skin_id": "shiyu_2",
+				"id": "1",
+				"label": "Attack, I-490!",
 				"dialogue": {
 					"1": {
-						"event": "Ship Description, Acquisition",
-						"media": "acquisition",
+						"event": "Ship Description",
+						"media": "",
 						"chinese": "笨蛋指挥官，时雨大人才不是什么潜水舰！想被酸素鱼雷敲头吗！",
-						"chineseTL": "Stupid Commander, the great Shigure isn't a damn submarine! Want to get your head knocked by an oxygen torpedo?!",
+						"chineseTL": "",
 						"chineseNote": "",
-						"japanese": "バカ指揮官、この時雨様は潜水艦なんかじゃないわ！酸素魚雷で頭叩かれたいの？",
-						"japaneseTL": "Stupid Commander, the great Shigure-sama isn't a damn submarine! Want to get your head knocked by an oxygen torpedo?",
+						"japanese": "バカ指揮官、この時雨様は潜水艦なんかじゃないわ！酸素魚雷で頭叩かれたい？",
+						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Stupid Commander, I'm not a damn submarine! Do you wanna get hit in the face with an oxygen torpedo?",
 						"englishNote": ""
 					},
 					"2": {
-						"event": "Details",
-						"media": "details",
-						"chinese": "你以为夸奖我泳装好看，我就不会咬你了吗？呜嗷！",
-						"chineseTL": "Did you think if you praised my swimsuit, I wouldn't bite? Rawr!",
+						"event": "Receive",
+						"media": "get_1",
+						"chinese": "笨蛋指挥官，时雨大人才不是什么潜水舰！想被酸素鱼雷敲头吗！",
+						"chineseTL": "",
 						"chineseNote": "",
-						"japanese": "水着を褒められたぐらいで噛まなくなると思った？シャー",
-						"japaneseTL": "Did you think if you praised my swimsuit, I wouldn't bite? *Hiss-*",
+						"japanese": "バカ指揮官、この時雨様は潜水艦なんかじゃないわ！酸素魚雷で頭叩かれたいの？",
+						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Stupid Commander, I'm not a damn submarine! Do you wanna get hit in the face with an oxygen torpedo?",
 						"englishNote": ""
 					},
 					"3": {
-						"event": "Idle 1",
-						"media": "idle_1",
-						"chinese": "把蓬松的尾巴放在海里吸足水，然后……“砰”地炸开！嘻嘻，指挥官，你湿透了耶",
-						"chineseTL": "Put my fluffy tail into the sea to absorb water, then... BANG! Hehe, Commander, you're soaked wet",
+						"event": "View details",
+						"media": "detail_1",
+						"chinese": "你以为夸奖我泳装好看，我就不会咬你了吗？呜嗷！",
+						"chineseTL": "",
 						"chineseNote": "",
-						"japanese": "尻尾で海水を吸収して…ポン！っと～あらら指揮官～ずぶ濡れじゃない～",
-						"japaneseTL": "Absorb seawater with my tail and... PON! My, my, Commander~ aren't you all soaked wet~",
+						"japanese": "水着を褒められたぐらいで噛まなくなると思った？シャー",
+						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "You thought I wouldn't bite you just because you complimented my swimsuit? *Hiss*",
 						"englishNote": ""
 					},
 					"4": {
-						"event": "Idle 2",
-						"media": "idle_2",
-						"chinese": "那是山城姐送我的小红花，才不会给你！",
-						"chineseTL": "This little red flower was a gift from Big Sis Yamashiro, I won't give it to you!",
+						"event": "Main screen 1",
+						"media": "main_1_1",
+						"chinese": "把蓬松的尾巴放在海里吸足水，然后……“砰”地炸开！嘻嘻，指挥官，你湿透了耶",
+						"chineseTL": "",
 						"chineseNote": "",
-						"japanese": "これは山城姉さんがくれたものよ！あんたにあげるもんか！！",
-						"japaneseTL": "This is something Yamashiro-neesan game me! I'm not giving it to you!!",
+						"japanese": "尻尾で海水を吸収して…ポン！っと～あらら指揮官～ずぶ濡れじゃない～",
+						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "I'll just absorb some seawater with my tail, and then... Pow! Oh dear~ You're totally drenched, Commander~",
 						"englishNote": ""
 					},
 					"5": {
-						"event": "Idle 3",
-						"media": "idle_3",
-						"chinese": "山城姐姐山城姐姐，不要理那个白痴指挥官了，我来陪你打排球！",
-						"chineseTL": "Big Sis Yamashiro~ Don't pay attention to that idiot Commander, I'll play volleyball with you!",
+						"event": "Main screen 2",
+						"media": "main_2_1",
+						"chinese": "那是山城姐送我的小红花，才不会给你！",
+						"chineseTL": "",
 						"chineseNote": "",
-						"japanese": "山城姉さん、あのバカ指揮官のことはいいから、私とビーチバレーを一緒にやりましょう！",
-						"japaneseTL": "Yamashiro-neesan, enough with that idiot Commander, come play beach volleyball with me!",
+						"japanese": "これは山城姉さんがくれたものよ！あんたにあげるもんか！！",
+						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Yamashiro gave me this little rose! If you thought I'd give it to you, think again!",
 						"englishNote": ""
 					},
 					"6": {
-						"event": "Touch",
-						"media": "",
-						"chinese": "不要碰我耳朵，很痒的！",
-						"chineseTL": "Don't touch my ears, that's itchy!",
+						"event": "Main screen 3",
+						"media": "main_3_1",
+						"chinese": "山城姐姐山城姐姐，不要理那个白痴指挥官了，我来陪你打排球！",
+						"chineseTL": "",
 						"chineseNote": "",
-						"japanese": "",
+						"japanese": "山城姉さん、あのバカ指揮官のことはいいから、私とビーチバレーを一緒にやりましょう！",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Yamashiro, just ignore that stupid Commander, come play beach volleyball with me!",
 						"englishNote": ""
 					},
 					"7": {
-						"event": "Special Touch",
-						"media": "special_touch",
+						"event": "Special touch",
+						"media": "touch_2_1",
 						"chinese": "呀！！！刚刚用尾巴钓到的鱼都被你吓跑了！白痴指挥官！",
-						"chineseTL": "Ah!!! You scared away the fish I caught with my tail! Idiot Commander!",
+						"chineseTL": "",
 						"chineseNote": "",
 						"japanese": "ふきゃ！尻尾で釣れた魚が逃げたじゃない！このバカ指揮官！",
-						"japaneseTL": "Fukya! The fish I caught with my tail got away! Idiot Commander!",
+						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Wahh! You scared off the fish I'd caught with my tail! Commander, you idiot!",
 						"englishNote": ""
 					},
 					"8": {
-						"event": "Sortie Start",
-						"media": "sortie_start",
+						"event": "Flagship fight",
+						"media": "warcry_1",
 						"chinese": "酸素鱼雷，齐射准备！",
-						"chineseTL": "Oxygen torpedos, ready for full salvo!",
+						"chineseTL": "",
 						"chineseNote": "",
 						"japanese": "酸素魚雷、一斉発射用意！",
-						"japaneseTL": "Oxygen torpedos, ready for full salvo!",
+						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Oxygen torpedoes: prepare for simultaneous launch!",
 						"englishNote": ""
 					}
 				}

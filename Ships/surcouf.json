@@ -1,0 +1,602 @@
+{
+	"name_reference" : "surcouf",
+	"cn_reference" : "xukufu",
+	"nameJP" : "シュルクーフ",
+	"nameCN" : "絮库夫",
+	"ID" : "350",
+	"name" : "Surcouf",
+	"internal_id" : "808011",
+	"rarity" : "Elite",
+	"initialStar" : "★★☆☆☆",
+	"hull" : "Submarine",
+	"navy" : "Iris Libre",
+	"prefix" : "FFNF",
+	"buildTime" : "",
+	"class" : "",
+	"voiceActress" : "Manami Numakura",
+	"parameters": {
+		"firepower" : "B",
+		"torpedo" : "A",
+		"aviation" : "E",
+		"evasion" : "D",
+		"antiAir" : "E",
+		"hp" : "C"
+	},
+	"scrap": {
+		"gold" : "1",
+		"oil" : "4",
+		"medal" : "4"
+	},
+	"releaseDate": {
+		"JP" : "",
+		"CN" : "",
+		"KR" : "",
+		"EN" : ""
+	},
+	"artist": {
+		"name" : "",
+		"weibo" : "",
+		"twitter" : "",
+		"pixiv" : "",
+		"other" : ""
+	},
+	"enhance": {
+		"firepower" : "3",
+		"torpedo" : "39",
+		"aviation" : "0",
+		"reload" : "5"
+	},
+	"acquisitionMethod" : "イベント：光と影のアイリス",
+	"skill": {
+		"1" : {
+			"icon" : "11570",
+			"requirement" : "",
+			"name" : "侦查支援",
+			"type" : "Support",
+			"description" : "进入战斗时，提高己方所有先锋角色$1命中属性，持续20秒"
+		},
+		"2" : {
+			"icon" : "3521",
+			"requirement" : "",
+			"name" : "Surface Combat ",
+			"type" : "Defensive",
+			"description" : "Increases the time this boat can stay in combat after resurfacing by $1s. "
+		},
+		"3" : {
+			"icon" : "29321",
+			"requirement" : "",
+			"name" : "专属弹幕-絮库夫I",
+			"type" : "Offensive",
+			"description" : "氧气不足浮上水面时，触发专属弹幕-絮库夫I"
+		}
+	},
+	"skin": {
+		"1" : {
+			"id" : "xukufu",
+			"name" : "シュルクーフ",
+			"description" : "巡洋潜水艦シュルクーフ",
+			"expression" : {
+				"0" : {
+					"id" : "0"
+				}
+			}
+		}
+	},
+	"defaultEquipment": {
+		"1" : {
+			"icon" : "5500",
+			"rarity" : "Common",
+			"name" : "潜水艦用550mm24V魚雷"
+		},
+		"1" : {
+			"icon" : "5500",
+			"rarity" : "Common",
+			"name" : "潜水艦用550mm24V魚雷"
+		},
+		"1" : {
+			"icon" : "7340",
+			"rarity" : "Rare",
+			"name" : "双联装203mm主炮Mle1924(潜艇用)"
+		}
+	},
+	"stats": {
+		"base": {
+			"hp" : "454",
+			"firepower" : "26",
+			"torpedo" : "98",
+			"antiAir" : "0",
+			"aviation" : "0",
+			"reload" : "28",
+			"hit" : "57",
+			"evasion" : "8",
+			"speed" : "14.8",
+			"luck" : "60",
+			"asw" : "0",
+			"oxygen" : "180",
+			"ammo" : "2",
+			"cost" : "2",
+			"armor" : "Light"
+		},
+		"100": {
+			"hp" : "2349",
+			"firepower" : "120",
+			"torpedo" : "463",
+			"antiAir" : "0",
+			"aviation" : "0",
+			"reload" : "66",
+			"hit" : "149",
+			"evasion" : "20",
+			"speed" : "14.8",
+			"luck" : "60",
+			"asw" : "0",
+			"oxygen" : "180",
+			"ammo" : "2",
+			"cost" : "7",
+			"armor" : "Light"
+		},
+		"120": {
+			"hp" : "2819",
+			"firepower" : "139",
+			"torpedo" : "509",
+			"antiAir" : "0",
+			"aviation" : "0",
+			"reload" : "76",
+			"hit" : "164",
+			"evasion" : "22",
+			"speed" : "14.8",
+			"luck" : "60",
+			"asw" : "0",
+			"oxygen" : "180",
+			"ammo" : "2",
+			"cost" : "7",
+			"armor" : "Light"
+		},
+		"100retrofit": {
+			"hp" : "",
+			"firepower" : "",
+			"torpedo" : "",
+			"antiAir" : "",
+			"aviation" : "",
+			"reload" : "",
+			"hit" : "",
+			"evasion" : "",
+			"speed" : "14.8",
+			"luck" : "60",
+			"asw" : "",
+			"oxygen" : "180",
+			"ammo" : "2",
+			"cost" : "7",
+			"armor" : "Light"
+		},
+		"120retrofit": {
+			"hp" : "",
+			"firepower" : "",
+			"torpedo" : "",
+			"antiAir" : "",
+			"aviation" : "",
+			"reload" : "",
+			"hit" : "",
+			"evasion" : "",
+			"speed" : "14.8",
+			"luck" : "60",
+			"asw" : "",
+			"oxygen" : "180",
+			"ammo" : "2",
+			"cost" : "7",
+			"armor" : "Light"
+		}
+	},
+	"limitBreak": {
+		"tier1": "特殊弾幕スキル習得/艦砲補正+5%",
+		"tier2": "魚雷装填数+1/支援範囲拡大",
+		"tier3": "特殊弾幕強化/魚雷補正+10%"
+	},
+	"equipmentLoadout": {
+		"1": {
+			"type": "Submarine Torpedo",
+			"efficiency": "105%/105%/105%/115%",
+			"amount": "1/1/2/2",
+			"preload": "0/0/0/0"
+		},
+		"2": {
+			"type": "Submarine Torpedo",
+			"efficiency": "105%/105%/105%/115%",
+			"amount": "1/1/2/2",
+			"preload": "0/0/0/0"
+		},
+		"3": {
+			"type": "Heavy Cruiser",
+			"efficiency": "115%/120%/120%/120%",
+			"amount": "1/1/1/1",
+			"preload": "0/0/0/0"
+		},
+		"4": {
+			"type": "Auxilary",
+			"efficiency": "-",
+			"amount": "-",
+			"preload": "-"
+		},
+		"5": {
+			"type": "Auxilary",
+			"efficiency": "-",
+			"amount": "-",
+			"preload": "-"
+		}
+	},
+	"build": {
+		"light": {
+			"JP": "",
+			"CN": "",
+			"EN": ""
+		},
+		"heavy": {
+			"JP": "",
+			"CN": "",
+			"EN": ""
+		},
+		"special": {
+			"JP": "",
+			"CN": "",
+			"EN": ""
+		},
+		"limited": {
+			"JP": "",
+			"CN": "",
+			"EN": ""
+		}
+	},
+	"drop": {
+		"droppable": "false",
+		"list": {
+			"1": {
+				"event": "",
+				"chapter": {
+					"1": {
+						"label": "Ch .1",
+						"node": {
+							"1": {
+								"drop": "✓",
+								"note": "-"
+							}
+						}
+					}
+				}
+			}
+		}
+	},
+	"lines": {
+		"skin": {
+			"1": {
+				"skin_id" : "xukufu",
+				"id" : "0",
+				"label" : "シュルクーフ",
+				"dialogue" : {
+					"1" : {
+						"event" : "Ship Description",
+						"media" : "",
+						"chinese" : "自由鸢尾潜水巡洋舰—絮库夫",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "巡洋潜水艦シュルクーフ",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"2" : {
+						"event" : "Biography",
+						"media" : "profile",
+						"chinese" : "自由鸢尾所属潜艇絮库夫就是我哟～“水下巡洋舰”？是在说我这不输给巡洋舰的nicebody吗～论火力我可是不会轻易认输的哟！至于经常撞到人什么的，就不要太在意啦，啊哈哈……",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "自由アイリス教国、潜水艦シュルクーフとは私のことよ。「潜水巡洋艦」？あら、この巡洋艦にも負けないナイスボティのことかしら～まあ、火力でも負けないわよ！よく人にぶつかるのは気にしないでね、ははは♪",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"3" : {
+						"event" : "Receive",
+						"media" : "get",
+						"chinese" : "你好你好，我是絮库夫！为什么巡洋体型要拿着潜艇装备？讨厌啦，人家可是正儿八经的潜艇啊！总而言之，请多指教啦～",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "Salut～私はシュルクーフよ！なんで巡洋艦体形なのに潜水艦の装備を持ってるのかって？って、違ーう！こう見えてもれっきとした潜水艦よ！とにかく、これからよろしく～",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"4" : {
+						"event" : "Log in",
+						"media" : "login",
+						"chinese" : "呀，指挥官，早安~",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "Salut～指揮官、おはよ～",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"5" : {
+						"event" : "View details",
+						"media" : "detail",
+						"chinese" : "指挥官，来制作属于我们舰队的旗帜吧~就像我这面代表自由鸢尾的旗帜一样",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "指揮官、私たちの艦隊の旗でも作ってみない？このアイリスの旗と同じ感じで～",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"6" : {
+						"event" : "Main screen 1",
+						"media" : "main_1",
+						"chinese" : "指挥官果然也是被我的身材所吸引而把我放在身边的吧，嗯？不要害羞嘛，我不会生气的~",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "やっぱり指揮官もこの私のわがままボディに惹かれて、私を秘書艦にしたんでしょ？あらら～？そんな恥ずかしがらなくていいよ。私、怒らないから～♪",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"7" : {
+						"event" : "Main screen 2",
+						"media" : "main_2",
+						"chinese" : "指挥官工作也很努力呢，我也要加油~不过加油做什么好呢……",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "指揮官は仕事頑張ってるね…私も頑張ろー♪でも何を頑張ればいいのかしら…",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"8" : {
+						"event" : "Main screen 3",
+						"media" : "main_3",
+						"chinese" : "指挥官，你有看到我的“路路通”吗？啊，那是我的飞机，也是我的好朋友~",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "指揮官、私の「パスパルトゥー」を見かけなかった？あ、私の水上機のことよ。マブダチなんだ～",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"9" : {
+						"event" : "Normal touch",
+						"media" : "touch_1",
+						"chinese" : "吃好，睡好，好好战斗，其他就交给指挥官，这样的生活也不错嘛~",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "よく食べてよく寝てよく戦う！それ以外は指揮官に丸投げ♪こういう生活もいいよね～",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"10" : {
+						"event" : "Special touch",
+						"media" : "touch_2",
+						"chinese" : "指挥官，想碰的话，要好好跟我说才行哦？",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "指揮官、触りたいならちゃんと先に言ってよ～",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"11" : {
+						"event" : "Mission reminder",
+						"media" : "task",
+						"chinese" : "好嘞，让我来看看今天的任务都有什么奖励吧！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "よし、今日の任務報酬でも見てみよう！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"12" : {
+						"event" : "Mission complete",
+						"media" : "mission_complete",
+						"chinese" : "喔！任务奖励里发现了好东西~",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "お！任務報酬からいいものハッケン♪",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"13" : {
+						"event" : "Mail reminder",
+						"media" : "mail",
+						"chinese" : "指挥官，新邮件！……嗯？我只是提醒你去拿，没拿来过哦",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "指揮官、新しいメールよ！…うん？別に持ってきてないよ？取りに行ってーって注意しただけ～",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"14" : {
+						"event" : "Return to port",
+						"media" : "home",
+						"chinese" : "指挥官，有帮我带点心吗？",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "指揮官、私への差し入れとかない？",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"15" : {
+						"event" : "Commission complete",
+						"media" : "expedition",
+						"chinese" : "指挥官，委托完成啦，我去问问她们有没有找到什么有趣的东西~",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "指揮官、委託が完了したよ～、面白いものがなかったか聞いてくるね♪",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"16" : {
+						"event" : "Enhancing complete",
+						"media" : "upgrade",
+						"chinese" : "指挥官，干得漂亮~",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "指揮官、Bien joué ",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"17" : {
+						"event" : "Flagship fight",
+						"media" : "warcry",
+						"chinese" : "只不过是大点的猎物而已，上啦！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "ちょっとばかし大きい獲物よ！On y va！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"18" : {
+						"event" : "Victory",
+						"media" : "mvp",
+						"chinese" : "呼啊…打了个大胜仗，就有点困……呼……",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "ふぁ…勝ったらなんかちょっと眠くなっちゃって……ふぅ……",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"19" : {
+						"event" : "Defeat",
+						"media" : "lose",
+						"chinese" : "啊，输掉了…指挥官，撤退吗？",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "あ、負けちゃった……指揮官、逃げる？",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"20" : {
+						"event" : "Skills",
+						"media" : "skill",
+						"chinese" : "哼哼，你们躲得开这一招吗~",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "ふふん、これは避けられる？",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"21" : {
+						"event" : "Low HP",
+						"media" : "hp",
+						"chinese" : "我可是答应过指挥官要努力战斗的！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "頑張って戦うって指揮官と約束したんだからっ！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"22" : {
+						"event" : "Upset",
+						"media" : "feeling1",
+						"chinese" : "啊，指挥官，你继续工作吧，我没有指挥官在身边也比较开心哦",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "あ、指揮官、仕事を続けて？私、指揮官がいないほうが楽しいよ",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"23" : {
+						"event" : "Stranger",
+						"media" : "feeling2",
+						"chinese" : "我的名字来源好像个挺有名的海盗，虽然听起来好像很帅的样子，不过我对那方面完全不感兴趣呢",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "私の名前はとある海賊から来ているらしいよ？なんかかっこよさそうって聞いたけど、私、そういうのに全然興味ないからわかんないわ",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"24" : {
+						"event" : "Friendly",
+						"media" : "feeling3",
+						"chinese" : "嘿，指挥官，一起出去玩吗？就逛逛街，散散步，躺在草地上睡午觉什么的~",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "Salut～指揮官、一緒に遊びに行かない？町を散歩したり買い物したり、芝生で昼寝したりして～",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"25" : {
+						"event" : "Crush",
+						"media" : "feeling4",
+						"chinese" : "指挥官，我发现了一个超赞的午睡场所，这个地方我只告诉你哦，你可不要告诉别人，就作为我们两个人的秘密~",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "指揮官、とっておきな昼寝の場所を見つけたから、あなただけに教えるね。あ、ほかの子に教えちゃダメよ？二人だけのヒミツなんだから♪",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"26" : {
+						"event" : "Love",
+						"media" : "feeling5",
+						"chinese" : "嘿嘿，指挥官不觉得我们很合得来吗，步调超一致的呢，要遇到这样的人可是很难的哦，要不然我们凑一对怎么样～？",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "ふふ、私たちって相性がいいとは思わない？こうも息がピッタリとあう人は中々見つからないんだ～いっそカップルにならない？",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"27" : {
+						"event" : "Promise",
+						"media" : "propose",
+						"chinese" : "指挥官要用戒指把絮库夫绑在身边吗？真是贪心呢~不过是指挥官的话，好像～我也不讨厌呢~",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "指輪でシュルクーフを側に縛り付けるつもり？もう本当に欲張りさんなんだから～でも指揮官なら…嫌じゃないかも♪",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					}
+				}
+			}
+		}
+	}
+}

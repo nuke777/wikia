@@ -1,0 +1,590 @@
+{
+	"name_reference" : "niizuki",
+	"cn_reference" : "xinyue_jp",
+	"nameJP" : "新月",
+	"nameCN" : "新月",
+	"ID" : "295",
+	"name" : "Niizuki",
+	"internal_id" : "301561",
+	"rarity" : "Elite",
+	"initialStar" : "★★☆☆☆",
+	"hull" : "Destroyer",
+	"navy" : "Sakura Empire",
+	"prefix" : "IJN",
+	"buildTime" : "",
+	"class" : "Akizuki",
+	"voiceActress" : "Rumi Okubo",
+	"parameters": {
+		"firepower" : "C",
+		"torpedo" : "B",
+		"aviation" : "E",
+		"evasion" : "A",
+		"antiAir" : "B",
+		"hp" : "C"
+	},
+	"scrap": {
+		"gold" : "4",
+		"oil" : "3",
+		"medal" : "4"
+	},
+	"releaseDate": {
+		"JP" : "",
+		"CN" : "",
+		"KR" : "",
+		"EN" : ""
+	},
+	"artist": {
+		"name" : "",
+		"weibo" : "",
+		"twitter" : "",
+		"pixiv" : "",
+		"other" : ""
+	},
+	"enhance": {
+		"firepower" : "5",
+		"torpedo" : "23",
+		"aviation" : "0",
+		"reload" : "15"
+	},
+	"acquisitionMethod" : "Explore Stage9-4",
+	"skill": {
+		"1" : {
+			"icon" : "2021",
+			"requirement" : "",
+			"name" : "Reload Order",
+			"type" : "Support",
+			"description" : "25.0% chance to activate every 20s: increases the RLD of all friendlies in the entire fleet by $1 for 8s. Does not stack with the same skill."
+		},
+		"2" : {
+			"icon" : "4091",
+			"requirement" : "",
+			"name" : "Anti-Air Mode",
+			"type" : "Defensive",
+			"description" : "When this ship fires its Anti-Air Guns: 25.0% chance to increase this ship's AA by $1 but decrease its FP by $2 for 3s."
+		},
+		"3" : {
+			"icon" : "22061",
+			"requirement" : "",
+			"name" : "All Out Assault Ⅰ",
+			"type" : "Offensive",
+			"description" : "Activate All Out Assault Ⅰ: Akizuki Class once every 24 times the main gun is fired."
+		}
+	},
+	"skin": {
+		"1" : {
+			"id" : "xinyue_jp",
+			"name" : "Niizuki",
+			"description" : "Akizuki-class destroyer number five – Niizuki.",
+			"expression" : {
+				"0" : {
+					"id" : "0"
+				}
+			}
+		}
+	},
+	"defaultEquipment": {
+		"1" : {
+			"icon" : "31000",
+			"rarity" : "Rare",
+			"name" : "Twin 100mm (Type 98) AA Gun"
+		},
+		"1" : {
+			"icon" : "35200",
+			"rarity" : "Rare",
+			"name" : "Quadruple 610mm Torpedo"
+		},
+		"3" : {
+			"icon" : "",
+			"rarity" : "",
+			"name" : ""
+		}
+	},
+	"stats": {
+		"base": {
+			"hp" : "394",
+			"firepower" : "14",
+			"torpedo" : "70",
+			"antiAir" : "36",
+			"aviation" : "0",
+			"reload" : "77",
+			"hit" : "67",
+			"evasion" : "67",
+			"speed" : "39.6",
+			"luck" : "32",
+			"asw" : "49",
+			"oxygen" : "0",
+			"ammo" : "0",
+			"cost" : "2",
+			"armor" : "Light"
+		},
+		"100": {
+			"hp" : "2037",
+			"firepower" : "66",
+			"torpedo" : "330",
+			"antiAir" : "168",
+			"aviation" : "0",
+			"reload" : "183",
+			"hit" : "175",
+			"evasion" : "174",
+			"speed" : "39.6",
+			"luck" : "32",
+			"asw" : "180",
+			"oxygen" : "0",
+			"ammo" : "0",
+			"cost" : "9",
+			"armor" : "Light"
+		},
+		"120": {
+			"hp" : "2445",
+			"firepower" : "76",
+			"torpedo" : "370",
+			"antiAir" : "193",
+			"aviation" : "0",
+			"reload" : "210",
+			"hit" : "184",
+			"evasion" : "179",
+			"speed" : "39.6",
+			"luck" : "32",
+			"asw" : "200",
+			"oxygen" : "0",
+			"ammo" : "0",
+			"cost" : "9",
+			"armor" : "Light"
+		},
+		"100retrofit": {
+			"hp" : "",
+			"firepower" : "",
+			"torpedo" : "",
+			"antiAir" : "",
+			"aviation" : "",
+			"reload" : "",
+			"hit" : "",
+			"evasion" : "",
+			"speed" : "39.6",
+			"luck" : "32",
+			"asw" : "",
+			"oxygen" : "0",
+			"ammo" : "0",
+			"cost" : "9",
+			"armor" : "Light"
+		},
+		"120retrofit": {
+			"hp" : "",
+			"firepower" : "",
+			"torpedo" : "",
+			"antiAir" : "",
+			"aviation" : "",
+			"reload" : "",
+			"hit" : "",
+			"evasion" : "",
+			"speed" : "39.6",
+			"luck" : "32",
+			"asw" : "",
+			"oxygen" : "0",
+			"ammo" : "0",
+			"cost" : "9",
+			"armor" : "Light"
+		}
+	},
+	"limitBreak": {
+		"tier1": "Unlock All Out Assault Ⅰ/Main gun efficiency +5%",
+		"tier2": "Main gun base +1/Torpedo preload +1/AA gun efficiency +10%",
+		"tier3": "Improve All Out Assault/All weapons' efficiency +5%"
+	},
+	"equipmentLoadout": {
+		"1": {
+			"type": "Destroyer Gun",
+			"efficiency": "90%/95%/95%/100%",
+			"amount": "1/1/2/2",
+			"preload": "0/0/0/0"
+		},
+		"2": {
+			"type": "Torpedo",
+			"efficiency": "130%/130%/130%/135%",
+			"amount": "1/1/1/1",
+			"preload": "0/0/1/1"
+		},
+		"3": {
+			"type": "Anti-Air Gun",
+			"efficiency": "120%/120%/130%/135%",
+			"amount": "1/1/1/1",
+			"preload": "0/0/0/0"
+		},
+		"4": {
+			"type": "Auxilary",
+			"efficiency": "-",
+			"amount": "-",
+			"preload": "-"
+		},
+		"5": {
+			"type": "Auxilary",
+			"efficiency": "-",
+			"amount": "-",
+			"preload": "-"
+		}
+	},
+	"build": {
+		"light": {
+			"JP": "",
+			"CN": "",
+			"EN": ""
+		},
+		"heavy": {
+			"JP": "",
+			"CN": "",
+			"EN": ""
+		},
+		"special": {
+			"JP": "",
+			"CN": "",
+			"EN": ""
+		},
+		"limited": {
+			"JP": "",
+			"CN": "",
+			"EN": ""
+		}
+	},
+	"drop": {
+		"droppable": "false",
+		"list": {
+			"1": {
+				"event": "",
+				"chapter": {
+					"1": {
+						"label": "Ch .1",
+						"node": {
+							"1": {
+								"drop": "✓",
+								"note": "-"
+							}
+						}
+					}
+				}
+			}
+		}
+	},
+	"lines": {
+		"skin": {
+			"1": {
+				"skin_id" : "xinyue_jp",
+				"id" : "0",
+				"label" : "Niizuki",
+				"dialogue" : {
+					"1" : {
+						"event" : "Ship Description",
+						"media" : "",
+						"chinese" : "秋月级驱逐舰五番舰—新月",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "秋月型駆逐艦五番艦・新月",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Akizuki-class destroyer number five – Niizuki.",
+						"englishNote" : ""
+					},
+					"2" : {
+						"event" : "Biography",
+						"media" : "profile",
+						"chinese" : "新月是秋月型的5号，第四次海军军备充实计划的一员……不过新月大概是最丢人的一个，呜呜……",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "秋月型駆逐艦の五番艦、マル4計画新造艦の新月と言います。でも……新月は多分一番役に立てなかった艦かもしれません…うぅ…",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "I'm Niizuki, I'm the fifth ship of the Akizuki-class, I was constructed as part of the Circle Four Plan. But... I might be the least useful ship ever constructed... *Sob*...",
+						"englishNote" : ""
+					},
+					"3" : {
+						"event" : "Receive",
+						"media" : "get",
+						"chinese" : "我是秋月型5号的新月，请、请多多指（zi）……呜，练习了那么多次还是失败了……",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "秋月型五番艦の新月と言います。な、なにとぞよろしくおねぎゃ……うぅぅ、また失敗しちゃいました…あんなに練習しましたのに…",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "I'm Niizuki, the fifth ship of the Akizuki-class. I-I sincerely hope I can be of servish to... *Whimper*... I've made another mistake... Even though I practiced on it so much...",
+						"englishNote" : ""
+					},
+					"4" : {
+						"event" : "Log in",
+						"media" : "login",
+						"chinese" : "指挥官，新月把文件整理好了……我没有做多余的事吧？",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "指揮官、新月、書類を整理しました……余計なことはしていません…よね？",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Commander, I've sorted all your documents... You wanted your documents sorted... right?",
+						"englishNote" : ""
+					},
+					"5" : {
+						"event" : "View details",
+						"media" : "detail",
+						"chinese" : "指、指挥官，新月没有让你失望……吧？",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "し、指揮官、新月はその…失望させたり…していませんよね？",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "C-Commander, I haven't, um... disappointed you... have I?",
+						"englishNote" : ""
+					},
+					"6" : {
+						"event" : "Main screen 1",
+						"media" : "main_1",
+						"chinese" : "虽然想帮指挥官，但又怕给指挥官帮倒忙，怎么办……",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "指揮官の役に立ちたいけど、でも迷惑をかけたら…どうしよう……",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "I want to be useful to you, Commander, but if I cause you trouble instead... Then what will I do...",
+						"englishNote" : ""
+					},
+					"7" : {
+						"event" : "Main screen 2",
+						"media" : "main_2",
+						"chinese" : "指挥官，要是新月做错了事给你摸摸耳朵尾巴不要生气好不好……",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "新月がもし迷惑をかけたら、ミミでもシッポでも触らせてあげますから、だから怒らないで……",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "If I cause you any trouble, I'll let you touch my ears and my tail, so please don't get mad at me...",
+						"englishNote" : ""
+					},
+					"8" : {
+						"event" : "Main screen 3",
+						"media" : "main_3",
+						"chinese" : "这里是这样，那边应该是这……样？大、大概没错……吧？",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "ここはこう、あとここは…こう…ですよね？だ、だいじょうぶかな……",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "For this one you do this, then here you do... this... I think? I-I hope this will work...",
+						"englishNote" : ""
+					},
+					"9" : {
+						"event" : "Normal touch",
+						"media" : "touch_1",
+						"chinese" : "指挥官？新月正在回忆今天有没有出错……大、大概没有吧",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "指揮官？新月、今日は何か間違いをしていないかって……た、多分ダイジョウブ…です…",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Commander? I'm worrying if I did something wrong today... I-I don't think... I have...",
+						"englishNote" : ""
+					},
+					"10" : {
+						"event" : "Special touch",
+						"media" : "touch_2",
+						"chinese" : "呀！指、指挥官，新月真的要哭了……",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "あぅ！？し、指揮官…新月、本当に泣いちゃいますよ……",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Eek?! C-Commander... you're seriously going to make me cry...",
+						"englishNote" : ""
+					},
+					"11" : {
+						"event" : "Mission reminder",
+						"media" : "task",
+						"chinese" : "指挥官，有新的任务，新月确认过了，确实是新的……",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "指揮官、新しい任務です。本当に新しい任務ですよ？新月、確認しました…",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Commander, we have new missions. I'm certain it is a new one. I confirmed it myself...",
+						"englishNote" : ""
+					},
+					"12" : {
+						"event" : "Mission complete",
+						"media" : "mission_complete",
+						"chinese" : "指挥官，任务奖励拿来了，新月没有弄错吧？",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "指揮官、任務報酬を持ってきました。新月、間違えていませんよね…？",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Commander, I brought the mission rewards. I didn't make another mistake, did I...?",
+						"englishNote" : ""
+					},
+					"13" : {
+						"event" : "Mail reminder",
+						"media" : "mail",
+						"chinese" : "指挥官，有你的信……这封……不对，是这封？",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "指揮官宛の手紙です……こっち……あ、ちがっ、こっち？",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Commander, you have mail... Here... oh, wait, is it this one?",
+						"englishNote" : ""
+					},
+					"14" : {
+						"event" : "Return to port",
+						"media" : "home",
+						"chinese" : "指挥官……没有受伤吧？",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "指揮官……怪我はしていませんよね…？",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Commander... you're not hurt, are you...?",
+						"englishNote" : ""
+					},
+					"15" : {
+						"event" : "Commission complete",
+						"media" : "expedition",
+						"chinese" : "指挥官，委托完成了……新月没看错时间……吧？",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "指揮官、委託が完了しました……新月、時間を間違えていません…よね？",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Commander... a commission's been completed... I didn't get the time wrong... did I?",
+						"englishNote" : ""
+					},
+					"16" : {
+						"event" : "Enhancing complete",
+						"media" : "upgrade",
+						"chinese" : "一想到可能会辜负指挥官的期待就要哭出来了……",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "新月、指揮官の期待を裏切っちゃうことを思うと…泣いちゃいそうです…うぅ…",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Commander, whenever I think about failing to meet your expectations... it almost makes me start crying... *Sob*...",
+						"englishNote" : ""
+					},
+					"17" : {
+						"event" : "Flagship fight",
+						"media" : "warcry",
+						"chinese" : "实战……我要加油",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "実戦……頑張ります…！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "A real battle... I'll give it my all...!",
+						"englishNote" : ""
+					},
+					"18" : {
+						"event" : "Victory",
+						"media" : "mvp",
+						"chinese" : "新月没有给姐妹们添麻烦吧？",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "新月、皆にご迷惑をおかけしていませんよね…？",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "I hope I didn't cause any trouble for anyone...",
+						"englishNote" : ""
+					},
+					"19" : {
+						"event" : "Defeat",
+						"media" : "lose",
+						"chinese" : "又失败了……",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "また失敗しちゃいました……",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "I've failed yet again...",
+						"englishNote" : ""
+					},
+					"20" : {
+						"event" : "Skills",
+						"media" : "skill",
+						"chinese" : "应、应该没问题吧？",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "ま、間違えていないですよね！？",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "I-I'm not mistaken here, am I?!",
+						"englishNote" : ""
+					},
+					"21" : {
+						"event" : "Upset",
+						"media" : "feeling1",
+						"chinese" : "果然是新月太没用了……",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "やっぱり新月が役に立てなかったのでしょうか……",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "I knew I probably wouldn't be of any use to you...",
+						"englishNote" : ""
+					},
+					"22" : {
+						"event" : "Stranger",
+						"media" : "feeling2",
+						"chinese" : "指挥官，找新月有什么事吗？难、难道是新月在不知道的时候做错了什么吗？",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "指揮官、新月に何かご用でしょうか？も、もしかして新月が知らないうちにご迷惑をおかけしたのでしょうか？？",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Commander, is there something you wish me to do? I-is it possible I might have caused you trouble without realizing it?",
+						"englishNote" : ""
+					},
+					"23" : {
+						"event" : "Friendly",
+						"media" : "feeling3",
+						"chinese" : "为了不给大家拖后腿，新月一直想努力，但是一直不知道该怎么做，反而更容易出错了…",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "新月、みんなに迷惑をかけないよう頑張ろうとしてきましたけど、どうすればいいか分からなくて……かえっていっぱいミスをしました…",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "I'm trying my best not to cause trouble for people, but I don't know how... So instead I ended up making a lot of mistakes...",
+						"englishNote" : ""
+					},
+					"24" : {
+						"event" : "Crush",
+						"media" : "feeling4",
+						"chinese" : "来到指挥官身边后，出错少多了……因为新月知道就算出错了也不会惹指挥官生气，就慢慢地能把事情做好了，而且指挥官的手，很温暖……",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "指揮官のところに来てからミスがだいぶ少なくなりました……だってミスしても指揮官は怒らないから、新月も少しずつ頑張れるようになりました…それに、新月を励ます時にミミを撫でてくれる指揮官の手、暖かくて……",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Ever since I came to your base, I've started making considerably fewer mistakes... But even when I do, you don't get mad at me, so I've slowly but surely been able to get better... Also, when you encourage me by stroking my ears, your hand feels so warm...",
+						"englishNote" : ""
+					},
+					"25" : {
+						"event" : "Love",
+						"media" : "feeling5",
+						"chinese" : "新月很胆小，也还是会出错，即使在未来也不会给指挥官带来很大的帮助吧……不过没关系了，现在的我明白了很重要的事……",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "新月は気が弱くて、よくミスをするから、これからも大して指揮官の役に立てそうにないですけど……でも平気です。だって大事なのは……",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "I'm timid and I often make mistakes, so I doubt I'll ever be very helpful to you, Commander... But I'm okay with that. Because what matters is...",
+						"englishNote" : ""
+					},
+					"26" : {
+						"event" : "Promise",
+						"media" : "propose",
+						"chinese" : "和强弱，能不能做好无关，如果是发自真心的想法并且得到了回应的话……现在是新月一生中最有自信能做好一件事的时候，那件事就是——未来也永远留在指挥官身边",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "臆病でも、よく間違いをしても、大事なのは心から相手を愛しく思っていて、それを伝えること、ですね。……これだけは、新月が生まれてから初めて上手くできると確信しましたーーはい、新月これからもずっと、指揮官の側に…",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Even if they're a coward, even if they often make mistakes, what matters is telling your partner that you love them from the bottom of your heart, right...? This is the one thing I've believed ever since I was born... Okay, from now on I swear I'll always be with you, Commander...",
+						"englishNote" : ""
+					}
+				}
+			}
+		}
+	}
+}
