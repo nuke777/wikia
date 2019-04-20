@@ -1,47 +1,31 @@
 {
-	"name": "Shiratsuyu",
+	"name_reference": "shiratsuyu",
+	"cn_reference": "bailu",
 	"nameJP": "白露",
-	"nameCN": "梿",
-	"class": "Shiratsuyu",
-	"hull": "Destroyer",
-	"prefix": "IJN",
+	"nameCN": "白露",
 	"ID": "163",
-	"file_id": "163_Shiratsuyu",
-	"navy": "Sakura Empire",
-	"initialStar": "★★☆☆☆",
+	"name": "Shiratsuyu",
+	"internal_id": "301131",
 	"rarity": "Rare",
+	"initialStar": "★★☆☆☆",
+	"hull": "Destroyer",
+	"navy": "Sakura Empire",
+	"prefix": "IJN",
 	"buildTime": "N/A",
-	"acquisitionMethod": "Drop",
-	"enhance": {
-		"firepower": "4",
-		"torpedo": "32",
-		"aviation": "0",
-		"reload": "14"
+	"class": "Shiratsuyu",
+	"voiceActress": "Narumi Shinohara",
+	"parameters": {
+		"firepower": "D",
+		"torpedo": "A",
+		"aviation": "E",
+		"evasion": "A",
+		"antiAir": "D",
+		"hp": "D"
 	},
 	"scrap": {
 		"gold": "4",
 		"oil": "3",
 		"medal": "1"
-	},
-	"skin": {
-		"1": {
-			"name": "Default",
-			"description": "First ship of the Shiratsuyu class destroyers, Shiratsuyu.",
-			"expression": {
-				"1": {
-					"label": "Default"
-				}
-			}
-		},
-		"2": {
-			"name": "Is the order a Torpedo?",
-			"description": "T-thanks for waiting, your moe moe set C - Uwaaaaah! S-sorry, but get out of the way!",
-			"expression": {
-				"1": {
-					"label": "Default"
-				}
-			}
-		}
 	},
 	"releaseDate": {
 		"JP": "September 13, 2017",
@@ -49,7 +33,6 @@
 		"KR": "March 27, 2018",
 		"EN": "August 16, 2018"
 	},
-	"voiceActress": "Narumi Shinohara",
 	"artist": {
 		"name": "Saru(猴妈)",
 		"weibo": "http://weibo.com/p/1005051054234800",
@@ -57,84 +40,148 @@
 		"pixiv": "https://www.pixiv.net/member.php?id=1422579",
 		"other": ""
 	},
-	"parameters": {
-		"hp": "D",
-		"antiAir": "D",
-		"evasion": "A",
-		"aviation": "E",
-		"torpedo": "A",
-		"firepower": "D"
+	"enhance": {
+		"firepower": "4",
+		"torpedo": "32",
+		"aviation": "0",
+		"reload": "14"
+	},
+	"acquisitionMethod": "Drop",
+	"skill": {
+		"1": {
+			"icon": "1013",
+			"requirement": "Default Unlocked",
+			"name": "Torpedo Command - Vanguard",
+			"type": "Support",
+			"description": "Increases torpedo stat of all ships in the escort fleet by 5% (15%). Does not stack with other command skills that have similar effect."
+		},
+		"2": {
+			"icon": "22031",
+			"requirement": "Limit Break Rank 1, Rank 3 upgrade",
+			"name": "Full Barrage",
+			"type": "Offensive",
+			"description": "Every 15 (10) times the main battery is fired, trigger Full Barrage - Shiratsuyu I (II)"
+		}
+	},
+	"skin": {
+		"1": {
+			"id": "bailu",
+			"name": "Shiratsuyu",
+			"description": "Shiratsuyu-class destroyer number one - Shiratsuyu.",
+			"expression": {
+				"0": {
+					"id": "0"
+				}
+			}
+		},
+		"2": {
+			"id": "Bailu_2",
+			"name": "Is The Order A Torpedo? ",
+			"description": "H-here they come... Your order, and your cutesy dutesy maid... Whoaahh! I'm sorry! Look out! ",
+			"expression": {
+				"0": {
+					"id": "0"
+				}
+			}
+		}
+	},
+	"defaultEquipment": {
+		"1": {
+			"icon": "35200",
+			"rarity": "Rare",
+			"name": "Quadruple 610mm Torpedo"
+		},
+		"3": {
+			"icon": "",
+			"rarity": "",
+			"name": ""
+		}
 	},
 	"stats": {
 		"100": {
 			"hp": "1427",
-			"armor": "Light",
-			"reload": "171",
 			"firepower": "56",
 			"torpedo": "463",
-			"evasion": "184",
 			"antiAir": "130",
 			"aviation": "0",
-			"cost": "8",
-			"asw": "147",
+			"reload": "171",
+			"hit": "174",
+			"evasion": "184",
+			"speed": "40.8",
 			"luck": "41",
-			"speed": "40"
+			"asw": "147",
+			"oxygen": "0",
+			"ammo": "0",
+			"cost": "8",
+			"armor": "Light"
 		},
 		"120": {
 			"hp": "1712",
-			"armor": "Light",
-			"reload": "196",
 			"firepower": "65",
 			"torpedo": "509",
-			"evasion": "190",
 			"antiAir": "150",
 			"aviation": "0",
-			"cost": "8",
-			"asw": "165",
+			"reload": "196",
+			"hit": "182",
+			"evasion": "190",
+			"speed": "40.8",
 			"luck": "41",
-			"speed": "40"
+			"asw": "165",
+			"oxygen": "0",
+			"ammo": "0",
+			"cost": "8",
+			"armor": "Light"
 		},
 		"base": {
 			"hp": "276",
-			"armor": "Light",
-			"reload": "72",
 			"firepower": "12",
 			"torpedo": "98",
-			"evasion": "71",
 			"antiAir": "28",
 			"aviation": "0",
-			"cost": "2",
-			"asw": "40",
+			"reload": "72",
+			"hit": "67",
+			"evasion": "71",
+			"speed": "40.8",
 			"luck": "41",
-			"speed": "40"
+			"asw": "40",
+			"oxygen": "0",
+			"ammo": "0",
+			"cost": "2",
+			"armor": "Light"
 		},
 		"100retrofit": {
 			"hp": "",
-			"armor": "Light",
-			"reload": "",
 			"firepower": "",
 			"torpedo": "",
-			"evasion": "",
 			"antiAir": "",
 			"aviation": "",
-			"cost": "",
+			"reload": "",
+			"hit": "",
+			"evasion": "",
+			"speed": "40.8",
+			"luck": "41",
 			"asw": "",
-			"luck": "",
-			"speed": ""
+			"oxygen": "0",
+			"ammo": "0",
+			"cost": "8",
+			"armor": "Light"
 		},
 		"120retrofit": {
 			"hp": "",
-			"armor": "Light",
-			"reload": "",
 			"firepower": "",
 			"torpedo": "",
-			"evasion": "",
 			"antiAir": "",
 			"aviation": "",
-			"cost": "",
+			"reload": "",
+			"hit": "",
+			"evasion": "",
+			"speed": "40.8",
+			"luck": "41",
 			"asw": "",
-			"luck": "",
-			"speed": ""
+			"oxygen": "0",
+			"ammo": "0",
+			"cost": "8",
+			"armor": "Light"
 		}
 	},
 	"limitBreak": {
@@ -144,7 +191,7 @@
 	},
 	"equipmentLoadout": {
 		"1": {
-			"type": "DD Gun",
+			"type": "Destroyer Gun",
 			"efficiency": "70%/70%/70%/75%",
 			"amount": "1/1/1/1",
 			"preload": "0/0/0/0"
@@ -158,39 +205,20 @@
 		"3": {
 			"type": "Anti-Air Gun",
 			"efficiency": "70%/70%/70%/75%",
-			"amount": "",
-			"preload": ""
+			"amount": "1/1/1/1",
+			"preload": "0/0/0/0"
 		},
 		"4": {
-			"type": "Auxilliary",
+			"type": "Auxilary",
 			"efficiency": "-",
 			"amount": "-",
 			"preload": "-"
 		},
 		"5": {
-			"type": "Auxilliary",
+			"type": "Auxilary",
 			"efficiency": "-",
 			"amount": "-",
 			"preload": "-"
-		}
-	},
-	"defaultEquipment": {
-		"1": "Twin 127mm (Type 3) T1",
-		"2": "610mm Quadruple Torpedo Mount T1",
-		"3": ""
-	},
-	"skill": {
-		"1": {
-			"name": "Torpedo Command - Vanguard",
-			"type": "Support",
-			"requirement": "Default Unlocked",
-			"description": "Increases torpedo stat of all ships in the escort fleet by 5% (15%). Does not stack with other command skills that have similar effect."
-		},
-		"2": {
-			"name": "Full Barrage",
-			"type": "Offensive",
-			"requirement": "Limit Break Rank 1, Rank 3 upgrade",
-			"description": "Every 15 (10) times the main battery is fired, trigger Full Barrage - Shiratsuyu I (II)"
 		}
 	},
 	"build": {
@@ -216,152 +244,17 @@
 		}
 	},
 	"drop": {
-		"droppable": "true",
+		"droppable": "false",
 		"list": {
 			"1": {
-				"event": "World",
+				"event": "",
 				"chapter": {
 					"1": {
-						"label": "Ch. 3",
-						"node": {
-							"1": {
-								"drop": "-",
-								"note": ""
-							},
-							"2": {
-								"drop": "-",
-								"note": ""
-							},
-							"3": {
-								"drop": "✓",
-								"note": ""
-							},
-							"4": {
-								"drop": "-",
-								"note": ""
-							}
-						}
-					},
-					"2": {
-						"label": "Ch. 4",
-						"node": {
-							"1": {
-								"drop": "-",
-								"note": ""
-							},
-							"2": {
-								"drop": "-",
-								"note": ""
-							},
-							"3": {
-								"drop": "✓",
-								"note": ""
-							},
-							"4": {
-								"drop": "-",
-								"note": ""
-							}
-						}
-					},
-					"3": {
-						"label": "Ch. 6",
-						"node": {
-							"1": {
-								"drop": "-",
-								"note": ""
-							},
-							"2": {
-								"drop": "✓",
-								"note": ""
-							},
-							"3": {
-								"drop": "-",
-								"note": ""
-							},
-							"4": {
-								"drop": "-",
-								"note": ""
-							}
-						}
-					},
-					"4": {
-						"label": "Ch. 7",
+						"label": "Ch .1",
 						"node": {
 							"1": {
 								"drop": "✓",
-								"note": ""
-							},
-							"2": {
-								"drop": "-",
-								"note": ""
-							},
-							"3": {
-								"drop": "-",
-								"note": ""
-							},
-							"4": {
-								"drop": "-",
-								"note": ""
-							}
-						}
-					},
-					"5": {
-						"label": "Ch. 9",
-						"node": {
-							"1": {
-								"drop": "-",
-								"note": ""
-							},
-							"2": {
-								"drop": "-",
-								"note": ""
-							},
-							"3": {
-								"drop": "-",
 								"note": "-"
-							},
-							"4": {
-								"drop": "✓",
-								"note": ""
-							}
-						}
-					}
-				}
-			},
-			"2": {
-				"event": "Visitors Dyed in Red",
-				"chapter": {
-					"1": {
-						"label": "Ch. B",
-						"node": {
-							"1": {
-								"drop": "✓",
-								"note": ""
-							},
-							"2": {
-								"drop": "✓",
-								"note": ""
-							},
-							"3": {
-								"drop": "✓",
-								"note": ""
-							}
-						}
-					},
-					"2": {
-						"label": "Ch. D",
-						"node": {
-							"1": {
-								"drop": "✓",
-								"note": ""
-							},
-							"2": {
-								"drop": "✓",
-								"note": ""
-							},
-							"3": {
-								"drop": "✓",
-								"note": ""
 							}
 						}
 					}
@@ -372,431 +265,411 @@
 	"lines": {
 		"skin": {
 			"1": {
-				"label": "Default",
+				"skin_id": "bailu",
+				"id": "0",
+				"label": "Shiratsuyu",
 				"dialogue": {
 					"1": {
 						"event": "Ship Description",
 						"media": "",
 						"chinese": "白露级驱逐舰一番舰—白露",
-						"chineseTL": "First ship of the Shiratsuyu class destroyers, Shiratsuyu.",
+						"chineseTL": "",
 						"chineseNote": "",
 						"japanese": "白露型駆逐艦一番艦・白露",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Shiratsuyu-class destroyer number one -  Shiratsuyu.",
 						"englishNote": ""
 					},
 					"2": {
-						"event": "Self Introduction",
-						"media": "self_introduction",
-						"chinese": "我是白露级驱逐舰首舰，虽然原本应该是初春级的……话说回来……这里是？为什么我在做自我介绍……？唔，虽然不太明白，以后也请多多指教……",
-						"chineseTL": "I am the first ship of the Shiratsuyu class destroyers, but I should have been part of the Hatsuharu class...anyways, where am I? And why am I doing a self-intro? Hmm, even though I don't really know why, but please take care of me in the future.",
+						"event": "Biography",
+						"media": "profile",
+						"chinese": "我是白露级驱逐舰首舰，虽然原本应该是初春级的…… 话说回来……这里是？为什么我在做自我介绍……？唔，虽然不太明白，以后也请多多指教……",
+						"chineseTL": "",
 						"chineseNote": "",
 						"japanese": "白露型の1番艦だけど、元々は初春型のはずだったけど……そう言えばここは？私なんで自己紹介してるの？よくわからないけど…これからよろしくね",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "I'm the first ship of the Shiratsuyu-class, but I was meant to be part of the Hatsuharu-class... Anyway, where am I? Why am I introducing myself...? I don't really know... But I hope I can be of service.",
 						"englishNote": ""
 					},
 					"3": {
-						"event": "Acquisition",
-						"media": "acquisition",
+						"event": "Receive",
+						"media": "get",
 						"chinese": "唔，白露级首舰，白露……指挥官你好，我叫白露——欸？我刚说过了？唔……因为实在找不到方法回去了，只好留在这里，以后都麻烦指挥官了",
-						"chineseTL": "Erm, I am the first ship of the Shiratsuyu class destroyers, Shiratsuyu...hi commander, my name is Shiratsuyu...Eh? I just said that? Erm...I guess I will stay here since I forgot the way back, please take good care of me commander.",
+						"chineseTL": "",
 						"chineseNote": "",
 						"japanese": "う、白露型1番艦、白露…指揮官こんにちは、白露だよ―え？さっきも言ったって？う……帰る方法が分からないから、ここにいるしかないの。これからよろしくね",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Um, I'm Shiratsuyu, the first ship of the Shiratsuyu-class... Hello, Commander. My name is Shiratsuyu... Huh? I just said that? Hm... I don't know how to get back home, so I guess I'll stay here. I hope I can be of service.",
 						"englishNote": ""
 					},
 					"4": {
-						"event": "Login",
+						"event": "Log in",
 						"media": "login",
 						"chinese": "欸？指挥官你在这边啊……欸嘿嘿……",
-						"chineseTL": "Eh? Oh you are there commander...Ehehe...",
+						"chineseTL": "",
 						"chineseNote": "",
 						"japanese": "え？指揮官、ここにいたのね…えへへ…",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Huh? So this is where you were, Commander... *Giggles*",
 						"englishNote": ""
 					},
 					"5": {
-						"event": "Details",
-						"media": "details",
+						"event": "View details",
+						"media": "detail",
 						"chinese": "指挥官在看什么呢？咦？告诉人家啦……",
-						"chineseTL": "What are you looking at, commander? Eh? Tell me...",
+						"chineseTL": "",
 						"chineseNote": "",
 						"japanese": "指揮官、何見てるの？え？教えてよ～…",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Commander, what are you looking at? Hm? Come on, tell me...",
 						"englishNote": ""
 					},
 					"6": {
-						"event": "Idle 1",
-						"media": "idle_1",
+						"event": "Main screen 1",
+						"media": "main_1",
 						"chinese": "指挥官，有看到我的鱼雷嘛……刚才它突然窜出去了",
-						"chineseTL": "Commander, did you see my torpedo?...It just suddenly shot out for some reason...",
+						"chineseTL": "",
 						"chineseNote": "",
 						"japanese": "指揮官、私の魚雷を見なかった？…さっき急に出て行っちゃったの",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Commander, did you see my torpedo? ... It went off somewhere suddenly.",
 						"englishNote": ""
 					},
 					"7": {
-						"event": "Idle 2",
-						"media": "idle_2",
+						"event": "Main screen 2",
+						"media": "main_2",
 						"chinese": "指挥官，我最近总是忘记我忘了什么东西怎么办……",
-						"chineseTL": "What should I do commander? I have been forgetting what i forgot recently...",
+						"chineseTL": "",
 						"chineseNote": "",
 						"japanese": "あれ…最近、何を忘れたかも忘れちゃうの、どうしよう…",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Weird... lately I seem to forget what I'm forgetting... What am I gonna do...",
 						"englishNote": ""
 					},
 					"8": {
-						"event": "Idle 3",
-						"media": "idle_3",
+						"event": "Main screen 3",
+						"media": "main_3",
 						"chinese": "唔，好困……指挥官好像没在看……继续睡…",
-						"chineseTL": "(Yawns) So tired...commander isn't watching, let's sleep for a bit more...",
+						"chineseTL": "",
 						"chineseNote": "",
 						"japanese": "うぅ、眠い…（ちらり）指揮官は見てないよね…もうちょっと寝よう…",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "*Yawn*... So tired... I hope the commander isn't looking... so I'll sleep for a bit longer...",
 						"englishNote": ""
 					},
 					"9": {
-						"event": "Touch",
-						"media": "touch",
+						"event": "Normal touch",
+						"media": "touch_1",
 						"chinese": "呼喵……被摸困了……",
-						"chineseTL": "(Nyawns)...I'm sleepy now...",
+						"chineseTL": "",
 						"chineseNote": "",
 						"japanese": "ふぁ…触られると眠くなっちゃう…",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "*Yawn*... I get so tired when people touch me...",
 						"englishNote": ""
 					},
 					"10": {
-						"event": "Special Touch",
-						"media": "special_touch",
+						"event": "Special touch",
+						"media": "touch_2",
 						"chinese": "呜……这种地方摸起来感觉怪怪的……",
-						"chineseTL": "Erm...it feels weird to be rubbed here...",
+						"chineseTL": "",
 						"chineseNote": "",
 						"japanese": "うぅ…そんなとこ触られると変な感じ…",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Whua... it feels weird when you touch me like that...",
 						"englishNote": ""
 					},
 					"11": {
-						"event": "Mission",
-						"media": "mission",
+						"event": "Mission reminder",
+						"media": "task",
 						"chinese": "有任务！这次白露记得！",
-						"chineseTL": "A new task! This time Shiratsuyu will remember!",
+						"chineseTL": "",
 						"chineseNote": "",
 						"japanese": "お仕事ですね！今度は忘れないから！",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "We've got a job to do! This time I won't forget!",
 						"englishNote": ""
 					},
 					"12": {
-						"event": "Mission Complete",
+						"event": "Mission complete",
 						"media": "mission_complete",
 						"chinese": "指挥官，我把……咦，我抱着的是什么？",
-						"chineseTL": "Commander, I brought...wait, what did I bring?",
+						"chineseTL": "",
 						"chineseNote": "",
 						"japanese": "指揮官、今……白露、何を持ってるの？？",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Commander, I brought... Huh, what's this in my hand?",
 						"englishNote": ""
 					},
 					"13": {
-						"event": "Mail",
+						"event": "Mail reminder",
 						"media": "mail",
 						"chinese": "指挥官，有信！",
-						"chineseTL": "Commander, mail!",
+						"chineseTL": "",
 						"chineseNote": "",
 						"japanese": "指揮官、めーる！",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Commander, there's mail!",
 						"englishNote": ""
 					},
 					"14": {
-						"event": "Return from Sortie",
-						"media": "return_from_sortie",
+						"event": "Return to port",
+						"media": "home",
 						"chinese": "指挥官，没有迷路吗？好厉害！",
-						"chineseTL": "We didn't get lost commander, did we? That's great!",
+						"chineseTL": "",
 						"chineseNote": "",
 						"japanese": "指揮官、迷ってなかったの？すごーい！",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Commander, you didn't get lost out there? Wooow!",
 						"englishNote": ""
 					},
 					"15": {
-						"event": "Commission Complete",
-						"media": "commission_complete",
+						"event": "Commission complete",
+						"media": "expedition",
 						"chinese": "指挥官，白露刚才迷路的时候好像看到出去完成委托的姐妹们回来了……",
-						"chineseTL": "Commander, just now when I was lost, I think I saw the girls who went for the commission returning...",
+						"chineseTL": "",
 						"chineseNote": "",
 						"japanese": "指揮官、先、白露が道を迷ってた時にね、ちょうど委託を完了した娘たちと出会ったの……",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Commander, while I was lost just earlier, I ran into some girls who'd just completed a commission...",
 						"englishNote": ""
 					},
 					"16": {
-						"event": "Enhancement",
-						"media": "enhancement",
+						"event": "Enhancing complete",
+						"media": "upgrade",
 						"chinese": "欸……指挥官，这里是哪儿，我怎么感觉全身暖洋洋的……",
-						"chineseTL": "Ehh...commander, where are we, why do I feel so warm...",
+						"chineseTL": "",
 						"chineseNote": "",
 						"japanese": "あれ……指揮官、ここはどこ？体が温かいなぁ……",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Huh... Commander, where are we? My body feels so warm...",
 						"englishNote": ""
 					},
 					"17": {
-						"event": "Sortie Start",
-						"media": "sortie_start",
+						"event": "Flagship fight",
+						"media": "warcry",
 						"chinese": "都、都都都闪开啦~~我刹不住船啦！！！",
-						"chineseTL": "Ahhhhhh! Move away I can't stop!",
+						"chineseTL": "",
 						"chineseNote": "",
 						"japanese": "み、みみみ、みんな、どいて～ブレーキが効かないー！",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "L-l-l-look out, get out of the way! My breaks aren't working!",
 						"englishNote": ""
 					},
 					"18": {
-						"event": "MVP",
+						"event": "Victory",
 						"media": "mvp",
 						"chinese": "全舰开火！咦……欸，已经赢了？",
-						"chineseTL": "All guns, fire!...Wait, we already won?",
+						"chineseTL": "",
 						"chineseNote": "",
 						"japanese": "全艦、発射！あ…あれ…もう勝ったの？",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "All ships, open fire! Wa... wait... we've already won?",
 						"englishNote": ""
 					},
 					"19": {
 						"event": "Defeat",
-						"media": "defeat",
+						"media": "lose",
 						"chinese": "咕……好痛好痛……到底是被什么打到了啊……",
-						"chineseTL": "Gah...it hurts it hurts...what in the world hit me?",
+						"chineseTL": "",
 						"chineseNote": "",
 						"japanese": "ぐ…イテテ…一体何に叩かれたのかな…",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Gah... ow ow... what in the world hit me...?",
 						"englishNote": ""
 					},
 					"20": {
-						"event": "Skill Activation",
-						"media": "skill_activation",
+						"event": "Skills",
+						"media": "skill",
 						"chinese": "咦，这里是哪……哇，是敌人！",
-						"chineseTL": "Hmm? Where am I...ah, enemy spotted!",
+						"chineseTL": "",
 						"chineseNote": "",
 						"japanese": "あれ、ここはどこ？あわわ、敵さんだ！",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Huh? Where are we? Oh no, it's the enemy!",
 						"englishNote": ""
 					},
 					"21": {
-						"event": "Low Health",
-						"media": "low_health",
-						"chinese": "",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "",
-						"englishNote": ""
-					},
-					"22": {
-						"event": "Affinity (Disappointed)",
-						"media": "affinity_disappointed",
+						"event": "Upset",
+						"media": "feeling1",
 						"chinese": "糟了……怎么会迷路到指挥官旁边……跑吧……（小声）",
-						"chineseTL": "(Whispers)Ahh...how did I end up next to commander...let's flee...",
+						"chineseTL": "",
 						"chineseNote": "",
 						"japanese": "ほぇ……迷って指揮官のそばに……もう逃げよう……",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Huh...? I got lost and ended up next to the commander... I'd better run...",
 						"englishNote": ""
 					},
-					"23": {
-						"event": "Affinity (Stranger)",
-						"media": "affinity_stranger",
+					"22": {
+						"event": "Stranger",
+						"media": "feeling2",
 						"chinese": "欸，指挥官？太好了，我还以为我又迷路了……看我在这里绕了五圈？欸嘿嘿，我还挺能干的嘛",
-						"chineseTL": "Eh, commander? Great, I thought I got lost again...you saw me passing through here 5 times? Ehehe, I did pretty well, right?",
+						"chineseTL": "",
 						"chineseNote": "",
 						"japanese": "ほえ？指揮官？よかった～また迷ったかと思ったよ……ここを５回も回ったの？えへへ、今日は意外とついてるよね～",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Huh? Commander? Thank goodness~ I thought I'd gotten lost again... You saw me leave and come back here 5 times? *Giggles* Then today's a surprisingly lucky day~",
 						"englishNote": ""
 					},
-					"24": {
-						"event": "Affinity (Friendly)",
-						"media": "affinity_friendly",
+					"23": {
+						"event": "Friendly",
+						"media": "feeling3",
 						"chinese": "唔……？指挥官？最近回过神来总是会在指挥官旁边，指挥官身上有什么魔力吗？",
-						"chineseTL": "Hmm...? Commander? Why do I always end up beside you before I realise it? Do you have magic?",
+						"chineseTL": "",
 						"chineseNote": "",
 						"japanese": "ほえ……？指揮官？最近気づいたらいつも指揮官のそばにいるけど、指揮官は何か魔法掛けたの？",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Huh...? Commander? I realized a while back that I'm always by your side, did you cast some kind of magic on me?",
 						"englishNote": ""
 					},
-					"25": {
-						"event": "Affinity (Like)",
-						"media": "affinity_like",
+					"24": {
+						"event": "Crush",
+						"media": "feeling4",
 						"chinese": "呜呜，指挥官欺负白露……明明是我要先对指挥官做点什么的~要怎么抱抱都想好了……",
-						"chineseTL": "(Whimpers) Commander is bullying me...Even though it is me who wanted to do something to commander first...I even planned out how to hug you...",
+						"chineseTL": "",
 						"chineseNote": "",
 						"japanese": "うへぇ…指揮官白露にいじわる……指揮官になんかしようと思ったのに～抱っこさせてあげる……",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "*Whimper*... Commander, you're being mean... I thought I'd do something to you in return~ So I'll let you hug me...",
 						"englishNote": ""
 					},
-					"26": {
-						"event": "Affinity (Love)",
-						"media": "affinity_love",
+					"25": {
+						"event": "Love",
+						"media": "feeling5",
 						"chinese": "最近见到指挥官的时候总是很想说些什么，但是想跟上指挥官说话的时候又老是跟丢，然后就忘了要说什么……好像是很重要的话……到底是什么呢",
-						"chineseTL": "Recently, I always want to tell commander something whenever I see you. But when I try to catch up to commander, I always end up losing you, and then forget what I wanted to say...it feels like something very important, what is it?",
+						"chineseTL": "",
 						"chineseNote": "",
 						"japanese": "最近は指揮官に会うたびに何か言おうとしたり、指揮官と会話するとついていけなかったり、それで何を話そうとしたか忘れたり……大切なお話のようで……なんだろう……",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Commander, recently whenever I see you I've wanted to tell you something, and I try to catch up to you, but then I forget what I wanted to say... It has to be something important... But what could it be...",
 						"englishNote": ""
 					},
-					"27": {
-						"event": "Pledge",
-						"media": "pledge",
+					"26": {
+						"event": "Promise",
+						"media": "propose",
 						"chinese": "啊……！终于想起来要说什么了！呜……但是已经先被指挥官说了……明明人家想要先对指挥官说的……",
-						"chineseTL": "Ahh...! I finally remembered what I wanted to say!(Whimpers)...but commander you already said it...even though I wanted to say it to you first...",
+						"chineseTL": "",
 						"chineseNote": "",
 						"japanese": "あ！！今何言おうとしたか思い出した！うう……でも指揮官に先越された……白露から言おうとしたのに……",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
-						"englishNote": ""
-					},
-					"29": {
-						"event": "Valentines 2018",
-						"media": "",
-						"chinese": "",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "白露、いつも忘れっぽいけど…こんな大事な日はちゃんと覚えてるよ！白露の気持ち、受け取って下さい！",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "",
-						"englishNote": ""
-					},
-					"30": {
-						"event": "Valentines 2019",
-						"media": "",
-						"chinese": "白露记得的！因为今天是重要的“情人节”呀……收下白露亲手做的巧克力吧，指挥官！",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "白露、覚えているよ！今日は大切な「バレンタイン」だって…！白露の手作りチョコを受け取ってね！指揮官！",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "",
+						"english": "Ah! Now I remember what I wanted to say! But... you said it first... even though I wanted to be the first to say it...",
 						"englishNote": ""
 					}
 				}
 			},
 			"2": {
-				"label": "Is the order a Torpedo?",
+				"skin_id": "Bailu_2",
+				"id": "1",
+				"label": "Is The Order A Torpedo? ",
 				"dialogue": {
 					"1": {
-						"event": "Acquisition",
-						"media": "acquisition",
+						"event": "Ship Description",
+						"media": "",
 						"chinese": "久、久等了，您点的萌萌女仆套c——呜哇啊啊啊啊！对对对对不起请躲开～～",
-						"chineseTL": "T-thanks for waiting, your moe moe set C - Uwaaaaah! S-sorry, but get out of the way!",
+						"chineseTL": "",
 						"chineseNote": "",
 						"japanese": "お、おまたせしましたーご注文のも、モエモエメイド…うわああああ！ごめんなさい避けて―！！",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "H-here they come... Your order, and your cutesy dutesy maid... Whoaahh! I'm sorry! Look out!",
 						"englishNote": ""
 					},
 					"2": {
-						"event": "Idle 1",
-						"media": "idle_1",
+						"event": "Receive",
+						"media": "get_1",
+						"chinese": "久、久等了，您点的萌萌女仆套c——呜哇啊啊啊啊！对对对对不起请躲开～～",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "お、おまたせしましたーご注文のも、モエモエメイド…うわああああ！ごめんなさい避けて―！！",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "H-here they come... Your order, and your cutesy dutesy maid... Whoaahh! I'm sorry! Look out!",
+						"englishNote": ""
+					},
+					"3": {
+						"event": "Main screen 1",
+						"media": "main_1_1",
 						"chinese": "指挥官，有看到我的鱼雷吗？低头？啊哇哇哇哇——",
-						"chineseTL": "Commander, did you see my torpedo? Duck? Awawawa-",
+						"chineseTL": "",
 						"chineseNote": "",
 						"japanese": "指揮官、私の魚雷を見なかった…？足元？…え…うええええ！！？",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Commander, have you seen my torpedo...? Standing on it...? Wait... Oh noooo!",
 						"englishNote": ""
 					},
-					"3": {
-						"event": "Idle 2",
-						"media": "idle_2",
+					"4": {
+						"event": "Main screen 3",
+						"media": "main_3_1",
 						"chinese": "指挥官肚子饿了吗？这边三明治和咖啡…还有草莓蛋糕和曲奇…",
-						"chineseTL": "Is commander hungry? Here's a sandwich and some coffee...we also have strawberry cake and cookies...",
+						"chineseTL": "",
 						"chineseNote": "",
 						"japanese": "指揮官お腹減った？ええと、サンドイッチ…イチゴケーキ…クッキーとコーヒーなら…",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Are you hungry, Commander? Umm, I have a sandwich... strawberry cake, and some coffee, if you want...",
 						"englishNote": ""
 					},
-					"4": {
-						"event": "Touch",
-						"media": "touch",
+					"5": {
+						"event": "Normal touch",
+						"media": "touch_1_1",
 						"chinese": "呜哇！——谢、谢谢指挥官扶住我…",
-						"chineseTL": "Uwa! - Commander, thank you for catching me...",
+						"chineseTL": "",
 						"chineseNote": "",
 						"japanese": "うあああ!......あ、危なかった...指揮官ありがと…",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Whooahhh! ... Gosh, that was too close... Thanks, Commander...",
 						"englishNote": ""
 					},
-					"5": {
-						"event": "Special Touch",
-						"media": "special_touch",
+					"6": {
+						"event": "Special touch",
+						"media": "touch_2_1",
 						"chinese": "呀啊！这、这样很危险的啦！",
-						"chineseTL": "Ah! This is dangerous!",
+						"chineseTL": "",
 						"chineseNote": "",
 						"japanese": "きゃっ!し、指揮官、危ないよ!!",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Eek! C-Commander! Look out!",
 						"englishNote": ""
 					},
-					"6": {
+					"7": {
 						"event": "Defeat",
-						"media": "defeat",
+						"media": "lose_1",
 						"chinese": "呜呜呜…又搞砸了…",
-						"chineseTL": "Uuu... I broke it again...",
+						"chineseTL": "",
 						"chineseNote": "",
 						"japanese": "ううう…またドジしちゃったよぉ……",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "*Sob*... I messed up again...",
 						"englishNote": ""
 					}
 				}

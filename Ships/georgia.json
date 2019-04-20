@@ -1,50 +1,30 @@
 {
-	"name": "Georgia",
+	"name_reference": "georgia",
+	"cn_reference": "zuozhiya",
 	"nameJP": "ジョージア",
 	"nameCN": "",
-	"class": "Georgia",
-	"hull": "Battleship",
-	"prefix": "USS",
 	"ID": "P008",
-	"file_id": "Plan009_Georgia",
-	"navy": "Eagle Union",
-	"initialStar": "★★★☆☆☆",
+	"name": "Georgia",
+	"internal_id": "199021",
 	"rarity": "Priority",
+	"initialStar": "★★★☆☆☆",
+	"hull": "Battleship",
+	"navy": "Eagle Union",
+	"prefix": "USS",
 	"buildTime": "N/A",
-	"acquisitionMethod": "Priority Research",
-	"enhance": {
-		"firepower": "0",
-		"torpedo": "0",
-		"aviation": "0",
-		"reload": "0"
+	"class": "Georgia",
+	"parameters": {
+		"firepower": "S",
+		"torpedo": "E",
+		"aviation": "E",
+		"evasion": "C",
+		"antiAir": "B",
+		"hp": "S"
 	},
 	"scrap": {
-		"gold": "",
-		"oil": "",
-		"medal": ""
-	},
-	"skin": {
-		"1": {
-			"name": "Default",
-			"description": "Modified version of an early design of the Iowa class of Battleships, Georgia",
-			"expression": {
-				"1": {
-					"label": "Default"
-				},
-				"2": {
-					"label": "Default"
-				},
-				"3": {
-					"label": "Default"
-				},
-				"4": {
-					"label": "Default"
-				},
-				"5": {
-					"label": "Default"
-				}
-			}
-		}
+		"gold": "11",
+		"oil": "4",
+		"medal": "10"
 	},
 	"releaseDate": {
 		"JP": "April 18, 2019",
@@ -60,13 +40,76 @@
 		"pixiv": "https://www.pixiv.net/member.php?id=4935155",
 		"other": ""
 	},
-	"parameters": {
-		"firepower": "S",
-		"torpedo": "E",
-		"aviation": "E",
-		"evasion": "C",
-		"antiAir": "B",
-		"hp": "S"
+	"enhance": {
+		"firepower": "0",
+		"torpedo": "0",
+		"aviation": "0",
+		"reload": "0"
+	},
+	"acquisitionMethod": "Priority Research",
+	"skill": {
+		"1": {
+			"icon": "19150",
+			"requirement": "",
+			"name": "Iron Sight Caliber",
+			"type": "Support",
+			"description": "Main gun spread is reduced by 3; damage towards CA, Super CA, BB, BC and BBV is increased by 10-20%"
+		},
+		"2": {
+			"icon": "19160",
+			"requirement": "",
+			"name": "Heavy Barrel Blaster ",
+			"type": "Offensive",
+			"description": "When firing the main gun there's a 50-80% chance to fire a special barrage (barrage always crits, firepower is increased by skill levels)"
+		},
+		"3": {
+			"icon": "19000",
+			"requirement": "",
+			"name": "Siren Killer Ⅰ",
+			"type": "Offensive",
+			"description": "Increases the DMG this ship deals to Sirens by 5.0%."
+		}
+	},
+	"skin": {
+		"1": {
+			"id": "zuozhiya",
+			"name": "Georgia",
+			"description": "Modified version of an early design of the Iowa class of Battleships, Georgia",
+			"expression": {
+				"0": {
+					"id": "0"
+				},
+				"1": {
+					"id": "1"
+				},
+				"2": {
+					"id": "2"
+				},
+				"3": {
+					"id": "3"
+				},
+				"4": {
+					"id": "4"
+				}
+			}
+		}
+	},
+	"defaultEquipment": {
+		"1": {
+			"icon": "",
+			"rarity": "",
+			"name": ""
+		},
+		"2": {
+			"icon": "",
+			"rarity": "",
+			"name": ""
+		},
+		"3": {
+			"icon": "",
+			"rarity": "",
+			"name": ""
+		}
 	},
 	"stats": {
 		"base": {
@@ -200,72 +243,40 @@
 
 		}
 	},
-	"defaultEquipment": {
-		"1": "",
-		"2": "",
-		"3": ""
-	},
-	"skill": {
-		"1": {
-			"icon": "19150",
-			"requirement": "",
-			"name": "Iron Sight Caliber",
-			"type": "Support",
-			"description": "Main gun spread is reduced by 3; damage towards CA, Super CA, BB, BC and BBV is increased by 10-20%"
-		},
-		"2": {
-			"icon": "19160",
-			"requirement": "",
-			"name": "Heavy Barrel Blaster ",
-			"type": "Offensive",
-			"description": "When firing the main gun there's a 50-80% chance to fire a special barrage (barrage always crits, firepower is increased by skill levels)"
-		},
-		"3": {
-			"icon": "19000",
-			"requirement": "",
-			"name": "Siren Killer Ⅰ",
-			"type": "Offensive",
-			"description": "Increases the DMG this ship deals to Sirens by 5.0%."
-		}
-	},
 	"build": {
 		"light": {
-			"JP": "-",
-			"CN": "-",
-			"EN": "-"
+			"JP": "",
+			"CN": "",
+			"EN": ""
 		},
 		"heavy": {
-			"JP": "-",
-			"CN": "-",
-			"EN": "-"
+			"JP": "",
+			"CN": "",
+			"EN": ""
 		},
 		"special": {
-			"JP": "-",
-			"CN": "-",
-			"EN": "-"
+			"JP": "",
+			"CN": "",
+			"EN": ""
 		},
 		"limited": {
-			"JP": "-",
-			"CN": "-",
-			"EN": "-"
+			"JP": "",
+			"CN": "",
+			"EN": ""
 		}
 	},
 	"drop": {
 		"droppable": "false",
 		"list": {
 			"1": {
-				"event": "Ink-Stained Steel Sakura",
+				"event": "",
 				"chapter": {
 					"1": {
-						"label": "Ch. B",
+						"label": "Ch .1",
 						"node": {
 							"1": {
 								"drop": "✓",
-								"note": ""
-							},
-							"2": {
-								"drop": "-",
-								"note": ""
+								"note": "-"
 							}
 						}
 					}
@@ -276,7 +287,9 @@
 	"lines": {
 		"skin": {
 			"1": {
-				"label": "Default",
+				"skin_id": "zuozhiya",
+				"id": "0",
+				"label": "Georgia",
 				"dialogue": {
 					"1": {
 						"event": "Ship Description",
@@ -291,8 +304,8 @@
 						"englishNote": ""
 					},
 					"2": {
-						"event": "Self Introduction",
-						"media": "self_introduction",
+						"event": "Biography",
+						"media": "profile",
 						"chinese": "我是白鹰所属战列舰，佐治亚。比起那几位远房姐妹，我的主炮口径更大一些。而我，会用这主炮，粉碎挡在面前的所有敌人",
 						"chineseTL": "I am the Eagle Union battleship, Georgia. Compared to my distant sisters, my main cannons are of larger caliber. As for me, using these cannons, I will pulverize any enemy that stands in my path.",
 						"chineseNote": "",
@@ -303,8 +316,8 @@
 						"englishNote": ""
 					},
 					"3": {
-						"event": "Acquisition",
-						"media": "acquisition",
+						"event": "Receive",
+						"media": "get",
 						"chinese": "我是白鹰的佐治亚。安心吧，我会用巨炮为你带来胜利的",
 						"chineseTL": "I am Georgia of the Eagle Union. Rest assured, I will use these cannons to bring you victory",
 						"chineseNote": "",
@@ -315,7 +328,7 @@
 						"englishNote": ""
 					},
 					"4": {
-						"event": "Login",
+						"event": "Log in",
 						"media": "login",
 						"chinese": "哼，来得正好。热身运动刚刚好，是要演习还是出击？",
 						"chineseTL": "Hmph, you came at the right time. I was just done with warm-up exercises, are we going for drill exercises or an attack?",
@@ -327,8 +340,8 @@
 						"englishNote": ""
 					},
 					"5": {
-						"event": "Details",
-						"media": "details",
+						"event": "View details",
+						"media": "detail",
 						"chinese": "定期的装备检查与维护可是非常重要的，指挥官，你也要来帮忙吗？",
 						"chineseTL": "Regular equipment inspection and maintenance are very important. Commander, can you lend me a hand?",
 						"chineseNote": "",
@@ -339,8 +352,8 @@
 						"englishNote": ""
 					},
 					"6": {
-						"event": "Idle 1",
-						"media": "idle_1",
+						"event": "Main screen 1",
+						"media": "main_1",
 						"chinese": "我有个梦想，那就是有一天，大海上不再有硝烟，所有人都回到和平之中…",
 						"chineseTL": "I have a dream. There will be one day, when the oceans won't be covered by smoke from gunfire, and everyone will return to peaceful times...",
 						"chineseNote": "",
@@ -351,8 +364,8 @@
 						"englishNote": ""
 					},
 					"7": {
-						"event": "Idle 2",
-						"media": "idle_2",
+						"event": "Main screen 2",
+						"media": "main_2",
 						"chinese": "可乐真是很棒的饮料呢，啊，不过酸素可乐指挥官大概不能喝吧……",
 						"chineseTL": "Cola is such an awesome drink. Ah, but I don't think Commander can drink oxygen cola...",
 						"chineseNote": "",
@@ -363,8 +376,8 @@
 						"englishNote": ""
 					},
 					"8": {
-						"event": "Idle 3",
-						"media": "idle_3",
+						"event": "Main screen 3",
+						"media": "main_3",
 						"chinese": "有机会的话，还是挺想去世界各个不同的地方看看的呢，重樱、东煌、皇家……干脆计划个环球旅行好像也不错？",
 						"chineseTL": "If there's a chance, I want to visit different places across the world. Sakura Empire, Eastern Radiance, Royal Navy... Just planning a tour around the world already sounds good?",
 						"chineseNote": "",
@@ -375,20 +388,20 @@
 						"englishNote": ""
 					},
 					"9": {
-						"event": "Touch",
-						"media": "touch",
+						"event": "Normal Touch",
+						"media": "touch_1",
 						"chinese": "嚯~指挥官也觉得这巨炮很美吗？那就尽管欣赏个够吧~",
 						"chineseTL": "Oh~ Commander also thinks these cannons are beautiful? Enjoy it until you're satisfied~",
 						"chineseNote": "",
 						"japanese": "ははーん、指揮官もこの主砲が美しいと思ってくれるのか？思う存分鑑賞するがいいぞ～",
 						"japaneseTL": "",
-						"japaneseNote": "ははーん、さては指揮官、自ら試射の標的になろうとする魂胆か……？",
+						"japaneseNote": "",
 						"english": "",
 						"englishNote": ""
 					},
 					"10": {
 						"event": "Special Touch",
-						"media": "special_touch",
+						"media": "touch_2",
 						"chinese": "嚯~？看来指挥官是想要自告奋勇当炮靶呢…",
 						"chineseTL": "Oh~? It seems like Commander has the courage to become cannon target...",
 						"chineseNote": "",
@@ -399,8 +412,8 @@
 						"englishNote": ""
 					},
 					"11": {
-						"event": "Mission",
-						"media": "mission",
+						"event": "Mission reminder",
+						"media": "task",
 						"chinese": "任务啊…如果是战斗任务就好了呢，嘿嘿~",
 						"chineseTL": "A mission... It would be nice if it's a combat mission, hehe~",
 						"chineseNote": "",
@@ -435,8 +448,8 @@
 						"englishNote": ""
 					},
 					"14": {
-						"event": "Return from Sortie",
-						"media": "return_from_sortie",
+						"event": "Return to port",
+						"media": "home",
 						"chinese": "嗯，出击辛苦了。喝瓶冰镇可乐放松下吧",
 						"chineseTL": "Hmm, good work out on sortie. Have a bottle of iced cola and relax",
 						"chineseNote": "",
@@ -448,7 +461,7 @@
 					},
 					"15": {
 						"event": "Commission Complete",
-						"media": "commission_complete",
+						"media": "expedition",
 						"chinese": "委托组回来了呢。等等，把这些酸素可乐带给她们吧，慰劳将士的辛苦是指挥官应当做的事情",
 						"chineseTL": "The commission team came back. Wait, bring these oxygen cola with you, thanking the good work of warriors is something Commander should do",
 						"chineseNote": "",
@@ -459,8 +472,8 @@
 						"englishNote": ""
 					},
 					"16": {
-						"event": "Enhancement",
-						"media": "enhancement",
+						"event": "Enhancing complete",
+						"media": "upgrade",
 						"chinese": "下次的战斗，你会看到我的表现的",
 						"chineseTL": "Next battle, you will see my performance",
 						"chineseNote": "",
@@ -471,8 +484,8 @@
 						"englishNote": ""
 					},
 					"17": {
-						"event": "Sortie Start",
-						"media": "sortie_start",
+						"event": "Flagship fight",
+						"media": "warcry",
 						"chinese": "这次会是什么样的对手呢？希望不要辜负了我的期待啊",
 						"chineseTL": "What kind of opponent will it be this time? I hope you don't disappoint me",
 						"chineseNote": "",
@@ -483,7 +496,7 @@
 						"englishNote": ""
 					},
 					"18": {
-						"event": "MVP",
+						"event": "Victory",
 						"media": "mvp",
 						"chinese": "再坚固的装甲，也只有被巨炮击碎的命运！",
 						"chineseTL": "A stronge armor, will only be fated to be pulverized by large cannons!",
@@ -496,7 +509,7 @@
 					},
 					"19": {
 						"event": "Defeat",
-						"media": "defeat",
+						"media": "lose",
 						"chinese": "只能…暂时撤退了吗",
 						"chineseTL": "Can we... temporarily retreat?",
 						"chineseNote": "",
@@ -507,8 +520,8 @@
 						"englishNote": ""
 					},
 					"20": {
-						"event": "Skill Activation",
-						"media": "skill_activation",
+						"event": "Skills",
+						"media": "skill",
 						"chinese": "这巨炮的轰鸣就是你们最后的回忆！",
 						"chineseTL": "The roar of these cannons will be your last memory!",
 						"chineseNote": "",
@@ -519,8 +532,8 @@
 						"englishNote": ""
 					},
 					"21": {
-						"event": "Low Health",
-						"media": "low_health",
+						"event": "Low HP",
+						"media": "hp",
 						"chinese": "咕唔…装甲区损伤？！我会加倍奉还的！",
 						"chineseTL": "Ugh... The armor was damaged?! I will repay it twice!",
 						"chineseNote": "",
@@ -531,8 +544,8 @@
 						"englishNote": ""
 					},
 					"22": {
-						"event": "Affinity (Disappointed)",
-						"media": "affinity_disappointed",
+						"event": "Upset",
+						"media": "feeling1",
 						"chinese": "看来指挥官并不足以拥有这份力量……",
 						"chineseTL": "It seems like Commander is not worthy of this power...",
 						"chineseNote": "",
@@ -543,8 +556,8 @@
 						"englishNote": ""
 					},
 					"23": {
-						"event": "Affinity (Stranger)",
-						"media": "affinity_stranger",
+						"event": "Stranger",
+						"media": "feeling2",
 						"chinese": "桃子很不错的哦，营养又美味，指挥官要来一颗吗？",
 						"chineseTL": "Peaches are very good, they are nutritious and tasty. Want one, Commander?",
 						"chineseNote": "",
@@ -555,8 +568,8 @@
 						"englishNote": ""
 					},
 					"24": {
-						"event": "Affinity (Friendly)",
-						"media": "affinity_friendly",
+						"event": "Friendly",
+						"media": "feeling3",
 						"chinese": "出击战斗固然让人热血沸腾，不过偶尔放松一下也是很重要的呢",
 						"chineseTL": "Sortie out to battle makes you boil with hot-blooded passion, but taking a rest to relax once in a while is also very important",
 						"chineseNote": "",
@@ -567,8 +580,8 @@
 						"englishNote": ""
 					},
 					"25": {
-						"event": "Affinity (Like)",
-						"media": "affinity_like",
+						"event": "Crush",
+						"media": "feeling4",
 						"chinese": "下次有机会的话，就一起去旅行怎么样？有你同行的话，感觉会是段有趣的旅程呢",
 						"chineseTL": "It we get a chance next time, how about going on a trip together? With you as my travel partner, I feel like it will be a fun trip",
 						"chineseNote": "",
@@ -579,8 +592,8 @@
 						"englishNote": ""
 					},
 					"26": {
-						"event": "Affinity (Love)",
-						"media": "affinity_love",
+						"event": "Love",
+						"media": "feeling5",
 						"chinese": "先从白鹰出发…然后到皇家和鸢尾…再是东煌…——嗯？我在计划我们的环球之旅哦。事到如今，指挥官不会说不愿意去了吧~？",
 						"chineseTL": "First we depart from the Eagle Union... then to Royal Navy and Iris Libre... then Eastern Radiance... Eh? I'm planning our trip around the world. At this point, Commander wouldn't say you don't want to go, right~?",
 						"chineseNote": "",
@@ -591,8 +604,8 @@
 						"englishNote": ""
 					},
 					"27": {
-						"event": "Pledge",
-						"media": "pledge",
+						"event": "Promise",
+						"media": "propose",
 						"chinese": "咳…没想到会是指挥官发起的直球进攻啊~？啊哈哈…我很高兴哦，看来环球之旅可以提前准备出发了呢~",
 						"chineseTL": "*Cough*... I didn't think Commander would be the one initiating the attack~? Ahaha... I'm really happy, seems like we can depart on the global tour ahead of schedule~",
 						"chineseNote": "",
@@ -603,7 +616,7 @@
 						"englishNote": ""
 					},
 					"28": {
-						"event": "Present Like",
+						"event": "Like Present",
 						"media": "present_like",
 						"chinese": "",
 						"chineseTL": "",
@@ -615,7 +628,7 @@
 						"englishNote": ""
 					},
 					"29": {
-						"event": "Present Dislike",
+						"event": "Dislike Present",
 						"media": "present_dislike",
 						"chinese": "",
 						"chineseTL": "",
@@ -628,7 +641,7 @@
 					},
 					"30": {
 						"event": "Main Title",
-						"media": "main_title",
+						"media": "extra",
 						"chinese": "",
 						"chineseTL": "",
 						"chineseNote": "",

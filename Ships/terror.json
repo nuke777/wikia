@@ -1,0 +1,746 @@
+{
+	"name_reference" : "terror",
+	"cn_reference" : "kongbu",
+	"nameJP" : "テラー",
+	"nameCN" : "恐怖",
+	"ID" : "150",
+	"name" : "Terror",
+	"internal_id" : "213021",
+	"rarity" : "Elite",
+	"initialStar" : "★★☆☆☆",
+	"hull" : "Monitor",
+	"navy" : "Royal Navy",
+	"prefix" : "HMS",
+	"buildTime" : "",
+	"class" : "Erebus",
+	"voiceActress" : "Maia",
+	"parameters": {
+		"firepower" : "B",
+		"torpedo" : "E",
+		"aviation" : "E",
+		"evasion" : "E",
+		"antiAir" : "D",
+		"hp" : "C"
+	},
+	"scrap": {
+		"gold" : "6",
+		"oil" : "3",
+		"medal" : "4"
+	},
+	"releaseDate": {
+		"JP" : "",
+		"CN" : "",
+		"KR" : "",
+		"EN" : ""
+	},
+	"artist": {
+		"name" : "",
+		"weibo" : "",
+		"twitter" : "",
+		"pixiv" : "",
+		"other" : ""
+	},
+	"enhance": {
+		"firepower" : "35",
+		"torpedo" : "0",
+		"aviation" : "0",
+		"reload" : "10"
+	},
+	"acquisitionMethod" : "Honor medal exchange, Explore Stage4-3, Light/Heavy Construction",
+	"skill": {
+		"1" : {
+			"icon" : "10350",
+			"requirement" : "",
+			"name" : "Infinite Darkness",
+			"type" : "Offensive",
+			"description" : "$1 chance every 20s: fires a special barrage. Barrage damage is based on the skill's level."
+		}
+	},
+	"skin": {
+		"1" : {
+			"id" : "kongbu",
+			"name" : "Terror",
+			"description" : "Erebus-class monitor – Terror, Hull Number I03!",
+			"expression" : {
+				"0" : {
+					"id" : "0"
+				}
+			}
+		},
+		"2" : {
+			"id" : "kongbu_2",
+			"name" : "Halloween Terror ",
+			"description" : "I have to dress up as a ghost for Halloween, but I'm not very good at making complicated costumes... Is something like this okay? ",
+			"expression" : {
+				"0" : {
+					"id" : "0"
+				},
+				"1" : {
+					"id" : "1"
+				},
+				"2" : {
+					"id" : "2"
+				},
+				"3" : {
+					"id" : "3"
+				}
+			}
+		}
+	},
+	"defaultEquipment": {
+		"1" : {
+			"icon" : "24100",
+			"rarity" : "Common",
+			"name" : "Twin 381mm Main Gun"
+		},
+		"1" : {
+			"icon" : "21000",
+			"rarity" : "",
+			"name" : "Single 102mm Auxiliary Gun"
+		},
+		"3" : {
+			"icon" : "",
+			"rarity" : "",
+			"name" : ""
+		}
+	},
+	"stats": {
+		"base": {
+			"hp" : "587",
+			"firepower" : "52",
+			"torpedo" : "0",
+			"antiAir" : "32",
+			"aviation" : "0",
+			"reload" : "53",
+			"hit" : "28",
+			"evasion" : "11",
+			"speed" : "12",
+			"luck" : "19",
+			"asw" : "0",
+			"oxygen" : "0",
+			"ammo" : "0",
+			"cost" : "3",
+			"armor" : "Light"
+		},
+		"100": {
+			"hp" : "3035",
+			"firepower" : "247",
+			"torpedo" : "0",
+			"antiAir" : "149",
+			"aviation" : "0",
+			"reload" : "126",
+			"hit" : "72",
+			"evasion" : "28",
+			"speed" : "12",
+			"luck" : "19",
+			"asw" : "0",
+			"oxygen" : "0",
+			"ammo" : "0",
+			"cost" : "10",
+			"armor" : "Light"
+		},
+		"120": {
+			"hp" : "3642",
+			"firepower" : "282",
+			"torpedo" : "0",
+			"antiAir" : "171",
+			"aviation" : "0",
+			"reload" : "145",
+			"hit" : "81",
+			"evasion" : "61",
+			"speed" : "12",
+			"luck" : "19",
+			"asw" : "0",
+			"oxygen" : "0",
+			"ammo" : "0",
+			"cost" : "10",
+			"armor" : "Light"
+		},
+		"100retrofit": {
+			"hp" : "",
+			"firepower" : "",
+			"torpedo" : "",
+			"antiAir" : "",
+			"aviation" : "",
+			"reload" : "",
+			"hit" : "",
+			"evasion" : "",
+			"speed" : "12",
+			"luck" : "19",
+			"asw" : "",
+			"oxygen" : "0",
+			"ammo" : "0",
+			"cost" : "10",
+			"armor" : "Light"
+		},
+		"120retrofit": {
+			"hp" : "",
+			"firepower" : "",
+			"torpedo" : "",
+			"antiAir" : "",
+			"aviation" : "",
+			"reload" : "",
+			"hit" : "",
+			"evasion" : "",
+			"speed" : "12",
+			"luck" : "19",
+			"asw" : "",
+			"oxygen" : "0",
+			"ammo" : "0",
+			"cost" : "10",
+			"armor" : "Light"
+		}
+	},
+	"limitBreak": {
+		"tier1": "Auxiliary gun base +1/Main gun efficiency +5%",
+		"tier2": "Main gun base +1/Main gun efficiency +10%",
+		"tier3": "Auxiliary gun base +1/Main gun efficiency +15%"
+	},
+	"equipmentLoadout": {
+		"1": {
+			"type": "Battleship",
+			"efficiency": "90%/95%/105%/120%",
+			"amount": "1/1/1/1",
+			"preload": "0/0/0/0"
+		},
+		"2": {
+			"type": "Destroyer Gun",
+			"efficiency": "200%/200%/200%/200%",
+			"amount": "1/2/2/3",
+			"preload": "0/0/0/0"
+		},
+		"3": {
+			"type": "Anti-Air Gun",
+			"efficiency": "100%/100%/100%/100%",
+			"amount": "1/1/1/1",
+			"preload": "0/0/0/0"
+		},
+		"4": {
+			"type": "Auxilary",
+			"efficiency": "-",
+			"amount": "-",
+			"preload": "-"
+		},
+		"5": {
+			"type": "Auxilary",
+			"efficiency": "-",
+			"amount": "-",
+			"preload": "-"
+		}
+	},
+	"build": {
+		"light": {
+			"JP": "",
+			"CN": "",
+			"EN": ""
+		},
+		"heavy": {
+			"JP": "",
+			"CN": "",
+			"EN": ""
+		},
+		"special": {
+			"JP": "",
+			"CN": "",
+			"EN": ""
+		},
+		"limited": {
+			"JP": "",
+			"CN": "",
+			"EN": ""
+		}
+	},
+	"drop": {
+		"droppable": "false",
+		"list": {
+			"1": {
+				"event": "",
+				"chapter": {
+					"1": {
+						"label": "Ch .1",
+						"node": {
+							"1": {
+								"drop": "✓",
+								"note": "-"
+							}
+						}
+					}
+				}
+			}
+		}
+	},
+	"lines": {
+		"skin": {
+			"1": {
+				"skin_id" : "kongbu",
+				"id" : "0",
+				"label" : "Terror",
+				"dialogue" : {
+					"1" : {
+						"event" : "Ship Description",
+						"media" : "",
+						"chinese" : "黑暗界级浅水重炮舰—恐怖，舷号I03",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "エレバス級モニター艦・テラー (HMS Terror)",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Erebus-class monitor – Terror, Hull Number I03!",
+						"englishNote" : ""
+					},
+					"2" : {
+						"event" : "Biography",
+						"media" : "profile",
+						"chinese" : "我是黑暗界级浅水重炮舰二号舰恐怖。 阿贝克隆比级是比不过我和姐姐的。我们经常在达达尼尔海峡那里。对陆轰击作战……应该很容易……",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "エレバス級モニター艦の二番艦、テラーです。アバークロンビーは私と姉さんに敵わないの。よくダーダネルス海峡にいますの。艦砲射撃……？簡単かも……",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "I'm the second ship of the Erebus-class monitors.The Abercrombie-class ships are no match for me and my sister... We spent a lot of time in the Dardanelles strait. Bombardment missions... piece of cake.",
+						"englishNote" : ""
+					},
+					"3" : {
+						"event" : "Receive",
+						"media" : "get",
+						"chinese" : "浅水重炮舰……恐怖，阿贝克隆比级是比不过我和姐姐的。我们经常在达达尼尔海峡那里。对陆轰击作战……应该很容易……",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "私はモニター艦の…テラー。アバークロンビーは私と姉さんには勝てません。私たちはよくダーダネルス海峡にいました。陸上への艦砲射撃なら…目をつむってもできます…",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Monitor ship... Terror... Abercrombie-class ships are no match for me and my sister... We spent a lot of time in the Dardanelles strait. Bombardment missions... piece of cake.",
+						"englishNote" : ""
+					},
+					"4" : {
+						"event" : "Log in",
+						"media" : "login",
+						"chinese" : "指挥官……我、我以前也、想跟您搭话的……那个……",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "指揮官…私、前から、あなたとお話ししたくて…あの…",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Commander... I've been wanting to talk... to you... about...",
+						"englishNote" : ""
+					},
+					"5" : {
+						"event" : "View details",
+						"media" : "detail",
+						"chinese" : "指挥官现在的眼神和那群奇怪的人一样……",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "今の指揮官の目、あの変な人たちと同じ…",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Your eyes look just like those weirdo' eyes, Commander...",
+						"englishNote" : ""
+					},
+					"6" : {
+						"event" : "Main screen 1",
+						"media" : "main_1",
+						"chinese" : "指挥官，能把那些豌豆拿走吗？还有割草机……",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "指揮官、あのエンドウ豆をあっちに持っていってもらえます？それからチェーンソー も…",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Commander, could you put away those peas? And the lawnmower……",
+						"englishNote" : ""
+					},
+					"7" : {
+						"event" : "Main screen 2",
+						"media" : "main_2",
+						"chinese" : "我有“心”是件奇怪的事吗？……",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "私に「心」があるのが、そんなに変ですか？",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Is is that weird for me to have a 'heart'?",
+						"englishNote" : ""
+					},
+					"8" : {
+						"event" : "Main screen 3",
+						"media" : "main_3",
+						"chinese" : "指挥官……你是……空气玩家吗？",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "指揮官…あなたは…エアプレイヤーなんですか？",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Commander……are you……a wind player?",
+						"englishNote" : ""
+					},
+					"9" : {
+						"event" : "Normal touch",
+						"media" : "touch_1",
+						"chinese" : "你能感受到我的……热度吗？",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "感じますか？私の…熱さを…",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Can you feel... my warmth?",
+						"englishNote" : ""
+					},
+					"10" : {
+						"event" : "Special touch",
+						"media" : "touch_2",
+						"chinese" : "（盯——）……",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "ううっ…",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "*Stares...*",
+						"englishNote" : ""
+					},
+					"11" : {
+						"event" : "Mission reminder",
+						"media" : "task",
+						"chinese" : "任务……活动一下身体好了，不然膝盖又要坏掉了",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "ミッション…体を動かすのもいいですね。じゃないとまた膝が悪くなっちゃいます",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "How about some missions for exercise...? Otherwise my knee may break again...",
+						"englishNote" : ""
+					},
+					"12" : {
+						"event" : "Mission complete",
+						"media" : "mission_complete",
+						"chinese" : "嘿~咻，嘿~咻，指挥官，奖励我拿过来了……",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "ほいっしょ、ほいっしょ、指揮官、ボーナス持ってきました……",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "*coo, coo*~! Commander, I've got your rewards...",
+						"englishNote" : ""
+					},
+					"13" : {
+						"event" : "Mail reminder",
+						"media" : "mail",
+						"chinese" : "信……会有人给我写信吗",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "お手紙……私にお手紙を書く人いますか？ ",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "A letter... Would anyone write a letter to me?",
+						"englishNote" : ""
+					},
+					"14" : {
+						"event" : "Return to port",
+						"media" : "home",
+						"chinese" : "指挥官摸摸头~",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "よしよし、よしよし",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Rub my head, Commander...",
+						"englishNote" : ""
+					},
+					"15" : {
+						"event" : "Commission complete",
+						"media" : "expedition",
+						"chinese" : "指挥官，委托完成了，说起来，之前有一次出委托把手弄丢了，害姐妹们找了好久……",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "指揮官、委託完了しました。そういえば、前に委託に出た時腕をなくしたの。みんなで結構探しましたね……",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Commander, commissions are finished... You know, I lost my hand during a commission. It took everyone quite some time to help me find it...",
+						"englishNote" : ""
+					},
+					"16" : {
+						"event" : "Enhancing complete",
+						"media" : "upgrade",
+						"chinese" : "感觉身体……灵活了不少",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "体が…動きやすくなったみたい",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "I feel as if my body... is much more agile now.",
+						"englishNote" : ""
+					},
+					"17" : {
+						"event" : "Flagship fight",
+						"media" : "warcry",
+						"chinese" : "恐怖也、也开始紧张起来了……",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "テラーも、緊張してきました…",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Even Terror... is getting terrified...",
+						"englishNote" : ""
+					},
+					"18" : {
+						"event" : "Victory",
+						"media" : "mvp",
+						"chinese" : "指挥官，我、已经很努力了，没给您添麻烦吧",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "指揮官、私、すごくがんばったんですけど…、ご迷惑はかけてないですよね？",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Commander, I... I worked really hard. I didn't cause you any trouble, did I?",
+						"englishNote" : ""
+					},
+					"19" : {
+						"event" : "Defeat",
+						"media" : "lose",
+						"chinese" : "呜……我、我会坚持到指挥官拖我回港的……",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "うぅ…指揮官が連れて帰ってもらうまでがんばりますですぅ……",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "*Cries*... I'll try to hold out until you tow me back to port, Commander...",
+						"englishNote" : ""
+					},
+					"20" : {
+						"event" : "Skills",
+						"media" : "skill",
+						"chinese" : "……沉没吧",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "…沈め…",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "... Sink.",
+						"englishNote" : ""
+					},
+					"21" : {
+						"event" : "Low HP",
+						"media" : "hp",
+						"chinese" : "恐怖……也开始恐怖了",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "テラーも……怖くなったの…",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Terror... is getting terrified...",
+						"englishNote" : ""
+					},
+					"22" : {
+						"event" : "Upset",
+						"media" : "feeling1",
+						"chinese" : "恐怖，开始觉得指挥官有点恐怖了……",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "テラー、指揮官のことちょっと怖く思うの……",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Terror is terrified of you, Commander.",
+						"englishNote" : ""
+					},
+					"23" : {
+						"event" : "Stranger",
+						"media" : "feeling2",
+						"chinese" : "指挥官……不害怕我吗？我的身体没有温度，感情起伏也很低，就像……死人一样……",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "指揮官は……テラーが怖くないですか？私、体温ないし感情もあまりないから、死んだ人みたいですぅ……",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Aren't you afraid of me, Commander? My body feels cold... I am always depressed... I always feel.... like a corpse.",
+						"englishNote" : ""
+					},
+					"24" : {
+						"event" : "Friendly",
+						"media" : "feeling3",
+						"chinese" : "我只记得张开眼的时候姐姐就在身边了……从那之后她一直和我在一起，所以姐姐是我唯一的亲人……",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "目を開いてからずっと姉さんがそばにいてくれるの……それから姉さんとずっと一緒ですから、たったひとりの家族ですの……",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "I remember my sister being with me, ever since the very first time I opened my eyes... She's always been there for me. She's my only family...",
+						"englishNote" : ""
+					},
+					"25" : {
+						"event" : "Crush",
+						"media" : "feeling4",
+						"chinese" : "姐姐的身边很温暖，指挥官的身边……也很温暖，感觉家人又多了一个，好开心……",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "姉さんのそばは温かいです。指揮官のそばは……同じ温かいです。家族が一人増えて嬉しいです……",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "It's warm next to my sister, it's warm next to the Commander too... I feel like I just got a new family member... I'm so happy...",
+						"englishNote" : ""
+					},
+					"26" : {
+						"event" : "Love",
+						"media" : "feeling5",
+						"chinese" : "指挥官……给你摸摸恐怖的心……它从来没有跳的这么快过，也没有这么热过……这都是……指挥官的功劳……",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "指揮官……テラーの心、触ってて……こんなにドキドキしたり、熱くなったりすることがなかったですの……これは全部…指揮官のおかげですよ……",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Commander... please touch my heart... It has never beaten this fast... it has never been this hot... This is all... because of you, Commander...",
+						"englishNote" : ""
+					},
+					"27" : {
+						"event" : "Promise",
+						"media" : "propose",
+						"chinese" : "这种时候，应该笑吗，还是哭呢……恐怖……不太清楚，虽然不太清楚，但是，恐怖从来没有这么……高兴过",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "こんな時、笑えばいいか、泣いていいか……テラー……分からないです。分からないけど、今までこんなに嬉しいこと…ないですの…",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Times like these, should I laugh, or should I cry? I'm... I'm not really sure... but Terror knows... I know I've never been this happy before...",
+						"englishNote" : ""
+					},
+					"28" : {
+						"event" : "Easter Egg 1(Erebus)",
+						"media" : "link1",
+						"chinese" : "姐姐，恐怖会加油的！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "姉さん、テラー頑張る！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Sister, I'll do my best!",
+						"englishNote" : ""
+					}
+				}
+			},
+			"2": {
+				"skin_id" : "kongbu_2",
+				"id" : "1",
+				"label" : "Halloween Terror ",
+				"dialogue" : {
+					"1" : {
+						"event" : "Ship Description",
+						"media" : "",
+						"chinese" : "参加万圣夜要扮成鬼，但是恐怖不会做太复杂的装扮……这样子的，可以吗？",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "ハロウィンでは仮装すると聞きましたけど、テラーはあまり難しい服を作れません……こんな感じで、いい……？",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "I have to dress up as a ghost for Halloween, but I'm not very good at making complicated costumes... Is something like this okay?",
+						"englishNote" : ""
+					},
+					"2" : {
+						"event" : "Receive",
+						"media" : "get_1",
+						"chinese" : "参加万圣夜要扮成鬼，但是恐怖不会做太复杂的装扮……这样子的，可以吗？",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "ハロウィンでは仮装すると聞きましたけど、テラーはあまり難しい服を作れません……こんな感じで、いい……？",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "I have to dress up as a ghost for Halloween, but I'm not very good at making complicated costumes... Is something like this okay?",
+						"englishNote" : ""
+					},
+					"3" : {
+						"event" : "Log in",
+						"media" : "login_1",
+						"chinese" : "吓！吓别人……是这种感觉吗？",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "ぐ、ぐえええええ～……こんな感じですか…？",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Boo! Scaring people... it's done like this, right?",
+						"englishNote" : ""
+					},
+					"4" : {
+						"event" : "View details",
+						"media" : "detail_1",
+						"chinese" : "「我自长眠中苏醒，来索取你的灵魂」……这样子的台词，有没有一点姐姐的感觉？",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "「眠りから目覚めて、あなたの魂をもらいにきたわ～」……このセリフ、ちょっと姉さんっぽい……？",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "\"From the depths of Sheol, I emerge from eternal slumber to claim your soul\" ... This line sounds like something my sister would say.",
+						"englishNote" : ""
+					},
+					"5" : {
+						"event" : "Main screen 1",
+						"media" : "main_1_1",
+						"chinese" : "恐怖想和姐姐一起，但是姐姐好像对万圣夜不感兴趣……",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "テラーは姉さんと一緒にハロウィンに行きたいけど、姉さんはハロウィンに興味なさそうです……",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "I wanted to spend some time with my sister, but she doesn't seem to be interested in Halloween...",
+						"englishNote" : ""
+					},
+					"6" : {
+						"event" : "Main screen 2",
+						"media" : "main_2_1",
+						"chinese" : "今天大家都会扮成怪物和魔女，所以我也可以和大家一起……",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "今日はみんな、お化けや魔女さんになりますから、テラーも皆と一緒……",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Today, everyone will be dressed up as monsters and witches, so I will fit in with them...",
+						"englishNote" : ""
+					},
+					"7" : {
+						"event" : "Main screen 3",
+						"media" : "main_3_1",
+						"chinese" : "小孩子们会向大人们要糖果…恐怖已经不是小孩子了—给我糖果？谢谢…",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "小さい子は大人からお菓子をもらうのですね…でもテラーはもう小さくない——お菓子くれるのですか？あ、ありがと……",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Children will ask for candy from adults... but Terror is no longer a child- Eh? Candy, for me? Thank you...",
+						"englishNote" : ""
+					},
+					"8" : {
+						"event" : "Normal touch",
+						"media" : "touch_1_1",
+						"chinese" : "指挥官的手，暖暖的……",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "指揮官の手、温かいです……",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Commander's hand... is nice and warm...",
+						"englishNote" : ""
+					},
+					"9" : {
+						"event" : "Special touch",
+						"media" : "touch_2_1",
+						"chinese" : "这样子摸的话绷带会松掉的……",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "そんなに触っては包帯が外れちゃいますよ……",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "If you keep touching, the bandages are going to come lose...",
+						"englishNote" : ""
+					},
+					"10" : {
+						"event" : "Return to port",
+						"media" : "home_1",
+						"chinese" : "要去恶作剧吗？稍微……有点兴奋。",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "イタズラ…？ちょっと……ワクワク……",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Trick-or-treating? I'm a little excited...",
+						"englishNote" : ""
+					}
+				}
+			}
+		}
+	}
+}

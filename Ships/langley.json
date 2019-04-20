@@ -1,0 +1,684 @@
+{
+	"name_reference" : "langley",
+	"cn_reference" : "lanli",
+	"nameJP" : "ラングレー",
+	"nameCN" : "兰利",
+	"ID" : "72",
+	"name" : "Langley",
+	"internal_id" : "107011",
+	"rarity" : "Common",
+	"initialStar" : "★☆☆☆",
+	"hull" : "Light Aircraft Carrier",
+	"navy" : "Eagle Union",
+	"prefix" : "USS",
+	"buildTime" : "",
+	"class" : "Langley",
+	"voiceActress" : "Haruka Yoshimura",
+	"parameters": {
+		"firepower" : "E",
+		"torpedo" : "E",
+		"aviation" : "B",
+		"evasion" : "D",
+		"antiAir" : "B",
+		"hp" : "C"
+	},
+	"scrap": {
+		"gold" : "7",
+		"oil" : "3",
+		"medal" : "0"
+	},
+	"releaseDate": {
+		"JP" : "",
+		"CN" : "",
+		"KR" : "",
+		"EN" : ""
+	},
+	"artist": {
+		"name" : "",
+		"weibo" : "",
+		"twitter" : "",
+		"pixiv" : "",
+		"other" : ""
+	},
+	"enhance": {
+		"firepower" : "0",
+		"torpedo" : "0",
+		"aviation" : "25",
+		"reload" : "9"
+	},
+	"acquisitionMethod" : "Honor medal exchange, Explore Stage3-1, Light/Special Construction",
+	"skill": {
+		"1" : {
+			"icon" : "10170",
+			"requirement" : "",
+			"name" : "First-Generation Carrier",
+			"type" : "Support",
+			"description" : "Increases the EXP that friendly Carriers earn after the battle by $1."
+		},
+		"2" : {
+			"icon" : "1037",
+			"requirement" : "",
+			"name" : "Reload Command: Light Carriers",
+			"type" : "Support",
+			"description" : "Increases the RLD of all friendly CVLs by $1. Does not stack with the same skill."
+		}
+	},
+	"skin": {
+		"1" : {
+			"id" : "lanli",
+			"name" : "Langley",
+			"description" : "Langley-class aicraft carrier ー Langley, Hull Number CV-1!",
+			"expression" : {
+				"0" : {
+					"id" : "0"
+				}
+			}
+		},
+		"2" : {
+			"id" : "lanli_g",
+			"name" : "Langley (Retrofit)",
+			"description" : "Listen carefully or I'll step on you!",
+			"expression" : {
+				"0" : {
+					"id" : "0"
+				}
+			}
+		}
+	},
+	"defaultEquipment": {
+		"1" : {
+			"icon" : "17000",
+			"rarity" : "",
+			"name" : "F2A Buffalo"
+		},
+		"2" : {
+			"icon" : "",
+			"rarity" : "",
+			"name" : ""
+		},
+		"3" : {
+			"icon" : "",
+			"rarity" : "",
+			"name" : ""
+		}
+	},
+	"stats": {
+		"base": {
+			"hp" : "744",
+			"firepower" : "0",
+			"torpedo" : "0",
+			"antiAir" : "46",
+			"aviation" : "38",
+			"reload" : "45",
+			"hit" : "26",
+			"evasion" : "15",
+			"speed" : "15.5",
+			"luck" : "32",
+			"asw" : "23",
+			"oxygen" : "0",
+			"ammo" : "0",
+			"cost" : "2",
+			"armor" : "Medium"
+		},
+		"100": {
+			"hp" : "3845",
+			"firepower" : "0",
+			"torpedo" : "0",
+			"antiAir" : "213",
+			"aviation" : "177",
+			"reload" : "107",
+			"hit" : "68",
+			"evasion" : "38",
+			"speed" : "15.5",
+			"luck" : "32",
+			"asw" : "84",
+			"oxygen" : "0",
+			"ammo" : "0",
+			"cost" : "9",
+			"armor" : "Medium"
+		},
+		"120": {
+			"hp" : "4460",
+			"firepower" : "0",
+			"torpedo" : "0",
+			"antiAir" : "245",
+			"aviation" : "204",
+			"reload" : "123",
+			"hit" : "81",
+			"evasion" : "80",
+			"speed" : "15.5",
+			"luck" : "32",
+			"asw" : "95",
+			"oxygen" : "0",
+			"ammo" : "0",
+			"cost" : "9",
+			"armor" : "Medium"
+		},
+		"100retrofit": {
+			"hp" : "4085",
+			"firepower" : "0",
+			"torpedo" : "0",
+			"antiAir" : "248",
+			"aviation" : "237",
+			"reload" : "112",
+			"hit" : "68",
+			"evasion" : "38",
+			"speed" : "15.5",
+			"luck" : "32",
+			"asw" : "84",
+			"oxygen" : "0",
+			"ammo" : "0",
+			"cost" : "9",
+			"armor" : "Medium"
+		},
+		"120retrofit": {
+			"hp" : "4700",
+			"firepower" : "0",
+			"torpedo" : "0",
+			"antiAir" : "280",
+			"aviation" : "264",
+			"reload" : "128",
+			"hit" : "81",
+			"evasion" : "80",
+			"speed" : "15.5",
+			"luck" : "32",
+			"asw" : "95",
+			"oxygen" : "0",
+			"ammo" : "0",
+			"cost" : "9",
+			"armor" : "Medium"
+		}
+	},
+	"limitBreak": {
+		"tier1": "All fighters +1/Fighter efficiency +3%",
+		"tier2": "Hangar capacity +1/All fighters +1/Fighter efficiency +5%",
+		"tier3": "All Dive Bombers +1/Fighter efficiency +7%"
+	},
+	"equipmentLoadout": {
+		"1": {
+			"type": "Fighter",
+			"efficiency": "115%/118%/123%/130%",
+			"amount": "1/2/3/3",
+			"preload": "0/0/0/0"
+		},
+		"2": {
+			"type": "Destroyer Gun",
+			"efficiency": "100%/118%/123%/130%",
+			"amount": "1/2/3/3",
+			"preload": "0/0/0/0"
+		},
+		"3": {
+			"type": "Dive Bomber",
+			"efficiency": "80%/80%/80%/80%",
+			"amount": "1/1/1/2",
+			"preload": "0/0/0/0"
+		},
+		"4": {
+			"type": "Auxilary",
+			"efficiency": "-",
+			"amount": "-",
+			"preload": "-"
+		},
+		"5": {
+			"type": "Auxilary",
+			"efficiency": "-",
+			"amount": "-",
+			"preload": "-"
+		}
+	},
+	"build": {
+		"light": {
+			"JP": "",
+			"CN": "",
+			"EN": ""
+		},
+		"heavy": {
+			"JP": "",
+			"CN": "",
+			"EN": ""
+		},
+		"special": {
+			"JP": "",
+			"CN": "",
+			"EN": ""
+		},
+		"limited": {
+			"JP": "",
+			"CN": "",
+			"EN": ""
+		}
+	},
+	"drop": {
+		"droppable": "false",
+		"list": {
+			"1": {
+				"event": "",
+				"chapter": {
+					"1": {
+						"label": "Ch .1",
+						"node": {
+							"1": {
+								"drop": "✓",
+								"note": "-"
+							}
+						}
+					}
+				}
+			}
+		}
+	},
+	"lines": {
+		"skin": {
+			"1": {
+				"skin_id" : "lanli",
+				"id" : "0",
+				"label" : "Langley",
+				"dialogue" : {
+					"1" : {
+						"event" : "Ship Description",
+						"media" : "",
+						"chinese" : "兰利级航空母舰—兰利，舷号CV-1",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "ラングレー級航空母艦・ラングレー（CV-1)",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Langley-class aicraft carrier ー Langley, Hull Number CV-1!",
+						"englishNote" : ""
+					},
+					"2" : {
+						"event" : "Biography",
+						"media" : "profile",
+						"chinese" : "咳咳~我是白鹰的第一艘~第·一·艘航空母舰兰利！虽然作战能力还有不足，但是我培训了很多优秀的海军飞行员喔！白鹰海军航空母舰的发展史，由我展开！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "コホン！私は白鷹（ユニオン）の最初の~さ・い・しょの空母・ラングレーです！戦闘能力は心もとないですが、優秀なパイロットを数多く送り出しました！白鷹（ユニオン）空母の歴史はこの私から、ですわ！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Ahem! I am the Eagle Union's first, I repeat, the first aircraft carrier, Langley! I do not think highly of my own fighting ability, but I've put out numerous outstanding pilots! The Eagle Union's aircraft carrier begins with me, I say!",
+						"englishNote" : ""
+					},
+					"3" : {
+						"event" : "Receive",
+						"media" : "get",
+						"chinese" : "指挥官，我是被派来协助你的兰利。听好了，我会改正你的各种毛病，将这支舰队带上正轨的",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "新たにあなたの補佐として派遣されたラングレーです。いい？あなたの悪いところをとことん直して、艦隊の運営をレールに載せてみせますわ",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "I've been newly assigned to assist you. Name's Langley. You listening? I am going to fix what's wrong with you, and put you on the right track to running a fleet.",
+						"englishNote" : ""
+					},
+					"4" : {
+						"event" : "Log in",
+						"media" : "login",
+						"chinese" : "指挥官，今天我会全力协助你认真工作的！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "指揮官、今日も全身全霊あなたを補佐します",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Commander, I'll assist you with your work the best I can!",
+						"englishNote" : ""
+					},
+					"5" : {
+						"event" : "View details",
+						"media" : "detail",
+						"chinese" : "指挥官一直在看着我，是准备回答我提的问题吗？",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "指揮官、さっきから私をずっと見つめていますが、私からの質問には何て答えるつもり？",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Commander, you're staring at me... Are you ready to answer my questions?",
+						"englishNote" : ""
+					},
+					"6" : {
+						"event" : "Main screen 1",
+						"media" : "main_1",
+						"chinese" : "指挥官！~你呀，本来可以做得更好的，但为什么总是正经不起来呢……",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "指揮官！~ちょっと、もっと上手くやれるのに、どうして真面目にならないの……？",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Commander! ~Hey, you could've done better than this. Why are you not serious about this...?",
+						"englishNote" : ""
+					},
+					"7" : {
+						"event" : "Main screen 2",
+						"media" : "main_2",
+						"chinese" : "舰队一直这样毫无改变，指挥官你至少努力点啊！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "このままじゃ艦隊は何も変わりませんわ！指揮官も少し努力しなさい！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "At this rate nothing about the fleet will change! Get yourself together, Commander!",
+						"englishNote" : ""
+					},
+					"8" : {
+						"event" : "Main screen 3",
+						"media" : "main_3",
+						"chinese" : "指挥官？到底有没有认真听我说话呀？我要用粉笔头砸你了~~兰利最讨厌别人问话不回了~哼！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "指揮官？ちゃんと話を聞いてます？チョーク投げますわよ～！ラングレーは話を聞かない人間が大嫌いです！ふん！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Commander? Are you listening? I'm gonna throw the chalk at you~! I hate people who don't listen to me! Hmph!",
+						"englishNote" : ""
+					},
+					"9" : {
+						"event" : "Normal touch",
+						"media" : "touch_1",
+						"chinese" : "别把我当作小孩子~我可是老师啊！老——师！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "子供扱いしないでください~！私は先生ですよ！せ・ん・せ・い！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Please do not treat me like a child~! I am a teacher! TEA-CHER!",
+						"englishNote" : ""
+					},
+					"10" : {
+						"event" : "Special touch",
+						"media" : "touch_2",
+						"chinese" : "（拿起电话）喂，请问是海军部吗，对，老地方，老客户……",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "MPさんですか。はい、いつもの場所にいつもの人が……",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "*phone call* Hello, is this the military police? Yes, it's the same place and the same person...",
+						"englishNote" : ""
+					},
+					"11" : {
+						"event" : "Mission reminder",
+						"media" : "task",
+						"chinese" : "咳嗯……今天的作业任务完成了吗？",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "コホン……今日の宿題ちゃんとやりましたか？",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Erhmm... Have you finished your homework today?",
+						"englishNote" : ""
+					},
+					"12" : {
+						"event" : "Mission complete",
+						"media" : "mission_complete",
+						"chinese" : "努力的奖励已经送达了，下次请继续加油！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "努力へのご褒美、届きましたわ。次も頑張るのですよ！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "The reward for diligence has been delivered. Keep it up for next time!",
+						"englishNote" : ""
+					},
+					"13" : {
+						"event" : "Mail reminder",
+						"media" : "mail",
+						"chinese" : "定时查收邮件也是养成好习惯的一环！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "定期的にメールチェックしましょう。良い習慣の一つです！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Check your mail periodically. It's a good habit!",
+						"englishNote" : ""
+					},
+					"14" : {
+						"event" : "Return to port",
+						"media" : "home",
+						"chinese" : "指挥官，要去哪儿？接下来是反省会哦",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "指揮官、どこに行きますの？次は反省会よ",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Commander, where are you heading? It's time for a reflection meeting",
+						"englishNote" : ""
+					},
+					"15" : {
+						"event" : "Commission complete",
+						"media" : "expedition",
+						"chinese" : "委托组的孩子们回来了，去检查一下他们的成果吧~",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "委託クラスの娘たちが戻ってきましたわ。さあ、成果をチェックしますよ",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "The girls on the commission field trip have returned. Now, go and check their progress.",
+						"englishNote" : ""
+					},
+					"16" : {
+						"event" : "Enhancing complete",
+						"media" : "upgrade",
+						"chinese" : "指挥官，变强的同时也要记住自己是为什么而变强的",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "強くなっても、なぜ自分が強くなったかを知らないといけませんわ",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Even when you become stronger, never forget about why you had to in the first place.",
+						"englishNote" : ""
+					},
+					"17" : {
+						"event" : "Flagship fight",
+						"media" : "warcry",
+						"chinese" : "这可是检测你们学习成果的机会，要认真对待喔！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "勉強の成果を見せるチャンスです。しっかりおやりなさい！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "This is the chance to show me what you learned. Do it properly!",
+						"englishNote" : ""
+					},
+					"18" : {
+						"event" : "Victory",
+						"media" : "mvp",
+						"chinese" : "大家，都记住了吗？以后请按照这个节奏做哦~",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "みんないい？これからはこのペースでいきますわよ？",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Got it, everyone? Maintain this pace, alright?",
+						"englishNote" : ""
+					},
+					"19" : {
+						"event" : "Defeat",
+						"media" : "lose",
+						"chinese" : "呜……简直是教师失格……我还是辞职回家运煤去吧",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "うぅ……教師失格です……帰って給炭任務に戻ろうかしら…",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "*sobs* ... I'm not qualified as a teacher... Maybe I should go back to transporting coal...",
+						"englishNote" : ""
+					},
+					"20" : {
+						"event" : "Skills",
+						"media" : "skill",
+						"chinese" : "指挥官，好好看着我的动作",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "指揮官、私の動きをよーくみてなさい！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Commander, pay close attention to my moves!",
+						"englishNote" : ""
+					},
+					"21" : {
+						"event" : "Upset",
+						"media" : "feeling1",
+						"chinese" : "没想到居然遇到了连我都没办法的学生……我还是去辞职吧……",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "私でも教えようがない生徒がいるなんて……まだ辞めたほうがましですわ……",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "I never thought that there would be a student I cannot teach... It seems better for me to quit...",
+						"englishNote" : ""
+					},
+					"22" : {
+						"event" : "Stranger",
+						"media" : "feeling2",
+						"chinese" : "在东张西望什么呢，补习要认真听！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "何キョロキョロしているのですか！？補習は真面目に受けなさい！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "What are you doing, sleeping in the job?! Take you tutoring seriously!",
+						"englishNote" : ""
+					},
+					"23" : {
+						"event" : "Friendly",
+						"media" : "feeling3",
+						"chinese" : "最近居然有了点起色——欸？是因为我吗？喔……谢、谢谢……",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "最近はちょっと良くなって来ましたねーーえ？私のおかげ？あ、うぅ……ど、どうも……",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "You seem to be getting better at this- Eh? It's thanks to me? Ah, well... y-you're welcome...",
+						"englishNote" : ""
+					},
+					"24" : {
+						"event" : "Crush",
+						"media" : "feeling4",
+						"chinese" : "感觉已经没有什么能教给你的了——欸？把我交给你？笨、笨蛋……",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "教えることはもう何もありませんわーーえ？私自身のことも教えてって？ば、ばかぁ……うぅ",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "There's nothing more for me to teach you-- What? Teach you about myself? Y-You idiot!... Ugh",
+						"englishNote" : ""
+					},
+					"25" : {
+						"event" : "Love",
+						"media" : "feeling5",
+						"chinese" : "兰利老师可是公私分明的哦，要是以为，以为关系好了我就会对你放宽那就大错特错了！……私、私下的话倒是可以啦",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "ラングレー先生は公私混同をしません！仲が良くなれば大目に見るとか思ったら大間違いですよ！……ぷ、プライベートならいいですけど！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "I, Ms. Langley, do not mix personal and work lives! If you think that I'll give you special treatment just because of our relationship, you are sorely mistaken! ... B-but in private, I'm fine with that!",
+						"englishNote" : ""
+					},
+					"26" : {
+						"event" : "Promise",
+						"media" : "propose",
+						"chinese" : "之前我就很在意指挥官在私生活上有没有照顾好自己了……所以从现在起，兰利老师也会好好纠正你个人生活上的毛病，可别想跑哦，指挥官~",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "プライベートでもだらしないのではないかと気になりましたが……これからはラングレー先生があなたの生活も矯正してあげます！逃げるなんて考えないでくださいね。指揮官！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "I was concerned about whether Commander takes good care of himself before...so from now on, teacher Langley will also correct issues of your personal life; Don't even think about running away, Commander~",
+						"englishNote" : ""
+					}
+				}
+			},
+			"2": {
+				"skin_id" : "lanli_g",
+				"id" : "9",
+				"label" : "Langley (Retrofit)",
+				"dialogue" : {
+					"1" : {
+						"event" : "Ship Description",
+						"media" : "",
+						"chinese" : "不认真听讲的话，下场就是我脚下的这个~",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "ちゃんと聞かないと、こいつのようになりますよ！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Listen carefully or I'll step on you!",
+						"englishNote" : ""
+					},
+					"2" : {
+						"event" : "Receive",
+						"media" : "get_9",
+						"chinese" : "不认真听讲的话，下场就是我脚下的这个~",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "ちゃんと言うことを聞かないと、足元のこいつのようになりますよ！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Listen to what I say, or I'll have to step on you!",
+						"englishNote" : ""
+					},
+					"3" : {
+						"event" : "View details",
+						"media" : "detail_9",
+						"chinese" : "指挥官，内心的疑惑只有求诸自己才能解答，盯着我看再久我也不会给你提示的~",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "指揮官、心の迷いは自分で解決するものです。いくら私を見つめてもヒントはあげませんよ",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Commander, if you run into a mental problem, you have to solve it on your own. Staring at me won't help you.",
+						"englishNote" : ""
+					},
+					"4" : {
+						"event" : "Main screen 1",
+						"media" : "main_1_9",
+						"chinese" : "哪怕每天只进步一点点，只要坚持下去总会取得可观的成效",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "毎日少しだけでも前に進めば、いつかきっと大きな成果に繋がります",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "If we make a little progress each day, we'll be sure to achieve great results one day",
+						"englishNote" : ""
+					},
+					"5" : {
+						"event" : "Main screen 2",
+						"media" : "main_2_9",
+						"chinese" : "这支舰队与我刚来时已经大不一样了，果然只要指挥官你努力，没有什么是做不到的~",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "この艦隊、来たばかりの時と比べてだいぶよくなっていますわ。指揮官が努力さえしていればこれぐらいは当然です",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "This fleet feels different from when I first came. With your hard work, Commander, we can do anything.",
+						"englishNote" : ""
+					},
+					"6" : {
+						"event" : "Main screen 3",
+						"media" : "main_3_9",
+						"chinese" : "调皮捣蛋就该被惩罚，指挥官，你也是这么想的吧~",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "イタズラする子にはオシオキしないと。指揮官もそう思いますわね？",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "We have to punish naughty children. Don't you agree, Commander?",
+						"englishNote" : ""
+					},
+					"7" : {
+						"event" : "Normal touch",
+						"media" : "touch_1_9",
+						"chinese" : "无论什么问题，我都可以告诉答案，但那样对你真的好吗？",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "私はどんな質問でも答えられます。ですが、指揮官にとってそれが本当にいいことですの？",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "I will answer any question you have for me. However, is that really alright for you, Commander?",
+						"englishNote" : ""
+					}
+				}
+			}
+		}
+	}
+}

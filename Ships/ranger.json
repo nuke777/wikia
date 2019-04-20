@@ -1,0 +1,744 @@
+{
+	"name_reference" : "ranger",
+	"cn_reference" : "tujizhe",
+	"nameJP" : "レンジャー",
+	"nameCN" : "突击者",
+	"ID" : "75",
+	"name" : "Ranger",
+	"internal_id" : "107041",
+	"rarity" : "Common",
+	"initialStar" : "★☆☆☆",
+	"hull" : "Light Aircraft Carrier",
+	"navy" : "Eagle Union",
+	"prefix" : "USS",
+	"buildTime" : "",
+	"class" : "Ranger",
+	"voiceActress" : "Yuu Asakawa",
+	"parameters": {
+		"firepower" : "E",
+		"torpedo" : "E",
+		"aviation" : "A",
+		"evasion" : "C",
+		"antiAir" : "B",
+		"hp" : "C"
+	},
+	"scrap": {
+		"gold" : "7",
+		"oil" : "3",
+		"medal" : "0"
+	},
+	"releaseDate": {
+		"JP" : "",
+		"CN" : "",
+		"KR" : "",
+		"EN" : ""
+	},
+	"artist": {
+		"name" : "",
+		"weibo" : "",
+		"twitter" : "",
+		"pixiv" : "",
+		"other" : ""
+	},
+	"enhance": {
+		"firepower" : "0",
+		"torpedo" : "0",
+		"aviation" : "29",
+		"reload" : "9"
+	},
+	"acquisitionMethod" : "Honor medal exchange, Explore Stage3-1, Light/Special Construction",
+	"skill": {
+		"1" : {
+			"icon" : "3001",
+			"requirement" : "",
+			"name" : "Quick Takeoff",
+			"type" : "Offensive",
+			"description" : "When this ship launches an Airstrike: $1 chance to make the next Airstrike available immediately."
+		},
+		"2" : {
+			"icon" : "3011",
+			"requirement" : "",
+			"name" : "Assault Carrier",
+			"type" : "Offensive",
+			"description" : "When this ship launches an Airstrike: $1 chance for the Airstrike to deal double DMG."
+		}
+	},
+	"skin": {
+		"1" : {
+			"id" : "tujizhe",
+			"name" : "Ranger",
+			"description" : "Ranger-class aircraft carrier ー Ranger, Hull Number CV-4!",
+			"expression" : {
+				"0" : {
+					"id" : "0"
+				}
+			}
+		},
+		"2" : {
+			"id" : "tujizhe_g",
+			"name" : "Ranger (Retrofit)",
+			"description" : "I didn't realize I could still become more powerful! I'll work harder from here on out to teach everyone how to fight!",
+			"expression" : {
+				"0" : {
+					"id" : "0"
+				}
+			}
+		}
+	},
+	"defaultEquipment": {
+		"1" : {
+			"icon" : "18100",
+			"rarity" : "Common",
+			"name" : "TBF Avenger"
+		},
+		"1" : {
+			"icon" : "19000",
+			"rarity" : "",
+			"name" : "SBD Dauntless"
+		},
+		"3" : {
+			"icon" : "",
+			"rarity" : "",
+			"name" : ""
+		}
+	},
+	"stats": {
+		"base": {
+			"hp" : "797",
+			"firepower" : "0",
+			"torpedo" : "0",
+			"antiAir" : "46",
+			"aviation" : "44",
+			"reload" : "48",
+			"hit" : "29",
+			"evasion" : "19",
+			"speed" : "29.3",
+			"luck" : "71",
+			"asw" : "26",
+			"oxygen" : "0",
+			"ammo" : "0",
+			"cost" : "2",
+			"armor" : "Medium"
+		},
+		"100": {
+			"hp" : "4120",
+			"firepower" : "0",
+			"torpedo" : "0",
+			"antiAir" : "216",
+			"aviation" : "209",
+			"reload" : "114",
+			"hit" : "76",
+			"evasion" : "49",
+			"speed" : "29.3",
+			"luck" : "71",
+			"asw" : "94",
+			"oxygen" : "0",
+			"ammo" : "0",
+			"cost" : "9",
+			"armor" : "Medium"
+		},
+		"120": {
+			"hp" : "4779",
+			"firepower" : "0",
+			"torpedo" : "0",
+			"antiAir" : "248",
+			"aviation" : "240",
+			"reload" : "131",
+			"hit" : "89",
+			"evasion" : "73",
+			"speed" : "29.3",
+			"luck" : "71",
+			"asw" : "107",
+			"oxygen" : "0",
+			"ammo" : "0",
+			"cost" : "9",
+			"armor" : "Medium"
+		},
+		"100retrofit": {
+			"hp" : "4360",
+			"firepower" : "0",
+			"torpedo" : "0",
+			"antiAir" : "251",
+			"aviation" : "269",
+			"reload" : "119",
+			"hit" : "76",
+			"evasion" : "49",
+			"speed" : "29.3",
+			"luck" : "71",
+			"asw" : "94",
+			"oxygen" : "0",
+			"ammo" : "0",
+			"cost" : "9",
+			"armor" : "Medium"
+		},
+		"120retrofit": {
+			"hp" : "5019",
+			"firepower" : "0",
+			"torpedo" : "0",
+			"antiAir" : "283",
+			"aviation" : "300",
+			"reload" : "136",
+			"hit" : "89",
+			"evasion" : "73",
+			"speed" : "29.3",
+			"luck" : "71",
+			"asw" : "107",
+			"oxygen" : "0",
+			"ammo" : "0",
+			"cost" : "9",
+			"armor" : "Medium"
+		}
+	},
+	"limitBreak": {
+		"tier1": "All Dive Bombers +1/Dive Bomber efficiency +3%",
+		"tier2": "Hangar capacity +1/All Torpedo Bombers +1/Dive Bomber efficiency +5%",
+		"tier3": "All Dive Bombers +1/Dive Bomber efficiency +7%"
+	},
+	"equipmentLoadout": {
+		"1": {
+			"type": "Torpedo Bomber",
+			"efficiency": "100%/100%/100%/100%",
+			"amount": "1/1/2/2",
+			"preload": "0/0/0/0"
+		},
+		"2": {
+			"type": "Dive Bomber",
+			"efficiency": "115%/118%/123%/130%",
+			"amount": "1/2/2/3",
+			"preload": "0/0/0/0"
+		},
+		"3": {
+			"type": "Dive Bomber",
+			"efficiency": "115%/118%/123%/130%",
+			"amount": "1/2/2/3",
+			"preload": "0/0/0/0"
+		},
+		"4": {
+			"type": "Auxilary",
+			"efficiency": "-",
+			"amount": "-",
+			"preload": "-"
+		},
+		"5": {
+			"type": "Auxilary",
+			"efficiency": "-",
+			"amount": "-",
+			"preload": "-"
+		}
+	},
+	"build": {
+		"light": {
+			"JP": "",
+			"CN": "",
+			"EN": ""
+		},
+		"heavy": {
+			"JP": "",
+			"CN": "",
+			"EN": ""
+		},
+		"special": {
+			"JP": "",
+			"CN": "",
+			"EN": ""
+		},
+		"limited": {
+			"JP": "",
+			"CN": "",
+			"EN": ""
+		}
+	},
+	"drop": {
+		"droppable": "false",
+		"list": {
+			"1": {
+				"event": "",
+				"chapter": {
+					"1": {
+						"label": "Ch .1",
+						"node": {
+							"1": {
+								"drop": "✓",
+								"note": "-"
+							}
+						}
+					}
+				}
+			}
+		}
+	},
+	"lines": {
+		"skin": {
+			"1": {
+				"skin_id" : "tujizhe",
+				"id" : "0",
+				"label" : "Ranger",
+				"dialogue" : {
+					"1" : {
+						"event" : "Ship Description",
+						"media" : "",
+						"chinese" : "突击者级航空母舰—突击者，舷号CV-4",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "レンジャー級航空母艦・レンジャー（CV-4)",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Ranger-class aircraft carrier ー Ranger, Hull Number CV-4!",
+						"englishNote" : ""
+					},
+					"2" : {
+						"event" : "Biography",
+						"media" : "profile",
+						"chinese" : "我是白鹰第一艘特型航母突击者。大西洋服役期间，主要负责运输和航母护卫。虽然是特型航母，但是不要太期待，我才不会为了你做出什么羞耻的事情！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "ユニオン海軍初の空母として設計された船、レンジャーといいます。大西洋に配備されていた際は、最大の空母として様々な任務に従事しました。一応空母ですけど…変な期待をしないでよね！あなたのためにヘンなことなんてしないんだから！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "I'm Ranger, the first purpose-built aircraft carrier of the Eagle Union. During my service in the Atlantic, I was part of various missions functioning as the largest carrier in the area. While I'm a carrier... please don't have weird expectations of me! For your sake, I don't want to disappoint you!",
+						"englishNote" : ""
+					},
+					"3" : {
+						"event" : "Receive",
+						"media" : "get",
+						"chinese" : "我是白鹰第一艘特型航母突击者。我、我才不是上边派来给你补课的！虽然也不是不可以……",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "ユニオンの最初の特型空母・レンジャーです！大西洋に配属されていた間に主に輸送と空母の護衛を務めました。特別嚮導？べ、別にそれのために派遣されたわけじゃ…で、でも……どうしてもというのなら（小声）－－何も言ってないわよ！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "I'm the Eagle Union's first purpose-built carrier, Ranger! I was stationed in the Atlantic, where I mainly served as an escort to convoys and aircraft carriers. Specialty teaching? T-that's not what I was sent here for, b-but… if you insist…  --I can do it...",
+						"englishNote" : ""
+					},
+					"4" : {
+						"event" : "Log in",
+						"media" : "login",
+						"chinese" : "趁着今天的好天气，让我去执行作战任务吧，指挥官？",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "いい天気ですし、任務に出たいですね。ね、指揮官君？",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Can I conduct combat operations since the weather is so nice today, Commander?",
+						"englishNote" : ""
+					},
+					"5" : {
+						"event" : "View details",
+						"media" : "detail",
+						"chinese" : "请认真点，不要盯着我奇怪的地方看！——欸……原、原来是在看小舰岛啊……啊哈哈……",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "へ、変なとこ見てないで真面目にやってください！ーーか、艦橋を見ているの！？……あはは……",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "D-don't look at me inappropriatly! And do your work properly! --Y-Y-You were just looking at my bridge?! ...Ahaha...",
+						"englishNote" : ""
+					},
+					"6" : {
+						"event" : "Main screen 1",
+						"media" : "main_1",
+						"chinese" : "除了作战之外，我还可以教生理……保、保健体育的",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "作戦以外に教えられるのは、せ、せい……保健体育です！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "What I teach besides fighting is human se... I-I mean... physical education!",
+						"englishNote" : ""
+					},
+					"7" : {
+						"event" : "Main screen 2",
+						"media" : "main_2",
+						"chinese" : "IJN？……唔，就是、呃……才、才不告诉你呢！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "重桜？…え、えっと、ええ……お、教えませんよ！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "The Sakura Empire? ...Uh, Uhhh... I- I don't know enough to teach you about that!",
+						"englishNote" : ""
+					},
+					"8" : {
+						"event" : "Main screen 3",
+						"media" : "main_3",
+						"chinese" : "不、不好好听我说话的话，就要惩罚你了！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "い、言うことを聞かないとおしおきしますよ！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "If you don't listen to what I say, I'll punish you!",
+						"englishNote" : ""
+					},
+					"9" : {
+						"event" : "Normal touch",
+						"media" : "touch_1",
+						"chinese" : "呀！指挥官你……不要……我是不会把停字说出来的~",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "きゃっ！指揮官君……や……やめて……って何言わせてるんですか！？",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Hwaa!? Commander... S...Stop... is what you want me to say?!",
+						"englishNote" : ""
+					},
+					"10" : {
+						"event" : "Special touch",
+						"media" : "touch_2",
+						"chinese" : "别、别胡说啊！谁害羞了啊！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "ヘ、変なこと言わないでよ！誰が恥ずかしがっているの！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "D-don't tell anyone about this! You'll embarrass me!",
+						"englishNote" : ""
+					},
+					"11" : {
+						"event" : "Mission reminder",
+						"media" : "task",
+						"chinese" : "好好完成作业哦，不然的话就罚你留下补习！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "任務をちゃんとこなしますように。でないとあとで補習しますよ！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Finish your missions properly. Otherwise, there will be catch up lessons!",
+						"englishNote" : ""
+					},
+					"12" : {
+						"event" : "Mission complete",
+						"media" : "mission_complete",
+						"chinese" : "虽然不是什么值得提的大事，但也不要忘记领奖励啊",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "報酬…別に大したことじゃないからって、忘れてもいいことではないのですよ",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "The compensation... is nothing major, but it's not good to neglect it either.",
+						"englishNote" : ""
+					},
+					"13" : {
+						"event" : "Mail reminder",
+						"media" : "mail",
+						"chinese" : "有指挥官的信哦，要不要我手—把—手的教你回信……呜，还是算了……",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "あなた宛のメールです。返信は私が手取り足取りで~教えてもぉ…よくない…うううぅ…",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "You've got mail. Do you want me to hold your hand through teaching you how to reply? AAH! Not literally!",
+						"englishNote" : ""
+					},
+					"14" : {
+						"event" : "Return to port",
+						"media" : "home",
+						"chinese" : "作业已经完成了？会按照说好的给、给你奖励~",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "宿題終わりました？はい、言ったとおりご、ご褒美をあげますよ~",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Have you finished your homework? Alright. Then as promised, I'll give you a reward~",
+						"englishNote" : ""
+					},
+					"15" : {
+						"event" : "Commission complete",
+						"media" : "expedition",
+						"chinese" : "指挥官~要是发呆忘了检查委托成果被姐妹们责怪我可不管你哦",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "指揮官君~成果のチェックを忘れて、あとであの娘たちに怒られてもしりませんよ",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Mr. Commander~ You forgot to check the results. You might see the girls become angry at you.",
+						"englishNote" : ""
+					},
+					"16" : {
+						"event" : "Enhancing complete",
+						"media" : "upgrade",
+						"chinese" : "现在突击者老师能教你更多的东西了~",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "レンジャー先生がもっと色々教えてあげられますね",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "I, Ms. Ranger, am going to teach you some more things",
+						"englishNote" : ""
+					},
+					"17" : {
+						"event" : "Flagship fight",
+						"media" : "warcry",
+						"chinese" : "诸位，最后一名会被留下补习的哦~",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "みなさん、一番戦果の低い子はあとで補習ですよ~~",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Everyone, the one with the lowest results will get extra lessons~~",
+						"englishNote" : ""
+					},
+					"18" : {
+						"event" : "Victory",
+						"media" : "mvp",
+						"chinese" : "指挥官可不要像敌人那样这么快就不行了啊——咦……好、好像说了奇怪的话……",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "指揮官君は敵みたいにすぐだれてしまわなければいいけどーーやだ……い、今変なこと考えちゃった……！？",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Commander, you must not become worn out quickly like the enemy-- Oh no... not like that!",
+						"englishNote" : ""
+					},
+					"19" : {
+						"event" : "Defeat",
+						"media" : "lose",
+						"chinese" : "这副失败的样子被指挥官看到的话……绝，绝对不行！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "こんな格好…指揮官君に見られたら……ぜ、絶対に許さないわよ！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "I can't let you see me like this, Commander.....",
+						"englishNote" : ""
+					},
+					"20" : {
+						"event" : "Skills",
+						"media" : "skill",
+						"chinese" : "突击者，突击！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "レンジャー、ストライク！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Ranger, striking!",
+						"englishNote" : ""
+					},
+					"21" : {
+						"event" : "Upset",
+						"media" : "feeling1",
+						"chinese" : "看来是我辞职的时候了……",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "もう辞めようかな…",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Maybe I should quit teaching...",
+						"englishNote" : ""
+					},
+					"22" : {
+						"event" : "Stranger",
+						"media" : "feeling2",
+						"chinese" : "现在的孩子怎么都在想着奇怪的事情啦！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "なんで今の子はみんな変なことばかり考えてるのよ…！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Why are kids today thinking about weird things all the time...!",
+						"englishNote" : ""
+					},
+					"23" : {
+						"event" : "Friendly",
+						"media" : "feeling3",
+						"chinese" : "指挥官是只要认真做就能做好的类型呢，稍微有些开心呐",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "指揮官君はやればできる子ですね。少しうれしいです",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Commander, you are a capable child if you are put into action. I feel a little happy.",
+						"englishNote" : ""
+					},
+					"24" : {
+						"event" : "Crush",
+						"media" : "feeling4",
+						"chinese" : "欸，师师师生恋？！突击者老师才、才没有想过那种事情喔，没有偷偷买过那种漫画看喔，也完全没有期待过什么喔！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "ききき禁断の恋？！レンジャー先生そんなこと考えたことありませんしそんな漫画読んでませんしぜぜぜ全然期待してないよ！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "T-T-Teacher-student relationships?!! I've never thought about such things; I've never even read those kinds of books before. I totally, totally never look forward to that!",
+						"englishNote" : ""
+					},
+					"25" : {
+						"event" : "Love",
+						"media" : "feeling5",
+						"chinese" : "指挥官真是各种意义上都不能没有我呢，所、所以……那个……我、我要给你留级！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "指揮官君は私がいないと全然駄目のようですね。だ、だから……その……り、留年ですよ！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Commander, you're really helpless without me. S-so... I-I'm... I'm holding you back for another year!",
+						"englishNote" : ""
+					},
+					"26" : {
+						"event" : "Promise",
+						"media" : "propose",
+						"chinese" : "呜……被学生送这么贵重的东西还非常高兴，突击者老师可能要成为教师界的耻辱了……",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "うぅ……生徒からこんな貴重なものを送られて、しかも嬉しくなっちゃうなんて……レンジャー、嚮導失格です……",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "*cries*... Receiving such a precious thing from a student, and getting so happy to the point of shedding tears... I, Ranger, am a failure as an educator...",
+						"englishNote" : ""
+					}
+				}
+			},
+			"2": {
+				"skin_id" : "tujizhe_g",
+				"id" : "9",
+				"label" : "Ranger (Retrofit)",
+				"dialogue" : {
+					"1" : {
+						"event" : "Ship Description",
+						"media" : "",
+						"chinese" : "以前一直没有提上日程的现代化改造终于完成了~从今往后突击者老师会更加努力教导大家的！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "ずっと叶わなった近代化改修がついに完了しました！これからもレンジャー先生に嚮導を任せなさい♪",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "I didn't realize I could still become more powerful! I'll work harder from here on out to teach everyone how to fight!",
+						"englishNote" : ""
+					},
+					"2" : {
+						"event" : "Receive",
+						"media" : "get_9",
+						"chinese" : "以前一直没有提上日程的现代化改造终于完成了~从今往后突击者老师会更加努力教导大家的！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "ずっと叶わなかった近代化改修がついに完了しました！これからもレンジャー先生に嚮導を任せなさい♪",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "The modernization that had never happened has finally been completed! From now on, I, Ms. Ranger, will continue to teach as well~",
+						"englishNote" : ""
+					},
+					"3" : {
+						"event" : "Log in",
+						"media" : "login_9",
+						"chinese" : "嗯，这孩子的状态也没问题……然后下一个……啊，欢迎回来，指挥官~",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "うん、この子はよし……次は……あ、おかえり、指揮官君",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "This child seems fine... This one is recovering well... Ah, welcome back, Commander!",
+						"englishNote" : ""
+					},
+					"4" : {
+						"event" : "View details",
+						"media" : "detail_9",
+						"chinese" : "指挥官呀，舰岛有这~~么好看吗？",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "し、指揮官君！？かかか艦橋って、そんなに綺麗…ですか？",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "C-Commander?! I-I-Is my bridge, really that beautiful?",
+						"englishNote" : ""
+					},
+					"5" : {
+						"event" : "Main screen 1",
+						"media" : "main_1_9",
+						"chinese" : "工具的强大只是一部分，老师我的职责就是教会大家更好地运用工具。保健体育？会、会继续教的啦！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "武器が強くても使いこなせないとその力を全部発揮できませんわ。そして先生の責務はその使い方を教えること！ほけん…たいいく？ま、また教えますから！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "A weapon may be powerful, but if it can't be used properly, it won't be completely effective. It is the teacher's job to teach you how to use them! Physical education? I-I'll teach that again!",
+						"englishNote" : ""
+					},
+					"6" : {
+						"event" : "Main screen 2",
+						"media" : "main_2_9",
+						"chinese" : "虽然以前因为没有时间最后只做了一些小强化，不过看到其他孩子们那么有出息，老师我也很欣慰呐",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "あの時はほんの少ししか強化できなかったけど、まあ先生の代わりに他の子がその分頑張っていたから、ほっとしましたよ",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "I've only improved a few times before, and they were just small enhancements. Now that everyone is stronger, I can start getting some work done.",
+						"englishNote" : ""
+					},
+					"7" : {
+						"event" : "Main screen 3",
+						"media" : "main_3_9",
+						"chinese" : "指挥官，老师是信任你所以在一边做些飞机的调整，要是偷懒的话我可要生气咯？",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "指揮官君？先生はあなたのことを信じているから、艦載機整備の時は自習してあげましたの。今度サボったら怒りますよ？",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Commander? I believe in you, so I'm letting you study on your own while I work on my planes. I'll get angry if you avoid your study this time, alright?",
+						"englishNote" : ""
+					},
+					"8" : {
+						"event" : "Normal touch",
+						"media" : "touch_1_9",
+						"chinese" : "来啦来啦，指挥官真是没有老师我就不行呢，嗯嗯，真没办法",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "はいはい、まったく指揮官君は先生がいないとダメダメですね…うんうん、しょうがない♪",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Yeah yeah, Commander is totally not good without a Teacher here... Yup, can't help it~",
+						"englishNote" : ""
+					},
+					"9" : {
+						"event" : "Special touch",
+						"media" : "touch_2_9",
+						"chinese" : "指挥官，过来帮我扶一下……呀，真是的……",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "指揮官君、ちょっとこれ先生を手伝って……きゃっ！？もう……",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Commander, can you help a teacher out here a little?... Eeek! ....Really?...",
+						"englishNote" : ""
+					},
+					"10" : {
+						"event" : "Return to port",
+						"media" : "home_9",
+						"chinese" : "指挥官就算成长了也还是没变呢，过来吧，老师给你奖励~",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "指揮官君は大きくなっても変わりませんね。はい、ご褒美~",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Commander, you've grown but you haven't changed much. Alright, here's your reward~",
+						"englishNote" : ""
+					},
+					"11" : {
+						"event" : "Flagship fight",
+						"media" : "warcry_9",
+						"chinese" : "大家好好发挥学到的东西就好~",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "みなさん、学んだことを活かしましょう！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Everyone, it's time to put what you learned to use!",
+						"englishNote" : ""
+					},
+					"12" : {
+						"event" : "Victory",
+						"media" : "mvp_9",
+						"chinese" : "嗯，现在指挥官经过老师我的锻炼肯定不会这么快不行了……欸，你们为什么这么看我？",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "先生と特訓したから、指揮官君はすぐへこたれなくなっているわ！……え？なんでみんな私のことを見るの？",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "If you engage in some special training with me, you'll withstand fatigue for a longer time, Commander! ...Eh? Why are you looking at me like that?",
+						"englishNote" : ""
+					}
+				}
+			}
+		}
+	}
+}

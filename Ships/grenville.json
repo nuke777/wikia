@@ -1,0 +1,614 @@
+{
+	"name_reference" : "grenville",
+	"cn_reference" : "gelunweier",
+	"nameJP" : "グレンヴィル",
+	"nameCN" : "格伦维尔",
+	"ID" : "93",
+	"name" : "Grenville",
+	"internal_id" : "201131",
+	"rarity" : "Elite",
+	"initialStar" : "★★☆☆☆",
+	"hull" : "Destroyer",
+	"navy" : "Royal Navy",
+	"prefix" : "HMS",
+	"buildTime" : "",
+	"class" : "G",
+	"voiceActress" : "Juri Kimura",
+	"parameters": {
+		"firepower" : "D",
+		"torpedo" : "B",
+		"aviation" : "E",
+		"evasion" : "A",
+		"antiAir" : "D",
+		"hp" : "D"
+	},
+	"scrap": {
+		"gold" : "4",
+		"oil" : "3",
+		"medal" : "4"
+	},
+	"releaseDate": {
+		"JP" : "",
+		"CN" : "",
+		"KR" : "",
+		"EN" : ""
+	},
+	"artist": {
+		"name" : "",
+		"weibo" : "",
+		"twitter" : "",
+		"pixiv" : "",
+		"other" : ""
+	},
+	"enhance": {
+		"firepower" : "5",
+		"torpedo" : "23",
+		"aviation" : "0",
+		"reload" : "14"
+	},
+	"acquisitionMethod" : "Event: Winter's Crown",
+	"skill": {
+		"1" : {
+			"icon" : "1001",
+			"requirement" : "",
+			"name" : "Artillery Command: Destroyers",
+			"type" : "Support",
+			"description" : "Increases the FP of all friendly DDs by $1. Does not stack with the same skill."
+		},
+		"2" : {
+			"icon" : "4071",
+			"requirement" : "",
+			"name" : "Emergency Maneuvers",
+			"type" : "Defensive",
+			"description" : "$1 chance to activate every 20s: this ship evades all enemy attacks for 6s."
+		},
+		"3" : {
+			"icon" : "21051",
+			"requirement" : "",
+			"name" : "All Out Assault Ⅰ",
+			"type" : "Offensive",
+			"description" : "Activate All Out Assault Ⅰ: G Class once every 15 times the main gun is fired."
+		}
+	},
+	"skin": {
+		"1" : {
+			"id" : "gelunweier",
+			"name" : "Grenville",
+			"description" : "G-class Destroyer - Grenville (H03)",
+			"expression" : {
+				"0" : {
+					"id" : "0"
+				}
+			}
+		}
+	},
+	"defaultEquipment": {
+		"1" : {
+			"icon" : "21300",
+			"rarity" : "",
+			"name" : "Single 120mm Main Gun"
+		},
+		"2" : {
+			"icon" : "",
+			"rarity" : "",
+			"name" : ""
+		},
+		"3" : {
+			"icon" : "",
+			"rarity" : "",
+			"name" : ""
+		}
+	},
+	"stats": {
+		"base": {
+			"hp" : "245",
+			"firepower" : "16",
+			"torpedo" : "69",
+			"antiAir" : "31",
+			"aviation" : "0",
+			"reload" : "74",
+			"hit" : "67",
+			"evasion" : "78",
+			"speed" : "43.2",
+			"luck" : "32",
+			"asw" : "53",
+			"oxygen" : "0",
+			"ammo" : "0",
+			"cost" : "2",
+			"armor" : "Light"
+		},
+		"100": {
+			"hp" : "1265",
+			"firepower" : "74",
+			"torpedo" : "324",
+			"antiAir" : "143",
+			"aviation" : "0",
+			"reload" : "175",
+			"hit" : "175",
+			"evasion" : "204",
+			"speed" : "43.2",
+			"luck" : "32",
+			"asw" : "195",
+			"oxygen" : "0",
+			"ammo" : "0",
+			"cost" : "9",
+			"armor" : "Light"
+		},
+		"120": {
+			"hp" : "1518",
+			"firepower" : "85",
+			"torpedo" : "364",
+			"antiAir" : "164",
+			"aviation" : "0",
+			"reload" : "201",
+			"hit" : "184",
+			"evasion" : "210",
+			"speed" : "43.2",
+			"luck" : "32",
+			"asw" : "215",
+			"oxygen" : "0",
+			"ammo" : "0",
+			"cost" : "9",
+			"armor" : "Light"
+		},
+		"100retrofit": {
+			"hp" : "",
+			"firepower" : "",
+			"torpedo" : "",
+			"antiAir" : "",
+			"aviation" : "",
+			"reload" : "",
+			"hit" : "",
+			"evasion" : "",
+			"speed" : "43.2",
+			"luck" : "32",
+			"asw" : "",
+			"oxygen" : "0",
+			"ammo" : "0",
+			"cost" : "9",
+			"armor" : "Light"
+		},
+		"120retrofit": {
+			"hp" : "",
+			"firepower" : "",
+			"torpedo" : "",
+			"antiAir" : "",
+			"aviation" : "",
+			"reload" : "",
+			"hit" : "",
+			"evasion" : "",
+			"speed" : "43.2",
+			"luck" : "32",
+			"asw" : "",
+			"oxygen" : "0",
+			"ammo" : "0",
+			"cost" : "9",
+			"armor" : "Light"
+		}
+	},
+	"limitBreak": {
+		"tier1": "Unlock All Out Assault Ⅰ/Main gun efficiency +5%",
+		"tier2": "Torpedo base +1/Torpedo preload +1/Main gun efficiency +10%",
+		"tier3": "Improve All Out Assault/All weapons' efficiency +5%"
+	},
+	"equipmentLoadout": {
+		"1": {
+			"type": "Destroyer Gun",
+			"efficiency": "115%/120%/130%/135%",
+			"amount": "1/1/1/1",
+			"preload": "0/0/0/0"
+		},
+		"2": {
+			"type": "Torpedo",
+			"efficiency": "125%/125%/125%/130%",
+			"amount": "1/1/2/2",
+			"preload": "0/0/1/1"
+		},
+		"3": {
+			"type": "Anti-Air Gun",
+			"efficiency": "100%/100%/100%/105%",
+			"amount": "1/1/1/1",
+			"preload": "0/0/0/0"
+		},
+		"4": {
+			"type": "Auxilary",
+			"efficiency": "-",
+			"amount": "-",
+			"preload": "-"
+		},
+		"5": {
+			"type": "Auxilary",
+			"efficiency": "-",
+			"amount": "-",
+			"preload": "-"
+		}
+	},
+	"build": {
+		"light": {
+			"JP": "",
+			"CN": "",
+			"EN": ""
+		},
+		"heavy": {
+			"JP": "",
+			"CN": "",
+			"EN": ""
+		},
+		"special": {
+			"JP": "",
+			"CN": "",
+			"EN": ""
+		},
+		"limited": {
+			"JP": "",
+			"CN": "",
+			"EN": ""
+		}
+	},
+	"drop": {
+		"droppable": "false",
+		"list": {
+			"1": {
+				"event": "",
+				"chapter": {
+					"1": {
+						"label": "Ch .1",
+						"node": {
+							"1": {
+								"drop": "✓",
+								"note": "-"
+							}
+						}
+					}
+				}
+			}
+		}
+	},
+	"lines": {
+		"skin": {
+			"1": {
+				"skin_id" : "gelunweier",
+				"id" : "0",
+				"label" : "Grenville",
+				"dialogue" : {
+					"1" : {
+						"event" : "Ship Description",
+						"media" : "",
+						"chinese" : "G级驱逐舰—格伦维尔，舷号H03",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "G級駆逐艦・グレンヴィル（H03)",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "G-class Destroyer - Grenville (H03)",
+						"englishNote" : ""
+					},
+					"2" : {
+						"event" : "Biography",
+						"media" : "profile",
+						"chinese" : "我是皇家G级驱逐舰格伦维尔号，是驱逐领舰，也曾担任过驱逐舰队的旗舰哦！虽然因为服役期比较短而没有什么战绩是一大遗憾就是了。要特别说明的是，我并不太喜欢水雷呢……",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "ロイヤルGクラス駆逐艦のグレンヴィルよ。嚮導駆逐艦、そして駆逐艦隊の旗艦も務めたの。まあそこまで長くは戦えてなかったかな。それと言わなきゃならないことがあるんだ。私、水雷はちょっと苦手なんだよね……",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "I'm Grenville, Royal G-class Destroyer. I served as the lead ship and flagship of a destroyer squadron! However, it's a darn shame that I didn't leave behind much of a legacy because of my short service. If there's anything special I'd like you to know, um, I'm not fond of naval mines...",
+						"englishNote" : ""
+					},
+					"3" : {
+						"event" : "Receive",
+						"media" : "get",
+						"chinese" : "YAHO，指挥官好啊~G级驱逐舰格伦维尔前来报到。有我在，你就放心睡大觉好啦。哈哈，开玩笑的~让我们好好相处吧！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "ヤッホー、ごきげんよう指揮官、Gクラス駆逐艦のグレンヴィルよ！私が着任したからにはもう指揮官は安心してよし！なーんて、冗談よ♪　ま、お互い仲良くしましょう？",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Heyyo~ Good morning, Commander! G-class Destroyer, Grenville, reporting for duty! Now that I'm here, you can leave everything to me and take a nap! Hehe, just kidding~ Let's get along well, all right?",
+						"englishNote" : ""
+					},
+					"4" : {
+						"event" : "Log in",
+						"media" : "login",
+						"chinese" : "指挥官欢迎回来！有没有好好休息过呀？有的话，就速速开始今天的工作吧～",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "指揮官、おかえり！ゆっくり休めた？休めたら今日の仕事、早く始めましょ？",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Commander, welcome back! Did you sleep well? If so, let's get started with today's work!",
+						"englishNote" : ""
+					},
+					"5" : {
+						"event" : "View details",
+						"media" : "detail",
+						"chinese" : "指挥官，我照着胡德小姐的教导泡了一杯红茶给你哦~试试看？……诶？甜到腻？啊哈哈哈，果然直接一大勺蜂蜜加进去是不行的吗……",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "指揮官、私フッドさんから紅茶の入れ方を勉強したけど、試しに一杯飲んでみる？……あれ？甘すぎ…？あははは、やっぱハチミツをドカーンと入れたのがダメだったかな……",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Commander, I steeped tea according to Miss Hood's instructions. Care to try? Huh...? It's too sweet...? Ahaha... I suppose that big ol' scoop of honey was a bit overkill...",
+						"englishNote" : ""
+					},
+					"6" : {
+						"event" : "Main screen 1",
+						"media" : "main_1",
+						"chinese" : "嘻嘻，指挥官来和我一起学习“礼仪”嘛～比如说…像这样优～雅地挽起女士的手什么的～",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "ふふん、指揮官も私の「作法」の勉強に付き合ってみない？例えばこう、レディの手を優雅に取れるやり方とか～",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Hehe, Commander, would you like to study etiquette with me~? For example, take this fine lady's hand gracefully like this~ ",
+						"englishNote" : ""
+					},
+					"7" : {
+						"event" : "Main screen 2",
+						"media" : "main_2",
+						"chinese" : "作为驱逐领舰，应当成为可靠的战力才对嘛，嗯~嗯~我也会为此而努力哦~",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "嚮導駆逐艦として、頼れる戦力になるべきなんだよね！うんうん、私もこれを目標にしてるよ～",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "As a lead ship, it's only right that I become a pillar of strength! Hehe~ Because of that, I'll continue to work hard! ",
+						"englishNote" : ""
+					},
+					"8" : {
+						"event" : "Main screen 3",
+						"media" : "main_3",
+						"chinese" : "没有什么实绩并不可怕的！关键是在未来能够经受挑战……嘿嘿，好像在说大话了~",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "実績がなくても怖くない！大切なのは明日の試練を乗り越え……あっごめんごめん、今のちょっと偉そうにしちゃった？",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Even though I may be inexperienced, I have nothing to fear! What matters is the ability to overcome any adversity in the future... Hehe, sounds like I'm beginning to boast~",
+						"englishNote" : ""
+					},
+					"9" : {
+						"event" : "Normal touch",
+						"media" : "touch_1",
+						"chinese" : "要是哪一天我也成为胡德小姐那样的淑女该多好啊～",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "フッドさんのような優雅なレディになれるといいな～",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Ahh... If only I could become an elegant lady like Miss Hood~",
+						"englishNote" : ""
+					},
+					"10" : {
+						"event" : "Special touch",
+						"media" : "touch_2",
+						"chinese" : "呜哇……我要生气了！指挥官应该更具绅士气质才对！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "きゃっ！？……もう怒るよ！指揮官ったらもっと紳士的にならないと！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Woah?! Gosh... I'm going to get angry! Commander, you have to conduct yourself appropriately!",
+						"englishNote" : ""
+					},
+					"11" : {
+						"event" : "Mission reminder",
+						"media" : "task",
+						"chinese" : "任务还有很多，指挥官不要偷懒哦~加油，一起来完成吧。",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "指揮官、任務が残ってるから、まだサボっちゃダメよ～一緒に頑張って、こなしちゃお♪",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Commander, there are a lot of tasks left still, so don't slack off~ Let's keep at it and finish up together!",
+						"englishNote" : ""
+					},
+					"12" : {
+						"event" : "Mission complete",
+						"media" : "mission_complete",
+						"chinese" : "快去领取任务的奖励吧~",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "任務報酬を受取に行こ？",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Let's hurry up and claim the mission rewards~",
+						"englishNote" : ""
+					},
+					"13" : {
+						"event" : "Mail reminder",
+						"media" : "mail",
+						"chinese" : "邮件到了~嘻嘻，要不要我来帮忙拆开？",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "メールだ！ふふん、私が開けてもいい？",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "The mail's here! Hehe~ need my help opening them?",
+						"englishNote" : ""
+					},
+					"14" : {
+						"event" : "Return to port",
+						"media" : "home",
+						"chinese" : "指挥官你总算回来了～快来看我的训练成果吧—啊…不好意思不好意思，出击应该已经很累了吧~？来，给你一杯果汁，尽快恢复元气吧（摸头）",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "指揮官戻った？じゃあ早速特訓の成果を…ってごめんごめん！出撃でもう疲れたよね！はい、ジュースよ！とりあえず早く元気になろ？",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Commander, you're finally back! Hey, come and see the results of my training- I-I mean, pardon me! You must be tired from battle! Here, have some juice! Anyway, feel better soon, okay?",
+						"englishNote" : ""
+					},
+					"15" : {
+						"event" : "Commission complete",
+						"media" : "expedition",
+						"chinese" : "委托组的大家都回来啦！真想和她们一起玩……啊，你听错了哦~我是说，想和大家一起出港啦！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "委託組のみんなが戻ってきた！私も一緒に遊びに……じゃなくて！みんなと一緒に海にでたいな～！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Everyone's back from commissions! I sure want to be able to play with them too... Ahem, you heard me wrong~ I said, I wanted to be able to sortie with them!",
+						"englishNote" : ""
+					},
+					"16" : {
+						"event" : "Enhancing complete",
+						"media" : "upgrade",
+						"chinese" : "这样就能更经常地被编入出击阵容了吧~嘻嘻，指挥官多谢！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "これで出撃艦隊に編成される機会がもっと増えるよね！ふふん、指揮官、サンキュー♪",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "With this, I'll be added to the sortie fleet more often, right~? Hehe, Commander, thank you!",
+						"englishNote" : ""
+					},
+					"17" : {
+						"event" : "Flagship fight",
+						"media" : "warcry",
+						"chinese" : "向对手展示我们的强大吧～！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "敵にこっちのスゴさを見せちゃいなよ！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Let's show our opponents how awesome we are!",
+						"englishNote" : ""
+					},
+					"18" : {
+						"event" : "Victory",
+						"media" : "mvp",
+						"chinese" : "作为驱逐领舰，这也是理所当然的事啦~",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "嚮導駆逐艦として当たり前よ♪",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Expect nothing less from a lead destroyer~♪",
+						"englishNote" : ""
+					},
+					"19" : {
+						"event" : "Defeat",
+						"media" : "lose",
+						"chinese" : "呜…是我的能力还有不足吗……",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "うぅ…やっぱり私じゃ力不足ってこと……？",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Ugh... are my abilities still lacking...?",
+						"englishNote" : ""
+					},
+					"20" : {
+						"event" : "Skills",
+						"media" : "skill",
+						"chinese" : "你们马上就会知道我的厉害了！看招吧！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "今私のスゴさを見せてやるわ！くーらえー！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "You're about to bear witness to our greatness! Take this!",
+						"englishNote" : ""
+					},
+					"21" : {
+						"event" : "Low HP",
+						"media" : "hp",
+						"chinese" : "别小看人，我可是驱逐领舰！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "嚮導駆逐艦を甘く見るなよ～！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Don't underestimate the power of a lead ship!",
+						"englishNote" : ""
+					},
+					"22" : {
+						"event" : "Upset",
+						"media" : "feeling1",
+						"chinese" : "指挥官再不打起精神，以后就不管你了哦~哈哈，骗你的！不过不要再让我失望了哦~",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "指揮官、しっかりしないと放っておくよ！なーんてね♪もちろんウソ！もう失望させないでね",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Commander, if you don't perk up, I won't pay pay attention to you anymore! Juuuust kidding~ of course that's a lie! Although, you still shouldn't disappoint me~",
+						"englishNote" : ""
+					},
+					"23" : {
+						"event" : "Stranger",
+						"media" : "feeling2",
+						"chinese" : "港区还有很多个性鲜明的小伙伴吧～指挥官有机会就多给我介绍点嘛？想多和她们认识认识呢～",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "母港には個性的な子はまだまだたくさんいるでしょ～私に紹介してもらえないかな？もっと皆と知り合いたいよね！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "There are a lot more interesting friends to meet around port, right? Commander, if you have the opportunity, why don't you introduce me to them? I want to learn a lot more about everyone else~",
+						"englishNote" : ""
+					},
+					"24" : {
+						"event" : "Friendly",
+						"media" : "feeling3",
+						"chinese" : "要学习的东西还有很多，而且，有指挥官在身边陪伴的话，就更有动力了～！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "勉強したいことがいっぱいあるよね！ふふん、今は指揮官がそばにいるからモチベーションも上々よ！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "There is still much that I must learn, but as long as you're by my side, Commander, I'll be super motivated~!",
+						"englishNote" : ""
+					},
+					"25" : {
+						"event" : "Crush",
+						"media" : "feeling4",
+						"chinese" : "作为一名来自皇家的淑女，自然要用美食俘获指挥官的胃了！指挥官，想尝尝我做的皇家料理吗？嘿嘿，虽然鱼头全都烤糊了……",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "指揮官の胃をトリコにしないのはロイヤルレディ失格よ！というわけで、指揮官は私の作ったロイヤルグルメを食べてみない？って、ちょっと頭が焦げちゃってるけどね……あははは",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "In order to prove myself as a fine Royal lady, I must be able to satiate your appetite with my delicious cooking! Commander, would you care to try my Royal-style cuisine? Eh...? I burnt all the fish heads to a crisp? ...Ahaha~",
+						"englishNote" : ""
+					},
+					"26" : {
+						"event" : "Love",
+						"media" : "feeling5",
+						"chinese" : "指挥官…我喜欢你哦！！诶嘿嘿…嗯？女孩子主动说出口很新鲜吗？唔…别一直盯着我嘛，就算是指挥官，我也有点难为情……诶？想再听一遍？真的吗？嘻嘻，喜欢你！最喜欢你哦~",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "指揮官のことは…好きよ！えへへ……あれ？女の子から告白されるのはそんなに珍しいの…？さ、さすがに指揮官でもそんなにじっと見つめられたらちょっと恥ずかしいかな……えっ、もう一回聞きたい？本当に？じゃあ…うん！好きよ！大好き！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Commander, I... like you a lot! Ehehe... Um... is it that unusual for girls to confess to you? Uhh... please don't stare at me like that, it's embarrassing... Huh? You'd like to hear it again? Really? I like you, a lot! I love you~!",
+						"englishNote" : ""
+					},
+					"27" : {
+						"event" : "Promise",
+						"media" : "propose",
+						"chinese" : "原本只想努力成为指挥官的可靠助手，没想到最后由指挥官亲手给我戴上了戒指……指挥官，放下你的礼仪和优雅，尽情地和我拥抱吧~",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "指揮官の頼れる助手さんになるつもりだったけど、まさか指揮官から指輪を送られるなんて……はい、もう優雅とか作法とか無理しなくていいから、私のことを思いっきり抱きしめちゃって♪",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Commander, I originally just wanted to be useful to you, and never expected for you to give me a ring... Commander, it's fine to let go of things like etiquette and manners, and just embrace me~",
+						"englishNote" : ""
+					},
+					"28" : {
+						"event" : "Easter Egg 1(Glowworm)",
+						"media" : "link1",
+						"chinese" : "嗯嗯！就这么猛撞上去吧！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "うんうん！そのままぶつけていいよ！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Mmhmm! Let's slam right into 'em!",
+						"englishNote" : ""
+					}
+				}
+			}
+		}
+	}
+}

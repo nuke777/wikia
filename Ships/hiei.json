@@ -1,56 +1,31 @@
 {
-	"name": "Hiei",
+	"name_reference": "hiei",
+	"cn_reference": "birui",
 	"nameJP": "比叡",
-	"nameCN": "鲟",
-	"class": "Kongou",
-	"hull": "Battlecruiser",
-	"prefix": "IJN",
+	"nameCN": "比叡",
 	"ID": "205",
-	"file_id": "205_Hiei",
-	"navy": "Sakura Empire",
-	"initialStar": "★★☆☆☆",
+	"name": "Hiei",
+	"internal_id": "304021",
 	"rarity": "Elite",
+	"initialStar": "★★☆☆☆",
+	"hull": "Battlecruiser",
+	"navy": "Sakura Empire",
+	"prefix": "IJN",
 	"buildTime": "04:10:00",
-	"acquisitionMethod": "Limited Construction in event \"The Return of the War God\"",
-	"enhance": {
-		"firepower": "46",
-		"torpedo": "0",
-		"aviation": "0",
-		"reload": "11"
+	"class": "",
+	"voiceActress": "Eri Kitamura",
+	"parameters": {
+		"firepower": "A",
+		"torpedo": "E",
+		"aviation": "E",
+		"evasion": "C",
+		"antiAir": "C",
+		"hp": "B"
 	},
 	"scrap": {
-		"gold": "11",
-		"oil": "4",
+		"gold": "10",
+		"oil": "3",
 		"medal": "4"
-	},
-	"skin": {
-		"1": {
-			"name": "Default",
-			"description": "Second ship of the Kongou class fast battleships, Hiei.",
-			"expression": {
-				"1": {
-					"label": "Default"
-				}
-			}
-		},
-		"2": {
-			"name": "Pilgrimage of Moonlight",
-			"description": "",
-			"expression": {
-				"1": {
-					"label": "Default"
-				},
-				"2": {
-					"label": "Default"
-				},
-				"3": {
-					"label": "Default"
-				},
-				"4": {
-					"label": "Default"
-				}
-			}
-		}
 	},
 	"releaseDate": {
 		"JP": "November 27, 2017",
@@ -58,7 +33,6 @@
 		"KR": "August 30, 2018",
 		"EN": ""
 	},
-	"voiceActress": "Eri Kitamura",
 	"artist": {
 		"name": "Criin",
 		"weibo": "https://weibo.com/cirini",
@@ -66,89 +40,150 @@
 		"pixiv": "https://www.pixiv.net/member.php?id=4460847",
 		"other": ""
 	},
-	"parameters": {
-		"hp": "B",
-		"antiAir": "C",
-		"evasion": "C",
-		"aviation": "E",
-		"torpedo": "E",
-		"firepower": "A"
+	"enhance": {
+		"firepower": "46",
+		"torpedo": "0",
+		"aviation": "0",
+		"reload": "11"
+	},
+	"acquisitionMethod": "Limited Construction in event \"The Return of the War God\"",
+	"skill": {
+		"1": {
+			"icon": "10930",
+			"requirement": "Default Unlocked",
+			"name": "Prestig",
+			"type": "Support",
+			"description": "10 seconds after start of battle and 20% chance every 20 seconds after: For 8 seconds, receive 20% (50%) of damage other backline ships take, and increases damage dealt to a random enemy by 8% (20%)."
+		}
+	},
+	"skin": {
+		"1": {
+			"id": "birui",
+			"name": "Hiei",
+			"description": "Second ship of Kongou-class high speed battleships, Hiei.",
+			"expression": {
+				"0": {
+					"id": "0"
+				}
+			}
+		},
+		"2": {
+			"id": "birui_2",
+			"name": "月花の巡礼",
+			"description": "もうこんな時間ですね……指揮官、一緒に夢心地の巡礼でもいかがかしら？",
+			"expression": {
+				"0": {
+					"id": "0"
+				},
+				"1": {
+					"id": "1"
+				},
+				"2": {
+					"id": "2"
+				},
+				"3": {
+					"id": "3"
+				}
+			}
+		}
+	},
+	"defaultEquipment": {
+		"1": {
+			"icon": "36500",
+			"rarity": "Common",
+			"name": "76mm AA Gun"
+		},
+		"2": {
+			"icon": "",
+			"rarity": "",
+			"name": ""
+		}
 	},
 	"stats": {
 		"100": {
 			"hp": "5620",
-			"armor": "Medium",
-			"reload": "139",
 			"firepower": "327",
 			"torpedo": "0",
-			"evasion": "20",
 			"antiAir": "238",
 			"aviation": "0",
-			"cost": "14",
-			"asw": "0",
-			"luck": "37",
+			"reload": "139",
 			"hit": "55",
-			"speed": "30"
+			"evasion": "20",
+			"speed": "30",
+			"luck": "37",
+			"asw": "0",
+			"oxygen": "0",
+			"ammo": "0",
+			"cost": "14",
+			"armor": "Medium"
 		},
 		"120": {
-			"hp": "30",
-			"armor": "Medium",
-			"reload": "160",
+			"hp": "6604",
 			"firepower": "367",
 			"torpedo": "0",
-			"evasion": "37",
 			"antiAir": "273",
 			"aviation": "0",
-			"cost": "14",
-			"asw": "0",
+			"reload": "160",
+			"hit": "68",
+			"evasion": "37",
+			"speed": "30",
 			"luck": "37",
-			"hit": "",
-			"speed": "30"
+			"asw": "0",
+			"oxygen": "0",
+			"ammo": "0",
+			"cost": "14",
+			"armor": "Medium"
 		},
 		"base": {
-			"hp": "187",
-			"armor": "Medium",
-			"reload": "59",
+			"hp": "1087",
 			"firepower": "69",
 			"torpedo": "0",
-			"evasion": "8",
 			"antiAir": "51",
 			"aviation": "0",
-			"cost": "5",
-			"asw": "0",
-			"luck": "37",
+			"reload": "59",
 			"hit": "21",
-			"speed": "30"
+			"evasion": "8",
+			"speed": "30",
+			"luck": "37",
+			"asw": "0",
+			"oxygen": "0",
+			"ammo": "0",
+			"cost": "5",
+			"armor": "Medium"
 		},
 		"100retrofit": {
 			"hp": "",
-			"armor": "Medium",
-			"reload": "",
 			"firepower": "",
 			"torpedo": "",
-			"evasion": "",
 			"antiAir": "",
 			"aviation": "",
-			"cost": "",
-			"asw": "",
-			"luck": "",
+			"reload": "",
 			"hit": "",
-			"speed": ""
+			"evasion": "",
+			"speed": "30",
+			"luck": "37",
+			"asw": "",
+			"oxygen": "0",
+			"ammo": "0",
+			"cost": "14",
+			"armor": "Medium"
 		},
 		"120retrofit": {
 			"hp": "",
-			"armor": "Medium",
-			"reload": "",
 			"firepower": "",
 			"torpedo": "",
-			"evasion": "",
 			"antiAir": "",
 			"aviation": "",
-			"cost": "",
-			"asw": "",
-			"luck": "",
+			"reload": "",
 			"hit": "",
-			"speed": ""
+			"evasion": "",
+			"speed": "30",
+			"luck": "37",
+			"asw": "",
+			"oxygen": "0",
+			"ammo": "0",
+			"cost": "14",
+			"armor": "Medium"
 		}
 	},
 	"limitBreak": {
@@ -158,15 +193,15 @@
 	},
 	"equipmentLoadout": {
 		"1": {
-			"type": "BB Gun",
+			"type": "Battleship",
 			"efficiency": "105%/110%/120%/135%",
-			"amount": "1/2/2/3",
+			"amount": "1/1/1/1",
 			"preload": "0/0/0/0"
 		},
 		"2": {
-			"type": "DD/CL Gun",
+			"type": "Light Cruiser",
 			"efficiency": "150%/150%/150%/150%",
-			"amount": "1/1/2/2",
+			"amount": "1/1/3/3",
 			"preload": "0/0/0/0"
 		},
 		"3": {
@@ -176,29 +211,16 @@
 			"preload": "0/0/0/0"
 		},
 		"4": {
-			"type": "Auxilliary",
+			"type": "Auxilary",
 			"efficiency": "-",
 			"amount": "-",
 			"preload": "-"
 		},
 		"5": {
-			"type": "Auxilliary",
+			"type": "Auxilary",
 			"efficiency": "-",
 			"amount": "-",
 			"preload": "-"
-		}
-	},
-	"defaultEquipment": {
-		"1": "Twin 356mm (41st Year Type) T1",
-		"2": "-",
-		"3": "75 mm Type 88 AA T1"
-	},
-	"skill": {
-		"1": {
-			"name": "Prestig",
-			"type": "Support",
-			"requirement": "Default Unlocked",
-			"description": "10 seconds after start of battle and 20% chance every 20 seconds after: For 8 seconds, receive 20% (50%) of damage other backline ships take, and increases damage dealt to a random enemy by 8% (20%)."
 		}
 	},
 	"build": {
@@ -227,18 +249,14 @@
 		"droppable": "false",
 		"list": {
 			"1": {
-				"event": "Ink-Stained Steel Sakura",
+				"event": "",
 				"chapter": {
 					"1": {
-						"label": "Ch. B",
+						"label": "Ch .1",
 						"node": {
 							"1": {
 								"drop": "✓",
-								"note": ""
-							},
-							"2": {
-								"drop": "-",
-								"note": ""
+								"note": "-"
 							}
 						}
 					}
@@ -249,219 +267,221 @@
 	"lines": {
 		"skin": {
 			"1": {
-				"label": "Default",
+				"skin_id": "birui",
+				"id": "0",
+				"label": "Hiei",
 				"dialogue": {
 					"1": {
 						"event": "Ship Description",
 						"media": "",
-						"chinese": "金刚级高速战舰二号舰・比叡",
-						"chineseTL": "Second ship of the Kongō class fast battleships, Hiei.",
+						"chinese": "金刚级高速战舰二番舰—比叡",
+						"chineseTL": "",
 						"chineseNote": "",
-						"japanese": "",
+						"japanese": "金剛型高速戦艦二番艦・比叡",
 						"japaneseTL": "",
 						"japaneseNote": "",
 						"english": "",
 						"englishNote": ""
 					},
 					"2": {
-						"event": "Self Introduction",
-						"media": "self_introduction",
-						"chinese": "我是首艘于重樱建造的金刚级战舰——比叡。曾悠然巡弋在重樱港湾上，也曾率领舰队奋战于所罗门海——指挥官，准备好了吗？宴会马上开始了呦",
-						"chineseTL": "I am the first Kongō class battleship built in the Sakura Empire, Hiei. I used to leisurely cruise about Sakura Empire harbours, and also led the fleet to fight in the Solomon sea. Commander, are you ready? The banquet is about to start.",
+						"event": "Biography",
+						"media": "profile",
+						"chinese": "我是首艘于重樱建造的金刚级战舰——比叡。曾悠然巡弋在重樱港湾上，也曾率领舰队奋战于所罗门海——指挥官，准备好了吗？宴会马上开始了哟",
+						"chineseTL": "",
 						"chineseNote": "",
-						"japanese": "日の出ずる国で建造された初の金剛型戦艦・比叡と申します。御召艦として帝都の海で艦隊の雄姿を観閲し、一軍を率いてソロモンの戦いに参加しました。 ――指揮官様、ご用意はできていますか？宴はじきに始まりますわ",
-						"japaneseTL": "I am Hiei, the first Kongou-class to be constructed in the land of rising sun.As an imperial battleship, I am a sight to behold in the imperial capital sea, participated the battle of Solomon and leading the army. Commander, are you ready? The party begins soon",
+						"japanese": "日の出ずる国で建造された初の金剛型戦艦・比叡と申します。御召艦として帝都の海で艦隊の雄姿を観閲し、一軍を率いてソロモンの戦いに参加しました。――指揮官様、ご用意はできていますか？宴はじきに始まりますわ",
+						"japaneseTL": "",
 						"japaneseNote": "",
 						"english": "",
 						"englishNote": ""
 					},
 					"3": {
-						"event": "Acquisition",
-						"media": "acquisition",
-						"chinese": "金刚级二号舰，比叡来了。指挥官，接下来您想巡游哪里？",
-						"chineseTL": "Kongō class second ship, Hiei is here. Commander, where is the destination for our cruise?",
+						"event": "Receive",
+						"media": "get",
+						"chinese": "金刚级二号舰——比叡来了～指挥官，接下来您想巡游哪里？",
+						"chineseTL": "",
 						"chineseNote": "",
-						"japanese": "金剛型二番艦――御召艦比叡が参上しました。指揮官様、次は何処へと参られますか？",
-						"japaneseTL": "Kongō class second warship – Imperial warship Hiei has come. Commander, where should we go next?",
+						"japanese": "金剛型二番艦ーー御召艦比叡が参上しました。指揮官様、次は何処へと参られますか？",
+						"japaneseTL": "",
 						"japaneseNote": "",
 						"english": "",
 						"englishNote": ""
 					},
 					"4": {
-						"event": "Login",
+						"event": "Log in",
 						"media": "login",
-						"chinese": "在紧张战斗的间歇，宴游是最好的放松……指挥官，今天我有空呦",
-						"chineseTL": "The best way to relax during breaks from the tense battles is banquets...commander, I am free for one today, you know.",
+						"chinese": "在紧张战斗的间歇，宴游是最好的放松……指挥官，今天我有空哟",
+						"chineseTL": "",
 						"chineseNote": "",
-						"japanese": "戦の後の宴こそ一番気が休まり……ところで指揮官様、私、今晩の予定はすいていますよ…？",
-						"japaneseTL": "The post-battle Banquet is the most relaxing....By the way, commander, my schedule is free tonight...",
+						"japanese": "戦の後の宴こそ一番気が休まります……ところで指揮官様、私、このあとの予定は空いていますよ…？",
+						"japaneseTL": "",
 						"japaneseNote": "",
 						"english": "",
 						"englishNote": ""
 					},
 					"5": {
-						"event": "Details",
-						"media": "details",
+						"event": "View details",
+						"media": "detail",
 						"chinese": "呵呵，抹茶和红茶——您更喜欢哪种？",
-						"chineseTL": "Hehe, Matcha or red tea, which one do you prefer?",
+						"chineseTL": "",
 						"chineseNote": "",
-						"japanese": "ふふ、抹茶と紅茶――どちらがお好みで？",
-						"japaneseTL": "Fufu, green tea and black tea - which is to your liking?",
+						"japanese": "ふふ、抹茶と紅茶――どっちがお好みで？",
+						"japaneseTL": "",
 						"japaneseNote": "",
 						"english": "",
 						"englishNote": ""
 					},
 					"6": {
-						"event": "Idle 1",
-						"media": "idle_1",
-						"chinese": "哈……雾岛每次参加宴会，跟着她来的那些女孩子都会把宴会的气氛弄得乱七八糟……",
-						"chineseTL": "(Sighs)...Whenever Kirishima comes for the banquet, the girls she brings with her will always ruin the atmosphere...",
+						"event": "Main screen 1",
+						"media": "main_1",
+						"chinese": "哈……雾岛每次参加宴会，跟着她来的那些女孩子们都会把宴会的气氛弄得乱七八糟……",
+						"chineseTL": "",
 						"chineseNote": "",
-						"japanese": "はぁ……霧島が宴会に参加するかと聞いたら、着いてきた子たちのせいでメチャクチャ……",
-						"japaneseTL": "Haa ...... When I asked Kirishima whether she will be able to participate in the party, thanks to the children who arrived, things became messy ......",
+						"japanese": "はぁ……霧島が宴会に参加すると聞いたら、着いてきた子たちのせいでメチャクチャ……",
+						"japaneseTL": "",
 						"japaneseNote": "",
 						"english": "",
 						"englishNote": ""
 					},
 					"7": {
-						"event": "Idle 2",
-						"media": "idle_2",
-						"chinese": "在战斗中理智与勇气同样重要。赌上一切，然后大获全胜的机会决利不会发生第二次——",
-						"chineseTL": "Rationality and courage are both as important on a battlefield. Betting your everything, and winning it all, this type of opportunity will not present itself again...",
+						"event": "Main screen 2",
+						"media": "main_2",
+						"chinese": "在战斗中理智与勇气同样重要。赌上一切，然后大获全胜的奇迹决不会发生第二次——",
+						"chineseTL": "",
 						"chineseNote": "",
 						"japanese": "戦にとって知恵も勇気も同じく大事です。策を捨てて勇気だけに頼る勝利は二度とありえませんわ",
-						"japaneseTL": "The victory to abandon policy and rely solely on courage, will never happen again.",
+						"japaneseTL": "",
 						"japaneseNote": "",
 						"english": "",
 						"englishNote": ""
 					},
 					"8": {
-						"event": "Idle 3",
-						"media": "idle_3",
+						"event": "Main screen 3",
+						"media": "main_3",
 						"chinese": "请放心，无论遭遇何种状况，我都有保护您的余裕",
-						"chineseTL": "Fret not. No matter the situation, I will always be able to protect you.",
+						"chineseTL": "",
 						"chineseNote": "",
 						"japanese": "どんな状況でも指揮官を守りきれますわ。ふふ、出来るからこそ「御召艦」ですもの♪",
-						"japaneseTL": "I can protect Commander whatever the situation is. Fufu, it is because I can, that’s what an imperial warship is♪",
+						"japaneseTL": "",
 						"japaneseNote": "",
 						"english": "",
 						"englishNote": ""
 					},
 					"9": {
-						"event": "Touch",
-						"media": "touch",
+						"event": "Normal touch",
+						"media": "touch_1",
 						"chinese": "只要是风与海能够抵达的地方，无论哪里我都可以带您去——",
-						"chineseTL": "I can bring you anywhere the wind and the the sea reaches.",
+						"chineseTL": "",
 						"chineseNote": "",
 						"japanese": "海の続く先ならどこにだってお連れいたしますわ",
-						"japaneseTL": "I will bring you wherever the sea goes",
+						"japaneseTL": "",
 						"japaneseNote": "",
 						"english": "",
 						"englishNote": ""
 					},
 					"10": {
-						"event": "Special Touch",
-						"media": "special_touch",
+						"event": "Special touch",
+						"media": "touch_2",
 						"chinese": "呵呵，指挥官是没有睡醒吗？",
-						"chineseTL": "Hehe, are you still not awake yet, commander?",
+						"chineseTL": "",
 						"chineseNote": "",
 						"japanese": "うふふ、指揮官様はまだお目覚めになっていないご様子で？",
-						"japaneseTL": "Ufufu, is the commander not awake yet?",
+						"japaneseTL": "",
 						"japaneseNote": "",
 						"english": "",
 						"englishNote": ""
 					},
 					"11": {
-						"event": "Mission",
-						"media": "mission",
+						"event": "Mission reminder",
+						"media": "task",
 						"chinese": "一鼓作气，全都做完吧！",
-						"chineseTL": "Let's finish everything in one shot!",
+						"chineseTL": "",
 						"chineseNote": "",
 						"japanese": "勢いのあるうちに一気に片付けましょう",
-						"japaneseTL": "Let’s tidy things up in one go with vigour.",
+						"japaneseTL": "",
 						"japaneseNote": "",
 						"english": "",
 						"englishNote": ""
 					},
 					"12": {
-						"event": "Mission Complete",
+						"event": "Mission complete",
 						"media": "mission_complete",
 						"chinese": "庆祝一下，晚上举行宴会吧！",
-						"chineseTL": "Let's celebrate by holding a banquet tonight!",
+						"chineseTL": "",
 						"chineseNote": "",
 						"japanese": "ふふ、お祝いに今晩は宴としましょうか",
-						"japaneseTL": "Fufu, let’s celebrate the banquet tonight shall we",
+						"japaneseTL": "",
 						"japaneseNote": "",
 						"english": "",
 						"englishNote": ""
 					},
 					"13": {
-						"event": "Mail",
+						"event": "Mail reminder",
 						"media": "mail",
 						"chinese": "这些是最新的信件吗？辛苦了",
-						"chineseTL": "These are the newest mails? Good work.",
+						"chineseTL": "",
 						"chineseNote": "",
 						"japanese": "全部新しいお手紙ですか？お疲れ様でございます",
-						"japaneseTL": "Are all these new letters? Thank you for the hard work",
+						"japaneseTL": "",
 						"japaneseNote": "",
 						"english": "",
 						"englishNote": ""
 					},
 					"14": {
-						"event": "Return from Sortie",
-						"media": "return_from_sortie",
+						"event": "Return to port",
+						"media": "home",
 						"chinese": "欢迎回来，茶的温度现在刚刚好",
-						"chineseTL": "Welcome back. The temperature of the tea is perfect right now.",
+						"chineseTL": "",
 						"chineseNote": "",
 						"japanese": "おかえりなさいませ。ちょうどお茶が温ったところです",
-						"japaneseTL": "Welcome back. The tea has just been warmed up",
+						"japaneseTL": "",
 						"japaneseNote": "",
 						"english": "",
 						"englishNote": ""
 					},
 					"15": {
-						"event": "Commission Complete",
-						"media": "commission_complete",
-						"chinese": "欢迎回来~没有遇到什么奇怪的人吧？",
-						"chineseTL": "Welcome back. Did you encounter anyone strange?",
+						"event": "Commission complete",
+						"media": "expedition",
+						"chinese": "欢迎回来～没有遇到什么奇怪的人吧",
+						"chineseTL": "",
 						"chineseNote": "",
 						"japanese": "みんな、おかえりなさいませ。変な人に出会っていませんよね？",
-						"japaneseTL": "Everyone, welcome back. You didn’t meet any weird person right?",
+						"japaneseTL": "",
 						"japaneseNote": "",
 						"english": "",
 						"englishNote": ""
 					},
 					"16": {
-						"event": "Enhancement",
-						"media": "enhancement",
-						"chinese": "今天的风，和平常不一样，特别的舒适。",
-						"chineseTL": "The wind feels unusually comfortable today.",
+						"event": "Enhancing complete",
+						"media": "upgrade",
+						"chinese": "今天的风儿格外舒爽呢",
+						"chineseTL": "",
 						"chineseNote": "",
 						"japanese": "今日の風、いつもと違って格別に気持ちいいです",
-						"japaneseTL": "Today’s wind, felt extraordinary unlike usual",
+						"japaneseTL": "",
 						"japaneseNote": "",
 						"english": "",
 						"englishNote": ""
 					},
 					"17": {
-						"event": "Sortie Start",
-						"media": "sortie_start",
+						"event": "Flagship fight",
+						"media": "warcry",
 						"chinese": "呵呵，巡游的余兴节目登场了",
-						"chineseTL": "Hehe, entertainment for the cruise have arrived.",
+						"chineseTL": "",
 						"chineseNote": "",
 						"japanese": "ふふ、式典の余興と参りましょうか",
-						"japaneseTL": "Fufu, let us go see an entertainment ceremony shall we?",
+						"japaneseTL": "",
 						"japaneseNote": "",
 						"english": "",
 						"englishNote": ""
 					},
 					"18": {
-						"event": "MVP",
+						"event": "Victory",
 						"media": "mvp",
-						"chinese": "举手之劳~",
-						"chineseTL": "This isn't much.",
+						"chinese": "举手之劳～",
+						"chineseTL": "",
 						"chineseNote": "",
-						"japanese": "",
+						"japanese": "お安い御用です~",
 						"japaneseTL": "",
 						"japaneseNote": "",
 						"english": "",
@@ -469,143 +489,107 @@
 					},
 					"19": {
 						"event": "Defeat",
-						"media": "defeat",
+						"media": "lose",
 						"chinese": "被摆了一道吗……",
-						"chineseTL": "They got me...",
+						"chineseTL": "",
 						"chineseNote": "",
 						"japanese": "やられたのかしら…",
-						"japaneseTL": "I wonder if it was done...",
+						"japaneseTL": "",
 						"japaneseNote": "",
 						"english": "",
 						"englishNote": ""
 					},
 					"20": {
-						"event": "Skill Activation",
-						"media": "skill_activation",
-						"chinese": "与波涛一起消逝吧！",
-						"chineseTL": "Disappear like the waves!",
+						"event": "Skills",
+						"media": "skill",
+						"chinese": "与波涛一同消逝吧！",
+						"chineseTL": "",
 						"chineseNote": "",
 						"japanese": "荒波と共に消えなさい！",
-						"japaneseTL": "Vanish with the raging waves!",
+						"japaneseTL": "",
 						"japaneseNote": "",
 						"english": "",
 						"englishNote": ""
 					},
 					"21": {
-						"event": "Low Health",
-						"media": "low_health",
+						"event": "Low HP",
+						"media": "hp",
 						"chinese": "指挥官……还没到放弃的时候！",
-						"chineseTL": "Commander...now is not the time to give up!",
+						"chineseTL": "",
 						"chineseNote": "",
 						"japanese": "指揮官様……まだ諦める時ではありませんわ！",
-						"japaneseTL": "Commander, its not the time to give up yet!",
+						"japaneseTL": "",
 						"japaneseNote": "",
 						"english": "",
 						"englishNote": ""
 					},
 					"22": {
-						"event": "Affinity (Disappointed)",
-						"media": "affinity_disappointed",
+						"event": "Upset",
+						"media": "feeling1",
 						"chinese": "真遗憾……",
-						"chineseTL": "How regrettable...",
+						"chineseTL": "",
 						"chineseNote": "",
 						"japanese": "残念でなりませんわ……",
-						"japaneseTL": "I will not regret it...",
+						"japaneseTL": "",
 						"japaneseNote": "",
 						"english": "",
 						"englishNote": ""
 					},
 					"23": {
-						"event": "Affinity (Stranger)",
-						"media": "affinity_stranger",
+						"event": "Stranger",
+						"media": "feeling2",
 						"chinese": "呵呵，指挥官，您有什么烦恼吗？",
-						"chineseTL": "Hehe, commander, is there anything troubling you?",
+						"chineseTL": "",
 						"chineseNote": "",
 						"japanese": "うふふ、指揮官様、何かお悩みごとでもありませんか？",
-						"japaneseTL": "Ufufu, Commander, what seems to trouble you?",
+						"japaneseTL": "",
 						"japaneseNote": "",
 						"english": "",
 						"englishNote": ""
 					},
 					"24": {
-						"event": "Affinity (Friendly)",
-						"media": "affinity_friendly",
-						"chinese": "雾岛她......还真是受欢迎啊......",
-						"chineseTL": "Kirishima is...very popular, isn't she...",
+						"event": "Friendly",
+						"media": "feeling3",
+						"chinese": "雾岛她……还真是受欢迎啊……",
+						"chineseTL": "",
 						"chineseNote": "",
 						"japanese": "霧島……本当に人気者ですね……",
-						"japaneseTL": "Kirishima......is really popular huh...",
+						"japaneseTL": "",
 						"japaneseNote": "",
 						"english": "",
 						"englishNote": ""
 					},
 					"25": {
-						"event": "Affinity (Like)",
-						"media": "affinity_like",
-						"chinese": "每次看到筵席上大家露出的笑容,举办宴会的辛劳都会一扫而空-----",
-						"chineseTL": "Whenever I see the smiles of everyone during the banquet, all the weariness from the preparation work is swept away.",
+						"event": "Crush",
+						"media": "feeling4",
+						"chinese": "每次看到筵席上大家露出的笑容，举办宴会的辛劳都会一扫而空——",
+						"chineseTL": "",
 						"chineseNote": "",
 						"japanese": "宴会でのみんなの笑顔を見ると、支度の苦労もなくなりますわ",
-						"japaneseTL": "When you see everyone's smiling faces at the banquet, even the hardships of preparation disappear",
+						"japaneseTL": "",
 						"japaneseNote": "",
 						"english": "",
 						"englishNote": ""
 					},
 					"26": {
-						"event": "Affinity (Love)",
-						"media": "affinity_love",
-						"chinese": "指挥官,今晚的宴会结束后,您可以稍微等我一会吗?呵呵,请好好期待吧-----",
-						"chineseTL": "Commander, could you wait for me after the banquet tonight? What do I need? Hehe, just look forward to it...",
+						"event": "Love",
+						"media": "feeling5",
+						"chinese": "指挥官，今晚的宴会结束后，您可以稍微等我一会吗？呵呵，请好好期待吧——",
+						"chineseTL": "",
 						"chineseNote": "",
-						"japanese": "指揮官様、今夜は宴会のあと……お暇いただけませんか？うふふ、はい、何卒ご期待くださいませ－",
-						"japaneseTL": "Commander, tonight, after the banquet... Would you please stay? Ufufu, yes, please look forward to it.",
+						"japanese": "指揮官様、今夜は宴会のあと……お暇いただけませんか？うふふ、はい、何卒ご期待くださいませ――",
+						"japaneseTL": "",
 						"japaneseNote": "",
 						"english": "",
 						"englishNote": ""
 					},
 					"27": {
-						"event": "Pledge",
-						"media": "pledge",
-						"chinese": "这是......永远相伴的誓约吗?谢谢,我很高兴...但是,假如不幸的时刻真的降临了,希望您优先考虑自身......",
-						"chineseTL": "This is...the pledge of eternal companionship? Thank you, I am elated...but, if something unfortunate were to befall unto us, please prioritize your own safety...",
-						"chineseNote": "",
-						"japanese": "これは……「これからはずっと一緒」、との意味でしょうか？ありがとうございます。喜んでお受けします－ただ……もし本当に不幸の刻になりましたら、私より、ご自分を大切になさってくださいませ",
-						"japaneseTL": "Is this...... the meaning of “Being together forever”? Thank you very much. I will gladly accept it, but...... If the time of misfortune really comes, rather than me, please take care of yourself.",
-						"japaneseNote": "",
-						"english": "",
-						"englishNote": ""
-					},
-					"28": {
-						"event": "Easter Egg 1 (Yuugure)",
-						"media": "easter_egg_1",
-						"chinese": "（夕暮）还在等你的姐姐吗？",
-						"chineseTL": "(Yuugure) Are you still waiting for your sister?",
-						"chineseNote": "",
-						"japanese": "",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "",
-						"englishNote": ""
-					},
-					"29": {
-						"event": "Valentines 2018",
-						"media": "",
-						"chinese": "",
+						"event": "Promise",
+						"media": "propose",
+						"chinese": "这是……永远相伴的誓约吗？谢谢，我很高兴…但是，假如不幸的时刻真的降临了，希望您能优先考虑自身……",
 						"chineseTL": "",
 						"chineseNote": "",
-						"japanese": "指揮官様、比叡が作ったチョコレートです。こう見えても、カカオ豆から丹念にお作りしました、祝賀行事でも中々お出しできない逸品です♪是非召し上がってくださいね。",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "",
-						"englishNote": ""
-					},
-					"30": {
-						"event": "Valentines 2019",
-						"media": "",
-						"chinese": "",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "宴会でお出しするチョコならいつも召し上がっていただいていますので、少し趣向を変えて、敢えてありきたりの素材で作らせていただきました。味の方は自信がありますので何卒ご安心くださいませ",
+						"japanese": "これは……「これからはずっと一緒」、との意味でしょうか？ありがとうございます。喜んでお受けいたします――ただ……もし本当に不幸の刻になりましたら、私より、ご自分を大切になさってくださいませ",
 						"japaneseTL": "",
 						"japaneseNote": "",
 						"english": "",
@@ -614,99 +598,17 @@
 				}
 			},
 			"2": {
-				"label": "The Beauties of Nature",
+				"skin_id": "birui_2",
+				"id": "1",
+				"label": "月花の巡礼",
 				"dialogue": {
 					"1": {
-						"event": "Acquisition",
-						"media": "acquisition",
+						"event": "Ship Description",
+						"media": "",
 						"chinese": "已经…这么晚了呢，指挥官，要和我来一场…梦中的巡游吗？",
 						"chineseTL": "",
 						"chineseNote": "",
 						"japanese": "もうこんな時間ですね……指揮官、一緒に夢心地の巡礼でもいかがかしら？",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "",
-						"englishNote": ""
-					},
-					"2": {
-						"event": "Login",
-						"media": "login",
-						"chinese": "适时的休息是为了更好地投入战斗。指挥官，枕头已经准备好了，今晚…就好好休息一下吧～",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "",
-						"englishNote": ""
-					},
-					"3": {
-						"event": "Details",
-						"media": "details",
-						"chinese": "指挥官想要睡哪个枕头？软的这个？还是硬的这个？还是说…想要睡在我的膝枕上呢～呵呵",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "",
-						"englishNote": ""
-					},
-					"4": {
-						"event": "Idle 1",
-						"media": "idle_1",
-						"chinese": "嘻嘻，好像可以办一场睡衣派对了呢。指挥官觉得如何，要一起参加吗～？",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "",
-						"englishNote": ""
-					},
-					"5": {
-						"event": "Idle 2",
-						"media": "idle_2",
-						"chinese": "安心地睡吧，指挥官。到了必要的时刻，我会把你叫醒的",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "",
-						"englishNote": ""
-					},
-					"6": {
-						"event": "Idle 3",
-						"media": "idle_3",
-						"chinese": "华灯初上，夜梅盛开…指挥官，不妨一起来赏花吧？",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "",
-						"englishNote": ""
-					},
-					"7": {
-						"event": "Touch",
-						"media": "touch",
-						"chinese": "指挥官，月色如此美好…比起盯着我，还是多抬头看看美丽的夜空如何～？",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "",
-						"englishNote": ""
-					},
-					"8": {
-						"event": "Special Touch",
-						"media": "special_touch",
-						"chinese": "呵呵，看来指挥官精神十足呢",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "",
 						"japaneseTL": "",
 						"japaneseNote": "",
 						"english": "",

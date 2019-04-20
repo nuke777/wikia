@@ -1,0 +1,691 @@
+{
+	"name_reference" : "gridley",
+	"cn_reference" : "gelideli",
+	"nameJP" : "グリッドレイ",
+	"nameCN" : "格里德利",
+	"ID" : "7",
+	"name" : "Gridley",
+	"internal_id" : "101051",
+	"rarity" : "Rare",
+	"initialStar" : "★★☆☆☆",
+	"hull" : "Destroyer",
+	"navy" : "Eagle Union",
+	"prefix" : "USS",
+	"buildTime" : "",
+	"class" : "Gridley",
+	"voiceActress" : "Narumi Shinohara",
+	"parameters": {
+		"firepower" : "C",
+		"torpedo" : "B",
+		"aviation" : "E",
+		"evasion" : "B",
+		"antiAir" : "C",
+		"hp" : "C"
+	},
+	"scrap": {
+		"gold" : "4",
+		"oil" : "3",
+		"medal" : "1"
+	},
+	"releaseDate": {
+		"JP" : "",
+		"CN" : "",
+		"KR" : "",
+		"EN" : ""
+	},
+	"artist": {
+		"name" : "",
+		"weibo" : "",
+		"twitter" : "",
+		"pixiv" : "",
+		"other" : ""
+	},
+	"enhance": {
+		"firepower" : "4",
+		"torpedo" : "28",
+		"aviation" : "0",
+		"reload" : "14"
+	},
+	"acquisitionMethod" : "Honor medal exchange, Explore Stage2-2, Light ship Construction",
+	"skill": {
+		"1" : {
+			"icon" : "1011",
+			"requirement" : "",
+			"name" : "Torpedo Command: Destroyers",
+			"type" : "Support",
+			"description" : "Increases the TRP of all friendly DDs by $1. Does not stack with the same skill."
+		},
+		"2" : {
+			"icon" : "2051",
+			"requirement" : "",
+			"name" : "Double Torpedo",
+			"type" : "Offensive",
+			"description" : "When this ship fires its Torpedoes: $1 chance to launch a second wave of Torpedoes."
+		},
+		"3" : {
+			"icon" : "20031",
+			"requirement" : "",
+			"name" : "All Out Assault Ⅰ",
+			"type" : "Offensive",
+			"description" : "Activate All Out Assault Ⅰ: Gridley Class once every 15 times the main gun is fired."
+		}
+	},
+	"skin": {
+		"1" : {
+			"id" : "gelideli",
+			"name" : "Gridley",
+			"description" : "Gridley-class destroyer - Gridley, Hull Number DD-380!",
+			"expression" : {
+				"0" : {
+					"id" : "0"
+				}
+			}
+		},
+		"2" : {
+			"id" : "gelideli_2",
+			"name" : "Christmas Photoshoot",
+			"description" : "Commander, Merry Christmas! Guhehe~ Won't you attend my \"Super Special Sexy Sara (tentative)\" photoshoot event?",
+			"expression" : {
+				"0" : {
+					"id" : "0"
+				}
+			}
+		}
+	},
+	"defaultEquipment": {
+		"1" : {
+			"icon" : "11100",
+			"rarity" : "Common",
+			"name" : "Single 127mm Main Gun"
+		},
+		"1" : {
+			"icon" : "5100",
+			"rarity" : "Common",
+			"name" : "Quadruple 533mm Torpedo"
+		},
+		"3" : {
+			"icon" : "",
+			"rarity" : "",
+			"name" : ""
+		}
+	},
+	"stats": {
+		"base": {
+			"hp" : "292",
+			"firepower" : "14",
+			"torpedo" : "84",
+			"antiAir" : "32",
+			"aviation" : "0",
+			"reload" : "74",
+			"hit" : "71",
+			"evasion" : "60",
+			"speed" : "46.2",
+			"luck" : "72",
+			"asw" : "49",
+			"oxygen" : "0",
+			"ammo" : "0",
+			"cost" : "2",
+			"armor" : "Light"
+		},
+		"100": {
+			"hp" : "1508",
+			"firepower" : "63",
+			"torpedo" : "396",
+			"antiAir" : "151",
+			"aviation" : "0",
+			"reload" : "175",
+			"hit" : "184",
+			"evasion" : "157",
+			"speed" : "46.2",
+			"luck" : "72",
+			"asw" : "181",
+			"oxygen" : "0",
+			"ammo" : "0",
+			"cost" : "8",
+			"armor" : "Light"
+		},
+		"120": {
+			"hp" : "1810",
+			"firepower" : "73",
+			"torpedo" : "438",
+			"antiAir" : "174",
+			"aviation" : "0",
+			"reload" : "201",
+			"hit" : "194",
+			"evasion" : "163",
+			"speed" : "46.2",
+			"luck" : "72",
+			"asw" : "201",
+			"oxygen" : "0",
+			"ammo" : "0",
+			"cost" : "8",
+			"armor" : "Light"
+		},
+		"100retrofit": {
+			"hp" : "",
+			"firepower" : "",
+			"torpedo" : "",
+			"antiAir" : "",
+			"aviation" : "",
+			"reload" : "",
+			"hit" : "",
+			"evasion" : "",
+			"speed" : "46.2",
+			"luck" : "72",
+			"asw" : "",
+			"oxygen" : "0",
+			"ammo" : "0",
+			"cost" : "8",
+			"armor" : "Light"
+		},
+		"120retrofit": {
+			"hp" : "",
+			"firepower" : "",
+			"torpedo" : "",
+			"antiAir" : "",
+			"aviation" : "",
+			"reload" : "",
+			"hit" : "",
+			"evasion" : "",
+			"speed" : "46.2",
+			"luck" : "72",
+			"asw" : "",
+			"oxygen" : "0",
+			"ammo" : "0",
+			"cost" : "8",
+			"armor" : "Light"
+		}
+	},
+	"limitBreak": {
+		"tier1": "Unlock All Out Assault Ⅰ/Torpedo efficiency +5%",
+		"tier2": "Torpedo base +1/Torpedo preload +1/Torpedo efficiency +10%",
+		"tier3": "Improve All Out Assault/All weapons' efficiency +5%"
+	},
+	"equipmentLoadout": {
+		"1": {
+			"type": "Destroyer Gun",
+			"efficiency": "110%/110%/110%/115%",
+			"amount": "1/1/1/1",
+			"preload": "0/0/0/0"
+		},
+		"2": {
+			"type": "Torpedo",
+			"efficiency": "115%/120%/130%/135%",
+			"amount": "1/1/2/2",
+			"preload": "0/0/1/1"
+		},
+		"3": {
+			"type": "Anti-Air Gun",
+			"efficiency": "120%/120%/120%/125%",
+			"amount": "1/1/1/1",
+			"preload": "0/0/0/0"
+		},
+		"4": {
+			"type": "Auxilary",
+			"efficiency": "-",
+			"amount": "-",
+			"preload": "-"
+		},
+		"5": {
+			"type": "Auxilary",
+			"efficiency": "-",
+			"amount": "-",
+			"preload": "-"
+		}
+	},
+	"build": {
+		"light": {
+			"JP": "",
+			"CN": "",
+			"EN": ""
+		},
+		"heavy": {
+			"JP": "",
+			"CN": "",
+			"EN": ""
+		},
+		"special": {
+			"JP": "",
+			"CN": "",
+			"EN": ""
+		},
+		"limited": {
+			"JP": "",
+			"CN": "",
+			"EN": ""
+		}
+	},
+	"drop": {
+		"droppable": "false",
+		"list": {
+			"1": {
+				"event": "",
+				"chapter": {
+					"1": {
+						"label": "Ch .1",
+						"node": {
+							"1": {
+								"drop": "✓",
+								"note": "-"
+							}
+						}
+					}
+				}
+			}
+		}
+	},
+	"lines": {
+		"skin": {
+			"1": {
+				"skin_id" : "gelideli",
+				"id" : "0",
+				"label" : "Gridley",
+				"dialogue" : {
+					"1" : {
+						"event" : "Ship Description",
+						"media" : "",
+						"chinese" : "格里德利级驱逐舰—格里德利，舷号DD-380",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "グリッドレイ級駆逐艦・グリッドレイ（DD-380)",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Gridley-class destroyer - Gridley, Hull Number DD-380!",
+						"englishNote" : ""
+					},
+					"2" : {
+						"event" : "Biography",
+						"media" : "profile",
+						"chinese" : "我是格里德利级的一号舰，在太平洋战区很活跃哦~不过这种事怎样都好啦，指挥官要一起来看看小加加的照片吗？",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "わたしはグリッドレイ級の一番艦として太平洋戦域で活躍したよ！まあそんなことはいいから、指揮官もサラトガちゃんの写真、一緒に見ちゃう？",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "I'm the first ship of the Gridley-class, and I was very active in the Pacific theater. But never mind that now, Commander. Want to look at photos of Sara?",
+						"englishNote" : ""
+					},
+					"3" : {
+						"event" : "Receive",
+						"media" : "get",
+						"chinese" : "你好，指挥官~我是格里德利！我可是护航过萨拉托加的哦~小加加真是太可爱了！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "はじめまして、指揮官！グリッドレイだよ。サラトガちゃんの護衛なんだ～！彼女ってば超かわいいんだよ！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Nice to meet you, Commander! I'm Gridley. I once escorted Saratoga~ She's such a cutie!",
+						"englishNote" : ""
+					},
+					"4" : {
+						"event" : "Log in",
+						"media" : "login",
+						"chinese" : "指挥官~我跟你说，小加加巨可爱！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "指揮官～あのね、サラトガちゃんって超かわいいんだよ！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Hey, Commander~ So listen, Sara's just soooo cute!",
+						"englishNote" : ""
+					},
+					"5" : {
+						"event" : "View details",
+						"media" : "detail",
+						"chinese" : "哇，快看那个萌妹子~不、不是我呀！是那边那个！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "わ、あのかわい子ちゃんを見て～！え、私じゃないって！あっち！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Wow, look at that cutie! No, not me! The one over there!",
+						"englishNote" : ""
+					},
+					"6" : {
+						"event" : "Main screen 1",
+						"media" : "main_1",
+						"chinese" : "咕嘿嘿，我有好多小加加的照片，八百美刀一张哦！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "ぐへへ、サラトガちゃんの写真がいっぱい…1枚800ドルだよ！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "I've got plenty of pictures of Sara. 800 bucks a print!",
+						"englishNote" : ""
+					},
+					"7" : {
+						"event" : "Main screen 2",
+						"media" : "main_2",
+						"chinese" : "如果迷路的话，密西西比姐姐会带我回来的！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "道に迷っても、ミシシッピ姉さんが連れて帰ってくれるよ！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Mississippi will bring me back home just fine if I get lost!",
+						"englishNote" : ""
+					},
+					"8" : {
+						"event" : "Main screen 3",
+						"media" : "main_3",
+						"chinese" : "指挥官，你有看到小加加吗？我想试试新相机！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "指揮官、サラトガちゃんはどこかな？新しいカメラを試したいの！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Commander, have you seen Sara? I want to try my new camera!",
+						"englishNote" : ""
+					},
+					"9" : {
+						"event" : "Normal touch",
+						"media" : "touch_1",
+						"chinese" : "啊呀~痒——相机都拿不稳啦~",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "あーん、くすぐった～い…ちゃんとカメラを持てないよぉ～",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Aaah, that tickles~! I can't keep the camera straight~",
+						"englishNote" : ""
+					},
+					"10" : {
+						"event" : "Special touch",
+						"media" : "touch_2",
+						"chinese" : "指挥官！小心我拍下来去检举你哦~",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "指揮官！そんなことするなら、撮影して警察に通報するよ～",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Commander! If you do that again, I'll photograph it and report it to the police~",
+						"englishNote" : ""
+					},
+					"11" : {
+						"event" : "Mission reminder",
+						"media" : "task",
+						"chinese" : "任务区风景不错啊，快去拍照啦~",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "ミッションエリアはいい風景だね～早く写真撮ろ～っと～",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "The mission area is so pretty~ C'mon, let's go take some photos!",
+						"englishNote" : ""
+					},
+					"12" : {
+						"event" : "Mission complete",
+						"media" : "mission_complete",
+						"chinese" : "任务奖励来了，可以买新胶卷啦",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "ミッションボーナスき～たよ～！新しいフィルムが買えるね！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "The rewards are here~! Now we can buy new some film!",
+						"englishNote" : ""
+					},
+					"13" : {
+						"event" : "Mail reminder",
+						"media" : "mail",
+						"chinese" : "指挥官，有信喔",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "指揮官、メールがあるよ～",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Commander~ You've got mail~!",
+						"englishNote" : ""
+					},
+					"14" : {
+						"event" : "Return to port",
+						"media" : "home",
+						"chinese" : "洗照片，洗照片~",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "現像、現像っと～",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "I need to develop these photos~",
+						"englishNote" : ""
+					},
+					"15" : {
+						"event" : "Commission complete",
+						"media" : "expedition",
+						"chinese" : "有出委托的姐妹们回来啦，不知道我拜托她们的照片拍的怎么样~",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "委託に行った娘たちが帰ってきたよ。頼んだ写真は大丈夫かな～",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "The girls who went out on a commission are back. I wonder how the photos I asked for turned out?",
+						"englishNote" : ""
+					},
+					"16" : {
+						"event" : "Enhancing complete",
+						"media" : "upgrade",
+						"chinese" : "可以去更深的海域追踪小加加啦！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "より遠くまでサラトガちゃん追っかけに行けるね！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Now I can snap even more photos of Sara!",
+						"englishNote" : ""
+					},
+					"17" : {
+						"event" : "Flagship fight",
+						"media" : "warcry",
+						"chinese" : "对面的都摆好POSE，我要发射了~！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "相手は止まっちゃってるよ、発射～！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "You over there! Strike a pose! I'm about to shoot~!",
+						"englishNote" : ""
+					},
+					"18" : {
+						"event" : "Victory",
+						"media" : "mvp",
+						"chinese" : "十星~十星~！指挥官指挥官，给我也拍一张照吧",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "勝った勝った～！指揮官指揮官、写真撮って！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Ten out of ten! Commander, Commander! Take a photo of me too!",
+						"englishNote" : ""
+					},
+					"19" : {
+						"event" : "Defeat",
+						"media" : "lose",
+						"chinese" : ">.<~可恶~照片都跑焦了！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "(>_<) ちくしょ～ピントがずれちゃった！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Dammit~ I lost focus!",
+						"englishNote" : ""
+					},
+					"20" : {
+						"event" : "Skills",
+						"media" : "skill",
+						"chinese" : "为了小加加，嗨呀！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "サラトガちゃんのためだ！喰らえ！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "This is for Sara! Haiyah!",
+						"englishNote" : ""
+					},
+					"21" : {
+						"event" : "Upset",
+						"media" : "feeling1",
+						"chinese" : "小加加的照片再也不会给你看了！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "サラトガちゃんの写真はもう見せてあげないもん！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "You don't get to look at pictures of Sara anymore!",
+						"englishNote" : ""
+					},
+					"22" : {
+						"event" : "Stranger",
+						"media" : "feeling2",
+						"chinese" : "指挥官，找我想了解更多小加加的精彩瞬间吗？哼哼，那我就大发慈悲地给你看看吧~",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "指揮官さぁ、サラトガちゃんの激写を見たくない？ふふふーん、じゃあ見せてあげる！嬉しいでしょう~",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "So, Commander, don't you wanna see some awesome photos of Saratoga? Fine, fine, I'll show you! Aren't I nice~",
+						"englishNote" : ""
+					},
+					"23" : {
+						"event" : "Friendly",
+						"media" : "feeling3",
+						"chinese" : "指挥官，不是约好了一起观察小加加吗？别愣着了赶紧走吧",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "指揮官？サラトガちゃんを観察しに行こうって約束したじゃない？ぼーっとしないで早く行こうよ！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Commander, didn't you promise we'd go see Sara together? What are we waiting for? Let's go!",
+						"englishNote" : ""
+					},
+					"24" : {
+						"event" : "Crush",
+						"media" : "feeling4",
+						"chinese" : "你看这张，超棒对吧，还有这张，嗯嗯，这张我也很有自信……指挥官，不看照片看我干嘛啦",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "これすごいでしょ？あとこれ、ううん、これも自信あるわ……指揮官、なんで写真じゃなくてわたしを見てるの？",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Look at this one. It's great, right? This one, too. I'm confident about this one. ...Commander, why are you looking at me instead of the photos?",
+						"englishNote" : ""
+					},
+					"25" : {
+						"event" : "Love",
+						"media" : "feeling5",
+						"chinese" : "欸……不是小加加，想了解我……？欸……那个……就是……我……哇！羞死人啦！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "えっ、サラトガちゃんじゃなくて、わたしを知りたい？えっと……あの……その……わたし…わああ！恥ずかしいよ！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Ah... You don't want to hear about Sara? You want... to know more about... me? Eh... um.... Ah! This is so embarrassing!",
+						"englishNote" : ""
+					},
+					"26" : {
+						"event" : "Promise",
+						"media" : "propose",
+						"chinese" : "指挥官指挥官，快过来摆好姿势！1,2,3，茄子！嗯嗯，拍的不错，那等拿去洗好，到时候我们一人一张哦~",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "指揮官指揮官！早くポーズ決めて~１、２の３！チーズ！…うんうん、よく撮れた！じゃあ早く現象してきて、一人一枚だよ~",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Commander, Commander! Strike a pose! 1... 2... 3! Cheese! ...That was a great shot! We'll get a copy each after we develop the film~",
+						"englishNote" : ""
+					}
+				}
+			},
+			"2": {
+				"skin_id" : "gelideli_2",
+				"id" : "1",
+				"label" : "Christmas Photoshoot",
+				"dialogue" : {
+					"1" : {
+						"event" : "Ship Description",
+						"media" : "",
+						"chinese" : "指挥官，圣诞快乐！咕嘿嘿~要来参加我举办的“小加加照片圣诞特别观赏会”吗？",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "指揮官、メリークリスマス！ぐへへへ～このグリッドレイ主催の「サラトガちゃんクリスマス特別撮影会（仮）」に参加しない？",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Commander, Merry Christmas! Guhehe~ Won't you attend my \"Super Special Sexy Sara (tentative)\" photoshoot event? ",
+						"englishNote" : ""
+					},
+					"2" : {
+						"event" : "Receive",
+						"media" : "get_1",
+						"chinese" : "指挥官，圣诞快乐！咕嘿嘿~要来参加我举办的“小加加照片圣诞特别观赏会”吗？",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "指揮官、メリークリスマス！ぐへへへ～このグリッドレイ主催の「サラトガちゃんクリスマス特別撮影会（仮）」に参加しない？",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Commander, Merry Christmas! Guhehe~ Won't you attend my \"Super Special Sexy Sara (tentative)\" photoshoot event?",
+						"englishNote" : ""
+					},
+					"3" : {
+						"event" : "Main screen 1",
+						"media" : "main_1_1",
+						"chinese" : "小加加照片圣诞特价一千美刀一张！咕嘿嘿～因为随着圣诞的到来我对小加加的爱也水涨船高啦！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "サラトガちゃんのクリスマス限定写真！1枚1000ドルだよ！えへへ～クリスマスでわたしの推し力もうなぎのぼり！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Christmas special edition Saratoga photos, one thousand dollars each! Guhehe~ my fangirl power level increases during the holiday season! ",
+						"englishNote" : ""
+					},
+					"4" : {
+						"event" : "Main screen 2",
+						"media" : "main_2_1",
+						"chinese" : "指挥官，能给我和小加加拍张合影吗？",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "指揮官、わたしとサラトガちゃんの写真、撮ってくれない？",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Commander, can you take some photos of me with Saratoga? ",
+						"englishNote" : ""
+					},
+					"5" : {
+						"event" : "Main screen 3",
+						"media" : "main_3_1",
+						"chinese" : "谢谢指挥官的圣诞礼物！这部防水相机我一定会妥善使用的！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "指揮官、クリスマスプレゼントありがとう！この防水カメラは大切にするね！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Thanks for the waterproof camera, Commander! I'll be sure to take good care of it!",
+						"englishNote" : ""
+					},
+					"6" : {
+						"event" : "Normal touch",
+						"media" : "touch_1_1",
+						"chinese" : "身后的袋子？咕嘿嘿～里面是我的小加加照片精选集！带着它就好像小加加一直在我身边！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "中に何が入ってるかって？ぐへへへ～サラトガちゃんのプレミアム写真集だよ！これさえあればサラトガちゃんとはいつも一緒だよ！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "What's in this bag? Guhehe~ an album of premium Saratoga photos! As long as I have this, she will always be at my side!",
+						"englishNote" : ""
+					},
+					"7" : {
+						"event" : "Special touch",
+						"media" : "touch_2_1",
+						"chinese" : "呜哇哇哇，不要拍下来啊！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "うわああ！撮っちゃダメー！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Uwaah! Don't take any pictures!",
+						"englishNote" : ""
+					}
+				}
+			}
+		}
+	}
+}

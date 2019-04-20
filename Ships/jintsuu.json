@@ -1,0 +1,801 @@
+{
+	"name_reference" : "jintsuu",
+	"cn_reference" : "shentong",
+	"nameJP" : "神通",
+	"nameCN" : "神通",
+	"ID" : "309",
+	"name" : "Jintsuu",
+	"internal_id" : "302131",
+	"rarity" : "Elite",
+	"initialStar" : "★★☆☆☆",
+	"hull" : "Light Cruiser",
+	"navy" : "Sakura Empire",
+	"prefix" : "IJN",
+	"buildTime" : "",
+	"class" : "Sendai",
+	"voiceActress" : "Hisako Kanemoto",
+	"parameters": {
+		"firepower" : "C",
+		"torpedo" : "B",
+		"aviation" : "E",
+		"evasion" : "B",
+		"antiAir" : "B",
+		"hp" : "C"
+	},
+	"scrap": {
+		"gold" : "6",
+		"oil" : "3",
+		"medal" : "4"
+	},
+	"releaseDate": {
+		"JP" : "",
+		"CN" : "",
+		"KR" : "",
+		"EN" : ""
+	},
+	"artist": {
+		"name" : "",
+		"weibo" : "",
+		"twitter" : "",
+		"pixiv" : "",
+		"other" : ""
+	},
+	"enhance": {
+		"firepower" : "12",
+		"torpedo" : "22",
+		"aviation" : "0",
+		"reload" : "13"
+	},
+	"acquisitionMethod" : "Explore Stage10-4",
+	"skill": {
+		"1" : {
+			"icon" : "10870",
+			"requirement" : "",
+			"name" : "2nd Torpedo Squadron",
+			"type" : "Support",
+			"description" : "While this ship is afloat: increases the TRP and RLD of all friendly CLs and DDs by $1."
+		},
+		"2" : {
+			"icon" : "10890",
+			"requirement" : "",
+			"name" : "The Unyielding Jintsuu",
+			"type" : "Support",
+			"description" : "Reduce own DMG received by 20.0%. In addition, increase Destroyers' and Light Cruisers' Torpedo Crit Rate by $1$2. "
+		},
+		"3" : {
+			"icon" : "22131",
+			"requirement" : "",
+			"name" : "All Out Assault Ⅰ",
+			"type" : "Offensive",
+			"description" : "Activate All Out Assault Ⅰ: Sendai Class once every 12 times the main gun is fired."
+		}
+	},
+	"skin": {
+		"1" : {
+			"id" : "shentong",
+			"name" : "Jintsuu ",
+			"description" : "Sendai-class No. 2 light cruiser, Jintsuu.",
+			"expression" : {
+				"0" : {
+					"id" : "0"
+				}
+			}
+		},
+		"2" : {
+			"id" : "shentong_2",
+			"name" : "The Tactician’s Vacation",
+			"description" : "Hmm? Is it unusual? Hah. Even I require a change of pace to clear my mind every so often. Commander, why don’t you come out and get some fresh air as well?",
+			"expression" : {
+				"0" : {
+					"id" : "0"
+				},
+				"1" : {
+					"id" : "1"
+				},
+				"2" : {
+					"id" : "2"
+				},
+				"3" : {
+					"id" : "3"
+				}
+			}
+		},
+		"3" : {
+			"id" : "shentong_g",
+			"name" : "Jintsuu (Retrofit)",
+			"description" : "Since I've gotten used to living with you, Commander, I've decided to be more laid-back after receiving my remodel. My dance? Hehe... I can't show that to just anyone so easily.",
+			"expression" : {
+				"0" : {
+					"id" : "0"
+				}
+			}
+		}
+	},
+	"defaultEquipment": {
+		"1" : {
+			"icon" : "32000",
+			"rarity" : "",
+			"name" : "Single 140mm Main Gun"
+		},
+		"1" : {
+			"icon" : "35000",
+			"rarity" : "",
+			"name" : "Twin 610mm Torpedo"
+		},
+		"3" : {
+			"icon" : "",
+			"rarity" : "",
+			"name" : ""
+		}
+	},
+	"stats": {
+		"base": {
+			"hp" : "447",
+			"firepower" : "29",
+			"torpedo" : "65",
+			"antiAir" : "53",
+			"aviation" : "0",
+			"reload" : "70",
+			"hit" : "52",
+			"evasion" : "29",
+			"speed" : "35.3",
+			"luck" : "38",
+			"asw" : "24",
+			"oxygen" : "0",
+			"ammo" : "0",
+			"cost" : "3",
+			"armor" : "Light"
+		},
+		"100": {
+			"hp" : "2310",
+			"firepower" : "135",
+			"torpedo" : "308",
+			"antiAir" : "249",
+			"aviation" : "0",
+			"reload" : "167",
+			"hit" : "135",
+			"evasion" : "75",
+			"speed" : "35.3",
+			"luck" : "38",
+			"asw" : "87",
+			"oxygen" : "0",
+			"ammo" : "0",
+			"cost" : "10",
+			"armor" : "Light"
+		},
+		"120": {
+			"hp" : "2615",
+			"firepower" : "156",
+			"torpedo" : "337",
+			"antiAir" : "285",
+			"aviation" : "0",
+			"reload" : "192",
+			"hit" : "151",
+			"evasion" : "108",
+			"speed" : "35.3",
+			"luck" : "38",
+			"asw" : "99",
+			"oxygen" : "0",
+			"ammo" : "0",
+			"cost" : "10",
+			"armor" : "Light"
+		},
+		"100retrofit": {
+			"hp" : "2550",
+			"firepower" : "155",
+			"torpedo" : "373",
+			"antiAir" : "264",
+			"aviation" : "0",
+			"reload" : "172",
+			"hit" : "135",
+			"evasion" : "75",
+			"speed" : "35.3",
+			"luck" : "38",
+			"asw" : "87",
+			"oxygen" : "0",
+			"ammo" : "0",
+			"cost" : "10",
+			"armor" : "Light"
+		},
+		"120retrofit": {
+			"hp" : "2855",
+			"firepower" : "176",
+			"torpedo" : "402",
+			"antiAir" : "300",
+			"aviation" : "0",
+			"reload" : "197",
+			"hit" : "151",
+			"evasion" : "108",
+			"speed" : "35.3",
+			"luck" : "38",
+			"asw" : "99",
+			"oxygen" : "0",
+			"ammo" : "0",
+			"cost" : "10",
+			"armor" : "Light"
+		}
+	},
+	"limitBreak": {
+		"tier1": "Unlock All Out Assault Ⅰ/Main gun efficiency +5%",
+		"tier2": "Torpedo base +1/Torpedo preload +1/Torpedo efficiency +10%",
+		"tier3": "Improve All Out Assault/Torpedo efficiency +15%"
+	},
+	"equipmentLoadout": {
+		"1": {
+			"type": "Light Cruiser",
+			"efficiency": "115%/120%/120%/120%",
+			"amount": "1/1/1/1",
+			"preload": "0/0/0/0"
+		},
+		"2": {
+			"type": "Torpedo",
+			"efficiency": "140%/140%/150%/165%",
+			"amount": "1/1/2/2",
+			"preload": "0/0/1/1"
+		},
+		"3": {
+			"type": "Anti-Air Gun",
+			"efficiency": "115%/115%/115%/115%",
+			"amount": "1/1/1/1",
+			"preload": "0/0/0/0"
+		},
+		"4": {
+			"type": "Auxilary",
+			"efficiency": "-",
+			"amount": "-",
+			"preload": "-"
+		},
+		"5": {
+			"type": "Auxilary",
+			"efficiency": "-",
+			"amount": "-",
+			"preload": "-"
+		}
+	},
+	"build": {
+		"light": {
+			"JP": "",
+			"CN": "",
+			"EN": ""
+		},
+		"heavy": {
+			"JP": "",
+			"CN": "",
+			"EN": ""
+		},
+		"special": {
+			"JP": "",
+			"CN": "",
+			"EN": ""
+		},
+		"limited": {
+			"JP": "",
+			"CN": "",
+			"EN": ""
+		}
+	},
+	"drop": {
+		"droppable": "false",
+		"list": {
+			"1": {
+				"event": "",
+				"chapter": {
+					"1": {
+						"label": "Ch .1",
+						"node": {
+							"1": {
+								"drop": "✓",
+								"note": "-"
+							}
+						}
+					}
+				}
+			}
+		}
+	},
+	"lines": {
+		"skin": {
+			"1": {
+				"skin_id" : "shentong",
+				"id" : "0",
+				"label" : "Jintsuu ",
+				"dialogue" : {
+					"1" : {
+						"event" : "Ship Description",
+						"media" : "",
+						"chinese" : "川内级轻巡洋舰二番舰——神通",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "川内型軽巡洋艦二番艦・神通",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Sendai-class No. 2 light cruiser, Jintsuu.",
+						"englishNote" : ""
+					},
+					"2" : {
+						"event" : "Biography",
+						"media" : "profile",
+						"chinese" : "川内型二号舰，二水战旗舰，神通正是小女子。以前常被批评软弱，不过我想我已经在科隆班加拉证明了自己。二水战的辉煌，就让我在这里延续吧",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "川内型二番艦、二水戦旗艦・神通と申します。かつては軟弱と評されましたが、コロンバンガラ島沖海戦で自らを証明してみせました。二水戦の輝き、ここでもう一度お見せしましょう。",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "I'm Sendaii-class ship No. 2, Flagship of the Second Torpedo Squadron, Jintsuu. People have criticized me for being a coward, but I proved myself in the Battle of Kolombangara. Let me show you the glory of the Second Torpedo Squadron once more.",
+						"englishNote" : ""
+					},
+					"3" : {
+						"event" : "Receive",
+						"media" : "get",
+						"chinese" : "战场瞬息万变，唯有保持冷静，谨慎应对才能立于不败之地，指挥官做到了吗？二水战旗舰神通，向您问好",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "戦場は一瞬にして変わります。冷静に考え、慎重に動くことこそ負けない戦ができます。指揮官はいかがかしら？二水戦神通、ご挨拶申し上げます",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "The battlefield can change at any second. Think rationally and act cautiously so that you may never be defeated in battle. Commander, have you been able to achieve this? Flagship of the Second Torpedo Squadron, Jintsuu, reporting for duty.",
+						"englishNote" : ""
+					},
+					"4" : {
+						"event" : "Log in",
+						"media" : "login",
+						"chinese" : "指挥官，不管您在外面做些什么，踏入办公室就请好好工作了",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "指揮官、外で油を売るのは良いですが、執務室では執務に集中するようお願いします",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Commander, how you spend your time off-duty is no business of mine. Once you arrive, however, please do your work properly.",
+						"englishNote" : ""
+					},
+					"5" : {
+						"event" : "View details",
+						"media" : "detail",
+						"chinese" : "接下来的作战，资源分配，还有……嗯？这不是指挥官吗，请随意",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "次の作戦と資源配分……あら、指揮官ではありませんか。どうぞお好きに",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "For the next operation, we need to allocate resources, and... Yes? Ah, help yourself, Commander.",
+						"englishNote" : ""
+					},
+					"6" : {
+						"event" : "Main screen 1",
+						"media" : "main_1",
+						"chinese" : "如果谨慎被称作软弱，那么勇猛是不是该叫做无谋呢？",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "慎重は軟弱というのなら、勇猛さは無謀だというべきかしら？",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "If being cautious is considered cowardice, then shouldn't being brave also be considered recklessness?",
+						"englishNote" : ""
+					},
+					"7" : {
+						"event" : "Main screen 2",
+						"media" : "main_2",
+						"chinese" : "世上没有绝对的真理，比较、实践乃至失败之后才能在不同的时候做出正确的应对",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "真理などありません。比較し、実践し、失敗してこそ正しい選択ができるのです",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "There is no single solution for everything. Only through comparison, practice, and even failure, can one find their own correct answer.",
+						"englishNote" : ""
+					},
+					"8" : {
+						"event" : "Main screen 3",
+						"media" : "main_3",
+						"chinese" : "即使不被他人理解，我也只会做我认为对的事，哪怕那其中有指挥官……也一样",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "他人に理解されなくても、正しいことをするつもりです。ええ、たとえ指揮官に理解されなくても…",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Even if others don't understand my actions, I'll always do what I think is right... Even if you don't understand, Commander.",
+						"englishNote" : ""
+					},
+					"9" : {
+						"event" : "Normal touch",
+						"media" : "touch_1",
+						"chinese" : "嗯，怎么了？我在考虑舰队的事情",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "うん？ご用かしら？今、艦隊運営のことについて考えているところです",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "What's the matter? I'm just thinking about how to manage the fleet.",
+						"englishNote" : ""
+					},
+					"10" : {
+						"event" : "Special touch",
+						"media" : "touch_2",
+						"chinese" : "指挥官比我想的要大胆些嘛，相对的心理准备也做好了吧，嗯？",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "指揮官は思っていたより大胆なようで…心の準備もできているということかしら？ねぇ？",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "You've got more guts than I expected, Commander. Do you have the heart to face the consequences, though?",
+						"englishNote" : ""
+					},
+					"11" : {
+						"event" : "Mission reminder",
+						"media" : "task",
+						"chinese" : "新的任务已经整理好了，请过目",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "新しい任務の要綱を取りまとめました。ご確認を",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Your new missions have been sorted. Please take a look.",
+						"englishNote" : ""
+					},
+					"12" : {
+						"event" : "Mission complete",
+						"media" : "mission_complete",
+						"chinese" : "任务奖励下达了……嗯？没什么，我只是在想怎么最有效地利用起来",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "任務報酬が届きました。……うん？いいえ、どうやって最大限に利用できるか考えているだけです",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Rewards are here... Hmm? Don't worry. I'm just thinking about how to make our fleet more efficient.",
+						"englishNote" : ""
+					},
+					"13" : {
+						"event" : "Mail reminder",
+						"media" : "mail",
+						"chinese" : "指挥官，及时处理信息可是很重要的",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "指揮官、情報の即時対応は大切です",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Commander! It's important to respond to messages promptly!",
+						"englishNote" : ""
+					},
+					"14" : {
+						"event" : "Return to port",
+						"media" : "home",
+						"chinese" : "书上不会记载一切，有些东西唯有实践才能获得，您有学到什么吗？",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "本に全てが載っているわけではありません。実戦でのみ得られるものもあります。指揮官はどうかしら？",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Books cannot teach you everything. Some things can only be picked up through live combat. What do you think, Commander?",
+						"englishNote" : ""
+					},
+					"15" : {
+						"event" : "Commission complete",
+						"media" : "expedition",
+						"chinese" : "发什么呆呢，委托完成了",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "何ぼーっとしているんですか？委託、完了しましたよ",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Stop daydreaming! Commissions have returned!",
+						"englishNote" : ""
+					},
+					"16" : {
+						"event" : "Enhancing complete",
+						"media" : "upgrade",
+						"chinese" : "可以稍微考虑一下前往更深的海域了吗……",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "もっと深い海域への進軍も検討可能かしら？",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Should we consider advancing deeper into enemy territory?",
+						"englishNote" : ""
+					},
+					"17" : {
+						"event" : "Flagship fight",
+						"media" : "warcry",
+						"chinese" : "全军突击！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "全艦、突撃せよ！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "All ships, charge forward!",
+						"englishNote" : ""
+					},
+					"18" : {
+						"event" : "Victory",
+						"media" : "mvp",
+						"chinese" : "不过如此吗",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "そんなものかしら",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Is that it?",
+						"englishNote" : ""
+					},
+					"19" : {
+						"event" : "Defeat",
+						"media" : "lose",
+						"chinese" : "全军撤退，不要产生无谓的牺牲",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "全艦転進。無駄な犠牲は出しません",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "All ships, retreat! Do not make meaningless sacrifices.",
+						"englishNote" : ""
+					},
+					"20" : {
+						"event" : "Skills",
+						"media" : "skill",
+						"chinese" : "我等的正是现在——",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "この時を待っていました…！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "I've been waiting for this moment!",
+						"englishNote" : ""
+					},
+					"21" : {
+						"event" : "Upset",
+						"media" : "feeling1",
+						"chinese" : "舰队的事务就请交给我吧",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "艦隊のことはもう私におまかせください",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "You might as well just leave the fleet management to me.",
+						"englishNote" : ""
+					},
+					"22" : {
+						"event" : "Stranger",
+						"media" : "feeling2",
+						"chinese" : "虽说曾经担当过旗舰，不过现在也不过是战士的身份，指挥官像对待其他孩子一样对待我就好",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "旗艦を務めたことがあっても、今はただの兵士です。ほかの子と同じ扱いにしていただいて結構です",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "I was a flagship before, but now I'm just a common warrior. Please treat me the same as you would the others.",
+						"englishNote" : ""
+					},
+					"23" : {
+						"event" : "Friendly",
+						"media" : "feeling3",
+						"chinese" : "指挥官，虽然尊重我的意见是好事，不过您只要贯彻自己的想法就好，而且如果我不赞同您的话，是不会站在您身边的，呵呵",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "指揮官、私の意見を尊重するのは良いのですが、くれぐれも自分の考えをしっかりお持ちください。そもそも、指揮官に賛同しなければ、こうもお側に立っていられませんもの、うふふ",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Commander, it's okay to respect my opinions, but please have confidence in your own judgment. I wouldn't be standing by your side if I didn't believe in you.",
+						"englishNote" : ""
+					},
+					"24" : {
+						"event" : "Crush",
+						"media" : "feeling4",
+						"chinese" : "指挥官觉得历史上那些名将军师为什么甘愿居于人下呢？是认清了自己的局限，还是为主君所折服？我觉得的话，都有呢",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "かの有能な将軍たちはなぜ臣下の位に甘んじているか、ご存知ですか？自分の限界？それとも主君への傾倒？私は…どちらもある、と思いますよ",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Commander, why do you think those famous generals of the past were willing to bow to their superiors? Was it the limit of their abilities, or was it devotion to their leaders? In my case, perhaps a bit of both.",
+						"englishNote" : ""
+					},
+					"25" : {
+						"event" : "Love",
+						"media" : "feeling5",
+						"chinese" : "不管其他人如何评价，贯彻自己的道路才是一个领袖应该有的心气，而道路是否正确，看部下是不是心甘情愿就知道了，比如说，您可以看看我……",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "人の評価に左右されることなく、自分を貫くのはリーダーたる者が持つべき気質です。征く道は正しいかどうか…付いてくれる人たちを見ればわかります。たとえば、私……",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Real leaders will always stick to their guns, no matter who opposes them. You can tell if their methods are correct by seeing who is willing to follow them. For example... me...",
+						"englishNote" : ""
+					},
+					"26" : {
+						"event" : "Promise",
+						"media" : "propose",
+						"chinese" : "谨慎就是谋而后动，在最好的时机做出最好的选择，这是我的信条，而现在，我终于可以自信地说出口了，我选择了最好的指挥官呢",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "計略定まって兵動く、最善の時に最高の選択をするのが私の信条です。はい、今は自信を持って話せます。最高の指揮官を、私が選びました",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Deciding on the best course of action before acting cautiously has always been my creed. I can now say with confidence that choosing you, Commander, was the correct decision.",
+						"englishNote" : ""
+					}
+				}
+			},
+			"2": {
+				"skin_id" : "shentong_2",
+				"id" : "1",
+				"label" : "The Tactician’s Vacation",
+				"dialogue" : {
+					"1" : {
+						"event" : "Ship Description",
+						"media" : "",
+						"chinese" : "…嗯？意外吗？呵呵，偶尔放松一下大脑对我来说也是很有必要的呢，指挥官，你也出来透透气如何？",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "…あら、意外って仰るのですね。うふふ、いくら私でも頭脳の休息は必要ありましょう。指揮官も気分転換にお出かけになってはいかがかしら？",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Hmm? Is it unusual? Hah. Even I require a change of pace to clear my mind every so often. Commander, why don’t you come out and get some fresh air as well?",
+						"englishNote" : ""
+					}
+				}
+			},
+			"3": {
+				"skin_id" : "shentong_g",
+				"id" : "9",
+				"label" : "Jintsuu (Retrofit)",
+				"dialogue" : {
+					"1" : {
+						"event" : "Ship Description",
+						"media" : "",
+						"chinese" : "逐渐习惯和指挥官相处了，趁着改造的机会就稍微放松了一些……舞蹈？呵呵，不是那么简单就给人看的东西哦",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "指揮官とはかれこれ付き合いが長いですし、改造で少しおめかししました。……舞？うふふ、そう簡単に見せられるものじゃありませんよ？",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Since I've gotten used to living with you, Commander, I've decided to be more laid-back after receiving my remodel. My dance? Hehe... I can't show that to just anyone so easily.",
+						"englishNote" : ""
+					},
+					"2" : {
+						"event" : "Receive",
+						"media" : "get_9",
+						"chinese" : "逐渐习惯和指挥官相处了，趁着改造的机会就稍微放松了一些……舞蹈？呵呵，不是那么简单就给人看的东西哦",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "指揮官とはかれこれ付き合いが長いですし、改造で少しおめかししました。……舞？うふふ、そう簡単に見せられるものじゃありませんよ？",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Since I've gotten used to living with you, Commander, I've decided to be more laid-back after receiving my remodel. My dance? Hehe... I can't show that to just anyone so easily.",
+						"englishNote" : ""
+					},
+					"3" : {
+						"event" : "Log in",
+						"media" : "login_9",
+						"chinese" : "指挥官，休息的如何，需要我代为处理公务吗？",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "指揮官、休めました？公務のほうは少し私が代わってもいかがかしら？",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Did you sleep well, Commander? Do you need any help with fleet administration?",
+						"englishNote" : ""
+					},
+					"4" : {
+						"event" : "View details",
+						"media" : "detail_9",
+						"chinese" : "指挥官，有什么战术要和我讨论的吗？或者坐下来聊天也可以",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "指揮官？何か議論したいことがあるのではなくて？あ、雑談でもいいですよ？",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Commander, do you have any tactics you'd like to discuss with me? If you'd like... we can also just sit down and have a chat.",
+						"englishNote" : ""
+					},
+					"5" : {
+						"event" : "Main screen 1",
+						"media" : "main_1_9",
+						"chinese" : "相信自己是正确的并证明它是很难的，指挥官，让我们一起加油吧",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "自らのやり方を信じて、正しいと証明してみせるのは難しいですよ。指揮官、一緒に頑張りましょう",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Sometimes it's hard to prove to others that what you believe is right. Commander, let's do our best together!",
+						"englishNote" : ""
+					},
+					"6" : {
+						"event" : "Main screen 2",
+						"media" : "main_2_9",
+						"chinese" : "思虑过多也不全是好事，有时候我也挺羡慕川内那样直来直去的……",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "思慮に思慮を重ねるのはよろしくない場合があります。私だって、時には川内の愚直さが羨ましくて……",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Every now and then, I get a bit jealous of Sendai and how straightforward she is...",
+						"englishNote" : ""
+					},
+					"7" : {
+						"event" : "Main screen 3",
+						"media" : "main_3_9",
+						"chinese" : "就算谨慎会被称作软弱，只要舰队的大家能理解对现在的我来说就足够了",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "軟弱と言われても、今の艦隊の皆に理解されれば満足です",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Even though some people may think that cautiousness is a sign of weakness, I'll be happy as long as our fleet truly understands me...",
+						"englishNote" : ""
+					},
+					"8" : {
+						"event" : "Normal touch",
+						"media" : "touch_1_9",
+						"chinese" : "这么想看我跳舞的话倒也不是不行呢，不过在那之前请好好工作~",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "私の舞を見たければ、お見せしてもいいですよ。ただーーその前にちゃんとお仕事、してくださいね",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "There's nothing wrong with wanting to see me dance... I'll show you, but only if you work seriously first!",
+						"englishNote" : ""
+					},
+					"9" : {
+						"event" : "Special touch",
+						"media" : "touch_2_9",
+						"chinese" : "指挥官，要是以为谨慎等于包容那就大错特错了哦？",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "指揮官、慎重さを寛容さと履き違えたら大間違いですよ？",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Commander, please do not mistake my cautiousness for tolerance.",
+						"englishNote" : ""
+					},
+					"10" : {
+						"event" : "Mission complete",
+						"media" : "mission_complete_9",
+						"chinese" : "奖励下达了，要看点开心的东西放松一下吗？",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "指揮官、報酬が届きました。嬉しいニュースでも聞いてゆっくりしてみてはいかがかしら？",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Rewards have been issued! Want to see something interesting now that we can take it easy?",
+						"englishNote" : ""
+					},
+					"11" : {
+						"event" : "Enhancing complete",
+						"media" : "upgrade_9",
+						"chinese" : "为了大家，我也再努努力吧",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "皆のためにも、もっと頑張らないといけませんね",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "I can always work harder for the fleet!",
+						"englishNote" : ""
+					},
+					"12" : {
+						"event" : "Flagship fight",
+						"media" : "warcry_9",
+						"chinese" : "大家做好准备……突击！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "用意はいい？突撃せよ！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Everyone, get ready! ... Press forward!",
+						"englishNote" : ""
+					},
+					"13" : {
+						"event" : "Victory",
+						"media" : "mvp_9",
+						"chinese" : "我只是下了突击的命令而已，都是大家的功劳",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "私は何もしなかったのです。ただ突撃せよと命令しただけ",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "I only gave the orders, the real credit goes to the fleet!",
+						"englishNote" : ""
+					}
+				}
+			}
+		}
+	}
+}

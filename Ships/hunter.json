@@ -1,592 +1,607 @@
 {
-  "name": "Hunter",
-  "nameJP": "ハンター",
-  "nameCN": "猎人",
-  "class": "H",
-  "hull": "Destroyer",
-  "prefix": "HMS",
-  "ID": "100",
-  "file_id": "100_Hunter",
-  "navy": "Royal Navy",
-  "initialStar": "★★☆☆☆",
-  "rarity": "Rare",
-  "buildTime": "",
-  "acquisitionMethod": "Provisional Ship in event \"Star of the Shining Fjord\". Will officially join your fleet if requirements are met.",
-  "enhance": {
-    "firepower": "5",
-    "torpedo": "22",
-    "aviation": "0",
-    "reload": "14"
-  },
-  "scrap": {
-    "gold": "4",
-    "oil": "3",
-    "medal": "1"
-  },
-  "skin": {
-    "1": {
-      "name": "Default",
-      "description": "H-class Destroyer - Hunter. Pennant number: H35",
-      "expression": {
-        "1": {
-          "label": "Default"
-        },
-        "2": {
-          "label": "Default"
-        },
-        "3": {
-          "label": "Default"
-        },
-        "4": {
-          "label": "Default"
-        }
-      }
-    }
-  },
-  "releaseDate": {
-    "JP": "March 7, 2019",
-    "CN": "March 7, 2019",
-    "KR": "",
-    "EN": ""
-  },
-  "voiceActress": "",
-  "artist": {
-    "name": "Alisa",
-    "weibo": "https://weibo.com/u/6056658230",
-    "twitter": "",
-    "pixiv": "https://www.pixiv.net/member.php?id=1966676",
-    "other": ""
-  },
-  "parameters": {
-    "hp": "D",
-    "antiAir": "D",
-    "evasion": "A",
-    "aviation": "E",
-    "torpedo": "B",
-    "firepower": "D"
-  },
-  "stats": {
-    "100": {
-      "hp": "1142",
-      "armor": "Light",
-      "reload": "171",
-      "firepower": "66",
-      "torpedo": "316",
-      "evasion": "204",
-      "antiAir": "146",
-      "aviation": "0",
-      "cost": "8",
-      "asw": "168",
-      "speed": "43",
-      "luck": "24"
-    },
-    "120": {
-      "hp": "1370",
-      "armor": "Light",
-      "reload": "196",
-      "firepower": "76",
-      "torpedo": "356",
-      "evasion": "210",
-      "antiAir": "156",
-      "aviation": "0",
-      "cost": "8",
-      "asw": "187",
-      "speed": "43",
-      "luck": "24"
-    },
-    "base": {
-      "hp": "221",
-      "armor": "Light",
-      "reload": "72",
-      "firepower": "14",
-      "torpedo": "67",
-      "evasion": "78",
-      "antiAir": "29",
-      "aviation": "0",
-      "cost": "2",
-      "asw": "46",
-      "speed": "43",
-      "luck": "24"
-    },
-    "100retrofit": {
-      "hp": "",
-      "armor": "",
-      "reload": "",
-      "firepower": "",
-      "torpedo": "",
-      "evasion": "",
-      "antiAir": "",
-      "aviation": "",
-      "cost": "",
-      "asw": "",
-      "speed": "",
-      "luck": ""
-    },
-    "120retrofit": {
-      "hp": "",
-      "armor": "",
-      "reload": "",
-      "firepower": "",
-      "torpedo": "",
-      "evasion": "",
-      "antiAir": "",
-      "aviation": "",
-      "cost": "",
-      "asw": "",
-      "speed": "",
-      "luck": ""
-    }
-  },
-  "limitBreak": {
-    "tier1": "Gains Full Barrage I / Main Gun Weapon Efficiency +5%",
-    "tier2": "Max Torpedo Capacity +1 / Pre-loaded Torpedo +1 / Main Gun Efficiency +10%",
-    "tier3": "Upgrades Full Barrage I→II / All Weapon Efficiency +5%"
-  },
-  "equipmentLoadout": {
-    "1": {
-      "type": "Destroyer Gun",
-      "efficiency": "105%/110%/120%/125%",
-      "amount": "1/1/1/1",
-      "preload": "0/0/0/0"
-    },
-    "2": {
-      "type": "Torpedo",
-      "efficiency": "125%/125%/125%/130%",
-      "amount": "1/1/2/2",
-      "preload": "0/0/1/1"
-    },
-    "3": {
-      "type": "Anti-aircraft Gun",
-      "efficiency": "100%/100%/100%/105%",
-      "amount": "1/1/1/1",
-      "preload": "0/0/0/0"
-    },
-    "4": {
-      "type": "Auxilliary",
-      "efficiency": "-",
-      "amount": "-",
-      "preload": "-"
-    },
-    "5": {
-      "type": "Auxilliary",
-      "efficiency": "-",
-      "amount": "-",
-      "preload": "-"
-    }
-  },
-  "defaultEquipment": {
-    "1": "Single 120mm (QF Mark IX) T1"
-  },
-  "skill": {
-    "1": {
-      "name": "Rapid Response",
-      "type": "Support",
-      "requirement": "Default Unlocked",
-      "description": "Upon sortie start, increase own Firepower and Torpedo by 9.0% (24%). Then for every 12 seconds, decrease own Firepower and Torpedo by 3.0%(8%). Effect can only be stacked up to 3 times."
-    },
-    "2": {
-      "name": "Full Barrage I-II",
-      "type": "Offensive",
-      "requirement": "Limit Break Rank 1, Rank 3 upgrade",
-      "description": "Every 15 (10) times the main battery is fired, trigger Full Barrage - H-class I (II)"
-    }
-  },
-  "build": {
-    "light": {
-      "JP": "-",
-      "CN": "-",
-      "EN": "-"
-    },
-    "heavy": {
-      "JP": "-",
-      "CN": "-",
-      "EN": "-"
-    },
-    "special": {
-      "JP": "-",
-      "CN": "-",
-      "EN": "-"
-    },
-    "limited": {
-      "JP": "-",
-      "CN": "-",
-      "EN": "-"
-    }
-  },
-  "drop": {
-    "droppable": "false",
-    "list": {
-      "1": {
-        "event": "World",
-        "chapter": {
-          "1": {
-            "label": "Ch.2",
-            "node": {
-              "1": {
-                "drop": "✓",
-                "note": "JP Only"
-              },
-              "2": {
-                "drop": "✓",
-                "note": "JP Only"
-              },
-              "3": {
-                "drop": "✓",
-                "note": "JP Only"
-              },
-              "4": {
-                "drop": "✓",
-                "note": "JP Only"
-              }
-            }
-          }
-        }
-      }
-    }
-  },
-  "lines": {
-    "skin": {
-      "1": {
-        "label": "Default",
-        "dialogue": {
-          "1": {
-            "event": "Ship Description",
-            "media": "",
-            "chinese": "H级驱逐舰—猎人，舷号H35",
-            "chineseTL": "H-class Destroyer - Hunter. Pennant number: H35",
-            "chineseNote": "",
-            "japanese": "H級駆逐艦・ハンター（H35)",
-            "japaneseTL": "",
-            "japaneseNote": "",
-            "english": "",
-            "englishNote": ""
-          },
-          "2": {
-            "event": "Self Introduction",
-            "media": "self_introduction",
-            "chinese": "我是皇家海军H级的猎人，参与纳尔维克海战时输给了铁血的驱逐……猎人被猎物咬死，大概也是一种宿命吧",
-            "chineseTL": "I am H class's Hunter. At narvik I lost to a submarine.. a hunter gets hunted. How ironic.",
-            "chineseNote": "",
-            "japanese": "ロイヤルネイビーHクラス、ハンター。ナルヴィク海戦で鉄血の駆逐艦に敗れた。獲物に噛まれるハンター、別におかしくない……",
-            "japaneseTL": "",
-            "japaneseNote": "",
-            "english": "",
-            "englishNote": ""
-          },
-          "3": {
-            "event": "Acquisition",
-            "media": "acquisition",
-            "chinese": "指挥官，你好，我是猎人。……？我还要说些什么吗？",
-            "chineseTL": "Hello Commander. I'm Hunter. ...? What else did you want me to say?",
-            "chineseNote": "",
-            "japanese": "指揮官、こんにちは。わたしはハンター。……ほかに、言うべきことは…？",
-            "japaneseTL": "",
-            "japaneseNote": "",
-            "english": "",
-            "englishNote": ""
-          },
-          "4": {
-            "event": "Login",
-            "media": "login",
-            "chinese": "指挥官，要和我一起去打猎吗？",
-            "chineseTL": "Commander, care to join me in a hunt?",
-            "chineseNote": "",
-            "japanese": "指揮官、ハンティング、いい？",
-            "japaneseTL": "",
-            "japaneseNote": "",
-            "english": "",
-            "englishNote": ""
-          },
-          "5": {
-            "event": "Details",
-            "media": "details",
-            "chinese": "指挥官，我收集的战利品，想看吗？",
-            "chineseTL": "Commander I have collected some loot, wanna take a look?",
-            "chineseNote": "",
-            "japanese": "指揮官、わたしの戦利品コレクション…見たい？",
-            "japaneseTL": "",
-            "japaneseNote": "",
-            "english": "",
-            "englishNote": ""
-          },
-          "6": {
-            "event": "Idle 1",
-            "media": "idle_1",
-            "chinese": "这孩子？是我最重要的小伙伴哦",
-            "chineseTL": "This child? It's my most important little buddy.",
-            "chineseNote": "",
-            "japanese": "この子？大切な仲間",
-            "japaneseTL": "",
-            "japaneseNote": "",
-            "english": "",
-            "englishNote": ""
-          },
-          "7": {
-            "event": "Idle 2",
-            "media": "idle_2",
-            "chinese": "其实我也不讨厌勇敢，但她有时候真的有点啰嗦……",
-            "chineseTL": "I don't hate Hardy, but sometimes she really is naggy.",
-            "chineseNote": "",
-            "japanese": "ハーディのことは嫌じゃない。時々、うるさく感じるけど……",
-            "japaneseTL": "",
-            "japaneseNote": "",
-            "english": "",
-            "englishNote": ""
-          },
-          "8": {
-            "event": "Idle 3",
-            "media": "idle_3",
-            "chinese": "指挥官，一般打猎是不会穿成我这样的，这只是兴趣而已",
-            "chineseTL": "Commander, most boats wouldn't dress like me, It's only my hobby.",
-            "chineseNote": "",
-            "japanese": "この格好は……指揮官、ハンティングする時は真似しなくていい",
-            "japaneseTL": "",
-            "japaneseNote": "",
-            "english": "",
-            "englishNote": ""
-          },
-          "9": {
-            "event": "Touch",
-            "media": "touch",
-            "chinese": "这不是猎枪，是鱼雷管",
-            "chineseTL": "This isn't a hunting rifle, it's a torpedo tube.",
-            "chineseNote": "",
-            "japanese": "猟銃ではない、魚雷発射管",
-            "japaneseTL": "",
-            "japaneseNote": "",
-            "english": "",
-            "englishNote": ""
-          },
-          "10": {
-            "event": "Special Touch",
-            "media": "special_touch",
-            "chinese": "指挥官，Lock on……",
-            "chineseTL": "Commander, Lock on...",
-            "chineseNote": "",
-            "japanese": "「指揮官に、ロックオン」",
-            "japaneseTL": "",
-            "japaneseNote": "",
-            "english": "",
-            "englishNote": ""
-          },
-          "11": {
-            "event": "Mission",
-            "media": "mission",
-            "chinese": "这次的悬赏令是要猎杀什么？",
-            "chineseTL": "What will you have me kill this time?",
-            "chineseNote": "",
-            "japanese": "今度の賞金首は…？",
-            "japaneseTL": "",
-            "japaneseNote": "",
-            "english": "",
-            "englishNote": ""
-          },
-          "12": {
-            "event": "Mission Complete",
-            "media": "mission_complete",
-            "chinese": "怎么？难道想让我给你吹胜利号吗？",
-            "chineseTL": "What? Do you want me to blow you a victory?",
-            "chineseNote": "",
-            "japanese": "なに？勝利のラッパを吹いてほしいと…？",
-            "japaneseTL": "",
-            "japaneseNote": "",
-            "english": "",
-            "englishNote": ""
-          },
-          "13": {
-            "event": "Mail",
-            "media": "mail",
-            "chinese": "信件，会有狩猎情报吗？",
-            "chineseTL": "Letters, will there be hunting reports?",
-            "chineseNote": "",
-            "japanese": "メール。ハンティングの情報はないかな？",
-            "japaneseTL": "",
-            "japaneseNote": "",
-            "english": "",
-            "englishNote": ""
-          },
-          "14": {
-            "event": "Return from Sortie",
-            "media": "return_from_sortie",
-            "chinese": "指挥官，有战利品吗？",
-            "chineseTL": "Commander, any loot?",
-            "chineseNote": "",
-            "japanese": "指揮官、獲物は？",
-            "japaneseTL": "",
-            "japaneseNote": "",
-            "english": "",
-            "englishNote": ""
-          },
-          "15": {
-            "event": "Commission Complete",
-            "media": "commission_complete",
-            "chinese": "战斗前的准备越充分越好",
-            "chineseTL": "It's best to be prepared before a battle.",
-            "chineseNote": "",
-            "japanese": "準備しておくに越したことはない",
-            "japaneseTL": "",
-            "japaneseNote": "",
-            "english": "",
-            "englishNote": ""
-          },
-          "16": {
-            "event": "Enhancement",
-            "media": "enhancement",
-            "chinese": "嗯，下次可以尝试一些大家伙了……",
-            "chineseTL": "Next time, I'll try out my newly enhanced big buddy!",
-            "chineseNote": "",
-            "japanese": "うん、次は大きいのを狙おう……",
-            "japaneseTL": "",
-            "japaneseNote": "",
-            "english": "",
-            "englishNote": ""
-          },
-          "17": {
-            "event": "Sortie Start",
-            "media": "sortie_start",
-            "chinese": "你们已经跑不了了",
-            "chineseTL": "Now you can't run.",
-            "chineseNote": "",
-            "japanese": "…逃さない",
-            "japaneseTL": "",
-            "japaneseNote": "",
-            "english": "",
-            "englishNote": ""
-          },
-          "18": {
-            "event": "MVP",
-            "media": "mvp",
-            "chinese": "把敌人当做猎物的话，还是挺简单的……",
-            "chineseTL": "It's not so simple, treating people like game",
-            "chineseNote": "",
-            "japanese": "獲物だと考えていれば、獲りやすい……",
-            "japaneseTL": "",
-            "japaneseNote": "",
-            "english": "",
-            "englishNote": ""
-          },
-          "19": {
-            "event": "Defeat",
-            "media": "defeat",
-            "chinese": "猎人与猎物的关系可不是一成不变的",
-            "chineseTL": "Even the hunter could sometimes lose to the prey",
-            "chineseNote": "",
-            "japanese": "追う者も、追われる者も、変わらない者はいない……",
-            "japaneseTL": "",
-            "japaneseNote": "",
-            "english": "",
-            "englishNote": ""
-          },
-          "20": {
-            "event": "Skill Activation",
-            "media": "skill_activation",
-            "chinese": "越是挣扎，越是痛苦……",
-            "chineseTL": "The more you struggle the more it hurts...",
-            "chineseNote": "",
-            "japanese": "もがけばもがくほど、苦しむだけ",
-            "japaneseTL": "",
-            "japaneseNote": "",
-            "english": "",
-            "englishNote": ""
-          },
-          "21": {
-            "event": "Low Health",
-            "media": "low_health",
-            "chinese": "这次的猎物，有点凶猛呢……",
-            "chineseTL": "The prey this time, it's tough..",
-            "chineseNote": "",
-            "japanese": "獲物…手強いね……",
-            "japaneseTL": "",
-            "japaneseNote": "",
-            "english": "",
-            "englishNote": ""
-          },
-          "22": {
-            "event": "Affinity (Disappointed)",
-            "media": "affinity_disappointed",
-            "chinese": "……（猎人的小伙伴在冲你狂吠不止）",
-            "chineseTL": ".... (hunter's little buddy barks and rushes at you)",
-            "chineseNote": "",
-            "japanese": "……（ハンターの仲間があなたに向かって吠えてきた）",
-            "japaneseTL": "",
-            "japaneseNote": "",
-            "english": "",
-            "englishNote": ""
-          },
-          "23": {
-            "event": "Affinity (Stranger)",
-            "media": "affinity_stranger",
-            "chinese": "港区附近…有猎场吗？",
-            "chineseTL": "This port.. are there any prey?",
-            "chineseNote": "",
-            "japanese": "母港周辺で…狩場ある？",
-            "japaneseTL": "",
-            "japaneseNote": "",
-            "english": "",
-            "englishNote": ""
-          },
-          "24": {
-            "event": "Affinity (Friendly)",
-            "media": "affinity_friendly",
-            "chinese": "对于猎人而言，没有不能猎杀的猎物，只有不够充分的准备",
-            "chineseTL": "With enough preparation, there's no prey that can't be hunted.",
-            "chineseNote": "",
-            "japanese": "ハンターに狩れないものは、ない。あるとしたら、それはまだ準備が十分じゃないだけ",
-            "japaneseTL": "",
-            "japaneseNote": "",
-            "english": "",
-            "englishNote": ""
-          },
-          "25": {
-            "event": "Affinity (Like)",
-            "media": "affinity_like",
-            "chinese": "指挥官，你今天晚餐想吃什么？我看看能不能打下来几只",
-            "chineseTL": "Commander, what you would like to have for dinner? I'll see if I could bag a few.",
-            "chineseNote": "",
-            "japanese": "指揮官、夜はなにを食べたい？何匹か獲ってくる",
-            "japaneseTL": "",
-            "japaneseNote": "",
-            "english": "",
-            "englishNote": ""
-          },
-          "26": {
-            "event": "Affinity (Love)",
-            "media": "affinity_love",
-            "chinese": "战争结束的话，想和指挥官一起去打猎……嗯，就我们两个人",
-            "chineseTL": "Commander, would you join me in a hunt after the war? Just the two of us...",
-            "chineseNote": "",
-            "japanese": "戦争が終わったら、指揮官と狩りに行きたい……うん、ハンターと指揮官だけで",
-            "japaneseTL": "",
-            "japaneseNote": "",
-            "english": "",
-            "englishNote": ""
-          },
-          "27": {
-            "event": "Pledge",
-            "media": "pledge",
-            "chinese": "真正的猎人，是会为了寻找猎物而四处漂泊的……不过有个据点，不、有个家，好像也不错",
-            "chineseTL": "A true hunter wanders around all four corners of the earth in search of prey. But to have a home.. it's not so bad.",
-            "chineseNote": "",
-            "japanese": "ハンターは獲物を求めてさまよう者……だけど、拠点、ううん、「お家」を持っても…良さそうね",
-            "japaneseTL": "",
-            "japaneseNote": "",
-            "english": "",
-            "englishNote": ""
-          },
-          "29": {
-            "event": "Easter Egg 1 (Hardy)",
-            "media": "easter_egg_1",
-            "chinese": "勇敢，我听到了，别那么大声",
-            "chineseTL": "I hear you, don't be so loud.",
-            "chineseNote": "",
-            "japanese": "ハーディ、聞いてるから、そんなに大声出さなくても",
-            "japaneseTL": "",
-            "japaneseNote": "",
-            "english": "",
-            "englishNote": ""
-          }
-        }
-      }
-    }
-  }
+	"name_reference": "hunter",
+	"cn_reference": "lieren",
+	"nameJP": "ハンター",
+	"nameCN": "猎人",
+	"ID": "100",
+	"name": "Hunter",
+	"internal_id": "201201",
+	"rarity": "Rare",
+	"initialStar": "★★☆☆☆",
+	"hull": "Destroyer",
+	"navy": "Royal Navy",
+	"prefix": "HMS",
+	"buildTime": "",
+	"class": "",
+	"voiceActress": "Ayaka Nanase",
+	"parameters": {
+		"firepower": "D",
+		"torpedo": "B",
+		"aviation": "E",
+		"evasion": "A",
+		"antiAir": "D",
+		"hp": "D"
+	},
+	"scrap": {
+		"gold": "4",
+		"oil": "3",
+		"medal": "1"
+	},
+	"releaseDate": {
+		"JP": "March 7, 2019",
+		"CN": "March 7, 2019",
+		"KR": "",
+		"EN": ""
+	},
+	"artist": {
+		"name": "Alisa",
+		"weibo": "https://weibo.com/u/6056658230",
+		"twitter": "",
+		"pixiv": "https://www.pixiv.net/member.php?id=1966676",
+		"other": ""
+	},
+	"enhance": {
+		"firepower": "5",
+		"torpedo": "22",
+		"aviation": "0",
+		"reload": "14"
+	},
+	"acquisitionMethod": "Provisional Ship in event \"Star of the Shining Fjord\". Will officially join your fleet if requirements are met.",
+	"skill": {
+		"1": {
+			"icon": "5101",
+			"requirement": "Default Unlocked",
+			"name": "Rapid Response",
+			"type": "Support",
+			"description": "Upon sortie start, increase own Firepower and Torpedo by 9.0% (24%). Then for every 12 seconds, decrease own Firepower and Torpedo by 3.0%(8%). Effect can only be stacked up to 3 times."
+		},
+		"2": {
+			"icon": "21061",
+			"requirement": "Limit Break Rank 1, Rank 3 upgrade",
+			"name": "Full Barrage I-II",
+			"type": "Offensive",
+			"description": "Every 15 (10) times the main battery is fired, trigger Full Barrage - H-class I (II)"
+		}
+	},
+	"skin": {
+		"1": {
+			"id": "lieren",
+			"name": "ハンター",
+			"description": "H級駆逐艦・ハンター（H35)",
+			"expression": {
+				"0": {
+					"id": "0"
+				}
+			}
+		}
+	},
+	"defaultEquipment": {
+		"1": {
+			"icon": "21300",
+			"rarity": "",
+			"name": "Single 120mm Main Gun"
+		},
+		"2": {
+			"icon": "",
+			"rarity": "",
+			"name": ""
+		},
+		"3": {
+			"icon": "",
+			"rarity": "",
+			"name": ""
+		}
+	},
+	"stats": {
+		"100": {
+			"hp": "1142",
+			"firepower": "66",
+			"torpedo": "316",
+			"antiAir": "136",
+			"aviation": "0",
+			"reload": "171",
+			"hit": "182",
+			"evasion": "204",
+			"speed": "43.2",
+			"luck": "24",
+			"asw": "168",
+			"oxygen": "0",
+			"ammo": "0",
+			"cost": "8",
+			"armor": "Light"
+		},
+		"120": {
+			"hp": "1370",
+			"firepower": "76",
+			"torpedo": "356",
+			"antiAir": "156",
+			"aviation": "0",
+			"reload": "196",
+			"hit": "191",
+			"evasion": "210",
+			"speed": "43.2",
+			"luck": "24",
+			"asw": "187",
+			"oxygen": "0",
+			"ammo": "0",
+			"cost": "8",
+			"armor": "Light"
+		},
+		"base": {
+			"hp": "221",
+			"firepower": "14",
+			"torpedo": "67",
+			"antiAir": "29",
+			"aviation": "0",
+			"reload": "72",
+			"hit": "70",
+			"evasion": "78",
+			"speed": "43.2",
+			"luck": "24",
+			"asw": "46",
+			"oxygen": "0",
+			"ammo": "0",
+			"cost": "2",
+			"armor": "Light"
+		},
+		"100retrofit": {
+			"hp": "",
+			"firepower": "",
+			"torpedo": "",
+			"antiAir": "",
+			"aviation": "",
+			"reload": "",
+			"hit": "",
+			"evasion": "",
+			"speed": "43.2",
+			"luck": "24",
+			"asw": "",
+			"oxygen": "0",
+			"ammo": "0",
+			"cost": "8",
+			"armor": "Light"
+		},
+		"120retrofit": {
+			"hp": "",
+			"firepower": "",
+			"torpedo": "",
+			"antiAir": "",
+			"aviation": "",
+			"reload": "",
+			"hit": "",
+			"evasion": "",
+			"speed": "43.2",
+			"luck": "24",
+			"asw": "",
+			"oxygen": "0",
+			"ammo": "0",
+			"cost": "8",
+			"armor": "Light"
+		}
+	},
+	"limitBreak": {
+		"tier1": "Gains Full Barrage I / Main Gun Weapon Efficiency +5%",
+		"tier2": "Max Torpedo Capacity +1 / Pre-loaded Torpedo +1 / Main Gun Efficiency +10%",
+		"tier3": "Upgrades Full Barrage I→II / All Weapon Efficiency +5%"
+	},
+	"equipmentLoadout": {
+		"1": {
+			"type": "Destroyer Gun",
+			"efficiency": "105%/110%/120%/125%",
+			"amount": "1/1/1/1",
+			"preload": "0/0/0/0"
+		},
+		"2": {
+			"type": "Torpedo",
+			"efficiency": "125%/125%/125%/130%",
+			"amount": "1/1/2/2",
+			"preload": "0/0/1/1"
+		},
+		"3": {
+			"type": "Anti-Air Gun",
+			"efficiency": "100%/100%/100%/105%",
+			"amount": "1/1/1/1",
+			"preload": "0/0/0/0"
+		},
+		"4": {
+			"type": "Auxilary",
+			"efficiency": "-",
+			"amount": "-",
+			"preload": "-"
+		},
+		"5": {
+			"type": "Auxilary",
+			"efficiency": "-",
+			"amount": "-",
+			"preload": "-"
+		}
+	},
+	"build": {
+		"light": {
+			"JP": "-",
+			"CN": "-",
+			"EN": "-"
+		},
+		"heavy": {
+			"JP": "-",
+			"CN": "-",
+			"EN": "-"
+		},
+		"special": {
+			"JP": "-",
+			"CN": "-",
+			"EN": "-"
+		},
+		"limited": {
+			"JP": "-",
+			"CN": "-",
+			"EN": "-"
+		}
+	},
+	"drop": {
+		"droppable": "false",
+		"list": {
+			"1": {
+				"event": "",
+				"chapter": {
+					"1": {
+						"label": "Ch .1",
+						"node": {
+							"1": {
+								"drop": "✓",
+								"note": "-"
+							}
+						}
+					}
+				}
+			}
+		}
+	},
+	"lines": {
+		"skin": {
+			"1": {
+				"skin_id": "lieren",
+				"id": "0",
+				"label": "ハンター",
+				"dialogue": {
+					"1": {
+						"event": "Ship Description",
+						"media": "",
+						"chinese": "H级驱逐舰—猎人，舷号H35",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "H級駆逐艦・ハンター（H35)",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"2": {
+						"event": "Biography",
+						"media": "profile",
+						"chinese": "我是皇家海军H级的猎人，参与纳尔维克海战时输给了铁血的驱逐……猎人被猎物咬死，大概也是一种宿命吧",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "ロイヤルネイビーHクラス、ハンター。ナルヴィク海戦で鉄血の駆逐艦に敗れた。獲物に噛まれるハンター、別におかしくない……",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"3": {
+						"event": "Receive",
+						"media": "get",
+						"chinese": "指挥官，你好，我是猎人。……？我还要说些什么吗？",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "指揮官、こんにちは。わたしはハンター。……ほかに、言うべきことは…？",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"4": {
+						"event": "Log in",
+						"media": "login",
+						"chinese": "指挥官，要和我一起去打猎吗？",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "指揮官、ハンティング、いい？",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"5": {
+						"event": "View details",
+						"media": "detail",
+						"chinese": "指挥官，我收集的战利品，想看吗？",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "指揮官、わたしの戦利品コレクション…見たい？",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"6": {
+						"event": "Main screen 1",
+						"media": "main_1",
+						"chinese": "这孩子？是我最重要的小伙伴哦",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "この子？大切な仲間",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"7": {
+						"event": "Main screen 2",
+						"media": "main_2",
+						"chinese": "其实我也不讨厌勇敢，但她有时候真的有点啰嗦……",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "ハーディのことは嫌じゃない。時々、うるさく感じるけど……",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"8": {
+						"event": "Main screen 3",
+						"media": "main_3",
+						"chinese": "指挥官，一般打猎是不会穿成我这样的，这只是兴趣而已",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "この格好は……指揮官、ハンティングする時は真似しなくていい",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"9": {
+						"event": "Normal touch",
+						"media": "touch_1",
+						"chinese": "这不是猎枪，是鱼雷管",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "猟銃ではない、魚雷発射管",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"10": {
+						"event": "Special touch",
+						"media": "touch_2",
+						"chinese": "指挥官，Lock on……",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "「指揮官に、ロックオン」",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"11": {
+						"event": "Mission reminder",
+						"media": "task",
+						"chinese": "这次的悬赏令是要猎杀什么？",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "今度の賞金首は…？",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"12": {
+						"event": "Mission complete",
+						"media": "mission_complete",
+						"chinese": "怎么？难道想让我给你吹胜利号吗？",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "なに？勝利のラッパを吹いてほしいと…？",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"13": {
+						"event": "Mail reminder",
+						"media": "mail",
+						"chinese": "信件，会有狩猎情报吗？",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "メール。ハンティングの情報はないかな？",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"14": {
+						"event": "Return to port",
+						"media": "home",
+						"chinese": "指挥官，有战利品吗？",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "指揮官、獲物は？",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"15": {
+						"event": "Commission complete",
+						"media": "expedition",
+						"chinese": "战斗前的准备越充分越好",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "準備しておくに越したことはない",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"16": {
+						"event": "Enhancing complete",
+						"media": "upgrade",
+						"chinese": "嗯，下次可以尝试一些大家伙了……",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "うん、次は大きいのを狙おう……",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"17": {
+						"event": "Flagship fight",
+						"media": "warcry",
+						"chinese": "你们已经跑不了了",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "…逃さない",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"18": {
+						"event": "Victory",
+						"media": "mvp",
+						"chinese": "把敌人当做猎物的话，还是挺简单的……",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "獲物だと考えていれば、獲りやすい……",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"19": {
+						"event": "Defeat",
+						"media": "lose",
+						"chinese": "猎人与猎物的关系可不是一成不变的",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "追う者も、追われる者も、変わらない者はいない……",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"20": {
+						"event": "Skills",
+						"media": "skill",
+						"chinese": "越是挣扎，越是痛苦……",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "もがけばもがくほど、苦しむだけ",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"21": {
+						"event": "Low HP",
+						"media": "hp",
+						"chinese": "这次的猎物，有点凶猛呢……",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "獲物…手強いね……",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"22": {
+						"event": "Upset",
+						"media": "feeling1",
+						"chinese": "……（猎人的小伙伴在冲你狂吠不止）",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "……（ハンターの仲間があなたに向かって吠えてきた）",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"23": {
+						"event": "Stranger",
+						"media": "feeling2",
+						"chinese": "港区附近…有猎场吗？",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "母港周辺で…狩場ある？",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"24": {
+						"event": "Friendly",
+						"media": "feeling3",
+						"chinese": "对于猎人而言，没有不能猎杀的猎物，只有不够充分的准备",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "ハンターに狩れないものは、ない。あるとしたら、それはまだ準備が十分じゃないだけ",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"25": {
+						"event": "Crush",
+						"media": "feeling4",
+						"chinese": "指挥官，你今天晚餐想吃什么？我看看能不能打下来几只",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "指揮官、夜はなにを食べたい？何匹か獲ってくる",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"26": {
+						"event": "Love",
+						"media": "feeling5",
+						"chinese": "战争结束的话，想和指挥官一起去打猎……嗯，就我们两个人",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "戦争が終わったら、指揮官と狩りに行きたい……うん、ハンターと指揮官だけで",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"27": {
+						"event": "Promise",
+						"media": "propose",
+						"chinese": "真正的猎人，是会为了寻找猎物而四处漂泊的……不过有个据点，不、有个家，好像也不错",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "ハンターは獲物を求めてさまよう者……だけど、拠点、ううん、「お家」を持っても…良さそうね",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"28": {
+						"event": "Easter Egg 1(Hardy)",
+						"media": "link1",
+						"chinese": "勇敢，我听到了，别那么大声",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "ハーディ、聞いてるから、そんなに大声出さなくても",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					}
+				}
+			}
+		}
+	}
 }

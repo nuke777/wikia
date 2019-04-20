@@ -1,74 +1,19 @@
 {
-	"name": "Seattle",
-	"nameJP": "シアトル",
-	"nameCN": "",
-	"class": "Seattle",
-	"hull": "Light Cruiser",
-	"prefix": "USS",
-	"ID": "P007",
-	"file_id": "Plan008_Seattle",
-	"navy": "Eagle Union",
-	"initialStar": "★★★☆☆☆",
-	"rarity": "Priority",
-	"buildTime": "N/A",
-	"acquisitionMethod": "Priority Research",
-	"enhance": {
-		"firepower" : "0",
-		"torpedo" : "0",
-		"aviation" : "0",
-		"reload" : "0"
-	},
-	"scrap": {
-		"gold": "",
-		"oil": "",
-		"medal": ""
-	},
-	"skin": {
-		"1": {
-			"name": "Default",
-			"description": "Early design developed into Worcester Class of Light Cruisers, Seattle",
-			"expression": {
-				"1": {
-					"label": "Default"
-				},
-				"2": {
-					"label": "Default"
-				},
-				"3": {
-					"label": "Default"
-				},
-				"4": {
-					"label": "Default"
-				},
-				"5": {
-					"label": "Default"
-				},
-				"6": {
-					"label": "Default"
-				},
-				"7": {
-					"label": "Default"
-				},
-				"8": {
-					"label": "Default"
-				}
-			}
-		}
-	},
-	"releaseDate": {
-		"JP": "April 18, 2019",
-		"CN": "April 18, 2019",
-		"KR": "April 18, 2019",
-		"EN": ""
-	},
-	"voiceActress": "Tomori Kusunoki",
-	"artist": {
-		"name": "nineo",
-		"weibo": "https://www.weibo.com/p/1005051869856223",
-		"twitter": "https://twitter.com/nineeeeeeeeo",
-		"pixiv": "https://www.pixiv.net/member.php?id=2827978",
-		"other": ""
-	},
+	"name_reference" : "seattle",
+	"cn_reference" : "xiyatu",
+	"nameJP" : "シアトル",
+	"nameCN" : "",	
+	"ID" : "P007",
+	"name" : "Seattle",
+	"internal_id" : "199011",
+	"rarity" : "Priority",
+	"initialStar" : "★★★☆☆☆",
+	"hull" : "Light Cruiser",
+	"navy" : "Eagle Union",
+	"prefix" : "USS",
+	"buildTime" : "N/A",
+	"class" : "Seattle",
+	"voiceActress" : "Tomori Kusunoki",
 	"parameters": {
 		"firepower" : "B",
 		"torpedo" : "E",
@@ -76,6 +21,111 @@
 		"evasion" : "B",
 		"antiAir" : "A",
 		"hp" : "B"
+	},
+	"scrap": {
+		"gold" : "6",
+		"oil" : "3",
+		"medal" : "10"
+	},
+	"releaseDate": {
+		"JP": "April 18, 2019",
+		"CN": "April 18, 2019",
+		"KR": "April 18, 2019",
+		"EN": ""
+	},
+	"artist": {
+		"name": "nineo",
+		"weibo": "https://www.weibo.com/p/1005051869856223",
+		"twitter": "https://twitter.com/nineeeeeeeeo",
+		"pixiv": "https://www.pixiv.net/member.php?id=2827978",
+		"other": ""
+	},
+	"enhance": {
+		"firepower" : "0",
+		"torpedo" : "0",
+		"aviation" : "0",
+		"reload" : "0"
+	},
+	"acquisitionMethod" : "Priority Research",
+	"skill": {
+		"1" : {
+			"icon" : "19130",
+			"requirement" : "",
+			"name" : "Flying NG!",
+			"type" : "Defensive",
+			"description" : "When enemy planes are shot down within the air defense circle, own firepower and anti-air are increased by 5-15% for 8 seconds, does not stack. When 15 enemy planes are shot down, increase firepower by 15% and reload by 20%"
+		},
+		"2" : {
+			"icon" : "19140",
+			"requirement" : "",
+			"name" : "Preparing All Hands",
+			"type" : "Support",
+			"description" : "When equipping main gun in the secondary weapon slot, increase anti-air efficiency by 5-15%. When equipping anti-air in the secondary weapon slot, increase main-gun efficiency by 5-15%. When in the rear position of the vanguard, reduce damage taken by self by 5-15%"
+		},
+		"3" : {
+			"icon" : "19000",
+			"requirement" : "",
+			"name" : "Siren Killer Ⅰ",
+			"type" : "Offensive",
+			"description" : "Increases the DMG this ship deals to Sirens by 5.0%."
+		},
+		"4" : {
+			"icon" : "29391",
+			"requirement" : "",
+			"name" : "Exclusive barrage - Seattle II",
+			"type" : "Offensive",
+			"description" : "When the main gun attacks 10 times, fire exclusive barrage - Seattle II"
+		}
+	},
+	"skin": {
+		"1" : {
+			"id" : "xiyatu",
+			"name" : "Seattle",
+			"description" : "Early design developed into Worcester Class of Light Cruisers, Seattle",
+			"expression" : {
+				"0" : {
+					"id" : "0"
+				},
+				"1": {
+					"id": "1"
+				},
+				"2": {
+					"id": "2"
+				},
+				"3": {
+					"id": "3"
+				},
+				"4": {
+					"id": "4"
+				},
+				"5": {
+					"id": "5"
+				},
+				"6": {
+					"id": "6"
+				},
+				"7": {
+					"id": "7"
+				}
+			}
+		}
+	},
+	"defaultEquipment": {
+		"1" : {
+			"icon" : "",
+			"rarity" : "",
+			"name" : ""
+		},
+		"2" : {
+			"icon" : "",
+			"rarity" : "",
+			"name" : ""
+		},
+		"3" : {
+			"icon" : "",
+			"rarity" : "",
+			"name" : ""
+		}
 	},
 	"stats": {
 		"base": {
@@ -204,61 +254,26 @@
 			"preload": "-"			
 		}
 	},
-	"defaultEquipment": {
-		"1": "",
-		"2": "",
-		"3": ""
-	},
-	"skill": {
-		"1" : {
-			"icon" : "19130",
-			"requirement" : "",
-			"name" : "Flying NG!",
-			"type" : "Defensive",
-			"description" : "When enemy planes are shot down within the air defense circle, own firepower and anti-air are increased by 5-15% for 8 seconds, does not stack. When 15 enemy planes are shot down, increase firepower by 5-15% and reload by 10-20%"
-		},
-		"2" : {
-			"icon" : "19140",
-			"requirement" : "",
-			"name" : "Preparing All Hands",
-			"type" : "Support",
-			"description" : "When equipping main gun in the secondary weapon slot, increase anti-air efficiency by 5-15%. When equipping anti-air in the secondary weapon slot, increase main-gun efficiency by 5-15%. When in the rear position of the vanguard, reduce damage taken by self by 5-15%"
-		},
-		"3" : {
-			"icon" : "19000",
-			"requirement" : "",
-			"name" : "Siren Killer Ⅰ",
-			"type" : "Offensive",
-			"description" : "Increases the DMG this ship deals to Sirens by 5.0%."
-		},
-		"4" : {
-			"icon" : "29391",
-			"requirement" : "",
-			"name" : "Exclusive barrage - Seattle II",
-			"type" : "Offensive",
-			"description" : "When the main gun attacks 10 times, fire exclusive barrage - Seattle II"
-		}
-	},
 	"build": {
 		"light": {
-			"JP": "-",
-			"CN": "-",
-			"EN": "-"
+			"JP": "",
+			"CN": "",
+			"EN": ""
 		},
 		"heavy": {
-			"JP": "-",
-			"CN": "-",
-			"EN": "-"
+			"JP": "",
+			"CN": "",
+			"EN": ""
 		},
 		"special": {
-			"JP": "-",
-			"CN": "-",
-			"EN": "-"
+			"JP": "",
+			"CN": "",
+			"EN": ""
 		},
 		"limited": {
-			"JP": "-",
-			"CN": "-",
-			"EN": "-"
+			"JP": "",
+			"CN": "",
+			"EN": ""
 		}
 	},
 	"drop": {
@@ -268,15 +283,11 @@
 				"event": "",
 				"chapter": {
 					"1": {
-						"label": "Ch. B",
+						"label": "Ch .1",
 						"node": {
 							"1": {
 								"drop": "✓",
-								"note": ""
-							},
-							"2": {
-								"drop": "-",
-								"note": ""
+								"note": "-"
 							}
 						}
 					}
@@ -287,8 +298,10 @@
 	"lines": {
 		"skin": {
 			"1": {
-				"label": "Default",
-				"dialogue": {
+				"skin_id" : "xiyatu",
+				"id" : "0",
+				"label" : "シアトル",
+				"dialogue" : {
 					"1": {
 						"event": "Ship Description",
 						"media": "",
@@ -302,8 +315,8 @@
 						"englishNote": ""
 					},
 					"2": {
-						"event": "Self Introduction",
-						"media": "self_introduction",
+						"event": "Biography",
+						"media": "profile",
 						"chinese": "来了来了，那么，我叫西雅图——啊，确切地说，我其实没有名字，姑且是叫西雅图，嗨呀，这种小事就不要在意了。总之，作为伍斯特级的原型设计之一，亚特兰大级的改进型，我最擅长的就是防空了，天上飞的小家伙们就交给我吧！",
 						"chineseTL": "I'm here I'm here, my name is Seattle. Ah, to be exact, I don't really have a name, but you can call me Seattle. Well, don't pay too much attention to those small details. Anyways, as an early prototype design of the Worcester-class, the improved Atlanta-class, I specialize in anti-air, let me handle those fellows up in the sky!",
 						"chineseNote": "",
@@ -314,8 +327,8 @@
 						"englishNote": ""
 					},
 					"3": {
-						"event": "Acquisition",
-						"media": "acquisition",
+						"event": "Receive",
+						"media": "get",
 						"chinese": "就是你把我从沉睡之中唤醒的吗？……你好你好，幸会幸会～我叫西雅图，从今往后，请多指教啦！",
 						"chineseTL": "Was it you who awakened me from my deep slumber?... Hello hello, nice to meet you~ my name is Seattle, from now on, please take care of me!",
 						"chineseNote": "",
@@ -326,7 +339,7 @@
 						"englishNote": ""
 					},
 					"4": {
-						"event": "Login",
+						"event": "Log in",
 						"media": "login",
 						"chinese": "指挥官，吃过了吗？没有的话先一起吃点什么吧~",
 						"chineseTL": "Commander, ate already? If you haven't let's get something to eat~",
@@ -338,8 +351,8 @@
 						"englishNote": ""
 					},
 					"5": {
-						"event": "Details",
-						"media": "details",
+						"event": "View details",
+						"media": "detail",
 						"chinese": "派对，茶会，女子会，聚餐……ok，日程排得很满，完美！",
 						"chineseTL": "Party, tea party, women's party, dinner party... ok, the schedule is full, perfect!",
 						"chineseNote": "",
@@ -350,8 +363,8 @@
 						"englishNote": ""
 					},
 					"6": {
-						"event": "Idle 1",
-						"media": "idle_1",
+						"event": "Main screen 1",
+						"media": "main_1",
 						"chinese": "指挥官，你不会觉得只有一个秘书太冷清吗？我觉得多叫几个姐妹来一起担任秘书会比较热闹哦！",
 						"chineseTL": "Commander, don't you feel it's too quiet with only one secretary? I feel like it'll be more lively if we call a few more sisters to serve as secretaries!",
 						"chineseNote": "",
@@ -362,8 +375,8 @@
 						"englishNote": ""
 					},
 					"7": {
-						"event": "Idle 2",
-						"media": "idle_2",
+						"event": "Main screen 2",
+						"media": "main_2",
 						"chinese": "指挥官，今晚下班后有预定吗？我约了不少姐妹办派对，你要不要一起来？",
 						"chineseTL": "Commander, do you have plans after work this evening? I'm having a party with a lot of sisters, want to come together?",
 						"chineseNote": "",
@@ -374,8 +387,8 @@
 						"englishNote": ""
 					},
 					"8": {
-						"event": "Idle 3",
-						"media": "idle_3",
+						"event": "Main screen 3",
+						"media": "main_3",
 						"chinese": "虽然我的战斗经验不足，不过姐妹们都很愿意教导我，我会很快赶上来的~",
 						"chineseTL": "Although I'm inexperienced in battle, my sisters are willing to teach me, I'll catch up soon~",
 						"chineseNote": "",
@@ -386,8 +399,8 @@
 						"englishNote": ""
 					},
 					"9": {
-						"event": "Touch",
-						"media": "touch",
+						"event": "Normal Touch",
+						"media": "touch_1",
 						"chinese": "指挥官，来练习一下舞蹈吧～舞技好会更受欢迎哦？",
 						"chineseTL": "Commander, let's practice dancing~ Dancing skills will make you more popular~",
 						"chineseNote": "",
@@ -399,7 +412,7 @@
 					},
 					"10": {
 						"event": "Special Touch",
-						"media": "special_touch",
+						"media": "touch_2",
 						"chinese": "指挥官，如果你是故意的，我可要生气了",
 						"chineseTL": "Commander, if that was intentional, I'll get angry",
 						"chineseNote": "",
@@ -410,8 +423,8 @@
 						"englishNote": ""
 					},
 					"11": {
-						"event": "Mission",
-						"media": "mission",
+						"event": "Mission reminder",
+						"media": "task",
 						"chinese": "新的任务！多找些姐妹们一起去吧！",
 						"chineseTL": "New mission! Let's find some more sisters to go together!",
 						"chineseNote": "",
@@ -446,8 +459,8 @@
 						"englishNote": ""
 					},
 					"14": {
-						"event": "Return from Sortie",
-						"media": "return_from_sortie",
+						"event": "Return to port",
+						"media": "home",
 						"chinese": "指挥官，虽然战斗很重要，但是放松也很重要！",
 						"chineseTL": "Commander, although combat is important, relaxing is also very important!",
 						"chineseNote": "",
@@ -459,7 +472,7 @@
 					},
 					"15": {
 						"event": "Commission Complete",
-						"media": "commission_complete",
+						"media": "expedition",
 						"chinese": "指挥官，委托完成咯？我觉得带点什么去犒劳委托组的姐妹们是个不错的主意！",
 						"chineseTL": "Commander, commissions complete? I feel like getting something to treat the sisters in the commission team will be a good idea!",
 						"chineseNote": "",
@@ -470,8 +483,8 @@
 						"englishNote": ""
 					},
 					"16": {
-						"event": "Enhancement",
-						"media": "enhancement",
+						"event": "Enhancing complete",
+						"media": "upgrade",
 						"chinese": "感觉现在我能把蚊子都给射下来！",
 						"chineseTL": "I feel like I can even shoot mosquitos down!",
 						"chineseNote": "",
@@ -482,8 +495,8 @@
 						"englishNote": ""
 					},
 					"17": {
-						"event": "Sortie Start",
-						"media": "sortie_start",
+						"event": "Flagship fight",
+						"media": "warcry",
 						"chinese": "好～大家一起上吧！",
 						"chineseTL": "Good~ Everyone, let's go!",
 						"chineseNote": "",
@@ -494,7 +507,7 @@
 						"englishNote": ""
 					},
 					"18": {
-						"event": "MVP",
+						"event": "Victory",
 						"media": "mvp",
 						"chinese": "胜利！回去可要好好庆祝一下~",
 						"chineseTL": "Victory! We have to celebrate when we go back~",
@@ -507,7 +520,7 @@
 					},
 					"19": {
 						"event": "Defeat",
-						"media": "defeat",
+						"media": "lose",
 						"chinese": "要是我的火力再强一点就好了……",
 						"chineseTL": "It would have been fine if my firepower was a bit stronger...",
 						"chineseNote": "",
@@ -518,8 +531,8 @@
 						"englishNote": ""
 					},
 					"20": {
-						"event": "Skill Activation",
-						"media": "skill_activation",
+						"event": "Skills",
+						"media": "skill",
 						"chinese": "让战场也热闹起来吧！",
 						"chineseTL": "Let's make the battlefield more lively!",
 						"chineseNote": "",
@@ -530,8 +543,8 @@
 						"englishNote": ""
 					},
 					"21": {
-						"event": "Low Health",
-						"media": "low_health",
+						"event": "Low HP",
+						"media": "hp",
 						"chinese": "大家再坚持一下！",
 						"chineseTL": "Everyone, let's keep up!",
 						"chineseNote": "",
@@ -542,8 +555,8 @@
 						"englishNote": ""
 					},
 					"22": {
-						"event": "Affinity (Disappointed)",
-						"media": "affinity_disappointed",
+						"event": "Upset",
+						"media": "feeling1",
 						"chinese": "咦？聚会？没算上你哦，指挥官，请继续工作吧",
 						"chineseTL": "Eh? The get-together? I didn't count you in, Commander, please keep working",
 						"chineseNote": "",
@@ -554,8 +567,8 @@
 						"englishNote": ""
 					},
 					"23": {
-						"event": "Affinity (Stranger)",
-						"media": "affinity_stranger",
+						"event": "Stranger",
+						"media": "feeling2",
 						"chinese": "指挥官，不要总是把工作啊，战斗啊挂在嘴边，稍微让自己喘一口气会比较好哦？总之，等会儿有个我发起的派对，你会来的，对吧？",
 						"chineseTL": "Commander, don't be always about work this, combat that, allow yourself to breathe a little? Anyways, I'll be hosting a party in a bit, you'll come, right?",
 						"chineseNote": "",
@@ -566,8 +579,8 @@
 						"englishNote": ""
 					},
 					"24": {
-						"event": "Affinity (Friendly)",
-						"media": "affinity_friendly",
+						"event": "Friendly",
+						"media": "feeling3",
 						"chinese": "虽然我很喜欢开派对，不过我从不会硬拉不喜欢集体活动的姐妹们来参加哦？但是，如果愿意来参加的话，即使不擅长交流的人，我保证也能让她找到乐趣~",
 						"chineseTL": "Even though I really like hosting parties, I would never forcefully drag sisters who don't like group activities to participate~ But, if they wish to attend, even though they're not good at communicating, I can guarantee they'll find it fun~",
 						"chineseNote": "",
@@ -578,8 +591,8 @@
 						"englishNote": ""
 					},
 					"25": {
-						"event": "Affinity (Like)",
-						"media": "affinity_like",
+						"event": "Crush",
+						"media": "feeling4",
 						"chinese": "指挥官，现在你知道集体活动的魅力了吧？只要聚在一起，大家就会自然而然地增进关系。你看，现在我们不是已经成为朋友了吗？",
 						"chineseTL": "Commander, you now know the charm of group activities, right? As long as we gather together, we'll gradually grow closer. See, we've become good friends now, right?",
 						"chineseNote": "",
@@ -590,8 +603,8 @@
 						"englishNote": ""
 					},
 					"26": {
-						"event": "Affinity (Love)",
-						"media": "affinity_love",
+						"event": "Love",
+						"media": "feeling5",
 						"chinese": "看在我们交情的份上，指挥官你要是对哪个姐妹有意思，我也可以给你助攻一下哦？……咦，我？欸，啊，呃，不是，真……真的？",
 						"chineseTL": "In the name of our friendship, Commander, which sister are you interested in? I'll be your wingwoman... Eh, me? Eh, ah, uh, i-it's not true, r-right?",
 						"chineseNote": "",
@@ -602,8 +615,8 @@
 						"englishNote": ""
 					},
 					"27": {
-						"event": "Pledge",
-						"media": "pledge",
+						"event": "Promise",
+						"media": "propose",
 						"chinese": "ok，心情整理完毕！果然，我也是对指挥官有意思的，不然，从一开始就不会来邀请你了嘛~话说回来，指挥官，今天起，我们除了派对，又有了一样要做的事呢，那就是——约会！",
 						"chineseTL": "OK, I've sorted out my mind! Turns out, I also like Commander, or I wouldn't have invited you from the very beginning~ Anyways, Commander, starting from today, aside from parties, we've got a new activity to do, that's - dating!",
 						"chineseNote": "",
@@ -615,7 +628,7 @@
 					},
 					"28": {
 						"event": "Easter Egg 1 (Atlanta, Juneau, San Diego)",
-						"media": "easter_egg_1",
+						"media": "link1",
 						"chinese": "前辈，回港后来参加我的派对吧？",
 						"chineseTL": "Senpai, let's attend my party once we return?",
 						"chineseNote": "",
@@ -627,7 +640,7 @@
 					},
 					"29": {
 						"event": "Easter Egg 2 (Hiei)",
-						"media": "easter_egg_2",
+						"media": "link2",
 						"chinese": "重樱的宴会，我很有兴趣！",
 						"chineseTL": "A Sakura banquet, I'm interested!",
 						"chineseNote": "",
@@ -638,19 +651,19 @@
 						"englishNote": ""
 					},
 					"30": {
-						"event": "Present Like",
+						"event": "Like Present",
 						"media": "present_like",
 						"chinese": "",
 						"chineseTL": "",
 						"chineseNote": "",
 						"japanese": "うわぁ！マジ感謝～",
-						"japaneseTL": "Uwah! Thanks~",
+						"japaneseTL": "",
 						"japaneseNote": "",
 						"english": "",
 						"englishNote": ""
 					},
 					"31": {
-						"event": "Present Dislike",
+						"event": "Dislike Present",
 						"media": "present_dislike",
 						"chinese": "",
 						"chineseTL": "",
@@ -663,7 +676,7 @@
 					},
 					"32": {
 						"event": "Main Title",
-						"media": "main_title",
+						"media": "extra",
 						"chinese": "",
 						"chineseTL": "",
 						"chineseNote": "",

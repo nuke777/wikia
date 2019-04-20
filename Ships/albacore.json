@@ -1,0 +1,602 @@
+{
+	"name_reference" : "albacore",
+	"cn_reference" : "daqinghuayu",
+	"nameJP" : "アルバコア",
+	"nameCN" : "大青花鱼",
+	"ID" : "358",
+	"name" : "Albacore",
+	"internal_id" : "108021",
+	"rarity" : "Super Rare",
+	"initialStar" : "★★★☆☆☆",
+	"hull" : "Submarine",
+	"navy" : "Eagle Union",
+	"prefix" : "USS",
+	"buildTime" : "",
+	"class" : "",
+	"voiceActress" : "Atsumi Tanezaki ",
+	"parameters": {
+		"firepower" : "D",
+		"torpedo" : "S",
+		"aviation" : "E",
+		"evasion" : "D",
+		"antiAir" : "E",
+		"hp" : "D"
+	},
+	"scrap": {
+		"gold" : "1",
+		"oil" : "4",
+		"medal" : "10"
+	},
+	"releaseDate": {
+		"JP" : "",
+		"CN" : "",
+		"KR" : "",
+		"EN" : ""
+	},
+	"artist": {
+		"name" : "",
+		"weibo" : "",
+		"twitter" : "",
+		"pixiv" : "",
+		"other" : ""
+	},
+	"enhance": {
+		"firepower" : "1",
+		"torpedo" : "40",
+		"aviation" : "0",
+		"reload" : "7"
+	},
+	"acquisitionMethod" : "一周年のおえかき",
+	"skill": {
+		"1" : {
+			"icon" : "11670",
+			"requirement" : "",
+			"name" : "意外赠礼",
+			"type" : "Offensive",
+			"description" : "潜艇氧气不足上浮及从战场撤离时，各发射一组的技能鱼雷$1(威力随技能等级提升)，技能鱼雷有70%概率对命中的敌人造成点燃(点燃伤害依据雷击属性)"
+		},
+		"2" : {
+			"icon" : "11680",
+			"requirement" : "",
+			"name" : "熟练的猎手",
+			"type" : "Offensive",
+			"description" : "对驱逐舰、轻巡洋舰、航空母舰的伤害提升$1"
+		},
+		"3" : {
+			"icon" : "29341",
+			"requirement" : "",
+			"name" : "专属弹幕-大青花鱼I",
+			"type" : "Offensive",
+			"description" : "进入战斗时，触发专属弹幕-大青花鱼I"
+		}
+	},
+	"skin": {
+		"1" : {
+			"id" : "daqinghuayu",
+			"name" : "Albacore ",
+			"description" : "小鲨鱼级潜艇大青花鱼，舷号SS-218",
+			"expression" : {
+				"0" : {
+					"id" : "0"
+				}
+			}
+		}
+	},
+	"defaultEquipment": {
+		"1" : {
+			"icon" : "15000",
+			"rarity" : "Common",
+			"name" : "Mark 14 Submarine Torpedo"
+		},
+		"1" : {
+			"icon" : "15000",
+			"rarity" : "Common",
+			"name" : "Mark 14 Submarine Torpedo"
+		},
+		"3" : {
+			"icon" : "",
+			"rarity" : "",
+			"name" : ""
+		}
+	},
+	"stats": {
+		"base": {
+			"hp" : "310",
+			"firepower" : "11",
+			"torpedo" : "101",
+			"antiAir" : "0",
+			"aviation" : "0",
+			"reload" : "35",
+			"hit" : "66",
+			"evasion" : "9",
+			"speed" : "16.8",
+			"luck" : "79",
+			"asw" : "0",
+			"oxygen" : "243",
+			"ammo" : "2",
+			"cost" : "2",
+			"armor" : "Light"
+		},
+		"100": {
+			"hp" : "1603",
+			"firepower" : "53",
+			"torpedo" : "478",
+			"antiAir" : "0",
+			"aviation" : "0",
+			"reload" : "82",
+			"hit" : "172",
+			"evasion" : "22",
+			"speed" : "16.8",
+			"luck" : "79",
+			"asw" : "0",
+			"oxygen" : "243",
+			"ammo" : "2",
+			"cost" : "8",
+			"armor" : "Light"
+		},
+		"120": {
+			"hp" : "1924",
+			"firepower" : "61",
+			"torpedo" : "526",
+			"antiAir" : "0",
+			"aviation" : "0",
+			"reload" : "95",
+			"hit" : "193",
+			"evasion" : "41",
+			"speed" : "16.8",
+			"luck" : "79",
+			"asw" : "0",
+			"oxygen" : "243",
+			"ammo" : "2",
+			"cost" : "8",
+			"armor" : "Light"
+		},
+		"100retrofit": {
+			"hp" : "",
+			"firepower" : "",
+			"torpedo" : "",
+			"antiAir" : "",
+			"aviation" : "",
+			"reload" : "",
+			"hit" : "",
+			"evasion" : "",
+			"speed" : "16.8",
+			"luck" : "79",
+			"asw" : "",
+			"oxygen" : "243",
+			"ammo" : "2",
+			"cost" : "8",
+			"armor" : "Light"
+		},
+		"120retrofit": {
+			"hp" : "",
+			"firepower" : "",
+			"torpedo" : "",
+			"antiAir" : "",
+			"aviation" : "",
+			"reload" : "",
+			"hit" : "",
+			"evasion" : "",
+			"speed" : "16.8",
+			"luck" : "79",
+			"asw" : "",
+			"oxygen" : "243",
+			"ammo" : "2",
+			"cost" : "8",
+			"armor" : "Light"
+		}
+	},
+	"limitBreak": {
+		"tier1": "特殊弾幕スキル習得/魚雷補正+5%",
+		"tier2": "魚雷装填数+1/支援範囲拡大",
+		"tier3": "全弾発射弾幕強化/魚雷補正+10%"
+	},
+	"equipmentLoadout": {
+		"1": {
+			"type": "Submarine Torpedo",
+			"efficiency": "115%/120%/120%/130%",
+			"amount": "1/1/2/2",
+			"preload": "0/0/0/0"
+		},
+		"2": {
+			"type": "Submarine Torpedo",
+			"efficiency": "105%/110%/110%/120%",
+			"amount": "1/1/2/2",
+			"preload": "0/0/0/0"
+		},
+		"3": {
+			"type": "Destroyer Gun",
+			"efficiency": "90%/90%/90%/90%",
+			"amount": "1/1/1/1",
+			"preload": "0/0/0/0"
+		},
+		"4": {
+			"type": "Auxilary",
+			"efficiency": "-",
+			"amount": "-",
+			"preload": "-"
+		},
+		"5": {
+			"type": "Auxilary",
+			"efficiency": "-",
+			"amount": "-",
+			"preload": "-"
+		}
+	},
+	"build": {
+		"light": {
+			"JP": "",
+			"CN": "",
+			"EN": ""
+		},
+		"heavy": {
+			"JP": "",
+			"CN": "",
+			"EN": ""
+		},
+		"special": {
+			"JP": "",
+			"CN": "",
+			"EN": ""
+		},
+		"limited": {
+			"JP": "",
+			"CN": "",
+			"EN": ""
+		}
+	},
+	"drop": {
+		"droppable": "false",
+		"list": {
+			"1": {
+				"event": "",
+				"chapter": {
+					"1": {
+						"label": "Ch .1",
+						"node": {
+							"1": {
+								"drop": "✓",
+								"note": "-"
+							}
+						}
+					}
+				}
+			}
+		}
+	},
+	"lines": {
+		"skin": {
+			"1": {
+				"skin_id" : "daqinghuayu",
+				"id" : "0",
+				"label" : "Albacore ",
+				"dialogue" : {
+					"1" : {
+						"event" : "Ship Description",
+						"media" : "",
+						"chinese" : "小鲨鱼级潜艇大青花鱼，舷号SS-218",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "ガトー級潜水艦アルバコア・SS-218",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"2" : {
+						"event" : "Biography",
+						"media" : "profile",
+						"chinese" : "战绩？我想想……哦！说起来，我击沉了大凤！但是，我觉得她那个时候不会沉才对……为什么后来她沉了呢？",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "戦績？ふむふむ……お！そうだ！大鳳を撃沈したんだ！でもあの人そんな簡単には沈まないはずじゃ……なんで沈んだっけ？",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"3" : {
+						"event" : "Receive",
+						"media" : "get",
+						"chinese" : "锵锵！我是白鹰的大青花鱼！——突然冒出来把你吓了一跳？那还真是对不起啦~今天起我就是舰队的一员了呢,请多指教~",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "じゃじゃーん！ユニオンのアルバコアだよぉん！――あ、急に出てきて驚かせちゃった？そりゃごめんね～今日からこの艦隊の一員になるんで、よろしくね～",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"4" : {
+						"event" : "Log in",
+						"media" : "login",
+						"chinese" : "指挥官来了吗？好嘞，今天也要捉……认真的工作呢！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "指揮官来た？よぉし、今日もいじりたおして……ってお仕事がんばりまぁす！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"5" : {
+						"event" : "View details",
+						"media" : "detail",
+						"chinese" : "嗯哼？为什么一直盯着我呢？难道指挥官……喜欢小一点的感觉？",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "ははん？さっきからジロジロこっち見てくれちゃって～もしかして指揮官……小さい方がお好みだったり？",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"6" : {
+						"event" : "Main screen 1",
+						"media" : "main_1",
+						"chinese" : "指挥官对哪个大姐姐比较感兴趣呢？告诉我嘛，我不会说出去的啦……大概吧。",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "指揮官はどのお姉ちゃんに興味ある？教えてよぉ～ほかの人に言わないから♪……多分！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"7" : {
+						"event" : "Main screen 2",
+						"media" : "main_2",
+						"chinese" : "我~累~了——指挥官，腿借我躺一下，谢啦~",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "おおお疲れたよおお～指揮官、太もも貸して――うお！サンキュー！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"8" : {
+						"event" : "Main screen 3",
+						"media" : "main_3",
+						"chinese" : "衣服？我一直都是这样的啦！指挥官你介意？难不成~你在想什么奇怪的事情·?",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "格好？あたしはずっとこんな格好だよ？気になる？もしかして～変なこと考えてない？",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"9" : {
+						"event" : "Normal touch",
+						"media" : "touch_1",
+						"chinese" : "终于，指挥官要把魔爪伸向潜艇了吗？",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "お！ついに潜水艦にも指揮官の魔の手が！？",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"10" : {
+						"event" : "Special touch",
+						"media" : "touch_2",
+						"chinese" : "要是我现在大声呼救的话，指挥官……会变成怎样呢？哼哼~",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "今もし、あたしが助けてーって大声で叫んだら～指揮官は……どうなっちゃうかな？フフフ～",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"11" : {
+						"event" : "Mission reminder",
+						"media" : "task",
+						"chinese" : "只要你答应帮我按摩一下肩膀，我就不把指挥官偷懒的事情说出去啦。",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "肩をもんでくれるなら、サボったことを内密にしてやるよ～ ",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"12" : {
+						"event" : "Mission complete",
+						"media" : "mission_complete",
+						"chinese" : "奖励收到了哦！那个那个，有我的份吗？",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "ボーナスゲッツ！あのあの、あたしの分は？",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"13" : {
+						"event" : "Mail reminder",
+						"media" : "mail",
+						"chinese" : "邮件——答应我一个要求的话就给你~",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "メール！――お願い一回聞いてくれたらあげちゃうよ～",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"14" : {
+						"event" : "Return to port",
+						"media" : "home",
+						"chinese" : "欢迎回来！……桌子上的文件堆成了金字塔？大概是风吹的吧~",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "おっかえり～！……書類の山がピラミッドになってる？さあ風の仕業じゃーないかな～？",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"15" : {
+						"event" : "Commission complete",
+						"media" : "expedition",
+						"chinese" : "委托完成！走吧，别让她们等太久了呢！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "委託完了！さあ早く早く！あまりまたせちゃ…ダメなんだからね☆",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"16" : {
+						"event" : "Enhancing complete",
+						"media" : "upgrade",
+						"chinese" : "哦哦，感觉不错！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "おお、いい感じ！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"17" : {
+						"event" : "Flagship fight",
+						"media" : "warcry",
+						"chinese" : "下一个是谁呢，嘿嘿~",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "次はだれかな～ヒッヒー♪",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"18" : {
+						"event" : "Victory",
+						"media" : "mvp",
+						"chinese" : "哈哈，轻松轻松！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "ははーん、余裕余裕！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"19" : {
+						"event" : "Defeat",
+						"media" : "lose",
+						"chinese" : "逃咯！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "逃げるんだよ～～！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"20" : {
+						"event" : "Skills",
+						"media" : "skill",
+						"chinese" : "surprise！~",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "サプライズ～！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"21" : {
+						"event" : "Low HP",
+						"media" : "hp",
+						"chinese" : "哎哎？我被注意到了吗？",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "ええ？なんかあたし、注目されてない？",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"22" : {
+						"event" : "Upset",
+						"media" : "feeling1",
+						"chinese" : "（扮鬼脸）笨——蛋！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "バーーーーカ！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"23" : {
+						"event" : "Stranger",
+						"media" : "feeling2",
+						"chinese" : "要是指挥官让我生气的话，会发生怎样的事情呢？“指挥官糗事大公开”这样的感觉好像蛮不错的呢~",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "もしあたしを怒らせちゃったらどんなことが起こるか？「指揮官のズッコケシチュ大公開！！」ってのが結構いいかも～！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"24" : {
+						"event" : "Friendly",
+						"media" : "feeling3",
+						"chinese" : "说起来，刚刚游完泳，肩膀有点酸呢……要是有人能帮我放松一下肩膀的话，说不定我就能把这几天看到的指挥官的秘密都忘掉了呢~",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "泳ぎすぎて肩がちょっと凝ってるね……そうだ！誰かさんがマッサージでリラックスさせてくれたらもしかするとあたし、その誰かさんのバレちゃいけないことを、うっかり忘れてしまったぁーってなるかも……？",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"25" : {
+						"event" : "Crush",
+						"media" : "feeling4",
+						"chinese" : "也不能总是欺负指挥官呢，今天就让我来帮你按摩一下吧——呼呼！耳朵感觉怎么样？轻易就相信我的指挥官太天真了啦！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "指揮官をイジりっぱなしなのも悪いから、今日はこのあたしからマッサージしてあげる――ふぅ！ねえねえ今耳どんな感じ？簡単に信じちゃう指揮官のほうが悪いのだ～！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"26" : {
+						"event" : "Love",
+						"media" : "feeling5",
+						"chinese" : "那，那个……如果我哪天没有回来的话，指挥官……啊，啊哈哈哈，那种事情怎么可能发生的啦！好了，看招，挠痒痒攻击！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "あ、あのぉ……もしあたし、戦場から戻らなかったら、指揮官……あっはは！そんなこと起こるわけないよー！はい！くらえ！こちょこちょ攻撃だぁ！ ",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"27" : {
+						"event" : "Promise",
+						"media" : "propose",
+						"chinese" : "戒指我就收下了，没什么事情的话我就走啦……诶，指挥官，你不追上来吗？我真的走了哦！……好吧，这次是我输啦！谁叫我已经没法离开指挥官了呢~",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "指輪はもらっとく。他になければもう行っちゃうぞー……あれ？指揮官は追ってこないの？ほ、本当にどっか行っちゃうぞ？…………はいはい、あたしの負け！だってあたし指揮官からもう離れられないんだもん！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					}
+				}
+			}
+		}
+	}
+}

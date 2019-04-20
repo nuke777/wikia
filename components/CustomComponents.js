@@ -114,14 +114,14 @@ class CommentedShipDisplay extends HTMLElement{
 					if (self.skin != null){
 						self.comment = actual_JSON.skin[self.skin+""].name;
 						if (self.retrofit == "true")
-							self.shipIcon = "https://media.alg-wiki.com/Ships/" + actual_JSON.file_id + "/Icon/skin"+actual_JSON.retroParameter.split(",")[2].trim()+"_half.png";
+							self.shipIcon = "https://media.alg-wiki.com/assets/shipyardicon/" + actual_JSON.skin[1].id + "_g.png";
 						else
-							self.shipIcon = "https://media.alg-wiki.com/Ships/" + actual_JSON.file_id + "/Icon/skin"+self.skin+"_half.png";
+							self.shipIcon = "https://media.alg-wiki.com/assets/shipyardicon/" + self.skin + ".png";
 					} else {
 						if (self.retrofit == "true")
-							self.shipIcon = "https://media.alg-wiki.com/Ships/" + actual_JSON.file_id + "/Icon/skin"+actual_JSON.retroParameter.split(",")[2].trim()+"_half.png";
+							self.shipIcon = "https://media.alg-wiki.com/assets/shipyardicon/" + actual_JSON.skin[1].id + "_g.png";
 						else
-							self.shipIcon = "https://media.alg-wiki.com/Ships/" + actual_JSON.file_id + "/Icon/skin1_half.png";
+							self.shipIcon = "https://media.alg-wiki.com/assets/shipyardicon/" + actual_JSON.skin[1].id + ".png";
 					}
 						
 					if (hull == "Aircraft Carrier" || hull == "Light Aircraft Carrier" ){						
@@ -329,7 +329,7 @@ class IconDisplay extends HTMLElement{
 		var self = this;
 		util.loadShipJSON(this.ship, function(response, shipname){
 			var actual_JSON = JSON.parse(response);
-			self.icon = "https://media.alg-wiki.com/Ships/" + actual_JSON.file_id + "/Icon/icon.png";
+			self.icon = "https://media.alg-wiki.com/assets/squareicon/" + actual_JSON.cn_reference + ".png";
 
 			if (actual_JSON.rarity == "Common" || actual_JSON.rarity == "Normal"){
 				self.bgimg = "../Images/bg1.png";

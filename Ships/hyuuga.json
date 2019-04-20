@@ -1,0 +1,727 @@
+{
+	"name_reference" : "hyuuga",
+	"cn_reference" : "rixiang",
+	"nameJP" : "日向",
+	"nameCN" : "日向",
+	"ID" : "211",
+	"name" : "Hyuuga",
+	"internal_id" : "305041",
+	"rarity" : "Rare",
+	"initialStar" : "★★☆☆☆",
+	"hull" : "Battleship",
+	"navy" : "Sakura Empire",
+	"prefix" : "IJN",
+	"buildTime" : "",
+	"class" : "Ise",
+	"voiceActress" : "Akeno Watanabe",
+	"parameters": {
+		"firepower" : "A",
+		"torpedo" : "E",
+		"aviation" : "E",
+		"evasion" : "D",
+		"antiAir" : "D",
+		"hp" : "B"
+	},
+	"scrap": {
+		"gold" : "11",
+		"oil" : "4",
+		"medal" : "1"
+	},
+	"releaseDate": {
+		"JP" : "",
+		"CN" : "",
+		"KR" : "",
+		"EN" : ""
+	},
+	"artist": {
+		"name" : "",
+		"weibo" : "",
+		"twitter" : "",
+		"pixiv" : "",
+		"other" : ""
+	},
+	"enhance": {
+		"firepower" : "63",
+		"torpedo" : "0",
+		"aviation" : "0",
+		"reload" : "10"
+	},
+	"acquisitionMethod" : "Event: Visitors Dyed in Red, 大型艦建造",
+	"skill": {
+		"1" : {
+			"icon" : "1005",
+			"requirement" : "",
+			"name" : "Artillery Command: Main Fleet",
+			"type" : "Support",
+			"description" : "Increases the FP of all friendlies in the Main Fleet by $1. Does not stack with the same skill."
+		},
+		"2" : {
+			"icon" : "2071",
+			"requirement" : "",
+			"name" : "Cover Fire",
+			"type" : "Offensive",
+			"description" : "Increases this ship's FP by $1."
+		},
+		"3" : {
+			"icon" : "11600",
+			"requirement" : "",
+			"name" : "Melee Artillery",
+			"type" : "Offensive",
+			"description" : "Fires a $1 special barrage at enemies that come within close range of this ship. May only activate 10s after the battle begins, and has a 10s cooldown every time it activates."
+		}
+	},
+	"skin": {
+		"1" : {
+			"id" : "rixiang",
+			"name" : "Hyuuga",
+			"description" : "Second ship of the Ise-class battleships, Hyuuga.",
+			"expression" : {
+				"0" : {
+					"id" : "0"
+				}
+			}
+		},
+		"2" : {
+			"id" : "rixiang_g",
+			"name" : "Hyuuga (Retrofit) ",
+			"description" : "Aviation battleship Hyuuga, sporting new powers, reporting in! Rest easy, Commander, I'll show you my true post-retrofit power! ",
+			"expression" : {
+				"0" : {
+					"id" : "0"
+				}
+			}
+		}
+	},
+	"defaultEquipment": {
+		"1" : {
+			"icon" : "34000",
+			"rarity" : "",
+			"name" : "356mm Mounted Gun"
+		},
+		"2" : {
+			"icon" : "",
+			"rarity" : "",
+			"name" : ""
+		},
+		"1" : {
+			"icon" : "36300",
+			"rarity" : "Common",
+			"name" : "Triple 25mm Mounted AA Gun"
+		}
+	},
+	"stats": {
+		"base": {
+			"hp" : "1181",
+			"firepower" : "76",
+			"torpedo" : "0",
+			"antiAir" : "43",
+			"aviation" : "0",
+			"reload" : "52",
+			"hit" : "22",
+			"evasion" : "5",
+			"speed" : "23",
+			"luck" : "60",
+			"asw" : "0",
+			"oxygen" : "0",
+			"ammo" : "0",
+			"cost" : "4",
+			"armor" : "Heavy"
+		},
+		"100": {
+			"hp" : "6105",
+			"firepower" : "357",
+			"torpedo" : "0",
+			"antiAir" : "200",
+			"aviation" : "0",
+			"reload" : "123",
+			"hit" : "56",
+			"evasion" : "13",
+			"speed" : "23",
+			"luck" : "60",
+			"asw" : "0",
+			"oxygen" : "0",
+			"ammo" : "0",
+			"cost" : "13",
+			"armor" : "Heavy"
+		},
+		"120": {
+			"hp" : "7124",
+			"firepower" : "398",
+			"torpedo" : "0",
+			"antiAir" : "229",
+			"aviation" : "0",
+			"reload" : "141",
+			"hit" : "70",
+			"evasion" : "31",
+			"speed" : "23",
+			"luck" : "60",
+			"asw" : "0",
+			"oxygen" : "0",
+			"ammo" : "0",
+			"cost" : "13",
+			"armor" : "Heavy"
+		},
+		"100retrofit": {
+			"hp" : "6205",
+			"firepower" : "397",
+			"torpedo" : "0",
+			"antiAir" : "280",
+			"aviation" : "15",
+			"reload" : "123",
+			"hit" : "61",
+			"evasion" : "13",
+			"speed" : "23",
+			"luck" : "60",
+			"asw" : "0",
+			"oxygen" : "0",
+			"ammo" : "0",
+			"cost" : "13",
+			"armor" : "Heavy"
+		},
+		"120retrofit": {
+			"hp" : "7224",
+			"firepower" : "438",
+			"torpedo" : "0",
+			"antiAir" : "309",
+			"aviation" : "15",
+			"reload" : "141",
+			"hit" : "75",
+			"evasion" : "31",
+			"speed" : "23",
+			"luck" : "60",
+			"asw" : "0",
+			"oxygen" : "0",
+			"ammo" : "0",
+			"cost" : "13",
+			"armor" : "Heavy"
+		}
+	},
+	"limitBreak": {
+		"tier1": "Main gun base +1/Main gun efficiency +5%",
+		"tier2": "Auxiliary gun base +2/Main gun efficiency +10%",
+		"tier3": "Main gun base +1/Main gun efficiency +15%"
+	},
+	"equipmentLoadout": {
+		"1": {
+			"type": "Battleship",
+			"efficiency": "105%/110%/120%/135%",
+			"amount": "1/1/1/1",
+			"preload": "0/0/0/0"
+		},
+		"2": {
+			"type": "Light Cruiser",
+			"efficiency": "180%/180%/180%/180%",
+			"amount": "1/1/3/3",
+			"preload": "0/0/0/0"
+		},
+		"3": {
+			"type": "Anti-Air Gun",
+			"efficiency": "80%/80%/80%/80%",
+			"amount": "1/1/1/1",
+			"preload": "0/0/0/0"
+		},
+		"4": {
+			"type": "Auxilary",
+			"efficiency": "-",
+			"amount": "-",
+			"preload": "-"
+		},
+		"5": {
+			"type": "Auxilary",
+			"efficiency": "-",
+			"amount": "-",
+			"preload": "-"
+		}
+	},
+	"build": {
+		"light": {
+			"JP": "",
+			"CN": "",
+			"EN": ""
+		},
+		"heavy": {
+			"JP": "",
+			"CN": "",
+			"EN": ""
+		},
+		"special": {
+			"JP": "",
+			"CN": "",
+			"EN": ""
+		},
+		"limited": {
+			"JP": "",
+			"CN": "",
+			"EN": ""
+		}
+	},
+	"drop": {
+		"droppable": "false",
+		"list": {
+			"1": {
+				"event": "",
+				"chapter": {
+					"1": {
+						"label": "Ch .1",
+						"node": {
+							"1": {
+								"drop": "✓",
+								"note": "-"
+							}
+						}
+					}
+				}
+			}
+		}
+	},
+	"lines": {
+		"skin": {
+			"1": {
+				"skin_id" : "rixiang",
+				"id" : "0",
+				"label" : "Hyuuga",
+				"dialogue" : {
+					"1" : {
+						"event" : "Ship Description",
+						"media" : "",
+						"chinese" : "伊势级战列舰二番舰—日向",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "伊勢型戦艦二番艦・日向",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Second ship of the Ise-class battleships, Hyuuga.",
+						"englishNote" : ""
+					},
+					"2" : {
+						"event" : "Biography",
+						"media" : "profile",
+						"chinese" : "伊势级战列舰二号舰日向——然后，和姐姐一样，战绩乏善可陈……不过，我们重樱的战舰都是这样啦！后面的长什么什么、大什么什么的不也一样嘛！所以，绝对不是我们的设计和能力有问题喔！哼……指挥官，你尽可以吐槽我，不过——我的刀可不会因为吐槽精妙就停止挥舞喔！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "伊勢型戦艦二番艦日向ーー姉さんと同じくあまりめぼしい戦果は無いけど……重桜の戦艦はみんなそうだろ？なーなんとか、やーなんとかも同じだろ！私たちの設計の問題じゃ……とにかく、突っ込むのはいいけど、今に見ていろよ、絶対に役に立ってみせるからな！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Hyuuga, second ship of the Ise-class, reporting in. Like my sister, I don't have many actual achievements. Then again, the same goes for most of us Sakura Empire battleships. That includes Na-whatever and Ya-whatever. It has nothing to do with our designs or capabilities! ...Hmph. Make fun of me all you want, Commander, but I'll show you what I'm made of.",
+						"englishNote" : ""
+					},
+					"3" : {
+						"event" : "Receive",
+						"media" : "get",
+						"chinese" : "我是那个笨蛋姐姐的妹妹——啊，这不是说我是笨蛋妹妹喔！总而言之，我是日向，请多指教",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "私はあの馬鹿の妹ーーいや、私は馬鹿じゃないぞ！とにかく、名前は日向だ。よろしく",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "I'm the little sister of my stupid big sister... Ah! That doesn't mean that I'm a stupid little sister, alright?! Anyways, I'm Hyuuga. Nice to meet you.",
+						"englishNote" : ""
+					},
+					"4" : {
+						"event" : "Log in",
+						"media" : "login",
+						"chinese" : "哈……比起从早上训练到晚上，从晚上训练到早上更轻松一点吧",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "はぁ……訓練は明けから夜より、夜から明けまでのほうが気楽よね",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Phew... Wouldn't you agree that it's better to train from dusk until dawn instead of from dawn to dusk?",
+						"englishNote" : ""
+					},
+					"5" : {
+						"event" : "View details",
+						"media" : "detail",
+						"chinese" : "指挥官，想和我较量下格斗技巧吗？",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "指揮官、私と格闘技でも競ってみるか？",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Want to practice combat techniques with me, Commander?",
+						"englishNote" : ""
+					},
+					"6" : {
+						"event" : "Main screen 1",
+						"media" : "main_1",
+						"chinese" : "姐姐，你偶尔也收拾下房间啊，每次都是我——",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "姉さん、たまには部屋を片付けてよ…いっつも私がーー",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Ise, please clean your room every now and then...",
+						"englishNote" : ""
+					},
+					"7" : {
+						"event" : "Main screen 2",
+						"media" : "main_2",
+						"chinese" : "初霜，如果能在这里见到她就好了 ",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "初霜…ここでもあの子に会えたら…",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "It sure would be nice to meet Hatsushimo here.",
+						"englishNote" : ""
+					},
+					"8" : {
+						"event" : "Main screen 3",
+						"media" : "main_3",
+						"chinese" : "唉，航空的时代终究不是航空战舰的时代——",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "空母の時代が来ても航空戦艦の時代はこないか……",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Though the Age of Aviation has come, it still isn't the Age of Aviation Battleships.",
+						"englishNote" : ""
+					},
+					"9" : {
+						"event" : "Normal touch",
+						"media" : "touch_1",
+						"chinese" : "高明的武士会在他人触身前就察觉到对方的“气”……我还差得很远……",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "凄腕のサムライは遠くから人の気配を察知できると聞く…どうやら私はまだまだのようね",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "A veteran swordsman should be able to detect her opponent's energy before they get too close... I still have a long way to go...",
+						"englishNote" : ""
+					},
+					"10" : {
+						"event" : "Special touch",
+						"media" : "touch_2",
+						"chinese" : "指挥官，决斗吧！你赢了的话我就承认你有随便摸我的权利！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "指揮官、構えな！お前が勝ったら思う存分触らせてあげるよ！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Commander, let's spar. If you win, I'll let you touch me as much as you'd like.",
+						"englishNote" : ""
+					},
+					"11" : {
+						"event" : "Mission reminder",
+						"media" : "task",
+						"chinese" : "指挥官，愚蠢的任务不如不做",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "指揮官、無駄な任務はしないほうがマシよ",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Commander, we'd be better off just not doing any pointless missions.",
+						"englishNote" : ""
+					},
+					"12" : {
+						"event" : "Mission complete",
+						"media" : "mission_complete",
+						"chinese" : "指挥官，啤酒加生鸡蛋可是邪道，解乏就是要纯饮，纯饮！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "焼酎はソーダ割りね。こっちのほうがスッキリするだろ？どうだ？",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Commander, drinking a beer with a raw egg is just wrong... All you need is beer. Pure beer!",
+						"englishNote" : ""
+					},
+					"13" : {
+						"event" : "Mail reminder",
+						"media" : "mail",
+						"chinese" : "这是你的东西吧？下回记得好好收好",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "お前のものだろ？ちゃんとしまっとけよ",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Is this your stuff? Make sure to keep it in a safe place next time.",
+						"englishNote" : ""
+					},
+					"14" : {
+						"event" : "Return to port",
+						"media" : "home",
+						"chinese" : "热身运动做完了？那就……",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "ウォーミングアップが終わった？じゃあ……",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Done with warmups? Alright...",
+						"englishNote" : ""
+					},
+					"15" : {
+						"event" : "Commission complete",
+						"media" : "expedition",
+						"chinese" : "嗯嗯，干得不错！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "ふんふん、よくやった！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Mmm, well done!",
+						"englishNote" : ""
+					},
+					"16" : {
+						"event" : "Enhancing complete",
+						"media" : "upgrade",
+						"chinese" : "主炮的轰鸣更加悦耳了～",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "主砲の轟音…うん、前よりいい響きだ",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Now my main gun sounds even better when it fires!",
+						"englishNote" : ""
+					},
+					"17" : {
+						"event" : "Flagship fight",
+						"media" : "warcry",
+						"chinese" : "报上名来！我不斩无名鼠辈！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "名乗りな！名乗れぬ輩に我が刃は掛けん！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Speak your name! I'm not going to cut down some nameless rat!",
+						"englishNote" : ""
+					},
+					"18" : {
+						"event" : "Victory",
+						"media" : "mvp",
+						"chinese" : "呼……再稍微努力一下吧",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "ふぅ……もう少し努力してやろうか",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Phew... Let's work a bit harder!",
+						"englishNote" : ""
+					},
+					"19" : {
+						"event" : "Defeat",
+						"media" : "lose",
+						"chinese" : "伊势……姐姐……",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "伊勢……姉さん……",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Ise... Sister...",
+						"englishNote" : ""
+					},
+					"20" : {
+						"event" : "Skills",
+						"media" : "skill",
+						"chinese" : "十二门主炮——一齐射击！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "主砲十二門ーー一斉射！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Twelve main guns... FIRE!!",
+						"englishNote" : ""
+					},
+					"21" : {
+						"event" : "Upset",
+						"media" : "feeling1",
+						"chinese" : "指挥官，刀剑无眼，还请小心",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "指揮官、刀には目がついておらん。気をつけてな",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "My sword has no eyes, Commander. Watch yourself.",
+						"englishNote" : ""
+					},
+					"22" : {
+						"event" : "Stranger",
+						"media" : "feeling2",
+						"chinese" : "姐、姐姐，不要一喝酒就缠着我……",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "ね、姉さん、酒が入ったからって絡むなよ……",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "B-big sis... do you have to cling to me every time you drink?",
+						"englishNote" : ""
+					},
+					"23" : {
+						"event" : "Friendly",
+						"media" : "feeling3",
+						"chinese" : "嘿嘿，指挥官，你喝完酒后也挺可爱的嘛，我捏～",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "うふふ、指揮官も酒が入ったら可愛いなぁ。うふふ、ぷにっと～",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Ehehe... Commander, you look so cute after a few drinks~",
+						"englishNote" : ""
+					},
+					"24" : {
+						"event" : "Crush",
+						"media" : "feeling4",
+						"chinese" : "在这里我也好，陆奥也好，都没有炮塔爆炸的危险呢……",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "ここなら、私も陸奥も砲塔が爆発したりしないな……",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Neither Ise nor I have any problems with exploding turrets.",
+						"englishNote" : ""
+					},
+					"25" : {
+						"event" : "Love",
+						"media" : "feeling5",
+						"chinese" : "指挥官，来决斗吧！放心吧，这次我不会用武器，现在的你，应该有机会击败我……吧？",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "指揮官、さあ、構えな！今回は武器を使わないから、今のお前なら私に勝てる……かも？",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Commander, let's have a duel! Don't worry, I won't use my weapon this time... You might actually stand a chance that way, right?",
+						"englishNote" : ""
+					},
+					"26" : {
+						"event" : "Promise",
+						"media" : "propose",
+						"chinese" : "这种东西……明明放在心里就好……真是的，戴上这个别人会怎么看我啊……嘿嘿……嘿嘿～嘿嘿！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "こんなの……二人が心で思い合ってるだけで十分なのに……指に付けられたらどんな目で見られるんだよ……でも……えへへ…ありがとう…",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "You should keep this kind of thing in your mind only... Seriously... how will people look at me if I wear this... Hehe... hehe... hehe!",
+						"englishNote" : ""
+					}
+				}
+			},
+			"2": {
+				"skin_id" : "rixiang_g",
+				"id" : "9",
+				"label" : "Hyuuga (Retrofit) ",
+				"dialogue" : {
+					"1" : {
+						"event" : "Ship Description",
+						"media" : "",
+						"chinese" : "航空战列舰、日向，伴随着新的力量参上！指挥官，不要等了，现在就来见识一下我的改造后的实力吧！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "航空戦艦日向、新たな力とともに参上したぞ！指揮官、心配無用、今すぐ改造後の私の実力を見せてやる！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Aviation battleship Hyuuga, sporting new powers, reporting in! Rest easy, Commander, I'll show you my true post-retrofit power!",
+						"englishNote" : ""
+					},
+					"2" : {
+						"event" : "Receive",
+						"media" : "get_9",
+						"chinese" : "航空战列舰、日向，伴随着新的力量参上！指挥官，不要等了，现在就来见识一下我的改造后的实力吧！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "航空戦艦日向、新たな力とともに参上したぞ！指揮官、心配無用、今すぐ改造後の私の実力を見せてやる！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Aviation battleship Hyuuga, sporting new powers, reporting in! Rest easy, Commander, I'll show you my true post-retrofit power!",
+						"englishNote" : ""
+					},
+					"3" : {
+						"event" : "Log in",
+						"media" : "login_9",
+						"chinese" : "指挥官，今天的训练也拜托了！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "指揮官、今日の訓練も頼む！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Hey, please help me out with my training today!",
+						"englishNote" : ""
+					},
+					"4" : {
+						"event" : "Main screen 1",
+						"media" : "main_1_9",
+						"chinese" : "即使不为时代所眷顾，我等亦不会放弃自己！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "時代に恵まれなくても、諦めはしない！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Though battleships have seen better times, I will not give up!",
+						"englishNote" : ""
+					},
+					"5" : {
+						"event" : "Main screen 2",
+						"media" : "main_2_9",
+						"chinese" : "姐姐还是那个老样子，没有一点变化。哎……",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "姉さんが相変わらずあんな感じで……はあ……",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Ise's still behaving like she always has... *Sigh*...",
+						"englishNote" : ""
+					},
+					"6" : {
+						"event" : "Main screen 3",
+						"media" : "main_3_9",
+						"chinese" : "舰载机的使用方式还真是复杂呢……还得向后辈们请教一下才行。",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "艦載機を使いこなすには結構手が要るな……後輩たちに聞かないと",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "It takes a lot of skill to use planes right... I oughta ask for tips from someone with experience.",
+						"englishNote" : ""
+					},
+					"7" : {
+						"event" : "Normal touch",
+						"media" : "touch_1_9",
+						"chinese" : "诶？唔唔……又没能在指挥官触碰到我之前预料到呢。",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "！ふう……触られる前に気配を察せられなかったな",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "*Gasp*...! I couldn't sense your presence until you touched me.",
+						"englishNote" : ""
+					},
+					"8" : {
+						"event" : "Special touch",
+						"media" : "touch_2_9",
+						"chinese" : "想好了吗，指挥官？现在你和我决斗的胜算恐怕是零呢。",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "指揮官、覚悟はいいか？今のお前じゃ私に勝ち目などないんだぜ",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Prepared to pay for what you just did? You don't stand the shadow of a chance against me.",
+						"englishNote" : ""
+					},
+					"9" : {
+						"event" : "Return to port",
+						"media" : "home_9",
+						"chinese" : "炮击训练，航空训练……日子变得充实起来了呢。",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "砲撃訓練に航空訓練……充実、だな",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Artillery training and aviation training... Guess that's the whole package.",
+						"englishNote" : ""
+					},
+					"10" : {
+						"event" : "Skills",
+						"media" : "skill_9",
+						"chinese" : "主炮就绪——一齐射击！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "主砲、よーい――一斉射！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Main guns: ready! Fire at will!",
+						"englishNote" : ""
+					}
+				}
+			}
+		}
+	}
+}

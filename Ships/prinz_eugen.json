@@ -1,975 +1,1054 @@
 {
-  "name": "Prinz Eugen",
-  "nameJP": "プリンツ・オイゲン",
-  "nameCN": "欧根亲王",
-  "class": "Admiral Hipper",
-  "hull": "Heavy Cruiser",
-  "prefix": "KMS",
-  "ID": "244",
-  "file_id": "244_Prinz_Eugen",
-  "navy": "Ironblood",
-  "initialStar": "★★★☆☆☆",
-  "rarity": "Super Rare",
-  "buildTime": "02:00:00",
-  "acquisitionMethod": "Heavy/Aviation/Exchange. Available in Medal Exchange for 80 Medals and available as drop in D3 during Opposite-Colored Rerun Event.",
-  "enhance": {
-    "firepower": "20",
-    "torpedo": "9",
-    "aviation": "0",
-    "reload": "13"
-  },
-  "scrap": {
-    "gold": "9",
-    "oil": "3",
-    "medal": "10"
-  },
-  "skin": {
-    "1": {
-      "name": "Default",
-      "description": "Admiral Hipper-class heavy cruiser - Prinz Eugen",
-      "expression": {
-        "1": {
-          "label": "Default"
-        }
-      }
-    },
-    "2": {
-      "name": "Symphonic Fate",
-      "description": "If meeting you was destiny’s work, then I should really thank fate...Should I look forward to the future as well?",
-      "expression": {
-        "1": {
-          "Label": "Default"
-        }
-      }
-    },
-    "3": {
-      "name": "Unfading Smile",
-      "description": "Sitting on the swimming hoop, licking my lips with the tip of my tongue...is this really the most fashionable pose for photos? (Prince of) Wales, you aren't messing with me again, are you?",
-      "expression": {
-        "1": {
-          "label": "Default"
-        }
-      }
-    },
-    "4": {
-      "name": "Dance of a Hundred Flowers",
-      "description": "Is this the New Year of Sakura Empire? Hoho, isn't this interesting~ Commander, since it's the New Years, leave your work aside and come drink with me~",
-      "expression": {
-        "1": {
-          "label": "Default"
-        }
-      }
-    }
-  },
-  "releaseDate": {
-    "JP": "May 25, 2017",
-    "CN": "September 13, 2017",
-    "KR": "March 27, 2018",
-    "EN": "August 16, 2018"
-  },
-  "voiceActress": "Ayane Sakura",
-  "artist": {
-    "name": "realmbw",
-    "weibo": "https://weibo.com/realmbw",
-    "twitter": "https://twitter.com/realmbw",
-    "pixiv": "https://www.pixiv.net/member.php?id=529070",
-    "other": ""
-  },
-  "parameters": {
-    "hp": "S",
-    "antiAir": "B",
-    "evasion": "C",
-    "aviation": "B",
-    "torpedo": "D",
-    "firepower": "B"
-  },
-  "stats": {
-    "100": {
-      "hp": "5683",
-      "armor": "Medium",
-      "reload": "159",
-      "firepower": "196",
-      "torpedo": "133",
-      "evasion": "24",
-      "antiAir": "178",
-      "aviation": "0",
-      "cost": "12",
-      "asw": "0",
-      "speed": "25",
-      "luck": "78"
-    },
-    "120": {
-      "hp": "6252",
-      "armor": "Medium",
-      "reload": "182",
-      "firepower": "226",
-      "torpedo": "153",
-      "evasion": "62",
-      "antiAir": "205",
-      "aviation": "0",
-      "cost": "12",
-      "asw": "0",
-      "speed": "25",
-      "luck": "78"
-    },
-    "base": {
-      "hp": "1099",
-      "armor": "Medium",
-      "reload": "67",
-      "firepower": "43",
-      "torpedo": "28",
-      "evasion": "9",
-      "antiAir": "38",
-      "aviation": "0",
-      "cost": "4",
-      "asw": "0",
-      "speed": "25",
-      "luck": "78"
-    },
-    "100retrofit": {
-      "hp": "",
-      "armor": "",
-      "reload": "",
-      "firepower": "",
-      "torpedo": "",
-      "evasion": "",
-      "antiAir": "",
-      "aviation": "",
-      "cost": "",
-      "asw": "",
-      "speed": "",
-      "luck": ""
-    },
-    "120retrofit": {
-      "hp": "",
-      "armor": "",
-      "reload": "",
-      "firepower": "",
-      "torpedo": "",
-      "evasion": "",
-      "antiAir": "",
-      "aviation": "",
-      "cost": "",
-      "asw": "",
-      "speed": "",
-      "luck": ""
-    }
-  },
-  "limitBreak": {
-    "tier1": "Gains Full Barrage I / All Weapon Efficiency +2%",
-    "tier2": "Max Torpedo Capacity +1 / Pre-loaded Torpedo +1 / All Weapon Efficiency +3%",
-    "tier3": "Upgrades Full Barrage I→II / All Weapon Efficiency +5%"
-  },
-  "equipmentLoadout": {
-    "1": {
-      "type": "CA Main Gun",
-      "efficiency": "115%/117%/120%/125%",
-      "amount": "1/1/1/1",
-      "preload": "0/0/0/0"
-    },
-    "2": {
-      "type": "Torpedo",
-      "efficiency": "150%/152%/155%/160%",
-      "amount": "1/1/2/2",
-      "preload": "0/0/1/1"
-    },
-    "3": {
-      "type": "Anti-Air Gun",
-      "efficiency": "110%/112%/115%/120%",
-      "amount": "1/1/1/1",
-      "preload": "0/0/0/0"
-    },
-    "4": {
-      "type": "Auxilliary",
-      "efficiency": "-",
-      "amount": "-",
-      "preload": "-"
-    },
-    "5": {
-      "type": "Auxilliary",
-      "efficiency": "-",
-      "amount": "-",
-      "preload": "-"
-    }
-  },
-  "defaultEquipment": {
-    "1": "Twin 203mm (SK C/34) T1"
-  },
-  "skill": {
-    "1": {
-      "name": "Unbreakable Shield",
-      "type": "Defensive",
-      "requirement": "Default Unlocked",
-      "description": "40% (70%) activation every 20 seconds: spawns 3 rotating shields that absorb 10 shots each, last 10 seconds."
-    },
-    "2": {
-      "name": "Full Barrage",
-      "type": "Offensive",
-      "requirement": "Default Unlocked",
-      "description": "Every 9(6) shots from the main guns, triggers Full Barrage - Admiral Hipper Class I(II)"
-    }
-  },
-  "build": {
-    "light": {
-      "JP": "-",
-      "CN": "-",
-      "EN": "-"
-    },
-    "heavy": {
-      "JP": "✓",
-      "CN": "✓",
-      "EN": "✓"
-    },
-    "special": {
-      "JP": "✓",
-      "CN": "✓",
-      "EN": "✓"
-    },
-    "limited": {
-      "JP": "-",
-      "CN": "-",
-      "EN": "-"
-    }
-  },
-  "drop": {
-    "droppable": "true",
-    "list": {
-      "1": {
-        "event": "Opposite Colored/Divergent Chessboard",
-        "chapter": {
-          "1": {
-            "label": "D",
-            "node": {
-              "1": {
-                "drop": "-",
-                "note": ""
-              },
-              "2": {
-                "drop": "-",
-                "note": ""
-              },
-              "3": {
-                "drop": "✓",
-                "note": ""
-              },
-              "4": {
-                "drop": "-",
-                "note": ""
-              }
-            }
-          }
-        }
-      }
-    }
-  },
-  "lines": {
-    "skin": {
-      "1": {
-        "label": "Default",
-        "dialogue": {
-          "1": {
-            "event": "Ship Description",
-            "media": "",
-            "chinese": "希佩尔海军上将级重巡洋舰—欧根亲王",
-            "chineseTL": "Admiral Hipper-class heavy cruiser - Prinz Eugen",
-            "chineseNote": "",
-            "japanese": "-",
-            "japaneseTL": "Admiral Hipper-class heavy cruiser - Prinz Eugen",
-            "japaneseNote": "",
-            "english": "",
-            "englishNote": ""
-          },
-          "2": {
-            "event": "Self Introduction",
-            "media": "self_introduction",
-            "chinese": "我是铁血第三帝国的奇迹，希佩尔海军上将三号舰——欧根亲王号，无论是怎样的战斗都能够存活下来……祥瑞？亏你敢说呢……",
-            "chineseTL": "I'm the miracle of the Ironblood Third Reich, third ship of the Admiral Hipper-class - Prinz Eugen. I can survive whatever kind of combat……I bring luck? The nerves you've got to actually say it……",
-            "chineseNote": "",
-            "japanese": "第三帝国の奇跡、アドミラル・ヒッパー級三番艦――プリンツ・オイゲン。 どんな戦闘でも生き残れるわ。……悪運？よく言ったわね……",
-            "japaneseTL": "I'm Prinz Eugen, the miracle of the Third Reich and the third ship of the Admiral Hipper-class. I'll survive any battle, no matter what. …I've got the devil's luck? You've got guts, calling it that…",
-            "japaneseNote": "",
-            "english": "",
-            "englishNote": ""
-          },
-          "3": {
-            "event": "Acquisition",
-            "media": "acquisition",
-            "chinese": "嗯……你就是指挥官吗，你能让我愉快到什么程度呢？我可是很期待的呢~",
-            "chineseTL": "Hmm……so you're the Commander huh, how much happiness can you bring me? I'm looking forward to it a lot~",
-            "chineseNote": "",
-            "japanese": "ふぅん……あんたが指揮官？どこまで楽しませてくれるのかしら？期待してるわ",
-            "japaneseTL": "Mmm… Are you the Commander? I wonder how long you're going to amuse me. I'm expecting something from you.",
-            "japaneseNote": "",
-            "english": "",
-            "englishNote": ""
-          },
-          "4": {
-            "event": "Login",
-            "media": "login",
-            "chinese": "嗯哼~怎么？~今天想要我怎么管教你？",
-            "chineseTL": "Hmmmnng~ what? How do you want me to discipline you today?",
-            "chineseNote": "",
-            "japanese": "ふふん～なに？今日はどう可愛がられたい？",
-            "japaneseTL": "(Giggles) What? How would you like me to tease you today?",
-            "japaneseNote": "",
-            "english": "",
-            "englishNote": ""
-          },
-          "5": {
-            "event": "Details",
-            "media": "details",
-            "chinese": "嗯？……检查吗？Vielen Dank～",
-            "chineseTL": "I have properly maintained the communication equipment this time. It won't be causing you annoyance anymore...",
-            "chineseNote": "",
-            "japanese": "うん？……検査？Vielen Dank..",
-            "japaneseTL": "Hmm? …An inspection? Vielen Dank…",
-            "japaneseNote": "",
-            "english": "",
-            "englishNote": ""
-          },
-          "6": {
-            "event": "Idle 1",
-            "media": "idle_1",
-            "chinese": "工作不要太过度哦~不然的话……会——死——的",
-            "chineseTL": "Don't work too hard okay~ or else……you——would——die.",
-            "chineseNote": "",
-            "japanese": "働きすぎはよくないわ。死・ぬ・わ・よ？",
-            "japaneseTL": "Working too hard is bad for you. You could d-i-e.",
-            "japaneseNote": "",
-            "english": "",
-            "englishNote": ""
-          },
-          "7": {
-            "event": "Idle 2",
-            "media": "idle_2",
-            "chinese": "幸运舰？……你难道在讽刺我吗？",
-            "chineseTL": "Lucky ship? ……Could it be that you're mocking me?",
-            "chineseNote": "",
-            "japanese": "幸せを呼ぶ船？……それって皮肉のつもり？",
-            "japaneseTL": "Lucky ship? …Are you being sarcastic?",
-            "japaneseNote": "",
-            "english": "",
-            "englishNote": ""
-          },
-          "8": {
-            "event": "Idle 3",
-            "media": "idle_3",
-            "chinese": "——「Unternehmen Rheinübung」、吗…回想起来那就是一切的开始啊…",
-            "chineseTL": "——「Unternehmen Rheinübung」huh…thinking back on it, it's the beginning of everything…",
-            "chineseNote": "",
-            "japanese": "――「ライン演習作戦」、か。…思えばアレがすべての始まりだった…",
-            "japaneseTL": "Operation Rheinübung, huh. …Come to think of it, that's where it all began…",
-            "japaneseNote": "",
-            "english": "",
-            "englishNote": ""
-          },
-          "9": {
-            "event": "Touch",
-            "media": "touch",
-            "chinese": "这点程度就满足了吗？",
-            "chineseTL": "Are you satisfied with just that?",
-            "chineseNote": "",
-            "japanese": "この程度で満足かしら？",
-            "japaneseTL": "Is this enough to satisfy you?",
-            "japaneseNote": "",
-            "english": "",
-            "englishNote": ""
-          },
-          "10": {
-            "event": "Special Touch",
-            "media": "special_touch",
-            "chinese": "好了，现在换我来尝尝你的味道~",
-            "chineseTL": "Okay, it's my turn to taste you now~",
-            "chineseNote": "",
-            "japanese": "じゃあ、今度は私があんたを味わう番よ",
-            "japaneseTL": "Now it's my turn to have a taste of you.",
-            "japaneseNote": "",
-            "english": "",
-            "englishNote": ""
-          },
-          "11": {
-            "event": "Mission",
-            "media": "mission",
-            "chinese": "任务……会有什么新奇的内容吗？",
-            "chineseTL": "A task……would there be some new and funky content?",
-            "chineseNote": "",
-            "japanese": "任務……目新しいものない？",
-            "japaneseTL": "Missions… Got any interesting ones?",
-            "japaneseNote": "",
-            "english": "",
-            "englishNote": ""
-          },
-          "12": {
-            "event": "Mission Complete",
-            "media": "mission_complete",
-            "chinese": "指挥官，有奖励哦——我？没有兴趣",
-            "chineseTL": "Commander, there's some rewards—— me? I'm not interested.",
-            "chineseNote": "",
-            "japanese": "指揮官、ご褒美よ――私？別に",
-            "japaneseTL": "Commander, your reward. What about me? Don't really care.",
-            "japaneseNote": "",
-            "english": "",
-            "englishNote": ""
-          },
-          "13": {
-            "event": "Mail",
-            "media": "mail",
-            "chinese": "有新邮件呢~呵呵呵",
-            "chineseTL": "Got new mail~ hohoho",
-            "chineseNote": "",
-            "japanese": "新しいメールよ。うふふ",
-            "japaneseTL": "You've got new mail. Heheh.",
-            "japaneseNote": "",
-            "english": "",
-            "englishNote": ""
-          },
-          "14": {
-            "event": "Return from Sortie",
-            "media": "return_from_sortie",
-            "chinese": "指挥官，要一起洗个澡放松一下吗？",
-            "chineseTL": "Commander, want to take a bath together and relax?",
-            "chineseNote": "",
-            "japanese": "指揮官、一緒にお風呂でさっぱりしない？",
-            "japaneseTL": "Wanna take a refreshing bath with me, Commander?",
-            "japaneseNote": "",
-            "english": "",
-            "englishNote": ""
-          },
-          "15": {
-            "event": "Commission Complete",
-            "media": "commission_complete",
-            "chinese": "委托完成了吗，呵呵，那我们就去看看有没有什么有趣的东西吧",
-            "chineseTL": "Commission completed, hoho, then let us go and see if there's any interesting things.",
-            "chineseNote": "",
-            "japanese": "委託が完了した？うふふ、じゃあ面白いものがあるか見にいこうか",
-            "japaneseTL": "The commission is complete? Heheh, let's see if anything interesting turned up.",
-            "japaneseNote": "",
-            "english": "",
-            "englishNote": ""
-          },
-          "16": {
-            "event": "Enhancement",
-            "media": "enhancement",
-            "chinese": "这种感觉……倒是不坏",
-            "chineseTL": "This feeling……it's not bad.",
-            "chineseNote": "",
-            "japanese": "この感じ……悪くないわね",
-            "japaneseTL": "This feels… not so bad.",
-            "japaneseNote": "",
-            "english": "",
-            "englishNote": ""
-          },
-          "17": {
-            "event": "Sortie Start",
-            "media": "sortie_start",
-            "chinese": "全舰火力全开，Feuer！",
-            "chineseTL": "All ships, fire everything, Feuer!",
-            "chineseNote": "",
-            "japanese": "全艦、火力全開！Feuer！",
-            "japaneseTL": "All ships, cannons at the ready! Feuer!",
-            "japaneseNote": "",
-            "english": "",
-            "englishNote": ""
-          },
-          "18": {
-            "event": "MVP",
-            "media": "mvp",
-            "chinese": "嗯……战列舰？那不是小菜一碟吗～",
-            "chineseTL": "Emm……battlecruiser? Isn't that just a piece of cake?~",
-            "chineseNote": "",
-            "japanese": "ぐぅ……戦艦？鎧袖一触よ。",
-            "japaneseTL": "*Yawn*… battleships? Piece of cake.",
-            "japaneseNote": "",
-            "english": "",
-            "englishNote": ""
-          },
-          "19": {
-            "event": "Defeat",
-            "media": "defeat",
-            "chinese": "呵呵呵呵呵……你们，很棒哦……",
-            "chineseTL": "Hohohohoho……you guys are great……",
-            "chineseNote": "",
-            "japanese": "ふふふふ……お前たち、やるわね……",
-            "japaneseTL": "Heheheh… So they managed to do it, huh…",
-            "japaneseNote": "",
-            "english": "",
-            "englishNote": ""
-          },
-          "20": {
-            "event": "Skill Activation",
-            "media": "skill_activation",
-            "chinese": "这点程度还不够，再来，再多点......！",
-            "chineseTL": "This isn't enough at all. I need more, more......!",
-            "chineseNote": "",
-            "japanese": "この程度じゃ足りないわ。もっと、もっとだ……！",
-            "japaneseTL": "This isn't enough for me. I need more, more…!",
-            "japaneseNote": "",
-            "english": "",
-            "englishNote": ""
-          },
-          "21": {
-            "event": "Low Health",
-            "media": "low_health",
-            "chinese": "呵呵呵，我开始兴奋了",
-            "chineseTL": "Hoho……I'm starting to get excited.",
-            "chineseNote": "",
-            "japanese": "ふふ……面白いわね",
-            "japaneseTL": "Heheh… Now it's gotten interesting.",
-            "japaneseNote": "",
-            "english": "",
-            "englishNote": ""
-          },
-          "22": {
-            "event": "Affinity (Disappointed)",
-            "media": "affinity_disappointed",
-            "chinese": "能从我的眼前消失吗？有点碍眼呢……",
-            "chineseTL": "Can you disappear from my sight? It's a bit of an eyesore……",
-            "chineseNote": "",
-            "japanese": "目の前から消えてもらえる？目障りなんだけど",
-            "japaneseTL": "Would you kindly get out of my sight? You're being an eyesore.",
-            "japaneseNote": "",
-            "english": "",
-            "englishNote": ""
-          },
-          "23": {
-            "event": "Affinity (Stranger)",
-            "media": "affinity_stranger",
-            "chinese": "——缺少笑容？那指挥官要试试吗，看能不能把我逗笑？",
-            "chineseTL": "——a lack of smile? Then would the Commander like to try and make me smile?",
-            "chineseNote": "",
-            "japanese": "――あまり笑わない？指揮官、試してみる？私を笑わせられるかどうか",
-            "japaneseTL": "…I don't laugh very much? Hmmm? Wanna give it a try then, Commander? See if you can make me laugh or not.",
-            "japaneseNote": "",
-            "english": "",
-            "englishNote": ""
-          },
-          "24": {
-            "event": "Affinity (Friendly)",
-            "media": "affinity_friendly",
-            "chinese": "指挥官，我喜欢你哦~——开玩笑的，心跳加速了吗～？",
-            "chineseTL": "Commander, I like you~ ——just kidding, did your heart race~?",
-            "chineseNote": "",
-            "japanese": "指揮官、好きよ――冗談よ。今のでドキッとした？",
-            "japaneseTL": "I love you, Commander… Just kidding. Did that make your heart skip a beat?",
-            "japaneseNote": "",
-            "english": "",
-            "englishNote": ""
-          },
-          "25": {
-            "event": "Affinity (Like)",
-            "media": "affinity_like",
-            "chinese": "Ich liebe dich——是真心还是玩笑？就交给指挥官自己来判断吧～！",
-            "chineseTL": "Ich liebe dich—— is it true or just a joke? I'll leave it for the Commander to determine~!",
-            "chineseNote": "",
-            "japanese": "Ich liebe dich――本気か、冗談か？指揮官の判断に任せるわ",
-            "japaneseTL": "Ich liebe dich. Am I serious? Am I joking? I'll let you decide, Commander.",
-            "japaneseNote": "",
-            "english": "",
-            "englishNote": ""
-          },
-          "26": {
-            "event": "Affinity (Love)",
-            "media": "affinity_love",
-            "chinese": "——为什么笑了？看到指挥官惊慌失措的样子，就让人分外开心呢，这次真的是发自内心的笑哟，嘻嘻…",
-            "chineseTL": "——why did I smile? Looking at a panicking Commander, it makes me extra happy. This is a smile from the bottom of my heart, hehe…",
-            "chineseNote": "",
-            "japanese": "なぜ笑ったのかって？指揮官がドタバタしてる姿を見ると楽しくなっちゃうもの。今回は本気で笑っているのよ。うふふ……",
-            "japaneseTL": "Why I laughed? Because it was amusing to see you in panic mode. It was a laugh from the bottom of my heart. Heheh…",
-            "japaneseNote": "",
-            "english": "",
-            "englishNote": ""
-          },
-          "27": {
-            "event": "Pledge",
-            "media": "pledge",
-            "chinese": "——这就是你给我的答案吗？怎么办好呢……噗，真是笨啊，我的指挥官大人，我早就不是一开始那个对什么都感到空虚的我了，你难道忘了是谁让我改变的吗？",
-            "chineseTL": "—— is this your answer to me? What should I do…… poof, so silly, my great Commander, I've not been the self who feels empty about everything a long time ago, have you forgotten who is the one who changed me?",
-            "chineseNote": "",
-            "japanese": "――これがあんたの答え？どうしようかな……ふふ、鈍感な指揮官さま。もう何にも本気にならない、最初(むかし)の私じゃないのよ。私を変えたのは誰なのか、忘れたかしら？",
-            "japaneseTL": "…Is this your answer to me? Now how will I respond to that… Heheh, you're so dense, Commander. I'm no longer the same person I used to be: someone who couldn't take anything seriously. Did you forget who it was that changed me?",
-            "japaneseNote": "",
-            "english": "",
-            "englishNote": ""
-          },
-
-
-          "28": {
-            "event": "Valentines 2018",
-            "media": "",
-            "chinese": "",
-            "chineseTL": "",
-            "chineseNote": "",
-            "japanese": "同じチョコレートでも違う意味があるって、面白いわね……まぁいいわ、指揮官、当ててみてよ。私のチョコレートはどういう意味かしら？",
-            "japaneseTL": "It's interesting that the same chocolate can have different meanings… Well then, Commander, take a guess: what meaning is there to my chocolate?",
-            "japaneseNote": "",
-            "english": "",
-            "englishNote": ""
-          },
-          "29": {
-            "event": "Valentines 2019",
-            "media": "",
-            "chinese": "在吃满怀心意做出的巧克力时，好像是能品尝出制作者心意的呢。那我的心意到底是甜的，醇厚的，还是微苦的？呵呵呵，可以再认真品味一下哦？",
-            "chineseTL": "",
-            "chineseNote": "",
-            "japanese": "心を込めて作ったチョコレートは、作り手の気持ちそのものが味わえるそうね。じゃあ私の気持ちは甘い？まろやか？それともちょっとビター？ふふふ、もっとじっくり味わっていいわよ？",
-            "japaneseTL": "",
-            "japaneseNote": "",
-            "english": "",
-            "englishNote": ""
-          }
-        }
-      },
-      "2": {
-        "label": "prinz_eugen_skin2",
-        "dialogue": {
-          "1": {
-            "event": "Acquisition",
-            "media": "acquisition",
-            "chinese": "如果和你的相遇也是命运的选择的话，那还真得感谢这命运呢…未来的生活，我可是很期待的哟～？",
-            "chineseTL": "If meeting you was destiny’s work, then I should really thank fate...Should I look forward to the future as well?",
-            "chineseNote": "",
-            "japanese": "あんたと出会ったのは運命というのなら、この運命に感謝しないとね…これからのこと、楽しみにしているわ、う ふふ",
-            "japaneseTL": "",
-            "japaneseNote": "",
-            "english": "",
-            "englishNote": ""
-          },
-          "2": {
-            "event": "Login",
-            "media": "login",
-            "chinese": "和指挥官在一起，感觉就能有更多干劲——",
-            "chineseTL": "Commander, did you look at other girls on your way here~?",
-            "chineseNote": "",
-            "japanese": "指揮官、来る途中ほかの子を盗み見したりしてないわよね？",
-            "japaneseTL": "",
-            "japaneseNote": "",
-            "english": "",
-            "englishNote": ""
-          },
-          "3": {
-            "event": "Details",
-            "media": "details",
-            "chinese": "在铁血，人们也会用动物名来称呼爱人哦，小熊或是小兔子什么的。你希望我叫你小熊还是小兔呢，指挥官？",
-            "chineseTL": "In Metalblood, people use animals like bear cubs or little rabbits as terms of endearment. Would you like me to call you bear cub or little rabbit, Commander?",
-            "chineseNote": "",
-            "japanese": "鉄血では動物の名前で恋人を呼ぶこともあるわよ。クマちゃんとかウサギちゃんとか。うふふ。指揮官はどういう風に呼ばれたい？クマちゃん？それともウサギちゃん？",
-            "japaneseTL": "",
-            "japaneseNote": "",
-            "english": "",
-            "englishNote": ""
-          },
-          "4": {
-            "event": "Idle 1",
-            "media": "idle_1",
-            "chinese": "嗯…突然觉得全身乏力…要指挥官吻一下才能恢复过来呢",
-            "chineseTL": "Hm, I suddenly feel so lethargic, only a kiss from Commander can wake me up...",
-            "chineseNote": "",
-            "japanese": "はぁ……力が入らないわ…指揮官にキスしてもらわないと",
-            "japaneseTL": "",
-            "japaneseNote": "",
-            "english": "",
-            "englishNote": ""
-          },
-          "5": {
-            "event": "Idle 2",
-            "media": "idle_2",
-            "chinese": "工作不要太过度哦~不然的话…我会忍不住寂寞来骚扰你的",
-            "chineseTL": "Don’t spend all of your time working~Otherwise I’ll get tired of waiting alone and come over to disturb you.",
-            "chineseNote": "",
-            "japanese": "働きすぎはよくないわ。…私、寂しいからちょっかい出すわよ？",
-            "japaneseTL": "",
-            "japaneseNote": "",
-            "english": "",
-            "englishNote": ""
-          },
-          "6": {
-            "event": "Idle 3",
-            "media": "idle_3",
-            "chinese": "现在我真的觉得自己很幸运哦——为什么？你觉得呢～？亲·爱·的？",
-            "chineseTL": "I feel so blessed right now——Why? Why do YOU think so~? M~y l~o~v~e?",
-            "chineseNote": "",
-            "japanese": "今すごく幸せな気分よ――なぜ？うふふ、なぜだと思う？あ・な・た",
-            "japaneseTL": "",
-            "japaneseNote": "",
-            "english": "",
-            "englishNote": ""
-          },
-          "7": {
-            "event": "Touch",
-            "media": "touch",
-            "chinese": "指挥官，我知道你想干什么，不过还是工作要紧哦",
-            "chineseTL": "Commander, I know what you want to do, but work is still more important!",
-            "chineseNote": "",
-            "japanese": "指揮官、いま何を考えているかはわかっているけど。お仕事のほうが重要よ",
-            "japaneseTL": "",
-            "japaneseNote": "",
-            "english": "",
-            "englishNote": ""
-          },
-          "8": {
-            "event": "Mission",
-            "media": "mission",
-            "chinese": "任务啊…你选就是了…我都可以哦",
-            "chineseTL": "Tasks...As long as you’re the one assigning them, I can do anything!",
-            "chineseNote": "",
-            "japanese": "任務…勝手に選んで？…私は別になんでもいいわよ",
-            "japaneseTL": "",
-            "japaneseNote": "",
-            "english": "",
-            "englishNote": ""
-          },
-          "9": {
-            "event": "Mission Complete",
-            "media": "mission_complete",
-            "chinese": "指挥官，洗澡水放好了哦，谁先呢，还是说…？",
-            "chineseTL": "Commander, I’ve drawn the bath, who goes first? Or...?",
-            "chineseNote": "",
-            "japanese": "指挥官，洗澡水放好了哦，谁先呢，还是说…？",
-            "japaneseTL": "",
-            "japaneseNote": "",
-            "english": "",
-            "englishNote": ""
-          },
-          "10": {
-            "event": "Mail",
-            "media": "mail",
-            "chinese": "邮件还不少呢…不愧是指挥官，真受欢迎呢",
-            "chineseTL": "So much mail...You really are popular eh, Commander?",
-            "chineseNote": "",
-            "japanese": "邮件还不少呢…不愧是指挥官，真受欢迎呢",
-            "japaneseTL": "",
-            "japaneseNote": "",
-            "english": "",
-            "englishNote": ""
-          }
-        }
-      },
-      "3": {
-        "label": "prinz_eugen_skin4",
-        "dialogue": {
-          "1": {
-            "event": "Acquisition",
-            "media": "acquisition",
-            "chinese": "坐在游泳圈上，舌头轻舔嘴唇……这真是海边最流行的拍照POSE？威尔士，你不会又在戏弄我吧？",
-            "chineseTL": "Sitting on the swimming hoop, licking my lips with the tip of my tongue...is this really the most fashionable pose for photos? (Prince of) Wales, you aren't messing with me again, are you?",
-            "chineseNote": "",
-            "japanese": "浮き輪に座って唇に舌をペロッと……これが海辺の一番流行りのポーズ？ウェールズ、まさかからかうつもりではないでしょうね？",
-            "japaneseTL": "",
-            "japaneseNote": "",
-            "english": "",
-            "englishNote": ""
-          },
-          "2": {
-            "event": "Login",
-            "media": "login",
-            "chinese": "指挥官，我正在练习笑容……某人说我笑起来很不自然，指挥官你也这么觉得吗？",
-            "chineseTL": "Commander, I'm practicing my smile...someone said that my smiles are unnatural, does the Commander think so too?",
-            "chineseNote": "",
-            "japanese": "指揮官、今笑顔の練習をやってるのよ。……誰かさんが私の笑顔がぎこちないと言ってるけど…指揮官もそう思う？",
-            "japaneseTL": "",
-            "japaneseNote": "",
-            "english": "",
-            "englishNote": ""
-          },
-          "3": {
-            "event": "Details",
-            "media": "details",
-            "chinese": "呜哇，和威尔士玩了一天，皮肤都被晒黑了……",
-            "chineseTL": "Wuah, after playing with Wales for the whole day, my skin has gotten darker...",
-            "chineseNote": "",
-            "japanese": "はあぁ……ウェールズと一日中遊んでだら、少し焼けちゃったわ",
-            "japaneseTL": "",
-            "japaneseNote": "",
-            "english": "",
-            "englishNote": ""
-          },
-          "4": {
-            "event": "Idle 1",
-            "media": "idle_1",
-            "chinese": "威尔士，你再调戏俾斯麦小心又被打折手，这次我可不会帮你求情了！",
-            "chineseTL": "Wales, if you tease Bismarck again, be careful not to get a beating again, I won't help you this time!",
-            "chineseNote": "",
-            "japanese": "ウェールズ、またビスマルクをからかって手をおられたら、今度は何も言ってやらないわよ",
-            "japaneseTL": "",
-            "japaneseNote": "",
-            "english": "",
-            "englishNote": ""
-          },
-          "5": {
-            "event": "Idle 2",
-            "media": "idle_2",
-            "chinese": "威尔士虽然总做出轻浮的举动，但实际上非常可靠，还总是帮助敌对阵营的我……",
-            "chineseTL": "Although Wales seems superficial all the time, she is actually very reliable on the inside, and she always helps me, who is on the opposite faction...",
-            "chineseNote": "",
-            "japanese": "ウェールズのやつよく調子に乗っちゃうけど、本当は結構頼りになるわよ。敵だった私から言わせても、ね",
-            "japaneseTL": "",
-            "japaneseNote": "",
-            "english": "",
-            "englishNote": ""
-          },
-          "6": {
-            "event": "Idle 3",
-            "media": "idle_3",
-            "chinese": "刚把这边的状况告诉希佩尔，她回了一句“哈？为什么我要羡慕你那又薄又透又不适合战斗的泳装啊！”嘻嘻，真有希佩尔的风格",
-            "chineseTL": "I just told Hipper the situation here, and she replied \"Haa ? Why should I be jealous of your thin swimsuit that is unfit for combat ? !\" Hehe, how very much like her style.",
-            "chineseNote": "",
-            "japanese": "こっちの話、ヒッパーに教えたら…「はあ？なんでその薄くて戦闘にも適さない様な水着を羨ましがらなきゃならないっての！？」って言ってきたわ。うふふ、ヒッパーらしいわね",
-            "japaneseTL": "",
-            "japaneseNote": "",
-            "english": "",
-            "englishNote": ""
-          },
-          "7": {
-            "event": "Touch",
-            "media": "touch",
-            "chinese": "指挥官，你有看到威尔士吗？可恶，又被她跑掉了！",
-            "chineseTL": "Commander, have you seen Wales? Damn it, I lost her again!",
-            "chineseNote": "",
-            "japanese": "指揮官、ウェールズ見た？もう、また逃げられちゃって…",
-            "japaneseTL": "",
-            "japaneseNote": "",
-            "english": "",
-            "englishNote": ""
-          },
-          "8": {
-            "event": "Special Touch",
-            "media": "special_touch",
-            "chinese": "威尔士有很多优点，但唯独这方面还请不要学她……",
-            "chineseTL": "Wales might have a lot of good points, but please don't copy this from her as well...",
-            "chineseNote": "",
-            "japanese": "ウェールズの長所は多いけど、こんなことまで学んでほしくないわね",
-            "japaneseTL": "",
-            "japaneseNote": "",
-            "english": "",
-            "englishNote": ""
-          },
-          "9": {
-            "event": "Mail",
-            "media": "mail",
-            "chinese": "新信件？是希佩尔发来的还是俾斯麦发来的？啊，原来是给指挥官的……嘁，无聊",
-            "chineseTL": "New mail? Is it from Hipper or Bismarck? Ahh, it's for the Commander...tsk, how boring.",
-            "chineseNote": "",
-            "japanese": "新しいメール？ヒッパー？ビスマルク？なんだ指揮官宛か。……なんかつまんないわ",
-            "japaneseTL": "",
-            "japaneseNote": "",
-            "english": "",
-            "englishNote": ""
-          }
-        }
-      },
-      "4": {
-        "label": "prinz_eugen_skin5",
-        "dialogue": {
-          "1": {
-            "event": "Acquisition",
-            "media": "acquisition",
-            "chinese": "这就是重樱的新年吗？呵呵，这不是很有意思嘛~指挥官，都要过年了，就把工作丢一边来陪我喝一杯吧~",
-            "chineseTL": "Is this the New Year of Sakura Empire? Hoho, isn't this interesting~ Commander, since it's the New Years, leave your work aside and come drink with me~",
-            "chineseNote": "",
-            "japanese": "これが重桜の新年？ふふ、まあ面白いじゃな～い？ひっく…指揮官、せっかくの新年だから～仕事なんてほっといてお酒に付き合ってよ～",
-            "japaneseTL": "",
-            "japaneseNote": "",
-            "english": "",
-            "englishNote": ""
-          },
-          "2": {
-            "event": "Login",
-            "media": "login",
-            "chinese": "是指挥官啊，欢~迎~回~来~",
-            "chineseTL": "It's the Commander, Wel~come~ba~ck~",
-            "chineseNote": "",
-            "japanese": "なんだ指揮官か～お～か～え～り～",
-            "japaneseTL": "",
-            "japaneseNote": "",
-            "english": "",
-            "englishNote": ""
-          },
-          "3": {
-            "event": "Details",
-            "media": "details",
-            "chinese": "Frohes neues Jahr~这是我们铁血的新年快乐哦",
-            "chineseTL": "Frohes neues Jahr~ It's how we say 'Happy New Year' for us Ironbloods.",
-            "chineseNote": "",
-            "japanese": "Frohes neues Jahr~鉄血的な～あけおめだわ～",
-            "japaneseTL": "",
-            "japaneseNote": "",
-            "english": "",
-            "englishNote": ""
-          },
-          "4": {
-            "event": "Idle 1",
-            "media": "idle_1",
-            "chinese": "指挥官，喝一杯，或者喝两杯，选一个~",
-            "chineseTL": "Commander, come have a drink, or 2 drinks, choose one~",
-            "chineseNote": "",
-            "japanese": "指揮官～もう一杯♪もう二杯♪もっと飲んじゃえ～",
-            "japaneseTL": "",
-            "japaneseNote": "",
-            "english": "",
-            "englishNote": ""
-          },
-          "5": {
-            "event": "Idle 2",
-            "media": "idle_2",
-            "chinese": "我说指挥官，把大家叫过来在这里办个酒会吧~",
-            "chineseTL": "I say, Commander, let's call everyone here and have a cocktail party~",
-            "chineseNote": "",
-            "japanese": "あのね指揮官、みんなを呼んで飲もうよ～",
-            "japaneseTL": "",
-            "japaneseNote": "",
-            "english": "",
-            "englishNote": ""
-          },
-          "6": {
-            "event": "Idle 3",
-            "media": "idle_3",
-            "chinese": "重樱的酒真不错，干脆之后去问那个管家婆要点她们东煌的酒也尝尝看好了",
-            "chineseTL": "The alcohol from the Sakura Empire are quite good, I think I'll just go to that shopkeep later for some more, and get a better taste of them.",
-            "chineseNote": "",
-            "japanese": "重桜の酒は本当に美味しいわ～今度はあのケチくさい子に東煌のお酒でも貰おうかしら",
-            "japaneseTL": "",
-            "japaneseNote": "",
-            "english": "",
-            "englishNote": ""
-          },
-          "7": {
-            "event": "Touch",
-            "media": "touch",
-            "chinese": "想喝吗？不~给~你~",
-            "chineseTL": "You want a sip? Not~gonna~give~",
-            "chineseNote": "",
-            "japanese": "これがほしい？うふふ、飲ませて…あげないわ～",
-            "japaneseTL": "",
-            "japaneseNote": "",
-            "english": "",
-            "englishNote": ""
-          },
-          "8": {
-            "event": "Mission Complete",
-            "media": "mission_complete",
-            "chinese": "指挥官，奖励里有好喝的酒吗？",
-            "chineseTL": "Commander, is there any good wine in the rewards?",
-            "chineseNote": "",
-            "japanese": "指揮官、ボーナスに美味い酒はあるかしら？",
-            "japaneseTL": "",
-            "japaneseNote": "",
-            "english": "",
-            "englishNote": ""
-          },
-          "9": {
-            "event": "Mail",
-            "media": "mail",
-            "chinese": "正月的邮件，很受欢迎嘛~",
-            "chineseTL": "Mail on New Year's Day. Are you popular?~",
-            "chineseNote": "",
-            "japanese": "正月の手紙ね…なんだ、結構人気あるじゃない",
-            "japaneseTL": "",
-            "japaneseNote": "",
-            "english": "",
-            "englishNote": ""
-          }
-        }
-      }
-    }
-  }
+	"name_reference": "prinz_eugen",
+	"cn_reference": "ougen",
+	"nameJP": "プリンツ・オイゲン",
+	"nameCN": "欧根亲王",
+	"ID": "244",
+	"name": "Prinz Eugen",
+	"internal_id": "403031",
+	"rarity": "Super Rare",
+	"initialStar": "★★★☆☆☆",
+	"hull": "Heavy Cruiser",
+	"navy": "Ironblood",
+	"prefix": "KMS",
+	"buildTime": "02:00:00",
+	"class": "Hipper",
+	"voiceActress": "Ayane Sakura",
+	"parameters": {
+		"firepower": "B",
+		"torpedo": "D",
+		"aviation": "E",
+		"evasion": "C",
+		"antiAir": "B",
+		"hp": "S"
+	},
+	"scrap": {
+		"gold": "9",
+		"oil": "3",
+		"medal": "10"
+	},
+	"releaseDate": {
+		"JP": "May 25, 2017",
+		"CN": "September 13, 2017",
+		"KR": "March 27, 2018",
+		"EN": "August 16, 2018"
+	},
+	"artist": {
+		"name": "realmbw",
+		"weibo": "https://weibo.com/realmbw",
+		"twitter": "https://twitter.com/realmbw",
+		"pixiv": "https://www.pixiv.net/member.php?id=529070",
+		"other": ""
+	},
+	"enhance": {
+		"firepower": "20",
+		"torpedo": "9",
+		"aviation": "0",
+		"reload": "13"
+	},
+	"acquisitionMethod": "Heavy/Aviation/Exchange. Available in Medal Exchange for 80 Medals and available as drop in D3 during Opposite-Colored Rerun Event.",
+	"skill": {
+		"1": {
+			"icon": "10390",
+			"requirement": "Default Unlocked",
+			"name": "Unbreakable Shield",
+			"type": "Defensive",
+			"description": "40% (70%) activation every 20 seconds: spawns 3 rotating shields that absorb 10 shots each, last 10 seconds."
+		},
+		"2": {
+			"icon": "23211",
+			"requirement": "Default Unlocked",
+			"name": "Full Barrage",
+			"type": "Offensive",
+			"description": "Every 9(6) shots from the main guns, triggers Full Barrage - Admiral Hipper Class I(II)"
+		}
+	},
+	"skin": {
+		"1": {
+			"id": "ougen",
+			"name": "Prinz Eugen",
+			"description": "Admiral Hipper-class Heavy Cruiser, Prinz Eugen",
+			"expression": {
+				"0": {
+					"id": "0"
+				}
+			}
+		},
+		"2": {
+			"id": "ougen_2",
+			"name": "Unfading Smile",
+			"description": "Relaxing on a float, gently licking my lips... is this really the most popular photo pose for the beach? Wales, you’re not teasing me again, are you?",
+			"expression": {
+				"0": {
+					"id": "0"
+				}
+			}
+		},
+		"3": {
+			"id": "ougen_3",
+			"name": "Profusion of Flowers",
+			"description": "So this is the Sakura Empire's New Year? Hehe, how interesting~ Commander, since it's the New Year, why don't you put aside all those papers and have a drink with me? ",
+			"expression": {
+				"0": {
+					"id": "0"
+				}
+			}
+		},
+		"4": {
+			"id": "ougen_h",
+			"name": "Symphonic Fate ",
+			"description": "If fate brought us together, then it has my thanks… I look forward to our future together~ ",
+			"expression": {
+				"0": {
+					"id": "0"
+				}
+			}
+		}
+	},
+	"defaultEquipment": {
+		"1": {
+			"icon": "43000",
+			"rarity": "Rare",
+			"name": "Twin 203mm Main Gun (SK C)"
+		},
+		"2": {
+			"icon": "",
+			"rarity": "",
+			"name": ""
+		},
+		"3": {
+			"icon": "",
+			"rarity": "",
+			"name": ""
+		}
+	},
+	"stats": {
+		"100": {
+			"hp": "5683",
+			"firepower": "196",
+			"torpedo": "133",
+			"antiAir": "178",
+			"aviation": "0",
+			"reload": "159",
+			"hit": "114",
+			"evasion": "24",
+			"speed": "25.6",
+			"luck": "78",
+			"asw": "0",
+			"oxygen": "0",
+			"ammo": "0",
+			"cost": "12",
+			"armor": "Medium"
+		},
+		"120": {
+			"hp": "6252",
+			"firepower": "226",
+			"torpedo": "153",
+			"antiAir": "205",
+			"aviation": "0",
+			"reload": "182",
+			"hit": "128",
+			"evasion": "62",
+			"speed": "25.6",
+			"luck": "78",
+			"asw": "0",
+			"oxygen": "0",
+			"ammo": "0",
+			"cost": "12",
+			"armor": "Medium"
+		},
+		"base": {
+			"hp": "1099",
+			"firepower": "43",
+			"torpedo": "28",
+			"antiAir": "38",
+			"aviation": "0",
+			"reload": "67",
+			"hit": "44",
+			"evasion": "9",
+			"speed": "25.6",
+			"luck": "78",
+			"asw": "0",
+			"oxygen": "0",
+			"ammo": "0",
+			"cost": "4",
+			"armor": "Medium"
+		},
+		"100retrofit": {
+			"hp": "",
+			"firepower": "",
+			"torpedo": "",
+			"antiAir": "",
+			"aviation": "",
+			"reload": "",
+			"hit": "",
+			"evasion": "",
+			"speed": "25.6",
+			"luck": "78",
+			"asw": "",
+			"oxygen": "0",
+			"ammo": "0",
+			"cost": "12",
+			"armor": "Medium"
+		},
+		"120retrofit": {
+			"hp": "",
+			"firepower": "",
+			"torpedo": "",
+			"antiAir": "",
+			"aviation": "",
+			"reload": "",
+			"hit": "",
+			"evasion": "",
+			"speed": "25.6",
+			"luck": "78",
+			"asw": "",
+			"oxygen": "0",
+			"ammo": "0",
+			"cost": "12",
+			"armor": "Medium"
+		}
+	},
+	"limitBreak": {
+		"tier1": "Gains Full Barrage I / All Weapon Efficiency +2%",
+		"tier2": "Max Torpedo Capacity +1 / Pre-loaded Torpedo +1 / All Weapon Efficiency +3%",
+		"tier3": "Upgrades Full Barrage I→II / All Weapon Efficiency +5%"
+	},
+	"equipmentLoadout": {
+		"1": {
+			"type": "Heavy Cruiser",
+			"efficiency": "115%/117%/120%/125%",
+			"amount": "1/1/1/1",
+			"preload": "0/0/0/0"
+		},
+		"2": {
+			"type": "Torpedo",
+			"efficiency": "150%/152%/155%/160%",
+			"amount": "1/1/2/2",
+			"preload": "0/0/1/1"
+		},
+		"3": {
+			"type": "Anti-Air Gun",
+			"efficiency": "110%/112%/115%/120%",
+			"amount": "1/1/1/1",
+			"preload": "0/0/0/0"
+		},
+		"4": {
+			"type": "Auxilary",
+			"efficiency": "-",
+			"amount": "-",
+			"preload": "-"
+		},
+		"5": {
+			"type": "Auxilary",
+			"efficiency": "-",
+			"amount": "-",
+			"preload": "-"
+		}
+	},
+	"build": {
+		"light": {
+			"JP": "-",
+			"CN": "-",
+			"EN": "-"
+		},
+		"heavy": {
+			"JP": "✓",
+			"CN": "✓",
+			"EN": "✓"
+		},
+		"special": {
+			"JP": "✓",
+			"CN": "✓",
+			"EN": "✓"
+		},
+		"limited": {
+			"JP": "-",
+			"CN": "-",
+			"EN": "-"
+		}
+	},
+	"drop": {
+		"droppable": "false",
+		"list": {
+			"1": {
+				"event": "",
+				"chapter": {
+					"1": {
+						"label": "Ch .1",
+						"node": {
+							"1": {
+								"drop": "✓",
+								"note": "-"
+							}
+						}
+					}
+				}
+			}
+		}
+	},
+	"lines": {
+		"skin": {
+			"1": {
+				"skin_id": "ougen",
+				"id": "0",
+				"label": "Prinz Eugen",
+				"dialogue": {
+					"1": {
+						"event": "Ship Description",
+						"media": "",
+						"chinese": "希佩尔海军上将级重巡洋舰—欧根亲王",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "アドミラル・ヒッパー級重巡洋艦・プリンツオイゲン",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Admiral Hipper-class Heavy Cruiser, Prinz Eugen",
+						"englishNote": ""
+					},
+					"2": {
+						"event": "Biography",
+						"media": "profile",
+						"chinese": "我是铁血第三帝国的奇迹，希佩尔海军上将三号舰——欧根亲王号，无论是怎样的战斗都能够存活下来……祥瑞？亏你敢说呢……",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "第三帝国の奇跡、アドミラル・ヒッパー級三番艦ーープリンツ・オイゲン。どんな戦闘でも生き残れるわ。……悪運？よく言ったわね……",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "I am Prinz Eugen, the miracle of the Third Reich and the third ship of the Admiral Hipper-class heavy cruisers. I will survive any battle, no matter how fierce. Luck? You sure have some guts.",
+						"englishNote": ""
+					},
+					"3": {
+						"event": "Receive",
+						"media": "get",
+						"chinese": "嗯……你就是指挥官吗，你能让我愉快到什么程度呢？我可是很期待的呢~",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "ふぅん……あんたが指揮官？どこまで楽しませてくれるのかしら？期待してるわ",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Hmm... so you're the Commander? How long can you keep me amused? I'm looking forward to it.",
+						"englishNote": ""
+					},
+					"4": {
+						"event": "Log in",
+						"media": "login",
+						"chinese": "嗯哼~怎么？~今天想要我怎么管教你？",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "ふふん~なに？今日はどう可愛がられたい？",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Hmm~ What is it? How would you like me to train you today?",
+						"englishNote": ""
+					},
+					"5": {
+						"event": "View details",
+						"media": "detail",
+						"chinese": "嗯？……检查吗？Vielen Dank～",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "うん？……検査？Vielen Dank..",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Hmm? Check up? Vielen Dank~",
+						"englishNote": ""
+					},
+					"6": {
+						"event": "Main screen 1",
+						"media": "main_1",
+						"chinese": "工作不要太过度哦~不然的话……会——死——的",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "働きすぎはよくないわ。死・ぬ・わ・よ？",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "If you overwork yourself too much... you ~ will ~ die.",
+						"englishNote": ""
+					},
+					"7": {
+						"event": "Main screen 2",
+						"media": "main_2",
+						"chinese": "幸运舰？……你难道在讽刺我吗？",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "幸せを運ぶ船？……それって皮肉のつもり？",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Lucky ship? Are you mocking me?",
+						"englishNote": ""
+					},
+					"8": {
+						"event": "Main screen 3",
+						"media": "main_3",
+						"chinese": "——「Unternehmen Rheinübung」、吗…回想起来那就是一切的开始啊…",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "ーー「ライン演習作戦」、か。…思えばアレがすべての始まりだった…",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Operation Rheinübung? Looking back, that was how it all began for me.",
+						"englishNote": ""
+					},
+					"9": {
+						"event": "Normal touch",
+						"media": "touch_1",
+						"chinese": "这点程度就满足了吗？",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "この程度で満足かしら？",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Have you finished having your fun?",
+						"englishNote": ""
+					},
+					"10": {
+						"event": "Special touch",
+						"media": "touch_2",
+						"chinese": "好了，现在换我来尝尝你的味道~",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "じゃあ、今度は私があんたを味わう番よ",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Now then, it's my turn to have a taste of you.",
+						"englishNote": ""
+					},
+					"11": {
+						"event": "Mission reminder",
+						"media": "task",
+						"chinese": "任务……会有什么新奇的内容吗？",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "任務……目新しいものない？",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Missions... aren't there any interesting ones?",
+						"englishNote": ""
+					},
+					"12": {
+						"event": "Mission complete",
+						"media": "mission_complete",
+						"chinese": "指挥官，有奖励哦——我？没有兴趣",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "指揮官、ご褒美よーー私？別に",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Commander, the rewards. My portion? Not interested~",
+						"englishNote": ""
+					},
+					"13": {
+						"event": "Mail reminder",
+						"media": "mail",
+						"chinese": "有新邮件呢~呵呵呵",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "新しいメールよ。うふふ",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "There's new mail. Hehe~",
+						"englishNote": ""
+					},
+					"14": {
+						"event": "Return to port",
+						"media": "home",
+						"chinese": "指挥官，要一起洗个澡放松一下吗？",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "指揮官、一緒にお風呂でさっぱりしない？",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Commander, won't you shower and relax with me for a while?",
+						"englishNote": ""
+					},
+					"15": {
+						"event": "Commission complete",
+						"media": "expedition",
+						"chinese": "委托完成了吗，呵呵，那我们就去看看有没有什么有趣的东西吧",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "委託が完了した？うふふ、じゃあ面白いものがあるか見にいこうか",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Commission completed? Let's see if there is anything interesting to report.",
+						"englishNote": ""
+					},
+					"16": {
+						"event": "Enhancing complete",
+						"media": "upgrade",
+						"chinese": "这种感觉……倒是不坏",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "この感じ……悪くないわね",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "This feeling... isn't half bad.",
+						"englishNote": ""
+					},
+					"17": {
+						"event": "Flagship fight",
+						"media": "warcry",
+						"chinese": "全舰火力全开，Feuer！",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "全艦、火力全開！Feuer！",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "All ships, open fire!",
+						"englishNote": ""
+					},
+					"18": {
+						"event": "Victory",
+						"media": "mvp",
+						"chinese": "嗯……战列舰？那不是小菜一碟吗～",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "ぐぅ……戦艦？鎧袖一触よ。",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "*Yawns* ... Battleships? Nothing but small fry.",
+						"englishNote": ""
+					},
+					"19": {
+						"event": "Defeat",
+						"media": "lose",
+						"chinese": "呵呵呵呵呵……你们，很棒哦……",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "ふふふふ……お前たち、やるわね……",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Hehehe... now you've done it...",
+						"englishNote": ""
+					},
+					"20": {
+						"event": "Skills",
+						"media": "skill",
+						"chinese": "这点程度还不够，再来，再多点……！",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "この程度じゃ足りないわ。もっと、もっとだ……！",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "It's not enough. I. Want. MORE!",
+						"englishNote": ""
+					},
+					"21": {
+						"event": "Low HP",
+						"media": "hp",
+						"chinese": "呵呵……有趣",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "ふふ……面白いわね",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Ahhh... how interesting!",
+						"englishNote": ""
+					},
+					"22": {
+						"event": "Upset",
+						"media": "feeling1",
+						"chinese": "能从我的眼前消失吗？有点碍眼呢……",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "目の前から消えてもらえる？目障りなんだけど",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Mind getting out of my sight? You're a bit of an eyesore.",
+						"englishNote": ""
+					},
+					"23": {
+						"event": "Stranger",
+						"media": "feeling2",
+						"chinese": "——缺少笑容？那指挥官要试试吗，看能不能把我逗笑？",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "ーーあまり笑わない？指揮官、試してみる？私を笑わせられるかどうか",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "... I don't smile enough? Commander... care to see if you can make me?",
+						"englishNote": ""
+					},
+					"24": {
+						"event": "Friendly",
+						"media": "feeling3",
+						"chinese": "指挥官，我喜欢你哦~——开玩笑的，心跳加速了吗～？",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "指揮官、好きよーー冗談よ。今のでドキッとした？",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Commander~ I love you. Just kidding. Did your heart skip a beat?",
+						"englishNote": ""
+					},
+					"25": {
+						"event": "Crush",
+						"media": "feeling4",
+						"chinese": "Ich liebe dich——是真心还是玩笑？就交给指挥官自己来判断吧～",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "Ich liebe dichーー本気か、冗談か？指揮官の判断に任せるわ",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Ich liebe dich~ is this a joke or the truth? Why don't you decide for yourself~",
+						"englishNote": ""
+					},
+					"26": {
+						"event": "Love",
+						"media": "feeling5",
+						"chinese": "——为什么笑了？看到指挥官惊慌失措的样子，就让人分外开心呢，这次真的是发自内心的笑哟，嘻嘻…",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "ーーなぜ笑ったのかって？指揮官がドタバタしてる姿を見ると楽しくなっちゃうもの。今回は本気で笑っているのよ。うふふ……",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "... Why did I laugh? Because it's funny to see you look so confused, Commander... This smile is truly from the bottom of my heart!",
+						"englishNote": ""
+					},
+					"27": {
+						"event": "Promise",
+						"media": "propose",
+						"chinese": "——这就是你给我的答案吗？怎么办好呢……噗，真是笨啊，我的指挥官大人，我早就不是一开始那个对什么都感到空虚的我了，你难道忘了是谁让我改变的吗？",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "ーーこれがあんたの答え？どうしようかな……ふふ、鈍感な指揮官さま。もう何にも本気にならない、昔の私じゃないのよ。私を変えたのは誰なのか、忘れたのかしら？",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "So this is the answer you're giving me? What shall I do? What a dense commander. I have long stopped being the empty person I was before. Did you forget that you were the one who changed me?",
+						"englishNote": ""
+					},
+					"28": {
+						"event": "Easter Egg 1(Gridley, Maury)",
+						"media": "link1",
+						"chinese": "呵，白鹰记者跑的也挺快嘛……",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "ふぅ、ユニオンの記者も足が速いもんね……",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "You Eagle reporters sure do run fast!",
+						"englishNote": ""
+					},
+					"29": {
+						"event": "Easter Egg 2(Queen Elizabeth, Amazon)",
+						"media": "link2",
+						"chinese": "蹭的累是你们贫乳金毛的传统吗？",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "そのツンデレは、お前たち金髪まな板のテンプレートかしら？",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Is it a tradition for you all to be so flat?",
+						"englishNote": ""
+					},
+					"30": {
+						"event": "Easter Egg 3(Hood)",
+						"media": "link3",
+						"chinese": "你的优雅能撑到什么时候呢",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "その優雅さ、いつまで持つかしら？",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Let's see how long you can keep up that \"elegance\"...",
+						"englishNote": ""
+					}
+				}
+			},
+			"2": {
+				"skin_id": "ougen_2",
+				"id": "1",
+				"label": "Unfading Smile",
+				"dialogue": {
+					"1": {
+						"event": "Ship Description",
+						"media": "",
+						"chinese": "坐在游泳圈上，舌头轻舔嘴唇……这真是海边最流行的拍照POSE？威尔士，你不会又在戏弄我吧？",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "浮き輪に座って唇に舌をペロッと……これが海辺の一番流行りのポーズ？ウェールズ、まさかからかうつもりではないでしょうね？",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Relaxing on a float, gently licking my lips... is this really the most popular photo pose for the beach? Wales, you’re not teasing me again, are you?",
+						"englishNote": ""
+					},
+					"2": {
+						"event": "Receive",
+						"media": "get_1",
+						"chinese": "坐在游泳圈上，舌头轻舔嘴唇……这真是海边最流行的拍照POSE？威尔士，你不会又在戏弄我吧？",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "浮き輪に座って唇に舌をペロッと……これが海辺の一番流行りのポーズ？ウェールズ、まさかからかうつもりではないでしょうね？",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Relaxing on a float, gently licking my lips... is this really the most popular photo pose for the beach? Wales, you’re not teasing me again, are you?",
+						"englishNote": ""
+					},
+					"3": {
+						"event": "Log in",
+						"media": "login_1",
+						"chinese": "指挥官，我正在练习笑容……某人说我笑起来很不自然，指挥官你也这么觉得吗？",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "指揮官、今笑顔の練習をやってるのよ。……誰かさんが私の笑顔がぎこちないと言ってるけど…指揮官もそう思う？",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Commander, I am practicing my smile. Someone said it looks unnatural, but what do you think?",
+						"englishNote": ""
+					},
+					"4": {
+						"event": "View details",
+						"media": "detail_1",
+						"chinese": "呜哇，和威尔士玩了一天，皮肤都被晒黑了……",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "はあぁ……ウェールズと一日中遊んでだら、少し焼けちゃったわ",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Woah! I got a pretty dark tan after playing with Wales all day...",
+						"englishNote": ""
+					},
+					"5": {
+						"event": "Main screen 1",
+						"media": "main_1_1",
+						"chinese": "威尔士，你再调戏俾斯麦小心又被打折手，这次我可不会帮你求情了！",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "ウェールズ、またビスマルクをからかって手をおられたら、今度は何も言ってやらないわよ",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Wales, someone is going to break your hand again if you keep messing with Bismarck! I won't plead for you this time...",
+						"englishNote": ""
+					},
+					"6": {
+						"event": "Main screen 2",
+						"media": "main_2_1",
+						"chinese": "威尔士虽然总做出轻浮的举动，但实际上非常可靠，还总是帮助敌对阵营的我……",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "ウェールズのやつよく調子に乗っちゃうけど、本当は結構頼りになるわよ。敵だった私から言わせても、ね",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Despite her devil-may-care attitude, Wales is actually quite reliable. In fact, she helps me all the time, even though we were once enemies...",
+						"englishNote": ""
+					},
+					"7": {
+						"event": "Main screen 3",
+						"media": "main_3_1",
+						"chinese": "刚把这边的状况告诉希佩尔，她回了一句“哈？为什么我要羡慕你那又薄又透又不适合战斗的泳装啊！”嘻嘻，真有希佩尔的风格",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "こっちの話、ヒッパーに教えたら…「はあ？なんでその薄くて戦闘にも適さない様な水着を羨ましがらなきゃならないっての！？」って言ってきたわ。うふふ、ヒッパーらしいわね",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "I went and told Hipper about our beach day, and all she said was, 'Why do I need to be jealous about your thin, lewd, and non-combat-ready swimming suit?' Haha, that's so like her!",
+						"englishNote": ""
+					},
+					"8": {
+						"event": "Normal touch",
+						"media": "touch_1_1",
+						"chinese": "指挥官，你有看到威尔士吗？可恶，又被她跑掉了！",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "指揮官、ウェールズ見た？もう、また逃げられちゃって…",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Commander, have you seen Wales? That rascal, she ditched me again!",
+						"englishNote": ""
+					},
+					"9": {
+						"event": "Special touch",
+						"media": "touch_2_1",
+						"chinese": "威尔士有很多优点，但唯独这方面还请不要学她……",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "ウェールズの長所は多いけど、こんなことまで学んでほしくないわね",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "There are a lot of good things about Wales, but please avoid picking up her bad habits.",
+						"englishNote": ""
+					},
+					"10": {
+						"event": "Mail reminder",
+						"media": "mail_1",
+						"chinese": "新信件？是希佩尔发来的还是俾斯麦发来的？啊，原来是给指挥官的……嘁，无聊",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "新しいメール？ヒッパー？ビスマルク？なんだ指揮官宛か。……なんかつまんないわ",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "More mail? Any from Hipper or Bismarck? Ah, they're all for you, Commander... How boring...",
+						"englishNote": ""
+					}
+				}
+			},
+			"3": {
+				"skin_id": "ougen_3",
+				"id": "2",
+				"label": "Profusion of Flowers",
+				"dialogue": {
+					"1": {
+						"event": "Ship Description",
+						"media": "",
+						"chinese": "这就是重樱的新年吗？呵呵，这不是很有意思嘛~指挥官，都要过年了，就把工作丢一边来陪我喝一杯吧~",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "これが重桜の新年？ふふ、まあ面白いじゃな～い？ひっく…指揮官、せっかくの新年だから～仕事なんてほっといてお酒に付き合ってよ～",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "So this is the Sakura Empire's New Year? Hehe, how interesting~ Commander, since it's the New Year, why don't you put aside all those papers and have a drink with me?",
+						"englishNote": ""
+					},
+					"2": {
+						"event": "Receive",
+						"media": "get_2",
+						"chinese": "这就是重樱的新年吗？呵呵，这不是很有意思嘛~指挥官，都要过年了，就把工作丢一边来陪我喝一杯吧~",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "これが重桜の新年？ふふ、まあ面白いじゃな～い？ひっく…指揮官、せっかくの新年だから～仕事なんてほっといてお酒に付き合ってよ～",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "So this is the Sakura Empire's New Year? Hehe, how interesting~ Commander, since it's the New Year, why don't you put aside all those papers and have a drink with me?",
+						"englishNote": ""
+					},
+					"3": {
+						"event": "Log in",
+						"media": "login_2",
+						"chinese": "是指挥官啊，欢~迎~回~来~",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "なんだ指揮官か～お～か～え～り～",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Ahh, Commander, wel~come~ home~",
+						"englishNote": ""
+					},
+					"4": {
+						"event": "View details",
+						"media": "detail_2",
+						"chinese": "Frohes neues Jahr~这是我们铁血的新年快乐哦",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "Frohes neues Jahr~鉄血的な～あけおめだわ～",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Frohes neues Jahr~ This is how we say we say \"Happy New Year\" in the Iron Blood.",
+						"englishNote": ""
+					},
+					"5": {
+						"event": "Main screen 1",
+						"media": "main_1_2",
+						"chinese": "指挥官，喝一杯，或者喝两杯，选一个~",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "指揮官～もう一杯♪もう二杯♪もっと飲んじゃえ～",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Commander~ let's have a drink~ and two more drinks~ ahh... let's keep going~ ",
+						"englishNote": ""
+					},
+					"6": {
+						"event": "Main screen 2",
+						"media": "main_2_2",
+						"chinese": "我说指挥官，把大家叫过来在这里办个酒会吧~",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "あのね指揮官、みんなを呼んで飲もうよ～",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Hey Commander, why don't we call everyone over and drink together~ ",
+						"englishNote": ""
+					},
+					"7": {
+						"event": "Main screen 3",
+						"media": "main_3_2",
+						"chinese": "重樱的酒真不错，干脆之后去问那个管家婆要点她们东煌的酒也尝尝看好了",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "重桜の酒は本当に美味しいわ～今度はあのケチくさい子に東煌のお酒でも貰おうかしら",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "The Sakura Empire's sake is truly delicious~ Next time, why don't we ask those stingy girls to let us try some liquor from the Eastern Radiance~",
+						"englishNote": ""
+					},
+					"8": {
+						"event": "Normal touch",
+						"media": "touch_1_2",
+						"chinese": "想喝吗？不~给~你~",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "これがほしい？うふふ、飲ませて…あげないわ～",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "You want to drink this? Not~ gonna~ share~",
+						"englishNote": ""
+					},
+					"9": {
+						"event": "Mission complete",
+						"media": "mission_complete_2",
+						"chinese": "指挥官，奖励里有好喝的酒吗？",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "指揮官、ボーナスに美味い酒はあるかしら？",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Commander, did the rewards have any tasty drinks?",
+						"englishNote": ""
+					},
+					"10": {
+						"event": "Mail reminder",
+						"media": "mail_2",
+						"chinese": "正月的邮件，很受欢迎嘛~",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "正月の手紙ね…なんだ、結構人気あるじゃない",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "New Year's greetings, huh? Aren't you the popular one~",
+						"englishNote": ""
+					}
+				}
+			},
+			"4": {
+				"skin_id": "ougen_h",
+				"id": "8",
+				"label": "Symphonic Fate ",
+				"dialogue": {
+					"1": {
+						"event": "Ship Description",
+						"media": "",
+						"chinese": "如果和你的相遇也是命运的选择的话，那还真得感谢这命运呢…未来的生活，我可是很期待的哟～？",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "あんたと出会ったのは運命というのなら、この運命に感謝しないとね…これからのこと、楽しみにしているわ、うふふ",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "If fate brought us together, then it has my thanks… I look forward to our future together~",
+						"englishNote": ""
+					},
+					"2": {
+						"event": "Receive",
+						"media": "get_8",
+						"chinese": "如果和你的相遇也是命运的选择的话，那还真得感谢这命运呢…未来的生活，我可是很期待的哟～？",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "あんたと出会ったのは運命というのなら、この運命に感謝しないとね…これからのこと、楽しみにしているわ、うふふ",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "If fate brought us together, then it has my thanks… I look forward to our future together~",
+						"englishNote": ""
+					},
+					"3": {
+						"event": "Log in",
+						"media": "login_8",
+						"chinese": "指挥官，来的路上没有偷看别的女孩子吧～？",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "指揮官、来る途中ほかの子を盗み見したりしてないわよね？",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Commander, you did not happen to peek at other girls while on the way here, right? ~~",
+						"englishNote": ""
+					},
+					"4": {
+						"event": "View details",
+						"media": "detail_8",
+						"chinese": "在铁血，人们也会用动物名来称呼爱人哦，小熊或是小兔子什么的。你希望我叫你小熊还是小兔呢，指挥官？",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "鉄血では動物の名前で恋人を呼ぶこともあるわよ。クマちゃんとかウサギちゃんとか。うふふ。指揮官はどういう風に呼ばれたい？クマちゃん？それともウサギちゃん？",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "In Ironblood, we also use animal nicknames to call our lovers, like teddy bear or little bunny or something else. So Commander, do you want me to call you teddy bear or little bunny?",
+						"englishNote": ""
+					},
+					"5": {
+						"event": "Main screen 1",
+						"media": "main_1_8",
+						"chinese": "嗯…突然觉得全身乏力…要指挥官吻一下才能恢复过来呢",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "はぁ……力が入らないわ…指揮官にキスしてもらわないと",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Ugh...my body suddenly feels so weak...I’d only recover if you give me a kiss, Commander ",
+						"englishNote": ""
+					},
+					"6": {
+						"event": "Main screen 2",
+						"media": "main_2_8",
+						"chinese": "工作不要太过度哦~不然的话…我会忍不住寂寞来骚扰你的",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "働きすぎはよくないわ。…私、寂しいからちょっかい出すわよ？",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": " Don’t overstretch yourself at work ~ otherwise… my loneliness will drive me to tease you.",
+						"englishNote": ""
+					},
+					"7": {
+						"event": "Main screen 3",
+						"media": "main_3_8",
+						"chinese": "现在我真的觉得自己很幸运哦——为什么？你觉得呢～？亲·爱·的？",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "今すごく幸せな気分よ――なぜ？うふふ、なぜだと思う？あ・な・た",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": " I feel so lucky right now --- why you ask? Take--a--guess, dear?",
+						"englishNote": ""
+					},
+					"8": {
+						"event": "Normal touch",
+						"media": "touch_1_8",
+						"chinese": "指挥官，我知道你想干什么，不过还是工作要紧哦",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "指揮官、いま何を考えているかはわかっているけど。お仕事のほうが重要よ",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "I know what’s on your mind, Commander...but we need to focus on work right now.",
+						"englishNote": ""
+					},
+					"9": {
+						"event": "Mission reminder",
+						"media": "task_8",
+						"chinese": "任务啊…你选就是了…我都可以哦",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "任務…勝手に選んで？…私は別になんでもいいわよ",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "All these missions….you pick Commander...I’m ready for them all~",
+						"englishNote": ""
+					},
+					"10": {
+						"event": "Mail reminder",
+						"media": "mail_8",
+						"chinese": "邮件还不少呢…不愧是指挥官，真受欢迎呢",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "手紙結構あるわね…うふふ、さすがは指揮官、人気者ね",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Receiving a lot of mails….after all, you're the Commander, a really popular one, huh.",
+						"englishNote": ""
+					},
+					"11": {
+						"event": "Return to port",
+						"media": "home_8",
+						"chinese": "指挥官，洗澡水放好了哦，谁先呢，还是说…？",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "指揮官、お風呂の用意出来たわよ。どっちが先に入る？それとも……？",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Commander, the bathtub has been filled with hot water, so who goes first, or…?",
+						"englishNote": ""
+					}
+				}
+			}
+		}
+	}
 }
