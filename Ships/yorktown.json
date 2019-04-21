@@ -1,0 +1,643 @@
+{
+	"name_reference" : "yorktown",
+	"cn_reference" : "yuekecheng",
+	"nameJP" : "ヨークタウン",
+	"nameCN" : "约克城",
+	"ID" : "76",
+	"name" : "Yorktown",
+	"internal_id" : "107051",
+	"rarity" : "Elite",
+	"initialStar" : "★★☆☆☆",
+	"hull" : "Aircraft Carrier",
+	"navy" : "Eagle Union",
+	"prefix" : "USS",
+	"buildTime" : "",
+	"class" : "Yorktown",
+	"voiceActress" : "Kana Yuuki",
+	"parameters": {
+		"firepower" : "E",
+		"torpedo" : "E",
+		"aviation" : "A",
+		"evasion" : "C",
+		"antiAir" : "B",
+		"hp" : "B"
+	},
+	"scrap": {
+		"gold" : "9",
+		"oil" : "3",
+		"medal" : "4"
+	},
+	"releaseDate": {
+		"JP" : "",
+		"CN" : "",
+		"KR" : "",
+		"EN" : ""
+	},
+	"artist": {
+		"name" : "",
+		"weibo" : "",
+		"twitter" : "",
+		"pixiv" : "",
+		"other" : ""
+	},
+	"enhance": {
+		"firepower" : "0",
+		"torpedo" : "0",
+		"aviation" : "62",
+		"reload" : "8"
+	},
+	"acquisitionMethod" : "Honor medal exchange, Explore Stage7-2, Special Ship Construction",
+	"skill": {
+		"1" : {
+			"icon" : "10190",
+			"requirement" : "",
+			"name" : "Vengeance",
+			"type" : "Defensive",
+			"description" : "When this ship's HP falls below 20.0%: recovers $1 of this ship's max HP. This effect can only activate once per battle. Additionally, each time this ship takes DMG: launches a special airstrike. Special airstrike has a cooldown of 20s and its damage is based on the skill's level."
+		},
+		"2" : {
+			"icon" : "3021",
+			"requirement" : "",
+			"name" : "Fleet Carrier",
+			"type" : "Support",
+			"description" : "When this ship launches an Airstrike: increases the DMG the Vanguard Fleet deals by $1 for 8s. Does not stack with the same skill."
+		}
+	},
+	"skin": {
+		"1" : {
+			"id" : "yuekecheng",
+			"name" : "Yorktown",
+			"description" : "Yorktown-class aircraft carrier ー Yorktown, Hull Number CV-5!",
+			"expression" : {
+				"0" : {
+					"id" : "0"
+				}
+			}
+		}
+	},
+	"defaultEquipment": {
+		"1" : {
+			"icon" : "17100",
+			"rarity" : "Common",
+			"name" : "F4F Wildcat"
+		},
+		"1" : {
+			"icon" : "19000",
+			"rarity" : "",
+			"name" : "SBD Dauntless"
+		},
+		"1" : {
+			"icon" : "18000",
+			"rarity" : "",
+			"name" : "TBD Devastator"
+		}
+	},
+	"stats": {
+		"base": {
+			"hp" : "975",
+			"firepower" : "0",
+			"torpedo" : "0",
+			"antiAir" : "60",
+			"aviation" : "75",
+			"reload" : "45",
+			"hit" : "33",
+			"evasion" : "13",
+			"speed" : "32.5",
+			"luck" : "39",
+			"asw" : "0",
+			"oxygen" : "0",
+			"ammo" : "0",
+			"cost" : "4",
+			"armor" : "Medium"
+		},
+		"100": {
+			"hp" : "5041",
+			"firepower" : "0",
+			"torpedo" : "0",
+			"antiAir" : "280",
+			"aviation" : "354",
+			"reload" : "105",
+			"hit" : "85",
+			"evasion" : "34",
+			"speed" : "32.5",
+			"luck" : "39",
+			"asw" : "0",
+			"oxygen" : "0",
+			"ammo" : "0",
+			"cost" : "12",
+			"armor" : "Medium"
+		},
+		"120": {
+			"hp" : "5797",
+			"firepower" : "0",
+			"torpedo" : "0",
+			"antiAir" : "317",
+			"aviation" : "395",
+			"reload" : "121",
+			"hit" : "96",
+			"evasion" : "54",
+			"speed" : "32.5",
+			"luck" : "39",
+			"asw" : "0",
+			"oxygen" : "0",
+			"ammo" : "0",
+			"cost" : "12",
+			"armor" : "Medium"
+		},
+		"100retrofit": {
+			"hp" : "",
+			"firepower" : "",
+			"torpedo" : "",
+			"antiAir" : "",
+			"aviation" : "",
+			"reload" : "",
+			"hit" : "",
+			"evasion" : "",
+			"speed" : "32.5",
+			"luck" : "39",
+			"asw" : "",
+			"oxygen" : "0",
+			"ammo" : "0",
+			"cost" : "12",
+			"armor" : "Medium"
+		},
+		"120retrofit": {
+			"hp" : "",
+			"firepower" : "",
+			"torpedo" : "",
+			"antiAir" : "",
+			"aviation" : "",
+			"reload" : "",
+			"hit" : "",
+			"evasion" : "",
+			"speed" : "32.5",
+			"luck" : "39",
+			"asw" : "",
+			"oxygen" : "0",
+			"ammo" : "0",
+			"cost" : "12",
+			"armor" : "Medium"
+		}
+	},
+	"limitBreak": {
+		"tier1": "All fighters +1/Aircraft efficiency +3%",
+		"tier2": "Hangar capacity +1/All Dive Bombers +1/Aircraft efficiency +5%",
+		"tier3": "All aircraft +1/Aircraft efficiency +7%"
+	},
+	"equipmentLoadout": {
+		"1": {
+			"type": "Fighter",
+			"efficiency": "110%/113%/118%/125%",
+			"amount": "1/2/2/3",
+			"preload": "0/0/0/0"
+		},
+		"2": {
+			"type": "Dive Bomber",
+			"efficiency": "110%/113%/118%/125%",
+			"amount": "1/1/2/3",
+			"preload": "0/0/0/0"
+		},
+		"3": {
+			"type": "Torpedo Bomber",
+			"efficiency": "110%/113%/118%/125%",
+			"amount": "1/1/1/2",
+			"preload": "0/0/0/0"
+		},
+		"4": {
+			"type": "Auxilary",
+			"efficiency": "-",
+			"amount": "-",
+			"preload": "-"
+		},
+		"5": {
+			"type": "Auxilary",
+			"efficiency": "-",
+			"amount": "-",
+			"preload": "-"
+		}
+	},
+	"build": {
+		"light": {
+			"JP": "",
+			"CN": "",
+			"EN": ""
+		},
+		"heavy": {
+			"JP": "",
+			"CN": "",
+			"EN": ""
+		},
+		"special": {
+			"JP": "",
+			"CN": "",
+			"EN": ""
+		},
+		"limited": {
+			"JP": "",
+			"CN": "",
+			"EN": ""
+		}
+	},
+	"drop": {
+		"droppable": "false",
+		"list": {
+			"1": {
+				"event": "",
+				"chapter": {
+					"1": {
+						"label": "Ch .1",
+						"node": {
+							"1": {
+								"drop": "✓",
+								"note": "-"
+							}
+						}
+					}
+				}
+			}
+		}
+	},
+	"lines": {
+		"skin": {
+			"1": {
+				"skin_id" : "yuekecheng",
+				"id" : "0",
+				"label" : "Yorktown",
+				"dialogue" : {
+					"1" : {
+						"event" : "Ship Description",
+						"media" : "",
+						"chinese" : "约克城级航空母舰—约克城，舷号CV-5",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "ヨークタウン級航空母艦・ヨークタウン（CV-5)",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Yorktown-class aircraft carrier ー Yorktown, Hull Number CV-5!",
+						"englishNote" : ""
+					},
+					"2" : {
+						"event" : "Biography",
+						"media" : "profile",
+						"chinese" : "我是约克城级航母首舰，约克城。被抛弃吗？虽然我明白并不能怪他们，但是我已经失去了寻找黑暗之后的光明的勇气了……指挥官，你也会离我而去吗，还是会牵住我的手呢……",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "ヨークタウン型航空母艦のネームシップ、ヨークタウン。見捨てられた……？あの娘たちのせいではないけれど、私にはもうあの暗闇から光に手を差し伸べる勇気がないわ。指揮官様、あなたも私からいなくなるの？それともこんな私の手を引いてくださるのかしら……？",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Lead ship of the Yorktown class aircraft carriers, Yorktown. Abandoned...? It wasn't their fault, but I do not have the courage to reach out for light from that darkness. Will you leave me, Commander? Or will you guide me by my hand...?",
+						"englishNote" : ""
+					},
+					"3" : {
+						"event" : "Receive",
+						"media" : "get",
+						"chinese" : "我是约克城级航空母舰的首舰——约克城，我的名字似乎是为了纪念白鹰独立战争中的约克城围城战役。态度中立？不、那只是是交手前的礼节而已……",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "私はヨークタウン型航空母艦のネームシップーーヨークタウン。名前はかのユニオン独立戦争でのヨークタウン包囲戦から来ているわ。中立…？あれは戦いを交じえる前のマナーに過ぎないわ",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "I am the lead ship of Yorktown class aircraft carriers, Yorktown. My name cones from the Siege of Yorktown... You know? In the Revolutionary War. Neutrality...? That's just a pre-war courtesy.",
+						"englishNote" : ""
+					},
+					"4" : {
+						"event" : "Log in",
+						"media" : "login",
+						"chinese" : "指挥官，贵安~有什么难题的话就让我去做吧",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "指揮官様、ごきげんよう。問題があれば、私におまかせください",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Greetings, Commander. If there's a problem, please leave it to me.",
+						"englishNote" : ""
+					},
+					"5" : {
+						"event" : "View details",
+						"media" : "detail",
+						"chinese" : "不用理会我也没事的……",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "私のことを覚えなくても……",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "It's alright if you don't remember me...",
+						"englishNote" : ""
+					},
+					"6" : {
+						"event" : "Main screen 1",
+						"media" : "main_1",
+						"chinese" : "这孩子很喜欢我呢，但我真的配饲养它吗……",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "この子私に懐いているわ。でも私なんかこの子を飼ってもいいの……",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "This eagle really likes being with me, but is it alright for me to feed it...?",
+						"englishNote" : ""
+					},
+					"7" : {
+						"event" : "Main screen 2",
+						"media" : "main_2",
+						"chinese" : "指挥官，42和24可别看反了哦~",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "指揮官様、42と24、くれぐれも間違えないようにね",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Commander, please do not confuse 42 with 24, no matter what",
+						"englishNote" : ""
+					},
+					"8" : {
+						"event" : "Main screen 3",
+						"media" : "main_3",
+						"chinese" : "请多将时间分给妹妹们吧，我的话怎样都好",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "お時間があれば、妹たちと過ごしたほうが…私なんてどうだっていいわ",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "If there's time, maybe you should spend it with my younger sisters... I'm fine on my own",
+						"englishNote" : ""
+					},
+					"9" : {
+						"event" : "Normal touch",
+						"media" : "touch_1",
+						"chinese" : "指挥官，怎么了吗？",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "指揮官様、何があったの？",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Commander, what happened?",
+						"englishNote" : ""
+					},
+					"10" : {
+						"event" : "Special touch",
+						"media" : "touch_2",
+						"chinese" : "指挥官有为我刻上印记的觉悟吗？",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "こんな私にあなたの印を刻む覚悟があるというの？",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Are you truly prepared to leave your mark on someone like me?",
+						"englishNote" : ""
+					},
+					"11" : {
+						"event" : "Mission reminder",
+						"media" : "task",
+						"chinese" : "新下达的任务已经整理好了",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "新たに通達されたミッションの資料は片付いたわ",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Your new missions have been organized, Commander.",
+						"englishNote" : ""
+					},
+					"12" : {
+						"event" : "Mission complete",
+						"media" : "mission_complete",
+						"chinese" : "任务奖励送来了，请查收吧",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "ミッションボーナスが届いたわ。ご確認ください",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "The mission rewards have been delivered. Please check them.",
+						"englishNote" : ""
+					},
+					"13" : {
+						"event" : "Mail reminder",
+						"media" : "mail",
+						"chinese" : "这孩子把信件取过来了，请过目",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "この子がメールを持ってきたわ。ご確認ください",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "My eagle got the mail. Please read it carefully.",
+						"englishNote" : ""
+					},
+					"14" : {
+						"event" : "Return to port",
+						"media" : "home",
+						"chinese" : "指挥官没有受伤……真是太好了",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "お怪我がなくて……よかった",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "You're not hurt... That's good",
+						"englishNote" : ""
+					},
+					"15" : {
+						"event" : "Commission complete",
+						"media" : "expedition",
+						"chinese" : "怎么了，小鹰？原来如此，委托组回来了吗，指挥官，快去吧",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "どうしたの、いーぐるちゃん？なるほど、委託チームが戻ってきたの？指揮官様、迎えに行きましょう",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "What's wrong, little eagle? So, the commission team has returned? Commander, let us greet them.",
+						"englishNote" : ""
+					},
+					"16" : {
+						"event" : "Enhancing complete",
+						"media" : "upgrade",
+						"chinese" : "谢谢…",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "ありがとう…",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Thanks...",
+						"englishNote" : ""
+					},
+					"17" : {
+						"event" : "Flagship fight",
+						"media" : "warcry",
+						"chinese" : "寻找光明吧",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "光を見出そう…！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Let's search for the light!",
+						"englishNote" : ""
+					},
+					"18" : {
+						"event" : "Victory",
+						"media" : "mvp",
+						"chinese" : "如果胜利能够带来和平，那我……",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "勝利が平和をもたらすというのなら、私は……！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "If victory can bring peace, then I...!",
+						"englishNote" : ""
+					},
+					"19" : {
+						"event" : "Defeat",
+						"media" : "lose",
+						"chinese" : "请尽快先撤退吧，指挥官",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "先に撤退してください。指揮官様",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Please retreat first, Commander.",
+						"englishNote" : ""
+					},
+					"20" : {
+						"event" : "Skills",
+						"media" : "skill",
+						"chinese" : "为了自由……！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "自由のために……！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "For the sake of freedom...!",
+						"englishNote" : ""
+					},
+					"21" : {
+						"event" : "Low HP",
+						"media" : "hp",
+						"chinese" : "距离光明还很遥远……",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "光は、まだ遠く……",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "The light is still far away...",
+						"englishNote" : ""
+					},
+					"22" : {
+						"event" : "Upset",
+						"media" : "feeling1",
+						"chinese" : "果然，指挥官也终将离我而去……",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "やっぱり指揮官様もいつか私から……",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "So you truly will leave me one day...",
+						"englishNote" : ""
+					},
+					"23" : {
+						"event" : "Stranger",
+						"media" : "feeling2",
+						"chinese" : "我希望和指挥官只保持上下级的关系，是的，请不要过多的理会我，我也……",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "指揮官様とは上司と部下の関係でいてほしくて…はい、私のことを構わずに、私……",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "I want to maintain the current superior-subordinate relationship, Commander... Don't mind me...",
+						"englishNote" : ""
+					},
+					"24" : {
+						"event" : "Friendly",
+						"media" : "feeling3",
+						"chinese" : "指挥官是个很奇怪的人……明明我不想再有悲伤的离别了，你却一而再再而三地闯进我的内心……",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "指揮官様、変なお人……もう悲しい物別れをしたくないというのに、私の心に踏み込んで……",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Commander, you're weird... Even though I don't want to experience more painful departures, you keep stepping into my heart...",
+						"englishNote" : ""
+					},
+					"25" : {
+						"event" : "Crush",
+						"media" : "feeling4",
+						"chinese" : "我可以相信指挥官吗……不，这一次，我还能相信自己吗……我想……再试试看",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "指揮官様を信じていいの……？いいえ、今度こそ自分を信じていいの……？信じて……みたい……",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Can I believe in you, Commander...? I mean, can I believe in myself this time...? I want... to try...",
+						"englishNote" : ""
+					},
+					"26" : {
+						"event" : "Love",
+						"media" : "feeling5",
+						"chinese" : "嗯，我相信指挥官，我相信现在的自己……黑暗之后的光明……我想我终于找到了",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "はい、指揮官様のこと、そして今の自分を信じている……闇の後に来る光……私ついに見つけたと思う",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Yes. I believe in you, Commander, as well as myself and the present day... The light beyond the darkness... I think I've finally found it",
+						"englishNote" : ""
+					},
+					"27" : {
+						"event" : "Promise",
+						"media" : "propose",
+						"chinese" : "我曾经堕入黑暗深渊，是指挥官你给了我光明，把我拉了回来。所以现在轮到我了……就让我将约克城这个名字代表的自由与和平带给你吧",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "かつて闇に落ちた私に、指揮官様が光を与え、救いの手を差し伸べて、私を引き上げてくれた。だから今度は私が……ヨークタウン、この名が背負った自由と平和を、あなたに…",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "I had fallen into the darkness. It was you, Commander who gave me light and a helping hand which pulled me out of it. That's why this time, I, Yorktown, will give you my name. The name that shoulders the burden of liberty and peace...",
+						"englishNote" : ""
+					},
+					"28" : {
+						"event" : "Easter Egg 1(Shouhou)",
+						"media" : "link1",
+						"chinese" : "只是学腔调可不算大人哦",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "しゃべり方が変わっただけでは、大人とはいえないわ。",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Just because you speak like an adult doesn't mean you are one!",
+						"englishNote" : ""
+					},
+					"29" : {
+						"event" : "Easter Egg 2(Enterprise, Hornet)",
+						"media" : "link2",
+						"chinese" : "真是久违的团聚呢",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "久しぶりに集まったね。",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "What a long overdue reunion!",
+						"englishNote" : ""
+					},
+					"30" : {
+						"event" : "Easter Egg 3(Enterprise)",
+						"media" : "link3",
+						"chinese" : "展翅高飞吧，企业",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "エンタープライズ、羽ばたけ！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Spread your wings and fly, Enterprise!",
+						"englishNote" : ""
+					},
+					"31" : {
+						"event" : "Easter Egg 4(Hammann)",
+						"media" : "link4",
+						"chinese" : "指挥官喜欢爱撒娇的孩子吗？",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "指揮官様は甘えん坊が好き？",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Commander, do you like to spoil your girls?",
+						"englishNote" : ""
+					}
+				}
+			}
+		}
+	}
+}

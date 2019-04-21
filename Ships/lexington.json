@@ -1,933 +1,653 @@
 {
-  "name": "Lexington",
-  "nameJP": "レキシントン",
-  "nameCN": "列克星敦",
-  "class": "Lexington",
-  "hull": "Aircraft Carrier",
-  "prefix": "USS",
-  "ID": "073",
-  "file_id": "073_Lexington",
-  "navy": "Eagle Union",
-  "initialStar": "★★☆☆☆",
-  "rarity": "Elite",
-  "buildTime": "03:40:00",
-  "acquisitionMethod": "Drop/Special",
-  "enhance": {
-    "firepower": "0",
-    "torpedo": "0",
-    "aviation": "63",
-    "reload": "8"
-  },
-  "scrap": {
-    "gold": "9",
-    "oil": "3",
-    "medal": "4"
-  },
-  "skin": {
-    "1": {
-      "name": "Default",
-      "description": "Lexington-class aircraft carrier - Lexington, Hull Number CV-2!",
-      "expression": {
-        "1": {
-          "id": "Lexington_skin1_expr1"
-        }
-      }
-    },
-    "2": {
-      "name": "Spring's Song",
-      "description": "Hehe... sometimes you can completely change the way people see you with just a simple change in attire. Don't you agree, Commander~? Don't worry, I'm still your Lexington~",
-      "expression": {
-        "1": {
-          "label": "Lexington_skin2_expr1"
-        },
-        "2": {
-          "label": "Lexington_skin2_expr2"
-        },
-        "3": {
-          "label": "Lexington_skin2_expr3"
-        },
-        "4": {
-          "label": "Lexington_skin2_expr4"
-        },
-        "5": {
-          "label": "Lexington_skin2_expr5"
-        },
-        "6": {
-          "label": "Lexington_skin2_expr5"
-        }
-      }
-    }
-  },
-  "releaseDate": {
-    "JP": "September 13, 2017",
-    "CN": "May 27, 2017",
-    "KR": "March 27, 2018",
-    "EN": "August 16, 2018"
-  },
-  "artist": {
-    "name": "Saru",
-    "weibo": "https://www.weibo.com/u/1054234800",
-    "twitter": "https://twitter.com/saru_1127",
-    "pixiv": "https://www.pixiv.net/member.php?id=1422579",
-    "other": ""
-  },
-  "voiceActress": "Shinoda Minami",
-  "limitBreak": {
-    "tier1": "All Fighters +1, Diver Bomber Efficiency +3%",
-    "tier2": "Hangar Capacity +1, All Dive Bombers +1, Fighter Efficiency +5%",
-    "tier3": "All Diver Bombers +1, Diver Bomber Efficiency +7%"
-  },
-  "parameters": {
-    "hp": "A",
-    "antiAir": "B",
-    "evasion": "C",
-    "aviation": "A",
-    "torpedo": "E",
-    "firepower": "C"
-  },
-  "stats": {
-    "100": {
-      "hp": "6116",
-      "armor": "Medium",
-      "reload": "96",
-      "firepower": "0",
-      "torpedo": "0",
-      "evasion": "34",
-      "antiAir": "266",
-      "aviation": "356",
-      "cost": "12",
-      "asw": "0",
-      "speed": "33",
-      "luck": "35"
-    },
-    "120": {
-      "hp": "6912",
-      "armor": "Medium",
-      "reload": "110",
-      "firepower": "0",
-      "torpedo": "0",
-      "evasion": "57",
-      "antiAir": "303",
-      "aviation": "397",
-      "cost": "12",
-      "asw": "0",
-      "speed": "33",
-      "luck": "35"
-    },
-    "base": {
-      "hp": "1183",
-      "armor": "Medium",
-      "reload": "41",
-      "firepower": "0",
-      "torpedo": "0",
-      "evasion": "13",
-      "antiAir": "57",
-      "aviation": "75",
-      "cost": "4",
-      "asw": "0",
-      "speed": "33",
-      "luck": "35"
-    },
-    "100retrofit": {
-      "hp": "",
-      "armor": "",
-      "reload": "",
-      "firepower": "",
-      "torpedo": "",
-      "evasion": "",
-      "antiAir": "",
-      "aviation": "",
-      "cost": "",
-      "asw": "",
-      "speed": "",
-      "luck": ""
-    },
-    "120retrofit": {
-      "hp": "",
-      "armor": "",
-      "reload": "",
-      "firepower": "",
-      "torpedo": "",
-      "evasion": "",
-      "antiAir": "",
-      "aviation": "",
-      "cost": "",
-      "asw": "",
-      "speed": "",
-      "luck": ""
-    }
-  },
-  "equipmentLoadout": {
-    "1": {
-      "type": "Fighter",
-      "efficiency": "120%/120%",
-      "amount": "1/2",
-      "preload": "0/0"
-    },
-    "2": {
-      "type": "Dive Bomber",
-      "efficiency": "115%/130%",
-      "amount": "1/3",
-      "preload": "0/0"
-    },
-    "3": {
-      "type": "Dive Bomber",
-      "efficiency": "115%/130%",
-      "amount": "1/3",
-      "preload": "0/0"
-    },
-    "4": {
-      "type": "Auxilliary",
-      "efficiency": "-",
-      "amount": "-",
-      "preload": "-"
-    },
-    "5": {
-      "type": "Auxilliary",
-      "efficiency": "-",
-      "amount": "-",
-      "preload": "-"
-    }
-  },
-  "defaultEquipment": {
-    "1": "F2A Buffalo T1",
-    "2": "SBD Dauntless T1",
-    "3": "BTD-1 Destroyer T1"
-  },
-  "skill": {
-    "1": {
-      "name": "Supporting Fire",
-      "type": "Offensive",
-      "requirement": "Default Unlocked",
-      "description": "Every 20 (10) seconds, provides supporting fire with 20.3 cm guns (damage varies with skill level)"
-    },
-    "2": {
-      "name": "Fleet Carrier",
-      "type": "Support",
-      "requirement": "Default Unlocked",
-      "description": "Every time Lexington launches an airstrike, increases Escort Fleet damage by 5% (15%) for 8 seconds. Does not stack with the same skill."
-    }
-  },
-  "build": {
-    "light": {
-      "JP": "-",
-      "CN": "-",
-      "EN": "-"
-    },
-    "heavy": {
-      "JP": "-",
-      "CN": "-",
-      "EN": "-"
-    },
-    "special": {
-      "JP": "✓",
-      "CN": "✓",
-      "EN": "✓"
-    },
-    "limited": {
-      "JP": "-",
-      "CN": "-",
-      "EN": "-"
-    }
-  },
-  "drop": {
-    "droppable": "true",
-    "list": {
-      "1": {
-        "event": "World",
-        "chapter": {
-          "1": {
-            "label": "Ch.2",
-            "node": {
-              "1": {
-                "drop": "-",
-                "note": ""
-              },
-              "2": {
-                "drop": "-",
-                "note": ""
-              },
-              "3": {
-                "drop": "-",
-                "note": ""
-              },
-              "4": {
-                "drop": "✓",
-                "note": ""
-              }
-            }
-          },
-          "2": {
-            "label": "Ch.6",
-            "node": {
-              "1": {
-                "drop": "-",
-                "note": ""
-              },
-              "2": {
-                "drop": "-",
-                "note": ""
-              },
-              "3": {
-                "drop": "-",
-                "note": ""
-              },
-              "4": {
-                "drop": "✓",
-                "note": ""
-              }
-            }
-          },
-          "3": {
-            "label": "Ch.10",
-            "node": {
-              "1": {
-                "drop": "-",
-                "note": ""
-              },
-              "2": {
-                "drop": "✓",
-                "note": ""
-              },
-              "3": {
-                "drop": "-",
-                "note": ""
-              },
-              "4": {
-                "drop": "-",
-                "note": ""
-              }
-            }
-          },
-          "4": {
-            "label": "Ch.12",
-            "node": {
-              "1": {
-                "drop": "-",
-                "note": ""
-              },
-              "2": {
-                "drop": "-",
-                "note": ""
-              },
-              "3": {
-                "drop": "✓",
-                "note": ""
-              },
-              "4": {
-                "drop": "-",
-                "note": ""
-              }
-            }
-          }
-        }
-      },
-      "2": {
-        "event": "Fallen Wings",
-        "chapter": {
-          "1": {
-            "label": "B",
-            "node": {
-              "1": {
-                "drop": "-",
-                "note": ""
-              },
-              "2": {
-                "drop": "✓",
-                "note": ""
-              },
-              "3": {
-                "drop": "-",
-                "note": ""
-              }
-            }
-          },
-          "2": {
-            "label": "D",
-            "node": {
-              "1": {
-                "drop": "-",
-                "note": ""
-              },
-              "2": {
-                "drop": "✓",
-                "note": ""
-              },
-              "3": {
-                "drop": "-",
-                "note": ""
-              }
-            }
-          }
-        }
-      },
-      "3": {
-        "event": "Fallen Wings Rerun",
-        "chapter": {
-          "1": {
-            "label": "B",
-            "node": {
-              "1": {
-                "drop": "-",
-                "note": ""
-              },
-              "2": {
-                "drop": "✓",
-                "note": ""
-              },
-              "3": {
-                "drop": "-",
-                "note": ""
-              }
-            }
-          },
-          "2": {
-            "label": "D",
-            "node": {
-              "1": {
-                "drop": "-",
-                "note": ""
-              },
-              "2": {
-                "drop": "✓",
-                "note": ""
-              },
-              "3": {
-                "drop": "-",
-                "note": ""
-              }
-            }
-          }
-        }
-      },
-      "4": {
-        "event": "Smoke-Smothered South Seas",
-        "chapter": {
-          "1": {
-            "label": "SP",
-            "node": {
-              "1": {
-                "drop": "-",
-                "note": ""
-              },
-              "2": {
-                "drop": "-",
-                "note": ""
-              },
-              "3": {
-                "drop": "✓",
-                "note": ""
-              }
-            }
-          }
-        }
-      }
-    }
-  },
-  "lines": {
-    "skin": {
-      "1": {
-        "label": "Lexington_skin1",
-        "dialogue": {
-          "1": {
-            "event": "Ship Description",
-            "media": "",
-            "chinese": "列克星敦级航空母舰—列克星敦，舷号CV-2",
-            "chineseTL": "Lexington-class aircraft carrier – Lexington, Hull Number CV-2",
-            "chineseNote": "",
-            "japanese": "レキシントン級航空母艦・レキシントン（CV-2)",
-            "japaneseTL": "",
-            "japaneseNote": "",
-            "english": "Lexington-class aircraft carrier — Lexington, Hull Number CV-3",
-            "englishNote": ""
-          },
-          "2": {
-            "event": "Self Introduction",
-            "media": "self_introduction",
-            "chinese": "我是航空母舰列克星敦。温柔？因为算是大家的大姐姐嘛，而且指挥官在我看来也是可爱的后辈哦。看到萨拉她那么努力，做姐姐的也就放心了，指挥官也请对她多多包涵哦",
-            "chineseTL": "I’m aircraft carrier Lexington. I’m gentle? That’s because I’m kind of everyone’s elder sister, so Commander is a cute junior in my eyes as well. I can stop worrying after seeing how hard Sara works – please treat her well as well, Commander.",
-            "chineseNote": "",
-            "japanese": "あらぁ、私は航空母艦・レキシントンよ。優しい？みんなのお姉ちゃんだからね～私からすれば指揮官もかわいい後輩くんよ。サラトガちゃんが努力しているのを見るとお姉ちゃんも安心するわ。あの娘のことも色々見てあげてね",
-            "japaneseTL": "Oh my~ I'm Lexington, the aircraft carrier. I'm kind? That's because I think of myself as everyone's older sister~ From my point of view, you're like a cute junior.Seeing Saratoga's diligence puts big sister Lexington at ease. Please watch over that child as well.",
-            "japaneseNote": "",
-            "english": "Oh my~ I am aircraft carrier Lexington. I'm gentle? That's because I'm everyone's older sister~ That means you are a cute junior too! I feel assured since I've seen Saratoga working hard. Please give some attention to her as well",
-            "englishNote": ""
-          },
-          "3": {
-            "event": "Acquisition",
-            "media": "acquisition",
-            "chinese": "贵安~指挥官，我是列克星敦，听说，我的名字来源于白鹰独立战争中荣耀的第一枪呢。职业的偶像是需要拥有丰厚的胸怀的，你觉得我说的对么？（笑）",
-            "chineseTL": "Good day to you~ Commander, I’m Lexington. I heard that my name came from the battle of the Eagle Union’s Independence War. A professional idol like me needs to be big ‘hearted’, don’t you think? (smiles)",
-            "chineseNote": "",
-            "japanese": "ご機嫌よ～指揮官さん♪私はレキシントンよ。名前はかつて独立戦争での最初の戦場から来たと聞いてるわ。アイドルとして心が豊かでなければならないと思うけど、あなたもそう思わない？",
-            "japaneseTL": "Good day to you, Commander♪ I'm Lexington. I heard that my name comes from the place where the first battle of the War of Independence was fought. I think that as an idol, one must be rich at heart. Don't you agree?",
-            "japaneseNote": "",
-            "english": "Good day, Mr. Commander~ I am Lexington. I heard that my name was from the first battlefield of the War for Independence. As an idol, I think I need to have a big heart. Don't you agree?",
-            "englishNote": ""
-          },
-          "4": {
-            "event": "Login",
-            "media": "login",
-            "chinese": "指挥官大人~~今天我们要去哪呢？你放心，只要有我在就算是会飞的鹤都逃不出我的手掌~",
-            "chineseTL": "Commander~~ Where shall we go today? Don’t worry, as long as I’m here, not even a flying crane can escape from me~",
-            "chineseNote": "",
-            "japanese": "あらら～指揮官？今日はどこに向かう？大丈夫、私がいれば空飛ぶクレーンだって逃さないわ",
-            "japaneseTL": "Oh my~ Commander? Where are you heading today? Don't worry, so long as I'm here even a flying crane wouldn't escape.",
-            "japaneseNote": "",
-            "english": "Oh my~ Where are you heading, Commander? Don't worry. As long as I'm around, even the high flying crane won't get away ",
-            "englishNote": ""
-          },
-          "5": {
-            "event": "Details",
-            "media": "details",
-            "chinese": "眉头都皱成“W”字了呐，指挥官也辛苦了呢…",
-            "chineseTL": "You frowned so much your brows formed a “W” shape…good work Commander…",
-            "chineseNote": "",
-            "japanese": "あらァで、眉を顰めてて、指揮官も大変ね…",
-            "japaneseTL": "Oh my, you don't look like you're in a good mood. It must be hard for you, Commander…",
-            "japaneseNote": "",
-            "english": "Aww, your frown has curled your brows. You have your share of hard work too, Commander... ",
-            "englishNote": ""
-          },
-          "6": {
-            "event": "Idle 1",
-            "media": "idle_1",
-            "chinese": "虽然不像妹妹们那么有活力，不过作为姐姐的魅力我还是有自信的哦，你说对吗~",
-            "chineseTL": "Although I’m not as energetic as my little sisters, I’m quite confident in my charm as being an older sister. Don’t you think I’m right?~",
-            "chineseNote": "",
-            "japanese": "妹たちほど活発じゃないけれど、お姉ちゃんとしての魅力に自信あるわ。そうでしょ～",
-            "japaneseTL": "I may not be as energetic as my younger sisters, but I do have confidence in my charm as an older sister. Don't you agree~",
-            "japaneseNote": "",
-            "english": "I'm not as lively as my younger sister, though I'm confident in my own charms. What do you think~",
-            "englishNote": ""
-          },
-          "7": {
-            "event": "Idle 2",
-            "media": "idle_2",
-            "chinese": "真是的，萨拉那孩子又跑到哪儿去了呢，真是个让人困扰的孩子",
-            "chineseTL": "Seriously, where did Saratoga ran to this time? Such a worrisome child.",
-            "chineseNote": "",
-            "japanese": "あらら、サラトガちゃんったらどこに隠れたの？世話の焼ける子ね…",
-            "japaneseTL": "My, my, where is Saratoga hiding? She's a troublesome one, isn't she…",
-            "japaneseNote": "",
-            "english": "Oh my, where is Saratoga hiding? She's such a handful...",
-            "englishNote": ""
-          },
-          "8": {
-            "event": "Idle 3",
-            "media": "idle_3",
-            "chinese": "电力十足？偶像当然要有电力十足的眼神呀~~",
-            "chineseTL": "Electrifying? Of course, an idol needs to have electrifying gazes~",
-            "chineseNote": "",
-            "japanese": "目が色っぽい？アイドルたるものは、目も色っぽくないとね～",
-            "japaneseTL": "My eyes are sexy? If you're an idol, you need to have sexy eyes~",
-            "japaneseNote": "",
-            "english": "My eyes are gorgeous? Well, for an idol, my eyes have to look like this~",
-            "englishNote": ""
-          },
-          "9": {
-            "event": "Touch",
-            "media": "touch",
-            "chinese": "指挥官感觉就像是个不成器的后辈似的呢～",
-            "chineseTL": "Commander is like an unsuccessful junior~",
-            "chineseNote": "",
-            "japanese": "指揮官、なんかできのわるい弟くんみたい♪",
-            "japaneseTL": "Commander, you're like a naughty little brother♪",
-            "japaneseNote": "",
-            "english": "Commander, you seem like a hapless little brother~",
-            "englishNote": ""
-          },
-          "10": {
-            "event": "Special Touch",
-            "media": "special_touch",
-            "chinese": "呵呵，指挥官不甘心当后辈吗~",
-            "chineseTL": "Hoho, feels bad that you’re a junior, Commander?",
-            "chineseNote": "",
-            "japanese": "あらら、指揮官は弟くんじゃ不満なの？～",
-            "japaneseTL": "Oh my, Commander, are you dissatisfied with just being a little brother?~",
-            "japaneseNote": "",
-            "english": "Oh goodness, are you unsatisfied with being the younger brother? ",
-            "englishNote": ""
-          },
-          "11": {
-            "event": "New Mission",
-            "media": "mission",
-            "chinese": "还有一些任务没有完成呢，指挥官~",
-            "chineseTL": "There are tasks unfinished, Commander~",
-            "chineseNote": "",
-            "japanese": "あら指揮官、管制していない任務まだあるわよ～",
-            "japaneseTL": "Oh my, Commander, there are still missions you haven't completed~",
-            "japaneseNote": "",
-            "english": "Oh Commander, there are still missions that have yet to be completed~",
-            "englishNote": ""
-          },
-          "12": {
-            "event": "Mission Complete",
-            "media": "mission_complete",
-            "chinese": "孩子们，去把任务奖励领回来给指挥官吧",
-            "chineseTL": "Children, bring the task rewards back to Commander~",
-            "chineseNote": "",
-            "japanese": "艦載機たち、ミッションボーナスを指揮官に持ってきて",
-            "japaneseTL": "Air wing, bring the mission bonus to the Commander.",
-            "japaneseNote": "",
-            "english": "Carrier planes, bring the mission rewards to the Commander",
-            "englishNote": ""
-          },
-          "13": {
-            "event": "New Mail",
-            "media": "mail",
-            "chinese": "新的信件来了，指挥官要是忙的话，就由我代为回复吧？",
-            "chineseTL": "New mail’s here – if the Commander’s busy, shall I reply in your stead?",
-            "chineseNote": "",
-            "japanese": "新しいメールが来たわよ。手が空かないなら代わりに私が返そうか？",
-            "japaneseTL": "New mail has arrived. If you're too busy, should I reply to them in your place?",
-            "japaneseNote": "",
-            "english": "A new mail has arrived. If your hands are full then perhaps I should reply it for you~",
-            "englishNote": ""
-          },
-          "14": {
-            "event": "Return From Sortie",
-            "media": "return_from_sortie",
-            "chinese": "啊啦，脸上有脏东西，不要动，我来帮你擦掉~",
-            "chineseTL": "Oh, there’s something on your face; don’t move a muscle, let me wipe it off for you~",
-            "chineseNote": "",
-            "japanese": "あらぁ、顔に何かが付いてるわ。拭き落とすから、じっとしてて～",
-            "japaneseTL": "Oh my, there's something stuck on your face. I'll wipe it off for you, so stay still~",
-            "japaneseNote": "",
-            "english": "Oh, something's on your face. I'll wipe it off, so don't move~",
-            "englishNote": ""
-          },
-          "15": {
-            "event": "Commission Complete",
-            "media": "commission_complete",
-            "chinese": "咦……哎呀，委托组的姐妹们好像回来了呢",
-            "chineseTL": "Eh……ahh, seems like the sisters out for commission are back.",
-            "chineseNote": "",
-            "japanese": "あらあら、委託組の娘たちが帰ってきたようね",
-            "japaneseTL": "Oh my, oh my, the girls out on a commission have returned yet, haven't they.",
-            "japaneseNote": "",
-            "english": "Oh my~ The girls of the commission team have returned",
-            "englishNote": ""
-          },
-          "16": {
-            "event": "Enhancement",
-            "media": "enhancement",
-            "chinese": "忽然有点想唱歌呢，你愿意听吗？",
-            "chineseTL": "I suddenly want to sing a song, willing to hear it?",
-            "chineseNote": "",
-            "japanese": "ふふん、級に歌いたい気分なの。聞いてくれる？",
-            "japaneseTL": "Teehee, I suddenly feel like singing. Care to listen?",
-            "japaneseNote": "",
-            "english": "*giggles* I suddenly feel like singing. Wanna listen?",
-            "englishNote": ""
-          },
-          "17": {
-            "event": "Sortie Start",
-            "media": "sortie_start",
-            "chinese": "诸位，一起为指挥官取回胜利吧！",
-            "chineseTL": "Everyone, let’s claim victory for the Commander!",
-            "chineseNote": "",
-            "japanese": "みんな、指揮官のために勝利を取り戻すわよ！",
-            "japaneseTL": "Everyone, let's reclaim victory for the Commander!",
-            "japaneseNote": "",
-            "english": "Everyone! Let's claim victory for our Commander!",
-            "englishNote": ""
-          },
-          "18": {
-            "event": "MVP",
-            "media": "mvp",
-            "chinese": "呵呵，Lady Lex的称呼可不只是好听哦~",
-            "chineseTL": "Hoho, they don’t call me ‘Lady Lex’ just because it sounds nice~",
-            "chineseNote": "",
-            "japanese": "うふふ、レディレックスは伊達じゃないわよ～",
-            "japaneseTL": "Ufufu, Lady Lex is not all talk and no show~",
-            "japaneseNote": "",
-            "english": "*giggles* Lady Lex is not really a title of mine~",
-            "englishNote": ""
-          },
-          "19": {
-            "event": "Defeat",
-            "media": "defeat",
-            "chinese": "哎呀……已经跟不上他们的节奏了，还是先撤退吧？",
-            "chineseTL": "Ahh……I cannot keep up with their pace anymore, shall we retreat first?",
-            "chineseNote": "",
-            "japanese": "あらぁ、向こうのペースについていけなくなったわ。ひとまず撤退しましょ？",
-            "japaneseTL": "Oh my, I can no longer keep up with their pace. Shall we retreat for the time being?",
-            "japaneseNote": "",
-            "english": "Oh my~ we can't keep up with their pace. Should we retreat for now?",
-            "englishNote": ""
-          },
-          "20": {
-            "event": "Skill Activation",
-            "media": "skill_activation",
-            "chinese": "去吧，孩子们",
-            "chineseTL": "Let’s go, my children.",
-            "chineseNote": "",
-            "japanese": "艦載機たち、いきなさい！",
-            "japaneseTL": "Air wing, take flight!",
-            "japaneseNote": "",
-            "english": "Go forth, carrier planes!",
-            "englishNote": ""
-          },
-          "21": {
-            "event": "Low Health",
-            "media": "low_health",
-            "chinese": "我来唱支歌为大家加油吧",
-            "chineseTL": "Let me sing a song to cheer everyone on.",
-            "chineseNote": "",
-            "japanese": "私の歌でみんなを応援しようか？",
-            "japaneseTL": "Shall I support everyone with a song?",
-            "japaneseNote": "",
-            "english": "Maybe it's time to cheer everyone up with my song~",
-            "englishNote": ""
-          },
-          "22": {
-            "event": "Affinity (Disappointed)",
-            "media": "affinity_disappointed",
-            "chinese": "要是以为姐姐什么都会包容那可就大错特错了唷",
-            "chineseTL": "You’re wrong if you thought that big sister would forgive everything.",
-            "chineseNote": "",
-            "japanese": "あらら、お姉ちゃんがなんでも受け入れてくれると思ったら大間違いよ？",
-            "japaneseTL": "Oh my my, you're greatly mistaken if you think that Lady Lex will accept anything you do.",
-            "japaneseNote": "",
-            "english": "Oh dear, you are mistaken if you think I'm going to accept everything you do.",
-            "englishNote": ""
-          },
-          "23": {
-            "event": "Affinity (Stranger)",
-            "media": "affinity_stranger",
-            "chinese": "所谓偶像，就是要给大家都带来欢笑的职业，其中当然也包括指挥官的笑容哟，呵呵~",
-            "chineseTL": "An idol is an occupation that brings smiles onto everyone’s faces, which also includes the Commander, hoho~",
-            "chineseNote": "",
-            "japanese": "アイドルはみんなに笑顔をもたらす職業なの。もちろん指揮官にも、うふふ～",
-            "japaneseTL": "It's the job of an idol to bring smiles to the faces of everyone. Of course, that includes you, Commander. Ufufu~",
-            "japaneseNote": "",
-            "english": "Being an idol is a job that brings smiles to everyone. Of course, that includes you too, Commander. *giggles*",
-            "englishNote": ""
-          },
-          "24": {
-            "event": "Affinity (Friendly)",
-            "media": "affinity_friendly",
-            "chinese": "最近梦到珊瑚海的时候身边总会出现指挥官的身影，让人安心了许多，为什么呢~",
-            "chineseTL": "Lately Commander’s shape always appears when I dream about the Coral Seas, which makes me feel much safer, why is that?~",
-            "chineseNote": "",
-            "japanese": "最近珊瑚海の夢を見る時いつも指揮官がいて、なんだか安心するの。なんでだろう～",
-            "japaneseTL": "Lately, when I dream of the Coral Sea, you're always there, and it calms me down. I wonder why~",
-            "japaneseNote": "",
-            "english": "Recently, whenever I dream about the Coral Sea, you are there, Commander. It somehow makes me feel safe. I wonder why~",
-            "englishNote": ""
-          },
-          "25": {
-            "event": "Affinity (Like)",
-            "media": "affinity_like",
-            "chinese": "指挥官可以来当我的经纪人吗？既有能力，又了解我，还值得依赖的人，只能想到指挥官了呢~",
-            "chineseTL": "Can Commander be my Producer? You’re capable, knows me well – if I’m to depend on anyone, that must be the Commander~",
-            "chineseNote": "",
-            "japanese": "指揮官、私のマネージャーをやってみない？有能で私の事を知っていて、頼れそうなのは指揮官ぐらいしか思いつかないのよね～",
-            "japaneseTL": "Commander, want to be my manager? You're the only one I can think of who is capable, familiar with me, and reliable~",
-            "japaneseNote": "",
-            "english": "Commander, wanna try becoming my manager? You're capable and you know me, and I can't think of you as anything short of dependable~",
-            "englishNote": ""
-          },
-          "26": {
-            "event": "Affinity (Love)",
-            "media": "affinity_love",
-            "chinese": "个人live？呵呵，没有这样的计划哦~不过要是某人忽然送我一枚戒指的话，也许每天都会有哦，而且只有一个位置也说不定~",
-            "chineseTL": "Personal live? Hoho, I don’t have such a plan~ But if someone is to suddenly give me a ring, maybe that will happen every day, with only one ticket available~",
-            "chineseNote": "",
-            "japanese": "ソロライブ？あら、そういう計画がまだないわ。でも誰かさんが指輪でもプレゼントしてくれたら、もしかして毎日開催されるかも？しかも観衆が一人だけで、ねぇ～",
-            "japaneseTL": "Solo live? Oh my, I don't yet have such plans. But if a certain someone were to present me with a ring, I might perhaps hold such a show every day. With only a single audience, no less~",
-            "japaneseNote": "",
-            "english": "A solo live show? Oh, I haven't had plans for that yet. But if someone were to give me a ring as a present, maybe I'll host that kind of show every day. And the audience is only a single person, you see~",
-            "englishNote": ""
-          },
-          "27": {
-            "event": "Pledge",
-            "media": "pledge",
-            "chinese": "哎呀，这是……呵呵，还以为指挥官要让我等多久呢~这样的话，只有一个位置的个人live就要开始售票了呢，举办时间是——永远哦~",
-            "chineseTL": "Ahh, this is……hoho, I was wondering how long will Commander make me wait~ With that said, tickets for the personal live for only one person is going to start selling, performance time is —— forever~",
-            "chineseNote": "",
-            "japanese": "あら、あらあらあらあら～指揮官はいつまでお姉ちゃんを待たせるかなぁって思ったのに～ うふふ、じゃあ観衆が一人だけのライブはそろそろチケット発売ね～開催期間は――永遠よ～",
-            "japaneseTL": "Oh my, oh my my my my~ Just when I was wondering how long you were going to make Lady Lex wait~ Ufufu, then it's about time I sold the ticket for the personal live show~ Showtime, all the time~",
-            "japaneseNote": "",
-            "english": "Oh, Oh my Oh my~ I was wondering how long I would have to wait for you, Commander~ *giggles* Well then, the private live show ticket has been sold out~ The show goes-- forever~",
-            "englishNote": ""
-          },
-          "28": {
-            "event": "Easter Egg 1 (Saratoga)",
-            "media": "easter_egg_1",
-            "chinese": "萨拉，别太调皮哦",
-            "chineseTL": "Sara, don’t be naughty.",
-            "chineseNote": "",
-            "japanese": "サラトガちゃん、イタズラもほどほどにね",
-            "japaneseTL": "Saratoga-chan, don't be so mischievous.",
-            "japaneseNote": "",
-            "english": "Sara, don't be naughty!",
-            "englishNote": ""
-          },
-          "29": {
-            "event": "Easter Egg 2 (Yorktown)",
-            "media": "easter_egg_2",
-            "chinese": "结束后要一起喝杯茶吗~",
-            "chineseTL": "Want to have some tea together after this?~",
-            "chineseNote": "",
-            "japanese": "終わったらお茶でも一緒にどう？",
-            "japaneseTL": "Want to have some tea together after this?",
-            "japaneseNote": "",
-            "english": "Should we get some tea together when this is over?",
-            "englishNote": ""
-          },
-          "30": {
-            "event": "Easter Egg 3 (Saru x5)",
-            "media": "",
-            "chinese": "猴子军团来咯",
-            "chineseTL": "The Monkey – legion is coming~",
-            "chineseNote": "",
-            "japanese": "",
-            "japaneseTL": "",
-            "japaneseNote": "",
-            "english": "The Monkey Corps have arrived!",
-            "englishNote": ""
-          },
-          "32": {
-            "event": "Valentines 2018",
-            "media": "",
-            "chinese": "啊啦啊啦，指挥官，吃的时候要注意一下呢。从偶像哪里得到巧克力——可是很~甜很甜的呢♪",
-            "chineseTL": "Oh my, Commander, please be careful when eating it. The chocolate you get from an idol - is ve~ry very sweet indeed♪",
-            "chineseNote": "",
-            "japanese": "あらあら、指揮官、食べるときには注意してね。アイドルから貰った愛情チョコは――すごーく、甘いんだから♪",
-            "japaneseTL": "Oh my oh my, Commander, be careful when you eat. Because the love filled chocolate from an idol is very, very sweet♪",
-            "japaneseNote": "",
-            "english": "-",
-            "englishNote": ""
-          },
-          "33": {
-            "event": "Valentines 2019",
-            "media": "",
-            "chinese": "快收下Lady Lex的情人节巧克力吧～呵呵呵，要不我也试试开辟新路线？指挥官，今年也请支持列克星敦哦♪",
-            "chineseTL": "Quickly accept Lady Lex's Valentine chocolate~ Hehehe, should I try opening a new path too? Commander, please keep on supporting Lexington this year as well♪",
-            "chineseNote": "",
-            "japanese": "レディレックスからのバレンタインチョコ、受け取って～ふふふ、私も新路線を開拓してみようかな？指揮官、今年もレキシントンを応援してね♪",
-            "japaneseTL": "Please accept this Valentine chocolate from Lady Lex~ Fufufu, should I try opening a new path too? Commander, please keep on supporting Lexington this year as well♪",
-            "japaneseNote": "",
-            "english": "",
-            "englishNote": ""
-          }
-        }
-      },
-      "2": {
-        "label": "Lexington_skin2",
-        "dialogue": {
-          "1": {
-            "event": "Ship Description, Acquisition",
-            "media": "",
-            "chinese": "呵呵…有时候换个装扮，给人的印象感觉就完全不同呢，你说是吧，指挥官~?不用担心，列克星敦依旧是您的列克星敦哦~",
-            "chineseTL": "Hehe... sometimes you can completely change the way people see you with just a simple change in attire. Don't you agree, Commander~? Don't worry, I'm still your Lexington~",
-            "chineseNote": "",
-            "japanese": "",
-            "japaneseTL": "",
-            "japaneseNote": "",
-            "english": "",
-            "englishNote": ""
-          },
-          "2": {
-            "event": "Login",
-            "media": "",
-            "chinese": "欢迎回来，指挥官。您对东煌的习俗了解吗?…那就跟我讲解一下东煌新年的习俗吧~我可是兴趣满满呢~",
-            "chineseTL": "Welcome back, Commander. Are you familiar with the customs of the Eastern Radiance?... Then tell me about the new year traditions of the Eastern Radiance~ I am brimming with interest~",
-            "chineseNote": "",
-            "japanese": "",
-            "japaneseTL": "",
-            "japaneseNote": "",
-            "english": "",
-            "englishNote": ""
-          },
-          "3": {
-            "event": "Idle 1",
-            "media": "",
-            "chinese": "偶像在演出时会有多种衣着服饰的变化，在舞台中扮演的角色也不尽相同…要是能为大家带来欢笑，我就感到非常欣慰了~",
-            "chineseTL": "An idol changes into a variety of costumes during a live show, the roles played on stage are very diverse too...  If I am able to bring joy and laughter to everyone, I will feel very satisfied~",
-            "chineseNote": "",
-            "japanese": "",
-            "japaneseTL": "",
-            "japaneseNote": "",
-            "english": "",
-            "englishNote": ""
-          },
-          "4": {
-            "event": "Idle 2",
-            "media": "",
-            "chinese": "萨拉，就算是节日也不可以太闹腾哦，给人带来麻烦可不行呢",
-            "chineseTL": "Sara, don't be so rowdy even if it is a holiday, others will be troubled",
-            "chineseNote": "",
-            "japanese": "",
-            "japaneseTL": "",
-            "japaneseNote": "",
-            "english": "",
-            "englishNote": ""
-          },
-          "5": {
-            "event": "Idle 3",
-            "media": "",
-            "chinese": "穿着这身衣服，使唤孩子们就特别来劲~嘻嘻，指挥官，现在的我有没有一家之主的感觉呢?",
-            "chineseTL": "The girls get especially energetic when I wear this dress~ Hehe, Commander, do I give a feel of a family matriarch now?",
-            "chineseNote": "",
-            "japanese": "",
-            "japaneseTL": "",
-            "japaneseNote": "",
-            "english": "",
-            "englishNote": ""
-          },
-          "6": {
-            "event": "Touch",
-            "media": "",
-            "chinese": "指挥官这么喜欢我的新装吗?要不要拜托东煌的孩子们帮指挥官也做一身呢?",
-            "chineseTL": "Does Commander like the dress so much? Would you like to ask the girls in the Eastern Radiance to make you one?",
-            "chineseNote": "",
-            "japanese": "",
-            "japaneseTL": "",
-            "japaneseNote": "",
-            "english": "",
-            "englishNote": ""
-          },
-          "7": {
-            "event": "Return from Sortie",
-            "media": "",
-            "chinese": "作战辛苦了，指挥官。品尝一下结合了东煌和白鹰风格的列克星敦特别料理吧~",
-            "chineseTL": "Thanks for your hard work, Commander. Have a taste of Lexington's special Eastern Radiance and Union fusion style cooking~",
-            "chineseNote": "",
-            "japanese": "",
-            "japaneseTL": "",
-            "japaneseNote": "",
-            "english": "",
-            "englishNote": ""
-          },
-          "8": {
-            "event": "MVP",
-            "media": "",
-            "chinese": "呵呵，果然新装会带来新的喜悦呢~",
-            "chineseTL": "Hehe, surely enough, new clothes bring new joy~",
-            "chineseNote": "",
-            "japanese": "",
-            "japaneseTL": "",
-            "japaneseNote": "",
-            "english": "",
-            "englishNote": ""
-          },
-          "9": {
-            "event": "Affinity (Love)",
-            "media": "",
-            "chinese": "在东煌，新年象征着喜庆和阖家团圆。像现在这样，和我的指挥官在一起，和港区的孩子们在一起，不知道算不算是“阖家团圆”呢?呵呵~",
-            "chineseTL": "In the Eastern Radiance, new year symbolizes joyful festivities and family reunion. Being together with Commander and the girls in the port area, would you consider this joyful moment a celebration of \"family reunion\"? Hehe~",
-            "chineseNote": "",
-            "japanese": "",
-            "japaneseTL": "",
-            "japaneseNote": "",
-            "english": "",
-            "englishNote": ""
-          }
-        }
-      }
-    }
-  }
+	"name_reference": "lexington",
+	"cn_reference": "liekexingdun",
+	"nameJP": "レキシントン",
+	"nameCN": "列克星敦",
+	"ID": "73",
+	"name": "Lexington",
+	"internal_id": "107021",
+	"rarity": "Elite",
+	"initialStar": "★★☆☆☆",
+	"hull": "Aircraft Carrier",
+	"navy": "Eagle Union",
+	"prefix": "USS",
+	"buildTime": "03:40:00",
+	"class": "Lexington",
+	"voiceActress": "Minami Shinoda",
+	"parameters": {
+		"firepower": "C",
+		"torpedo": "E",
+		"aviation": "A",
+		"evasion": "C",
+		"antiAir": "B",
+		"hp": "A"
+	},
+	"scrap": {
+		"gold": "9",
+		"oil": "3",
+		"medal": "4"
+	},
+	"releaseDate": {
+		"JP": "September 13, 2017",
+		"CN": "May 27, 2017",
+		"KR": "March 27, 2018",
+		"EN": "August 16, 2018"
+	},
+	"artist": {
+		"name": "Saru",
+		"weibo": "https://www.weibo.com/u/1054234800",
+		"twitter": "https://twitter.com/saru_1127",
+		"pixiv": "https://www.pixiv.net/member.php?id=1422579",
+		"other": ""
+	},
+	"enhance": {
+		"firepower": "0",
+		"torpedo": "0",
+		"aviation": "63",
+		"reload": "8"
+	},
+	"acquisitionMethod": "Drop/Special",
+	"skill": {
+		"1": {
+			"icon": "10180",
+			"requirement": "Default Unlocked",
+			"name": "Supporting Fire",
+			"type": "Offensive",
+			"description": "Every 20 (10) seconds, provides supporting fire with 20.3 cm guns (damage varies with skill level)"
+		},
+		"2": {
+			"icon": "3021",
+			"requirement": "Default Unlocked",
+			"name": "Fleet Carrier",
+			"type": "Support",
+			"description": "Every time Lexington launches an airstrike, increases Escort Fleet damage by 5% (15%) for 8 seconds. Does not stack with the same skill."
+		}
+	},
+	"skin": {
+		"1": {
+			"id": "liekexingdun",
+			"name": "Lexington",
+			"description": "Lexington-class aircraft carrier ー Lexington, Hull Number CV-2!",
+			"expression": {
+				"0": {
+					"id": "0"
+				}
+			}
+		},
+		"2": {
+			"id": "liekexingdun_2",
+			"name": "The Beauty of Spring ",
+			"description": "Hehe… sometimes you can completely change the way people see you with just a simple change in attire. Don't you agree, Commander~? Don’t worry, I'm still your Lexington~ ",
+			"expression": {
+				"0": {
+					"id": "0"
+				},
+				"1": {
+					"id": "1"
+				},
+				"2": {
+					"id": "2"
+				},
+				"3": {
+					"id": "3"
+				},
+				"4": {
+					"id": "4"
+				},
+				"5": {
+					"id": "5"
+				}
+			}
+		}
+	},
+	"defaultEquipment": {
+		"1": {
+			"icon": "19200",
+			"rarity": "Rare",
+			"name": "BTD-1 Destroyer"
+		}
+	},
+	"stats": {
+		"100": {
+			"hp": "6116",
+			"firepower": "0",
+			"torpedo": "0",
+			"antiAir": "266",
+			"aviation": "356",
+			"reload": "96",
+			"hit": "83",
+			"evasion": "34",
+			"speed": "33.25",
+			"luck": "35",
+			"asw": "0",
+			"oxygen": "0",
+			"ammo": "0",
+			"cost": "12",
+			"armor": "Medium"
+		},
+		"120": {
+			"hp": "6912",
+			"firepower": "0",
+			"torpedo": "0",
+			"antiAir": "303",
+			"aviation": "397",
+			"reload": "110",
+			"hit": "92",
+			"evasion": "57",
+			"speed": "33.25",
+			"luck": "35",
+			"asw": "0",
+			"oxygen": "0",
+			"ammo": "0",
+			"cost": "12",
+			"armor": "Medium"
+		},
+		"base": {
+			"hp": "1183",
+			"firepower": "0",
+			"torpedo": "0",
+			"antiAir": "57",
+			"aviation": "75",
+			"reload": "41",
+			"hit": "32",
+			"evasion": "13",
+			"speed": "33.25",
+			"luck": "35",
+			"asw": "0",
+			"oxygen": "0",
+			"ammo": "0",
+			"cost": "4",
+			"armor": "Medium"
+		},
+		"100retrofit": {
+			"hp": "",
+			"firepower": "",
+			"torpedo": "",
+			"antiAir": "",
+			"aviation": "",
+			"reload": "",
+			"hit": "",
+			"evasion": "",
+			"speed": "33.25",
+			"luck": "35",
+			"asw": "",
+			"oxygen": "0",
+			"ammo": "0",
+			"cost": "12",
+			"armor": "Medium"
+		},
+		"120retrofit": {
+			"hp": "",
+			"firepower": "",
+			"torpedo": "",
+			"antiAir": "",
+			"aviation": "",
+			"reload": "",
+			"hit": "",
+			"evasion": "",
+			"speed": "33.25",
+			"luck": "35",
+			"asw": "",
+			"oxygen": "0",
+			"ammo": "0",
+			"cost": "12",
+			"armor": "Medium"
+		}
+	},
+	"limitBreak": {
+		"tier1": "All Fighters +1, Diver Bomber Efficiency +3%",
+		"tier2": "Hangar Capacity +1, All Dive Bombers +1, Fighter Efficiency +5%",
+		"tier3": "All Diver Bombers +1, Diver Bomber Efficiency +7%"
+	},
+	"equipmentLoadout": {
+		"1": {
+			"type": "Fighter",
+			"efficiency": "120%/120%/120%/120%",
+			"amount": "1/2/2/2",
+			"preload": "0/0/0/0"
+		},
+		"2": {
+			"type": "Dive Bomber",
+			"efficiency": "115%/118%/123%/130%",
+			"amount": "1/1/2/3",
+			"preload": "0/0/0/0"
+		},
+		"3": {
+			"type": "Dive Bomber",
+			"efficiency": "115%/118%/123%/130%",
+			"amount": "1/1/2/3",
+			"preload": "0/0/0/0"
+		},
+		"4": {
+			"type": "Auxilary",
+			"efficiency": "-",
+			"amount": "-",
+			"preload": "-"
+		},
+		"5": {
+			"type": "Auxilary",
+			"efficiency": "-",
+			"amount": "-",
+			"preload": "-"
+		}
+	},
+	"build": {
+		"light": {
+			"JP": "-",
+			"CN": "-",
+			"EN": "-"
+		},
+		"heavy": {
+			"JP": "-",
+			"CN": "-",
+			"EN": "-"
+		},
+		"special": {
+			"JP": "✓",
+			"CN": "✓",
+			"EN": "✓"
+		},
+		"limited": {
+			"JP": "-",
+			"CN": "-",
+			"EN": "-"
+		}
+	},
+	"drop": {
+		"droppable": "false",
+		"list": {
+			"1": {
+				"event": "",
+				"chapter": {
+					"1": {
+						"label": "Ch .1",
+						"node": {
+							"1": {
+								"drop": "✓",
+								"note": "-"
+							}
+						}
+					}
+				}
+			}
+		}
+	},
+	"lines": {
+		"skin": {
+			"1": {
+				"skin_id": "liekexingdun",
+				"id": "0",
+				"label": "Lexington",
+				"dialogue": {
+					"1": {
+						"event": "Ship Description",
+						"media": "",
+						"chinese": "列克星敦级航空母舰—列克星敦，舷号CV-2",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "レキシントン級航空母艦・レキシントン（CV-2)",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Lexington-class aircraft carrier ー Lexington, Hull Number CV-2!",
+						"englishNote": ""
+					},
+					"2": {
+						"event": "Biography",
+						"media": "profile",
+						"chinese": "我是航空母舰列克星敦。温柔？因为算是大家的大姐姐嘛，而且指挥官在我看来也是可爱的后辈哦。 看到萨拉她那么努力，做姐姐的也就放心了，指挥官也请对她多多包涵哦",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "あらぁ、私は航空母艦・レキシントンよ。優しい？みんなのお姉ちゃんだからね～私からすれば指揮官もかわいい後輩くんよ。サラトガちゃんが努力しているのを見るとお姉ちゃんも安心するわ。あの娘のことも色々見てあげてね",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Oh my~ I am aircraft carrier Lexington. I'm gentle? That's because I'm everyone's older sister~ That means you are a cute junior too! I feel assured since I've seen Saratoga working hard. Please give some attention to her as well",
+						"englishNote": ""
+					},
+					"3": {
+						"event": "Receive",
+						"media": "get",
+						"chinese": "贵安~指挥官，我是列克星敦，听说，我的名字来源于白鹰独立战争中荣耀的第一枪呢。职业的偶像是需要拥有丰厚的胸怀的，你觉得我说的对么？（笑）",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "ご機嫌よ～指揮官さん♪私はレキシントンよ。名前はかつて独立戦争での最初の戦場から来たと聞いているわ。アイドルとして心が豊かでなければならないと思うけど、あなたもそう思わない？",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Good day, Mr. Commander~ I am Lexington. I heard that my name was from the first battlefield of the War for Independance. As an idol, I think I need to have a big heart. Don't you agree?",
+						"englishNote": ""
+					},
+					"4": {
+						"event": "Log in",
+						"media": "login",
+						"chinese": "指挥官大人~~今天我们要去哪呢？你放心，只要有我在就算是会飞的鹤都逃不出我的手掌~",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "あらら～指揮官？今日はどこに向かう？大丈夫、私がいれば空飛ぶクレーンだって逃さないわ",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Oh my~ Where are you heading, Commander? Don't worry. As long as I'm around, even the high flying crane won't get away",
+						"englishNote": ""
+					},
+					"5": {
+						"event": "View details",
+						"media": "detail",
+						"chinese": "眉头都皱成“W”字了呐，指挥官也辛苦了呢…",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "あらぁ、眉をひそめてて、指揮官も大変ね…",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Aww, your frown has curled your brows. You have your share of hard work too, Commander...",
+						"englishNote": ""
+					},
+					"6": {
+						"event": "Main screen 1",
+						"media": "main_1",
+						"chinese": "虽然不像妹妹们那么有活力，不过作为姐姐的魅力我还是有自信的哦，你说对吗~",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "妹たちほど活発じゃないけれど、お姉ちゃんとしての魅力に自信あるわ。そうでしょ~",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "I'm not as lively as my younger sister, though I'm confident in my own charms. What do you think~",
+						"englishNote": ""
+					},
+					"7": {
+						"event": "Main screen 2",
+						"media": "main_2",
+						"chinese": "真是的，萨拉那孩子又跑到哪儿去了呢，真是个让人困扰的孩子",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "あらら、サラトガちゃんったらどこに隠れたの？世話の焼ける子ね…",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Oh my, where is Saratoga hiding? She's such a handful...",
+						"englishNote": ""
+					},
+					"8": {
+						"event": "Main screen 3",
+						"media": "main_3",
+						"chinese": "电力十足？偶像当然要有电力十足的眼神呀~~",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "目が色っぽい？アイドルたるものは、目も色っぽくないとね~",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "My eyes are gorgeous? Well, for an idol, my eyes have to look like this~",
+						"englishNote": ""
+					},
+					"9": {
+						"event": "Normal touch",
+						"media": "touch_1",
+						"chinese": "指挥官感觉就像是个不成器的后辈似的呢～",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "指揮官、なんかできのわるい弟くんみたい♪",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Commander, you seem like a hapless little brother~",
+						"englishNote": ""
+					},
+					"10": {
+						"event": "Special touch",
+						"media": "touch_2",
+						"chinese": "呵呵，指挥官不甘心当后辈吗~",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "あらら、指揮官は弟くんじゃ不満なの～？",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Oh goodness, are you unsatisfied with being the younger brother?",
+						"englishNote": ""
+					},
+					"11": {
+						"event": "Mission reminder",
+						"media": "task",
+						"chinese": "还有一些任务没有完成呢，指挥官~",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "あら指揮官、完成していない任務まだあるわよ～",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Oh Commander, there are still missions that have yet to be completed~",
+						"englishNote": ""
+					},
+					"12": {
+						"event": "Mission complete",
+						"media": "mission_complete",
+						"chinese": "孩子们，去把任务奖励领回来给指挥官吧",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "艦載機たち、ミッションボーナスを指揮官に持ってきて",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Carrier planes, bring the mission rewards to the Commander",
+						"englishNote": ""
+					},
+					"13": {
+						"event": "Mail reminder",
+						"media": "mail",
+						"chinese": "新的信件来了，指挥官要是忙的话，就由我代为回复吧？",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "新しいメールが来たわよ。手が空かないなら代わりに私が返そうか～",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "A new mail has arrived. If your hands are full then perhaps I should reply it for you~",
+						"englishNote": ""
+					},
+					"14": {
+						"event": "Return to port",
+						"media": "home",
+						"chinese": "啊啦，脸上有脏东西，不要动，我来帮你擦掉~",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "あらぁ、顔に何かが付いているわ。拭き落とすから、じっとしてて~",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Oh, something's on your face. I'll wipe it off, so don't move~",
+						"englishNote": ""
+					},
+					"15": {
+						"event": "Commission complete",
+						"media": "expedition",
+						"chinese": "咦……哎呀，委托组的姐妹们好像回来了呢",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "あらあら、委託組の娘たちが帰ってきたようね",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Oh my~ The girls of the commission team have returned",
+						"englishNote": ""
+					},
+					"16": {
+						"event": "Enhancing complete",
+						"media": "upgrade",
+						"chinese": "忽然有点想唱歌呢，你愿意听吗？",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "ふふん、急に歌いたい気分なの。聞いてくれる？",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "*giggles* I suddenly feel like singing. Wanna listen?",
+						"englishNote": ""
+					},
+					"17": {
+						"event": "Flagship fight",
+						"media": "warcry",
+						"chinese": "诸位，一起为指挥官取回胜利吧！",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "みんな、指揮官のために勝利を取り戻すわよ！",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Everyone! Let's claim victory for our Commander!",
+						"englishNote": ""
+					},
+					"18": {
+						"event": "Victory",
+						"media": "mvp",
+						"chinese": "呵呵，Lady Lex的称呼可不只是好听哦~",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "うふふ、レディレックスは伊達じゃないわよ~",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "*giggles* Lady Lex is not really a title of mine~",
+						"englishNote": ""
+					},
+					"19": {
+						"event": "Defeat",
+						"media": "lose",
+						"chinese": "哎呀……已经跟不上他们的节奏了，还是先撤退吧？",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "あらぁ、向こうのペースについていけなくなったわ。ひとまず撤退しましょ？",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Oh my~ we can't keep up with their pace. Should we retreat for now?",
+						"englishNote": ""
+					},
+					"20": {
+						"event": "Skills",
+						"media": "skill",
+						"chinese": "去吧，孩子们",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "艦載機たち、いきなさい！",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Go forth, carrier planes!",
+						"englishNote": ""
+					},
+					"21": {
+						"event": "Low HP",
+						"media": "hp",
+						"chinese": "我来唱支歌为大家加油吧",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "私の歌でみんなを応援しようか～",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Maybe it's time to cheer everyone up with my song~",
+						"englishNote": ""
+					},
+					"22": {
+						"event": "Upset",
+						"media": "feeling1",
+						"chinese": "要是以为姐姐什么都会包容那可就大错特错了唷",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "あらら、お姉ちゃんがなんでも受け入れてくれると思ったら大間違いよ？",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Oh dear, you are mistaken if you think I'm going to accept everything you do.",
+						"englishNote": ""
+					},
+					"23": {
+						"event": "Stranger",
+						"media": "feeling2",
+						"chinese": "所谓偶像，就是要给大家都带来欢笑的职业，其中当然也包括指挥官的笑容哟，呵呵~",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "アイドルはみんなに笑顔をもたらす職業なの。もちろん指揮官にも、うふふ~",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Being an idol is a job that brings smiles to everyone. Of course, that includes you too, Commander. *giggles*",
+						"englishNote": ""
+					},
+					"24": {
+						"event": "Friendly",
+						"media": "feeling3",
+						"chinese": "最近梦到珊瑚海的时候身边总会出现指挥官的身影，让人安心了许多，为什么呢~",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "最近珊瑚海の夢を見る時いつも指揮官がいて、なんだか安心するの。なんでだろう~",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Recently, whenever I dream about the Coral Sea, you are there, Commander. It somehow makes me feel safe. I wonder why~",
+						"englishNote": ""
+					},
+					"25": {
+						"event": "Crush",
+						"media": "feeling4",
+						"chinese": "指挥官可以来当我的经纪人吗？既有能力，又了解我，还值得依赖的人，只能想到指挥官了呢~",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "指揮官、私のマネージャーをやってみない？有能で私のことを知っていて、頼れそうなのは指揮官ぐらいしか思いつかないのよね~",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Commander, wanna try becoming my manager? You're capable and you know me, and I can't think of you as anything short of dependable~",
+						"englishNote": ""
+					},
+					"26": {
+						"event": "Love",
+						"media": "feeling5",
+						"chinese": "个人live？呵呵，没有这样的计划哦~不过要是某人忽然送我一枚戒指的话，也许每天都会有哦，而且只有一个位置也说不定~",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "ソロライブ？あら、そういう計画がまだないわ。でも誰かさんが指輪でもプレゼントしてくれたら、もしかして毎日開催されるかも。しかも観衆が一人だけで、ねぇ～",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "A solo live show? Oh, I haven't had plans for that yet. But if someone were to give me a ring as a present, maybe I'll host that kind of show every day. And the audience is only a single person, you see~",
+						"englishNote": ""
+					},
+					"27": {
+						"event": "Promise",
+						"media": "propose",
+						"chinese": "哎呀，这是……呵呵，还以为指挥官要让我等多久呢~这样的话，只有一个位置的个人live就要开始售票了呢，举办时间是——永远哦~",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "あら、あらあらあらあら～指揮官はいつまでお姉ちゃんを待たせるかなぁって思ってたのに～うふふ、じゃあ観衆が一人だけのライブはそろそろチケット発売ね～開催期間は――永遠よ～",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Oh, oh my oh my~ I was wondering how long I would have to wait for you, Commander~ *giggles* Well then, the private live show ticket has been sold out~ The show goes-- forever~",
+						"englishNote": ""
+					},
+					"28": {
+						"event": "Easter Egg 1(Saratoga)",
+						"media": "link1",
+						"chinese": "萨拉，别太调皮哦",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "サラトガちゃん、いたずらもほどほどにね",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Sara, don't be naughty!",
+						"englishNote": ""
+					},
+					"29": {
+						"event": "Easter Egg 2(Yorktown)",
+						"media": "link2",
+						"chinese": "结束后要一起喝杯茶吗~",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "終わったらお茶でも一緒にどう？",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Should we get some tea together when this is over?",
+						"englishNote": ""
+					}
+				}
+			},
+			"2": {
+				"skin_id": "liekexingdun_2",
+				"id": "1",
+				"label": "The Beauty of Spring ",
+				"dialogue": {
+					"1": {
+						"event": "Ship Description",
+						"media": "",
+						"chinese": "呵呵…有时候换个装扮，给人的印象就完全不同呢，你说是吧，指挥官～？不用担心，列克星敦依旧是您的列克星敦哦～",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "ふふふ、衣装を変えるだけで、与える印象がだいぶ変わる時もあるもんね。ね？指揮官～？あら、心配しなくていいわよ。あなたのレキシントンは変わらないわ～",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Hehe… sometimes you can completely change the way people see you with just a simple change in attire. Don't you agree, Commander~? Don’t worry, I'm still your Lexington~",
+						"englishNote": ""
+					}
+				}
+			}
+		}
+	}
 }

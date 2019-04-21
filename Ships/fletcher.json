@@ -1,0 +1,590 @@
+{
+	"name_reference" : "fletcher",
+	"cn_reference" : "fulaiche",
+	"nameJP" : "フレッチャー",
+	"nameCN" : "弗莱彻",
+	"ID" : "11",
+	"name" : "Fletcher",
+	"internal_id" : "101091",
+	"rarity" : "Rare",
+	"initialStar" : "★★☆☆☆",
+	"hull" : "Destroyer",
+	"navy" : "Eagle Union",
+	"prefix" : "USS",
+	"buildTime" : "",
+	"class" : "Fletcher",
+	"voiceActress" : "Manaka Iwami",
+	"parameters": {
+		"firepower" : "C",
+		"torpedo" : "C",
+		"aviation" : "E",
+		"evasion" : "B",
+		"antiAir" : "C",
+		"hp" : "C"
+	},
+	"scrap": {
+		"gold" : "4",
+		"oil" : "3",
+		"medal" : "1"
+	},
+	"releaseDate": {
+		"JP" : "",
+		"CN" : "",
+		"KR" : "",
+		"EN" : ""
+	},
+	"artist": {
+		"name" : "",
+		"weibo" : "",
+		"twitter" : "",
+		"pixiv" : "",
+		"other" : ""
+	},
+	"enhance": {
+		"firepower" : "5",
+		"torpedo" : "17",
+		"aviation" : "0",
+		"reload" : "14"
+	},
+	"acquisitionMethod" : "Honor medal exchange, Explore Stage2-3, Light ship Construction",
+	"skill": {
+		"1" : {
+			"icon" : "10030",
+			"requirement" : "",
+			"name" : "Sister's Temperament",
+			"type" : "Support",
+			"description" : "Increases the FP and EVA of all friendly Fletcher-class DDs by $1."
+		},
+		"2" : {
+			"icon" : "1051",
+			"requirement" : "",
+			"name" : "Tactical Command: Destroyers",
+			"type" : "Support",
+			"description" : "Increases the FP, TRP, and RLD of all friendly DDs by $1. Does not stack with the same skill."
+		},
+		"3" : {
+			"icon" : "20041",
+			"requirement" : "",
+			"name" : "All Out Assault Ⅰ",
+			"type" : "Offensive",
+			"description" : "Activate All Out Assault Ⅰ: Fletcher Class once every 15 times the main gun is fired."
+		}
+	},
+	"skin": {
+		"1" : {
+			"id" : "fulaiche",
+			"name" : "Fletcher",
+			"description" : "Fletcher-class destroyer - Fletcher, Hull Number DD-445!",
+			"expression" : {
+				"0" : {
+					"id" : "0"
+				}
+			}
+		}
+	},
+	"defaultEquipment": {
+		"1" : {
+			"icon" : "11100",
+			"rarity" : "Common",
+			"name" : "Single 127mm Main Gun"
+		},
+		"2" : {
+			"icon" : "",
+			"rarity" : "",
+			"name" : ""
+		},
+		"3" : {
+			"icon" : "",
+			"rarity" : "",
+			"name" : ""
+		}
+	},
+	"stats": {
+		"base": {
+			"hp" : "338",
+			"firepower" : "16",
+			"torpedo" : "53",
+			"antiAir" : "32",
+			"aviation" : "0",
+			"reload" : "72",
+			"hit" : "69",
+			"evasion" : "60",
+			"speed" : "43.2",
+			"luck" : "73",
+			"asw" : "51",
+			"oxygen" : "0",
+			"ammo" : "0",
+			"cost" : "2",
+			"armor" : "Light"
+		},
+		"100": {
+			"hp" : "1746",
+			"firepower" : "74",
+			"torpedo" : "248",
+			"antiAir" : "150",
+			"aviation" : "0",
+			"reload" : "171",
+			"hit" : "180",
+			"evasion" : "156",
+			"speed" : "43.2",
+			"luck" : "73",
+			"asw" : "186",
+			"oxygen" : "0",
+			"ammo" : "0",
+			"cost" : "8",
+			"armor" : "Light"
+		},
+		"120": {
+			"hp" : "2077",
+			"firepower" : "85",
+			"torpedo" : "283",
+			"antiAir" : "172",
+			"aviation" : "0",
+			"reload" : "196",
+			"hit" : "189",
+			"evasion" : "160",
+			"speed" : "43.2",
+			"luck" : "73",
+			"asw" : "206",
+			"oxygen" : "0",
+			"ammo" : "0",
+			"cost" : "8",
+			"armor" : "Light"
+		},
+		"100retrofit": {
+			"hp" : "",
+			"firepower" : "",
+			"torpedo" : "",
+			"antiAir" : "",
+			"aviation" : "",
+			"reload" : "",
+			"hit" : "",
+			"evasion" : "",
+			"speed" : "43.2",
+			"luck" : "73",
+			"asw" : "",
+			"oxygen" : "0",
+			"ammo" : "0",
+			"cost" : "8",
+			"armor" : "Light"
+		},
+		"120retrofit": {
+			"hp" : "",
+			"firepower" : "",
+			"torpedo" : "",
+			"antiAir" : "",
+			"aviation" : "",
+			"reload" : "",
+			"hit" : "",
+			"evasion" : "",
+			"speed" : "43.2",
+			"luck" : "73",
+			"asw" : "",
+			"oxygen" : "0",
+			"ammo" : "0",
+			"cost" : "8",
+			"armor" : "Light"
+		}
+	},
+	"limitBreak": {
+		"tier1": "Unlock All Out Assault Ⅰ/All weapons' efficiency +2%",
+		"tier2": "Torpedo base +1/Torpedo preload +1/All weapons' efficiency +3%",
+		"tier3": "Improve All Out Assault/All weapons' efficiency +5%"
+	},
+	"equipmentLoadout": {
+		"1": {
+			"type": "Destroyer Gun",
+			"efficiency": "110%/112%/115%/120%",
+			"amount": "1/1/1/1",
+			"preload": "0/0/0/0"
+		},
+		"2": {
+			"type": "Torpedo",
+			"efficiency": "120%/122%/125%/130%",
+			"amount": "1/1/2/2",
+			"preload": "0/0/1/1"
+		},
+		"3": {
+			"type": "Anti-Air Gun",
+			"efficiency": "120%/122%/125%/130%",
+			"amount": "1/1/1/1",
+			"preload": "0/0/0/0"
+		},
+		"4": {
+			"type": "Auxilary",
+			"efficiency": "-",
+			"amount": "-",
+			"preload": "-"
+		},
+		"5": {
+			"type": "Auxilary",
+			"efficiency": "-",
+			"amount": "-",
+			"preload": "-"
+		}
+	},
+	"build": {
+		"light": {
+			"JP": "",
+			"CN": "",
+			"EN": ""
+		},
+		"heavy": {
+			"JP": "",
+			"CN": "",
+			"EN": ""
+		},
+		"special": {
+			"JP": "",
+			"CN": "",
+			"EN": ""
+		},
+		"limited": {
+			"JP": "",
+			"CN": "",
+			"EN": ""
+		}
+	},
+	"drop": {
+		"droppable": "false",
+		"list": {
+			"1": {
+				"event": "",
+				"chapter": {
+					"1": {
+						"label": "Ch .1",
+						"node": {
+							"1": {
+								"drop": "✓",
+								"note": "-"
+							}
+						}
+					}
+				}
+			}
+		}
+	},
+	"lines": {
+		"skin": {
+			"1": {
+				"skin_id" : "fulaiche",
+				"id" : "0",
+				"label" : "Fletcher",
+				"dialogue" : {
+					"1" : {
+						"event" : "Ship Description",
+						"media" : "",
+						"chinese" : "弗莱彻级驱逐舰—弗莱彻，舷号DD-445",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "フレッチャー級駆逐艦・フレッチャー（DD-445)",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Fletcher-class destroyer - Fletcher, Hull Number DD-445!",
+						"englishNote" : ""
+					},
+					"2" : {
+						"event" : "Biography",
+						"media" : "profile",
+						"chinese" : "我是弗莱彻级175艘驱逐舰的大姐弗莱彻号！是驱逐舰队的主力，重要的海上战役都参与过喔~",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "フレッチャー級駆逐艦、全175隻の長女、フレッチャーでーす！駆逐艦隊の主力として、色々な戦闘に参加しましたわ~",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "I'm Fletcher, the big sister of all 175 Fletcher-class destroyers! As the main force of the destroyer fleet, I participated in all the important naval battles~",
+						"englishNote" : ""
+					},
+					"3" : {
+						"event" : "Receive",
+						"media" : "get",
+						"chinese" : "欸？我们之前见过？喔……我懂了……您知道吗，这个世界上有上百个和我长得很像的哦！——那么请多指教了，指挥官",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "え？どこかで会った、ですか？あら…そういうことですか…実はこの世界で、私とよく似ている娘が100人以上いますよ~よろしくお願いしますね、指揮官さん",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Hm? You think we've met before? I get it... You know, I have over 100 sisters who look like me! I'll be following your orders from now on, Commander.",
+						"englishNote" : ""
+					},
+					"4" : {
+						"event" : "Log in",
+						"media" : "login",
+						"chinese" : "指挥官，今天是不是比较容易认出我了？妹妹们可不是长这样的哦~！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "指揮官さん、今日の私は見分けやすかった？妹たちとは違いますよ~？",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Can you recognize me today, Commander? My sisters don't look like this!",
+						"englishNote" : ""
+					},
+					"5" : {
+						"event" : "View details",
+						"media" : "detail",
+						"chinese" : "我跑得很快，他们打不到我的！唔……就算被普通的打一下的话也完全没问题……的吧？",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "私、足が早いから弾が多分当たりませんよ？え……まあ少し当たっても平気……かな？",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "I can move quickly, so I probably won't get hit. Well... even if I do, I'll... probably be fine.",
+						"englishNote" : ""
+					},
+					"6" : {
+						"event" : "Main screen 1",
+						"media" : "main_1",
+						"chinese" : "上次有人冒充我，妹妹要她把所有姐妹的名字都说出来。然后那边道歉了呢~",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "この前私を装ったニセモノに、妹は私たち姉妹艦全員の名前を言わせようとしたの。そしたら相手から折れちゃいました～",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Last time someone tried to impersonate me, one of my little sisters told them to name EVERY Fletcher-class ship. That's when they gave up the act~",
+						"englishNote" : ""
+					},
+					"7" : {
+						"event" : "Main screen 2",
+						"media" : "main_2",
+						"chinese" : "唔，看着妹妹们……我都要怀疑妈妈是不是兔子了……",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "妹たちを見るたびに…私たちの家族がもしかしてウサギではないかなって気になります…",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "When I look at my little sisters, it makes me wonder... Maybe our parents were rabbits?",
+						"englishNote" : ""
+					},
+					"8" : {
+						"event" : "Main screen 3",
+						"media" : "main_3",
+						"chinese" : "……指挥官？真是的……又在走神想我的哪个妹妹了么？",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "指揮官さん？もう…、また妹の誰かを考えてました？",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "... Commander? Really... Are you thinking about one of my sisters again?",
+						"englishNote" : ""
+					},
+					"9" : {
+						"event" : "Normal touch",
+						"media" : "touch_1",
+						"chinese" : "这样的，妹妹们一定也很喜欢——欸？手会酸？……",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "妹たちもきっとこういうのが気にいると思うよーーえ？突きすぎると手が疲れるって？……",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "My little sisters would probably like doing this too. Huh? Your hand would get sore from it?",
+						"englishNote" : ""
+					},
+					"10" : {
+						"event" : "Special touch",
+						"media" : "touch_2",
+						"chinese" : "指、指挥官请不要这样，被妹妹们看到的话……",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "し、指揮官さん止めてください！妹たちに見られたら……",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "C-Commander, please stop! What if my sisters see this...",
+						"englishNote" : ""
+					},
+					"11" : {
+						"event" : "Mission reminder",
+						"media" : "task",
+						"chinese" : "又可以和妹妹们一起执行任务了，指挥官下达命令吧",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "また妹たちと一緒に任務に行けますね。指揮官さん、ご命令ください",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "I can go on missions with my sisters again. Give the order whenever you're ready, Commander!",
+						"englishNote" : ""
+					},
+					"12" : {
+						"event" : "Mission complete",
+						"media" : "mission_complete",
+						"chinese" : "任务奖励不知道够不够分给妹妹们一人一点呢……",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "ボーナス、妹たち全員分足りるかな……",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "I wonder if all my sisters can get an equal share of the rewards...",
+						"englishNote" : ""
+					},
+					"13" : {
+						"event" : "Mail reminder",
+						"media" : "mail",
+						"chinese" : "唔，平时都是谁给指挥官写信呢，有点在意呢……",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "指揮官さんはいつも誰からメールをもらっているのですか？ちょっと気になります…",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Who has been writing so many letters to you, Commander? I'm a bit curious...",
+						"englishNote" : ""
+					},
+					"14" : {
+						"event" : "Return to port",
+						"media" : "home",
+						"chinese" : "欢迎回来～指挥官不在的这段时间又多了几个妹妹呢！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "ただいま~あれ？いない間にまた妹が増えちゃいました？",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "I'm back~ Wait, huh? Did another one of my little sisters join the fleet while I was gone?",
+						"englishNote" : ""
+					},
+					"15" : {
+						"event" : "Commission complete",
+						"media" : "expedition",
+						"chinese" : "委托完成了喔~我看看下一个……哇，委托跟妹妹们一样多",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "委託が完了しましたわ。次は…えっと、妹たちと同じいっぱいありますね…",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "A commission has been completed! Let's see what's next... Wow, there's so many! Almost one for each of my little sisters...",
+						"englishNote" : ""
+					},
+					"16" : {
+						"event" : "Enhancing complete",
+						"media" : "upgrade",
+						"chinese" : "这样就能更好地照顾妹妹们了",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "これでもっと妹の世話ができますね",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Now I can take better care of my sisters!",
+						"englishNote" : ""
+					},
+					"17" : {
+						"event" : "Flagship fight",
+						"media" : "warcry",
+						"chinese" : "对面只有几个人呢~让我们用数量碾压他们吧！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "相手はただ数隻ですよ~数で圧倒しましょう！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "There's only a handful of enemies. Let's beat them with sheer numbers!",
+						"englishNote" : ""
+					},
+					"18" : {
+						"event" : "Victory",
+						"media" : "mvp",
+						"chinese" : "据说凑齐15个星星的话可以满足一个愿望呢~",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "星を15個集めると、どんな願いも1つだけ叶えてくれるって～",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "I've heard that if you collect fifteen stars then one of your wishes will come true~!",
+						"englishNote" : ""
+					},
+					"19" : {
+						"event" : "Defeat",
+						"media" : "lose",
+						"chinese" : "呜……欺负我……被妹妹们知道了的话你会很惨的！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "うぅ…いじわる…妹たちに知られたらただじゃすまないよ！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "*Sob*... You bullies... My sisters will hurt you if they find out about this!",
+						"englishNote" : ""
+					},
+					"20" : {
+						"event" : "Skills",
+						"media" : "skill",
+						"chinese" : "妹妹们，帮帮我吧……！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "妹たち、私に力を……！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "My sisters, give me strength...!",
+						"englishNote" : ""
+					},
+					"21" : {
+						"event" : "Upset",
+						"media" : "feeling1",
+						"chinese" : "对，对不起，我要去照顾妹妹了！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "す、すみません。妹たちの世話が…",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "S-sorry, I have to go check up on my little sisters...",
+						"englishNote" : ""
+					},
+					"22" : {
+						"event" : "Stranger",
+						"media" : "feeling2",
+						"chinese" : "唔，毕竟要照顾妹妹们，所以不是很有时间去想多余的事呢……",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "ふぅ……妹たちの世話をしなければならないですから、ほかのことを考える時間は中々ないみたいですね……",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Whew... I need to take care of my sisters so much that I don't really have time to think about anything else...",
+						"englishNote" : ""
+					},
+					"23" : {
+						"event" : "Friendly",
+						"media" : "feeling3",
+						"chinese" : "指挥官，能来帮我一下吗——谢谢，果然指挥官比我要有力气呀，稍微有点羡慕呢",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "指揮官さん、すみません少し手伝って――ありがとうございます。やっぱり指揮官さんは力持ちですね…ちょっと羨ましいです",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Commander, can you help me a little bit? Thank you... You're stronger than me, after all... I'm a little jealous.",
+						"englishNote" : ""
+					},
+					"24" : {
+						"event" : "Crush",
+						"media" : "feeling4",
+						"chinese" : "这么多妹妹之中……指挥官……最喜欢哪个呢？……把、把我也算上……的话……",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "こんなに多い姉妹艦たちの中で、指揮官さん的に……どの子が一番お気に入りですか？……わ、私も入れて……（小声）",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Out of all of us in the fleet... Who do you personally like the most, Commander? ... Counting me as well?",
+						"englishNote" : ""
+					},
+					"25" : {
+						"event" : "Love",
+						"media" : "feeling5",
+						"chinese" : "欸？要帮我照顾妹妹？但，但是，妹妹们很多，有时候我都觉得困扰，真的真的真的可以吗？那我……可以误会一下吗？",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "え？妹の世話を手伝ってくれるのですか？で、でも、妹が多過ぎて自分も時々困りますよ？？本当に本当にいいですか？じゃあ……ここは少し…よく考えてもいいですか……？",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Hm? You want to help me take care of my little sisters? There's a lot of them, and I could use the help, but... Are you really, REALLY sure? In that case... Can I think about it for a bit first...?",
+						"englishNote" : ""
+					},
+					"26" : {
+						"event" : "Promise",
+						"media" : "propose",
+						"chinese" : "家人啊……虽然已经有许多妹妹了，不过指挥官是特别的呢……嘻嘻",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "家族ですか……妹はたくさんいますけど、でも指揮官さんはやっぱり特別です♪……うふふ♪",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "A family, huh? ... I already have so many sisters, but you're special to me after all, Commander!",
+						"englishNote" : ""
+					}
+				}
+			}
+		}
+	}
+}

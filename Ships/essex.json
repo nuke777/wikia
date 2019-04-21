@@ -1,300 +1,580 @@
 {
-  "name": "Essex",
-  "nameJP": "エセックス",
-  "nameCN": "埃塞克斯",
-  "class": "Essex",
-  "hull": "Aircraft Carrier",
-  "prefix": "USS",
-  "ID": "357",
-  "file_id": "357_Essex",
-  "navy": "Eagle Union",  
-  "initialStar": "★★★☆☆☆",
-  "rarity": "Super Rare",
-  "buildTime": "04:25:00",
-  "acquisitionMethod": "Limited Build",
-  "enhance": {
-	"firepower": "0",
-    "torpedo": "0",
-    "aviation": "68",
-    "reload": "9"
-  },
-  "scrap": {
-    "gold": "9",
-    "oil": "3",
-    "medal": "10"
-  },
-  "skin": {
-	"1": {
-		"name": "Default",
-		"description": "Essex-Class Aircraft Carrier - Essex (CV-9)",
-		"expression": {
-			"1": {
-				"label": "Default"
-			},
-			"2": {
-				"label": "essex_skin1_expr2"
-			},
-			"3": {
-				"label": "essex_skin1_expr3"
-			},
-			"4": {
-				"label": "essex_skin1_expr4"
+	"name_reference": "essex",
+	"cn_reference": "aisaikesi",
+	"nameJP": "エセックス",
+	"nameCN": "埃塞克斯",
+	"ID": "357",
+	"name": "Essex",
+	"internal_id": "107091",
+	"rarity": "Super Rare",
+	"initialStar": "★★★☆☆☆",
+	"hull": "Aircraft Carrier",
+	"navy": "Eagle Union",
+	"prefix": "USS",
+	"buildTime": "04:25:00",
+	"class": "",
+	"voiceActress": "Kaori Mizuhashi ",
+	"parameters": {
+		"firepower": "E",
+		"torpedo": "E",
+		"aviation": "S",
+		"evasion": "B",
+		"antiAir": "B",
+		"hp": "B"
+	},
+	"scrap": {
+		"gold": "9",
+		"oil": "3",
+		"medal": "10"
+	},
+	"releaseDate": {
+		"JP": "September 14, 2018",
+		"CN": "September 14, 2018",
+		"KR": "September 14, 2018",
+		"EN": "Not Released"
+	},
+	"artist": {
+		"name": "德意志的科学",
+		"weibo": "https://www.weibo.com/onlykexue",
+		"twitter": "https://twitter.com/ls809251250",
+		"pixiv": "https://www.pixiv.net/member.php?id=6054803",
+		"other": ""
+	},
+	"enhance": {
+		"firepower": "0",
+		"torpedo": "0",
+		"aviation": "68",
+		"reload": "9"
+	},
+	"acquisitionMethod": "Limited Build",
+	"skill": {
+		"1": {
+			"icon": "11640",
+			"requirement": "Default Unlocked",
+			"name": "Warrior Vessel",
+			"type": "Offensive",
+			"description": "When Essex launches an airstrike: launch an additional TBF Avenger squadron that inflicts flood damage on hit. Damage against BBs (BCs and BBVs do not count) is increased by 4% (10%)."
+		},
+		"2": {
+			"icon": "11650",
+			"requirement": "Default Unlocked",
+			"name": "Carrier Formation",
+			"type": "Support",
+			"description": "During battle: increase own Air Power and Anti-Air stats by 1.5% (5%) for every Eagle Union CV and/or CVL in the fleet. When own aircraft shoots down an enemy aircraft: increase own Air Power by 1.0% (3.0%). Effect can be stacked up to 5 times."
+		},
+		"3": {
+			"icon": "11660",
+			"requirement": "Default Unlocked",
+			"name": "Absolute Evasion",
+			"type": "Defensive",
+			"description": "During battle, if the fleet contains 4 or more Eagle Union ships: 4.5% (12%) chance to reduce aircraft torpedo and bomb damage to 1."
+		}
+	},
+	"skin": {
+		"1": {
+			"id": "aisaikesi",
+			"name": "エセックス",
+			"description": "エセックス級航空母艦・エセックス（CV-9)",
+			"expression": {
+				"0": {
+					"id": "0"
+				}
 			}
 		}
-	}
-  },
-  "releaseDate": {
-	"JP": "September 14, 2018",
-	"CN": "September 14, 2018",
-	"KR": "September 14, 2018",
-	"EN": "Not Released"
-  },
-  "voiceActress": "Kaori Mizuhashi",
-  "artist": {
-	"name": "德意志的科学",
-	"weibo": "https://www.weibo.com/onlykexue",
-	"twitter": "https://twitter.com/ls809251250",
-	"pixiv": "https://www.pixiv.net/member.php?id=6054803",
-	"other": ""
-  },
-  "parameters": {
-	"hp": "B",
-	"antiAir": "B",
-	"evasion": "B",
-	"aviation": "S",
-	"torpedo": "E",
-	"firepower": "E"
-  },
-  "stats": {
-	"base": {
-		"hp": "1108",
-		"armor": "Medium",
-		"reload": "48",
-		"firepower": "0",
-		"torpedo": "0",
-		"evasion": "13",
-		"antiAir": "63",
-		"aviation": "83",
-		"cost": "4",
-		"asw": "0",
-		"speed": "33",
-		"luck": "90"
 	},
-	"100": {
-		"hp": "5730",
-		"armor": "Medium",
-		"reload": "114",
-		"firepower": "0",
-		"torpedo": "0",
-		"evasion": "34",
-		"antiAir": "293",
-		"aviation": "391",
-		"cost": "13",
-		"asw": "0",
-		"speed": "33",
-		"luck": "90"
-	},
-	"100retrofit": {
-		"hp": "",
-		"armor": "",
-		"reload": "",
-		"firepower": "",
-		"torpedo": "",
-		"evasion": "",
-		"antiAir": "",
-		"aviation": "",
-		"cost": "",
-		"asw": "",
-		"speed": "",
-		"luck": ""
-	},
-	"120": {
-		"hp": "6647",
-		"armor": "Medium",
-		"reload": "131",
-		"firepower": "0",
-		"torpedo": "0",
-		"evasion": "54",
-		"antiAir": "331",
-		"aviation": "433",
-		"cost": "13",
-		"asw": "0",
-		"speed": "33",
-		"luck": "90"
-	},
-	"120retrofit": {
-		"hp": "",
-		"armor": "",
-		"reload": "",
-		"firepower": "",
-		"torpedo": "",
-		"evasion": "",
-		"antiAir": "",
-		"aviation": "",
-		"cost": "",
-		"asw": "",
-		"speed": "",
-		"luck": ""
-	}
-  },
-  "limitBreak": {
-	"tier1": "Number of Fighters +1, All Plane Efficiency +3%",
-	"tier2": "Hangar Capacity +1, Number of Dive Bombers +1, All Plane Efficiency +5%",
-	"tier3": "Number of All Planes +1, All Plane Efficiency +7%"
-  },
-  "equipmentLoadout": {
-	"1": {
-		"type": "Fighter",
-		"efficiency": "125%/128%/133%/140%",
-		"amount": "1/2/2/3",
-		"preload": "0"
-	},
-	"2": {
-		"type": "Dive Bomber",
-		"efficiency": "115%/118%/123%/130%",
-		"amount": "1/1/2/3",
-		"preload": "0"
-	},
-	"3": {
-		"type": "Torpedo Bomber",
-		"efficiency": "105%/108%/113/120%",
-		"amount": "1/1/1/2",
-		"preload": "0"
-	},
-	"4": {
-		"type": "Auxilliary",
-		"efficiency": "-",
-		"amount": "-",
-		"preload": "-"
-	},
-	"5": {
-		"type": "Auxilliary",
-		"efficiency": "-",
-		"amount": "-",
-		"preload": "-"
-	}
-  },
-  "defaultEquipment": {
-	"1": "F6F Hellcat T1",
-	"2": "SB2C Helldiver T1",
-	"3": "TBF Avenger T1"
-  },
-  "skill": {
-	"1": {
-		"name": "Warrior Vessel",
-		"type": "Offensive",
-		"requirement": "Default Unlocked",
-		"description": "When Essex launches an airstrike: launch an additional TBF Avenger squadron that inflicts flood damage on hit. Damage against BBs (BCs and BBVs do not count) is increased by 4% (10%)."
-	},
-	"2": {
-		"name": "Carrier Formation",
-		"type": "Support",
-		"requirement": "Default Unlocked",
-		"description": "During battle: increase own Air Power and Anti-Air stats by 1.5% (5%) for every Eagle Union CV and/or CVL in the fleet. When own aircraft shoots down an enemy aircraft: increase own Air Power by 1.0% (3.0%). Effect can be stacked up to 5 times."
-	},
-	"3": {
-		"name": "Absolute Evasion",
-		"type": "Defensive",
-		"requirement": "Default Unlocked",
-		"description": "During battle, if the fleet contains 4 or more Eagle Union ships: 4.5% (12%) chance to reduce aircraft torpedo and bomb damage to 1."
-	}
-  },
-  "build": {
-	"light": {
-		"JP": "-",
-		"CN": "-",
-		"EN": "-"
-	},
-	"heavy": {
-		"JP": "-",
-		"CN": "-",
-		"EN": "-"
-	},
-	"special": {
-		"JP": "-",
-		"CN": "-",
-		"EN": "-"
-	},
-	"limited": {
-		"JP": "✓",
-		"CN": "✓",
-		"EN": "-"
-	}
-  },
-  "drop": {
-	"droppable": "false",
-	"list": {
+	"defaultEquipment": {
 		"1": {
-			"event": "World",
-			"chapter": {
-				"1": {
-					"label": "Ch.1",
-					"node": {
-						"1": {
-							"drop": "-",
-							"note": ""
-						},
-						"2": {
-							"drop": "-",
-							"note": ""
-						},
-						"3": {
-							"drop": "✓",
-							"note": ""
-						},
-						"4": {
-							"drop": "-",
-							"note": ""
+			"icon": "18100",
+			"rarity": "Common",
+			"name": "TBF Avenger"
+		}
+	},
+	"stats": {
+		"100": {
+			"hp": "5730",
+			"firepower": "0",
+			"torpedo": "0",
+			"antiAir": "293",
+			"aviation": "391",
+			"reload": "114",
+			"hit": "79",
+			"evasion": "34",
+			"speed": "33",
+			"luck": "90",
+			"asw": "0",
+			"oxygen": "0",
+			"ammo": "0",
+			"cost": "13",
+			"armor": "Medium"
+		},
+		"120": {
+			"hp": "6647",
+			"firepower": "0",
+			"torpedo": "0",
+			"antiAir": "331",
+			"aviation": "433",
+			"reload": "131",
+			"hit": "88",
+			"evasion": "54",
+			"speed": "33",
+			"luck": "90",
+			"asw": "0",
+			"oxygen": "0",
+			"ammo": "0",
+			"cost": "13",
+			"armor": "Medium"
+		},
+		"base": {
+			"hp": "1108",
+			"firepower": "0",
+			"torpedo": "0",
+			"antiAir": "63",
+			"aviation": "83",
+			"reload": "48",
+			"hit": "30",
+			"evasion": "13",
+			"speed": "33",
+			"luck": "90",
+			"asw": "0",
+			"oxygen": "0",
+			"ammo": "0",
+			"cost": "4",
+			"armor": "Medium"
+		},
+		"100retrofit": {
+			"hp": "",
+			"firepower": "",
+			"torpedo": "",
+			"antiAir": "",
+			"aviation": "",
+			"reload": "",
+			"hit": "",
+			"evasion": "",
+			"speed": "33",
+			"luck": "90",
+			"asw": "",
+			"oxygen": "0",
+			"ammo": "0",
+			"cost": "13",
+			"armor": "Medium"
+		},
+		"120retrofit": {
+			"hp": "",
+			"firepower": "",
+			"torpedo": "",
+			"antiAir": "",
+			"aviation": "",
+			"reload": "",
+			"hit": "",
+			"evasion": "",
+			"speed": "33",
+			"luck": "90",
+			"asw": "",
+			"oxygen": "0",
+			"ammo": "0",
+			"cost": "13",
+			"armor": "Medium"
+		}
+	},
+	"limitBreak": {
+		"tier1": "Number of Fighters +1, All Plane Efficiency +3%",
+		"tier2": "Hangar Capacity +1, Number of Dive Bombers +1, All Plane Efficiency +5%",
+		"tier3": "Number of All Planes +1, All Plane Efficiency +7%"
+	},
+	"equipmentLoadout": {
+		"1": {
+			"type": "Fighter",
+			"efficiency": "125%/128%/133%/140%",
+			"amount": "1/2/2/3",
+			"preload": "0/0/0/0"
+		},
+		"2": {
+			"type": "Dive Bomber",
+			"efficiency": "115%/118%/123%/130%",
+			"amount": "1/1/2/3",
+			"preload": "0/0/0/0"
+		},
+		"3": {
+			"type": "Torpedo Bomber",
+			"efficiency": "105%/108%/113%/120%",
+			"amount": "1/1/1/2",
+			"preload": "0/0/0/0"
+		},
+		"4": {
+			"type": "Auxilary",
+			"efficiency": "-",
+			"amount": "-",
+			"preload": "-"
+		},
+		"5": {
+			"type": "Auxilary",
+			"efficiency": "-",
+			"amount": "-",
+			"preload": "-"
+		}
+	},
+	"build": {
+		"light": {
+			"JP": "-",
+			"CN": "-",
+			"EN": "-"
+		},
+		"heavy": {
+			"JP": "-",
+			"CN": "-",
+			"EN": "-"
+		},
+		"special": {
+			"JP": "-",
+			"CN": "-",
+			"EN": "-"
+		},
+		"limited": {
+			"JP": "✓",
+			"CN": "✓",
+			"EN": "-"
+		}
+	},
+	"drop": {
+		"droppable": "false",
+		"list": {
+			"1": {
+				"event": "",
+				"chapter": {
+					"1": {
+						"label": "Ch .1",
+						"node": {
+							"1": {
+								"drop": "✓",
+								"note": "-"
+							}
 						}
 					}
 				}
 			}
 		}
-	}
-  },
-  "lines": {
-	"skin": {
-		"1": {
-			"label": "essex_skin1",
-			"dialogue": {
-				"1": {
-					"event": "Ship Description",
-					"media": "",
-					"chinese": "埃塞克斯级航空母舰一号舰——埃塞克斯",
-					"chineseTL": "Essex-Class Aircraft Carrier - Essex (CV-9)",
-					"chineseNote": "",
-					"japanese": "エセックス級航空母艦・エセックス（CV-9)",
-					"japaneseTL": "Essex-Class Aircraft Carrier - Essex (CV-9)",
-					"japaneseNote": "",
-					"english": "",
-					"englishNote": ""
-				},
-				"2": {
-					"event": "Self Introduction",
-					"media": "self_introduction",
-					"chinese": "我是埃塞克斯级首舰埃塞克斯号，从诞生起就备受大家的期待。不过，果然相比之下，还是企业前辈的活跃更加受到关注呢。要是我也能够早点加入战局的话…",
-					"chineseTL": "I'm Essex, the first carrier of the Essex class of carriers. I was highly anticipated since birth, but as expected, Enterprise's exploits do get more attention in comparison. If only I had entered the war earlier...",
-					"chineseNote": "",
-					"japanese": "エセックス級のネームシップエセックスです。建造されてから多くの期待を寄せられていましたが、やはり私よりエンタープライズの活躍の方がもっと注目されていましたね。……私だってもっと早く戦闘に参加していたら……",
-					"japaneseTL": "I am Essex, the name ship of my class. Though people had high hopes in me ever since my construction, in the end Enterprise received more attention for her service. …If only I'd been able to participate in battle sooner…",
-					"japaneseNote": "",
-					"english": "",
-					"englishNote": ""
-				},
-				"3": {
-					"event": "Acquisition",
-					"media": "acquisition",
-					"chinese": "这里就是企业前辈也在的…咳、咳咳，来自白鹰的最新锐航母、埃塞克斯号，正式报到！我不会辜负大家期望的，请期待我的表现吧，指挥官",
-					"chineseTL": "This is where Enterpise is at too... Ahem, the newest fleet carrier from Eagle Union, Essex, officially reporting in! I will live up to everyone's expectations. Please look forward to my performance, Commander.",
-					"chineseNote": "",
-					"japanese": "ここがエンタープライズの…こ、コホン！ユニオンの最新鋭空母・エセックス、正式に着任しました。指揮官、私の活躍を期待していてください！みんなの期待を絶対に裏切ったりはしません！",
-					"japaneseTL": "Is this where Enterprise… A-Ahem!—Essex, the Union's ground-breaking aircraft carrier, formally reporting for duty. Please, expect much from my combat performance! I would never let anyone be disappointed in me!",
-					"japaneseNote": "",
-					"english": "",
-					"englishNote": ""
+	},
+	"lines": {
+		"skin": {
+			"1": {
+				"skin_id": "aisaikesi",
+				"id": "0",
+				"label": "エセックス",
+				"dialogue": {
+					"1": {
+						"event": "Ship Description",
+						"media": "",
+						"chinese": "埃塞克斯级航空母舰—埃塞克斯，舷号CV-9",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "エセックス級航空母艦・エセックス（CV-9)",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"2": {
+						"event": "Biography",
+						"media": "profile",
+						"chinese": "我是埃塞克斯级首舰埃塞克斯号，从诞生起就备受大家的期待。不过，果然相比之下，还是企业前辈的活跃更加受到关注呢。要是我也能够早点加入战局的话…",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "エセックス級のネームシップエセックスです。建造されてから多くの期待を寄せられていましたが、やはり私よりエンタープライズ先輩の活躍の方がもっと注目されていましたね。……私だってもっと早く戦闘に参加していたら……",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"3": {
+						"event": "Receive",
+						"media": "get",
+						"chinese": "这里就是企业前辈也在的…咳、咳咳，来自白鹰的最新锐航母、埃塞克斯号，正式报到！我不会辜负大家期望的，请期待我的表现吧，指挥官",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "ここがエンタープライズ先輩の…こ、コホン！ユニオンの最新鋭空母・エセックス、正式に着任しました。指揮官、私の活躍を期待していてください！みんなの期待を絶対に裏切ったりはしません！",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"4": {
+						"event": "Log in",
+						"media": "login",
+						"chinese": "您终于来了吗…一切都已经就绪，准备出击吧，指挥官！",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "やっと来ましたか。…全ては準備万端です。指揮官、出撃の指示を！",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"5": {
+						"event": "View details",
+						"media": "detail",
+						"chinese": "指挥官想要知道什么？我会知无不言的——",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "指揮官は何を知りたいですか？私が知っていることならなんでもお答えしますが――",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"6": {
+						"event": "Main screen 1",
+						"media": "main_1",
+						"chinese": "大家都知道埃塞克斯级很强，但是每个人的嘴上却又都挂着企业前辈…哈啊…",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "みんなエセックス級は強いと認めていても、いざ口にするとやはりエンタープライズ先輩ばっかり…はあ……",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"7": {
+						"event": "Main screen 2",
+						"media": "main_2",
+						"chinese": "说起来，我有很多个妹妹呢。身为年长者的我更得努力给她们一个好榜样才行…",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "私には同型艦がたくさんいますね。ネームシップとして頑張って手本を見せてあげないと……",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"8": {
+						"event": "Main screen 3",
+						"media": "main_3",
+						"chinese": "武藏和大和吗？她们…都是值得尊敬的对手…要是有一天能再次与她们相遇就好了呢",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "武蔵と大和ですか？彼女たちは…うん、尊敬すべき素晴らしいライバルです。いつかまた出会えたらいいですね",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"9": {
+						"event": "Normal touch",
+						"media": "touch_1",
+						"chinese": "嗯？要出击了吗？尽管交给我吧！——啊，只是闲聊吗…",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "！出撃ですか？私に任せてください！――はあ、雑談したかっただけですか……",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"10": {
+						"event": "Special touch",
+						"media": "touch_2",
+						"chinese": "这，这种事情！我，我……",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "こ、こんなこと！私、私……",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"11": {
+						"event": "Mission reminder",
+						"media": "task",
+						"chinese": "还有新的任务……这次让我试试如何？",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "まだ新しい任務が……私にも任せてみませんか？",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"12": {
+						"event": "Mission complete",
+						"media": "mission_complete",
+						"chinese": "任务奖励发放了，不去管没关系吗？",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "任務報酬が届きました。受け取りに行かなくてもいいですか？",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"13": {
+						"event": "Mail reminder",
+						"media": "mail",
+						"chinese": "新邮件，给你。",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "新しいメールです。どうぞ",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"14": {
+						"event": "Return to port",
+						"media": "home",
+						"chinese": "出击部队…平安回港了呢。战斗报告已经准备好了，时间宝贵，现在就开始战术总结吧，指挥官。",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "出撃艦隊…無事母港に帰投しました。指揮官、戦闘報告の下準備は完了済みです。時間が惜しいので、今からその振り返りをしましょう",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"15": {
+						"event": "Commission complete",
+						"media": "expedition",
+						"chinese": "正是强大的后勤部门成就了我和妹妹们的诞生，要好好感谢她们才行。",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "私たちエセックス級の誕生は、強い兵站部署があってのことです。ちゃんとみんなに感謝しないと",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"16": {
+						"event": "Enhancing complete",
+						"media": "upgrade",
+						"chinese": "不知道什么时候能搭载喷气机呢…",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "ジェット機はいつになったら……",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"17": {
+						"event": "Flagship fight",
+						"media": "warcry",
+						"chinese": "舰载机就位，防空准备就绪——全舰队，最大舰速！",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "航空隊直掩配置に到達、防空態勢移行完了――全艦、最大戦速！",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"18": {
+						"event": "Victory",
+						"media": "mvp",
+						"chinese": "企业前辈，看到我的表现了吗！",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "エンタープライズ先輩、私の活躍を見ましたか！",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"19": {
+						"event": "Defeat",
+						"media": "lose",
+						"chinese": "绝对…不会就这么结束的！",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "このままでは終わらない……絶対に！",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"20": {
+						"event": "Skills",
+						"media": "skill",
+						"chinese": "展翅高飞吧！",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "大空を翔けよ！",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"21": {
+						"event": "Upset",
+						"media": "feeling1",
+						"chinese": "原来企业前辈一直忍受着这样的指挥官……",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "エンタープライズ先輩、こんな指揮官に我慢して従っているのか……",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"22": {
+						"event": "Stranger",
+						"media": "feeling2",
+						"chinese": "我曾见证过大舰巨炮时代的终结。航空母舰的时代，也会在某个时候终结吗……",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "大艦巨砲主義の時代の終焉をこの目で見届けました。航空母艦の時代も、いつか終わりを迎えるのでしょうか……",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"23": {
+						"event": "Friendly",
+						"media": "feeling3",
+						"chinese": "嫉妒？不，我从未这么想过，前辈是值得我们每一个人尊敬的英雄。只是那种一直处在前辈光环之下的感觉，让我多少感到有些……",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "妬み？いいえ、そんなことはありません。エンタープライズ先輩は私達全員に尊敬される英雄です。ただ、彼女の七光だとされていることは、私にはやっぱり……",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"24": {
+						"event": "Crush",
+						"media": "feeling4",
+						"chinese": "埃塞克斯不会输给任何人，企业前辈也一样。但是，我怎样才能让大家认同这一点？指挥官，是你的话，应该知道该怎么做吧",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "私エセックスは誰にも負けません。たとえ相手がエンタープライズ先輩だとしても、です。……しかし、どうやってみんなにそれ認めてもらえるか――指揮官、あなたならきっと分かっていますよね？",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"25": {
+						"event": "Love",
+						"media": "feeling5",
+						"chinese": "或许，我没法成为像企业前辈那样独当一面的英雄。但是我总感觉，和你一起，好像很多事情都能做到呢。",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "エンタープライズ先輩のようなヒーローになれないかもしれません。ですが、彼女と同じく人々の記憶に残る存在になれるような気がします。……だって指揮官となら私、どんなことでもできる気がしますから…",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"26": {
+						"event": "Promise",
+						"media": "propose",
+						"chinese": "两人互相支持的那种幸福感，一旦尝到了就会被俘获其中。谢谢你，指挥官。我不需要再独自去证明什么了。无论前行多远，我都会在你身旁，陪你一起继续走下去。",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "お互いが支え合っている幸せな気持ちは、一度でも感じたら虜にされますね。指揮官、ありがとうございます。エセックスがどうやってみんなに認めてもらえるか、一人で悩む必要はなくなりました――エセックス、これからはずっとあなたのそばで、あなたと共に歩むことを誓います",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					}
 				}
 			}
 		}
 	}
-  }
 }

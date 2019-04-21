@@ -114,14 +114,14 @@ class CommentedShipDisplay extends HTMLElement{
 					if (self.skin != null){
 						self.comment = actual_JSON.skin[self.skin+""].name;
 						if (self.retrofit == "true")
-							self.shipIcon = "https://s3.us-east-2.amazonaws.com/alg-wiki.com/Ships/" + actual_JSON.file_id + "/Icon/skin"+actual_JSON.retroParameter.split(",")[2].trim()+"_half.png";
+							self.shipIcon = "https://media.alg-wiki.com/assets/shipyardicon/" + actual_JSON.skin[1].id + "_g.png";
 						else
-							self.shipIcon = "https://s3.us-east-2.amazonaws.com/alg-wiki.com/Ships/" + actual_JSON.file_id + "/Icon/skin"+self.skin+"_half.png";
+							self.shipIcon = "https://media.alg-wiki.com/assets/shipyardicon/" + self.skin + ".png";
 					} else {
 						if (self.retrofit == "true")
-							self.shipIcon = "https://s3.us-east-2.amazonaws.com/alg-wiki.com/Ships/" + actual_JSON.file_id + "/Icon/skin"+actual_JSON.retroParameter.split(",")[2].trim()+"_half.png";
+							self.shipIcon = "https://media.alg-wiki.com/assets/shipyardicon/" + actual_JSON.skin[1].id + "_g.png";
 						else
-							self.shipIcon = "https://s3.us-east-2.amazonaws.com/alg-wiki.com/Ships/" + actual_JSON.file_id + "/Icon/skin1_half.png";
+							self.shipIcon = "https://media.alg-wiki.com/assets/shipyardicon/" + actual_JSON.skin[1].id + ".png";
 					}
 						
 					if (hull == "Aircraft Carrier" || hull == "Light Aircraft Carrier" ){						
@@ -174,6 +174,8 @@ class CommentedShipDisplay extends HTMLElement{
 						self.shipRarity = "background-color:#8cb3b8";
 					} else if (rarity == "Common" || rarity == "Normal"){
 						self.shipRarity = "background-color:#737373";
+					} else if (rarity == "Decisive" || rarity == "Ultra Rare"){
+						self.shipRarity = "background-image: linear-gradient(to bottom right, #6cae6c, #5fb0be, #7d84c0, #b45480);";
 					}
 					if (self.skinLimited == "true"){
 						self.root.getElementById("limited"+self.parentID).style.display = "block";
@@ -327,7 +329,7 @@ class IconDisplay extends HTMLElement{
 		var self = this;
 		util.loadShipJSON(this.ship, function(response, shipname){
 			var actual_JSON = JSON.parse(response);
-			self.icon = "https://s3.us-east-2.amazonaws.com/alg-wiki.com/Ships/" + actual_JSON.file_id + "/Icon/icon.png";
+			self.icon = "https://media.alg-wiki.com/assets/squareicon/" + actual_JSON.cn_reference + ".png";
 
 			if (actual_JSON.rarity == "Common" || actual_JSON.rarity == "Normal"){
 				self.bgimg = "../Images/bg1.png";
@@ -337,7 +339,7 @@ class IconDisplay extends HTMLElement{
 				self.bgimg = "../Images/bg3.png";
 			} else if (actual_JSON.rarity == "Super Rare" || actual_JSON.rarity == "Priority"){
 				self.bgimg = "../Images/bg4.png";
-			} else if (actual_JSON.rarity == "Ultra Rare"){
+			} else if (actual_JSON.rarity == "Ultra Rare" || actual_JSON.rarity == "Decisive"){
 				self.bgimg = "../Images/bg5.png";
 			}
 			render(self.template(),self.root);
@@ -601,7 +603,7 @@ class ChapterNode extends HTMLElement{
                             </td>
                         </tr>
                         <tr>
-                            <td rowspan="2" style="width: 20%; padding: 10px; text-align: center;"><a href ="ship#${this.bossShip[0]}" style="text-decoration:none;color:white"><img src="https://s3.us-east-2.amazonaws.com/alg-wiki.com/qicon/${this.bossShip[0]}.png" style="width: 64px; height: 64px"><br>${this.bossShip[1]}</a></td>
+                            <td rowspan="2" style="width: 20%; padding: 10px; text-align: center;"><a href ="ship#${this.bossShip[0]}" style="text-decoration:none;color:white"><img src="https://media.alg-wiki.com/qicon/${this.bossShip[0]}.png" style="width: 64px; height: 64px"><br>${this.bossShip[1]}</a></td>
                             <td style="width: 20%; padding: 10px; background: #24252d;"><b>Location</b></td>
                             <td style="width: 20%; padding: 10px;">${this.bossLocation}</td>
                             <td style="width: 20%; padding: 10px; background: #24252d;"><b>Level</b></td>

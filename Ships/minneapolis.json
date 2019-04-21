@@ -1,0 +1,796 @@
+{
+	"name_reference" : "minneapolis",
+	"cn_reference" : "mingniabolisi",
+	"nameJP" : "ミネアポリス",
+	"nameCN" : "明尼阿波利斯",
+	"ID" : "364",
+	"name" : "Minneapolis",
+	"internal_id" : "103131",
+	"rarity" : "Super Rare",
+	"initialStar" : "★★★☆☆☆",
+	"hull" : "Heavy Cruiser",
+	"navy" : "Eagle Union",
+	"prefix" : "USS",
+	"buildTime" : "",
+	"class" : "Orleans",
+	"voiceActress" : "Yuu Shimamura",
+	"parameters": {
+		"firepower" : "B",
+		"torpedo" : "E",
+		"aviation" : "E",
+		"evasion" : "C",
+		"antiAir" : "B",
+		"hp" : "A"
+	},
+	"scrap": {
+		"gold" : "9",
+		"oil" : "3",
+		"medal" : "10"
+	},
+	"releaseDate": {
+		"JP" : "",
+		"CN" : "",
+		"KR" : "",
+		"EN" : ""
+	},
+	"artist": {
+		"name" : "",
+		"weibo" : "",
+		"twitter" : "",
+		"pixiv" : "",
+		"other" : ""
+	},
+	"enhance": {
+		"firepower" : "26",
+		"torpedo" : "0",
+		"aviation" : "0",
+		"reload" : "13"
+	},
+	"acquisitionMethod" : "Event: Fallen Wings",
+	"skill": {
+		"1" : {
+			"icon" : "11690",
+			"requirement" : "",
+			"name" : "Thrill of the Hunt ",
+			"type" : "Offensive",
+			"description" : "When this ship sinks an enemy: increases this ship's FP by $1 and RLD by $2 for 12s. This effect can not activate more than once a second and does not stack, but sinking additional enemies will refresh its duration."
+		},
+		"2" : {
+			"icon" : "11710",
+			"requirement" : "",
+			"name" : "Dullahan ",
+			"type" : "Defensive",
+			"description" : "When this ship's HP falls below 30.0%: reduces the DMG it takes by $2 for the rest of the battle, and for 16s: reduces its Speed by 2 and recovers $1 of its max HP every 3s. This skill can only activate once per battle."
+		},
+		"3" : {
+			"icon" : "20241",
+			"requirement" : "",
+			"name" : "All Out Assault Ⅰ",
+			"type" : "Offensive",
+			"description" : "Activate All Out Assault Ⅰ: New Orleans Class once every 12 times the main gun is fired."
+		}
+	},
+	"skin": {
+		"1" : {
+			"id" : "mingniabolisi",
+			"name" : "Minneapolis ",
+			"description" : "New Orleans class Heavy Cruiser— Minneapolis, hull number CA-36. ",
+			"expression" : {
+				"0" : {
+					"id" : "0"
+				}
+			}
+		},
+		"2" : {
+			"id" : "mingniabolisi_2",
+			"name" : "Wild Huntress Schoolgirl ",
+			"description" : "Textbooks, pencils and erasers... hey, must students always pay attention in class... Commander? Can you arrange for us to get more extracurricular activities? ",
+			"expression" : {
+				"0" : {
+					"id" : "0"
+				},
+				"1" : {
+					"id" : "1"
+				},
+				"2" : {
+					"id" : "2"
+				},
+				"3" : {
+					"id" : "3"
+				}
+			}
+		}
+	},
+	"defaultEquipment": {
+		"1" : {
+			"icon" : "13000",
+			"rarity" : "",
+			"name" : "Triple 203mm Main Gun"
+		},
+		"2" : {
+			"icon" : "",
+			"rarity" : "",
+			"name" : ""
+		},
+		"1" : {
+			"icon" : "16100",
+			"rarity" : "Common",
+			"name" : "Twin 20mm AA Oerlikon Design"
+		}
+	},
+	"stats": {
+		"base": {
+			"hp" : "717",
+			"firepower" : "48",
+			"torpedo" : "0",
+			"antiAir" : "46",
+			"aviation" : "0",
+			"reload" : "67",
+			"hit" : "42",
+			"evasion" : "9",
+			"speed" : "26.16",
+			"luck" : "76",
+			"asw" : "0",
+			"oxygen" : "0",
+			"ammo" : "0",
+			"cost" : "4",
+			"armor" : "Medium"
+		},
+		"100": {
+			"hp" : "3707",
+			"firepower" : "225",
+			"torpedo" : "0",
+			"antiAir" : "216",
+			"aviation" : "0",
+			"reload" : "159",
+			"hit" : "110",
+			"evasion" : "24",
+			"speed" : "26.16",
+			"luck" : "76",
+			"asw" : "0",
+			"oxygen" : "0",
+			"ammo" : "0",
+			"cost" : "12",
+			"armor" : "Medium"
+		},
+		"120": {
+			"hp" : "4152",
+			"firepower" : "258",
+			"torpedo" : "0",
+			"antiAir" : "248",
+			"aviation" : "0",
+			"reload" : "182",
+			"hit" : "128",
+			"evasion" : "57",
+			"speed" : "26.16",
+			"luck" : "76",
+			"asw" : "0",
+			"oxygen" : "0",
+			"ammo" : "0",
+			"cost" : "12",
+			"armor" : "Medium"
+		},
+		"100retrofit": {
+			"hp" : "",
+			"firepower" : "",
+			"torpedo" : "",
+			"antiAir" : "",
+			"aviation" : "",
+			"reload" : "",
+			"hit" : "",
+			"evasion" : "",
+			"speed" : "26.16",
+			"luck" : "76",
+			"asw" : "",
+			"oxygen" : "0",
+			"ammo" : "0",
+			"cost" : "12",
+			"armor" : "Medium"
+		},
+		"120retrofit": {
+			"hp" : "",
+			"firepower" : "",
+			"torpedo" : "",
+			"antiAir" : "",
+			"aviation" : "",
+			"reload" : "",
+			"hit" : "",
+			"evasion" : "",
+			"speed" : "26.16",
+			"luck" : "76",
+			"asw" : "",
+			"oxygen" : "0",
+			"ammo" : "0",
+			"cost" : "12",
+			"armor" : "Medium"
+		}
+	},
+	"limitBreak": {
+		"tier1": "Unlock All Out Assault Ⅰ/Main gun efficiency +5%",
+		"tier2": "Main gun base +1/Main gun efficiency +10%",
+		"tier3": "Improve All Out Assault/All weapons' efficiency +5%"
+	},
+	"equipmentLoadout": {
+		"1": {
+			"type": "Heavy Cruiser",
+			"efficiency": "105%/110%/120%/125%",
+			"amount": "1/1/2/2",
+			"preload": "0/0/0/0"
+		},
+		"2": {
+			"type": "Destroyer Gun",
+			"efficiency": "65%/65%/65%/70%",
+			"amount": "1/1/1/1",
+			"preload": "0/0/0/0"
+		},
+		"3": {
+			"type": "Anti-Air Gun",
+			"efficiency": "120%/120%/120%/125%",
+			"amount": "1/1/1/1",
+			"preload": "0/0/0/0"
+		},
+		"4": {
+			"type": "Auxilary",
+			"efficiency": "-",
+			"amount": "-",
+			"preload": "-"
+		},
+		"5": {
+			"type": "Auxilary",
+			"efficiency": "-",
+			"amount": "-",
+			"preload": "-"
+		}
+	},
+	"build": {
+		"light": {
+			"JP": "",
+			"CN": "",
+			"EN": ""
+		},
+		"heavy": {
+			"JP": "",
+			"CN": "",
+			"EN": ""
+		},
+		"special": {
+			"JP": "",
+			"CN": "",
+			"EN": ""
+		},
+		"limited": {
+			"JP": "",
+			"CN": "",
+			"EN": ""
+		}
+	},
+	"drop": {
+		"droppable": "false",
+		"list": {
+			"1": {
+				"event": "",
+				"chapter": {
+					"1": {
+						"label": "Ch .1",
+						"node": {
+							"1": {
+								"drop": "✓",
+								"note": "-"
+							}
+						}
+					}
+				}
+			}
+		}
+	},
+	"lines": {
+		"skin": {
+			"1": {
+				"skin_id" : "mingniabolisi",
+				"id" : "0",
+				"label" : "Minneapolis ",
+				"dialogue" : {
+					"1" : {
+						"event" : "Ship Description",
+						"media" : "",
+						"chinese" : "新奥尔良级重巡洋舰—明尼阿波利斯，舷号CA-36",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "ニューオリンズ級重巡洋艦・ミネアポリス（CA-36）",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "New Orleans class Heavy Cruiser— Minneapolis, hull number CA-36.",
+						"englishNote" : ""
+					},
+					"2" : {
+						"event" : "Biography",
+						"media" : "profile",
+						"chinese" : "从珊瑚海到瓜达尔卡纳，太平洋中到处都是我的足迹。虽然因为一些烦人的原因旅途不得不终止了一段时间……不过从结果来说，我可算得上是表现出色了呢！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "珊瑚海からガダルカナルまで、私はあの大戦で太平洋中を旅してたけど、とあるつまらない理由で一時期引退してたな。まあ結果的にいい感じだったぜ！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "From the Coral Sea to Guadalcanal, I have left my footprints everywhere in the Pacific theater. Although I had to pause my mission due to little annoyances... but considering the results, my battle record can be considered as outstanding!",
+						"englishNote" : ""
+					},
+					"3" : {
+						"event" : "Receive",
+						"media" : "get",
+						"chinese" : "Hey ya！新奥尔良级明尼阿波利斯报道！我擅长狩猎，如果有你有看上的猎物的话，就交给我来解决吧！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "Hey ya！ニューオリンズ級ミネアポリスが参上だ！狩りが得意だから、狙いたい獲物があったら私に任せてもいいぜ！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Hey ya! New Orleans class Heavy Cruiser, reporting in! I excel at hunting. If you have any prey that you’d like to hunt, then leave it to me!",
+						"englishNote" : ""
+					},
+					"4" : {
+						"event" : "Log in",
+						"media" : "login",
+						"chinese" : "你的精神不错啊，准备好今天的狩猎了吗？",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "うーん……指揮官は今日もいいコンディションだ",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "You have very good spirit, are you ready for today’s hunt?",
+						"englishNote" : ""
+					},
+					"5" : {
+						"event" : "View details",
+						"media" : "detail",
+						"chinese" : "想听我狩猎的故事吗？可以啊！从哪个讲起好呢……",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "狩りのことを聞きたいのか？いいぜ。ってどっから話せばいいんだっけ",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Do you want to hear my hunting stories? Alright! But which one do I start with...",
+						"englishNote" : ""
+					},
+					"6" : {
+						"event" : "Main screen 1",
+						"media" : "main_1",
+						"chinese" : "皮肤的颜色？唔，又不只有我一个人是这样…你就那么在意吗？",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "見た目？別に私だけがこの肌の色じゃないけど…そんなに気になる？",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "My war paint? Oh, I’m not the only one who does this… is this what you mean? ",
+						"englishNote" : ""
+					},
+					"7" : {
+						"event" : "Main screen 2",
+						"media" : "main_2",
+						"chinese" : "鱼雷？啧，那种东西我才不会怕，那次只是运气不好而已……",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "魚雷？そんなもん怖くねーよ！あ、あの時は運がなかっただけ……",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Torpedo? I’m not afraid of that, I was just unlucky that one time… ",
+						"englishNote" : ""
+					},
+					"8" : {
+						"event" : "Main screen 3",
+						"media" : "main_3",
+						"chinese" : "喂，你也别一直坐在这里了，和我一起出去转转吧！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "おい、そこで座ってばっかいないで、私と一緒に出かけようぜ！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Hey, don’t just sit there, come with me and let’s take a look around!",
+						"englishNote" : ""
+					},
+					"9" : {
+						"event" : "Normal touch",
+						"media" : "touch_1",
+						"chinese" : "准备好去打猎了吗？",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "狩りの準備はできてるか？",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Are you ready for the hunt?",
+						"englishNote" : ""
+					},
+					"10" : {
+						"event" : "Special touch",
+						"media" : "touch_2",
+						"chinese" : "呀！……你这家伙，是想成为我的猎物吗？",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "きゃっ！？……てめぇ！私の獲物にされたいのか！？",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Ya! ...you, do you want to become my prey?",
+						"englishNote" : ""
+					},
+					"11" : {
+						"event" : "Mission reminder",
+						"media" : "task",
+						"chinese" : "新的任务，新的猎物，哼哼~",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "新しい任務、新しい獲物、へへへへ～",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "New mission, new prey, oh boy~",
+						"englishNote" : ""
+					},
+					"12" : {
+						"event" : "Mission complete",
+						"media" : "mission_complete",
+						"chinese" : "这就是全部的报酬么……勉勉强强吧。",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "これで全部か？……あ、そこそこだな",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Is this all the rewards... not as good as I expected.",
+						"englishNote" : ""
+					},
+					"13" : {
+						"event" : "Mail reminder",
+						"media" : "mail",
+						"chinese" : "紧急任务？不是，只是普通的信件吗……",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "緊急任務？って普通の手紙じゃねぇか……",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Urgent mission? No, turns out it was only an ordinary mail.",
+						"englishNote" : ""
+					},
+					"14" : {
+						"event" : "Return to port",
+						"media" : "home",
+						"chinese" : "都平安回来了吗？那就好。",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "無事だったか？ならいいぜ",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "You all returned safely? That’s good to hear.",
+						"englishNote" : ""
+					},
+					"15" : {
+						"event" : "Commission complete",
+						"media" : "expedition",
+						"chinese" : "看来外出的同伴们回来了呢。",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "出かけた仲間たちが戻ってきたようだな",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "It seems our friends have returned from the hunt.",
+						"englishNote" : ""
+					},
+					"16" : {
+						"event" : "Enhancing complete",
+						"media" : "upgrade",
+						"chinese" : "感觉身体都热起来了呢！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "滾ってきたぜ！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "I feel my body is heating up!",
+						"englishNote" : ""
+					},
+					"17" : {
+						"event" : "Flagship fight",
+						"media" : "warcry",
+						"chinese" : "下一个猎物会是谁呢？",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "次の獲物はどいつだ？",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Who will be my next prey?",
+						"englishNote" : ""
+					},
+					"18" : {
+						"event" : "Victory",
+						"media" : "mvp",
+						"chinese" : "抱歉，最初就没打算让你们逃走。",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "悪いな、元から逃すつもりはないぜ",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Sorry, from the very beginning, I never intended for any of you to escape.",
+						"englishNote" : ""
+					},
+					"19" : {
+						"event" : "Defeat",
+						"media" : "lose",
+						"chinese" : "嘁，到手的猎物却……",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "ちっ、仕留めかけた獲物が……",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Hey, the caught prey actually...",
+						"englishNote" : ""
+					},
+					"20" : {
+						"event" : "Skills",
+						"media" : "skill",
+						"chinese" : "得手了！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "もらった！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Got it!",
+						"englishNote" : ""
+					},
+					"21" : {
+						"event" : "Low HP",
+						"media" : "hp",
+						"chinese" : "啧，这些家伙还挺难缠的嘛。",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "ちっ、手強いやつだ…！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Hey, it seems like these guys are giving us a bit of trouble.",
+						"englishNote" : ""
+					},
+					"22" : {
+						"event" : "Upset",
+						"media" : "feeling1",
+						"chinese" : "和你聊天有点无趣啊……",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "お前とおしゃべりしてもつまんないぞ……",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "It’s kinda boring talking to you...",
+						"englishNote" : ""
+					},
+					"23" : {
+						"event" : "Stranger",
+						"media" : "feeling2",
+						"chinese" : "比起在港区里待着，出去狩猎会才更有趣！马上安排一下出击如何？",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "母港で籠ってるより外に出たほうが楽しいぜ！そうだな…このまま出撃でもしないか？",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Compared to staying at port, it’s way more fun to go on a hunt! How about we plan one right away?",
+						"englishNote" : ""
+					},
+					"24" : {
+						"event" : "Friendly",
+						"media" : "feeling3",
+						"chinese" : "其实港区里也有几个我比较在意的地方。现在就出发去探索吧！……工作？等下再做也不迟啦！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "母港にはまだ気になるスポットが多いな。すぐにでも下調べといこうぜ！……仕事？あとに回せばいいだろ？ ",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "There’s actually a few places in port that I am interested in investigating. Let’s go and explore them now! ...Work? We can still make it on time even if we wait a bit longer!",
+						"englishNote" : ""
+					},
+					"25" : {
+						"event" : "Crush",
+						"media" : "feeling4",
+						"chinese" : "这是什么时候受的伤？该不会是和我一起的时候……喂，不要动，我来帮你舔舔。",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "この傷、いつできた？もしかしてこの間私と……じっとしてろ。今治してやるぞ（ペロッ",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "When did you get this injury? Could it be that time when you were with me... hey, don’t move, let me help you by licking it.",
+						"englishNote" : ""
+					},
+					"26" : {
+						"event" : "Love",
+						"media" : "feeling5",
+						"chinese" : "毕竟你也是指挥官，要为整个舰队作考虑，不能每天都陪着我到处跑。但是没有你一起的话，我一个人总有点提不起干劲……",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "お前は指揮官なんだから、私のことは置いといて艦隊のことを第一に考えるんだな！……で、でも…やっぱりお前がいないと、私だけじゃなんだかやる気がで、出ないんだよな……は、はははは…",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "After all, you are the Commander of the entire fleet. So you can’t always accompany everyday. But without you, I seem to be less motivated...",
+						"englishNote" : ""
+					},
+					"27" : {
+						"event" : "Promise",
+						"media" : "propose",
+						"chinese" : "原来指挥官的猎物是我啊，感觉稍微有点不甘心呢……算了，指挥官的话被抓住也无所谓了！总、总之以后也请多多指教了，指挥官！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "指揮官が狙ってた獲物って私だったか…ちょっと悔しいけど……まあいっか！指揮官になら捕まえられても構わないぜ！と、とにかく！これからもよろしくな！指揮官！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "It turns out that I was your prey, Commander? Even though I still am reluctant to believe it... but, I’ll hold onto Commander’s words! All-in-all, please take care of me in the future, Commander!",
+						"englishNote" : ""
+					},
+					"28" : {
+						"event" : "Easter Egg 1(Lexington)",
+						"media" : "link1",
+						"chinese" : "这次我会保护好你的！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "今度はきっと守ってみせる！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "I’ll protect you this time!",
+						"englishNote" : ""
+					},
+					"29" : {
+						"event" : "Easter Egg 2(Astoria, Quincy, Vincennes)",
+						"media" : "link2",
+						"chinese" : "和姐妹一起作战的感觉，果然不坏……",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "姉妹艦と一緒に戦う…悪くない……",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "To go into battle with my sisters, it’s not a bad feeling at all...",
+						"englishNote" : ""
+					}
+				}
+			},
+			"2": {
+				"skin_id" : "mingniabolisi_2",
+				"id" : "1",
+				"label" : "Wild Huntress Schoolgirl ",
+				"dialogue" : {
+					"1" : {
+						"event" : "Ship Description",
+						"media" : "",
+						"chinese" : "课本、铅笔、橡皮擦…唔，学生就一定要待在教室认真听课吗…指挥官，能不能多安排一些课外实践的活动啊？",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "教科書と鉛筆、それと消しゴム…学生って教室で授業に参加するだけじゃないよな……指揮官、野外実習をもうちょっと入れてくれー！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Textbooks, pencils and erasers... hey, must students always pay attention in class... Commander? Can you arrange for us to get more extracurricular activities?",
+						"englishNote" : ""
+					},
+					"2" : {
+						"event" : "Receive",
+						"media" : "get_1",
+						"chinese" : "课本、铅笔、橡皮擦…唔，学生就一定要待在教室认真听课吗…指挥官，能不能多安排一些课外实践的活动啊？",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "教科書と鉛筆、それと消しゴム…学生って教室で授業に参加するだけじゃないよな……指揮官、野外実習をもうちょっと入れてくれー！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Textbooks, pencils and erasers... hey, must students always pay attention in class... Commander? Can you arrange for us to get more extracurricular activities?",
+						"englishNote" : ""
+					},
+					"3" : {
+						"event" : "Log in",
+						"media" : "login_1",
+						"chinese" : "早安指挥官，唔，等我吃完这个汉堡再开始今天的任务吧",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "おっす指揮官、うん、このハンバーガーを食べてから今日の任務をやることにするぜ",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Good morning Commander. Well, just wait for me to finish my burger and I’ll get started on today’s mission.",
+						"englishNote" : ""
+					},
+					"4" : {
+						"event" : "View details",
+						"media" : "detail_1",
+						"chinese" : "我有听课啦！诺，这是笔记。",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "授業はちゃんと聞いたぞ！ほら、ノートだ！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "I've been paying attention in class! See, here are the notes I took.",
+						"englishNote" : ""
+					},
+					"5" : {
+						"event" : "Main screen 1",
+						"media" : "main_1_1",
+						"chinese" : "可乐、汉堡和薯条——嗯，今天的午餐就这样吧",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "酸素コーラにハンバーガー、フライドポテト――うん、お昼はこれにするか",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Coke, burgers and fries—— Yes, let’s get that for lunch today ",
+						"englishNote" : ""
+					},
+					"6" : {
+						"event" : "Main screen 2",
+						"media" : "main_2_1",
+						"chinese" : "智能机？嗯，昆西送给我的，虽然还用得不太顺手…",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "スマホ？うん、クインシーがくれたもんだぜ。まだうまく使えてないけど…",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Smartphone? Yes, Quincy gave this to me, although it doesn’t really work well… ",
+						"englishNote" : ""
+					},
+					"7" : {
+						"event" : "Main screen 3",
+						"media" : "main_3_1",
+						"chinese" : "上课有点无聊，但是逃课又不好…唔——",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "授業はちょっと面白くないけど、サボるのはさすがに悪いことだよな………む――",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Class is so boring, but its not good to skip... hmmm——",
+						"englishNote" : ""
+					},
+					"8" : {
+						"event" : "Normal touch",
+						"media" : "touch_1_1",
+						"chinese" : "你也要吃薯条吗？分你一点。",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "フライドポテト食べたい？少しだけなら分けてあげてもいいぜ",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Do you want to have some fries? I’ll share with you a little.",
+						"englishNote" : ""
+					},
+					"9" : {
+						"event" : "Special touch",
+						"media" : "touch_2_1",
+						"chinese" : "这，这可是违反风纪的！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "ふ、風紀違反だぞ！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Th-this is against the school policy!",
+						"englishNote" : ""
+					},
+					"10" : {
+						"event" : "Return to port",
+						"media" : "home_1",
+						"chinese" : "终于下课了！去哪里好呢……",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "授業が終わった！次はなにをすればいいんだろ……",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Finally, class is over! Where shall we go...",
+						"englishNote" : ""
+					},
+					"11" : {
+						"event" : "Flagship fight",
+						"media" : "warcry_1",
+						"chinese" : "课外实践时间到了！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "野外実習の時間だ！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Extracurricular time is here!",
+						"englishNote" : ""
+					},
+					"12" : {
+						"event" : "Love",
+						"media" : "feeling5_1",
+						"chinese" : "放学后一起去玩吗，指挥官？嗯……倒不是有什么想去的地方，就是想和你在一起",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "指揮官、放課後は一緒にどこかに出かけてみないか？……いや、別に行きたい場所があるとかじゃなくて…あれだ！い、一緒にいたいだけ…だったりして",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Do you want to play with me after class, Commander? Em… I don’t have any particular place in mind, I just want to play with you, that’s all.",
+						"englishNote" : ""
+					}
+				}
+			}
+		}
+	}
+}

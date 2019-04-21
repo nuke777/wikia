@@ -49,11 +49,11 @@
 				// Parse JSON string into object
 				var actual_JSON = JSON.parse(response);
 				for (var x in actual_JSON){
+					//console.log(actual_JSON[x].link);
 
 					if (actual_JSON[x].shipType != type){
 						continue;
 					}
-
 					var shipDisplay = document.createElement('commented-ship-display');
 					shipDisplay.ship = actual_JSON[x].link;
 					document.getElementById(element).appendChild(shipDisplay);

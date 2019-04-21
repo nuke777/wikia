@@ -1,0 +1,614 @@
+{
+	"name_reference" : "le_triomphant",
+	"cn_reference" : "kaixuan",
+	"nameJP" : "ル・トリオンファン",
+	"nameCN" : "凯旋",
+	"ID" : "347",
+	"name" : "Le Triomphant",
+	"internal_id" : "801011",
+	"rarity" : "Super Rare",
+	"initialStar" : "★★★☆☆☆",
+	"hull" : "Destroyer",
+	"navy" : "Iris Libre",
+	"prefix" : "FFNF",
+	"buildTime" : "",
+	"class" : "",
+	"voiceActress" : "Sora Amamiya",
+	"parameters": {
+		"firepower" : "A",
+		"torpedo" : "C",
+		"aviation" : "E",
+		"evasion" : "A",
+		"antiAir" : "C",
+		"hp" : "D"
+	},
+	"scrap": {
+		"gold" : "4",
+		"oil" : "3",
+		"medal" : "10"
+	},
+	"releaseDate": {
+		"JP" : "",
+		"CN" : "",
+		"KR" : "",
+		"EN" : ""
+	},
+	"artist": {
+		"name" : "",
+		"weibo" : "",
+		"twitter" : "",
+		"pixiv" : "",
+		"other" : ""
+	},
+	"enhance": {
+		"firepower" : "8",
+		"torpedo" : "16",
+		"aviation" : "0",
+		"reload" : "14"
+	},
+	"acquisitionMethod" : "イベント：光と影のアイリス",
+	"skill": {
+		"1" : {
+			"icon" : "11500",
+			"requirement" : "",
+			"name" : "鸢尾之光",
+			"type" : "Offensive",
+			"description" : "主炮连续命中同一个目标时（同一子弹命中复数目标时，均可作为判定对象），提升自身装填属性$1，最高叠加4层，每秒最多触发一次；装填提升效果生效期间，若命中非判定目标，则生效层数清零"
+		},
+		"2" : {
+			"icon" : "11510",
+			"requirement" : "",
+			"name" : "攻防转换",
+			"type" : "Support",
+			"description" : "作为先锋领舰出击时，主炮效率提高$1，防空炮效率降低30%"
+		},
+		"3" : {
+			"icon" : "29331",
+			"requirement" : "",
+			"name" : "专属弹幕-凯旋I",
+			"type" : "Offensive",
+			"description" : "主炮每进行15次攻击，触发专属弹幕-凯旋I"
+		}
+	},
+	"skin": {
+		"1" : {
+			"id" : "kaixuan",
+			"name" : "ル・トリオンファン",
+			"description" : "ル・ファンタスク級駆逐艦ル・トリオンファン",
+			"expression" : {
+				"0" : {
+					"id" : "0"
+				}
+			}
+		}
+	},
+	"defaultEquipment": {
+		"1" : {
+			"icon" : "50100",
+			"rarity" : "Rare",
+			"name" : "138.6mm单装炮Mle1929"
+		},
+		"1" : {
+			"icon" : "5400",
+			"rarity" : "Common",
+			"name" : "Triple 550mm Torpedo"
+		},
+		"3" : {
+			"icon" : "",
+			"rarity" : "",
+			"name" : ""
+		}
+	},
+	"stats": {
+		"base": {
+			"hp" : "326",
+			"firepower" : "24",
+			"torpedo" : "49",
+			"antiAir" : "31",
+			"aviation" : "0",
+			"reload" : "76",
+			"hit" : "68",
+			"evasion" : "79",
+			"speed" : "54",
+			"luck" : "77",
+			"asw" : "51",
+			"oxygen" : "0",
+			"ammo" : "0",
+			"cost" : "3",
+			"armor" : "Light"
+		},
+		"100": {
+			"hp" : "1684",
+			"firepower" : "114",
+			"torpedo" : "233",
+			"antiAir" : "145",
+			"aviation" : "0",
+			"reload" : "180",
+			"hit" : "177",
+			"evasion" : "206",
+			"speed" : "54",
+			"luck" : "77",
+			"asw" : "187",
+			"oxygen" : "0",
+			"ammo" : "0",
+			"cost" : "10",
+			"armor" : "Light"
+		},
+		"120": {
+			"hp" : "2021",
+			"firepower" : "131",
+			"torpedo" : "267",
+			"antiAir" : "167",
+			"aviation" : "0",
+			"reload" : "207",
+			"hit" : "186",
+			"evasion" : "213",
+			"speed" : "54",
+			"luck" : "77",
+			"asw" : "207",
+			"oxygen" : "0",
+			"ammo" : "0",
+			"cost" : "10",
+			"armor" : "Light"
+		},
+		"100retrofit": {
+			"hp" : "",
+			"firepower" : "",
+			"torpedo" : "",
+			"antiAir" : "",
+			"aviation" : "",
+			"reload" : "",
+			"hit" : "",
+			"evasion" : "",
+			"speed" : "54",
+			"luck" : "77",
+			"asw" : "",
+			"oxygen" : "0",
+			"ammo" : "0",
+			"cost" : "10",
+			"armor" : "Light"
+		},
+		"120retrofit": {
+			"hp" : "",
+			"firepower" : "",
+			"torpedo" : "",
+			"antiAir" : "",
+			"aviation" : "",
+			"reload" : "",
+			"hit" : "",
+			"evasion" : "",
+			"speed" : "54",
+			"luck" : "77",
+			"asw" : "",
+			"oxygen" : "0",
+			"ammo" : "0",
+			"cost" : "10",
+			"armor" : "Light"
+		}
+	},
+	"limitBreak": {
+		"tier1": "特殊弾幕スキル習得/主砲補正+5%",
+		"tier2": "魚雷装填数+1/開始時魚雷+1/主砲補正+10%",
+		"tier3": "特殊弾幕強化/武器補正+5%"
+	},
+	"equipmentLoadout": {
+		"1": {
+			"type": "Destroyer Gun",
+			"efficiency": "120%/125%/135%/140%",
+			"amount": "1/1/1/1",
+			"preload": "0/0/0/0"
+		},
+		"2": {
+			"type": "Torpedo",
+			"efficiency": "120%/120%/120%/125%",
+			"amount": "1/1/2/2",
+			"preload": "0/0/1/1"
+		},
+		"3": {
+			"type": "Anti-Air Gun",
+			"efficiency": "140%/140%/140%/145%",
+			"amount": "1/1/1/1",
+			"preload": "0/0/0/0"
+		},
+		"4": {
+			"type": "Auxilary",
+			"efficiency": "-",
+			"amount": "-",
+			"preload": "-"
+		},
+		"5": {
+			"type": "Auxilary",
+			"efficiency": "-",
+			"amount": "-",
+			"preload": "-"
+		}
+	},
+	"build": {
+		"light": {
+			"JP": "",
+			"CN": "",
+			"EN": ""
+		},
+		"heavy": {
+			"JP": "",
+			"CN": "",
+			"EN": ""
+		},
+		"special": {
+			"JP": "",
+			"CN": "",
+			"EN": ""
+		},
+		"limited": {
+			"JP": "",
+			"CN": "",
+			"EN": ""
+		}
+	},
+	"drop": {
+		"droppable": "false",
+		"list": {
+			"1": {
+				"event": "",
+				"chapter": {
+					"1": {
+						"label": "Ch .1",
+						"node": {
+							"1": {
+								"drop": "✓",
+								"note": "-"
+							}
+						}
+					}
+				}
+			}
+		}
+	},
+	"lines": {
+		"skin": {
+			"1": {
+				"skin_id" : "kaixuan",
+				"id" : "0",
+				"label" : "ル・トリオンファン",
+				"dialogue" : {
+					"1" : {
+						"event" : "Ship Description",
+						"media" : "",
+						"chinese" : "自由鸢尾空想级驱逐舰—凯旋",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "ル・ファンタスク級駆逐艦ル・トリオンファン",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"2" : {
+						"event" : "Biography",
+						"media" : "profile",
+						"chinese" : "自由鸢尾、空想级驱逐舰凯旋号，向您问安。曾经作为布雷斯特的第八分队一员，与姐姐们一同突入了斯卡格拉克海峡，然而之后却和姐姐们走向了不同的道路…",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "自由アイリス教国、ル・ファンタスク級駆逐艦ル・トリオンファン、ご挨拶を申し上げますわ。かつてはブレストの第八分隊に所属し、お姉さま方とともにスカゲラク海峡に突入しました。その後、お姉さま方とは違う道を……",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"3" : {
+						"event" : "Receive",
+						"media" : "get",
+						"chinese" : "贵安，指挥官。自由鸢尾、“超级驱逐舰”凯旋，向您报到。超越幻想的空想级之威力，尽管期待吧～",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "あら、指揮官、ごきげん麗しゅうございます。自由アイリス教国、「エレガント」たる駆逐艦、ル・トリオンファンが着任しましたわ。幻想をも超える空想（ファンタスク）級の力、とくとご覧あそばせ♪",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"4" : {
+						"event" : "Log in",
+						"media" : "login",
+						"chinese" : "哎呀—您回来了？今日有何计划？无论是出击还是委托，都可以放心交给我哟！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "あら、ごきげんあそばせ？今日のご命令はなぁに？出撃も委託も、この私に任せていいですわ",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"5" : {
+						"event" : "View details",
+						"media" : "detail",
+						"chinese" : "有什么问题可以尽管问我哟，我会一一回答您的",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "質問ならなーんでもいいですの。ぜーんぶお答えしますわ",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"6" : {
+						"event" : "Main screen 1",
+						"media" : "main_1",
+						"chinese" : "盾和剑？习惯了就不重哟，毕竟…我的力量还是很强的",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "この艤装？慣れたら重く感じなくなりますの。こう見えても腕力は強いほうですわ",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"7" : {
+						"event" : "Main screen 2",
+						"media" : "main_2",
+						"chinese" : "如果那时候和姐姐们在一起，是不是就能有不一样的结果呢…",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "もしあの時、お姉さま方と一緒にいたら、もしかしたら違う結末になってたかも……",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"8" : {
+						"event" : "Main screen 3",
+						"media" : "main_3",
+						"chinese" : "盟友和敌人，有时候也并不是那么一成不变的呢…",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "友軍と敵、時として入れ替わるものよ",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"9" : {
+						"event" : "Normal touch",
+						"media" : "touch_1",
+						"chinese" : "把我们姐妹看作一般的驱逐舰的话，可是会吃大亏的哟，指挥官",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "指揮官、私たちを普通の駆逐艦と見なしていたら損しますわよ？",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"10" : {
+						"event" : "Special touch",
+						"media" : "touch_2",
+						"chinese" : "竟、竟然超越了空想级的速度…指挥官…不可小觑…",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "きゃっ！ル・ファンタスク級の速力をも超えるなんて…指揮官…侮れませんわ……",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"11" : {
+						"event" : "Mission reminder",
+						"media" : "task",
+						"chinese" : "有新的任务哟",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "新しい任務がありますわ",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"12" : {
+						"event" : "Mission complete",
+						"media" : "mission_complete",
+						"chinese" : "这是对您辛勤工作的嘉奖呢",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "苦労した指揮官へのご褒美ですわ",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"13" : {
+						"event" : "Mail reminder",
+						"media" : "mail",
+						"chinese" : "来自未知的问候，真是不错呢",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "未知なる相手からの挨拶は嬉しいですわ",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"14" : {
+						"event" : "Return to port",
+						"media" : "home",
+						"chinese" : "作战辛苦了，指挥官。喝杯红茶，再继续工作吧？",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "指揮官、お勤めご苦労さまですわ。仕事の続きは紅茶でも召し上がってからにしてはどうかしら？",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"15" : {
+						"event" : "Commission complete",
+						"media" : "expedition",
+						"chinese" : "下次也让我试试吧？会以最快的速度完成的～",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "次は私に任せてみませんか？最速で、完了して差し上げますわ",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"16" : {
+						"event" : "Enhancing complete",
+						"media" : "upgrade",
+						"chinese" : "从剑与盾中感受到了更强的力量…谢谢您，指挥官",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "艤装から強い力の波動を感じます…指揮官、感謝ですわ",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"17" : {
+						"event" : "Flagship fight",
+						"media" : "warcry",
+						"chinese" : "以鸢尾花之名，肃清前方之敌！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "アイリスの名にかけて、敵を粉砕しますわ！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"18" : {
+						"event" : "Victory",
+						"media" : "mvp",
+						"chinese" : "想要跟上空想级的速度，可没有那么容易哟～",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "ル・ファンタスク級の速さ、着いてくるのは簡単じゃなくてよ？",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"19" : {
+						"event" : "Defeat",
+						"media" : "lose",
+						"chinese" : "偶尔…也是会有这种事的呢…",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "たまにはこういうことも起きますわね……",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"20" : {
+						"event" : "Skills",
+						"media" : "skill",
+						"chinese" : "为了自由…！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "Pour la liberté（ポルラリベルテ）！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"21" : {
+						"event" : "Low HP",
+						"media" : "hp",
+						"chinese" : "胜负…还没有决定！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "勝負は…これからですわ！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"22" : {
+						"event" : "Upset",
+						"media" : "feeling1",
+						"chinese" : "指挥官原来…是这样的人啊…",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "指揮官はまあ……こんな御方ですか……",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"23" : {
+						"event" : "Stranger",
+						"media" : "feeling2",
+						"chinese" : "位高则任重(noblesse oblige)…您不觉得挺有道理的吗？",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "ノブレス・オブリージュ…素晴らしきエレガントさだとは思いませんか？",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"24" : {
+						"event" : "Friendly",
+						"media" : "feeling3",
+						"chinese" : "为了各自的理想与抱负，即使是至亲之人，也可能分道扬镳，甚至兵戎相见，真是…令人悲伤",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "理想という大義のためなら、親族でも袂を分かち、敵として相まみえることも辞さない……本当に嘆かわしいことですわ",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"25" : {
+						"event" : "Crush",
+						"media" : "feeling4",
+						"chinese" : "共同历经困境与苦难，才更能培养出生死与共的感情，我是这么认为的",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "ともに苦境を乗り越えた相手にこそ背中を預けられる……私はそう思うのですわ",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"26" : {
+						"event" : "Love",
+						"media" : "feeling5",
+						"chinese" : "和指挥官一起的话，无论多大的困难与逆境都能轻松克服…我有这样的感觉呢",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "指揮官と一緒なら、どんな困難も簡単に乗り越えられる…そんな気がしますわ",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"27" : {
+						"event" : "Promise",
+						"media" : "propose",
+						"chinese" : "终于…到了这一天…指挥官果然就是我的命定之人呢。凯旋、愿意将此剑、此盾、此身皆奉献于您——",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "ついに…ついにこの日が…やはり指揮官こそ私の運命のパートナーですわ！ル・トリオンファン、この剣、この盾、そしてこの身を喜んで捧げます！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"28" : {
+						"event" : "Easter Egg 1(Victorious)",
+						"media" : "link1",
+						"chinese" : "一起将胜利带给指挥官吧！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "勝利を指揮官に、ですわ！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					}
+				}
+			}
+		}
+	}
+}

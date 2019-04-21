@@ -1,55 +1,35 @@
 {
-	"name": "Friedrich der Große",
+	"name_reference": "friedrich_der_grosse",
+	"cn_reference": "feiteliedadi",
 	"nameJP": "フリードリヒ・デア・グローセ",
 	"nameCN": "",
-	"class": "H-39",
-	"hull": "Battleship",
-	"prefix": "KMS",
-	"ID": "P012",
-	"file_id": "Plan012_Friedrich_Der_Grosse",
-	"navy": "Ironblood",
+	"ID": "P011",
+	"name": "Friedrich der Große",
+	"internal_id": "499021",
+	"rarity": "Decisive",
 	"initialStar": "★★★☆☆☆",
-	"rarity": "Priority",
+	"hull": "Battleship",
+	"navy": "Ironblood",
+	"prefix": "KMS",
 	"buildTime": "N/A",
-	"acquisitionMethod": "",
-	"enhance": {
-		"firepower": "",
-		"torpedo": "",
-		"aviation": "",
-		"reload": ""
+	"class": "H-39",
+	"parameters": {
+		"firepower": "S",
+		"torpedo": "E",
+		"aviation": "E",
+		"evasion": "C",
+		"antiAir": "C",
+		"hp": "S"
 	},
 	"scrap": {
-		"gold": "",
-		"oil": "",
-		"medal": ""
-	},
-	"skin": {
-		"1": {
-			"name": "Default",
-			"description": "One of the proposed H-39 class of Battleships, Friedrich der Große",
-			"expression": {
-				"1": {
-					"label": "Default"
-				},
-				"2": {
-					"label": "Default"
-				},
-				"3": {
-					"label": "Default"
-				},
-				"4": {
-					"label": "Default"
-				},
-				"5": {
-					"label": "Default"
-				}
-			}
-		}
+		"gold": "11",
+		"oil": "4",
+		"medal": "30"
 	},
 	"releaseDate": {
-		"JP": "",
-		"CN": "",
-		"KR": "",
+		"JP": "April 18, 2019",
+		"CN": "April 18, 2019",
+		"KR": "April 18, 2019",
 		"EN": ""
 	},
 	"voiceActress": "Hitomi Nabatame",
@@ -60,182 +40,250 @@
 		"pixiv": "",
 		"other": ""
 	},
-	"parameters": {
-		"hp": "",
-		"antiAir": "",
-		"evasion": "",
-		"aviation": "",
-		"torpedo": "",
-		"firepower": ""
+	"enhance": {
+		"firepower": "0",
+		"torpedo": "0",
+		"aviation": "0",
+		"reload": "0"
 	},
-	"stats": {
-		"100": {
-			"hp": "",
-			"armor": "Light",
-			"reload": "",
-			"firepower": "",
-			"torpedo": "",
-			"evasion": "",
-			"antiAir": "",
-			"aviation": "",
-			"cost": "",
-			"asw": "",
-			"luck": "",
-			"hit": "",
-			"speed": ""
-		},
-		"120": {
-			"hp": "",
-			"armor": "Light",
-			"reload": "",
-			"firepower": "",
-			"torpedo": "",
-			"evasion": "",
-			"antiAir": "",
-			"aviation": "",
-			"cost": "",
-			"asw": "",
-			"luck": "",
-			"hit": "",
-			"speed": ""
-		},
-		"base": {
-			"hp": "",
-			"armor": "Light",
-			"reload": "",
-			"firepower": "",
-			"torpedo": "",
-			"evasion": "",
-			"antiAir": "",
-			"aviation": "",
-			"cost": "",
-			"asw": "",
-			"luck": "",
-			"hit": "",
-			"speed": ""
-		},
-		"100retrofit": {
-			"hp": "",
-			"armor": "Light",
-			"reload": "",
-			"firepower": "",
-			"torpedo": "",
-			"evasion": "",
-			"antiAir": "",
-			"aviation": "",
-			"cost": "",
-			"asw": "",
-			"luck": "",
-			"hit": "",
-			"speed": ""
-		},
-		"120retrofit": {
-			"hp": "",
-			"armor": "Light",
-			"reload": "",
-			"firepower": "",
-			"torpedo": "",
-			"evasion": "",
-			"antiAir": "",
-			"aviation": "",
-			"cost": "",
-			"asw": "",
-			"luck": "",
-			"hit": "",
-			"speed": ""
-		}
-	},
-	"strengthenLevel": {
-		"level5": "",
-		"level10": "",
-		"level15": "",
-		"level20": "",
-		"level25": "",
-		"level30": ""
-	},
-	"equipmentLoadout": {
+	"acquisitionMethod": "Priority Research",
+	"skill": {
 		"1": {
-			"type": "",
-			"efficiency": "",
-			"amount": "",
-			"preload": ""
+			"icon" : "19220",
+			"name": "Symphonie der Zerstörung",
+			"type": "Offensive",
+			"requirement": "",
+			"description": "When taking damage or when an enemy enters the defensive firing line, trigger an armor piercing barrage from the secondary weapon (firepower increased by skill level) and enter a 15 second cooldown"
 		},
 		"2": {
-			"type": "",
-			"efficiency": "",
-			"amount": "",
-			"preload": ""
+			"icon" : "19230",
+			"name": "Sonate des Chaos",
+			"type": "Offensive",
+			"requirement": "",
+			"description": "When main gun is fired an odd numbered of times, increase reload by 30-50% and damage by 10-20%. When main gun is fired an even number of times, increase critical chance by 10-20% and critical damage by 20-50%. Effects gained persist until the main gun is fired again"
 		},
 		"3": {
-			"type": "",
-			"efficiency": "",
-			"amount": "",
-			"preload": ""
+			"icon" : "19240",
+			"name": "Rhapsodie der Dunkelheit",
+			"type": "Support",
+			"requirement": "",
+			"description": "When health is between 70-100%, increase firepower by 10-20%. When health is between 30-70%, increase firepower by 4-10% and reduce damage taken by 4-10%. When health drops below 30%, reduce damage taken by 10-20%"
 		},
 		"4": {
-			"type": "Auxilliary",
-			"efficiency": "-",
-			"amount": "-",
-			"preload": "-"
-		},
-		"5": {
-			"type": "Auxilliary",
-			"efficiency": "-",
-			"amount": "-",
-			"preload": "-"
+			"icon" : "19000",
+			"name": "Siren's Nemesis",
+			"type": "Offensive",
+			"requirement": "",
+			"description": "Increase damage done to sirens by 5%"
+		}
+	},
+	"skin": {
+		"1": {
+			"id": "feiteliedadi",
+			"name": "Friedrich der Große",
+			"description": "One of the proposed H-39 class of Battleships, Friedrich der Große",
+			"expression": {
+				"0": {
+					"id": "0"
+				},
+				"1": {
+					"id": "1"
+				},
+				"2": {
+					"id": "2"
+				},
+				"3": {
+					"id": "3"
+				},
+				"4": {
+					"id": "4"
+				}
+			}
 		}
 	},
 	"defaultEquipment": {
-		"1": "",
-		"2": "",
-		"3": ""
-	},
-	"skill": {
 		"1": {
-			"name": "",
-			"type": "",
-			"requirement": "",
-			"description": ""
+			"icon": "",
+			"rarity": "",
+			"name": ""
+		},
+		"2": {
+			"icon": "",
+			"rarity": "",
+			"name": ""
+		},
+		"3": {
+			"icon": "",
+			"rarity": "",
+			"name": ""
+		}
+	},
+	"stats": {
+		"base": {
+			"hp": "1634",
+			"firepower": "87",
+			"torpedo": "0",
+			"antiAir": "45",
+			"aviation": "0",
+			"reload": "58",
+			"hit": "22",
+			"evasion": "8",
+			"speed": "30",
+			"luck": "0",
+			"asw": "0",
+			"oxygen": "0",
+			"ammo": "0",
+			"cost": "",
+			"armor": "Heavy"
+		},
+		"100": {
+			"hp": "8449",
+			"firepower": "407",
+			"torpedo": "0",
+			"antiAir": "210",
+			"aviation": "0",
+			"reload": "137",
+			"hit": "57",
+			"evasion": "21",
+			"speed": "30",
+			"luck": "0",
+			"asw": "0",
+			"oxygen": "0",
+			"ammo": "0",
+			"cost": "19",
+			"armor": "Heavy"
+		},
+		"120": {
+			"hp": "9886",
+			"firepower": "449",
+			"torpedo": "0",
+			"antiAir": "241",
+			"aviation": "0",
+			"reload": "157",
+			"hit": "65",
+			"evasion": "27",
+			"speed": "30",
+			"luck": "0",
+			"asw": "0",
+			"oxygen": "0",
+			"ammo": "0",
+			"cost": "19",
+			"armor": "Heavy"
+		},
+		"100retrofit": {
+			"hp": "",
+			"firepower": "",
+			"torpedo": "",
+			"antiAir": "",
+			"aviation": "",
+			"reload": "",
+			"hit": "",
+			"evasion": "",
+			"speed": "30",
+			"luck": "0",
+			"asw": "",
+			"oxygen": "0",
+			"ammo": "0",
+			"cost": "19",
+			"armor": "Heavy"
+		},
+		"120retrofit": {
+			"hp": "",
+			"firepower": "",
+			"torpedo": "",
+			"antiAir": "",
+			"aviation": "",
+			"reload": "",
+			"hit": "",
+			"evasion": "",
+			"speed": "30",
+			"luck": "0",
+			"asw": "",
+			"oxygen": "0",
+			"ammo": "0",
+			"cost": "19",
+			"armor": "Heavy"
+		}
+	},
+	"strengthenLevel": {
+		"level5": "HP+400 | Anti-Air+11 | Main Gun Efficiency＋5%",
+		"level10": "Main Gun+1 | Main Gun Efficiency+5% | Limit Break ★★★★☆☆",
+		"level15": "HP+797 | Anti-Air+22 | Anti-Air Efficiency＋10%",
+		"level20": "Secondary Gun+2 | Main Gun Efficiency+10% | Limit Break ★★★★★☆",
+		"level25": "HP+1195 | Anti-Air+33 | Main Gun Efficiency＋5%",
+		"level30": "Main Gun+1 | Main gun Efficiency+15% | Limit Break ★★★★★★"
+	},
+	"equipmentLoadout": {
+		"1": {
+			"type": "Battleship Gun",
+			"efficiency": "120%/130%/140%/160%",
+			"amount": "1/2/2/3",
+			"preload": "0/0/0/0"
+
+		},
+		"2": {
+			"type": "Light Cruiser Gun",
+			"efficiency": "220%/220%/220%/220%",
+			"amount": "1/1/3/3",
+			"preload": "0/0/0/0"
+
+		},
+		"3": {
+			"type": "Anti-Air Gun",
+			"efficiency": "90%/90%/100%/100%",
+			"amount": "1/1/1/1",
+			"preload": "0/0/0/0"
+
+		},
+		"4": {
+			"type": "Auxilary",
+			"efficiency": "-",
+			"amount": "-",
+			"preload": "-"
+
+		},
+		"5": {
+			"type": "Auxilary",
+			"efficiency": "-",
+			"amount": "-",
+			"preload": "-"
+
 		}
 	},
 	"build": {
 		"light": {
-			"JP": "-",
-			"CN": "-",
-			"EN": "-"
+			"JP": "",
+			"CN": "",
+			"EN": ""
 		},
 		"heavy": {
-			"JP": "-",
-			"CN": "-",
-			"EN": "-"
+			"JP": "",
+			"CN": "",
+			"EN": ""
 		},
 		"special": {
-			"JP": "-",
-			"CN": "-",
-			"EN": "-"
+			"JP": "",
+			"CN": "",
+			"EN": ""
 		},
 		"limited": {
-			"JP": "-",
-			"CN": "-",
-			"EN": "-"
+			"JP": "",
+			"CN": "",
+			"EN": ""
 		}
 	},
 	"drop": {
 		"droppable": "false",
 		"list": {
 			"1": {
-				"event": "Ink-Stained Steel Sakura",
+				"event": "",
 				"chapter": {
 					"1": {
-						"label": "Ch. B",
+						"label": "Ch .1",
 						"node": {
 							"1": {
 								"drop": "✓",
-								"note": ""
-							},
-							"2": {
-								"drop": "-",
-								"note": ""
+								"note": "-"
 							}
 						}
 					}
@@ -246,111 +294,113 @@
 	"lines": {
 		"skin": {
 			"1": {
-				"label": "Default",
+				"skin_id": "feiteliedadi",
+				"id": "0",
+				"label": "フリードリヒ・デア・グローセ",
 				"dialogue": {
 					"1": {
 						"event": "Ship Description",
 						"media": "",
-						"chinese": "",
-						"chineseTL": "",
+						"chinese": "战列舰—腓特烈大帝",
+						"chineseTL": "Battleship - Friedrich der Große",
 						"chineseNote": "",
-						"japanese": "",
+						"japanese": "戦艦・フリードリヒ・デア・グローセ",
 						"japaneseTL": "",
 						"japaneseNote": "",
 						"english": "",
 						"englishNote": ""
 					},
 					"2": {
-						"event": "Self Introduction",
-						"media": "self_introduction",
-						"chinese": "",
-						"chineseTL": "",
+						"event": "Biography",
+						"media": "profile",
+						"chinese": "铁血海军腓特烈大帝号战列舰，H计划的产物之一。我的孩子，如果失眠的话，就让我为你唱首摇篮曲吧",
+						"chineseTL": "Ironblood battleship Friedrich der Große, one of the products from the H Plan. My child, if you feel sleepless, let me sing you a lullaby",
 						"chineseNote": "",
-						"japanese": "",
+						"japanese": "鉄血海軍、戦艦フリードリヒ・デア・グローセ、H級戦艦の計画型。さあ、ボウヤ…寝付けないなら、子守唄を奏でてあげるわ",
 						"japaneseTL": "",
 						"japaneseNote": "",
 						"english": "",
 						"englishNote": ""
 					},
 					"3": {
-						"event": "Acquisition",
-						"media": "acquisition",
-						"chinese": "",
-						"chineseTL": "",
+						"event": "Receive",
+						"media": "get",
+						"chinese": "欢迎你的到来，我的孩子，你希望我赠予你什么？黄金、荣耀，还是青春？",
+						"chineseTL": "Welcome, my child. What do you wish for? Riches, glory, or eternal youth?",
 						"chineseNote": "",
-						"japanese": "",
+						"japanese": "ようこそ私の元へ。ボウヤ、なにがお望み？富？栄誉？それとも永遠なる青春？",
 						"japaneseTL": "",
 						"japaneseNote": "",
 						"english": "",
 						"englishNote": ""
 					},
 					"4": {
-						"event": "Login",
+						"event": "Log in",
 						"media": "login",
-						"chinese": "",
-						"chineseTL": "",
+						"chinese": "快拉开今日的帷幕吧，奏者们早已急不可耐了！",
+						"chineseTL": "Let's open today's curtain, the performers are getting impatient!",
 						"chineseNote": "",
-						"japanese": "",
+						"japanese": "奏者たちはもうお待ちかねだわ！さあ、今宵の戦幕を上げてごらん！",
 						"japaneseTL": "",
 						"japaneseNote": "",
 						"english": "",
 						"englishNote": ""
 					},
 					"5": {
-						"event": "Details",
-						"media": "details",
-						"chinese": "",
-						"chineseTL": "",
+						"event": "View details",
+						"media": "detail",
+						"chinese": "我的孩子，若想取得彻底的胜利，必须保持绝对的理性",
+						"chineseTL": "My child, if you wish to achieve complete victory, you must maintain absolute rationality",
 						"chineseNote": "",
-						"japanese": "",
+						"japanese": "ボウヤ、絶対なる勝利を得るには、絶対なる理性が必要よ",
 						"japaneseTL": "",
 						"japaneseNote": "",
 						"english": "",
 						"englishNote": ""
 					},
 					"6": {
-						"event": "Idle 1",
-						"media": "idle_1",
-						"chinese": "",
-						"chineseTL": "",
+						"event": "Main screen 1",
+						"media": "main_1",
+						"chinese": "战斗时压抑的感情，就在演奏中释放出来吧",
+						"chineseTL": "The emotions suppressed during combat, let's release them during our performance",
 						"chineseNote": "",
-						"japanese": "",
+						"japanese": "戦闘中に抑えつけた激情など、この調べを聞いて解き放つがいいわ",
 						"japaneseTL": "",
 						"japaneseNote": "",
 						"english": "",
 						"englishNote": ""
 					},
 					"7": {
-						"event": "Idle 2",
-						"media": "idle_2",
-						"chinese": "",
-						"chineseTL": "",
+						"event": "Main screen 2",
+						"media": "main_2",
+						"chinese": "战场上的我理性得几近残酷？我姑且把它当做一种夸奖吧",
+						"chineseTL": "My level of rationality approaches cruelty in the battlefield? I will consider it a compliment",
 						"chineseNote": "",
-						"japanese": "",
+						"japanese": "戦場の私は残酷に見える？フフフ…褒め言葉として受け取ってあげるわ",
 						"japaneseTL": "",
 						"japaneseNote": "",
 						"english": "",
 						"englishNote": ""
 					},
 					"8": {
-						"event": "Idle 3",
-						"media": "idle_3",
-						"chinese": "",
-						"chineseTL": "",
+						"event": "Main screen 3",
+						"media": "main_3",
+						"chinese": "即便不小心惹怒了我，只要好好道歉，我还是会原谅你的",
+						"chineseTL": "If you carelessly anger me, as long as you apologize, I will forgive you",
 						"chineseNote": "",
-						"japanese": "",
+						"japanese": "私を怒らせても、ちゃんと謝れば許してあげるわ",
 						"japaneseTL": "",
 						"japaneseNote": "",
 						"english": "",
 						"englishNote": ""
 					},
 					"9": {
-						"event": "Touch",
-						"media": "touch",
-						"chinese": "",
-						"chineseTL": "",
+						"event": "Normal Touch",
+						"media": "touch_1",
+						"chinese": "害怕的时候，就躲到我身后吧",
+						"chineseTL": "When afraid, just hide behind me",
 						"chineseNote": "",
-						"japanese": "",
+						"japanese": "恐怖で身を震わせるときは私の後ろに居るべきね",
 						"japaneseTL": "",
 						"japaneseNote": "",
 						"english": "",
@@ -358,23 +408,23 @@
 					},
 					"10": {
 						"event": "Special Touch",
-						"media": "special_touch",
-						"chinese": "",
-						"chineseTL": "",
+						"media": "touch_2",
+						"chinese": "仿佛变回了小孩子呢……真可爱",
+						"chineseTL": "It's as if you became a little child again... So cute",
 						"chineseNote": "",
-						"japanese": "",
+						"japanese": "まるで子供みたい……可愛いわ",
 						"japaneseTL": "",
 						"japaneseNote": "",
 						"english": "",
 						"englishNote": ""
 					},
 					"11": {
-						"event": "Mission",
-						"media": "mission",
-						"chinese": "",
-						"chineseTL": "",
+						"event": "Mission reminder",
+						"media": "task",
+						"chinese": "无论想要什么，我都可以帮你拿到",
+						"chineseTL": "No matter what it is, I can help you obtain it",
 						"chineseNote": "",
-						"japanese": "",
+						"japanese": "ボウヤが欲しいものなら、何でも手に入れてあげるわ",
 						"japaneseTL": "",
 						"japaneseNote": "",
 						"english": "",
@@ -383,10 +433,10 @@
 					"12": {
 						"event": "Mission Complete",
 						"media": "mission_complete",
-						"chinese": "",
-						"chineseTL": "",
+						"chinese": "那么，想要什么奖励呢？",
+						"chineseTL": "Then, what rewards do you want?",
 						"chineseNote": "",
-						"japanese": "",
+						"japanese": "では、どんな報酬がお望み？",
 						"japaneseTL": "",
 						"japaneseNote": "",
 						"english": "",
@@ -395,22 +445,22 @@
 					"13": {
 						"event": "Mail",
 						"media": "mail",
-						"chinese": "",
-						"chineseTL": "",
+						"chinese": "那么，我来唱给你听吧",
+						"chineseTL": "Then, let me sing it for you",
 						"chineseNote": "",
-						"japanese": "",
+						"japanese": "メールの内容、奏でてあげましょうか？",
 						"japaneseTL": "",
 						"japaneseNote": "",
 						"english": "",
 						"englishNote": ""
 					},
 					"14": {
-						"event": "Return from Sortie",
-						"media": "return_from_sortie",
-						"chinese": "",
-						"chineseTL": "",
+						"event": "Return to port",
+						"media": "home",
+						"chinese": "欢迎回来，无论遇到什么事，都可以向我报告",
+						"chineseTL": "Welcome back, no matter what happened, you can report it to me",
 						"chineseNote": "",
-						"japanese": "",
+						"japanese": "おかえり。どんな報告でも聞いてあげるわよ？",
 						"japaneseTL": "",
 						"japaneseNote": "",
 						"english": "",
@@ -418,47 +468,47 @@
 					},
 					"15": {
 						"event": "Commission Complete",
-						"media": "commission_complete",
-						"chinese": "",
-						"chineseTL": "",
+						"media": "expedition",
+						"chinese": "要好好欢迎认真完成了委托的孩子们哟",
+						"chineseTL": "Make sure to nicely welcome back the children that were entrusted to carry out the commission",
 						"chineseNote": "",
-						"japanese": "",
+						"japanese": "委託をこなしてきた子たちはしっかり出迎えてあげないとダメよ",
 						"japaneseTL": "",
 						"japaneseNote": "",
 						"english": "",
 						"englishNote": ""
 					},
 					"16": {
-						"event": "Enhancement",
-						"media": "enhancement",
-						"chinese": "",
-						"chineseTL": "",
+						"event": "Enhancing complete",
+						"media": "upgrade",
+						"chinese": "感觉能奏出更精妙的乐曲了呢",
+						"chineseTL": "Feels like I can play even more exquisite music",
 						"chineseNote": "",
-						"japanese": "",
+						"japanese": "より美しい調べが奏でられるわ",
 						"japaneseTL": "",
 						"japaneseNote": "",
 						"english": "",
 						"englishNote": ""
 					},
 					"17": {
-						"event": "Sortie Start",
-						"media": "sortie_start",
-						"chinese": "",
-						"chineseTL": "",
+						"event": "Flagship fight",
+						"media": "warcry",
+						"chinese": "聆听我的演奏，献上痛恶、深惧与绝望吧！",
+						"chineseTL": "Listen to my performance and wallow in sorrow, fear and despair!",
 						"chineseNote": "",
-						"japanese": "",
+						"japanese": "調べを奏でよ！憎悪、恐怖、絶望を――！",
 						"japaneseTL": "",
 						"japaneseNote": "",
 						"english": "",
 						"englishNote": ""
 					},
 					"18": {
-						"event": "MVP",
+						"event": "Victory",
 						"media": "mvp",
-						"chinese": "",
-						"chineseTL": "",
+						"chinese": "真遗憾，安可演奏还没有开始呢",
+						"chineseTL": "Such a shame, the encore hasn't even started",
 						"chineseNote": "",
-						"japanese": "",
+						"japanese": "残念だわ。アンコールもまだ始まっていないというのに…",
 						"japaneseTL": "",
 						"japaneseNote": "",
 						"english": "",
@@ -466,163 +516,163 @@
 					},
 					"19": {
 						"event": "Defeat",
-						"media": "defeat",
-						"chinese": "",
-						"chineseTL": "",
+						"media": "lose",
+						"chinese": "那么，请静待下次演奏吧",
+						"chineseTL": "Then, please wait patiently for the next performance",
 						"chineseNote": "",
-						"japanese": "",
+						"japanese": "次の演奏をご期待……",
 						"japaneseTL": "",
 						"japaneseNote": "",
 						"english": "",
 						"englishNote": ""
 					},
 					"20": {
-						"event": "Skill Activation",
-						"media": "skill_activation",
-						"chinese": "",
-						"chineseTL": "",
+						"event": "Skills",
+						"media": "skill",
+						"chinese": "第九交响曲，合唱！",
+						"chineseTL": "Sinfonie Nr. 9, chorus!",
 						"chineseNote": "",
-						"japanese": "",
+						"japanese": "Sinfonie Nr. 9…合唱せよ！",
 						"japaneseTL": "",
 						"japaneseNote": "",
 						"english": "",
 						"englishNote": ""
 					},
 					"21": {
-						"event": "Low Health",
-						"media": "low_health",
-						"chinese": "",
-						"chineseTL": "",
+						"event": "Low HP",
+						"media": "hp",
+						"chinese": "再稍微，忍耐一下喔",
+						"chineseTL": "A little bit more, please be patient",
 						"chineseNote": "",
-						"japanese": "",
+						"japanese": "もう少し我慢してあげるわ",
 						"japaneseTL": "",
 						"japaneseNote": "",
 						"english": "",
 						"englishNote": ""
 					},
 					"22": {
-						"event": "Affinity (Disappointed)",
-						"media": "affinity_disappointed",
-						"chinese": "",
-						"chineseTL": "",
+						"event": "Upset",
+						"media": "feeling1",
+						"chinese": "有在认真反省了吗？",
+						"chineseTL": "Have you seriously reflected on yourself?",
 						"chineseNote": "",
-						"japanese": "",
+						"japanese": "ちゃんと反省、しているのかしら",
 						"japaneseTL": "",
 						"japaneseNote": "",
 						"english": "",
 						"englishNote": ""
 					},
 					"23": {
-						"event": "Affinity (Stranger)",
-						"media": "affinity_stranger",
-						"chinese": "",
-						"chineseTL": "",
+						"event": "Stranger",
+						"media": "feeling2",
+						"chinese": "我是本不应出现的存在，不过，既然我已存在于此，那么其中必然蕴藏着某种合理性…",
+						"chineseTL": "I am a presence that should not exist. But, since I already exist, there must be some rationality behind it...",
 						"chineseNote": "",
-						"japanese": "",
+						"japanese": "この身体はこの世あらざるべき 存在。しかしこうして立っていられる以上、なにかしらの理由…合理性が働いているのが必然というものよ",
 						"japaneseTL": "",
 						"japaneseNote": "",
 						"english": "",
 						"englishNote": ""
 					},
 					"24": {
-						"event": "Affinity (Friendly)",
-						"media": "affinity_friendly",
-						"chinese": "",
-						"chineseTL": "",
+						"event": "Friendly",
+						"media": "feeling3",
+						"chinese": "在战场上，勇气并没有意义，谁更接近拉普拉斯的恶魔，谁就更接近胜利",
+						"chineseTL": "On the battlefield, courage does not have a meaning. Whoever is closer to Laplace's demon is the closest to victory",
 						"chineseNote": "",
-						"japanese": "",
+						"japanese": "勇気など戦場では役に立たないわ。ラプラスの悪魔により近づく者だけに勝利の女神が微笑むのよ",
 						"japaneseTL": "",
 						"japaneseNote": "",
 						"english": "",
 						"englishNote": ""
 					},
 					"25": {
-						"event": "Affinity (Like)",
-						"media": "affinity_like",
-						"chinese": "",
-						"chineseTL": "",
+						"event": "Crush",
+						"media": "feeling4",
+						"chinese": "比起战斗，我更喜欢像现在这样，来、张开嘴，啊~~",
+						"chineseTL": "Compared to battles, I like it more like this. Come, open your mouth, aaah~",
 						"chineseNote": "",
-						"japanese": "",
+						"japanese": "戦闘よりこういうのが好きだわ。ボウヤ、はい、あーんして、あーーーん",
 						"japaneseTL": "",
 						"japaneseNote": "",
 						"english": "",
 						"englishNote": ""
 					},
 					"26": {
-						"event": "Affinity (Love)",
-						"media": "affinity_love",
-						"chinese": "",
-						"chineseTL": "",
+						"event": "Love",
+						"media": "feeling5",
+						"chinese": "尽情地向我撒娇吧，更多地、更多地……",
+						"chineseTL": "Feel free to get spoiled until you're satisfied, more, more...",
 						"chineseNote": "",
-						"japanese": "",
+						"japanese": "もっと私に甘えてちょうだい。もっと、もっと……もっとよ……",
 						"japaneseTL": "",
 						"japaneseNote": "",
 						"english": "",
 						"englishNote": ""
 					},
 					"27": {
-						"event": "Pledge",
-						"media": "pledge",
-						"chinese": "",
-						"chineseTL": "",
+						"event": "Promise",
+						"media": "propose",
+						"chinese": "以后，悲伤也好、喜悦也好、痛苦也好、欢愉也好，无论发生什么，都来依靠我吧，我会一直、一直理解你、包容你、支持你的喔……",
+						"chineseTL": "From now on, in sadness, in joy, in pain, in happiness, no matter what happens, you can rely on me. I will always, always understand you, tolerate you, support you...",
 						"chineseNote": "",
-						"japanese": "",
+						"japanese": "悲しいことも楽しいことも、痛さも気持ちよさも、これからは全部分け与えて…ボウヤのこと、ずっと、ずっと、ずっと、包んであげるわよ……",
 						"japaneseTL": "",
 						"japaneseNote": "",
 						"english": "",
 						"englishNote": ""
 					},
 					"28": {
-						"event": "Easter Egg 1",
-						"media": "easter_egg_1",
-						"chinese": "",
-						"chineseTL": "",
+						"event": "Easter Egg 1 (Z46)",
+						"media": "link1",
+						"chinese": "偶尔也来向我撒撒娇嘛",
+						"chineseTL": "You can come get spoiled by me once in a while",
 						"chineseNote": "",
-						"japanese": "",
+						"japanese": "たまには私にも甘えてちょうだい",
 						"japaneseTL": "",
 						"japaneseNote": "",
 						"english": "",
 						"englishNote": ""
 					},
 					"29": {
-						"event": "Easter Egg 2",
-						"media": "easter_egg_2",
-						"chinese": "",
-						"chineseTL": "",
+						"event": "Easter Egg 2 (Tirpitz)",
+						"media": "link2",
+						"chinese": "我的指挥无法让你的才能淋漓尽致地展现出来吗……",
+						"chineseTL": "Will my command be able to realize your full talents...",
 						"chineseNote": "",
-						"japanese": "",
+						"japanese": "私の指揮では貴方の力が十分発揮できないかしら",
 						"japaneseTL": "",
 						"japaneseNote": "",
 						"english": "",
 						"englishNote": ""
 					},
 					"30": {
-						"event": "Present Like",
+						"event": "Like Present",
 						"media": "present_like",
 						"chinese": "",
 						"chineseTL": "",
 						"chineseNote": "",
-						"japanese": "",
-						"japaneseTL": "",
+						"japanese": "気に入ったは～",
+						"japaneseTL": "I fancy it~",
 						"japaneseNote": "",
 						"english": "",
 						"englishNote": ""
 					},
 					"31": {
-						"event": "Present Dislike",
+						"event": "Dislike Present",
 						"media": "present_dislike",
 						"chinese": "",
 						"chineseTL": "",
 						"chineseNote": "",
-						"japanese": "",
-						"japaneseTL": "",
+						"japanese": "悲しいは...",
+						"japaneseTL": "Sad...",
 						"japaneseNote": "",
 						"english": "",
 						"englishNote": ""
 					},
 					"32": {
 						"event": "Main Title",
-						"media": "main_title",
+						"media": "extra",
 						"chinese": "",
 						"chineseTL": "",
 						"chineseNote": "",

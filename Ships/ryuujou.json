@@ -1,0 +1,595 @@
+{
+	"name_reference" : "ryuujou",
+	"cn_reference" : "longxiang",
+	"nameJP" : "龍驤",
+	"nameCN" : "龙骧",
+	"ID" : "223",
+	"name" : "Ryuujou",
+	"internal_id" : "306061",
+	"rarity" : "Elite",
+	"initialStar" : "★★☆☆☆",
+	"hull" : "Light Aircraft Carrier",
+	"navy" : "Sakura Empire",
+	"prefix" : "IJN",
+	"buildTime" : "",
+	"class" : "Ryuujou",
+	"voiceActress" : "Aya Suzaki",
+	"parameters": {
+		"firepower" : "E",
+		"torpedo" : "E",
+		"aviation" : "A",
+		"evasion" : "C",
+		"antiAir" : "B",
+		"hp" : "C"
+	},
+	"scrap": {
+		"gold" : "7",
+		"oil" : "3",
+		"medal" : "4"
+	},
+	"releaseDate": {
+		"JP" : "",
+		"CN" : "",
+		"KR" : "",
+		"EN" : ""
+	},
+	"artist": {
+		"name" : "",
+		"weibo" : "",
+		"twitter" : "",
+		"pixiv" : "",
+		"other" : ""
+	},
+	"enhance": {
+		"firepower" : "0",
+		"torpedo" : "0",
+		"aviation" : "43",
+		"reload" : "12"
+	},
+	"acquisitionMethod" : "Event: The Solomon Ranger",
+	"skill": {
+		"1" : {
+			"icon" : "11750",
+			"requirement" : "",
+			"name" : "Light Carrier Unit ",
+			"type" : "Offensive",
+			"description" : "When this ship launches an Airstrike: $1 chance to increase the RLD of all friendly Carriers by $2 and decrease the DMG they take by $2 for 8s."
+		},
+		"2" : {
+			"icon" : "11760",
+			"requirement" : "",
+			"name" : "Raid Signal ",
+			"type" : "Offensive",
+			"description" : "5s after this ship has launched an Airstrike: launches an additional airstrike with a bomber squadron ($1). This skill can only active twice per battle."
+		}
+	},
+	"skin": {
+		"1" : {
+			"id" : "longxiang",
+			"name" : "Ryuujou ",
+			"description" : "Ryuujou-class Light Carrier - Ryuujou ",
+			"expression" : {
+				"0" : {
+					"id" : "0"
+				}
+			}
+		}
+	},
+	"defaultEquipment": {
+		"1" : {
+			"icon" : "37100",
+			"rarity" : "Common",
+			"name" : "A6M2 Zero"
+		},
+		"1" : {
+			"icon" : "38000",
+			"rarity" : "",
+			"name" : "Nakajima B5N"
+		},
+		"3" : {
+			"icon" : "",
+			"rarity" : "",
+			"name" : ""
+		}
+	},
+	"stats": {
+		"base": {
+			"hp" : "707",
+			"firepower" : "0",
+			"torpedo" : "0",
+			"antiAir" : "47",
+			"aviation" : "65",
+			"reload" : "66",
+			"hit" : "29",
+			"evasion" : "24",
+			"speed" : "28",
+			"luck" : "42",
+			"asw" : "17",
+			"oxygen" : "0",
+			"ammo" : "0",
+			"cost" : "3",
+			"armor" : "Medium"
+		},
+		"100": {
+			"hp" : "3657",
+			"firepower" : "0",
+			"torpedo" : "0",
+			"antiAir" : "219",
+			"aviation" : "308",
+			"reload" : "156",
+			"hit" : "76",
+			"evasion" : "61",
+			"speed" : "28",
+			"luck" : "42",
+			"asw" : "63",
+			"oxygen" : "0",
+			"ammo" : "0",
+			"cost" : "11",
+			"armor" : "Medium"
+		},
+		"120": {
+			"hp" : "4278",
+			"firepower" : "0",
+			"torpedo" : "0",
+			"antiAir" : "252",
+			"aviation" : "347",
+			"reload" : "179",
+			"hit" : "89",
+			"evasion" : "82",
+			"speed" : "28",
+			"luck" : "42",
+			"asw" : "72",
+			"oxygen" : "0",
+			"ammo" : "0",
+			"cost" : "11",
+			"armor" : "Medium"
+		},
+		"100retrofit": {
+			"hp" : "",
+			"firepower" : "",
+			"torpedo" : "",
+			"antiAir" : "",
+			"aviation" : "",
+			"reload" : "",
+			"hit" : "",
+			"evasion" : "",
+			"speed" : "28",
+			"luck" : "42",
+			"asw" : "",
+			"oxygen" : "0",
+			"ammo" : "0",
+			"cost" : "11",
+			"armor" : "Medium"
+		},
+		"120retrofit": {
+			"hp" : "",
+			"firepower" : "",
+			"torpedo" : "",
+			"antiAir" : "",
+			"aviation" : "",
+			"reload" : "",
+			"hit" : "",
+			"evasion" : "",
+			"speed" : "28",
+			"luck" : "42",
+			"asw" : "",
+			"oxygen" : "0",
+			"ammo" : "0",
+			"cost" : "11",
+			"armor" : "Medium"
+		}
+	},
+	"limitBreak": {
+		"tier1": "All Torpedo Bombers +1/Fighter efficiency +5%",
+		"tier2": "Hangar capacity +1/All Torpedo Bombers +1/Fighter efficiency +10%",
+		"tier3": "All aircraft +1/Torpedo Bomber efficiency +10%"
+	},
+	"equipmentLoadout": {
+		"1": {
+			"type": "Fighter",
+			"efficiency": "115%/120%/130%/130%",
+			"amount": "1/1/2/3",
+			"preload": "0/0/0/0"
+		},
+		"2": {
+			"type": "Dive Bomber",
+			"efficiency": "135%/135%/135%/145%",
+			"amount": "1/2/2/3",
+			"preload": "0/0/0/0"
+		},
+		"3": {
+			"type": "Anti-Air Gun",
+			"efficiency": "80%/80%/80%/80%",
+			"amount": "1/1/1/1",
+			"preload": "0/0/0/0"
+		},
+		"4": {
+			"type": "Auxilary",
+			"efficiency": "-",
+			"amount": "-",
+			"preload": "-"
+		},
+		"5": {
+			"type": "Auxilary",
+			"efficiency": "-",
+			"amount": "-",
+			"preload": "-"
+		}
+	},
+	"build": {
+		"light": {
+			"JP": "",
+			"CN": "",
+			"EN": ""
+		},
+		"heavy": {
+			"JP": "",
+			"CN": "",
+			"EN": ""
+		},
+		"special": {
+			"JP": "",
+			"CN": "",
+			"EN": ""
+		},
+		"limited": {
+			"JP": "",
+			"CN": "",
+			"EN": ""
+		}
+	},
+	"drop": {
+		"droppable": "false",
+		"list": {
+			"1": {
+				"event": "",
+				"chapter": {
+					"1": {
+						"label": "Ch .1",
+						"node": {
+							"1": {
+								"drop": "✓",
+								"note": "-"
+							}
+						}
+					}
+				}
+			}
+		}
+	},
+	"lines": {
+		"skin": {
+			"1": {
+				"skin_id" : "longxiang",
+				"id" : "0",
+				"label" : "Ryuujou ",
+				"dialogue" : {
+					"1" : {
+						"event" : "Ship Description",
+						"media" : "",
+						"chinese" : "龙骧级航空母舰—龙骧",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "龍驤型航空母艦・龍驤",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Ryuujou-class Light Carrier - Ryuujou",
+						"englishNote" : ""
+					},
+					"2" : {
+						"event" : "Biography",
+						"media" : "profile",
+						"chinese" : "吾乃重樱的龙骧，先后加入过一航战、二航战、三航战与四航战，与众多友舰携手参加过菲律宾、东印度群岛、阿留申群岛与瓜岛等方面作战，是一名合格的武士！身材不像……？那、那一定是岩手海上那次事故让吾停止发育了！等着看吧主公，一定会让你见识到吾存在的分量的！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "重桜海軍空母、龍驤です！各航空戦隊に編成され、みんなとフィリピンからインドネシア、アリューシャン、ガダルカナル島の戦いなど数多くの作戦に参加した、一人前の武士です！そう見えない…？き、きっと第四艦隊事件の時から成長が止まったからですよ！私の存在の大きさを、いずれ見ていただきます！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "I am Ryuujou of the Sakura Empire, a seasoned warrior who has served in the First through Fourth Carrier Divisions, and participated in campaigns in the Phillipines, East Indies, Aleutian Islands, and Guadalcanal. I don't look the part...? Th-that must be because of that one incident at Iwate that stunted my growth! Milord, just you wait. I'll show you the extent of my capabilities!",
+						"englishNote" : ""
+					},
+					"3" : {
+						"event" : "Receive",
+						"media" : "get",
+						"chinese" : "主公，吾乃龙骧，日出之国的武士！在此向您献上忠与义，直至七生！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "殿！自分は龍驤、日の出ずる国の武士なり！七生を以って殿に忠義を尽くす所存です！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Milord, I am called Ryuujou, a ranger from the Land of the Rising Sun! I shall lay down my seven lives to mete out justice in your name!",
+						"englishNote" : ""
+					},
+					"4" : {
+						"event" : "Log in",
+						"media" : "login",
+						"chinese" : "休息？吾之前的生活只有月月火水木金金！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "休日ですか？殿、自分の勤務表は月月火水木金金です！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "A day off? Milord, my week only consists of Monday, Monday, Tuesday, Wednesday, Thursday, Friday, and Friday!",
+						"englishNote" : ""
+					},
+					"5" : {
+						"event" : "View details",
+						"media" : "detail",
+						"chinese" : "不战斗的话是活不下去的！主公！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "殿、戦わなければ生き残れませんよ！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Milord, we cannot survive unless we fight!",
+						"englishNote" : ""
+					},
+					"6" : {
+						"event" : "Main screen 1",
+						"media" : "main_1",
+						"chinese" : "和菓子……这种珍馐会动摇吾之内心，所以……不过毕竟盛情难却——唔，真美味！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "和菓子……こんなもので心が揺さぶられるわけには……えっと……せっかくのご厚意ですから少しだけーー美味しいぃ！！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Odango... these delicacies will cause my heart to waver, so... Um, I suppose I can reward myself a little.... Mmmh! So delicious! ",
+						"englishNote" : ""
+					},
+					"7" : {
+						"event" : "Main screen 2",
+						"media" : "main_2",
+						"chinese" : "心情烦闷的时候，只要去看看水族箱里悠然自得的热带鱼，心情就会不可思议地平静下来",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "嫌になった時よく水槽を眺めます。のんびり泳いでいる魚達を眺めていると、不思議と心が落ち着きます。",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "When you're stressed out, you should go watch the fish swimming around peacefully in the aquarium. I'm not sure why, but it always calms me down. ",
+						"englishNote" : ""
+					},
+					"8" : {
+						"event" : "Main screen 3",
+						"media" : "main_3",
+						"chinese" : "吾为忠义而战，只要是主公之敌，无论何人吾都当全力以赴",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "自分の戦いは大義のため！相手が誰であろうと全力で迎え撃つのみ！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "I fight for a just cause! No matter who stands before me, I swear to give it my all!",
+						"englishNote" : ""
+					},
+					"9" : {
+						"event" : "Normal touch",
+						"media" : "touch_1",
+						"chinese" : "主公，请谨慎些，吾和光辉一样重心很高",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "殿、くれぐれも気をつけてください。自分はイラストリアスと同じトップヘビーですから。",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Milord, please be careful. I am just as top-heavy as Illustrious.",
+						"englishNote" : ""
+					},
+					"10" : {
+						"event" : "Special touch",
+						"media" : "touch_2",
+						"chinese" : "呀！！！啊……原来不是萨拉小姐啊。不过，好像比萨拉小姐还恶劣呢",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "きゃっ！！あ……サラトガさんではありませんでしたか…って、サラトガさんより酷いですよ！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Eek!!! Oh, it wasn't Saratoga after all. However, you seem to be even more mischievous than she is.",
+						"englishNote" : ""
+					},
+					"11" : {
+						"event" : "Mission reminder",
+						"media" : "task",
+						"chinese" : "出现了啊，新的任务！无论是战斗还是训练，都以音速来完成吧！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "出たな！新たな任務！さあ、戦闘、訓練、いずれも…音速です！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "A new mission is here! Whether it's combat or training, let's knock it out at the speed of sound!",
+						"englishNote" : ""
+					},
+					"12" : {
+						"event" : "Mission complete",
+						"media" : "mission_complete",
+						"chinese" : "任务奖励来啦——面包圈？这是为吾带回来的点心？谢谢主公！那么，吾开动了！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "任務が完了した件なら、自分に知らせなくとも——うん？差し入れ、ですか？ありがとうございます！いただきます！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "The mission rewards are here! A bagel? Is this a snack for me? Thank you, Milord. Well then, let's move out!",
+						"englishNote" : ""
+					},
+					"13" : {
+						"event" : "Mail reminder",
+						"media" : "mail",
+						"chinese" : "新来的邮件？哦，不是大本营战报啊，那好像有看的价值",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "電報ですか？あ、大本営の戦果発表ではないようです。ですので、確認する価値があると存じます！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "A telegram? Oh, it's not a combat report from Headquarters. I suppose there might be some value to reading it then.",
+						"englishNote" : ""
+					},
+					"14" : {
+						"event" : "Return to port",
+						"media" : "home",
+						"chinese" : "即使归港时也应保持好队形！帝国的荣耀正在于吾等的一丝不苟！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "母港帰還時でも隊列を崩してはなりません！帝国の栄光は、我々の一意専心にあります！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Don't break formation even when we head back to port! The glory of the Sakura Empire is in its meticulousness!",
+						"englishNote" : ""
+					},
+					"15" : {
+						"event" : "Commission complete",
+						"media" : "expedition",
+						"chinese" : "物资什么的无足轻重，最重要的只有精神与韧性！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "蝶々トンボなぞ必要ありません！果敢精神と根性あらば問題なしです！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Worldly things are of little significance! The only things that matter are spirit and resilience!",
+						"englishNote" : ""
+					},
+					"16" : {
+						"event" : "Enhancing complete",
+						"media" : "upgrade",
+						"chinese" : "谢谢！那么，主公，当作变强后的试航，陪吾跑一圈吧！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "ありがとうございます！殿、ひとっ走り付き合ってください！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Thank you very much, Milord! Shall we go run a lap to test my new strength?",
+						"englishNote" : ""
+					},
+					"17" : {
+						"event" : "Flagship fight",
+						"media" : "warcry",
+						"chinese" : "来细数你们的罪恶吧！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "さあ、お前たちの罪を数えろ！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Now, count up your sins!",
+						"englishNote" : ""
+					},
+					"18" : {
+						"event" : "Victory",
+						"media" : "mvp",
+						"chinese" : "绝望……就是你们的终点！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "絶望が……お前たちのゴールだ！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Despair... shall be your final destination!",
+						"englishNote" : ""
+					},
+					"19" : {
+						"event" : "Defeat",
+						"media" : "lose",
+						"chinese" : "咕……吾之躯体……已经残破不堪了……",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "うぅ……自分の体はもうボロボロだ…",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Ugh... my body is all beat up...",
+						"englishNote" : ""
+					},
+					"20" : {
+						"event" : "Skills",
+						"media" : "skill",
+						"chinese" : "龙骧鳞振，前无坚敌",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "龍驤麟振、我が前に敵はなし！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "As long as I am here, nothing shall stand in my way!",
+						"englishNote" : ""
+					},
+					"21" : {
+						"event" : "Low HP",
+						"media" : "hp",
+						"chinese" : "生命啊，燃烧起来吧！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "命、燃やすよ！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "My life is burning bright!",
+						"englishNote" : ""
+					},
+					"22" : {
+						"event" : "Upset",
+						"media" : "feeling1",
+						"chinese" : "无论哪里的参谋和上级都是一样的呢……",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "上の人と参謀はどこも同じですね…",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "No matter where you are, the top brass is all the same...",
+						"englishNote" : ""
+					},
+					"23" : {
+						"event" : "Stranger",
+						"media" : "feeling2",
+						"chinese" : "主公，对于战争而言，比起善恶更重要的是胜败！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "殿、戦は善悪より勝敗のほうが大事です！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Milord, when it comes to war, victory is more important than good or evil!",
+						"englishNote" : ""
+					},
+					"24" : {
+						"event" : "Friendly",
+						"media" : "feeling3",
+						"chinese" : "主公，再多依赖吾一些也没关系。只要是主公的命令，无论什么吾都会执行",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "殿、自分にもう少し頼っても問題なしです。殿の命令なら、例え火の中水の中!です",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Commander, feel free to rely on me as you please. Should you will it, I will execute any command.",
+						"englishNote" : ""
+					},
+					"25" : {
+						"event" : "Crush",
+						"media" : "feeling4",
+						"chinese" : "这是主公亲手做的饭菜？那吾就不客气了！呼……谢谢款待！诶？以后每次凯旋后都会给吾做饭？",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "これが…殿がお作りになったお食事ですか？では自分、遠慮なくいただきます！……ふう~ごちそうさまでした！え？これから帰還するたびに作ってくれるのですか！？",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Commander, did you prepare this meal for me by yourself? In that case, I'll be more than glad to dig in! Mm... thanks for the food! Eh? You'll continue to cook for me when I come back!?",
+						"englishNote" : ""
+					},
+					"26" : {
+						"event" : "Love",
+						"media" : "feeling5",
+						"chinese" : "每次出击之前，哪怕只有短短一瞬，只要能看到主公的脸，吾就能精神百倍、战无不胜！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "出撃する前に殿のお顔を一瞬でも見ることができれば、自分は元気いっぱい負け無しです！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Just being able to see your face before I sortie fills me to the brim with energy and makes me feel like I can't lose to anyone!",
+						"englishNote" : ""
+					},
+					"27" : {
+						"event" : "Promise",
+						"media" : "propose",
+						"chinese" : "主公，今后无论遇到怎样的危险，吾都会拼死保护您！即使吾辈消逝于海底，也不会让主公受到一点伤害！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "これからはどんな危険に会おうとも、自分が全力で殿をお守り致します！例え自分が海底に沈もうとも、殿には傷ひとつたりとも付けさせはしません！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "From now on, no matter what perils we might face, I will protect you with everything I have! Even if I sink to the bottom of the ocean, I will not permit any harm to come to you!",
+						"englishNote" : ""
+					}
+				}
+			}
+		}
+	}
+}
