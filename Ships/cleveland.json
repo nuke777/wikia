@@ -93,7 +93,7 @@
 		},
 		"3": {
 			"id": "kelifulan_3",
-			"name": "ジェントリーナイト",
+			"name": "Gentry Knight",
 			"description": "みんなドレスなのに、なんで私だけ男装なのさ！……まあ、これはこれで着心地が良くて、結構いい感じだし？指揮官、パーティーに行こうって約束したじゃない？そろそろ出発しようぜ！",
 			"expression": {
 				"0": {
@@ -280,17 +280,92 @@
 		}
 	},
 	"drop": {
-		"droppable": "false",
+		"droppable": "true",
 		"list": {
 			"1": {
-				"event": "",
+				"event": "World",
 				"chapter": {
 					"1": {
-						"label": "Ch .1",
+						"label": "Ch. 4",
 						"node": {
 							"1": {
+								"drop": "-",
+								"note": ""
+							},
+							"2": {
+								"drop": "-",
+								"note": ""
+							},
+							"3": {
+								"drop": "-",
+								"note": ""
+							},
+							"4": {
 								"drop": "✓",
-								"note": "-"
+								"note": ""
+							}
+						}
+					},
+					"2": {
+						"label": "Ch. 5",
+						"node": {
+							"1": {
+								"drop": "-",
+								"note": ""
+							},
+							"2": {
+								"drop": "-",
+								"note": ""
+							},
+							"3": {
+								"drop": "✓",
+								"note": ""
+							},
+							"4": {
+								"drop": "-",
+								"note": ""
+							}
+						}
+					},
+					"3": {
+						"label": "Ch. 11",
+						"node": {
+							"1": {
+								"drop": "-",
+								"note": ""
+							},
+							"2": {
+								"drop": "-",
+								"note": ""
+							},
+							"3": {
+								"drop": "✓",
+								"note": ""
+							},
+							"4": {
+								"drop": "-",
+								"note": ""
+							}
+						}
+					},
+					"4": {
+						"label": "Ch. 12",
+						"node": {
+							"1": {
+								"drop": "-",
+								"note": ""
+							},
+							"2": {
+								"drop": "✓",
+								"note": ""
+							},
+							"3": {
+								"drop": "-",
+								"note": ""
+							},
+							"4": {
+								"drop": "-",
+								"note": ""
 							}
 						}
 					}
@@ -309,10 +384,10 @@
 						"event": "Ship Description",
 						"media": "",
 						"chinese": "克利夫兰级轻巡洋舰—克利夫兰，舷号CL-55",
-						"chineseTL": "",
+						"chineseTL": "Cleveland-class light cruiser Cleveland, designation CL-55.",
 						"chineseNote": "",
 						"japanese": "クリーブランド級軽巡洋艦・クリーブランド（CL-55)",
-						"japaneseTL": "",
+						"japaneseTL": "Cleveland-class light cruiser, Cleveland. (CL-55)",
 						"japaneseNote": "",
 						"english": "Cleveland-class Light Cruiser – Cleveland, Hull Number CL-55!",
 						"englishNote": ""
@@ -321,10 +396,10 @@
 						"event": "Biography",
 						"media": "profile",
 						"chinese": "我是克利夫兰级的大姐头，好吧看名字就知道就是了。我参加过伦纳尔岛海战，奥古斯塔皇后湾海战等各种战役，获得了13枚战役之星，可是很强的！",
-						"chineseTL": "",
+						"chineseTL": "I am the eldest sister of the Cleveland-class. You should be able to tell just from my name.I participated in the Battle of Renelle Island and the Battle of Empress Augusta Bay, among many others. I've attained 13 battle stars. Certainly, I'm very strong!",
 						"chineseNote": "",
 						"japanese": "クリーブランド級の長女ーーまあ名前見れば分かるさ。レンネル島の戦いやエンプレス・オーガスタ湾の戦いなど、色々戦い抜いてバトルスターを13個も得たぐらいだから、そりゃ相当強いんだぞ！",
-						"japaneseTL": "",
+						"japaneseTL": "I'm the oldest ship among the Cleveland-classーーwell, you would have known that from my name.From the Battle of Rennell Island to the Battle of Empress Augusta Bay, and various other engagements, I received 13 battle stars. So of course, I'm pretty strong!",
 						"japaneseNote": "",
 						"english": "I'm the big sister of the Cleveland-class... but I guess that's obvious from my name alone. I fought through the Battle of Renelle Island, the Battle of Empress Augusta Bay, plus many others, and I earned around 13 battle stars, so I'm pretty strong!",
 						"englishNote": ""
@@ -333,10 +408,10 @@
 						"event": "Receive",
 						"media": "get",
 						"chinese": "指挥官，你好，我是克利夫兰！作为一名称职的海上骑士，我可是一刻都闲不住的，时间就是金钱啊！",
-						"chineseTL": "",
+						"chineseTL": "Hello Commander, I am Cleveland! Being an accomplished knight of the sea, I cannot stay idle. Time is money after all!",
 						"chineseNote": "",
 						"japanese": "はじめまして、指揮官！私はクリーブランド、海上の騎士だ！時は金なりーーさあ、休んでる暇はないぞ！",
-						"japaneseTL": "",
+						"japaneseTL": "Nice to meet you, Commander! I'm Cleveland, knight of the seas! Time is money, so come, there's no time for rest!",
 						"japaneseNote": "",
 						"english": "Pleasure meeting you, Commander! I'm Cleveland, a knight of the sea! Come on, time is money! We can't afford to take a break!",
 						"englishNote": ""
@@ -345,10 +420,10 @@
 						"event": "Log in",
 						"media": "login",
 						"chinese": "Hiya~指挥官，今天精神不错的样子嘛！",
-						"chineseTL": "",
+						"chineseTL": "Hiya~ Commander, you seem energetic today!",
 						"chineseNote": "",
 						"japanese": "ハイ、指揮官、今日は元気そうだな！",
-						"japaneseTL": "",
+						"japaneseTL": "Hi, Commander, you look great today!",
 						"japaneseNote": "",
 						"english": "Hey, Commander! You seem to be in a good mood today!",
 						"englishNote": ""
@@ -357,10 +432,10 @@
 						"event": "View details",
 						"media": "detail",
 						"chinese": "我对自己可是很自信的哦",
-						"chineseTL": "",
+						"chineseTL": "I have a lot of confidence in myself, y'know.",
 						"chineseNote": "",
 						"japanese": "私、自信があるぞ",
-						"japaneseTL": "",
+						"japaneseTL": "I have confidence in myself.",
 						"japaneseNote": "",
 						"english": "I'm confident in myself!",
 						"englishNote": ""
@@ -369,10 +444,10 @@
 						"event": "Main screen 1",
 						"media": "main_1",
 						"chinese": "不去后悔自己的选择就对了",
-						"chineseTL": "",
+						"chineseTL": "Don't regret decisions that you've made!",
 						"chineseNote": "",
 						"japanese": "自分の選択に後悔しないことだ！",
-						"japaneseTL": "",
+						"japaneseTL": "Choices you've made are not to be regretted!",
 						"japaneseNote": "",
 						"english": "Never regret the choices you make!",
 						"englishNote": ""
@@ -381,10 +456,10 @@
 						"event": "Main screen 2",
 						"media": "main_2",
 						"chinese": "为什么你们都叫我克爹啊，我不是女孩子么？",
-						"chineseTL": "",
+						"chineseTL": "Why do you guys call me 'Clevedad'? Am I not a girl?",
 						"chineseNote": "",
 						"japanese": "どうして私のことをクリーブ兄貴って呼ぶんだ！…女の子なんだぞ",
-						"japaneseTL": "",
+						"japaneseTL": "Why do you call me Cleve-bro! I'm a girl, you know.",
 						"japaneseNote": "",
 						"english": "Why do you call me \"Clevebro\"?! I'm a girl, just like the others!",
 						"englishNote": ""
@@ -393,10 +468,10 @@
 						"event": "Main screen 3",
 						"media": "main_3",
 						"chinese": "我喜欢树木，指挥官，种点盆景吧",
-						"chineseTL": "",
+						"chineseTL": "I like trees, Commander. Let's grow some bonsai!",
 						"chineseNote": "",
 						"japanese": "私は木が好きなんだ。指揮官、盆栽を植えよう",
-						"japaneseTL": "",
+						"japaneseTL": "I love trees. Commander, let's raise a bonsai.",
 						"japaneseNote": "",
 						"english": "You know, I like trees. Let's grow a bonsai, Commander!",
 						"englishNote": ""
@@ -405,10 +480,10 @@
 						"event": "Normal touch",
 						"media": "touch_1",
 						"chinese": "要来活动一下吗？",
-						"chineseTL": "",
+						"chineseTL": "Want to exercise for a bit?",
 						"chineseNote": "",
 						"japanese": "運動するか？",
-						"japaneseTL": "",
+						"japaneseTL": "Some exercise?",
 						"japaneseNote": "",
 						"english": "Wanna exercise for a bit?",
 						"englishNote": ""
@@ -417,10 +492,10 @@
 						"event": "Special touch",
 						"media": "touch_2",
 						"chinese": "公共场合做这种事可不好哦，指挥官",
-						"chineseTL": "",
+						"chineseTL": "You shouldn't do such things in public, Commander.",
 						"chineseNote": "",
 						"japanese": "指揮官、公共の場でこんなことしちゃだめだぞ…",
-						"japaneseTL": "",
+						"japaneseTL": "Commander, you shouldn't do such things in public…",
 						"japaneseNote": "",
 						"english": "You can't do this sorta stuff in public, Commander...",
 						"englishNote": ""
@@ -429,10 +504,10 @@
 						"event": "Mission reminder",
 						"media": "task",
 						"chinese": "有新的任务啊，一鼓作气解决掉吧！",
-						"chineseTL": "",
+						"chineseTL": "There's a new mission. Let's finish it in one go!",
 						"chineseNote": "",
 						"japanese": "新しい任務だ！一気に片付けよう！",
-						"japaneseTL": "",
+						"japaneseTL": "It's a new mission! Let's do it in one go!",
 						"japaneseNote": "",
 						"english": "We've got a new mission! Let's finish it in one go!",
 						"englishNote": ""
@@ -441,10 +516,10 @@
 						"event": "Mission complete",
 						"media": "mission_complete",
 						"chinese": "NICE！任务奖励要到手了~",
-						"chineseTL": "",
+						"chineseTL": "Nice! The mission rewards will soon be mine!",
 						"chineseNote": "",
 						"japanese": "NICE！これでボーナスゲットだ！",
-						"japaneseTL": "",
+						"japaneseTL": "Nice! Now we'll get the bonus!",
 						"japaneseNote": "",
 						"english": "Nice! We got some mission rewards!",
 						"englishNote": ""
@@ -453,10 +528,10 @@
 						"event": "Mail reminder",
 						"media": "mail",
 						"chinese": "有新的邮件寄过来了，指挥官挺受欢迎嘛",
-						"chineseTL": "",
+						"chineseTL": "New mail just arrived. Commander sure is popular.",
 						"chineseNote": "",
 						"japanese": "新しいメールだ。指揮官は人気者だな！",
-						"japaneseTL": "",
+						"japaneseTL": "There's new mail. You sure is popular!",
 						"japaneseNote": "",
 						"english": "Some new mail just arrived. You sure are popular, Commander!",
 						"englishNote": ""
@@ -465,10 +540,10 @@
 						"event": "Return to port",
 						"media": "home",
 						"chinese": "欸嘿~指挥官，我来给你按摩吧——忍住哦！",
-						"chineseTL": "",
+						"chineseTL": "Ah~ Commander, I'll give you a massage—— you've got to bear with it!",
 						"chineseNote": "",
 						"japanese": "指揮官にはマッサージしてやるーー耐えてくれよ！…カーッ！",
-						"japaneseTL": "",
+						"japaneseTL": "I'll give you a massage, Commanderーーbear with it! …Hah!",
 						"japaneseNote": "",
 						"english": "Ah, Commander, let me give you a massage... Just bear with me!",
 						"englishNote": ""
@@ -477,10 +552,10 @@
 						"event": "Commission complete",
 						"media": "expedition",
 						"chinese": "哼哼，指挥官，那个很赚的委托是收获的时候了",
-						"chineseTL": "",
+						"chineseTL": "Heheh, Commander, it's time to reap the rewards from that bountiful commission!",
 						"chineseNote": "",
 						"japanese": "ふふ、指揮官よ、あの儲かる委託そろそろ収穫の時だぞ！",
-						"japaneseTL": "",
+						"japaneseTL": "Hehe, Commander, it's about time to reap the profits from that lucrative commission!",
 						"japaneseNote": "",
 						"english": "Hehe, it's about time we reap the rewards of that commission, Commander!",
 						"englishNote": ""
@@ -489,10 +564,10 @@
 						"event": "Enhancing complete",
 						"media": "upgrade",
 						"chinese": "嘿嘿，感觉不错！",
-						"chineseTL": "",
+						"chineseTL": "Hehe, this feels great!",
 						"chineseNote": "",
 						"japanese": "ふふん、いい感じ！",
-						"japaneseTL": "",
+						"japaneseTL": "Heheh, feelin' great!",
 						"japaneseNote": "",
 						"english": "Hehe, that feels good!",
 						"englishNote": ""
@@ -501,10 +576,10 @@
 						"event": "Flagship fight",
 						"media": "warcry",
 						"chinese": "我赶时间~能麻烦你们一起上么？",
-						"chineseTL": "",
+						"chineseTL": "I'm in a hurry~ Could you all come at me at once?",
 						"chineseNote": "",
 						"japanese": "急いでいるんだ…全員まとめてきてもいいぜ？",
-						"japaneseTL": "",
+						"japaneseTL": "I'm in a hurry… why don't all of you come at us at once?",
 						"japaneseNote": "",
 						"english": "I'm in a hurry... just come at me all at once, alright?",
 						"englishNote": ""
@@ -513,10 +588,10 @@
 						"event": "Victory",
 						"media": "mvp",
 						"chinese": "嘿嘿，这可是我努力的成果呢！~ ",
-						"chineseTL": "",
+						"chineseTL": "Hehe, underestimating me will be your downfall!",
 						"chineseNote": "",
 						"japanese": "ふふ、これが努力の成果ってやつだ！",
-						"japaneseTL": "",
+						"japaneseTL": "Heheh, this is what you call the fruits of your labor!",
 						"japaneseNote": "",
 						"english": "Hehe, now this is what I'd call the fruits of my hard labor!",
 						"englishNote": ""
@@ -525,10 +600,10 @@
 						"event": "Defeat",
 						"media": "lose",
 						"chinese": "欸嘿……好像有点不大妙呢……？",
-						"chineseTL": "",
+						"chineseTL": "Ehehe... this seems a bit bad huh...?",
 						"chineseNote": "",
 						"japanese": "えへへ…なんだかまずいなぁ…",
-						"japaneseTL": "",
+						"japaneseTL": "Ahaha… this might be bad…",
 						"japaneseNote": "",
 						"english": "Ahaha... this isn't so good...",
 						"englishNote": ""
@@ -537,84 +612,144 @@
 						"event": "Skills",
 						"media": "skill",
 						"chinese": "唯有前进！",
-						"chineseTL": "",
+						"chineseTL": "There is only going forward!",
 						"chineseNote": "",
 						"japanese": "前進あるのみ！",
-						"japaneseTL": "",
+						"japaneseTL": "Onward!",
 						"japaneseNote": "",
 						"english": "Onward!",
 						"englishNote": ""
 					},
 					"21": {
+						"event": "Low HP",
+						"media": "hp",
+						"chinese": "乘风破浪！",
+						"chineseTL": "Ride the wind and break the waves!",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"22": {
 						"event": "Upset",
 						"media": "feeling1",
 						"chinese": "抱歉，还有姐妹在等我，没时间陪你",
-						"chineseTL": "",
+						"chineseTL": "Sorry, I've still got sisters waiting for me, so there's no time to keep to keep you company.",
 						"chineseNote": "",
 						"japanese": "すまん、姉妹たちが待ってるんだ。そっちにかまっている時間はない",
-						"japaneseTL": "",
+						"japaneseTL": "Sorry, my sisters are waiting. I don't have time to deal with you.",
 						"japaneseNote": "",
 						"english": "Sorry, my sisters are waiting for me. I don't have time to deal with you.",
 						"englishNote": ""
 					},
-					"22": {
+					"23": {
 						"event": "Stranger",
 						"media": "feeling2",
 						"chinese": "指挥官，怎么，有什么烦恼吗？我毕竟有很多妹妹嘛，早就习惯听她们抱怨了，所以有什么事都告诉我吧",
-						"chineseTL": "",
+						"chineseTL": "Commander, is there something on your mind? I have a lot of little sisters after all, so I've gotten used to hearing them complain. So, whatever it is, just let me know.",
 						"chineseNote": "",
 						"japanese": "指揮官、なんだ悩み事か？私、妹が多い分、愚痴は聞き慣れてるんだ。だから何でも話してみてくれ",
-						"japaneseTL": "",
+						"japaneseTL": "Commander, does something trouble you? I have many sisters, and I'm used to hearing their complaints. That's why you can tell me anything.",
 						"japaneseNote": "",
 						"english": "What is, Commander? Something troubling you? I've got lots of little sisters, so I'm used to giving them my shoulder to lean on. So if anything's got you down, just tell me.",
 						"englishNote": ""
 					},
-					"23": {
+					"24": {
 						"event": "Friendly",
 						"media": "feeling3",
 						"chinese": "嗯……虽然我也不是强迫自己心胸宽广，不过指挥官这样能平等聊天的对象还真不多呢……",
-						"chineseTL": "",
+						"chineseTL": "Eh... Although I'm not forcing myself to open up or anything, but there aren't many people like the Commander who I can speak to as an equal...",
 						"chineseNote": "",
 						"japanese": "ふん……別に自分が強いって余裕ぶってるわけではないけど、正直、指揮官のような対等に話せる人はそういないような気がするね…",
-						"japaneseTL": "",
+						"japaneseTL": "Umm… it's not like I'm trying to flaunt my strength here, but honestly, I feel that it is difficult to find someone like you whom I can speak on an equal standing with...",
 						"japaneseNote": "",
 						"english": "Mm... I'm not trying to make myself look stronger than I am or anything, but honestly, I think there aren't many people like you who I can speak to like an equal...",
 						"englishNote": ""
 					},
-					"24": {
+					"25": {
 						"event": "Crush",
 						"media": "feeling4",
 						"chinese": "不知不觉居然变成我向指挥官你倾诉了，不过感觉也不坏，以后也要麻烦你啦",
-						"chineseTL": "",
+						"chineseTL": "Unconsciously, it seems that I've become the one to rely upon Commander, but it's not a bad feeling at all. I'll continue to count on you in the future!",
 						"chineseNote": "",
 						"japanese": "いつのまにか私が愚痴る側になったけど…まあいいさ、これからもよろしく頼む",
-						"japaneseTL": "",
+						"japaneseTL": "Before I knew it, I'm the one airing complaints instead… Well, that's fine, let's work together from now on.",
 						"japaneseNote": "",
 						"english": "Before I realized it, I'm the one who's leaning on your shoulder instead... but hey, that's fine. We can always just rely on each other.",
 						"englishNote": ""
 					},
-					"25": {
+					"26": {
 						"event": "Love",
 						"media": "feeling5",
 						"chinese": "我已经差不多把我的一切都告诉你了，时间过得还真快啊…已经不会再出现第二个这么了解我的人了吧，所以…",
-						"chineseTL": "",
+						"chineseTL": "I've almost told you everything about myself. Time sure passes by quickly... and there won't ever be a second person who can understand me this well, so...",
 						"chineseNote": "",
 						"japanese": "自分のすべてを教えたような気がする。時間が過ぎるのは本当に早かったね……私のことをこんなに理解できる人間は二度と現れないだろう。だから…",
-						"japaneseTL": "",
+						"japaneseTL": "I feel like I've told you everything about myself. Time sure flies… I might never find someone who understands me like you do. So that's why I'll…",
 						"japaneseNote": "",
 						"english": "I feel like I've told you everything about myself... Time sure flies, doesn't it... I doubt someone who understands me the way you do will ever show up again. That's why I've...",
 						"englishNote": ""
 					},
-					"26": {
+					"27": {
 						"event": "Promise",
 						"media": "propose",
 						"chinese": "嘿嘿，就觉得差不多要从你这里收到了呢，从今往后有什么都尽管告诉我吧，我会好好照顾你的～",
-						"chineseTL": "",
+						"chineseTL": "Hehe, I felt that it was about time that I'd receive this from you. From now on, you can tell me anything. I'll take good care of you~",
 						"chineseNote": "",
 						"japanese": "ふふん、そろそろ渡してくるかと思った。これからなんでも教えて。ちゃんと世話焼いてあげるから～",
-						"japaneseTL": "",
+						"japaneseTL": "Heheh, I thought it was about time you handed it to me. You may tell me anything from now on; I'll take good care of you~",
 						"japaneseNote": "",
 						"english": "Heh, I had a feeling this would happen! From now on, you can tell me anything. I'll take excellent care of you!",
+						"englishNote": ""
+					},
+					"28": {
+						"event": "Easter Egg 1 (Fletcher, Z1)",
+						"media": "link1",
+						"chinese": "（弗莱彻，Z1）都是做大姐的，一起加油吧！",
+						"chineseTL": "(With Fletcher or Z1) Those who are big sisters, let's work hard together!",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"29": {
+						"event": "Easter Egg 2",
+						"media": "link2",
+						"chinese": "（八才战队3艘）八才战队，出击！",
+						"chineseTL": "(With the 8 Talents Clan) 8 Talents Clan, sortie!",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"30": {
+						"event": "Valentines 2018",
+						"media": "",
+						"chinese": "嘿嘿，指挥官，情人节快乐！这是我的一点心意！嘛虽然是自己做的吧，不过我不大会做这个请了别人帮忙呢。好吃的话就当是运气好啦！",
+						"chineseTL": "Hehe, Commander, Happy Valentine's Day! This is for showing my appreciation! Although it's self-made, I'm not well versed in this, so I went to the others for help. If it tastes good, then it must be down to good luck!",
+						"chineseNote": "",
+						"japanese": "へへー指揮官、ハッピーバレンタイン！私からの気持ちだ！一応手作りだけど、作るの苦手だから人に助けてもらってさ。お口に合えばラッキーってことで！",
+						"japaneseTL": "Heheh, Commander, Happy Valentine's! These are my feelings for you! Although it's largely handmade, I had problems making it so I called in some help. If it suits your taste then I'm in luck!",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"31": {
+						"event": "Valentines 2019",
+						"media": "",
+						"chinese": "",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
 						"englishNote": ""
 					}
 				}
@@ -628,10 +763,10 @@
 						"event": "Ship Description",
 						"media": "",
 						"chinese": "这个南瓜可以坐两个人哦，快坐上来吧……啊，对了！我还有南瓜派，指挥官，要吃吗？",
-						"chineseTL": "",
+						"chineseTL": "This pumpkin has room for two. Come have a seat... Ah, that's right! I still have pumpkin pie. Would you like some, Commander?",
 						"chineseNote": "",
 						"japanese": "このパンプキンは二人乗りってね。ささ、早くこっちに座って……あ！そういえば、パンプキンパイもあるけど、指揮官、食べる？",
-						"japaneseTL": "",
+						"japaneseTL": "This pumpkin has room for two people. C'mon, hurry and get on it… Ah, that reminds me, I've got some pumpkin pie as well. Want some, Commander?",
 						"japaneseNote": "",
 						"english": "There's room for two on this pumpkin. C'mon, hurry and get on... Ah, that reminds me! I've got some pumpkin pie as well. Wanna try some, Commander?",
 						"englishNote": ""
@@ -640,10 +775,10 @@
 						"event": "Receive",
 						"media": "get_1",
 						"chinese": "这个南瓜可以坐两个人哦，快坐上来吧……啊，对了！我还有南瓜派，指挥官，要吃吗？",
-						"chineseTL": "",
+						"chineseTL": "This pumpkin has room for two. Come have a seat... Ah, that's right! I still have pumpkin pie. Would you like some, Commander?",
 						"chineseNote": "",
 						"japanese": "このパンプキンは二人乗りってね。ささ、早くこっちに座って……あ！そういえば、パンプキンパイもあるけど、指揮官、食べる？",
-						"japaneseTL": "",
+						"japaneseTL": "This pumpkin has room for two people. C'mon, hurry and get on it… Ah, that reminds me, I've got some pumpkin pie as well. Want some, Commander?",
 						"japaneseNote": "",
 						"english": "There's room for two on this pumpkin. C'mon, hurry and get on... Ah, that reminds me! I've got some pumpkin pie as well. Wanna try some, Commander?",
 						"englishNote": ""
@@ -652,10 +787,10 @@
 						"event": "Main screen 1",
 						"media": "main_1_1",
 						"chinese": "嘿嘿~ 把糖果交出来！",
-						"chineseTL": "",
+						"chineseTL": "Hehe~ Fork over the candy!",
 						"chineseNote": "",
 						"japanese": "ヘヘ~お菓子ちょうだい！",
-						"japaneseTL": "",
+						"japaneseTL": "Heheh~ Gimme some candy!",
 						"japaneseNote": "",
 						"english": "Heheh~ Gimme some candy!",
 						"englishNote": ""
@@ -664,10 +799,10 @@
 						"event": "Main screen 2",
 						"media": "main_2_1",
 						"chinese": "时间虽然是金钱，但我偶尔也会想挥霍一下啦",
-						"chineseTL": "",
+						"chineseTL": "Time is money, but occasionally even I want to be a bit of a spendthrift.",
 						"chineseNote": "",
 						"japanese": "指揮官、時は金なり！…ってことだけど、まあ私だって時には贅沢したくなるんだぜ。えへへ",
-						"japaneseTL": "",
+						"japaneseTL": "Time is money, Commander! …Or so the saying goes, but even I want to spend my time every now and then. (Giggle)",
 						"japaneseNote": "",
 						"english": "Time is money, Commander! ... Or so I would say, but even I want to spend some of it every now and then.",
 						"englishNote": ""
@@ -676,10 +811,10 @@
 						"event": "Main screen 3",
 						"media": "main_3_1",
 						"chinese": "现在开始整土施肥，明年的万圣夜就能吃到自己种的南瓜了",
-						"chineseTL": "",
+						"chineseTL": "If we start plowing and fertilizing the fields now, we'll be able to eat our own homegrown pumpkins during Halloween next year.",
 						"chineseNote": "",
 						"japanese": "今から土を耕して肥料も撒いとけば…来年のハロウィンには自作のかぼちゃが食べれるよね！うんうん！",
-						"japaneseTL": "",
+						"japaneseTL": "If we the plow the fields and add some fertilizer… then by next year's Halloween we can have homegrown pumpkins! Let's do it!",
 						"japaneseNote": "",
 						"english": "If we the plow the fields now and add some fertilizer... then by next year's Halloween we can eat some homegrown pumpkins! Let's do it!",
 						"englishNote": ""
@@ -688,10 +823,10 @@
 						"event": "Normal touch",
 						"media": "touch_1_1",
 						"chinese": "你也想尝尝海伦娜烤的南瓜派吗？",
-						"chineseTL": "",
+						"chineseTL": "Would you like to try some of Helena's pumpkin pie too?",
 						"chineseNote": "",
 						"japanese": "ヘレナが作ったパンプキンパイを食べてみる？",
-						"japaneseTL": "",
+						"japaneseTL": "Wanna try some of the pumpkin pie Helena made?",
 						"japaneseNote": "",
 						"english": "Do you wanna try some of the pumpkin pie that Helena made?",
 						"englishNote": ""
@@ -700,10 +835,10 @@
 						"event": "Special touch",
 						"media": "touch_2_1",
 						"chinese": "很精致吧，听说这东西甚至连灵魂都能收割呢",
-						"chineseTL": "",
+						"chineseTL": "Well-made, huh? I hear this thing can even harvest souls.",
 						"chineseNote": "",
 						"japanese": "上手くできてるだろ？ふん、「魂さえ刈り取れるぞ」ってやつだ",
-						"japaneseTL": "",
+						"japaneseTL": "Don'tcha think it's well made? Heh, this \"all it reaps is your soul\" thingy.",
 						"japaneseNote": "",
 						"english": "Well made, don't you think? Heh, I've heard this thing can even harvest souls.",
 						"englishNote": ""
@@ -719,7 +854,7 @@
 						"event": "Ship Description",
 						"media": "",
 						"chinese": "大家都穿着漂亮的礼服，为什么只有我是男装啦…算了，穿着还挺轻便的。指挥官，我们出发吧！要去参加宴会不是吗？",
-						"chineseTL": "",
+						"chineseTL": "Everybody is wearing such elegant dresses, why am I the only one wearing men's attire? ...Oh well, it suits me well. Commander, let us be off! Don't we have a party to attend?",
 						"chineseNote": "",
 						"japanese": "みんなドレスなのに、なんで私だけ男装なのさ！……まあ、これはこれで着心地が良くて、結構いい感じだし？指揮官、パーティーに行こうって約束したじゃない？そろそろ出発しようぜ！",
 						"japaneseTL": "",
@@ -731,7 +866,7 @@
 						"event": "Receive",
 						"media": "get_2",
 						"chinese": "大家都穿着漂亮的礼服，为什么只有我是男装啦…算了，穿着还挺轻便的。指挥官，我们出发吧！要去参加宴会不是吗？",
-						"chineseTL": "",
+						"chineseTL": "Everybody is wearing such elegant dresses, why am I the only one wearing men's attire? ...Oh well, it suits me well. Commander, let us be off! Don't we have a party to attend?",
 						"chineseNote": "",
 						"japanese": "みんなドレスなのに、なんで私だけ男装なのさ！……まあ、これはこれで着心地が良くて、結構いい感じだし？指揮官、パーティーに行こうって約束したじゃない？そろそろ出発しようぜ！",
 						"japaneseTL": "",
@@ -743,7 +878,7 @@
 						"event": "Log in",
 						"media": "login_2",
 						"chinese": "指挥官，精神还好吗，接下来可是派对哦！",
-						"chineseTL": "",
+						"chineseTL": "Commander, are you alright? We have a party next!",
 						"chineseNote": "",
 						"japanese": "指揮官、まだ大丈夫？次はパーティーに行くんだぞ！",
 						"japaneseTL": "",
@@ -755,7 +890,7 @@
 						"event": "View details",
 						"media": "detail_2",
 						"chinese": "指挥官，不要慌，你的邀请优先级是最高的",
-						"chineseTL": "",
+						"chineseTL": "Commander, don't panic. You have an invitation with the highest priority.",
 						"chineseNote": "",
 						"japanese": "ああ指揮官、慌てなくていいぞ。あなたのお誘いは最優先だぜ",
 						"japaneseTL": "",
@@ -767,7 +902,7 @@
 						"event": "Main screen 1",
 						"media": "main_1_2",
 						"chinese": "骑士，你也要想要去宴会吗？那我们就一起去吧~",
-						"chineseTL": "",
+						"chineseTL": "Knight, you want to go to the party too? Then let's go together!",
 						"chineseNote": "",
 						"japanese": "「ないと」、お前もパーティーに行きたいのか？じゃあ…一緒に行こう！ ",
 						"japaneseTL": "",
@@ -779,7 +914,7 @@
 						"event": "Main screen 2",
 						"media": "main_2_2",
 						"chinese": "虽然收到了好多跳舞邀请，不过这方面我完全不懂……指挥官，来陪我练习一下吧？",
-						"chineseTL": "",
+						"chineseTL": "I received many invitations to dance, but I don't know anything about this... Commander, would you practice a bit with me?",
 						"chineseNote": "",
 						"japanese": "ダンスのお誘いを結構受けたけど、私こういうのは本当にからっきしで……指揮官、少し練習に付き合ってもらえないかな？",
 						"japaneseTL": "",
@@ -791,7 +926,7 @@
 						"event": "Main screen 3",
 						"media": "main_3_2",
 						"chinese": "呼…指挥官，宴会结束后一起吃点什么吧，我请客，别客气，我们俩谁跟谁嘛~",
-						"chineseTL": "",
+						"chineseTL": "Whew... Commander, want to eat something together after the party? Don't be so reserved, it'll be my treat. Aren't we really close friends?",
 						"chineseNote": "",
 						"japanese": "ふぅ…指揮官、パーティーが終わったらなんか軽いものでも食べに行かない？私のおごりだから、そう遠慮しなくていいよ？ほらほら、私たちの仲じゃないか～",
 						"japaneseTL": "",
@@ -803,7 +938,7 @@
 						"event": "Normal touch",
 						"media": "touch_1_2",
 						"chinese": "骑士，怎么了？……哦？是玫瑰啊……正好，指挥官，送你吧~",
-						"chineseTL": "",
+						"chineseTL": "Knight, what's this?... Oh? A rose... Perfect, Commander, a present for you~",
 						"chineseNote": "",
 						"japanese": "「ないと」、どうした？……バラ？……ちょうどいい、指揮官、「素敵な君へのプレゼント」だ",
 						"japaneseTL": "",
@@ -815,7 +950,7 @@
 						"event": "Mission reminder",
 						"media": "task_2",
 						"chinese": "指挥官，趁着宴会还没开始，把任务速战速决处理掉吧！",
-						"chineseTL": "",
+						"chineseTL": "Commander, let's quickly finish the rest of the missions before the party starts!",
 						"chineseNote": "",
 						"japanese": "指揮官、任務なんてパーティーが始まる前にちゃっちゃと片付いちゃおう！",
 						"japaneseTL": "",
@@ -827,7 +962,7 @@
 						"event": "Mail reminder",
 						"media": "mail_2",
 						"chinese": "嗯？骑士你把指挥官的新邮件叼过来了吗？真乖真乖",
-						"chineseTL": "",
+						"chineseTL": "Oh? Knight, you fetched Commander's mail? Good girl!",
 						"chineseNote": "",
 						"japanese": "お？「ないと」、指揮官のメールをもってきてくれた？よしよし、いい子だ！",
 						"japaneseTL": "",
@@ -839,7 +974,7 @@
 						"event": "Return to port",
 						"media": "home_2",
 						"chinese": "指挥官，接下来也让我出战吧，等你回来不是我的作风~",
-						"chineseTL": "",
+						"chineseTL": "Commander, let me fight next. Waiting for you to come back just isn't my thing!",
 						"chineseNote": "",
 						"japanese": "指揮官、次は私にも出撃させてよ。座して待つのは性分じゃないからさ！",
 						"japaneseTL": "",
@@ -851,7 +986,7 @@
 						"event": "Flagship fight",
 						"media": "warcry_2",
 						"chinese": "速战速决吧",
-						"chineseTL": "",
+						"chineseTL": "Let's finish this quick!",
 						"chineseNote": "",
 						"japanese": "速戦即決で行こう！",
 						"japaneseTL": "",
@@ -863,7 +998,7 @@
 						"event": "Skills",
 						"media": "skill_2",
 						"chinese": "送你们一个礼物吧",
-						"chineseTL": "",
+						"chineseTL": "A present for you!",
 						"chineseNote": "",
 						"japanese": "お前たちにプレゼントだ！",
 						"japaneseTL": "",
@@ -875,7 +1010,7 @@
 						"event": "Love",
 						"media": "feeling5_2",
 						"chinese": "说实在的，穿上男装，又被大家那么对待，我都差点觉得扮演男孩子也不错了……不，即使如此，我果然还是最喜欢呆在你的身边啊",
-						"chineseTL": "",
+						"chineseTL": "To be honest, the way everybody treated me while I wear men's clothing almost makes me feel that acting as a boy isn't so bad... But, even so, I still like being by your side the most!",
 						"chineseNote": "",
 						"japanese": "正直、男装でみんなに色々言われて、なんか男の子を演じるのもいいかなって一瞬だけ思ってたけど……ううん、やっぱり指揮官の側が一番いいに決まってるさ！ ",
 						"japaneseTL": "",

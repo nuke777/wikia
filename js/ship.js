@@ -348,6 +348,9 @@ function setShipSkinNav(data){
 	var initial = "";
 	var id = "";
 	for (var x in data.skin) {
+		if (x > 100){
+			continue;
+		}
 		var container = document.createElement('div');
 		var escaped = JSON.stringify(data.skin[x]).replace(/'/g, "\\'");
 		escaped = escaped.replace(/"/g, "\\\"");
