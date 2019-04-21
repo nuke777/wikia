@@ -1,822 +1,871 @@
 {
-  "name": "Aurora",
-  "nameJP": "オーロラ",
-  "nameCN": "欧若拉",
-  "class": "Arethusa",
-  "hull": "Light Cruiser",
-  "prefix": "HMS",
-  "ID": "118",
-  "file_id": "118_Aurora",
-  "navy": "Royal Navy",
-  "initialStar": "★★☆☆☆",
-  "rarity": "Elite",
-  "buildTime": "01:20:00",
-  "acquisitionMethod": "Light Build",
-  "enhance": {
-    "firepower": "13",
-    "torpedo": "17",
-    "aviation": "0",
-    "reload": "13"
-  },
-  "scrap": {
-    "gold": "6",
-    "oil": "3",
-    "medal": "4"
-  },
-  "skin": {
-    "1": {
-      "name": "Default",
-      "description": "Arethusa-class light cruiser - Aurora, Pennant Number 12",
-      "expression": {
-        "1": {
-          "label": "Default"
-        }
-      }
-    },
-    "2": {
-      "name": "Spring's Story",
-      "description": "I've prepared for a long time for this day.... Commander, would you like to listen to my storytelling?",
-      "expression": {
-        "1": {
-          "label": "Default"
-        }
-      }
-    },
-    "3": {
-      "name": "Dawn's Paean",
-      "description": "I always felt music has a unique power that can move hearts, for that matter I tried to learn the violin. Commander, please enjoy my performance.",
-      "expression": {
-        "1": {
-          "label": "Default"
-        },
+	"name_reference": "aurora",
+	"cn_reference": "ouruola",
+	"nameJP": "オーロラ",
+	"nameCN": "欧若拉",
+	"ID": "118",
+	"name": "Aurora",
+	"internal_id": "202151",
+	"rarity": "Elite",
+	"initialStar": "★★☆☆☆",
+	"hull": "Light Cruiser",
+	"navy": "Royal Navy",
+	"prefix": "HMS",
+	"buildTime": "01:20:00",
+	"class": "Arethusa",
+	"voiceActress": "Yui Sakakibara",
+	"parameters": {
+		"firepower": "C",
+		"torpedo": "B",
+		"aviation": "E",
+		"evasion": "B",
+		"antiAir": "B",
+		"hp": "C"
+	},
+	"scrap": {
+		"gold": "6",
+		"oil": "3",
+		"medal": "4"
+	},
+	"releaseDate": {
+		"JP": "February 16, 2018",
+		"CN": "February 12, 2018",
+		"KR": "February 12, 2018",
+		"EN": "December 13, 2018"
+	},
+	"artist": {
+		"name": "玛雅G",
+		"weibo": "https://www.weibo.com/p/1005051970961102",
+		"twitter": "https://twitter.com/mayag_nya",
+		"pixiv": "https://www.pixiv.net/member.php?id=1287983",
+		"other": ""
+	},
+	"enhance": {
+		"firepower": "13",
+		"torpedo": "17",
+		"aviation": "0",
+		"reload": "13"
+	},
+	"acquisitionMethod": "Light Build",
+	"skill": {
+		"1": {
+			"icon": "11080",
+			"requirement": "Default Unlocked",
+			"name": "Silver Phantom",
+			"type": "Offensive",
+			"description": "Increases own damage against destroyers, transport vessels, torpedo boats, and suicide boats by 10% (20%)"
+		},
 		"2": {
-          "label": "aurora_skin3_expr2"
-        },
+			"icon": "11090",
+			"requirement": "Default Unlocked",
+			"name": "Dawn",
+			"type": "Support",
+			"description": "While alive in fleet, decreases the evasion rate of all enemy destroyers and light cruisers by 10% (20%)"
+		},
 		"3": {
-          "label": "aurora_skin3_expr3"
-        },
+			"icon": "21131",
+			"requirement": "Limit Break Rank 1, Rank 3 upgrade",
+			"name": "Full Barrage",
+			"type": "Offensive",
+			"description": "Every 12 (8) times the main battery is fired, trigger Full Barrage - Arethusa Class I (II)"
+		}
+	},
+	"skin": {
+		"1": {
+			"id": "ouruola",
+			"name": "Aurora",
+			"description": "Arethusa-class light cruiser - Aurora, pennant number 12",
+			"expression": {
+				"0": {
+					"id": "0"
+				}
+			}
+		},
+		"2": {
+			"id": "ouruola_2",
+			"name": "The Tale of Spring ",
+			"description": "I've been preparing for this day for quite some time... Commander, would you like to hear the book I wrote for you?",
+			"expression": {
+				"0": {
+					"id": "0"
+				}
+			}
+		},
+		"3": {
+			"id": "ouruola_3",
+			"name": "Dawn's Paean",
+			"description": "I always felt music has a unique power that can move hearts, for that matter I tried to learn the violin. Commander, please enjoy my performance.",
+			"expression": {
+				"0": {
+					"id": "0"
+				},
+				"1": {
+					"id": "1"
+				},
+				"2": {
+					"id": "2"
+				},
+				"3": {
+					"id": "3"
+				},
+				"4": {
+					"id": "4"
+				}
+			}
+		}
+	},
+	"defaultEquipment": {
+		"1": {
+			"icon": "26100",
+			"rarity": "Common",
+			"name": "Quadruple 40mm Pom Pom Gun"
+		},
+		"2": {
+			"icon": "",
+			"rarity": "",
+			"name": ""
+		}
+	},
+	"stats": {
+		"100": {
+			"hp": "2568",
+			"firepower": "141",
+			"torpedo": "244",
+			"antiAir": "295",
+			"aviation": "0",
+			"reload": "169",
+			"hit": "153",
+			"evasion": "76",
+			"speed": "32",
+			"luck": "84",
+			"asw": "96",
+			"oxygen": "0",
+			"ammo": "0",
+			"cost": "10",
+			"armor": "Light"
+		},
+		"120": {
+			"hp": "2914",
+			"firepower": "162",
+			"torpedo": "279",
+			"antiAir": "333",
+			"aviation": "0",
+			"reload": "195",
+			"hit": "172",
+			"evasion": "100",
+			"speed": "32",
+			"luck": "84",
+			"asw": "109",
+			"oxygen": "0",
+			"ammo": "0",
+			"cost": "10",
+			"armor": "Light"
+		},
+		"base": {
+			"hp": "497",
+			"firepower": "30",
+			"torpedo": "52",
+			"antiAir": "63",
+			"aviation": "0",
+			"reload": "72",
+			"hit": "59",
+			"evasion": "29",
+			"speed": "32",
+			"luck": "84",
+			"asw": "26",
+			"oxygen": "0",
+			"ammo": "0",
+			"cost": "3",
+			"armor": "Light"
+		},
+		"100retrofit": {
+			"hp": "",
+			"firepower": "",
+			"torpedo": "",
+			"antiAir": "",
+			"aviation": "",
+			"reload": "",
+			"hit": "",
+			"evasion": "",
+			"speed": "32",
+			"luck": "84",
+			"asw": "",
+			"oxygen": "0",
+			"ammo": "0",
+			"cost": "10",
+			"armor": "Light"
+		},
+		"120retrofit": {
+			"hp": "",
+			"firepower": "",
+			"torpedo": "",
+			"antiAir": "",
+			"aviation": "",
+			"reload": "",
+			"hit": "",
+			"evasion": "",
+			"speed": "32",
+			"luck": "84",
+			"asw": "",
+			"oxygen": "0",
+			"ammo": "0",
+			"cost": "10",
+			"armor": "Light"
+		}
+	},
+	"limitBreak": {
+		"tier1": "Gains Full Barrage I / All Weapon Efficiency +2%",
+		"tier2": "Max Torpedo Capacity +1/Pre-Loaded Torpedo +1/All Weapon Efficiency +3%",
+		"tier3": "Upgrades Full Barrage I→II / All Weapon Efficiency +5%"
+	},
+	"equipmentLoadout": {
+		"1": {
+			"type": "Light Cruiser",
+			"efficiency": "125%/127%/130%/135%",
+			"amount": "1/1/1/1",
+			"preload": "0/0/0/0"
+		},
+		"2": {
+			"type": "Torpedo",
+			"efficiency": "145%/147%/150%/155%",
+			"amount": "1/1/2/2",
+			"preload": "0/0/1/1"
+		},
+		"3": {
+			"type": "Anti-Air Gun",
+			"efficiency": "120%/122%/125%/130%",
+			"amount": "1/1/1/1",
+			"preload": "0/0/0/0"
+		},
 		"4": {
-          "label": "aurora_skin3_expr4"
-        },
+			"type": "Auxilary",
+			"efficiency": "-",
+			"amount": "-",
+			"preload": "-"
+		},
 		"5": {
-          "label": "aurora_skin3_expr5"
-        }
-      }
-    }
-  },
-  "releaseDate": {
-    "JP": "February 16, 2018",
-    "CN": "February 12, 2018",
-    "KR": "February 12, 2018",
-    "EN": "December 13, 2018"
-  },
-  "voiceActress": "Yui Sakaibara",
-  "artist": {
-    "name": "玛雅G",
-    "weibo": "https://www.weibo.com/p/1005051970961102",
-    "twitter": "https://twitter.com/mayag_nya",
-    "pixiv": "https://www.pixiv.net/member.php?id=1287983",
-    "other": ""
-  },
-  "parameters": {
-    "hp": "C",
-    "antiAir": "B",
-    "evasion": "B",
-    "aviation": "E",
-    "torpedo": "B",
-    "firepower": "C"
-  },
-  "stats": {
-    "100": {
-      "hp": "2568",
-      "armor": "Light",
-      "reload": "169",
-      "firepower": "141",
-      "torpedo": "244",
-      "evasion": "169",
-      "antiAir": "295",
-      "aviation": "0",
-      "cost": "10",
-      "asw": "96",
-      "speed": "32",
-      "luck": "84"
-    },
-    "120": {
-      "hp": "2914",
-      "armor": "Light",
-      "reload": "195",
-      "firepower": "162",
-      "torpedo": "279",
-      "evasion": "100",
-      "antiAir": "333",
-      "aviation": "0",
-      "cost": "10",
-      "asw": "109",
-      "speed": "32",
-      "luck": "84"
-    },
-    "base": {
-      "hp": "497",
-      "armor": "Light",
-      "reload": "72",
-      "firepower": "30",
-      "torpedo": "52",
-      "evasion": "29",
-      "antiAir": "63",
-      "aviation": "0",
-      "cost": "3",
-      "asw": "26",
-      "speed": "32",
-      "luck": "84"
-    },
-    "100retrofit": {
-      "hp": "",
-      "armor": "",
-      "reload": "",
-      "firepower": "",
-      "torpedo": "",
-      "evasion": "",
-      "antiAir": "",
-      "aviation": "",
-      "cost": "",
-      "asw": "",
-      "speed": "",
-      "luck": ""
-    },
-    "120retrofit": {
-      "hp": "",
-      "armor": "",
-      "reload": "",
-      "firepower": "",
-      "torpedo": "",
-      "evasion": "",
-      "antiAir": "",
-      "aviation": "",
-      "cost": "",
-      "asw": "",
-      "speed": "",
-      "luck": ""
-    }
-  },
-  "limitBreak": {
-    "tier1": "Gains Full Barrage I / All Weapon Efficiency +2%",
-    "tier2": "Max Torpedo Capacity +1/Pre-Loaded Torpedo +1/All Weapon Efficiency +3%",
-    "tier3": "Upgrades Full Barrage I→II / All Weapon Efficiency +5%"
-  },
-  "equipmentLoadout": {
-    "1": {
-      "type": "CL Main Gun",
-      "efficiency": "125%/127%/130%/135%",
-      "amount": "1/1/1/1",
-      "preload": "0/0/0/0"
-    },
-    "2": {
-      "type": "Torpedo",
-      "efficiency": "145%/147%/150%/155%",
-      "amount": "1/1/2/2",
-      "preload": "0/0/1/1"
-    },
-    "3": {
-      "type": "Anti-Air Gun",
-      "efficiency": "120%/122%/125%/130%",
-      "amount": "1/1/1/1",
-      "preload": "0/0/0/0"
-    },
-    "4": {
-      "type": "Auxilliary",
-      "efficiency": "-",
-      "amount": "-",
-      "preload": "-"
-    },
-    "5": {
-      "type": "Auxilliary",
-      "efficiency": "-",
-      "amount": "-",
-      "preload": "-"
-    }
-  },
-  "defaultEquipment": {
-    "1": "Twin 152mm (BL 6\" Mk XXII) T1",
-    "2": "Quadruple 40mm AA Vickers Pom Pom T1"
-  },
-  "skill": {
-    "1": {
-      "name": "Silver Phantom",
-      "type": "Offensive",
-      "requirement": "Default Unlocked",
-      "description": "Increases own damage against destroyers, transport vessels, torpedo boats, and suicide boats by 10% (20%)"
-    },
-    "2": {
-      "name": "Dawn",
-      "type": "Support",
-      "requirement": "Default Unlocked",
-      "description": "While alive in fleet, decreases the evasion rate of all enemy destroyers and light cruisers by 10% (20%)"
-    },
-    "3": {
-      "name": "Full Barrage",
-      "type": "Offensive",
-      "requirement": "Limit Break Rank 1, Rank 3 upgrade",
-      "description": "Every 12 (8) times the main battery is fired, trigger Full Barrage - Arethusa Class I (II)"
-    }
-  },
-  "build": {
-    "light": {
-      "JP": "✓",
-      "CN": "✓",
-      "EN": "✓"
-    },
-    "heavy": {
-      "JP": "-",
-      "CN": "-",
-      "EN": "-"
-    },
-    "special": {
-      "JP": "-",
-      "CN": "-",
-      "EN": "-"
-    },
-    "limited": {
-      "JP": "-",
-      "CN": "-",
-      "EN": "-"
-    }
-  },
-  "drop": {
-    "droppable": "false",
-    "list": {
-      "1": {
-        "event": "World",
-        "chapter": {
-          "1": {
-            "label": "Ch.2",
-            "node": {
-              "1": {
-                "drop": "✓",
-                "note": "JP Only"
-              },
-              "2": {
-                "drop": "✓",
-                "note": "JP Only"
-              },
-              "3": {
-                "drop": "✓",
-                "note": "JP Only"
-              },
-              "4": {
-                "drop": "✓",
-                "note": "JP Only"
-              }
-            }
-          }
-        }
-      }
-    }
-  },
-  "lines": {
-    "skin": {
-      "1": {
-        "label": "aurora_skin1",
-        "dialogue": {
-          "1": {
-            "event": "Ship Description",
-            "media": "",
-            "chinese": "阿瑞托莎级轻巡洋舰——欧若拉，舷号12",
-            "chineseTL": "Arethusa-class light cruiser - Aurora, Pennant Number 12",
-            "chineseNote": "",
-            "japanese": "アレトゥサ級軽巡洋艦 - オーロラ、ペナント番号12",
-            "japaneseTL": "Arethusa-class light cruiser - Aurora, Pennant Number 12",
-            "japaneseNote": "",
-            "english": "",
-            "englishNote": ""
-          },
-          "2": {
-            "event": "Self Introduction",
-            "media": "self_introduction",
-            "chinese": "我是皇家海军阿瑞托莎级的四号舰欧若拉，您也可以叫我曙光女神，至于银色怪物这样不好听的外号还请不要使用……不过比起这些，指挥官也许更熟悉我另外一个名字吧?",
-            "chineseTL": "I'm the Royal Navy's fourth ship of the Arethusa-class, Aurora - you can also call me the Goddess of Dawn. Please don't use ugly nicknames like 'the silver monster' to call me.... rather than those, Commander is perhaps more familiar with my another name?",
-            "chineseNote": "A reference to Aurora being the goddess of dawn in Roman mythology. Aurora earned the nickname \"Silver Phantom\" for her exploits in the Mediterranean, where she helped intercept and destroy three convoys heading to Libya.Aurora held several other names after she entered Chinese service",
-            "japanese": "ロイヤルネイビーアリシューザ級四番艦のオーロラと言います。「暁の女神」とか、「銀色の幻影」とか呼ばれていますが、私的にはまだ女神のほうが……それより、指揮官さんは私のもう一つの名前もご存じでしょうか?",
-            "japaneseTL": "I'm the 4th ship of the Royal Navy's Arethusa-class, Aurora.I've been called names like \"The Goddess of Dawn\", or \"The Silver Phantom\", but I prefer the former…That aside, Commander, do you know one of my other names",
-            "japaneseNote": "",
-            "english": "I am Aurora of the Royal Navy, fourth ship of the Arethusa-class. You are welcome to call me the \"Goddess of Dawn\", but please forget any nasty-sounding nicknames you might hear, like the \"Silver Phantom\". Commander, perhaps you are familiar with some of the other names that I've been called?",
-            "englishNote": ""
-          },
-          "3": {
-            "event": "Acquisition",
-            "media": "acquisition",
-            "chinese": "贵安，指挥官，我是阿瑞托莎级轻巡洋舰四号舰——欧若拉，从今天起担任您的秘书，有什么问题都可以问我哦~",
-            "chineseTL": "Greetings, Commander. I'm the fourth ship of the Arethusa-class light cruisers - Aurora. From now on, I shall be your secretary, please feel free to ask me anything~",
-            "chineseNote": "",
-            "japanese": "ご機嫌よう、指揮官さん♪私はアリシューザ級軽巡洋艦の四番艦・オーロラといいます。本日より指揮艦さんの秘書を勤めさせていただきます。どんな質問でも遠慮無く私に聞いてください♪",
-            "japaneseTL": "How do you do, Commander♪ I'm Aurora, the 4th ship of the Arethusa-class of light cruisers. I'll be your secretary for today. If you have any questions, feel free to ask♪",
-            "japaneseNote": "",
-            "english": "Greetings, Commander. I am the fourth ship of the Arethusa-class light cruisers, Aurora. From now on, I shall serve as your secretary. Please feel free to ask anything of me~",
-            "englishNote": ""
-          },
-          "4": {
-            "event": "Login",
-            "media": "login",
-            "chinese": "我的名字代表破晓之光，呵呵，见到我有让您变得精神一些吗~",
-            "chineseTL": "My name symbolizes the light at the crack of dawn, hoho. Did feel you feel refreshed after looking at me~?",
-            "chineseNote": "\"Aurora\" comes from the Latin word for \"dawn, morning light\"",
-            "japanese": "私の名前には「暁の光」という意味もあります。うふふ♪私を見て、朝のように元気になりました?",
-            "japaneseTL": "My name also holds the meaning of \"light of dawn.\" Ufufu♪ Do you feel energetic looking at me?",
-            "japaneseNote": "",
-            "english": "My name symbolises the break of dawn. Ehehe~ Do you feel more energetic from seeing me?",
-            "englishNote": ""
-          },
-          "5": {
-            "event": "Details",
-            "media": "details",
-            "chinese": "指挥官，装备方面有什么我能帮上忙的吗",
-            "chineseTL": "Commander, is there anything I can help with the equipment?",
-            "chineseNote": "",
-            "japanese": "指揮官さん……装備についてお役に立てることはありませんか？",
-            "japaneseTL": "Commander… Is there anything I can help you with regarding my equipment?",
-            "japaneseNote": "",
-            "english": "Commander, is there anything I can help you with regarding my equipment?",
-            "englishNote": ""
-          },
-          "6": {
-            "event": "Idle 1",
-            "media": "idle_1",
-            "chinese": "东煌？是个好地方呀，嗯…比如说…",
-            "chineseTL": "Eastern Radiance? It's a great place, hmm...for example... ",
-            "chineseNote": "Aurora was sold to China after WWII as compensation for Chinese ships the British seized during the war",
-            "japanese": "東煌ですか？あそこはいい場所ですよ。えっと、例えば……",
-            "japaneseTL": "The Eastern Radiance? It's a great place you know. Erm, for instance…",
-            "japaneseNote": "",
-            "english": "Eastern Radiance? Oh, it's a great place. Mm.... for example...",
-            "englishNote": ""
-          },
-          "7": {
-            "event": "Idle 2",
-            "media": "idle_2",
-            "chinese": "虽然我并不介意被您盯着，不过也请好好工作哦~",
-            "chineseTL": "Although I don't mind you staring at me, please work seriously as well~ ",
-            "chineseNote": "",
-            "japanese": "私のことをずっと見つめていても構いませんが…お仕事のほうを疎かにしてはいけませんよ♪",
-            "japaneseTL": "I don't mind if you keep fixing your eyes on me, but… you shouldn't neglect your work♪",
-            "japaneseNote": "",
-            "english": "Even though I don't mind if you stare at me, please do your work properly~",
-            "englishNote": ""
-          },
-          "8": {
-            "event": "Idle 3",
-            "media": "idle_3",
-            "chinese": "指挥官，不要动，嘴边沾了点……好了，接下来也请努力工作吧~",
-            "chineseTL": "Commander, don't move, there's something on your mouth.... Alright, now please continue to work hard~",
-            "chineseNote": "",
-            "japanese": "指揮官さん、じっとしてて、今口元を……はい、お仕事がんばってくださいね♪",
-            "japaneseTL": "Commander, hold still, there's something near your mouth… There, do your best at work♪",
-            "japaneseNote": "",
-            "english": "Hold still, Commander, there's something stuck on your cheek... There! Now, please do your best at work",
-            "englishNote": ""
-          },
-          "9": {
-            "event": "Touch",
-            "media": "touch",
-            "chinese": "指挥官，要一起来给花儿浇水放松一下吗？",
-            "chineseTL": "Commander, want to relax a bit by watering the flowers_",
-            "chineseNote": "",
-            "japanese": "指揮官さん、一緒にお花に水やりしませんか？",
-            "japaneseTL": "Commander, how about we water flowers together?",
-            "japaneseNote": "",
-            "english": "Commander, want to take a break and come water the flowers with me?",
-            "englishNote": ""
-          },
-          "10": {
-            "event": "Special Touch",
-            "media": "special_touch",
-            "chinese": "指挥官！我，我要生气了哦，真的哦！",
-            "chineseTL": "Commander! I- I'm going to get angry, I really am!",
-            "chineseNote": "",
-            "japanese": "指揮官さん！お、怒りますよ！…もう、本当に怒っちゃいますよ！",
-            "japaneseTL": "Commander! I-I'll get angry! …Jeez, I really will get angry!",
-            "japaneseNote": "",
-            "english": "Commander! I... I'm going to be mad! Jeez! I-ll really get mad!",
-            "englishNote": ""
-          },
-          "11": {
-            "event": "New Mission",
-            "media": "mission",
-            "chinese": "Commander, new tasks have been given. I've marked the important points with some petals, please take a look",
-            "chineseTL": "Commander there are new missions.",
-            "chineseNote": "",
-            "japanese": "指揮官さん、新しい任務の指令書が届きました。あ、要点は花びらでマークしましたので、ご確認ください",
-            "japaneseTL": "Commander, a new mission directive has arrived. Ah, I've marked the important points with flower petals, please have a look at them",
-            "japaneseNote": "",
-            "english": "Commander, a new mission dossier has been issued. I have already highlighted the most important parts, so please look over it",
-            "englishNote": ""
-          },
-          "12": {
-            "event": "Mission Complete",
-            "media": "mission_complete",
-            "chinese": "有任务完成的奖励还没有领取，我替您拿过来了",
-            "chineseTL": "Some rewards from finished tasks have not been claimed yet, and I've brought them here",
-            "chineseNote": "",
-            "japanese": "受け取っていない任務報酬があったので、お持ちしました",
-            "japaneseTL": "There were unclaimed mission rewards, so I brought them here",
-            "japaneseNote": "",
-            "english": "Some mission rewards had not yet been collected, so I retrived them in your stead",
-            "englishNote": ""
-          },
-          "13": {
-            "event": "New Mail",
-            "media": "mail",
-            "chinese": "有新的邮件，要我读给您听吗",
-            "chineseTL": "There's new mail, want me to read it out for you?",
-            "chineseNote": "",
-            "japanese": "新しいメールです。読み上げましょうか？",
-            "japaneseTL": "There's new mail. Shall I read them out loud?",
-            "japaneseNote": "",
-            "english": "There's new mail, shall I read it aloud for you?",
-            "englishNote": ""
-          },
-          "14": {
-            "event": "Return From Sortie",
-            "media": "return_from_sortie",
-            "chinese": "辛苦了，接下来就是悠闲的休息时间了",
-            "chineseTL": "Good work Commander, now it's time to relax",
-            "chineseNote": "",
-            "japanese": "お疲れ様です。ごゆっくりとお休みください",
-            "japaneseTL": "Good work. Please take your time to rest easy",
-            "japaneseNote": "",
-            "english": "Good work. Please take some time to relax",
-            "englishNote": ""
-          },
-          "15": {
-            "event": "Commission Complete",
-            "media": "commission_complete",
-            "chinese": "指挥官，盯着我而忘了完成委托的姐妹可不行哦？",
-            "chineseTL": "Commander, you shouldn't keep staring at me and forget the sisters who completed the commission, alright?",
-            "chineseNote": "",
-            "japanese": "指揮官さん？私のことをじっと見つめても、委託を忘れてはいけませんよ？",
-            "japaneseTL": "Commander? I hope you don't forget about the commissions even as your eyes are fixed on me",
-            "japaneseNote": "",
-            "english": "Commander, it would be a problem if you keep staring at me and forget about about the girls who have returned from commision ",
-            "englishNote": ""
-          },
-          "16": {
-            "event": "Enhancement",
-            "media": "enhancement",
-            "chinese": "能为指挥官处理更多的事情了呢~",
-            "chineseTL": "Now I can help the Commander with even more things~",
-            "chineseNote": "",
-            "japanese": "もっと指揮官さんに色々してあげられますね～",
-            "japaneseTL": "I'll be able to help the Commander more with various things, won't I~",
-            "japaneseNote": "",
-            "english": "Commander, I'll be able to help with even more things now~",
-            "englishNote": ""
-          },
-          "17": {
-            "event": "Sortie Start",
-            "media": "sortie_start",
-            "chinese": "为大家的胜利献上祝福~",
-            "chineseTL": "I shall bless everyone for a victory~",
-            "chineseNote": "",
-            "japanese": "勝利に女神の祝福があらんことを！",
-            "japaneseTL": "The goddess blesses you with victory!",
-            "japaneseNote": "",
-            "english": "May we be blessed with victory~",
-            "englishNote": ""
-          },
-          "18": {
-            "event": "MVP",
-            "media": "mvp",
-            "chinese": "太好了指挥官，我们赢了呢~",
-            "chineseTL": "How wonderful, Commander, we've won~",
-            "chineseNote": "",
-            "japanese": "指揮官さん、私たち勝ちました！おめでとうございます！",
-            "japaneseTL": "Commander, we won! Congratulations!",
-            "japaneseNote": "",
-            "english": "How wonderful, Commander, we've won!",
-            "englishNote": ""
-          },
-          "19": {
-            "event": "Defeat",
-            "media": "defeat",
-            "chinese": "还是有些不适应战场呢……",
-            "chineseTL": "I'm still a bit not used to the battlefield....",
-            "chineseNote": "",
-            "japanese": "戦場にはやはり少し慣れないようですね……",
-            "japaneseTL": "As I thought, I seem to be a little unaccustomed to the battlefield...",
-            "japaneseNote": "",
-            "english": "It seems I have not yet become accustomed to the battlefield...",
-            "englishNote": ""
-          },
-          "20": {
-            "event": "Skill Activation",
-            "media": "skill_activation",
-            "chinese": "为指挥官排忧解难也是我的工作呢~",
-            "chineseTL": "To solve the Commander's problems is also part of my job~",
-            "chineseNote": "",
-            "japanese": "指揮官さんの悩みを解決するのも仕事ですね",
-            "japaneseTL": "Fixing the Commander's problems is also part of my job",
-            "japaneseNote": "",
-            "english": "Commander, helping you solve problems and leaving worries behind is also part of my job~",
-            "englishNote": ""
-          },
-          "21": {
-            "event": "Low Health",
-            "media": "low_health",
-            "chinese": "愿曙光照耀我们的前路……！",
-            "chineseTL": "May the light of dawn shine on our road ahead!....",
-            "chineseNote": "",
-            "japanese": "暁の光よ、私たちの行き先を…！",
-            "japaneseTL": "Light of dawn, illumine our path…!",
-            "japaneseNote": "",
-            "english": "Light of dawn, illuminate our path...!",
-            "englishNote": ""
-          },
-          "22": {
-            "event": "Affinity (Disappointed)",
-            "media": "affinity_disappointed",
-            "chinese": "指挥官，公共场合请不要做让人困扰的事",
-            "chineseTL": "Commander, please don't do such bothersome things in public",
-            "chineseNote": "",
-            "japanese": "指揮官さん、公共の場でこんなことしては…困ります！",
-            "japaneseTL": "Commander… It troubles me when you do such things in public!",
-            "japaneseNote": "",
-            "english": "Commander, please refrain from making a fool of yourself in public",
-            "englishNote": ""
-          },
-          "23": {
-            "event": "Affinity (Stranger)",
-            "media": "affinity_stranger",
-            "chinese": "指挥官要来看看我种的玫瑰吗？品种有很多哦~",
-            "chineseTL": "Commander, want to see these roses that I'm growing? There are a lot of species~",
-            "chineseNote": "",
-            "japanese": "私が育てたバラ、指揮官さんも見てみませんか？いろんなのがありますよ♪",
-            "japaneseTL": "Commander, have you seen the roses I've grown? I have several types of them♪",
-            "japaneseNote": "",
-            "english": "Commander, would you like to see the roses that I've planted? I have a lot of different kinds~",
-            "englishNote": ""
-          },
-          "24": {
-            "event": "Affinity (Friendly)",
-            "media": "affinity_friendly",
-            "chinese": "名为欧若拉的女神据说别名“玫瑰色的手指”，虽然我没有那么厉害，不过手指上也有些种玫瑰时的余味，指挥官要闻一闻吗？",
-            "chineseTL": "A nickname of the Goddess of Aurora is said to be 'Rose-colored fingers\". Although I'm not that great, my fingers do have a slight scent of roses. Want to take a sniff, Commander?",
-            "chineseNote": "Eos, the Greek counterpart of the roman goddess Aurora was almost always described as having rosy fingers",
-            "japanese": "女神オーロラは「バラ色の指を持つ」とされていますが、私だってバラの香りぐらいは持っていますよ？少しお嗅ぎになってはいかがですか？指揮官さん？うふふ♪",
-            "japaneseTL": "While the goddess Aurora was said to have \"rosy fingers,\" I at least have the scent of roses on mine. How about a sniff, Commander? Ufufu♪",
-            "japaneseNote": "",
-            "english": "The goddess, Aurora, was said to have \"rose-coloured fingers.\" Though the same can't be said for me, my fingers at least smell like roses. Commander, want to check for yourself?",
-            "englishNote": ""
-          },
-          "25": {
-            "event": "Affinity (Like)",
-            "media": "affinity_like",
-            "chinese": "指挥官，过来一下～……嘻嘻，果然指挥官和这朵玫瑰很搭配呢～欸？才不是笑您啦，那要不然，您也挑一支为我戴上吧？只要是指挥官挑选的，我都喜欢",
-            "chineseTL": "Commander, come here a bit~.... Hehe, this rose matches with the Commander quite a lot~ Eh? I'm not making fun of you. Right, how about you pick one for me to put on? If it's chosen by the Commander, I'll like any one",
-            "chineseNote": "",
-            "japanese": "指揮官さん、ちょっとこっち……うふふ、やっぱりこのバラは指揮官さんにお似合いですね～あっ、別にからかっていませんよ？…もうそんなに気にするんでしたら、私につけるバラも選んでみませんか？指揮官さんが選んだものなら何でも好きですよ♪",
-            "japaneseTL": "Commander, come over here a second… Ufufu, as I thought, this rose suits you well~ Ah, I'm not trying to make fun of you. …Jeez, if it bothers you, how about choosing a rose to put on me? I'll love anything that you choose♪",
-            "japaneseNote": "",
-            "english": "Commander, come here for a moment~... Hehe, this rose suits you the best after all! Eh? I'm not making fun of you... In that case, why don't you pick one out to put on me? I'm sure I'll love whatever you pick~",
-            "englishNote": ""
-          },
-          "26": {
-            "event": "Affinity (Love)",
-            "media": "affinity_love",
-            "chinese": "最近经常被姐妹们说独占了指挥官的时间呢…不过，唯独这点我是不会退让的哦，请做好被其他姐妹们怨恨的心理准备吧，指挥官～",
-            "chineseTL": "Lately the sisters said that I'm claiming all of Commander's time for myself.... But I will never back down on this, so please be prepared to face all the disgruntled sisters, Commander~",
-            "chineseNote": "",
-            "japanese": "指揮官さんの時間を独占していると言われました…うふふ、でもこれだけはみんなには譲れませんわ。指揮官さんも、他の子に拗ねられる覚悟、してくださいね～♪",
-            "japaneseTL": "They say I've been monopolizing the Commander's time... Ufufu, however, this is not something I'm giving up. Commander, you should also be prepared for the sulking of other girls~♪",
-            "japaneseNote": "",
-            "english": "Lately, some girls have been grumbling that I've been monopolising all of your time... But I'm not going to back down on this. Commander, you too should be prepared to deal with a bunch of sulking girls~",
-            "englishNote": ""
-          },
-          "27": {
-            "event": "Pledge",
-            "media": "pledge",
-            "chinese": "玫瑰换一个名字也芳香依旧，就像无论唤作欧罗拉，曙光女神，或是重庆，我就是我，我的心，永远不变，永远与你同在——",
-            "chineseTL": "Change the rose's name, and the aroma remains; Whether it be Aurora, Goddess of Dawn, or Chongqing - I am still me, and my heart, shall never change, and forever be with you——",
-            "chineseNote": "A reference to William Shakespeare's play Romeo and Juliet, where Juliet argues that it does not matter that Romeo is from her family's rival house",
-            "japanese": "「バラはどんな名前で呼んでも、同じように甘く香ります」私もそう、オーロラでも、暁の女神でも、「重慶」でも…私であることに変わりありません。はい、あなたの側にいる私として……",
-            "japaneseTL": "\"A rose by any other name would smell as sweet.\" Whether I'm called Aurora, the Goddess of Dawn, or even Chongqing… I'm still the same me. Yes, I'll still be by your side…",
-            "japaneseNote": "",
-            "english": "\"A rose by any name would smell as asweet.\" Whether I'm called Aurora, the \"Goddess of Dawn,\" or even Chongqing, I am still the same me. Yes... I will always be at your side",
-            "englishNote": ""
-          },
-          "28": {
-            "event": "Valentines 2018",
-            "media": "",
-            "chinese": "说到情人节就想到表白，说到表白自然会想到玫瑰呢。呵呵，巧克力里也加了玫瑰哦。至于表白...就请指挥官自行想象了~",
-            "chineseTL": "When we talk about Valentine's Day, we think about confessions. And when we talk about confessions, we think about roses. Hoho, there's roses in the chocolate as well. As for the confession...the Commander will have to use his own imagination~",
-            "chineseNote": "",
-            "japanese": "バレンタインと言えば告白。告白と言えば薔薇が定番ですね。ふふ、チョコに薔薇をつけました。告白かどうかは・・・指揮官さんの想像におまかせします♪",
-            "japaneseTL": "Speaking of Valentines would be speaking of confessions. Speaking of confessions, roses would be a staple. Fufu, I've attached a rose to the chocolate. Whether or not it is a confession… I'll leave it up to your imagination, Commander♪",
-            "japaneseNote": "",
-            "english": "Valentine's Day means confessions, and confessions mean roses. Aha, I even included a rose with your chocolate. Whether that's a confession or not... I'll leave it to your imagination~",
-            "englishNote": ""
-          },
-          "29": {
-            "event": "Valentines 2019",
-            "media": "",
-            "chinese": "指挥官，情人节快乐！今年东煌的春节正好也近，所以巧克力用了一些喜庆的颜色，比如红色的玫瑰和红盒子……有点太过于热情了吗？",
-            "chineseTL": "Commander, happy valentines! As it's close to the Eastern Radiance's spring festival this year, I made you chocolate in festive colors, adorned with red roses in a red box... was it too passionate?",
-            "chineseNote": "",
-            "japanese": "指揮官さん、ハッピーバレンタイン♪ 今年は東煌の春節に近いですし、赤い薔薇に赤い箱、チョコのコーデまでちょっと赤くなりましたけど…ちょっと情熱過ぎたのかな…？",
-            "japaneseTL": "Commander, happy valentines♪ As it is close to the Eastern Radiance's spring festival, red roses, red box... the chocolate turned out to be very festive... was it too passionate?",
-            "japaneseNote": "",
-            "english": "",
-            "englishNote": ""
-          }
-        }
-      },
-      "2": {
-        "label": "aurora_skin2",
-        "dialogue": {
-          "1": {
-            "event": "Ship Description, Acquisition",
-            "media": "acquisition",
-            "chinese": "为了这一天我准备了一段时间呢……指挥官，想听我为您来一段讲书吗？",
-            "chineseTL": "I've prepared for a long time for this day.... Commander, would you like to listen to my storytelling?",
-            "chineseNote": "",
-            "japanese": "この日のために結構準備しましたわ。指揮官さん、私の「評書」（ひょうしょ）、お聞きになりますか？",
-            "japaneseTL": "I've prepared for a long time for this day.... Commander, would you like to listen to my storytelling?",
-            "japaneseNote": "",
-            "english": "I've prepared for a long time for this day.... Commander, would you like to listen to my storytelling?",
-            "englishNote": ""
-          },
-          "2": {
-            "event": "Login",
-            "media": "login",
-            "chinese": "指挥官，欢迎回来，不用急，我也才刚到哦~",
-            "chineseTL": "Commander, welcome back. No need to hurry, I've just got here as well~",
-            "chineseNote": "",
-            "japanese": "指揮官さん、おかえりなさい。ううん、そう急がなくてもいいですよ？私もついさっき戻ったところです♪",
-            "japaneseTL": "Commander, welcome back. No need to hurry, I've just got here as well~",
-            "japaneseNote": "",
-            "english": "Commander, welcome back. Please take your time, I only just got here myself",
-            "englishNote": ""
-          },
-          "3": {
-            "event": "Details",
-            "media": "details",
-            "chinese": "稍微有些意外吗？呵呵，您往后还会知道更多的我哦~",
-            "chineseTL": "Do you feel surprised? Hoho, you'll know more about me in the future~",
-            "chineseNote": "",
-            "japanese": "この格好少し意外なのでしょうか？うふふ、これからはもっと違う私を知ることになりますよ？",
-            "japaneseTL": "Do you feel surprised? Hoho, you'll know more about me in the future~",
-            "japaneseNote": "",
-            "english": "My outfit is a bit surprising? Ehehe, from now on, you'll learn more and more about a different side of me~",
-            "englishNote": ""
-          },
-          "4": {
-            "event": "Idle 1",
-            "media": "idle_1",
-            "chinese": "指挥官，要吃火锅吗？如果您不吃辣的话，我来准备鸳鸯锅~",
-            "chineseTL": "Commander, shall we have hotpot? If you can't take the spiciness, let me prepare the double-flavor hotpot.",
-            "chineseNote": "",
-            "japanese": "指揮官さん、火鍋とかはどうです？辛いのは苦手でしたら、両方楽しめる「鴛鴦」（ユアンヤン）をご用意しますよ？",
-            "japaneseTL": "Commander, shall we have hotpot? If you can't take the spiciness, let me prepare the double-flavor hotpot.",
-            "japaneseNote": "",
-            "english": "Commander, shall we have hotpot? If you can't take the spiciness, let me prepare the double-flavor hotpot.",
-            "englishNote": ""
-          },
-          "5": {
-            "event": "Idle 2",
-            "media": "idle_2",
-            "chinese": "要是累了的话，就一边吃橘子一边听我为您讲书吧~",
-            "chineseTL": "If you're tired, come listen to my stories while eating tangerines~",
-            "chineseNote": "",
-            "japanese": "疲れたら、そこでみかんを食べながら私の評書お楽しみください",
-            "japaneseTL": "If you're tired, then please have some tangerine while listening to my stories~",
-            "japaneseNote": "",
-            "english": "If you're tired, why don't you enjoy a mandarin while listening to me read a story?",
-            "englishNote": ""
-          },
-          "6": {
-            "event": "Touch",
-            "media": "touch",
-            "chinese": "嗯？怎么了吗，啊，我只是在想，要是明年，后年，大后年，一直都能和现在一样就好了呢",
-            "chineseTL": "Hmm? How am I? Ah, I was just thinking that, if in the next year, the year after that, and the year after - that everyone would remain the same like right now, that would be wonderful",
-            "chineseNote": "",
-            "japanese": "うん？私がどうかしました？はい、来年も、再来年も、そしてそのあとも…ずっとこのままでいられればいいなって思っていました",
-            "japaneseTL": "Hmm? How am I? Ah, I was just thinking that, if in the next year, the year after that, and the year after - that everyone would remain the same like right now, that would be wonderful",
-            "japaneseNote": "",
-            "english": "Eh? What's the matter? Ah, I was thinking... it'd be great if things could stay like this next year, and the year after that, and forever more...",
-            "englishNote": ""
-          }
-        }
-      },
-      "3": {
-        "label": "aurora_skin3",
-        "dialogue": {
-          "1": {
-            "event": "Ship Description, Acquisition",
-            "media": "acquisition",
-            "chinese": "我一直觉得，音乐有着独特的，能够震撼人心的力量，所以尝试学习了一下小提琴。指挥官，请欣赏我的表演吧",
-            "chineseTL": "I always felt music has a unique power that can move hearts, for that matter I tried to learn the violin. Commander, please enjoy my performance.",
-            "chineseNote": "",
-            "japanese": "",
-            "japaneseTL": "",
-            "japaneseNote": "",
-            "english": "",
-            "englishNote": ""
-          },
-          "2": {
-            "event": "Details",
-            "media": "details",
-            "chinese": "指挥官，平时我会在广场演奏，有兴趣的话可以过来欣赏哦",
-            "chineseTL": "Commander, I usually perform in the square plaza, you can come and enjoy it any time.",
-            "chineseNote": "",
-            "japanese": "",
-            "japaneseTL": "",
-            "japaneseNote": "",
-            "english": "",
-            "englishNote": ""
-          },
-          "3": {
-            "event": "Idle 1",
-            "media": "idle_1",
-            "chinese": "演奏的时候鸽子们不知不觉就聚集了起来，呵呵，看起来要准备些饲料了呢",
-            "chineseTL": "Doves seem to often gather around me during performances. Hehe, looks like I will have to prepare some feed.",
-            "chineseNote": "",
-            "japanese": "",
-            "japaneseTL": "",
-            "japaneseNote": "",
-            "english": "",
-            "englishNote": ""
-          },
-          "4": {
-            "event": "Idle 2",
-            "media": "idle_2",
-            "chinese": "指挥官对乐器感兴趣吗？私心来说，我希望指挥官能弹钢琴来跟我合奏呢～",
-            "chineseTL": "Is commander interested in musical instruments? Personally, I am hoping commander can play the piano for a duet with me~",
-            "chineseNote": "",
-            "japanese": "",
-            "japaneseTL": "",
-            "japaneseNote": "",
-            "english": "",
-            "englishNote": ""
-          },
-          "5": {
-            "event": "Idle_3",
-            "media": "idle_3",
-            "chinese": "指挥官，当我身处黑暗之中而不知光明何在的时候，就来听我的演奏吧",
-            "chineseTL": "Commander, when I am shrouded in darkness unaware of where the light is, come listen to my performance.",
-            "chineseNote": "",
-            "japanese": "",
-            "japaneseTL": "",
-            "japaneseNote": "",
-            "english": "",
-            "englishNote": ""
-          },
-          "6": {
-            "event": "Touch",
-            "media": "touch",
-            "chinese": "工作告一段落了吗，那么，想听些什么呢？",
-            "chineseTL": "Now that we are done with work, what would you like to hear?",
-            "chineseNote": "",
-            "japanese": "",
-            "japaneseTL": "",
-            "japaneseNote": "",
-            "english": "",
-            "englishNote": ""
-          },
-          "7": {
-            "event": "Special Touch",
-            "media": "special_touch",
-            "chinese": "真是的，指挥官，这样会扰乱我的演奏的……",
-            "chineseTL": "Really, commander, you will ruin my performance...",
-            "chineseNote": "",
-            "japanese": "",
-            "japaneseTL": "",
-            "japaneseNote": "",
-            "english": "",
-            "englishNote": ""
-          },
-          "8": {
-            "event": "Return From Sortie",
-            "media": "return_from_sortie",
-            "chinese": "辛苦了，指挥官，让我用音乐来治愈你的心灵吧",
-            "chineseTL": "Good work, commander, let my music heal your soul.",
-            "chineseNote": "",
-            "japanese": "",
-            "japaneseTL": "",
-            "japaneseNote": "",
-            "english": "",
-            "englishNote": ""
-          },
-          "9": {
-            "event": "Affinity (Love)",
-            "media": "affinity_love",
-            "chinese": "指挥官，战争结束后我们去旅行吧，在不同的地方演奏，为不同的人送去祝福，这是只有我们才能做到的事呢",
-            "chineseTL": "Commander, when the war is over let's travel faraway and perform in different places, to send blessings to different people. This is something only we can do.",
-            "chineseNote": "",
-            "japanese": "",
-            "japaneseTL": "",
-            "japaneseNote": "",
-            "english": "",
-            "englishNote": ""
-          }
-        }
-      }     
-    }
-  }
+			"type": "Auxilary",
+			"efficiency": "-",
+			"amount": "-",
+			"preload": "-"
+		}
+	},
+	"build": {
+		"light": {
+			"JP": "✓",
+			"CN": "✓",
+			"EN": "✓"
+		},
+		"heavy": {
+			"JP": "-",
+			"CN": "-",
+			"EN": "-"
+		},
+		"special": {
+			"JP": "-",
+			"CN": "-",
+			"EN": "-"
+		},
+		"limited": {
+			"JP": "-",
+			"CN": "-",
+			"EN": "-"
+		}
+	},
+	"drop": {
+		"droppable": "false",
+		"list": {
+			"1": {
+				"event": "",
+				"chapter": {
+					"1": {
+						"label": "Ch .1",
+						"node": {
+							"1": {
+								"drop": "✓",
+								"note": "-"
+							}
+						}
+					}
+				}
+			}
+		}
+	},
+	"lines": {
+		"skin": {
+			"1": {
+				"skin_id": "ouruola",
+				"id": "0",
+				"label": "Aurora",
+				"dialogue": {
+					"1": {
+						"event": "Ship Description",
+						"media": "",
+						"chinese": "阿瑞托莎级轻巡洋舰—欧若拉，舷号12",
+						"chineseTL": "Arethusa-class light cruiser - Aurora, Pennant Number 12",
+						"chineseNote": "",
+						"japanese": "アリシューザ級軽巡洋艦・ガラティア（HMS Aurora）",
+						"japaneseTL": "Arethusa-class light cruiser - Aurora, Pennant Number 12",
+						"japaneseNote": "",
+						"english": "Arethusa-class light cruiser - Aurora, pennant number 12",
+						"englishNote": ""
+					},
+					"2": {
+						"event": "Biography",
+						"media": "profile",
+						"chinese": "我是皇家海军阿瑞托莎级的四号舰欧若拉，您也可以叫我曙光女神，至于银色怪物这样不好听的外号还请不要使用……不过比起这些，指挥官也许更熟悉我另外一个名字吧？",
+						"chineseTL": "I'm the Royal Navy's fourth ship of the Arethusa-class, Aurora - you can also call me the Goddess of Dawn. Please don't use ugly nicknames like 'the silver monster' to call me.... rather than those, Commander is perhaps more familiar with my another name?",
+						"chineseNote": "",
+						"japanese": "ロイヤルネイビーアリシューザ級四番艦のオーロラと言います。「暁の女神」とか、「銀色の幻影」とか呼ばれていますが、私的にはまだ女神のほうが……それより、指揮官さんは私のもう一つの名前もご存知でしょうか？",
+						"japaneseTL": "I'm the 4th ship of the Royal Navy's Arethusa-class, Aurora.I've been called names like \"The Goddess of Dawn\", or \"The Silver Phantom\", but I prefer the former…That aside, Commander, do you know one of my other names",
+						"japaneseNote": "",
+						"english": "I am Aurora of the Royal Navy, fourth ship of the Arethusa-class. You are welcome to call me the \"Goddess of Dawn,\" but please forget any nasty-sounding nicknames you might hear like the \"Silver Phantom.\" Commander, perhaps you are familiar with some of the other names that I've been called?",
+						"englishNote": ""
+					},
+					"3": {
+						"event": "Receive",
+						"media": "get",
+						"chinese": "贵安，指挥官，我是阿瑞托莎级轻巡洋舰四号舰——欧若拉，从今天起担任您的秘书，有什么问题都可以问我哦~",
+						"chineseTL": "Greetings, Commander. I'm the fourth ship of the Arethusa-class light cruisers - Aurora. From now on, I shall be your secretary, please feel free to ask me anything~",
+						"chineseNote": "",
+						"japanese": "ご機嫌よう、指揮官さん♪私はアリシューザ級軽巡洋艦の四番艦・オーロラと言います。本日より指揮官さんの秘書を勤めさせていただきます。どんな質問でも遠慮なく私に聞いてください♪",
+						"japaneseTL": "How do you do, Commander♪ I'm Aurora, the 4th ship of the Arethusa-class of light cruisers. I'll be your secretary for today. If you have any questions, feel free to ask♪",
+						"japaneseNote": "",
+						"english": "Greetings, Commander. I am the fourth ship of the Arethusa-class light cruisers, Aurora. From now on, I shall serve as your secretary. Please feel free to ask anything of me~ ",
+						"englishNote": ""
+					},
+					"4": {
+						"event": "Log in",
+						"media": "login",
+						"chinese": "我的名字代表破晓之光，呵呵，见到我之后有让您变得精神一些吗～",
+						"chineseTL": "My name symbolizes the light at the crack of dawn, hoho. Did feel you feel refreshed after looking at me~?",
+						"chineseNote": "",
+						"japanese": "私の名前には「暁の光」という意味もあります。うふふ♪私を見て、朝のように元気になりました？",
+						"japaneseTL": "My name also holds the meaning of \"light of dawn.\" Ufufu♪ Do you feel energetic looking at me?",
+						"japaneseNote": "",
+						"english": "My name symbolises the break of dawn. Ehehe~ Do you feel more energetic from seeing me?",
+						"englishNote": ""
+					},
+					"5": {
+						"event": "View details",
+						"media": "detail",
+						"chinese": "指挥官，装备方面有什么我能帮上忙的吗？",
+						"chineseTL": "Commander, is there anything I can help with the equipment?",
+						"chineseNote": "",
+						"japanese": "指揮官さん……装備についてお役に立てることはありませんか？",
+						"japaneseTL": "Commander… Is there anything I can help you with regarding my equipment?",
+						"japaneseNote": "",
+						"english": "Commander, is there anything I can help you with regarding equipment?",
+						"englishNote": ""
+					},
+					"6": {
+						"event": "Main screen 1",
+						"media": "main_1",
+						"chinese": "东煌？是个好地方呀，嗯…比如说…",
+						"chineseTL": "Eastern Radiance? It's a great place, hmm...for example... ",
+						"chineseNote": "",
+						"japanese": "東煌ですか？あそこはいい場所ですよ。えっと、例えば……",
+						"japaneseTL": "The Eastern Radiance? It's a great place you know. Erm, for instance…",
+						"japaneseNote": "",
+						"english": "Eastern Radiance? Oh, it's a great place. Mm... for example... ",
+						"englishNote": ""
+					},
+					"7": {
+						"event": "Main screen 2",
+						"media": "main_2",
+						"chinese": "虽然我并不介意被您盯着，不过也请好好工作哦～",
+						"chineseTL": "Although I don't mind you staring at me, please work seriously as well~ ",
+						"chineseNote": "",
+						"japanese": "私のことをずっと見つめていても構いませんが…お仕事のほうを疎かにしてはいけませんよ♪ ",
+						"japaneseTL": "I don't mind if you keep fixing your eyes on me, but… you shouldn't neglect your work♪",
+						"japaneseNote": "",
+						"english": "Even though I don't mind if you stare at me, please do your work properly~ ",
+						"englishNote": ""
+					},
+					"8": {
+						"event": "Main screen 3",
+						"media": "main_3",
+						"chinese": "指挥官，不要动，嘴边沾了点……好了，接下来也请努力工作吧～",
+						"chineseTL": "Commander, don't move, there's something on your mouth.... Alright, now please continue to work hard~",
+						"chineseNote": "",
+						"japanese": "指揮官さん、じっとしてて、今口元を……はい、お仕事がんばってくださいね♪",
+						"japaneseTL": "Commander, hold still, there's something near your mouth… There, do your best at work♪",
+						"japaneseNote": "",
+						"english": "Hold still, Commander, there's something stuck on your cheek... There! Now, please do your best at work~",
+						"englishNote": ""
+					},
+					"9": {
+						"event": "Normal touch",
+						"media": "touch_1",
+						"chinese": "指挥官，要一起来给花儿浇水放松一下吗？",
+						"chineseTL": "Commander, want to relax a bit by watering the flowers_",
+						"chineseNote": "",
+						"japanese": "指揮官さん、一緒にお花に水やりしませんか？",
+						"japaneseTL": "Commander, how about we water flowers together?",
+						"japaneseNote": "",
+						"english": "Commander, want to take a break and come water the flowers with me?",
+						"englishNote": ""
+					},
+					"10": {
+						"event": "Special touch",
+						"media": "touch_2",
+						"chinese": "指挥官！我，我要生气了哦，真的哦！",
+						"chineseTL": "Commander! I- I'm going to get angry, I really am!",
+						"chineseNote": "",
+						"japanese": "指揮官さん！お、怒りますよ！…もう、本当に怒っちゃいますよ！",
+						"japaneseTL": "Commander! I-I'll get angry! …Jeez, I really will get angry!",
+						"japaneseNote": "",
+						"english": "Commander! I... I'm going to be mad! Jeez! I'll really get mad!",
+						"englishNote": ""
+					},
+					"11": {
+						"event": "Mission reminder",
+						"media": "task",
+						"chinese": "指挥官，新的任务书下达了，重点我都已经用花瓣做了标记，请过目",
+						"chineseTL": "Commander there are new missions.",
+						"chineseNote": "",
+						"japanese": "指揮官さん、新しい任務の指令書が届きました。あ、要点は花びらでマークしましたので、ご確認ください",
+						"japaneseTL": "Commander, a new mission directive has arrived. Ah, I've marked the important points with flower petals, please have a look at them",
+						"japaneseNote": "",
+						"english": "Commander, a new mission dossier has been issued. I have already highlighted the most important parts, so please look over it.",
+						"englishNote": ""
+					},
+					"12": {
+						"event": "Mission complete",
+						"media": "mission_complete",
+						"chinese": "有任务完成的奖励还没有领取，我替您拿过来了",
+						"chineseTL": "Some rewards from finished tasks have not been claimed yet, and I've brought them here",
+						"chineseNote": "",
+						"japanese": "受け取っていない任務報酬があったので、お持ちしました",
+						"japaneseTL": "There were unclaimed mission rewards, so I brought them here",
+						"japaneseNote": "",
+						"english": "Some mission rewards had not yet been collected, so I retrieved them in your stead.",
+						"englishNote": ""
+					},
+					"13": {
+						"event": "Mail reminder",
+						"media": "mail",
+						"chinese": "有新的邮件，要我读给您听吗？",
+						"chineseTL": "There's new mail, want me to read it out for you?",
+						"chineseNote": "",
+						"japanese": "新しいメールです。読み上げましょうか？",
+						"japaneseTL": "There's new mail. Shall I read them out loud?",
+						"japaneseNote": "",
+						"english": "There's new mail, shall I read it aloud for you?",
+						"englishNote": ""
+					},
+					"14": {
+						"event": "Return to port",
+						"media": "home",
+						"chinese": "辛苦了，接下来就是悠闲的休息时间了",
+						"chineseTL": "Good work Commander, now it's time to relax",
+						"chineseNote": "",
+						"japanese": "お疲れ様です。ごゆっくりとお休みください",
+						"japaneseTL": "Good work. Please take your time to rest easy",
+						"japaneseNote": "",
+						"english": "Good work. Please take some time to relax.",
+						"englishNote": ""
+					},
+					"15": {
+						"event": "Commission complete",
+						"media": "expedition",
+						"chinese": "指挥官，盯着我而忘了完成委托的姐妹们可不行哦？",
+						"chineseTL": "Commander, you shouldn't keep staring at me and forget the sisters who completed the commission, alright?",
+						"chineseNote": "",
+						"japanese": "指揮官さん？私のことをじっと見つめても、委託を忘れてはいけませんよ？",
+						"japaneseTL": "Commander? I hope you don't forget about the commissions even as your eyes are fixed on me",
+						"japaneseNote": "",
+						"english": "Commander, it will be a problem if you keep staring at me and forget about the girls who have returned from commission.",
+						"englishNote": ""
+					},
+					"16": {
+						"event": "Enhancing complete",
+						"media": "upgrade",
+						"chinese": "能为指挥官处理更多的事情了呢~",
+						"chineseTL": "Now I can help the Commander with even more things~",
+						"chineseNote": "",
+						"japanese": "もっと指揮官さんに色々してあげられますね~",
+						"japaneseTL": "I'll be able to help the Commander more with various things, won't I~",
+						"japaneseNote": "",
+						"english": "Commander, I'll be able to help with even more things now~",
+						"englishNote": ""
+					},
+					"17": {
+						"event": "Flagship fight",
+						"media": "warcry",
+						"chinese": "为大家的胜利献上祝福～",
+						"chineseTL": "I shall bless everyone for a victory~",
+						"chineseNote": "",
+						"japanese": "勝利に女神の祝福があらんことを！",
+						"japaneseTL": "The goddess blesses you with victory!",
+						"japaneseNote": "",
+						"english": "May we be blessed with victory~",
+						"englishNote": ""
+					},
+					"18": {
+						"event": "Victory",
+						"media": "mvp",
+						"chinese": "太好了指挥官，我们赢了呢～",
+						"chineseTL": "How wonderful, Commander, we've won~",
+						"chineseNote": "",
+						"japanese": "指揮官さん、私たち勝ちました！おめでとうございます！",
+						"japaneseTL": "Commander, we won! Congratulations!",
+						"japaneseNote": "",
+						"english": "How wonderful, Commander, we won!",
+						"englishNote": ""
+					},
+					"19": {
+						"event": "Defeat",
+						"media": "lose",
+						"chinese": "还是有些不适应战场呢……",
+						"chineseTL": "I'm still a bit not used to the battlefield....",
+						"chineseNote": "",
+						"japanese": "戦場にはやはり少し慣れないようですね……",
+						"japaneseTL": "As I thought, I seem to be a little unaccustomed to the battlefield...",
+						"japaneseNote": "",
+						"english": "It seems I have not yet become accustomed to the battlefield...",
+						"englishNote": ""
+					},
+					"20": {
+						"event": "Skills",
+						"media": "skill",
+						"chinese": "为指挥官排忧解难也是我的工作呢~",
+						"chineseTL": "To solve the Commander's problems is also part of my job~",
+						"chineseNote": "",
+						"japanese": "指揮官さんの悩みを解決するのも仕事ですね",
+						"japaneseTL": "Fixing the Commander's problems is also part of my job",
+						"japaneseNote": "",
+						"english": "Commander, helping you solve problems and leave worries behind is also part of my job~",
+						"englishNote": ""
+					},
+					"21": {
+						"event": "Low HP",
+						"media": "hp",
+						"chinese": "愿曙光照耀我们的前路……！",
+						"chineseTL": "May the light of dawn shine on our road ahead!....",
+						"chineseNote": "",
+						"japanese": "暁の光よ、私たちの行き先を…！",
+						"japaneseTL": "Light of dawn, illumine our path…!",
+						"japaneseNote": "",
+						"english": "Light of dawn, illuminate our path...!",
+						"englishNote": ""
+					},
+					"22": {
+						"event": "Upset",
+						"media": "feeling1",
+						"chinese": "指挥官，公共场合请不要做些让人困扰的事",
+						"chineseTL": "Commander, please don't do such bothersome things in public",
+						"chineseNote": "",
+						"japanese": "指揮官さん、公共の場でこんなことしては…困ります！",
+						"japaneseTL": "Commander… It troubles me when you do such things in public!",
+						"japaneseNote": "",
+						"english": "Commander, please refrain from making a fool of yourself in public.",
+						"englishNote": ""
+					},
+					"23": {
+						"event": "Stranger",
+						"media": "feeling2",
+						"chinese": "指挥官要来看看我种的玫瑰吗？品种有很多哦～",
+						"chineseTL": "Commander, want to see these roses that I'm growing? There are a lot of species~",
+						"chineseNote": "",
+						"japanese": "私が育てたバラ、指揮官さんも見てみませんか？いろんなのがありますよ♪",
+						"japaneseTL": "Commander, have you seen the roses I've grown? I have several types of them♪",
+						"japaneseNote": "",
+						"english": "Commander, would you like to see the roses that I planted? I have a lot of different kinds~",
+						"englishNote": ""
+					},
+					"24": {
+						"event": "Friendly",
+						"media": "feeling3",
+						"chinese": "名为欧若拉的女神据说别名“玫瑰色的手指”，虽然我没有那么厉害，不过手指上也有些种玫瑰时的余味，指挥官要闻一闻吗？",
+						"chineseTL": "A nickname of the Goddess of Aurora is said to be 'Rose-colored fingers\". Although I'm not that great, my fingers do have a slight scent of roses. Want to take a sniff, Commander?",
+						"chineseNote": "",
+						"japanese": "女神オーロラは「バラ色の指を持つ」とされていますが、私だってバラの香りぐらいは持っていますよ？少しお嗅ぎになってはいかがですか？指揮官さん？うふふ♪",
+						"japaneseTL": "While the goddess Aurora was said to have \"rosy fingers,\" I at least have the scent of roses on mine. How about a sniff, Commander? Ufufu♪",
+						"japaneseNote": "",
+						"english": "The goddess, Aurora, was said to have \"rose-coloured fingers.\" Though the same can't be said for me, my fingers at least smell like roses. Commander, want to check for yourself?",
+						"englishNote": ""
+					},
+					"25": {
+						"event": "Crush",
+						"media": "feeling4",
+						"chinese": "指挥官，过来一下～……嘻嘻，果然指挥官和这朵玫瑰很搭配呢～欸？才不是笑您啦，那要不然，您也挑一支为我戴上吧？只要是指挥官挑选的，我都喜欢",
+						"chineseTL": "Commander, come here a bit~.... Hehe, this rose matches with the Commander quite a lot~ Eh? I'm not making fun of you. Right, how about you pick one for me to put on? If it's chosen by the Commander, I'll like any one",
+						"chineseNote": "",
+						"japanese": "指揮官さん、ちょっとこっち……うふふ、やっぱりこのバラは指揮官さんにお似合いですね～あっ、別にからかっていませんよ？…もうそんなに気にするんでしたら、私につけるバラも選んでみませんか？指揮官さんが選んだものなら何でも好きですよ♪",
+						"japaneseTL": "Commander, come over here a second… Ufufu, as I thought, this rose suits you well~ Ah, I'm not trying to make fun of you. …Jeez, if it bothers you, how about choosing a rose to put on me? I'll love anything that you choose♪",
+						"japaneseNote": "",
+						"english": "Commander, come here for a moment~ ... Hehe, this rose suits you best after all! Eh? I'm not making fun of you... In that case, why don't you pick one out to put on me? I'm sure I'll love whatever you pick~",
+						"englishNote": ""
+					},
+					"26": {
+						"event": "Love",
+						"media": "feeling5",
+						"chinese": "最近经常被姐妹们说独占了指挥官的时间呢…不过，唯独这点我是不会退让的哦，请做好被其他姐妹们怨恨的心理准备吧，指挥官～",
+						"chineseTL": "Lately the sisters said that I'm claiming all of Commander's time for myself.... But I will never back down on this, so please be prepared to face all the disgruntled sisters, Commander~",
+						"chineseNote": "",
+						"japanese": "指揮官さんの時間を独占していると言われました…うふふ、でもこれだけはみんなには譲れませんわ。指揮官さんも、他の子に拗ねられる覚悟、してくださいね～♪",
+						"japaneseTL": "They say I've been monopolizing the Commander's time... Ufufu, however, this is not something I'm giving up. Commander, you should also be prepared for the sulking of other girls~♪",
+						"japaneseNote": "",
+						"english": "Lately, some girls have been grumbling that I've been monopolosing all your time... But, I'm not going to back down on this. Commander, you too should be prepared to deal with a bunch of sulking girls~",
+						"englishNote": ""
+					},
+					"27": {
+						"event": "Promise",
+						"media": "propose",
+						"chinese": "玫瑰换一个名字也芳香依旧，就像无论唤作欧罗拉，曙光女神，或是重庆，我就是我，我的心，永远不变，永远与你同在——",
+						"chineseTL": "Change the rose's name, and the aroma remains; Whether it be Aurora, Goddess of Dawn, or Chongqing - I am still me, and my heart, shall never change, and forever be with you——",
+						"chineseNote": "",
+						"japanese": "「バラはどんな名前で呼んでも、同じように甘く香ります」私もそう、オーロラでも、暁の女神でも、「重慶」でも…私であることに変わりありません。はい、あなたの側にいる私として……",
+						"japaneseTL": "\"A rose by any other name would smell as sweet.\" Whether I'm called Aurora, the Goddess of Dawn, or even Chongqing… I'm still the same me. Yes, I'll still be by your side…",
+						"japaneseNote": "",
+						"english": "\"A rose by any name would smell as sweet.\" Whether I am called Aurora, the \"Goddess of Dawn,\" or even Chongqing, I am still the same me. Yes... I will always be at your side.",
+						"englishNote": ""
+					},
+					"28": {
+						"event": "Valentines 2018",
+						"media": "",
+						"chinese": "说到情人节就想到表白，说到表白自然会想到玫瑰呢。呵呵，巧克力里也加了玫瑰哦。至于表白...就请指挥官自行想象了~",
+						"chineseTL": "When we talk about Valentine's Day, we think about confessions. And when we talk about confessions, we think about roses. Hoho, there's roses in the chocolate as well. As for the confession...the Commander will have to use his own imagination~",
+						"chineseNote": "",
+						"japanese": "バレンタインと言えば告白。告白と言えば薔薇が定番ですね。ふふ、チョコに薔薇をつけました。告白かどうかは・・・指揮官さんの想像におまかせします♪",
+						"japaneseTL": "Speaking of Valentines would be speaking of confessions. Speaking of confessions, roses would be a staple. Fufu, I've attached a rose to the chocolate. Whether or not it is a confession… I'll leave it up to your imagination, Commander♪",
+						"japaneseNote": "",
+						"english": "Valentine's Day means confessions, and confessions mean roses. Aha, I even included a rose with your chocolate. Whether that's a confession or not... I'll leave it to your imagination~",
+						"englishNote": ""
+					},
+					"29": {
+						"event": "Valentines 2019",
+						"media": "",
+						"chinese": "指挥官，情人节快乐！今年东煌的春节正好也近，所以巧克力用了一些喜庆的颜色，比如红色的玫瑰和红盒子……有点太过于热情了吗？",
+						"chineseTL": "Commander, happy valentines! As it's close to the Eastern Radiance's spring festival this year, I made you chocolate in festive colors, adorned with red roses in a red box... was it too passionate?",
+						"chineseNote": "",
+						"japanese": "指揮官さん、ハッピーバレンタイン♪ 今年は東煌の春節に近いですし、赤い薔薇に赤い箱、チョコのコーデまでちょっと赤くなりましたけど…ちょっと情熱過ぎたのかな…？",
+						"japaneseTL": "Commander, happy valentines♪ As it is close to the Eastern Radiance's spring festival, red roses, red box... the chocolate turned out to be very festive... was it too passionate?",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					}
+				}
+			},
+			"2": {
+				"skin_id": "ouruola_2",
+				"id": "1",
+				"label": "The Tale of Spring ",
+				"dialogue": {
+					"1": {
+						"event": "Ship Description",
+						"media": "",
+						"chinese": "为了这一天我准备了一段时间呢……指挥官，想听我为您来一段讲书吗？",
+						"chineseTL": "I've prepared for a long time for this day.... Commander, would you like to listen to my storytelling?",
+						"chineseNote": "",
+						"japanese": "この日のために結構準備しましたわ。指揮官さん、私の「評書」（ひょうしょ）、お聞きになりますか？",
+						"japaneseTL": "I've prepared for a long time for this day.... Commander, would you like to listen to my storytelling?",
+						"japaneseNote": "",
+						"english": "I have long prepared for this day... Commander, would you like to listen to my storytelling?",
+						"englishNote": ""
+					},
+					"2": {
+						"event": "Receive",
+						"media": "get_1",
+						"chinese": "为了这一天我准备了一段时间呢……指挥官，想听我为您来一段讲书吗？",
+						"chineseTL": "I've prepared for a long time for this day.... Commander, would you like to listen to my storytelling?",
+						"chineseNote": "",
+						"japanese": "この日のために結構準備しましたわ。指揮官さん、私の「評書」（ひょうしょ）、お聞きになりますか？",
+						"japaneseTL": "I've prepared for a long time for this day.... Commander, would you like to listen to my storytelling?",
+						"japaneseNote": "",
+						"english": "I have long prepared for this day... Commander, would you like to listen to my storytelling?",
+						"englishNote": ""
+					},
+					"3": {
+						"event": "Log in",
+						"media": "login_1",
+						"chinese": "指挥官，欢迎回来，不用急，我也才刚到哦~",
+						"chineseTL": "Commander, welcome back. No need to hurry, I've just got here as well~",
+						"chineseNote": "",
+						"japanese": "指揮官さん、おかえりなさい。ううん、そう急がなくてもいいですよ？私もついさっき戻ったところです♪",
+						"japaneseTL": "Commander, welcome back. No need to hurry, I've just got here as well~",
+						"japaneseNote": "",
+						"english": "Commander, welcome back. Please take your time, I only just got here myself.",
+						"englishNote": ""
+					},
+					"4": {
+						"event": "View details",
+						"media": "detail_1",
+						"chinese": "稍微有些意外吗？呵呵，您往后还会知道更多的我哦~",
+						"chineseTL": "Do you feel surprised? Hoho, you'll know more about me in the future~",
+						"chineseNote": "",
+						"japanese": "この格好少し意外なのでしょうか？うふふ、これからはもっと違う私を知ることになりますよ？",
+						"japaneseTL": "Do you feel surprised? Hoho, you'll know more about me in the future~",
+						"japaneseNote": "",
+						"english": "My outfit is a bit surprising? Ehehe, from now on, you'll learn more and more about a different side of me~",
+						"englishNote": ""
+					},
+					"5": {
+						"event": "Main screen 1",
+						"media": "main_1_1",
+						"chinese": "指挥官，要吃火锅吗？如果您不吃辣的话，我来准备鸳鸯锅~",
+						"chineseTL": "Commander, shall we have hotpot? If you can't take the spiciness, let me prepare the double-flavor hotpot.",
+						"chineseNote": "",
+						"japanese": "指揮官さん、火鍋とかはどうです？辛いのは苦手でしたら、両方楽しめる「鴛鴦」（ユアンヤン）をご用意しますよ？",
+						"japaneseTL": "Commander, shall we have hotpot? If you can't take the spiciness, let me prepare the double-flavor hotpot.",
+						"japaneseNote": "",
+						"english": "Commander, would you like to eat hotpot? If you're not good with spice, I'll prepare a two-sided pot~",
+						"englishNote": ""
+					},
+					"6": {
+						"event": "Main screen 2",
+						"media": "main_2_1",
+						"chinese": "要是累了的话，就一边吃橘子一边听我为您讲书吧~",
+						"chineseTL": "If you're tired, come listen to my stories while eating tangerines~",
+						"chineseNote": "",
+						"japanese": "疲れたら、そこでみかんを食べながら私の評書をお楽しみください",
+						"japaneseTL": "If you're tired, then please have some tangerine while listening to my stories~",
+						"japaneseNote": "",
+						"english": "If you're tired, why don't you enjoy a mandarin while listening to me read a story?",
+						"englishNote": ""
+					},
+					"7": {
+						"event": "Normal touch",
+						"media": "touch_1_1",
+						"chinese": "嗯？怎么了吗，啊，我只是在想，要是明年，后年，大后年，一直都能和现在一样就好了呢",
+						"chineseTL": "Hmm? How am I? Ah, I was just thinking that, if in the next year, the year after that, and the year after - that everyone would remain the same like right now, that would be wonderful",
+						"chineseNote": "",
+						"japanese": "うん？私がどうかしました？はい、来年も、再来年も、そしてそのあとも…ずっとこのままでいられればいいなって思っていました",
+						"japaneseTL": "Hmm? How am I? Ah, I was just thinking that, if in the next year, the year after that, and the year after - that everyone would remain the same like right now, that would be wonderful",
+						"japaneseNote": "",
+						"english": "Eh? What's the matter? Ah, I was just thinking... it'd be great if things could stay like this next year, and the year after that, and forever more...",
+						"englishNote": ""
+					}
+				}
+			},
+			"3": {
+				"skin_id": "ouruola_3",
+				"id": "2",
+				"label": "黎明に捧げる賛歌",
+				"dialogue": {
+					"1": {
+						"event": "Ship Description",
+						"media": "",
+						"chinese": "我一直觉得，音乐有着独特的，能够震撼人心的力量，所以尝试学习了一下小提琴。指挥官，请欣赏我的演奏吧",
+						"chineseTL": "I always felt music has a unique power that can move hearts, for that matter I tried to learn the violin. Commander, please enjoy my performance.",
+						"chineseNote": "",
+						"japanese": "音楽は人の心をも動かす特別な力を持っているとずっと信じています。だから私、ヴァイオリンを少し勉強してみました。指揮官、ぜひ聞いてください",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"2": {
+						"event": "Receive",
+						"media": "get_2",
+						"chinese": "我一直觉得，音乐有着独特的，能够震撼人心的力量，所以尝试学习了一下小提琴。指挥官，请欣赏我的表演吧",
+						"chineseTL": "I always felt music has a unique power that can move hearts, for that matter I tried to learn the violin. Commander, please enjoy my performance.",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"3": {
+						"event": "View details",
+						"media": "detail_2",
+						"chinese": "指挥官，平时我会在广场演奏，有兴趣的话可以过来欣赏哦",
+						"chineseTL": "Commander, I usually perform in the square plaza, you can come and enjoy it any time.",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"4": {
+						"event": "Main screen 1",
+						"media": "main_1_2",
+						"chinese": "演奏的时候鸽子们不知不觉就聚集了起来，呵呵，看起来要准备些饲料了呢",
+						"chineseTL": "Doves seem to often gather around me during performances. Hehe, looks like I will have to prepare some feed.",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"5": {
+						"event": "Main screen 2",
+						"media": "main_2_2",
+						"chinese": "指挥官对乐器感兴趣吗？私心来说，我希望指挥官能弹钢琴来跟我合奏呢～",
+						"chineseTL": "Is commander interested in musical instruments? Personally, I am hoping commander can play the piano for a duet with me~",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"6": {
+						"event": "Main screen 3",
+						"media": "main_3_2",
+						"chinese": "指挥官，当我身处黑暗之中而不知光明何在的时候，就来听我的演奏吧",
+						"chineseTL": "Commander, when I am shrouded in darkness unaware of where the light is, come listen to my performance.",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"7": {
+						"event": "Normal touch",
+						"media": "touch_1_2",
+						"chinese": "工作告一段落了吗，那么，想听些什么呢？",
+						"chineseTL": "Now that we are done with work, what would you like to hear?",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"8": {
+						"event": "Special touch",
+						"media": "touch_2_2",
+						"chinese": "真是的，指挥官，这样会扰乱我的演奏的……",
+						"chineseTL": "Really, commander, you will ruin my performance...",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"9": {
+						"event": "Return to port",
+						"media": "home_2",
+						"chinese": "辛苦了，指挥官，让我用音乐来治愈你的心灵吧",
+						"chineseTL": "Good work, commander, let my music heal your soul.",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"10": {
+						"event": "Love",
+						"media": "feeling5_2",
+						"chinese": "指挥官，战争结束后我们去旅行吧，在不同的地方演奏，为不同的人送去祝福，这是只有我们才能做到的事呢",
+						"chineseTL": "Commander, when the war is over let's travel faraway and perform in different places, to send blessings to different people. This is something only we can do.",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					}
+				}
+			}
+		}
+	}
 }

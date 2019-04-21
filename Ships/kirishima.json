@@ -1,47 +1,31 @@
 {
-	"name": "Kirishima",
+	"name_reference": "kirishima",
+	"cn_reference": "wudao",
 	"nameJP": "霧島",
-	"nameCN": "鳗",
-	"class": "Kongou",
-	"hull": "Battlecruiser",
-	"prefix": "IJN",
+	"nameCN": "雾岛",
 	"ID": "207",
-	"file_id": "207_Kirishima",
-	"navy": "Sakura Empire",
-	"initialStar": "★★☆☆☆",
+	"name": "Kirishima",
+	"internal_id": "304041",
 	"rarity": "Elite",
+	"initialStar": "★★☆☆☆",
+	"hull": "Battlecruiser",
+	"navy": "Sakura Empire",
+	"prefix": "IJN",
 	"buildTime": "N/A",
-	"acquisitionMethod": "Login Reward from event \"Kirishima's Ninjutsu Class\"",
-	"enhance": {
-		"firepower": "46",
-		"torpedo": "0",
-		"aviation": "0",
-		"reload": "11"
+	"class": "Kongou",
+	"voiceActress": "Chie Matsuura",
+	"parameters": {
+		"firepower": "A",
+		"torpedo": "E",
+		"aviation": "E",
+		"evasion": "C",
+		"antiAir": "C",
+		"hp": "B"
 	},
 	"scrap": {
-		"gold": "11",
-		"oil": "4",
+		"gold": "10",
+		"oil": "3",
 		"medal": "4"
-	},
-	"skin": {
-		"1": {
-			"name": "Default",
-			"description": "Fourth ship of the Kongou class fast battleships, Kirishima",
-			"expression": {
-				"1": {
-					"label": "Default"
-				}
-			}
-		},
-		"2": {
-			"name": "After-School Cannon Time",
-			"description": "Commander, enjoying school life is all fine and well, but we must not forget our duty... That said, what missions are waiting for us today?",
-			"expression": {
-				"1": {
-					"label": "Default"
-				}
-			}
-		}
 	},
 	"releaseDate": {
 		"JP": "",
@@ -49,7 +33,6 @@
 		"KR": "",
 		"EN": "March 14, 2019"
 	},
-	"voiceActress": "Chie Matsuura",
 	"artist": {
 		"name": "Criin",
 		"weibo": "https://weibo.com/cirini",
@@ -57,84 +40,141 @@
 		"pixiv": "https://www.pixiv.net/member.php?id=4460847",
 		"other": ""
 	},
-	"parameters": {
-		"hp": "B",
-		"antiAir": "C",
-		"evasion": "C",
-		"aviation": "E",
-		"torpedo": "E",
-		"firepower": "A"
+	"enhance": {
+		"firepower": "46",
+		"torpedo": "0",
+		"aviation": "0",
+		"reload": "11"
+	},
+	"acquisitionMethod": "Login Reward from event \"Kirishima's Ninjutsu Class\"",
+	"skill": {
+		"1": {
+			"icon": "11270",
+			"requirement": "Default Unlocked",
+			"name": "Blaze of Glory",
+			"type": "Offensive",
+			"description": "Increase own damage against BBs by 5% (15%). When firing main gun: 30% (60%) chance to launch a frontal Sanshikidan barrage (number of bullets based on skill level)"
+		}
+	},
+	"skin": {
+		"1": {
+			"id": "wudao",
+			"name": "Kirishima ",
+			"description": "Kongou-class fast battleship number four – Kirishima. ",
+			"expression": {
+				"0": {
+					"id": "0"
+				}
+			}
+		},
+		"2": {
+			"id": "Wudao_2",
+			"name": "After-School Cannon Time ",
+			"description": "Commander, enjoying school life is all fine and well, but we must not forget our duty... That said, what missions are waiting for us today? ",
+			"expression": {
+				"0": {
+					"id": "0"
+				}
+			}
+		}
+	},
+	"defaultEquipment": {
+		"1": {
+			"icon": "36500",
+			"rarity": "Common",
+			"name": "76mm AA Gun"
+		},
+		"2": {
+			"icon": "",
+			"rarity": "",
+			"name": ""
+		}
 	},
 	"stats": {
 		"100": {
 			"hp": "5620",
-			"armor": "Medium",
-			"reload": "139",
-			"firepower": "237",
+			"firepower": "327",
 			"torpedo": "0",
-			"evasion": "20",
 			"antiAir": "238",
 			"aviation": "0",
-			"cost": "14",
-			"asw": "0",
+			"reload": "139",
+			"hit": "55",
+			"evasion": "20",
+			"speed": "30",
 			"luck": "37",
-			"speed": "30"
+			"asw": "0",
+			"oxygen": "0",
+			"ammo": "0",
+			"cost": "14",
+			"armor": "Medium"
 		},
 		"120": {
 			"hp": "6604",
-			"armor": "Medium",
-			"reload": "160",
 			"firepower": "367",
 			"torpedo": "0",
-			"evasion": "37",
 			"antiAir": "273",
 			"aviation": "0",
-			"cost": "14",
-			"asw": "0",
+			"reload": "160",
+			"hit": "68",
+			"evasion": "37",
+			"speed": "30",
 			"luck": "37",
-			"speed": "30"
+			"asw": "0",
+			"oxygen": "0",
+			"ammo": "0",
+			"cost": "14",
+			"armor": "Medium"
 		},
 		"base": {
 			"hp": "1087",
-			"armor": "Medium",
-			"reload": "59",
 			"firepower": "69",
 			"torpedo": "0",
-			"evasion": "8",
 			"antiAir": "51",
 			"aviation": "0",
-			"cost": "5",
-			"asw": "0",
+			"reload": "59",
+			"hit": "21",
+			"evasion": "8",
+			"speed": "30",
 			"luck": "37",
-			"speed": "30"
+			"asw": "0",
+			"oxygen": "0",
+			"ammo": "0",
+			"cost": "5",
+			"armor": "Medium"
 		},
 		"100retrofit": {
 			"hp": "",
-			"armor": "",
-			"reload": "",
 			"firepower": "",
 			"torpedo": "",
-			"evasion": "",
 			"antiAir": "",
 			"aviation": "",
-			"cost": "",
+			"reload": "",
+			"hit": "",
+			"evasion": "",
+			"speed": "30",
+			"luck": "37",
 			"asw": "",
-			"luck": "",
-			"speed": ""
+			"oxygen": "0",
+			"ammo": "0",
+			"cost": "14",
+			"armor": "Medium"
 		},
 		"120retrofit": {
 			"hp": "",
-			"armor": "",
-			"reload": "",
 			"firepower": "",
 			"torpedo": "",
-			"evasion": "",
 			"antiAir": "",
 			"aviation": "",
-			"cost": "",
+			"reload": "",
+			"hit": "",
+			"evasion": "",
+			"speed": "30",
+			"luck": "37",
 			"asw": "",
-			"luck": "",
-			"speed": ""
+			"oxygen": "0",
+			"ammo": "0",
+			"cost": "14",
+			"armor": "Medium"
 		}
 	},
 	"limitBreak": {
@@ -144,13 +184,13 @@
 	},
 	"equipmentLoadout": {
 		"1": {
-			"type": "BB Gun",
+			"type": "Battleship",
 			"efficiency": "105%/110%/120%/135%",
-			"amount": "1/2/2/3",
+			"amount": "1/1/1/1",
 			"preload": "0/0/0/0"
 		},
 		"2": {
-			"type": "DD/CL Gun",
+			"type": "Light Cruiser",
 			"efficiency": "150%/150%/150%/150%",
 			"amount": "1/1/3/3",
 			"preload": "0/0/0/0"
@@ -162,29 +202,16 @@
 			"preload": "0/0/0/0"
 		},
 		"4": {
-			"type": "Auxilliary",
+			"type": "Auxilary",
 			"efficiency": "-",
 			"amount": "-",
 			"preload": "-"
 		},
 		"5": {
-			"type": "Auxilliary",
+			"type": "Auxilary",
 			"efficiency": "-",
 			"amount": "-",
 			"preload": "-"
-		}
-	},
-	"defaultEquipment": {
-		"1": "Twin 356mm (41st Year Type) T1",
-		"2": "-",
-		"3": "Twin 25mm AA Type 96 T1"
-	},
-	"skill": {
-		"1": {
-			"name": "Blaze of Glory",
-			"type": "Offensive",
-			"requirement": "Default Unlocked",
-			"description": "Increase own damage against BBs by 5% (15%). When firing main gun: 30% (60%) chance to launch a frontal Sanshikidan barrage (number of bullets based on skill level)"
 		}
 	},
 	"build": {
@@ -213,26 +240,14 @@
 		"droppable": "false",
 		"list": {
 			"1": {
-				"event": "World",
+				"event": "",
 				"chapter": {
 					"1": {
-						"label": "Ch. 11",
+						"label": "Ch .1",
 						"node": {
 							"1": {
-								"drop": "-",
-								"note": ""
-							},
-							"2": {
-								"drop": "-",
-								"note": ""
-							},
-							"3": {
 								"drop": "✓",
-								"note": ""
-							},
-							"4": {
-								"drop": "-",
-								"note": "Boss"
+								"note": "-"
 							}
 						}
 					}
@@ -243,491 +258,495 @@
 	"lines": {
 		"skin": {
 			"1": {
-				"label": "Default",
+				"skin_id": "wudao",
+				"id": "0",
+				"label": "Kirishima ",
 				"dialogue": {
 					"1": {
 						"event": "Ship Description",
 						"media": "",
 						"chinese": "金刚级高速战舰四番舰—雾岛",
-						"chineseTL": "Fourth ship of the Kongou class fast battleships, Kirishima",
+						"chineseTL": "",
 						"chineseNote": "",
 						"japanese": "金剛型高速戦艦四番艦・霧島",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Kongou-class fast battleship number four – Kirishima.",
 						"englishNote": ""
 					},
 					"2": {
-						"event": "Self Introduction",
-						"media": "self_introduction",
+						"event": "Biography",
+						"media": "profile",
 						"chinese": "我是金刚级最小的妹妹——雾岛号高速战舰。曾炮击过亨德森与南达科他，探照灯、三式弹？哈……哈哈……",
-						"chineseTL": "I am the youngest among the Kongou class, fast battleship Kirishima. I once shelled Henderson field and South Dakota...Searchlights, Type 3 shells? Ha...haha...",
+						"chineseTL": "",
 						"chineseNote": "",
-						"japanese": "金剛型の末っ子、高速戦艦・霧島だ。ヘンダーソン飛行場と、あの戦艦サウスダコタに向けて主砲をぶっ放したぜ。探照灯に…三式弾？……あ、あははは……",
+						"japanese": "金剛型の末っ子、高速戦艦・霧島だ。ヘンダーソン飛行場と、あの戦艦サウスダコタに向けて主砲をぶっ放したぞ。探照灯に…三式弾？……あ、あははは……",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "I am Kirishima, the youngest of the Kongou-class fast battleships. I once bombarded Henderson Field and that battleship South Dakota. Searchlights... and Type 3 Shells? ... Aha, hahaha...",
 						"englishNote": ""
 					},
 					"3": {
-						"event": "Acquisition",
-						"media": "acquisition",
+						"event": "Receive",
+						"media": "get",
 						"chinese": "我是高速战舰、雾岛！未来的路途还很漫长，指挥官，我们一同前行吧！",
-						"chineseTL": "I am fast battleship, Kirishima! The road ahead of us is still long. Commander, let us tread it together!",
+						"chineseTL": "",
 						"chineseNote": "",
 						"japanese": "私は高速戦艦・霧島だ！さあ指揮官、この先の長い道のり、共に往こうじゃないか！",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "I'm Kirishima, the fast battleship! Now, Commander, there's a long road ahead of us, and we should walk down it together!",
 						"englishNote": ""
 					},
 					"4": {
-						"event": "Login",
+						"event": "Log in",
 						"media": "login",
 						"chinese": "指挥官，我有什么能为您效劳的吗",
-						"chineseTL": "Commander, how may I be of service to you?",
+						"chineseTL": "",
 						"chineseNote": "",
 						"japanese": "指揮官、この私が役立てることはあるか？",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Commander, is there anything I can help with?",
 						"englishNote": ""
 					},
 					"5": {
-						"event": "Details",
-						"media": "details",
+						"event": "View details",
+						"media": "detail",
 						"chinese": "指挥官要一起来喝点红茶吗？金刚姐送我的",
-						"chineseTL": "Does commander also want some tea? Kongou gave it to me.",
+						"chineseTL": "",
 						"chineseNote": "",
 						"japanese": "金剛から紅茶をもらったぞ。一緒に飲んでみないか？",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Kongou brought me some tea. How about we drink it together?",
 						"englishNote": ""
 					},
 					"6": {
-						"event": "Idle 1",
-						"media": "idle_1",
+						"event": "Main screen 1",
+						"media": "main_1",
 						"chinese": "探照灯？啊哈哈…战场和舞台还是不一样呢…",
-						"chineseTL": "Searchlight? Ahaha...the battlefield is different from a stage after all...",
+						"chineseTL": "",
 						"chineseNote": "",
 						"japanese": "探照灯？あははは…戦場はステージとは違うぞ",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Searchlights? Ahahahah... The battlefield is no stage.",
 						"englishNote": ""
 					},
 					"7": {
-						"event": "Idle 2",
-						"media": "idle_2",
+						"event": "Main screen 2",
+						"media": "main_2",
 						"chinese": "为什么蒙面？哈哈，要不要猜猜看？",
-						"chineseTL": "Why do I cover my face? Haha, let's see if you can guess the reason why.",
+						"chineseTL": "",
 						"chineseNote": "",
 						"japanese": "覆面？ふふん、なんで覆面しているか当ててみないか？",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Why I wear this mask? Hahah, think you can guess why?",
 						"englishNote": ""
 					},
 					"8": {
-						"event": "Idle 3",
-						"media": "idle_3",
+						"event": "Main screen 3",
+						"media": "main_3",
 						"chinese": "金刚姐，我来帮你——欸，不、不需要吗……",
-						"chineseTL": "Kongou, let me help you...eh, you don't need my help?...",
+						"chineseTL": "",
 						"chineseNote": "",
 						"japanese": "金剛、今手伝って……あれ？い、いらないか……",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Kongou, allow me to help... What? Y-you don't want any help, huh...",
 						"englishNote": ""
 					},
 					"9": {
-						"event": "Touch",
-						"media": "touch",
+						"event": "Normal touch",
+						"media": "touch_1",
 						"chinese": "指挥官，寂寞了吗？",
-						"chineseTL": "Commander, are you lonely?",
+						"chineseTL": "",
 						"chineseNote": "",
 						"japanese": "指揮官、寂しくなったのか？",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Were you starting to feel lonely, Commander?",
 						"englishNote": ""
 					},
 					"10": {
-						"event": "Special Touch",
-						"media": "special_touch",
+						"event": "Special touch",
+						"media": "touch_2",
 						"chinese": "指挥官，要做就堂堂正正的来，我就在这里——啊哈哈，害羞了吗？",
-						"chineseTL": "Commander, if you want to do it then come at me directly, I am right here...Ahaha, are you embarrassed?",
+						"chineseTL": "",
 						"chineseNote": "",
 						"japanese": "指揮官、私はここにいるぞ。やるなら正面から堂々といくべきだな。あはは、なんだ～指揮官のほうが恥ずかしがってるじゃないか",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "I'm right here, Commander. Face your partner square on if you're going to do that. Ahahah, look at you~ Now it's you who's embarrassed.",
 						"englishNote": ""
 					},
 					"11": {
-						"event": "Mission",
-						"media": "mission",
+						"event": "Mission reminder",
+						"media": "task",
 						"chinese": "唔，回来的时候要带什么礼物呢……",
-						"chineseTL": "Hmm, what souvenir should I get...",
+						"chineseTL": "",
 						"chineseNote": "",
 						"japanese": "ふむ、今度戻る時の土産はどうすべきか……",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Hum, hum. What should I take home with me as a souvenir...",
 						"englishNote": ""
 					},
 					"12": {
-						"event": "Mission Complete",
+						"event": "Mission complete",
 						"media": "mission_complete",
 						"chinese": "指挥官，一起来把累趴下的孩子们抱回寝室吧",
-						"chineseTL": "Commander, let's carry the exhausted children back to their bedrooms.",
+						"chineseTL": "",
 						"chineseNote": "",
 						"japanese": "疲労で倒れた子がいるようだ。一緒に寮まで運ぶぞ",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Those girls seem exhausted from their commission. Let's go and carry them back to the dormitory.",
 						"englishNote": ""
 					},
 					"13": {
-						"event": "Mail",
+						"event": "Mail reminder",
 						"media": "mail",
 						"chinese": "给你的信件，指挥官还真是有人气啊",
-						"chineseTL": "Here's your mail, commander is pretty popular after all.",
+						"chineseTL": "",
 						"chineseNote": "",
 						"japanese": "メールだぞ。指揮官って人気者だな",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "You have mail. You must be really popular, Commander.",
 						"englishNote": ""
 					},
 					"14": {
-						"event": "Return from Sortie",
-						"media": "return_from_sortie",
+						"event": "Return to port",
+						"media": "home",
 						"chinese": "辛苦啦，指挥官，下次也带上我吧~",
-						"chineseTL": "Good work, commander, please bring me along next time as well.",
+						"chineseTL": "",
 						"chineseNote": "",
 						"japanese": "指揮官、ご苦労だったな。次はこの私も連れて行ってみてはどうだ？",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "You're doing good work out there, Commander. For the next battle, what do you say about bringing me along?",
 						"englishNote": ""
 					},
 					"15": {
-						"event": "Commission Complete",
-						"media": "commission_complete",
+						"event": "Commission complete",
+						"media": "expedition",
 						"chinese": "真是辛苦，我也去帮帮忙吧——",
-						"chineseTL": "It's really hard, let me go and help.",
+						"chineseTL": "",
 						"chineseNote": "",
 						"japanese": "大変だな…私も手伝おうか？",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "You're knee-deep in paperwork... Want some help?",
 						"englishNote": ""
 					},
 					"16": {
-						"event": "Enhancement",
-						"media": "enhancement",
+						"event": "Enhancing complete",
+						"media": "upgrade",
 						"chinese": "继续改造下去，我最终会变成什么模样呢……",
-						"chineseTL": "If I were to be remodeled over and over again, what will I eventually become?",
+						"chineseTL": "",
 						"chineseNote": "",
 						"japanese": "このまま改修が続いたらどうなるのかね…",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "I wonder what'll become of me if these improvements continue...",
 						"englishNote": ""
 					},
 					"17": {
-						"event": "Sortie Start",
-						"media": "sortie_start",
+						"event": "Flagship fight",
+						"media": "warcry",
 						"chinese": "万方将由此炮而定！",
-						"chineseTL": "Everything shall be decided with this shot!",
+						"chineseTL": "",
 						"chineseNote": "",
 						"japanese": "この主砲で決める！",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "My cannons will decide this battle!",
 						"englishNote": ""
 					},
 					"18": {
-						"event": "MVP",
+						"event": "Victory",
 						"media": "mvp",
 						"chinese": "嘛，因为我全力以赴了嘛~",
-						"chineseTL": "Well, this is because I gave it my all...",
+						"chineseTL": "",
 						"chineseNote": "",
 						"japanese": "私の全力をもってすれば、こうなるのは当然だ",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "When I use all my power, this is only natural.",
 						"englishNote": ""
 					},
 					"19": {
 						"event": "Defeat",
-						"media": "defeat",
+						"media": "lose",
 						"chinese": "能在炮击战中谢幕，说不一定也是一种幸运……",
-						"chineseTL": "Having my finale during an exchange of shells with the enemy, maybe this in a way can be considered as fortunate...",
+						"chineseTL": "",
 						"chineseNote": "",
 						"japanese": "砲撃戦で散ることができるのは、あるいは幸運なことかもしれないな……",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Being able to meet one's demise in a battle of firepower might not be so unfortunate...",
 						"englishNote": ""
 					},
 					"20": {
-						"event": "Skill Activation",
-						"media": "skill_activation",
+						"event": "Skills",
+						"media": "skill",
 						"chinese": "露出破绽了哦——",
-						"chineseTL": "I see your weak point!",
+						"chineseTL": "",
 						"chineseNote": "",
-						"japanese": "見切ったぜ！",
+						"japanese": "見切った！",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "I see your weakness!",
 						"englishNote": ""
 					},
 					"21": {
-						"event": "Low Health",
-						"media": "low_health",
+						"event": "Low HP",
+						"media": "hp",
 						"chinese": "最终幕……拉开了！",
-						"chineseTL": "The final act...has began!",
+						"chineseTL": "",
 						"chineseNote": "",
 						"japanese": "さあ…最後の幕開けだ！",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "This is it... The beginning of the end!",
 						"englishNote": ""
 					},
 					"22": {
-						"event": "Affinity (Disappointed)",
-						"media": "affinity_disappointed",
+						"event": "Upset",
+						"media": "feeling1",
 						"chinese": "指挥官肯定有什么苦衷的吧！",
-						"chineseTL": "There must be a reason why commander is doing this!",
+						"chineseTL": "",
 						"chineseNote": "",
 						"japanese": "まあ、指揮官も言えない悩みがあるようだし……",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Well, guess even you have problems you won't tell others about...",
 						"englishNote": ""
 					},
 					"23": {
-						"event": "Affinity (Stranger)",
-						"media": "affinity_stranger",
+						"event": "Stranger",
+						"media": "feeling2",
 						"chinese": "比叡姐真是无论何时都不慌乱…",
-						"chineseTL": "Hiei really remains calm no matter how severe the situation is...",
+						"chineseTL": "",
 						"chineseNote": "",
 						"japanese": "比叡はどんな時でも慌てないもんな…",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Hiei manages to always stay calm, no matter the situation...",
 						"englishNote": ""
 					},
 					"24": {
-						"event": "Affinity (Friendly)",
-						"media": "affinity_friendly",
+						"event": "Friendly",
+						"media": "feeling3",
 						"chinese": "其实我和榛名算是双胞胎姐妹，而且对我来说，她更像个让人不省心的妹妹呢",
-						"chineseTL": "Actually Haruna and I can be considered as twins, and to me, she's more like a troubling little sister.",
+						"chineseTL": "",
 						"chineseNote": "",
 						"japanese": "榛名とは双子だけど、私にとってあいつは世話の焼ける妹みたいなもんだ",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Haruna and I are twins, but to me she feels more like an annoying little sister.",
 						"englishNote": ""
 					},
 					"25": {
-						"event": "Affinity (Like)",
-						"media": "affinity_like",
+						"event": "Crush",
+						"media": "feeling4",
 						"chinese": "大体来说，我的姐姐们都很优秀，为了成为不令她们蒙羞的妹妹，我一直都在努力——我也很棒？啊哈哈…得到指挥官你的承认太好了",
-						"chineseTL": "Overall, my sisters are all very outstanding. So as to not bring shame to them, I have always tried my best...I am great too? Ahaha...it's great to receive commander's recognition.",
+						"chineseTL": "",
 						"chineseNote": "",
 						"japanese": "まあ、姉貴たちはみな優秀だからな。彼女たちの足を引っ張らないようこっちも必死に頑張るしかないさ――私も優秀だって？ははは、指揮官に認められて嬉しいぞ",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "You know, my big sisters are both really brilliant. That's why I have to work so hard not to hold them back... You think I'm brilliant, too? Hahahah, I'm happy to receive your approval.",
 						"englishNote": ""
 					},
 					"26": {
-						"event": "Affinity (Love)",
-						"media": "affinity_love",
+						"event": "Love",
+						"media": "feeling5",
 						"chinese": "指挥官，比叡姐宴会上的舞伴…能拜托你吗？我能想到的只有你了——诶？这种一般要由男士邀约？啊哈哈……",
-						"chineseTL": "Commander, do you mind...being my partner at Hiei's banquet? You are the only person that comes to mind...Eh? Usually it's the man who makes the invitation? Ahaha...",
+						"chineseTL": "",
 						"chineseNote": "",
 						"japanese": "比叡が主催するパーティでダンスがあるんだが…一緒に踊ってくれないか？相手を考えたが指揮官しか思いつかなくてさ――うん？普通は男性から誘うのか？あはは、そうだったか……",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "There'll be a dance at a party Hiei is organizing, so... could you be my dance partner? I mulled over it a bit, but you're really my only choice... Huh? Normally, it's the man who asks his partner for a dance? Ahahah, right, how stupid of me...",
 						"englishNote": ""
 					},
 					"27": {
-						"event": "Pledge",
-						"media": "pledge",
+						"event": "Promise",
+						"media": "propose",
 						"chinese": "没想到会由指挥官发起攻势…总觉得有点不好意思呢…咳咳，那就作为回礼…指挥官，愿意与我共舞一曲吗",
-						"chineseTL": "I didn't think that commander would attack first...kind of makes me feel embarrassed...Ahem, then, to reciprocate this gift...commander, shall we dance?",
+						"chineseTL": "",
 						"chineseNote": "",
 						"japanese": "ま、まさか指揮官からアタックされるとは…なんだか恥ずかしいな…こ、コホン！じゃあお返しに…指揮官、これからもずっとダンスの相手、付き合ってあげるよ",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "I-I never would've expected an attack from you... Well, this is embarrassing... *A-ahem*! Then, to return the favor... Commander, whenever you need a dance partner, I'll be yours.",
 						"englishNote": ""
 					},
 					"28": {
-						"event": "Easter Egg 1 (South Dakota)",
-						"media": "easter_egg_1",
-						"chinese": "(南达科他)让我看看最强之盾是否名副其实！",
-						"chineseTL": "(South Dakota) Let's see if you live up to your name as the strongest shield!",
+						"event": "Easter Egg 1(South Dakota)",
+						"media": "link1",
+						"chinese": "让我看看最强之盾是否名副其实！",
+						"chineseTL": "",
 						"chineseNote": "",
-						"japanese": "(Sortie with USS South Dakota) 最強の盾、その名に相応しいか見せてくれ！",
+						"japanese": "最強の盾、その名に相応しいか見せてくれ！",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Prove to me that you're worthy of being known as the Strongest Shield!",
 						"englishNote": ""
 					},
 					"29": {
-						"event": "Easter Egg 2 (Kongou)",
-						"media": "easter_egg_2",
-						"chinese": "(金刚)金刚姐，今天也很漂亮啊",
-						"chineseTL": "(Kongou) Kongou, you are beautiful today as well",
+						"event": "Easter Egg 2(Kongou)",
+						"media": "link2",
+						"chinese": "金刚姐，今天也很漂亮啊",
+						"chineseTL": "",
 						"chineseNote": "",
-						"japanese": "(Sortie with IJN Kongō) 金剛、今日も綺麗だな",
+						"japanese": "金剛、今日も綺麗だな",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Kongou, you're looking elegant as ever.",
 						"englishNote": ""
 					},
 					"30": {
-						"event": "Easter Egg 3 (Hiei)",
-						"media": "easter_egg_3",
-						"chinese": "(比叡)比叡姐，这次不要再离开我了！",
-						"chineseTL": "(Hiei) Hiei, please don't leave me this time!",
+						"event": "Easter Egg 3(Hiei)",
+						"media": "link3",
+						"chinese": "比叡姐，这次不要再离开我了！",
+						"chineseTL": "",
 						"chineseNote": "",
-						"japanese": "(Sortie with IJN Hiei) 比叡、今度は私から離れないでくれよ！",
+						"japanese": "比叡、今度は私から離れないでくれよ！",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Hiei, try stay close to me this time!",
 						"englishNote": ""
 					},
 					"31": {
-						"event": "Easter Egg 4 (Haruna)",
-						"media": "easter_egg_4",
-						"chinese": "(榛名)榛名，要来比一比吗？",
-						"chineseTL": "(Haruna) Haruna, wanna go at it with me?",
-						"chineseNote": "",
-						"japanese": "(Sortie with IJN Haruna) 榛名、勝負でもしてみるか？",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "",
-						"englishNote": ""
-					},
-					"32": {
-						"event": "Valentines 2019",
-						"media": "",
-						"chinese": "",
+						"event": "Easter Egg 4(Haruna)",
+						"media": "link4",
+						"chinese": "榛名，要来比一比吗？",
 						"chineseTL": "",
 						"chineseNote": "",
-						"japanese": "ああそうか、今日はバレンタインだったな。私？ふふふ、もちろんチョコを持ってるよ？渡されたものと…指揮官、あなたに渡すものも。はい、ハッピーバレンタイン♪",
+						"japanese": "榛名、勝負でもしてみるか？",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Haruna, why don't we settle things with a match?",
 						"englishNote": ""
 					}
 				}
 			},
 			"2": {
-				"label": "After-School Cannon Time",
+				"skin_id": "Wudao_2",
+				"id": "1",
+				"label": "After-School Cannon Time ",
 				"dialogue": {
 					"1": {
-						"event": "Acquisition",
-						"media": "acquisition",
+						"event": "Ship Description",
+						"media": "",
 						"chinese": "指挥官，享受校园生活虽然是好事，不过忘了我们的本职可不行…所以，今天又有什么样的任务在等着我们呢？",
-						"chineseTL": "Commander, while it's certainly nice that we get to enjoy school life, we shouldn't forget about our duties...So, what missions await us today?",
+						"chineseTL": "",
 						"chineseNote": "",
 						"japanese": "指揮官、学園生活を楽しむのもいいが、本職を忘れてはならないぞ……で、今日はどんな任務が私たちを待っているんだ？",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Commander, enjoying school life is all fine and well, but we must not forget our duty... That said, what missions are waiting for us today?",
 						"englishNote": ""
 					},
 					"2": {
-						"event": "Login",
-						"media": "login",
+						"event": "Receive",
+						"media": "get_1",
+						"chinese": "指挥官，享受校园生活虽然是好事，不过忘了我们的本职可不行…所以，今天又有什么样的任务在等着我们呢？",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "指揮官、学園生活を楽しむのもいいが、本職を忘れてはならないぞ……で、今日はどんな任務が私たちを待っているんだ？",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Commander, enjoying school life is all fine and well, but we must not forget our duty... That said, what missions are waiting for us today?",
+						"englishNote": ""
+					},
+					"3": {
+						"event": "Log in",
+						"media": "login_1",
 						"chinese": "指挥官，你的领结歪了哦，我来帮你整理一下吧",
-						"chineseTL": "Commander, your tie is crooked, let me adjust it for you.",
+						"chineseTL": "",
 						"chineseNote": "",
 						"japanese": "指揮官、ネクタイ曲がっているぞ。正してあげようか？",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Commander, your necktie is crooked. Want me to straighten it out for you?",
 						"englishNote": ""
 					},
-					"3": {
-						"event": "Details",
-						"media": "details",
+					"4": {
+						"event": "View details",
+						"media": "detail_1",
 						"chinese": "指挥官，放学后一起去赏花如何？",
-						"chineseTL": "Commander, would you like to go flower-viewing with me after school?",
+						"chineseTL": "",
 						"chineseNote": "",
 						"japanese": "指揮官、放課後は一緒に花見でもどうだ？",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Commander, how about we go flower-viewing later after school?",
 						"englishNote": ""
 					},
-					"4": {
-						"event": "Idle 1",
-						"media": "idle_1",
+					"5": {
+						"event": "Main screen 2",
+						"media": "main_2_1",
 						"chinese": "指挥官，如果有什么烦恼，尽管来找我谈谈吧",
-						"chineseTL": "Commander, if anything's troubling you, then feel free to talk to me about it.",
+						"chineseTL": "",
 						"chineseNote": "",
 						"japanese": "指揮官、悩みがあったら私に相談してもいいぞ",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Commander, if there's anything troubling you, you can always tell me.",
 						"englishNote": ""
 					},
-					"5": {
-						"event": "Idle 2",
-						"media": "idle_2",
+					"6": {
+						"event": "Main screen 3",
+						"media": "main_3_1",
 						"chinese": "我还没决定要加入哪个社团…弓道部听起来好像不错？欸，不适合我？",
-						"chineseTL": "I still haven't decided which club to join yet...the archery club doesn't seem too bad...Eh, it doesn't suit me?",
+						"chineseTL": "",
 						"chineseNote": "",
 						"japanese": "どのブカツに入るかまだ決めていないが…弓道部？なんか良さそうだな…えっ、私らしくない？？",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "I haven't picked a club to join yet... The Archery Club? That actually sounds pretty good... Huh? I'm \"not suited for that\"?",
 						"englishNote": ""
 					},
-					"6": {
-						"event": "Mail",
-						"media": "mail",
+					"7": {
+						"event": "Mail reminder",
+						"media": "mail_1",
 						"chinese": "学校中的大家很流行互相写信，拜此所赐，我现在已经很擅长写回信了！",
-						"chineseTL": "Writing letters is pretty popular in school. Thanks to that, I have become pretty good at it!",
+						"chineseTL": "",
 						"chineseNote": "",
 						"japanese": "最近文通とやらは学園で流行っていてね。おかげさまでこういうのを返すのは得意だぞ",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "\"Mailing\" seems to have gotten pretty popular at school lately. Thanks to that, I've gotten pretty good at writing.",
 						"englishNote": ""
 					},
-					"7": {
-						"event": "Return from Sortie",
-						"media": "return_from_sortie",
+					"8": {
+						"event": "Return to port",
+						"media": "home_1",
 						"chinese": "我给后辈们做了些点心，一起去送给她们吧",
-						"chineseTL": "I made some dessert for the underclassmen, let's go give it to them",
+						"chineseTL": "",
 						"chineseNote": "",
 						"japanese": "後輩たちのために少しお菓子を作ってみたぞ。あとで一緒に届けに行こう",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "I made some sweets for my classmates. Let's hand them out together later.",
 						"englishNote": ""
 					},
-					"8": {
-						"event": "Sortie Start",
-						"media": "sortie_start",
+					"9": {
+						"event": "Flagship fight",
+						"media": "warcry_1",
 						"chinese": "放学后的退敌时间！",
 						"chineseTL": "",
 						"chineseNote": "",
 						"japanese": "放課後の砲撃タイムってね！",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "It's after-school cannon time!",
 						"englishNote": ""
 					}
 				}

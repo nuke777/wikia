@@ -1,0 +1,576 @@
+{
+	"name_reference" : "wasp",
+	"cn_reference" : "hufeng",
+	"nameJP" : "ワスプ",
+	"nameCN" : "胡蜂",
+	"ID" : "79",
+	"name" : "Wasp",
+	"internal_id" : "107081",
+	"rarity" : "Rare",
+	"initialStar" : "★★☆☆☆",
+	"hull" : "Aircraft Carrier",
+	"navy" : "Eagle Union",
+	"prefix" : "USS",
+	"buildTime" : "",
+	"class" : "Wasp",
+	"voiceActress" : "Tomoyo Takayanagi",
+	"parameters": {
+		"firepower" : "E",
+		"torpedo" : "E",
+		"aviation" : "A",
+		"evasion" : "C",
+		"antiAir" : "B",
+		"hp" : "C"
+	},
+	"scrap": {
+		"gold" : "9",
+		"oil" : "3",
+		"medal" : "1"
+	},
+	"releaseDate": {
+		"JP" : "",
+		"CN" : "",
+		"KR" : "",
+		"EN" : ""
+	},
+	"artist": {
+		"name" : "",
+		"weibo" : "",
+		"twitter" : "",
+		"pixiv" : "",
+		"other" : ""
+	},
+	"enhance": {
+		"firepower" : "0",
+		"torpedo" : "0",
+		"aviation" : "51",
+		"reload" : "8"
+	},
+	"acquisitionMethod" : "Event: Fallen Wings",
+	"skill": {
+		"1" : {
+			"icon" : "11020",
+			"requirement" : "",
+			"name" : "Double Sting ",
+			"type" : "Offensive",
+			"description" : "When this ship launches an Airstrike and if there are 1 or more friendly Royal Navy ships in the Main Fleet: $1 chance to launch an additional airstrike with Seafires."
+		}
+	},
+	"skin": {
+		"1" : {
+			"id" : "hufeng",
+			"name" : "Wasp",
+			"description" : "Wasp-class aircraft carrier, Wasp. Hull Number CV-7.",
+			"expression" : {
+				"0" : {
+					"id" : "0"
+				}
+			}
+		}
+	},
+	"defaultEquipment": {
+		"1" : {
+			"icon" : "27000",
+			"rarity" : "Common",
+			"name" : "Spitfire"
+		},
+		"1" : {
+			"icon" : "19000",
+			"rarity" : "",
+			"name" : "SBD Dauntless"
+		},
+		"1" : {
+			"icon" : "18000",
+			"rarity" : "",
+			"name" : "TBD Devastator"
+		}
+	},
+	"stats": {
+		"base": {
+			"hp" : "816",
+			"firepower" : "0",
+			"torpedo" : "0",
+			"antiAir" : "51",
+			"aviation" : "62",
+			"reload" : "43",
+			"hit" : "30",
+			"evasion" : "12",
+			"speed" : "29.5",
+			"luck" : "20",
+			"asw" : "0",
+			"oxygen" : "0",
+			"ammo" : "0",
+			"cost" : "3",
+			"armor" : "Medium"
+		},
+		"100": {
+			"hp" : "4219",
+			"firepower" : "0",
+			"torpedo" : "0",
+			"antiAir" : "238",
+			"aviation" : "292",
+			"reload" : "102",
+			"hit" : "79",
+			"evasion" : "31",
+			"speed" : "29.5",
+			"luck" : "20",
+			"asw" : "0",
+			"oxygen" : "0",
+			"ammo" : "0",
+			"cost" : "11",
+			"armor" : "Medium"
+		},
+		"120": {
+			"hp" : "4894",
+			"firepower" : "0",
+			"torpedo" : "0",
+			"antiAir" : "272",
+			"aviation" : "330",
+			"reload" : "117",
+			"hit" : "88",
+			"evasion" : "51",
+			"speed" : "29.5",
+			"luck" : "20",
+			"asw" : "0",
+			"oxygen" : "0",
+			"ammo" : "0",
+			"cost" : "11",
+			"armor" : "Medium"
+		},
+		"100retrofit": {
+			"hp" : "",
+			"firepower" : "",
+			"torpedo" : "",
+			"antiAir" : "",
+			"aviation" : "",
+			"reload" : "",
+			"hit" : "",
+			"evasion" : "",
+			"speed" : "29.5",
+			"luck" : "20",
+			"asw" : "",
+			"oxygen" : "0",
+			"ammo" : "0",
+			"cost" : "11",
+			"armor" : "Medium"
+		},
+		"120retrofit": {
+			"hp" : "",
+			"firepower" : "",
+			"torpedo" : "",
+			"antiAir" : "",
+			"aviation" : "",
+			"reload" : "",
+			"hit" : "",
+			"evasion" : "",
+			"speed" : "29.5",
+			"luck" : "20",
+			"asw" : "",
+			"oxygen" : "0",
+			"ammo" : "0",
+			"cost" : "11",
+			"armor" : "Medium"
+		}
+	},
+	"limitBreak": {
+		"tier1": "All fighters +1/Aircraft efficiency +3%",
+		"tier2": "Hangar capacity +1/All Dive Bombers +1/Aircraft efficiency +5%",
+		"tier3": "All aircraft +1/Aircraft efficiency +7%"
+	},
+	"equipmentLoadout": {
+		"1": {
+			"type": "Fighter",
+			"efficiency": "110%/113%/118%/125%",
+			"amount": "1/2/2/3",
+			"preload": "0/0/0/0"
+		},
+		"2": {
+			"type": "Dive Bomber",
+			"efficiency": "110%/113%/118%/125%",
+			"amount": "1/1/2/3",
+			"preload": "0/0/0/0"
+		},
+		"3": {
+			"type": "Torpedo Bomber",
+			"efficiency": "110%/113%/118%/125%",
+			"amount": "1/1/1/2",
+			"preload": "0/0/0/0"
+		},
+		"4": {
+			"type": "Auxilary",
+			"efficiency": "-",
+			"amount": "-",
+			"preload": "-"
+		},
+		"5": {
+			"type": "Auxilary",
+			"efficiency": "-",
+			"amount": "-",
+			"preload": "-"
+		}
+	},
+	"build": {
+		"light": {
+			"JP": "",
+			"CN": "",
+			"EN": ""
+		},
+		"heavy": {
+			"JP": "",
+			"CN": "",
+			"EN": ""
+		},
+		"special": {
+			"JP": "",
+			"CN": "",
+			"EN": ""
+		},
+		"limited": {
+			"JP": "",
+			"CN": "",
+			"EN": ""
+		}
+	},
+	"drop": {
+		"droppable": "false",
+		"list": {
+			"1": {
+				"event": "",
+				"chapter": {
+					"1": {
+						"label": "Ch .1",
+						"node": {
+							"1": {
+								"drop": "✓",
+								"note": "-"
+							}
+						}
+					}
+				}
+			}
+		}
+	},
+	"lines": {
+		"skin": {
+			"1": {
+				"skin_id" : "hufeng",
+				"id" : "0",
+				"label" : "Wasp",
+				"dialogue" : {
+					"1" : {
+						"event" : "Ship Description",
+						"media" : "",
+						"chinese" : "胡蜂级航空母舰—胡蜂，舷号CV-7",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "ワスプ級航空母艦・ワスプ（CV-7)",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Wasp class aircraft carrier- Wasp, hull number CV-7.",
+						"englishNote" : ""
+					},
+					"2" : {
+						"event" : "Biography",
+						"media" : "profile",
+						"chinese" : "我是唯一的胡蜂级航母、胡蜂号~！嗯，最开始是在大西洋执行任务，还支援过皇家哦，后来太平洋那边情况紧张就派我过去支援约克城姐姐她们，不过最后也没帮上什么大忙，毕竟我可是最怕鱼雷的了……",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "ワスプ級空母の一人っ子、ワスプだ！そう、大西洋で任務をこなしたのち、ロイヤルへの支援にも参加したぞ。太平洋の戦局が緊迫すると、ヨークタウンたちへの支援にも向かったけど、まあ大して役には立たなかったな。魚雷は結構苦手だからな、はは",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "I am Wasp class carrier, Wasp~! The first thing I did was go on missions in the Atlantic, and I also supported the Royal Navy. Later on, when in the thick of things in the Pacific theater, I was sent to support my Yorktown sisters. But in the end, I didn’t help quite as much. After all, I was most afraid of torpedoes...",
+						"englishNote" : ""
+					},
+					"3" : {
+						"event" : "Receive",
+						"media" : "get",
+						"chinese" : "嗯？你就是那个什么指挥官吗？嗯……要是你的舰队里有足够的活动空间，那我加入你也可以哦~",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "うん？お前がその指揮官とやらか？ふん……ま、そっちの艦隊でワタシが活躍できそうなら加わってやってもいいぜ",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Hmm? So you are the so-called Commander? Ok... if there is enough room in your fleet, then is it alright for me join you~",
+						"englishNote" : ""
+					},
+					"4" : {
+						"event" : "Log in",
+						"media" : "login",
+						"chinese" : "指挥官，下次开门前记得敲门哦，不然我可不敢保证不会误射到你……",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "指揮官、次から入る前にはノックしとけよ。誤射はない、なんて保証はできないぜ",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Commander, remember to knock before you open the door next time. Otherwise, I can’t guarantee that I won’t accidentally shoot you...",
+						"englishNote" : ""
+					},
+					"5" : {
+						"event" : "View details",
+						"media" : "detail",
+						"chinese" : "弓片……滑轮……减震器……嗯？指挥官有什么事吗？我忙着检查，你随意~",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "リム……カム……ストリング……うん？どうした？今こいつの手入れをしてるんだ、テキトウにな",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Limbs... cams... stabilisers... hmm? Commander, do you require something? I'm quite busy with the inspection, so do as you like~",
+						"englishNote" : ""
+					},
+					"6" : {
+						"event" : "Main screen 1",
+						"media" : "main_1",
+						"chinese" : "指挥官，你在看哪儿呢，我在你头顶，啊哈哈，室内攀登还挺有意思的~",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "指揮官、どこ見てんだ。上だぞ。……よっと、屋内クライミングも中々面白いな",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Commander, where are you looking at, I am above you. Hahaha, indoor climbing is quite interesting~ ",
+						"englishNote" : ""
+					},
+					"7" : {
+						"event" : "Main screen 2",
+						"media" : "main_2",
+						"chinese" : "据说重樱那边的弓道和我的套路完全不一样，有机会真想见识一下",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "重桜の「キュウドウ」ってやつはこっちのアーチェリーと全然違うって聞いた。機会があれば見てみたいな",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : " It’s said that the archers of Sakura Empire is totally different from mine. So I really want to see it. ",
+						"englishNote" : ""
+					},
+					"8" : {
+						"event" : "Main screen 3",
+						"media" : "main_3",
+						"chinese" : "指挥官，没有要我帮忙的地方我就出去活动一下咯？",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "指揮官、手伝うことがなかったらどっか行くぜ？",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : " Commander, if there’s nothing I can help with then I’ll go out and exercise?",
+						"englishNote" : ""
+					},
+					"9" : {
+						"event" : "Normal touch",
+						"media" : "touch_1",
+						"chinese" : "拉链？啊，别在意，这样活动起来比较方便~",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "ジッパー？ああ、気にするなよ、こうしたほうが動きやすいからね",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Zipper? Hehe, please don’t mind me. This is just more convenient for me to move around~",
+						"englishNote" : ""
+					},
+					"10" : {
+						"event" : "Special touch",
+						"media" : "touch_2",
+						"chinese" : "指挥官，说吧，哪里不想被射？我会避开的~",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "指揮官、どこを射たれたくないか言ってみな？そこだけは避けてやるから",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Commander, say the word, where do you NOT want to get shot at? I’ll try to avoid it~",
+						"englishNote" : ""
+					},
+					"11" : {
+						"event" : "Mission reminder",
+						"media" : "task",
+						"chinese" : "指挥官，有新任务，出击还是跑腿之类的可以交给我，文书工作什么的就算了～",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "指揮官、新しい任務だ。出撃もパシリもお任せ！……デスクワークはちょっと勘弁な！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Commander, we have a new mission. You can give me an errand or a target. But please no paperwork~",
+						"englishNote" : ""
+					},
+					"12" : {
+						"event" : "Mission complete",
+						"media" : "mission_complete",
+						"chinese" : "指挥官，任务奖励过来拿一下~太重了我射不过去……",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "指揮官、ボーナスもってけよ。この重量じゃ矢に引っ掛けられないぜ……",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Commander, come over here and take your rewards from the mission~ It’s too heavy for me to shoot it at you...",
+						"englishNote" : ""
+					},
+					"13" : {
+						"event" : "Mail reminder",
+						"media" : "mail",
+						"chinese" : "指挥官，刚才我在外面射进来的信你拿到了吗？",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "指揮官、メールを矢に引っ掛けてそっちに射ったけど…見たか？",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Commander, did you get the letter I just shot to you from outside?",
+						"englishNote" : ""
+					},
+					"14" : {
+						"event" : "Return to port",
+						"media" : "home",
+						"chinese" : "指挥官，怎么样，还是户外比较舒服吧！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "指揮官、どうだ？やっぱ外のほうがすっきりするだろ？",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Commander, what do you think, the outdoors is more comfortable, right?",
+						"englishNote" : ""
+					},
+					"15" : {
+						"event" : "Commission complete",
+						"media" : "expedition",
+						"chinese" : "委托组回来了啊，真好啊，我也想出海……指~挥~官~",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "委託チームが戻ってきたか。いいな～こっちも海に出たいな～なあ～しーきーかーんー！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "The commission fleet has returned, that’s good to hear. I also want to head out... Co-man-der~",
+						"englishNote" : ""
+					},
+					"16" : {
+						"event" : "Enhancing complete",
+						"media" : "upgrade",
+						"chinese" : "唔，体能方面变强了，弓也要做些调整了",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "うん、体のほうは強くなったけど、こいつも調整しないとな",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Oh, my physical strength has grown stronger, it's time to customize my bow.",
+						"englishNote" : ""
+					},
+					"17" : {
+						"event" : "Flagship fight",
+						"media" : "warcry",
+						"chinese" : "让你们见识一下胡蜂式的战斗吧！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "ワスプ流の戦闘を見せてやる！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Let me give you a taste of my Wasp battle style!",
+						"englishNote" : ""
+					},
+					"18" : {
+						"event" : "Victory",
+						"media" : "mvp",
+						"chinese" : "哼哼，我家的孩子们很厉害吧",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "ふふん、うちの子たちは強ぇだろ？",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Hehe, I am very good, right?",
+						"englishNote" : ""
+					},
+					"19" : {
+						"event" : "Defeat",
+						"media" : "lose",
+						"chinese" : "唔……看起来今天的状态不太好……",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "くっ……今日あんまり調子よくないな……",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Umm... it seems that today’s status is not very good...",
+						"englishNote" : ""
+					},
+					"20" : {
+						"event" : "Skills",
+						"media" : "skill",
+						"chinese" : "谁说胡蜂只能螫一次？ ",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "ワスプが一度しか刺せないって言うんじゃないぜ！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Who said a wasp can only sting once?",
+						"englishNote" : ""
+					},
+					"21" : {
+						"event" : "Upset",
+						"media" : "feeling1",
+						"chinese" : "不想被我射中的话，就请离远点……",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "射たれたくなきゃ近寄らないほうがいいぜ",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "If you don’t want to get shot by me, then just stay away...",
+						"englishNote" : ""
+					},
+					"22" : {
+						"event" : "Stranger",
+						"media" : "feeling2",
+						"chinese" : "明明喜欢自然却使用复合弓？指挥官你的想法真是刻板耶，这叫做与时俱进！而且复合弓其实历史也很久的，你听我慢慢给你讲啊，古代的时候呢……",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "生まれた時にコンパウンドボウなんてなかったぁ？まったく指揮官、考え方が古い！こういうの流れに乗らなきゃってことだぜ。そもそもコンパウンドボウのプロトタイプなんてあの大戦の前からあったぜ？いい？昔は……",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "I like natural but in actuality use a compound bow? Commander, you are stereotyping, this is called going with the times! And the use of a compound bow actually has a long history to it. You can listen to me tell you it all, in ancient times...",
+						"englishNote" : ""
+					},
+					"23" : {
+						"event" : "Friendly",
+						"media" : "feeling3",
+						"chinese" : "有人晚上看到屋顶上有鬼影？啊哈哈，那应该是我正在室外练习吧~晚上很舒服哦，没有人打扰，星星也很多，指挥官要不要也来试试？",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "深夜の屋上にいるのは誰だって？ああ、あれはワタシがトレーニングをやってたんだ。…まあ夜はいいわ、邪魔もいないし夜空も綺麗だ。指揮官も一回来たらどうだ？",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Someone saw a ghost on the roof last night? Hahaha, that was probably me practicing outdoors~ It’s very comfortable at night, no one bothers you, and you’re surrounded by stars. Commander, you want to come try?",
+						"englishNote" : ""
+					},
+					"24" : {
+						"event" : "Crush",
+						"media" : "feeling4",
+						"chinese" : "指挥官，我来教你射箭吧，然后晚上的时候我们两个人就在外面练习，累了的话就坐下来一起看星星，怎么样？",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "指揮官、アーチェリー教えてあげよっか？夜は一緒にトレーニングやって、疲れたら夜空でも眺めてさ。どうだ？",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Commander, let me teach you archery. At night, we can practice together. If you get tired, then we can stargaze. How does that sound?",
+						"englishNote" : ""
+					},
+					"25" : {
+						"event" : "Love",
+						"media" : "feeling5",
+						"chinese" : "弓箭的技术、战斗的技巧、还有……那片夜深人静时的星空，这就是我的全部了。指挥官，你愿意收下我的全部吗?",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "弓の技術に戦闘、そして一緒に見た夜空……ワタシにとってこれが全てだ。指揮官、ワタシの全てを受け入れてくれるか？",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Archery, combat techniques, and… that sea of stars night, this is all I have. Commander, are you willing to accept me as who I am?",
+						"englishNote" : ""
+					},
+					"26" : {
+						"event" : "Promise",
+						"media" : "propose",
+						"chinese" : "这就是指挥官的回答吗？…嘿嘿，我好高兴啊！那就——“我愿意将一切都奉献给您，我的指挥官”——呜哇，好害羞…总、总之，没有很别扭吧？",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "これが指揮官の答え？…へへ、嬉しいな！じゃあ――「ワタシの全てをアナタに捧げる、指揮官さま」――あっちゃーはっずかしぃー……え、えっと今の変じゃなかったよな…？",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Is this your answer, Commander? … hehehe, I am so very happy! Then—— “I am willing to give everything to you, my dearest Commander”—— Wow, I’m so shy,  i-isn’t this awkward?",
+						"englishNote" : ""
+					}
+				}
+			}
+		}
+	}
+}

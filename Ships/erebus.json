@@ -1,0 +1,737 @@
+{
+	"name_reference" : "erebus",
+	"cn_reference" : "heianjie",
+	"nameJP" : "エレバス",
+	"nameCN" : "黑暗界",
+	"ID" : "149",
+	"name" : "Erebus",
+	"internal_id" : "213011",
+	"rarity" : "Elite",
+	"initialStar" : "★★☆☆☆",
+	"hull" : "Monitor",
+	"navy" : "Royal Navy",
+	"prefix" : "HMS",
+	"buildTime" : "",
+	"class" : "Erebus",
+	"voiceActress" : "Saya Horigome",
+	"parameters": {
+		"firepower" : "B",
+		"torpedo" : "E",
+		"aviation" : "E",
+		"evasion" : "E",
+		"antiAir" : "D",
+		"hp" : "C"
+	},
+	"scrap": {
+		"gold" : "6",
+		"oil" : "3",
+		"medal" : "4"
+	},
+	"releaseDate": {
+		"JP" : "",
+		"CN" : "",
+		"KR" : "",
+		"EN" : ""
+	},
+	"artist": {
+		"name" : "",
+		"weibo" : "",
+		"twitter" : "",
+		"pixiv" : "",
+		"other" : ""
+	},
+	"enhance": {
+		"firepower" : "35",
+		"torpedo" : "0",
+		"aviation" : "0",
+		"reload" : "10"
+	},
+	"acquisitionMethod" : "Honor medal exchange, Explore Stage4-3, Light/Heavy Construction",
+	"skill": {
+		"1" : {
+			"icon" : "10350",
+			"requirement" : "",
+			"name" : "Infinite Darkness",
+			"type" : "Offensive",
+			"description" : "$1 chance every 20s: fires a special barrage. Barrage damage is based on the skill's level."
+		}
+	},
+	"skin": {
+		"1" : {
+			"id" : "heianjie",
+			"name" : "Erebus",
+			"description" : "Erebus-class monitor – Erebus, Hull Number I02!",
+			"expression" : {
+				"0" : {
+					"id" : "0"
+				}
+			}
+		},
+		"2" : {
+			"id" : "heianjie_2",
+			"name" : "Illusory Happiness ",
+			"description" : "Those who embrace the shadows will find only an illusory happiness... But for me, that much is sufficient. ",
+			"expression" : {
+				"0" : {
+					"id" : "0"
+				}
+			}
+		}
+	},
+	"defaultEquipment": {
+		"1" : {
+			"icon" : "24100",
+			"rarity" : "Common",
+			"name" : "Twin 381mm Main Gun"
+		},
+		"1" : {
+			"icon" : "21000",
+			"rarity" : "",
+			"name" : "Single 102mm Auxiliary Gun"
+		},
+		"3" : {
+			"icon" : "",
+			"rarity" : "",
+			"name" : ""
+		}
+	},
+	"stats": {
+		"base": {
+			"hp" : "587",
+			"firepower" : "52",
+			"torpedo" : "0",
+			"antiAir" : "32",
+			"aviation" : "0",
+			"reload" : "53",
+			"hit" : "28",
+			"evasion" : "11",
+			"speed" : "12",
+			"luck" : "91",
+			"asw" : "0",
+			"oxygen" : "0",
+			"ammo" : "0",
+			"cost" : "3",
+			"armor" : "Light"
+		},
+		"100": {
+			"hp" : "3035",
+			"firepower" : "247",
+			"torpedo" : "0",
+			"antiAir" : "149",
+			"aviation" : "0",
+			"reload" : "126",
+			"hit" : "72",
+			"evasion" : "28",
+			"speed" : "12",
+			"luck" : "91",
+			"asw" : "0",
+			"oxygen" : "0",
+			"ammo" : "0",
+			"cost" : "10",
+			"armor" : "Light"
+		},
+		"120": {
+			"hp" : "3642",
+			"firepower" : "282",
+			"torpedo" : "0",
+			"antiAir" : "171",
+			"aviation" : "0",
+			"reload" : "145",
+			"hit" : "81",
+			"evasion" : "61",
+			"speed" : "12",
+			"luck" : "91",
+			"asw" : "0",
+			"oxygen" : "0",
+			"ammo" : "0",
+			"cost" : "10",
+			"armor" : "Light"
+		},
+		"100retrofit": {
+			"hp" : "",
+			"firepower" : "",
+			"torpedo" : "",
+			"antiAir" : "",
+			"aviation" : "",
+			"reload" : "",
+			"hit" : "",
+			"evasion" : "",
+			"speed" : "12",
+			"luck" : "91",
+			"asw" : "",
+			"oxygen" : "0",
+			"ammo" : "0",
+			"cost" : "10",
+			"armor" : "Light"
+		},
+		"120retrofit": {
+			"hp" : "",
+			"firepower" : "",
+			"torpedo" : "",
+			"antiAir" : "",
+			"aviation" : "",
+			"reload" : "",
+			"hit" : "",
+			"evasion" : "",
+			"speed" : "12",
+			"luck" : "91",
+			"asw" : "",
+			"oxygen" : "0",
+			"ammo" : "0",
+			"cost" : "10",
+			"armor" : "Light"
+		}
+	},
+	"limitBreak": {
+		"tier1": "Auxiliary gun base +1/Main gun efficiency +5%",
+		"tier2": "Main gun base +1/Main gun efficiency +10%",
+		"tier3": "Auxiliary gun base +1/Main gun efficiency +15%"
+	},
+	"equipmentLoadout": {
+		"1": {
+			"type": "Battleship",
+			"efficiency": "90%/95%/105%/120%",
+			"amount": "1/1/1/1",
+			"preload": "0/0/0/0"
+		},
+		"2": {
+			"type": "Destroyer Gun",
+			"efficiency": "200%/200%/200%/200%",
+			"amount": "1/2/2/3",
+			"preload": "0/0/0/0"
+		},
+		"3": {
+			"type": "Anti-Air Gun",
+			"efficiency": "100%/100%/100%/100%",
+			"amount": "1/1/1/1",
+			"preload": "0/0/0/0"
+		},
+		"4": {
+			"type": "Auxilary",
+			"efficiency": "-",
+			"amount": "-",
+			"preload": "-"
+		},
+		"5": {
+			"type": "Auxilary",
+			"efficiency": "-",
+			"amount": "-",
+			"preload": "-"
+		}
+	},
+	"build": {
+		"light": {
+			"JP": "",
+			"CN": "",
+			"EN": ""
+		},
+		"heavy": {
+			"JP": "",
+			"CN": "",
+			"EN": ""
+		},
+		"special": {
+			"JP": "",
+			"CN": "",
+			"EN": ""
+		},
+		"limited": {
+			"JP": "",
+			"CN": "",
+			"EN": ""
+		}
+	},
+	"drop": {
+		"droppable": "false",
+		"list": {
+			"1": {
+				"event": "",
+				"chapter": {
+					"1": {
+						"label": "Ch .1",
+						"node": {
+							"1": {
+								"drop": "✓",
+								"note": "-"
+							}
+						}
+					}
+				}
+			}
+		}
+	},
+	"lines": {
+		"skin": {
+			"1": {
+				"skin_id" : "heianjie",
+				"id" : "0",
+				"label" : "Erebus",
+				"dialogue" : {
+					"1" : {
+						"event" : "Ship Description",
+						"media" : "",
+						"chinese" : "黑暗界级浅水重炮舰—黑暗界，舷号I02",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "エレバス級モニター艦・エレバス (HMS Erebus)",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Erebus-class monitor – Erebus, Hull Number I02!",
+						"englishNote" : ""
+					},
+					"2" : {
+						"event" : "Biography",
+						"media" : "profile",
+						"chinese" : "黑暗界这个名字听起来是不是有点超现实？ 我的前身是载着探险队去往北极再也没有回来的一艘船，倒确实很有通往深渊的气质…… 总而言之，比起我请多照顾一下我妹妹吧",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "探検隊を乗せて北極に向かい、そして二度と戻ってくることはなかったから、深淵、という意味合いでは、確か…",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Erebus, my name, sounds surreal?My predecessor was a ship which carried explorers to the North Pole and never returned... like a journey into the abyss.Please pay more attention to my sisters!",
+						"englishNote" : ""
+					},
+					"3" : {
+						"event" : "Receive",
+						"media" : "get",
+						"chinese" : "指挥官，是你么？我是黑暗界，听从你的呼唤，从遥远的地方而来",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "あなただったのね？指揮官。私、エレバスーー遙か遠い暗黒の世界から、あなたの呼び声を聞いてやって来たの",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Commander, is that you? I'm Erebus. I followed your voice and have come from afar.",
+						"englishNote" : ""
+					},
+					"4" : {
+						"event" : "Log in",
+						"media" : "login",
+						"chinese" : "指挥官，黑暗界一直在这里等候你的召唤……",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "指揮官、エレバスはずっとここであなたの召喚を待ってるわ…",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Commander, I'm always here, awaiting for your summons...",
+						"englishNote" : ""
+					},
+					"5" : {
+						"event" : "View details",
+						"media" : "detail",
+						"chinese" : "我并不会带来死亡……我只是…在她们的命数止尽之时负责清理场地而已",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "私の役目は死をもたらさない……生命尽きかける彼女たちに居場所を掃除してあげることだけ",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "I am not the harbinger of death... I am just..... guiding them after their times are up",
+						"englishNote" : ""
+					},
+					"6" : {
+						"event" : "Main screen 1",
+						"media" : "main_1",
+						"chinese" : "我想，我可以将你刚才的状态理解成灵魂出窍？",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "あなた、さっき幽体離脱してなかった？",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Did you just have an out-of-body experience?",
+						"englishNote" : ""
+					},
+					"7" : {
+						"event" : "Main screen 2",
+						"media" : "main_2",
+						"chinese" : "我会一直守护妹妹",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "これからもずっと、妹を守り続けるわ",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "I'll always protect my little sisters.",
+						"englishNote" : ""
+					},
+					"8" : {
+						"event" : "Main screen 3",
+						"media" : "main_3",
+						"chinese" : "也许，我并不讨厌这里的温暖",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "この暖かさ……嫌いじゃないかも",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "I have to say, this warmth, I don't dislike it.",
+						"englishNote" : ""
+					},
+					"9" : {
+						"event" : "Normal touch",
+						"media" : "touch_1",
+						"chinese" : "我将藉由身体向你传达，这属于亡者的低语……",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "この体を通して、亡者の囁きを伝えてあげるわ……",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Allow me to channel forth the whispers of the dead...",
+						"englishNote" : ""
+					},
+					"10" : {
+						"event" : "Special touch",
+						"media" : "touch_2",
+						"chinese" : "……唔……抱歉，我有点灵魂出窍了",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "…う…（！！！）ごめんなさい、今また幽体離脱しちゃってたみたい。",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "... ... uh... ... I'm sorry, it seems like I was having an out-of-body experience.",
+						"englishNote" : ""
+					},
+					"11" : {
+						"event" : "Mission reminder",
+						"media" : "task",
+						"chinese" : "把任务拖到死后世界的人，会不得安宁的喔",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "死んでも任務をやり遂げたい執念は、ずっとまとわりつくものなのよ",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "You'll experience an eternity of restlessness if you die with incomplete missions.",
+						"englishNote" : ""
+					},
+					"12" : {
+						"event" : "Mission complete",
+						"media" : "mission_complete",
+						"chinese" : "奖励是身外之物，取不取倒都没有所谓",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "報酬？身につかないものだ。取らなくてもいい",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Rewards are but worldly possessions. It makes no difference to me whether you collect them or not.",
+						"englishNote" : ""
+					},
+					"13" : {
+						"event" : "Mail reminder",
+						"media" : "mail",
+						"chinese" : "信件是人与人之间的联结，要珍惜呢",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "手紙は人間をつなげるものだ。くれぐれも大切に",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Letters are what connect humans. Hold them dear.",
+						"englishNote" : ""
+					},
+					"14" : {
+						"event" : "Return to port",
+						"media" : "home",
+						"chinese" : "激战之后的宁静来之不易，请好好休息吧",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "激戦のあとの静けさは得難いものだ。ゆっくりしていって",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "The silence after a battle is divine. Take your time and rest.",
+						"englishNote" : ""
+					},
+					"15" : {
+						"event" : "Commission complete",
+						"media" : "expedition",
+						"chinese" : "姐妹们都不太喜欢跟我一起出委托，说我总会看到些奇怪的东西，我也没办法嘛……不说了，她们回来了",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "みんなは変なものが見えちゃうからって、私と一緒に委託に出るのに気が乗らないの。仕方ないわ……それより、あの娘たちが帰ってきたわ",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "I'm not particularly interested in embarking on commissions... The other girls always say I see weird stuff. I suppose it can't be helped... Anyway, your girls are back!",
+						"englishNote" : ""
+					},
+					"16" : {
+						"event" : "Enhancing complete",
+						"media" : "upgrade",
+						"chinese" : "黑暗愈发纯粹，我的内心也愈发平静",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "闇が純粋になればなるほど、私の心も落ち着くわ",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "The purer the darkness, the calmer my mind.",
+						"englishNote" : ""
+					},
+					"17" : {
+						"event" : "Flagship fight",
+						"media" : "warcry",
+						"chinese" : "各位请放心，黑暗会让群星更加闪耀",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "みんな安心して。暗黒があるからこそ、空の星々がいっそう輝いて見えるの",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Please remain calm. The darkness will only make the stars shine brighter.",
+						"englishNote" : ""
+					},
+					"18" : {
+						"event" : "Victory",
+						"media" : "mvp",
+						"chinese" : "敌人的灵魂，就由我收割了",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "敵の魂は、この私が刈り取った",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Allow me to harvest the souls of our enemies.",
+						"englishNote" : ""
+					},
+					"19" : {
+						"event" : "Defeat",
+						"media" : "lose",
+						"chinese" : "你可以打败我，但绝对没办驱除那无止境的黑暗",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "私に勝っても、これからずっと果てなき暗黒から逃れることはできない",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Even if you manage to defeat me, you'll never escape the infinite darkness.",
+						"englishNote" : ""
+					},
+					"20" : {
+						"event" : "Skills",
+						"media" : "skill",
+						"chinese" : "想死一次吗？",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "いっぺん、死んでみる？",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Want a taste of death?",
+						"englishNote" : ""
+					},
+					"21" : {
+						"event" : "Low HP",
+						"media" : "hp",
+						"chinese" : "黑暗与你我同在",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "闇は我々とともに",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "The darkness is with us.",
+						"englishNote" : ""
+					},
+					"22" : {
+						"event" : "Upset",
+						"media" : "feeling1",
+						"chinese" : "指挥官，你如果想堕入黑暗，就请做好被黑暗界收割的准备吧……",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "指揮官、闇に堕ちるというのなら、エレバスに狩られる準備をしてちょうだい",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Commander, if you fall into darkness, know that it will be me hunting your soul...",
+						"englishNote" : ""
+					},
+					"23" : {
+						"event" : "Stranger",
+						"media" : "feeling2",
+						"chinese" : "照顾妹妹一开始是一件比较困难的事，不过现在我也习惯了……习惯孤独？不，只是习惯害怕孤独而已……",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "妹の世話は最初は難しかったけど、今はもう慣れたわ……孤独に慣れた？いいえ、孤独に慣れるのを恐れるだけ…",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "It was hard to take care of my sister at the beginning, but I got used to it... used to being alone? I'm just used to the fear of it.",
+						"englishNote" : ""
+					},
+					"24" : {
+						"event" : "Friendly",
+						"media" : "feeling3",
+						"chinese" : "每当害怕的时候，只要想着还有妹妹在就能坚持下去了，某种意义上来说妹妹虽然不能没有我，我也不能没有她呢",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "怖い時、妹のことを思い出すと堪えられる。妹は私がいないとだめなんだけど、私もあの子がいないとだめのようね",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Whenever I'm afraid, all I have to do is think of my little sister. It gives me the strength to push on. Even though my sister can't be without me, I can't be without her either.",
+						"englishNote" : ""
+					},
+					"25" : {
+						"event" : "Crush",
+						"media" : "feeling4",
+						"chinese" : "现在我不会害怕了。在你身边，我非常乐意化作衬托光芒的黑暗，哪怕被光芒吞噬……不……被吞噬也心甘情愿",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "今はもう怖くない。あなたのそばなら、喜んで光をより輝かす闇になろう。たとえ光に飲み込まれ……飲み込まれても本望だ",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "I'm afraid no longer. Being next to you, I'm willing to become the darkness to your light; And if that light were to swallow me... No, even if I was to be devoured, that would be fine too.",
+						"englishNote" : ""
+					},
+					"26" : {
+						"event" : "Love",
+						"media" : "feeling5",
+						"chinese" : "有光就会有影，所以只要你存在，我就一定会在你身边，这不是命运，而是一种规律——嘻嘻，没什么，只是以前想着，有了喜欢的人后，哪怕一次也想说说看这样的台词呢",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "光あるところに闇あり。あなたのいる場所には私がきっとそばにいる。これは運命ではなく、法則ーーふふ、なんでもないわ。昔好きな人ができたら言ってみたかったセリフなのよ",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Where there's light, there's darkness. Wherever you are, I'll be near. This isn't fate but the law of this world... It's nothing, it's just something that I've wanted to say for a long time, if I ever found someone who I truly liked.",
+						"englishNote" : ""
+					},
+					"27" : {
+						"event" : "Promise",
+						"media" : "propose",
+						"chinese" : "追逐着光的影，拥抱影的光，也许会有人笑他们愚蠢，但谁又知道他们是不是幸福的呢，对吧，指挥官~",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "光を追いかける影、影を抱き締める光ーーお互いがかき消されるから愚かだ、と言う人がいようが、光と影こそが幸せであると知る人がいるまい。そうよね、指揮官",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Shadows chase after light, and light embraces the shadows. I've heard of foolish lovers who erase each other, but who can judge another's love? Isn't that right, Commander?",
+						"englishNote" : ""
+					},
+					"28" : {
+						"event" : "Easter Egg 1(Terror)",
+						"media" : "link1",
+						"chinese" : "恐怖，待在姐姐身边",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "テラー、姉ちゃんから離れないでね。",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Terror, stay close to me!",
+						"englishNote" : ""
+					}
+				}
+			},
+			"2": {
+				"skin_id" : "heianjie_2",
+				"id" : "1",
+				"label" : "Illusory Happiness ",
+				"dialogue" : {
+					"1" : {
+						"event" : "Ship Description",
+						"media" : "",
+						"chinese" : "有些人只拥吻影子，于是只拥有幸福的幻影——但对我来说，那样就足够了",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "影を抱きしめる人は、その幸せもうたかたのようーー私にとっては、それで十分だわ",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Those who embrace the shadows will find only an illusory happiness... But for me, that much is sufficient.",
+						"englishNote" : ""
+					},
+					"2" : {
+						"event" : "Receive",
+						"media" : "get_1",
+						"chinese" : "有些人只拥吻影子，于是只拥有幸福的幻影——但对我来说，那样就足够了",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "影を抱きしめる人は、その幸せもうたかたのようーー私にとっては、それで十分だわ",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Those who embrace the shadows will find only an illusory happiness... But for me, that much is sufficient.",
+						"englishNote" : ""
+					},
+					"3" : {
+						"event" : "View details",
+						"media" : "detail_1",
+						"chinese" : "我依然只是影子，只是现在多了个小小的愿望而已",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "私は影のまま。今は、小さき願いを、余分に持っているだけ",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "I am still but a shadow. The only difference is, I've found a small, small thing to strive for.",
+						"englishNote" : ""
+					},
+					"4" : {
+						"event" : "Main screen 1",
+						"media" : "main_1_1",
+						"chinese" : "指挥官，不用客气，巧克力还有很多",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "チョコレートはまだあるわ。指揮官、遠慮なんかしないで",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Commander, there's no need to be reserved. I still have a lot of chocolate. ",
+						"englishNote" : ""
+					},
+					"5" : {
+						"event" : "Main screen 2",
+						"media" : "main_2_1",
+						"chinese" : "nil",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "これからもずっと、妹を守り続けるわ",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "nil",
+						"englishNote" : ""
+					},
+					"6" : {
+						"event" : "Main screen 3",
+						"media" : "main_3_1",
+						"chinese" : "我能这样看着指挥官，还能给指挥官做巧克力，已经非常开心了",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "指揮官をこうして見ながら、チョコレートを作ってあげられる。私は嬉しいわ",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Commander, just being able to watch you like this, and give you chocolate, is enough to make me happy.",
+						"englishNote" : ""
+					},
+					"7" : {
+						"event" : "Normal touch",
+						"media" : "touch_1_1",
+						"chinese" : "我在这里，一直都在哦",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "私はここよ。ずっと",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "I'm here, as always.",
+						"englishNote" : ""
+					},
+					"8" : {
+						"event" : "Special touch",
+						"media" : "touch_2_1",
+						"chinese" : "碰触到幸福了吗，指挥官？",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "指揮官、幸せに触れた?",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Were you able to touch happiness, Commander?",
+						"englishNote" : ""
+					},
+					"9" : {
+						"event" : "Return to port",
+						"media" : "home_1",
+						"chinese" : "指挥官，要吃些甜食补充糖分吗？",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "指揮官、甘い物で糖分の補充でもどう？",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Commander, would you like some sweets to replenish your energy?",
+						"englishNote" : ""
+					},
+					"10" : {
+						"event" : "Victory",
+						"media" : "mvp_1",
+						"chinese" : "黑夜无论怎样悠长,白昼总会到来……",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "夜はどんなに長くとも、夜明けは必ず来る…",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "No matter how long the night, the dawn will come again...",
+						"englishNote" : ""
+					}
+				}
+			}
+		}
+	}
+}

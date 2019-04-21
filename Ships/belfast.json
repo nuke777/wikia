@@ -1,0 +1,921 @@
+{
+	"name_reference" : "belfast",
+	"cn_reference" : "beierfasite",
+	"nameJP" : "ベルファスト",
+	"nameCN" : "贝尔法斯特",
+	"ID" : "115",
+	"name" : "Belfast",
+	"internal_id" : "202121",
+	"rarity" : "Super Rare",
+	"initialStar" : "★★★☆☆☆",
+	"hull" : "Light Cruiser",
+	"navy" : "Royal Navy",
+	"prefix" : "HMS",
+	"buildTime" : "",
+	"class" : "Edinburgh",
+	"voiceActress" : "Yui Horie",
+	"parameters": {
+		"firepower" : "B",
+		"torpedo" : "A",
+		"aviation" : "E",
+		"evasion" : "B",
+		"antiAir" : "C",
+		"hp" : "B"
+	},
+	"scrap": {
+		"gold" : "6",
+		"oil" : "3",
+		"medal" : "10"
+	},
+	"releaseDate": {
+		"JP" : "",
+		"CN" : "",
+		"KR" : "",
+		"EN" : ""
+	},
+	"artist": {
+		"name" : "",
+		"weibo" : "",
+		"twitter" : "",
+		"pixiv" : "",
+		"other" : ""
+	},
+	"enhance": {
+		"firepower" : "14",
+		"torpedo" : "21",
+		"aviation" : "0",
+		"reload" : "13"
+	},
+	"acquisitionMethod" : "Light/Heavy/Special Construction",
+	"skill": {
+		"1" : {
+			"icon" : "10610",
+			"requirement" : "",
+			"name" : "Burn Order",
+			"type" : "Offensive",
+			"description" : "Increases the DMG this ship deals with HE ammo by $1 and increases its chance to ignite enemies by $2."
+		},
+		"2" : {
+			"icon" : "4101",
+			"requirement" : "",
+			"name" : "Smokescreen: Light Cruisers",
+			"type" : "Defensive",
+			"description" : "Activates 10s after the battle begins and has a 20.0% chance to activate every 20s after that: deploys a smokescreen that increases Evasion Rate by $1 (this effect does not stack with other smokescreen skills) and decreases incoming AVI DMG by $2 for all friendlies within it. Smokescreen lasts 10s."
+		},
+		"3" : {
+			"icon" : "29101",
+			"requirement" : "",
+			"name" : "EX Barrage: Belfast Ⅰ",
+			"type" : "Offensive",
+			"description" : "Activate EX Barrage: Belfast Ⅰ once every 12 times the main gun is fired."
+		}
+	},
+	"skin": {
+		"1" : {
+			"id" : "beierfasite",
+			"name" : "Belfast",
+			"description" : "Edinburgh-Class light cruiser ー Belfast, Hull number C35!",
+			"expression" : {
+				"0" : {
+					"id" : "0"
+				}
+			}
+		},
+		"2" : {
+			"id" : "beierfasite_2",
+			"name" : "Iridescent Rosa ",
+			"description" : "Hehe... Master, why are you so stunned from seeing me? I thought you perhaps wanted to see me in a qipao... was I mistaken? ",
+			"expression" : {
+				"0" : {
+					"id" : "0"
+				},
+				"1" : {
+					"id" : "1"
+				},
+				"2" : {
+					"id" : "2"
+				},
+				"3" : {
+					"id" : "3"
+				}
+			}
+		},
+		"3" : {
+			"id" : "beierfasite_h",
+			"name" : "The Pledge of Claddagh",
+			"description" : "Are you destined for me? Greetings Belfast, from this moment onwards, I will always be with you.",
+			"expression" : {
+				"0" : {
+					"id" : "0"
+				}
+			}
+		}
+	},
+	"defaultEquipment": {
+		"1" : {
+			"icon" : "22200",
+			"rarity" : "Common",
+			"name" : "Triple 152mm Main Gun"
+		},
+		"1" : {
+			"icon" : "5000",
+			"rarity" : "",
+			"name" : "Triple 533mm Torpedo"
+		},
+		"3" : {
+			"icon" : "",
+			"rarity" : "",
+			"name" : ""
+		}
+	},
+	"stats": {
+		"base": {
+			"hp" : "686",
+			"firepower" : "33",
+			"torpedo" : "64",
+			"antiAir" : "55",
+			"aviation" : "0",
+			"reload" : "67",
+			"hit" : "55",
+			"evasion" : "28",
+			"speed" : "32",
+			"luck" : "88",
+			"asw" : "35",
+			"oxygen" : "0",
+			"ammo" : "0",
+			"cost" : "3",
+			"armor" : "Light"
+		},
+		"100": {
+			"hp" : "3544",
+			"firepower" : "156",
+			"torpedo" : "301",
+			"antiAir" : "257",
+			"aviation" : "0",
+			"reload" : "159",
+			"hit" : "143",
+			"evasion" : "72",
+			"speed" : "32",
+			"luck" : "88",
+			"asw" : "128",
+			"oxygen" : "0",
+			"ammo" : "0",
+			"cost" : "11",
+			"armor" : "Light"
+		},
+		"120": {
+			"hp" : "3970",
+			"firepower" : "179",
+			"torpedo" : "340",
+			"antiAir" : "293",
+			"aviation" : "0",
+			"reload" : "182",
+			"hit" : "160",
+			"evasion" : "96",
+			"speed" : "32",
+			"luck" : "88",
+			"asw" : "144",
+			"oxygen" : "0",
+			"ammo" : "0",
+			"cost" : "11",
+			"armor" : "Light"
+		},
+		"100retrofit": {
+			"hp" : "",
+			"firepower" : "",
+			"torpedo" : "",
+			"antiAir" : "",
+			"aviation" : "",
+			"reload" : "",
+			"hit" : "",
+			"evasion" : "",
+			"speed" : "32",
+			"luck" : "88",
+			"asw" : "",
+			"oxygen" : "0",
+			"ammo" : "0",
+			"cost" : "11",
+			"armor" : "Light"
+		},
+		"120retrofit": {
+			"hp" : "",
+			"firepower" : "",
+			"torpedo" : "",
+			"antiAir" : "",
+			"aviation" : "",
+			"reload" : "",
+			"hit" : "",
+			"evasion" : "",
+			"speed" : "32",
+			"luck" : "88",
+			"asw" : "",
+			"oxygen" : "0",
+			"ammo" : "0",
+			"cost" : "11",
+			"armor" : "Light"
+		}
+	},
+	"limitBreak": {
+		"tier1": "Unlock EX Barrage Ⅰ/Main gun efficiency +5%",
+		"tier2": "Torpedo base +1/Torpedo preload +1/Torpedo efficiency +10%",
+		"tier3": "Improve EX Barrage/Main gun efficiency +15%"
+	},
+	"equipmentLoadout": {
+		"1": {
+			"type": "Light Cruiser",
+			"efficiency": "130%/135%/135%/150%",
+			"amount": "1/1/1/1",
+			"preload": "0/0/0/0"
+		},
+		"2": {
+			"type": "Torpedo",
+			"efficiency": "145%/145%/155%/155%",
+			"amount": "1/1/2/2",
+			"preload": "0/0/1/1"
+		},
+		"3": {
+			"type": "Anti-Air Gun",
+			"efficiency": "100%/100%/100%/100%",
+			"amount": "1/1/1/1",
+			"preload": "0/0/0/0"
+		},
+		"4": {
+			"type": "Auxilary",
+			"efficiency": "-",
+			"amount": "-",
+			"preload": "-"
+		},
+		"5": {
+			"type": "Auxilary",
+			"efficiency": "-",
+			"amount": "-",
+			"preload": "-"
+		}
+	},
+	"build": {
+		"light": {
+			"JP": "",
+			"CN": "",
+			"EN": ""
+		},
+		"heavy": {
+			"JP": "",
+			"CN": "",
+			"EN": ""
+		},
+		"special": {
+			"JP": "",
+			"CN": "",
+			"EN": ""
+		},
+		"limited": {
+			"JP": "",
+			"CN": "",
+			"EN": ""
+		}
+	},
+	"drop": {
+		"droppable": "false",
+		"list": {
+			"1": {
+				"event": "",
+				"chapter": {
+					"1": {
+						"label": "Ch .1",
+						"node": {
+							"1": {
+								"drop": "✓",
+								"note": "-"
+							}
+						}
+					}
+				}
+			}
+		}
+	},
+	"lines": {
+		"skin": {
+			"1": {
+				"skin_id" : "beierfasite",
+				"id" : "0",
+				"label" : "Belfast",
+				"dialogue" : {
+					"1" : {
+						"event" : "Ship Description",
+						"media" : "",
+						"chinese" : "爱丁堡级轻巡洋舰—贝尔法斯特，舷号C35",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "エディンバラ級軽巡洋艦・ベルファスト（HMS Belfast）",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Edinburgh-Class light cruiser ー Belfast, Hull number C35!",
+						"englishNote" : ""
+					},
+					"2" : {
+						"event" : "Biography",
+						"media" : "profile",
+						"chinese" : "贵安，我是爱丁堡级二号舰贝尔法斯特，是皇家最大的巡洋舰，因此担任女仆长一职。虽然参与过不少战役，也见证过那位可敬的沙恩霍斯特的陨落，但身为女仆，些许小事不足挂齿。呵呵，有什么需要的话请尽管告诉我吧",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "ご機嫌麗しゅうございます。エディンバラ級二番艦のベルファストと申します。ロイヤル最大の巡洋艦にしてメイド長を勤めております。幾つかの戦役に参陣し、かのシャルンホルスト様の落命もこの目で見届けました…メイドにとっては些細なことです。御用がありましたらなんでも仰ってください",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Good day to you. I am Belfast, the second ship of the Edinburgh class. I have duties as the head maid while being the Royal Navy's greatest cruiser. I had taken part in many battles, and borne witness to lady Scharnhorst's fall... Those are but the past for a maid. Please say something should you have a need for me.",
+						"englishNote" : ""
+					},
+					"3" : {
+						"event" : "Receive",
+						"media" : "get",
+						"chinese" : "您就是我的指挥官吗？贵安。一介女仆贝尔法斯特，此刻起，将生涯奉献给您",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "あなたは私のご主人様ですか？ご機嫌麗しゅうございます。メイドのベルファストと申します。この身、これからあなたに捧げます",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Are you my master? Pleasure to meet you. I am Belfast the maid. From now on, I dedicate myself to you.",
+						"englishNote" : ""
+					},
+					"4" : {
+						"event" : "Log in",
+						"media" : "login",
+						"chinese" : "欢迎回来，指挥官，红茶已经泡好，文档也归类完毕，开始舒适的工作吧",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "お帰りなさい、ご主人様。紅茶は用意いたしました。また、書類の方はこちらに片付けておきました。ごゆっくりお仕事をお進めください",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Welcome back, master. I've prepared the tea. Furthermore, I've sorted the documents over here. Please work at your leisure.",
+						"englishNote" : ""
+					},
+					"5" : {
+						"event" : "View details",
+						"media" : "detail",
+						"chinese" : "指挥官，有什么吩咐吗？",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "ご主人様、何かご用でしょうか？",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Is something the matter, master?",
+						"englishNote" : ""
+					},
+					"6" : {
+						"event" : "Main screen 1",
+						"media" : "main_1",
+						"chinese" : "要成为一名出色的指挥官，您首先需要相信您自己就是，然后按照尽您所能做到最好",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "優秀な指揮官になるにはまず自らに自信を持つことから始まります。ご主人様は意のままに最善をお尽くしくださいませ",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "In order to become an excellent master, you must start from self confidence. Please do your best to turn your will into action, master.",
+						"englishNote" : ""
+					},
+					"7" : {
+						"event" : "Main screen 2",
+						"media" : "main_2",
+						"chinese" : "要来一杯红茶放松一下吗？茶点，或者您想换换口味的话，咖啡和威士忌也都准备好了呢",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "紅茶はいかがですか？あっ…別のものをご所望でしたら、コーヒーとウィスキーはもう用意出来ております",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Do you want some tea? Ah... if you want something else, I'll prepare some coffee or whiskey.",
+						"englishNote" : ""
+					},
+					"8" : {
+						"event" : "Main screen 3",
+						"media" : "main_3",
+						"chinese" : "在泰晤士河畔沐浴阳光的日子也不坏呢，不过果然这种生活才适合我",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "テムズ川沿いでの日光浴も悪くありませんね。しかし私には今の生活こそが…",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Sunbathing on Thames river wasn't bad. But this current life of mine is better...",
+						"englishNote" : ""
+					},
+					"9" : {
+						"event" : "Normal touch",
+						"media" : "touch_1",
+						"chinese" : "贸然触碰女士可不是绅士作为，不要对其他人做哦",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "不用意に女性を触るのは紳士の所行ではございません。他の方にはご自重くださいませ",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Aimlessly touching a lady is not a gentlemanly behaviour. Please behave yourself around others.",
+						"englishNote" : ""
+					},
+					"10" : {
+						"event" : "Special touch",
+						"media" : "touch_2",
+						"chinese" : "为主人献上一切是女仆的义务，指挥官，想看吗？",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "主にすべてを捧げるのはメイドの勤めです。ご主人様、ご覧になられますでしょうか？",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "It's a maid's duty to dedicate her all to her master. Would you like to see, master?",
+						"englishNote" : ""
+					},
+					"11" : {
+						"event" : "Mission reminder",
+						"media" : "task",
+						"chinese" : "新的任务下达了，指挥官，请您过目",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "新しい任務が通達されました。ご主人様、ご確認くださいませ",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "A new mission has been given to us, master. Please confirm it.",
+						"englishNote" : ""
+					},
+					"12" : {
+						"event" : "Mission complete",
+						"media" : "mission_complete",
+						"chinese" : "任务奖励已经发放了",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "任務の報奨が届きました",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Your rewards have been delivered, Master.",
+						"englishNote" : ""
+					},
+					"13" : {
+						"event" : "Mail reminder",
+						"media" : "mail",
+						"chinese" : "有新的信件，指挥官，需要我代为朗读吗？",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "新しいお手紙です。ご主人様、読み上げさせていただいてもよろしいでしょうか",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "There's a new letter. Shall I read it for you, master?",
+						"englishNote" : ""
+					},
+					"14" : {
+						"event" : "Return to port",
+						"media" : "home",
+						"chinese" : "欢迎回来，指挥官，茶点已经准备好了",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "おかえりなさいませ、ご主人様、軽食はこちらにご用意しました",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Welcome back, master. I've readied some light snacks over here.",
+						"englishNote" : ""
+					},
+					"15" : {
+						"event" : "Commission complete",
+						"media" : "expedition",
+						"chinese" : "指挥官，完成委托的小姐们正在等待您的迎接呢",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "ご主人様、委託を完了したお嬢様方がお出迎えをお待ちしているようです",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Master, the ladies who went off for commissions have been waiting for you to greet them.",
+						"englishNote" : ""
+					},
+					"16" : {
+						"event" : "Enhancing complete",
+						"media" : "upgrade",
+						"chinese" : "贝尔法斯特，必不负您的期待",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "ベルファスト、ご期待にお応え致します",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "I won't let you down.",
+						"englishNote" : ""
+					},
+					"17" : {
+						"event" : "Flagship fight",
+						"media" : "warcry",
+						"chinese" : "为主人清除障碍正是女仆的职责",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "主のため障害を取り除くのはメイドの勤めです",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "It's a maid's duty to remove their master's obstacles.",
+						"englishNote" : ""
+					},
+					"18" : {
+						"event" : "Victory",
+						"media" : "mvp",
+						"chinese" : "哎呀，还不如厨房的污垢来得棘手呢",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "あら、台所の汚れよりも手応えありませんね",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Oh my, I didn't spend as much effort as cleaning up a stain in a tablecloth.",
+						"englishNote" : ""
+					},
+					"19" : {
+						"event" : "Defeat",
+						"media" : "lose",
+						"chinese" : "指挥官，请先行撤退吧，我还有些事要做（微笑）",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "ご主人様先にお引きください。私はまだ少々所用がございますゆえ",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Please retreat first, master. I still have some matters to attend to.",
+						"englishNote" : ""
+					},
+					"20" : {
+						"event" : "Skills",
+						"media" : "skill",
+						"chinese" : "敌方的诸位，接下来会有些疼哦",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "敵の皆様、次は少々痛くなりますよ",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Dear enemies, this is going to be a little bit painful",
+						"englishNote" : ""
+					},
+					"21" : {
+						"event" : "Low HP",
+						"media" : "hp",
+						"chinese" : "接下来才是正餐哦，诸位",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "皆様、メインディッシュはまだこれからです！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Everyone, the main dish has yet to come!",
+						"englishNote" : ""
+					},
+					"22" : {
+						"event" : "Upset",
+						"media" : "feeling1",
+						"chinese" : "矫正主人也是女仆的义务呢……",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "ご主人様の矯正もメイドの務めです",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Correcting her master is also a maid's duty...",
+						"englishNote" : ""
+					},
+					"23" : {
+						"event" : "Stranger",
+						"media" : "feeling2",
+						"chinese" : "万分抱歉……初来乍到，对舰队的事务还不太习惯，不能为您提供百分百的服务……请期待我接下来的表现吧",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "申し訳ありません……艦隊に着任したばかりで用務のほうにはまだ少々不慣れで、100％ご満足いただけるご奉仕ができなくて……何卒これからのご奉仕にご期待くださいませ",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "I'm terribly sorry... I'm still new to this fleet, so I'm somewhat unfamiliar with my duties and cannot serve you at 100% capacity... Please look forward to my continued service.",
+						"englishNote" : ""
+					},
+					"24" : {
+						"event" : "Friendly",
+						"media" : "feeling3",
+						"chinese" : "稍微借用了一下舰队的渠道才入手的呢，来，请品尝吧——不知还合您的口味吗？",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "艦隊のコネをお借りしまして入手した一品でございます。ご賞味くださいませーーお口に合いましたでしょうか？",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "This is something I made using the connections I have to the fleet. Please have a taste -- Is the taste to your liking?",
+						"englishNote" : ""
+					},
+					"25" : {
+						"event" : "Crush",
+						"media" : "feeling4",
+						"chinese" : "敏锐地捕捉主上的意图，尤其是主上自己也没有发觉的可是很重要的……欺负人？呵呵~欣赏您为难的表情是最近才发掘的乐趣呢，还请见谅（笑）",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "ご主人様の意図、特にご主人様自らも自覚していないことを敏感に察知することも大切でございます……いじわる、と仰りますと？うふふ、最近は困っているお顔を見るのを少々楽しみにさせていただいております。何卒ご容赦くださいませ",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "It is important to observe your intentions sensitively. Especially intentions that you yourself are not aware of, master... I'm mean, you say? Hehe. Recently I've come to enjoy your troubled look a little. By all means, please forgive me.",
+						"englishNote" : ""
+					},
+					"26" : {
+						"event" : "Love",
+						"media" : "feeling5",
+						"chinese" : "您醒了吗？……呵呵，因为您的睡脸太过可爱，让我实在不忍将您叫醒……如何，贝尔法斯特的膝枕还能让您满意吗？无论何时，您都可以享用哦",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "お目覚めですか？……うふふ、寝顔が大変可愛くてつい起こすのは惜しくて……ベルファストの膝枕はいかがでしょうか？いつまでも心ゆくまでお楽しみくださいませ",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Are you awake? ...Hehe, your sleeping face was so cute, I couldn't bear waking you up... How did it feel, resting on my lap? You are free to enjoy it to your heart's content",
+						"englishNote" : ""
+					},
+					"27" : {
+						"event" : "Promise",
+						"media" : "propose",
+						"chinese" : "这下麻烦了呢，明明我只是一直看着您，偶尔欣赏一下您为难的样子就满足了，得到这么重要的誓约不就让我忍不住想要为您做更多，从您那里获得更多了吗？",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "これは少々困ったものですね…ご主人様を見守り、たまにはお困りのご様子を見ることができれば満足していましたというのに……こんな大切な契りを結んでいただけるなんて、もっとご主人様にご奉仕して、もっとご主人様からのお情けがほしくなりますもの… ",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Now this is a little troubling... I'm fine with simply protecting you, my master, as well as occassionally enjoying your troubled look... But with such an important bond being formed, I've become wanting to serve you even more, as well as receiving more of your attention, master...",
+						"englishNote" : ""
+					}
+				}
+			},
+			"2": {
+				"skin_id" : "beierfasite_2",
+				"id" : "1",
+				"label" : "Iridescent Rosa ",
+				"dialogue" : {
+					"1" : {
+						"event" : "Ship Description",
+						"media" : "",
+						"chinese" : "呵呵…指挥官，这一身就这么让您吃惊吗？还以为您会想看我穿上旗袍的样子呢…难道是我想错了吗～？",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "ご主人様、その驚いたご様子は……東煌のドレス姿をご所望されたと存じておりますが、もしやこのベルファスト、勘違いしたのでしょうか？",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Hehe... Master, why are you so stunned from seeing me? I thought you perhaps wanted to see me in a qipao... was I mistaken?",
+						"englishNote" : ""
+					},
+					"2" : {
+						"event" : "Receive",
+						"media" : "get_1",
+						"chinese" : "呵呵…指挥官，这一身就这么让您吃惊吗？还以为您会想看我穿上旗袍的样子呢…难道是我想错了吗～？",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "ご主人様、その驚いたご様子は……東煌のドレス姿をご所望されたと存じておりますが、もしやこのベルファスト、勘違いしたのでしょうか？",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Hehe... Master, why are you so stunned from seeing me? I thought you perhaps wanted to see me in a qipao... was I mistaken?",
+						"englishNote" : ""
+					},
+					"3" : {
+						"event" : "Log in",
+						"media" : "login_1",
+						"chinese" : "欢迎回来，指挥官。我特意准备了来自东煌各地的不同茶叶哦，请问今天想要哪一种呢？",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "おかえりなさいご主人様。東煌各地の茶葉を取り寄せてまいりました。本日はどのようなものをご所望ですか？",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Welcome back, Master. I specially procured some different teas from the Dragon Empery. Which one would you like to try first?",
+						"englishNote" : ""
+					},
+					"4" : {
+						"event" : "View details",
+						"media" : "detail_1",
+						"chinese" : "东煌的服饰，确实有相当的魅力呢，呵呵，或许可以考虑在女仆队里推广一下，您觉得呢？",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "東煌の衣装、確かに異国の魅力がございますね。メイド隊の制服に取り入れるのも考えられておりますが………ご主人様、いかが致しましょうか",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "The outfits of the Dragon Empery do have a certain charm. Perhaps I can give them a little recommendation to the rest of the maid team. What do you think?",
+						"englishNote" : ""
+					},
+					"5" : {
+						"event" : "Main screen 1",
+						"media" : "main_1_1",
+						"chinese" : "烹饪的手法与技巧，以及如何调味……东煌的美食文化真是令人大开眼界……",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "料理の技法、そして味付け……東煌の食文化というのは本当に勉強になりますね",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "A variety of culinary techniques and seasoning methods... the food culture of the Dragon Empery is truly eye-opening. ",
+						"englishNote" : ""
+					},
+					"6" : {
+						"event" : "Main screen 2",
+						"media" : "main_2_1",
+						"chinese" : "东煌的新年习俗是大家在一起聚餐吗……呵呵，要让所有人都得到满足，女仆之魂在蠢蠢欲动呢",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "親しい者が一堂に会して食事を楽しむ、と……如何にして全員を満足させるか、メイド長として腕が鳴ります",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "It's customary in the Dragon Empery for everyone to get together on New Year's to have a banquet? Ahh, so many people to serve... my maid's soul is trembling! ",
+						"englishNote" : ""
+					},
+					"7" : {
+						"event" : "Main screen 3",
+						"media" : "main_3_1",
+						"chinese" : "舰队中来自东煌的姐妹虽然只有寥寥数位，不过也正因为如此，不能让她们觉得受到冷落呢",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "艦隊では東煌出身の方は数こそ少ないですが、だからといって彼女たちに寂しい思いをさせるわけには参りませんね",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Only a few girls from the Dragon Empery have joined our fleet. Because of that, I can't afford to let them feel lonely.",
+						"englishNote" : ""
+					},
+					"8" : {
+						"event" : "Normal touch",
+						"media" : "touch_1_1",
+						"chinese" : "贝尔法斯特，值此新春佳节，依然任凭差遣",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "ベルファスト、新春のめでたい時期であれども、ご用命とあらば伺いいたします",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Despite the fact that it is a holiday, I am still ready to sortie.",
+						"englishNote" : ""
+					},
+					"9" : {
+						"event" : "Special touch",
+						"media" : "touch_2_1",
+						"chinese" : "看来，这件旗袍最大的缺点，是会让指挥官把持不住呢~",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "この衣装の最大の欠点は…ご主人様を乱心させてしまう、という点でございますね",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "I see, Master. The biggest drawback of this qipao is its ability to rob you of your self-control.",
+						"englishNote" : ""
+					},
+					"10" : {
+						"event" : "Return to port",
+						"media" : "home_1",
+						"chinese" : "请用，指挥官，这是为今天仍不忘工作的您特意准备的糕点",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "どうぞお召し上がりくださいませ。祝日にも執務されているご主人様のために用意いたしました、特別な菓子でございます",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "I baked this pastry for a certain Master who is so absorbed in work to the point of forgetting to eat. Please enjoy it.",
+						"englishNote" : ""
+					},
+					"11" : {
+						"event" : "Commission complete",
+						"media" : "expedition_1",
+						"chinese" : "指挥官，给努力委托的孩子发个红包您觉得怎么样？",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "ご主人様、委託に励んできた方々にお年玉でも配ってはいかがでしょうか",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Master, what do you think about handing some red envelopes to the hardworking girls still out on commissions?",
+						"englishNote" : ""
+					},
+					"12" : {
+						"event" : "Love",
+						"media" : "feeling5_1",
+						"chinese" : "指挥官，您知道吗，我能为您做的，只有学习其他阵营的文化，为您提供更好的服务，这些远远比不上您为我们带来的一切，您却觉得这是理所当然的事……您真是一个，让人又爱又恨的人呢",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "ベルファストができるのは、他勢力の文化を学び、ご主人様によりよく奉仕する以外にありません。それに比べ、ご主人様が艦隊にしてくださったことはもっとずっと多い…にもかかわらず、このベルファストのことまで労って頂けるなんて……全く困ったご主人様です",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Did you know, Master... all I can do for you is to learn from the cultures of the other camps in order to provide you with better service. But all this pales in comparison to all that you do for us on a daily basis, yet you take yourself for granted... What a lovable but also hateable person.",
+						"englishNote" : ""
+					}
+				}
+			},
+			"3": {
+				"skin_id" : "beierfasite_h",
+				"id" : "8",
+				"label" : "The Pledge of Claddagh",
+				"dialogue" : {
+					"1" : {
+						"event" : "Ship Description",
+						"media" : "",
+						"chinese" : "您就是我的命定之人吗？贵安。贝尔法斯特，此刻起，将永远陪伴在您的身旁",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "「あなたは私の運命の御方ですか？」…うふふ、ご機嫌麗しゅうございます。ベルファストはこれより、ご主人様と永遠に添い遂げさせていただく所存です。",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Are you destined for me? Greetings Belfast, from this moment onwards, I will always be with you.",
+						"englishNote" : ""
+					},
+					"2" : {
+						"event" : "Receive",
+						"media" : "get_8",
+						"chinese" : "您就是我的命定之人吗？贵安。贝尔法斯特，此刻起，将永远陪伴在您的身旁",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "「あなたは私の運命の御方ですか？」…うふふ、ご機嫌麗しゅうございます。ベルファストはこれより、ご主人様と永遠に添い遂げさせていただく所存です。",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Are you destined for me? Greetings. Belfast, from this moment onwards, I will always be with you.",
+						"englishNote" : ""
+					},
+					"3" : {
+						"event" : "Log in",
+						"media" : "login_8",
+						"chinese" : "今天也和往常一样吗？",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "今日もいつもどおりのものをご用意しましょうか？",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Is today the same as usual?",
+						"englishNote" : ""
+					},
+					"4" : {
+						"event" : "View details",
+						"media" : "detail_8",
+						"chinese" : "我可不打算放弃女仆的职责哦？再说了，还有谁会比我更了解您呢？",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "メイドを辞めるつもりなんてございません。なにより、ご主人様へのご給仕に関してはこのベルファストより詳しい子なんているはずもございませんので",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "I'm not going to give up being your maid. Besides, who could understand you better than me?",
+						"englishNote" : ""
+					},
+					"5" : {
+						"event" : "Main screen 1",
+						"media" : "main_1_8",
+						"chinese" : "主人，亲爱的，达令……有些难以抉择呢。或者说，您有别的想法吗？",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "ご主人様、あなた、ダーリン……ふふ、選びにくいものですね。もしくは…ほかの呼び方がご所望ですか？",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Master, dear, darling...some hard choices to make. Or do you have other ideas? ",
+						"englishNote" : ""
+					},
+					"6" : {
+						"event" : "Main screen 2",
+						"media" : "main_2_8",
+						"chinese" : "按照您的想法去做就好，在我心里，您永远是最出色的",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "どうか意のままにご行動くださいませ。ご主人様がどんな選択をしようと、ベルファストにとってはそれが最善の選択になります",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Just do according to your own plans, in my heart you will always be the best. ",
+						"englishNote" : ""
+					},
+					"7" : {
+						"event" : "Main screen 3",
+						"media" : "main_3_8",
+						"chinese" : "穿着这一身稍微有些不方便做事呢……不过您喜欢的话那就稍微忍耐一下吧",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "この格好ですといささか給仕に支障が出ますが……いいえ、ご主人様が気に入っているのでしたら、もう少し我慢いたします",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Wearing this makes it a little inconvenient to do things...but if you like it so much, then just be a bit more patient...",
+						"englishNote" : ""
+					},
+					"8" : {
+						"event" : "Normal touch",
+						"media" : "touch_1_8",
+						"chinese" : "比起站在背后，果然在您的身侧…会看到更多的东西呢",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "後ろに控えるより、側に立つほうがよりご主人様と同じ世界が見えますね",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "In comparison to standing behind you, I can see more when standing beside you.",
+						"englishNote" : ""
+					},
+					"9" : {
+						"event" : "Special touch",
+						"media" : "touch_2_8",
+						"chinese" : "等、等一下…真是的，我正在打扫呢……",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "きゃっ…もう、掃除中なのに……焦らなくても良いのですよ",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "W-wait a moment...honestly, I'm cleaning right now..",
+						"englishNote" : ""
+					},
+					"10" : {
+						"event" : "Return to port",
+						"media" : "home_8",
+						"chinese" : "今天有什么有趣的事吗？一边吃点心一边跟我说吧",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "今日も土産話がございますでしょうか。うふふ、ベルファストが用意した軽食でも召し上がってお聞かせください♪",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Anything interesting today? Tell me while we enjoy some dessert.",
+						"englishNote" : ""
+					},
+					"11" : {
+						"event" : "Love",
+						"media" : "feeling5_8",
+						"chinese" : "学会适应新身份吗……您真是给我出了一个大难题呢，不过……大概世上再也不会有这么令人幸福的难题了吧",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "メイドではない新しい自分に慣れよう、ですか？……難しいことを仰りますね。ですが……ベルファストにとって、これほど幸せな悩みはございませんよ。ご主人様♪",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Am I get used to my new role? You really asked me a tough question, but...there's no sweeter question in the world.",
+						"englishNote" : ""
+					}
+				}
+			}
+		}
+	}
+}

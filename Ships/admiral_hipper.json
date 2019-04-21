@@ -1,835 +1,650 @@
 {
-  "name": "Admiral Hipper",
-  "nameJP": "アドミラル・ヒッパー",
-  "nameCN": "希佩尔海军上将",
-  "class": "Admiral Hipper",
-  "hull": "Heavy Cruiser",
-  "prefix": "KMS",
-  "ID": "242",
-  "file_id": "242_Admiral_Hipper",
-  "navy": "Ironblood",
-  "initialStar": "★★☆☆☆",
-  "rarity": "Elite",
-  "buildTime": "02:00:00",
-  "acquisitionMethod": "Limited Build in Divergent Chessboard",
-  "enhance": {
-    "firepower": "26",
-    "torpedo": "12",
-    "aviation": "0",
-    "reload": "12"
-  },
-  "scrap": {
-    "gold": "9",
-    "oil": "3",
-    "medal": "4"
-  },
-  "skin": {
-    "1": {
-      "name": "Default",
-      "description": "Admiral Hipper-class heavy cruiser - Admiral Hipper",
-      "expression": {
-        "1": {
-          "label": "Default"
-        }
-      }
-    }
-  },
-  "releaseDate": {
-    "JP": "December 26, 2017",
-    "CN": "August 2, 2017",
-    "KR": "",
-    "EN": "December 13, 2018"
-  },
-  "voiceActress": "Yuri Yamaoka",
-  "artist": {
-    "name": "NIN",
-    "weibo": "https://weibo.com/u/5835967453",
-    "twitter": "",
-    "pixiv": "https://www.pixiv.net/member.php?id=2250068",
-    "other": ""
-  },
-  "parameters": {
-    "hp": "A",
-    "antiAir": "C",
-    "evasion": "C",
-    "aviation": "E",
-    "torpedo": "C",
-    "firepower": "A"
-  },
-  "stats": {
-    "100": {
-      "hp": "4518",
-      "armor": "Medium",
-      "reload": "153",
-      "firepower": "218",
-      "torpedo": "165",
-      "evasion": "23",
-      "antiAir": "164",
-      "aviation": "0",
-      "cost": "11",
-      "asw": "0",
-      "speed": "25",
-      "luck": "66"
-    },
-    "120": {
-      "hp": "4970",
-      "armor": "Medium",
-      "reload": "176",
-      "firepower": "251",
-      "torpedo": "190",
-      "evasion": "61",
-      "antiAir": "189",
-      "aviation": "0",
-      "cost": "11",
-      "asw": "0",
-      "speed": "25",
-      "luck": "66"
-    },
-    "base": {
-      "hp": "874",
-      "armor": "Medium",
-      "reload": "65",
-      "firepower": "46",
-      "torpedo": "35",
-      "evasion": "9",
-      "antiAir": "35",
-      "aviation": "0",
-      "cost": "3",
-      "asw": "0",
-      "speed": "25",
-      "luck": "66"
-    },
-    "100retrofit": {
-      "hp": "",
-      "armor": "",
-      "reload": "",
-      "firepower": "",
-      "torpedo": "",
-      "evasion": "",
-      "antiAir": "",
-      "aviation": "",
-      "cost": "",
-      "asw": "",
-      "speed": "",
-      "luck": ""
-    },
-    "120retrofit": {
-      "hp": "",
-      "armor": "",
-      "reload": "",
-      "firepower": "",
-      "torpedo": "",
-      "evasion": "",
-      "antiAir": "",
-      "aviation": "",
-      "cost": "",
-      "asw": "",
-      "speed": "",
-      "luck": ""
-    }
-  },
-  "limitBreak": {
-    "tier1": "Full Barrage I, Main Gun Efficiency +5%",
-    "tier2": "Max Torpedo Capacity +1, Pre-Loaded Torpedo +1, Main Gun Efficiency +10%",
-    "tier3": "Full Barrage I→II, Torpedo Efficiency +15%"
-  },
-  "equipmentLoadout": {
-    "1": {
-      "type": "Heavy Cruiser Gun",
-      "efficiency": "115%/120%/130%/130%",
-      "amount": "1/1/1/1",
-      "preload": "0/0/0/0"
-    },
-    "2": {
-      "type": "Torpedo",
-      "efficiency": "145%/145%/145%/160%",
-      "amount": "1/1/2/2",
-      "preload": "0/0/1/1"
-    },
-    "3": {
-      "type": "Anti-Air Gun",
-      "efficiency": "100%/100%/100%/100%",
-      "amount": "1/1/1/1",
-      "preload": "0/0/0/0"
-    },
-    "4": {
-      "type": "Auxilliary",
-      "efficiency": "-",
-      "amount": "-",
-      "preload": "-"
-    },
-    "5": {
-      "type": "Auxilliary",
-      "efficiency": "-",
-      "amount": "-",
-      "preload": "-"
-    }
-  },
-  "defaultEquipment": {
-    "1": "Twin 203mm (SK C/34) T1"
-  },
-  "skill": {
-    "1": {
-      "name": "Guarding Shield",
-      "type": "Defensive",
-      "requirement": "Default Unlocked",
-      "description": "Every 30 seconds, deploy 2 rotating shields which can block up to 10 rounds each. Shields last for 5(15) seconds."
-    },
-    "2": {
-      "name": "Vice Defense",
-      "type": "Defensive",
-      "requirement": "Default Unlocked",
-      "description": "3.5%(8%) chance to reduce DMG taken by 50% when being attacked."
-    },
-    "3": {
-      "name": "All Out Assault I-II",
-      "type": "Offensive",
-      "requirement": "Limit Break Rank 1, Rank 3 upgrade",
-      "description": "Activate All Out Assault II: Admiral Hipper Class once every 9(6) times the main gun is fired."
-    }
-  },
-  "build": {
-    "light": {
-      "JP": "-",
-      "CN": "-",
-      "EN": "-"
-    },
-    "heavy": {
-      "JP": "-",
-      "CN": "-",
-      "EN": "-"
-    },
-    "special": {
-      "JP": "-",
-      "CN": "-",
-      "EN": "-"
-    },
-    "limited": {
-      "JP": "✓",
-      "CN": "✓",
-      "EN": "✓"
-    }
-  },
-  "drop": {
-    "droppable": "false",
-    "list": {
-      "1": {
-        "event": "World",
-        "chapter": {
-          "1": {
-            "label": "Ch.2",
-            "node": {
-              "1": {
-                "drop": "✓",
-                "note": "JP Only"
-              },
-              "2": {
-                "drop": "✓",
-                "note": "JP Only"
-              },
-              "3": {
-                "drop": "✓",
-                "note": "JP Only"
-              },
-              "4": {
-                "drop": "✓",
-                "note": "JP Only"
-              }
-            }
-          },
-          "2": {
-            "label": "Ch.3",
-            "node": {
-              "1": {
-                "drop": "✓",
-                "note": "JP Only"
-              },
-              "2": {
-                "drop": "✓",
-                "note": "JP Only"
-              },
-              "3": {
-                "drop": "✓",
-                "note": "JP Only"
-              },
-              "4": {
-                "drop": "✓",
-                "note": "JP Only"
-              }
-            }
-          },
-          "3": {
-            "label": "Ch.4",
-            "node": {
-              "1": {
-                "drop": "✓",
-                "note": "JP Only"
-              },
-              "2": {
-                "drop": "✓",
-                "note": "JP Only"
-              },
-              "3": {
-                "drop": "✓",
-                "note": "JP Only"
-              },
-              "4": {
-                "drop": "✓",
-                "note": "JP Only"
-              }
-            }
-          },
-          "4": {
-            "label": "Ch.5",
-            "node": {
-              "1": {
-                "drop": "✓",
-                "note": "JP Only"
-              },
-              "2": {
-                "drop": "✓",
-                "note": "JP Only"
-              },
-              "3": {
-                "drop": "✓",
-                "note": "JP Only"
-              },
-              "4": {
-                "drop": "✓",
-                "note": "JP Only"
-              }
-            }
-          },
-          "5": {
-            "label": "Ch.6",
-            "node": {
-              "1": {
-                "drop": "✓",
-                "note": "JP Only"
-              },
-              "2": {
-                "drop": "✓",
-                "note": "JP Only"
-              },
-              "3": {
-                "drop": "✓",
-                "note": "JP Only"
-              },
-              "4": {
-                "drop": "✓",
-                "note": "JP Only"
-              }
-            }
-          },
-          "6": {
-            "label": "Ch.7",
-            "node": {
-              "1": {
-                "drop": "✓",
-                "note": "JP Only"
-              },
-              "2": {
-                "drop": "✓",
-                "note": "JP Only"
-              },
-              "3": {
-                "drop": "✓",
-                "note": "JP Only"
-              },
-              "4": {
-                "drop": "✓",
-                "note": "JP Only"
-              }
-            }
-          },
-          "7": {
-            "label": "Ch.8",
-            "node": {
-              "1": {
-                "drop": "✓",
-                "note": "JP Only"
-              },
-              "2": {
-                "drop": "✓",
-                "note": "JP Only"
-              },
-              "3": {
-                "drop": "✓",
-                "note": "JP Only"
-              },
-              "4": {
-                "drop": "✓",
-                "note": "JP Only"
-              }
-            }
-          },
-          "8": {
-            "label": "Ch.9",
-            "node": {
-              "1": {
-                "drop": "✓",
-                "note": "JP Only"
-              },
-              "2": {
-                "drop": "✓",
-                "note": "JP Only"
-              },
-              "3": {
-                "drop": "✓",
-                "note": "JP Only"
-              },
-              "4": {
-                "drop": "✓",
-                "note": "JP Only"
-              }
-            }
-          },
-          "9": {
-            "label": "Ch.10",
-            "node": {
-              "1": {
-                "drop": "✓",
-                "note": "JP Only"
-              },
-              "2": {
-                "drop": "✓",
-                "note": "JP Only"
-              },
-              "3": {
-                "drop": "✓",
-                "note": "JP Only"
-              },
-              "4": {
-                "drop": "✓",
-                "note": "JP Only"
-              }
-            }
-          },
-          "10": {
-            "label": "Ch.11",
-            "node": {
-              "1": {
-                "drop": "✓",
-                "note": "JP Only"
-              },
-              "2": {
-                "drop": "✓",
-                "note": "JP Only"
-              },
-              "3": {
-                "drop": "✓",
-                "note": "JP Only"
-              },
-              "4": {
-                "drop": "✓",
-                "note": "JP Only"
-              }
-            }
-          },
-          "11": {
-            "label": "Ch.12",
-            "node": {
-              "1": {
-                "drop": "✓",
-                "note": "JP Only"
-              },
-              "2": {
-                "drop": "✓",
-                "note": "JP Only"
-              },
-              "3": {
-                "drop": "✓",
-                "note": "JP Only"
-              },
-              "4": {
-                "drop": "✓",
-                "note": "JP Only"
-              }
-            }
-          }
-        }
-      }
-    }
-  },
-  "lines": {
-    "skin": {
-      "1": {
-        "label": "admiral_hipper_skin1",
-        "dialogue": {
-          "1": {
-            "event": "Ship Description",
-            "media": "",
-            "chinese": "希佩尔海军上将级重巡洋舰—希佩尔海军上将",
-            "chineseTL": "Admiral Hipper-class heavy cruiser - Admiral Hipper",
-            "chineseNote": "",
-            "japanese": "",
-            "japaneseTL": "",
-            "japaneseNote": "",
-            "english": "Admiral Hipper-class heavy cruiser - Admiral Hipper",
-            "englishNote": ""
-          },
-          "2": {
-            "event": "Self Introduction",
-            "media": "self_introduction",
-            "chinese": "我是德意志帝国希佩尔海军上将号重巡洋舰，名字源于“不败的名将”弗兰茨·冯·希佩尔。参与过各种各样的战斗并在每场战斗中都尽了最大的努力！哈？巴伦支海？那是因为库默兹比你还愚蠢！",
-            "chineseTL": "I'm the Admiral Hipper-class heavy cruiser from the german empire. My name originates from the 'Undefeated Champion' Franz von Hipper. I've participated in all sorts of battles and gave all that I could! Hah? The Barents sea? This because Kummetz is even dumber than you!",
-            "chineseNote": "",
-            "japanese": "科学の国の重巡洋艦、アドミラル・ヒッパーよ。名前は不敗の提督「フランツ・フォン・ヒッパー」から来てんの。色んな戦闘に参加して全力を尽くしたけど！は？バレンツ海？あれはクメッツ提督があんたより少しバカだっただけ！",
-            "japaneseTL": "I'm Admiral Hipper, a heavy cruiser from the country of science. I was named after the undefeated Admiral \"Franz von Hipper.\" I participated in various battles and gave them my all! Huh? The Barents Sea? That only happened because Admiral Kummetz was a little dumber than you!",
-            "japaneseNote": "",
-            "english": "I am Admiral Hipper, the Iron Blood heavy cruiser named after the undefeated Admiral Franz von Hipper. l have participated in countless battles and given them my all. The Barents Sea? That only happened because Admiral Kummetz was even dumber than you.",
-            "englishNote": ""
-          },
-          "3": {
-            "event": "Acquisition",
-            "media": "acquisition",
-            "chinese": "哈？你就是指挥官？战事已经紧张到随便什么人都能当指挥官了吗？",
-            "chineseTL": "Hah? You are the Commander? Is the war so tense that anyone can become a commander now?",
-            "chineseNote": "",
-            "japanese": "はぁ？あんたが指揮官？こんなどこの馬の骨ともわからないやつにまで指揮官をやらせるなんて、戦況はもうそんなに切迫しているわけ！？",
-            "japaneseTL": "Huh? You're the Commander? Is the situation so desperate that they let just about any random Tom, Dick, or Harry be a Commander!?",
-            "japaneseNote": "",
-            "english": "Huh? You are the commander? Is the war effort going so poorly these days that they're letting anyone become a commander?",
-            "englishNote": ""
-          },
-          "4": {
-            "event": "Login",
-            "media": "login",
-            "chinese": "笨蛋，起床了吗？哈？你在妄想什么，我只是绕着港区散步刚好看到你而已！",
-            "chineseTL": "Idiot, have you woken up? Hah? What are you on about, I was just walking around the homeport and met you by chance!",
-            "chineseNote": "",
-            "japanese": "マヌケ、もう起きた？はぁ？何ニヤニヤしてんのよ！港を散歩してちょうど見かけただけよ！",
-            "japaneseTL": "Moron, are you awake yet? Huh? What are you grinning at!? I just happened to see you during my walk around the harbor!",
-            "japaneseNote": "",
-            "english": "Idiot, so you rolled out of bed? Haah? What are you fantasizing about? I only happened to bump into you while patrolling the port.",
-            "englishNote": ""
-          },
-          "5": {
-            "event": "Details",
-            "media": "details",
-            "chinese": "笨蛋，你在看什么！快从我的房间出去！",
-            "chineseTL": "Idiot, what are you looking at?! Get out of my room!",
-            "chineseNote": "",
-            "japanese": "このバカ、何見てんのよ！さっさと私の部屋から出ていきなさいよ！",
-            "japaneseTL": "You idiot, what are you looking at!? Hurry up and get out of my room!",
-            "japaneseNote": "",
-            "english": "What are you looking at. idiot? Get out of my room!",
-            "englishNote": ""
-          },
-          "6": {
-            "event": "Idle 1",
-            "media": "idle_1",
-            "chinese": "布吕歇尔，这一次我一定会保护好你",
-            "chineseTL": "Blücher, this time I will make sure to protect you well.",
-            "chineseNote": "",
-            "japanese": "ブリュッヒャー、今度こそ守り切ってやるわ！",
-            "japaneseTL": "Blücher, I will protect you this time!",
-            "japaneseNote": "",
-            "english": "Blücher, I will definitely protect you this time",
-            "englishNote": ""
-          },
-          "7": {
-            "event": "Idle 2",
-            "media": "idle_2",
-            "chinese": "哈？你这种菜鸟想和我比试巡洋舰的指挥技术？",
-            "chineseTL": "Hah? A rookie like you wants to compete with me on commanding a cruiser?",
-            "chineseNote": "",
-            "japanese": "まさか、あんたのようなヘタクソが、この私と巡洋艦の指揮技術を競いたいわけ",
-            "japaneseTL": "Don't tell me that a dumbass like you wants to challenge my cruiser commanding skills.",
-            "japaneseNote": "",
-            "english": "Hah? A novice like you wants to challenge my cruiser-commanding skills?",
-            "englishNote": ""
-          },
-          "8": {
-            "event": "Idle 3",
-            "media": "idle_3",
-            "chinese": "哈？猪肘和啤酒还没准备好吗？几人份？笨蛋！你的脑子是摆设吗！",
-            "chineseTL": "Hah? The pork knuckle and beer are not ready yet? ——A multiple-person sized serving? Idiot! Are you braindead?",
-            "chineseNote": "",
-            "japanese": "はぁ？シュバイネハクセとビールの準備はまだ？…何人前って？このバカ！あんたの脳は飾りものなの？",
-            "japaneseTL": "Huh? Is the Schweinshaxe and beer ready yet? …How many servings do we need? You idiot! Do you even have a brain in that thick skull of yours?",
-            "japaneseNote": "",
-            "english": "Hah? Are the Schweinshaxe and beer ready yet? How many servings do we need? Idiot! Is your brain just an ornament?",
-            "englishNote": ""
-          },
-          "9": {
-            "event": "Touch",
-            "media": "touch",
-            "chinese": "哈？我有允许你碰我吗？",
-            "chineseTL": "Hah? Did I give you permission to touch me?",
-            "chineseNote": "",
-            "japanese": "はぁ？触ることを許した覚えは無いけど！",
-            "japaneseTL": "Huh? I don't remember giving you permission to touch me!",
-            "japaneseNote": "",
-            "english": "Huh? Did I give you permission to touch me?",
-            "englishNote": ""
-          },
-          "10": {
-            "event": "Special Touch",
-            "media": "special_touch",
-            "chinese": "哈？笨笨笨笨——笨蛋！去死吧！沉到基尔港里去吧！",
-            "chineseTL": "Hah? I-I-I-I——Idiot! Go to hell! Sink into the Bay of Kiel!",
-            "chineseNote": "",
-            "japanese": "はぁ！！？？このヘタクソバカドジアホマヌケ！！死んじゃえ！キールの海に沈んじゃえ！",
-            "japaneseTL": "Huh!? You retarded, moronic, block-headed, stupid dumbass! Die right now! Go sink yourself in the Kiel Bay right now!",
-            "japaneseNote": "",
-            "english": "Huh?! You stupid, moronic, block-headed idiot! Go die! Sink yourself in the Kiel Bay right now!",
-            "englishNote": ""
-          },
-          "11": {
-            "event": "New Mission",
-            "media": "mission",
-            "chinese": "笨蛋，做任务的时候不要分心！",
-            "chineseTL": "Idiot, don't get distracted when doing the task!",
-            "chineseNote": "",
-            "japanese": "バカ！任務の最中は気をそらすんじゃないっての！",
-            "japaneseTL": "Idiot! Don't get distracted while in the middle of a mission!",
-            "japaneseNote": "",
-            "english": "Don't get distracted in the middle of a mission, you idiot!",
-            "englishNote": ""
-          },
-          "12": {
-            "event": "Mission Complete",
-            "media": "mission_complete",
-            "chinese": "笨蛋！完成任务就快去领奖，在我面前炫耀什么！",
-            "chineseTL": "Idiot! Go claim the reward after completing the task. What are you doing, boasting to me?!",
-            "chineseNote": "",
-            "japanese": "バカ！任務完了したら報酬を受け取ってきなさいよ！何私の前で見せびらかしてんの！",
-            "japaneseTL": "Idiot! Go get the rewards after completing a mission! Why are you showing it off to me!?",
-            "japaneseNote": "",
-            "english": "Idiot! Hurry up and collect your rewards! Why are you showing it off to me?",
-            "englishNote": ""
-          },
-          "13": {
-            "event": "New Mail",
-            "media": "mail",
-            "chinese": "笨蛋，没注意到新的邮件已经到了吗？",
-            "chineseTL": "Idiot, have you not noticed that new mail is here?",
-            "chineseNote": "",
-            "japanese": "マヌケ！新しいメールがあるのを気づいてないわけ？",
-            "japaneseTL": "Moron! Haven't you realized that there's new mail for you?",
-            "japaneseNote": "",
-            "english": "Are you too stupid to realize that you have new mail?",
-            "englishNote": ""
-          },
-          "14": {
-            "event": "Return From Sortie",
-            "media": "return_from_sortie",
-            "chinese": "笨蛋！既然回来了怎么不来见我？哈？谁在担心你！",
-            "chineseTL": "Idiot! If you're back why didn't you come see me? Hah? Who's worried about you!",
-            "chineseNote": "",
-            "japanese": "バカ！戻ったらなんで会いに来ないのよ！はぁ？誰があんたのことなんか心配すんのよ！",
-            "japaneseTL": "Idiot! Why didn't you come see me when you came back? Huh? Who'd be worried about someone like you!?",
-            "japaneseNote": "",
-            "english": "Idiot! If you had already returned, why didn't you come to see me? Hah? Who would be worried about you?",
-            "englishNote": ""
-          },
-          "15": {
-            "event": "Commission Complete",
-            "media": "commission_complete",
-            "chinese": "笨蛋！还没有想起来你忘记了什么吗？",
-            "chineseTL": "Idiot! Have you not realized what you've forgotten yet?",
-            "chineseNote": "",
-            "japanese": "このマヌケ！何を忘れているかまだ思い出せないわけ？",
-            "japaneseTL": "You damn moron! Have you still not figured out what you've forgotten?",
-            "japaneseNote": "",
-            "english": "You idiot! You still haven’t remembered what you forgot about yet?",
-            "englishNote": ""
-          },
-          "16": {
-            "event": "Enhancement",
-            "media": "enhancement",
-            "chinese": "哈？你以为这样我就会心怀感激吗！",
-            "chineseTL": "Hah? You think I'll appreciate you just for this?",
-            "chineseNote": "",
-            "japanese": "はぁ！？この私が感動するとでも思ってんの！",
-            "japaneseTL": "Huh!? Did you think this was going to impress me?",
-            "japaneseNote": "",
-            "english": "Hah? Did you think something like this would impress me?",
-            "englishNote": ""
-          },
-          "17": {
-            "event": "Sortie Start",
-            "media": "sortie_start",
-            "chinese": "这种规模的海战，相较于日德兰不过是过家家！",
-            "chineseTL": "Compared to Jutland, a battle of this scale is like playing house!",
-            "chineseNote": "",
-            "japanese": "こんなもの、ユトランド沖に比べたら子供騙し程度っての！",
-            "japaneseTL": "Compared to Jutland, this is child's play!",
-            "japaneseNote": "",
-            "english": "Compared to Jutland, a battle like this is mere child's play.",
-            "englishNote": ""
-          },
-          "18": {
-            "event": "MVP",
-            "media": "mvp",
-            "chinese": "哼，今天就特别容许你夸赞几句好了",
-            "chineseTL": "Hng, I'll let you praise me a bit just for today.",
-            "chineseNote": "",
-            "japanese": "ふん！まあ今日だけ褒めることを許してやるわ！",
-            "japaneseTL": "Hmph! Whatever, I'll allow you to compliment me just for today!",
-            "japaneseNote": "",
-            "english": "Hmph. Just today, I shall allow you to praise me a little.",
-            "englishNote": ""
-          },
-          "19": {
-            "event": "Defeat",
-            "media": "defeat",
-            "chinese": "可可可——可恶！好不甘心啊啊啊！",
-            "chineseTL": "D- D- D- damn it! I can't stand this!",
-            "chineseNote": "",
-            "japanese": "なんて屈辱ーー！くっやしいー！！",
-            "japaneseTL": "What a disgrace! I'm so pissed!",
-            "japaneseNote": "",
-            "english": "C-c-c-curses! I can't stand this, ahh!",
-            "englishNote": ""
-          },
-          "20": {
-            "event": "Skill Activation",
-            "media": "skill_activation",
-            "chinese": "哈？谁允许你们反抗了！",
-            "chineseTL": "Hah? Who gave you permission to resist?!",
-            "chineseNote": "",
-            "japanese": "はぁ？誰が抵抗していいって言ってんの！",
-            "japaneseTL": "Huh? Who said you could fight back!?",
-            "japaneseNote": "",
-            "english": "Huh? Who gave you permission to resist?",
-            "englishNote": ""
-          },
-          "21": {
-            "event": "Affinity (Disappointed)",
-            "media": "affinity_disappointed",
-            "chinese": "垃圾！别出现在我的视线中！",
-            "chineseTL": "You trash! Get out of my sight!",
-            "chineseNote": "",
-            "japanese": "このカス！私の視線に映るなっての！",
-            "japaneseTL": "You piece of garbage! I told you to stay out of my sight!",
-            "japaneseNote": "",
-            "english": "You piece of trash! I told you to stay out of my sight!",
-            "englishNote": ""
-          },
-          "22": {
-            "event": "Affinity (Stranger)",
-            "media": "affinity_stranger",
-            "chinese": "哈？这种事情都做不好，你是笨蛋吗？",
-            "chineseTL": "Hah? You can't even do something like this properly? Are you an idiot?",
-            "chineseNote": "",
-            "japanese": "はぁ？こんなこともうまくできないなんて、あんたバカァ？ちょっと私によこしなさいっての！",
-            "japaneseTL": "Huh? You can't even do something this simple? Are you a damn idiot? Give it to me for a second!",
-            "japaneseNote": "",
-            "english": "Huh? You can't even do something like that? Are you an idiot?",
-            "englishNote": ""
-          },
-          "23": {
-            "event": "Affinity (Friendly)",
-            "media": "affinity_friendly",
-            "chinese": "哈？担心我？被你这种人担心可高兴不起来",
-            "chineseTL": "Hah? Worried about me? I can't feel happy for being worried about by someone like you.",
-            "chineseNote": "",
-            "japanese": "はあ！？私のことが心配？あんたのようなバカに心配されたって全然嬉しくないっての！",
-            "japaneseTL": "Huh!? You're worried about me? Having an idiot like you worry about me doesn't make me happy in the slightest!",
-            "japaneseNote": "",
-            "english": "Huh? Worried about me? Having an idiot like you worry about me doesn’t make me happy at all.",
-            "englishNote": ""
-          },
-          "24": {
-            "event": "Affinity (Like)",
-            "media": "affinity_like",
-            "chinese": "哈？谁会喜欢你！只是欧根想和你一起吃饭，我陪她而已！笨蛋，不要会错意了！",
-            "chineseTL": "Hah? Who would like you! It's just that Eugen wants to have a meal with you, I'm just accompanying her! Idiot, don't get the wrong idea!",
-            "chineseNote": "",
-            "japanese": "は！？誰があんたのことが好きになるっての！オイゲンのやつがあんたとご飯食べたいからついて行くだけなの！このバカ！勘違いするじゃないわよ！！",
-            "japaneseTL": "Huh!? Who could grow to like someone the likes of you!? It was because Eugen wanted to eat with you and I just tagged along! You idiot! Don't get the wrong idea!",
-            "japaneseNote": "",
-            "english": "Huh? Who would ever have a crush on you? I'm only tagging along because Eugen wanted to have dinner with you. Don’t get the wrong idea, idiot!",
-            "englishNote": ""
-          },
-          "25": {
-            "event": "Affinity (Love)",
-            "media": "affinity_love",
-            "chinese": "哈？谁会爱上你！我只是按照规定上交出击时捡到的东西罢了！哈？戒指，那种东西谁会戴啊！",
-            "chineseTL": "Hah? Who would love you! I'm just handing out what I pick up during the sortie, as per regulations! Hah? A ring, who would wear something like that!",
-            "chineseNote": "",
-            "japanese": "は！？誰があんたに恋してるっての！わ、私は出撃でたまたま拾ったものを規定通り上官に渡すだけよ！は！？指輪！？そんなの誰がつけるのよ！",
-            "japaneseTL": "Huh!? Who would fall in love with you!? I-I just happened to find something while out on a sortie and I only came by to drop off something to my superior officer, as per regulations, that's all! Huh!? A ring!? Who'd wear that sort of stuff!?",
-            "japaneseNote": "",
-            "english": "Huh? Who would ever fall in love with you? I'm only here to drop off something I found during sortie, per regulations. Huh?! A ring? Who would wear something like that?!",
-            "englishNote": ""
-          },
-          "26": {
-            "event": "Pledge",
-            "media": "pledge",
-            "chinese": "哈？我为什么非要带上这个不可啊！算了，难得今天心情不错……照顾我一生一世？哼，那不是理所当然的吗！",
-            "chineseTL": "Hah? Why do I have to put this on! Whatever, I'm in a good mood today……take care of me forever? Hng, isn't that only natural?!",
-            "chineseNote": "",
-            "japanese": "は！？なんでこんなもの付けなきゃならないの！…ま、まぁいいわ、せっかく今日は機嫌がいいしつけてあげたって…死ぬまで私のこと面倒を見てくれる？ふん！そんなの当たり前よ！",
-            "japaneseTL": "Huh!? Why should I need to wear this thing!? …W-well all right, since I'm in a good mood today I'll wear it just for you… You'll look after me until you die? Hmph! That should be obvious!",
-            "japaneseNote": "",
-            "english": "Huh? Why must I wear something like this? Whatever... I’m in a good mood for a change. You're going to take care of meforever? Hmph! Isn't that what you’re supposed to do?",
-            "englishNote": ""
-          },
-          "27": {
-            "event": "Easter Egg 1 (Glowworm)",
-            "media": "easter_egg_1",
-            "chinese": "（萤火虫）萤火虫，请开始你的表演",
-            "chineseTL": "(with Glowworm) Glowworm, please start your performance.",
-            "chineseNote": "",
-            "japanese": "（グローウォームと出撃）グローウォーム、やっちゃいなさい！",
-            "japaneseTL": "(Sortie with Glowworm) Glowworm, do your thing!",
-            "japaneseNote": "",
-            "english": "",
-            "englishNote": ""
-          },
-          "28": {
-            "event": "Easter Egg 2 (Prinz Eugen)",
-            "media": "easter_egg_1",
-            "chinese": "（欧根亲王）欧根！你在说谁是贫乳傲娇！",
-            "chineseTL": "(with Prinz Eugen) Eugen! Who are you calling a 'flat-chested tsundere'!?",
-            "chineseNote": "",
-            "japanese": "（プリンツ・オイゲンと出撃）オイゲン！誰がツンデレまな板ってんの！",
-            "japaneseTL": "(Sortie with Prinz Eugen) Eugen! Who are you calling flat-chested with an attitude problem!?",
-            "japaneseNote": "",
-            "english": "",
-            "englishNote": ""
-          },
-          "29": {
-            "event": "Main Title",
-            "media": "main_title",
-            "chinese": "",
-            "chineseTL": "",
-            "chineseNote": "",
-            "japanese": "アズールレーン.",
-            "japaneseTL": "Azur Lane.",
-            "japaneseNote": "",
-            "english": "Azur Lane.",
-            "englishNote": ""
-          },
-          "30": {
-            "event": "Valentines 2018",
-            "media": "",
-            "chinese": "",
-            "chineseTL": "",
-            "chineseNote": "",
-            "japanese": "は？なんでこの私がわざわざあんたのためにバレンタインチョコを用意しなきゃならないの？たまたま作りすぎて余ってるから、ついでにあんたに恵んであげただけ！勘違いするんじゃないっての！",
-            "japaneseTL": "Huh? Why should I go out of my way to prepare Valentine's chocolate for you? I just so happened to make too much and decided to gift you the leftovers, that's all! I told you to stop getting the wrong idea!",
-            "japaneseNote": "",
-            "english": "",
-            "englishNote": ""
-          },
-          "31": {
-            "event": "Valentines 2019",
-            "media": "",
-            "chinese": "指挥官，情人节的巧克力，希望你能收下。里面有绫波的心意，应该会好吃……请多指教",
-            "chineseTL": "",
-            "chineseNote": "",
-            "japanese": "こ、今年もオイゲンたちの分を作って余っちゃったから処理してもらうわよ！だ、だからわざわざあんたのために作ったわけじゃないっての！オイゲンに渡したのと違うって！？ど、どこからその話を聞いてんのよ！",
-            "japaneseTL": "",
-            "japaneseNote": "",
-            "english": "Huhhh? Why would I go out of my way to get chocolate for you? I just happened to make too much and have leftovers, and this is just so it doesn‘t go to waste! Don't get the wrong idea!",
-            "englishNote": ""
-          }
-        }
-      }
-    }
-  }
+	"name_reference": "admiral_hipper",
+	"cn_reference": "xipeierhaijunshangjiang",
+	"nameJP": "アドミラル・ヒッパー",
+	"nameCN": "希佩尔海军上将",
+	"ID": "242",
+	"name": "Admiral Hipper",
+	"internal_id": "403011",
+	"rarity": "Elite",
+	"initialStar": "★★☆☆☆",
+	"hull": "Heavy Cruiser",
+	"navy": "Ironblood",
+	"prefix": "KMS",
+	"buildTime": "02:00:00",
+	"class": "Hipper",
+	"voiceActress": "Yuri Yamaoka",
+	"parameters": {
+		"firepower": "A",
+		"torpedo": "C",
+		"aviation": "E",
+		"evasion": "C",
+		"antiAir": "C",
+		"hp": "A"
+	},
+	"scrap": {
+		"gold": "9",
+		"oil": "3",
+		"medal": "4"
+	},
+	"releaseDate": {
+		"JP": "December 26, 2017",
+		"CN": "August 2, 2017",
+		"KR": "",
+		"EN": "December 13, 2018"
+	},
+	"artist": {
+		"name": "NIN",
+		"weibo": "https://weibo.com/u/5835967453",
+		"twitter": "",
+		"pixiv": "https://www.pixiv.net/member.php?id=2250068",
+		"other": ""
+	},
+	"enhance": {
+		"firepower": "26",
+		"torpedo": "12",
+		"aviation": "0",
+		"reload": "12"
+	},
+	"acquisitionMethod": "Limited Build in Divergent Chessboard",
+	"skill": {
+		"1": {
+			"icon": "10720",
+			"requirement": "Default Unlocked",
+			"name": "Guarding Shield",
+			"type": "Defensive",
+			"description": "Every 30 seconds, deploy 2 rotating shields which can block up to 10 rounds each. Shields last for 5(15) seconds."
+		},
+		"2": {
+			"icon": "4021",
+			"requirement": "Default Unlocked",
+			"name": "Vice Defense",
+			"type": "Defensive",
+			"description": "3.5%(8%) chance to reduce DMG taken by 50% when being attacked."
+		},
+		"3": {
+			"icon": "23211",
+			"requirement": "Limit Break Rank 1, Rank 3 upgrade",
+			"name": "All Out Assault I-II",
+			"type": "Offensive",
+			"description": "Activate All Out Assault II: Admiral Hipper Class once every 9(6) times the main gun is fired."
+		}
+	},
+	"skin": {
+		"1": {
+			"id": "xipeierhaijunshangjiang",
+			"name": "Admiral Hipper",
+			"description": "Admiral Hipper-class Heavy Cruiser, Admiral Hipper",
+			"expression": {
+				"0": {
+					"id": "0"
+				}
+			}
+		}
+	},
+	"defaultEquipment": {
+		"1": {
+			"icon": "43000",
+			"rarity": "Rare",
+			"name": "Twin 203mm Main Gun (SK C)"
+		},
+		"2": {
+			"icon": "",
+			"rarity": "",
+			"name": ""
+		},
+		"3": {
+			"icon": "",
+			"rarity": "",
+			"name": ""
+		}
+	},
+	"stats": {
+		"100": {
+			"hp": "4518",
+			"firepower": "218",
+			"torpedo": "165",
+			"antiAir": "164",
+			"aviation": "0",
+			"reload": "153",
+			"hit": "114",
+			"evasion": "23",
+			"speed": "25.6",
+			"luck": "66",
+			"asw": "0",
+			"oxygen": "0",
+			"ammo": "0",
+			"cost": "11",
+			"armor": "Medium"
+		},
+		"120": {
+			"hp": "4970",
+			"firepower": "251",
+			"torpedo": "190",
+			"antiAir": "189",
+			"aviation": "0",
+			"reload": "176",
+			"hit": "128",
+			"evasion": "61",
+			"speed": "25.6",
+			"luck": "66",
+			"asw": "0",
+			"oxygen": "0",
+			"ammo": "0",
+			"cost": "11",
+			"armor": "Medium"
+		},
+		"base": {
+			"hp": "874",
+			"firepower": "46",
+			"torpedo": "35",
+			"antiAir": "35",
+			"aviation": "0",
+			"reload": "65",
+			"hit": "44",
+			"evasion": "9",
+			"speed": "25.6",
+			"luck": "66",
+			"asw": "0",
+			"oxygen": "0",
+			"ammo": "0",
+			"cost": "3",
+			"armor": "Medium"
+		},
+		"100retrofit": {
+			"hp": "",
+			"firepower": "",
+			"torpedo": "",
+			"antiAir": "",
+			"aviation": "",
+			"reload": "",
+			"hit": "",
+			"evasion": "",
+			"speed": "25.6",
+			"luck": "66",
+			"asw": "",
+			"oxygen": "0",
+			"ammo": "0",
+			"cost": "11",
+			"armor": "Medium"
+		},
+		"120retrofit": {
+			"hp": "",
+			"firepower": "",
+			"torpedo": "",
+			"antiAir": "",
+			"aviation": "",
+			"reload": "",
+			"hit": "",
+			"evasion": "",
+			"speed": "25.6",
+			"luck": "66",
+			"asw": "",
+			"oxygen": "0",
+			"ammo": "0",
+			"cost": "11",
+			"armor": "Medium"
+		}
+	},
+	"limitBreak": {
+		"tier1": "Full Barrage I, Main Gun Efficiency +5%",
+		"tier2": "Max Torpedo Capacity +1, Pre-Loaded Torpedo +1, Main Gun Efficiency +10%",
+		"tier3": "Full Barrage I→II, Torpedo Efficiency +15%"
+	},
+	"equipmentLoadout": {
+		"1": {
+			"type": "Heavy Cruiser",
+			"efficiency": "115%/120%/130%/130%",
+			"amount": "1/1/1/1",
+			"preload": "0/0/0/0"
+		},
+		"2": {
+			"type": "Torpedo",
+			"efficiency": "145%/145%/145%/160%",
+			"amount": "1/1/2/2",
+			"preload": "0/0/1/1"
+		},
+		"3": {
+			"type": "Anti-Air Gun",
+			"efficiency": "100%/100%/100%/100%",
+			"amount": "1/1/1/1",
+			"preload": "0/0/0/0"
+		},
+		"4": {
+			"type": "Auxilary",
+			"efficiency": "-",
+			"amount": "-",
+			"preload": "-"
+		},
+		"5": {
+			"type": "Auxilary",
+			"efficiency": "-",
+			"amount": "-",
+			"preload": "-"
+		}
+	},
+	"build": {
+		"light": {
+			"JP": "-",
+			"CN": "-",
+			"EN": "-"
+		},
+		"heavy": {
+			"JP": "-",
+			"CN": "-",
+			"EN": "-"
+		},
+		"special": {
+			"JP": "-",
+			"CN": "-",
+			"EN": "-"
+		},
+		"limited": {
+			"JP": "✓",
+			"CN": "✓",
+			"EN": "✓"
+		}
+	},
+	"drop": {
+		"droppable": "false",
+		"list": {
+			"1": {
+				"event": "",
+				"chapter": {
+					"1": {
+						"label": "Ch .1",
+						"node": {
+							"1": {
+								"drop": "✓",
+								"note": "-"
+							}
+						}
+					}
+				}
+			}
+		}
+	},
+	"lines": {
+		"skin": {
+			"1": {
+				"skin_id": "xipeierhaijunshangjiang",
+				"id": "0",
+				"label": "Admiral Hipper",
+				"dialogue": {
+					"1": {
+						"event": "Ship Description",
+						"media": "",
+						"chinese": "希佩尔海军上将级重巡洋舰—希佩尔海军上将",
+						"chineseTL": "Admiral Hipper-class heavy cruiser - Admiral Hipper",
+						"chineseNote": "",
+						"japanese": "アドミラル・ヒッパー級重巡洋艦・アドミラルヒッパー",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Admiral Hipper-class Heavy Cruiser, Admiral Hipper",
+						"englishNote": ""
+					},
+					"2": {
+						"event": "Biography",
+						"media": "profile",
+						"chinese": "我是铁血第三帝国希佩尔海军上将号重巡洋舰，名字源于“不败的名将”弗兰茨·冯·希佩尔。参与过各种各样的战斗并在每场战斗中都尽了最大的努力！哈？巴伦支海？那是因为库默兹比你还愚蠢！",
+						"chineseTL": "I'm the Admiral Hipper-class heavy cruiser from the german empire. My name originates from the 'Undefeated Champion' Franz von Hipper. I've participated in all sorts of battles and gave all that I could! Hah? The Barents sea? This because Kummetz is even dumber than you!",
+						"chineseNote": "",
+						"japanese": "科学の国の重巡洋艦、アドミラル・ヒッパーよ。名前は不敗の提督「フランツ・フォン・ヒッパー」から来てんの。色んな戦闘に参加して全力を尽くしたけど！は？バレンツ海？あれはクメッツ提督があんたより少しバカだっただけ！",
+						"japaneseTL": "I'm Admiral Hipper, a heavy cruiser from the country of science. I was named after the undefeated Admiral \"Franz von Hipper.\" I participated in various battles and gave them my all! Huh? The Barents Sea? That only happened because Admiral Kummetz was a little dumber than you!",
+						"japaneseNote": "",
+						"english": "I am Admiral Hipper, the Iron Blood heavy cruiser named after the undefeated Admiral Franz von Hipper. I have participated in countless battles and given them my all. The Barents Sea? That only happened because Admiral Kummetz was even dumber than you.",
+						"englishNote": ""
+					},
+					"3": {
+						"event": "Receive",
+						"media": "get",
+						"chinese": "哈？你就是指挥官？战事已经紧张到随便什么人都能当指挥官了吗？",
+						"chineseTL": "Hah? You are the Commander? Is the war so tense that anyone can become a commander now?",
+						"chineseNote": "",
+						"japanese": "はぁ？あんたが指揮官？こんなどこの馬の骨ともわからないやつにまで指揮官をやらせるなんて、戦況はもうそんなに切迫してるわけ！？",
+						"japaneseTL": "Huh? You're the Commander? Is the situation so desperate that they let just about any random Tom, Dick, or Harry be a Commander!?",
+						"japaneseNote": "",
+						"english": "Huh? You are the commander? Is the war effort going so poorly these days that they’re letting anyone become a commander?",
+						"englishNote": ""
+					},
+					"4": {
+						"event": "Log in",
+						"media": "login",
+						"chinese": "笨蛋，起床了吗？哈？你在妄想什么，我只是绕着港区散步刚好看到你而已！",
+						"chineseTL": "Idiot, have you woken up? Hah? What are you on about, I was just walking around the homeport and met you by chance!",
+						"chineseNote": "",
+						"japanese": "マヌケ、もう起きた？はぁ？何ニヤニヤしてんのよ！港を散歩してちょうど見かけただけよ！",
+						"japaneseTL": "Moron, are you awake yet? Huh? What are you grinning at!? I just happened to see you during my walk around the harbor!",
+						"japaneseNote": "",
+						"english": "Idiot, so you rolled out of bed? Haah? What are you fantasizing about? I only happened to bump into you while patrolling the port.",
+						"englishNote": ""
+					},
+					"5": {
+						"event": "View details",
+						"media": "detail",
+						"chinese": "笨蛋，你在看什么！快从我的房间出去！",
+						"chineseTL": "Idiot, what are you looking at?! Get out of my room!",
+						"chineseNote": "",
+						"japanese": "このバカ、何見てんのよ！さっさと私の部屋から出ていきなさいよ！",
+						"japaneseTL": "You idiot, what are you looking at!? Hurry up and get out of my room!",
+						"japaneseNote": "",
+						"english": "What are you looking at, idiot? Get out of my room!",
+						"englishNote": ""
+					},
+					"6": {
+						"event": "Main screen 1",
+						"media": "main_1",
+						"chinese": "布吕歇尔，这一次我一定会保护好你",
+						"chineseTL": "Blücher, this time I will make sure to protect you well.",
+						"chineseNote": "",
+						"japanese": "ブリュッヒャー、今度こそ守り切ってやるわ！",
+						"japaneseTL": "Blücher, I will protect you this time!",
+						"japaneseNote": "",
+						"english": "Blücher, I will definitely protect you this time.",
+						"englishNote": ""
+					},
+					"7": {
+						"event": "Main screen 2",
+						"media": "main_2",
+						"chinese": "哈？你这种菜鸟想和我比试巡洋舰的指挥技术？",
+						"chineseTL": "Hah? A rookie like you wants to compete with me on commanding a cruiser?",
+						"chineseNote": "",
+						"japanese": "まさか、あんたのようなヘタクソが、この私と巡洋艦の指揮技術を競いたいわけ",
+						"japaneseTL": "Don't tell me that a dumbass like you wants to challenge my cruiser commanding skills.",
+						"japaneseNote": "",
+						"english": "Hah? A novice like you wants to challenge my cruiser-commanding skills?",
+						"englishNote": ""
+					},
+					"8": {
+						"event": "Main screen 3",
+						"media": "main_3",
+						"chinese": "哈？猪肘和啤酒还没准备好吗？几人份？笨蛋！你的脑子是摆设吗！",
+						"chineseTL": "Hah? The pork knuckle and beer are not ready yet? ——A multiple-person sized serving? Idiot! Are you braindead?",
+						"chineseNote": "",
+						"japanese": "はぁ？シュバイネハクセとビールの準備はまだ？…何人前って？このバカ！あんたの脳は飾りものなの？",
+						"japaneseTL": "Huh? Is the Schweinshaxe and beer ready yet? …How many servings do we need? You idiot! Do you even have a brain in that thick skull of yours?",
+						"japaneseNote": "",
+						"english": "Hah? Are the Schweinshaxe and beer ready yet? How many servings do we need? Idiot! Is your brain just an ornament?",
+						"englishNote": ""
+					},
+					"9": {
+						"event": "Normal touch",
+						"media": "touch_1",
+						"chinese": "哈？我有允许你碰我吗？",
+						"chineseTL": "Hah? Did I give you permission to touch me?",
+						"chineseNote": "",
+						"japanese": "はぁ？触ることを許した覚えは無いけど！",
+						"japaneseTL": "Huh? I don't remember giving you permission to touch me!",
+						"japaneseNote": "",
+						"english": "Huh? Did I give you permission to touch me?",
+						"englishNote": ""
+					},
+					"10": {
+						"event": "Special touch",
+						"media": "touch_2",
+						"chinese": "哈？笨笨笨笨——笨蛋！去死吧！沉到基尔港里去吧！",
+						"chineseTL": "Hah? I-I-I-I——Idiot! Go to hell! Sink into the Bay of Kiel!",
+						"chineseNote": "",
+						"japanese": "はぁ！！？？このヘタクソバカドジアホマヌケ！！死んじゃえ！キールの海に沈んじゃえ！",
+						"japaneseTL": "Huh!? You retarded, moronic, block-headed, stupid dumbass! Die right now! Go sink yourself in the Kiel Bay right now!",
+						"japaneseNote": "",
+						"english": "Huh?! You stupid, moronic, block-headed idiot! Go die! Sink yourself in the Kiel Bay right now!",
+						"englishNote": ""
+					},
+					"11": {
+						"event": "Mission reminder",
+						"media": "task",
+						"chinese": "笨蛋，做任务的时候不要分心！",
+						"chineseTL": "Idiot, don't get distracted when doing the task!",
+						"chineseNote": "",
+						"japanese": "バカ！任務の最中は気をそらすんじゃないっての！",
+						"japaneseTL": "Idiot! Don't get distracted while in the middle of a mission!",
+						"japaneseNote": "",
+						"english": "Don’t get distracted in the middle of a mission, you idiot!",
+						"englishNote": ""
+					},
+					"12": {
+						"event": "Mission complete",
+						"media": "mission_complete",
+						"chinese": "笨蛋！完成任务就快去领奖，在我面前炫耀什么！",
+						"chineseTL": "Idiot! Go claim the reward after completing the task. What are you doing, boasting to me?!",
+						"chineseNote": "",
+						"japanese": "バカ！任務完了したら報酬を受け取ってきなさいよ！何私の前で見せびらかしてんの！",
+						"japaneseTL": "Idiot! Go get the rewards after completing a mission! Why are you showing it off to me!?",
+						"japaneseNote": "",
+						"english": "Idiot! Hurry up and collect your rewards! Why are you showing it off to me?",
+						"englishNote": ""
+					},
+					"13": {
+						"event": "Mail reminder",
+						"media": "mail",
+						"chinese": "笨蛋，没注意到新的邮件已经到了吗？",
+						"chineseTL": "Idiot, have you not noticed that new mail is here?",
+						"chineseNote": "",
+						"japanese": "マヌケ！新しいメールがあるのを気づいてないわけ？",
+						"japaneseTL": "Moron! Haven't you realized that there's new mail for you?",
+						"japaneseNote": "",
+						"english": "Are you too stupid to realize that you have new mail?",
+						"englishNote": ""
+					},
+					"14": {
+						"event": "Return to port",
+						"media": "home",
+						"chinese": "笨蛋！既然回来了怎么不来见我？哈？谁在担心你！",
+						"chineseTL": "Idiot! If you're back why didn't you come see me? Hah? Who's worried about you!",
+						"chineseNote": "",
+						"japanese": "バカ！戻ったらなんで会いに来ないのよ！はぁ？誰があんたのことなんか心配すんのよ！",
+						"japaneseTL": "Idiot! Why didn't you come see me when you came back? Huh? Who'd be worried about someone like you!?",
+						"japaneseNote": "",
+						"english": "Idiot! If you had already returned, why didn’t you come to see me? Hah? Who would be worried about you?",
+						"englishNote": ""
+					},
+					"15": {
+						"event": "Commission complete",
+						"media": "expedition",
+						"chinese": "笨蛋！还没有想起来你忘记了什么吗？",
+						"chineseTL": "Idiot! Have you not realized what you've forgotten yet?",
+						"chineseNote": "",
+						"japanese": "このマヌケ！何を忘れてるかまだ思い出せないわけ？",
+						"japaneseTL": "You damn moron! Have you still not figured out what you've forgotten?",
+						"japaneseNote": "",
+						"english": "You idiot! You still haven’t remembered what you forgot about yet?",
+						"englishNote": ""
+					},
+					"16": {
+						"event": "Enhancing complete",
+						"media": "upgrade",
+						"chinese": "哈？你以为这样我就会心怀感激吗！",
+						"chineseTL": "Hah? You think I'll appreciate you just for this?",
+						"chineseNote": "",
+						"japanese": "はぁ！？この私が感動するとでも思ってんの！",
+						"japaneseTL": "Huh!? Did you think this was going to impress me?",
+						"japaneseNote": "",
+						"english": "Hah? Did you think something like this would impress me?",
+						"englishNote": ""
+					},
+					"17": {
+						"event": "Flagship fight",
+						"media": "warcry",
+						"chinese": "这种规模的海战，相较于日德兰不过是过家家！",
+						"chineseTL": "Compared to Jutland, a battle of this scale is like playing house!",
+						"chineseNote": "",
+						"japanese": "こんなもの、ユトランド沖と比べたら子供騙し程度っての！",
+						"japaneseTL": "Compared to Jutland, this is child's play!",
+						"japaneseNote": "",
+						"english": "Compared to Jutland, a battle like this is mere child’s play.",
+						"englishNote": ""
+					},
+					"18": {
+						"event": "Victory",
+						"media": "mvp",
+						"chinese": "哼，今天就特别容许你夸赞几句好了",
+						"chineseTL": "Hng, I'll let you praise me a bit just for today.",
+						"chineseNote": "",
+						"japanese": "ふん！まあ今日だけ褒めることを許してやるわ！",
+						"japaneseTL": "Hmph! Whatever, I'll allow you to compliment me just for today!",
+						"japaneseNote": "",
+						"english": "Hmph. Just today, I shall allow you to praise me a little.",
+						"englishNote": ""
+					},
+					"19": {
+						"event": "Defeat",
+						"media": "lose",
+						"chinese": "可可可——可恶！好不甘心啊啊啊！",
+						"chineseTL": "D- D- D- damn it! I can't stand this!",
+						"chineseNote": "",
+						"japanese": "なんて屈辱ーー！くっやしいー！！",
+						"japaneseTL": "What a disgrace! I'm so pissed!",
+						"japaneseNote": "",
+						"english": "C-c-c-curses! I can’t stand this, ahh!",
+						"englishNote": ""
+					},
+					"20": {
+						"event": "Skills",
+						"media": "skill",
+						"chinese": "哈？谁允许你们反抗了！",
+						"chineseTL": "Hah? Who gave you permission to resist?!",
+						"chineseNote": "",
+						"japanese": "はぁ？誰が抵抗していいって言ってんの！",
+						"japaneseTL": "Huh? Who said you could fight back!?",
+						"japaneseNote": "",
+						"english": "Huh? Who gave you permission to resist?",
+						"englishNote": ""
+					},
+					"21": {
+						"event": "Upset",
+						"media": "feeling1",
+						"chinese": "垃圾！别出现在我的视线中！",
+						"chineseTL": "You trash! Get out of my sight!",
+						"chineseNote": "",
+						"japanese": "このカス！私の視線に映るなっての！",
+						"japaneseTL": "You piece of garbage! I told you to stay out of my sight!",
+						"japaneseNote": "",
+						"english": "You piece of trash! I told you to stay out of my sight!",
+						"englishNote": ""
+					},
+					"22": {
+						"event": "Stranger",
+						"media": "feeling2",
+						"chinese": "哈？这种事情都做不好，你是笨蛋吗？",
+						"chineseTL": "Hah? You can't even do something like this properly? Are you an idiot?",
+						"chineseNote": "",
+						"japanese": "はぁ？こんなことも上手くできないなんて、あんたバカァ？ちょっと私によこしなさいっての！",
+						"japaneseTL": "Huh? You can't even do something this simple? Are you a damn idiot? Give it to me for a second!",
+						"japaneseNote": "",
+						"english": "Huh? You can’t even do something like that? Are you an idiot?",
+						"englishNote": ""
+					},
+					"23": {
+						"event": "Friendly",
+						"media": "feeling3",
+						"chinese": "哈？担心我？被你这种人担心可高兴不起来",
+						"chineseTL": "Hah? Worried about me? I can't feel happy for being worried about by someone like you.",
+						"chineseNote": "",
+						"japanese": "はぁ！？私のことが心配？あんたのようなバカに心配されたって全然嬉しくならないっての！",
+						"japaneseTL": "Huh!? You're worried about me? Having an idiot like you worry about me doesn't make me happy in the slightest!",
+						"japaneseNote": "",
+						"english": "Huh? Worried about me? Having an idiot like you worry about me doesn’t make me happy at all.",
+						"englishNote": ""
+					},
+					"24": {
+						"event": "Crush",
+						"media": "feeling4",
+						"chinese": "哈？谁会喜欢你！只是欧根想和你一起吃饭，我陪她而已！笨蛋，不要会错意了！",
+						"chineseTL": "Hah? Who would like you! It's just that Eugen wants to have a meal with you, I'm just accompanying her! Idiot, don't get the wrong idea!",
+						"chineseNote": "",
+						"japanese": "は！？誰があんたのことが好きになるっての！オイゲンのやつがあんたとご飯食べたいからついて行くだけなの！このバカ！勘違いするんじゃないわよ！！",
+						"japaneseTL": "Huh!? Who could grow to like someone the likes of you!? It was because Eugen wanted to eat with you and I just tagged along! You idiot! Don't get the wrong idea!",
+						"japaneseNote": "",
+						"english": "Huh? Who would ever have a crush on you? I’m only tagging along because Eugen wanted to have dinner with you. Don’t get the wrong idea, idiot!",
+						"englishNote": ""
+					},
+					"25": {
+						"event": "Love",
+						"media": "feeling5",
+						"chinese": "哈？谁会爱上你！我只是按照规定上交出击时捡到的东西罢了！哈？戒指，那种东西谁会戴啊！",
+						"chineseTL": "Hah? Who would love you! I'm just handing out what I pick up during the sortie, as per regulations! Hah? A ring, who would wear something like that!",
+						"chineseNote": "",
+						"japanese": "は！？誰があんたに恋してるっての！わ、私は出撃でたまたま拾ったものを規定通り上官に渡すだけよ！は！？指輪！？そんなの誰がつけるのよ！",
+						"japaneseTL": "Huh!? Who would fall in love with you!? I-I just happened to find something while out on a sortie and I only came by to drop off something to my superior officer, as per regulations, that's all! Huh!? A ring!? Who'd wear that sort of stuff!?",
+						"japaneseNote": "",
+						"english": "Huh? Who would ever fall in love with you? I’m only here to drop off something I found during sortie, per regulations. Huh?! A ring? Who would wear something like that?!",
+						"englishNote": ""
+					},
+					"26": {
+						"event": "Promise",
+						"media": "propose",
+						"chinese": "哈？我为什么非要带上这个不可啊！算了，难得今天心情不错……照顾我一生一世？哼，那不是理所当然的吗！",
+						"chineseTL": "Hah? Why do I have to put this on! Whatever, I'm in a good mood today……take care of me forever? Hng, isn't that only natural?!",
+						"chineseNote": "",
+						"japanese": "は！？なんでこんなもの付けなきゃならないの！…ま、まあいいわ、せっかく今日は機嫌がいいしつけてあげたって…死ぬまで私のこと面倒を見てくれる？ふん！そんなの当たり前よ！",
+						"japaneseTL": "Huh!? Why should I need to wear this thing!? …W-well all right, since I'm in a good mood today I'll wear it just for you… You'll look after me until you die? Hmph! That should be obvious!",
+						"japaneseNote": "",
+						"english": "Huh? Why must I wear something like this? Whatever... I’m in a good mood for a change. You’re going to take care of me forever? Hmph! Isn’t that what you’re supposed to do?",
+						"englishNote": ""
+					},
+					"27": {
+						"event": "Easter Egg 1(Prinz Eugen)",
+						"media": "link1",
+						"chinese": "欧根！你在说谁是贫乳傲娇！",
+						"chineseTL": "(with Prinz Eugen) Eugen! Who are you calling a 'flat-chested tsundere'!?",
+						"chineseNote": "",
+						"japanese": "オイゲン！誰がまな板ツンデレだってんの！",
+						"japaneseTL": "(Sortie with Prinz Eugen) Eugen! Who are you calling flat-chested with an attitude problem!?",
+						"japaneseNote": "",
+						"english": "Who are you calling flat?!",
+						"englishNote": ""
+					},
+					"28": {
+						"event": "Easter Egg 2(Glowworm)",
+						"media": "link2",
+						"chinese": "萤火虫，请开始你的表演",
+						"chineseTL": "(with Glowworm) Glowworm, please start your performance.",
+						"chineseNote": "",
+						"japanese": "グローウォーム、やっちゃいなさい！",
+						"japaneseTL": "(Sortie with Glowworm) Glowworm, do your thing!",
+						"japaneseNote": "",
+						"english": "Please begin your performance, Glowworm!",
+						"englishNote": ""
+					},
+			        "29": {
+			            "event": "Main Title",
+			            "media": "extra",
+			            "chinese": "",
+			            "chineseTL": "",
+			            "chineseNote": "",
+			            "japanese": "アズールレーン.",
+			            "japaneseTL": "Azur Lane.",
+			            "japaneseNote": "",
+			            "english": "Azur Lane.",
+			            "englishNote": ""
+			        },
+			        "30": {
+			            "event": "Valentines 2018",
+			            "media": "",
+			            "chinese": "",
+			            "chineseTL": "",
+			            "chineseNote": "",
+			            "japanese": "は？なんでこの私がわざわざあんたのためにバレンタインチョコを用意しなきゃならないの？たまたま作りすぎて余ってるから、ついでにあんたに恵んであげただけ！勘違いするんじゃないっての！",
+			            "japaneseTL": "Huh? Why should I go out of my way to prepare Valentine's chocolate for you? I just so happened to make too much and decided to gift you the leftovers, that's all! I told you to stop getting the wrong idea!",
+			            "japaneseNote": "",
+			            "english": "",
+			            "englishNote": ""
+			        },
+			        "31": {
+			            "event": "Valentines 2019",
+			            "media": "",
+			            "chinese": "指挥官，情人节的巧克力，希望你能收下。里面有绫波的心意，应该会好吃……请多指教",
+			            "chineseTL": "",
+			            "chineseNote": "",
+			            "japanese": "こ、今年もオイゲンたちの分を作って余っちゃったから処理してもらうわよ！だ、だからわざわざあんたのために作ったわけじゃないっての！オイゲンに渡したのと違うって！？ど、どこからその話を聞いてんのよ！",
+			            "japaneseTL": "",
+			            "japaneseNote": "",
+			            "english": "Huhhh? Why would I go out of my way to get chocolate for you? I just happened to make too much and have leftovers, and this is just so it doesn‘t go to waste! Don't get the wrong idea!",
+			            "englishNote": ""
+			        }
+				}
+			}
+		}
+	}
 }

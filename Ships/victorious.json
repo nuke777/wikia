@@ -1,0 +1,765 @@
+{
+	"name_reference" : "victorious",
+	"cn_reference" : "shengli",
+	"nameJP" : "ヴィクトリアス",
+	"nameCN" : "胜利",
+	"ID" : "146",
+	"name" : "Victorious",
+	"internal_id" : "207041",
+	"rarity" : "Super Rare",
+	"initialStar" : "★★★☆☆☆",
+	"hull" : "Aircraft Carrier",
+	"navy" : "Royal Navy",
+	"prefix" : "HMS",
+	"buildTime" : "",
+	"class" : "Illustrious",
+	"voiceActress" : "Eriko Nakamura",
+	"parameters": {
+		"firepower" : "E",
+		"torpedo" : "E",
+		"aviation" : "A",
+		"evasion" : "D",
+		"antiAir" : "B",
+		"hp" : "S"
+	},
+	"scrap": {
+		"gold" : "9",
+		"oil" : "3",
+		"medal" : "10"
+	},
+	"releaseDate": {
+		"JP" : "",
+		"CN" : "",
+		"KR" : "",
+		"EN" : ""
+	},
+	"artist": {
+		"name" : "",
+		"weibo" : "",
+		"twitter" : "",
+		"pixiv" : "",
+		"other" : ""
+	},
+	"enhance": {
+		"firepower" : "0",
+		"torpedo" : "0",
+		"aviation" : "64",
+		"reload" : "7"
+	},
+	"acquisitionMethod" : "Event: Winter's Crown",
+	"skill": {
+		"1" : {
+			"icon" : "11120",
+			"requirement" : "",
+			"name" : "Victorious Song",
+			"type" : "Offensive",
+			"description" : "Increase DMG dealt to enemy Battleships by $1 and reduce DMG taken from volleys by $1."
+		},
+		"2" : {
+			"icon" : "3011",
+			"requirement" : "",
+			"name" : "Assault Carrier",
+			"type" : "Offensive",
+			"description" : "When this ship launches an Airstrike: $1 chance for the Airstrike to deal double DMG."
+		}
+	},
+	"skin": {
+		"1" : {
+			"id" : "shengli",
+			"name" : "Victorious",
+			"description" : "Illustrious-class aircraft carrier – Victorious.",
+			"expression" : {
+				"0" : {
+					"id" : "0"
+				}
+			}
+		},
+		"2" : {
+			"id" : "shengli_2",
+			"name" : "The Goddess' Day Off",
+			"description" : "Hum~ dee dum♪~ I'm all dressed up, and my hair is perfect! Commander, I'm ready to go! Don't keep me waiting on a holiday!",
+			"expression" : {
+				"0" : {
+					"id" : "0"
+				},
+				"1" : {
+					"id" : "1"
+				},
+				"2" : {
+					"id" : "2"
+				},
+				"3" : {
+					"id" : "3"
+				}
+			}
+		}
+	},
+	"defaultEquipment": {
+		"1" : {
+			"icon" : "27000",
+			"rarity" : "Common",
+			"name" : "Spitfire"
+		},
+		"1" : {
+			"icon" : "29000",
+			"rarity" : "",
+			"name" : "Blackburn Skua"
+		},
+		"1" : {
+			"icon" : "28000",
+			"rarity" : "Rare",
+			"name" : "Swordfish"
+		}
+	},
+	"stats": {
+		"base": {
+			"hp" : "1053",
+			"firepower" : "0",
+			"torpedo" : "0",
+			"antiAir" : "54",
+			"aviation" : "78",
+			"reload" : "38",
+			"hit" : "31",
+			"evasion" : "13",
+			"speed" : "30.5",
+			"luck" : "82",
+			"asw" : "0",
+			"oxygen" : "0",
+			"ammo" : "0",
+			"cost" : "4",
+			"armor" : "Heavy"
+		},
+		"100": {
+			"hp" : "5445",
+			"firepower" : "0",
+			"torpedo" : "0",
+			"antiAir" : "253",
+			"aviation" : "368",
+			"reload" : "90",
+			"hit" : "80",
+			"evasion" : "33",
+			"speed" : "30.5",
+			"luck" : "82",
+			"asw" : "0",
+			"oxygen" : "0",
+			"ammo" : "0",
+			"cost" : "13",
+			"armor" : "Heavy"
+		},
+		"120": {
+			"hp" : "6262",
+			"firepower" : "0",
+			"torpedo" : "0",
+			"antiAir" : "289",
+			"aviation" : "410",
+			"reload" : "104",
+			"hit" : "90",
+			"evasion" : "53",
+			"speed" : "30.5",
+			"luck" : "82",
+			"asw" : "0",
+			"oxygen" : "0",
+			"ammo" : "0",
+			"cost" : "13",
+			"armor" : "Heavy"
+		},
+		"100retrofit": {
+			"hp" : "",
+			"firepower" : "",
+			"torpedo" : "",
+			"antiAir" : "",
+			"aviation" : "",
+			"reload" : "",
+			"hit" : "",
+			"evasion" : "",
+			"speed" : "30.5",
+			"luck" : "82",
+			"asw" : "",
+			"oxygen" : "0",
+			"ammo" : "0",
+			"cost" : "13",
+			"armor" : "Heavy"
+		},
+		"120retrofit": {
+			"hp" : "",
+			"firepower" : "",
+			"torpedo" : "",
+			"antiAir" : "",
+			"aviation" : "",
+			"reload" : "",
+			"hit" : "",
+			"evasion" : "",
+			"speed" : "30.5",
+			"luck" : "82",
+			"asw" : "",
+			"oxygen" : "0",
+			"ammo" : "0",
+			"cost" : "13",
+			"armor" : "Heavy"
+		}
+	},
+	"limitBreak": {
+		"tier1": "All Torpedo Bombers +1/Aircraft efficiency +2%",
+		"tier2": "Hangar capacity +1/All Dive Bombers +1/Aircraft efficiency +3%",
+		"tier3": "All aircraft +1/Aircraft efficiency +5%"
+	},
+	"equipmentLoadout": {
+		"1": {
+			"type": "Fighter",
+			"efficiency": "110%/112%/115%/120%",
+			"amount": "1/1/1/2",
+			"preload": "0/0/0/0"
+		},
+		"2": {
+			"type": "Dive Bomber",
+			"efficiency": "120%/122%/125%/130%",
+			"amount": "1/1/2/3",
+			"preload": "0/0/0/0"
+		},
+		"3": {
+			"type": "Torpedo Bomber",
+			"efficiency": "120%/122%/125%/130%",
+			"amount": "1/2/2/3",
+			"preload": "0/0/0/0"
+		},
+		"4": {
+			"type": "Auxilary",
+			"efficiency": "-",
+			"amount": "-",
+			"preload": "-"
+		},
+		"5": {
+			"type": "Auxilary",
+			"efficiency": "-",
+			"amount": "-",
+			"preload": "-"
+		}
+	},
+	"build": {
+		"light": {
+			"JP": "",
+			"CN": "",
+			"EN": ""
+		},
+		"heavy": {
+			"JP": "",
+			"CN": "",
+			"EN": ""
+		},
+		"special": {
+			"JP": "",
+			"CN": "",
+			"EN": ""
+		},
+		"limited": {
+			"JP": "",
+			"CN": "",
+			"EN": ""
+		}
+	},
+	"drop": {
+		"droppable": "false",
+		"list": {
+			"1": {
+				"event": "",
+				"chapter": {
+					"1": {
+						"label": "Ch .1",
+						"node": {
+							"1": {
+								"drop": "✓",
+								"note": "-"
+							}
+						}
+					}
+				}
+			}
+		}
+	},
+	"lines": {
+		"skin": {
+			"1": {
+				"skin_id" : "shengli",
+				"id" : "0",
+				"label" : "Victorious",
+				"dialogue" : {
+					"1" : {
+						"event" : "Ship Description",
+						"media" : "",
+						"chinese" : "光辉级航空母舰—胜利，舷号38",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "イラストリアス航空母艦・ヴィクトリアス (HMS Victorious）",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Illustrious-class aircraft carrier – Victorious.",
+						"englishNote" : ""
+					},
+					"2" : {
+						"event" : "Biography",
+						"media" : "profile",
+						"chinese" : "光辉级航空母舰二号舰胜利号，从大西洋、印度洋到太平洋，我随着海风一路航行——",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "イラストリアス型航空母艦二番艦、ヴィクトリアスよ！大西洋からインド洋、太平洋…このヴィクトリアス、海風と共にあるわ！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "I'm Victorious, Illustrious-class aircraft carrier number two! From the Atlantic Ocean to the Indian Ocean, and even the Pacific... where the ocean breeze goes, I follow!",
+						"englishNote" : ""
+					},
+					"3" : {
+						"event" : "Receive",
+						"media" : "get",
+						"chinese" : "皇家海军、胜利号，为我的到来尽情高歌吧，只要有象征胜利的我加入，无论什么肯定都能顺风顺水，随心所愿！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "ロイヤルネイビー所属、航空母艦ヴィクトリアス――さあ、私の着任に賛歌を捧げなさい！勝利の象徴である私さえいれば、何もかもうまくいくはずだわ！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "I am the one called Victorious, Aircraft Carrier of the Royal Navy. Yes, sing my name as you herald the coming of the symbol of victory. As long as I am here, our endeavours shall be smooth!",
+						"englishNote" : ""
+					},
+					"4" : {
+						"event" : "Log in",
+						"media" : "login",
+						"chinese" : "碧海的波纹、风中的清香、还有…——世界真的每时每刻都有新的美丽诞生呢",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "穏やかな波、爽やかな潮風…今この瞬間にも新しい美の生誕が祝福されているわ",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "The quiet sea, the cool sea breeze... Even in this moment, the birth of new, beautiful things blesses us.",
+						"englishNote" : ""
+					},
+					"5" : {
+						"event" : "View details",
+						"media" : "detail",
+						"chinese" : "恋爱也好，战斗也好，更勇敢大胆一点啦～放心，关键的时候我会支援你的",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "恋も戦いも、より大胆になっていいわ～ほら、いざとなったら私も応援してあげるから！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "In both love and war, one should be brave~ So, be brave, and if you need support, I shall be there!",
+						"englishNote" : ""
+					},
+					"6" : {
+						"event" : "Main screen 1",
+						"media" : "main_1",
+						"chinese" : "丑陋是战争的代名词，与之相对，我头顶的橄榄花环正是和平与美丽的交织——",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "戦争とは醜いものよ。そしてこのオリーブの冠こそ平和と美の象徴。",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "War is ugly. And this olive wreath is the symbol of peace and beauty.",
+						"englishNote" : ""
+					},
+					"7" : {
+						"event" : "Main screen 2",
+						"media" : "main_2",
+						"chinese" : "提尔比茨，如果你还不出来陪我玩，我只好再炸一遍你的家啰",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "ティルピッツ、私と遊んでくれないと、また部屋を爆撃しちゃうわよ？",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Tirpitz, if you won't come out and have fun with me then I'll bomb your room again!",
+						"englishNote" : ""
+					},
+					"8" : {
+						"event" : "Main screen 3",
+						"media" : "main_3",
+						"chinese" : "虽然我不喜欢暴力，但使用暴力往往是解决麻烦最简捷的手段…",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "暴力は好きではないけど、困ったことを解決するには暴力が一番手っ取り早い時が多いわね……",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "I don't like violence, but using it is often the quickest solution to many problems...",
+						"englishNote" : ""
+					},
+					"9" : {
+						"event" : "Normal touch",
+						"media" : "touch_1",
+						"chinese" : "如果你露出消沉的表情，我也会跟着消沉的，有如此美丽的我在你身边，开心一点啦~",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "指揮官が落ち込むと私も落ち込んじゃうわ。こんなに美しい私がそばにいるんだから、ほら、楽しくやっていこ？",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "When you feel down, I also do. Come on, you have someone as beautiful as me beside you, so why not be happy?",
+						"englishNote" : ""
+					},
+					"10" : {
+						"event" : "Special touch",
+						"media" : "touch_2",
+						"chinese" : "你、你刚刚绝对做了吧！做了…那个…",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "い、いまアレをやったのね！あ、あの…アレって…",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Y-you just did \"that,\" didn't you?! B-by \"that,\" I mean...",
+						"englishNote" : ""
+					},
+					"11" : {
+						"event" : "Mission reminder",
+						"media" : "task",
+						"chinese" : "恣意妄为是美丽的我的特权，可不要想着能把任务推给我——",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "ワガママは美しい私の特権よ。任務を任せるなんて考えないことだわ。",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Only I have the privilege of being selfish. Don't even think about pushing missions onto me.",
+						"englishNote" : ""
+					},
+					"12" : {
+						"event" : "Mission complete",
+						"media" : "mission_complete",
+						"chinese" : "真是的，仅此一次下不为例，可不要妄想我会帮你第二次！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "もう、今回だけよ！二度と任務を手伝わないからねっ！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Fine, but just this one time! I won't help you with your missions a second time!",
+						"englishNote" : ""
+					},
+					"13" : {
+						"event" : "Mail reminder",
+						"media" : "mail",
+						"chinese" : "比起冷冰冰的印刷字体，我更喜欢亲笔手书。指挥官，你想知道如何从笔迹中窥探写者的内心吗？",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "活字よりやっぱり手書きのほうが好きだわ。指揮官、どうやって筆跡から書き手の心境を知るか、気にならない？",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Handwritten letters are so much better than typed ones. Don't you think it's interesting how you can deduce the author's emotions based on their handwriting, Commander?",
+						"englishNote" : ""
+					},
+					"14" : {
+						"event" : "Return to port",
+						"media" : "home",
+						"chinese" : "庆贺作战胜利，戴上这顶月桂花环怎么样？说不定很适合你哦",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "勝利のお祝いに、このオリーブの冠をかぶってみてはどう？きっと似合うわ",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "To celebrate your victory, why not wear this olive wreath? I'm certain it'll suit you.",
+						"englishNote" : ""
+					},
+					"15" : {
+						"event" : "Commission complete",
+						"media" : "expedition",
+						"chinese" : "不要再磨磨蹭蹭的啦，我和执行委托的孩子们约好了，要用飞机上的相机拍下她们进港的瞬间",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "ぐずぐずしないの！艦載機で入港した瞬間を写真にするって、委託に行った子たちと約束したんだから！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Stop loafing around! I promised the commission team that I'd use my planes to photograph the moment they entered the port!",
+						"englishNote" : ""
+					},
+					"16" : {
+						"event" : "Enhancing complete",
+						"media" : "upgrade",
+						"chinese" : "赞美我不必苦思什么妙语，最能打动心灵的永远是真情挚意！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "私を褒めるには言葉はいらないわ！心を動かすのはいつも言葉じゃなくて行動だもの！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Words are not needed to praise me! It's not people's words that touch the heart, it's their actions!",
+						"englishNote" : ""
+					},
+					"17" : {
+						"event" : "Flagship fight",
+						"media" : "warcry",
+						"chinese" : "真是的，大炮与炸弹只会使丑陋的东西变得更加丑陋…",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "もう、大砲と火薬はこの戦争をより醜くしかできないというのに……",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Sigh, all that cannons and gunpowder can do is make is war even uglier...",
+						"englishNote" : ""
+					},
+					"18" : {
+						"event" : "Victory",
+						"media" : "mvp",
+						"chinese" : "真是的，看到了这么凄惨的败相，胜利的我也高兴不起来呀…",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "ここまでボッコボコにしてしまったら…流石に勝利の象徴である私も思いっきり喜べないわ",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "When my foes have been this thoroughly defeated... not even I, the symbol of victory, can truly be glad.",
+						"englishNote" : ""
+					},
+					"19" : {
+						"event" : "Defeat",
+						"media" : "lose",
+						"chinese" : "失败时保持美丽的身姿，乃败者的礼仪",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "負けても気品を失うことなくーーこれぞ敗者の流儀よ！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Remaining dignified even in defeat: this is how one should lose a battle!",
+						"englishNote" : ""
+					},
+					"20" : {
+						"event" : "Skills",
+						"media" : "skill",
+						"chinese" : "为我高声歌唱吧，美丽的世界！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "美しき世界よ、この私のために歌を捧げなさい！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "O beautiful world, sing to me a song!",
+						"englishNote" : ""
+					},
+					"21" : {
+						"event" : "Low HP",
+						"media" : "hp",
+						"chinese" : "哎呀哎呀，有点大意了呢",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "あらら、油断したわ",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Oh dear, I've let my guard down.",
+						"englishNote" : ""
+					},
+					"22" : {
+						"event" : "Upset",
+						"media" : "feeling1",
+						"chinese" : "揍你啰——！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "もう～ボッコボコにするわよ！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "I'm fed up~! I'll knock you out stone cold!",
+						"englishNote" : ""
+					},
+					"23" : {
+						"event" : "Stranger",
+						"media" : "feeling2",
+						"chinese" : "从特拉法尔加海战知道了我的名字——？不、名字不一样啦。对我来说，那位是别人家的孩子般的存在呢……",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "トラファルガーの海戦で私を――？えっと、人違いではなくて？もう～私にとって、あの方はただのよその子なのよ？",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "You know about me from the Battle of Trafalgar? Umm, aren't you thinking of somebody else? Please, Commander~ Who you're thinking of is totally unrelated to me.",
+						"englishNote" : ""
+					},
+					"24" : {
+						"event" : "Friendly",
+						"media" : "feeling3",
+						"chinese" : "围剿俾斯麦和钨作战？我只是一时兴起帮了点忙啦，可没有什么成为武勋舰的打算…",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "ビスマルク追撃戦とタングステン作戦？あの時はノリで手伝ってあげただけで、別に武勲艦になるつもりなんてないわ",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "My part in the pursuit of Bismarck and Operation Tungsten? I was just in the mood to help, I wasn't at all trying to earn any honours.",
+						"englishNote" : ""
+					},
+					"25" : {
+						"event" : "Crush",
+						"media" : "feeling4",
+						"chinese" : "喂，我心情不太好，你现在很闲吧，我来帮你打扮得漂漂亮亮吧，看到漂亮的东西我的心情也会变好～",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "あまり気分が良くないわ…指揮官は暇？よし！じゃあこの私がきっちりコーディネートしてあげるわ！美しいものを見ると気分もよくなるからね～！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "I'm not in such a great mood... Are you free, Commander? Great! Then let me dress you in something fabulous! Seeing beautiful things makes me feel better, you see!",
+						"englishNote" : ""
+					},
+					"26" : {
+						"event" : "Love",
+						"media" : "feeling5",
+						"chinese" : "不自觉地期待起未来你会变成什么模样了，明明现在就已经足够讨我喜欢了……哎呀，满脸通红的指挥官真可爱呢~",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "指揮官が将来どうなるか気になるわね～もちろん今の指揮官も十分好きになれるけど。……あら、顔が真っ赤。指揮官、本当に可愛いわ～",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "I wonder what the future you will be like, Commander~ Of course, I already quite like the way you are right now. ...Goodness, you're blushing ear to ear. How utterly adorable you are~",
+						"englishNote" : ""
+					},
+					"27" : {
+						"event" : "Promise",
+						"media" : "propose",
+						"chinese" : "不必那么绞尽脑汁啦，按照自己的方式与我交往就好…好啦，难得这么具有纪念意义的日子，不要这么紧张嘛~未来就以我每时每刻都心情愉快为目标，好好努力吧！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "そんなに考え込まないの。あなた自身のペースで私と付き合っていいわ。…さあ、せっかくの記念日だから、緊張しない～これからは私をいつも楽しませるよう、努力しなさいな！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Don't think too hard about it. Just follow my lead at your own pace. ...Come on, this is a day to celebrate, don't be so nervous~ From this day on, you'd better work hard to always please me!",
+						"englishNote" : ""
+					},
+					"28" : {
+						"event" : "Easter Egg 1(Saratoga)",
+						"media" : "link1",
+						"chinese" : "这次也多多指教了，比我还平的“航空母舰”~",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "よろしくてよ。私より平たい『正規空母』さん",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Pleasure to meet again, little Ms. Flat-As-A-Pancake.",
+						"englishNote" : ""
+					},
+					"29" : {
+						"event" : "Easter Egg 2(Illustrious)",
+						"media" : "link2",
+						"chinese" : "姐姐，你应该丰满的地方过于丰满了！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "姉さん、た、たゆんとしすぎてるってば！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Illustrious, y-your bust is just too busty!",
+						"englishNote" : ""
+					}
+				}
+			},
+			"2": {
+				"skin_id" : "shengli_2",
+				"id" : "1",
+				"label" : "The Goddess' Day Off",
+				"dialogue" : {
+					"1" : {
+						"event" : "Ship Description",
+						"media" : "",
+						"chinese" : "哼～哼哼♪～着装完毕，发型完美！我准备好咯，马上出发吧，指挥官，假日的时间可不等人呢～",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "♪～お着替えよし！髪型よし！指揮官、私のほうは準備できてるから、早く出発しましょうよ！休日は人を待ってくれないわよ～",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Hum~ dee dum♪~ I'm all dressed up, and my hair is perfect! Commander, I'm ready to go! Don't keep me waiting on a holiday!",
+						"englishNote" : ""
+					},
+					"2" : {
+						"event" : "Receive",
+						"media" : "get_1",
+						"chinese" : "哼～哼哼♪～着装完毕，发型完美！我准备好咯，马上出发吧，指挥官，假日的时间可不等人呢～",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "♪～お着替えよし！髪型よし！指揮官、私のほうは準備できてるから、早く出発しましょうよ！休日は人を待ってくれないわよ～",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Hum~ dee dum♪~ I'm all dressed up, and my hair is perfect! Commander, I'm ready to go! Don't keep me waiting on a holiday!",
+						"englishNote" : ""
+					},
+					"3" : {
+						"event" : "Log in",
+						"media" : "login_1",
+						"chinese" : "太、慢、了！指挥官，今天有哪些任务？快点完成掉，然后陪我去逛街吧",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "お・そ・い・わ・よ！もう、指揮官、今日のやることは何？ちゃっちゃと片付けて、ショッピングに付き合いなさいな",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Way! Too! Slow! Commander, what does your schedule look like today? Hurry up and finish so you can take me shopping!",
+						"englishNote" : ""
+					},
+					"4" : {
+						"event" : "View details",
+						"media" : "detail_1",
+						"chinese" : "需要美丽的胜利给你建言吗？无论是时尚打扮还是恋爱烦恼哦，都可以跟我说，我会好好回答你的～",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "美しい私からのアドバイスがほしい？おしゃれも恋も、全部私に相談しなさいな。このヴィクトリアスがきっちり答えてあげる！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Do you need advice from the beautiful Victorious? Whether it's fashion tips or relationship trouble, you can ask me anything~!",
+						"englishNote" : ""
+					},
+					"5" : {
+						"event" : "Main screen 1",
+						"media" : "main_1_1",
+						"chinese" : "休息是为了更好的工作！所以，指挥官，稍微放下手上的工作，跟我出去走走嘛～",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "仕事の能率向上には休憩が必要よ！というわけで、指揮官、仕事は一旦置いといて私と遊びに行きましょうよ～",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Rest is for the sake of being able to work better! Therefore, set aside that work and come play with me~! ",
+						"englishNote" : ""
+					},
+					"6" : {
+						"event" : "Main screen 2",
+						"media" : "main_2_1",
+						"chinese" : "提尔比茨，出来一起玩嘛～我不会对你做什么的啦～",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "ティルピッツ～私と遊びに行きましょう～なにも悪いことしないから～",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Tirpitz, come and play with me~ I won't do anything to you~! ",
+						"englishNote" : ""
+					},
+					"7" : {
+						"event" : "Main screen 3",
+						"media" : "main_3_1",
+						"chinese" : "无论作战还是休息，都要保持最佳状态全力以赴，这是我的信条哦～",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "作戦も休憩も、最高のコンディションで全力で挑む。これこそ私の流儀よ",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Stay in tip-top condition so you can work hard and play hard! That's my motto~!",
+						"englishNote" : ""
+					},
+					"8" : {
+						"event" : "Normal touch",
+						"media" : "touch_1_1",
+						"chinese" : "这身衣服意外地非常保暖呢…就算是在严冬的户外也一点都不会冷",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "この服は意外と暖かいわよね……厳しい冬でも全然寒く感じないわ",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "This outfit is surprisingly warm... Even in this kind of weather, I don't feel cold at all!",
+						"englishNote" : ""
+					},
+					"9" : {
+						"event" : "Return to port",
+						"media" : "home_1",
+						"chinese" : "呼～终于作战结束了吗？按照说好的，我们出去玩吧",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "ふぅ…作戦が終わった？じゃあ約束通り、遊びに行きましょう？",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Phew, is the battle finally over? As I said, let's go out and have some fun!",
+						"englishNote" : ""
+					},
+					"10" : {
+						"event" : "Flagship fight",
+						"media" : "warcry_1",
+						"chinese" : "难得的休息日心情都被搞糟了…要给你们一点惩罚才行呢！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "せっかくの休日なのに人の気持ちを台無しにして……ちょっとお仕置きしないとね！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Since you messed up the day off I was so looking forward to, I'm going to have to punish you!",
+						"englishNote" : ""
+					}
+				}
+			}
+		}
+	}
+}

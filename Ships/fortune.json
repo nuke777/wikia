@@ -1,0 +1,691 @@
+{
+	"name_reference" : "fortune",
+	"cn_reference" : "mingyunnvshen",
+	"nameJP" : "フォーチュン",
+	"nameCN" : "命运女神",
+	"ID" : "92",
+	"name" : "Fortune",
+	"internal_id" : "201121",
+	"rarity" : "Rare",
+	"initialStar" : "★★☆☆☆",
+	"hull" : "Destroyer",
+	"navy" : "Royal Navy",
+	"prefix" : "HMS",
+	"buildTime" : "",
+	"class" : "F",
+	"voiceActress" : "Yuuko Gotou",
+	"parameters": {
+		"firepower" : "D",
+		"torpedo" : "B",
+		"aviation" : "E",
+		"evasion" : "A",
+		"antiAir" : "D",
+		"hp" : "D"
+	},
+	"scrap": {
+		"gold" : "4",
+		"oil" : "3",
+		"medal" : "1"
+	},
+	"releaseDate": {
+		"JP" : "",
+		"CN" : "",
+		"KR" : "",
+		"EN" : ""
+	},
+	"artist": {
+		"name" : "",
+		"weibo" : "",
+		"twitter" : "",
+		"pixiv" : "",
+		"other" : ""
+	},
+	"enhance": {
+		"firepower" : "4",
+		"torpedo" : "22",
+		"aviation" : "0",
+		"reload" : "13"
+	},
+	"acquisitionMethod" : "Honor medal exchange, Explore Stage3-3, Light ship Construction",
+	"skill": {
+		"1" : {
+			"icon" : "4071",
+			"requirement" : "",
+			"name" : "Emergency Maneuvers",
+			"type" : "Defensive",
+			"description" : "$1 chance to activate every 20s: this ship evades all enemy attacks for 6s."
+		},
+		"2" : {
+			"icon" : "1061",
+			"requirement" : "",
+			"name" : "Flank Defense",
+			"type" : "Defensive",
+			"description" : "While this ship is afloat: decreases the DMG the Main Fleet takes by $1. Does not stack with the same skill."
+		},
+		"3" : {
+			"icon" : "21041",
+			"requirement" : "",
+			"name" : "All Out Assault Ⅰ",
+			"type" : "Offensive",
+			"description" : "Activate All Out Assault Ⅰ: F Class once every 15 times the main gun is fired."
+		}
+	},
+	"skin": {
+		"1" : {
+			"id" : "mingyunnvshen",
+			"name" : "Fortune",
+			"description" : "F-class destroyer ー Fortune, Hull Number H70!",
+			"expression" : {
+				"0" : {
+					"id" : "0"
+				}
+			}
+		},
+		"2" : {
+			"id" : "mingyunnvshen_g",
+			"name" : "Fortune (Retrofit)",
+			"description" : "Is this really going to help you, Commander? Ah? I doubt our destiny will change with this... Just kidding, Commander! Anything for you.",
+			"expression" : {
+				"0" : {
+					"id" : "0"
+				}
+			}
+		}
+	},
+	"defaultEquipment": {
+		"1" : {
+			"icon" : "21300",
+			"rarity" : "",
+			"name" : "Single 120mm Main Gun"
+		},
+		"1" : {
+			"icon" : "5100",
+			"rarity" : "Common",
+			"name" : "Quadruple 533mm Torpedo"
+		},
+		"3" : {
+			"icon" : "",
+			"rarity" : "",
+			"name" : ""
+		}
+	},
+	"stats": {
+		"base": {
+			"hp" : "226",
+			"firepower" : "13",
+			"torpedo" : "67",
+			"antiAir" : "29",
+			"aviation" : "0",
+			"reload" : "72",
+			"hit" : "66",
+			"evasion" : "78",
+			"speed" : "42.6",
+			"luck" : "68",
+			"asw" : "54",
+			"oxygen" : "0",
+			"ammo" : "0",
+			"cost" : "2",
+			"armor" : "Light"
+		},
+		"100": {
+			"hp" : "1168",
+			"firepower" : "62",
+			"torpedo" : "318",
+			"antiAir" : "134",
+			"aviation" : "0",
+			"reload" : "169",
+			"hit" : "171",
+			"evasion" : "203",
+			"speed" : "42.6",
+			"luck" : "68",
+			"asw" : "197",
+			"oxygen" : "0",
+			"ammo" : "0",
+			"cost" : "8",
+			"armor" : "Light"
+		},
+		"120": {
+			"hp" : "1402",
+			"firepower" : "72",
+			"torpedo" : "357",
+			"antiAir" : "154",
+			"aviation" : "0",
+			"reload" : "195",
+			"hit" : "180",
+			"evasion" : "209",
+			"speed" : "42.6",
+			"luck" : "68",
+			"asw" : "218",
+			"oxygen" : "0",
+			"ammo" : "0",
+			"cost" : "8",
+			"armor" : "Light"
+		},
+		"100retrofit": {
+			"hp" : "1333",
+			"firepower" : "97",
+			"torpedo" : "318",
+			"antiAir" : "149",
+			"aviation" : "0",
+			"reload" : "169",
+			"hit" : "171",
+			"evasion" : "243",
+			"speed" : "45.6",
+			"luck" : "68",
+			"asw" : "197",
+			"oxygen" : "0",
+			"ammo" : "0",
+			"cost" : "8",
+			"armor" : "Light"
+		},
+		"120retrofit": {
+			"hp" : "1567",
+			"firepower" : "107",
+			"torpedo" : "357",
+			"antiAir" : "169",
+			"aviation" : "0",
+			"reload" : "195",
+			"hit" : "180",
+			"evasion" : "249",
+			"speed" : "45.6",
+			"luck" : "68",
+			"asw" : "218",
+			"oxygen" : "0",
+			"ammo" : "0",
+			"cost" : "8",
+			"armor" : "Light"
+		}
+	},
+	"limitBreak": {
+		"tier1": "Unlock All Out Assault Ⅰ/Main gun efficiency +5%",
+		"tier2": "Torpedo base +1/Torpedo preload +1/Main gun efficiency +10%",
+		"tier3": "Improve All Out Assault/All weapons' efficiency +5%"
+	},
+	"equipmentLoadout": {
+		"1": {
+			"type": "Destroyer Gun",
+			"efficiency": "100%/105%/115%/120%",
+			"amount": "1/1/1/1",
+			"preload": "0/0/0/0"
+		},
+		"2": {
+			"type": "Torpedo",
+			"efficiency": "130%/130%/130%/135%",
+			"amount": "1/1/2/2",
+			"preload": "0/0/1/1"
+		},
+		"3": {
+			"type": "Anti-Air Gun",
+			"efficiency": "100%/100%/100%/105%",
+			"amount": "1/1/1/1",
+			"preload": "0/0/0/0"
+		},
+		"4": {
+			"type": "Auxilary",
+			"efficiency": "-",
+			"amount": "-",
+			"preload": "-"
+		},
+		"5": {
+			"type": "Auxilary",
+			"efficiency": "-",
+			"amount": "-",
+			"preload": "-"
+		}
+	},
+	"build": {
+		"light": {
+			"JP": "",
+			"CN": "",
+			"EN": ""
+		},
+		"heavy": {
+			"JP": "",
+			"CN": "",
+			"EN": ""
+		},
+		"special": {
+			"JP": "",
+			"CN": "",
+			"EN": ""
+		},
+		"limited": {
+			"JP": "",
+			"CN": "",
+			"EN": ""
+		}
+	},
+	"drop": {
+		"droppable": "false",
+		"list": {
+			"1": {
+				"event": "",
+				"chapter": {
+					"1": {
+						"label": "Ch .1",
+						"node": {
+							"1": {
+								"drop": "✓",
+								"note": "-"
+							}
+						}
+					}
+				}
+			}
+		}
+	},
+	"lines": {
+		"skin": {
+			"1": {
+				"skin_id" : "mingyunnvshen",
+				"id" : "0",
+				"label" : "Fortune",
+				"dialogue" : {
+					"1" : {
+						"event" : "Ship Description",
+						"media" : "",
+						"chinese" : "F级驱逐舰—命运女神，舷号H70",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "F級駆逐艦・フォーチュン（H70)",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "F-class destroyer ー Fortune, Hull Number H70!",
+						"englishNote" : ""
+					},
+					"2" : {
+						"event" : "Biography",
+						"media" : "profile",
+						"chinese" : "皇家海军F级驱逐命运女神……我和妹妹狐提后来被一起转入了加拿大皇家海军……做为F级驱逐，有好好努力过了呢……",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "ロイヤルネイビーFクラスの駆逐艦、フォーチュンです……妹のフォックスハウンドと一緒に楓の国の海軍に転属しました……Fクラス駆逐艦として、頑張りました……",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Royal Navy's F-class destroyer, Fortune. ...I was transferred to the navy of the Maple Monarchy along with my younger sister Foxhound. ...As an F-class destroyer, I have worked hard...",
+						"englishNote" : ""
+					},
+					"3" : {
+						"event" : "Receive",
+						"media" : "get",
+						"chinese" : "你好，指挥官……我、我是命运女神……作为F级驱逐有好好努力过喔……",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "はじめまして指揮官、わ、私はフォーチュンと言います……Fクラス駆逐艦として、頑張りました……",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Greetings, Commander. I-I'm Fortune... As an F-class destroyer, I'll do my best...",
+						"englishNote" : ""
+					},
+					"4" : {
+						"event" : "Log in",
+						"media" : "login",
+						"chinese" : "指挥官，有、有让你等很久吗？……呜……",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "指揮官、ま、待たせてしまいました？……うう……",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Commander, d-did I make you wait? ...I-I'm... *cries*",
+						"englishNote" : ""
+					},
+					"5" : {
+						"event" : "View details",
+						"media" : "detail",
+						"chinese" : "指挥官……我、我有帮上忙吗？",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "指揮官……わたし、頑張りましたけど…やっぱりダメ？",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Commander... I worked hard but... am I still not good?",
+						"englishNote" : ""
+					},
+					"6" : {
+						"event" : "Main screen 1",
+						"media" : "main_1",
+						"chinese" : "Fortune……也是财富的意思呢……",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "フォーチュンは……「富」の意味もありますよ……",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Fortune... means 'wealth' in a way...",
+						"englishNote" : ""
+					},
+					"7" : {
+						"event" : "Main screen 2",
+						"media" : "main_2",
+						"chinese" : "只要能与妹妹在一起，去哪里都可以……",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "妹と一緒なら、どこへでも……",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "If I'm with my sister, I can go anywhere...",
+						"englishNote" : ""
+					},
+					"8" : {
+						"event" : "Main screen 3",
+						"media" : "main_3",
+						"chinese" : "萨斯喀彻温……是神所赐予的新名字……",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "サスカチュワン……神から貰った新しい名前……",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Saskatchewan... a new name bestowed by God...",
+						"englishNote" : ""
+					},
+					"9" : {
+						"event" : "Normal touch",
+						"media" : "touch_1",
+						"chinese" : "果、果然我给您添麻烦……了吧？",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "や、やっぱりご迷惑をおかけしました…か?><",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "I... I'm causing trouble... aren't I...?",
+						"englishNote" : ""
+					},
+					"10" : {
+						"event" : "Special touch",
+						"media" : "touch_2",
+						"chinese" : "那……个，呜呜……",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "あ、あの…うぅ…",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Uh... mmm.... *sobs*",
+						"englishNote" : ""
+					},
+					"11" : {
+						"event" : "Mission reminder",
+						"media" : "task",
+						"chinese" : "任、任务……还有没做完的……（小声）",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "に、任務……まだ終わっていないのが……　",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "T-there are... still unfinished missions...",
+						"englishNote" : ""
+					},
+					"12" : {
+						"event" : "Mission complete",
+						"media" : "mission_complete",
+						"chinese" : "感谢神赐予了如此多的财富",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "神より賜った富に、感謝です。",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Praise be to God for blessing us with such wealth! *gets on knees and prays*",
+						"englishNote" : ""
+					},
+					"13" : {
+						"event" : "Mail reminder",
+						"media" : "mail",
+						"chinese" : "新的邮件……会不会是神的旨意？",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "新しいメール……神の御意では…？",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "A new mail... Is it the will of God...?",
+						"englishNote" : ""
+					},
+					"14" : {
+						"event" : "Return to port",
+						"media" : "home",
+						"chinese" : "那个……您辛苦了！>.<",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "あの……お疲れ様です！><",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Umm... Good work! ><",
+						"englishNote" : ""
+					},
+					"15" : {
+						"event" : "Commission complete",
+						"media" : "expedition",
+						"chinese" : "指挥官……那个，委托组好像回来了……",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "指揮官……あのぉ、委託チームが帰ってきたようです……",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Commander... Umm, it looks like the commission team is back...",
+						"englishNote" : ""
+					},
+					"16" : {
+						"event" : "Enhancing complete",
+						"media" : "upgrade",
+						"chinese" : "命运……感觉更近了",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "運命は……もっと近くに…",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Fate... is coming closer...",
+						"englishNote" : ""
+					},
+					"17" : {
+						"event" : "Flagship fight",
+						"media" : "warcry",
+						"chinese" : "接受……神的制裁吧！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "神さまの裁き…受けちゃえ！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Bear witness to the Wrath of GOD!",
+						"englishNote" : ""
+					},
+					"18" : {
+						"event" : "Victory",
+						"media" : "mvp",
+						"chinese" : "胜利……是神的眷顾……",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "勝利は…神さまの恵みです……",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Victory... is a blessing from God...",
+						"englishNote" : ""
+					},
+					"19" : {
+						"event" : "Defeat",
+						"media" : "lose",
+						"chinese" : "神……抛弃我了么……",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "神さまは……わたしを見捨てたの……",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Has God... given up on me?",
+						"englishNote" : ""
+					},
+					"20" : {
+						"event" : "Skills",
+						"media" : "skill",
+						"chinese" : "那，那个，命运会碾碎你们的>.<!",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "あ、あの、運命はあなた方を滅ぼしちゃいますよ>.<!",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Uh, umm, you are all fated to be destroyed >.< !",
+						"englishNote" : ""
+					},
+					"21" : {
+						"event" : "Low HP",
+						"media" : "hp",
+						"chinese" : "愿命运指引我们……",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "運命の導きのままに……",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Just as guided by fortune...",
+						"englishNote" : ""
+					},
+					"22" : {
+						"event" : "Upset",
+						"media" : "feeling1",
+						"chinese" : "命运……在将我们分开……",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "運命は私達を引き離していきます…",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Fortune is tearing us apart...",
+						"englishNote" : ""
+					},
+					"23" : {
+						"event" : "Stranger",
+						"media" : "feeling2",
+						"chinese" : "……我、我觉得有点紧张……呜呜~",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "……き、緊張します……うぅ～",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "...I-I'm nervous... Ugh...",
+						"englishNote" : ""
+					},
+					"24" : {
+						"event" : "Friendly",
+						"media" : "feeling3",
+						"chinese" : "我、我以前也、想跟指挥官搭话的……那个……",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "わ、私も前から指揮官とお話したくて……その……",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "I-I have also wanted to talk to the Commander... Umm...",
+						"englishNote" : ""
+					},
+					"25" : {
+						"event" : "Crush",
+						"media" : "feeling4",
+						"chinese" : "指挥官……我……一直都在、在注视着指挥官你——突然这样讲，会让你困扰吗？……",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "指揮官……私……ずっと、見てますよーー突然こんな事言って、迷惑、ですか…？",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Commander, I... I've always watched you-- Am I troubling you... with such a sudden remark?",
+						"englishNote" : ""
+					},
+					"26" : {
+						"event" : "Love",
+						"media" : "feeling5",
+						"chinese" : "现在的话，我敢说……如、如果我的名字确实有发挥作用的话，那一定、一定是让我遇到了指挥官……",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "今だから言えます…私の名前になっている運命の女神さまが、私と指揮官を出会わせてくださったって……",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "I finally have the courage to can say this... The goddess of fortune has allowed us to meet each other...",
+						"englishNote" : ""
+					},
+					"27" : {
+						"event" : "Promise",
+						"media" : "propose",
+						"chinese" : "能和指挥官走到这一步……虽、虽然有命运的指引，但是也、也多亏指挥官能够一直拉着我，我才能对未知的命运抱有信心……谢谢……",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "指揮官とここまで来れたのは……う、運命の導きですけど…指揮官がずっと私の手を引いてくれたおかげで、私の運命を信じ続けられました……ありがとうございます……",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "To think that we've gotten to this point together, Commander... W-well, fortune has guided us... but it's also due to you guiding my hand as well. I will continue to believe in my own fortune... Thank you very much...",
+						"englishNote" : ""
+					},
+					"28" : {
+						"event" : "Easter Egg 1(Foxhound)",
+						"media" : "link1",
+						"chinese" : "同为F级一起加油吧~",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "F級ととして、いっしょにがんばりましょう…",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Come on F-class, let's do our best!",
+						"englishNote" : ""
+					}
+				}
+			},
+			"2": {
+				"skin_id" : "mingyunnvshen_g",
+				"id" : "9",
+				"label" : "Fortune (Retrofit)",
+				"dialogue" : {
+					"1" : {
+						"event" : "Ship Description",
+						"media" : "",
+						"chinese" : "这样真的能帮助指挥官吗……诶！？指挥官，就算不这么做，命运也决不会出轨！啊……原来只是个玩笑啊……",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "こうすれば指揮官の役に立てるのですか……え！？指揮官、こうしなくてもフォーチュンは……は、はぅ……冗談ですか…",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Is this really going to help you, Commander? Ah? I doubt our destiny will change with this... Just kidding, Commander! Anything for you.",
+						"englishNote" : ""
+					},
+					"2" : {
+						"event" : "Receive",
+						"media" : "get_9",
+						"chinese" : "这样真的能帮助指挥官吗……诶！？指挥官，就算不这么做，命运也决不会出轨！啊……原来只是个玩笑啊……",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "本当にこれで指揮官の役に……えええ！？そ、そんな！フォーチュンはレールから外れないよ！あぅ……冗談……だったの？",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Can I really be of use with this... Eeeeh?! N-No way! I can't get off the rails! Ugh... Was that... a joke?",
+						"englishNote" : ""
+					},
+					"3" : {
+						"event" : "Main screen 1",
+						"media" : "main_1_9",
+						"chinese" : "Fortune……也有财富的意思，要是能给舰队带来财富就好了",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "フォーチュンは……「富」の意味もありますよ。艦隊に富をもたらすといいですね",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Fortune...means 'wealth' in a way. It would be great if I can enrich our fleet.",
+						"englishNote" : ""
+					},
+					"4" : {
+						"event" : "Main screen 2",
+						"media" : "main_2_9",
+						"chinese" : "呜呜，指挥官，我能稍微休息一下吗",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "あぅ……指揮官、少し休ませてください…",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Ugh... Commander, please let me rest...",
+						"englishNote" : ""
+					},
+					"5" : {
+						"event" : "Main screen 3",
+						"media" : "main_3_9",
+						"chinese" : "呜呜，神大人，真的有必要给我这样的试炼吗……",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "ああ神さま、こんな試練は本当に必要なのでしょうか…",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Oh God, is such a trial truly necessary...",
+						"englishNote" : ""
+					}
+				}
+			}
+		}
+	}
+}

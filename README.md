@@ -2,6 +2,7 @@
 
 Azur Lane © is owned by Shanghai Manjuu, Xiamen Yongshi, Shanghai Yostar | All logos and trademarks are property of their respective owners.
 Special thanks to /alg/, English Koumakan Wiki, Chinese Wikis, Japanese Wikis, and to all our contributors. /alg/ wiki © 2019. This is a non-profit website.
+For concerns and feedback, send a mail to alg.4chan@gmail.com
 
 # Contribute
 

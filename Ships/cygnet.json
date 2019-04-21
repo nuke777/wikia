@@ -1,101 +1,31 @@
 {
-	"name": "Cygnet",
+	"name_reference": "cygnet",
+	"cn_reference": "xiaotiane",
 	"nameJP": "シグニット",
 	"nameCN": "小天鹅",
-	"class": "C",
-	"hull": "Destroyer",
-	"prefix": "HMS",
-	"ID": "090",
-	"file_id": "090_Cygnet",
-	"navy": "Royal Navy",
-	"initialStar": "★☆☆☆",
+	"ID": "90",
+	"name": "Cygnet",
+	"internal_id": "201101",
 	"rarity": "Common",
+	"initialStar": "★☆☆☆",
+	"hull": "Destroyer",
+	"navy": "Royal Navy",
+	"prefix": "HMS",
 	"buildTime": "00:21:00",
-	"acquisitionMethod": "Drop / Light Construction",
-	"enhance": {
-		"firepower": "4",
-		"torpedo": "22",
-		"aviation": "0",
-		"reload": "13"
+	"class": "C",
+	"voiceActress": "Risa Taneda",
+	"parameters": {
+		"firepower": "D",
+		"torpedo": "B",
+		"aviation": "E",
+		"evasion": "A",
+		"antiAir": "D",
+		"hp": "D"
 	},
 	"scrap": {
 		"gold": "4",
 		"oil": "3",
 		"medal": "0"
-	},
-	"skin": {
-		"1": {
-			"name": "Default",
-			"description": "C-class Destroyer - Cygnet. Pennant number: H83",
-			"expression": {
-				"1": {
-					"label": "Default"
-				}
-			}
-		},
-		"2": {
-			"name": "Retrofit",
-			"description": "C-class Destroyer - Cygnet. Pennant number: H83",
-			"expression": {
-				"1": {
-					"label": "Default"
-				}
-			}
-		},
-		"3": {
-			"name": "Sea Star on Shore",
-			"description": "Well, the swimsuit that Hood game to me is a little tight, don't you think? Want to play beach volleyball? Do you think... can we win?",
-			"expression": {
-				"1": {
-					"label": "Default"
-				}
-			}
-		},
-		"4": {
-			"name": "Holy Night's Hymn",
-			"description": "H-happy Christmas! A-after that... umm... I have this present for ya, Commander...",
-			"expression": {
-				"1": {
-					"label": "Default"
-				}
-			}
-		},
-		"5": {
-			"name": "Winter Date",
-			"description": "Aww... it took me a while to get changed... Commander, did I keep you waiting long? Hehe... th-that's good. Let's get going, then~",
-			"expression": {
-				"1": {
-					"label": "Default"
-				},
-				"2": {
-					"label": "Default"
-				},
-				"3": {
-					"label": "Default"
-				},
-				"4": {
-					"label": "Default"
-				}
-			}
-		},
-		"6": {
-			"name": "Offer Has Been Maid",
-			"description": "C-class Destroyer - Cygnet. Pennant number: H83",
-			"expression": {
-				"1": {
-					"label": "Default"
-				},
-				"2": {
-					"label": "Default"
-				},
-				"3": {
-					"label": "Default"
-				},
-				"4": {
-					"label": "Default"
-				}
-			}
-		}
 	},
 	"releaseDate": {
 		"JP": "September 13, 2017",
@@ -103,7 +33,6 @@
 		"KR": "March 27, 2018",
 		"EN": "August 16, 2018"
 	},
-	"voiceActress": "Risa Taneda",
 	"artist": {
 		"name": "和茶",
 		"weibo": "和茶",
@@ -111,84 +40,213 @@
 		"pixiv": "和茶",
 		"other": ""
 	},
-	"parameters": {
-		"hp": "D",
-		"antiAir": "D/C",
-		"evasion": "A",
-		"aviation": "E",
-		"torpedo": "B",
-		"firepower": "B/C"
+	"enhance": {
+		"firepower": "4",
+		"torpedo": "22",
+		"aviation": "0",
+		"reload": "13"
+	},
+	"acquisitionMethod": "Drop / Light Construction",
+	"skill": {
+		"1": {
+			"icon": "4071",
+			"requirement": "Default Unlocked",
+			"name": "Emergency Evasion",
+			"type": "Defensive",
+			"description": "15% (30%) activation every 20 seconds: evade all incoming attacks for 6 seconds."
+		},
+		"2": {
+			"icon": "4081",
+			"requirement": "Retrofit",
+			"name": "Smokescreen",
+			"type": "Defensive",
+			"description": "After battle begins, and 15% (30%) chance to activate every 15 secounds after that: deploys a smokescreen for 5 seconds. Escort ships within the smokescreen have 20% (40%) additional Evasion Rate, does not stack with same skill effect."
+		},
+		"3": {
+			"icon": "21031",
+			"requirement": "Limit Break Rank 1, Rank 3 upgrade",
+			"name": "Full Barrage",
+			"type": "Offensive",
+			"description": "Every 15 (10) times the main gun is fired, trigger Full Barrage - C-Class I(II)"
+		}
+	},
+	"skin": {
+		"1": {
+			"id": "xiaotiane",
+			"name": "Cygnet",
+			"description": "C-class destroyer ー Cygnet, Hull Number H83!",
+			"expression": {
+				"0": {
+					"id": "0"
+				}
+			}
+		},
+		"2": {
+			"id": "xiaotiane_2",
+			"name": "Sea Star on Shore",
+			"description": "Well, the swimsuit that Hood gave to me is a little tight, don't you think? Want to play beach volleyball? Do you think... can we win?",
+			"expression": {
+				"0": {
+					"id": "0"
+				}
+			}
+		},
+		"3": {
+			"id": "xiaotiane_3",
+			"name": "Holy Night's Hymn",
+			"description": "H-happy Christmas! A-after that... umm... I have this present for ya, Commander... ",
+			"expression": {
+				"0": {
+					"id": "0"
+				}
+			}
+		},
+		"4": {
+			"id": "xiaotiane_5",
+			"name": "Winter Date",
+			"description": "Aww... it took me a while to get changed... Commander, did I keep you waiting long? Hehe... th-that's good. Let's get going, then~",
+			"expression": {
+				"0": {
+					"id": "0"
+				},
+				"1": {
+					"id": "1"
+				},
+				"2": {
+					"id": "2"
+				},
+				"3": {
+					"id": "3"
+				}
+			}
+		},
+		"5": {
+			"id": "xiaotiane_4",
+			"name": "An Offer To Be Maid ",
+			"description": "M-Master... good evening... C-Commander, don't stare at me so intently... *Whimper*... Saratoga told me that this is part of marketing yourself as an idol... ",
+			"expression": {
+				"0": {
+					"id": "0"
+				},
+				"1": {
+					"id": "1"
+				},
+				"2": {
+					"id": "2"
+				},
+				"3": {
+					"id": "3"
+				}
+			}
+		},
+		"6": {
+			"id": "xiaotiane_g",
+			"name": "Cygnet (Retrofit)",
+			"description": "This outfit is a little tight... Yes, really? I understand. I've got to work harder for the Royal Navy!",
+			"expression": {
+				"0": {
+					"id": "0"
+				}
+			}
+		}
+	},
+	"defaultEquipment": {
+		"1": {
+			"icon": "5100",
+			"rarity": "Common",
+			"name": "Quadruple 533mm Torpedo"
+		},
+		"3": {
+			"icon": "",
+			"rarity": "",
+			"name": ""
+		}
 	},
 	"stats": {
 		"100": {
 			"hp": "1133",
-			"armor": "Light",
-			"reload": "165",
 			"firepower": "59",
 			"torpedo": "310",
-			"evasion": "204",
 			"antiAir": "131",
 			"aviation": "0",
-			"cost": "7",
-			"asw": "190",
+			"reload": "165",
+			"hit": "169",
+			"evasion": "204",
+			"speed": "43.2",
 			"luck": "72",
-			"speed": "43"
+			"asw": "190",
+			"oxygen": "0",
+			"ammo": "0",
+			"cost": "7",
+			"armor": "Light"
 		},
 		"120": {
 			"hp": "1359",
-			"armor": "Light",
-			"reload": "190",
 			"firepower": "68",
 			"torpedo": "350",
-			"evasion": "210",
 			"antiAir": "150",
 			"aviation": "0",
-			"cost": "7",
-			"asw": "210",
+			"reload": "190",
+			"hit": "178",
+			"evasion": "210",
+			"speed": "43.2",
 			"luck": "72",
-			"speed": "43"
+			"asw": "210",
+			"oxygen": "0",
+			"ammo": "0",
+			"cost": "7",
+			"armor": "Light"
 		},
 		"base": {
 			"hp": "219",
-			"armor": "Light",
-			"reload": "70",
 			"firepower": "13",
 			"torpedo": "66",
-			"evasion": "78",
 			"antiAir": "28",
 			"aviation": "0",
-			"cost": "1",
-			"asw": "52",
+			"reload": "70",
+			"hit": "65",
+			"evasion": "78",
+			"speed": "43.2",
 			"luck": "72",
-			"speed": "43"
+			"asw": "52",
+			"oxygen": "0",
+			"ammo": "0",
+			"cost": "1",
+			"armor": "Light"
 		},
 		"100retrofit": {
 			"hp": "1298",
-			"armor": "Light",
-			"reload": "165",
 			"firepower": "89",
 			"torpedo": "310",
-			"evasion": "249",
 			"antiAir": "146",
 			"aviation": "0",
-			"cost": "7",
-			"asw": "190",
+			"reload": "165",
+			"hit": "169",
+			"evasion": "249",
+			"speed": "46.2",
 			"luck": "72",
-			"speed": "46"
+			"asw": "190",
+			"oxygen": "0",
+			"ammo": "0",
+			"cost": "7",
+			"armor": "Light"
 		},
 		"120retrofit": {
 			"hp": "1524",
-			"armor": "Light",
-			"reload": "190",
 			"firepower": "98",
 			"torpedo": "350",
-			"evasion": "255",
 			"antiAir": "165",
 			"aviation": "0",
-			"cost": "7",
-			"asw": "210",
+			"reload": "190",
+			"hit": "178",
+			"evasion": "255",
+			"speed": "46.2",
 			"luck": "72",
-			"speed": "46"
+			"asw": "210",
+			"oxygen": "0",
+			"ammo": "0",
+			"cost": "7",
+			"armor": "Light"
 		}
 	},
 	"limitBreak": {
@@ -198,8 +256,8 @@
 	},
 	"equipmentLoadout": {
 		"1": {
-			"type": "DD Gun",
-			"efficiency": "100%/105%(110%)/115%(120%)/120%(125%)",
+			"type": "Destroyer Gun",
+			"efficiency": "100%/105%/115%/120%",
 			"amount": "1/1/1/1",
 			"preload": "0/0/0/0"
 		},
@@ -211,46 +269,21 @@
 		},
 		"3": {
 			"type": "Anti-Air Gun",
-			"efficiency": "100%/100%/100%(105%)/105%(110%)",
-			"amount": "",
-			"preload": ""
+			"efficiency": "100%/100%/100%/105%",
+			"amount": "1/1/1/1",
+			"preload": "0/0/0/0"
 		},
 		"4": {
-			"type": "Auxilliary",
+			"type": "Auxilary",
 			"efficiency": "-",
 			"amount": "-",
 			"preload": "-"
 		},
 		"5": {
-			"type": "Auxilliary",
+			"type": "Auxilary",
 			"efficiency": "-",
 			"amount": "-",
 			"preload": "-"
-		}
-	},
-	"defaultEquipment": {
-		"1": "Single 120mm (QF Mark IX) T1",
-		"2": "533mm Quadruple Torpedo Mount T1",
-		"3": ""
-	},
-	"skill": {
-		"1": {
-			"name": "Emergency Evasion",
-			"type": "Defensive",
-			"requirement": "Default Unlocked",
-			"description": "15% (30%) activation every 20 seconds: evade all incoming attacks for 6 seconds."
-		},
-		"2": {
-			"name": "Smokescreen",
-			"type": "Defensive",
-			"requirement": "Retrofit",
-			"description": "After battle begins, and 15% (30%) chance to activate every 15 secounds after that: deploys a smokescreen for 5 seconds. Escort ships within the smokescreen have 20% (40%) additional Evasion Rate, does not stack with same skill effect."
-		},
-		"3": {
-			"name": "Full Barrage",
-			"type": "Offensive",
-			"requirement": "Limit Break Rank 1, Rank 3 upgrade",
-			"description": "Every 15 (10) times the main gun is fired, trigger Full Barrage - C-Class I(II)"
 		}
 	},
 	"build": {
@@ -909,7 +942,9 @@
 	"lines": {
 		"skin": {
 			"1": {
-				"label": "Default",
+				"skin_id": "xiaotiane",
+				"id": "0",
+				"label": "Cygnet",
 				"dialogue": {
 					"1": {
 						"event": "Ship Description",
@@ -917,146 +952,146 @@
 						"chinese": "C级驱逐舰—小天鹅，舷号H83",
 						"chineseTL": "C-class destroyer- Cygnet, ship number H83",
 						"chineseNote": "",
-						"japanese": "",
+						"japanese": "C級駆逐艦・シグニット（H83)",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "C-class destroyer ー Cygnet, Hull Number H83!",
 						"englishNote": ""
 					},
 					"2": {
-						"event": "Self Introduction",
-						"media": "self_introduction",
+						"event": "Biography",
+						"media": "profile",
 						"chinese": "咱，咱是C级的小天鹅，在出国前一直隶属于本国舰队……别看咱这样……其实……咱、我在老家摸鱼，可是很厉害的呢！那个……咱，我会努力的！",
 						"chineseTL": "I, I am C-class's Cygnet, before leaving the country I was in their home fleet... it may not look like it... but... Cygnet, is good at fishing! So... Cygnet, I'll do my best!",
 						"chineseNote": "",
 						"japanese": "う、うちはCクラスのシグニット…海外に行くまではずっと本国艦隊所属だったの……こう見えても実は…魚取りが得意なんですよ！あの……うち、頑張ります！",
 						"japaneseTL": "I-I'm the C-class Cygnet…Before going overseas, I always belonged to the home fleet…I may not look like it, but I'm… actually good at fishing! Erm… I'll, do my best!",
 						"japaneseNote": "",
-						"english": "",
+						"english": "I-I'm the C-class's Cygnet... Before I went abroad, I had always been in the Home Fleet... I may not look like it but... I'm good at fishing! Uh... I... I'll do my best!",
 						"englishNote": ""
 					},
 					"3": {
-						"event": "Acquisition",
-						"media": "acquisition",
+						"event": "Receive",
+						"media": "get",
 						"chinese": "咱……咱是C级驱逐舰的……小……小天鹅……嗯！为了炸鱼薯条，咱，咱会加油的！",
 						"chineseTL": "I... I am Cygnet... C-class destroyer...yup! For fish and chips, I, I'll do my best",
 						"chineseNote": "",
-						"japanese": "うちは…うちはCクラスの駆逐艦の…し、シグニット……うん！フィッシュアンドチップスのために、うち、頑張る！",
+						"japanese": "うちは……うちはCクラスの駆逐艦の…し、シグニット……うん！フィッシュアンドチップスのために、うち、頑張る！",
 						"japaneseTL": "I'm… C-Cygnet… the C-class destroyer… yup! For the sake of fish and chips, I'll do my best!",
 						"japaneseNote": "",
-						"english": "",
+						"english": "I am... I'm the C-class destroyer Cygnet... yes! For the sake of getting fish and chips, I will do my best!",
 						"englishNote": ""
 					},
 					"4": {
-						"event": "Login",
+						"event": "Log in",
 						"media": "login",
 						"chinese": "指、指挥官……呜呜，你终于来了~~这里好大啊……都要迷路了……",
 						"chineseTL": "Com...Commander...uuuu, you are finally here~~ It's really big here...I could get lost here...",
 						"chineseNote": "",
-						"japanese": "し、指揮官……やっと来てくれた～ここ広いよぉ……迷っちゃうよぉ……",
+						"japanese": "し、指揮官……やっと来てくれた~ここ広いよぉ……迷っちゃうよぉ……",
 						"japaneseTL": "C-Commander… You're finally here~ This place is so big… I might get lost…",
 						"japaneseNote": "",
-						"english": "",
+						"english": "C-Commander... you've finally come~ This place is huge... I was lost...",
 						"englishNote": ""
 					},
 					"5": {
-						"event": "Details",
-						"media": "details",
+						"event": "View details",
+						"media": "detail",
 						"chinese": "呜~好害羞…为什么要人家在这里做指定的POSE……",
 						"chineseTL": "Uuu~ so embarrassing... why must Cygnet do this pose here...",
 						"chineseNote": "",
-						"japanese": "うええ～恥ずかしいよぉ……なんでここでこんなポーズしなきゃいけないの…",
+						"japanese": "うええ~恥ずかしいよぉ……なんでここでこんなポーズしなきゃいけないの…",
 						"japaneseTL": "Ueeh~ This is so embarrassing… Why do I need to strike a pose like this here…",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Uwee~ This is so embarrassing... Why do I have strike such a pose...",
 						"englishNote": ""
 					},
 					"6": {
-						"event": "Idle 1",
-						"media": "idle_1",
+						"event": "Main screen 1",
+						"media": "main_1",
 						"chinese": "指挥官半天没说话，我都困了——Zzzz……欸？咱、我没有睡着！",
 						"chineseTL": "Commander haven't said anything for a while, I am getting drowsy—— Zzzz...eh? Cygnet, I didn't fall asleep!",
 						"chineseNote": "",
 						"japanese": "指揮官はずっと静かだし、うちも眠い??Zzzz……え？うち…わたしわたし寝てないってば！",
 						"japaneseTL": "You've been quiet the whole time, and I'm sleepy? Zzzzz… Huh? I ain't… I-I wasn't sleeping!",
 						"japaneseNote": "",
-						"english": "",
+						"english": "You're always so quiet, Commander. I'm sleepy. ZZZZ... Huh? I... I-I'm not sleeping!",
 						"englishNote": ""
 					},
 					"7": {
-						"event": "Idle 2",
-						"media": "idle_2",
+						"event": "Main screen 2",
+						"media": "main_2",
 						"chinese": "咱喜欢……的事情吗？说出来多不好意思啊……欸？这是……是命令？呜……咱……咱喜欢吃东西……",
 						"chineseTL": "Things Cygnet like...? It's too embarrassing to say...eh? This is... is an order? Uuu... Cygnet... Cygnet likes to eat things...",
 						"chineseNote": "",
 						"japanese": "好きなこと…？恥ずかしくて言えないよぉ…え？め、命令なの？う……うちは…美味しいもの食べることが好きやか",
 						"japaneseTL": "The things I like…? I'm too embarrassed to say… What? I-it's an order? I… I… love eating delicious food.",
 						"japaneseNote": "",
-						"english": "",
+						"english": "What do I like...? I'm too embarrassed to say it... Eh? I-It's an order? I... I like to eat delicious meals",
 						"englishNote": ""
 					},
 					"8": {
-						"event": "Idle 3",
-						"media": "idle_3",
-						"chinese": "那个女孩子穿的衣服好漂亮……欸？不不不（摆手），咱、我只是称赞一下，那那那种衣服肯定不适合我的啦！",
+						"event": "Main screen 3",
+						"media": "main_3",
+						"chinese": "那个女孩子穿的衣服好漂亮……欸？不不不，咱、我只是称赞一下，那那那种衣服肯定不适合我的啦！",
 						"chineseTL": "That girl's cloths are so pretty... eh? No no no, Cygnet, I was just complimenting, th-th-those types of clothes wouldn't suit me!",
 						"chineseNote": "",
-						"japanese": "あの娘の服、綺麗だなぁ……え？いえいえいえ！うち、わたしは褒めてるだけだから、そそそそんな服わたしに似合わないよぉ！",
+						"japanese": "あの娘の服、綺麗だなぁ……え？いえいえいえいえ！うち、わたしは褒めてるだけだから、そそそそんな服わたしには似合わないよぉ！",
 						"japaneseTL": "That girl's clothes are so pretty… Huh? No-no-no! I-I was just praising her clothes, th-th-th-they wouldn't suit me!",
 						"japaneseNote": "",
-						"english": "",
+						"english": "That girl's clothes are so beautiful... Eh? No no no! I-I'm just complimenting, s-s-so I don't think those clothes will suit me!",
 						"englishNote": ""
 					},
 					"9": {
-						"event": "Touch",
-						"media": "touch",
-						"chinese": "好温暖……（害羞）",
+						"event": "Normal touch",
+						"media": "touch_1",
+						"chinese": "好温暖……",
 						"chineseTL": "So warm...",
 						"chineseNote": "",
 						"japanese": "温かい……",
 						"japaneseTL": "It's warm…",
 						"japaneseNote": "",
-						"english": "",
+						"english": "It's so warm...",
 						"englishNote": ""
 					},
 					"10": {
-						"event": "Special Touch",
-						"media": "special_touch",
+						"event": "Special touch",
+						"media": "touch_2",
 						"chinese": "指挥官……那个…小天鹅不是很懂，但为什么有点热",
 						"chineseTL": "Commander... Cygnet doesn't understand, but why does it feel a little hot",
 						"chineseNote": "",
 						"japanese": "指揮官……シグニットはちょっとわからないけど、でもなんか熱いよぉ…",
 						"japaneseTL": "Commander… Although Cygnet doesn't really understand why, she feels somewhat hot…",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Commander... I don't understand... Why am I getting hotter?",
 						"englishNote": ""
 					},
 					"11": {
-						"event": "Mission",
-						"media": "mission",
+						"event": "Mission reminder",
+						"media": "task",
 						"chinese": "指挥官啊，任、任务~~不好好检查可不行啊~",
 						"chineseTL": "Commander, Mi-mission~~ if you don't check properly it's bad~",
 						"chineseNote": "",
-						"japanese": "指揮官、み、ミッションはちゃんとチェックしないとダメだよぉ～",
+						"japanese": "指揮官、み、ミッションはちゃんとチェックしないとダメだよぉ~",
 						"japaneseTL": "Commander, y-you ought to check the mission properly~",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Commander, it will be bad if you don't do your m-missions~",
 						"englishNote": ""
 					},
 					"12": {
-						"event": "Mission Complete",
+						"event": "Mission complete",
 						"media": "mission_complete",
 						"chinese": "呼喵，送来了好多奖励的样子",
 						"chineseTL": "Nyan, looks like there's a lot of rewards",
 						"chineseNote": "",
-						"japanese": "ふにゃ～ボーナスがいっぱい～",
+						"japanese": "ふにゃ～ボーナスがいっぱい~",
 						"japaneseTL": "Wee~ There's such a big bonus~",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Blah~ So many rewards~",
 						"englishNote": ""
 					},
 					"13": {
-						"event": "Mail",
+						"event": "Mail reminder",
 						"media": "mail",
 						"chinese": "呜哇！这个响了…mail…是……是什么东西啊！",
 						"chineseTL": "Uwah! This rang... mail... what... what is that!",
@@ -1064,59 +1099,59 @@
 						"japanese": "うわっ！なにかが鳴ってる…めーる？……な、なんなの…？",
 						"japaneseTL": "Uwah! Something rang… Meile? …Wh-what's that…?",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Wha! Something rang... Mail? ...W-what's that?",
 						"englishNote": ""
 					},
 					"14": {
-						"event": "Return from Sortie",
-						"media": "return_from_sortie",
-						"chinese": "欸嘿……回家了，爬床爬床——欸？指挥官~你、你……看到我刚才的样子了？！呜……",
+						"event": "Return to port",
+						"media": "home",
+						"chinese": "欸嘿……爬床爬床——欸？指挥官~你、你……看到我刚才的样子了？！呜……",
 						"chineseTL": "Ehe... finally home, time to lay down- ehh? Commander~ you, you... saw what I was doing? Uweh...",
 						"chineseNote": "",
-						"japanese": "えへへ……ベッドに行ってゴロゴロ――えええ！指揮官～い、今の見たの！？うえええ……",
+						"japanese": "えへへ……ベッドに行ってゴロゴローーえええ！指揮官~い、今の見たの！？うえええ……",
 						"japaneseTL": "Ehehe… Time to roll around in bed. Huhh!? Commander~ Y-you saw me!? Ueeeh…",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Ehehe... Getting on the bed, rolling around~~ Eeeh! Commander~ Did you see that?! Awww...",
 						"englishNote": ""
 					},
 					"15": {
-						"event": "Commission Complete",
-						"media": "commission_complete",
+						"event": "Commission complete",
+						"media": "expedition",
 						"chinese": "指，指挥官……有委托完成了，咱，我也可以一起去接姐姐们吗？",
 						"chineseTL": "Com-commander... a commission has completed, can Cygnet come with you to see my older sisters?",
 						"chineseNote": "",
 						"japanese": "し、指揮官……委託が完了したよ。うち、わたしも一緒に迎えに行っていいの？",
 						"japaneseTL": "C-Commander… the commission is complete. I-is it all right for me to come with you to greet them?",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Co-Commander... the commissions are done. Ca- Can I greet them together with you?",
 						"englishNote": ""
 					},
 					"16": {
-						"event": "Enhancement",
-						"media": "enhancement",
+						"event": "Enhancing complete",
+						"media": "upgrade",
 						"chinese": "变强这种事不适合我的啦……咱、我只要躲在姐妹们背后就好了",
 						"chineseTL": "Becoming stronger doesn't suit me... Cygnet, I prefer to hide behind my sisters",
 						"chineseNote": "",
-						"japanese": "強くなるなんて私には……う、うちは姉妹たちの後ろに隠れてて……",
+						"japanese": "強くなるなんてうちには……う、うちは姉妹たちの後ろに隠れてて……",
 						"japaneseTL": "For me to get stronger… I-I prefer to hide behind my sisters…",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Even though I've become stronger... I-I'm gonna hide behind my sisters...",
 						"englishNote": ""
 					},
 					"17": {
-						"event": "Sortie Start",
-						"media": "sortie_start",
-						"chinese": "呜…好可怕~但是…打赢了就能回家吃炸鱼薯条！我要加油！",
+						"event": "Flagship fight",
+						"media": "warcry",
+						"chinese": "呜…好可怕~但是…打赢了就能回家吃炸鱼薯条！加油！",
 						"chineseTL": "Uweh..this is scary~ but...if I win I can go home and eat fish and chips! I'll do my best!",
 						"chineseNote": "",
-						"japanese": "ううう…怖いよぉ～でも…勝ったらフィッシュアンドチップス食べれるっ！頑張る！",
+						"japanese": "ううう…怖いよぉ~でも…勝ったらフィッシュアンドチップス食べれるっ！頑張る！",
 						"japaneseTL": "Uuu… I'm scared~ But… If I win I'll get to eat fish and chips! I'll do my best!",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Nnnggh... This is so scary~ But... there's fish and chips if we win! I'm gonna do it!",
 						"englishNote": ""
 					},
 					"18": {
-						"event": "MVP",
+						"event": "Victory",
 						"media": "mvp",
 						"chinese": "咱……咱赢了？哎？哎？居然还是第一名？！",
 						"chineseTL": "Cygnet...Cygnet won? Eh? Eh? I am still first place!?",
@@ -1124,118 +1159,106 @@
 						"japanese": "う、うちが勝ったの？え？ええ！？一位！？",
 						"japaneseTL": "I-I won? Huh? What!? I'm first place!?",
 						"japaneseNote": "",
-						"english": "",
+						"english": "D-Did I win? Eh? Eeeh?! I'm first place?!",
 						"englishNote": ""
 					},
 					"19": {
 						"event": "Defeat",
-						"media": "defeat",
+						"media": "lose",
 						"chinese": "呜呜~爸爸…这里好危险啊……咱还是回老家吧……",
 						"chineseTL": "Uweeehh! Papa...it is dangerous here... I'll just go home...",
 						"chineseNote": "",
-						"japanese": "えええ～お父ちゃん…危ないよぉ……はよう…実家帰ろうよ……",
+						"japanese": "うえええ~お父ちゃん…危ないよぉ……はよう…実家帰ろうよ……",
 						"japaneseTL": "Eeeh~ Papa… That was dangerous… I… wanna go back to my hometown early…",
 						"japaneseNote": "",
-						"english": "",
+						"english": "*cries* Daddy... it's dangerous here... I want to go home...",
 						"englishNote": ""
 					},
 					"20": {
-						"event": "Skill Activation",
-						"media": "skill_activation",
-						"chinese": "",
+						"event": "Skills",
+						"media": "skill",
+						"chinese": "咱，咱也是不是好惹的！",
 						"chineseTL": "",
 						"chineseNote": "",
 						"japanese": "う、うちだって弱くないよー！",
 						"japaneseTL": "I-I'm not weak！",
 						"japaneseNote": "",
-						"english": "",
+						"english": "I-I'm not weak too!",
 						"englishNote": ""
 					},
 					"21": {
-						"event": "Low Health",
-						"media": "low_health",
-						"chinese": "",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "",
-						"englishNote": ""
-					},
-					"22": {
-						"event": "Affinity (Disappointed)",
-						"media": "affinity_disappointed",
+						"event": "Upset",
+						"media": "feeling1",
 						"chinese": "指、指挥官好可怕……小天鹅想回家……",
 						"chineseTL": "Com-commander is scary... Cygnet wants to go home...",
 						"chineseNote": "",
 						"japanese": "し、指揮官怖い……シグニット、お家帰りたい……",
 						"japaneseTL": "C-Commander is scary… Cygnet wants to go home…",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Com-commander is scary... I wanna go home...",
 						"englishNote": ""
 					},
-					"23": {
-						"event": "Affinity (Stranger)",
-						"media": "affinity_stranger",
+					"22": {
+						"event": "Stranger",
+						"media": "feeling2",
 						"chinese": "欸……欸欸欸欸~！指挥官……为什么你老在我吃东西的时候盯着看呀？……",
 						"chineseTL": "Eh...Ehhhhh~! Commander... why do you always stare at me when I am eating?...",
 						"chineseNote": "",
 						"japanese": "え…ええええ～！指揮官、なんで私が食べてる時にジロジロ見ているの？……",
 						"japaneseTL": "Hu-… Huuhh~! Commander, why are you looking at me so closely while I'm eating?…",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Huh... Whaaaa~! Commander, why are you staring at me while I'm eating?...",
 						"englishNote": ""
 					},
-					"24": {
-						"event": "Affinity (Friendly)",
-						"media": "affinity_friendly",
+					"23": {
+						"event": "Friendly",
+						"media": "feeling3",
 						"chinese": "小天鹅之前是不是……说了些难为情的话呢……",
 						"chineseTL": "Has Cygnet... said any embarrassing things back then...",
 						"chineseNote": "",
-						"japanese": "シグニットは恥ずかしい話……しちゃったかな……",
+						"japanese": "シグニットは恥ずかしい話……しちゃったのかな……",
 						"japaneseTL": "Has Cygnet… said anything embarrassing, or something…",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Did I... say something embarrassing...?",
 						"englishNote": ""
 					},
-					"25": {
-						"event": "Affinity (Like)",
-						"media": "affinity_like",
+					"24": {
+						"event": "Crush",
+						"media": "feeling4",
 						"chinese": "虽然离开老家有点寂寞，但是有指挥官在，每天过的也很开心，这里就是咱的第二故乡……要是指挥官少点逗小天鹅玩就更好了",
 						"chineseTL": "Even though leaving home was a bit lonely, but with Commander here, everyday has been fun, this is Cygnet's second hometown... it would be a lot more fun if Commander would tease me less",
 						"chineseNote": "",
 						"japanese": "田舎を出て寂しかったけど、指揮官がいるおかげで毎日が楽しいの。だからここはうちの第二の故郷……指揮官ももう少しからかわなければいいのになあ…",
 						"japaneseTL": "While it was lonely leaving the countryside, thanks to you, every day has been fun, Commander.That's why I consider this my second hometown… if only you'd tease me a little less…",
 						"japaneseNote": "",
-						"english": "",
+						"english": "I was lonely when I left the countryside, but with you, Commander, every day has been fun. That's why this is my second home... It would be better if you can hold back on teasing me, though...",
 						"englishNote": ""
 					},
-					"26": {
-						"event": "Affinity (Love)",
-						"media": "affinity_love",
+					"25": {
+						"event": "Love",
+						"media": "feeling5",
 						"chinese": "咱现在每天吃的饱饱的，还能看到指挥官就很开心了呢……更开心的事？咱不会奢望啦……欸，要给咱很重要的东西？",
 						"chineseTL": "Cygnet eats well everyday, and gets to watch Commander happy too... Something even happier than that? Cygnet never thought of it... eh, you want to show Cygnet something important?",
 						"chineseNote": "",
-						"japanese": "うち、毎日お腹いっぱいごはんを食べれてるし、指揮官の事を見てるのも楽しい。……もっと楽しいこと？うちそんな事考えたことも……え？今度大事なものをうちに見せてくれる？",
+						"japanese": "うち、毎日お腹いっぱいご飯を食べれてるし、指揮官の事も見ているの楽しい。……もっと楽しいこと？うちそんな事考えたことも……え？今度大事なものをうちに見せてくれる？",
 						"japaneseTL": "I get to eat my fill every day, and watching you is fun too, Commander.…Something I'll enjoy even more? I've never even thought of that… huh? Next time you'll show me something important?",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Every day I am well-fed, and I enjoy watching you, Commander. ...Something more enjoyable? I've never thought about it... What? You'll show me something important next time?",
 						"englishNote": ""
 					},
-					"27": {
-						"event": "Pledge",
-						"media": "pledge",
+					"26": {
+						"event": "Promise",
+						"media": "propose",
 						"chinese": "……欸！！！！！！！（炸鱼薯条洒了一地）……呜……指挥官欺负人，才、才不是更开心的事呢，咱，咱都要哭出来啦……",
 						"chineseTL": "...Ehhhhh!!!!!!!!! .... Uuu... Commander is teasing me, th-this isn't something happier, Cygnet, Cygnet is about to cry...",
 						"chineseNote": "",
 						"japanese": "……え、えええ！！！！……うぅ…指揮官意地悪……べ、別にもっと楽しいことじゃない！う、うちもう泣きそう……",
 						"japaneseTL": "…Hu-huuhhh!? …Uu… Commander, you bully… this isn't anything enjoyable at all! I-I feel like I'm going to cry…",
 						"japaneseNote": "",
-						"english": "",
+						"english": "... Eh, eeeeeeeh!!!! ...Ugh ...You're mean, Commander... N-no, it's not like there's anything worth getting happier than this! I-I'm about to cry",
 						"englishNote": ""
 					},
-					"29": {
+					"27": {
 						"event": "Valentines 2018",
 						"media": "",
 						"chinese": "",
@@ -1247,7 +1270,7 @@
 						"english": "",
 						"englishNote": ""
 					},
-					"30": {
+					"28": {
 						"event": "Valentines 2019",
 						"media": "",
 						"chinese": "指、指挥官，给你咱们C级的情人节手作巧克力……不是不是不是！咱只试吃了一下，什么忙也没帮上啦！这，这也能算是咱跟大家一起做的吗……？",
@@ -1262,290 +1285,336 @@
 				}
 			},
 			"2": {
-				"label": "Retrofit",
-				"dialogue": {
-					"1": {
-						"event": "Acquisition",
-						"media": "acquisition",
-						"chinese": "这身衣服还是有些紧……是、是这样吗？我明白了，为了皇家料理，小天鹅我会加倍努力的！",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "この服、やっぱりちょっとキツイよぉ……そ、そう？うん！王家グルメのために、うち、もっと頑張るよ！",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "",
-						"englishNote": ""
-					},
-					"2": {
-						"event": "Idle 1",
-						"media": "idle_1",
-						"chinese": "指挥官的身边好安心……欸，咱什、什么都没说哦，是指挥官你听错了！",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "指揮官のそばは安心する…え？う、うち何も言ってないよ！指揮官の聞き間違えだよぉ！",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "",
-						"englishNote": ""
-					},
-					"3": {
-						"event": "Idle 2",
-						"media": "idle_2",
-						"chinese": "指挥官，那个……就是……炸鱼薯条吃完了，咱能去买一点吗？",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "指揮官、あの……えっと……フィッシュアンドチップスがなくなってるけどぉ…買いに行っても…いい？",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "",
-						"englishNote": ""
-					},
-					"4": {
-						"event": "Idle 3",
-						"media": "idle_3",
-						"chinese": "可爱？咱咱咱咱才不可爱啦，呜呜，指挥官又逗咱……",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "かわいい？そそそそんなうち全然かわいくないよ！うぅ…指揮官またうちのことをバカにして！",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "",
-						"englishNote": ""
-					},
-					"5": {
-						"event": "Special Touch",
-						"media": "special_touch",
-						"chinese": "咱也是不是什么都不懂的啦！但、但是，指挥官的话……",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "うちだって、何も分かってないわけじゃないよ！……で、でも指揮官なら…",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "",
-						"englishNote": ""
-					}
-				}
-			},
-			"3": {
+				"skin_id": "xiaotiane_2",
+				"id": "1",
 				"label": "Sea Star on Shore",
 				"dialogue": {
 					"1": {
-						"event": "Acquisition",
-						"media": "acquisition",
+						"event": "Ship Description",
+						"media": "",
+						"chinese": "唔哇，胡德姐姐送的泳装有点紧啊。诶，要和萨拉亲打沙滩排球吗……咱……能赢吗？",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "うぅ、フッド姉さまが送ってくれた水着、ちょっとキツイ…え？サラっちとビーチバレーボール？……うち……勝てるの…？",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Well, the swimsuit that Hood gave to me is a little tight, don't you think? Want to play beach volleyball? Do you think... can we win?",
+						"englishNote": ""
+					},
+					"2": {
+						"event": "Receive",
+						"media": "get_1",
 						"chinese": "唔哇，胡德姐姐送的泳装有点紧啊。诶，要和萨拉亲打沙滩排球吗……咱……能赢吗？",
 						"chineseTL": "",
 						"chineseNote": "",
 						"japanese": "うぅ…フッド姉さんがくれた水着ちょっとキツイよぉ…え？サラっちとビーチバレー…？うち……勝てるかな……",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Ooh... the swimwear that Hood gave me is a little tight... Huh? Play beace volleyball with Sara...? Am I... gonna win...?",
 						"englishNote": ""
 					},
-					"2": {
-						"event": "Login",
-						"media": "login",
+					"3": {
+						"event": "Log in",
+						"media": "login_1",
 						"chinese": "指、指挥官，欢迎回来。空调真是个伟大的发明，呼呼，好舒服~",
 						"chineseTL": "",
 						"chineseNote": "",
 						"japanese": "し、指揮官、おかえり~はぁ…エアコンって素晴らしい発明だよぉ…ふぅ……いい気持ち……",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "C-Commander, welcome back~ Haa... Air conditioners are such wonderful inventions... Phew... This feels nice...",
 						"englishNote": ""
 					},
-					"3": {
-						"event": "Details",
-						"media": "details",
+					"4": {
+						"event": "View details",
+						"media": "detail_1",
 						"chinese": "这是胡德姐姐送给咱的泳装~好看吗？会不会有点不适合咱啊……",
 						"chineseTL": "",
 						"chineseNote": "",
 						"japanese": "フッド姉さんからプレゼントされた水着だけど、どぉ…？うちに合わないとか…ないよね…",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Hood gave this swimwear to me as a present but, how is it?... It's not inappropriate for me, right?",
 						"englishNote": ""
 					},
-					"4": {
-						"event": "Idle 1",
-						"media": "idle_1",
+					"5": {
+						"event": "Main screen 1",
+						"media": "main_1_1",
 						"chinese": "“胡德姐姐、你最美丽、天上所无，地上仅有……”呜，这个惩罚游戏好羞耻……",
 						"chineseTL": "",
 						"chineseNote": "",
 						"japanese": "「ああフッド姉様、あなたはなんと美しい！このか弱いわたくしを、どうか…」ほぇ…この罰ゲーム恥ずかしいよぉ…",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Ah Hood, you are the most beautiful thing in the world! I feel a bit ashamed.... Hwe... This punishment is so embarrassing...",
 						"englishNote": ""
 					},
-					"5": {
-						"event": "Idle 2",
-						"media": "idle_2",
+					"6": {
+						"event": "Main screen 2",
+						"media": "main_2_1",
 						"chinese": "太阳落山之后~海滩烧烤大会~呼呼，咱都有点等不及了",
 						"chineseTL": "",
 						"chineseNote": "",
 						"japanese": "お日様が沈んだら海辺でバーベキュー大会…えへへ、うちもう待ちきれないよ〜",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "The barbecue party happens after sunset... Ehehe, I'm looking forward to that as well~",
 						"englishNote": ""
 					},
-					"6": {
-						"event": "Idle 3",
-						"media": "idle_3",
+					"7": {
+						"event": "Main screen 3",
+						"media": "main_3_1",
 						"chinese": "萨拉亲一见到咱就耷拉着脸……难道咱被讨厌了？",
 						"chineseTL": "",
 						"chineseNote": "",
 						"japanese": "サラっち、うちを見るなり顔を暗くして…もしかしてうち、嫌われたのかな…",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Sara's face darkened when she saw me... Do you think she dislikes me?...",
 						"englishNote": ""
 					},
-					"7": {
-						"event": "Touch",
-						"media": "touch",
+					"8": {
+						"event": "Normal touch",
+						"media": "touch_1_1",
 						"chinese": "指挥官是要给咱照相吗？",
 						"chineseTL": "",
 						"chineseNote": "",
 						"japanese": "指揮官、うちの写真を撮ろうとしているの？",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Commander, are you going to take a picture of me?",
 						"englishNote": ""
 					},
-					"8": {
-						"event": "Special Touch",
-						"media": "special_touch",
+					"9": {
+						"event": "Special touch",
+						"media": "touch_2_1",
 						"chinese": "呀！指挥官，那个……泳装有点紧，所以可以不要碰吗？",
 						"chineseTL": "",
 						"chineseNote": "",
 						"japanese": "きゃっ！指揮官、あのぉ……水着、キツイから…あまり触らないでね…？",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Wah! Commander, my... my swimwear is tight, so... please don't touch it, ok?",
 						"englishNote": ""
 					},
-					"9": {
-						"event": "Commission Complete",
-						"media": "commission_complete",
+					"10": {
+						"event": "Commission complete",
+						"media": "expedition_1",
 						"chinese": "军事委托完成了，咱的烤鱼也烤好了~指挥官，要尝尝吗？",
 						"chineseTL": "",
 						"chineseNote": "",
 						"japanese": "委託も完了して、焼き魚も出来上がって～指揮官、これ、どう？",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Commissions are done, and so is the grilled fish~ Here you go, Commander. How about it?",
 						"englishNote": ""
 					}
 				}
 			},
-			"4": {
+			"3": {
+				"skin_id": "xiaotiane_3",
+				"id": "2",
 				"label": "Holy Night's Hymn",
 				"dialogue": {
 					"1": {
-						"event": "Acquisition",
-						"media": "acquisition",
+						"event": "Ship Description",
+						"media": "",
 						"chinese": "圣、圣诞快乐！然、然后……那个，咱有一个礼物想送给指挥官……",
 						"chineseTL": "",
 						"chineseNote": "",
 						"japanese": "め、メリークリスマス！え、えっと……あのぉ！うち、指揮官に渡したいプレゼントが……",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "H-happy Christmas! A-after that... umm... I have this present for ya, Commander...",
 						"englishNote": ""
 					},
-					"4": {
-						"event": "Idle 1",
-						"media": "idle_1",
+					"2": {
+						"event": "Receive",
+						"media": "get_2",
+						"chinese": "圣、圣诞快乐！然、然后……那个，咱有一个礼物想送给指挥官……",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "め、メリークリスマス！え、えっと……あのぉ！うち、指揮官に渡したいプレゼントが……",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "H-happy Christmas! A-after that... umm... I have this present for ya, Commander...",
+						"englishNote": ""
+					},
+					"3": {
+						"event": "Main screen 1",
+						"media": "main_1_2",
 						"chinese": "圣诞大餐！真的是圣诞大餐耶！呼哇哇，咱要放开胃口了！",
 						"chineseTL": "",
 						"chineseNote": "",
 						"japanese": "クリスマスディナー！ほ、本当にクリスマスディナーだ！はぁはぁ…うち、お腹いっぱい食べたい♪",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Christmas feast! I-it's a real Christmas feast! Haah... I wanna stuff mahself silly♪ ",
 						"englishNote": ""
 					},
-					"5": {
-						"event": "Idle 2",
-						"media": "idle_2",
+					"4": {
+						"event": "Main screen 2",
+						"media": "main_2_2",
 						"chinese": "呼哇哇～今天的咱好像怎么吃都吃不饱哎！",
 						"chineseTL": "",
 						"chineseNote": "",
 						"japanese": "あむあむ…今日のうち、いくらでも食べられそう！",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Hawawa... for some reason, I'm not gettin' full no matter how much I eat today... ",
 						"englishNote": ""
 					},
-					"6": {
-						"event": "Idle 3",
-						"media": "idle_3",
+					"5": {
+						"event": "Main screen 3",
+						"media": "main_3_2",
 						"chinese": "呜，胡德姐姐，咱又不是真的天鹅，不吃这么多也飞不起来啦……",
 						"chineseTL": "",
 						"chineseNote": "",
 						"japanese": "うぅ、フッド姉さん、うちは白鳥じゃないから、飛べないよぉ……",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Uuu... Hood? I'm not a real cygnet... even if I don't eat this much, I'm still not flyin'...",
 						"englishNote": ""
 					},
-					"7": {
-						"event": "Touch",
-						"media": "touch",
+					"6": {
+						"event": "Normal touch",
+						"media": "touch_1_2",
 						"chinese": "肚子圆鼓鼓的？才、才没有……呜，咱明天就开始减肥，明天！",
 						"chineseTL": "",
 						"chineseNote": "",
 						"japanese": "お腹が出てる？そ、そんなことないよ！……うぅ、うち、明日からダイエットする！あ、明日から！",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "My tummy is sticking out? N-no way that's true... Ugh... startin' tomorrow, I'm gonna go on a diet... Startin' tomorrow...",
 						"englishNote": ""
 					},
-					"8": {
-						"event": "Special Touch",
-						"media": "special_touch",
+					"7": {
+						"event": "Special touch",
+						"media": "touch_2_2",
 						"chinese": "那、那个……请不要这样……呜",
 						"chineseTL": "",
 						"chineseNote": "",
 						"japanese": "あ、あのぉ……やめてください……ううぅ……",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Ah, um... Please... don't do that... Uuuu...",
+						"englishNote": ""
+					}
+				}
+			},
+			"4": {
+				"skin_id": "xiaotiane_5",
+				"id": "3",
+				"label": "Winter Date",
+				"dialogue": {
+					"1": {
+						"event": "Ship Description",
+						"media": "",
+						"chinese": "啊呜…换衣服稍微花了些时间…指挥官，没有让你久等吧？……嘻嘻，那、那就让我们出发吧",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "あぅ…着付け難しかったよぉ……指揮官ごめんなさい、うち、結構待たせちゃった……？……えへへ～じゃ、じゃあ…出発しちゃお？",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Aww... it took me a while to get changed... Commander, did I keep you waiting long? Hehe... th-that's good. Let's get going, then~",
 						"englishNote": ""
 					}
 				}
 			},
 			"5": {
-				"label": "Winter Date",
+				"skin_id": "xiaotiane_4",
+				"id": "4",
+				"label": "An Offer To Be Maid ",
 				"dialogue": {
 					"1": {
-						"event": "Acquisition",
-						"media": "acquisition",
-						"chinese": "",
+						"event": "Ship Description",
+						"media": "",
+						"chinese": "主、主人，贵安……指、指挥官，不要这么看咱、我，这是女仆体验的内容哦……萨拉前辈说，这也是偶像宣传的一环…",
 						"chineseTL": "",
 						"chineseNote": "",
-						"japanese": "",
+						"japanese": "ご、ご主人様、ごきげんよう……し、指揮官、うちをそんなにじっと見ないでぇ…うぅ、これもアイドルの宣伝のお仕事ってサラトガさんが……",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "M-Master... good evening... C-Commander, don't stare at me so intently... *Whimper*... Saratoga told me that this is part of marketing yourself as an idol...",
 						"englishNote": ""
 					}
 				}
 			},
 			"6": {
-				"label": "Offer Has Been Maid",
+				"skin_id": "xiaotiane_g",
+				"id": "9",
+				"label": "Cygnet (Retrofit)",
 				"dialogue": {
 					"1": {
-						"event": "Acquisition",
-						"media": "acquisition",
-						"chinese": "",
+						"event": "Ship Description",
+						"media": "",
+						"chinese": "这身衣服还是有些紧……是、是这样吗？我明白了，为了皇家料理，小天鹅我会加倍努力的！",
 						"chineseTL": "",
 						"chineseNote": "",
-						"japanese": "",
+						"japanese": "この服、やっぱりちょっとキツイよぉ……そ、そう？うん！王家グルメのために、うち、もっと頑張るよ！",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "This outfit is a little tight... Yes, really? I understand. I've got to work harder for the Royal Navy!",
+						"englishNote": ""
+					},
+					"2": {
+						"event": "Receive",
+						"media": "get_9",
+						"chinese": "这身衣服还是有些紧……是、是这样吗？我明白了，为了皇家料理，小天鹅我会加倍努力的！",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "この服、やっぱりちょっとキツイよぉ……そ、そう？うん！王家グルメのために、うち、もっと頑張るよ！",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "These clothes are tight after all... I-Is that so? I see! For the sake of having the royal cuisine, I will work harder!",
+						"englishNote": ""
+					},
+					"3": {
+						"event": "Main screen 1",
+						"media": "main_1_9",
+						"chinese": "指挥官的身边好安心……欸，咱什、什么都没说哦，是指挥官你听错了！",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "指揮官のそばは安心する…え？う、うち何も言ってないよ！指揮官の聞き間違えだよぉ！",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "I'm relaxed when I'm next to you, Commander... Eh? I-I haven't said anything! You must've heard something!",
+						"englishNote": ""
+					},
+					"4": {
+						"event": "Main screen 2",
+						"media": "main_2_9",
+						"chinese": "指挥官，那个……就是……炸鱼薯条吃完了，咱能去买一点吗？",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "指揮官、あの……えっと……フィッシュアンドチップスがなくなってるけどぉ…買いに行っても…いい？",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Commander... umm... that... we've run out of fish and chips... Can we... go buy them?",
+						"englishNote": ""
+					},
+					"5": {
+						"event": "Main screen 3",
+						"media": "main_3_9",
+						"chinese": "可爱？咱咱咱咱才不可爱啦，呜呜，指挥官又逗咱……",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "かわいい？そそそそんなうち全然かわいくないよ！うぅ…指揮官またうちのことをバカにして！",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "I'm cute? I-I-I-I'm totally not cute! Ugh... You're making fun of me, Commander!",
+						"englishNote": ""
+					},
+					"6": {
+						"event": "Special touch",
+						"media": "touch_2_9",
+						"chinese": "咱也是不是什么都不懂的啦！但、但是，指挥官的话……",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "うちだって、何も分かってないわけじゃないよ！……で、でも指揮官なら…",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "E-even I... am not oblivious to all things! ...B-but if it's you, Commander...",
 						"englishNote": ""
 					}
 				}

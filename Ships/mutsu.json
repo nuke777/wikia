@@ -1,59 +1,31 @@
 {
-	"name": "Mutsu",
-	"nameJP": "陸奥",
-	"nameCN": "鲛",
-	"class": "Nagato",
-	"hull": "Battleship",
-	"prefix": "IJN",
+	"name_reference": "mutsu",
+	"cn_reference": "luao",
+	"nameJP": "陸奧",
+	"nameCN": "陆奥",
 	"ID": "213",
-	"file_id": "213_Mutsu",
-	"navy": "Sakura Empire",
-	"initialStar": "★★☆☆☆",
+	"name": "Mutsu",
+	"internal_id": "305061",
 	"rarity": "Elite",
+	"initialStar": "★★☆☆☆",
+	"hull": "Battleship",
+	"navy": "Sakura Empire",
+	"prefix": "IJN",
 	"buildTime": "-",
-	"acquisitionMethod": "Event Reward (Ink-stained Steel Sakura)",
-	"enhance": {
-		"firepower": "64",
-		"torpedo": "0",
-		"aviation": "0",
-		"reload": "10"
+	"class": "Nagato",
+	"voiceActress": "Tomoyo Kurosawa",
+	"parameters": {
+		"firepower": "A",
+		"torpedo": "E",
+		"aviation": "E",
+		"evasion": "D",
+		"antiAir": "D",
+		"hp": "B"
 	},
 	"scrap": {
 		"gold": "11",
 		"oil": "4",
 		"medal": "4"
-	},
-	"skin": {
-		"1": {
-			"name": "Default",
-			"description": "Nagato-class Battleship - Mutsu",
-			"expression": {
-				"1": {
-					"label": "Default"
-				}
-			}
-		},
-		"2": {
-			"name": "Sengoku☆Battleship",
-			"description": "Commander, look look. Fū. Rin. Ka. Zan! Urakaze designed it for me, I can now play Sengoku games with Isokaze! Hehe, General Mutsu is impressive! Commander, you don't want to play? Why?",
-			"expression": {
-				"1": {
-					"label": "mutsu_2_expr0"
-				},
-				"2": {
-					"label": "mutsu_2_expr1"
-				},
-				"3": {
-					"label": "mutsu_2_expr2"
-				},
-				"4": {
-					"label": "mutsu_2_expr3"
-				},
-				"5": {
-					"label": "mutsu_2_expr4"
-				}
-			}
-		}
 	},
 	"releaseDate": {
 		"JP": "May 31, 2018",
@@ -61,7 +33,6 @@
 		"KR": "-",
 		"EN": "-"
 	},
-	"voiceActress": "Kurosawa Tomoyo",
 	"artist": {
 		"name": "Alisa",
 		"weibo": "https://weibo.com/u/6056658230",
@@ -69,84 +40,148 @@
 		"pixiv": "https://www.pixiv.net/member.php?id=1966676",
 		"other": ""
 	},
-	"parameters": {
-		"hp": "B",
-		"antiAir": "D",
-		"evasion": "D",
-		"aviation": "E",
-		"torpedo": "E",
-		"firepower": "A"
+	"enhance": {
+		"firepower": "64",
+		"torpedo": "0",
+		"aviation": "0",
+		"reload": "10"
+	},
+	"acquisitionMethod": "Event Reward (Ink-stained Steel Sakura)",
+	"skill": {
+		"1": {
+			"icon": "11430",
+			"requirement": "Default Unlocked",
+			"name": "BIG SEVEN - Sakura",
+			"type": "Offensive",
+			"description": "When firing main gun, 20.0% (40.0%) chance of unleashing a frontal barrage (damage based on skill level)."
+		}
+	},
+	"skin": {
+		"1": {
+			"id": "luao",
+			"name": "Mutsu ",
+			"description": "Nagato-class battleship number two – Mutsu. ",
+			"expression": {
+				"0": {
+					"id": "0"
+				}
+			}
+		},
+		"2": {
+			"id": "luao_2",
+			"name": "Warring States Warship ",
+			"description": "Commander, check it out! \"Nothing can stop me!\" Urakaze made it for me! Now I can play warring states with her! Heheh, you should know I'm a force to be reckoned with! Can't you come play with us? Why? ",
+			"expression": {
+				"0": {
+					"id": "0"
+				},
+				"1": {
+					"id": "1"
+				},
+				"2": {
+					"id": "2"
+				},
+				"3": {
+					"id": "3"
+				},
+				"4": {
+					"id": "4"
+				}
+			}
+		}
+	},
+	"defaultEquipment": {
+		"1": {
+			"icon": "36200",
+			"rarity": "Common",
+			"name": "25mm Mounted AA Gun"
+		}
 	},
 	"stats": {
 		"100": {
 			"hp": "6766",
-			"armor": "Heavy",
-			"reload": "126",
 			"firepower": "368",
 			"torpedo": "0",
-			"evasion": "16",
 			"antiAir": "161",
 			"aviation": "0",
-			"cost": "14",
-			"asw": "0",
+			"reload": "126",
+			"hit": "57",
+			"evasion": "16",
 			"speed": "25",
-			"luck": "34"
+			"luck": "34",
+			"asw": "0",
+			"oxygen": "0",
+			"ammo": "0",
+			"cost": "14",
+			"armor": "Heavy"
 		},
 		"120": {
 			"hp": "7896",
-			"armor": "Heavy",
-			"reload": "145",
 			"firepower": "409",
 			"torpedo": "0",
-			"evasion": "34",
 			"antiAir": "185",
 			"aviation": "0",
-			"cost": "14",
-			"asw": "0",
+			"reload": "145",
+			"hit": "71",
+			"evasion": "34",
 			"speed": "25",
-			"luck": "34"
+			"luck": "34",
+			"asw": "0",
+			"oxygen": "0",
+			"ammo": "0",
+			"cost": "14",
+			"armor": "Heavy"
 		},
 		"base": {
 			"hp": "1309",
-			"armor": "Heavy",
-			"reload": "53",
 			"firepower": "78",
 			"torpedo": "0",
-			"evasion": "6",
 			"antiAir": "34",
 			"aviation": "0",
-			"cost": "5",
-			"asw": "0",
+			"reload": "53",
+			"hit": "22",
+			"evasion": "6",
 			"speed": "25",
-			"luck": "34"
+			"luck": "34",
+			"asw": "0",
+			"oxygen": "0",
+			"ammo": "0",
+			"cost": "5",
+			"armor": "Heavy"
 		},
 		"100retrofit": {
 			"hp": "",
-			"armor": "",
-			"reload": "",
 			"firepower": "",
 			"torpedo": "",
-			"evasion": "",
 			"antiAir": "",
 			"aviation": "",
-			"cost": "",
+			"reload": "",
+			"hit": "",
+			"evasion": "",
+			"speed": "25",
+			"luck": "34",
 			"asw": "",
-			"speed": "",
-			"luck": ""
+			"oxygen": "0",
+			"ammo": "0",
+			"cost": "14",
+			"armor": "Heavy"
 		},
 		"120retrofit": {
 			"hp": "",
-			"armor": "",
-			"reload": "",
 			"firepower": "",
 			"torpedo": "",
-			"evasion": "",
 			"antiAir": "",
 			"aviation": "",
-			"cost": "",
+			"reload": "",
+			"hit": "",
+			"evasion": "",
+			"speed": "25",
+			"luck": "34",
 			"asw": "",
-			"speed": "",
-			"luck": ""
+			"oxygen": "0",
+			"ammo": "0",
+			"cost": "14",
+			"armor": "Heavy"
 		}
 	},
 	"limitBreak": {
@@ -156,47 +191,34 @@
 	},
 	"equipmentLoadout": {
 		"1": {
-			"type": "BB Gun",
-			"efficiency": "100% / 130%",
-			"amount": "1/3",
-			"preload": "0/0"
+			"type": "Battleship",
+			"efficiency": "100%/105%/115%/130%",
+			"amount": "1/1/1/1",
+			"preload": "0/0/0/0"
 		},
 		"2": {
-			"type": "DD / CL Gun",
-			"efficiency": "210% / 210%",
-			"amount": "1/3",
-			"preload": "3/3"
+			"type": "Light Cruiser",
+			"efficiency": "210%/210%/210%/210%",
+			"amount": "1/1/3/3",
+			"preload": "0/0/0/0"
 		},
 		"3": {
 			"type": "Anti-Air Gun",
-			"efficiency": "100% / 100%",
-			"amount": "1/1",
-			"preload": "0/0"
+			"efficiency": "100%/100%/100%/100%",
+			"amount": "1/1/1/1",
+			"preload": "0/0/0/0"
 		},
 		"4": {
-			"type": "Auxilliary",
+			"type": "Auxilary",
 			"efficiency": "-",
 			"amount": "-",
 			"preload": "-"
 		},
 		"5": {
-			"type": "Auxilliary",
+			"type": "Auxilary",
 			"efficiency": "-",
 			"amount": "-",
 			"preload": "-"
-		}
-	},
-	"defaultEquipment": {
-		"1": "Twin 410mm Mounted Gun T1",
-		"2": "Single 140mm Main Gun T1",
-		"3": "Twin 25mm AA Type 96 T1"
-	},
-	"skill": {
-		"1": {
-			"name": "BIG SEVEN - Sakura",
-			"type": "Offensive",
-			"requirement": "Default Unlocked",
-			"description": "When firing main gun, 20.0% (40.0%) chance of unleashing a frontal barrage (damage based on skill level)."
 		}
 	},
 	"build": {
@@ -225,26 +247,14 @@
 		"droppable": "false",
 		"list": {
 			"1": {
-				"event": "World",
+				"event": "",
 				"chapter": {
 					"1": {
-						"label": "Ch. 1",
+						"label": "Ch .1",
 						"node": {
 							"1": {
-								"drop": "",
-								"note": ""
-							},
-							"2": {
-								"drop": "",
-								"note": ""
-							},
-							"3": {
-								"drop": "",
-								"note": ""
-							},
-							"4": {
-								"drop": "",
-								"note": ""
+								"drop": "✓",
+								"note": "-"
 							}
 						}
 					}
@@ -255,515 +265,363 @@
 	"lines": {
 		"skin": {
 			"1": {
-				"label": "mutsu_skin1",
+				"skin_id": "luao",
+				"id": "0",
+				"label": "Mutsu ",
 				"dialogue": {
 					"1": {
 						"event": "Ship Description",
 						"media": "",
 						"chinese": "长门级战列舰二番舰—陆奥",
-						"chineseTL": "Nagato-class Battleship No. 2 - Mutsu",
+						"chineseTL": "",
 						"chineseNote": "",
-						"japanese": "長門型戦艦二番艦・陸奥",
-						"japaneseTL": "Nagato-class Battleship No. 2 - Mutsu",
+						"japanese": "長門型戰艦二番艦·陸奥",
+						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Nagato-class battleship number two – Mutsu.",
 						"englishNote": ""
 					},
 					"2": {
-						"event": "Self Introduction",
-						"media": "self_introduction",
-						"chinese": "我是长门型二号舰陆奥！战前可是和长门姐姐轮流当联合舰队的旗舰哦 ~ 不过之后就交给大和小姐啦！外面的世界有好多新奇的东西呀 ~ 欸，三号炮塔？唔…这回应该没问题吧？",
-						"chineseTL": "I am Nagato-class No. 2 Mutsu! Before the war I took turns with Big Sister Nagato for the flagship of the Combined Fleet~ But that role was handed over to Miss Yamato later! The outside world has so many new interesting things~ Eh, third gun turret? Ugh... it won't be an issue this time, right?",
+						"event": "Biography",
+						"media": "profile",
+						"chinese": "我是长门型二号舰陆奥！战前可是和长门姐姐轮流当联合舰队的旗舰哦～不过之后就交给大和小姐啦！外面的世界有好多新奇的东西呀～欸，三号炮塔？唔…这回应该没问题吧？",
+						"chineseTL": "",
 						"chineseNote": "",
 						"japanese": "わたしは長門型二番艦の陸奥！あの大戦までは長門姉とぐるぐる交代で連合艦隊の旗艦をやったの！その後は大和さんに任せたけど！外の世界ってやっぱり色々新しいものがあるのね～三番砲塔？うん…今回は大丈夫よね？",
-						"japaneseTL": "I am Nagato-class No. 2 Mutsu! Before the war I took turns with Big Sister Nagato for the flagship of the Combined Fleet~ But that role was entrusted to Miss Yamato later! The outside world has so many new interesting things~ Eh, third gun turret? Ugh... it won't be an issue this time, right?",
+						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "I'm Mutsu, second ship of the Nagato class! Nagato and I used to swap back and forth between being the Combined Fleet's flagship! Later on, Yamato took on the role, though! Isn't it amazing how much there is to see in the world~? My third turret? Uh... I think it'll be okay this time.",
 						"englishNote": ""
 					},
 					"3": {
-						"event": "Acquisition",
-						"media": "acquisition",
+						"event": "Receive",
+						"media": "get",
 						"chinese": "你好~我叫陆奥，是长门姐姐的妹妹！那个那个，你就是指挥官吗？为什么你是指挥官呀？怎么样才能成为指挥官呀？指挥官是不是很厉害呀？告诉我告诉我~",
-						"chineseTL": "Hello~ I am Mutsu, Big Sis Nagato's little sister! Hey hey, you're the Commander? Why are you a Commander? How do you become the Commander? Is Commander really impressive? Tell me tell me tell me~",
+						"chineseTL": "",
 						"chineseNote": "",
 						"japanese": "こんにちは。わたしは陸奥！長門姉の妹！あの、貴方は指揮官？なんで？どうやって指揮官になるの？指揮官ってスゴイの？教えて教えて！",
-						"japaneseTL": "Good day. I am Mutsu! Big Sis Nagato's little sister! Uhm, are you the Commander? Why? How do you become the Commander? Are Commanders impressive? Tell me tell me!",
+						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Hello, I'm Mutsu! Nagato's little sister! Um, are you a commander? Why? How do you become a commander? Is it cool to be one? Tell me, I wanna know!",
 						"englishNote": ""
 					},
 					"4": {
-						"event": "Login",
+						"event": "Log in",
 						"media": "login",
 						"chinese": "啊，指挥官！跟你讲哦，你不在的时候我又发现了不知道的事情，所以所以，为什么——",
-						"chineseTL": "Ah, Commander! You see, when you weren't here I found out something new I didn't know about, so so, why--",
+						"chineseTL": "",
 						"chineseNote": "",
 						"japanese": "あ、指揮官！えっと、いない間に分からないことがあったの！なんで……（陸奥が質問攻めしてきた）",
-						"japaneseTL": "Ah, Commander! Uhh, when you weren't here something I didn't understand happened! Why... (Mutsu starts barraging with questions)",
+						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Oh, hi, Commander! Something I don't understand happened while you were away! Why do... (Mutsu began asking a series of questions.)",
 						"englishNote": ""
 					},
 					"5": {
-						"event": "Details",
-						"media": "details",
+						"event": "View details",
+						"media": "detail",
 						"chinese": "指挥官，来帮我检查一下三号炮塔~",
-						"chineseTL": "Commander, help me inspect the third gun turret~",
+						"chineseTL": "",
 						"chineseNote": "",
 						"japanese": "指揮官、三番砲塔の検査、手伝って！",
-						"japaneseTL": "Commander, inspection of the third gun turret, give me a hand!",
+						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Commander, help me inspect my third turret!",
 						"englishNote": ""
 					},
 					"6": {
-						"event": "Idle 1",
-						"media": "idle_1",
+						"event": "Main screen 1",
+						"media": "main_1",
 						"chinese": "指挥官，为什么这里要这样呀，这样不行吗？为什么呀？",
-						"chineseTL": "Commander, why is it this way, can't it be like this? Why?",
+						"chineseTL": "",
 						"chineseNote": "",
 						"japanese": "指揮官、ここはなんでこうなるの？こうじゃダメなの？なんで？",
-						"japaneseTL": "Commander, why is it this way, can't it be like this? Why?",
+						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Why do we need to write like this? Is it wrong to do it this way? Why?",
 						"englishNote": ""
 					},
 					"7": {
-						"event": "Idle 2",
-						"media": "idle_2",
+						"event": "Main screen 2",
+						"media": "main_2",
 						"chinese": "指挥官指挥官，外面好像有好玩的事情，我能去看看嘛？",
-						"chineseTL": "Commander Commander, it seems like there is something fun outside, can I go check?",
+						"chineseTL": "",
 						"chineseNote": "",
 						"japanese": "指揮官、外はなんか面白そう！見に行っていいの？",
-						"japaneseTL": "Commander, there's something interesting outside! Can I go check?",
+						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "I saw something interesting outside! Can I go check it out?",
 						"englishNote": ""
 					},
 					"8": {
-						"event": "Idle 3",
-						"media": "idle_3",
+						"event": "Main screen 3",
+						"media": "main_3",
 						"chinese": "蚂蚁们究竟会爬到哪里去呢，好好奇哦！",
-						"chineseTL": "Where are the ants climbing to, I'm curious!",
+						"chineseTL": "",
 						"chineseNote": "",
 						"japanese": "アリさんたちどこに行くんだろう…知りたい！",
-						"japaneseTL": "Where are the ants going... I want to know!",
+						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "I wonder where those ants are heading... I wanna find out!",
 						"englishNote": ""
 					},
 					"9": {
-						"event": "Touch",
-						"media": "touch",
-						"chinese": "啊哈哈，指挥官，好痒啦~",
-						"chineseTL": "Ahaha, Commander, that tickles~",
+						"event": "Normal touch",
+						"media": "touch_1",
+						"chinese": "呀哈哈，指挥官，好痒啦~",
+						"chineseTL": "",
 						"chineseNote": "",
 						"japanese": "あははは～指揮官くすぐったいよ～あははは～",
-						"japaneseTL": "Ahahaha~Commander that tickles~Ahahaha~",
+						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Ahahaha~! That tickles, Commander~! Ahahaha~",
 						"englishNote": ""
 					},
 					"10": {
-						"event": "Special Touch",
-						"media": "special_touch",
+						"event": "Special touch",
+						"media": "touch_2",
 						"chinese": "指挥官，为什么要这么做呀？这么做是什么意思呀？",
-						"chineseTL": "Commander, why did you do that? What is the meaning of that?",
+						"chineseTL": "",
 						"chineseNote": "",
 						"japanese": "指揮官、なんで触るの？どういうことなの？",
-						"japaneseTL": "Commander, why did you touch me? What is the meaning of that?",
+						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Commander, why are you touching me? What's the meaning behind it?",
 						"englishNote": ""
 					},
 					"11": {
-						"event": "Mission",
-						"media": "mission",
+						"event": "Mission reminder",
+						"media": "task",
 						"chinese": "指挥官，这个任务是要去干什么呀？还有这个呢？",
-						"chineseTL": "Commander, what do we do in this mission? How about that one?",
+						"chineseTL": "",
 						"chineseNote": "",
 						"japanese": "指揮官、この任務は何するの？…これは？",
-						"japaneseTL": "Commander, what do we do in this mission?... How about that one?",
+						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Commander, what's this mission about? ... What about this one?",
 						"englishNote": ""
 					},
 					"12": {
-						"event": "Mission Complete",
+						"event": "Mission complete",
 						"media": "mission_complete",
 						"chinese": "指挥官，任务奖励我放在炮塔上运过来啦，小心点不要吓着喵喵了~",
-						"chineseTL": "Commander, I'm having the mission rewards carried back on the gun turret, be careful not to scare the kitten~",
+						"chineseTL": "",
 						"chineseNote": "",
 						"japanese": "指揮官？ボーナスは砲塔に乗せて運んできたの！あ！ネコさんを起こさないでね！",
-						"japaneseTL": "Commander? I'm having the mission rewards carried back on the gun turret! Ah! Don't wake up Mr. Cat!",
+						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Commander? I put the mission rewards on my turret and brought them here! But don't wake up Mr. Kitty!",
 						"englishNote": ""
 					},
 					"13": {
-						"event": "Mail",
+						"event": "Mail reminder",
 						"media": "mail",
 						"chinese": "这就是信呀…指挥官，我也给你写信然后你给我回信吧~",
-						"chineseTL": "Is this mail?... Commander, I'll also write you a letter, so then you can reply back~",
+						"chineseTL": "",
 						"chineseNote": "",
 						"japanese": "これが「めーる」ね…指揮官に「めーる」を書くから、「へんしん」してね！",
-						"japaneseTL": "So this is \"Meeru\"... I'm writing \"Meeru\" to Commander so, make sure to \"Reply\"!",
+						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "This must be \"mail\"... I'll write a \"mail\" to you, so send me a \"reply\" later!",
 						"englishNote": ""
 					},
 					"14": {
-						"event": "Return from Sortie",
-						"media": "return_from_sortie",
+						"event": "Return to port",
+						"media": "home",
 						"chinese": "指挥官不要动，我来给你驱邪~",
-						"chineseTL": "Commander don't move, I'll exorcise your demons~",
+						"chineseTL": "",
 						"chineseNote": "",
 						"japanese": "指揮官動かないで、お祓いをしてあげる！",
-						"japaneseTL": "Commander don't move, I'm going to perform an exorcism on you!",
+						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Hold still, Commander! I'm gonna perform an exorcism on you!",
 						"englishNote": ""
 					},
 					"15": {
-						"event": "Commission Complete",
-						"media": "commission_complete",
+						"event": "Commission complete",
+						"media": "expedition",
 						"chinese": "指挥官，港口好像有人回来啦~",
-						"chineseTL": "Commander, there seems to be people returning to port~",
+						"chineseTL": "",
 						"chineseNote": "",
 						"japanese": "指揮官、誰かが港に戻ってきたよ！",
-						"japaneseTL": "Commander, someone came back to port!",
+						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Commander, some people just came back to the port!",
 						"englishNote": ""
 					},
 					"16": {
-						"event": "Enhancement",
-						"media": "enhancement",
+						"event": "Enhancing complete",
+						"media": "upgrade",
 						"chinese": "我会加油的！",
-						"chineseTL": "I'll do my best!",
+						"chineseTL": "",
 						"chineseNote": "",
 						"japanese": "頑張るよ！",
-						"japaneseTL": "I'll do my best!",
+						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "I'll give it all I've got!",
 						"englishNote": ""
 					},
 					"17": {
-						"event": "Sortie Start",
-						"media": "sortie_start",
+						"event": "Flagship fight",
+						"media": "warcry",
 						"chinese": "联合舰队！那个…出击！",
-						"chineseTL": "Combined Fleet! Uhh... Sortie!",
+						"chineseTL": "",
 						"chineseNote": "",
 						"japanese": "連合艦隊！えっと…出撃！",
-						"japaneseTL": "Combined Fleet! Uhh... Sortie!",
+						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Combined Fleet! Uhh... move out!",
 						"englishNote": ""
 					},
 					"18": {
-						"event": "MVP",
+						"event": "Victory",
 						"media": "mvp",
 						"chinese": "指挥官快看快看，有条鱼好好看呢，它是什么鱼呀？",
-						"chineseTL": "Commander come look come look, there's a very pretty fish, what fish is it?",
+						"chineseTL": "",
 						"chineseNote": "",
 						"japanese": "指揮官見て見て！すっごくきれいなお魚がいたの！何のお魚なの？",
-						"japaneseTL": "Commander look look! There's a really pretty fish! What fish is it?",
+						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Commander, look! I saw a really pretty fish just now! What kind of fish was it?",
 						"englishNote": ""
 					},
 					"19": {
 						"event": "Defeat",
-						"media": "defeat",
+						"media": "lose",
 						"chinese": "指挥官，三号炮塔好像出了点问题…",
-						"chineseTL": "Commander, the third gun turret seems to have an issue...",
+						"chineseTL": "",
 						"chineseNote": "",
 						"japanese": "指揮官、三番砲塔がちょっと……",
-						"japaneseTL": "Commander, the third gun turret seems to be...",
+						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Commander, it feels like my third turret's gonna...",
 						"englishNote": ""
 					},
 					"20": {
-						"event": "Skill Activation",
-						"media": "skill_activation",
-						"chinese": "喵喵，小心点哟，我要…认真啦！",
-						"chineseTL": "Little kitten, be careful, I'll get... serious!",
+						"event": "Skills",
+						"media": "skill",
+						"chinese": "喵喵，小心点哟，我要……认真啦！",
+						"chineseTL": "",
 						"chineseNote": "",
 						"japanese": "ネコさん、しっかり捕まって～本気だすよ！",
-						"japaneseTL": "Mr. Cat, hold on tight~ I'm getting serious!",
+						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Mr. Kitty, hang on tight! I'm gonna get serious!",
 						"englishNote": ""
 					},
 					"21": {
-						"event": "Low Health",
-						"media": "low_health",
+						"event": "Low HP",
+						"media": "hp",
 						"chinese": "我要保护大家！",
-						"chineseTL": "I want to protect everyone!",
+						"chineseTL": "",
 						"chineseNote": "",
 						"japanese": "みんなを守りたいの！",
-						"japaneseTL": "I want to protect everyone!",
+						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "I want to protect my friends!",
 						"englishNote": ""
 					},
 					"22": {
-						"event": "Affinity (Disappointed)",
-						"media": "affinity_disappointed",
+						"event": "Upset",
+						"media": "feeling1",
 						"chinese": "指挥官…为什么呢？",
-						"chineseTL": "Commander... why?",
+						"chineseTL": "",
 						"chineseNote": "",
 						"japanese": "指揮官…どうしてなの？",
-						"japaneseTL": "Commander... why?",
+						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Commander... Just, why?",
 						"englishNote": ""
 					},
 					"23": {
-						"event": "Affinity (Stranger)",
-						"media": "affinity_stranger",
-						"chinese": "和姐姐在柱岛的时候，我就常会想…天为什么会这么蓝呢？ 鸟儿为什么会飞呢？ 大家为什么要打来打去呢？ …世界上不可思议的事情真的好多呢",
-						"chineseTL": "Back when I was in Hashirashima with Big Sister Nagato, I would often think... why is the sky blue? Why can birds fly? Why does everyone fight?... There are so many mysterious things in the world",
+						"event": "Stranger",
+						"media": "feeling2",
+						"chinese": "和姐姐在柱岛的时候，我就常会想…天为什么会这么蓝呢？鸟儿为什么会飞呢？大家为什么要打来打去呢？…世界上不可思议的事情真的好多呢",
+						"chineseTL": "",
 						"chineseNote": "",
 						"japanese": "むかし長門姉と一緒に柱島にいた頃からよく思ってたけど…空はなんで青いの？鳥はなんで飛べるの？みんななんで戦争するの？…不思議なことがいっぱい…",
-						"japaneseTL": "Ever since I was in Hashirashima with Big Sister Nagato, I would often think... why is the sky blue? Why can birds fly? Why does everyone fight?... There are so many mysterious things in the world",
+						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Ever since Nagato and I were at Hashira Island, I've wondered... Why is the sky blue? Why can birds fly? Why do we fight? ... There are so many things I wonder...",
 						"englishNote": ""
 					},
 					"24": {
-						"event": "Affinity (Friendly)",
-						"media": "affinity_friendly",
-						"chinese": "我知道的哟，有些事情搞明白了反而会让人更难过…但是我还是想弄明白 ~ 而且 ~ 有更多知道了会让人开心的事呀 ~",
-						"chineseTL": "I understand that there are times when knowing things will make you feel uncomfortable... but I still want to know~ Besides~ You get to know a lot of things that can bring you happiness~",
+						"event": "Friendly",
+						"media": "feeling3",
+						"chinese": "我知道的哟，有些事情搞明白了反而会让人更难过…但是我还是想弄明白～而且～有更多知道了会让人开心的事呀～",
+						"chineseTL": "",
 						"chineseNote": "",
 						"japanese": "知らないほうが幸せなこともあるってわかっているけど…でも知りたいの！それに、知ったほうが幸せなことだってもっとあるでしょ？",
-						"japaneseTL": "I understand that there are times when lack of knowledge results in happiness... but I still want to know! Besides, there are also things that bring happiness by knowing, right?",
+						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "I know some things you're happier if you don't know about, but... I still want to know! Besides, aren't there lots of things you're happier if you do know about them?",
 						"englishNote": ""
 					},
 					"25": {
-						"event": "Affinity (Like)",
-						"media": "affinity_like",
+						"event": "Crush",
+						"media": "feeling4",
 						"chinese": "指挥官~~有时间陪我玩嘛？要工作的话我就等会儿再来问问，我有好多想问的问题，也有好多想让指挥官知道的事呢~",
-						"chineseTL": "Commander~~ Do you have time to play with me? If you have to work I can come back ask again later, I have a lot of questions to ask, and also have lots of things I want Commander to know~",
+						"chineseTL": "",
 						"chineseNote": "",
 						"japanese": "指揮官、わたしと遊ぼ？えっと、お仕事があるならまたあとで来るね？聞きたいことはいっぱいあるけど、指揮官に知っててほしいこともいっぱい、いっっぱいあるよ！",
-						"japaneseTL": "Commander, want to play with me? Uhm, if you have work I can come back later, ok? I have a lot of things I want to ask about, but there are also many, many things I want to tell Commander too!",
+						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Commander, can we play? Umm, if you've got work to do, I can come back later. I have so much to ask, and also so, sooo much I wanna tell you!",
 						"englishNote": ""
 					},
 					"26": {
-						"event": "Affinity (Love)",
-						"media": "affinity_love",
-						"chinese": "想问指挥官喜不喜欢我，也想问我这样问来问去有没有添麻烦，还想要告诉指挥官，我最喜欢舰队的大家还有指挥官啦~",
-						"chineseTL": "I want to ask if Commander likes me, I also want to ask if my endless questions are annoying, I also want to tell Commander I love everyone in the fleet and Commander~",
+						"event": "Love",
+						"media": "feeling5",
+						"chinese": "想问指挥官喜不喜欢我，也想问我这样问来问去有没有添麻烦，还想要告诉指挥官，我最喜欢舰队的大家还有指挥官啦～",
+						"chineseTL": "",
 						"chineseNote": "",
 						"japanese": "指揮官に聞くことは…えっと…わたしのことが好き？わたしに色々聞かれてメイワク？あとは…うん！艦隊のみんなと指揮官が大好きって言いたいの！",
-						"japaneseTL": "The thing I wanted to know was... uhm... does Commander like me? Do you find me endless questions annoying? Also... Yea! I also wanted to say I love everyone in the fleet and Commander!",
+						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "What I wanted to ask was... umm... do you like me? Are my questions annoying? And... Oh, right! I wanted to say that I love you, and I love all the friends I've made here!",
 						"englishNote": ""
 					},
 					"27": {
-						"event": "Pledge",
-						"media": "pledge",
+						"event": "Promise",
+						"media": "propose",
 						"chinese": "这样我就和指挥官牢牢地联系在了一起吗？好厉害呀，我看到戒指，好像真的能感觉到和指挥官在一起的样子，这是为什么呀？",
-						"chineseTL": "With this I am tightly connected together with Commander? Amazing, when I see the ring, it really feels like I am together with Commander, why is that?",
+						"chineseTL": "",
 						"chineseNote": "",
 						"japanese": "これでわたしと指揮官がつながっているのね？すごい！指輪を見ると、本当に指揮官と一緒にいるように感じるの！どうして？",
-						"japaneseTL": "With this it means I am connected with Commander? Amazing! When I look at this ring, it feels like I'm together with Commander! Why is that?",
+						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "So this means we'll be together as one? That's amazing! It really does feel like I'm together with you when I look at this ring! Why's that?",
 						"englishNote": ""
 					},
 					"28": {
-						"event": "Easter Egg 1 (Nagato)",
-						"media": "easter_egg_1",
+						"event": "Easter Egg 1(Nagato)",
+						"media": "link1",
 						"chinese": "姐姐姐姐~一起加油吧！",
-						"chineseTL": "Big Sis Big Sis~ Let's do our best together!",
+						"chineseTL": "",
 						"chineseNote": "",
 						"japanese": "長門姉～いっしょに頑張ろう！",
-						"japaneseTL": "Big Sis Nagato~ Let's do our best together!",
+						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
-						"englishNote": ""
-					},
-					"29": {
-						"event": "Valentines 2019",
-						"media": "",
-						"chinese": "指挥官，给你，这是我做的巧克力哦！而且，我又有好多问题了！为什么巧克力有很多颜色呢，为什么它又甜又苦呢，还有情人节又是什么呢？指挥官知道吗？",
-						"chineseTL": "Commander, I'm giving you, my hand-made chocolate! Besides, I have lots of questions again! Why do chocolates have so many colors? Why are they sweet and bitter? Also, what is Valentines? Does Commander know?",
-						"chineseNote": "",
-						"japanese": "指揮官、長門姉と一緒に作ったチョコあげる！どうしてチョコって色んな形があるの？何でチョコって甘いのと苦いのがあるのー？指揮官教えてー！",
-						"japaneseTL": "Commander, I'm giving you this chocolate I made together with Big Sis Nagato! Why are chocolates in so many colors and shapes? Why are there sweet and bitter chocolates? Commander, tell me!",
-						"japaneseNote": "",
-						"english": "",
+						"english": "Nagato~! Let's give it all we've got!",
 						"englishNote": ""
 					}
 				}
 			},
 			"2": {
-				"label": "mutsu_skin2",
+				"skin_id": "luao_2",
+				"id": "1",
+				"label": "Warring States Warship ",
 				"dialogue": {
 					"1": {
-						"event": "Ship Description, Acquisition",
-						"media": "acquisition",
+						"event": "Ship Description",
+						"media": "",
 						"chinese": "指挥官，快看快看，风、林、火、山！浦风给我设计的，这样我也可以和矶风一起玩战国游戏啦！哼哼，大将陆奥可是超厉害的！指挥官不来一起玩吗？为什么呀？",
-						"chineseTL": "Commander, look look. Fū. Rin. Ka. Zan! Urakaze designed it for me, I can now play Sengoku games with Isokaze! Hehe, General Mutsu is impressive! Commander, you don't want to play? Why?",
+						"chineseTL": "",
 						"chineseNote": "",
-						"japanese": "",
+						"japanese": "指揮官、見て見て！ふーりんかざん！浦風に作ってもらったよ！これで陸奥も磯風たちと一緒にセンゴクごっこできるよね！ふっふん、大将陸奥はすごいんだから！指揮官は一緒にやらないの？どうして？",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
-						"englishNote": ""
-					},
-					"2": {
-						"event": "Login",
-						"media": "login",
-						"chinese": "指挥官，来陪我玩战国游戏！",
-						"chineseTL": "Commander, come play Sengoku games with me!",
-						"chineseNote": "",
-						"japanese": "",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "",
-						"englishNote": ""
-					},
-					"3": {
-						"event": "Details",
-						"media": "details",
-						"chinese": "指挥官，为什么战国也好，现在也好，大家总是打来打去的呀？",
-						"chineseTL": "Commander, why during Sengoku period, or now, everyone is always fighting each other?",
-						"chineseNote": "",
-						"japanese": "",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "",
-						"englishNote": ""
-					},
-					"4": {
-						"event": "Idle 1",
-						"media": "idle_1",
-						"chinese": "指挥官，长门姐姐为什么明明想和大家一起玩却从来不说呢？我们一起去邀请她怎么样？",
-						"chineseTL": "Commander, why does big sister Nagato look like she wants to play with us but never says anything? Want to go invite her together?",
-						"chineseNote": "",
-						"japanese": "",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "",
-						"englishNote": ""
-					},
-					"5": {
-						"event": "Idle 2",
-						"media": "idle_2",
-						"chinese": "指挥官指挥官，我跟你说，天守阁超大的，我们来探险吧！",
-						"chineseTL": "Commander Commander, I'm telling you, the Tenshukaku is enormous, let's go explore it!",
-						"chineseNote": "",
-						"japanese": "",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "",
-						"englishNote": ""
-					},
-					"6": {
-						"event": "Idle 3",
-						"media": "idle_3",
-						"chinese": "指挥官指挥官，今天也给我讲战国的故事嘛，我有好多想知道的呢！",
-						"chineseTL": "Commander Commander, come tell me the tales of the Sengoku period, there is so much I want to learn!",
-						"chineseNote": "",
-						"japanese": "",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "",
-						"englishNote": ""
-					},
-					"7": {
-						"event": "Touch",
-						"media": "touch",
-						"chinese": "嘿，呀！……唔，指挥官，要怎么样才能像高雄那样帅气地用刀呀？",
-						"chineseTL": "Hiya!... Hmm, Commander, how do I look cool using the katana like Takao?",
-						"chineseNote": "",
-						"japanese": "",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "",
-						"englishNote": ""
-					},
-					"8": {
-						"event": "Mission Complete",
-						"media": "mission_complete",
-						"chinese": "指挥官，任务奖励有多少万石呀？还有石是什么意思呀？",
-						"chineseTL": "Commander, how many koku did we get from the mission rewards? Also, what is a koku?",
-						"chineseNote": "",
-						"japanese": "",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "",
-						"englishNote": ""
-					},
-					"9": {
-						"event": "Mail",
-						"media": "mail",
-						"chinese": "指挥官，有新的信件！难道是“三者”的情报吗？",
-						"chineseTL": "Commander, there is new mail! Is it intel from the \"Three Unifiers\"?",
-						"chineseNote": "",
-						"japanese": "",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "",
-						"englishNote": ""
-					},
-					"10": {
-						"event": "Return from Sortie",
-						"media": "return_from_sortie",
-						"chinese": "指挥官，出征辛苦啦！",
-						"chineseTL": "Commander, good work on the expedition!",
-						"chineseNote": "",
-						"japanese": "",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "",
-						"englishNote": ""
-					},
-					"11": {
-						"event": "Commission Complete",
-						"media": "commission_complete",
-						"chinese": "指挥官，我看书上说，对战争来说，资源是最重要的！不可以懈怠资源的获取哟！",
-						"chineseTL": "Commander, I read from a book, resources are the most important in a war! We can't slack off in the acquisition of resources!",
-						"chineseNote": "",
-						"japanese": "",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "",
-						"englishNote": ""
-					},
-					"12": {
-						"event": "Sortie Start",
-						"media": "sortie_start",
-						"chinese": "风！林！火！山！出击！",
-						"chineseTL": "Fū! Rin! Ka! Zan! Attack!",
-						"chineseNote": "",
-						"japanese": "",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "",
-						"englishNote": ""
-					},
-					"13": {
-						"event": "MVP",
-						"media": "mvp",
-						"chinese": "指挥官指挥官，当我觉得自己是超厉害的战国武将时，战斗也好像变得轻松了呢！这是为什么呀？",
-						"chineseTL": "Commander Commander, when I feel like a super impressive Sengoku general, battles feel much more easier! Why is that?",
-						"chineseNote": "",
-						"japanese": "",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "",
+						"english": "Commander, check it out! \"Nothing can stop me!\" Urakaze made it for me! Now I can play warring states with her! Heheh, you should know I'm a force to be reckoned with! Can't you come play with us? Why?",
 						"englishNote": ""
 					}
 				}

@@ -1,59 +1,30 @@
 {
-	"name": "Dewey",
-	"nameJP": "ヂューイ",
+	"name_reference": "dewey",
+	"cn_reference": "duwei",
+	"nameJP": "デューイ",
 	"nameCN": "杜威",
-	"class": "Farragut",
-	"hull": "Destroyer",
-	"prefix": "USS",
-	"ID": "004",
-	"file_id": "004_Dewey",
-	"navy": "Eagle Union",
-	"initialStar": "★★☆☆☆",
+	"ID": "4",
+	"name": "Dewey",
+	"internal_id": "101021",
 	"rarity": "Rare",
+	"initialStar": "★★☆☆☆",
+	"hull": "Destroyer",
+	"navy": "Eagle Union",
+	"prefix": "USS",
 	"buildTime": "N/A",
-	"acquisitionMethod": "Drop in 13-3",
-	"enhance": {
-		"firepower": "",
-		"torpedo": "",
-		"aviation": "",
-		"reload": ""
+	"class": "",
+	"parameters": {
+		"firepower": "C",
+		"torpedo": "C",
+		"aviation": "E",
+		"evasion": "B",
+		"antiAir": "C",
+		"hp": "C"
 	},
 	"scrap": {
 		"gold": "4",
 		"oil": "3",
-		"medal": "4"
-	},
-	"skin": {
-		"1": {
-			"name": "Default",
-			"description": "Farragut-Class Destroyer - Dewey (DD-349)",
-			"expression": {
-				"1": {
-					"label": "Default"
-				},
-				"2": {
-					"label": "Default"
-				},
-				"3": {
-					"label": "Default"
-				},
-				"4": {
-					"label": "Default"
-				},
-				"5": {
-					"label": "Default"
-				},
-				"6": {
-					"label": "Default"
-				},
-				"7": {
-					"label": "Default"
-				},
-				"8": {
-					"label": "Default"
-				}
-			}
-		}
+		"medal": "1"
 	},
 	"releaseDate": {
 		"JP": "March 22, 2019",
@@ -61,7 +32,6 @@
 		"KR": "March 22, 2019",
 		"EN": ""
 	},
-	"voiceActress": "",
 	"artist": {
 		"name": "",
 		"weibo": "",
@@ -69,84 +39,138 @@
 		"pixiv": "",
 		"other": ""
 	},
-	"parameters": {
-		"hp": "C",
-		"antiAir": "C",
-		"evasion": "B",
-		"aviation": "E",
-		"torpedo": "C",
-		"firepower": "C"
+	"enhance": {
+		"firepower": "5",
+		"torpedo": "17",
+		"aviation": "0",
+		"reload": "13"
+	},
+	"acquisitionMethod": "Drop in 13-3",
+	"skill": {
+		"1": {
+			"icon": "12000",
+			"requirement": "Default Unlocked",
+			"name": "Comrades from the Far East",
+			"type": "Support",
+			"description": "While alive in the fleet, decreases damage taken by allied CV/CVL by 5% (10%). When sortied with Gridley, increases self and Gridley's Firepower by 5% (15%)."
+		},
+		"2": {
+			"icon": "20011",
+			"requirement": "Limit Break Rank 1, Rank 3 upgrade",
+			"name": "Full Barrage I-II",
+			"type": "Offensive",
+			"description": "Every 15 (10) times the main battery is fired, trigger Full Barrage - Farragut-class I (II)"
+		}
+	},
+	"skin": {
+		"1": {
+			"id": "duwei",
+			"name": "Dewey",
+			"description": "Farragut-Class Destroyer - Dewey (DD-349)",
+			"expression": {
+				"0": {
+					"id": "0"
+				}
+			}
+		}
+	},
+	"defaultEquipment": {
+		"1": {
+			"icon": "5100",
+			"rarity": "Common",
+			"name": "Quadruple 533mm Torpedo"
+		},
+		"3": {
+			"icon": "",
+			"rarity": "",
+			"name": ""
+		}
 	},
 	"stats": {
 		"100": {
 			"hp": "1372",
-			"armor": "Light",
-			"reload": "164",
 			"firepower": "65",
 			"torpedo": "244",
-			"evasion": "156",
 			"antiAir": "161",
 			"aviation": "0",
-			"cost": "8",
-			"asw": "165",
+			"reload": "164",
+			"hit": "165",
+			"evasion": "156",
+			"speed": "44.4",
 			"luck": "72",
-			"speed": "44"
+			"asw": "165",
+			"oxygen": "0",
+			"ammo": "0",
+			"cost": "8",
+			"armor": "Light"
 		},
 		"120": {
 			"hp": "1647",
-			"armor": "Light",
-			"reload": "189",
 			"firepower": "74",
 			"torpedo": "279",
-			"evasion": "162",
 			"antiAir": "185",
 			"aviation": "0",
-			"cost": "8",
-			"asw": "184",
+			"reload": "189",
+			"hit": "173",
+			"evasion": "162",
+			"speed": "44.4",
 			"luck": "72",
-			"speed": "44"
+			"asw": "184",
+			"oxygen": "0",
+			"ammo": "0",
+			"cost": "8",
+			"armor": "Light"
 		},
 		"base": {
 			"hp": "265",
-			"armor": "Light",
-			"reload": "69",
 			"firepower": "14",
 			"torpedo": "52",
-			"evasion": "60",
 			"antiAir": "34",
 			"aviation": "0",
-			"cost": "2",
-			"asw": "45",
+			"reload": "69",
+			"hit": "63",
+			"evasion": "60",
+			"speed": "44.4",
 			"luck": "72",
-			"speed": "44"
+			"asw": "45",
+			"oxygen": "0",
+			"ammo": "0",
+			"cost": "2",
+			"armor": "Light"
 		},
 		"100retrofit": {
 			"hp": "",
-			"armor": "",
-			"reload": "",
 			"firepower": "",
 			"torpedo": "",
-			"evasion": "",
 			"antiAir": "",
 			"aviation": "",
-			"cost": "",
+			"reload": "",
+			"hit": "",
+			"evasion": "",
+			"speed": "44.4",
+			"luck": "72",
 			"asw": "",
-			"luck": "",
-			"speed": ""
+			"oxygen": "0",
+			"ammo": "0",
+			"cost": "8",
+			"armor": "Light"
 		},
 		"120retrofit": {
 			"hp": "",
-			"armor": "",
-			"reload": "",
 			"firepower": "",
 			"torpedo": "",
-			"evasion": "",
 			"antiAir": "",
 			"aviation": "",
-			"cost": "",
+			"reload": "",
+			"hit": "",
+			"evasion": "",
+			"speed": "44.4",
+			"luck": "72",
 			"asw": "",
-			"luck": "",
-			"speed": ""
+			"oxygen": "0",
+			"ammo": "0",
+			"cost": "8",
+			"armor": "Light"
 		}
 	},
 	"limitBreak": {
@@ -156,7 +180,7 @@
 	},
 	"equipmentLoadout": {
 		"1": {
-			"type": "DD Gun",
+			"type": "Destroyer Gun",
 			"efficiency": "110%/112%/115%/120%",
 			"amount": "1/1/1/1",
 			"preload": "0/0/0/0"
@@ -174,35 +198,16 @@
 			"preload": "0/0/0/0"
 		},
 		"4": {
-			"type": "Auxilliary",
+			"type": "Auxilary",
 			"efficiency": "-",
 			"amount": "-",
 			"preload": "-"
 		},
 		"5": {
-			"type": "Auxilliary",
+			"type": "Auxilary",
 			"efficiency": "-",
 			"amount": "-",
 			"preload": "-"
-		}
-	},
-	"defaultEquipment": {
-		"1": "",
-		"2": "",
-		"3": ""
-	},
-	"skill": {
-		"1": {
-			"name": "Comrades from the Far East",
-			"type": "Support",
-			"requirement": "Default Unlocked",
-			"description": "While alive in the fleet, decreases damage taken by allied CV/CVL by 5% (10%). When sortied with Gridley, increases self and Gridley's Firepower by 5% (15%)."
-		},
-		"2": {
-			"name": "Full Barrage I-II",
-			"type": "Offensive",
-			"requirement": "Limit Break Rank 1, Rank 3 upgrade",
-			"description": "Every 15 (10) times the main battery is fired, trigger Full Barrage - Farragut-class I (II)"
 		}
 	},
 	"build": {
@@ -261,7 +266,9 @@
 	"lines": {
 		"skin": {
 			"1": {
-				"label": "Default",
+				"skin_id": "duwei",
+				"id": "0",
+				"label": "デューイ",
 				"dialogue": {
 					"1": {
 						"event": "Ship Description",
@@ -276,8 +283,8 @@
 						"englishNote": ""
 					},
 					"2": {
-						"event": "Self Introduction",
-						"media": "self_introduction",
+						"event": "Biography",
+						"media": "profile",
 						"chinese": "我是法拉格特驱逐舰·杜威。名字来自于一位对白鹰很重要的人。护航过许多航母，也帮助过许多伙伴，这是杜威的骄傲哦。唯一的遗憾…就是那时没能成功挽救两位姐妹…台风什么的，实在是太可怕了……",
 						"chineseTL": "I'm Dewey of the Farragut class destroyers. My name comes from an important Eagle Union figure. I am proud to have escorted many carriers and helped many comrades. My only regret.. was my failure to save two sisters... the typoon.. it was too scary..",
 						"chineseNote": "",
@@ -288,9 +295,9 @@
 						"englishNote": ""
 					},
 					"3": {
-						"event": "Acquisition",
-						"media": "acquisition",
-						"chinese": "我是驱逐舰杜威···如果有什么需要帮忙的话，请第一时间告诉杜威，无论什么事情，杜威都会全力以赴的。",
+						"event": "Receive",
+						"media": "get",
+						"chinese": "我是驱逐舰杜威…如果有什么需要帮忙的话，请第一时间告诉杜威，无论什么事情，杜威都会全力以赴的。",
 						"chineseTL": "I am Destroyer Dewey. If you have any problems, please feel free to ask me for help. No matter the problem, I'll do my best.",
 						"chineseNote": "",
 						"japanese": "駆逐艦デューイです。…お手伝いできることがありましたら、いつでもデューイに教えてください。デューイはどんなことでも全力でがんばりますっ！",
@@ -300,9 +307,9 @@
 						"englishNote": ""
 					},
 					"4": {
-						"event": "Login",
+						"event": "Log in",
 						"media": "login",
-						"chinese": "欢迎回来，指挥官。要检查一下港区的安全措施吗？毕竟谁都不知道什么时候会有天灾什么的降临呢···",
+						"chinese": "欢迎回来，指挥官。要检查一下港区的安全措施吗？毕竟谁都不知道什么时候会有天灾什么的降临呢…",
 						"chineseTL": "Welcome back Commander. Do you want to check on the port's safety protocols? After all, who knows when a disaster will strike..",
 						"chineseNote": "",
 						"japanese": "指揮官、おかえりなさい。母港の防災機材を確認しませんか？天災がいつ起きるかは誰にもわかりませんからねっ",
@@ -312,8 +319,8 @@
 						"englishNote": ""
 					},
 					"5": {
-						"event": "Details",
-						"media": "details",
+						"event": "View details",
+						"media": "detail",
 						"chinese": "嗯？指挥官遇到什么麻烦了吗？需要杜威帮忙吗？",
 						"chineseTL": "Oh? Commander, are you troubled? Do you need Dewey's help?",
 						"chineseNote": "",
@@ -324,9 +331,9 @@
 						"englishNote": ""
 					},
 					"6": {
-						"event": "Idle 1",
-						"media": "idle_1",
-						"chinese": "杜威也很喜欢音乐哦，最喜欢的···是列克星敦小姐的歌",
+						"event": "Main screen 1",
+						"media": "main_1",
+						"chinese": "杜威也很喜欢音乐哦，最喜欢的…是列克星敦小姐的歌",
 						"chineseTL": "Dewey really likes music too, my favorite is... Miss Lexington's song",
 						"chineseNote": "",
 						"japanese": "デューイも音楽が好きですよ。一番好きなのは…レキシントンさんの歌ですっ！",
@@ -336,9 +343,9 @@
 						"englishNote": ""
 					},
 					"7": {
-						"event": "Idle 2",
-						"media": "idle_2",
-						"chinese": "呀啊啊啊！抱、抱歉指挥官。杜威对于雷电和台风果然还是···觉得有点可怕······",
+						"event": "Main screen 2",
+						"media": "main_2",
+						"chinese": "呀啊啊啊！抱、抱歉指挥官。杜威对于雷电和台风果然还是…觉得有点可怕……",
 						"chineseTL": "Ah! S-sorry Commander, Dewey is still rather apprenhensive about electricity and typhoons..",
 						"chineseNote": "",
 						"japanese": "きゃっ！？ご、ごめんなさい指揮官、デューイはやっぱり台風とか雷とか…怖いです……",
@@ -348,9 +355,9 @@
 						"englishNote": ""
 					},
 					"8": {
-						"event": "Idle 3",
-						"media": "idle_3",
-						"chinese": "温柔的约克城，帅气的企业，总是充满精神的萨拉小姐···白鹰的大家，都是很好的人呢",
+						"event": "Main screen 3",
+						"media": "main_3",
+						"chinese": "温柔的约克城，帅气的企业，总是充满精神的萨拉小姐…白鹰的大家，都是很好的人呢",
 						"chineseTL": "Gentle Yorktown, Cool Enterprise, Energetic Saratoga.. The Eagle union is full of good people.",
 						"chineseNote": "",
 						"japanese": "優しいヨークタウンさんに、格好いいエンタープライズさん、元気いっぱいのサラトガちゃん…ユニオンの人はみんないい人ですよ",
@@ -360,8 +367,8 @@
 						"englishNote": ""
 					},
 					"9": {
-						"event": "Touch",
-						"media": "touch",
+						"event": "Normal touch",
+						"media": "touch_1",
 						"chinese": "头发乱了…？谢谢指挥官…作为报答，稍后请让我帮您按摩一下吧？",
 						"chineseTL": "Messy Hair...? Thank you Commander, allow me to message you later as a sign of gratitude.",
 						"chineseNote": "",
@@ -372,8 +379,8 @@
 						"englishNote": ""
 					},
 					"10": {
-						"event": "Special Touch",
-						"media": "special_touch",
+						"event": "Special touch",
+						"media": "touch_2",
 						"chinese": "这是……？杜威的胸口不觉得难受哦？",
 						"chineseTL": "This is...? Dewey's chest doesn't feel uncomfortable.",
 						"chineseNote": "",
@@ -384,9 +391,9 @@
 						"englishNote": ""
 					},
 					"11": {
-						"event": "Mission",
-						"media": "mission",
-						"chinese": "如果觉得人物麻烦的话，可以交给杜威来办哦？",
+						"event": "Mission reminder",
+						"media": "task",
+						"chinese": "如果觉得任务麻烦的话，可以交给杜威来办哦？",
 						"chineseTL": "If you find them troublesome, you can let Dewey deal with it.",
 						"chineseNote": "",
 						"japanese": "任務のこと、面倒だなーと思ったら、デューイにまかせてくださいねっ！",
@@ -396,9 +403,9 @@
 						"englishNote": ""
 					},
 					"12": {
-						"event": "Mission Complete",
+						"event": "Mission complete",
 						"media": "mission_complete",
-						"chinese": "任务的报酬···只是放在那边的话，是不是有点浪费呀···",
+						"chinese": "任务的报酬…只是放在那边的话，是不是有点浪费呀…",
 						"chineseTL": "The mission's rewards.. isn't it just a waste to leave it there?",
 						"chineseNote": "",
 						"japanese": "任務の報酬…あそこに置いたままでは、勿体ないですよ…？",
@@ -408,7 +415,7 @@
 						"englishNote": ""
 					},
 					"13": {
-						"event": "Mail",
+						"event": "Mail reminder",
 						"media": "mail",
 						"chinese": "指挥官，要及时查阅信息哦。保证情报的更新，才能规避各种意外的危险呢",
 						"chineseTL": "Commander, you should check your reports promptly to ensure the intelligence we have is up to date. With that we can reduce the chances of accidents.",
@@ -420,9 +427,9 @@
 						"englishNote": ""
 					},
 					"14": {
-						"event": "Return from Sortie",
-						"media": "return_from_sortie",
-						"chinese": "作战···辛苦了，指挥官。请好好放松一下，战斗资料的整理就交给杜威吧",
+						"event": "Return to port",
+						"media": "home",
+						"chinese": "作战…辛苦了，指挥官。请好好放松一下，战斗资料的整理就交给杜威吧",
 						"chineseTL": "Battle.. Good work, Commander. Please go get rested and leave sorting of the combat reports to Dewey.",
 						"chineseNote": "",
 						"japanese": "作戦、お疲れ様でした！戦闘詳報の整理はデューイにまかせて、どうぞゆっくりなさってくださいっ",
@@ -432,9 +439,9 @@
 						"englishNote": ""
 					},
 					"15": {
-						"event": "Commission Complete",
-						"media": "commission_complete",
-						"chinese": "参加委托的伙伴们回来了。大家带回来的东西要合理使用才行呢",
+						"event": "Commission complete",
+						"media": "expedition",
+						"chinese": "参加委托的伙伴们回来了。大家带回来的东西，要合理使用才行呢",
 						"chineseTL": "Our comrades have returned. Please use the resources they bought back carefully.",
 						"chineseNote": "",
 						"japanese": "委託からみんなが戻ってきました！持ち帰ってきたものは適材適所、ちゃんと使わないとっ！",
@@ -444,9 +451,9 @@
 						"englishNote": ""
 					},
 					"16": {
-						"event": "Enhancement",
-						"media": "enhancement",
-						"chinese": "为了大家，杜威会加油的！",
+						"event": "Enhancing complete",
+						"media": "upgrade",
+						"chinese": "下次无论是什么样的状况，都不会再失败了！",
 						"chineseTL": "For everyone, Dewey will do her best!",
 						"chineseNote": "",
 						"japanese": "今度はどんなに状況になっても、絶対に失敗しませんっ！",
@@ -456,9 +463,9 @@
 						"englishNote": ""
 					},
 					"17": {
-						"event": "Sortie Start",
-						"media": "sortie_start",
-						"chinese": "这里就交给杜威吧！",
+						"event": "Flagship fight",
+						"media": "warcry",
+						"chinese": "为了大家，杜威会加油的！",
 						"chineseTL": "Leave it to Dewey!",
 						"chineseNote": "",
 						"japanese": "みんなのために、デューイがんばりますっ！",
@@ -468,9 +475,9 @@
 						"englishNote": ""
 					},
 					"18": {
-						"event": "MVP",
+						"event": "Victory",
 						"media": "mvp",
-						"chinese": "杜威只是做了自己该做的而已，胜利的功劳···是大家的",
+						"chinese": "杜威只是做了自己该做的而已，胜利的功劳…是大家的",
 						"chineseTL": "Dewey only did her part.. the fruits of victory.. belongs to everyone.",
 						"chineseNote": "",
 						"japanese": "デューイはやるべきことをやっただけです。ご褒美は……みんなにっ！",
@@ -481,8 +488,8 @@
 					},
 					"19": {
 						"event": "Defeat",
-						"media": "defeat",
-						"chinese": "又···失败了",
+						"media": "lose",
+						"chinese": "又…失败了",
 						"chineseTL": "Another failure...",
 						"chineseNote": "",
 						"japanese": "ま、また失敗しちゃいました……",
@@ -492,9 +499,9 @@
 						"englishNote": ""
 					},
 					"20": {
-						"event": "Skill Activation",
-						"media": "skill_activation",
-						"chinese": "下次无论是什么样的状况，都不会在失败了！",
+						"event": "Skills",
+						"media": "skill",
+						"chinese": "这里就交给杜威吧！",
 						"chineseTL": "Next time, no matter the situation, no more failures!",
 						"chineseNote": "",
 						"japanese": "ここはデューイに任せて！",
@@ -504,9 +511,9 @@
 						"englishNote": ""
 					},
 					"21": {
-						"event": "Low Health",
-						"media": "low_health",
-						"chinese": "损伤扩大···但是，还不能认输···！",
+						"event": "Low HP",
+						"media": "hp",
+						"chinese": "损伤扩大…但是，还不能认输…！",
 						"chineseTL": "Grevious injury.. but, I still can't admit defeat..!",
 						"chineseNote": "",
 						"japanese": "損傷拡大…でも、まだ負けませんっ！",
@@ -516,9 +523,9 @@
 						"englishNote": ""
 					},
 					"22": {
-						"event": "Affinity (Disappointed)",
-						"media": "affinity_disappointed",
-						"chinese": "指挥官···比风暴更让人感觉害怕······",
+						"event": "Upset",
+						"media": "feeling1",
+						"chinese": "指挥官…比风暴更让人感觉害怕……",
 						"chineseTL": "Commander.. is scarier than a typhoon..",
 						"chineseNote": "",
 						"japanese": "指揮官…嵐より怖いです……",
@@ -528,9 +535,9 @@
 						"englishNote": ""
 					},
 					"23": {
-						"event": "Affinity (Stranger)",
-						"media": "affinity_stranger",
-						"chinese": "指挥官肚子饿了吗？杜威试着给您做点咖喱饭吧，就是不知道能不能合您的口味",
+						"event": "Stranger",
+						"media": "feeling2",
+						"chinese": "指挥官肚子饿了吗？杜威试着给您做点咖喱饭吧，就是不知道能不能合您口味",
 						"chineseTL": "Is the Commander hungry? Dewey has cooked up some curry rice, but isn't sure if it'll be up to your tastes.",
 						"chineseNote": "",
 						"japanese": "指揮官はお腹が空いていますか？でしたらデューイがカレーライスでも作ってあげましょうか？お口に合うかどうかは、ちょっとわかりませんけど…",
@@ -540,8 +547,8 @@
 						"englishNote": ""
 					},
 					"24": {
-						"event": "Affinity (Friendly)",
-						"media": "affinity_friendly",
+						"event": "Friendly",
+						"media": "feeling3",
 						"chinese": "指挥官，刚才杜威整理了一下指挥室，有感觉变得比较整齐了吗？有需要的话，房间也可以帮您整理哦",
 						"chineseTL": "Commander, Dewey just tidied up the command room. Don't you feel it's neater now? I can clean your room if you want too.",
 						"chineseNote": "",
@@ -552,8 +559,8 @@
 						"englishNote": ""
 					},
 					"25": {
-						"event": "Affinity (Like)",
-						"media": "affinity_like",
+						"event": "Crush",
+						"media": "feeling4",
 						"chinese": "指挥官忘记带东西了吗？那杜威帮您去房间找找给您带过来吧",
 						"chineseTL": "Commander, did you forget something? Dewey will go to your room and retrieve it for you.",
 						"chineseNote": "",
@@ -564,8 +571,8 @@
 						"englishNote": ""
 					},
 					"26": {
-						"event": "Affinity (Love)",
-						"media": "affinity_love",
+						"event": "Love",
+						"media": "feeling5",
 						"chinese": "指挥官，刚换过的被子睡起来有比较舒服吗？保持干净整洁的生活环境，身体才会健康呢…不过指挥官就算生病了，杜威也会照顾您就是了，请不用担心",
 						"chineseTL": "Commander, do freshly changed blankets make you sleep more comfortably? Maintaining a clean and tidy enviroment is important to staying healthy... but even if the commander falls sick, Dewey will take care of you, so don't worry.",
 						"chineseNote": "",
@@ -576,8 +583,8 @@
 						"englishNote": ""
 					},
 					"27": {
-						"event": "Pledge",
-						"media": "pledge",
+						"event": "Promise",
+						"media": "propose",
 						"chinese": "这是…要给杜威的吗？…表示把最重要的东西都交给杜威了？明白了。虽然不知道能不能胜任，以后无论是工作上还是私人上的事情，杜威都会竭尽全力帮忙指挥官的",
 						"chineseTL": "This is... for Dewey? It represents entrusting everything important to Dewey? I understand. Though I may not know if I'll be any good Dewey will do her best to aid the Commander in matters of private and work.",
 						"chineseNote": "",
@@ -588,9 +595,9 @@
 						"englishNote": ""
 					},
 					"28": {
-						"event": "Easter Egg 1 (Lexington)",
-						"media": "easter_egg_1",
-						"chinese": "(列克星敦)下次，还能去听您唱歌吗？",
+						"event": "Easter Egg 1(Lexington)",
+						"media": "link1",
+						"chinese": "下次，还能去听您唱歌吗？",
 						"chineseTL": "(Lexington) Next time, may I listen to you sing?",
 						"chineseNote": "",
 						"japanese": "またライブに行ってもいいですか…？",
@@ -600,9 +607,9 @@
 						"englishNote": ""
 					},
 					"29": {
-						"event": "Easter Egg 2 (Saratoga)",
-						"media": "easter_egg_2",
-						"chinese": "(萨拉托加)一起加油吧，萨拉小姐！",
+						"event": "Easter Egg 2(Saratoga)",
+						"media": "link2",
+						"chinese": "一起加油吧，萨拉小姐！",
 						"chineseTL": "(Saratoga) Let's do our best together, Miss Saratoga!",
 						"chineseNote": "",
 						"japanese": "サラトガちゃん、一緒に頑張りましょう！",
@@ -612,9 +619,9 @@
 						"englishNote": ""
 					},
 					"30": {
-						"event": "Easter Egg 3 (Yorktown)",
-						"media": "easter_egg_3",
-						"chinese": "(约克城)没想到还能和两位共同作战…杜威会加油的！",
+						"event": "Easter Egg 3(Yorktown, Enterprise)",
+						"media": "link3",
+						"chinese": "没想到还能和两位共同作战…杜威会加油的！",
 						"chineseTL": "(Yorktown) Didn't expect to do battle with the two of us.. Dewey will do her best!",
 						"chineseNote": "",
 						"japanese": "もう一度一緒に戦えるとは思ってませんでした…デューイ、がんばりますっ！",
@@ -624,9 +631,9 @@
 						"englishNote": ""
 					},
 					"31": {
-						"event": "Easter Egg 4 (Gridley)",
-						"media": "easter_egg_4",
-						"chinese": "(格里德利)格里德利…准备好之后就自由开火吧",
+						"event": "Easter Egg 4(Gridley)",
+						"media": "link4",
+						"chinese": "格里德利…准备好之后就自由开火吧",
 						"chineseTL": "(Gridley) Gridley.. fire when ready.",
 						"chineseNote": "",
 						"japanese": "グリッドレイ、好きな時に撃っちゃっていいよっ",

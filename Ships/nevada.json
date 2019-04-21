@@ -1,0 +1,744 @@
+{
+	"name_reference" : "nevada",
+	"cn_reference" : "neihuada",
+	"nameJP" : "ネバダ",
+	"nameCN" : "内华达",
+	"ID" : "52",
+	"name" : "Nevada",
+	"internal_id" : "105011",
+	"rarity" : "Common",
+	"initialStar" : "★☆☆☆",
+	"hull" : "Battleship",
+	"navy" : "Eagle Union",
+	"prefix" : "USS",
+	"buildTime" : "",
+	"class" : "Nevada",
+	"voiceActress" : "Yumi Uchiyama",
+	"parameters": {
+		"firepower" : "A",
+		"torpedo" : "E",
+		"aviation" : "E",
+		"evasion" : "D",
+		"antiAir" : "D",
+		"hp" : "A"
+	},
+	"scrap": {
+		"gold" : "11",
+		"oil" : "4",
+		"medal" : "0"
+	},
+	"releaseDate": {
+		"JP" : "",
+		"CN" : "",
+		"KR" : "",
+		"EN" : ""
+	},
+	"artist": {
+		"name" : "",
+		"weibo" : "",
+		"twitter" : "",
+		"pixiv" : "",
+		"other" : ""
+	},
+	"enhance": {
+		"firepower" : "59",
+		"torpedo" : "0",
+		"aviation" : "0",
+		"reload" : "9"
+	},
+	"acquisitionMethod" : "Honor medal exchange, Explore Stage2-2, Heavy Ship Construction",
+	"skill": {
+		"1" : {
+			"icon" : "4021",
+			"requirement" : "",
+			"name" : "Vice Defense",
+			"type" : "Defensive",
+			"description" : "When this ship is attacked: $1 chance to reduce the DMG of the incoming attack by 50.0%."
+		},
+		"2" : {
+			"icon" : "2041",
+			"requirement" : "",
+			"name" : "Focused Assault",
+			"type" : "Offensive",
+			"description" : "When this ship fires its Main Guns: $1 chance to deal double DMG with its Main Guns."
+		}
+	},
+	"skin": {
+		"1" : {
+			"id" : "neihuada",
+			"name" : "Nevada",
+			"description" : "Nevada-class battleship – Nevada, Hull Number BB-36!",
+			"expression" : {
+				"0" : {
+					"id" : "0"
+				}
+			}
+		},
+		"2" : {
+			"id" : "neihuada_g",
+			"name" : "Nevada (Retrofit)",
+			"description" : "Heh, with this, I won't be outperformed by those fancy greenhorn battleships. Young'un, from now on, just leave everything to Nevada here! ",
+			"expression" : {
+				"0" : {
+					"id" : "0"
+				}
+			}
+		}
+	},
+	"defaultEquipment": {
+		"1" : {
+			"icon" : "14100",
+			"rarity" : "",
+			"name" : "Triple 356mm Main Gun"
+		},
+		"2" : {
+			"icon" : "",
+			"rarity" : "",
+			"name" : ""
+		},
+		"3" : {
+			"icon" : "",
+			"rarity" : "",
+			"name" : ""
+		}
+	},
+	"stats": {
+		"base": {
+			"hp" : "1153",
+			"firepower" : "72",
+			"torpedo" : "0",
+			"antiAir" : "38",
+			"aviation" : "0",
+			"reload" : "49",
+			"hit" : "20",
+			"evasion" : "4",
+			"speed" : "20.5",
+			"luck" : "75",
+			"asw" : "0",
+			"oxygen" : "0",
+			"ammo" : "0",
+			"cost" : "4",
+			"armor" : "Heavy"
+		},
+		"100": {
+			"hp" : "5960",
+			"firepower" : "338",
+			"torpedo" : "0",
+			"antiAir" : "175",
+			"aviation" : "0",
+			"reload" : "115",
+			"hit" : "52",
+			"evasion" : "11",
+			"speed" : "20.5",
+			"luck" : "75",
+			"asw" : "0",
+			"oxygen" : "0",
+			"ammo" : "0",
+			"cost" : "12",
+			"armor" : "Heavy"
+		},
+		"120": {
+			"hp" : "6974",
+			"firepower" : "378",
+			"torpedo" : "0",
+			"antiAir" : "202",
+			"aviation" : "0",
+			"reload" : "132",
+			"hit" : "68",
+			"evasion" : "26",
+			"speed" : "20.5",
+			"luck" : "75",
+			"asw" : "0",
+			"oxygen" : "0",
+			"ammo" : "0",
+			"cost" : "12",
+			"armor" : "Heavy"
+		},
+		"100retrofit": {
+			"hp" : "6200",
+			"firepower" : "348",
+			"torpedo" : "0",
+			"antiAir" : "215",
+			"aviation" : "0",
+			"reload" : "135",
+			"hit" : "67",
+			"evasion" : "11",
+			"speed" : "20.5",
+			"luck" : "75",
+			"asw" : "0",
+			"oxygen" : "0",
+			"ammo" : "0",
+			"cost" : "12",
+			"armor" : "Heavy"
+		},
+		"120retrofit": {
+			"hp" : "7214",
+			"firepower" : "388",
+			"torpedo" : "0",
+			"antiAir" : "242",
+			"aviation" : "0",
+			"reload" : "152",
+			"hit" : "83",
+			"evasion" : "26",
+			"speed" : "20.5",
+			"luck" : "75",
+			"asw" : "0",
+			"oxygen" : "0",
+			"ammo" : "0",
+			"cost" : "12",
+			"armor" : "Heavy"
+		}
+	},
+	"limitBreak": {
+		"tier1": "Main gun base +1/Main gun efficiency +5%",
+		"tier2": "Auxiliary gun base +2/Main gun efficiency +10%",
+		"tier3": "Main gun base +1/Main gun efficiency +15%"
+	},
+	"equipmentLoadout": {
+		"1": {
+			"type": "Battleship",
+			"efficiency": "100%/105%/115%/130%",
+			"amount": "1/1/1/1",
+			"preload": "0/0/0/0"
+		},
+		"2": {
+			"type": "Destroyer Gun",
+			"efficiency": "200%/200%/200%/200%",
+			"amount": "1/1/3/3",
+			"preload": "0/0/0/0"
+		},
+		"3": {
+			"type": "Anti-Air Gun",
+			"efficiency": "100%/100%/100%/100%",
+			"amount": "1/1/1/1",
+			"preload": "0/0/0/0"
+		},
+		"4": {
+			"type": "Auxilary",
+			"efficiency": "-",
+			"amount": "-",
+			"preload": "-"
+		},
+		"5": {
+			"type": "Auxilary",
+			"efficiency": "-",
+			"amount": "-",
+			"preload": "-"
+		}
+	},
+	"build": {
+		"light": {
+			"JP": "",
+			"CN": "",
+			"EN": ""
+		},
+		"heavy": {
+			"JP": "",
+			"CN": "",
+			"EN": ""
+		},
+		"special": {
+			"JP": "",
+			"CN": "",
+			"EN": ""
+		},
+		"limited": {
+			"JP": "",
+			"CN": "",
+			"EN": ""
+		}
+	},
+	"drop": {
+		"droppable": "false",
+		"list": {
+			"1": {
+				"event": "",
+				"chapter": {
+					"1": {
+						"label": "Ch .1",
+						"node": {
+							"1": {
+								"drop": "✓",
+								"note": "-"
+							}
+						}
+					}
+				}
+			}
+		}
+	},
+	"lines": {
+		"skin": {
+			"1": {
+				"skin_id" : "neihuada",
+				"id" : "0",
+				"label" : "Nevada",
+				"dialogue" : {
+					"1" : {
+						"event" : "Ship Description",
+						"media" : "",
+						"chinese" : "内华达级战列舰—内华达，舷号BB-36",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "ネバダ級戦艦・ネバダ（BB-36)",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Nevada-class battleship – Nevada, Hull Number BB-36!",
+						"englishNote" : ""
+					},
+					"2" : {
+						"event" : "Biography",
+						"media" : "profile",
+						"chinese" : "哟！我就是内华达级大姐内华达号战列舰，在大西洋舰队、太平洋舰队都服过役。接过总统，换过肾，扛过两次原子弹，还刷过全战场！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "よっ！あたしはネバダ級一番艦のネバダだ。大西洋艦隊と太平洋艦隊の両方に参加した。近代化改修を受け大統領の護衛もこなし、戦後は２回もの核爆弾実験を生き残り、終生、戦場を駆け巡ったぞ！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Yo! I'm the big sister of the Nevada-class battleships, Nevada! I served in both the Atlantic and Pacific fleets. The President was once on board me, I've changed kidneys, carried two atomic bombs, and even cleared out an entire battlefield!",
+						"englishNote" : ""
+					},
+					"3" : {
+						"event" : "Receive",
+						"media" : "get",
+						"chinese" : "嘿，少年，你就是我的指挥官吗？我是内华达，以后就跟你混了",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "少年、あんたがあたしの指揮官かい？あたしはネバダ、これから世話になるぞ",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Are you the commander, young man? I'm Nevada. I'll be working with you from here on out.",
+						"englishNote" : ""
+					},
+					"4" : {
+						"event" : "Log in",
+						"media" : "login",
+						"chinese" : "打起精神来！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "ほら、しっかりしな！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Hey, get your spirits up!",
+						"englishNote" : ""
+					},
+					"5" : {
+						"event" : "View details",
+						"media" : "detail",
+						"chinese" : "这种时候，我就会莫名的喜欢你这点小心思…",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "こういう時に，あんたの気配りは羨ましいぞ",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "At times like these, I tend to like your mindfulness...",
+						"englishNote" : ""
+					},
+					"6" : {
+						"event" : "Main screen 1",
+						"media" : "main_1",
+						"chinese" : "赌？虽然我不太感兴趣，不过你要是想，我奉陪！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "賭け事かい？あんまり興味ないけど付き合ってやってもいいぞ！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Gambling? I'm not usually interested, but I'll give it a shot with you if you're up for it!",
+						"englishNote" : ""
+					},
+					"7" : {
+						"event" : "Main screen 2",
+						"media" : "main_2",
+						"chinese" : "指挥官，趁年轻，要做赶紧做，别怂",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "指揮官よ、若いうちは恐れずにどんどん進むほうがいいぞ！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Commander, go do what you want while you're still young!",
+						"englishNote" : ""
+					},
+					"8" : {
+						"event" : "Main screen 3",
+						"media" : "main_3",
+						"chinese" : "“班特里湾中队”？我只是缺少一个机会而已……",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "「バントリー・ベイ中隊」？あたしは出陣のチャンスがなかったね…",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Bantry Bay Squadron? I just missed my chance, you see...",
+						"englishNote" : ""
+					},
+					"9" : {
+						"event" : "Normal touch",
+						"media" : "touch_1",
+						"chinese" : "没看出来你还挺粘人的嘛",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "あんた、意外と人にべったりだな",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Who knew you were a people person?",
+						"englishNote" : ""
+					},
+					"10" : {
+						"event" : "Special touch",
+						"media" : "touch_2",
+						"chinese" : "原来指挥官对“重点防护”的地方这么有兴趣……",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "あたしの「重点防御」、そんなに気になるかい？",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Are you that interested in my 'priority defenses'?",
+						"englishNote" : ""
+					},
+					"11" : {
+						"event" : "Mission reminder",
+						"media" : "task",
+						"chinese" : "作为军人，完成任务可是天职哦",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "軍人として、任務を果たす事は当たり前さ",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "As soldiers, completing missions is our divine duty.",
+						"englishNote" : ""
+					},
+					"12" : {
+						"event" : "Mission complete",
+						"media" : "mission_complete",
+						"chinese" : "任务奖励已经送来了",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "ミッションボーナス、届いたぞ",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Mission rewards have been delivered!",
+						"englishNote" : ""
+					},
+					"13" : {
+						"event" : "Mail reminder",
+						"media" : "mail",
+						"chinese" : "Yo~指挥官！你的信！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "よっ！指揮官、あんた宛だぞ！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Yo~ Commander! A message!",
+						"englishNote" : ""
+					},
+					"14" : {
+						"event" : "Return to port",
+						"media" : "home",
+						"chinese" : "累了的话我肩膀借你啊，别害羞了，来来来",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "疲れたならあたしの肩にでももたれかかってな。まあ恥ずかしがらないで、いいからこっち来な",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "If you're tired, you can always rest on my shoulders. Don't be embarrassed. Come on!",
+						"englishNote" : ""
+					},
+					"15" : {
+						"event" : "Commission complete",
+						"media" : "expedition",
+						"chinese" : "指挥官，姐妹们顺利完成了委托了，可要好好夸夸她们",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "指揮官、委託が無事完了したぞ。あの娘たちのことちゃんと褒めておやり",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Commander, the commissions have returned without issue. Make sure to comlement them for their efforts!",
+						"englishNote" : ""
+					},
+					"16" : {
+						"event" : "Enhancing complete",
+						"media" : "upgrade",
+						"chinese" : "嗯，不错的感觉！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "うん、いい感じ！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Mmm, not a bad feeling!",
+						"englishNote" : ""
+					},
+					"17" : {
+						"event" : "Flagship fight",
+						"media" : "warcry",
+						"chinese" : "看起来挺热闹的嘛，那就由我来让对面变得更加热闹一些吧！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "騒がしいなあ！あたしがもっと盛り上げてやるよ！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "How lively! Allow me to join in the fun!",
+						"englishNote" : ""
+					},
+					"18" : {
+						"event" : "Victory",
+						"media" : "mvp",
+						"chinese" : "哈，火力低下，防御不精，也想做我的对手？",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "ハッ、そんな火力と装甲であたしの相手にでもなったつもりかい？",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Ha, you think you can beat me with such weak firepower and defences?",
+						"englishNote" : ""
+					},
+					"19" : {
+						"event" : "Defeat",
+						"media" : "lose",
+						"chinese" : "嘁，下次看我怎么收拾你们！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "ちっ、次は見ておけ！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Tsk, wait and see how I take you on next time!",
+						"englishNote" : ""
+					},
+					"20" : {
+						"event" : "Skills",
+						"media" : "skill",
+						"chinese" : "你们还差得远呢",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "あんたたち、まだまだだね！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "You are still way off!",
+						"englishNote" : ""
+					},
+					"21" : {
+						"event" : "Upset",
+						"media" : "feeling1",
+						"chinese" : "对你稍微有点失望……",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "ちょっとがっかりだね…",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "I'm a bit disappointed in you...",
+						"englishNote" : ""
+					},
+					"22" : {
+						"event" : "Stranger",
+						"media" : "feeling2",
+						"chinese" : "我对自己的运气挺有自信，要赌赌看吗？",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "あたしは運に自信があるんだ。試してみるかい？",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "I'm quite confident in my own luck. Want to gamble a bit?",
+						"englishNote" : ""
+					},
+					"23" : {
+						"event" : "Friendly",
+						"media" : "feeling3",
+						"chinese" : "指挥官，前阵子俄克拉荷马告诉了我个好地方，要不要去购物？哎呀，别愣着了，走走走",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "指揮官、オクラホマのやつがこの間いい店教えてくれてね、ちょっと見に行くかい？…ほら、突っ立てないで早く行きな",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Commander, Oklahoma told me about a nice shop around here. Wanna have a look? ... Hey, stop standing there like a pole! Let's go",
+						"englishNote" : ""
+					},
+					"24" : {
+						"event" : "Crush",
+						"media" : "feeling4",
+						"chinese" : "喜欢一个人就要让所有人知道啊，有什么好隐瞒的，不干不脆的可不像个男子汉呢",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "好きなら好きでちゃっちゃと言えってんだい。隠してどうする…まったく指揮官らしくない！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "If you like someone, just say it up front. What use is there to hide it? ...It's just not like you at all, Commander!",
+						"englishNote" : ""
+					},
+					"25" : {
+						"event" : "Love",
+						"media" : "feeling5",
+						"chinese" : "重点防护理念？那只是保护重要部位而已……怎么，你想检查一下有多重要？是你的话……",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "重点防御コンセプト？あれは大事な所は手厚く防御しようってことだ。……なに？どれだけ大事か知りたい？……ま、まあ、あんたなら…",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "The idea behind priority defenses? That is to protect our most important areas... What, you want to know how important they are? W-well, if it's you...",
+						"englishNote" : ""
+					},
+					"26" : {
+						"event" : "Promise",
+						"media" : "propose",
+						"chinese" : "你啊……不要在这种时候反而变得豪迈起来啊，这么重要的事情就不能再好好想想时间和地点吗！……噗，好啦，我又没说我不收",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "あんたさ……こういう時に大雑把になってどうする？こんな大事なこと、時間と場所を考えないのかい？……プッ。はいはい、いらないなんて言ってないから、しゃんとしな",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Oh you... what are you doing, getting so bold at a time like this? Have you never considered the time and place for such an important thing? Hmph. yeah yeah. I'm not saying no, so bring it.",
+						"englishNote" : ""
+					}
+				}
+			},
+			"2": {
+				"skin_id" : "neihuada_g",
+				"id" : "9",
+				"label" : "Nevada (Retrofit)",
+				"dialogue" : {
+					"1" : {
+						"event" : "Ship Description",
+						"media" : "",
+						"chinese" : "哼哼，这下性能上不会输给新锐的那些小丫头们了。指挥官，接下来凡事都交给我内华达吧！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "ふふん、これで性能もあの新造艦のひよっこたちに負けないな。少年、これからはどんなことでも、このネバダに任せな！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Heh, with this, I won't be outperformed by those fancy greenhorn battleships. Young'un, from now on, just leave everything to Nevada here! ",
+						"englishNote" : ""
+					},
+					"2" : {
+						"event" : "Receive",
+						"media" : "get_9",
+						"chinese" : "哼哼，这下性能上不会输给新锐的那些小丫头们了。指挥官，接下来凡事都交给我内华达吧！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "ふふん、これで性能もあの新造艦のひよっこたちに負けないな。少年、これからはどんなことでも、このネバダに任せな！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Heh, with this, I won't be outperformed by those fancy greenhorn battleships. Young'un, from now on, just leave everything to Nevada here! ",
+						"englishNote" : ""
+					},
+					"3" : {
+						"event" : "Log in",
+						"media" : "login_9",
+						"chinese" : "内华达，随时待命！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "ネバダ、いつでも命令を待っている！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Nevada, always ready for your orders!",
+						"englishNote" : ""
+					},
+					"4" : {
+						"event" : "View details",
+						"media" : "detail_9",
+						"chinese" : "指挥官，一起去骑马吗？不会也没关系，抱紧我的腰就好了",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "少年、馬にでも乗ってみたいのかい？なぁに、乗れなくてもあたしの腰に抱きついていれば大丈夫よ！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Commander, want to go horseback riding together? It doesn't matter if you don't know how, just hang on to my waist!",
+						"englishNote" : ""
+					},
+					"5" : {
+						"event" : "Main screen 1",
+						"media" : "main_1_9",
+						"chinese" : "最近俄克拉荷马那丫头也成长了许多，很快她也能独当一面了吧",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "オクラホマのやつ、最近結構成長したな。もう少ししたら一人前になるだろうな",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "That Oklahoma, she's ain't so wet behind the ears anymore. Soon she's gonna be all independent. ",
+						"englishNote" : ""
+					},
+					"6" : {
+						"event" : "Main screen 2",
+						"media" : "main_2_9",
+						"chinese" : "战斗虽然不能完全解决问题，但是至少可以解决大部分制造问题的人",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "戦闘ではトラブルをかたづけられない時もある。だが、トラブルを起こした奴はかたづけることができるぞ！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Though fighting can't eliminate every problem in the world, it certainly can eliminate most of those who would cause problems. ",
+						"englishNote" : ""
+					},
+					"7" : {
+						"event" : "Main screen 3",
+						"media" : "main_3_9",
+						"chinese" : "指挥官，你的背后有我在，所以你就尽情地向前冲吧",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "少年、あんたの背中にはあたしがいる。だから、思いっきりまっすぐ前へ走ってみな",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Commander, I've got your back, so you can keep charging forward!",
+						"englishNote" : ""
+					},
+					"8" : {
+						"event" : "Normal touch",
+						"media" : "touch_1_9",
+						"chinese" : "偶尔小赌一把还是挺有意思的，我的话如你所见，指挥官，你想好赌注了吗？",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "たまにはギャンブルをやるのも面白いな。こっちのカケモノはこの通りだ。少年の方はどうだ？",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "So, you fancy a dance with the devil? As you can see, I'm ready to up the ante. Young'un, what are you going to wager?",
+						"englishNote" : ""
+					},
+					"9" : {
+						"event" : "Special touch",
+						"media" : "touch_2_9",
+						"chinese" : "指挥官，我能不能换个赌注……",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "うーん、ちょっとカケモノを変えても……いいかい？",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Commander, can I... change my wager?",
+						"englishNote" : ""
+					},
+					"10" : {
+						"event" : "Return to port",
+						"media" : "home_9",
+						"chinese" : "指挥官，想不想体验一下被公主抱的感觉？",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "少年、お姫様抱っこでも体験してみないか？",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Young'un, want to experience a bridal carry for yourself?",
+						"englishNote" : ""
+					},
+					"11" : {
+						"event" : "Flagship fight",
+						"media" : "warcry_9",
+						"chinese" : "有我在，输不了！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "あたしがいる限り、負けはしない！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "As long I am here, there's no way we can lose!",
+						"englishNote" : ""
+					},
+					"12" : {
+						"event" : "Victory",
+						"media" : "mvp_9",
+						"chinese" : "火力低下，防守不精，反应迟钝，动作松散，再回去练练吧",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "火力低下、防御分散、反応も遅いし動きも鈍い！もう一度出直しな！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Your offenses are weak, your defenses are feeble! Your reactions are slow, and your movements are sluggish! Come back when you've trained more!",
+						"englishNote" : ""
+					}
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,840 @@
+{
+	"name_reference" : "tanikaze",
+	"cn_reference" : "gufeng",
+	"nameJP" : "谷風",
+	"nameCN" : "谷风",
+	"ID" : "319",
+	"name" : "Tanikaze",
+	"internal_id" : "301621",
+	"rarity" : "Rare",
+	"initialStar" : "★★☆☆☆",
+	"hull" : "Destroyer",
+	"navy" : "Sakura Empire",
+	"prefix" : "IJN",
+	"buildTime" : "",
+	"class" : "Kagerou",
+	"voiceActress" : "Natsumi Hioka",
+	"parameters": {
+		"firepower" : "D",
+		"torpedo" : "A",
+		"aviation" : "E",
+		"evasion" : "A",
+		"antiAir" : "D",
+		"hp" : "D"
+	},
+	"scrap": {
+		"gold" : "4",
+		"oil" : "3",
+		"medal" : "1"
+	},
+	"releaseDate": {
+		"JP" : "",
+		"CN" : "",
+		"KR" : "",
+		"EN" : ""
+	},
+	"artist": {
+		"name" : "",
+		"weibo" : "",
+		"twitter" : "",
+		"pixiv" : "",
+		"other" : ""
+	},
+	"enhance": {
+		"firepower" : "4",
+		"torpedo" : "33",
+		"aviation" : "0",
+		"reload" : "14"
+	},
+	"acquisitionMethod" : "Light ship Construction",
+	"skill": {
+		"1" : {
+			"icon" : "11030",
+			"requirement" : "",
+			"name" : "Miracle Wind",
+			"type" : "Defensive",
+			"description" : "While Tanikaze is the last ship afloat in the Vanguard Fleet: increases her EVA by $1 and decreases the DMG she takes from enemy aircraft by $2."
+		},
+		"2" : {
+			"icon" : "2121",
+			"requirement" : "",
+			"name" : "Target Designator - Torpedo",
+			"type" : "Offensive",
+			"description" : "When this ship hits an enemy with its Torpedoes: $1 chance to apply a debuff, increasing the DMG the designated enemy takes from torpedoes by $2 for 8s. Effect does not stack."
+		},
+		"3" : {
+			"icon" : "22051",
+			"requirement" : "",
+			"name" : "All Out Assault Ⅰ",
+			"type" : "Offensive",
+			"description" : "Activate All Out Assault Ⅰ: Kagerou Class once every 15 times the main gun is fired."
+		}
+	},
+	"skin": {
+		"1" : {
+			"id" : "gufeng",
+			"name" : "Tanikaze ",
+			"description" : "Kagerou-class destroyer number fourteen – Tanikaze.",
+			"expression" : {
+				"0" : {
+					"id" : "0"
+				}
+			}
+		},
+		"2" : {
+			"id" : "Gufeng_2",
+			"name" : "はぐれ少女と迷路蝶",
+			"description" : "蝶々が飛んで……あれ？蝶々は……？浜風ー浜風？えっ、浦風と磯風は？あれ？みんな一緒にレジャービーチに行こうっていうのに、みんなどこいったんでしょうか……",
+			"expression" : {
+				"0" : {
+					"id" : "0"
+				}
+			}
+		},
+		"3" : {
+			"id" : "gufeng_g",
+			"name" : "Tanikaze (Retrofit)",
+			"description" : "I'm Tanikaze, blowing and blustering from the mountaintop! Whoa! Butterflies? Butterflies?! Look, butterflies! For me? Thanks, Commander!",
+			"expression" : {
+				"0" : {
+					"id" : "0"
+				}
+			}
+		}
+	},
+	"defaultEquipment": {
+		"1" : {
+			"icon" : "31200",
+			"rarity" : "Common",
+			"name" : "127mm Mounted Gun"
+		},
+		"1" : {
+			"icon" : "35200",
+			"rarity" : "Rare",
+			"name" : "Quadruple 610mm Torpedo"
+		},
+		"3" : {
+			"icon" : "",
+			"rarity" : "",
+			"name" : ""
+		}
+	},
+	"stats": {
+		"base": {
+			"hp" : "336",
+			"firepower" : "12",
+			"torpedo" : "99",
+			"antiAir" : "29",
+			"aviation" : "0",
+			"reload" : "72",
+			"hit" : "67",
+			"evasion" : "71",
+			"speed" : "42",
+			"luck" : "52",
+			"asw" : "40",
+			"oxygen" : "0",
+			"ammo" : "0",
+			"cost" : "2",
+			"armor" : "Light"
+		},
+		"100": {
+			"hp" : "1736",
+			"firepower" : "56",
+			"torpedo" : "466",
+			"antiAir" : "134",
+			"aviation" : "0",
+			"reload" : "171",
+			"hit" : "175",
+			"evasion" : "185",
+			"speed" : "42",
+			"luck" : "52",
+			"asw" : "147",
+			"oxygen" : "0",
+			"ammo" : "0",
+			"cost" : "8",
+			"armor" : "Light"
+		},
+		"120": {
+			"hp" : "2083",
+			"firepower" : "65",
+			"torpedo" : "512",
+			"antiAir" : "154",
+			"aviation" : "0",
+			"reload" : "196",
+			"hit" : "184",
+			"evasion" : "191",
+			"speed" : "42",
+			"luck" : "52",
+			"asw" : "165",
+			"oxygen" : "0",
+			"ammo" : "0",
+			"cost" : "8",
+			"armor" : "Light"
+		},
+		"100retrofit": {
+			"hp" : "1796",
+			"firepower" : "66",
+			"torpedo" : "526",
+			"antiAir" : "134",
+			"aviation" : "0",
+			"reload" : "171",
+			"hit" : "175",
+			"evasion" : "205",
+			"speed" : "45",
+			"luck" : "52",
+			"asw" : "147",
+			"oxygen" : "0",
+			"ammo" : "0",
+			"cost" : "8",
+			"armor" : "Light"
+		},
+		"120retrofit": {
+			"hp" : "2143",
+			"firepower" : "75",
+			"torpedo" : "572",
+			"antiAir" : "154",
+			"aviation" : "0",
+			"reload" : "196",
+			"hit" : "184",
+			"evasion" : "211",
+			"speed" : "45",
+			"luck" : "52",
+			"asw" : "165",
+			"oxygen" : "0",
+			"ammo" : "0",
+			"cost" : "8",
+			"armor" : "Light"
+		}
+	},
+	"limitBreak": {
+		"tier1": "Unlock All Out Assault Ⅰ/Torpedo efficiency +5%",
+		"tier2": "Torpedo base +1/Torpedo preload +1/Torpedo efficiency +10%",
+		"tier3": "Improve All Out Assault/All weapons' efficiency +5%"
+	},
+	"equipmentLoadout": {
+		"1": {
+			"type": "Destroyer Gun",
+			"efficiency": "70%/70%/70%/75%",
+			"amount": "1/1/1/1",
+			"preload": "0/0/0/0"
+		},
+		"2": {
+			"type": "Torpedo",
+			"efficiency": "130%/135%/145%/150%",
+			"amount": "1/1/2/2",
+			"preload": "0/0/1/1"
+		},
+		"3": {
+			"type": "Anti-Air Gun",
+			"efficiency": "70%/70%/70%/75%",
+			"amount": "1/1/1/1",
+			"preload": "0/0/0/0"
+		},
+		"4": {
+			"type": "Auxilary",
+			"efficiency": "-",
+			"amount": "-",
+			"preload": "-"
+		},
+		"5": {
+			"type": "Auxilary",
+			"efficiency": "-",
+			"amount": "-",
+			"preload": "-"
+		}
+	},
+	"build": {
+		"light": {
+			"JP": "",
+			"CN": "",
+			"EN": ""
+		},
+		"heavy": {
+			"JP": "",
+			"CN": "",
+			"EN": ""
+		},
+		"special": {
+			"JP": "",
+			"CN": "",
+			"EN": ""
+		},
+		"limited": {
+			"JP": "",
+			"CN": "",
+			"EN": ""
+		}
+	},
+	"drop": {
+		"droppable": "false",
+		"list": {
+			"1": {
+				"event": "",
+				"chapter": {
+					"1": {
+						"label": "Ch .1",
+						"node": {
+							"1": {
+								"drop": "✓",
+								"note": "-"
+							}
+						}
+					}
+				}
+			}
+		}
+	},
+	"lines": {
+		"skin": {
+			"1": {
+				"skin_id" : "gufeng",
+				"id" : "0",
+				"label" : "Tanikaze ",
+				"dialogue" : {
+					"1" : {
+						"event" : "Ship Description",
+						"media" : "",
+						"chinese" : "阳炎级驱逐舰十四番舰—谷风",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "陽炎型駆逐艦十四番艦・谷風",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Kagerou-class destroyer number fourteen – Tanikaze.",
+						"englishNote" : ""
+					},
+					"2" : {
+						"event" : "Biography",
+						"media" : "profile",
+						"chinese" : "我是阳炎级驱逐舰的十四号舰的谷风，也任第十七驱逐队的旗舰。中途岛的时候，虽然头顶上盘旋着好多飞机，但我基本没被炸到喔。然后库拉湾的时候，和滨风一起……嘿嘿~",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "陽炎型駆逐艦、十四番艦の谷風です。第十七駆逐隊の旗艦を担当しました。ミッドウェイの戦いの時はヒコウキがいっぱいでしたけど、ほとんど被弾しなかったのですよ。クラ湾の時は浜風ちゃんと一緒に……えへへ♪",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "I'm Tanikaze, Kagerou-class destroyer number fourteen. I served as the flagship of Destroyer Division 17. There were a lot of aircraft in the Battle of Midway, but I hardly got bombed at all. Hamakaze-chan and I sunk a certain ship in the Kula Gulf... Hehehe~",
+						"englishNote" : ""
+					},
+					"3" : {
+						"event" : "Receive",
+						"media" : "get",
+						"chinese" : "我是谷风，意为从山谷吹向山顶之风……指挥官先生，能带我回家吗？",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "私は「谷風」…谷に沿って山へ吹き上げる風、の意味です。…指揮官さん、私を連れて帰ってもらえますか？",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "I am Tanikaze, the winds have carried me from valleys to mountaintops... Commander, will you take me home?",
+						"englishNote" : ""
+					},
+					"4" : {
+						"event" : "Log in",
+						"media" : "login",
+						"chinese" : "指挥官需要谷风的时候，谷风就会出现",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "指揮官さんが谷風を必要とすれば、谷風はここにいますよ",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "I'm right here if you need me.",
+						"englishNote" : ""
+					},
+					"5" : {
+						"event" : "View details",
+						"media" : "detail",
+						"chinese" : "中途岛海战？不是我方胜利了吗……我又弄错了！？",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "ミッドウェイ？我々の勝利でしたよね……ま、また間違えました？！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Midway? I believe we won that battle... O-or am I wrong again?!",
+						"englishNote" : ""
+					},
+					"6" : {
+						"event" : "Main screen 1",
+						"media" : "main_1",
+						"chinese" : "滨风，不要总板着一脸嘛，我戳~",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "浜風ちゃん、表情が硬いよ？ツンツン♪",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Hamakaze-chan, you need to ease up a little! Pokey-poke~",
+						"englishNote" : ""
+					},
+					"7" : {
+						"event" : "Main screen 2",
+						"media" : "main_2",
+						"chinese" : "雪风、雪风要来了？我、我会努力和她做好朋友的……大概……",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "ゆ、雪風ちゃんが来るの？が、頑張って仲良くします……たぶん……",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Y-Yukikaze's coming here? W-we should be able to get along... Hopefully...",
+						"englishNote" : ""
+					},
+					"8" : {
+						"event" : "Main screen 3",
+						"media" : "main_3",
+						"chinese" : "有指挥官在就很安心呢",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "指揮官さんがいると安心しますね",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "I always feel at ease when you're here with me, Commander.",
+						"englishNote" : ""
+					},
+					"9" : {
+						"event" : "Normal touch",
+						"media" : "touch_1",
+						"chinese" : "咿呀，指挥官又戳我的脸，姆~",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "きゃっ！指揮官さんまた私のほっぺをつついて～むぅ～",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Wah! I wish you'd stop poking my cheek like that... Mmph...",
+						"englishNote" : ""
+					},
+					"10" : {
+						"event" : "Special touch",
+						"media" : "touch_2",
+						"chinese" : "除了脸之外，别的地方也请不要戳！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "ほっぺ以外つついちゃダメですぅ！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Please, don't poke anything but my cheek!",
+						"englishNote" : ""
+					},
+					"11" : {
+						"event" : "Mission reminder",
+						"media" : "task",
+						"chinese" : "指挥官，还有任务没有完成呢",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "指揮官さん、まだ任務が終わっていませんよ",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "The mission isn't finished yet, Commander.",
+						"englishNote" : ""
+					},
+					"12" : {
+						"event" : "Mission complete",
+						"media" : "mission_complete",
+						"chinese" : "真不愧是指挥官",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "さすがは指揮官さんですね",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "I knew you could do it, Commander.",
+						"englishNote" : ""
+					},
+					"13" : {
+						"event" : "Mail reminder",
+						"media" : "mail",
+						"chinese" : "新的信件像风一样送达了",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "新しいメールは風とともに届きましたよ",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "The winds have brought you new mail.",
+						"englishNote" : ""
+					},
+					"14" : {
+						"event" : "Return to port",
+						"media" : "home",
+						"chinese" : "呜哇，欢迎回来！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "きゃっ！おかえりなさい！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Wah! Welcome back!",
+						"englishNote" : ""
+					},
+					"15" : {
+						"event" : "Commission complete",
+						"media" : "expedition",
+						"chinese" : "指挥官，有人回来啦！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "指揮官さん、誰かが帰ってきましたよ",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "A team has returned to base, Commander.",
+						"englishNote" : ""
+					},
+					"16" : {
+						"event" : "Enhancing complete",
+						"media" : "upgrade",
+						"chinese" : "今天的风儿也有点喧嚣呢……",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "今日も風が強いですね……",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "It's really windy today...",
+						"englishNote" : ""
+					},
+					"17" : {
+						"event" : "Flagship fight",
+						"media" : "warcry",
+						"chinese" : "第十七驱逐队，出动！诶，说错了？",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "第十七駆逐隊、出撃します！え、いまの間違えた…？",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Destroyer Division 17, setting sail! Huh? Did I get something wrong...?",
+						"englishNote" : ""
+					},
+					"18" : {
+						"event" : "Victory",
+						"media" : "mvp",
+						"chinese" : "指挥官，满意吗？",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "指揮官さん、満足して貰えたのでしょうか？",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Did I do well enough to satisfy you, Commander?",
+						"englishNote" : ""
+					},
+					"19" : {
+						"event" : "Defeat",
+						"media" : "lose",
+						"chinese" : "怎么办才好……",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "どうしたら……",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "What could I have done better...",
+						"englishNote" : ""
+					},
+					"20" : {
+						"event" : "Skills",
+						"media" : "skill",
+						"chinese" : "轮到我了！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "私の番です！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Now's it's my turn!",
+						"englishNote" : ""
+					},
+					"21" : {
+						"event" : "Upset",
+						"media" : "feeling1",
+						"chinese" : "指挥官先生……盯——",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "指揮官さん……ジーーー",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "It's you... *Stares angrily*",
+						"englishNote" : ""
+					},
+					"22" : {
+						"event" : "Stranger",
+						"media" : "feeling2",
+						"chinese" : "我还不太了解指挥官……",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "指揮官さんのことはまだよくわからないですね",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "I still don't know very much about you, Commander.",
+						"englishNote" : ""
+					},
+					"23" : {
+						"event" : "Friendly",
+						"media" : "feeling3",
+						"chinese" : "谷风只有白天才会存在，但我可不是哟～",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "「谷風」は昼しか吹きませんけど、私はいつもここにいますよ♪",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Usually valley winds are only there during noon, but I'm always here!",
+						"englishNote" : ""
+					},
+					"24" : {
+						"event" : "Crush",
+						"media" : "feeling4",
+						"chinese" : "嘿嘿~指挥官的脸颊，我戳~",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "へへ～指揮官さんのほっぺ～つん♪",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Hehe~ You're wide open for attack! Poke~",
+						"englishNote" : ""
+					},
+					"25" : {
+						"event" : "Love",
+						"media" : "feeling5",
+						"chinese" : "和指挥官在一起，总觉得时间过得好快，指挥官也这么觉得吗？",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "指揮官さんと一緒にいると時の流れも早く感じちゃいます。指揮官さんもそう思いますか？",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "When I'm with you, it feels like time flows faster. Do you feel the same thing, Commander?",
+						"englishNote" : ""
+					},
+					"26" : {
+						"event" : "Promise",
+						"media" : "propose",
+						"chinese" : "咦——谢、谢谢……那、那我就收下了。我……呃，那、那个，我最、最喜欢指挥官了！呜哇，好害羞——",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "あぅ――あ、ありがとうございます……い、いただきますね。えっと……あの、えっと、わ、私も、指揮官さんのことが…大好きです！は、恥ずかしいよぉ…",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Ahh... Th-thank you so much... I-I happily accept. Um... uh, well, I-I... love you too, Commander! I-I'm so embarrassed...",
+						"englishNote" : ""
+					},
+					"27" : {
+						"event" : "Easter Egg 1(Hamakaze)",
+						"media" : "link1",
+						"chinese" : "就像库拉湾时那样——",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "クラ湾の時のように――",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Let's fight like we did in the Kula Gulf!",
+						"englishNote" : ""
+					}
+				}
+			},
+			"2": {
+				"skin_id" : "Gufeng_2",
+				"id" : "1",
+				"label" : "はぐれ少女と迷路蝶",
+				"dialogue" : {
+					"1" : {
+						"event" : "Ship Description",
+						"media" : "",
+						"chinese" : "小蝴蝶，小蝴蝶……呀，小蝴蝶飞走了……滨风~咦，滨风人呢？浦风，矶风？说好一起去海边玩的，怎么大家都不见了呀？",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "蝶々が飛んで……あれ？蝶々は……？浜風ー浜風？えっ、浦風と磯風は？あれ？みんな一緒にレジャービーチに行こうっていうのに、みんなどこいったんでしょうか……",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"2" : {
+						"event" : "Receive",
+						"media" : "get_1",
+						"chinese" : "小蝴蝶，小蝴蝶……呀，小蝴蝶飞走了……滨风~咦，滨风人呢？浦风，矶风？说好一起去海边玩的，怎么大家都不见了呀？",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "蝶々が飛んで……あれ？蝶々は……？浜風〜浜風？えっ、浦風と磯風は？あれ？みんな一緒にレジャービーチに行こうって言ったのに、みんなどこいったんでしょうか……",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"3" : {
+						"event" : "Log in",
+						"media" : "login_1",
+						"chinese" : "指挥官你知道滨风她们去哪儿了吗？我们约好一起去海边的",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "指揮官さん、浜風たちはどこにいるか知ってますか？みんなで一緒にレジャービーチに行こうって約束したのに……",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"4" : {
+						"event" : "View details",
+						"media" : "detail_1",
+						"chinese" : "指挥官也要一起去海边玩吗？我们一起来堆城堡",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "指揮官さんもビーチに行きませんか？みんなで砂のお城を作りたいです！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"5" : {
+						"event" : "Main screen 1",
+						"media" : "main_1_1",
+						"chinese" : "唔……要不要去邀请雪风呢？不过总觉得和雪风相处不来……",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "うぅ……雪風ちゃんを誘いたいのですけど……ちょっと苦手で……",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"6" : {
+						"event" : "Main screen 2",
+						"media" : "main_2_1",
+						"chinese" : "指挥官有准备好泳衣和救生圈吗？",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "指揮官さん、救命胴衣と、浮き輪はこれで大丈夫ですか？",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"7" : {
+						"event" : "Main screen 3",
+						"media" : "main_3_1",
+						"chinese" : "希望……到了海边矶风不会拉我玩战国游戏……",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "うん、海辺ですから…磯風ちゃんからセンゴクごっこを誘われないはず、ですよね……？",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"8" : {
+						"event" : "Return to port",
+						"media" : "home_1",
+						"chinese" : "指挥官，准备好去海边了吗？",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "指揮官さん、レジャービーチに行く準備は出来ていますか？",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"9" : {
+						"event" : "Flagship fight",
+						"media" : "warcry_1",
+						"chinese" : "滨风她们会在那边吗？",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "浜風たちはそこにいませんか？",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"10" : {
+						"event" : "Victory",
+						"media" : "mvp_1",
+						"chinese" : "唔……明明我只是想要去海边的……",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "うぅ……レジャービーチに行こうとしてただけなのに……",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					}
+				}
+			},
+			"3": {
+				"skin_id" : "gufeng_g",
+				"id" : "9",
+				"label" : "Tanikaze (Retrofit)",
+				"dialogue" : {
+					"1" : {
+						"event" : "Ship Description",
+						"media" : "",
+						"chinese" : "我是谷风，从山谷吹向山顶之风——呜哇！蝴、蝴蝶！？真是蝴蝶耶！这是送给我的吗？谢谢指挥官！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "私は「谷風」…谷に沿って山へ吹き上げる風――きゃっ！ちょ、蝶ですか…？本物の蝶々ですね！これを…私に？指揮官さん、ありがとうございます！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "I am Tanikaze, the winds have carried me from valleys to mountaintops... Oh wow, a b-butterfly?! It really is a butterfly! Is this for me? Thank you, Commander!",
+						"englishNote" : ""
+					},
+					"2" : {
+						"event" : "Receive",
+						"media" : "get_9",
+						"chinese" : "我是谷风，从山谷吹向山顶之风——呜哇！蝴、蝴蝶！？真是蝴蝶耶！这是送给我的吗？谢谢指挥官！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "私は「谷風」…谷に沿って山へ吹き上げる風――きゃっ！ちょ、蝶々ですか…？本物の蝶々ですね！これを…私に？指揮官さん、ありがとうございます！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "I am Tanikaze, the winds have carried me from valleys to mountaintops... Oh wow, a b-butterfly?! It really is a butterfly! Is this for me? Thank you, Commander!",
+						"englishNote" : ""
+					},
+					"3" : {
+						"event" : "Main screen 1",
+						"media" : "main_1_9",
+						"chinese" : "浦风、矶风…不知道现在变成什么模样了呢…",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "浦風ちゃん、磯風ちゃん……今はどうしているのでしょうか…",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "I really wonder... What might Urakaze-chan and Isokaze-chan be doing right now...",
+						"englishNote" : ""
+					},
+					"4" : {
+						"event" : "Main screen 2",
+						"media" : "main_2_9",
+						"chinese" : "指挥官，今天会有好事发生哟 ",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "指揮官さん、今日はいいことが起こりますよ",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Something good is going to happen today, Commander.",
+						"englishNote" : ""
+					},
+					"5" : {
+						"event" : "Main screen 3",
+						"media" : "main_3_9",
+						"chinese" : "指挥官的胸口，一直都这么温暖呢～",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "指揮官さんの胸の中はいつも温かいですね",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "You're a very warmhearted person, Commander.",
+						"englishNote" : ""
+					},
+					"6" : {
+						"event" : "Normal touch",
+						"media" : "touch_1_9",
+						"chinese" : "咿呀，我要戳回去！指挥官，戳～戳～",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "きゃっ！今度こそつっつき返しますよ！ツン！ツ～ン！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Wah! This time I'll poke you in return! Poke! Poke poke~!",
+						"englishNote" : ""
+					},
+					"7" : {
+						"event" : "Special touch",
+						"media" : "touch_2_9",
+						"chinese" : "现在轮到我了！蹭蹭～蹭蹭～好想趴在指挥官身上睡一会儿……Zzzz……",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "あ！今度は私の番ですね！ツンツン…すりすり…指揮官さんの背中で寝たいですぅ……Zzzzz……",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Ah, I see! It's my turn now! Poke poke... Scratch scratch... Can I nap while you give me a piggyback, Commander? ...Zzzzz....",
+						"englishNote" : ""
+					}
+				}
+			}
+		}
+	}
+}

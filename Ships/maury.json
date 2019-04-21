@@ -1,0 +1,590 @@
+{
+	"name_reference" : "maury",
+	"cn_reference" : "moli",
+	"nameJP" : "モーリー",
+	"nameCN" : "莫里",
+	"ID" : "10",
+	"name" : "Maury",
+	"internal_id" : "101081",
+	"rarity" : "Elite",
+	"initialStar" : "★★☆☆☆",
+	"hull" : "Destroyer",
+	"navy" : "Eagle Union",
+	"prefix" : "USS",
+	"buildTime" : "",
+	"class" : "Gridley",
+	"voiceActress" : "Konomi Kohara",
+	"parameters": {
+		"firepower" : "C",
+		"torpedo" : "A",
+		"aviation" : "E",
+		"evasion" : "A",
+		"antiAir" : "C",
+		"hp" : "C"
+	},
+	"scrap": {
+		"gold" : "4",
+		"oil" : "3",
+		"medal" : "4"
+	},
+	"releaseDate": {
+		"JP" : "",
+		"CN" : "",
+		"KR" : "",
+		"EN" : ""
+	},
+	"artist": {
+		"name" : "",
+		"weibo" : "",
+		"twitter" : "",
+		"pixiv" : "",
+		"other" : ""
+	},
+	"enhance": {
+		"firepower" : "5",
+		"torpedo" : "28",
+		"aviation" : "0",
+		"reload" : "14"
+	},
+	"acquisitionMethod" : "Unlocked in collection",
+	"skill": {
+		"1" : {
+			"icon" : "10020",
+			"requirement" : "",
+			"name" : "Aquatic Vortex",
+			"type" : "Defensive",
+			"description" : "$1 chance to activate every 10s: increases this ship's EVA by $2 for 8s."
+		},
+		"2" : {
+			"icon" : "2051",
+			"requirement" : "",
+			"name" : "Double Torpedo",
+			"type" : "Offensive",
+			"description" : "When this ship fires its Torpedoes: $1 chance to launch a second wave of Torpedoes."
+		},
+		"3" : {
+			"icon" : "20031",
+			"requirement" : "",
+			"name" : "All Out Assault Ⅰ",
+			"type" : "Offensive",
+			"description" : "Activate All Out Assault Ⅰ: Gridley Class once every 15 times the main gun is fired."
+		}
+	},
+	"skin": {
+		"1" : {
+			"id" : "moli",
+			"name" : "Maury",
+			"description" : "Gridley-class destroyer, Maury, Hull Number DD-401<color=#fad545>Unlock build after receiving</color>",
+			"expression" : {
+				"0" : {
+					"id" : "0"
+				}
+			}
+		}
+	},
+	"defaultEquipment": {
+		"1" : {
+			"icon" : "11100",
+			"rarity" : "Common",
+			"name" : "Single 127mm Main Gun"
+		},
+		"1" : {
+			"icon" : "5100",
+			"rarity" : "Common",
+			"name" : "Quadruple 533mm Torpedo"
+		},
+		"3" : {
+			"icon" : "",
+			"rarity" : "",
+			"name" : ""
+		}
+	},
+	"stats": {
+		"base": {
+			"hp" : "292",
+			"firepower" : "14",
+			"torpedo" : "86",
+			"antiAir" : "33",
+			"aviation" : "0",
+			"reload" : "76",
+			"hit" : "71",
+			"evasion" : "73",
+			"speed" : "43.8",
+			"luck" : "69",
+			"asw" : "50",
+			"oxygen" : "0",
+			"ammo" : "0",
+			"cost" : "2",
+			"armor" : "Light"
+		},
+		"100": {
+			"hp" : "1508",
+			"firepower" : "66",
+			"torpedo" : "406",
+			"antiAir" : "155",
+			"aviation" : "0",
+			"reload" : "180",
+			"hit" : "184",
+			"evasion" : "190",
+			"speed" : "43.8",
+			"luck" : "69",
+			"asw" : "183",
+			"oxygen" : "0",
+			"ammo" : "0",
+			"cost" : "9",
+			"armor" : "Light"
+		},
+		"120": {
+			"hp" : "1809",
+			"firepower" : "76",
+			"torpedo" : "448",
+			"antiAir" : "178",
+			"aviation" : "0",
+			"reload" : "207",
+			"hit" : "194",
+			"evasion" : "198",
+			"speed" : "43.8",
+			"luck" : "69",
+			"asw" : "202",
+			"oxygen" : "0",
+			"ammo" : "0",
+			"cost" : "9",
+			"armor" : "Light"
+		},
+		"100retrofit": {
+			"hp" : "",
+			"firepower" : "",
+			"torpedo" : "",
+			"antiAir" : "",
+			"aviation" : "",
+			"reload" : "",
+			"hit" : "",
+			"evasion" : "",
+			"speed" : "43.8",
+			"luck" : "69",
+			"asw" : "",
+			"oxygen" : "0",
+			"ammo" : "0",
+			"cost" : "9",
+			"armor" : "Light"
+		},
+		"120retrofit": {
+			"hp" : "",
+			"firepower" : "",
+			"torpedo" : "",
+			"antiAir" : "",
+			"aviation" : "",
+			"reload" : "",
+			"hit" : "",
+			"evasion" : "",
+			"speed" : "43.8",
+			"luck" : "69",
+			"asw" : "",
+			"oxygen" : "0",
+			"ammo" : "0",
+			"cost" : "9",
+			"armor" : "Light"
+		}
+	},
+	"limitBreak": {
+		"tier1": "Unlock All Out Assault Ⅰ/Torpedo efficiency +5%",
+		"tier2": "Torpedo base +1/Torpedo preload +1/Torpedo efficiency +10%",
+		"tier3": "Improve All Out Assault/All weapons' efficiency +5%"
+	},
+	"equipmentLoadout": {
+		"1": {
+			"type": "Destroyer Gun",
+			"efficiency": "110%/110%/110%/115%",
+			"amount": "1/1/1/1",
+			"preload": "0/0/0/0"
+		},
+		"2": {
+			"type": "Torpedo",
+			"efficiency": "120%/125%/135%/140%",
+			"amount": "1/1/2/2",
+			"preload": "0/0/1/1"
+		},
+		"3": {
+			"type": "Anti-Air Gun",
+			"efficiency": "120%/120%/120%/125%",
+			"amount": "1/1/1/1",
+			"preload": "0/0/0/0"
+		},
+		"4": {
+			"type": "Auxilary",
+			"efficiency": "-",
+			"amount": "-",
+			"preload": "-"
+		},
+		"5": {
+			"type": "Auxilary",
+			"efficiency": "-",
+			"amount": "-",
+			"preload": "-"
+		}
+	},
+	"build": {
+		"light": {
+			"JP": "",
+			"CN": "",
+			"EN": ""
+		},
+		"heavy": {
+			"JP": "",
+			"CN": "",
+			"EN": ""
+		},
+		"special": {
+			"JP": "",
+			"CN": "",
+			"EN": ""
+		},
+		"limited": {
+			"JP": "",
+			"CN": "",
+			"EN": ""
+		}
+	},
+	"drop": {
+		"droppable": "false",
+		"list": {
+			"1": {
+				"event": "",
+				"chapter": {
+					"1": {
+						"label": "Ch .1",
+						"node": {
+							"1": {
+								"drop": "✓",
+								"note": "-"
+							}
+						}
+					}
+				}
+			}
+		}
+	},
+	"lines": {
+		"skin": {
+			"1": {
+				"skin_id" : "moli",
+				"id" : "0",
+				"label" : "Maury",
+				"dialogue" : {
+					"1" : {
+						"event" : "Ship Description",
+						"media" : "",
+						"chinese" : "格里德利级驱逐舰—莫里，舷号DD-401<color=#fad545>获得后将解锁建造</color>",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "グリッドレイ級駆逐艦・モーリー（DD-401)",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Gridley-class destroyer, Maury, Hull Number DD-401<color=#fad545>Unlock build after receiving</color>",
+						"englishNote" : ""
+					},
+					"2" : {
+						"event" : "Biography",
+						"media" : "profile",
+						"chinese" : "我是格里德利级驱逐舰小队4号舰莫里，虽然是最小的妹妹，但却是白鹰短跑最快的！至于体质问题……少吃多餐才是长寿的秘诀不是嘛？",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "グリッドレイ級駆逐艦チーム四番艦モーリーです。末っ子ですけど、短距離なら白鷹（ユニオン）では一番早いと自信があります。お腹が減りやすいって？…少食して回数を増やすほうが長生きしやすいって言うでしょ？",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "I'm Maury, the fourth ship of the Gridley-class destroyer squadron. Although I'm the youngest of my class, I'm also the fastest short-distance Union ship! I'm prone to getting hungry a lot? Well, they say that light meals make you live longer, don't they?",
+						"englishNote" : ""
+					},
+					"3" : {
+						"event" : "Receive",
+						"media" : "get",
+						"chinese" : "叫我莫里就好。作为田径选手，我是白鹰最快速记录持有者，最快的时候可是有42.8节的。呃但是……马拉松就不用想了……",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "モーリーといいます。ユニオン最速の、最高速度42.8ノットの記録保持者です。でも……マラソンはちょっと無理かも……",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "You can just call me Maury. As a track athlete, I hold the Union's speed record, reaching a maximum speed of 42.8 knots. Just don't make me run a marathon...",
+						"englishNote" : ""
+					},
+					"4" : {
+						"event" : "Log in",
+						"media" : "login",
+						"chinese" : "指挥官~要和我一起热身吗",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "指揮官さん、一緒にウォーミングアップしませんか？",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Commander, want to do some warm-ups with me?",
+						"englishNote" : ""
+					},
+					"5" : {
+						"event" : "View details",
+						"media" : "detail",
+						"chinese" : "唔，为什么……每次都趁着我热身的时候……你喜欢女孩子出汗的样子吗？",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "えっと、なぜいつもウォーミングアップする時に…女の子の汗をかいている姿が気になるのですか？",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Umm... Why are you always watching me do my warm-ups? Do you like watching me sweat?",
+						"englishNote" : ""
+					},
+					"6" : {
+						"event" : "Main screen 1",
+						"media" : "main_1",
+						"chinese" : "指挥官，来运动一下吗？坐久了对身体可不好",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "指揮官さん、何か運動しませんか？座り過ぎは体によくないですよ",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Commander, want to work out a bit? Sitting for so long is terrible for your body!",
+						"englishNote" : ""
+					},
+					"7" : {
+						"event" : "Main screen 2",
+						"media" : "main_2",
+						"chinese" : "啊~啊~我以为又要去Wake Island练长跑了",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "あ～あ、またウェイク島の長距離走かと思いました…",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "I thought we were going for some long distance trip at Wake Island again.",
+						"englishNote" : ""
+					},
+					"8" : {
+						"event" : "Main screen 3",
+						"media" : "main_3",
+						"chinese" : "这，这才不是我肚子发出来的声音！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "ぼ、ぼくのお腹の音じゃないんですよ！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "I swear it wasn't my tummy making that noise!",
+						"englishNote" : ""
+					},
+					"9" : {
+						"event" : "Normal touch",
+						"media" : "touch_1",
+						"chinese" : "指挥官是在帮我缓解疲劳吗？……谢谢",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "指揮官さんがほぐしてくれているんですか？…ありがとうございます",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Are you helping me recover? ... Thank you...",
+						"englishNote" : ""
+					},
+					"10" : {
+						"event" : "Special touch",
+						"media" : "touch_2",
+						"chinese" : "！！……按摩也要适可而止",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "！！…マッサージでも、ほどほどにしてください！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "...!! Hey! There's a line you shouldn't cross when giving massages.",
+						"englishNote" : ""
+					},
+					"11" : {
+						"event" : "Mission reminder",
+						"media" : "task",
+						"chinese" : "指挥官！还有任务没有做完呢，加油冲刺一下吧",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "指揮官さん！まだ終わっていないミッションがありますよ。ラストスパートを頑張りましょう！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "You've still got some missions to finish up, Commander! Put your back into it, it's the final stretch!",
+						"englishNote" : ""
+					},
+					"12" : {
+						"event" : "Mission complete",
+						"media" : "mission_complete",
+						"chinese" : "呼啊~累死了，送来的奖励记得留瓶酸素汽水给我",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "はぁ～疲れました…ボーナスの酸素ドリンク、ぼくの分もお願いします！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Phew~ I'm exhausted... Save some Oxy-cola for me when the rewards arrive!",
+						"englishNote" : ""
+					},
+					"13" : {
+						"event" : "Mail reminder",
+						"media" : "mail",
+						"chinese" : "来新邮件了~是关于聚餐的是吗？",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "新しいメールですね。…打ち上げの件、ですか？",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "You've got new mail. It's about that celebratory party, isn't it?",
+						"englishNote" : ""
+					},
+					"14" : {
+						"event" : "Return to port",
+						"media" : "home",
+						"chinese" : "休息是为了更好的冲刺",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "休憩はより良いスプリントのためです",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Rest now so that we can sprint faster later!",
+						"englishNote" : ""
+					},
+					"15" : {
+						"event" : "Commission complete",
+						"media" : "expedition",
+						"chinese" : "有点想活动一下了……指挥官，正好有委托完成了，下一个让我去吧？",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "ちょっと運動したいですね……指揮官さん、ちょうど委託が完了しました。次はぼくに任せてもらってもいいでしょうか？",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "I need to get some exercise... Commander, a commission just got completed, so could you send me out on the next one?",
+						"englishNote" : ""
+					},
+					"16" : {
+						"event" : "Enhancing complete",
+						"media" : "upgrade",
+						"chinese" : "我还能更快……！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "まだよ…もっと早く…！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Not enough... I can still go faster...!",
+						"englishNote" : ""
+					},
+					"17" : {
+						"event" : "Flagship fight",
+						"media" : "warcry",
+						"chinese" : "速战速决吧，不然一会又要饿了！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "速戦即決で行きます！でないとまたすぐお腹空いちゃうから…",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Lets finish this quick before I get hungry!",
+						"englishNote" : ""
+					},
+					"18" : {
+						"event" : "Victory",
+						"media" : "mvp",
+						"chinese" : "我说过，他们赶不上我的速度！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "ぼくの速さに、ついてこれるはずがないって！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Like I said, those guys can't keep up with me!",
+						"englishNote" : ""
+					},
+					"19" : {
+						"event" : "Defeat",
+						"media" : "lose",
+						"chinese" : "……得赶快回家了，不能让大家担心呐",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "……早く帰って、みんなに心配させないようにしないと（しょぼん……）",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "... I need to get back before everyone starts worrying about me.",
+						"englishNote" : ""
+					},
+					"20" : {
+						"event" : "Skills",
+						"media" : "skill",
+						"chinese" : "快一点，再快一点……！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "もっと、早く…！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Faster... Faster...!",
+						"englishNote" : ""
+					},
+					"21" : {
+						"event" : "Upset",
+						"media" : "feeling1",
+						"chinese" : "抱歉，我还要练习，先走了",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "すみません、練習がありますので",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Sorry, I've got some training to do, so I gotta go!",
+						"englishNote" : ""
+					},
+					"22" : {
+						"event" : "Stranger",
+						"media" : "feeling2",
+						"chinese" : "指挥官啊，你整天就这么坐着，真的没问题么？一起去室外运动吧！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "指揮官さん、いつも座ってばかりで大丈夫ですか？外で運動でもしませんか？",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Commander, is it really okay for you to sit around all day? Get outside and do some sports!",
+						"englishNote" : ""
+					},
+					"23" : {
+						"event" : "Friendly",
+						"media" : "feeling3",
+						"chinese" : "指挥官，要我教你怎么样才能跑的更快吗？这门学问可是很深的",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "指揮官さん、どうやって早く走れるか教えましょうか？結構奥深いですよ",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Want me to teach you how to run faster, Commander? There's quite a lot to it, actually.",
+						"englishNote" : ""
+					},
+					"24" : {
+						"event" : "Crush",
+						"media" : "feeling4",
+						"chinese" : "在指挥官身边感觉能跑得更远，状态也更好，真是不可思议",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "指揮官さんがそばにいるともっと長く走れますし、コンディションもよくなります。不思議…",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "I feel like I can run even farther when I'm next to you, Commander. What an incredible feeling!",
+						"englishNote" : ""
+					},
+					"25" : {
+						"event" : "Love",
+						"media" : "feeling5",
+						"chinese" : "指挥官，来和我一起运动吧，我看到的风景也想给指挥官你看看啊",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "指揮官さん、一緒に運動しましょう。ぼくが見ている風景、指揮官さんにも見せたいです！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Commander, how about going on a jog with me? I want to share the beautiful scenery I find with you.",
+						"englishNote" : ""
+					},
+					"26" : {
+						"event" : "Promise",
+						"media" : "propose",
+						"chinese" : "我跑得再快看来也跑不出指挥官的手心呢……不过我也没打算跑出去就是了……",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "どんなに早く走れても指揮官さんの手から逃れられませんね……まあぼくは逃げたりしませんけどね…",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "No matter how fast I run, I can't escape my feelings for you, Commander...",
+						"englishNote" : ""
+					}
+				}
+			}
+		}
+	}
+}

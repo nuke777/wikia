@@ -1,11 +1,11 @@
 var pixiL2D;
 (function (pixiL2D) {
     PIXI.loader
-        .add('moc', "https://s3.us-east-2.amazonaws.com/alg-wiki.com/Ships/037_Cleveland/Live2D/skin4/kelifulan_3.moc3", { xhrType: PIXI.loaders.Resource.XHR_RESPONSE_TYPE.BUFFER })
-        .add('texture', "https://s3.us-east-2.amazonaws.com/alg-wiki.com/Ships/037_Cleveland/Live2D/skin4/texture_00.png")
-        .add('physics', "https://s3.us-east-2.amazonaws.com/alg-wiki.com/Ships/037_Cleveland/Live2D/skin4/kelifulan_3.physics3.json", { xhrType: PIXI.loaders.Resource.XHR_RESPONSE_TYPE.JSON })
-        .add('idle', "https://s3.us-east-2.amazonaws.com/alg-wiki.com/Ships/037_Cleveland/Live2D/skin4/idle.motion3.json", { xhrType: PIXI.loaders.Resource.XHR_RESPONSE_TYPE.JSON })
-        .add('login', "https://s3.us-east-2.amazonaws.com/alg-wiki.com/Ships/037_Cleveland/Live2D/skin4/login.motion3.json", { xhrType: PIXI.loaders.Resource.XHR_RESPONSE_TYPE.JSON })
+        .add('moc', "https://media.alg-wiki.com/Ships/037_Cleveland/Live2D/skin4/kelifulan_3.moc3", { xhrType: PIXI.loaders.Resource.XHR_RESPONSE_TYPE.BUFFER })
+        .add('texture', "https://media.alg-wiki.com/Ships/037_Cleveland/Live2D/skin4/texture_00.png")
+        .add('physics', "https://media.alg-wiki.com/Ships/037_Cleveland/Live2D/skin4/kelifulan_3.physics3.json", { xhrType: PIXI.loaders.Resource.XHR_RESPONSE_TYPE.JSON })
+        .add('idle', "https://media.alg-wiki.com/Ships/037_Cleveland/Live2D/skin4/idle.motion3.json", { xhrType: PIXI.loaders.Resource.XHR_RESPONSE_TYPE.JSON })
+        .add('login', "https://media.alg-wiki.com/Ships/037_Cleveland/Live2D/skin4/login.motion3.json", { xhrType: PIXI.loaders.Resource.XHR_RESPONSE_TYPE.JSON })
         .load(function (loader, resources) {
         var app = new PIXI.Application(558, 1026, { transparent: true });
         document.getElementById("l2dContainer").appendChild(app.view);

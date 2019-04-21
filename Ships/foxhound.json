@@ -1,0 +1,715 @@
+{
+	"name_reference" : "foxhound",
+	"cn_reference" : "huti",
+	"nameJP" : "フォックスハウンド",
+	"nameCN" : "狐提",
+	"ID" : "91",
+	"name" : "Foxhound",
+	"internal_id" : "201111",
+	"rarity" : "Common",
+	"initialStar" : "★☆☆☆",
+	"hull" : "Destroyer",
+	"navy" : "Royal Navy",
+	"prefix" : "HMS",
+	"buildTime" : "",
+	"class" : "F",
+	"voiceActress" : "Yuri Yamaoka",
+	"parameters": {
+		"firepower" : "D",
+		"torpedo" : "B",
+		"aviation" : "E",
+		"evasion" : "A",
+		"antiAir" : "D",
+		"hp" : "D"
+	},
+	"scrap": {
+		"gold" : "4",
+		"oil" : "3",
+		"medal" : "0"
+	},
+	"releaseDate": {
+		"JP" : "",
+		"CN" : "",
+		"KR" : "",
+		"EN" : ""
+	},
+	"artist": {
+		"name" : "",
+		"weibo" : "",
+		"twitter" : "",
+		"pixiv" : "",
+		"other" : ""
+	},
+	"enhance": {
+		"firepower" : "4",
+		"torpedo" : "22",
+		"aviation" : "0",
+		"reload" : "13"
+	},
+	"acquisitionMethod" : "Honor medal exchange, Explore Stage1-2, Light ship Construction",
+	"skill": {
+		"1" : {
+			"icon" : "1031",
+			"requirement" : "",
+			"name" : "Reload Command: Destroyers",
+			"type" : "Support",
+			"description" : "Increases the RLD of all friendly DDs by $1. Does not stack with the same skill."
+		},
+		"2" : {
+			"icon" : "1061",
+			"requirement" : "",
+			"name" : "Flank Defense",
+			"type" : "Defensive",
+			"description" : "While this ship is afloat: decreases the DMG the Main Fleet takes by $1. Does not stack with the same skill."
+		},
+		"3" : {
+			"icon" : "21041",
+			"requirement" : "",
+			"name" : "All Out Assault Ⅰ",
+			"type" : "Offensive",
+			"description" : "Activate All Out Assault Ⅰ: F Class once every 15 times the main gun is fired."
+		}
+	},
+	"skin": {
+		"1" : {
+			"id" : "huti",
+			"name" : "Foxhound",
+			"description" : "F-class destroyer ー Foxhound, Hull Number H69!",
+			"expression" : {
+				"0" : {
+					"id" : "0"
+				}
+			}
+		},
+		"2" : {
+			"id" : "huti_g",
+			"name" : "Foxhound (Retrofit) ",
+			"description" : "I've grown so much that I can't jump like I used to... Commander, are you surprised by my post-retrofit appearance? *Giggle* ",
+			"expression" : {
+				"0" : {
+					"id" : "0"
+				}
+			}
+		}
+	},
+	"defaultEquipment": {
+		"1" : {
+			"icon" : "21300",
+			"rarity" : "",
+			"name" : "Single 120mm Main Gun"
+		},
+		"1" : {
+			"icon" : "5100",
+			"rarity" : "Common",
+			"name" : "Quadruple 533mm Torpedo"
+		},
+		"3" : {
+			"icon" : "",
+			"rarity" : "",
+			"name" : ""
+		}
+	},
+	"stats": {
+		"base": {
+			"hp" : "221",
+			"firepower" : "13",
+			"torpedo" : "66",
+			"antiAir" : "28",
+			"aviation" : "0",
+			"reload" : "70",
+			"hit" : "66",
+			"evasion" : "78",
+			"speed" : "42.6",
+			"luck" : "68",
+			"asw" : "53",
+			"oxygen" : "0",
+			"ammo" : "0",
+			"cost" : "1",
+			"armor" : "Light"
+		},
+		"100": {
+			"hp" : "1144",
+			"firepower" : "62",
+			"torpedo" : "311",
+			"antiAir" : "130",
+			"aviation" : "0",
+			"reload" : "167",
+			"hit" : "171",
+			"evasion" : "203",
+			"speed" : "42.6",
+			"luck" : "68",
+			"asw" : "193",
+			"oxygen" : "0",
+			"ammo" : "0",
+			"cost" : "7",
+			"armor" : "Light"
+		},
+		"120": {
+			"hp" : "1373",
+			"firepower" : "71",
+			"torpedo" : "350",
+			"antiAir" : "150",
+			"aviation" : "0",
+			"reload" : "192",
+			"hit" : "180",
+			"evasion" : "209",
+			"speed" : "42.6",
+			"luck" : "68",
+			"asw" : "213",
+			"oxygen" : "0",
+			"ammo" : "0",
+			"cost" : "7",
+			"armor" : "Light"
+		},
+		"100retrofit": {
+			"hp" : "1309",
+			"firepower" : "97",
+			"torpedo" : "311",
+			"antiAir" : "145",
+			"aviation" : "0",
+			"reload" : "167",
+			"hit" : "171",
+			"evasion" : "243",
+			"speed" : "45.6",
+			"luck" : "68",
+			"asw" : "193",
+			"oxygen" : "0",
+			"ammo" : "0",
+			"cost" : "7",
+			"armor" : "Light"
+		},
+		"120retrofit": {
+			"hp" : "1538",
+			"firepower" : "106",
+			"torpedo" : "350",
+			"antiAir" : "165",
+			"aviation" : "0",
+			"reload" : "192",
+			"hit" : "180",
+			"evasion" : "249",
+			"speed" : "45.6",
+			"luck" : "68",
+			"asw" : "213",
+			"oxygen" : "0",
+			"ammo" : "0",
+			"cost" : "7",
+			"armor" : "Light"
+		}
+	},
+	"limitBreak": {
+		"tier1": "Unlock All Out Assault Ⅰ/Main gun efficiency +5%",
+		"tier2": "Torpedo base +1/Torpedo preload +1/Main gun efficiency +10%",
+		"tier3": "Improve All Out Assault/All weapons' efficiency +5%"
+	},
+	"equipmentLoadout": {
+		"1": {
+			"type": "Destroyer Gun",
+			"efficiency": "100%/105%/115%/120%",
+			"amount": "1/1/1/1",
+			"preload": "0/0/0/0"
+		},
+		"2": {
+			"type": "Torpedo",
+			"efficiency": "130%/130%/130%/135%",
+			"amount": "1/1/2/2",
+			"preload": "0/0/1/1"
+		},
+		"3": {
+			"type": "Anti-Air Gun",
+			"efficiency": "100%/100%/100%/105%",
+			"amount": "1/1/1/1",
+			"preload": "0/0/0/0"
+		},
+		"4": {
+			"type": "Auxilary",
+			"efficiency": "-",
+			"amount": "-",
+			"preload": "-"
+		},
+		"5": {
+			"type": "Auxilary",
+			"efficiency": "-",
+			"amount": "-",
+			"preload": "-"
+		}
+	},
+	"build": {
+		"light": {
+			"JP": "",
+			"CN": "",
+			"EN": ""
+		},
+		"heavy": {
+			"JP": "",
+			"CN": "",
+			"EN": ""
+		},
+		"special": {
+			"JP": "",
+			"CN": "",
+			"EN": ""
+		},
+		"limited": {
+			"JP": "",
+			"CN": "",
+			"EN": ""
+		}
+	},
+	"drop": {
+		"droppable": "false",
+		"list": {
+			"1": {
+				"event": "",
+				"chapter": {
+					"1": {
+						"label": "Ch .1",
+						"node": {
+							"1": {
+								"drop": "✓",
+								"note": "-"
+							}
+						}
+					}
+				}
+			}
+		}
+	},
+	"lines": {
+		"skin": {
+			"1": {
+				"skin_id" : "huti",
+				"id" : "0",
+				"label" : "Foxhound",
+				"dialogue" : {
+					"1" : {
+						"event" : "Ship Description",
+						"media" : "",
+						"chinese" : "F级驱逐舰—狐提，舷号H69",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "F級駆逐艦・フォックスハウンド（H69)",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "F-class destroyer ー Foxhound, Hull Number H69!",
+						"englishNote" : ""
+					},
+					"2" : {
+						"event" : "Biography",
+						"media" : "profile",
+						"chinese" : "我是皇家海军F级驱逐舰狐提，也被称为猎狐犬。相对其他姐妹，首次进行了专门的放大设计，所以会发育的更加好一些哦！嘿嘿……",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "ぼくはロイヤルネイビーFクラスの駆逐艦のフォックスハウンド！狐狩りが得意さ。他の姉妹艦と比べて初めて拡張設計を施されたから、発育がちょっぴりいい感じ！へへへ……",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "I'm Foxhound, the F-class destroyer of the Royal Navy. Compared to my sisters, I'm the first to get special enlarged designs, so I'm a little better developed! Hehe...",
+						"englishNote" : ""
+					},
+					"3" : {
+						"event" : "Receive",
+						"media" : "get",
+						"chinese" : "狐提号参见指挥官！欸……为什么没有九条尾巴？因为我又不是狐狸啊……总之以后请多多关照啦！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "フォックスハウンド、指揮官に報告よ！えっ狐?違うよ！ぼくは狐じゃなくて犬だからね！……とにかく、これからよろしくね！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Foxhound answering your call, Commander! Eh? Why don't I have nine tails? Because I'm not actually a fox... Anyways, I'll be in your care from now on!",
+						"englishNote" : ""
+					},
+					"4" : {
+						"event" : "Log in",
+						"media" : "login",
+						"chinese" : "指挥官~嘿嘿，今天我们要做点什么有趣的事情吗？",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "指揮官~へへへ、今日はなにか面白いことをやりたいなー",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Commander~ Hehe, what interesting things shall we do today?",
+						"englishNote" : ""
+					},
+					"5" : {
+						"event" : "View details",
+						"media" : "detail",
+						"chinese" : "姐姐说…我似乎看上去比较大一些呢……是哪里呢？",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "姉ちゃんはぼくのほうがちょっぴり大人に見えるって言うけど……何がだろう…",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Big sis said that... I seem to be bigger than her... What is she talking about?",
+						"englishNote" : ""
+					},
+					"6" : {
+						"event" : "Main screen 1",
+						"media" : "main_1",
+						"chinese" : "不想去那么冷的地方呢……",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "寒いところは嫌だよね……",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "I don't want to go to such a cold place...",
+						"englishNote" : ""
+					},
+					"7" : {
+						"event" : "Main screen 2",
+						"media" : "main_2",
+						"chinese" : "指挥官，就算是要把我当做动物，我也是狗而不是狐狸，你明白了吗？最好也不要当做狗啦！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "指揮官、ぼくのことを小動物扱いするなら、キツネじゃなくて、せめてワンワンにしてよね！いい？あ、でもワンワンもナシだ！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Commander, if you want to treat me like an animal, I'm a dog, not a fox, alright? Actually, I'm just a girl!",
+						"englishNote" : ""
+					},
+					"8" : {
+						"event" : "Main screen 3",
+						"media" : "main_3",
+						"chinese" : "指挥官，你要是往我扔骨头我就咬你哦！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "指揮官、ぼくに骨を投げたら噛むよ！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Throw a bone at me and I'll bite you instead!",
+						"englishNote" : ""
+					},
+					"9" : {
+						"event" : "Normal touch",
+						"media" : "touch_1",
+						"chinese" : "唔……别摸我啦……手好热的……",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "クゥーン……触るのをやめてよ……手がアツイよ……",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Mmm... stop touching me... Your hand is so hot...",
+						"englishNote" : ""
+					},
+					"10" : {
+						"event" : "Special touch",
+						"media" : "touch_2",
+						"chinese" : "哇，喂！？你是在想什么啊，不要乱碰啦！！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "わっ！あぅ！？何考えているの！あちこち触るのをやめてよぉ！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "HEY! What are you thinking? Stop touching me like that!",
+						"englishNote" : ""
+					},
+					"11" : {
+						"event" : "Mission reminder",
+						"media" : "task",
+						"chinese" : "还有没有完成的任务哦！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "未完了のミッションがあるよ！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "There are still unfinished missions!",
+						"englishNote" : ""
+					},
+					"12" : {
+						"event" : "Mission complete",
+						"media" : "mission_complete",
+						"chinese" : "记得领取奖励哦！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "ボーナスの受け取り、覚えておいてね！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Remember to claim your rewards!",
+						"englishNote" : ""
+					},
+					"13" : {
+						"event" : "Mail reminder",
+						"media" : "mail",
+						"chinese" : "有新的邮件呢！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "新しいメールがあるよ！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "You've got new mail!",
+						"englishNote" : ""
+					},
+					"14" : {
+						"event" : "Return to port",
+						"media" : "home",
+						"chinese" : "嗷呜……汪！……听到了？",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : " ウオーン……ワン！……聞こえちゃった？",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Awooo.... *woof*! Did you hear that?",
+						"englishNote" : ""
+					},
+					"15" : {
+						"event" : "Commission complete",
+						"media" : "expedition",
+						"chinese" : "这是委托组姐妹们的味道，她们应该完成委托回来啦~",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "（クンクン）委託チームのみんなの匂いよ。たぶんもう戻っているよ",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "*Sniff* I think... I think the girls have finished their commissions~!",
+						"englishNote" : ""
+					},
+					"16" : {
+						"event" : "Enhancing complete",
+						"media" : "upgrade",
+						"chinese" : "嗯……（嗅嗅）索敌功能变强了！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "うん……（くんくん）索敵機能が強くなったよ！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Hmm... *sniffs* My reconnaissance capabilities are improved!",
+						"englishNote" : ""
+					},
+					"17" : {
+						"event" : "Flagship fight",
+						"media" : "warcry",
+						"chinese" : "让我看看你们到底有什么伎俩~",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "さあ、何があるか見せてもらうよ！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Let me see your tricks!",
+						"englishNote" : ""
+					},
+					"18" : {
+						"event" : "Victory",
+						"media" : "mvp",
+						"chinese" : "嘿嘿嘿，狐狸再狡猾斗得过我老猎犬么~",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "へっへっへ~狐がいくらずる賢くても、このハウンドワンワンには敵わないんだから！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Hehehe, can the most cunning fox beat an old hound like me?",
+						"englishNote" : ""
+					},
+					"19" : {
+						"event" : "Defeat",
+						"media" : "lose",
+						"chinese" : "呼！还好跑得快！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "ふぅ…逃げ足が早くて助かった！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Whew! I'm glad we were quick to escape!",
+						"englishNote" : ""
+					},
+					"20" : {
+						"event" : "Skills",
+						"media" : "skill",
+						"chinese" : "我是犬不是狐啦！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "狐じゃなくて、ワンワンだよ！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "I'm not a fox, but a doggy!",
+						"englishNote" : ""
+					},
+					"21" : {
+						"event" : "Upset",
+						"media" : "feeling1",
+						"chinese" : "指挥官身上好难闻！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "指揮官から変な匂いがする！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Commander, you have a weird smell!",
+						"englishNote" : ""
+					},
+					"22" : {
+						"event" : "Stranger",
+						"media" : "feeling2",
+						"chinese" : "（嗅嗅）……指挥官闻起来，似乎有一种好闻的味道……",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "（くんくん）……指揮官からいい匂い～",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "*Sniff* ... ... Commander, you smell kind of nice for once...",
+						"englishNote" : ""
+					},
+					"23" : {
+						"event" : "Friendly",
+						"media" : "feeling3",
+						"chinese" : "指挥官，脸上有脏东西喔，不要动，我来帮你舔掉……欸，为什么是舔？……那个，身体不由自主的就……",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "指揮官、ほっぺたについてるよ？じっとしてて、取ってあげる…（ペロッ）え？なんで舐めたかって？…その、身体が勝手に…",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Commander, there's something on your face... *lick* Eh? ....Why did I lick you? Well, my body moved on its own and....",
+						"englishNote" : ""
+					},
+					"24" : {
+						"event" : "Crush",
+						"media" : "feeling4",
+						"chinese" : "指挥官！（蹭）欸嘿嘿……还是指挥官的怀里最舒服了，嘶~呼……呼……Zzzzzz……",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "しきかーん！（スリスリ）えへへ……やっぱり指揮官の懐はいっちばん気持ちいいもん！はああ～くぅ…ふぅ……Zzzzzzz……",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Commander! Ehehe... It feels so good to be held by you... *Whew*... zzz...",
+						"englishNote" : ""
+					},
+					"25" : {
+						"event" : "Love",
+						"media" : "feeling5",
+						"chinese" : "喜欢指挥官（蹭），好喜欢指挥官（蹭蹭），最喜欢指挥官了（蹭蹭蹭）",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "指揮官が好き！（ポッ）指揮官が大好き！（スリスリ）指揮官が大大大好き！（スリスリスリ）",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "I like the Commander... *rubs* I really like the Commander... *Rubs* I like Commander the most *RUBS*...",
+						"englishNote" : ""
+					},
+					"26" : {
+						"event" : "Promise",
+						"media" : "propose",
+						"chinese" : "指挥官，这是什么，看起来也不像是项圈……欸，是给我的吗？我要我要，指挥官给我的东西不管是什么我一定会好好保管的！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "指揮官、これはなぁに？首輪じゃなそうだけど……え、ぼくに？ほしいほしい！指揮官がくれたものなら、なんでも大切にするよ！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Commander, what's that? It doesn't look like a collar... Oh? It's for me? I want it, I want it! I'll treasure whatever you give me forever, Commander!",
+						"englishNote" : ""
+					}
+				}
+			},
+			"2": {
+				"skin_id" : "huti_g",
+				"id" : "9",
+				"label" : "Foxhound (Retrofit) ",
+				"dialogue" : {
+					"1" : {
+						"event" : "Ship Description",
+						"media" : "",
+						"chinese" : "",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "ぼく、すっごく大きくなっちゃって前みたいにぴょんぴょんできなくなったね……指揮官、改造されたぼくに驚いちゃった？へへへ～",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "I've grown so much that I can't jump like I used to... Commander, are you surprised by my post-retrofit appearance? *Giggle*",
+						"englishNote" : ""
+					},
+					"2" : {
+						"event" : "Biography",
+						"media" : "profile_9",
+						"chinese" : "我是皇家海军F级驱逐舰狐提，也被称为猎狐犬。在本土舰队，地中海舰队和远东舰队之间辗转，最后还去了外国~而且，我们级和E级的旗舰首次有了放大设计的概念，说不定连带我们发育也会跟着好一点呢~",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "ぼくはロイヤルネイビーFクラスの駆逐艦のフォックスハウンド！本土艦隊に地中海艦隊、極東艦隊と転々して、最後は海外に派遣されたよ！私たちFクラスとEクラスは初め拡張設計をされたから、発育がちょっぴりいい感じ！へへへ～",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "I'm the Royal Navy F-class destroyer, Foxhound! I started in the Home Fleet, got reassigned to the Mediterranean Fleet, then the Eastern Fleet, then lastly I was sent abroad! We F-class and E-class destroyers were the first to receive an enlarged design, so we have some pretty good growth! *Giggle*~",
+						"englishNote" : ""
+					},
+					"3" : {
+						"event" : "Receive",
+						"media" : "get_9",
+						"chinese" : "感觉一下子成长了许多呢，不能再和以前一样上蹿下跳了……指挥官，改造后的我有没有让你很惊讶呢，嘻嘻~",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "ぼく、すっごく大きくなっちゃって前みたいにぴょんぴょんできなくなったね……指揮官、改造されたぼくに驚いちゃった？うふふふふ",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "I've grown so much that I can't jump like I used to... Commander, are you surprised by my post-retrofit appearance? *Giggle*",
+						"englishNote" : ""
+					},
+					"4" : {
+						"event" : "Log in",
+						"media" : "login_9",
+						"chinese" : "指挥官~嘿，咳、咳咳，今天的工作也请加油",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "指揮官～えへへ…こ、コホン！今日も頑張ってね…",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Commander~! *Giggle*... *A-ahem*! Don't forget to give it your all today...",
+						"englishNote" : ""
+					},
+					"5" : {
+						"event" : "View details",
+						"media" : "detail_9",
+						"chinese" : "指挥官指挥官，你看我脖子上的铃铛，它的声音可好听啦~",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "指揮官、この鈴を見て～すっごくいい響きだよ！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Commander, listen to my bell~ It sounds super sweet!",
+						"englishNote" : ""
+					},
+					"6" : {
+						"event" : "Main screen 1",
+						"media" : "main_1_9",
+						"chinese" : "总觉得改造后指挥官不太摸摸我了，指挥官，你来摸摸我的头嘛~",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "改造されてからなんか触ってくれなくなった気がする…指揮官、頭なでなでしてよ～",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "It feels like you haven't patted me much since I got retrofitted... Commander, pat my head, c'mon~!",
+						"englishNote" : ""
+					},
+					"7" : {
+						"event" : "Main screen 2",
+						"media" : "main_2_9",
+						"chinese" : "对了指挥官，你知道吗，我还有个新名字叫卡佩勒呢~是不是很威武呀！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "そういえば指揮官、ぼくに「カペル」って名前があるんだ～どう？カッコイイ？",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "By the way, Commander, some call me \"Qu'Appelle\"~ What do you think? Does it sound cool?",
+						"englishNote" : ""
+					},
+					"8" : {
+						"event" : "Main screen 3",
+						"media" : "main_3_9",
+						"chinese" : "虽然成长了，不过有些习惯还是改不掉呢（嗅嗅）",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "成長しても癖が治らないかも…クンクン",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "It might be hard to quit my old habits, in spite of my growth... *Sniff sniff*",
+						"englishNote" : ""
+					},
+					"9" : {
+						"event" : "Normal touch",
+						"media" : "touch_1_9",
+						"chinese" : "指挥官，要我来帮忙吗？让我看看哦，嗯……这里的话我觉得呢……",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "指揮官、ぼくも手伝うよ？見せて～うん……ここはこう……こうかな……",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Commander, I can help! Show me~ Hmm... change this here... and maybe here...",
+						"englishNote" : ""
+					}
+				}
+			}
+		}
+	}
+}
