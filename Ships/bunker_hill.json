@@ -65,11 +65,20 @@
 	"skin": {
 		"1": {
 			"id": "bangkeshan",
-			"name": "バンカー・ヒル",
-			"description": "エセックス級航空母艦・バンカー・ヒル（CV-17)",
+			"name": "Bunker Hill",
+			"description": "Essex-Class Aircraft Carrier - Essex (CV-17)",
 			"expression": {
 				"0": {
 					"id": "0"
+				},
+				"1": {
+					"id": "1"
+				},
+				"2": {
+					"id": "2"
+				},
+				"3": {
+					"id": "3"
 				}
 			}
 		}
@@ -228,17 +237,29 @@
 		}
 	},
 	"drop": {
-		"droppable": "false",
+		"droppable": "true",
 		"list": {
 			"1": {
-				"event": "",
+				"event": "World",
 				"chapter": {
 					"1": {
-						"label": "Ch .1",
+						"label": "Ch. 13",
 						"node": {
 							"1": {
+								"drop": "-",
+								"note": ""
+							},
+							"2": {
+								"drop": "-",
+								"note": ""
+							},
+							"3": {
+								"drop": "-",
+								"note": ""
+							},
+							"4": {
 								"drop": "✓",
-								"note": "-"
+								"note": "Boss"
 							}
 						}
 					}
