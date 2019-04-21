@@ -123,7 +123,7 @@
 			"rarity" : "Common",
 			"name" : "Spitfire"
 		},
-		"1" : {
+		"2" : {
 			"icon" : "28000",
 			"rarity" : "Common",
 			"name" : "Swordfish"
@@ -246,13 +246,13 @@
 			"preload": "0/0/0/0"
 		},
 		"4": {
-			"type": "Auxilary",
+			"type": "Auxiliary",
 			"efficiency": "-",
 			"amount": "-",
 			"preload": "-"
 		},
 		"5": {
-			"type": "Auxilary",
+			"type": "Auxiliary",
 			"efficiency": "-",
 			"amount": "-",
 			"preload": "-"
@@ -331,7 +331,7 @@
 						"englishNote" : ""
 					},
 					"3" : {
-						"event" : "Receive",
+						"event" : "Acquisition",
 						"media" : "get",
 						"chinese" : "啊…我是…皇家海军…独角兽…指挥官…能叫你哥哥…吗？",
 						"chineseTL" : "",
@@ -343,7 +343,7 @@
 						"englishNote" : ""
 					},
 					"4" : {
-						"event" : "Log in",
+						"event" : "Login",
 						"media" : "login",
 						"chinese" : "欢迎回来，哥哥…今天也要出击吗？",
 						"chineseTL" : "",
@@ -355,7 +355,7 @@
 						"englishNote" : ""
 					},
 					"5" : {
-						"event" : "View details",
+						"event" : "Details",
 						"media" : "detail",
 						"chinese" : "哥哥…想要更多了解独角兽吗？",
 						"chineseTL" : "",
@@ -367,7 +367,7 @@
 						"englishNote" : ""
 					},
 					"6" : {
-						"event" : "Main screen 1",
+						"event" : "Main 1",
 						"media" : "main_1",
 						"chinese" : "毁灭模式什么的，是不存在的喔？",
 						"chineseTL" : "",
@@ -379,7 +379,7 @@
 						"englishNote" : ""
 					},
 					"7" : {
-						"event" : "Main screen 2",
+						"event" : "Main 2",
 						"media" : "main_2",
 						"chinese" : "优酱的角…是不会变形的喔？",
 						"chineseTL" : "",
@@ -391,7 +391,7 @@
 						"englishNote" : ""
 					},
 					"8" : {
-						"event" : "Main screen 3",
+						"event" : "Main 3",
 						"media" : "main_3",
 						"chinese" : "NーTーD？对不起…独角兽不知道哥哥在说什么 ",
 						"chineseTL" : "",
@@ -403,7 +403,7 @@
 						"englishNote" : ""
 					},
 					"9" : {
-						"event" : "Main screen 4",
+						"event" : "Main 4",
 						"media" : "main_4",
 						"chinese" : "独角兽…有一天也能变成光辉姐姐那样成熟的大人吗…？",
 						"chineseTL" : "",
@@ -415,7 +415,7 @@
 						"englishNote" : ""
 					},
 					"10" : {
-						"event" : "Normal touch",
+						"event" : "Touch",
 						"media" : "touch_1",
 						"chinese" : "嘻嘻…好痒的啦…哥哥…",
 						"chineseTL" : "",
@@ -427,7 +427,7 @@
 						"englishNote" : ""
 					},
 					"11" : {
-						"event" : "Special touch",
+						"event" : "Touch (Special)",
 						"media" : "touch_2",
 						"chinese" : "哥哥的话…可以喔？",
 						"chineseTL" : "",
@@ -439,8 +439,8 @@
 						"englishNote" : ""
 					},
 					"12" : {
-						"event" : "Rub",
-						"media" : "headtouch",
+						"event" : "Touch (Head)",
+						"media" : "touch_head",
 						"chinese" : "",
 						"chineseTL" : "",
 						"chineseNote" : "",
@@ -451,7 +451,7 @@
 						"englishNote" : ""
 					},
 					"13" : {
-						"event" : "Mission reminder",
+						"event" : "Mission",
 						"media" : "task",
 						"chinese" : "任务…不要忘记…",
 						"chineseTL" : "",
@@ -463,7 +463,7 @@
 						"englishNote" : ""
 					},
 					"14" : {
-						"event" : "Mission complete",
+						"event" : "Mission Complete",
 						"media" : "mission_complete",
 						"chinese" : "奖励…不能错过…",
 						"chineseTL" : "",
@@ -475,7 +475,7 @@
 						"englishNote" : ""
 					},
 					"15" : {
-						"event" : "Mail reminder",
+						"event" : "Mail",
 						"media" : "mail",
 						"chinese" : "邮件…要去看看吗？",
 						"chineseTL" : "",
@@ -487,7 +487,7 @@
 						"englishNote" : ""
 					},
 					"16" : {
-						"event" : "Return to port",
+						"event" : "Return to Port",
 						"media" : "home",
 						"chinese" : "舰队…平安回港…哥哥辛苦了…膝枕…也可以的喔？",
 						"chineseTL" : "",
@@ -499,7 +499,7 @@
 						"englishNote" : ""
 					},
 					"17" : {
-						"event" : "Commission complete",
+						"event" : "Commission Complete",
 						"media" : "expedition",
 						"chinese" : "委托组的姐姐们回来了…一起去迎接她们吗…哥哥？",
 						"chineseTL" : "",
@@ -511,7 +511,7 @@
 						"englishNote" : ""
 					},
 					"18" : {
-						"event" : "Enhancing complete",
+						"event" : "Enhancement",
 						"media" : "upgrade",
 						"chinese" : "独角兽…成长了吗…哥哥？",
 						"chineseTL" : "",
@@ -523,7 +523,7 @@
 						"englishNote" : ""
 					},
 					"19" : {
-						"event" : "Flagship fight",
+						"event" : "Flagship",
 						"media" : "warcry",
 						"chinese" : "后方支援就交给我吧…独角兽…会加油的…",
 						"chineseTL" : "",
@@ -559,7 +559,7 @@
 						"englishNote" : ""
 					},
 					"22" : {
-						"event" : "Skills",
+						"event" : "Skill",
 						"media" : "skill",
 						"chinese" : "独角兽……会努力的！",
 						"chineseTL" : "",
@@ -583,7 +583,7 @@
 						"englishNote" : ""
 					},
 					"24" : {
-						"event" : "Upset",
+						"event" : "Affinity (Upset)",
 						"media" : "feeling1",
 						"chinese" : "哥哥…差劲…",
 						"chineseTL" : "",
@@ -595,7 +595,7 @@
 						"englishNote" : ""
 					},
 					"25" : {
-						"event" : "Stranger",
+						"event" : "Affinity (Stranger)",
 						"media" : "feeling2",
 						"chinese" : "这孩子叫做优酱，独角兽（unicorn）的优酱…是我的挚友喔…嘻嘻…",
 						"chineseTL" : "",
@@ -607,7 +607,7 @@
 						"englishNote" : ""
 					},
 					"26" : {
-						"event" : "Friendly",
+						"event" : "Affinity (Friendly)",
 						"media" : "feeling3",
 						"chinese" : "遇到危险的时候，优酱会保护我的——有哥哥在就不会有危险？嘻嘻，哥哥好像独角兽的骑士呢…",
 						"chineseTL" : "",
@@ -619,7 +619,7 @@
 						"englishNote" : ""
 					},
 					"27" : {
-						"event" : "Crush",
+						"event" : "Affinity (Like)",
 						"media" : "feeling4",
 						"chinese" : "独角兽一直很努力…支援姐姐们也好…出击任务也好…运输任务也好…独角兽是乖孩子吧？有派上用场吧？哥哥…",
 						"chineseTL" : "",
@@ -631,7 +631,7 @@
 						"englishNote" : ""
 					},
 					"28" : {
-						"event" : "Love",
+						"event" : "Affinity (Love)",
 						"media" : "feeling5",
 						"chinese" : "在哥哥面前…任性也可以吗…？撒娇也可以吗…？独角兽…其实不是那么听话的孩子…这样也可以吗…？",
 						"chineseTL" : "",
@@ -643,7 +643,7 @@
 						"englishNote" : ""
 					},
 					"29" : {
-						"event" : "Promise",
+						"event" : "Pledge",
 						"media" : "propose",
 						"chinese" : "这么…重要的…独角兽真的…可以吗…？独角兽…会加油的…因为…最喜欢哥哥了",
 						"chineseTL" : "",
@@ -655,7 +655,7 @@
 						"englishNote" : ""
 					},
 					"30" : {
-						"event" : "Easter Egg 1(Illustrious)",
+						"event" : "Easter Egg 1 (Illustrious)",
 						"media" : "link1",
 						"chinese" : "光辉姐姐的援护…就交给我吧…！",
 						"chineseTL" : "",
@@ -686,7 +686,7 @@
 						"englishNote" : ""
 					},
 					"2" : {
-						"event" : "Receive",
+						"event" : "Acquisition",
 						"media" : "get_1",
 						"chinese" : "独角兽…变成歌姬了，诶嘿嘿…独角兽的歌，能传达到哥哥的心里就好了…",
 						"chineseTL" : "",
@@ -698,7 +698,7 @@
 						"englishNote" : ""
 					},
 					"3" : {
-						"event" : "Main screen 1",
+						"event" : "Main 1",
 						"media" : "main_1_1",
 						"chinese" : "独角兽穿上这么华丽的衣服，真的合适吗…哥哥？",
 						"chineseTL" : "",
@@ -710,7 +710,7 @@
 						"englishNote" : ""
 					},
 					"4" : {
-						"event" : "Main screen 2",
+						"event" : "Main 2",
 						"media" : "main_2_1",
 						"chinese" : "优酱…也成长了呢…嘻嘻…",
 						"chineseTL" : "",
@@ -722,7 +722,7 @@
 						"englishNote" : ""
 					},
 					"5" : {
-						"event" : "Main screen 3",
+						"event" : "Main 3",
 						"media" : "main_3_1",
 						"chinese" : "“听我唱歌吧！”嘻嘻…独角兽…是不是有点歌姬的样子了呢？",
 						"chineseTL" : "",
@@ -734,7 +734,7 @@
 						"englishNote" : ""
 					},
 					"6" : {
-						"event" : "Main screen 4",
+						"event" : "Main 4",
 						"media" : "main_4_1",
 						"chinese" : "光辉姐姐…独角兽…有没有变得成熟一点了呢？",
 						"chineseTL" : "",
@@ -746,7 +746,7 @@
 						"englishNote" : ""
 					},
 					"7" : {
-						"event" : "Normal touch",
+						"event" : "Touch",
 						"media" : "touch_1_1",
 						"chinese" : "嘻嘻…想听独角兽的歌吗…哥哥？",
 						"chineseTL" : "",
@@ -777,7 +777,7 @@
 						"englishNote" : ""
 					},
 					"2" : {
-						"event" : "Receive",
+						"event" : "Acquisition",
 						"media" : "get_2",
 						"chinese" : "这个…送给哥哥…希望哥哥会喜欢…欸？穿上这件衣服就是最好的礼物？哥、哥哥！…",
 						"chineseTL" : "",
@@ -789,7 +789,7 @@
 						"englishNote" : ""
 					},
 					"3" : {
-						"event" : "View details",
+						"event" : "Details",
 						"media" : "detail_2",
 						"chinese" : "哥、哥哥…请不要一直盯着独角兽看…呜…",
 						"chineseTL" : "",
@@ -801,7 +801,7 @@
 						"englishNote" : ""
 					},
 					"4" : {
-						"event" : "Main screen 1",
+						"event" : "Main 1",
 						"media" : "main_1_2",
 						"chinese" : "这个叫做“春联”，字是东煌的姐姐们教独角兽写的呢，欸嘿嘿…",
 						"chineseTL" : "",
@@ -813,7 +813,7 @@
 						"englishNote" : ""
 					},
 					"5" : {
-						"event" : "Main screen 2",
+						"event" : "Main 2",
 						"media" : "main_2_2",
 						"chinese" : "“爆竹”…好像是东煌的特产呢…啊，这个只是装饰，不会爆炸的…",
 						"chineseTL" : "",
@@ -825,7 +825,7 @@
 						"englishNote" : ""
 					},
 					"6" : {
-						"event" : "Main screen 3",
+						"event" : "Main 3",
 						"media" : "main_3_2",
 						"chinese" : "哥哥…独角兽有没有稍微成熟一点呢？",
 						"chineseTL" : "",
@@ -856,7 +856,7 @@
 						"englishNote" : ""
 					},
 					"2" : {
-						"event" : "Receive",
+						"event" : "Acquisition",
 						"media" : "get_3",
 						"chinese" : "啊，哥哥，你来了…嘻嘻，独角兽也刚到没多久哦。那…我们出发吧？游乐园…有点期待…",
 						"chineseTL" : "",
@@ -868,7 +868,7 @@
 						"englishNote" : ""
 					},
 					"3" : {
-						"event" : "Log in",
+						"event" : "Login",
 						"media" : "login_3",
 						"chinese" : "哥哥，独角兽有好多…想和哥哥一起玩的项目",
 						"chineseTL" : "",
@@ -880,7 +880,7 @@
 						"englishNote" : ""
 					},
 					"4" : {
-						"event" : "Main screen 1",
+						"event" : "Main 1",
 						"media" : "main_1_3",
 						"chinese" : "哥哥…坐过山车的时候，能握着你的手吗？",
 						"chineseTL" : "",
@@ -892,7 +892,7 @@
 						"englishNote" : ""
 					},
 					"5" : {
-						"event" : "Main screen 2",
+						"event" : "Main 2",
 						"media" : "main_2_3",
 						"chinese" : "摩天轮…推荐情侣共乘…诶，啊，哥哥。没、没什么…！",
 						"chineseTL" : "",
@@ -904,7 +904,7 @@
 						"englishNote" : ""
 					},
 					"6" : {
-						"event" : "Main screen 3",
+						"event" : "Main 3",
 						"media" : "main_3_3",
 						"chinese" : "旋转木马…好漂亮…诶？可以和哥哥一起…坐吗？",
 						"chineseTL" : "",
@@ -916,7 +916,7 @@
 						"englishNote" : ""
 					},
 					"7" : {
-						"event" : "Normal touch",
+						"event" : "Touch",
 						"media" : "touch_1_3",
 						"chinese" : "像这样…在游乐园和哥哥手牵手，总觉得…就像恋人一样呢，嘻嘻……",
 						"chineseTL" : "",
@@ -928,7 +928,7 @@
 						"englishNote" : ""
 					},
 					"8" : {
-						"event" : "Special touch",
+						"event" : "Touch (Special)",
 						"media" : "touch_2_3",
 						"chinese" : "哥、哥哥，这里人有点多…",
 						"chineseTL" : "",
@@ -940,7 +940,7 @@
 						"englishNote" : ""
 					},
 					"9" : {
-						"event" : "Mission reminder",
+						"event" : "Mission",
 						"media" : "task_3",
 						"chinese" : "哥哥，有重要的事的话，先去也没关系哦…？独角兽，会等着哥哥的…",
 						"chineseTL" : "",
@@ -952,7 +952,7 @@
 						"englishNote" : ""
 					},
 					"10" : {
-						"event" : "Return to port",
+						"event" : "Return to Port",
 						"media" : "home_3",
 						"chinese" : "不用那么急也没关系哦？独角兽会一直等着哥哥的",
 						"chineseTL" : "",
@@ -964,7 +964,7 @@
 						"englishNote" : ""
 					},
 					"11" : {
-						"event" : "Love",
+						"event" : "Affinity (Love)",
 						"media" : "feeling5_3",
 						"chinese" : "本来…约会之前…想了很多话想对哥哥说…但现在，觉得不用说也可以了。因为独角兽已经知道了…哥哥的心意，哥哥也能感受的吧，和哥哥一样的，独角兽的心意…",
 						"chineseTL" : "",

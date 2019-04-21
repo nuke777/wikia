@@ -88,7 +88,7 @@
 			"rarity" : "Common",
 			"name" : "双联装130mm主炮Mle1935"
 		},
-		"1" : {
+		"2" : {
 			"icon" : "5300",
 			"rarity" : "",
 			"name" : "Twin 550mm Torpedo"
@@ -211,13 +211,13 @@
 			"preload": "0/0/0/0"
 		},
 		"4": {
-			"type": "Auxilary",
+			"type": "Auxiliary",
 			"efficiency": "-",
 			"amount": "-",
 			"preload": "-"
 		},
 		"5": {
-			"type": "Auxilary",
+			"type": "Auxiliary",
 			"efficiency": "-",
 			"amount": "-",
 			"preload": "-"
@@ -296,7 +296,7 @@
 						"englishNote" : ""
 					},
 					"3" : {
-						"event" : "Receive",
+						"event" : "Acquisition",
 						"media" : "get",
 						"chinese" : "终于找到了！指挥官，请多指教啦！……名字吗？我是自由鸢尾所属，大胆级的鲁莽(Le Téméraire)哦！！",
 						"chineseTL" : "",
@@ -308,7 +308,7 @@
 						"englishNote" : ""
 					},
 					"4" : {
-						"event" : "Log in",
+						"event" : "Login",
 						"media" : "login",
 						"chinese" : "打起精神吧！今天的工作才刚刚开始！",
 						"chineseTL" : "",
@@ -320,7 +320,7 @@
 						"englishNote" : ""
 					},
 					"5" : {
-						"event" : "View details",
+						"event" : "Details",
 						"media" : "detail",
 						"chinese" : "港区的大家都很友好呢。不过，也有一些人感觉很难说上话的样子……",
 						"chineseTL" : "",
@@ -332,7 +332,7 @@
 						"englishNote" : ""
 					},
 					"6" : {
-						"event" : "Main screen 1",
+						"event" : "Main 1",
 						"media" : "main_1",
 						"chinese" : "今天又交到了别的阵营的朋友了呢！嘿嘿~",
 						"chineseTL" : "",
@@ -344,7 +344,7 @@
 						"englishNote" : ""
 					},
 					"7" : {
-						"event" : "Main screen 2",
+						"event" : "Main 2",
 						"media" : "main_2",
 						"chinese" : "啊，是昨天一起玩的人！指挥官，我先离开一下啦！",
 						"chineseTL" : "",
@@ -356,7 +356,7 @@
 						"englishNote" : ""
 					},
 					"8" : {
-						"event" : "Main screen 3",
+						"event" : "Main 3",
 						"media" : "main_3",
 						"chinese" : "如果所有人都能成为朋友的话，是不是就不会有战争了呢？",
 						"chineseTL" : "",
@@ -368,7 +368,7 @@
 						"englishNote" : ""
 					},
 					"9" : {
-						"event" : "Normal touch",
+						"event" : "Touch",
 						"media" : "touch_1",
 						"chinese" : "啊哈哈！这里有点痒啊！",
 						"chineseTL" : "",
@@ -380,7 +380,7 @@
 						"englishNote" : ""
 					},
 					"10" : {
-						"event" : "Special touch",
+						"event" : "Touch (Special)",
 						"media" : "touch_2",
 						"chinese" : "我，我还没做好心理准备啦！",
 						"chineseTL" : "",
@@ -392,7 +392,7 @@
 						"englishNote" : ""
 					},
 					"11" : {
-						"event" : "Mission reminder",
+						"event" : "Mission",
 						"media" : "task",
 						"chinese" : "还有任务呢，一鼓作气全部完成吧！",
 						"chineseTL" : "",
@@ -404,7 +404,7 @@
 						"englishNote" : ""
 					},
 					"12" : {
-						"event" : "Mission complete",
+						"event" : "Mission Complete",
 						"media" : "mission_complete",
 						"chinese" : "任务奖励已经收到了哦！……欸，要确认的吗？",
 						"chineseTL" : "",
@@ -416,7 +416,7 @@
 						"englishNote" : ""
 					},
 					"13" : {
-						"event" : "Mail reminder",
+						"event" : "Mail",
 						"media" : "mail",
 						"chinese" : "邮件！我已经帮你拆了哦！",
 						"chineseTL" : "",
@@ -428,7 +428,7 @@
 						"englishNote" : ""
 					},
 					"14" : {
-						"event" : "Return to port",
+						"event" : "Return to Port",
 						"media" : "home",
 						"chinese" : "欢迎回来！桌上的文件我都帮你收好了！……欸，那些是要回港的时候确认的吗？",
 						"chineseTL" : "",
@@ -440,7 +440,7 @@
 						"englishNote" : ""
 					},
 					"15" : {
-						"event" : "Commission complete",
+						"event" : "Commission Complete",
 						"media" : "expedition",
 						"chinese" : "指挥官，我去接委托回来的大家吧！",
 						"chineseTL" : "",
@@ -452,7 +452,7 @@
 						"englishNote" : ""
 					},
 					"16" : {
-						"event" : "Enhancing complete",
+						"event" : "Enhancement",
 						"media" : "upgrade",
 						"chinese" : "变强了呢！",
 						"chineseTL" : "",
@@ -464,7 +464,7 @@
 						"englishNote" : ""
 					},
 					"17" : {
-						"event" : "Flagship fight",
+						"event" : "Flagship",
 						"media" : "warcry",
 						"chinese" : "总之向前冲就行了吧！",
 						"chineseTL" : "",
@@ -500,7 +500,7 @@
 						"englishNote" : ""
 					},
 					"20" : {
-						"event" : "Skills",
+						"event" : "Skill",
 						"media" : "skill",
 						"chinese" : "冲——啊！",
 						"chineseTL" : "",
@@ -524,7 +524,7 @@
 						"englishNote" : ""
 					},
 					"22" : {
-						"event" : "Upset",
+						"event" : "Affinity (Upset)",
 						"media" : "feeling1",
 						"chinese" : "这样下去的话指挥官会没有朋友的！",
 						"chineseTL" : "",
@@ -536,7 +536,7 @@
 						"englishNote" : ""
 					},
 					"23" : {
-						"event" : "Stranger",
+						"event" : "Affinity (Stranger)",
 						"media" : "feeling2",
 						"chinese" : "今天也在港区里转转吧，说不定能交到新的朋友呢！",
 						"chineseTL" : "",
@@ -548,7 +548,7 @@
 						"englishNote" : ""
 					},
 					"24" : {
-						"event" : "Friendly",
+						"event" : "Affinity (Friendly)",
 						"media" : "feeling3",
 						"chinese" : "我约了朋友们一起在休息区玩游戏呢。指挥官也一起来吧！",
 						"chineseTL" : "",
@@ -560,7 +560,7 @@
 						"englishNote" : ""
 					},
 					"25" : {
-						"event" : "Crush",
+						"event" : "Affinity (Like)",
 						"media" : "feeling4",
 						"chinese" : "虽然我交了很多朋友，不过指挥官是特别的！和指挥官一起的时候，感觉最开心啦！",
 						"chineseTL" : "",
@@ -572,7 +572,7 @@
 						"englishNote" : ""
 					},
 					"26" : {
-						"event" : "Love",
+						"event" : "Affinity (Love)",
 						"media" : "feeling5",
 						"chinese" : "比朋友更好的关系的话……恋人？但是，恋人之间要怎么做，我果然还是不太明白呢…欸？像平时那样就可以了吗？",
 						"chineseTL" : "",
@@ -584,7 +584,7 @@
 						"englishNote" : ""
 					},
 					"27" : {
-						"event" : "Promise",
+						"event" : "Pledge",
 						"media" : "propose",
 						"chinese" : "我不太理解誓约是什么，应该意思就是两人永远不分开吧！从今以后，我就一直陪在你身边啦，指挥官！",
 						"chineseTL" : "",
@@ -596,7 +596,7 @@
 						"englishNote" : ""
 					},
 					"28" : {
-						"event" : "Easter Egg 1(Dunkerque)",
+						"event" : "Easter Egg 1 (Dunkerque)",
 						"media" : "link1",
 						"chinese" : "敦刻尔克小姐，我想吃马卡龙～",
 						"chineseTL" : "",

@@ -88,12 +88,12 @@
 			"rarity" : "Common",
 			"name" : "潜水艦用550mm24V魚雷"
 		},
-		"1" : {
+		"2" : {
 			"icon" : "5500",
 			"rarity" : "Common",
 			"name" : "潜水艦用550mm24V魚雷"
 		},
-		"1" : {
+		"3" : {
 			"icon" : "7340",
 			"rarity" : "Rare",
 			"name" : "双联装203mm主炮Mle1924(潜艇用)"
@@ -211,13 +211,13 @@
 			"preload": "0/0/0/0"
 		},
 		"4": {
-			"type": "Auxilary",
+			"type": "Auxiliary",
 			"efficiency": "-",
 			"amount": "-",
 			"preload": "-"
 		},
 		"5": {
-			"type": "Auxilary",
+			"type": "Auxiliary",
 			"efficiency": "-",
 			"amount": "-",
 			"preload": "-"
@@ -296,7 +296,7 @@
 						"englishNote" : ""
 					},
 					"3" : {
-						"event" : "Receive",
+						"event" : "Acquisition",
 						"media" : "get",
 						"chinese" : "你好你好，我是絮库夫！为什么巡洋体型要拿着潜艇装备？讨厌啦，人家可是正儿八经的潜艇啊！总而言之，请多指教啦～",
 						"chineseTL" : "",
@@ -308,7 +308,7 @@
 						"englishNote" : ""
 					},
 					"4" : {
-						"event" : "Log in",
+						"event" : "Login",
 						"media" : "login",
 						"chinese" : "呀，指挥官，早安~",
 						"chineseTL" : "",
@@ -320,7 +320,7 @@
 						"englishNote" : ""
 					},
 					"5" : {
-						"event" : "View details",
+						"event" : "Details",
 						"media" : "detail",
 						"chinese" : "指挥官，来制作属于我们舰队的旗帜吧~就像我这面代表自由鸢尾的旗帜一样",
 						"chineseTL" : "",
@@ -332,7 +332,7 @@
 						"englishNote" : ""
 					},
 					"6" : {
-						"event" : "Main screen 1",
+						"event" : "Main 1",
 						"media" : "main_1",
 						"chinese" : "指挥官果然也是被我的身材所吸引而把我放在身边的吧，嗯？不要害羞嘛，我不会生气的~",
 						"chineseTL" : "",
@@ -344,7 +344,7 @@
 						"englishNote" : ""
 					},
 					"7" : {
-						"event" : "Main screen 2",
+						"event" : "Main 2",
 						"media" : "main_2",
 						"chinese" : "指挥官工作也很努力呢，我也要加油~不过加油做什么好呢……",
 						"chineseTL" : "",
@@ -356,7 +356,7 @@
 						"englishNote" : ""
 					},
 					"8" : {
-						"event" : "Main screen 3",
+						"event" : "Main 3",
 						"media" : "main_3",
 						"chinese" : "指挥官，你有看到我的“路路通”吗？啊，那是我的飞机，也是我的好朋友~",
 						"chineseTL" : "",
@@ -368,7 +368,7 @@
 						"englishNote" : ""
 					},
 					"9" : {
-						"event" : "Normal touch",
+						"event" : "Touch",
 						"media" : "touch_1",
 						"chinese" : "吃好，睡好，好好战斗，其他就交给指挥官，这样的生活也不错嘛~",
 						"chineseTL" : "",
@@ -380,7 +380,7 @@
 						"englishNote" : ""
 					},
 					"10" : {
-						"event" : "Special touch",
+						"event" : "Touch (Special)",
 						"media" : "touch_2",
 						"chinese" : "指挥官，想碰的话，要好好跟我说才行哦？",
 						"chineseTL" : "",
@@ -392,7 +392,7 @@
 						"englishNote" : ""
 					},
 					"11" : {
-						"event" : "Mission reminder",
+						"event" : "Mission",
 						"media" : "task",
 						"chinese" : "好嘞，让我来看看今天的任务都有什么奖励吧！",
 						"chineseTL" : "",
@@ -404,7 +404,7 @@
 						"englishNote" : ""
 					},
 					"12" : {
-						"event" : "Mission complete",
+						"event" : "Mission Complete",
 						"media" : "mission_complete",
 						"chinese" : "喔！任务奖励里发现了好东西~",
 						"chineseTL" : "",
@@ -416,7 +416,7 @@
 						"englishNote" : ""
 					},
 					"13" : {
-						"event" : "Mail reminder",
+						"event" : "Mail",
 						"media" : "mail",
 						"chinese" : "指挥官，新邮件！……嗯？我只是提醒你去拿，没拿来过哦",
 						"chineseTL" : "",
@@ -428,7 +428,7 @@
 						"englishNote" : ""
 					},
 					"14" : {
-						"event" : "Return to port",
+						"event" : "Return to Port",
 						"media" : "home",
 						"chinese" : "指挥官，有帮我带点心吗？",
 						"chineseTL" : "",
@@ -440,7 +440,7 @@
 						"englishNote" : ""
 					},
 					"15" : {
-						"event" : "Commission complete",
+						"event" : "Commission Complete",
 						"media" : "expedition",
 						"chinese" : "指挥官，委托完成啦，我去问问她们有没有找到什么有趣的东西~",
 						"chineseTL" : "",
@@ -452,7 +452,7 @@
 						"englishNote" : ""
 					},
 					"16" : {
-						"event" : "Enhancing complete",
+						"event" : "Enhancement",
 						"media" : "upgrade",
 						"chinese" : "指挥官，干得漂亮~",
 						"chineseTL" : "",
@@ -464,7 +464,7 @@
 						"englishNote" : ""
 					},
 					"17" : {
-						"event" : "Flagship fight",
+						"event" : "Flagship",
 						"media" : "warcry",
 						"chinese" : "只不过是大点的猎物而已，上啦！",
 						"chineseTL" : "",
@@ -500,7 +500,7 @@
 						"englishNote" : ""
 					},
 					"20" : {
-						"event" : "Skills",
+						"event" : "Skill",
 						"media" : "skill",
 						"chinese" : "哼哼，你们躲得开这一招吗~",
 						"chineseTL" : "",
@@ -524,7 +524,7 @@
 						"englishNote" : ""
 					},
 					"22" : {
-						"event" : "Upset",
+						"event" : "Affinity (Upset)",
 						"media" : "feeling1",
 						"chinese" : "啊，指挥官，你继续工作吧，我没有指挥官在身边也比较开心哦",
 						"chineseTL" : "",
@@ -536,7 +536,7 @@
 						"englishNote" : ""
 					},
 					"23" : {
-						"event" : "Stranger",
+						"event" : "Affinity (Stranger)",
 						"media" : "feeling2",
 						"chinese" : "我的名字来源好像个挺有名的海盗，虽然听起来好像很帅的样子，不过我对那方面完全不感兴趣呢",
 						"chineseTL" : "",
@@ -548,7 +548,7 @@
 						"englishNote" : ""
 					},
 					"24" : {
-						"event" : "Friendly",
+						"event" : "Affinity (Friendly)",
 						"media" : "feeling3",
 						"chinese" : "嘿，指挥官，一起出去玩吗？就逛逛街，散散步，躺在草地上睡午觉什么的~",
 						"chineseTL" : "",
@@ -560,7 +560,7 @@
 						"englishNote" : ""
 					},
 					"25" : {
-						"event" : "Crush",
+						"event" : "Affinity (Like)",
 						"media" : "feeling4",
 						"chinese" : "指挥官，我发现了一个超赞的午睡场所，这个地方我只告诉你哦，你可不要告诉别人，就作为我们两个人的秘密~",
 						"chineseTL" : "",
@@ -572,7 +572,7 @@
 						"englishNote" : ""
 					},
 					"26" : {
-						"event" : "Love",
+						"event" : "Affinity (Love)",
 						"media" : "feeling5",
 						"chinese" : "嘿嘿，指挥官不觉得我们很合得来吗，步调超一致的呢，要遇到这样的人可是很难的哦，要不然我们凑一对怎么样～？",
 						"chineseTL" : "",
@@ -584,7 +584,7 @@
 						"englishNote" : ""
 					},
 					"27" : {
-						"event" : "Promise",
+						"event" : "Pledge",
 						"media" : "propose",
 						"chinese" : "指挥官要用戒指把絮库夫绑在身边吗？真是贪心呢~不过是指挥官的话，好像～我也不讨厌呢~",
 						"chineseTL" : "",

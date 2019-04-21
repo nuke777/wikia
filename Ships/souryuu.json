@@ -127,12 +127,12 @@
 			"rarity" : "Common",
 			"name" : "A6M2 Zero"
 		},
-		"1" : {
+		"2" : {
 			"icon" : "39000",
 			"rarity" : "Common",
 			"name" : "Aichi D3A Type 99"
 		},
-		"1" : {
+		"3" : {
 			"icon" : "38000",
 			"rarity" : "",
 			"name" : "Nakajima B5N"
@@ -250,13 +250,13 @@
 			"preload": "0/0/0/0"
 		},
 		"4": {
-			"type": "Auxilary",
+			"type": "Auxiliary",
 			"efficiency": "-",
 			"amount": "-",
 			"preload": "-"
 		},
 		"5": {
-			"type": "Auxilary",
+			"type": "Auxiliary",
 			"efficiency": "-",
 			"amount": "-",
 			"preload": "-"
@@ -335,7 +335,7 @@
 						"englishNote" : ""
 					},
 					"3" : {
-						"event" : "Receive",
+						"event" : "Acquisition",
 						"media" : "get",
 						"chinese" : "我是苍龙，从今往后，指挥官在做奇怪的事情之前，请务必跟我提交书面申请",
 						"chineseTL" : "",
@@ -347,7 +347,7 @@
 						"englishNote" : ""
 					},
 					"4" : {
-						"event" : "Log in",
+						"event" : "Login",
 						"media" : "login",
 						"chinese" : "指挥官，公文已经准备好了，请开始批阅吧",
 						"chineseTL" : "",
@@ -359,7 +359,7 @@
 						"englishNote" : ""
 					},
 					"5" : {
-						"event" : "View details",
+						"event" : "Details",
 						"media" : "detail",
 						"chinese" : "如果这些数据对您有所帮助的话……",
 						"chineseTL" : "",
@@ -371,7 +371,7 @@
 						"englishNote" : ""
 					},
 					"6" : {
-						"event" : "Main screen 1",
+						"event" : "Main 1",
 						"media" : "main_1",
 						"chinese" : "指挥官，发什么呆呢，请好好工作",
 						"chineseTL" : "",
@@ -383,7 +383,7 @@
 						"englishNote" : ""
 					},
 					"7" : {
-						"event" : "Main screen 2",
+						"event" : "Main 2",
 						"media" : "main_2",
 						"chinese" : "请认真点执行任务！绝对不要对奇怪的东西产生兴趣",
 						"chineseTL" : "",
@@ -395,7 +395,7 @@
 						"englishNote" : ""
 					},
 					"8" : {
-						"event" : "Main screen 3",
+						"event" : "Main 3",
 						"media" : "main_3",
 						"chinese" : "航空战队听命，全方位锁定指挥官，保证工作进行",
 						"chineseTL" : "",
@@ -407,7 +407,7 @@
 						"englishNote" : ""
 					},
 					"9" : {
-						"event" : "Normal touch",
+						"event" : "Touch",
 						"media" : "touch_1",
 						"chinese" : "……指挥官，请不要在别人工作时随便打扰",
 						"chineseTL" : "",
@@ -419,7 +419,7 @@
 						"englishNote" : ""
 					},
 					"10" : {
-						"event" : "Special touch",
+						"event" : "Touch (Special)",
 						"media" : "touch_2",
 						"chinese" : "你！……你是想让我把你的手砍下来吗？",
 						"chineseTL" : "",
@@ -431,7 +431,7 @@
 						"englishNote" : ""
 					},
 					"11" : {
-						"event" : "Mission reminder",
+						"event" : "Mission",
 						"media" : "task",
 						"chinese" : "任务也请按部就班的好好完成吧",
 						"chineseTL" : "",
@@ -443,7 +443,7 @@
 						"englishNote" : ""
 					},
 					"12" : {
-						"event" : "Mission complete",
+						"event" : "Mission Complete",
 						"media" : "mission_complete",
 						"chinese" : "这是任务完成的奖励清单，请您核对一下吧",
 						"chineseTL" : "",
@@ -455,7 +455,7 @@
 						"englishNote" : ""
 					},
 					"13" : {
-						"event" : "Mail reminder",
+						"event" : "Mail",
 						"media" : "mail",
 						"chinese" : "指挥官，有新的信件",
 						"chineseTL" : "",
@@ -467,7 +467,7 @@
 						"englishNote" : ""
 					},
 					"14" : {
-						"event" : "Return to port",
+						"event" : "Return to Port",
 						"media" : "home",
 						"chinese" : "虽然想说还有许多文件，不过就请先好好休息吧",
 						"chineseTL" : "",
@@ -479,7 +479,7 @@
 						"englishNote" : ""
 					},
 					"15" : {
-						"event" : "Commission complete",
+						"event" : "Commission Complete",
 						"media" : "expedition",
 						"chinese" : "委托组准时返港，检查成果",
 						"chineseTL" : "",
@@ -491,7 +491,7 @@
 						"englishNote" : ""
 					},
 					"16" : {
-						"event" : "Enhancing complete",
+						"event" : "Enhancement",
 						"media" : "upgrade",
 						"chinese" : "我会以行动来回报您的",
 						"chineseTL" : "",
@@ -503,7 +503,7 @@
 						"englishNote" : ""
 					},
 					"17" : {
-						"event" : "Flagship fight",
+						"event" : "Flagship",
 						"media" : "warcry",
 						"chinese" : "虽然我希望避免无意义的战斗——",
 						"chineseTL" : "",
@@ -539,7 +539,7 @@
 						"englishNote" : ""
 					},
 					"20" : {
-						"event" : "Skills",
+						"event" : "Skill",
 						"media" : "skill",
 						"chinese" : "猪、鹿、蝶！",
 						"chineseTL" : "",
@@ -563,7 +563,7 @@
 						"englishNote" : ""
 					},
 					"22" : {
-						"event" : "Upset",
+						"event" : "Affinity (Upset)",
 						"media" : "feeling1",
 						"chinese" : "请好好完成工作",
 						"chineseTL" : "",
@@ -575,7 +575,7 @@
 						"englishNote" : ""
 					},
 					"23" : {
-						"event" : "Stranger",
+						"event" : "Affinity (Stranger)",
 						"media" : "feeling2",
 						"chinese" : "有什么事，指挥官？花札？你要是有兴趣我当然不介意……那么，这是松，这是梅……",
 						"chineseTL" : "",
@@ -587,7 +587,7 @@
 						"englishNote" : ""
 					},
 					"24" : {
-						"event" : "Friendly",
+						"event" : "Affinity (Friendly)",
 						"media" : "feeling3",
 						"chinese" : "我的过去？那可没有什么好听的，不过指挥官要是感兴趣，那就一边聊一边来一局吧",
 						"chineseTL" : "",
@@ -599,7 +599,7 @@
 						"englishNote" : ""
 					},
 					"25" : {
-						"event" : "Crush",
+						"event" : "Affinity (Like)",
 						"media" : "feeling4",
 						"chinese" : "不知不觉和指挥官玩了好久的花札呢，也说了很久的话……现在回想起来，当时您说喜欢花札完全就只是想接近我的借口吧……",
 						"chineseTL" : "",
@@ -611,7 +611,7 @@
 						"englishNote" : ""
 					},
 					"26" : {
-						"event" : "Love",
+						"event" : "Affinity (Love)",
 						"media" : "feeling5",
 						"chinese" : "从花札开始，那就用花札来延续吧，呵呵，指挥官要是能从我手里赢下一局的话，我什么都答应你哦",
 						"chineseTL" : "",
@@ -623,7 +623,7 @@
 						"englishNote" : ""
 					},
 					"27" : {
-						"event" : "Promise",
+						"event" : "Pledge",
 						"media" : "propose",
 						"chinese" : "指挥官，您又偷偷用经费买了什么吧！…给我的礼物？别以为——欸？这是……！咳，咳咳……只有这次我就放过您吧",
 						"chineseTL" : "",
@@ -635,7 +635,7 @@
 						"englishNote" : ""
 					},
 					"28" : {
-						"event" : "Easter Egg 1(Hiryuu)",
+						"event" : "Easter Egg 1 (Hiryuu)",
 						"media" : "link1",
 						"chinese" : "飞龙，热身完毕了吗",
 						"chineseTL" : "",
@@ -647,7 +647,7 @@
 						"englishNote" : ""
 					},
 					"29" : {
-						"event" : "Easter Egg 2(Yorktown)",
+						"event" : "Easter Egg 2 (Yorktown)",
 						"media" : "link2",
 						"chinese" : "真是让人生不起气的人",
 						"chineseTL" : "",
@@ -678,7 +678,7 @@
 						"englishNote" : ""
 					},
 					"2" : {
-						"event" : "Receive",
+						"event" : "Acquisition",
 						"media" : "get_1",
 						"chinese" : "稍微尝试了一下和往常不一样的打扮，不知道合不合适……您觉得怎么样呢？",
 						"chineseTL" : "",
@@ -690,7 +690,7 @@
 						"englishNote" : ""
 					},
 					"3" : {
-						"event" : "Log in",
+						"event" : "Login",
 						"media" : "login_1",
 						"chinese" : "虽然是正月，还请您尽量不要把工作堆积起来",
 						"chineseTL" : "",
@@ -702,7 +702,7 @@
 						"englishNote" : ""
 					},
 					"4" : {
-						"event" : "Main screen 1",
+						"event" : "Main 1",
 						"media" : "main_1_1",
 						"chinese" : "教孩子们写贺年卡也是一件有意思的事呢，看着她们充满童趣的想法感觉被治愈了",
 						"chineseTL" : "",
@@ -714,7 +714,7 @@
 						"englishNote" : ""
 					},
 					"5" : {
-						"event" : "Main screen 2",
+						"event" : "Main 2",
 						"media" : "main_2_1",
 						"chinese" : "我也不是恶鬼，正月期间，只要能完成工作，稍微放松一些也没关系哦",
 						"chineseTL" : "",
@@ -726,7 +726,7 @@
 						"englishNote" : ""
 					},
 					"6" : {
-						"event" : "Main screen 3",
+						"event" : "Main 3",
 						"media" : "main_3_1",
 						"chinese" : "指挥官，要一起去参拜吗？",
 						"chineseTL" : "",
@@ -738,7 +738,7 @@
 						"englishNote" : ""
 					},
 					"7" : {
-						"event" : "Normal touch",
+						"event" : "Touch",
 						"media" : "touch_1_1",
 						"chinese" : "指挥官，有关正月的一些安排，您看这样可以吗？",
 						"chineseTL" : "",
@@ -750,7 +750,7 @@
 						"englishNote" : ""
 					},
 					"8" : {
-						"event" : "Special touch",
+						"event" : "Touch (Special)",
 						"media" : "touch_2_1",
 						"chinese" : "指挥官，这件衣服的设计可不是为了满足你下流的想法的……",
 						"chineseTL" : "",
@@ -793,7 +793,7 @@
 						"englishNote" : ""
 					},
 					"2" : {
-						"event" : "Receive",
+						"event" : "Acquisition",
 						"media" : "get_2",
 						"chinese" : "风纪委员苍龙是也！矫正学校的风气，端正学习的态度，然后还有……唔嗯，总之，学校的风纪就由我来维护！",
 						"chineseTL" : "",
@@ -805,7 +805,7 @@
 						"englishNote" : ""
 					},
 					"3" : {
-						"event" : "Log in",
+						"event" : "Login",
 						"media" : "login_2",
 						"chinese" : "最近，飞龙似乎有点进入叛逆期了，不再喜欢我为她选的衣服，也不再和我一起上下学了……身为姐姐，有点失落呢",
 						"chineseTL" : "",
@@ -817,7 +817,7 @@
 						"englishNote" : ""
 					},
 					"4" : {
-						"event" : "View details",
+						"event" : "Details",
 						"media" : "detail_2",
 						"chinese" : "我虽然是风纪委员，但可不想成为那种拘泥刻板令人讨厌的舰娘",
 						"chineseTL" : "",
@@ -829,7 +829,7 @@
 						"englishNote" : ""
 					},
 					"5" : {
-						"event" : "Main screen 1",
+						"event" : "Main 1",
 						"media" : "main_1_2",
 						"chinese" : "不要开玩笑了！？我家文明认真有礼貌的妹妹怎么可能成为不良少女！",
 						"chineseTL" : "",
@@ -841,7 +841,7 @@
 						"englishNote" : ""
 					},
 					"6" : {
-						"event" : "Main screen 2",
+						"event" : "Main 2",
 						"media" : "main_2_2",
 						"chinese" : "对待刚刚进入叛逆期的飞龙，是不是应该多留给她一些个人空间比较好呢……",
 						"chineseTL" : "",
@@ -853,7 +853,7 @@
 						"englishNote" : ""
 					},
 					"7" : {
-						"event" : "Main screen 3",
+						"event" : "Main 3",
 						"media" : "main_3_2",
 						"chinese" : "学校各处都布满了我的舰载机，所以，指挥官，请千万不要做出违反风纪的举动哟",
 						"chineseTL" : "",
@@ -865,7 +865,7 @@
 						"englishNote" : ""
 					},
 					"8" : {
-						"event" : "Normal touch",
+						"event" : "Touch",
 						"media" : "touch_1_2",
 						"chinese" : "明明我减少了和飞龙搭话的频率，但她却好像一天比一天不高兴……难、难道她想从我们的宿舍搬出去吗！？",
 						"chineseTL" : "",
@@ -877,7 +877,7 @@
 						"englishNote" : ""
 					},
 					"9" : {
-						"event" : "Special touch",
+						"event" : "Touch (Special)",
 						"media" : "touch_2_2",
 						"chinese" : "舰载机预备！不、不用预备了，直接轰炸！",
 						"chineseTL" : "",
@@ -889,7 +889,7 @@
 						"englishNote" : ""
 					},
 					"10" : {
-						"event" : "Commission complete",
+						"event" : "Commission Complete",
 						"media" : "expedition_2",
 						"chinese" : "飞龙和以前一样每次委托队回来都会前去迎接呢……果然她只是到了想要自由飞翔的年龄了呢……",
 						"chineseTL" : "",
@@ -920,7 +920,7 @@
 						"englishNote" : ""
 					},
 					"2" : {
-						"event" : "Receive",
+						"event" : "Acquisition",
 						"media" : "get_9",
 						"chinese" : "如果这样就能变得更强的话……指挥官，您在看什么呢？应该还有要做的事情吧？",
 						"chineseTL" : "",
@@ -932,7 +932,7 @@
 						"englishNote" : ""
 					},
 					"3" : {
-						"event" : "Log in",
+						"event" : "Login",
 						"media" : "login_9",
 						"chinese" : "回来了？这里是整理好的要处理的事务，好好完成吧。",
 						"chineseTL" : "",
@@ -944,7 +944,7 @@
 						"englishNote" : ""
 					},
 					"4" : {
-						"event" : "View details",
+						"event" : "Details",
 						"media" : "detail_9",
 						"chinese" : "不管面对什么情况，自己的判断都是最重要的哦，指挥官。",
 						"chineseTL" : "",
@@ -956,7 +956,7 @@
 						"englishNote" : ""
 					},
 					"5" : {
-						"event" : "Main screen 1",
+						"event" : "Main 1",
 						"media" : "main_1_9",
 						"chinese" : "事务都处理完了吗？没有的话还请加把劲。",
 						"chineseTL" : "",
@@ -968,7 +968,7 @@
 						"englishNote" : ""
 					},
 					"6" : {
-						"event" : "Main screen 2",
+						"event" : "Main 2",
 						"media" : "main_2_9",
 						"chinese" : "刚刚你是在发呆吗？我可是看得一清二楚。",
 						"chineseTL" : "",
@@ -980,7 +980,7 @@
 						"englishNote" : ""
 					},
 					"7" : {
-						"event" : "Main screen 3",
+						"event" : "Main 3",
 						"media" : "main_3_9",
 						"chinese" : "飞龙最近变得没那么活跃了，这是怎么了？稍微有些担心啊……",
 						"chineseTL" : "",
@@ -992,7 +992,7 @@
 						"englishNote" : ""
 					},
 					"8" : {
-						"event" : "Normal touch",
+						"event" : "Touch",
 						"media" : "touch_1_9",
 						"chinese" : "累了吗？那就休息一会，剩下的这些琐事由我来帮您完成吧。",
 						"chineseTL" : "",
@@ -1004,7 +1004,7 @@
 						"englishNote" : ""
 					},
 					"9" : {
-						"event" : "Special touch",
+						"event" : "Touch (Special)",
 						"media" : "touch_2_9",
 						"chinese" : "……惩罚就等到工作完成之后再决定吧，还请做好觉悟。",
 						"chineseTL" : "",
@@ -1016,7 +1016,7 @@
 						"englishNote" : ""
 					},
 					"10" : {
-						"event" : "Return to port",
+						"event" : "Return to Port",
 						"media" : "home_9",
 						"chinese" : "看起来指挥官已经不需要时刻督促了呢……不过！可不要松懈了趁机偷懒哦？",
 						"chineseTL" : "",

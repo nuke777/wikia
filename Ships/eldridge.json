@@ -123,7 +123,7 @@
 			"rarity" : "",
 			"name" : "76mm AA Gun"
 		},
-		"1" : {
+		"2" : {
 			"icon" : "5000",
 			"rarity" : "",
 			"name" : "Triple 533mm Torpedo"
@@ -246,13 +246,13 @@
 			"preload": "0/0/0/0"
 		},
 		"4": {
-			"type": "Auxilary",
+			"type": "Auxiliary",
 			"efficiency": "-",
 			"amount": "-",
 			"preload": "-"
 		},
 		"5": {
-			"type": "Auxilary",
+			"type": "Auxiliary",
 			"efficiency": "-",
 			"amount": "-",
 			"preload": "-"
@@ -331,7 +331,7 @@
 						"englishNote" : ""
 					},
 					"3" : {
-						"event" : "Receive",
+						"event" : "Acquisition",
 						"media" : "get",
 						"chinese" : "指挥官——埃尔德里奇，报到",
 						"chineseTL" : "",
@@ -343,7 +343,7 @@
 						"englishNote" : ""
 					},
 					"4" : {
-						"event" : "Log in",
+						"event" : "Login",
 						"media" : "login",
 						"chinese" : "指挥官，要吃吗？给你",
 						"chineseTL" : "",
@@ -355,7 +355,7 @@
 						"englishNote" : ""
 					},
 					"5" : {
-						"event" : "View details",
+						"event" : "Details",
 						"media" : "detail",
 						"chinese" : "……指挥官，好看吗",
 						"chineseTL" : "",
@@ -367,7 +367,7 @@
 						"englishNote" : ""
 					},
 					"6" : {
-						"event" : "Main screen 1",
+						"event" : "Main 1",
 						"media" : "main_1",
 						"chinese" : "指挥官，饿了，想吃东西",
 						"chineseTL" : "",
@@ -379,7 +379,7 @@
 						"englishNote" : ""
 					},
 					"7" : {
-						"event" : "Main screen 2",
+						"event" : "Main 2",
 						"media" : "main_2",
 						"chinese" : "指挥官，快看快看，我会放电",
 						"chineseTL" : "",
@@ -391,7 +391,7 @@
 						"englishNote" : ""
 					},
 					"8" : {
-						"event" : "Main screen 3",
+						"event" : "Main 3",
 						"media" : "main_3",
 						"chinese" : "指挥官，举高高",
 						"chineseTL" : "",
@@ -403,7 +403,7 @@
 						"englishNote" : ""
 					},
 					"9" : {
-						"event" : "Normal touch",
+						"event" : "Touch",
 						"media" : "touch_1",
 						"chinese" : "……？",
 						"chineseTL" : "",
@@ -415,7 +415,7 @@
 						"englishNote" : ""
 					},
 					"10" : {
-						"event" : "Special touch",
+						"event" : "Touch (Special)",
 						"media" : "touch_2",
 						"chinese" : "……（埃尔德里奇虽然面无表情，但是呆毛比了个////）",
 						"chineseTL" : "",
@@ -427,7 +427,7 @@
 						"englishNote" : ""
 					},
 					"11" : {
-						"event" : "Mission reminder",
+						"event" : "Mission",
 						"media" : "task",
 						"chinese" : "任务（埃尔德里奇的呆毛竖成了一个感叹号）",
 						"chineseTL" : "",
@@ -439,7 +439,7 @@
 						"englishNote" : ""
 					},
 					"12" : {
-						"event" : "Mission complete",
+						"event" : "Mission Complete",
 						"media" : "mission_complete",
 						"chinese" : "指挥官，报酬来了，能吃吗？",
 						"chineseTL" : "",
@@ -451,7 +451,7 @@
 						"englishNote" : ""
 					},
 					"13" : {
-						"event" : "Mail reminder",
+						"event" : "Mail",
 						"media" : "mail",
 						"chinese" : "（埃尔德里奇的身边漂浮着新信件）信，拿来了",
 						"chineseTL" : "",
@@ -463,7 +463,7 @@
 						"englishNote" : ""
 					},
 					"14" : {
-						"event" : "Return to port",
+						"event" : "Return to Port",
 						"media" : "home",
 						"chinese" : "指挥官，抱抱",
 						"chineseTL" : "",
@@ -475,7 +475,7 @@
 						"englishNote" : ""
 					},
 					"15" : {
-						"event" : "Commission complete",
+						"event" : "Commission Complete",
 						"media" : "expedition",
 						"chinese" : "（埃尔德里奇的呆毛忽然指向门口，看来有完成委托的姐妹回来了）",
 						"chineseTL" : "",
@@ -487,7 +487,7 @@
 						"englishNote" : ""
 					},
 					"16" : {
-						"event" : "Enhancing complete",
+						"event" : "Enhancement",
 						"media" : "upgrade",
 						"chinese" : "埃尔德里奇，充满力量……",
 						"chineseTL" : "",
@@ -499,7 +499,7 @@
 						"englishNote" : ""
 					},
 					"17" : {
-						"event" : "Flagship fight",
+						"event" : "Flagship",
 						"media" : "warcry",
 						"chinese" : "虽然不喜欢，会加油的",
 						"chineseTL" : "",
@@ -535,7 +535,7 @@
 						"englishNote" : ""
 					},
 					"20" : {
-						"event" : "Skills",
+						"event" : "Skill",
 						"media" : "skill",
 						"chinese" : "敌人，讨厌",
 						"chineseTL" : "",
@@ -559,7 +559,7 @@
 						"englishNote" : ""
 					},
 					"22" : {
-						"event" : "Upset",
+						"event" : "Affinity (Upset)",
 						"media" : "feeling1",
 						"chinese" : "……指挥官，讨厌。（埃尔德里奇浑身发电不让你靠近她）",
 						"chineseTL" : "",
@@ -571,7 +571,7 @@
 						"englishNote" : ""
 					},
 					"23" : {
-						"event" : "Stranger",
+						"event" : "Affinity (Stranger)",
 						"media" : "feeling2",
 						"chinese" : "……指挥官，膝盖。（埃尔德里奇看起来很希望坐在你的膝盖上，但是她在发电！）",
 						"chineseTL" : "",
@@ -583,7 +583,7 @@
 						"englishNote" : ""
 					},
 					"24" : {
-						"event" : "Friendly",
+						"event" : "Affinity (Friendly)",
 						"media" : "feeling3",
 						"chinese" : "……指挥官，飞飞。（埃尔德里奇看起来很希望你抱她起来飞飞，但是她在发电！）",
 						"chineseTL" : "",
@@ -595,7 +595,7 @@
 						"englishNote" : ""
 					},
 					"25" : {
-						"event" : "Crush",
+						"event" : "Affinity (Like)",
 						"media" : "feeling4",
 						"chinese" : "……指挥官，喜欢。（埃尔德里奇见到你就扑到了你身上，接住这份沉重的爱吧！）",
 						"chineseTL" : "",
@@ -607,7 +607,7 @@
 						"englishNote" : ""
 					},
 					"26" : {
-						"event" : "Love",
+						"event" : "Affinity (Love)",
 						"media" : "feeling5",
 						"chinese" : "指挥官，抱抱（埃尔德里奇向你伸出双手，她的周围没有丝毫电气。）",
 						"chineseTL" : "",
@@ -619,7 +619,7 @@
 						"englishNote" : ""
 					},
 					"27" : {
-						"event" : "Promise",
+						"event" : "Pledge",
 						"media" : "propose",
 						"chinese" : "唔哦哦……指挥官，这可不得了",
 						"chineseTL" : "",
@@ -631,7 +631,7 @@
 						"englishNote" : ""
 					},
 					"28" : {
-						"event" : "Easter Egg 1(Indianapolis)",
+						"event" : "Easter Egg 1 (Indianapolis)",
 						"media" : "link1",
 						"chinese" : "……你也……不喜欢说话吗？",
 						"chineseTL" : "",
@@ -662,7 +662,7 @@
 						"englishNote" : ""
 					},
 					"2" : {
-						"event" : "Receive",
+						"event" : "Acquisition",
 						"media" : "get_1",
 						"chinese" : "圣诞快乐——指挥官，圣诞装，好看吗？",
 						"chineseTL" : "",
@@ -674,7 +674,7 @@
 						"englishNote" : ""
 					},
 					"3" : {
-						"event" : "Main screen 1",
+						"event" : "Main 1",
 						"media" : "main_1_1",
 						"chinese" : "指挥官，一起吃，圣诞大餐！",
 						"chineseTL" : "",
@@ -686,7 +686,7 @@
 						"englishNote" : ""
 					},
 					"4" : {
-						"event" : "Main screen 2",
+						"event" : "Main 2",
 						"media" : "main_2_1",
 						"chinese" : "指挥官，圣诞礼物？（埃尔德里奇的呆毛竖成了期待的形状）",
 						"chineseTL" : "",
@@ -698,7 +698,7 @@
 						"englishNote" : ""
 					},
 					"5" : {
-						"event" : "Normal touch",
+						"event" : "Touch",
 						"media" : "touch_1_1",
 						"chinese" : "……指挥官，喜欢",
 						"chineseTL" : "",
@@ -729,7 +729,7 @@
 						"englishNote" : ""
 					},
 					"2" : {
-						"event" : "Receive",
+						"event" : "Acquisition",
 						"media" : "get_2",
 						"chinese" : "指挥官，这样的埃尔德里奇……喜欢吗？喵喵……把书本都弄乱了……",
 						"chineseTL" : "",
@@ -741,7 +741,7 @@
 						"englishNote" : ""
 					},
 					"3" : {
-						"event" : "Log in",
+						"event" : "Login",
 						"media" : "login_2",
 						"chinese" : "指挥官，要和埃尔德里奇…一起听歌吗？",
 						"chineseTL" : "",
@@ -753,7 +753,7 @@
 						"englishNote" : ""
 					},
 					"4" : {
-						"event" : "View details",
+						"event" : "Details",
 						"media" : "detail_2",
 						"chinese" : "指挥官……不和埃尔德里奇一起上课吗？",
 						"chineseTL" : "",
@@ -765,7 +765,7 @@
 						"englishNote" : ""
 					},
 					"5" : {
-						"event" : "Main screen 1",
+						"event" : "Main 1",
 						"media" : "main_1_2",
 						"chinese" : "在学校，没有在指挥官身边，有趣…",
 						"chineseTL" : "",
@@ -777,7 +777,7 @@
 						"englishNote" : ""
 					},
 					"6" : {
-						"event" : "Main screen 2",
+						"event" : "Main 2",
 						"media" : "main_2_2",
 						"chinese" : "学校里，大家都喜欢看埃尔德里奇放电…埃尔德里奇，很高兴！",
 						"chineseTL" : "",
@@ -789,7 +789,7 @@
 						"englishNote" : ""
 					},
 					"7" : {
-						"event" : "Normal touch",
+						"event" : "Touch",
 						"media" : "touch_1_2",
 						"chinese" : "指挥官，背背！",
 						"chineseTL" : "",
@@ -801,7 +801,7 @@
 						"englishNote" : ""
 					},
 					"8" : {
-						"event" : "Flagship fight",
+						"event" : "Flagship",
 						"media" : "warcry_2",
 						"chinese" : "这是今天的作业……吗？",
 						"chineseTL" : "",
@@ -832,7 +832,7 @@
 						"englishNote" : ""
 					},
 					"2" : {
-						"event" : "Receive",
+						"event" : "Acquisition",
 						"media" : "get_3",
 						"chinese" : "指挥官，重樱的新年，好像很好玩，一起去……？（期待的眼神）",
 						"chineseTL" : "",
@@ -844,7 +844,7 @@
 						"englishNote" : ""
 					},
 					"3" : {
-						"event" : "Log in",
+						"event" : "Login",
 						"media" : "login_3",
 						"chinese" : "指挥官，陪我玩",
 						"chineseTL" : "",
@@ -856,7 +856,7 @@
 						"englishNote" : ""
 					},
 					"4" : {
-						"event" : "View details",
+						"event" : "Details",
 						"media" : "detail_3",
 						"chinese" : "这件衣服，好看，但是不好抱抱，失望……",
 						"chineseTL" : "",
@@ -868,7 +868,7 @@
 						"englishNote" : ""
 					},
 					"5" : {
-						"event" : "Main screen 1",
+						"event" : "Main 1",
 						"media" : "main_1_3",
 						"chinese" : "指挥官，你看，头上的球，好大，摸摸看？",
 						"chineseTL" : "",
@@ -880,7 +880,7 @@
 						"englishNote" : ""
 					},
 					"6" : {
-						"event" : "Main screen 2",
+						"event" : "Main 2",
 						"media" : "main_2_3",
 						"chinese" : "指挥官，眼镜，好看吗？",
 						"chineseTL" : "",
@@ -892,7 +892,7 @@
 						"englishNote" : ""
 					},
 					"7" : {
-						"event" : "Main screen 3",
+						"event" : "Main 3",
 						"media" : "main_3_3",
 						"chinese" : "指挥官，樱花，看（埃尔德里奇的呆毛画出了一片樱花花瓣）",
 						"chineseTL" : "",
@@ -904,7 +904,7 @@
 						"englishNote" : ""
 					},
 					"8" : {
-						"event" : "Normal touch",
+						"event" : "Touch",
 						"media" : "touch_1_3",
 						"chinese" : "电……？那是静电，我不会电指挥官",
 						"chineseTL" : "",
@@ -916,7 +916,7 @@
 						"englishNote" : ""
 					},
 					"9" : {
-						"event" : "Return to port",
+						"event" : "Return to Port",
 						"media" : "home_3",
 						"chinese" : "指挥官，给你好吃的",
 						"chineseTL" : "",
@@ -928,7 +928,7 @@
 						"englishNote" : ""
 					},
 					"10" : {
-						"event" : "Flagship fight",
+						"event" : "Flagship",
 						"media" : "warcry_3",
 						"chinese" : "节日，不许打扰",
 						"chineseTL" : "",
@@ -940,7 +940,7 @@
 						"englishNote" : ""
 					},
 					"11" : {
-						"event" : "Love",
+						"event" : "Affinity (Love)",
 						"media" : "feeling5_3",
 						"chinese" : "指挥官，牵手，新年也想在一起……（埃尔德里奇的呆毛画出了一个爱心）",
 						"chineseTL" : "",

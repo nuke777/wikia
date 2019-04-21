@@ -113,7 +113,7 @@
 			"rarity" : "Common",
 			"name" : "127mm Mounted Gun"
 		},
-		"1" : {
+		"2" : {
 			"icon" : "35100",
 			"rarity" : "Common",
 			"name" : "Triple 610mm Torpedo"
@@ -236,13 +236,13 @@
 			"preload": "0/0/0/0"
 		},
 		"4": {
-			"type": "Auxilary",
+			"type": "Auxiliary",
 			"efficiency": "-",
 			"amount": "-",
 			"preload": "-"
 		},
 		"5": {
-			"type": "Auxilary",
+			"type": "Auxiliary",
 			"efficiency": "-",
 			"amount": "-",
 			"preload": "-"
@@ -321,7 +321,7 @@
 						"englishNote" : ""
 					},
 					"3" : {
-						"event" : "Receive",
+						"event" : "Acquisition",
 						"media" : "get",
 						"chinese" : "有明级驱逐舰夕暮，从今以后请多多指教，指挥官大人——初春?我是有明级哦，唯独这点我是不会退让的！",
 						"chineseTL" : "",
@@ -333,7 +333,7 @@
 						"englishNote" : ""
 					},
 					"4" : {
-						"event" : "Log in",
+						"event" : "Login",
 						"media" : "login",
 						"chinese" : "指挥官大人，您辛苦了",
 						"chineseTL" : "",
@@ -345,7 +345,7 @@
 						"englishNote" : ""
 					},
 					"5" : {
-						"event" : "View details",
+						"event" : "Details",
 						"media" : "detail",
 						"chinese" : "呐…究竟要怎么做，才能再次见到姐姐呢？",
 						"chineseTL" : "",
@@ -357,7 +357,7 @@
 						"englishNote" : ""
 					},
 					"6" : {
-						"event" : "Main screen 1",
+						"event" : "Main 1",
 						"media" : "main_1",
 						"chinese" : "听说只要泡一壶茶，任务就能很快完成？咦，是酒吗？ ",
 						"chineseTL" : "",
@@ -369,7 +369,7 @@
 						"englishNote" : ""
 					},
 					"7" : {
-						"event" : "Main screen 2",
+						"event" : "Main 2",
 						"media" : "main_2",
 						"chinese" : "即使只有些微的希望，只要不断地尝试下去，终究会有实现的一天吧 ",
 						"chineseTL" : "",
@@ -381,7 +381,7 @@
 						"englishNote" : ""
 					},
 					"8" : {
-						"event" : "Main screen 3",
+						"event" : "Main 3",
 						"media" : "main_3",
 						"chinese" : "飞鹰要来吗？她的眼神不好，我有些担心……",
 						"chineseTL" : "",
@@ -393,7 +393,7 @@
 						"englishNote" : ""
 					},
 					"9" : {
-						"event" : "Normal touch",
+						"event" : "Touch",
 						"media" : "touch_1",
 						"chinese" : "诶……诶，嗯嗯，我有在听哦",
 						"chineseTL" : "",
@@ -405,7 +405,7 @@
 						"englishNote" : ""
 					},
 					"10" : {
-						"event" : "Special touch",
+						"event" : "Touch (Special)",
 						"media" : "touch_2",
 						"chinese" : "指挥官大人，你做什么！",
 						"chineseTL" : "",
@@ -417,7 +417,7 @@
 						"englishNote" : ""
 					},
 					"11" : {
-						"event" : "Mission reminder",
+						"event" : "Mission",
 						"media" : "task",
 						"chinese" : "在执行任务之前，先沏一壶茶吧",
 						"chineseTL" : "",
@@ -429,7 +429,7 @@
 						"englishNote" : ""
 					},
 					"12" : {
-						"event" : "Mission complete",
+						"event" : "Mission Complete",
 						"media" : "mission_complete",
 						"chinese" : "任务奖励的确认，也能像完成任务这么迅速就好了呢",
 						"chineseTL" : "",
@@ -441,7 +441,7 @@
 						"englishNote" : ""
 					},
 					"13" : {
-						"event" : "Mail reminder",
+						"event" : "Mail",
 						"media" : "mail",
 						"chinese" : "指挥官大人，这是茶点和最新的邮件",
 						"chineseTL" : "",
@@ -453,7 +453,7 @@
 						"englishNote" : ""
 					},
 					"14" : {
-						"event" : "Return to port",
+						"event" : "Return to Port",
 						"media" : "home",
 						"chinese" : "…嗯？有人回来了？是姐姐吗？…抱歉，刚刚做了个梦…",
 						"chineseTL" : "",
@@ -465,7 +465,7 @@
 						"englishNote" : ""
 					},
 					"15" : {
-						"event" : "Commission complete",
+						"event" : "Commission Complete",
 						"media" : "expedition",
 						"chinese" : "委托已经完成了！指挥官大人，要不要再试着建造一次呢，或许这次…",
 						"chineseTL" : "",
@@ -477,7 +477,7 @@
 						"englishNote" : ""
 					},
 					"16" : {
-						"event" : "Enhancing complete",
+						"event" : "Enhancement",
 						"media" : "upgrade",
 						"chinese" : "如果我能更快一点，也许比叡姐……",
 						"chineseTL" : "",
@@ -489,7 +489,7 @@
 						"englishNote" : ""
 					},
 					"17" : {
-						"event" : "Flagship fight",
+						"event" : "Flagship",
 						"media" : "warcry",
 						"chinese" : "全员按照作战预案，各就各位！",
 						"chineseTL" : "",
@@ -525,7 +525,7 @@
 						"englishNote" : ""
 					},
 					"20" : {
-						"event" : "Skills",
+						"event" : "Skill",
 						"media" : "skill",
 						"chinese" : "为了终有一日的重逢……",
 						"chineseTL" : "",
@@ -537,7 +537,7 @@
 						"englishNote" : ""
 					},
 					"21" : {
-						"event" : "Upset",
+						"event" : "Affinity (Upset)",
 						"media" : "feeling1",
 						"chinese" : "指挥官大人，关于明天的事项—嗯，我想一次确认完毕…",
 						"chineseTL" : "",
@@ -549,7 +549,7 @@
 						"englishNote" : ""
 					},
 					"22" : {
-						"event" : "Stranger",
+						"event" : "Affinity (Stranger)",
 						"media" : "feeling2",
 						"chinese" : "初春姐姐待我很温柔，就像对待真正的妹妹一样……可是……",
 						"chineseTL" : "",
@@ -561,7 +561,7 @@
 						"englishNote" : ""
 					},
 					"23" : {
-						"event" : "Friendly",
+						"event" : "Affinity (Friendly)",
 						"media" : "feeling3",
 						"chinese" : "啊，是指挥官大人！黑烟？我不太清楚，刚才我在挑战炸可乐饼",
 						"chineseTL" : "",
@@ -573,7 +573,7 @@
 						"englishNote" : ""
 					},
 					"24" : {
-						"event" : "Crush",
+						"event" : "Affinity (Like)",
 						"media" : "feeling4",
 						"chinese" : "啊，是指挥官大人！诶、不，并不是故意视而不见……抱歉，我刚刚走神",
 						"chineseTL" : "",
@@ -585,7 +585,7 @@
 						"englishNote" : ""
 					},
 					"25" : {
-						"event" : "Love",
+						"event" : "Affinity (Love)",
 						"media" : "feeling5",
 						"chinese" : "檐下凉风的吹拂，廊中风铃的絮语，都仿佛回到了和姐姐共度的那个炎夏……不过，现在坐我旁边的，只有指挥官大人呢",
 						"chineseTL" : "",
@@ -597,7 +597,7 @@
 						"englishNote" : ""
 					},
 					"26" : {
-						"event" : "Promise",
+						"event" : "Pledge",
 						"media" : "propose",
 						"chinese" : "指挥官大人……在姐姐来之前，我可以暂且依靠你吗？是吗……谢谢……我会努力将指挥官大人视为共度一生之人的",
 						"chineseTL" : "",
@@ -628,7 +628,7 @@
 						"englishNote" : ""
 					},
 					"2" : {
-						"event" : "Receive",
+						"event" : "Acquisition",
 						"media" : "get_1",
 						"chinese" : "一介女仆夕暮，此刻起，将生涯奉献给姐姐和指挥官大人——呀啊，裙、裙子被吹起来了！",
 						"chineseTL" : "",
@@ -640,7 +640,7 @@
 						"englishNote" : ""
 					},
 					"3" : {
-						"event" : "Log in",
+						"event" : "Login",
 						"media" : "login_1",
 						"chinese" : "欢迎回来，指挥官大人，果汁已经准备好了，文档……文档还在整理中……对不起……",
 						"chineseTL" : "",
@@ -652,7 +652,7 @@
 						"englishNote" : ""
 					},
 					"4" : {
-						"event" : "View details",
+						"event" : "Details",
 						"media" : "detail_1",
 						"chinese" : "指挥官大人，我从贝尔法斯特小姐身上学到了很多……如果姐姐看到了现在的我，会不会大吃一惊呢",
 						"chineseTL" : "",
@@ -664,7 +664,7 @@
 						"englishNote" : ""
 					},
 					"5" : {
-						"event" : "Main screen 1",
+						"event" : "Main 1",
 						"media" : "main_1_1",
 						"chinese" : "爱丁堡小姐也一直很热心地教我女仆的各项技艺……虽然最后都教错了，但我想学习她的这份热情与温柔！",
 						"chineseTL" : "",
@@ -676,7 +676,7 @@
 						"englishNote" : ""
 					},
 					"6" : {
-						"event" : "Main screen 3",
+						"event" : "Main 3",
 						"media" : "main_3_1",
 						"chinese" : "三笠前辈看到我后一脸失落地念叨”岂有此理，竟然不是大正女仆“什么的……可我本来就不是大正年间的啊……",
 						"chineseTL" : "",
@@ -688,7 +688,7 @@
 						"englishNote" : ""
 					},
 					"7" : {
-						"event" : "Normal touch",
+						"event" : "Touch",
 						"media" : "touch_1_1",
 						"chinese" : "呼……文档已经整理完毕了，接下来的工作是……",
 						"chineseTL" : "",
@@ -700,7 +700,7 @@
 						"englishNote" : ""
 					},
 					"8" : {
-						"event" : "Special touch",
+						"event" : "Touch (Special)",
 						"media" : "touch_2_1",
 						"chinese" : "……指挥官大人也请不要这么无聊！",
 						"chineseTL" : "",
@@ -712,7 +712,7 @@
 						"englishNote" : ""
 					},
 					"9" : {
-						"event" : "Mail reminder",
+						"event" : "Mail",
 						"media" : "mail_1",
 						"chinese" : "摩耶为我拍了照片，说可以随信寄给姐姐让她看看我现在的模样~",
 						"chineseTL" : "",
@@ -724,7 +724,7 @@
 						"englishNote" : ""
 					},
 					"10" : {
-						"event" : "Return to port",
+						"event" : "Return to Port",
 						"media" : "home_1",
 						"chinese" : "欢迎回来，我本来想把耳朵和尾巴缩回去，但翔鹤说这样更可爱……不过“呼喵”之类的口癖太羞耻了，实在说不出……",
 						"chineseTL" : "",
@@ -748,7 +748,7 @@
 						"englishNote" : ""
 					},
 					"12" : {
-						"event" : "Friendly",
+						"event" : "Affinity (Friendly)",
 						"media" : "feeling3_1",
 						"chinese" : "这是我用从皇家学来的方法烘焙的蛋糕，这次绝对绝对是成功了的哦！",
 						"chineseTL" : "",
@@ -760,7 +760,7 @@
 						"englishNote" : ""
 					},
 					"13" : {
-						"event" : "Love",
+						"event" : "Affinity (Love)",
 						"media" : "feeling5_1",
 						"chinese" : "女仆的职责是成为他人的港湾……指挥官大人，现在的我，是你的温柔港湾吗？",
 						"chineseTL" : "",
@@ -791,7 +791,7 @@
 						"englishNote" : ""
 					},
 					"2" : {
-						"event" : "Receive",
+						"event" : "Acquisition",
 						"media" : "get_2",
 						"chinese" : "东煌的新年和东煌的新服装，哪一样都让人心情愉快呢~姐姐也一定会喜欢这身衣服的。指挥官大人，您觉得如何？",
 						"chineseTL" : "",
@@ -803,7 +803,7 @@
 						"englishNote" : ""
 					},
 					"3" : {
-						"event" : "Log in",
+						"event" : "Login",
 						"media" : "login_2",
 						"chinese" : "欢迎回来，指挥官大人。按照东煌新年的习俗，我正准备去给姐姐“拜年”…您也想一起去吗？",
 						"chineseTL" : "",
@@ -815,7 +815,7 @@
 						"englishNote" : ""
 					},
 					"4" : {
-						"event" : "Main screen 1",
+						"event" : "Main 1",
 						"media" : "main_1_2",
 						"chinese" : "东煌的新年…也吃年糕吗？或许应该喜欢什么就吃什么吧。",
 						"chineseTL" : "",
@@ -827,7 +827,7 @@
 						"englishNote" : ""
 					},
 					"5" : {
-						"event" : "Main screen 2",
+						"event" : "Main 2",
 						"media" : "main_2_2",
 						"chinese" : " 嗯？来自指挥官大人的红包？请别忘记给姐姐也准备一份呢。",
 						"chineseTL" : "",
@@ -839,7 +839,7 @@
 						"englishNote" : ""
 					},
 					"6" : {
-						"event" : "Main screen 3",
+						"event" : "Main 3",
 						"media" : "main_3_2",
 						"chinese" : " 指挥官大人，新的一年里，我们的愿望都会实现的…吧？不，一定会实现的。",
 						"chineseTL" : "",
@@ -851,7 +851,7 @@
 						"englishNote" : ""
 					},
 					"7" : {
-						"event" : "Normal touch",
+						"event" : "Touch",
 						"media" : "touch_1_2",
 						"chinese" : "从东煌的大家那里学来的春节习俗，得跟姐姐分享一下才行呢",
 						"chineseTL" : "",
@@ -863,7 +863,7 @@
 						"englishNote" : ""
 					},
 					"8" : {
-						"event" : "Mail reminder",
+						"event" : "Mail",
 						"media" : "mail_2",
 						"chinese" : "刚收到的信件帮您放在这里了，会是姐姐寄来的贺年卡吗？",
 						"chineseTL" : "",

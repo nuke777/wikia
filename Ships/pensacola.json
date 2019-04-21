@@ -86,7 +86,7 @@
 			"rarity" : "",
 			"name" : ""
 		},
-		"1" : {
+		"3" : {
 			"icon" : "16000",
 			"rarity" : "",
 			"name" : "20mm AA Oerlikon"
@@ -204,13 +204,13 @@
 			"preload": "0/0/0/0"
 		},
 		"4": {
-			"type": "Auxilary",
+			"type": "Auxiliary",
 			"efficiency": "-",
 			"amount": "-",
 			"preload": "-"
 		},
 		"5": {
-			"type": "Auxilary",
+			"type": "Auxiliary",
 			"efficiency": "-",
 			"amount": "-",
 			"preload": "-"
@@ -289,7 +289,7 @@
 						"englishNote" : ""
 					},
 					"3" : {
-						"event" : "Receive",
+						"event" : "Acquisition",
 						"media" : "get",
 						"chinese" : "你就是这支舰队的指挥官？看起来挺能干的嘛……OKOK，我是彭萨科拉，今天起就是你的部下了，请多指教",
 						"chineseTL" : "",
@@ -301,7 +301,7 @@
 						"englishNote" : ""
 					},
 					"4" : {
-						"event" : "Log in",
+						"event" : "Login",
 						"media" : "login",
 						"chinese" : "指挥官有什么要我帮忙的吗？我随时都OK哦",
 						"chineseTL" : "",
@@ -313,7 +313,7 @@
 						"englishNote" : ""
 					},
 					"5" : {
-						"event" : "View details",
+						"event" : "Details",
 						"media" : "detail",
 						"chinese" : "整备？OK，有什么奇怪的地方尽管说",
 						"chineseTL" : "",
@@ -325,7 +325,7 @@
 						"englishNote" : ""
 					},
 					"6" : {
-						"event" : "Main screen 1",
+						"event" : "Main 1",
 						"media" : "main_1",
 						"chinese" : "我和企业大姐头有个一样的外号，听起来很酷吧？",
 						"chineseTL" : "",
@@ -337,7 +337,7 @@
 						"englishNote" : ""
 					},
 					"7" : {
-						"event" : "Main screen 2",
+						"event" : "Main 2",
 						"media" : "main_2",
 						"chinese" : "累了就休息一下不要勉强，只要我能帮上忙的尽管说吧",
 						"chineseTL" : "",
@@ -349,7 +349,7 @@
 						"englishNote" : ""
 					},
 					"8" : {
-						"event" : "Main screen 3",
+						"event" : "Main 3",
 						"media" : "main_3",
 						"chinese" : "别看我这样，我也是见证过许多大战的，想听听吗？OK~那就从那里开始吧……",
 						"chineseTL" : "",
@@ -361,7 +361,7 @@
 						"englishNote" : ""
 					},
 					"9" : {
-						"event" : "Normal touch",
+						"event" : "Touch",
 						"media" : "touch_1",
 						"chinese" : "出击的话我随时OK~",
 						"chineseTL" : "",
@@ -373,7 +373,7 @@
 						"englishNote" : ""
 					},
 					"10" : {
-						"event" : "Special touch",
+						"event" : "Touch (Special)",
 						"media" : "touch_2",
 						"chinese" : "我说指挥官，这个手势可不是那个意思啊！",
 						"chineseTL" : "",
@@ -385,7 +385,7 @@
 						"englishNote" : ""
 					},
 					"11" : {
-						"event" : "Mission reminder",
+						"event" : "Mission",
 						"media" : "task",
 						"chinese" : "新的任务？OK，一起搞定它吧",
 						"chineseTL" : "",
@@ -397,7 +397,7 @@
 						"englishNote" : ""
 					},
 					"12" : {
-						"event" : "Mission complete",
+						"event" : "Mission Complete",
 						"media" : "mission_complete",
 						"chinese" : "指挥官，奖励别忘了领啊",
 						"chineseTL" : "",
@@ -409,7 +409,7 @@
 						"englishNote" : ""
 					},
 					"13" : {
-						"event" : "Mail reminder",
+						"event" : "Mail",
 						"media" : "mail",
 						"chinese" : "这里是邮件，指挥官",
 						"chineseTL" : "",
@@ -421,7 +421,7 @@
 						"englishNote" : ""
 					},
 					"14" : {
-						"event" : "Return to port",
+						"event" : "Return to Port",
 						"media" : "home",
 						"chinese" : "指挥官要按摩一下吗？……OK，坐好了！",
 						"chineseTL" : "",
@@ -433,7 +433,7 @@
 						"englishNote" : ""
 					},
 					"15" : {
-						"event" : "Commission complete",
+						"event" : "Commission Complete",
 						"media" : "expedition",
 						"chinese" : "喂，有委托完成了，怠慢辛勤工作的姐妹们可不OK啊",
 						"chineseTL" : "",
@@ -445,7 +445,7 @@
 						"englishNote" : ""
 					},
 					"16" : {
-						"event" : "Enhancing complete",
+						"event" : "Enhancement",
 						"media" : "upgrade",
 						"chinese" : "接下来要我出场了吧？OK~",
 						"chineseTL" : "",
@@ -457,7 +457,7 @@
 						"englishNote" : ""
 					},
 					"17" : {
-						"event" : "Flagship fight",
+						"event" : "Flagship",
 						"media" : "warcry",
 						"chinese" : "这点程度的对手，用五分力就OK了吧",
 						"chineseTL" : "",
@@ -493,7 +493,7 @@
 						"englishNote" : ""
 					},
 					"20" : {
-						"event" : "Skills",
+						"event" : "Skill",
 						"media" : "skill",
 						"chinese" : "主炮OK，装甲OK，上了！",
 						"chineseTL" : "",
@@ -505,7 +505,7 @@
 						"englishNote" : ""
 					},
 					"21" : {
-						"event" : "Upset",
+						"event" : "Affinity (Upset)",
 						"media" : "feeling1",
 						"chinese" : "指挥官，你完全不OK啊！",
 						"chineseTL" : "",
@@ -517,7 +517,7 @@
 						"englishNote" : ""
 					},
 					"22" : {
-						"event" : "Stranger",
+						"event" : "Affinity (Stranger)",
 						"media" : "feeling2",
 						"chinese" : "指挥官有什么问题拜托我就OK了，我会帮你一把的",
 						"chineseTL" : "",
@@ -529,7 +529,7 @@
 						"englishNote" : ""
 					},
 					"23" : {
-						"event" : "Friendly",
+						"event" : "Affinity (Friendly)",
 						"media" : "feeling3",
 						"chinese" : "出去走走？OK啊，去哪里你来定吧，我都行，只要你高兴就好",
 						"chineseTL" : "",
@@ -541,7 +541,7 @@
 						"englishNote" : ""
 					},
 					"24" : {
-						"event" : "Crush",
+						"event" : "Affinity (Like)",
 						"media" : "feeling4",
 						"chinese" : "累了？OK，来躺我大腿上吧，等时间差不多了我会叫你的，好好休息吧指挥官",
 						"chineseTL" : "",
@@ -553,7 +553,7 @@
 						"englishNote" : ""
 					},
 					"25" : {
-						"event" : "Love",
+						"event" : "Affinity (Love)",
 						"media" : "feeling5",
 						"chinese" : "想吃我做的饭？OK啊，今天想吃什么，尽管说，我会做好等你的",
 						"chineseTL" : "",
@@ -565,7 +565,7 @@
 						"englishNote" : ""
 					},
 					"26" : {
-						"event" : "Promise",
+						"event" : "Pledge",
 						"media" : "propose",
 						"chinese" : "这个给我？O……等等，你是认真的？？等等等等……不，OK当然是OK，但是，怎么说……唔，算了！既然是你送给我的，我当然是OK啦",
 						"chineseTL" : "",

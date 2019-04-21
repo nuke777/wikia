@@ -142,7 +142,7 @@
 			"rarity" : "",
 			"name" : ""
 		},
-		"1" : {
+		"3" : {
 			"icon" : "16200",
 			"rarity" : "Common",
 			"name" : "Quadruple 28mm Chicago Piano"
@@ -260,13 +260,13 @@
 			"preload": "0/0/0/0"
 		},
 		"4": {
-			"type": "Auxilary",
+			"type": "Auxiliary",
 			"efficiency": "-",
 			"amount": "-",
 			"preload": "-"
 		},
 		"5": {
-			"type": "Auxilary",
+			"type": "Auxiliary",
 			"efficiency": "-",
 			"amount": "-",
 			"preload": "-"
@@ -345,7 +345,7 @@
 						"englishNote" : ""
 					},
 					"3" : {
-						"event" : "Receive",
+						"event" : "Acquisition",
 						"media" : "get",
 						"chinese" : "我是…弗莱彻级第一艘下水的尼古拉斯…比起出去战斗，我更希望能待在港区里，呐，可以吗？",
 						"chineseTL" : "",
@@ -357,7 +357,7 @@
 						"englishNote" : ""
 					},
 					"4" : {
-						"event" : "Log in",
+						"event" : "Login",
 						"media" : "login",
 						"chinese" : "和指挥官不同，我只想待在这里，哪儿也不想去……",
 						"chineseTL" : "",
@@ -369,7 +369,7 @@
 						"englishNote" : ""
 					},
 					"5" : {
-						"event" : "View details",
+						"event" : "Details",
 						"media" : "detail",
 						"chinese" : "呼呼……咦，指、指挥官？难、难道我因为缺勤太多必须要出击了吗！？",
 						"chineseTL" : "",
@@ -381,7 +381,7 @@
 						"englishNote" : ""
 					},
 					"6" : {
-						"event" : "Main screen 1",
+						"event" : "Main 1",
 						"media" : "main_1",
 						"chinese" : "重樱的鱼雷……好可怕……",
 						"chineseTL" : "",
@@ -393,7 +393,7 @@
 						"englishNote" : ""
 					},
 					"7" : {
-						"event" : "Main screen 2",
+						"event" : "Main 2",
 						"media" : "main_2",
 						"chinese" : "指挥官向海伦娜姐姐学习一下如何纵容我怎么样？",
 						"chineseTL" : "",
@@ -405,7 +405,7 @@
 						"englishNote" : ""
 					},
 					"8" : {
-						"event" : "Main screen 3",
+						"event" : "Main 3",
 						"media" : "main_3",
 						"chinese" : "训练……提不起劲……完全提不起劲……",
 						"chineseTL" : "",
@@ -417,7 +417,7 @@
 						"englishNote" : ""
 					},
 					"9" : {
-						"event" : "Normal touch",
+						"event" : "Touch",
 						"media" : "touch_1",
 						"chinese" : "我才没有打瞌睡……Zzz",
 						"chineseTL" : "",
@@ -429,7 +429,7 @@
 						"englishNote" : ""
 					},
 					"10" : {
-						"event" : "Special touch",
+						"event" : "Touch (Special)",
 						"media" : "touch_2",
 						"chinese" : "讨、讨厌……",
 						"chineseTL" : "",
@@ -441,7 +441,7 @@
 						"englishNote" : ""
 					},
 					"11" : {
-						"event" : "Mission reminder",
+						"event" : "Mission",
 						"media" : "task",
 						"chinese" : "任务，也不是一定要去做的……吧？",
 						"chineseTL" : "",
@@ -453,7 +453,7 @@
 						"englishNote" : ""
 					},
 					"12" : {
-						"event" : "Mission complete",
+						"event" : "Mission Complete",
 						"media" : "mission_complete",
 						"chinese" : "指挥官，工作告一段落了，我想……",
 						"chineseTL" : "",
@@ -465,7 +465,7 @@
 						"englishNote" : ""
 					},
 					"13" : {
-						"event" : "Mail reminder",
+						"event" : "Mail",
 						"media" : "mail",
 						"chinese" : "明明电子邮件早就出现了……",
 						"chineseTL" : "",
@@ -477,7 +477,7 @@
 						"englishNote" : ""
 					},
 					"14" : {
-						"event" : "Return to port",
+						"event" : "Return to Port",
 						"media" : "home",
 						"chinese" : "欢、欢迎回来，指挥官……呐，我可以回去了吗？",
 						"chineseTL" : "",
@@ -489,7 +489,7 @@
 						"englishNote" : ""
 					},
 					"15" : {
-						"event" : "Commission complete",
+						"event" : "Commission Complete",
 						"media" : "expedition",
 						"chinese" : "委托回来了，我也要回去了……",
 						"chineseTL" : "",
@@ -501,7 +501,7 @@
 						"englishNote" : ""
 					},
 					"16" : {
-						"event" : "Enhancing complete",
+						"event" : "Enhancement",
 						"media" : "upgrade",
 						"chinese" : "好厉害……",
 						"chineseTL" : "",
@@ -513,7 +513,7 @@
 						"englishNote" : ""
 					},
 					"17" : {
-						"event" : "Flagship fight",
+						"event" : "Flagship",
 						"media" : "warcry",
 						"chinese" : "……以胜利为目标……吧？",
 						"chineseTL" : "",
@@ -549,7 +549,7 @@
 						"englishNote" : ""
 					},
 					"20" : {
-						"event" : "Skills",
+						"event" : "Skill",
 						"media" : "skill",
 						"chinese" : "好想回家……",
 						"chineseTL" : "",
@@ -561,7 +561,7 @@
 						"englishNote" : ""
 					},
 					"21" : {
-						"event" : "Upset",
+						"event" : "Affinity (Upset)",
 						"media" : "feeling1",
 						"chinese" : "我不会从房间里出来的，绝不！",
 						"chineseTL" : "",
@@ -573,7 +573,7 @@
 						"englishNote" : ""
 					},
 					"22" : {
-						"event" : "Stranger",
+						"event" : "Affinity (Stranger)",
 						"media" : "feeling2",
 						"chinese" : "我并没有困……只是有点睁不开眼罢了",
 						"chineseTL" : "",
@@ -585,7 +585,7 @@
 						"englishNote" : ""
 					},
 					"23" : {
-						"event" : "Friendly",
+						"event" : "Affinity (Friendly)",
 						"media" : "feeling3",
 						"chinese" : "指、指挥官，现在很闲的话要不要一起去我的房间玩电子游戏……",
 						"chineseTL" : "",
@@ -597,7 +597,7 @@
 						"englishNote" : ""
 					},
 					"24" : {
-						"event" : "Crush",
+						"event" : "Affinity (Like)",
 						"media" : "feeling4",
 						"chinese" : "如果一直待在家里，就见不到指挥官了……唔，怎么办才好……",
 						"chineseTL" : "",
@@ -609,7 +609,7 @@
 						"englishNote" : ""
 					},
 					"25" : {
-						"event" : "Love",
+						"event" : "Affinity (Love)",
 						"media" : "feeling5",
 						"chinese" : "唔……只要待在指挥官的房间里，就能一边看着指挥官一边打瞌睡了呢……",
 						"chineseTL" : "",
@@ -621,7 +621,7 @@
 						"englishNote" : ""
 					},
 					"26" : {
-						"event" : "Promise",
+						"event" : "Pledge",
 						"media" : "propose",
 						"chinese" : "呜……这个仪式还要多久，好困……好想回去睡觉，指挥官，你也是这么想的吧？",
 						"chineseTL" : "",
@@ -633,7 +633,7 @@
 						"englishNote" : ""
 					},
 					"27" : {
-						"event" : "Easter Egg 1(Helena)",
+						"event" : "Easter Egg 1 (Helena)",
 						"media" : "link1",
 						"chinese" : "海伦娜，水面以下的也要多加注意啊",
 						"chineseTL" : "",
@@ -664,7 +664,7 @@
 						"englishNote" : ""
 					},
 					"2" : {
-						"event" : "Receive",
+						"event" : "Acquisition",
 						"media" : "get_1",
 						"chinese" : "我喜欢护士这个身份……不用出门也不用训练，只需要照顾病人就好~治疗？只要好好地休息，病情一定会康复啦",
 						"chineseTL" : "",
@@ -676,7 +676,7 @@
 						"englishNote" : ""
 					},
 					"3" : {
-						"event" : "Log in",
+						"event" : "Login",
 						"media" : "login_1",
 						"chinese" : "珍贵的医护人员就应当待在后方……战地医生？那种舰娘还是交给女灶神前辈吧",
 						"chineseTL" : "",
@@ -688,7 +688,7 @@
 						"englishNote" : ""
 					},
 					"4" : {
-						"event" : "View details",
+						"event" : "Details",
 						"media" : "detail_1",
 						"chinese" : "在战场上，护士一边忍着睡意一边救护再正常不过了，所以，我现在是在练习啦，哈~欠~",
 						"chineseTL" : "",
@@ -700,7 +700,7 @@
 						"englishNote" : ""
 					},
 					"5" : {
-						"event" : "Main screen 1",
+						"event" : "Main 1",
 						"media" : "main_1_1",
 						"chinese" : "针筒里放进了拉德福特的爱情糖果，所以一点～都不痛哦",
 						"chineseTL" : "",
@@ -712,7 +712,7 @@
 						"englishNote" : ""
 					},
 					"6" : {
-						"event" : "Main screen 2",
+						"event" : "Main 2",
 						"media" : "main_2_1",
 						"chinese" : "生病了最重要的是好好休息，所以别顾虑我，躺在床上尽情地休息吧 ",
 						"chineseTL" : "",
@@ -724,7 +724,7 @@
 						"englishNote" : ""
 					},
 					"7" : {
-						"event" : "Main screen 3",
+						"event" : "Main 3",
 						"media" : "main_3_1",
 						"chinese" : "偶尔也会遇到那几位总是大吵大闹影响别人的病人，这种时候就得麻烦女灶神前辈前来支援",
 						"chineseTL" : "",
@@ -736,7 +736,7 @@
 						"englishNote" : ""
 					},
 					"8" : {
-						"event" : "Normal touch",
+						"event" : "Touch",
 						"media" : "touch_1_1",
 						"chinese" : "指挥官，也想被“注射”一下吗？",
 						"chineseTL" : "",
@@ -748,7 +748,7 @@
 						"englishNote" : ""
 					},
 					"9" : {
-						"event" : "Special touch",
+						"event" : "Touch (Special)",
 						"media" : "touch_2_1",
 						"chinese" : "指挥官，终于生病了吗……",
 						"chineseTL" : "",
@@ -760,7 +760,7 @@
 						"englishNote" : ""
 					},
 					"10" : {
-						"event" : "Mail reminder",
+						"event" : "Mail",
 						"media" : "mail_1",
 						"chinese" : "指挥官，病历书，请拿好",
 						"chineseTL" : "",
@@ -791,7 +791,7 @@
 						"englishNote" : ""
 					},
 					"2" : {
-						"event" : "Receive",
+						"event" : "Acquisition",
 						"media" : "get_2",
 						"chinese" : "指挥官，圣诞快乐，我是礼物，大概……麻烦帮我盖一下盖子，让我再睡会儿…呼…",
 						"chineseTL" : "",
@@ -803,7 +803,7 @@
 						"englishNote" : ""
 					},
 					"3" : {
-						"event" : "Log in",
+						"event" : "Login",
 						"media" : "login_2",
 						"chinese" : "……唔？指挥官，早上好",
 						"chineseTL" : "",
@@ -815,7 +815,7 @@
 						"englishNote" : ""
 					},
 					"4" : {
-						"event" : "View details",
+						"event" : "Details",
 						"media" : "detail_2",
 						"chinese" : "欸，圣诞节不放假吗……好吧，那我再睡五分钟，就五分钟……",
 						"chineseTL" : "",
@@ -827,7 +827,7 @@
 						"englishNote" : ""
 					},
 					"5" : {
-						"event" : "Main screen 1",
+						"event" : "Main 1",
 						"media" : "main_1_2",
 						"chinese" : "圣诞礼物……？我是无所谓，能让我睡够就好了……",
 						"chineseTL" : "",
@@ -839,7 +839,7 @@
 						"englishNote" : ""
 					},
 					"6" : {
-						"event" : "Main screen 2",
+						"event" : "Main 2",
 						"media" : "main_2_2",
 						"chinese" : "逛街？路上小心。……一起去？不要。",
 						"chineseTL" : "",
@@ -851,7 +851,7 @@
 						"englishNote" : ""
 					},
 					"7" : {
-						"event" : "Main screen 3",
+						"event" : "Main 3",
 						"media" : "main_3_2",
 						"chinese" : "海伦娜，要来一起睡吗？箱子里很暖和哦…",
 						"chineseTL" : "",
@@ -863,7 +863,7 @@
 						"englishNote" : ""
 					},
 					"8" : {
-						"event" : "Normal touch",
+						"event" : "Touch",
 						"media" : "touch_1_2",
 						"chinese" : "指挥官，别摇我……呼……",
 						"chineseTL" : "",
@@ -875,7 +875,7 @@
 						"englishNote" : ""
 					},
 					"9" : {
-						"event" : "Mission complete",
+						"event" : "Mission Complete",
 						"media" : "mission_complete_2",
 						"chinese" : "指挥官，你看看这些箱子哪个是任务奖励，我忘了……",
 						"chineseTL" : "",
@@ -887,7 +887,7 @@
 						"englishNote" : ""
 					},
 					"10" : {
-						"event" : "Return to port",
+						"event" : "Return to Port",
 						"media" : "home_2",
 						"chinese" : "指挥官，累了的话，枕头分你一半？",
 						"chineseTL" : "",
@@ -899,7 +899,7 @@
 						"englishNote" : ""
 					},
 					"11" : {
-						"event" : "Love",
+						"event" : "Affinity (Love)",
 						"media" : "feeling5_2",
 						"chinese" : "虽然原本没打算睡在这里，不过，醒来第一眼看到的就是指挥官的感觉也不坏……圣诞快乐哦，指挥官",
 						"chineseTL" : "",
@@ -930,7 +930,7 @@
 						"englishNote" : ""
 					},
 					"2" : {
-						"event" : "Receive",
+						"event" : "Acquisition",
 						"media" : "get_9",
 						"chinese" : "指挥官，今天是几月？我好像稍微有点睡过头了……身体成长了？呼哇~因为我一直都在睡觉嘛……",
 						"chineseTL" : "",
@@ -942,7 +942,7 @@
 						"englishNote" : ""
 					},
 					"3" : {
-						"event" : "View details",
+						"event" : "Details",
 						"media" : "detail_9",
 						"chinese" : "不用出门就能处理的事务，倒是可以拜托给我",
 						"chineseTL" : "",
@@ -954,7 +954,7 @@
 						"englishNote" : ""
 					},
 					"4" : {
-						"event" : "Main screen 1",
+						"event" : "Main 1",
 						"media" : "main_1_9",
 						"chinese" : "鱼雷……勉勉强强也能当做枕头呢",
 						"chineseTL" : "",
@@ -966,7 +966,7 @@
 						"englishNote" : ""
 					},
 					"5" : {
-						"event" : "Main screen 2",
+						"event" : "Main 2",
 						"media" : "main_2_9",
 						"chinese" : "我一天也不尽是在睡觉啦，只是清醒的时候也完全不想动弹",
 						"chineseTL" : "",
@@ -978,7 +978,7 @@
 						"englishNote" : ""
 					},
 					"6" : {
-						"event" : "Main screen 3",
+						"event" : "Main 3",
 						"media" : "main_3_9",
 						"chinese" : "尼古拉斯……梦想是成为雕像……",
 						"chineseTL" : "",
@@ -990,7 +990,7 @@
 						"englishNote" : ""
 					},
 					"7" : {
-						"event" : "Normal touch",
+						"event" : "Touch",
 						"media" : "touch_1_9",
 						"chinese" : "这次我真的没有在打瞌睡哦！",
 						"chineseTL" : "",
@@ -1002,7 +1002,7 @@
 						"englishNote" : ""
 					},
 					"8" : {
-						"event" : "Special touch",
+						"event" : "Touch (Special)",
 						"media" : "touch_2_9",
 						"chinese" : "笨、笨蛋……",
 						"chineseTL" : "",

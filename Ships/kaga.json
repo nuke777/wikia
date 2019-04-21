@@ -123,12 +123,12 @@
 			"rarity" : "Common",
 			"name" : "A6M2 Zero"
 		},
-		"1" : {
+		"2" : {
 			"icon" : "39000",
 			"rarity" : "Common",
 			"name" : "Aichi D3A Type 99"
 		},
-		"1" : {
+		"3" : {
 			"icon" : "38000",
 			"rarity" : "",
 			"name" : "Nakajima B5N"
@@ -246,13 +246,13 @@
 			"preload": "0/0/0/0"
 		},
 		"4": {
-			"type": "Auxilary",
+			"type": "Auxiliary",
 			"efficiency": "-",
 			"amount": "-",
 			"preload": "-"
 		},
 		"5": {
-			"type": "Auxilary",
+			"type": "Auxiliary",
 			"efficiency": "-",
 			"amount": "-",
 			"preload": "-"
@@ -331,7 +331,7 @@
 						"englishNote" : ""
 					},
 					"3" : {
-						"event" : "Receive",
+						"event" : "Acquisition",
 						"media" : "get",
 						"chinese" : "这里能让我找到足以满足的敌人？好吧，从今以后，我就是你的人了，这大概也是某种命运吧",
 						"chineseTL" : "",
@@ -343,7 +343,7 @@
 						"englishNote" : ""
 					},
 					"4" : {
-						"event" : "Log in",
+						"event" : "Login",
 						"media" : "login",
 						"chinese" : "公平与正义只适用于强者，弱者只能缩在角落里哀泣",
 						"chineseTL" : "",
@@ -355,7 +355,7 @@
 						"englishNote" : ""
 					},
 					"5" : {
-						"event" : "View details",
+						"event" : "Details",
 						"media" : "detail",
 						"chinese" : "指挥官，你这么看着我，会让我有些想把你吃掉的",
 						"chineseTL" : "",
@@ -367,7 +367,7 @@
 						"englishNote" : ""
 					},
 					"6" : {
-						"event" : "Main screen 1",
+						"event" : "Main 1",
 						"media" : "main_1",
 						"chinese" : "我是一切的征服者，无论对谁",
 						"chineseTL" : "",
@@ -379,7 +379,7 @@
 						"englishNote" : ""
 					},
 					"7" : {
-						"event" : "Main screen 2",
+						"event" : "Main 2",
 						"media" : "main_2",
 						"chinese" : "我们的敌人很强，但正因为如此，才有摧残殆尽的价值，呵呵呵呵呵……",
 						"chineseTL" : "",
@@ -391,7 +391,7 @@
 						"englishNote" : ""
 					},
 					"8" : {
-						"event" : "Main screen 3",
+						"event" : "Main 3",
 						"media" : "main_3",
 						"chinese" : "五航战的孩子们？她们好好努力的话还是值得一看的",
 						"chineseTL" : "",
@@ -403,7 +403,7 @@
 						"englishNote" : ""
 					},
 					"9" : {
-						"event" : "Normal touch",
+						"event" : "Touch",
 						"media" : "touch_1",
 						"chinese" : "有什么疑问吗？",
 						"chineseTL" : "",
@@ -415,7 +415,7 @@
 						"englishNote" : ""
 					},
 					"10" : {
-						"event" : "Special touch",
+						"event" : "Touch (Special)",
 						"media" : "touch_2",
 						"chinese" : "……如果这样能让你放松一下的话",
 						"chineseTL" : "",
@@ -427,7 +427,7 @@
 						"englishNote" : ""
 					},
 					"11" : {
-						"event" : "Mission reminder",
+						"event" : "Mission",
 						"media" : "task",
 						"chinese" : "指挥官，别顾着玩了，还有任务没完成",
 						"chineseTL" : "",
@@ -439,7 +439,7 @@
 						"englishNote" : ""
 					},
 					"12" : {
-						"event" : "Mission complete",
+						"event" : "Mission Complete",
 						"media" : "mission_complete",
 						"chinese" : "奖励下达了，这也是你努力的成果",
 						"chineseTL" : "",
@@ -451,7 +451,7 @@
 						"englishNote" : ""
 					},
 					"13" : {
-						"event" : "Mail reminder",
+						"event" : "Mail",
 						"media" : "mail",
 						"chinese" : "有你的信件，下次不要忘了",
 						"chineseTL" : "",
@@ -463,7 +463,7 @@
 						"englishNote" : ""
 					},
 					"14" : {
-						"event" : "Return to port",
+						"event" : "Return to Port",
 						"media" : "home",
 						"chinese" : "屠戮过敌人之后，就是愉快的奖励时间了，尽情享受短暂的喘息时间吧",
 						"chineseTL" : "",
@@ -475,7 +475,7 @@
 						"englishNote" : ""
 					},
 					"15" : {
-						"event" : "Commission complete",
+						"event" : "Commission Complete",
 						"media" : "expedition",
 						"chinese" : "出委托的姐妹们回来了，你先去吧，我去给她们准备一些点心",
 						"chineseTL" : "",
@@ -487,7 +487,7 @@
 						"englishNote" : ""
 					},
 					"16" : {
-						"event" : "Enhancing complete",
+						"event" : "Enhancement",
 						"media" : "upgrade",
 						"chinese" : "不错的感觉……想到了不少新的手段呢",
 						"chineseTL" : "",
@@ -499,7 +499,7 @@
 						"englishNote" : ""
 					},
 					"17" : {
-						"event" : "Flagship fight",
+						"event" : "Flagship",
 						"media" : "warcry",
 						"chinese" : "用你们死前最后的挣扎来取悦我吧…呵呵…",
 						"chineseTL" : "",
@@ -535,7 +535,7 @@
 						"englishNote" : ""
 					},
 					"20" : {
-						"event" : "Skills",
+						"event" : "Skill",
 						"media" : "skill",
 						"chinese" : "战场上只有强者才能生存哦！",
 						"chineseTL" : "",
@@ -559,7 +559,7 @@
 						"englishNote" : ""
 					},
 					"22" : {
-						"event" : "Upset",
+						"event" : "Affinity (Upset)",
 						"media" : "feeling1",
 						"chinese" : "看来你不是我追求的勇者…",
 						"chineseTL" : "",
@@ -571,7 +571,7 @@
 						"englishNote" : ""
 					},
 					"23" : {
-						"event" : "Stranger",
+						"event" : "Affinity (Stranger)",
 						"media" : "feeling2",
 						"chinese" : "弱者被淘汰是必然的下场，不甘心的话就变强啊",
 						"chineseTL" : "",
@@ -583,7 +583,7 @@
 						"englishNote" : ""
 					},
 					"24" : {
-						"event" : "Friendly",
+						"event" : "Affinity (Friendly)",
 						"media" : "feeling3",
 						"chinese" : "如果有一天你输了，那只能说明你太弱了，弱者被淘汰也是正常，不过，谁让你是我的人呢，只好由我来替你报仇了",
 						"chineseTL" : "",
@@ -595,7 +595,7 @@
 						"englishNote" : ""
 					},
 					"25" : {
-						"event" : "Crush",
+						"event" : "Affinity (Like)",
 						"media" : "feeling4",
 						"chinese" : "虽然我自己也很纳闷，不明白为什么有这种心情，这是兽性本能吗？",
 						"chineseTL" : "",
@@ -607,7 +607,7 @@
 						"englishNote" : ""
 					},
 					"26" : {
-						"event" : "Love",
+						"event" : "Affinity (Love)",
 						"media" : "feeling5",
 						"chinese" : "虽然有很多话想跟你说，但是一看到你的脸，就全都想不起来了",
 						"chineseTL" : "",
@@ -619,7 +619,7 @@
 						"englishNote" : ""
 					},
 					"27" : {
-						"event" : "Promise",
+						"event" : "Pledge",
 						"media" : "propose",
 						"chinese" : "——这个是给我的？……呵呵呵呵……强者会彼此吸引，这可能就是命运吧？既然如此，就让我遵循命运和自己的本能吧",
 						"chineseTL" : "",
@@ -631,7 +631,7 @@
 						"englishNote" : ""
 					},
 					"28" : {
-						"event" : "Easter Egg 1(Akagi)",
+						"event" : "Easter Egg 1 (Akagi)",
 						"media" : "link1",
 						"chinese" : "姐姐，请严肃一点",
 						"chineseTL" : "",
@@ -643,7 +643,7 @@
 						"englishNote" : ""
 					},
 					"29" : {
-						"event" : "Easter Egg 2(Enterprise)",
+						"event" : "Easter Egg 2 (Enterprise)",
 						"media" : "link2",
 						"chinese" : "可不能让一航战被看扁了",
 						"chineseTL" : "",
@@ -655,7 +655,7 @@
 						"englishNote" : ""
 					},
 					"30" : {
-						"event" : "Easter Egg 3(Cleveland, Nevada, Oklahoma, Ranger, Yorktown, Enterprise, Hornet, Akagi)",
+						"event" : "Easter Egg 3 (Cleveland, Nevada, Oklahoma, Ranger, Yorktown, Enterprise, Hornet, Akagi)",
 						"media" : "link3",
 						"chinese" : "想不到和你们一起……",
 						"chineseTL" : "",
@@ -667,7 +667,7 @@
 						"englishNote" : ""
 					},
 					"31" : {
-						"event" : "Easter Egg 4(Nagara)",
+						"event" : "Easter Egg 4 (Nagara)",
 						"media" : "link4",
 						"chinese" : "长良，那个时候多受你照顾了",
 						"chineseTL" : "",
@@ -679,7 +679,7 @@
 						"englishNote" : ""
 					},
 					"32" : {
-						"event" : "Easter Egg 5(Taihou)",
+						"event" : "Easter Egg 5 (Taihou)",
 						"media" : "link5",
 						"chinese" : "真是难缠的家伙啊",
 						"chineseTL" : "",
@@ -710,7 +710,7 @@
 						"englishNote" : ""
 					},
 					"2" : {
-						"event" : "Receive",
+						"event" : "Acquisition",
 						"media" : "get_1",
 						"chinese" : "“人生苦短，何妨一试”，在哪里好像听过这句话呢，指挥官，你的心在蠢蠢欲动吗?",
 						"chineseTL" : "",
@@ -722,7 +722,7 @@
 						"englishNote" : ""
 					},
 					"3" : {
-						"event" : "Log in",
+						"event" : "Login",
 						"media" : "login_1",
 						"chinese" : "指挥官，休息就要好好休息，战斗就要尽情战斗，这是我的座右铭",
 						"chineseTL" : "",
@@ -734,7 +734,7 @@
 						"englishNote" : ""
 					},
 					"4" : {
-						"event" : "View details",
+						"event" : "Details",
 						"media" : "detail_1",
 						"chinese" : "指挥官，我和姐姐谁的泳装你更喜欢？",
 						"chineseTL" : "",
@@ -746,7 +746,7 @@
 						"englishNote" : ""
 					},
 					"5" : {
-						"event" : "Main screen 1",
+						"event" : "Main 1",
 						"media" : "main_1_1",
 						"chinese" : "物竞天择，适者生存 ",
 						"chineseTL" : "",
@@ -758,7 +758,7 @@
 						"englishNote" : ""
 					},
 					"6" : {
-						"event" : "Main screen 3",
+						"event" : "Main 3",
 						"media" : "main_3_1",
 						"chinese" : "无论在哪里，战争都还没有结束",
 						"chineseTL" : "",
@@ -770,7 +770,7 @@
 						"englishNote" : ""
 					},
 					"7" : {
-						"event" : "Special touch",
+						"event" : "Touch (Special)",
 						"media" : "touch_2_1",
 						"chinese" : "指挥官，我的舰桥状况良好，随时可以出击",
 						"chineseTL" : "",
@@ -782,7 +782,7 @@
 						"englishNote" : ""
 					},
 					"8" : {
-						"event" : "Mission complete",
+						"event" : "Mission Complete",
 						"media" : "mission_complete_1",
 						"chinese" : "把这份奖励送给姐姐的话，她一定会很高兴吧",
 						"chineseTL" : "",
@@ -794,7 +794,7 @@
 						"englishNote" : ""
 					},
 					"9" : {
-						"event" : "Commission complete",
+						"event" : "Commission Complete",
 						"media" : "expedition_1",
 						"chinese" : "出委托的舰娘们好像回来了，姐姐，要去迎接吗？",
 						"chineseTL" : "",
@@ -806,7 +806,7 @@
 						"englishNote" : ""
 					},
 					"10" : {
-						"event" : "Flagship fight",
+						"event" : "Flagship",
 						"media" : "warcry_1",
 						"chinese" : "呵…我的强大可和穿着怎样的衣服无关",
 						"chineseTL" : "",
@@ -837,7 +837,7 @@
 						"englishNote" : ""
 					},
 					"2" : {
-						"event" : "Receive",
+						"event" : "Acquisition",
 						"media" : "get_2",
 						"chinese" : "呵呵，新年自然要穿的正式一点，如何，指挥官，对这身有什么感想吗？",
 						"chineseTL" : "",
@@ -849,7 +849,7 @@
 						"englishNote" : ""
 					},
 					"3" : {
-						"event" : "Log in",
+						"event" : "Login",
 						"media" : "login_2",
 						"chinese" : "难得的正月，稍微放松一下，倒也无妨",
 						"chineseTL" : "",
@@ -861,7 +861,7 @@
 						"englishNote" : ""
 					},
 					"4" : {
-						"event" : "View details",
+						"event" : "Details",
 						"media" : "detail_2",
 						"chinese" : "指挥官，这么有空的话，不妨来帮忙布置一下装饰如何？",
 						"chineseTL" : "",
@@ -873,7 +873,7 @@
 						"englishNote" : ""
 					},
 					"5" : {
-						"event" : "Main screen 1",
+						"event" : "Main 1",
 						"media" : "main_1_2",
 						"chinese" : "赤城，你的眼神，就像正在寻找猎物的猛兽呢…",
 						"chineseTL" : "",
@@ -885,7 +885,7 @@
 						"englishNote" : ""
 					},
 					"6" : {
-						"event" : "Main screen 2",
+						"event" : "Main 2",
 						"media" : "main_2_2",
 						"chinese" : "偶尔像这样暂时忘却硝烟，享受节日，感觉也不坏",
 						"chineseTL" : "",
@@ -897,7 +897,7 @@
 						"englishNote" : ""
 					},
 					"7" : {
-						"event" : "Main screen 3",
+						"event" : "Main 3",
 						"media" : "main_3_2",
 						"chinese" : "欧根…又喝得醉醺醺的了…指挥官，过来帮忙处理一下",
 						"chineseTL" : "",
@@ -909,7 +909,7 @@
 						"englishNote" : ""
 					},
 					"8" : {
-						"event" : "Normal touch",
+						"event" : "Touch",
 						"media" : "touch_1_2",
 						"chinese" : "正月要准备的东西还挺多的呢……",
 						"chineseTL" : "",
@@ -940,7 +940,7 @@
 						"englishNote" : ""
 					},
 					"2" : {
-						"event" : "Receive",
+						"event" : "Acquisition",
 						"media" : "get_8",
 						"chinese" : "“执子之手，与子偕老”，如果对象是你的话，倒也不算太糟呢",
 						"chineseTL" : "",
@@ -952,7 +952,7 @@
 						"englishNote" : ""
 					},
 					"3" : {
-						"event" : "Log in",
+						"event" : "Login",
 						"media" : "login_8",
 						"chinese" : "呵…准备好一起去将敌人碾压殆尽了吗？",
 						"chineseTL" : "",
@@ -964,7 +964,7 @@
 						"englishNote" : ""
 					},
 					"4" : {
-						"event" : "View details",
+						"event" : "Details",
 						"media" : "detail_8",
 						"chinese" : "你的表情，就像被狐狸魅惑了的书生一样呢",
 						"chineseTL" : "",
@@ -976,7 +976,7 @@
 						"englishNote" : ""
 					},
 					"5" : {
-						"event" : "Main screen 1",
+						"event" : "Main 1",
 						"media" : "main_1_8",
 						"chinese" : "穿着这身衣服，心境就和平时不太一样，稍微有些奇妙…",
 						"chineseTL" : "",
@@ -988,7 +988,7 @@
 						"englishNote" : ""
 					},
 					"6" : {
-						"event" : "Main screen 2",
+						"event" : "Main 2",
 						"media" : "main_2_8",
 						"chinese" : "稍微幻想一下以后的日子，似乎也挺有趣",
 						"chineseTL" : "",
@@ -1000,7 +1000,7 @@
 						"englishNote" : ""
 					},
 					"7" : {
-						"event" : "Main screen 3",
+						"event" : "Main 3",
 						"media" : "main_3_8",
 						"chinese" : "既然身为强者，就必须考虑如何变得更强，指挥官，做好觉悟了吗？",
 						"chineseTL" : "",
@@ -1012,7 +1012,7 @@
 						"englishNote" : ""
 					},
 					"8" : {
-						"event" : "Normal touch",
+						"event" : "Touch",
 						"media" : "touch_1_8",
 						"chinese" : "强者彼此吸引，互相接触也是自然…就随你喜欢，好好靠在我的身旁吧",
 						"chineseTL" : "",
@@ -1024,7 +1024,7 @@
 						"englishNote" : ""
 					},
 					"9" : {
-						"event" : "Special touch",
+						"event" : "Touch (Special)",
 						"media" : "touch_2_8",
 						"chinese" : "就这么喜欢这里吗？",
 						"chineseTL" : "",
@@ -1036,7 +1036,7 @@
 						"englishNote" : ""
 					},
 					"10" : {
-						"event" : "Return to port",
+						"event" : "Return to Port",
 						"media" : "home_8",
 						"chinese" : "偶尔亲自下厨，倒也别有一番趣味。稍作歇息就来用餐吧",
 						"chineseTL" : "",
@@ -1048,7 +1048,7 @@
 						"englishNote" : ""
 					},
 					"11" : {
-						"event" : "Love",
+						"event" : "Affinity (Love)",
 						"media" : "feeling5_8",
 						"chinese" : "呵呵，尽管抬头挺胸与我并排而行吧，这是值得夸耀的事情，不是吗",
 						"chineseTL" : "",

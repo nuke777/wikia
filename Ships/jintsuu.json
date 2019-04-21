@@ -117,7 +117,7 @@
 			"rarity" : "",
 			"name" : "Single 140mm Main Gun"
 		},
-		"1" : {
+		"2" : {
 			"icon" : "35000",
 			"rarity" : "",
 			"name" : "Twin 610mm Torpedo"
@@ -240,13 +240,13 @@
 			"preload": "0/0/0/0"
 		},
 		"4": {
-			"type": "Auxilary",
+			"type": "Auxiliary",
 			"efficiency": "-",
 			"amount": "-",
 			"preload": "-"
 		},
 		"5": {
-			"type": "Auxilary",
+			"type": "Auxiliary",
 			"efficiency": "-",
 			"amount": "-",
 			"preload": "-"
@@ -325,7 +325,7 @@
 						"englishNote" : ""
 					},
 					"3" : {
-						"event" : "Receive",
+						"event" : "Acquisition",
 						"media" : "get",
 						"chinese" : "战场瞬息万变，唯有保持冷静，谨慎应对才能立于不败之地，指挥官做到了吗？二水战旗舰神通，向您问好",
 						"chineseTL" : "",
@@ -337,7 +337,7 @@
 						"englishNote" : ""
 					},
 					"4" : {
-						"event" : "Log in",
+						"event" : "Login",
 						"media" : "login",
 						"chinese" : "指挥官，不管您在外面做些什么，踏入办公室就请好好工作了",
 						"chineseTL" : "",
@@ -349,7 +349,7 @@
 						"englishNote" : ""
 					},
 					"5" : {
-						"event" : "View details",
+						"event" : "Details",
 						"media" : "detail",
 						"chinese" : "接下来的作战，资源分配，还有……嗯？这不是指挥官吗，请随意",
 						"chineseTL" : "",
@@ -361,7 +361,7 @@
 						"englishNote" : ""
 					},
 					"6" : {
-						"event" : "Main screen 1",
+						"event" : "Main 1",
 						"media" : "main_1",
 						"chinese" : "如果谨慎被称作软弱，那么勇猛是不是该叫做无谋呢？",
 						"chineseTL" : "",
@@ -373,7 +373,7 @@
 						"englishNote" : ""
 					},
 					"7" : {
-						"event" : "Main screen 2",
+						"event" : "Main 2",
 						"media" : "main_2",
 						"chinese" : "世上没有绝对的真理，比较、实践乃至失败之后才能在不同的时候做出正确的应对",
 						"chineseTL" : "",
@@ -385,7 +385,7 @@
 						"englishNote" : ""
 					},
 					"8" : {
-						"event" : "Main screen 3",
+						"event" : "Main 3",
 						"media" : "main_3",
 						"chinese" : "即使不被他人理解，我也只会做我认为对的事，哪怕那其中有指挥官……也一样",
 						"chineseTL" : "",
@@ -397,7 +397,7 @@
 						"englishNote" : ""
 					},
 					"9" : {
-						"event" : "Normal touch",
+						"event" : "Touch",
 						"media" : "touch_1",
 						"chinese" : "嗯，怎么了？我在考虑舰队的事情",
 						"chineseTL" : "",
@@ -409,7 +409,7 @@
 						"englishNote" : ""
 					},
 					"10" : {
-						"event" : "Special touch",
+						"event" : "Touch (Special)",
 						"media" : "touch_2",
 						"chinese" : "指挥官比我想的要大胆些嘛，相对的心理准备也做好了吧，嗯？",
 						"chineseTL" : "",
@@ -421,7 +421,7 @@
 						"englishNote" : ""
 					},
 					"11" : {
-						"event" : "Mission reminder",
+						"event" : "Mission",
 						"media" : "task",
 						"chinese" : "新的任务已经整理好了，请过目",
 						"chineseTL" : "",
@@ -433,7 +433,7 @@
 						"englishNote" : ""
 					},
 					"12" : {
-						"event" : "Mission complete",
+						"event" : "Mission Complete",
 						"media" : "mission_complete",
 						"chinese" : "任务奖励下达了……嗯？没什么，我只是在想怎么最有效地利用起来",
 						"chineseTL" : "",
@@ -445,7 +445,7 @@
 						"englishNote" : ""
 					},
 					"13" : {
-						"event" : "Mail reminder",
+						"event" : "Mail",
 						"media" : "mail",
 						"chinese" : "指挥官，及时处理信息可是很重要的",
 						"chineseTL" : "",
@@ -457,7 +457,7 @@
 						"englishNote" : ""
 					},
 					"14" : {
-						"event" : "Return to port",
+						"event" : "Return to Port",
 						"media" : "home",
 						"chinese" : "书上不会记载一切，有些东西唯有实践才能获得，您有学到什么吗？",
 						"chineseTL" : "",
@@ -469,7 +469,7 @@
 						"englishNote" : ""
 					},
 					"15" : {
-						"event" : "Commission complete",
+						"event" : "Commission Complete",
 						"media" : "expedition",
 						"chinese" : "发什么呆呢，委托完成了",
 						"chineseTL" : "",
@@ -481,7 +481,7 @@
 						"englishNote" : ""
 					},
 					"16" : {
-						"event" : "Enhancing complete",
+						"event" : "Enhancement",
 						"media" : "upgrade",
 						"chinese" : "可以稍微考虑一下前往更深的海域了吗……",
 						"chineseTL" : "",
@@ -493,7 +493,7 @@
 						"englishNote" : ""
 					},
 					"17" : {
-						"event" : "Flagship fight",
+						"event" : "Flagship",
 						"media" : "warcry",
 						"chinese" : "全军突击！",
 						"chineseTL" : "",
@@ -529,7 +529,7 @@
 						"englishNote" : ""
 					},
 					"20" : {
-						"event" : "Skills",
+						"event" : "Skill",
 						"media" : "skill",
 						"chinese" : "我等的正是现在——",
 						"chineseTL" : "",
@@ -541,7 +541,7 @@
 						"englishNote" : ""
 					},
 					"21" : {
-						"event" : "Upset",
+						"event" : "Affinity (Upset)",
 						"media" : "feeling1",
 						"chinese" : "舰队的事务就请交给我吧",
 						"chineseTL" : "",
@@ -553,7 +553,7 @@
 						"englishNote" : ""
 					},
 					"22" : {
-						"event" : "Stranger",
+						"event" : "Affinity (Stranger)",
 						"media" : "feeling2",
 						"chinese" : "虽说曾经担当过旗舰，不过现在也不过是战士的身份，指挥官像对待其他孩子一样对待我就好",
 						"chineseTL" : "",
@@ -565,7 +565,7 @@
 						"englishNote" : ""
 					},
 					"23" : {
-						"event" : "Friendly",
+						"event" : "Affinity (Friendly)",
 						"media" : "feeling3",
 						"chinese" : "指挥官，虽然尊重我的意见是好事，不过您只要贯彻自己的想法就好，而且如果我不赞同您的话，是不会站在您身边的，呵呵",
 						"chineseTL" : "",
@@ -577,7 +577,7 @@
 						"englishNote" : ""
 					},
 					"24" : {
-						"event" : "Crush",
+						"event" : "Affinity (Like)",
 						"media" : "feeling4",
 						"chinese" : "指挥官觉得历史上那些名将军师为什么甘愿居于人下呢？是认清了自己的局限，还是为主君所折服？我觉得的话，都有呢",
 						"chineseTL" : "",
@@ -589,7 +589,7 @@
 						"englishNote" : ""
 					},
 					"25" : {
-						"event" : "Love",
+						"event" : "Affinity (Love)",
 						"media" : "feeling5",
 						"chinese" : "不管其他人如何评价，贯彻自己的道路才是一个领袖应该有的心气，而道路是否正确，看部下是不是心甘情愿就知道了，比如说，您可以看看我……",
 						"chineseTL" : "",
@@ -601,7 +601,7 @@
 						"englishNote" : ""
 					},
 					"26" : {
-						"event" : "Promise",
+						"event" : "Pledge",
 						"media" : "propose",
 						"chinese" : "谨慎就是谋而后动，在最好的时机做出最好的选择，这是我的信条，而现在，我终于可以自信地说出口了，我选择了最好的指挥官呢",
 						"chineseTL" : "",
@@ -651,7 +651,7 @@
 						"englishNote" : ""
 					},
 					"2" : {
-						"event" : "Receive",
+						"event" : "Acquisition",
 						"media" : "get_9",
 						"chinese" : "逐渐习惯和指挥官相处了，趁着改造的机会就稍微放松了一些……舞蹈？呵呵，不是那么简单就给人看的东西哦",
 						"chineseTL" : "",
@@ -663,7 +663,7 @@
 						"englishNote" : ""
 					},
 					"3" : {
-						"event" : "Log in",
+						"event" : "Login",
 						"media" : "login_9",
 						"chinese" : "指挥官，休息的如何，需要我代为处理公务吗？",
 						"chineseTL" : "",
@@ -675,7 +675,7 @@
 						"englishNote" : ""
 					},
 					"4" : {
-						"event" : "View details",
+						"event" : "Details",
 						"media" : "detail_9",
 						"chinese" : "指挥官，有什么战术要和我讨论的吗？或者坐下来聊天也可以",
 						"chineseTL" : "",
@@ -687,7 +687,7 @@
 						"englishNote" : ""
 					},
 					"5" : {
-						"event" : "Main screen 1",
+						"event" : "Main 1",
 						"media" : "main_1_9",
 						"chinese" : "相信自己是正确的并证明它是很难的，指挥官，让我们一起加油吧",
 						"chineseTL" : "",
@@ -699,7 +699,7 @@
 						"englishNote" : ""
 					},
 					"6" : {
-						"event" : "Main screen 2",
+						"event" : "Main 2",
 						"media" : "main_2_9",
 						"chinese" : "思虑过多也不全是好事，有时候我也挺羡慕川内那样直来直去的……",
 						"chineseTL" : "",
@@ -711,7 +711,7 @@
 						"englishNote" : ""
 					},
 					"7" : {
-						"event" : "Main screen 3",
+						"event" : "Main 3",
 						"media" : "main_3_9",
 						"chinese" : "就算谨慎会被称作软弱，只要舰队的大家能理解对现在的我来说就足够了",
 						"chineseTL" : "",
@@ -723,7 +723,7 @@
 						"englishNote" : ""
 					},
 					"8" : {
-						"event" : "Normal touch",
+						"event" : "Touch",
 						"media" : "touch_1_9",
 						"chinese" : "这么想看我跳舞的话倒也不是不行呢，不过在那之前请好好工作~",
 						"chineseTL" : "",
@@ -735,7 +735,7 @@
 						"englishNote" : ""
 					},
 					"9" : {
-						"event" : "Special touch",
+						"event" : "Touch (Special)",
 						"media" : "touch_2_9",
 						"chinese" : "指挥官，要是以为谨慎等于包容那就大错特错了哦？",
 						"chineseTL" : "",
@@ -747,7 +747,7 @@
 						"englishNote" : ""
 					},
 					"10" : {
-						"event" : "Mission complete",
+						"event" : "Mission Complete",
 						"media" : "mission_complete_9",
 						"chinese" : "奖励下达了，要看点开心的东西放松一下吗？",
 						"chineseTL" : "",
@@ -759,7 +759,7 @@
 						"englishNote" : ""
 					},
 					"11" : {
-						"event" : "Enhancing complete",
+						"event" : "Enhancement",
 						"media" : "upgrade_9",
 						"chinese" : "为了大家，我也再努努力吧",
 						"chineseTL" : "",
@@ -771,7 +771,7 @@
 						"englishNote" : ""
 					},
 					"12" : {
-						"event" : "Flagship fight",
+						"event" : "Flagship",
 						"media" : "warcry_9",
 						"chinese" : "大家做好准备……突击！",
 						"chineseTL" : "",

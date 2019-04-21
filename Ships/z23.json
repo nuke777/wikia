@@ -231,13 +231,13 @@
 			"preload": "0/0/0/0"
 		},
 		"4": {
-			"type": "Auxilary",
+			"type": "Auxiliary",
 			"efficiency": "-",
 			"amount": "-",
 			"preload": "-"
 		},
 		"5": {
-			"type": "Auxilary",
+			"type": "Auxiliary",
 			"efficiency": "-",
 			"amount": "-",
 			"preload": "-"
@@ -316,7 +316,7 @@
 						"englishNote" : ""
 					},
 					"3" : {
-						"event" : "Receive",
+						"event" : "Acquisition",
 						"media" : "get",
 						"chinese" : "Guten Tag，指挥官阁下。我是Z23，让我们共同学习，一起向顶点前进吧",
 						"chineseTL" : "",
@@ -328,7 +328,7 @@
 						"englishNote" : ""
 					},
 					"4" : {
-						"event" : "Log in",
+						"event" : "Login",
 						"media" : "login",
 						"chinese" : "今天还有好多事情要做呢，可不要偷懒哦",
 						"chineseTL" : "",
@@ -340,7 +340,7 @@
 						"englishNote" : ""
 					},
 					"5" : {
-						"event" : "View details",
+						"event" : "Details",
 						"media" : "detail",
 						"chinese" : "比起看我，不如多看看书啦！我也是会害羞的嘛……（小声）",
 						"chineseTL" : "",
@@ -352,7 +352,7 @@
 						"englishNote" : ""
 					},
 					"6" : {
-						"event" : "Main screen 1",
+						"event" : "Main 1",
 						"media" : "main_1",
 						"chinese" : "不用担心，我的话，指挥官有这份心就够了",
 						"chineseTL" : "",
@@ -364,7 +364,7 @@
 						"englishNote" : ""
 					},
 					"7" : {
-						"event" : "Main screen 2",
+						"event" : "Main 2",
 						"media" : "main_2",
 						"chinese" : "给指挥官准备什么点心好呢……最近好像也挺累的，稍微给他按摩一下吧……",
 						"chineseTL" : "",
@@ -376,7 +376,7 @@
 						"englishNote" : ""
 					},
 					"8" : {
-						"event" : "Main screen 3",
+						"event" : "Main 3",
 						"media" : "main_3",
 						"chinese" : "嗯嗯，指挥官只要用心的话还是办得到的呢",
 						"chineseTL" : "",
@@ -388,7 +388,7 @@
 						"englishNote" : ""
 					},
 					"9" : {
-						"event" : "Main screen 4",
+						"event" : "Main 4",
 						"media" : "main_4",
 						"chinese" : "欸？我负责的部分？啊，啊哈哈……糟了，真的忘了……",
 						"chineseTL" : "",
@@ -400,7 +400,7 @@
 						"englishNote" : ""
 					},
 					"10" : {
-						"event" : "Main screen 5",
+						"event" : "Main 5",
 						"media" : "main_5",
 						"chinese" : "摸头？哦，你是说这个动作吧？",
 						"chineseTL" : "",
@@ -412,7 +412,7 @@
 						"englishNote" : ""
 					},
 					"11" : {
-						"event" : "Normal touch",
+						"event" : "Touch",
 						"media" : "touch_1",
 						"chinese" : "有这个时间多处理些公文如何？",
 						"chineseTL" : "",
@@ -424,7 +424,7 @@
 						"englishNote" : ""
 					},
 					"12" : {
-						"event" : "Special touch",
+						"event" : "Touch (Special)",
 						"media" : "touch_2",
 						"chinese" : "这可不是指挥官应有的行为哦",
 						"chineseTL" : "",
@@ -436,8 +436,8 @@
 						"englishNote" : ""
 					},
 					"13" : {
-						"event" : "Rub",
-						"media" : "headtouch",
+						"event" : "Touch (Head)",
+						"media" : "touch_head",
 						"chinese" : "我可不是那种被摸摸头就可以蒙混过去的女孩子哦，指挥官，请好好工作",
 						"chineseTL" : "",
 						"chineseNote" : "",
@@ -448,7 +448,7 @@
 						"englishNote" : ""
 					},
 					"14" : {
-						"event" : "Mission reminder",
+						"event" : "Mission",
 						"media" : "task",
 						"chinese" : "完成任务是熟练技巧的好途径哦，不要忘了",
 						"chineseTL" : "",
@@ -460,7 +460,7 @@
 						"englishNote" : ""
 					},
 					"15" : {
-						"event" : "Mission complete",
+						"event" : "Mission Complete",
 						"media" : "mission_complete",
 						"chinese" : "任务奖励发放了喔",
 						"chineseTL" : "",
@@ -472,7 +472,7 @@
 						"englishNote" : ""
 					},
 					"16" : {
-						"event" : "Mail reminder",
+						"event" : "Mail",
 						"media" : "mail",
 						"chinese" : "有你的信，指挥官意外地挺受欢迎嘛",
 						"chineseTL" : "",
@@ -484,7 +484,7 @@
 						"englishNote" : ""
 					},
 					"17" : {
-						"event" : "Return to port",
+						"event" : "Return to Port",
 						"media" : "home",
 						"chinese" : "刚才的战斗还有许多要检讨的地方呢……",
 						"chineseTL" : "",
@@ -496,7 +496,7 @@
 						"englishNote" : ""
 					},
 					"18" : {
-						"event" : "Commission complete",
+						"event" : "Commission Complete",
 						"media" : "expedition",
 						"chinese" : "时间到了，工作先放一放，去检查委托成果吧",
 						"chineseTL" : "",
@@ -508,7 +508,7 @@
 						"englishNote" : ""
 					},
 					"19" : {
-						"event" : "Enhancing complete",
+						"event" : "Enhancement",
 						"media" : "upgrade",
 						"chinese" : "指挥官，我希望能跟你一起进步",
 						"chineseTL" : "",
@@ -520,7 +520,7 @@
 						"englishNote" : ""
 					},
 					"20" : {
-						"event" : "Flagship fight",
+						"event" : "Flagship",
 						"media" : "warcry",
 						"chinese" : "走吧，到了检验努力成果的时候了！",
 						"chineseTL" : "",
@@ -556,7 +556,7 @@
 						"englishNote" : ""
 					},
 					"23" : {
-						"event" : "Skills",
+						"event" : "Skill",
 						"media" : "skill",
 						"chinese" : "命中吧！",
 						"chineseTL" : "",
@@ -580,7 +580,7 @@
 						"englishNote" : ""
 					},
 					"25" : {
-						"event" : "Upset",
+						"event" : "Affinity (Upset)",
 						"media" : "feeling1",
 						"chinese" : "指挥官，我要学习了，能不要打扰我吗？",
 						"chineseTL" : "",
@@ -592,7 +592,7 @@
 						"englishNote" : ""
 					},
 					"26" : {
-						"event" : "Stranger",
+						"event" : "Affinity (Stranger)",
 						"media" : "feeling2",
 						"chinese" : "学习是很重要的喔，伟人说过：“知识就是力量”……法国就是培根？真是的，再耍小聪明我可要生气了哦",
 						"chineseTL" : "",
@@ -604,7 +604,7 @@
 						"englishNote" : ""
 					},
 					"27" : {
-						"event" : "Friendly",
+						"event" : "Affinity (Friendly)",
 						"media" : "feeling3",
 						"chinese" : "有点累了吗，嗯，休息也是很重要的。膝枕？真是没办法，就一会儿喔",
 						"chineseTL" : "",
@@ -616,7 +616,7 @@
 						"englishNote" : ""
 					},
 					"28" : {
-						"event" : "Crush",
+						"event" : "Affinity (Like)",
 						"media" : "feeling4",
 						"chinese" : "指挥官，看着我干什么……认真的我很漂亮？笨，笨蛋，做自己的事去啦！",
 						"chineseTL" : "",
@@ -628,7 +628,7 @@
 						"englishNote" : ""
 					},
 					"29" : {
-						"event" : "Love",
+						"event" : "Affinity (Love)",
 						"media" : "feeling5",
 						"chinese" : "指挥官，你知道吗，人站得越高，看得越远，也会变得更冷……我希望指挥官你能登上高峰，但我也希望你在那时能和现在一样每天过得开心",
 						"chineseTL" : "",
@@ -640,7 +640,7 @@
 						"englishNote" : ""
 					},
 					"30" : {
-						"event" : "Promise",
+						"event" : "Pledge",
 						"media" : "propose",
 						"chinese" : "这就是指挥官对我的认可……我明白了，我Z23从今往后也会一直陪在指挥官你的身边，为你能够正确又愉快的生活努力的",
 						"chineseTL" : "",
@@ -652,7 +652,7 @@
 						"englishNote" : ""
 					},
 					"31" : {
-						"event" : "Easter Egg 1(Z25)",
+						"event" : "Easter Egg 1 (Z25)",
 						"media" : "link1",
 						"chinese" : "Z25，一起加油吧！",
 						"chineseTL" : "",
@@ -683,7 +683,7 @@
 						"englishNote" : ""
 					},
 					"2" : {
-						"event" : "Receive",
+						"event" : "Acquisition",
 						"media" : "get_1",
 						"chinese" : "这里是重点！（敲黑板）不乖乖记笔记的话，Z23老师就要惩罚你了哦！",
 						"chineseTL" : "",
@@ -695,7 +695,7 @@
 						"englishNote" : ""
 					},
 					"3" : {
-						"event" : "View details",
+						"event" : "Details",
 						"media" : "detail_1",
 						"chinese" : "都记住了吗？这些内容之后会出测验哦？不及格的话——",
 						"chineseTL" : "",
@@ -707,7 +707,7 @@
 						"englishNote" : ""
 					},
 					"4" : {
-						"event" : "Main screen 1",
+						"event" : "Main 1",
 						"media" : "main_1_1",
 						"chinese" : "指挥官，之前讲的海域情报没有忘吧，我来考考你怎么样？",
 						"chineseTL" : "",
@@ -719,7 +719,7 @@
 						"englishNote" : ""
 					},
 					"5" : {
-						"event" : "Main screen 2",
+						"event" : "Main 2",
 						"media" : "main_2_1",
 						"chinese" : "等会儿一起吃点什么吧，我请客，也算是对指挥官你辛苦一天的犒劳",
 						"chineseTL" : "",
@@ -731,7 +731,7 @@
 						"englishNote" : ""
 					},
 					"6" : {
-						"event" : "Main screen 5",
+						"event" : "Main 5",
 						"media" : "main_5_1",
 						"chinese" : "为了最终的胜利，一时的辛苦是必要的哦，指挥官",
 						"chineseTL" : "",
@@ -743,7 +743,7 @@
 						"englishNote" : ""
 					},
 					"7" : {
-						"event" : "Normal touch",
+						"event" : "Touch",
 						"media" : "touch_1_1",
 						"chinese" : "有不懂的地方要马上问哦",
 						"chineseTL" : "",
@@ -755,7 +755,7 @@
 						"englishNote" : ""
 					},
 					"8" : {
-						"event" : "Special touch",
+						"event" : "Touch (Special)",
 						"media" : "touch_2_1",
 						"chinese" : "对、对老师恶作剧是不行的！(///",
 						"chineseTL" : "",
@@ -767,7 +767,7 @@
 						"englishNote" : ""
 					},
 					"9" : {
-						"event" : "Return to port",
+						"event" : "Return to Port",
 						"media" : "home_1",
 						"chinese" : "",
 						"chineseTL" : "",
@@ -798,7 +798,7 @@
 						"englishNote" : ""
 					},
 					"2" : {
-						"event" : "Receive",
+						"event" : "Acquisition",
 						"media" : "get_9",
 						"chinese" : "既然能力提升了，效率也要提升，公文也好，作战计划也好，尽管来吧！指挥官，做好心理准备，接下来会很忙哦~",
 						"chineseTL" : "",
@@ -810,7 +810,7 @@
 						"englishNote" : ""
 					},
 					"3" : {
-						"event" : "Log in",
+						"event" : "Login",
 						"media" : "login_9",
 						"chinese" : "指挥官，打起精神，投入紧张的工作中吧",
 						"chineseTL" : "",
@@ -822,7 +822,7 @@
 						"englishNote" : ""
 					},
 					"4" : {
-						"event" : "View details",
+						"event" : "Details",
 						"media" : "detail_9",
 						"chinese" : "嗯，这样就完成得差不多了…好，去找标枪她们玩——欸，指、指挥官？！咳咳，正好，这里有一些文件……",
 						"chineseTL" : "",
@@ -834,7 +834,7 @@
 						"englishNote" : ""
 					},
 					"5" : {
-						"event" : "Main screen 3",
+						"event" : "Main 3",
 						"media" : "main_3_9",
 						"chinese" : "俯瞰战场的战术，纵观全局的战略……除此之外！知道自己在为什么而战也是很重要的哟",
 						"chineseTL" : "",
@@ -846,7 +846,7 @@
 						"englishNote" : ""
 					},
 					"6" : {
-						"event" : "Main screen 4",
+						"event" : "Main 4",
 						"media" : "main_4_9",
 						"chinese" : "指挥官，休息够了的话，就开始处理这座公文山吧",
 						"chineseTL" : "",
@@ -858,7 +858,7 @@
 						"englishNote" : ""
 					},
 					"7" : {
-						"event" : "Main screen 5",
+						"event" : "Main 5",
 						"media" : "main_5_9",
 						"chinese" : "今天的任务完成了的话，就来确认一下接下来几天的日程吧，事情还多的是呢",
 						"chineseTL" : "",
@@ -870,7 +870,7 @@
 						"englishNote" : ""
 					},
 					"8" : {
-						"event" : "Special touch",
+						"event" : "Touch (Special)",
 						"media" : "touch_2_9",
 						"chinese" : "指挥官，做好在禁闭室办公的准备了吗？",
 						"chineseTL" : "",

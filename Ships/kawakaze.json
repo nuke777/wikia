@@ -98,7 +98,7 @@
 			"rarity" : "Common",
 			"name" : "127mm Mounted Gun"
 		},
-		"1" : {
+		"2" : {
 			"icon" : "35200",
 			"rarity" : "Rare",
 			"name" : "Quadruple 610mm Torpedo"
@@ -221,13 +221,13 @@
 			"preload": "0/0/0/0"
 		},
 		"4": {
-			"type": "Auxilary",
+			"type": "Auxiliary",
 			"efficiency": "-",
 			"amount": "-",
 			"preload": "-"
 		},
 		"5": {
-			"type": "Auxilary",
+			"type": "Auxiliary",
 			"efficiency": "-",
 			"amount": "-",
 			"preload": "-"
@@ -306,7 +306,7 @@
 						"englishNote" : ""
 					},
 					"3" : {
-						"event" : "Receive",
+						"event" : "Acquisition",
 						"media" : "get",
 						"chinese" : "我叫江风，白露型的江风。我对友好相处没什么兴趣，所以请多指教就免了吧",
 						"chineseTL" : "",
@@ -318,7 +318,7 @@
 						"englishNote" : ""
 					},
 					"4" : {
-						"event" : "Log in",
+						"event" : "Login",
 						"media" : "login",
 						"chinese" : "今天也会是一成不变的一天吧",
 						"chineseTL" : "",
@@ -330,7 +330,7 @@
 						"englishNote" : ""
 					},
 					"5" : {
-						"event" : "View details",
+						"event" : "Details",
 						"media" : "detail",
 						"chinese" : "我挺喜欢钓鱼的，因为钓鱼的时候能够放空身心，什么都不去用想",
 						"chineseTL" : "",
@@ -342,7 +342,7 @@
 						"englishNote" : ""
 					},
 					"6" : {
-						"event" : "Main screen 1",
+						"event" : "Main 1",
 						"media" : "main_1",
 						"chinese" : "炮弹乃凶器，战斗是为了毁灭对手，无论说什么漂亮话也无法掩盖这一点",
 						"chineseTL" : "",
@@ -354,7 +354,7 @@
 						"englishNote" : ""
 					},
 					"7" : {
-						"event" : "Main screen 2",
+						"event" : "Main 2",
 						"media" : "main_2",
 						"chinese" : "有什么问题可以去问神通大姐，她懂得多，我……和川内比较像吧",
 						"chineseTL" : "",
@@ -366,7 +366,7 @@
 						"englishNote" : ""
 					},
 					"8" : {
-						"event" : "Main screen 3",
+						"event" : "Main 3",
 						"media" : "main_3",
 						"chinese" : "这支舰队里，欢乐的家伙还真多啊……",
 						"chineseTL" : "",
@@ -378,7 +378,7 @@
 						"englishNote" : ""
 					},
 					"9" : {
-						"event" : "Normal touch",
+						"event" : "Touch",
 						"media" : "touch_1",
 						"chinese" : "秘书舰的工作？本来我也不是喜欢才会擅长战斗的，作为秘书舰也一样吧",
 						"chineseTL" : "",
@@ -390,7 +390,7 @@
 						"englishNote" : ""
 					},
 					"10" : {
-						"event" : "Special touch",
+						"event" : "Touch (Special)",
 						"media" : "touch_2",
 						"chinese" : "……无聊透顶",
 						"chineseTL" : "",
@@ -402,7 +402,7 @@
 						"englishNote" : ""
 					},
 					"11" : {
-						"event" : "Mission reminder",
+						"event" : "Mission",
 						"media" : "task",
 						"chinese" : "新任务来了……嗯？难道你希望我这时候也说些有的没的吗？",
 						"chineseTL" : "",
@@ -414,7 +414,7 @@
 						"englishNote" : ""
 					},
 					"12" : {
-						"event" : "Mission complete",
+						"event" : "Mission Complete",
 						"media" : "mission_complete",
 						"chinese" : "任务奖励，虽然没什么值得期待的，但还是领一下吧",
 						"chineseTL" : "",
@@ -426,7 +426,7 @@
 						"englishNote" : ""
 					},
 					"13" : {
-						"event" : "Mail reminder",
+						"event" : "Mail",
 						"media" : "mail",
 						"chinese" : "有你的信。我？这种东西跟我无缘呢",
 						"chineseTL" : "",
@@ -438,7 +438,7 @@
 						"englishNote" : ""
 					},
 					"14" : {
-						"event" : "Return to port",
+						"event" : "Return to Port",
 						"media" : "home",
 						"chinese" : "一场战斗结束后会发生什么？当然是下一场战斗",
 						"chineseTL" : "",
@@ -450,7 +450,7 @@
 						"englishNote" : ""
 					},
 					"15" : {
-						"event" : "Commission complete",
+						"event" : "Commission Complete",
 						"media" : "expedition",
 						"chinese" : "委托完成。报告书，别忘了确认",
 						"chineseTL" : "",
@@ -462,7 +462,7 @@
 						"englishNote" : ""
 					},
 					"16" : {
-						"event" : "Enhancing complete",
+						"event" : "Enhancement",
 						"media" : "upgrade",
 						"chinese" : "变强的感觉…并不坏",
 						"chineseTL" : "",
@@ -474,7 +474,7 @@
 						"englishNote" : ""
 					},
 					"17" : {
-						"event" : "Flagship fight",
+						"event" : "Flagship",
 						"media" : "warcry",
 						"chinese" : "斗争……从未改变",
 						"chineseTL" : "",
@@ -510,7 +510,7 @@
 						"englishNote" : ""
 					},
 					"20" : {
-						"event" : "Skills",
+						"event" : "Skill",
 						"media" : "skill",
 						"chinese" : "放轻松，痛苦只有一瞬间",
 						"chineseTL" : "",
@@ -534,7 +534,7 @@
 						"englishNote" : ""
 					},
 					"22" : {
-						"event" : "Upset",
+						"event" : "Affinity (Upset)",
 						"media" : "feeling1",
 						"chinese" : "你果然没有超出我的预期呢，指挥官",
 						"chineseTL" : "",
@@ -546,7 +546,7 @@
 						"englishNote" : ""
 					},
 					"23" : {
-						"event" : "Stranger",
+						"event" : "Affinity (Stranger)",
 						"media" : "feeling2",
 						"chinese" : "战争不存在善恶美丑。在我看来，我们和敌人一样丑陋",
 						"chineseTL" : "",
@@ -558,7 +558,7 @@
 						"englishNote" : ""
 					},
 					"24" : {
-						"event" : "Friendly",
+						"event" : "Affinity (Friendly)",
 						"media" : "feeling3",
 						"chinese" : "指挥官也是经历过战场的人，为什么还能够相信那些天真的东西呢？正义、爱、与和平什么的……",
 						"chineseTL" : "",
@@ -570,7 +570,7 @@
 						"englishNote" : ""
 					},
 					"25" : {
-						"event" : "Crush",
+						"event" : "Affinity (Like)",
 						"media" : "feeling4",
 						"chinese" : "我最讨厌的，是不愿正视现实，一味高喊着理想与信念的天真愚昧…指挥官，你不会变成那样的人吧？",
 						"chineseTL" : "",
@@ -582,7 +582,7 @@
 						"englishNote" : ""
 					},
 					"26" : {
-						"event" : "Love",
+						"event" : "Affinity (Love)",
 						"media" : "feeling5",
 						"chinese" : "“心怀信念，终能理想化作现实”…吗，哼，真是老套的说辞…不过如果是你的话…",
 						"chineseTL" : "",
@@ -594,7 +594,7 @@
 						"englishNote" : ""
 					},
 					"27" : {
-						"event" : "Promise",
+						"event" : "Pledge",
 						"media" : "propose",
 						"chinese" : "没想到会和指挥官走到这一步…和你一起久了，我也开始相信天真的理想了…让我变成这样，你可要好好负起责任喔——",
 						"chineseTL" : "",
@@ -606,7 +606,7 @@
 						"englishNote" : ""
 					},
 					"28" : {
-						"event" : "Easter Egg 1(Northampton)",
+						"event" : "Easter Egg 1 (Northampton)",
 						"media" : "link1",
 						"chinese" : "这次站在同一边了吗…也好",
 						"chineseTL" : "",
@@ -637,7 +637,7 @@
 						"englishNote" : ""
 					},
 					"2" : {
-						"event" : "Receive",
+						"event" : "Acquisition",
 						"media" : "get_1",
 						"chinese" : "嗯，轻便的衣服对战斗更有帮助，非常感谢，指挥官——穿起来很好看？谢、谢谢…",
 						"chineseTL" : "",
@@ -649,7 +649,7 @@
 						"englishNote" : ""
 					},
 					"3" : {
-						"event" : "Log in",
+						"event" : "Login",
 						"media" : "login_1",
 						"chinese" : "今天，也许会有什么不一样的事发生呢",
 						"chineseTL" : "",
@@ -661,7 +661,7 @@
 						"englishNote" : ""
 					},
 					"4" : {
-						"event" : "Main screen 1",
+						"event" : "Main 1",
 						"media" : "main_1_1",
 						"chinese" : "在战场上只需挥舞凶器，消灭敌人。剩下的，等战斗结束再去思考吧",
 						"chineseTL" : "",
@@ -673,7 +673,7 @@
 						"englishNote" : ""
 					},
 					"5" : {
-						"event" : "Main screen 2",
+						"event" : "Main 2",
 						"media" : "main_2_1",
 						"chinese" : "川内，要不要来对练一下？裁判…就让神通大姐和指挥官来好了",
 						"chineseTL" : "",
@@ -685,7 +685,7 @@
 						"englishNote" : ""
 					},
 					"6" : {
-						"event" : "Main screen 3",
+						"event" : "Main 3",
 						"media" : "main_3_1",
 						"chinese" : "有这么多欢乐的同伴，其实也不错呢…",
 						"chineseTL" : "",
@@ -697,7 +697,7 @@
 						"englishNote" : ""
 					},
 					"7" : {
-						"event" : "Normal touch",
+						"event" : "Touch",
 						"media" : "touch_1_1",
 						"chinese" : "嗯？指挥官也想练剑吗？就让我好好锻炼一番——欸？不来了吗…",
 						"chineseTL" : "",
@@ -709,7 +709,7 @@
 						"englishNote" : ""
 					},
 					"8" : {
-						"event" : "Special touch",
+						"event" : "Touch (Special)",
 						"media" : "touch_2_1",
 						"chinese" : "呼…还差一点，指挥官的手就要和身体分开了呢…",
 						"chineseTL" : "",

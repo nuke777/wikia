@@ -91,7 +91,7 @@
 			"rarity" : "Common",
 			"name" : "Single 127mm Main Gun"
 		},
-		"1" : {
+		"2" : {
 			"icon" : "5100",
 			"rarity" : "Common",
 			"name" : "Quadruple 533mm Torpedo"
@@ -214,13 +214,13 @@
 			"preload": "0/0/0/0"
 		},
 		"4": {
-			"type": "Auxilary",
+			"type": "Auxiliary",
 			"efficiency": "-",
 			"amount": "-",
 			"preload": "-"
 		},
 		"5": {
-			"type": "Auxilary",
+			"type": "Auxiliary",
 			"efficiency": "-",
 			"amount": "-",
 			"preload": "-"
@@ -299,7 +299,7 @@
 						"englishNote" : ""
 					},
 					"3" : {
-						"event" : "Receive",
+						"event" : "Acquisition",
 						"media" : "get",
 						"chinese" : "格里德利级2号舰克雷文前来报到，中场支援就交给我吧！",
 						"chineseTL" : "",
@@ -311,7 +311,7 @@
 						"englishNote" : ""
 					},
 					"4" : {
-						"event" : "Log in",
+						"event" : "Login",
 						"media" : "login",
 						"chinese" : "指挥官，今天的中场支援就放心的交给我吧！",
 						"chineseTL" : "",
@@ -323,7 +323,7 @@
 						"englishNote" : ""
 					},
 					"5" : {
-						"event" : "View details",
+						"event" : "Details",
 						"media" : "detail",
 						"chinese" : "呜啊~指挥官！不、不要突然凑这么近！",
 						"chineseTL" : "",
@@ -335,7 +335,7 @@
 						"englishNote" : ""
 					},
 					"6" : {
-						"event" : "Main screen 1",
+						"event" : "Main 1",
 						"media" : "main_1",
 						"chinese" : "就算是休息时间，Fight dance也不能懈怠~！",
 						"chineseTL" : "",
@@ -347,7 +347,7 @@
 						"englishNote" : ""
 					},
 					"7" : {
-						"event" : "Main screen 2",
+						"event" : "Main 2",
 						"media" : "main_2",
 						"chinese" : "北安普顿这个笨蛋，那样都能撞到我！",
 						"chineseTL" : "",
@@ -359,7 +359,7 @@
 						"englishNote" : ""
 					},
 					"8" : {
-						"event" : "Main screen 3",
+						"event" : "Main 3",
 						"media" : "main_3",
 						"chinese" : "Fight~Come on~白·鹰~☆",
 						"chineseTL" : "",
@@ -371,7 +371,7 @@
 						"englishNote" : ""
 					},
 					"9" : {
-						"event" : "Normal touch",
+						"event" : "Touch",
 						"media" : "touch_1",
 						"chinese" : "指挥官温暖的鼓励传达到了！我会更加努力的~",
 						"chineseTL" : "",
@@ -383,7 +383,7 @@
 						"englishNote" : ""
 					},
 					"10" : {
-						"event" : "Special touch",
+						"event" : "Touch (Special)",
 						"media" : "touch_2",
 						"chinese" : "就、就算是鼓劲、这也有点……太、太热情了！",
 						"chineseTL" : "",
@@ -395,7 +395,7 @@
 						"englishNote" : ""
 					},
 					"11" : {
-						"event" : "Mission reminder",
+						"event" : "Mission",
 						"media" : "task",
 						"chinese" : "有任务没有完成哦！",
 						"chineseTL" : "",
@@ -407,7 +407,7 @@
 						"englishNote" : ""
 					},
 					"12" : {
-						"event" : "Mission complete",
+						"event" : "Mission Complete",
 						"media" : "mission_complete",
 						"chinese" : "奖励送达了~一定有什么惊喜呢！",
 						"chineseTL" : "",
@@ -419,7 +419,7 @@
 						"englishNote" : ""
 					},
 					"13" : {
-						"event" : "Mail reminder",
+						"event" : "Mail",
 						"media" : "mail",
 						"chinese" : "新邮件来了~有什么鼓舞人心的消息吗？",
 						"chineseTL" : "",
@@ -431,7 +431,7 @@
 						"englishNote" : ""
 					},
 					"14" : {
-						"event" : "Return to port",
+						"event" : "Return to Port",
 						"media" : "home",
 						"chinese" : "Perfect!~今天也是完美的谢幕！",
 						"chineseTL" : "",
@@ -443,7 +443,7 @@
 						"englishNote" : ""
 					},
 					"15" : {
-						"event" : "Commission complete",
+						"event" : "Commission Complete",
 						"media" : "expedition",
 						"chinese" : "虽然我没有一起去，不过我的鼓励与姐妹们同在，去迎接她们吧~",
 						"chineseTL" : "",
@@ -455,7 +455,7 @@
 						"englishNote" : ""
 					},
 					"16" : {
-						"event" : "Enhancing complete",
+						"event" : "Enhancement",
 						"media" : "upgrade",
 						"chinese" : "这样就可以为大家提供更加有力的声援了~",
 						"chineseTL" : "",
@@ -467,7 +467,7 @@
 						"englishNote" : ""
 					},
 					"17" : {
-						"event" : "Flagship fight",
+						"event" : "Flagship",
 						"media" : "warcry",
 						"chinese" : "大家~今天也要活力满满的~Fighting~☆",
 						"chineseTL" : "",
@@ -503,7 +503,7 @@
 						"englishNote" : ""
 					},
 					"20" : {
-						"event" : "Skills",
+						"event" : "Skill",
 						"media" : "skill",
 						"chinese" : "大家加油！",
 						"chineseTL" : "",
@@ -515,7 +515,7 @@
 						"englishNote" : ""
 					},
 					"21" : {
-						"event" : "Upset",
+						"event" : "Affinity (Upset)",
 						"media" : "feeling1",
 						"chinese" : "我去给别人加油了，今天可能不回来了",
 						"chineseTL" : "",
@@ -527,7 +527,7 @@
 						"englishNote" : ""
 					},
 					"22" : {
-						"event" : "Stranger",
+						"event" : "Affinity (Stranger)",
 						"media" : "feeling2",
 						"chinese" : "工作以外的加油？不是很明白你在说什么……",
 						"chineseTL" : "",
@@ -539,7 +539,7 @@
 						"englishNote" : ""
 					},
 					"23" : {
-						"event" : "Friendly",
+						"event" : "Affinity (Friendly)",
 						"media" : "feeling3",
 						"chinese" : "指挥官看上去没什么精神耶，要不要克雷文给你摸摸头的鼓励呀？",
 						"chineseTL" : "",
@@ -551,7 +551,7 @@
 						"englishNote" : ""
 					},
 					"24" : {
-						"event" : "Crush",
+						"event" : "Affinity (Like)",
 						"media" : "feeling4",
 						"chinese" : "只要指挥官需要，随、随时给指挥官应援什么的（小声）……也是可以的",
 						"chineseTL" : "",
@@ -563,7 +563,7 @@
 						"englishNote" : ""
 					},
 					"25" : {
-						"event" : "Love",
+						"event" : "Affinity (Love)",
 						"media" : "feeling5",
 						"chinese" : "加油——！加油——！指·挥·官！L·O·V·E！指·挥·官！怎么样，克雷文爱的加油，传达到指挥官的心里了吗~（眨眼）",
 						"chineseTL" : "",
@@ -575,7 +575,7 @@
 						"englishNote" : ""
 					},
 					"26" : {
-						"event" : "Promise",
+						"event" : "Pledge",
 						"media" : "propose",
 						"chinese" : "这下要建立指挥官专属的啦啦队了呢……欸？领队当然是克雷文啦，对指挥官的心意克雷文可不会输给任何人哦~",
 						"chineseTL" : "",
@@ -606,7 +606,7 @@
 						"englishNote" : ""
 					},
 					"2" : {
-						"event" : "Receive",
+						"event" : "Acquisition",
 						"media" : "get_1",
 						"chinese" : "比起上课我更想为指挥官加油打气啦……不过，不管在哪，我肯定都会全力以赴啦！指挥官，等着我拿着学年第一回来吧！",
 						"chineseTL" : "",
@@ -618,7 +618,7 @@
 						"englishNote" : ""
 					},
 					"3" : {
-						"event" : "Main screen 1",
+						"event" : "Main 1",
 						"media" : "main_1_1",
 						"chinese" : "实在学不进去的时候，就用跑步来放松一下吧！",
 						"chineseTL" : "",
@@ -630,7 +630,7 @@
 						"englishNote" : ""
 					},
 					"4" : {
-						"event" : "Main screen 2",
+						"event" : "Main 2",
 						"media" : "main_2_1",
 						"chinese" : "学习不行就补习，补习不行就特训，特训不行……没有什么是特训做不到的！如果有就再特训一次！",
 						"chineseTL" : "",
@@ -642,7 +642,7 @@
 						"englishNote" : ""
 					},
 					"5" : {
-						"event" : "Main screen 3",
+						"event" : "Main 3",
 						"media" : "main_3_1",
 						"chinese" : "指挥官在我心中一直是最棒的，所以我也得成为指挥官心中最棒的才行！",
 						"chineseTL" : "",
@@ -654,7 +654,7 @@
 						"englishNote" : ""
 					},
 					"6" : {
-						"event" : "Normal touch",
+						"event" : "Touch",
 						"media" : "touch_1_1",
 						"chinese" : "课、课程好难……指挥官，能帮我补习一下吗？",
 						"chineseTL" : "",
@@ -666,7 +666,7 @@
 						"englishNote" : ""
 					},
 					"7" : {
-						"event" : "Special touch",
+						"event" : "Touch (Special)",
 						"media" : "touch_2_1",
 						"chinese" : "我，燃起来了！",
 						"chineseTL" : "",

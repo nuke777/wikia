@@ -115,7 +115,7 @@
 			"rarity" : "",
 			"name" : "Single 120mm Main Gun"
 		},
-		"1" : {
+		"2" : {
 			"icon" : "5100",
 			"rarity" : "Common",
 			"name" : "Quadruple 533mm Torpedo"
@@ -238,13 +238,13 @@
 			"preload": "0/0/0/0"
 		},
 		"4": {
-			"type": "Auxilary",
+			"type": "Auxiliary",
 			"efficiency": "-",
 			"amount": "-",
 			"preload": "-"
 		},
 		"5": {
-			"type": "Auxilary",
+			"type": "Auxiliary",
 			"efficiency": "-",
 			"amount": "-",
 			"preload": "-"
@@ -323,7 +323,7 @@
 						"englishNote" : ""
 					},
 					"3" : {
-						"event" : "Receive",
+						"event" : "Acquisition",
 						"media" : "get",
 						"chinese" : "喔……阿卡司塔的说，你好",
 						"chineseTL" : "",
@@ -335,7 +335,7 @@
 						"englishNote" : ""
 					},
 					"4" : {
-						"event" : "Log in",
+						"event" : "Login",
 						"media" : "login",
 						"chinese" : "Zzzz……啊，指挥官你回来了",
 						"chineseTL" : "",
@@ -347,7 +347,7 @@
 						"englishNote" : ""
 					},
 					"5" : {
-						"event" : "View details",
+						"event" : "Details",
 						"media" : "detail",
 						"chinese" : "我的脸上有什么吗？",
 						"chineseTL" : "",
@@ -359,7 +359,7 @@
 						"englishNote" : ""
 					},
 					"6" : {
-						"event" : "Main screen 1",
+						"event" : "Main 1",
 						"media" : "main_1",
 						"chinese" : "我……不爱说话吗？——喔，其实是因为总是有点困",
 						"chineseTL" : "",
@@ -371,7 +371,7 @@
 						"englishNote" : ""
 					},
 					"7" : {
-						"event" : "Main screen 2",
+						"event" : "Main 2",
 						"media" : "main_2",
 						"chinese" : "欸？我睡着了么。天气不错所以……",
 						"chineseTL" : "",
@@ -383,7 +383,7 @@
 						"englishNote" : ""
 					},
 					"8" : {
-						"event" : "Main screen 3",
+						"event" : "Main 3",
 						"media" : "main_3",
 						"chinese" : "指挥官变得和我一样不爱说话了，听起来很棒",
 						"chineseTL" : "",
@@ -395,7 +395,7 @@
 						"englishNote" : ""
 					},
 					"9" : {
-						"event" : "Normal touch",
+						"event" : "Touch",
 						"media" : "touch_1",
 						"chinese" : "zzzZZ……唔……让我睡会儿……别摸……",
 						"chineseTL" : "",
@@ -407,7 +407,7 @@
 						"englishNote" : ""
 					},
 					"10" : {
-						"event" : "Special touch",
+						"event" : "Touch (Special)",
 						"media" : "touch_2",
 						"chinese" : "那个……被看到了你会被抓起来的哦",
 						"chineseTL" : "",
@@ -419,7 +419,7 @@
 						"englishNote" : ""
 					},
 					"11" : {
-						"event" : "Mission reminder",
+						"event" : "Mission",
 						"media" : "task",
 						"chinese" : "是不是需要查看一下任务记录？",
 						"chineseTL" : "",
@@ -431,7 +431,7 @@
 						"englishNote" : ""
 					},
 					"12" : {
-						"event" : "Mission complete",
+						"event" : "Mission Complete",
 						"media" : "mission_complete",
 						"chinese" : "喔，奖励送来了……",
 						"chineseTL" : "",
@@ -443,7 +443,7 @@
 						"englishNote" : ""
 					},
 					"13" : {
-						"event" : "Mail reminder",
+						"event" : "Mail",
 						"media" : "mail",
 						"chinese" : "有你的信……指挥官",
 						"chineseTL" : "",
@@ -455,7 +455,7 @@
 						"englishNote" : ""
 					},
 					"14" : {
-						"event" : "Return to port",
+						"event" : "Return to Port",
 						"media" : "home",
 						"chinese" : "欢迎回来，呼啊……（打哈欠），困了……",
 						"chineseTL" : "",
@@ -467,7 +467,7 @@
 						"englishNote" : ""
 					},
 					"15" : {
-						"event" : "Commission complete",
+						"event" : "Commission Complete",
 						"media" : "expedition",
 						"chinese" : "Zzzzzz……嗯？指挥官，是委托完成的时间了",
 						"chineseTL" : "",
@@ -479,7 +479,7 @@
 						"englishNote" : ""
 					},
 					"16" : {
-						"event" : "Enhancing complete",
+						"event" : "Enhancement",
 						"media" : "upgrade",
 						"chinese" : "变强了……期待我的努力吧",
 						"chineseTL" : "",
@@ -491,7 +491,7 @@
 						"englishNote" : ""
 					},
 					"17" : {
-						"event" : "Flagship fight",
+						"event" : "Flagship",
 						"media" : "warcry",
 						"chinese" : "各位……请保持冷静，抓准机会痛击敌人",
 						"chineseTL" : "",
@@ -527,7 +527,7 @@
 						"englishNote" : ""
 					},
 					"20" : {
-						"event" : "Skills",
+						"event" : "Skill",
 						"media" : "skill",
 						"chinese" : "稍微努力一下吧……",
 						"chineseTL" : "",
@@ -539,7 +539,7 @@
 						"englishNote" : ""
 					},
 					"21" : {
-						"event" : "Upset",
+						"event" : "Affinity (Upset)",
 						"media" : "feeling1",
 						"chinese" : "能稍微安静点吗……",
 						"chineseTL" : "",
@@ -551,7 +551,7 @@
 						"englishNote" : ""
 					},
 					"22" : {
-						"event" : "Stranger",
+						"event" : "Affinity (Stranger)",
 						"media" : "feeling2",
 						"chinese" : "有点没干劲……睡一会儿好了……",
 						"chineseTL" : "",
@@ -563,7 +563,7 @@
 						"englishNote" : ""
 					},
 					"23" : {
-						"event" : "Friendly",
+						"event" : "Affinity (Friendly)",
 						"media" : "feeling3",
 						"chinese" : "我有一个可以睡觉的好地方呢……指挥官要一起来偷懒吗？",
 						"chineseTL" : "",
@@ -575,7 +575,7 @@
 						"englishNote" : ""
 					},
 					"24" : {
-						"event" : "Crush",
+						"event" : "Affinity (Like)",
 						"media" : "feeling4",
 						"chinese" : "指挥官你……最好慎重考虑一下吧，和我在一起可能会有点无聊",
 						"chineseTL" : "",
@@ -587,7 +587,7 @@
 						"englishNote" : ""
 					},
 					"25" : {
-						"event" : "Love",
+						"event" : "Affinity (Love)",
 						"media" : "feeling5",
 						"chinese" : "虽然不怎么说话……但是我们之间已经用不到语言交流了……对吧？",
 						"chineseTL" : "",
@@ -599,7 +599,7 @@
 						"englishNote" : ""
 					},
 					"26" : {
-						"event" : "Promise",
+						"event" : "Pledge",
 						"media" : "propose",
 						"chinese" : "……………………抱歉，太高兴了不知道该说什么才好……我会好好保管的……",
 						"chineseTL" : "",
@@ -630,7 +630,7 @@
 						"englishNote" : ""
 					},
 					"2" : {
-						"event" : "Receive",
+						"event" : "Acquisition",
 						"media" : "get_1",
 						"chinese" : "啊，指挥官也出门吗？…不要用那种眼光看我嘛，我多少也是会出门的…顺路的话…要一起吗？",
 						"chineseTL" : "",
@@ -642,7 +642,7 @@
 						"englishNote" : ""
 					},
 					"3" : {
-						"event" : "View details",
+						"event" : "Details",
 						"media" : "detail_1",
 						"chinese" : "就算是我…也是会有所谓的“外出模式”的啦…虽然这样其实挺累的就是了…",
 						"chineseTL" : "",
@@ -654,7 +654,7 @@
 						"englishNote" : ""
 					},
 					"4" : {
-						"event" : "Main screen 1",
+						"event" : "Main 1",
 						"media" : "main_1_1",
 						"chinese" : "为了防止突然要出击的状况，我也随身带了武装哦",
 						"chineseTL" : "",
@@ -666,7 +666,7 @@
 						"englishNote" : ""
 					},
 					"5" : {
-						"event" : "Main screen 2",
+						"event" : "Main 2",
 						"media" : "main_2_1",
 						"chinese" : "最近常被大家说“阿卡司塔，你打扮起来真好看耶”，心情稍微有点微妙……",
 						"chineseTL" : "",
@@ -678,7 +678,7 @@
 						"englishNote" : ""
 					},
 					"6" : {
-						"event" : "Main screen 3",
+						"event" : "Main 3",
 						"media" : "main_3_1",
 						"chinese" : "指挥官，暂时不忙的话我睡会儿哦？",
 						"chineseTL" : "",
@@ -690,7 +690,7 @@
 						"englishNote" : ""
 					},
 					"7" : {
-						"event" : "Normal touch",
+						"event" : "Touch",
 						"media" : "touch_1_1",
 						"chinese" : "嗯…是不是换回原来的衣服比较好呢…",
 						"chineseTL" : "",
@@ -702,7 +702,7 @@
 						"englishNote" : ""
 					},
 					"8" : {
-						"event" : "Special touch",
+						"event" : "Touch (Special)",
 						"media" : "touch_2_1",
 						"chinese" : "那个…乱碰的话会走火哦…",
 						"chineseTL" : "",
@@ -733,7 +733,7 @@
 						"englishNote" : ""
 					},
 					"2" : {
-						"event" : "Receive",
+						"event" : "Acquisition",
 						"media" : "get_9",
 						"chinese" : "热心老说我太懒散了，要更女孩子一点，于是趁着改造…指挥官，还认得我吗，我是阿卡司塔哦？",
 						"chineseTL" : "",
@@ -745,7 +745,7 @@
 						"englishNote" : ""
 					},
 					"3" : {
-						"event" : "Log in",
+						"event" : "Login",
 						"media" : "login_9",
 						"chinese" : "感觉改造后干劲没有一点提升呢……",
 						"chineseTL" : "",
@@ -757,7 +757,7 @@
 						"englishNote" : ""
 					},
 					"4" : {
-						"event" : "View details",
+						"event" : "Details",
 						"media" : "detail_9",
 						"chinese" : "虽然样子改变了，不过指挥官对我还是和以前一样，太好了……",
 						"chineseTL" : "",
@@ -769,7 +769,7 @@
 						"englishNote" : ""
 					},
 					"5" : {
-						"event" : "Main screen 1",
+						"event" : "Main 1",
 						"media" : "main_1_9",
 						"chinese" : "唔，用炮挡住，这样指挥官就不会看到我悄悄打哈欠了吧……",
 						"chineseTL" : "",
@@ -781,7 +781,7 @@
 						"englishNote" : ""
 					},
 					"6" : {
-						"event" : "Main screen 2",
+						"event" : "Main 2",
 						"media" : "main_2_9",
 						"chinese" : "……哈！好、好险，差点睡过去了，指挥官没有发现吧……",
 						"chineseTL" : "",
@@ -793,7 +793,7 @@
 						"englishNote" : ""
 					},
 					"7" : {
-						"event" : "Main screen 3",
+						"event" : "Main 3",
 						"media" : "main_3_9",
 						"chinese" : "指挥官希望我有女子力一些，还是像现在这样就好呢？",
 						"chineseTL" : "",
@@ -805,7 +805,7 @@
 						"englishNote" : ""
 					},
 					"8" : {
-						"event" : "Normal touch",
+						"event" : "Touch",
 						"media" : "touch_1_9",
 						"chinese" : "都怪热心说什么女孩子太懒散是会被喜欢的人讨厌的……欸，指挥官！？唔……刚才的，你没听到吧？",
 						"chineseTL" : "",
@@ -817,7 +817,7 @@
 						"englishNote" : ""
 					},
 					"9" : {
-						"event" : "Return to port",
+						"event" : "Return to Port",
 						"media" : "home_9",
 						"chinese" : "指挥官辛苦了，要小睡一会儿吗？",
 						"chineseTL" : "",
@@ -829,7 +829,7 @@
 						"englishNote" : ""
 					},
 					"10" : {
-						"event" : "Commission complete",
+						"event" : "Commission Complete",
 						"media" : "expedition_9",
 						"chinese" : "委托完成了吗……唔，指挥官，一起……去一趟港口吧？",
 						"chineseTL" : "",

@@ -108,7 +108,7 @@
 			"rarity" : "",
 			"name" : ""
 		},
-		"1" : {
+		"3" : {
 			"icon" : "16400",
 			"rarity" : "Rare",
 			"name" : "Quadruple 40mm Bofors Gun"
@@ -226,13 +226,13 @@
 			"preload": "0/0/0/0"
 		},
 		"4": {
-			"type": "Auxilary",
+			"type": "Auxiliary",
 			"efficiency": "-",
 			"amount": "-",
 			"preload": "-"
 		},
 		"5": {
-			"type": "Auxilary",
+			"type": "Auxiliary",
 			"efficiency": "-",
 			"amount": "-",
 			"preload": "-"
@@ -311,7 +311,7 @@
 						"englishNote" : ""
 					},
 					"3" : {
-						"event" : "Receive",
+						"event" : "Acquisition",
 						"media" : "get",
 						"chinese" : "战舰南达科他，为你效劳。我将成为你最坚固的盾，为你抵御一切炮火",
 						"chineseTL" : "",
@@ -323,7 +323,7 @@
 						"englishNote" : ""
 					},
 					"4" : {
-						"event" : "Log in",
+						"event" : "Login",
 						"media" : "login",
 						"chinese" : "指挥官，请下令吧",
 						"chineseTL" : "",
@@ -335,7 +335,7 @@
 						"englishNote" : ""
 					},
 					"5" : {
-						"event" : "View details",
+						"event" : "Details",
 						"media" : "detail",
 						"chinese" : "南达科他随时等待你的差遣，指挥官",
 						"chineseTL" : "",
@@ -347,7 +347,7 @@
 						"englishNote" : ""
 					},
 					"6" : {
-						"event" : "Main screen 1",
+						"event" : "Main 1",
 						"media" : "main_1",
 						"chinese" : "我曾在黑暗中磨练了自己的意志，所以无所畏惧",
 						"chineseTL" : "",
@@ -359,7 +359,7 @@
 						"englishNote" : ""
 					},
 					"7" : {
-						"event" : "Main screen 2",
+						"event" : "Main 2",
 						"media" : "main_2",
 						"chinese" : "只要确实为指挥官出了力，那么功劳让给别人也无妨",
 						"chineseTL" : "",
@@ -371,7 +371,7 @@
 						"englishNote" : ""
 					},
 					"8" : {
-						"event" : "Main screen 3",
+						"event" : "Main 3",
 						"media" : "main_3",
 						"chinese" : "站在指挥官对立面的，无论是谁，都将是我的敌人",
 						"chineseTL" : "",
@@ -383,7 +383,7 @@
 						"englishNote" : ""
 					},
 					"9" : {
-						"event" : "Normal touch",
+						"event" : "Touch",
 						"media" : "touch_1",
 						"chinese" : "我随时能够行动",
 						"chineseTL" : "",
@@ -395,7 +395,7 @@
 						"englishNote" : ""
 					},
 					"10" : {
-						"event" : "Special touch",
+						"event" : "Touch (Special)",
 						"media" : "touch_2",
 						"chinese" : "如果这就是指挥官想做的事的话……",
 						"chineseTL" : "",
@@ -407,7 +407,7 @@
 						"englishNote" : ""
 					},
 					"11" : {
-						"event" : "Mission reminder",
+						"event" : "Mission",
 						"media" : "task",
 						"chinese" : "不要忘了完成任务，指挥官",
 						"chineseTL" : "",
@@ -419,7 +419,7 @@
 						"englishNote" : ""
 					},
 					"12" : {
-						"event" : "Mission complete",
+						"event" : "Mission Complete",
 						"media" : "mission_complete",
 						"chinese" : "指挥官，任务的奖励发放了",
 						"chineseTL" : "",
@@ -431,7 +431,7 @@
 						"englishNote" : ""
 					},
 					"13" : {
-						"event" : "Mail reminder",
+						"event" : "Mail",
 						"media" : "mail",
 						"chinese" : "有新的邮件，指挥官",
 						"chineseTL" : "",
@@ -443,7 +443,7 @@
 						"englishNote" : ""
 					},
 					"14" : {
-						"event" : "Return to port",
+						"event" : "Return to Port",
 						"media" : "home",
 						"chinese" : "漂亮的战斗，指挥官",
 						"chineseTL" : "",
@@ -455,7 +455,7 @@
 						"englishNote" : ""
 					},
 					"15" : {
-						"event" : "Commission complete",
+						"event" : "Commission Complete",
 						"media" : "expedition",
 						"chinese" : "委托组回来了……有必要的话，我也可以出动",
 						"chineseTL" : "",
@@ -467,7 +467,7 @@
 						"englishNote" : ""
 					},
 					"16" : {
-						"event" : "Enhancing complete",
+						"event" : "Enhancement",
 						"media" : "upgrade",
 						"chinese" : "盾变得更坚固了",
 						"chineseTL" : "",
@@ -479,7 +479,7 @@
 						"englishNote" : ""
 					},
 					"17" : {
-						"event" : "Flagship fight",
+						"event" : "Flagship",
 						"media" : "warcry",
 						"chinese" : "拼尽全力攻过来吧！",
 						"chineseTL" : "",
@@ -515,7 +515,7 @@
 						"englishNote" : ""
 					},
 					"20" : {
-						"event" : "Skills",
+						"event" : "Skill",
 						"media" : "skill",
 						"chinese" : "你们将止步于此",
 						"chineseTL" : "",
@@ -539,7 +539,7 @@
 						"englishNote" : ""
 					},
 					"22" : {
-						"event" : "Upset",
+						"event" : "Affinity (Upset)",
 						"media" : "feeling1",
 						"chinese" : "…………我会听从你的命令",
 						"chineseTL" : "",
@@ -551,7 +551,7 @@
 						"englishNote" : ""
 					},
 					"23" : {
-						"event" : "Stranger",
+						"event" : "Affinity (Stranger)",
 						"media" : "feeling2",
 						"chinese" : "你的意志，就是我前进的方向，指挥官",
 						"chineseTL" : "",
@@ -563,7 +563,7 @@
 						"englishNote" : ""
 					},
 					"24" : {
-						"event" : "Friendly",
+						"event" : "Affinity (Friendly)",
 						"media" : "feeling3",
 						"chinese" : "我是为了实现指挥官的目标而存在的，除此之外我没有任何价值——裙子？那种轻飘飘的东西我没有穿过",
 						"chineseTL" : "",
@@ -575,7 +575,7 @@
 						"englishNote" : ""
 					},
 					"25" : {
-						"event" : "Crush",
+						"event" : "Affinity (Like)",
 						"media" : "feeling4",
 						"chinese" : "除了战斗还有别的生存方式？我……不知道该怎么做，一直以来我都是这样的……指挥官能教给我吗？",
 						"chineseTL" : "",
@@ -587,7 +587,7 @@
 						"englishNote" : ""
 					},
 					"26" : {
-						"event" : "Love",
+						"event" : "Affinity (Love)",
 						"media" : "feeling5",
 						"chinese" : "这就是指挥官所见到的景色……指挥官说过我应该自己选择生存方式，那这一次，我选择不是为了使命，而是为了指挥官的笑容而战",
 						"chineseTL" : "",
@@ -599,7 +599,7 @@
 						"englishNote" : ""
 					},
 					"27" : {
-						"event" : "Promise",
+						"event" : "Pledge",
 						"media" : "propose",
 						"chinese" : "你的身边令我温暖，你的目标令我振奋，你的话语令我欢欣……我曾把我的盾献给你，那么现在，把我的心献给你吧，指挥官",
 						"chineseTL" : "",
@@ -611,7 +611,7 @@
 						"englishNote" : ""
 					},
 					"28" : {
-						"event" : "Easter Egg 1(Tennessee)",
+						"event" : "Easter Egg 1 (Tennessee)",
 						"media" : "link1",
 						"chinese" : "别只顾着开火，注意周围",
 						"chineseTL" : "",
@@ -623,7 +623,7 @@
 						"englishNote" : ""
 					},
 					"29" : {
-						"event" : "Easter Egg 2(Vestal)",
+						"event" : "Easter Egg 2 (Vestal)",
 						"media" : "link2",
 						"chinese" : "抱歉，可能又要麻烦你了",
 						"chineseTL" : "",
@@ -635,7 +635,7 @@
 						"englishNote" : ""
 					},
 					"30" : {
-						"event" : "Easter Egg 3(Enterprise, Vestal)",
+						"event" : "Easter Egg 3 (Enterprise, Vestal)",
 						"media" : "link3",
 						"chinese" : "企业，决一胜负吧！",
 						"chineseTL" : "",

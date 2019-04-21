@@ -160,7 +160,7 @@
 			"rarity" : "",
 			"name" : ""
 		},
-		"1" : {
+		"3" : {
 			"icon" : "36300",
 			"rarity" : "Common",
 			"name" : "Triple 25mm Mounted AA Gun"
@@ -278,13 +278,13 @@
 			"preload": "0/0/0/0"
 		},
 		"4": {
-			"type": "Auxilary",
+			"type": "Auxiliary",
 			"efficiency": "-",
 			"amount": "-",
 			"preload": "-"
 		},
 		"5": {
-			"type": "Auxilary",
+			"type": "Auxiliary",
 			"efficiency": "-",
 			"amount": "-",
 			"preload": "-"
@@ -363,7 +363,7 @@
 						"englishNote" : ""
 					},
 					"3" : {
-						"event" : "Receive",
+						"event" : "Acquisition",
 						"media" : "get",
 						"chinese" : "哇！是殿下，是真的殿下！那个那个，我是，唔，我是三、山城！从今往后请多指教！",
 						"chineseTL" : "",
@@ -375,7 +375,7 @@
 						"englishNote" : ""
 					},
 					"4" : {
-						"event" : "Log in",
+						"event" : "Login",
 						"media" : "login",
 						"chinese" : "殿下殿下，今天要做什么呀！",
 						"chineseTL" : "",
@@ -387,7 +387,7 @@
 						"englishNote" : ""
 					},
 					"5" : {
-						"event" : "View details",
+						"event" : "Details",
 						"media" : "detail",
 						"chinese" : "殿下身上有股舒服的味道！",
 						"chineseTL" : "",
@@ -399,7 +399,7 @@
 						"englishNote" : ""
 					},
 					"6" : {
-						"event" : "Main screen 1",
+						"event" : "Main 1",
 						"media" : "main_1",
 						"chinese" : "殿下殿下！哎呀！……谢谢殿下，我从以前开始就很容易摔倒，已经习惯了！",
 						"chineseTL" : "",
@@ -411,7 +411,7 @@
 						"englishNote" : ""
 					},
 					"7" : {
-						"event" : "Main screen 2",
+						"event" : "Main 2",
 						"media" : "main_2",
 						"chinese" : "殿下殿下，要一起来练习跑步吗，我想要变得快一点！",
 						"chineseTL" : "",
@@ -423,7 +423,7 @@
 						"englishNote" : ""
 					},
 					"8" : {
-						"event" : "Main screen 3",
+						"event" : "Main 3",
 						"media" : "main_3",
 						"chinese" : "殿下殿下，走廊的花瓶不知道为什么摔碎了，不是我做的哦！我走过的时候它就忽然摔下来吓了我一跳……",
 						"chineseTL" : "",
@@ -435,7 +435,7 @@
 						"englishNote" : ""
 					},
 					"9" : {
-						"event" : "Normal touch",
+						"event" : "Touch",
 						"media" : "touch_1",
 						"chinese" : "好痒啦殿下！",
 						"chineseTL" : "",
@@ -447,7 +447,7 @@
 						"englishNote" : ""
 					},
 					"10" : {
-						"event" : "Special touch",
+						"event" : "Touch (Special)",
 						"media" : "touch_2",
 						"chinese" : "哇！！殿下快让开，主炮要发射了！",
 						"chineseTL" : "",
@@ -459,7 +459,7 @@
 						"englishNote" : ""
 					},
 					"11" : {
-						"event" : "Mission reminder",
+						"event" : "Mission",
 						"media" : "task",
 						"chinese" : "殿下殿下，有新的任务！",
 						"chineseTL" : "",
@@ -471,7 +471,7 @@
 						"englishNote" : ""
 					},
 					"12" : {
-						"event" : "Mission complete",
+						"event" : "Mission Complete",
 						"media" : "mission_complete",
 						"chinese" : "殿下殿下，我把任务奖励……哇啊啊！！",
 						"chineseTL" : "",
@@ -483,7 +483,7 @@
 						"englishNote" : ""
 					},
 					"13" : {
-						"event" : "Mail reminder",
+						"event" : "Mail",
 						"media" : "mail",
 						"chinese" : "殿下殿下，有你的信！",
 						"chineseTL" : "",
@@ -495,7 +495,7 @@
 						"englishNote" : ""
 					},
 					"14" : {
-						"event" : "Return to port",
+						"event" : "Return to Port",
 						"media" : "home",
 						"chinese" : "殿下辛苦啦，我给你泡了……呜哇！！殿下小心！！",
 						"chineseTL" : "",
@@ -507,7 +507,7 @@
 						"englishNote" : ""
 					},
 					"15" : {
-						"event" : "Commission complete",
+						"event" : "Commission Complete",
 						"media" : "expedition",
 						"chinese" : "殿下殿下，有姐妹完成委托回来啦！",
 						"chineseTL" : "",
@@ -519,7 +519,7 @@
 						"englishNote" : ""
 					},
 					"16" : {
-						"event" : "Enhancing complete",
+						"event" : "Enhancement",
 						"media" : "upgrade",
 						"chinese" : "感觉自己变强了！",
 						"chineseTL" : "",
@@ -531,7 +531,7 @@
 						"englishNote" : ""
 					},
 					"17" : {
-						"event" : "Flagship fight",
+						"event" : "Flagship",
 						"media" : "warcry",
 						"chinese" : "姐妹们上——哇哇哇，主炮不小心发射了！",
 						"chineseTL" : "",
@@ -567,7 +567,7 @@
 						"englishNote" : ""
 					},
 					"20" : {
-						"event" : "Skills",
+						"event" : "Skill",
 						"media" : "skill",
 						"chinese" : "弹药库状况良好……好！",
 						"chineseTL" : "",
@@ -591,7 +591,7 @@
 						"englishNote" : ""
 					},
 					"22" : {
-						"event" : "Upset",
+						"event" : "Affinity (Upset)",
 						"media" : "feeling1",
 						"chinese" : "殿下好无趣……我不要找殿下玩了……",
 						"chineseTL" : "",
@@ -603,7 +603,7 @@
 						"englishNote" : ""
 					},
 					"23" : {
-						"event" : "Stranger",
+						"event" : "Affinity (Stranger)",
 						"media" : "feeling2",
 						"chinese" : "殿下，来玩吧！……啊！忘了带要和殿下一起玩的东西！怎么办……",
 						"chineseTL" : "",
@@ -615,7 +615,7 @@
 						"englishNote" : ""
 					},
 					"24" : {
-						"event" : "Friendly",
+						"event" : "Affinity (Friendly)",
 						"media" : "feeling3",
 						"chinese" : "虽然我也很喜欢姐姐，不过姐姐太安静啦，还是殿下好，会陪我玩！",
 						"chineseTL" : "",
@@ -627,7 +627,7 @@
 						"englishNote" : ""
 					},
 					"25" : {
-						"event" : "Crush",
+						"event" : "Affinity (Like)",
 						"media" : "feeling4",
 						"chinese" : "殿下，你知道这个面具吗，这是狐面哦，也是神乐用的！欸嘿嘿，其实我也有在悄悄练习神乐舞，殿下要看吗要看吗！",
 						"chineseTL" : "",
@@ -639,7 +639,7 @@
 						"englishNote" : ""
 					},
 					"26" : {
-						"event" : "Love",
+						"event" : "Affinity (Love)",
 						"media" : "feeling5",
 						"chinese" : "我知道姐姐很努力，所以为了姐姐我也要每天让自己过的开心，然后有一天能把我的笑容也带给姐姐……有殿下在感觉这一天不会很远啦，因为我看到殿下就会很开心！",
 						"chineseTL" : "",
@@ -651,7 +651,7 @@
 						"englishNote" : ""
 					},
 					"27" : {
-						"event" : "Promise",
+						"event" : "Pledge",
 						"media" : "propose",
 						"chinese" : "欸，殿下要把这个给我吗！……嗯，殿下一点也不嫌弃我跑得慢又有缺陷还对我这么好，我也最喜欢殿下啦！",
 						"chineseTL" : "",
@@ -682,7 +682,7 @@
 						"englishNote" : ""
 					},
 					"2" : {
-						"event" : "Receive",
+						"event" : "Acquisition",
 						"media" : "get_1",
 						"chinese" : "说到夏天就是沙滩排球！诶，殿下不参加吗……难得我精心挑选了泳装……",
 						"chineseTL" : "",
@@ -694,7 +694,7 @@
 						"englishNote" : ""
 					},
 					"3" : {
-						"event" : "Log in",
+						"event" : "Login",
 						"media" : "login_1",
 						"chinese" : "殿下殿下，能陪我练习下排球吗？如果比赛的时候我连小天鹅都不如就太丢人了……",
 						"chineseTL" : "",
@@ -706,7 +706,7 @@
 						"englishNote" : ""
 					},
 					"4" : {
-						"event" : "View details",
+						"event" : "Details",
 						"media" : "detail_1",
 						"chinese" : "殿下，听说鲤鱼旗象征多子多福，于是我就带过来了~",
 						"chineseTL" : "",
@@ -718,7 +718,7 @@
 						"englishNote" : ""
 					},
 					"5" : {
-						"event" : "Main screen 1",
+						"event" : "Main 1",
 						"media" : "main_1_1",
 						"chinese" : "哇哇哇！排球飞过来了！呜，站在时雨旁边，总是会被各种各样的东西砸到……",
 						"chineseTL" : "",
@@ -730,7 +730,7 @@
 						"englishNote" : ""
 					},
 					"6" : {
-						"event" : "Main screen 2",
+						"event" : "Main 2",
 						"media" : "main_2_1",
 						"chinese" : "呜，还是点不着火……殿下让开一点，我用主炮轰击木炭试试",
 						"chineseTL" : "",
@@ -742,7 +742,7 @@
 						"englishNote" : ""
 					},
 					"7" : {
-						"event" : "Main screen 3",
+						"event" : "Main 3",
 						"media" : "main_3_1",
 						"chinese" : "尾巴上的铃铛是扶桑姐姐系的，这样就不用担心在海上午睡时被鱼咬尾巴了",
 						"chineseTL" : "",
@@ -754,7 +754,7 @@
 						"englishNote" : ""
 					},
 					"8" : {
-						"event" : "Normal touch",
+						"event" : "Touch",
 						"media" : "touch_1_1",
 						"chinese" : "哇，是殿下！我在找晚上看烟花的最佳位置，殿下打算在哪里看呢？",
 						"chineseTL" : "",
@@ -766,7 +766,7 @@
 						"englishNote" : ""
 					},
 					"9" : {
-						"event" : "Special touch",
+						"event" : "Touch (Special)",
 						"media" : "touch_2_1",
 						"chinese" : "唔哇！！！呼……殿下下次先打个招呼啊，主炮差点就砸到殿下了",
 						"chineseTL" : "",
@@ -778,7 +778,7 @@
 						"englishNote" : ""
 					},
 					"10" : {
-						"event" : "Return to port",
+						"event" : "Return to Port",
 						"media" : "home_1",
 						"chinese" : "殿下回来了！哇，好热——连扇子扇出来的风都全是热气……",
 						"chineseTL" : "",
@@ -809,7 +809,7 @@
 						"englishNote" : ""
 					},
 					"2" : {
-						"event" : "Receive",
+						"event" : "Acquisition",
 						"media" : "get_2",
 						"chinese" : "圣诞快乐！殿下殿下，怎么样？我的圣诞装好看吗？嘿嘿～姐姐今天也夸奖我啦！",
 						"chineseTL" : "",
@@ -821,7 +821,7 @@
 						"englishNote" : ""
 					},
 					"3" : {
-						"event" : "Main screen 1",
+						"event" : "Main 1",
 						"media" : "main_1_2",
 						"chinese" : "脚不小心扭伤了……呜，殿下可以帮我揉一揉吗？",
 						"chineseTL" : "",
@@ -833,7 +833,7 @@
 						"englishNote" : ""
 					},
 					"4" : {
-						"event" : "Main screen 2",
+						"event" : "Main 2",
 						"media" : "main_2_2",
 						"chinese" : "殿下殿下，新年的时候……能来看看我和姐姐的神乐舞吗？",
 						"chineseTL" : "",
@@ -845,7 +845,7 @@
 						"englishNote" : ""
 					},
 					"5" : {
-						"event" : "Main screen 3",
+						"event" : "Main 3",
 						"media" : "main_3_2",
 						"chinese" : "哇～殿下殿下！是飘雪的圣诞节哎！",
 						"chineseTL" : "",
@@ -857,7 +857,7 @@
 						"englishNote" : ""
 					},
 					"6" : {
-						"event" : "Normal touch",
+						"event" : "Touch",
 						"media" : "touch_1_2",
 						"chinese" : "圣诞快乐！我准备了好多份圣诞礼物，殿下想要哪一份？",
 						"chineseTL" : "",
@@ -869,7 +869,7 @@
 						"englishNote" : ""
 					},
 					"7" : {
-						"event" : "Special touch",
+						"event" : "Touch (Special)",
 						"media" : "touch_2_2",
 						"chinese" : "殿下……我扭伤的地方不是那里啦！",
 						"chineseTL" : "",
@@ -900,7 +900,7 @@
 						"englishNote" : ""
 					},
 					"2" : {
-						"event" : "Receive",
+						"event" : "Acquisition",
 						"media" : "get_3",
 						"chinese" : "姐姐说参加宴会要穿洋装，就给我准备了一套，殿下殿下，好看吗？",
 						"chineseTL" : "",
@@ -912,7 +912,7 @@
 						"englishNote" : ""
 					},
 					"3" : {
-						"event" : "Log in",
+						"event" : "Login",
 						"media" : "login_3",
 						"chinese" : "哼哼哼，和殿下一起参加宴会……呜哇，殿下你什么时候来的！",
 						"chineseTL" : "",
@@ -924,7 +924,7 @@
 						"englishNote" : ""
 					},
 					"4" : {
-						"event" : "View details",
+						"event" : "Details",
 						"media" : "detail_3",
 						"chinese" : "宴会好有趣呀，等到重樱举办祭典的时候，我也要邀请其他阵营的姐妹来参加~",
 						"chineseTL" : "",
@@ -936,7 +936,7 @@
 						"englishNote" : ""
 					},
 					"5" : {
-						"event" : "Main screen 1",
+						"event" : "Main 1",
 						"media" : "main_1_3",
 						"chinese" : "殿下殿下，这个是什么，那个又是什么？宴会上好多没见过的东西耶！",
 						"chineseTL" : "",
@@ -948,7 +948,7 @@
 						"englishNote" : ""
 					},
 					"6" : {
-						"event" : "Main screen 2",
+						"event" : "Main 2",
 						"media" : "main_2_3",
 						"chinese" : "殿下，山城对这方面什么都不懂还和殿下一起参加宴会，会不会给殿下丢人呀……",
 						"chineseTL" : "",
@@ -960,7 +960,7 @@
 						"englishNote" : ""
 					},
 					"7" : {
-						"event" : "Main screen 3",
+						"event" : "Main 3",
 						"media" : "main_3_3",
 						"chinese" : "时雨，不要在宴会里做奇怪的事哦，会给大家添麻烦的",
 						"chineseTL" : "",
@@ -972,7 +972,7 @@
 						"englishNote" : ""
 					},
 					"8" : {
-						"event" : "Normal touch",
+						"event" : "Touch",
 						"media" : "touch_1_3",
 						"chinese" : "殿下殿下，听说宴会里可以跳舞呢，我也能和殿下一起跳吗？",
 						"chineseTL" : "",
@@ -984,7 +984,7 @@
 						"englishNote" : ""
 					},
 					"9" : {
-						"event" : "Special touch",
+						"event" : "Touch (Special)",
 						"media" : "touch_2_3",
 						"chinese" : "殿、殿下，要是被大家看到就糟糕啦！",
 						"chineseTL" : "",
@@ -996,7 +996,7 @@
 						"englishNote" : ""
 					},
 					"10" : {
-						"event" : "Love",
+						"event" : "Affinity (Love)",
 						"media" : "feeling5_3",
 						"chinese" : "殿下殿下，殿下为山城做了这么多，山城有为殿下做到什么吗？如果是最喜欢的殿下的要求，山城我什么都愿意做",
 						"chineseTL" : "",
@@ -1027,7 +1027,7 @@
 						"englishNote" : ""
 					},
 					"2" : {
-						"event" : "Receive",
+						"event" : "Acquisition",
 						"media" : "get_8",
 						"chinese" : "殿下殿下，我换好啦！怎么样怎么样，殿下喜欢这样子的山城吗？",
 						"chineseTL" : "",
@@ -1039,7 +1039,7 @@
 						"englishNote" : ""
 					},
 					"3" : {
-						"event" : "Log in",
+						"event" : "Login",
 						"media" : "login_8",
 						"chinese" : "殿下，欢迎回啊呀呀呀——啊哈哈…已经不知道是第几次被殿下接住了呢~",
 						"chineseTL" : "",
@@ -1051,7 +1051,7 @@
 						"englishNote" : ""
 					},
 					"4" : {
-						"event" : "View details",
+						"event" : "Details",
 						"media" : "detail_8",
 						"chinese" : "殿下殿下，我来给你跳一支神乐舞吧！这是之前姐姐教我的能祛除厄运的神乐舞呢！",
 						"chineseTL" : "",
@@ -1063,7 +1063,7 @@
 						"englishNote" : ""
 					},
 					"5" : {
-						"event" : "Main screen 1",
+						"event" : "Main 1",
 						"media" : "main_1_8",
 						"chinese" : "殿下殿下，我来帮你掏耳朵吧！",
 						"chineseTL" : "",
@@ -1075,7 +1075,7 @@
 						"englishNote" : ""
 					},
 					"6" : {
-						"event" : "Main screen 2",
+						"event" : "Main 2",
 						"media" : "main_2_8",
 						"chinese" : "殿下殿下，春天的时候我们一起去看樱花吧！",
 						"chineseTL" : "",
@@ -1087,7 +1087,7 @@
 						"englishNote" : ""
 					},
 					"7" : {
-						"event" : "Main screen 3",
+						"event" : "Main 3",
 						"media" : "main_3_8",
 						"chinese" : "殿下殿下，要在山城的膝枕上躺一会吗？",
 						"chineseTL" : "",
@@ -1099,7 +1099,7 @@
 						"englishNote" : ""
 					},
 					"8" : {
-						"event" : "Normal touch",
+						"event" : "Touch",
 						"media" : "touch_1_8",
 						"chinese" : "我也想摸摸殿下！我摸~",
 						"chineseTL" : "",
@@ -1111,7 +1111,7 @@
 						"englishNote" : ""
 					},
 					"9" : {
-						"event" : "Special touch",
+						"event" : "Touch (Special)",
 						"media" : "touch_2_8",
 						"chinese" : "殿下想怎么向山城撒娇都可以的！来吧来吧~",
 						"chineseTL" : "",
@@ -1123,7 +1123,7 @@
 						"englishNote" : ""
 					},
 					"10" : {
-						"event" : "Return to port",
+						"event" : "Return to Port",
 						"media" : "home_8",
 						"chinese" : "殿下殿下，休息一下吧！我来帮殿下按摩——嘿！",
 						"chineseTL" : "",
@@ -1135,7 +1135,7 @@
 						"englishNote" : ""
 					},
 					"11" : {
-						"event" : "Love",
+						"event" : "Affinity (Love)",
 						"media" : "feeling5_8",
 						"chinese" : "我最喜欢殿下了！和殿下在一起的时间，每一秒都感觉开心到不行，幸福到不行～嘿嘿，要一直像这样在一起哦，殿下～",
 						"chineseTL" : "",
@@ -1166,7 +1166,7 @@
 						"englishNote" : ""
 					},
 					"2" : {
-						"event" : "Receive",
+						"event" : "Acquisition",
 						"media" : "get_9",
 						"chinese" : "殿下！现在的山城，炮击也好、航空也好，什么都能做！所以、所以，多依赖依赖我嘛，殿下！殿下——！！",
 						"chineseTL" : "",
@@ -1178,7 +1178,7 @@
 						"englishNote" : ""
 					},
 					"3" : {
-						"event" : "View details",
+						"event" : "Details",
 						"media" : "detail_9",
 						"chinese" : "我有帮上你的忙吗，殿下？",
 						"chineseTL" : "",
@@ -1190,7 +1190,7 @@
 						"englishNote" : ""
 					},
 					"4" : {
-						"event" : "Main screen 1",
+						"event" : "Main 1",
 						"media" : "main_1_9",
 						"chinese" : "只要能帮上殿下的忙，不论变成什么模样我都——",
 						"chineseTL" : "",
@@ -1202,7 +1202,7 @@
 						"englishNote" : ""
 					},
 					"5" : {
-						"event" : "Main screen 2",
+						"event" : "Main 2",
 						"media" : "main_2_9",
 						"chinese" : "殿下殿下，我变快一点了，有发现……吗？呜……我会更加努力的…… ",
 						"chineseTL" : "",
@@ -1214,7 +1214,7 @@
 						"englishNote" : ""
 					},
 					"6" : {
-						"event" : "Main screen 3",
+						"event" : "Main 3",
 						"media" : "main_3_9",
 						"chinese" : "有了天上的伙伴们，做饭时就不用担心生不起火了",
 						"chineseTL" : "",
@@ -1226,7 +1226,7 @@
 						"englishNote" : ""
 					},
 					"7" : {
-						"event" : "Normal touch",
+						"event" : "Touch",
 						"media" : "touch_1_9",
 						"chinese" : "殿下殿下，我昨天换了新的沐浴乳！",
 						"chineseTL" : "",
@@ -1238,7 +1238,7 @@
 						"englishNote" : ""
 					},
 					"8" : {
-						"event" : "Special touch",
+						"event" : "Touch (Special)",
 						"media" : "touch_2_9",
 						"chinese" : "呀！！殿下快躲开，我的飞机——",
 						"chineseTL" : "",

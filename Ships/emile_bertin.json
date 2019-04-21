@@ -98,7 +98,7 @@
 			"rarity" : "",
 			"name" : "三联装152mm主炮Mle1930"
 		},
-		"1" : {
+		"2" : {
 			"icon" : "5400",
 			"rarity" : "Common",
 			"name" : "Triple 550mm Torpedo"
@@ -221,13 +221,13 @@
 			"preload": "0/0/0/0"
 		},
 		"4": {
-			"type": "Auxilary",
+			"type": "Auxiliary",
 			"efficiency": "-",
 			"amount": "-",
 			"preload": "-"
 		},
 		"5": {
-			"type": "Auxilary",
+			"type": "Auxiliary",
 			"efficiency": "-",
 			"amount": "-",
 			"preload": "-"
@@ -306,7 +306,7 @@
 						"englishNote" : ""
 					},
 					"3" : {
-						"event" : "Receive",
+						"event" : "Acquisition",
 						"media" : "get",
 						"chinese" : "Bonjour~我是来自自由鸢尾的埃米尔·贝尔汀，叫我埃米尔就好啦，希望能和大家好好相处呢～",
 						"chineseTL" : "",
@@ -318,7 +318,7 @@
 						"englishNote" : ""
 					},
 					"4" : {
-						"event" : "Log in",
+						"event" : "Login",
 						"media" : "login",
 						"chinese" : "Bonjour~指挥官，开始工作之前，来一起做下热身运动吧",
 						"chineseTL" : "",
@@ -330,7 +330,7 @@
 						"englishNote" : ""
 					},
 					"5" : {
-						"event" : "View details",
+						"event" : "Details",
 						"media" : "detail",
 						"chinese" : "舞蹈能给大家带来欢乐，所以我喜欢跳舞~",
 						"chineseTL" : "",
@@ -342,7 +342,7 @@
 						"englishNote" : ""
 					},
 					"6" : {
-						"event" : "Main screen 1",
+						"event" : "Main 1",
 						"media" : "main_1",
 						"chinese" : "黄金之国重樱！fantastique！有时间很想去看一看呢",
 						"chineseTL" : "",
@@ -354,7 +354,7 @@
 						"englishNote" : ""
 					},
 					"7" : {
-						"event" : "Main screen 2",
+						"event" : "Main 2",
 						"media" : "main_2",
 						"chinese" : "和在法兰西堡的那两年相比，能在青空下自由舞蹈的感觉真是太美妙了",
 						"chineseTL" : "",
@@ -366,7 +366,7 @@
 						"englishNote" : ""
 					},
 					"8" : {
-						"event" : "Main screen 3",
+						"event" : "Main 3",
 						"media" : "main_3",
 						"chinese" : "指挥官，有什么需要我帮忙的吗？什~么都可以哦",
 						"chineseTL" : "",
@@ -378,7 +378,7 @@
 						"englishNote" : ""
 					},
 					"9" : {
-						"event" : "Normal touch",
+						"event" : "Touch",
 						"media" : "touch_1",
 						"chinese" : "指挥官，累了吗？那么，就来看我跳一支舞吧~",
 						"chineseTL" : "",
@@ -390,7 +390,7 @@
 						"englishNote" : ""
 					},
 					"10" : {
-						"event" : "Special touch",
+						"event" : "Touch (Special)",
 						"media" : "touch_2",
 						"chinese" : "指挥官，邀舞的话要更加绅士一点~",
 						"chineseTL" : "",
@@ -402,7 +402,7 @@
 						"englishNote" : ""
 					},
 					"11" : {
-						"event" : "Mission reminder",
+						"event" : "Mission",
 						"media" : "task",
 						"chinese" : "新的任务下达了吗？一鼓作气解决掉吧~",
 						"chineseTL" : "",
@@ -414,7 +414,7 @@
 						"englishNote" : ""
 					},
 					"12" : {
-						"event" : "Mission complete",
+						"event" : "Mission Complete",
 						"media" : "mission_complete",
 						"chinese" : "哎呀，这不是任务完成的报告吗？指挥官，快确认一下",
 						"chineseTL" : "",
@@ -426,7 +426,7 @@
 						"englishNote" : ""
 					},
 					"13" : {
-						"event" : "Mail reminder",
+						"event" : "Mail",
 						"media" : "mail",
 						"chinese" : "指挥官，有信件哦~",
 						"chineseTL" : "",
@@ -438,7 +438,7 @@
 						"englishNote" : ""
 					},
 					"14" : {
-						"event" : "Return to port",
+						"event" : "Return to Port",
 						"media" : "home",
 						"chinese" : "指挥官，养精蓄锐是很重要的，要好好休息哦",
 						"chineseTL" : "",
@@ -450,7 +450,7 @@
 						"englishNote" : ""
 					},
 					"15" : {
-						"event" : "Commission complete",
+						"event" : "Commission Complete",
 						"media" : "expedition",
 						"chinese" : "指挥官，来看港口那边，好像是委托组的大家回来了呢",
 						"chineseTL" : "",
@@ -462,7 +462,7 @@
 						"englishNote" : ""
 					},
 					"16" : {
-						"event" : "Enhancing complete",
+						"event" : "Enhancement",
 						"media" : "upgrade",
 						"chinese" : "啊哈，感觉身体变得轻盈了一点~",
 						"chineseTL" : "",
@@ -474,7 +474,7 @@
 						"englishNote" : ""
 					},
 					"17" : {
-						"event" : "Flagship fight",
+						"event" : "Flagship",
 						"media" : "warcry",
 						"chinese" : "让我来为你们跳一支舞吧！",
 						"chineseTL" : "",
@@ -510,7 +510,7 @@
 						"englishNote" : ""
 					},
 					"20" : {
-						"event" : "Skills",
+						"event" : "Skill",
 						"media" : "skill",
 						"chinese" : "起舞吧！",
 						"chineseTL" : "",
@@ -534,7 +534,7 @@
 						"englishNote" : ""
 					},
 					"22" : {
-						"event" : "Upset",
+						"event" : "Affinity (Upset)",
 						"media" : "feeling1",
 						"chinese" : "从你的身上感受不到热情呢……",
 						"chineseTL" : "",
@@ -546,7 +546,7 @@
 						"englishNote" : ""
 					},
 					"23" : {
-						"event" : "Stranger",
+						"event" : "Affinity (Stranger)",
 						"media" : "feeling2",
 						"chinese" : "都说我们自由鸢尾的人浪漫，但是我觉得呢，我们只是愿意去在意生活中的细节而已哦",
 						"chineseTL" : "",
@@ -558,7 +558,7 @@
 						"englishNote" : ""
 					},
 					"24" : {
-						"event" : "Friendly",
+						"event" : "Affinity (Friendly)",
 						"media" : "feeling3",
 						"chinese" : "只有细心留意，才能发掘生活中的美。而珍惜这些细小的美好，我觉得，就是浪漫的本质哦",
 						"chineseTL" : "",
@@ -570,7 +570,7 @@
 						"englishNote" : ""
 					},
 					"25" : {
-						"event" : "Crush",
+						"event" : "Affinity (Like)",
 						"media" : "feeling4",
 						"chinese" : "啊，指挥官，浪漫呢，还要勇于去表达，就像我想跳舞时就会勇敢去跳，这是我对生活的热爱。我也——啾~就是这样~你呢？",
 						"chineseTL" : "",
@@ -582,7 +582,7 @@
 						"englishNote" : ""
 					},
 					"26" : {
-						"event" : "Love",
+						"event" : "Affinity (Love)",
 						"media" : "feeling5",
 						"chinese" : "昨天真是美妙呢。今天会发生什么呢？明天也令人充满期待呢！每一天，我都在想着这些。每一天，都变得更喜欢你了！",
 						"chineseTL" : "",
@@ -594,7 +594,7 @@
 						"englishNote" : ""
 					},
 					"27" : {
-						"event" : "Promise",
+						"event" : "Pledge",
 						"media" : "propose",
 						"chinese" : "在这么幸福的时刻，只有热情的吻和舞蹈能够抒发我心中的情感了呢……指挥官，你不会拒绝的吧～？",
 						"chineseTL" : "",
@@ -625,7 +625,7 @@
 						"englishNote" : ""
 					},
 					"2" : {
-						"event" : "Receive",
+						"event" : "Acquisition",
 						"media" : "get_1",
 						"chinese" : "指挥官，我的泳装还不错吧？我对身材还是蛮有自信呢，嘻嘻~一起来享受夏日吧~",
 						"chineseTL" : "",
@@ -637,7 +637,7 @@
 						"englishNote" : ""
 					},
 					"3" : {
-						"event" : "Log in",
+						"event" : "Login",
 						"media" : "login_1",
 						"chinese" : "指挥官，在下水之前，不要忘了先热身哦？",
 						"chineseTL" : "",
@@ -649,7 +649,7 @@
 						"englishNote" : ""
 					},
 					"4" : {
-						"event" : "View details",
+						"event" : "Details",
 						"media" : "detail_1",
 						"chinese" : "指挥官，来玩沙滩排球吗？我很擅长哦~",
 						"chineseTL" : "",
@@ -661,7 +661,7 @@
 						"englishNote" : ""
 					},
 					"5" : {
-						"event" : "Main screen 1",
+						"event" : "Main 1",
 						"media" : "main_1_1",
 						"chinese" : "指挥官，去海边的时候，防晒油能麻烦你吗？",
 						"chineseTL" : "",
@@ -673,7 +673,7 @@
 						"englishNote" : ""
 					},
 					"6" : {
-						"event" : "Main screen 2",
+						"event" : "Main 2",
 						"media" : "main_2_1",
 						"chinese" : "到了要游泳的时候长发就显得不是很方便呢…指挥官喜欢什么样的盘发发型呢？",
 						"chineseTL" : "",
@@ -685,7 +685,7 @@
 						"englishNote" : ""
 					},
 					"7" : {
-						"event" : "Main screen 3",
+						"event" : "Main 3",
 						"media" : "main_3_1",
 						"chinese" : "指挥官～接下来要去沙滩的话，你也先换上泳装怎么样？我不介意的哦~",
 						"chineseTL" : "",
@@ -697,7 +697,7 @@
 						"englishNote" : ""
 					},
 					"8" : {
-						"event" : "Normal touch",
+						"event" : "Touch",
 						"media" : "touch_1_1",
 						"chinese" : "我可以先去海边？真是的，身为秘书舰，怎么会丢下指挥官呢，我会等你的~",
 						"chineseTL" : "",
@@ -709,7 +709,7 @@
 						"englishNote" : ""
 					},
 					"9" : {
-						"event" : "Special touch",
+						"event" : "Touch (Special)",
 						"media" : "touch_2_1",
 						"chinese" : "到了夏天，指挥官也变得热情了起来呢",
 						"chineseTL" : "",
@@ -721,7 +721,7 @@
 						"englishNote" : ""
 					},
 					"10" : {
-						"event" : "Return to port",
+						"event" : "Return to Port",
 						"media" : "home_1",
 						"chinese" : "指挥官斗志昂扬呢……果然也在期待着沙滩吧~",
 						"chineseTL" : "",

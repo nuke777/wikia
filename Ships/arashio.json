@@ -80,7 +80,7 @@
 			"rarity" : "Common",
 			"name" : "127mm Mounted Gun"
 		},
-		"1" : {
+		"2" : {
 			"icon" : "35200",
 			"rarity" : "Rare",
 			"name" : "Quadruple 610mm Torpedo"
@@ -203,13 +203,13 @@
 			"preload": "0/0/0/0"
 		},
 		"4": {
-			"type": "Auxilary",
+			"type": "Auxiliary",
 			"efficiency": "-",
 			"amount": "-",
 			"preload": "-"
 		},
 		"5": {
-			"type": "Auxilary",
+			"type": "Auxiliary",
 			"efficiency": "-",
 			"amount": "-",
 			"preload": "-"
@@ -288,7 +288,7 @@
 						"englishNote" : ""
 					},
 					"3" : {
-						"event" : "Receive",
+						"event" : "Acquisition",
 						"media" : "get",
 						"chinese" : "驱逐舰荒潮，加入您的舰队啦~我会好好支援大家的～",
 						"chineseTL" : "",
@@ -300,7 +300,7 @@
 						"englishNote" : ""
 					},
 					"4" : {
-						"event" : "Log in",
+						"event" : "Login",
 						"media" : "login",
 						"chinese" : "现在我摆的这个姿势怎样？迎接您回来当然要笑脸相迎啦~",
 						"chineseTL" : "",
@@ -312,7 +312,7 @@
 						"englishNote" : ""
 					},
 					"5" : {
-						"event" : "View details",
+						"event" : "Details",
 						"media" : "detail",
 						"chinese" : "一看到天上的飞机，心情就不会好……罢了，这些都是往事。指挥官，现在更重要的事，是冲着你微笑~",
 						"chineseTL" : "",
@@ -324,7 +324,7 @@
 						"englishNote" : ""
 					},
 					"6" : {
-						"event" : "Main screen 1",
+						"event" : "Main 1",
 						"media" : "main_1",
 						"chinese" : "我和朝潮亲以前就形影不离～晚上也有一起睡的时候呢～朝潮亲睡觉的时候也很安静~ ",
 						"chineseTL" : "",
@@ -336,7 +336,7 @@
 						"englishNote" : ""
 					},
 					"7" : {
-						"event" : "Main screen 2",
+						"event" : "Main 2",
 						"media" : "main_2",
 						"chinese" : "如果我跟不上大家的步伐，我也相信大家不会抛弃我的……所以，这里就是我最好的归宿。 ",
 						"chineseTL" : "",
@@ -348,7 +348,7 @@
 						"englishNote" : ""
 					},
 					"8" : {
-						"event" : "Main screen 3",
+						"event" : "Main 3",
 						"media" : "main_3",
 						"chinese" : "您的茶泡好了，请慢用~很想听听您对我手艺的评价呢。",
 						"chineseTL" : "",
@@ -360,7 +360,7 @@
 						"englishNote" : ""
 					},
 					"9" : {
-						"event" : "Normal touch",
+						"event" : "Touch",
 						"media" : "touch_1",
 						"chinese" : "嗯……我不会刻意去想大家被拆散的缘由。既然都已经团聚，就开开心心继续过日子吧~",
 						"chineseTL" : "",
@@ -372,7 +372,7 @@
 						"englishNote" : ""
 					},
 					"10" : {
-						"event" : "Special touch",
+						"event" : "Touch (Special)",
 						"media" : "touch_2",
 						"chinese" : "呀——这是成长为大人的必要阶梯吗？",
 						"chineseTL" : "",
@@ -384,7 +384,7 @@
 						"englishNote" : ""
 					},
 					"11" : {
-						"event" : "Mission reminder",
+						"event" : "Mission",
 						"media" : "task",
 						"chinese" : "出现了新的任务~指挥官，我会来帮忙的。",
 						"chineseTL" : "",
@@ -396,7 +396,7 @@
 						"englishNote" : ""
 					},
 					"12" : {
-						"event" : "Mission complete",
+						"event" : "Mission Complete",
 						"media" : "mission_complete",
 						"chinese" : "任务结束了。指挥官，您也辛苦了！",
 						"chineseTL" : "",
@@ -408,7 +408,7 @@
 						"englishNote" : ""
 					},
 					"13" : {
-						"event" : "Mail reminder",
+						"event" : "Mail",
 						"media" : "mail",
 						"chinese" : "有邮件，指挥官快瞧瞧~",
 						"chineseTL" : "",
@@ -420,7 +420,7 @@
 						"englishNote" : ""
 					},
 					"14" : {
-						"event" : "Return to port",
+						"event" : "Return to Port",
 						"media" : "home",
 						"chinese" : "辛苦您了。不躺在我的膝上休息一下吗？",
 						"chineseTL" : "",
@@ -432,7 +432,7 @@
 						"englishNote" : ""
 					},
 					"15" : {
-						"event" : "Commission complete",
+						"event" : "Commission Complete",
 						"media" : "expedition",
 						"chinese" : "指挥官，看样子委托组满载而归了呢~快去看看吧。",
 						"chineseTL" : "",
@@ -444,7 +444,7 @@
 						"englishNote" : ""
 					},
 					"16" : {
-						"event" : "Enhancing complete",
+						"event" : "Enhancement",
 						"media" : "upgrade",
 						"chinese" : "这样就能更好地避免伤害了，多谢指挥官~",
 						"chineseTL" : "",
@@ -456,7 +456,7 @@
 						"englishNote" : ""
 					},
 					"17" : {
-						"event" : "Flagship fight",
+						"event" : "Flagship",
 						"media" : "warcry",
 						"chinese" : "大家，尽量不要受伤……",
 						"chineseTL" : "",
@@ -492,7 +492,7 @@
 						"englishNote" : ""
 					},
 					"20" : {
-						"event" : "Skills",
+						"event" : "Skill",
 						"media" : "skill",
 						"chinese" : "我会用我的力量来保护大家~",
 						"chineseTL" : "",
@@ -516,7 +516,7 @@
 						"englishNote" : ""
 					},
 					"22" : {
-						"event" : "Upset",
+						"event" : "Affinity (Upset)",
 						"media" : "feeling1",
 						"chinese" : "朝潮亲？别怕别怕。指挥官，失陪了，我得陪陪她——",
 						"chineseTL" : "",
@@ -528,7 +528,7 @@
 						"englishNote" : ""
 					},
 					"23" : {
-						"event" : "Stranger",
+						"event" : "Affinity (Stranger)",
 						"media" : "feeling2",
 						"chinese" : "想要更加了解指挥官~嘻嘻，要从哪一个方面入手呢？",
 						"chineseTL" : "",
@@ -540,7 +540,7 @@
 						"englishNote" : ""
 					},
 					"24" : {
-						"event" : "Friendly",
+						"event" : "Affinity (Friendly)",
 						"media" : "feeling3",
 						"chinese" : "又做噩梦了？别怕别怕……指挥官，一切都会好的。",
 						"chineseTL" : "",
@@ -552,7 +552,7 @@
 						"englishNote" : ""
 					},
 					"25" : {
-						"event" : "Crush",
+						"event" : "Affinity (Like)",
 						"media" : "feeling4",
 						"chinese" : "不知不觉已经聊了几个小时……很开心啊！坐了那么久肩膀有些酸了？我来给您揉揉肩吧。",
 						"chineseTL" : "",
@@ -564,7 +564,7 @@
 						"englishNote" : ""
 					},
 					"26" : {
-						"event" : "Love",
+						"event" : "Affinity (Love)",
 						"media" : "feeling5",
 						"chinese" : "这下就只有我们两个人了。从刚才开始心就砰砰乱跳……指挥官，能靠在您的怀里，静静地待上一会儿吗？",
 						"chineseTL" : "",
@@ -576,7 +576,7 @@
 						"englishNote" : ""
 					},
 					"27" : {
-						"event" : "Promise",
+						"event" : "Pledge",
 						"media" : "propose",
 						"chinese" : "指挥官，虽然我不习惯说害羞的话，但这时候还是说给您听听吧……嗯，从今往后，我会在身旁默默支持您，您就是我所依靠的港湾。",
 						"chineseTL" : "",
@@ -588,7 +588,7 @@
 						"englishNote" : ""
 					},
 					"28" : {
-						"event" : "Easter Egg 1(Asashio, Ooshio, Michishio)",
+						"event" : "Easter Egg 1 (Asashio, Ooshio, Michishio)",
 						"media" : "link1",
 						"chinese" : "第八驱逐舰队，保持紧凑，不要掉队啦~",
 						"chineseTL" : "",
@@ -600,7 +600,7 @@
 						"englishNote" : ""
 					},
 					"29" : {
-						"event" : "Easter Egg 2(Asashio)",
+						"event" : "Easter Egg 2 (Asashio)",
 						"media" : "link2",
 						"chinese" : "朝潮亲，我在你身旁哦~别怕~",
 						"chineseTL" : "",

@@ -107,7 +107,7 @@
 			"rarity" : "Common",
 			"name" : "Triple 152mm Main Gun"
 		},
-		"1" : {
+		"2" : {
 			"icon" : "5000",
 			"rarity" : "",
 			"name" : "Triple 533mm Torpedo"
@@ -230,13 +230,13 @@
 			"preload": "0/0/0/0"
 		},
 		"4": {
-			"type": "Auxilary",
+			"type": "Auxiliary",
 			"efficiency": "-",
 			"amount": "-",
 			"preload": "-"
 		},
 		"5": {
-			"type": "Auxilary",
+			"type": "Auxiliary",
 			"efficiency": "-",
 			"amount": "-",
 			"preload": "-"
@@ -315,7 +315,7 @@
 						"englishNote" : ""
 					},
 					"3" : {
-						"event" : "Receive",
+						"event" : "Acquisition",
 						"media" : "get",
 						"chinese" : "啊…以为是害虫，下意识就射击了——新的主人…？失礼了…皇家女仆队、轻巡谢菲尔德，为您效劳",
 						"chineseTL" : "",
@@ -327,7 +327,7 @@
 						"englishNote" : ""
 					},
 					"4" : {
-						"event" : "Log in",
+						"event" : "Login",
 						"media" : "login",
 						"chinese" : "指挥官，请注意脚下…那里……是我刚拖好的地",
 						"chineseTL" : "",
@@ -339,7 +339,7 @@
 						"englishNote" : ""
 					},
 					"5" : {
-						"event" : "View details",
+						"event" : "Details",
 						"media" : "detail",
 						"chinese" : "嗯？用手枪“扫除”是女仆的常识，主人",
 						"chineseTL" : "",
@@ -351,7 +351,7 @@
 						"englishNote" : ""
 					},
 					"6" : {
-						"event" : "Main screen 1",
+						"event" : "Main 1",
 						"media" : "main_1",
 						"chinese" : "最喜欢主人了——请相信这句话中至少投入了三分的感情",
 						"chineseTL" : "",
@@ -363,7 +363,7 @@
 						"englishNote" : ""
 					},
 					"7" : {
-						"event" : "Main screen 2",
+						"event" : "Main 2",
 						"media" : "main_2",
 						"chinese" : "主人，如果您要小憩一会的话，请告诉我时间，我的双枪会准时把您叫醒的",
 						"chineseTL" : "",
@@ -375,7 +375,7 @@
 						"englishNote" : ""
 					},
 					"8" : {
-						"event" : "Main screen 3",
+						"event" : "Main 3",
 						"media" : "main_3",
 						"chinese" : "贝尔法斯特还是太宠溺主人了，这样下去主人会变成废柴的",
 						"chineseTL" : "",
@@ -387,7 +387,7 @@
 						"englishNote" : ""
 					},
 					"9" : {
-						"event" : "Normal touch",
+						"event" : "Touch",
 						"media" : "touch_1",
 						"chinese" : "害—主人有什么事吗？对不起，咬到舌头了",
 						"chineseTL" : "",
@@ -399,7 +399,7 @@
 						"englishNote" : ""
 					},
 					"10" : {
-						"event" : "Special touch",
+						"event" : "Touch (Special)",
 						"media" : "touch_2",
 						"chinese" : "希望您在战场上也能发挥出这股和沙恩霍斯特谢幕时一样的勇气",
 						"chineseTL" : "",
@@ -411,7 +411,7 @@
 						"englishNote" : ""
 					},
 					"11" : {
-						"event" : "Mission reminder",
+						"event" : "Mission",
 						"media" : "task",
 						"chinese" : "如果是清扫卫生的任务，请都交给我吧",
 						"chineseTL" : "",
@@ -423,7 +423,7 @@
 						"englishNote" : ""
 					},
 					"12" : {
-						"event" : "Mission complete",
+						"event" : "Mission Complete",
 						"media" : "mission_complete",
 						"chinese" : "主人打算把任务奖励全都送给我吗？",
 						"chineseTL" : "",
@@ -435,7 +435,7 @@
 						"englishNote" : ""
 					},
 					"13" : {
-						"event" : "Mail reminder",
+						"event" : "Mail",
 						"media" : "mail",
 						"chinese" : "邮件已经为您做好分类了，主人",
 						"chineseTL" : "",
@@ -447,7 +447,7 @@
 						"englishNote" : ""
 					},
 					"14" : {
-						"event" : "Return to port",
+						"event" : "Return to Port",
 						"media" : "home",
 						"chinese" : "辛苦了，主人。接下来还有这些公文需要处理，请加油",
 						"chineseTL" : "",
@@ -459,7 +459,7 @@
 						"englishNote" : ""
 					},
 					"15" : {
-						"event" : "Commission complete",
+						"event" : "Commission Complete",
 						"media" : "expedition",
 						"chinese" : "——不知道我的枪声有没有让您回想起委托完成这件事，主人",
 						"chineseTL" : "",
@@ -471,7 +471,7 @@
 						"englishNote" : ""
 					},
 					"16" : {
-						"event" : "Enhancing complete",
+						"event" : "Enhancement",
 						"media" : "upgrade",
 						"chinese" : "呼…枪的感觉不错，谢谢主人",
 						"chineseTL" : "",
@@ -483,7 +483,7 @@
 						"englishNote" : ""
 					},
 					"17" : {
-						"event" : "Flagship fight",
+						"event" : "Flagship",
 						"media" : "warcry",
 						"chinese" : "需要“扫除“的脏东西稍微有点多呢……",
 						"chineseTL" : "",
@@ -519,7 +519,7 @@
 						"englishNote" : ""
 					},
 					"20" : {
-						"event" : "Skills",
+						"event" : "Skill",
 						"media" : "skill",
 						"chinese" : "听到了吗？为你们而响的丧钟",
 						"chineseTL" : "",
@@ -543,7 +543,7 @@
 						"englishNote" : ""
 					},
 					"22" : {
-						"event" : "Upset",
+						"event" : "Affinity (Upset)",
 						"media" : "feeling1",
 						"chinese" : "原来主人是类似害虫的构造吗，世上真是充满了不可思议的事呢",
 						"chineseTL" : "",
@@ -555,7 +555,7 @@
 						"englishNote" : ""
 					},
 					"23" : {
-						"event" : "Stranger",
+						"event" : "Affinity (Stranger)",
 						"media" : "feeling2",
 						"chinese" : "难道主人终于意识到自己属于大型不可燃垃圾的一种，良心发现想让我处理一下…什么的——开玩笑的，请稍等，我去泡茶",
 						"chineseTL" : "",
@@ -567,7 +567,7 @@
 						"englishNote" : ""
 					},
 					"24" : {
-						"event" : "Friendly",
+						"event" : "Affinity (Friendly)",
 						"media" : "feeling3",
 						"chinese" : "为了方便阅读，我把主人珍藏的书籍重新分类以后摆放了一遍，您可以回头检查一下我的成果",
 						"chineseTL" : "",
@@ -579,7 +579,7 @@
 						"englishNote" : ""
 					},
 					"25" : {
-						"event" : "Crush",
+						"event" : "Affinity (Like)",
 						"media" : "feeling4",
 						"chinese" : "向贝尔法斯特学习…吗？女仆应该全身心为主人付出而不求回报才对，她有些贪心呢…不过，稍微有点羡慕…",
 						"chineseTL" : "",
@@ -591,7 +591,7 @@
 						"englishNote" : ""
 					},
 					"26" : {
-						"event" : "Love",
+						"event" : "Affinity (Love)",
 						"media" : "feeling5",
 						"chinese" : "主人，谢菲尔德平时的言行有令您困扰吗？如果有的话，您可以理解为这是我的爱情表现，我深爱着主人，嗯，是真的",
 						"chineseTL" : "",
@@ -603,7 +603,7 @@
 						"englishNote" : ""
 					},
 					"27" : {
-						"event" : "Promise",
+						"event" : "Pledge",
 						"media" : "propose",
 						"chinese" : "向着圣母玛利亚之名起誓，对所有伤害吾爱的人降下爱的铁锤……我什么都没在默念，您耳鸣了，好了，请尽快结束这让人羞耻的仪式吧",
 						"chineseTL" : "",
@@ -615,7 +615,7 @@
 						"englishNote" : ""
 					},
 					"28" : {
-						"event" : "Easter Egg 1(Belfast)",
+						"event" : "Easter Egg 1 (Belfast)",
 						"media" : "link1",
 						"chinese" : "战斗没有生疏吧？",
 						"chineseTL" : "",
@@ -627,7 +627,7 @@
 						"englishNote" : ""
 					},
 					"29" : {
-						"event" : "Easter Egg 2(Ark Royal)",
+						"event" : "Easter Egg 2 (Ark Royal)",
 						"media" : "link2",
 						"chinese" : "你的剑鱼请小心点……",
 						"chineseTL" : "",
@@ -639,7 +639,7 @@
 						"englishNote" : ""
 					},
 					"30" : {
-						"event" : "Easter Egg 3(Ajax)",
+						"event" : "Easter Egg 3 (Ajax)",
 						"media" : "link3",
 						"chinese" : "这也算是…某种缘分吧",
 						"chineseTL" : "",
@@ -651,7 +651,7 @@
 						"englishNote" : ""
 					},
 					"31" : {
-						"event" : "Easter Egg 4(Sheffield, Edinburgh, Belfast, Belfast, Newcastle, Suffolk)",
+						"event" : "Easter Egg 4 (Sheffield, Edinburgh, Belfast, Belfast, Newcastle, Suffolk)",
 						"media" : "link4",
 						"chinese" : "主人，这该不会是您的某种兴趣吧？",
 						"chineseTL" : "",
@@ -663,7 +663,7 @@
 						"englishNote" : ""
 					},
 					"32" : {
-						"event" : "Easter Egg 5(Jamaica)",
+						"event" : "Easter Egg 5 (Jamaica)",
 						"media" : "link5",
 						"chinese" : "让我见识一下你的正义吧",
 						"chineseTL" : "",
@@ -694,7 +694,7 @@
 						"englishNote" : ""
 					},
 					"2" : {
-						"event" : "Receive",
+						"event" : "Acquisition",
 						"media" : "get_1",
 						"chinese" : "…特工的身份被发现了吗，没办法，主人，只能请您死在这里了——当然，是开玩笑的，只是一点兴趣而已",
 						"chineseTL" : "",
@@ -706,7 +706,7 @@
 						"englishNote" : ""
 					},
 					"3" : {
-						"event" : "Log in",
+						"event" : "Login",
 						"media" : "login_1",
 						"chinese" : "主人，今夜又有什么样的新任务等待我们去完成呢？",
 						"chineseTL" : "",
@@ -718,7 +718,7 @@
 						"englishNote" : ""
 					},
 					"4" : {
-						"event" : "View details",
+						"event" : "Details",
 						"media" : "detail_1",
 						"chinese" : "白天是女仆，夜晚是特工……吗，倒是很有皇家风范的想法呢，可惜这只是您的妄想",
 						"chineseTL" : "",
@@ -730,7 +730,7 @@
 						"englishNote" : ""
 					},
 					"5" : {
-						"event" : "Main screen 1",
+						"event" : "Main 1",
 						"media" : "main_1_1",
 						"chinese" : "深夜的都市，寂静无声，又莫名让人感到安心……",
 						"chineseTL" : "",
@@ -742,7 +742,7 @@
 						"englishNote" : ""
 					},
 					"6" : {
-						"event" : "Main screen 2",
+						"event" : "Main 2",
 						"media" : "main_2_1",
 						"chinese" : "主人，渴望生活中出现刺激的心态不是不能理解，但是，请您先完成手头的工作",
 						"chineseTL" : "",
@@ -754,7 +754,7 @@
 						"englishNote" : ""
 					},
 					"7" : {
-						"event" : "Main screen 3",
+						"event" : "Main 3",
 						"media" : "main_3_1",
 						"chinese" : "不能有一刻的松懈，随时保持最佳的战斗状态。从这一点来说，特工和女仆真是挺相似的呢…嗯？女仆不用保持战斗状态？主人也真爱开玩笑呢",
 						"chineseTL" : "",
@@ -766,7 +766,7 @@
 						"englishNote" : ""
 					},
 					"8" : {
-						"event" : "Normal touch",
+						"event" : "Touch",
 						"media" : "touch_1_1",
 						"chinese" : "主人，您不必特意上来找我，等一会儿还要把您安全带下去，很麻烦的",
 						"chineseTL" : "",
@@ -778,7 +778,7 @@
 						"englishNote" : ""
 					},
 					"9" : {
-						"event" : "Special touch",
+						"event" : "Touch (Special)",
 						"media" : "touch_2_1",
 						"chinese" : "为了对主人的勇气表示敬意，就送您一发特制的子弹如何？",
 						"chineseTL" : "",
@@ -790,7 +790,7 @@
 						"englishNote" : ""
 					},
 					"10" : {
-						"event" : "Mail reminder",
+						"event" : "Mail",
 						"media" : "mail_1",
 						"chinese" : "主人，您想用什么来交换这份重要的信件呢？",
 						"chineseTL" : "",
@@ -802,7 +802,7 @@
 						"englishNote" : ""
 					},
 					"11" : {
-						"event" : "Flagship fight",
+						"event" : "Flagship",
 						"media" : "warcry_1",
 						"chinese" : "…速战速决吧，在天亮之前",
 						"chineseTL" : "",

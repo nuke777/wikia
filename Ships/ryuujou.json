@@ -81,7 +81,7 @@
 			"rarity" : "Common",
 			"name" : "A6M2 Zero"
 		},
-		"1" : {
+		"2" : {
 			"icon" : "38000",
 			"rarity" : "",
 			"name" : "Nakajima B5N"
@@ -204,13 +204,13 @@
 			"preload": "0/0/0/0"
 		},
 		"4": {
-			"type": "Auxilary",
+			"type": "Auxiliary",
 			"efficiency": "-",
 			"amount": "-",
 			"preload": "-"
 		},
 		"5": {
-			"type": "Auxilary",
+			"type": "Auxiliary",
 			"efficiency": "-",
 			"amount": "-",
 			"preload": "-"
@@ -289,7 +289,7 @@
 						"englishNote" : ""
 					},
 					"3" : {
-						"event" : "Receive",
+						"event" : "Acquisition",
 						"media" : "get",
 						"chinese" : "主公，吾乃龙骧，日出之国的武士！在此向您献上忠与义，直至七生！",
 						"chineseTL" : "",
@@ -301,7 +301,7 @@
 						"englishNote" : ""
 					},
 					"4" : {
-						"event" : "Log in",
+						"event" : "Login",
 						"media" : "login",
 						"chinese" : "休息？吾之前的生活只有月月火水木金金！",
 						"chineseTL" : "",
@@ -313,7 +313,7 @@
 						"englishNote" : ""
 					},
 					"5" : {
-						"event" : "View details",
+						"event" : "Details",
 						"media" : "detail",
 						"chinese" : "不战斗的话是活不下去的！主公！",
 						"chineseTL" : "",
@@ -325,7 +325,7 @@
 						"englishNote" : ""
 					},
 					"6" : {
-						"event" : "Main screen 1",
+						"event" : "Main 1",
 						"media" : "main_1",
 						"chinese" : "和菓子……这种珍馐会动摇吾之内心，所以……不过毕竟盛情难却——唔，真美味！",
 						"chineseTL" : "",
@@ -337,7 +337,7 @@
 						"englishNote" : ""
 					},
 					"7" : {
-						"event" : "Main screen 2",
+						"event" : "Main 2",
 						"media" : "main_2",
 						"chinese" : "心情烦闷的时候，只要去看看水族箱里悠然自得的热带鱼，心情就会不可思议地平静下来",
 						"chineseTL" : "",
@@ -349,7 +349,7 @@
 						"englishNote" : ""
 					},
 					"8" : {
-						"event" : "Main screen 3",
+						"event" : "Main 3",
 						"media" : "main_3",
 						"chinese" : "吾为忠义而战，只要是主公之敌，无论何人吾都当全力以赴",
 						"chineseTL" : "",
@@ -361,7 +361,7 @@
 						"englishNote" : ""
 					},
 					"9" : {
-						"event" : "Normal touch",
+						"event" : "Touch",
 						"media" : "touch_1",
 						"chinese" : "主公，请谨慎些，吾和光辉一样重心很高",
 						"chineseTL" : "",
@@ -373,7 +373,7 @@
 						"englishNote" : ""
 					},
 					"10" : {
-						"event" : "Special touch",
+						"event" : "Touch (Special)",
 						"media" : "touch_2",
 						"chinese" : "呀！！！啊……原来不是萨拉小姐啊。不过，好像比萨拉小姐还恶劣呢",
 						"chineseTL" : "",
@@ -385,7 +385,7 @@
 						"englishNote" : ""
 					},
 					"11" : {
-						"event" : "Mission reminder",
+						"event" : "Mission",
 						"media" : "task",
 						"chinese" : "出现了啊，新的任务！无论是战斗还是训练，都以音速来完成吧！",
 						"chineseTL" : "",
@@ -397,7 +397,7 @@
 						"englishNote" : ""
 					},
 					"12" : {
-						"event" : "Mission complete",
+						"event" : "Mission Complete",
 						"media" : "mission_complete",
 						"chinese" : "任务奖励来啦——面包圈？这是为吾带回来的点心？谢谢主公！那么，吾开动了！",
 						"chineseTL" : "",
@@ -409,7 +409,7 @@
 						"englishNote" : ""
 					},
 					"13" : {
-						"event" : "Mail reminder",
+						"event" : "Mail",
 						"media" : "mail",
 						"chinese" : "新来的邮件？哦，不是大本营战报啊，那好像有看的价值",
 						"chineseTL" : "",
@@ -421,7 +421,7 @@
 						"englishNote" : ""
 					},
 					"14" : {
-						"event" : "Return to port",
+						"event" : "Return to Port",
 						"media" : "home",
 						"chinese" : "即使归港时也应保持好队形！帝国的荣耀正在于吾等的一丝不苟！",
 						"chineseTL" : "",
@@ -433,7 +433,7 @@
 						"englishNote" : ""
 					},
 					"15" : {
-						"event" : "Commission complete",
+						"event" : "Commission Complete",
 						"media" : "expedition",
 						"chinese" : "物资什么的无足轻重，最重要的只有精神与韧性！",
 						"chineseTL" : "",
@@ -445,7 +445,7 @@
 						"englishNote" : ""
 					},
 					"16" : {
-						"event" : "Enhancing complete",
+						"event" : "Enhancement",
 						"media" : "upgrade",
 						"chinese" : "谢谢！那么，主公，当作变强后的试航，陪吾跑一圈吧！",
 						"chineseTL" : "",
@@ -457,7 +457,7 @@
 						"englishNote" : ""
 					},
 					"17" : {
-						"event" : "Flagship fight",
+						"event" : "Flagship",
 						"media" : "warcry",
 						"chinese" : "来细数你们的罪恶吧！",
 						"chineseTL" : "",
@@ -493,7 +493,7 @@
 						"englishNote" : ""
 					},
 					"20" : {
-						"event" : "Skills",
+						"event" : "Skill",
 						"media" : "skill",
 						"chinese" : "龙骧鳞振，前无坚敌",
 						"chineseTL" : "",
@@ -517,7 +517,7 @@
 						"englishNote" : ""
 					},
 					"22" : {
-						"event" : "Upset",
+						"event" : "Affinity (Upset)",
 						"media" : "feeling1",
 						"chinese" : "无论哪里的参谋和上级都是一样的呢……",
 						"chineseTL" : "",
@@ -529,7 +529,7 @@
 						"englishNote" : ""
 					},
 					"23" : {
-						"event" : "Stranger",
+						"event" : "Affinity (Stranger)",
 						"media" : "feeling2",
 						"chinese" : "主公，对于战争而言，比起善恶更重要的是胜败！",
 						"chineseTL" : "",
@@ -541,7 +541,7 @@
 						"englishNote" : ""
 					},
 					"24" : {
-						"event" : "Friendly",
+						"event" : "Affinity (Friendly)",
 						"media" : "feeling3",
 						"chinese" : "主公，再多依赖吾一些也没关系。只要是主公的命令，无论什么吾都会执行",
 						"chineseTL" : "",
@@ -553,7 +553,7 @@
 						"englishNote" : ""
 					},
 					"25" : {
-						"event" : "Crush",
+						"event" : "Affinity (Like)",
 						"media" : "feeling4",
 						"chinese" : "这是主公亲手做的饭菜？那吾就不客气了！呼……谢谢款待！诶？以后每次凯旋后都会给吾做饭？",
 						"chineseTL" : "",
@@ -565,7 +565,7 @@
 						"englishNote" : ""
 					},
 					"26" : {
-						"event" : "Love",
+						"event" : "Affinity (Love)",
 						"media" : "feeling5",
 						"chinese" : "每次出击之前，哪怕只有短短一瞬，只要能看到主公的脸，吾就能精神百倍、战无不胜！",
 						"chineseTL" : "",
@@ -577,7 +577,7 @@
 						"englishNote" : ""
 					},
 					"27" : {
-						"event" : "Promise",
+						"event" : "Pledge",
 						"media" : "propose",
 						"chinese" : "主公，今后无论遇到怎样的危险，吾都会拼死保护您！即使吾辈消逝于海底，也不会让主公受到一点伤害！",
 						"chineseTL" : "",

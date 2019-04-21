@@ -107,7 +107,7 @@
 			"rarity" : "Common",
 			"name" : "G7a Submarine Torpedo"
 		},
-		"1" : {
+		"2" : {
 			"icon" : "45300",
 			"rarity" : "Common",
 			"name" : "G7a Submarine Torpedo"
@@ -230,13 +230,13 @@
 			"preload": "0/0/0/0"
 		},
 		"4": {
-			"type": "Auxilary",
+			"type": "Auxiliary",
 			"efficiency": "-",
 			"amount": "-",
 			"preload": "-"
 		},
 		"5": {
-			"type": "Auxilary",
+			"type": "Auxiliary",
 			"efficiency": "-",
 			"amount": "-",
 			"preload": "-"
@@ -315,7 +315,7 @@
 						"englishNote" : ""
 					},
 					"3" : {
-						"event" : "Receive",
+						"event" : "Acquisition",
 						"media" : "get",
 						"chinese" : "嘿嘿，这下我也有指挥官啦！我是U-81，最喜欢捉迷藏，找不到我的时候大声喊“U-81，我认输”，我就会出来啦",
 						"chineseTL" : "",
@@ -327,7 +327,7 @@
 						"englishNote" : ""
 					},
 					"4" : {
-						"event" : "Log in",
+						"event" : "Login",
 						"media" : "login",
 						"chinese" : "指挥官你总算来啦，我都快无聊死了",
 						"chineseTL" : "",
@@ -339,7 +339,7 @@
 						"englishNote" : ""
 					},
 					"5" : {
-						"event" : "View details",
+						"event" : "Details",
 						"media" : "detail",
 						"chinese" : "哇！有没有吓一跳呢，指挥官？",
 						"chineseTL" : "",
@@ -351,7 +351,7 @@
 						"englishNote" : ""
 					},
 					"6" : {
-						"event" : "Main screen 1",
+						"event" : "Main 1",
 						"media" : "main_1",
 						"chinese" : "让我找找这间办公室有没有可以潜伏的地方，嘻嘻…",
 						"chineseTL" : "",
@@ -363,7 +363,7 @@
 						"englishNote" : ""
 					},
 					"7" : {
-						"event" : "Main screen 2",
+						"event" : "Main 2",
 						"media" : "main_2",
 						"chinese" : "发射参数是这样…指南针和比例尺是这样…咔嚓咔嚓～呵呵～",
 						"chineseTL" : "",
@@ -375,7 +375,7 @@
 						"englishNote" : ""
 					},
 					"8" : {
-						"event" : "Main screen 3",
+						"event" : "Main 3",
 						"media" : "main_3",
 						"chinese" : "指挥官要来玩捉迷藏吗～？",
 						"chineseTL" : "",
@@ -387,7 +387,7 @@
 						"englishNote" : ""
 					},
 					"9" : {
-						"event" : "Normal touch",
+						"event" : "Touch",
 						"media" : "touch_1",
 						"chinese" : "轰炸机来了！？啊哇哇哇哇——指挥官…有些玩笑是不能轻易开的呢…",
 						"chineseTL" : "",
@@ -399,7 +399,7 @@
 						"englishNote" : ""
 					},
 					"10" : {
-						"event" : "Special touch",
+						"event" : "Touch (Special)",
 						"media" : "touch_2",
 						"chinese" : "呜哇！这样很危险的啦指挥官！差点就把鱼雷射出去了…",
 						"chineseTL" : "",
@@ -411,7 +411,7 @@
 						"englishNote" : ""
 					},
 					"11" : {
-						"event" : "Mission reminder",
+						"event" : "Mission",
 						"media" : "task",
 						"chinese" : "指挥官，新任务来啦",
 						"chineseTL" : "",
@@ -423,7 +423,7 @@
 						"englishNote" : ""
 					},
 					"12" : {
-						"event" : "Mission complete",
+						"event" : "Mission Complete",
 						"media" : "mission_complete",
 						"chinese" : "任务奖励～再不拿的话，我就要藏起来咯",
 						"chineseTL" : "",
@@ -435,7 +435,7 @@
 						"englishNote" : ""
 					},
 					"13" : {
-						"event" : "Mail reminder",
+						"event" : "Mail",
 						"media" : "mail",
 						"chinese" : "每次回港的时候，收到信件都很让人开心呢",
 						"chineseTL" : "",
@@ -447,7 +447,7 @@
 						"englishNote" : ""
 					},
 					"14" : {
-						"event" : "Return to port",
+						"event" : "Return to Port",
 						"media" : "home",
 						"chinese" : "指挥官，给你毛巾，把汗擦擦吧",
 						"chineseTL" : "",
@@ -459,7 +459,7 @@
 						"englishNote" : ""
 					},
 					"15" : {
-						"event" : "Commission complete",
+						"event" : "Commission Complete",
 						"media" : "expedition",
 						"chinese" : "哦？委托组好像回来了呢，指挥官，我也能去迎接她们吗，顺便在港口潜会水",
 						"chineseTL" : "",
@@ -471,7 +471,7 @@
 						"englishNote" : ""
 					},
 					"16" : {
-						"event" : "Enhancing complete",
+						"event" : "Enhancement",
 						"media" : "upgrade",
 						"chinese" : "感觉身体变得更轻快了",
 						"chineseTL" : "",
@@ -483,7 +483,7 @@
 						"englishNote" : ""
 					},
 					"17" : {
-						"event" : "Flagship fight",
+						"event" : "Flagship",
 						"media" : "warcry",
 						"chinese" : "悄悄地～偷偷地～潜入战场～",
 						"chineseTL" : "",
@@ -519,7 +519,7 @@
 						"englishNote" : ""
 					},
 					"20" : {
-						"event" : "Skills",
+						"event" : "Skill",
 						"media" : "skill",
 						"chinese" : "好，角度完美！发射～",
 						"chineseTL" : "",
@@ -543,7 +543,7 @@
 						"englishNote" : ""
 					},
 					"22" : {
-						"event" : "Upset",
+						"event" : "Affinity (Upset)",
 						"media" : "feeling1",
 						"chinese" : "Enttäuscht…",
 						"chineseTL" : "",
@@ -555,7 +555,7 @@
 						"englishNote" : ""
 					},
 					"23" : {
-						"event" : "Stranger",
+						"event" : "Affinity (Stranger)",
 						"media" : "feeling2",
 						"chinese" : "嘻嘻，我喜欢捉迷藏，也很擅长捉迷藏哟～",
 						"chineseTL" : "",
@@ -567,7 +567,7 @@
 						"englishNote" : ""
 					},
 					"24" : {
-						"event" : "Friendly",
+						"event" : "Affinity (Friendly)",
 						"media" : "feeling3",
 						"chinese" : "不是我自夸，我还是有不少战果的呢～嘿嘿，所以再多夸夸我也没关系哟",
 						"chineseTL" : "",
@@ -579,7 +579,7 @@
 						"englishNote" : ""
 					},
 					"25" : {
-						"event" : "Crush",
+						"event" : "Affinity (Like)",
 						"media" : "feeling4",
 						"chinese" : "哎呀，又被发现了。感觉指挥官越来越容易发现我躲的地方了呢…",
 						"chineseTL" : "",
@@ -591,7 +591,7 @@
 						"englishNote" : ""
 					},
 					"26" : {
-						"event" : "Love",
+						"event" : "Affinity (Love)",
 						"media" : "feeling5",
 						"chinese" : "指挥官，我发现了一件不得了的事，你的被子有超好闻的味道，以后我要在你的被子里睡觉…欸，你笑啥？",
 						"chineseTL" : "",
@@ -603,7 +603,7 @@
 						"englishNote" : ""
 					},
 					"27" : {
-						"event" : "Promise",
+						"event" : "Pledge",
 						"media" : "propose",
 						"chinese" : "这个…就是所谓的“告白”吗？嘻嘻，总觉得有点开心…又有点害羞呢…我？我当然也最喜欢指挥官啦",
 						"chineseTL" : "",
@@ -634,7 +634,7 @@
 						"englishNote" : ""
 					},
 					"2" : {
-						"event" : "Receive",
+						"event" : "Acquisition",
 						"media" : "get_1",
 						"chinese" : "嗯…这种轻飘飘的裙子还是不太习惯…欸？很漂亮吗？唔唔，有点难为情…",
 						"chineseTL" : "",
@@ -646,7 +646,7 @@
 						"englishNote" : ""
 					},
 					"3" : {
-						"event" : "Log in",
+						"event" : "Login",
 						"media" : "login_1",
 						"chinese" : "指挥官来得好慢~我在这里都不知道等了多久了啦！",
 						"chineseTL" : "",
@@ -658,7 +658,7 @@
 						"englishNote" : ""
 					},
 					"4" : {
-						"event" : "Main screen 1",
+						"event" : "Main 1",
 						"media" : "main_1_1",
 						"chinese" : "这杯不是酒，只是软饮料啦~不信的话指挥官自己尝尝看，喏！",
 						"chineseTL" : "",
@@ -670,7 +670,7 @@
 						"englishNote" : ""
 					},
 					"5" : {
-						"event" : "Main screen 2",
+						"event" : "Main 2",
 						"media" : "main_2_1",
 						"chinese" : "欸，要和我跳舞吗？那，那种事情太勉强了啦……",
 						"chineseTL" : "",
@@ -682,7 +682,7 @@
 						"englishNote" : ""
 					},
 					"6" : {
-						"event" : "Main screen 3",
+						"event" : "Main 3",
 						"media" : "main_3_1",
 						"chinese" : "喵喵就是我的专属管家哦，怎么样，很帅吧~",
 						"chineseTL" : "",
@@ -694,7 +694,7 @@
 						"englishNote" : ""
 					},
 					"7" : {
-						"event" : "Normal touch",
+						"event" : "Touch",
 						"media" : "touch_1_1",
 						"chinese" : "想要听我弹钢琴？呜…等、等我再练习练习…",
 						"chineseTL" : "",
@@ -706,7 +706,7 @@
 						"englishNote" : ""
 					},
 					"8" : {
-						"event" : "Special touch",
+						"event" : "Touch (Special)",
 						"media" : "touch_2_1",
 						"chinese" : "刚刚那一下，绝对是故意的吧？",
 						"chineseTL" : "",
@@ -718,7 +718,7 @@
 						"englishNote" : ""
 					},
 					"9" : {
-						"event" : "Return to port",
+						"event" : "Return to Port",
 						"media" : "home_1",
 						"chinese" : "我在这里哦，指挥官——不捉迷藏了？没办法啦，穿着这么华丽的衣服，哪里都不好藏呢…",
 						"chineseTL" : "",
@@ -730,7 +730,7 @@
 						"englishNote" : ""
 					},
 					"10" : {
-						"event" : "Love",
+						"event" : "Affinity (Love)",
 						"media" : "feeling5_1",
 						"chinese" : "姐姐们说，小夜曲是向心爱的人表达情意的曲子……我试着学了一点点，要，要听听吗？但、但是，弹不好的话不准笑我哦！",
 						"chineseTL" : "",

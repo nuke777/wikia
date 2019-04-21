@@ -98,7 +98,7 @@
 			"rarity" : "Common",
 			"name" : "Single 127mm Main Gun"
 		},
-		"1" : {
+		"2" : {
 			"icon" : "5100",
 			"rarity" : "Common",
 			"name" : "Quadruple 533mm Torpedo"
@@ -221,13 +221,13 @@
 			"preload": "0/0/0/0"
 		},
 		"4": {
-			"type": "Auxilary",
+			"type": "Auxiliary",
 			"efficiency": "-",
 			"amount": "-",
 			"preload": "-"
 		},
 		"5": {
-			"type": "Auxilary",
+			"type": "Auxiliary",
 			"efficiency": "-",
 			"amount": "-",
 			"preload": "-"
@@ -306,7 +306,7 @@
 						"englishNote" : ""
 					},
 					"3" : {
-						"event" : "Receive",
+						"event" : "Acquisition",
 						"media" : "get",
 						"chinese" : "嘿！你就是指挥官吗~我是唐斯，以后就请多多关照了~",
 						"chineseTL" : "",
@@ -318,7 +318,7 @@
 						"englishNote" : ""
 					},
 					"4" : {
-						"event" : "Log in",
+						"event" : "Login",
 						"media" : "login",
 						"chinese" : "Yo~！指挥官，今天海风不错，要和唐斯一起去给对面的那些喂点鱼雷吗？",
 						"chineseTL" : "",
@@ -330,7 +330,7 @@
 						"englishNote" : ""
 					},
 					"5" : {
-						"event" : "View details",
+						"event" : "Details",
 						"media" : "detail",
 						"chinese" : "什么啊，指挥官喜欢我这种有点肌肉的女孩子嘛？",
 						"chineseTL" : "",
@@ -342,7 +342,7 @@
 						"englishNote" : ""
 					},
 					"6" : {
-						"event" : "Main screen 1",
+						"event" : "Main 1",
 						"media" : "main_1",
 						"chinese" : "啧！无聊得想出海玩爆炸了",
 						"chineseTL" : "",
@@ -354,7 +354,7 @@
 						"englishNote" : ""
 					},
 					"7" : {
-						"event" : "Main screen 2",
+						"event" : "Main 2",
 						"media" : "main_2",
 						"chinese" : "弹药位置太暴露了？没事，反正早晚会爆炸的",
 						"chineseTL" : "",
@@ -366,7 +366,7 @@
 						"englishNote" : ""
 					},
 					"8" : {
-						"event" : "Main screen 3",
+						"event" : "Main 3",
 						"media" : "main_3",
 						"chinese" : "哦对指挥官，“我只有一半是原来的自己”，这设定听起来是不是超哲学的！",
 						"chineseTL" : "",
@@ -378,7 +378,7 @@
 						"englishNote" : ""
 					},
 					"9" : {
-						"event" : "Normal touch",
+						"event" : "Touch",
 						"media" : "touch_1",
 						"chinese" : "哎，对就这里，帮我揉揉~",
 						"chineseTL" : "",
@@ -390,7 +390,7 @@
 						"englishNote" : ""
 					},
 					"10" : {
-						"event" : "Special touch",
+						"event" : "Touch (Special)",
 						"media" : "touch_2",
 						"chinese" : "<(－︿－)>你就不怕我咬你？",
 						"chineseTL" : "",
@@ -402,7 +402,7 @@
 						"englishNote" : ""
 					},
 					"11" : {
-						"event" : "Mission reminder",
+						"event" : "Mission",
 						"media" : "task",
 						"chinese" : "好像有任务没做完欸！",
 						"chineseTL" : "",
@@ -414,7 +414,7 @@
 						"englishNote" : ""
 					},
 					"12" : {
-						"event" : "Mission complete",
+						"event" : "Mission Complete",
 						"media" : "mission_complete",
 						"chinese" : "走，去领奖励先",
 						"chineseTL" : "",
@@ -426,7 +426,7 @@
 						"englishNote" : ""
 					},
 					"13" : {
-						"event" : "Mail reminder",
+						"event" : "Mail",
 						"media" : "mail",
 						"chinese" : "Yo！有邮件哦！",
 						"chineseTL" : "",
@@ -438,7 +438,7 @@
 						"englishNote" : ""
 					},
 					"14" : {
-						"event" : "Return to port",
+						"event" : "Return to Port",
 						"media" : "home",
 						"chinese" : "大家都回来了！我们什么时候再出发？",
 						"chineseTL" : "",
@@ -450,7 +450,7 @@
 						"englishNote" : ""
 					},
 					"15" : {
-						"event" : "Commission complete",
+						"event" : "Commission Complete",
 						"media" : "expedition",
 						"chinese" : "有委托完成了啊……我说，有没有什么爆破委托啊",
 						"chineseTL" : "",
@@ -462,7 +462,7 @@
 						"englishNote" : ""
 					},
 					"16" : {
-						"event" : "Enhancing complete",
+						"event" : "Enhancement",
 						"media" : "upgrade",
 						"chinese" : "嘿，我现在超想炸点什么！",
 						"chineseTL" : "",
@@ -474,7 +474,7 @@
 						"englishNote" : ""
 					},
 					"17" : {
-						"event" : "Flagship fight",
+						"event" : "Flagship",
 						"media" : "warcry",
 						"chinese" : "上啊姐妹们，给这些家伙点颜色看看！",
 						"chineseTL" : "",
@@ -510,7 +510,7 @@
 						"englishNote" : ""
 					},
 					"20" : {
-						"event" : "Skills",
+						"event" : "Skill",
 						"media" : "skill",
 						"chinese" : "尝尝这个！",
 						"chineseTL" : "",
@@ -522,7 +522,7 @@
 						"englishNote" : ""
 					},
 					"21" : {
-						"event" : "Upset",
+						"event" : "Affinity (Upset)",
 						"media" : "feeling1",
 						"chinese" : "我最讨厌无精打采的人了！",
 						"chineseTL" : "",
@@ -534,7 +534,7 @@
 						"englishNote" : ""
 					},
 					"22" : {
-						"event" : "Stranger",
+						"event" : "Affinity (Stranger)",
 						"media" : "feeling2",
 						"chinese" : "嘿，指挥官，没精打采的可不行，要跟我一起去炸鱼吗？",
 						"chineseTL" : "",
@@ -546,7 +546,7 @@
 						"englishNote" : ""
 					},
 					"23" : {
-						"event" : "Friendly",
+						"event" : "Affinity (Friendly)",
 						"media" : "feeling3",
 						"chinese" : "身体？不用在意啦，只不过是换了半个身体而已，能吃能睡，没什么不对！",
 						"chineseTL" : "",
@@ -558,7 +558,7 @@
 						"englishNote" : ""
 					},
 					"24" : {
-						"event" : "Crush",
+						"event" : "Affinity (Like)",
 						"media" : "feeling4",
 						"chinese" : "虽然自己不会在意，不过果然会担心喜欢的人会不会接受这样的自己啊，哈啊——诶？指挥官，你什么时候来的，没什么，只，只是自言自语而已啦！",
 						"chineseTL" : "",
@@ -570,7 +570,7 @@
 						"englishNote" : ""
 					},
 					"25" : {
-						"event" : "Love",
+						"event" : "Affinity (Love)",
 						"media" : "feeling5",
 						"chinese" : "指挥官，那个……怎么说呢……我……虽然身体有过残缺，但是我的心是完整的……全、全部都给你……",
 						"chineseTL" : "",
@@ -582,7 +582,7 @@
 						"englishNote" : ""
 					},
 					"26" : {
-						"event" : "Promise",
+						"event" : "Pledge",
 						"media" : "propose",
 						"chinese" : "……没想到我也会有从指挥官那里收到这个的一天……啊不是不相信指挥官，是不相信自己……不过我再也不会担心这种事了，谢谢！",
 						"chineseTL" : "",
@@ -613,7 +613,7 @@
 						"englishNote" : ""
 					},
 					"2" : {
-						"event" : "Receive",
+						"event" : "Acquisition",
 						"media" : "get_9",
 						"chinese" : "嘎哦！我是老虎唐斯！！嘿嘿，指挥官，我这一身怎么样？我现在感觉超好的，快，让我们马上出海去大闹一场吧～",
 						"chineseTL" : "",
@@ -625,7 +625,7 @@
 						"englishNote" : ""
 					},
 					"3" : {
-						"event" : "Log in",
+						"event" : "Login",
 						"media" : "login_9",
 						"chinese" : "Yo~！指挥官，今天工作也加油啊，累了的话就喊我搞个爆炸给你提提神吧！",
 						"chineseTL" : "",
@@ -637,7 +637,7 @@
 						"englishNote" : ""
 					},
 					"4" : {
-						"event" : "Main screen 1",
+						"event" : "Main 1",
 						"media" : "main_1_9",
 						"chinese" : "出海搞爆炸？当然是等指挥官你也有空的时候啦，我不无聊的~",
 						"chineseTL" : "",
@@ -649,7 +649,7 @@
 						"englishNote" : ""
 					},
 					"5" : {
-						"event" : "Return to port",
+						"event" : "Return to Port",
 						"media" : "home_9",
 						"chinese" : "指挥官，我给你按摩一下吧，保~证让你疲劳消失无踪，嘿嘿",
 						"chineseTL" : "",

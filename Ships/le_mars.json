@@ -108,7 +108,7 @@
 			"rarity" : "",
 			"name" : "130mm单装炮Mle1924"
 		},
-		"1" : {
+		"2" : {
 			"icon" : "5400",
 			"rarity" : "Common",
 			"name" : "Triple 550mm Torpedo"
@@ -231,13 +231,13 @@
 			"preload": "0/0/0/0"
 		},
 		"4": {
-			"type": "Auxilary",
+			"type": "Auxiliary",
 			"efficiency": "-",
 			"amount": "-",
 			"preload": "-"
 		},
 		"5": {
-			"type": "Auxilary",
+			"type": "Auxiliary",
 			"efficiency": "-",
 			"amount": "-",
 			"preload": "-"
@@ -316,7 +316,7 @@
 						"englishNote" : ""
 					},
 					"3" : {
-						"event" : "Receive",
+						"event" : "Acquisition",
 						"media" : "get",
 						"chinese" : "嗯？你是……啊，对了，是指挥官！我是机敏级驱逐舰勒马尔，以后请多多指教啦！",
 						"chineseTL" : "",
@@ -328,7 +328,7 @@
 						"englishNote" : ""
 					},
 					"4" : {
-						"event" : "Log in",
+						"event" : "Login",
 						"media" : "login",
 						"chinese" : "指挥官，你终于来啦，今天我的训练任务是什么？",
 						"chineseTL" : "",
@@ -340,7 +340,7 @@
 						"englishNote" : ""
 					},
 					"5" : {
-						"event" : "View details",
+						"event" : "Details",
 						"media" : "detail",
 						"chinese" : "其实我挺羡慕福尔班的，虽然她当时也无法行动，至少比我要好…",
 						"chineseTL" : "",
@@ -352,7 +352,7 @@
 						"englishNote" : ""
 					},
 					"6" : {
-						"event" : "Main screen 1",
+						"event" : "Main 1",
 						"media" : "main_1",
 						"chinese" : "指挥官，我来教你一些可以坐着舒活筋骨的动作吧~",
 						"chineseTL" : "",
@@ -364,7 +364,7 @@
 						"englishNote" : ""
 					},
 					"7" : {
-						"event" : "Main screen 2",
+						"event" : "Main 2",
 						"media" : "main_2",
 						"chinese" : "当指挥官可真不容易啊，要看这个还要安排那个的，换了我肯定一下就晕了……",
 						"chineseTL" : "",
@@ -376,7 +376,7 @@
 						"englishNote" : ""
 					},
 					"8" : {
-						"event" : "Main screen 3",
+						"event" : "Main 3",
 						"media" : "main_3",
 						"chinese" : "唔，学习好痛苦…书上的字明明每个都认识，组合起来就完全看不懂了呢",
 						"chineseTL" : "",
@@ -388,7 +388,7 @@
 						"englishNote" : ""
 					},
 					"9" : {
-						"event" : "Normal touch",
+						"event" : "Touch",
 						"media" : "touch_1",
 						"chinese" : "正好肩膀酸了呢……谢谢指挥官啦！",
 						"chineseTL" : "",
@@ -400,7 +400,7 @@
 						"englishNote" : ""
 					},
 					"10" : {
-						"event" : "Special touch",
+						"event" : "Touch (Special)",
 						"media" : "touch_2",
 						"chinese" : "这，这里也要按摩吗？感觉……有点奇怪啊……",
 						"chineseTL" : "",
@@ -412,7 +412,7 @@
 						"englishNote" : ""
 					},
 					"11" : {
-						"event" : "Mission reminder",
+						"event" : "Mission",
 						"media" : "task",
 						"chinese" : "还有任务呢。要跑腿的话，尽管和我说吧！",
 						"chineseTL" : "",
@@ -424,7 +424,7 @@
 						"englishNote" : ""
 					},
 					"12" : {
-						"event" : "Mission complete",
+						"event" : "Mission Complete",
 						"media" : "mission_complete",
 						"chinese" : "任务完成！……嗯，还有奖励的吗？",
 						"chineseTL" : "",
@@ -436,7 +436,7 @@
 						"englishNote" : ""
 					},
 					"13" : {
-						"event" : "Mail reminder",
+						"event" : "Mail",
 						"media" : "mail",
 						"chinese" : "有信件！我已经拿过来啦，嘿嘿~",
 						"chineseTL" : "",
@@ -448,7 +448,7 @@
 						"englishNote" : ""
 					},
 					"14" : {
-						"event" : "Return to port",
+						"event" : "Return to Port",
 						"media" : "home",
 						"chinese" : "指挥官，不流点汗的话可是要变胖的！",
 						"chineseTL" : "",
@@ -460,7 +460,7 @@
 						"englishNote" : ""
 					},
 					"15" : {
-						"event" : "Commission complete",
+						"event" : "Commission Complete",
 						"media" : "expedition",
 						"chinese" : "大家回来了。我这就跑过去接她们，嘿~",
 						"chineseTL" : "",
@@ -472,7 +472,7 @@
 						"englishNote" : ""
 					},
 					"16" : {
-						"event" : "Enhancing complete",
+						"event" : "Enhancement",
 						"media" : "upgrade",
 						"chinese" : "又变强了呢，谢谢指挥官~",
 						"chineseTL" : "",
@@ -484,7 +484,7 @@
 						"englishNote" : ""
 					},
 					"17" : {
-						"event" : "Flagship fight",
+						"event" : "Flagship",
 						"media" : "warcry",
 						"chinese" : "准备活动完成！要上了！",
 						"chineseTL" : "",
@@ -520,7 +520,7 @@
 						"englishNote" : ""
 					},
 					"20" : {
-						"event" : "Skills",
+						"event" : "Skill",
 						"media" : "skill",
 						"chinese" : "我要上咯~！",
 						"chineseTL" : "",
@@ -544,7 +544,7 @@
 						"englishNote" : ""
 					},
 					"22" : {
-						"event" : "Upset",
+						"event" : "Affinity (Upset)",
 						"media" : "feeling1",
 						"chinese" : "啊，是指挥官！我、我还是自己去跑步锻炼吧！",
 						"chineseTL" : "",
@@ -556,7 +556,7 @@
 						"englishNote" : ""
 					},
 					"23" : {
-						"event" : "Stranger",
+						"event" : "Affinity (Stranger)",
 						"media" : "feeling2",
 						"chinese" : "都说一名优秀的骑士，不仅要有保护他人的力量，也要通过学习让自己拥有强大的内心……可是我翻书就犯困，怎么办呀",
 						"chineseTL" : "",
@@ -568,7 +568,7 @@
 						"englishNote" : ""
 					},
 					"24" : {
-						"event" : "Friendly",
+						"event" : "Affinity (Friendly)",
 						"media" : "feeling3",
 						"chinese" : "指挥官愿意教我学习吗？哇！谢谢指挥官！我一定会……欸欸欸，要学这么多东西吗！我、我忽然肚子疼了！",
 						"chineseTL" : "",
@@ -580,7 +580,7 @@
 						"englishNote" : ""
 					},
 					"25" : {
-						"event" : "Crush",
+						"event" : "Affinity (Like)",
 						"media" : "feeling4",
 						"chinese" : "好像有点明白了，又好像还是不明白……不过指挥官愿意教我这个笨蛋好开心呀，谢谢指挥官~",
 						"chineseTL" : "",
@@ -592,7 +592,7 @@
 						"englishNote" : ""
 					},
 					"26" : {
-						"event" : "Love",
+						"event" : "Affinity (Love)",
 						"media" : "feeling5",
 						"chinese" : "虽然书上的知识还是不太明白，不过有一件事我现在明白了，那就是，只要是有关指挥官的事，我就能发挥出200%的力量！",
 						"chineseTL" : "",
@@ -604,7 +604,7 @@
 						"englishNote" : ""
 					},
 					"27" : {
-						"event" : "Promise",
+						"event" : "Pledge",
 						"media" : "propose",
 						"chinese" : "唔……这种场合应该怎么办才好来着，我完全不知道耶…那、那个，总、总而言之，未来也请，那个，请多多指教！",
 						"chineseTL" : "",
@@ -616,7 +616,7 @@
 						"englishNote" : ""
 					},
 					"28" : {
-						"event" : "Easter Egg 1(Forbin)",
+						"event" : "Easter Egg 1 (Forbin)",
 						"media" : "link1",
 						"chinese" : "福尔班，我先上喽？",
 						"chineseTL" : "",
@@ -647,7 +647,7 @@
 						"englishNote" : ""
 					},
 					"2" : {
-						"event" : "Receive",
+						"event" : "Acquisition",
 						"media" : "get_1",
 						"chinese" : "夏天~夏天来了哟指挥官！一起来海边玩水吧~水枪大战我可是很强的哟~",
 						"chineseTL" : "",
@@ -659,7 +659,7 @@
 						"englishNote" : ""
 					},
 					"3" : {
-						"event" : "Log in",
+						"event" : "Login",
 						"media" : "login_1",
 						"chinese" : "指挥官，难得的夏天，可不能那么没精神哦~一起享受阳光和沙滩吧~",
 						"chineseTL" : "",
@@ -671,7 +671,7 @@
 						"englishNote" : ""
 					},
 					"4" : {
-						"event" : "View details",
+						"event" : "Details",
 						"media" : "detail_1",
 						"chinese" : "这个不只是游泳圈，还是水炮的“弹药舱”呢，嘿嘿，你想尝尝威力吗，指挥官？",
 						"chineseTL" : "",
@@ -683,7 +683,7 @@
 						"englishNote" : ""
 					},
 					"5" : {
-						"event" : "Main screen 1",
+						"event" : "Main 1",
 						"media" : "main_1_1",
 						"chinese" : "指挥官~要不要一起吃西瓜呀~？",
 						"chineseTL" : "",
@@ -695,7 +695,7 @@
 						"englishNote" : ""
 					},
 					"6" : {
-						"event" : "Main screen 2",
+						"event" : "Main 2",
 						"media" : "main_2_1",
 						"chinese" : "就算是夏天，也不能整天窝在空调房里哟~一起出去外面玩吧~",
 						"chineseTL" : "",
@@ -707,7 +707,7 @@
 						"englishNote" : ""
 					},
 					"7" : {
-						"event" : "Main screen 3",
+						"event" : "Main 3",
 						"media" : "main_3_1",
 						"chinese" : "指挥官也来把自己晒黑吧，这样我们就一样了呢，嘻嘻~",
 						"chineseTL" : "",
@@ -719,7 +719,7 @@
 						"englishNote" : ""
 					},
 					"8" : {
-						"event" : "Normal touch",
+						"event" : "Touch",
 						"media" : "touch_1_1",
 						"chinese" : "防晒霜？那种东西不需要啦~",
 						"chineseTL" : "",
@@ -731,7 +731,7 @@
 						"englishNote" : ""
 					},
 					"9" : {
-						"event" : "Special touch",
+						"event" : "Touch (Special)",
 						"media" : "touch_2_1",
 						"chinese" : "这、这里也不需要防晒啦，指挥官…",
 						"chineseTL" : "",
@@ -743,7 +743,7 @@
 						"englishNote" : ""
 					},
 					"10" : {
-						"event" : "Return to port",
+						"event" : "Return to Port",
 						"media" : "home_1",
 						"chinese" : "嘿嘿，指挥官忙完了吗？那就准备出发吧~——去哪？当然是海边啦~",
 						"chineseTL" : "",
@@ -786,7 +786,7 @@
 						"englishNote" : ""
 					},
 					"2" : {
-						"event" : "Receive",
+						"event" : "Acquisition",
 						"media" : "get_9",
 						"chinese" : "改·造·完·成！得到全新力量的勒马尔，前来报道~嘿嘿，指挥官，我是不是看起来更可靠了呢~？",
 						"chineseTL" : "",
@@ -798,7 +798,7 @@
 						"englishNote" : ""
 					},
 					"3" : {
-						"event" : "Log in",
+						"event" : "Login",
 						"media" : "login_9",
 						"chinese" : "鱼雷和炮弹都准备就绪啦~指挥官，我随时可以出击哟~",
 						"chineseTL" : "",
@@ -810,7 +810,7 @@
 						"englishNote" : ""
 					},
 					"4" : {
-						"event" : "View details",
+						"event" : "Details",
 						"media" : "detail_9",
 						"chinese" : "指挥官，又想来欣赏我全炮门雷舱全开的英姿了吗？嘿嘿，真是没办法呢~",
 						"chineseTL" : "",
@@ -822,7 +822,7 @@
 						"englishNote" : ""
 					},
 					"5" : {
-						"event" : "Main screen 1",
+						"event" : "Main 1",
 						"media" : "main_1_9",
 						"chinese" : "嘿嘿，指挥官，这个姿势是不是很帅？我从动画里学来的哦",
 						"chineseTL" : "",
@@ -834,7 +834,7 @@
 						"englishNote" : ""
 					},
 					"6" : {
-						"event" : "Main screen 2",
+						"event" : "Main 2",
 						"media" : "main_2_9",
 						"chinese" : "委托也好，出击也好，都尽管来吧~现在的我不会让指挥官失望的~",
 						"chineseTL" : "",
@@ -846,7 +846,7 @@
 						"englishNote" : ""
 					},
 					"7" : {
-						"event" : "Main screen 3",
+						"event" : "Main 3",
 						"media" : "main_3_9",
 						"chinese" : "有什么需要我做的吗？能帮指挥官再多分担点就好了呢~",
 						"chineseTL" : "",
@@ -858,7 +858,7 @@
 						"englishNote" : ""
 					},
 					"8" : {
-						"event" : "Normal touch",
+						"event" : "Touch",
 						"media" : "touch_1_9",
 						"chinese" : "嘿嘿，换我给指挥官按按肩膀怎么样？",
 						"chineseTL" : "",
@@ -870,7 +870,7 @@
 						"englishNote" : ""
 					},
 					"9" : {
-						"event" : "Return to port",
+						"event" : "Return to Port",
 						"media" : "home_9",
 						"chinese" : "欢迎回来，指挥官！来准备下一次出击吧~？",
 						"chineseTL" : "",

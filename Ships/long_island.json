@@ -101,7 +101,7 @@
 			"rarity" : "",
 			"name" : "F2A Buffalo"
 		},
-		"1" : {
+		"2" : {
 			"icon" : "19000",
 			"rarity" : "",
 			"name" : "SBD Dauntless"
@@ -224,13 +224,13 @@
 			"preload": "0/0/0/0"
 		},
 		"4": {
-			"type": "Auxilary",
+			"type": "Auxiliary",
 			"efficiency": "-",
 			"amount": "-",
 			"preload": "-"
 		},
 		"5": {
-			"type": "Auxilary",
+			"type": "Auxiliary",
 			"efficiency": "-",
 			"amount": "-",
 			"preload": "-"
@@ -309,7 +309,7 @@
 						"englishNote" : ""
 					},
 					"3" : {
-						"event" : "Receive",
+						"event" : "Acquisition",
 						"media" : "get",
 						"chinese" : "嘻嘻，我是长岛，指挥官你好~其实我还有另外一个名字，你想知道么？",
 						"chineseTL" : "",
@@ -321,7 +321,7 @@
 						"englishNote" : ""
 					},
 					"4" : {
-						"event" : "Log in",
+						"event" : "Login",
 						"media" : "login",
 						"chinese" : "嗷呜！——嘻嘻，被吓到了么？长岛要每天都像幽灵附身一样紧随指挥官左右！~",
 						"chineseTL" : "",
@@ -333,7 +333,7 @@
 						"englishNote" : ""
 					},
 					"5" : {
-						"event" : "View details",
+						"event" : "Details",
 						"media" : "detail",
 						"chinese" : "你看不见我……你看不见我……你看不见我……",
 						"chineseTL" : "",
@@ -345,7 +345,7 @@
 						"englishNote" : ""
 					},
 					"6" : {
-						"event" : "Main screen 1",
+						"event" : "Main 1",
 						"media" : "main_1",
 						"chinese" : "来玩俄罗斯轮盘点心的游戏吧，猜猜哪块夹着芥末？",
 						"chineseTL" : "",
@@ -357,7 +357,7 @@
 						"englishNote" : ""
 					},
 					"7" : {
-						"event" : "Main screen 2",
+						"event" : "Main 2",
 						"media" : "main_2",
 						"chinese" : "我们一起喝点东西吧，干杯！——噗！好苦……和指挥官的杯子弄反了！",
 						"chineseTL" : "",
@@ -369,7 +369,7 @@
 						"englishNote" : ""
 					},
 					"8" : {
-						"event" : "Main screen 3",
+						"event" : "Main 3",
 						"media" : "main_3",
 						"chinese" : "指挥官指挥官~我的袖子像幽灵吗~",
 						"chineseTL" : "",
@@ -381,7 +381,7 @@
 						"englishNote" : ""
 					},
 					"9" : {
-						"event" : "Normal touch",
+						"event" : "Touch",
 						"media" : "touch_1",
 						"chinese" : "笨蛋指挥官~这里可是涂了胶水的！——欸？欸？！黏住了！怎、怎么办？！",
 						"chineseTL" : "",
@@ -393,7 +393,7 @@
 						"englishNote" : ""
 					},
 					"10" : {
-						"event" : "Special touch",
+						"event" : "Touch (Special)",
 						"media" : "touch_2",
 						"chinese" : "你……你摸到的不是我！我可是幽灵、幽灵、幽灵！",
 						"chineseTL" : "",
@@ -405,7 +405,7 @@
 						"englishNote" : ""
 					},
 					"11" : {
-						"event" : "Mission reminder",
+						"event" : "Mission",
 						"media" : "task",
 						"chinese" : "指挥官，有新的任务啦，所以我们去睡觉吧？",
 						"chineseTL" : "",
@@ -417,7 +417,7 @@
 						"englishNote" : ""
 					},
 					"12" : {
-						"event" : "Mission complete",
+						"event" : "Mission Complete",
 						"media" : "mission_complete",
 						"chinese" : "偷偷地……悄悄地……把指挥官那份奖励涂上502……",
 						"chineseTL" : "",
@@ -429,7 +429,7 @@
 						"englishNote" : ""
 					},
 					"13" : {
-						"event" : "Mail reminder",
+						"event" : "Mail",
 						"media" : "mail",
 						"chinese" : "长岛对指挥官的邮件，使用了“调包”！长岛好厉害",
 						"chineseTL" : "",
@@ -441,7 +441,7 @@
 						"englishNote" : ""
 					},
 					"14" : {
-						"event" : "Return to port",
+						"event" : "Return to Port",
 						"media" : "home",
 						"chinese" : "指—挥—官~没人回来哟~~~",
 						"chineseTL" : "",
@@ -453,7 +453,7 @@
 						"englishNote" : ""
 					},
 					"15" : {
-						"event" : "Commission complete",
+						"event" : "Commission Complete",
 						"media" : "expedition",
 						"chinese" : "出委托的姐妹们还没回来吗，还没吗…………啊，回来了！",
 						"chineseTL" : "",
@@ -465,7 +465,7 @@
 						"englishNote" : ""
 					},
 					"16" : {
-						"event" : "Enhancing complete",
+						"event" : "Enhancement",
 						"media" : "upgrade",
 						"chinese" : "长岛 的 经验值 提升了！",
 						"chineseTL" : "",
@@ -477,7 +477,7 @@
 						"englishNote" : ""
 					},
 					"17" : {
-						"event" : "Flagship fight",
+						"event" : "Flagship",
 						"media" : "warcry",
 						"chinese" : "欸嘿~来开个派对吧，我会让你们吓得燃料都漏出来",
 						"chineseTL" : "",
@@ -513,7 +513,7 @@
 						"englishNote" : ""
 					},
 					"20" : {
-						"event" : "Skills",
+						"event" : "Skill",
 						"media" : "skill",
 						"chinese" : "呼……差点胖次被看到了……",
 						"chineseTL" : "",
@@ -525,7 +525,7 @@
 						"englishNote" : ""
 					},
 					"21" : {
-						"event" : "Upset",
+						"event" : "Affinity (Upset)",
 						"media" : "feeling1",
 						"chinese" : "指挥官看不到我，指挥官看不到我……",
 						"chineseTL" : "",
@@ -537,7 +537,7 @@
 						"englishNote" : ""
 					},
 					"22" : {
-						"event" : "Stranger",
+						"event" : "Affinity (Stranger)",
 						"media" : "feeling2",
 						"chinese" : "（捂住耳朵）幽灵不会说话哟~~~",
 						"chineseTL" : "",
@@ -549,7 +549,7 @@
 						"englishNote" : ""
 					},
 					"23" : {
-						"event" : "Friendly",
+						"event" : "Affinity (Friendly)",
 						"media" : "feeling3",
 						"chinese" : "我的回答是……呜哇！吓你一跳！——欸……指挥官都不配合一下的嘛……",
 						"chineseTL" : "",
@@ -561,7 +561,7 @@
 						"englishNote" : ""
 					},
 					"24" : {
-						"event" : "Crush",
+						"event" : "Affinity (Like)",
 						"media" : "feeling4",
 						"chinese" : "嘻嘻……幽灵长岛“一不小心”附到了指挥官身上，再也离不开指挥官了呢，只能每天跟指挥官在一起了~",
 						"chineseTL" : "",
@@ -573,7 +573,7 @@
 						"englishNote" : ""
 					},
 					"25" : {
-						"event" : "Love",
+						"event" : "Affinity (Love)",
 						"media" : "feeling5",
 						"chinese" : "这么说来，要是人家真的是幽灵，就要时刻和指挥官在一起了呢，吃饭的时候，睡觉的时候，连上厕所的时候都……呜哇！好害羞！",
 						"chineseTL" : "",
@@ -585,7 +585,7 @@
 						"englishNote" : ""
 					},
 					"26" : {
-						"event" : "Promise",
+						"event" : "Pledge",
 						"media" : "propose",
 						"chinese" : "好，契约完成~这样长岛就正式成为附身指挥官的灵了！……话是这么说，其实要做的事也没有变化啦，欸嘿嘿~",
 						"chineseTL" : "",
@@ -616,7 +616,7 @@
 						"englishNote" : ""
 					},
 					"2" : {
-						"event" : "Receive",
+						"event" : "Acquisition",
 						"media" : "get_1",
 						"chinese" : "古灵精怪，广受喜爱的长岛，其实有一个不为人知的秘密……",
 						"chineseTL" : "",
@@ -628,7 +628,7 @@
 						"englishNote" : ""
 					},
 					"3" : {
-						"event" : "View details",
+						"event" : "Details",
 						"media" : "detail_1",
 						"chinese" : "平时那是社交装甲……总之，要吃薯片吗？",
 						"chineseTL" : "",
@@ -640,7 +640,7 @@
 						"englishNote" : ""
 					},
 					"4" : {
-						"event" : "Main screen 1",
+						"event" : "Main 1",
 						"media" : "main_1_1",
 						"chinese" : "指挥官，没事不要吵我，我很忙的……忙什么？当然是忙着玩",
 						"chineseTL" : "",
@@ -652,7 +652,7 @@
 						"englishNote" : ""
 					},
 					"5" : {
-						"event" : "Main screen 2",
+						"event" : "Main 2",
 						"media" : "main_2_1",
 						"chinese" : "指挥官，我带了很多零食，要分你一点吗？",
 						"chineseTL" : "",
@@ -664,7 +664,7 @@
 						"englishNote" : ""
 					},
 					"6" : {
-						"event" : "Main screen 3",
+						"event" : "Main 3",
 						"media" : "main_3_1",
 						"chinese" : "指挥官，你喜欢HG还是MG？PG我也有哦",
 						"chineseTL" : "",
@@ -676,7 +676,7 @@
 						"englishNote" : ""
 					},
 					"7" : {
-						"event" : "Return to port",
+						"event" : "Return to Port",
 						"media" : "home_1",
 						"chinese" : "辛苦了指挥官，正好，来放松一下吧，给你2P",
 						"chineseTL" : "",
@@ -688,7 +688,7 @@
 						"englishNote" : ""
 					},
 					"8" : {
-						"event" : "Flagship fight",
+						"event" : "Flagship",
 						"media" : "warcry_1",
 						"chinese" : "指挥官，能划水吗？",
 						"chineseTL" : "",
@@ -712,7 +712,7 @@
 						"englishNote" : ""
 					},
 					"10" : {
-						"event" : "Upset",
+						"event" : "Affinity (Upset)",
 						"media" : "feeling1_1",
 						"chinese" : "指挥官，私闯少女房间是犯法的哦，我要报警了",
 						"chineseTL" : "",
@@ -724,7 +724,7 @@
 						"englishNote" : ""
 					},
 					"11" : {
-						"event" : "Stranger",
+						"event" : "Affinity (Stranger)",
 						"media" : "feeling2_1",
 						"chinese" : "被指挥官你发现了就没办法了……不要随便告诉其他人哦",
 						"chineseTL" : "",
@@ -736,7 +736,7 @@
 						"englishNote" : ""
 					},
 					"12" : {
-						"event" : "Friendly",
+						"event" : "Affinity (Friendly)",
 						"media" : "feeling3_1",
 						"chinese" : "指挥官很闲嘛，要一起玩游戏吗？做模型也可以",
 						"chineseTL" : "",
@@ -748,7 +748,7 @@
 						"englishNote" : ""
 					},
 					"13" : {
-						"event" : "Crush",
+						"event" : "Affinity (Like)",
 						"media" : "feeling4_1",
 						"chinese" : "指挥官，我这里不是游戏室哦？欸，想和我一起玩？那……那就没办法了呢，正，正好，我新买了游戏，来一起玩吧",
 						"chineseTL" : "",
@@ -760,7 +760,7 @@
 						"englishNote" : ""
 					},
 					"14" : {
-						"event" : "Love",
+						"event" : "Affinity (Love)",
 						"media" : "feeling5_1",
 						"chinese" : "联机游戏要多买点，工具也要再买一套……啊，不想出门，指挥官，为了和可爱的长岛的幸福未来，就麻烦你跑一趟吧！",
 						"chineseTL" : "",
@@ -791,7 +791,7 @@
 						"englishNote" : ""
 					},
 					"2" : {
-						"event" : "Receive",
+						"event" : "Acquisition",
 						"media" : "get_9",
 						"chinese" : "指挥官早，我是长岛——我有变化？我可是幽灵，才不会……咦，好像是变清爽了一点呢～",
 						"chineseTL" : "",
@@ -803,7 +803,7 @@
 						"englishNote" : ""
 					},
 					"3" : {
-						"event" : "View details",
+						"event" : "Details",
 						"media" : "detail_9",
 						"chinese" : "嗯？这样比较清爽，所以没问题！",
 						"chineseTL" : "",
@@ -815,7 +815,7 @@
 						"englishNote" : ""
 					},
 					"4" : {
-						"event" : "Main screen 1",
+						"event" : "Main 1",
 						"media" : "main_1_9",
 						"chinese" : "总是假装幽灵也有点腻呢……现在的我是僵尸，僵尸哟～",
 						"chineseTL" : "",
@@ -827,7 +827,7 @@
 						"englishNote" : ""
 					},
 					"5" : {
-						"event" : "Main screen 2",
+						"event" : "Main 2",
 						"media" : "main_2_9",
 						"chinese" : "嘿嘿，指挥官你是在找自己的游戏机吗？",
 						"chineseTL" : "",
@@ -839,7 +839,7 @@
 						"englishNote" : ""
 					},
 					"6" : {
-						"event" : "Main screen 3",
+						"event" : "Main 3",
 						"media" : "main_3_9",
 						"chinese" : "指·挥·官……唔，真的睡着了？要做哪些恶作剧呢？嘿嘿～",
 						"chineseTL" : "",
@@ -851,7 +851,7 @@
 						"englishNote" : ""
 					},
 					"7" : {
-						"event" : "Normal touch",
+						"event" : "Touch",
 						"media" : "touch_1_9",
 						"chinese" : "一起吃午饭？我还有模型没拼完，所以，抱歉啦指挥官——",
 						"chineseTL" : "",
@@ -863,7 +863,7 @@
 						"englishNote" : ""
 					},
 					"8" : {
-						"event" : "Special touch",
+						"event" : "Touch (Special)",
 						"media" : "touch_2_9",
 						"chinese" : "我是幽灵……即使是幽灵，也不能随便乱摸啦——",
 						"chineseTL" : "",

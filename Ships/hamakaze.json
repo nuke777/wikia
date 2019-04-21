@@ -117,7 +117,7 @@
 			"rarity" : "Common",
 			"name" : "127mm Mounted Gun"
 		},
-		"1" : {
+		"2" : {
 			"icon" : "35200",
 			"rarity" : "Rare",
 			"name" : "Quadruple 610mm Torpedo"
@@ -240,13 +240,13 @@
 			"preload": "0/0/0/0"
 		},
 		"4": {
-			"type": "Auxilary",
+			"type": "Auxiliary",
 			"efficiency": "-",
 			"amount": "-",
 			"preload": "-"
 		},
 		"5": {
-			"type": "Auxilary",
+			"type": "Auxiliary",
 			"efficiency": "-",
 			"amount": "-",
 			"preload": "-"
@@ -325,7 +325,7 @@
 						"englishNote" : ""
 					},
 					"3" : {
-						"event" : "Receive",
+						"event" : "Acquisition",
 						"media" : "get",
 						"chinese" : "阳炎级驱逐舰十三号舰滨风报到。指挥官，可不要读错我的名字",
 						"chineseTL" : "",
@@ -337,7 +337,7 @@
 						"englishNote" : ""
 					},
 					"4" : {
-						"event" : "Log in",
+						"event" : "Login",
 						"media" : "login",
 						"chinese" : "指挥官，现在可还没到松懈的时候！",
 						"chineseTL" : "",
@@ -349,7 +349,7 @@
 						"englishNote" : ""
 					},
 					"5" : {
-						"event" : "View details",
+						"event" : "Details",
 						"media" : "detail",
 						"chinese" : "这一次——一定要守护好同伴！",
 						"chineseTL" : "",
@@ -361,7 +361,7 @@
 						"englishNote" : ""
 					},
 					"6" : {
-						"event" : "Main screen 1",
+						"event" : "Main 1",
 						"media" : "main_1",
 						"chinese" : "谷风，不完成训练的话，可别想着能安稳地睡着",
 						"chineseTL" : "",
@@ -373,7 +373,7 @@
 						"englishNote" : ""
 					},
 					"7" : {
-						"event" : "Main screen 2",
+						"event" : "Main 2",
 						"media" : "main_2",
 						"chinese" : "虽然只是一艘驱逐舰，但我会努力保护大家的！",
 						"chineseTL" : "",
@@ -385,7 +385,7 @@
 						"englishNote" : ""
 					},
 					"8" : {
-						"event" : "Main screen 3",
+						"event" : "Main 3",
 						"media" : "main_3",
 						"chinese" : "坊之岬……那是一切结束的地方……",
 						"chineseTL" : "",
@@ -397,7 +397,7 @@
 						"englishNote" : ""
 					},
 					"9" : {
-						"event" : "Normal touch",
+						"event" : "Touch",
 						"media" : "touch_1",
 						"chinese" : "咦——指挥官，你在看哪里呢？",
 						"chineseTL" : "",
@@ -409,7 +409,7 @@
 						"englishNote" : ""
 					},
 					"10" : {
-						"event" : "Special touch",
+						"event" : "Touch (Special)",
 						"media" : "touch_2",
 						"chinese" : "呀——指挥官，你在碰哪里呢？",
 						"chineseTL" : "",
@@ -421,7 +421,7 @@
 						"englishNote" : ""
 					},
 					"11" : {
-						"event" : "Mission reminder",
+						"event" : "Mission",
 						"media" : "task",
 						"chinese" : "下一个任务是……",
 						"chineseTL" : "",
@@ -433,7 +433,7 @@
 						"englishNote" : ""
 					},
 					"12" : {
-						"event" : "Mission complete",
+						"event" : "Mission Complete",
 						"media" : "mission_complete",
 						"chinese" : "我对你的评价提高了唷",
 						"chineseTL" : "",
@@ -445,7 +445,7 @@
 						"englishNote" : ""
 					},
 					"13" : {
-						"event" : "Mail reminder",
+						"event" : "Mail",
 						"media" : "mail",
 						"chinese" : "阅读战报可是最优先事项",
 						"chineseTL" : "",
@@ -457,7 +457,7 @@
 						"englishNote" : ""
 					},
 					"14" : {
-						"event" : "Return to port",
+						"event" : "Return to Port",
 						"media" : "home",
 						"chinese" : "辛苦了……出击的姐妹们有好好工作吗？",
 						"chineseTL" : "",
@@ -469,7 +469,7 @@
 						"englishNote" : ""
 					},
 					"15" : {
-						"event" : "Commission complete",
+						"event" : "Commission Complete",
 						"media" : "expedition",
 						"chinese" : "辛苦了……不过，比起鼠运输，这些应该算不了什么吧",
 						"chineseTL" : "",
@@ -481,7 +481,7 @@
 						"englishNote" : ""
 					},
 					"16" : {
-						"event" : "Enhancing complete",
+						"event" : "Enhancement",
 						"media" : "upgrade",
 						"chinese" : "风更大了",
 						"chineseTL" : "",
@@ -493,7 +493,7 @@
 						"englishNote" : ""
 					},
 					"17" : {
-						"event" : "Flagship fight",
+						"event" : "Flagship",
 						"media" : "warcry",
 						"chinese" : "海风正宜战斗！",
 						"chineseTL" : "",
@@ -529,7 +529,7 @@
 						"englishNote" : ""
 					},
 					"20" : {
-						"event" : "Skills",
+						"event" : "Skill",
 						"media" : "skill",
 						"chinese" : "我在这里呢！",
 						"chineseTL" : "",
@@ -541,7 +541,7 @@
 						"englishNote" : ""
 					},
 					"21" : {
-						"event" : "Upset",
+						"event" : "Affinity (Upset)",
 						"media" : "feeling1",
 						"chinese" : "指挥官，有勇无谋……",
 						"chineseTL" : "",
@@ -553,7 +553,7 @@
 						"englishNote" : ""
 					},
 					"22" : {
-						"event" : "Stranger",
+						"event" : "Affinity (Stranger)",
 						"media" : "feeling2",
 						"chinese" : "指挥官，历史是不会重复的……对吧？",
 						"chineseTL" : "",
@@ -565,7 +565,7 @@
 						"englishNote" : ""
 					},
 					"23" : {
-						"event" : "Friendly",
+						"event" : "Affinity (Friendly)",
 						"media" : "feeling3",
 						"chinese" : "我期待着第十七驱逐队能在这里团聚……",
 						"chineseTL" : "",
@@ -577,7 +577,7 @@
 						"englishNote" : ""
 					},
 					"24" : {
-						"event" : "Crush",
+						"event" : "Affinity (Like)",
 						"media" : "feeling4",
 						"chinese" : "今天的风儿也很舒服呢，不过——我还不能休息！大和……等着我……",
 						"chineseTL" : "",
@@ -589,7 +589,7 @@
 						"englishNote" : ""
 					},
 					"25" : {
-						"event" : "Love",
+						"event" : "Affinity (Love)",
 						"media" : "feeling5",
 						"chinese" : "只要海风还没有停歇，我就会永远陪伴在你的身旁",
 						"chineseTL" : "",
@@ -601,7 +601,7 @@
 						"englishNote" : ""
 					},
 					"26" : {
-						"event" : "Promise",
+						"event" : "Pledge",
 						"media" : "propose",
 						"chinese" : "虽、虽然我认为应该等一切结束了再……不、不过，拒绝你的好意——伤害了你的心也会很麻烦呢，所以我就勉为其难——不、不许笑！",
 						"chineseTL" : "",
@@ -632,7 +632,7 @@
 						"englishNote" : ""
 					},
 					"2" : {
-						"event" : "Receive",
+						"event" : "Acquisition",
 						"media" : "get_1",
 						"chinese" : "学习是件很有趣的事情，掌握新知识的惊喜，解决难题后的成就感…尝试过后你就知道了。所以指挥官，一起来学习吧？",
 						"chineseTL" : "",
@@ -644,7 +644,7 @@
 						"englishNote" : ""
 					},
 					"3" : {
-						"event" : "Log in",
+						"event" : "Login",
 						"media" : "login_1",
 						"chinese" : "指挥官，昨天的问题解答出来了吗？",
 						"chineseTL" : "",
@@ -656,7 +656,7 @@
 						"englishNote" : ""
 					},
 					"4" : {
-						"event" : "Main screen 1",
+						"event" : "Main 1",
 						"media" : "main_1_1",
 						"chinese" : "浦风，矶风，谷风都坐好了吗，那么我们来复习一下之前学过的重要公式……",
 						"chineseTL" : "",
@@ -668,7 +668,7 @@
 						"englishNote" : ""
 					},
 					"5" : {
-						"event" : "Main screen 2",
+						"event" : "Main 2",
 						"media" : "main_2_1",
 						"chinese" : "提升自己才能更好地保护大家，所以要好好学习才行",
 						"chineseTL" : "",
@@ -680,7 +680,7 @@
 						"englishNote" : ""
 					},
 					"6" : {
-						"event" : "Main screen 3",
+						"event" : "Main 3",
 						"media" : "main_3_1",
 						"chinese" : "这里用这个公式，然后这里再这样…哼哼，这点小问题可难不倒我",
 						"chineseTL" : "",
@@ -692,7 +692,7 @@
 						"englishNote" : ""
 					},
 					"7" : {
-						"event" : "Normal touch",
+						"event" : "Touch",
 						"media" : "touch_1_1",
 						"chinese" : "指挥官，真理是不会存在于女孩子的裙子底下的",
 						"chineseTL" : "",
@@ -704,7 +704,7 @@
 						"englishNote" : ""
 					},
 					"8" : {
-						"event" : "Special touch",
+						"event" : "Touch (Special)",
 						"media" : "touch_2_1",
 						"chinese" : "指挥官，念书的时候能专心一点吗",
 						"chineseTL" : "",
@@ -716,7 +716,7 @@
 						"englishNote" : ""
 					},
 					"9" : {
-						"event" : "Flagship fight",
+						"event" : "Flagship",
 						"media" : "warcry_1",
 						"chinese" : "嗯嗯……这个距离，这个战斗力，能赢",
 						"chineseTL" : "",
@@ -759,7 +759,7 @@
 						"englishNote" : ""
 					},
 					"2" : {
-						"event" : "Receive",
+						"event" : "Acquisition",
 						"media" : "get_9",
 						"chinese" : "指挥官，我的到来有使你感到开心吗？——是吗…太好了！嘿嘿…滨风，干劲满满！",
 						"chineseTL" : "",
@@ -771,7 +771,7 @@
 						"englishNote" : ""
 					},
 					"3" : {
-						"event" : "Main screen 1",
+						"event" : "Main 1",
 						"media" : "main_1_9",
 						"chinese" : "谷风，不要再戳我的脸啦……等等！那个地方也不行！",
 						"chineseTL" : "",
@@ -783,7 +783,7 @@
 						"englishNote" : ""
 					},
 					"4" : {
-						"event" : "Main screen 2",
+						"event" : "Main 2",
 						"media" : "main_2_9",
 						"chinese" : "同伴们的笑容是我最喜欢的东西，所以……",
 						"chineseTL" : "",
@@ -795,7 +795,7 @@
 						"englishNote" : ""
 					},
 					"5" : {
-						"event" : "Main screen 3",
+						"event" : "Main 3",
 						"media" : "main_3_9",
 						"chinese" : "一切还没有结束！坊之岬……这一次我们一定会跨越——",
 						"chineseTL" : "",
@@ -807,7 +807,7 @@
 						"englishNote" : ""
 					},
 					"6" : {
-						"event" : "Normal touch",
+						"event" : "Touch",
 						"media" : "touch_1_9",
 						"chinese" : "指挥官，听说这样能看得更远更清楚——",
 						"chineseTL" : "",
@@ -819,7 +819,7 @@
 						"englishNote" : ""
 					},
 					"7" : {
-						"event" : "Special touch",
+						"event" : "Touch (Special)",
 						"media" : "touch_2_9",
 						"chinese" : "呀——指挥官，这样做是不行的！",
 						"chineseTL" : "",

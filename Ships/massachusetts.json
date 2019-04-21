@@ -86,7 +86,7 @@
 			"rarity" : "",
 			"name" : ""
 		},
-		"1" : {
+		"3" : {
 			"icon" : "16400",
 			"rarity" : "Rare",
 			"name" : "Quadruple 40mm Bofors Gun"
@@ -204,13 +204,13 @@
 			"preload": "0/0/0/0"
 		},
 		"4": {
-			"type": "Auxilary",
+			"type": "Auxiliary",
 			"efficiency": "-",
 			"amount": "-",
 			"preload": "-"
 		},
 		"5": {
-			"type": "Auxilary",
+			"type": "Auxiliary",
 			"efficiency": "-",
 			"amount": "-",
 			"preload": "-"
@@ -289,7 +289,7 @@
 						"englishNote" : ""
 					},
 					"3" : {
-						"event" : "Receive",
+						"event" : "Acquisition",
 						"media" : "get",
 						"chinese" : "嗯？喔……轮到我了吗。我是马萨诸塞，随处可见非常普通的南达科他级战列舰……唔、那个，总之友好相处吧？",
 						"chineseTL" : "",
@@ -301,7 +301,7 @@
 						"englishNote" : ""
 					},
 					"4" : {
-						"event" : "Log in",
+						"event" : "Login",
 						"media" : "login",
 						"chinese" : "午饭吃什么好呢……喔，指挥官。是要去散步吗？",
 						"chineseTL" : "",
@@ -313,7 +313,7 @@
 						"englishNote" : ""
 					},
 					"5" : {
-						"event" : "View details",
+						"event" : "Details",
 						"media" : "detail",
 						"chinese" : "看完了的话，记得叫我一声。",
 						"chineseTL" : "",
@@ -325,7 +325,7 @@
 						"englishNote" : ""
 					},
 					"6" : {
-						"event" : "Main screen 1",
+						"event" : "Main 1",
 						"media" : "main_1",
 						"chinese" : "……其实我还挺中意自己的发色的。不觉得、有一点像白头海雕吗？",
 						"chineseTL" : "",
@@ -337,7 +337,7 @@
 						"englishNote" : ""
 					},
 					"7" : {
-						"event" : "Main screen 2",
+						"event" : "Main 2",
 						"media" : "main_2",
 						"chinese" : "这身衣服…很奇怪吗？可是航行的时候，海风直接拍在皮肤上…会很舒服的哦",
 						"chineseTL" : "",
@@ -349,7 +349,7 @@
 						"englishNote" : ""
 					},
 					"8" : {
-						"event" : "Main screen 3",
+						"event" : "Main 3",
 						"media" : "main_3",
 						"chinese" : "印象深刻的对手？唔……在卡萨布兰卡的时候，对面有艘只装了一门主炮的战舰，在我手底下撑了很久呢……想在她状态万全的情况下，再打一次试试啊。",
 						"chineseTL" : "",
@@ -361,7 +361,7 @@
 						"englishNote" : ""
 					},
 					"9" : {
-						"event" : "Normal touch",
+						"event" : "Touch",
 						"media" : "touch_1",
 						"chinese" : "指挥官也想撒娇？……对我？",
 						"chineseTL" : "",
@@ -373,7 +373,7 @@
 						"englishNote" : ""
 					},
 					"10" : {
-						"event" : "Special touch",
+						"event" : "Touch (Special)",
 						"media" : "touch_2",
 						"chinese" : "……多活动身体的话，奇怪的想法也会变少哦。",
 						"chineseTL" : "",
@@ -385,7 +385,7 @@
 						"englishNote" : ""
 					},
 					"11" : {
-						"event" : "Mission reminder",
+						"event" : "Mission",
 						"media" : "task",
 						"chinese" : "任务、还有这么多啊……",
 						"chineseTL" : "",
@@ -397,7 +397,7 @@
 						"englishNote" : ""
 					},
 					"12" : {
-						"event" : "Mission complete",
+						"event" : "Mission Complete",
 						"media" : "mission_complete",
 						"chinese" : "啊，报酬送来了……晚上可以去吃顿肉了吧？",
 						"chineseTL" : "",
@@ -409,7 +409,7 @@
 						"englishNote" : ""
 					},
 					"13" : {
-						"event" : "Mail reminder",
+						"event" : "Mail",
 						"media" : "mail",
 						"chinese" : "信，放这里了。记得要看。",
 						"chineseTL" : "",
@@ -421,7 +421,7 @@
 						"englishNote" : ""
 					},
 					"14" : {
-						"event" : "Return to port",
+						"event" : "Return to Port",
 						"media" : "home",
 						"chinese" : "回来了吗……没有受伤吧？如果被人欺负了的话，要和我说哦。",
 						"chineseTL" : "",
@@ -433,7 +433,7 @@
 						"englishNote" : ""
 					},
 					"15" : {
-						"event" : "Commission complete",
+						"event" : "Commission Complete",
 						"media" : "expedition",
 						"chinese" : "……喔，她们带回来不少东西呢。我去帮忙搬一下。",
 						"chineseTL" : "",
@@ -445,7 +445,7 @@
 						"englishNote" : ""
 					},
 					"16" : {
-						"event" : "Enhancing complete",
+						"event" : "Enhancement",
 						"media" : "upgrade",
 						"chinese" : "好像、有点不一样了呢……",
 						"chineseTL" : "",
@@ -457,7 +457,7 @@
 						"englishNote" : ""
 					},
 					"17" : {
-						"event" : "Flagship fight",
+						"event" : "Flagship",
 						"media" : "warcry",
 						"chinese" : "你们、挺结实的吧？被揍的话不会哭吧？",
 						"chineseTL" : "",
@@ -493,7 +493,7 @@
 						"englishNote" : ""
 					},
 					"20" : {
-						"event" : "Skills",
+						"event" : "Skill",
 						"media" : "skill",
 						"chinese" : "水平装甲、厚度足够吗？",
 						"chineseTL" : "",
@@ -517,7 +517,7 @@
 						"englishNote" : ""
 					},
 					"22" : {
-						"event" : "Upset",
+						"event" : "Affinity (Upset)",
 						"media" : "feeling1",
 						"chinese" : "指挥官的身体，有点弱呢。有好好吃饭吗？",
 						"chineseTL" : "",
@@ -529,7 +529,7 @@
 						"englishNote" : ""
 					},
 					"23" : {
-						"event" : "Stranger",
+						"event" : "Affinity (Stranger)",
 						"media" : "feeling2",
 						"chinese" : "怎样才能变强？唔，多做几个俯卧撑就行了吧……不行吗？",
 						"chineseTL" : "",
@@ -541,7 +541,7 @@
 						"englishNote" : ""
 					},
 					"24" : {
-						"event" : "Friendly",
+						"event" : "Affinity (Friendly)",
 						"media" : "feeling3",
 						"chinese" : "总是在挑战自己做不到的事情的指挥官……很有趣呢。害得我也有点、想试试自己的极限在哪里了。",
 						"chineseTL" : "",
@@ -553,7 +553,7 @@
 						"englishNote" : ""
 					},
 					"25" : {
-						"event" : "Crush",
+						"event" : "Affinity (Like)",
 						"media" : "feeling4",
 						"chinese" : "指挥官拼命努力的样子、虽然还挺帅的……但要是太勉强自己的话，就算硬拖，我也会把你一起拖去偷懒喔？",
 						"chineseTL" : "",
@@ -565,7 +565,7 @@
 						"englishNote" : ""
 					},
 					"26" : {
-						"event" : "Love",
+						"event" : "Affinity (Love)",
 						"media" : "feeling5",
 						"chinese" : "我并没有什么、属于自己的愿望，但我拥有能够实现愿望的力量。指挥官，有什么想要我帮你实现的愿望吗？",
 						"chineseTL" : "",
@@ -577,7 +577,7 @@
 						"englishNote" : ""
 					},
 					"27" : {
-						"event" : "Promise",
+						"event" : "Pledge",
 						"media" : "propose",
 						"chinese" : "嗯，好啊……指挥官想说的话，想做的事情，其实我大概都知道喔。因为……我也最喜欢指挥官了。",
 						"chineseTL" : "",
@@ -589,7 +589,7 @@
 						"englishNote" : ""
 					},
 					"28" : {
-						"event" : "Easter Egg 1(Jean Bart)",
+						"event" : "Easter Egg 1 (Jean Bart)",
 						"media" : "link1",
 						"chinese" : "这次你的状态……很好嘛。那就好。",
 						"chineseTL" : "",
@@ -601,7 +601,7 @@
 						"englishNote" : ""
 					},
 					"29" : {
-						"event" : "Easter Egg 2(South Dakota)",
+						"event" : "Easter Egg 2 (South Dakota)",
 						"media" : "link2",
 						"chinese" : "大姐头的防御力，真羡慕啊……",
 						"chineseTL" : "",

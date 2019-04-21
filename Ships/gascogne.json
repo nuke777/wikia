@@ -248,14 +248,14 @@
 
 		},
 		"4": {
-			"type": "Auxilary",
+			"type": "Auxiliary",
 			"efficiency": "-",
 			"amount": "-",
 			"preload": "-"
 
 		},
 		"5": {
-			"type": "Auxilary",
+			"type": "Auxiliary",
 			"efficiency": "-",
 			"amount": "-",
 			"preload": "-"
@@ -335,7 +335,7 @@
 						"englishNote": ""
 					},
 					"3": {
-						"event": "Receive",
+						"event": "Acquisition",
 						"media": "get",
 						"chinese": "加斯科涅，唤醒完成。确认指令：将自由与胜利带给主人——您就是主人吗？加斯科涅，为您服务",
 						"chineseTL": "Gascogne, awakening complete. Command acknowledged: Bring freedom and victory to Maître- Are you Maître? Gascogne, at your service.",
@@ -347,7 +347,7 @@
 						"englishNote": ""
 					},
 					"4": {
-						"event": "Log in",
+						"event": "Login",
 						"media": "login",
 						"chinese": "身份确认——欢迎回来，主人",
 						"chineseTL": "Identity confirmed- Welcome back, Maître.",
@@ -359,7 +359,7 @@
 						"englishNote": ""
 					},
 					"5": {
-						"event": "View details",
+						"event": "Details",
 						"media": "detail",
 						"chinese": "装备检查…状态良好，加斯科涅，随时待命",
 						"chineseTL": "Equipment inspection... in good condition. Gascogne, standby.",
@@ -371,7 +371,7 @@
 						"englishNote": ""
 					},
 					"6": {
-						"event": "Main screen 1",
+						"event": "Main 1",
 						"media": "main_1",
 						"chinese": "“勾起嘴角”…无法对该行为分析出战术上的意义",
 						"chineseTL": "\"Quirk up a smile\"...? Unable to analyze the combat purpose behind this action.",
@@ -383,7 +383,7 @@
 						"englishNote": ""
 					},
 					"7": {
-						"event": "Main screen 2",
+						"event": "Main 2",
 						"media": "main_2",
 						"chinese": "判定——主人的状态属于“偷懒”。对工作会产生影响",
 						"chineseTL": "Conclusion. Maître's current actions, a behavior called \"slacking off\". This behavior negatively influences work.",
@@ -395,7 +395,7 @@
 						"englishNote": ""
 					},
 					"8": {
-						"event": "Main screen 3",
+						"event": "Main 3",
 						"media": "main_3",
 						"chinese": "“自由行动”…无法对该命令分析出战术上的意义",
 						"chineseTL": "\"Operate freely\"?... Unable to analyze the combat purpose behind this command.",
@@ -407,7 +407,7 @@
 						"englishNote": ""
 					},
 					"9": {
-						"event": "Main screen 4",
+						"event": "Main 4",
 						"media": "main_4",
 						"chinese": "关于现在舰队的成员，与加斯科涅记录中的信息，以及表情判断记录中的“笑容”的出现频度存在误差",
 						"chineseTL": "In regards to the recorded expression logs of the fleet members and those of Gascogne, there appears to be a difference in the frequency of \"smiling\".",
@@ -443,7 +443,7 @@
 						"englishNote": ""
 					},
 					"12": {
-						"event": "Mission reminder",
+						"event": "Mission",
 						"media": "task",
 						"chinese": "提示，任务未完成——",
 						"chineseTL": "Notice. Missions not yet completed-",
@@ -479,7 +479,7 @@
 						"englishNote": ""
 					},
 					"15": {
-						"event": "Return to port",
+						"event": "Return to Port",
 						"media": "home",
 						"chinese": "雅马邑白兰地，请用",
 						"chineseTL": "Armagnac, please use.",
@@ -503,7 +503,7 @@
 						"englishNote": ""
 					},
 					"17": {
-						"event": "Enhancing complete",
+						"event": "Enhancement",
 						"media": "upgrade",
 						"chinese": "能力提升…完成",
 						"chineseTL": "Enhancement... complete.",
@@ -515,7 +515,7 @@
 						"englishNote": ""
 					},
 					"18": {
-						"event": "Flagship fight",
+						"event": "Flagship",
 						"media": "warcry",
 						"chinese": "目标发现——歼灭开始",
 						"chineseTL": "Targets acquired- Commence destruction.",
@@ -551,7 +551,7 @@
 						"englishNote": ""
 					},
 					"21": {
-						"event": "Skills",
+						"event": "skill",
 						"media": "skill",
 						"chinese": "就绪，火力全开！",
 						"chineseTL": "Ready, full power!",
@@ -575,7 +575,7 @@
 						"englishNote": ""
 					},
 					"23": {
-						"event": "Upset",
+						"event": "Affinity (Upset)",
 						"media": "feeling1",
 						"chinese": "加斯科涅是舰船、兵器，除此以外不存在任何定义",
 						"chineseTL": "Gascogne is a warship, a weapon, there is no other purpose.",
@@ -587,7 +587,7 @@
 						"englishNote": ""
 					},
 					"24": {
-						"event": "Stranger",
+						"event": "Affinity (Stranger)",
 						"media": "feeling2",
 						"chinese": "其他同僚经常会让加斯科涅加入她们于作战任务无益的活动，请主人判断是否需要参加",
 						"chineseTL": "Other colleagues would often invite Gascogne to activities not related to combat missions, requesting Maître to judge whether partipation is required.",
@@ -599,7 +599,7 @@
 						"englishNote": ""
 					},
 					"25": {
-						"event": "Friendly",
+						"event": "Affinity (Friendly)",
 						"media": "feeling3",
 						"chinese": "与她人接触过程中，加斯科涅产生了未知的反应，“感情“和”冲动“。请指示对应的行动",
 						"chineseTL": "When interacting with others, Gascogne produces unknown reactions, \"Emotion\" and \"Impulse\". Please indicate the appropriate response.",
@@ -611,7 +611,7 @@
 						"englishNote": ""
 					},
 					"26": {
-						"event": "Crush",
+						"event": "Affinity (Like)",
 						"media": "feeling4",
 						"chinese": "与主人、与其他同僚接触过程中产生的反应，是“安心”与“喜悦”，这样的“感情”，对主人来说…确实存在战术上的意义",
 						"chineseTL": "The reactions produced when interacting with Maître and other colleagues, are \"Relief\" and \"Happiness\". For Maître, such \"Emotions\"... do indeed hold tactical meaning.",
@@ -623,7 +623,7 @@
 						"englishNote": ""
 					},
 					"27": {
-						"event": "Love",
+						"event": "Affinity (Love)",
 						"media": "feeling5",
 						"chinese": "加斯科涅在舰队生活中学到了许多“情感”，有了许多原本没有的“烦恼”，但也理解了“乐趣”。如果主人希望，加斯科涅现在可以开放自己“感情”对应的功能。主人，“谢谢你”",
 						"chineseTL": "Gascogne has learned many \"Emotions\" during life in the fleet, evoking a lot of \"Worries\" that were not there before, but also understood what is \"Joy\". If Maître desires, Gascogne can now release the functions module corresponding to \"Feelings\". Maître, \"Thanks.\"",
@@ -635,7 +635,7 @@
 						"englishNote": ""
 					},
 					"28": {
-						"event": "Promise",
+						"event": "Pledge",
 						"media": "propose",
 						"chinese": "现在的加斯科涅已经能够理解了，“爱”，那是不求回报的付出，又是期望回报的渴望，是热情，是心跳，是光——谢谢您，主人，这枚戒指会是加斯科涅最珍贵的宝物",
 						"chineseTL": "Gascogne is now able to understand. \"Love\", is a devotion without expectation of returns, yet also the expectation of desire, passion, heartbeat, light- Thank you, Maître, this ring will be Gascogne's most precious treasure.",
@@ -702,7 +702,7 @@
 				"label": "Gascogne",
 				"dialogue": {
 					"1": {
-						"event": "Log in",
+						"event": "Login",
 						"media": "login_ex100",
 						"chinese": "身份确认——欢迎回来，主人",
 						"chineseTL": "Identity confirmed- Welcome back, Maître.",
@@ -714,7 +714,7 @@
 						"englishNote": ""
 					},
 					"2": {
-						"event": "View details",
+						"event": "Details",
 						"media": "detail_ex100",
 						"chinese": "装备检查…状态良好，加斯科涅，随时待命",
 						"chineseTL": "Equipment inspection... in good condition. Gascogne, standby.",
@@ -726,7 +726,7 @@
 						"englishNote": ""
 					},
 					"3": {
-						"event": "Main screen 1",
+						"event": "Main 1",
 						"media": "main_1_ex100",
 						"chinese": "“勾起嘴角”…了解。是这样吗…？不大明白…",
 						"chineseTL": "\"Quirk up a smile\"... Understood. Like this...? I don't quite get it...",
@@ -738,7 +738,7 @@
 						"englishNote": ""
 					},
 					"4": {
-						"event": "Main screen 2",
+						"event": "Main 2",
 						"media": "main_2_ex100",
 						"chinese": "判定——主人的状态属于“偷懒”……不大好呢…",
 						"chineseTL": "Conclusion. Maître's current actions belong to a behavior called \"slacking off\"... That's not good...",
@@ -750,7 +750,7 @@
 						"englishNote": ""
 					},
 					"5": {
-						"event": "Main screen 3",
+						"event": "Main 3",
 						"media": "main_3_ex100",
 						"chinese": "“自由行动”…主人，加斯科涅应该做什么…？",
 						"chineseTL": "\"Operate freely\"?... Maître, what should Gascogne do...?",
@@ -762,7 +762,7 @@
 						"englishNote": ""
 					},
 					"6": {
-						"event": "Main screen 4",
+						"event": "Main 4",
 						"media": "main_4_ex100",
 						"chinese": "关于现在舰队的成员，与加斯科涅记录中的信息，以及表情判断记录中的“笑容”的出现频度存在误差。为什么大家都在笑？",
 						"chineseTL": "In regards to the recorded expression logs of the fleet members and those of Gascogne, there appears to be a difference in the frequency of \"smiling\". Why is everyone always smiling?",
@@ -798,7 +798,7 @@
 						"englishNote": ""
 					},
 					"9": {
-						"event": "Mission reminder",
+						"event": "Mission",
 						"media": "task_ex100",
 						"chinese": "提示，任务未完成——主人？",
 						"chineseTL": "Notice. Missions are not yet completed- Maître?",
@@ -834,7 +834,7 @@
 						"englishNote": ""
 					},
 					"12": {
-						"event": "Return to port",
+						"event": "Return to Port",
 						"media": "home_ex100",
 						"chinese": "雅马邑白兰地，请慢慢享用",
 						"chineseTL": "Armagnac, please enjoy.",
@@ -858,7 +858,7 @@
 						"englishNote": ""
 					},
 					"14": {
-						"event": "Enhancing complete",
+						"event": "Enhancement",
 						"media": "upgrade_ex100",
 						"chinese": "能力提升完成。……嗯！",
 						"chineseTL": "Enhancement complete... Yes!",
@@ -870,7 +870,7 @@
 						"englishNote": ""
 					},
 					"15": {
-						"event": "Love",
+						"event": "Affinity (Love)",
 						"media": "feeling5_ex100",
 						"chinese": "加斯科涅在舰队生活中学到了许多“情感”，有了许多原本没有的“烦恼”，但也理解了“乐趣”。您对加斯科涅的期望，加斯科涅现在明白了，发自内心地感谢您，主人",
 						"chineseTL": "Gascogne has learned many \"Emotions\" during life in the fleet. There are lots of \"Worries\" that were not there before, but also understood what is \"Joy\". The hopes you placed in Gascogne, Gascogne now understands. Thank you from the bottom of my heart, Maître.",

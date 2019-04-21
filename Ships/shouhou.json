@@ -101,7 +101,7 @@
 			"rarity" : "Common",
 			"name" : "Aichi D3A Type 99"
 		},
-		"1" : {
+		"2" : {
 			"icon" : "38000",
 			"rarity" : "",
 			"name" : "Nakajima B5N"
@@ -224,13 +224,13 @@
 			"preload": "0/0/0/0"
 		},
 		"4": {
-			"type": "Auxilary",
+			"type": "Auxiliary",
 			"efficiency": "-",
 			"amount": "-",
 			"preload": "-"
 		},
 		"5": {
-			"type": "Auxilary",
+			"type": "Auxiliary",
 			"efficiency": "-",
 			"amount": "-",
 			"preload": "-"
@@ -309,7 +309,7 @@
 						"englishNote" : ""
 					},
 					"3" : {
-						"event" : "Receive",
+						"event" : "Acquisition",
 						"media" : "get",
 						"chinese" : "指挥官大人，吾是祥凤！小女子不才，搭载量和火力都不如正规空母，但吾也有许多正规空母做不到的事情呢~请多指教……",
 						"chineseTL" : "",
@@ -321,7 +321,7 @@
 						"englishNote" : ""
 					},
 					"4" : {
-						"event" : "Log in",
+						"event" : "Login",
 						"media" : "login",
 						"chinese" : "吾会守护指挥官的，这是吾毕生的职责！",
 						"chineseTL" : "",
@@ -333,7 +333,7 @@
 						"englishNote" : ""
 					},
 					"5" : {
-						"event" : "View details",
+						"event" : "Details",
 						"media" : "detail",
 						"chinese" : "吾常被大家说以后肯定能成为大美女呢~",
 						"chineseTL" : "",
@@ -345,7 +345,7 @@
 						"englishNote" : ""
 					},
 					"6" : {
-						"event" : "Main screen 1",
+						"event" : "Main 1",
 						"media" : "main_1",
 						"chinese" : "呀，指挥官，今天也是干劲十足的一天呢，吾已经准备好把那些蠢货痛扁一顿了～",
 						"chineseTL" : "",
@@ -357,7 +357,7 @@
 						"englishNote" : ""
 					},
 					"7" : {
-						"event" : "Main screen 2",
+						"event" : "Main 2",
 						"media" : "main_2",
 						"chinese" : "我、吾平时都很受姐姐们的照顾……说实话真想快点成为能独当一面的人啊",
 						"chineseTL" : "",
@@ -369,7 +369,7 @@
 						"englishNote" : ""
 					},
 					"8" : {
-						"event" : "Main screen 3",
+						"event" : "Main 3",
 						"media" : "main_3",
 						"chinese" : "指挥官，今天天气这么好不要闷不做声啦！来，一~起~玩~嘛~",
 						"chineseTL" : "",
@@ -381,7 +381,7 @@
 						"englishNote" : ""
 					},
 					"9" : {
-						"event" : "Normal touch",
+						"event" : "Touch",
 						"media" : "touch_1",
 						"chinese" : "虽然吾不在乎，但是最好别对其他人也这样！",
 						"chineseTL" : "",
@@ -393,7 +393,7 @@
 						"englishNote" : ""
 					},
 					"10" : {
-						"event" : "Special touch",
+						"event" : "Touch (Special)",
 						"media" : "touch_2",
 						"chinese" : "嗯……这种事，还是等晚上再继续会好点……",
 						"chineseTL" : "",
@@ -405,7 +405,7 @@
 						"englishNote" : ""
 					},
 					"11" : {
-						"event" : "Mission reminder",
+						"event" : "Mission",
 						"media" : "task",
 						"chinese" : "新任务下达了！",
 						"chineseTL" : "",
@@ -417,7 +417,7 @@
 						"englishNote" : ""
 					},
 					"12" : {
-						"event" : "Mission complete",
+						"event" : "Mission Complete",
 						"media" : "mission_complete",
 						"chinese" : "吾把任务发放的奖励拿来啦~",
 						"chineseTL" : "",
@@ -429,7 +429,7 @@
 						"englishNote" : ""
 					},
 					"13" : {
-						"event" : "Mail reminder",
+						"event" : "Mail",
 						"media" : "mail",
 						"chinese" : "指挥官，信~在你的头上~",
 						"chineseTL" : "",
@@ -441,7 +441,7 @@
 						"englishNote" : ""
 					},
 					"14" : {
-						"event" : "Return to port",
+						"event" : "Return to Port",
 						"media" : "home",
 						"chinese" : "要休息吗，吾来给你捶捶背吧",
 						"chineseTL" : "",
@@ -453,7 +453,7 @@
 						"englishNote" : ""
 					},
 					"15" : {
-						"event" : "Commission complete",
+						"event" : "Commission Complete",
 						"media" : "expedition",
 						"chinese" : "有委托完成~吾看姐姐们做秘书时都是陪指挥官一起去的，那吾也一起去~",
 						"chineseTL" : "",
@@ -465,7 +465,7 @@
 						"englishNote" : ""
 					},
 					"16" : {
-						"event" : "Enhancing complete",
+						"event" : "Enhancement",
 						"media" : "upgrade",
 						"chinese" : "吾也更向大人迈进了一步呢~",
 						"chineseTL" : "",
@@ -477,7 +477,7 @@
 						"englishNote" : ""
 					},
 					"17" : {
-						"event" : "Flagship fight",
+						"event" : "Flagship",
 						"media" : "warcry",
 						"chinese" : "姐妹们冲啊，让他们看看谁才是主角！",
 						"chineseTL" : "",
@@ -513,7 +513,7 @@
 						"englishNote" : ""
 					},
 					"20" : {
-						"event" : "Skills",
+						"event" : "Skill",
 						"media" : "skill",
 						"chinese" : "是吾活跃的时间了呐",
 						"chineseTL" : "",
@@ -525,7 +525,7 @@
 						"englishNote" : ""
 					},
 					"21" : {
-						"event" : "Upset",
+						"event" : "Affinity (Upset)",
 						"media" : "feeling1",
 						"chinese" : "指挥官也把吾当小孩子……吾好伤心",
 						"chineseTL" : "",
@@ -537,7 +537,7 @@
 						"englishNote" : ""
 					},
 					"22" : {
-						"event" : "Stranger",
+						"event" : "Affinity (Stranger)",
 						"media" : "feeling2",
 						"chinese" : "吾的孩子们都是式神，虽然收起来很方便不过保养起来可麻烦了，指挥官，正好，来帮吾整备吧！",
 						"chineseTL" : "",
@@ -549,7 +549,7 @@
 						"englishNote" : ""
 					},
 					"23" : {
-						"event" : "Friendly",
+						"event" : "Affinity (Friendly)",
 						"media" : "feeling3",
 						"chinese" : "吾对珊瑚海倒是没什么怨念，书上说大人就是要接受自己的失败，吾也就觉得不是什么大事了——欸，很了不起吗？",
 						"chineseTL" : "",
@@ -561,7 +561,7 @@
 						"englishNote" : ""
 					},
 					"24" : {
-						"event" : "Crush",
+						"event" : "Affinity (Like)",
 						"media" : "feeling4",
 						"chinese" : "指挥官，吾要怎么样才能成为快点成为成熟的大人呢——保持现在这样就好了？是吗，吾总觉得自己反而越来越依赖指挥官和姐妹们了呢……",
 						"chineseTL" : "",
@@ -573,7 +573,7 @@
 						"englishNote" : ""
 					},
 					"25" : {
-						"event" : "Love",
+						"event" : "Affinity (Love)",
 						"media" : "feeling5",
 						"chinese" : "嗯，吾明白了，依赖其他人也不是坏事呢，吾不会再着急长大了~不过这样的话，吾……可以多依赖指挥官一些吗……",
 						"chineseTL" : "",
@@ -585,7 +585,7 @@
 						"englishNote" : ""
 					},
 					"26" : {
-						"event" : "Promise",
+						"event" : "Pledge",
 						"media" : "propose",
 						"chinese" : "欸……指挥官真的不是给错人了吗？给还不够成熟的吾辈…………是吗，吾辈也得到指挥官的认同了呢，从今往后吾辈会更加努力的，也请指挥官多多指教啦~",
 						"chineseTL" : "",
@@ -616,7 +616,7 @@
 						"englishNote" : ""
 					},
 					"2" : {
-						"event" : "Receive",
+						"event" : "Acquisition",
 						"media" : "get_1",
 						"chinese" : "哇啊啊啊！糖、糖果洒出来了——！！为、为什么都在追吾啊！指挥官，帮吾拦下南瓜啊啊啊——",
 						"chineseTL" : "",
@@ -628,7 +628,7 @@
 						"englishNote" : ""
 					},
 					"3" : {
-						"event" : "Main screen 1",
+						"event" : "Main 1",
 						"media" : "main_1_1",
 						"chinese" : "Trick or treat！",
 						"chineseTL" : "",
@@ -640,7 +640,7 @@
 						"englishNote" : ""
 					},
 					"4" : {
-						"event" : "Main screen 2",
+						"event" : "Main 2",
 						"media" : "main_2_1",
 						"chinese" : "嘿嘿，吾果然是个美人胚子~ ",
 						"chineseTL" : "",
@@ -652,7 +652,7 @@
 						"englishNote" : ""
 					},
 					"5" : {
-						"event" : "Main screen 3",
+						"event" : "Main 3",
 						"media" : "main_3_1",
 						"chinese" : "这些发狂的南瓜——到底是谁的恶作剧啊啊啊——！！",
 						"chineseTL" : "",
@@ -664,7 +664,7 @@
 						"englishNote" : ""
 					},
 					"6" : {
-						"event" : "Normal touch",
+						"event" : "Touch",
 						"media" : "touch_1_1",
 						"chinese" : "指挥官，是万圣节、万圣节哟！",
 						"chineseTL" : "",
@@ -676,7 +676,7 @@
 						"englishNote" : ""
 					},
 					"7" : {
-						"event" : "Special touch",
+						"event" : "Touch (Special)",
 						"media" : "touch_2_1",
 						"chinese" : "指挥官，不要呀啊啊啊！！那些南瓜，会疯狂追逐碰到自己的人——啊啊啊！！",
 						"chineseTL" : "",
@@ -688,7 +688,7 @@
 						"englishNote" : ""
 					},
 					"8" : {
-						"event" : "Flagship fight",
+						"event" : "Flagship",
 						"media" : "warcry_1",
 						"chinese" : "南瓜舰队，出击！",
 						"chineseTL" : "",
@@ -719,7 +719,7 @@
 						"englishNote" : ""
 					},
 					"2" : {
-						"event" : "Receive",
+						"event" : "Acquisition",
 						"media" : "get_9",
 						"chinese" : "指挥官大人，这便是吾成长后的姿态！嘻嘻，心动了吗？呐、呐，肯定心动了吧~",
 						"chineseTL" : "",
@@ -731,7 +731,7 @@
 						"englishNote" : ""
 					},
 					"3" : {
-						"event" : "View details",
+						"event" : "Details",
 						"media" : "detail_9",
 						"chinese" : "不要露出那种眼神……吾以后肯定还会继续成长的……一定……",
 						"chineseTL" : "",
@@ -743,7 +743,7 @@
 						"englishNote" : ""
 					},
 					"4" : {
-						"event" : "Main screen 1",
+						"event" : "Main 1",
 						"media" : "main_1_9",
 						"chinese" : "指挥官，给吾一个证明自己实力的机会吧！",
 						"chineseTL" : "",
@@ -755,7 +755,7 @@
 						"englishNote" : ""
 					},
 					"5" : {
-						"event" : "Main screen 2",
+						"event" : "Main 2",
 						"media" : "main_2_9",
 						"chinese" : "明明吾已经是大人了，为什么大家还把吾当成妹妹啊！",
 						"chineseTL" : "",
@@ -767,7 +767,7 @@
 						"englishNote" : ""
 					},
 					"6" : {
-						"event" : "Main screen 3",
+						"event" : "Main 3",
 						"media" : "main_3_9",
 						"chinese" : "大、大人也是需要游戏的！所以，指挥官，一~起~玩~嘛~",
 						"chineseTL" : "",
@@ -779,7 +779,7 @@
 						"englishNote" : ""
 					},
 					"7" : {
-						"event" : "Normal touch",
+						"event" : "Touch",
 						"media" : "touch_1_9",
 						"chinese" : "指挥官，你也喜欢那些式神吗？摸一摸没关系的喔",
 						"chineseTL" : "",
@@ -791,7 +791,7 @@
 						"englishNote" : ""
 					},
 					"8" : {
-						"event" : "Special touch",
+						"event" : "Touch (Special)",
 						"media" : "touch_2_9",
 						"chinese" : "吾多多少少也是有所成长的！指挥官，有感受到吧！？",
 						"chineseTL" : "",
