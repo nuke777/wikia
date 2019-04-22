@@ -103,7 +103,7 @@
 			"rarity" : "Common",
 			"name" : "203mm Mounted Gun"
 		},
-		"1" : {
+		"2" : {
 			"icon" : "35100",
 			"rarity" : "Common",
 			"name" : "Triple 610mm Torpedo"
@@ -226,13 +226,13 @@
 			"preload": "0/0/0/0"
 		},
 		"4": {
-			"type": "Auxilary",
+			"type": "Auxiliary",
 			"efficiency": "-",
 			"amount": "-",
 			"preload": "-"
 		},
 		"5": {
-			"type": "Auxilary",
+			"type": "Auxiliary",
 			"efficiency": "-",
 			"amount": "-",
 			"preload": "-"
@@ -311,7 +311,7 @@
 						"englishNote" : ""
 					},
 					"3" : {
-						"event" : "Receive",
+						"event" : "Acquisition",
 						"media" : "get",
 						"chinese" : "足柄，前来报到。指挥官大人，我的利剑将会帮助你斩断所有敌人",
 						"chineseTL" : "",
@@ -323,7 +323,7 @@
 						"englishNote" : ""
 					},
 					"4" : {
-						"event" : "Log in",
+						"event" : "Login",
 						"media" : "login",
 						"chinese" : "指挥官大人……终于又见面了。能耽误您一会儿，做我剑术练习的对手么？",
 						"chineseTL" : "",
@@ -335,7 +335,7 @@
 						"englishNote" : ""
 					},
 					"5" : {
-						"event" : "View details",
+						"event" : "Details",
 						"media" : "detail",
 						"chinese" : "就算多看我几眼，我也不会变强的…比起那个，不如多让我出击几次吧，指挥官",
 						"chineseTL" : "",
@@ -347,7 +347,7 @@
 						"englishNote" : ""
 					},
 					"6" : {
-						"event" : "Main screen 1",
+						"event" : "Main 1",
 						"media" : "main_1",
 						"chinese" : "装备只是实力的一部分，自身的实力才是决定性的因素……这是姐姐教我的。",
 						"chineseTL" : "",
@@ -359,7 +359,7 @@
 						"englishNote" : ""
 					},
 					"7" : {
-						"event" : "Main screen 2",
+						"event" : "Main 2",
 						"media" : "main_2",
 						"chinese" : "让别人一提“重樱”就能想到我？嗯，我也正在为之奋斗。",
 						"chineseTL" : "",
@@ -371,7 +371,7 @@
 						"englishNote" : ""
 					},
 					"8" : {
-						"event" : "Main screen 3",
+						"event" : "Main 3",
 						"media" : "main_3",
 						"chinese" : "指挥官大人……感谢您每天陪我练习，我会不断精进自己的！",
 						"chineseTL" : "",
@@ -383,7 +383,7 @@
 						"englishNote" : ""
 					},
 					"9" : {
-						"event" : "Normal touch",
+						"event" : "Touch",
 						"media" : "touch_1",
 						"chinese" : "这个是妙高姐姐送我的，平常都会录些妙高姐姐说的话，有空的时候就听一下…嗯？这样很奇怪吗？",
 						"chineseTL" : "",
@@ -395,7 +395,7 @@
 						"englishNote" : ""
 					},
 					"10" : {
-						"event" : "Special touch",
+						"event" : "Touch (Special)",
 						"media" : "touch_2",
 						"chinese" : "唔…这、这种时候该怎么反应比较好…我需要问问姐姐…",
 						"chineseTL" : "",
@@ -407,7 +407,7 @@
 						"englishNote" : ""
 					},
 					"11" : {
-						"event" : "Mission reminder",
+						"event" : "Mission",
 						"media" : "task",
 						"chinese" : "任务还有很多……指挥官大人，好多任务我都不太明白，不会给你帮倒忙吧？",
 						"chineseTL" : "",
@@ -419,7 +419,7 @@
 						"englishNote" : ""
 					},
 					"12" : {
-						"event" : "Mission complete",
+						"event" : "Mission Complete",
 						"media" : "mission_complete",
 						"chinese" : "任务完成……指挥官大人还是先去看看奖励吧。",
 						"chineseTL" : "",
@@ -431,7 +431,7 @@
 						"englishNote" : ""
 					},
 					"13" : {
-						"event" : "Mail reminder",
+						"event" : "Mail",
 						"media" : "mail",
 						"chinese" : "邮差已经完成了使命……指挥官大人，快看看吧~",
 						"chineseTL" : "",
@@ -443,7 +443,7 @@
 						"englishNote" : ""
 					},
 					"14" : {
-						"event" : "Return to port",
+						"event" : "Return to Port",
 						"media" : "home",
 						"chinese" : "指挥官大人……虽说可以休息一下了，但请不要松懈太久。",
 						"chineseTL" : "",
@@ -455,7 +455,7 @@
 						"englishNote" : ""
 					},
 					"15" : {
-						"event" : "Commission complete",
+						"event" : "Commission Complete",
 						"media" : "expedition",
 						"chinese" : "指挥官大人，委托组已经回来了",
 						"chineseTL" : "",
@@ -467,7 +467,7 @@
 						"englishNote" : ""
 					},
 					"16" : {
-						"event" : "Enhancing complete",
+						"event" : "Enhancement",
 						"media" : "upgrade",
 						"chinese" : "呼，这下精神多了……",
 						"chineseTL" : "",
@@ -479,7 +479,7 @@
 						"englishNote" : ""
 					},
 					"17" : {
-						"event" : "Flagship fight",
+						"event" : "Flagship",
 						"media" : "warcry",
 						"chinese" : "一起上吧！祝诸位武运昌隆！",
 						"chineseTL" : "",
@@ -515,7 +515,7 @@
 						"englishNote" : ""
 					},
 					"20" : {
-						"event" : "Skills",
+						"event" : "Skill",
 						"media" : "skill",
 						"chinese" : "全部斩断吧！",
 						"chineseTL" : "",
@@ -539,7 +539,7 @@
 						"englishNote" : ""
 					},
 					"22" : {
-						"event" : "Upset",
+						"event" : "Affinity (Upset)",
 						"media" : "feeling1",
 						"chinese" : "指挥官大人，如果不喜欢和我待着的话，可以说出来……",
 						"chineseTL" : "",
@@ -551,7 +551,7 @@
 						"englishNote" : ""
 					},
 					"23" : {
-						"event" : "Stranger",
+						"event" : "Affinity (Stranger)",
 						"media" : "feeling2",
 						"chinese" : "指挥官大人要来参观我的房间？…我先整理一会儿，请稍等片刻。",
 						"chineseTL" : "",
@@ -563,7 +563,7 @@
 						"englishNote" : ""
 					},
 					"24" : {
-						"event" : "Friendly",
+						"event" : "Affinity (Friendly)",
 						"media" : "feeling3",
 						"chinese" : "虽然我手不太灵巧，虽然叠出的纸鹤已经不能算“纸鹤”了……但我还是要给您。总感觉应该这样做……",
 						"chineseTL" : "",
@@ -575,7 +575,7 @@
 						"englishNote" : ""
 					},
 					"25" : {
-						"event" : "Crush",
+						"event" : "Affinity (Like)",
 						"media" : "feeling4",
 						"chinese" : "指挥官大人今天怎么回事，还亲自把漱口的杯子和洗脸的毛巾递到我的床前……哇啊！？原来已经那么晚了？！完全睡过头了…",
 						"chineseTL" : "",
@@ -587,7 +587,7 @@
 						"englishNote" : ""
 					},
 					"26" : {
-						"event" : "Love",
+						"event" : "Affinity (Love)",
 						"media" : "feeling5",
 						"chinese" : "为什么，感觉有些心神不宁……指挥官刚才不在的时候，我、我好像折了100多只纸鹤……很奇怪吧……",
 						"chineseTL" : "",
@@ -599,7 +599,7 @@
 						"englishNote" : ""
 					},
 					"27" : {
-						"event" : "Promise",
+						"event" : "Pledge",
 						"media" : "propose",
 						"chinese" : "指挥官大人，搞这种突然袭击是犯规的…唔，周围好像没别人…那、那就…让我稍微靠一下—嗯，指挥官大人，好暖和…",
 						"chineseTL" : "",
@@ -611,7 +611,7 @@
 						"englishNote" : ""
 					},
 					"28" : {
-						"event" : "Easter Egg 1(Myoukou)",
+						"event" : "Easter Egg 1 (Myoukou)",
 						"media" : "link1",
 						"chinese" : "姐姐，终于到我们联手的时候了！",
 						"chineseTL" : "",

@@ -88,7 +88,7 @@
 			"rarity" : "Common",
 			"name" : "Twin 120mm Main Gun"
 		},
-		"1" : {
+		"2" : {
 			"icon" : "5100",
 			"rarity" : "Common",
 			"name" : "Quadruple 533mm Torpedo"
@@ -211,13 +211,13 @@
 			"preload": "0/0/0/0"
 		},
 		"4": {
-			"type": "Auxilary",
+			"type": "Auxiliary",
 			"efficiency": "-",
 			"amount": "-",
 			"preload": "-"
 		},
 		"5": {
-			"type": "Auxilary",
+			"type": "Auxiliary",
 			"efficiency": "-",
 			"amount": "-",
 			"preload": "-"
@@ -296,7 +296,7 @@
 						"englishNote" : ""
 					},
 					"3" : {
-						"event" : "Receive",
+						"event" : "Acquisition",
 						"media" : "get",
 						"chinese" : "终于见到指挥官了，我是M级驱逐舰无敌号，啊，虽然名字是“无敌”，但我其实很弱小呢。诶嘿☆~指挥官先生，能保护我吗？",
 						"chineseTL" : "",
@@ -308,7 +308,7 @@
 						"englishNote" : ""
 					},
 					"4" : {
-						"event" : "Log in",
+						"event" : "Login",
 						"media" : "login",
 						"chinese" : "指挥官一脸没睡醒的样子呢，唔……诶嘿☆~打起精神了吗？",
 						"chineseTL" : "",
@@ -320,7 +320,7 @@
 						"englishNote" : ""
 					},
 					"5" : {
-						"event" : "View details",
+						"event" : "Details",
 						"media" : "detail",
 						"chinese" : "无论是谁，心底都期望着会有人保护自己吧……所以，你需要保护的，不单单只有我一个哦，指挥官——",
 						"chineseTL" : "",
@@ -332,7 +332,7 @@
 						"englishNote" : ""
 					},
 					"6" : {
-						"event" : "Main screen 1",
+						"event" : "Main 1",
 						"media" : "main_1",
 						"chinese" : "说我好话也没什么好处哦",
 						"chineseTL" : "",
@@ -344,7 +344,7 @@
 						"englishNote" : ""
 					},
 					"7" : {
-						"event" : "Main screen 2",
+						"event" : "Main 2",
 						"media" : "main_2",
 						"chinese" : "呜哇，今天又降温了……指挥官，出航的时候我能借下你的大衣吗？",
 						"chineseTL" : "",
@@ -356,7 +356,7 @@
 						"englishNote" : ""
 					},
 					"8" : {
-						"event" : "Main screen 3",
+						"event" : "Main 3",
 						"media" : "main_3",
 						"chinese" : "好希望永远都是我做秘书舰……哎？怎么了？我刚刚什么话都没说啦~",
 						"chineseTL" : "",
@@ -368,7 +368,7 @@
 						"englishNote" : ""
 					},
 					"9" : {
-						"event" : "Normal touch",
+						"event" : "Touch",
 						"media" : "touch_1",
 						"chinese" : "指挥官，我可以一直待在你的身边吗？",
 						"chineseTL" : "",
@@ -380,7 +380,7 @@
 						"englishNote" : ""
 					},
 					"10" : {
-						"event" : "Special touch",
+						"event" : "Touch (Special)",
 						"media" : "touch_2",
 						"chinese" : "我对指挥官的评价，稍稍降低啰",
 						"chineseTL" : "",
@@ -392,7 +392,7 @@
 						"englishNote" : ""
 					},
 					"11" : {
-						"event" : "Mission reminder",
+						"event" : "Mission",
 						"media" : "task",
 						"chinese" : "虽、虽然有点害怕，但我想待在指挥官的身边……",
 						"chineseTL" : "",
@@ -404,7 +404,7 @@
 						"englishNote" : ""
 					},
 					"12" : {
-						"event" : "Mission complete",
+						"event" : "Mission Complete",
 						"media" : "mission_complete",
 						"chinese" : "指挥官英勇的身姿，很帅气呢~",
 						"chineseTL" : "",
@@ -416,7 +416,7 @@
 						"englishNote" : ""
 					},
 					"13" : {
-						"event" : "Mail reminder",
+						"event" : "Mail",
 						"media" : "mail",
 						"chinese" : "拿邮件这种事我来帮指挥官做吧",
 						"chineseTL" : "",
@@ -428,7 +428,7 @@
 						"englishNote" : ""
 					},
 					"14" : {
-						"event" : "Return to port",
+						"event" : "Return to Port",
 						"media" : "home",
 						"chinese" : "果然还是在指挥官先生身边比较安心……",
 						"chineseTL" : "",
@@ -440,7 +440,7 @@
 						"englishNote" : ""
 					},
 					"15" : {
-						"event" : "Commission complete",
+						"event" : "Commission Complete",
 						"media" : "expedition",
 						"chinese" : "即使是这种没什么危险的运输工作，也希望指挥官能陪我一起去……",
 						"chineseTL" : "",
@@ -452,7 +452,7 @@
 						"englishNote" : ""
 					},
 					"16" : {
-						"event" : "Enhancing complete",
+						"event" : "Enhancement",
 						"media" : "upgrade",
 						"chinese" : "指挥官先生也会变得更强大吗？",
 						"chineseTL" : "",
@@ -464,7 +464,7 @@
 						"englishNote" : ""
 					},
 					"17" : {
-						"event" : "Flagship fight",
+						"event" : "Flagship",
 						"media" : "warcry",
 						"chinese" : "我、我会努力被指挥官保护的！",
 						"chineseTL" : "",
@@ -500,7 +500,7 @@
 						"englishNote" : ""
 					},
 					"20" : {
-						"event" : "Skills",
+						"event" : "Skill",
 						"media" : "skill",
 						"chinese" : "捂好眼睛啰",
 						"chineseTL" : "",
@@ -512,7 +512,7 @@
 						"englishNote" : ""
 					},
 					"21" : {
-						"event" : "Upset",
+						"event" : "Affinity (Upset)",
 						"media" : "feeling1",
 						"chinese" : "保护我……做不到吗……",
 						"chineseTL" : "",
@@ -524,7 +524,7 @@
 						"englishNote" : ""
 					},
 					"22" : {
-						"event" : "Stranger",
+						"event" : "Affinity (Stranger)",
 						"media" : "feeling2",
 						"chinese" : "虽然名字是“无敌”，但我一点都不无敌，请千万不要看到名字就把我当做主力舰什么的",
 						"chineseTL" : "",
@@ -536,7 +536,7 @@
 						"englishNote" : ""
 					},
 					"23" : {
-						"event" : "Friendly",
+						"event" : "Affinity (Friendly)",
 						"media" : "feeling3",
 						"chinese" : "约克公爵既威风又帅气，还……嘻嘻，原来指挥官也会嫉妒呀",
 						"chineseTL" : "",
@@ -548,7 +548,7 @@
 						"englishNote" : ""
 					},
 					"24" : {
-						"event" : "Crush",
+						"event" : "Affinity (Like)",
 						"media" : "feeling4",
 						"chinese" : "指挥官在我心中和我在指挥官心中……哪边的位置比较高呢？",
 						"chineseTL" : "",
@@ -560,7 +560,7 @@
 						"englishNote" : ""
 					},
 					"25" : {
-						"event" : "Love",
+						"event" : "Affinity (Love)",
 						"media" : "feeling5",
 						"chinese" : "身体的伤治好了就消失了，心灵的伤则会一直一直疼痛下去，所以，请不要随随便便弄伤我的心哟",
 						"chineseTL" : "",
@@ -572,7 +572,7 @@
 						"englishNote" : ""
 					},
 					"26" : {
-						"event" : "Promise",
+						"event" : "Pledge",
 						"media" : "propose",
 						"chinese" : "我真的……很高兴……指挥官，虽然我没能力保护好你的身体，但我会努力使你的内心，永远温暖快乐，指挥官，请幸福起来吧——",
 						"chineseTL" : "",

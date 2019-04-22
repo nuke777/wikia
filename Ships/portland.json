@@ -122,7 +122,7 @@
 			"rarity" : "",
 			"name" : ""
 		},
-		"1" : {
+		"3" : {
 			"icon" : "16100",
 			"rarity" : "Common",
 			"name" : "Twin 20mm AA Oerlikon Design"
@@ -240,13 +240,13 @@
 			"preload": "0/0/0/0"
 		},
 		"4": {
-			"type": "Auxilary",
+			"type": "Auxiliary",
 			"efficiency": "-",
 			"amount": "-",
 			"preload": "-"
 		},
 		"5": {
-			"type": "Auxilary",
+			"type": "Auxiliary",
 			"efficiency": "-",
 			"amount": "-",
 			"preload": "-"
@@ -325,7 +325,7 @@
 						"englishNote" : ""
 					},
 					"3" : {
-						"event" : "Receive",
+						"event" : "Acquisition",
 						"media" : "get",
 						"chinese" : "指挥官你好，我是印第的姐姐波特兰。珊瑚海海战、中途岛海战、瓜岛海战与圣克鲁斯海战我都参加过——欸？印第？那是我亲爱的妹妹波利斯的小名啦~",
 						"chineseTL" : "",
@@ -337,7 +337,7 @@
 						"englishNote" : ""
 					},
 					"4" : {
-						"event" : "Log in",
+						"event" : "Login",
 						"media" : "login",
 						"chinese" : "哎呀~~指挥官，我跟你讲，我妹妹她好可爱的！",
 						"chineseTL" : "",
@@ -349,7 +349,7 @@
 						"englishNote" : ""
 					},
 					"5" : {
-						"event" : "View details",
+						"event" : "Details",
 						"media" : "detail",
 						"chinese" : "呐呐~指挥官，我跟你讲，我妹妹她好可爱的！……",
 						"chineseTL" : "",
@@ -361,7 +361,7 @@
 						"englishNote" : ""
 					},
 					"6" : {
-						"event" : "Main screen 1",
+						"event" : "Main 1",
 						"media" : "main_1",
 						"chinese" : "指挥官，快出发吧，印第不会喜欢我们这样磨蹭的",
 						"chineseTL" : "",
@@ -373,7 +373,7 @@
 						"englishNote" : ""
 					},
 					"7" : {
-						"event" : "Main screen 2",
+						"event" : "Main 2",
 						"media" : "main_2",
 						"chinese" : "妹妹真是太棒了~",
 						"chineseTL" : "",
@@ -385,7 +385,7 @@
 						"englishNote" : ""
 					},
 					"8" : {
-						"event" : "Main screen 3",
+						"event" : "Main 3",
 						"media" : "main_3",
 						"chinese" : "你想看印第的本子吗？",
 						"chineseTL" : "",
@@ -397,7 +397,7 @@
 						"englishNote" : ""
 					},
 					"9" : {
-						"event" : "Normal touch",
+						"event" : "Touch",
 						"media" : "touch_1",
 						"chinese" : "指挥官指挥官，给你说，印第好软的！你要不要一起摸摸看！",
 						"chineseTL" : "",
@@ -409,7 +409,7 @@
 						"englishNote" : ""
 					},
 					"10" : {
-						"event" : "Special touch",
+						"event" : "Touch (Special)",
 						"media" : "touch_2",
 						"chinese" : "呜哇！……印第都没碰过我这里啊！",
 						"chineseTL" : "",
@@ -421,7 +421,7 @@
 						"englishNote" : ""
 					},
 					"11" : {
-						"event" : "Mission reminder",
+						"event" : "Mission",
 						"media" : "task",
 						"chinese" : "啊，不好好完成任务会让我在妹妹面前很没面子的",
 						"chineseTL" : "",
@@ -433,7 +433,7 @@
 						"englishNote" : ""
 					},
 					"12" : {
-						"event" : "Mission complete",
+						"event" : "Mission Complete",
 						"media" : "mission_complete",
 						"chinese" : "指挥官，任务奖励就用来给印第买零食吧？",
 						"chineseTL" : "",
@@ -445,7 +445,7 @@
 						"englishNote" : ""
 					},
 					"13" : {
-						"event" : "Mail reminder",
+						"event" : "Mail",
 						"media" : "mail",
 						"chinese" : "我把信拿过来啦~什么嘛，我也会好好做事的啊",
 						"chineseTL" : "",
@@ -457,7 +457,7 @@
 						"englishNote" : ""
 					},
 					"14" : {
-						"event" : "Return to port",
+						"event" : "Return to Port",
 						"media" : "home",
 						"chinese" : "指挥官，我放在这里好大一个印第你有看到吗",
 						"chineseTL" : "",
@@ -469,7 +469,7 @@
 						"englishNote" : ""
 					},
 					"15" : {
-						"event" : "Commission complete",
+						"event" : "Commission Complete",
 						"media" : "expedition",
 						"chinese" : "指挥官，下个委托让我和印第一起去好吗？我会给你超可爱的印第照片喔~",
 						"chineseTL" : "",
@@ -481,7 +481,7 @@
 						"englishNote" : ""
 					},
 					"16" : {
-						"event" : "Enhancing complete",
+						"event" : "Enhancement",
 						"media" : "upgrade",
 						"chinese" : "这样就能更好地照顾印第了！",
 						"chineseTL" : "",
@@ -493,7 +493,7 @@
 						"englishNote" : ""
 					},
 					"17" : {
-						"event" : "Flagship fight",
+						"event" : "Flagship",
 						"media" : "warcry",
 						"chinese" : "……印第、啊不对……大家跟我上！",
 						"chineseTL" : "",
@@ -529,7 +529,7 @@
 						"englishNote" : ""
 					},
 					"20" : {
-						"event" : "Skills",
+						"event" : "Skill",
 						"media" : "skill",
 						"chinese" : "啊，我的印（第）……不要妨碍我好吗？",
 						"chineseTL" : "",
@@ -541,7 +541,7 @@
 						"englishNote" : ""
 					},
 					"21" : {
-						"event" : "Upset",
+						"event" : "Affinity (Upset)",
 						"media" : "feeling1",
 						"chinese" : "别妨碍我沉迷印第！",
 						"chineseTL" : "",
@@ -553,7 +553,7 @@
 						"englishNote" : ""
 					},
 					"22" : {
-						"event" : "Stranger",
+						"event" : "Affinity (Stranger)",
 						"media" : "feeling2",
 						"chinese" : "哎呀印第可爱死了！",
 						"chineseTL" : "",
@@ -565,7 +565,7 @@
 						"englishNote" : ""
 					},
 					"23" : {
-						"event" : "Friendly",
+						"event" : "Affinity (Friendly)",
 						"media" : "feeling3",
 						"chinese" : "指挥官，要一起来看印第小时候的照片吗？虽然就算你说不想看我也会给你看的",
 						"chineseTL" : "",
@@ -577,7 +577,7 @@
 						"englishNote" : ""
 					},
 					"24" : {
-						"event" : "Crush",
+						"event" : "Affinity (Like)",
 						"media" : "feeling4",
 						"chinese" : "指挥官，印第吃西瓜那张照片哪去了？啊谢谢。还有那张抱着抱枕的呢？哎呀原来在这个地方，谢谢~不知不觉，你现在比我都了解印第收藏的位置了呢",
 						"chineseTL" : "",
@@ -589,7 +589,7 @@
 						"englishNote" : ""
 					},
 					"25" : {
-						"event" : "Love",
+						"event" : "Affinity (Love)",
 						"media" : "feeling5",
 						"chinese" : "——如果有小孩的话？是呢……最好像印第，嗯……数量的话，暂定十个好了！…………呀！真是的，你都让我说了什么呀！",
 						"chineseTL" : "",
@@ -601,7 +601,7 @@
 						"englishNote" : ""
 					},
 					"26" : {
-						"event" : "Promise",
+						"event" : "Pledge",
 						"media" : "propose",
 						"chinese" : "和指挥官在一起欣赏印第的日子也变成了我的日常呢……不过印第依然是第一，这一点我可不会退让哦！",
 						"chineseTL" : "",
@@ -632,7 +632,7 @@
 						"englishNote" : ""
 					},
 					"2" : {
-						"event" : "Receive",
+						"event" : "Acquisition",
 						"media" : "get_1",
 						"chinese" : "指挥官快看快看，这是我亲手制作的“小印第”哦，是不是很可爱！？嘿嘿，这可是我作为手工艺部一员的自信之作呢！",
 						"chineseTL" : "",
@@ -644,7 +644,7 @@
 						"englishNote" : ""
 					},
 					"3" : {
-						"event" : "Log in",
+						"event" : "Login",
 						"media" : "login_1",
 						"chinese" : "啊，指挥官，请问你看到印第了吗？我刚准备了一套非常可爱的新衣服想让她试试呢，咕嘿嘿…",
 						"chineseTL" : "",
@@ -656,7 +656,7 @@
 						"englishNote" : ""
 					},
 					"4" : {
-						"event" : "Main screen 1",
+						"event" : "Main 1",
 						"media" : "main_1_1",
 						"chinese" : "指挥官，午餐要不要一起去吃？当然，还要带上我最爱的印第~",
 						"chineseTL" : "",
@@ -668,7 +668,7 @@
 						"englishNote" : ""
 					},
 					"5" : {
-						"event" : "Main screen 2",
+						"event" : "Main 2",
 						"media" : "main_2_1",
 						"chinese" : "无论是上学上课放学回家，都能和印第在一起，校园生活真是太棒了～",
 						"chineseTL" : "",
@@ -680,7 +680,7 @@
 						"englishNote" : ""
 					},
 					"6" : {
-						"event" : "Main screen 3",
+						"event" : "Main 3",
 						"media" : "main_3_1",
 						"chinese" : "指挥官来当老师好像也不错呢…好，指挥官就负责拍下印第在课堂上的样子吧，我会用生活照交换的！",
 						"chineseTL" : "",
@@ -692,7 +692,7 @@
 						"englishNote" : ""
 					},
 					"7" : {
-						"event" : "Normal touch",
+						"event" : "Touch",
 						"media" : "touch_1_1",
 						"chinese" : "指挥官也觉得印第超可爱的对吧～嗯…只是这个“小印第”的话，给你抱抱也没关系哦？",
 						"chineseTL" : "",
@@ -704,7 +704,7 @@
 						"englishNote" : ""
 					},
 					"8" : {
-						"event" : "Special touch",
+						"event" : "Touch (Special)",
 						"media" : "touch_2_1",
 						"chinese" : "呜哇！很危险的啦指挥官！针差点就要刺下去了……",
 						"chineseTL" : "",
@@ -716,7 +716,7 @@
 						"englishNote" : ""
 					},
 					"9" : {
-						"event" : "Return to port",
+						"event" : "Return to Port",
 						"media" : "home_1",
 						"chinese" : "放学路上，夕阳下的印第…哈啊～～太可爱了！指挥官也应该看看那令人感动的画面才是啊！",
 						"chineseTL" : "",
@@ -747,7 +747,7 @@
 						"englishNote" : ""
 					},
 					"2" : {
-						"event" : "Receive",
+						"event" : "Acquisition",
 						"media" : "get_9",
 						"chinese" : "初次见面，我是印第安纳波特兰——欸？印第？她是我最重要的妹妹，也是我挚爱的……",
 						"chineseTL" : "",
@@ -759,7 +759,7 @@
 						"englishNote" : ""
 					},
 					"3" : {
-						"event" : "View details",
+						"event" : "Details",
 						"media" : "detail_9",
 						"chinese" : "指挥官，你明白吗，印第她有这————么可爱！",
 						"chineseTL" : "",
@@ -771,7 +771,7 @@
 						"englishNote" : ""
 					},
 					"4" : {
-						"event" : "Main screen 1",
+						"event" : "Main 1",
 						"media" : "main_1_9",
 						"chinese" : "你已经跑不掉了指挥官，接招吧，印第小册子连发！今天就要让你彻底感受到印第的魅力！",
 						"chineseTL" : "",
@@ -783,7 +783,7 @@
 						"englishNote" : ""
 					},
 					"5" : {
-						"event" : "Main screen 2",
+						"event" : "Main 2",
 						"media" : "main_2_9",
 						"chinese" : "没错过主要战役？这种事无所谓啦，要是错过印第的可爱瞬间我就要哭了",
 						"chineseTL" : "",
@@ -795,7 +795,7 @@
 						"englishNote" : ""
 					},
 					"6" : {
-						"event" : "Main screen 3",
+						"event" : "Main 3",
 						"media" : "main_3_9",
 						"chinese" : "……哈！我忽然感觉到印第似乎在做很可爱的事，指挥官我离开一下！",
 						"chineseTL" : "",

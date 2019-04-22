@@ -81,7 +81,7 @@
 			"rarity" : "Common",
 			"name" : "203mm Mounted Gun"
 		},
-		"1" : {
+		"2" : {
 			"icon" : "35200",
 			"rarity" : "Rare",
 			"name" : "Quadruple 610mm Torpedo"
@@ -204,13 +204,13 @@
 			"preload": "0/0/0/0"
 		},
 		"4": {
-			"type": "Auxilary",
+			"type": "Auxiliary",
 			"efficiency": "-",
 			"amount": "-",
 			"preload": "-"
 		},
 		"5": {
-			"type": "Auxilary",
+			"type": "Auxiliary",
 			"efficiency": "-",
 			"amount": "-",
 			"preload": "-"
@@ -289,7 +289,7 @@
 						"englishNote" : ""
 					},
 					"3" : {
-						"event" : "Receive",
+						"event" : "Acquisition",
 						"media" : "get",
 						"chinese" : "哼哼，我闻到了，没错，这支舰队里有新闻的气息！你就是指挥官吗？就让我青叶毫不客气地取材吧！",
 						"chineseTL" : "",
@@ -301,7 +301,7 @@
 						"englishNote" : ""
 					},
 					"4" : {
-						"event" : "Log in",
+						"event" : "Login",
 						"media" : "login",
 						"chinese" : "哼哼，指挥官，被我看到了哦~",
 						"chineseTL" : "",
@@ -313,7 +313,7 @@
 						"englishNote" : ""
 					},
 					"5" : {
-						"event" : "View details",
+						"event" : "Details",
 						"media" : "detail",
 						"chinese" : "怎么了？情报的话可是要收费的~",
 						"chineseTL" : "",
@@ -325,7 +325,7 @@
 						"englishNote" : ""
 					},
 					"6" : {
-						"event" : "Main screen 1",
+						"event" : "Main 1",
 						"media" : "main_1",
 						"chinese" : "我相信只要肯行动就一定会有回报~欸，昨天是不是我跟踪你？啊哈哈，你在说什么我完全不明白呢",
 						"chineseTL" : "",
@@ -337,7 +337,7 @@
 						"englishNote" : ""
 					},
 					"7" : {
-						"event" : "Main screen 2",
+						"event" : "Main 2",
 						"media" : "main_2",
 						"chinese" : "我说指挥官，你要是让我取材的话，说不定我也有好东西给你哦？比如有关你在意的那个孩子的~",
 						"chineseTL" : "",
@@ -349,7 +349,7 @@
 						"englishNote" : ""
 					},
 					"8" : {
-						"event" : "Main screen 3",
+						"event" : "Main 3",
 						"media" : "main_3",
 						"chinese" : "要找到好新闻真难啊……干脆去制造点新闻好了",
 						"chineseTL" : "",
@@ -361,7 +361,7 @@
 						"englishNote" : ""
 					},
 					"9" : {
-						"event" : "Normal touch",
+						"event" : "Touch",
 						"media" : "touch_1",
 						"chinese" : "啊，想到了好点子！这一定会成为热门的！",
 						"chineseTL" : "",
@@ -373,7 +373,7 @@
 						"englishNote" : ""
 					},
 					"10" : {
-						"event" : "Special touch",
+						"event" : "Touch (Special)",
 						"media" : "touch_2",
 						"chinese" : "……指挥官，得罪记者可不明智哦",
 						"chineseTL" : "",
@@ -385,7 +385,7 @@
 						"englishNote" : ""
 					},
 					"11" : {
-						"event" : "Mission reminder",
+						"event" : "Mission",
 						"media" : "task",
 						"chinese" : "任务？那我就负责记录指挥官的英姿吧~欸，我也要来？",
 						"chineseTL" : "",
@@ -397,7 +397,7 @@
 						"englishNote" : ""
 					},
 					"12" : {
-						"event" : "Mission complete",
+						"event" : "Mission Complete",
 						"media" : "mission_complete",
 						"chinese" : "指挥官别磨蹭了，赶紧去把奖励领了我来给你拍张照",
 						"chineseTL" : "",
@@ -409,7 +409,7 @@
 						"englishNote" : ""
 					},
 					"13" : {
-						"event" : "Mail reminder",
+						"event" : "Mail",
 						"media" : "mail",
 						"chinese" : "指挥官你对信息也太不敏感了，拿去，新的信",
 						"chineseTL" : "",
@@ -421,7 +421,7 @@
 						"englishNote" : ""
 					},
 					"14" : {
-						"event" : "Return to port",
+						"event" : "Return to Port",
 						"media" : "home",
 						"chinese" : "指挥官，出战的孩子里你最喜欢哪一个呢？",
 						"chineseTL" : "",
@@ -433,7 +433,7 @@
 						"englishNote" : ""
 					},
 					"15" : {
-						"event" : "Commission complete",
+						"event" : "Commission Complete",
 						"media" : "expedition",
 						"chinese" : "辛勤工作的女孩们正是舰队一景……ok，指挥官，带点慰问品，我们一起去港口取材吧！",
 						"chineseTL" : "",
@@ -445,7 +445,7 @@
 						"englishNote" : ""
 					},
 					"16" : {
-						"event" : "Enhancing complete",
+						"event" : "Enhancement",
 						"media" : "upgrade",
 						"chinese" : "感觉离新闻更近了一点！多谢啦指挥官~",
 						"chineseTL" : "",
@@ -457,7 +457,7 @@
 						"englishNote" : ""
 					},
 					"17" : {
-						"event" : "Flagship fight",
+						"event" : "Flagship",
 						"media" : "warcry",
 						"chinese" : "想逃过我青叶的眼睛你们还早了一万年呢！",
 						"chineseTL" : "",
@@ -493,7 +493,7 @@
 						"englishNote" : ""
 					},
 					"20" : {
-						"event" : "Skills",
+						"event" : "Skill",
 						"media" : "skill",
 						"chinese" : "",
 						"chineseTL" : "",
@@ -517,7 +517,7 @@
 						"englishNote" : ""
 					},
 					"22" : {
-						"event" : "Upset",
+						"event" : "Affinity (Upset)",
 						"media" : "feeling1",
 						"chinese" : "要不要去海外取材呢~",
 						"chineseTL" : "",
@@ -529,7 +529,7 @@
 						"englishNote" : ""
 					},
 					"23" : {
-						"event" : "Stranger",
+						"event" : "Affinity (Stranger)",
 						"media" : "feeling2",
 						"chinese" : "指挥官，坐拥这么大一个后，啊不对，舰队的感想能请你讲述一下吗~",
 						"chineseTL" : "",
@@ -541,7 +541,7 @@
 						"englishNote" : ""
 					},
 					"24" : {
-						"event" : "Friendly",
+						"event" : "Affinity (Friendly)",
 						"media" : "feeling3",
 						"chinese" : "指挥官，我来舰队有些日子了，对大家也做了不少取材，一开始还觉得说不定是什么坏人，结果你被大家信任着呢，很厉害嘛~",
 						"chineseTL" : "",
@@ -553,7 +553,7 @@
 						"englishNote" : ""
 					},
 					"25" : {
-						"event" : "Crush",
+						"event" : "Affinity (Like)",
 						"media" : "feeling4",
 						"chinese" : "我呢，以前犯下过大错，就想着至少要给努力过的大家留下点什么……啊，抱歉抱歉，说了些不像我的话吧，但是也怪你让我放松了下来，所以我的问题你也不能回避哦！",
 						"chineseTL" : "",
@@ -565,7 +565,7 @@
 						"englishNote" : ""
 					},
 					"26" : {
-						"event" : "Love",
+						"event" : "Affinity (Love)",
 						"media" : "feeling5",
 						"chinese" : "好我决定了，为了这里最喜欢的大家，我青叶要把每个人都记录下来！其中包不包括你？真是的，这种问题自·己·去·想·啦~",
 						"chineseTL" : "",
@@ -577,7 +577,7 @@
 						"englishNote" : ""
 					},
 					"27" : {
-						"event" : "Promise",
+						"event" : "Pledge",
 						"media" : "propose",
 						"chinese" : "先说好，我对这种场合超不行的，所以你就别指望我也说些肉麻的话了……不过……我的回答当然也只有一个，我也最喜，喜，喜欢你了！",
 						"chineseTL" : "",
@@ -589,7 +589,7 @@
 						"englishNote" : ""
 					},
 					"28" : {
-						"event" : "Easter Egg 1(Kinugasa)",
+						"event" : "Easter Egg 1 (Kinugasa)",
 						"media" : "link1",
 						"chinese" : "完了……又要被念了",
 						"chineseTL" : "",
@@ -601,7 +601,7 @@
 						"englishNote" : ""
 					},
 					"29" : {
-						"event" : "Easter Egg 2(Furutaka)",
+						"event" : "Easter Egg 2 (Furutaka)",
 						"media" : "link2",
 						"chinese" : "古鹰…那个时候抱歉了啊",
 						"chineseTL" : "",
@@ -613,7 +613,7 @@
 						"englishNote" : ""
 					},
 					"30" : {
-						"event" : "Easter Egg 3(Furutaka, Kako, Kinugasa)",
+						"event" : "Easter Egg 3 (Furutaka, Kako, Kinugasa)",
 						"media" : "link3",
 						"chinese" : "第六战队，出动！",
 						"chineseTL" : "",
@@ -625,7 +625,7 @@
 						"englishNote" : ""
 					},
 					"31" : {
-						"event" : "Easter Egg 4(Gridley)",
+						"event" : "Easter Egg 4 (Gridley)",
 						"media" : "link4",
 						"chinese" : "来比比看职业嗅觉吧！",
 						"chineseTL" : "",

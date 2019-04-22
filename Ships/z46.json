@@ -98,7 +98,7 @@
 			"rarity" : "Common",
 			"name" : "Twin 128mm Dual Gun (SK C/41)"
 		},
-		"1" : {
+		"2" : {
 			"icon" : "5100",
 			"rarity" : "Common",
 			"name" : "Quadruple 533mm Torpedo"
@@ -221,13 +221,13 @@
 			"preload": "0/0/0/0"
 		},
 		"4": {
-			"type": "Auxilary",
+			"type": "Auxiliary",
 			"efficiency": "-",
 			"amount": "-",
 			"preload": "-"
 		},
 		"5": {
-			"type": "Auxilary",
+			"type": "Auxiliary",
 			"efficiency": "-",
 			"amount": "-",
 			"preload": "-"
@@ -306,7 +306,7 @@
 						"englishNote" : ""
 					},
 					"3" : {
-						"event" : "Receive",
+						"event" : "Acquisition",
 						"media" : "get",
 						"chinese" : "是你在召唤我吗？我是……很可惜，现在我还没有名字，你就暂时叫我Z46吧",
 						"chineseTL" : "",
@@ -318,7 +318,7 @@
 						"englishNote" : ""
 					},
 					"4" : {
-						"event" : "Log in",
+						"event" : "Login",
 						"media" : "login",
 						"chinese" : "这个世界和我料想的大不相同，真有趣！",
 						"chineseTL" : "",
@@ -330,7 +330,7 @@
 						"englishNote" : ""
 					},
 					"5" : {
-						"event" : "View details",
+						"event" : "Details",
 						"media" : "detail",
 						"chinese" : "Z46只是一个代号，并不是我的名字。对船来说，有无名字并不重要，但……",
 						"chineseTL" : "",
@@ -342,7 +342,7 @@
 						"englishNote" : ""
 					},
 					"6" : {
-						"event" : "Main screen 1",
+						"event" : "Main 1",
 						"media" : "main_1",
 						"chinese" : "我不曾失败，也未尝受伤，因此，亦无武勋 ",
 						"chineseTL" : "",
@@ -354,7 +354,7 @@
 						"englishNote" : ""
 					},
 					"7" : {
-						"event" : "Main screen 2",
+						"event" : "Main 2",
 						"media" : "main_2",
 						"chinese" : "名字不仅仅是一种称呼。它还是在这个世界中自身独一无二的证明 ",
 						"chineseTL" : "",
@@ -366,7 +366,7 @@
 						"englishNote" : ""
 					},
 					"8" : {
-						"event" : "Main screen 3",
+						"event" : "Main 3",
 						"media" : "main_3",
 						"chinese" : "这个世界上，不亲身体验就无法真正认识的事物如那令人敬畏的漫天繁星般不可胜数",
 						"chineseTL" : "",
@@ -378,7 +378,7 @@
 						"englishNote" : ""
 					},
 					"9" : {
-						"event" : "Normal touch",
+						"event" : "Touch",
 						"media" : "touch_1",
 						"chinese" : "能被碰触到是确实存在着的证明",
 						"chineseTL" : "",
@@ -390,7 +390,7 @@
 						"englishNote" : ""
 					},
 					"10" : {
-						"event" : "Special touch",
+						"event" : "Touch (Special)",
 						"media" : "touch_2",
 						"chinese" : "如果你的渴求是正确的，那你的手为何在颤抖？",
 						"chineseTL" : "",
@@ -402,7 +402,7 @@
 						"englishNote" : ""
 					},
 					"11" : {
-						"event" : "Mission reminder",
+						"event" : "Mission",
 						"media" : "task",
 						"chinese" : "前去邂逅未知与相遇吧！",
 						"chineseTL" : "",
@@ -414,7 +414,7 @@
 						"englishNote" : ""
 					},
 					"12" : {
-						"event" : "Mission complete",
+						"event" : "Mission Complete",
 						"media" : "mission_complete",
 						"chinese" : "自由与命运只垂青每天努力的人",
 						"chineseTL" : "",
@@ -426,7 +426,7 @@
 						"englishNote" : ""
 					},
 					"13" : {
-						"event" : "Mail reminder",
+						"event" : "Mail",
 						"media" : "mail",
 						"chinese" : "有新邮件是被人期待与信赖的证明",
 						"chineseTL" : "",
@@ -438,7 +438,7 @@
 						"englishNote" : ""
 					},
 					"14" : {
-						"event" : "Return to port",
+						"event" : "Return to Port",
 						"media" : "home",
 						"chinese" : "战争结束了吗？还是才刚刚开始？",
 						"chineseTL" : "",
@@ -450,7 +450,7 @@
 						"englishNote" : ""
 					},
 					"15" : {
-						"event" : "Commission complete",
+						"event" : "Commission Complete",
 						"media" : "expedition",
 						"chinese" : "在港口等待外出执行委托的舰船归来……这也是我来到这里前未曾拥有过的体验",
 						"chineseTL" : "",
@@ -462,7 +462,7 @@
 						"englishNote" : ""
 					},
 					"16" : {
-						"event" : "Enhancing complete",
+						"event" : "Enhancement",
 						"media" : "upgrade",
 						"chinese" : "此为无足轻重之事，但我仍要嘉奖你的心意",
 						"chineseTL" : "",
@@ -474,7 +474,7 @@
 						"englishNote" : ""
 					},
 					"17" : {
-						"event" : "Flagship fight",
+						"event" : "Flagship",
 						"media" : "warcry",
 						"chinese" : "我要夸赞你们看到我还没有逃跑的勇气与愚蠢！",
 						"chineseTL" : "",
@@ -510,7 +510,7 @@
 						"englishNote" : ""
 					},
 					"20" : {
-						"event" : "Skills",
+						"event" : "Skill",
 						"media" : "skill",
 						"chinese" : "虚假的，必将湮于尘世",
 						"chineseTL" : "",
@@ -534,7 +534,7 @@
 						"englishNote" : ""
 					},
 					"22" : {
-						"event" : "Upset",
+						"event" : "Affinity (Upset)",
 						"media" : "feeling1",
 						"chinese" : "这里或许并没有我渴求的东西……",
 						"chineseTL" : "",
@@ -546,7 +546,7 @@
 						"englishNote" : ""
 					},
 					"23" : {
-						"event" : "Stranger",
+						"event" : "Affinity (Stranger)",
 						"media" : "feeling2",
 						"chinese" : "追寻着“名字”的踪迹，我来到了这里",
 						"chineseTL" : "",
@@ -558,7 +558,7 @@
 						"englishNote" : ""
 					},
 					"24" : {
-						"event" : "Friendly",
+						"event" : "Affinity (Friendly)",
 						"media" : "feeling3",
 						"chinese" : "亲友、敌人、喜好、厌憎……来到这里之前，我什么都不曾拥有",
 						"chineseTL" : "",
@@ -570,7 +570,7 @@
 						"englishNote" : ""
 					},
 					"25" : {
-						"event" : "Crush",
+						"event" : "Affinity (Like)",
 						"media" : "feeling4",
 						"chinese" : "微风拂过海面，蝉鸣漾入云间。叽叽喳喳的笑声在沙滩上留下深浅不一的足迹，盛暑阳光夺神炫目，模糊了远近的归船……这里的风景真是令人缱绻",
 						"chineseTL" : "",
@@ -582,7 +582,7 @@
 						"englishNote" : ""
 					},
 					"26" : {
-						"event" : "Love",
+						"event" : "Affinity (Love)",
 						"media" : "feeling5",
 						"chinese" : "被需要、被期望、被信赖、被喜爱……经历了种种风风雨雨后，我这张白纸已然染上了你的颜色。请好好思考我的名字吧，我的挚爱。",
 						"chineseTL" : "",
@@ -594,7 +594,7 @@
 						"englishNote" : ""
 					},
 					"27" : {
-						"event" : "Promise",
+						"event" : "Pledge",
 						"media" : "propose",
 						"chinese" : "我挚爱的人啊，我已经期待这一天很久了，你为我准备了怎样的名字？",
 						"chineseTL" : "",

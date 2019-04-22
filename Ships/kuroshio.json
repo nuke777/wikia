@@ -88,7 +88,7 @@
 			"rarity" : "Common",
 			"name" : "127mm Mounted Gun"
 		},
-		"1" : {
+		"2" : {
 			"icon" : "35200",
 			"rarity" : "Rare",
 			"name" : "Quadruple 610mm Torpedo"
@@ -211,13 +211,13 @@
 			"preload": "0/0/0/0"
 		},
 		"4": {
-			"type": "Auxilary",
+			"type": "Auxiliary",
 			"efficiency": "-",
 			"amount": "-",
 			"preload": "-"
 		},
 		"5": {
-			"type": "Auxilary",
+			"type": "Auxiliary",
 			"efficiency": "-",
 			"amount": "-",
 			"preload": "-"
@@ -296,7 +296,7 @@
 						"englishNote" : ""
 					},
 					"3" : {
-						"event" : "Receive",
+						"event" : "Acquisition",
 						"media" : "get",
 						"chinese" : "阳炎级黑潮，参见主上……只要是任务，我一定会完成",
 						"chineseTL" : "",
@@ -308,7 +308,7 @@
 						"englishNote" : ""
 					},
 					"4" : {
-						"event" : "Log in",
+						"event" : "Login",
 						"media" : "login",
 						"chinese" : "主上，欢迎回来",
 						"chineseTL" : "",
@@ -320,7 +320,7 @@
 						"englishNote" : ""
 					},
 					"5" : {
-						"event" : "View details",
+						"event" : "Details",
 						"media" : "detail",
 						"chinese" : "主上……请不要一直盯着我看",
 						"chineseTL" : "",
@@ -332,7 +332,7 @@
 						"englishNote" : ""
 					},
 					"6" : {
-						"event" : "Main screen 1",
+						"event" : "Main 1",
 						"media" : "main_1",
 						"chinese" : "…………？主上，需要我说些什么吗？",
 						"chineseTL" : "",
@@ -344,7 +344,7 @@
 						"englishNote" : ""
 					},
 					"7" : {
-						"event" : "Main screen 2",
+						"event" : "Main 2",
 						"media" : "main_2",
 						"chinese" : "我不知道该说些什么……主上要是想说什么的话我会好好听的",
 						"chineseTL" : "",
@@ -356,7 +356,7 @@
 						"englishNote" : ""
 					},
 					"8" : {
-						"event" : "Main screen 3",
+						"event" : "Main 3",
 						"media" : "main_3",
 						"chinese" : "头上的花？这是亲潮给我的，她……总是很活泼",
 						"chineseTL" : "",
@@ -368,7 +368,7 @@
 						"englishNote" : ""
 					},
 					"9" : {
-						"event" : "Normal touch",
+						"event" : "Touch",
 						"media" : "touch_1",
 						"chinese" : "黑潮随时待命",
 						"chineseTL" : "",
@@ -380,7 +380,7 @@
 						"englishNote" : ""
 					},
 					"10" : {
-						"event" : "Special touch",
+						"event" : "Touch (Special)",
 						"media" : "touch_2",
 						"chinese" : "此身也是主上之物，主上请随……唔……呀……",
 						"chineseTL" : "",
@@ -392,7 +392,7 @@
 						"englishNote" : ""
 					},
 					"11" : {
-						"event" : "Mission reminder",
+						"event" : "Mission",
 						"media" : "task",
 						"chinese" : "主上，新的任务书下达了",
 						"chineseTL" : "",
@@ -404,7 +404,7 @@
 						"englishNote" : ""
 					},
 					"12" : {
-						"event" : "Mission complete",
+						"event" : "Mission Complete",
 						"media" : "mission_complete",
 						"chinese" : "主上，任务的奖励已经下发了，请过目",
 						"chineseTL" : "",
@@ -416,7 +416,7 @@
 						"englishNote" : ""
 					},
 					"13" : {
-						"event" : "Mail reminder",
+						"event" : "Mail",
 						"media" : "mail",
 						"chinese" : "主上，有您的书信",
 						"chineseTL" : "",
@@ -428,7 +428,7 @@
 						"englishNote" : ""
 					},
 					"14" : {
-						"event" : "Return to port",
+						"event" : "Return to Port",
 						"media" : "home",
 						"chinese" : "主上，您看起来有些疲惫，有什么我能做的吗？",
 						"chineseTL" : "",
@@ -440,7 +440,7 @@
 						"englishNote" : ""
 					},
 					"15" : {
-						"event" : "Commission complete",
+						"event" : "Commission Complete",
 						"media" : "expedition",
 						"chinese" : "主上，委托组准时返航了",
 						"chineseTL" : "",
@@ -452,7 +452,7 @@
 						"englishNote" : ""
 					},
 					"16" : {
-						"event" : "Enhancing complete",
+						"event" : "Enhancement",
 						"media" : "upgrade",
 						"chinese" : "请下达更多的任务给我吧",
 						"chineseTL" : "",
@@ -464,7 +464,7 @@
 						"englishNote" : ""
 					},
 					"17" : {
-						"event" : "Flagship fight",
+						"event" : "Flagship",
 						"media" : "warcry",
 						"chinese" : "挡在主上面前的，都得死",
 						"chineseTL" : "",
@@ -500,7 +500,7 @@
 						"englishNote" : ""
 					},
 					"20" : {
-						"event" : "Skills",
+						"event" : "Skill",
 						"media" : "skill",
 						"chinese" : "天魔覆灭……！",
 						"chineseTL" : "",
@@ -512,7 +512,7 @@
 						"englishNote" : ""
 					},
 					"21" : {
-						"event" : "Upset",
+						"event" : "Affinity (Upset)",
 						"media" : "feeling1",
 						"chinese" : "……请下令",
 						"chineseTL" : "",
@@ -524,7 +524,7 @@
 						"englishNote" : ""
 					},
 					"22" : {
-						"event" : "Stranger",
+						"event" : "Affinity (Stranger)",
 						"media" : "feeling2",
 						"chinese" : "感情对于一个合格的忍者来说是不必要的，我要做的只是服从主上的命令",
 						"chineseTL" : "",
@@ -536,7 +536,7 @@
 						"englishNote" : ""
 					},
 					"23" : {
-						"event" : "Friendly",
+						"event" : "Affinity (Friendly)",
 						"media" : "feeling3",
 						"chinese" : "主上想要和我进行的“交谈”也好，“游戏”也好，我都……不太理解，但是……并不讨厌",
 						"chineseTL" : "",
@@ -548,7 +548,7 @@
 						"englishNote" : ""
 					},
 					"24" : {
-						"event" : "Crush",
+						"event" : "Affinity (Like)",
 						"media" : "feeling4",
 						"chinese" : "主上，最近执行任务时，我总是会回想起和主上进行的“交谈”和“游戏”以至于无法集中精神，请责罚",
 						"chineseTL" : "",
@@ -560,7 +560,7 @@
 						"englishNote" : ""
 					},
 					"25" : {
-						"event" : "Love",
+						"event" : "Affinity (Love)",
 						"media" : "feeling5",
 						"chinese" : "感情……确实没有的时候可以什么都不去想，但是理解之后，我觉得这并不是不好的东西……想要回到主上身边的心情，让我比过去更强大",
 						"chineseTL" : "",
@@ -572,7 +572,7 @@
 						"englishNote" : ""
 					},
 					"26" : {
-						"event" : "Promise",
+						"event" : "Pledge",
 						"media" : "propose",
 						"chinese" : "我一直以为绝对服从命令就是一个忍者能够献上的全部，但现在我明白了……承主上厚爱，黑潮将作为您的影、您的伴侣，陪伴您直到永远",
 						"chineseTL" : "",
@@ -584,7 +584,7 @@
 						"englishNote" : ""
 					},
 					"27" : {
-						"event" : "Easter Egg 1(Akatsuki)",
+						"event" : "Easter Egg 1 (Akatsuki)",
 						"media" : "link1",
 						"chinese" : "一切为了主上……",
 						"chineseTL" : "",

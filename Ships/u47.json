@@ -98,7 +98,7 @@
 			"rarity" : "Common",
 			"name" : "G7a Submarine Torpedo"
 		},
-		"1" : {
+		"2" : {
 			"icon" : "45300",
 			"rarity" : "Common",
 			"name" : "G7a Submarine Torpedo"
@@ -221,13 +221,13 @@
 			"preload": "0/0/0/0"
 		},
 		"4": {
-			"type": "Auxilary",
+			"type": "Auxiliary",
 			"efficiency": "-",
 			"amount": "-",
 			"preload": "-"
 		},
 		"5": {
-			"type": "Auxilary",
+			"type": "Auxiliary",
 			"efficiency": "-",
 			"amount": "-",
 			"preload": "-"
@@ -306,7 +306,7 @@
 						"englishNote" : ""
 					},
 					"3" : {
-						"event" : "Receive",
+						"event" : "Acquisition",
 						"media" : "get",
 						"chinese" : "我是VIIB型潜艇U-47，平时不喜欢吵闹的地方…没什么事的话，我就去休息了…",
 						"chineseTL" : "",
@@ -318,7 +318,7 @@
 						"englishNote" : ""
 					},
 					"4" : {
-						"event" : "Log in",
+						"event" : "Login",
 						"media" : "login",
 						"chinese" : "啊…你回来了…",
 						"chineseTL" : "",
@@ -330,7 +330,7 @@
 						"englishNote" : ""
 					},
 					"5" : {
-						"event" : "View details",
+						"event" : "Details",
 						"media" : "detail",
 						"chinese" : "需要我出动吗？我一个人就可以解决的…",
 						"chineseTL" : "",
@@ -342,7 +342,7 @@
 						"englishNote" : ""
 					},
 					"6" : {
-						"event" : "Main screen 1",
+						"event" : "Main 1",
 						"media" : "main_1",
 						"chinese" : "既然敌人在这片区域，那么…",
 						"chineseTL" : "",
@@ -354,7 +354,7 @@
 						"englishNote" : ""
 					},
 					"7" : {
-						"event" : "Main screen 2",
+						"event" : "Main 2",
 						"media" : "main_2",
 						"chinese" : "需要巡逻的话，我随时可以出动。",
 						"chineseTL" : "",
@@ -366,7 +366,7 @@
 						"englishNote" : ""
 					},
 					"8" : {
-						"event" : "Main screen 3",
+						"event" : "Main 3",
 						"media" : "main_3",
 						"chinese" : "安静的办公室…是个不错的地方呢。",
 						"chineseTL" : "",
@@ -378,7 +378,7 @@
 						"englishNote" : ""
 					},
 					"9" : {
-						"event" : "Normal touch",
+						"event" : "Touch",
 						"media" : "touch_1",
 						"chinese" : "要检查装备吗？",
 						"chineseTL" : "",
@@ -390,7 +390,7 @@
 						"englishNote" : ""
 					},
 					"10" : {
-						"event" : "Special touch",
+						"event" : "Touch (Special)",
 						"media" : "touch_2",
 						"chinese" : "想睡在斯卡帕湾底下吗？",
 						"chineseTL" : "",
@@ -402,7 +402,7 @@
 						"englishNote" : ""
 					},
 					"11" : {
-						"event" : "Mission reminder",
+						"event" : "Mission",
 						"media" : "task",
 						"chinese" : "还有任务……",
 						"chineseTL" : "",
@@ -414,7 +414,7 @@
 						"englishNote" : ""
 					},
 					"12" : {
-						"event" : "Mission complete",
+						"event" : "Mission Complete",
 						"media" : "mission_complete",
 						"chinese" : "报酬……不去确认吗？",
 						"chineseTL" : "",
@@ -426,7 +426,7 @@
 						"englishNote" : ""
 					},
 					"13" : {
-						"event" : "Mail reminder",
+						"event" : "Mail",
 						"media" : "mail",
 						"chinese" : "有信息……不会被敌人破译吧……",
 						"chineseTL" : "",
@@ -438,7 +438,7 @@
 						"englishNote" : ""
 					},
 					"14" : {
-						"event" : "Return to port",
+						"event" : "Return to Port",
 						"media" : "home",
 						"chinese" : "人多起来了…有点吵…",
 						"chineseTL" : "",
@@ -450,7 +450,7 @@
 						"englishNote" : ""
 					},
 					"15" : {
-						"event" : "Commission complete",
+						"event" : "Commission Complete",
 						"media" : "expedition",
 						"chinese" : "委托组返航了……人有点多，我不想去……",
 						"chineseTL" : "",
@@ -462,7 +462,7 @@
 						"englishNote" : ""
 					},
 					"16" : {
-						"event" : "Enhancing complete",
+						"event" : "Enhancement",
 						"media" : "upgrade",
 						"chinese" : "强化…应该有用吧。",
 						"chineseTL" : "",
@@ -474,7 +474,7 @@
 						"englishNote" : ""
 					},
 					"17" : {
-						"event" : "Flagship fight",
+						"event" : "Flagship",
 						"media" : "warcry",
 						"chinese" : "你们都将沉睡于此！",
 						"chineseTL" : "",
@@ -510,7 +510,7 @@
 						"englishNote" : ""
 					},
 					"20" : {
-						"event" : "Skills",
+						"event" : "Skill",
 						"media" : "skill",
 						"chinese" : "Auf wiedersehen…",
 						"chineseTL" : "",
@@ -522,7 +522,7 @@
 						"englishNote" : ""
 					},
 					"21" : {
-						"event" : "Upset",
+						"event" : "Affinity (Upset)",
 						"media" : "feeling1",
 						"chinese" : "我得和你保持距离……",
 						"chineseTL" : "",
@@ -534,7 +534,7 @@
 						"englishNote" : ""
 					},
 					"22" : {
-						"event" : "Stranger",
+						"event" : "Affinity (Stranger)",
 						"media" : "feeling2",
 						"chinese" : "指挥官的办公室很安静呢，我喜欢这里。",
 						"chineseTL" : "",
@@ -546,7 +546,7 @@
 						"englishNote" : ""
 					},
 					"23" : {
-						"event" : "Friendly",
+						"event" : "Affinity (Friendly)",
 						"media" : "feeling3",
 						"chinese" : "不过，指挥官的事情我也帮不上什么忙……总是呆在这里的话……没问题吗？",
 						"chineseTL" : "",
@@ -558,7 +558,7 @@
 						"englishNote" : ""
 					},
 					"24" : {
-						"event" : "Crush",
+						"event" : "Affinity (Like)",
 						"media" : "feeling4",
 						"chinese" : "我可以随时来这里吗？谢谢……只是最近不知为何，在这里我反而变得有些难静下心来了……",
 						"chineseTL" : "",
@@ -570,7 +570,7 @@
 						"englishNote" : ""
 					},
 					"25" : {
-						"event" : "Love",
+						"event" : "Affinity (Love)",
 						"media" : "feeling5",
 						"chinese" : "原以为我已经习惯了在黑暗的海面之下潜行…但是最近出击的时候，却总是忍不住想起指挥室的明亮温暖…或许，我已经无法离开指挥官了吧。",
 						"chineseTL" : "",
@@ -582,7 +582,7 @@
 						"englishNote" : ""
 					},
 					"26" : {
-						"event" : "Promise",
+						"event" : "Pledge",
 						"media" : "propose",
 						"chinese" : "现在…对我来说，自身的意义不只存在于冰冷的海水之下，更存在于岸上和指挥官身边…与你一起，即使无言，也是我最幸福的时光。",
 						"chineseTL" : "",
@@ -594,7 +594,7 @@
 						"englishNote" : ""
 					},
 					"27" : {
-						"event" : "Easter Egg 1(U-81, U-557)",
+						"event" : "Easter Egg 1 (U-81, U-557)",
 						"media" : "link1",
 						"chinese" : "「狼群」……出动了……",
 						"chineseTL" : "",
@@ -625,7 +625,7 @@
 						"englishNote" : ""
 					},
 					"2" : {
-						"event" : "Receive",
+						"event" : "Acquisition",
 						"media" : "get_1",
 						"chinese" : "陆地上的风景我还没怎么留意过……指挥官，要一起去逛一下吗？",
 						"chineseTL" : "",
@@ -637,7 +637,7 @@
 						"englishNote" : ""
 					},
 					"3" : {
-						"event" : "Log in",
+						"event" : "Login",
 						"media" : "login_1",
 						"chinese" : "啊，你来了啊。我？……没事，我刚刚才到",
 						"chineseTL" : "",
@@ -649,7 +649,7 @@
 						"englishNote" : ""
 					},
 					"4" : {
-						"event" : "View details",
+						"event" : "Details",
 						"media" : "detail_1",
 						"chinese" : "我不想和别人一起出行，总感觉不太自在…但是一个人逛的话，迷路就麻烦了…所以指挥官，你今天有空吗？",
 						"chineseTL" : "",
@@ -661,7 +661,7 @@
 						"englishNote" : ""
 					},
 					"5" : {
-						"event" : "Main screen 1",
+						"event" : "Main 1",
 						"media" : "main_1_1",
 						"chinese" : "我可不会近视…这个只是装饰而已。",
 						"chineseTL" : "",
@@ -673,7 +673,7 @@
 						"englishNote" : ""
 					},
 					"6" : {
-						"event" : "Main screen 2",
+						"event" : "Main 2",
 						"media" : "main_2_1",
 						"chinese" : "口渴的话……这瓶水分你喝一点？",
 						"chineseTL" : "",
@@ -685,7 +685,7 @@
 						"englishNote" : ""
 					},
 					"7" : {
-						"event" : "Main screen 3",
+						"event" : "Main 3",
 						"media" : "main_3_1",
 						"chinese" : "这件衣服，是姐妹们帮我挑的。我平时不怎么关心穿什么……",
 						"chineseTL" : "",
@@ -697,7 +697,7 @@
 						"englishNote" : ""
 					},
 					"8" : {
-						"event" : "Normal touch",
+						"event" : "Touch",
 						"media" : "touch_1_1",
 						"chinese" : "我对陆地上不太了解……要麻烦指挥官带路了呢。",
 						"chineseTL" : "",
@@ -709,7 +709,7 @@
 						"englishNote" : ""
 					},
 					"9" : {
-						"event" : "Special touch",
+						"event" : "Touch (Special)",
 						"media" : "touch_2_1",
 						"chinese" : "要不我现在带你去海底转转吧？那里风景也蛮不错的。",
 						"chineseTL" : "",
@@ -721,7 +721,7 @@
 						"englishNote" : ""
 					},
 					"10" : {
-						"event" : "Mail reminder",
+						"event" : "Mail",
 						"media" : "mail_1",
 						"chinese" : "信……是明信片寄回来了吗？",
 						"chineseTL" : "",
@@ -733,7 +733,7 @@
 						"englishNote" : ""
 					},
 					"11" : {
-						"event" : "Return to port",
+						"event" : "Return to Port",
 						"media" : "home_1",
 						"chinese" : "呼……没想到，陆上的风景还是蛮不错的。",
 						"chineseTL" : "",
@@ -745,7 +745,7 @@
 						"englishNote" : ""
 					},
 					"12" : {
-						"event" : "Love",
+						"event" : "Affinity (Love)",
 						"media" : "feeling5_1",
 						"chinese" : "无论在海中，还是在陆地上…对我来说，只要与你一起，哪里都是最美的风景。",
 						"chineseTL" : "",

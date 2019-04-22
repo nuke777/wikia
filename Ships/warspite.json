@@ -136,7 +136,7 @@
 			"rarity" : "Common",
 			"name" : "Twin 381mm Main Gun"
 		},
-		"1" : {
+		"2" : {
 			"icon" : "22000",
 			"rarity" : "",
 			"name" : "Single 152mm Auxiliary Gun"
@@ -259,13 +259,13 @@
 			"preload": "0/0/0/0"
 		},
 		"4": {
-			"type": "Auxilary",
+			"type": "Auxiliary",
 			"efficiency": "-",
 			"amount": "-",
 			"preload": "-"
 		},
 		"5": {
-			"type": "Auxilary",
+			"type": "Auxiliary",
 			"efficiency": "-",
 			"amount": "-",
 			"preload": "-"
@@ -344,7 +344,7 @@
 						"englishNote" : ""
 					},
 					"3" : {
-						"event" : "Receive",
+						"event" : "Acquisition",
 						"media" : "get",
 						"chinese" : "初次见面，我是厌战，最远炮击命中移动目标的记录保持者——很意外吗？我比想象中的要小只？看来我们需要好好谈谈……",
 						"chineseTL" : "",
@@ -356,7 +356,7 @@
 						"englishNote" : ""
 					},
 					"4" : {
-						"event" : "Log in",
+						"event" : "Login",
 						"media" : "login",
 						"chinese" : "只要有我厌战在，敌人跑再远都能解决掉",
 						"chineseTL" : "",
@@ -368,7 +368,7 @@
 						"englishNote" : ""
 					},
 					"5" : {
-						"event" : "View details",
+						"event" : "Details",
 						"media" : "detail",
 						"chinese" : "不要被数据迷惑双眼，影响胜利的还有许多东西",
 						"chineseTL" : "",
@@ -380,7 +380,7 @@
 						"englishNote" : ""
 					},
 					"6" : {
-						"event" : "Main screen 1",
+						"event" : "Main 1",
 						"media" : "main_1",
 						"chinese" : "指挥官的命令就是法令，我会优先对待的",
 						"chineseTL" : "",
@@ -392,7 +392,7 @@
 						"englishNote" : ""
 					},
 					"7" : {
-						"event" : "Main screen 2",
+						"event" : "Main 2",
 						"media" : "main_2",
 						"chinese" : "老女士如果不穿裙子跑得就更快了，比比看吗？",
 						"chineseTL" : "",
@@ -404,7 +404,7 @@
 						"englishNote" : ""
 					},
 					"8" : {
-						"event" : "Main screen 3",
+						"event" : "Main 3",
 						"media" : "main_3",
 						"chinese" : "再拿我开玩笑的话，即使吃15寸炮弹也没关系吗？",
 						"chineseTL" : "",
@@ -416,7 +416,7 @@
 						"englishNote" : ""
 					},
 					"9" : {
-						"event" : "Normal touch",
+						"event" : "Touch",
 						"media" : "touch_1",
 						"chinese" : "身体的接触……并不讨厌……",
 						"chineseTL" : "",
@@ -428,7 +428,7 @@
 						"englishNote" : ""
 					},
 					"10" : {
-						"event" : "Special touch",
+						"event" : "Touch (Special)",
 						"media" : "touch_2",
 						"chinese" : "你要清楚，我绝对没有那么的、呃……",
 						"chineseTL" : "",
@@ -440,7 +440,7 @@
 						"englishNote" : ""
 					},
 					"11" : {
-						"event" : "Mission reminder",
+						"event" : "Mission",
 						"media" : "task",
 						"chinese" : "接下新的任务然后下令出征吧，指挥官",
 						"chineseTL" : "",
@@ -452,7 +452,7 @@
 						"englishNote" : ""
 					},
 					"12" : {
-						"event" : "Mission complete",
+						"event" : "Mission Complete",
 						"media" : "mission_complete",
 						"chinese" : "所谓任务，完成必定有其奖励，可别忘了领取",
 						"chineseTL" : "",
@@ -464,7 +464,7 @@
 						"englishNote" : ""
 					},
 					"13" : {
-						"event" : "Mail reminder",
+						"event" : "Mail",
 						"media" : "mail",
 						"chinese" : "指挥官，有你的信件",
 						"chineseTL" : "",
@@ -476,7 +476,7 @@
 						"englishNote" : ""
 					},
 					"14" : {
-						"event" : "Return to port",
+						"event" : "Return to Port",
 						"media" : "home",
 						"chinese" : "呼…不错的杀气，不过回来了就放松一下吧",
 						"chineseTL" : "",
@@ -488,7 +488,7 @@
 						"englishNote" : ""
 					},
 					"15" : {
-						"event" : "Commission complete",
+						"event" : "Commission Complete",
 						"media" : "expedition",
 						"chinese" : "委托啊，真怀念，我以前也有到处跑的时候，走吧，努力的她们理应得到迎接",
 						"chineseTL" : "",
@@ -500,7 +500,7 @@
 						"englishNote" : ""
 					},
 					"16" : {
-						"event" : "Enhancing complete",
+						"event" : "Enhancement",
 						"media" : "upgrade",
 						"chinese" : "战场啊，我来了",
 						"chineseTL" : "",
@@ -512,7 +512,7 @@
 						"englishNote" : ""
 					},
 					"17" : {
-						"event" : "Flagship fight",
+						"event" : "Flagship",
 						"media" : "warcry",
 						"chinese" : "绝不放过与指挥官为敌的人！",
 						"chineseTL" : "",
@@ -548,7 +548,7 @@
 						"englishNote" : ""
 					},
 					"20" : {
-						"event" : "Skills",
+						"event" : "Skill",
 						"media" : "skill",
 						"chinese" : "Belli dura despicio！",
 						"chineseTL" : "",
@@ -572,7 +572,7 @@
 						"englishNote" : ""
 					},
 					"22" : {
-						"event" : "Upset",
+						"event" : "Affinity (Upset)",
 						"media" : "feeling1",
 						"chinese" : "请你不要摆出一副好像你和我很熟的样子",
 						"chineseTL" : "",
@@ -584,7 +584,7 @@
 						"englishNote" : ""
 					},
 					"23" : {
-						"event" : "Stranger",
+						"event" : "Affinity (Stranger)",
 						"media" : "feeling2",
 						"chinese" : "指挥官，想要听听皇家海军史吗？我给你讲讲我以前跟随过的那些将领吧",
 						"chineseTL" : "",
@@ -596,7 +596,7 @@
 						"englishNote" : ""
 					},
 					"24" : {
-						"event" : "Friendly",
+						"event" : "Affinity (Friendly)",
 						"media" : "feeling3",
 						"chinese" : "没有什么贵族气质吗？不像胡德她们那样还真是对不起呢……我才没有在说欧派……",
 						"chineseTL" : "",
@@ -608,7 +608,7 @@
 						"englishNote" : ""
 					},
 					"25" : {
-						"event" : "Crush",
+						"event" : "Affinity (Like)",
 						"media" : "feeling4",
 						"chinese" : "怎么说呢……我在姐妹们之中是算得上是年长者的，虽然是这种体型……就是，感觉和她们争有点丢脸，又忍不住想见你……不知道怎么办好……",
 						"chineseTL" : "",
@@ -620,7 +620,7 @@
 						"englishNote" : ""
 					},
 					"26" : {
-						"event" : "Love",
+						"event" : "Affinity (Love)",
 						"media" : "feeling5",
 						"chinese" : "算了，我可是厌战，藐视战争的厌战！哼，不过要是有谁想抢指挥官，那就先问过我的大炮再说吧！",
 						"chineseTL" : "",
@@ -632,7 +632,7 @@
 						"englishNote" : ""
 					},
 					"27" : {
-						"event" : "Promise",
+						"event" : "Pledge",
 						"media" : "propose",
 						"chinese" : "这一天终于来了吗，看来我的努力没有白费……走吧指挥官，我已经准备好了，Officers，draw swords！",
 						"chineseTL" : "",
@@ -644,7 +644,7 @@
 						"englishNote" : ""
 					},
 					"28" : {
-						"event" : "Easter Egg 1(Gridley, Maury)",
+						"event" : "Easter Egg 1 (Gridley, Maury)",
 						"media" : "link1",
 						"chinese" : "要和老女士比比速度吗，小家伙",
 						"chineseTL" : "",
@@ -656,7 +656,7 @@
 						"englishNote" : ""
 					},
 					"29" : {
-						"event" : "Easter Egg 2(Enterprise)",
+						"event" : "Easter Egg 2 (Enterprise)",
 						"media" : "link2",
 						"chinese" : "天下无双？哈……",
 						"chineseTL" : "",
@@ -668,7 +668,7 @@
 						"englishNote" : ""
 					},
 					"30" : {
-						"event" : "Easter Egg 3(Hood)",
+						"event" : "Easter Egg 3 (Hood)",
 						"media" : "link3",
 						"chinese" : "优雅可不适合战场",
 						"chineseTL" : "",
@@ -680,7 +680,7 @@
 						"englishNote" : ""
 					},
 					"31" : {
-						"event" : "Easter Egg 4(Queen Elizabeth)",
+						"event" : "Easter Egg 4 (Queen Elizabeth)",
 						"media" : "link4",
 						"chinese" : "陛下，请期待我的活跃",
 						"chineseTL" : "",
@@ -692,7 +692,7 @@
 						"englishNote" : ""
 					},
 					"32" : {
-						"event" : "Easter Egg 5(Nelson, Rodney)",
+						"event" : "Easter Egg 5 (Nelson, Rodney)",
 						"media" : "link5",
 						"chinese" : "后辈们，跟上",
 						"chineseTL" : "",
@@ -723,7 +723,7 @@
 						"englishNote" : ""
 					},
 					"2" : {
-						"event" : "Receive",
+						"event" : "Acquisition",
 						"media" : "get_1",
 						"chinese" : "今年是我负责给皇家的孩子们送礼物。嗯，把这个圣诞树装饰好就出发吧！",
 						"chineseTL" : "",
@@ -735,7 +735,7 @@
 						"englishNote" : ""
 					},
 					"3" : {
-						"event" : "Log in",
+						"event" : "Login",
 						"media" : "login_1",
 						"chinese" : "战士也是需要适当休息的，既然是节日，你也不用太紧绷神经",
 						"chineseTL" : "",
@@ -747,7 +747,7 @@
 						"englishNote" : ""
 					},
 					"4" : {
-						"event" : "View details",
+						"event" : "Details",
 						"media" : "detail_1",
 						"chinese" : "陛下房门上的圣诞节花圈……嗯嗯，贝法告诉我用贝壳做的就好！指挥官，赶快出海去捡一些吧！",
 						"chineseTL" : "",
@@ -759,7 +759,7 @@
 						"englishNote" : ""
 					},
 					"5" : {
-						"event" : "Main screen 1",
+						"event" : "Main 1",
 						"media" : "main_1_1",
 						"chinese" : "指挥官你也想要礼物…？真想要的话也不是不能给你…",
 						"chineseTL" : "",
@@ -771,7 +771,7 @@
 						"englishNote" : ""
 					},
 					"6" : {
-						"event" : "Main screen 2",
+						"event" : "Main 2",
 						"media" : "main_2_1",
 						"chinese" : "唔…该给陛下什么礼物呢，不能太贵又不能太便宜，不用太稀奇又不能太普通的礼物，那究竟是什么……",
 						"chineseTL" : "",
@@ -783,7 +783,7 @@
 						"englishNote" : ""
 					},
 					"7" : {
-						"event" : "Main screen 3",
+						"event" : "Main 3",
 						"media" : "main_3_1",
 						"chinese" : "既然是圣诞礼物自然要从烟囱…诶？会被当成可疑人物吗？",
 						"chineseTL" : "",
@@ -795,7 +795,7 @@
 						"englishNote" : ""
 					},
 					"8" : {
-						"event" : "Normal touch",
+						"event" : "Touch",
 						"media" : "touch_1_1",
 						"chinese" : "指挥官，来帮我装饰一下圣诞树，我够不到……等等，谁让你把我抱起来了！",
 						"chineseTL" : "",
@@ -807,7 +807,7 @@
 						"englishNote" : ""
 					},
 					"9" : {
-						"event" : "Mission reminder",
+						"event" : "Mission",
 						"media" : "task_1",
 						"chinese" : "指挥官，出任务的时候能顺便帮我把这个礼物送给那个孩子吗？",
 						"chineseTL" : "",
@@ -819,7 +819,7 @@
 						"englishNote" : ""
 					},
 					"10" : {
-						"event" : "Return to port",
+						"event" : "Return to Port",
 						"media" : "home_1",
 						"chinese" : "好，既然回来了，就开始另一片战场的任务吧，目标是把这些礼物都发完！",
 						"chineseTL" : "",
@@ -831,7 +831,7 @@
 						"englishNote" : ""
 					},
 					"11" : {
-						"event" : "Love",
+						"event" : "Affinity (Love)",
 						"media" : "feeling5_1",
 						"chinese" : "抱歉啊，指挥官，让你陪我度过了一个不太浪漫的圣诞节。这样就好…吗，哼，你总是这样。那…至少，在圣夜的钟声里，让我们两个人享受这个夜晚吧。",
 						"chineseTL" : "",
@@ -862,7 +862,7 @@
 						"englishNote" : ""
 					},
 					"2" : {
-						"event" : "Receive",
+						"event" : "Acquisition",
 						"media" : "get_9",
 						"chinese" : "厌战、改造完毕。这种焕然一新的感觉确实不错…让我们一起迎接新的战场吧，指挥官",
 						"chineseTL" : "",
@@ -874,7 +874,7 @@
 						"englishNote" : ""
 					},
 					"3" : {
-						"event" : "Log in",
+						"event" : "Login",
 						"media" : "login_9",
 						"chinese" : "现在的我能解决更远的敌人了，指挥官，尽管把出击任务交给我吧",
 						"chineseTL" : "",
@@ -886,7 +886,7 @@
 						"englishNote" : ""
 					},
 					"4" : {
-						"event" : "Main screen 1",
+						"event" : "Main 1",
 						"media" : "main_1_9",
 						"chinese" : "对指挥官谏言，也是秘书舰的职责，所以当指挥官做出有失偏颇的言行时，我是不会客气的",
 						"chineseTL" : "",
@@ -898,7 +898,7 @@
 						"englishNote" : ""
 					},
 					"5" : {
-						"event" : "Main screen 2",
+						"event" : "Main 2",
 						"media" : "main_2_9",
 						"chinese" : "只有存活到最后，才足以被称为强者",
 						"chineseTL" : "",
@@ -910,7 +910,7 @@
 						"englishNote" : ""
 					},
 					"6" : {
-						"event" : "Main screen 3",
+						"event" : "Main 3",
 						"media" : "main_3_9",
 						"chinese" : "每一场战斗，最后都会化作自身的力量，所以面对任何战斗，我都会全力以赴",
 						"chineseTL" : "",
@@ -922,7 +922,7 @@
 						"englishNote" : ""
 					},
 					"7" : {
-						"event" : "Normal touch",
+						"event" : "Touch",
 						"media" : "touch_1_9",
 						"chinese" : "指挥官，有什么想说的就尽管说吧，我会在这里好好地听着的",
 						"chineseTL" : "",
@@ -934,7 +934,7 @@
 						"englishNote" : ""
 					},
 					"8" : {
-						"event" : "Special touch",
+						"event" : "Touch (Special)",
 						"media" : "touch_2_9",
 						"chinese" : "关键的部分没什么成长？…看来指挥官是想尝尝高射炮的滋味了…",
 						"chineseTL" : "",

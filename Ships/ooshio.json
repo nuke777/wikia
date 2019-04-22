@@ -103,7 +103,7 @@
 			"rarity" : "Common",
 			"name" : "127mm Mounted Gun"
 		},
-		"1" : {
+		"2" : {
 			"icon" : "35200",
 			"rarity" : "Rare",
 			"name" : "Quadruple 610mm Torpedo"
@@ -226,13 +226,13 @@
 			"preload": "0/0/0/0"
 		},
 		"4": {
-			"type": "Auxilary",
+			"type": "Auxiliary",
 			"efficiency": "-",
 			"amount": "-",
 			"preload": "-"
 		},
 		"5": {
-			"type": "Auxilary",
+			"type": "Auxiliary",
 			"efficiency": "-",
 			"amount": "-",
 			"preload": "-"
@@ -311,7 +311,7 @@
 						"englishNote" : ""
 					},
 					"3" : {
-						"event" : "Receive",
+						"event" : "Acquisition",
 						"media" : "get",
 						"chinese" : "哎呀，似乎是位出色的指挥官呢~怎么看出来的？当然是你背后这么多出色的姐妹们了~我叫大潮，舰队的各位请多指教~",
 						"chineseTL" : "",
@@ -323,7 +323,7 @@
 						"englishNote" : ""
 					},
 					"4" : {
-						"event" : "Log in",
+						"event" : "Login",
 						"media" : "login",
 						"chinese" : "指挥官，今天也为了大家的幸福一起加油吧~",
 						"chineseTL" : "",
@@ -335,7 +335,7 @@
 						"englishNote" : ""
 					},
 					"5" : {
-						"event" : "View details",
+						"event" : "Details",
 						"media" : "detail",
 						"chinese" : "指挥官最喜欢哪位姐妹？感觉我们可以就这个话题交流一下呢",
 						"chineseTL" : "",
@@ -347,7 +347,7 @@
 						"englishNote" : ""
 					},
 					"6" : {
-						"event" : "Main screen 1",
+						"event" : "Main 1",
 						"media" : "main_1",
 						"chinese" : "能和这么多优秀的姐妹朝夕共处，指挥官真是令人羡慕呢",
 						"chineseTL" : "",
@@ -359,7 +359,7 @@
 						"englishNote" : ""
 					},
 					"7" : {
-						"event" : "Main screen 2",
+						"event" : "Main 2",
 						"media" : "main_2",
 						"chinese" : "朝潮真是可爱呢，呵呵…",
 						"chineseTL" : "",
@@ -371,7 +371,7 @@
 						"englishNote" : ""
 					},
 					"8" : {
-						"event" : "Main screen 3",
+						"event" : "Main 3",
 						"media" : "main_3",
 						"chinese" : "指挥官，有空的话，把大家叫过来开个茶会怎么样？",
 						"chineseTL" : "",
@@ -383,7 +383,7 @@
 						"englishNote" : ""
 					},
 					"9" : {
-						"event" : "Normal touch",
+						"event" : "Touch",
 						"media" : "touch_1",
 						"chinese" : "今天给姐妹们做些什么点心呢…哎呀，指挥官也想要吗？真没办法~",
 						"chineseTL" : "",
@@ -395,7 +395,7 @@
 						"englishNote" : ""
 					},
 					"10" : {
-						"event" : "Special touch",
+						"event" : "Touch (Special)",
 						"media" : "touch_2",
 						"chinese" : "哎呀，看来要让其他姐妹们也知道一下指挥官的危险了呢",
 						"chineseTL" : "",
@@ -407,7 +407,7 @@
 						"englishNote" : ""
 					},
 					"11" : {
-						"event" : "Mission reminder",
+						"event" : "Mission",
 						"media" : "task",
 						"chinese" : "指挥官，到任务的时间咯",
 						"chineseTL" : "",
@@ -419,7 +419,7 @@
 						"englishNote" : ""
 					},
 					"12" : {
-						"event" : "Mission complete",
+						"event" : "Mission Complete",
 						"media" : "mission_complete",
 						"chinese" : "指挥官，任务奖励到了呢",
 						"chineseTL" : "",
@@ -431,7 +431,7 @@
 						"englishNote" : ""
 					},
 					"13" : {
-						"event" : "Mail reminder",
+						"event" : "Mail",
 						"media" : "mail",
 						"chinese" : "指挥官，有信，会不会是情书呢~",
 						"chineseTL" : "",
@@ -443,7 +443,7 @@
 						"englishNote" : ""
 					},
 					"14" : {
-						"event" : "Return to port",
+						"event" : "Return to Port",
 						"media" : "home",
 						"chinese" : "平安回来了呢，姐妹们没有受伤吗？",
 						"chineseTL" : "",
@@ -455,7 +455,7 @@
 						"englishNote" : ""
 					},
 					"15" : {
-						"event" : "Commission complete",
+						"event" : "Commission Complete",
 						"media" : "expedition",
 						"chinese" : "哎呀，委托组的大家回来了呢…看起来真开心呀，我也好想加入呢",
 						"chineseTL" : "",
@@ -467,7 +467,7 @@
 						"englishNote" : ""
 					},
 					"16" : {
-						"event" : "Enhancing complete",
+						"event" : "Enhancement",
 						"media" : "upgrade",
 						"chinese" : "承蒙指挥官的厚爱~",
 						"chineseTL" : "",
@@ -479,7 +479,7 @@
 						"englishNote" : ""
 					},
 					"17" : {
-						"event" : "Flagship fight",
+						"event" : "Flagship",
 						"media" : "warcry",
 						"chinese" : "大家小心不要让自己受伤哦",
 						"chineseTL" : "",
@@ -515,7 +515,7 @@
 						"englishNote" : ""
 					},
 					"20" : {
-						"event" : "Skills",
+						"event" : "Skill",
 						"media" : "skill",
 						"chinese" : "为了舰队的大家！",
 						"chineseTL" : "",
@@ -539,7 +539,7 @@
 						"englishNote" : ""
 					},
 					"22" : {
-						"event" : "Upset",
+						"event" : "Affinity (Upset)",
 						"media" : "feeling1",
 						"chinese" : "果然跟指挥官还是无法心意相通吗…",
 						"chineseTL" : "",
@@ -551,7 +551,7 @@
 						"englishNote" : ""
 					},
 					"23" : {
-						"event" : "Stranger",
+						"event" : "Affinity (Stranger)",
 						"media" : "feeling2",
 						"chinese" : "女孩子们都那么可爱，怎么会有人不喜欢呢？",
 						"chineseTL" : "",
@@ -563,7 +563,7 @@
 						"englishNote" : ""
 					},
 					"24" : {
-						"event" : "Friendly",
+						"event" : "Affinity (Friendly)",
 						"media" : "feeling3",
 						"chinese" : "无论男女，只要是优秀又可爱的孩子，我都会动心哟。重要的不是性别，而是内在呢~",
 						"chineseTL" : "",
@@ -575,7 +575,7 @@
 						"englishNote" : ""
 					},
 					"25" : {
-						"event" : "Crush",
+						"event" : "Affinity (Like)",
 						"media" : "feeling4",
 						"chinese" : "指挥官人真好呢，感觉能够理解舰队的大家为什么都这么信任指挥官了，我也…",
 						"chineseTL" : "",
@@ -587,7 +587,7 @@
 						"englishNote" : ""
 					},
 					"26" : {
-						"event" : "Love",
+						"event" : "Affinity (Love)",
 						"media" : "feeling5",
 						"chinese" : "呵呵~我只是普通地喜欢上了优秀又可爱的指挥官而已，指挥官呢，喜欢大潮吗？",
 						"chineseTL" : "",
@@ -599,7 +599,7 @@
 						"englishNote" : ""
 					},
 					"27" : {
-						"event" : "Promise",
+						"event" : "Pledge",
 						"media" : "propose",
 						"chinese" : "我喜欢的是独一无二的指挥官，而指挥官喜欢的，也是独一无二的大潮，一定不会有比这更美好的事了，对吧，指挥官~",
 						"chineseTL" : "",
@@ -611,7 +611,7 @@
 						"englishNote" : ""
 					},
 					"28" : {
-						"event" : "Easter Egg 1(Yuudachi)",
+						"event" : "Easter Egg 1 (Yuudachi)",
 						"media" : "link1",
 						"chinese" : "夕立，过来我这边~",
 						"chineseTL" : "",
@@ -623,7 +623,7 @@
 						"englishNote" : ""
 					},
 					"29" : {
-						"event" : "Easter Egg 2(Asashio, Michishio)",
+						"event" : "Easter Egg 2 (Asashio, Michishio)",
 						"media" : "link2",
 						"chinese" : "第八驱，出击~",
 						"chineseTL" : "",
@@ -654,7 +654,7 @@
 						"englishNote" : ""
 					},
 					"2" : {
-						"event" : "Receive",
+						"event" : "Acquisition",
 						"media" : "get_1",
 						"chinese" : "Merry Christmas ~指挥官，我们一起去给驱逐妹妹们送圣诞礼物吧，指挥官是圣诞老人，而我就是驯鹿，嘻嘻~",
 						"chineseTL" : "",
@@ -666,7 +666,7 @@
 						"englishNote" : ""
 					},
 					"3" : {
-						"event" : "View details",
+						"event" : "Details",
 						"media" : "detail_1",
 						"chinese" : "这件衣服果然有些太紧了呢……来年换一件新的好了",
 						"chineseTL" : "",
@@ -678,7 +678,7 @@
 						"englishNote" : ""
 					},
 					"4" : {
-						"event" : "Main screen 1",
+						"event" : "Main 1",
 						"media" : "main_1_1",
 						"chinese" : "说起来，指挥官想要什么礼物呢，说不定我可以为你准备哦？",
 						"chineseTL" : "",
@@ -690,7 +690,7 @@
 						"englishNote" : ""
 					},
 					"5" : {
-						"event" : "Main screen 2",
+						"event" : "Main 2",
 						"media" : "main_2_1",
 						"chinese" : "说起来，圣诞的话果然把大家聚集在一起开个派对会比较热闹呢~",
 						"chineseTL" : "",
@@ -702,7 +702,7 @@
 						"englishNote" : ""
 					},
 					"6" : {
-						"event" : "Main screen 3",
+						"event" : "Main 3",
 						"media" : "main_3_1",
 						"chinese" : "到了年末，果然大家脸上都会洋溢着笑容呢，嘻嘻，我也很开心哦",
 						"chineseTL" : "",
@@ -714,7 +714,7 @@
 						"englishNote" : ""
 					},
 					"7" : {
-						"event" : "Normal touch",
+						"event" : "Touch",
 						"media" : "touch_1_1",
 						"chinese" : "为什么想要给大家送礼物？那当然是因为能看到大家可爱的睡颜呢~",
 						"chineseTL" : "",
@@ -726,7 +726,7 @@
 						"englishNote" : ""
 					},
 					"8" : {
-						"event" : "Special touch",
+						"event" : "Touch (Special)",
 						"media" : "touch_2_1",
 						"chinese" : "真是没办法呢……圣诞特别服务哦",
 						"chineseTL" : "",
@@ -738,7 +738,7 @@
 						"englishNote" : ""
 					},
 					"9" : {
-						"event" : "Mission complete",
+						"event" : "Mission Complete",
 						"media" : "mission_complete_1",
 						"chinese" : "把任务奖励看作司令部给我们的圣诞礼物会不会高兴一点呢~",
 						"chineseTL" : "",
@@ -750,7 +750,7 @@
 						"englishNote" : ""
 					},
 					"10" : {
-						"event" : "Mail reminder",
+						"event" : "Mail",
 						"media" : "mail_1",
 						"chinese" : "指挥官，有邮件呢，说不定是哪个孩子对圣诞老人的感谢信哦？",
 						"chineseTL" : "",
@@ -762,7 +762,7 @@
 						"englishNote" : ""
 					},
 					"11" : {
-						"event" : "Return to port",
+						"event" : "Return to Port",
 						"media" : "home_1",
 						"chinese" : "呵呵，为平安归来的姐妹们我准备了礼物哦，当然指挥官也有份~",
 						"chineseTL" : "",
@@ -774,7 +774,7 @@
 						"englishNote" : ""
 					},
 					"12" : {
-						"event" : "Love",
+						"event" : "Affinity (Love)",
 						"media" : "feeling5_1",
 						"chinese" : "指挥官，等到给大家派送完礼物后有空吗？嘻嘻，我为心爱的指挥官准备了一份特别的礼物呢，到时候不要太惊讶哦~",
 						"chineseTL" : "",

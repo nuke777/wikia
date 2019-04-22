@@ -82,6 +82,16 @@
 			}
 		},
 		"2" : {
+			"id" : "lafei_2",
+			"name" : "33-Nyan",
+			"description" : "Zzz... feels like... I have to charge again... Bili...",
+			"expression" : {
+				"0" : {
+					"id" : "0"
+				}
+			}
+		},
+		"3" : {
 			"id" : "lafei_3",
 			"name" : "Snow Rabbit and Candy Apple ",
 			"description" : "Mmph... The waistline is too high... and a little too tight... The sleeves are too breezy cause they're so big... It's not like I wanted to change clothes, but... what do you think, Commander? ",
@@ -91,7 +101,7 @@
 				}
 			}
 		},
-		"3" : {
+		"4" : {
 			"id" : "lafei_4",
 			"name" : "White Rabbit Welcomes the Spring ",
 			"description" : "Have a happy and auspicious New Year? Uh.... can I go now...? I'm feeling a bit sleepy, so can I go back to sleep? ",
@@ -107,7 +117,7 @@
 				}
 			}
 		},
-		"4" : {
+		"5" : {
 			"id" : "lafei_g",
 			"name" : "Laffey (Retrofit)",
 			"description" : "Laffey, improved and reporting in! I feel energized and ready to redouble my efforts! Hey, Commander, I still don't want you to touch my ears...",
@@ -247,13 +257,13 @@
 			"preload": "0/0/0/0"
 		},
 		"4": {
-			"type": "Auxilary",
+			"type": "Auxiliary",
 			"efficiency": "-",
 			"amount": "-",
 			"preload": "-"
 		},
 		"5": {
-			"type": "Auxilary",
+			"type": "Auxiliary",
 			"efficiency": "-",
 			"amount": "-",
 			"preload": "-"
@@ -332,7 +342,7 @@
 						"englishNote" : ""
 					},
 					"3" : {
-						"event" : "Receive",
+						"event" : "Acquisition",
 						"media" : "get",
 						"chinese" : "本森级驱逐舰拉菲听候您的吩咐……指挥官，这个耳朵不是真的，请不要再盯着看了……",
 						"chineseTL" : "",
@@ -344,7 +354,7 @@
 						"englishNote" : ""
 					},
 					"4" : {
-						"event" : "Log in",
+						"event" : "Login",
 						"media" : "login",
 						"chinese" : "指挥官休息的还好吗，拉菲现在很有精神，大概",
 						"chineseTL" : "",
@@ -356,7 +366,7 @@
 						"englishNote" : ""
 					},
 					"5" : {
-						"event" : "View details",
+						"event" : "Details",
 						"media" : "detail",
 						"chinese" : "如果我的躯体不再是这个躯体，你还会看我吗？……",
 						"chineseTL" : "",
@@ -368,7 +378,7 @@
 						"englishNote" : ""
 					},
 					"6" : {
-						"event" : "Main screen 1",
+						"event" : "Main 1",
 						"media" : "main_1",
 						"chinese" : "指挥官，我们要不要种点花呢？",
 						"chineseTL" : "",
@@ -380,7 +390,7 @@
 						"englishNote" : ""
 					},
 					"7" : {
-						"event" : "Main screen 2",
+						"event" : "Main 2",
 						"media" : "main_2",
 						"chinese" : "指挥官不理拉菲，哈啊……都要睡着噜……",
 						"chineseTL" : "",
@@ -392,7 +402,7 @@
 						"englishNote" : ""
 					},
 					"8" : {
-						"event" : "Main screen 3",
+						"event" : "Main 3",
 						"media" : "main_3",
 						"chinese" : "嗯？这是拉菲心情好的表现喔",
 						"chineseTL" : "",
@@ -404,7 +414,7 @@
 						"englishNote" : ""
 					},
 					"9" : {
-						"event" : "Main screen 4",
+						"event" : "Main 4",
 						"media" : "main_4",
 						"chinese" : "拉菲并没有在让指挥官理她，嗯，并没有",
 						"chineseTL" : "",
@@ -416,7 +426,7 @@
 						"englishNote" : ""
 					},
 					"10" : {
-						"event" : "Main screen 5",
+						"event" : "Main 5",
 						"media" : "main_5",
 						"chinese" : "拉菲并没有在引诱指挥官跟她玩，嗯，大概",
 						"chineseTL" : "",
@@ -428,7 +438,7 @@
 						"englishNote" : ""
 					},
 					"11" : {
-						"event" : "Main screen 6",
+						"event" : "Main 6",
 						"media" : "main_6",
 						"chinese" : "指挥官指挥官，拉菲，可，怕，吗？",
 						"chineseTL" : "",
@@ -440,7 +450,7 @@
 						"englishNote" : ""
 					},
 					"12" : {
-						"event" : "Normal touch",
+						"event" : "Touch",
 						"media" : "touch_1",
 						"chinese" : "指挥官，累了吗？",
 						"chineseTL" : "",
@@ -452,7 +462,7 @@
 						"englishNote" : ""
 					},
 					"13" : {
-						"event" : "Special touch",
+						"event" : "Touch (Special)",
 						"media" : "touch_2",
 						"chinese" : "指挥官……莫非是变态？！",
 						"chineseTL" : "",
@@ -464,8 +474,8 @@
 						"englishNote" : ""
 					},
 					"14" : {
-						"event" : "Rub",
-						"media" : "headtouch",
+						"event" : "Touch (Head)",
+						"media" : "touch_head",
 						"chinese" : "呣……指挥官，不要摇我……",
 						"chineseTL" : "",
 						"chineseNote" : "",
@@ -476,7 +486,7 @@
 						"englishNote" : ""
 					},
 					"15" : {
-						"event" : "Mission reminder",
+						"event" : "Mission",
 						"media" : "task",
 						"chinese" : "看来……我们还有任务要做",
 						"chineseTL" : "",
@@ -488,7 +498,7 @@
 						"englishNote" : ""
 					},
 					"16" : {
-						"event" : "Mission complete",
+						"event" : "Mission Complete",
 						"media" : "mission_complete",
 						"chinese" : "恩，我们收到了一批奖励",
 						"chineseTL" : "",
@@ -500,7 +510,7 @@
 						"englishNote" : ""
 					},
 					"17" : {
-						"event" : "Mail reminder",
+						"event" : "Mail",
 						"media" : "mail",
 						"chinese" : "指挥官，您的信……",
 						"chineseTL" : "",
@@ -512,7 +522,7 @@
 						"englishNote" : ""
 					},
 					"18" : {
-						"event" : "Return to port",
+						"event" : "Return to Port",
 						"media" : "home",
 						"chinese" : "指挥官，睡一会儿吗？",
 						"chineseTL" : "",
@@ -524,7 +534,7 @@
 						"englishNote" : ""
 					},
 					"19" : {
-						"event" : "Commission complete",
+						"event" : "Commission Complete",
 						"media" : "expedition",
 						"chinese" : "我在想指挥官会不会自己记起来委托已经完成了这件事",
 						"chineseTL" : "",
@@ -536,7 +546,7 @@
 						"englishNote" : ""
 					},
 					"20" : {
-						"event" : "Enhancing complete",
+						"event" : "Enhancement",
 						"media" : "upgrade",
 						"chinese" : "嗯……我去睡个回笼觉",
 						"chineseTL" : "",
@@ -548,7 +558,7 @@
 						"englishNote" : ""
 					},
 					"21" : {
-						"event" : "Flagship fight",
+						"event" : "Flagship",
 						"media" : "warcry",
 						"chinese" : "自我限制解除……",
 						"chineseTL" : "",
@@ -584,7 +594,7 @@
 						"englishNote" : ""
 					},
 					"24" : {
-						"event" : "Skills",
+						"event" : "Skill",
 						"media" : "skill",
 						"chinese" : "状态良好……去吧",
 						"chineseTL" : "",
@@ -608,7 +618,7 @@
 						"englishNote" : ""
 					},
 					"26" : {
-						"event" : "Upset",
+						"event" : "Affinity (Upset)",
 						"media" : "feeling1",
 						"chinese" : "Zzzzzzzzz……",
 						"chineseTL" : "",
@@ -620,7 +630,7 @@
 						"englishNote" : ""
 					},
 					"27" : {
-						"event" : "Stranger",
+						"event" : "Affinity (Stranger)",
 						"media" : "feeling2",
 						"chinese" : "呼啊...指挥官，要睡一会儿吗？",
 						"chineseTL" : "",
@@ -632,7 +642,7 @@
 						"englishNote" : ""
 					},
 					"28" : {
-						"event" : "Friendly",
+						"event" : "Affinity (Friendly)",
 						"media" : "feeling3",
 						"chinese" : "一开始，感觉指挥官有点无聊……不过仔细想想，我除了战斗也很没干劲，说不定我和指挥官很合得来喔……",
 						"chineseTL" : "",
@@ -644,7 +654,7 @@
 						"englishNote" : ""
 					},
 					"29" : {
-						"event" : "Crush",
+						"event" : "Affinity (Like)",
 						"media" : "feeling4",
 						"chinese" : "虽然过去习惯一个人了……和指挥官一起的话，总觉得这样更好……呣……呼……Zzzzzz……",
 						"chineseTL" : "",
@@ -656,7 +666,7 @@
 						"englishNote" : ""
 					},
 					"30" : {
-						"event" : "Love",
+						"event" : "Affinity (Love)",
 						"media" : "feeling5",
 						"chinese" : "现在想想，要是那个时候指挥官在，说不定我能干掉比叡也说不定……唔……虽然现在她要是敢对指挥官出手我也不会对她客气就是了……",
 						"chineseTL" : "",
@@ -668,7 +678,7 @@
 						"englishNote" : ""
 					},
 					"31" : {
-						"event" : "Promise",
+						"event" : "Pledge",
 						"media" : "propose",
 						"chinese" : "原本还一直想着，为了指挥官的话，就算再次化身鬼神也无所谓…不过…被指挥官这么关心着…看来是没有机会了呢…指挥官…失望吗？",
 						"chineseTL" : "",
@@ -680,7 +690,7 @@
 						"englishNote" : ""
 					},
 					"32" : {
-						"event" : "Easter Egg 1(Furutaka)",
+						"event" : "Easter Egg 1 (Furutaka)",
 						"media" : "link1",
 						"chinese" : "逞英雄可没意思",
 						"chineseTL" : "",
@@ -694,6 +704,37 @@
 				}
 			},
 			"2": {
+				"skin_id" : "lafei_2",
+				"id" : "1",
+				"label" : "33-Nyan",
+				"dialogue" : {
+					"1" : {
+						"event" : "Ship Description",
+						"media" : "",
+						"chinese" : "呒…感觉…又要充电了…哔哩……",
+						"chineseTL" : "Zzz... feels like... I have to charge again... Bili...",
+						"chineseNote" : "",
+						"japanese" : "",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"2" : {
+						"event" : "Acquisition",
+						"media" : "",
+						"chinese" : "呒…感觉…又要充电了…哔哩……",
+						"chineseTL" : "Zzz... feels like... I have to charge again... Bili...",
+						"chineseNote" : "",
+						"japanese" : "",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					}
+				}
+			},
+			"3": {
 				"skin_id" : "lafei_3",
 				"id" : "2",
 				"label" : "Snow Rabbit and Candy Apple ",
@@ -711,7 +752,7 @@
 						"englishNote" : ""
 					},
 					"2" : {
-						"event" : "Receive",
+						"event" : "Acquisition",
 						"media" : "get_2",
 						"chinese" : "姆…束腰有点高……还有点紧……袖子漏风，凉飕飕…虽然不是特意换上的…指挥官，你觉得好看吗？",
 						"chineseTL" : "",
@@ -723,7 +764,7 @@
 						"englishNote" : ""
 					},
 					"3" : {
-						"event" : "Log in",
+						"event" : "Login",
 						"media" : "login_2",
 						"chinese" : "这么穿真的很好看吗？那就……多穿一会儿好了",
 						"chineseTL" : "",
@@ -735,7 +776,7 @@
 						"englishNote" : ""
 					},
 					"4" : {
-						"event" : "View details",
+						"event" : "Details",
 						"media" : "detail_2",
 						"chinese" : "狗狗，狗狗不要拉着我跑……指挥官，遛狗好累……",
 						"chineseTL" : "",
@@ -747,7 +788,7 @@
 						"englishNote" : ""
 					},
 					"5" : {
-						"event" : "Main screen 1",
+						"event" : "Main 1",
 						"media" : "main_1_2",
 						"chinese" : "指挥官，要吃苹果糖吗，从绫波那里拿来的，分你一个",
 						"chineseTL" : "",
@@ -759,7 +800,7 @@
 						"englishNote" : ""
 					},
 					"6" : {
-						"event" : "Main screen 2",
+						"event" : "Main 2",
 						"media" : "main_2_2",
 						"chinese" : "明年……要是也和今年一样能好好睡觉就好了",
 						"chineseTL" : "",
@@ -771,7 +812,7 @@
 						"englishNote" : ""
 					},
 					"7" : {
-						"event" : "Main screen 3",
+						"event" : "Main 3",
 						"media" : "main_3_2",
 						"chinese" : "指挥官，标枪她们在叫我，我可以去和她们玩吗？",
 						"chineseTL" : "",
@@ -783,7 +824,7 @@
 						"englishNote" : ""
 					},
 					"8" : {
-						"event" : "Normal touch",
+						"event" : "Touch",
 						"media" : "touch_1_2",
 						"chinese" : "冬天……好困……",
 						"chineseTL" : "",
@@ -795,7 +836,7 @@
 						"englishNote" : ""
 					},
 					"9" : {
-						"event" : "Special touch",
+						"event" : "Touch (Special)",
 						"media" : "touch_2_2",
 						"chinese" : "指挥官，变态……",
 						"chineseTL" : "",
@@ -807,7 +848,7 @@
 						"englishNote" : ""
 					},
 					"10" : {
-						"event" : "Flagship fight",
+						"event" : "Flagship",
 						"media" : "warcry_2",
 						"chinese" : "这件衣服动起来有点不方便……",
 						"chineseTL" : "",
@@ -820,7 +861,7 @@
 					}
 				}
 			},
-			"3": {
+			"4": {
 				"skin_id" : "lafei_4",
 				"id" : "3",
 				"label" : "White Rabbit Welcomes the Spring ",
@@ -838,7 +879,7 @@
 						"englishNote" : ""
 					},
 					"2" : {
-						"event" : "Receive",
+						"event" : "Acquisition",
 						"media" : "get_3",
 						"chinese" : "…新年快乐，吉祥如意？这么说就可以了…？唔，感觉有点困了，拉菲可以回去再睡会了吗？",
 						"chineseTL" : "",
@@ -850,7 +891,7 @@
 						"englishNote" : ""
 					},
 					"3" : {
-						"event" : "Log in",
+						"event" : "Login",
 						"media" : "login_3",
 						"chinese" : "指挥官还不回来，拉菲要靠着树睡着了……Zzz……",
 						"chineseTL" : "",
@@ -862,7 +903,7 @@
 						"englishNote" : ""
 					},
 					"4" : {
-						"event" : "View details",
+						"event" : "Details",
 						"media" : "detail_3",
 						"chinese" : "新年…春节…有什么不同吗？拉菲不是很明白…不过，能好吃好睡的节日…就是好节日，嗯",
 						"chineseTL" : "",
@@ -874,7 +915,7 @@
 						"englishNote" : ""
 					},
 					"5" : {
-						"event" : "Main screen 1",
+						"event" : "Main 1",
 						"media" : "main_1_3",
 						"chinese" : "春节限定版兔耳和兔兔拖鞋…指挥官喜欢吗？拉菲…很喜欢…",
 						"chineseTL" : "",
@@ -886,7 +927,7 @@
 						"englishNote" : ""
 					},
 					"6" : {
-						"event" : "Main screen 2",
+						"event" : "Main 2",
 						"media" : "main_2_3",
 						"chinese" : "z23，好像对春节的传说很有兴趣的样子……",
 						"chineseTL" : "",
@@ -898,7 +939,7 @@
 						"englishNote" : ""
 					},
 					"7" : {
-						"event" : "Main screen 3",
+						"event" : "Main 3",
 						"media" : "main_3_3",
 						"chinese" : "像这样在树上坐着，拉菲感觉自己也要开花了…",
 						"chineseTL" : "",
@@ -910,7 +951,7 @@
 						"englishNote" : ""
 					},
 					"8" : {
-						"event" : "Normal touch",
+						"event" : "Touch",
 						"media" : "touch_1_3",
 						"chinese" : "拉菲没有想借指挥官的肩膀靠一会，嗯，并没有……",
 						"chineseTL" : "",
@@ -922,7 +963,7 @@
 						"englishNote" : ""
 					},
 					"9" : {
-						"event" : "Special touch",
+						"event" : "Touch (Special)",
 						"media" : "touch_2_3",
 						"chinese" : "指挥官，又在想奇怪的事了吗…",
 						"chineseTL" : "",
@@ -934,7 +975,7 @@
 						"englishNote" : ""
 					},
 					"10" : {
-						"event" : "Return to port",
+						"event" : "Return to Port",
 						"media" : "home_3",
 						"chinese" : "那个红红的，一串一串，烧起来之后砰砰砰砰的……唔，有点吵……",
 						"chineseTL" : "",
@@ -947,7 +988,7 @@
 					}
 				}
 			},
-			"4": {
+			"5": {
 				"skin_id" : "lafei_g",
 				"id" : "9",
 				"label" : "Laffey (Retrofit)",
@@ -965,7 +1006,7 @@
 						"englishNote" : ""
 					},
 					"2" : {
-						"event" : "Receive",
+						"event" : "Acquisition",
 						"media" : "get_9",
 						"chinese" : "拉菲，改造完毕。感觉干劲涌上来了，以后会加倍努力的，大概…唔，指挥官，严肃一点，不要一上来就摸我的耳朵……",
 						"chineseTL" : "",
@@ -977,7 +1018,7 @@
 						"englishNote" : ""
 					},
 					"3" : {
-						"event" : "Log in",
+						"event" : "Login",
 						"media" : "login_9",
 						"chinese" : "拉菲，现在，超有精神——",
 						"chineseTL" : "",
@@ -989,7 +1030,7 @@
 						"englishNote" : ""
 					},
 					"4" : {
-						"event" : "View details",
+						"event" : "Details",
 						"media" : "detail_9",
 						"chinese" : "标枪，绫波，Z23……都是好朋友，想和她们，还有大家一直在一起",
 						"chineseTL" : "",
@@ -1001,7 +1042,7 @@
 						"englishNote" : ""
 					},
 					"5" : {
-						"event" : "Main screen 1",
+						"event" : "Main 1",
 						"media" : "main_1_9",
 						"chinese" : "拉菲并没有在摆姿势引诱指挥官夸她，嗯，并没有",
 						"chineseTL" : "",
@@ -1013,7 +1054,7 @@
 						"englishNote" : ""
 					},
 					"6" : {
-						"event" : "Main screen 2",
+						"event" : "Main 2",
 						"media" : "main_2_9",
 						"chinese" : "唔，不过保持这个状态，好累……指挥官，大腿借我，我要睡会儿Zzzzzz",
 						"chineseTL" : "",
@@ -1025,7 +1066,7 @@
 						"englishNote" : ""
 					},
 					"7" : {
-						"event" : "Main screen 3",
+						"event" : "Main 3",
 						"media" : "main_3_9",
 						"chinese" : "被大家说虽然外表变帅了，本质却一点也没有变，这是在夸拉菲吗？",
 						"chineseTL" : "",
@@ -1037,7 +1078,7 @@
 						"englishNote" : ""
 					},
 					"8" : {
-						"event" : "Normal touch",
+						"event" : "Touch",
 						"media" : "touch_1_9",
 						"chinese" : "唔……嗯……糟了，站着睡着了",
 						"chineseTL" : "",

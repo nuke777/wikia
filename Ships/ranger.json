@@ -91,7 +91,7 @@
 			"rarity" : "Common",
 			"name" : "TBF Avenger"
 		},
-		"1" : {
+		"2" : {
 			"icon" : "19000",
 			"rarity" : "",
 			"name" : "SBD Dauntless"
@@ -214,13 +214,13 @@
 			"preload": "0/0/0/0"
 		},
 		"4": {
-			"type": "Auxilary",
+			"type": "Auxiliary",
 			"efficiency": "-",
 			"amount": "-",
 			"preload": "-"
 		},
 		"5": {
-			"type": "Auxilary",
+			"type": "Auxiliary",
 			"efficiency": "-",
 			"amount": "-",
 			"preload": "-"
@@ -299,7 +299,7 @@
 						"englishNote" : ""
 					},
 					"3" : {
-						"event" : "Receive",
+						"event" : "Acquisition",
 						"media" : "get",
 						"chinese" : "我是白鹰第一艘特型航母突击者。我、我才不是上边派来给你补课的！虽然也不是不可以……",
 						"chineseTL" : "",
@@ -311,7 +311,7 @@
 						"englishNote" : ""
 					},
 					"4" : {
-						"event" : "Log in",
+						"event" : "Login",
 						"media" : "login",
 						"chinese" : "趁着今天的好天气，让我去执行作战任务吧，指挥官？",
 						"chineseTL" : "",
@@ -323,7 +323,7 @@
 						"englishNote" : ""
 					},
 					"5" : {
-						"event" : "View details",
+						"event" : "Details",
 						"media" : "detail",
 						"chinese" : "请认真点，不要盯着我奇怪的地方看！——欸……原、原来是在看小舰岛啊……啊哈哈……",
 						"chineseTL" : "",
@@ -335,7 +335,7 @@
 						"englishNote" : ""
 					},
 					"6" : {
-						"event" : "Main screen 1",
+						"event" : "Main 1",
 						"media" : "main_1",
 						"chinese" : "除了作战之外，我还可以教生理……保、保健体育的",
 						"chineseTL" : "",
@@ -347,7 +347,7 @@
 						"englishNote" : ""
 					},
 					"7" : {
-						"event" : "Main screen 2",
+						"event" : "Main 2",
 						"media" : "main_2",
 						"chinese" : "IJN？……唔，就是、呃……才、才不告诉你呢！",
 						"chineseTL" : "",
@@ -359,7 +359,7 @@
 						"englishNote" : ""
 					},
 					"8" : {
-						"event" : "Main screen 3",
+						"event" : "Main 3",
 						"media" : "main_3",
 						"chinese" : "不、不好好听我说话的话，就要惩罚你了！",
 						"chineseTL" : "",
@@ -371,7 +371,7 @@
 						"englishNote" : ""
 					},
 					"9" : {
-						"event" : "Normal touch",
+						"event" : "Touch",
 						"media" : "touch_1",
 						"chinese" : "呀！指挥官你……不要……我是不会把停字说出来的~",
 						"chineseTL" : "",
@@ -383,7 +383,7 @@
 						"englishNote" : ""
 					},
 					"10" : {
-						"event" : "Special touch",
+						"event" : "Touch (Special)",
 						"media" : "touch_2",
 						"chinese" : "别、别胡说啊！谁害羞了啊！",
 						"chineseTL" : "",
@@ -395,7 +395,7 @@
 						"englishNote" : ""
 					},
 					"11" : {
-						"event" : "Mission reminder",
+						"event" : "Mission",
 						"media" : "task",
 						"chinese" : "好好完成作业哦，不然的话就罚你留下补习！",
 						"chineseTL" : "",
@@ -407,7 +407,7 @@
 						"englishNote" : ""
 					},
 					"12" : {
-						"event" : "Mission complete",
+						"event" : "Mission Complete",
 						"media" : "mission_complete",
 						"chinese" : "虽然不是什么值得提的大事，但也不要忘记领奖励啊",
 						"chineseTL" : "",
@@ -419,7 +419,7 @@
 						"englishNote" : ""
 					},
 					"13" : {
-						"event" : "Mail reminder",
+						"event" : "Mail",
 						"media" : "mail",
 						"chinese" : "有指挥官的信哦，要不要我手—把—手的教你回信……呜，还是算了……",
 						"chineseTL" : "",
@@ -431,7 +431,7 @@
 						"englishNote" : ""
 					},
 					"14" : {
-						"event" : "Return to port",
+						"event" : "Return to Port",
 						"media" : "home",
 						"chinese" : "作业已经完成了？会按照说好的给、给你奖励~",
 						"chineseTL" : "",
@@ -443,7 +443,7 @@
 						"englishNote" : ""
 					},
 					"15" : {
-						"event" : "Commission complete",
+						"event" : "Commission Complete",
 						"media" : "expedition",
 						"chinese" : "指挥官~要是发呆忘了检查委托成果被姐妹们责怪我可不管你哦",
 						"chineseTL" : "",
@@ -455,7 +455,7 @@
 						"englishNote" : ""
 					},
 					"16" : {
-						"event" : "Enhancing complete",
+						"event" : "Enhancement",
 						"media" : "upgrade",
 						"chinese" : "现在突击者老师能教你更多的东西了~",
 						"chineseTL" : "",
@@ -467,7 +467,7 @@
 						"englishNote" : ""
 					},
 					"17" : {
-						"event" : "Flagship fight",
+						"event" : "Flagship",
 						"media" : "warcry",
 						"chinese" : "诸位，最后一名会被留下补习的哦~",
 						"chineseTL" : "",
@@ -503,7 +503,7 @@
 						"englishNote" : ""
 					},
 					"20" : {
-						"event" : "Skills",
+						"event" : "Skill",
 						"media" : "skill",
 						"chinese" : "突击者，突击！",
 						"chineseTL" : "",
@@ -515,7 +515,7 @@
 						"englishNote" : ""
 					},
 					"21" : {
-						"event" : "Upset",
+						"event" : "Affinity (Upset)",
 						"media" : "feeling1",
 						"chinese" : "看来是我辞职的时候了……",
 						"chineseTL" : "",
@@ -527,7 +527,7 @@
 						"englishNote" : ""
 					},
 					"22" : {
-						"event" : "Stranger",
+						"event" : "Affinity (Stranger)",
 						"media" : "feeling2",
 						"chinese" : "现在的孩子怎么都在想着奇怪的事情啦！",
 						"chineseTL" : "",
@@ -539,7 +539,7 @@
 						"englishNote" : ""
 					},
 					"23" : {
-						"event" : "Friendly",
+						"event" : "Affinity (Friendly)",
 						"media" : "feeling3",
 						"chinese" : "指挥官是只要认真做就能做好的类型呢，稍微有些开心呐",
 						"chineseTL" : "",
@@ -551,7 +551,7 @@
 						"englishNote" : ""
 					},
 					"24" : {
-						"event" : "Crush",
+						"event" : "Affinity (Like)",
 						"media" : "feeling4",
 						"chinese" : "欸，师师师生恋？！突击者老师才、才没有想过那种事情喔，没有偷偷买过那种漫画看喔，也完全没有期待过什么喔！",
 						"chineseTL" : "",
@@ -563,7 +563,7 @@
 						"englishNote" : ""
 					},
 					"25" : {
-						"event" : "Love",
+						"event" : "Affinity (Love)",
 						"media" : "feeling5",
 						"chinese" : "指挥官真是各种意义上都不能没有我呢，所、所以……那个……我、我要给你留级！",
 						"chineseTL" : "",
@@ -575,7 +575,7 @@
 						"englishNote" : ""
 					},
 					"26" : {
-						"event" : "Promise",
+						"event" : "Pledge",
 						"media" : "propose",
 						"chinese" : "呜……被学生送这么贵重的东西还非常高兴，突击者老师可能要成为教师界的耻辱了……",
 						"chineseTL" : "",
@@ -606,7 +606,7 @@
 						"englishNote" : ""
 					},
 					"2" : {
-						"event" : "Receive",
+						"event" : "Acquisition",
 						"media" : "get_9",
 						"chinese" : "以前一直没有提上日程的现代化改造终于完成了~从今往后突击者老师会更加努力教导大家的！",
 						"chineseTL" : "",
@@ -618,7 +618,7 @@
 						"englishNote" : ""
 					},
 					"3" : {
-						"event" : "Log in",
+						"event" : "Login",
 						"media" : "login_9",
 						"chinese" : "嗯，这孩子的状态也没问题……然后下一个……啊，欢迎回来，指挥官~",
 						"chineseTL" : "",
@@ -630,7 +630,7 @@
 						"englishNote" : ""
 					},
 					"4" : {
-						"event" : "View details",
+						"event" : "Details",
 						"media" : "detail_9",
 						"chinese" : "指挥官呀，舰岛有这~~么好看吗？",
 						"chineseTL" : "",
@@ -642,7 +642,7 @@
 						"englishNote" : ""
 					},
 					"5" : {
-						"event" : "Main screen 1",
+						"event" : "Main 1",
 						"media" : "main_1_9",
 						"chinese" : "工具的强大只是一部分，老师我的职责就是教会大家更好地运用工具。保健体育？会、会继续教的啦！",
 						"chineseTL" : "",
@@ -654,7 +654,7 @@
 						"englishNote" : ""
 					},
 					"6" : {
-						"event" : "Main screen 2",
+						"event" : "Main 2",
 						"media" : "main_2_9",
 						"chinese" : "虽然以前因为没有时间最后只做了一些小强化，不过看到其他孩子们那么有出息，老师我也很欣慰呐",
 						"chineseTL" : "",
@@ -666,7 +666,7 @@
 						"englishNote" : ""
 					},
 					"7" : {
-						"event" : "Main screen 3",
+						"event" : "Main 3",
 						"media" : "main_3_9",
 						"chinese" : "指挥官，老师是信任你所以在一边做些飞机的调整，要是偷懒的话我可要生气咯？",
 						"chineseTL" : "",
@@ -678,7 +678,7 @@
 						"englishNote" : ""
 					},
 					"8" : {
-						"event" : "Normal touch",
+						"event" : "Touch",
 						"media" : "touch_1_9",
 						"chinese" : "来啦来啦，指挥官真是没有老师我就不行呢，嗯嗯，真没办法",
 						"chineseTL" : "",
@@ -690,7 +690,7 @@
 						"englishNote" : ""
 					},
 					"9" : {
-						"event" : "Special touch",
+						"event" : "Touch (Special)",
 						"media" : "touch_2_9",
 						"chinese" : "指挥官，过来帮我扶一下……呀，真是的……",
 						"chineseTL" : "",
@@ -702,7 +702,7 @@
 						"englishNote" : ""
 					},
 					"10" : {
-						"event" : "Return to port",
+						"event" : "Return to Port",
 						"media" : "home_9",
 						"chinese" : "指挥官就算成长了也还是没变呢，过来吧，老师给你奖励~",
 						"chineseTL" : "",
@@ -714,7 +714,7 @@
 						"englishNote" : ""
 					},
 					"11" : {
-						"event" : "Flagship fight",
+						"event" : "Flagship",
 						"media" : "warcry_9",
 						"chinese" : "大家好好发挥学到的东西就好~",
 						"chineseTL" : "",
