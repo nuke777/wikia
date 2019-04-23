@@ -56,20 +56,27 @@
 			"description" : "Increases this ship's DMG with AP ammo by 15% (35%)."
 		},
 		"2" : {
+			"icon" : "19010",
+			"requirement" : "Strengthen Level 35",
+			"name" : "MKV-Class AP Shell +",
+			"type" : "Offensive",
+			"description" : "Increases this ship's DMG with AP ammo by 20% (40%)."
+		},
+		"3" : {
 			"icon" : "19020",
 			"requirement" : "Default Unlocked",
 			"name" : "Goddess of the Sea",
 			"type" : "Defensive",
 			"description" : "When this ship's HP falls below 20.0%: restores 15% (25%) of its max HP. Additionally, for the rest of the battle: increases this ship's RLD by 30.0%. This skill can only activate once per battle."
 		},
-		"3" : {
+		"4" : {
 			"icon" : "19000",
 			"requirement" : "Strenghten Level 10 (I) / Level 20 (II) / Level 30 (III)",
 			"name" : "Siren Killer Ⅰ",
 			"type" : "Offensive",
 			"description" : "Increases the DMG this ship deals to Sirens by 5.0%."
 		},
-		"4" : {
+		"5" : {
 			"icon" : "29231",
 			"requirement" : "Strenghten Level 10 (I) / Level 30 (III)",
 			"name" : "EX Barrage: Neptune Ⅰ",
@@ -134,7 +141,7 @@
 			"hit" : "141",
 			"evasion" : "73",
 			"speed" : "33.5",
-			"luck" : "0",
+			"luck" : "15",
 			"asw" : "135",
 			"oxygen" : "0",
 			"ammo" : "0",
@@ -151,7 +158,7 @@
 			"hit" : "158",
 			"evasion" : "98",
 			"speed" : "33.5",
-			"luck" : "0",
+			"luck" : "15",
 			"asw" : "152",
 			"oxygen" : "0",
 			"ammo" : "0",
@@ -168,7 +175,7 @@
 			"hit" : "",
 			"evasion" : "",
 			"speed" : "33.5",
-			"luck" : "0",
+			"luck" : "15",
 			"asw" : "",
 			"oxygen" : "0",
 			"ammo" : "0",
@@ -185,7 +192,7 @@
 			"hit" : "",
 			"evasion" : "",
 			"speed" : "33.5",
-			"luck" : "0",
+			"luck" : "15",
 			"asw" : "",
 			"oxygen" : "0",
 			"ammo" : "0",
@@ -194,47 +201,47 @@
 		}
 	},
   	"strengthenLevel": {
-	    "level5": "Torpedo Base +1, Torpedo Pre-load +1",
-	    "level10": "Full Barrage I, Main Gun Efficiency +5%, Limit Break ★★★★☆☆",
-	    "level15": "Main Gun Efficiency +5%",
-	    "level20": "Torpedo Efficiency +10%, Limit Break ★★★★★☆",
-	    "level25": "Main Gun Efficiency +10%",
-	    "level30": "Full Barrage II, Main Gun Efficiency +15%, Limit Break ★★★★★★"
+	    "level5": "HP +199 | Anti-Air +17 | Torpedo Base +1 | Preloaded Torpedo +1",
+	    "level10": "Full Barrage I | Main Gun Efficiency +5% | Limit Break ★★★★☆☆",
+	    "level15": "HP +398 | Anti-Air +34 | Main Gun Efficiency +5%",
+	    "level20": "Torpedo Efficiency +10% | Limit Break ★★★★★☆",
+	    "level25": "HP +569 | Anti-Air +51 | Main Gun Efficiency +5%",
+	    "level30": "Full Barrage II | Main Gun Efficiency +15% | Limit Break ★★★★★★"
   	},
 		"fortuneLevel": {
 			"stage1": "Luck +1",
 			"stage2": "Luck +2",
 			"stage3": "Luck +3",
 			"stage4": "Luck +4",
-			"stage5": "Luck +5, [Skill Upgrade]"
+			"stage5": "Luck +5, Improve skill \"MKV-Class AP Shell\""
 		},
 	"equipmentLoadout": {
     "1": {
       "type": "CL Main Gun",
-      "efficiency": "120%/150%",
-      "amount": "1/1",
-      "preload": "0/0"
+      "efficiency": "120%/125%/130%/150%",
+      "amount": "1/1/1/1",
+      "preload": "0/0/0/0"
     },
     "2": {
       "type": "Torpedo",
-      "efficiency": "150%/160%",
-      "amount": "1/2",
-      "preload": "0/0"
+      "efficiency": "150%/150%/160%/160%",
+      "amount": "1/2/2/2",
+      "preload": "0/1/1/1"
     },
     "3": {
       "type": "Anti-Air Gun",
-      "efficiency": "100%/100%",
-      "amount": "1/1",
-      "preload": "0/0"
+      "efficiency": "100%/100%/100%/100%",
+      "amount": "1/1/1/1",
+      "preload": "0/0/0/0"
     },
     "4": {
-      "type": "Auxilliary",
+      "type": "Auxiliary",
       "efficiency": "-",
       "amount": "-",
       "preload": "-"
     },
     "5": {
-      "type": "Auxilliary",
+      "type": "Auxiliary",
       "efficiency": "-",
       "amount": "-",
       "preload": "-"
