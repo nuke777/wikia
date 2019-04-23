@@ -1,31 +1,31 @@
 {
-	"name_reference" : "roon",
-	"cn_reference" : "luoen",
-	"nameJP" : "ローン",
-	"nameCN" : "罗恩",
-	"ID" : "P005",
-	"name" : "Roon",
-	"internal_id" : "499010",
-	"rarity" : "Priority",
-	"initialStar" : "★★★☆☆☆",
-	"hull" : "Heavy Cruiser",
-	"navy" : "Ironblood",
-	"prefix" : "KMS",
-	"buildTime" : "N/A",
-	"class" : "Roon",
-	"voiceActress" : "Satomi Sato",
+	"name_reference": "roon",
+	"cn_reference": "luoen",
+	"nameJP": "ローン",
+	"nameCN": "罗恩",
+	"ID": "P005",
+	"name": "Roon",
+	"internal_id": "499010",
+	"rarity": "Priority",
+	"initialStar": "★★★☆☆☆",
+	"hull": "Heavy Cruiser",
+	"navy": "Ironblood",
+	"prefix": "KMS",
+	"buildTime": "N/A",
+	"class": "Roon",
+	"voiceActress": "Satomi Sato",
 	"parameters": {
-		"firepower" : "A",
-		"torpedo" : "C",
-		"aviation" : "E",
-		"evasion" : "C",
-		"antiAir" : "B",
-		"hp" : "S"
+		"firepower": "A",
+		"torpedo": "C",
+		"aviation": "E",
+		"evasion": "C",
+		"antiAir": "B",
+		"hp": "S"
 	},
 	"scrap": {
-		"gold" : "",
-		"oil" : "",
-		"medal" : ""
+		"gold": "",
+		"oil": "",
+		"medal": ""
 	},
 	"releaseDate": {
 		"JP": "April 26, 2018",
@@ -39,205 +39,212 @@
 		"twitter": "https://twitter.com/Terras59495424",
 		"pixiv": "https://www.pixiv.net/member.php?id=5968035",
 		"other": ""
-},
-	"enhance": {
-		"firepower" : "0",
-		"torpedo" : "0",
-		"aviation" : "0",
-		"reload" : "0"
 	},
-	"acquisitionMethod" : "Priority Research",
+	"enhance": {
+		"firepower": "0",
+		"torpedo": "0",
+		"aviation": "0",
+		"reload": "0"
+	},
+	"acquisitionMethod": "Priority Research",
 	"skill": {
-		"1" : {
-			"icon" : "",
-			"requirement" : "",
-			"name" : "",
-			"type" : "",
-			"description" : ""
+		"1": {
+			"icon": "19090",
+			"requirement": "Default Unlocked",
+			"name": "Expert Loader",
+			"type": "Offensive",
+			"description": "Changes the ammo type of this ship's Main Guns to HE. Every time this ship fires its Main Guns: increases this ship's reload by 1.0% (3.5%) (can be stacked up to 12 times.) The ammo type of this ship's Main Guns will alternate between AP and HE every 2 shots."
 		},
-		"2" : {
-			"icon" : "",
-			"requirement" : "",
-			"name" : "",
-			"type" : "",
-			"description" : ""
+		"2": {
+			"icon": "19100",
+			"requirement": "Default Unlocked",
+			"name": "Well-Rounded Armor",
+			"type": "Defensive",
+			"description": "Every 30s: deploys 4 rotating shields that can each block up to 8 hits. Shields last for 5(15)s."
 		},
-		"3" : {
-			"icon" : "",
-			"requirement" : "",
-			"name" : "",
-			"type" : "",
-			"description" : ""
+		"3": {
+			"icon": "19100",
+			"requirement": "Strengthen Level 35",
+			"name": "Well-Rounded Armor +",
+			"type": "Defensive",
+			"description": "Immediately after start of battle and every 30s: deploys 4 rotating shields that can each block up to 8 hits. Shields last for 5(15)s."
 		},
-		"4" : {
-			"icon" : "",
-			"requirement" : "",
-			"name" : "",
-			"type" : "",
-			"description" : ""
+		"4": {
+			"icon": "19000",
+			"requirement": "Strenghten Level 10 (I) / Level 20 (II) / Level 30 (III)",
+			"name": "Siren Killer Ⅰ",
+			"type": "Offensive",
+			"description": "Increases the DMG this ship deals to Sirens by 5.0%."
+		},
+		"5": {
+			"icon": "29241",
+			"requirement": "Strenghten Level 10 (I) / Level 30 (III)",
+			"name": "EX Barrage: Roon Ⅰ",
+			"type": "Offensive",
+			"description": "Activate EX Barrage: Roon Ⅰ once every 12 times the main gun is fired."
 		}
 	},
 	"skin": {
-		"1" : {
-			"id" : "luoen",
-			"name" : "Roon",
-			"description" : "Heavy Cruiser - Roon",
-			"expression" : {
-				"0" : {
-					"id" : "0"
+		"1": {
+			"id": "luoen",
+			"name": "Roon",
+			"description": "Heavy Cruiser - Roon",
+			"expression": {
+				"0": {
+					"id": "0"
 				}
 			}
 		}
 	},
 	"defaultEquipment": {
-		"1" : {
-			"icon" : "",
-			"rarity" : "",
-			"name" : ""
+		"1": {
+			"icon": "",
+			"rarity": "",
+			"name": ""
 		},
-		"2" : {
-			"icon" : "",
-			"rarity" : "",
-			"name" : ""
+		"2": {
+			"icon": "",
+			"rarity": "",
+			"name": ""
 		},
-		"3" : {
-			"icon" : "",
-			"rarity" : "",
-			"name" : ""
+		"3": {
+			"icon": "",
+			"rarity": "",
+			"name": ""
 		}
 	},
 	"stats": {
 		"base": {
-			"hp" : "",
-			"firepower" : "",
-			"torpedo" : "",
-			"antiAir" : "",
-			"aviation" : "",
-			"reload" : "",
-			"hit" : "",
-			"evasion" : "",
-			"speed" : "",
-			"luck" : "",
-			"asw" : "",
-			"oxygen" : "",
-			"ammo" : "",
-			"cost" : "",
-			"armor" : ""
+			"hp": "1041",
+			"firepower": "53",
+			"torpedo": "40",
+			"antiAir": "43",
+			"aviation": "0",
+			"reload": "63",
+			"hit": "43",
+			"evasion": "9",
+			"speed": "26",
+			"luck": "0",
+			"asw": "0",
+			"oxygen": "0",
+			"ammo": "0",
+			"cost": "4",
+			"armor": "Medium"
 		},
 		"100": {
-			"hp" : "",
-			"firepower" : "",
-			"torpedo" : "",
-			"antiAir" : "",
-			"aviation" : "",
-			"reload" : "",
-			"hit" : "",
-			"evasion" : "",
-			"speed" : "",
-			"luck" : "",
-			"asw" : "",
-			"oxygen" : "",
-			"ammo" : "",
-			"cost" : "",
-			"armor" : ""
+			"hp": "5382",
+			"firepower": "248",
+			"torpedo": "187",
+			"antiAir": "202",
+			"aviation": "0",
+			"reload": "149",
+			"hit": "112",
+			"evasion": "39",
+			"speed": "26",
+			"luck": "15",
+			"asw": "0",
+			"oxygen": "0",
+			"ammo": "0",
+			"cost": "13",
+			"armor": "Medium"
 		},
 		"120": {
-			"hp" : "",
-			"firepower" : "",
-			"torpedo" : "",
-			"antiAir" : "",
-			"aviation" : "",
-			"reload" : "",
-			"hit" : "",
-			"evasion" : "",
-			"speed" : "",
-			"luck" : "",
-			"asw" : "",
-			"oxygen" : "",
-			"ammo" : "",
-			"cost" : "",
-			"armor" : ""
+			"hp": "5920",
+			"firepower": "283",
+			"torpedo": "215",
+			"antiAir": "233",
+			"aviation": "0",
+			"reload": "171",
+			"hit": "125",
+			"evasion": "78",
+			"speed": "26",
+			"luck": "15",
+			"asw": "0",
+			"oxygen": "0",
+			"ammo": "0",
+			"cost": "13",
+			"armor": "Medium"
 		},
 		"100retrofit": {
-			"hp" : "",
-			"firepower" : "",
-			"torpedo" : "",
-			"antiAir" : "",
-			"aviation" : "",
-			"reload" : "",
-			"hit" : "",
-			"evasion" : "",
-			"speed" : "",
-			"luck" : "",
-			"asw" : "",
-			"oxygen" : "",
-			"ammo" : "",
-			"cost" : "",
-			"armor" : ""
+			"hp": "",
+			"firepower": "",
+			"torpedo": "",
+			"antiAir": "",
+			"aviation": "",
+			"reload": "",
+			"hit": "",
+			"evasion": "",
+			"speed": "26",
+			"luck": "15",
+			"asw": "",
+			"oxygen": "0",
+			"ammo": "0",
+			"cost": "13",
+			"armor": "Medium"
 		},
 		"120retrofit": {
-			"hp" : "",
-			"firepower" : "",
-			"torpedo" : "",
-			"antiAir" : "",
-			"aviation" : "",
-			"reload" : "",
-			"hit" : "",
-			"evasion" : "",
-			"speed" : "",
-			"luck" : "",
-			"asw" : "",
-			"oxygen" : "",
-			"ammo" : "",
-			"cost" : "",
-			"armor" : ""
+			"hp": "",
+			"firepower": "",
+			"torpedo": "",
+			"antiAir": "",
+			"aviation": "",
+			"reload": "",
+			"hit": "",
+			"evasion": "",
+			"speed": "26",
+			"luck": "15",
+			"asw": "",
+			"oxygen": "0",
+			"ammo": "0",
+			"cost": "13",
+			"armor": "Medium"
 		}
 	},
 	"strengthenLevel": {
-		"level5": "",
-		"level10": "",
-		"level15": "",
-		"level20": "",
-		"level25": "",
-		"level30": ""
+		"level5": "HP +254 | Anti-Air +11 | Evasion +5 | Main Gun +1",
+		"level10": "Full Barrage I | All Weapon Efficiency +2% | Limit Break ★★★★☆☆",
+		"level15": "HP +508 | Anti-Air +21",
+		"level20": "All Weapon Efficiency +3% | Limit Break ★★★★★☆",
+		"level25": "HP +761 | Anti-Air +32 | Evasion +10",
+		"level30": "Full Barrage II | All Weapon Efficiency +5% | Limit Break ★★★★★★"
 	},
 	"fortuneLevel": {
 		"stage1": "Luck +1",
 		"stage2": "Luck +2",
 		"stage3": "Luck +3",
 		"stage4": "Luck +4",
-		"stage5": "Luck +5, [Skill Upgrade]"
+		"stage5": "Luck +5, Improve skill \"Well-Rounded Armor\""
 	},
 	"equipmentLoadout": {
 		"1": {
-			"type": "",
-			"efficiency": "",
-			"amount": "",
-			"preload": ""
+			"type": "Heavy Cruiser",
+			"efficiency": "110%/112%/115%/120%",
+			"amount": "1/2/2/2",
+			"preload": "0/0/0/0"
 		},
 		"2": {
-			"type": "",
-			"efficiency": "",
-			"amount": "",
-			"preload": ""
+			"type": "Torpedo",
+			"efficiency": "100%/102%/105%/110%",
+			"amount": "1/1/1/1",
+			"preload": "0/0/0/0"
 		},
 		"3": {
-			"type": "",
-			"efficiency": "",
-			"amount": "",
-			"preload": ""
+			"type": "Anti-Air Gun",
+			"efficiency": "100%/102%/105%/110%",
+			"amount": "1/1/1/1",
+			"preload": "0/0/0/0"
 		},
 		"4": {
-			"type": "",
-			"efficiency": "",
-			"amount": "",
-			"preload": ""
+			"type": "Auxilary",
+			"efficiency": "-",
+			"amount": "-",
+			"preload": "-"
 		},
 		"5": {
-			"type": "",
-			"efficiency": "",
-			"amount": "",
-			"preload": ""
+			"type": "Auxilary",
+			"efficiency": "-",
+			"amount": "-",
+			"preload": "-"
 		}
 	},
 	"build": {
@@ -284,10 +291,10 @@
 	"lines": {
 		"skin": {
 			"1": {
-				"skin_id" : "luoen",
-				"id" : "0",
-				"label" : "Roon",
-				"dialogue" : {
+				"skin_id": "luoen",
+				"id": "0",
+				"label": "Roon",
+				"dialogue": {
 					"1": {
 						"event": "Ship Description",
 						"media": "",
