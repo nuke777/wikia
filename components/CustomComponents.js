@@ -95,6 +95,9 @@ class CommentedShipDisplay extends HTMLElement{
 		}
 
 		loadShip(){
+			if (this.ship == null){
+				return;
+			}
 			var self = this;
 			util.loadShipJSON(this.ship, function(response, shipname){
 					var actual_JSON = JSON.parse(response);
@@ -205,6 +208,9 @@ class CommentedShipDisplay extends HTMLElement{
 		}
 
 		addComment(){
+			if (this.comment == null){
+				return;
+			}
 			var comment = this.comment.split("|");
 			console.log(document.getElementById(self.parentID));
 			for (var i = 0; i < comment.length; ++i){
