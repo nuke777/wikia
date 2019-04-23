@@ -86,7 +86,7 @@ function init() {
 			document.getElementById("shipLimitBreakT2").innerHTML = actual_JSON.limitBreak.tier2;
 			document.getElementById("shipLimitBreakT3").innerHTML = actual_JSON.limitBreak.tier3;
 		} else if (actual_JSON.rarity == "Priority" || actual_JSON.rarity == "Decisive"){
-			setPriorityLimitBreaks(actual_JSON.strengthenLevel);
+			setPriorityLimitBreaks(actual_JSON);
 		}
 		document.getElementById("shipEquipmentLoadoutType1").innerHTML = actual_JSON.equipmentLoadout["1"].type;
 		document.getElementById("shipEquipmentLoadoutType2").innerHTML = actual_JSON.equipmentLoadout["2"].type;
@@ -924,7 +924,8 @@ function onSelectShip(){
 	window.location.href = "ship#" + strUser;
 }	
 
-function setPriorityLimitBreaks(data){
+function setPriorityLimitBreaks(json){
+	var data = json.strengthenLevel;
 	document.getElementById("shipEquipmentTableBody").removeChild(document.getElementById("lbRow2"));
 	document.getElementById("shipEquipmentTableBody").removeChild(document.getElementById("lbRow3"));
 	document.getElementById("lbRow1").innerHTML = "";
@@ -955,7 +956,16 @@ function setPriorityLimitBreaks(data){
 			<tr>\
 				<td style="width:20%;padding-left:5px;">Level 30</td>\
 				<td style="width:80%;padding-left:5px;">'+data.level30+'</td>\
-			</tr>\
+			</tr>';
+	if (data.level35 != null){
+		text += '\
+			<tr>\
+				<td style="width:20%;padding-left:5px;">Level 31~35</td>\
+				<td style="width:80%;padding-left:5px;">'+data.level35+'</td>\
+			</tr>';
+	}
+
+	text += '\
 		</table>\
 	</td>';
 	console.log(text);
