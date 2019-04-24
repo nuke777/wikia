@@ -45,12 +45,12 @@
 		}
 		
 		function load(type, element){
+			console.log(type)
 			loadJSON(function(response) {
 				// Parse JSON string into object
 				var actual_JSON = JSON.parse(response);
 				for (var x in actual_JSON){
 					//console.log(actual_JSON[x].link);
-
 					if (actual_JSON[x].shipType != type){
 						continue;
 					}

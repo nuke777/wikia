@@ -49,32 +49,39 @@
 	"acquisitionMethod" : "Priority Research",
 	"skill": {
 		"1" : {
-			"icon" : "",
+			"icon" : "19110",
 			"requirement" : "",
-			"name" : "",
-			"type" : "",
-			"description" : ""
+			"name" : "Augmented HE Ammo",
+			"type" : "Offensive",
+			"description" : "Increases this ship's DMG with HE ammo by $1 but decreases its chance to ignite enemies by 3.0%."
 		},
 		"2" : {
-			"icon" : "",
+			"icon" : "19120",
 			"requirement" : "",
-			"name" : "",
-			"type" : "",
-			"description" : ""
+			"name" : "Engine Boost",
+			"type" : "Defensive",
+			"description" : "Increases this ship's Speed by 3 (8). At the start of the battle: increases this ship's EVA by 15% (35%) for 40s."
 		},
 		"3" : {
-			"icon" : "",
+			"icon" : "19120",
 			"requirement" : "",
-			"name" : "",
-			"type" : "",
-			"description" : ""
+			"name" : "Engine Boost +",
+			"type" : "Defensive",
+			"description" : "Increases this ship's Speed by 3 (8). At the start of the battle: increases this ship's EVA by 15% (35%) for 50s."
 		},
 		"4" : {
-			"icon" : "",
+			"icon" : "19000",
 			"requirement" : "",
-			"name" : "",
-			"type" : "",
-			"description" : ""
+			"name" : "Siren Killer Ⅰ",
+			"type" : "Offensive",
+			"description" : "Increases the DMG this ship deals to Sirens by 5.0%."
+		},
+		"5" : {
+			"icon" : "29251",
+			"requirement" : "",
+			"name" : "EX Barrage: Saint Louis Ⅰ",
+			"type" : "Offensive",
+			"description" : "Activate EX Barrage: Saint Louis Ⅰ once every 12 times the main gun is fired."
 		}
 	},
 	"skin": {
@@ -108,55 +115,55 @@
 	},
 	"stats": {
 		"base": {
-			"hp" : "",
-			"firepower" : "",
-			"torpedo" : "",
-			"antiAir" : "",
-			"aviation" : "",
-			"reload" : "",
-			"hit" : "",
-			"evasion" : "",
-			"speed" : "",
-			"luck" : "",
-			"asw" : "",
-			"oxygen" : "",
-			"ammo" : "",
-			"cost" : "",
-			"armor" : ""
+			"hp" : "943",
+			"firepower" : "52",
+			"torpedo" : "42",
+			"antiAir" : "46",
+			"aviation" : "0",
+			"reload" : "70",
+			"hit" : "47",
+			"evasion" : "10",
+			"speed" : "26.4",
+			"luck" : "0",
+			"asw" : "0",
+			"oxygen" : "0",
+			"ammo" : "0",
+			"cost" : "4",
+			"armor" : "Medium"
 		},
 		"100": {
-			"hp" : "",
-			"firepower" : "",
-			"torpedo" : "",
-			"antiAir" : "",
-			"aviation" : "",
-			"reload" : "",
-			"hit" : "",
-			"evasion" : "",
-			"speed" : "",
-			"luck" : "",
-			"asw" : "",
-			"oxygen" : "",
-			"ammo" : "",
-			"cost" : "",
-			"armor" : ""
+			"hp" : "4876",
+			"firepower" : "242",
+			"torpedo" : "196",
+			"antiAir" : "216",
+			"aviation" : "0",
+			"reload" : "165",
+			"hit" : "122",
+			"evasion" : "42",
+			"speed" : "26.4",
+			"luck" : "15",
+			"asw" : "0",
+			"oxygen" : "0",
+			"ammo" : "0",
+			"cost" : "13",
+			"armor" : "Medium"
 		},
 		"120": {
-			"hp" : "",
-			"firepower" : "",
-			"torpedo" : "",
-			"antiAir" : "",
-			"aviation" : "",
-			"reload" : "",
-			"hit" : "",
-			"evasion" : "",
-			"speed" : "",
-			"luck" : "",
-			"asw" : "",
-			"oxygen" : "",
-			"ammo" : "",
-			"cost" : "",
-			"armor" : ""
+			"hp" : "5363",
+			"firepower" : "276",
+			"torpedo" : "226",
+			"antiAir" : "248",
+			"aviation" : "0",
+			"reload" : "190",
+			"hit" : "137",
+			"evasion" : "80",
+			"speed" : "26.4",
+			"luck" : "15",
+			"asw" : "0",
+			"oxygen" : "0",
+			"ammo" : "0",
+			"cost" : "13",
+			"armor" : "Medium"
 		},
 		"100retrofit": {
 			"hp" : "",
@@ -167,13 +174,13 @@
 			"reload" : "",
 			"hit" : "",
 			"evasion" : "",
-			"speed" : "",
-			"luck" : "",
+			"speed" : "26.4",
+			"luck" : "15",
 			"asw" : "",
-			"oxygen" : "",
-			"ammo" : "",
-			"cost" : "",
-			"armor" : ""
+			"oxygen" : "0",
+			"ammo" : "0",
+			"cost" : "13",
+			"armor" : "Medium"
 		},
 		"120retrofit": {
 			"hp" : "",
@@ -184,60 +191,54 @@
 			"reload" : "",
 			"hit" : "",
 			"evasion" : "",
-			"speed" : "",
-			"luck" : "",
+			"speed" : "26.4",
+			"luck" : "15",
 			"asw" : "",
-			"oxygen" : "",
-			"ammo" : "",
-			"cost" : "",
-			"armor" : ""
+			"oxygen" : "0",
+			"ammo" : "0",
+			"cost" : "13",
+			"armor" : "Medium"
 		}
 	},
 	"strengthenLevel": {
-		"level5": "",
-		"level10": "",
-		"level15": "",
-		"level20": "",
-		"level25": "",
-		"level30": ""
-	},
-	"fortuneLevel": {
-		"stage1": "Luck +1",
-		"stage2": "Luck +2",
-		"stage3": "Luck +3",
-		"stage4": "Luck +4",
-		"stage5": "Luck +5, [Skill Upgrade]"
+		"level5": "HP +230 | Anti-Air +11 | Evasion +5 | Main Gun +1",
+		"level10": "Full Barrage I | Main Gun Efficiency +5% | Limit Break ★★★★☆☆",
+		"level15": "HP +460 | Anti-Air +23 | Main Gun Efficiency +10%",
+		"level20": "Torpedo Efficiency +10% | Limit Break ★★★★★☆",
+		"level25": "HP +690 | Anti-Air +34 | Evasion +10",
+		"level30": "Full Barrage II | Main Gun Efficiency +15% | Limit Break ★★★★★★",
+		"level35": "Luck +5, Improve skill \"Engine Boost\""
 	},
 	"equipmentLoadout": {
 		"1": {
-			"type": "",
-			"efficiency": "",
-			"amount": "",
-			"preload": ""
+			"type": "Heavy Cruiser",
+			"efficiency": "100%/105%/115%/130%",
+			"amount": "1/2/2/2",
+			"preload": "0/0/0/0"
 		},
 		"2": {
-			"type": "",
-			"efficiency": "",
-			"amount": "",
-			"preload": ""
+			"type": "Torpedo",
+			"efficiency": "110%/110%/120%/120%",
+			"amount": "1/1/1/1",
+			"preload": "0/0/0/0"
 		},
 		"3": {
-			"type": "",
-			"efficiency": "",
-			"amount": "",
-			"preload": ""
+			"type": "Anti-Air Gun",
+			"efficiency": "125%/125%/125%/125%",
+			"amount": "1/1/1/1",
+			"preload": "0/0/0/0"
 		},
 		"4": {
-			"type": "",
-			"efficiency": "",
-			"amount": "",
-			"preload": ""
+			"type": "Auxilary",
+			"efficiency": "-",
+			"amount": "-",
+			"preload": "-"
 		},
 		"5": {
-			"type": "",
-			"efficiency": "",
-			"amount": "",
-			"preload": ""
+			"type": "Auxilary",
+			"efficiency": "-",
+			"amount": "-",
+			"preload": "-"
 		}
 	},
 	"build": {

@@ -1,0 +1,780 @@
+{
+	"name_reference" : "uta_fumiruiru",
+	"cn_reference" : "fumilulu",
+	"nameJP" : "フミルィル",
+	"nameCN" : "芙米露露",
+	"ID" : "C036",
+	"name" : "Fumiruiru",
+	"internal_id" : "10300061",
+	"rarity" : "Elite",
+	"initialStar" : "★★☆☆☆",
+	"hull" : "Aircraft Carrier",
+	"navy" : "Utawarerumono",
+	"prefix" : "",
+	"buildTime" : "",
+	"class" : "",
+	"voiceActress" : "Yuuko Gibu",
+	"parameters": {
+		"firepower" : "E",
+		"torpedo" : "E",
+		"aviation" : "C",
+		"evasion" : "C",
+		"antiAir" : "C",
+		"hp" : "B"
+	},
+	"scrap": {
+		"gold" : "9",
+		"oil" : "3",
+		"medal" : "4"
+	},
+	"releaseDate": {
+		"JP" : "",
+		"CN" : "",
+		"KR" : "",
+		"EN" : ""
+	},
+	"artist": {
+		"name" : "",
+		"weibo" : "",
+		"twitter" : "",
+		"pixiv" : "",
+		"other" : ""
+	},
+	"enhance": {
+		"firepower" : "0",
+		"torpedo" : "0",
+		"aviation" : "53",
+		"reload" : "7"
+	},
+	"acquisitionMethod" : "イベント：夢幻の邂逅",
+	"skill": {
+		"1" : {
+			"icon" : "103110",
+			"requirement" : "",
+			"name" : "百華蜜 ",
+			"type" : "Defensive",
+			"description" : "自身の航空攻撃時、$1で発動。戦闘可能な耐久が一番低い味方艦船の耐久を、その艦船の最大耐久の$2回復させる "
+		},
+		"2" : {
+			"icon" : "103120",
+			"requirement" : "",
+			"name" : "蜜月 ",
+			"type" : "Offensive",
+			"description" : "戦闘開始$1秒後、特殊弾幕を展開する。その後、$2秒毎に特殊弾幕を展開する（威力や弾幕はスキルレベルによる） "
+		}
+	},
+	"skin": {
+		"1" : {
+			"id" : "fumilulu",
+			"name" : "フミルィル",
+			"description" : "お初にお目に掛かります、指揮官さま。フミルィルと申します。こちらにクーちゃんがいると伺って参ったのですが……おりますよね？",
+			"expression" : {
+				"0" : {
+					"id" : "0"
+				}
+			}
+		},
+		"2" : {
+			"id" : "fumilulu_2",
+			"name" : "フミルィル(うたわれるもの)",
+			"description" : "私はフミルィルと申します。この度はお目にかかれて、大変光栄に存じます。",
+			"expression" : {
+				"0" : {
+					"id" : "0"
+				}
+			}
+		}
+	},
+	"defaultEquipment": {
+		"1" : {
+			"icon" : "",
+			"rarity" : "",
+			"name" : ""
+		},
+		"2" : {
+			"icon" : "",
+			"rarity" : "",
+			"name" : ""
+		},
+		"3" : {
+			"icon" : "",
+			"rarity" : "",
+			"name" : ""
+		}
+	},
+	"stats": {
+		"base": {
+			"hp" : "862",
+			"firepower" : "0",
+			"torpedo" : "0",
+			"antiAir" : "50",
+			"aviation" : "63",
+			"reload" : "35",
+			"hit" : "29",
+			"evasion" : "13",
+			"speed" : "32",
+			"luck" : "43",
+			"asw" : "0",
+			"oxygen" : "0",
+			"ammo" : "0",
+			"cost" : "4",
+			"armor" : "Medium"
+		},
+		"100": {
+			"hp" : "4458",
+			"firepower" : "0",
+			"torpedo" : "0",
+			"antiAir" : "232",
+			"aviation" : "299",
+			"reload" : "82",
+			"hit" : "75",
+			"evasion" : "33",
+			"speed" : "32",
+			"luck" : "43",
+			"asw" : "0",
+			"oxygen" : "0",
+			"ammo" : "0",
+			"cost" : "12",
+			"armor" : "Medium"
+		},
+		"120": {
+			"hp" : "5126",
+			"firepower" : "0",
+			"torpedo" : "0",
+			"antiAir" : "266",
+			"aviation" : "337",
+			"reload" : "95",
+			"hit" : "82",
+			"evasion" : "54",
+			"speed" : "32",
+			"luck" : "43",
+			"asw" : "0",
+			"oxygen" : "0",
+			"ammo" : "0",
+			"cost" : "12",
+			"armor" : "Medium"
+		},
+		"100retrofit": {
+			"hp" : "",
+			"firepower" : "",
+			"torpedo" : "",
+			"antiAir" : "",
+			"aviation" : "",
+			"reload" : "",
+			"hit" : "",
+			"evasion" : "",
+			"speed" : "32",
+			"luck" : "43",
+			"asw" : "",
+			"oxygen" : "0",
+			"ammo" : "0",
+			"cost" : "12",
+			"armor" : "Medium"
+		},
+		"120retrofit": {
+			"hp" : "",
+			"firepower" : "",
+			"torpedo" : "",
+			"antiAir" : "",
+			"aviation" : "",
+			"reload" : "",
+			"hit" : "",
+			"evasion" : "",
+			"speed" : "32",
+			"luck" : "43",
+			"asw" : "",
+			"oxygen" : "0",
+			"ammo" : "0",
+			"cost" : "12",
+			"armor" : "Medium"
+		}
+	},
+	"limitBreak": {
+		"tier1": "戦闘機数+1/艦載機補正+3%",
+		"tier2": "攻撃隊上限+1/攻撃機数+1/艦載機補正+5%",
+		"tier3": "攻撃機数+1/艦載機補正+7%"
+	},
+	"equipmentLoadout": {
+		"1": {
+			"type": "Fighter",
+			"efficiency": "90%/93%/98%/105%",
+			"amount": "1/2/2/2",
+			"preload": "0/0/0/0"
+		},
+		"2": {
+			"type": "Torpedo Bomber",
+			"efficiency": "90%/93%/98%/105%",
+			"amount": "1/1/2/3",
+			"preload": "0/0/0/0"
+		},
+		"3": {
+			"type": "Torpedo Bomber",
+			"efficiency": "90%/93%/98%/105%",
+			"amount": "1/1/2/3",
+			"preload": "0/0/0/0"
+		},
+		"4": {
+			"type": "Auxilary",
+			"efficiency": "-",
+			"amount": "-",
+			"preload": "-"
+		},
+		"5": {
+			"type": "Auxilary",
+			"efficiency": "-",
+			"amount": "-",
+			"preload": "-"
+		}
+	},
+	"build": {
+		"light": {
+			"JP": "",
+			"CN": "",
+			"EN": ""
+		},
+		"heavy": {
+			"JP": "",
+			"CN": "",
+			"EN": ""
+		},
+		"special": {
+			"JP": "",
+			"CN": "",
+			"EN": ""
+		},
+		"limited": {
+			"JP": "",
+			"CN": "",
+			"EN": ""
+		}
+	},
+	"drop": {
+		"droppable": "false",
+		"list": {
+			"1": {
+				"event": "",
+				"chapter": {
+					"1": {
+						"label": "Ch .1",
+						"node": {
+							"1": {
+								"drop": "✓",
+								"note": "-"
+							}
+						}
+					}
+				}
+			}
+		}
+	},
+	"lines": {
+		"skin": {
+			"1": {
+				"skin_id" : "fumilulu",
+				"id" : "0",
+				"label" : "フミルィル",
+				"dialogue" : {
+					"1" : {
+						"event" : "Ship Description",
+						"media" : "",
+						"chinese" : "初次见面，指挥官大人。我是芙米露露。听说小久她在这里才过来的……她在吧？",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "お初にお目に掛かります、指揮官さま。フミルィルと申します。こちらにクーちゃんがいると伺って参ったのですが……おりますよね？",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"2" : {
+						"event" : "Biography",
+						"media" : "profile",
+						"chinese" : "我是芙米露露，来自图斯库尔。缩缅商的独生女。因为和小久从很久以前就一直关系很好，所以就像是她的姐姐一般",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "私はフミルィル。トゥスクルから参りました、チリメン問屋の一人娘です。クーちゃんとは昔からとても親しい間柄で、クーちゃんの姉代わりを務めております",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"3" : {
+						"event" : "Receive",
+						"media" : "get",
+						"chinese" : "初次见面，指挥官大人。我是芙米露露。听说小久她在这里才过来的……她在吧？",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "お初にお目に掛かります、指揮官さま。フミルィルと申します。こちらにクーちゃんがいると伺って参ったのですが……おりますよね？",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"4" : {
+						"event" : "Log in",
+						"media" : "login",
+						"chinese" : "早上好，指挥官大人。请问要先开始哪个工作呢？",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "おはようございます指揮官さま。まずはどの仕事から手をつけられますか？",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"5" : {
+						"event" : "View details",
+						"media" : "detail",
+						"chinese" : "与其聊我的事，不如来聊聊关于小久的事如何？",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "私のことよりも、クーちゃんについてお話ししましょう？",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"6" : {
+						"event" : "Main screen 1",
+						"media" : "main_1",
+						"chinese" : "这些文件放这里…（摇摇）这些文件则是这里…（摇摇），诶？怎么了吗指挥官大人？“希望你能停一会”？",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "この書類はこちらへ……（たゆんたゆん）この書類はあちらへ……（たゆんたゆん）え、どうされました指揮官様？「ジッとしていてほしい」ですか？",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"7" : {
+						"event" : "Main screen 2",
+						"media" : "main_2",
+						"chinese" : "别看我这样，在战场上还是能派上用场的哦？因为受过乌露托利妈妈们的锻炼呢…这一切，都是为了保护小久啊",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "私、こう見えて戦場でもちゃんとお役に立てるんですよ？ウルトリィお母様たちに鍛えていただきましたから……それもこれも、クーちゃんを守るためです",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"8" : {
+						"event" : "Main screen 3",
+						"media" : "main_3",
+						"chinese" : "哎呀呀，指挥官大人困了吗？呵呵呵，不用勉强，稍微休息一下如何?",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "あらあら、指揮官さま。おねむですか？　ウフフ、無理をなさらず、少しお休みになっては？",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"9" : {
+						"event" : "Normal touch",
+						"media" : "touch_1",
+						"chinese" : "哎呀，我的打扮有什么问题吗？这么说来…有时候会听到“倾国”之类的说法呢，那究竟是什么意思呢？",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "あら、私の格好がどうかしましたか？そういえば……時折『傾国』と言われるのですが、どういう意味なんでしょうね？",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"10" : {
+						"event" : "Special touch",
+						"media" : "touch_2",
+						"chinese" : "就算是指挥官，这么随意地触碰女性的肌肤也是不行的哦？要听话哦",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "いくら指揮官さまといえど、気安く女性の肌に触れてはなりませんよ？めっ！です",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"11" : {
+						"event" : "Rub",
+						"media" : "headtouch",
+						"chinese" : "呵呵呵，男性总是喜欢摸女性的头呢。胧大人和克罗大人也是这样呢",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "フフフ、殿方は女性の頭を撫でるのがお好きなのですね。オボロ様やクロウ様もそうでしたから",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"12" : {
+						"event" : "Mission reminder",
+						"media" : "task",
+						"chinese" : "似乎还有未完成的工作呢，您打算怎么办呢？",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "まだされていない仕事がおありのようですね。いかがいたしますか？",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"13" : {
+						"event" : "Mission complete",
+						"media" : "mission_complete",
+						"chinese" : "工作很努力了呢，好棒好棒（摸头）",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "お仕事がんばりましたね。えらいえらい（なでなで）",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"14" : {
+						"event" : "Mail reminder",
+						"media" : "mail",
+						"chinese" : "有传书来了。还是尽快看一下比较好吧？",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "文が届いておりますよ。お目を通した方がよろしいのでは？",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"15" : {
+						"event" : "Return to port",
+						"media" : "home",
+						"chinese" : "欢迎回来，指挥官大人。餐食和洗澡的热水都为您准备好了哦",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "お帰りなさいませ指揮官さま。お食事と湯浴みの用意ができておりますよ",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"16" : {
+						"event" : "Commission complete",
+						"media" : "expedition",
+						"chinese" : "办事的孩子们回来了呢。指挥官大人，可要好好慰劳一下她们哦",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "お使いの子たちが帰って参りました。指揮官さま、労ってあげてくださいね",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"17" : {
+						"event" : "Enhancing complete",
+						"media" : "upgrade",
+						"chinese" : "这下能更好地保护小久了呢",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "これでもっとクーちゃんを守れますね",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"18" : {
+						"event" : "Flagship fight",
+						"media" : "warcry",
+						"chinese" : "得让大家看看我像姐姐的一面才行呢",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "少しはお姉さんらしいところを見せないと……",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"19" : {
+						"event" : "Victory",
+						"media" : "mvp",
+						"chinese" : "好像有点放水太少了…对不起呢",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "あまり手加減できなくて……ごめんなさい",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"20" : {
+						"event" : "Defeat",
+						"media" : "lose",
+						"chinese" : "这等丑态…可不能让小久看见了",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "こんな姿……クーちゃんに見せられません",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"21" : {
+						"event" : "Skills",
+						"media" : "skill",
+						"chinese" : "以解放者之名，对汝等施以惩罚",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "ウィツァルネミテアの御名において、あなたたちをお仕置きします",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"22" : {
+						"event" : "Low HP",
+						"media" : "hp",
+						"chinese" : "还、没到撤退之时……！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "まだ、退くには早すぎますわ……！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"23" : {
+						"event" : "Upset",
+						"media" : "feeling1",
+						"chinese" : "…啊，对不起。没有注意到您",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "……あ、ごめんなさい。気付きませんでした",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"24" : {
+						"event" : "Stranger",
+						"media" : "feeling2",
+						"chinese" : "小久～，小久～？啊，指挥官大人，请问您有看到小久吗？",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "クーちゃーん、クーちゃーん？ああ、指揮官様、クーちゃんを見掛けませんでしたか？",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"25" : {
+						"event" : "Friendly",
+						"media" : "feeling3",
+						"chinese" : "在图斯库尔也经常帮贝纳威大人处理事务……公务繁忙的男人真是辛苦呢。有我能帮忙的事情请尽管说哦",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "トゥスクルでもベナウィ様のお手伝いをさせていただいたことがありますけど……お仕事の多い殿方は大変ですわね。私でできることなら仰ってくださいね",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"26" : {
+						"event" : "Crush",
+						"media" : "feeling4",
+						"chinese" : "既然小久在这里，那我也留在身边帮忙好了。最初只是抱着这样的想法…不过待久了以后，多少有了些不一样的感情呢",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "クーちゃんがここにいる以上、私も側付きとしてお仕えしたい。最初はそれだけでしたが……こうして長居すると情が移るものですね",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"27" : {
+						"event" : "Love",
+						"media" : "feeling5",
+						"chinese" : "我是图斯库尔之女、解放者的巫女。此外，还是侍奉久远大人之人。虽然觉得侍奉二主不太好…不过这份心情是……",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "私はトゥスクルの女、ウィツァルネミテアの巫女。そして、クオンさまにお仕えする者。二君に仕えるのはよろしくないと思うのですが……この気持ちは……",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"28" : {
+						"event" : "Promise",
+						"media" : "propose",
+						"chinese" : "那边的世界和这边的世界是完全不同的…你是在理解了这点的基础上提出的这份盟约吗？明白了…我在此发誓，愿成为您的助力，直到永远",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "あちらの世界と、こちらの世界の理は異なるもの……それを踏まえた上で、この盟約を交わすのですね？わかりました……末永くお仕えすることをここに誓いましょう",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					}
+				}
+			},
+			"2": {
+				"skin_id" : "fumilulu_2",
+				"id" : "1",
+				"label" : "フミルィル(うたわれるもの)",
+				"dialogue" : {
+					"1" : {
+						"event" : "Ship Description",
+						"media" : "",
+						"chinese" : "我是芙米露露。能与您相遇，万分荣幸",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "私はフミルィルと申します。この度はお目にかかれて、大変光栄に存じます。",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"2" : {
+						"event" : "Receive",
+						"media" : "get_1",
+						"chinese" : "我是芙米露露。能与您相遇，万分荣幸",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "私はフミルィルと申します。この度はお目にかかれて、大変光栄に存じます。",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"3" : {
+						"event" : "Log in",
+						"media" : "login_1",
+						"chinese" : "等您许久了。看来花了不少时间呢",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "お待ちしておりました。随分とお時間が掛かったようですが。",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"4" : {
+						"event" : "Main screen 1",
+						"media" : "main_1_1",
+						"chinese" : "是的，只要是关于小久的事情，无论多小的事都很让人在意呢",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "はい。クーちゃんのことは、どんなささいなことも気になっちゃいますね。",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"5" : {
+						"event" : "Main screen 2",
+						"media" : "main_2_1",
+						"chinese" : "拜托…请赐予他们大神解放者的慈悲……",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "どうか……どうか彼等に、大神ウィツァルネミテアの慈悲があらんことを……",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"6" : {
+						"event" : "Main screen 3",
+						"media" : "main_3_1",
+						"chinese" : "哎呀，不用这么小心也没关系的哦？为了小久，我会全力以赴的",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "あら、遠慮しなくてもいいのですよ？クーちゃんの為に精一杯、頑張りますから。",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"7" : {
+						"event" : "Normal touch",
+						"media" : "touch_1_1",
+						"chinese" : "呵呵呵，好像很开心呢",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "ふふふっ、何だか楽しそう。",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"8" : {
+						"event" : "Special touch",
+						"media" : "touch_2_1",
+						"chinese" : "哎呀，想要和我……吗？",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "あら、私と……ですか？",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"9" : {
+						"event" : "Mail reminder",
+						"media" : "mail_1",
+						"chinese" : "不用客气",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "どういたしまして。",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"10" : {
+						"event" : "Return to port",
+						"media" : "home_1",
+						"chinese" : "弄了一身脏呢。衣服回去以后会很难洗呢",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "すっかり汚れてしまいました。帰ったら、お洗濯が大変ですね。",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"11" : {
+						"event" : "Commission complete",
+						"media" : "expedition_1",
+						"chinese" : "哎呀，来得正好……",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "あら、ちょうどいいところに……",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"12" : {
+						"event" : "Flagship fight",
+						"media" : "warcry_1",
+						"chinese" : "这下得马上准备一下了呢",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "それでは、すぐに支度をしなくてはいけませんね。",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"13" : {
+						"event" : "Love",
+						"media" : "feeling5_1",
+						"chinese" : "如此充沛的思念……感觉都要醉了呢",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "こんないっぱいの想い……酔ってしまいそう……",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					}
+				}
+			}
+		}
+	}
+}
