@@ -434,7 +434,11 @@ function setShipExpressionNav(data, skinID){
 		container.id = "expr_" + x;
 		container.setAttribute('onclick','onExpressionNavButtonClick(\'' + JSON.stringify(data.expression[x]) + '\',\''+x+'\',\''+skinID+'\')');
 		if (firstIteration){
-			container.src = "https://media.alg-wiki.com/assets/paintingface/" + skinID + "/" + x + ".png";
+			if (Object.keys(data.expression).length == 1){
+				container.src = "https://media.alg-wiki.com/assets/squareicon/" + skinID + ".png";
+			} else {
+				container.src = "https://media.alg-wiki.com/assets/paintingface/" + skinID + "/" + x + ".png";
+			}			
 			container.className = "btnExprActive";
 			firstIteration = false;
 			initial = JSON.stringify(data.expression[x]);
