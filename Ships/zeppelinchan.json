@@ -1,202 +1,192 @@
 {
-	"name_reference" : "zeppelinchan",
-	"cn_reference" : "qibolin_younv",
-	"nameJP" : "ツェッペリンちゃん",
-	"nameCN" : "小齐柏林",
-	"ID" : "385",
-	"name" : "Zeppelin-chan",
-	"internal_id" : "407021",
-	"rarity" : "Elite",
-	"initialStar" : "★★☆☆☆",
-	"hull" : "Aircraft Carrier",
-	"navy" : "Ironblood",
-	"prefix" : "KMS",
-	"buildTime" : "",
-	"class" : "",
+	"name_reference": "zeppelinchan",
+	"cn_reference": "qibolin_younv",
+	"nameJP": "ツェッペリンちゃん",
+	"nameCN": "小齐柏林",
+	"ID": "385",
+	"name": "Zeppelin-chan",
+	"internal_id": "407021",
+	"rarity": "Elite",
+	"initialStar": "★★☆☆☆",
+	"hull": "Aircraft Carrier",
+	"navy": "Ironblood",
+	"prefix": "KMS",
+	"buildTime": "",
+	"class": "",
 	"parameters": {
-		"firepower" : "D",
-		"torpedo" : "E",
-		"aviation" : "A",
-		"evasion" : "C",
-		"antiAir" : "B",
-		"hp" : "B"
+		"firepower": "D",
+		"torpedo": "E",
+		"aviation": "A",
+		"evasion": "C",
+		"antiAir": "B",
+		"hp": "B"
 	},
 	"scrap": {
-		"gold" : "9",
-		"oil" : "3",
-		"medal" : "4"
+		"gold": "9",
+		"oil": "3",
+		"medal": "4"
 	},
 	"releaseDate": {
-		"JP" : "",
-		"CN" : "",
-		"KR" : "",
-		"EN" : ""
+		"JP": "",
+		"CN": "",
+		"KR": "",
+		"EN": ""
 	},
 	"artist": {
-		"name" : "",
-		"weibo" : "",
-		"twitter" : "",
-		"pixiv" : "",
-		"other" : ""
+		"name": "",
+		"weibo": "",
+		"twitter": "",
+		"pixiv": "",
+		"other": ""
 	},
 	"enhance": {
-		"firepower" : "3",
-		"torpedo" : "0",
-		"aviation" : "58",
-		"reload" : "8"
+		"firepower": "3",
+		"torpedo": "0",
+		"aviation": "58",
+		"reload": "8"
 	},
-	"acquisitionMethod" : "イベント：母校脱出大作戦?",
+	"acquisitionMethod": "Event: Escape from Port",
 	"skill": {
-		"1" : {
-			"icon" : "12090",
-			"requirement" : "",
-			"name" : "これでもくらえ！ ",
-			"type" : "Offensive",
-			"description" : "8秒毎に、自身の火力が$1アップし、3回アップすると、特殊弾幕を展開し、火力強化効果と強化回数をリセットする。副砲を装備している場合、このスキルで展開する特殊弾幕を強化する "
+		"1": {
+			"icon": "12090",
+			"requirement": "",
+			"name": "Taste My Wrath! ",
+			"type": "Offensive",
+			"description": "Every 8s: increases this ship's FP by 20 (80). When this buff has stacked 3 times: launches a special barrage, removes the FP buffs, and resets the stack to 0. When this ship is equipped with an Auxiliary Gun: improves the special barrage."
 		},
-		"2" : {
-			"icon" : "12100",
-			"requirement" : "",
-			"name" : "鉄血のヒナ鷹 ",
-			"type" : "Support",
-			"description" : "戦闘開始時、味方艦隊の鉄血艦の数だけ、自身の航空・対空・装填が$1アップ "
+		"2": {
+			"icon": "12100",
+			"requirement": "",
+			"name": "Iron Blood Hatchling",
+			"type": "Support",
+			"description": "Increases the AVI, AA, and RLD of this ship by 1.0% (5.0%) for each Iron Blood ship in your fleet at the start of the battle."
 		}
 	},
 	"skin": {
-		"1" : {
-			"id" : "qibolin_younv",
-			"name" : "ツェッペリンちゃん",
-			"description" : "航空母艦グラーフ・ツェッペリン",
-			"expression" : {
-				"0" : {
-					"id" : "0"
+		"1": {
+			"id": "qibolin_younv",
+			"name": "Zeppy ",
+			"description": "Aircraft carrier Graf Zeppelin ",
+			"expression": {
+				"0": {
+					"id": "0"
 				},
-				"1" : {
-					"id" : "1"
+				"1": {
+					"id": "1"
 				},
-				"2" : {
-					"id" : "2"
+				"2": {
+					"id": "2"
 				},
-				"3" : {
-					"id" : "3"
+				"3": {
+					"id": "3"
 				},
-				"4" : {
-					"id" : "4"
+				"4": {
+					"id": "4"
 				},
-				"5" : {
-					"id" : "5"
+				"5": {
+					"id": "5"
 				}
 			}
 		}
 	},
 	"defaultEquipment": {
-		"1" : {
-			"icon" : "47000",
-			"rarity" : "Common",
-			"name" : "BF-109T Fighter"
-		},
-		"1" : {
-			"icon" : "49000",
-			"rarity" : "Common",
-			"name" : "Ju-87C Dive Bomber"
-		},
-		"1" : {
-			"icon" : "42200",
-			"rarity" : "Common",
-			"name" : "Twin 150mm Main Gun (TbtsK C/36)"
+		"1": {
+			"icon": "42200",
+			"rarity": "Common",
+			"name": "Twin 150mm Main Gun (TbtsK C/36)"
 		}
 	},
 	"stats": {
-		"base": {
-			"hp" : "1228",
-			"firepower" : "32",
-			"torpedo" : "0",
-			"antiAir" : "58",
-			"aviation" : "71",
-			"reload" : "41",
-			"hit" : "29",
-			"evasion" : "16",
-			"speed" : "33.8",
-			"luck" : "45",
-			"asw" : "0",
-			"oxygen" : "0",
-			"ammo" : "0",
-			"cost" : "4",
-			"armor" : "Medium"
-		},
 		"100": {
-			"hp" : "6348",
-			"firepower" : "152",
-			"torpedo" : "0",
-			"antiAir" : "270",
-			"aviation" : "335",
-			"reload" : "96",
-			"hit" : "76",
-			"evasion" : "41",
-			"speed" : "33.8",
-			"luck" : "45",
-			"asw" : "0",
-			"oxygen" : "0",
-			"ammo" : "0",
-			"cost" : "12",
-			"armor" : "Medium"
+			"hp": "6348",
+			"firepower": "152",
+			"torpedo": "0",
+			"antiAir": "270",
+			"aviation": "335",
+			"reload": "96",
+			"hit": "76",
+			"evasion": "41",
+			"speed": "33.8",
+			"luck": "45",
+			"asw": "0",
+			"oxygen": "0",
+			"ammo": "0",
+			"cost": "12",
+			"armor": "Medium"
 		},
 		"120": {
-			"hp" : "6983",
-			"firepower" : "174",
-			"torpedo" : "0",
-			"antiAir" : "307",
-			"aviation" : "376",
-			"reload" : "110",
-			"hit" : "85",
-			"evasion" : "56",
-			"speed" : "33.8",
-			"luck" : "45",
-			"asw" : "0",
-			"oxygen" : "0",
-			"ammo" : "0",
-			"cost" : "12",
-			"armor" : "Medium"
+			"hp": "6983",
+			"firepower": "174",
+			"torpedo": "0",
+			"antiAir": "307",
+			"aviation": "376",
+			"reload": "110",
+			"hit": "85",
+			"evasion": "56",
+			"speed": "33.8",
+			"luck": "45",
+			"asw": "0",
+			"oxygen": "0",
+			"ammo": "0",
+			"cost": "12",
+			"armor": "Medium"
+		},
+		"base": {
+			"hp": "1228",
+			"firepower": "32",
+			"torpedo": "0",
+			"antiAir": "58",
+			"aviation": "71",
+			"reload": "41",
+			"hit": "29",
+			"evasion": "16",
+			"speed": "33.8",
+			"luck": "45",
+			"asw": "0",
+			"oxygen": "0",
+			"ammo": "0",
+			"cost": "4",
+			"armor": "Medium"
 		},
 		"100retrofit": {
-			"hp" : "",
-			"firepower" : "",
-			"torpedo" : "",
-			"antiAir" : "",
-			"aviation" : "",
-			"reload" : "",
-			"hit" : "",
-			"evasion" : "",
-			"speed" : "33.8",
-			"luck" : "45",
-			"asw" : "",
-			"oxygen" : "0",
-			"ammo" : "0",
-			"cost" : "12",
-			"armor" : "Medium"
+			"hp": "",
+			"firepower": "",
+			"torpedo": "",
+			"antiAir": "",
+			"aviation": "",
+			"reload": "",
+			"hit": "",
+			"evasion": "",
+			"speed": "33.8",
+			"luck": "45",
+			"asw": "",
+			"oxygen": "0",
+			"ammo": "0",
+			"cost": "12",
+			"armor": "Medium"
 		},
 		"120retrofit": {
-			"hp" : "",
-			"firepower" : "",
-			"torpedo" : "",
-			"antiAir" : "",
-			"aviation" : "",
-			"reload" : "",
-			"hit" : "",
-			"evasion" : "",
-			"speed" : "33.8",
-			"luck" : "45",
-			"asw" : "",
-			"oxygen" : "0",
-			"ammo" : "0",
-			"cost" : "12",
-			"armor" : "Medium"
+			"hp": "",
+			"firepower": "",
+			"torpedo": "",
+			"antiAir": "",
+			"aviation": "",
+			"reload": "",
+			"hit": "",
+			"evasion": "",
+			"speed": "33.8",
+			"luck": "45",
+			"asw": "",
+			"oxygen": "0",
+			"ammo": "0",
+			"cost": "12",
+			"armor": "Medium"
 		}
 	},
 	"limitBreak": {
-		"tier1": "艦載機数+1/艦載機補正+3%",
-		"tier2": "攻撃隊上限+1/副兵装装備+1/艦載機補正+5%",
-		"tier3": "艦載機数+1/艦載機補正+7%"
+		"tier1": "All aircraft +1/Aircraft efficiency +3%",
+		"tier2": "Hangar capacity +1/Auxiliary weapon base +1/Aircraft efficiency +5%",
+		"tier3": "All aircraft +1/Aircraft efficiency +7%"
 	},
 	"equipmentLoadout": {
 		"1": {
@@ -274,393 +264,393 @@
 	"lines": {
 		"skin": {
 			"1": {
-				"skin_id" : "qibolin_younv",
-				"id" : "0",
-				"label" : "ツェッペリンちゃん",
-				"dialogue" : {
-					"1" : {
-						"event" : "Ship Description",
-						"media" : "",
-						"chinese" : "齐柏林伯爵号航空母舰",
-						"chineseTL" : "Aircraft Carrier Graf Zeppelin",
-						"chineseNote" : "",
-						"japanese" : "航空母艦グラーフ・ツェッペリン",
-						"japaneseTL" : "",
-						"japaneseNote" : "",
-						"english" : "",
-						"englishNote" : ""
+				"skin_id": "qibolin_younv",
+				"id": "0",
+				"label": "Zeppy ",
+				"dialogue": {
+					"1": {
+						"event": "Ship Description",
+						"media": "",
+						"chinese": "齐柏林伯爵号航空母舰",
+						"chineseTL": "Aircraft Carrier Graf Zeppelin",
+						"chineseNote": "",
+						"japanese": "航空母艦グラーフ・ツェッペリン",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Aircraft carrier Graf Zeppelin",
+						"englishNote": ""
 					},
-					"2" : {
-						"event" : "Biography",
-						"media" : "profile",
-						"chinese" : "我可是齐柏林伯爵，铁血的第一艘航母！哼，说出来可不要太惊讶，将来的海战一定是飞机的时代，而我齐柏林伯爵一定会是其中最耀眼的那颗星！所以快让我回去！……欸，回不去了？……吃我一炮！",
-						"chineseTL" : "I am Graf Zeppelin, Metalblood's first Aircraft crarrier. Hmph, don't be so surprised. The future of naval warfare is the age of aviation, and me, Graf Zepppelin, will be the most dazzling star in the skies! So hurry up and let me back! Eh? I can't go back? ..... Take this!",
-						"chineseNote" : "",
-						"japanese" : "我はグラーフ・ツェッペリン、鉄血の最初の空母よ！ふん、聞いて驚くがいい。飛行機を統べる者は未来の海戦を制する、そしてこのグラーフ・ツェッペリンこそ空に輝く明星になるのだ！…というわけで早く帰らせろ！……だ、ダメ？くっ…これでもくらえ！",
-						"japaneseTL" : "",
-						"japaneseNote" : "",
-						"english" : "",
-						"englishNote" : ""
+					"2": {
+						"event": "Biography",
+						"media": "profile",
+						"chinese": "我可是齐柏林伯爵，铁血的第一艘航母！哼，说出来可不要太惊讶，将来的海战一定是飞机的时代，而我齐柏林伯爵一定会是其中最耀眼的那颗星！所以快让我回去！……欸，回不去了？……吃我一炮！",
+						"chineseTL": "I am Graf Zeppelin, Metalblood's first Aircraft crarrier. Hmph, don't be so surprised. The future of naval warfare is the age of aviation, and me, Graf Zepppelin, will be the most dazzling star in the skies! So hurry up and let me back! Eh? I can't go back? ..... Take this!",
+						"chineseNote": "",
+						"japanese": "我はグラーフ・ツェッペリン、鉄血の最初の空母よ！ふん、聞いて驚くがいい。飛行機を統べる者は未来の海戦を制する、そしてこのグラーフ・ツェッペリンこそ空に輝く明星になるのだ！…というわけで早く帰らせろ！……だ、ダメ？くっ…これでもくらえ！",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "I am none other than Graf Zeppelin, the first carrier of the Iron Blood! Heh. Don't be so surprised. The next era of naval warfare will definitely be decided by aircraft, and I will stand as its most brightly shining star! So, let me go back! ...Huh, I can't? ...Taste my wrath!!",
+						"englishNote": ""
 					},
-					"3" : {
-						"event" : "Receive",
-						"media" : "get",
-						"chinese" : "你是谁！这里是哪！……我知道了，你也是对齐柏林图谋不轨的家伙吧！我可是将来要成为铁血第一航空母舰齐柏林伯爵！居然趁我不注意把我带到了这种地方，吃我一炮！",
-						"chineseTL" : "Who are you! Where am I? ....... I know, you must be that guy plotting to get rid of Graf Zeppelin! That's right, I'm Metalblood's first aircraft carrier of the future, Graf Zeppelin! You must've taken advantage of my lapse in concentration and kidnapped me to this place..! Take this!",
-						"chineseNote" : "",
-						"japanese" : "卿はだれ？ここはどこ？？……わかった！卿はこのグラーフ・ツェッペリンに無礼を働こうとする輩だな！わ、我は鉄血の最初の空母グラーフ・ツェッペリンだぞ！ふふ不意をついたとはいえここまで誘拐してきたなんて……これでもくらえ、この不埒者ォ！",
-						"japaneseTL" : "",
-						"japaneseNote" : "",
-						"english" : "",
-						"englishNote" : ""
+					"3": {
+						"event": "Acquisition",
+						"media": "get",
+						"chinese": "你是谁！这里是哪！……我知道了，你也是对齐柏林图谋不轨的家伙吧！我可是将来要成为铁血第一航空母舰齐柏林伯爵！居然趁我不注意把我带到了这种地方，吃我一炮！",
+						"chineseTL": "Who are you! Where am I? ....... I know, you must be that guy plotting to get rid of Graf Zeppelin! That's right, I'm Metalblood's first aircraft carrier of the future, Graf Zeppelin! You must've taken advantage of my lapse in concentration and kidnapped me to this place..! Take this!",
+						"chineseNote": "",
+						"japanese": "卿はだれ？ここはどこ？？……わかった！卿はこのグラーフ・ツェッペリンに無礼を働こうとする輩だな！わ、我は鉄血の最初の空母グラーフ・ツェッペリンだぞ！ふふ不意をついたとはいえここまで誘拐してきたなんて……これでもくらえ、この不埒者ォ！",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "State your name! And this location! I see now... you’re also one of those goons conspiring against me! I’ll let you know, I am Graf Zeppelin, the one destined to become the first carrier of the Iron Blood! To think that you’d carry me off when I was distracted... taste my wrath!",
+						"englishNote": ""
 					},
-					"4" : {
-						"event" : "Log in",
-						"media" : "login",
-						"chinese" : "你突然消失到哪里去了！吃我一炮！",
-						"chineseTL" : "Where did you disappear to? Take this!",
-						"chineseNote" : "",
-						"japanese" : "きゅ、急にどこに消えたのだ！これでもくらえ！",
-						"japaneseTL" : "",
-						"japaneseNote" : "",
-						"english" : "",
-						"englishNote" : ""
+					"4": {
+						"event": "Login",
+						"media": "login",
+						"chinese": "你突然消失到哪里去了！吃我一炮！",
+						"chineseTL": "Where did you disappear to? Take this!",
+						"chineseNote": "",
+						"japanese": "きゅ、急にどこに消えたのだ！これでもくらえ！",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Where did you suddenly run off to?! Taste my wrath!",
+						"englishNote": ""
 					},
-					"5" : {
-						"event" : "View details",
-						"media" : "detail",
-						"chinese" : "这里为什么也有铁血，而且大家都好大只，稍微有点可怕……",
-						"chineseTL" : "Why are there so many metalbloods here, and why is everyone so big.. it's a little scary..",
-						"chineseNote" : "",
-						"japanese" : "なんでここにも鉄血の人が…しかもみんな大きいし、ちょっとこわい……",
-						"japaneseTL" : "",
-						"japaneseNote" : "",
-						"english" : "",
-						"englishNote" : ""
+					"5": {
+						"event": "Details",
+						"media": "detail",
+						"chinese": "这里为什么也有铁血，而且大家都好大只，稍微有点可怕……",
+						"chineseTL": "Why are there so many metalbloods here, and why is everyone so big.. it's a little scary..",
+						"chineseNote": "",
+						"japanese": "なんでここにも鉄血の人が…しかもみんな大きいし、ちょっとこわい……",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Why are there other Iron Bloods here, and why are they so... big? It's a bit scary...",
+						"englishNote": ""
 					},
-					"6" : {
-						"event" : "Main screen 1",
-						"media" : "main_1",
-						"chinese" : "…唔…唔唔…呒呒呒……为什么你一直工作不理我！吃我一炮！",
-						"chineseTL" : "Wu...wuwu.. Fufufu... why are you focusing on your work and ignoring me? Take this!",
-						"chineseNote" : "",
-						"japanese" : "……むぅ…ぐぬぬぬ……どうして卿は我にかまってくれないのだ！これでもくらえぇ！",
-						"japaneseTL" : "",
-						"japaneseNote" : "",
-						"english" : "",
-						"englishNote" : ""
+					"6": {
+						"event": "Main 1",
+						"media": "main_1",
+						"chinese": "…唔…唔唔…呒呒呒……为什么你一直工作不理我！吃我一炮！",
+						"chineseTL": "Wu...wuwu.. Fufufu... why are you focusing on your work and ignoring me? Take this!",
+						"chineseNote": "",
+						"japanese": "……むぅ…ぐぬぬぬ……どうして卿は我にかまってくれないのだ！これでもくらえぇ！",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "*sniffle* ... *sniffle*... Waaah... Why are you still working and ignoring me?! Taste my wrath! ",
+						"englishNote": ""
 					},
-					"7" : {
-						"event" : "Main screen 2",
-						"media" : "main_2",
-						"chinese" : "哼，无论你做什么我都不会向你屈服的！……点心？……我要吃",
-						"chineseTL" : "Hmph, I won't give in to you no matter what! .....Dessert? ... I want some...",
-						"chineseNote" : "",
-						"japanese" : "ふん、我はそう易々と遣われるものではないぞ！……おやつ？……た、食べたい！",
-						"japaneseTL" : "",
-						"japaneseNote" : "",
-						"english" : "",
-						"englishNote" : ""
+					"7": {
+						"event": "Main 2",
+						"media": "main_2",
+						"chinese": "哼，无论你做什么我都不会向你屈服的！……点心？……我要吃",
+						"chineseTL": "Hmph, I won't give in to you no matter what! .....Dessert? ... I want some...",
+						"chineseNote": "",
+						"japanese": "ふん、我はそう易々と遣われるものではないぞ！……おやつ？……た、食べたい！",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Hmph. No matter how hard you try, I will never yield to you! ...Desserts? Gimme... ",
+						"englishNote": ""
 					},
-					"8" : {
-						"event" : "Main screen 3",
-						"media" : "main_3",
-						"chinese" : "欸，这个应该是这样，不对不对，好像是这样…？唔…干、干什么，才不要你帮忙！",
-						"chineseTL" : "Hmm.. this should go here.. no... maybe like this? Huh? W-what, I don't need your help!",
-						"chineseNote" : "",
-						"japanese" : "むぅ、これはこう…違う、こう……？うぅ……な、なによ！手伝わせないぞ！",
-						"japaneseTL" : "",
-						"japaneseNote" : "",
-						"english" : "",
-						"englishNote" : ""
+					"8": {
+						"event": "Main 3",
+						"media": "main_3",
+						"chinese": "欸，这个应该是这样，不对不对，好像是这样…？唔…干、干什么，才不要你帮忙！",
+						"chineseTL": "Hmm.. this should go here.. no... maybe like this? Huh? W-what, I don't need your help!",
+						"chineseNote": "",
+						"japanese": "むぅ、これはこう…違う、こう……？うぅ……な、なによ！手伝わせないぞ！",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Hmm... this should go here... No, no, maybe like this...? Hey! Wh-what are you doing! I didn't ask for your help! ",
+						"englishNote": ""
 					},
-					"9" : {
-						"event" : "Main screen 4",
-						"media" : "main_4",
-						"chinese" : "我喜欢高的地方！因为这样可以看到很远的地方！",
-						"chineseTL" : "I love tall places! That way I can see faraway lands!",
-						"chineseNote" : "",
-						"japanese" : "高いところが好きだ！遠い場所もこの我の目に収められるからな！",
-						"japaneseTL" : "",
-						"japaneseNote" : "",
-						"english" : "",
-						"englishNote" : ""
+					"9": {
+						"event": "Main 4",
+						"media": "main_4",
+						"chinese": "我喜欢高的地方！因为这样可以看到很远的地方！",
+						"chineseTL": "I love tall places! That way I can see faraway lands!",
+						"chineseNote": "",
+						"japanese": "高いところが好きだ！遠い場所もこの我の目に収められるからな！",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "I like high places! That way, I can see really far! ",
+						"englishNote": ""
 					},
-					"10" : {
-						"event" : "Main screen 5",
-						"media" : "main_5",
-						"chinese" : "绝望和憎恶都不算什么！我相信，只要不放弃总有一天肯定能实现梦想！",
-						"chineseTL" : "Despair and hatred mean nothing! I believe as long as you don't give up, you'll definitely fulfil your dreams one day!",
-						"chineseNote" : "",
-						"japanese" : "絶望も憎悪もとんでもない！諦めなければ夢は必ず叶うと信じているのだっ！",
-						"japaneseTL" : "",
-						"japaneseNote" : "",
-						"english" : "",
-						"englishNote" : ""
+					"10": {
+						"event": "Main 5",
+						"media": "main_5",
+						"chinese": "绝望和憎恶都不算什么！我相信，只要不放弃总有一天肯定能实现梦想！",
+						"chineseTL": "Despair and hatred mean nothing! I believe as long as you don't give up, you'll definitely fulfil your dreams one day!",
+						"chineseNote": "",
+						"japanese": "絶望も憎悪もとんでもない！諦めなければ夢は必ず叶うと信じているのだっ！",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Despair and hatred mean nothing to me! I believe that as long as you don't give up, you can make any dream come true!",
+						"englishNote": ""
 					},
-					"11" : {
-						"event" : "Normal touch",
-						"media" : "touch_1",
-						"chinese" : "不要随便碰我！吃我一炮！",
-						"chineseTL" : "Don't casually touch me! Take this!",
-						"chineseNote" : "",
-						"japanese" : "勝手に触るな！これでもくらえ！",
-						"japaneseTL" : "",
-						"japaneseNote" : "",
-						"english" : "",
-						"englishNote" : ""
+					"11": {
+						"event": "Touch",
+						"media": "touch_1",
+						"chinese": "不要随便碰我！吃我一炮！",
+						"chineseTL": "Don't casually touch me! Take this!",
+						"chineseNote": "",
+						"japanese": "勝手に触るな！これでもくらえ！",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Don't just randomly touch me! Taste my wrath!!",
+						"englishNote": ""
 					},
-					"12" : {
-						"event" : "Special touch",
-						"media" : "touch_2",
-						"chinese" : "渣滓，吃我一炮",
-						"chineseTL" : "Scum, Take this!",
-						"chineseNote" : "",
-						"japanese" : "このクズ！これでもくらえ！",
-						"japaneseTL" : "",
-						"japaneseNote" : "",
-						"english" : "",
-						"englishNote" : ""
+					"12": {
+						"event": "Touch (Special)",
+						"media": "touch_2",
+						"chinese": "渣滓，吃我一炮",
+						"chineseTL": "Scum, Take this!",
+						"chineseNote": "",
+						"japanese": "このクズ！これでもくらえ！",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Filthy, taste my wrath!",
+						"englishNote": ""
 					},
-					"13" : {
-						"event" : "Mission reminder",
-						"media" : "task",
-						"chinese" : "欸？有任务就要去完成，这不是常识吗？",
-						"chineseTL" : "Hoh? If there's a mission it must be completed. Isn't it common sense?",
-						"chineseNote" : "",
-						"japanese" : "え？任務はこなすべきって常識じゃない？",
-						"japaneseTL" : "",
-						"japaneseNote" : "",
-						"english" : "",
-						"englishNote" : ""
+					"13": {
+						"event": "Mission",
+						"media": "task",
+						"chinese": "欸？有任务就要去完成，这不是常识吗？",
+						"chineseTL": "Hoh? If there's a mission it must be completed. Isn't it common sense?",
+						"chineseNote": "",
+						"japanese": "え？任務はこなすべきって常識じゃない？",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Huh? You have to finish your work first. Isn't that common sense?",
+						"englishNote": ""
 					},
-					"14" : {
-						"event" : "Mission complete",
-						"media" : "mission_complete",
-						"chinese" : "任务奖励好多呀",
-						"chineseTL" : "That's a lot of rewards..",
-						"chineseNote" : "",
-						"japanese" : "任務報酬、多いね…",
-						"japaneseTL" : "",
-						"japaneseNote" : "",
-						"english" : "",
-						"englishNote" : ""
+					"14": {
+						"event": "Mission Complete",
+						"media": "mission_complete",
+						"chinese": "任务奖励好多呀",
+						"chineseTL": "That's a lot of rewards..",
+						"chineseNote": "",
+						"japanese": "任務報酬、多いね…",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Look at all the rewards!",
+						"englishNote": ""
 					},
-					"15" : {
-						"event" : "Mail reminder",
-						"media" : "mail",
-						"chinese" : "欸，邮件少了一封？真、真的？",
-						"chineseTL" : "Hey, there's a missing mail? R-really?",
-						"chineseNote" : "",
-						"japanese" : "メールが一通足りない？う、嘘！？",
-						"japaneseTL" : "",
-						"japaneseNote" : "",
-						"english" : "",
-						"englishNote" : ""
+					"15": {
+						"event": "Mail",
+						"media": "mail",
+						"chinese": "欸，邮件少了一封？真、真的？",
+						"chineseTL": "Hey, there's a missing mail? R-really?",
+						"chineseNote": "",
+						"japanese": "メールが一通足りない？う、嘘！？",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Huh, you're missing a piece of mail? R-really...?",
+						"englishNote": ""
 					},
-					"16" : {
-						"event" : "Return to port",
-						"media" : "home",
-						"chinese" : "没想到你这家伙也挺厉害的嘛，够资格当我的指挥官了！",
-						"chineseTL" : "I didn't expect you to be so great, you're fit to be my commander now!",
-						"chineseNote" : "",
-						"japanese" : "卿はなかなかやるな。我の指揮官を務めるのに値するかもしれんぞ！",
-						"japaneseTL" : "",
-						"japaneseNote" : "",
-						"english" : "",
-						"englishNote" : ""
+					"16": {
+						"event": "Return to Port",
+						"media": "home",
+						"chinese": "没想到你这家伙也挺厉害的嘛，够资格当我的指挥官了！",
+						"chineseTL": "I didn't expect you to be so great, you're fit to be my commander now!",
+						"chineseNote": "",
+						"japanese": "卿はなかなかやるな。我の指揮官を務めるのに値するかもしれんぞ！",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "I didn't expect you to be this capable. Maybe you are worthy of being my commander!",
+						"englishNote": ""
 					},
-					"17" : {
-						"event" : "Commission complete",
-						"media" : "expedition",
-						"chinese" : "喂，港口那边好像有人回来了",
-						"chineseTL" : "Oi, looks like there's someone returning to port.",
-						"chineseNote" : "",
-						"japanese" : "埠頭に誰かが戻ってきているぞ",
-						"japaneseTL" : "",
-						"japaneseNote" : "",
-						"english" : "",
-						"englishNote" : ""
+					"17": {
+						"event": "Commission Complete",
+						"media": "expedition",
+						"chinese": "喂，港口那边好像有人回来了",
+						"chineseTL": "Oi, looks like there's someone returning to port.",
+						"chineseNote": "",
+						"japanese": "埠頭に誰かが戻ってきているぞ",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Hey, I think you have people coming back into the harbor.",
+						"englishNote": ""
 					},
-					"18" : {
-						"event" : "Enhancing complete",
-						"media" : "upgrade",
-						"chinese" : "我、我可不会被轻易收买！",
-						"chineseTL" : "I-I won't be easily bribed!",
-						"chineseNote" : "",
-						"japanese" : "か、簡単には手なずけられないぞ！",
-						"japaneseTL" : "",
-						"japaneseNote" : "",
-						"english" : "",
-						"englishNote" : ""
+					"18": {
+						"event": "Enhancement",
+						"media": "upgrade",
+						"chinese": "我、我可不会被轻易收买！",
+						"chineseTL": "I-I won't be easily bribed!",
+						"chineseNote": "",
+						"japanese": "か、簡単には手なずけられないぞ！",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "I-I won't be bribed so easily!",
+						"englishNote": ""
 					},
-					"19" : {
-						"event" : "Flagship fight",
-						"media" : "warcry",
-						"chinese" : "让你们见识一下飞机的厉害！",
-						"chineseTL" : "I'll let you witness the power of aircraft!",
-						"chineseNote" : "",
-						"japanese" : "艦載機の強さを思い知れ！",
-						"japaneseTL" : "",
-						"japaneseNote" : "",
-						"english" : "",
-						"englishNote" : ""
+					"19": {
+						"event": "Flagship",
+						"media": "warcry",
+						"chinese": "让你们见识一下飞机的厉害！",
+						"chineseTL": "I'll let you witness the power of aircraft!",
+						"chineseNote": "",
+						"japanese": "艦載機の強さを思い知れ！",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Allow me to show you the true power of planes!",
+						"englishNote": ""
 					},
-					"20" : {
-						"event" : "Victory",
-						"media" : "mvp",
-						"chinese" : "哼哼，果然飞机才是最强的呢！",
-						"chineseTL" : "Hmhm, of course planes are the strongest!",
-						"chineseNote" : "",
-						"japanese" : "む、むふふふふ…やはり飛行機こそ最強…！",
-						"japaneseTL" : "",
-						"japaneseNote" : "",
-						"english" : "",
-						"englishNote" : ""
+					"20": {
+						"event": "Victory",
+						"media": "mvp",
+						"chinese": "哼哼，果然飞机才是最强的呢！",
+						"chineseTL": "Hmhm, of course planes are the strongest!",
+						"chineseNote": "",
+						"japanese": "む、むふふふふ…やはり飛行機こそ最強…！",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Heheh, planes are the strongest after all!",
+						"englishNote": ""
 					},
-					"21" : {
-						"event" : "Defeat",
-						"media" : "lose",
-						"chinese" : "不、不是我的错哦！大、大概是饭没有吃饱！",
-						"chineseTL" : "I-it's not my fault! M-maybe I didn't eat properly..",
-						"chineseNote" : "",
-						"japanese" : "わ、我のせいじゃないぞ！朝ごはんが足りなかっただけ！多分！",
-						"japaneseTL" : "",
-						"japaneseNote" : "",
-						"english" : "",
-						"englishNote" : ""
+					"21": {
+						"event": "Defeat",
+						"media": "lose",
+						"chinese": "不、不是我的错哦！大、大概是饭没有吃饱！",
+						"chineseTL": "I-it's not my fault! M-maybe I didn't eat properly..",
+						"chineseNote": "",
+						"japanese": "わ、我のせいじゃないぞ！朝ごはんが足りなかっただけ！多分！",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "It's n-not my fault! I-I just didn't get enough to eat!",
+						"englishNote": ""
 					},
-					"22" : {
-						"event" : "Skills",
-						"media" : "skill",
-						"chinese" : "结束吧！",
-						"chineseTL" : "I-It's over!",
-						"chineseNote" : "",
-						"japanese" : "しゅ、終焉を！",
-						"japaneseTL" : "",
-						"japaneseNote" : "",
-						"english" : "",
-						"englishNote" : ""
+					"22": {
+						"event": "Skill",
+						"media": "skill",
+						"chinese": "结束吧！",
+						"chineseTL": "I-It's over!",
+						"chineseNote": "",
+						"japanese": "しゅ、終焉を！",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Let's end this!",
+						"englishNote": ""
 					},
-					"23" : {
-						"event" : "Low HP",
-						"media" : "hp",
-						"chinese" : "哼、哼！我才不会输！",
-						"chineseTL" : "Hmph, Hmph! I won't lose!",
-						"chineseNote" : "",
-						"japanese" : "ふ、ふんだ！負けないよっ！",
-						"japaneseTL" : "",
-						"japaneseNote" : "",
-						"english" : "",
-						"englishNote" : ""
+					"23": {
+						"event": "Low HP",
+						"media": "hp",
+						"chinese": "哼、哼！我才不会输！",
+						"chineseTL": "Hmph, Hmph! I won't lose!",
+						"chineseNote": "",
+						"japanese": "ふ、ふんだ！負けないよっ！",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Hm-hmph! Like hell I'd lose!",
+						"englishNote": ""
 					},
-					"24" : {
-						"event" : "Upset",
-						"media" : "feeling1",
-						"chinese" : "哼，不要靠近我，我要靠自己找到回家的方法！",
-						"chineseTL" : "Hmph, don't come near me. I'll find my own way back home.",
-						"chineseNote" : "",
-						"japanese" : "ふん、近寄るな！我は自力で鉄血に帰るぞ！",
-						"japaneseTL" : "",
-						"japaneseNote" : "",
-						"english" : "",
-						"englishNote" : ""
+					"24": {
+						"event": "Affinity (Upset)",
+						"media": "feeling1",
+						"chinese": "哼，不要靠近我，我要靠自己找到回家的方法！",
+						"chineseTL": "Hmph, don't come near me. I'll find my own way back home.",
+						"chineseNote": "",
+						"japanese": "ふん、近寄るな！我は自力で鉄血に帰るぞ！",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Hmph. Stay away from me. I'll find a way home by myself!",
+						"englishNote": ""
 					},
-					"25" : {
-						"event" : "Stranger",
-						"media" : "feeling2",
-						"chinese" : "你那是什么表情！明明是你这里太大了才害我才找不到回家的路！哼，你这坏蛋一定是故意的！",
-						"chineseTL" : "W-what is your expression? I-it's clearly because the base is so big that I lost my way home! Hmph, you must've done it on purpose!",
-						"chineseNote" : "",
-						"japanese" : "その顔はなんだ！鉄血に帰ってないのはここが広すぎて、帰る道がわからないだけだぞ！くっ！絶対わざと広くしただろう……！",
-						"japaneseTL" : "",
-						"japaneseNote" : "",
-						"english" : "",
-						"englishNote" : ""
+					"25": {
+						"event": "Affinity (Stranger)",
+						"media": "feeling2",
+						"chinese": "你那是什么表情！明明是你这里太大了才害我才找不到回家的路！哼，你这坏蛋一定是故意的！",
+						"chineseTL": "W-what is your expression? I-it's clearly because the base is so big that I lost my way home! Hmph, you must've done it on purpose!",
+						"chineseNote": "",
+						"japanese": "その顔はなんだ！鉄血に帰ってないのはここが広すぎて、帰る道がわからないだけだぞ！くっ！絶対わざと広くしただろう……！",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "What's with that expression? I'm only unable to find my way back home because this place is too big! Hmph, I'm sure you made it that way on purpose, you goon!",
+						"englishNote": ""
 					},
-					"26" : {
-						"event" : "Friendly",
-						"media" : "feeling3",
-						"chinese" : "你这家伙，想要我帮你忙可以早点说呀……天天能吃到这么美味的蛋糕的话……我也不是不能在这里停留一段时间的嘛！",
-						"chineseTL" : "You rascal, you could've said something earlier if you wanted my help.. I guess it's not as if I can't remain here if I get to eat such delicious cakes everyday..",
-						"chineseNote" : "",
-						"japanese" : "我に助けてもらいたかったら早く言えばいいじゃない……こんなに美味しいケーキを毎日食べれるなら…もう少しここにいてあげてもいいんだぞ！",
-						"japaneseTL" : "",
-						"japaneseNote" : "",
-						"english" : "",
-						"englishNote" : ""
+					"26": {
+						"event": "Affinity (Friendly)",
+						"media": "feeling3",
+						"chinese": "你这家伙，想要我帮你忙可以早点说呀……天天能吃到这么美味的蛋糕的话……我也不是不能在这里停留一段时间的嘛！",
+						"chineseTL": "You rascal, you could've said something earlier if you wanted my help.. I guess it's not as if I can't remain here if I get to eat such delicious cakes everyday..",
+						"chineseNote": "",
+						"japanese": "我に助けてもらいたかったら早く言えばいいじゃない……こんなに美味しいケーキを毎日食べれるなら…もう少しここにいてあげてもいいんだぞ！",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "You fool, if you wanted my help, you should have asked... Since I'm able to eat delicious cake like this every day... maybe I wouldn't object to staying a little longer!",
+						"englishNote": ""
 					},
-					"27" : {
-						"event" : "Crush",
-						"media" : "feeling4",
-						"chinese" : "喂，指挥官，今天的点心是什么？欸，回家？……这个、那个……对、对了！我离长大还有很久呢，可以让铁血先等一等！嗯，大家不会生气的！",
-						"chineseTL" : "Oi, Commander, what's today's dessert? Hm? Return home? ... T-that... S-since I've been away from home for so long, we can let the metalbloods wait a little longer! Yup, nobody will get mad!",
-						"chineseNote" : "",
-						"japanese" : "我が食する…ええい、今日のおやつはなんだ！て、鉄血に帰らないかって……ぐぬぬぬ…わ、我の未来はまだ明るいぞ！もう少し待たせてもいいんだからな！うん、きっと大丈夫！",
-						"japaneseTL" : "",
-						"japaneseNote" : "",
-						"english" : "",
-						"englishNote" : ""
+					"27": {
+						"event": "Affinity (Like)",
+						"media": "feeling4",
+						"chinese": "喂，指挥官，今天的点心是什么？欸，回家？……这个、那个……对、对了！我离长大还有很久呢，可以让铁血先等一等！嗯，大家不会生气的！",
+						"chineseTL": "Oi, Commander, what's today's dessert? Hm? Return home? ... T-that... S-since I've been away from home for so long, we can let the metalbloods wait a little longer! Yup, nobody will get mad!",
+						"chineseNote": "",
+						"japanese": "我が食する…ええい、今日のおやつはなんだ！て、鉄血に帰らないかって……ぐぬぬぬ…わ、我の未来はまだ明るいぞ！もう少し待たせてもいいんだからな！うん、きっと大丈夫！",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Hey Commander, what's for dessert today? Huh, it's about going home? Well, um... th-that's right! It will be a while until I'm grown up enough to realize my destiny, so I can probably keep the Iron Blood waiting a bit longer! Hmm, I'm sure they won't be angry!",
+						"englishNote": ""
 					},
-					"28" : {
-						"event" : "Love",
-						"media" : "feeling5",
-						"chinese" : "你这家伙，意外的是个好人呢，这里的其他人对我也很好……等我以后成为了超级厉害的航母，也可以来到这支舰队生活呢~",
-						"chineseTL" : "You rascal, you're lucky you're a good person, and that the other people here treat me well.. wait til I become a super powerful aircraft carrier, maybe I'll return to this fleet to live.",
-						"chineseNote" : "",
-						"japanese" : "卿は意外といい人だし、ここの皆も我に親切で……我が凄い空母になったら、この艦隊でずっと卿とともに戦ってもいいぞ！",
-						"japaneseTL" : "",
-						"japaneseNote" : "",
-						"english" : "",
-						"englishNote" : ""
+					"28": {
+						"event": "Affinity (Love)",
+						"media": "feeling5",
+						"chinese": "你这家伙，意外的是个好人呢，这里的其他人对我也很好……等我以后成为了超级厉害的航母，也可以来到这支舰队生活呢~",
+						"chineseTL": "You rascal, you're lucky you're a good person, and that the other people here treat me well.. wait til I become a super powerful aircraft carrier, maybe I'll return to live with this fleet.",
+						"chineseNote": "",
+						"japanese": "卿は意外といい人だし、ここの皆も我に親切で……我が凄い空母になったら、この艦隊でずっと卿とともに戦ってもいいぞ！",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "You turned out to be a pretty good person after all, and everyone here has treated me well... When I grow up to become a mighty carrier, I wouldn't mind coming back to live here~",
+						"englishNote": ""
 					},
-					"29" : {
-						"event" : "Promise",
-						"media" : "propose",
-						"chinese" : "笨蛋笨蛋笨蛋，讨厌讨厌讨厌，给我这种东西的话，不就让人更加不想回去了吗！呜呜……这、这样的话，你要和我约好，如果我回去了的话，将来你一定要找到我，知道了吗？说好了哦！",
-						"chineseTL" : "Stupidstupidstupid,I hate you,I hate you,I hate you, to give me such a thing.. you'll make me not want to go back! sob... i-if it's like that, if I do return home, you must promise to come look for me! Got that? It's a promise!",
-						"chineseNote" : "",
-						"japanese" : "ばかばかばか！こんなの我に渡したら鉄血に帰りたくなくなるじゃない！うぅ……じゃ、じゃあ約束して！",
-						"japaneseTL" : "",
-						"japaneseNote" : "",
-						"english" : "",
-						"englishNote" : ""
+					"29": {
+						"event": "Pledge",
+						"media": "propose",
+						"chinese": "笨蛋笨蛋笨蛋，讨厌讨厌讨厌，给我这种东西的话，不就让人更加不想回去了吗！呜呜……这、这样的话，你要和我约好，如果我回去了的话，将来你一定要找到我，知道了吗？说好了哦！",
+						"chineseTL": "Stupidstupidstupid,I hate you,I hate you,I hate you, to give me such a thing.. you'll make me not want to go back! sob... i-if it's like that, if I do return home, you must promise to come look for me! Got that? It's a promise!",
+						"chineseNote": "",
+						"japanese": "ばかばかばか！こんなの我に渡したら鉄血に帰りたくなくなるじゃない！うぅ……じゃ、じゃあ約束して！",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "I hate you, you big dumb idiot! If you give me something like this, how am I going to say goodbye? Uwahh... *sniffle*... Th-then promise me this... If I ever have to go back, swear that you'll come find me, got it? It's a promise!",
+						"englishNote": ""
 					},
-					"30" : {
-						"event" : "Easter Egg 1(Graf Zeppelin)",
-						"media" : "link1",
-						"chinese" : "我热爱着一切！",
-						"chineseTL" : "I love everything!",
-						"chineseNote" : "",
-						"japanese" : "我はすべてを愛する！",
-						"japaneseTL" : "",
-						"japaneseNote" : "",
-						"english" : "",
-						"englishNote" : ""
+					"30": {
+						"event": "Easter Egg 1(Graf Zeppelin)",
+						"media": "link1",
+						"chinese": "我热爱着一切！",
+						"chineseTL": "I love everything!",
+						"chineseNote": "",
+						"japanese": "我はすべてを愛する！",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "I love all of this!",
+						"englishNote": ""
 					},
-					"31" : {
-						"event" : "Easter Egg 2(Belfast, Hiei, Akagi)",
-						"media" : "link2",
-						"chinese" : "我和你们才不一样！",
-						"chineseTL" : "I'm different from you lot!",
-						"chineseNote" : "",
-						"japanese" : "卿らとは違うぞ！",
-						"japaneseTL" : "",
-						"japaneseNote" : "",
-						"english" : "",
-						"englishNote" : ""
+					"31": {
+						"event": "Easter Egg 2(Belfast, Hiei, Akagi)",
+						"media": "link2",
+						"chinese": "我和你们才不一样！",
+						"chineseTL": "I'm different from you lot!",
+						"chineseNote": "",
+						"japanese": "卿らとは違うぞ！",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "I'm not like you bunch!",
+						"englishNote": ""
 					},
-					"32" : {
-						"event" : "Easter Egg 3(Z46)",
-						"media" : "link3",
-						"chinese" : "哼哼，拜倒在我的博学之下吧！",
-						"chineseTL" : "Huhu, why don't you become my disciple?",
-						"chineseNote" : "",
-						"japanese" : "ふふん、我の博識に酔いしれ！",
-						"japaneseTL" : "",
-						"japaneseNote" : "",
-						"english" : "",
-						"englishNote" : ""
+					"32": {
+						"event": "Easter Egg 3(Z46)",
+						"media": "link3",
+						"chinese": "哼哼，拜倒在我的博学之下吧！",
+						"chineseTL": "Huhu, why don't you become my disciple?",
+						"chineseNote": "",
+						"japanese": "ふふん、我の博識に酔いしれ！",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Bow down to my superior engineering!",
+						"englishNote": ""
 					}
 				}
 			}
