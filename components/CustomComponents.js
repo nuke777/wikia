@@ -119,7 +119,7 @@ class CommentedShipDisplay extends HTMLElement{
 						if (self.retrofit == "true")
 							self.shipIcon = "https://media.alg-wiki.com/assets/shipyardicon/" + actual_JSON.skin[1].id + "_g.png";
 						else
-							self.shipIcon = "https://media.alg-wiki.com/assets/shipyardicon/" + self.skin + ".png";
+							self.shipIcon = "https://media.alg-wiki.com/assets/shipyardicon/" + actual_JSON.skin[self.skin+""].id + ".png";
 					} else {
 						if (self.retrofit == "true")
 							self.shipIcon = "https://media.alg-wiki.com/assets/shipyardicon/" + actual_JSON.skin[1].id + "_g.png";
