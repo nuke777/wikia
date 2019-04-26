@@ -50,14 +50,21 @@
 	"skill": {
 		"1" : {
 			"icon" : "2001",
-			"requirement" : "",
+			"requirement" : "Default",
 			"name" : "Quick Reload",
 			"type" : "Offensive",
-			"description" : "$1 chance to activate every 20s: increases this ship's RLD by $2 for 10s."
+			"description" : "30% (60%) chance to activate every 20s: increases this ship's RLD by 20% (40%) for 10s."
 		},
 		"2" : {
+			"icon" : "2051",
+			"requirement" : "Retrofit",
+			"name" : "Double Torpedo",
+			"type" : "Offensive",
+			"description" : "When this ship fires its Torpedoes: 15%(30%) chance to launch a second wave of Torpedoes."
+		},
+		"3" : {
 			"icon" : "22011",
-			"requirement" : "",
+			"requirement" : "Limit Break Rank 1, Rank 3 upgrade",
 			"name" : "All Out Assault Ⅰ",
 			"type" : "Offensive",
 			"description" : "Activate All Out Assault Ⅰ: Mutsuki Class once every 15 times the main gun is fired."
