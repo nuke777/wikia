@@ -46,35 +46,35 @@
 		"aviation": "0",
 		"reload": "13"
 	},
-	"acquisitionMethod": "Available as mantous reward (10000 total mantous) during \"Operation Mantou\" Event.",
+	"acquisitionMethod": "Event: Operation Manjuu, Light Construction (JP/CN)",
 	"skill": {
 		"1": {
 			"icon": "11280",
-			"requirement": "Default Unlocked",
-			"name": "The Perfect Chibi Maid",
+			"requirement": "",
+			"name": "The Perfect Mini-Maid",
 			"type": "Defensive",
-			"description": "Increase speed by 3(8) and increase evade by 13%(25%)."
+			"description": "Increases this ship's Speed by 3 (8) and EVA by 13.0% (25.0%)."
 		},
 		"2": {
 			"icon": "11290",
-			"requirement": "Default Unlocked",
+			"requirement": "",
 			"name": "Ladies' Tea Time",
 			"type": "Defensive",
-			"description": "After battle begins, recover HP of entire fleet equal to 1% (3.5%) of Belchan's max HP"
+			"description": "At the start of the battle: heals all friendlies for 1.0% (3.5%) of this ship's max HP."
 		},
 		"3": {
 			"icon": "21141",
-			"requirement": "Limit Break Rank 1, Rank 3 upgrade",
-			"name": "Full Barrage I-II",
+			"requirement": "",
+			"name": "All Out Assault Ⅰ",
 			"type": "Offensive",
-			"description": "Every 12(8) times the main battery is fired, trigger Full Barrage - Edinburgh I (II)"
+			"description": "Activate All Out Assault Ⅰ: Edinburgh Class once every 12 times the main gun is fired."
 		}
 	},
 	"skin": {
 		"1": {
 			"id": "beierfasite_younv",
-			"name": "Belfast",
-			"description": "Edinburgh Class light cruiser, Belfast. Hull Number C35.",
+			"name": "Belchan ",
+			"description": "Edinburgh-class light cruiser – Belfast. ",
 			"expression": {
 				"0": {
 					"id": "0"
@@ -182,9 +182,9 @@
 		}
 	},
 	"limitBreak": {
-		"tier1": "Full Barrage I, Main Guns Efficiency +5%",
-		"tier2": "Max Torpedo Capacity +1, Pre-Loaded Torpedo +1, Torpedo Efficiency +10%",
-		"tier3": "Full Barrage II, Main Guns Efficiency +15%"
+		"tier1": "Unlock All Out Assault Ⅰ/Main gun efficiency +5%",
+		"tier2": "Torpedo base +1/Torpedo preload +1/Torpedo efficiency +10%",
+		"tier3": "Improve All Out Assault/Main gun efficiency +15%"
 	},
 	"equipmentLoadout": {
 		"1": {
@@ -264,7 +264,7 @@
 			"1": {
 				"skin_id": "beierfasite_younv",
 				"id": "0",
-				"label": "Belfast",
+				"label": "Belchan ",
 				"dialogue": {
 					"1": {
 						"event": "Ship Description",
@@ -275,7 +275,7 @@
 						"japanese": "エディンバラ級軽巡洋艦・ベルファスト（HMS Belfast）",
 						"japaneseTL": "Edinburgh-class Light Cruiser, Belfast.",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Edinburgh-class light cruiser – Belfast.",
 						"englishNote": ""
 					},
 					"2": {
@@ -287,7 +287,7 @@
 						"japanese": "ハーランド・アンド・ウルフ生まれのベルファストです。はい、あのタイタニックと同じ場所です。実はベルファスト、お姉ちゃんがいますよ？あまり世話をしたことはありませんでしたけど……ええと、以上です。ご主人様はどんな御方ですか？",
 						"japaneseTL": "I am Belfast, born in Harland and Wolff. Yes, the same builder as that Titanic. Actually, I have older sisters, you know? Though we didn't have much contact... erm, that's all for the introduction. Who might my Master be?",
 						"japaneseNote": "",
-						"english": "",
+						"english": "I am Belfast, born in Harland and Wolff. Yes, the same place as the Titanic. I actually have an older sister. She hasn't taken care of me very much, however... Umm, that's all I was going to say. Master, what type of person are you?",
 						"englishNote": ""
 					},
 					"3": {
@@ -299,7 +299,7 @@
 						"japanese": "ご主人様は指揮官…ええと、ここは陛下のお部屋ではないのですか？よくわかりませんけど……しばらくはここにいられますよね。私はメイドのベルファスト、よろしくお願いします",
 						"japaneseTL": "I'm… Ayanami. I'm often called a demon. Pleasure to meet you.",
 						"japaneseNote": "",
-						"english": "",
+						"english": "My Master is also a commander... Umm, so the commander is a captain of a ship? I don't quite understand, but... I will stay here for a while if you don't mind. I am Belfast, maid-in-training. It is a pleasure to serve you.",
 						"englishNote": ""
 					},
 					"4": {
@@ -311,7 +311,7 @@
 						"japanese": "ご主人様、紅茶はいかがですか？",
 						"japaneseTL": "Master, how would you like some black tea?",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Master, would you like some tea?",
 						"englishNote": ""
 					},
 					"5": {
@@ -323,7 +323,7 @@
 						"japanese": "レディのカーテシーは両手で、こう……すみません、失敗しちゃいました……",
 						"japaneseTL": "A lady should curtsy with both hands like this... I\"m sorry, I failed...",
 						"japaneseNote": "",
-						"english": "",
+						"english": "To perform a curtsy, a lady puts her feet across each other like— Forgive me, I failed to do it...",
 						"englishNote": ""
 					},
 					"6": {
@@ -335,7 +335,7 @@
 						"japanese": "ウィスキーとコーヒーは……ええと、こ、紅茶じゃダメですか…？",
 						"japaneseTL": "Whisky and coffee... erm... will black tea not do...?",
 						"japaneseNote": "",
-						"english": "",
+						"english": "You'd like whiskey and coffee... Umm, d-do you not drink tea...?",
 						"englishNote": ""
 					},
 					"7": {
@@ -347,7 +347,7 @@
 						"japanese": "ご主人様、ベルファストに任せるお仕事はありますか？",
 						"japaneseTL": "Master, do you have any work for Belfast?",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Master, is there anything you would like me to do?",
 						"englishNote": ""
 					},
 					"8": {
@@ -359,7 +359,7 @@
 						"japanese": "ご主人様、指揮官をサボってはめっ、ですよ？",
 						"japaneseTL": "Master, you shouldn't slack from your duties as a Commander, you know?",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Master, neglecting your commander duties is a big no-no!",
 						"englishNote": ""
 					},
 					"9": {
@@ -371,7 +371,7 @@
 						"japanese": "ご主人様、人に頼りすぎるとダメ人間になっちゃいますよ？たまには自分で――うぅ、仕方ありませんね。こ、今回だけですよ…？",
 						"japaneseTL": "Master, if you rely on others too much you'll end up as a worthless deadbeat you know? Every now and then, you should do things by yourself - Ugh, I guess there's no helping it. I... I'll help you just this once, okay?",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Master, you'll end up a failure if you rely on others too often. Sometimes, you must— Mmh, you leave me no choice. I-I won't help you next time, okay...?",
 						"englishNote": ""
 					},
 					"10": {
@@ -383,7 +383,7 @@
 						"japanese": "ご主人様、安心してください。収監されても、ベルファストはお食事をお届けしますよ",
 						"japaneseTL": "Master, please do not worry. Even if you are jailed, I will still bring food to you.",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Don't worry, Master. Even if you go to prison, I will still bring you your meals.",
 						"englishNote": ""
 					},
 					"11": {
@@ -395,7 +395,7 @@
 						"japanese": "ご主人様、任務の書類をあんなに貯められて、大丈夫ですか？",
 						"japaneseTL": "Master, is it all right to let the mission-related documents pile up that high?",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Master, should you really let all these mission documents pile up...?",
 						"englishNote": ""
 					},
 					"12": {
@@ -407,7 +407,7 @@
 						"japanese": "任務の報奨ですね。ベルファストもご主人様にご奉仕できたら報奨がもらえますか？",
 						"japaneseTL": "This is a reward for the mission, right? If I provide good service to the Master, will I receive a reward as well?",
 						"japaneseNote": "",
-						"english": "",
+						"english": "The mission rewards are here. If I prove to be of service to you, will I receive rewards too?",
 						"englishNote": ""
 					},
 					"13": {
@@ -419,7 +419,7 @@
 						"japanese": "ご主人様、お手紙はこれで大丈夫でしょうか…？",
 						"japaneseTL": "Master, is it okay to leave your letters here like this...?",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Master, would you like me to leave this letter here...?",
 						"englishNote": ""
 					},
 					"14": {
@@ -431,7 +431,7 @@
 						"japanese": "ご主人様、お腹が空きましたか？私もお腹が空きました。一緒に食べませんか？",
 						"japaneseTL": "Master, are you hungry? I'm hungry too. Shall we eat together?\n",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Are you hungry, Master? I'm feeling quite peckish. Shall we eat together?",
 						"englishNote": ""
 					},
 					"15": {
@@ -443,7 +443,7 @@
 						"japanese": "ご主人様、委託を完了したお嬢様方が出迎えを待っていますよ？",
 						"japaneseTL": "Master, the ladies who have returned from completing the commission are waiting for you to welcome them back, you know?",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Master, the ladies have returned from their commission and are waiting for you.",
 						"englishNote": ""
 					},
 					"16": {
@@ -455,7 +455,7 @@
 						"japanese": "戦闘には慣れていませんけど、期待してくださいね",
 						"japaneseTL": "I'm not used to combat yet, but please look forward to it.",
 						"japaneseNote": "",
-						"english": "",
+						"english": "I'm not quite used to fighting, but please have faith in me.",
 						"englishNote": ""
 					},
 					"17": {
@@ -467,7 +467,7 @@
 						"japanese": "主のためにショウガイを取り除くのはメイドの勤めですね",
 						"japaneseTL": "It is the duty of a maid to remove any obstacles for her Master, isn't it?",
 						"japaneseNote": "",
-						"english": "",
+						"english": "It's a maid's duty to remove her Master's obstacles!",
 						"englishNote": ""
 					},
 					"18": {
@@ -479,7 +479,7 @@
 						"japanese": "別に……大したことではないですね。そうですね？ご主人様？",
 						"japaneseTL": "It's... just a trivial accomplishment right? Isn't that right, Master?",
 						"japaneseNote": "",
-						"english": "",
+						"english": "This isn't... anything to brag about. Isn't that right, Master?",
 						"englishNote": ""
 					},
 					"19": {
@@ -491,11 +491,11 @@
 						"japanese": "レディは失敗した時でも優雅に……うぅ……",
 						"japaneseTL": "A lady must be elegant even in defeat... Ughhh...",
 						"japaneseNote": "",
-						"english": "",
+						"english": "A lady must be elegant, even in defeat... *Sob*...",
 						"englishNote": ""
 					},
 					"20": {
-						"event": "skill",
+						"event": "Skill",
 						"media": "skill",
 						"chinese": "敌方的诸位，接下来会有些疼哦",
 						"chineseTL": "Dear enemies, this may be a little painful.",
@@ -503,7 +503,7 @@
 						"japanese": "敵のみなさま、次はすこーし痛くなりますよ？",
 						"japaneseTL": "Dear enemies, this will be sliiiightly painful, ok?",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Dear enemies, this is going to be a liiiittle bit painful.",
 						"englishNote": ""
 					},
 					"21": {
@@ -515,7 +515,7 @@
 						"japanese": "ご主人様、撤退したほうがいいでしょうか……？",
 						"japaneseTL": "Master, would it be better to retreat...?",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Master, perhaps it would be a good idea to retreat...?",
 						"englishNote": ""
 					},
 					"22": {
@@ -527,7 +527,7 @@
 						"japanese": "ご主人様は台所の汚れより手がかかりますね",
 						"japaneseTL": "You are more troublesome than the stains in the kitchen, Master.",
 						"japaneseNote": "",
-						"english": "",
+						"english": "You are more troublesome than a kitchen stain, Master.",
 						"englishNote": ""
 					},
 					"23": {
@@ -539,7 +539,7 @@
 						"japanese": "ほかの船もいっぱい……ご主人様、指揮官って、すごくお金持ちの造船所のオーナーって意味でしょうか？",
 						"japaneseTL": "There's so many other ships... Master, does \"Commander\" refer to a very rich owner of a shipyard?",
 						"japaneseNote": "",
-						"english": "",
+						"english": "There are so many ships here... Master, does \"commander\" refer to an incredibly wealthy person who owns a shipyard?",
 						"englishNote": ""
 					},
 					"24": {
@@ -551,7 +551,7 @@
 						"japanese": "「緊張しないか」ですか？ご主人様はいい人ですし、ここにいるみなさまは私と同じ商船じゃありませんから、別に緊張することもなにもないですよ？",
 						"japaneseTL": "\"Am I nervous\", you ask? Master is a good person, and everyone here is not a merchant ship like me, so there's no need to be nervous or anything, I think?",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Do I feel nervous? Well, Master is a nice person, and none of the ladies here are merchant ships, so I have nothing to be nervous about.",
 						"englishNote": ""
 					},
 					"25": {
@@ -563,7 +563,7 @@
 						"japanese": "ご主人様が考えていることは手に取るようにわかりますね。…ええと、これって噂の「えんぱしー」ですか？うーん、もしくはご主人様がわかりやすすぎなのでは……",
 						"japaneseTL": "I understand what you are thinking perfectly, master. ...erm, is this what they call 'empathy'? Uhhh, or is it that you are just too easy to understand, Master...",
 						"japaneseNote": "",
-						"english": "",
+						"english": "I now completely understand how you think, Master... Umm, is this what's known as \"empathy\"? No, perhaps it's just overly easy to understand you, Master...",
 						"englishNote": ""
 					},
 					"26": {
@@ -575,7 +575,7 @@
 						"japanese": "ご主人様、ベルファストが大きくなったら、ちゃんとご主人様のオメガネに適うレディになれますか？",
 						"japaneseTL": "Master, when Belfast grows up, would I become a lady that befits your expectations?",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Master, do you think I will be a lady worthy of you, when I grow up?",
 						"englishNote": ""
 					},
 					"27": {
@@ -587,7 +587,7 @@
 						"japanese": "ベルファストを認めてくれた、という意味ですか？ありがとうございます。ですが…ベルファストがこの指輪をつけたらご主人様が色々誤解されそうで……ほ、本当によく考えたほうがいいですよ？",
 						"japaneseTL": "Does this mean that I have been considered worthy? Thank you very much. However... if I were to wear this ring, others may misunderstand your intentions, Master... i... it's probably better if you think this over, you know?",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Does this mean you \"approve of me\"? Thank you, Master. However... if I wear this ring, people may get the wrong idea about you... P-perhaps you should think this through more thoroughly?",
 						"englishNote": ""
 					},
 					"28": {
