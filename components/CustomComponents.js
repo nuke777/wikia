@@ -9,6 +9,7 @@ class CommentedShipDisplay extends HTMLElement{
 			this.shipID = "";
 			this.shipIcon = "";
 			this.shipRarity = "";
+			this.shipLink = "";
 			this.parentID = "_" + util.guidGenerator();
 			this.root = this.attachShadow({mode: "open"});
 			render(this.template(),this.root);
@@ -77,10 +78,10 @@ class CommentedShipDisplay extends HTMLElement{
 						</div>
 						<div style="width: 33px;height: 27px;float:left;text-align:center;color:white;padding-top:6px;font-size:13px;">${this.shipID}</div>
 						<div style="${this.shipRarity};border-top: 2px solid #ffffff;border-bottom: 2px solid #ffffff;width:100px; height:144px; float:left;">
-							<a href="ship#${this.ship}"><img src="${this.shipIcon}" style="height:144px;width: 100px"></a>
+							<a href="ship#${this.shipLink}"><img src="${this.shipIcon}" style="height:144px;width: 100px"></a>
 						</div>
 						<div style="float:left; display:block; text-align: center;vertical-align: middle;line-height: 33px;width:100px; height:33px; color:white; font-size:10px;">
-							<a href="ship#${this.ship}" style="color:white; font-size:10px;text-decoration:none">${this.shipName}</a>
+							<a href="ship#${this.shipLink}" style="color:white; font-size:10px;text-decoration:none">${this.shipName}</a>
 						</div>
 						<div style="width: 60px; height: 19px; background: url('Images/skin_event.png'); position: absolute; top: 38px; right: 8px; display: none" id="event${this.parentID}"></div> 
 						<div style="position: absolute; top: 38px; right: 8px; display: none; color: #8ed141; text-shadow: 0px 0px 4px #000000;" id="discount${this.parentID}"></div>
@@ -103,6 +104,7 @@ class CommentedShipDisplay extends HTMLElement{
 					var actual_JSON = JSON.parse(response);
 					self.shipName = actual_JSON.name;
 					self.shipID = actual_JSON.ID;
+					self.shipLink = actual_JSON.name_reference;
 					var rarity = "";
 					var hull = "";
 
@@ -119,7 +121,7 @@ class CommentedShipDisplay extends HTMLElement{
 						if (self.retrofit == "true")
 							self.shipIcon = "https://media.alg-wiki.com/assets/shipyardicon/" + actual_JSON.skin[1].id + "_g.png";
 						else
-							self.shipIcon = "https://media.alg-wiki.com/assets/shipyardicon/" + self.skin + ".png";
+							self.shipIcon = "https://media.alg-wiki.com/assets/shipyardicon/" + actual_JSON.skin[self.skin+""].id + ".png";
 					} else {
 						if (self.retrofit == "true")
 							self.shipIcon = "https://media.alg-wiki.com/assets/shipyardicon/" + actual_JSON.skin[1].id + "_g.png";

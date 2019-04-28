@@ -1,4 +1,4 @@
-{
+﻿{
 	"name_reference" : "z23",
 	"cn_reference" : "z23",
 	"nameJP" : "Z23",
@@ -92,6 +92,25 @@
 			}
 		},
 		"3" : {
+			"id" : "z23_4",
+			"name" : "Perfect Smile?",
+			"description" : "Welcome! A table for one today? Um... Commander, my smile doesn’t look stiff... right?",
+			"expression" : {
+				"0" : {
+					"id" : "0"
+				},
+				"1" : {
+					"id" : "1"
+				},
+				"2" : {
+					"id" : "2"
+				},
+				"3" : {
+					"id" : "3"
+				}
+			}
+		},
+		"4" : {
 			"id" : "z23_g",
 			"name" : "Z23 (Retrofit)",
 			"description" : "My efficiency should be upgraded along with my performance. Paperwork, battle plans... I can handle them all! Commander, be prepared, we’ll be very busy~ ",
@@ -781,6 +800,145 @@
 				}
 			},
 			"3": {
+				"skin_id" : "z23_4",
+				"id" : "4",
+				"label" : "Perfect Smile?",
+				"dialogue" : {
+					"1" : {
+						"event" : "Ship Description",
+						"media" : "",
+						"chinese" : "欢迎光临，请问客人只有一位吗？……那个，指挥官，我的笑容看起来应该不算僵硬……吧？",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "いらっしゃいませ、お一人様ですか？……ええと、指揮官、今の笑顔は固くないですよね…？",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Welcome! A table for one today? Um... Commander, my smile doesn’t look stiff... right?",
+						"englishNote" : ""
+					},
+					"2" : {
+						"event" : "Acquisition",
+						"media" : "get_3",
+						"chinese" : "欢迎光临，请问客人只有一位吗？……那个，指挥官，我的笑容看起来应该不算僵硬……吧？",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"3" : {
+						"event" : "Login",
+						"media" : "login_3",
+						"chinese" : "啊……指挥官，欢迎光临！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"4" : {
+						"event" : "Details",
+						"media" : "detail_3",
+						"chinese" : "呼……保持笑容可真是一件麻烦的事情，感觉嘴角都僵了……",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"5" : {
+						"event" : "Main 1",
+						"media" : "main_1_3",
+						"chinese" : "指挥官，不要总是盯着……啊，笑容笑容……咳咳！请问您要点些什么呢？",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"6" : {
+						"event" : "Main 2",
+						"media" : "main_2_3",
+						"chinese" : "如果您要点这份套餐的话，这里推荐再点一份这个或者这个，会有一个不错的折扣哦？",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"7" : {
+						"event" : "Main 3",
+						"media" : "main_3_3",
+						"chinese" : "唔，趁这个机会，或许学习一下厨艺是个不错的选择呢……啊，抱歉，这是您的餐点~",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"8" : {
+						"event" : "Touch",
+						"media" : "touch_1_3",
+						"chinese" : "指挥官，不要随便和我搭话，会影响工作的",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"9" : {
+						"event" : "Touch (Special)",
+						"media" : "touch_2_3",
+						"chinese" : "指挥官，再影响我工作可要请你出去了哦！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"10" : {
+						"event" : "Return to Port",
+						"media" : "home_3",
+						"chinese" : "指挥官，今天的推荐菜单是这些哦~",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"11" : {
+						"event" : "Affinity (Love)",
+						"media" : "feeling5_3",
+						"chinese" : "呼，当服务员可真是一件辛苦的事……不过，总算是有些收获呢。嘻嘻，指挥官，你看……这个笑容，是不是比之前自然许多呢？",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					}
+				}
+			},
+			"4": {
 				"skin_id" : "z23_g",
 				"id" : "9",
 				"label" : "Z23 (Retrofit)",

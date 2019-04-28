@@ -50,14 +50,21 @@
 	"skill": {
 		"1" : {
 			"icon" : "2001",
-			"requirement" : "",
+			"requirement" : "Default",
 			"name" : "Quick Reload",
 			"type" : "Offensive",
-			"description" : "$1 chance to activate every 20s: increases this ship's RLD by $2 for 10s."
+			"description" : "30% (60%) chance to activate every 20s: increases this ship's RLD by 20% (40%) for 10s."
 		},
 		"2" : {
+			"icon" : "2051",
+			"requirement" : "Retrofit",
+			"name" : "Double Torpedo",
+			"type" : "Offensive",
+			"description" : "When this ship fires its Torpedoes: 15%(30%) chance to launch a second wave of Torpedoes."
+		},
+		"3" : {
 			"icon" : "22011",
-			"requirement" : "",
+			"requirement" : "Limit Break Rank 1, Rank 3 upgrade",
 			"name" : "All Out Assault Ⅰ",
 			"type" : "Offensive",
 			"description" : "Activate All Out Assault Ⅰ: Mutsuki Class once every 15 times the main gun is fired."
@@ -81,6 +88,34 @@
 			"expression" : {
 				"0" : {
 					"id" : "0"
+				}
+			}
+		},
+		"3" : {
+			"id" : "ruyue_g",
+			"name" : "Retrofit",
+			"description" : "",
+			"expression" : {
+				"0" : {
+					"id" : "0"
+				},
+				"1" : {
+					"id" : "1"
+				},
+				"2" : {
+					"id" : "2"
+				},
+				"3" : {
+					"id" : "3"
+				},
+				"4" : {
+					"id" : "4"
+				},
+				"5" : {
+					"id" : "5"
+				},
+				"6" : {
+					"id" : "6"
 				}
 			}
 		}
@@ -155,34 +190,34 @@
 			"armor" : "Light"
 		},
 		"100retrofit": {
-			"hp" : "",
-			"firepower" : "",
-			"torpedo" : "",
-			"antiAir" : "",
-			"aviation" : "",
-			"reload" : "",
-			"hit" : "",
-			"evasion" : "",
-			"speed" : "44.7",
+			"hp" : "1404",
+			"firepower" : "51",
+			"torpedo" : "420",
+			"antiAir" : "155",
+			"aviation" : "0",
+			"reload" : "191",
+			"hit" : "169",
+			"evasion" : "187",
+			"speed" : "47.7",
 			"luck" : "15",
-			"asw" : "",
+			"asw" : "160",
 			"oxygen" : "0",
 			"ammo" : "0",
 			"cost" : "7",
 			"armor" : "Light"
 		},
 		"120retrofit": {
-			"hp" : "",
-			"firepower" : "",
-			"torpedo" : "",
-			"antiAir" : "",
-			"aviation" : "",
-			"reload" : "",
-			"hit" : "",
-			"evasion" : "",
-			"speed" : "44.7",
+			"hp" : "1652",
+			"firepower" : "59",
+			"torpedo" : "462",
+			"antiAir" : "173",
+			"aviation" : "0",
+			"reload" : "216",
+			"hit" : "178",
+			"evasion" : "193",
+			"speed" : "47.7",
 			"luck" : "15",
-			"asw" : "",
+			"asw" : "179",
 			"oxygen" : "0",
 			"ammo" : "0",
 			"cost" : "7",
@@ -690,7 +725,135 @@
 						"englishNote" : ""
 					}
 				}
+			},
+			"3": {
+				"skin_id" : "ruyue_g",
+				"id" : "9",
+				"label" : "Retrofit",
+				"dialogue" : {
+					"1" : {
+						"event" : "Ship Description",
+						"media" : "",
+						"chinese" : "如月…改造完了…这次…想帮上大家更多的忙！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "如月…かいぞうしゅうりょうしました……もっとみんなのおやくにたちたいです……",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"2" : {
+						"event" : "Acquisition",
+						"media" : "get_9",
+						"chinese" : "如月…改造完了…这次…想帮上大家更多的忙！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"3" : {
+						"event" : "Login",
+						"media" : "login_9",
+						"chinese" : "欸，指，指挥官？欢，欢迎回来……",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"4" : {
+						"event" : "Details",
+						"media" : "detail_9",
+						"chinese" : "如月……一直被大家照顾着。如月很开心，但是，如月不能总给大家添麻烦……",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"5" : {
+						"event" : "Main 1",
+						"media" : "main_1_9",
+						"chinese" : "睦月给了我一些糖……指挥官，那个，要，要吃吗？",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"6" : {
+						"event" : "Main 2",
+						"media" : "main_2_9",
+						"chinese" : "指挥官，我有没有变得……勇敢一点了？",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"7" : {
+						"event" : "Main 3",
+						"media" : "main_3_9",
+						"chinese" : "指挥官，有没有什么……我能帮上忙的吗？",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"8" : {
+						"event" : "Touch",
+						"media" : "touch_1_9",
+						"chinese" : "呀……！有，有什么事情吗，指挥官……？",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"9" : {
+						"event" : "Touch (Special)",
+						"media" : "touch_2_9",
+						"chinese" : "咿——！指，指挥官，不要这样……",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"10" : {
+						"event" : "Return to Port",
+						"media" : "home_9",
+						"chinese" : "指挥官…如月，帮你捶捶背！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					}
+				}
 			}
 		}
-	}
+	},
+	"retroParameter": "Rare, Destroyer"
 }
