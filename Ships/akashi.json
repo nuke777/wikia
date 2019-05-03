@@ -2,7 +2,7 @@
 	"name_reference" : "akashi",
 	"cn_reference" : "mingshi",
 	"nameJP" : "明石",
-	"nameCN" : "明石",
+	"nameCN" : "茗",
 	"ID" : "232",
 	"name" : "Akashi",
 	"internal_id" : "312011",
@@ -46,7 +46,7 @@
 		"aviation" : "0",
 		"reload" : "13"
 	},
-	"acquisitionMethod" : "Hidden Mission:Im-paws-ible quest",
+	"acquisitionMethod" : "Hidden Mission: Im-paws-ible quest",
 	"skill": {
 		"1" : {
 			"icon" : "10550",
@@ -74,7 +74,7 @@
 		"1" : {
 			"id" : "mingshi",
 			"name" : "Akashi",
-			"description" : "Repair ship Akashi<color=#fad545>Can be built after unlocking</color>",
+			"description" : "Repair ship Akashi. Can be built after unlocking</color>",
 			"expression" : {
 				"0" : {
 					"id" : "0"
@@ -93,7 +93,7 @@
 		},
 		"3" : {
 			"id" : "mingshi_3",
-			"name" : "黒猫来襲す！",
+			"name" : "Black Cat Strikes！",
 			"description" : "ふっふっふー、普段溜め込んでいたのはこの時のため……にゃにゃ♪重桜と西洋要素を融合した特別なドレスにゃ！指揮官、今日もダイヤいかがかにゃ？",
 			"expression" : {
 				"0" : {
@@ -891,6 +891,313 @@
 						"japaneseTL" : "",
 						"japaneseNote" : "",
 						"english" : "",
+						"englishNote" : ""
+					}
+				}
+			},
+			"101": {
+				"skin_id": "mingshi_shop",
+				"id": "shop",
+				"label": "Akashi",
+				"dialogue": {
+					"1" : {
+						"event" : "Shop 1",
+						"media" : "shop/shop1",
+						"chinese" : "欢迎光临喵！",
+						"chineseTL" : "Welcome nya~!",
+						"chineseNote" : "",
+						"japanese" : "いらしゃいませ、にゃ！",
+						"japaneseTL" : "Welcome, nya~!",
+						"japaneseNote" : "",
+						"english" : "Welcome, welcome, *Nyaa~*!",
+						"englishNote" : ""
+					},
+					"2" : {
+						"event" : "Shop 2",
+						"media" : "shop/shop2",
+						"chinese" : "呼喵？",
+						"chineseTL" : "Funya~?",
+						"chineseNote" : "",
+						"japanese" : "ふにゃ？",
+						"japaneseTL" : "Funya~?",
+						"japaneseNote" : "",
+						"english" : "*Purr*, *Nyaa~*?",
+						"englishNote" : ""
+					},
+					"3" : {
+						"event" : "Shop 3",
+						"media" : "shop/shop3",
+						"chinese" : "谢谢惠顾喵～",
+						"chineseTL" : "Thanks for your patronage nya~",
+						"chineseNote" : "",
+						"japanese" : "まいどありだにゃ～",
+						"japaneseTL" : "Thanks for your patronage nya~",
+						"japaneseNote" : "",
+						"english" : "Thanks for your patronage, *Nyaa~*!",
+						"englishNote" : ""
+					},
+					"4" : {
+						"event" : "Shop 4",
+						"media" : "",
+						"chinese" : "今天也有很多好东西～指挥官不要错过了喵！",
+						"chineseTL" : "There is lots of good stuff today~ Commander don't miss out nya~!",
+						"chineseNote" : "",
+						"japanese" : "今日もお得が一杯あるにゃ～逃したら後悔するにゃ～",
+						"japaneseTL" : "There are plenty of good deals today nya~ You'll regret it if you miss out nya~",
+						"japaneseNote" : "",
+						"english" : "Lots of good stuff today, Commander~! Don't miss out, *Nyaa~*!",
+						"englishNote" : ""
+					},
+					"5" : {
+						"event" : "Shop 5",
+						"media" : "shop/shop4",
+						"chinese" : "指挥官原来这么闲喵？",
+						"chineseTL" : "Commander turned out to have so much free time nya~?",
+						"chineseNote" : "",
+						"japanese" : "指揮官そんなに暇なのかにゃ？",
+						"japaneseTL" : "Commander had so much free time nya~?",
+						"japaneseNote" : "",
+						"english" : "Commander, you're busy, *Nyaa~*?",
+						"englishNote" : ""
+					},
+					"6" : {
+						"event" : "Shop 6",
+						"media" : "",
+						"chinese" : "明石可是很忙的喵，才没有空陪指挥官玩喵",
+						"chineseTL" : "Akashi is very busy nya~, there is no time to play with Commander nya~",
+						"chineseNote" : "",
+						"japanese" : "明石は忙しいにゃ。指揮官と遊ぶ暇がないにゃ～",
+						"japaneseTL" : "Akashi is busy nya~ There is no free time to play with Commander nya~",
+						"japaneseNote" : "",
+						"english" : "Akashi is busy, *Nyaa~*, and doesn't have time to play with Commander, *Nyaa~*...",
+						"englishNote" : ""
+					},
+					"7" : {
+						"event" : "Shop 7",
+						"media" : "shop/shop7",
+						"chinese" : "指挥官也想被明石“修理”一下吗？",
+						"chineseTL" : "Commander also wants to be \"repaired\" by Akashi?",
+						"chineseNote" : "",
+						"japanese" : "指揮官も明石に「修理」されたいかにゃ？",
+						"japaneseTL" : "Commander also wants to be \"repaired\" by Akashi nya~?",
+						"japaneseNote" : "",
+						"english" : "Do you want to be 'repaired' by Akashi, Commander?",
+						"englishNote" : ""
+					},
+					"8" : {
+						"event" : "Shop 8",
+						"media" : "",
+						"chinese" : "喵？！原来是指挥官…要买点什么喵？",
+						"chineseTL" : "Nya~?! It was Commander... want to buy something nya~?",
+						"chineseNote" : "",
+						"japanese" : "にゃ？！指揮官にゃ…何か買うかにゃ？",
+						"japaneseTL" : "Nya?! It's Commander nya~... what do you want to buy nya~?",
+						"japaneseNote" : "",
+						"english" : "*Nyaa~*?! Commander... you want to buy something, *Nyaa~*?",
+						"englishNote" : ""
+					},
+					"9" : {
+						"event" : "Shop 9",
+						"media" : "shop/shop9",
+						"chinese" : "明石耳朵都要被你摸平了喵…",
+						"chineseTL" : "Akashi's ears are going to get flattened nya...",
+						"chineseNote" : "",
+						"japanese" : "明石のミミがベタんこにされそうだにゃ…",
+						"japaneseTL" : "Akashi's ears are going to get flattened nya...",
+						"japaneseNote" : "",
+						"english" : "You'll even touch Akashi's ears, *Nyaa~*...",
+						"englishNote" : ""
+					},
+					"10" : {
+						"event" : "Shop 10",
+						"media" : "shop/shop10",
+						"chinese" : "喵？指挥官又来看明石了？",
+						"chineseTL" : "Nya~? Commander came to see Akashi again?",
+						"chineseNote" : "",
+						"japanese" : "にゃ？また明石を見に来たのかにゃ？",
+						"japaneseTL" : "Nya~? Came to see Akashi again nya~?",
+						"japaneseNote" : "",
+						"english" : "*Nyaa~?* Commander here to see Akashi again?",
+						"englishNote" : ""
+					},
+					"11" : {
+						"event" : "Shop 11",
+						"media" : "",
+						"chinese" : "多看看店里的商品明石会更高兴的喵",
+						"chineseTL" : "Akashi will be even happier if you came more often to look at the shop's products nya~",
+						"chineseNote" : "",
+						"japanese" : "お店のものをもっと見たら、明石はもっと楽しいにゃ♪",
+						"japaneseTL" : "If you come more often to look at the shop's products, Akashi will be even happier nya~♪",
+						"japaneseNote" : "",
+						"english" : "It'd make Akashi happy if you took a look at something to buy... *Nyaa~*...",
+						"englishNote" : ""
+					},
+					"12" : {
+						"event" : "Shop 12",
+						"media" : "shop/shop12",
+						"chinese" : "明、明石可不是宠物喵！",
+						"chineseTL" : "A-Akashi isn't a pet nya~!",
+						"chineseNote" : "",
+						"japanese" : "あ、明石はペットじゃないにゃ！",
+						"japaneseTL" : "A-Akashi isn't a pet nya~!",
+						"japaneseNote" : "",
+						"english" : "Akashi isn't a pet, *Nyaa~*!",
+						"englishNote" : ""
+					},
+					"13" : {
+						"event" : "Shop 13",
+						"media" : "",
+						"chinese" : "如果乱碰到奇怪的设备，可是会受伤的喵！",
+						"chineseTL" : "If you carelessly touch any strange gear, you might get hurt nya~!",
+						"chineseNote" : "",
+						"japanese" : "変な設備に触ると怪我するにゃ。",
+						"japaneseTL" : "If you touch any strange gear, you will get hurt nya.",
+						"japaneseNote" : "",
+						"english" : "Watch out for weird gear, you might get hurt, *Nyaa~*!",
+						"englishNote" : ""
+					},
+					"14" : {
+						"event" : "Shop 14",
+						"media" : "shop/shop14",
+						"chinese" : "才、才没有觉得开心呢喵…",
+						"chineseTL" : "I-I didn't really get happy nya...",
+						"chineseNote" : "",
+						"japanese" : "べ、別に嬉しくなんかないにゃ…",
+						"japaneseTL" : "I-I didn't really get happy nya...",
+						"japaneseNote" : "",
+						"english" : "I.. I... not happy... *Nyaa~*...",
+						"englishNote" : ""
+					},
+					"15" : {
+						"event" : "Shop 15",
+						"media" : "",
+						"chinese" : "呼喵？指挥官又在摸鱼了喵？不想被举报的话就多买点东西喵！",
+						"chineseTL" : "Funya~? Commander is slacking off again nya~? If you don't want to get reported, better buy something nya~!",
+						"chineseNote" : "",
+						"japanese" : "うにゃ？またサボりに来たかにゃ？上に報告されたくなかったら商品を見てみるにゃ～",
+						"japaneseTL" : "Funya~? Commander is slacking off again to come here nya~? If you don't want to get reported, better take a good look at the products nya~",
+						"japaneseNote" : "",
+						"english" : "*Purr*, *Nyaa~*? Commander, touching fish again, *Nyaa~*? Buy something or I'm going to report you, *Nyaa~*!",
+						"englishNote" : ""
+					},
+					"16" : {
+						"event" : "Shop 16",
+						"media" : "",
+						"chinese" : "明石有点困了喵…",
+						"chineseTL" : "Akashi is feeling sleepy nya...",
+						"chineseNote" : "",
+						"japanese" : "明石、ちょっと眠いにゃ…",
+						"japaneseTL" : "Akashi, feeling a bit sleepy nya...",
+						"japaneseNote" : "",
+						"english" : "Akashi is pretty tired...",
+						"englishNote" : ""
+					},
+					"17" : {
+						"event" : "Shop 17",
+						"media" : "shop/shop17",
+						"chinese" : "这是…亲密的touch喵？",
+						"chineseTL" : "Is this... an intimate touch nya~?",
+						"chineseNote" : "",
+						"japanese" : "これは…スキンシップにゃ？",
+						"japaneseTL" : "Is this... skinship nya~?",
+						"japaneseNote" : "",
+						"english" : "Is this... romance, *Nyaa~*?",
+						"englishNote" : ""
+					},
+					"18" : {
+						"event" : "Shop 18",
+						"media" : "shop/shop18",
+						"chinese" : "要经常来看人家喔喵～",
+						"chineseTL" : "Come see me more often nya~",
+						"chineseNote" : "",
+						"japanese" : "また会いに来てにゃ～",
+						"japaneseTL" : "Come see me again nya~",
+						"japaneseNote" : "",
+						"english" : "Come and see me when you can, *Nyaa~*!",
+						"englishNote" : ""
+					},
+					"19" : {
+						"event" : "Shop 19",
+						"media" : "",
+						"chinese" : "指挥官状态怎么样，要不要明石给你检查下喵？",
+						"chineseTL" : "How is Commander's status, do you need to be inspected by Akashi nya~?",
+						"chineseNote" : "",
+						"japanese" : "指揮官、どうかにゃ？明石が検査してあげようかにゃ？",
+						"japaneseTL" : "Commander, what's up nya~? Want to get inspected by Akashi nya~?",
+						"japaneseNote" : "",
+						"english" : "Commander, what's up? Want Akashi to inspect you?",
+						"englishNote" : ""
+					},
+					"20" : {
+						"event" : "Shop 20",
+						"media" : "",
+						"chinese" : "呼喵…咕噜噜噜……",
+						"chineseTL" : "Funya... Grrrr...",
+						"chineseNote" : "",
+						"japanese" : "うにゃ……ぐー……ぐーにゃ……",
+						"japaneseTL" : "Funya... Grr...Grr nya~...",
+						"japaneseNote" : "",
+						"english" : "*Purr... purr... Nyaa~...*",
+						"englishNote" : ""
+					},
+					"21" : {
+						"event" : "Shop 21",
+						"media" : "shop/shop21",
+						"chinese" : "就、就算这样也不会给你打折的喵！",
+						"chineseTL" : "E-Even like this I won't give you a discount nya~!",
+						"chineseNote" : "",
+						"japanese" : "や、安くして上げないにゃ！",
+						"japaneseTL" : "I-I'm not giving you a discount nya~!",
+						"japaneseNote" : "",
+						"english" : "Well... it's not like you get a discount, *Nyaa~*!",
+						"englishNote" : ""
+					},
+					"22" : {
+						"event" : "Shop 22",
+						"media" : "shop/shop22",
+						"chinese" : "呼喵…哈！！太、太舒服了差点就被你蒙混过去了喵！",
+						"chineseTL" : "Funya... Haa!! I-It's so comfortable I almost let you get away with it nya~!",
+						"chineseNote" : "",
+						"japanese" : "ふにゃあ…ハッ！！き、気持ちよすぎてついごまかされるところだったにゃ！",
+						"japaneseTL" : "Funya... Haa!! I-It was so comfortable I almost got deceived nya~!",
+						"japaneseNote" : "",
+						"english" : "*Nyaa...~* Ha!! So, so comfortable. You almost got away with it, *Nyaa~*!",
+						"englishNote" : ""
+					},
+					"23" : {
+						"event" : "Shop 23",
+						"media" : "",
+						"chinese" : "眼睛和脑袋都骨碌碌晕乎乎了喵…",
+						"chineseTL" : "Eyes and head are all dizzy nya~...",
+						"chineseNote" : "",
+						"japanese" : "目も頭もフラフラだにゃ…",
+						"japaneseTL" : "Eyes and head are all dizzy nya~...",
+						"japaneseNote" : "",
+						"english" : "Eyes, head... so dizzy... *Nyaa~*...",
+						"englishNote" : ""
+					},
+					"24" : {
+						"event" : "Shop 24",
+						"media" : "",
+						"chinese" : "指挥官身上有股让人安心的味道喵…",
+						"chineseTL" : "Commander has a smell that makes you feel at ease nya...",
+						"chineseNote" : "",
+						"japanese" : "指揮官から安心する匂いがするにゃ……",
+						"japaneseTL" : "Commander has a smell that maes you feel at ease nya...",
+						"japaneseNote" : "",
+						"english" : "Commander... you smell good... *purr*...",
+						"englishNote" : ""
+					},
+					"25" : {
+						"event" : "Shop 25",
+						"media" : "shop/shop25",
+						"chinese" : "最喜欢指挥官了喵～",
+						"chineseTL" : "I like Commander the most nya~",
+						"chineseNote" : "",
+						"japanese" : "指揮官、ダイスキにゃ～",
+						"japaneseTL" : "Commander, I love the most nya~",
+						"japaneseNote" : "",
+						"english" : "You're the best, Commander. *Nyaa~*!",
 						"englishNote" : ""
 					}
 				}
