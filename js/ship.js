@@ -179,7 +179,7 @@ function setShipNavyIcon(navy){
 		document.getElementById("shipNavyIcon").src = "Images/Navy/kms_icon.png";
 	} else if (navy == "Dragon Empery" || navy == "Eastern Radiance" || navy == "Dragon Empire") {
 		document.getElementById("shipNavyIcon").src = "Images/Navy/roc_icon.png";
-	} else if (navy == "Northern Parliament" || navy == "North Union") {
+	} else if (navy == "Northern Parliament" || navy == "North Union" || navy == "Northern Union") {
 		document.getElementById("shipNavyIcon").src = "Images/Navy/sn_icon.png";
 	} else if (navy == "Vichya Dominion") {
 		document.getElementById("shipNavyIcon").src = "Images/Navy/mnf_icon.png";
@@ -190,6 +190,8 @@ function setShipNavyIcon(navy){
 	} else if (navy == "Neptunia") {
 		document.getElementById("shipNavyIcon").src = "Images/Navy/hdn_icon.png";
 	} else if (navy == "Utawarerumono") {
+		document.getElementById("shipNavyIcon").src = "Images/Navy/uwrr_icon.png";
+	} else if (navy == "KizunaAI") {
 		document.getElementById("shipNavyIcon").src = "Images/Navy/uwrr_icon.png";
 	} else if (navy == "Bilibili") {
 		document.getElementById("shipNavyIcon").src = "Images/Navy/bili_icon.png";
