@@ -168,6 +168,8 @@ class CommentedShipDisplay extends HTMLElement{
 						self.shipNavy = "../Images/Navy/hdn_icon.png";
 					} else if (actual_JSON.navy == "Utawarerumono") {
 						self.shipNavy = "../Images/Navy/uwrr_icon.png";
+					} else if (actual_JSON.navy == "KizunaAI") {
+						self.shipNavy = "../Images/Navy/uwrr_icon.png";
 					} else if (actual_JSON.navy == "Bilibili") {
 						self.shipNavy = "../Images/Navy/bili_icon.png";
 					}

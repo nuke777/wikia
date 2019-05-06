@@ -191,6 +191,8 @@ function setShipNavyIcon(navy){
 		document.getElementById("shipNavyIcon").src = "Images/Navy/hdn_icon.png";
 	} else if (navy == "Utawarerumono") {
 		document.getElementById("shipNavyIcon").src = "Images/Navy/uwrr_icon.png";
+	} else if (navy == "KizunaAI") {
+		document.getElementById("shipNavyIcon").src = "Images/Navy/uwrr_icon.png";
 	} else if (navy == "Bilibili") {
 		document.getElementById("shipNavyIcon").src = "Images/Navy/bili_icon.png";
 	}
