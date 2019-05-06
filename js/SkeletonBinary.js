@@ -1,5 +1,3 @@
-// written by http://yukariin.github.io
-
 function SkeletonBinary(){};
 
 SkeletonBinary.prototype = {
@@ -8,24 +6,6 @@ SkeletonBinary.prototype = {
     json : {},
     nextNum : 0,
     chars : null,
-    // getBinaryData : function(url, fun){
-    //     var s = this;
-    //     this.callback = fun;
-    //     var xhr = new XMLHttpRequest();
-    //     xhr.open("GET", url, true);
-    //     xhr.responseType = "arraybuffer";
-    //     xhr.onload = function(e, n=s){
-    //         if(this.status==200 || this.status==0){
-    //             var arrayBuffer = this.response;
-    //             if(arrayBuffer){
-    //                 n.data = new Uint8Array(arrayBuffer);
-    //                 n.initJson();
-    //                 n.callback("json");
-    //             }
-    //         }
-    //     }
-    //     xhr.send();
-    // },
     readByte : function(){
         return this.nextNum < this.data.length ? this.data[this.nextNum++] : null;
     },
@@ -181,6 +161,8 @@ SkeletonBinary.prototype = {
                 skeleton.images = null;
         }
 
+        console.assert(skeleton.spine.startsWith("3.6"), "This parser supports only 3.6.x file format");
+
         //Bones.
         this.json.bones = new Array(this.readInt(true));
         var bones = this.json.bones;
@@ -223,7 +205,8 @@ SkeletonBinary.prototype = {
         }
 
         // IK constraints.
-        var ik = new Array(this.readInt(true));
+        this.json.ik = new Array(this.readInt(true));
+        var ik = this.json.ik;
         for(var i = 0; i < ik.length; i++){
             var ikConstraints = {};
             ikConstraints.name = this.readString();
@@ -237,10 +220,10 @@ SkeletonBinary.prototype = {
             ikConstraints.bendPositive = this.readByte() != 255; // 1 = true, -1 (255) = false
             ik[i] = ikConstraints;
         }
-        this.json.ik = ik;
 
         // Transform constraints.
-        var transform = new Array(this.readInt(true));
+        this.json.transform = new Array(this.readInt(true));
+        var transform = this.json.transform;
         for(var i = 0; i < transform.length; i++){
             var transformConst = {};
             transformConst.name = this.readString();
@@ -265,10 +248,10 @@ SkeletonBinary.prototype = {
             transformConst.shearMix = this.readFloat();
             transform[i] = transformConst;
         }
-        this.json.transform  = transform;
 
         // Path constraints.
-        var path = new Array(this.readInt(true));
+        this.json.path = new Array(this.readInt(true));
+        var path = this.json.path;
         for(var i = 0; i < path.length; i++){
             var pathConst = {}
             pathConst.name = this.readString();
@@ -283,12 +266,17 @@ SkeletonBinary.prototype = {
             pathConst.rotateMode = RotateMode[this.readInt(true)];
             pathConst.rotation = this.readFloat();
             pathConst.position = this.readFloat();
+            if(pathConst.positionMode == "fixed"){
+                pathConst.position *= this.scale;
+            }
             pathConst.spacing = this.readFloat();
+            if(pathConst.spacingMode == "length" || pathConst.spacingMode == "fixed"){
+                pathConst.spacing *= this.scale;
+            }
             pathConst.rotateMix = this.readFloat();
             pathConst.translateMix = this.readFloat();
             path[i] = pathConst;
         }
-        this.json.path = path;
 
         // Default skin.
         this.json.skins = {};
@@ -305,7 +293,7 @@ SkeletonBinary.prototype = {
             var skinName = this.readString();
             var skin = this.readSkin(skinName, nonessential);
             skins[skinName] = skin;
-            this.json.skinsName.push("skinName");
+            this.json.skinsName.push(skinName);
         }
 
         // Events.
@@ -343,13 +331,16 @@ SkeletonBinary.prototype = {
             for(var j = 0, n = this.readInt(true); j < n; j++){
                 var name = this.readString();
                 var attachment = this.readAttachment(name, nonessential);
-                slot[name] = attachment;
+                if(attachment != null){
+                    slot[name] = attachment;
+                }
             }
             skin[this.json.slots[slotIndex].name] = slot;
         }
         return skin;
     },
     readAttachment(attachmentName, nonessential){
+        var scale = this.scale;
         var name = this.readString();
         if(name == null)
             name = attachmentName;
@@ -361,14 +352,14 @@ SkeletonBinary.prototype = {
             var region = {};
             region.type = "region";
             region.name = name;
-            region.path = path;
+            region.path = path.trim(); // HACK: trim path name for some SD
             region.rotation = this.readFloat();
-            region.x = this.readFloat() * this.scale;
-            region.y = this.readFloat() * this.scale;
+            region.x = this.readFloat() * scale;
+            region.y = this.readFloat() * scale;
             region.scaleX = this.readFloat();
             region.scaleY = this.readFloat();
-            region.width = this.readFloat() * this.scale;
-            region.height = this.readFloat() * this.scale;
+            region.width = this.readFloat() * scale;
+            region.height = this.readFloat() * scale;
             region.color = this.readColor();
             return region;
         case "boundingbox":
@@ -398,8 +389,8 @@ SkeletonBinary.prototype = {
             mesh.hull = this.readInt(true) << 1;
             if(nonessential){
                 mesh.edges = this.readShortArray();
-                mesh.width = this.readFloat() * this.scale;
-                mesh.height = this.readFloat() * this.scale;
+                mesh.width = this.readFloat() * scale;
+                mesh.height = this.readFloat() * scale;
             }
             return mesh;
         case "linkedmesh":
@@ -415,8 +406,8 @@ SkeletonBinary.prototype = {
             linkedmesh.parent = this.readString();
             linkedmesh.deform = this.readBoolean();
             if(nonessential){
-                linkedmesh.width = this.readFloat() * this.scale;
-                linkedmesh.height = this.readFloat() * this.scale;
+                linkedmesh.width = this.readFloat() * scale;
+                linkedmesh.height = this.readFloat() * scale;
             }
             return linkedmesh;
         case "path":
@@ -430,7 +421,7 @@ SkeletonBinary.prototype = {
             path.vertices = this.readVertices(vertexCount);
             var lengths = new Array(vertexCount / 3);
             for(var i = 0; i < lengths.length; i++){
-                lengths[i] = this.readFloat() * this.scale;
+                lengths[i] = this.readFloat() * scale;
             }
             path.lengths = lengths;
             if(nonessential){
@@ -442,8 +433,8 @@ SkeletonBinary.prototype = {
             point.type = "point";
             point.name = name;
             point.rotation = this.readFloat();
-            point.x = this.readFloat() * this.scale;
-            point.y = this.readFloat() * this.scale;
+            point.x = this.readFloat() * scale;
+            point.y = this.readFloat() * scale;
             if(nonessential){
                 path.color = this.readColor();
             }
@@ -573,7 +564,7 @@ SkeletonBinary.prototype = {
                 case 3: //BONE_SHEAR
                     var timeline = new Array(frameCount);
                     var timelineScale = 1;
-                    if(timelineType == 1){
+                    if(timelineType == 1){ //BONE_TRANSLATE
                         timelineScale = scale;
                     }
                     for(var frameIndex = 0; frameIndex < frameCount; frameIndex++){
@@ -622,6 +613,7 @@ SkeletonBinary.prototype = {
                 }
             }
             ik[this.json.ik[ikIndex].name] = timeline;
+            duration = Math.max(duration, timeline[frameCount - 1].time);
         }
         animation.ik = ik;
 
@@ -643,6 +635,7 @@ SkeletonBinary.prototype = {
                 }
             }
             transform[this.json.transform[transformIndex].name] = timeline;
+            duration = Math.max(duration, timeline[frameCount - 1].time);
         }
         animation.transform = transform;
 
@@ -650,6 +643,7 @@ SkeletonBinary.prototype = {
         var paths = {}
         for(var i = 0, n = this.readInt(true); i < n; i++){
             var pathIndex = this.readInt(true);
+            var pathConst = this.json.path[pathIndex];
             var pathMap ={};
             for(var ii = 0, nn = this.readInt(true); ii < nn; ii++){
                 var timelineType = this.readByte();
@@ -659,10 +653,14 @@ SkeletonBinary.prototype = {
                 case 1: //PATH_SPACING
                     var timeline = new Array(frameCount);
                     var timelineScale = 1;
-                    if(timelineType == 1){
-                        timelineScale = this.scale;
-                    }else{
-                        timelineScale = this.scale;
+                    if(timelineType == 1){ //PATH_SPACING
+                        if(pathConst.spacingMode == "length" || pathConst.spacingMode == "fixed"){
+                            timelineScale = this.scale;
+                        }
+                    }else{ //PATH_POSITION
+                        if(pathConst.positionMode == "fixed"){
+                            timelineScale = this.scale;
+                        }
                     }
                     for(var frameIndex = 0; frameIndex < frameCount; frameIndex++){
                         var time = this.readFloat();
@@ -670,9 +668,9 @@ SkeletonBinary.prototype = {
                         timeline[frameIndex] = {}
                         timeline[frameIndex].time = time;
                         if(timelineType == 0){
-                            timeline[frameIndex].position = f;
+                            timeline[frameIndex].position = f * timelineScale;
                         }else{
-                            timeline[frameIndex].spacing = f;
+                            timeline[frameIndex].spacing = f * timelineScale;
                         }
                         if(frameIndex < frameCount - 1)
                             this.readCurve(frameIndex, timeline);
@@ -682,6 +680,7 @@ SkeletonBinary.prototype = {
                     }else{
                         pathMap.spacing = timeline;
                     }
+                    duration = Math.max(duration, timeline[frameCount - 1].time);
                     break;
                 case 2: //PATH_MIX
                     var timeline = new Array(frameCount);
@@ -697,6 +696,7 @@ SkeletonBinary.prototype = {
                             this.readCurve(frameIndex, timeline);
                     }
                     pathMap.mix = timeline;
+                    duration = Math.max(duration, timeline[frameCount - 1].time);
                     break;
                 }
             }
@@ -742,6 +742,7 @@ SkeletonBinary.prototype = {
                             this.readCurve(frameIndex, timeline);
                     }
                     slot[meshName] = timeline;
+                    duration = Math.max(duration, timeline[frameCount - 1].time);
                 }
                 skin[slotAtt.name] = slot;
             }
