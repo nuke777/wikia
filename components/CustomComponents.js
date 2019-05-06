@@ -156,7 +156,7 @@ class CommentedShipDisplay extends HTMLElement{
 						self.shipNavy = "../Images/Navy/kms_icon.png";
 					} else if (actual_JSON.navy == "Dragon Empery" || actual_JSON.navy == "Dragon Empire" || actual_JSON.navy == "Eastern Radiance") {
 						self.shipNavy = "../Images/Navy/roc_icon.png";
-					} else if (actual_JSON.navy == "Northern Parliament" || actual_JSON.navy == "North Union") {
+					} else if (actual_JSON.navy == "Northern Parliament" || actual_JSON.navy == "North Union" || actual_JSON.navy == "Northern Union") {
 						self.shipNavy = "../Images/Navy/sn_icon.png";
 					} else if (actual_JSON.navy == "Vichya Dominion") {
 						self.shipNavy = "../Images/Navy/mnf_icon.png";
