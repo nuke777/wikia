@@ -11,8 +11,8 @@
 	"hull" : "Light Cruiser",
 	"navy" : "Eagle Union",
 	"prefix" : "USS",
-	"buildTime" : "",
-	"class" : "",
+	"buildTime" : "N/A",
+	"class" : "Omaha-class",
 	"voiceActress" : "Hekiru Shiina",
 	"parameters": {
 		"firepower" : "C",
@@ -34,10 +34,10 @@
 		"EN" : ""
 	},
 	"artist": {
-		"name" : "",
-		"weibo" : "",
-		"twitter" : "",
-		"pixiv" : "",
+		"name" : "銀SilveRoid",
+		"weibo" : "https://www.weibo.com/silveralice",
+		"twitter" : "https://twitter.com/SilverRoid",
+		"pixiv" : "https://www.pixiv.net/member.php?id=192782",
 		"other" : ""
 	},
 	"enhance": {
@@ -46,14 +46,14 @@
 		"aviation" : "0",
 		"reload" : "13"
 	},
-	"acquisitionMethod" : "ログインスタンプ",
+	"acquisitionMethod" : "Login Reward",
 	"skill": {
 		"1" : {
 			"icon" : "2001",
 			"requirement" : "",
 			"name" : "Quick Reload",
 			"type" : "Offensive",
-			"description" : "$1 chance to activate every 20s: increases this ship's RLD by $2 for 10s."
+			"description" : "30% (60%) chance to activate every 20s: increases this ship's RLD by 20% (40%) for 10s."
 		},
 		"2" : {
 			"icon" : "20111",
@@ -66,8 +66,18 @@
 	"skin": {
 		"1" : {
 			"id" : "mengfeisi",
-			"name" : "メンフィス",
-			"description" : "オマハ級軽巡洋艦・メンフィス（CL-12)",
+			"name" : "Memphis",
+			"description" : "Omaha-Class Light Cruiser - Memphis (CL-12)",
+			"expression" : {
+				"0" : {
+					"id" : "0"
+				}
+			}
+		},
+		"2" : {
+			"id" : "mengfeisi_2",
+			"name" : "",
+			"description" : "",
 			"expression" : {
 				"0" : {
 					"id" : "0"
@@ -180,9 +190,9 @@
 		}
 	},
 	"limitBreak": {
-		"tier1": "全弾発射スキル習得/武器補正+2%",
-		"tier2": "魚雷装填数+1/開始時魚雷+1/武器補正+3%",
-		"tier3": "全弾発射弾幕強化/武器補正+5%"
+		"tier1": "Gains Full Barrage I / All Weapon Efficiency +2%",
+		"tier2": "Max Torpedo Capacity +1 / Pre-Loaded Torpedo +1 / All Weapon Efficiency +3%",
+		"tier3": "Upgrades Full Barrage I→II / All Weapon Efficiency +5%"
 	},
 	"equipmentLoadout": {
 		"1": {
@@ -262,7 +272,7 @@
 			"1": {
 				"skin_id" : "mengfeisi",
 				"id" : "0",
-				"label" : "メンフィス",
+				"label" : "Memphis",
 				"dialogue" : {
 					"1" : {
 						"event" : "Ship Description",
@@ -595,6 +605,25 @@
 						"chineseTL" : "",
 						"chineseNote" : "",
 						"japanese" : "せっかく一緒に出撃するだから、私のペースに付いてきなさいな",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					}
+				}
+			},
+			"2": {
+				"skin_id" : "mengfeisi_2",
+				"id" : "1",
+				"label" : "",
+				"dialogue" : {
+					"1" : {
+						"event" : "Ship Description",
+						"media" : "",
+						"chinese" : "",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "",
 						"japaneseTL" : "",
 						"japaneseNote" : "",
 						"english" : "",
