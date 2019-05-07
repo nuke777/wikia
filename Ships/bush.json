@@ -11,8 +11,8 @@
 	"hull" : "Destroyer",
 	"navy" : "Eagle Union",
 	"prefix" : "USS",
-	"buildTime" : "",
-	"class" : "",
+	"buildTime" : "N/A",
+	"class" : "Fletcher-class",
 	"voiceActress" : "Akane Fujita",
 	"parameters": {
 		"firepower" : "C",
@@ -34,10 +34,10 @@
 		"EN" : ""
 	},
 	"artist": {
-		"name" : "",
+		"name" : "PHI",
 		"weibo" : "",
-		"twitter" : "",
-		"pixiv" : "",
+		"twitter" : "https://twitter.com/phi_owo",
+		"pixiv" : "https://www.pixiv.net/member.php?id=272220",
 		"other" : ""
 	},
 	"enhance": {
@@ -46,14 +46,14 @@
 		"aviation" : "0",
 		"reload" : "14"
 	},
-	"acquisitionMethod" : "ログインスタンプ",
+	"acquisitionMethod" : "Login Reward, Light Build (JP/CN)",
 	"skill": {
 		"1" : {
 			"icon" : "2171",
 			"requirement" : "",
 			"name" : "Anti-Air Vigilance",
 			"type" : "Defensive",
-			"description" : "Increases this ship's AA by $1."
+			"description" : "Increases this ship's AA by 5% (15%)."
 		},
 		"2" : {
 			"icon" : "20041",
@@ -66,8 +66,18 @@
 	"skin": {
 		"1" : {
 			"id" : "bushi",
-			"name" : "ブッシュ",
-			"description" : "フレッチャー級駆逐艦・ブッシュ（DD-529)",
+			"name" : "Bush",
+			"description" : "Fletcher-class destroyer — Bush, pennant number DD-529.",
+			"expression" : {
+				"0" : {
+					"id" : "0"
+				}
+			}
+		},
+		"2" : {
+			"id" : "bushi_2",
+			"name" : "",
+			"description" : "",
 			"expression" : {
 				"0" : {
 					"id" : "0"
@@ -180,9 +190,9 @@
 		}
 	},
 	"limitBreak": {
-		"tier1": "全弾発射スキル習得/武器補正+2%",
-		"tier2": "魚雷装填数+1/開始時魚雷+1/武器補正+3%",
-		"tier3": "全弾発射弾幕強化/武器補正+5%"
+		"tier1": "Gains Full Barrage I / All Weapon Efficiency +2%",
+		"tier2": "Max Torpedo Capacity +1 / Pre-loaded Torpedo +1 / All Weapon Efficiency +3%",
+		"tier3": "Upgrades Full Barrage I→II / All Weapon Efficiency +5%"
 	},
 	"equipmentLoadout": {
 		"1": {
@@ -262,7 +272,7 @@
 			"1": {
 				"skin_id" : "bushi",
 				"id" : "0",
-				"label" : "ブッシュ",
+				"label" : "Bush",
 				"dialogue" : {
 					"1" : {
 						"event" : "Ship Description",
@@ -583,6 +593,25 @@
 						"chineseTL" : "",
 						"chineseNote" : "",
 						"japanese" : "これで、指揮官がわたしの一番大事な人になったんですか？じゃあ、わたしの言うことなんでも聞いてくれるんですか？じゃあじゃあ、あの新しい店のお菓子が食べたいから、今すぐ行きましょう！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					}
+				}
+			},
+			"2": {
+				"skin_id" : "bushi_2",
+				"id" : "1",
+				"label" : "",
+				"dialogue" : {
+					"1" : {
+						"event" : "Ship Description",
+						"media" : "",
+						"chinese" : "",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "",
 						"japaneseTL" : "",
 						"japaneseNote" : "",
 						"english" : "",
