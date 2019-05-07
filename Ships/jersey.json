@@ -11,8 +11,9 @@
 	"hull" : "Destroyer",
 	"navy" : "Royal Navy",
 	"prefix" : "HMS",
-	"buildTime" : "",
-	"class" : "",
+	"buildTime" : "00:27:00",
+	"class" : "J-class",
+	"voiceActress": "Miho Takauma",
 	"parameters": {
 		"firepower" : "D",
 		"torpedo" : "B",
@@ -33,10 +34,10 @@
 		"EN" : ""
 	},
 	"artist": {
-		"name" : "",
+		"name" : "6音",
 		"weibo" : "",
 		"twitter" : "",
-		"pixiv" : "",
+		"pixiv" : "https://www.pixiv.net/member.php?id=2118700",
 		"other" : ""
 	},
 	"enhance": {
@@ -45,14 +46,14 @@
 		"aviation" : "0",
 		"reload" : "14"
 	},
-	"acquisitionMethod" : "小型艦建造",
+	"acquisitionMethod" : "Light Build (JP/CN)",
 	"skill": {
 		"1" : {
 			"icon" : "10850",
 			"requirement" : "",
 			"name" : "Dark Side of Fate",
 			"type" : "Support",
-			"description" : "Reduce J type Destroyers' DMG taken by $1 and increase own DMG taken by $2 when in the same fleet as another J type destroyer."
+			"description" : "Reduce J type Destroyers' DMG taken by 8% (20%) and increase own DMG taken by 8% (20%) when in the same fleet as another J type destroyer."
 		},
 		"2" : {
 			"icon" : "21071",
@@ -65,8 +66,8 @@
 	"skin": {
 		"1" : {
 			"id" : "zexi",
-			"name" : "ジャージー",
-			"description" : "J級駆逐艦・ジャージー（F72)",
+			"name" : "Jersey",
+			"description" : "J class destroyer, Jersey. Hull number F72.",
 			"expression" : {
 				"0" : {
 					"id" : "0"
@@ -179,9 +180,9 @@
 		}
 	},
 	"limitBreak": {
-		"tier1": "全弾発射スキル習得/主砲補正+5%",
-		"tier2": "魚雷装填数+1/開始時魚雷+1/主砲補正+10%",
-		"tier3": "全弾発射弾幕強化/武器補正+5%"
+		"tier1": "Gains Full Barrage I / Main Gun Efficiency +5%",
+		"tier2": "Max Torpedo Capacity +1 / Pre-Loaded Torpedo +1 / Main Gun Efficiency +10%",
+		"tier3": "Upgrades Full Barrage I→II / All Weapon Efficiency +5%"
 	},
 	"equipmentLoadout": {
 		"1": {
