@@ -49,7 +49,7 @@ function init() {
 		document.getElementById("shipRarity").innerHTML = actual_JSON.rarity;	
 		window.rarity = actual_JSON.rarity;		
 		document.getElementById("shipHull").innerHTML = actual_JSON.hull;	
-		window.hull = actual_JSON.hull;					
+		window.hull = actual_JSON.hull;
 		document.getElementById("shipNavy").innerHTML = actual_JSON.navy;					
 		document.getElementById("shipBuildTime").innerHTML = actual_JSON.buildTime;					
 		document.getElementById("shipAcquisition").innerHTML = actual_JSON.acquisitionMethod;	
@@ -132,6 +132,7 @@ function init() {
 		setDialogueSkinNav(actual_JSON);
 		setRetrofit(actual_JSON);
 		setTotalRetroStats(actual_JSON);
+		setFleetTech(actual_JSON);
 		loadShipList();
 		
 		
@@ -179,7 +180,7 @@ function setShipNavyIcon(navy){
 		document.getElementById("shipNavyIcon").src = "Images/Navy/kms_icon.png";
 	} else if (navy == "Dragon Empery" || navy == "Eastern Radiance" || navy == "Dragon Empire") {
 		document.getElementById("shipNavyIcon").src = "Images/Navy/roc_icon.png";
-	} else if (navy == "Northern Parliament" || navy == "North Union") {
+	} else if (navy == "Northern Parliament" || navy == "North Union" || navy == "Northern Union") {
 		document.getElementById("shipNavyIcon").src = "Images/Navy/sn_icon.png";
 	} else if (navy == "Vichya Dominion") {
 		document.getElementById("shipNavyIcon").src = "Images/Navy/mnf_icon.png";
@@ -190,6 +191,8 @@ function setShipNavyIcon(navy){
 	} else if (navy == "Neptunia") {
 		document.getElementById("shipNavyIcon").src = "Images/Navy/hdn_icon.png";
 	} else if (navy == "Utawarerumono") {
+		document.getElementById("shipNavyIcon").src = "Images/Navy/uwrr_icon.png";
+	} else if (navy == "KizunaAI") {
 		document.getElementById("shipNavyIcon").src = "Images/Navy/uwrr_icon.png";
 	} else if (navy == "Bilibili") {
 		document.getElementById("shipNavyIcon").src = "Images/Navy/bili_icon.png";
@@ -207,7 +210,10 @@ function setShipRarityHighlight(rarity){
 		document.getElementById("shipRarityColor7").style = "background:#beb988;height:30px;width:40%;";
 		document.getElementById("shipRarityColor8").style = "background:#beb988;height:30px;width:60%;";
 		document.getElementById("shipRarityColor9").style = "background:#beb988;height:30px";
-		document.getElementById("shipRarityColor10").style = "background:#beb988;height:30px";
+		if (document.getElementById("shipRarityColor10") != null)
+			document.getElementById("shipRarityColor10").style = "background:#beb988;height:30px";
+		if (document.getElementById("shipRarityColor11") != null)
+			document.getElementById("shipRarityColor11").style = "background:#beb988;height:30px";
 	} else if (rarity == "Elite") {
 		document.getElementById("shipRarityColor").style = "background:#b080b0;height:30px";
 		document.getElementById("shipRarityColor2").style = "background:#b080b0;height:30px";
@@ -218,7 +224,10 @@ function setShipRarityHighlight(rarity){
 		document.getElementById("shipRarityColor7").style = "background:#b080b0;height:30px;width:40%;";
 		document.getElementById("shipRarityColor8").style = "background:#b080b0;height:30px;width:60%;";
 		document.getElementById("shipRarityColor9").style = "background:#b080b0;height:30px";
-		document.getElementById("shipRarityColor10").style = "background:#b080b0;height:30px";
+		if (document.getElementById("shipRarityColor10") != null)
+			document.getElementById("shipRarityColor10").style = "background:#b080b0;height:30px";
+		if (document.getElementById("shipRarityColor11") != null)
+			document.getElementById("shipRarityColor11").style = "background:#b080b0;height:30px";
 	} else if (rarity == "Rare") {
 		document.getElementById("shipRarityColor").style = "background:#8cb3b8;height:30px";
 		document.getElementById("shipRarityColor2").style = "background:#8cb3b8;height:30px";
@@ -229,7 +238,10 @@ function setShipRarityHighlight(rarity){
 		document.getElementById("shipRarityColor7").style = "background:#8cb3b8;height:30px;width:40%;";
 		document.getElementById("shipRarityColor8").style = "background:#8cb3b8;height:30px;width:60%;";
 		document.getElementById("shipRarityColor9").style = "background:#8cb3b8;height:30px";
-		document.getElementById("shipRarityColor10").style = "background:#8cb3b8;height:30px";
+		if (document.getElementById("shipRarityColor10") != null)
+			document.getElementById("shipRarityColor10").style = "background:#8cb3b8;height:30px";
+		if (document.getElementById("shipRarityColor11") != null)
+			document.getElementById("shipRarityColor11").style = "background:#8cb3b8;height:30px";
 	} else if (rarity == "Common" || rarity == "Normal") {
 		document.getElementById("shipRarityColor").style = "background:#737373;height:30px";
 		document.getElementById("shipRarityColor2").style = "background:#737373;height:30px";
@@ -240,7 +252,10 @@ function setShipRarityHighlight(rarity){
 		document.getElementById("shipRarityColor7").style = "background:#737373;height:30px;width:40%;";
 		document.getElementById("shipRarityColor8").style = "background:#737373;height:30px;width:60%;";
 		document.getElementById("shipRarityColor9").style = "background:#737373;height:30px";
-		document.getElementById("shipRarityColor10").style = "background:#737373;height:30px";
+		if (document.getElementById("shipRarityColor10") != null)	
+			document.getElementById("shipRarityColor10").style = "background:#737373;height:30px";
+		if (document.getElementById("shipRarityColor11") != null)	
+			document.getElementById("shipRarityColor11").style = "background:#737373;height:30px";
 	} else if (rarity == "Ultra Rare" || rarity == "Decisive") {
 		document.getElementById("shipRarityColor").style = "background-image: linear-gradient(to right, #6cae6c, #5fb0be, #7d84c0, #b45480);height:30px";
 		document.getElementById("shipRarityColor2").style = "background-image: linear-gradient(to right, #6cae6c, #5fb0be, #7d84c0, #b45480);height:30px";
@@ -251,7 +266,10 @@ function setShipRarityHighlight(rarity){
 		document.getElementById("shipRarityColor7").style = "background-image: linear-gradient(to right, #6cae6c, #5fb0be, #7d84c0, #b45480);height:30px;width:40%;";
 		document.getElementById("shipRarityColor8").style = "background-image: linear-gradient(to right, #6cae6c, #5fb0be, #7d84c0, #b45480);height:30px;width:60%;";
 		document.getElementById("shipRarityColor9").style = "background-image: linear-gradient(to right, #6cae6c, #5fb0be, #7d84c0, #b45480);height:30px";
-		document.getElementById("shipRarityColor10").style = "background-image: linear-gradient(to right, #6cae6c, #5fb0be, #7d84c0, #b45480);height:30px";
+		if (document.getElementById("shipRarityColor10") != null)	
+			document.getElementById("shipRarityColor10").style = "background-image: linear-gradient(to right, #6cae6c, #5fb0be, #7d84c0, #b45480);height:30px";
+		if (document.getElementById("shipRarityColor11") != null)	
+			document.getElementById("shipRarityColor11").style = "background-image: linear-gradient(to right, #6cae6c, #5fb0be, #7d84c0, #b45480);height:30px";
 	}
 }	
 
@@ -419,6 +437,9 @@ function loadShipSkinElements(skin, skinID){
 	} else {
 		document.getElementById("toggleL2dVisibility").style = "position: absolute;left:0;top:0;visibility: hidden;z-index: 999;";
 	}
+
+
+	document.getElementById("shipFleetTechSD").innerHTML = '<img src="https://media.alg-wiki.com/assets/shipmodels/' + skinID + '.png">';
 	
 	
 	util.clearAllChildren("shipSkinExpressions");
@@ -1221,6 +1242,112 @@ function setTotalMaterials(materialCollection){
 	}
 	setRetrofitMaterialDetails(materialTotal, "totalMaterials");
 }
+
+function setFleetTech(data){
+	if (data.fleet_tech == null){
+		return;
+	}
+	document.getElementById("shipFleetTech").style.display = "block";
+	document.getElementById("shipFleetTechTierClass").innerHTML = "<b>T" + data.fleet_tech.t_level + " " + data.hull + ": " + data.class + "</b>";
+	document.getElementById("shipFleetTechUnlockPoint").innerHTML = "+" + data.fleet_tech.pt_get;
+	document.getElementById("shipFleetTechMLBPoint").innerHTML = "+" +data.fleet_tech.pt_upgrade;
+	document.getElementById("shipFleetTech120Point").innerHTML = "+" +data.fleet_tech.pt_level;
+
+	for (var i = 0; i < data.fleet_tech.ships.split(",").length; i++){
+		var link = document.createElement('a');
+		link.href = "ship#" + data.fleet_tech.ships.split(",")[i].trim();
+		var icon = document.createElement('icon-display');
+		icon.ship = data.fleet_tech.ships.split(",")[i].trim();
+		icon.style.cursor = "pointer";
+		link.appendChild(icon);
+		document.getElementById("shipFleetTechClassShips").appendChild(link);
+	}
+	for (var i = 0; i < data.fleet_tech.add_get_shiptype.split(",").length; i++){
+		var hull = data.fleet_tech.add_get_shiptype.split(",");
+		var hullIcon = document.createElement('img');
+		hullIcon.style.height = "auto";
+		hullIcon.style.width = "35px";
+		hullIcon.style.paddingRight = "5px";
+		hullIcon.title = hull[i].trim();
+		if (hull[i].trim() == "Aircraft Carrier" || hull[i].trim() == "Light Aircraft Carrier") {
+			hullIcon.src = "Images/Hull/cv.png";
+		} else if (hull[i].trim() == "Destroyer") {
+			hullIcon.src = "Images/Hull/dd.png";
+		} else if (hull[i].trim() == "Light Cruiser") {
+			hullIcon.src = "Images/Hull/cl.png";
+		} else if (hull[i].trim() == "Heavy Cruiser" || hull[i].trim() == "Super Cruiser") {
+			hullIcon.src = "Images/Hull/ca.png";
+		} else if (hull[i].trim() == "Battleship" || hull[i].trim() == "Battlecruiser" || hull[i].trim() == "Monitor") {
+			hullIcon.src = "Images/Hull/bb.png";
+		} else if (hull[i].trim() == "Submarine") {
+			hullIcon.src = "Images/Hull/ss.png";
+		} else if (hull[i].trim() == "Submarine Aircraft Carrier") {
+			hullIcon.src = "Images/Hull/ssv.png";
+		} else if (hull[i].trim() == "Repair Ship") {
+			hullIcon.src = "Images/Hull/ar.png";
+		}
+		document.getElementById("shipFleetTechUnlockStats").appendChild(hullIcon);
+	}
+	var statIcon = document.createElement('img');
+	statIcon.style.height = "auto";
+	statIcon.style.width = "25px";
+	statIcon.style.paddingRight = "5px";
+	statIcon.title = data.fleet_tech.add_get_attr;
+	if (data.fleet_tech.add_get_attr == "HP"){
+		statIcon.src = "Images/health_icon.png";
+	} else if (data.fleet_tech.add_get_attr == "Anti-Air"){
+		statIcon.src = "Images/anti_air_icon.png";
+	} else {
+		statIcon.src = "Images/" + data.fleet_tech.add_get_attr.toLowerCase() + "_icon.png";
+	}
+	document.getElementById("shipFleetTechUnlockStats").appendChild(statIcon);
+	var text = document.createElement('font');
+	text.innerHTML = "+" + data.fleet_tech.add_get_value;
+	document.getElementById("shipFleetTechUnlockStats").appendChild(text);
+
+	for (var i = 0; i < data.fleet_tech.add_level_shiptype.split(",").length; i++){
+		var hull = data.fleet_tech.add_level_shiptype.split(",");
+		var hullIcon = document.createElement('img');
+		hullIcon.style.height = "auto";
+		hullIcon.style.width = "35px";
+		hullIcon.style.paddingRight = "5px";
+		hullIcon.title = hull[i].trim();
+		if (hull[i].trim() == "Aircraft Carrier" || hull[i].trim() == "Light Aircraft Carrier") {
+			hullIcon.src = "Images/Hull/cv.png";
+		} else if (hull[i].trim() == "Destroyer") {
+			hullIcon.src = "Images/Hull/dd.png";
+		} else if (hull[i].trim() == "Light Cruiser") {
+			hullIcon.src = "Images/Hull/cl.png";
+		} else if (hull[i].trim() == "Heavy Cruiser" || hull[i].trim() == "Super Cruiser") {
+			hullIcon.src = "Images/Hull/ca.png";
+		} else if (hull[i].trim() == "Battleship" || hull[i].trim() == "Battlecruiser" || hull[i].trim() == "Monitor") {
+			hullIcon.src = "Images/Hull/bb.png";
+		} else if (hull[i].trim() == "Submarine") {
+			hullIcon.src = "Images/Hull/ss.png";
+		} else if (hull[i].trim() == "Submarine Aircraft Carrier") {
+			hullIcon.src = "Images/Hull/ssv.png";
+		} else if (hull[i].trim() == "Repair Ship") {
+			hullIcon.src = "Images/Hull/ar.png";
+		}
+		document.getElementById("shipFleetTech120Stats").appendChild(hullIcon);
+	}
+	var statIcon = document.createElement('img');
+	statIcon.style.height = "auto";
+	statIcon.style.width = "25px";
+	statIcon.style.paddingRight = "5px";
+	statIcon.title = data.fleet_tech.add_level_attr;
+	if (data.fleet_tech.add_level_attr == "HP"){
+		statIcon.src = "Images/health_icon.png";
+	} else if (data.fleet_tech.add_level_attr == "Anti-Air"){
+		statIcon.src = "Images/anti_air_icon.png";
+	} else {
+		statIcon.src = "Images/" + data.fleet_tech.add_level_attr.toLowerCase() + "_icon.png";
+	}
+	document.getElementById("shipFleetTech120Stats").appendChild(statIcon);
+	var text = document.createElement('font');
+	text.innerHTML = "+" + data.fleet_tech.add_level_value;
+	document.getElementById("shipFleetTech120Stats").appendChild(text);
+ }
 
 function centerSD(){
 	var containerWidth = document.getElementById("containerSD").getBoundingClientRect().width;
