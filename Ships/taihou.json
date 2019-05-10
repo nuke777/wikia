@@ -12,7 +12,7 @@
 	"navy": "Sakura Empire",
 	"prefix": "IJN",
 	"buildTime": "04:45:00",
-	"class": "",
+	"class": "大鳳",
 	"voiceActress": "Aoi Yuuki",
 	"parameters": {
 		"firepower": "E",
@@ -72,20 +72,20 @@
 				"0": {
 					"id": "0"
 				},
-				"1" : {
-					"id" : "1"
+				"1": {
+					"id": "1"
 				},
-				"2" : {
-					"id" : "2"
+				"2": {
+					"id": "2"
 				},
-				"3" : {
-					"id" : "3"
+				"3": {
+					"id": "3"
 				},
-				"4" : {
-					"id" : "4"
+				"4": {
+					"id": "4"
 				},
-				"5" : {
-					"id" : "5"
+				"5": {
+					"id": "5"
 				}
 			}
 		},
@@ -634,5 +634,18 @@
 				}
 			}
 		}
+	},
+	"fleet_tech": {
+		"pt_get": "17",
+		"add_get_attr": "HP",
+		"add_get_value": "2",
+		"add_get_shiptype": "Light Aircraft Carrier,Aircraft Carrier",
+		"pt_upgrade": "35",
+		"pt_level": "26",
+		"add_level_attr": "Aviation",
+		"add_level_value": "1",
+		"add_level_shiptype": "Light Aircraft Carrier,Aircraft Carrier",
+		"t_level": "9",
+		"ships": "taihou"
 	}
 }

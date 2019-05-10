@@ -12,7 +12,7 @@
 	"navy": "Sakura Empire",
 	"prefix": "IJN",
 	"buildTime": "00:20:00",
-	"class": "Kamikaze",
+	"class": "Kamikaze-Class",
 	"voiceActress": "Madoka Asahina",
 	"parameters": {
 		"firepower": "D",
@@ -771,5 +771,18 @@
 			"nodeSettings": "line, f3, y n n y"
 		}
 	},
-	"retroParameter": "Elite, Destroyer, 2"
+	"retroParameter": "Elite, Destroyer, 2",
+	"fleet_tech": {
+		"pt_get": "2",
+		"add_get_attr": "HP",
+		"add_get_value": "1",
+		"add_get_shiptype": "Destroyer",
+		"pt_upgrade": "4",
+		"pt_level": "3",
+		"add_level_attr": "Reload",
+		"add_level_value": "1",
+		"add_level_shiptype": "Destroyer",
+		"t_level": "2",
+		"ships": "kamikaze,matsukaze,hatakaze"
+	}
 }
