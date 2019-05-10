@@ -12,7 +12,7 @@
 	"navy": "Sakura Empire",
 	"prefix": "IJN",
 	"buildTime": "00:21:00",
-	"class": "Mutsuki",
+	"class": "Mutsuki-Class",
 	"voiceActress": "Rumi Okubo",
 	"parameters": {
 		"firepower": "D",
@@ -795,5 +795,18 @@
 				}
 			}
 		}
+	},
+	"fleet_tech": {
+		"pt_get": "2",
+		"add_get_attr": "HP",
+		"add_get_value": "1",
+		"add_get_shiptype": "Destroyer",
+		"pt_upgrade": "4",
+		"pt_level": "3",
+		"add_level_attr": "HP",
+		"add_level_value": "1",
+		"add_level_shiptype": "Destroyer",
+		"t_level": "3",
+		"ships": "mutsuki,kisaragi,uzuki,minazuki,fumizuki,nagatsuki,mikazuki"
 	}
 }

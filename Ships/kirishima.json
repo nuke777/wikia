@@ -12,7 +12,7 @@
 	"navy": "Sakura Empire",
 	"prefix": "IJN",
 	"buildTime": "N/A",
-	"class": "Kongou",
+	"class": "Kongou-Class",
 	"voiceActress": "Chie Matsuura",
 	"parameters": {
 		"firepower": "A",
@@ -764,5 +764,18 @@
 				}
 			}
 		}
+	},
+	"fleet_tech": {
+		"pt_get": "10",
+		"add_get_attr": "HP",
+		"add_get_value": "1",
+		"add_get_shiptype": "Battlecruiser,Battleship,Aviation Battleship",
+		"pt_upgrade": "21",
+		"pt_level": "16",
+		"add_level_attr": "Evasion",
+		"add_level_value": "1",
+		"add_level_shiptype": "Battlecruiser",
+		"t_level": "3",
+		"ships": "kongou,hiei,haruna,kirishima"
 	}
 }

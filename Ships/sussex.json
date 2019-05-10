@@ -12,7 +12,7 @@
 	"navy": "Royal Navy",
 	"prefix": "HMS",
 	"buildTime": "01:30:00",
-	"class": "London",
+	"class": "London-Class",
 	"voiceActress": "Hikaru Aono",
 	"parameters": {
 		"firepower": "B",
@@ -651,5 +651,18 @@
 				}
 			}
 		}
+	},
+	"fleet_tech": {
+		"pt_get": "7",
+		"add_get_attr": "HP",
+		"add_get_value": "1",
+		"add_get_shiptype": "Heavy Cruiser,Monitor,Super Cruiser",
+		"pt_upgrade": "14",
+		"pt_level": "10",
+		"add_level_attr": "Reload",
+		"add_level_value": "1",
+		"add_level_shiptype": "Heavy Cruiser,Monitor,Super Cruiser",
+		"t_level": "4",
+		"ships": "london,shropshire,sussex"
 	}
 }

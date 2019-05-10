@@ -1,31 +1,31 @@
 {
-	"name_reference" : "kitakaze",
-	"cn_reference" : "beifeng",
-	"nameJP" : "北風",
-	"nameCN" : "",
-	"ID" : "P009",
-	"name" : "Kitakaze",
-	"internal_id" : "399031",
-	"rarity" : "Priority",
-	"initialStar" : "★★★☆☆☆",
-	"hull" : "Destroyer",
-	"navy" : "Sakura Empire",
-	"prefix" : "IJN",
-	"buildTime" : "N/A",
-	"class" : "Super Akizuki",
-	"voiceActress" : "Sakura Tange",
+	"name_reference": "kitakaze",
+	"cn_reference": "beifeng",
+	"nameJP": "北風",
+	"nameCN": "",
+	"ID": "P009",
+	"name": "Kitakaze",
+	"internal_id": "399031",
+	"rarity": "Priority",
+	"initialStar": "★★★☆☆☆",
+	"hull": "Destroyer",
+	"navy": "Sakura Empire",
+	"prefix": "IJN",
+	"buildTime": "N/A",
+	"class": "北風型 ",
+	"voiceActress": "Sakura Tange",
 	"parameters": {
-		"firepower" : "C",
-		"torpedo" : "B",
-		"aviation" : "E",
-		"evasion" : "A",
-		"antiAir" : "B",
-		"hp" : "C"
+		"firepower": "C",
+		"torpedo": "B",
+		"aviation": "E",
+		"evasion": "A",
+		"antiAir": "B",
+		"hp": "C"
 	},
 	"scrap": {
-		"gold" : "4",
-		"oil" : "3",
-		"medal" : "10"
+		"gold": "4",
+		"oil": "3",
+		"medal": "10"
 	},
 	"releaseDate": {
 		"JP": "April 18, 2019",
@@ -41,12 +41,12 @@
 		"other": ""
 	},
 	"enhance": {
-		"firepower" : "0",
-		"torpedo" : "0",
-		"aviation" : "0",
-		"reload" : "0"
+		"firepower": "0",
+		"torpedo": "0",
+		"aviation": "0",
+		"reload": "0"
 	},
-	"acquisitionMethod" : "Priority Research",
+	"acquisitionMethod": "Priority Research",
 	"skill": {
 		"1": {
 			"icon": "19170",
@@ -78,13 +78,13 @@
 		}
 	},
 	"skin": {
-		"1" : {
-			"id" : "beifeng",
-			"name" : "Kitakaze",
-			"description" : "One of the proposed Super Akizuki class Destroyers, Kitakaze",
-			"expression" : {
-				"0" : {
-					"id" : "0"
+		"1": {
+			"id": "beifeng",
+			"name": "Kitakaze",
+			"description": "One of the proposed Super Akizuki class Destroyers, Kitakaze",
+			"expression": {
+				"0": {
+					"id": "0"
 				},
 				"1": {
 					"id": "1"
@@ -108,40 +108,23 @@
 		}
 	},
 	"defaultEquipment": {
-		"1" : {
-			"icon" : "",
-			"rarity" : "",
-			"name" : ""
+		"1": {
+			"icon": "",
+			"rarity": "",
+			"name": ""
 		},
-		"2" : {
-			"icon" : "",
-			"rarity" : "",
-			"name" : ""
+		"2": {
+			"icon": "",
+			"rarity": "",
+			"name": ""
 		},
-		"3" : {
-			"icon" : "",
-			"rarity" : "",
-			"name" : ""
+		"3": {
+			"icon": "",
+			"rarity": "",
+			"name": ""
 		}
 	},
 	"stats": {
-		"base": {
-			"hp": "454",
-			"firepower": "16",
-			"torpedo": "75",
-			"antiAir": "37",
-			"aviation": "0",
-			"reload": "82",
-			"hit": "75",
-			"evasion": "72",
-			"speed": "44",
-			"luck": "0",
-			"asw": "49",
-			"oxygen": "0",
-			"ammo": "0",
-			"cost": "3",
-			"armor": "Light"
-		},
 		"100": {
 			"hp": "2348",
 			"firepower": "75",
@@ -174,6 +157,23 @@
 			"oxygen": "0",
 			"ammo": "0",
 			"cost": "11",
+			"armor": "Light"
+		},
+		"base": {
+			"hp": "454",
+			"firepower": "16",
+			"torpedo": "75",
+			"antiAir": "37",
+			"aviation": "0",
+			"reload": "82",
+			"hit": "75",
+			"evasion": "72",
+			"speed": "44",
+			"luck": "0",
+			"asw": "49",
+			"oxygen": "0",
+			"ammo": "0",
+			"cost": "3",
 			"armor": "Light"
 		},
 		"100retrofit": {
@@ -295,10 +295,10 @@
 	"lines": {
 		"skin": {
 			"1": {
-				"skin_id" : "beifeng",
-				"id" : "0",
-				"label" : "北風",
-				"dialogue" : {
+				"skin_id": "beifeng",
+				"id": "0",
+				"label": "北風",
+				"dialogue": {
 					"1": {
 						"event": "Ship Description",
 						"media": "",
@@ -662,5 +662,18 @@
 				}
 			}
 		}
+	},
+	"fleet_tech": {
+		"pt_get": "14",
+		"add_get_attr": "Firepower",
+		"add_get_value": "1",
+		"add_get_shiptype": "Destroyer",
+		"pt_upgrade": "28",
+		"pt_level": "21",
+		"add_level_attr": "Firepower",
+		"add_level_value": "1",
+		"add_level_shiptype": "Destroyer",
+		"t_level": "9",
+		"ships": "kitakaze"
 	}
 }

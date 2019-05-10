@@ -12,7 +12,7 @@
 	"navy": "Sakura Empire",
 	"prefix": "IJN",
 	"buildTime": "01:48:00",
-	"class": "Mogami",
+	"class": "Mogami-Class",
 	"voiceActress": "Shizuka Ito",
 	"parameters": {
 		"firepower": "B",
@@ -893,5 +893,18 @@
 			"material": "bpt3 2, plt3_aux 50, gold 3000"
 		}
 	},
-	"retroParameter": "Super Rare, Heavy Cruiser, 2"
+	"retroParameter": "Super Rare, Heavy Cruiser, 2",
+	"fleet_tech": {
+		"pt_get": "12",
+		"add_get_attr": "Torpedo",
+		"add_get_value": "1",
+		"add_get_shiptype": "Light Cruiser",
+		"pt_upgrade": "24",
+		"pt_level": "18",
+		"add_level_attr": "Firepower",
+		"add_level_value": "1",
+		"add_level_shiptype": "Light Cruiser",
+		"t_level": "7",
+		"ships": "mogami,mikuma,suzuya"
+	}
 }
