@@ -12,7 +12,7 @@
 	"navy": "Ironblood",
 	"prefix": "KMS",
 	"buildTime": "02:00:00",
-	"class": "Hipper",
+	"class": "Admiral Hipper-Class",
 	"voiceActress": "Yuri Yamaoka",
 	"parameters": {
 		"firepower": "A",
@@ -607,44 +607,57 @@
 						"english": "Please begin your performance, Glowworm!",
 						"englishNote": ""
 					},
-			        "29": {
-			            "event": "Main Title",
-			            "media": "extra",
-			            "chinese": "",
-			            "chineseTL": "",
-			            "chineseNote": "",
-			            "japanese": "アズールレーン.",
-			            "japaneseTL": "Azur Lane.",
-			            "japaneseNote": "",
-			            "english": "Azur Lane.",
-			            "englishNote": ""
-			        },
-			        "30": {
-			            "event": "Valentines 2018",
-			            "media": "",
-			            "chinese": "",
-			            "chineseTL": "",
-			            "chineseNote": "",
-			            "japanese": "は？なんでこの私がわざわざあんたのためにバレンタインチョコを用意しなきゃならないの？たまたま作りすぎて余ってるから、ついでにあんたに恵んであげただけ！勘違いするんじゃないっての！",
-			            "japaneseTL": "Huh? Why should I go out of my way to prepare Valentine's chocolate for you? I just so happened to make too much and decided to gift you the leftovers, that's all! I told you to stop getting the wrong idea!",
-			            "japaneseNote": "",
-			            "english": "",
-			            "englishNote": ""
-			        },
-			        "31": {
-			            "event": "Valentines 2019",
-			            "media": "",
-			            "chinese": "指挥官，情人节的巧克力，希望你能收下。里面有绫波的心意，应该会好吃……请多指教",
-			            "chineseTL": "",
-			            "chineseNote": "",
-			            "japanese": "こ、今年もオイゲンたちの分を作って余っちゃったから処理してもらうわよ！だ、だからわざわざあんたのために作ったわけじゃないっての！オイゲンに渡したのと違うって！？ど、どこからその話を聞いてんのよ！",
-			            "japaneseTL": "",
-			            "japaneseNote": "",
-			            "english": "Huhhh? Why would I go out of my way to get chocolate for you? I just happened to make too much and have leftovers, and this is just so it doesn‘t go to waste! Don't get the wrong idea!",
-			            "englishNote": ""
-			        }
+					"29": {
+						"event": "Main Title",
+						"media": "extra",
+						"chinese": "",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "アズールレーン.",
+						"japaneseTL": "Azur Lane.",
+						"japaneseNote": "",
+						"english": "Azur Lane.",
+						"englishNote": ""
+					},
+					"30": {
+						"event": "Valentines 2018",
+						"media": "",
+						"chinese": "",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "は？なんでこの私がわざわざあんたのためにバレンタインチョコを用意しなきゃならないの？たまたま作りすぎて余ってるから、ついでにあんたに恵んであげただけ！勘違いするんじゃないっての！",
+						"japaneseTL": "Huh? Why should I go out of my way to prepare Valentine's chocolate for you? I just so happened to make too much and decided to gift you the leftovers, that's all! I told you to stop getting the wrong idea!",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"31": {
+						"event": "Valentines 2019",
+						"media": "",
+						"chinese": "指挥官，情人节的巧克力，希望你能收下。里面有绫波的心意，应该会好吃……请多指教",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "こ、今年もオイゲンたちの分を作って余っちゃったから処理してもらうわよ！だ、だからわざわざあんたのために作ったわけじゃないっての！オイゲンに渡したのと違うって！？ど、どこからその話を聞いてんのよ！",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Huhhh? Why would I go out of my way to get chocolate for you? I just happened to make too much and have leftovers, and this is just so it doesn‘t go to waste! Don't get the wrong idea!",
+						"englishNote": ""
+					}
 				}
 			}
 		}
+	},
+	"fleet_tech": {
+		"pt_get": "24",
+		"add_get_attr": "HP",
+		"add_get_value": "1",
+		"add_get_shiptype": "Heavy Cruiser,Monitor,Super Cruiser",
+		"pt_upgrade": "48",
+		"pt_level": "36",
+		"add_level_attr": "HP",
+		"add_level_value": "1",
+		"add_level_shiptype": "Heavy Cruiser,Monitor,Super Cruiser",
+		"t_level": "7",
+		"ships": "admiral_hipper,prinz_eugen"
 	}
 }

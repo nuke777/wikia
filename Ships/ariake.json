@@ -12,7 +12,7 @@
 	"navy": "Sakura Empire",
 	"prefix": "IJN",
 	"buildTime": "",
-	"class": "",
+	"class": "Hatsuharu-Class",
 	"voiceActress": "Karin Isobe",
 	"parameters": {
 		"firepower": "D",
@@ -627,5 +627,18 @@
 				}
 			}
 		}
+	},
+	"fleet_tech": {
+		"pt_get": "4",
+		"add_get_attr": "HP",
+		"add_get_value": "1",
+		"add_get_shiptype": "Destroyer",
+		"pt_upgrade": "8",
+		"pt_level": "6",
+		"add_level_attr": "Reload",
+		"add_level_value": "1",
+		"add_level_shiptype": "Destroyer",
+		"t_level": "4",
+		"ships": "hatsuharu,wakaba,hatsushimo,ariake,yuugure"
 	}
 }
