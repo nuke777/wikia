@@ -11,8 +11,8 @@
 	"hull" : "Light Cruiser",
 	"navy" : "Eagle Union",
 	"prefix" : "USS",
-	"buildTime" : "",
-	"class" : "",
+	"buildTime" : "N/A",
+	"class" : "Omaha-class",
 	"voiceActress" : "Hekiru Shiina",
 	"parameters": {
 		"firepower" : "C",
@@ -34,10 +34,10 @@
 		"EN" : ""
 	},
 	"artist": {
-		"name" : "",
-		"weibo" : "",
-		"twitter" : "",
-		"pixiv" : "",
+		"name" : "銀SilveRoid",
+		"weibo" : "https://www.weibo.com/silveralice",
+		"twitter" : "https://twitter.com/SilverRoid",
+		"pixiv" : "https://www.pixiv.net/member.php?id=192782",
 		"other" : ""
 	},
 	"enhance": {
@@ -46,14 +46,14 @@
 		"aviation" : "0",
 		"reload" : "13"
 	},
-	"acquisitionMethod" : "ログインスタンプ",
+	"acquisitionMethod" : "Login Reward",
 	"skill": {
 		"1" : {
 			"icon" : "2001",
 			"requirement" : "",
 			"name" : "Quick Reload",
 			"type" : "Offensive",
-			"description" : "$1 chance to activate every 20s: increases this ship's RLD by $2 for 10s."
+			"description" : "30% (60%) chance to activate every 20s: increases this ship's RLD by 20% (40%) for 10s."
 		},
 		"2" : {
 			"icon" : "20111",
@@ -66,11 +66,33 @@
 	"skin": {
 		"1" : {
 			"id" : "mengfeisi",
-			"name" : "メンフィス",
-			"description" : "オマハ級軽巡洋艦・メンフィス（CL-12)",
+			"name" : "Memphis",
+			"description" : "Omaha-Class Light Cruiser - Memphis (CL-12)",
 			"expression" : {
 				"0" : {
 					"id" : "0"
+				}
+			}
+		},
+		"2" : {
+			"id" : "mengfeisi_2",
+			"name" : "Casual Vacation",
+			"description" : "あら、この格好はそんなに珍しいかしら？私だって非番の日はあるのよ？ふふん、こうしてのんびりと海風を浴びるのも気持ちいいと思わない？",
+			"expression" : {
+				"0" : {
+					"id" : "0"
+				},
+				"1" : {
+					"id" : "1"
+				},
+				"2" : {
+					"id" : "2"
+				},
+				"3" : {
+					"id" : "3"
+				},
+				"4" : {
+					"id" : "4"
 				}
 			}
 		}
@@ -180,9 +202,9 @@
 		}
 	},
 	"limitBreak": {
-		"tier1": "全弾発射スキル習得/武器補正+2%",
-		"tier2": "魚雷装填数+1/開始時魚雷+1/武器補正+3%",
-		"tier3": "全弾発射弾幕強化/武器補正+5%"
+		"tier1": "Gains Full Barrage I / All Weapon Efficiency +2%",
+		"tier2": "Max Torpedo Capacity +1 / Pre-Loaded Torpedo +1 / All Weapon Efficiency +3%",
+		"tier3": "Upgrades Full Barrage I→II / All Weapon Efficiency +5%"
 	},
 	"equipmentLoadout": {
 		"1": {
@@ -262,7 +284,7 @@
 			"1": {
 				"skin_id" : "mengfeisi",
 				"id" : "0",
-				"label" : "メンフィス",
+				"label" : "Memphis",
 				"dialogue" : {
 					"1" : {
 						"event" : "Ship Description",
@@ -595,6 +617,121 @@
 						"chineseTL" : "",
 						"chineseNote" : "",
 						"japanese" : "せっかく一緒に出撃するだから、私のペースに付いてきなさいな",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					}
+				}
+			},
+			"2": {
+				"skin_id" : "mengfeisi_2",
+				"id" : "1",
+				"label" : "",
+				"dialogue" : {
+					"1" : {
+						"event" : "Ship Description",
+						"media" : "",
+						"chinese" : "嗯？这身打扮很稀奇吗？我也是有休息日的哦？不觉得像这样悠闲地吹着海风很舒服么～？哼哼～",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "あら、この格好はそんなに珍しいかしら？私だって非番の日にはあるのよ？ふふん、こうしてのんびりと海風を浴びるのも気持ちいいと思わない？",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"2" : {
+						"event" : "Acquisition",
+						"media" : "get_1",
+						"chinese" : "嗯？这身打扮很稀奇吗？我也是有休息日的哦？不觉得像这样悠闲地吹着海风很舒服么～？哼哼～",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "あら、この格好はそんなに珍しいかしら？私だって非番の日はあるのよ？ふふん、こうしてのんびりと海風を浴びるのも気持ちいいと思わない？",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"3" : {
+						"event" : "Login",
+						"media" : "login_1",
+						"chinese" : "早安，今天的风也很棒，是适合乘船旅行的日子呢，你不觉得吗？",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "おはよう。今日もいい風。船旅にはもってこい、というべきかしら？",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"4" : {
+						"event" : "Main 1",
+						"media" : "main_1_1",
+						"chinese" : "呼…今天就稍微放松一下吧…你也是，该休息的时候好好休息，才能在需要努力的时候更好的努力哦？",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "ふぅ…今日は気楽に過ごそうかしら……貴方も、努力すべきときは努力して、休める時は休むべきではなくて？",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"5" : {
+						"event" : "Main 2",
+						"media" : "main_2_1",
+						"chinese" : "拍照技术？虽说比不上真正的专业人士，不过好歹也是有不少经验的，可不会让你随便小瞧的哦？",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "カメラの腕？プロ顔負けとまで行かなくても経験者、侮らせはしないわよ？",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"6" : {
+						"event" : "Main 3",
+						"media" : "main_3_1",
+						"chinese" : "和布鲁克林偶尔会一起出门，不过和我不一样，她就算休息的时候也不大会放松……不，应该说她放松的方式和我完全不一样…吧……",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "ブルックリンとはたまに一緒に出かける仲よ。彼女は私と違って休みのときでもなかなかリラックスしないわ。…ううん、リラックスの仕方がぜんぜん違う、とでも言うべきかしら……",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"7" : {
+						"event" : "Touch",
+						"media" : "touch_1_1",
+						"chinese" : "训练？你是不知休息日是什么意思吗？",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "訓練？貴方、休日の意味をわかっていないのかしら？",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"8" : {
+						"event" : "Touch (Special)",
+						"media" : "touch_2_1",
+						"chinese" : "呀啊！？你、你干嘛啦！？",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "きゃっ！？な、何をするの！？",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"9" : {
+						"event" : "Return to Port",
+						"media" : "home_1",
+						"chinese" : "（咔嚓）这边风景真不错！啊，指挥官你回来了啊？照片？哼哼，一会再给你看吧",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "（パシャッ！）これはいい眺めね！あら、指揮官、戻ってきたの？写真？ふふん、あとで見せてあげるわ",
 						"japaneseTL" : "",
 						"japaneseNote" : "",
 						"english" : "",
