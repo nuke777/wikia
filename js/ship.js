@@ -792,13 +792,13 @@ function loadShipDialogueElements(skinId){
 			</td>\
 			<td style="width:3%"></td>\
 			<td style="width:27%;cursor:pointer;" onclick="toggleChinese(&quot;'+skinId+'&quot;,&quot;cn_header&quot;)" id="cn_header">\
-				<b>Chinese</b>\
+				<b>Chinese Server</b>\
 			</td>\
 			<td style="width:27%;cursor:pointer;" onclick="toggleJapanese(&quot;'+skinId+'&quot;,&quot;jp_header&quot;)" id="jp_header">\
-				<b>Japanese</b>\
+				<b>Japanese Server</b>\
 			</td>\
 			<td style="width:27%">\
-				<b>English</b>\
+				<b>English Server</b>\
 			</td>\
 		</tr>';
 		for (var x in actual_JSON.lines.skin){
@@ -1247,7 +1247,7 @@ function setFleetTech(data){
 	if (data.fleet_tech == null){
 		return;
 	}
-	document.getElementById("shipFleetTech").style.display = "block";
+	document.getElementById("shipFleetTech").style.display = "table";
 	document.getElementById("shipFleetTechTierClass").innerHTML = "<b>T" + data.fleet_tech.t_level + " " + data.hull + ": " + data.class + "</b>";
 	document.getElementById("shipFleetTechUnlockPoint").innerHTML = "+" + data.fleet_tech.pt_get;
 	document.getElementById("shipFleetTechMLBPoint").innerHTML = "+" +data.fleet_tech.pt_upgrade;
