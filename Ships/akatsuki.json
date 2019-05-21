@@ -50,14 +50,14 @@
 	"skill": {
 		"1" : {
 			"icon" : "10770",
-			"requirement" : "",
+			"requirement" : "Default Unlocked",
 			"name" : "Destroyer Division 6: Akatsuki",
 			"type" : "Offensive",
 			"description" : "When sortied with Hibiki, Ikazuchi, or Inazuma: increases this ship's FP, TRP, and RLD by 5% (15%). Effect does not stack."
 		},
 		"2" : {
 			"icon" : "22071",
-			"requirement" : "",
+			"requirement" : "Limit Break Rank 1 (I) / Rank 3 (II)",
 			"name" : "All Out Assault Ⅰ",
 			"type" : "Offensive",
 			"description" : "Activates All Out Assault Ⅰ: Akatsuki Class once every 15 times the Main Guns are fired."
@@ -261,17 +261,76 @@
 		}
 	},
 	"drop": {
-		"droppable": "false",
+		"droppable": "true",
 		"list": {
 			"1": {
-				"event": "",
+				"event": "Visitors Dyed in Red",
 				"chapter": {
 					"1": {
-						"label": "Ch .1",
+						"label": "Ch. A",
+						"node": {
+							"1": {
+								"drop": "-",
+								"note": ""
+							},
+							"2": {
+								"drop": "-",
+								"note": ""
+							},
+							"3": {
+								"drop": "✓",
+								"note": ""
+							}
+						}
+					},
+					"2": {
+						"label": "Ch. B",
+						"node": {
+							"1": {
+								"drop": "-",
+								"note": ""
+							},
+							"2": {
+								"drop": "-",
+								"note": ""
+							},
+							"3": {
+								"drop": "✓",
+								"note": ""
+							}
+						}
+					},
+					"3": {
+						"label": "Ch. C",
+						"node": {
+							"1": {
+								"drop": "-",
+								"note": ""
+							},
+							"2": {
+								"drop": "-",
+								"note": ""
+							},
+							"3": {
+								"drop": "✓",
+								"note": ""
+							}
+						}
+					},
+					"4": {
+						"label": "Ch. D",
 						"node": {
 							"1": {
 								"drop": "✓",
-								"note": "-"
+								"note": ""
+							},
+							"2": {
+								"drop": "✓",
+								"note": ""
+							},
+							"3": {
+								"drop": "✓",
+								"note": ""
 							}
 						}
 					}
