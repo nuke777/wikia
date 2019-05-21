@@ -162,6 +162,8 @@ function setShipHullIcon(hull){
 		document.getElementById("shipHullIcon").src = "Images/Hull/bc.png";
 	} else if (hull == "Monitor") {
 		document.getElementById("shipHullIcon").src = "Images/Hull/bm.png";
+	} else if (hull == "Aviation Battleship") {
+		document.getElementById("shipHullIcon").src = "Images/Hull/bbv.png";
 	} else if (hull == "Submarine") {
 		document.getElementById("shipHullIcon").src = "Images/Hull/ss.png";
 		document.getElementById("sub1").style.display = "";
@@ -1295,6 +1297,8 @@ function setFleetTech(data){
 			hullIcon.src = "Images/Hull/bc.png";
 		} else if (hull[i].trim() == "Monitor") {
 			hullIcon.src = "Images/Hull/bm.png";
+		} else if (hull[i].trim() == "Aviation Battleship") {
+			hullIcon.src = "Images/Hull/bbv.png";
 		} else if (hull[i].trim() == "Submarine") {
 			hullIcon.src = "Images/Hull/ss.png";
 		} else if (hull[i].trim() == "Submarine Aircraft Carrier") {
@@ -1346,6 +1350,8 @@ function setFleetTech(data){
 			hullIcon.src = "Images/Hull/bc.png";
 		} else if (hull[i].trim() == "Monitor") {
 			hullIcon.src = "Images/Hull/bm.png";
+		} else if (hull[i].trim() == "Aviation Battleship") {
+			hullIcon.src = "Images/Hull/bbv.png";
 		} else if (hull[i].trim() == "Submarine") {
 			hullIcon.src = "Images/Hull/ss.png";
 		} else if (hull[i].trim() == "Submarine Aircraft Carrier") {
