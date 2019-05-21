@@ -131,7 +131,7 @@ class CommentedShipDisplay extends HTMLElement{
 						
 					if (hull == "Aircraft Carrier"){						
 						self.shipHull = "../Images/Hull/cv.png";
-					} else if (hull == "Light Aircraft Carrier" ){						
+					} else if (hull == "Light Aircraft Carrier"){						
 						self.shipHull = "../Images/Hull/cvl.png";
 					} else if (hull == "Destroyer"){						
 						self.shipHull = "../Images/Hull/dd.png";
@@ -139,7 +139,7 @@ class CommentedShipDisplay extends HTMLElement{
 						self.shipHull = "../Images/Hull/cl.png";
 					} else if (hull == "Heavy Cruiser"){						
 						self.shipHull = "../Images/Hull/ca.png";
-					} else if (hull == "Super Cruiser" ){						
+					} else if (hull == "Super Cruiser"){						
 						self.shipHull = "../Images/Hull/cb.png";
 					} else if (hull == "Battleship"){						
 						self.shipHull = "../Images/Hull/bb.png";
