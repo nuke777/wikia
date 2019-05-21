@@ -1277,21 +1277,29 @@ function setFleetTech(data){
 		hullIcon.style.width = "35px";
 		hullIcon.style.paddingRight = "5px";
 		hullIcon.title = hull[i].trim();
-		if (hull[i].trim() == "Aircraft Carrier" || hull[i].trim() == "Light Aircraft Carrier") {
+		if (hull[i].trim() == "Aircraft Carrier") {
 			hullIcon.src = "Images/Hull/cv.png";
+		} else if (hull[i].trim() == "Light Aircraft Carrier") {
+			hullIcon.src = "Images/Hull/cvl.png";
 		} else if (hull[i].trim() == "Destroyer") {
 			hullIcon.src = "Images/Hull/dd.png";
 		} else if (hull[i].trim() == "Light Cruiser") {
 			hullIcon.src = "Images/Hull/cl.png";
-		} else if (hull[i].trim() == "Heavy Cruiser" || hull[i].trim() == "Super Cruiser") {
+		} else if (hull[i].trim() == "Heavy Cruiser") {
 			hullIcon.src = "Images/Hull/ca.png";
-		} else if (hull[i].trim() == "Battleship" || hull[i].trim() == "Battlecruiser" || hull[i].trim() == "Monitor") {
+		} else if (hull[i].trim() == "Super Cruiser") {
+			hullIcon.src = "Images/Hull/cb.png";
+		} else if (hull[i].trim() == "Battleship") {
 			hullIcon.src = "Images/Hull/bb.png";
+		} else if (hull[i].trim() == "Battlecruiser") {
+			hullIcon.src = "Images/Hull/bc.png";
+		} else if (hull[i].trim() == "Monitor") {
+			hullIcon.src = "Images/Hull/bm.png";
 		} else if (hull[i].trim() == "Submarine") {
 			hullIcon.src = "Images/Hull/ss.png";
 		} else if (hull[i].trim() == "Submarine Aircraft Carrier") {
 			hullIcon.src = "Images/Hull/ssv.png";
-		} else if (hull[i].trim() == "Repair Ship") {
+		} else if (hull[i].trim() == "Repair Ship" || hull[i].trim() == "Repair") {
 			hullIcon.src = "Images/Hull/ar.png";
 		}
 		document.getElementById("shipFleetTechUnlockStats").appendChild(hullIcon);
@@ -1320,21 +1328,29 @@ function setFleetTech(data){
 		hullIcon.style.width = "35px";
 		hullIcon.style.paddingRight = "5px";
 		hullIcon.title = hull[i].trim();
-		if (hull[i].trim() == "Aircraft Carrier" || hull[i].trim() == "Light Aircraft Carrier") {
+		if (hull[i].trim() == "Aircraft Carrier") {
 			hullIcon.src = "Images/Hull/cv.png";
+		} else if (hull[i].trim() == "Light Aircraft Carrier") {
+			hullIcon.src = "Images/Hull/cvl.png";
 		} else if (hull[i].trim() == "Destroyer") {
 			hullIcon.src = "Images/Hull/dd.png";
 		} else if (hull[i].trim() == "Light Cruiser") {
 			hullIcon.src = "Images/Hull/cl.png";
-		} else if (hull[i].trim() == "Heavy Cruiser" || hull[i].trim() == "Super Cruiser") {
+		} else if (hull[i].trim() == "Heavy Cruiser") {
 			hullIcon.src = "Images/Hull/ca.png";
-		} else if (hull[i].trim() == "Battleship" || hull[i].trim() == "Battlecruiser" || hull[i].trim() == "Monitor") {
+		} else if (hull[i].trim() == "Super Cruiser") {
+			hullIcon.src = "Images/Hull/cb.png";
+		} else if (hull[i].trim() == "Battleship") {
 			hullIcon.src = "Images/Hull/bb.png";
+		} else if (hull[i].trim() == "Battlecruiser") {
+			hullIcon.src = "Images/Hull/bc.png";
+		} else if (hull[i].trim() == "Monitor") {
+			hullIcon.src = "Images/Hull/bm.png";
 		} else if (hull[i].trim() == "Submarine") {
 			hullIcon.src = "Images/Hull/ss.png";
 		} else if (hull[i].trim() == "Submarine Aircraft Carrier") {
 			hullIcon.src = "Images/Hull/ssv.png";
-		} else if (hull[i].trim() == "Repair Ship") {
+		} else if (hull[i].trim() == "Repair Ship" || hull[i].trim() == "Repair") {
 			hullIcon.src = "Images/Hull/ar.png";
 		}
 		document.getElementById("shipFleetTech120Stats").appendChild(hullIcon);
