@@ -129,21 +129,29 @@ class CommentedShipDisplay extends HTMLElement{
 							self.shipIcon = "https://media.alg-wiki.com/assets/shipyardicon/" + actual_JSON.skin[1].id + ".png";
 					}
 						
-					if (hull == "Aircraft Carrier" || hull == "Light Aircraft Carrier" ){						
+					if (hull == "Aircraft Carrier"){						
 						self.shipHull = "../Images/Hull/cv.png";
+					} else if (hull == "Light Aircraft Carrier" ){						
+						self.shipHull = "../Images/Hull/cvl.png";
 					} else if (hull == "Destroyer"){						
 						self.shipHull = "../Images/Hull/dd.png";
 					} else if (hull == "Light Cruiser"){						
 						self.shipHull = "../Images/Hull/cl.png";
-					} else if (hull == "Heavy Cruiser" || hull == "Super Cruiser" ){						
+					} else if (hull == "Heavy Cruiser"){						
 						self.shipHull = "../Images/Hull/ca.png";
-					} else if (hull == "Battleship" || hull == "Battlecruiser" || hull == "Monitor"){						
+					} else if (hull == "Super Cruiser" ){						
+						self.shipHull = "../Images/Hull/cb.png";
+					} else if (hull == "Battleship"){						
 						self.shipHull = "../Images/Hull/bb.png";
+					} else if (hull == "Battlecruiser"){						
+						self.shipHull = "../Images/Hull/bc.png";
+					} else if (hull == "Monitor"){						
+						self.shipHull = "../Images/Hull/bm.png";
 					} else if (hull == "Submarine"){						
 						self.shipHull = "../Images/Hull/ss.png";
 					} else if (hull == "Submarine Aircraft Carrier"){						
 						self.shipHull = "../Images/Hull/ssv.png";
-					} else if (hull == "Repair Ship"){						
+					} else if (hull == "Repair Ship" || hull == "Repair"){						
 						self.shipHull = "../Images/Hull/ar.png";
 					}
 					if (actual_JSON.navy == "Eagle Union") {
