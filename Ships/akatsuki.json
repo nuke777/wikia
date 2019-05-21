@@ -11,8 +11,8 @@
 	"hull" : "Destroyer",
 	"navy" : "Sakura Empire",
 	"prefix" : "IJN",
-	"buildTime" : "",
-	"class" : "Akatsuki",
+	"buildTime" : "N/A",
+	"class" : "Fubuki-Class Type III (Akatsuki)",
 	"voiceActress" : "Nozomi Yamamoto",
 	"parameters": {
 		"firepower" : "D",
@@ -28,17 +28,17 @@
 		"medal" : "1"
 	},
 	"releaseDate": {
-		"JP" : "",
-		"CN" : "",
-		"KR" : "",
-		"EN" : ""
+		"JP": "October 27, 2017",
+		"CN": "September 28, 2017",
+		"KR": "",
+		"EN": "September 30, 2018"
 	},
 	"artist": {
-		"name" : "",
-		"weibo" : "",
-		"twitter" : "",
-		"pixiv" : "",
-		"other" : ""
+		"name": "大月紅葉",
+		"weibo": "http://weibo.com/ootsukimomiji",
+		"twitter": "",
+		"pixiv": "https://www.pixiv.net/member.php?id=591937",
+		"other": ""
 	},
 	"enhance": {
 		"firepower" : "4",
@@ -46,14 +46,14 @@
 		"aviation" : "0",
 		"reload" : "15"
 	},
-	"acquisitionMethod" : "Event: Visitors Dyed in Red, コアショップ",
+	"acquisitionMethod": "Drop / Point Reward in Visitors Dyed in Red (Rerun). Core Data shop",
 	"skill": {
 		"1" : {
 			"icon" : "10770",
 			"requirement" : "",
 			"name" : "Destroyer Division 6: Akatsuki",
 			"type" : "Offensive",
-			"description" : "When sortied with Hibiki, Ikazuchi, or Inazuma: increases this ship's FP, TRP, and RLD by $1. Effect does not stack."
+			"description" : "When sortied with Hibiki, Ikazuchi, or Inazuma: increases this ship's FP, TRP, and RLD by 5% (15%). Effect does not stack."
 		},
 		"2" : {
 			"icon" : "22071",
@@ -76,8 +76,8 @@
 		},
 		"2" : {
 			"id" : "xiao_2",
-			"name" : "暁、北極に行く",
-			"description" : "ここは北方連合でござるか！？思ってたよりも寒いよぉ……や、やっぱり極地装備を持ってきてよかったでござるね！響、あとちょっとだけよ！お姉ちゃんを待ってて！",
+			"name" : "Akatsuki, Heading To The North Pole",
+			"description" : "Is this the North Union? It's colder than I thought... It was right to prepare all this gear against the cold! Hibiki! Wait a bit more, your Big Sis is coming for you!",
 			"expression" : {
 				"0" : {
 					"id" : "0"
@@ -282,345 +282,369 @@
 	"lines": {
 		"skin": {
 			"1": {
-				"skin_id" : "xiao",
-				"id" : "0",
-				"label" : "Akatsuki",
-				"dialogue" : {
-					"1" : {
-						"event" : "Ship Description",
-						"media" : "",
-						"chinese" : "特III型晓级驱逐舰一番舰—晓",
-						"chineseTL" : "",
-						"chineseNote" : "",
-						"japanese" : "特Ⅲ型駆逐艦一番艦・暁",
-						"japaneseTL" : "",
-						"japaneseNote" : "",
-						"english" : "Type III Akatsuki-class destroyer number one - Akatsuki.",
-						"englishNote" : ""
+				"skin_id": "xiao",
+				"id": "0",
+				"label": "Akatsuki",
+				"dialogue": {
+					"1": {
+						"event": "Ship Description",
+						"media": "",
+						"chinese": "特III型晓级驱逐舰一番舰—晓",
+						"chineseTL": "Special Type-III Akatsuki-class Destroyer No. 1, Akatsuki",
+						"chineseNote": "",
+						"japanese": "特Ⅲ型駆逐艦一番艦・暁",
+						"japaneseTL": "Special Type-III Akatsuki-class Destroyer No. 1, Akatsuki",
+						"japaneseNote": "",
+						"english": "Type III Akatsuki-class destroyer number one - Akatsuki.",
+						"englishNote": ""
 					},
-					"2" : {
-						"event" : "Biography",
-						"media" : "profile",
-						"chinese" : "特型驱逐舰，忍者晓是也！和妹妹们一同组成了第六驱逐队是也！动工也好、沉没也好，全都是第一名是也！东所罗门海战？那是为了照亮敌舰，决、决不是因为在下害怕黑夜是也！在下真正的力量，就请指挥官阁下慢慢期待吧……是也！",
-						"chineseTL" : "",
-						"chineseNote" : "",
-						"japanese" : "特型駆逐艦、ニンジャの暁でござる！妹たちと第六駆逐隊を結成していたでござる！着工したのも、沈んだのもいっちばん先でござる！第三次ソロモン海戦？あ、あれは敵艦を照らし出すためであって、決して暗いのがこわいなんじゃないの！…コホン！それがしの力、とくと見るが良い…でござる！",
-						"japaneseTL" : "",
-						"japaneseNote" : "",
-						"english" : "I am Akatsuki, a special-type destroyer! Destroyer Division Six consisted of me and my sisters! I was the first to be built and the first to be sunk! The Battle of Guadalcanal? I-I was trying to cast my light on the enemy! I was by no means scared of them! ... Ahem, you shall witness how strong I truly am... that you will!",
-						"englishNote" : ""
+					"2": {
+						"event": "Biography",
+						"media": "profile",
+						"chinese": "特型驱逐舰，忍者晓是也！和妹妹们一同组成了第六驱逐队是也！动工也好、沉没也好，全都是第一名是也！东所罗门海战？那是为了照亮敌舰，决、决不是因为在下害怕黑夜是也！在下真正的力量，就请指挥官阁下慢慢期待吧……是也！",
+						"chineseTL": "Special Destroyer, Ninja Akatsuki! Together with my sisters we form the 6th Destroyer Division! The first at being built, the first at being sunk, I was the first at everything! Battle of the Eastern Solomons? I was trying to illuminate the enemy ships at night, d-definitely not because I was afraid of the dark! My true power, please look forward to it... Yes!",
+						"chineseNote": "",
+						"japanese": "特型駆逐艦、ニンジャの暁でござる！妹たちと第六駆逐隊を結成していたでござる！着工したのも、沈んだのもいっちばん先でござる！第三次ソロモン海戦？あ、あれは敵艦を照らし出すためであって、決して暗いのがこわいなんじゃないの！…コホン！それがしの力、とくと見るが良い…でござる！",
+						"japaneseTL": "Special Destroyer, Ninja Akatsuki! Together with my sisters we form the 6th Destroyer Division! The first at being built, the first at being sunk, I was the first at everything! Third Battle of the Solomon Sea? I-I was trying to illuminate the enemy ships at night, I was definitely not afraid of the dark!... Ahem! My true power, better keep an eye on it... Yes!",
+						"japaneseNote": "",
+						"english": "I am Akatsuki, a special-type destroyer! Destroyer Division Six consisted of me and my sisters! I was the first to be built and the first to be sunk! The Battle of Guadalcanal? I-I was trying to cast my light on the enemy! I was by no means scared of them! ... Ahem, you shall witness how strong I truly am... that you will!",
+						"englishNote": ""
 					},
-					"3" : {
-						"event" : "Acquisition",
-						"media" : "get",
-						"chinese" : "第六驱逐队的长姐，晓是也！指挥官阁下，请务必允许在下重建第六驱逐队！咦——这里不分什么驱逐队！？",
-						"chineseTL" : "",
-						"chineseNote" : "",
-						"japanese" : "第六駆逐隊の長女、暁でござる！ドーモ、指揮官殿、第六駆逐隊の再建を是非やらせてほしいでござる！ーーええ！ここで「駆逐隊」は禁止なの！？",
-						"japaneseTL" : "",
-						"japaneseNote" : "",
-						"english" : "I am Akatsuki, the oldest ship of Destroyer Division Six! Well met, Commander. I sincerely hope you will let me rebuild Division Six! ... Huh?! You do not permit the formation of destroyer divisions?!",
-						"englishNote" : ""
+					"3": {
+						"event": "Acquisition",
+						"media": "get",
+						"chinese": "第六驱逐队的长姐，晓是也！指挥官阁下，请务必允许在下重建第六驱逐队！咦——这里不分什么驱逐队！？",
+						"chineseTL": "The eldest sister of the 6th Destroyer Division, Akatsuki! Commander please, you must allow me to rebuild the 6th Destroyer Division! Eh? There is no such thing as destroyer divisions here?",
+						"chineseNote": "",
+						"japanese": "第六駆逐隊の長女、暁でござる！ドーモ、指揮官殿、第六駆逐隊の再建を是非やらせてほしいでござる！ーーええ！ここで「駆逐隊」は禁止なの！？",
+						"japaneseTL": "The eldest sister of the 6th Destroyer Division, Akatsuki! Nice to meet you, Commander, you must allow me to rebuild the 6th Destroyer Division!... Eh! \"Destroyer Divisions\" are prohibited in here!?",
+						"japaneseNote": "",
+						"english": "I am Akatsuki, the oldest ship of Destroyer Division Six! Well met, Commander. I sincerely hope you will let me rebuild Division Six! ... Huh?! You do not permit the formation of destroyer divisions?!",
+						"englishNote": ""
 					},
-					"4" : {
-						"event" : "Login",
-						"media" : "login",
-						"chinese" : "在下晓，驱逐一切黑暗之忍者是也——咦咦！指挥官阁下，您、您什么时候出现的！",
-						"chineseTL" : "",
-						"chineseNote" : "",
-						"japanese" : "それがしの名は暁、全ての闇をことごとく振り払うニンジャでござる！ーーわわ！指揮官、い、いつからいたの？！",
-						"japaneseTL" : "",
-						"japaneseNote" : "",
-						"english" : "My name is Akatsuki, I am the ninja who will banish all the darkness in the world! ... Whoa! Commander, w-when did you get here?!",
-						"englishNote" : ""
+					"4": {
+						"event": "Login",
+						"media": "login",
+						"chinese": "在下晓，驱逐一切黑暗之忍者是也——咦咦！指挥官阁下，您、您什么时候出现的！",
+						"chineseTL": "I am Akatsuki, the ninja that dispels all that is dark... Ehh! Commander, w-when did you come?",
+						"chineseNote": "",
+						"japanese": "それがしの名は暁、全ての闇をことごとく振り払うニンジャでござる！ーーわわ！指揮官、い、いつからいたの？！",
+						"japaneseTL": "I am Akatsuki, the ninja that dispels all that is dark!... W-wah! Commander, w-when did you get here?!",
+						"japaneseNote": "",
+						"english": "My name is Akatsuki, I am the ninja who will banish all the darkness in the world! ... Whoa! Commander, w-when did you get here?!",
+						"englishNote": ""
 					},
-					"5" : {
-						"event" : "Details",
-						"media" : "detail",
-						"chinese" : "在下在夜里开灯可不是怕黑，绝、绝对不是哦！",
-						"chineseTL" : "",
-						"chineseNote" : "",
-						"japanese" : "そ、それがしが明かりをつけたままで寝たのは……こ、怖くなんかないわよ！",
-						"japaneseTL" : "",
-						"japaneseNote" : "",
-						"english" : "T-the reason I sleep with the lights on is because... i-it is not because I am afraid!",
-						"englishNote" : ""
+					"5": {
+						"event": "Details",
+						"media": "detail",
+						"chinese": "在下在夜里开灯可不是怕黑，绝、绝对不是哦！",
+						"chineseTL": "It's not because I am afraid of the dark that I leave the lights on at night, t-that's definitely not the case!",
+						"chineseNote": "",
+						"japanese": "そ、それがしが明かりをつけたままで寝たのは……こ、怖くなんかないわよ！",
+						"japaneseTL": "I-I leave the lights on when I go to sleep... I-it's not because I'm afraid!",
+						"japaneseNote": "",
+						"english": "T-the reason I sleep with the lights on is because... i-it is not because I am afraid!",
+						"englishNote": ""
 					},
-					"6" : {
-						"event" : "Main 1",
-						"media" : "main_1",
-						"chinese" : "有时候听不太懂雷和电在说些什么…… ",
-						"chineseTL" : "",
-						"chineseNote" : "",
-						"japanese" : "雷と電、何を言っているのか分からない……",
-						"japaneseTL" : "",
-						"japaneseNote" : "",
-						"english" : "Sometimes I do not understand what Ikazuchi and Inazuma are trying to say...",
-						"englishNote" : ""
+					"6": {
+						"event": "Main 1",
+						"media": "main_1",
+						"chinese": "有时候听不太懂雷和电在说些什么…… ",
+						"chineseTL": "Sometimes, I can't quite comprehend what Inazuma and Ikazuchi are saying...",
+						"chineseNote": "",
+						"japanese": "雷と電、何を言っているのか分からない……",
+						"japaneseTL": "Inazuma and Ikazuchi, I don't quite get what you are saying...",
+						"japaneseNote": "",
+						"english": "Sometimes I do not understand what Ikazuchi and Inazuma are trying to say...",
+						"englishNote": ""
 					},
-					"7" : {
-						"event" : "Main 2",
-						"media" : "main_2",
-						"chinese" : "响一个人能找到这里吗，在下有些担心…… ",
-						"chineseTL" : "",
-						"chineseNote" : "",
-						"japanese" : "響、一人でここを見つけられるかな…それがしちょっと心配でござる……",
-						"japaneseTL" : "",
-						"japaneseNote" : "",
-						"english" : "Can Hibiki find her way here on her own? It has me somewhat worried...",
-						"englishNote" : ""
+					"7": {
+						"event": "Main 2",
+						"media": "main_2",
+						"chinese": "响一个人能找到这里吗，在下有些担心…… ",
+						"chineseTL": "Can Hibiki find this place by herself? I am slightly worried",
+						"chineseNote": "",
+						"japanese": "響、一人でここを見つけられるかな…それがしちょっと心配でござる……",
+						"japaneseTL": "Hibiki, will you be able to find this place by yourself... I am slightly worried...",
+						"japaneseNote": "",
+						"english": "Can Hibiki find her way here on her own? It has me somewhat worried...",
+						"englishNote": ""
 					},
-					"8" : {
-						"event" : "Main 3",
-						"media" : "main_3",
-						"chinese" : "夜里开灯突然照到人影，谁都会被吓一跳吧！",
-						"chineseTL" : "",
-						"chineseNote" : "",
-						"japanese" : "ななっなによ！夜中に明かりの中に人影が急に映ったら、誰だってビックリするでしょ！？",
-						"japaneseTL" : "",
-						"japaneseNote" : "",
-						"english" : "W-w-what! Anyone would be shocked from suddenly seeing a person's shadow cast in the light in the middle of the night!",
-						"englishNote" : ""
+					"8": {
+						"event": "Main 3",
+						"media": "main_3",
+						"chinese": "夜里开灯突然照到人影，谁都会被吓一跳吧！",
+						"chineseTL": "Turning on the light and a shadow suddenly appears, anyone would get startled!",
+						"chineseNote": "",
+						"japanese": "ななっなによ！夜中に明かりの中に人影が急に映ったら、誰だってビックリするでしょ！？",
+						"japaneseTL": "W-w-w-what! If they saw a shadow when turning on the light in the middle of the night, anyone would get startled!",
+						"japaneseNote": "",
+						"english": "W-w-what! Anyone would be shocked from suddenly seeing a person's shadow cast in the light in the middle of the night!",
+						"englishNote": ""
 					},
-					"9" : {
-						"event" : "Touch",
-						"media" : "touch_1",
-						"chinese" : "真想快点见到响啊……",
-						"chineseTL" : "",
-						"chineseNote" : "",
-						"japanese" : "響……早く会いたい……",
-						"japaneseTL" : "",
-						"japaneseNote" : "",
-						"english" : "Hibiki... I really miss her...",
-						"englishNote" : ""
+					"9": {
+						"event": "Touch",
+						"media": "touch_1",
+						"chinese": "真想快点见到响啊……",
+						"chineseTL": "I really want to see Hibiki...",
+						"chineseNote": "",
+						"japanese": "響……早く会いたい……",
+						"japaneseTL": "Hibiki... I want to meet you soon...",
+						"japaneseNote": "",
+						"english": "Hibiki... I really miss her...",
+						"englishNote": ""
 					},
-					"10" : {
-						"event" : "Touch (Special)",
-						"media" : "touch_2",
-						"chinese" : "碰、碰那里的话，在下的力量会控制不住的！",
-						"chineseTL" : "",
-						"chineseNote" : "",
-						"japanese" : "そ、そんなところを触られたらわた……それがしの力が抑えられなくなるぞ！",
-						"japaneseTL" : "",
-						"japaneseNote" : "",
-						"english" : "S-should you touch me there again... then I will not be able to restrain myself!",
-						"englishNote" : ""
+					"10": {
+						"event": "Touch (Special)",
+						"media": "touch_2",
+						"chinese": "碰、碰那里的话，在下的力量会控制不住的！",
+						"chineseTL": "I-if you touch there, I won't be able to control my strength!",
+						"chineseNote": "",
+						"japanese": "そ、そんなところを触られたらわた……それがしの力が抑えられなくなるぞ！",
+						"japaneseTL": "I-if you touch there... I won't be able to control my strength!",
+						"japaneseNote": "",
+						"english": "S-should you touch me there again... then I will not be able to restrain myself!",
+						"englishNote": ""
 					},
-					"11" : {
-						"event" : "Mission",
-						"media" : "task",
-						"chinese" : "夜里的大海有点可怕……虽然在下是不怕啦！不、不过，当然还是白天更适合做任务吧！",
-						"chineseTL" : "",
-						"chineseNote" : "",
-						"japanese" : "夜の海、ちょっと怖い……そ、それがしは別に怖くないでござるよ！で、でもやっぱり任務はお昼にしよ？ねえってば！",
-						"japaneseTL" : "",
-						"japaneseNote" : "",
-						"english" : "The ocean at night is a little scary... N-nay, I am not scared! B-but may I propose we do missions during daytime? You must agree, right?!",
-						"englishNote" : ""
+					"11": {
+						"event": "Mission",
+						"media": "task",
+						"chinese": "夜里的大海有点可怕……虽然在下是不怕啦！不、不过，当然还是白天更适合做任务吧！",
+						"chineseTL": "The night sea is a bit scary... but it's not like I am afraid or anything! B-but, I still think it's better to do missions during the day!",
+						"chineseNote": "",
+						"japanese": "夜の海、ちょっと怖い……そ、それがしは別に怖くないでござるよ！で、でもやっぱり任務はお昼にしよ？ねえってば！",
+						"japaneseTL": "The sea at night, it's a bit scary... I-it's not like I'm afraid or anything! B-but, let's do missions during the day, ok? Listen!",
+						"japaneseNote": "",
+						"english": "The ocean at night is a little scary... N-nay, I am not scared! B-but may I propose we do missions during daytime? You must agree, right?!",
+						"englishNote": ""
 					},
-					"12" : {
-						"event" : "Mission Complete",
-						"media" : "mission_complete",
-						"chinese" : "奖励~奖励~",
-						"chineseTL" : "",
-						"chineseNote" : "",
-						"japanese" : "ご褒美～ご褒美～",
-						"japaneseTL" : "",
-						"japaneseNote" : "",
-						"english" : "Rewards~ rewards~!",
-						"englishNote" : ""
+					"12": {
+						"event": "Mission Complete",
+						"media": "mission_complete",
+						"chinese": "奖励~奖励~",
+						"chineseTL": "Reward~Reward~",
+						"chineseNote": "",
+						"japanese": "ご褒美～ご褒美～",
+						"japaneseTL": "Reward~Reward~",
+						"japaneseNote": "",
+						"english": "Rewards~ rewards~!",
+						"englishNote": ""
 					},
-					"13" : {
-						"event" : "Mail",
-						"media" : "mail",
-						"chinese" : "是新邮件！唔……就由在下来念给你听吧",
-						"chineseTL" : "",
-						"chineseNote" : "",
-						"japanese" : "新しい手紙よ！うっ……それがしが読み上げて差し上げよう！",
-						"japaneseTL" : "",
-						"japaneseNote" : "",
-						"english" : "New mail for you! Uh... I will read it out loud for you!",
-						"englishNote" : ""
+					"13": {
+						"event": "Mail",
+						"media": "mail",
+						"chinese": "是新邮件！唔……就由在下来念给你听吧",
+						"chineseTL": "A new mail! Hmm...I will read it out for you.",
+						"chineseNote": "",
+						"japanese": "新しい手紙よ！うっ……それがしが読み上げて差し上げよう！",
+						"japaneseTL": "New mail arrived! Uh... I will read it out for you!",
+						"japaneseNote": "",
+						"english": "New mail for you! Uh... I will read it out loud for you!",
+						"englishNote": ""
 					},
-					"14" : {
-						"event" : "Return to Port",
-						"media" : "home",
-						"chinese" : "指挥官~有没有带回来什么亮闪闪的东西？诶？在、在下也不是特别想要啦……",
-						"chineseTL" : "",
-						"chineseNote" : "",
-						"japanese" : "指揮官～キラキラするものないの？ーーえ！？そ、それがしは別にほしくなんかないぞ！",
-						"japaneseTL" : "",
-						"japaneseNote" : "",
-						"english" : "Commander~ Did you bring back any shiny items? ... Hm?! N-not at all, I am not asking simply because I want such things!",
-						"englishNote" : ""
+					"14": {
+						"event": "Return to Port",
+						"media": "home",
+						"chinese": "指挥官~有没有带回来什么亮闪闪的东西？诶？在、在下也不是特别想要啦……",
+						"chineseTL": "Commander... did you bring back anything shiny? Eh? I-it's not like I particularly want it...",
+						"chineseNote": "",
+						"japanese": "指揮官～キラキラするものないの？ーーえ！？そ、それがしは別にほしくなんかないぞ！",
+						"japaneseTL": "Commander~ Got anything shiny?... Eh!? I-it's not like I wanted it in particular!",
+						"japaneseNote": "",
+						"english": "Commander~ Did you bring back any shiny items? ... Hm?! N-not at all, I am not asking simply because I want such things!",
+						"englishNote": ""
 					},
-					"15" : {
-						"event" : "Commission Complete",
-						"media" : "expedition",
-						"chinese" : "就用在下的探照灯为她们引领航路吧！咦——不需要？是、是吗……",
-						"chineseTL" : "",
-						"chineseNote" : "",
-						"japanese" : "それがしの探照灯で帰路を映し出すのでござる！えーーいらないの？そ、そう……？",
-						"japaneseTL" : "",
-						"japaneseNote" : "",
-						"english" : "We may use my searchlight to find our way home! Huh? ... You have no need of it? R-really...?",
-						"englishNote" : ""
+					"15": {
+						"event": "Commission Complete",
+						"media": "expedition",
+						"chinese": "就用在下的探照灯为她们引领航路吧！咦——不需要？是、是吗……",
+						"chineseTL": "Please use my searchlight to guide their way! Eh, it's not necessary? I-I see...",
+						"chineseNote": "",
+						"japanese": "それがしの探照灯で帰路を映し出すのでござる！えーーいらないの？そ、そう……？",
+						"japaneseTL": "Please use my searchlight to guide their way! Eh... it's not necessary? I-I see...",
+						"japaneseNote": "",
+						"english": "We may use my searchlight to find our way home! Huh? ... You have no need of it? R-really...?",
+						"englishNote": ""
 					},
-					"16" : {
-						"event" : "Enhancement",
-						"media" : "upgrade",
-						"chinese" : "作为长姐，必须得更努力才行！",
-						"chineseTL" : "",
-						"chineseNote" : "",
-						"japanese" : "長女としてもっと頑張るでござる！",
-						"japaneseTL" : "",
-						"japaneseNote" : "",
-						"english" : "As the oldest of my siblings, I must work even harder!",
-						"englishNote" : ""
+					"16": {
+						"event": "Enhancement",
+						"media": "upgrade",
+						"chinese": "作为长姐，必须得更努力才行！",
+						"chineseTL": "As the eldest sister, I must work even harder!",
+						"chineseNote": "",
+						"japanese": "長女としてもっと頑張るでござる！",
+						"japaneseTL": "As the eldest sister, I must work even harder!",
+						"japaneseNote": "",
+						"english": "As the oldest of my siblings, I must work even harder!",
+						"englishNote": ""
 					},
-					"17" : {
-						"event" : "Flagship",
-						"media" : "warcry",
-						"chinese" : "第六驱逐队——出击！",
-						"chineseTL" : "",
-						"chineseNote" : "",
-						"japanese" : "第六駆逐隊ーー出撃、でござる！",
-						"japaneseTL" : "",
-						"japaneseNote" : "",
-						"english" : "Destroyer Division Six, embark!",
-						"englishNote" : ""
+					"17": {
+						"event": "Flagship",
+						"media": "warcry",
+						"chinese": "第六驱逐队——出击！",
+						"chineseTL": "6th Destroyer Division - Sortie!",
+						"chineseNote": "",
+						"japanese": "第六駆逐隊ーー出撃、でござる！",
+						"japaneseTL": "6th Destroyer Division - Sortie!",
+						"japaneseNote": "",
+						"english": "Destroyer Division Six, embark!",
+						"englishNote": ""
 					},
-					"18" : {
-						"event" : "Victory",
-						"media" : "mvp",
-						"chinese" : "这就是忍者！",
-						"chineseTL" : "",
-						"chineseNote" : "",
-						"japanese" : "これがニンジャでござる！",
-						"japaneseTL" : "",
-						"japaneseNote" : "",
-						"english" : "This is the true power of a ninja!",
-						"englishNote" : ""
+					"18": {
+						"event": "Victory",
+						"media": "mvp",
+						"chinese": "这就是忍者！",
+						"chineseTL": "This is what a ninja means!",
+						"chineseNote": "",
+						"japanese": "これがニンジャでござる！",
+						"japaneseTL": "This is what a ninja means!",
+						"japaneseNote": "",
+						"english": "This is the true power of a ninja!",
+						"englishNote": ""
 					},
-					"19" : {
-						"event" : "Defeat",
-						"media" : "lose",
-						"chinese" : "咕……下、下一次……",
-						"chineseTL" : "",
-						"chineseNote" : "",
-						"japanese" : "くっ……つ、次こそは……",
-						"japaneseTL" : "",
-						"japaneseNote" : "",
-						"english" : "Damn... I-I shall get you next time...",
-						"englishNote" : ""
+					"19": {
+						"event": "Defeat",
+						"media": "lose",
+						"chinese": "咕……下、下一次……",
+						"chineseTL": "Gah...next...next time...",
+						"chineseNote": "",
+						"japanese": "くっ……つ、次こそは……",
+						"japaneseTL": "G-Geh, next time...",
+						"japaneseNote": "",
+						"english": "Damn... I-I shall get you next time...",
+						"englishNote": ""
 					},
-					"20" : {
-						"event" : "Skill",
-						"media" : "skill",
-						"chinese" : "黑暗——消散！",
-						"chineseTL" : "",
-						"chineseNote" : "",
-						"japanese" : "闇よ！消え去れ！",
-						"japaneseTL" : "",
-						"japaneseNote" : "",
-						"english" : "O darkness, be gone!",
-						"englishNote" : ""
+					"20": {
+						"event": "skill",
+						"media": "skill",
+						"chinese": "黑暗——消散！",
+						"chineseTL": "Darkness... disperse!",
+						"chineseNote": "",
+						"japanese": "闇よ！消え去れ！",
+						"japaneseTL": "Darkess! Disappear!",
+						"japaneseNote": "",
+						"english": "O darkness, be gone!",
+						"englishNote": ""
 					},
-					"21" : {
-						"event" : "Affinity (Upset)",
-						"media" : "feeling1",
-						"chinese" : "指挥官阁下，请振作起来！",
-						"chineseTL" : "",
-						"chineseNote" : "",
-						"japanese" : "指揮官殿、元気を出すのでござる！",
-						"japaneseTL" : "",
-						"japaneseNote" : "",
-						"english" : "Commander, you must cheer up!",
-						"englishNote" : ""
+					"21": {
+						"event": "Affinity (Upset)",
+						"media": "feeling1",
+						"chinese": "指挥官阁下，请振作起来！",
+						"chineseTL": "Commander, please snap out of it!",
+						"chineseNote": "",
+						"japanese": "指揮官殿、元気を出すのでござる！",
+						"japaneseTL": "Commander, please cheer up!",
+						"japaneseNote": "",
+						"english": "Commander, you must cheer up!",
+						"englishNote": ""
 					},
-					"22" : {
-						"event" : "Affinity (Stranger)",
-						"media" : "feeling2",
-						"chinese" : "雷和电……有点担心她们呢",
-						"chineseTL" : "",
-						"chineseNote" : "",
-						"japanese" : "雷と電……ちょっと心配……",
-						"japaneseTL" : "",
-						"japaneseNote" : "",
-						"english" : "I am a little worried... about Ikazuchi and Inazuma...",
-						"englishNote" : ""
+					"22": {
+						"event": "Affinity (Stranger)",
+						"media": "feeling2",
+						"chinese": "雷和电……有点担心她们呢",
+						"chineseTL": "Inazuma and Ikazuchi... I am slightly worried about them",
+						"chineseNote": "",
+						"japanese": "雷と電……ちょっと心配……",
+						"japaneseTL": "Inazuma and Ikazuchi... I'm slightly worried about them",
+						"japaneseNote": "",
+						"english": "I am a little worried... about Ikazuchi and Inazuma...",
+						"englishNote": ""
 					},
-					"23" : {
-						"event" : "Affinity (Friendly)",
-						"media" : "feeling3",
-						"chinese" : "指挥官，想看看我真正的右眼吗？",
-						"chineseTL" : "",
-						"chineseNote" : "",
-						"japanese" : "指揮官殿、それがしの真の右目をご覧になりたいのでござるか？",
-						"japaneseTL" : "",
-						"japaneseNote" : "",
-						"english" : "Commander, do you perhaps wish to see my true right eye?",
-						"englishNote" : ""
+					"23": {
+						"event": "Affinity (Friendly)",
+						"media": "feeling3",
+						"chinese": "指挥官，想看看我真正的右眼吗？",
+						"chineseTL": "Commander, do you want to see my Right Eye of Truth?",
+						"chineseNote": "",
+						"japanese": "指揮官殿、それがしの真の右目をご覧になりたいのでござるか？",
+						"japaneseTL": "Commander, do you want to see my Right Eye of Truth?",
+						"japaneseNote": "",
+						"english": "Commander, do you perhaps wish to see my true right eye?",
+						"englishNote": ""
 					},
-					"24" : {
-						"event" : "Affinity (Like)",
-						"media" : "feeling4",
-						"chinese" : "妹妹们不在，晚上有点睡不着——是、是因为在下一直担心她们啦！",
-						"chineseTL" : "",
-						"chineseNote" : "",
-						"japanese" : "妹たちがいないと夜はぐっすり寝れないよ……べ、別に寂しくなんかないわよ！し、心配しているからでござるぞ！",
-						"japaneseTL" : "",
-						"japaneseNote" : "",
-						"english" : "I cannot sleep well without my sisters by my side... T-that is not to say I am lonely! I-it is because I am concerned about them!",
-						"englishNote" : ""
+					"24": {
+						"event": "Affinity (Like)",
+						"media": "feeling4",
+						"chinese": "妹妹们不在，晚上有点睡不着——是、是因为在下一直担心她们啦！",
+						"chineseTL": "When my little sisters aren't here, I can't really sleep at night... I-it's because I am always worried about them!",
+						"chineseNote": "",
+						"japanese": "妹たちがいないと夜はぐっすり寝れないよ……べ、別に寂しくなんかないわよ！し、心配しているからでござるぞ！",
+						"japaneseTL": "When my little sisters aren't here, I can't really sleep at night... I-I'm not lonely! I-I'm just worried about them!",
+						"japaneseNote": "",
+						"english": "I cannot sleep well without my sisters by my side... T-that is not to say I am lonely! I-it is because I am concerned about them!",
+						"englishNote": ""
 					},
-					"25" : {
-						"event" : "Affinity (Love)",
-						"media" : "feeling5",
-						"chinese" : "我们第六驱逐队永远都会在一起！然后……那个、指挥官阁下，你也会和我们永远在一起吧！",
-						"chineseTL" : "",
-						"chineseNote" : "",
-						"japanese" : "私たち第六駆逐隊はずっと一緒だわ！その……えっと、指揮官もずっといてくれるよね！",
-						"japaneseTL" : "",
-						"japaneseNote" : "",
-						"english" : "We Division Six destroyers have always been together! And... um, surely you will be together with me forever as well, Commander?",
-						"englishNote" : ""
+					"25": {
+						"event": "Affinity (Love)",
+						"media": "feeling5",
+						"chinese": "我们第六驱逐队永远都会在一起！然后……那个、指挥官阁下，你也会和我们永远在一起吧！",
+						"chineseTL": "We the 6th Destroyer Division will always be together! And... Commander, you will always be with us too!",
+						"chineseNote": "",
+						"japanese": "私たち第六駆逐隊はずっと一緒だわ！その……えっと、指揮官もずっといてくれるよね！",
+						"japaneseTL": "We the 6th Destroyer Division will always be together! And... Uhm, Commander will always be with us too!",
+						"japaneseNote": "",
+						"english": "We Division Six destroyers have always been together! And... um, surely you will be together with me forever as well, Commander?",
+						"englishNote": ""
 					},
-					"26" : {
-						"event" : "Pledge",
-						"media" : "propose",
-						"chinese" : "永恒的契约吗……我明白了！那就在这里展露我真正的右眼吧！咦，不需要？只要把双眼闭上就好？是……是吗……",
-						"chineseTL" : "",
-						"chineseNote" : "",
-						"japanese" : "永遠の契……わかったでござる！ではそれがしの真の右目をここでお見せ…え、しなくていいの？目を閉じるだけでいいの？そ……そう……？",
-						"japaneseTL" : "",
-						"japaneseNote" : "",
-						"english" : "A promise that binds us for eternity... I understand! Then I shall show you my true right eye, right this mo... T-there is no need for it? All I need to do is close my eyes instead? Re... really...?",
-						"englishNote" : ""
+					"26": {
+						"event": "Pledge",
+						"media": "propose",
+						"chinese": "永恒的契约吗……我明白了！那就在这里展露我真正的右眼吧！咦，不需要？只要把双眼闭上就好？是……是吗……",
+						"chineseTL": "An eternal contract?...I understand! Then, I shall show you my right eye! Eh? It's unnecessary? Just close both of my eyes? I...I see...",
+						"chineseNote": "",
+						"japanese": "永遠の契……わかったでござる！ではそれがしの真の右目をここでお見せ…え、しなくていいの？目を閉じるだけでいいの？そ……そう……？",
+						"japaneseTL": "An eternal contract... I understand! Then, I shall show you my Right Eye of Truth... Eh, it's not necessary? Just close both of my eyes? Oh... I see...?",
+						"japaneseNote": "",
+						"english": "A promise that binds us for eternity... I understand! Then I shall show you my true right eye, right this mo... T-there is no need for it? All I need to do is close my eyes instead? Re... really...?",
+						"englishNote": ""
 					},
-					"27" : {
-						"event" : "Easter Egg 1(Inazuma)",
-						"media" : "link1",
-						"chinese" : "一同照亮黑暗吧！",
-						"chineseTL" : "",
-						"chineseNote" : "",
-						"japanese" : "一緒に闇を照らし出そう！",
-						"japaneseTL" : "",
-						"japaneseNote" : "",
-						"english" : "Together we shall shine a light on the darkness!",
-						"englishNote" : ""
+					"27": {
+						"event": "Easter Egg 1 (Inazuma)",
+						"media": "link1",
+						"chinese": "一同照亮黑暗吧！",
+						"chineseTL": "Let us illuminate the darkness together!",
+						"chineseNote": "",
+						"japanese": "一緒に闇を照らし出そう！",
+						"japaneseTL": "Let us illuminate the darkness together!",
+						"japaneseNote": "",
+						"english": "Together we shall shine a light on the darkness!",
+						"englishNote": ""
 					},
-					"28" : {
-						"event" : "Easter Egg 2(Ikazuchi)",
-						"media" : "link2",
-						"chinese" : "永远都要在一起是也！",
-						"chineseTL" : "",
-						"chineseNote" : "",
-						"japanese" : "ずっと一緒だよ！",
-						"japaneseTL" : "",
-						"japaneseNote" : "",
-						"english" : "We will always be together!",
-						"englishNote" : ""
+					"28": {
+						"event": "Easter Egg 2 (Ikazuchi)",
+						"media": "link2",
+						"chinese": "永远都要在一起是也！",
+						"chineseTL": "We will always be together!",
+						"chineseNote": "",
+						"japanese": "ずっと一緒だよ！",
+						"japaneseTL": "We will always be together!",
+						"japaneseNote": "",
+						"english": "We will always be together!",
+						"englishNote": ""
+					},
+					"29": {
+						"event": "Valentines 2018",
+						"media": "",
+						"chinese": "在下试着做了巧克力，指挥官阁下不嫌弃的话就请收下吧。作为六驱的长姐，敬请期待在下未来的活跃…是也！",
+						"chineseTL": "I tried making chocolate myself, if Commander doesn't mind please take it. As the elder sister of the 6th Destroyer Division, please stay tuned on my future activities... Yes!",
+						"chineseNote": "",
+						"japanese": "それがし、「ちょこれーと」を試作してみたでござる。よろしければ受け取ってほしいのでござる！――第六駆逐隊の長女として、これからもそれがしの活躍を期待してほしい…でござる！",
+						"japaneseTL": "I tried making \"Chocolate\" myself. It would be nice if you received it!... As the elder sister of the 6th Destroyer Division, please stay tuned and look forward to my activities... Yes!",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"30": {
+						"event": "Valentines 2019",
+						"media": "",
+						"chinese": "指挥官阁下，这是在下做的“朱古力”，请您收下！在下觉得自己肯定能在今年见到响！嗯！肯定……可以相见！",
+						"chineseTL": "Commander, this is the \"Chocolate\" I made, please take it! I can feel that I will be able to see Hibiki this year! Hmm! For sure... we'll reunite!",
+						"chineseNote": "",
+						"japanese": "指揮官殿、それがしが作った「しょこらあと」、受け取って欲しいのでござる！今年こそそれがし、響に会える気がするでござる！うん！きっと…会えるよ！",
+						"japaneseTL": "Commander, this is the \"Chocolate\" I made, I want you to receive it! This year for sure, I feel like I will meet Hibiki! Hmm! For sure... we'll reunite!",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
 					}
 				}
 			},
@@ -752,5 +776,18 @@
 				}
 			}
 		}
+	},
+	"fleet_tech": {
+		"pt_get": "4",
+		"add_get_attr": "HP",
+		"add_get_value": "1",
+		"add_get_shiptype": "Destroyer",
+		"pt_upgrade": "9",
+		"pt_level": "7",
+		"add_level_attr": "Hit",
+		"add_level_value": "1",
+		"add_level_shiptype": "Destroyer",
+		"t_level": "5",
+		"ships": "akatsuki,ikazuchi,inazuma"
 	}
 }
