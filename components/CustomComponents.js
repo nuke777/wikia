@@ -147,6 +147,8 @@ class CommentedShipDisplay extends HTMLElement{
 						self.shipHull = "../Images/Hull/bc.png";
 					} else if (hull == "Monitor"){						
 						self.shipHull = "../Images/Hull/bm.png";
+					} else if (hull == "Aviation Battleship"){						
+						self.shipHull = "../Images/Hull/bbv.png";
 					} else if (hull == "Submarine"){						
 						self.shipHull = "../Images/Hull/ss.png";
 					} else if (hull == "Submarine Aircraft Carrier"){						
