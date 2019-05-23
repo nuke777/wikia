@@ -1,11 +1,11 @@
 {
-	"name_reference" : "u556",
-	"cn_reference" : "u556",
-	"nameJP" : "U-556",
-	"nameCN" : "U-556",
-	"ID" : "386",
-	"name" : "U-556",
-	"internal_id" : "408041",
+	"name_reference" : "u73",
+	"cn_reference" : "U73",
+	"nameJP" : "U-73",
+	"nameCN" : "U-73",
+	"ID" : "387",
+	"name" : "U-73",
+	"internal_id" : "408051",
 	"rarity" : "Elite",
 	"initialStar" : "★★☆☆☆",
 	"hull" : "Submarine",
@@ -14,7 +14,7 @@
 	"buildTime" : "",
 	"parameters": {
 		"firepower" : "D",
-		"torpedo" : "A",
+		"torpedo" : "S",
 		"aviation" : "E",
 		"evasion" : "D",
 		"antiAir" : "E",
@@ -38,21 +38,21 @@
 		"pixiv" : "",
 		"other" : ""
 	},
-	"class" : "Type VIIC",
+	"class" : "VⅡB型",
 	"enhance": {
 		"firepower" : "1",
-		"torpedo" : "38",
+		"torpedo" : "40",
 		"aviation" : "0",
 		"reload" : "6"
 	},
 	"acquisitionMethod" : "イベント：黒鉄の楽章　誓いの海",
 	"skill": {
 		"1" : {
-			"icon" : "12180",
+			"icon" : "3591",
 			"requirement" : "",
-			"name" : "誓いの光",
+			"name" : "Carrier Hunter ",
 			"type" : "Offensive",
-			"description" : "自身が潜水支援で戦場に駆けつけている限り、味方の他の艦船がダメージで耐久が20%を下回った場合、特殊魚雷弾幕を一回展開する(1戦闘につき1回のみ展開)；味方艦隊にビスマルがいる場合、特殊弾幕を強化する"
+			"description" : "Increases this ship's DMG to CVs by $1."
 		},
 		"2" : {
 			"icon" : "3611",
@@ -62,37 +62,18 @@
 			"description" : "出击时，编队中每有一个铁血阵营潜艇角色，自身雷击、装填属性上升$1"
 		},
 		"3" : {
-			"icon" : "23311",
+			"icon" : "23411",
 			"requirement" : "",
-			"name" : "全弹发射I",
+			"name" : "全弾発射-Type VIIB型I",
 			"type" : "Offensive",
-			"description" : "进入战斗时，触发全弹发射-Type VIIC型I"
+			"description" : "戦闘開始時、特殊弾幕Type VIIB型Ⅰを発動する"
 		}
 	},
 	"skin": {
 		"1" : {
-			"id" : "u556",
-			"name" : "U-556",
-			"description" : "鉄血ⅦC型潜水艦U-556",
-			"expression" : {
-				"0" : {
-					"id" : "0"
-				},
-				"1" : {
-					"id" : "1"
-				},
-				"2" : {
-					"id" : "2"
-				},
-				"3" : {
-					"id" : "3"
-				}
-			}
-		},
-		"2" : {
-			"id" : "U556_2",
-			"name" : "ハッピーナイト",
-			"description" : "U-556、華麗にへんしん！へへへ、今日はパーティーを思いっきり楽しんじゃうぞー！指揮官も一緒に来てね！",
+			"id" : "U73",
+			"name" : "U-73",
+			"description" : "鉄血ⅦB型潜水艦U-73",
 			"expression" : {
 				"0" : {
 					"id" : "0"
@@ -108,6 +89,34 @@
 				},
 				"4" : {
 					"id" : "4"
+				},
+				"5" : {
+					"id" : "5"
+				}
+			}
+		},
+		"2" : {
+			"id" : "U73_3",
+			"name" : "理科実験タイム！",
+			"description" : "U-73の理科実験タイム、始まるよ～！指揮官、一緒に楽しく面白く、科学実験をやってみよう！",
+			"expression" : {
+				"0" : {
+					"id" : "0"
+				},
+				"1" : {
+					"id" : "1"
+				},
+				"2" : {
+					"id" : "2"
+				},
+				"3" : {
+					"id" : "3"
+				},
+				"4" : {
+					"id" : "4"
+				},
+				"5" : {
+					"id" : "5"
 				}
 			}
 		}
@@ -131,16 +140,16 @@
 	},
 	"stats": {
 		"base": {
-			"hp" : "203",
-			"firepower" : "7",
-			"torpedo" : "96",
+			"hp" : "202",
+			"firepower" : "8",
+			"torpedo" : "101",
 			"antiAir" : "0",
 			"aviation" : "0",
 			"reload" : "31",
-			"hit" : "61",
+			"hit" : "57",
 			"evasion" : "7",
 			"speed" : "14.4",
-			"luck" : "45",
+			"luck" : "35",
 			"asw" : "0",
 			"oxygen" : "188",
 			"ammo" : "2",
@@ -148,16 +157,16 @@
 			"armor" : "Light"
 		},
 		"100": {
-			"hp" : "1051",
-			"firepower" : "34",
-			"torpedo" : "454",
+			"hp" : "1042",
+			"firepower" : "39",
+			"torpedo" : "475",
 			"antiAir" : "0",
 			"aviation" : "0",
 			"reload" : "73",
-			"hit" : "159",
+			"hit" : "149",
 			"evasion" : "18",
 			"speed" : "14.4",
-			"luck" : "45",
+			"luck" : "35",
 			"asw" : "0",
 			"oxygen" : "188",
 			"ammo" : "2",
@@ -165,16 +174,16 @@
 			"armor" : "Light"
 		},
 		"120": {
-			"hp" : "1261",
-			"firepower" : "39",
-			"torpedo" : "499",
+			"hp" : "1250",
+			"firepower" : "45",
+			"torpedo" : "523",
 			"antiAir" : "0",
 			"aviation" : "0",
 			"reload" : "84",
-			"hit" : "178",
+			"hit" : "167",
 			"evasion" : "37",
 			"speed" : "14.4",
-			"luck" : "45",
+			"luck" : "35",
 			"asw" : "0",
 			"oxygen" : "188",
 			"ammo" : "2",
@@ -191,7 +200,7 @@
 			"hit" : "",
 			"evasion" : "",
 			"speed" : "14.4",
-			"luck" : "45",
+			"luck" : "35",
 			"asw" : "",
 			"oxygen" : "188",
 			"ammo" : "2",
@@ -208,7 +217,7 @@
 			"hit" : "",
 			"evasion" : "",
 			"speed" : "14.4",
-			"luck" : "45",
+			"luck" : "35",
 			"asw" : "",
 			"oxygen" : "188",
 			"ammo" : "2",
@@ -254,17 +263,17 @@
 		}
 	},
 	"fleet_tech": {
-		"pt_get": "8",
+		"pt_get": "6",
 		"add_get_attr": "Evasion",
 		"add_get_value": "2",
 		"add_get_shiptype": "Submarine,Submarine Aircraft Carrier",
-		"pt_upgrade": "16",
-		"pt_level": "12",
+		"pt_upgrade": "14",
+		"pt_level": "10",
 		"add_level_attr": "Torpedo",
 		"add_level_value": "1",
 		"add_level_shiptype": "Submarine,Submarine Aircraft Carrier",
-		"t_level": "7",
-		"ships": "u81,u556,u557"
+		"t_level": "6",
+		"ships": "u47,u73"
 	},
 	"build": {
 		"light": {
@@ -310,17 +319,17 @@
 	"lines": {
 		"skin": {
 			"1": {
-				"skin_id" : "U556",
+				"skin_id" : "U73",
 				"id" : "0",
-				"label" : "U-556",
+				"label" : "U-73",
 				"dialogue" : {
 					"1" : {
 						"event" : "Ship Description",
 						"media" : "",
-						"chinese" : "铁血VIIC型潜艇U-556",
+						"chinese" : "铁血VIIB型潜艇U-73",
 						"chineseTL" : "",
 						"chineseNote" : "",
-						"japanese" : "鉄血ⅦC型潜水艦U-556",
+						"japanese" : "鉄血ⅦB型潜水艦U-73",
 						"japaneseTL" : "",
 						"japaneseNote" : "",
 						"english" : "",
@@ -329,10 +338,10 @@
 					"2" : {
 						"event" : "Biography",
 						"media" : "profile",
-						"chinese" : "曾经我向海洋之神发誓，无论是在哪里，只要大姐遇到了危险，我一定会保护好大姐的！但是……单凭我的一念之想，有些事情还是做不到的吧，啊哈哈……",
+						"chinese" : "铁血潜艇U-73号，我可是执行过很多次巡逻任务，战绩出色的“群狼”之一呐~",
 						"chineseTL" : "",
 						"chineseNote" : "",
-						"japanese" : "どんなところにいようと、ビスマルクのアネキが危険な目に遭ったら絶対守ってやるって、昔海の神様に誓ったことがあるんだ！……でもあたしひとりじゃできないこともあるよね…あははは……",
+						"japanese" : "鉄血潜水艦U-73、数々の出撃任務をこなしてきた、鉄血の狼たちのリーダーよ！",
 						"japaneseTL" : "",
 						"japaneseNote" : "",
 						"english" : "",
@@ -341,10 +350,10 @@
 					"3" : {
 						"event" : "Acquisition",
 						"media" : "get",
-						"chinese" : "嘿！我是VIIC型潜艇U-556！这里就是我接下来要住下的港口了吧！啊对了，大姐她也在这里吗？",
+						"chinese" : "铁血所属，U-73向您报告！有什么需要我做的事情，就尽管提吧，包在姐姐身上～",
 						"chineseTL" : "",
 						"chineseNote" : "",
-						"japanese" : "ほーい、VIIC型潜水艦のU-556だよ！ここがこれから住み込む母港で間違いないよね！あっ、ビスマルクのアネキもここにいないかな？",
+						"japanese" : "鉄血所属、U-73が着任した！さあ命令困り事なんでも言ってごらん、お姉ちゃんにお任せあれ！",
 						"japaneseTL" : "",
 						"japaneseNote" : "",
 						"english" : "",
@@ -353,10 +362,10 @@
 					"4" : {
 						"event" : "Login",
 						"media" : "login",
-						"chinese" : "欢迎回来！今天也是令人兴奋的一天呢！",
+						"chinese" : "Yahoo~指挥官，又见面啦。我已经整装待发，随时可以出击～就等你一声令下了",
 						"chineseTL" : "",
 						"chineseNote" : "",
-						"japanese" : "おっかえり！今日もなにやら盛り上がりそうな一日ね！",
+						"japanese" : "やっほー指揮官、また会ったね！こっちは準備万端、いつでも出撃可能！――あなたの命令一つで、ね♪",
 						"japaneseTL" : "",
 						"japaneseNote" : "",
 						"english" : "",
@@ -365,10 +374,10 @@
 					"5" : {
 						"event" : "Details",
 						"media" : "detail",
-						"chinese" : "哦哦哦哦！看招！……呼——这孩子有点时候太兴奋了，需要冷静一下呢，嘿嘿。",
+						"chinese" : "指挥官，不要太烦恼啦～凡事总有解决的办法",
 						"chineseTL" : "",
 						"chineseNote" : "",
-						"japanese" : "うぉりゃあああ！くらえええ！―――――ぜぇ…ぜぇ…このコ時々暴れ出すから、落ち着かせなきゃならないんだよね……あははは……",
+						"japanese" : "まあまあ指揮官、あまり悩むなって～何事もきっと上手くいくから",
 						"japaneseTL" : "",
 						"japaneseNote" : "",
 						"english" : "",
@@ -377,10 +386,10 @@
 					"6" : {
 						"event" : "Main 1",
 						"media" : "main_1",
-						"chinese" : "指挥官，你不陪我玩的话，我就去找大姐了！",
+						"chinese" : "在水下待久了，有时候也会想要享受下在水面疾驰的感觉呢…啊！指挥官，让我带你去海上飙一圈吧～？",
 						"chineseTL" : "",
 						"chineseNote" : "",
-						"japanese" : "指揮官？遊んでくれないとアネキのところに行っちゃうわよ？",
+						"japanese" : "ずっと潜航してると、たまには水面でぶっ飛ばしたくなるわね…あ！指揮官、海でひとっ走りしてこよっか？",
 						"japaneseTL" : "",
 						"japaneseNote" : "",
 						"english" : "",
@@ -389,10 +398,10 @@
 					"7" : {
 						"event" : "Main 2",
 						"media" : "main_2",
-						"chinese" : "指挥官，一起去游泳嘛！有我在旁边，指挥官可以完全放心的！",
+						"chinese" : "比起港区里待着，还是在各种海域悄悄接近敌人更让人感到兴奋啊……",
 						"chineseTL" : "",
 						"chineseNote" : "",
-						"japanese" : "指揮官、泳ぎに行こ？あたしがそばにいればなにが起きても大丈夫だよ！",
+						"japanese" : "母港でじっとしているより、海域で潜航して敵に近づくほうがスリルがあっていいよね……",
 						"japaneseTL" : "",
 						"japaneseNote" : "",
 						"english" : "",
@@ -401,10 +410,10 @@
 					"8" : {
 						"event" : "Main 3",
 						"media" : "main_3",
-						"chinese" : "指挥官，坐太久的话，身体会越来越差的哦！",
+						"chinese" : "倾听烦恼，为大家解忧其实还挺有意思的。开个“烦恼咨询室”之类的说不定也不错…指挥官有什么烦恼么？",
 						"chineseTL" : "",
 						"chineseNote" : "",
-						"japanese" : "指揮官、座りすぎると、体を壊しちゃうよ！",
+						"japanese" : "みんなの悩みを聞いたりそれを解決したりするのは面白いよね。お悩み相談室…？とか開いてみようかしら。指揮官って悩みとかあるの？",
 						"japaneseTL" : "",
 						"japaneseNote" : "",
 						"english" : "",
@@ -413,10 +422,10 @@
 					"9" : {
 						"event" : "Touch",
 						"media" : "touch_1",
-						"chinese" : "指挥官，走吧，我们一起去找大姐玩怎样？",
+						"chinese" : "嗯？还有什么事需要求助吗？尽管说吧。",
 						"chineseTL" : "",
 						"chineseNote" : "",
-						"japanese" : "指揮官、ビスマルクのアネキに会いに行かない？",
+						"japanese" : "うん？私が助けになれることはある？なんでも言ってごらん？",
 						"japaneseTL" : "",
 						"japaneseNote" : "",
 						"english" : "",
@@ -425,10 +434,10 @@
 					"10" : {
 						"event" : "Touch (Special)",
 						"media" : "touch_2",
-						"chinese" : "啊，指挥官，不准逃跑！",
+						"chinese" : "哼～指挥官看来是想吃几颗鱼雷了啊？",
 						"chineseTL" : "",
 						"chineseNote" : "",
-						"japanese" : "あ！指揮官、逃げるなー！",
+						"japanese" : "ふーん、さては指揮官、魚雷を何発もくらいたいのかな？",
 						"japaneseTL" : "",
 						"japaneseNote" : "",
 						"english" : "",
@@ -437,10 +446,10 @@
 					"11" : {
 						"event" : "Mission",
 						"media" : "task",
-						"chinese" : "欸，还要做任务啊……",
+						"chinese" : "任务来了，指挥官，一起来完成吧！",
 						"chineseTL" : "",
 						"chineseNote" : "",
-						"japanese" : "えええ、任務をやるのー",
+						"japanese" : "任務が来たのね。指揮官、一緒にこなそう！",
 						"japaneseTL" : "",
 						"japaneseNote" : "",
 						"english" : "",
@@ -449,10 +458,10 @@
 					"12" : {
 						"event" : "Mission Complete",
 						"media" : "mission_complete",
-						"chinese" : "任务完成了！这下可以去玩了吧？",
+						"chinese" : "有我在支援，任务当然很快就完成啦~",
 						"chineseTL" : "",
 						"chineseNote" : "",
-						"japanese" : "任務完了！これで遊びに行ける？",
+						"japanese" : "私のサポートがあれば、任務などチョチョイのチョイなんだかんね！",
 						"japaneseTL" : "",
 						"japaneseNote" : "",
 						"english" : "",
@@ -461,10 +470,10 @@
 					"13" : {
 						"event" : "Mail",
 						"media" : "mail",
-						"chinese" : "哔哔哔！U-556号收到了新的消息！",
+						"chinese" : "邮件来了~要不要我来帮你处理掉？",
 						"chineseTL" : "",
 						"chineseNote" : "",
-						"japanese" : "ピピピ！このU-556が新たな情報を受信！",
+						"japanese" : "メール来たよ～あ、私が代わりに確認したほうがいい？",
 						"japaneseTL" : "",
 						"japaneseNote" : "",
 						"english" : "",
@@ -473,10 +482,10 @@
 					"14" : {
 						"event" : "Return to Port",
 						"media" : "home",
-						"chinese" : "指挥官，你不在的时候我在书柜拿了一些书，但是我忘了它们原本的位置了……那个，对不起呢，嘿嘿……",
+						"chinese" : "欢迎回来～哈哈，好好休息下，有什么另外要忙的都交给我吧～",
 						"chineseTL" : "",
 						"chineseNote" : "",
-						"japanese" : " 指揮官がいない間に本を何冊か取り出しちゃったけど、実は戻す場所が分からなくって……あの、ごめんね？えへへへ……",
+						"japanese" : "おかえり！ふふん、任せられるものは私に任せて、ちゃんと休めよ～",
 						"japaneseTL" : "",
 						"japaneseNote" : "",
 						"english" : "",
@@ -485,10 +494,10 @@
 					"15" : {
 						"event" : "Commission Complete",
 						"media" : "expedition",
-						"chinese" : "我好像看到委托的姐姐们回来了呢！要去接她们吗？",
+						"chinese" : "委托完成了，大家干得真不错！",
 						"chineseTL" : "",
 						"chineseNote" : "",
-						"japanese" : "委託に出た子たちが戻ってきたんだね！出迎えにでかける？",
+						"japanese" : "委託完了！みんな、よくやったよ！",
 						"japaneseTL" : "",
 						"japaneseNote" : "",
 						"english" : "",
@@ -497,10 +506,10 @@
 					"16" : {
 						"event" : "Enhancement",
 						"media" : "upgrade",
-						"chinese" : "大海，我来了！",
+						"chinese" : "这下能更好地实施精准打击了！嘻嘻～",
 						"chineseTL" : "",
 						"chineseNote" : "",
-						"japanese" : "海よ、あたしはやってきた！",
+						"japanese" : "これでもっと正確に打撃を与えられるようになったね～。ふふ～ん♪",
 						"japaneseTL" : "",
 						"japaneseNote" : "",
 						"english" : "",
@@ -509,10 +518,10 @@
 					"17" : {
 						"event" : "Flagship",
 						"media" : "warcry",
-						"chinese" : "你们已经跑不了啦！",
+						"chinese" : "现在的我，是群狼之首！",
 						"chineseTL" : "",
 						"chineseNote" : "",
-						"japanese" : "もう逃げられないよ！",
+						"japanese" : "狼を率いるもの、それが私！",
 						"japaneseTL" : "",
 						"japaneseNote" : "",
 						"english" : "",
@@ -521,10 +530,10 @@
 					"18" : {
 						"event" : "Victory",
 						"media" : "mvp",
-						"chinese" : "哼哼，胜利女神站在了我们这边！",
+						"chinese" : "哼哼！见识到我的厉害了吧~",
 						"chineseTL" : "",
 						"chineseNote" : "",
-						"japanese" : "ふふん、勝利の女神はこちら側にいるってことさ！",
+						"japanese" : "ふっふん！私の力、見ててくれたかな？",
 						"japaneseTL" : "",
 						"japaneseNote" : "",
 						"english" : "",
@@ -533,10 +542,10 @@
 					"19" : {
 						"event" : "Defeat",
 						"media" : "lose",
-						"chinese" : "不会……再让那个时候的失败重演的！",
+						"chinese" : "啊哈哈……哈哈，居然会失败……",
 						"chineseTL" : "",
 						"chineseNote" : "",
-						"japanese" : "あの時の失敗は……二度と繰り返させない！",
+						"japanese" : "いやあ……あはは…まさか負けちゃうなんてぇー",
 						"japaneseTL" : "",
 						"japaneseNote" : "",
 						"english" : "",
@@ -545,10 +554,10 @@
 					"20" : {
 						"event" : "Skill",
 						"media" : "skill",
-						"chinese" : "已经迟了！",
+						"chinese" : "“狼群战术”启动！",
 						"chineseTL" : "",
 						"chineseNote" : "",
-						"japanese" : "おっそいわよ！",
+						"japanese" : "Wolfsrudeltaktik（ウォルフスルタクティク）、発動ッ！",
 						"japaneseTL" : "",
 						"japaneseNote" : "",
 						"english" : "",
@@ -557,10 +566,10 @@
 					"21" : {
 						"event" : "Low HP",
 						"media" : "hp",
-						"chinese" : "别，别在关键的时候失控啊！",
+						"chinese" : "唔啊——好像需要回避一下了……",
 						"chineseTL" : "",
 						"chineseNote" : "",
-						"japanese" : "だ、大事なときに暴れるなー！",
+						"japanese" : "わああ！これは回避行動を取るべきね……",
 						"japaneseTL" : "",
 						"japaneseNote" : "",
 						"english" : "",
@@ -569,10 +578,10 @@
 					"22" : {
 						"event" : "Affinity (Upset)",
 						"media" : "feeling1",
-						"chinese" : "求你了，不要再露出那样的表情了……可以吗？",
+						"chinese" : "嗯…其他的伙伴还在等我，指挥官，我先告辞了——",
 						"chineseTL" : "",
 						"chineseNote" : "",
-						"japanese" : "お願い、もう二度とそんな顔しないで……ね？",
+						"japanese" : "ん…みんなが待ってるから、指揮官ごめんね、先に行ってくる――",
 						"japaneseTL" : "",
 						"japaneseNote" : "",
 						"english" : "",
@@ -581,10 +590,10 @@
 					"23" : {
 						"event" : "Affinity (Stranger)",
 						"media" : "feeling2",
-						"chinese" : "俾斯麦大姐！我来找你玩啦！啊、啊咧……？",
+						"chinese" : "指挥官终于闲下来了，要不要一起逛逛？",
 						"chineseTL" : "",
 						"chineseNote" : "",
-						"japanese" : "ビスマルクのアネキ！遊びに来たよ！……あ、あれ？",
+						"japanese" : "お、指揮官ようやく一息つけた？少し一緒に散歩しない？",
 						"japaneseTL" : "",
 						"japaneseNote" : "",
 						"english" : "",
@@ -593,10 +602,10 @@
 					"24" : {
 						"event" : "Affinity (Friendly)",
 						"media" : "feeling3",
-						"chinese" : "指挥官，要看看我的潜泳表演吗？哼哼，这个可是连大姐都夸赞过的，我的绝对自信之作！",
+						"chinese" : "悄悄潜伏，等待机会，然后奇袭命中，哈哈，抓住你啦，指挥官！",
 						"chineseTL" : "",
 						"chineseNote" : "",
-						"japanese" : "指揮官、あたしの潜水泳法を見たいの？ふふん、こればかりはビスマルクのアネキも褒めてくれた、あたしの自慢なんだからっ！",
+						"japanese" : "ひっそり近づいて、じっくりチャンスを待ち、いざ奇襲を！――ははは、指揮官、捕まえた♪",
 						"japaneseTL" : "",
 						"japaneseNote" : "",
 						"english" : "",
@@ -605,10 +614,10 @@
 					"25" : {
 						"event" : "Affinity (Like)",
 						"media" : "feeling4",
-						"chinese" : "欸~为什么大姐不肯抱一下我嘛，还说小孩子才这么做……作为代替嘛——嘿嘿，果然指挥官很懂我的嘛！",
+						"chinese" : "现在开始感受到姐姐的魅力了吧？指挥官，一直待在我身边吧！",
 						"chineseTL" : "",
 						"chineseNote" : "",
-						"japanese" : "えーなんでアネキはあたしをハグしてくれないの？子供っぽいって……じゃあ、代わりに――おお！えへへ、指揮官って分かってくれるよね！",
+						"japanese" : "お姉ちゃんの魅力、そろそろ気づいてくれた？指揮官、ずっと私のそばにいてね！",
 						"japaneseTL" : "",
 						"japaneseNote" : "",
 						"english" : "",
@@ -617,10 +626,10 @@
 					"26" : {
 						"event" : "Affinity (Love)",
 						"media" : "feeling5",
-						"chinese" : "指挥官和大姐一样，都是我最重要的人。如果，指挥官哪天消失了的话，我想我就会失去所有战斗的勇气了吧。指挥官能一直陪着我，我真的非常地高兴，非常地幸福……",
+						"chinese" : "指挥官，虽然坐骑的速度不敢保证……不过就算你跑得再快，也会被我俘获的～主要是内心呢～哼哼！",
 						"chineseTL" : "",
 						"chineseNote" : "",
-						"japanese" : "指揮官もアネキも、あたしにとって大事な人！指揮官がもしいなくなったら、あたしは戦えないぐらい落ち込む…だから、ずっと一緒にいてくれて嬉しいし、幸せ……",
+						"japanese" : "指揮官、確かに私は潜航するとスピードを保証できないけど……指揮官のことは絶対に捕まえるわよ！特にココロ、ね！ふふん！",
 						"japaneseTL" : "",
 						"japaneseNote" : "",
 						"english" : "",
@@ -629,46 +638,22 @@
 					"27" : {
 						"event" : "Pledge",
 						"media" : "propose",
-						"chinese" : "我以我的全部向海之神发誓，不管遇到什么事情，我都会保护好指挥官！……哼哼，我也是有值得指挥官依靠的一面的！指挥官还请好好期待吧！",
+						"chinese" : "嘻嘻，没想到这一天那么快就到了。从今往后，你就是我的人了。说好咯，一切包在我身上～我会好好照顾你一辈子！",
 						"chineseTL" : "",
 						"chineseNote" : "",
-						"japanese" : "海の神様に誓うよ！どんなことがあっても指揮官を守る！……ふふん、あたしも頼れるところがあるじゃん？これからも期待してね！指揮官！",
+						"japanese" : "ふふっ、こんなに早く来るとは思わなかったけど、これから指揮官はもう私の一部ってことね！いいよ、お姉ちゃんに全部任せてちょうだい！一生面倒見てあげるから♪",
 						"japaneseTL" : "",
 						"japaneseNote" : "",
 						"english" : "",
 						"englishNote" : ""
 					},
 					"28" : {
-						"event" : "Easter Egg 1(Bismarck)",
+						"event" : "Easter Egg 1(U-81, U-556, U-47, U-557)",
 						"media" : "link1",
-						"chinese" : "大姐！一起华丽地把敌人解决掉吧！",
+						"chinese" : "接下来，该是我们U艇飒爽登场的时候了。",
 						"chineseTL" : "",
 						"chineseNote" : "",
-						"japanese" : "アネキ！華麗に敵を蹴散らしましょう！",
-						"japaneseTL" : "",
-						"japaneseNote" : "",
-						"english" : "",
-						"englishNote" : ""
-					},
-					"29" : {
-						"event" : "Easter Egg 2(Ark Royal)",
-						"media" : "link2",
-						"chinese" : "抱歉，我不是很想看到你……",
-						"chineseTL" : "",
-						"chineseNote" : "",
-						"japanese" : "ごめん、あんまり会いたくないかも……",
-						"japaneseTL" : "",
-						"japaneseNote" : "",
-						"english" : "",
-						"englishNote" : ""
-					},
-					"30" : {
-						"event" : "Easter Egg 3(Tirpitz)",
-						"media" : "link3",
-						"chinese" : "提尔比茨，看我的！",
-						"chineseTL" : "",
-						"chineseNote" : "",
-						"japanese" : "ティルピッツさん、あたしがやるよ！",
+						"japanese" : "次は私達Uボートの出番よ！",
 						"japaneseTL" : "",
 						"japaneseNote" : "",
 						"english" : "",
@@ -677,17 +662,17 @@
 				}
 			},
 			"2": {
-				"skin_id" : "U556_2",
+				"skin_id" : "U73_3",
 				"id" : "1",
-				"label" : "ハッピーナイト",
+				"label" : "理科実験タイム！",
 				"dialogue" : {
 					"1" : {
 						"event" : "Ship Description",
 						"media" : "",
-						"chinese" : "U-556华丽变身！嘿嘿，今天的晚会一定要玩个痛快！指挥官也一起来吧！",
+						"chinese" : "好～U-73的理科实验时间要开始咯～指挥官，一起来进行快乐又有趣的科学实验吧！",
 						"chineseTL" : "",
 						"chineseNote" : "",
-						"japanese" : "U-556、華麗にへんしん！へへへ、今日はパーティーを思いっきり楽しんじゃうぞー！指揮官も一緒に来てね！",
+						"japanese" : "U-73の理科実験タイム、始まるよ～！指揮官、一緒に楽しく面白く、科学実験をやってみよう！",
 						"japaneseTL" : "",
 						"japaneseNote" : "",
 						"english" : "",
@@ -696,7 +681,7 @@
 					"2" : {
 						"event" : "Acquisition",
 						"media" : "get_1",
-						"chinese" : "U-556华丽变身！嘿嘿，今天的晚会一定要玩个痛快！指挥官也一起来吧！",
+						"chinese" : "好～U-73的理科实验时间要开始咯～指挥官，一起来进行快乐又有趣的科学实验吧！",
 						"chineseTL" : "",
 						"chineseNote" : "",
 						"japanese" : "",
@@ -708,7 +693,7 @@
 					"3" : {
 						"event" : "Login",
 						"media" : "login_1",
-						"chinese" : "听说晚会有很多好玩的，我已经迫不及待了呢！",
+						"chinese" : "把这个加进这里，然后再——哇！指挥官不要突然出现啦，差点就手抖出大事了!",
 						"chineseTL" : "",
 						"chineseNote" : "",
 						"japanese" : "",
@@ -718,9 +703,9 @@
 						"englishNote" : ""
 					},
 					"4" : {
-						"event" : "Details",
-						"media" : "detail_1",
-						"chinese" : "对了指挥官，要不我们去厨房看看？……欸，那里的大家都在忙吗？确实不应该打扰她们呢……",
+						"event" : "Main 1",
+						"media" : "main_1_1",
+						"chinese" : "这里需要加热一下……呜哇啊啊啊，火、火太大了啊啊啊！！！",
 						"chineseTL" : "",
 						"chineseNote" : "",
 						"japanese" : "",
@@ -730,9 +715,9 @@
 						"englishNote" : ""
 					},
 					"5" : {
-						"event" : "Main 1",
-						"media" : "main_1_1",
-						"chinese" : "喵喵，别板着脸啦。看着我的手指，这边——然后这边！",
+						"event" : "Main 2",
+						"media" : "main_2_1",
+						"chinese" : "实验的精度可是很重要的，差0.01毫升都可能得出完全不一样的结果呢",
 						"chineseTL" : "",
 						"chineseNote" : "",
 						"japanese" : "",
@@ -742,9 +727,9 @@
 						"englishNote" : ""
 					},
 					"6" : {
-						"event" : "Main 2",
-						"media" : "main_2_1",
-						"chinese" : "指挥官，你有见到俾斯麦大姐吗？要不我们一起去找找？",
+						"event" : "Main 3",
+						"media" : "main_3_1",
+						"chinese" : "白衣正是实验室的浪漫！——诶？这个不叫白衣？啊哈，啊哈哈……",
 						"chineseTL" : "",
 						"chineseNote" : "",
 						"japanese" : "",
@@ -754,9 +739,9 @@
 						"englishNote" : ""
 					},
 					"7" : {
-						"event" : "Main 3",
-						"media" : "main_3_1",
-						"chinese" : "唔唔，真美味！这个超好吃的！指挥官你也尝一个！",
+						"event" : "Touch",
+						"media" : "touch_1_1",
+						"chinese" : "啊，不要在这时候碰我啦指挥官，剂量要不准了都……",
 						"chineseTL" : "",
 						"chineseNote" : "",
 						"japanese" : "",
@@ -766,9 +751,9 @@
 						"englishNote" : ""
 					},
 					"8" : {
-						"event" : "Touch",
-						"media" : "touch_1_1",
-						"chinese" : "接下来我们去哪里呀？",
+						"event" : "Touch (Special)",
+						"media" : "touch_2_1",
+						"chinese" : "……加了特殊燃料的鱼雷，指挥官想要试试吗？",
 						"chineseTL" : "",
 						"chineseNote" : "",
 						"japanese" : "",
@@ -778,33 +763,9 @@
 						"englishNote" : ""
 					},
 					"9" : {
-						"event" : "Touch (Special)",
-						"media" : "touch_2_1",
-						"chinese" : "我，我生气了！这次别想蒙混过关！",
-						"chineseTL" : "",
-						"chineseNote" : "",
-						"japanese" : "",
-						"japaneseTL" : "",
-						"japaneseNote" : "",
-						"english" : "",
-						"englishNote" : ""
-					},
-					"10" : {
-						"event" : "Return to Port",
-						"media" : "home_1",
-						"chinese" : "指挥官，别老跑去其他地方啦。来陪我玩嘛~",
-						"chineseTL" : "",
-						"chineseNote" : "",
-						"japanese" : "",
-						"japaneseTL" : "",
-						"japaneseNote" : "",
-						"english" : "",
-						"englishNote" : ""
-					},
-					"11" : {
-						"event" : "Affinity (Love)",
-						"media" : "feeling5_1",
-						"chinese" : "欸，晚会结束了就要去休息了吗？唔，我还没玩够啦……指挥官，再陪我一会啦。嘿嘿，指挥官最好啦！",
+						"event" : "Flagship",
+						"media" : "warcry_1",
+						"chinese" : "就拿你们来做实验吧！",
 						"chineseTL" : "",
 						"chineseNote" : "",
 						"japanese" : "",
