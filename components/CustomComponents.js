@@ -69,18 +69,18 @@ class CommentedShipDisplay extends HTMLElement{
 		template(){
 			return html`
 			<div style="float:left;margin:10px 0px 0px 10px;" id="${this.parentID}">
-					<div style="border-radius: 10px;border: 3px double #ffffff;background: #24252d;width: 100px;height: 220px; position: relative">
-						<div style="width: 33px;height: 27px;float:left;text-align:center;color:white;padding-top:6px;font-size:13px;">
+					<div style="border-radius: 10px;border: 3px double #ffffff;background: #24252d;width: 108px;height: 220px; position: relative">
+						<div style="width: 36px;height: 27px;float:left;text-align:center;color:white;padding-top:6px;font-size:13px;">
 							<img src="${this.shipHull}" style="padding-left:3px;width:33px;height:auto;">
 						</div>
-						<div style="width: 34px;height: 33px;float:left;text-align:center;">
+						<div style="width: 36px;height: 33px;float:left;text-align:center;">
 							<img src="${this.shipNavy}">
 						</div>
-						<div style="width: 33px;height: 27px;float:left;text-align:center;color:white;padding-top:6px;font-size:13px;">${this.shipID}</div>
-						<div style="${this.shipRarity};border-top: 2px solid #ffffff;border-bottom: 2px solid #ffffff;width:100px; height:144px; float:left;">
-							<a href="ship#${this.shipLink}"><img src="${this.shipIcon}" style="height:144px;width: 100px"></a>
+						<div style="width: 36px;height: 27px;float:left;text-align:center;color:white;padding-top:6px;font-size:13px;">${this.shipID}</div>
+						<div style="${this.shipRarity};border-top: 2px solid #ffffff;border-bottom: 2px solid #ffffff;width:108px; height:144px; float:left;">
+							<a href="ship#${this.shipLink}"><img src="${this.shipIcon}" style="height:144px;width: 108px"></a>
 						</div>
-						<div style="float:left; display:block; text-align: center;vertical-align: middle;line-height: 33px;width:100px; height:33px; color:white; font-size:10px;">
+						<div style="float:left; display:block; text-align: center;vertical-align: middle;line-height: 33px;width:108px; height:33px; color:white; font-size:10px;">
 							<a href="ship#${this.shipLink}" style="color:white; font-size:10px;text-decoration:none">${this.shipName}</a>
 						</div>
 						<div style="width: 60px; height: 19px; background: url('Images/skin_event.png'); position: absolute; top: 38px; right: 8px; display: none" id="event${this.parentID}"></div> 
@@ -119,14 +119,14 @@ class CommentedShipDisplay extends HTMLElement{
 					if (self.skin != null){
 						self.comment = actual_JSON.skin[self.skin+""].name;
 						if (self.retrofit == "true")
-							self.shipIcon = "https://media.alg-wiki.com/assets/shipyardicon/" + actual_JSON.skin[1].id + "_g.png";
+							self.shipIcon = "https://media.alg-wiki.com/assets/shipyardicon_new/" + actual_JSON.skin[1].id + "_g.png";
 						else
-							self.shipIcon = "https://media.alg-wiki.com/assets/shipyardicon/" + actual_JSON.skin[self.skin+""].id + ".png";
+							self.shipIcon = "https://media.alg-wiki.com/assets/shipyardicon_new/" + actual_JSON.skin[self.skin+""].id + ".png";
 					} else {
 						if (self.retrofit == "true")
-							self.shipIcon = "https://media.alg-wiki.com/assets/shipyardicon/" + actual_JSON.skin[1].id + "_g.png";
+							self.shipIcon = "https://media.alg-wiki.com/assets/shipyardicon_new/" + actual_JSON.skin[1].id + "_g.png";
 						else
-							self.shipIcon = "https://media.alg-wiki.com/assets/shipyardicon/" + actual_JSON.skin[1].id + ".png";
+							self.shipIcon = "https://media.alg-wiki.com/assets/shipyardicon_new/" + actual_JSON.skin[1].id + ".png";
 					}
 						
 					if (hull == "Aircraft Carrier"){						
