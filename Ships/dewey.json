@@ -12,7 +12,7 @@
 	"navy": "Eagle Union",
 	"prefix": "USS",
 	"buildTime": "N/A",
-	"class": "",
+	"class": "ファラガット級",
 	"parameters": {
 		"firepower": "C",
 		"torpedo": "C",
@@ -70,6 +70,27 @@
 			"expression": {
 				"0": {
 					"id": "0"
+				},
+				"1": {
+					"id": "1"
+				},
+				"2": {
+					"id": "2"
+				},
+				"3": {
+					"id": "3"
+				},
+				"4": {
+					"id": "4"
+				},
+				"5": {
+					"id": "5"
+				},
+				"6": {
+					"id": "6"
+				},
+				"7": {
+					"id": "7"
 				}
 			}
 		}
@@ -641,9 +662,58 @@
 						"japaneseNote": "",
 						"english": "",
 						"englishNote": ""
+					},
+					"32": {
+						"event": "Like Present",
+						"media": "present_like",
+						"chinese": "",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"33": {
+						"event": "Dislike Present",
+						"media": "present_dislike",
+						"chinese": "",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"34": {
+						"event": "Main Title",
+						"media": "extra",
+						"chinese": "",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
 					}
 				}
 			}
 		}
+	},
+	"fleet_tech": {
+		"pt_get": "3",
+		"add_get_attr": "HP",
+		"add_get_value": "1",
+		"add_get_shiptype": "Destroyer",
+		"pt_upgrade": "7",
+		"pt_level": "5",
+		"add_level_attr": "HP",
+		"add_level_value": "1",
+		"add_level_shiptype": "Destroyer",
+		"t_level": "3",
+		"ships": "dewey"
 	}
 }

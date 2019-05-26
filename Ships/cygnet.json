@@ -12,7 +12,7 @@
 	"navy": "Royal Navy",
 	"prefix": "HMS",
 	"buildTime": "00:21:00",
-	"class": "C",
+	"class": "C-Class",
 	"voiceActress": "Risa Taneda",
 	"parameters": {
 		"firepower": "D",
@@ -1507,17 +1507,125 @@
 				"id": "3",
 				"label": "Winter Date",
 				"dialogue": {
-					"1": {
-						"event": "Ship Description",
-						"media": "",
-						"chinese": "啊呜…换衣服稍微花了些时间…指挥官，没有让你久等吧？……嘻嘻，那、那就让我们出发吧",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "あぅ…着付け難しかったよぉ……指揮官ごめんなさい、うち、結構待たせちゃった……？……えへへ～じゃ、じゃあ…出発しちゃお？",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "Aww... it took me a while to get changed... Commander, did I keep you waiting long? Hehe... th-that's good. Let's get going, then~",
-						"englishNote": ""
+					"1" : {
+						"event" : "Ship Description",
+						"media" : "",
+						"chinese" : "啊呜…换衣服稍微花了些时间…指挥官，没有让你久等吧？……嘻嘻，那、那就让我们出发吧",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "あぅ…着付け難しかったよぉ……指揮官ごめんなさい、うち、結構待たせちゃった……？……えへへ～じゃ、じゃあ…出発しちゃお？",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Aww... it took me a while to get changed... Commander, did I keep you waiting long? Hehe... th-that's good. Let's get going, then~",
+						"englishNote" : ""
+					},
+					"2" : {
+						"event" : "Acquisition",
+						"media" : "get_3",
+						"chinese" : "啊呜…换衣服稍微花了些时间…指挥官，没有让你久等吧？……嘻嘻，那、那就让我们出发吧",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "あぅ…着付け難しかったよぉ……指揮官ごめんなさい、うち、結構待たせちゃった……？……えへへ～じゃ、じゃあ…出発しちゃお？",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Aww... it took me a while to get changed... Hope I didn't keep ya waitin' too long, Commander? Hehe... th-that's good. Let's get goin', then~",
+						"englishNote" : ""
+					},
+					"3" : {
+						"event" : "Login",
+						"media" : "login_3",
+						"chinese" : "指挥官在这呀，我还以为走散了呢…",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "指揮官、ここにいたの…うち、はぐれたかと思ったよぉ……",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "There you are, Commander! I was worried ya lost me...",
+						"englishNote" : ""
+					},
+					"4" : {
+						"event" : "Details",
+						"media" : "detail_3",
+						"chinese" : "新月和彗星选的这件衣服…好像有点太鲜艳了，会不会不太合适呀…啊，没、没什么",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "コメットとクレセントが選んだ着物、なんか華やかすぎる気がして……うちが着ても大丈夫かぇ？…あ、な、なんちゃあないよぉ！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Comet and Crescent picked this outfit for me, but... ain't it a bit too showy? Erm... it's too much, innit? Um... n-never mind!",
+						"englishNote" : ""
+					},
+					"5" : {
+						"event" : "Main 1",
+						"media" : "main_1_3",
+						"chinese" : "其实冬天比起出门，我更想呆在温暖的房间里吃炸鱼薯条……不过和指挥官出门也很开心",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "冬はおでかけするより、温かい部屋でフィッシュアンドチップスを食べるのがすきやき……あ、でも指揮官と一緒におでかけするのも楽しいよ！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "It's so cold I'd rather stay inside and eat fish and chips come wintertime... But goin' out with you's pretty nice too!",
+						"englishNote" : ""
+					},
+					"6" : {
+						"event" : "Main 2",
+						"media" : "main_2_3",
+						"chinese" : "指挥官，重樱冬天好像也有烟花大会的样子呢，一起去看看吗？",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "指揮官、重桜は冬にも花火大会をやるらしいよ！一緒に見に行こう？",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Commander, I heard there's gonna be one of them fireworks shows for New Year's! What say we go together?",
+						"englishNote" : ""
+					},
+					"7" : {
+						"event" : "Main 3",
+						"media" : "main_3_3",
+						"chinese" : "指挥官，你觉得新年期间，我们三人组都换上和服来举办一场演出怎么样呀？",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "指揮官、えっと……お正月に、うちとコメット、クレセントの3人で着物姿でライブをやるのはどぉ？",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Commander, umm... what do ya t",
+						"englishNote" : ""
+					},
+					"8" : {
+						"event" : "Touch",
+						"media" : "touch_1_3",
+						"chinese" : "牵手防止走散？！欸欸欸，咱，咱牵着指挥官的衣角就好啦……",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "はぐれないように手を繋いでって……えええ！う、うう、うちは指揮官の服の裾を引っ張ってるから大丈夫だよぉ……/////",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Hold your hand so I don't get lost?! Erm, um, uh, I think holdin' your sleeve's good enough, Commandeeer...!",
+						"englishNote" : ""
+					},
+					"9" : {
+						"event" : "Return to Port",
+						"media" : "home_3",
+						"chinese" : "指挥官，给你炸鱼薯条……还是说，年糕比较好？",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "指揮官、フィッシュアンドチップス……あっ、やっぱりお正月はお餅のほうがいいかな？",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Here, Commander, I got ya some fish and chips... Oh, was I supposed to give ya mochi for New Year's instead?",
+						"englishNote" : ""
+					},
+					"10" : {
+						"event" : "Affinity (Love)",
+						"media" : "feeling5_3",
+						"chinese" : "新年愿望的话，咱有很多呢，希望舰队的大家不会受伤，希望咱能成为大偶像，希望……指挥官能一直看着咱……",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "新年の願いといえば、うち、いっぱいあるよね…艦隊のみんなが怪我しませんように、うちがトップアイドルになれますように、そして……指揮官がずっとうちのことを見てくれますように……",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "My New Year's wish? Oh, I got lots... Let's see... I hope everyone in the fleet stays safe. And I hope I can become a big, famous idol... And, Commander, I hope you'll be there with me the whole way...",
+						"englishNote" : ""
 					}
 				}
 			},
@@ -1740,5 +1848,18 @@
 			"nodeSettings": "line, f3, y n n y"
 		}
 	},
-	"retroParameter": "Rare, Destroyer, 2"
+	"retroParameter": "Rare, Destroyer, 2",
+	"fleet_tech": {
+		"pt_get": "2",
+		"add_get_attr": "HP",
+		"add_get_value": "1",
+		"add_get_shiptype": "Destroyer",
+		"pt_upgrade": "4",
+		"pt_level": "3",
+		"add_level_attr": "HP",
+		"add_level_value": "1",
+		"add_level_shiptype": "Destroyer",
+		"t_level": "3",
+		"ships": "comet,crescent,cygnet"
+	}
 }

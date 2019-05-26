@@ -1,4 +1,4 @@
-{
+﻿{
 	"name_reference": "ayanami",
 	"cn_reference": "lingbo",
 	"nameJP": "綾波",
@@ -12,7 +12,7 @@
 	"navy": "Sakura Empire",
 	"prefix": "IJN",
 	"buildTime": "00:23:00",
-	"class": "Fubuki Type II",
+	"class": "Fubuki-Class Type II (Ayanami)",
 	"voiceActress": "You Taichi",
 	"parameters": {
 		"firepower": "D",
@@ -102,7 +102,7 @@
 			}
 		},
 		"4": {
-			"id": "Lingbo_4",
+			"id": "lingbo_4",
 			"name": "Rock 'n' Demon ",
 			"description": "Commander, want to listen to music together? Do you like... this non-combat-oriented Ayanami? ",
 			"expression": {
@@ -137,6 +137,25 @@
 			}
 		},
 		"6": {
+			"id": "lingbo_6",
+			"name": "Grade A Sailor Uniform",
+			"description": "\"Welcome, Commander...\" I should greet customers like this... yes?",
+			"expression": {
+				"0": {
+					"id": "0"
+				},
+				"1": {
+					"id": "1"
+				},
+				"2": {
+					"id": "2"
+				},
+				"3": {
+					"id": "3"
+				}
+			}
+		},
+		"7": {
 			"id": "lingbo_h",
 			"name": "Demon's Finest Dress ",
 			"description": "This dress is... Ayanami’s. I'm not used to this dress yet... Commander, do you think it fits me?",
@@ -161,7 +180,7 @@
 				}
 			}
 		},
-		"7": {
+		"8": {
 			"id": "lingbo_g",
 			"name": "Ayanami (Retrofit) ",
 			"description": "Ayanami, retrofit complete. I feel stronger, yes... Having that said, Commander, can you pat my head? I want to be spoiled a bit...",
@@ -1137,7 +1156,7 @@
 				}
 			},
 			"4": {
-				"skin_id": "Lingbo_4",
+				"skin_id": "lingbo_4",
 				"id": "3",
 				"label": "Rock 'n' Demon ",
 				"dialogue": {
@@ -1415,6 +1434,133 @@
 				}
 			},
 			"6": {
+				"skin_id": "lingbo_6",
+				"id": "6",
+				"label": "Grade A Sailor Uniform",
+				"dialogue": {
+					"1" : {
+						"event" : "Ship Description",
+						"media" : "",
+						"chinese" : "“欢迎光临，指挥官”…打招呼的时候是这样…吧？",
+						"chineseTL" : "\"Welcome, commander\" greetings should be made like this, yes?",
+						"chineseNote" : "",
+						"japanese" : "「指揮官、いらっしゃいませ、です」…挨拶はこんな感じでいいですか？",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "“Welcome, Commander...” I should greet customers like this... yes? ",
+						"englishNote" : ""
+					},
+					"2" : {
+						"event" : "Acquisition",
+						"media" : "get_5",
+						"chinese" : "“欢迎光临，指挥官”…打招呼的时候是这样…吧？",
+						"chineseTL" : "\"Welcome, commander\" greetings should be made like this, yes?",
+						"chineseNote" : "",
+						"japanese" : "「指揮官、いらっしゃいませ、です」…挨拶はこんな感じでいいですか？",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "“Welcome, Commander...” I should greet customers like this... yes? ",
+						"englishNote" : ""
+					},
+					"3" : {
+						"event" : "Login",
+						"media" : "login_5",
+						"chinese" : "指挥官，今天想要来点什么吗？菜单在这里…的说",
+						"chineseTL" : "Commander, what do you want to eat today? The menu is here. Desu.",
+						"chineseNote" : "",
+						"japanese" : "",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"4" : {
+						"event" : "Details",
+						"media" : "detail_5",
+						"chinese" : "见习服务生，是绫波没有经历过的体验，感觉很新鲜…的说",
+						"chineseTL" : "Training as a waitress.. Is something Ayanami has never done.. It's a fresh experience.. Desu.",
+						"chineseNote" : "",
+						"japanese" : "",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"5" : {
+						"event" : "Main 1",
+						"media" : "main_1_5",
+						"chinese" : "拉菲说，有时候也需要换换口味，所以…今天要来点甜点吗，指挥官？",
+						"chineseTL" : "Laffey said it's necessary to change up flavours, so...how about some dessert today, Commander?",
+						"chineseNote" : "",
+						"japanese" : "",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"6" : {
+						"event" : "Main 2",
+						"media" : "main_2_5",
+						"chinese" : "标枪无论做什么的时候都好有精神，有点羡慕…的说",
+						"chineseTL" : "Javelin is always energetic no matter what she's doing.. I'm a little envious.. Desu.",
+						"chineseNote" : "",
+						"japanese" : "",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"7" : {
+						"event" : "Main 3",
+						"media" : "main_3_5",
+						"chinese" : "服务生的工作…果然没有想象中的那么简单…的说",
+						"chineseTL" : "Like I thought, waitressing isn't easy... desu.",
+						"chineseNote" : "",
+						"japanese" : "",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"8" : {
+						"event" : "Touch",
+						"media" : "touch_1_5",
+						"chinese" : "餐盘要像这样端…的说？——指挥官想要帮绫波？没关系的，还是让绫波自己来吧",
+						"chineseTL" : "The plates should be like this... Desu? Commander wishes to help Ayanami? It's okay, Ayanami can handle it herself.",
+						"chineseNote" : "",
+						"japanese" : "",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"9" : {
+						"event" : "Return to Port",
+						"media" : "home_5",
+						"chinese" : "要来一份庆祝胜利回港的特别套餐吗…？",
+						"chineseTL" : "Do you want a special celebratory return to port set meal?",
+						"chineseNote" : "",
+						"japanese" : "",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"10" : {
+						"event" : "Affinity (Love)",
+						"media" : "feeling5_5",
+						"chinese" : "等店里忙完以后，想要和指挥官一起…绫波会给指挥官准备，在店里学会的，特别料理套餐…的说，指挥官，可以吗？",
+						"chineseTL" : "Once rush hour is over, Ayanami wants to prepare a special meal she learnt from the shop with Commander. Commander, can we?",
+						"chineseNote" : "",
+						"japanese" : "",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					}
+				}
+			},
+			"7": {
 				"skin_id": "lingbo_h",
 				"id": "8",
 				"label": "Demon's Finest Dress ",
@@ -1553,7 +1699,7 @@
 					}
 				}
 			},
-			"7": {
+			"8": {
 				"skin_id": "lingbo_g",
 				"id": "9",
 				"label": "Ayanami (Retrofit) ",
@@ -1780,5 +1926,18 @@
 			"nodeSettings": "line, f3, y n n y"
 		}
 	},
-	"retroParameter": "Super Rare, Destroyer"
+	"retroParameter": "Super Rare, Destroyer",
+	"fleet_tech": {
+		"pt_get": "5",
+		"add_get_attr": "HP",
+		"add_get_value": "1",
+		"add_get_shiptype": "Destroyer",
+		"pt_upgrade": "11",
+		"pt_level": "8",
+		"add_level_attr": "Torpedo",
+		"add_level_value": "1",
+		"add_level_shiptype": "Destroyer",
+		"t_level": "4",
+		"ships": "ayanami"
+	}
 }

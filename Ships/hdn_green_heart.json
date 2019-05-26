@@ -1,0 +1,648 @@
+{
+	"name_reference" : "hdn_green_heart",
+	"cn_reference" : "HDN402_1",
+	"nameJP" : "グリーンハート",
+	"nameCN" : "翡绿之心",
+	"ID" : "C008",
+	"name" : "Green Heart",
+	"internal_id" : "10100081",
+	"rarity" : "Super Rare",
+	"initialStar" : "★★★☆☆☆",
+	"hull" : "Aircraft Carrier",
+	"navy" : "Neptunia",
+	"prefix" : "HDN",
+	"buildTime" : "",
+	"class" : "",
+	"voiceActress" : "Rina Satou",
+	"parameters": {
+		"firepower" : "E",
+		"torpedo" : "E",
+		"aviation" : "A",
+		"evasion" : "C",
+		"antiAir" : "B",
+		"hp" : "B"
+	},
+	"scrap": {
+		"gold" : "9",
+		"oil" : "3",
+		"medal" : "10"
+	},
+	"releaseDate": {
+		"JP" : "",
+		"CN" : "",
+		"KR" : "",
+		"EN" : ""
+	},
+	"artist": {
+		"name" : "",
+		"weibo" : "",
+		"twitter" : "",
+		"pixiv" : "",
+		"other" : ""
+	},
+	"enhance": {
+		"firepower" : "0",
+		"torpedo" : "0",
+		"aviation" : "66",
+		"reload" : "8"
+	},
+	"acquisitionMethod" : "Event: Visitors from Another Dimension",
+	"skill": {
+		"1" : {
+			"icon" : "101120",
+			"requirement" : "",
+			"name" : "Darjeeling Rotation",
+			"type" : "Support",
+			"description" : "Every 15 seconds, switches between the following effects: 1) Reduces damage taken by $1, 2) Increases damage dealt by $2, 3) Restores $3 HP every 3 seconds."
+		},
+		"2" : {
+			"icon" : "101130",
+			"requirement" : "",
+			"name" : "Rainy Ratnapura",
+			"type" : "Offensive",
+			"description" : "$1 chance to activate every 20 seconds, launch a special airstrike ($2)."
+		}
+	},
+	"skin": {
+		"1" : {
+			"id" : "HDN402_1",
+			"name" : "Green Heart",
+			"description" : "I am the CPU of Leanbox, Green Heart. No matter who the enemy is, I will not hold back. Are you ready?",
+			"expression" : {
+				"0" : {
+					"id" : "0"
+				}
+			}
+		},
+		"2" : {
+			"id" : "HDN402_2",
+			"name" : "Goddesses' Moment",
+			"description" : "Commander, are you having a good time? Ehehe, I certainly am. It's not often that we get to relax like this. Why don't we head out and enjoy the breeze?",
+			"expression" : {
+				"0" : {
+					"id" : "0"
+				}
+			}
+		}
+	},
+	"defaultEquipment": {
+		"1" : {
+			"icon" : "",
+			"rarity" : "",
+			"name" : ""
+		},
+		"2" : {
+			"icon" : "",
+			"rarity" : "",
+			"name" : ""
+		},
+		"3" : {
+			"icon" : "",
+			"rarity" : "",
+			"name" : ""
+		}
+	},
+	"stats": {
+		"base": {
+			"hp" : "972",
+			"firepower" : "0",
+			"torpedo" : "0",
+			"antiAir" : "56",
+			"aviation" : "75",
+			"reload" : "42",
+			"hit" : "30",
+			"evasion" : "14",
+			"speed" : "28",
+			"luck" : "95",
+			"asw" : "0",
+			"oxygen" : "0",
+			"ammo" : "0",
+			"cost" : "4",
+			"armor" : "Medium"
+		},
+		"100": {
+			"hp" : "5027",
+			"firepower" : "0",
+			"torpedo" : "0",
+			"antiAir" : "262",
+			"aviation" : "354",
+			"reload" : "100",
+			"hit" : "79",
+			"evasion" : "36",
+			"speed" : "28",
+			"luck" : "95",
+			"asw" : "0",
+			"oxygen" : "0",
+			"ammo" : "0",
+			"cost" : "13",
+			"armor" : "Medium"
+		},
+		"120": {
+			"hp" : "5781",
+			"firepower" : "0",
+			"torpedo" : "0",
+			"antiAir" : "298",
+			"aviation" : "395",
+			"reload" : "115",
+			"hit" : "86",
+			"evasion" : "55",
+			"speed" : "28",
+			"luck" : "95",
+			"asw" : "0",
+			"oxygen" : "0",
+			"ammo" : "0",
+			"cost" : "13",
+			"armor" : "Medium"
+		},
+		"100retrofit": {
+			"hp" : "",
+			"firepower" : "",
+			"torpedo" : "",
+			"antiAir" : "",
+			"aviation" : "",
+			"reload" : "",
+			"hit" : "",
+			"evasion" : "",
+			"speed" : "28",
+			"luck" : "95",
+			"asw" : "",
+			"oxygen" : "0",
+			"ammo" : "0",
+			"cost" : "13",
+			"armor" : "Medium"
+		},
+		"120retrofit": {
+			"hp" : "",
+			"firepower" : "",
+			"torpedo" : "",
+			"antiAir" : "",
+			"aviation" : "",
+			"reload" : "",
+			"hit" : "",
+			"evasion" : "",
+			"speed" : "28",
+			"luck" : "95",
+			"asw" : "",
+			"oxygen" : "0",
+			"ammo" : "0",
+			"cost" : "13",
+			"armor" : "Medium"
+		}
+	},
+	"limitBreak": {
+		"tier1": "All fighters +1/Dive Bomber efficiency +3%",
+		"tier2": "Hangar capacity +1/All Dive Bombers +1/Fighter efficiency +5%",
+		"tier3": "All Dive Bombers +1/Dive Bomber efficiency +7%"
+	},
+	"equipmentLoadout": {
+		"1": {
+			"type": "Fighter",
+			"efficiency": "120%/120%/120%/120%",
+			"amount": "1/2/2/2",
+			"preload": "0/0/0/0"
+		},
+		"2": {
+			"type": "Dive Bomber",
+			"efficiency": "110%/113%/118%/125%",
+			"amount": "1/1/2/3",
+			"preload": "0/0/0/0"
+		},
+		"3": {
+			"type": "Dive Bomber",
+			"efficiency": "110%/113%/118%/125%",
+			"amount": "1/1/2/3",
+			"preload": "0/0/0/0"
+		},
+		"4": {
+			"type": "Auxilary",
+			"efficiency": "-",
+			"amount": "-",
+			"preload": "-"
+		},
+		"5": {
+			"type": "Auxilary",
+			"efficiency": "-",
+			"amount": "-",
+			"preload": "-"
+		}
+	},
+	"build": {
+		"light": {
+			"JP": "",
+			"CN": "",
+			"EN": ""
+		},
+		"heavy": {
+			"JP": "",
+			"CN": "",
+			"EN": ""
+		},
+		"special": {
+			"JP": "",
+			"CN": "",
+			"EN": ""
+		},
+		"limited": {
+			"JP": "",
+			"CN": "",
+			"EN": ""
+		}
+	},
+	"drop": {
+		"droppable": "false",
+		"list": {
+			"1": {
+				"event": "",
+				"chapter": {
+					"1": {
+						"label": "Ch .1",
+						"node": {
+							"1": {
+								"drop": "✓",
+								"note": "-"
+							}
+						}
+					}
+				}
+			}
+		}
+	},
+	"lines": {
+		"skin": {
+			"1": {
+				"skin_id" : "HDN402_1",
+				"id" : "0",
+				"label" : "Green Heart",
+				"dialogue" : {
+					"1" : {
+						"event" : "Ship Description",
+						"media" : "",
+						"chinese" : "我是绿荫箱庭（Leanbox）的女神、翡绿之心。无论面对谁我都不会客气的哦。做好心理准备了吗？",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "リーンボックスの女神、グリーンハート。どんな方であろうと遠慮はいたしませんわ。覚悟はいいかしら？",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "I am the CPU of Leanbox, Green Heart. No matter who the enemy is, I will not hold back. Are you ready?",
+						"englishNote" : ""
+					},
+					"2" : {
+						"event" : "Biography",
+						"media" : "profile",
+						"chinese" : "我是绿荫箱庭（Leanbox）的女神、翡绿之心，来自名为《游戏业界》的世界。不用这么害羞，再靠近一点看也没关系哦？",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "リーンボックスの女神、グリーンハートですわ。ゲイムギョウ界という世界から参りました。そんなに恥ずかしがらずに。もっと近くにいらしてご覧になっても構いませんわ？",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "I am the CPU of Leanbox, Green Heart. I have come from the world of Gamindustri. There's no need to be shy, you can come as close as you'd like.",
+						"englishNote" : ""
+					},
+					"3" : {
+						"event" : "Receive",
+						"media" : "get",
+						"chinese" : "我是绿荫箱庭（Leanbox）的女神、翡绿之心。无论面对谁我都不会客气的哦。做好心理准备了吗？",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "リーンボックスの女神、グリーンハート。どんな方であろうと遠慮はいたしませんわ。覚悟はいいかしら？",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "I am the CPU of Leanbox, Green Heart. No matter who the enemy is, I will not hold back. Are you ready?",
+						"englishNote" : ""
+					},
+					"4" : {
+						"event" : "Log in",
+						"media" : "login",
+						"chinese" : "真慢呢。红茶要趁热喝才最好喝哦？",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "遅いですわ。　紅茶は淹れたてが一番おいしいんですのよ？",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "You sure took your time. Black tea is best enjoyed hot, you know?",
+						"englishNote" : ""
+					},
+					"5" : {
+						"event" : "View details",
+						"media" : "detail",
+						"chinese" : "似乎是被我的美丽迷住了呢",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "わたくしの美しさに見とれているようですわね",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "It seems like someone has been captivated by my beauty.",
+						"englishNote" : ""
+					},
+					"6" : {
+						"event" : "Main screen 1",
+						"media" : "main_1",
+						"chinese" : "大才是正义，您不这么觉得吗？",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "大きいことこそジャスティスですわ、そう思いませんか？",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Size is justice, don't you agree?",
+						"englishNote" : ""
+					},
+					"7" : {
+						"event" : "Main screen 2",
+						"media" : "main_2",
+						"chinese" : "……。哎呀，不好意思，我正在思考下次公会战的战略呢",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "……。　あら、申し訳ございません、今度のギルド戦の戦略を立てておりましたわ",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "... Oh dear, my apologies. I was just thinking about the next guild battle.",
+						"englishNote" : ""
+					},
+					"8" : {
+						"event" : "Main screen 3",
+						"media" : "main_3",
+						"chinese" : "来泡杯红茶吧",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "ティータイムにいたしましょう",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Shall we have some tea?",
+						"englishNote" : ""
+					},
+					"9" : {
+						"event" : "Normal touch",
+						"media" : "touch_1",
+						"chinese" : "这个处理单元是脱不下来的哦。呵呵呵，开玩笑的",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "このプロセッサユニットは着脱できないんですのよ。うふふ、冗談ですわ",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "This processing unit can't be taken off, you know. Ehehe, just kidding.",
+						"englishNote" : ""
+					},
+					"10" : {
+						"event" : "Special touch",
+						"media" : "touch_2",
+						"chinese" : "不可以做这些不好的恶作剧哦？",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "もし悪ふざけでしたら容赦いたしませんわよ？",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "It's not a good idea to keep playing these distasteful pranks.",
+						"englishNote" : ""
+					},
+					"11" : {
+						"event" : "Mission reminder",
+						"media" : "task",
+						"chinese" : "需要我帮忙的话，请随时跟我说哦",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "わたくしに手伝えることがあれば、いつでも言ってくださいまし",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "If you require my assistance at any time, just let me know.",
+						"englishNote" : ""
+					},
+					"12" : {
+						"event" : "Mission complete",
+						"media" : "mission_complete",
+						"chinese" : "会有什么奖励呢，真是让人期待呢",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "どんなボーナスがあるか楽しみですわね",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "What a tease... I want to see the rewards.",
+						"englishNote" : ""
+					},
+					"13" : {
+						"event" : "Mail reminder",
+						"media" : "mail",
+						"chinese" : "新邮件来了呢",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "新着メールが届いてますわ。",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "New mail has arrived.",
+						"englishNote" : ""
+					},
+					"14" : {
+						"event" : "Return to port",
+						"media" : "home",
+						"chinese" : "休息也是很重要的哦",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "休憩も大事ですわよ",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Rest is important, too.",
+						"englishNote" : ""
+					},
+					"15" : {
+						"event" : "Commission complete",
+						"media" : "expedition",
+						"chinese" : "委托似乎完成了呢。还是慰劳一下她们比较好哦",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "委託が終わったみたいですわね。労いの言葉をかけてあげると良いですわ。",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "It appears that a commission has been completed. You should thank your girls for their hard work.",
+						"englishNote" : ""
+					},
+					"16" : {
+						"event" : "Enhancing complete",
+						"media" : "upgrade",
+						"chinese" : "又进一步雕琢了我的美丽呢",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "また、美しさに磨きがかかってしまいましたわ",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "My beauty has been sculpted even more.",
+						"englishNote" : ""
+					},
+					"17" : {
+						"event" : "Flagship fight",
+						"media" : "warcry",
+						"chinese" : "从一开始就全力对付你们吧",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "初めから全力でお相手いたしますわ",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Let's deal with our enemies full-force from the start.",
+						"englishNote" : ""
+					},
+					"18" : {
+						"event" : "Victory",
+						"media" : "mvp",
+						"chinese" : "这点程度，还不足当我的对手呢",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "その程度では、わたくしの相手は務まりませんわ",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Enemies like these are not enough to be my opponent.",
+						"englishNote" : ""
+					},
+					"19" : {
+						"event" : "Defeat",
+						"media" : "lose",
+						"chinese" : "没想到我会犯下这种失误…下次绝不会输了",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "わたくしとしたことが…次は負けませんわ",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "To think I would make such a mistake... I won't lose next time.",
+						"englishNote" : ""
+					},
+					"20" : {
+						"event" : "Skills",
+						"media" : "skill",
+						"chinese" : "一瞬间就了结了你们！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "一瞬で終わらせますわ",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "I'll end you in an instant!",
+						"englishNote" : ""
+					},
+					"21" : {
+						"event" : "Low HP",
+						"media" : "hp",
+						"chinese" : "可没那么简单就结束了哦",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "そう簡単にはまいりませんわ。",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "I won't let you off the hook so easily!",
+						"englishNote" : ""
+					},
+					"22" : {
+						"event" : "Upset",
+						"media" : "feeling1",
+						"chinese" : "我没有什么要和你说的",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "何も言うことはありませんわ。",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "I have nothing to say to you.",
+						"englishNote" : ""
+					},
+					"23" : {
+						"event" : "Stranger",
+						"media" : "feeling2",
+						"chinese" : "不嫌弃的话，随时可以来找我谈心哦？",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "わたくしで良ければいつでも相談に乗りますわよ？",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "If you are fine with me, you can ask me for advice at any time.",
+						"englishNote" : ""
+					},
+					"24" : {
+						"event" : "Friendly",
+						"media" : "feeling3",
+						"chinese" : "最近在工作上会不会太依靠我了？不，我是没关系，但这样下去指挥官就有点让人担心了呢",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "最近わたくしに仕事を任せすぎではありませんか？いえ、わたくしはいいのですが、このままだと指揮官としてやっていけるか心配になってしまいますわ。",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Haven't you been relying on me a bit too much recently? No, it doesn't bother me... but if this continues, one can't help but to be concerned about your abilities as a commander.",
+						"englishNote" : ""
+					},
+					"25" : {
+						"event" : "Crush",
+						"media" : "feeling4",
+						"chinese" : "我今晚有空，可以帮您分担一点工作哦。结束以后，请给我……没、没什么",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "わたくしは今夜空いてますので、仕事を手伝いますわ。終わったら、ご褒美に……な、なんでもありませんわ。",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "I have some free time tonight, so I would be glad to help you with work. Afterwards, I'd like you to give me... U-um... forget I said anything.",
+						"englishNote" : ""
+					},
+					"26" : {
+						"event" : "Love",
+						"media" : "feeling5",
+						"chinese" : "指挥官……？又累积了许多工作吧？…真没办法呢，约会结束以后我们一起处理掉吧。我会给你泡杯特制的红茶的",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "指揮官さん……？また懲りずに仕事を溜めておりましたの？…しょうがないですわね、デートのあと2人で一緒に片付けましょう。特製の紅茶も淹れてさしあげますわ。",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Commander...? Are you bogged down with work again? ... Guess it can't be helped. Let's go on a date after you're done. I'll make some special red tea for you.",
+						"englishNote" : ""
+					},
+					"27" : {
+						"event" : "Promise",
+						"media" : "propose",
+						"chinese" : "终于觉察到我的心意了呢。就算这边的战斗结束以后，回到原来的世界，我对指挥官也——接下来想听听指挥官怎么说呢",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "わたくしの気持ちにようやく気づいてくれたんですわね。もし、この戦いが終わり、元の世界に戻れるようになったとしても、わたくしは指揮官さん――このあとはあなたの言葉で聞きたいですわ。",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "I've finally noticed my true feelings. Even if the battle here ends and I have to return to my original world... Commander, I... I want to hear what you have to say.",
+						"englishNote" : ""
+					},
+					"28" : {
+						"event" : "Easter Egg 1(White Heart)",
+						"media" : "link1",
+						"chinese" : "真羡慕白心啊，中弹面积那么小～",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "ホワイトハートはいいですわよね。被弾する面積が小さいんですから",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "I'm so envious, White Heart. Your hitbox is so small.",
+						"englishNote" : ""
+					},
+					"29" : {
+						"event" : "Easter Egg 2(Purple Heart, Black Heart, White Heart)",
+						"media" : "link2",
+						"chinese" : "好～上吧！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "さぁ、行きますわよ！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Alright, let's go！",
+						"englishNote" : ""
+					}
+				}
+			},
+			"2": {
+				"skin_id" : "HDN402_2",
+				"id" : "1",
+				"label" : "Goddesses' Moment",
+				"dialogue" : {
+					"1" : {
+						"event" : "Ship Description",
+						"media" : "",
+						"chinese" : "指挥官，玩得开心吗？呵呵呵，我玩得非常开心哦。也只有这种时候能稍微放松一下了呢，一起去外面吹吹风吧",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "指揮官さん、楽しんでいらっしゃいますか？うふふ、わたくしはとっても楽しいですわ。こういう時くらいしかゆっくり出来ないですし、一緒に外の風でも当たりに行きましょう。",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Commander, are you having a good time? Ehehe, I certainly am. It's not often that we get to relax like this. Why don't we head out and enjoy the breeze?",
+						"englishNote" : ""
+					}
+				}
+			}
+		}
+	}
+}

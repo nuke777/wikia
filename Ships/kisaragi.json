@@ -1,192 +1,227 @@
 {
-	"name_reference" : "kisaragi",
-	"cn_reference" : "ruyue",
-	"nameJP" : "如月",
-	"nameCN" : "如月",
-	"ID" : "272",
-	"name" : "Kisaragi",
-	"internal_id" : "301331",
-	"rarity" : "Common",
-	"initialStar" : "★☆☆☆",
-	"hull" : "Destroyer",
-	"navy" : "Sakura Empire",
-	"prefix" : "IJN",
-	"buildTime" : "",
-	"class" : "Mutsuki",
-	"voiceActress" : "Rumi Okubo",
+	"name_reference": "kisaragi",
+	"cn_reference": "ruyue",
+	"nameJP": "如月",
+	"nameCN": "樟",
+	"ID": "272",
+	"name": "Kisaragi",
+	"internal_id": "301331",
+	"rarity": "Common",
+	"initialStar": "★☆☆☆",
+	"hull": "Destroyer",
+	"navy": "Sakura Empire",
+	"prefix": "IJN",
+	"buildTime": "",
+	"class": "Mutsuki-Class",
+	"voiceActress": "Rumi Okubo",
 	"parameters": {
-		"firepower" : "D",
-		"torpedo" : "A",
-		"aviation" : "E",
-		"evasion" : "A",
-		"antiAir" : "D",
-		"hp" : "D"
+		"firepower": "D",
+		"torpedo": "A",
+		"aviation": "E",
+		"evasion": "A",
+		"antiAir": "D",
+		"hp": "D"
 	},
 	"scrap": {
-		"gold" : "4",
-		"oil" : "3",
-		"medal" : "0"
+		"gold": "4",
+		"oil": "3",
+		"medal": "0"
 	},
 	"releaseDate": {
-		"JP" : "",
-		"CN" : "",
-		"KR" : "",
-		"EN" : ""
+		"JP": "",
+		"CN": "",
+		"KR": "",
+		"EN": ""
 	},
 	"artist": {
-		"name" : "",
-		"weibo" : "",
-		"twitter" : "",
-		"pixiv" : "",
-		"other" : ""
+		"name": "",
+		"weibo": "",
+		"twitter": "",
+		"pixiv": "",
+		"other": ""
 	},
 	"enhance": {
-		"firepower" : "4",
-		"torpedo" : "27",
-		"aviation" : "0",
-		"reload" : "14"
+		"firepower": "4",
+		"torpedo": "27",
+		"aviation": "0",
+		"reload": "14"
 	},
-	"acquisitionMethod" : "Light ship Construction",
+	"acquisitionMethod": "Light ship Construction",
 	"skill": {
-		"1" : {
-			"icon" : "2001",
-			"requirement" : "",
-			"name" : "Quick Reload",
-			"type" : "Offensive",
-			"description" : "$1 chance to activate every 20s: increases this ship's RLD by $2 for 10s."
+		"1": {
+			"icon": "2001",
+			"requirement": "Default",
+			"name": "Quick Reload",
+			"type": "Offensive",
+			"description": "30% (60%) chance to activate every 20s: increases this ship's RLD by 20% (40%) for 10s."
 		},
-		"2" : {
-			"icon" : "22011",
-			"requirement" : "",
-			"name" : "All Out Assault Ⅰ",
-			"type" : "Offensive",
-			"description" : "Activate All Out Assault Ⅰ: Mutsuki Class once every 15 times the main gun is fired."
+		"2": {
+			"icon": "2051",
+			"requirement": "Retrofit",
+			"name": "Double Torpedo",
+			"type": "Offensive",
+			"description": "When this ship fires its Torpedoes: 15%(30%) chance to launch a second wave of Torpedoes."
+		},
+		"3": {
+			"icon": "22011",
+			"requirement": "Limit Break Rank 1, Rank 3 upgrade",
+			"name": "All Out Assault Ⅰ",
+			"type": "Offensive",
+			"description": "Activate All Out Assault Ⅰ: Mutsuki Class once every 15 times the main gun is fired."
 		}
 	},
 	"skin": {
-		"1" : {
-			"id" : "ruyue",
-			"name" : "Kisaragi",
-			"description" : "Mutsuki-class destroyer number two – Kisaragi.",
-			"expression" : {
-				"0" : {
-					"id" : "0"
+		"1": {
+			"id": "ruyue",
+			"name": "Kisaragi",
+			"description": "Mutsuki-class destroyer number two – Kisaragi.",
+			"expression": {
+				"0": {
+					"id": "0"
 				}
 			}
 		},
-		"2" : {
-			"id" : "ruyue_2",
-			"name" : "New Year's Wish",
-			"description" : "Co... commander, Kisaragi's new outfit... How does it look? It's a new year... Kisaragi wants to keep improving...",
-			"expression" : {
-				"0" : {
-					"id" : "0"
+		"2": {
+			"id": "ruyue_2",
+			"name": "New Year's Wish",
+			"description": "Co... commander, Kisaragi's new outfit... How does it look? It's a new year... Kisaragi wants to keep improving...",
+			"expression": {
+				"0": {
+					"id": "0"
+				}
+			}
+		},
+		"3": {
+			"id": "ruyue_g",
+			"name": "Retrofit",
+			"description": "Kisaragi... Retrofit complete... I want to be able to to help everyone more!",
+			"expression": {
+				"0": {
+					"id": "0"
+				},
+				"1": {
+					"id": "1"
+				},
+				"2": {
+					"id": "2"
+				},
+				"3": {
+					"id": "3"
+				},
+				"4": {
+					"id": "4"
+				},
+				"5": {
+					"id": "5"
+				},
+				"6": {
+					"id": "6"
 				}
 			}
 		}
 	},
 	"defaultEquipment": {
-		"1" : {
-			"icon" : "31100",
-			"rarity" : "",
-			"name" : "Single 120mm Main Gun"
+		"1": {
+			"icon": "31100",
+			"rarity": "",
+			"name": "Single 120mm Main Gun"
 		},
-		"2" : {
-			"icon" : "35100",
-			"rarity" : "Common",
-			"name" : "Triple 610mm Torpedo"
+		"2": {
+			"icon": "35100",
+			"rarity": "Common",
+			"name": "Triple 610mm Torpedo"
 		},
-		"3" : {
-			"icon" : "",
-			"rarity" : "",
-			"name" : ""
+		"3": {
+			"icon": "",
+			"rarity": "",
+			"name": ""
 		}
 	},
 	"stats": {
-		"base": {
-			"hp" : "240",
-			"firepower" : "11",
-			"torpedo" : "82",
-			"antiAir" : "26",
-			"aviation" : "0",
-			"reload" : "72",
-			"hit" : "65",
-			"evasion" : "72",
-			"speed" : "44.7",
-			"luck" : "15",
-			"asw" : "44",
-			"oxygen" : "0",
-			"ammo" : "0",
-			"cost" : "1",
-			"armor" : "Light"
-		},
 		"100": {
-			"hp" : "1239",
-			"firepower" : "51",
-			"torpedo" : "385",
-			"antiAir" : "120",
-			"aviation" : "0",
-			"reload" : "171",
-			"hit" : "169",
-			"evasion" : "187",
-			"speed" : "44.7",
-			"luck" : "15",
-			"asw" : "160",
-			"oxygen" : "0",
-			"ammo" : "0",
-			"cost" : "7",
-			"armor" : "Light"
+			"hp": "1239",
+			"firepower": "51",
+			"torpedo": "385",
+			"antiAir": "120",
+			"aviation": "0",
+			"reload": "171",
+			"hit": "169",
+			"evasion": "187",
+			"speed": "44.7",
+			"luck": "15",
+			"asw": "160",
+			"oxygen": "0",
+			"ammo": "0",
+			"cost": "7",
+			"armor": "Light"
 		},
 		"120": {
-			"hp" : "1487",
-			"firepower" : "59",
-			"torpedo" : "427",
-			"antiAir" : "138",
-			"aviation" : "0",
-			"reload" : "196",
-			"hit" : "178",
-			"evasion" : "193",
-			"speed" : "44.7",
-			"luck" : "15",
-			"asw" : "179",
-			"oxygen" : "0",
-			"ammo" : "0",
-			"cost" : "7",
-			"armor" : "Light"
+			"hp": "1487",
+			"firepower": "59",
+			"torpedo": "427",
+			"antiAir": "138",
+			"aviation": "0",
+			"reload": "196",
+			"hit": "178",
+			"evasion": "193",
+			"speed": "44.7",
+			"luck": "15",
+			"asw": "179",
+			"oxygen": "0",
+			"ammo": "0",
+			"cost": "7",
+			"armor": "Light"
+		},
+		"base": {
+			"hp": "240",
+			"firepower": "11",
+			"torpedo": "82",
+			"antiAir": "26",
+			"aviation": "0",
+			"reload": "72",
+			"hit": "65",
+			"evasion": "72",
+			"speed": "44.7",
+			"luck": "15",
+			"asw": "44",
+			"oxygen": "0",
+			"ammo": "0",
+			"cost": "1",
+			"armor": "Light"
 		},
 		"100retrofit": {
-			"hp" : "",
-			"firepower" : "",
-			"torpedo" : "",
-			"antiAir" : "",
-			"aviation" : "",
-			"reload" : "",
-			"hit" : "",
-			"evasion" : "",
-			"speed" : "44.7",
-			"luck" : "15",
-			"asw" : "",
-			"oxygen" : "0",
-			"ammo" : "0",
-			"cost" : "7",
-			"armor" : "Light"
+			"hp": "1404",
+			"firepower": "51",
+			"torpedo": "420",
+			"antiAir": "155",
+			"aviation": "0",
+			"reload": "191",
+			"hit": "169",
+			"evasion": "187",
+			"speed": "47.7",
+			"luck": "15",
+			"asw": "160",
+			"oxygen": "0",
+			"ammo": "0",
+			"cost": "7",
+			"armor": "Light"
 		},
 		"120retrofit": {
-			"hp" : "",
-			"firepower" : "",
-			"torpedo" : "",
-			"antiAir" : "",
-			"aviation" : "",
-			"reload" : "",
-			"hit" : "",
-			"evasion" : "",
-			"speed" : "44.7",
-			"luck" : "15",
-			"asw" : "",
-			"oxygen" : "0",
-			"ammo" : "0",
-			"cost" : "7",
-			"armor" : "Light"
+			"hp": "1652",
+			"firepower": "59",
+			"torpedo": "462",
+			"antiAir": "173",
+			"aviation": "0",
+			"reload": "216",
+			"hit": "178",
+			"evasion": "193",
+			"speed": "47.7",
+			"luck": "15",
+			"asw": "179",
+			"oxygen": "0",
+			"ammo": "0",
+			"cost": "7",
+			"armor": "Light"
 		}
 	},
 	"limitBreak": {
@@ -270,427 +305,568 @@
 	"lines": {
 		"skin": {
 			"1": {
-				"skin_id" : "ruyue",
-				"id" : "0",
-				"label" : "Kisaragi",
-				"dialogue" : {
-					"1" : {
-						"event" : "Ship Description",
-						"media" : "",
-						"chinese" : "睦月级驱逐舰二番舰—如月",
-						"chineseTL" : "",
-						"chineseNote" : "",
-						"japanese" : "睦月型駆逐艦二番艦・如月",
-						"japaneseTL" : "",
-						"japaneseNote" : "",
-						"english" : "Mutsuki-class destroyer number two – Kisaragi.",
-						"englishNote" : ""
+				"skin_id": "ruyue",
+				"id": "0",
+				"label": "Kisaragi",
+				"dialogue": {
+					"1": {
+						"event": "Ship Description",
+						"media": "",
+						"chinese": "睦月级驱逐舰二番舰—如月",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "睦月型駆逐艦二番艦・如月",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Mutsuki-class destroyer number two – Kisaragi.",
+						"englishNote": ""
 					},
-					"2" : {
-						"event" : "Biography",
-						"media" : "profile",
-						"chinese" : "我是睦月级的如月，一直和睦月在一起……讨厌飞机和威克岛，想和大家在一起……",
-						"chineseTL" : "",
-						"chineseNote" : "",
-						"japanese" : "睦月型の如月、です。睦月といつもいっしょ……ひこうきと「うぇーくとう」がきらい。みんなといっしょにいたい……",
-						"japaneseTL" : "",
-						"japaneseNote" : "",
-						"english" : "I'm Kisaragi of the Mutsuki-class. I'm always with Mutsuki... I hate planes and Wake Island... I just want to be together with everyone...",
-						"englishNote" : ""
+					"2": {
+						"event": "Biography",
+						"media": "profile",
+						"chinese": "我是睦月级的如月，一直和睦月在一起……讨厌飞机和威克岛，想和大家在一起……",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "睦月型の如月、です。睦月といつもいっしょ……ひこうきと「うぇーくとう」がきらい。みんなといっしょにいたい……",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "I'm Kisaragi of the Mutsuki-class. I'm always with Mutsuki... I hate planes and Wake Island... I just want to be together with everyone...",
+						"englishNote": ""
 					},
-					"3" : {
-						"event" : "Acquisition",
-						"media" : "get",
-						"chinese" : "指……挥（hei）……官？您好，我是如月……那、那个，呜……如月不好吃的，请不要吃我……",
-						"chineseTL" : "",
-						"chineseNote" : "",
-						"japanese" : "し…き…かん？こんにちは、わたしは如月、です…え、えっと、あぅ……如月はおいしくないから、たべないでください……",
-						"japaneseTL" : "",
-						"japaneseNote" : "",
-						"english" : "Com... man... der? Hi, I'm Kisaragi... Uh, umm, uh... I don't taste good, so please don't eat me...",
-						"englishNote" : ""
+					"3": {
+						"event": "Acquisition",
+						"media": "get",
+						"chinese": "指……挥（hei）……官？您好，我是如月……那、那个，呜……如月不好吃的，请不要吃我……",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "し…き…かん？こんにちは、わたしは如月、です…え、えっと、あぅ……如月はおいしくないから、たべないでください……",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Com... man... der? Hi, I'm Kisaragi... Uh, umm, uh... I don't taste good, so please don't eat me...",
+						"englishNote": ""
 					},
-					"4" : {
-						"event" : "Login",
-						"media" : "login",
-						"chinese" : "呀！！吓我一跳，还以为是大灰狼来了……",
-						"chineseTL" : "",
-						"chineseNote" : "",
-						"japanese" : "きゃぅ！！びっくり…おおかみさんかとおもいました……",
-						"japaneseTL" : "",
-						"japaneseNote" : "",
-						"english" : "Eek! You scared me... I thought a wolf was coming...",
-						"englishNote" : ""
+					"4": {
+						"event": "Login",
+						"media": "login",
+						"chinese": "呀！！吓我一跳，还以为是大灰狼来了……",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "きゃぅ！！びっくり…おおかみさんかとおもいました……",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Eek! You scared me... I thought a wolf was coming...",
+						"englishNote": ""
 					},
-					"5" : {
-						"event" : "Details",
-						"media" : "detail",
-						"chinese" : "真羡慕睦月那么开朗……",
-						"chineseTL" : "",
-						"chineseNote" : "",
-						"japanese" : "睦月、うらやましい……",
-						"japaneseTL" : "",
-						"japaneseNote" : "",
-						"english" : "I'm jealous of Mutsuki...",
-						"englishNote" : ""
+					"5": {
+						"event": "Details",
+						"media": "detail",
+						"chinese": "真羡慕睦月那么开朗……",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "睦月、うらやましい……",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "I'm jealous of Mutsuki...",
+						"englishNote": ""
 					},
-					"6" : {
-						"event" : "Main 1",
-						"media" : "main_1",
-						"chinese" : "和别人单独相处……好可怕……",
-						"chineseTL" : "",
-						"chineseNote" : "",
-						"japanese" : "ほかのひととふたりきり……こわい……",
-						"japaneseTL" : "",
-						"japaneseNote" : "",
-						"english" : "Being alone with strangers... is so scary...",
-						"englishNote" : ""
+					"6": {
+						"event": "Main 1",
+						"media": "main_1",
+						"chinese": "和别人单独相处……好可怕……",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "ほかのひととふたりきり……こわい……",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Being alone with strangers... is so scary...",
+						"englishNote": ""
 					},
-					"7" : {
-						"event" : "Main 2",
-						"media" : "main_2",
-						"chinese" : "好想和第30驱逐队的大家一起玩……",
-						"chineseTL" : "",
-						"chineseNote" : "",
-						"japanese" : "「だいさんじゅうくちくたい」のみんなとあそびたい……",
-						"japaneseTL" : "",
-						"japaneseNote" : "",
-						"english" : "I wanna play with the other girls in the Thirtieth Destroyer Division...",
-						"englishNote" : ""
+					"7": {
+						"event": "Main 2",
+						"media": "main_2",
+						"chinese": "好想和第30驱逐队的大家一起玩……",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "「だいさんじゅうくちくたい」のみんなとあそびたい……",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "I wanna play with the other girls in the Thirtieth Destroyer Division...",
+						"englishNote": ""
 					},
-					"8" : {
-						"event" : "Main 3",
-						"media" : "main_3",
-						"chinese" : "指挥官，如月呆在这里不会给你添麻烦吧……",
-						"chineseTL" : "",
-						"chineseNote" : "",
-						"japanese" : "しきかん、如月がここにいると、めいわくじゃ、ないですよね……",
-						"japaneseTL" : "",
-						"japaneseNote" : "",
-						"english" : "Commander, I hope I haven't caused you any trouble by staying here...",
-						"englishNote" : ""
+					"8": {
+						"event": "Main 3",
+						"media": "main_3",
+						"chinese": "指挥官，如月呆在这里不会给你添麻烦吧……",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "しきかん、如月がここにいると、めいわくじゃ、ないですよね……",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Commander, I hope I haven't caused you any trouble by staying here...",
+						"englishNote": ""
 					},
-					"9" : {
-						"event" : "Touch",
-						"media" : "touch_1",
-						"chinese" : "呀……！指挥官……不要突然碰我……",
-						"chineseTL" : "",
-						"chineseNote" : "",
-						"japanese" : "きゃっ！しきかん……きゅうにさわらないで……",
-						"japaneseTL" : "",
-						"japaneseNote" : "",
-						"english" : "Eek! Commander... please don't touch me without warning...",
-						"englishNote" : ""
+					"9": {
+						"event": "Touch",
+						"media": "touch_1",
+						"chinese": "呀……！指挥官……不要突然碰我……",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "きゃっ！しきかん……きゅうにさわらないで……",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Eek! Commander... please don't touch me without warning...",
+						"englishNote": ""
 					},
-					"10" : {
-						"event" : "Touch (Special)",
-						"media" : "touch_2",
-						"chinese" : "呀……！有点……奇怪",
-						"chineseTL" : "",
-						"chineseNote" : "",
-						"japanese" : "きゃっ…！ちょっと…ヘン……",
-						"japaneseTL" : "",
-						"japaneseNote" : "",
-						"english" : "Eek...! That feels... a little weird...",
-						"englishNote" : ""
+					"10": {
+						"event": "Touch (Special)",
+						"media": "touch_2",
+						"chinese": "呀……！有点……奇怪",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "きゃっ…！ちょっと…ヘン……",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Eek...! That feels... a little weird...",
+						"englishNote": ""
 					},
-					"11" : {
-						"event" : "Mission",
-						"media" : "task",
-						"chinese" : "指挥官……有，有任务……",
-						"chineseTL" : "",
-						"chineseNote" : "",
-						"japanese" : "しきかん……に、にんむが、あります…",
-						"japaneseTL" : "",
-						"japaneseNote" : "",
-						"english" : "Commander... W-we have new missions...",
-						"englishNote" : ""
+					"11": {
+						"event": "Mission",
+						"media": "task",
+						"chinese": "指挥官……有，有任务……",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "しきかん……に、にんむが、あります…",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Commander... W-we have new missions...",
+						"englishNote": ""
 					},
-					"12" : {
-						"event" : "Mission Complete",
-						"media" : "mission_complete",
-						"chinese" : "指挥官，奖励……我搬不动……",
-						"chineseTL" : "",
-						"chineseNote" : "",
-						"japanese" : "しきかん、ごほうび……わたし、もてないよぉ……",
-						"japaneseTL" : "",
-						"japaneseNote" : "",
-						"english" : "Commander, the rewards... I can't carry them...",
-						"englishNote" : ""
+					"12": {
+						"event": "Mission Complete",
+						"media": "mission_complete",
+						"chinese": "指挥官，奖励……我搬不动……",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "しきかん、ごほうび……わたし、もてないよぉ……",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Commander, the rewards... I can't carry them...",
+						"englishNote": ""
 					},
-					"13" : {
-						"event" : "Mail",
-						"media" : "mail",
-						"chinese" : "指挥官，有信……真好啊……",
-						"chineseTL" : "",
-						"chineseNote" : "",
-						"japanese" : "しきかん、おてがみ、です…いいなぁ……",
-						"japaneseTL" : "",
-						"japaneseNote" : "",
-						"english" : "Commander, you've got mail... Sounds nice...",
-						"englishNote" : ""
+					"13": {
+						"event": "Mail",
+						"media": "mail",
+						"chinese": "指挥官，有信……真好啊……",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "しきかん、おてがみ、です…いいなぁ……",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Commander, you've got mail... Sounds nice...",
+						"englishNote": ""
 					},
-					"14" : {
-						"event" : "Return to Port",
-						"media" : "home",
-						"chinese" : "辛、辛苦了！",
-						"chineseTL" : "",
-						"chineseNote" : "",
-						"japanese" : "ご、ごくろうさまです！",
-						"japaneseTL" : "",
-						"japaneseNote" : "",
-						"english" : "W-well done, Commander!",
-						"englishNote" : ""
+					"14": {
+						"event": "Return to Port",
+						"media": "home",
+						"chinese": "辛、辛苦了！",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "ご、ごくろうさまです！",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "W-well done, Commander!",
+						"englishNote": ""
 					},
-					"15" : {
-						"event" : "Commission Complete",
-						"media" : "expedition",
-						"chinese" : "有姐姐们回来了……她们笑的真开心",
-						"chineseTL" : "",
-						"chineseNote" : "",
-						"japanese" : "おねえちゃんたち、もどってきました……みんな、うれしそう…",
-						"japaneseTL" : "",
-						"japaneseNote" : "",
-						"english" : "The older girls have returned... They look so happy...",
-						"englishNote" : ""
+					"15": {
+						"event": "Commission Complete",
+						"media": "expedition",
+						"chinese": "有姐姐们回来了……她们笑的真开心",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "おねえちゃんたち、もどってきました……みんな、うれしそう…",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "The older girls have returned... They look so happy...",
+						"englishNote": ""
 					},
-					"16" : {
-						"event" : "Enhancement",
-						"media" : "upgrade",
-						"chinese" : "我能帮上大家忙吗？",
-						"chineseTL" : "",
-						"chineseNote" : "",
-						"japanese" : "みんなをたすけますね…？",
-						"japaneseTL" : "",
-						"japaneseNote" : "",
-						"english" : "Can I save everyone now...?",
-						"englishNote" : ""
+					"16": {
+						"event": "Enhancement",
+						"media": "upgrade",
+						"chinese": "我能帮上大家忙吗？",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "みんなをたすけますね…？",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Can I save everyone now...?",
+						"englishNote": ""
 					},
-					"17" : {
-						"event" : "Flagship",
-						"media" : "warcry",
-						"chinese" : "飞机……讨厌……",
-						"chineseTL" : "",
-						"chineseNote" : "",
-						"japanese" : "ひこうき…いやっ…！",
-						"japaneseTL" : "",
-						"japaneseNote" : "",
-						"english" : "Planes... get away from me...!",
-						"englishNote" : ""
+					"17": {
+						"event": "Flagship",
+						"media": "warcry",
+						"chinese": "飞机……讨厌……",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "ひこうき…いやっ…！",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Planes... get away from me...!",
+						"englishNote": ""
 					},
-					"18" : {
-						"event" : "Victory",
-						"media" : "mvp",
-						"chinese" : "那、那个，对不起！",
-						"chineseTL" : "",
-						"chineseNote" : "",
-						"japanese" : "あ、あの、ごめんなさい！",
-						"japaneseTL" : "",
-						"japaneseNote" : "",
-						"english" : "U-um, I'm sorry!",
-						"englishNote" : ""
+					"18": {
+						"event": "Victory",
+						"media": "mvp",
+						"chinese": "那、那个，对不起！",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "あ、あの、ごめんなさい！",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "U-um, I'm sorry!",
+						"englishNote": ""
 					},
-					"19" : {
-						"event" : "Defeat",
-						"media" : "lose",
-						"chinese" : "呜呜，如月不好吃的……",
-						"chineseTL" : "",
-						"chineseNote" : "",
-						"japanese" : "あぅ…如月はおいしくないよぉ…",
-						"japaneseTL" : "",
-						"japaneseNote" : "",
-						"english" : "*Sob*... I don't taste good...",
-						"englishNote" : ""
+					"19": {
+						"event": "Defeat",
+						"media": "lose",
+						"chinese": "呜呜，如月不好吃的……",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "あぅ…如月はおいしくないよぉ…",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "*Sob*... I don't taste good...",
+						"englishNote": ""
 					},
-					"20" : {
-						"event" : "Skill",
-						"media" : "skill",
-						"chinese" : "睦月，帮帮我……",
-						"chineseTL" : "",
-						"chineseNote" : "",
-						"japanese" : "睦月、たすけて……",
-						"japaneseTL" : "",
-						"japaneseNote" : "",
-						"english" : "Mutsuki, help me...",
-						"englishNote" : ""
+					"20": {
+						"event": "Skill",
+						"media": "skill",
+						"chinese": "睦月，帮帮我……",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "睦月、たすけて……",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Mutsuki, help me...",
+						"englishNote": ""
 					},
-					"21" : {
-						"event" : "Affinity (Upset)",
-						"media" : "feeling1",
-						"chinese" : "呜呜呜，如月要被吃掉了……",
-						"chineseTL" : "",
-						"chineseNote" : "",
-						"japanese" : "ふぇぇ…如月、たべられちゃうよぉ……",
-						"japaneseTL" : "",
-						"japaneseNote" : "",
-						"english" : "*Crying*... Commander is going to eat me...",
-						"englishNote" : ""
+					"21": {
+						"event": "Affinity (Upset)",
+						"media": "feeling1",
+						"chinese": "呜呜呜，如月要被吃掉了……",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "ふぇぇ…如月、たべられちゃうよぉ……",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "*Crying*... Commander is going to eat me...",
+						"englishNote": ""
 					},
-					"22" : {
-						"event" : "Affinity (Stranger)",
-						"media" : "feeling2",
-						"chinese" : "指挥官……不是来吃掉如月的吗？",
-						"chineseTL" : "",
-						"chineseNote" : "",
-						"japanese" : "しきかん……如月のことを、たべないですよね…",
-						"japaneseTL" : "",
-						"japaneseNote" : "",
-						"english" : "Commander... you won't eat me, right...?",
-						"englishNote" : ""
+					"22": {
+						"event": "Affinity (Stranger)",
+						"media": "feeling2",
+						"chinese": "指挥官……不是来吃掉如月的吗？",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "しきかん……如月のことを、たべないですよね…",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Commander... you won't eat me, right...?",
+						"englishNote": ""
 					},
-					"23" : {
-						"event" : "Affinity (Friendly)",
-						"media" : "feeling3",
-						"chinese" : "我……是睦月级里最早掉队的……一直很怕生，也很想念大家……",
-						"chineseTL" : "",
-						"chineseNote" : "",
-						"japanese" : "わたし……睦月型でいちばんはやくしずんで……人が怖くて…でもみんなにはあいたい…",
-						"japaneseTL" : "",
-						"japaneseNote" : "",
-						"english" : "I... sank the fastest of all Mutsuki-class destroyers... I'm scared of strangers... but I also want to make new friends...",
-						"englishNote" : ""
+					"23": {
+						"event": "Affinity (Friendly)",
+						"media": "feeling3",
+						"chinese": "我……是睦月级里最早掉队的……一直很怕生，也很想念大家……",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "わたし……睦月型でいちばんはやくしずんで……人が怖くて…でもみんなにはあいたい…",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "I... sank the fastest of all Mutsuki-class destroyers... I'm scared of strangers... but I also want to make new friends...",
+						"englishNote": ""
 					},
-					"24" : {
-						"event" : "Affinity (Like)",
-						"media" : "feeling4",
-						"chinese" : "舰队的姐姐们都很温柔，指……挥官也对如月很好，如月喜欢这里……",
-						"chineseTL" : "",
-						"chineseNote" : "",
-						"japanese" : "かんたいのおねえちゃんたち、みんなやさしいいな…しきかんも、如月にやさしいから、如月、ここ、すき……",
-						"japaneseTL" : "",
-						"japaneseNote" : "",
-						"english" : "All the older girls in this fleet are so nice... You're nice to me too, Commander, so I like this place...",
-						"englishNote" : ""
+					"24": {
+						"event": "Affinity (Like)",
+						"media": "feeling4",
+						"chinese": "舰队的姐姐们都很温柔，指……挥官也对如月很好，如月喜欢这里……",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "かんたいのおねえちゃんたち、みんなやさしいいな…しきかんも、如月にやさしいから、如月、ここ、すき……",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "All the older girls in this fleet are so nice... You're nice to me too, Commander, so I like this place...",
+						"englishNote": ""
 					},
-					"25" : {
-						"event" : "Affinity (Love)",
-						"media" : "feeling5",
-						"chinese" : "如月能一直呆在这里吗？不管是大灰狼，飞机，还是其他可怕的东西来指挥官都会保护我吗？",
-						"chineseTL" : "",
-						"chineseNote" : "",
-						"japanese" : "如月、ここにずっといてもいいですか？おおかみとひこうきがきても、しきかんは如月をまもってくれますか？",
-						"japaneseTL" : "",
-						"japaneseNote" : "",
-						"english" : "Can I stay here forever? If a big bad wolf or planes come here, will you protect me from them, Commander?",
-						"englishNote" : ""
+					"25": {
+						"event": "Affinity (Love)",
+						"media": "feeling5",
+						"chinese": "如月能一直呆在这里吗？不管是大灰狼，飞机，还是其他可怕的东西来指挥官都会保护我吗？",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "如月、ここにずっといてもいいですか？おおかみとひこうきがきても、しきかんは如月をまもってくれますか？",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Can I stay here forever? If a big bad wolf or planes come here, will you protect me from them, Commander?",
+						"englishNote": ""
 					},
-					"26" : {
-						"event" : "Pledge",
-						"media" : "propose",
-						"chinese" : "如月……会加油的，虽然我一点也不厉害……但是，我最喜欢这里的大家了……",
-						"chineseTL" : "",
-						"chineseNote" : "",
-						"japanese" : "如月……ぜんぜんつよくないですけど、がんばります。……みんな、ダイスキですから…",
-						"japaneseTL" : "",
-						"japaneseNote" : "",
-						"english" : "I'm Kisaragi... I'll try my best, even if I'm not strong at all... Because... I love everyone...",
-						"englishNote" : ""
+					"26": {
+						"event": "Pledge",
+						"media": "propose",
+						"chinese": "如月……会加油的，虽然我一点也不厉害……但是，我最喜欢这里的大家了……",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "如月……ぜんぜんつよくないですけど、がんばります。……みんな、ダイスキですから…",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "I'm Kisaragi... I'll try my best, even if I'm not strong at all... Because... I love everyone...",
+						"englishNote": ""
 					}
 				}
 			},
 			"2": {
-				"skin_id" : "ruyue_2",
-				"id" : "1",
-				"label" : "New Year's Wish",
-				"dialogue" : {
-					"1" : {
-						"event" : "Ship Description",
-						"media" : "",
-						"chinese" : "那个，那个，指挥官，如月的新衣服，好、好看吗？新的一年，如月，也想努力一下……",
-						"chineseTL" : "",
-						"chineseNote" : "",
-						"japanese" : "あ、あのぉ…しきかん、如月のあたらしいふく、き、きれい？ことしも、如月、がんばるよぉ……？",
-						"japaneseTL" : "",
-						"japaneseNote" : "",
-						"english" : "Uh... umm... Commander, is Kisaragi's new outfit... p-pretty? This year, um... Kisaragi wants to work real hard too!",
-						"englishNote" : ""
+				"skin_id": "ruyue_2",
+				"id": "1",
+				"label": "New Year's Wish",
+				"dialogue": {
+					"1": {
+						"event": "Ship Description",
+						"media": "",
+						"chinese": "那个，那个，指挥官，如月的新衣服，好、好看吗？新的一年，如月，也想努力一下……",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "あ、あのぉ…しきかん、如月のあたらしいふく、き、きれい？ことしも、如月、がんばるよぉ……？",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Uh... umm... Commander, is Kisaragi's new outfit... p-pretty? This year, um... Kisaragi wants to work real hard too!",
+						"englishNote": ""
 					},
-					"2" : {
-						"event" : "Acquisition",
-						"media" : "get_1",
-						"chinese" : "那个，那个，指挥官，如月的新衣服，好、好看吗？新的一年，如月，也想努力一下……",
-						"chineseTL" : "",
-						"chineseNote" : "",
-						"japanese" : "あ、あのぉ…しきかん、如月のあたらしいふく、き、きれい？ことしも、如月、がんばるよぉ……？",
-						"japaneseTL" : "",
-						"japaneseNote" : "",
-						"english" : "Uh... umm... Commander, is Kisaragi's new outfit... p-pretty? This year, um... Kisaragi wants to work real hard too!",
-						"englishNote" : ""
+					"2": {
+						"event": "Acquisition",
+						"media": "get_1",
+						"chinese": "那个，那个，指挥官，如月的新衣服，好、好看吗？新的一年，如月，也想努力一下……",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "あ、あのぉ…しきかん、如月のあたらしいふく、き、きれい？ことしも、如月、がんばるよぉ……？",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Uh... umm... Commander, is Kisaragi's new outfit... p-pretty? This year, um... Kisaragi wants to work real hard too!",
+						"englishNote": ""
 					},
-					"3" : {
-						"event" : "Login",
-						"media" : "login_1",
-						"chinese" : "呀！！指、指挥官！那个，欢凝肥来！",
-						"chineseTL" : "",
-						"chineseNote" : "",
-						"japanese" : "ひゃう！！し、しきかん！あの！おかえりなしゃい！",
-						"japaneseTL" : "",
-						"japaneseNote" : "",
-						"english" : "Woah!! C-commander! Um, welcome yack!",
-						"englishNote" : ""
+					"3": {
+						"event": "Login",
+						"media": "login_1",
+						"chinese": "呀！！指、指挥官！那个，欢凝肥来！",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "ひゃう！！し、しきかん！あの！おかえりなしゃい！",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Woah!! C-commander! Um, welcome yack!",
+						"englishNote": ""
 					},
-					"4" : {
-						"event" : "Main 1",
-						"media" : "main_1_1",
-						"chinese" : "我也……想和大家一起玩……",
-						"chineseTL" : "",
-						"chineseNote" : "",
-						"japanese" : "如月も……みんなとあそびたい……",
-						"japaneseTL" : "",
-						"japaneseNote" : "",
-						"english" : "I also... want to play with everyone else... ",
-						"englishNote" : ""
+					"4": {
+						"event": "Main 1",
+						"media": "main_1_1",
+						"chinese": "我也……想和大家一起玩……",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "如月も……みんなとあそびたい……",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "I also... want to play with everyone else... ",
+						"englishNote": ""
 					},
-					"5" : {
-						"event" : "Main 2",
-						"media" : "main_2_1",
-						"chinese" : "新的一年……要努力，交到，交到十个朋友！",
-						"chineseTL" : "",
-						"chineseNote" : "",
-						"japanese" : "ことしは……ともだちをじゅうにんつくって…がんばる！",
-						"japaneseTL" : "",
-						"japaneseNote" : "",
-						"english" : "It's a new year... I've gotta try hard to make... um, make ten new friends! ",
-						"englishNote" : ""
+					"5": {
+						"event": "Main 2",
+						"media": "main_2_1",
+						"chinese": "新的一年……要努力，交到，交到十个朋友！",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "ことしは……ともだちをじゅうにんつくって…がんばる！",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "It's a new year... I've gotta try hard to make... um, make ten new friends! ",
+						"englishNote": ""
 					},
-					"6" : {
-						"event" : "Main 3",
-						"media" : "main_3_1",
-						"chinese" : "夕立，我也可以去打雪仗吗？",
-						"chineseTL" : "",
-						"chineseNote" : "",
-						"japanese" : "ゆ、ゆうだち…如月もゆきがっせん…さんかしていい？？",
-						"japaneseTL" : "",
-						"japaneseNote" : "",
-						"english" : "Y-Yuudachi, can I also... join the snow fight?",
-						"englishNote" : ""
+					"6": {
+						"event": "Main 3",
+						"media": "main_3_1",
+						"chinese": "夕立，我也可以去打雪仗吗？",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "ゆ、ゆうだち…如月もゆきがっせん…さんかしていい？？",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Y-Yuudachi, can I also... join the snow fight?",
+						"englishNote": ""
 					},
-					"7" : {
-						"event" : "Touch",
-						"media" : "touch_1_1",
-						"chinese" : "指挥官，要一起、一起吃点心吗？",
-						"chineseTL" : "",
-						"chineseNote" : "",
-						"japanese" : "しきかん…い、いっしょにおかしたべよ？",
-						"japaneseTL" : "",
-						"japaneseNote" : "",
-						"english" : "Commander... let's have some snacks together?",
-						"englishNote" : ""
+					"7": {
+						"event": "Touch",
+						"media": "touch_1_1",
+						"chinese": "指挥官，要一起、一起吃点心吗？",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "しきかん…い、いっしょにおかしたべよ？",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Commander... let's have some snacks together?",
+						"englishNote": ""
 					},
-					"8" : {
-						"event" : "Flagship",
-						"media" : "warcry_1",
-						"chinese" : "如月……会加油的！",
-						"chineseTL" : "",
-						"chineseNote" : "",
-						"japanese" : "如月……がんばるよ！",
-						"japaneseTL" : "",
-						"japaneseNote" : "",
-						"english" : "I'm... gonna do my best!",
-						"englishNote" : ""
+					"8": {
+						"event": "Flagship",
+						"media": "warcry_1",
+						"chinese": "如月……会加油的！",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "如月……がんばるよ！",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "I'm... gonna do my best!",
+						"englishNote": ""
+					}
+				}
+			},
+			"3": {
+				"skin_id": "ruyue_g",
+				"id": "9",
+				"label": "Retrofit",
+				"dialogue": {
+					"1": {
+						"event": "Ship Description",
+						"media": "",
+						"chinese": "如月…改造完了…这次…想帮上大家更多的忙！",
+						"chineseTL": "Kisaragi... Retrofit complete... This time... I want to help everyone more!",
+						"chineseNote": "",
+						"japanese": "如月…かいぞうしゅうりょうしました……もっとみんなのおやくにたちたいです……",
+						"japaneseTL": "Kisaragi... Retrofit complete... I want to be able to to help everyone more!",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"2": {
+						"event": "Acquisition",
+						"media": "get_9",
+						"chinese": "如月…改造完了…这次…想帮上大家更多的忙！",
+						"chineseTL": "Kisaragi... Retrofit complete... This time... I want to help everyone more!",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"3": {
+						"event": "Login",
+						"media": "login_9",
+						"chinese": "欸，指，指挥官？欢，欢迎回来……",
+						"chineseTL": "Ah, C-commander? W-welcome back...",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"4": {
+						"event": "Details",
+						"media": "detail_9",
+						"chinese": "如月……一直被大家照顾着。如月很开心，但是，如月不能总给大家添麻烦……",
+						"chineseTL": "Kisaragi... is always taken care of by everyone. Kisaragi is happy, but I can't always be troubling everyone...",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"5": {
+						"event": "Main 1",
+						"media": "main_1_9",
+						"chinese": "睦月给了我一些糖……指挥官，那个，要，要吃吗？",
+						"chineseTL": "Mutsuki gave me some candy... Commander, w-want some?",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"6": {
+						"event": "Main 2",
+						"media": "main_2_9",
+						"chinese": "指挥官，我有没有变得……勇敢一点了？",
+						"chineseTL": "Commander, did I become... a bit more brave?",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"7": {
+						"event": "Main 3",
+						"media": "main_3_9",
+						"chinese": "指挥官，有没有什么……我能帮上忙的吗？",
+						"chineseTL": "Commander, is there anything... I can help?",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"8": {
+						"event": "Touch",
+						"media": "touch_1_9",
+						"chinese": "呀……！有，有什么事情吗，指挥官……？",
+						"chineseTL": "Ah...! I-is something the matter, Commander...?",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"9": {
+						"event": "Touch (Special)",
+						"media": "touch_2_9",
+						"chinese": "咿——！指，指挥官，不要这样……",
+						"chineseTL": "Eeek~! C-commander, please don't be like that...",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"10": {
+						"event": "Return to Port",
+						"media": "home_9",
+						"chinese": "指挥官…如月，帮你捶捶背！",
+						"chineseTL": "Commander... Kisaragi, is giving you a back massage!",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
 					}
 				}
 			}
 		}
+	},
+	"retroParameter": "Rare, Destroyer",
+	"fleet_tech": {
+		"pt_get": "2",
+		"add_get_attr": "HP",
+		"add_get_value": "1",
+		"add_get_shiptype": "Destroyer",
+		"pt_upgrade": "4",
+		"pt_level": "3",
+		"add_level_attr": "HP",
+		"add_level_value": "1",
+		"add_level_shiptype": "Destroyer",
+		"t_level": "3",
+		"ships": "mutsuki,kisaragi,uzuki,minazuki,fumizuki,nagatsuki,mikazuki"
 	}
 }

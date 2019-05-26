@@ -1,31 +1,31 @@
 {
-	"name_reference" : "ibuki",
-	"cn_reference" : "yichui",
-	"nameJP" : "伊吹",
-	"nameCN" : "伊吹",
-	"ID" : "P003",
-	"name" : "Ibuki",
-	"internal_id" : "399011",
-	"rarity" : "Priority",
-	"initialStar" : "★★★☆☆☆",
-	"hull" : "Heavy Cruiser",
-	"navy" : "Sakura Empire",
-	"prefix" : "IJN",
-	"buildTime" : "N/A",
-	"class" : "Ibuki",
-	"voiceActress" : "Misato Fukuen",
+	"name_reference": "ibuki",
+	"cn_reference": "yichui",
+	"nameJP": "伊吹",
+	"nameCN": "伊吹",
+	"ID": "P003",
+	"name": "Ibuki",
+	"internal_id": "399011",
+	"rarity": "Priority",
+	"initialStar": "★★★☆☆☆",
+	"hull": "Heavy Cruiser",
+	"navy": "Sakura Empire",
+	"prefix": "IJN",
+	"buildTime": "N/A",
+	"class": "Ibuki-Class",
+	"voiceActress": "Misato Fukuen",
 	"parameters": {
-		"firepower" : "A",
-		"torpedo" : "B",
-		"aviation" : "E",
-		"evasion" : "C",
-		"antiAir" : "C",
-		"hp" : "A"
+		"firepower": "A",
+		"torpedo": "B",
+		"aviation": "E",
+		"evasion": "C",
+		"antiAir": "C",
+		"hp": "A"
 	},
 	"scrap": {
-		"gold" : "9",
-		"oil" : "3",
-		"medal" : "10"
+		"gold": "9",
+		"oil": "3",
+		"medal": "10"
 	},
 	"releaseDate": {
 		"JP": "April 26, 2018",
@@ -41,212 +41,220 @@
 		"other": ""
 	},
 	"enhance": {
-		"firepower" : "0",
-		"torpedo" : "0",
-		"aviation" : "0",
-		"reload" : "0"
+		"firepower": "0",
+		"torpedo": "0",
+		"aviation": "0",
+		"reload": "0"
 	},
-	"acquisitionMethod" : "Priority Research",
+	"acquisitionMethod": "Research and Development",
 	"skill": {
-		"1" : {
-			"icon" : "19050",
-			"requirement" : "Default Unlocked",
-			"name" : "Body and Soul",
-			"type" : "Offensive",
-			"description" : "Increases this ship's Torpedo Crit Rate by 20%(40%) and increases this ship's Torpedo Crit DMG by 65.0%."
+		"1": {
+			"icon": "19050",
+			"requirement": "Default Unlocked",
+			"name": "Body and Soul",
+			"type": "Offensive",
+			"description": "Increases this ship's Torpedo Crit Rate by 20% (40%) and increases this ship's Torpedo Crit DMG by 65.0%."
 		},
-		"2" : {
-			"icon" : "19060",
-			"requirement" : "Default Unlocked",
-			"name" : "Flash of Lightning",
-			"type" : "Offensive",
-			"description" : "When this ship fires its Torpedoes: 15% (30%) chance to launch a special torpedo barrage. Barrage damage is based on the skill's level."
+		"2": {
+			"icon": "19050",
+			"requirement": "Default Unlocked",
+			"name": "Flash of Lightning",
+			"type": "Offensive",
+			"description": "Increases this ship's Torpedo Crit Rate by 20% (40%) and increases this ship's Torpedo Crit DMG by 65.0%. Furthermore, increase this ship's Evasion by 4.5% (12.0%) after launching a Torpedo."
 		},
-		"3" : {
-			"icon" : "19000",
-			"requirement" : "Strenghten Level 10 (I) / Level 20 (II) / Level 30 (III)",
-			"name" : "Siren Killer Ⅰ",
-			"type" : "Offensive",
-			"description" : "Increases the DMG this ship deals to Sirens by 5.0%."
+		"3": {
+			"icon": "19060",
+			"requirement": "Default Unlocked",
+			"name": "Siren Killer Ⅰ",
+			"type": "Offensive",
+			"description": "When this ship fires its Torpedoes: 15% (30%) chance to launch a special torpedo barrage. Barrage damage is based on the skill's level."
 		},
-		"4" : {
-			"icon" : "29221",
-			"requirement" : "Strenghten Level 10 (I) / Level 30 (III)",
-			"name" : "EX Barrage: Ibuki Ⅰ",
-			"type" : "Offensive",
-			"description" : "Activate EX Barrage: Ibuki Ⅰ once every 9 times the main gun is fired."
+		"4": {
+			"icon": "19000",
+			"requirement": "Strenghten Level 10 (I) / Level 20 (II) / Level 30 (III)",
+			"name": "EX Barrage: Ibuki Ⅰ",
+			"type": "Offensive",
+			"description": "Increases the DMG this ship deals to Sirens by 5.0%."
+		},
+		"5": {
+			"icon": "29221",
+			"requirement": "Strenghten Level 10 (I) / Level 30 (III)",
+			"name": "EX Barrage: Ibuki Ⅰ",
+			"type": "Offensive",
+			"description": "Activate EX Barrage: Ibuki Ⅰ once every 9 times the main gun is fired."
 		}
 	},
 	"skin": {
-		"1" : {
-			"id" : "yichui",
-			"name" : "Ibuki",
-			"description" : "You're the one who awakened me from my long, long dream? I'm Ibuki. Use me as you please, but know that my body is still in training. Be careful with me!",
-			"expression" : {
-				"0" : {
-					"id" : "0"
+		"1": {
+			"id": "yichui",
+			"name": "Ibuki",
+			"description": "You're the one who awakened me from my long, long dream? I'm Ibuki. Use me as you please, but know that my body is still in training. Be careful with me!",
+			"expression": {
+				"0": {
+					"id": "0"
 				}
 			}
 		},
-		"2" : {
-			"id" : "yichui_2",
-			"name" : "Wish of a Snow Goddess",
-			"description" : "Milord, it's snowing... If you don't mind, come hide under my umbrella.",
-			"expression" : {
-				"0" : {
-					"id" : "0"
+		"2": {
+			"id": "yichui_2",
+			"name": "Wish of a Snow Goddess",
+			"description": "Milord, it's snowing... If you don't mind, come hide under my umbrella.",
+			"expression": {
+				"0": {
+					"id": "0"
 				},
-				"1" : {
-					"id" : "1"
+				"1": {
+					"id": "1"
 				},
-				"2" : {
-					"id" : "2"
+				"2": {
+					"id": "2"
 				},
-				"3" : {
-					"id" : "3"
+				"3": {
+					"id": "3"
 				},
-				"4" : {
-					"id" : "4"
+				"4": {
+					"id": "4"
 				},
-				"5" : {
-					"id" : "5"
+				"5": {
+					"id": "5"
 				},
-				"6" : {
-					"id" : "6"
+				"6": {
+					"id": "6"
 				}
 			}
 		}
 	},
 	"defaultEquipment": {
-		"1" : {
-			"icon" : "",
-			"rarity" : "",
-			"name" : ""
+		"1": {
+			"icon": "",
+			"rarity": "",
+			"name": ""
 		},
-		"2" : {
-			"icon" : "",
-			"rarity" : "",
-			"name" : ""
+		"2": {
+			"icon": "",
+			"rarity": "",
+			"name": ""
 		},
-		"3" : {
-			"icon" : "",
-			"rarity" : "",
-			"name" : ""
+		"3": {
+			"icon": "",
+			"rarity": "",
+			"name": ""
 		}
 	},
 	"stats": {
-		"base": {
-			"hp" : "824",
-			"firepower" : "51",
-			"torpedo" : "54",
-			"antiAir" : "36",
-			"aviation" : "0",
-			"reload" : "69",
-			"hit" : "47",
-			"evasion" : "10",
-			"speed" : "28",
-			"luck" : "0",
-			"asw" : "0",
-			"oxygen" : "0",
-			"ammo" : "0",
-			"cost" : "4",
-			"armor" : "Medium"
-		},
 		"100": {
-			"hp" : "4260",
-			"firepower" : "236",
-			"torpedo" : "254",
-			"antiAir" : "169",
-			"aviation" : "0",
-			"reload" : "163",
-			"hit" : "122",
-			"evasion" : "41",
-			"speed" : "28",
-			"luck" : "0",
-			"asw" : "0",
-			"oxygen" : "0",
-			"ammo" : "0",
-			"cost" : "13",
-			"armor" : "Medium"
+			"hp": "4260",
+			"firepower": "236",
+			"torpedo": "254",
+			"antiAir": "169",
+			"aviation": "0",
+			"reload": "163",
+			"hit": "122",
+			"evasion": "41",
+			"speed": "28",
+			"luck": "15",
+			"asw": "0",
+			"oxygen": "0",
+			"ammo": "0",
+			"cost": "13",
+			"armor": "Medium"
 		},
 		"120": {
-			"hp" : "4793",
-			"firepower" : "270",
-			"torpedo" : "289",
-			"antiAir" : "194",
-			"aviation" : "0",
-			"reload" : "187",
-			"hit" : "136",
-			"evasion" : "86",
-			"speed" : "28",
-			"luck" : "0",
-			"asw" : "0",
-			"oxygen" : "0",
-			"ammo" : "0",
-			"cost" : "13",
-			"armor" : "Medium"
+			"hp": "4793",
+			"firepower": "270",
+			"torpedo": "289",
+			"antiAir": "194",
+			"aviation": "0",
+			"reload": "187",
+			"hit": "136",
+			"evasion": "86",
+			"speed": "28",
+			"luck": "15",
+			"asw": "0",
+			"oxygen": "0",
+			"ammo": "0",
+			"cost": "13",
+			"armor": "Medium"
+		},
+		"base": {
+			"hp": "824",
+			"firepower": "51",
+			"torpedo": "54",
+			"antiAir": "36",
+			"aviation": "0",
+			"reload": "69",
+			"hit": "47",
+			"evasion": "10",
+			"speed": "28",
+			"luck": "0",
+			"asw": "0",
+			"oxygen": "0",
+			"ammo": "0",
+			"cost": "4",
+			"armor": "Medium"
 		},
 		"100retrofit": {
-			"hp" : "",
-			"firepower" : "",
-			"torpedo" : "",
-			"antiAir" : "",
-			"aviation" : "",
-			"reload" : "",
-			"hit" : "",
-			"evasion" : "",
-			"speed" : "28",
-			"luck" : "0",
-			"asw" : "",
-			"oxygen" : "0",
-			"ammo" : "0",
-			"cost" : "13",
-			"armor" : "Medium"
+			"hp": "",
+			"firepower": "",
+			"torpedo": "",
+			"antiAir": "",
+			"aviation": "",
+			"reload": "",
+			"hit": "",
+			"evasion": "",
+			"speed": "28",
+			"luck": "15",
+			"asw": "",
+			"oxygen": "0",
+			"ammo": "0",
+			"cost": "13",
+			"armor": "Medium"
 		},
 		"120retrofit": {
-			"hp" : "",
-			"firepower" : "",
-			"torpedo" : "",
-			"antiAir" : "",
-			"aviation" : "",
-			"reload" : "",
-			"hit" : "",
-			"evasion" : "",
-			"speed" : "28",
-			"luck" : "0",
-			"asw" : "",
-			"oxygen" : "0",
-			"ammo" : "0",
-			"cost" : "13",
-			"armor" : "Medium"
+			"hp": "",
+			"firepower": "",
+			"torpedo": "",
+			"antiAir": "",
+			"aviation": "",
+			"reload": "",
+			"hit": "",
+			"evasion": "",
+			"speed": "28",
+			"luck": "15",
+			"asw": "",
+			"oxygen": "0",
+			"ammo": "0",
+			"cost": "13",
+			"armor": "Medium"
 		}
 	},
 	"strengthenLevel": {
-		"level5": "Torpedo Base +1, Torpedo Pre-load +1",
-		"level10": "Full Barrage I, Main Gun Efficiency +5%, Limit Break ★★★★☆☆",
-		"level15": "Main Gun Efficiency +5%, Torpedo Pre-load +1",
-		"level20": "Torpedo Efficiency +10%, Limit Break ★★★★★☆",
-		"level25": "-",
-		"level30": "Full Barrage II, Torpedo Efficiency +15%, Limit Break ★★★★★★"
+		"level5": "HP +201 | Anti-Air +9 | Evasion +5 | Torpedo Base +1 | Preloaded Torpedo +1",
+		"level10": "Full Barrage I | Main Gun Efficiency +5% | Limit Break ★★★★☆☆",
+		"level15": "HP +402 | Anti-Air +18 | Main Gun Efficiency +5% | Preloaded Torpedo +1",
+		"level20": "Torpedo Efficiency +10%  | Limit Break ★★★★★☆",
+		"level25": "HP +603 | Anti-Air +26 | Evasion +10",
+		"level30": "Full Barrage II | Torpedo Efficiency +15% | Limit Break ★★★★★★",
+		"level35": "Luck +15, Improve skill \"Body and Soul\""
 	},
 	"equipmentLoadout": {
 		"1": {
-			"type": "CA Gun",
-			"efficiency": "125% / 140%",
-			"amount": "1/1",
-			"preload": "0/0"
+			"type": "Heavy Cruiser Gun",
+			"efficiency": "125%/130%/135%/135%",
+			"amount": "1/1/1/1",
+			"preload": "0/0/0/0"
 		},
 		"2": {
 			"type": "Torpedo",
-			"efficiency": "160% / 185%",
-			"amount": "1/2",
-			"preload": "0/2"
+			"efficiency": "160%/160%/170%/185%",
+			"amount": "1/2/2/2",
+			"preload": "0/1/2/2"
 		},
 		"3": {
 			"type": "Anti-Air Gun",
-			"efficiency": "110% / 110%",
-			"amount": "1/1",
-			"preload": "0/0"
+			"efficiency": "110%/110%/110%/110%",
+			"amount": "1/1/1/1",
+			"preload": "0/0/0/0"
 		},
 		"4": {
 			"type": "Auxilliary",
@@ -305,10 +313,10 @@
 	"lines": {
 		"skin": {
 			"1": {
-				"skin_id" : "yichui",
-				"id" : "0",
-				"label" : "Ibuki",
-				"dialogue" : {
+				"skin_id": "yichui",
+				"id": "0",
+				"label": "Ibuki",
+				"dialogue": {
 					"1": {
 						"event": "Ship Description",
 						"media": "",
@@ -318,7 +326,7 @@
 						"japanese": "",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Heavy cruiser – Ibuki.",
 						"englishNote": ""
 					},
 					"2": {
@@ -330,7 +338,7 @@
 						"japanese": "主殿、この伊吹に興味が…？うん…一度も生まれることがなかった伊吹は、誇れるカンレキもないのは当然として……えっと、趣味は短歌で、剣術が得意です！というところでよろしいでしょうか？あ、あとは……本当は人と話すのがちょっと苦手で……",
 						"japaneseTL": "Milord, have you taken an interest in me…? Um… Since I was never born, naturally, I don't have a history to be proud of… Erm, I compose tanka as a hobby, and I'm good at fencing! Was that introduction good enough? A-also… I'm actually not very good at talking to people…",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Milord, are you interested in me...? Mm... this Ibuki, who was never born, and has no history or accomplishments to speak of... Um, my hobby is poetry, and I'm skilled in swordsmanship! Are you satisfied with that? Um, also, I'm not very good around people...",
 						"englishNote": ""
 					},
 					"3": {
@@ -342,7 +350,7 @@
 						"japanese": "永き夢から私を目覚めさせたのはあなたでしょうか？ 不肖伊吹、まだ修行中の身ですが、この私でよろしければ、何卒お使いください",
 						"japaneseTL": "Was it you who woke me up from my long dream? I am unworthy and still training, but if that is okay with you then please put me to use.",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Was it your voice that beckoned me from my timeless slumber? This lowly Ibuki, though still in training, shall be yours to use as you see fit.",
 						"englishNote": ""
 					},
 					"4": {
@@ -354,7 +362,7 @@
 						"japanese": "主殿、外出お疲れ様でした",
 						"japaneseTL": "Milord, your hard work is to be commended.",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Milord, you must be tired.",
 						"englishNote": ""
 					},
 					"5": {
@@ -366,7 +374,7 @@
 						"japanese": "主殿、よ、ようこそ……あまり出せるものはないですが…お茶でもどうでしょうか？",
 						"japaneseTL": "W-welcome, Milord… I don't have much to offer, but… would you like some tea?",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Milord, w-welcome... I wasn't able to prepare much for your arrival... but would you like some tea?",
 						"englishNote": ""
 					},
 					"6": {
@@ -378,7 +386,7 @@
 						"japanese": "主殿と二人っきり……なんだか…ドキドキ……",
 						"japaneseTL": "Being alone with Milord… makes my heart race... a bit",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Spending time alone with Milord... somehow... makes my heart pound... ",
 						"englishNote": ""
 					},
 					"7": {
@@ -390,7 +398,7 @@
 						"japanese": "主殿、ご命令がなければ、瞑想に…少し席を外してもよろしいでしょうか",
 						"japaneseTL": "Milord, if you do not need me right now then I'd like to medita-… I'd like to take my leave, if that's okay with you.",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Milord, if you have no further orders for me, may I go over there to meditate? ",
 						"englishNote": ""
 					},
 					"8": {
@@ -402,11 +410,11 @@
 						"japanese": "剣の腕、落とさないようにするだけでも毎日素振り千回…… あ、ご安心ください！主殿がいない間に済ませてまいりました",
 						"japaneseTL": "I swing my sword a thousand times a day to prevent my swordsmanship from worsening… Ah, please don't worry! I finished my training while you were not here, Milord.",
 						"japaneseNote": "",
-						"english": "",
+						"english": "In order to hone my swordsmanship, I practice my strokes a thousand times every day... Don't worry, Milord, I already finished while you were gone.",
 						"englishNote": ""
 					},
 					"9": {
-						"event": "Normal Touch",
+						"event": "Touch",
 						"media": "touch_1",
 						"chinese": "展示一下剑术吗？对不起，被人这么看着有点……",
 						"chineseTL": "Showcase my swordsmanship? Sorry, but demonstrating in front of others is a bit...",
@@ -414,11 +422,11 @@
 						"japanese": "演武を披露してほしい、ですか？す、すみません、人前ではちょっと……",
 						"japaneseTL": "Do you want me to demonstrate my martial art skills? I-I'm sorry, but I lack the confidence to demonstrate it to others…",
 						"japaneseNote": "",
-						"english": "",
+						"english": "You'd like me to put on a show? S-Sorry... in front of other people... I can't...",
 						"englishNote": ""
 					},
 					"10": {
-						"event": "Special Touch",
+						"event": "Touch (Special)",
 						"media": "touch_2",
 						"chinese": "烦恼退却，六根清净……呀！主、主上……",
 						"chineseTL": "Purge the worries, purify all senses... Ah! M-Milord...",
@@ -426,7 +434,7 @@
 						"japanese": "ぼ、煩悩退散六根清浄……あぅ！あ、主殿……",
 						"japaneseTL": "P-purge my sinful thoughts… Ah! Oh, Milord…",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Clear the mind, and purify the six roots... Eek! Mi, Milord...",
 						"englishNote": ""
 					},
 					"11": {
@@ -438,7 +446,7 @@
 						"japanese": "任務ですね…伊吹も一緒に出撃しましょうか？",
 						"japaneseTL": "There's a mission… Shall I sortie as well?",
 						"japaneseNote": "",
-						"english": "",
+						"english": "We seem to have new missions. Would you like Ibuki to accompany you?",
 						"englishNote": ""
 					},
 					"12": {
@@ -450,7 +458,7 @@
 						"japanese": "主殿、向こうに結構物資が積み上がっているようですが…あれがホウシュウ…ですか？",
 						"japaneseTL": "Milord, there seems to be a pile of resources over there… Are those what are called… \"rewards\"?",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Milord, there's a big pile of stuff over there... Um, are those the rewards then?",
 						"englishNote": ""
 					},
 					"13": {
@@ -462,7 +470,7 @@
 						"japanese": "主殿、お手紙…え？読み上げるのですか？そ、そんな恥ずかしいこと……",
 						"japaneseTL": "Milord, there's a letter for you… Huh? Read it out loud? T-that's too embarrassing…",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Milord, your mail... Huh? You'd like me to read it? B-but that's embarrassing...",
 						"englishNote": ""
 					},
 					"14": {
@@ -474,7 +482,7 @@
 						"japanese": "主殿、もし怪我していたら伊吹のヨモギを敷いてみてはどうですか？まだまだありますよ？",
 						"japaneseTL": "Milord, if you get injured, how about applying this mugwort from Mount Ibuki? There's plenty more where it came from.",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Milord, if you are ever injured, please allow Ibuki to treat you with this mugwort liniment. There's still a lot left.",
 						"englishNote": ""
 					},
 					"15": {
@@ -486,7 +494,7 @@
 						"japanese": "主殿、イタクって……これですか？はい、とにかく無事完了しました",
 						"japaneseTL": "Milord, is this what is known as a… \"commission\"? Understood. Anyhow, it has been completed without issue.",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Milord, the comm... Um, whatever these are called. Yes, they're done now.",
 						"englishNote": ""
 					},
 					"16": {
@@ -498,7 +506,7 @@
 						"japanese": "これは…強くなった感触…感謝です！",
 						"japaneseTL": "This is… how it feels to get stronger… You have my gratitude!",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Is this... the sensation of getting stronger? Thank you!",
 						"englishNote": ""
 					},
 					"17": {
@@ -510,7 +518,7 @@
 						"japanese": "戦に情けなど無用…伊吹、参ります！",
 						"japaneseTL": "There is no room for any mercy in battle… Ibuki, advancing!",
 						"japaneseNote": "",
-						"english": "",
+						"english": "The battlefield is callous... Ibuki, advancing!",
 						"englishNote": ""
 					},
 					"18": {
@@ -522,7 +530,7 @@
 						"japanese": "これしきの手前、褒められるほどでは御座いません",
 						"japaneseTL": "My performance was nothing special, it does not deserve to be praised.",
 						"japaneseNote": "",
-						"english": "",
+						"english": "My skills are but party tricks, unworthy of such praise.",
 						"englishNote": ""
 					},
 					"19": {
@@ -534,11 +542,11 @@
 						"japanese": "うぅ…修行を倍にするべきか……",
 						"japaneseTL": "Uuh… I need to train twice as hard…",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Ugh... I must increase my training multifold.",
 						"englishNote": ""
 					},
 					"20": {
-						"event": "skill",
+						"event": "Skill",
 						"media": "skill",
 						"chinese": "伊吹之山岳……尽在这一剑之中",
 						"chineseTL": "The mountain of Ibuki... Its weight is in this blade.",
@@ -546,7 +554,7 @@
 						"japanese": "この一刀、伊吹の嶺にかけて！",
 						"japaneseTL": "I make this slash in the name of Mount Ibuki!",
 						"japaneseNote": "",
-						"english": "",
+						"english": "The pinnacle of Ibuki... resides in this single strike!",
 						"englishNote": ""
 					},
 					"21": {
@@ -558,7 +566,7 @@
 						"japanese": "背水の陣……望むところです！",
 						"japaneseTL": "Fighting with my back against the wall… Just what I was hoping for!",
 						"japaneseNote": "",
-						"english": "",
+						"english": "A fight with our backs to the wall? ... Exactly what I wanted!",
 						"englishNote": ""
 					},
 					"22": {
@@ -570,7 +578,7 @@
 						"japanese": "主殿のような人に仕えると知っていたら、伊吹は具現されなくても……",
 						"japaneseTL": "If I had known that I was to serve someone like you, it would have been better if I had never been created…",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Had I known I would have to serve a person like you, I never would have manifested during this era...",
 						"englishNote": ""
 					},
 					"23": {
@@ -582,7 +590,7 @@
 						"japanese": "伊吹は山で暮らして、毎日雲を眺める生活も好きですけど…… ここに来てから、今の生活でも悪くないと思うようになりました",
 						"japaneseTL": "While I liked living in the mountains and gaze at the passing clouds every day… I don't think living here is so bad either.",
 						"japaneseNote": "",
-						"english": "",
+						"english": "I would also enjoy a life of sitting atop the mountains, watching the clouds pass through the sky. But my current life here isn't so bad either.",
 						"englishNote": ""
 					},
 					"24": {
@@ -594,7 +602,7 @@
 						"japanese": "カッコイイ……ですか？伊吹はむしろ笑顔にあふれるみんなのほうが羨ましいです。 ……伊吹は、みんなと比べて感情を表すすべがわからないだけ……",
 						"japaneseTL": "You think I'm… \"cool\"? I am simply jealous of everyone's bright smiles. I just don't know how to express my feelings as well as everyone else…",
 						"japaneseNote": "",
-						"english": "",
+						"english": "I'm cool, you say...? If anything, I am somewhat jealous of how everyone can always have a smile on their faces... In contrast, I simply do not know how to express my emotions...",
 						"englishNote": ""
 					},
 					"25": {
@@ -606,7 +614,7 @@
 						"japanese": "みんなと一緒に生活してようやく気づきました。 自分の気持ちを正しく表すのは難しいと…。「楽しい」とか……「恋」とか……",
 						"japaneseTL": "After living here with everyone I've finally come to realize how difficult it is to correctly express my feelings… Feelings like \"fun\"… or \"love\"…",
 						"japaneseNote": "",
-						"english": "",
+						"english": "After spending a lot of time with everyone else, I've experienced firsthand how difficult it can be to express my emotions clearly... such as joy... and love...",
 						"englishNote": ""
 					},
 					"26": {
@@ -618,7 +626,7 @@
 						"japanese": "伊吹山、ヨモギの恋は静かに燃ゆる――た、例えば今…主殿、伊吹の心…感じて…いますか？",
 						"japaneseTL": "On Mount Ibuki, the mugwort's love quietly burns. S-say… Milord, can you feel… my heart?",
 						"japaneseNote": "",
-						"english": "",
+						"english": "The mugwort on Mount Ibuki is said to symbolize love that burns quietly... F-For example, right now, Milord... can you feel Ibuki's heart?",
 						"englishNote": ""
 					},
 					"27": {
@@ -630,7 +638,7 @@
 						"japanese": "自分の気持ちが報われるのは、こんなに嬉しいことなんて……主殿、み、見ないでください ……今の伊吹は嬉しすぎて、きっと顔がヘンになってますから……",
 						"japaneseTL": "I did not know that having my feelings reciprocated would bring such joy… Milord, p-please don't look… I'm so happy right now that I must have a weird expression on my face…",
 						"japaneseNote": "",
-						"english": "",
+						"english": "I never knew that having my feelings be reciprocated could be so overwhelmingly joyful... Milord, p-please don't look at me... I'm so happy that... my face must look strange... ",
 						"englishNote": ""
 					},
 					"28": {
@@ -648,10 +656,10 @@
 				}
 			},
 			"2": {
-				"skin_id" : "yichui_2",
-				"id" : "1",
-				"label" : "Wish of a Snow Goddess",
-				"dialogue" : {
+				"skin_id": "yichui_2",
+				"id": "1",
+				"label": "永梦的青女",
+				"dialogue": {
 					"1": {
 						"event": "Acquisition",
 						"media": "get_1",
@@ -725,7 +733,7 @@
 						"englishNote": ""
 					},
 					"7": {
-						"event": "Normal Touch",
+						"event": "Touch",
 						"media": "touch_1_1",
 						"chinese": "主上……有想去的地方了？我会陪您一起去的",
 						"chineseTL": "Milord... is there somewhere you want to go? I'll go with you",
@@ -737,7 +745,7 @@
 						"englishNote": ""
 					},
 					"8": {
-						"event": "Special Touch",
+						"event": "Touch (Special)",
 						"media": "touch_2_1",
 						"chinese": "主、主上，手好冷……",
 						"chineseTL": "M-Milord, your hands are cold...",
@@ -775,5 +783,18 @@
 				}
 			}
 		}
+	},
+	"fleet_tech": {
+		"pt_get": "17",
+		"add_get_attr": "Torpedo",
+		"add_get_value": "1",
+		"add_get_shiptype": "Heavy Cruiser,Monitor,Super Cruiser",
+		"pt_upgrade": "35",
+		"pt_level": "26",
+		"add_level_attr": "Torpedo",
+		"add_level_value": "1",
+		"add_level_shiptype": "Heavy Cruiser,Monitor,Super Cruiser",
+		"t_level": "8",
+		"ships": "ibuki"
 	}
 }

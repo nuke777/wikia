@@ -12,7 +12,7 @@
 	"navy": "Sakura Empire",
 	"prefix": "IJN",
 	"buildTime": "N/A",
-	"class": "Shiratsuyu",
+	"class": "Shiratsuyu-Class",
 	"voiceActress": "Narumi Shinohara",
 	"parameters": {
 		"firepower": "D",
@@ -75,7 +75,7 @@
 			}
 		},
 		"2": {
-			"id": "Bailu_2",
+			"id": "bailu_2",
 			"name": "Is The Order A Torpedo? ",
 			"description": "H-here they come... Your order, and your cutesy dutesy maid... Whoaahh! I'm sorry! Look out! ",
 			"expression": {
@@ -584,7 +584,7 @@
 				}
 			},
 			"2": {
-				"skin_id": "Bailu_2",
+				"skin_id": "bailu_2",
 				"id": "1",
 				"label": "Is The Order A Torpedo? ",
 				"dialogue": {
@@ -675,5 +675,18 @@
 				}
 			}
 		}
+	},
+	"fleet_tech": {
+		"pt_get": "4",
+		"add_get_attr": "HP",
+		"add_get_value": "1",
+		"add_get_shiptype": "Destroyer",
+		"pt_upgrade": "9",
+		"pt_level": "7",
+		"add_level_attr": "Reload",
+		"add_level_value": "1",
+		"add_level_shiptype": "Destroyer",
+		"t_level": "5",
+		"ships": "shiratsuyu,shigure,yuudachi,kawakaze"
 	}
 }

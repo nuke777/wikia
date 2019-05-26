@@ -16,11 +16,19 @@ SD.prototype = {
             this.loader.add(name+'_tex', texpath)
 
             this.loader.load((loader, resources) => {
-                var skelBin = new SkeletonBinary();
-                skelBin.data = new Uint8Array(resources[name+'_skel'].data);
-                skelBin.initJson();
+                var dec = new TextDecoder("utf-8");
+                var head = dec.decode(resources[name+'_skel'].data.slice(2, 10));
+                var rawSkeletonData;
+                if (head == "skeleton") {
+                    rawSkeletonData = JSON.parse(dec.decode(resources[name+'_skel'].data));
+                } else {
+                    var skelBin = new SkeletonBinary();
+                    skelBin.data = new Uint8Array(resources[name+'_skel'].data);
+                    skelBin.initJson();
 
-                var rawSkeletonData = skelBin.json;
+                    rawSkeletonData = skelBin.json;
+                }
+                console.log(rawSkeletonData);
                 var rawAtlasData = resources[name+'_atlas'].data;
 
                 var spineAtlas = new PIXI.spine.core.TextureAtlas(rawAtlasData, function(line, callback) {

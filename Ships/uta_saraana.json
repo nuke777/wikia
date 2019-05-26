@@ -1,0 +1,780 @@
+{
+	"name_reference" : "uta_saraana",
+	"cn_reference" : "salana",
+	"nameJP" : "サラァナ",
+	"nameCN" : "萨拉娜",
+	"ID" : "C035",
+	"name" : "Saraana",
+	"internal_id" : "10300051",
+	"rarity" : "Elite",
+	"initialStar" : "★★☆☆☆",
+	"hull" : "Light Aircraft Carrier",
+	"navy" : "Utawarerumono",
+	"prefix" : "",
+	"buildTime" : "",
+	"class" : "",
+	"voiceActress" : "Ayane Sakura",
+	"parameters": {
+		"firepower" : "E",
+		"torpedo" : "E",
+		"aviation" : "B",
+		"evasion" : "C",
+		"antiAir" : "B",
+		"hp" : "C"
+	},
+	"scrap": {
+		"gold" : "7",
+		"oil" : "3",
+		"medal" : "4"
+	},
+	"releaseDate": {
+		"JP" : "",
+		"CN" : "",
+		"KR" : "",
+		"EN" : ""
+	},
+	"artist": {
+		"name" : "",
+		"weibo" : "",
+		"twitter" : "",
+		"pixiv" : "",
+		"other" : ""
+	},
+	"enhance": {
+		"firepower" : "0",
+		"torpedo" : "0",
+		"aviation" : "29",
+		"reload" : "11"
+	},
+	"acquisitionMethod" : "イベント：夢幻の邂逅",
+	"skill": {
+		"1" : {
+			"icon" : "103090",
+			"requirement" : "",
+			"name" : "鎖の巫",
+			"type" : "Support",
+			"description" : "ウルゥルと同じ艦隊に編成されている場合、自身の航空が$1、装填・命中が$2アップ"
+		},
+		"2" : {
+			"icon" : "103100",
+			"requirement" : "",
+			"name" : "双影無双",
+			"type" : "Offensive",
+			"description" : "ウルゥルと同じ艦隊に編成されている場合、戦闘開始後55秒毎に特殊弾幕を発動する（$1）。一度の戦闘で最大2回しか発動できない（威力はスキルレベルによる） "
+		}
+	},
+	"skin": {
+		"1" : {
+			"id" : "salana",
+			"name" : "サラァナ",
+			"description" : "鎖の巫サラァナ──主様の命により参りました。本日より指揮官様にお仕えさせていただきます",
+			"expression" : {
+				"0" : {
+					"id" : "0"
+				}
+			}
+		},
+		"2" : {
+			"id" : "salana_2",
+			"name" : "サラァナ(うたわれるもの)",
+			"description" : "隣が姉のウルゥル。わたしはサラァナと申します。わたし達の全てを捧げる証をここに。主様に、永久なる忠誠を。",
+			"expression" : {
+				"0" : {
+					"id" : "0"
+				}
+			}
+		}
+	},
+	"defaultEquipment": {
+		"1" : {
+			"icon" : "",
+			"rarity" : "",
+			"name" : ""
+		},
+		"2" : {
+			"icon" : "",
+			"rarity" : "",
+			"name" : ""
+		},
+		"3" : {
+			"icon" : "",
+			"rarity" : "",
+			"name" : ""
+		}
+	},
+	"stats": {
+		"base": {
+			"hp" : "721",
+			"firepower" : "0",
+			"torpedo" : "0",
+			"antiAir" : "48",
+			"aviation" : "44",
+			"reload" : "57",
+			"hit" : "27",
+			"evasion" : "19",
+			"speed" : "26",
+			"luck" : "96",
+			"asw" : "17",
+			"oxygen" : "0",
+			"ammo" : "0",
+			"cost" : "3",
+			"armor" : "Light"
+		},
+		"100": {
+			"hp" : "3727",
+			"firepower" : "0",
+			"torpedo" : "0",
+			"antiAir" : "222",
+			"aviation" : "206",
+			"reload" : "136",
+			"hit" : "70",
+			"evasion" : "49",
+			"speed" : "26",
+			"luck" : "96",
+			"asw" : "63",
+			"oxygen" : "0",
+			"ammo" : "0",
+			"cost" : "11",
+			"armor" : "Light"
+		},
+		"120": {
+			"hp" : "4472",
+			"firepower" : "0",
+			"torpedo" : "0",
+			"antiAir" : "255",
+			"aviation" : "237",
+			"reload" : "156",
+			"hit" : "77",
+			"evasion" : "53",
+			"speed" : "26",
+			"luck" : "96",
+			"asw" : "72",
+			"oxygen" : "0",
+			"ammo" : "0",
+			"cost" : "11",
+			"armor" : "Light"
+		},
+		"100retrofit": {
+			"hp" : "",
+			"firepower" : "",
+			"torpedo" : "",
+			"antiAir" : "",
+			"aviation" : "",
+			"reload" : "",
+			"hit" : "",
+			"evasion" : "",
+			"speed" : "26",
+			"luck" : "96",
+			"asw" : "",
+			"oxygen" : "0",
+			"ammo" : "0",
+			"cost" : "11",
+			"armor" : "Light"
+		},
+		"120retrofit": {
+			"hp" : "",
+			"firepower" : "",
+			"torpedo" : "",
+			"antiAir" : "",
+			"aviation" : "",
+			"reload" : "",
+			"hit" : "",
+			"evasion" : "",
+			"speed" : "26",
+			"luck" : "96",
+			"asw" : "",
+			"oxygen" : "0",
+			"ammo" : "0",
+			"cost" : "11",
+			"armor" : "Light"
+		}
+	},
+	"limitBreak": {
+		"tier1": "攻撃機数+1/戦闘機補正+5%",
+		"tier2": "攻撃隊上限+1/戦闘機数+1/戦闘機補正+10%",
+		"tier3": "艦載機数+1/攻撃機補正+10%"
+	},
+	"equipmentLoadout": {
+		"1": {
+			"type": "Fighter",
+			"efficiency": "115%/120%/130%/130%",
+			"amount": "1/1/2/3",
+			"preload": "0/0/0/0"
+		},
+		"2": {
+			"type": "Torpedo Bomber",
+			"efficiency": "115%/115%/115%/125%",
+			"amount": "1/2/2/3",
+			"preload": "0/0/0/0"
+		},
+		"3": {
+			"type": "Anti-Air Gun",
+			"efficiency": "80%/80%/80%/80%",
+			"amount": "1/1/1/1",
+			"preload": "0/0/0/0"
+		},
+		"4": {
+			"type": "Auxilary",
+			"efficiency": "-",
+			"amount": "-",
+			"preload": "-"
+		},
+		"5": {
+			"type": "Auxilary",
+			"efficiency": "-",
+			"amount": "-",
+			"preload": "-"
+		}
+	},
+	"build": {
+		"light": {
+			"JP": "",
+			"CN": "",
+			"EN": ""
+		},
+		"heavy": {
+			"JP": "",
+			"CN": "",
+			"EN": ""
+		},
+		"special": {
+			"JP": "",
+			"CN": "",
+			"EN": ""
+		},
+		"limited": {
+			"JP": "",
+			"CN": "",
+			"EN": ""
+		}
+	},
+	"drop": {
+		"droppable": "false",
+		"list": {
+			"1": {
+				"event": "",
+				"chapter": {
+					"1": {
+						"label": "Ch .1",
+						"node": {
+							"1": {
+								"drop": "✓",
+								"note": "-"
+							}
+						}
+					}
+				}
+			}
+		}
+	},
+	"lines": {
+		"skin": {
+			"1": {
+				"skin_id" : "salana",
+				"id" : "0",
+				"label" : "サラァナ",
+				"dialogue" : {
+					"1" : {
+						"event" : "Ship Description",
+						"media" : "",
+						"chinese" : "锁之巫女萨拉娜——奉主人之命前来。今天开始为指挥官大人服务",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "鎖の巫サラァナ──主様の命により参りました。本日より指揮官様にお仕えさせていただきます",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"2" : {
+						"event" : "Biography",
+						"media" : "profile",
+						"chinese" : "我是锁之巫女萨拉娜。此身从头到尾都是主人的血肉人偶，为主人尽力就是我等存在的唯一理由……不过，现在暂时，为指挥官服务",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "鎖の巫サラァナにございます。この身は骨の一片まで主様の肉人形、主様に尽くすのが存在理由……ですが、この一時だけ指揮官様にお仕えいたしましょう",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"3" : {
+						"event" : "Receive",
+						"media" : "get",
+						"chinese" : "锁之巫女萨拉娜——奉主人之命前来。今天开始为指挥官大人服务",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "鎖の巫サラァナ──主様の命により参りました。本日より指揮官様にお仕えさせていただきます",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"4" : {
+						"event" : "Log in",
+						"media" : "login",
+						"chinese" : "恭候您的到来，指挥官大人。今天也请多多指教",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "お待ちしておりました指揮官様。本日もご指導のほど、よろしくお願いいたします",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"5" : {
+						"event" : "View details",
+						"media" : "detail",
+						"chinese" : "只要是您想知道的，我都会详细的告诉您的",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "お望みとあれば詳らかにいたしましょう",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"6" : {
+						"event" : "Main screen 1",
+						"media" : "main_1",
+						"chinese" : "果然，没有主人在就是闲得无聊。主人在的话，在仆人的工作完成后，和主人做这样的事还有那样的事情……",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "やはり、主様がいないと手持ち無沙汰でいけません。しもべとしての仕事を片付けた後、主様にあんなコトやそんなコトを……",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"7" : {
+						"event" : "Main screen 2",
+						"media" : "main_2",
+						"chinese" : "明明主人都不在，她们却在这里…真是太没道理了。指挥官大人，请把主人也叫过来",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "主様がご不在だというのに、彼女たちはこちらにもいる……理不尽と思われます。指揮官様、主様もお呼びくださいませ",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"8" : {
+						"event" : "Main screen 3",
+						"media" : "main_3",
+						"chinese" : "已经没有工作了吗？那就回主人身边……开玩笑的",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "もうお仕事はありませんか？でしたら、主様の元へ帰ろうかと……冗談です",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"9" : {
+						"event" : "Normal touch",
+						"media" : "touch_1",
+						"chinese" : "和久远她们的关系？侍奉共同主人的血肉人偶……这么说的话她们一定会生气的，就当作是朋友吧",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "クオンさんたちとの関係ですか？共に主様にお仕えする肉人形……と申し上げたら怒られましたので、友人ということで",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"10" : {
+						"event" : "Special touch",
+						"media" : "touch_2",
+						"chinese" : "夜晚的陪伴没有主人的同意是不行的。如果真的想的话，请先问过主人吧",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "夜伽は主様の許しがなければできないことになっております。どうしてもというのであれば、主様にお伺いくださいませ",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"11" : {
+						"event" : "Rub",
+						"media" : "touch_head",
+						"chinese" : "非常抱歉。我的身体、我的心、我的灵魂，我的点滴都已经奉献给主人了……请不要轻易触摸",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "申し訳ありません。この身、この心、この魂、その一片までもが主様に捧げた身……お触れにならぬよう願います",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"12" : {
+						"event" : "Mission reminder",
+						"media" : "task",
+						"chinese" : "任务堆积了，要怎么办？",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "任務が滞っております。如何なさいますか？",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"13" : {
+						"event" : "Mission complete",
+						"media" : "mission_complete",
+						"chinese" : "任务完成。辛苦了",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "任務完了いたしました。お疲れさまです",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"14" : {
+						"event" : "Mail reminder",
+						"media" : "mail",
+						"chinese" : "信件寄到了。请读",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "文が届いております。どうぞ御一読を",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"15" : {
+						"event" : "Return to port",
+						"media" : "home",
+						"chinese" : "欢迎回来，指挥官大人。要洗澡吗？还是要吃饭？再进一步的就是主人限定了",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "お帰りなさいませ、指揮官様。お風呂になさいますか？お食事になさいますか？それ以上のご奉仕は主様限定となっております",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"16" : {
+						"event" : "Commission complete",
+						"media" : "expedition",
+						"chinese" : "出发执行委托的同伴们回来了",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "委託に出ていた方々がお戻りになりました",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"17" : {
+						"event" : "Enhancing complete",
+						"media" : "upgrade",
+						"chinese" : "感谢您的关心",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "お心配り、感謝いたします",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"18" : {
+						"event" : "Flagship fight",
+						"media" : "warcry",
+						"chinese" : "伟大之父保佑……",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "オンヴィタイカヤンの御加護がありますように……",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"19" : {
+						"event" : "Victory",
+						"media" : "mvp",
+						"chinese" : "不需要劳烦指挥官动手",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "指揮官様の手を煩わせるまでもありません",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"20" : {
+						"event" : "Defeat",
+						"media" : "lose",
+						"chinese" : "非常抱歉，下次一定会挽回的",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "申し訳ありません。必ずや挽回させていただきます",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"21" : {
+						"event" : "Skills",
+						"media" : "skill",
+						"chinese" : "为了主人——力量、解放",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "主様のために──力を、解放します",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"22" : {
+						"event" : "Low HP",
+						"media" : "hp",
+						"chinese" : "没有主人的允许，是不能擅自倒下的…",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "主様の許可なく、果てるわけにはまいりません……",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"23" : {
+						"event" : "Upset",
+						"media" : "feeling1",
+						"chinese" : "果然，值得我们侍奉的只有主人……",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "やはり、私たちが傅くのは主様のみ……",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"24" : {
+						"event" : "Stranger",
+						"media" : "feeling2",
+						"chinese" : "为了侍奉主人，我们学习过各种各样的知识。从家务到洗衣到咒术…请尽管下达命令",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "主様にご奉仕するため、あらゆる作法を習得しております。家事に洗濯に呪法……どうぞ命じてくださいませ",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"25" : {
+						"event" : "Friendly",
+						"media" : "feeling3",
+						"chinese" : "作为下仆，无论何时何种状况都要陪伴在主人身边。无论什么事都请让我们一同前往",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "下僕たる者、いつ如何なる時でもお側に控えております。何なりと御用を申し付けください",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"26" : {
+						"event" : "Crush",
+						"media" : "feeling4",
+						"chinese" : "对我们来说，主人才是绝对的…不过，指挥官的存在似乎也变得不是那么全无意义了的样子",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "私たちにとって、主様こそが絶対……ですが、指揮官様の存在もまた無下にできないほど大きくなってしまいました",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"27" : {
+						"event" : "Love",
+						"media" : "feeling5",
+						"chinese" : "对主人以外的男性如此在意还是第一次。虽然夜陪不行，但只是一起睡的话倒是…您想要吗？",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "主様以外の男性に、ここまで心を動かされたことは初めてです。夜伽は無理ですが添い寝くらいなら……如何ですか？",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"28" : {
+						"event" : "Promise",
+						"media" : "propose",
+						"chinese" : "我们是为了侍奉主人而生的。不过，请让我在此与您约定，仅限此时、仅限于这个世界，我愿意发誓对您绝对的忠诚",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "私たちは主様にお仕えするために生まれてきました。されど、この時、この世界でのみ、あなた様に忠誠を誓うことをここに約束いたしましょう",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					}
+				}
+			},
+			"2": {
+				"skin_id" : "salana_2",
+				"id" : "1",
+				"label" : "サラァナ(うたわれるもの)",
+				"dialogue" : {
+					"1" : {
+						"event" : "Ship Description",
+						"media" : "",
+						"chinese" : "旁边是姐姐乌璐露。我是萨拉娜。我等奉献一切的证明在此。向主人献上永远的忠诚",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "隣が姉のウルゥル。わたしはサラァナと申します。わたし達の全てを捧げる証をここに。主様に、永久なる忠誠を。",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"2" : {
+						"event" : "Receive",
+						"media" : "get_1",
+						"chinese" : "旁边是姐姐乌璐露。我是萨拉娜。我等奉献一切的证明在此。向指挥官大人献上永远的忠诚",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "隣が姉のウルゥル。わたしはサラァナと申します。わたし達の全てを捧げる証をここに。指揮官様に、永久なる忠誠を。",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"3" : {
+						"event" : "Log in",
+						"media" : "login_1",
+						"chinese" : "早上好。到起床的时间了",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "おはよう御座います。お目覚めの時間です。",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"4" : {
+						"event" : "Main screen 1",
+						"media" : "main_1_1",
+						"chinese" : "献上发自内心的侍奉，便是我等存在的意义。",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "心からお仕えするのが、わたし達の存在意義です。",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"5" : {
+						"event" : "Main screen 2",
+						"media" : "main_2_1",
+						"chinese" : "我们应该在的地方，正是指挥官大人的身边",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "わたしたちの居場所は、指揮官様の御側ですから。",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"6" : {
+						"event" : "Main screen 3",
+						"media" : "main_3_1",
+						"chinese" : "指挥官大人不理我们的话…会寂寞到死的",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "指揮官様が相手してくれないと……さみしくて死んでしまいます。",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"7" : {
+						"event" : "Normal touch",
+						"media" : "touch_1_1",
+						"chinese" : "萨拉娜，在此听候吩咐",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "サラァナ、まかりこしました。",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"8" : {
+						"event" : "Special touch",
+						"media" : "touch_2_1",
+						"chinese" : "只要是指挥官大人的期望，无论什么都可以。随时恭候指挥官大人",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "望まれるのなら、どんな事でも受け入れます。いつでも良いよう待っております。",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"9" : {
+						"event" : "Mail reminder",
+						"media" : "mail_1",
+						"chinese" : "物资确认完毕。没有检测到术式的痕迹",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "物資の確認、終わりました。術が仕掛けられている痕跡はありませんでした。",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"10" : {
+						"event" : "Return to port",
+						"media" : "home_1",
+						"chinese" : "指挥官大人看起来很累了。请交给我们吧",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "指揮官様はとてもお疲れに見えます。わたしたちにお任せを。",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"11" : {
+						"event" : "Commission complete",
+						"media" : "expedition_1",
+						"chinese" : "久等了，指挥官大人",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "お待たせしました、指揮官様。",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"12" : {
+						"event" : "Flagship fight",
+						"media" : "warcry_1",
+						"chinese" : "我们来保护您",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "わたし達がお護りします。",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"13" : {
+						"event" : "Love",
+						"media" : "feeling5_1",
+						"chinese" : "我等与指挥官大人一心同体，无论何时都不会与指挥官大人分开",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "我等は指揮官様と一心同体。いつ如何なる時も離れる事はありません。",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					}
+				}
+			}
+		}
+	}
+}

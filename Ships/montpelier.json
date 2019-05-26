@@ -12,7 +12,7 @@
 	"navy": "Eagle Union",
 	"prefix": "USS",
 	"buildTime": "01:25:00",
-	"class": "Cleveland",
+	"class": "Cleveland-Class",
 	"voiceActress": "Rie Takahashi",
 	"parameters": {
 		"firepower": "B",
@@ -83,7 +83,7 @@
 		},
 		"2": {
 			"id": "mengbiliai_2",
-			"name": "雪夜之花",
+			"name": "Flower in the Snowy Night",
 			"description": "这就是重樱风格的新年服饰吗，如果大姐头也能喜欢的话…嗯？指挥官你在啊…姑且说一声新年快乐吧",
 			"expression": {
 				"0": {
@@ -623,6 +623,18 @@
 						"japaneseNote": "",
 						"english": "... I won't embarrass you, big sis!",
 						"englishNote": ""
+					},
+					"29": {
+						"event": "Valentines 2019",
+						"media": "",
+						"chinese": "在给大姐头做的时候，想起来就把你的份一起做了。不用客气，毕竟你也是个很不错的指挥官。",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "姉貴のためにチョコを作った時、お前の分も一緒に作った。遠慮するな。お前もいい指揮官だからな",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
 					}
 				}
 			},
@@ -742,5 +754,18 @@
 				}
 			}
 		}
+	},
+	"fleet_tech": {
+		"pt_get": "12",
+		"add_get_attr": "Anti-Air",
+		"add_get_value": "1",
+		"add_get_shiptype": "Light Cruiser",
+		"pt_upgrade": "24",
+		"pt_level": "18",
+		"add_level_attr": "Firepower",
+		"add_level_value": "1",
+		"add_level_shiptype": "Light Cruiser",
+		"t_level": "7",
+		"ships": "cleveland,columbia,montpelier,denver"
 	}
 }

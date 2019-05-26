@@ -1,0 +1,780 @@
+{
+	"name_reference" : "uta_nekone",
+	"cn_reference" : "maoyin",
+	"nameJP" : "ネコネ",
+	"nameCN" : "猫音",
+	"ID" : "C032",
+	"name" : "Nekone",
+	"internal_id" : "10300021",
+	"rarity" : "Super Rare",
+	"initialStar" : "★★★☆☆☆",
+	"hull" : "Destroyer",
+	"navy" : "Utawarerumono",
+	"prefix" : "",
+	"buildTime" : "",
+	"class" : "",
+	"voiceActress" : "Inori Minase",
+	"parameters": {
+		"firepower" : "C",
+		"torpedo" : "B",
+		"aviation" : "E",
+		"evasion" : "A",
+		"antiAir" : "B",
+		"hp" : "C"
+	},
+	"scrap": {
+		"gold" : "4",
+		"oil" : "3",
+		"medal" : "10"
+	},
+	"releaseDate": {
+		"JP" : "",
+		"CN" : "",
+		"KR" : "",
+		"EN" : ""
+	},
+	"artist": {
+		"name" : "",
+		"weibo" : "",
+		"twitter" : "",
+		"pixiv" : "",
+		"other" : ""
+	},
+	"enhance": {
+		"firepower" : "6",
+		"torpedo" : "22",
+		"aviation" : "0",
+		"reload" : "14"
+	},
+	"acquisitionMethod" : "イベント：夢幻の邂逅",
+	"skill": {
+		"1" : {
+			"icon" : "103030",
+			"requirement" : "",
+			"name" : "白虹",
+			"type" : "Defensive",
+			"description" : "戦闘開始後100秒で発動。前衛艦隊の回避が$1アップし、耐久をネコネの耐久上限の$2回復する。一度の戦闘で一回しか発動できない"
+		},
+		"2" : {
+			"icon" : "103040",
+			"requirement" : "",
+			"name" : "夕星",
+			"type" : "Offensive",
+			"description" : "10秒ごとに$1で発動する。炎上効果を持つ特殊弾幕を発動する（威力はスキルレベルによる）"
+		}
+	},
+	"skin": {
+		"1" : {
+			"id" : "maoyin",
+			"name" : "ネコネ",
+			"description" : "風来人ウコンの妹にして参謀、ネコネが着任したのです。指揮官さんの実力、見極めさせてもらうのですよ",
+			"expression" : {
+				"0" : {
+					"id" : "0"
+				}
+			}
+		},
+		"2" : {
+			"id" : "maoyin_2",
+			"name" : "ネコネ(うたわれるもの)",
+			"description" : "えっ？は、はい……はじめ……まして……です。",
+			"expression" : {
+				"0" : {
+					"id" : "0"
+				}
+			}
+		}
+	},
+	"defaultEquipment": {
+		"1" : {
+			"icon" : "",
+			"rarity" : "",
+			"name" : ""
+		},
+		"2" : {
+			"icon" : "",
+			"rarity" : "",
+			"name" : ""
+		},
+		"3" : {
+			"icon" : "",
+			"rarity" : "",
+			"name" : ""
+		}
+	},
+	"stats": {
+		"base": {
+			"hp" : "313",
+			"firepower" : "18",
+			"torpedo" : "67",
+			"antiAir" : "39",
+			"aviation" : "0",
+			"reload" : "73",
+			"hit" : "74",
+			"evasion" : "70",
+			"speed" : "39",
+			"luck" : "52",
+			"asw" : "39",
+			"oxygen" : "0",
+			"ammo" : "0",
+			"cost" : "3",
+			"armor" : "Light"
+		},
+		"100": {
+			"hp" : "1617",
+			"firepower" : "85",
+			"torpedo" : "316",
+			"antiAir" : "183",
+			"aviation" : "0",
+			"reload" : "173",
+			"hit" : "193",
+			"evasion" : "183",
+			"speed" : "39",
+			"luck" : "52",
+			"asw" : "144",
+			"oxygen" : "0",
+			"ammo" : "0",
+			"cost" : "10",
+			"armor" : "Light"
+		},
+		"120": {
+			"hp" : "1941",
+			"firepower" : "98",
+			"torpedo" : "356",
+			"antiAir" : "210",
+			"aviation" : "0",
+			"reload" : "199",
+			"hit" : "202",
+			"evasion" : "189",
+			"speed" : "39",
+			"luck" : "52",
+			"asw" : "162",
+			"oxygen" : "0",
+			"ammo" : "0",
+			"cost" : "10",
+			"armor" : "Light"
+		},
+		"100retrofit": {
+			"hp" : "",
+			"firepower" : "",
+			"torpedo" : "",
+			"antiAir" : "",
+			"aviation" : "",
+			"reload" : "",
+			"hit" : "",
+			"evasion" : "",
+			"speed" : "39",
+			"luck" : "52",
+			"asw" : "",
+			"oxygen" : "0",
+			"ammo" : "0",
+			"cost" : "10",
+			"armor" : "Light"
+		},
+		"120retrofit": {
+			"hp" : "",
+			"firepower" : "",
+			"torpedo" : "",
+			"antiAir" : "",
+			"aviation" : "",
+			"reload" : "",
+			"hit" : "",
+			"evasion" : "",
+			"speed" : "39",
+			"luck" : "52",
+			"asw" : "",
+			"oxygen" : "0",
+			"ammo" : "0",
+			"cost" : "10",
+			"armor" : "Light"
+		}
+	},
+	"limitBreak": {
+		"tier1": "「夕星」Lv.1習得/魚雷補正+5%",
+		"tier2": "魚雷装填数+1/開始時魚雷+1/主砲補正+10%",
+		"tier3": "魚雷補正+15%"
+	},
+	"equipmentLoadout": {
+		"1": {
+			"type": "Destroyer Gun",
+			"efficiency": "75%/75%/85%/85%",
+			"amount": "1/1/1/1",
+			"preload": "0/0/0/0"
+		},
+		"2": {
+			"type": "Torpedo",
+			"efficiency": "100%/105%/105%/120%",
+			"amount": "1/1/2/2",
+			"preload": "0/0/1/1"
+		},
+		"3": {
+			"type": "Anti-Air Gun",
+			"efficiency": "65%/65%/65%/65%",
+			"amount": "1/1/1/1",
+			"preload": "0/0/0/0"
+		},
+		"4": {
+			"type": "Auxilary",
+			"efficiency": "-",
+			"amount": "-",
+			"preload": "-"
+		},
+		"5": {
+			"type": "Auxilary",
+			"efficiency": "-",
+			"amount": "-",
+			"preload": "-"
+		}
+	},
+	"build": {
+		"light": {
+			"JP": "",
+			"CN": "",
+			"EN": ""
+		},
+		"heavy": {
+			"JP": "",
+			"CN": "",
+			"EN": ""
+		},
+		"special": {
+			"JP": "",
+			"CN": "",
+			"EN": ""
+		},
+		"limited": {
+			"JP": "",
+			"CN": "",
+			"EN": ""
+		}
+	},
+	"drop": {
+		"droppable": "false",
+		"list": {
+			"1": {
+				"event": "",
+				"chapter": {
+					"1": {
+						"label": "Ch .1",
+						"node": {
+							"1": {
+								"drop": "✓",
+								"note": "-"
+							}
+						}
+					}
+				}
+			}
+		}
+	},
+	"lines": {
+		"skin": {
+			"1": {
+				"skin_id" : "maoyin",
+				"id" : "0",
+				"label" : "ネコネ",
+				"dialogue" : {
+					"1" : {
+						"event" : "Ship Description",
+						"media" : "",
+						"chinese" : "流浪者右进之妹兼参谋、猫音前来报到。指挥官大人的实力，就让我好好看看吧",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "風来人ウコンの妹にして参謀、ネコネが着任したのです。指揮官さんの実力、見極めさせてもらうのですよ",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"2" : {
+						"event" : "Biography",
+						"media" : "profile",
+						"chinese" : "我是猫音。是号称大和有名的右近卫大将奥修……哇哇哇，不对，流浪者右进的妹妹！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "わたしはネコネ。ヤマトに彼の者ありとうたわれた、右近衛大将オシュ……わわわ、でなくて、風来人ウコンの妹なのです！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"3" : {
+						"event" : "Receive",
+						"media" : "get",
+						"chinese" : "流浪者右进之妹兼参谋、猫音前来报到。指挥官大人的实力，就让我好好看看吧",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "風来人ウコンの妹にして参謀、ネコネが着任したのです。指揮官さんの実力、見極めさせてもらうのですよ",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"4" : {
+						"event" : "Log in",
+						"media" : "login",
+						"chinese" : "终于来了吗…工作已经堆积成山了，希望你能快点处理掉。",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "やっと来ましたか……仕事が山積みですよ。早く片付けてほしいのです",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"5" : {
+						"event" : "View details",
+						"media" : "detail",
+						"chinese" : "加深感情？算了，只是一会的话倒是没关系",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "親睦を深めたい？まあ、ちょっとだけならいいのです",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"6" : {
+						"event" : "Main screen 1",
+						"media" : "main_1",
+						"chinese" : "这个世界里稀奇的东西太多了。时间允许的话，还是挺想去遗迹之类地方调查看看的……呃，都是海没什么其他的东西！？",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "この世界は変わったものが多いのです。お時間をいただけたら、遺跡とか調べに行ってみたいです……え、海ばっかりで何もないのですか！？",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"7" : {
+						"event" : "Main screen 2",
+						"media" : "main_2",
+						"chinese" : "为什么这港区都是女性呢。指挥官的部下也都是女的…跟那个人没什么两样",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "どうしてこの港は女性ばかりなのでしょう。指揮官さんの部下も女の人ばかり……これではあの人と大差ないのです",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"8" : {
+						"event" : "Main screen 3",
+						"media" : "main_3",
+						"chinese" : "炮塔、鱼雷、舰载机……尽是些我们的世界里没有的兵器，让人非常感兴趣呢。感觉就像是那些运用了古代技术的产物呢",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "砲塔、魚雷、艦載機……わたしたちの世界にはない兵器ばかり、とても興味深いのです。古の御業に通じるものを感じるのです",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"9" : {
+						"event" : "Normal touch",
+						"media" : "touch_1",
+						"chinese" : "什么事？离休息时间还很久。请专心工作",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "なんですか？休憩時間はまだ先なのです。お仕事を進めてください",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"10" : {
+						"event" : "Special touch",
+						"media" : "touch_2",
+						"chinese" : "什！？你在摸哪里啊变态！肮脏，鄙视你！我要跟姐姐大人说！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "っ！？　どこ触ってるですか変態！不潔なのです、軽蔑するのです！姉さまに言い付けてやる！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"11" : {
+						"event" : "Rub",
+						"media" : "touch_head",
+						"chinese" : "唔哇！？请不要随便摸头，不要把我当小孩子",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "うなっ！？　頭ポンポンするのやめるですよ。子供扱いするななのです",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"12" : {
+						"event" : "Mission reminder",
+						"media" : "task",
+						"chinese" : "指挥官，任务进度停滞了。请快点解决掉",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "指揮官さん、任務が滞り気味なのです。さっさと片付けるです",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"13" : {
+						"event" : "Mission complete",
+						"media" : "mission_complete",
+						"chinese" : "这是任务完成的报酬",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "任務完了の報酬なのです",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"14" : {
+						"event" : "Mail reminder",
+						"media" : "mail",
+						"chinese" : "有信送到了。也许是什么急事也说不定",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "手紙が届いているのです。急ぎの用かもしれません",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"15" : {
+						"event" : "Return to port",
+						"media" : "home",
+						"chinese" : "平安归来就好。我、我才没有在担心指挥官",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "無事のご帰還、何よりなのです。べ、別に指揮官さんを心配したわけじゃないのです",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"16" : {
+						"event" : "Commission complete",
+						"media" : "expedition",
+						"chinese" : "参加委托的伙伴们回来了。作为指挥官应该及时确认结果",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "委託の者が帰還しました。指揮官として収支の確認をするべきです",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"17" : {
+						"event" : "Enhancing complete",
+						"media" : "upgrade",
+						"chinese" : "感觉变强了。也变大了…才对！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "強くなりました。大きくもなった……はずです！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"18" : {
+						"event" : "Flagship fight",
+						"media" : "warcry",
+						"chinese" : "急躁是兵家大忌，先观察一下对手吧",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "戦に焦りは禁物、まずは出方を窺うのです",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"19" : {
+						"event" : "Victory",
+						"media" : "mvp",
+						"chinese" : "战斗的胜利要依靠智慧和策略，光凭力气是不行的",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "戦とは知略にて勝利を得るもの、力だけでは駄目なのです",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"20" : {
+						"event" : "Defeat",
+						"media" : "lose",
+						"chinese" : "又是…这样……兄长大人，对不起……",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "また、こんなことに……兄さま、ごめんなさい……",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"21" : {
+						"event" : "Skills",
+						"media" : "skill",
+						"chinese" : "此乃学问之真髓！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "これが学問の真髄なのです！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"22" : {
+						"event" : "Low HP",
+						"media" : "hp",
+						"chinese" : "已经…连站着都很勉强了……",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "もう、立っているのがやっとです……",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"23" : {
+						"event" : "Upset",
+						"media" : "feeling1",
+						"chinese" : "像你这般愚蠢顽劣的人，根本不配和兄长大人和“那个人”相比",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "あなたのような愚劣な人間、兄さまやあの人と比べるのもおこがましいのです",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"24" : {
+						"event" : "Stranger",
+						"media" : "feeling2",
+						"chinese" : "…一般工作看来还是能干的来呢。这点还是值得肯定的。不过，这点程度不过是理所当然的而已",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "……仕事はできるようですね。そこは認めてあげるです。でも、このくらいはできて当たり前なのです",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"25" : {
+						"event" : "Friendly",
+						"media" : "feeling3",
+						"chinese" : "嗯嗯……干的不错啊。做到这份上…不得不对指挥官刮目相看了呢。虽然还不及兄长，不过勉强承认你达到“那个人”的水平了吧",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "ふむふむ……やりますね。ここまでできるとは……指揮官さんのこと、見直したのです。兄さまの足下にも及びませんが、あの人ぐらいには認めてあげるのです",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"26" : {
+						"event" : "Crush",
+						"media" : "feeling4",
+						"chinese" : "……我能明白为什么姐姐大人愿意陪着指挥官了。你也，有着吸引众人的不可思议的魅力呢",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "……姉さまが指揮官さんと一緒にいる理由がわかってきたのです。あなたもまた、多くの人を惹きつける不思議な魅力をお持ちなのですね",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"27" : {
+						"event" : "Love",
+						"media" : "feeling5",
+						"chinese" : "没想到指挥官居然是如此才华洋溢的人……有机会的话，真想把你介绍给兄长大人。有你在的话，一定能以一顶百的",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "あなたがこれほど才気にあふれる人だったなんて……機会があれば、是非とも兄さまに紹介したいのです。あなたがいれば百人力なのです",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"28" : {
+						"event" : "Promise",
+						"media" : "propose",
+						"chinese" : "别、别想太多了。这只是契约……只要我还在这个世界，就会像尊敬兄长大人一样尊敬你……只是、这样而已",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "か、勘違いしないでほしいのです。これは契約なのです……この世界にいる以上、あなたを兄さまのように敬うという……ただ、それだけなのです",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					}
+				}
+			},
+			"2": {
+				"skin_id" : "maoyin_2",
+				"id" : "1",
+				"label" : "ネコネ(うたわれるもの)",
+				"dialogue" : {
+					"1" : {
+						"event" : "Ship Description",
+						"media" : "",
+						"chinese" : "额…好、好的……初、初次见面……",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "えっ？は、はい……はじめ……まして……です。",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"2" : {
+						"event" : "Receive",
+						"media" : "get_1",
+						"chinese" : "额…好、好的……初、初次见面……",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "えっ？は、はい……はじめ……まして……です。",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"3" : {
+						"event" : "Log in",
+						"media" : "login_1",
+						"chinese" : "……你好",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "……どうもです。",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"4" : {
+						"event" : "Main screen 1",
+						"media" : "main_1_1",
+						"chinese" : "…你一直在偷偷摸摸地观察吗",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "……さっきから何ジロジロ見てるですか。",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"5" : {
+						"event" : "Main screen 2",
+						"media" : "main_2_1",
+						"chinese" : "不要抱怨。不劳动者不得食…是也",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "文句を言うなかれ。働かざる者喰うべからず、なのです。",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"6" : {
+						"event" : "Main screen 3",
+						"media" : "main_3_1",
+						"chinese" : "我只是、想要达成自己的使命而已。不敢奢望其他……",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "わたしはただ、自分の務めを果たしたいだけなのです。他にもう、望みなんか……",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"7" : {
+						"event" : "Normal touch",
+						"media" : "touch_1_1",
+						"chinese" : "那个，能不能不要乱戳人家？",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "あの、そろそろ突くのをやめて欲しいのです。",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"8" : {
+						"event" : "Special touch",
+						"media" : "touch_2_1",
+						"chinese" : "……虽然不知道你在想什么，总之先在这里正坐反省下",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "……何を考えてるのか知らないですけど、とにかくそこに正座するのです。",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"9" : {
+						"event" : "Mail reminder",
+						"media" : "mail_1",
+						"chinese" : "茶给你拿来了",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "お茶をお持ちするです。",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"10" : {
+						"event" : "Return to port",
+						"media" : "home_1",
+						"chinese" : "工作辛苦了",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "お役目ご苦労様なのです。",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"11" : {
+						"event" : "Commission complete",
+						"media" : "expedition_1",
+						"chinese" : "平安回来了",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "はい、ただいま戻ったです。",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"12" : {
+						"event" : "Flagship fight",
+						"media" : "warcry_1",
+						"chinese" : "兵贵神速。不快点可不行",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "兵は拙速を尊ぶなのです。急がなければならないのです。",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"13" : {
+						"event" : "Love",
+						"media" : "feeling5_1",
+						"chinese" : "能和你一起生活……我很高兴",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "一緒に居てくれて……うれしかったです。",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					}
+				}
+			}
+		}
+	}
+}

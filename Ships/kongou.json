@@ -12,7 +12,7 @@
 	"navy": "Sakura Empire",
 	"prefix": "IJN",
 	"buildTime": "N/A",
-	"class": "Kongou",
+	"class": "Kongou-Class",
 	"voiceActress": "Chiwa Saito",
 	"parameters": {
 		"firepower": "A",
@@ -246,17 +246,34 @@
 		}
 	},
 	"drop": {
-		"droppable": "false",
+		"droppable": "true",
 		"list": {
 			"1": {
-				"event": "",
+				"event": "Ink-Stained Steel Sakura",
 				"chapter": {
 					"1": {
-						"label": "Ch .1",
+						"label": "Ch. B",
 						"node": {
 							"1": {
 								"drop": "✓",
-								"note": "-"
+								"note": ""
+							},
+							"2": {
+								"drop": "-",
+								"note": ""
+							}
+						}
+					},
+					"2": {
+						"label": "Ch. D",
+						"node": {
+							"1": {
+								"drop": "✓",
+								"note": ""
+							},
+							"2": {
+								"drop": "✓",
+								"note": ""
 							}
 						}
 					}
@@ -275,10 +292,10 @@
 						"event": "Ship Description",
 						"media": "",
 						"chinese": "金刚级高速战舰一番舰—金刚",
-						"chineseTL": "",
+						"chineseTL": "Kongou-class battlecruisers 1st ship—— Kongou",
 						"chineseNote": "",
 						"japanese": "金剛型高速戰艦一番艦・金剛",
-						"japaneseTL": "",
+						"japaneseTL": "Kongou-class fast battleship 1st ship, Kongou.",
 						"japaneseNote": "",
 						"english": "Kongou-class fast battleship number one – Kongou.",
 						"englishNote": ""
@@ -287,10 +304,10 @@
 						"event": "Biography",
 						"media": "profile",
 						"chinese": "金刚级高速战列舰首舰、第七代联合舰队旗舰、同时也是重樱最后一艘自海外订购的主力舰，享有如此多荣衔的——那就是我，金刚！",
-						"chineseTL": "",
+						"chineseTL": "Kongou-class fast battleship lead ship, 7th generation Combined Fleet's flagship. Also the final main force ship of the Sakura Empire ordered from overseas, the one who enjoys all these prestiges is me, Kongou!",
 						"chineseNote": "",
 						"japanese": "高速戦艦のネームシップ、七代目連合艦隊旗艦、そしてかつて重桜が海外に発注した最後の主力艦――それがこの私、金剛ですわ！",
-						"japaneseTL": "",
+						"japaneseTL": "The name ship of the Sakura Empire's fast battleships, the 7th flagship of the Combined Fleet, and the last capital ship the former Sakura Empire ordered from overseas, that's me, Kongou!",
 						"japaneseNote": "",
 						"english": "Nameship of the Fast Battleships, flagship of the 7th Combined Fleet, and the last Sakura capital ship to be laid down overseas - that is me, Kongou!",
 						"englishNote": ""
@@ -299,10 +316,10 @@
 						"event": "Acquisition",
 						"media": "get",
 						"chinese": "我是金刚级巡洋战舰一号舰，金刚。通向胜利的路途，就由我为指挥官探明！",
-						"chineseTL": "",
+						"chineseTL": "I am Kongou-class battlecruisers first ship, Kongou. The path to victory, I'll leave it to Commander to find it!",
 						"chineseNote": "",
 						"japanese": "金剛型巡洋戦艦一番艦、金剛です。勝利への道筋にこの私が導いて差し上げますわ！",
-						"japaneseTL": "",
+						"japaneseTL": "I am Kongou, Kongou-class battlecruiser ship number one. I offer you my guidance on the path to victory!",
 						"japaneseNote": "",
 						"english": "I am Kongou, lead ship of the Kongou-class battlecruisers. I shall illuminate the path that leads to victory!",
 						"englishNote": ""
@@ -311,10 +328,10 @@
 						"event": "Login",
 						"media": "login",
 						"chinese": "已经充分休息过了吗？舰队现在交由您来指挥",
-						"chineseTL": "",
+						"chineseTL": "Have you rested enough? The fleet is now under your command.",
 						"chineseNote": "",
 						"japanese": "休憩はもう十分？艦隊の指揮をそちらに戻しますわ",
-						"japaneseTL": "",
+						"japaneseTL": "Had enough rest yet? I'll return command of the fleet to you.",
 						"japaneseNote": "",
 						"english": "Have you had enough rest? The fleet now awaits your orders.",
 						"englishNote": ""
@@ -323,10 +340,10 @@
 						"event": "Details",
 						"media": "detail",
 						"chinese": "请千万不要忘记，战争的唯一价值便是和平",
-						"chineseTL": "",
+						"chineseTL": "Please be sure to not forget, the only value to war is peace.",
 						"chineseNote": "",
 						"japanese": "「戦争」に見いだせる唯一の価値はその先にある「平和」ですのよ。くれぐれも忘れないでほしいですわ",
-						"japaneseTL": "",
+						"japaneseTL": "The only virtue to be found in war is the peace that lies beyond. I sincerely hope you won't ever forget that.",
 						"japaneseNote": "",
 						"english": "The only value of war is the peace that follows it. I implore you to never forget this.",
 						"englishNote": ""
@@ -335,10 +352,10 @@
 						"event": "Main 1",
 						"media": "main_1",
 						"chinese": "区区鱼雷怎么可能击沉像我这样的战列舰！",
-						"chineseTL": "",
+						"chineseTL": "How could a battleship like me be sunk by a mere torpedo!",
 						"chineseNote": "",
 						"japanese": "戦艦であるこの私が魚雷ごときに沈められるもんですか！",
-						"japaneseTL": "",
+						"japaneseTL": "As if a battleship the likes of me could be sunk by a mere torpedo!",
 						"japaneseNote": "",
 						"english": "No way in hell a battleship like me is going to get taken out by some flimsy torpedo! ",
 						"englishNote": ""
@@ -347,10 +364,10 @@
 						"event": "Main 2",
 						"media": "main_2",
 						"chinese": "击溃眼前的敌人，越过那条狭隘的运河，重返我出生的地方吧——！",
-						"chineseTL": "",
+						"chineseTL": "Defeating the enemy before me, crossing that narrow canal, returning to my birthplace--!",
 						"chineseNote": "",
 						"japanese": "さあ、敵を駆逐して、あの狭き運河をも乗り越え、私の生誕地に向かうのですわ！",
-						"japaneseTL": "",
+						"japaneseTL": "Now let's destroy our enemies, pass through that narrow canal, and head to the place of my birth!",
 						"japaneseNote": "",
 						"english": "Come! Let's destroy our enemies, pass through that measly canal, and return to the land where I was born! ",
 						"englishNote": ""
@@ -359,10 +376,10 @@
 						"event": "Main 3",
 						"media": "main_3",
 						"chinese": "如果你认为我过于严肃，那是因为你太懈怠了！",
-						"chineseTL": "",
+						"chineseTL": "If you think I'm too strict, that's because you are slacking too much!",
 						"chineseNote": "",
 						"japanese": "この私がマジメすぎるですって？あなたこそフマジメすぎなのではなくて！？",
-						"japaneseTL": "",
+						"japaneseTL": "You think I'm being takings too seriously? Aren't you the one not taking things seriously enough!?",
 						"japaneseNote": "",
 						"english": "I take myself too seriously? No, you take yourself too lightly! ",
 						"englishNote": ""
@@ -371,10 +388,10 @@
 						"event": "Main 4",
 						"media": "main_4",
 						"chinese": "角？啊啊，你说这个啊，其实是帽子上的装饰哦，这样才比较有“重樱的一员”的感觉，不是吗？",
-						"chineseTL": "",
+						"chineseTL": "Horn? aha, you mean this, actually this is just a decoration on the hat. With this I feel more like \"a member of the Sakura\" right?",
 						"chineseNote": "",
 						"japanese": "角？あら、これのこと？制帽についているただのお飾りですわ。うふふ、こういうの、「重桜のメンバー」っぽくていい感じなのではなくて？",
-						"japaneseTL": "",
+						"japaneseTL": "Horns? Oh, you mean these? They're just decorations stuck to my hat. Ufufu, don't you think they make me seem more like a \"part\" of the Sakura Empire?",
 						"japaneseNote": "",
 						"english": "Horns? Oh, these things? They're just decorations on the hat. I wouldn't look much like a member of the Sakura Empire without them, right?",
 						"englishNote": ""
@@ -383,10 +400,10 @@
 						"event": "Touch",
 						"media": "touch_1",
 						"chinese": "发生必须优先处理的紧急事态了！？",
-						"chineseTL": "",
+						"chineseTL": "There's an urgent situation that needs to be dealt with!?",
 						"chineseNote": "",
 						"japanese": "な、なに！？緊急事態ですの！？",
-						"japaneseTL": "",
+						"japaneseTL": "W-what!? Is it an emergency!?",
 						"japaneseNote": "",
 						"english": "Wh-what is it!? An emergency!?",
 						"englishNote": ""
@@ -395,10 +412,10 @@
 						"event": "Touch (Special)",
 						"media": "touch_2",
 						"chinese": "指挥官，你该不会对我的妹妹们，也做出过此等不雅之举吧——",
-						"chineseTL": "",
+						"chineseTL": "Commander, don't tell me you've been doing such indecent things to my sisters too!",
 						"chineseNote": "",
 						"japanese": "ちょっとあなた、まさか私の妹たちにもこんな不埒なことをしているんじゃなくて！？",
-						"japaneseTL": "",
+						"japaneseTL": "Hey you, don't tell me you've been doing these outrageous things to my little sisters as well!?",
 						"japaneseNote": "",
 						"english": "Hey you, don't tell me you've been subjecting my sisters to such depravity as well!?",
 						"englishNote": ""
@@ -407,10 +424,10 @@
 						"event": "Mission",
 						"media": "task",
 						"chinese": "需要我亲自出马吗？",
-						"chineseTL": "",
+						"chineseTL": "Do I need to go out myself?",
 						"chineseNote": "",
 						"japanese": "この私自ら向かいましょうか？",
-						"japaneseTL": "",
+						"japaneseTL": "Shall I go forth myself?",
 						"japaneseNote": "",
 						"english": "Do I need to go do it myself?",
 						"englishNote": ""
@@ -419,10 +436,10 @@
 						"event": "Mission Complete",
 						"media": "mission_complete",
 						"chinese": "很好，距离最终的胜利又近了一步！",
-						"chineseTL": "",
+						"chineseTL": "Very good, the final victory is one step closer again!",
 						"chineseNote": "",
 						"japanese": "エクセレント！最後の勝利に向かって一歩前進ですわ！",
-						"japaneseTL": "",
+						"japaneseTL": "Excellent! One more step towards our final victory!",
 						"japaneseNote": "",
 						"english": "Excellent! We're one step closer towards our ultimate victory.",
 						"englishNote": ""
@@ -431,10 +448,10 @@
 						"event": "Mail",
 						"media": "mail",
 						"chinese": "根据新情报，重新调整下作战计划吧",
-						"chineseTL": "",
+						"chineseTL": "According to new information, you should reorganize your battle strategy a bit.",
 						"chineseNote": "",
 						"japanese": "新しい情報に基づいて作戦計画を調整しなさいな",
-						"japaneseTL": "",
+						"japaneseTL": "Use that new information as a foundation for your plan of operations.",
 						"japaneseNote": "",
 						"english": "Adjust your strategies in accordance with the new information.",
 						"englishNote": ""
@@ -443,10 +460,10 @@
 						"event": "Return to Port",
 						"media": "home",
 						"chinese": "辛苦了，有好好完成战术目标吗？",
-						"chineseTL": "",
+						"chineseTL": "Good work, have you properly finished the tactical objective?",
 						"chineseNote": "",
 						"japanese": "ご苦労さまですわ。戦術目標はちゃんと達成しました？",
-						"japaneseTL": "",
+						"japaneseTL": "Thank you for your hard work. Did you manage to achieve your tactical goals?",
 						"japaneseNote": "",
 						"english": "Good work out there. Were you able to achieve your tactical goals?",
 						"englishNote": ""
@@ -455,10 +472,10 @@
 						"event": "Commission Complete",
 						"media": "expedition",
 						"chinese": "呼——稍微休息一下吧。指挥官，要来杯红茶吗？",
-						"chineseTL": "",
+						"chineseTL": "Whew—— Let's rest a bit. Commander, want a cup of black tea?",
 						"chineseNote": "",
 						"japanese": "ふぅ……少し休憩しますわ。指揮官、紅茶でもいかがかしら？",
-						"japaneseTL": "",
+						"japaneseTL": "Phew… Let's take a short break. How about some tea, Commander?",
 						"japaneseNote": "",
 						"english": "Phew... time to take a break. Commander, does black tea suit you?",
 						"englishNote": ""
@@ -467,10 +484,10 @@
 						"event": "Enhancement",
 						"media": "upgrade",
 						"chinese": "呼……又多了一张底牌",
-						"chineseTL": "",
+						"chineseTL": "Whew.... Another trick up my sleeve to use.",
 						"chineseNote": "",
 						"japanese": "ふぅ～、切り札がもう一枚増えましたわ！",
-						"japaneseTL": "",
+						"japaneseTL": "Phew~ I've gained one more trick up my sleeve!",
 						"japaneseNote": "",
 						"english": "Phew... another trump card to add to my hand.",
 						"englishNote": ""
@@ -479,10 +496,10 @@
 						"event": "Flagship",
 						"media": "warcry",
 						"chinese": "全员展开战斗序列！",
-						"chineseTL": "",
+						"chineseTL": "All ships to battle formation!",
 						"chineseNote": "",
 						"japanese": "全艦、戦闘配置！",
-						"japaneseTL": "",
+						"japaneseTL": "All ship, battle stations!",
 						"japaneseNote": "",
 						"english": "All units, battle formations!",
 						"englishNote": ""
@@ -491,10 +508,10 @@
 						"event": "Victory",
 						"media": "mvp",
 						"chinese": "胜利即是优雅！",
-						"chineseTL": "",
+						"chineseTL": "Victory is elegance!",
 						"chineseNote": "",
 						"japanese": "勝利とはすなわち、優雅ですわ！",
-						"japaneseTL": "",
+						"japaneseTL": "Victory is elegance!",
 						"japaneseNote": "",
 						"english": "To be victorious is to be elegant!",
 						"englishNote": ""
@@ -503,22 +520,22 @@
 						"event": "Defeat",
 						"media": "lose",
 						"chinese": "请放心，局势还没到不可挽回的地步",
-						"chineseTL": "",
+						"chineseTL": "Please rest assured, the situation is not yet unsalvageable.",
 						"chineseNote": "",
 						"japanese": "ご安心を。まだ覆せないほど戦局が傾いている訳ではありませんわ",
-						"japaneseTL": "",
+						"japaneseTL": "Do not worry. The situation hasn't yet become so bad that we can't make a comeback.",
 						"japaneseNote": "",
 						"english": "Please rest at ease. This situation can still be salvaged.",
 						"englishNote": ""
 					},
 					"21": {
-						"event": "skill",
+						"event": "Skill",
 						"media": "skill",
 						"chinese": "一鼓作气——！",
-						"chineseTL": "",
+						"chineseTL": "With vigor——!",
 						"chineseNote": "",
 						"japanese": "畳み掛けますわ！",
-						"japaneseTL": "",
+						"japaneseTL": "I'll press the offensive!",
 						"japaneseNote": "",
 						"english": "Press the attack!",
 						"englishNote": ""
@@ -527,10 +544,10 @@
 						"event": "Low HP",
 						"media": "hp",
 						"chinese": "逆转的机会来了！",
-						"chineseTL": "",
+						"chineseTL": "This is our chance to turn the table!",
 						"chineseNote": "",
 						"japanese": "一発逆転のチャンスですわ！",
-						"japaneseTL": "",
+						"japaneseTL": "This is our chance to turn things around!",
 						"japaneseNote": "",
 						"english": "Now is the time to make our comeback!",
 						"englishNote": ""
@@ -539,10 +556,10 @@
 						"event": "Affinity (Upset)",
 						"media": "feeling1",
 						"chinese": "你不配拥有胜利！",
-						"chineseTL": "",
+						"chineseTL": "You don't deserve victory!",
 						"chineseNote": "",
 						"japanese": "あなたは勝利にふさわしくありませんわ！",
-						"japaneseTL": "",
+						"japaneseTL": "You are not worthy of victory!",
 						"japaneseNote": "",
 						"english": "You do not deserve victory!",
 						"englishNote": ""
@@ -551,10 +568,10 @@
 						"event": "Affinity (Stranger)",
 						"media": "feeling2",
 						"chinese": "指挥官，请安心等待胜利的到来吧",
-						"chineseTL": "",
+						"chineseTL": "Commander, please wait patiently for the arrival of victory.",
 						"chineseNote": "",
 						"japanese": "指揮官、勝利が訪ねてくるのを、心して待つがよろしくてよ？",
-						"japaneseTL": "",
+						"japaneseTL": "Victory comes to those who wait, Commander.",
 						"japaneseNote": "",
 						"english": "Commander, please be at ease, for victory shall soon come.",
 						"englishNote": ""
@@ -563,10 +580,10 @@
 						"event": "Affinity (Friendly)",
 						"media": "feeling3",
 						"chinese": "瑞鹤一个人出击没问题吧……嗯，这个距离应该不会被她发现",
-						"chineseTL": "",
+						"chineseTL": "I wonder if Zuikaku is okay going out by herself...... Mm, probably won't be noticed by her from this distance.",
 						"chineseNote": "",
 						"japanese": "瑞鶴は一人で大丈夫かしら……うん、少し遠くから見守ってみますわ。この距離なら見つかる心配はないはず…",
-						"japaneseTL": "",
+						"japaneseTL": "I wonder if Zuikaku would be alright by herself… Yeah, I'll watch over her from afar. She shouldn't be able to find out from this far away…",
 						"japaneseNote": "",
 						"english": "Will Zuikaku be fine on her own...? Mm... I'll watch her from here. From this distance, she probably won't notice me...",
 						"englishNote": ""
@@ -575,10 +592,10 @@
 						"event": "Affinity (Like)",
 						"media": "feeling4",
 						"chinese": "听说在黄昏时分，人最容易吐露心声……你也是这样吗？",
-						"chineseTL": "",
+						"chineseTL": "I heard that during dusk, people are more likely to speak their mind...... Is it true for you as well?",
 						"chineseNote": "",
 						"japanese": "人は黄昏時に一番心を打ち明けやすいと聞いた事があるけど……あなたも…そ、そうなのかしら？",
-						"japaneseTL": "",
+						"japaneseTL": "I have heard that dusk is the time when people are most likely to open their hearts, but… is that… i-is that true for you as well?",
 						"japaneseNote": "",
 						"english": "I've heard that people are most likely to reveal their sentiments at twilight... I wonder if you're also like this?",
 						"englishNote": ""
@@ -587,10 +604,10 @@
 						"event": "Affinity (Love)",
 						"media": "feeling5",
 						"chinese": "比叡今晚又要举办宴会吗……指挥官，你有时间陪我一起去吗？",
-						"chineseTL": "",
+						"chineseTL": "Hiei is hosting another banquet tonight...... Commander, do you have time to accompany me?",
 						"chineseNote": "",
 						"japanese": "比叡のやつまた宴会を開いて……指揮官、今夜は付き合っていただけるのかしら？",
-						"japaneseTL": "",
+						"japaneseTL": "Hiei is throwing yet another banquet… Could you keep me company tonight, Commander?",
 						"japaneseNote": "",
 						"english": "That Hiei, trying to throw a party again tonight... Commander, do you have time to keep me company there?",
 						"englishNote": ""
@@ -599,10 +616,10 @@
 						"event": "Pledge",
 						"media": "propose",
 						"chinese": "既然你已为追逐我的身影付出这么多努力，那么我确然也应对你有所回应。来，牵住我的手吧",
-						"chineseTL": "",
+						"chineseTL": "Since you tried so hard to pursue me, I shall respond to your feelings. Come, hold my hand.",
 						"chineseNote": "",
 						"japanese": "私を追いかける努力にちゃんと報いて差し上げなくてはなりませんわね。さあ、私の手をしっかり取ってちょうだい",
-						"japaneseTL": "",
+						"japaneseTL": "I need to properly reward you for your persistence in pursuing me. Go ahead, take my hand firmly.",
 						"japaneseNote": "",
 						"english": "Since you've put so much effort into pursuing me so passionately, it is only fitting that I give you the proper respect. Come, you've earned my hand.",
 						"englishNote": ""
@@ -611,10 +628,10 @@
 						"event": "Easter Egg 1 (Hiei, Haruna, Kirishima)",
 						"media": "link1",
 						"chinese": "高速战舰战队，出击！",
-						"chineseTL": "",
+						"chineseTL": "(Hiei, Haruna, Kirishima) Fast battleship division, move out!",
 						"chineseNote": "",
 						"japanese": "高速戦艦、出撃しますわ！",
-						"japaneseTL": "",
+						"japaneseTL": "(Sortie with Hiei, Haruna, or Kirishima) High speed battleships, sortie!",
 						"japaneseNote": "",
 						"english": "Fast battleship squadron, sortieing！",
 						"englishNote": ""
@@ -623,10 +640,10 @@
 						"event": "Easter Egg 2 (Hiei)",
 						"media": "link2",
 						"chinese": "一同迈向胜利吧！",
-						"chineseTL": "",
+						"chineseTL": "(Hiei) Step together towards victory!",
 						"chineseNote": "",
 						"japanese": "勝利へと進みますわ！",
-						"japaneseTL": "",
+						"japaneseTL": "(Sortie with Hiei) Let's go forth to victory!",
 						"japaneseNote": "",
 						"english": "Let's pursue victory together!",
 						"englishNote": ""
@@ -635,10 +652,10 @@
 						"event": "Easter Egg 3 (Haruna)",
 						"media": "link3",
 						"chinese": "千、千万小心敌方的炮弹！",
-						"chineseTL": "",
+						"chineseTL": "(Haruna) Be very, very careful of enemy fire!",
 						"chineseNote": "",
 						"japanese": "て、敵の砲弾には気をつけて頂戴！",
-						"japaneseTL": "",
+						"japaneseTL": "(Sortie with Haruna) P-please be careful of enemy fire!",
 						"japaneseNote": "",
 						"english": "W-watch out for enemy fire!",
 						"englishNote": ""
@@ -647,12 +664,24 @@
 						"event": "Easter Egg 4 (Kirishima)",
 						"media": "link4",
 						"chinese": "在战场上受欢迎可不是好事",
-						"chineseTL": "",
+						"chineseTL": "(Kirishima) To be welcomed on the battlefield is not a good thing.",
 						"chineseNote": "",
 						"japanese": "人気者なんて…戦場では決して良いものではありませんわよ？",
-						"japaneseTL": "",
+						"japaneseTL": "(Sortie with Kirishima) Being popular… isn't something that's advantageous whatsoever in battle!",
 						"japaneseNote": "",
 						"english": "Being popular... is best saved for when you're off the battlefield.",
+						"englishNote": ""
+					},
+					"33": {
+						"event": "Valentines 2019",
+						"media": "",
+						"chinese": "在这个节日，可不只是送巧克力才能表达心意呢。所以，指挥官，除了巧克力，我还准备了一些小礼品哦。不用客气，你值得我这么做。",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "チョコ以外にも小さな贈り物をいくつか用意しましたの。気持ちを伝えられるのはチョコだけ、ということはないのではなくて？あら、指揮官、遠慮など要りませんわ。あなたには私がここまでするだけの価値がある、ということですわ",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
 						"englishNote": ""
 					}
 				}
@@ -785,5 +814,18 @@
 				}
 			}
 		}
+	},
+	"fleet_tech": {
+		"pt_get": "10",
+		"add_get_attr": "HP",
+		"add_get_value": "1",
+		"add_get_shiptype": "Battlecruiser,Battleship,Aviation Battleship",
+		"pt_upgrade": "21",
+		"pt_level": "16",
+		"add_level_attr": "Evasion",
+		"add_level_value": "1",
+		"add_level_shiptype": "Battlecruiser",
+		"t_level": "3",
+		"ships": "kongou,hiei,haruna,kirishima"
 	}
 }

@@ -12,7 +12,6 @@
 	"navy" : "Ironblood",
 	"prefix" : "KMS",
 	"buildTime" : "",
-	"class" : "",
 	"voiceActress" : "Ryoko Ono",
 	"parameters": {
 		"firepower" : "C",
@@ -40,6 +39,7 @@
 		"pixiv" : "",
 		"other" : ""
 	},
+	"class" : "Konigsberg-Class",
 	"enhance": {
 		"firepower" : "12",
 		"torpedo" : "17",
@@ -53,14 +53,14 @@
 			"requirement" : "",
 			"name" : "Full Firepower",
 			"type" : "Offensive",
-			"description" : "$1 chance to activate every 20s: increases this ship's FP by $2 for 10s."
+			"description" : "Every 20s: $1 chance to increase this ship's FP by $2 for 10s."
 		},
 		"2" : {
 			"icon" : "23111",
 			"requirement" : "",
 			"name" : "All Out Assault Ⅰ",
 			"type" : "Offensive",
-			"description" : "Activate All Out Assault Ⅰ: Königsberg Class once every 12 times the main gun is fired."
+			"description" : "Activates All Out Assault Ⅰ: Königsberg Class once every 12 times the Main Guns are fired."
 		}
 	},
 	"skin": {
@@ -71,6 +71,28 @@
 			"expression" : {
 				"0" : {
 					"id" : "0"
+				}
+			}
+		},
+		"2" : {
+			"id" : "kelong_g",
+			"name" : "ケルン改",
+			"description" : "うん、前よりもっと上手く執務を補佐できる気がします。指揮官、ご安心ください、指揮官の重用と期待、ケルンは絶対に裏切ったりはしません",
+			"expression" : {
+				"0" : {
+					"id" : "0"
+				},
+				"1" : {
+					"id" : "1"
+				},
+				"2" : {
+					"id" : "2"
+				},
+				"3" : {
+					"id" : "3"
+				},
+				"4" : {
+					"id" : "4"
 				}
 			}
 		}
@@ -145,34 +167,34 @@
 			"armor" : "Light"
 		},
 		"100retrofit": {
-			"hp" : "",
-			"firepower" : "",
-			"torpedo" : "",
-			"antiAir" : "",
-			"aviation" : "",
-			"reload" : "",
-			"hit" : "",
-			"evasion" : "",
+			"hp" : "3229",
+			"firepower" : "153",
+			"torpedo" : "284",
+			"antiAir" : "310",
+			"aviation" : "0",
+			"reload" : "157",
+			"hit" : "133",
+			"evasion" : "76",
 			"speed" : "32",
 			"luck" : "62",
-			"asw" : "",
+			"asw" : "93",
 			"oxygen" : "0",
 			"ammo" : "0",
 			"cost" : "8",
 			"armor" : "Light"
 		},
 		"120retrofit": {
-			"hp" : "",
-			"firepower" : "",
-			"torpedo" : "",
-			"antiAir" : "",
-			"aviation" : "",
-			"reload" : "",
-			"hit" : "",
-			"evasion" : "",
+			"hp" : "3612",
+			"firepower" : "172",
+			"torpedo" : "318",
+			"antiAir" : "348",
+			"aviation" : "0",
+			"reload" : "180",
+			"hit" : "153",
+			"evasion" : "100",
 			"speed" : "32",
 			"luck" : "62",
-			"asw" : "",
+			"asw" : "105",
 			"oxygen" : "0",
 			"ammo" : "0",
 			"cost" : "8",
@@ -204,17 +226,30 @@
 			"preload": "0/0/0/0"
 		},
 		"4": {
-			"type": "Auxiliary",
+			"type": "Auxilary",
 			"efficiency": "-",
 			"amount": "-",
 			"preload": "-"
 		},
 		"5": {
-			"type": "Auxiliary",
+			"type": "Auxilary",
 			"efficiency": "-",
 			"amount": "-",
 			"preload": "-"
 		}
+	},
+	"fleet_tech": {
+		"pt_get": "6",
+		"add_get_attr": "HP",
+		"add_get_value": "1",
+		"add_get_shiptype": "Light Cruiser",
+		"pt_upgrade": "14",
+		"pt_level": "10",
+		"add_level_attr": "HP",
+		"add_level_value": "1",
+		"add_level_shiptype": "Light Cruiser",
+		"t_level": "3",
+		"ships": "konigsberg,karlsruhe,koln"
 	},
 	"build": {
 		"light": {
@@ -574,6 +609,121 @@
 						"japaneseTL" : "",
 						"japaneseNote" : "",
 						"english" : "With this... I can get much closer to Commander! A-ahem... it's nothing! Thank you, Commander, I won't let you down.",
+						"englishNote" : ""
+					}
+				}
+			},
+			"2": {
+				"skin_id" : "kelong_g",
+				"id" : "9",
+				"label" : "ケルン改",
+				"dialogue" : {
+					"1" : {
+						"event" : "Ship Description",
+						"media" : "",
+						"chinese" : "嗯哼，感觉能够比以前更加进一步地进行辅佐工作了呢。放心吧指挥官，科隆不会让你的器重与期待白费的",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "うん、前よりもっと上手く執務を補佐できる気がします。指揮官、ご安心ください、指揮官の重用と期待、ケルンは絶対に裏切ったりはしません",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"2" : {
+						"event" : "Acquisition",
+						"media" : "get_9",
+						"chinese" : "嗯哼，感觉能够比以前更加进一步地进行辅佐工作了呢。放心吧指挥官，科隆不会让你的器重与期待白费的",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"3" : {
+						"event" : "Login",
+						"media" : "login_9",
+						"chinese" : "这是今天的计划条目，以及我整理的事务处理优先级，请过目",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"4" : {
+						"event" : "Details",
+						"media" : "detail_9",
+						"chinese" : "除了数据，有其他任何想要了解的，也可以尽管问我哦，指挥官？",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"5" : {
+						"event" : "Main 1",
+						"media" : "main_1_9",
+						"chinese" : "有了严谨的计划，工作就能更加有条不紊的进行下去。指挥官，您的下一件待办事项是——",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"6" : {
+						"event" : "Main 2",
+						"media" : "main_2_9",
+						"chinese" : "安静的办公室环境才能保证工作的顺利进行，哈啊…希望姐姐们不要又来了……",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"7" : {
+						"event" : "Main 3",
+						"media" : "main_3_9",
+						"chinese" : "有空的话，不妨来战术学院旁听一下如何，指挥官？",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"8" : {
+						"event" : "Touch",
+						"media" : "touch_1_9",
+						"chinese" : "比起盯着我看或是找我聊天，指挥官应该还有更重要的事情需要处理，不是吗？",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"9" : {
+						"event" : "Touch (Special)",
+						"media" : "touch_2_9",
+						"chinese" : "有时候还是需要担心一下自己在港区的风评呢，指挥官……",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
 						"englishNote" : ""
 					}
 				}

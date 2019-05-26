@@ -1,31 +1,31 @@
 {
-	"name_reference" : "neptune",
-	"cn_reference" : "haiwangxing",
-	"nameJP" : "ネプチューン",
-	"nameCN" : "海王星",
-	"ID" : "P001",
-	"name" : "Neptune",
-	"internal_id" : "299011",
-	"rarity" : "Priority",
-	"initialStar" : "★★★☆☆☆",
-	"hull" : "Light Cruiser",
-	"navy" : "Royal Navy",
-	"prefix" : "HMS",
-	"buildTime" : "N/A",
-	"class" : "Neptune",
-	"voiceActress" : "Mikako Izawa",
+	"name_reference": "neptune",
+	"cn_reference": "haiwangxing",
+	"nameJP": "ネプチューン",
+	"nameCN": "海王星",
+	"ID": "P001",
+	"name": "Neptune",
+	"internal_id": "299011",
+	"rarity": "Priority",
+	"initialStar": "★★★☆☆☆",
+	"hull": "Light Cruiser",
+	"navy": "Royal Navy",
+	"prefix": "HMS",
+	"buildTime": "N/A",
+	"class": "Neptune-Class",
+	"voiceActress": "Mikako Izawa",
 	"parameters": {
-		"firepower" : "B",
-		"torpedo" : "A",
-		"aviation" : "E",
-		"evasion" : "B",
-		"antiAir" : "A",
-		"hp" : "B"
+		"firepower": "B",
+		"torpedo": "A",
+		"aviation": "E",
+		"evasion": "B",
+		"antiAir": "A",
+		"hp": "B"
 	},
 	"scrap": {
-		"gold" : "6",
-		"oil" : "3",
-		"medal" : "10"
+		"gold": "6",
+		"oil": "3",
+		"medal": "10"
 	},
 	"releaseDate": {
 		"JP": "April 26, 2018",
@@ -34,205 +34,213 @@
 		"EN": "-"
 	},
 	"artist": {
-    	"name": "梦咲枫",
+		"name": "梦咲枫",
 		"weibo": "https://www.weibo.com/u/3558369570",
 		"twitter": "https://twitter.com/yumesaki_kaede",
 		"pixiv": "https://www.pixiv.net/member.php?id=1023957",
 		"other": ""
 	},
 	"enhance": {
-		"firepower" : "0",
-		"torpedo" : "0",
-		"aviation" : "0",
-		"reload" : "0"
+		"firepower": "0",
+		"torpedo": "0",
+		"aviation": "0",
+		"reload": "0"
 	},
-	"acquisitionMethod" : "Priority Research",
+	"acquisitionMethod": "Research and Development",
 	"skill": {
-		"1" : {
-			"icon" : "19010",
-			"requirement" : "Default Unlocked",
-			"name" : "MKV-Class AP Shell",
-			"type" : "Offensive",
-			"description" : "Increases this ship's DMG with AP ammo by 15% (35%)."
+		"1": {
+			"icon": "19010",
+			"requirement": "Default Unlocked",
+			"name": "MKV-Class AP Shell",
+			"type": "Offensive",
+			"description": "Increases this ship's DMG with AP ammo by 15% (35%)."
 		},
-		"2" : {
-			"icon" : "19020",
-			"requirement" : "Default Unlocked",
-			"name" : "Goddess of the Sea",
-			"type" : "Defensive",
-			"description" : "When this ship's HP falls below 20.0%: restores 15% (25%) of its max HP. Additionally, for the rest of the battle: increases this ship's RLD by 30.0%. This skill can only activate once per battle."
+		"2": {
+			"icon": "19010",
+			"requirement": "Strengthen Level 35",
+			"name": "Goddess of the Sea",
+			"type": "Offensive",
+			"description": "Increases this ship's DMG with AP ammo by 20% (40%)."
 		},
-		"3" : {
-			"icon" : "19000",
-			"requirement" : "Strenghten Level 10 (I) / Level 20 (II) / Level 30 (III)",
-			"name" : "Siren Killer Ⅰ",
-			"type" : "Offensive",
-			"description" : "Increases the DMG this ship deals to Sirens by 5.0%."
+		"3": {
+			"icon": "19020",
+			"requirement": "Default Unlocked",
+			"name": "Siren Killer Ⅰ",
+			"type": "Defensive",
+			"description": "When this ship's HP falls below 20.0%: restores 15% (25%) of its max HP. Additionally, for the rest of the battle: increases this ship's RLD by 30.0%. This skill can only activate once per battle."
 		},
-		"4" : {
-			"icon" : "29231",
-			"requirement" : "Strenghten Level 10 (I) / Level 30 (III)",
-			"name" : "EX Barrage: Neptune Ⅰ",
-			"type" : "Offensive",
-			"description" : "Activate EX Barrage: Neptune Ⅰ once every 12 times the main gun is fired."
+		"4": {
+			"icon": "19000",
+			"requirement": "Strenghten Level 10 (I) / Level 20 (II) / Level 30 (III)",
+			"name": "EX Barrage: Neptune Ⅰ",
+			"type": "Offensive",
+			"description": "Increases the DMG this ship deals to Sirens by 5.0%."
+		},
+		"5": {
+			"icon": "29231",
+			"requirement": "Strenghten Level 10 (I) / Level 30 (III)",
+			"name": "EX Barrage: Neptune Ⅰ",
+			"type": "Offensive",
+			"description": "Activate EX Barrage: Neptune Ⅰ once every 12 times the main gun is fired."
 		}
 	},
 	"skin": {
-		"1" : {
-			"id" : "haiwangxing",
-			"name" : "Neptune",
-			"description" : "Light cruiser, Neptune.",
-			"expression" : {
-				"0" : {
-					"id" : "0"
+		"1": {
+			"id": "haiwangxing",
+			"name": "Neptune",
+			"description": "Light cruiser, Neptune.",
+			"expression": {
+				"0": {
+					"id": "0"
 				}
 			}
 		}
 	},
 	"defaultEquipment": {
-		"1" : {
-			"icon" : "",
-			"rarity" : "",
-			"name" : ""
+		"1": {
+			"icon": "",
+			"rarity": "",
+			"name": ""
 		},
-		"2" : {
-			"icon" : "",
-			"rarity" : "",
-			"name" : ""
+		"2": {
+			"icon": "",
+			"rarity": "",
+			"name": ""
 		},
-		"3" : {
-			"icon" : "",
-			"rarity" : "",
-			"name" : ""
+		"3": {
+			"icon": "",
+			"rarity": "",
+			"name": ""
 		}
 	},
 	"stats": {
-		"base": {
-			"hp" : "815",
-			"firepower" : "32",
-			"torpedo" : "67",
-			"antiAir" : "69",
-			"aviation" : "0",
-			"reload" : "60",
-			"hit" : "54",
-			"evasion" : "28",
-			"speed" : "33.5",
-			"luck" : "0",
-			"asw" : "37",
-			"oxygen" : "0",
-			"ammo" : "0",
-			"cost" : "3",
-			"armor" : "Light"
-		},
 		"100": {
-			"hp" : "4215",
-			"firepower" : "149",
-			"torpedo" : "312",
-			"antiAir" : "323",
-			"aviation" : "0",
-			"reload" : "142",
-			"hit" : "141",
-			"evasion" : "73",
-			"speed" : "33.5",
-			"luck" : "0",
-			"asw" : "135",
-			"oxygen" : "0",
-			"ammo" : "0",
-			"cost" : "12",
-			"armor" : "Light"
+			"hp": "4215",
+			"firepower": "149",
+			"torpedo": "312",
+			"antiAir": "323",
+			"aviation": "0",
+			"reload": "142",
+			"hit": "141",
+			"evasion": "73",
+			"speed": "33.5",
+			"luck": "15",
+			"asw": "135",
+			"oxygen": "0",
+			"ammo": "0",
+			"cost": "12",
+			"armor": "Light"
 		},
 		"120": {
-			"hp" : "4637",
-			"firepower" : "172",
-			"torpedo" : "352",
-			"antiAir" : "363",
-			"aviation" : "0",
-			"reload" : "164",
-			"hit" : "158",
-			"evasion" : "98",
-			"speed" : "33.5",
-			"luck" : "0",
-			"asw" : "152",
-			"oxygen" : "0",
-			"ammo" : "0",
-			"cost" : "12",
-			"armor" : "Light"
+			"hp": "4637",
+			"firepower": "172",
+			"torpedo": "352",
+			"antiAir": "363",
+			"aviation": "0",
+			"reload": "164",
+			"hit": "158",
+			"evasion": "98",
+			"speed": "33.5",
+			"luck": "15",
+			"asw": "152",
+			"oxygen": "0",
+			"ammo": "0",
+			"cost": "12",
+			"armor": "Light"
+		},
+		"base": {
+			"hp": "815",
+			"firepower": "32",
+			"torpedo": "67",
+			"antiAir": "69",
+			"aviation": "0",
+			"reload": "60",
+			"hit": "54",
+			"evasion": "28",
+			"speed": "33.5",
+			"luck": "0",
+			"asw": "37",
+			"oxygen": "0",
+			"ammo": "0",
+			"cost": "3",
+			"armor": "Light"
 		},
 		"100retrofit": {
-			"hp" : "",
-			"firepower" : "",
-			"torpedo" : "",
-			"antiAir" : "",
-			"aviation" : "",
-			"reload" : "",
-			"hit" : "",
-			"evasion" : "",
-			"speed" : "33.5",
-			"luck" : "0",
-			"asw" : "",
-			"oxygen" : "0",
-			"ammo" : "0",
-			"cost" : "12",
-			"armor" : "Light"
+			"hp": "",
+			"firepower": "",
+			"torpedo": "",
+			"antiAir": "",
+			"aviation": "",
+			"reload": "",
+			"hit": "",
+			"evasion": "",
+			"speed": "33.5",
+			"luck": "15",
+			"asw": "",
+			"oxygen": "0",
+			"ammo": "0",
+			"cost": "12",
+			"armor": "Light"
 		},
 		"120retrofit": {
-			"hp" : "",
-			"firepower" : "",
-			"torpedo" : "",
-			"antiAir" : "",
-			"aviation" : "",
-			"reload" : "",
-			"hit" : "",
-			"evasion" : "",
-			"speed" : "33.5",
-			"luck" : "0",
-			"asw" : "",
-			"oxygen" : "0",
-			"ammo" : "0",
-			"cost" : "12",
-			"armor" : "Light"
+			"hp": "",
+			"firepower": "",
+			"torpedo": "",
+			"antiAir": "",
+			"aviation": "",
+			"reload": "",
+			"hit": "",
+			"evasion": "",
+			"speed": "33.5",
+			"luck": "15",
+			"asw": "",
+			"oxygen": "0",
+			"ammo": "0",
+			"cost": "12",
+			"armor": "Light"
 		}
 	},
-  	"strengthenLevel": {
-	    "level5": "Torpedo Base +1, Torpedo Pre-load +1",
-	    "level10": "Full Barrage I, Main Gun Efficiency +5%, Limit Break ★★★★☆☆",
-	    "level15": "Main Gun Efficiency +5%",
-	    "level20": "Torpedo Efficiency +10%, Limit Break ★★★★★☆",
-	    "level25": "Main Gun Efficiency +10%",
-	    "level30": "Full Barrage II, Main Gun Efficiency +15%, Limit Break ★★★★★★"
-  	},
+	"strengthenLevel": {
+		"level5": "HP +199 | Anti-Air +17 | Torpedo Base +1 | Preloaded Torpedo +1",
+		"level10": "Full Barrage I | Main Gun Efficiency +5% | Limit Break ★★★★☆☆",
+		"level15": "HP +398 | Anti-Air +34 | Main Gun Efficiency +5%",
+		"level20": "Torpedo Efficiency +10% | Limit Break ★★★★★☆",
+		"level25": "HP +569 | Anti-Air +51 | Main Gun Efficiency +5%",
+		"level30": "Full Barrage II | Main Gun Efficiency +15% | Limit Break ★★★★★★",
+		"level35": "Luck +15, Improve skill \"MKV-Class AP Shell\""
+	},
 	"equipmentLoadout": {
-    "1": {
-      "type": "CL Main Gun",
-      "efficiency": "120%/150%",
-      "amount": "1/1",
-      "preload": "0/0"
-    },
-    "2": {
-      "type": "Torpedo",
-      "efficiency": "150%/160%",
-      "amount": "1/2",
-      "preload": "0/0"
-    },
-    "3": {
-      "type": "Anti-Air Gun",
-      "efficiency": "100%/100%",
-      "amount": "1/1",
-      "preload": "0/0"
-    },
-    "4": {
-      "type": "Auxilliary",
-      "efficiency": "-",
-      "amount": "-",
-      "preload": "-"
-    },
-    "5": {
-      "type": "Auxilliary",
-      "efficiency": "-",
-      "amount": "-",
-      "preload": "-"
-    }
-  },
+		"1": {
+			"type": "CL Main Gun",
+			"efficiency": "120%/125%/130%/150%",
+			"amount": "1/1/1/1",
+			"preload": "0/0/0/0"
+		},
+		"2": {
+			"type": "Torpedo",
+			"efficiency": "150%/150%/160%/160%",
+			"amount": "1/2/2/2",
+			"preload": "0/1/1/1"
+		},
+		"3": {
+			"type": "Anti-Air Gun",
+			"efficiency": "100%/100%/100%/100%",
+			"amount": "1/1/1/1",
+			"preload": "0/0/0/0"
+		},
+		"4": {
+			"type": "Auxiliary",
+			"efficiency": "-",
+			"amount": "-",
+			"preload": "-"
+		},
+		"5": {
+			"type": "Auxiliary",
+			"efficiency": "-",
+			"amount": "-",
+			"preload": "-"
+		}
+	},
 	"build": {
 		"light": {
 			"JP": "",
@@ -277,10 +285,10 @@
 	"lines": {
 		"skin": {
 			"1": {
-				"skin_id" : "haiwangxing",
-				"id" : "0",
-				"label" : "Neptune",
-				"dialogue" : {
+				"skin_id": "haiwangxing",
+				"id": "0",
+				"label": "Neptune ",
+				"dialogue": {
 					"1": {
 						"event": "Ship Description",
 						"media": "",
@@ -290,7 +298,7 @@
 						"japanese": "軽巡洋艦・ネプテューヌ",
 						"japaneseTL": "Light cruiser, Neptune.",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Light cruiser – Neptune.",
 						"englishNote": ""
 					},
 					"2": {
@@ -302,7 +310,7 @@
 						"japanese": "私のカンレキ？うふふ、設計のみで存在していた大型巡洋艦のネプチューン、ご存知ないのも仕方のないことですわ。戦場にこそ出たことはありませんが、性能は一流であること……実戦で証明して差し上げますわ♪",
 						"japaneseTL": "My ship history? (Giggle) It's understandable that you don't know about me since I'm Neptune, a large cruiser that only existed in blueprints. I may have never stood on the battlefield, but I'll prove that my performance is top notch in live combat♪",
 						"japaneseNote": "",
-						"english": "",
+						"english": "My background? Ehehe, I am the large light cruiser who only existed on paper, Neptune, so it is understandable that you have never heard of me before. Though I have yet to step onto the battlefield, my abilities are top notch... allow me to prove that to you in live combat~",
 						"englishNote": ""
 					},
 					"3": {
@@ -314,7 +322,7 @@
 						"japanese": "私？私はロイヤルの大型巡洋艦のネプチューンと申しますわ。うふふ、私のこと、忘れられなくしてさしあげます♪はい、よろしくお願いします♪",
 						"japaneseTL": "Me? I am Neptune, a Royal Navy large cruiser. (Giggle) I'll make sure that you'll never forget me♪ I'm pleased to be of service♪",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Who am I? I am the Royal Navy's large light cruiser, Neptune. I shall see to it that you will never forget my name~♪ Yes, pleased to be of service~♪",
 						"englishNote": ""
 					},
 					"4": {
@@ -326,7 +334,7 @@
 						"japanese": "いけませんわ指揮官様、私をこんなに待たせるなんて",
 						"japaneseTL": "It's not good to keep me waiting, Commander.",
 						"japaneseNote": "",
-						"english": "",
+						"english": "That simply will not do, Commander, keeping me waiting all this time~",
 						"englishNote": ""
 					},
 					"5": {
@@ -338,7 +346,7 @@
 						"japanese": "これですか？トライデントといいますわ。カッコイイと思いませんこと？",
 						"japaneseTL": "This? It's called a trident. Don't you think it's cool?",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Want to know about this? It's called a trident. Don't you think it's cool?",
 						"englishNote": ""
 					},
 					"6": {
@@ -350,7 +358,7 @@
 						"japanese": "他の子と違って、私だけの乙女航海（ヴァージンクルーズ）…実戦経験の差というもの、ちょっと確かめたくなりますわ",
 						"japaneseTL": "Unlike the other girls, I'm the only one on my virgin cruise… I want to see the difference between me and them through experiencing live combat.",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Unlike the other girls, this is my \"maiden voyage\" onto the battlefield. I wish to confirm for myself what this oft-touted \"difference in experience\" looks like. ",
 						"englishNote": ""
 					},
 					"7": {
@@ -362,7 +370,7 @@
 						"japanese": "指揮官様、「お願いしますネプチューン様」と願って下されば、良いことが起こるかも知れませんことよ？",
 						"japaneseTL": "Commander, if you kindly ask me with a \"pretty please, Miss Neptune,\" something good might happen.",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Commander, if you get on your knees and beg, \"Please, Mistress Neptune,\" perhaps there would be a chance for something nice to happen? ",
 						"englishNote": ""
 					},
 					"8": {
@@ -374,11 +382,11 @@
 						"japanese": "あら、私の作ったケーキを召し上がりたいと仰るなら、まずは私のために美味しい紅茶を入れるべきなのではなくて？",
 						"japaneseTL": "Oh my, if you're saying that you want to dine on the cake I've made, don't you think you should first make me some delicious tea?",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Commander, if you wish to taste my freshly-baked cake, then please first brew your finest tea~",
 						"englishNote": ""
 					},
 					"9": {
-						"event": "Normal Touch",
+						"event": "Touch",
 						"media": "touch_1",
 						"chinese": "想要和我玩游戏？可以啊，不过我不会放水的哦？",
 						"chineseTL": "You want to play with me? Sure, but I won't go easy on you.",
@@ -386,11 +394,11 @@
 						"japanese": "この私との勝負がご所望？いいですわよ。手を抜くことはいたしませんからね。うふふ♪",
 						"japaneseTL": "You wish for a match with me? So be it. I'm not going to go easy on you. (Giggle)♪",
 						"japaneseNote": "",
-						"english": "",
+						"english": "You would like to challenge me to a game? Very well. Do not expect me to hold back though, hehe~♪",
 						"englishNote": ""
 					},
 					"10": {
-						"event": "Special Touch",
+						"event": "Touch (Special)",
 						"media": "touch_2",
 						"chinese": "不行哦指挥官，这样是获得不了我的心的",
 						"chineseTL": "This won't do commander, doing this won't get you my love.",
@@ -398,7 +406,7 @@
 						"japanese": "いけませんわ指揮官様、このようなことをなさっては私を虜にできませんことよ？",
 						"japaneseTL": "That is not okay, Commander. If you do these sorts of things then you can't become my slave.",
 						"japaneseNote": "",
-						"english": "",
+						"english": "That simply will not do, Commander. You cannot seek to gain my attention that way. ",
 						"englishNote": ""
 					},
 					"11": {
@@ -410,7 +418,7 @@
 						"japanese": "指揮官様、未完了の任務がずいぶんと溜まっているようですわ。私、怠けるお方はあまり好きじゃなくてよ？",
 						"japaneseTL": "Commander, you've accumulated quite a lot of uncompleted missions. I can't say I'm too fond of slackers.",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Commander, I see you have allowed your unfinished missions to pile up. I am not very fond of lazy people, you know?",
 						"englishNote": ""
 					},
 					"12": {
@@ -422,7 +430,7 @@
 						"japanese": "指揮官様、任務報酬も受け取らずにしてなにを期待していますの？まさか私からの催促を待っておられるのではなくて？",
 						"japaneseTL": "Commander, what were you expecting when you left your mission rewards uncollected? Don't tell me you were waiting for me to give you a reminder.",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Commander, what do you hope to gain through not collecting the mission rewards? Perchance you are waiting for me to remind you?",
 						"englishNote": ""
 					},
 					"13": {
@@ -434,7 +442,7 @@
 						"japanese": "指揮官様、メールですわ。ふーん？私は別になにも？",
 						"japaneseTL": "Commander, you've got mail. Hmm? It's nothing.",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Commander, there's mail for you. Hmm? I didn't do anything in particular~",
 						"englishNote": ""
 					},
 					"14": {
@@ -446,7 +454,7 @@
 						"japanese": "よく無事でご帰還されましたわね",
 						"japaneseTL": "Good job returning home safe and sound.",
 						"japaneseNote": "",
-						"english": "",
+						"english": "You've done well to return home safe and sound.",
 						"englishNote": ""
 					},
 					"15": {
@@ -458,7 +466,7 @@
 						"japanese": "指揮官様、しばらく私から離れて、委託から戻ってきた子たちを出迎えることを許して差し上げます",
 						"japaneseTL": "Commander, you have my permission to leave my side for a while and greet the girls who have returned from the commission.",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Commander, I shall temporarily grant you permission to leave my side so that you may greet the girls who have returned from commissions.",
 						"englishNote": ""
 					},
 					"16": {
@@ -470,7 +478,7 @@
 						"japanese": "当たり前ですわ",
 						"japaneseTL": "But of course.",
 						"japaneseNote": "",
-						"english": "",
+						"english": "As expected!",
 						"englishNote": ""
 					},
 					"17": {
@@ -482,7 +490,7 @@
 						"japanese": "ここは戦場？……うふふ、面白いですわ",
 						"japaneseTL": "Is this a battlefield…? (Giggle) How interesting.",
 						"japaneseNote": "",
-						"english": "",
+						"english": "So this is a battlefield? Ahaha... how interesting.",
 						"englishNote": ""
 					},
 					"18": {
@@ -494,7 +502,7 @@
 						"japanese": "うふふ、特別にもっと褒めることを許して差し上げます♪",
 						"japaneseTL": "(Giggle) I'll give you special permission to praise me more♪",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Ehehe~ As a special service, I shall allow you to praise me more~♪",
 						"englishNote": ""
 					},
 					"19": {
@@ -506,11 +514,11 @@
 						"japanese": "……二度とこんな間違いを繰り返しませんわ",
 						"japaneseTL": "I will not repeat this mistake again.",
 						"japaneseNote": "",
-						"english": "",
+						"english": "I shall not repeat this mistake again.",
 						"englishNote": ""
 					},
 					"20": {
-						"event": "skill",
+						"event": "Skill",
 						"media": "skill",
 						"chinese": "我可没有和敌人玩耍的兴趣哦",
 						"chineseTL": "I don't have time to play with the enemy.",
@@ -518,7 +526,7 @@
 						"japanese": "敵さんとじゃれ合う趣味なんてありませんわ",
 						"japaneseTL": "I have no interest in playing around with my enemies.",
 						"japaneseNote": "",
-						"english": "",
+						"english": "I have no intention of getting friendly with the enemy~",
 						"englishNote": ""
 					},
 					"21": {
@@ -530,7 +538,7 @@
 						"japanese": "戦場のことを侮っていたようですわ",
 						"japaneseTL": "It seems that I've underestimated the battlefield.",
 						"japaneseNote": "",
-						"english": "",
+						"english": "I seem to have underestimated the battlefield...",
 						"englishNote": ""
 					},
 					"22": {
@@ -542,7 +550,7 @@
 						"japanese": "指揮官様、この私がどれだけ貴方に期待していたかはご存知？あら残念、もう知ることはできそうにないでしょうに",
 						"japaneseTL": "Commander, did you know just how much I was expecting of you? Ah, too bad, now you'll probably never know.",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Commander, did you know how high my expectations were for you at first? What a shame, for you shall now never know.",
 						"englishNote": ""
 					},
 					"23": {
@@ -554,7 +562,7 @@
 						"japanese": "指揮官様、質問ですわ。私と平和な世界、どちらかを選ぶとしたら――どうなさいますの？",
 						"japaneseTL": "A question for you, Commander: if you had to choose between me and world peace… which would you choose?",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Commander, I have a question. If in the future you were given the option to sacrifice me for world peace, what would you choose?",
 						"englishNote": ""
 					},
 					"24": {
@@ -566,7 +574,7 @@
 						"japanese": "正解は――そうならないよう努力すること、ですわ～ うふふ、私を喜ばせたいのでしたら、もっとアタマをつかったほうがいいですわ",
 						"japaneseTL": "The correct answer is… you'll work hard so that it would never come to that~ (Giggle) You need to use your head more if you wish to please me.",
 						"japaneseNote": "",
-						"english": "",
+						"english": "The correct answer is - to do everything in your power to prevent that situation from occurring in the first place. Heehee~ Commander, if you wish to woo me, you will have to use your brain more~",
 						"englishNote": ""
 					},
 					"25": {
@@ -578,7 +586,7 @@
 						"japanese": "私、本当にアタマの良い御仁というのは、時として人を頼りにするものだと、ずっと思ってますの。あら、そうですわ――指揮官様、ケーキを食べさせてもらえませんこと？",
 						"japaneseTL": "I've always thought that truly smart individuals are those that sometimes rely on others to get things done. Oh, that's right… Commander, would you feed me some cake?",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Having that said, I believe that a truly intelligent person knows how to rely on others when appropriate. Ah, that's right~ Commander, would you feed me some cake?",
 						"englishNote": ""
 					},
 					"26": {
@@ -590,7 +598,7 @@
 						"japanese": "指揮官様？デートコースは選びました？お洋服の用意ができましたら着させて下さいませ♪ あら、「自分で着て」って？もう、これは愛ですわ～うふふ、愛、なの♡",
 						"japaneseTL": "Commander? Have you decided on a schedule for our date? When my clothes are ready, help me put them on♪ Oh my, \"put them on myself\" you say? Jeez, this is love~ (Giggle) Love♡",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Commander, have you planned where we're going to go for our date? If you have picked out an outfit for me, why don't you help me put it on? Eh~? \"Why don't I wear it myself?\" Silly, that's what love is all about~ L.O.V.E~♡",
 						"englishNote": ""
 					},
 					"27": {
@@ -602,7 +610,7 @@
 						"japanese": "「あなたこそが自分の全て」こんな言葉に騙される私ではなくってよ？……うふふ、今なら…もしかしたら騙されるかもしれませんわよ？でもぉ、せめて十回、ううん、百回言っていただけませんと～",
 						"japaneseTL": "\"You are my everything,\" did you think I'm one to be deceived by such words? (Giggle) At this moment though… you might be able to deceive me. However, you need to say those words at least ten, nay, one hundred times in order to do so~",
 						"japaneseNote": "",
-						"english": "",
+						"english": "\"You are my world?\" Did you think you could fool me with such flattery? Ehehe... well, I suppose there's a chance that I would let you fool me~ But first, you would have to repeat it ten times, nay, a hundred times~",
 						"englishNote": ""
 					},
 					"28": {
@@ -620,5 +628,18 @@
 				}
 			}
 		}
+	},
+	"fleet_tech": {
+		"pt_get": "15",
+		"add_get_attr": "Anti-Air",
+		"add_get_value": "1",
+		"add_get_shiptype": "Light Cruiser",
+		"pt_upgrade": "30",
+		"pt_level": "23",
+		"add_level_attr": "Firepower",
+		"add_level_value": "1",
+		"add_level_shiptype": "Light Cruiser",
+		"t_level": "8",
+		"ships": "neptune"
 	}
 }

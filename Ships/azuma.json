@@ -12,7 +12,7 @@
 	"navy": "Sakura Empire",
 	"prefix": "IJN",
 	"buildTime": "N/A",
-	"class": "Design B-65",
+	"class": "吾妻 ",
 	"parameters": {
 		"firepower": "A",
 		"torpedo": "E",
@@ -125,23 +125,6 @@
 		}
 	},
 	"stats": {
-		"base": {
-			"hp": "1291",
-			"firepower": "58",
-			"torpedo": "0",
-			"antiAir": "42",
-			"aviation": "0",
-			"reload": "62",
-			"hit": "43",
-			"evasion": "11",
-			"speed": "27.2",
-			"luck": "0",
-			"asw": "0",
-			"oxygen": "0",
-			"ammo": "0",
-			"cost": "",
-			"armor": "Medium"
-		},
 		"100": {
 			"hp": "6674",
 			"firepower": "270",
@@ -174,6 +157,23 @@
 			"oxygen": "0",
 			"ammo": "0",
 			"cost": "16",
+			"armor": "Medium"
+		},
+		"base": {
+			"hp": "1291",
+			"firepower": "58",
+			"torpedo": "0",
+			"antiAir": "42",
+			"aviation": "0",
+			"reload": "62",
+			"hit": "43",
+			"evasion": "11",
+			"speed": "27.2",
+			"luck": "0",
+			"asw": "0",
+			"oxygen": "0",
+			"ammo": "0",
+			"cost": "",
 			"armor": "Medium"
 		},
 		"100retrofit": {
@@ -686,5 +686,18 @@
 				}
 			}
 		}
+	},
+	"fleet_tech": {
+		"pt_get": "24",
+		"add_get_attr": "Firepower",
+		"add_get_value": "1",
+		"add_get_shiptype": "Heavy Cruiser,Monitor,Super Cruiser",
+		"pt_upgrade": "36",
+		"pt_level": "48",
+		"add_level_attr": "Firepower",
+		"add_level_value": "1",
+		"add_level_shiptype": "Heavy Cruiser,Monitor,Super Cruiser",
+		"t_level": "9",
+		"ships": "azuma"
 	}
 }
