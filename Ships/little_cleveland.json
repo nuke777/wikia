@@ -1,193 +1,198 @@
 {
-	"name_reference" : "little_cleveland",
-	"cn_reference" : "kelifulan_younv",
-	"nameJP" : "リトル・クリーブランド",
-	"nameCN" : "小克利夫兰",
-	"ID" : "391",
-	"name" : "Little Cleveland",
-	"internal_id" : "102201",
-	"rarity" : "Elite",
-	"initialStar" : "★★☆☆☆",
-	"hull" : "Light Cruiser",
-	"navy" : "Eagle Union",
-	"prefix" : "USS",
-	"buildTime" : "",
+	"name_reference": "little_cleveland",
+	"cn_reference": "kelifulan_younv",
+	"nameJP": "リトル・クリーブランド",
+	"nameCN": "小克利夫兰",
+	"ID": "391",
+	"name": "Little Cleveland",
+	"internal_id": "102201",
+	"rarity": "Elite",
+	"initialStar": "★★☆☆☆",
+	"hull": "Light Cruiser",
+	"navy": "Eagle Union",
+	"prefix": "USS",
+	"buildTime": "",
+	"class": "Cleveland-class",
 	"parameters": {
-		"firepower" : "B",
-		"torpedo" : "E",
-		"aviation" : "E",
-		"evasion" : "B",
-		"antiAir" : "B",
-		"hp" : "B"
+		"firepower": "B",
+		"torpedo": "E",
+		"aviation": "E",
+		"evasion": "B",
+		"antiAir": "B",
+		"hp": "B"
 	},
 	"scrap": {
-		"gold" : "6",
-		"oil" : "3",
-		"medal" : "4"
+		"gold": "6",
+		"oil": "3",
+		"medal": "4"
 	},
 	"releaseDate": {
-		"JP" : "",
-		"CN" : "",
-		"KR" : "",
-		"EN" : ""
+		"JP": "",
+		"CN": "",
+		"KR": "",
+		"EN": ""
 	},
 	"artist": {
-		"name" : "",
-		"weibo" : "",
-		"twitter" : "",
-		"pixiv" : "",
-		"other" : ""
+		"name": "",
+		"weibo": "",
+		"twitter": "",
+		"pixiv": "",
+		"other": ""
 	},
 	"enhance": {
-		"firepower" : "13",
-		"torpedo" : "0",
-		"aviation" : "0",
-		"reload" : "13"
+		"firepower": "13",
+		"torpedo": "0",
+		"aviation": "0",
+		"reload": "13"
 	},
-	"acquisitionMethod" : "小型艦建造",
+	"acquisitionMethod": "Light ship Construction",
 	"skill": {
-		"1" : {
-			"icon" : "12240",
-			"requirement" : "",
-			"name" : "キャリバーズハート",
-			"type" : "Support",
-			"description" : "クリーブランド級と一緒に出撃した場合、自身の対空が$1、命中が$2アップ"
+		"1": {
+			"icon": "12240",
+			"requirement": "",
+			"name": "Calibur's Heart",
+			"type": "Support",
+			"description": "When sortied with any Cleveland-class ship: increases this ship's AA by $1 and Accuracy by $2."
 		},
-		"2" : {
-			"icon" : "12250",
-			"requirement" : "",
-			"name" : "キャリバーズキャリア",
-			"type" : "Defensive",
-			"description" : "前衛艦隊の先頭で出撃した場合、自身が受けるダメージを$1軽減する；戦闘中、「リトル・サンディエゴ」「リトル・ヘレナ」が受ける砲撃ダメージを8%軽減する"
+		"2": {
+			"icon": "12250",
+			"requirement": "",
+			"name": "Calibur's Carrier",
+			"type": "Defensive",
+			"description": "Decreases this ship's DMG taken by $1 when sortied in the frontmost position in the Vanguard. When sortied with Li'l Sandy or Lena: decreases the Main Gun DMG they take by 8.0%."
 		},
-		"3" : {
-			"icon" : "20141",
-			"requirement" : "",
-			"name" : "All Out Assault Ⅰ",
-			"type" : "Offensive",
-			"description" : "Activates All Out Assault Ⅰ: Cleveland Class once every 15 times the Main Guns are fired."
+		"3": {
+			"icon": "20141",
+			"requirement": "",
+			"name": "All Out Assault Ⅰ",
+			"type": "Offensive",
+			"description": "Activates All Out Assault Ⅰ: Cleveland Class once every 15 times the Main Guns are fired."
 		}
 	},
 	"skin": {
-		"1" : {
-			"id" : "kelifulan_younv",
-			"name" : "リトル・クリーブランド",
-			"description" : "クリーブランド級軽巡洋艦・クリーブランド（CL-55)",
-			"expression" : {
-				"0" : {
-					"id" : "0"
+		"1": {
+			"id": "kelifulan_younv",
+			"name": "Clevelad ",
+			"description": "Cleveland-class light cruiser – Cleveland (CL-55) ",
+			"expression": {
+				"0": {
+					"id": "0"
+				},
+				"1": {
+					"id": "1"
+				},
+				"2": {
+					"id": "2"
+				},
+				"3": {
+					"id": "3"
 				}
 			}
 		}
 	},
 	"defaultEquipment": {
-		"1" : {
-			"icon" : "12100",
-			"rarity" : "Common",
-			"name" : "Triple 152mm Main Gun"
+		"1": {
+			"icon": "16400",
+			"rarity": "Rare",
+			"name": "Quadruple 40mm Bofors Gun"
 		},
-		"2" : {
-			"icon" : "",
-			"rarity" : "",
-			"name" : ""
-		},
-		"1" : {
-			"icon" : "16400",
-			"rarity" : "Rare",
-			"name" : "Quadruple 40mm Bofors Gun"
+		"2": {
+			"icon": "",
+			"rarity": "",
+			"name": ""
 		}
 	},
 	"stats": {
-		"base": {
-			"hp" : "628",
-			"firepower" : "30",
-			"torpedo" : "0",
-			"antiAir" : "61",
-			"aviation" : "0",
-			"reload" : "66",
-			"hit" : "54",
-			"evasion" : "30",
-			"speed" : "32.5",
-			"luck" : "71",
-			"asw" : "24",
-			"oxygen" : "0",
-			"ammo" : "0",
-			"cost" : "3",
-			"armor" : "Light"
-		},
 		"100": {
-			"hp" : "3244",
-			"firepower" : "141",
-			"torpedo" : "0",
-			"antiAir" : "285",
-			"aviation" : "0",
-			"reload" : "157",
-			"hit" : "141",
-			"evasion" : "79",
-			"speed" : "32.5",
-			"luck" : "71",
-			"asw" : "88",
-			"oxygen" : "0",
-			"ammo" : "0",
-			"cost" : "10",
-			"armor" : "Light"
+			"hp": "3244",
+			"firepower": "141",
+			"torpedo": "0",
+			"antiAir": "285",
+			"aviation": "0",
+			"reload": "157",
+			"hit": "141",
+			"evasion": "79",
+			"speed": "32.5",
+			"luck": "71",
+			"asw": "88",
+			"oxygen": "0",
+			"ammo": "0",
+			"cost": "10",
+			"armor": "Light"
 		},
 		"120": {
-			"hp" : "3601",
-			"firepower" : "162",
-			"torpedo" : "0",
-			"antiAir" : "323",
-			"aviation" : "0",
-			"reload" : "181",
-			"hit" : "158",
-			"evasion" : "94",
-			"speed" : "32.5",
-			"luck" : "71",
-			"asw" : "100",
-			"oxygen" : "0",
-			"ammo" : "0",
-			"cost" : "10",
-			"armor" : "Light"
+			"hp": "3601",
+			"firepower": "162",
+			"torpedo": "0",
+			"antiAir": "323",
+			"aviation": "0",
+			"reload": "181",
+			"hit": "158",
+			"evasion": "94",
+			"speed": "32.5",
+			"luck": "71",
+			"asw": "100",
+			"oxygen": "0",
+			"ammo": "0",
+			"cost": "10",
+			"armor": "Light"
+		},
+		"base": {
+			"hp": "628",
+			"firepower": "30",
+			"torpedo": "0",
+			"antiAir": "61",
+			"aviation": "0",
+			"reload": "66",
+			"hit": "54",
+			"evasion": "30",
+			"speed": "32.5",
+			"luck": "71",
+			"asw": "24",
+			"oxygen": "0",
+			"ammo": "0",
+			"cost": "3",
+			"armor": "Light"
 		},
 		"100retrofit": {
-			"hp" : "",
-			"firepower" : "",
-			"torpedo" : "",
-			"antiAir" : "",
-			"aviation" : "",
-			"reload" : "",
-			"hit" : "",
-			"evasion" : "",
-			"speed" : "32.5",
-			"luck" : "71",
-			"asw" : "",
-			"oxygen" : "0",
-			"ammo" : "0",
-			"cost" : "10",
-			"armor" : "Light"
+			"hp": "",
+			"firepower": "",
+			"torpedo": "",
+			"antiAir": "",
+			"aviation": "",
+			"reload": "",
+			"hit": "",
+			"evasion": "",
+			"speed": "32.5",
+			"luck": "71",
+			"asw": "",
+			"oxygen": "0",
+			"ammo": "0",
+			"cost": "10",
+			"armor": "Light"
 		},
 		"120retrofit": {
-			"hp" : "",
-			"firepower" : "",
-			"torpedo" : "",
-			"antiAir" : "",
-			"aviation" : "",
-			"reload" : "",
-			"hit" : "",
-			"evasion" : "",
-			"speed" : "32.5",
-			"luck" : "71",
-			"asw" : "",
-			"oxygen" : "0",
-			"ammo" : "0",
-			"cost" : "10",
-			"armor" : "Light"
+			"hp": "",
+			"firepower": "",
+			"torpedo": "",
+			"antiAir": "",
+			"aviation": "",
+			"reload": "",
+			"hit": "",
+			"evasion": "",
+			"speed": "32.5",
+			"luck": "71",
+			"asw": "",
+			"oxygen": "0",
+			"ammo": "0",
+			"cost": "10",
+			"armor": "Light"
 		}
 	},
 	"limitBreak": {
-		"tier1": "全弾発射スキル習得/主砲補正+5%",
-		"tier2": "主砲砲座+1/主砲補正+10%",
-		"tier3": "全弾発射弾幕強化/主砲補正+15%"
+		"tier1": "Unlock All Out Assault Ⅰ/Main gun efficiency +5%",
+		"tier2": "Main gun base +1/Main gun efficiency +10%",
+		"tier3": "Improve All Out Assault/Main gun efficiency +15%"
 	},
 	"equipmentLoadout": {
 		"1": {
@@ -265,381 +270,381 @@
 	"lines": {
 		"skin": {
 			"1": {
-				"skin_id" : "kelifulan_younv",
-				"id" : "0",
-				"label" : "リトル・クリーブランド",
-				"dialogue" : {
-					"1" : {
-						"event" : "Ship Description",
-						"media" : "",
-						"chinese" : "克利夫兰级轻巡洋舰—克利夫兰，舷号CL-55",
-						"chineseTL" : "",
-						"chineseNote" : "",
-						"japanese" : "クリーブランド級軽巡洋艦・クリーブランド（CL-55)",
-						"japaneseTL" : "",
-						"japaneseNote" : "",
-						"english" : "",
-						"englishNote" : ""
+				"skin_id": "kelifulan_younv",
+				"id": "0",
+				"label": "Clevelad ",
+				"dialogue": {
+					"1": {
+						"event": "Ship Description",
+						"media": "",
+						"chinese": "克利夫兰级轻巡洋舰—克利夫兰，舷号CL-55",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "クリーブランド級軽巡洋艦・クリーブランド（CL-55)",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Cleveland-class light cruiser – Cleveland (CL-55)",
+						"englishNote": ""
 					},
-					"2" : {
-						"event" : "Biography",
-						"media" : "profile",
-						"chinese" : "我是克利夫兰级的大姐头哦，虽然看名字就看得出来啦！我们这一级虽然是轻巡洋舰，其实可是一点都不输给重巡级的哦，嘿嘿，毕竟我们可是未来的海上骑士嘛，这也是理所当然的！",
-						"chineseTL" : "",
-						"chineseNote" : "",
-						"japanese" : "クリーブランド級の長女ーーまあ名前見れば分かるさ！軽巡だけど、力は重巡にも負けないぞ！将来は海で活躍するんだから当然だよな！",
-						"japaneseTL" : "",
-						"japaneseNote" : "",
-						"english" : "",
-						"englishNote" : ""
+					"2": {
+						"event": "Biography",
+						"media": "profile",
+						"chinese": "我是克利夫兰级的大姐头哦，虽然看名字就看得出来啦！我们这一级虽然是轻巡洋舰，其实可是一点都不输给重巡级的哦，嘿嘿，毕竟我们可是未来的海上骑士嘛，这也是理所当然的！",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "クリーブランド級の長女ーーまあ名前見れば分かるさ！軽巡だけど、力は重巡にも負けないぞ！将来は海で活躍するんだから当然だよな！",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "I'm the big sister of the Cleveland-class... but I guess that's obvious from my name alone. I may be a light cruiser, but I can match a heavy cruiser no problem! I am gonna dominate the seas, after all!",
+						"englishNote": ""
 					},
-					"3" : {
-						"event" : "Acquisition",
-						"media" : "get",
-						"chinese" : "你好！我是克利夫兰！我的梦想是成为一名称职的海上骑士，每天都在向着这个目标前进！",
-						"chineseTL" : "",
-						"chineseNote" : "",
-						"japanese" : "おはよう！私はクリーブランド！将来の夢は一人前の海上の騎士になること！そのために今は毎日頑張ってるぞ！",
-						"japaneseTL" : "",
-						"japaneseNote" : "",
-						"english" : "",
-						"englishNote" : ""
+					"3": {
+						"event": "Acquisition",
+						"media": "get",
+						"chinese": "你好！我是克利夫兰！我的梦想是成为一名称职的海上骑士，每天都在向着这个目标前进！",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "おはよう！私はクリーブランド！将来の夢は一人前の海上の騎士になること！そのために今は毎日頑張ってるぞ！",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Hello, my name is Cleveland! My dream is to one day join the Solomon Knights! I'm working hard towards that goal every day!",
+						"englishNote": ""
 					},
-					"4" : {
-						"event" : "Login",
-						"media" : "login",
-						"chinese" : "指挥官，你好呀！要吃巧克力棒不？",
-						"chineseTL" : "",
-						"chineseNote" : "",
-						"japanese" : "指揮官、おはよう！チョコバーでもどう？",
-						"japaneseTL" : "",
-						"japaneseNote" : "",
-						"english" : "",
-						"englishNote" : ""
+					"4": {
+						"event": "Login",
+						"media": "login",
+						"chinese": "指挥官，你好呀！要吃巧克力棒不？",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "指揮官、おはよう！チョコバーでもどう？",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Morning, Commander! How about a chocolate bar?",
+						"englishNote": ""
 					},
-					"5" : {
-						"event" : "Details",
-						"media" : "detail",
-						"chinese" : "虽然我每天都吃好多东西，不过一点也没有长高，这是为什么呢……",
-						"chineseTL" : "",
-						"chineseNote" : "",
-						"japanese" : "毎日たくさん食べてるけど、身長が伸びないよ…どうしてだろ……",
-						"japaneseTL" : "",
-						"japaneseNote" : "",
-						"english" : "",
-						"englishNote" : ""
+					"5": {
+						"event": "Details",
+						"media": "detail",
+						"chinese": "虽然我每天都吃好多东西，不过一点也没有长高，这是为什么呢……",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "毎日たくさん食べてるけど、身長が伸びないよ…どうしてだろ……",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "I eat so much every day, but I'm not growing at all... Why...?",
+						"englishNote": ""
 					},
-					"6" : {
-						"event" : "Main 1",
-						"media" : "main_1",
-						"chinese" : "指挥官，跟你说，我有好几个妹妹呢，我可喜欢她们啦，有机会也介绍给你！",
-						"chineseTL" : "",
-						"chineseNote" : "",
-						"japanese" : "妹はたくさんいるぞ！みんな大好きだ！いつか紹介してあげよう！",
-						"japaneseTL" : "",
-						"japaneseNote" : "",
-						"english" : "",
-						"englishNote" : ""
+					"6": {
+						"event": "Main 1",
+						"media": "main_1",
+						"chinese": "指挥官，跟你说，我有好几个妹妹呢，我可喜欢她们啦，有机会也介绍给你！",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "妹はたくさんいるぞ！みんな大好きだ！いつか紹介してあげよう！",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "I've got lots of little sisters, and I love each and every one of 'em! Lemme introduce you someday!",
+						"englishNote": ""
 					},
-					"7" : {
-						"event" : "Main 2",
-						"media" : "main_2",
-						"chinese" : "指挥官，舰队里不是有一个和我差不多大，总是在房间里照镜子的蓝发女孩子嘛，我可不可以去找她玩啊？",
-						"chineseTL" : "",
-						"chineseNote" : "",
-						"japanese" : "指揮官、艦隊には青色の髪の、毎日鏡を見てる子がいなかったっけ？遊びにいってもいいかな？",
-						"japaneseTL" : "",
-						"japaneseNote" : "",
-						"english" : "",
-						"englishNote" : ""
+					"7": {
+						"event": "Main 2",
+						"media": "main_2",
+						"chinese": "指挥官，舰队里不是有一个和我差不多大，总是在房间里照镜子的蓝发女孩子嘛，我可不可以去找她玩啊？",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "指揮官、艦隊には青色の髪の、毎日鏡を見てる子がいなかったっけ？遊びにいってもいいかな？",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Hey, Commander, is there a blue-haired girl in the fleet, about yea big, always staring at herself in the mirror? You mind if I go play with her?",
+						"englishNote": ""
 					},
-					"8" : {
-						"event" : "Main 3",
-						"media" : "main_3",
-						"chinese" : "感觉体格小的话有时候不大方便啊……什么时候？额，比如要帮助别人的时候算吗……？",
-						"chineseTL" : "",
-						"chineseNote" : "",
-						"japanese" : "うーん、身体が小さいってのは不便なときがあるな…どんなときって？人助けをする時とか？",
-						"japaneseTL" : "",
-						"japaneseNote" : "",
-						"english" : "",
-						"englishNote" : ""
+					"8": {
+						"event": "Main 3",
+						"media": "main_3",
+						"chinese": "感觉体格小的话有时候不大方便啊……什么时候？额，比如要帮助别人的时候算吗……？",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "うーん、身体が小さいってのは不便なときがあるな…どんなときって？人助けをする時とか？",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Being this small is kind of inconvenient sometimes. ... Like when? Like when I'm trying to help somebody with something...?",
+						"englishNote": ""
 					},
-					"9" : {
-						"event" : "Touch",
-						"media" : "touch_1",
-						"chinese" : "指挥官，补充能量可是很重要的，来，分你几根巧克力棒！",
-						"chineseTL" : "",
-						"chineseNote" : "",
-						"japanese" : "指揮官、エネルギー補給は大事だぞ！ほら、このチョコバーでも食べて！",
-						"japaneseTL" : "",
-						"japaneseNote" : "",
-						"english" : "",
-						"englishNote" : ""
+					"9": {
+						"event": "Touch",
+						"media": "touch_1",
+						"chinese": "指挥官，补充能量可是很重要的，来，分你几根巧克力棒！",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "指揮官、エネルギー補給は大事だぞ！ほら、このチョコバーでも食べて！",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "It's important to keep your energy up, Commander! Here, have a chocolate bar!",
+						"englishNote": ""
 					},
-					"10" : {
-						"event" : "Touch (Special)",
-						"media" : "touch_2",
-						"chinese" : "指挥官，你想摸我的肚子吗？",
-						"chineseTL" : "",
-						"chineseNote" : "",
-						"japanese" : "あれ？お腹触りたいの？",
-						"japaneseTL" : "",
-						"japaneseNote" : "",
-						"english" : "",
-						"englishNote" : ""
+					"10": {
+						"event": "Touch (Special)",
+						"media": "touch_2",
+						"chinese": "指挥官，你想摸我的肚子吗？",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "あれ？お腹触りたいの？",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Huh? You wanna rub my belly?",
+						"englishNote": ""
 					},
-					"11" : {
-						"event" : "Mission",
-						"media" : "task",
-						"chinese" : "指挥官，让我们一鼓作气解决掉新任务吧！",
-						"chineseTL" : "",
-						"chineseNote" : "",
-						"japanese" : "指揮官、任務を一気に片付けちゃお！",
-						"japaneseTL" : "",
-						"japaneseNote" : "",
-						"english" : "",
-						"englishNote" : ""
+					"11": {
+						"event": "Mission",
+						"media": "task",
+						"chinese": "指挥官，让我们一鼓作气解决掉新任务吧！",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "指揮官、任務を一気に片付けちゃお！",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Commander, go bang out that mission!",
+						"englishNote": ""
 					},
-					"12" : {
-						"event" : "Mission Complete",
-						"media" : "mission_complete",
-						"chinese" : "哇，这么多奖励，能换好多好吃的啊，指挥官？",
-						"chineseTL" : "",
-						"chineseNote" : "",
-						"japanese" : "ボーナスがこんなに！美味しいものといっぱい交換できる！ね、指揮官！",
-						"japaneseTL" : "",
-						"japaneseNote" : "",
-						"english" : "",
-						"englishNote" : ""
+					"12": {
+						"event": "Mission Complete",
+						"media": "mission_complete",
+						"chinese": "哇，这么多奖励，能换好多好吃的啊，指挥官？",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "ボーナスがこんなに！美味しいものといっぱい交換できる！ね、指揮官！",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Hey, the rewards are here! I got lots of tasty snacks to trade. Whaddya say, Commander?",
+						"englishNote": ""
 					},
-					"13" : {
-						"event" : "Mail",
-						"media" : "mail",
-						"chinese" : "有新的邮件欸，指挥官你跟我一样很受欢迎嘛~",
-						"chineseTL" : "",
-						"chineseNote" : "",
-						"japanese" : "新しいメールだぞ。指揮官は私と同じ人気者だ！",
-						"japaneseTL" : "",
-						"japaneseNote" : "",
-						"english" : "",
-						"englishNote" : ""
+					"13": {
+						"event": "Mail",
+						"media": "mail",
+						"chinese": "有新的邮件欸，指挥官你跟我一样很受欢迎嘛~",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "新しいメールだぞ。指揮官は私と同じ人気者だ！",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "New mail's here. Hey, you're as popular as me, Commander!",
+						"englishNote": ""
 					},
-					"14" : {
-						"event" : "Return to Port",
-						"media" : "home",
-						"chinese" : "指挥官，要吃点什么补充能量吗？我有很多！",
-						"chineseTL" : "",
-						"chineseNote" : "",
-						"japanese" : "指揮官、エネルギー補給に何か食べない？食べ物ならたくさん持っているぞ！",
-						"japaneseTL" : "",
-						"japaneseNote" : "",
-						"english" : "",
-						"englishNote" : ""
+					"14": {
+						"event": "Return to Port",
+						"media": "home",
+						"chinese": "指挥官，要吃点什么补充能量吗？我有很多！",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "指揮官、エネルギー補給に何か食べない？食べ物ならたくさん持っているぞ！",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Need a little pick-me-up, Commander? I got all kinds of snacks on me!",
+						"englishNote": ""
 					},
-					"15" : {
-						"event" : "Commission Complete",
-						"media" : "expedition",
-						"chinese" : "指挥官，我们比赛谁先跑到港口吧，先到的有奖！",
-						"chineseTL" : "",
-						"chineseNote" : "",
-						"japanese" : "指揮官、埠頭まで競争だ！先についたほうがご褒美をもらえるぞ！",
-						"japaneseTL" : "",
-						"japaneseNote" : "",
-						"english" : "",
-						"englishNote" : ""
+					"15": {
+						"event": "Commission Complete",
+						"media": "expedition",
+						"chinese": "指挥官，我们比赛谁先跑到港口吧，先到的有奖！",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "指揮官、埠頭まで競争だ！先についたほうがご褒美をもらえるぞ！",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Race you to the pier, Commander! Winner gets a prize!",
+						"englishNote": ""
 					},
-					"16" : {
-						"event" : "Enhancement",
-						"media" : "upgrade",
-						"chinese" : "这个感觉不错！",
-						"chineseTL" : "",
-						"chineseNote" : "",
-						"japanese" : "いい感じ！",
-						"japaneseTL" : "",
-						"japaneseNote" : "",
-						"english" : "",
-						"englishNote" : ""
+					"16": {
+						"event": "Enhancement",
+						"media": "upgrade",
+						"chinese": "这个感觉不错！",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "いい感じ！",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Hehe, that feels good!",
+						"englishNote": ""
 					},
-					"17" : {
-						"event" : "Flagship",
-						"media" : "warcry",
-						"chinese" : "你们一起上吧，我可不怕你们！",
-						"chineseTL" : "",
-						"chineseNote" : "",
-						"japanese" : "全員まとめてかかってこい！私は怖くないぞ！",
-						"japaneseTL" : "",
-						"japaneseNote" : "",
-						"english" : "",
-						"englishNote" : ""
+					"17": {
+						"event": "Flagship",
+						"media": "warcry",
+						"chinese": "你们一起上吧，我可不怕你们！",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "全員まとめてかかってこい！私は怖くないぞ！",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "I'll take you all on! I ain't scared!",
+						"englishNote": ""
 					},
-					"18" : {
-						"event" : "Victory",
-						"media" : "mvp",
-						"chinese" : "嘿嘿，我可是每天都有在锻炼自己哦！",
-						"chineseTL" : "",
-						"chineseNote" : "",
-						"japanese" : "ふふん、毎日鍛えてるからだぞ！",
-						"japaneseTL" : "",
-						"japaneseNote" : "",
-						"english" : "",
-						"englishNote" : ""
+					"18": {
+						"event": "Victory",
+						"media": "mvp",
+						"chinese": "嘿嘿，我可是每天都有在锻炼自己哦！",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "ふふん、毎日鍛えてるからだぞ！",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Hahaa! I train every day!",
+						"englishNote": ""
 					},
-					"19" : {
-						"event" : "Defeat",
-						"media" : "lose",
-						"chinese" : "指挥官，情况好像有点不妙……？",
-						"chineseTL" : "",
-						"chineseNote" : "",
-						"japanese" : "指揮官、ちょっとまずいかも……？",
-						"japaneseTL" : "",
-						"japaneseNote" : "",
-						"english" : "",
-						"englishNote" : ""
+					"19": {
+						"event": "Defeat",
+						"media": "lose",
+						"chinese": "指挥官，情况好像有点不妙……？",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "指揮官、ちょっとまずいかも……？",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Commander, this is looking kinda bad...?",
+						"englishNote": ""
 					},
-					"20" : {
-						"event" : "Skill",
-						"media" : "skill",
-						"chinese" : "乘风破浪！",
-						"chineseTL" : "",
-						"chineseNote" : "",
-						"japanese" : "止まっちゃダメよ！",
-						"japaneseTL" : "",
-						"japaneseNote" : "",
-						"english" : "",
-						"englishNote" : ""
+					"20": {
+						"event": "Skill",
+						"media": "skill",
+						"chinese": "乘风破浪！",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "止まっちゃダメよ！",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Can't stop me!",
+						"englishNote": ""
 					},
-					"21" : {
-						"event" : "Low HP",
-						"media" : "hp",
-						"chinese" : "可不能在这里停下脚步啊！",
-						"chineseTL" : "",
-						"chineseNote" : "",
-						"japanese" : "止まるんじゃないよ！",
-						"japaneseTL" : "",
-						"japaneseNote" : "",
-						"english" : "",
-						"englishNote" : ""
+					"21": {
+						"event": "Low HP",
+						"media": "hp",
+						"chinese": "可不能在这里停下脚步啊！",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "止まるんじゃないよ！",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Don't stop now!",
+						"englishNote": ""
 					},
-					"22" : {
-						"event" : "Affinity (Upset)",
-						"media" : "feeling1",
-						"chinese" : "大家在等我，指挥官拜拜~",
-						"chineseTL" : "",
-						"chineseNote" : "",
-						"japanese" : "みんなが待ってるんだ！指揮官、バイバイ！",
-						"japaneseTL" : "",
-						"japaneseNote" : "",
-						"english" : "",
-						"englishNote" : ""
+					"22": {
+						"event": "Affinity (Upset)",
+						"media": "feeling1",
+						"chinese": "大家在等我，指挥官拜拜~",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "みんなが待ってるんだ！指揮官、バイバイ！",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Everybody's waiting for me! See ya, Commander!",
+						"englishNote": ""
 					},
-					"23" : {
-						"event" : "Affinity (Stranger)",
-						"media" : "feeling2",
-						"chinese" : "啊，指挥官，跟你说，我和舰队里的其他孩子组成了探险队，今天要在港区探险，指挥官要一起来吗？",
-						"chineseTL" : "",
-						"chineseNote" : "",
-						"japanese" : "あ、指揮官、艦隊のほかの子と一緒に母港探検隊を結成した！指揮官も一緒にどう？",
-						"japaneseTL" : "",
-						"japaneseNote" : "",
-						"english" : "",
-						"englishNote" : ""
+					"23": {
+						"event": "Affinity (Stranger)",
+						"media": "feeling2",
+						"chinese": "啊，指挥官，跟你说，我和舰队里的其他孩子组成了探险队，今天要在港区探险，指挥官要一起来吗？",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "あ、指揮官、艦隊のほかの子と一緒に母港探検隊を結成した！指揮官も一緒にどう？",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Hey, Commander, me and some of the girls are forming a Port Explorers' Team! You wanna come with us?",
+						"englishNote": ""
 					},
-					"24" : {
-						"event" : "Affinity (Friendly)",
-						"media" : "feeling3",
-						"chinese" : "嘿嘿，虽然指挥官很忙，却还愿意陪我们到处跑，从今天起，你就是我们探险队的名誉顾问啦！",
-						"chineseTL" : "",
-						"chineseNote" : "",
-						"japanese" : "指揮官、忙しいのによく付き合ってくれているな…よし、今日から指揮官は、私たちの探検隊の名誉顧問だ！",
-						"japaneseTL" : "",
-						"japaneseNote" : "",
-						"english" : "",
-						"englishNote" : ""
+					"24": {
+						"event": "Affinity (Friendly)",
+						"media": "feeling3",
+						"chinese": "嘿嘿，虽然指挥官很忙，却还愿意陪我们到处跑，从今天起，你就是我们探险队的名誉顾问啦！",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "指揮官、忙しいのによく付き合ってくれているな…よし、今日から指揮官は、私たちの探検隊の名誉顧問だ！",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "I know how busy you are, Commander, and you still make time to come along with us... All right, from this day forward, I'm making the Commander an honorary member of our Explorers' Team!",
+						"englishNote": ""
 					},
-					"25" : {
-						"event" : "Affinity (Like)",
-						"media" : "feeling4",
-						"chinese" : "指、指挥官，我、我有一个问题！海伦娜说，巧克力棒吃多了，会变得很胖，然后指挥官就不跟我一起玩了……是、是真的吗？",
-						"chineseTL" : "",
-						"chineseNote" : "",
-						"japanese" : "し、指揮官、ひとつ質問！ヘレナがチョコを食べすぎると太るって、そしたら指揮官が付き合ってくれなくなるって……ほ、本当か？",
-						"japaneseTL" : "",
-						"japaneseNote" : "",
-						"english" : "",
-						"englishNote" : ""
+					"25": {
+						"event": "Affinity (Like)",
+						"media": "feeling4",
+						"chinese": "指、指挥官，我、我有一个问题！海伦娜说，巧克力棒吃多了，会变得很胖，然后指挥官就不跟我一起玩了……是、是真的吗？",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "し、指揮官、ひとつ質問！ヘレナがチョコを食べすぎると太るって、そしたら指揮官が付き合ってくれなくなるって……ほ、本当か？",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "C-Commander, lemme ask you something. Helena said if I eat too much chocolate, I'll get fat and you won't wanna be with me anymore ... Is... is that true?",
+						"englishNote": ""
 					},
-					"26" : {
-						"event" : "Affinity (Love)",
-						"media" : "feeling5",
-						"chinese" : "呼，果然把问题告诉指挥官是对的，指挥官总是能帮我解答，我最喜欢指挥官啦！指挥官，以后我有问题也都来问你，可以吗？",
-						"chineseTL" : "",
-						"chineseNote" : "",
-						"japanese" : "ふぅ…やっぱり指揮官に聞いてよかった！いつもありがとう。そして大好き！指揮官、これからもわからないことがあったら聞いてもいいかな？",
-						"japaneseTL" : "",
-						"japaneseNote" : "",
-						"english" : "",
-						"englishNote" : ""
+					"26": {
+						"event": "Affinity (Love)",
+						"media": "feeling5",
+						"chinese": "呼，果然把问题告诉指挥官是对的，指挥官总是能帮我解答，我最喜欢指挥官啦！指挥官，以后我有问题也都来问你，可以吗？",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "ふぅ…やっぱり指揮官に聞いてよかった！いつもありがとう。そして大好き！指揮官、これからもわからないことがあったら聞いてもいいかな？",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Heh... I was right to ask you, Commander! You always help me out. That's why I love you! From now on, I'm gonna come to you anytime I don't understand something. Sound good?",
+						"englishNote": ""
 					},
-					"27" : {
-						"event" : "Pledge",
-						"media" : "propose",
-						"chinese" : "这就是永远的好朋友的证明吗？我会好好保管的！嘻嘻，指挥官以后遇到什么困难也告诉我吧，我会照顾你的！",
-						"chineseTL" : "",
-						"chineseNote" : "",
-						"japanese" : "お友達の証明か？大事にするよ！へへー、指揮官も困ったことがあったら何でも聞いてくれ！ちゃんと面倒を見てあげるぞ！",
-						"japaneseTL" : "",
-						"japaneseNote" : "",
-						"english" : "",
-						"englishNote" : ""
+					"27": {
+						"event": "Pledge",
+						"media": "propose",
+						"chinese": "这就是永远的好朋友的证明吗？我会好好保管的！嘻嘻，指挥官以后遇到什么困难也告诉我吧，我会照顾你的！",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "お友達の証明か？大事にするよ！へへー、指揮官も困ったことがあったら何でも聞いてくれ！ちゃんと面倒を見てあげるぞ！",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "This means we're best friends forever? I'll take good care of it! Hehee, if you ever get into trouble, Commander, just let me know. I'll take good care of you!",
+						"englishNote": ""
 					},
-					"28" : {
-						"event" : "Easter Egg 1(Helena)",
-						"media" : "link1",
-						"chinese" : "我叫克利夫兰，之后一起来玩吧！",
-						"chineseTL" : "",
-						"chineseNote" : "",
-						"japanese" : "私はクリーブランド！一緒に遊ぼう！",
-						"japaneseTL" : "",
-						"japaneseNote" : "",
-						"english" : "",
-						"englishNote" : ""
+					"28": {
+						"event": "Easter Egg 1(Helena)",
+						"media": "link1",
+						"chinese": "我叫克利夫兰，之后一起来玩吧！",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "私はクリーブランド！一緒に遊ぼう！",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "I'm Cleveland! Let's play!",
+						"englishNote": ""
 					},
-					"29" : {
-						"event" : "Like Present",
-						"media" : "present_like",
-						"chinese" : "",
-						"chineseTL" : "",
-						"chineseNote" : "",
-						"japanese" : "",
-						"japaneseTL" : "",
-						"japaneseNote" : "",
-						"english" : "",
-						"englishNote" : ""
+					"29": {
+						"event": "Like Present",
+						"media": "present_like",
+						"chinese": "",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
 					},
-					"30" : {
-						"event" : "Dislike Present",
-						"media" : "present_dislike",
-						"chinese" : "",
-						"chineseTL" : "",
-						"chineseNote" : "",
-						"japanese" : "",
-						"japaneseTL" : "",
-						"japaneseNote" : "",
-						"english" : "",
-						"englishNote" : ""
+					"30": {
+						"event": "Dislike Present",
+						"media": "present_dislike",
+						"chinese": "",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
 					},
-					"31" : {
-						"event" : "Main Title",
-						"media" : "extra",
-						"chinese" : "",
-						"chineseTL" : "",
-						"chineseNote" : "",
-						"japanese" : "",
-						"japaneseTL" : "",
-						"japaneseNote" : "",
-						"english" : "",
-						"englishNote" : ""
+					"31": {
+						"event": "Main Title",
+						"media": "extra",
+						"chinese": "",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
 					}
 				}
 			}

@@ -1,193 +1,201 @@
 {
-	"name_reference" : "little_san_diego",
-	"cn_reference" : "shengdiyage_younv",
-	"nameJP" : "リトル・サンディエゴ",
-	"nameCN" : "小圣地亚哥",
-	"ID" : "392",
-	"name" : "Little San Diego",
-	"internal_id" : "102211",
-	"rarity" : "Elite",
-	"initialStar" : "★★☆☆☆",
-	"hull" : "Light Cruiser",
-	"navy" : "Eagle Union",
-	"prefix" : "USS",
-	"buildTime" : "",
+	"name_reference": "little_san_diego",
+	"cn_reference": "shengdiyage_younv",
+	"nameJP": "リトル・サンディエゴ",
+	"nameCN": "小圣地亚哥",
+	"ID": "392",
+	"name": "Little San Diego",
+	"internal_id": "102211",
+	"rarity": "Elite",
+	"initialStar": "★★☆☆☆",
+	"hull": "Light Cruiser",
+	"navy": "Eagle Union",
+	"prefix": "USS",
+	"buildTime": "",
+	"class": "Atlanta-class",
 	"parameters": {
-		"firepower" : "C",
-		"torpedo" : "D",
-		"aviation" : "E",
-		"evasion" : "B",
-		"antiAir" : "S",
-		"hp" : "C"
+		"firepower": "C",
+		"torpedo": "D",
+		"aviation": "E",
+		"evasion": "B",
+		"antiAir": "S",
+		"hp": "C"
 	},
 	"scrap": {
-		"gold" : "6",
-		"oil" : "3",
-		"medal" : "4"
+		"gold": "6",
+		"oil": "3",
+		"medal": "4"
 	},
 	"releaseDate": {
-		"JP" : "",
-		"CN" : "",
-		"KR" : "",
-		"EN" : ""
+		"JP": "",
+		"CN": "",
+		"KR": "",
+		"EN": ""
 	},
 	"artist": {
-		"name" : "",
-		"weibo" : "",
-		"twitter" : "",
-		"pixiv" : "",
-		"other" : ""
+		"name": "",
+		"weibo": "",
+		"twitter": "",
+		"pixiv": "",
+		"other": ""
 	},
 	"enhance": {
-		"firepower" : "10",
-		"torpedo" : "10",
-		"aviation" : "0",
-		"reload" : "13"
+		"firepower": "10",
+		"torpedo": "10",
+		"aviation": "0",
+		"reload": "13"
 	},
-	"acquisitionMethod" : "イベント：明日の星☆新登場",
+	"acquisitionMethod": "Event: Today's Debut✩Tomorrow's Star!",
 	"skill": {
-		"1" : {
-			"icon" : "12260",
-			"requirement" : "",
-			"name" : "スター☆エントリー",
-			"type" : "Support",
-			"description" : "戦闘開始1秒後に発動。30秒間、自身の火力・雷装・対潜が$1アップし、味方艦隊の受ける航空ダメージを$2軽減する"
+		"1": {
+			"icon": "12260",
+			"requirement": "",
+			"name": "Starlit Debut",
+			"type": "Support",
+			"description": "1s after the battle begins: for 30s, increases this ship's FP, TRP, and ASW by $1 and decreases the DMG your fleet takes from enemy aircraft by $2."
 		},
-		"2" : {
-			"icon" : "12270",
-			"requirement" : "",
-			"name" : "スター☆スパーク",
-			"type" : "Offensive",
-			"description" : "戦闘中、14秒毎$1で発動。特殊弾幕を展開する（威力はスキルレベルによる）"
+		"2": {
+			"icon": "12270",
+			"requirement": "",
+			"name": "Sparkling Star",
+			"type": "Offensive",
+			"description": "Every 14s: $1 chance to fire a special barrage. Barrage DMG is based on the skill's level."
 		},
-		"3" : {
-			"icon" : "20131",
-			"requirement" : "",
-			"name" : "All Out Assault Ⅰ",
-			"type" : "Offensive",
-			"description" : "Activates All Out Assault Ⅰ: Atlanta Class once every 12 times the Main Guns are fired."
+		"3": {
+			"icon": "20131",
+			"requirement": "",
+			"name": "All Out Assault Ⅰ",
+			"type": "Offensive",
+			"description": "Activates All Out Assault Ⅰ: Atlanta Class once every 12 times the Main Guns are fired."
 		}
 	},
 	"skin": {
-		"1" : {
-			"id" : "shengdiyage_younv",
-			"name" : "リトル・サンディエゴ",
-			"description" : "アトランタ級軽巡洋艦・サンディエゴ（CL-53）",
-			"expression" : {
-				"0" : {
-					"id" : "0"
+		"1": {
+			"id": "shengdiyage_younv",
+			"name": "Li'l Sandy ",
+			"description": "Atlanta-class light cruiser – San Diego (CL-53) ",
+			"expression": {
+				"0": {
+					"id": "0"
+				},
+				"1": {
+					"id": "1"
+				},
+				"2": {
+					"id": "2"
+				},
+				"3": {
+					"id": "3"
+				},
+				"4": {
+					"id": "4"
 				}
 			}
 		}
 	},
 	"defaultEquipment": {
-		"1" : {
-			"icon" : "11200",
-			"rarity" : "Rare",
-			"name" : "Twin 127mm MK12 Dual Gun"
+		"1": {
+			"icon": "16200",
+			"rarity": "Common",
+			"name": "Quadruple 28mm Chicago Piano"
 		},
-		"2" : {
-			"icon" : "",
-			"rarity" : "",
-			"name" : ""
-		},
-		"1" : {
-			"icon" : "16200",
-			"rarity" : "Common",
-			"name" : "Quadruple 28mm Chicago Piano"
+		"2": {
+			"icon": "",
+			"rarity": "",
+			"name": ""
 		}
 	},
 	"stats": {
-		"base": {
-			"hp" : "555",
-			"firepower" : "24",
-			"torpedo" : "30",
-			"antiAir" : "84",
-			"aviation" : "0",
-			"reload" : "67",
-			"hit" : "58",
-			"evasion" : "28",
-			"speed" : "32.5",
-			"luck" : "85",
-			"asw" : "47",
-			"oxygen" : "0",
-			"ammo" : "0",
-			"cost" : "3",
-			"armor" : "Light"
-		},
 		"100": {
-			"hp" : "2868",
-			"firepower" : "114",
-			"torpedo" : "140",
-			"antiAir" : "391",
-			"aviation" : "0",
-			"reload" : "159",
-			"hit" : "150",
-			"evasion" : "73",
-			"speed" : "32.5",
-			"luck" : "85",
-			"asw" : "173",
-			"oxygen" : "0",
-			"ammo" : "0",
-			"cost" : "10",
-			"armor" : "Light"
+			"hp": "2868",
+			"firepower": "114",
+			"torpedo": "140",
+			"antiAir": "391",
+			"aviation": "0",
+			"reload": "159",
+			"hit": "150",
+			"evasion": "73",
+			"speed": "32.5",
+			"luck": "85",
+			"asw": "173",
+			"oxygen": "0",
+			"ammo": "0",
+			"cost": "10",
+			"armor": "Light"
 		},
 		"120": {
-			"hp" : "3226",
-			"firepower" : "131",
-			"torpedo" : "161",
-			"antiAir" : "434",
-			"aviation" : "0",
-			"reload" : "182",
-			"hit" : "168",
-			"evasion" : "95",
-			"speed" : "32.5",
-			"luck" : "85",
-			"asw" : "192",
-			"oxygen" : "0",
-			"ammo" : "0",
-			"cost" : "10",
-			"armor" : "Light"
+			"hp": "3226",
+			"firepower": "131",
+			"torpedo": "161",
+			"antiAir": "434",
+			"aviation": "0",
+			"reload": "182",
+			"hit": "168",
+			"evasion": "95",
+			"speed": "32.5",
+			"luck": "85",
+			"asw": "192",
+			"oxygen": "0",
+			"ammo": "0",
+			"cost": "10",
+			"armor": "Light"
+		},
+		"base": {
+			"hp": "555",
+			"firepower": "24",
+			"torpedo": "30",
+			"antiAir": "84",
+			"aviation": "0",
+			"reload": "67",
+			"hit": "58",
+			"evasion": "28",
+			"speed": "32.5",
+			"luck": "85",
+			"asw": "47",
+			"oxygen": "0",
+			"ammo": "0",
+			"cost": "3",
+			"armor": "Light"
 		},
 		"100retrofit": {
-			"hp" : "",
-			"firepower" : "",
-			"torpedo" : "",
-			"antiAir" : "",
-			"aviation" : "",
-			"reload" : "",
-			"hit" : "",
-			"evasion" : "",
-			"speed" : "32.5",
-			"luck" : "85",
-			"asw" : "",
-			"oxygen" : "0",
-			"ammo" : "0",
-			"cost" : "10",
-			"armor" : "Light"
+			"hp": "",
+			"firepower": "",
+			"torpedo": "",
+			"antiAir": "",
+			"aviation": "",
+			"reload": "",
+			"hit": "",
+			"evasion": "",
+			"speed": "32.5",
+			"luck": "85",
+			"asw": "",
+			"oxygen": "0",
+			"ammo": "0",
+			"cost": "10",
+			"armor": "Light"
 		},
 		"120retrofit": {
-			"hp" : "",
-			"firepower" : "",
-			"torpedo" : "",
-			"antiAir" : "",
-			"aviation" : "",
-			"reload" : "",
-			"hit" : "",
-			"evasion" : "",
-			"speed" : "32.5",
-			"luck" : "85",
-			"asw" : "",
-			"oxygen" : "0",
-			"ammo" : "0",
-			"cost" : "10",
-			"armor" : "Light"
+			"hp": "",
+			"firepower": "",
+			"torpedo": "",
+			"antiAir": "",
+			"aviation": "",
+			"reload": "",
+			"hit": "",
+			"evasion": "",
+			"speed": "32.5",
+			"luck": "85",
+			"asw": "",
+			"oxygen": "0",
+			"ammo": "0",
+			"cost": "10",
+			"armor": "Light"
 		}
 	},
 	"limitBreak": {
-		"tier1": "全弾発射スキル習得/対空補正+5%",
-		"tier2": "魚雷装填数+1/開始時魚雷+1/対空補正+10%",
-		"tier3": "全弾発射弾幕強化/武器補正+5%"
+		"tier1": "Unlock All Out Assault Ⅰ/AA gun efficiency +5%",
+		"tier2": "Torpedo base +1/Torpedo preload +1/AA gun efficiency +10%",
+		"tier3": "Improve All Out Assault/All weapons' efficiency +5%"
 	},
 	"equipmentLoadout": {
 		"1": {
@@ -265,393 +273,393 @@
 	"lines": {
 		"skin": {
 			"1": {
-				"skin_id" : "shengdiyage_younv",
-				"id" : "0",
-				"label" : "リトル・サンディエゴ",
-				"dialogue" : {
-					"1" : {
-						"event" : "Ship Description",
-						"media" : "",
-						"chinese" : "亚特兰大级轻巡洋舰—圣地亚哥，舷号CL-53",
-						"chineseTL" : "",
-						"chineseNote" : "",
-						"japanese" : "アトランタ級軽巡洋艦・サンディエゴ（CL-53）",
-						"japaneseTL" : "",
-						"japaneseNote" : "",
-						"english" : "",
-						"englishNote" : ""
+				"skin_id": "shengdiyage_younv",
+				"id": "0",
+				"label": "Li'l Sandy ",
+				"dialogue": {
+					"1": {
+						"event": "Ship Description",
+						"media": "",
+						"chinese": "亚特兰大级轻巡洋舰—圣地亚哥，舷号CL-53",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "アトランタ級軽巡洋艦・サンディエゴ（CL-53）",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Atlanta-class light cruiser – San Diego (CL-53)",
+						"englishNote": ""
 					},
-					"2" : {
-						"event" : "Biography",
-						"media" : "profile",
-						"chinese" : "亚特兰大级三号舰，圣地亚哥就是我！将来我一定能成为舰队里最耀眼的那颗星星！",
-						"chineseTL" : "",
-						"chineseNote" : "",
-						"japanese" : "アトランタ級三番艦のサンディエゴだよ！将来は艦隊で一番輝く☆スーパースターになる！！",
-						"japaneseTL" : "",
-						"japaneseNote" : "",
-						"english" : "",
-						"englishNote" : ""
+					"2": {
+						"event": "Biography",
+						"media": "profile",
+						"chinese": "亚特兰大级三号舰，圣地亚哥就是我！将来我一定能成为舰队里最耀眼的那颗星星！",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "アトランタ級三番艦のサンディエゴだよ！将来は艦隊で一番輝く☆スーパースターになる！！",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "I'm the third ship of the Atlanta-class light cruisers, San Diego! I'm aiming to become the fleet's number one Super☆Star!",
+						"englishNote": ""
 					},
-					"3" : {
-						"event" : "Acquisition",
-						"media" : "get",
-						"chinese" : "圣地亚哥，闪耀登场！我冲，我跳——嘿！哼哼，能想到如此独一无二的登场方式，果然我是最聪明的人！",
-						"chineseTL" : "",
-						"chineseNote" : "",
-						"japanese" : "サンディエゴ、登☆場！あちゃー！ほい！――ふふん！このオンリーワンな登場の仕方！やっぱり私がいっちばん頭いいよね！",
-						"japaneseTL" : "",
-						"japaneseNote" : "",
-						"english" : "",
-						"englishNote" : ""
+					"3": {
+						"event": "Acquisition",
+						"media": "get",
+						"chinese": "圣地亚哥，闪耀登场！我冲，我跳——嘿！哼哼，能想到如此独一无二的登场方式，果然我是最聪明的人！",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "サンディエゴ、登☆場！あちゃー！ほい！――ふふん！このオンリーワンな登場の仕方！やっぱり私がいっちばん頭いいよね！",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "San Diego, making her shining debut! She shoots, she scores~ Yaay! Hehe, only a genius like me could come up with a one-of-a-kind intro like that!",
+						"englishNote": ""
 					},
-					"4" : {
-						"event" : "Login",
-						"media" : "login",
-						"chinese" : "指挥官，正好这里有很多纸，我们来比比谁的纸飞机飞得远吧！",
-						"chineseTL" : "",
-						"chineseNote" : "",
-						"japanese" : "指揮官！ここにいっっぱいある紙を使って、誰の紙飛行機が一番遠くまで飛べるか競争しようよ！",
-						"japaneseTL" : "",
-						"japaneseNote" : "",
-						"english" : "",
-						"englishNote" : ""
+					"4": {
+						"event": "Login",
+						"media": "login",
+						"chinese": "指挥官，正好这里有很多纸，我们来比比谁的纸飞机飞得远吧！",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "指揮官！ここにいっっぱいある紙を使って、誰の紙飛行機が一番遠くまで飛べるか競争しようよ！",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Yo, Commander! There's a lot of paper lying around here, so let's fold some paper airplanes and see whose fly the farthest!",
+						"englishNote": ""
 					},
-					"5" : {
-						"event" : "Details",
-						"media" : "detail",
-						"chinese" : "天空不只有飞机，还有云彩和星星！",
-						"chineseTL" : "",
-						"chineseNote" : "",
-						"japanese" : "空には飛行機だけじゃなくて、雲と星もあるよ！",
-						"japaneseTL" : "",
-						"japaneseNote" : "",
-						"english" : "",
-						"englishNote" : ""
+					"5": {
+						"event": "Details",
+						"media": "detail",
+						"chinese": "天空不只有飞机，还有云彩和星星！",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "空には飛行機だけじゃなくて、雲と星もあるよ！",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "The skies don't just belong to the planes, but to clouds and stars as well!",
+						"englishNote": ""
 					},
-					"6" : {
-						"event" : "Main 1",
-						"media" : "main_1",
-						"chinese" : "姐姐们说，有不懂的问题就要问！但是，之后我又该做什么呢？",
-						"chineseTL" : "",
-						"chineseNote" : "",
-						"japanese" : "わからないことは聞くべし！と聞いたけど、何を聞くの？",
-						"japaneseTL" : "",
-						"japaneseNote" : "",
-						"english" : "",
-						"englishNote" : ""
+					"6": {
+						"event": "Main 1",
+						"media": "main_1",
+						"chinese": "姐姐们说，有不懂的问题就要问！但是，之后我又该做什么呢？",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "わからないことは聞くべし！と聞いたけど、何を聞くの？",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "My sisters always told me to ask if there's anything I don't understand. But, what if I still don't get it? ",
+						"englishNote": ""
 					},
-					"7" : {
-						"event" : "Main 2",
-						"media" : "main_2",
-						"chinese" : "唔唔唔……有没有什么办法让大家都注意到我的厉害之处呢？",
-						"chineseTL" : "",
-						"chineseNote" : "",
-						"japanese" : "むむむむ……私の凄さをみんなに気づいてもらえる方法はないかなー",
-						"japaneseTL" : "",
-						"japaneseNote" : "",
-						"english" : "",
-						"englishNote" : ""
+					"7": {
+						"event": "Main 2",
+						"media": "main_2",
+						"chinese": "唔唔唔……有没有什么办法让大家都注意到我的厉害之处呢？",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "むむむむ……私の凄さをみんなに気づいてもらえる方法はないかなー",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Hrmmm... Is there some way to get everyone to know about how awesome I am? ",
+						"englishNote": ""
 					},
-					"8" : {
-						"event" : "Main 3",
-						"media" : "main_3",
-						"chinese" : "欸，指挥官，你一直坐在这里，不会觉得无聊吗？",
-						"chineseTL" : "",
-						"chineseNote" : "",
-						"japanese" : "えええ！指揮官、ずっとここに座りっぱなしでつまんなくないのー？",
-						"japaneseTL" : "",
-						"japaneseNote" : "",
-						"english" : "",
-						"englishNote" : ""
+					"8": {
+						"event": "Main 3",
+						"media": "main_3",
+						"chinese": "欸，指挥官，你一直坐在这里，不会觉得无聊吗？",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "えええ！指揮官、ずっとここに座りっぱなしでつまんなくないのー？",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Ehhh? Commander, doesn't it get boring sitting there all day?",
+						"englishNote": ""
 					},
-					"9" : {
-						"event" : "Touch",
-						"media" : "touch_1",
-						"chinese" : "哇，轮到我当鬼了！指挥官我数到10哦，1，2，然后是……5？10！",
-						"chineseTL" : "",
-						"chineseNote" : "",
-						"japanese" : "よし！私が探す番ね！今１０まで数えるから…ええと、１、２、５、１０！",
-						"japaneseTL" : "",
-						"japaneseNote" : "",
-						"english" : "",
-						"englishNote" : ""
+					"9": {
+						"event": "Touch",
+						"media": "touch_1",
+						"chinese": "哇，轮到我当鬼了！指挥官我数到10哦，1，2，然后是……5？10！",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "よし！私が探す番ね！今１０まで数えるから…ええと、１、２、５、１０！",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Awright! It's my turn to be it! One, two, skip a few... Ninety-nine, a hundred! Here I come, Commander!",
+						"englishNote": ""
 					},
-					"10" : {
-						"event" : "Touch (Special)",
-						"media" : "touch_2",
-						"chinese" : "指挥官是笨蛋！",
-						"chineseTL" : "",
-						"chineseNote" : "",
-						"japanese" : "指揮官のバカ！",
-						"japaneseTL" : "",
-						"japaneseNote" : "",
-						"english" : "",
-						"englishNote" : ""
+					"10": {
+						"event": "Touch (Special)",
+						"media": "touch_2",
+						"chinese": "指挥官是笨蛋！",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "指揮官のバカ！",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Commander, you jerk!",
+						"englishNote": ""
 					},
-					"11" : {
-						"event" : "Mission",
-						"media" : "task",
-						"chinese" : "看我一口气把这些任务都完成！",
-						"chineseTL" : "",
-						"chineseNote" : "",
-						"japanese" : "私が一気に任務を片付けちゃうぞ！",
-						"japaneseTL" : "",
-						"japaneseNote" : "",
-						"english" : "",
-						"englishNote" : ""
+					"11": {
+						"event": "Mission",
+						"media": "task",
+						"chinese": "看我一口气把这些任务都完成！",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "私が一気に任務を片付けちゃうぞ！",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "I'm gonna finish up all these missions in one fell swoop!",
+						"englishNote": ""
 					},
-					"12" : {
-						"event" : "Mission Complete",
-						"media" : "mission_complete",
-						"chinese" : "有好多好多的奖励呢！怎么样，我有帮上指挥官的忙吧！",
-						"chineseTL" : "",
-						"chineseNote" : "",
-						"japanese" : "報酬がいっっっぱい！どう？私役に立ってるでしょう？",
-						"japaneseTL" : "",
-						"japaneseNote" : "",
-						"english" : "",
-						"englishNote" : ""
+					"12": {
+						"event": "Mission Complete",
+						"media": "mission_complete",
+						"chinese": "有好多好多的奖励呢！怎么样，我有帮上指挥官的忙吧！",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "報酬がいっっっぱい！どう？私役に立ってるでしょう？",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Sooooo many rewards! Well? I'm pretty helpful, aren't I?",
+						"englishNote": ""
 					},
-					"13" : {
-						"event" : "Mail",
-						"media" : "mail",
-						"chinese" : "指挥官总能收到好多信呢。下次我也写信给指挥官吧！",
-						"chineseTL" : "",
-						"chineseNote" : "",
-						"japanese" : "指揮官にいつもメール届いてるよね！今度は私も書いてあげる！",
-						"japaneseTL" : "",
-						"japaneseNote" : "",
-						"english" : "",
-						"englishNote" : ""
+					"13": {
+						"event": "Mail",
+						"media": "mail",
+						"chinese": "指挥官总能收到好多信呢。下次我也写信给指挥官吧！",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "指揮官にいつもメール届いてるよね！今度は私も書いてあげる！",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Commander, you always get so much mail... Next time, I'll write you a letter too!",
+						"englishNote": ""
 					},
-					"14" : {
-						"event" : "Return to Port",
-						"media" : "home",
-						"chinese" : "指挥官，刚刚是在和我玩躲猫猫吧！",
-						"chineseTL" : "",
-						"chineseNote" : "",
-						"japanese" : "指揮官！今のはかくれんぼだったの？",
-						"japaneseTL" : "",
-						"japaneseNote" : "",
-						"english" : "",
-						"englishNote" : ""
+					"14": {
+						"event": "Return to Port",
+						"media": "home",
+						"chinese": "指挥官，刚刚是在和我玩躲猫猫吧！",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "指揮官！今のはかくれんぼだったの？",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Commander, were you trying to play hide-and-seek with me?",
+						"englishNote": ""
 					},
-					"15" : {
-						"event" : "Commission Complete",
-						"media" : "expedition",
-						"chinese" : "…………？！指挥官，直觉告诉我，港口有人回来了！",
-						"chineseTL" : "",
-						"chineseNote" : "",
-						"japanese" : "…………？！指揮官、誰かが戻ってきたってサンディエゴセンスが教えてくれた！",
-						"japaneseTL" : "",
-						"japaneseNote" : "",
-						"english" : "",
-						"englishNote" : ""
+					"15": {
+						"event": "Commission Complete",
+						"media": "expedition",
+						"chinese": "…………？！指挥官，直觉告诉我，港口有人回来了！",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "…………？！指揮官、誰かが戻ってきたってサンディエゴセンスが教えてくれた！",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "...?! Commander, my Sandy Senses are tingling! There's someone waiting at the port!",
+						"englishNote": ""
 					},
-					"16" : {
-						"event" : "Enhancement",
-						"media" : "upgrade",
-						"chinese" : "欸？这样子做真的有用吗？",
-						"chineseTL" : "",
-						"chineseNote" : "",
-						"japanese" : "えっ、これで本当に役に立てるの？？",
-						"japaneseTL" : "",
-						"japaneseNote" : "",
-						"english" : "",
-						"englishNote" : ""
+					"16": {
+						"event": "Enhancement",
+						"media": "upgrade",
+						"chinese": "欸？这样子做真的有用吗？",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "えっ、これで本当に役に立てるの？？",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Eehhh? Is this stuff really going to be useful?",
+						"englishNote": ""
 					},
-					"17" : {
-						"event" : "Flagship",
-						"media" : "warcry",
-						"chinese" : "向着大海，冲呀！",
-						"chineseTL" : "",
-						"chineseNote" : "",
-						"japanese" : "海に向かって、進めええええ！",
-						"japaneseTL" : "",
-						"japaneseNote" : "",
-						"english" : "",
-						"englishNote" : ""
+					"17": {
+						"event": "Flagship",
+						"media": "warcry",
+						"chinese": "向着大海，冲呀！",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "海に向かって、進めええええ！",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "We're headed for the ocean! Chaaaaarge!!",
+						"englishNote": ""
 					},
-					"18" : {
-						"event" : "Victory",
-						"media" : "mvp",
-						"chinese" : "看到了吗，看到了吗！是我拿到了mvp！",
-						"chineseTL" : "",
-						"chineseNote" : "",
-						"japanese" : "見た！？今の見た！？私がMVPだよ！",
-						"japaneseTL" : "",
-						"japaneseNote" : "",
-						"english" : "",
-						"englishNote" : ""
+					"18": {
+						"event": "Victory",
+						"media": "mvp",
+						"chinese": "看到了吗，看到了吗！是我拿到了mvp！",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "見た！？今の見た！？私がMVPだよ！",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Did you see that? Just now?! I'm freakin' awesome!",
+						"englishNote": ""
 					},
-					"19" : {
-						"event" : "Defeat",
-						"media" : "lose",
-						"chinese" : "欸欸？那边不是回去的方向吗？",
-						"chineseTL" : "",
-						"chineseNote" : "",
-						"japanese" : "ええ？あっちは母港に帰る方向じゃないの？",
-						"japaneseTL" : "",
-						"japaneseNote" : "",
-						"english" : "",
-						"englishNote" : ""
+					"19": {
+						"event": "Defeat",
+						"media": "lose",
+						"chinese": "欸欸？那边不是回去的方向吗？",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "ええ？あっちは母港に帰る方向じゃないの？",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Huhhh? Isn't that the way back home?",
+						"englishNote": ""
 					},
-					"20" : {
-						"event" : "Skill",
-						"media" : "skill",
-						"chinese" : "我知道的！该上了吧！",
-						"chineseTL" : "",
-						"chineseNote" : "",
-						"japanese" : "わかってる！そろそろ行くわよー！",
-						"japaneseTL" : "",
-						"japaneseNote" : "",
-						"english" : "",
-						"englishNote" : ""
+					"20": {
+						"event": "Skill",
+						"media": "skill",
+						"chinese": "我知道的！该上了吧！",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "わかってる！そろそろ行くわよー！",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Got it! It's about time we get serious~!",
+						"englishNote": ""
 					},
-					"21" : {
-						"event" : "Low HP",
-						"media" : "hp",
-						"chinese" : "为什么大家的表情变得严肃起来了？",
-						"chineseTL" : "",
-						"chineseNote" : "",
-						"japanese" : "なんでみんな真剣な顔をしてるの？？",
-						"japaneseTL" : "",
-						"japaneseNote" : "",
-						"english" : "",
-						"englishNote" : ""
+					"21": {
+						"event": "Low HP",
+						"media": "hp",
+						"chinese": "为什么大家的表情变得严肃起来了？",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "なんでみんな真剣な顔をしてるの？？",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Hey, guys, why so serious??",
+						"englishNote": ""
 					},
-					"22" : {
-						"event" : "Affinity (Upset)",
-						"media" : "feeling1",
-						"chinese" : "指挥官，不要难过，比圣地亚哥笨并不是你的错",
-						"chineseTL" : "",
-						"chineseNote" : "",
-						"japanese" : "指揮官大丈夫！サンディエゴよりバカなのはあなたのせいじゃないんだから！",
-						"japaneseTL" : "",
-						"japaneseNote" : "",
-						"english" : "",
-						"englishNote" : ""
+					"22": {
+						"event": "Affinity (Upset)",
+						"media": "feeling1",
+						"chinese": "指挥官，不要难过，比圣地亚哥笨并不是你的错",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "指揮官大丈夫！サンディエゴよりバカなのはあなたのせいじゃないんだから！",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Don't feel bad, Commander, it's not your fault that you're dumber than San Diego.",
+						"englishNote": ""
 					},
-					"23" : {
-						"event" : "Affinity (Stranger)",
-						"media" : "feeling2",
-						"chinese" : "只要把问题都忘掉，就能每天都开开心心的了！指挥官，你说是吧！",
-						"chineseTL" : "",
-						"chineseNote" : "",
-						"japanese" : "わからないことを全部忘れたら毎日ハッピーだよ！指揮官、そうだよね？",
-						"japaneseTL" : "",
-						"japaneseNote" : "",
-						"english" : "",
-						"englishNote" : ""
+					"23": {
+						"event": "Affinity (Stranger)",
+						"media": "feeling2",
+						"chinese": "只要把问题都忘掉，就能每天都开开心心的了！指挥官，你说是吧！",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "わからないことを全部忘れたら毎日ハッピーだよ！指揮官、そうだよね？",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "The key to happiness is to not worry about the stuff you don't get. Isn't that right, Commander?",
+						"englishNote": ""
 					},
-					"24" : {
-						"event" : "Affinity (Friendly)",
-						"media" : "feeling3",
-						"chinese" : "要是遇到了一些怎么样都忘不掉的问题要怎么办呢……啊，我知道了，这个时候只要找指挥官就好了吧！",
-						"chineseTL" : "",
-						"chineseNote" : "",
-						"japanese" : "忘れられない問題があったらどうすんの？……あ！わかった！指揮官に聞けばいいんだよ！",
-						"japaneseTL" : "",
-						"japaneseNote" : "",
-						"english" : "",
-						"englishNote" : ""
+					"24": {
+						"event": "Affinity (Friendly)",
+						"media": "feeling3",
+						"chinese": "要是遇到了一些怎么样都忘不掉的问题要怎么办呢……啊，我知道了，这个时候只要找指挥官就好了吧！",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "忘れられない問題があったらどうすんの？……あ！わかった！指揮官に聞けばいいんだよ！",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "What should I do if there's stuff that I can't stop worrying about though...? Ah! Got it! That's what Commander is there for!",
+						"englishNote": ""
 					},
-					"25" : {
-						"event" : "Affinity (Like)",
-						"media" : "feeling4",
-						"chinese" : "没想到不管什么样的问题和指挥官都知道答案……难道说，指挥官就是这里最聪明的人？！",
-						"chineseTL" : "",
-						"chineseNote" : "",
-						"japanese" : "どんなに難しい問題の答えも知ってるなんて……もしかして指揮官はここでいっちばん頭のいい人なの！？",
-						"japaneseTL" : "",
-						"japaneseNote" : "",
-						"english" : "",
-						"englishNote" : ""
+					"25": {
+						"event": "Affinity (Like)",
+						"media": "feeling4",
+						"chinese": "没想到不管什么样的问题和指挥官都知道答案……难道说，指挥官就是这里最聪明的人？！",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "どんなに難しい問題の答えも知ってるなんて……もしかして指揮官はここでいっちばん頭のいい人なの！？",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "No matter what kind of stuff I ask you, you always have an answer... Commander, are you actually pretty smart?!",
+						"englishNote": ""
 					},
-					"26" : {
-						"event" : "Affinity (Love)",
-						"media" : "feeling5",
-						"chinese" : "以后只要有指挥官在，无论遇到什么样的问题我都不用怕了！嘿嘿，无所不能的指挥官我最喜欢啦！",
-						"chineseTL" : "",
-						"chineseNote" : "",
-						"japanese" : "どんなにわからないことがあっても、指揮官がいてくれたら大丈夫！うんうん、なんでも知ってる指揮官は大好き！",
-						"japaneseTL" : "",
-						"japaneseNote" : "",
-						"english" : "",
-						"englishNote" : ""
+					"26": {
+						"event": "Affinity (Love)",
+						"media": "feeling5",
+						"chinese": "以后只要有指挥官在，无论遇到什么样的问题我都不用怕了！嘿嘿，无所不能的指挥官我最喜欢啦！",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "どんなにわからないことがあっても、指揮官がいてくれたら大丈夫！うんうん、なんでも知ってる指揮官は大好き！",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "As long as you're here, Commander, I'll know where to turn to whenever I have any problems! Hehe, I love how you know everything, Commander!",
+						"englishNote": ""
 					},
-					"27" : {
-						"event" : "Pledge",
-						"media" : "propose",
-						"chinese" : "这个闪闪亮亮的东西是什么呀？是要这样戴在手上的吗？哦哦，看起来好漂亮！嘿嘿，那我就一直这样戴着好了！",
-						"chineseTL" : "",
-						"chineseNote" : "",
-						"japanese" : "このキラキラしてるのはなぁに？おっ、こうやって指につけるものなの？おお、キレイ！じゃあずっとつけるからね！",
-						"japaneseTL" : "",
-						"japaneseNote" : "",
-						"english" : "",
-						"englishNote" : ""
+					"27": {
+						"event": "Pledge",
+						"media": "propose",
+						"chinese": "这个闪闪亮亮的东西是什么呀？是要这样戴在手上的吗？哦哦，看起来好漂亮！嘿嘿，那我就一直这样戴着好了！",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "このキラキラしてるのはなぁに？おっ、こうやって指につけるものなの？おお、キレイ！じゃあずっとつけるからね！",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "What's this shiny, loopy thing? I'm supposed to put it on my finger? Ooh, it's so pretty! Hehe, I guess I'll keep it on then!",
+						"englishNote": ""
 					},
-					"28" : {
-						"event" : "Easter Egg 1(Atlanta)",
-						"media" : "link1",
-						"chinese" : "亚特兰大姐姐！看我看我！",
-						"chineseTL" : "",
-						"chineseNote" : "",
-						"japanese" : "アトランタ姉ちゃん！こっちこっち！",
-						"japaneseTL" : "",
-						"japaneseNote" : "",
-						"english" : "",
-						"englishNote" : ""
+					"28": {
+						"event": "Easter Egg 1(Atlanta)",
+						"media": "link1",
+						"chinese": "亚特兰大姐姐！看我看我！",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "アトランタ姉ちゃん！こっちこっち！",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Hey, Atl-auntie, look over here! Here!",
+						"englishNote": ""
 					},
-					"29" : {
-						"event" : "Easter Egg 2(San Diego)",
-						"media" : "link2",
-						"chinese" : "我们一起就是最强的！",
-						"chineseTL" : "",
-						"chineseNote" : "",
-						"japanese" : "二人揃って、最☆強！",
-						"japaneseTL" : "",
-						"japaneseNote" : "",
-						"english" : "",
-						"englishNote" : ""
+					"29": {
+						"event": "Easter Egg 2(San Diego)",
+						"media": "link2",
+						"chinese": "我们一起就是最强的！",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "二人揃って、最☆強！",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Together, we're ☆invincible☆!",
+						"englishNote": ""
 					},
-					"30" : {
-						"event" : "Like Present",
-						"media" : "present_like",
-						"chinese" : "",
-						"chineseTL" : "",
-						"chineseNote" : "",
-						"japanese" : "",
-						"japaneseTL" : "",
-						"japaneseNote" : "",
-						"english" : "",
-						"englishNote" : ""
+					"30": {
+						"event": "Like Present",
+						"media": "present_like",
+						"chinese": "",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
 					},
-					"31" : {
-						"event" : "Dislike Present",
-						"media" : "present_dislike",
-						"chinese" : "",
-						"chineseTL" : "",
-						"chineseNote" : "",
-						"japanese" : "",
-						"japaneseTL" : "",
-						"japaneseNote" : "",
-						"english" : "",
-						"englishNote" : ""
+					"31": {
+						"event": "Dislike Present",
+						"media": "present_dislike",
+						"chinese": "",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
 					},
-					"32" : {
-						"event" : "Main Title",
-						"media" : "extra",
-						"chinese" : "",
-						"chineseTL" : "",
-						"chineseNote" : "",
-						"japanese" : "",
-						"japaneseTL" : "",
-						"japaneseNote" : "",
-						"english" : "",
-						"englishNote" : ""
+					"32": {
+						"event": "Main Title",
+						"media": "extra",
+						"chinese": "",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
 					}
 				}
 			}
