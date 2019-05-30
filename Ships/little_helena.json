@@ -1,0 +1,648 @@
+{
+	"name_reference" : "little_helena",
+	"cn_reference" : "hailunna_younv",
+	"nameJP" : "小海伦娜",
+	"nameCN" : "小海伦娜",
+	"ID" : "390",
+	"name" : "Little Helena",
+	"internal_id" : "102191",
+	"rarity" : "Elite",
+	"initialStar" : "★★☆☆☆",
+	"hull" : "Light Cruiser",
+	"navy" : "Eagle Union",
+	"prefix" : "USS",
+	"buildTime" : "",
+	"parameters": {
+		"firepower" : "B",
+		"torpedo" : "E",
+		"aviation" : "E",
+		"evasion" : "B",
+		"antiAir" : "B",
+		"hp" : "C"
+	},
+	"scrap": {
+		"gold" : "6",
+		"oil" : "3",
+		"medal" : "4"
+	},
+	"releaseDate": {
+		"JP" : "",
+		"CN" : "",
+		"KR" : "",
+		"EN" : ""
+	},
+	"artist": {
+		"name" : "",
+		"weibo" : "",
+		"twitter" : "",
+		"pixiv" : "",
+		"other" : ""
+	},
+	"enhance": {
+		"firepower" : "13",
+		"torpedo" : "0",
+		"aviation" : "0",
+		"reload" : "13"
+	},
+	"acquisitionMethod" : "进行轻型舰建造",
+	"skill": {
+		"1" : {
+			"icon" : "12220",
+			"requirement" : "",
+			"name" : "纯洁之光",
+			"type" : "Support",
+			"description" : "每20秒有$1概率触发，降低敌方炮击、雷击、航空属性$2，持续10秒"
+		},
+		"2" : {
+			"icon" : "12230",
+			"requirement" : "",
+			"name" : "天真烂漫的少女",
+			"type" : "Defensive",
+			"description" : "防空炮开火时有30%概率触发，自身防空提高$1，持续5秒；战斗中小圣地亚哥、小克利夫兰受到伤害导致血量低于40%时触发，自身炮击、命中提高$1持续15秒，每场战斗只能发动一次"
+		},
+		"3" : {
+			"icon" : "20121",
+			"requirement" : "",
+			"name" : "All Out Assault Ⅰ",
+			"type" : "Offensive",
+			"description" : "Activates All Out Assault Ⅰ: Brooklyn Class once every 15 times the Main Guns are fired."
+		}
+	},
+	"skin": {
+		"1" : {
+			"id" : "hailunna_younv",
+			"name" : "小海伦娜",
+			"description" : "布鲁克林级轻巡洋舰—海伦娜，舷号CL-50",
+			"expression" : {
+				"0" : {
+					"id" : "0"
+				}
+			}
+		}
+	},
+	"defaultEquipment": {
+		"1" : {
+			"icon" : "12100",
+			"rarity" : "Common",
+			"name" : "Triple 152mm Main Gun"
+		},
+		"2" : {
+			"icon" : "",
+			"rarity" : "",
+			"name" : ""
+		},
+		"1" : {
+			"icon" : "16200",
+			"rarity" : "Common",
+			"name" : "Quadruple 28mm Chicago Piano"
+		}
+	},
+	"stats": {
+		"base": {
+			"hp" : "558",
+			"firepower" : "31",
+			"torpedo" : "0",
+			"antiAir" : "60",
+			"aviation" : "0",
+			"reload" : "68",
+			"hit" : "59",
+			"evasion" : "28",
+			"speed" : "32.5",
+			"luck" : "33",
+			"asw" : "26",
+			"oxygen" : "0",
+			"ammo" : "0",
+			"cost" : "3",
+			"armor" : "Light"
+		},
+		"100": {
+			"hp" : "2885",
+			"firepower" : "145",
+			"torpedo" : "0",
+			"antiAir" : "279",
+			"aviation" : "0",
+			"reload" : "161",
+			"hit" : "153",
+			"evasion" : "73",
+			"speed" : "32.5",
+			"luck" : "33",
+			"asw" : "94",
+			"oxygen" : "0",
+			"ammo" : "0",
+			"cost" : "10",
+			"armor" : "Light"
+		},
+		"120": {
+			"hp" : "3246",
+			"firepower" : "167",
+			"torpedo" : "0",
+			"antiAir" : "316",
+			"aviation" : "0",
+			"reload" : "185",
+			"hit" : "172",
+			"evasion" : "91",
+			"speed" : "32.5",
+			"luck" : "33",
+			"asw" : "107",
+			"oxygen" : "0",
+			"ammo" : "0",
+			"cost" : "10",
+			"armor" : "Light"
+		},
+		"100retrofit": {
+			"hp" : "",
+			"firepower" : "",
+			"torpedo" : "",
+			"antiAir" : "",
+			"aviation" : "",
+			"reload" : "",
+			"hit" : "",
+			"evasion" : "",
+			"speed" : "32.5",
+			"luck" : "33",
+			"asw" : "",
+			"oxygen" : "0",
+			"ammo" : "0",
+			"cost" : "10",
+			"armor" : "Light"
+		},
+		"120retrofit": {
+			"hp" : "",
+			"firepower" : "",
+			"torpedo" : "",
+			"antiAir" : "",
+			"aviation" : "",
+			"reload" : "",
+			"hit" : "",
+			"evasion" : "",
+			"speed" : "32.5",
+			"luck" : "33",
+			"asw" : "",
+			"oxygen" : "0",
+			"ammo" : "0",
+			"cost" : "10",
+			"armor" : "Light"
+		}
+	},
+	"limitBreak": {
+		"tier1": "获得全弹发射I/主炮效率提高5%",
+		"tier2": "主炮底座+1/主炮效率提高10%",
+		"tier3": "全弹发射弹幕升级/主炮效率提高15%"
+	},
+	"equipmentLoadout": {
+		"1": {
+			"type": "Light Cruiser",
+			"efficiency": "105%/110%/120%/135%",
+			"amount": "1/1/2/2",
+			"preload": "0/0/0/0"
+		},
+		"2": {
+			"type": "Destroyer Gun",
+			"efficiency": "65%/65%/65%/65%",
+			"amount": "1/1/1/1",
+			"preload": "0/0/0/0"
+		},
+		"3": {
+			"type": "Anti-Air Gun",
+			"efficiency": "100%/100%/100%/100%",
+			"amount": "1/1/1/1",
+			"preload": "0/0/0/0"
+		},
+		"4": {
+			"type": "Auxilary",
+			"efficiency": "-",
+			"amount": "-",
+			"preload": "-"
+		},
+		"5": {
+			"type": "Auxilary",
+			"efficiency": "-",
+			"amount": "-",
+			"preload": "-"
+		}
+	},
+	"build": {
+		"light": {
+			"JP": "",
+			"CN": "",
+			"EN": ""
+		},
+		"heavy": {
+			"JP": "",
+			"CN": "",
+			"EN": ""
+		},
+		"special": {
+			"JP": "",
+			"CN": "",
+			"EN": ""
+		},
+		"limited": {
+			"JP": "",
+			"CN": "",
+			"EN": ""
+		}
+	},
+	"drop": {
+		"droppable": "false",
+		"list": {
+			"1": {
+				"event": "",
+				"chapter": {
+					"1": {
+						"label": "Ch .1",
+						"node": {
+							"1": {
+								"drop": "✓",
+								"note": "-"
+							}
+						}
+					}
+				}
+			}
+		}
+	},
+	"lines": {
+		"skin": {
+			"1": {
+				"skin_id" : "hailunna_younv",
+				"id" : "0",
+				"label" : "小海伦娜",
+				"dialogue" : {
+					"1" : {
+						"event" : "Ship Description",
+						"media" : "",
+						"chinese" : "布鲁克林级轻巡洋舰—海伦娜，舷号CL-50",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "布鲁克林级轻巡洋舰—海伦娜，舷号CL-50",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"2" : {
+						"event" : "Biography",
+						"media" : "profile",
+						"chinese" : "人家是圣路易斯级的海伦娜，特长是防空，兴趣是打扮自己~虽然好像来到了奇怪的地方，不过路易斯姐姐教育过我，淑女是要在任何时候都保持冷静的，而且你好像不是坏人，就稍微打扰一下好啦",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "人家是圣路易斯级的海伦娜，特长是防空，兴趣是打扮自己~虽然好像来到了奇怪的地方，不过路易斯姐姐教育过我，淑女是要在任何时候都保持冷静的，而且你好像不是坏人，就稍微打扰一下好啦",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"3" : {
+						"event" : "Acquisition",
+						"media" : "get",
+						"chinese" : "今天编什么发型好呢~咦，你、你是谁呀，为什么出现在我家里？欸，不是我家？欸……欸！！！！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "今天编什么发型好呢~咦，你、你是谁呀，为什么出现在我家里？欸，不是我家？欸……欸！！！！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"4" : {
+						"event" : "Login",
+						"media" : "login",
+						"chinese" : "指、指挥官，人家还在想今天的发型呢，不要突然进来啦",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "指、指挥官，人家还在想今天的发型呢，不要突然进来啦",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"5" : {
+						"event" : "Details",
+						"media" : "detail",
+						"chinese" : "我的目标就是，有一天变得像路易斯姐姐那样漂亮！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "我的目标就是，有一天变得像路易斯姐姐那样漂亮！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"6" : {
+						"event" : "Main 1",
+						"media" : "main_1",
+						"chinese" : "圣路易斯姐姐老是喜欢买各种衣服给我换上，感觉像把我当作穿衣人偶一样…不过衣服很可爱，我也挺喜欢的就是了",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "圣路易斯姐姐老是喜欢买各种衣服给我换上，感觉像把我当作穿衣人偶一样…不过衣服很可爱，我也挺喜欢的就是了",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"7" : {
+						"event" : "Main 2",
+						"media" : "main_2",
+						"chinese" : "咦……那边那个好像男孩子一样的金发女孩子是谁呀，指挥官？欸，我、我只是觉得她看起来好像有点帅",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "咦……那边那个好像男孩子一样的金发女孩子是谁呀，指挥官？欸，我、我只是觉得她看起来好像有点帅",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"8" : {
+						"event" : "Main 3",
+						"media" : "main_3",
+						"chinese" : "女孩子就是要把自己打扮得美美的才对呀，发型、妆容还有服装，都是很深的学问呢！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "女孩子就是要把自己打扮得美美的才对呀，发型、妆容还有服装，都是很深的学问呢！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"9" : {
+						"event" : "Touch",
+						"media" : "touch_1",
+						"chinese" : "指挥官，你看，小兔子~",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "指挥官，你看，小兔子~",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"10" : {
+						"event" : "Touch (Special)",
+						"media" : "touch_2",
+						"chinese" : "指挥官，做这种事是会被女孩子讨厌的！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "指挥官，做这种事是会被女孩子讨厌的！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"11" : {
+						"event" : "Mission",
+						"media" : "task",
+						"chinese" : "指挥官，你说人家用这个发型去出任务怎么样呀？",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "指挥官，你说人家用这个发型去出任务怎么样呀？",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"12" : {
+						"event" : "Mission Complete",
+						"media" : "mission_complete",
+						"chinese" : "任务奖励吗？等一下，人家换一身衣服，仪式感可是很重要的！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "任务奖励吗？等一下，人家换一身衣服，仪式感可是很重要的！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"13" : {
+						"event" : "Mail",
+						"media" : "mail",
+						"chinese" : "指挥官，有你的邮件。比起这个，人家这个发型怎么样？",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "指挥官，有你的邮件。比起这个，人家这个发型怎么样？",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"14" : {
+						"event" : "Return to Port",
+						"media" : "home",
+						"chinese" : "指挥官，你有没有时间帮人家梳一下头发呀？",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "指挥官，你有没有时间帮人家梳一下头发呀？",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"15" : {
+						"event" : "Commission Complete",
+						"media" : "expedition",
+						"chinese" : "姐姐说过，不守时是会让人讨厌的哦，指挥官",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "姐姐说过，不守时是会让人讨厌的哦，指挥官",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"16" : {
+						"event" : "Enhancement",
+						"media" : "upgrade",
+						"chinese" : "指挥官，我来帮你捶捶背吧～",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "指挥官，我来帮你捶捶背吧～",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"17" : {
+						"event" : "Flagship",
+						"media" : "warcry",
+						"chinese" : "比可爱，我是不会输哒！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "比可爱，我是不会输哒！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"18" : {
+						"event" : "Victory",
+						"media" : "mvp",
+						"chinese" : "嘻嘻，果然我是最可爱的呢~",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "嘻嘻，果然我是最可爱的呢~",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"19" : {
+						"event" : "Defeat",
+						"media" : "lose",
+						"chinese" : "呜呜呜，指挥官，他们欺负我……",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "呜呜呜，指挥官，他们欺负我……",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"20" : {
+						"event" : "Skill",
+						"media" : "skill",
+						"chinese" : "可爱…是无敌的！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "可爱…是无敌的！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"21" : {
+						"event" : "Low HP",
+						"media" : "hp",
+						"chinese" : "怎么办怎么办怎么办呀！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "怎么办怎么办怎么办呀！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"22" : {
+						"event" : "Affinity (Upset)",
+						"media" : "feeling1",
+						"chinese" : "跟指挥官相处好无聊，我要回去了！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "跟指挥官相处好无聊，我要回去了！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"23" : {
+						"event" : "Affinity (Stranger)",
+						"media" : "feeling2",
+						"chinese" : "指挥官，都说了女孩子的私人空间不要随便闯进来啦！……嗯？",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "指挥官，都说了女孩子的私人空间不要随便闯进来啦！……嗯？",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"24" : {
+						"event" : "Affinity (Friendly)",
+						"media" : "feeling3",
+						"chinese" : "指挥官，这个发型现在好像很流行哦，不过我还是喜欢这个，你觉得哪个比较好看？",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "指挥官，这个发型现在好像很流行哦，不过我还是喜欢这个，你觉得哪个比较好看？",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"25" : {
+						"event" : "Affinity (Like)",
+						"media" : "feeling4",
+						"chinese" : "以前都是路易斯姐姐帮我做一些复杂的发型并且帮我化妆的，现在，有指挥官帮我做啦~嘻嘻，谢谢你，指挥官",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "以前都是路易斯姐姐帮我做一些复杂的发型并且帮我化妆的，现在，有指挥官帮我做啦~嘻嘻，谢谢你，指挥官",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"26" : {
+						"event" : "Affinity (Love)",
+						"media" : "feeling5",
+						"chinese" : "为什么呢……指挥官帮我做发型和化妆的时候，总觉得心跳得好快。明明姐姐帮我做的时候，就从来没有这样的事，我难道是病了吗……",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "为什么呢……指挥官帮我做发型和化妆的时候，总觉得心跳得好快。明明姐姐帮我做的时候，就从来没有这样的事，我难道是病了吗……",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"27" : {
+						"event" : "Pledge",
+						"media" : "propose",
+						"chinese" : "姐姐说过，契约是和一个人建立起深厚关系的证明……就是说，我和指挥官是非常非常要好的朋友，永远不会分开了吗？……嘻嘻，好开心~",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "姐姐说过，契约是和一个人建立起深厚关系的证明……就是说，我和指挥官是非常非常要好的朋友，永远不会分开了吗？……嘻嘻，好开心~",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"28" : {
+						"event" : "Easter Egg 1(Cleveland)",
+						"media" : "link1",
+						"chinese" : "你、你好，我叫海伦娜！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "你、你好，我叫海伦娜！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"29" : {
+						"event" : "Like Present",
+						"media" : "present_like",
+						"chinese" : "",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"30" : {
+						"event" : "Dislike Present",
+						"media" : "present_dislike",
+						"chinese" : "",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"31" : {
+						"event" : "Main Title",
+						"media" : "extra",
+						"chinese" : "",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					}
+				}
+			}
+		}
+	}
+}
