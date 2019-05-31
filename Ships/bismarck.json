@@ -95,6 +95,28 @@
 					"id": "5"
 				}
 			}
+		},
+		"2": {
+			"id": "bisimai_2",
+			"name": "Beacon of the Iron Blood ",
+			"description": "My sincerest apologies for the delay, Commander. Ah, excuse me... as the fleet leader of the Iron Blood, I'm expected to wear this outfit to various formal occasions. Just putting it on seems to make me inadvertently change the way I speak... ",
+			"expression": {
+				"0": {
+					"id": "0"
+				},
+				"1": {
+					"id": "1"
+				},
+				"2": {
+					"id": "2"
+				},
+				"3": {
+					"id": "3"
+				},
+				"4": {
+					"id": "4"
+				}
+			}
 		}
 	},
 	"defaultEquipment": {
@@ -657,6 +679,193 @@
 						"japaneseTL": "",
 						"japaneseNote": "",
 						"english": "",
+						"englishNote": ""
+					}
+				}
+			},
+			"2": {
+				"skin_id": "bisimai_2",
+				"id": "1",
+				"label": "Beacon of the Iron Blood ",
+				"dialogue": {
+					"1": {
+						"event": "Ship Description",
+						"media": "",
+						"chinese": "让你久等了，指挥官。……啊，不好意思，这是我需要作为领导者出席各种场合时穿的正装，穿上它时，总会不自觉地进入这种状态",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "卿を待たせたな。……ああ、すまない、これは鉄血艦隊の指導者として行事に参加した時の正装ね。こうして着ているとついつい喋り方まで少し変わってしまうわ",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "My sincerest apologies for the delay, Commander. Ah, excuse me... as the fleet leader of the Iron Blood, I'm expected to wear this outfit to various formal occasions. Just putting it on seems to make me inadvertently change the way I speak...",
+						"englishNote": ""
+					},
+					"2": {
+						"event": "Acquisition",
+						"media": "get_1",
+						"chinese": "让你久等了，指挥官。……啊，不好意思，这是我需要作为领导者出席各种场合时穿的正装，穿上它时，总会不自觉地进入这种状态",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "卿を待たせたな。……ああ、すまない、これは鉄血艦隊の指導者として行事に参加した時の正装ね。こうして着ているとついつい喋り方まで少し変わってしまうわ",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "My sincerest apologies for the delay, Commander. Ah, excuse me... as the fleet leader of the Iron Blood, I'm expected to wear this outfit to various formal occasions. Just putting it on seems to make me inadvertently change the way I speak...",
+						"englishNote": ""
+					},
+					"3": {
+						"event": "Login",
+						"media": "login_1",
+						"chinese": "公务都处理完成了吗，指挥官？",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "執務の進捗具合はどうだ？指揮官",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "How's your work coming along, Commander?",
+						"englishNote": ""
+					},
+					"4": {
+						"event": "Details",
+						"media": "detail_1",
+						"chinese": "抱歉，指挥官，是不是感觉和平时的我差很多？事实上我有时候也会想，到底哪边才是真的我呢……",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "すまない、指揮官、いつもの私と違うと思った？私も時々、どちらの私が本当の私なのか迷うくらい……",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Apologies, Commander. Am I acting differently from usual? At times, I don't even know which is the real me...",
+						"englishNote": ""
+					},
+					"5": {
+						"event": "Main 1",
+						"media": "main_1_1",
+						"chinese": "指挥官，能帮我邀请一下提尔比茨吗？抱歉，我……不知道该怎么亲自去邀请她",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "指揮官、ティルピッツを誘ってもらえないかしら？…ああすまない、私、あの子をどうやって誘えばいいか分からなくて…",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Commander, would you invite Tirpitz for me? Apologies, I'm... still not sure how to ask her myself. ",
+						"englishNote": ""
+					},
+					"6": {
+						"event": "Main 2",
+						"media": "main_2_1",
+						"chinese": "我只要像这样坐在这里，稍微露出一些笑容，很多人就会心满意足……但那只是因为我是铁血舰队的领导者",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "私がここに座って微笑むだけで、満足する人がたくさんいるわ。……私が鉄血艦隊の指導者であるだけで、ね",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "I can keep a lot of people satisfied merely by sitting here with a smile... but only because of my status as the fleet leader of the Iron Blood. ",
+						"englishNote": ""
+					},
+					"7": {
+						"event": "Main 3",
+						"media": "main_3_1",
+						"chinese": "作为领导者，有时候不得不说一些违心的话，做一些违心的事……指挥官，永远不要忘了自己是谁",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "指導者として、時には思ってもいないことを言葉にし、やりたくもないことを行動に変える……卿も、自分が一体どういう存在かくれぐれも忘れないで",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "As a leader, I must sometimes say and do things that I do not believe in. Commander, I hope you never lose sight of who you are.",
+						"englishNote": ""
+					},
+					"8": {
+						"event": "Touch",
+						"media": "touch_1_1",
+						"chinese": "舞蹈……？……不，我并不是在拒绝，只是，过去从来没有人邀请过我",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "ダンス……？……いや、別に断るつもりはないけど、ただ、今までは一度も誘われたことがなくて…",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "A dance...? Oh, no, I wouldn't turn one down, I just haven't been asked until now...",
+						"englishNote": ""
+					},
+					"9": {
+						"event": "Touch (Special)",
+						"media": "touch_2_1",
+						"chinese": "指、指挥官，不要故意逗我……",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "し、指揮官、あまりからかわないで……",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "C-Commander... don't tease me like that...",
+						"englishNote": ""
+					},
+					"10": {
+						"event": "Mission",
+						"media": "task_1",
+						"chinese": "还有没完成的事的话，酒也会变得乏味，你说对吧，指挥官？",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "すべきことがなされていないと、せっかくの酒も不味くなる。卿もそう思わない？",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Having unfinished work will turn even the finest wine into vinegar. Isn't that right, Commander?",
+						"englishNote": ""
+					},
+					"11": {
+						"event": "Mission Complete",
+						"media": "mission_complete_1",
+						"chinese": "用这些来装点宴会吗，有劳了",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "宴会の飾りにか？ご苦労",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "A decoration for the banquet? Splendid work.",
+						"englishNote": ""
+					},
+					"12": {
+						"event": "Mail",
+						"media": "mail_1",
+						"chinese": "即使在最盛大的宴会中，一旦有新的情报也必须马上进入状态，这也是领导者的职责",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "宴会においても新情報の収集を疎かにしないこと。これが指導者の務めというものよ",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Even at the most lavish banquet, it is your responsibility as commander to be well-informed should the situation change.",
+						"englishNote": ""
+					},
+					"13": {
+						"event": "Return to Port",
+						"media": "home_1",
+						"chinese": "就用这杯红酒来慰劳从战场回来的勇士吧",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "この一杯は戦場から帰還した勇者への褒賞としよう",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Let us raise our glasses to the heroes who have returned from battle.",
+						"englishNote": ""
+					},
+					"14": {
+						"event": "Commission Complete",
+						"media": "expedition_1",
+						"chinese": "委托组把物资存放完毕后，让她们也来参加宴会吧",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "委託組の子たちが物資を倉庫に詰め込んだら、宴会に参加させてちょうだい",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Once the commission fleet has finished dropping off their supplies, let's invite them to the banquet as well.",
+						"englishNote": ""
+					},
+					"15": {
+						"event": "Affinity (Love)",
+						"media": "feeling5_1",
+						"chinese": "出现在同胞面前时，我必须毫不妥协，必须勇往直前。我不可以单纯是不擅表达感情的俾斯麦，而必须是无敌的铁血领导者…现在，至少在你的面前，我可以稍微放下这个重担了，指挥官",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "仲間の前での私は、厳しい顔で、妥協せず、常に鉄血の邁進を率いる存在…私は感情表現があまり得意ではないビスマルクではなく、無敵の鉄血艦隊の指導者でなければならなかった……今の私は…少なくともあなたの前にいる私は、きっとそれだけじゃないわ",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "In front of my compatriots, I always had to be adamant, solemnly spearheading the march of the Iron Blood. To be the leader of the Iron Blood's indomitable fleet, I had to lock away the Bismarck that struggled to express herself... But when I'm with you, Commander, I can set aside that burden, just for a little bit...",
 						"englishNote": ""
 					}
 				}

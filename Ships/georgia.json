@@ -73,8 +73,30 @@
 	"skin": {
 		"1": {
 			"id": "zuozhiya",
-			"name": "Georgia",
-			"description": "Modified version of an early design of the Iowa class of Battleships, Georgia",
+			"name": "佐治亚",
+			"description": "战列舰——佐治亚",
+			"expression": {
+				"0": {
+					"id": "0"
+				},
+				"1": {
+					"id": "1"
+				},
+				"2": {
+					"id": "2"
+				},
+				"3": {
+					"id": "3"
+				},
+				"4": {
+					"id": "4"
+				}
+			}
+		},
+		"2": {
+			"id": "zuozhiya_2",
+			"name": "南方的黑珍珠",
+			"description": "呀，指挥官，出来透透气吗？我？哈哈，我不太习惯宴会那种高雅的氛围，所以偷溜出来了……要一起走走吗？",
 			"expression": {
 				"0": {
 					"id": "0"
@@ -284,7 +306,7 @@
 			"1": {
 				"skin_id": "zuozhiya",
 				"id": "0",
-				"label": "Georgia",
+				"label": "佐治亚",
 				"dialogue": {
 					"1": {
 						"event": "Ship Description",
@@ -638,6 +660,97 @@
 						"event": "Main Title",
 						"media": "extra",
 						"chinese": "",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					}
+				}
+			},
+			"2": {
+				"skin_id": "zuozhiya_2",
+				"id": "1",
+				"label": "南方的黑珍珠",
+				"dialogue": {
+					"1": {
+						"event": "Ship Description",
+						"media": "",
+						"chinese": "呀，指挥官，出来透透气吗？我？哈哈，我不太习惯宴会那种高雅的氛围，所以偷溜出来了……要一起走走吗？",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "おや？指揮官も気分転換か？私？あはは、どうもあのフォーマルな雰囲気が苦手だから、こうして外に新鮮な空気を吸いに来たわけだが……少し一緒に歩かないか？",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"2": {
+						"event": "Acquisition",
+						"media": "get_1",
+						"chinese": "呀，指挥官，出来透透气吗？我？哈哈，我不太习惯宴会那种高雅的氛围，所以偷溜出来了……要一起走走吗？",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"3": {
+						"event": "Login",
+						"media": "login_1",
+						"chinese": "还是旁边没有人的时候能够放松下来啊～对吧，指挥官？",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"4": {
+						"event": "Details",
+						"media": "detail_1",
+						"chinese": "这套礼服？啊，这是西雅图给我准备的……老实说，连我自己都不知道我还能打扮成这样……",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"5": {
+						"event": "Touch",
+						"media": "touch_1_1",
+						"chinese": "呜哇……！好险，谢谢你扶我，指挥官……我拿高跟鞋是真的没辙",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"6": {
+						"event": "Return to Port",
+						"media": "home_1",
+						"chinese": "指挥官，这里的空气很不错，稍微休息一下吧",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"7": {
+						"event": "Affinity (Love)",
+						"media": "feeling5_1",
+						"chinese": "月色真美啊，指挥官……欸？啊，不，我不是那个意思……呃，不对，我也不是没有那个意思…啊哈哈…怎么说呢…有点不好意思啊……",
 						"chineseTL": "",
 						"chineseNote": "",
 						"japanese": "",

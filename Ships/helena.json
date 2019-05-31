@@ -92,6 +92,28 @@
 					"id": "3"
 				}
 			}
+		},
+		"3": {
+			"id": "hailunna_3",
+			"name": "May I Have this Dance? ",
+			"description": "Um, Commander, could we... share a dance? I have things I want to tell you... ",
+			"expression": {
+				"0": {
+					"id": "0"
+				},
+				"1": {
+					"id": "1"
+				},
+				"2": {
+					"id": "2"
+				},
+				"3": {
+					"id": "3"
+				},
+				"4": {
+					"id": "4"
+				}
+			}
 		}
 	},
 	"defaultEquipment": {
@@ -804,6 +826,229 @@
 						"japaneseTL": "",
 						"japaneseNote": "",
 						"english": "Commander? You don't have to worry about me. I was just thinking about how I now have friends and a sweetheart who I can celebrate the new year together with, and how unbelievably happy it makes me.",
+						"englishNote": ""
+					}
+				}
+			},
+			"3": {
+				"skin_id": "hailunna_3",
+				"id": "2",
+				"label": "May I Have this Dance? ",
+				"dialogue": {
+					"1": {
+						"event": "Ship Description",
+						"media": "",
+						"chinese": "那个，指挥官，能和我跳一支舞吗？我有很多话，想要和指挥官说呢",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "あの、指揮官、私と…一曲踊ってみない？私、指揮官に伝えたいことがあって……",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Um, Commander, could we... share a dance? I have things I want to tell you...",
+						"englishNote": ""
+					},
+					"2": {
+						"event": "Acquisition",
+						"media": "get_2",
+						"chinese": "那个，指挥官，能和我跳一支舞吗？我有很多话，想要和指挥官说呢",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "あの、指揮官、私と…一曲踊ってみない？私、指揮官に伝えたいことがあって……",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Um, Commander, could we... share a dance? I have things I want to tell you...",
+						"englishNote": ""
+					},
+					"3": {
+						"event": "Login",
+						"media": "login_2",
+						"chinese": "指挥官，宴会就要开始了呢",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "指揮官、パーティーがそろそろ始まるわよ",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Commander, the party is about to start.",
+						"englishNote": ""
+					},
+					"4": {
+						"event": "Details",
+						"media": "detail_2",
+						"chinese": "为了这一天，我特意向路易斯姐姐学了跳舞，因为太过笨手笨脚还被她笑话了好久呢……",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "今日のために、セントルイス姉さんにダンスを教えてもらったの。不器用な子だわって何回も笑われちゃって…ふふ",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "In preparation for today, I got St. Louis to teach me how to dance. She laughed a lot at me, telling me I'm \"such a klutz\"... Ahah.",
+						"englishNote": ""
+					},
+					"5": {
+						"event": "Main 1",
+						"media": "main_1_2",
+						"chinese": "指挥官，你知道吗，是你把我从深渊中拉了出来，是你给了我希望哦",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "指揮官は知ってるかな？ヘレナがこんなに明るくなれたのは指揮官のおかげだってこと。ふふっ",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Commander, you know something? It's thanks to you that I've become as cheerful as I am now. Ahah~",
+						"englishNote": ""
+					},
+					"6": {
+						"event": "Main 2",
+						"media": "main_2_2",
+						"chinese": "指挥官，你知道吗，我已经不再恐惧和迷茫，因为我知道，指挥官和大家，一直会在我身边",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "私はもう怖くなったり、迷ったりはしないわ。だって指揮官と皆がいつもそばにいてくれるから",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "I'm not going to be scared or hesitate ever again because you and my friends are always with me.",
+						"englishNote": ""
+					},
+					"7": {
+						"event": "Main 3",
+						"media": "main_3_2",
+						"chinese": "指挥官，你知道吗，今晚我把所有人的邀请都推掉了，因为，我有太多的话，想和指挥官说呢",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "私のダンスの相手は…ううん、今は指揮官だけ。だって話したいことがたくさんあるもの",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "My dance partner will be... No, it'll just be you, Commander. I have so many things I want to tell you.",
+						"englishNote": ""
+					},
+					"8": {
+						"event": "Touch",
+						"media": "touch_1_2",
+						"chinese": "指挥官，我已经准备好了，让我们开始跳舞吧",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "指揮官、準備ができているわ。一緒に踊りましょ？",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "I'm all ready, Commander. Shall we dance?",
+						"englishNote": ""
+					},
+					"9": {
+						"event": "Touch (Special)",
+						"media": "touch_2_2",
+						"chinese": "呀！……啊，指挥官，踩到你的脚了吗……",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "きゃっ！？……あっ指揮官、足を踏んづけちゃったの？",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Eek?! ... Ah, sorry, did I step on your foot, Commander?",
+						"englishNote": ""
+					},
+					"10": {
+						"event": "Mission",
+						"media": "task_2",
+						"chinese": "指挥官，请先去完成任务吧，我会等你的",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "指揮官、任務をこなしてきて。私はここで待っているわ",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Commander, please go complete your missions. Don't worry, I'll be here waiting for you.",
+						"englishNote": ""
+					},
+					"11": {
+						"event": "Mission Complete",
+						"media": "mission_complete_2",
+						"chinese": "指挥官真厉害呢",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "指揮官はやっぱりすごいわ",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "You really are incredible, Commander.",
+						"englishNote": ""
+					},
+					"12": {
+						"event": "Mail",
+						"media": "mail_2",
+						"chinese": "指挥官，又是新的跳舞邀请……真受欢迎呢",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "新しいダンスパーティーのお誘いらしいわ？……ふふ、指揮官ってやっぱり人気者だわ",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "It seems you've got an invitation to another dance party... Hahah, you really are a superstar, Commander.",
+						"englishNote": ""
+					},
+					"13": {
+						"event": "Return to Port",
+						"media": "home_2",
+						"chinese": "指挥官，在宴会之前，还有什么要处理的事吗？",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "指揮官、パーティーに行く前に、やり残した仕事はない？",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Commander, before we leave for the party, do you have any unfinished business?",
+						"englishNote": ""
+					},
+					"14": {
+						"event": "Commission Complete",
+						"media": "expedition_2",
+						"chinese": "指挥官，我们一起去迎接委托组的各位参加宴会吧",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "指揮官、委託から帰ってきたみんなをパーティー会場で迎えましょう？",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Commander, let's extend an invitation to the commission team to join us for the party.",
+						"englishNote": ""
+					},
+					"15": {
+						"event": "Flagship",
+						"media": "warcry_2",
+						"chinese": "我……想要赢！",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "私……勝ちたい！",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "I... want to win!",
+						"englishNote": ""
+					},
+					"16": {
+						"event": "Victory",
+						"media": "mvp_2",
+						"chinese": "对，就是这样，海伦娜，你很厉害的",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "うん、そうよ…！ヘレナ、あなたは凄いわ！",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Yeah, that's right...! You're awesome, Helena! ",
+						"englishNote": ""
+					},
+					"17": {
+						"event": "Defeat",
+						"media": "lose_2",
+						"chinese": "没关系，还有下一次……！",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "大丈夫、まだ次があるから……！",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "It's okay, there's always next time...!",
+						"englishNote": ""
+					},
+					"18": {
+						"event": "Affinity (Love)",
+						"media": "feeling5_2",
+						"chinese": "一直以来，我都心安理得地享受着指挥官的迁就与保护。但是，这样是不够的。我想，总有一天，我也能成为能够站在指挥官身边的人…所以，请再等一等海伦娜吧，可以吗？",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "私はずっと皆、そして指揮官に気を使われて、大事に大事に守られてきたの。でもこのままじゃダメ。私、指揮官のそばに立ち、皆に頼られるよう成長したくて……だから、ヘレナのことをもう少し待ってくれない…かな？",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "You and my friends have always taken care of, looked after, and protected me. But that can't go on forever. I want to stand beside you and become someone people can count on... So, could you wait for me just a little longer... please?",
 						"englishNote": ""
 					}
 				}
