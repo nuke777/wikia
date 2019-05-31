@@ -952,21 +952,129 @@
 				}
 			},
 			"4": {
-				"skin_id": "mingshi_4",
-				"id": "3",
-				"label": "",
-				"dialogue": {
-					"1": {
-						"event": "Ship Description",
-						"media": "",
-						"chinese": "",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "",
-						"englishNote": ""
+				"skin_id" : "mingshi_4",
+				"id" : "3",
+				"label" : "Welcome to AzurCon!",
+				"dialogue" : {
+					"1" : {
+						"event" : "Ship Description",
+						"media" : "",
+						"chinese" : "哦，指挥官你好喵。是来买明石的新刊的喵？今天可是祭典的日子喵～好好逛逛喵♪",
+						"chineseTL" : "Ah, hello Commander nya. Are you here to buy Akashi's new work nya? Today is the day of the festival nya~ Have fun nya♪",
+						"chineseNote" : "",
+						"japanese" : "おっ、指揮官こんにちはにゃ。明石の新刊を買いに来たのかにゃ？今日はお祭りの日にゃから、思いっきり楽しんでにゃ♪",
+						"japaneseTL" : "Ah, hello Commander nya. Are you here to buy Akashi's new work nya? Today is the day of the festival, have fun nya♪",
+						"japaneseNote" : "",
+						"english" : "Ohh, it's Commander, nya. Have you come to buy Akashi's new work, nya? Today's a holiday, so go ahead and enjoy yourself, nya~",
+						"englishNote" : ""
+					},
+					"2" : {
+						"event" : "Acquisition",
+						"media" : "get_3",
+						"chinese" : "哦，指挥官你好喵。是来买明石的新刊的喵？今天可是祭典的日子喵～好好逛逛喵♪",
+						"chineseTL" : "Ah, hello Commander nya. Are you here to buy Akashi's new work nya? Today is the day of the festival nya~ Have fun nya♪",
+						"chineseNote" : "",
+						"japanese" : "おっ、指揮官こんにちはにゃ。明石の新刊を買いに来たのかにゃ？今日はお祭りの日にゃから、思いっきり楽しんでにゃ♪",
+						"japaneseTL" : "Ah, hello Commander nya. Are you here to buy Akashi's new work nya? Today is the day of the festival, have fun nya♪",
+						"japaneseNote" : "",
+						"english" : "Ohh, it's Commander, nya. Have you come to buy Akashi's new work, nya? Today's a holiday, so go ahead and enjoy yourself, nya~",
+						"englishNote" : ""
+					},
+					"3" : {
+						"event" : "Details",
+						"media" : "detail_3",
+						"chinese" : "画画……啊，板子笔芯快要磨掉了喵。看来得让不知火订点新的了喵",
+						"chineseTL" : "Drawing drawing... Ah, the board pen is about to wear off nya. I'll have Shiranui order a new one nya.",
+						"chineseNote" : "",
+						"japanese" : "",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"4" : {
+						"event" : "Main 1",
+						"media" : "main_1_3",
+						"chinese" : "今天不是店员模式，而是作家模式喵。不收你钻石的喵",
+						"chineseTL" : "Today I'm not in shopseller mode, but artist mode nya. I won't take your gems nya.",
+						"chineseNote" : "",
+						"japanese" : "",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"5" : {
+						"event" : "Main 2",
+						"media" : "main_2_3",
+						"chinese" : "圣路易斯，貌似在做板娘喵！？呃呃呃……下次应该把她叫到明石这边喵？……不行喵，内容差的有点远喵……",
+						"chineseTL" : "St. Louis, looks like she could be a seller nya!? Eh... Should call her over to Akashi's side next time nya?... No good nya, the content might be a bit too much nya...",
+						"chineseNote" : "",
+						"japanese" : "",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"6" : {
+						"event" : "Main 3",
+						"media" : "main_3_3",
+						"chinese" : "喵？好像参加”网上同人展“就不用明石自己来看摊了喵？……好、好方便喵",
+						"chineseTL" : "Nya? If I participate in the \"Online Doujin Convention\", Akashi won't need to watch the booth by herself nya?... S-sounds convenient nya.",
+						"chineseNote" : "",
+						"japanese" : "",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"7" : {
+						"event" : "Touch (Special)",
+						"media" : "touch_2_3",
+						"chinese" : "喵！？这、这种事只许在本子里出现喵！",
+						"chineseTL" : "Nya!? T-that sort of stuff is only allowed to happen in the books nya!",
+						"chineseNote" : "",
+						"japanese" : "",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"8" : {
+						"event" : "Mail",
+						"media" : "mail_3",
+						"chinese" : "来邮件了喵！当选落选……好像不是这个邮件喵。喵……",
+						"chineseTL" : "There's mail nya! Lottery results... Seems like that's not the mail nya. Nya...",
+						"chineseNote" : "",
+						"japanese" : "",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"9" : {
+						"event" : "Return to Port",
+						"media" : "home_3",
+						"chinese" : "今天还要卖本子所以很累了喵……签绘麻烦下次喵",
+						"chineseTL" : "I still have to sell books today so I'm tired nya... Art signing for next time please nya",
+						"chineseNote" : "",
+						"japanese" : "",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"10" : {
+						"event" : "Flagship",
+						"media" : "warcry_3",
+						"chinese" : "不、不要在海面上跑喵！",
+						"chineseTL" : "N-no running on the sea nya!",
+						"chineseNote" : "",
+						"japanese" : "",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
 					}
 				}
 			},
