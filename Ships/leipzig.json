@@ -53,9 +53,16 @@
 			"requirement": "",
 			"name": "Tactical Command: Cruisers",
 			"type": "Support",
-			"description": "Increases the FP, TRP, and RLD of all friendly Cruisers by $1. Does not stack with the same skill."
+			"description": "Increases the FP, TRP, and RLD of all friendly Cruisers by 1.0% (10.0%). Does not stack with the same skill."
 		},
-		"2": {
+		"2" : {
+			"icon" : "12290",
+			"requirement" : "",
+			"name" : "安全第一！",
+			"type" : "Defensive",
+			"description" : "自分が戦闘可能である限り、味方前衛艦隊の速力が3アップし、敵との接触ダメージを15.0% (25.0%)軽減する；戦闘中、自分がダメージを受けて耐久度が最大値の30%を下回った場合に一度だけ発動、自身の与えるダメージを5.0% (15.0%)アップし、2.0 (5.0)秒間自身がすべての攻撃を回避する"
+		},
+		"3": {
 			"icon": "23121",
 			"requirement": "",
 			"name": "All Out Assault Ⅰ",
@@ -71,6 +78,28 @@
 			"expression": {
 				"0": {
 					"id": "0"
+				}
+			}
+		},
+		"2" : {
+			"id" : "laibixi_g",
+			"name" : "ライプツィヒ改",
+			"description" : "さかなきゅん、前より色々できるようになったけど、私なんだかあんまり変わってなくて……もしかして私の代わりにさかなきゅんが強くなったのですか！？",
+			"expression" : {
+				"0" : {
+					"id" : "0"
+				},
+				"1" : {
+					"id" : "1"
+				},
+				"2" : {
+					"id" : "2"
+				},
+				"3" : {
+					"id" : "3"
+				},
+				"4" : {
+					"id" : "4"
 				}
 			}
 		}
@@ -145,38 +174,38 @@
 			"armor": "Light"
 		},
 		"100retrofit": {
-			"hp": "",
-			"firepower": "",
-			"torpedo": "",
-			"antiAir": "",
-			"aviation": "",
-			"reload": "",
-			"hit": "",
-			"evasion": "",
-			"speed": "32",
-			"luck": "67",
-			"asw": "",
-			"oxygen": "0",
-			"ammo": "0",
-			"cost": "9",
-			"armor": "Light"
+			"hp" : "3346",
+			"firepower" : "149",
+			"torpedo" : "291",
+			"antiAir" : "348",
+			"aviation" : "0",
+			"reload" : "166",
+			"hit" : "138",
+			"evasion" : "76",
+			"speed" : "32",
+			"luck" : "67",
+			"asw" : "87",
+			"oxygen" : "0",
+			"ammo" : "0",
+			"cost" : "9",
+			"armor" : "Light"
 		},
 		"120retrofit": {
-			"hp": "",
-			"firepower": "",
-			"torpedo": "",
-			"antiAir": "",
-			"aviation": "",
-			"reload": "",
-			"hit": "",
-			"evasion": "",
-			"speed": "32",
-			"luck": "67",
-			"asw": "",
-			"oxygen": "0",
-			"ammo": "0",
-			"cost": "9",
-			"armor": "Light"
+			"hp" : "3734",
+			"firepower" : "168",
+			"torpedo" : "325",
+			"antiAir" : "387",
+			"aviation" : "0",
+			"reload" : "190",
+			"hit" : "158",
+			"evasion" : "102",
+			"speed" : "32",
+			"luck" : "67",
+			"asw" : "99",
+			"oxygen" : "0",
+			"ammo" : "0",
+			"cost" : "9",
+			"armor" : "Light"
 		}
 	},
 	"limitBreak": {
@@ -575,6 +604,145 @@
 						"japaneseNote": "",
 						"english": "I'm so glad that you returned my feelings, Commander. I'll do my best... not to faint in front of you anymore.",
 						"englishNote": ""
+					}
+				}
+			},
+			"2": {
+				"skin_id" : "laibixi_g",
+				"id" : "9",
+				"label" : "ライプツィヒ改",
+				"dialogue" : {
+					"1" : {
+						"event" : "Ship Description",
+						"media" : "",
+						"chinese" : "总觉得鱼鱼比以前能干了许多，而我却没有什么变化……难道是鱼鱼代替我变强了吗…！？",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "さかなきゅん、前より色々できるようになったけど、私なんだかあんまり変わってなくて……もしかして私の代わりにさかなきゅんが強くなったのですか！？",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"2" : {
+						"event" : "Acquisition",
+						"media" : "get_9",
+						"chinese" : "总觉得鱼鱼比以前能干了许多，而我却没有什么变化……难道是鱼鱼代替我变强了吗…！？",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"3" : {
+						"event" : "Login",
+						"media" : "login_9",
+						"chinese" : "呼……指挥官，我、我把文件整理好了哦",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"4" : {
+						"event" : "Details",
+						"media" : "detail_9",
+						"chinese" : "鱼鱼虽然表现得很凶，其实很温柔的！额，不过好像只有对我时是这样……不好意思……",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"5" : {
+						"event" : "Touch",
+						"media" : "touch_1_9",
+						"chinese" : "呃呃……加油，不要晕倒……！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"6" : {
+						"event" : "Touch (Special)",
+						"media" : "touch_2_9",
+						"chinese" : "呀！……好、好像坚持住没晕倒了……？指挥官，谢谢你！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"7" : {
+						"event" : "Mission",
+						"media" : "task_9",
+						"chinese" : "（小声）指、指挥官…………(大声）指挥官，做任务啦！！！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"8" : {
+						"event" : "Mission Complete",
+						"media" : "mission_complete_9",
+						"chinese" : "指挥官，鱼鱼把任务奖励都给运过来了呢，谢谢你，鱼鱼~",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"9" : {
+						"event" : "Commission Complete",
+						"media" : "expedition_9",
+						"chinese" : "指挥官，我能带鱼鱼去港口散步吗，正好接一下委托回来的大家",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"10" : {
+						"event" : "Flagship",
+						"media" : "warcry_9",
+						"chinese" : "虽然还是会紧张……但我会努力的！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"11" : {
+						"event" : "Defeat",
+						"media" : "lose_9",
+						"chinese" : "指挥官，对不起……不、不过，我会继续努力的！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
 					}
 				}
 			}
