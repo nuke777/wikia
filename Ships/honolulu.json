@@ -53,7 +53,7 @@
 			"requirement": "",
 			"name": "Full Firepower",
 			"type": "Offensive",
-			"description": "$1 chance to activate every 20s: increases this ship's FP by $2 for 10s."
+			"description": "30.0% (60.0%) chance to activate every 20s: increases this ship's FP by 20.0% (40.0%) for 10s."
 		},
 		"2": {
 			"icon": "20121",
@@ -86,8 +86,8 @@
 		},
 		"3": {
 			"id": "huonululu_3",
-			"name": "盛夏的「灾难」",
-			"description": "唔哇哇哇，我的圣代！这根水管是怎么回事啦！指挥官，我说你别站那边看了，有空过来帮我一下！",
+			"name": "Summer Accident?!",
+			"description": "Aaaahh! My sundae! What's up with this stupid hose?! Commander, don't just stand there, help me!",
 			"expression": {
 				"0": {
 					"id": "0"
@@ -620,6 +620,42 @@
 						"japaneseNote": "",
 						"english": "This is really embarrassing, so could we just get this over with... Y-you can do whatever you want when it's just the two of us...",
 						"englishNote": ""
+					},
+					"27": {
+						"event": "Like Present",
+						"media": "present_like",
+						"chinese": "",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"28": {
+						"event": "Dislike Present",
+						"media": "present_dislike",
+						"chinese": "",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"29": {
+						"event": "Main Title",
+						"media": "extra",
+						"chinese": "",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
 					}
 				}
 			},
@@ -729,7 +765,7 @@
 			"3": {
 				"skin_id": "huonululu_3",
 				"id": "2",
-				"label": "盛夏的「灾难」",
+				"label": "Summer Accident?!",
 				"dialogue": {
 					"1": {
 						"event": "Ship Description",
@@ -740,7 +776,7 @@
 						"japanese": "うわあああああ！私のサンデーがああ！このホースはなんなのよぉ！指揮官、もー！見てないで助けてぇ！！",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "唔哇哇哇，我的圣代！这根水管是怎么回事啦！指挥官，我说你别站那边看了，有空过来帮我一下！",
+						"english": "Aaaahh! My sundae! What's up with this stupid hose?! Commander, don't just stand there, help me!",
 						"englishNote": ""
 					},
 					"2": {
@@ -752,7 +788,7 @@
 						"japanese": "うわあああああ！私のサンデーがああ！このホースはなんなのよぉ！指揮官、もー！見てないで助けてぇ！！",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "唔哇哇哇，我的圣代！这根水管是怎么回事啦！指挥官，我说你别站那边看了，有空过来帮我一下！",
+						"english": "Aaaahh! My sundae! What's up with this stupid hose?! Commander, don't just stand there, help me!",
 						"englishNote": ""
 					},
 					"3": {
@@ -764,7 +800,7 @@
 						"japanese": "指揮官、私の主砲にいたずらしたのはあなただよね？は、白状してよ！今ならまだ間に合うから……",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "指挥官你老实说，是不是你偷偷对我的主炮做了手脚？现在坦白还来得及……",
+						"english": "Commander, you're the one who messed with my cannons, didn't you? A-admit it! Admit it while you still have the chance...",
 						"englishNote": ""
 					},
 					"4": {
@@ -776,7 +812,7 @@
 						"japanese": "あああ！この水は一体どこから噴き出して来たの！？",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "呜呜呜这水到底从哪里喷出来的啦！！",
+						"english": "*Gasp*! Where the heck is all this water coming from?!",
 						"englishNote": ""
 					},
 					"5": {
@@ -788,7 +824,7 @@
 						"japanese": "指揮官、笑いながら「水着がカワイイ」って言ってもぜーんっぜん説得力ないんだからぁ！",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "指挥官，一边笑一边说“泳装真好看”这种话一点说服力都没有好吗！",
+						"english": "Commander, you don't sound convincing at all when you tell me my swimsuit is cute while you're laughing!",
 						"englishNote": ""
 					},
 					"6": {
@@ -800,7 +836,7 @@
 						"japanese": "うぅ……みんなに笑われちゃうよ……",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "呜……去沙滩的时候要被大家笑死了……",
+						"english": "*Sob*... Everyone's going to laugh at me...",
 						"englishNote": ""
 					},
 					"7": {
@@ -812,7 +848,7 @@
 						"japanese": "ヘレナちゃんを呼んだの！？あの子を笑わせたいからってこんな方法じゃ嫌――！！",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "再坚持一下你叫了海伦娜过来？我不需要用这种方法逗她笑啦！",
+						"english": "You called over Helena?! This is NOT the way I want to make her laugh!",
 						"englishNote": ""
 					},
 					"8": {
@@ -824,7 +860,7 @@
 						"japanese": "指揮官、許さないわ……私と一緒にずぶ濡れになっちゃえええ！",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "指挥官你死定了……给我也变成落汤鸡吧！",
+						"english": "How could you, Commander... I'll hose you till you're as soaked as I am!",
 						"englishNote": ""
 					},
 					"9": {
@@ -836,7 +872,7 @@
 						"japanese": "し、指揮官、ええと、冷たいシャワーでもどう……？",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "指、指挥官，要来冲个凉吗",
+						"english": "C-Commander, umm, do you wanna take a cold shower...?",
 						"englishNote": ""
 					},
 					"10": {
@@ -848,7 +884,7 @@
 						"japanese": "見た人を全て消せば…恥ずかしがらなくてよくなるよねっ！",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "消灭掉所有目击者…就不会再觉得丢脸了吧…！",
+						"english": "If I get rid of everyone who saw me... then I won't have anything to be embarrassed about!",
 						"englishNote": ""
 					},
 					"11": {
@@ -860,7 +896,7 @@
 						"japanese": "運が悪かったわね…今日の私はすごく機嫌悪いんだからっ！",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "我今天心情不好，算你们倒霉……",
+						"english": "Today was your unlucky day... because I'm in a REALLY bad mood!",
 						"englishNote": ""
 					}
 				}
