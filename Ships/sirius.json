@@ -53,14 +53,14 @@
 			"requirement": "",
 			"name": "Mark of Sirius ",
 			"type": "Support",
-			"description": "Increases the AVI of all friendly CVs and CVLs by $1 and increases their Hit Rate against DDs, CLs, and CAs by $1. Additionally, for each friendly CV or CVL in the Main Fleet: increases this ship's FP, TRP, and RLD by $2."
+			"description": "Increases the AVI of all friendly CVs and CVLs by 1.0% (10.0%) and increases their Hit Rate against DDs, CLs, and CAs by 1.0% (10.0%). Additionally, for each friendly CV or CVL in the Main Fleet: increases this ship's FP, TRP, and RLD by 1.5% (7.0%)."
 		},
 		"2": {
 			"icon": "2071",
 			"requirement": "",
 			"name": "Cover Fire",
 			"type": "Offensive",
-			"description": "Increases this ship's FP by $1."
+			"description": "Increases this ship's FP by 10.0% (20.0%)."
 		},
 		"3": {
 			"icon": "29361",
@@ -85,6 +85,25 @@
 			"id": "tianlangxing_2",
 			"name": "White Rose",
 			"description": "My dear, I changed into the new outfit as per your request. I would be most grateful were you to offer me words of praise, Master.",
+			"expression": {
+				"0": {
+					"id": "0"
+				},
+				"1": {
+					"id": "1"
+				},
+				"2": {
+					"id": "2"
+				},
+				"3": {
+					"id": "3"
+				}
+			}
+		},
+		"3": {
+			"id": "tianlangxing_3",
+			"name": "盛夏のセイリオス",
+			"description": "メイド隊の仲間から色々アドバイス頂いて選ばせていただきました水着です。誇らしきご主人様、シリアスのこの姿にご満足いただけるでしょうか",
 			"expression": {
 				"0": {
 					"id": "0"
@@ -727,6 +746,121 @@
 						"japaneseTL": "",
 						"japaneseNote": "",
 						"english": "Whether it's under the swirling lights of the ballroom stage, or in the smoke and explosions of the battlefield, there will never be anything more radiant than you in my eyes. My honourable Master, please allow me to gaze upon you and be at your side, always...",
+						"englishNote": ""
+					}
+				}
+			},
+			"3": {
+				"skin_id": "tianlangxing_3",
+				"id": "2",
+				"label": "盛夏のセイリオス",
+				"dialogue": {
+					"1": {
+						"event": "Ship Description",
+						"media": "",
+						"chinese": "从女仆队的同伴那里得到了许多的意见…这身泳装没有让您失望吧，我骄傲的主人？",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "メイド隊の仲間から色々アドバイス頂いて選ばせていただきました水着です。誇らしきご主人様、シリアスのこの姿にご満足いただけるでしょうか",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"2": {
+						"event": "Acquisition",
+						"media": "get_2",
+						"chinese": "从女仆队的同伴那里得到了许多的意见…这身泳装没有让您失望吧，我骄傲的主人？",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "メイド隊の仲間から色々アドバイス頂いて選ばせていただきました水着です。誇らしきご主人様、シリアスのこの姿にご満足いただけるでしょうか",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"3": {
+						"event": "Login",
+						"media": "login_2",
+						"chinese": "无论在何处，天狼星都会侍奉并保护好主人。主人只要做自己想做的事就好。",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "どこにいようと、シリアスは全力でお守りいたします。誇らしきご主人様、どうかお好きなことを、お好きなようになさってくださいませ",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"4": {
+						"event": "Details",
+						"media": "detail_2",
+						"chinese": "请放心，天狼星已经为这次海滩之行做了充分的准备。食物，饮料，杂志，防晒油，舰装和救生器材，还有……猫？为什么会在这……?不，没什么，我骄傲的主人。",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "ご安心くださいませ。シリアスはあらゆる状況に備えて準備しておきました。お食事にお飲み物、雑誌、日焼け止め、緊急時の艤装に救命機材に……ネコ？…どうしてここに？……あ、いいえ、なんでもございません！",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"5": {
+						"event": "Main 1",
+						"media": "main_1_2",
+						"chinese": "主人，为何一直看着天狼星？莫，莫非我给主人带来了困扰？…是我多虑了吗…",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "誇らしきご主人様、どうしてシリアスのことを凝視なさってるのですか？もしやこの卑しきメイドがまた粗相をしてしまいましたか？？…シリアスの考え過ぎ、ですか…？",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"6": {
+						"event": "Main 2",
+						"media": "main_2_2",
+						"chinese": "游泳吗？如，如果主人能教我的话……不，区区女仆，无权劳烦主人……",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "泳ぎですか？ご、ご主人様が教えてくださるのでしたら……いいえ、たかがメイドの分際で誇らしきご主人様に教えを請うなど……",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"7": {
+						"event": "Main 3",
+						"media": "main_3_2",
+						"chinese": "主人是累了吗？方便休息的地方……唔……如果主人不嫌弃的话，就，就用天狼星的身体代替吧！",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "誇らしきご主人様、お疲れなのでしょうか？でしたら、おくつろぎになれる場所や機材とか…どこかにあれば………うっ、申し訳ございません…差し支えなければ、このシリアスが代わりを務めさせていただきます…！",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"8": {
+						"event": "Touch",
+						"media": "touch_1_2",
+						"chinese": "就让天狼星为你遮挡阳光吧，我骄傲的主人。",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "誇らしきご主人様、シリアスが日差しから守らせていただきます",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"9": {
+						"event": "Touch (Special)",
+						"media": "touch_2_2",
+						"chinese": "我明白了，我骄傲的主人，如果您希望身着泳装的天狼星…—啊…又会错意了吗？万分抱歉……",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "かしこまりました。水着姿のシリアスをご所望でしたら――そ、そうですか？誠に申し訳ございません……シリアスまた早まったことをしてしまいまして…",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
 						"englishNote": ""
 					}
 				}

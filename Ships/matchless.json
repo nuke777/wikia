@@ -53,14 +53,14 @@
 			"requirement": "",
 			"name": "Target Designator - Torpedo",
 			"type": "Offensive",
-			"description": "When this ship hits an enemy with its Torpedoes: $1 chance to apply a debuff, increasing the DMG the designated enemy takes from torpedoes by $2 for 8s. Effect does not stack."
+			"description": "When this ship hits an enemy with its Torpedoes: 7.0% (17.0%) chance to apply a debuff, increasing the DMG the designated enemy takes from torpedoes by 20.0% (40.0%) for 8s. Effect does not stack."
 		},
 		"2": {
 			"icon": "5001",
 			"requirement": "",
 			"name": "Interference",
 			"type": "Support",
-			"description": "25.0% chance to activate every 20s: picks one enemy at random (prioritizes humanoid enemies) and decreases their Fire Rate and DMG for $1s. Does not stack with the same skill."
+			"description": "25.0% chance to activate every 20s: picks one enemy at random (prioritizes humanoid enemies) and decreases their Fire Rate and DMG for 5 (10)s. Does not stack with the same skill."
 		},
 		"3": {
 			"icon": "21081",
@@ -78,6 +78,25 @@
 			"expression": {
 				"0": {
 					"id": "0"
+				}
+			}
+		},
+		"2": {
+			"id": "wudi_2",
+			"name": "エスコートしてくださーい！",
+			"description": "おーい、指揮官さん、こっちこっち！エヘッ☆というわけで、今日のデートは指揮官さんに任せたよ？カッコいいとこを全部私にアピールしちゃっていいからね！",
+			"expression": {
+				"0": {
+					"id": "0"
+				},
+				"1": {
+					"id": "1"
+				},
+				"2": {
+					"id": "2"
+				},
+				"3": {
+					"id": "3"
 				}
 			}
 		}
@@ -581,6 +600,109 @@
 						"japaneseTL": "",
 						"japaneseNote": "",
 						"english": "Aww... I'm so happy... Thank you... Commander, I may not be able to protect you, but I'll do everything I can to protect your smile and warm your heart! Please, Commander, be happy!",
+						"englishNote": ""
+					}
+				}
+			},
+			"2": {
+				"skin_id": "wudi_2",
+				"id": "1",
+				"label": "エスコートしてくださーい！",
+				"dialogue": {
+					"1": {
+						"event": "Ship Description",
+						"media": "",
+						"chinese": "啊，指挥官，这边这边！今天的约会全部交给指挥官了哟？请指挥官先生毫无保留地向我展示帅气的一面吧！嘻嘻~",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "おーい、指揮官さん、こっちこっち！エヘッ☆というわけで、今日のデートは指揮官さんに任せたよ？カッコいいとこを全部私にアピールしちゃっていいからね！",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"2": {
+						"event": "Acquisition",
+						"media": "get_1",
+						"chinese": "啊，指挥官，这边这边！今天的约会全部交给指挥官了哟？请指挥官先生毫无保留地向我展示帅气的一面吧！嘻嘻~",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"3": {
+						"event": "Login",
+						"media": "login_1",
+						"chinese": "啊～指挥官，约会让女孩子等可是要扣分的哦！嘿嘿，开玩笑的，只是我来得太早了而已～",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"4": {
+						"event": "Details",
+						"media": "detail_1",
+						"chinese": "指挥官买单的超级豪华冰淇淋可丽饼，超——级美味的呢！谢谢啦！……对了，指挥官，你也来尝尝。来嘛，别害羞啦，啊——",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"5": {
+						"event": "Touch",
+						"media": "touch_1_1",
+						"chinese": "指挥官，箱子和包包都交给你咯！为了我而加油吧！",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"6": {
+						"event": "Touch (Special)",
+						"media": "touch_2_1",
+						"chinese": "指挥官，这次约会的印象分要降到0了哦？",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"7": {
+						"event": "Return to Port",
+						"media": "home_1",
+						"chinese": "指挥官，今天你可是我专属的护花使者，在约会的中途分心可是要扣分的呢。",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"8": {
+						"event": "Affinity (Love)",
+						"media": "feeling5_1",
+						"chinese": "指挥官，手臂再伸出来一点——对，就是这样！我抱！嘿嘿~……欸，这个姿势有点辛苦吗？我不管啦。指挥官先生，为了我就请坚持一下吧~",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
 						"englishNote": ""
 					}
 				}
