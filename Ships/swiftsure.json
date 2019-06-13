@@ -1,784 +1,779 @@
 {
-	"name_reference" : "swiftsure",
-	"cn_reference" : "quejie",
-	"nameJP" : "スウィフトシュア",
-	"nameCN" : "确捷",
-	"ID" : "393",
-	"name" : "Swiftsure",
-	"internal_id" : "202231",
-	"rarity" : "Super Rare",
-	"initialStar" : "★★★☆☆☆",
-	"hull" : "Light Cruiser",
-	"navy" : "Royal Navy",
-	"prefix" : "HMS",
-	"buildTime" : "",
-	"parameters": {
-		"firepower" : "B",
-		"torpedo" : "A",
-		"aviation" : "E",
-		"evasion" : "B",
-		"antiAir" : "B",
-		"hp" : "C"
-	},
-	"scrap": {
-		"gold" : "6",
-		"oil" : "3",
-		"medal" : "10"
-	},
-	"releaseDate": {
-		"JP" : "",
-		"CN" : "",
-		"KR" : "",
-		"EN" : ""
-	},
-	"artist": {
-		"name" : "",
-		"weibo" : "",
-		"twitter" : "",
-		"pixiv" : "",
-		"other" : ""
-	},
-	"class" : "スウィフトシュア級",
-	"enhance": {
-		"firepower" : "13",
-		"torpedo" : "23",
-		"aviation" : "0",
-		"reload" : "13"
-	},
-	"acquisitionMethod" : "小型艦建造",
-	"skill": {
-		"1" : {
-			"icon" : "12300",
-			"requirement" : "",
-			"name" : "スウィフトシュート ",
-			"type" : "Defensive",
-			"description" : "対空攻撃時に10.0% (30.0%)で発動、10秒間味方前衛艦隊の対空が10.0% (30.0%)アップ；味方対空射撃範囲内で敵機が5機撃墜されるたびに、自身の火力が1%アップし、味方主力艦隊の受ける航空攻撃ダメージを1%軽減する（最大5 (10)回まで加算可能） "
-		},
-		"2" : {
-			"icon" : "12310",
-			"requirement" : "",
-			"name" : "スウィフトアナライズ ",
-			"type" : "Offensive",
-			"description" : "戦闘中、自身のクリティカル率が10.0% (30.0%)、自身の駆逐艦・軽巡洋艦への命中率が4.0% (10.0%)アップ；自身の主砲攻撃が敵に命中したときに10%で発動、6秒間その敵の回避率が4.0% (10.0%)ダウンする "
-		},
-		"3" : {
-			"icon" : "29401",
-			"requirement" : "",
-			"name" : "全弾発射-スウィフトシュアI",
-			"type" : "Offensive",
-			"description" : "自身の主兵装で12回攻撃する度に、全弾発射-スウィフトシュアIを行う"
-		}
-	},
-	"skin": {
-		"1" : {
-			"id" : "quejie",
-			"name" : "スウィフトシュア",
-			"description" : "スウィフトシュア級軽巡洋艦・スウィフトシュア (HMS Swiftsure) ",
-			"expression" : {
-				"0" : {
-					"id" : "0"
-				},
-				"1" : {
-					"id" : "1"
-				},
-				"2" : {
-					"id" : "2"
-				},
-				"3" : {
-					"id" : "3"
-				},
-				"4" : {
-					"id" : "4"
-				}
-			}
-		},
-		"2" : {
-			"id" : "quejie_2",
-			"name" : "自習室のシクラメン",
-			"description" : "指揮官、どうしてここに…？私？はい、ご覧の通り勉強中ですが…実戦経験でみんなに遅れを取っている分は、学園での座学で補うしかないと思っています",
-			"expression" : {
-				"0" : {
-					"id" : "0"
-				},
-				"1" : {
-					"id" : "1"
-				},
-				"2" : {
-					"id" : "2"
-				},
-				"3" : {
-					"id" : "3"
-				}
-			}
-		}
-	},
-	"defaultEquipment": {
-		"1" : {
-			"icon" : "22200",
-			"rarity" : "Common",
-			"name" : "Triple 152mm Main Gun"
-		},
-		"1" : {
-			"icon" : "5000",
-			"rarity" : "",
-			"name" : "Triple 533mm Torpedo"
-		},
-		"3" : {
-			"icon" : "",
-			"rarity" : "",
-			"name" : ""
-		}
-	},
-	"stats": {
-		"base": {
-			"hp" : "650",
-			"firepower" : "30",
-			"torpedo" : "69",
-			"antiAir" : "57",
-			"aviation" : "0",
-			"reload" : "70",
-			"hit" : "56",
-			"evasion" : "28",
-			"speed" : "32",
-			"luck" : "44",
-			"asw" : "36",
-			"oxygen" : "0",
-			"ammo" : "0",
-			"cost" : "3",
-			"armor" : "Light"
-		},
-		"100": {
-			"hp" : "3359",
-			"firepower" : "142",
-			"torpedo" : "324",
-			"antiAir" : "267",
-			"aviation" : "0",
-			"reload" : "165",
-			"hit" : "146",
-			"evasion" : "72",
-			"speed" : "32",
-			"luck" : "44",
-			"asw" : "131",
-			"oxygen" : "0",
-			"ammo" : "0",
-			"cost" : "11",
-			"armor" : "Light"
-		},
-		"120": {
-			"hp" : "3796",
-			"firepower" : "163",
-			"torpedo" : "364",
-			"antiAir" : "304",
-			"aviation" : "0",
-			"reload" : "190",
-			"hit" : "163",
-			"evasion" : "96",
-			"speed" : "32",
-			"luck" : "44",
-			"asw" : "148",
-			"oxygen" : "0",
-			"ammo" : "0",
-			"cost" : "11",
-			"armor" : "Light"
-		},
-		"100retrofit": {
-			"hp" : "",
-			"firepower" : "",
-			"torpedo" : "",
-			"antiAir" : "",
-			"aviation" : "",
-			"reload" : "",
-			"hit" : "",
-			"evasion" : "",
-			"speed" : "32",
-			"luck" : "44",
-			"asw" : "",
-			"oxygen" : "0",
-			"ammo" : "0",
-			"cost" : "11",
-			"armor" : "Light"
-		},
-		"120retrofit": {
-			"hp" : "",
-			"firepower" : "",
-			"torpedo" : "",
-			"antiAir" : "",
-			"aviation" : "",
-			"reload" : "",
-			"hit" : "",
-			"evasion" : "",
-			"speed" : "32",
-			"luck" : "44",
-			"asw" : "",
-			"oxygen" : "0",
-			"ammo" : "0",
-			"cost" : "11",
-			"armor" : "Light"
-		}
-	},
-	"limitBreak": {
-		"tier1": "特殊弾幕スキル習得/主砲補正+5%",
-		"tier2": "魚雷装填数+1/開始時魚雷+1/魚雷補正+10%",
-		"tier3": "特殊弾幕強化/主砲補正+15%"
-	},
-	"equipmentLoadout": {
-		"1": {
-			"type": "Light Cruiser",
-			"efficiency": "135%/140%/140%/155%",
-			"amount": "1/1/1/1",
-			"preload": "0/0/0/0"
-		},
-		"2": {
-			"type": "Torpedo",
-			"efficiency": "145%/145%/155%/155%",
-			"amount": "1/1/2/2",
-			"preload": "0/0/1/1"
-		},
-		"3": {
-			"type": "Anti-Air Gun",
-			"efficiency": "110%/110%/110%/110%",
-			"amount": "1/1/1/1",
-			"preload": "0/0/0/0"
-		},
-		"4": {
-			"type": "Auxilary",
-			"efficiency": "-",
-			"amount": "-",
-			"preload": "-"
-		},
-		"5": {
-			"type": "Auxilary",
-			"efficiency": "-",
-			"amount": "-",
-			"preload": "-"
-		}
-	},
-	"fleet_tech": {
-		"pt_get": "12",
-		"add_get_attr": "Anti-Air",
-		"add_get_value": "1",
-		"add_get_shiptype": "Light Cruiser",
-		"pt_upgrade": "24",
-		"pt_level": "18",
-		"add_level_attr": "Hit",
-		"add_level_value": "1",
-		"add_level_shiptype": "Light Cruiser",
-		"t_level": "7",
-		"ships": "swiftsure"
-	},
-	"build": {
-		"light": {
-			"JP": "",
-			"CN": "",
-			"EN": ""
-		},
-		"heavy": {
-			"JP": "",
-			"CN": "",
-			"EN": ""
-		},
-		"special": {
-			"JP": "",
-			"CN": "",
-			"EN": ""
-		},
-		"limited": {
-			"JP": "",
-			"CN": "",
-			"EN": ""
-		}
-	},
-	"drop": {
-		"droppable": "false",
-		"list": {
-			"1": {
-				"event": "",
-				"chapter": {
-					"1": {
-						"label": "Ch .1",
-						"node": {
-							"1": {
-								"drop": "✓",
-								"note": "-"
-							}
-						}
-					}
-				}
-			}
-		}
-	},
-	"lines": {
-		"skin": {
-			"1": {
-				"skin_id" : "quejie",
-				"id" : "0",
-				"label" : "スウィフトシュア",
-				"dialogue" : {
-					"1" : {
-						"event" : "Ship Description",
-						"media" : "",
-						"chinese" : "确捷级轻巡洋舰——确捷，舷号08",
-						"chineseTL" : "",
-						"chineseNote" : "",
-						"japanese" : "ロイヤルネイビー、スウィフトシュアと申します。…こんな私でよろしければ、全力で艦隊をサポートいたします",
-						"japaneseTL" : "",
-						"japaneseNote" : "",
-						"english" : "",
-						"englishNote" : ""
-					},
-					"2" : {
-						"event" : "Biography",
-						"media" : "profile",
-						"chinese" : "我是皇家海军轻巡洋舰·确捷。在大战的末期加入战场，由于战争收尾和一些意想不到的情况而没能在战场上活跃很多。这样的我如果也能被大家接纳的话，我愿意为舰队尽一份微薄之力。啊，如果大家比较介意的话，我的事尽管放在一边就好……",
-						"chineseTL" : "",
-						"chineseNote" : "",
-						"japanese" : "ロイヤルネイビーのスウィフトシュアと申します。かの大戦の末期に参加しましたが、戦争終結と色々事情があって期待された程の活躍ができませんでした。そんな私でもよろしければ、この艦隊のために微力を尽くさせていただきたく存じます。あっ、お気に召さないようでしたら、私のことはお構いなく……",
-						"japaneseTL" : "",
-						"japaneseNote" : "",
-						"english" : "",
-						"englishNote" : ""
-					},
-					"3" : {
-						"event" : "Acquisition",
-						"media" : "get",
-						"chinese" : "皇家海军轻巡洋舰、确捷，报道。…如果指挥官不嫌弃这样的我的话，我会尽全力为这个舰队奉献微薄之力的",
-						"chineseTL" : "",
-						"chineseNote" : "",
-						"japanese" : "ロイヤルネイビー、スウィフトシュアと申します。…こんな私でよろしければ、全力で艦隊をサポートいたします",
-						"japaneseTL" : "",
-						"japaneseNote" : "",
-						"english" : "",
-						"englishNote" : ""
-					},
-					"4" : {
-						"event" : "Login",
-						"media" : "login",
-						"chinese" : "您好。这是今天的工作内容，请您过目。……呼…",
-						"chineseTL" : "",
-						"chineseNote" : "",
-						"japanese" : "おはようございます。本日の業務はこちらになります。……ふぅ…",
-						"japaneseTL" : "",
-						"japaneseNote" : "",
-						"english" : "",
-						"englishNote" : ""
-					},
-					"5" : {
-						"event" : "Details",
-						"media" : "detail",
-						"chinese" : "啊，不好意思弄的这么乱……谢菲尔德交给我的打扫房间的工具，好像我用的还不怎么顺手……啊哈哈…",
-						"chineseTL" : "",
-						"chineseNote" : "",
-						"japanese" : "あ、ごめんなさいなんだか散らかしてて……シェフィールドが教えてくれた掃除アイテム、意外と使い勝手がわからなくて…あはは…",
-						"japaneseTL" : "",
-						"japaneseNote" : "",
-						"english" : "",
-						"englishNote" : ""
-					},
-					"6" : {
-						"event" : "Main 1",
-						"media" : "main_1",
-						"chinese" : "指挥官，今天也和大家一起加油吧？",
-						"chineseTL" : "",
-						"chineseNote" : "",
-						"japanese" : "指揮官、今日も一日みんなと一緒に頑張りましょ？",
-						"japaneseTL" : "",
-						"japaneseNote" : "",
-						"english" : "",
-						"englishNote" : ""
-					},
-					"7" : {
-						"event" : "Main 2",
-						"media" : "main_2",
-						"chinese" : "指挥官不觉得，皇家的淑女应该还是优雅一些的吗？女仆队尚且不论，斐济和牙买加她们怎么说呢…那个，该说特立独行呢，还是说有点不够正经呢……那样真的没问题吗…？",
-						"chineseTL" : "",
-						"chineseNote" : "",
-						"japanese" : "指揮官、ロイヤルレディは優雅であるべきだと思いませんか？メイド隊ならともかく、フィジーやジャマイカたち…こう、派手というか、はしたないと言うか…本当に大丈夫です？",
-						"japaneseTL" : "",
-						"japaneseNote" : "",
-						"english" : "",
-						"englishNote" : ""
-					},
-					"8" : {
-						"event" : "Main 3",
-						"media" : "main_3",
-						"chinese" : "我很羡慕骑士长大人。如果我也能像她那样举止充满自信的话……啊，对不起，刚才说的话请忘掉吧",
-						"chineseTL" : "",
-						"chineseNote" : "",
-						"japanese" : "騎士長のことが羨ましく思います。私でもあんなに気丈に振る舞うことができれば……すみません、今のは忘れてください",
-						"japaneseTL" : "",
-						"japaneseNote" : "",
-						"english" : "",
-						"englishNote" : ""
-					},
-					"9" : {
-						"event" : "Touch",
-						"media" : "touch_1",
-						"chinese" : "身为秘书舰，对一切报告的东西自然都需要负起责任",
-						"chineseTL" : "",
-						"chineseNote" : "",
-						"japanese" : "秘書艦を担当している以上、報告するもの全てに責任を持って確認させていただきます",
-						"japaneseTL" : "",
-						"japaneseNote" : "",
-						"english" : "",
-						"englishNote" : ""
-					},
-					"10" : {
-						"event" : "Touch (Special)",
-						"media" : "touch_2",
-						"chinese" : "指挥官，那个…这种事在舰队纪律上可能不大合适……",
-						"chineseTL" : "",
-						"chineseNote" : "",
-						"japanese" : "指揮官、その…こういうのは艦隊の規律上、あまり相応しい行動ではないかと……",
-						"japaneseTL" : "",
-						"japaneseNote" : "",
-						"english" : "",
-						"englishNote" : ""
-					},
-					"11" : {
-						"event" : "Mission",
-						"media" : "task",
-						"chinese" : "指挥官，任务的分类已经完成了，请您确认",
-						"chineseTL" : "",
-						"chineseNote" : "",
-						"japanese" : "指揮官、任務の仕分けが完了しました。ご確認ください",
-						"japaneseTL" : "",
-						"japaneseNote" : "",
-						"english" : "",
-						"englishNote" : ""
-					},
-					"12" : {
-						"event" : "Mission Complete",
-						"media" : "mission_complete",
-						"chinese" : "指挥官，任务的报酬已经清点入库完毕了，这里是清单，请确认",
-						"chineseTL" : "",
-						"chineseNote" : "",
-						"japanese" : "指揮官、任務報酬のリストアップが完了しました。ご確認ください",
-						"japaneseTL" : "",
-						"japaneseNote" : "",
-						"english" : "",
-						"englishNote" : ""
-					},
-					"13" : {
-						"event" : "Mail",
-						"media" : "mail",
-						"chinese" : "指挥官，有新的邮件。欸？啊，我每隔一小时会确认一次邮箱情况，所以不会漏的",
-						"chineseTL" : "",
-						"chineseNote" : "",
-						"japanese" : "指揮官、新しいメールです。あ、約一時間おきにチェックしていますので、抜かりは…はい、ないと思います",
-						"japaneseTL" : "",
-						"japaneseNote" : "",
-						"english" : "",
-						"englishNote" : ""
-					},
-					"14" : {
-						"event" : "Return to Port",
-						"media" : "home",
-						"chinese" : "出击辛苦了。战斗报告已经整理好了，请您在有时间的时候确认一下",
-						"chineseTL" : "",
-						"chineseNote" : "",
-						"japanese" : "お疲れ様でございます。レポートを取りまとめました。お手すきの際にご確認を",
-						"japaneseTL" : "",
-						"japaneseNote" : "",
-						"english" : "",
-						"englishNote" : ""
-					},
-					"15" : {
-						"event" : "Commission Complete",
-						"media" : "expedition",
-						"chinese" : "指挥官，委托完成的时间快要到了，现在动身去港口的话，应该正好能接到委托组的各位",
-						"chineseTL" : "",
-						"chineseNote" : "",
-						"japanese" : "指揮官、そろそろ委託完了の時間です。今から出発すれば、ちょうどみんなが帰還した頃には着きますよ",
-						"japaneseTL" : "",
-						"japaneseNote" : "",
-						"english" : "",
-						"englishNote" : ""
-					},
-					"16" : {
-						"event" : "Enhancement",
-						"media" : "upgrade",
-						"chinese" : "要加油啊，确捷！你现在备受指挥官期待呢…！",
-						"chineseTL" : "",
-						"chineseNote" : "",
-						"japanese" : "スウィフトシュア、しっかりして、あなた期待されているのよ…！",
-						"japaneseTL" : "",
-						"japaneseNote" : "",
-						"english" : "",
-						"englishNote" : ""
-					},
-					"17" : {
-						"event" : "Flagship",
-						"media" : "warcry",
-						"chinese" : "舰队前进！…确捷、打起精神来…！",
-						"chineseTL" : "",
-						"chineseNote" : "",
-						"japanese" : "全艦、前進！…しっかりして、私っ！",
-						"japaneseTL" : "",
-						"japaneseNote" : "",
-						"english" : "",
-						"englishNote" : ""
-					},
-					"18" : {
-						"event" : "Victory",
-						"media" : "mvp",
-						"chinese" : "我、我很努力了…",
-						"chineseTL" : "",
-						"chineseNote" : "",
-						"japanese" : "わ、私、頑張りました……",
-						"japaneseTL" : "",
-						"japaneseNote" : "",
-						"english" : "",
-						"englishNote" : ""
-					},
-					"19" : {
-						"event" : "Defeat",
-						"media" : "lose",
-						"chinese" : "对不起，要是我再能干一些就好了…",
-						"chineseTL" : "",
-						"chineseNote" : "",
-						"japanese" : "すみません、私がもう少し上手くやれたら……",
-						"japaneseTL" : "",
-						"japaneseNote" : "",
-						"english" : "",
-						"englishNote" : ""
-					},
-					"20" : {
-						"event" : "Skill",
-						"media" : "skill",
-						"chinese" : "这个时机应该没问题…！",
-						"chineseTL" : "",
-						"chineseNote" : "",
-						"japanese" : "このタイミング、行ける…はず！",
-						"japaneseTL" : "",
-						"japaneseNote" : "",
-						"english" : "",
-						"englishNote" : ""
-					},
-					"21" : {
-						"event" : "Low HP",
-						"media" : "hp",
-						"chinese" : "至少要让其他人安全撤退…！",
-						"chineseTL" : "",
-						"chineseNote" : "",
-						"japanese" : "せめて仲間たちを無事に撤退させないと…！",
-						"japaneseTL" : "",
-						"japaneseNote" : "",
-						"english" : "",
-						"englishNote" : ""
-					},
-					"22" : {
-						"event" : "Affinity (Upset)",
-						"media" : "feeling1",
-						"chinese" : "果然，我这样的人只配遇到同样糟糕的人…",
-						"chineseTL" : "",
-						"chineseNote" : "",
-						"japanese" : "私のような者にはやっぱりこんな指揮官がお似合いなのね……",
-						"japaneseTL" : "",
-						"japaneseNote" : "",
-						"english" : "",
-						"englishNote" : ""
-					},
-					"23" : {
-						"event" : "Affinity (Stranger)",
-						"media" : "feeling2",
-						"chinese" : "指挥官，有什么事吗？请尽管吩咐。……啊，如果吩咐我这样的人也没问题的话……",
-						"chineseTL" : "",
-						"chineseNote" : "",
-						"japanese" : "指揮官、何か御用でしょうか？なんでもお任せください。…あっ、私などでよければ、ですが…",
-						"japaneseTL" : "",
-						"japaneseNote" : "",
-						"english" : "",
-						"englishNote" : ""
-					},
-					"24" : {
-						"event" : "Affinity (Friendly)",
-						"media" : "feeling3",
-						"chinese" : "斐济总是说“确捷你应该再多笑一笑”，我应该怎么做才好呢……啊，对不起，因为这种无聊的事来问指挥官…",
-						"chineseTL" : "",
-						"chineseNote" : "",
-						"japanese" : "フィジーからいつも「スウィフトシュアはもっと笑ったほうがいい」って言われますけど、どうしたら良いか…ああすみません、つまらない相談をしてしまいまして",
-						"japaneseTL" : "",
-						"japaneseNote" : "",
-						"english" : "",
-						"englishNote" : ""
-					},
-					"25" : {
-						"event" : "Affinity (Like)",
-						"media" : "feeling4",
-						"chinese" : "按指挥官吩咐，我去给牙买加的摩托改装帮了下忙，感觉挺有意思的。呵呵……啊，指挥官，不好意思…刚才的这个表情，抱歉，怎么说呢……",
-						"chineseTL" : "",
-						"chineseNote" : "",
-						"japanese" : "指揮官に言われてこの間ジャマイカのバイクの改装を手伝いに行きましたけど、ふふふ、意外と楽しかったですね。…あっ、指揮官、すみません…今のは、ええと、あの……",
-						"japaneseTL" : "",
-						"japaneseNote" : "",
-						"english" : "",
-						"englishNote" : ""
-					},
-					"26" : {
-						"event" : "Affinity (Love)",
-						"media" : "feeling5",
-						"chinese" : "比起斐济那样经常开心的笑，我可能还是比较适合谢菲尔德那样稍微冷一点的感觉吧…？感觉偶尔笑一笑才更容易让指挥官心动……刚、刚才我说的您当没听见就好！",
-						"chineseTL" : "",
-						"chineseNote" : "",
-						"japanese" : "フィジーのようによく笑うことより、シェフィールドのようなクールに振る舞うほうが私はちょっと楽…かな？たまに笑顔を見せれば指揮官がドキッとしてくれるってみんなが言っていましたし…い、今の聞かなかったことにしてください！",
-						"japaneseTL" : "",
-						"japaneseNote" : "",
-						"english" : "",
-						"englishNote" : ""
-					},
-					"27" : {
-						"event" : "Pledge",
-						"media" : "propose",
-						"chinese" : "不好意思，在这个时候还要向您确认一下……选择我真的没关系吗？……这样的我…如果这样的我也没问题的话，我非常乐意！——指挥官，今后也请多多关照…！",
-						"chineseTL" : "",
-						"chineseNote" : "",
-						"japanese" : "今更で申し訳ございません。私のような者で本当に大丈夫ですか？……こんな私でも…ううん、私でよければ、喜んでお相手いたします！――指揮官、これからもよろしくお願いします！",
-						"japaneseTL" : "",
-						"japaneseNote" : "",
-						"english" : "",
-						"englishNote" : ""
-					},
-					"28" : {
-						"event" : "Easter Egg 1(Sheffield)",
-						"media" : "link1",
-						"chinese" : "嗯！我会努力的……！",
-						"chineseTL" : "",
-						"chineseNote" : "",
-						"japanese" : "はい！しっかりしなさい…私！",
-						"japaneseTL" : "",
-						"japaneseNote" : "",
-						"english" : "",
-						"englishNote" : ""
-					},
-					"29" : {
-						"event" : "Like Present",
-						"media" : "present_like",
-						"chinese" : "",
-						"chineseTL" : "",
-						"chineseNote" : "",
-						"japanese" : "",
-						"japaneseTL" : "",
-						"japaneseNote" : "",
-						"english" : "",
-						"englishNote" : ""
-					},
-					"30" : {
-						"event" : "Dislike Present",
-						"media" : "present_dislike",
-						"chinese" : "",
-						"chineseTL" : "",
-						"chineseNote" : "",
-						"japanese" : "",
-						"japaneseTL" : "",
-						"japaneseNote" : "",
-						"english" : "",
-						"englishNote" : ""
-					},
-					"31" : {
-						"event" : "Main Title",
-						"media" : "extra",
-						"chinese" : "",
-						"chineseTL" : "",
-						"chineseNote" : "",
-						"japanese" : "",
-						"japaneseTL" : "",
-						"japaneseNote" : "",
-						"english" : "",
-						"englishNote" : ""
-					}
-				}
-			},
-			"2": {
-				"skin_id" : "quejie_2",
-				"id" : "1",
-				"label" : "自習室のシクラメン",
-				"dialogue" : {
-					"1" : {
-						"event" : "Ship Description",
-						"media" : "",
-						"chinese" : "指挥官，您怎么来这里了…？我？如您所见，我正在自习。我觉得实战经验上的缺陷，还是需要用知识和规程来扬长避短才是",
-						"chineseTL" : "",
-						"chineseNote" : "",
-						"japanese" : "指揮官、どうしてここに…？私？はい、ご覧の通り勉強中ですが…実戦経験でみんなに遅れを取っている分は、学園での座学で補うしかないと思っています",
-						"japaneseTL" : "",
-						"japaneseNote" : "",
-						"english" : "",
-						"englishNote" : ""
-					},
-					"2" : {
-						"event" : "Acquisition",
-						"media" : "get_1",
-						"chinese" : "指挥官，您怎么来这里了…？我？如您所见，我正在自习。我觉得实战经验上的缺陷，还是需要用知识和规程来扬长避短才是",
-						"chineseTL" : "",
-						"chineseNote" : "",
-						"japanese" : "",
-						"japaneseTL" : "",
-						"japaneseNote" : "",
-						"english" : "",
-						"englishNote" : ""
-					},
-					"3" : {
-						"event" : "Login",
-						"media" : "login_1",
-						"chinese" : "您好。这是今天的课程一览，请指挥官过目",
-						"chineseTL" : "",
-						"chineseNote" : "",
-						"japanese" : "",
-						"japaneseTL" : "",
-						"japaneseNote" : "",
-						"english" : "",
-						"englishNote" : ""
-					},
-					"4" : {
-						"event" : "Details",
-						"media" : "detail_1",
-						"chinese" : "独角兽小姐，这道题要这样解…啊，指挥官，非常抱歉，我正在教她们解题。请您先随意休息一下吧",
-						"chineseTL" : "",
-						"chineseNote" : "",
-						"japanese" : "",
-						"japaneseTL" : "",
-						"japaneseNote" : "",
-						"english" : "",
-						"englishNote" : ""
-					},
-					"5" : {
-						"event" : "Touch",
-						"media" : "touch_1_1",
-						"chinese" : "戴着眼镜的样子很可爱……？欸，这个，额，才没有这回事……",
-						"chineseTL" : "",
-						"chineseNote" : "",
-						"japanese" : "",
-						"japaneseTL" : "",
-						"japaneseNote" : "",
-						"english" : "",
-						"englishNote" : ""
-					},
-					"6" : {
-						"event" : "Touch (Special)",
-						"media" : "touch_2_1",
-						"chinese" : "指挥官，这、这种事在学园的风纪上可能不大合适……",
-						"chineseTL" : "",
-						"chineseNote" : "",
-						"japanese" : "",
-						"japaneseTL" : "",
-						"japaneseNote" : "",
-						"english" : "",
-						"englishNote" : ""
-					},
-					"7" : {
-						"event" : "Mail",
-						"media" : "mail_1",
-						"chinese" : "指挥官，有新的邮件。我没法确认的时候会让蛮啾帮忙，请您放心",
-						"chineseTL" : "",
-						"chineseNote" : "",
-						"japanese" : "",
-						"japaneseTL" : "",
-						"japaneseNote" : "",
-						"english" : "",
-						"englishNote" : ""
-					}
-				}
-			}
-		}
-	}
+  "name_reference": "swiftsure",
+  "cn_reference": "quejie",
+  "nameJP": "スウィフトシュア",
+  "nameCN": "确捷",
+  "ID": "393",
+  "name": "Swiftsure",
+  "internal_id": "202231",
+  "rarity": "Super Rare",
+  "initialStar": "★★★☆☆☆",
+  "hull": "Light Cruiser",
+  "navy": "Royal Navy",
+  "prefix": "HMS",
+  "buildTime": "",
+  "class": "スウィフトシュア級",
+  "parameters": {
+    "firepower": "B",
+    "torpedo": "A",
+    "aviation": "E",
+    "evasion": "B",
+    "antiAir": "B",
+    "hp": "C"
+  },
+  "scrap": {
+    "gold": "6",
+    "oil": "3",
+    "medal": "10"
+  },
+  "releaseDate": {
+    "JP": "",
+    "CN": "",
+    "KR": "",
+    "EN": ""
+  },
+  "artist": {
+    "name": "",
+    "weibo": "",
+    "twitter": "",
+    "pixiv": "",
+    "other": ""
+  },
+  "enhance": {
+    "firepower": "13",
+    "torpedo": "23",
+    "aviation": "0",
+    "reload": "13"
+  },
+  "acquisitionMethod": "小型艦建造",
+  "skill": {
+    "1": {
+      "icon": "12300",
+      "requirement": "",
+      "name": "スウィフトシュート ",
+      "type": "Defensive",
+      "description": "対空攻撃時に10.0% (30.0%)で発動、10秒間味方前衛艦隊の対空が10.0% (30.0%)アップ；味方対空射撃範囲内で敵機が5機撃墜されるたびに、自身の火力が1%アップし、味方主力艦隊の受ける航空攻撃ダメージを1%軽減する（最大5 (10)回まで加算可能） "
+    },
+    "2": {
+      "icon": "12310",
+      "requirement": "",
+      "name": "スウィフトアナライズ ",
+      "type": "Offensive",
+      "description": "戦闘中、自身のクリティカル率が10.0% (30.0%)、自身の駆逐艦・軽巡洋艦への命中率が4.0% (10.0%)アップ；自身の主砲攻撃が敵に命中したときに10%で発動、6秒間その敵の回避率が4.0% (10.0%)ダウンする "
+    },
+    "3": {
+      "icon": "29401",
+      "requirement": "",
+      "name": "全弾発射-スウィフトシュアI",
+      "type": "Offensive",
+      "description": "自身の主兵装で12回攻撃する度に、全弾発射-スウィフトシュアIを行う"
+    }
+  },
+  "skin": {
+    "1": {
+      "id": "quejie",
+      "name": "スウィフトシュア",
+      "description": "スウィフトシュア級軽巡洋艦・スウィフトシュア (HMS Swiftsure) ",
+      "expression": {
+        "0": {
+          "id": "0"
+        },
+        "1": {
+          "id": "1"
+        },
+        "2": {
+          "id": "2"
+        },
+        "3": {
+          "id": "3"
+        },
+        "4": {
+          "id": "4"
+        }
+      }
+    },
+    "2": {
+      "id": "quejie_2",
+      "name": "自習室のシクラメン",
+      "description": "指揮官、どうしてここに…？私？はい、ご覧の通り勉強中ですが…実戦経験でみんなに遅れを取っている分は、学園での座学で補うしかないと思っています",
+      "expression": {
+        "0": {
+          "id": "0"
+        },
+        "1": {
+          "id": "1"
+        },
+        "2": {
+          "id": "2"
+        },
+        "3": {
+          "id": "3"
+        }
+      }
+    }
+  },
+  "defaultEquipment": {
+    "1": {
+      "icon": "5000",
+      "rarity": "",
+      "name": "Triple 533mm Torpedo"
+    },
+    "3": {
+      "icon": "",
+      "rarity": "",
+      "name": ""
+    }
+  },
+  "stats": {
+    "100": {
+      "hp": "3359",
+      "firepower": "142",
+      "torpedo": "324",
+      "antiAir": "267",
+      "aviation": "0",
+      "reload": "165",
+      "hit": "146",
+      "evasion": "72",
+      "speed": "32",
+      "luck": "44",
+      "asw": "131",
+      "oxygen": "0",
+      "ammo": "0",
+      "cost": "11",
+      "armor": "Light"
+    },
+    "120": {
+      "hp": "3796",
+      "firepower": "163",
+      "torpedo": "364",
+      "antiAir": "304",
+      "aviation": "0",
+      "reload": "190",
+      "hit": "163",
+      "evasion": "96",
+      "speed": "32",
+      "luck": "44",
+      "asw": "148",
+      "oxygen": "0",
+      "ammo": "0",
+      "cost": "11",
+      "armor": "Light"
+    },
+    "base": {
+      "hp": "650",
+      "firepower": "30",
+      "torpedo": "69",
+      "antiAir": "57",
+      "aviation": "0",
+      "reload": "70",
+      "hit": "56",
+      "evasion": "28",
+      "speed": "32",
+      "luck": "44",
+      "asw": "36",
+      "oxygen": "0",
+      "ammo": "0",
+      "cost": "3",
+      "armor": "Light"
+    },
+    "100retrofit": {
+      "hp": "",
+      "firepower": "",
+      "torpedo": "",
+      "antiAir": "",
+      "aviation": "",
+      "reload": "",
+      "hit": "",
+      "evasion": "",
+      "speed": "32",
+      "luck": "44",
+      "asw": "",
+      "oxygen": "0",
+      "ammo": "0",
+      "cost": "11",
+      "armor": "Light"
+    },
+    "120retrofit": {
+      "hp": "",
+      "firepower": "",
+      "torpedo": "",
+      "antiAir": "",
+      "aviation": "",
+      "reload": "",
+      "hit": "",
+      "evasion": "",
+      "speed": "32",
+      "luck": "44",
+      "asw": "",
+      "oxygen": "0",
+      "ammo": "0",
+      "cost": "11",
+      "armor": "Light"
+    }
+  },
+  "limitBreak": {
+    "tier1": "特殊弾幕スキル習得/主砲補正+5%",
+    "tier2": "魚雷装填数+1/開始時魚雷+1/魚雷補正+10%",
+    "tier3": "特殊弾幕強化/主砲補正+15%"
+  },
+  "equipmentLoadout": {
+    "1": {
+      "type": "Light Cruiser",
+      "efficiency": "135%/140%/140%/155%",
+      "amount": "1/1/1/1",
+      "preload": "0/0/0/0"
+    },
+    "2": {
+      "type": "Torpedo",
+      "efficiency": "145%/145%/155%/155%",
+      "amount": "1/1/2/2",
+      "preload": "0/0/1/1"
+    },
+    "3": {
+      "type": "Anti-Air Gun",
+      "efficiency": "110%/110%/110%/110%",
+      "amount": "1/1/1/1",
+      "preload": "0/0/0/0"
+    },
+    "4": {
+      "type": "Auxilary",
+      "efficiency": "-",
+      "amount": "-",
+      "preload": "-"
+    },
+    "5": {
+      "type": "Auxilary",
+      "efficiency": "-",
+      "amount": "-",
+      "preload": "-"
+    }
+  },
+  "build": {
+    "light": {
+      "JP": "",
+      "CN": "",
+      "EN": ""
+    },
+    "heavy": {
+      "JP": "",
+      "CN": "",
+      "EN": ""
+    },
+    "special": {
+      "JP": "",
+      "CN": "",
+      "EN": ""
+    },
+    "limited": {
+      "JP": "",
+      "CN": "",
+      "EN": ""
+    }
+  },
+  "drop": {
+    "droppable": "false",
+    "list": {
+      "1": {
+        "event": "",
+        "chapter": {
+          "1": {
+            "label": "Ch .1",
+            "node": {
+              "1": {
+                "drop": "✓",
+                "note": "-"
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "lines": {
+    "skin": {
+      "1": {
+        "skin_id": "quejie",
+        "id": "0",
+        "label": "スウィフトシュア",
+        "dialogue": {
+          "1": {
+            "event": "Ship Description",
+            "media": "",
+            "chinese": "确捷级轻巡洋舰——确捷，舷号08",
+            "chineseTL": "Town Colony Class Light Cruiser ---- Swiftsure, Pennant 08",
+            "chineseNote": "",
+            "japanese": "ロイヤルネイビー、スウィフトシュアと申します。…こんな私でよろしければ、全力で艦隊をサポートいたします",
+            "japaneseTL": "",
+            "japaneseNote": "",
+            "english": "",
+            "englishNote": ""
+          },
+          "2": {
+            "event": "Biography",
+            "media": "profile",
+            "chinese": "我是皇家海军轻巡洋舰·确捷。在大战的末期加入战场，由于战争收尾和一些意想不到的情况而没能在战场上活跃很多。这样的我如果也能被大家接纳的话，我愿意为舰队尽一份微薄之力。啊，如果大家比较介意的话，我的事尽管放在一边就好……",
+            "chineseTL": "I am Royal Navy Light Cruiser, Swiftsure. I was deployed late in the war. However, due to the early end of the war and some unexpected circumstances I was unable to achieve much. If someone such as be can be accepted by everyone, I'm willing to contribute to the fleet with my own meagre strength. Ah, if anyone is particularly concered, it'll be better if my business was put aside.",
+            "chineseNote": "",
+            "japanese": "ロイヤルネイビーのスウィフトシュアと申します。かの大戦の末期に参加しましたが、戦争終結と色々事情があって期待された程の活躍ができませんでした。そんな私でもよろしければ、この艦隊のために微力を尽くさせていただきたく存じます。あっ、お気に召さないようでしたら、私のことはお構いなく……",
+            "japaneseTL": "",
+            "japaneseNote": "",
+            "english": "",
+            "englishNote": ""
+          },
+          "3": {
+            "event": "Acquisition",
+            "media": "get",
+            "chinese": "皇家海军轻巡洋舰、确捷，报道。…如果指挥官不嫌弃这样的我的话，我会尽全力为这个舰队奉献微薄之力的",
+            "chineseTL": "Royal Navy Light Cruiser, Swiftsure, Reporting. If the Commander doesn't dislike me, I will do my best to add my meagre contribution to the fleet.",
+            "chineseNote": "",
+            "japanese": "ロイヤルネイビー、スウィフトシュアと申します。…こんな私でよろしければ、全力で艦隊をサポートいたします",
+            "japaneseTL": "",
+            "japaneseNote": "",
+            "english": "",
+            "englishNote": ""
+          },
+          "4": {
+            "event": "Login",
+            "media": "login",
+            "chinese": "您好。这是今天的工作内容，请您过目。……呼…",
+            "chineseTL": "Hello. These are the details of today's schedule, please take a look.... hu...",
+            "chineseNote": "",
+            "japanese": "おはようございます。本日の業務はこちらになります。……ふぅ…",
+            "japaneseTL": "",
+            "japaneseNote": "",
+            "english": "",
+            "englishNote": ""
+          },
+          "5": {
+            "event": "Details",
+            "media": "detail",
+            "chinese": "啊，不好意思弄的这么乱……谢菲尔德交给我的打扫房间的工具，好像我用的还不怎么顺手……啊哈哈…",
+            "chineseTL": "Ah, sorry for the mess... Sheffield gave me some cleaning equipment but looks like I'm still not proficient in using them, ahaha..",
+            "chineseNote": "",
+            "japanese": "あ、ごめんなさいなんだか散らかしてて……シェフィールドが教えてくれた掃除アイテム、意外と使い勝手がわからなくて…あはは…",
+            "japaneseTL": "",
+            "japaneseNote": "",
+            "english": "",
+            "englishNote": ""
+          },
+          "6": {
+            "event": "Main 1",
+            "media": "main_1",
+            "chinese": "指挥官，今天也和大家一起加油吧？",
+            "chineseTL": "Commander, will we give it our best with everyone today?",
+            "chineseNote": "",
+            "japanese": "指揮官、今日も一日みんなと一緒に頑張りましょ？",
+            "japaneseTL": "",
+            "japaneseNote": "",
+            "english": "",
+            "englishNote": ""
+          },
+          "7": {
+            "event": "Main 2",
+            "media": "main_2",
+            "chinese": "指挥官不觉得，皇家的淑女应该还是优雅一些的吗？女仆队尚且不论，斐济和牙买加她们怎么说呢…那个，该说特立独行呢，还是说有点不够正经呢……那样真的没问题吗…？",
+            "chineseTL": "Doesn't the Commander feel that the Royal Navy ladies should act more elegantly? The maid team are apathetic, and where do I even start with Fiji and Jamaica.. well, let's just say they're independent.. or should they be described as not serious? .... Is this really okay?",
+            "chineseNote": "",
+            "japanese": "指揮官、ロイヤルレディは優雅であるべきだと思いませんか？メイド隊ならともかく、フィジーやジャマイカたち…こう、派手というか、はしたないと言うか…本当に大丈夫です？",
+            "japaneseTL": "",
+            "japaneseNote": "",
+            "english": "",
+            "englishNote": ""
+          },
+          "8": {
+            "event": "Main 3",
+            "media": "main_3",
+            "chinese": "我很羡慕骑士长大人。如果我也能像她那样举止充满自信的话……啊，对不起，刚才说的话请忘掉吧",
+            "chineseTL": "I'm envious of Miss Knight Captain. If I could be full of confidence like her... ah, sorry, please forget the words I just said.",
+            "chineseNote": "",
+            "japanese": "騎士長のことが羨ましく思います。私でもあんなに気丈に振る舞うことができれば……すみません、今のは忘れてください",
+            "japaneseTL": "",
+            "japaneseNote": "",
+            "english": "",
+            "englishNote": ""
+          },
+          "9": {
+            "event": "Touch",
+            "media": "touch_1",
+            "chinese": "身为秘书舰，对一切报告的东西自然都需要负起责任",
+            "chineseTL": "As the secetary ship, it's natural to be responsible for everything reported.",
+            "chineseNote": "",
+            "japanese": "秘書艦を担当している以上、報告するもの全てに責任を持って確認させていただきます",
+            "japaneseTL": "",
+            "japaneseNote": "",
+            "english": "",
+            "englishNote": ""
+          },
+          "10": {
+            "event": "Touch (Special)",
+            "media": "touch_2",
+            "chinese": "指挥官，那个…这种事在舰队纪律上可能不大合适……",
+            "chineseTL": "Commander... this.. this sort of activity might not be appropriate in the fleet..",
+            "chineseNote": "",
+            "japanese": "指揮官、その…こういうのは艦隊の規律上、あまり相応しい行動ではないかと……",
+            "japaneseTL": "",
+            "japaneseNote": "",
+            "english": "",
+            "englishNote": ""
+          },
+          "11": {
+            "event": "Mission",
+            "media": "task",
+            "chinese": "指挥官，任务的分类已经完成了，请您确认",
+            "chineseTL": "Commander, the mission report has been completed, please confirm.",
+            "chineseNote": "",
+            "japanese": "指揮官、任務の仕分けが完了しました。ご確認ください",
+            "japaneseTL": "",
+            "japaneseNote": "",
+            "english": "",
+            "englishNote": ""
+          },
+          "12": {
+            "event": "Mission Complete",
+            "media": "mission_complete",
+            "chinese": "指挥官，任务的报酬已经清点入库完毕了，这里是清单，请确认",
+            "chineseTL": "Commander, the mission rewards have been counted and stowed away. Here is the inventory list, please confirm.",
+            "chineseNote": "",
+            "japanese": "指揮官、任務報酬のリストアップが完了しました。ご確認ください",
+            "japaneseTL": "",
+            "japaneseNote": "",
+            "english": "",
+            "englishNote": ""
+          },
+          "13": {
+            "event": "Mail",
+            "media": "mail",
+            "chinese": "指挥官，有新的邮件。欸？啊，我每隔一小时会确认一次邮箱情况，所以不会漏的",
+            "chineseTL": "Commander, new mail. Eh? Ah, I check the mailbox every hour so nothing will be missed.",
+            "chineseNote": "",
+            "japanese": "指揮官、新しいメールです。あ、約一時間おきにチェックしていますので、抜かりは…はい、ないと思います",
+            "japaneseTL": "",
+            "japaneseNote": "",
+            "english": "",
+            "englishNote": ""
+          },
+          "14": {
+            "event": "Return to Port",
+            "media": "home",
+            "chinese": "出击辛苦了。战斗报告已经整理好了，请您在有时间的时候确认一下",
+            "chineseTL": "Good job. Combat reports have been sorted, please look through them when you're free.",
+            "chineseNote": "",
+            "japanese": "お疲れ様でございます。レポートを取りまとめました。お手すきの際にご確認を",
+            "japaneseTL": "",
+            "japaneseNote": "",
+            "english": "",
+            "englishNote": ""
+          },
+          "15": {
+            "event": "Commission Complete",
+            "media": "expedition",
+            "chinese": "指挥官，委托完成的时间快要到了，现在动身去港口的话，应该正好能接到委托组的各位",
+            "chineseTL": "Commander, it's nearly time for our commission. If we head to the harbor now, we should be able to meet our returning fleet.",
+            "chineseNote": "",
+            "japanese": "指揮官、そろそろ委託完了の時間です。今から出発すれば、ちょうどみんなが帰還した頃には着きますよ",
+            "japaneseTL": "",
+            "japaneseNote": "",
+            "english": "",
+            "englishNote": ""
+          },
+          "16": {
+            "event": "Enhancement",
+            "media": "upgrade",
+            "chinese": "要加油啊，确捷！你现在备受指挥官期待呢…！",
+            "chineseTL": "You have to do your best, Swiftsure! The commander has expectations of you!",
+            "chineseNote": "",
+            "japanese": "スウィフトシュア、しっかりして、あなた期待されているのよ…！",
+            "japaneseTL": "",
+            "japaneseNote": "",
+            "english": "",
+            "englishNote": ""
+          },
+          "17": {
+            "event": "Flagship",
+            "media": "warcry",
+            "chinese": "舰队前进！…确捷、打起精神来…！",
+            "chineseTL": "Fleet advance! ...Swiftsure, showing fortitude!",
+            "chineseNote": "",
+            "japanese": "全艦、前進！…しっかりして、私っ！",
+            "japaneseTL": "",
+            "japaneseNote": "",
+            "english": "",
+            "englishNote": ""
+          },
+          "18": {
+            "event": "Victory",
+            "media": "mvp",
+            "chinese": "我、我很努力了…",
+            "chineseTL": "I-I did my best..",
+            "chineseNote": "",
+            "japanese": "わ、私、頑張りました……",
+            "japaneseTL": "",
+            "japaneseNote": "",
+            "english": "",
+            "englishNote": ""
+          },
+          "19": {
+            "event": "Defeat",
+            "media": "lose",
+            "chinese": "对不起，要是我再能干一些就好了…",
+            "chineseTL": "Sorry, if only I were more capable..",
+            "chineseNote": "",
+            "japanese": "すみません、私がもう少し上手くやれたら……",
+            "japaneseTL": "",
+            "japaneseNote": "",
+            "english": "",
+            "englishNote": ""
+          },
+          "20": {
+            "event": "Skill",
+            "media": "skill",
+            "chinese": "这个时机应该没问题…！",
+            "chineseTL": "There should be no problems this time..!",
+            "chineseNote": "",
+            "japanese": "このタイミング、行ける…はず！",
+            "japaneseTL": "",
+            "japaneseNote": "",
+            "english": "",
+            "englishNote": ""
+          },
+          "21": {
+            "event": "Low HP",
+            "media": "hp",
+            "chinese": "至少要让其他人安全撤退…！",
+            "chineseTL": "I should at least let others safely retreat..!",
+            "chineseNote": "",
+            "japanese": "せめて仲間たちを無事に撤退させないと…！",
+            "japaneseTL": "",
+            "japaneseNote": "",
+            "english": "",
+            "englishNote": ""
+          },
+          "22": {
+            "event": "Affinity (Upset)",
+            "media": "feeling1",
+            "chinese": "果然，我这样的人只配遇到同样糟糕的人…",
+            "chineseTL": "Of course, someone like me deserves to meet someone equally terrible..",
+            "chineseNote": "",
+            "japanese": "私のような者にはやっぱりこんな指揮官がお似合いなのね……",
+            "japaneseTL": "",
+            "japaneseNote": "",
+            "english": "",
+            "englishNote": ""
+          },
+          "23": {
+            "event": "Affinity (Stranger)",
+            "media": "feeling2",
+            "chinese": "指挥官，有什么事吗？请尽管吩咐。……啊，如果吩咐我这样的人也没问题的话……",
+            "chineseTL": "Commander, is there anything wrong? Please tell me. ....Ah, if you're fine with telling someone like me....",
+            "chineseNote": "",
+            "japanese": "指揮官、何か御用でしょうか？なんでもお任せください。…あっ、私などでよければ、ですが…",
+            "japaneseTL": "",
+            "japaneseNote": "",
+            "english": "",
+            "englishNote": ""
+          },
+          "24": {
+            "event": "Affinity (Friendly)",
+            "media": "feeling3",
+            "chinese": "斐济总是说“确捷你应该再多笑一笑”，我应该怎么做才好呢……啊，对不起，因为这种无聊的事来问指挥官…",
+            "chineseTL": "Fiji is always saying \"Swiftsure, you should smile more\" What should I do... Ah, sorry, I didn't mean to bother the Commander with such boring trivialities..",
+            "chineseNote": "",
+            "japanese": "フィジーからいつも「スウィフトシュアはもっと笑ったほうがいい」って言われますけど、どうしたら良いか…ああすみません、つまらない相談をしてしまいまして",
+            "japaneseTL": "",
+            "japaneseNote": "",
+            "english": "",
+            "englishNote": ""
+          },
+          "25": {
+            "event": "Affinity (Like)",
+            "media": "feeling4",
+            "chinese": "按指挥官吩咐，我去给牙买加的摩托改装帮了下忙，感觉挺有意思的。呵呵……啊，指挥官，不好意思…刚才的这个表情，抱歉，怎么说呢……",
+            "chineseTL": "As the Commander instructed, I helped to modify Jamaica's motorcycle and found the experience quite interesting. Haha....ha, Commander, my apologies...just now...how do I put it..",
+            "chineseNote": "",
+            "japanese": "指揮官に言われてこの間ジャマイカのバイクの改装を手伝いに行きましたけど、ふふふ、意外と楽しかったですね。…あっ、指揮官、すみません…今のは、ええと、あの……",
+            "japaneseTL": "",
+            "japaneseNote": "",
+            "english": "",
+            "englishNote": ""
+          },
+          "26": {
+            "event": "Affinity (Love)",
+            "media": "feeling5",
+            "chinese": "比起斐济那样经常开心的笑，我可能还是比较适合谢菲尔德那样稍微冷一点的感觉吧…？感觉偶尔笑一笑才更容易让指挥官心动……刚、刚才我说的您当没听见就好！",
+            "chineseTL": "As compared to Fiji's frequent smiles, am I not more cold like Sheffield? If I smile more often it should be easier to move the Commander's heart.. P-pretend you didn't hear what I just said!",
+            "chineseNote": "",
+            "japanese": "フィジーのようによく笑うことより、シェフィールドのようなクールに振る舞うほうが私はちょっと楽…かな？たまに笑顔を見せれば指揮官がドキッとしてくれるってみんなが言っていましたし…い、今の聞かなかったことにしてください！",
+            "japaneseTL": "",
+            "japaneseNote": "",
+            "english": "",
+            "englishNote": ""
+          },
+          "27": {
+            "event": "Pledge",
+            "media": "propose",
+            "chinese": "不好意思，在这个时候还要向您确认一下……选择我真的没关系吗？……这样的我…如果这样的我也没问题的话，我非常乐意！——指挥官，今后也请多多关照…！",
+            "chineseTL": "Sorry, but even at this hour I still have to ask.. is it really okay to have chosen me? If a person like me is fine, then I'm extremely elated! -----Commander, please take care of me from now on!",
+            "chineseNote": "",
+            "japanese": "今更で申し訳ございません。私のような者で本当に大丈夫ですか？……こんな私でも…ううん、私でよければ、喜んでお相手いたします！――指揮官、これからもよろしくお願いします！",
+            "japaneseTL": "",
+            "japaneseNote": "",
+            "english": "",
+            "englishNote": ""
+          },
+          "28": {
+            "event": "Easter Egg 1(Sheffield)",
+            "media": "link1",
+            "chinese": "嗯！我会努力的……！",
+            "chineseTL": "Oh! I'll do my best!",
+            "chineseNote": "",
+            "japanese": "はい！しっかりしなさい…私！",
+            "japaneseTL": "",
+            "japaneseNote": "",
+            "english": "",
+            "englishNote": ""
+          },
+          "29": {
+            "event": "Like Present",
+            "media": "present_like",
+            "chinese": "",
+            "chineseTL": "",
+            "chineseNote": "",
+            "japanese": "",
+            "japaneseTL": "",
+            "japaneseNote": "",
+            "english": "",
+            "englishNote": ""
+          },
+          "30": {
+            "event": "Dislike Present",
+            "media": "present_dislike",
+            "chinese": "",
+            "chineseTL": "",
+            "chineseNote": "",
+            "japanese": "",
+            "japaneseTL": "",
+            "japaneseNote": "",
+            "english": "",
+            "englishNote": ""
+          },
+          "31": {
+            "event": "Main Title",
+            "media": "extra",
+            "chinese": "",
+            "chineseTL": "",
+            "chineseNote": "",
+            "japanese": "",
+            "japaneseTL": "",
+            "japaneseNote": "",
+            "english": "",
+            "englishNote": ""
+          }
+        }
+      },
+      "2": {
+        "skin_id": "quejie_2",
+        "id": "1",
+        "label": "自習室のシクラメン",
+        "dialogue": {
+          "1": {
+            "event": "Ship Description",
+            "media": "",
+            "chinese": "指挥官，您怎么来这里了…？我？如您所见，我正在自习。我觉得实战经验上的缺陷，还是需要用知识和规程来扬长避短才是",
+            "chineseTL": "Commander, why are you here? Me? As you can see, I'm self-studying. I'll make up for my lack of combat experience with knowledge and strategy.",
+            "chineseNote": "",
+            "japanese": "指揮官、どうしてここに…？私？はい、ご覧の通り勉強中ですが…実戦経験でみんなに遅れを取っている分は、学園での座学で補うしかないと思っています",
+            "japaneseTL": "",
+            "japaneseNote": "",
+            "english": "",
+            "englishNote": ""
+          },
+          "2": {
+            "event": "Acquisition",
+            "media": "get_1",
+            "chinese": "指挥官，您怎么来这里了…？我？如您所见，我正在自习。我觉得实战经验上的缺陷，还是需要用知识和规程来扬长避短才是",
+            "chineseTL": "Commander, why are you here? Me? As you can see, I'm self-studying. I'll make up for my lack of combat experience with knowledge and strategy.",
+            "chineseNote": "",
+            "japanese": "",
+            "japaneseTL": "",
+            "japaneseNote": "",
+            "english": "",
+            "englishNote": ""
+          },
+          "3": {
+            "event": "Login",
+            "media": "login_1",
+            "chinese": "您好。这是今天的课程一览，请指挥官过目",
+            "chineseTL": "Good day, Here's today's courses. Please look them over.",
+            "chineseNote": "",
+            "japanese": "",
+            "japaneseTL": "",
+            "japaneseNote": "",
+            "english": "",
+            "englishNote": ""
+          },
+          "4": {
+            "event": "Details",
+            "media": "detail_1",
+            "chinese": "独角兽小姐，这道题要这样解…啊，指挥官，非常抱歉，我正在教她们解题。请您先随意休息一下吧",
+            "chineseTL": "Miss Unicorn, the problem could be solved like this.. Ah, Commander, I'm extremely sorry, but I'm currently teaching.. please go and take a rest.",
+            "chineseNote": "",
+            "japanese": "",
+            "japaneseTL": "",
+            "japaneseNote": "",
+            "english": "",
+            "englishNote": ""
+          },
+          "5": {
+            "event": "Touch",
+            "media": "touch_1_1",
+            "chinese": "戴着眼镜的样子很可爱……？欸，这个，额，才没有这回事……",
+            "chineseTL": "Wearing glasses is cute..? Oh, this, er, that's not the point..",
+            "chineseNote": "",
+            "japanese": "",
+            "japaneseTL": "",
+            "japaneseNote": "",
+            "english": "",
+            "englishNote": ""
+          },
+          "6": {
+            "event": "Touch (Special)",
+            "media": "touch_2_1",
+            "chinese": "指挥官，这、这种事在学园的风纪上可能不大合适……",
+            "chineseTL": "Commander, T-his sort of stuff might not be appropriate in a school enviroment..",
+            "chineseNote": "",
+            "japanese": "",
+            "japaneseTL": "",
+            "japaneseNote": "",
+            "english": "",
+            "englishNote": ""
+          },
+          "7": {
+            "event": "Mail",
+            "media": "mail_1",
+            "chinese": "指挥官，有新的邮件。我没法确认的时候会让蛮啾帮忙，请您放心",
+            "chineseTL": "Commander, new mail. If I can't do them myself I'll ask the manjuus for help, please don't worry.",
+            "chineseNote": "",
+            "japanese": "",
+            "japaneseTL": "",
+            "japaneseNote": "",
+            "english": "",
+            "englishNote": ""
+          }
+        }
+      }
+    }
+  },
+  "fleet_tech": {
+    "pt_get": "12",
+    "add_get_attr": "Anti-Air",
+    "add_get_value": "1",
+    "add_get_shiptype": "Light Cruiser",
+    "pt_upgrade": "24",
+    "pt_level": "18",
+    "add_level_attr": "Hit",
+    "add_level_value": "1",
+    "add_level_shiptype": "Light Cruiser",
+    "t_level": "7",
+    "ships": "swiftsure"
+  }
 }
