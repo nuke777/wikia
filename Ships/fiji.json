@@ -53,7 +53,7 @@
 			"requirement": "",
 			"name": "Crete's Black Cloud",
 			"type": "Defensive",
-			"description": "Every 20 seconds, reduce enemy's DMG by $1 and increase own Anti-Air by $2 for 6 seconds."
+			"description": "Every 20 seconds, reduce enemy's DMG by 3.5% (8.0%) and increase own Anti-Air by 20.0% (40.0%) for 6 seconds."
 		},
 		"2": {
 			"icon": "21161",
@@ -71,6 +71,25 @@
 			"expression": {
 				"0": {
 					"id": "0"
+				}
+			}
+		},
+		"2": {
+			"id": "feiji_2",
+			"name": "ファッションスタイル？",
+			"description": "指揮官、待った？あははは、女の子の着替えって時間がかかるんだよ？わかった？じゃあ私の手を引いて、次の店にレッツゴー♪",
+			"expression": {
+				"0": {
+					"id": "0"
+				},
+				"1": {
+					"id": "1"
+				},
+				"2": {
+					"id": "2"
+				},
+				"3": {
+					"id": "3"
 				}
 			}
 		}
@@ -586,6 +605,85 @@
 						"japaneseTL": "",
 						"japaneseNote": "",
 						"english": "Hey, is my makeup looking decent? What about my outfit? Reckon I look as pretty as it gets? ...Good~ I've never dressed for this occasion before, so I want to look as good as possible~",
+						"englishNote": ""
+					}
+				}
+			},
+			"2": {
+				"skin_id": "feiji_2",
+				"id": "1",
+				"label": "ファッションスタイル？",
+				"dialogue": {
+					"1": {
+						"event": "Ship Description",
+						"media": "",
+						"chinese": "等很久了吗，指挥官？啊哈哈…女孩子的上街准备可是要花不少时间的，记住了~？来牵着我的手，我们出发吧~嘻嘻",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "指揮官、待った？あははは、女の子の着替えって時間がかかるんだよ？わかった？じゃあ私の手を引いて、次の店にレッツゴー♪",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"2": {
+						"event": "Acquisition",
+						"media": "get_1",
+						"chinese": "等很久了吗，指挥官？啊哈哈…女孩子的上街准备可是要花不少时间的，记住了~？来牵着我的手，我们出发吧~嘻嘻",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"3": {
+						"event": "Login",
+						"media": "login_1",
+						"chinese": "指挥官，我说过要守时的吧…？作为让我等待的补偿…今天就陪我上街买个痛快吧~！嘻嘻",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"4": {
+						"event": "Details",
+						"media": "detail_1",
+						"chinese": "嘿嘿，指挥官觉得我这身搭配怎么样呢~？是不是感觉还不错呀？——眼睛不知道看哪里？啊哈哈…指挥官真是的~",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"5": {
+						"event": "Touch",
+						"media": "touch_1_1",
+						"chinese": "约会逛街的时候，就要像这样~勾起手腕，靠着肩~~啊哈哈，指挥官害羞了吗~？",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"6": {
+						"event": "Return to Port",
+						"media": "home_1",
+						"chinese": "欢迎回来~嗯~~让我想想该怎么慰劳指挥官才好？哈哈，想体验下烛光晚餐吗？",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
 						"englishNote": ""
 					}
 				}

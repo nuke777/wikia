@@ -53,14 +53,14 @@
 			"requirement": "",
 			"name": "Quick Takeoff",
 			"type": "Offensive",
-			"description": "When this ship launches an Airstrike: $1 chance to make the next Airstrike available immediately."
+			"description": "When this ship launches an Airstrike: 5.0% (15.0%) chance to make the next Airstrike available immediately."
 		},
 		"2": {
 			"icon": "11900",
 			"requirement": "",
 			"name": "Protector of The North Passage",
 			"type": "Offensive",
-			"description": "When this ship launches an Airstrike: commences a Scan that reveals the location of all enemy Submarines for $1s. Additionally, launches a special airstrike with Swordfishes armed with Anti-Submarine torpedoes. Torpedo damage is based on the skill's level."
+			"description": "When this ship launches an Airstrike: commences a Scan that reveals the location of all enemy Submarines for 5 (10)s. Additionally, launches a special airstrike with Swordfishes armed with Anti-Submarine torpedoes. Torpedo damage is based on the skill's level."
 		}
 	},
 	"skin": {
@@ -90,6 +90,28 @@
 				},
 				"3": {
 					"id": "3"
+				}
+			}
+		},
+		"3": {
+			"id": "zhuiganzhe_3",
+			"name": "ゲーマースタイル",
+			"description": "よし！実績ゲット！…あら？指揮官、ご機嫌よう。わたくしのこの格好がそんなに珍しいの？ふふ、こう見えてもユニオン出身、エンターテイメントももちろん心得ていることよ♪",
+			"expression": {
+				"0": {
+					"id": "0"
+				},
+				"1": {
+					"id": "1"
+				},
+				"2": {
+					"id": "2"
+				},
+				"3": {
+					"id": "3"
+				},
+				"4": {
+					"id": "4"
 				}
 			}
 		}
@@ -768,6 +790,97 @@
 						"japaneseTL": "",
 						"japaneseNote": "",
 						"english": "I have a commander who is as bitter as oversteeped green tea that has been left out and forgotten.",
+						"englishNote": ""
+					}
+				}
+			},
+			"3": {
+				"skin_id": "zhuiganzhe_3",
+				"id": "2",
+				"label": "ゲーマースタイル",
+				"dialogue": {
+					"1": {
+						"event": "Ship Description",
+						"media": "",
+						"chinese": "好~！成就达成~！…哎呀？指挥官贵安。我这身装扮很稀奇吗？呵呵，我好歹也是白鹰出来的，关于娱乐方面的东西还是略懂一些的♪",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "よし！実績ゲット！…あら？指揮官、ご機嫌よう。わたくしのこの格好がそんなに珍しいの？ふふ、こう見えてもユニオン出身、エンターテイメントももちろん心得ていることよ♪",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"2": {
+						"event": "Acquisition",
+						"media": "get_2",
+						"chinese": "好~！成就达成~！…哎呀？指挥官贵安。我这身装扮很稀奇吗？呵呵，我好歹也是白鹰出来的，关于娱乐方面的东西还是略懂一些的♪",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"3": {
+						"event": "Login",
+						"media": "login_2",
+						"chinese": "指挥官，今天我们要攻略哪一关呢？",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"4": {
+						"event": "Details",
+						"media": "detail_2",
+						"chinese": "我们毕竟是驰骋于世界各大海域的舰船。作为排解无聊的手段，随身带个游戏机什么的也算不错不是嘛~？",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"5": {
+						"event": "Touch (Special)",
+						"media": "touch_2_2",
+						"chinese": "真是的…有游戏还不够吗？",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"6": {
+						"event": "Return to Port",
+						"media": "home_2",
+						"chinese": "好了，看我来拿个高分！",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"7": {
+						"event": "Affinity (Upset)",
+						"media": "feeling1_2",
+						"chinese": "指挥官？偶尔做点别的事换换心情比较好哦？",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
 						"englishNote": ""
 					}
 				}
