@@ -12,7 +12,7 @@
   "navy": "Royal Navy",
   "prefix": "HMS",
   "buildTime": "",
-  "class": "スウィフトシュア級",
+  "class": "Swiftsure-Class",
   "parameters": {
     "firepower": "B",
     "torpedo": "A",
@@ -45,35 +45,35 @@
     "aviation": "0",
     "reload": "13"
   },
-  "acquisitionMethod": "小型艦建造",
+  "acquisitionMethod": "Light Construction",
   "skill": {
     "1": {
       "icon": "12300",
       "requirement": "",
-      "name": "スウィフトシュート ",
+      "name": "Swift Shoot",
       "type": "Defensive",
-      "description": "対空攻撃時に10.0% (30.0%)で発動、10秒間味方前衛艦隊の対空が10.0% (30.0%)アップ；味方対空射撃範囲内で敵機が5機撃墜されるたびに、自身の火力が1%アップし、味方主力艦隊の受ける航空攻撃ダメージを1%軽減する（最大5 (10)回まで加算可能） "
+      "description": "Upon Aerial-Attack, 10.0% (30.0%) to activate: Increase Fleet AA by 10.0% (30.0%) for 10 seconds; At every 5 enemy planes that are shot down, increase own FP by 1% and reduce aviation damage received by the Allied Main Fleet by 1%, stacks up to 5 (10) times."
     },
     "2": {
       "icon": "12310",
       "requirement": "",
-      "name": "スウィフトアナライズ ",
+      "name": "Swift Analyze ",
       "type": "Offensive",
-      "description": "戦闘中、自身のクリティカル率が10.0% (30.0%)、自身の駆逐艦・軽巡洋艦への命中率が4.0% (10.0%)アップ；自身の主砲攻撃が敵に命中したときに10%で発動、6秒間その敵の回避率が4.0% (10.0%)ダウンする "
+      "description": "Increase own Critical Rate by 10.0% (30.0%). Increase own HIT by 4.0% (10.0%) against enemy DD/CL. Upon firing the main gun, 10% chance to reduce enemy EVA by 4.0% (10.0%)."
     },
     "3": {
       "icon": "29401",
       "requirement": "",
-      "name": "全弾発射-スウィフトシュアI",
+      "name": "All Out Assault Ⅰ",
       "type": "Offensive",
-      "description": "自身の主兵装で12回攻撃する度に、全弾発射-スウィフトシュアIを行う"
+      "description": "Activate All Out Assault Ⅰ: Swiftsure Class once every 12 times the main gun is fired."
     }
   },
   "skin": {
     "1": {
       "id": "quejie",
-      "name": "スウィフトシュア",
-      "description": "スウィフトシュア級軽巡洋艦・スウィフトシュア (HMS Swiftsure) ",
+      "name": "Swiftsure",
+      "description": "Swiftsure-Class Light Cruiser - (HMS Swiftsure) ",
       "expression": {
         "0": {
           "id": "0"
@@ -94,8 +94,8 @@
     },
     "2": {
       "id": "quejie_2",
-      "name": "自習室のシクラメン",
-      "description": "指揮官、どうしてここに…？私？はい、ご覧の通り勉強中ですが…実戦経験でみんなに遅れを取っている分は、学園での座学で補うしかないと思っています",
+      "name": "Secluded Cyclamen",
+      "description": "Commander, why are you here? Me? Yes, as you can see, I'm in the middle of studying... Since we were too late to gain enough live battle experience, I think we have no choice but to compensate through classroom learning at this school.",
       "expression": {
         "0": {
           "id": "0"
@@ -212,9 +212,9 @@
     }
   },
   "limitBreak": {
-    "tier1": "特殊弾幕スキル習得/主砲補正+5%",
-    "tier2": "魚雷装填数+1/開始時魚雷+1/魚雷補正+10%",
-    "tier3": "特殊弾幕強化/主砲補正+15%"
+    "tier1": "Unlock All Out Assault Ⅰ/Main gun efficiency +5%",
+    "tier2": "Torpedo base +1/Torpedo preload +1/Torpedo efficiency +10%",
+    "tier3": "Improve All Out Assault/Main gun efficiency +15%"
   },
   "equipmentLoadout": {
     "1": {
@@ -294,7 +294,7 @@
       "1": {
         "skin_id": "quejie",
         "id": "0",
-        "label": "スウィフトシュア",
+        "label": "Swiftsure",
         "dialogue": {
           "1": {
             "event": "Ship Description",
@@ -303,7 +303,7 @@
             "chineseTL": "Town Colony Class Light Cruiser ---- Swiftsure, Pennant 08",
             "chineseNote": "",
             "japanese": "ロイヤルネイビー、スウィフトシュアと申します。…こんな私でよろしければ、全力で艦隊をサポートいたします",
-            "japaneseTL": "",
+            "japaneseTL": "I am Swiftsure of the Royal Navy. Please let me give my full support to this fleet.",
             "japaneseNote": "",
             "english": "",
             "englishNote": ""
@@ -673,7 +673,7 @@
       "2": {
         "skin_id": "quejie_2",
         "id": "1",
-        "label": "自習室のシクラメン",
+        "label": "Secluded Cyclamen",
         "dialogue": {
           "1": {
             "event": "Ship Description",
@@ -682,7 +682,7 @@
             "chineseTL": "Commander, why are you here? Me? As you can see, I'm self-studying. I'll make up for my lack of combat experience with knowledge and strategy.",
             "chineseNote": "",
             "japanese": "指揮官、どうしてここに…？私？はい、ご覧の通り勉強中ですが…実戦経験でみんなに遅れを取っている分は、学園での座学で補うしかないと思っています",
-            "japaneseTL": "",
+            "japaneseTL": "Commander, why are you here? Me? Yes, as you can see, I'm in the middle of studying... Since we were too late to gain enough live battle experience, I think we have no choice but to compensate through classroom learning at this school.",
             "japaneseNote": "",
             "english": "",
             "englishNote": ""
