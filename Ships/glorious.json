@@ -11,8 +11,8 @@
 	"hull": "Aircraft Carrier",
 	"navy": "Royal Navy",
 	"prefix": "HMS",
-	"buildTime": "",
-	"class": "グローリアス級",
+	"buildTime": "03:50:00",
+	"class": "Courageous-Class",
 	"voiceActress": "Noriko Shitaya",
 	"parameters": {
 		"firepower": "E",
@@ -28,16 +28,16 @@
 		"medal": "4"
 	},
 	"releaseDate": {
-		"JP": "",
-		"CN": "",
+		"JP": "May 18, 2018",
+		"CN": "October 26, 2017",
 		"KR": "",
-		"EN": ""
+		"EN": "June 20, 2019"
 	},
 	"artist": {
-		"name": "",
-		"weibo": "",
+		"name": "ALLENES",
+		"weibo": "https://weibo.com/u/3818062182",
 		"twitter": "",
-		"pixiv": "",
+		"pixiv": "https://www.pixiv.net/member.php?id=8217405",
 		"other": ""
 	},
 	"enhance": {
@@ -46,28 +46,28 @@
 		"aviation": "56",
 		"reload": "8"
 	},
-	"acquisitionMethod": "特型艦建造",
+	"acquisitionMethod": "Special Ship Construction",
 	"skill": {
 		"1": {
 			"icon": "3021",
-			"requirement": "",
+			"requirement": "Default Unlocked",
 			"name": "Fleet Carrier",
 			"type": "Support",
-			"description": "When this ship launches an Airstrike: increases the DMG the Vanguard Fleet deals by $1 for 8s. Does not stack with the same skill."
+			"description": "When this ship launches an Airstrike: increases the DMG of your Vanguard by 5.0% (15.0%) for 8s. Does not stack with the same skill."
 		},
 		"2": {
 			"icon": "3051",
-			"requirement": "",
+			"requirement": "Default Unlocked",
 			"name": "Air Cover",
 			"type": "Defensive",
-			"description": "When this ship launches an Airstrike: decreases the DMG the Vanguard Fleet takes by $1 for 8s."
+			"description": "When this ship launches an Airstrike: decreases the DMG your Vanguard takes by 5.0% (15.0%) for 8s."
 		}
 	},
 	"skin": {
 		"1": {
 			"id": "guangrong",
 			"name": "Glorious",
-			"description": "Courageous-class aircraft carrier – Glorious, Hull Number 77!",
+			"description": "Courageous-class aircraft carrier – Glorious, Hull Number 77. ",
 			"expression": {
 				"0": {
 					"id": "0"
@@ -76,8 +76,8 @@
 		},
 		"2": {
 			"id": "guangrong_2",
-			"name": "栄光なる学園生活",
-			"description": "学園生活というのもたまには……いい感じですね。指揮官、この子の模様、綺麗…ですか？",
+			"name": "Glorious School Life ",
+			"description": "Being able to occasionally have a peaceful school life... is something I could get used to. Commander, look at the markings on this butterfly - aren't they lovely? ",
 			"expression": {
 				"0": {
 					"id": "0"
@@ -190,9 +190,9 @@
 		}
 	},
 	"limitBreak": {
-		"tier1": "戦闘機数+1/戦闘機補正+5%",
-		"tier2": "攻撃隊上限+1/攻撃機数+1/攻撃機補正+5%",
-		"tier3": "戦闘機数+1/戦闘機補正+15%"
+		"tier1": "All fighters +1/Fighter efficiency +5%",
+		"tier2": "Hangar capacity +1/All Torpedo Bombers +1/Torpedo Bomber efficiency +5%",
+		"tier3": "All fighters +1/Fighter efficiency +15%"
 	},
 	"equipmentLoadout": {
 		"1": {
@@ -238,9 +238,9 @@
 			"EN": ""
 		},
 		"special": {
-			"JP": "",
-			"CN": "",
-			"EN": ""
+			"JP": "✓",
+			"CN": "✓",
+			"EN": "✓"
 		},
 		"limited": {
 			"JP": "",
@@ -249,15 +249,23 @@
 		}
 	},
 	"drop": {
-		"droppable": "false",
+		"droppable": "true",
 		"list": {
 			"1": {
-				"event": "",
+				"event": "Glorious Final Battle",
 				"chapter": {
 					"1": {
-						"label": "Ch .1",
+						"label": "Ch. SP",
 						"node": {
 							"1": {
+								"drop": "-",
+								"note": "-"
+							},
+							"2": {
+								"drop": "-",
+								"note": "-"
+							},
+							"3": {
 								"drop": "✓",
 								"note": "-"
 							}
@@ -283,7 +291,7 @@
 						"japanese": "グロリアス級航空母艦・グロリアス (HMS Glorious）",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Courageous-class aircraft carrier – Glorious, Hull Number 77.",
 						"englishNote": ""
 					},
 					"2": {
@@ -295,7 +303,7 @@
 						"japanese": "私はロイヤルの大型――コホン！元大型巡洋艦にして、正規空母のグロリアス。かつては油断してシャルンホルストとグナイゼナウに撃沈されましたが、実力に何の問題もありません！戦場であの鮫姉妹と再び相見えたら……！",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "I'm the Royal Navy's heavy crui... *ahem* ex-cruiser, now aircraft carrier, Glorious! I was just being careless when I was sunk by Scharnhorst and Gneisenau, not because they're better than me!",
 						"englishNote": ""
 					},
 					"3": {
@@ -307,7 +315,7 @@
 						"japanese": "ロイヤル大型じゅんーーコホン、空母・グロリアスです。指揮官様、胸を張ってください。この私こそが貴官の栄光です！",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Royal Navy large crui– *ahem* aircraft carrier Glorious, reporting in! Commander, stand up straight, for your glory has arrived!",
 						"englishNote": ""
 					},
 					"4": {
@@ -319,7 +327,7 @@
 						"japanese": "素晴らしい天気…いい天気は気分も晴れます。仕事も捗りますね！",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Today is a good day. Good weather puts you in a good mood to get work done!",
 						"englishNote": ""
 					},
 					"5": {
@@ -331,7 +339,7 @@
 						"japanese": "どうかご期待ください！このグロリアスは、きっと貴官の永遠なる栄光になってみせます！",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Expect great things for me, for I am Glorious! Of... of course! I'll be your glory forever!",
 						"englishNote": ""
 					},
 					"6": {
@@ -343,7 +351,7 @@
 						"japanese": "アーデントとアカスタは限界まで頑張ったのに、私だけ…… ",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Ardent and Acasta did the best they could, but I...",
 						"englishNote": ""
 					},
 					"7": {
@@ -355,7 +363,7 @@
 						"japanese": "二度と過ちを繰り返さないために、今の私は誰よりも慎重に、注意深く行動しています。 ",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "I'll be more prudent in the future. Only then can I avoid meeting disaster again!",
 						"englishNote": ""
 					},
 					"8": {
@@ -367,7 +375,7 @@
 						"japanese": "指揮官、栄光には勇敢さがつきものですが、勇敢さと軽率さは履き違えないで頂きたい！",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Commander, glory and courage go hand in hand. However, Courage isn't the same thing as recklessness.",
 						"englishNote": ""
 					},
 					"9": {
@@ -379,7 +387,7 @@
 						"japanese": "何かご指示がありますか？",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Any guidance?",
 						"englishNote": ""
 					},
 					"10": {
@@ -391,7 +399,7 @@
 						"japanese": "指揮官、今貴官が手にしているのは…こ、この王家の栄光であります！",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Commander, you're holding the glory of the Royal Navy",
 						"englishNote": ""
 					},
 					"11": {
@@ -403,7 +411,7 @@
 						"japanese": "まずは英気を養い、最高のコンディションで一気に任務をこなしましょう！",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Rest up and then finish your missions in one go!",
 						"englishNote": ""
 					},
 					"12": {
@@ -415,7 +423,7 @@
 						"japanese": "今度は忘れていませんよ！……コホン、ボーナス、お早めに受け取って頂きたい！",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "I won't forget this time... *ahem* Commander, collect your rewards!",
 						"englishNote": ""
 					},
 					"13": {
@@ -427,7 +435,7 @@
 						"japanese": "紅茶はここに置きました！……メール？あっ…は、はい！新しいメールもありました…よね？",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "I'll put the tea here... Mail? Ah, yes! There's new mail for you!",
 						"englishNote": ""
 					},
 					"14": {
@@ -439,7 +447,7 @@
 						"japanese": "指揮官様、警戒はいつも怠らないようにしないと",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "You need to always keep your guard up, Commander.",
 						"englishNote": ""
 					},
 					"15": {
@@ -451,7 +459,7 @@
 						"japanese": "委託が完了したら、次はその……えっと……あ！指揮官、報酬を受け取りに行きましょう！",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Commander, after your commissions are complete, you should... uh... hm... collect your rewards!",
 						"englishNote": ""
 					},
 					"16": {
@@ -463,7 +471,7 @@
 						"japanese": "感謝します！力だけでは勝利は得られませんが――",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Thank you, but power alone is not enough to win...",
 						"englishNote": ""
 					},
 					"17": {
@@ -475,7 +483,7 @@
 						"japanese": "サーチ・アンド・デストロイ！",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Search and destroy!",
 						"englishNote": ""
 					},
 					"18": {
@@ -487,7 +495,7 @@
 						"japanese": "栄光ある凱旋を！",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "A glorious triumph!",
 						"englishNote": ""
 					},
 					"19": {
@@ -499,7 +507,7 @@
 						"japanese": "つ、次は事前偵察を徹底します！",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Next time, I'll scout out the enemy before we attack!",
 						"englishNote": ""
 					},
 					"20": {
@@ -511,7 +519,7 @@
 						"japanese": "我が勝利は栄光とともに！……た、多分…",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "May victory and glory be ours... hopefully!",
 						"englishNote": ""
 					},
 					"21": {
@@ -523,7 +531,7 @@
 						"japanese": "え、煙幕を！",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Sm- smokescreen!",
 						"englishNote": ""
 					},
 					"22": {
@@ -535,7 +543,7 @@
 						"japanese": "指揮官、貴官の存在に少し違和感を感じていますが…",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Commander, you're making me feel uncomfortable.",
 						"englishNote": ""
 					},
 					"23": {
@@ -547,7 +555,7 @@
 						"japanese": "戦闘では慎重に越したことはない、とは言いますが……",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "You can't be too careful in war... That being said...",
 						"englishNote": ""
 					},
 					"24": {
@@ -559,7 +567,7 @@
 						"japanese": "空の子たちがいつも大変ですから、少しぐらい休ませてあげたいのですね……指揮官、戦争には優しさが存在する余地など本当にないのでしょうか",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "The kids in the sky have been working very hard. Can't they rest with me for a while? ... ... Commander, in times of war, is there no room for warmth?",
 						"englishNote": ""
 					},
 					"25": {
@@ -571,7 +579,7 @@
 						"japanese": "指揮官、夜はもう更けていますし、少しお休みになってください。新しいメールと紅茶は淹れておきました……あ、あれ？淹れていましたっけ……Zzzzzz",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Commander, it's quite late. Why not rest a bit? I've made some black tea... Mail? It's in your tea, of course... *Zzzzz*",
 						"englishNote": ""
 					},
 					"26": {
@@ -583,7 +591,7 @@
 						"japanese": "指揮官、疲れたら私の胸の中でお休みになってください。え？そのほうが精力回復に最適だと仰ったのは指揮官では…？",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Commander, if you are tired you can always rest in my embrace. Eh? Didn't you say yesterday that was the best way for you to recover?",
 						"englishNote": ""
 					},
 					"27": {
@@ -595,7 +603,7 @@
 						"japanese": "指揮官と一緒なら、どんな困難でも乗り越えられるはずです！この栄光（グロリアス）を受け入れる準備はもうできていますでしょうか？",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "If we face it together, there is nothing we can't overcome, Commander. Are you ready to accept your Glory?",
 						"englishNote": ""
 					},
 					"28": {
@@ -607,6 +615,42 @@
 						"japanese": "今度こそ一緒に戦いましょう！",
 						"japaneseTL": "",
 						"japaneseNote": "",
+						"english": "This time, we fight together!",
+						"englishNote": ""
+					},
+					"29": {
+						"event": "Like Present",
+						"media": "present_like",
+						"chinese": "",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"30": {
+						"event": "Dislike Present",
+						"media": "present_dislike",
+						"chinese": "",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"31": {
+						"event": "Main Title",
+						"media": "extra",
+						"chinese": "",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
 						"english": "",
 						"englishNote": ""
 					}
@@ -615,7 +659,7 @@
 			"2": {
 				"skin_id": "guangrong_2",
 				"id": "1",
-				"label": "栄光なる学園生活",
+				"label": "Glorious School Life ",
 				"dialogue": {
 					"1": {
 						"event": "Ship Description",
@@ -624,6 +668,66 @@
 						"chineseTL": "",
 						"chineseNote": "",
 						"japanese": "学園生活というのもたまには……いい感じですね。指揮官、この子の模様、綺麗…ですか？",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Being able to occasionally have a peaceful school life... is something I could get used to. Commander, look at the markings on this butterfly - aren't they lovely?",
+						"englishNote": ""
+					},
+					"2": {
+						"event": "Acquisition",
+						"media": "get_1",
+						"chinese": "偶尔像这样享受平静的校园生活…似乎也不错呢。指挥官，你看这蝴蝶的斑纹，漂亮吗？",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"3": {
+						"event": "Login",
+						"media": "login_1",
+						"chinese": "穿着校服，感觉心情也和平时不大一样了呢…",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"4": {
+						"event": "Details",
+						"media": "detail_1",
+						"chinese": "失败和挫折也能让人学习到东西…吗？谢谢指挥官，我现在感觉好多了",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"5": {
+						"event": "Touch (Special)",
+						"media": "touch_2_1",
+						"chinese": "呀啊！蝴蝶都被指挥官吓跑了…",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"6": {
+						"event": "Return to Port",
+						"media": "home_1",
+						"chinese": "指挥官，返程的路上没有掉以轻心吧？",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
 						"japaneseTL": "",
 						"japaneseNote": "",
 						"english": "",

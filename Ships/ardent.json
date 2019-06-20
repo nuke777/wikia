@@ -11,8 +11,8 @@
 	"hull": "Destroyer",
 	"navy": "Royal Navy",
 	"prefix": "HMS",
-	"buildTime": "",
-	"class": "A級",
+	"buildTime": "00:19:00",
+	"class": "A-Class",
 	"voiceActress": "Mami Kamikura",
 	"parameters": {
 		"firepower": "D",
@@ -28,16 +28,16 @@
 		"medal": "1"
 	},
 	"releaseDate": {
-		"JP": "",
-		"CN": "",
+		"JP": "May 18, 2018",
+		"CN": "October 26, 2017",
 		"KR": "",
-		"EN": ""
+		"EN": "June 20, 2019"
 	},
 	"artist": {
-		"name": "",
-		"weibo": "",
+		"name": "ALLENES",
+		"weibo": "https://weibo.com/u/3818062182",
 		"twitter": "",
-		"pixiv": "",
+		"pixiv": "https://www.pixiv.net/member.php?id=8217405",
 		"other": ""
 	},
 	"enhance": {
@@ -46,42 +46,42 @@
 		"aviation": "0",
 		"reload": "13"
 	},
-	"acquisitionMethod": "小型艦建造",
+	"acquisitionMethod": "Event: Glorious Final Battle",
 	"skill": {
 		"1": {
 			"icon": "5021",
-			"requirement": "",
+			"requirement": "Default Unlocked",
 			"name": "Carrier Escort",
 			"type": "Defensive",
-			"description": "While this ship is afloat: decreases the DMG taken by all friendly Carriers by $1. Does not stack with the same skill."
+			"description": "While this ship is afloat: decreases the DMG all Carriers in your fleet take by 5.0% (15.0%). Does not stack with the same skill."
 		},
 		"2": {
 			"icon": "5001",
-			"requirement": "",
+			"requirement": "Default Unlocked",
 			"name": "Interference",
 			"type": "Support",
-			"description": "25.0% chance to activate every 20s: picks one enemy at random (prioritizes humanoid enemies) and decreases their Fire Rate and DMG for $1s. Does not stack with the same skill."
+			"description": "Every 20s: 25.0% chance to pick one enemy at random (prioritizes humanoid enemies) and decrease their Fire Rate and DMG for 5.0 (10.0)s. Does not stack with the same skill."
 		},
 		"3": {
 			"icon": "1081",
-			"requirement": "",
+			"requirement": "Retrofit",
 			"name": "Air Raid Assistance",
 			"type": "Support",
-			"description": "While this ship is afloat: increases the DMG that friendly Carriers deal by $1. Does not stack with the same skill."
+			"description": "While this ship is afloat: increases the DMG of all Carriers in your fleet by 5.0% (15.0%). Does not stack with the same skill."
 		},
 		"4": {
 			"icon": "21011",
-			"requirement": "",
+			"requirement": "Limit Break I (III)",
 			"name": "All Out Assault Ⅰ",
 			"type": "Offensive",
-			"description": "Activate All Out Assault Ⅰ: A Class once every 15 times the main gun is fired."
+			"description": "Activates All Out Assault Ⅰ: A Class once every 15 times the Main Guns are fired."
 		}
 	},
 	"skin": {
 		"1": {
 			"id": "rexin",
-			"name": "アーデント",
-			"description": "A級実験駆逐艦・アーデント（H41)",
+			"name": "Ardent",
+			"description": "A-class destroyer – Ardent, Hull Number H41. ",
 			"expression": {
 				"0": {
 					"id": "0"
@@ -90,8 +90,8 @@
 		},
 		"2": {
 			"id": "rexin_g",
-			"name": "アーデント改",
-			"description": "服と艤装は新しいものになってるけど、アーデントの心は変わらないよ！えへへ、本当だよ♪　指揮官、ありがとね～",
+			"name": "Ardent (Retrofit) ",
+			"description": "New outfit, new rigging, same ardent spirit! Ahaha, I'm serious~! Commander, thanks a lot~! ",
 			"expression": {
 				"0": {
 					"id": "0"
@@ -204,9 +204,9 @@
 		}
 	},
 	"limitBreak": {
-		"tier1": "全弾発射スキル習得/魚雷補正+5%",
-		"tier2": "魚雷装填数+1/開始時魚雷+1/主砲補正+10%",
-		"tier3": "全弾発射弾幕強化/武器補正+5%"
+		"tier1": "Unlock All Out Assault Ⅰ/Torpedo efficiency +5%",
+		"tier2": "Torpedo base +1/Torpedo preload +1/Main gun efficiency +10%",
+		"tier3": "Improve All Out Assault/All weapons' efficiency +5%"
 	},
 	"equipmentLoadout": {
 		"1": {
@@ -242,8 +242,8 @@
 	},
 	"build": {
 		"light": {
-			"JP": "",
-			"CN": "",
+			"JP": "✓",
+			"CN": "✓",
 			"EN": ""
 		},
 		"heavy": {
@@ -263,16 +263,24 @@
 		}
 	},
 	"drop": {
-		"droppable": "false",
+		"droppable": "true",
 		"list": {
 			"1": {
-				"event": "",
+				"event": "Glorious Final Battle",
 				"chapter": {
 					"1": {
-						"label": "Ch .1",
+						"label": "Ch. SP",
 						"node": {
 							"1": {
+								"drop": "-",
+								"note": "-"
+							},
+							"2": {
 								"drop": "✓",
+								"note": "-"
+							},
+							"3": {
+								"drop": "-",
 								"note": "-"
 							}
 						}
@@ -286,7 +294,7 @@
 			"1": {
 				"skin_id": "rexin",
 				"id": "0",
-				"label": "アーデント",
+				"label": "Ardent",
 				"dialogue": {
 					"1": {
 						"event": "Ship Description",
@@ -297,7 +305,7 @@
 						"japanese": "A級実験駆逐艦・アーデント（H41)",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "A-class destroyer – Ardent, Hull Number H41.",
 						"englishNote": ""
 					},
 					"2": {
@@ -309,7 +317,7 @@
 						"japanese": "私はアーデント、A型駆逐艦の三番艦、うーん……グロリアス姉様の話以外は特に言うことないよね。でもあの時は頑張ったよ？まあそういうことで、指揮官に出会えてよかった！これからずっと仲良くしようね？",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "I am Ardent, the third ship of the A class destroyers. Hmm... I don't have much to say other than things about Glorious. But I worked during that time, you know? Well, with that out of the way, I'm happy that I got you meet you, Commander! I hope we can get along from now on, ok?",
 						"englishNote": ""
 					},
 					"3": {
@@ -321,7 +329,7 @@
 						"japanese": "指揮官のところに今日引っ越してきたよ~よろしくね~",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "I'm moving over to your place today, Commander~ Take good care of me~",
 						"englishNote": ""
 					},
 					"4": {
@@ -333,7 +341,7 @@
 						"japanese": "指揮官、おやつ食べる？少しだけ残しておいたよ",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Want some snacks, Commander? I saved some for you.",
 						"englishNote": ""
 					},
 					"5": {
@@ -345,7 +353,7 @@
 						"japanese": "あの……もうここに住んでいるのに、まだ見られるのに慣れてないの……私、かわってるね？あはは…",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Um... even though I've been living here, I'm still not used to being watched by you... Am I... weird? Ahaha...",
 						"englishNote": ""
 					},
 					"6": {
@@ -357,7 +365,7 @@
 						"japanese": "指揮官お腹減った？一緒にごはん食べる？",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Are you hungry, Commander? Let's have a lunch together?",
 						"englishNote": ""
 					},
 					"7": {
@@ -369,7 +377,7 @@
 						"japanese": "あ、その、指揮官、余分なパーツある？ちょっと定期検査したいけど~",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Uh, C-Commander, are there spare parts? I want to do a bit of periodic checking~",
 						"englishNote": ""
 					},
 					"8": {
@@ -381,7 +389,7 @@
 						"japanese": "あの、聞いてる？うぅ……やはり指揮官は私を見飽きちゃったかなーー冗談だよ~",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Uh, have you heard about it? Ugh... so you've gotten bored of me... Just kidding~",
 						"englishNote": ""
 					},
 					"9": {
@@ -393,7 +401,7 @@
 						"japanese": "あの……そんなに近づいたらほかの人に誤解されちゃうよ……",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Umm... if we walk so close together, people might misunderstand...",
 						"englishNote": ""
 					},
 					"10": {
@@ -405,7 +413,7 @@
 						"japanese": "きゃっ！こういうの……おうちに着いてからにしようよ！",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Whaa! This kind of thing... At least wait until you're at home!",
 						"englishNote": ""
 					},
 					"11": {
@@ -417,7 +425,7 @@
 						"japanese": "任務だよ？ちょうど見ていたから、今教えたんだ。",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "You have a mission, you know? Good timing. I'm now letting you know what it is.",
 						"englishNote": ""
 					},
 					"12": {
@@ -429,7 +437,7 @@
 						"japanese": "ボーナスが届いたよ？持ってってもいい？",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "The reward is here, you know? Can I take it?",
 						"englishNote": ""
 					},
 					"13": {
@@ -441,7 +449,7 @@
 						"japanese": "あ、ついさっきいなかったから、手紙貰ってきちゃったーーはい",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Ah, you were just gone. A letter came by– Here.",
 						"englishNote": ""
 					},
 					"14": {
@@ -453,7 +461,7 @@
 						"japanese": "はぁ……指揮官も戻ったね",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Huh... You're back as well, Commander",
 						"englishNote": ""
 					},
 					"15": {
@@ -465,7 +473,7 @@
 						"japanese": "指揮官、委託を完了した娘たちを見かけたよ。迎えに行こ？",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Commander, I can see the girls who have finished the commissions. Let's go greet them, shall we?",
 						"englishNote": ""
 					},
 					"16": {
@@ -477,7 +485,7 @@
 						"japanese": "指揮官に大切されていて、嬉しいなぁ",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "I feel happy to have been given your attention, Commander.",
 						"englishNote": ""
 					},
 					"17": {
@@ -489,7 +497,7 @@
 						"japanese": "敵が来た！火事には気を付けてね！",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "The enemy is here! Be careful of fire hazards!",
 						"englishNote": ""
 					},
 					"18": {
@@ -501,7 +509,7 @@
 						"japanese": "コスパのいい戦闘だよね~",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "That was a good battle, cost performance wise~",
 						"englishNote": ""
 					},
 					"19": {
@@ -513,7 +521,7 @@
 						"japanese": "わっ！早く撤退しないと熱中症になっちゃう！",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Wha! Hurry and retreat, or else we'll get heatstroke!",
 						"englishNote": ""
 					},
 					"20": {
@@ -525,7 +533,7 @@
 						"japanese": "もうちょっと頑張って…！",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Just a little more...!",
 						"englishNote": ""
 					},
 					"21": {
@@ -537,7 +545,7 @@
 						"japanese": "仲がいいのは私の誤解だったよね……ごめん…",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "I was mistaken for being so friendly with you... I'm sorry...",
 						"englishNote": ""
 					},
 					"22": {
@@ -549,7 +557,7 @@
 						"japanese": "指揮官さ、私とすっごく気が合うと思わない？うんうん♪　私も、指揮官のことをすっごく親しい友達みたいだと思うんだ♪",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Say, Commander, do you think we get along with each other very well? Yes, yes! I too, think that you are very much like a close friend!",
 						"englishNote": ""
 					},
 					"23": {
@@ -561,7 +569,7 @@
 						"japanese": "指揮官、何か食べない？私が作ってあげる♪大丈夫、好きな料理は全部覚えてるんだから。",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Commander, wanna eat something? I'll make it for you~ Don't worry, I know every food you like",
 						"englishNote": ""
 					},
 					"24": {
@@ -573,7 +581,7 @@
 						"japanese": "私的に、亭主関白っていうのもいいよね……でも……こうして毎日淡々と過ごしていくのって、指揮官的に本当にいいの？",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "For me, being old and grey together is fine... but... are you really fine with living such mild days yourself, Commander?",
 						"englishNote": ""
 					},
 					"25": {
@@ -585,7 +593,7 @@
 						"japanese": "日常って多分こんな感じかな…波もなくて、ただ淡々と過ごしていくの。だから指揮官、これからもずっとこんな感じで過ごしましょ？",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "This is probably what daily life feels like, I think... Nothing too intense, just living on normally. So Commander, shall we continue to live our days just like this?",
 						"englishNote": ""
 					},
 					"26": {
@@ -597,6 +605,42 @@
 						"japanese": "ケッコンしても、人生はまだ長いよね…でも何事もない日常も、指揮官さえいればつまらなくはないよ？えへへ♪",
 						"japaneseTL": "",
 						"japaneseNote": "",
+						"english": "Even though we're married, we still have long times ahead... But even in days where things don't happen, as long as you are here, Commander, things won't get boring. Ehehe~",
+						"englishNote": ""
+					},
+					"27": {
+						"event": "Like Present",
+						"media": "present_like",
+						"chinese": "",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"28": {
+						"event": "Dislike Present",
+						"media": "present_dislike",
+						"chinese": "",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"29": {
+						"event": "Main Title",
+						"media": "extra",
+						"chinese": "",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
 						"english": "",
 						"englishNote": ""
 					}
@@ -605,7 +649,7 @@
 			"2": {
 				"skin_id": "rexin_g",
 				"id": "9",
-				"label": "アーデント改",
+				"label": "Ardent (Retrofit) ",
 				"dialogue": {
 					"1": {
 						"event": "Ship Description",
@@ -616,7 +660,7 @@
 						"japanese": "服と艤装は新しいものになってるけど、アーデントの心は変わらないよ！えへへ、本当だよ♪　指揮官、ありがとね～",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "New outfit, new rigging, same ardent spirit! Ahaha, I'm serious~! Commander, thanks a lot~!",
 						"englishNote": ""
 					},
 					"2": {
@@ -628,7 +672,7 @@
 						"japanese": "服と艦装は新しいものになってるけど、アーデントの心は変わらないよ！えへへ、本当だよ♪指揮官、ありがとね～",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "New outfit, new rigging, same ardent spirit! Ahaha, I'm serious~! Commander, thanks a lot~!",
 						"englishNote": ""
 					},
 					"3": {
@@ -640,7 +684,7 @@
 						"japanese": "指揮官、私の作った料理また食べたくなった？ちょっと待っててね～今作ってあげる！",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Commander, did you miss my cooking? Hold on just a second~ it's coming right up!",
 						"englishNote": ""
 					},
 					"4": {
@@ -652,7 +696,7 @@
 						"japanese": "指揮官も私の服が可愛くなったって思うよね？",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Commander, don't you also think that these clothes are way cuter?",
 						"englishNote": ""
 					},
 					"5": {
@@ -664,7 +708,7 @@
 						"japanese": "指揮官、とっておきのデートスポットを見つけたから、今度一緒に行こ？",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Commander, I've found some hot date spots, wanna come with me some time?",
 						"englishNote": ""
 					},
 					"6": {
@@ -676,7 +720,7 @@
 						"japanese": "指揮官、明日の弁当のおかずは何がいい？",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Commander, what kind of lunch would you like me to pack you for tomorrow?",
 						"englishNote": ""
 					},
 					"7": {
@@ -688,7 +732,7 @@
 						"japanese": "そういえば指揮官、アカスタってオシャレさせるとすごく可愛くなると思わない？",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Hey, Commander, don't you think Acasta would be super cute if she got dolled up a bit?",
 						"englishNote": ""
 					},
 					"8": {
@@ -700,7 +744,7 @@
 						"japanese": "指揮官と長くいると艦隊のことも分かってくるよね～うんうん、安心して私に任せていいよ",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Commander, just being around you has taught me a lot about how the fleet works. That's right~ you can just sit back and leave it to me~!",
 						"englishNote": ""
 					},
 					"9": {
@@ -712,7 +756,7 @@
 						"japanese": "新しい任務の資料は整理したよ。確認を忘れないでね",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "I've finished organising the new missions. Don't forget to check them~!",
 						"englishNote": ""
 					},
 					"10": {
@@ -724,7 +768,7 @@
 						"japanese": "疲れた指揮官のために、私、アーデントはどんな料理を用意したのか――このあとすぐ！",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Good work out there, Commander! What culinary creation did Ardent come up with today? You'll find out soon enough!",
 						"englishNote": ""
 					}
 				}
@@ -743,5 +787,125 @@
 		"add_level_shiptype": "Destroyer",
 		"t_level": "3",
 		"ships": "acasta,ardent"
-	}
+	},
+	"retrofit": {
+		"1": {
+			"nodeSettings": "retronode, a1, n y y n",
+			"stat": "evasion, base, Evasion +5",
+			"stage": "1",
+			"desc": "Evasion Enhancement I",
+			"level": "5",
+			"limitBreak": "★★☆☆☆",
+			"material": "bpt1 2, gold 400"
+		},
+		"2": {
+			"nodeSettings": "retronode, a2, y y n n",
+			"stat": "hp, base, HP +45",
+			"stage": "1",
+			"desc": "Hull Improvement I",
+			"level": "1",
+			"limitBreak": "★★☆☆☆",
+			"material": "bpt1 1, gold 300"
+		},
+		"3": {
+			"nodeSettings": "line, b1, n y n y"
+		},
+		"4": {
+			"nodeSettings": "retronode, b2, n y y y",
+			"stat": "antiair, efficiency, Anti-Air Efficiency +5%",
+			"stage": "1",
+			"desc": "Anti-Air Improvement I",
+			"level": "20",
+			"limitBreak": "★★★☆☆",
+			"material": "bpt1 3, gold 600"
+		},
+		"5": {
+			"nodeSettings": "retronode, b3, y n n n",
+			"stat": "antiair, base, Anti-Air +15",
+			"stage": "1",
+			"desc": "Anti-Air Enhancement I",
+			"level": "25",
+			"limitBreak": "★★★☆☆",
+			"material": "bpt1 3, gold 500"
+		},
+		"6": {
+			"nodeSettings": "line, c1, n y n y"
+		},
+		"7": {
+			"nodeSettings": "retronode, c2, n y y y",
+			"stat": "torpedo, efficiency, Torpedo Efficiency +5%",
+			"stage": "1",
+			"desc": "Torpedo Improvement I",
+			"level": "35",
+			"limitBreak": "★★★★☆",
+			"material": "bpt1 3, gold 1000"
+		},
+		"8": {
+			"nodeSettings": "retronode, c3, y n n n",
+			"stat": "torpedo, base, Torpedo +10",
+			"stage": "1",
+			"desc": "Torpedo Enhancement I",
+			"level": "40",
+			"limitBreak": "★★★★☆",
+			"material": "bpt1 4, gold 1200"
+		},
+		"9": {
+			"nodeSettings": "line, d1, n y n y"
+		},
+		"10": {
+			"nodeSettings": "retronode, d2, n y y y",
+			"stat": "hp, base, HP +45/75",
+			"stage": "2",
+			"desc": "Hull Improvement II",
+			"level": "50",
+			"limitBreak": "★★★★☆",
+			"material": "bpt2 3, gold 3000"
+		},
+		"11": {
+			"nodeSettings": "retronode, d3, y y n n",
+			"stat": "skill, support, Learn skill \"Air Raid Assistance\"",
+			"stage": "1",
+			"desc": "Tactical Learning",
+			"level": "55",
+			"limitBreak": "★★★★☆",
+			"material": "bpt2 3, gold 1800"
+		},
+		"12": {
+			"nodeSettings": "retronode, e1, n y y y",
+			"stat": "evasion, base, Evasion +5/+10",
+			"stage": "2",
+			"desc": "Reload Enhancement II",
+			"level": "75",
+			"limitBreak": "★★★★★",
+			"material": "bpt2 4, gold 5000"
+		},
+		"13": {
+			"nodeSettings": "retronode, e2, y y n y",
+			"stat": "speed, base, Speed +3",
+			"stage": "1",
+			"desc": "Motor",
+			"level": "70",
+			"limitBreak": "★★★★★",
+			"material": "bpt2 3, gold 2000"
+		},
+		"14": {
+			"nodeSettings": "line, e3, n y n y"
+		},
+		"15": {
+			"nodeSettings": "line, f1, n n y y"
+		},
+		"16": {
+			"nodeSettings": "retronode, f2, y n y y",
+			"stat": "modernization, offensive, Torpedo +30 / Evasion +15",
+			"stage": "1",
+			"desc": "Modernization",
+			"level": "85",
+			"limitBreak": "★★★★★",
+			"material": "bpt3 1, duplicate 1, gold 3000"
+		},
+		"17": {
+			"nodeSettings": "line, f3, y n n y"
+		}
+	},
+	"retroParameter": "Elite, Destroyer, 2"
 }
