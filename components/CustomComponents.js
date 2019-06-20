@@ -68,7 +68,7 @@ class CommentedShipDisplay extends HTMLElement{
 
 		template(){
 			return html`
-			<div style="float:left;margin:10px 0px 0px 10px;" id="${this.parentID}">
+			<div style="display:inline-block;vertical-align:top;margin:10px 0px 0px 10px;" id="${this.parentID}">
 					<div style="border-radius: 10px;border: 3px double #ffffff;background: #24252d;width: 108px;height: 220px; position: relative">
 						<div style="width: 36px;height: 27px;float:left;text-align:center;color:white;padding-top:6px;font-size:13px;">
 							<img src="${this.shipHull}" style="padding-left:3px;width:33px;height:auto;">
