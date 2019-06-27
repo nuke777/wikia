@@ -12,7 +12,7 @@
 	"navy": "Vichya Dominion",
 	"prefix": "MNF",
 	"buildTime": "",
-	"class": "ダンケルク級",
+	"class": "Dunkerque-Class",
 	"voiceActress": "Sayaka Harada",
 	"parameters": {
 		"firepower": "A",
@@ -46,21 +46,21 @@
 		"aviation": "0",
 		"reload": "11"
 	},
-	"acquisitionMethod": "イベント：光と影のアイリス",
+	"acquisitionMethod": "Event: Iris of Light and Dark",
 	"skill": {
 		"1": {
 			"icon": "11490",
 			"requirement": "",
-			"name": "正面火力",
+			"name": "Frontal Fire",
 			"type": "Offensive",
-			"description": "主炮开火时，有$1的概率朝自己前方直线发射一轮专属弹幕(依据技能等级)"
+			"description": "When this ship fires a Salvo: 20.0% (50.0%) chance to fire a special barrage. Barrage DMG and shell pattern is based on the skill's level."
 		}
 	},
 	"skin": {
 		"1": {
 			"id": "dunkeerke",
-			"name": "Dunkerque",
-			"description": "敦刻尔克级战列巡洋舰—敦刻尔克",
+			"name": "Dunkerque ",
+			"description": "Dunkerque-class battlecruiser – Dunkerque. ",
 			"expression": {
 				"0": {
 					"id": "0"
@@ -69,11 +69,51 @@
 		},
 		"2": {
 			"id": "dunkeerke_2",
-			"name": "夏のスュクレ",
-			"description": "久しぶりの夏……いい感じね。日差しに砂浜、海、そして皆の笑顔も。指揮官、せっかくだから、ドーナツでも一緒にいかがかしら？",
+			"name": "Summer Sucré ",
+			"description": "I've been waiting so long for summer... and it's so worth it - the sun, the sand, the waves, and everyone's laughter. Commander, why don't we take this opportunity to enjoy some crullers together? ",
 			"expression": {
 				"0": {
 					"id": "0"
+				}
+			}
+		},
+		"3": {
+			"id": "dunkeerke_3",
+			"name": "昼下がりのヴィーニュス",
+			"description": "この店の雰囲気、どうかしら？実はここ、結構お気に入りなの。お菓子も美味しいから…そうだ、指揮官、一ついかがかしら？",
+			"expression": {
+				"0": {
+					"id": "0"
+				},
+				"1": {
+					"id": "1"
+				},
+				"2": {
+					"id": "2"
+				},
+				"3": {
+					"id": "3"
+				},
+				"4": {
+					"id": "4"
+				},
+				"5": {
+					"id": "5"
+				},
+				"6": {
+					"id": "6"
+				},
+				"7": {
+					"id": "7"
+				},
+				"8": {
+					"id": "8"
+				},
+				"9": {
+					"id": "9"
+				},
+				"10": {
+					"id": "10"
 				}
 			}
 		}
@@ -183,9 +223,9 @@
 		}
 	},
 	"limitBreak": {
-		"tier1": "開始時主砲+1/主砲補正+5%",
-		"tier2": "副砲砲座+2/主砲補正+10%",
-		"tier3": "主砲砲座+1/主砲補正+15%"
+		"tier1": "Main gun preload +1/Main gun efficiency +5%",
+		"tier2": "Auxiliary gun base +2/Main gun efficiency +10%",
+		"tier3": "Main gun base +1/Main gun efficiency +15%"
 	},
 	"equipmentLoadout": {
 		"1": {
@@ -265,7 +305,7 @@
 			"1": {
 				"skin_id": "dunkeerke",
 				"id": "0",
-				"label": "Dunkerque",
+				"label": "Dunkerque ",
 				"dialogue": {
 					"1": {
 						"event": "Ship Description",
@@ -276,7 +316,7 @@
 						"japanese": "ダンケルク級巡洋戦艦ダンケルク",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Dunkerque-class battlecruiser – Dunkerque.",
 						"englishNote": ""
 					},
 					"2": {
@@ -288,7 +328,7 @@
 						"japanese": "ヴィシア聖座・第一戦線総隊に所属、ダンケルクよ。知っての通り、私のカンレキに特筆するところはないけど…それが紛れもない事実なのだから、隠すつもりはないわ。それでも私の力が必要というのなら――失望はさせないわ",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "I am Dunkerque, 1st Division of the Line of the Vichya Dominion. As you already know, there is no glory in my service history - there is no hiding this fact. However, if you are still willing to use me, I will not let you down.",
 						"englishNote": ""
 					},
 					"3": {
@@ -300,7 +340,7 @@
 						"japanese": "同じ側で戦える日がついに来たのね…はじめまして、指揮官、私はダンケルクよ。あなたのこの素晴らしい艦隊に、私も参加させてちょうだい",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "The day when we can all stand together has come at last... It's an honor to be here, Commander. I am Dunkerque - please allow me to become a part of this magnificent fleet. ",
 						"englishNote": ""
 					},
 					"4": {
@@ -312,7 +352,7 @@
 						"japanese": "指揮官、よく休めた？",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Commander, did you get enough rest?",
 						"englishNote": ""
 					},
 					"5": {
@@ -324,7 +364,7 @@
 						"japanese": "マカロンとモンブラン、どっちのほうがいいかしら……あら、指揮官、いいタイミングに来てくれたわ。今日はどんなお菓子を作ればいいか決めてちょうだい",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "What should I make... Macarons, or Mont-Blanc? Oh my, Commander, you came at just the right time. Why don't you help me decide what confection to make?",
 						"englishNote": ""
 					},
 					"6": {
@@ -336,7 +376,7 @@
 						"japanese": "世の中にはどうすることも出来ないことがいくらでもあるけど、希望を捨てる理由にはならないわ",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "There are things in this world that you might never be able to accomplish, but that is no reason to give up hope.",
 						"englishNote": ""
 					},
 					"7": {
@@ -348,7 +388,7 @@
 						"japanese": "ドックでじっとするのはいい居心地ではないわね。でも、私の代わりに艦隊を率いたストラスブールの方がずっと……あの時、陸軍の方がもう少し持ちこたえていたら…はあ……",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "It's not nice to sit around idly in port, but... Strasbourg, who took my place in leading the fleet, must feel even worse about what happened... if only the Army was able to hold out a little longer... *sigh* ",
 						"englishNote": ""
 					},
 					"8": {
@@ -360,7 +400,7 @@
 						"japanese": "あぁ…甘いものは本当に人を幸せにする存在ね……し、指揮官！？いまの聞こえた！？",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Ahh~ Sweets can really take a girl to heaven... C-Commander?! How long have you been here?!",
 						"englishNote": ""
 					},
 					"9": {
@@ -372,7 +412,7 @@
 						"japanese": "指揮官、一緒にお菓子でも作ってみない？私の国のお菓子は結構有名なのよ",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Commander, shall we make some confections together? My home country is world-famous for our sweets, you know?",
 						"englishNote": ""
 					},
 					"10": {
@@ -384,7 +424,7 @@
 						"japanese": "しょうがないわね……",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "What am I going to do with you...",
 						"englishNote": ""
 					},
 					"11": {
@@ -396,7 +436,7 @@
 						"japanese": "新しい任務……結構溜まっているのね。頑張るのはいいけど、あまり無理しないでね",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "There's no shortage of new missions for us to get through... Hard work is important and all, but let's not overwork ourselves.",
 						"englishNote": ""
 					},
 					"12": {
@@ -408,7 +448,7 @@
 						"japanese": "あら？なるほど、任務報酬ね。指揮官、私が取ってくるわ",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Hm? I see, the mission rewards are here. Commander, I'll go get them.",
 						"englishNote": ""
 					},
 					"13": {
@@ -420,7 +460,7 @@
 						"japanese": "指揮官、メールは仕分けておいたわよ。確認を忘れないで",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Commander, I've finished sorting your mail, so don't forget to take a look.",
 						"englishNote": ""
 					},
 					"14": {
@@ -432,7 +472,7 @@
 						"japanese": "指揮官、焼き立てのケーキでもいかが？",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Commander, would you like to try my freshly baked gâteau?",
 						"englishNote": ""
 					},
 					"15": {
@@ -444,7 +484,7 @@
 						"japanese": "あら、委託組が戻ってきたのね。新作のお菓子でも試食してもらおうかしら",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Oh my, it looks like the commission fleet has returned. Perfect timing - I'll invite them to try my new confections.",
 						"englishNote": ""
 					},
 					"16": {
@@ -456,7 +496,7 @@
 						"japanese": "少しは役に立てるか",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Every little bit matters.",
 						"englishNote": ""
 					},
 					"17": {
@@ -468,7 +508,7 @@
 						"japanese": "すまない、敵に手加減などできるはずがないわよ",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Apologies. I have no mercy to spare for my enemies.",
 						"englishNote": ""
 					},
 					"18": {
@@ -480,7 +520,7 @@
 						"japanese": "この調子でもっと進みましょう",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Let's keep up this pace.",
 						"englishNote": ""
 					},
 					"19": {
@@ -492,7 +532,7 @@
 						"japanese": "結構…敗北など終わりを意味するものじゃないわ",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "T'en fais pas... a defeat here is not the end.",
 						"englishNote": ""
 					},
 					"20": {
@@ -504,7 +544,7 @@
 						"japanese": "いつもどおりで…！",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Let's do it just like we practiced...!",
 						"englishNote": ""
 					},
 					"21": {
@@ -516,7 +556,7 @@
 						"japanese": "まだ……始まったばかりよ",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "I'm only getting warmed up...",
 						"englishNote": ""
 					},
 					"22": {
@@ -528,7 +568,7 @@
 						"japanese": "指揮官、久しぶりね。こっちはこっちで上手くやっているので、お気になさらず",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Ça faisait longtemps, Commander. There's no need to worry about me; I've been doing fine.",
 						"englishNote": ""
 					},
 					"23": {
@@ -540,7 +580,7 @@
 						"japanese": "指揮官、来たのね。ちょっと待ってて。はい、お菓子はこっち、あとお茶をすぐ淹れてくるわ。今日は少し雑談でもしてみようかしら",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Glad you could make it, Commander. One moment please - the dessert is ready, I just have to make tea. Today, let's unwind and chat a little.",
 						"englishNote": ""
 					},
 					"24": {
@@ -552,7 +592,7 @@
 						"japanese": "あの時のことは仕方なかったわ…ロイヤルのみんなを責めるつもりはないし、むしろその逆…こうしてみんなと一緒に戦えるのはあの子たちのおかげよ",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Back then, none of us had a choice... so I don't blame the Royal Navy for what happened. Quite the contrary - if it wasn't for them, we might not be fighting together now.",
 						"englishNote": ""
 					},
 					"25": {
@@ -564,7 +604,7 @@
 						"japanese": "指揮官はおしゃべりが好きね。私とおしゃべりするのがそんなに面白いの？ふふ、とにかく、これで指揮官の好みもわかったわね。ケーキを持ってくるから、少し待っててちょうだい",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Commander, you're quite the conversationist. Do you find me interesting to talk to? Hehe, I make sure to remember all your preferences. Sit tight for a moment, and I'll bring some cake out for you.",
 						"englishNote": ""
 					},
 					"26": {
@@ -576,7 +616,7 @@
 						"japanese": "我慢だけじゃなく、思いを人にぶつけるのも強さなのよ……私がそうしてきたのと同じように、辛かったら――泣きそうになったら私の胸に飛び込んでちょうだい",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "True strength is not measured by our capacity to suffer in silence, but by our courage to open up to others. Commander, that's why... if you ever feel like crying, my bosom is always available for you.",
 						"englishNote": ""
 					},
 					"27": {
@@ -588,6 +628,42 @@
 						"japanese": "今の私が在るのは過去の全てがあってのことよ。だから「早くあなたと出逢えばよかった」なんて言わないわ。……でも、あなたから温もりと安らぎを貰えるというのなら――指揮官、私、ずっと側に居ていいかしら？",
 						"japaneseTL": "",
 						"japaneseNote": "",
+						"english": "If I only was able to meet you in the present because of my suffering in the past, I won't say things like \"I wish I had met you sooner.\" However, I do hope that in the future, I will always be able to find solace in your embrace. Commander, can I stay by your side forever?",
+						"englishNote": ""
+					},
+					"28": {
+						"event": "Like Present",
+						"media": "present_like",
+						"chinese": "",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"29": {
+						"event": "Dislike Present",
+						"media": "present_dislike",
+						"chinese": "",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"30": {
+						"event": "Main Title",
+						"media": "extra",
+						"chinese": "",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
 						"english": "",
 						"englishNote": ""
 					}
@@ -596,7 +672,7 @@
 			"2": {
 				"skin_id": "dunkeerke_2",
 				"id": "1",
-				"label": "夏のスュクレ",
+				"label": "Summer Sucré ",
 				"dialogue": {
 					"1": {
 						"event": "Ship Description",
@@ -607,7 +683,7 @@
 						"japanese": "久しぶりの夏……いい感じね。日差しに砂浜、海、そして皆の笑顔も。指揮官、せっかくだから、ドーナツでも一緒にいかがかしら？",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "I've been waiting so long for summer... and it's so worth it - the sun, the sand, the waves, and everyone's laughter. Commander, why don't we take this opportunity to enjoy some crullers together?",
 						"englishNote": ""
 					},
 					"2": {
@@ -619,7 +695,7 @@
 						"japanese": "久しぶりの夏……いい感じね。日差しに砂浜、海、そして皆の笑顔も。指揮官、せっかくだから、ドーナツでも一緒にいかがかしら？",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "I've been waiting so long for summer... and it's so worth it - the sun, the sand, the waves, and everyone's laughter. Commander, why don't we take this opportunity to enjoy some crullers together?",
 						"englishNote": ""
 					},
 					"3": {
@@ -631,7 +707,7 @@
 						"japanese": "指揮官、水着にちゃんと着替えたかしら？",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Commander, are you done changing into your swimwear~?",
 						"englishNote": ""
 					},
 					"4": {
@@ -643,7 +719,7 @@
 						"japanese": "みんなが楽しそうに……これ以上嬉しいことなんてないわ",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Everyone looks like they're having so much fun... I couldn't ask for anything more.",
 						"englishNote": ""
 					},
 					"5": {
@@ -655,7 +731,7 @@
 						"japanese": "アイスクリームのビュッフェは美味しそうだけど、溶けやすいのね……今度小型冷蔵庫でも持ってこようかしら",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Ice-cream based desserts are delicious, but they melt too easily... I might have to bring a cooler with me next time...",
 						"englishNote": ""
 					},
 					"6": {
@@ -667,7 +743,7 @@
 						"japanese": "こうしてゆるりと風景を眺めるのは結構久しぶりね…",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "It's been a long time since I last was able to enjoy scenery like this without any worries...",
 						"englishNote": ""
 					},
 					"7": {
@@ -679,7 +755,7 @@
 						"japanese": "指揮官、水着に着替えた？皆が呼んでいるわ。少し一緒に遊んでみてはどうかしら",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Commander, are you done changing? The others are calling for us, let's go play with them!",
 						"englishNote": ""
 					},
 					"8": {
@@ -691,7 +767,7 @@
 						"japanese": "一緒に海でも眺めてみない？心が落ち着くわよ",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Want to try gazing into the ocean horizon together? It always puts my mind at ease.",
 						"englishNote": ""
 					},
 					"9": {
@@ -703,7 +779,7 @@
 						"japanese": "指揮官、アイスクリームでもいかがかしら？シロップはいっぱい用意してるわよ",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Commander, would you like some ice cream? I brought several different flavors of syrup.",
 						"englishNote": ""
 					},
 					"10": {
@@ -715,7 +791,7 @@
 						"japanese": "敵……殺風景ね",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Enemies...? Way to spoil the scenery...",
 						"englishNote": ""
 					},
 					"11": {
@@ -725,6 +801,145 @@
 						"chineseTL": "",
 						"chineseNote": "",
 						"japanese": "みんな、ドーナツでもいかがかしら？…いっぱい作ったわよ……",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Who wants to have some crullers? I made more than enough for everyone~",
+						"englishNote": ""
+					}
+				}
+			},
+			"3": {
+				"skin_id": "dunkeerke_3",
+				"id": "2",
+				"label": "昼下がりのヴィーニュス",
+				"dialogue": {
+					"1": {
+						"event": "Ship Description",
+						"media": "",
+						"chinese": "指挥官，这家店的氛围你喜欢吗？这是我很中意的一家店，甜点十分美味哦，要尝尝看吗？",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "この店の雰囲気、どうかしら？実はここ、結構お気に入りなの。お菓子も美味しいから…そうだ、指揮官、一ついかがかしら？",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"2": {
+						"event": "Acquisition",
+						"media": "get_2",
+						"chinese": "指挥官，这家店的氛围你喜欢吗？这是我很中意的一家店，甜点十分美味哦，要尝尝看吗？",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"3": {
+						"event": "Login",
+						"media": "login_2",
+						"chinese": "指挥官，你来啦？嗯？没事的，我也是刚到没多久呢",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"4": {
+						"event": "Details",
+						"media": "detail_2",
+						"chinese": "指挥官最喜欢我做的哪一种甜点呢？",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"5": {
+						"event": "Touch",
+						"media": "touch_1_2",
+						"chinese": "指挥官，不要急，我们的时间还有很长，做什么都来得及",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"6": {
+						"event": "Mission",
+						"media": "task_2",
+						"chinese": "是紧急的任务吗？那我陪你一起去吧",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"7": {
+						"event": "Mission Complete",
+						"media": "mission_complete_2",
+						"chinese": "指挥官，任务奖励发放了呢，要先返回办公室一趟吗？",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"8": {
+						"event": "Mail",
+						"media": "mail_2",
+						"chinese": "是新的情报吗？不用顾虑我，赶快确认一下吧",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"9": {
+						"event": "Return to Port",
+						"media": "home_2",
+						"chinese": "不用这么急也没关系，指挥官，我会等你的",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"10": {
+						"event": "Commission Complete",
+						"media": "expedition_2",
+						"chinese": "指挥官，委托完成了哦……呵呵，无论何时何地，我首先都是你的秘书舰呢",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"11": {
+						"event": "Affinity (Love)",
+						"media": "feeling5_2",
+						"chinese": "和煦的日光，安静的氛围，悠扬的音乐，和重要之人无忧无虑的聊天。如果这是梦，那我希望永远都不会醒来……",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
 						"japaneseTL": "",
 						"japaneseNote": "",
 						"english": "",

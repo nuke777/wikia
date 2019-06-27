@@ -12,7 +12,7 @@
 	"navy": "Iris Libre",
 	"prefix": "FFNF",
 	"buildTime": "",
-	"class": "エミール・ベルタン",
+	"class": "Émile Bertin-Class",
 	"voiceActress": "Reina Ueda",
 	"parameters": {
 		"firepower": "C",
@@ -46,35 +46,42 @@
 		"aviation": "0",
 		"reload": "12"
 	},
-	"acquisitionMethod": "イベント：光と影のアイリス",
+	"acquisitionMethod": "Event: Iris of Light and Dark",
 	"skill": {
 		"1": {
 			"icon": "11520",
 			"requirement": "",
-			"name": "爱丽丝之心",
+			"name": "Heart of Iris",
 			"type": "Support",
-			"description": "出击时，队伍中自由鸢尾、维希教廷阵营的驱逐舰角色炮击、雷击、命中属性提高$1"
+			"description": "Increases FP, TRP, and Accuracy by 5.0% (15.0%) for all Iris Libre and Vichya Dominion DDs in your fleet."
 		},
 		"2": {
 			"icon": "5061",
 			"requirement": "",
-			"name": "驱逐编队",
+			"name": "Destroyer Squadron",
 			"type": "Support",
-			"description": "出击时，若先锋编队仅由自己和驱逐舰组成（至少编入一名驱逐舰），则自身航速提高4，对驱逐舰和轻巡洋舰造成的伤害提高$1"
+			"description": "If your Vanguard consists of only this ship and DDs: increases this ship's Speed by 4 and increases the DMG it deals to enemy DDs and CLs by 5.0% (20.0%)."
 		},
 		"3": {
+			"icon": "12360",
+			"requirement": "",
+			"name": "Messenger of Love ",
+			"type": "Offensive",
+			"description": "When sortied with other DDs: increases this ship's AA, FP, and Accuracy by 5.0% (15.0%). Once per battle, if one of your DDs' HP falls below 50.0%: fires a special barrage. "
+		},
+		"4": {
 			"icon": "28111",
 			"requirement": "",
-			"name": "全弹发射I",
+			"name": "All Out Assault Ⅰ",
 			"type": "Offensive",
-			"description": "主炮每进行12次攻击，触发全弹发射-埃米尔·贝尔汀I"
+			"description": "Activates All Out Assault Ⅰ: Émile Bertin once every 12 times the Main Guns are fired."
 		}
 	},
 	"skin": {
 		"1": {
 			"id": "aimierbeierding",
-			"name": "エミール・ベルタン",
-			"description": "軽巡洋艦エミール・ベルタン",
+			"name": "Émile Bertin ",
+			"description": "Light cruiser – Émile Bertin. ",
 			"expression": {
 				"0": {
 					"id": "0"
@@ -83,11 +90,36 @@
 		},
 		"2": {
 			"id": "aimierbeierding_2",
-			"name": "Côte d'Azur/コート・ダジュール ",
-			"description": "指揮官、この水着姿は結構いい感じかしら？私、スタイルには結構自信あるわよ。うふふ♪一緒に真夏を楽しもう～",
+			"name": "Côte d'Azur ",
+			"description": "Commander, does my swimsuit pique your fancy? I'm actually quite proud of my fashion sense. *Giggle* Now, let's enjoy midsummer together~ ",
 			"expression": {
 				"0": {
 					"id": "0"
+				}
+			}
+		},
+		"3": {
+			"id": "aimierbeierding_g",
+			"name": "Émile Bertin (Retrofit) ",
+			"description": "Émile Bertin, retrofit complete! I feel like a completely new person! To show my gratitude, Commander, I'll perform a brand new dance for you! ",
+			"expression": {
+				"0": {
+					"id": "0"
+				},
+				"1": {
+					"id": "1"
+				},
+				"2": {
+					"id": "2"
+				},
+				"3": {
+					"id": "3"
+				},
+				"4": {
+					"id": "4"
+				},
+				"5": {
+					"id": "5"
 				}
 			}
 		}
@@ -197,9 +229,9 @@
 		}
 	},
 	"limitBreak": {
-		"tier1": "全弾発射スキル習得/武器補正+2%",
-		"tier2": "魚雷装填数+1/開始時魚雷+1/武器補正+3%",
-		"tier3": "全弾発射弾幕強化/武器補正+5%"
+		"tier1": "Unlock All Out Assault Ⅰ/All weapons' efficiency +2%",
+		"tier2": "Torpedo base +1/Torpedo preload +1/All weapons' efficiency +3%",
+		"tier3": "Improve All Out Assault/All weapons' efficiency +5%"
 	},
 	"equipmentLoadout": {
 		"1": {
@@ -279,7 +311,7 @@
 			"1": {
 				"skin_id": "aimierbeierding",
 				"id": "0",
-				"label": "エミール・ベルタン",
+				"label": "Émile Bertin ",
 				"dialogue": {
 					"1": {
 						"event": "Ship Description",
@@ -290,7 +322,7 @@
 						"japanese": "軽巡洋艦エミール・ベルタン",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Light cruiser – Émile Bertin.",
 						"englishNote": ""
 					},
 					"2": {
@@ -302,7 +334,7 @@
 						"japanese": "自由アイリス教国所属、エミール・ベルタンよ～昔は機雷敷設と…駆逐艦の引率を頑張ったわ。あとは黄金の輸送と「ドラグーン」作戦、いくつかのほかの任務にも参加したけど、まあ無事にあの大戦を乗り越えた……かな？",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "I'm Émile Bertin of Iris Libre~ In days of old, I worked hard laying mines... and leading destroyers. I also transported gold, took part in Operation Dragoon, and participated in a few other missions, so you could say I got through the war unscathed... I suppose?",
 						"englishNote": ""
 					},
 					"3": {
@@ -314,7 +346,7 @@
 						"japanese": "Bonjour（ボンジュール）~自由アイリス教国所属、エミール・ベルタン、エミールって呼んでね～ここのみんなと仲良くやりたいわ～",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Bonjour~ I'm Émile Bertin of Iris Libre. You can just call me Émile~ I want to make friends with everyone here~",
 						"englishNote": ""
 					},
 					"4": {
@@ -326,7 +358,7 @@
 						"japanese": "Bonjour（ボンジュール）~指揮官、仕事の前に一緒にストレッチでもしましょ～",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Bonjour~ Commander, before we get to work, I say we do some stretches~",
 						"englishNote": ""
 					},
 					"5": {
@@ -338,7 +370,7 @@
 						"japanese": "踊りはみんなを幸せに出来るから好きだわ♪",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "I love dancing because it brings joy to people♪",
 						"englishNote": ""
 					},
 					"6": {
@@ -350,7 +382,7 @@
 						"japanese": "黄金の国・重桜！fantastique！いつか見てみたいわ",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "The Land of Gold – the Sakura Empire! Fantastique! I do hope to see it one day!",
 						"englishNote": ""
 					},
 					"7": {
@@ -362,7 +394,7 @@
 						"japanese": "フォール＝ド＝フランスのあの二年間と比べて…青空の下で自由に踊れるのは素晴らしいわね～",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Compared to those 2 years at Fort-de-France... it's wonderful to be able to dance freely beneath the blue sky~",
 						"englishNote": ""
 					},
 					"8": {
@@ -374,7 +406,7 @@
 						"japanese": "指揮官、私に手伝えることはない？どーんなことでもいいわよ？",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Commander, is there anything I can help you with? Whatever it is, I'd love to.",
 						"englishNote": ""
 					},
 					"9": {
@@ -386,7 +418,7 @@
 						"japanese": "指揮官、疲れた？私の人を元気にする踊り、一曲見てくれないかしら？",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Are you worn out, Commander? Shall I perform my energizing dance for you?",
 						"englishNote": ""
 					},
 					"10": {
@@ -398,7 +430,7 @@
 						"japanese": "指揮官、ダンスのお誘いなら、もっと紳士的にしないと～",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Commander, if you're asking me for a dance, you need to do it more courteously~!",
 						"englishNote": ""
 					},
 					"11": {
@@ -410,7 +442,7 @@
 						"japanese": "新しい任務が伝達された？一気に片付けちゃお♪",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "We've been relayed new missions? Then let's get them all done at once♪",
 						"englishNote": ""
 					},
 					"12": {
@@ -422,7 +454,7 @@
 						"japanese": "あら、これって任務完了のお知らせ？指揮官、早く確認してね",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Oh, was that the commission complete notification? You should give it a look, Commander.",
 						"englishNote": ""
 					},
 					"13": {
@@ -434,7 +466,7 @@
 						"japanese": "指揮官、メールよ～♪",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Commander, here's your mail♪",
 						"englishNote": ""
 					},
 					"14": {
@@ -446,7 +478,7 @@
 						"japanese": "指揮官、疲れたら休んで英気を養うことよ。休憩はちゃんとってね",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Commander, if you feel tired then some rest would do you good. Taking breaks is important.",
 						"englishNote": ""
 					},
 					"15": {
@@ -458,7 +490,7 @@
 						"japanese": "指揮官、港の方を見て？委託に出かけたみんなが戻ってきたわよ",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Commander, look towards the harbor! The commission team has returned.",
 						"englishNote": ""
 					},
 					"16": {
@@ -470,7 +502,7 @@
 						"japanese": "ふふ、ステップが軽やかになったわ～",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Ohoh, my steps feel lighter now~",
 						"englishNote": ""
 					},
 					"17": {
@@ -482,7 +514,7 @@
 						"japanese": "一曲踊っちゃうわ～",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Allow me to have this dance~",
 						"englishNote": ""
 					},
 					"18": {
@@ -494,7 +526,7 @@
 						"japanese": "Merci pour tout （メルスィー プール トゥー）～ 見てくれてありがとう♪",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Merci pour tout~ Thank you for your time♪",
 						"englishNote": ""
 					},
 					"19": {
@@ -506,7 +538,7 @@
 						"japanese": "あらら……少し気が抜けちゃったのかしら",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Oh, dear... Perhaps I left my guard too low.",
 						"englishNote": ""
 					},
 					"20": {
@@ -518,7 +550,7 @@
 						"japanese": "踊りましょう！",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Let us dance!",
 						"englishNote": ""
 					},
 					"21": {
@@ -530,7 +562,7 @@
 						"japanese": "戦場のペースに付いていけていないようね……",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "It seems I'm not in pace with the battlefield...",
 						"englishNote": ""
 					},
 					"22": {
@@ -542,7 +574,7 @@
 						"japanese": "指揮官から情熱が感じられないわ……",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "I can't feel any passion coming from you, Commander...",
 						"englishNote": ""
 					},
 					"23": {
@@ -554,7 +586,7 @@
 						"japanese": "アイリスの人はロマンティックだとよく言われてるけど、私が思うにただ皆が細かいことにも気に配っているだけよ",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "I often hear people say that we of Iris Libre are romantics, but the way I see it, we simply focus on life's little details.",
 						"englishNote": ""
 					},
 					"24": {
@@ -566,7 +598,7 @@
 						"japanese": "細部に気を配ってこそ、日々の美しさを見いだせるわ。小さな美しさでも大切にするのが本物のロマンティスト――私はそう思うわ",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Because we focus on the details, we can see the beauty of everyday things. I believe a true romanticist values even the smallest of life's beautiful things.",
 						"englishNote": ""
 					},
 					"25": {
@@ -578,7 +610,7 @@
 						"japanese": "踊りたい時に踊る、それはすなわち人生を大胆に愛する勇気――指揮官、ロマンティックというのは時折、こういう勇気のあるアピールも必要だと思うわ。こんな風に――（チュッ）はい、指揮官はどうかしら？",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Dancing when one wants to – that is what's known as the courage to express one's love of life. Commander, I believe a romanticist must sometimes show courage and express their feelings in some way. Like this– *Kiss*... What do you believe, Commander?",
 						"englishNote": ""
 					},
 					"26": {
@@ -590,7 +622,7 @@
 						"japanese": "美しく輝く昨日、期待に心踊る今日（こんにち）、希望に溢れる明日！毎日素晴らしい日！月日が流れる毎、あなたのことをもっと好きになれるわ！",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "The gorgeous radiance of yesterday, the heart-throbbing excitement of today, the overflowing hopes of tomorrow! Every day is so wonderful! Each passing day, my love for you grows even stronger!",
 						"englishNote": ""
 					},
 					"27": {
@@ -602,6 +634,42 @@
 						"japanese": "この幸せな瞬間、私の気持ちを表現する踊りと情熱的なくちづけ……指揮官、お相手してくださるかしら？",
 						"japaneseTL": "",
 						"japaneseNote": "",
+						"english": "I want to express my feelings in this joyous moment through a dance and a kiss... Commander, could you indulge me?",
+						"englishNote": ""
+					},
+					"28": {
+						"event": "Like Present",
+						"media": "present_like",
+						"chinese": "",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"29": {
+						"event": "Dislike Present",
+						"media": "present_dislike",
+						"chinese": "",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"30": {
+						"event": "Main Title",
+						"media": "extra",
+						"chinese": "",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
 						"english": "",
 						"englishNote": ""
 					}
@@ -610,7 +678,7 @@
 			"2": {
 				"skin_id": "aimierbeierding_2",
 				"id": "1",
-				"label": "Côte d'Azur/コート・ダジュール ",
+				"label": "Côte d'Azur ",
 				"dialogue": {
 					"1": {
 						"event": "Ship Description",
@@ -621,7 +689,7 @@
 						"japanese": "指揮官、この水着姿は結構いい感じかしら？私、スタイルには結構自信あるわよ。うふふ♪一緒に真夏を楽しもう～",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Commander, does my swimsuit pique your fancy? I'm actually quite proud of my fashion sense. *Giggle* Now, let's enjoy midsummer together~",
 						"englishNote": ""
 					},
 					"2": {
@@ -633,7 +701,7 @@
 						"japanese": "指揮官、この水着姿は結構いい感じかしら？私、スタイルには結構自信あるわよ。うふふ♪一緒に真夏を楽しもう～",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Commander, does my swimsuit pique your fancy? I'm actually quite proud of my fashion sense. *Giggle* Now, let's enjoy midsummer together~",
 						"englishNote": ""
 					},
 					"3": {
@@ -645,7 +713,7 @@
 						"japanese": "指揮官、海に入る前のストレッチ、忘れないでね？",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Commander, don't forget to stretch before going into the ocean, okay?",
 						"englishNote": ""
 					},
 					"4": {
@@ -657,7 +725,7 @@
 						"japanese": "指揮官、ビーチバレーでもいかがかしら？実は私、こういうのは得意なのよ♪",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Commander, how about a game of beach volleyball? I actually happen to be quite good at it♪",
 						"englishNote": ""
 					},
 					"5": {
@@ -669,7 +737,7 @@
 						"japanese": "指揮官、今度ビーチに行ったら日焼け止めクリームをお願いできないかしら？",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Commander, could I ask you to apply sunscreen to my skin next time we go to the beach?",
 						"englishNote": ""
 					},
 					"6": {
@@ -681,7 +749,7 @@
 						"japanese": "髪が長いと泳ぐ時には不便よね…指揮官はどんな髪のまとめ方がお気に入りかしら？",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Long hair is quite inconvenient when you're swimming... Which way of tying up my hair is your favorite, Commander?",
 						"englishNote": ""
 					},
 					"7": {
@@ -693,7 +761,7 @@
 						"japanese": "指揮官～どうせビーチに行くから水着に着替えておいてはいかがかしら？いえいえ、私は指揮官の水着姿なんてぜーんぜん、気にしていないから～",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Oh, Commander~ Since we're going to the beach, why not change into your swim gear ahead of time? Oh, no, I definitely don't want to see how it looks on you, not at all~",
 						"englishNote": ""
 					},
 					"8": {
@@ -705,7 +773,7 @@
 						"japanese": "先に行っていいって？もう、秘書艦が指揮官を放って置くわけないでしょ？はい、ここで待っていてあげるからね♪",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Go on ahead without you? Why, a secretary can't just casually part from her Commander, can she? I'll be right here waiting for you♪",
 						"englishNote": ""
 					},
 					"9": {
@@ -717,7 +785,7 @@
 						"japanese": "夏になって、指揮官も情熱的になってるわね～",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "It seems as summer comes forth, so too does your passion~",
 						"englishNote": ""
 					},
 					"10": {
@@ -727,6 +795,109 @@
 						"chineseTL": "",
 						"chineseNote": "",
 						"japanese": "指揮官すごくウキウキしてるわね♪　ビーチのことをやっぱり楽しみにしていたんだ～",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "My, you're so excited, Commander♪ I knew you were looking forward to the beach~",
+						"englishNote": ""
+					}
+				}
+			},
+			"3": {
+				"skin_id": "aimierbeierding_g",
+				"id": "9",
+				"label": "Émile Bertin (Retrofit) ",
+				"dialogue": {
+					"1": {
+						"event": "Ship Description",
+						"media": "",
+						"chinese": "埃米尔·贝尔汀，改造完毕。感觉整个人焕然一新了呢。作为感谢，指挥官，让我现在为你跳一支新的舞蹈吧！",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "エミール・ベルタン、改造終了よ～うふふ、なんだかスッキリした気持ちになるわね♪感謝の印として、指揮官のために一曲踊っちゃってもいい？",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Émile Bertin, retrofit complete! I feel like a completely new person! To show my gratitude, Commander, I'll perform a brand new dance for you!",
+						"englishNote": ""
+					},
+					"2": {
+						"event": "Acquisition",
+						"media": "get_9",
+						"chinese": "埃米尔·贝尔汀，改造完毕。感觉整个人焕然一新了呢。作为感谢，指挥官，让我现在为你跳一支新的舞蹈吧！",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"3": {
+						"event": "Login",
+						"media": "login_9",
+						"chinese": "今天也是美妙的一天呢，指挥官！",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"4": {
+						"event": "Details",
+						"media": "detail_9",
+						"chinese": "现在的我，一定能为更多的人带去美妙的舞蹈",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"5": {
+						"event": "Touch",
+						"media": "touch_1_9",
+						"chinese": "遵从着自己的感觉动起来，这才是舞蹈的本质哦？所以，指挥官也一起来吧！allons danser！",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"6": {
+						"event": "Touch (Special)",
+						"media": "touch_2_9",
+						"chinese": "真是的，指挥官，跳舞的时候要认真一点哦？",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"7": {
+						"event": "Return to Port",
+						"media": "home_9",
+						"chinese": "就让我用舞蹈来消除你的疲劳吧，指挥官",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"8": {
+						"event": "Commission Complete",
+						"media": "expedition_9",
+						"chinese": "就让我去港口为委托归来的人送上一支舞蹈吧~",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
 						"japaneseTL": "",
 						"japaneseNote": "",
 						"english": "",

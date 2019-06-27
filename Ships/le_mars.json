@@ -12,7 +12,7 @@
 	"navy": "Vichya Dominion",
 	"prefix": "MNF",
 	"buildTime": "",
-	"class": "ラドロア級",
+	"class": "L'Adroit-Class",
 	"voiceActress": "Akiko Hasegawa",
 	"parameters": {
 		"firepower": "C",
@@ -46,35 +46,35 @@
 		"aviation": "0",
 		"reload": "13"
 	},
-	"acquisitionMethod": "イベント：光と影のアイリス",
+	"acquisitionMethod": "Event: Iris of Light and Dark",
 	"skill": {
 		"1": {
 			"icon": "5081",
 			"requirement": "",
-			"name": "骑士之剑",
+			"name": "Chevalier's Sabre",
 			"type": "Offensive",
-			"description": "当先锋舰队只有自由鸢尾、维希教廷阵营的角色时生效，每隔20秒，有50%的概率发动，我方所有单位造成的伤害上升$1，持续8秒，同技能效果不叠加"
+			"description": "Every 20s, if your Vanguard consists of only Iris Libre and/or Vichya Dominion ships: 50.0% chance to increase the DMG your fleet deals by 5.0% (25.0%) for 8s. Does not stack with the same skill."
 		},
 		"2": {
 			"icon": "4071",
 			"requirement": "",
 			"name": "Emergency Maneuvers",
 			"type": "Defensive",
-			"description": "$1 chance to activate every 20s: this ship evades all enemy attacks for 6s."
+			"description": "Every 20s: 15.0% (30.0%) chance for this ship to evade all enemy attacks for 6s."
 		},
 		"3": {
 			"icon": "28011",
 			"requirement": "",
-			"name": "全弹发射I",
+			"name": "All Out Assault Ⅰ",
 			"type": "Offensive",
-			"description": "主炮每进行15次攻击，触发全弹发射-机敏级I"
+			"description": "Activates All Out Assault Ⅰ: L'Adroit Class once every 15 times the Main Guns are fired."
 		}
 	},
 	"skin": {
 		"1": {
 			"id": "lemaer",
-			"name": "ル・マルス",
-			"description": "ラドロア級駆逐艦ル・マルス",
+			"name": "Le Mars ",
+			"description": "L'Adroit-class destroyer – Le Mars. ",
 			"expression": {
 				"0": {
 					"id": "0"
@@ -83,8 +83,8 @@
 		},
 		"2": {
 			"id": "lemaer_2",
-			"name": "エテ・ブリリアント",
-			"description": "サマ～！夏ですよ指揮官！海に行って水遊びをしましょう！水鉄砲は私、すごく強いよ！",
+			"name": "Été Brillant ",
+			"description": "It's summer~! Summer is here, Commander! Let's head down to the beach to play! I'll show you why I'm feared in water gun fights! ",
 			"expression": {
 				"0": {
 					"id": "0"
@@ -92,9 +92,40 @@
 			}
 		},
 		"3": {
+			"id": "lemaer_3",
+			"name": "スコレア・ウルーズ",
+			"description": "おーい！指揮官、こっちこっち！えへへ、まさか学園で会えるなんて～指揮官は今何をしていますか？",
+			"expression": {
+				"0": {
+					"id": "0"
+				},
+				"1": {
+					"id": "1"
+				},
+				"2": {
+					"id": "2"
+				},
+				"3": {
+					"id": "3"
+				},
+				"4": {
+					"id": "4"
+				},
+				"5": {
+					"id": "5"
+				},
+				"6": {
+					"id": "6"
+				},
+				"7": {
+					"id": "7"
+				}
+			}
+		},
+		"4": {
 			"id": "lemaer_g",
-			"name": "ル・マルス改",
-			"description": "改・造・完・了！新しい力を手に入れたル・マルス、参上しました～！えへへ、指揮官、私、前よりは頼りに見えるようになりました？",
+			"name": "Le Mars (Retrofit) ",
+			"description": "Retro~ fit~ com~ plete! The new and improved Le Mars is at your service~! ",
 			"expression": {
 				"0": {
 					"id": "0"
@@ -207,9 +238,9 @@
 		}
 	},
 	"limitBreak": {
-		"tier1": "全弾発射スキル習得/魚雷補正+5%",
-		"tier2": "魚雷装填数+1/開始時魚雷+1/魚雷補正+10%",
-		"tier3": "全弾発射弾幕強化/武器補正+5%"
+		"tier1": "Unlock All Out Assault Ⅰ/Torpedo efficiency +5%",
+		"tier2": "Torpedo base +1/Torpedo preload +1/Torpedo efficiency +10%",
+		"tier3": "Improve All Out Assault/All weapons' efficiency +5%"
 	},
 	"equipmentLoadout": {
 		"1": {
@@ -289,7 +320,7 @@
 			"1": {
 				"skin_id": "lemaer",
 				"id": "0",
-				"label": "ル・マルス",
+				"label": "Le Mars ",
 				"dialogue": {
 					"1": {
 						"event": "Ship Description",
@@ -300,7 +331,7 @@
 						"japanese": "ラドロア級駆逐艦ル・マルス",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "L'Adroit-class destroyer – Le Mars.",
 						"englishNote": ""
 					},
 					"2": {
@@ -312,7 +343,7 @@
 						"japanese": "あの時はみんなの役には立てなかったけど、指揮官、今度の私の活躍、期待してくださいね！",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Back then, I wasn't able to fulfill my duties, but... Commander, this time, I'll show you what I'm capable of!",
 						"englishNote": ""
 					},
 					"3": {
@@ -324,7 +355,7 @@
 						"japanese": "え？そちらは……ああ、そうでした！指揮官ですね！私はラドロア級駆逐艦のル・マルス！これからよろしくです！",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Eh? Who are you... Ah! Right, you're the Commander! I'm the L'Adroit-class destroyer, Le Mars! A pleasure meetin' you!",
 						"englishNote": ""
 					},
 					"4": {
@@ -336,7 +367,7 @@
 						"japanese": "指揮官、ようやく来ました！で、今日の訓練任務は何ですか？",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Commander, you finally made it! What's on the training regimen today?",
 						"englishNote": ""
 					},
 					"5": {
@@ -348,7 +379,7 @@
 						"japanese": "実はフォルバンのことをちょっぴり羨ましく思っています。あのときは向こうも同じく動けなかったけど、私よりは……",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "To be honest, I'm a little jealous of Forbin. Back then, we both weren't able to move, but she made more of the situation than me...",
 						"englishNote": ""
 					},
 					"6": {
@@ -360,7 +391,7 @@
 						"japanese": "指揮官、ストレッチのやり方を教えましょうか",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Commander, I'll teach you some stretches for those long days!",
 						"englishNote": ""
 					},
 					"7": {
@@ -372,7 +403,7 @@
 						"japanese": "指揮官は大変ですね…これもあれも見ないといけませんし…私ならすぐクラクラになりますよ……",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Being a commander sure is tough, isn't it? Having to micromanage this and that... My head would start spinning... ",
 						"englishNote": ""
 					},
 					"8": {
@@ -384,7 +415,7 @@
 						"japanese": "ベンキョウって難しいですね…単語が全部わかっていても、いざ組み合わせたら意味がわからなくなっちゃって…",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Studying just isn't my strong suit... I obviously can read all these words, but they just don't make any sense to me when put together...",
 						"englishNote": ""
 					},
 					"9": {
@@ -396,7 +427,7 @@
 						"japanese": "ちょうど肩が凝っていました……指揮官、ありがとうございます！",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "My shoulders were starting to get stiff too... Thanks a ton, Commander!",
 						"englishNote": ""
 					},
 					"10": {
@@ -408,7 +439,7 @@
 						"japanese": "こ、ここもマッサージするんですか？ちょっと……変な感じです……",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Th-this place also needs a massage? Um... it feels a little strange...",
 						"englishNote": ""
 					},
 					"11": {
@@ -420,7 +451,7 @@
 						"japanese": "未だ任務がありますね。お使いは私に任せてください！",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "We're not done with the missions quite yet. Let me handle the errands!",
 						"englishNote": ""
 					},
 					"12": {
@@ -432,7 +463,7 @@
 						"japanese": "任務完了！……あれ、報酬もあるんですか？",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Mission complete! Huh...? I still have to tally the rewards?",
 						"englishNote": ""
 					},
 					"13": {
@@ -444,7 +475,7 @@
 						"japanese": "お手紙でーす！もう持ってきちゃいました、えへへ",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Mail's here~! I already brought it all with me, ehehe~",
 						"englishNote": ""
 					},
 					"14": {
@@ -456,7 +487,7 @@
 						"japanese": "指揮官、適度に汗をかかないと太くなりますよ",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Commander, you've gotta sweat to burn off fat!",
 						"englishNote": ""
 					},
 					"15": {
@@ -468,7 +499,7 @@
 						"japanese": "皆戻ってきました！今から迎えにいきまーす！ほい！",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Everyone's back! I'm gonna run down to greet them! Be right back!",
 						"englishNote": ""
 					},
 					"16": {
@@ -480,7 +511,7 @@
 						"japanese": "まーた強くなりました！指揮官、ありがとうございます！",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "I grow stronger yet again! Thanks, Commander!",
 						"englishNote": ""
 					},
 					"17": {
@@ -492,7 +523,7 @@
 						"japanese": "準備運動完了！いきますよー！",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Warm-up exercises are all done! I'm setting out~!",
 						"englishNote": ""
 					},
 					"18": {
@@ -504,7 +535,7 @@
 						"japanese": "私が一位…ですか？やったぁ！えへへ～",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "I'm in first place...? Très bien! Ehehe~!",
 						"englishNote": ""
 					},
 					"19": {
@@ -516,7 +547,7 @@
 						"japanese": "しまった！撤退するよ！",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Merdé! Time to retreat!",
 						"englishNote": ""
 					},
 					"20": {
@@ -528,7 +559,7 @@
 						"japanese": "いっきまっすよー！",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Time to do this~!",
 						"englishNote": ""
 					},
 					"21": {
@@ -540,7 +571,7 @@
 						"japanese": "これぐらいの傷、我慢すればなんとかなるはず！",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "It's just a flesh wound! I'll tough it out!",
 						"englishNote": ""
 					},
 					"22": {
@@ -552,7 +583,7 @@
 						"japanese": "わっ、指揮官……じ、自主練に行ってきます！",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Woah, Commander... I, I think I'll be training solo today!",
 						"englishNote": ""
 					},
 					"23": {
@@ -564,7 +595,7 @@
 						"japanese": "優秀な騎士は他人を守る力だけでなく、学習で得られる強き心も必要だと……はあ…私、本を開いたとたんに眠っちゃいますね…どうしよう……",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "To be an outstanding knight, it's not enough to just have the strength to protect others. You must also become wise through learning! But... I always start dozing off when I'm studying... *yawn*",
 						"englishNote": ""
 					},
 					"24": {
@@ -576,7 +607,7 @@
 						"japanese": "ベンキョウをおしえてくださいますか？わあ！指揮官、ありがとうございます！私……って、えええ！？こんなにも読むんですか！？す、すみません！急にお腹が……",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Commander, you'll help me study? Yay! Thank you so much! I'll be sure to... Huuhh? Wait, I have to memorize all this?! S-sorry, I have a stomachache!",
 						"englishNote": ""
 					},
 					"25": {
@@ -588,7 +619,7 @@
 						"japanese": "わかったような、わからなかったような……でもせっかく指揮官が無理してまで私に教えてくれたんだし……指揮官、ありがとうございます！",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "I think I'm starting to get it, but maybe not... But, I'm so glad that you're patient enough to teach a dummy like me. Thank you, Commander!",
 						"englishNote": ""
 					},
 					"26": {
@@ -600,7 +631,7 @@
 						"japanese": "本に書いてあることはまだ良くわかりませんけど、一つだけわかったような気がします！それは――指揮官のことになると、私、力を2倍に発揮できるって！",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Even though I still don't quite understand this stuff, there is one thing that's certain - when it comes to learning things about you, Commander, I function twice as well!",
 						"englishNote": ""
 					},
 					"27": {
@@ -612,7 +643,7 @@
 						"japanese": "ええと……この場合は一体どうすればいいか全然わからないよぉ……あ、あの！とにかく！これからもよ、よろ、よろしくお願いします！",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Um... I haven't learned what I'm supposed to do at a place like this yet... Ah, um! In any case, p-please continue to take good care of me in the future!",
 						"englishNote": ""
 					},
 					"28": {
@@ -624,6 +655,42 @@
 						"japanese": "フォルバン、私が先に行きますね",
 						"japaneseTL": "",
 						"japaneseNote": "",
+						"english": "Forbin, shall I take the lead?",
+						"englishNote": ""
+					},
+					"29": {
+						"event": "Like Present",
+						"media": "present_like",
+						"chinese": "",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"30": {
+						"event": "Dislike Present",
+						"media": "present_dislike",
+						"chinese": "",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"31": {
+						"event": "Main Title",
+						"media": "extra",
+						"chinese": "",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
 						"english": "",
 						"englishNote": ""
 					}
@@ -632,7 +699,7 @@
 			"2": {
 				"skin_id": "lemaer_2",
 				"id": "1",
-				"label": "エテ・ブリリアント",
+				"label": "Été Brillant ",
 				"dialogue": {
 					"1": {
 						"event": "Ship Description",
@@ -643,7 +710,7 @@
 						"japanese": "サマ～！夏ですよ指揮官！海に行って水遊びをしましょう！水鉄砲は私、すごく強いよ！",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "It's summer~! Summer is here, Commander! Let's head down to the beach to play! I'll show you why I'm feared in water gun fights!",
 						"englishNote": ""
 					},
 					"2": {
@@ -655,7 +722,7 @@
 						"japanese": "サマ～！夏ですよ指揮官！海に行って水遊びをしましょう！水鉄砲は私、すごく強いよ！",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "It's summer~! Summer is here, Commander! Let's head down to the beach to play! I'll show you why I'm feared in water gun fights!",
 						"englishNote": ""
 					},
 					"3": {
@@ -667,7 +734,7 @@
 						"japanese": "指揮官、せっかくの夏なんですから、そんなに暗くなっちゃダメですよ！一緒に日差しと砂浜を楽しみましょ♪",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Commander, summer is finally here, so why such a long face~? Let's enjoy some fun in the sun on the beach~♪",
 						"englishNote": ""
 					},
 					"4": {
@@ -679,7 +746,7 @@
 						"japanese": "これは、ただの浮き輪じゃなくて、水鉄砲の弾薬庫でもあるんですよ。えへへ、威力を見てみたいですかー？指揮官～",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "This is no simple inner tube, Commander. It also doubles as \"ammunition storage\" for my water gun! How 'bout it? Wanna taste my waterpower~?",
 						"englishNote": ""
 					},
 					"5": {
@@ -691,7 +758,7 @@
 						"japanese": "指揮官～スイカでも一緒に食べませんかー？",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Commander, wanna share a watermelon? ",
 						"englishNote": ""
 					},
 					"6": {
@@ -703,7 +770,7 @@
 						"japanese": "夏だからと言って冷房部屋にこもってちゃダメですよ。外に出かけましょ♪",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Just because it's hot doesn't mean you should stay cooped up underneath the air conditioner all day. Let's play outside~!",
 						"englishNote": ""
 					},
 					"7": {
@@ -715,7 +782,7 @@
 						"japanese": "指揮官も焼いてみませんか？そしたら私とおそろい♪えへへ～",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Commander, you should also get a tan! That way, we'll match~♪ Ehehe~!",
 						"englishNote": ""
 					},
 					"8": {
@@ -727,7 +794,7 @@
 						"japanese": "日焼け止めクリーム？いりませんよ～",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Sunscreen? I don't need that~!",
 						"englishNote": ""
 					},
 					"9": {
@@ -739,7 +806,7 @@
 						"japanese": "指揮官？こ、ここはクリームを塗らなくてもいいんですよ………",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "C-Commander... that place doesn't need any sunscreen...",
 						"englishNote": ""
 					},
 					"10": {
@@ -751,7 +818,7 @@
 						"japanese": "えへへ、指揮官、仕事の方はもう大丈夫ですか？じゃあ出発ですね！――どこって？海辺に決まってるじゃないですか～",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Ehehe, Commander, are you done with work for the day? Let's get going then! ...Huh? Where to? The beach, of course! ",
 						"englishNote": ""
 					},
 					"11": {
@@ -763,15 +830,106 @@
 						"japanese": "軽装備と侮ったから、こうなったんですよ～",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "If you underestimate me just because I'm lightly equipped, I'll gladly teach you a lesson~!",
 						"englishNote": ""
 					}
 				}
 			},
 			"3": {
+				"skin_id": "lemaer_3",
+				"id": "2",
+				"label": "スコレア・ウルーズ",
+				"dialogue": {
+					"1": {
+						"event": "Ship Description",
+						"media": "",
+						"chinese": "喂——看这边看这边！嘿嘿，能在学园里遇到指挥官真巧呢~指挥官这是要去哪里呀？",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "おーい！指揮官、こっちこっち！えへへ、まさか学園で会えるなんて～指揮官は今何をしていますか？",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"2": {
+						"event": "Acquisition",
+						"media": "get_2",
+						"chinese": "喂——看这边看这边！嘿嘿，能在学园里遇到指挥官真巧呢~指挥官这是要去哪里呀？",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"3": {
+						"event": "Login",
+						"media": "login_2",
+						"chinese": "今天的校园生活也要加油！",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"4": {
+						"event": "Details",
+						"media": "detail_2",
+						"chinese": "说到校园生活，那一定就是迎着阳光在操场上奔跑了，对吧！",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"5": {
+						"event": "Touch",
+						"media": "touch_1_2",
+						"chinese": "再大的风我也不怕！",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"6": {
+						"event": "Touch (Special)",
+						"media": "touch_2_2",
+						"chinese": "我现在不需要按摩啦……",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"7": {
+						"event": "Return to Port",
+						"media": "home_2",
+						"chinese": "不，不行了……课本上的东西完全看不进去……",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					}
+				}
+			},
+			"4": {
 				"skin_id": "lemaer_g",
 				"id": "9",
-				"label": "ル・マルス改",
+				"label": "Le Mars (Retrofit) ",
 				"dialogue": {
 					"1": {
 						"event": "Ship Description",
@@ -782,7 +940,7 @@
 						"japanese": "改・造・完・了！新しい力を手に入れたル・マルス、参上しました～！えへへ、指揮官、私、前よりは頼りに見えるようになりました？",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Retro~ fit~ com~ plete! The new and improved Le Mars is at your service~! ",
 						"englishNote": ""
 					},
 					"2": {
@@ -794,7 +952,7 @@
 						"japanese": "改・造・完・了！新しい力を手に入れたル・マルス、参上しました～！えへへ、指揮官、私、前よりは頼りになりました？",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Retro~ fit~ com~ plete! The new and improved Le Mars is at your service~! ",
 						"englishNote": ""
 					},
 					"3": {
@@ -806,7 +964,7 @@
 						"japanese": "魚雷も砲弾も準備万端！指揮官、いつでも出撃できますよ！",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "My torpedoes and cannons are locked and loaded! Commander, I'm ready to sortie at any time!",
 						"englishNote": ""
 					},
 					"4": {
@@ -818,7 +976,7 @@
 						"japanese": "指揮官はそんなに私の全砲門発射管全開の勇姿が見たいですか？えへへ、しょうがないですね～",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Commander, are you that desperate to see my gallant form as I unload all my cannons and torpedo tubes? Ehehe, what am I going to do with you~",
 						"englishNote": ""
 					},
 					"5": {
@@ -830,7 +988,7 @@
 						"japanese": "へへ～指揮官、この決めポーズ、かっこいいと思いませんか？アニメで学んだのですよ",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Hehe! Commander, is this victory pose cool? I saw it in an anime! ",
 						"englishNote": ""
 					},
 					"6": {
@@ -842,7 +1000,7 @@
 						"japanese": "委託も出撃もどーんとこーい！今の私は指揮官に失望させたりなんてしませんから！",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Commission or sortie, I'm ready to do anything! With how strong I am now, I won't let you down, Commander! ",
 						"englishNote": ""
 					},
 					"7": {
@@ -854,7 +1012,7 @@
 						"japanese": "私にできることはありますか？もう少し指揮官の負担を分担できたらいいなと思う次第でして～",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Is there something that needs doing? I'll be happy to shoulder even a little bit of your burdens.",
 						"englishNote": ""
 					},
 					"8": {
@@ -866,7 +1024,7 @@
 						"japanese": "へへ、今度は私が指揮官の肩をもんであげましょうか？",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Hehe, how about I be the one to give you a shoulder massage this time?",
 						"englishNote": ""
 					},
 					"9": {
@@ -878,7 +1036,7 @@
 						"japanese": "指揮官、帰還お疲れ様でした！次の出撃へ向けて準備しましょうか？",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Welcome back, Commander! Shall we plan our next sortie?",
 						"englishNote": ""
 					},
 					"10": {
@@ -890,7 +1048,7 @@
 						"japanese": "では、勝利の決めポーズ！……って、待ってくださあああい！",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Now, for a victory pose! ...Hey! Wait for meeee!",
 						"englishNote": ""
 					}
 				}
@@ -908,6 +1066,6 @@
 		"add_level_value": "1",
 		"add_level_shiptype": "Destroyer",
 		"t_level": "4",
-		"ships": "le_mars"
+		"ships": "forbin,le_mars"
 	}
 }
