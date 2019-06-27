@@ -11,7 +11,7 @@
 	"hull": "Submarine",
 	"navy": "Iris Libre",
 	"prefix": "FFNF",
-	"buildTime": "",
+	"buildTime": "00:35:00",
 	"class": "Surcouf-Class",
 	"voiceActress": "Manami Numakura",
 	"parameters": {
@@ -28,16 +28,16 @@
 		"medal": "4"
 	},
 	"releaseDate": {
-		"JP": "",
-		"CN": "",
-		"KR": "",
-		"EN": ""
+		"JP": "July 26, 2018",
+		"CN": "July 26, 2018",
+		"KR": "March 27, 2019",
+		"EN": "June 27, 2019"
 	},
 	"artist": {
-		"name": "",
-		"weibo": "",
+		"name": "云桑",
+		"weibo": "https://weibo.com/yunsang",
 		"twitter": "",
-		"pixiv": "",
+		"pixiv": "https://www.pixiv.net/member.php?id=5358936",
 		"other": ""
 	},
 	"enhance": {
@@ -50,21 +50,21 @@
 	"skill": {
 		"1": {
 			"icon": "11570",
-			"requirement": "",
+			"requirement": "Default Unlocked",
 			"name": "Recon Support",
 			"type": "Support",
 			"description": "When this boat is called into battle: increases the Accuracy of your Vanguard by 5.0% (20.0%) for 20s."
 		},
 		"2": {
 			"icon": "3521",
-			"requirement": "",
+			"requirement": "Default Unlocked",
 			"name": "Surface Combat",
 			"type": "Defensive",
 			"description": "Increases the time this ship can stay in combat after resurfacing by 4.5 (12.0)s."
 		},
 		"3": {
 			"icon": "29321",
-			"requirement": "",
+			"requirement": "Limit Break I (III)",
 			"name": "All Out Assault Ⅰ",
 			"type": "Offensive",
 			"description": "Activates All Out Assault Ⅰ: Surcouf when this boat resurfaces."
@@ -86,17 +86,17 @@
 		"1": {
 			"icon": "5500",
 			"rarity": "Common",
-			"name": "潜水艦用550mm24V魚雷"
+			"name": "Submarine-only 550mm 24V"
 		},
 		"2": {
 			"icon": "5500",
 			"rarity": "Common",
-			"name": "潜水艦用550mm24V魚雷"
+			"name": "Submarine-only 550mm 24V"
 		},
 		"3": {
 			"icon": "7340",
 			"rarity": "Rare",
-			"name": "双联装203mm主炮Mle1924(潜艇用)"
+			"name": "Submarine-mounted Twin 203mm Cannon (Mle 1924)"
 		}
 	},
 	"stats": {
@@ -186,6 +186,13 @@
 			"armor": "Light"
 		}
 	},
+	"huntingRange": {
+		"1": "b3,b4,b5,c3,c4,c5,d3,d5,e3,e4,e5",
+		"2": "b3,b4,b5,c3,c4,c5,d3,d5,e3,e4,e5,d2,d6,e2,e6",
+		"3": "b3,b4,b5,c3,c4,c5,d3,d5,e3,e4,e5,d2,d6,e2,e6,c2,c6,f3,f5",
+		"4": "b3,b4,b5,c3,c4,c5,d3,d5,e3,e4,e5,d2,d6,e2,e6,c2,c6,f2,f3,f4,f5,f6",
+		"5": "b3,b4,b5,c3,c4,c5,d3,d5,e3,e4,e5,d2,d6,e2,e6,c2,c6,f2,f3,f4,f5,f6,b2,b6"
+	},
 	"limitBreak": {
 		"tier1": "Improve All Out Assault/Main gun efficiency +5% ",
 		"tier2": "Torpedo base +1/Improve Hunting range",
@@ -240,9 +247,9 @@
 			"EN": ""
 		},
 		"limited": {
-			"JP": "",
-			"CN": "",
-			"EN": ""
+			"JP": "✓",
+			"CN": "✓",
+			"EN": "✓"
 		}
 	},
 	"drop": {
