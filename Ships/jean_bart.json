@@ -12,7 +12,7 @@
 	"navy": "Vichya Dominion",
 	"prefix": "MNF",
 	"buildTime": "",
-	"class": "リシュリュー級",
+	"class": "Richelieu-Class",
 	"voiceActress": "Marina Inoue",
 	"parameters": {
 		"firepower": "A",
@@ -46,28 +46,28 @@
 		"aviation": "0",
 		"reload": "12"
 	},
-	"acquisitionMethod": "イベント：光と影のアイリス",
+	"acquisitionMethod": "Event: Iris of Light and Dark",
 	"skill": {
 		"1": {
 			"icon": "11530",
 			"requirement": "",
-			"name": "海盗之魂",
+			"name": "Pirate's Soul",
 			"type": "Offensive",
-			"description": "每次进行炮击的第一轮跨射伤害提高$1；手动进行瞄准时，手动发射带来的跨射伤害增幅效果提高到$1"
+			"description": "Increases the DMG of the first Volley of every Salvo this ship fires by 40% (60%).This ship's manual aiming DMG bonus is increased to 40% (60%)."
 		},
 		"2": {
 			"icon": "11540",
 			"requirement": "",
-			"name": "最后的炮火",
+			"name": "Final Shot",
 			"type": "Offensive",
-			"description": "装备【四联装380mm主炮Mle1935】主炮时，主炮的暴击率提高$2，主炮暴击造成的伤害提高$1"
+			"description": "While this ship is equipping the Quadruple 380mm Main Gun (Mle 1935): increases this ship's Main Gun Crit Rate by 10.0% (30.0%) and Main Gun Crit DMG by 20.0% (50.0%)."
 		}
 	},
 	"skin": {
 		"1": {
 			"id": "rangbaer",
-			"name": "ジャン・バール",
-			"description": "リシュリュー級戦艦ジャン・バール",
+			"name": "Jean Bart ",
+			"description": "Richelieu-class battleship – Jean Bart. ",
 			"expression": {
 				"0": {
 					"id": "0"
@@ -180,9 +180,9 @@
 		}
 	},
 	"limitBreak": {
-		"tier1": "開始時主砲+1/主砲補正+5%",
-		"tier2": "副砲砲座+2/主砲補正+10%",
-		"tier3": "主砲砲座+1/主砲補正+15%"
+		"tier1": "Main gun preload +1/Main gun efficiency +5%",
+		"tier2": "Auxiliary gun base +2/Main gun efficiency +10%",
+		"tier3": "Main gun base +1/Main gun efficiency +15%"
 	},
 	"equipmentLoadout": {
 		"1": {
@@ -262,7 +262,7 @@
 			"1": {
 				"skin_id": "rangbaer",
 				"id": "0",
-				"label": "ジャン・バール",
+				"label": "Jean Bart ",
 				"dialogue": {
 					"1": {
 						"event": "Ship Description",
@@ -273,7 +273,7 @@
 						"japanese": "リシュリュー級戦艦ジャン・バール",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Richelieu-class battleship – Jean Bart.",
 						"englishNote": ""
 					},
 					"2": {
@@ -285,7 +285,7 @@
 						"japanese": "戦艦ジャン・バールだ。この名はとある「尊敬された」私掠船の船長から由来している。……は？私掠船とは何だと？大義名分を掲げて、合法的な略奪を行う海賊だ",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "I'm Jean Bart, the battleship. I was named after a certain \"renowned\" privateer... You what? Never heard of privateers? They're pirates with legal permission to pillage, fighting for a just cause.",
 						"englishNote": ""
 					},
 					"3": {
@@ -297,7 +297,7 @@
 						"japanese": "最新鋭にして最後の戦艦、ジャン・バールだ。我が航路を決めるのはお前か……ふん、どこまでやれるか見させてもらう",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "I'm Jean Bart, the Vichya Dominion's last cutting-edge battleship. Guessing you'll be plotting my course from now on... Hmph, I'll see for myself how good a job you'll do.",
 						"englishNote": ""
 					},
 					"4": {
@@ -309,7 +309,7 @@
 						"japanese": "お前……以外と忙しいのだな。こっちで手伝えることがあれば声でもかけてくれ",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Go figure... you're busier than I expected. If ya need a hand with something, just gimme a shout.",
 						"englishNote": ""
 					},
 					"5": {
@@ -321,7 +321,7 @@
 						"japanese": "勝手に人の内情に鼻を利かせるヤロウは、主砲に吊り上げられても文句言えないぞ",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "If some dumbass sticks their nose where it doesn't belong, they got only themselves to blame when they're hanging from my cannons.",
 						"englishNote": ""
 					},
 					"6": {
@@ -333,7 +333,7 @@
 						"japanese": "戦艦の時代が終わった？ふっ、それがどうした。オレの時代はこれからだ！",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "The era of battleships is over? Hah, the hell you mean? MY era is just getting started!",
 						"englishNote": ""
 					},
 					"7": {
@@ -345,7 +345,7 @@
 						"japanese": "信仰も信念も、口先だけでは所詮ただの寝言にすぎない",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Insincere preaching about faith and beliefs is no different from idle sleeptalk.",
 						"englishNote": ""
 					},
 					"8": {
@@ -357,7 +357,7 @@
 						"japanese": "バカはいつになっても居なくならないな…なぜ見返りを寄越さない虚像に祈りなど捧げるんだ？",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Idiots just don't ever wisen up, do they... What drives 'em to pray to a made-up being that won't even respond?",
 						"englishNote": ""
 					},
 					"9": {
@@ -369,7 +369,7 @@
 						"japanese": "オレに甘えんな",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Stop trying to hit on me.",
 						"englishNote": ""
 					},
 					"10": {
@@ -381,7 +381,7 @@
 						"japanese": "……あとで後悔すんなよ",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "... You better not regret this later.",
 						"englishNote": ""
 					},
 					"11": {
@@ -393,7 +393,7 @@
 						"japanese": "仕事は仕事だ。愚痴ったって減ることはない",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "A job's a job. Whining won't make it go away.",
 						"englishNote": ""
 					},
 					"12": {
@@ -405,7 +405,7 @@
 						"japanese": "……ちっ、しけた報酬だな",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "... Pish, them's some shabby rewards.",
 						"englishNote": ""
 					},
 					"13": {
@@ -417,7 +417,7 @@
 						"japanese": "お前宛のメールだ。ついでに取ってきたぞ",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Got some mail for ya. Picked it up on the way here.",
 						"englishNote": ""
 					},
 					"14": {
@@ -429,7 +429,7 @@
 						"japanese": "狩りが終わったか？オレがあの場にいたら一瞬で片付けられたがな",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "You finished plundering? Coulda gotten it done in no time if you'd brought me.",
 						"englishNote": ""
 					},
 					"15": {
@@ -441,7 +441,7 @@
 						"japanese": "うるさい連中が戻ってきたな",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Guess your rackety team's come back.",
 						"englishNote": ""
 					},
 					"16": {
@@ -453,7 +453,7 @@
 						"japanese": "いい感じだ。試してみるか?",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Feeling great. Wanna give it a shot?",
 						"englishNote": ""
 					},
 					"17": {
@@ -465,7 +465,7 @@
 						"japanese": "騎士道など無用だ！まとめてかかってきな！",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Don't bother with courtesy! Just bunch up and come at me!",
 						"englishNote": ""
 					},
 					"18": {
@@ -477,7 +477,7 @@
 						"japanese": "お前たちの努力は感動的だったぞ――だが、相手を間違えたらそれまでだ",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Your endeavors were touching... but when you pick the wrong fight, that's all they'll ever be.",
 						"englishNote": ""
 					},
 					"19": {
@@ -489,7 +489,7 @@
 						"japanese": "この雪辱にどれだけの利子がつくか……すぐに思い知らせてやる！",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "My payback comes with interest... Before long, you'll know how much!",
 						"englishNote": ""
 					},
 					"20": {
@@ -501,7 +501,7 @@
 						"japanese": "遊びはここまでだ！",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Playtime's over!",
 						"englishNote": ""
 					},
 					"21": {
@@ -513,7 +513,7 @@
 						"japanese": "この程度か？",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "That all ya got?",
 						"englishNote": ""
 					},
 					"22": {
@@ -525,7 +525,7 @@
 						"japanese": "狼を犬だと勘違いしてるようだな……ふん、あとで噛まれても泣くんじゃないぞ？",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Seems you've mistaken a wolf for a dog... Hmph, don't start crying if you get bit cause of it.",
 						"englishNote": ""
 					},
 					"23": {
@@ -537,7 +537,7 @@
 						"japanese": "お前の笑顔はヤツを思い出させる……憎みたくても憎みきれないヤツの事を",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Your smile makes me think of her... She's someone I wanna hate, but can't bring myself to.",
 						"englishNote": ""
 					},
 					"24": {
@@ -549,7 +549,7 @@
 						"japanese": "そんな顔をするな。お前が裏切らない限り、オレもお前を裏切ったりはしない",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Stop looking so intimidated. Long as you won't betray me, I won't betray you.",
 						"englishNote": ""
 					},
 					"25": {
@@ -561,7 +561,7 @@
 						"japanese": "お前が傷つくと他のやつらがうるさいからな。…オレを盾代わりにしても構わん",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "I can't stand hearing those babies cry when you get hurt... So use me as a shield. I don't mind.",
 						"englishNote": ""
 					},
 					"26": {
@@ -573,7 +573,7 @@
 						"japanese": "お前のそばでは空気も弛んでしまう……ここで少し仮眠を取る………………離れないで",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "It's like the mood eases up when you're with me... I'mma get some rest right here... And don't you leave me...",
 						"englishNote": ""
 					},
 					"27": {
@@ -583,6 +583,42 @@
 						"chineseTL": "",
 						"chineseNote": "",
 						"japanese": "オレが行く道は、決して許されることなく、未来すら見通せない泥まみれの道。それでも一緒に来てくれるか？……ふん、呆れたバカだ。その愚かさに免じて――オレの命をもって報いてやるよ",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "The path I walk is an unforgiving, dirt-ridden path where you can't even see the future lying ahead of you. But ya still wanna go with me? ... Hmph, your stupidity amazes me. And for your foolishness, I offer you the rest of my days.",
+						"englishNote": ""
+					},
+					"28": {
+						"event": "Like Present",
+						"media": "present_like",
+						"chinese": "",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"29": {
+						"event": "Dislike Present",
+						"media": "present_dislike",
+						"chinese": "",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"30": {
+						"event": "Main Title",
+						"media": "extra",
+						"chinese": "",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
 						"japaneseTL": "",
 						"japaneseNote": "",
 						"english": "",
