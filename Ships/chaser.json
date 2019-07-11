@@ -1,903 +1,975 @@
 {
-  "name_reference": "chaser",
-  "cn_reference": "zhuiganzhe",
-  "nameJP": "チェイサー",
-  "nameCN": "追赶者",
-  "ID": "376",
-  "name": "Chaser",
-  "internal_id": "206051",
-  "rarity": "Elite",
-  "initialStar": "★★☆☆☆",
-  "hull": "Light Aircraft Carrier",
-  "navy": "Royal Navy",
-  "prefix": "HMS",
-  "buildTime": "",
-  "class": "Attacker-Class",
-  "parameters": {
-    "firepower": "E",
-    "torpedo": "E",
-    "aviation": "A",
-    "evasion": "D",
-    "antiAir": "B",
-    "hp": "B"
-  },
-  "scrap": {
-    "gold": "7",
-    "oil": "3",
-    "medal": "4"
-  },
-  "releaseDate": {
-    "JP": "",
-    "CN": "",
-    "KR": "",
-    "EN": ""
-  },
-  "artist": {
-    "name": "",
-    "weibo": "",
-    "twitter": "",
-    "pixiv": "",
-    "other": ""
-  },
-  "enhance": {
-    "firepower": "0",
-    "torpedo": "0",
-    "aviation": "37",
-    "reload": "13"
-  },
-  "acquisitionMethod": "Event: Lunar New Year",
-  "skill": {
-    "1": {
-      "icon": "3001",
-      "requirement": "",
-      "name": "Quick Takeoff",
-      "type": "Offensive",
-      "description": "When this ship launches an Airstrike: 5.0% (15.0%) chance to make the next Airstrike available immediately."
-    },
-    "2": {
-      "icon": "11900",
-      "requirement": "",
-      "name": "Protector of The North Passage",
-      "type": "Offensive",
-      "description": "When this ship launches an Airstrike: commences a Scan that reveals the location of all enemy Submarines for 5 (10)s. Additionally, launches a special airstrike with Swordfishes armed with Anti-Submarine torpedoes. Torpedo damage is based on the skill's level."
-    }
-  },
-  "skin": {
-    "1": {
-      "id": "zhuiganzhe",
-      "name": "Chaser ",
-      "description": "Attacker-class escort carrier - Chaser (D32) ",
-      "expression": {
-        "0": {
-          "id": "0"
-        }
-      }
-    },
-    "2": {
-      "id": "zhuiganzhe_2",
-      "name": "The Way of the Dragon Empery ",
-      "description": "Does this dress from the Dragon Empery not suit me well? Though I was born in the Eagle Union and raised by the Royal Navy, my time in the Dragon Empery also left a deep impression upon me. Why don't we have a chat about their profound culture and tea? Hehe~ ",
-      "expression": {
-        "0": {
-          "id": "0"
-        },
-        "1": {
-          "id": "1"
-        },
-        "2": {
-          "id": "2"
-        },
-        "3": {
-          "id": "3"
-        }
-      }
-    },
-    "3": {
-      "id": "zhuiganzhe_3",
-      "name": "Gamer Style",
-      "description": "よし！実績ゲット！…あら？指揮官、ご機嫌よう。わたくしのこの格好がそんなに珍しいの？ふふ、こう見えてもユニオン出身、エンターテイメントももちろん心得ていることよ♪",
-      "expression": {
-        "0": {
-          "id": "0"
-        },
-        "1": {
-          "id": "1"
-        },
-        "2": {
-          "id": "2"
-        },
-        "3": {
-          "id": "3"
-        },
-        "4": {
-          "id": "4"
-        }
-      }
-    }
-  },
-  "defaultEquipment": {
-    "1": {
-      "icon": "17100",
-      "rarity": "Common",
-      "name": "F4F Wildcat"
-    },
-    "2": {
-      "icon": "28000",
-      "rarity": "Common",
-      "name": "Swordfish"
-    },
-    "3": {
-      "icon": "",
-      "rarity": "",
-      "name": ""
-    }
-  },
-  "stats": {
-    "100": {
-      "hp": "4023",
-      "firepower": "0",
-      "torpedo": "0",
-      "antiAir": "224",
-      "aviation": "263",
-      "reload": "161",
-      "hit": "73",
-      "evasion": "39",
-      "speed": "18",
-      "luck": "82",
-      "asw": "128",
-      "oxygen": "0",
-      "ammo": "0",
-      "cost": "11",
-      "armor": "Medium"
-    },
-    "120": {
-      "hp": "4707",
-      "firepower": "0",
-      "torpedo": "0",
-      "antiAir": "257",
-      "aviation": "299",
-      "reload": "185",
-      "hit": "86",
-      "evasion": "62",
-      "speed": "18",
-      "luck": "82",
-      "asw": "144",
-      "oxygen": "0",
-      "ammo": "0",
-      "cost": "11",
-      "armor": "Medium"
-    },
-    "base": {
-      "hp": "778",
-      "firepower": "0",
-      "torpedo": "0",
-      "antiAir": "48",
-      "aviation": "56",
-      "reload": "68",
-      "hit": "28",
-      "evasion": "15",
-      "speed": "18",
-      "luck": "82",
-      "asw": "35",
-      "oxygen": "0",
-      "ammo": "0",
-      "cost": "3",
-      "armor": "Medium"
-    },
-    "100retrofit": {
-      "hp": "",
-      "firepower": "",
-      "torpedo": "",
-      "antiAir": "",
-      "aviation": "",
-      "reload": "",
-      "hit": "",
-      "evasion": "",
-      "speed": "18",
-      "luck": "82",
-      "asw": "",
-      "oxygen": "0",
-      "ammo": "0",
-      "cost": "11",
-      "armor": "Medium"
-    },
-    "120retrofit": {
-      "hp": "",
-      "firepower": "",
-      "torpedo": "",
-      "antiAir": "",
-      "aviation": "",
-      "reload": "",
-      "hit": "",
-      "evasion": "",
-      "speed": "18",
-      "luck": "82",
-      "asw": "",
-      "oxygen": "0",
-      "ammo": "0",
-      "cost": "11",
-      "armor": "Medium"
-    }
-  },
-  "limitBreak": {
-    "tier1": "All fighters +1/Fighter efficiency +5%",
-    "tier2": "Hangar capacity +1/All Torpedo Bombers +1/Fighter efficiency +10%",
-    "tier3": "All aircraft +1/Torpedo Bomber efficiency +15%"
-  },
-  "equipmentLoadout": {
-    "1": {
-      "type": "Fighter",
-      "efficiency": "115%/120%/130%/130%",
-      "amount": "1/2/2/3",
-      "preload": "0/0/0/0"
-    },
-    "2": {
-      "type": "Torpedo Bomber",
-      "efficiency": "130%/130%/130%/145%",
-      "amount": "1/1/2/3",
-      "preload": "0/0/0/0"
-    },
-    "3": {
-      "type": "Anti-Air Gun",
-      "efficiency": "80%/80%/80%/80%",
-      "amount": "1/1/1/1",
-      "preload": "0/0/0/0"
-    },
-    "4": {
-      "type": "Auxiliary",
-      "efficiency": "-",
-      "amount": "-",
-      "preload": "-"
-    },
-    "5": {
-      "type": "Auxiliary",
-      "efficiency": "-",
-      "amount": "-",
-      "preload": "-"
-    }
-  },
-  "build": {
-    "light": {
-      "JP": "",
-      "CN": "",
-      "EN": ""
-    },
-    "heavy": {
-      "JP": "",
-      "CN": "",
-      "EN": ""
-    },
-    "special": {
-      "JP": "",
-      "CN": "",
-      "EN": ""
-    },
-    "limited": {
-      "JP": "",
-      "CN": "",
-      "EN": ""
-    }
-  },
-  "drop": {
-    "droppable": "false",
-    "list": {
-      "1": {
-        "event": "",
-        "chapter": {
-          "1": {
-            "label": "Ch .1",
-            "node": {
-              "1": {
-                "drop": "✓",
-                "note": "-"
-              }
-            }
-          }
-        }
-      }
-    }
-  },
-  "lines": {
-    "skin": {
-      "1": {
-        "skin_id": "zhuiganzhe",
-        "id": "0",
-        "label": "Chaser ",
-        "dialogue": {
-          "1": {
-            "event": "Ship Description",
-            "media": "",
-            "chinese": "攻击者级航空母舰—追赶者，舷号D32",
-            "chineseTL": "",
-            "chineseNote": "",
-            "japanese": "アタッカー級航空母艦・チェイサー（HMS Chaser）",
-            "japaneseTL": "",
-            "japaneseNote": "",
-            "english": "Attacker-class escort carrier - Chaser (D32)",
-            "englishNote": ""
-          },
-          "2": {
-            "event": "Biography",
-            "media": "profile",
-            "chinese": "我是皇家海军“攻击者”级护航航母的一员，虽然一直在皇家舰队服役，但我其实是在白鹰出生的哦，另外还在东煌待过一阵子呢～潜艇确实很讨厌，但只要细心应对就没什么大问题呢~",
-            "chineseTL": "",
-            "chineseNote": "",
-            "japanese": "ロイヤルネイビー「アタッカー」級のわたくしは、本当はユニオン生まれなの。そして、東煌（どんふぁん）ともちょっとしたゆかりがあるわ。潜水艦は確かに嫌らしいけど……まあ気をつけて対処すれば大丈夫だわ~",
-            "japaneseTL": "",
-            "japaneseNote": "",
-            "english": "I am a member of the Royal Navy's Attacker-class escort carriers. Although I served in the Royal Navy, I was originally born in the Eagle Union and even stayed in the Dragon Empery for some time. I really dislike submarines, but I should be fine as long as we deal with them carefully~",
-            "englishNote": ""
-          },
-          "3": {
-            "event": "Acquisition",
-            "media": "get",
-            "chinese": "贵安，指挥官，护卫航母“追赶者”向您报到。话说这里有准备上等的茶器和茶叶么？我可是很期待在这里认识拥有同样高尚品味的朋友呢，呵呵~",
-            "chineseTL": "",
-            "chineseNote": "",
-            "japanese": "ご機嫌よう指揮官、護衛空母「チェイサー」到着よ。さて、ここには上質な茶葉とティーセットがあるのかしら？わたくし、同じ趣味を持っている方々との出会いを楽しみにしているの。ふふふ♪",
-            "japaneseTL": "",
-            "japaneseNote": "",
-            "english": "Greetings, Commander. Escort carrier Chaser, reporting for duty. Rumour has it that the tea and refreshments prepared here are simply delicious. Of course, I look forward to meeting friends here who share my refined taste, hehe~",
-            "englishNote": ""
-          },
-          "4": {
-            "event": "Login",
-            "media": "login",
-            "chinese": "早安，指挥官。为了健康和美容，每天早晨就从一杯红茶开始吧～",
-            "chineseTL": "",
-            "chineseNote": "",
-            "japanese": "指揮官、ご機嫌麗しゅう♪健康と美容のために、毎朝に一杯の紅茶よ",
-            "japaneseTL": "",
-            "japaneseNote": "",
-            "english": "G'day, Commander. For beauty and health, start your morning with a cuppa~!",
-            "englishNote": ""
-          },
-          "5": {
-            "event": "Details",
-            "media": "detail",
-            "chinese": "指挥官，往红茶里加牛奶也是一种不错的选择哦~有机会的话务必尝试一下。",
-            "chineseTL": "",
-            "chineseNote": "",
-            "japanese": "指揮官、紅茶にミルクを加えるとおいしくなるわよ。今度機会があったら試してちょうだい♪",
-            "japaneseTL": "",
-            "japaneseNote": "",
-            "english": "Commander, adding milk to your black tea is a fine way of enjoying it as well~ If you get a chance, be sure to give it a try.",
-            "englishNote": ""
-          },
-          "6": {
-            "event": "Main 1",
-            "media": "main_1",
-            "chinese": "舰载机的起降可是门大学问呢，一不小心的话就会惹出大麻烦的哦？",
-            "chineseTL": "",
-            "chineseNote": "",
-            "japanese": "艦載機の発着は大変ね。少し不注意があったら大事になるわよ？",
-            "japaneseTL": "",
-            "japaneseNote": "",
-            "english": "Launching and landing carrier-based planes is a bit of a sensitive topic. You'll end up in hot water if you're not careful. ",
-            "englishNote": ""
-          },
-          "7": {
-            "event": "Main 2",
-            "media": "main_2",
-            "chinese": "指挥官，您有见过极光吗？璀璨壮丽而又千变万化的光带划过夜空的模样，真想让你也亲眼见证一回呢",
-            "chineseTL": "",
-            "chineseNote": "",
-            "japanese": "指揮官、極北のオーロラを見たことある？壮大で美しく、しかも常に変化し続ける夜空を照らす流麗なる光――いつか貴方にも見せたいわ。ふふふ♪",
-            "japaneseTL": "",
-            "japaneseNote": "",
-            "english": "Commander, have you seen an aurora before? The dazzling, ever shifting bands of light illuminating the night sky... I'd really like you to see for yourself. ",
-            "englishNote": ""
-          },
-          "8": {
-            "event": "Main 3",
-            "media": "main_3",
-            "chinese": "护卫舰队的驱逐们真让人操心呢，看到潜艇就一股脑地冲上去了,必须让她们好好记住护航队形才行。",
-            "chineseTL": "",
-            "chineseNote": "",
-            "japanese": "護衛艦隊の駆逐艦たちには世話を焼いちゃうわ。潜水艦を探知した途端に我先にと前に出ちゃうなんて…護衛の陣形をちゃんと覚えさせなくっちゃ",
-            "japaneseTL": "",
-            "japaneseNote": "",
-            "english": "I'm really worried about the escort destroyers. As soon as they see submarines, they immediate charge forward. Please remind them to stay in escort formation.",
-            "englishNote": ""
-          },
-          "9": {
-            "event": "Touch",
-            "media": "touch_1",
-            "chinese": "指挥官，舰载机的孩子们状态都很棒，随时可以出击哦",
-            "chineseTL": "",
-            "chineseNote": "",
-            "japanese": "指揮官、艦載機の子たちはみんないいコンディションよ。何時でも出撃できるわ",
-            "japaneseTL": "",
-            "japaneseNote": "",
-            "english": "Commander, my aircraft are in ace condition, ready to deploy at any time!",
-            "englishNote": ""
-          },
-          "10": {
-            "event": "Touch (Special)",
-            "media": "touch_2",
-            "chinese": "这可不是对待淑女的态度喔？",
-            "chineseTL": "",
-            "chineseNote": "",
-            "japanese": "レディへの接し方じゃないわよ？",
-            "japaneseTL": "",
-            "japaneseNote": "",
-            "english": "This is no way to treat a lady~",
-            "englishNote": ""
-          },
-          "11": {
-            "event": "Mission",
-            "media": "task",
-            "chinese": "指挥官，新的任务下来了，可不要偷懒哦？          ",
-            "chineseTL": "",
-            "chineseNote": "",
-            "japanese": "指揮官、新しい任務が出されたわよ。サボらないでちょうだいね？",
-            "japaneseTL": "",
-            "japaneseNote": "",
-            "english": "Commander, new missions have been posted. Don't get lazy on me now~",
-            "englishNote": ""
-          },
-          "12": {
-            "event": "Mission Complete",
-            "media": "mission_complete",
-            "chinese": "任务奖励还是挺丰厚的呢，不愧是指挥官，很努力了呢~",
-            "chineseTL": "",
-            "chineseNote": "",
-            "japanese": "結構いい任務報酬じゃない。さすがは指揮官、頑張ったわね",
-            "japaneseTL": "",
-            "japaneseNote": "",
-            "english": "That's quite a nice haul from the mission rewards. As expected of Commander, ever so hardworking.",
-            "englishNote": ""
-          },
-          "13": {
-            "event": "Mail",
-            "media": "mail",
-            "chinese": "指挥官，您的航空特快邮件到了。",
-            "chineseTL": "",
-            "chineseNote": "",
-            "japanese": "指揮官、あなたへのエクスプレス便よ",
-            "japaneseTL": "",
-            "japaneseNote": "",
-            "english": "Commander, your air express mail is here.",
-            "englishNote": ""
-          },
-          "14": {
-            "event": "Return to Port",
-            "media": "home",
-            "chinese": "指挥官，您回来了呀。让我看看…很好，没有受伤就是胜利呢~",
-            "chineseTL": "",
-            "chineseNote": "",
-            "japanese": "あら、指揮官？ちょっと見せて……怪我していないならこっちの勝ちよ。よしよし",
-            "japaneseTL": "",
-            "japaneseNote": "",
-            "english": "Commander, you're back! Let me take a look... Great, you won without even a scratch~",
-            "englishNote": ""
-          },
-          "15": {
-            "event": "Commission Complete",
-            "media": "expedition",
-            "chinese": "委托组的孩子们回来了，不知道有没有顺路带来新的茶叶呢…",
-            "chineseTL": "",
-            "chineseNote": "",
-            "japanese": "委託組の子たちが戻ってきたわ。新しい茶葉を持ってきてくれたのかしら…",
-            "japaneseTL": "",
-            "japaneseNote": "",
-            "english": "The girls on commission have returned. I wonder if they managed to pick up any tea leaves along the way.",
-            "englishNote": ""
-          },
-          "16": {
-            "event": "Enhancement",
-            "media": "upgrade",
-            "chinese": "啊啦，这样下去说不定能和正规航母们有相等的战力呢~",
-            "chineseTL": "",
-            "chineseNote": "",
-            "japanese": "あら、このままでは本当に正規空母並になれるかもしれないわよ？",
-            "japaneseTL": "",
-            "japaneseNote": "",
-            "english": "My my, at this rate, I'm might even catch up to those regular carriers.",
-            "englishNote": ""
-          },
-          "17": {
-            "event": "Flagship",
-            "media": "warcry",
-            "chinese": "如果被我追赶上了就不要想着逃脱了哦，呵呵~",
-            "chineseTL": "",
-            "chineseNote": "",
-            "japanese": "わたくしに追いかけられたら、逃げられるとは思わないことよ。ふふふ♪",
-            "japaneseTL": "",
-            "japaneseNote": "",
-            "english": "If I'm chasing you, don't think you'll get away so easily, haha~",
-            "englishNote": ""
-          },
-          "18": {
-            "event": "Victory",
-            "media": "mvp",
-            "chinese": "虽然是护卫航母，但是我的实力也不输给正规航母的诸位哦~",
-            "chineseTL": "",
-            "chineseNote": "",
-            "japanese": "護衛空母だけど、実力は正規空母レベルと比べても遜色ないわよ",
-            "japaneseTL": "",
-            "japaneseNote": "",
-            "english": "Even though I'm an escort carrier, I won't lose to the regular aircraft carriers when it comes to ability~",
-            "englishNote": ""
-          },
-          "19": {
-            "event": "Defeat",
-            "media": "lose",
-            "chinese": "讨厌，飞行甲板又被烧焦了…",
-            "chineseTL": "",
-            "chineseNote": "",
-            "japanese": "やだ、飛行看板が黒焦げじゃない…",
-            "japaneseTL": "",
-            "japaneseNote": "",
-            "english": "Drats, my flight deck caught on fire again... ",
-            "englishNote": ""
-          },
-          "20": {
-            "event": "Skill",
-            "media": "skill",
-            "chinese": "816中队，迅速出击！",
-            "chineseTL": "",
-            "chineseNote": "",
-            "japanese": "816中隊、出撃よ！",
-            "japaneseTL": "",
-            "japaneseNote": "",
-            "english": "816 Squadron, scramble!",
-            "englishNote": ""
-          },
-          "21": {
-            "event": "Low HP",
-            "media": "hp",
-            "chinese": "甲板起火！必须快点扑灭才行！",
-            "chineseTL": "",
-            "chineseNote": "",
-            "japanese": "甲板に火災！？早く消さなくちゃ！",
-            "japaneseTL": "",
-            "japaneseNote": "",
-            "english": "My flight deck's on fire! Hurry and put it out!",
-            "englishNote": ""
-          },
-          "22": {
-            "event": "Affinity (Upset)",
-            "media": "feeling1",
-            "chinese": "最近的指挥官，状态有些不好呢。有什么烦恼，向我倾诉也是可以的哦？",
-            "chineseTL": "",
-            "chineseNote": "",
-            "japanese": "最近指揮官はちょっと調子が悪いわね。悩み事があったら、わたくしに相談してもいいわよ？",
-            "japaneseTL": "",
-            "japaneseNote": "",
-            "english": "Commander, you've been in pretty rough shape recently. If there's something bothering you, it wouldn't hurt to let me know~",
-            "englishNote": ""
-          },
-          "23": {
-            "event": "Affinity (Stranger)",
-            "media": "feeling2",
-            "chinese": "虽然出身于白鹰，但皇家的各位对我都很亲切，贝尔法斯特还给我传授了一些泡红茶的经验呢~",
-            "chineseTL": "",
-            "chineseNote": "",
-            "japanese": "ユニオン生まれのわたくしだけど、ロイヤルの皆はとても親切に接してくれているわ。紅茶の淹れ方もベルファストから少し教わったのよ",
-            "japaneseTL": "",
-            "japaneseNote": "",
-            "english": "Even though I was born in the Eagle Union, I was treated very warmly in the Royal Navy. Belfast even taught me how to make a proper cuppa~",
-            "englishNote": ""
-          },
-          "24": {
-            "event": "Affinity (Friendly)",
-            "media": "feeling3",
-            "chinese": "每次出航时，总会有一些海鸥在头顶上飞翔呢，据说这是航行安全的意象喔~每次看到这些小家伙们的身姿总会感到心情舒畅呢~",
-            "chineseTL": "",
-            "chineseNote": "",
-            "japanese": "わたくしが母港を出る時、いつも空にかもめたちが飛んでいるのが見えるじゃない？どうやらあれは航行安全の兆しらしいわよ。ふふ、あの子たちを見ると、爽やかな気持ちになるわね～",
-            "japaneseTL": "",
-            "japaneseNote": "",
-            "english": "Every time I set sail, some seagulls will be flying overhead. Legend has it that this signifies a safe journey~ Every time I see these little guys, I always feel at ease.",
-            "englishNote": ""
-          },
-          "25": {
-            "event": "Affinity (Like)",
-            "media": "feeling4",
-            "chinese": "指挥官，适时培养一些高级的品味也是很重要的喔~要尝试一下我新泡的红茶么？这可是我的自信之作哦，呵呵~",
-            "chineseTL": "",
-            "chineseNote": "",
-            "japanese": "指揮官、品のある趣味をもつことは大事よ。というわけで、わたくしの淹れたての紅茶でもどう？今日のは自信作なの。ふふふ♪",
-            "japaneseTL": "",
-            "japaneseNote": "",
-            "english": "Commander, it is important for you to develop a refined taste in a timely manner~ Would you like to try some of my freshly-brewed tea? I have the utmost confidence in this particular skill, hehe~",
-            "englishNote": ""
-          },
-          "26": {
-            "event": "Affinity (Love)",
-            "media": "feeling5",
-            "chinese": "和指挥官单独相处时，总感觉红茶的味道变得比平时更加甘甜醇厚了呢~这难道是…恋爱的味道么？",
-            "chineseTL": "",
-            "chineseNote": "",
-            "japanese": "指揮官と二人っきりの時は、紅茶もいつもより香ばしくなる気がするわね～これって…恋の香り？",
-            "japaneseTL": "",
-            "japaneseNote": "",
-            "english": "Commander, when I'm alone with you, I feel like the taste of tea becomes even more mellow and sweet~ Could this be... what love tastes like?",
-            "englishNote": ""
-          },
-          "27": {
-            "event": "Pledge",
-            "media": "propose",
-            "chinese": "这算是指挥官对我的告白么？呵呵~指挥官真是个率直的人呢，拿出了勇气，了不起了不起~不过，在我答复您之前，可以再举行一次么？只有你我二人的，秘密的茶会…",
-            "chineseTL": "",
-            "chineseNote": "",
-            "japanese": "指揮官からの愛の告白かしら？ふふ、指揮官は素直ね～えらいえらい～わたくしからの答えを聞く前に、もう一回だけやってちょうだい？二人だけの、秘密のお茶会を……",
-            "japaneseTL": "",
-            "japaneseNote": "",
-            "english": "Commander, are you confessing to me? Hehe~ I'm very impressed that you're being so straightforward and brave~ But before I can reciprocate, can I propose something? Just for the two of us... a secret tea party...",
-            "englishNote": ""
-          }
-        }
-      },
-      "2": {
-        "skin_id": "zhuiganzhe_2",
-        "id": "1",
-        "label": "The Way of the Dragon Empery ",
-        "dialogue": {
-          "1": {
-            "event": "Ship Description",
-            "media": "",
-            "chinese": "这一身东煌的装扮，是不是很适合我呢？虽然生在白鹰，长在皇家，但我也在东煌留下过痕迹哦～让我们来聊聊东煌的茶与文化吧？呵呵～",
-            "chineseTL": "",
-            "chineseNote": "",
-            "japanese": "この東煌（どんふぁん）の衣装は似合ってるのかな？わたくし、ユニオン生まれでロイヤル育ちだけど、実は東煌にもちょっとした足跡を残したわよ？では、オリエンタルなお茶と文化についておしゃべりでもしようかしら、ふふふ♪",
-            "japaneseTL": "",
-            "japaneseNote": "",
-            "english": "Does this dress from the Dragon Empery not suit me well? Though I was born in the Eagle Union and raised by the Royal Navy, my time in the Dragon Empery also left a deep impression upon me. Why don't we have a chat about their profound culture and tea? Hehe~",
-            "englishNote": ""
-          },
-          "2": {
-            "event": "Acquisition",
-            "media": "get_1",
-            "chinese": "这一身东煌的装扮，是不是很适合我呢？虽然生在白鹰，长在皇家，但我也在东煌留下过痕迹哦～让我们来聊聊东煌的茶与文化吧？呵呵～",
-            "chineseTL": "",
-            "chineseNote": "",
-            "japanese": "この東煌（どんふぁん）の衣装は似合ってるのかな？わたくし、ユニオン生まれでロイヤル育ちだけど、実は東煌にもちょっとした足跡を残したわよ？では、オリエンタルなお茶と文化についておしゃべりでもしようかしら、ふふふ♪",
-            "japaneseTL": "",
-            "japaneseNote": "",
-            "english": "Does this dress from the Dragon Empery not suit me well? Though I was born in the Eagle Union and raised by the Royal Navy, my time in the Dragon Empery also left a deep impression upon me. Why don't we have a chat about their profound culture and tea? Hehe~",
-            "englishNote": ""
-          },
-          "3": {
-            "event": "Login",
-            "media": "login_1",
-            "chinese": "哦？指挥官回来啦~今天要听我讲哪段故事呢？",
-            "chineseTL": "",
-            "chineseNote": "",
-            "japanese": "あら、指揮官、戻ってきたのね～今日はどんなおとぎ話を聞きたいのかしら？",
-            "japaneseTL": "",
-            "japaneseNote": "",
-            "english": "Hm? Commander, you're back~ Is there a story you'd like to hear from me today?",
-            "englishNote": ""
-          },
-          "4": {
-            "event": "Details",
-            "media": "detail_1",
-            "chinese": "来到东煌后，觉得除了皇家的红茶，偶尔感受一下绿茶的清香回味也非常不错呢～",
-            "chineseTL": "",
-            "chineseNote": "",
-            "japanese": "東煌に行ってからは、ロイヤルの紅茶もいいけど、たまには緑茶のスッキリした香りもいいかなって思うようになったわ",
-            "japaneseTL": "",
-            "japaneseNote": "",
-            "english": "After spending some time in the Empery, I started to realise that, in addition to black tea, I sometimes wanted to enjoy the fragrance of green tea as well.",
-            "englishNote": ""
-          },
-          "5": {
-            "event": "Main 1",
-            "media": "main_1_1",
-            "chinese": "东煌的舞蹈，似乎很难学呀……嗯？指挥官愿意陪我练习？那应该很快就能学会了呢~",
-            "chineseTL": "",
-            "chineseNote": "",
-            "japanese": "東煌のダンス、難しそう……指揮官が練習に付き合ってくれるの？ふふ、なら楽勝ね！",
-            "japaneseTL": "",
-            "japaneseNote": "",
-            "english": "The Dragon Empery's traditional dances seem difficult to learn... Eh, you'd like to learn them with me? In that case, we should be able to learn them in no time~ ",
-            "englishNote": ""
-          },
-          "6": {
-            "event": "Main 2",
-            "media": "main_2_1",
-            "chinese": "诶？烟火表演？算了算了，我…有点怕火…",
-            "chineseTL": "",
-            "chineseNote": "",
-            "japanese": "は、花火ショー？わ、わたくしはいいかな…ちょっと火、怖いし……",
-            "japaneseTL": "",
-            "japaneseNote": "",
-            "english": "Eh, fireworks display? Um, I think I'll pass... I'm... not good around fire. ",
-            "englishNote": ""
-          },
-          "7": {
-            "event": "Main 3",
-            "media": "main_3_1",
-            "chinese": "哈欠~昨晚给东煌的伙伴们讲故事到太晚了，现在还很困~",
-            "chineseTL": "",
-            "chineseNote": "",
-            "japanese": "ふは～昨日は東煌の仲間たちと夜遅くまでおしゃべりが盛り上がったせいで、今すごく眠いわ……",
-            "japaneseTL": "",
-            "japaneseNote": "",
-            "english": "(yawns) ... Ahh, I stayed up too late last night exchanging stories with the Empery girls, so I'm really sleepy...",
-            "englishNote": ""
-          },
-          "8": {
-            "event": "Touch",
-            "media": "touch_1_1",
-            "chinese": "指挥官喜欢我的旗袍吗？您不觉得金色的头发搭配东煌的旗袍别有韵味嘛？嘿嘿嘿~",
-            "chineseTL": "",
-            "chineseNote": "",
-            "japanese": "指揮官はわたくしのこの格好が好きかしら？ブロンドヘアに東煌風の「ふらっぐどれす」、風情があると思わない？ふふふ♪",
-            "japaneseTL": "",
-            "japaneseNote": "",
-            "english": "Commander, do you like my qipao? Don't you think blonde hair matches the aesthetic of the dress quite well? Ehehe~",
-            "englishNote": ""
-          },
-          "9": {
-            "event": "Touch (Special)",
-            "media": "touch_2_1",
-            "chinese": "哎呀，指挥官。撒娇也不可以过火哦~",
-            "chineseTL": "",
-            "chineseNote": "",
-            "japanese": "あら、指揮官？甘えるのもほどほどにね～",
-            "japaneseTL": "",
-            "japaneseNote": "",
-            "english": "Oh dear... Commander, flirting is fine but please don't go overboard~",
-            "englishNote": ""
-          },
-          "10": {
-            "event": "Mission Complete",
-            "media": "mission_complete_1",
-            "chinese": "嗯！不愧是指挥官，任务完成啦！快看看奖励里面有没有茶叶~",
-            "chineseTL": "",
-            "chineseNote": "",
-            "japanese": "うん！任務完了よ！さすが指揮官ね！あっ、早く報酬に新しい茶葉がないかチェックしてちょうだい～",
-            "japaneseTL": "",
-            "japaneseNote": "",
-            "english": "Mhm! As expected, Commander, you've finished the mission! Hurry and see if we were rewarded with any tea~",
-            "englishNote": ""
-          },
-          "11": {
-            "event": "Defeat",
-            "media": "lose_1",
-            "chinese": "唔……有句话叫，胜败乃兵家常事。",
-            "chineseTL": "",
-            "chineseNote": "",
-            "japanese": "うぅ……「勝敗は兵家の常」って言ったっけ",
-            "japaneseTL": "",
-            "japaneseNote": "",
-            "english": "Ugh... there's this saying that \"for soldiers, both victory and defeat are standard issue.\"",
-            "englishNote": ""
-          },
-          "12": {
-            "event": "Skill",
-            "media": "skill_1",
-            "chinese": "看到你了哦~别想跑！",
-            "chineseTL": "",
-            "chineseNote": "",
-            "japanese": "見つけたわよ～逃げられると思わないでちょうだい♪",
-            "japaneseTL": "",
-            "japaneseNote": "",
-            "english": "I see you~ Don't think you can run from me!",
-            "englishNote": ""
-          },
-          "13": {
-            "event": "Affinity (Upset)",
-            "media": "feeling1_1",
-            "chinese": "现在的指挥官就如同放久了的绿茶一样苦涩呢…",
-            "chineseTL": "",
-            "chineseNote": "",
-            "japanese": "今の指揮官、古い茶葉のように苦いのね……",
-            "japaneseTL": "",
-            "japaneseNote": "",
-            "english": "I have a commander who is as bitter as oversteeped green tea that has been left out and forgotten.",
-            "englishNote": ""
-          }
-        }
-      },
-      "3": {
-        "skin_id": "zhuiganzhe_3",
-        "id": "2",
-        "label": "Gamer style",
-        "dialogue": {
-          "1": {
-            "event": "Ship Description",
-            "media": "",
-            "chinese": "好~！成就达成~！…哎呀？指挥官贵安。我这身装扮很稀奇吗？呵呵，我好歹也是白鹰出来的，关于娱乐方面的东西还是略懂一些的♪",
-            "chineseTL": "Okay~! Goal achieved~! ...Oh? Commander. It's strange to see me dressed like this? Haha, I'm from the Eagle Union after all, so I do know a bit about fashion♪",
-            "chineseNote": "",
-            "japanese": "よし！実績ゲット！…あら？指揮官、ご機嫌よう。わたくしのこの格好がそんなに珍しいの？ふふ、こう見えてもユニオン出身、エンターテイメントももちろん心得ていることよ♪",
-            "japaneseTL": "",
-            "japaneseNote": "",
-            "english": "",
-            "englishNote": ""
-          },
-          "2": {
-            "event": "Acquisition",
-            "media": "get_2",
-            "chinese": "好~！成就达成~！…哎呀？指挥官贵安。我这身装扮很稀奇吗？呵呵，我好歹也是白鹰出来的，关于娱乐方面的东西还是略懂一些的♪",
-            "chineseTL": "Okay~! Goal achieved~! ...Oh? Commander. It's strange to see me dressed like this? Haha, I'm from the Eagle Union after all, so I do know a bit about fashion♪",
-            "chineseNote": "",
-            "japanese": "",
-            "japaneseTL": "",
-            "japaneseNote": "",
-            "english": "",
-            "englishNote": ""
-          },
-          "3": {
-            "event": "Login",
-            "media": "login_2",
-            "chinese": "指挥官，今天我们要攻略哪一关呢？",
-            "chineseTL": "Commander, what obstacles shall we tackle today?",
-            "chineseNote": "",
-            "japanese": "",
-            "japaneseTL": "",
-            "japaneseNote": "",
-            "english": "",
-            "englishNote": ""
-          },
-          "4": {
-            "event": "Details",
-            "media": "detail_2",
-            "chinese": "我们毕竟是驰骋于世界各大海域的舰船。作为排解无聊的手段，随身带个游戏机什么的也算不错不是嘛~？",
-            "chineseTL": "Carrying a gaming devic as a means of alleviating boredom isn't isn't so bad is it~? We are after all ships designed to sail the seas of the world.",
-            "chineseNote": "",
-            "japanese": "",
-            "japaneseTL": "",
-            "japaneseNote": "",
-            "english": "",
-            "englishNote": ""
-          },
-          "5": {
-            "event": "Touch (Special)",
-            "media": "touch_2_2",
-            "chinese": "真是的…有游戏还不够吗？",
-            "chineseTL": "Really now... aren't games enough?",
-            "chineseNote": "",
-            "japanese": "",
-            "japaneseTL": "",
-            "japaneseNote": "",
-            "english": "",
-            "englishNote": ""
-          },
-          "6": {
-            "event": "Return to Port",
-            "media": "home_2",
-            "chinese": "好了，看我来拿个高分！",
-            "chineseTL": "Alright, watch me get a high score!",
-            "chineseNote": "",
-            "japanese": "",
-            "japaneseTL": "",
-            "japaneseNote": "",
-            "english": "",
-            "englishNote": ""
-          },
-          "7": {
-            "event": "Affinity (Upset)",
-            "media": "feeling1_2",
-            "chinese": "指挥官？偶尔做点别的事换换心情比较好哦？",
-            "chineseTL": "Commander? You should do something else occasionally to brighten up the mood.",
-            "chineseNote": "",
-            "japanese": "",
-            "japaneseTL": "",
-            "japaneseNote": "",
-            "english": "",
-            "englishNote": ""
-          }
-        }
-      }
-    }
-  },
-  "fleet_tech": {
-    "pt_get": "8",
-    "add_get_attr": "ASW",
-    "add_get_value": "1",
-    "add_get_shiptype": "Light Aircraft Carrier",
-    "pt_upgrade": "16",
-    "pt_level": "12",
-    "add_level_attr": "ASW",
-    "add_level_value": "1",
-    "add_level_shiptype": "Light Aircraft Carrier",
-    "t_level": "4",
-    "ships": "chaser"
-  },
-  "voiceActress": "Rui Tanabe"
+	"name_reference": "chaser",
+	"cn_reference": "zhuiganzhe",
+	"nameJP": "チェイサー",
+	"nameCN": "追赶者",
+	"ID": "376",
+	"name": "Chaser",
+	"internal_id": "206051",
+	"rarity": "Elite",
+	"initialStar": "★★☆☆☆",
+	"hull": "Light Aircraft Carrier",
+	"navy": "Royal Navy",
+	"prefix": "HMS",
+	"buildTime": "",
+	"class": "Attacker-Class",
+	"parameters": {
+		"firepower": "E",
+		"torpedo": "E",
+		"aviation": "A",
+		"evasion": "D",
+		"antiAir": "B",
+		"hp": "B"
+	},
+	"scrap": {
+		"gold": "7",
+		"oil": "3",
+		"medal": "4"
+	},
+	"releaseDate": {
+		"JP": "",
+		"CN": "",
+		"KR": "",
+		"EN": ""
+	},
+	"artist": {
+		"name": "",
+		"weibo": "",
+		"twitter": "",
+		"pixiv": "",
+		"other": ""
+	},
+	"enhance": {
+		"firepower": "0",
+		"torpedo": "0",
+		"aviation": "37",
+		"reload": "13"
+	},
+	"acquisitionMethod": "Event: Lunar New Year",
+	"skill": {
+		"1": {
+			"icon": "3001",
+			"requirement": "",
+			"name": "Quick Takeoff",
+			"type": "Offensive",
+			"description": "When this ship launches an Airstrike: 5.0% (15.0%) chance to make the next Airstrike available immediately."
+		},
+		"2": {
+			"icon": "11900",
+			"requirement": "",
+			"name": "Protector of The North Passage",
+			"type": "Offensive",
+			"description": "When this ship launches an Airstrike: commences a Scan that reveals the location of all enemy Submarines for 5 (10)s. Additionally, launches a special airstrike with Swordfishes armed with Anti-Submarine torpedoes. Torpedo damage is based on the skill's level."
+		}
+	},
+	"skin": {
+		"1": {
+			"id": "zhuiganzhe",
+			"name": "Chaser ",
+			"description": "Attacker-class escort carrier - Chaser (D32) ",
+			"expression": {
+				"0": {
+					"id": "0"
+				}
+			}
+		},
+		"2": {
+			"id": "zhuiganzhe_2",
+			"name": "The Way of the Dragon Empery ",
+			"description": "Does this dress from the Dragon Empery not suit me well? Though I was born in the Eagle Union and raised by the Royal Navy, my time in the Dragon Empery also left a deep impression upon me. Why don't we have a chat about their profound culture and tea? Hehe~ ",
+			"expression": {
+				"0": {
+					"id": "0"
+				},
+				"1": {
+					"id": "1"
+				},
+				"2": {
+					"id": "2"
+				},
+				"3": {
+					"id": "3"
+				}
+			}
+		},
+		"3": {
+			"id": "zhuiganzhe_3",
+			"name": "Gamer Style",
+			"description": "よし！実績ゲット！…あら？指揮官、ご機嫌よう。わたくしのこの格好がそんなに珍しいの？ふふ、こう見えてもユニオン出身、エンターテイメントももちろん心得ていることよ♪",
+			"expression": {
+				"0": {
+					"id": "0"
+				},
+				"1": {
+					"id": "1"
+				},
+				"2": {
+					"id": "2"
+				},
+				"3": {
+					"id": "3"
+				},
+				"4": {
+					"id": "4"
+				}
+			}
+		}
+	},
+	"defaultEquipment": {
+		"1": {
+			"icon": "17100",
+			"rarity": "Common",
+			"name": "F4F Wildcat"
+		},
+		"2": {
+			"icon": "28000",
+			"rarity": "Common",
+			"name": "Swordfish"
+		},
+		"3": {
+			"icon": "",
+			"rarity": "",
+			"name": ""
+		}
+	},
+	"stats": {
+		"100": {
+			"hp": "4023",
+			"firepower": "0",
+			"torpedo": "0",
+			"antiAir": "224",
+			"aviation": "263",
+			"reload": "161",
+			"hit": "73",
+			"evasion": "39",
+			"speed": "18",
+			"luck": "82",
+			"asw": "128",
+			"oxygen": "0",
+			"ammo": "0",
+			"cost": "11",
+			"armor": "Medium"
+		},
+		"120": {
+			"hp": "4707",
+			"firepower": "0",
+			"torpedo": "0",
+			"antiAir": "257",
+			"aviation": "299",
+			"reload": "185",
+			"hit": "86",
+			"evasion": "62",
+			"speed": "18",
+			"luck": "82",
+			"asw": "144",
+			"oxygen": "0",
+			"ammo": "0",
+			"cost": "11",
+			"armor": "Medium"
+		},
+		"base": {
+			"hp": "778",
+			"firepower": "0",
+			"torpedo": "0",
+			"antiAir": "48",
+			"aviation": "56",
+			"reload": "68",
+			"hit": "28",
+			"evasion": "15",
+			"speed": "18",
+			"luck": "82",
+			"asw": "35",
+			"oxygen": "0",
+			"ammo": "0",
+			"cost": "3",
+			"armor": "Medium"
+		},
+		"100retrofit": {
+			"hp": "",
+			"firepower": "",
+			"torpedo": "",
+			"antiAir": "",
+			"aviation": "",
+			"reload": "",
+			"hit": "",
+			"evasion": "",
+			"speed": "18",
+			"luck": "82",
+			"asw": "",
+			"oxygen": "0",
+			"ammo": "0",
+			"cost": "11",
+			"armor": "Medium"
+		},
+		"120retrofit": {
+			"hp": "",
+			"firepower": "",
+			"torpedo": "",
+			"antiAir": "",
+			"aviation": "",
+			"reload": "",
+			"hit": "",
+			"evasion": "",
+			"speed": "18",
+			"luck": "82",
+			"asw": "",
+			"oxygen": "0",
+			"ammo": "0",
+			"cost": "11",
+			"armor": "Medium"
+		}
+	},
+	"limitBreak": {
+		"tier1": "All fighters +1/Fighter efficiency +5%",
+		"tier2": "Hangar capacity +1/All Torpedo Bombers +1/Fighter efficiency +10%",
+		"tier3": "All aircraft +1/Torpedo Bomber efficiency +15%"
+	},
+	"equipmentLoadout": {
+		"1": {
+			"type": "Fighter",
+			"efficiency": "115%/120%/130%/130%",
+			"amount": "1/2/2/3",
+			"preload": "0/0/0/0"
+		},
+		"2": {
+			"type": "Torpedo Bomber",
+			"efficiency": "130%/130%/130%/145%",
+			"amount": "1/1/2/3",
+			"preload": "0/0/0/0"
+		},
+		"3": {
+			"type": "Anti-Air Gun",
+			"efficiency": "80%/80%/80%/80%",
+			"amount": "1/1/1/1",
+			"preload": "0/0/0/0"
+		},
+		"4": {
+			"type": "Auxiliary",
+			"efficiency": "-",
+			"amount": "-",
+			"preload": "-"
+		},
+		"5": {
+			"type": "Auxiliary",
+			"efficiency": "-",
+			"amount": "-",
+			"preload": "-"
+		}
+	},
+	"build": {
+		"light": {
+			"JP": "",
+			"CN": "",
+			"EN": ""
+		},
+		"heavy": {
+			"JP": "",
+			"CN": "",
+			"EN": ""
+		},
+		"special": {
+			"JP": "",
+			"CN": "",
+			"EN": ""
+		},
+		"limited": {
+			"JP": "",
+			"CN": "",
+			"EN": ""
+		}
+	},
+	"drop": {
+		"droppable": "false",
+		"list": {
+			"1": {
+				"event": "",
+				"chapter": {
+					"1": {
+						"label": "Ch .1",
+						"node": {
+							"1": {
+								"drop": "✓",
+								"note": "-"
+							}
+						}
+					}
+				}
+			}
+		}
+	},
+	"lines": {
+		"skin": {
+			"1": {
+				"skin_id": "zhuiganzhe",
+				"id": "0",
+				"label": "Chaser ",
+				"dialogue": {
+					"1": {
+						"event": "Ship Description",
+						"media": "",
+						"chinese": "攻击者级航空母舰—追赶者，舷号D32",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "アタッカー級航空母艦・チェイサー（HMS Chaser）",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Attacker-class escort carrier - Chaser (D32)",
+						"englishNote": ""
+					},
+					"2": {
+						"event": "Biography",
+						"media": "profile",
+						"chinese": "我是皇家海军“攻击者”级护航航母的一员，虽然一直在皇家舰队服役，但我其实是在白鹰出生的哦，另外还在东煌待过一阵子呢～潜艇确实很讨厌，但只要细心应对就没什么大问题呢~",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "ロイヤルネイビー「アタッカー」級のわたくしは、本当はユニオン生まれなの。そして、東煌（どんふぁん）ともちょっとしたゆかりがあるわ。潜水艦は確かに嫌らしいけど……まあ気をつけて対処すれば大丈夫だわ~",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "I am a member of the Royal Navy's Attacker-class escort carriers. Although I served in the Royal Navy, I was originally born in the Eagle Union and even stayed in the Dragon Empery for some time. I really dislike submarines, but I should be fine as long as we deal with them carefully~",
+						"englishNote": ""
+					},
+					"3": {
+						"event": "Acquisition",
+						"media": "get",
+						"chinese": "贵安，指挥官，护卫航母“追赶者”向您报到。话说这里有准备上等的茶器和茶叶么？我可是很期待在这里认识拥有同样高尚品味的朋友呢，呵呵~",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "ご機嫌よう指揮官、護衛空母「チェイサー」到着よ。さて、ここには上質な茶葉とティーセットがあるのかしら？わたくし、同じ趣味を持っている方々との出会いを楽しみにしているの。ふふふ♪",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Greetings, Commander. Escort carrier Chaser, reporting for duty. Rumour has it that the tea and refreshments prepared here are simply delicious. Of course, I look forward to meeting friends here who share my refined taste, hehe~",
+						"englishNote": ""
+					},
+					"4": {
+						"event": "Login",
+						"media": "login",
+						"chinese": "早安，指挥官。为了健康和美容，每天早晨就从一杯红茶开始吧～",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "指揮官、ご機嫌麗しゅう♪健康と美容のために、毎朝に一杯の紅茶よ",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "G'day, Commander. For beauty and health, start your morning with a cuppa~!",
+						"englishNote": ""
+					},
+					"5": {
+						"event": "Details",
+						"media": "detail",
+						"chinese": "指挥官，往红茶里加牛奶也是一种不错的选择哦~有机会的话务必尝试一下。",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "指揮官、紅茶にミルクを加えるとおいしくなるわよ。今度機会があったら試してちょうだい♪",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Commander, adding milk to your black tea is a fine way of enjoying it as well~ If you get a chance, be sure to give it a try.",
+						"englishNote": ""
+					},
+					"6": {
+						"event": "Main 1",
+						"media": "main_1",
+						"chinese": "舰载机的起降可是门大学问呢，一不小心的话就会惹出大麻烦的哦？",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "艦載機の発着は大変ね。少し不注意があったら大事になるわよ？",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Launching and landing carrier-based planes is a bit of a sensitive topic. You'll end up in hot water if you're not careful. ",
+						"englishNote": ""
+					},
+					"7": {
+						"event": "Main 2",
+						"media": "main_2",
+						"chinese": "指挥官，您有见过极光吗？璀璨壮丽而又千变万化的光带划过夜空的模样，真想让你也亲眼见证一回呢",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "指揮官、極北のオーロラを見たことある？壮大で美しく、しかも常に変化し続ける夜空を照らす流麗なる光――いつか貴方にも見せたいわ。ふふふ♪",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Commander, have you seen an aurora before? The dazzling, ever shifting bands of light illuminating the night sky... I'd really like you to see for yourself. ",
+						"englishNote": ""
+					},
+					"8": {
+						"event": "Main 3",
+						"media": "main_3",
+						"chinese": "护卫舰队的驱逐们真让人操心呢，看到潜艇就一股脑地冲上去了,必须让她们好好记住护航队形才行。",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "護衛艦隊の駆逐艦たちには世話を焼いちゃうわ。潜水艦を探知した途端に我先にと前に出ちゃうなんて…護衛の陣形をちゃんと覚えさせなくっちゃ",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "I'm really worried about the escort destroyers. As soon as they see submarines, they immediate charge forward. Please remind them to stay in escort formation.",
+						"englishNote": ""
+					},
+					"9": {
+						"event": "Touch",
+						"media": "touch_1",
+						"chinese": "指挥官，舰载机的孩子们状态都很棒，随时可以出击哦",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "指揮官、艦載機の子たちはみんないいコンディションよ。何時でも出撃できるわ",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Commander, my aircraft are in ace condition, ready to deploy at any time!",
+						"englishNote": ""
+					},
+					"10": {
+						"event": "Touch (Special)",
+						"media": "touch_2",
+						"chinese": "这可不是对待淑女的态度喔？",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "レディへの接し方じゃないわよ？",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "This is no way to treat a lady~",
+						"englishNote": ""
+					},
+					"11": {
+						"event": "Mission",
+						"media": "task",
+						"chinese": "指挥官，新的任务下来了，可不要偷懒哦？          ",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "指揮官、新しい任務が出されたわよ。サボらないでちょうだいね？",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Commander, new missions have been posted. Don't get lazy on me now~",
+						"englishNote": ""
+					},
+					"12": {
+						"event": "Mission Complete",
+						"media": "mission_complete",
+						"chinese": "任务奖励还是挺丰厚的呢，不愧是指挥官，很努力了呢~",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "結構いい任務報酬じゃない。さすがは指揮官、頑張ったわね",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "That's quite a nice haul from the mission rewards. As expected of Commander, ever so hardworking.",
+						"englishNote": ""
+					},
+					"13": {
+						"event": "Mail",
+						"media": "mail",
+						"chinese": "指挥官，您的航空特快邮件到了。",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "指揮官、あなたへのエクスプレス便よ",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Commander, your air express mail is here.",
+						"englishNote": ""
+					},
+					"14": {
+						"event": "Return to Port",
+						"media": "home",
+						"chinese": "指挥官，您回来了呀。让我看看…很好，没有受伤就是胜利呢~",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "あら、指揮官？ちょっと見せて……怪我していないならこっちの勝ちよ。よしよし",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Commander, you're back! Let me take a look... Great, you won without even a scratch~",
+						"englishNote": ""
+					},
+					"15": {
+						"event": "Commission Complete",
+						"media": "expedition",
+						"chinese": "委托组的孩子们回来了，不知道有没有顺路带来新的茶叶呢…",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "委託組の子たちが戻ってきたわ。新しい茶葉を持ってきてくれたのかしら…",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "The girls on commission have returned. I wonder if they managed to pick up any tea leaves along the way.",
+						"englishNote": ""
+					},
+					"16": {
+						"event": "Enhancement",
+						"media": "upgrade",
+						"chinese": "啊啦，这样下去说不定能和正规航母们有相等的战力呢~",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "あら、このままでは本当に正規空母並になれるかもしれないわよ？",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "My my, at this rate, I'm might even catch up to those regular carriers.",
+						"englishNote": ""
+					},
+					"17": {
+						"event": "Flagship",
+						"media": "warcry",
+						"chinese": "如果被我追赶上了就不要想着逃脱了哦，呵呵~",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "わたくしに追いかけられたら、逃げられるとは思わないことよ。ふふふ♪",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "If I'm chasing you, don't think you'll get away so easily, haha~",
+						"englishNote": ""
+					},
+					"18": {
+						"event": "Victory",
+						"media": "mvp",
+						"chinese": "虽然是护卫航母，但是我的实力也不输给正规航母的诸位哦~",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "護衛空母だけど、実力は正規空母レベルと比べても遜色ないわよ",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Even though I'm an escort carrier, I won't lose to the regular aircraft carriers when it comes to ability~",
+						"englishNote": ""
+					},
+					"19": {
+						"event": "Defeat",
+						"media": "lose",
+						"chinese": "讨厌，飞行甲板又被烧焦了…",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "やだ、飛行看板が黒焦げじゃない…",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Drats, my flight deck caught on fire again... ",
+						"englishNote": ""
+					},
+					"20": {
+						"event": "Skill",
+						"media": "skill",
+						"chinese": "816中队，迅速出击！",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "816中隊、出撃よ！",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "816 Squadron, scramble!",
+						"englishNote": ""
+					},
+					"21": {
+						"event": "Low HP",
+						"media": "hp",
+						"chinese": "甲板起火！必须快点扑灭才行！",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "甲板に火災！？早く消さなくちゃ！",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "My flight deck's on fire! Hurry and put it out!",
+						"englishNote": ""
+					},
+					"22": {
+						"event": "Affinity (Upset)",
+						"media": "feeling1",
+						"chinese": "最近的指挥官，状态有些不好呢。有什么烦恼，向我倾诉也是可以的哦？",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "最近指揮官はちょっと調子が悪いわね。悩み事があったら、わたくしに相談してもいいわよ？",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Commander, you've been in pretty rough shape recently. If there's something bothering you, it wouldn't hurt to let me know~",
+						"englishNote": ""
+					},
+					"23": {
+						"event": "Affinity (Stranger)",
+						"media": "feeling2",
+						"chinese": "虽然出身于白鹰，但皇家的各位对我都很亲切，贝尔法斯特还给我传授了一些泡红茶的经验呢~",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "ユニオン生まれのわたくしだけど、ロイヤルの皆はとても親切に接してくれているわ。紅茶の淹れ方もベルファストから少し教わったのよ",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Even though I was born in the Eagle Union, I was treated very warmly in the Royal Navy. Belfast even taught me how to make a proper cuppa~",
+						"englishNote": ""
+					},
+					"24": {
+						"event": "Affinity (Friendly)",
+						"media": "feeling3",
+						"chinese": "每次出航时，总会有一些海鸥在头顶上飞翔呢，据说这是航行安全的意象喔~每次看到这些小家伙们的身姿总会感到心情舒畅呢~",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "わたくしが母港を出る時、いつも空にかもめたちが飛んでいるのが見えるじゃない？どうやらあれは航行安全の兆しらしいわよ。ふふ、あの子たちを見ると、爽やかな気持ちになるわね～",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Every time I set sail, some seagulls will be flying overhead. Legend has it that this signifies a safe journey~ Every time I see these little guys, I always feel at ease.",
+						"englishNote": ""
+					},
+					"25": {
+						"event": "Affinity (Like)",
+						"media": "feeling4",
+						"chinese": "指挥官，适时培养一些高级的品味也是很重要的喔~要尝试一下我新泡的红茶么？这可是我的自信之作哦，呵呵~",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "指揮官、品のある趣味をもつことは大事よ。というわけで、わたくしの淹れたての紅茶でもどう？今日のは自信作なの。ふふふ♪",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Commander, it is important for you to develop a refined taste in a timely manner~ Would you like to try some of my freshly-brewed tea? I have the utmost confidence in this particular skill, hehe~",
+						"englishNote": ""
+					},
+					"26": {
+						"event": "Affinity (Love)",
+						"media": "feeling5",
+						"chinese": "和指挥官单独相处时，总感觉红茶的味道变得比平时更加甘甜醇厚了呢~这难道是…恋爱的味道么？",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "指揮官と二人っきりの時は、紅茶もいつもより香ばしくなる気がするわね～これって…恋の香り？",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Commander, when I'm alone with you, I feel like the taste of tea becomes even more mellow and sweet~ Could this be... what love tastes like?",
+						"englishNote": ""
+					},
+					"27": {
+						"event": "Pledge",
+						"media": "propose",
+						"chinese": "这算是指挥官对我的告白么？呵呵~指挥官真是个率直的人呢，拿出了勇气，了不起了不起~不过，在我答复您之前，可以再举行一次么？只有你我二人的，秘密的茶会…",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "指揮官からの愛の告白かしら？ふふ、指揮官は素直ね～えらいえらい～わたくしからの答えを聞く前に、もう一回だけやってちょうだい？二人だけの、秘密のお茶会を……",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Commander, are you confessing to me? Hehe~ I'm very impressed that you're being so straightforward and brave~ But before I can reciprocate, can I propose something? Just for the two of us... a secret tea party...",
+						"englishNote": ""
+					},
+					"28": {
+						"event": "Like Present",
+						"media": "present_like",
+						"chinese": "",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"29": {
+						"event": "Dislike Present",
+						"media": "present_dislike",
+						"chinese": "",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"30": {
+						"event": "Main Title",
+						"media": "extra",
+						"chinese": "",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					}
+				}
+			},
+			"2": {
+				"skin_id": "zhuiganzhe_2",
+				"id": "1",
+				"label": "The Way of the Dragon Empery ",
+				"dialogue": {
+					"1": {
+						"event": "Ship Description",
+						"media": "",
+						"chinese": "这一身东煌的装扮，是不是很适合我呢？虽然生在白鹰，长在皇家，但我也在东煌留下过痕迹哦～让我们来聊聊东煌的茶与文化吧？呵呵～",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "この東煌（どんふぁん）の衣装は似合ってるのかな？わたくし、ユニオン生まれでロイヤル育ちだけど、実は東煌にもちょっとした足跡を残したわよ？では、オリエンタルなお茶と文化についておしゃべりでもしようかしら、ふふふ♪",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Does this dress from the Dragon Empery not suit me well? Though I was born in the Eagle Union and raised by the Royal Navy, my time in the Dragon Empery also left a deep impression upon me. Why don't we have a chat about their profound culture and tea? Hehe~",
+						"englishNote": ""
+					},
+					"2": {
+						"event": "Acquisition",
+						"media": "get_1",
+						"chinese": "这一身东煌的装扮，是不是很适合我呢？虽然生在白鹰，长在皇家，但我也在东煌留下过痕迹哦～让我们来聊聊东煌的茶与文化吧？呵呵～",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "この東煌（どんふぁん）の衣装は似合ってるのかな？わたくし、ユニオン生まれでロイヤル育ちだけど、実は東煌にもちょっとした足跡を残したわよ？では、オリエンタルなお茶と文化についておしゃべりでもしようかしら、ふふふ♪",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Does this dress from the Dragon Empery not suit me well? Though I was born in the Eagle Union and raised by the Royal Navy, my time in the Dragon Empery also left a deep impression upon me. Why don't we have a chat about their profound culture and tea? Hehe~",
+						"englishNote": ""
+					},
+					"3": {
+						"event": "Login",
+						"media": "login_1",
+						"chinese": "哦？指挥官回来啦~今天要听我讲哪段故事呢？",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "あら、指揮官、戻ってきたのね～今日はどんなおとぎ話を聞きたいのかしら？",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Hm? Commander, you're back~ Is there a story you'd like to hear from me today?",
+						"englishNote": ""
+					},
+					"4": {
+						"event": "Details",
+						"media": "detail_1",
+						"chinese": "来到东煌后，觉得除了皇家的红茶，偶尔感受一下绿茶的清香回味也非常不错呢～",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "東煌に行ってからは、ロイヤルの紅茶もいいけど、たまには緑茶のスッキリした香りもいいかなって思うようになったわ",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "After spending some time in the Empery, I started to realise that, in addition to black tea, I sometimes wanted to enjoy the fragrance of green tea as well.",
+						"englishNote": ""
+					},
+					"5": {
+						"event": "Main 1",
+						"media": "main_1_1",
+						"chinese": "东煌的舞蹈，似乎很难学呀……嗯？指挥官愿意陪我练习？那应该很快就能学会了呢~",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "東煌のダンス、難しそう……指揮官が練習に付き合ってくれるの？ふふ、なら楽勝ね！",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "The Dragon Empery's traditional dances seem difficult to learn... Eh, you'd like to learn them with me? In that case, we should be able to learn them in no time~ ",
+						"englishNote": ""
+					},
+					"6": {
+						"event": "Main 2",
+						"media": "main_2_1",
+						"chinese": "诶？烟火表演？算了算了，我…有点怕火…",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "は、花火ショー？わ、わたくしはいいかな…ちょっと火、怖いし……",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Eh, fireworks display? Um, I think I'll pass... I'm... not good around fire. ",
+						"englishNote": ""
+					},
+					"7": {
+						"event": "Main 3",
+						"media": "main_3_1",
+						"chinese": "哈欠~昨晚给东煌的伙伴们讲故事到太晚了，现在还很困~",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "ふは～昨日は東煌の仲間たちと夜遅くまでおしゃべりが盛り上がったせいで、今すごく眠いわ……",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "(yawns) ... Ahh, I stayed up too late last night exchanging stories with the Empery girls, so I'm really sleepy...",
+						"englishNote": ""
+					},
+					"8": {
+						"event": "Touch",
+						"media": "touch_1_1",
+						"chinese": "指挥官喜欢我的旗袍吗？您不觉得金色的头发搭配东煌的旗袍别有韵味嘛？嘿嘿嘿~",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "指揮官はわたくしのこの格好が好きかしら？ブロンドヘアに東煌風の「ふらっぐどれす」、風情があると思わない？ふふふ♪",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Commander, do you like my qipao? Don't you think blonde hair matches the aesthetic of the dress quite well? Ehehe~",
+						"englishNote": ""
+					},
+					"9": {
+						"event": "Touch (Special)",
+						"media": "touch_2_1",
+						"chinese": "哎呀，指挥官。撒娇也不可以过火哦~",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "あら、指揮官？甘えるのもほどほどにね～",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Oh dear... Commander, flirting is fine but please don't go overboard~",
+						"englishNote": ""
+					},
+					"10": {
+						"event": "Mission Complete",
+						"media": "mission_complete_1",
+						"chinese": "嗯！不愧是指挥官，任务完成啦！快看看奖励里面有没有茶叶~",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "うん！任務完了よ！さすが指揮官ね！あっ、早く報酬に新しい茶葉がないかチェックしてちょうだい～",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Mhm! As expected, Commander, you've finished the mission! Hurry and see if we were rewarded with any tea~",
+						"englishNote": ""
+					},
+					"11": {
+						"event": "Defeat",
+						"media": "lose_1",
+						"chinese": "唔……有句话叫，胜败乃兵家常事。",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "うぅ……「勝敗は兵家の常」って言ったっけ",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Ugh... there's this saying that \"for soldiers, both victory and defeat are standard issue.\"",
+						"englishNote": ""
+					},
+					"12": {
+						"event": "Skill",
+						"media": "skill_1",
+						"chinese": "看到你了哦~别想跑！",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "見つけたわよ～逃げられると思わないでちょうだい♪",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "I see you~ Don't think you can run from me!",
+						"englishNote": ""
+					},
+					"13": {
+						"event": "Affinity (Upset)",
+						"media": "feeling1_1",
+						"chinese": "现在的指挥官就如同放久了的绿茶一样苦涩呢…",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "今の指揮官、古い茶葉のように苦いのね……",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "I have a commander who is as bitter as oversteeped green tea that has been left out and forgotten.",
+						"englishNote": ""
+					}
+				}
+			},
+			"3": {
+				"skin_id": "zhuiganzhe_3",
+				"id": "2",
+				"label": "Gamer style",
+				"dialogue": {
+					"1": {
+						"event": "Ship Description",
+						"media": "",
+						"chinese": "好~！成就达成~！…哎呀？指挥官贵安。我这身装扮很稀奇吗？呵呵，我好歹也是白鹰出来的，关于娱乐方面的东西还是略懂一些的♪",
+						"chineseTL": "Okay~! Goal achieved~! ...Oh? Commander. It's strange to see me dressed like this? Haha, I'm from the Eagle Union after all, so I do know a bit about fashion♪",
+						"chineseNote": "",
+						"japanese": "よし！実績ゲット！…あら？指揮官、ご機嫌よう。わたくしのこの格好がそんなに珍しいの？ふふ、こう見えてもユニオン出身、エンターテイメントももちろん心得ていることよ♪",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"2": {
+						"event": "Acquisition",
+						"media": "get_2",
+						"chinese": "好~！成就达成~！…哎呀？指挥官贵安。我这身装扮很稀奇吗？呵呵，我好歹也是白鹰出来的，关于娱乐方面的东西还是略懂一些的♪",
+						"chineseTL": "Okay~! Goal achieved~! ...Oh? Commander. It's strange to see me dressed like this? Haha, I'm from the Eagle Union after all, so I do know a bit about fashion♪",
+						"chineseNote": "",
+						"japanese": "よし！実績ゲット！…あら？指揮官、ご機嫌よう。わたくしのこの格好がそんなに珍しいの？ふふ、こう見えてもユニオン出身、エンターテイメントももちろん心得ていることよ♪",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"3": {
+						"event": "Login",
+						"media": "login_2",
+						"chinese": "指挥官，今天我们要攻略哪一关呢？",
+						"chineseTL": "Commander, what obstacles shall we tackle today?",
+						"chineseNote": "",
+						"japanese": "さあ指揮官、今日はどのステージを攻略するのかしら？",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"4": {
+						"event": "Details",
+						"media": "detail_2",
+						"chinese": "我们毕竟是驰骋于世界各大海域的舰船。作为排解无聊的手段，随身带个游戏机什么的也算不错不是嘛~？",
+						"chineseTL": "Carrying a gaming devic as a means of alleviating boredom isn't isn't so bad is it~? We are after all ships designed to sail the seas of the world.",
+						"chineseNote": "",
+						"japanese": "わたくしたちは世界を旅する艦船だもの。退屈を紛らわす方法として、ゲーム機を携帯しておくのは良いアイデアでしょう？",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"5": {
+						"event": "Main 1",
+						"media": "main_1_2",
+						"chinese": "长岛，下次再来组个团吧？我想要打新装备了♪",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "ロング・アイランド、今度またレイドを組まない？わたくし、新しい装備を調達したいわ♪",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"6": {
+						"event": "Main 2",
+						"media": "main_2_2",
+						"chinese": "博格的投球很厉害呢…我再怎么努力10次里也只能打到2到3次…",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "ボーグのあの投げ方は驚異的ね…わたくしがどれだけ頑張っても10回中2,3回しか撃ち返せないわ…",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"7": {
+						"event": "Main 3",
+						"media": "main_3_2",
+						"chinese": "指挥官！我从马拉尼那边学做菜了！…欸，不能找她学吗……？",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "指揮官聞いて！わたくし、マラニーたちから料理を勉強したの！…えっ、勉強したらダメなタイプだったの…？",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"8": {
+						"event": "Touch (Special)",
+						"media": "touch_2_2",
+						"chinese": "真是的…有游戏还不够吗？",
+						"chineseTL": "Really now... aren't games enough?",
+						"chineseNote": "",
+						"japanese": "もう…ゲームだけじゃ足りないの？",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"9": {
+						"event": "Return to Port",
+						"media": "home_2",
+						"chinese": "好了，看我来拿个高分！",
+						"chineseTL": "Alright, watch me get a high score!",
+						"chineseNote": "",
+						"japanese": "さあ、スコアアタックと参るわ！",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"10": {
+						"event": "Affinity (Upset)",
+						"media": "feeling1_2",
+						"chinese": "指挥官？偶尔做点别的事换换心情比较好哦？",
+						"chineseTL": "Commander? You should do something else occasionally to brighten up the mood.",
+						"chineseNote": "",
+						"japanese": "指揮官？たまには気分転換したほうがいいわよ？",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					}
+				}
+			}
+		}
+	},
+	"fleet_tech": {
+		"pt_get": "8",
+		"add_get_attr": "ASW",
+		"add_get_value": "1",
+		"add_get_shiptype": "Light Aircraft Carrier",
+		"pt_upgrade": "16",
+		"pt_level": "12",
+		"add_level_attr": "ASW",
+		"add_level_value": "1",
+		"add_level_shiptype": "Light Aircraft Carrier",
+		"t_level": "4",
+		"ships": "chaser"
+	},
+	"voiceActress": "Rui Tanabe"
 }
