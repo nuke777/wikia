@@ -1,0 +1,650 @@
+{
+	"name_reference" : "u101",
+	"cn_reference" : "U101",
+	"nameJP" : "U-101",
+	"nameCN" : "U-101",
+	"ID" : "399",
+	"name" : "U-101",
+	"internal_id" : "408061",
+	"rarity" : "Super Rare",
+	"initialStar" : "★★★☆☆☆",
+	"hull" : "Submarine",
+	"navy" : "Ironblood",
+	"prefix" : "KMS",
+	"buildTime" : "",
+	"parameters": {
+		"firepower" : "D",
+		"torpedo" : "S",
+		"aviation" : "E",
+		"evasion" : "D",
+		"antiAir" : "E",
+		"hp" : "D"
+	},
+	"scrap": {
+		"gold" : "1",
+		"oil" : "4",
+		"medal" : "10"
+	},
+	"releaseDate": {
+		"JP" : "",
+		"CN" : "",
+		"KR" : "",
+		"EN" : ""
+	},
+	"artist": {
+		"name" : "",
+		"weibo" : "",
+		"twitter" : "",
+		"pixiv" : "",
+		"other" : ""
+	},
+	"class" : "Type VIIB",
+	"enhance": {
+		"firepower" : "1",
+		"torpedo" : "40",
+		"aviation" : "0",
+		"reload" : "8"
+	},
+	"acquisitionMethod" : "期間限定建造",
+	"skill": {
+		"1" : {
+			"icon" : "12400",
+			"requirement" : "",
+			"name" : "大ザメ攻撃 ",
+			"type" : "Support",
+			"description" : "戦闘中、自身の命中が$1アップ；僚艦として編成されている場合、攻撃位置到達後でも前進し続け、18秒経過した後元の位置に戻る "
+		},
+		"2" : {
+			"icon" : "12410",
+			"requirement" : "",
+			"name" : "ウルフパック-U101 ",
+			"type" : "Defensive",
+			"description" : "出撃時、味方鉄血所属潜水艦の回避率が$1、駆逐・軽巡に与えるダメージが$1アップし、味方艦隊の鉄血潜水艦が1隻につき、自身の雷装・装填が$2アップ "
+		},
+		"3" : {
+			"icon" : "29431",
+			"requirement" : "",
+			"name" : "特殊弾幕-U101I",
+			"type" : "Offensive",
+			"description" : "戦闘開始時、特殊弾幕-U101Ⅰを発動する"
+		}
+	},
+	"skin": {
+		"1" : {
+			"id" : "U101",
+			"name" : "U-101",
+			"description" : "鉄血VIIB型潜水艦U-101",
+			"expression" : {
+				"0" : {
+					"id" : "0"
+				}
+			}
+		}
+	},
+	"defaultEquipment": {
+		"1" : {
+			"icon" : "45300",
+			"rarity" : "Common",
+			"name" : "G7a Submarine Torpedo"
+		},
+		"2" : {
+			"icon" : "45300",
+			"rarity" : "Common",
+			"name" : "G7a Submarine Torpedo"
+		},
+		"3" : {
+			"icon" : "",
+			"rarity" : "",
+			"name" : ""
+		}
+	},
+	"stats": {
+		"base": {
+			"hp" : "209",
+			"firepower" : "9",
+			"torpedo" : "102",
+			"antiAir" : "0",
+			"aviation" : "0",
+			"reload" : "41",
+			"hit" : "60",
+			"evasion" : "7",
+			"speed" : "14.4",
+			"luck" : "68",
+			"asw" : "0",
+			"oxygen" : "190",
+			"ammo" : "2",
+			"cost" : "2",
+			"armor" : "Light"
+		},
+		"100": {
+			"hp" : "1081",
+			"firepower" : "41",
+			"torpedo" : "482",
+			"antiAir" : "0",
+			"aviation" : "0",
+			"reload" : "96",
+			"hit" : "156",
+			"evasion" : "18",
+			"speed" : "14.4",
+			"luck" : "68",
+			"asw" : "0",
+			"oxygen" : "190",
+			"ammo" : "2",
+			"cost" : "8",
+			"armor" : "Light"
+		},
+		"120": {
+			"hp" : "1297",
+			"firepower" : "48",
+			"torpedo" : "530",
+			"antiAir" : "0",
+			"aviation" : "0",
+			"reload" : "110",
+			"hit" : "175",
+			"evasion" : "37",
+			"speed" : "14.4",
+			"luck" : "68",
+			"asw" : "0",
+			"oxygen" : "190",
+			"ammo" : "2",
+			"cost" : "8",
+			"armor" : "Light"
+		},
+		"100retrofit": {
+			"hp" : "",
+			"firepower" : "",
+			"torpedo" : "",
+			"antiAir" : "",
+			"aviation" : "",
+			"reload" : "",
+			"hit" : "",
+			"evasion" : "",
+			"speed" : "14.4",
+			"luck" : "68",
+			"asw" : "",
+			"oxygen" : "190",
+			"ammo" : "2",
+			"cost" : "8",
+			"armor" : "Light"
+		},
+		"120retrofit": {
+			"hp" : "",
+			"firepower" : "",
+			"torpedo" : "",
+			"antiAir" : "",
+			"aviation" : "",
+			"reload" : "",
+			"hit" : "",
+			"evasion" : "",
+			"speed" : "14.4",
+			"luck" : "68",
+			"asw" : "",
+			"oxygen" : "190",
+			"ammo" : "2",
+			"cost" : "8",
+			"armor" : "Light"
+		}
+	},
+	"limitBreak": {
+		"tier1": "特殊弾幕スキル習得/魚雷補正+5%",
+		"tier2": "魚雷装填数+1/支援範囲拡大",
+		"tier3": "特殊弾幕強化/魚雷補正+10%"
+	},
+	"equipmentLoadout": {
+		"1": {
+			"type": "Submarine Torpedo",
+			"efficiency": "110%/115%/115%/125%",
+			"amount": "1/1/2/2",
+			"preload": "0/0/0/0"
+		},
+		"2": {
+			"type": "Submarine Torpedo",
+			"efficiency": "110%/115%/115%/125%",
+			"amount": "1/1/2/2",
+			"preload": "0/0/0/0"
+		},
+		"3": {
+			"type": "Destroyer Gun",
+			"efficiency": "85%/85%/85%/85%",
+			"amount": "1/1/1/1",
+			"preload": "0/0/0/0"
+		},
+		"4": {
+			"type": "Auxilary",
+			"efficiency": "-",
+			"amount": "-",
+			"preload": "-"
+		},
+		"5": {
+			"type": "Auxilary",
+			"efficiency": "-",
+			"amount": "-",
+			"preload": "-"
+		}
+	},
+	"fleet_tech": {
+		"pt_get": "10",
+		"add_get_attr": "Hit",
+		"add_get_value": "1",
+		"add_get_shiptype": "Submarine,Submarine Aircraft Carrier",
+		"pt_upgrade": "20",
+		"pt_level": "16",
+		"add_level_attr": "Torpedo",
+		"add_level_value": "2",
+		"add_level_shiptype": "Submarine,Submarine Aircraft Carrier",
+		"t_level": "6",
+		"ships": "u47,u73,u101"
+	},
+	"build": {
+		"light": {
+			"JP": "",
+			"CN": "",
+			"EN": ""
+		},
+		"heavy": {
+			"JP": "",
+			"CN": "",
+			"EN": ""
+		},
+		"special": {
+			"JP": "",
+			"CN": "",
+			"EN": ""
+		},
+		"limited": {
+			"JP": "",
+			"CN": "",
+			"EN": ""
+		}
+	},
+	"drop": {
+		"droppable": "false",
+		"list": {
+			"1": {
+				"event": "",
+				"chapter": {
+					"1": {
+						"label": "Ch .1",
+						"node": {
+							"1": {
+								"drop": "✓",
+								"note": "-"
+							}
+						}
+					}
+				}
+			}
+		}
+	},
+	"lines": {
+		"skin": {
+			"1": {
+				"skin_id" : "U101",
+				"id" : "0",
+				"label" : "U-101",
+				"dialogue" : {
+					"1" : {
+						"event" : "Ship Description",
+						"media" : "",
+						"chinese" : "铁血VIIB型潜艇U-101",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "鉄血VIIB型潜水艦U-101",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"2" : {
+						"event" : "Biography",
+						"media" : "profile",
+						"chinese" : "我是U101，隶属铁血第七U艇小队，参与过4次狼群行动，破交作战是我的拿手好戏！另外我还得过骑士铁十字勋章哦！顺便一提，我的兴趣是和乘着大鱼兜风，指挥官有兴趣一起吗？",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "U-101、鉄血第七Uボート艦隊に所属し、ウルフパック作戦に四回参加して、通商破壊をこなして…と、騎士鉄十字勲章をもらったよ！趣味はこうやって大ザメと共にかっ飛ばすことね。指揮官も興味ある？",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"3" : {
+						"event" : "Acquisition",
+						"media" : "get",
+						"chinese" : "嘿，那边的指挥官！我是U101，要搭乘我的大鱼，来兜个惊险刺激的风吗？",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "おーい、そこにいる指揮官！U-101の大ザメに乗って、スリリングなライドでもどうかな？",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"4" : {
+						"event" : "Login",
+						"media" : "login",
+						"chinese" : "指挥官，说一声的话，我下次可以去接你的哦？",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "指揮官、今度声かけてくれたら拾ってあげてもいいよ？",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"5" : {
+						"event" : "Details",
+						"media" : "detail",
+						"chinese" : "听说白鹰有外号叫“海上骑士”的人吗？这个称号不错欸……指挥官，你觉得我叫“海底骑士”怎么样？",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "ユニオンに「海上の騎士」と自称する子がいるんだっけ？実にいい響きね……よし、指揮官、わたしも「海底の騎士」って自称してもいいかな？",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"6" : {
+						"event" : "Main 1",
+						"media" : "main_1",
+						"chinese" : "啊，指挥官，你先工作，我在旁边调整一下大鱼，我们等会儿再出门~",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "あー指揮官、ちょっと待ってて、今大ザメをちょっと調整してるとこ！出かけるのはそのあとで！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"7" : {
+						"event" : "Main 2",
+						"media" : "main_2",
+						"chinese" : "大鱼在陆上也能开哦？虽然会慢一点。啊哈哈，我也不知道原理是什么",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "大ザメは陸の上でも走れるよ？まあちょっと遅くなるけどね。原理はもちろんさっぱりわからない！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"8" : {
+						"event" : "Main 3",
+						"media" : "main_3",
+						"chinese" : "想要找点新的歌在开车的时候听啊，指挥官，你有什么推荐吗？",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "走る時に流す音楽は何がいい？指揮官、おすすめとかある？",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"9" : {
+						"event" : "Touch",
+						"media" : "touch_1",
+						"chinese" : "上车，指挥官，要抓紧我的腰哦，被甩出去我可不管你~",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "指揮官、ちゃんと掴まってろよ～ふっとばされても知らないから！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"10" : {
+						"event" : "Touch (Special)",
+						"media" : "touch_2",
+						"chinese" : "指挥官，我要叫大鱼咬你了哦！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "！？指揮官、大ザメに噛ませてやろっか？",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"11" : {
+						"event" : "Mission",
+						"media" : "task",
+						"chinese" : "有新任务？要我载你去目的地吗？",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "新しい任務？目標地まで載せてってやろっか？",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"12" : {
+						"event" : "Mission Complete",
+						"media" : "mission_complete",
+						"chinese" : "指挥官，我把任务奖励带过来啦",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "指揮官、任務報酬持ってきたよ",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"13" : {
+						"event" : "Mail",
+						"media" : "mail",
+						"chinese" : "你好，我是邮递员U101，这里有你的信件~嘻嘻",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "はいはい、配達員のU-101でーす。手紙届けにきましたーへへへ",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"14" : {
+						"event" : "Return to Port",
+						"media" : "home",
+						"chinese" : "指挥官，要我送你回宿舍休息一下吗？",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "指揮官、寮まで送ってやろっか？",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"15" : {
+						"event" : "Commission Complete",
+						"media" : "expedition",
+						"chinese" : "委托完成了是吗？让我去接她们吧！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "委託が完了した？じゃあ出迎えてくるよ！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"16" : {
+						"event" : "Enhancement",
+						"media" : "upgrade",
+						"chinese" : "我还能再快一点！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "もっとかっ飛ばせるよー",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"17" : {
+						"event" : "Flagship",
+						"media" : "warcry",
+						"chinese" : "车载鱼雷，准备就绪~",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "ボートトルペード、準備完了！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"18" : {
+						"event" : "Victory",
+						"media" : "mvp",
+						"chinese" : "嘿嘿~第一名！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "うっしゃ！一位！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"19" : {
+						"event" : "Defeat",
+						"media" : "lose",
+						"chinese" : "居然没能躲开……",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "うまく避けられなかったな……",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"20" : {
+						"event" : "Skill",
+						"media" : "skill",
+						"chinese" : "车载鱼雷，全弹发射！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "ボートトルペード、まるっと受け取れ！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"21" : {
+						"event" : "Low HP",
+						"media" : "hp",
+						"chinese" : "唔，看来要稍微加速一下了…！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "もうちょっと飛ばさないとね…！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"22" : {
+						"event" : "Affinity (Upset)",
+						"media" : "feeling1",
+						"chinese" : "我去兜风啦，拜拜~",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "飛ばしてくる！Tschüss（チュース）！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"23" : {
+						"event" : "Affinity (Stranger)",
+						"media" : "feeling2",
+						"chinese" : "戴上耳机，发动引擎，把所有烦恼都抛在脑后，这种感觉可是很舒服的，指挥官",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "イヤフォンつけてエンジン回して、悩みをぶっ飛ばす――いい気分になれるよ？指揮官？",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"24" : {
+						"event" : "Affinity (Friendly)",
+						"media" : "feeling3",
+						"chinese" : "真想和其他阵营的潜艇们来一场激动人心的竞速大会，那一定超刺激的，指挥官，帮我个忙呗？",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "いやあ、他の陣営の潜水艦たちと一緒に艤装でかっ飛ばしたいよね～絶対にいい気持ちになれるよね～しきかーん手を貸して―",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"25" : {
+						"event" : "Affinity (Like)",
+						"media" : "feeling4",
+						"chinese" : "指挥官，快，没时间了，上车！今天周边的海域会有一群超级漂亮的鱼群游过，错过的话下一次就要等好久啦！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "指揮官、時間がないよ、早く乗って！今日このあたりに綺麗な子たちが回遊してくるって聞いたよ！見逃したらまたすごく待たなきゃならないんだからね！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"26" : {
+						"event" : "Affinity (Love)",
+						"media" : "feeling5",
+						"chinese" : "指挥官，你又来啦！嘻嘻，是不是喜欢上坐在我后面的感觉啦？来，上车吧，这一次，我带你去一些更加有趣的地方~",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "お、指揮官、また来たんだ～大ザメの乗り心地が恋しくなったのかな？はい、上がって上がって～今もっと面白い場所まで連れてってあげる！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"27" : {
+						"event" : "Pledge",
+						"media" : "propose",
+						"chinese" : "放心吧，指挥官，无论你在哪，只要是大鱼能到达的地方，U101随叫随到！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "まあ安心して、大ザメが行ける場所なら――指揮官さえ呼んでくれれば、このU-101絶対、迎えにいくからね！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"28" : {
+						"event" : "Like Present",
+						"media" : "present_like",
+						"chinese" : "",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"29" : {
+						"event" : "Dislike Present",
+						"media" : "present_dislike",
+						"chinese" : "",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"30" : {
+						"event" : "Main Title",
+						"media" : "extra",
+						"chinese" : "",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					}
+				}
+			}
+		}
+	}
+}

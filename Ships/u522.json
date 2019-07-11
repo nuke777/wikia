@@ -1,0 +1,650 @@
+{
+	"name_reference" : "u522",
+	"cn_reference" : "U522",
+	"nameJP" : "U-522",
+	"nameCN" : "U-522",
+	"ID" : "400",
+	"name" : "U-522",
+	"internal_id" : "408071",
+	"rarity" : "Elite",
+	"initialStar" : "★★☆☆☆",
+	"hull" : "Submarine",
+	"navy" : "Ironblood",
+	"prefix" : "KMS",
+	"buildTime" : "",
+	"parameters": {
+		"firepower" : "D",
+		"torpedo" : "A",
+		"aviation" : "E",
+		"evasion" : "D",
+		"antiAir" : "E",
+		"hp" : "D"
+	},
+	"scrap": {
+		"gold" : "1",
+		"oil" : "4",
+		"medal" : "4"
+	},
+	"releaseDate": {
+		"JP" : "",
+		"CN" : "",
+		"KR" : "",
+		"EN" : ""
+	},
+	"artist": {
+		"name" : "",
+		"weibo" : "",
+		"twitter" : "",
+		"pixiv" : "",
+		"other" : ""
+	},
+	"class" : "IXC型",
+	"enhance": {
+		"firepower" : "1",
+		"torpedo" : "38",
+		"aviation" : "0",
+		"reload" : "6"
+	},
+	"acquisitionMethod" : "期間限定建造",
+	"skill": {
+		"1" : {
+			"icon" : "3631",
+			"requirement" : "",
+			"name" : "外洋支援 ",
+			"type" : "Support",
+			"description" : "自身の潜航力が$1アップ；自身が戦闘可能である限り、交戦艦隊が潜水艦隊の支援範囲外でも一回の出撃に一度だけ、潜水支援を行える "
+		},
+		"2" : {
+			"icon" : "3611",
+			"requirement" : "",
+			"name" : "Wolf Pack Tactics",
+			"type" : "Offensive",
+			"description" : "For each Iron Blood SS in your fleet: increases this boat's TRP, RLD, and Accuracy by $1."
+		},
+		"3" : {
+			"icon" : "23511",
+			"requirement" : "",
+			"name" : "全弹发射I-Type IXC型I",
+			"type" : "Offensive",
+			"description" : "戦闘開始時、全弾発射-Type IXC型Iを発動する"
+		}
+	},
+	"skin": {
+		"1" : {
+			"id" : "U522",
+			"name" : "U-522",
+			"description" : "鉄血IXC型潜水艦U-522",
+			"expression" : {
+				"0" : {
+					"id" : "0"
+				}
+			}
+		}
+	},
+	"defaultEquipment": {
+		"1" : {
+			"icon" : "45300",
+			"rarity" : "Common",
+			"name" : "G7a Submarine Torpedo"
+		},
+		"2" : {
+			"icon" : "45300",
+			"rarity" : "Common",
+			"name" : "G7a Submarine Torpedo"
+		},
+		"3" : {
+			"icon" : "",
+			"rarity" : "",
+			"name" : ""
+		}
+	},
+	"stats": {
+		"base": {
+			"hp" : "241",
+			"firepower" : "8",
+			"torpedo" : "97",
+			"antiAir" : "0",
+			"aviation" : "0",
+			"reload" : "31",
+			"hit" : "61",
+			"evasion" : "7",
+			"speed" : "14.4",
+			"luck" : "22",
+			"asw" : "0",
+			"oxygen" : "228",
+			"ammo" : "2",
+			"cost" : "2",
+			"armor" : "Light"
+		},
+		"100": {
+			"hp" : "1247",
+			"firepower" : "38",
+			"torpedo" : "459",
+			"antiAir" : "0",
+			"aviation" : "0",
+			"reload" : "73",
+			"hit" : "159",
+			"evasion" : "18",
+			"speed" : "14.4",
+			"luck" : "22",
+			"asw" : "0",
+			"oxygen" : "228",
+			"ammo" : "2",
+			"cost" : "7",
+			"armor" : "Light"
+		},
+		"120": {
+			"hp" : "1496",
+			"firepower" : "43",
+			"torpedo" : "505",
+			"antiAir" : "0",
+			"aviation" : "0",
+			"reload" : "84",
+			"hit" : "178",
+			"evasion" : "37",
+			"speed" : "14.4",
+			"luck" : "22",
+			"asw" : "0",
+			"oxygen" : "228",
+			"ammo" : "2",
+			"cost" : "7",
+			"armor" : "Light"
+		},
+		"100retrofit": {
+			"hp" : "",
+			"firepower" : "",
+			"torpedo" : "",
+			"antiAir" : "",
+			"aviation" : "",
+			"reload" : "",
+			"hit" : "",
+			"evasion" : "",
+			"speed" : "14.4",
+			"luck" : "22",
+			"asw" : "",
+			"oxygen" : "228",
+			"ammo" : "2",
+			"cost" : "7",
+			"armor" : "Light"
+		},
+		"120retrofit": {
+			"hp" : "",
+			"firepower" : "",
+			"torpedo" : "",
+			"antiAir" : "",
+			"aviation" : "",
+			"reload" : "",
+			"hit" : "",
+			"evasion" : "",
+			"speed" : "14.4",
+			"luck" : "22",
+			"asw" : "",
+			"oxygen" : "228",
+			"ammo" : "2",
+			"cost" : "7",
+			"armor" : "Light"
+		}
+	},
+	"limitBreak": {
+		"tier1": "全弾発射スキル習得/魚雷補正+5%",
+		"tier2": "魚雷装填数+1/支援範囲拡大",
+		"tier3": "全弾発射弾幕強化/魚雷補正+10%"
+	},
+	"equipmentLoadout": {
+		"1": {
+			"type": "Submarine Torpedo",
+			"efficiency": "110%/115%/115%/125%",
+			"amount": "1/1/2/2",
+			"preload": "0/0/0/0"
+		},
+		"2": {
+			"type": "Submarine Torpedo",
+			"efficiency": "105%/110%/110%/120%",
+			"amount": "1/1/2/2",
+			"preload": "0/0/0/0"
+		},
+		"3": {
+			"type": "Destroyer Gun",
+			"efficiency": "85%/85%/85%/85%",
+			"amount": "1/1/1/1",
+			"preload": "0/0/0/0"
+		},
+		"4": {
+			"type": "Auxilary",
+			"efficiency": "-",
+			"amount": "-",
+			"preload": "-"
+		},
+		"5": {
+			"type": "Auxilary",
+			"efficiency": "-",
+			"amount": "-",
+			"preload": "-"
+		}
+	},
+	"fleet_tech": {
+		"pt_get": "8",
+		"add_get_attr": "Evasion",
+		"add_get_value": "2",
+		"add_get_shiptype": "Submarine,Submarine Aircraft Carrier",
+		"pt_upgrade": "16",
+		"pt_level": "12",
+		"add_level_attr": "HP",
+		"add_level_value": "1",
+		"add_level_shiptype": "Submarine,Submarine Aircraft Carrier",
+		"t_level": "7",
+		"ships": "u522"
+	},
+	"build": {
+		"light": {
+			"JP": "",
+			"CN": "",
+			"EN": ""
+		},
+		"heavy": {
+			"JP": "",
+			"CN": "",
+			"EN": ""
+		},
+		"special": {
+			"JP": "",
+			"CN": "",
+			"EN": ""
+		},
+		"limited": {
+			"JP": "",
+			"CN": "",
+			"EN": ""
+		}
+	},
+	"drop": {
+		"droppable": "false",
+		"list": {
+			"1": {
+				"event": "",
+				"chapter": {
+					"1": {
+						"label": "Ch .1",
+						"node": {
+							"1": {
+								"drop": "✓",
+								"note": "-"
+							}
+						}
+					}
+				}
+			}
+		}
+	},
+	"lines": {
+		"skin": {
+			"1": {
+				"skin_id" : "U522",
+				"id" : "0",
+				"label" : "U-522",
+				"dialogue" : {
+					"1" : {
+						"event" : "Ship Description",
+						"media" : "",
+						"chinese" : "铁血IXC型潜艇U-522",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "鉄血IXC型潜水艦U-522",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"2" : {
+						"event" : "Biography",
+						"media" : "profile",
+						"chinese" : "我是IXC级远洋潜艇U-522，隶属于荣光的第二潜艇舰队。长距离的通商破坏作战可是我的拿手好戏，但是对付反潜护航舰确实还是有点头疼啊~不管怎么说，还请期待我的活跃吧~",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "IXC型潜水艦、栄光なる第2潜水隊群所属のU-522よ。長距離の通商破壊作戦が得意だぜ。あと、対潜護衛は苦手というジレンマも当然持っているけど～とりあえずあたしの活躍、楽しみにしといてくれよ～",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"3" : {
+						"event" : "Acquisition",
+						"media" : "get",
+						"chinese" : "哼~~？您就是这里的指挥官吗？铁血所属的远洋潜艇U-522，今天到任啦~这个港区究竟能给我带来怎样的乐趣呢？我很期待哦，嘿嘿",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "ふーん…あんたがここの指揮官か？鉄血所属、潜水艦U-522が着任した。はて、この母港ではどんな楽しいことがあるのやら？楽しみだぜ。ふふふふ",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"4" : {
+						"event" : "Login",
+						"media" : "login",
+						"chinese" : "能再次见到指挥官可真让人高兴，看来今天也不会无聊了~",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "指揮官にまた出会えるとは嬉しいな。今日はふてくされずにすみそうだぜ",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"5" : {
+						"event" : "Details",
+						"media" : "detail",
+						"chinese" : "哼哼，指挥官刚刚…又在偷偷地盯着我看了吧？我早就发现啦！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "ふふん、指揮官はさっきこちらをチラチラ見てただろ？とっくに気づいてるぞ！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"6" : {
+						"event" : "Main 1",
+						"media" : "main_1",
+						"chinese" : "这根“尾巴”，可不是装饰喔？与舰装的连接和控制可都靠它了呢~",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "この「プラグテイル」、お飾りじゃないんだぜ？艤装と接続すれば制御もバッチリさ",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"7" : {
+						"event" : "Main 2",
+						"media" : "main_2",
+						"chinese" : "指挥官，多欣赏一下我战斗的身姿也是没有问题的喔~嘿嘿",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "戦っているあたしの姿、もっとじっくり鑑賞してもいいんだぜ？へへへ",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"8" : {
+						"event" : "Main 3",
+						"media" : "main_3",
+						"chinese" : "看着那些被我袭击的敌人在海面上惊慌失措的样子，实在是让人感到愉悦啊~哈哈~",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "こっちの攻撃で逃げ惑う敵を見ると、ほんっとに楽しいよね～あははは！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"9" : {
+						"event" : "Touch",
+						"media" : "touch_1",
+						"chinese" : "想和我来一场刺激的水下捉迷藏么？当然，最后的赢家肯定是我~",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "鬼ごっこがしたいの？もちのろん、勝つのはあたしよ",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"10" : {
+						"event" : "Touch (Special)",
+						"media" : "touch_2",
+						"chinese" : "尾巴！不可以！很敏感的啦…… ",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "尻尾！メッ！アウト！これは色々敏感だもん！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"11" : {
+						"event" : "Mission",
+						"media" : "task",
+						"chinese" : "新的任务来啦，有没有什么有趣的狩猎任务呢？",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "新しい任務が来たか、狩りの任務もあったりなかったり？",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"12" : {
+						"event" : "Mission Complete",
+						"media" : "mission_complete",
+						"chinese" : "指挥官，这次的任务奖励可真不少呀~",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "指揮官、任務報酬がいっぱいあるぜ～",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"13" : {
+						"event" : "Mail",
+						"media" : "mail",
+						"chinese" : "指挥官，有来自司令部的联络信息喔~",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "指揮官、本部からの連絡だぜ～",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"14" : {
+						"event" : "Return to Port",
+						"media" : "home",
+						"chinese" : "噢~指挥官回来啦~要尝尝我准备的牛肉罐头吗？",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "むふぉ…お、戻ってきたか？コンビーフでもどう？",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"15" : {
+						"event" : "Commission Complete",
+						"media" : "expedition",
+						"chinese" : "哦？委托组平安回来了呀~快去看看有没有什么有趣的收获吧~",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "委託組、無事戻ってきたんだ～報酬の確認、早く行こうぜ",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"16" : {
+						"event" : "Enhancement",
+						"media" : "upgrade",
+						"chinese" : "sehr gut！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "sehr gut！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"17" : {
+						"event" : "Flagship",
+						"media" : "warcry",
+						"chinese" : "哦？来了来了~各位，又到了开始“大餐”的时间啦！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "おっ来たぜ来たぜー全員、食事の時間の始まりだ！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"18" : {
+						"event" : "Victory",
+						"media" : "mvp",
+						"chinese" : "这就结束了？对手太弱了~感觉还没有玩够啊~",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "これで終わり？よっわーまだまだ遊び足りないぜー",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"19" : {
+						"event" : "Defeat",
+						"media" : "lose",
+						"chinese" : "哎呀，计算稍稍有点失误了呢…",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "あっちゃー計算ミスったか……",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"20" : {
+						"event" : "Skill",
+						"media" : "skill",
+						"chinese" : "绽放吧，胜利的闪电（Blitz)！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "勝利のブリッツ！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"21" : {
+						"event" : "Low HP",
+						"media" : "hp",
+						"chinese" : "对面的家伙稍微有点本事啊…",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "中々やるね…",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"22" : {
+						"event" : "Affinity (Upset)",
+						"media" : "feeling1",
+						"chinese" : "真是个不中用的指挥官啊~不过，不中用的指挥官感觉…也挺可爱的？",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "頼りない指揮官だな～まあ、それもそれで可愛いかも？",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"23" : {
+						"event" : "Affinity (Stranger)",
+						"media" : "feeling2",
+						"chinese" : "要想来一场愉快的远洋狩猎，没有一个好帮手可不行啊~",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "楽しい狩りをするにはいい仲間がいないと無理だぜ～",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"24" : {
+						"event" : "Affinity (Friendly)",
+						"media" : "feeling3",
+						"chinese" : "嗯哼？干的还不错~看来我们之间能够构筑不错的信赖关系啊~",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "おっと、いい感じじゃない～あたしたちはいい関係になれそうな気がするぜ～",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"25" : {
+						"event" : "Affinity (Like)",
+						"media" : "feeling4",
+						"chinese" : "指挥官，在我的面前耍小聪明可是不行的喔？毕竟指挥官在想些什么我都能猜个八九不离十呢~",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "指揮官、あたしには小賢しい考えは通用しないよ？指揮官の考えていること、十中八九当てれるからな",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"26" : {
+						"event" : "Affinity (Love)",
+						"media" : "feeling5",
+						"chinese" : "看来我们得更加深入地了解彼此才行呢~您觉得呢？指·挥·官？啊哈哈哈哈，指挥官的脸变得像个熟透了的苹果一样，真有趣~",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "ここはもっとお互いのことを知っておかないとね～どう思う？指・揮・官？あははは、恥ずかしがってる顔！これ楽しいかも！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"27" : {
+						"event" : "Pledge",
+						"media" : "propose",
+						"chinese" : "这么容易就被看透心思，指挥官的未来还真让人担心啊~不过没关系，从今往后我也会一直在你身边的，就尽管更多~更多地依赖我吧！嘿嘿~",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "こんなに簡単に見透かされるなんて、指揮官の明日が心配だな～まあこのあたしがずっとそばにいてあげるから、もっともーーっと頼っていいんだぜ？あははは",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"28" : {
+						"event" : "Like Present",
+						"media" : "present_like",
+						"chinese" : "",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"29" : {
+						"event" : "Dislike Present",
+						"media" : "present_dislike",
+						"chinese" : "",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"30" : {
+						"event" : "Main Title",
+						"media" : "extra",
+						"chinese" : "",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					}
+				}
+			}
+		}
+	}
+}
