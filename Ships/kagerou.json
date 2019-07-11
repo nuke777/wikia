@@ -11,7 +11,7 @@
 	"hull": "Destroyer",
 	"navy": "Sakura Empire",
 	"prefix": "IJN",
-	"buildTime": "",
+	"buildTime": "N/A",
 	"class": "Kagerou-Class",
 	"voiceActress": "Yuriko Yano",
 	"parameters": {
@@ -28,16 +28,16 @@
 		"medal": "1"
 	},
 	"releaseDate": {
-		"JP": "",
-		"CN": "",
-		"KR": "",
-		"EN": ""
+		"JP": "September 13, 2017",
+		"CN": "May 25, 2017",
+		"KR": "March 27, 2018",
+		"EN": "August 16, 2018"
 	},
 	"artist": {
-		"name": "",
-		"weibo": "",
+		"name": "哈路卡",
+		"weibo": "https://www.weibo.com/u/1952889047?is_hot=1",
 		"twitter": "",
-		"pixiv": "",
+		"pixiv": "https://www.pixiv.net/member.php?id=12785336",
 		"other": ""
 	},
 	"enhance": {
@@ -50,24 +50,24 @@
 	"skill": {
 		"1": {
 			"icon": "1013",
-			"requirement": "",
+			"requirement": "Default Unlocked",
 			"name": "Torpedo Command: Vanguard",
 			"type": "Support",
-			"description": "Increases the TRP of all friendlies in the Vanguard Fleet by $1. Does not stack with the same skill."
+			"description": "Increases the TRP of all friendlies in the Vanguard Fleet by 5.0% (15.0%). Does not stack with the same skill."
 		},
 		"2": {
 			"icon": "2051",
-			"requirement": "",
+			"requirement": "Default Unlocked",
 			"name": "Double Torpedo",
 			"type": "Offensive",
-			"description": "When this ship fires its Torpedoes: $1 chance to launch a second wave of Torpedoes."
+			"description": "When this ship fires its Torpedoes: 15.0% (30.0%) chance to launch a second wave of Torpedoes."
 		},
 		"3": {
 			"icon": "5001",
-			"requirement": "",
+			"requirement": "Retrofit",
 			"name": "Interference",
 			"type": "Support",
-			"description": "25.0% chance to activate every 20s: picks one enemy at random (prioritizes humanoid enemies) and decreases their Fire Rate and DMG for $1s. Does not stack with the same skill."
+			"description": "25.0% chance to activate every 20s: picks one enemy at random (prioritizes humanoid enemies) and decreases their Fire Rate and DMG for 5.0 (10.0)s. Does not stack with the same skill."
 		},
 		"4": {
 			"icon": "22051",
@@ -100,8 +100,8 @@
 		},
 		"3": {
 			"id": "yangyan_g",
-			"name": "陽炎改",
-			"description": "改造完了した陽炎が参るのじゃ！妹には二度と先を越されぬのじゃぞ？指揮官、我輩とともにいざ征くのじゃ！",
+			"name": "Kagerou (Retrofit) ",
+			"description": "The newly-retrofitted Kagerou has arrived~ I won't let that sister of mine pass me up anymore! Commander, lead us forward towards distant shores! ",
 			"expression": {
 				"0": {
 					"id": "0"
@@ -609,6 +609,42 @@
 						"japaneseNote": "",
 						"english": "You wish to march together with me? ... What an outrageous question! You should already know what I think! My answer, of course, is \"yes\"!",
 						"englishNote": ""
+					},
+					"27": {
+						"event": "Like Present",
+						"media": "present_like",
+						"chinese": "",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"28": {
+						"event": "Dislike Present",
+						"media": "present_dislike",
+						"chinese": "",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"29": {
+						"event": "Main Title",
+						"media": "extra",
+						"chinese": "",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
 					}
 				}
 			},
@@ -706,7 +742,7 @@
 			"3": {
 				"skin_id": "yangyan_g",
 				"id": "9",
-				"label": "陽炎改",
+				"label": "Kagerou (Retrofit) ",
 				"dialogue": {
 					"1": {
 						"event": "Ship Description",
@@ -715,6 +751,66 @@
 						"chineseTL": "",
 						"chineseNote": "",
 						"japanese": "改造完了した陽炎が参るのじゃ！妹には二度と先を越されぬのじゃぞ？指揮官、我輩とともにいざ征くのじゃ！",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "The newly-retrofitted Kagerou has arrived~ I won't let that sister of mine pass me up anymore! Commander, lead us forward towards distant shores!",
+						"englishNote": ""
+					},
+					"2": {
+						"event": "Acquisition",
+						"media": "get_9",
+						"chinese": "改造完成后的阳炎来也~不会再让那个笨蛋妹妹走在前面了！指挥官，和吾辈一起前进到更远的地方吧！",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"3": {
+						"event": "Details",
+						"media": "detail_9",
+						"chinese": "哼哼，用这种眼神看着吾辈，是被吾辈的魅力所折服了吗，指挥官~",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"4": {
+						"event": "Touch",
+						"media": "touch_1_9",
+						"chinese": "吾辈就在这里，随时等待你的呼唤哟，指挥官",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"5": {
+						"event": "Touch (Special)",
+						"media": "touch_2_9",
+						"chinese": "既然敢对吾辈出手，想必已经做好相应的心理准备了吧，指挥官",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"6": {
+						"event": "Return to Port",
+						"media": "home_9",
+						"chinese": "指挥官，休息一下，我们就来总结这次的战果吧~",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
 						"japaneseTL": "",
 						"japaneseNote": "",
 						"english": "",
