@@ -11,7 +11,7 @@
 	"hull" : "Submarine",
 	"navy" : "Ironblood",
 	"prefix" : "KMS",
-	"buildTime" : "",
+	"buildTime" : "00:11:00",
 	"parameters": {
 		"firepower" : "D",
 		"torpedo" : "A",
@@ -26,54 +26,54 @@
 		"medal" : "4"
 	},
 	"releaseDate": {
-		"JP" : "",
-		"CN" : "",
-		"KR" : "",
-		"EN" : ""
+		"JP" : "July 11, 2019",
+		"CN" : "July 11, 2019",
+		"KR" : "July 11, 2019",
+		"EN" : "July 11, 2019"
 	},
 	"artist": {
-		"name" : "",
-		"weibo" : "",
-		"twitter" : "",
-		"pixiv" : "",
+		"name" : "Saru",
+		"weibo" : "https://www.weibo.com/p/1005051054234800",
+		"twitter" : "https://twitter.com/Saru_1127",
+		"pixiv" : "https://www.pixiv.net/member.php?id=1422579",
 		"other" : ""
 	},
-	"class" : "IXC型",
+	"class" : "Type IXC",
 	"enhance": {
 		"firepower" : "1",
 		"torpedo" : "38",
 		"aviation" : "0",
 		"reload" : "6"
 	},
-	"acquisitionMethod" : "期間限定建造",
+	"acquisitionMethod" : "Time-Limited Build",
 	"skill": {
 		"1" : {
 			"icon" : "3631",
-			"requirement" : "",
-			"name" : "外洋支援 ",
+			"requirement" : "Default Unlocked",
+			"name" : "Open Ocean Support",
 			"type" : "Support",
-			"description" : "自身の潜航力が$1アップ；自身が戦闘可能である限り、交戦艦隊が潜水艦隊の支援範囲外でも一回の出撃に一度だけ、潜水支援を行える "
+			"description" : "Increases this boat's OXY by 2 (20). Once per sortie, while this boat is afloat: you can call in Submarine Support even if your fleet is outside the Submarine Fleet's ASR."
 		},
 		"2" : {
 			"icon" : "3611",
-			"requirement" : "",
+			"requirement" : "Default Unlocked",
 			"name" : "Wolf Pack Tactics",
 			"type" : "Offensive",
-			"description" : "For each Iron Blood SS in your fleet: increases this boat's TRP, RLD, and Accuracy by $1."
+			"description" : "For each Iron Blood SS in your fleet: increases this boat's TRP, RLD, and Accuracy by 1.5% (6.0%)."
 		},
 		"3" : {
-			"icon" : "23511",
-			"requirement" : "",
-			"name" : "全弹发射I-Type IXC型I",
+			"icon" : "20300",
+			"requirement" : "Limit Break I (III)",
+			"name" : "All Out Assault Ⅰ",
 			"type" : "Offensive",
-			"description" : "戦闘開始時、全弾発射-Type IXC型Iを発動する"
+			"description" : "Activates All Out Assault Ⅰ: Type IXC immediately after entering the battle."
 		}
 	},
 	"skin": {
 		"1" : {
 			"id" : "U522",
 			"name" : "U-522",
-			"description" : "鉄血IXC型潜水艦U-522",
+			"description" : "Iron Blood Type IXC submarine – U-522. ",
 			"expression" : {
 				"0" : {
 					"id" : "0"
@@ -185,10 +185,17 @@
 			"armor" : "Light"
 		}
 	},
+	"huntingRange": {
+		"1": "c2,d2,e2,c3,d3,e3,f3,c4,d4,e4,b5,c5,d5,e5,c6,d6,e6",
+		"2": "c2,d2,e2,c3,d3,e3,f3,c4,d4,e4,b5,c5,d5,e5,c6,d6,e6,f2,b4,f4,b6",
+		"3": "c2,d2,e2,c3,d3,e3,f3,c4,d4,e4,b5,c5,d5,e5,c6,d6,e6,f2,b4,f4,b6,b2,b3,f5",
+		"4": "c2,d2,e2,c3,d3,e3,f3,c4,d4,e4,b5,c5,d5,e5,c6,d6,e6,f2,b4,f4,b6,b2,b3,f5,f1,a6",
+		"5": "c2,d2,e2,c3,d3,e3,f3,c4,d4,e4,b5,c5,d5,e5,c6,d6,e6,f2,b4,f4,b6,b2,b3,f5,f1,a6,e1,a5"
+	},
 	"limitBreak": {
-		"tier1": "全弾発射スキル習得/魚雷補正+5%",
-		"tier2": "魚雷装填数+1/支援範囲拡大",
-		"tier3": "全弾発射弾幕強化/魚雷補正+10%"
+		"tier1": "Unlock All Out Assault Ⅰ/Torpedo efficiency +5%",
+		"tier2": "Torpedo base +1/Improve Hunting range",
+		"tier3": "Improve All Out Assault/Torpedo efficiency +10%"
 	},
 	"equipmentLoadout": {
 		"1": {
@@ -252,9 +259,9 @@
 			"EN": ""
 		},
 		"limited": {
-			"JP": "",
-			"CN": "",
-			"EN": ""
+			"JP": "✓",
+			"CN": "✓",
+			"EN": "✓"
 		}
 	},
 	"drop": {
@@ -292,7 +299,7 @@
 						"japanese" : "鉄血IXC型潜水艦U-522",
 						"japaneseTL" : "",
 						"japaneseNote" : "",
-						"english" : "",
+						"english" : "Iron Blood Type IXC submarine – U-522.",
 						"englishNote" : ""
 					},
 					"2" : {
@@ -304,7 +311,7 @@
 						"japanese" : "IXC型潜水艦、栄光なる第2潜水隊群所属のU-522よ。長距離の通商破壊作戦が得意だぜ。あと、対潜護衛は苦手というジレンマも当然持っているけど～とりあえずあたしの活躍、楽しみにしといてくれよ～",
 						"japaneseTL" : "",
 						"japaneseNote" : "",
-						"english" : "",
+						"english" : "I'm U-522, Type IXC sub, from the glorious 2nd U-boat Flotilla. You need long-distance commerce raiding, I'm your girl. Anti-sub escorts do put me in one helluva pickle, though. Anyways, keep those eyes peeled for my combat performance~",
 						"englishNote" : ""
 					},
 					"3" : {
@@ -316,7 +323,7 @@
 						"japanese" : "ふーん…あんたがここの指揮官か？鉄血所属、潜水艦U-522が着任した。はて、この母港ではどんな楽しいことがあるのやら？楽しみだぜ。ふふふふ",
 						"japaneseTL" : "",
 						"japaneseNote" : "",
-						"english" : "",
+						"english" : "Hmm... you're the commander 'round here, eh? I'm U-522, Iron Blood submarine, reporting for duty. Anyhoo, heard this here port's like a party. I'm eager to join in on it. Heheheh~",
 						"englishNote" : ""
 					},
 					"4" : {
@@ -328,7 +335,7 @@
 						"japanese" : "指揮官にまた出会えるとは嬉しいな。今日はふてくされずにすみそうだぜ",
 						"japaneseTL" : "",
 						"japaneseNote" : "",
-						"english" : "",
+						"english" : "Always happy to see ya, Commander. Today's lookin' like it'll be fun.",
 						"englishNote" : ""
 					},
 					"5" : {
@@ -340,7 +347,7 @@
 						"japanese" : "ふふん、指揮官はさっきこちらをチラチラ見てただろ？とっくに気づいてるぞ！",
 						"japaneseTL" : "",
 						"japaneseNote" : "",
-						"english" : "",
+						"english" : "Hehe, been oglin' me for some time, haven'tcha, Commander? I noticed ages ago!",
 						"englishNote" : ""
 					},
 					"6" : {
@@ -352,7 +359,7 @@
 						"japanese" : "この「プラグテイル」、お飾りじゃないんだぜ？艤装と接続すれば制御もバッチリさ",
 						"japaneseTL" : "",
 						"japaneseNote" : "",
-						"english" : "",
+						"english" : "This tail connector's not just for show. When plugged into my rigging: bam, gives me perfect control.",
 						"englishNote" : ""
 					},
 					"7" : {
@@ -364,7 +371,7 @@
 						"japanese" : "戦っているあたしの姿、もっとじっくり鑑賞してもいいんだぜ？へへへ",
 						"japaneseTL" : "",
 						"japaneseNote" : "",
-						"english" : "",
+						"english" : "When I'm fighting, you can stare at me to your heart's content, y'know? Hehehe~",
 						"englishNote" : ""
 					},
 					"8" : {
@@ -376,7 +383,7 @@
 						"japanese" : "こっちの攻撃で逃げ惑う敵を見ると、ほんっとに楽しいよね～あははは！",
 						"japaneseTL" : "",
 						"japaneseNote" : "",
-						"english" : "",
+						"english" : "I just LOVE seeing my enemies squirming about, trying to get away from my attacks~ Ahahahah~!",
 						"englishNote" : ""
 					},
 					"9" : {
@@ -388,7 +395,7 @@
 						"japanese" : "鬼ごっこがしたいの？もちのろん、勝つのはあたしよ",
 						"japaneseTL" : "",
 						"japaneseNote" : "",
-						"english" : "",
+						"english" : "You feelin' like some hide and seek? I'm game. I always win, y'see.",
 						"englishNote" : ""
 					},
 					"10" : {
@@ -400,7 +407,7 @@
 						"japanese" : "尻尾！メッ！アウト！これは色々敏感だもん！",
 						"japaneseTL" : "",
 						"japaneseNote" : "",
-						"english" : "",
+						"english" : "Tail - no touch! Bad Commander! That's my sensitive spot!",
 						"englishNote" : ""
 					},
 					"11" : {
@@ -412,7 +419,7 @@
 						"japanese" : "新しい任務が来たか、狩りの任務もあったりなかったり？",
 						"japaneseTL" : "",
 						"japaneseNote" : "",
-						"english" : "",
+						"english" : "Ya figure we got any new missions, possibly involving hunting?",
 						"englishNote" : ""
 					},
 					"12" : {
@@ -424,7 +431,7 @@
 						"japanese" : "指揮官、任務報酬がいっぱいあるぜ～",
 						"japaneseTL" : "",
 						"japaneseNote" : "",
-						"english" : "",
+						"english" : "Commander, check out this mound of rewards we got~!",
 						"englishNote" : ""
 					},
 					"13" : {
@@ -436,7 +443,7 @@
 						"japanese" : "指揮官、本部からの連絡だぜ～",
 						"japaneseTL" : "",
 						"japaneseNote" : "",
-						"english" : "",
+						"english" : "Commander, got news for ya from headquarters~",
 						"englishNote" : ""
 					},
 					"14" : {
@@ -448,7 +455,7 @@
 						"japanese" : "むふぉ…お、戻ってきたか？コンビーフでもどう？",
 						"japaneseTL" : "",
 						"japaneseNote" : "",
-						"english" : "",
+						"english" : "Mumph... Oh, you're back? Want some corned beef?",
 						"englishNote" : ""
 					},
 					"15" : {
@@ -460,7 +467,7 @@
 						"japanese" : "委託組、無事戻ってきたんだ～報酬の確認、早く行こうぜ",
 						"japaneseTL" : "",
 						"japaneseNote" : "",
-						"english" : "",
+						"english" : "Commission team's back safe and sound~ Let's go check out those rewards.",
 						"englishNote" : ""
 					},
 					"16" : {
@@ -472,7 +479,7 @@
 						"japanese" : "sehr gut！",
 						"japaneseTL" : "",
 						"japaneseNote" : "",
-						"english" : "",
+						"english" : "Sehr gut!",
 						"englishNote" : ""
 					},
 					"17" : {
@@ -484,7 +491,7 @@
 						"japanese" : "おっ来たぜ来たぜー全員、食事の時間の始まりだ！",
 						"japaneseTL" : "",
 						"japaneseNote" : "",
-						"english" : "",
+						"english" : "Oh boy, here we go! Listen up, folks! It's lunchtime!",
 						"englishNote" : ""
 					},
 					"18" : {
@@ -496,7 +503,7 @@
 						"japanese" : "これで終わり？よっわーまだまだ遊び足りないぜー",
 						"japaneseTL" : "",
 						"japaneseNote" : "",
-						"english" : "",
+						"english" : "That's all? Laaaame. I wanna have more fun~",
 						"englishNote" : ""
 					},
 					"19" : {
@@ -508,7 +515,7 @@
 						"japanese" : "あっちゃー計算ミスったか……",
 						"japaneseTL" : "",
 						"japaneseNote" : "",
-						"english" : "",
+						"english" : "Oopsie... Guess I messed up a calculation...",
 						"englishNote" : ""
 					},
 					"20" : {
@@ -520,7 +527,7 @@
 						"japanese" : "勝利のブリッツ！",
 						"japaneseTL" : "",
 						"japaneseNote" : "",
-						"english" : "",
+						"english" : "Victory blitz!",
 						"englishNote" : ""
 					},
 					"21" : {
@@ -532,7 +539,7 @@
 						"japanese" : "中々やるね…",
 						"japaneseTL" : "",
 						"japaneseNote" : "",
-						"english" : "",
+						"english" : "You're not half-bad...",
 						"englishNote" : ""
 					},
 					"22" : {
@@ -544,7 +551,7 @@
 						"japanese" : "頼りない指揮官だな～まあ、それもそれで可愛いかも？",
 						"japaneseTL" : "",
 						"japaneseNote" : "",
-						"english" : "",
+						"english" : "Sure can't count on you, huh, Commander. Guess that's cute in a way, though?",
 						"englishNote" : ""
 					},
 					"23" : {
@@ -556,7 +563,7 @@
 						"japanese" : "楽しい狩りをするにはいい仲間がいないと無理だぜ～",
 						"japaneseTL" : "",
 						"japaneseNote" : "",
-						"english" : "",
+						"english" : "You want a fun hunt, ya need good chums, else it's not happening~",
 						"englishNote" : ""
 					},
 					"24" : {
@@ -568,7 +575,7 @@
 						"japanese" : "おっと、いい感じじゃない～あたしたちはいい関係になれそうな気がするぜ～",
 						"japaneseTL" : "",
 						"japaneseNote" : "",
-						"english" : "",
+						"english" : "Hey, you're pretty chill~ I'm feelin' like this is the start of a good relationship~",
 						"englishNote" : ""
 					},
 					"25" : {
@@ -580,7 +587,7 @@
 						"japanese" : "指揮官、あたしには小賢しい考えは通用しないよ？指揮官の考えていること、十中八九当てれるからな",
 						"japaneseTL" : "",
 						"japaneseNote" : "",
-						"english" : "",
+						"english" : "Commander, your cunning plans won't work on me. Cause 9 times outta 10, I know just what you're thinking.",
 						"englishNote" : ""
 					},
 					"26" : {
@@ -592,7 +599,7 @@
 						"japanese" : "ここはもっとお互いのことを知っておかないとね～どう思う？指・揮・官？あははは、恥ずかしがってる顔！これ楽しいかも！",
 						"japaneseTL" : "",
 						"japaneseNote" : "",
-						"english" : "",
+						"english" : "I think we oughta get to know each other more intimately~ Whaddya say, Com-man-der? Ahahahah! Look at you, blushing! Oh, that's hilarious!",
 						"englishNote" : ""
 					},
 					"27" : {
@@ -604,7 +611,7 @@
 						"japanese" : "こんなに簡単に見透かされるなんて、指揮官の明日が心配だな～まあこのあたしがずっとそばにいてあげるから、もっともーーっと頼っていいんだぜ？あははは",
 						"japaneseTL" : "",
 						"japaneseNote" : "",
-						"english" : "",
+						"english" : "I'm kinda worried about your future, what with how dang easy it is to read you, Commander~ But it's cool, I'll always be with you, so do keep counting on me, 'kay? Ahahahah~",
 						"englishNote" : ""
 					},
 					"28" : {

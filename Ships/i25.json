@@ -11,7 +11,7 @@
 	"hull" : "Submarine",
 	"navy" : "Sakura Empire",
 	"prefix" : "IJN",
-	"buildTime" : "",
+	"buildTime" : "00:30:00",
 	"parameters": {
 		"firepower" : "D",
 		"torpedo" : "S",
@@ -26,16 +26,16 @@
 		"medal" : "4"
 	},
 	"releaseDate": {
-		"JP" : "",
-		"CN" : "",
-		"KR" : "",
-		"EN" : ""
+		"JP" : "July 11, 2019",
+		"CN" : "July 11, 2019",
+		"KR" : "July 11, 2019",
+		"EN" : "July 11, 2019"
 	},
 	"artist": {
-		"name" : "",
+		"name" : "senji",
 		"weibo" : "",
-		"twitter" : "",
-		"pixiv" : "",
+		"twitter" : "https://twitter.com/oyu_senji",
+		"pixiv" : "https://www.pixiv.net/member.php?id=47406",
 		"other" : ""
 	},
 	"class" : "Type B1",
@@ -45,21 +45,21 @@
 		"aviation" : "0",
 		"reload" : "5"
 	},
-	"acquisitionMethod" : "期間限定建造",
+	"acquisitionMethod" : "Time-Limited Build",
 	"skill": {
 		"1" : {
 			"icon" : "12370",
 			"requirement" : "",
-			"name" : "強襲のGlen ",
+			"name" : "Glen Assault",
 			"type" : "Offensive",
-			"description" : "潜水艦が戦場に到達した場合、零式小型水上偵察機を1機発進させ航空攻撃を行い（威力は雷装とスキルレベルによる）、味方潜水艦・潜水母艦の命中が$1アップ "
+			"description" : "When this boat enters the battle: launches a special Type 0 Small Recon Seaplane airstrike (DMG is based on this boat's TRP stat.) Increases Accuracy by 5.0% (10.0%) for all SSs and SSVs in your fleet."
 		},
 		"2" : {
 			"icon" : "12380",
 			"requirement" : "",
-			"name" : "センベツ砲撃 ",
+			"name" : "Destructive Departure",
 			"type" : "Offensive",
-			"description" : "自身浮上時、砲撃弾幕を展開する（威力はスキルレベルによる）；自身の特殊弾幕と砲撃が敵に命中した場合に$1で発動、その敵の命中・装填が15秒間$2ダウンする "
+			"description" : "When this boat resurfaces: fires a special barrage (DMG is based on the skill's level.) When this boat hits an enemy with this barrage and its Main Guns: 40.0% (70.0%) chance to decrease the enemy's Accuracy and RLD by 5.0% (10.0%) for 15s."
 		},
 		"3" : {
 			"icon" : "22311",
@@ -72,8 +72,8 @@
 	"skin": {
 		"1" : {
 			"id" : "I25",
-			"name" : "伊25",
-			"description" : "巡潜乙型伊号第二十五潜水艦",
+			"name" : "I-25 ",
+			"description" : "Type B1 cruiser submarine – I-25. ",
 			"expression" : {
 				"0" : {
 					"id" : "0"
@@ -186,9 +186,9 @@
 		}
 	},
 	"limitBreak": {
-		"tier1": "全弾発射スキル習得/魚雷補正+5%",
-		"tier2": "魚雷装填数+1/支援範囲拡大",
-		"tier3": "全弾発射弾幕強化/魚雷補正+10%"
+		"tier1": "Unlock All Out Assault Ⅰ/Torpedo efficiency +5%",
+		"tier2": "Torpedo base +1/Improve Hunting range",
+		"tier3": "Improve All Out Assault/Torpedo efficiency +10%"
 	},
 	"equipmentLoadout": {
 		"1": {
@@ -252,9 +252,9 @@
 			"EN": ""
 		},
 		"limited": {
-			"JP": "",
-			"CN": "",
-			"EN": ""
+			"JP": "✓",
+			"CN": "✓",
+			"EN": "✓"
 		}
 	},
 	"drop": {
@@ -281,7 +281,7 @@
 			"1": {
 				"skin_id" : "I25",
 				"id" : "0",
-				"label" : "伊25",
+				"label" : "I-25 ",
 				"dialogue" : {
 					"1" : {
 						"event" : "Ship Description",
@@ -292,7 +292,7 @@
 						"japanese" : "巡潜乙型伊号第二十五潜水艦",
 						"japaneseTL" : "",
 						"japaneseNote" : "",
-						"english" : "",
+						"english" : "Type B1 cruiser submarine – I-25.",
 						"englishNote" : ""
 					},
 					"2" : {
@@ -304,7 +304,7 @@
 						"japanese" : "巡潜乙型の伊-25と申します。偵察と通商破壊、輸送作戦のほかに、かなり大胆な作戦も何個か完遂しましたよ。ふふ、指揮官さん、なんでもお任せくださいね",
 						"japaneseTL" : "",
 						"japaneseNote" : "",
-						"english" : "",
+						"english" : "I'm the Type-B class cruiser submarine, I-25. I'm at my best when it comes to reconnaissance and disrupting shipping routes. I've also been in some... pretty daring operations. Hehe~ Commander, you can count on me.",
 						"englishNote" : ""
 					},
 					"3" : {
@@ -316,7 +316,7 @@
 						"japanese" : "ふぅ……ようやく人と会えましたね。はじめまして、伊-25と申します。指揮官さんのお役に立てると嬉しいです。何卒よろしくお願いします",
 						"japaneseTL" : "",
 						"japaneseNote" : "",
-						"english" : "",
+						"english" : "Phew... I finally found you! Commander, I'm I-25. I hope that I can be a big help to you. Anyway, it's nice meeting you~",
 						"englishNote" : ""
 					},
 					"4" : {
@@ -328,7 +328,7 @@
 						"japanese" : "うぅ……指揮官さん、おかえりなさい。いない間に起きたことをレポートにまとめました。どうぞ",
 						"japaneseTL" : "",
 						"japaneseNote" : "",
-						"english" : "",
+						"english" : "Mmh... Welcome back, Commander. While you were gone, I finished compiling all the reports. Here you go~",
 						"englishNote" : ""
 					},
 					"5" : {
@@ -340,7 +340,7 @@
 						"japanese" : "指揮官さん、お忙しい中すみません。水上機の性能テストをお手伝いいただけないでしょうか…？",
 						"japaneseTL" : "",
 						"japaneseNote" : "",
-						"english" : "",
+						"english" : "Sorry to bother you when you're busy, Commander, but could you please help me test the capabilities of my seaplane?",
 						"englishNote" : ""
 					},
 					"6" : {
@@ -352,7 +352,7 @@
 						"japanese" : "同型艦の子たちとご飯を食べる時には「いただきます」ってみんなで言うんです。穏やかで平和な気分になりますね",
 						"japaneseTL" : "",
 						"japaneseNote" : "",
-						"english" : "",
+						"english" : "Where I'm from, we always offer our respects for the food in front of us before each meal. It's a custom that helps us be at ease. ",
 						"englishNote" : ""
 					},
 					"7" : {
@@ -364,7 +364,7 @@
 						"japanese" : "妹がご迷惑をおかけしてしまいすみません。あの子は元気が良すぎですね……わたしがああいう感じになるのはちょっと無理かな…",
 						"japaneseTL" : "",
 						"japaneseNote" : "",
-						"english" : "",
+						"english" : "I hope my sister hasn't been causing too much trouble for you. She's a little ball of energy... there's no way I can keep up with her... ",
 						"englishNote" : ""
 					},
 					"8" : {
@@ -376,7 +376,7 @@
 						"japanese" : "指揮官さん…指揮官さん……？起きているのでしょうか……ちょっと心配です…",
 						"japaneseTL" : "",
 						"japaneseNote" : "",
-						"english" : "",
+						"english" : "Commander... Commander...? Are you still asleep? I'm getting a bit worried...",
 						"englishNote" : ""
 					},
 					"9" : {
@@ -388,7 +388,7 @@
 						"japanese" : "はあ……指揮官さん成分、補給させていただきました……",
 						"japaneseTL" : "",
 						"japaneseNote" : "",
-						"english" : "",
+						"english" : "Haah... I'm being filled to the brim with your energy, Commander...",
 						"englishNote" : ""
 					},
 					"10" : {
@@ -400,7 +400,7 @@
 						"japanese" : "指揮官さんはこういうのがこ、好みなのでしょうか……",
 						"japaneseTL" : "",
 						"japaneseNote" : "",
-						"english" : "",
+						"english" : "Commander, do you... like this kind of sensation...?",
 						"englishNote" : ""
 					},
 					"11" : {
@@ -424,7 +424,7 @@
 						"japanese" : "まだ完了済になっていない任務がありますね。指揮官さん、一緒に頑張ってこなしましょう",
 						"japaneseTL" : "",
 						"japaneseNote" : "",
-						"english" : "",
+						"english" : "There are still some missions that need to be completed. Commander, let's finish them together.",
 						"englishNote" : ""
 					},
 					"13" : {
@@ -436,7 +436,7 @@
 						"japanese" : "みんなの努力の成果です。胸を張って受け取ってあげるといいですよ",
 						"japaneseTL" : "",
 						"japaneseNote" : "",
-						"english" : "",
+						"english" : "These are the fruits of everyone's efforts. Make sure to receive them with pride.",
 						"englishNote" : ""
 					},
 					"14" : {
@@ -448,7 +448,7 @@
 						"japanese" : "新しいお手紙が次々と…指揮官さん、早く確認したほうがいいですよ",
 						"japaneseTL" : "",
 						"japaneseNote" : "",
-						"english" : "",
+						"english" : "New mail keeps piling up... Commander, you should hurry up and start getting through these...",
 						"englishNote" : ""
 					},
 					"15" : {
@@ -460,7 +460,7 @@
 						"japanese" : "指揮官さんの笑顔から察するに、凱旋してきたところなんですね。ふふ、肩をもんで差し上げましょうか？",
 						"japaneseTL" : "",
 						"japaneseNote" : "",
-						"english" : "",
+						"english" : "Judging by your grin, Commander, you must've had a resounding victory. Hehe, why don't you come here and let me massage your shoulders?",
 						"englishNote" : ""
 					},
 					"16" : {
@@ -472,7 +472,7 @@
 						"japanese" : "委託組のみんなが無事戻りました。ん…手作りチョコとかで労をねぎらってはどうでしょう？",
 						"japaneseTL" : "",
 						"japaneseNote" : "",
-						"english" : "",
+						"english" : "Everyone in the commission fleet has returned safely. Hmm... should I reward them with some homemade chocolate?",
 						"englishNote" : ""
 					},
 					"17" : {
@@ -484,7 +484,7 @@
 						"japanese" : "ふふ、ここまで頼もしくなれたのは指揮官さんのおかげです。感謝します",
 						"japaneseTL" : "",
 						"japaneseNote" : "",
-						"english" : "",
+						"english" : "Hehe... Thank you for helping me become even more reliable, Commander~",
 						"englishNote" : ""
 					},
 					"18" : {
@@ -496,7 +496,7 @@
 						"japanese" : "ときには派手にやることも必要です…！",
 						"japaneseTL" : "",
 						"japaneseNote" : "",
-						"english" : "",
+						"english" : "Sometimes, you've got to stand out!",
 						"englishNote" : ""
 					},
 					"19" : {
@@ -508,7 +508,7 @@
 						"japanese" : "ふふ、これからもなんでもお任せください",
 						"japaneseTL" : "",
 						"japaneseNote" : "",
-						"english" : "",
+						"english" : "Heehee, from now on, just leave it to me~",
 						"englishNote" : ""
 					},
 					"20" : {
@@ -520,7 +520,7 @@
 						"japanese" : "みんな無事でしょうか…？",
 						"japaneseTL" : "",
 						"japaneseNote" : "",
-						"english" : "",
+						"english" : "Is everyone safe?",
 						"englishNote" : ""
 					},
 					"21" : {
@@ -532,7 +532,7 @@
 						"japanese" : "攻め時です！",
 						"japaneseTL" : "",
 						"japaneseNote" : "",
-						"english" : "",
+						"english" : "Now's our time to attack!",
 						"englishNote" : ""
 					},
 					"22" : {
@@ -544,7 +544,7 @@
 						"japanese" : "ちょっと大変なことになりましたね…",
 						"japaneseTL" : "",
 						"japaneseNote" : "",
-						"english" : "",
+						"english" : "Now, this is a bit of a sticky situation...",
 						"englishNote" : ""
 					},
 					"23" : {
@@ -556,7 +556,7 @@
 						"japanese" : "差し出がましいかもしれませんが…指揮官さんのサボりが艦隊の仲間に悪影響を与えています。どうかご注意ください",
 						"japaneseTL" : "",
 						"japaneseNote" : "",
-						"english" : "",
+						"english" : "Though I am very sorry that it has come to this, I must once again remind you that your poor work ethic has already affected the fleet.",
 						"englishNote" : ""
 					},
 					"24" : {
@@ -568,7 +568,7 @@
 						"japanese" : "指揮官さん、いつも会いに来てくださってありがとうございます。おかげさまで今日も一日頑張れますね。ふふ",
 						"japaneseTL" : "",
 						"japaneseNote" : "",
-						"english" : "",
+						"english" : "Commander, thank you for coming to see me today. Because of you, I'll have some extra spring in my step. Hehe~",
 						"englishNote" : ""
 					},
 					"25" : {
@@ -580,7 +580,7 @@
 						"japanese" : "……今日は指揮官さん、来ないのでしょうか……わたし、寂しくて倒れちゃいそうです……………し、指揮官さん！？今の聞いてたのですか？？",
 						"japaneseTL" : "",
 						"japaneseNote" : "",
-						"english" : "",
+						"english" : "...Is Commander really not coming today..? I'm going to die of loneliness... ... C-Commander?! Did you hear me just now??",
 						"englishNote" : ""
 					},
 					"26" : {
@@ -592,7 +592,7 @@
 						"japanese" : "指揮官さん、と、突然で申し訳ございません……わたし寂しくて……大胆って？ふふ、実はあの大戦でも敵の懐に潜り込んだ経験があるんですよ？知りたいですか？",
 						"japaneseTL" : "",
 						"japaneseNote" : "",
-						"english" : "",
+						"english" : "Commander, sorry to call you out all of a sudden, but I've just been so lonely... I'm quite bold, you say? Ehehe... Well, you know, I did have a bit of experience getting... tangled up with the enemy back then. Want to hear more about it?",
 						"englishNote" : ""
 					},
 					"27" : {
@@ -604,7 +604,7 @@
 						"japanese" : "あぅ…指揮官さん……ま、また会いに来ちゃいました…今日は…今日もずっと一緒にいてもいいですか？指揮官さんと一緒ならわたし、ずっと孤独を感じずに済みますから！",
 						"japaneseTL" : "",
 						"japaneseNote" : "",
-						"english" : "",
+						"english" : "Ahhn... Commander, you've come to see me again... Today... today, you won't leave my side this time, right? Commander, if you stay with me, I'll never be lonely ever again!",
 						"englishNote" : ""
 					},
 					"28" : {
@@ -616,7 +616,7 @@
 						"japanese" : "これは指揮官さんとの誓いの証明……ありがとうございます！わたし、いまとっても幸せです！……あと、こうして今日一日中ずっといられるのもちょっと嬉しいです！へへへ♪",
 						"japaneseTL" : "",
 						"japaneseNote" : "",
-						"english" : "",
+						"english" : "This is the proof of our oath to each other, Commander... Thank you so much! Finally, I've found my happiness! I'm so glad... we'll get to spend all our days together like this from now on! Ehehe~♪",
 						"englishNote" : ""
 					},
 					"29" : {
@@ -628,7 +628,7 @@
 						"japanese" : "道を間違えないようにね？",
 						"japaneseTL" : "",
 						"japaneseNote" : "",
-						"english" : "",
+						"english" : "Try not to get lost, all right?",
 						"englishNote" : ""
 					},
 					"30" : {
