@@ -11,7 +11,7 @@
 	"hull" : "Submarine",
 	"navy" : "Sakura Empire",
 	"prefix" : "IJN",
-	"buildTime" : "",
+	"buildTime" : "00:30:00",
 	"parameters": {
 		"firepower" : "D",
 		"torpedo" : "S",
@@ -26,10 +26,10 @@
 		"medal" : "4"
 	},
 	"releaseDate": {
-		"JP" : "",
-		"CN" : "",
-		"KR" : "",
-		"EN" : ""
+		"JP" : "July 11, 2019",
+		"CN" : "July 11, 2019",
+		"KR" : "July 11, 2019",
+		"EN" : "July 11, 2019"
 	},
 	"artist": {
 		"name" : "",
@@ -45,21 +45,21 @@
 		"aviation" : "0",
 		"reload" : "4"
 	},
-	"acquisitionMethod" : "期間限定建造",
+	"acquisitionMethod" : "Time-Limited Build",
 	"skill": {
 		"1" : {
 			"icon" : "3531",
 			"requirement" : "",
 			"name" : "Slow Torpedoes",
 			"type" : "Offensive",
-			"description" : "Increases the DMG of this ship's Torpedoes by $1 but decreases their Speed by 1."
+			"description" : "Increases the DMG of this ship's Torpedoes by 4.5% (12.0%) but decreases their Speed by 1."
 		},
 		"2" : {
 			"icon" : "3621",
 			"requirement" : "",
-			"name" : "空域確認 ",
+			"name" : "Airspace Affirmation",
 			"type" : "Support",
-			"description" : "戦闘中、制空権状態が「制空権劣勢」「制空権喪失」以外の場合、自身の火力・雷装・装填が$1アップ "
+			"description" : "When your Aerial Superiority status is higher than \"AD\": increases this boat's FP, TRP, and RLD by 5.0% (15.0%)."
 		},
 		"3" : {
 			"icon" : "22311",
@@ -72,8 +72,8 @@
 	"skin": {
 		"1" : {
 			"id" : "I56",
-			"name" : "伊56",
-			"description" : "巡潜乙型改二伊号第五十六潜水艦",
+			"name" : "I-56 ",
+			"description" : "Type B3 Mod. 2 cruiser submarine – I-56. ",
 			"expression" : {
 				"0" : {
 					"id" : "0"
@@ -186,9 +186,9 @@
 		}
 	},
 	"limitBreak": {
-		"tier1": "全弾発射スキル習得/魚雷補正+5%",
-		"tier2": "魚雷装填数+1/支援範囲拡大",
-		"tier3": "全弾発射弾幕強化/魚雷補正+10%"
+		"tier1": "Unlock All Out Assault Ⅰ/Torpedo efficiency +5%",
+		"tier2": "Torpedo base +1/Improve Hunting range",
+		"tier3": "Improve All Out Assault/Torpedo efficiency +10%"
 	},
 	"equipmentLoadout": {
 		"1": {
@@ -252,9 +252,9 @@
 			"EN": ""
 		},
 		"limited": {
-			"JP": "",
-			"CN": "",
-			"EN": ""
+			"JP": "✓",
+			"CN": "✓",
+			"EN": "✓"
 		}
 	},
 	"drop": {
@@ -281,7 +281,7 @@
 			"1": {
 				"skin_id" : "I56",
 				"id" : "0",
-				"label" : "伊56",
+				"label" : "I-56 ",
 				"dialogue" : {
 					"1" : {
 						"event" : "Ship Description",
@@ -292,7 +292,7 @@
 						"japanese" : "巡潜乙型改二伊号第五十六潜水艦",
 						"japaneseTL" : "",
 						"japaneseNote" : "",
-						"english" : "",
+						"english" : "Type B3 Mod. 2 cruiser submarine – I-56.",
 						"englishNote" : ""
 					},
 					"2" : {
@@ -304,7 +304,7 @@
 						"japanese" : "巡潜乙型改二、もしくは伊五十四型潜水艦の二隻目、伊56。特に目立った戦果は出せなかったけど…しょうがないよね…だってあのときはどうしようもなかったもん……",
 						"japaneseTL" : "",
 						"japaneseNote" : "",
-						"english" : "",
+						"english" : "I am the 2nd ship of the Type-B Mod. 2 cruiser submarines, I-56. The most noteworthy thing about me... is that I did nothing noteworthy... But there wasn't much I could do at that point anyway...",
 						"englishNote" : ""
 					},
 					"3" : {
@@ -316,7 +316,7 @@
 						"japanese" : "見つけちゃった……い、伊56よ…あ、あの、一人でできる仕事だけ任せてもらってもいい…？",
 						"japaneseTL" : "",
 						"japaneseNote" : "",
-						"english" : "",
+						"english" : "I've been found... I... I'm I-56... Um, if there are any missions I can do by myself, could I get those?",
 						"englishNote" : ""
 					},
 					"4" : {
@@ -328,7 +328,7 @@
 						"japanese" : "ひぃ！？し、指揮官、挨拶しなくても……",
 						"japaneseTL" : "",
 						"japaneseNote" : "",
-						"english" : "",
+						"english" : "Eep?! C-Commander... it's fine to not greet me...",
 						"englishNote" : ""
 					},
 					"5" : {
@@ -340,7 +340,7 @@
 						"japanese" : "ひぃ！？し、指揮官か……どうしたの…？",
 						"japaneseTL" : "",
 						"japaneseNote" : "",
-						"english" : "",
+						"english" : "Eep?! Oh, C-Commander... did you need something?",
 						"englishNote" : ""
 					},
 					"6" : {
@@ -352,7 +352,7 @@
 						"japanese" : "指揮官って毎日多くの艦船たちと話してるよね…すごい…わ、わたしには全然無理だよ…",
 						"japaneseTL" : "",
 						"japaneseNote" : "",
-						"english" : "",
+						"english" : "Commander, you're always dealing with so many people every day... Amazing... I-I'd never be able to do that... ",
 						"englishNote" : ""
 					},
 					"7" : {
@@ -364,7 +364,7 @@
 						"japanese" : "指揮官と二人っきり、しーんとしてて気持ちよくて、安心できるから色々考えられそう……",
 						"japaneseTL" : "",
 						"japaneseNote" : "",
-						"english" : "",
+						"english" : "Commander, being together with you is peaceful and quiet... I can calm down and think about lots of things... ",
 						"englishNote" : ""
 					},
 					"8" : {
@@ -376,7 +376,7 @@
 						"japanese" : "58は…19と…ううん、26のようなスポ根も…ひぃ！？し、指揮官！？なな、なんでもないっ！！",
 						"japaneseTL" : "",
 						"japaneseNote" : "",
-						"english" : "",
+						"english" : "Being athletic like 58 and 19.... err, I mean, 26... would be nice... Eek?! C-Commander? I-I didn't say anything!!",
 						"englishNote" : ""
 					},
 					"9" : {
@@ -388,7 +388,7 @@
 						"japanese" : "指揮官、どうしたの？い、いまわたし、変な独り言を言っちゃってたの？！",
 						"japaneseTL" : "",
 						"japaneseNote" : "",
-						"english" : "",
+						"english" : "Commander, what's the matter? Ah, umm... was I muttering something weird to myself again?!",
 						"englishNote" : ""
 					},
 					"10" : {
@@ -400,7 +400,7 @@
 						"japanese" : "きゃっ！？し、指揮官はわたしをあの本みたいに……！？い、いいえ、なんでもないの！ごめんなさい……",
 						"japaneseTL" : "",
 						"japaneseNote" : "",
-						"english" : "",
+						"english" : "Eek?! C-Commander... this is just like in that book...?! Ah, um, forget I said that! Sorry...",
 						"englishNote" : ""
 					},
 					"11" : {
@@ -412,7 +412,7 @@
 						"japanese" : "指揮官、こ、これって、任務の書類だよ…ね？",
 						"japaneseTL" : "",
 						"japaneseNote" : "",
-						"english" : "",
+						"english" : "Commander, these... these are mission delegations, right...?",
 						"englishNote" : ""
 					},
 					"12" : {
@@ -424,7 +424,7 @@
 						"japanese" : "……はっ！し、しまった…任務報酬まとめなきゃいけないのに、考え込んじゃった……",
 						"japaneseTL" : "",
 						"japaneseNote" : "",
-						"english" : "",
+						"english" : "*gasp*! Oh no... I spaced out while tallying the mission rewards...",
 						"englishNote" : ""
 					},
 					"13" : {
@@ -436,7 +436,7 @@
 						"japanese" : "内容をしっかり確認してね…？",
 						"japaneseTL" : "",
 						"japaneseNote" : "",
-						"english" : "",
+						"english" : "Make sure to go through your mail carefully...",
 						"englishNote" : ""
 					},
 					"14" : {
@@ -448,7 +448,7 @@
 						"japanese" : "今日の出撃……じゅ、順調…？",
 						"japaneseTL" : "",
 						"japaneseNote" : "",
-						"english" : "",
+						"english" : "Today's sortie... went well then?",
 						"englishNote" : ""
 					},
 					"15" : {
@@ -460,7 +460,7 @@
 						"japanese" : "今日の委託組は、どんなか…じゃなくて、組み合わせ…？",
 						"japaneseTL" : "",
 						"japaneseNote" : "",
-						"english" : "",
+						"english" : "What's the commission of the composition team... Umm, I mean, the composition of the...",
 						"englishNote" : ""
 					},
 					"16" : {
@@ -472,7 +472,7 @@
 						"japanese" : "ど、どうも……",
 						"japaneseTL" : "",
 						"japaneseNote" : "",
-						"english" : "",
+						"english" : "Um... th-thanks...",
 						"englishNote" : ""
 					},
 					"17" : {
@@ -484,7 +484,7 @@
 						"japanese" : "見つかってないよね…？",
 						"japaneseTL" : "",
 						"japaneseNote" : "",
-						"english" : "",
+						"english" : "They didn't find me, right...?",
 						"englishNote" : ""
 					},
 					"18" : {
@@ -496,7 +496,7 @@
 						"japanese" : "……MVP、次は取りたくない……",
 						"japaneseTL" : "",
 						"japaneseNote" : "",
-						"english" : "",
+						"english" : "Next time... I hope I don't get MVP...",
 						"englishNote" : ""
 					},
 					"19" : {
@@ -508,7 +508,7 @@
 						"japanese" : "こっそり逃げよう…",
 						"japaneseTL" : "",
 						"japaneseNote" : "",
-						"english" : "",
+						"english" : "Time to slink away quietly...",
 						"englishNote" : ""
 					},
 					"20" : {
@@ -520,7 +520,7 @@
 						"japanese" : "や、やるしかない…！",
 						"japaneseTL" : "",
 						"japaneseNote" : "",
-						"english" : "",
+						"english" : "Y-you leave me no choice...!",
 						"englishNote" : ""
 					},
 					"21" : {
@@ -532,7 +532,7 @@
 						"japanese" : "め、目立ちすぎちゃったかも…",
 						"japaneseTL" : "",
 						"japaneseNote" : "",
-						"english" : "",
+						"english" : "L-Looks like I've drawn too much attention...",
 						"englishNote" : ""
 					},
 					"22" : {
@@ -544,7 +544,7 @@
 						"japanese" : "ひ、一人にさせて…",
 						"japaneseTL" : "",
 						"japaneseNote" : "",
-						"english" : "",
+						"english" : "Leave... Leave me alone...",
 						"englishNote" : ""
 					},
 					"23" : {
@@ -556,7 +556,7 @@
 						"japanese" : "変なことに巻き込まれなくていいなら、ちょっと空気みたいになってもいいかもね……",
 						"japaneseTL" : "",
 						"japaneseNote" : "",
-						"english" : "",
+						"english" : "If you don't want to get caught up in bothersome things, it's probably better to be like thin air and not stand out...",
 						"englishNote" : ""
 					},
 					"24" : {
@@ -568,7 +568,7 @@
 						"japanese" : "艦隊のみんな、仲がいいよね……ふ、ふふふふ…な、なんでもないの！ひ、一人にして……",
 						"japaneseTL" : "",
 						"japaneseNote" : "",
-						"english" : "",
+						"english" : "Everyone in the fleet gets along so well... Ehe... hehehe... Um, it's nothing... l-leave me alone...",
 						"englishNote" : ""
 					},
 					"25" : {
@@ -580,7 +580,7 @@
 						"japanese" : "時々考えていること、変なことを独り言で言っちゃうけど…き、気にしないで…",
 						"japaneseTL" : "",
 						"japaneseNote" : "",
-						"english" : "",
+						"english" : "From time to time, my thoughts slip out when I'm muttering to myself... D-don't read too much into it...",
 						"englishNote" : ""
 					},
 					"26" : {
@@ -592,7 +592,7 @@
 						"japanese" : "さ、最近会いに行かなくてごめんなさい……だって指揮官と一緒にいたらどうなるか、ず、ずっと考え込んじゃうの……うぅ…恥ずかしいよぉ……",
 						"japaneseTL" : "",
 						"japaneseNote" : "",
-						"english" : "",
+						"english" : "Commander, sorry I haven't come to see you recently... It's just that... I've been thinking about you like crazy, and I can't stop it... It's so embarrassing...",
 						"englishNote" : ""
 					},
 					"27" : {
@@ -604,7 +604,7 @@
 						"japanese" : "こ…これってモウソウだよね？うん、きっとそうだよ…指揮官、わたしのほっぺ、思いっきり引っ張って…！",
 						"japaneseTL" : "",
 						"japaneseNote" : "",
-						"english" : "",
+						"english" : "Am... am I still fantasizing? Mmhm... probably, yup... Commander, give my cheeks a good pinch...!",
 						"englishNote" : ""
 					},
 					"28" : {
@@ -616,7 +616,7 @@
 						"japanese" : "58は誰と組み合わせたら…",
 						"japaneseTL" : "",
 						"japaneseNote" : "",
-						"english" : "",
+						"english" : "Who would I work best with...",
 						"englishNote" : ""
 					},
 					"29" : {

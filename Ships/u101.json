@@ -11,7 +11,7 @@
 	"hull" : "Submarine",
 	"navy" : "Ironblood",
 	"prefix" : "KMS",
-	"buildTime" : "",
+	"buildTime" : "00:12:00",
 	"parameters": {
 		"firepower" : "D",
 		"torpedo" : "S",
@@ -26,16 +26,16 @@
 		"medal" : "10"
 	},
 	"releaseDate": {
-		"JP" : "",
-		"CN" : "",
-		"KR" : "",
-		"EN" : ""
+		"JP" : "July 11, 2019",
+		"CN" : "July 11, 2019",
+		"KR" : "July 11, 2019",
+		"EN" : "July 11, 2019"
 	},
 	"artist": {
-		"name" : "",
+		"name" : "夜ノみつき",
 		"weibo" : "",
-		"twitter" : "",
-		"pixiv" : "",
+		"twitter" : "https://twitter.com/mituk1",
+		"pixiv" : "https://www.pixiv.net/member.php?id=44234",
 		"other" : ""
 	},
 	"class" : "Type VIIB",
@@ -45,35 +45,35 @@
 		"aviation" : "0",
 		"reload" : "8"
 	},
-	"acquisitionMethod" : "期間限定建造",
+	"acquisitionMethod" : "Time-Limited Build",
 	"skill": {
 		"1" : {
 			"icon" : "12400",
-			"requirement" : "",
-			"name" : "大ザメ攻撃 ",
+			"requirement" : "Default Unlocked",
+			"name" : "Great Shark's Bite",
 			"type" : "Support",
-			"description" : "戦闘中、自身の命中が$1アップ；僚艦として編成されている場合、攻撃位置到達後でも前進し続け、18秒経過した後元の位置に戻る "
+			"description" : "Increases this boat's Accuracy by 5.0% (15.0%). When called into battle when placed in the first or last position in the Submarine Fleet: continues advancing beyond its starting position then returns to it after 18s."
 		},
 		"2" : {
 			"icon" : "12410",
-			"requirement" : "",
-			"name" : "ウルフパック-U101 ",
+			"requirement" : "Default Unlocked",
+			"name" : "Wolf Pack Formation - U-101",
 			"type" : "Defensive",
-			"description" : "出撃時、味方鉄血所属潜水艦の回避率が$1、駆逐・軽巡に与えるダメージが$1アップし、味方艦隊の鉄血潜水艦が1隻につき、自身の雷装・装填が$2アップ "
+			"description" : "Increases Evasion Rate by 2.5% (7.0%) and DMG to DDs and CLs by $1 for all your Iron Blood SSs. For each Iron Blood SS in your fleet: increases this boat's TRP and RLD by 1.5% (6.0%)."
 		},
 		"3" : {
 			"icon" : "29431",
-			"requirement" : "",
-			"name" : "特殊弾幕-U101I",
+			"requirement" : "Limit Break I (III)",
+			"name" : "All Out Assault Ⅰ",
 			"type" : "Offensive",
-			"description" : "戦闘開始時、特殊弾幕-U101Ⅰを発動する"
+			"description" : "Activates All Out Assault Ⅰ: U-101 immediately after entering the battle."
 		}
 	},
 	"skin": {
 		"1" : {
 			"id" : "U101",
 			"name" : "U-101",
-			"description" : "鉄血VIIB型潜水艦U-101",
+			"description" : "Iron Blood Type VIIC submarine – U-101. ",
 			"expression" : {
 				"0" : {
 					"id" : "0"
@@ -185,10 +185,17 @@
 			"armor" : "Light"
 		}
 	},
+	"huntingRange": {
+		"1": "c2,d2,e2,b3,c3,d3,e3,f3,b4,c4,d4,e4,f4,c5,d5,e5,c6,d6,e6",
+		"2": "c2,d2,e2,b3,c3,d3,e3,f3,b4,c4,d4,e4,f4,c5,d5,e5,c6,d6,e6,c1,e1,b2,f2",
+		"3": "c2,d2,e2,b3,c3,d3,e3,f3,b4,c4,d4,e4,f4,c5,d5,e5,c6,d6,e6,c1,e1,b2,f2,d1,b5,f5",
+		"4": "c2,d2,e2,b3,c3,d3,e3,f3,b4,c4,d4,e4,f4,c5,d5,e5,c6,d6,e6,c1,e1,b2,f2,d1,b5,f5,a3,g3",
+		"5": "c2,d2,e2,b3,c3,d3,e3,f3,b4,c4,d4,e4,f4,c5,d5,e5,c6,d6,e6,c1,e1,b2,f2,d1,b5,f5,a3,g3,a4,g4"
+	},
 	"limitBreak": {
-		"tier1": "特殊弾幕スキル習得/魚雷補正+5%",
-		"tier2": "魚雷装填数+1/支援範囲拡大",
-		"tier3": "特殊弾幕強化/魚雷補正+10%"
+		"tier1": "Unlock EX Barrage Ⅰ/Torpedo efficiency +5%",
+		"tier2": "Torpedo base +1/Improve Hunting range",
+		"tier3": "Improve EX Barrage/Torpedo efficiency +10%"
 	},
 	"equipmentLoadout": {
 		"1": {
@@ -252,9 +259,9 @@
 			"EN": ""
 		},
 		"limited": {
-			"JP": "",
-			"CN": "",
-			"EN": ""
+			"JP": "✓",
+			"CN": "✓",
+			"EN": "✓"
 		}
 	},
 	"drop": {
@@ -292,7 +299,7 @@
 						"japanese" : "鉄血VIIB型潜水艦U-101",
 						"japaneseTL" : "",
 						"japaneseNote" : "",
-						"english" : "",
+						"english" : "Iron Blood Type VIIC submarine – U-101.",
 						"englishNote" : ""
 					},
 					"2" : {
@@ -304,7 +311,7 @@
 						"japanese" : "U-101、鉄血第七Uボート艦隊に所属し、ウルフパック作戦に四回参加して、通商破壊をこなして…と、騎士鉄十字勲章をもらったよ！趣味はこうやって大ザメと共にかっ飛ばすことね。指揮官も興味ある？",
 						"japaneseTL" : "",
 						"japaneseNote" : "",
-						"english" : "",
+						"english" : "I'm U-101, one of the Iron Blood's 7th U-Boat Flotilla. I took part in four wolfpack operations. You could say that disrupting the enemy supply lines is my specialty - I even received a Knight's Cross! My hobby is going on long rides with Great Shark. Commander, wanna come with me?",
 						"englishNote" : ""
 					},
 					"3" : {
@@ -316,7 +323,7 @@
 						"japanese" : "おーい、そこにいる指揮官！U-101の大ザメに乗って、スリリングなライドでもどうかな？",
 						"japaneseTL" : "",
 						"japaneseNote" : "",
-						"english" : "",
+						"english" : "Hey! You! That commander over there! How 'bout coming for a ride on my Great Shark? I'll show you a real thrillin' time!",
 						"englishNote" : ""
 					},
 					"4" : {
@@ -328,7 +335,7 @@
 						"japanese" : "指揮官、今度声かけてくれたら拾ってあげてもいいよ？",
 						"japaneseTL" : "",
 						"japaneseNote" : "",
-						"english" : "",
+						"english" : "Commander, just hit me up next time and I'll give you a ride, okay?",
 						"englishNote" : ""
 					},
 					"5" : {
@@ -340,7 +347,7 @@
 						"japanese" : "ユニオンに「海上の騎士」と自称する子がいるんだっけ？実にいい響きね……よし、指揮官、わたしも「海底の騎士」って自称してもいいかな？",
 						"japaneseTL" : "",
 						"japaneseNote" : "",
-						"english" : "",
+						"english" : "You know about those Union girls who call themselves \"Solomon Knights\" or something? Well, it has a nice ring to it... All righty, Commander, I'm an \"Undersea Knight\" from now on, got it?",
 						"englishNote" : ""
 					},
 					"6" : {
@@ -352,7 +359,7 @@
 						"japanese" : "あー指揮官、ちょっと待ってて、今大ザメをちょっと調整してるとこ！出かけるのはそのあとで！",
 						"japaneseTL" : "",
 						"japaneseNote" : "",
-						"english" : "",
+						"english" : "Ah, Commander, wait just a sec. I've gotta finish fine-tuning Great Shark. We can go afterwards. ",
 						"englishNote" : ""
 					},
 					"7" : {
@@ -364,7 +371,7 @@
 						"japanese" : "大ザメは陸の上でも走れるよ？まあちょっと遅くなるけどね。原理はもちろんさっぱりわからない！",
 						"japaneseTL" : "",
 						"japaneseNote" : "",
-						"english" : "",
+						"english" : "Great Shark is land-capable, you know. Well, just not as fast. Don't ask why it works that way! ",
 						"englishNote" : ""
 					},
 					"8" : {
@@ -376,7 +383,7 @@
 						"japanese" : "走る時に流す音楽は何がいい？指揮官、おすすめとかある？",
 						"japaneseTL" : "",
 						"japaneseNote" : "",
-						"english" : "",
+						"english" : "What kind of music do you like to listen to on trips, Commander? Have any recommendations?",
 						"englishNote" : ""
 					},
 					"9" : {
@@ -388,7 +395,7 @@
 						"japanese" : "指揮官、ちゃんと掴まってろよ～ふっとばされても知らないから！",
 						"japaneseTL" : "",
 						"japaneseNote" : "",
-						"english" : "",
+						"english" : "Hop on, Commander, and make sure to hold on to my waist tight! It won't be my fault if you fall off~",
 						"englishNote" : ""
 					},
 					"10" : {
@@ -400,7 +407,7 @@
 						"japanese" : "！？指揮官、大ザメに噛ませてやろっか？",
 						"japaneseTL" : "",
 						"japaneseNote" : "",
-						"english" : "",
+						"english" : "...Commander?! Sic 'em, Great Shark!",
 						"englishNote" : ""
 					},
 					"11" : {
@@ -412,7 +419,7 @@
 						"japanese" : "新しい任務？目標地まで載せてってやろっか？",
 						"japaneseTL" : "",
 						"japaneseNote" : "",
-						"english" : "",
+						"english" : "You have a new task? Want me to take you to where you need to go?",
 						"englishNote" : ""
 					},
 					"12" : {
@@ -424,7 +431,7 @@
 						"japanese" : "指揮官、任務報酬持ってきたよ",
 						"japaneseTL" : "",
 						"japaneseNote" : "",
-						"english" : "",
+						"english" : "Commander, I've brought the rewards!",
 						"englishNote" : ""
 					},
 					"13" : {
@@ -436,7 +443,7 @@
 						"japanese" : "はいはい、配達員のU-101でーす。手紙届けにきましたーへへへ",
 						"japaneseTL" : "",
 						"japaneseNote" : "",
-						"english" : "",
+						"english" : "Hello! Your local courier U-101 has new mail for you~ Hahaha!",
 						"englishNote" : ""
 					},
 					"14" : {
@@ -448,7 +455,7 @@
 						"japanese" : "指揮官、寮まで送ってやろっか？",
 						"japaneseTL" : "",
 						"japaneseNote" : "",
-						"english" : "",
+						"english" : "Commander, want me to drop you off at the dorm so you can get some rest?",
 						"englishNote" : ""
 					},
 					"15" : {
@@ -460,7 +467,7 @@
 						"japanese" : "委託が完了した？じゃあ出迎えてくるよ！",
 						"japaneseTL" : "",
 						"japaneseNote" : "",
-						"english" : "",
+						"english" : "The commission fleet is back? All righty, I'll go pick 'em up!",
 						"englishNote" : ""
 					},
 					"16" : {
@@ -472,7 +479,7 @@
 						"japanese" : "もっとかっ飛ばせるよー",
 						"japaneseTL" : "",
 						"japaneseNote" : "",
-						"english" : "",
+						"english" : "I feel the need for speed!",
 						"englishNote" : ""
 					},
 					"17" : {
@@ -484,7 +491,7 @@
 						"japanese" : "ボートトルペード、準備完了！",
 						"japaneseTL" : "",
 						"japaneseNote" : "",
-						"english" : "",
+						"english" : "My boat torpedoes are ready!",
 						"englishNote" : ""
 					},
 					"18" : {
@@ -496,7 +503,7 @@
 						"japanese" : "うっしゃ！一位！",
 						"japaneseTL" : "",
 						"japaneseNote" : "",
-						"english" : "",
+						"english" : "Booyah! Number one!",
 						"englishNote" : ""
 					},
 					"19" : {
@@ -508,7 +515,7 @@
 						"japanese" : "うまく避けられなかったな……",
 						"japaneseTL" : "",
 						"japaneseNote" : "",
-						"english" : "",
+						"english" : "Couldn't get out of the way in time...",
 						"englishNote" : ""
 					},
 					"20" : {
@@ -520,7 +527,7 @@
 						"japanese" : "ボートトルペード、まるっと受け取れ！",
 						"japaneseTL" : "",
 						"japaneseNote" : "",
-						"english" : "",
+						"english" : "All boat torpedoes, launch! ",
 						"englishNote" : ""
 					},
 					"21" : {
@@ -532,7 +539,7 @@
 						"japanese" : "もうちょっと飛ばさないとね…！",
 						"japaneseTL" : "",
 						"japaneseNote" : "",
-						"english" : "",
+						"english" : "Looks like I've gotta pick up the pace...!",
 						"englishNote" : ""
 					},
 					"22" : {
@@ -544,7 +551,7 @@
 						"japanese" : "飛ばしてくる！Tschüss（チュース）！",
 						"japaneseTL" : "",
 						"japaneseNote" : "",
-						"english" : "",
+						"english" : "I'm going for a ride! Tschüss~",
 						"englishNote" : ""
 					},
 					"23" : {
@@ -556,7 +563,7 @@
 						"japanese" : "イヤフォンつけてエンジン回して、悩みをぶっ飛ばす――いい気分になれるよ？指揮官？",
 						"japaneseTL" : "",
 						"japaneseNote" : "",
-						"english" : "",
+						"english" : "When I put in my headphones and rev the engines, I can outrun all my worries. Lemme tell you, Commander, it's one hell of a feeling.",
 						"englishNote" : ""
 					},
 					"24" : {
@@ -568,7 +575,7 @@
 						"japanese" : "いやあ、他の陣営の潜水艦たちと一緒に艤装でかっ飛ばしたいよね～絶対にいい気持ちになれるよね～しきかーん手を貸して―",
 						"japaneseTL" : "",
 						"japaneseNote" : "",
-						"english" : "",
+						"english" : "Y'know, I really want to have an all-out race with the other factions' subs. I just know it's gonna get my blood pumping! How about it, Commander, wanna do me a favor? ",
 						"englishNote" : ""
 					},
 					"25" : {
@@ -580,7 +587,7 @@
 						"japanese" : "指揮官、時間がないよ、早く乗って！今日このあたりに綺麗な子たちが回遊してくるって聞いたよ！見逃したらまたすごく待たなきゃならないんだからね！",
 						"japaneseTL" : "",
 						"japaneseNote" : "",
-						"english" : "",
+						"english" : "Commander, hurry up and hop on! There's a school of incredibly rare and beautiful fish passing by today! Who knows how long we'd have to wait if we missed this opportunity!",
 						"englishNote" : ""
 					},
 					"26" : {
@@ -592,7 +599,7 @@
 						"japanese" : "お、指揮官、また来たんだ～大ザメの乗り心地が恋しくなったのかな？はい、上がって上がって～今もっと面白い場所まで連れてってあげる！",
 						"japaneseTL" : "",
 						"japaneseNote" : "",
-						"english" : "",
+						"english" : "Commander, look who's back! Hehe, seems like you've fallen in love with Great Shark, huh? All right, get on. Today, I'm going to show you a real special place!",
 						"englishNote" : ""
 					},
 					"27" : {
@@ -604,7 +611,7 @@
 						"japanese" : "まあ安心して、大ザメが行ける場所なら――指揮官さえ呼んでくれれば、このU-101絶対、迎えにいくからね！",
 						"japaneseTL" : "",
 						"japaneseNote" : "",
-						"english" : "",
+						"english" : "Don't worry, Commander. As long as you're somewhere Great Shark can get to, call me any time. I swear I'll come for you!",
 						"englishNote" : ""
 					},
 					"28" : {
