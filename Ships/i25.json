@@ -1,0 +1,674 @@
+{
+	"name_reference" : "i25",
+	"cn_reference" : "I25",
+	"nameJP" : "伊25",
+	"nameCN" : "伊25",
+	"ID" : "396",
+	"name" : "I25",
+	"internal_id" : "308041",
+	"rarity" : "Elite",
+	"initialStar" : "★★☆☆☆",
+	"hull" : "Submarine",
+	"navy" : "Sakura Empire",
+	"prefix" : "IJN",
+	"buildTime" : "",
+	"parameters": {
+		"firepower" : "D",
+		"torpedo" : "S",
+		"aviation" : "E",
+		"evasion" : "D",
+		"antiAir" : "E",
+		"hp" : "D"
+	},
+	"scrap": {
+		"gold" : "1",
+		"oil" : "4",
+		"medal" : "4"
+	},
+	"releaseDate": {
+		"JP" : "",
+		"CN" : "",
+		"KR" : "",
+		"EN" : ""
+	},
+	"artist": {
+		"name" : "",
+		"weibo" : "",
+		"twitter" : "",
+		"pixiv" : "",
+		"other" : ""
+	},
+	"class" : "Type B1",
+	"enhance": {
+		"firepower" : "1",
+		"torpedo" : "39",
+		"aviation" : "0",
+		"reload" : "5"
+	},
+	"acquisitionMethod" : "期間限定建造",
+	"skill": {
+		"1" : {
+			"icon" : "12370",
+			"requirement" : "",
+			"name" : "強襲のGlen ",
+			"type" : "Offensive",
+			"description" : "潜水艦が戦場に到達した場合、零式小型水上偵察機を1機発進させ航空攻撃を行い（威力は雷装とスキルレベルによる）、味方潜水艦・潜水母艦の命中が$1アップ "
+		},
+		"2" : {
+			"icon" : "12380",
+			"requirement" : "",
+			"name" : "センベツ砲撃 ",
+			"type" : "Offensive",
+			"description" : "自身浮上時、砲撃弾幕を展開する（威力はスキルレベルによる）；自身の特殊弾幕と砲撃が敵に命中した場合に$1で発動、その敵の命中・装填が15秒間$2ダウンする "
+		},
+		"3" : {
+			"icon" : "22311",
+			"requirement" : "",
+			"name" : "All Out Assault Ⅰ",
+			"type" : "Offensive",
+			"description" : "Activates All Out Assault Ⅰ: I-Type Submarine immediately after entering the battle."
+		}
+	},
+	"skin": {
+		"1" : {
+			"id" : "I25",
+			"name" : "伊25",
+			"description" : "巡潜乙型伊号第二十五潜水艦",
+			"expression" : {
+				"0" : {
+					"id" : "0"
+				}
+			}
+		}
+	},
+	"defaultEquipment": {
+		"1" : {
+			"icon" : "35400",
+			"rarity" : "Common",
+			"name" : "Type 92 Submarine Torpedo"
+		},
+		"2" : {
+			"icon" : "35400",
+			"rarity" : "Common",
+			"name" : "Type 92 Submarine Torpedo"
+		},
+		"3" : {
+			"icon" : "",
+			"rarity" : "",
+			"name" : ""
+		}
+	},
+	"stats": {
+		"base": {
+			"hp" : "314",
+			"firepower" : "12",
+			"torpedo" : "99",
+			"antiAir" : "0",
+			"aviation" : "0",
+			"reload" : "26",
+			"hit" : "61",
+			"evasion" : "10",
+			"speed" : "18.8",
+			"luck" : "25",
+			"asw" : "0",
+			"oxygen" : "218",
+			"ammo" : "2",
+			"cost" : "2",
+			"armor" : "Light"
+		},
+		"100": {
+			"hp" : "1622",
+			"firepower" : "57",
+			"torpedo" : "467",
+			"antiAir" : "0",
+			"aviation" : "0",
+			"reload" : "61",
+			"hit" : "159",
+			"evasion" : "25",
+			"speed" : "18.8",
+			"luck" : "25",
+			"asw" : "0",
+			"oxygen" : "218",
+			"ammo" : "2",
+			"cost" : "7",
+			"armor" : "Light"
+		},
+		"120": {
+			"hp" : "1946",
+			"firepower" : "65",
+			"torpedo" : "514",
+			"antiAir" : "0",
+			"aviation" : "0",
+			"reload" : "70",
+			"hit" : "178",
+			"evasion" : "45",
+			"speed" : "18.8",
+			"luck" : "25",
+			"asw" : "0",
+			"oxygen" : "218",
+			"ammo" : "2",
+			"cost" : "7",
+			"armor" : "Light"
+		},
+		"100retrofit": {
+			"hp" : "",
+			"firepower" : "",
+			"torpedo" : "",
+			"antiAir" : "",
+			"aviation" : "",
+			"reload" : "",
+			"hit" : "",
+			"evasion" : "",
+			"speed" : "18.8",
+			"luck" : "25",
+			"asw" : "",
+			"oxygen" : "218",
+			"ammo" : "2",
+			"cost" : "7",
+			"armor" : "Light"
+		},
+		"120retrofit": {
+			"hp" : "",
+			"firepower" : "",
+			"torpedo" : "",
+			"antiAir" : "",
+			"aviation" : "",
+			"reload" : "",
+			"hit" : "",
+			"evasion" : "",
+			"speed" : "18.8",
+			"luck" : "25",
+			"asw" : "",
+			"oxygen" : "218",
+			"ammo" : "2",
+			"cost" : "7",
+			"armor" : "Light"
+		}
+	},
+	"limitBreak": {
+		"tier1": "全弾発射スキル習得/魚雷補正+5%",
+		"tier2": "魚雷装填数+1/支援範囲拡大",
+		"tier3": "全弾発射弾幕強化/魚雷補正+10%"
+	},
+	"equipmentLoadout": {
+		"1": {
+			"type": "Submarine Torpedo",
+			"efficiency": "115%/120%/120%/130%",
+			"amount": "1/1/2/2",
+			"preload": "0/0/0/0"
+		},
+		"2": {
+			"type": "Submarine Torpedo",
+			"efficiency": "100%/105%/105%/115%",
+			"amount": "1/1/2/2",
+			"preload": "0/0/0/0"
+		},
+		"3": {
+			"type": "Destroyer Gun",
+			"efficiency": "85%/85%/85%/85%",
+			"amount": "1/1/1/1",
+			"preload": "0/0/0/0"
+		},
+		"4": {
+			"type": "Auxilary",
+			"efficiency": "-",
+			"amount": "-",
+			"preload": "-"
+		},
+		"5": {
+			"type": "Auxilary",
+			"efficiency": "-",
+			"amount": "-",
+			"preload": "-"
+		}
+	},
+	"fleet_tech": {
+		"pt_get": "4",
+		"add_get_attr": "HP",
+		"add_get_value": "2",
+		"add_get_shiptype": "Submarine,Submarine Aircraft Carrier",
+		"pt_upgrade": "8",
+		"pt_level": "6",
+		"add_level_attr": "Torpedo",
+		"add_level_value": "1",
+		"add_level_shiptype": "Submarine,Submarine Aircraft Carrier",
+		"t_level": "7",
+		"ships": "i19,i26,i58,i25,i56"
+	},
+	"build": {
+		"light": {
+			"JP": "",
+			"CN": "",
+			"EN": ""
+		},
+		"heavy": {
+			"JP": "",
+			"CN": "",
+			"EN": ""
+		},
+		"special": {
+			"JP": "",
+			"CN": "",
+			"EN": ""
+		},
+		"limited": {
+			"JP": "",
+			"CN": "",
+			"EN": ""
+		}
+	},
+	"drop": {
+		"droppable": "false",
+		"list": {
+			"1": {
+				"event": "",
+				"chapter": {
+					"1": {
+						"label": "Ch .1",
+						"node": {
+							"1": {
+								"drop": "✓",
+								"note": "-"
+							}
+						}
+					}
+				}
+			}
+		}
+	},
+	"lines": {
+		"skin": {
+			"1": {
+				"skin_id" : "I25",
+				"id" : "0",
+				"label" : "伊25",
+				"dialogue" : {
+					"1" : {
+						"event" : "Ship Description",
+						"media" : "",
+						"chinese" : "巡潜乙型潜水舰伊25",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "巡潜乙型伊号第二十五潜水艦",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"2" : {
+						"event" : "Biography",
+						"media" : "profile",
+						"chinese" : "我是巡潜乙型潜艇伊25。生涯里完成了多次巡视和破交、运输任务，还成功实施了几次非常大胆的作战哦。不管是什么任务都请尽管交给我吧，指挥官大人~",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "巡潜乙型の伊-25と申します。偵察と通商破壊、輸送作戦のほかに、かなり大胆な作戦も何個か完遂しましたよ。ふふ、指揮官さん、なんでもお任せくださいね",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"3" : {
+						"event" : "Acquisition",
+						"media" : "get",
+						"chinese" : "呼……终于碰到人了。指挥官大人，初次见面，我是伊25。希望我的到来能对指挥官有所帮助，请多指教了~",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "ふぅ……ようやく人と会えましたね。はじめまして、伊-25と申します。指揮官さんのお役に立てると嬉しいです。何卒よろしくお願いします",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"4" : {
+						"event" : "Login",
+						"media" : "login",
+						"chinese" : "呃嗯……欢迎回来，指挥官。您不在的期间的内容我总结成汇报了，请您过目~",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "うぅ……指揮官さん、おかえりなさい。いない間に起きたことをレポートにまとめました。どうぞ",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"5" : {
+						"event" : "Details",
+						"media" : "detail",
+						"chinese" : "指挥官大人，非常抱歉，在您百忙之中有所叨扰……能帮我测试下侦察机的性能么？",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "指揮官さん、お忙しい中すみません。水上機の性能テストをお手伝いいただけないでしょうか…？",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"6" : {
+						"event" : "Main 1",
+						"media" : "main_1",
+						"chinese" : "每次用餐前，和同级的姐妹们一起念“我开动了”的时候，都会有一种安稳的感觉油然而生呢",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "同型艦の子たちとご飯を食べる時には「いただきます」ってみんなで言うんです。穏やかで平和な気分になりますね",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"7" : {
+						"event" : "Main 2",
+						"media" : "main_2",
+						"chinese" : "妹妹伊26给您添麻烦了，她是不是太活泼了呢？唔…我大概很难像她那样有用不完的精力吧",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "妹がご迷惑をおかけしてしまいすみません。あの子は元気が良すぎですね……わたしがああいう感じになるのはちょっと無理かな…",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"8" : {
+						"event" : "Main 3",
+						"media" : "main_3",
+						"chinese" : "指挥官…指挥官……？精神还好吗…抱歉，我有点担心…",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "指揮官さん…指揮官さん……？起きているのでしょうか……ちょっと心配です…",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"9" : {
+						"event" : "Touch",
+						"media" : "touch_1",
+						"chinese" : "哈啊…指挥官大人成分，补给完成…",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "はあ……指揮官さん成分、補給させていただきました……",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"10" : {
+						"event" : "Touch (Special)",
+						"media" : "touch_2",
+						"chinese" : "唔……指挥官大人喜欢这、这样的感觉吗……",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "指揮官さんはこういうのがこ、好みなのでしょうか……",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"11" : {
+						"event" : "Rub",
+						"media" : "touch_head",
+						"chinese" : "",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : " ",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"12" : {
+						"event" : "Mission",
+						"media" : "task",
+						"chinese" : "还有一些任务没完成呢~指挥官大人，一起来完成吧~",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "まだ完了済になっていない任務がありますね。指揮官さん、一緒に頑張ってこなしましょう",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"13" : {
+						"event" : "Mission Complete",
+						"media" : "mission_complete",
+						"chinese" : "这些都是大家努力的成果，应该挺起胸膛接受才是~",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "みんなの努力の成果です。胸を張って受け取ってあげるといいですよ",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"14" : {
+						"event" : "Mail",
+						"media" : "mail",
+						"chinese" : "新的邮件陆续过来了，还请尽早取阅哦，指挥官大人",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "新しいお手紙が次々と…指揮官さん、早く確認したほうがいいですよ",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"15" : {
+						"event" : "Return to Port",
+						"media" : "home",
+						"chinese" : "看指挥官大人的笑脸，今天一定是凯旋而归吧。呵呵~要不要给您揉揉肩膀放松一下？",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "指揮官さんの笑顔から察するに、凱旋してきたところなんですね。ふふ、肩をもんで差し上げましょうか？",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"16" : {
+						"event" : "Commission Complete",
+						"media" : "expedition",
+						"chinese" : "委托组的大家已经平安回归了~嗯…给她们带一点手作巧克力作为慰劳如何？",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "委託組のみんなが無事戻りました。ん…手作りチョコとかで労をねぎらってはどうでしょう？",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"17" : {
+						"event" : "Enhancement",
+						"media" : "upgrade",
+						"chinese" : "非常感谢指挥官大人，让我能够变得更可靠~",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "ふふ、ここまで頼もしくなれたのは指揮官さんのおかげです。感謝します",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"18" : {
+						"event" : "Flagship",
+						"media" : "warcry",
+						"chinese" : "有时也需要显眼一点呢……！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "ときには派手にやることも必要です…！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"19" : {
+						"event" : "Victory",
+						"media" : "mvp",
+						"chinese" : "嘻嘻，今后也请多把任务交给我吧",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "ふふ、これからもなんでもお任せください",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"20" : {
+						"event" : "Defeat",
+						"media" : "lose",
+						"chinese" : "大家都还平安吧…？",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "みんな無事でしょうか…？",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"21" : {
+						"event" : "Skill",
+						"media" : "skill",
+						"chinese" : "现在就是进攻的时机！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "攻め時です！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"22" : {
+						"event" : "Low HP",
+						"media" : "hp",
+						"chinese" : "这下有点难办了呢…",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "ちょっと大変なことになりましたね…",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"23" : {
+						"event" : "Affinity (Upset)",
+						"media" : "feeling1",
+						"chinese" : "指挥官大人，虽然万分抱歉，但我还是不得不提醒您…您的懒散已经影响到了他人…",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "差し出がましいかもしれませんが…指揮官さんのサボりが艦隊の仲間に悪影響を与えています。どうかご注意ください",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"24" : {
+						"event" : "Affinity (Stranger)",
+						"media" : "feeling2",
+						"chinese" : "感谢指挥官大人经常来看望我们。这样今天我也能努力工作了呢。嘻嘻",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "指揮官さん、いつも会いに来てくださってありがとうございます。おかげさまで今日も一日頑張れますね。ふふ",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"25" : {
+						"event" : "Affinity (Friendly)",
+						"media" : "feeling3",
+						"chinese" : "…今天指挥官大人不来吗……寂寞的要死掉了…——指挥、指挥官！？听到刚才的话了？？",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "……今日は指揮官さん、来ないのでしょうか……わたし、寂しくて倒れちゃいそうです……………し、指揮官さん！？今の聞いてたのですか？？",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"26" : {
+						"event" : "Affinity (Like)",
+						"media" : "feeling4",
+						"chinese" : "指挥官大人，对、对不起，这么突然来找您…只是突然觉得有点寂寞…很大胆吗？嘻嘻，其实在那次大战中我有过这样钻进敌人怀里的经验哦？指挥官大人想听听吗？",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "指揮官さん、と、突然で申し訳ございません……わたし寂しくて……大胆って？ふふ、実はあの大戦でも敵の懐に潜り込んだ経験があるんですよ？知りたいですか？",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"27" : {
+						"event" : "Affinity (Love)",
+						"media" : "feeling5",
+						"chinese" : "啊呜…指挥官大人…我又来找您了…今、今天也可以一直在一起吗？只要和指挥官在一起我是永远不会感到孤单的！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "あぅ…指揮官さん……ま、また会いに来ちゃいました…今日は…今日もずっと一緒にいてもいいですか？指揮官さんと一緒ならわたし、ずっと孤独を感じずに済みますから！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"28" : {
+						"event" : "Pledge",
+						"media" : "propose",
+						"chinese" : "这就是和指挥官大人的誓约的证明…谢谢您！我现在真的非常幸福！…还有，其实像这样能够一整天和指挥官在一起也很开心呢…嘻嘻",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "これは指揮官さんとの誓いの証明……ありがとうございます！わたし、いまとっても幸せです！……あと、こうして今日一日中ずっといられるのもちょっと嬉しいです！へへへ♪",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"29" : {
+						"event" : "Easter Egg 1(I26)",
+						"media" : "link1",
+						"chinese" : "不要跑偏了哦？",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "道を間違えないようにね？",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"30" : {
+						"event" : "Like Present",
+						"media" : "present_like",
+						"chinese" : "",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"31" : {
+						"event" : "Dislike Present",
+						"media" : "present_dislike",
+						"chinese" : "",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"32" : {
+						"event" : "Main Title",
+						"media" : "extra",
+						"chinese" : "",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					}
+				}
+			}
+		}
+	}
+}
