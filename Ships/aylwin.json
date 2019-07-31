@@ -11,7 +11,8 @@
 	"hull": "Destroyer",
 	"navy": "Eagle Union",
 	"prefix": "USS",
-	"buildTime": "",
+	"buildTime": "00:20:00",
+	"voiceActress": "Ōhashi Ayaka",
 	"parameters": {
 		"firepower": "C",
 		"torpedo": "C",
@@ -264,21 +265,46 @@
 			"EN": ""
 		},
 		"limited": {
-			"JP": "",
-			"CN": "",
-			"EN": ""
+			"JP": "✓",
+			"CN": "✓",
+			"EN": "✓"
 		}
 	},
 	"drop": {
-		"droppable": "false",
+		"droppable": "true",
 		"list": {
 			"1": {
-				"event": "",
+				"event": "Ashen Simulacrum",
 				"chapter": {
 					"1": {
-						"label": "Ch .1",
+						"label": "Ch.B",
 						"node": {
 							"1": {
+								"drop": "✓",
+								"note": "-"
+							},
+							"2": {
+								"drop": "✓",
+								"note": "-"
+							},
+							"3": {
+								"drop": "✓",
+								"note": "-"
+							}
+						}
+					},
+					"2": {
+						"label": "Ch.D",
+						"node": {
+							"1": {
+								"drop": "✓",
+								"note": "-"
+							},
+							"2": {
+								"drop": "✓",
+								"note": "-"
+							},
+							"3": {
 								"drop": "✓",
 								"note": "-"
 							}
