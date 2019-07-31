@@ -11,7 +11,7 @@
 	"hull": "Submarine",
 	"navy": "Eagle Union",
 	"prefix": "USS",
-	"buildTime": "",
+	"buildTime": "00:24:00",
 	"class": "Gato-Class",
 	"voiceActress": "Atsumi Tanezaki ",
 	"parameters": {
@@ -34,10 +34,10 @@
 		"EN": ""
 	},
 	"artist": {
-		"name": "",
-		"weibo": "",
-		"twitter": "",
-		"pixiv": "",
+		"name": "かにビーム",
+		"weibo": "http://lumino.sakura.ne.jp/",
+		"twitter": "https://twitter.com/kani_biimu",
+		"pixiv": "https://www.pixiv.net/member.php?id=3439325",
 		"other": ""
 	},
 	"enhance": {
@@ -50,24 +50,24 @@
 	"skill": {
 		"1": {
 			"icon": "11670",
-			"requirement": "",
-			"name": "意外赠礼",
+			"requirement": "Default Unlocked",
+			"name": "Experienced Hunter",
 			"type": "Offensive",
-			"description": "潜艇氧气不足上浮及从战场撤离时，各发射一组的技能鱼雷$1(威力随技能等级提升)，技能鱼雷有70%概率对命中的敌人造成点燃(点燃伤害依据雷击属性)"
+			"description": "Increases damage dealt to Destroyers, Light Cruisers, and Aircraft Carriers by 1% (10%)."
 		},
 		"2": {
 			"icon": "11680",
-			"requirement": "",
-			"name": "熟练的猎手",
+			"requirement": "Default Unlocked",
+			"name": "Surprise Gift",
 			"type": "Offensive",
-			"description": "对驱逐舰、轻巡洋舰、航空母舰的伤害提升$1"
+			"description": "When resurfacing: launches torpedoes (damage increases with Level) that have a 70% chance to inflict Burn damage (based on Torpedo stat) upon hit."
 		},
 		"3": {
 			"icon": "29341",
-			"requirement": "",
-			"name": "专属弹幕-大青花鱼I",
+			"requirement": "Limit Break I(III)",
+			"name": "All Out Barrage I",
 			"type": "Offensive",
-			"description": "进入战斗时，触发专属弹幕-大青花鱼I"
+			"description": "When entering the battle, triggers Full Barrage - Albacore I (II)."
 		}
 	},
 	"skin": {
@@ -240,9 +240,9 @@
 			"EN": ""
 		},
 		"limited": {
-			"JP": "",
-			"CN": "",
-			"EN": ""
+			"JP": "✓",
+			"CN": "✓",
+			"EN": "✓"
 		}
 	},
 	"drop": {
@@ -610,6 +610,6 @@
 		"add_level_value": "2",
 		"add_level_shiptype": "Submarine,Submarine Aircraft Carrier",
 		"t_level": "6",
-		"ships": "dace,albacore"
+		"ships": "albacore,cavalla,dace"
 	}
 }
