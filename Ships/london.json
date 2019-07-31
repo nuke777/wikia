@@ -119,23 +119,6 @@
 		}
 	},
 	"stats": {
-		"base": {
-			"hp": "607",
-			"firepower": "41",
-			"torpedo": "41",
-			"antiAir": "40",
-			"aviation": "0",
-			"reload": "61",
-			"hit": "38",
-			"evasion": "9",
-			"speed": "25.6",
-			"luck": "62",
-			"asw": "0",
-			"oxygen": "0",
-			"ammo": "0",
-			"cost": "3",
-			"armor": "Light"
-		},
 		"100": {
 			"hp": "3137",
 			"firepower": "194",
@@ -168,6 +151,23 @@
 			"oxygen": "0",
 			"ammo": "0",
 			"cost": "11",
+			"armor": "Light"
+		},
+		"base": {
+			"hp": "607",
+			"firepower": "41",
+			"torpedo": "41",
+			"antiAir": "40",
+			"aviation": "0",
+			"reload": "61",
+			"hit": "38",
+			"evasion": "9",
+			"speed": "25.6",
+			"luck": "62",
+			"asw": "0",
+			"oxygen": "0",
+			"ammo": "0",
+			"cost": "3",
 			"armor": "Light"
 		},
 		"100retrofit": {
@@ -640,6 +640,30 @@
 						"englishNote": ""
 					},
 					"29": {
+						"event": "Easter Egg 2(Sussex)",
+						"media": "link2",
+						"chinese": "好啦，不要整天板着一张脸",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "よしよし、もう少し表情を緩めた方がいいですよ",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"30": {
+						"event": "Easter Egg 3(Shropshire)",
+						"media": "link3",
+						"chinese": "再捉弄阁下，我要生气咯？",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "これ以上閣下をからかうと怒りますよ？",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"31": {
 						"event": "Like Present",
 						"media": "present_like",
 						"chinese": "",
@@ -651,7 +675,7 @@
 						"english": "",
 						"englishNote": ""
 					},
-					"30": {
+					"32": {
 						"event": "Dislike Present",
 						"media": "present_dislike",
 						"chinese": "",
@@ -663,7 +687,7 @@
 						"english": "",
 						"englishNote": ""
 					},
-					"31": {
+					"33": {
 						"event": "Main Title",
 						"media": "extra",
 						"chinese": "",
@@ -700,10 +724,10 @@
 						"chinese": "那个…阁下，能不能不要用“你是谁”的目光盯着我看，我也没有想到，改造后会换上这样的衣服。不过……稍微有些可爱呢，阁下觉得呢？",
 						"chineseTL": "",
 						"chineseNote": "",
-						"japanese": "",
+						"japanese": "あの…閣下、その「どちら様？」というような顔をされましても…私も改造でこんな格好になるなんて思っていませんでしたよ？でも、そうですね…閣下、この服、かわいいとは思いませんか？ふふふ",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Um... Your Excellency, could you please stop staring at me like you don't recognise me? I didn't think that I'd get a new look for my retrofit, either... But, don't you think it's rather cute?",
 						"englishNote": ""
 					},
 					"3": {
@@ -712,22 +736,58 @@
 						"chinese": "虽然可以换回原来的衣服，不过，我其实一直有些憧憬这样的穿衣风格呢。阁下希望我换回去吗？",
 						"chineseTL": "",
 						"chineseNote": "",
-						"japanese": "",
+						"japanese": "元の衣装もいいですけど、本当は今のようなちょっとおしゃれな衣装もずっと着てみたかったんですよ。閣下は…やっぱり前の衣装がいいですか？",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "I can always change back to my old outfit, but to be frank, I've always looked forward to being able to wear something like this. Your Excellency, would you like me to get changed?",
 						"englishNote": ""
 					},
 					"4": {
+						"event": "Main 1",
+						"media": "main_1_9",
+						"chinese": "换了一身衣服以后，感觉心情也变得有些不一样了呢，阁下，稍后一起吃点心吗？",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "衣装を変えると、なんだか気持ちも少し変わりますね……閣下、仕事のあとは甘い物でもいかがですか？",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "I feel like my mood has been changing since I got my new outfit. Your Excellency, would you like to go for some dessert in a little bit? ",
+						"englishNote": ""
+					},
+					"5": {
+						"event": "Main 2",
+						"media": "main_2_9",
+						"chinese": "阁下，请不要忘记我是您的秘书舰这件事哦？那么，请收回目光，好好工作！",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "閣下。私が秘書艦であること、ちょっと忘れていませんか？ふふ、はい、よそ見はここまで、お仕事に戻ってくださいね",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Your Excellency, please do not forget the fact that I am still your secretary ship. Now, please focus and get back to your work! ",
+						"englishNote": ""
+					},
+					"6": {
+						"event": "Main 3",
+						"media": "main_3_9",
+						"chinese": "阁下，你知道吗，苏塞克斯那孩子，夸奖这身打扮很漂亮哦？能被那孩子夸奖可是很少见的事呢，呵呵~",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "閣下？サセックスもこの格好を可愛いと言ってくれましたよ？あの子が何かを褒めるなんて珍しいことなんですよ。ふふ",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Your Excellency, did you know that Sussex said that this outfit looks really pretty? You don't hear words of praise from her often, hehe~",
+						"englishNote": ""
+					},
+					"7": {
 						"event": "Touch",
 						"media": "touch_1_9",
 						"chinese": "真拿你没办法呢。那么，阁下，稍微休息一会儿吧，我来准备点心",
 						"chineseTL": "",
 						"chineseNote": "",
-						"japanese": "",
+						"japanese": "致し方ありませんね…では閣下、少し休憩しましょう。軽食をご用意しますね",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "What am I going to do with you... Well then, Your Excellency, please rest for a while. I'll prepare the snacks.",
 						"englishNote": ""
 					}
 				}
