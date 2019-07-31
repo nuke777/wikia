@@ -1,0 +1,820 @@
+{
+	"name_reference" : "baltimore",
+	"cn_reference" : "baerdimo",
+	"nameJP" : "ボルチモア",
+	"nameCN" : "巴尔的摩",
+	"ID" : "50",
+	"name" : "Baltimore",
+	"internal_id" : "103161",
+	"rarity" : "Super Rare",
+	"initialStar" : "★★★☆☆☆",
+	"hull" : "Heavy Cruiser",
+	"navy" : "Eagle Union",
+	"prefix" : "USS",
+	"buildTime" : "",
+	"parameters": {
+		"firepower" : "B",
+		"torpedo" : "E",
+		"aviation" : "E",
+		"evasion" : "C",
+		"antiAir" : "B",
+		"hp" : "A"
+	},
+	"scrap": {
+		"gold" : "9",
+		"oil" : "3",
+		"medal" : "10"
+	},
+	"releaseDate": {
+		"JP" : "",
+		"CN" : "",
+		"KR" : "",
+		"EN" : ""
+	},
+	"artist": {
+		"name" : "",
+		"weibo" : "",
+		"twitter" : "",
+		"pixiv" : "",
+		"other" : ""
+	},
+	"class" : "ボルチモア級",
+	"enhance": {
+		"firepower" : "28",
+		"torpedo" : "0",
+		"aviation" : "0",
+		"reload" : "13"
+	},
+	"acquisitionMethod" : "イベント：開かれし紺碧の砂箱",
+	"skill": {
+		"1" : {
+			"icon" : "12480",
+			"requirement" : "",
+			"name" : "Final-AP-Ride",
+			"type" : "Offensive",
+			"description" : "自身の主砲弾薬タイプは特殊徹甲弾$1になる（ダメージ増加効果はスキルレベルによって強化される）"
+		},
+		"2" : {
+			"icon" : "12490",
+			"requirement" : "",
+			"name" : "マルチプルタクティクス",
+			"type" : "Support",
+			"description" : "出撃時、所属艦隊にユニオン軽空母・正規空母が存在している場合、味方艦船の対空が$1アップし、味方ユニオン軽空母・空母の航空が$2アップ；所属艦隊にユニオン軽空母・空母が存在しない場合、自身の火力が$3、回避が$2アップ"
+		},
+		"3" : {
+			"icon" : "20261",
+			"requirement" : "",
+			"name" : "All Out Assault Ⅰ",
+			"type" : "Offensive",
+			"description" : "Activates All Out Assault Ⅰ: Baltimore Class once every 12 times the Main Guns are fired."
+		}
+	},
+	"skin": {
+		"1" : {
+			"id" : "baerdimo",
+			"name" : "ボルチモア",
+			"description" : "ボルチモア級重巡洋艦・ボルチモア（CA-68)",
+			"expression" : {
+				"0" : {
+					"id" : "0"
+				}
+			}
+		},
+		"2" : {
+			"id" : "baerdimo_2",
+			"name" : "エースの放課後",
+			"description" : "あ、指揮官は部活に視察か？はは、ご覧の通り汗をかくだけの、健全なスポーツサークルだ。怪しいものはなにもないよ？…",
+			"expression" : {
+				"0" : {
+					"id" : "0"
+				},
+				"1" : {
+					"id" : "1"
+				},
+				"2" : {
+					"id" : "2"
+				},
+				"3" : {
+					"id" : "3"
+				}
+			}
+		}
+	},
+	"defaultEquipment": {
+		"1" : {
+			"icon" : "13000",
+			"rarity" : "",
+			"name" : "Triple 203mm Main Gun"
+		},
+		"2" : {
+			"icon" : "",
+			"rarity" : "",
+			"name" : ""
+		},
+		"3" : {
+			"icon" : "16100",
+			"rarity" : "Common",
+			"name" : "Twin 20mm AA Oerlikon Design"
+		}
+	},
+	"stats": {
+		"base": {
+			"hp" : "762",
+			"firepower" : "50",
+			"torpedo" : "0",
+			"antiAir" : "47",
+			"aviation" : "0",
+			"reload" : "68",
+			"hit" : "45",
+			"evasion" : "9",
+			"speed" : "26.4",
+			"luck" : "56",
+			"asw" : "0",
+			"oxygen" : "0",
+			"ammo" : "0",
+			"cost" : "4",
+			"armor" : "Medium"
+		},
+		"100": {
+			"hp" : "3939",
+			"firepower" : "236",
+			"torpedo" : "0",
+			"antiAir" : "219",
+			"aviation" : "0",
+			"reload" : "161",
+			"hit" : "116",
+			"evasion" : "24",
+			"speed" : "26.4",
+			"luck" : "56",
+			"asw" : "0",
+			"oxygen" : "0",
+			"ammo" : "0",
+			"cost" : "12",
+			"armor" : "Medium"
+		},
+		"120": {
+			"hp" : "4412",
+			"firepower" : "270",
+			"torpedo" : "0",
+			"antiAir" : "251",
+			"aviation" : "0",
+			"reload" : "185",
+			"hit" : "136",
+			"evasion" : "57",
+			"speed" : "26.4",
+			"luck" : "56",
+			"asw" : "0",
+			"oxygen" : "0",
+			"ammo" : "0",
+			"cost" : "12",
+			"armor" : "Medium"
+		},
+		"100retrofit": {
+			"hp" : "",
+			"firepower" : "",
+			"torpedo" : "",
+			"antiAir" : "",
+			"aviation" : "",
+			"reload" : "",
+			"hit" : "",
+			"evasion" : "",
+			"speed" : "26.4",
+			"luck" : "56",
+			"asw" : "",
+			"oxygen" : "0",
+			"ammo" : "0",
+			"cost" : "12",
+			"armor" : "Medium"
+		},
+		"120retrofit": {
+			"hp" : "",
+			"firepower" : "",
+			"torpedo" : "",
+			"antiAir" : "",
+			"aviation" : "",
+			"reload" : "",
+			"hit" : "",
+			"evasion" : "",
+			"speed" : "26.4",
+			"luck" : "56",
+			"asw" : "",
+			"oxygen" : "0",
+			"ammo" : "0",
+			"cost" : "12",
+			"armor" : "Medium"
+		}
+	},
+	"limitBreak": {
+		"tier1": "全弾発射スキル習得/主砲補正+5%",
+		"tier2": "主砲砲座+1/主砲補正+10%",
+		"tier3": "全弾発射弾幕強化/武器補正+5%"
+	},
+	"equipmentLoadout": {
+		"1": {
+			"type": "Heavy Cruiser",
+			"efficiency": "110%/115%/125%/130%",
+			"amount": "1/1/2/2",
+			"preload": "0/0/0/0"
+		},
+		"2": {
+			"type": "Destroyer Gun",
+			"efficiency": "70%/70%/70%/75%",
+			"amount": "1/1/1/1",
+			"preload": "0/0/0/0"
+		},
+		"3": {
+			"type": "Anti-Air Gun",
+			"efficiency": "130%/130%/130%/135%",
+			"amount": "1/1/1/1",
+			"preload": "0/0/0/0"
+		},
+		"4": {
+			"type": "Auxilary",
+			"efficiency": "-",
+			"amount": "-",
+			"preload": "-"
+		},
+		"5": {
+			"type": "Auxilary",
+			"efficiency": "-",
+			"amount": "-",
+			"preload": "-"
+		}
+	},
+	"fleet_tech": {
+		"pt_get": "15",
+		"add_get_attr": "HP",
+		"add_get_value": "1",
+		"add_get_shiptype": "Heavy Cruiser,Monitor,Super Cruiser",
+		"pt_upgrade": "30",
+		"pt_level": "23",
+		"add_level_attr": "Firepower",
+		"add_level_value": "1",
+		"add_level_shiptype": "Heavy Cruiser,Monitor,Super Cruiser",
+		"t_level": "8",
+		"ships": "baltimore"
+	},
+	"build": {
+		"light": {
+			"JP": "",
+			"CN": "",
+			"EN": ""
+		},
+		"heavy": {
+			"JP": "",
+			"CN": "",
+			"EN": ""
+		},
+		"special": {
+			"JP": "",
+			"CN": "",
+			"EN": ""
+		},
+		"limited": {
+			"JP": "",
+			"CN": "",
+			"EN": ""
+		}
+	},
+	"drop": {
+		"droppable": "false",
+		"list": {
+			"1": {
+				"event": "",
+				"chapter": {
+					"1": {
+						"label": "Ch .1",
+						"node": {
+							"1": {
+								"drop": "✓",
+								"note": "-"
+							}
+						}
+					}
+				}
+			}
+		}
+	},
+	"lines": {
+		"skin": {
+			"1": {
+				"skin_id" : "baerdimo",
+				"id" : "0",
+				"label" : "ボルチモア",
+				"dialogue" : {
+					"1" : {
+						"event" : "Ship Description",
+						"media" : "",
+						"chinese" : "巴尔的摩级重巡洋舰—巴尔的摩，舷号CA-68",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "ボルチモア級重巡洋艦・ボルチモア（CA-68)",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"2" : {
+						"event" : "Biography",
+						"media" : "profile",
+						"chinese" : "我是巴尔的摩级的命名舰，巴尔的摩。由于是在非海军条约限制下设计建造的第一级重型巡洋舰，因此配备了当时许多最先进的装备。就让我在这个舰队为了自由和正义而努力活跃吧",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "ボルチモア型重巡洋艦のネームシップ、ボルチモアだ。海軍条約の制限を受けずに初めて設計・建造された重巡であり、それ故に当時における様々な最新兵装を搭載できた。この艦隊で自由と正義のために一働きさせてもらう",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"3" : {
+						"event" : "Acquisition",
+						"media" : "get",
+						"chinese" : "是你在寻求我的帮助吗？我是巴尔的摩，只是一名路过的重巡洋舰罢了…哈哈，开个玩笑…巴尔的摩，报到。请多指教啦，指挥官",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "やあ、助けを求めてるのはあんたか？私はボルチモア、通りすがりの重巡洋艦だ……と、冗談はここまでにして…ボルチモア、着任した。指揮官、よろしく",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"4" : {
+						"event" : "Login",
+						"media" : "login",
+						"chinese" : "让我们开始工作吧，指挥官！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "さて、指揮官、仕事を始めるか！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"5" : {
+						"event" : "Details",
+						"media" : "detail",
+						"chinese" : "可以做的，需要做的，实际做的——总是需要有所取舍。所以，指挥官只要集中精力做好自己最擅长的工作就好",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "できること、すべきこと、そして実際にすること――取捨選択が必要だ。指揮官は一番上手くできることに集中すればいい",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"6" : {
+						"event" : "Main 1",
+						"media" : "main_1",
+						"chinese" : "交给我的工作我都会认真完成。作为指挥官的部下这些都不算什么",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "仕事はキッチリこなしてみせるさ。まあ、指揮官の部下として当然だな",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"7" : {
+						"event" : "Main 2",
+						"media" : "main_2",
+						"chinese" : "昆西！？和印象里差的好远啊…说来也是，不同舰船用同一个名字也没什么好奇怪的就是了",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "あれがクインシー！？ず、ずいぶんと姿が違うな…それもそうか。違う艦船が同じ名前を持つ、別におかしくないな",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"8" : {
+						"event" : "Main 3",
+						"media" : "main_3",
+						"chinese" : "光靠暴力，是无法解决一切争端的。指挥官，虽然我觉得不需要我提醒，不过还是希望您不要忘记这一点",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "力だけでは根本的な解決にならない。指揮官、私が言うまでもないと思うが、このこと、くれぐれも忘れないほうがいい",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"9" : {
+						"event" : "Touch",
+						"media" : "touch_1",
+						"chinese" : "这瓶酸素可乐是给我拿的？谢了……哈～果然还是这个最棒啦！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "酸素コーラを持ってきてくれるのか？どうも…くはーやっぱり効くなーこれ！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"10" : {
+						"event" : "Touch (Special)",
+						"media" : "touch_2",
+						"chinese" : "呀！？……刚、刚才那个你就当没听到就好！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "きゃぅ！？……い、今の聞かなかったことにしてくれ！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"11" : {
+						"event" : "Mission",
+						"media" : "task",
+						"chinese" : "任务吗……好，先从一览表的确认开始吧",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "ミッションか。よし、まずは一覧表を確認する",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"12" : {
+						"event" : "Mission Complete",
+						"media" : "mission_complete",
+						"chinese" : "任务奖励到了。有能用来改造和修理的资金就好了",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "ミッションボーナスだ。改造や修理の資金があれば助かるな",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"13" : {
+						"event" : "Mail",
+						"media" : "mail",
+						"chinese" : "指挥官，有人联系。看来要确认的更详细一点才行啊",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "指揮官、通信だ。もう少しこまめにチェックしたほうがいいかもな",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"14" : {
+						"event" : "Return to Port",
+						"media" : "home",
+						"chinese" : "指挥官，有没有受伤？",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "指揮官、怪我はないか？",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"15" : {
+						"event" : "Commission Complete",
+						"media" : "expedition",
+						"chinese" : "委托完成了，指挥官，正好我有些想活动一下，下一个让我去吧",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "委託が完了した。少し動きたいから、次の委託は私に任せてくれないか？",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"16" : {
+						"event" : "Enhancement",
+						"media" : "upgrade",
+						"chinese" : "不错，舰装也越来越合身了",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "よし、だんだんフィットしてきたな",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"17" : {
+						"event" : "Flagship",
+						"media" : "warcry",
+						"chinese" : "全舰，准备好阵型！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "全艦、フォーメーションスタンバイ！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"18" : {
+						"event" : "Victory",
+						"media" : "mvp",
+						"chinese" : "你们应当把自己的力量用在正道上",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "お前たちの力、正しい道に使うべきだったな",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"19" : {
+						"event" : "Defeat",
+						"media" : "lose",
+						"chinese" : "通往正义的道路总是充满坎坷.....",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "正しい道でも躓きがあるものだな……",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"20" : {
+						"event" : "Skill",
+						"media" : "skill",
+						"chinese" : "距离完美…歼敌开始！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "間合いは十分…仕留める！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"21" : {
+						"event" : "Low HP",
+						"media" : "hp",
+						"chinese" : "不要慌张，集中精神！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "慌てるな、集中しろ！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"22" : {
+						"event" : "Affinity (Upset)",
+						"media" : "feeling1",
+						"chinese" : "指挥官，还是要更大度一点比较好啊",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "指揮官、もう少し心に余裕をもたせたほうがいい",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"23" : {
+						"event" : "Affinity (Stranger)",
+						"media" : "feeling2",
+						"chinese" : "只要人心存正义，即使不把正义挂在嘴边也绝不会走偏。希望指挥官能一直走在正路上呢",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "正しいことをしようとする意思さえあれば、それを口にしなくても人は正しく生きていける。指揮官が正しい道を進むことを祈っているよ",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"24" : {
+						"event" : "Affinity (Friendly)",
+						"media" : "feeling3",
+						"chinese" : "刻板的话就不用多说了，之后还需要我做什么呢？指挥官没问题的话，我什么忙都能帮的，尽管告诉我吧",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "さて、堅苦しい話はここまで、次は何をすればいい？指揮官さえ良ければこっちは割となんでも相談に乗れるから、困ったことがあったらどんどん頼ってくれ",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"25" : {
+						"event" : "Affinity (Like)",
+						"media" : "feeling4",
+						"chinese" : "一起去买东西？可以呀，这点小事尽管吩咐啦。然后再顺便约个会什么的？没问…等、等等！“约会”…约会！？",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "お買い物に一緒に行ってほしい、か？いいよ、お安い御用だ。ついでにデートも？構わな……ちょ、ちょっと待て！デートって、あのデートか！？",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"26" : {
+						"event" : "Affinity (Love)",
+						"media" : "feeling5",
+						"chinese" : "怎么办…这种场合果然还是习惯不了啊…要不要表现得更女孩子一点……不不，这就是我这边的问题！…真是的，在你身边的时候总是会手忙脚乱的…",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "どうする…やっぱこういうのは慣れないな…もっと女の子っぽく振る舞ったほうが……いや、これはあくまで私の問題だ！…ったく、指揮官のそばにいると調子が狂うな…",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"27" : {
+						"event" : "Pledge",
+						"media" : "propose",
+						"chinese" : "嗯，我发誓今后会和指挥官苦乐与共，向指挥官奉献永远的爱…于、于是戴上戒指之后要干什么来着——怎、怎么了？要干什么？啊，啊啊啊……////",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "はい、私もずっと指揮官のそばで苦楽を共にし、永久に愛を捧げることを誓おう。…え、ええとな、指輪をつけたあとは――な、なんだ？ちょっと何をする！？あ、あああ……////",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"28" : {
+						"event" : "Easter Egg 1(Wichita)",
+						"media" : "link1",
+						"chinese" : "威奇塔，下手不要太重了",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "ウィチタ、頑張りすぎんなよ！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"29" : {
+						"event" : "Easter Egg 2(Cleveland)",
+						"media" : "link2",
+						"chinese" : "感觉，我跟你很合得来啊",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "いいコンビネーションが出来そうな感じだな！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"30" : {
+						"event" : "Like Present",
+						"media" : "present_like",
+						"chinese" : "",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"31" : {
+						"event" : "Dislike Present",
+						"media" : "present_dislike",
+						"chinese" : "",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"32" : {
+						"event" : "Main Title",
+						"media" : "extra",
+						"chinese" : "",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					}
+				}
+			},
+			"2": {
+				"skin_id" : "baerdimo_2",
+				"id" : "1",
+				"label" : "エースの放課後",
+				"dialogue" : {
+					"1" : {
+						"event" : "Ship Description",
+						"media" : "",
+						"chinese" : "啊，指挥官是来视察社团的吗？哈哈，如你所见，就是一个很单纯的运动系社团。可没有什么奇怪的东西哦？…",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "あ、指揮官は部活に視察か？はは、ご覧の通り汗をかくだけの、健全なスポーツサークルだ。怪しいものはなにもないよ？…",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"2" : {
+						"event" : "Acquisition",
+						"media" : "get_1",
+						"chinese" : "啊，指挥官是来视察社团的吗？哈哈，如你所见，就是一个很单纯的运动系社团。可没有什么奇怪的东西哦？…",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "あ、指揮官は部活に視察か？はは、ご覧の通り汗をかくだけの、健全なスポーツサークルだ。怪しいものはなにもないよ？…",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"3" : {
+						"event" : "Details",
+						"media" : "detail_1",
+						"chinese" : "指挥官知道社团活动在哪里吗？用不用我带你去看看？",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "指揮官は部活の場所知ってる？私が一緒に案内したほうがいいか？",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"4" : {
+						"event" : "Main 1",
+						"media" : "main_1_1",
+						"chinese" : "这里的社团都是兴趣第一，谁都能加入的。指挥官要不要也参加一个？",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "ここの部活は趣味第一、誰でもOKのスタンスだ。指揮官もなにか気になるサークルがあれば入るといいよ",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"5" : {
+						"event" : "Main 2",
+						"media" : "main_2_1",
+						"chinese" : "克利夫兰！下次再来打篮球吧？那边叫上独立的话，我这边也叫匹兹堡她们来吧",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "クリーブランド！今度またバスケでもしないか？そっちがインディペンデンスを連れてきたらこっちもピッツバーグたちに声かけるぜ！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"6" : {
+						"event" : "Main 3",
+						"media" : "main_3_1",
+						"chinese" : "噢，这个饮料是给我的吗？谢了，我就不客气啦！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "お、飲み物をくれるのか？どうも、いただくよ！……ぷはー！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"7" : {
+						"event" : "Touch",
+						"media" : "touch_1_1",
+						"chinese" : "被汗弄的有点透……啊，不好意思…谢谢提醒…………",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "あ、汗で透け……ど、どうも…注意に感謝する…",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"8" : {
+						"event" : "Touch (Special)",
+						"media" : "touch_2_1",
+						"chinese" : "呀！？…你、你干什么啊！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "きゃぅ！？……な、なんだ！？",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"9" : {
+						"event" : "Return to Port",
+						"media" : "home_1",
+						"chinese" : "流了不少汗啊。给你毛巾。喝的我也去买点不？",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "これはいい汗かいたな。ほらタオルだ。飲み物も買ってこようか？",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"10" : {
+						"event" : "Flagship",
+						"media" : "warcry_1",
+						"chinese" : "看我解决你们！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "やってやるぜ！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					}
+				}
+			}
+		}
+	}
+}

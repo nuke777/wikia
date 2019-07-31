@@ -1,0 +1,813 @@
+{
+	"name_reference" : "aylwin",
+	"cn_reference" : "aierwen",
+	"nameJP" : "エールウィン",
+	"nameCN" : "艾尔温",
+	"ID" : "406",
+	"name" : "Aylwin",
+	"internal_id" : "101401",
+	"rarity" : "Rare",
+	"initialStar" : "★★☆☆☆",
+	"hull" : "Destroyer",
+	"navy" : "Eagle Union",
+	"prefix" : "USS",
+	"buildTime" : "",
+	"parameters": {
+		"firepower" : "C",
+		"torpedo" : "C",
+		"aviation" : "E",
+		"evasion" : "B",
+		"antiAir" : "C",
+		"hp" : "C"
+	},
+	"scrap": {
+		"gold" : "4",
+		"oil" : "3",
+		"medal" : "1"
+	},
+	"releaseDate": {
+		"JP" : "",
+		"CN" : "",
+		"KR" : "",
+		"EN" : ""
+	},
+	"artist": {
+		"name" : "",
+		"weibo" : "",
+		"twitter" : "",
+		"pixiv" : "",
+		"other" : ""
+	},
+	"class" : "ファラガット級",
+	"enhance": {
+		"firepower" : "5",
+		"torpedo" : "17",
+		"aviation" : "0",
+		"reload" : "14"
+	},
+	"acquisitionMethod" : "イベント：開かれし紺碧の砂箱",
+	"skill": {
+		"1" : {
+			"icon" : "5021",
+			"requirement" : "",
+			"name" : "Carrier Escort",
+			"type" : "Defensive",
+			"description" : "While this ship is afloat: decreases the DMG all Carriers in your fleet take by $1. Does not stack with the same skill."
+		},
+		"2" : {
+			"icon" : "20011",
+			"requirement" : "",
+			"name" : "All Out Assault Ⅰ",
+			"type" : "Offensive",
+			"description" : "Activates All Out Assault Ⅰ: Farragut Class once every 15 times the Main Guns are fired."
+		}
+	},
+	"skin": {
+		"1" : {
+			"id" : "aierwen",
+			"name" : "エールウィン",
+			"description" : "ファラガット級駆逐艦・エールウィン（DD-355)",
+			"expression" : {
+				"0" : {
+					"id" : "0"
+				}
+			}
+		},
+		"2" : {
+			"id" : "aierwen_2",
+			"name" : "サンデー・アクアリウム",
+			"description" : "ここがアクアリウム……なんだか新鮮な気分です。あ、今日はわたしが案内するのではなく、指揮官がエスコートする番ですから、迷わないようにご注意くださいね。えへへ",
+			"expression" : {
+				"0" : {
+					"id" : "0"
+				},
+				"1" : {
+					"id" : "1"
+				},
+				"2" : {
+					"id" : "2"
+				},
+				"3" : {
+					"id" : "3"
+				}
+			}
+		}
+	},
+	"defaultEquipment": {
+		"1" : {
+			"icon" : "11100",
+			"rarity" : "Common",
+			"name" : "Single 127mm Main Gun"
+		},
+		"2" : {
+			"icon" : "5100",
+			"rarity" : "Common",
+			"name" : "Quadruple 533mm Torpedo"
+		},
+		"3" : {
+			"icon" : "",
+			"rarity" : "",
+			"name" : ""
+		}
+	},
+	"stats": {
+		"base": {
+			"hp" : "271",
+			"firepower" : "15",
+			"torpedo" : "52",
+			"antiAir" : "34",
+			"aviation" : "0",
+			"reload" : "73",
+			"hit" : "63",
+			"evasion" : "60",
+			"speed" : "44.4",
+			"luck" : "83",
+			"asw" : "48",
+			"oxygen" : "0",
+			"ammo" : "0",
+			"cost" : "2",
+			"armor" : "Light"
+		},
+		"100": {
+			"hp" : "1400",
+			"firepower" : "70",
+			"torpedo" : "244",
+			"antiAir" : "159",
+			"aviation" : "0",
+			"reload" : "173",
+			"hit" : "165",
+			"evasion" : "156",
+			"speed" : "44.4",
+			"luck" : "83",
+			"asw" : "177",
+			"oxygen" : "0",
+			"ammo" : "0",
+			"cost" : "8",
+			"armor" : "Light"
+		},
+		"120": {
+			"hp" : "1679",
+			"firepower" : "81",
+			"torpedo" : "279",
+			"antiAir" : "182",
+			"aviation" : "0",
+			"reload" : "199",
+			"hit" : "173",
+			"evasion" : "162",
+			"speed" : "44.4",
+			"luck" : "83",
+			"asw" : "197",
+			"oxygen" : "0",
+			"ammo" : "0",
+			"cost" : "8",
+			"armor" : "Light"
+		},
+		"100retrofit": {
+			"hp" : "",
+			"firepower" : "",
+			"torpedo" : "",
+			"antiAir" : "",
+			"aviation" : "",
+			"reload" : "",
+			"hit" : "",
+			"evasion" : "",
+			"speed" : "44.4",
+			"luck" : "83",
+			"asw" : "",
+			"oxygen" : "0",
+			"ammo" : "0",
+			"cost" : "8",
+			"armor" : "Light"
+		},
+		"120retrofit": {
+			"hp" : "",
+			"firepower" : "",
+			"torpedo" : "",
+			"antiAir" : "",
+			"aviation" : "",
+			"reload" : "",
+			"hit" : "",
+			"evasion" : "",
+			"speed" : "44.4",
+			"luck" : "83",
+			"asw" : "",
+			"oxygen" : "0",
+			"ammo" : "0",
+			"cost" : "8",
+			"armor" : "Light"
+		}
+	},
+	"limitBreak": {
+		"tier1": "全弾発射スキル習得/武器補正+2%",
+		"tier2": "魚雷装填数+1/開始時魚雷+1/武器補正+3%",
+		"tier3": "全弾発射弾幕強化/武器補正+5%"
+	},
+	"equipmentLoadout": {
+		"1": {
+			"type": "Destroyer Gun",
+			"efficiency": "110%/112%/115%/120%",
+			"amount": "1/1/1/1",
+			"preload": "0/0/0/0"
+		},
+		"2": {
+			"type": "Torpedo",
+			"efficiency": "120%/122%/125%/130%",
+			"amount": "1/1/2/2",
+			"preload": "0/0/1/1"
+		},
+		"3": {
+			"type": "Anti-Air Gun",
+			"efficiency": "120%/122%/125%/130%",
+			"amount": "1/1/1/1",
+			"preload": "0/0/0/0"
+		},
+		"4": {
+			"type": "Auxilary",
+			"efficiency": "-",
+			"amount": "-",
+			"preload": "-"
+		},
+		"5": {
+			"type": "Auxilary",
+			"efficiency": "-",
+			"amount": "-",
+			"preload": "-"
+		}
+	},
+	"fleet_tech": {
+		"pt_get": "3",
+		"add_get_attr": "HP",
+		"add_get_value": "1",
+		"add_get_shiptype": "Destroyer",
+		"pt_upgrade": "7",
+		"pt_level": "5",
+		"add_level_attr": "HP",
+		"add_level_value": "1",
+		"add_level_shiptype": "Destroyer",
+		"t_level": "3",
+		"ships": "dewey,aylwin"
+	},
+	"build": {
+		"light": {
+			"JP": "",
+			"CN": "",
+			"EN": ""
+		},
+		"heavy": {
+			"JP": "",
+			"CN": "",
+			"EN": ""
+		},
+		"special": {
+			"JP": "",
+			"CN": "",
+			"EN": ""
+		},
+		"limited": {
+			"JP": "",
+			"CN": "",
+			"EN": ""
+		}
+	},
+	"drop": {
+		"droppable": "false",
+		"list": {
+			"1": {
+				"event": "",
+				"chapter": {
+					"1": {
+						"label": "Ch .1",
+						"node": {
+							"1": {
+								"drop": "✓",
+								"note": "-"
+							}
+						}
+					}
+				}
+			}
+		}
+	},
+	"lines": {
+		"skin": {
+			"1": {
+				"skin_id" : "aierwen",
+				"id" : "0",
+				"label" : "エールウィン",
+				"dialogue" : {
+					"1" : {
+						"event" : "Ship Description",
+						"media" : "",
+						"chinese" : "法拉格特级驱逐舰—艾尔温，舷号DD-355",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "ファラガット級駆逐艦・エールウィン（DD-355)",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"2" : {
+						"event" : "Biography",
+						"media" : "profile",
+						"chinese" : "我是白鹰驱逐舰、艾尔温。在生涯中经历了多次演习和战役，和皇家还有鸢尾的各位都有所交集，憧憬列克星敦小姐那样的成熟女性…请多指教了，指挥官",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "ユニオン所属、エールウィンと言います。あの大戦で演習と作戦をたくさん参加して、ロイヤルとアイリスともちょっとご縁がありました。レキシントンさんのような大人の女性が憧れですね。指揮官、よろしくお願いしますね",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"3" : {
+						"event" : "Acquisition",
+						"media" : "get",
+						"chinese" : "初次见面，指挥官，我是艾尔温~其实我去过很多地方，对航路很熟悉的哦。如果舰队需要带路的话，尽管找我吧~",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "はじめまして、エールウィンと言います。実はわたし、航路には詳しかったりするんですよ。なので、案内役はぜひわたしにお任せください",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"4" : {
+						"event" : "Login",
+						"media" : "login",
+						"chinese" : "欢迎回来指挥官，新的一天又要开始了~",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "指揮官、おかえりなさい。そろそろ新しい一日が始まりますよ",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"5" : {
+						"event" : "Details",
+						"media" : "detail",
+						"chinese" : "列克星敦小姐和萨拉托加小姐，指挥官更喜欢哪边呢？还是说…更喜欢别的女孩子？",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "指揮官はレキシントンさんとサラトガちゃん、どっちが好きですか？それとも…ほかの子が好きだったりしますか？",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"6" : {
+						"event" : "Main 1",
+						"media" : "main_1",
+						"chinese" : "昨晚梦到和列克星敦小姐一起同台演出了呢~如果，只是如果哦，我以后真的做了偶像，指挥官会来支持我吗？",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "レキシントンさんと同じ舞台でライブをする夢を見ました。わたし、もしわたしがね、レキシントンさんと一緒に歌ったり踊ったりしたら、指揮官はどちらを応援しますか？",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"7" : {
+						"event" : "Main 2",
+						"media" : "main_2",
+						"chinese" : "唔…好多演习，一个接一个…好想实战啊，想和大家一起出击呢~",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "むぅ、また演習…次から次へと…実戦をして、みんなと一緒に出撃したいです",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"8" : {
+						"event" : "Main 3",
+						"media" : "main_3",
+						"chinese" : "每次和杜威一起出击，她都特别照顾我哟。也许是作为同样喜欢列克星敦的同伴意识使然吧~？呵呵…",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "デューイはすごく面倒見が良いのですよ。同じレキシントンさんのことが好きな子として当然かもしれません、ふふふっ",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"9" : {
+						"event" : "Touch",
+						"media" : "touch_1",
+						"chinese" : "什~么~事？指挥官？",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "指揮官、なーに？",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"10" : {
+						"event" : "Touch (Special)",
+						"media" : "touch_2",
+						"chinese" : "啊，指挥官，这样可不礼貌哦？",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "もう、指揮官、マナー違反ですよ？",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"11" : {
+						"event" : "Mission",
+						"media" : "task",
+						"chinese" : "有任务了哦~快点行动吧，嘿嘿，现在做不完的话也没关系就是了~",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "任務が来ました～早く出発しましょう～なんてね。今はまだ大丈夫ですよ",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"12" : {
+						"event" : "Mission Complete",
+						"media" : "mission_complete",
+						"chinese" : "任务完成啦，指挥官的奖励应该会有很多哦~",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "任務完了です。指揮官へのご褒美もたくさんあるはずですよ",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"13" : {
+						"event" : "Mail",
+						"media" : "mail",
+						"chinese" : "唔？好像有邮件呢…哈啊——快看，有好东西寄过来哦~",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "ん？メールがあるみたいですね…んっしょ――ああ、これは良いお知らせですね",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"14" : {
+						"event" : "Return to Port",
+						"media" : "home",
+						"chinese" : "指挥官终于回来了~有没有带什么好吃的回来呢？——哇啊，多谢款待哦~",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "指揮官おかえりなさい。みんなのために美味しいお菓子のお土産を持ってきてくださったのでしょうか？――ありがとうございます。いただきます♪",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"15" : {
+						"event" : "Commission Complete",
+						"media" : "expedition",
+						"chinese" : "委托完成~指挥官，一起去迎接委托组的大家吧？",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "軍事委託完了です。指揮官、一緒にみんなを出迎えに行きましょう？",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"16" : {
+						"event" : "Enhancement",
+						"media" : "upgrade",
+						"chinese" : "呼…好像身体没什么感觉？不管啦，变强了总归是好事~",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "ふぅ…あまり実感がないかも？まあ別にいいですよ、強くなるのは悪いことではありませんから",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"17" : {
+						"event" : "Flagship",
+						"media" : "warcry",
+						"chinese" : "大家，一起加油哦~",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "みんな、一緒にがんばりましょう！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"18" : {
+						"event" : "Victory",
+						"media" : "mvp",
+						"chinese" : "拿到MVP了哟~要给奖励才是好指挥官哦~",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "MVPをゲットしました！エールウィンにご褒美をくださるいい指揮官でありますように～",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"19" : {
+						"event" : "Defeat",
+						"media" : "lose",
+						"chinese" : "啊呜…真的输了…指挥官，能给点糖果安慰一下吗…？",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "あぅ…負けちゃいました…指揮官、残念賞のキャンディをいただけないでしょうか…？",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"20" : {
+						"event" : "Skill",
+						"media" : "skill",
+						"chinese" : "艾尔温也要给敌人一点颜色看看~",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "エールウィンも少しがんばりますよ",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"21" : {
+						"event" : "Low HP",
+						"media" : "hp",
+						"chinese" : "还、还没问题~大概……",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "ま、まだ大丈夫…多分……",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"22" : {
+						"event" : "Affinity (Upset)",
+						"media" : "feeling1",
+						"chinese" : "指挥官，听我说哦~再这样下去，我也要稍微离你远一点才好了……",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "指揮官、よく聞いてくださいね。このままでは、わたしまでも指揮官と距離を取っちゃいますから……",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"23" : {
+						"event" : "Affinity (Stranger)",
+						"media" : "feeling2",
+						"chinese" : "指挥官现在特别忙吗？嗯，我有点话想跟你说——给，棒棒糖～糖分对大脑是有好处的哦",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "指揮官、今すごく忙しいですか？ええと、わたしからちょっと――はい、キャンディあげます♪糖分はアタマにいいですよ",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"24" : {
+						"event" : "Affinity (Friendly)",
+						"media" : "feeling3",
+						"chinese" : "和杜威比起来稍微有一点…哼，才不胖呢！真是的，不理指挥官了啦！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "デューイと比べてほんのちょっぴりだけ……ふ、太っているじゃないもん！もう指揮官なんか知りません！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"25" : {
+						"event" : "Affinity (Like)",
+						"media" : "feeling4",
+						"chinese" : "…指挥官果然还是喜欢有点肉的女孩子吧？…我每天喝牛奶、吃糖果，总有一天能变成指挥官喜欢的类型的对吧？",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "……指揮官ってやっぱりちょっとお肉がついてる子が好きですか？…わたし毎日牛乳飲んだりお菓子食べたりしているから、きっといつかは指揮官好みのタイプになれますよね？",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"26" : {
+						"event" : "Affinity (Love)",
+						"media" : "feeling5",
+						"chinese" : "指挥官，我今天也有一点变化哦？注意到了吗？…还没注意到吗？…快点、快点、快点注意到吧…呐？",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "指揮官、今日もわたしちょっぴり変わりましたよ？指揮官は気づきました？…まだ気づいていないのですか？…早く、早く、早く気づいてください…ね？",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"27" : {
+						"event" : "Pledge",
+						"media" : "propose",
+						"chinese" : "指挥官…就算喜欢上列克星敦小姐也没关系，但是…不可以不喜欢我哦？为了让指挥官一直喜欢我，我会每天每天、每天每天都努力加油的，所以…一定要关注着我哦？一定哦？",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "指揮官、レキシントンさんを好きになってもいいですけど、わたしのことは絶対に好きでいてくださいね？わたし、指揮官が好きになるように毎日毎日、毎日毎日頑張っていますから、絶対に気づいてくださいね？ね？",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"28" : {
+						"event" : "Easter Egg 1(Lexington)",
+						"media" : "link1",
+						"chinese" : "列克星敦小姐，我来为你护航啦~我就一直在你身边哦~",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "レキシントンさん、ずっとそばでお守りしますよ",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"29" : {
+						"event" : "Easter Egg 2(Dewey)",
+						"media" : "link2",
+						"chinese" : "姐姐，好好看下我的表现哦~",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "デューイ、わたしの活躍を見ててね",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"30" : {
+						"event" : "Like Present",
+						"media" : "present_like",
+						"chinese" : "",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"31" : {
+						"event" : "Dislike Present",
+						"media" : "present_dislike",
+						"chinese" : "",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"32" : {
+						"event" : "Main Title",
+						"media" : "extra",
+						"chinese" : "",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					}
+				}
+			},
+			"2": {
+				"skin_id" : "aierwen_2",
+				"id" : "1",
+				"label" : "サンデー・アクアリウム",
+				"dialogue" : {
+					"1" : {
+						"event" : "Ship Description",
+						"media" : "",
+						"chinese" : "这里是水族馆吗…感觉很新鲜呢。啊，今天不是我而是指挥官领路呢，请小心不要迷路哦。诶嘿嘿",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "ここがアクアリウム……なんだか新鮮な気分です。あ、今日はわたしが案内するのではなく、指揮官がエスコートする番ですから、迷わないようにご注意くださいね。えへへ",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"2" : {
+						"event" : "Acquisition",
+						"media" : "get_1",
+						"chinese" : "这里是水族馆吗…感觉很新鲜呢。啊，今天不是我而是指挥官领路呢，请小心不要迷路哦。诶嘿嘿",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "ここがアクアリウム……なんだか新鮮な気分です。あ、今日はわたしが案内するのではなく、指揮官がエスコートする番ですから、迷わないようにご注意くださいね。えへへ",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"3" : {
+						"event" : "Login",
+						"media" : "login_1",
+						"chinese" : "指挥官，今天请多多关照。怎么样？这个屈膝礼可是从皇家女仆队那里学来的哦？",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "指揮官、今日はよろしくお願いしますね。どう？このカーテシーはロイヤルメイド隊から勉強したのですよ～",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"4" : {
+						"event" : "Details",
+						"media" : "detail_1",
+						"chinese" : "肚子有点饿了…嗯，饼干和糖果，还有…不行不行，得给指挥官也留一份呢…",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "お腹がちょっと減りました…ええと、クッキーと、キャンディと…あっいけない、指揮官の分は残しておかないと…",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"5" : {
+						"event" : "Main 1",
+						"media" : "main_1_1",
+						"chinese" : "虽然训练的时候和潜艇们一起到处跑过，但是在水下这么观察还真有一种奇妙的感觉呢",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "訓練の時に潜水艦のみんなと一緒にあっちこっち行ったり来たりしていましたけど、こうして海の中から見ると奇妙な気分です",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"6" : {
+						"event" : "Main 2",
+						"media" : "main_2_1",
+						"chinese" : "这件衣服可是花了很大心思挑的哦？指挥官，怎么样…？",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "この服はすごく気合を入れて選びましたよ。指揮官、どう…ですか？",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"7" : {
+						"event" : "Main 3",
+						"media" : "main_3_1",
+						"chinese" : "下次要不要一起去看列克星敦小姐她们的演出？指挥官的票我可以帮忙准备哦？",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "今度レキシントンさんたちのライブを一緒に見に行きませんか？指揮官のチケットも準備しますよ",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"8" : {
+						"event" : "Touch (Special)",
+						"media" : "touch_2_1",
+						"chinese" : "指挥官，是不是想歪了什么…？",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "指揮官、もぉ変な気分にでもなっちゃいました…？",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"9" : {
+						"event" : "Flagship",
+						"media" : "warcry_1",
+						"chinese" : "刚才参观的内容，在对潜战斗的时候能不能派上点用场呢…",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "さっき見たこと、対潜戦闘の役に立てるのかしら…",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"10" : {
+						"event" : "Victory",
+						"media" : "mvp_1",
+						"chinese" : "优雅华丽地取得胜利了呢。多谢夸奖～",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "優雅に、エレガントに勝ちました。えへへ、どういたしまして～",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					}
+				}
+			}
+		}
+	}
+}
