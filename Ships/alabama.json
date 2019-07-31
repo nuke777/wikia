@@ -1,0 +1,667 @@
+{
+	"name_reference" : "alabama",
+	"cn_reference" : "alabama",
+	"nameJP" : "アラバマ",
+	"nameCN" : "阿拉巴马",
+	"ID" : "401",
+	"name" : "Alabama",
+	"internal_id" : "105201",
+	"rarity" : "Super Rare",
+	"initialStar" : "★★★☆☆☆",
+	"hull" : "Battleship",
+	"navy" : "Eagle Union",
+	"prefix" : "USS",
+	"buildTime" : "",
+	"parameters": {
+		"firepower" : "A",
+		"torpedo" : "E",
+		"aviation" : "E",
+		"evasion" : "D",
+		"antiAir" : "B",
+		"hp" : "S"
+	},
+	"scrap": {
+		"gold" : "11",
+		"oil" : "4",
+		"medal" : "10"
+	},
+	"releaseDate": {
+		"JP" : "",
+		"CN" : "",
+		"KR" : "",
+		"EN" : ""
+	},
+	"artist": {
+		"name" : "",
+		"weibo" : "",
+		"twitter" : "",
+		"pixiv" : "",
+		"other" : ""
+	},
+	"class" : "South Dakota-Class",
+	"enhance": {
+		"firepower" : "67",
+		"torpedo" : "0",
+		"aviation" : "0",
+		"reload" : "11"
+	},
+	"acquisitionMethod" : "イベント：開かれし紺碧の砂箱",
+	"skill": {
+		"1" : {
+			"icon" : "12430",
+			"requirement" : "",
+			"name" : "ラッキーA",
+			"type" : "Offensive",
+			"description" : "自身が戦闘可能である限り、自身の回避が$1アップし、受ける雷撃ダメージを$2軽減する；20秒毎に$3で発動し、強力な特殊弾幕を展開する（威力はスキルレベルによる） "
+		},
+		"2" : {
+			"icon" : "12440",
+			"requirement" : "",
+			"name" : "ウォーミングアップ",
+			"type" : "Offensive",
+			"description" : "海域マップで自身の所属艦隊が敵艦隊を撃破するたびに、戦闘中自身の火力が$1アップ（最大5回まで加算可能）し、この効果が5回以上加算されている場合、戦闘中、味方主力艦隊の受けるダメージを$2軽減する。戦闘中自身が敵を撃破した場合、自身の火力は戦闘終了時まで$1アップ（最大8回まで加算可能）"
+		}
+	},
+	"skin": {
+		"1" : {
+			"id" : "alabama",
+			"name" : "アラバマ",
+			"description" : "サウスダコタ級戦艦・アラバマ（BB-60)",
+			"expression" : {
+				"0" : {
+					"id" : "0"
+				}
+			}
+		}
+	},
+	"defaultEquipment": {
+		"1" : {
+			"icon" : "14300",
+			"rarity" : "Common",
+			"name" : "Triple 406mm MK6 Main Gun"
+		},
+		"2" : {
+			"icon" : "",
+			"rarity" : "",
+			"name" : ""
+		},
+		"3" : {
+			"icon" : "16400",
+			"rarity" : "Rare",
+			"name" : "Quadruple 40mm Bofors Gun"
+		}
+	},
+	"stats": {
+		"base": {
+			"hp" : "1303",
+			"firepower" : "81",
+			"torpedo" : "0",
+			"antiAir" : "79",
+			"aviation" : "0",
+			"reload" : "57",
+			"hit" : "20",
+			"evasion" : "7",
+			"speed" : "27.5",
+			"luck" : "86",
+			"asw" : "0",
+			"oxygen" : "0",
+			"ammo" : "0",
+			"cost" : "5",
+			"armor" : "Heavy"
+		},
+		"100": {
+			"hp" : "6738",
+			"firepower" : "381",
+			"torpedo" : "0",
+			"antiAir" : "368",
+			"aviation" : "0",
+			"reload" : "134",
+			"hit" : "52",
+			"evasion" : "18",
+			"speed" : "27.5",
+			"luck" : "86",
+			"asw" : "0",
+			"oxygen" : "0",
+			"ammo" : "0",
+			"cost" : "15",
+			"armor" : "Heavy"
+		},
+		"120": {
+			"hp" : "7783",
+			"firepower" : "417",
+			"torpedo" : "0",
+			"antiAir" : "400",
+			"aviation" : "0",
+			"reload" : "154",
+			"hit" : "64",
+			"evasion" : "33",
+			"speed" : "27.5",
+			"luck" : "86",
+			"asw" : "0",
+			"oxygen" : "0",
+			"ammo" : "0",
+			"cost" : "15",
+			"armor" : "Heavy"
+		},
+		"100retrofit": {
+			"hp" : "",
+			"firepower" : "",
+			"torpedo" : "",
+			"antiAir" : "",
+			"aviation" : "",
+			"reload" : "",
+			"hit" : "",
+			"evasion" : "",
+			"speed" : "27.5",
+			"luck" : "86",
+			"asw" : "",
+			"oxygen" : "0",
+			"ammo" : "0",
+			"cost" : "15",
+			"armor" : "Heavy"
+		},
+		"120retrofit": {
+			"hp" : "",
+			"firepower" : "",
+			"torpedo" : "",
+			"antiAir" : "",
+			"aviation" : "",
+			"reload" : "",
+			"hit" : "",
+			"evasion" : "",
+			"speed" : "27.5",
+			"luck" : "86",
+			"asw" : "",
+			"oxygen" : "0",
+			"ammo" : "0",
+			"cost" : "15",
+			"armor" : "Heavy"
+		}
+	},
+	"limitBreak": {
+		"tier1": "主砲砲座+1/主砲補正+5%",
+		"tier2": "副砲砲座+2/主砲補正+10%",
+		"tier3": "主砲砲座+1/主砲補正+15%"
+	},
+	"equipmentLoadout": {
+		"1": {
+			"type": "Battleship",
+			"efficiency": "100%/105%/115%/130%",
+			"amount": "1/1/1/1",
+			"preload": "0/0/0/0"
+		},
+		"2": {
+			"type": "Destroyer Gun",
+			"efficiency": "200%/200%/200%/200%",
+			"amount": "1/1/3/3",
+			"preload": "0/0/0/0"
+		},
+		"3": {
+			"type": "Anti-Air Gun",
+			"efficiency": "100%/100%/100%/100%",
+			"amount": "1/1/1/1",
+			"preload": "0/0/0/0"
+		},
+		"4": {
+			"type": "Auxilary",
+			"efficiency": "-",
+			"amount": "-",
+			"preload": "-"
+		},
+		"5": {
+			"type": "Auxilary",
+			"efficiency": "-",
+			"amount": "-",
+			"preload": "-"
+		}
+	},
+	"fleet_tech": {
+		"pt_get": "20",
+		"add_get_attr": "HP",
+		"add_get_value": "2",
+		"add_get_shiptype": "Battlecruiser,Battleship,Aviation Battleship",
+		"pt_upgrade": "40",
+		"pt_level": "30",
+		"add_level_attr": "Firepower",
+		"add_level_value": "1",
+		"add_level_shiptype": "Battlecruiser,Battleship,Aviation Battleship",
+		"t_level": "7",
+		"ships": "south_dakota,massachusetts,alabama"
+	},
+	"build": {
+		"light": {
+			"JP": "",
+			"CN": "",
+			"EN": ""
+		},
+		"heavy": {
+			"JP": "",
+			"CN": "",
+			"EN": ""
+		},
+		"special": {
+			"JP": "",
+			"CN": "",
+			"EN": ""
+		},
+		"limited": {
+			"JP": "",
+			"CN": "",
+			"EN": ""
+		}
+	},
+	"drop": {
+		"droppable": "false",
+		"list": {
+			"1": {
+				"event": "",
+				"chapter": {
+					"1": {
+						"label": "Ch .1",
+						"node": {
+							"1": {
+								"drop": "✓",
+								"note": "-"
+							}
+						}
+					}
+				}
+			}
+		}
+	},
+	"lines": {
+		"skin": {
+			"1": {
+				"skin_id" : "alabama",
+				"id" : "0",
+				"label" : "アラバマ",
+				"dialogue" : {
+					"1" : {
+						"event" : "Ship Description",
+						"media" : "",
+						"chinese" : "南达科他级战列舰—阿拉巴马，舷号BB-60",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "サウスダコタ級戦艦・アラバマ（BB-60)",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"2" : {
+						"event" : "Biography",
+						"media" : "profile",
+						"chinese" : "我的名字是阿拉巴马，南达科他级的四号舰，大家也叫我“幸运的A”……唔，还要说做过什么事？让我想想……挪威，马绍尔群岛，马里亚纳我好像立了大功劳？然后是莱特湾，接着去了重樱……最后，我就一直躺在莫比尔湾了，那里还挺舒服哦？",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "アラバマ、サウスダコタ級四番艦、幸運のA……ほかに言うこと？ええと……ノルウェー、マーシャル諸島、マリアナ沖で戦果を手に入れた？それとレイテ沖と……モービル湾。うん、いい気持ち",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"3" : {
+						"event" : "Acquisition",
+						"media" : "get",
+						"chinese" : "我是阿拉巴马，找我有什么事吗？……喔，舰队吗？唔，反正也没有什么事做，那我就跟你走吧，Let's Go——",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "アラバマだよ。ぼくに何か用？……着任？あ、そうだ。うん、ほかにやることないし、一緒に行く。レッツゴー",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"4" : {
+						"event" : "Login",
+						"media" : "login",
+						"chinese" : "喔，指挥官，是你啊。我还以为是坏人，差点就砍下来了",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "あ、指揮官。悪人だったらぶっ飛ばしてた",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"5" : {
+						"event" : "Details",
+						"media" : "detail",
+						"chinese" : "指挥官，我饿了，想吃火鸡",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "なんかお腹へってきた。ターキー、食べたいかも",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"6" : {
+						"event" : "Main 1",
+						"media" : "main_1",
+						"chinese" : "指挥官，指、挥、官，指——挥——官……嗯，没什么，只是想叫一叫你",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "指揮官、し・き・かん、しーきーかん……別に。呼びたかっただけ",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"7" : {
+						"event" : "Main 2",
+						"media" : "main_2",
+						"chinese" : "真想“猎火鸡”啊……指挥官，战舰为什么不能用飞机呢？或者，要是我能飞，也可以……",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "ターキーショット、したいね。ぼくが飛べれば……",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"8" : {
+						"event" : "Main 3",
+						"media" : "main_3",
+						"chinese" : "天气好像还不错。指挥官，我们去草地上晒太阳吧，晒太阳很舒服的，我可以一动不动地躺一天",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "いい天気。指揮官、芝生でひまわりごっこでもしてみない？気持ちいいし、一日中あのままでいてもいい気がする",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"9" : {
+						"event" : "Touch",
+						"media" : "touch_1",
+						"chinese" : "指挥官，你要摸我的肚子吗？很有弹性哦",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "腹筋が気になる？……触ってみる？",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"10" : {
+						"event" : "Touch (Special)",
+						"media" : "touch_2",
+						"chinese" : "……………………唔？指挥官，你在干什么？",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "………………………ん？指揮官、何やってるの？",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"11" : {
+						"event" : "Mission",
+						"media" : "task",
+						"chinese" : "指挥官，这些纸是什么？…原来如此，这就是任务书啊",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "指揮官、これは？……なるほど、これが任務の書類なんだね…",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"12" : {
+						"event" : "Mission Complete",
+						"media" : "mission_complete",
+						"chinese" : "指挥官，任务奖励我去拿吧，我的力气比较大",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "任務の報酬をもらってくる。ぼく、力持ち",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"13" : {
+						"event" : "Mail",
+						"media" : "mail",
+						"chinese" : "指挥官，怎么了？……信件？喔，对哦，我都忘了我是去给指挥官拿信件的了，给你",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "指揮官、どうした？……メール？あ、うん…メールを取ってきたのを忘れてた。はい、これ",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"14" : {
+						"event" : "Return to Port",
+						"media" : "home",
+						"chinese" : "指挥官，来我的大腿上躺一躺吗？……我看其他孩子都是这么做的？",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "指揮官、ここで横になって。……みんなそうしてるのに？",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"15" : {
+						"event" : "Commission Complete",
+						"media" : "expedition",
+						"chinese" : "海平线上好像有什么……喔，指挥官，是委托组回来了。嗯，我视力很好哦",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "水平線から……指揮官、委託組だよ。うん、遠目は自慢だから",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"16" : {
+						"event" : "Enhancement",
+						"media" : "upgrade",
+						"chinese" : "感觉有点…想揍人……嗯",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "なにかぶっ飛ばしたくなるよね。……うん",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"17" : {
+						"event" : "Flagship",
+						"media" : "warcry",
+						"chinese" : "要陪我尽兴了才能走哦？",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "飽きるまで付き合って",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"18" : {
+						"event" : "Victory",
+						"media" : "mvp",
+						"chinese" : "指挥官，我只是很普通地把敌人全都打倒了，为什么要夸奖我？",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "普通にぶっ飛ばしただけなのに、なんで褒めてくれたの？",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"19" : {
+						"event" : "Defeat",
+						"media" : "lose",
+						"chinese" : "要撤退了吗？…好吧",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "撤退？……いいけど",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"20" : {
+						"event" : "Skill",
+						"media" : "skill",
+						"chinese" : "你们不要这样就倒下哦？",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "まだ倒れないで",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"21" : {
+						"event" : "Low HP",
+						"media" : "hp",
+						"chinese" : "你们干得真不错啊。嘻嘻…",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "よくもやってくれたね。ふふふ",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"22" : {
+						"event" : "Affinity (Upset)",
+						"media" : "feeling1",
+						"chinese" : "…………你是谁来着？",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "…………あなた、誰でしたっけ？",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"23" : {
+						"event" : "Affinity (Stranger)",
+						"media" : "feeling2",
+						"chinese" : "指挥官，我可以把提尔比茨找来吗？以前一直很想和她打一场的，但是她不出来…",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "指揮官、ティルピッツをここに呼んできてもいい？ずっと力比べしたかったけど、いつまで待っても出てこないから",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"24" : {
+						"event" : "Affinity (Friendly)",
+						"media" : "feeling3",
+						"chinese" : "和重樱的孩子们，成了好朋友。原本以为她们会讨厌我的。成为了朋友之后，感觉重樱也很有趣……",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "重桜の子たちと仲良くなった。嫌われると思ったのに、全然そんなことなかった。うん、重桜、面白いかも",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"25" : {
+						"event" : "Affinity (Like)",
+						"media" : "feeling4",
+						"chinese" : "指挥官，让我抱抱……唔，果然，指挥官，看起来抱着很舒服的样子，而且，有一种很安心的感觉，有点喜欢",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "指揮官、抱っこさせて。……指揮官、抱きしめるといい気持ち。安心する。うん、いい感じ",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"26" : {
+						"event" : "Affinity (Love)",
+						"media" : "feeling5",
+						"chinese" : "指挥官，今天晚上能来我的房间吗？唔……因为，我喜欢抱着东西睡觉。以前，都是抱抱枕的，但是现在，我更想抱着指挥官睡觉",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "指揮官、あとで部屋に来てくれる？ええと、ずっと抱きまくらとか、なにかに抱きついて寝てたけど、今は指揮官もいいかなって",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"27" : {
+						"event" : "Pledge",
+						"media" : "propose",
+						"chinese" : "这是…永久抱枕契约？我可以每天都抱着指挥官睡觉吗？喔……感觉，好开心。指挥官，我可以现在就抱抱你吗？",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "永遠に抱きまくら扱いしていい契約…？毎日指揮官に抱きついて寝てもいい感じ？うん……嬉しいね。指揮官、今から抱きしめていいかな？",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"28" : {
+						"event" : "Easter Egg 1(South Dakota)",
+						"media" : "link1",
+						"chinese" : "南达科他，可以把这些敌人全都交给我吗？",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "姉貴、全部ぼくに任せてもらってもいい？",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"29" : {
+						"event" : "Easter Egg 2(Tirpitz)",
+						"media" : "link2",
+						"chinese" : "来比赛吧，提尔比茨",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "ティルピッツ、勝負",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"30" : {
+						"event" : "Like Present",
+						"media" : "present_like",
+						"chinese" : "",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"31" : {
+						"event" : "Dislike Present",
+						"media" : "present_dislike",
+						"chinese" : "",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"32" : {
+						"event" : "Main Title",
+						"media" : "extra",
+						"chinese" : "",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					}
+				}
+			}
+		}
+	}
+}
