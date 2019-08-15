@@ -50,21 +50,21 @@
 	"skill": {
 		"1": {
 			"icon": "19150",
-			"requirement": "",
+			"requirement": "Default Unlocked",
 			"name": "Iron Sight Caliber",
 			"type": "Support",
 			"description": "Main gun spread is reduced by 3; damage towards CA, Super CA, BB, BC and BBV is increased by 10-20%"
 		},
 		"2": {
 			"icon": "19160",
-			"requirement": "",
+			"requirement": "Default Unlocked",
 			"name": "Heavy Barrel Blaster ",
 			"type": "Offensive",
 			"description": "When firing the main gun there's a 50-80% chance to fire a special barrage (barrage always crits, firepower is increased by skill levels)"
 		},
 		"3": {
 			"icon": "19000",
-			"requirement": "",
+			"requirement": "Default Unlocked",
 			"name": "Siren Killer Ⅰ",
 			"type": "Offensive",
 			"description": "Increases the DMG this ship deals to Sirens by 5.0%."
@@ -97,6 +97,28 @@
 			"id": "zuozhiya_2",
 			"name": "南方的黑珍珠",
 			"description": "呀，指挥官，出来透透气吗？我？哈哈，我不太习惯宴会那种高雅的氛围，所以偷溜出来了……要一起走走吗？",
+			"expression": {
+				"0": {
+					"id": "0"
+				},
+				"1": {
+					"id": "1"
+				},
+				"2": {
+					"id": "2"
+				},
+				"3": {
+					"id": "3"
+				},
+				"4": {
+					"id": "4"
+				}
+			}
+		},
+		"3": {
+			"id": "zuozhiya_4",
+			"name": "ラニアースワン",
+			"description": "ふふ、日差しも海風もちょうどいい感じ、か。よし、では思いっきり夏を楽しもうじゃないか！指揮官も結構、期待していたんだろ？",
 			"expression": {
 				"0": {
 					"id": "0"
@@ -428,7 +450,19 @@
 						"english": "",
 						"englishNote": ""
 					},
-					"11": {
+					"11" : {
+						"event" : "Rub",
+						"media" : "touch_head",
+						"chinese" : "佐治亚光线！…开玩笑的，只是普通的头饰而已，啊哈哈",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "ジョージアビーム！…なんてな、ただの飾りだって！ははは！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"12": {
 						"event": "Mission",
 						"media": "task",
 						"chinese": "任务啊…如果是战斗任务就好了呢，嘿嘿~",
@@ -440,7 +474,7 @@
 						"english": "",
 						"englishNote": ""
 					},
-					"12": {
+					"13": {
 						"event": "Mission Complete",
 						"media": "mission_complete",
 						"chinese": "没有报告过的任务，就不算完成。可别忘了啊，指挥官",
@@ -452,7 +486,7 @@
 						"english": "",
 						"englishNote": ""
 					},
-					"13": {
+					"14": {
 						"event": "Mail",
 						"media": "mail",
 						"chinese": "指挥官，你的信。如果方便的话，能把信封上的风景纪念邮票留给我吗？",
@@ -464,7 +498,7 @@
 						"english": "",
 						"englishNote": ""
 					},
-					"14": {
+					"15": {
 						"event": "Return to Port",
 						"media": "home",
 						"chinese": "嗯，出击辛苦了。喝瓶冰镇可乐放松下吧",
@@ -476,7 +510,7 @@
 						"english": "",
 						"englishNote": ""
 					},
-					"15": {
+					"16": {
 						"event": "Commission Complete",
 						"media": "expedition",
 						"chinese": "委托组回来了呢。等等，把这些酸素可乐带给她们吧，慰劳将士的辛苦是指挥官应当做的事情",
@@ -488,7 +522,7 @@
 						"english": "",
 						"englishNote": ""
 					},
-					"16": {
+					"17": {
 						"event": "Enhancement",
 						"media": "upgrade",
 						"chinese": "下次的战斗，你会看到我的表现的",
@@ -500,7 +534,7 @@
 						"english": "",
 						"englishNote": ""
 					},
-					"17": {
+					"18": {
 						"event": "Flagship",
 						"media": "warcry",
 						"chinese": "这次会是什么样的对手呢？希望不要辜负了我的期待啊",
@@ -512,7 +546,7 @@
 						"english": "",
 						"englishNote": ""
 					},
-					"18": {
+					"19": {
 						"event": "Victory",
 						"media": "mvp",
 						"chinese": "再坚固的装甲，也只有被巨炮击碎的命运！",
@@ -524,7 +558,7 @@
 						"english": "",
 						"englishNote": ""
 					},
-					"19": {
+					"20": {
 						"event": "Defeat",
 						"media": "lose",
 						"chinese": "只能…暂时撤退了吗",
@@ -536,7 +570,7 @@
 						"english": "",
 						"englishNote": ""
 					},
-					"20": {
+					"21": {
 						"event": "skill",
 						"media": "skill",
 						"chinese": "这巨炮的轰鸣就是你们最后的回忆！",
@@ -548,7 +582,7 @@
 						"english": "",
 						"englishNote": ""
 					},
-					"21": {
+					"22": {
 						"event": "Low HP",
 						"media": "hp",
 						"chinese": "咕唔…装甲区损伤？！我会加倍奉还的！",
@@ -560,7 +594,7 @@
 						"english": "",
 						"englishNote": ""
 					},
-					"22": {
+					"23": {
 						"event": "Affinity (Upset)",
 						"media": "feeling1",
 						"chinese": "看来指挥官并不足以拥有这份力量……",
@@ -572,7 +606,7 @@
 						"english": "",
 						"englishNote": ""
 					},
-					"23": {
+					"24": {
 						"event": "Affinity (Stranger)",
 						"media": "feeling2",
 						"chinese": "桃子很不错的哦，营养又美味，指挥官要来一颗吗？",
@@ -584,7 +618,7 @@
 						"english": "",
 						"englishNote": ""
 					},
-					"24": {
+					"25": {
 						"event": "Affinity (Friendly)",
 						"media": "feeling3",
 						"chinese": "出击战斗固然让人热血沸腾，不过偶尔放松一下也是很重要的呢",
@@ -596,7 +630,7 @@
 						"english": "",
 						"englishNote": ""
 					},
-					"25": {
+					"26": {
 						"event": "Affinity (Like)",
 						"media": "feeling4",
 						"chinese": "下次有机会的话，就一起去旅行怎么样？有你同行的话，感觉会是段有趣的旅程呢",
@@ -608,7 +642,7 @@
 						"english": "",
 						"englishNote": ""
 					},
-					"26": {
+					"27": {
 						"event": "Affinity (Love)",
 						"media": "feeling5",
 						"chinese": "先从白鹰出发…然后到皇家和鸢尾…再是东煌…——嗯？我在计划我们的环球之旅哦。事到如今，指挥官不会说不愿意去了吧~？",
@@ -620,7 +654,7 @@
 						"english": "",
 						"englishNote": ""
 					},
-					"27": {
+					"28": {
 						"event": "Pledge",
 						"media": "propose",
 						"chinese": "咳…没想到会是指挥官发起的直球进攻啊~？啊哈哈…我很高兴哦，看来环球之旅可以提前准备出发了呢~",
@@ -632,7 +666,7 @@
 						"english": "",
 						"englishNote": ""
 					},
-					"28": {
+					"29": {
 						"event": "Like Present",
 						"media": "present_like",
 						"chinese": "",
@@ -644,7 +678,7 @@
 						"english": "",
 						"englishNote": ""
 					},
-					"29": {
+					"30": {
 						"event": "Dislike Present",
 						"media": "present_dislike",
 						"chinese": "",
@@ -656,7 +690,7 @@
 						"english": "",
 						"englishNote": ""
 					},
-					"30": {
+					"31": {
 						"event": "Main Title",
 						"media": "extra",
 						"chinese": "",
@@ -751,6 +785,97 @@
 						"event": "Affinity (Love)",
 						"media": "feeling5_1",
 						"chinese": "月色真美啊，指挥官……欸？啊，不，我不是那个意思……呃，不对，我也不是没有那个意思…啊哈哈…怎么说呢…有点不好意思啊……",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					}
+				}
+			},
+			"3": {
+				"skin_id": "zuozhiya_4",
+				"id": "2",
+				"label": "ラニアースワン",
+				"dialogue": {
+					"1": {
+						"event": "Ship Description",
+						"media": "",
+						"chinese": "嗯哼，阳光正好，海风也恰到好处。好啦，一起来享受夏天吧！你也很期待的吧，指挥官？",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "ふふ、日差しも海風もちょうどいい感じ、か。よし、では思いっきり夏を楽しもうじゃないか！指揮官も結構、期待していたんだろ？",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"2": {
+						"event": "Acquisition",
+						"media": "get_2",
+						"chinese": "嗯哼，阳光正好，海风也恰到好处。好啦，一起来享受夏天吧！你也很期待的吧，指挥官？",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"3": {
+						"event": "Login",
+						"media": "login_2",
+						"chinese": "哦？来的正好，我正要把遮阳伞撑起来，来搭把手吧，指挥官。",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"4": {
+						"event": "Details",
+						"media": "detail_2",
+						"chinese": "这件黑色薄纱是西雅图帮忙选的，那家伙虽然看起来大大咧咧的，却意外地对这些分外拿手呢…",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"5": {
+						"event": "Touch",
+						"media": "touch_1_2",
+						"chinese": "看你露出一副“不知道眼睛往哪摆”的表情意外的有趣呢，哈哈哈！",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"6": {
+						"event": "Touch (Special)",
+						"media": "touch_2_2",
+						"chinese": "嚯~？指挥官的心也随着来到海边放开了嘛，是不是需要给你一点“刺激”呢？比如这个遮阳伞什么的？",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"7": {
+						"event": "Return to Port",
+						"media": "home_2",
+						"chinese": "嗯，出击辛苦了。要来根冰棒吗？我这里还有。",
 						"chineseTL": "",
 						"chineseNote": "",
 						"japanese": "",

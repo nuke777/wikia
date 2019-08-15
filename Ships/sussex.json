@@ -50,14 +50,14 @@
 	"skill": {
 		"1": {
 			"icon": "2061",
-			"requirement": "",
+			"requirement": "Default Unlocked",
 			"name": "Double Gun",
 			"type": "Offensive",
 			"description": "When this ship fires its Main Guns: 15% (25%) chance to fire its Main Guns twice."
 		},
 		"2": {
 			"icon": "21211",
-			"requirement": "",
+			"requirement": "Limit Break I (III)",
 			"name": "All Out Assault Ⅰ",
 			"type": "Offensive",
 			"description": "Activate All Out Assault Ⅰ: London Class once every 9 times the main gun is fired."
@@ -71,6 +71,28 @@
 			"expression": {
 				"0": {
 					"id": "0"
+				}
+			}
+		},
+		"2": {
+			"id": "susaikesi_2",
+			"name": "太陽とチューリップ ",
+			"description": "何を呆けているのですか？そろそろ水着も見飽きたでしょう？まったく…パラソルをかざすとか、チェアを組み立てるとか、手伝えることはいっぱいあるでしょうに",
+			"expression": {
+				"0": {
+					"id": "0"
+				},
+				"1": {
+					"id": "1"
+				},
+				"2": {
+					"id": "2"
+				},
+				"3": {
+					"id": "3"
+				},
+				"4": {
+					"id": "4"
 				}
 			}
 		}
@@ -640,6 +662,133 @@
 						"event": "Main Title",
 						"media": "extra",
 						"chinese": "",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					}
+				}
+			},
+			"2": {
+				"skin_id": "susaikesi_2",
+				"id": "1",
+				"label": "太陽とチューリップ ",
+				"dialogue": {
+					"1": {
+						"event": "Ship Description",
+						"media": "",
+						"chinese": "站在那里发什么呆呢，指挥官，那么多泳装还没看够吗？真是的…帮忙撑撑遮阳伞摆摆躺椅之类的总会吧？",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "何を呆けているのですか？そろそろ水着も見飽きたでしょう？まったく…パラソルをかざすとか、チェアを組み立てるとか、手伝えることはいっぱいあるでしょうに",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"2": {
+						"event": "Acquisition",
+						"media": "get_1",
+						"chinese": "站在那里发什么呆呢，指挥官，那么多泳装还没看够吗？真是的…帮忙撑撑遮阳伞摆摆躺椅之类的总会吧？",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"3": {
+						"event": "Login",
+						"media": "login_1",
+						"chinese": "指挥官，工作都完成了吧？要是你是偷溜过来的，呵呵……",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"4": {
+						"event": "Details",
+						"media": "detail_1",
+						"chinese": "姐姐觉得泳装太暴露了，总是不愿意穿。哈……我偶尔也会觉得，姐姐应该学习一下什罗普郡的大胆…",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"5": {
+						"event": "Touch",
+						"media": "touch_1_1",
+						"chinese": "指挥官，你也想冲浪吗？那我来教你一些基本常识吧",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"6": {
+						"event": "Touch (Special)",
+						"media": "touch_2_1",
+						"chinese": "你这人真是不长记性呢……",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"7": {
+						"event": "Mission",
+						"media": "task_1",
+						"chinese": "任务？我陪你一起去吧……干什么，我可没有忘记身为秘书舰的职责！",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"8": {
+						"event": "Mission Complete",
+						"media": "mission_complete_1",
+						"chinese": "这些冰淇淋是……你买的吗？唔，谢谢…",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"9": {
+						"event": "Return to Port",
+						"media": "home_1",
+						"chinese": "真是的，指挥官，和你说过多少次了，确认过没有其他任务了再好好休息",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"10": {
+						"event": "Commission Complete",
+						"media": "expedition_1",
+						"chinese": "指挥官，要去接委托组的话，把这些冰西瓜带上吧——是慰问品",
 						"chineseTL": "",
 						"chineseNote": "",
 						"japanese": "",
