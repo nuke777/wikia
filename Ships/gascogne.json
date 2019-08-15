@@ -50,21 +50,21 @@
 	"skill": {
 		"1": {
 			"icon": "19250",
-			"requirement": "",
+			"requirement": "Default Unlocked",
 			"name": "Sensory Inhibition Module ",
 			"type": "Defensive",
 			"description": "When taking damage in battle take brings health below 50%, increase own evasion by 15-30%, recover 8% hp in 8 seconds, activates a maximum of 2 times"
 		},
 		"2": {
 			"icon": "19260",
-			"requirement": "",
+			"requirement": "Default Unlocked",
 			"name": "Precise Operation Protocol ",
 			"type": "Offensive",
 			"description": "Every main gun shot can be manually aimed, manual aiming damage bonus is increased to 25-40%; Every 20 seconds after the beginning of battle, fire a strong barrage at 50-100% chance (firepower increases with skill level)"
 		},
 		"3": {
 			"icon": "19000",
-			"requirement": "",
+			"requirement": "Default Unlocked",
 			"name": "Siren Killer Ⅰ",
 			"type": "Offensive",
 			"description": "Increases the DMG this ship deals to Sirens by 5.0%."
@@ -99,6 +99,40 @@
 				},
 				"7": {
 					"id": "7"
+				}
+			}
+		},
+		"2": {
+			"id": "jiasikenie_2",
+			"name": "夏期環境対応シェル",
+			"description": "ガスコーニュ、装備変更完了。指示確認：主（メートル）と砂浜で遊びを――メートル、「砂浜で遊び」について詳細の指示を求む",
+			"expression": {
+				"0": {
+					"id": "0"
+				},
+				"1": {
+					"id": "1"
+				},
+				"2": {
+					"id": "2"
+				},
+				"3": {
+					"id": "3"
+				},
+				"4": {
+					"id": "4"
+				},
+				"5": {
+					"id": "5"
+				},
+				"6": {
+					"id": "6"
+				},
+				"7": {
+					"id": "7"
+				},
+				"8": {
+					"id": "8"
 				}
 			}
 		},
@@ -681,6 +715,97 @@
 						"event": "Main Title",
 						"media": "extra",
 						"chinese": "",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					}
+				}
+			},
+			"2": {
+				"skin_id": "jiasikenie_2",
+				"id": "1",
+				"label": "夏期環境対応シェル",
+				"dialogue": {
+					"1": {
+						"event": "Ship Description",
+						"media": "",
+						"chinese": "加斯科涅，准备完成。确认指令：陪伴主人在沙滩玩耍——…主人请求对指示“在沙滩玩耍”的详细说明",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "ガスコーニュ、装備変更完了。指示確認：主（メートル）と砂浜で遊びを――メートル、「砂浜で遊び」について詳細の指示を求む",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"2": {
+						"event": "Acquisition",
+						"media": "get_1",
+						"chinese": "加斯科涅，准备完成。确认指令：陪伴主人在沙滩玩耍——…主人请求对指示“在沙滩玩耍”的详细说明",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"3": {
+						"event": "Login",
+						"media": "login_1",
+						"chinese": "欢迎回来，主人。关于“自由行动”，加斯科涅正在进行数据累积以进行定性定义 ",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"4": {
+						"event": "Details",
+						"media": "detail_1",
+						"chinese": "主人要对加斯科涅进行检查吗？",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"5": {
+						"event": "Touch",
+						"media": "touch_1_1",
+						"chinese": "主人的眼神…无法判断战术意义",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"6": {
+						"event": "Touch (Special)",
+						"media": "touch_2_1",
+						"chinese": "主人。加斯科涅，自检中发现非正常高温",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"7": {
+						"event": "Return to Port",
+						"media": "home_1",
+						"chinese": "加斯科涅准备了饮料和食物，主人，请问是否需要进行营养补充",
 						"chineseTL": "",
 						"chineseNote": "",
 						"japanese": "",
