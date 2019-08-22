@@ -1,182 +1,207 @@
 {
-	"name_reference": "juno",
-	"cn_reference": "tianhou",
-	"nameJP": "ジュノー",
-	"nameCN": "天后",
-	"ID": "102",
-	"name": "Juno",
-	"internal_id": "201221",
-	"rarity": "Rare",
-	"initialStar": "★★☆☆☆",
-	"hull": "Destroyer",
-	"navy": "Royal Navy",
-	"prefix": "HMS",
-	"buildTime": "",
-	"class": "J-Class",
-	"voiceActress": "Sawako Shirakabe",
+	"name_reference" : "juno",
+	"cn_reference" : "tianhou",
+	"nameJP" : "ジュノー",
+	"nameCN" : "天后",
+	"ID" : "102",
+	"name" : "Juno",
+	"internal_id" : "201221",
+	"rarity" : "Rare",
+	"initialStar" : "★★☆☆☆",
+	"hull" : "Destroyer",
+	"navy" : "Royal Navy",
+	"prefix" : "HMS",
+	"buildTime" : "00:27:00",
+	"voiceActress" : "Sawako Shirakabe",
 	"parameters": {
-		"firepower": "D",
-		"torpedo": "B",
-		"aviation": "E",
-		"evasion": "A",
-		"antiAir": "D",
-		"hp": "D"
+		"firepower" : "D",
+		"torpedo" : "B",
+		"aviation" : "E",
+		"evasion" : "A",
+		"antiAir" : "D",
+		"hp" : "D"
 	},
 	"scrap": {
-		"gold": "4",
-		"oil": "3",
-		"medal": "1"
+		"gold" : "4",
+		"oil" : "3",
+		"medal" : "1"
 	},
 	"releaseDate": {
-		"JP": "",
-		"CN": "",
-		"KR": "",
-		"EN": ""
+		"JP" : "",
+		"CN" : "",
+		"KR" : "",
+		"EN" : ""
 	},
 	"artist": {
-		"name": "",
-		"weibo": "",
-		"twitter": "",
-		"pixiv": "",
-		"other": ""
+		"name" : "梦咲枫",
+		"weibo" : "http://weibo.com/u/3558369570",
+		"twitter" : "https://twitter.com/yumesaki_kaede/",
+		"pixiv" : "https://www.pixiv.net/member.php?id=1023957",
+		"other" : ""
 	},
+	"class" : "J-Class",
 	"enhance": {
-		"firepower": "5",
-		"torpedo": "23",
-		"aviation": "0",
-		"reload": "14"
+		"firepower" : "5",
+		"torpedo" : "23",
+		"aviation" : "0",
+		"reload" : "14"
 	},
-	"acquisitionMethod": "Honor medal exchange, Explore Stage2-1, Light ship Construction",
+	"acquisitionMethod" : "Honor medal exchange, Explore Stage2-1",
 	"skill": {
-		"1": {
-			"icon": "4081",
-			"requirement": "",
-			"name": "Smokescreen",
-			"type": "Defensive",
-			"description": "Activates after the battle begins and has a $1 chance to activate every 15s after that: deploys a smokescreen that increases Evasion Rate by $2 for all friendlies within it. Does not stack with other smokescreen skills. Smokescreen lasts 5s."
+		"1" : {
+			"icon" : "4081",
+			"requirement" : "Default Unlocked",
+			"name" : "Smokescreen",
+			"type" : "Defensive",
+			"description" : "After the battle begins and 15%(30%) chance every 15s after that: deploys a smokescreen that increases Evasion Rate by 20%(40%) for all your ships in it. Does not stack with other smokescreen skills. Smokescreen lasts 5s."
 		},
-		"2": {
-			"icon": "21071",
-			"requirement": "",
-			"name": "All Out Assault Ⅰ",
-			"type": "Offensive",
-			"description": "Activate All Out Assault Ⅰ: J Class once every 15 times the main gun is fired."
+		"2" : {
+			"icon" : "21071",
+			"requirement" : "Limit Break I (III)",
+			"name" : "All Out Assault Ⅰ",
+			"type" : "Offensive",
+			"description" : "Activates All Out Assault Ⅰ: J Class once every 15 times the Main Guns are fired."
 		}
 	},
 	"skin": {
-		"1": {
-			"id": "tianhou",
-			"name": "Juno",
-			"description": "J-class destroyer ー Juno, Hull Number F46!",
-			"expression": {
-				"0": {
-					"id": "0"
+		"1" : {
+			"id" : "tianhou",
+			"name" : "Juno",
+			"description" : "J-class destroyer ー Juno, Hull Number F46!",
+			"expression" : {
+				"0" : {
+					"id" : "0"
+				}
+			}
+		},
+		"2" : {
+			"id" : "tianhou_2",
+			"name" : "ちょっと美味しい日",
+			"description" : "重桜のお祭り、楽しいです！指揮官、明石さんのたこ焼きはいかがですか？すごく美味しいと聞きましたよ？",
+			"expression" : {
+				"0" : {
+					"id" : "0"
+				},
+				"1" : {
+					"id" : "1"
+				},
+				"2" : {
+					"id" : "2"
+				},
+				"3" : {
+					"id" : "3"
+				},
+				"4" : {
+					"id" : "4"
+				},
+				"5" : {
+					"id" : "5"
 				}
 			}
 		}
 	},
 	"defaultEquipment": {
-		"1": {
-			"icon": "21400",
-			"rarity": "Common",
-			"name": "Twin 120mm Main Gun"
+		"1" : {
+			"icon" : "21400",
+			"rarity" : "Common",
+			"name" : "Twin 120mm Main Gun"
 		},
-		"2": {
-			"icon": "",
-			"rarity": "",
-			"name": ""
+		"2" : {
+			"icon" : "",
+			"rarity" : "",
+			"name" : ""
 		},
-		"3": {
-			"icon": "",
-			"rarity": "",
-			"name": ""
+		"3" : {
+			"icon" : "",
+			"rarity" : "",
+			"name" : ""
 		}
 	},
 	"stats": {
+		"base": {
+			"hp" : "248",
+			"firepower" : "14",
+			"torpedo" : "69",
+			"antiAir" : "29",
+			"aviation" : "0",
+			"reload" : "74",
+			"hit" : "71",
+			"evasion" : "78",
+			"speed" : "43.2",
+			"luck" : "40",
+			"asw" : "52",
+			"oxygen" : "0",
+			"ammo" : "0",
+			"cost" : "2",
+			"armor" : "Light"
+		},
 		"100": {
-			"hp": "1280",
-			"firepower": "66",
-			"torpedo": "324",
-			"antiAir": "135",
-			"aviation": "0",
-			"reload": "175",
-			"hit": "185",
-			"evasion": "204",
-			"speed": "43.2",
-			"luck": "40",
-			"asw": "190",
-			"oxygen": "0",
-			"ammo": "0",
-			"cost": "8",
-			"armor": "Light"
+			"hp" : "1280",
+			"firepower" : "66",
+			"torpedo" : "324",
+			"antiAir" : "135",
+			"aviation" : "0",
+			"reload" : "175",
+			"hit" : "185",
+			"evasion" : "204",
+			"speed" : "43.2",
+			"luck" : "40",
+			"asw" : "190",
+			"oxygen" : "0",
+			"ammo" : "0",
+			"cost" : "8",
+			"armor" : "Light"
 		},
 		"120": {
-			"hp": "1536",
-			"firepower": "76",
-			"torpedo": "364",
-			"antiAir": "156",
-			"aviation": "0",
-			"reload": "201",
-			"hit": "194",
-			"evasion": "210",
-			"speed": "43.2",
-			"luck": "40",
-			"asw": "210",
-			"oxygen": "0",
-			"ammo": "0",
-			"cost": "8",
-			"armor": "Light"
-		},
-		"base": {
-			"hp": "248",
-			"firepower": "14",
-			"torpedo": "69",
-			"antiAir": "29",
-			"aviation": "0",
-			"reload": "74",
-			"hit": "71",
-			"evasion": "78",
-			"speed": "43.2",
-			"luck": "40",
-			"asw": "52",
-			"oxygen": "0",
-			"ammo": "0",
-			"cost": "2",
-			"armor": "Light"
+			"hp" : "1536",
+			"firepower" : "76",
+			"torpedo" : "364",
+			"antiAir" : "156",
+			"aviation" : "0",
+			"reload" : "201",
+			"hit" : "194",
+			"evasion" : "210",
+			"speed" : "43.2",
+			"luck" : "40",
+			"asw" : "210",
+			"oxygen" : "0",
+			"ammo" : "0",
+			"cost" : "8",
+			"armor" : "Light"
 		},
 		"100retrofit": {
-			"hp": "",
-			"firepower": "",
-			"torpedo": "",
-			"antiAir": "",
-			"aviation": "",
-			"reload": "",
-			"hit": "",
-			"evasion": "",
-			"speed": "43.2",
-			"luck": "40",
-			"asw": "",
-			"oxygen": "0",
-			"ammo": "0",
-			"cost": "8",
-			"armor": "Light"
+			"hp" : "",
+			"firepower" : "",
+			"torpedo" : "",
+			"antiAir" : "",
+			"aviation" : "",
+			"reload" : "",
+			"hit" : "",
+			"evasion" : "",
+			"speed" : "43.2",
+			"luck" : "40",
+			"asw" : "",
+			"oxygen" : "0",
+			"ammo" : "0",
+			"cost" : "8",
+			"armor" : "Light"
 		},
 		"120retrofit": {
-			"hp": "",
-			"firepower": "",
-			"torpedo": "",
-			"antiAir": "",
-			"aviation": "",
-			"reload": "",
-			"hit": "",
-			"evasion": "",
-			"speed": "43.2",
-			"luck": "40",
-			"asw": "",
-			"oxygen": "0",
-			"ammo": "0",
-			"cost": "8",
-			"armor": "Light"
+			"hp" : "",
+			"firepower" : "",
+			"torpedo" : "",
+			"antiAir" : "",
+			"aviation" : "",
+			"reload" : "",
+			"hit" : "",
+			"evasion" : "",
+			"speed" : "43.2",
+			"luck" : "40",
+			"asw" : "",
+			"oxygen" : "0",
+			"ammo" : "0",
+			"cost" : "8",
+			"armor" : "Light"
 		}
 	},
 	"limitBreak": {
@@ -204,23 +229,36 @@
 			"preload": "0/0/0/0"
 		},
 		"4": {
-			"type": "Auxiliary",
+			"type": "Auxilary",
 			"efficiency": "-",
 			"amount": "-",
 			"preload": "-"
 		},
 		"5": {
-			"type": "Auxiliary",
+			"type": "Auxilary",
 			"efficiency": "-",
 			"amount": "-",
 			"preload": "-"
 		}
 	},
+	"fleet_tech": {
+		"pt_get": "4",
+		"add_get_attr": "HP",
+		"add_get_value": "1",
+		"add_get_shiptype": "Destroyer",
+		"pt_upgrade": "9",
+		"pt_level": "7",
+		"add_level_attr": "ASW",
+		"add_level_value": "1",
+		"add_level_shiptype": "Destroyer",
+		"t_level": "5",
+		"ships": "javelin,juno,jupiter,jersey"
+	},
 	"build": {
 		"light": {
-			"JP": "",
-			"CN": "",
-			"EN": ""
+			"JP": "✓",
+			"CN": "✓",
+			"EN": "✓"
 		},
 		"heavy": {
 			"JP": "",
@@ -239,16 +277,133 @@
 		}
 	},
 	"drop": {
-		"droppable": "false",
+		"droppable": "true",
 		"list": {
 			"1": {
-				"event": "",
+				"event": "World",
 				"chapter": {
 					"1": {
-						"label": "Ch .1",
+						"label": "Ch.2",
 						"node": {
 							"1": {
 								"drop": "✓",
+								"note": "-"
+							},
+							"2": {
+								"drop": "-",
+								"note": "-"
+							},
+							"3": {
+								"drop": "-",
+								"note": "-"
+							},
+							"4": {
+								"drop": "-",
+								"note": "-"
+							}
+						}
+					},
+					"2": {
+						"label": "Ch.3",
+						"node": {
+							"1": {
+								"drop": "-",
+								"note": "-"
+							},
+							"2": {
+								"drop": "-",
+								"note": "-"
+							},
+							"3": {
+								"drop": "-",
+								"note": "-"
+							},
+							"4": {
+								"drop": "✓",
+								"note": "-"
+							}
+						}
+					},
+					"3": {
+						"label": "Ch.5",
+						"node": {
+							"1": {
+								"drop": "-",
+								"note": "-"
+							},
+							"2": {
+								"drop": "-",
+								"note": "-"
+							},
+							"3": {
+								"drop": "✓",
+								"note": "-"
+							},
+							"4": {
+								"drop": "-",
+								"note": "-"
+							}
+						}
+					},
+					"4": {
+						"label": "Ch.6",
+						"node": {
+							"1": {
+								"drop": "-",
+								"note": "-"
+							},
+							"2": {
+								"drop": "✓",
+								"note": "-"
+							},
+							"3": {
+								"drop": "-",
+								"note": "-"
+							},
+							"4": {
+								"drop": "-",
+								"note": "-"
+							}
+						}
+					},
+					"5": {
+						"label": "Ch.9",
+						"node": {
+							"1": {
+								"drop": "-",
+								"note": "-"
+							},
+							"2": {
+								"drop": "-",
+								"note": "-"
+							},
+							"3": {
+								"drop": "✓",
+								"note": "-"
+							},
+							"4": {
+								"drop": "-",
+								"note": "-"
+							}
+						}
+					},
+					"6": {
+						"label": "Ch.10",
+						"node": {
+							"1": {
+								"drop": "-",
+								"note": "-"
+							},
+							"2": {
+								"drop": "-",
+								"note": "-"
+							},
+							"3": {
+								"drop": "✓",
+								"note": "-"
+							},
+							"4": {
+								"drop": "-",
 								"note": "-"
 							}
 						}
@@ -260,337 +415,475 @@
 	"lines": {
 		"skin": {
 			"1": {
-				"skin_id": "tianhou",
-				"id": "0",
-				"label": "Juno",
-				"dialogue": {
-					"1": {
-						"event": "Ship Description",
-						"media": "",
-						"chinese": "J级驱逐舰—天后，舷号F46",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "J級駆逐艦・ジュノー（F46)",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "J-class destroyer ー Juno, Hull Number F46!",
-						"englishNote": ""
+				"skin_id" : "tianhou",
+				"id" : "0",
+				"label" : "Juno",
+				"dialogue" : {
+					"1" : {
+						"event" : "Ship Description",
+						"media" : "",
+						"chinese" : "J级驱逐舰—天后，舷号F46",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "J級駆逐艦・ジュノー（F46)",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "J-class destroyer ー Juno, Hull Number F46!",
+						"englishNote" : ""
 					},
-					"2": {
-						"event": "Biography",
-						"media": "profile",
-						"chinese": "我是J级四号舰天后…… 呜，我身体不太好，经常出些小毛病，而且不太习惯战场，但是为了指挥官我会加油的！请不要冷落我……",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "Jクラスの四番艦、ジュノーと言います。あぅ…あまり体が丈夫ではなくてよく小さいトラブルが起きますし、戦場にもあまり慣れていませんが…指揮官のために、頑張ります！だから冷たくだけはしないでくださいね？",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "I'm the 4th ship of J class, Juno. Ow... My body isn't fine, so I have some small troubles, and I can't get used to fighting... But for Commander, I will work hard! So please don't be cold to me, alright?",
-						"englishNote": ""
+					"2" : {
+						"event" : "Biography",
+						"media" : "profile",
+						"chinese" : "我是J级四号舰天后…… 呜，我身体不太好，经常出些小毛病，而且不太习惯战场，但是为了指挥官我会加油的！请不要冷落我……",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "Jクラスの四番艦、ジュノーと言います。あぅ…あまり体が丈夫ではなくてよく小さいトラブルが起きますし、戦場にもあまり慣れていませんが…指揮官のために、頑張ります！だから冷たくだけはしないでくださいね？",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "I'm the 4th ship of J class, Juno. Ow... My body isn't fine, so I have some small troubles, and I can't get used to fighting... But for Commander, I will work hard! So please don't be cold to me, alright?",
+						"englishNote" : ""
 					},
-					"3": {
-						"event": "Acquisition",
-						"media": "get",
-						"chinese": "指挥官大人，你好，我叫天后。以后保驾护航的工作就请交给我吧……我会好好努力的！",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "指揮官、はじめまして。ジュノーと申します。指揮官の護衛はお任せください…がんばります！",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "Greetings, Commander. My name is Juno. Leave escort to me... I'll do my best!",
-						"englishNote": ""
+					"3" : {
+						"event" : "Acquisition",
+						"media" : "get",
+						"chinese" : "指挥官大人，你好，我叫天后。以后保驾护航的工作就请交给我吧……我会好好努力的！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "指揮官、はじめまして。ジュノーと申します。指揮官の護衛はお任せください…がんばります！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Greetings, Commander. My name is Juno. Leave escort to me... I'll do my best!",
+						"englishNote" : ""
 					},
-					"4": {
-						"event": "Login",
-						"media": "login",
-						"chinese": "指挥官你回来啦，今天要用的文件我已经整理好了",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "指揮官、お帰りなさい。今日お使いになる書類はもう整理しておきましたよ",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "Commander, welcome back! I've already prepared the documents for use today.",
-						"englishNote": ""
+					"4" : {
+						"event" : "Login",
+						"media" : "login",
+						"chinese" : "指挥官你回来啦，今天要用的文件我已经整理好了",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "指揮官、お帰りなさい。今日お使いになる書類はもう整理しておきましたよ",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Commander, welcome back! I've already prepared the documents for use today.",
+						"englishNote" : ""
 					},
-					"5": {
-						"event": "Details",
-						"media": "detail",
-						"chinese": "指挥官，这、这算是身体检查吗？……（小声）",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "指揮官、こ、これも身体検査ですか…？",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "(Whispers) Commander, does... does this count as a medical check up?",
-						"englishNote": ""
+					"5" : {
+						"event" : "Details",
+						"media" : "detail",
+						"chinese" : "指挥官，这、这算是身体检查吗？……（小声）",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "指揮官、こ、これも身体検査ですか…？",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "(Whispers) Commander, does... does this count as a medical check up?",
+						"englishNote" : ""
 					},
-					"6": {
-						"event": "Main 1",
-						"media": "main_1",
-						"chinese": "诶，那个……泽西似乎要约我出去玩呢……",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "え、あの…ジャージーちゃんが私と遊びたいみたいで…",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "Uh, that... it looks like Jersey wants to play with me...",
-						"englishNote": ""
+					"6" : {
+						"event" : "Main 1",
+						"media" : "main_1",
+						"chinese" : "诶，那个……泽西似乎要约我出去玩呢……",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "え、あの…ジャージーちゃんが私と遊びたいみたいで…",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Uh, that... it looks like Jersey wants to play with me...",
+						"englishNote" : ""
 					},
-					"7": {
-						"event": "Main 2",
-						"media": "main_2",
-						"chinese": "噫！~~~意面什么的……可、可以拒绝吗？ ",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "え！…パスタ…？い、いりません。お断りしてもいいですか？",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "What! ...Pasta...? Th-There's none. Can I decline?",
-						"englishNote": ""
+					"7" : {
+						"event" : "Main 2",
+						"media" : "main_2",
+						"chinese" : "噫！~~~意面什么的……可、可以拒绝吗？ ",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "え！…パスタ…？い、いりません。お断りしてもいいですか？",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "What! ...Pasta...? Th-There's none. Can I decline?",
+						"englishNote" : ""
 					},
-					"8": {
-						"event": "Main 3",
-						"media": "main_3",
-						"chinese": "指挥官，有什么要我做的吗？",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "指揮官、何かお役に立てることはありますか？",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "Commander, is there something I can do?",
-						"englishNote": ""
+					"8" : {
+						"event" : "Main 3",
+						"media" : "main_3",
+						"chinese" : "指挥官，有什么要我做的吗？",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "指揮官、何かお役に立てることはありますか？",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Commander, is there something I can do?",
+						"englishNote" : ""
 					},
-					"9": {
-						"event": "Touch",
-						"media": "touch_1",
-						"chinese": "呜，怎么这样……",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "ああ、そんな…",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "Ah, that's...",
-						"englishNote": ""
+					"9" : {
+						"event" : "Touch",
+						"media" : "touch_1",
+						"chinese" : "呜，怎么这样……",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "ああ、そんな…",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Ah, that's...",
+						"englishNote" : ""
 					},
-					"10": {
-						"event": "Touch (Special)",
-						"media": "touch_2",
-						"chinese": "诶……指、指挥官，不要一直……盯着那里……",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "え…し、指揮官、そんなところ…見つめないで…",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "Eh... C-Commander, please don't... look at that spot...",
-						"englishNote": ""
+					"10" : {
+						"event" : "Touch (Special)",
+						"media" : "touch_2",
+						"chinese" : "诶……指、指挥官，不要一直……盯着那里……",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "え…し、指揮官、そんなところ…見つめないで…",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Eh... C-Commander, please don't... look at that spot...",
+						"englishNote" : ""
 					},
-					"11": {
-						"event": "Mission",
-						"media": "task",
-						"chinese": "有新的任务……不过指挥官没有心情的话先不管吧",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "新しい任務が……でも指揮官がやりたくないならいいですよ？",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "New missions huh... But it's fine if you don't want to do them, right Commander?",
-						"englishNote": ""
+					"11" : {
+						"event" : "Mission",
+						"media" : "task",
+						"chinese" : "有新的任务……不过指挥官没有心情的话先不管吧",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "新しい任務が……でも指揮官がやりたくないならいいですよ？",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "New missions huh... But it's fine if you don't want to do them, right Commander?",
+						"englishNote" : ""
 					},
-					"12": {
-						"event": "Mission Complete",
-						"media": "mission_complete",
-						"chinese": "奖励啊，会是什么呢，一定是好东西吧",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "ご褒美、なんだろう…きっといいものですね！",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "I wonder what the rewards are... They must be nice!",
-						"englishNote": ""
+					"12" : {
+						"event" : "Mission Complete",
+						"media" : "mission_complete",
+						"chinese" : "奖励啊，会是什么呢，一定是好东西吧",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "ご褒美、なんだろう…きっといいものですね！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "I wonder what the rewards are... They must be nice!",
+						"englishNote" : ""
 					},
-					"13": {
-						"event": "Mail",
-						"media": "mail",
-						"chinese": "指挥官指挥官，有新的信件，不要忘了看哦",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "指揮官指揮官、新しいメールですよ。チェックしてくださいね",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "Commander, Commander, there's new mail. Please check it!",
-						"englishNote": ""
+					"13" : {
+						"event" : "Mail",
+						"media" : "mail",
+						"chinese" : "指挥官指挥官，有新的信件，不要忘了看哦",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "指揮官指揮官、新しいメールですよ。チェックしてくださいね",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Commander, Commander, there's new mail. Please check it!",
+						"englishNote" : ""
 					},
-					"14": {
-						"event": "Return to Port",
-						"media": "home",
-						"chinese": "指挥官，有什么需要我做的吗？",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "指揮官、何かできることはありませんか？",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "Commander, is there anything I can do?",
-						"englishNote": ""
+					"14" : {
+						"event" : "Return to Port",
+						"media" : "home",
+						"chinese" : "指挥官，有什么需要我做的吗？",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "指揮官、何かできることはありませんか？",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Commander, is there anything I can do?",
+						"englishNote" : ""
 					},
-					"15": {
-						"event": "Commission Complete",
-						"media": "expedition",
-						"chinese": "指挥官，出发去完成委托的姐妹们已经回来了喔",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "指揮官、委託に出かけた娘たちは帰ってきましたよ",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "Commander, the girls who went out for commissions have returned",
-						"englishNote": ""
+					"15" : {
+						"event" : "Commission Complete",
+						"media" : "expedition",
+						"chinese" : "指挥官，出发去完成委托的姐妹们已经回来了喔",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "指揮官、委託に出かけた娘たちは帰ってきましたよ",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Commander, the girls who went out for commissions have returned",
+						"englishNote" : ""
 					},
-					"16": {
-						"event": "Enhancement",
-						"media": "upgrade",
-						"chinese": "这样就能为指挥官做更多的事了……！",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "これで指揮官のためにもっと役に立てるのですね！",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "With this, I've become of greater use to you, Commander!",
-						"englishNote": ""
+					"16" : {
+						"event" : "Enhancement",
+						"media" : "upgrade",
+						"chinese" : "这样就能为指挥官做更多的事了……！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "これで指揮官のためにもっと役に立てるのですね！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "With this, I've become of greater use to you, Commander!",
+						"englishNote" : ""
 					},
-					"17": {
-						"event": "Flagship",
-						"media": "warcry",
-						"chinese": "为了指挥官我也要加油……！",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "指揮官のために、がんばります…！",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "For your sake, Commander, I'll try the very best I can!",
-						"englishNote": ""
+					"17" : {
+						"event" : "Flagship",
+						"media" : "warcry",
+						"chinese" : "为了指挥官我也要加油……！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "指揮官のために、がんばります…！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "For your sake, Commander, I'll try the very best I can!",
+						"englishNote" : ""
 					},
-					"18": {
-						"event": "Victory",
-						"media": "mvp",
-						"chinese": "应该没有给大家带来什么麻烦吧…?",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "みんなにご迷惑はおかけしてないですよね？…",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "I didn't cause anyone any trouble, did I?",
-						"englishNote": ""
+					"18" : {
+						"event" : "Victory",
+						"media" : "mvp",
+						"chinese" : "应该没有给大家带来什么麻烦吧…?",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "みんなにご迷惑はおかけしてないですよね？…",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "I didn't cause anyone any trouble, did I?",
+						"englishNote" : ""
 					},
-					"19": {
-						"event": "Defeat",
-						"media": "lose",
-						"chinese": "结果……还是不行么……",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "やっぱり…だめでしたか…",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "This isn't good... after all...",
-						"englishNote": ""
+					"19" : {
+						"event" : "Defeat",
+						"media" : "lose",
+						"chinese" : "结果……还是不行么……",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "やっぱり…だめでしたか…",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "This isn't good... after all...",
+						"englishNote" : ""
 					},
-					"20": {
-						"event": "Skill",
-						"media": "skill",
-						"chinese": "那个…就是…天后，会加油的！",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "あの…、その…、ジュノー、頑張ります！",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "Um... That... Juno, giving her all!",
-						"englishNote": ""
+					"20" : {
+						"event" : "Skill",
+						"media" : "skill",
+						"chinese" : "那个…就是…天后，会加油的！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "あの…、その…、ジュノー、頑張ります！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Um... That... Juno, giving her all!",
+						"englishNote" : ""
 					},
-					"21": {
-						"event": "Affinity (Upset)",
-						"media": "feeling1",
-						"chinese": "指挥官……讨厌我了吗……",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "指揮官、私の事が嫌いになったのですか……？",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "Commander, have you come to dislike me...?",
-						"englishNote": ""
+					"21" : {
+						"event" : "Affinity (Upset)",
+						"media" : "feeling1",
+						"chinese" : "指挥官……讨厌我了吗……",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "指揮官、私の事が嫌いになったのですか……？",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Commander, have you come to dislike me...?",
+						"englishNote" : ""
 					},
-					"22": {
-						"event": "Affinity (Stranger)",
-						"media": "feeling2",
-						"chinese": "能在指挥官身边，好开心……",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "指揮官のそばにいられて、嬉しいです……",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "I am happy being next to you, Commander...",
-						"englishNote": ""
+					"22" : {
+						"event" : "Affinity (Stranger)",
+						"media" : "feeling2",
+						"chinese" : "能在指挥官身边，好开心……",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "指揮官のそばにいられて、嬉しいです……",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "I am happy being next to you, Commander...",
+						"englishNote" : ""
 					},
-					"23": {
-						"event": "Affinity (Friendly)",
-						"media": "feeling3",
-						"chinese": "虽然我过去一直没有做出什么成绩，不过指挥官的家务之类的我一定没问题的！",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "今まで大した成果を手に入れていませんでしたけど、指揮官の身の周りのお世話ならきっとダイジョウブです！",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "I haven't accomplished anything huge up to this point, but it won't be a problem dealing with your surroundings, Commander!",
-						"englishNote": ""
+					"23" : {
+						"event" : "Affinity (Friendly)",
+						"media" : "feeling3",
+						"chinese" : "虽然我过去一直没有做出什么成绩，不过指挥官的家务之类的我一定没问题的！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "今まで大した成果を手に入れていませんでしたけど、指揮官の身の周りのお世話ならきっとダイジョウブです！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "I haven't accomplished anything huge up to this point, but it won't be a problem dealing with your surroundings, Commander!",
+						"englishNote" : ""
 					},
-					"24": {
-						"event": "Affinity (Like)",
-						"media": "feeling4",
-						"chinese": "虽然我名字是“朱诺”，可是我不善妒的哦？能呆在指挥官身边，我就很幸福了",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "名前は「ユーノ」とも言えますけど、嫉妬したりはしませんよ？指揮官のそばにいられるだけで幸せです",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "I was called 'Yuno' before but, I'm not going to feel jealous you know? I'm happy just by being next to you, Commander.",
-						"englishNote": ""
+					"24" : {
+						"event" : "Affinity (Like)",
+						"media" : "feeling4",
+						"chinese" : "虽然我名字是“朱诺”，可是我不善妒的哦？能呆在指挥官身边，我就很幸福了",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "名前は「ユーノ」とも言えますけど、嫉妬したりはしませんよ？指揮官のそばにいられるだけで幸せです",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "I was called 'Yuno' before but, I'm not going to feel jealous you know? I'm happy just by being next to you, Commander.",
+						"englishNote" : ""
 					},
-					"25": {
-						"event": "Affinity (Love)",
-						"media": "feeling5",
-						"chinese": "这个皇冠吗？只是一个装饰品呢，不过如果我是公主的话，指挥官……能成为我的王子吗？",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "このクラウンですか？ただの飾りですよ？でももしジュノーがお姫様だったら、指揮官……ジュノーの王子様になっていただけますか？",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "This crown? It's just a decoration. But if I'm Princess Juno, will... will you be my prince?",
-						"englishNote": ""
+					"25" : {
+						"event" : "Affinity (Love)",
+						"media" : "feeling5",
+						"chinese" : "这个皇冠吗？只是一个装饰品呢，不过如果我是公主的话，指挥官……能成为我的王子吗？",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "このクラウンですか？ただの飾りですよ？でももしジュノーがお姫様だったら、指揮官……ジュノーの王子様になっていただけますか？",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "This crown? It's just a decoration. But if I'm Princess Juno, will... will you be my prince?",
+						"englishNote" : ""
 					},
-					"26": {
-						"event": "Pledge",
-						"media": "propose",
-						"chinese": "我的梦想……是成为指挥官的新娘，把这个当做指挥官对我的约定也没问题吗……？",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "ジュノーの夢は……指揮官のお嫁さんになることです。この指輪を指揮官からの約束と思ってもいいですか……？",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "My dream... is to be your bride, Commander. Is it alright to treat this ring as your promise to me...?",
-						"englishNote": ""
+					"26" : {
+						"event" : "Pledge",
+						"media" : "propose",
+						"chinese" : "我的梦想……是成为指挥官的新娘，把这个当做指挥官对我的约定也没问题吗……？",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "ジュノーの夢は……指揮官のお嫁さんになることです。この指輪を指揮官からの約束と思ってもいいですか……？",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "My dream... is to be your bride, Commander. Is it alright to treat this ring as your promise to me...?",
+						"englishNote" : ""
+					},
+					"27" : {
+						"event" : "Like Present",
+						"media" : "present_like",
+						"chinese" : "",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"28" : {
+						"event" : "Dislike Present",
+						"media" : "present_dislike",
+						"chinese" : "",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"29" : {
+						"event" : "Main Title",
+						"media" : "extra",
+						"chinese" : "",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					}
+				}
+			},
+			"2": {
+				"skin_id" : "tianhou_2",
+				"id" : "1",
+				"label" : "ちょっと美味しい日",
+				"dialogue" : {
+					"1" : {
+						"event" : "Ship Description",
+						"media" : "",
+						"chinese" : "重樱的祭典真的好棒啊~指挥官，要不要来点明石小姐准备的章鱼烧呢？据说很好吃哦？",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "重桜のお祭り、楽しいです！指揮官、明石さんのたこ焼きはいかがですか？すごく美味しいと聞きましたよ？",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"2" : {
+						"event" : "Acquisition",
+						"media" : "get_1",
+						"chinese" : "重樱的祭典真的好棒啊~指挥官，要不要来点明石小姐准备的章鱼烧呢？据说很好吃哦？",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"3" : {
+						"event" : "Login",
+						"media" : "login_1",
+						"chinese" : "我已经核查过了，今天没有什么特别重大的任务！嘿嘿，可以安心享受祭典了呢，指挥官！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"4" : {
+						"event" : "Details",
+						"media" : "detail_1",
+						"chinese" : "现、现在要检查吗…？(小声)在祭典吃得有点…——啊哇哇，没、没什么！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"5" : {
+						"event" : "Main 1",
+						"media" : "main_1_1",
+						"chinese" : "唔…下次祭典也叫上标枪她们好了…一定会更热闹更有趣的",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"6" : {
+						"event" : "Main 2",
+						"media" : "main_2_1",
+						"chinese" : "通过祭典又一次认识到，重樱真是个好地方呀，还有这么多的美味~",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"7" : {
+						"event" : "Main 3",
+						"media" : "main_3_1",
+						"chinese" : "哇~那边的摊子看起来也很美味呢…——身材？唔…指挥官，真是坏心眼…",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"8" : {
+						"event" : "Touch",
+						"media" : "touch_1_1",
+						"chinese" : "这就是“浴衣”呀，还挺可爱的呢，嘻嘻…——哇哇哇！？指指指指挥官！？",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"9" : {
+						"event" : "Affinity (Love)",
+						"media" : "feeling5_1",
+						"chinese" : "像这样穿着特别的衣服，和指挥官一起逛着祭典……感觉自己就是世界上最幸福的那个人呢…嘻嘻~",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
 					}
 				}
 			}
 		}
-	},
-	"fleet_tech": {
-		"pt_get": "4",
-		"add_get_attr": "HP",
-		"add_get_value": "1",
-		"add_get_shiptype": "Destroyer",
-		"pt_upgrade": "9",
-		"pt_level": "7",
-		"add_level_attr": "ASW",
-		"add_level_value": "1",
-		"add_level_shiptype": "Destroyer",
-		"t_level": "5",
-		"ships": "javelin,juno,jupiter,jersey"
 	}
 }
