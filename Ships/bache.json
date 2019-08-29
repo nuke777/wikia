@@ -11,7 +11,7 @@
 	"hull" : "Destroyer",
 	"navy" : "Eagle Union",
 	"prefix" : "USS",
-	"buildTime" : "",
+	"buildTime" : "00:28:00",
 	"parameters": {
 		"firepower" : "C",
 		"torpedo" : "C",
@@ -26,10 +26,10 @@
 		"medal" : "1"
 	},
 	"releaseDate": {
-		"JP" : "August 29, 2019",
-		"CN" : "August 29, 2019",
-		"KR" : "August 29, 2019",
-		"EN" : "August 29, 2019"
+		"JP" : "",
+		"CN" : "",
+		"KR" : "",
+		"EN" : ""
 	},
 	"artist": {
 		"name" : "",
@@ -45,18 +45,18 @@
 		"aviation" : "0",
 		"reload" : "14"
 	},
-	"acquisitionMethod" : "小型艦建造",
+	"acquisitionMethod" : "Light ship Construction",
 	"skill": {
 		"1" : {
 			"icon" : "12560",
 			"requirement" : "Default Unlocked",
-			"name" : "バッチ・インザスカイ",
+			"name" : "Bache In The Sky",
 			"type" : "Defensive",
-			"description" : "自身が受ける航空攻撃ダメージを$1軽減する。味方対空砲攻撃時、25%で発動し、8秒間自身の対空が$2アップ"
+			"description" : "Decreases this ship's DMG taken from enemy aircraft by 10.0%(30.0%). When any ship in the fleet fires their Anti-Air Guns: 25.0% chance to increase this ship's AA by 15.0%(30.0%) for 8s."
 		},
 		"2" : {
 			"icon" : "20041",
-			"requirement" : "Limit Break I (III)",
+			"requirement" : "Limit Break I(III)",
 			"name" : "All Out Assault Ⅰ",
 			"type" : "Offensive",
 			"description" : "Activates All Out Assault Ⅰ: Fletcher Class once every 15 times the Main Guns are fired."
@@ -65,8 +65,8 @@
 	"skin": {
 		"1" : {
 			"id" : "beiqi",
-			"name" : "バッチ",
-			"description" : "フレッチャー級駆逐艦・バッチ（DD-470)",
+			"name" : "Bache",
+			"description" : "Yoohoo~! You the Commander? You look kinda weaksauce, though~! Name's Bache! I'm joining this fleet, starting today! I'll take good care of you, so just kick back and get ready for my greatness!",
 			"expression" : {
 				"0" : {
 					"id" : "0"
@@ -179,9 +179,9 @@
 		}
 	},
 	"limitBreak": {
-		"tier1": "全弾発射スキル習得/武器補正+2%",
-		"tier2": "魚雷装填数+1/開始時魚雷+1/武器補正+3%",
-		"tier3": "全弾発射弾幕強化/武器補正+5%"
+		"tier1": "Unlock All Out Assault Ⅰ/All weapons' efficiency +2%",
+		"tier2": "Torpedo base +1/Torpedo preload +1/All weapons' efficiency +3%",
+		"tier3": "Improve All Out Assault/All weapons' efficiency +5%"
 	},
 	"equipmentLoadout": {
 		"1": {
@@ -274,7 +274,7 @@
 			"1": {
 				"skin_id" : "beiqi",
 				"id" : "0",
-				"label" : "バッチ",
+				"label" : "Bache",
 				"dialogue" : {
 					"1" : {
 						"event" : "Ship Description",
@@ -285,7 +285,7 @@
 						"japanese" : "フレッチャー級駆逐艦・バッチ（DD-470)",
 						"japaneseTL" : "",
 						"japaneseNote" : "",
-						"english" : "",
+						"english" : "Fletcher-class destroyer – Bache, Hull Number DD-470.",
 						"englishNote" : ""
 					},
 					"2" : {
@@ -297,7 +297,7 @@
 						"japanese" : "ふふん、フレッチャー級のいっちばんカッコいい駆逐艦のバッチよ！スリガオの砲火もこのあたしにかかればなんてことないわ！それとぉ、エーゲ海のアポロン像のそばで過ごせるなんて他の駆逐艦じゃあ出来ない体験だもん！はははは！",
 						"japaneseTL" : "",
 						"japaneseNote" : "",
-						"english" : "",
+						"english" : "Ahah! I'm the numero uno coolest Fletcher-class destroyer, Bache! My fire support in the Surigao Strait was no big deal! Also, no other destroyer has experienced the glory of resting beside the Colossus of Rhodes as much as I have! Hahahahah!",
 						"englishNote" : ""
 					},
 					"3" : {
@@ -309,7 +309,7 @@
 						"japanese" : "やっほー！あんたが指揮官？よわっちぃっぽい感じ～あたしは今日からこの艦隊に着任するバッチよ！面倒見てやるから安心しなさいアンド期待しなさいな！",
 						"japaneseTL" : "",
 						"japaneseNote" : "",
-						"english" : "",
+						"english" : "Yoohoo~! You the Commander? You look kinda weaksauce, though~! Name's Bache! I'm joining this fleet, starting today! I'll take good care of you, so just kick back and get ready for my greatness!",
 						"englishNote" : ""
 					},
 					"4" : {
@@ -321,7 +321,7 @@
 						"japanese" : "エナジーコーヒーでも飲んでなさい！バッチの指揮官はへばってちゃだめだかんね！",
 						"japaneseTL" : "",
 						"japaneseNote" : "",
-						"english" : "",
+						"english" : "Drink this energizing coffee! We can't have you run outta gas, can we!",
 						"englishNote" : ""
 					},
 					"5" : {
@@ -333,7 +333,7 @@
 						"japanese" : "はっはっは！バッチの出撃タイム？",
 						"japaneseTL" : "",
 						"japaneseNote" : "",
-						"english" : "",
+						"english" : "Hah hah hah! Is it my time to sortie?",
 						"englishNote" : ""
 					},
 					"6" : {
@@ -345,7 +345,7 @@
 						"japanese" : "今日の風はすごいね…風が大きすぎると変なこと起きちゃうよ？指揮官、わかる？",
 						"japaneseTL" : "",
 						"japaneseNote" : "",
-						"english" : "",
+						"english" : "It's windy as all hell today... and when it gets too windy, bad things happen. You get me, Commander?",
 						"englishNote" : ""
 					},
 					"7" : {
@@ -357,7 +357,7 @@
 						"japanese" : "この衣装は流行りのファッションよ！指揮官ってそんなこともわからないわけ？",
 						"japaneseTL" : "",
 						"japaneseNote" : "",
-						"english" : "",
+						"english" : "This outfit is what's in vogue! Do you seriously not know fashion when you see it?",
 						"englishNote" : ""
 					},
 					"8" : {
@@ -369,7 +369,7 @@
 						"japanese" : "フレッチャーの子たちがバッチと同じくシャイニングしていれば、バッチも彼女たちのことを覚えられるもん！",
 						"japaneseTL" : "",
 						"japaneseNote" : "",
-						"english" : "",
+						"english" : "If the other Fletchers were as flashy as me then maybe I could actually remember their names!",
 						"englishNote" : ""
 					},
 					"9" : {
@@ -381,7 +381,7 @@
 						"japanese" : "後でお仕事終わんなくなってもバッチに甘えるじゃないわよ！",
 						"japaneseTL" : "",
 						"japaneseNote" : "",
-						"english" : "",
+						"english" : "Don't come begging for my help later if you're this easily distracted and can't finish your work!",
 						"englishNote" : ""
 					},
 					"10" : {
@@ -393,7 +393,7 @@
 						"japanese" : "指揮官、この格好やっぱり気になる？このドスケベ～",
 						"japaneseTL" : "",
 						"japaneseNote" : "",
-						"english" : "",
+						"english" : "You really like my getup, don'tcha, Commander? You absolute degenerate~",
 						"englishNote" : ""
 					},
 					"11" : {
@@ -405,7 +405,7 @@
 						"japanese" : "指揮官って弱っちいっぽいなのに、いい感じにナデナデしてくれるんだ！",
 						"japaneseTL" : "",
 						"japaneseNote" : "",
-						"english" : "",
+						"english" : "You might be weaksauce, but you're really good at patting heads!",
 						"englishNote" : ""
 					},
 					"12" : {
@@ -417,7 +417,7 @@
 						"japanese" : "指揮官、任務が終わんなかったらバッチが面倒を見たげる！",
 						"japaneseTL" : "",
 						"japaneseNote" : "",
-						"english" : "",
+						"english" : "If you can't finish your missions then magnanimous me's gonna have to step up to the plate!",
 						"englishNote" : ""
 					},
 					"13" : {
@@ -429,7 +429,7 @@
 						"japanese" : "もう世話の焼ける指揮官ねー報酬を忘れるんじゃないわ！",
 						"japaneseTL" : "",
 						"japaneseNote" : "",
-						"english" : "",
+						"english" : "I really have to babysit you, don't I? Don't forget about collecting the mission rewards!",
 						"englishNote" : ""
 					},
 					"14" : {
@@ -441,7 +441,7 @@
 						"japanese" : "ふっふん！メールだよ！忙しくて手が離せない指揮官のためにバッチが特別に読み上げてあげる！",
 						"japaneseTL" : "",
 						"japaneseNote" : "",
-						"english" : "",
+						"english" : "Heh heh! You've got mail! Since you're such a busy bee and I'm so considerate, I'll read it out for ya!",
 						"englishNote" : ""
 					},
 					"15" : {
@@ -453,7 +453,7 @@
 						"japanese" : "指揮官、元気ないね～もぉ見てらんない！バッチ特製のエナドリwithはちみつスペシャル！ほら飲んどけ～！",
 						"japaneseTL" : "",
 						"japaneseNote" : "",
-						"english" : "",
+						"english" : "You look awfully mopey, Commander. I can't stand it! Take a sip of my special honey-infused energy drink! Don't argue, just do it!",
 						"englishNote" : ""
 					},
 					"16" : {
@@ -465,7 +465,7 @@
 						"japanese" : "指揮官！誰かが戻ってきた！委託チームの出迎えは仕事でしょ？忘れんな！",
 						"japaneseTL" : "",
 						"japaneseNote" : "",
-						"english" : "",
+						"english" : "Commander, someone's back! Remember how it's part of the job to greet the commission team? Yeah, don't forget it!",
 						"englishNote" : ""
 					},
 					"17" : {
@@ -477,7 +477,7 @@
 						"japanese" : "やっほー、新しい力、早速トライしてみよう！",
 						"japaneseTL" : "",
 						"japaneseNote" : "",
-						"english" : "",
+						"english" : "Suh-weet! Let's try out my new powers!",
 						"englishNote" : ""
 					},
 					"18" : {
@@ -489,7 +489,7 @@
 						"japanese" : "あんたたちでバッチに勝つつもり？笑えるぅ！",
 						"japaneseTL" : "",
 						"japaneseNote" : "",
-						"english" : "",
+						"english" : "You suckers think you can defeat me? That's funny!",
 						"englishNote" : ""
 					},
 					"19" : {
@@ -501,7 +501,7 @@
 						"japanese" : "弱いなーほんっとうに弱いなー！はははは！",
 						"japaneseTL" : "",
 						"japaneseNote" : "",
-						"english" : "",
+						"english" : "So weeeak! What a buncha losers! Hahahaha!",
 						"englishNote" : ""
 					},
 					"20" : {
@@ -513,7 +513,7 @@
 						"japanese" : "ふん！今度バッチがボコボコにしてやるから、今に見てなさーーーい！",
 						"japaneseTL" : "",
 						"japaneseNote" : "",
-						"english" : "",
+						"english" : "I'll be back to smack the crap outta you dolts, just you waaaaaait!",
 						"englishNote" : ""
 					},
 					"21" : {
@@ -525,7 +525,7 @@
 						"japanese" : "バッチ's ショータイム！",
 						"japaneseTL" : "",
 						"japaneseNote" : "",
-						"english" : "",
+						"english" : "It's showtime!",
 						"englishNote" : ""
 					},
 					"22" : {
@@ -537,7 +537,7 @@
 						"japanese" : "やるじゃない！でもバッチのほうがもっと強いよ！ははは！",
 						"japaneseTL" : "",
 						"japaneseNote" : "",
-						"english" : "",
+						"english" : "Not bad! But I'm badder and stronger than you! Hahaha!",
 						"englishNote" : ""
 					},
 					"23" : {
@@ -549,7 +549,7 @@
 						"japanese" : "こーんなダメ指揮官の面倒を見るのはバッチ以外誰もいないんだよね～可哀想～",
 						"japaneseTL" : "",
 						"japaneseNote" : "",
-						"english" : "",
+						"english" : "I'm the only one on the planet who'd look after someone as sorry as you~ Poor little thing~",
 						"englishNote" : ""
 					},
 					"24" : {
@@ -561,7 +561,7 @@
 						"japanese" : "ん？怪我？ないない！この絆創膏はファッションだよ～指揮官に心配されるバッチじゃないぞ！へへ☆",
 						"japaneseTL" : "",
 						"japaneseNote" : "",
-						"english" : "",
+						"english" : "Hm? Hurt my leg? Nope! The bandaid is just for decoration~! Nothin' for you to worry your little mind about! Heheh☆",
 						"englishNote" : ""
 					},
 					"25" : {
@@ -573,7 +573,7 @@
 						"japanese" : "ほほう、指揮官もこのジャケットかっこいいと思う？指揮官もこういうのを羽織ったらスタイリッシュさアップかもよ？はははは！",
 						"japaneseTL" : "",
 						"japaneseNote" : "",
-						"english" : "",
+						"english" : "Hoho? You digging my jacket, Commander? Y'know, your style might just improve if you wear something like it! Hahahahah!",
 						"englishNote" : ""
 					},
 					"26" : {
@@ -585,7 +585,7 @@
 						"japanese" : "指揮官のコーデ全然ダメダメ！ほら！バッチが指揮官にファッションセンスを教えたげる！",
 						"japaneseTL" : "",
 						"japaneseNote" : "",
-						"english" : "",
+						"english" : "Your style is so last century, Commander! Take a seat and I'll give you a fashion crash course!",
 						"englishNote" : ""
 					},
 					"27" : {
@@ -597,7 +597,7 @@
 						"japanese" : "指揮官、最近かっこよくなったし、弱っちいにも見えなくなったね！もうバッチ、惚れちゃいそう～なんてね☆",
 						"japaneseTL" : "",
 						"japaneseNote" : "",
-						"english" : "",
+						"english" : "Y'know, your fashion sense has really improved; you don't look so lame anymore! Keep it up and I might fall for you~ Pfft, yeah right☆",
 						"englishNote" : ""
 					},
 					"28" : {
@@ -609,7 +609,7 @@
 						"japanese" : "いくらカッコよくなっても、指揮官はバッチに世話を焼かせるんだ～でも大丈夫！バッチはずっと面倒を見たげる！へへへ、覚悟しなさい！",
 						"japaneseTL" : "",
 						"japaneseNote" : "",
-						"english" : "",
+						"english" : "Guess I'll always need to babysit you, no matter how stylish you get~ But that's okay! I'll look after you till the end of time! Hehehe, hope you're ready for me!",
 						"englishNote" : ""
 					},
 					"29" : {
@@ -621,7 +621,7 @@
 						"japanese" : "フレッチャー級の…だれだっけ？わかんない！",
 						"japaneseTL" : "",
 						"japaneseNote" : "",
-						"english" : "",
+						"english" : "Fletcher-class destroyer... uh, who are you, again? I can't remember!",
 						"englishNote" : ""
 					},
 					"30" : {

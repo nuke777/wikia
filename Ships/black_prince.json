@@ -11,7 +11,7 @@
 	"hull" : "Light Cruiser",
 	"navy" : "Royal Navy",
 	"prefix" : "HMS",
-	"buildTime" : "",
+	"buildTime" : "00:55:00",
 	"voiceActress" : "Hisako Kanemoto",
 	"parameters": {
 		"firepower" : "B",
@@ -27,10 +27,10 @@
 		"medal" : "4"
 	},
 	"releaseDate": {
-		"JP" : "August 29, 2019",
-		"CN" : "August 29, 2019",
-		"KR" : "August 29, 2019",
-		"EN" : "August 29, 2019"
+		"JP" : "",
+		"CN" : "",
+		"KR" : "",
+		"EN" : ""
 	},
 	"artist": {
 		"name" : "",
@@ -46,35 +46,35 @@
 		"aviation" : "0",
 		"reload" : "12"
 	},
-	"acquisitionMethod" : "小型艦建造",
+	"acquisitionMethod" : "Light ship Construction",
 	"skill": {
 		"1" : {
 			"icon" : "12550",
 			"requirement" : "Default Unlocked",
-			"name" : "王弓ウッドストック",
+			"name" : "Longbow of Woodstock",
 			"type" : "Offensive",
-			"description" : "ユニオンの艦船と一緒に出撃した場合、自身の主砲クリティカル率が$1、自身の火力・雷装が$2アップ"
+			"description" : "When sortied with an Eagle Union ship: increases this ship's Main Gun Crit Rate by 20.0%(40.0%) and its FP and TRP by 8.0%(20.0%)."
 		},
 		"2" : {
 			"icon" : "4081",
 			"requirement" : "Default Unlocked",
 			"name" : "Smokescreen",
 			"type" : "Defensive",
-			"description" : "After the battle begins and $1 chance every 15s after that: deploys a smokescreen that increases Evasion Rate by $2 for all your ships in it. Does not stack with other smokescreen skills. Smokescreen lasts 5s."
+			"description" : "After the battle begins and 15.0%(30.0%) chance every 15s after that: deploys a smokescreen that increases Evasion Rate by 20.0%(40.0%) for all your ships in it. Does not stack with other smokescreen skills. Smokescreen lasts 5s."
 		},
 		"3" : {
 			"icon" : "21121",
-			"requirement" : "Limit Break I (III)",
+			"requirement" : "Limit Break I(III)",
 			"name" : "All Out Assault Ⅰ",
 			"type" : "Offensive",
-			"description" : "Activates All Out Assault Ⅰ: Dido Class once every 12 times the Main Guns are fired."
+			"description" : "Activates All Out Assault Ⅰ: Dido Class once every 15 times the Main Guns are fired."
 		}
 	},
 	"skin": {
 		"1" : {
 			"id" : "heitaizi",
-			"name" : "ブラック・プリンス",
-			"description" : "ベローナ級軽巡洋艦・ブラック・プリンス (HMS Black Prince) ",
+			"name" : "Black Prince",
+			"description" : "Err, you're... the Commander, yes? You don't know who I am? Ah, right, I've yet to introduce myself... I'm Black Prince of the Royal Navy... Will that suffice?",
 			"expression" : {
 				"0" : {
 					"id" : "0"
@@ -187,9 +187,9 @@
 		}
 	},
 	"limitBreak": {
-		"tier1": "特殊弾幕スキル習得/主砲補正+5%",
-		"tier2": "魚雷装填数+1/開始時魚雷+1/魚雷補正+10%",
-		"tier3": "特殊弾幕強化/主砲補正+15%"
+		"tier1": "Unlock EX Barrage Ⅰ/Main gun efficiency +5%",
+		"tier2": "Torpedo base +1/Torpedo preload +1/Torpedo efficiency +10%",
+		"tier3": "Improve EX Barrage/Main gun efficiency +15%"
 	},
 	"equipmentLoadout": {
 		"1": {
@@ -282,7 +282,7 @@
 			"1": {
 				"skin_id" : "heitaizi",
 				"id" : "0",
-				"label" : "ブラック・プリンス",
+				"label" : "Black Prince",
 				"dialogue" : {
 					"1" : {
 						"event" : "Ship Description",
@@ -293,7 +293,7 @@
 						"japanese" : "ええと、貴方は……指揮官よね？私のことを知らない？あ、はい、そういえば自己紹介がまだのようね…ロイヤルネイビー所属、ブラック・プリンス……これでいいかしら？",
 						"japaneseTL" : "",
 						"japaneseNote" : "",
-						"english" : "",
+						"english" : "Bellona-class light cruiser – Black Prince.",
 						"englishNote" : ""
 					},
 					"2" : {
@@ -305,7 +305,7 @@
 						"japanese" : "改ダイドー級…ベローナ級？のほうが適切かな……ええ、そこそこ遠洋任務をこなしたカンレキを持っているわ。これからも遠い場所での任務に参加するの？",
 						"japaneseTL" : "",
 						"japaneseNote" : "",
-						"english" : "",
+						"english" : "I am a modified Dido-class... rather was it Bellona-class? ... Right then, you could say I'm quite well-travelled. Will you be sending me all over the world too?",
 						"englishNote" : ""
 					},
 					"3" : {
@@ -317,7 +317,7 @@
 						"japanese" : "ええと、貴方は……指揮官よね？私のことを知らない？あ、はい、そういえば自己紹介がまだのようね…ロイヤルネイビー所属、ブラック・プリンス……これでいいかしら？",
 						"japaneseTL" : "",
 						"japaneseNote" : "",
-						"english" : "",
+						"english" : "Err, you're... the Commander, yes? You don't know who I am? Ah, right, I've yet to introduce myself... I'm Black Prince of the Royal Navy... Will that suffice?",
 						"englishNote" : ""
 					},
 					"4" : {
@@ -329,7 +329,7 @@
 						"japanese" : "指揮官は…毎日このタイミングで帰ってくるわね",
 						"japaneseTL" : "",
 						"japaneseNote" : "",
-						"english" : "",
+						"english" : "Commander, back again same time as always, eh?",
 						"englishNote" : ""
 					},
 					"5" : {
@@ -341,7 +341,7 @@
 						"japanese" : "敵を穿つクレシーの弓矢、それとも主を守る忠義の盾……私は貴方の思うがまま、貴方の力になる",
 						"japaneseTL" : "",
 						"japaneseNote" : "",
-						"english" : "",
+						"english" : "I am the Longbow of Crécy, and the Shield of the Realm... By your will, I am at your disposal.",
 						"englishNote" : ""
 					},
 					"6" : {
@@ -353,7 +353,7 @@
 						"japanese" : "メイド…？私、違うけど…簡単な料理と紅茶程度なら大丈夫よ",
 						"japaneseTL" : "",
 						"japaneseNote" : "",
-						"english" : "",
+						"english" : "A Maid? Me? Certainly not... But I do know how to make some simple dishes, and I suppose I could bring you some tea.",
 						"englishNote" : ""
 					},
 					"7" : {
@@ -365,7 +365,7 @@
 						"japanese" : "ここでは海が見えるのね。……指揮官、海が好き？",
 						"japaneseTL" : "",
 						"japaneseNote" : "",
-						"english" : "",
+						"english" : "I can see the water from here. Commander, do you like the ocean?",
 						"englishNote" : ""
 					},
 					"8" : {
@@ -377,7 +377,7 @@
 						"japanese" : "指揮官、今ぼーっとしているの？私も…一緒にぼーっとしていてもいい？",
 						"japaneseTL" : "",
 						"japaneseNote" : "",
-						"english" : "",
+						"english" : "Commander, are you daydreaming? What say... I join you and we daydream together?",
 						"englishNote" : ""
 					},
 					"9" : {
@@ -389,7 +389,7 @@
 						"japanese" : "指揮官、私の体…どこか気になる場所でもある？",
 						"japaneseTL" : "",
 						"japaneseNote" : "",
-						"english" : "",
+						"english" : "Commander? Something about my body caught your attention, did it?",
 						"englishNote" : ""
 					},
 					"10" : {
@@ -401,7 +401,7 @@
 						"japanese" : "指揮官、この触り心地…好き？",
 						"japaneseTL" : "",
 						"japaneseNote" : "",
-						"english" : "",
+						"english" : "Commander, does that feel nice to... touch?",
 						"englishNote" : ""
 					},
 					"11" : {
@@ -413,7 +413,7 @@
 						"japanese" : "任務を放置すると軍事法廷に送られ……この程度ならまだ大丈夫？",
 						"japaneseTL" : "",
 						"japaneseNote" : "",
-						"english" : "",
+						"english" : "Dereliction of duty is grounds for court-martial... Maybe you should see to those missions?",
 						"englishNote" : ""
 					},
 					"12" : {
@@ -425,7 +425,7 @@
 						"japanese" : "任務報酬を整理したけど、これって大丈夫かしら…",
 						"japaneseTL" : "",
 						"japaneseNote" : "",
-						"english" : "",
+						"english" : "I sorted through the mission rewards, but I'm not sure I did it right...",
 						"englishNote" : ""
 					},
 					"13" : {
@@ -437,7 +437,7 @@
 						"japanese" : "メール…内容はどう？指揮官への罷免もありえる……かしら？",
 						"japaneseTL" : "",
 						"japaneseNote" : "",
-						"english" : "",
+						"english" : "Mail call? I wonder what it is? Could it be your dismissal?",
 						"englishNote" : ""
 					},
 					"14" : {
@@ -449,7 +449,7 @@
 						"japanese" : "指揮官、帰還お疲れ様。戦闘…楽しかった？",
 						"japaneseTL" : "",
 						"japaneseNote" : "",
-						"english" : "",
+						"english" : "Welcome back, Commander. Did you have a good fight?",
 						"englishNote" : ""
 					},
 					"15" : {
@@ -461,7 +461,7 @@
 						"japanese" : "あっ、指揮官、今のは委託から戻ってきたみんなかな",
 						"japaneseTL" : "",
 						"japaneseNote" : "",
-						"english" : "",
+						"english" : "Ah! Commander, I think the commission team is back.",
 						"englishNote" : ""
 					},
 					"16" : {
@@ -473,7 +473,7 @@
 						"japanese" : "指揮官、私、もっと強くなった？",
 						"japaneseTL" : "",
 						"japaneseNote" : "",
-						"english" : "",
+						"english" : "Commander, have I really grown stronger?",
 						"englishNote" : ""
 					},
 					"17" : {
@@ -485,7 +485,7 @@
 						"japanese" : "敵には、情けも手加減も不要…",
 						"japaneseTL" : "",
 						"japaneseNote" : "",
-						"english" : "",
+						"english" : "Show them neither mercy nor pity...",
 						"englishNote" : ""
 					},
 					"18" : {
@@ -497,7 +497,7 @@
 						"japanese" : "木っ端微塵…一隻残らず、尽く滅ぼした",
 						"japaneseTL" : "",
 						"japaneseNote" : "",
-						"english" : "",
+						"english" : "They're a fleet of smouldering hulks... Not a single one left afloat.",
 						"englishNote" : ""
 					},
 					"19" : {
@@ -509,7 +509,7 @@
 						"japanese" : "負けた……いいえ、このままでは……",
 						"japaneseTL" : "",
 						"japaneseNote" : "",
-						"english" : "",
+						"english" : "I failed... No, it can't be...",
 						"englishNote" : ""
 					},
 					"20" : {
@@ -521,7 +521,7 @@
 						"japanese" : "全て、滅ぼす",
 						"japaneseTL" : "",
 						"japaneseNote" : "",
-						"english" : "",
+						"english" : "Wipe them out.",
 						"englishNote" : ""
 					},
 					"21" : {
@@ -533,7 +533,7 @@
 						"japanese" : "戦い続ける？それとも撤退する？",
 						"japaneseTL" : "",
 						"japaneseNote" : "",
-						"english" : "",
+						"english" : "Do I carry on? Or do I retreat?",
 						"englishNote" : ""
 					},
 					"22" : {
@@ -545,7 +545,7 @@
 						"japanese" : "指揮官、貴方も……敵？",
 						"japaneseTL" : "",
 						"japaneseNote" : "",
-						"english" : "",
+						"english" : "Commander, are you my... enemy?",
 						"englishNote" : ""
 					},
 					"23" : {
@@ -557,7 +557,7 @@
 						"japanese" : "指揮官、私になにか任せて？なんでもいいから",
 						"japaneseTL" : "",
 						"japaneseNote" : "",
-						"english" : "",
+						"english" : "Commander, do you have something for me? I'm sure I can handle it.",
 						"englishNote" : ""
 					},
 					"24" : {
@@ -569,7 +569,7 @@
 						"japanese" : "指揮官、ずっと笑っているのはどうして？なにか楽しいことでもあった？私にも聞かせて？",
 						"japaneseTL" : "",
 						"japaneseNote" : "",
-						"english" : "",
+						"english" : "Commander, why are you laughing? Did something funny happen? Won't you please tell me too?",
 						"englishNote" : ""
 					},
 					"25" : {
@@ -581,7 +581,7 @@
 						"japanese" : "指揮官は優しい子が好きなのね。ええと……んん……こうして貴方に抱きついていると、私、もっと優しい子に見えるのかな",
 						"japaneseTL" : "",
 						"japaneseNote" : "",
-						"english" : "",
+						"english" : "You like sweet girls, do you, Commander? Well... hrrmm... What if I were to hug you like this? Would that make me seem sweeter?",
 						"englishNote" : ""
 					},
 					"26" : {
@@ -593,7 +593,7 @@
 						"japanese" : "私、指揮官にとって大切な人かしら…じゃあ私、何をすればいい？今よりもっと優しくしたほうがいい…かな",
 						"japaneseTL" : "",
 						"japaneseNote" : "",
-						"english" : "",
+						"english" : "I'm very important to you, am I, Commander? ... Now what am I supposed to do with that? Treat you even sweeter than I do now?",
 						"englishNote" : ""
 					},
 					"27" : {
@@ -605,7 +605,7 @@
 						"japanese" : "貴方に大切にされるこの居心地の良さ、包まれているような温もり……これが幸せということなら、指揮官、お願い…私を…もっと、もっと幸せにして……",
 						"japaneseTL" : "",
 						"japaneseNote" : "",
-						"english" : "",
+						"english" : "The way you treasure me gives me such warmth and solace... This is what true happiness is, isn't it? Commander, please, I beg you, let us share in even more happiness...",
 						"englishNote" : ""
 					},
 					"28" : {
@@ -617,7 +617,7 @@
 						"japanese" : "また同じチームね",
 						"japaneseTL" : "",
 						"japaneseNote" : "",
-						"english" : "",
+						"english" : "Once more, altogether then.",
 						"englishNote" : ""
 					},
 					"29" : {
