@@ -917,10 +917,10 @@
 						"chinese": "喂——看这边看这边！嘿嘿，能在学园里遇到指挥官真巧呢~指挥官这是要去哪里呀？",
 						"chineseTL": "",
 						"chineseNote": "",
-						"japanese": "",
+						"japanese": "おーい！指揮官、こっちこっち！えへへ、まさか学園で会えるなんて～指揮官は今何をしていますか？",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Hey! Over here! Hehe. I didn't expect to run into you at school, Commander. What are you doing here?",
 						"englishNote": ""
 					},
 					"3": {
@@ -929,10 +929,10 @@
 						"chinese": "今天的校园生活也要加油！",
 						"chineseTL": "",
 						"chineseNote": "",
-						"japanese": "",
+						"japanese": "今日も学園生活、がんばりますよー！",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "I'll be bringing the heat at school today!",
 						"englishNote": ""
 					},
 					"4": {
@@ -941,46 +941,82 @@
 						"chinese": "说到校园生活，那一定就是迎着阳光在操场上奔跑了，对吧！",
 						"chineseTL": "",
 						"chineseNote": "",
-						"japanese": "",
+						"japanese": "学園生活と言えば、お日様に向かって運動場を走れー！ってことでしょう？",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "School life is all about running track under the warm sun, am I right!?",
 						"englishNote": ""
 					},
-					"5": {
+					"5" : {
+						"event" : "Main 1",
+						"media" : "main_1_2",
+						"chinese" : "指挥官，多安排一些体育课嘛！那……那当然是因为运动很重要啦！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "指揮官、体育の授業をもうちょっと増やしてもいいですよ？……う、運動も大事じゃありませんか！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Commander, you should get us some more phys ed classes! I mean... exercise is really important!",
+						"englishNote" : ""
+					},
+					"6" : {
+						"event" : "Main 2",
+						"media" : "main_2_2",
+						"chinese" : "休息的时候，听点音乐能让人心情更舒畅！指挥官，你要一起吗？",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "休み時間は音楽を聞くと気持ちも楽になりますね！指揮官も一緒にどうですか？",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Listening to music is a real good way to calm your mind when you wanna relax! Let's listen together, Commander.",
+						"englishNote" : ""
+					},
+					"7" : {
+						"event" : "Main 3",
+						"media" : "main_3_2",
+						"chinese" : "诶？福尔班又拿着学习资料来了吗？有，有没有地方能藏一下——",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "え！フォルバンまた参考書を持って私を探してるのですか！？ど、どこか隠れる場所を探さないと――！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Huh? Forbin's heading this way with a pile of notebooks? Um, is there a good hiding place around here—",
+						"englishNote" : ""
+					},
+					"8": {
 						"event": "Touch",
 						"media": "touch_1_2",
 						"chinese": "再大的风我也不怕！",
 						"chineseTL": "",
 						"chineseNote": "",
-						"japanese": "",
+						"japanese": "指揮官、体育の授業をもうちょっと増やしてもいいですよ？……う、運動も大事じゃありませんか！",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Commander, you should get us some more phys ed classes! I mean... exercise is really important!",
 						"englishNote": ""
 					},
-					"6": {
+					"9": {
 						"event": "Touch (Special)",
 						"media": "touch_2_2",
 						"chinese": "我现在不需要按摩啦……",
 						"chineseTL": "",
 						"chineseNote": "",
-						"japanese": "",
+						"japanese": "休み時間は音楽を聞くと気持ちも楽になりますね！指揮官も一緒にどうですか？",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Listening to music is a real good way to calm your mind when you wanna relax! Let's listen together, Commander.",
 						"englishNote": ""
 					},
-					"7": {
+					"10": {
 						"event": "Return to Port",
 						"media": "home_2",
 						"chinese": "不，不行了……课本上的东西完全看不进去……",
 						"chineseTL": "",
 						"chineseNote": "",
-						"japanese": "",
+						"japanese": "え！フォルバンまた参考書を持って私を探してるのですか！？ど、どこか隠れる場所を探さないと――！",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Huh? Forbin's heading this way with a pile of notebooks? Um, is there a good hiding place around here—",
 						"englishNote": ""
 					}
 				}
@@ -1113,19 +1149,6 @@
 				}
 			}
 		}
-	},
-	"fleet_tech": {
-		"pt_get": "8",
-		"add_get_attr": "HP",
-		"add_get_value": "1",
-		"add_get_shiptype": "Destroyer",
-		"pt_upgrade": "18",
-		"pt_level": "14",
-		"add_level_attr": "Evasion",
-		"add_level_value": "1",
-		"add_level_shiptype": "Destroyer",
-		"t_level": "4",
-		"ships": "forbin,le_mars"
 	},
 	"fleet_tech": {
 		"pt_get": "8",
