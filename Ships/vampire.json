@@ -1,221 +1,258 @@
 {
-	"name_reference": "vampire",
-	"cn_reference": "xixuegui",
-	"nameJP": "ヴァンパイア",
-	"nameCN": "吸血鬼",
-	"ID": "103",
-	"name": "Vampire",
-	"internal_id": "201231",
-	"rarity": "Elite",
-	"initialStar": "★★☆☆☆",
-	"hull": "Destroyer",
-	"navy": "Royal Navy",
-	"prefix": "HMS",
-	"buildTime": "",
-	"class": "V-Class",
-	"voiceActress": "Rie Kugimiya",
+	"name_reference" : "vampire",
+	"cn_reference" : "xixuegui",
+	"nameJP" : "ヴァンパイア",
+	"nameCN" : "吸血鬼",
+	"ID" : "103",
+	"name" : "Vampire",
+	"internal_id" : "201231",
+	"rarity" : "Elite",
+	"initialStar" : "★★☆☆☆",
+	"hull" : "Destroyer",
+	"navy" : "Royal Navy",
+	"prefix" : "HMS",
+	"buildTime" : "00:18:00",
+	"voiceActress" : "Rie Kugimiya",
 	"parameters": {
-		"firepower": "D",
-		"torpedo": "B",
-		"aviation": "E",
-		"evasion": "B",
-		"antiAir": "D",
-		"hp": "D"
+		"firepower" : "D",
+		"torpedo" : "B",
+		"aviation" : "E",
+		"evasion" : "B",
+		"antiAir" : "D",
+		"hp" : "D"
 	},
 	"scrap": {
-		"gold": "4",
-		"oil": "3",
-		"medal": "4"
+		"gold" : "4",
+		"oil" : "3",
+		"medal" : "4"
 	},
 	"releaseDate": {
-		"JP": "",
-		"CN": "",
-		"KR": "",
-		"EN": ""
+		"JP" : "",
+		"CN" : "",
+		"KR" : "",
+		"EN" : ""
 	},
 	"artist": {
-		"name": "",
-		"weibo": "",
-		"twitter": "",
-		"pixiv": "",
-		"other": ""
+		"name" : "Saru(猴妈)",
+		"weibo" : "http://weibo.com/p/1005051054234800",
+		"twitter" : "https://twitter.com/saru_1127",
+		"pixiv" : "https://www.pixiv.net/member.php?id=1422579",
+		"other" : ""
 	},
+	"class" : "V-Class",
 	"enhance": {
-		"firepower": "4",
-		"torpedo": "23",
-		"aviation": "0",
-		"reload": "14"
+		"firepower" : "4",
+		"torpedo" : "23",
+		"aviation" : "0",
+		"reload" : "14"
 	},
-	"acquisitionMethod": "Event: Z Force",
+	"acquisitionMethod" : "Event: Z Force",
 	"skill": {
-		"1": {
-			"icon": "10580",
-			"requirement": "",
-			"name": "Vampire's Kiss",
-			"type": "Defensive",
-			"description": "Every $1s: fires 3 special torpedoes that heal this ship for 20.0% of the DMG they deal."
+		"1" : {
+			"icon" : "10580",
+			"requirement" : "Default Unlocked",
+			"name" : "Vampire's Kiss",
+			"type" : "Defensive",
+			"description" : "Every 35(25)s: fires 3 special torpedoes that heal this ship for 20.0% of the DMG dealt."
 		},
-		"2": {
-			"icon": "29091",
-			"requirement": "",
-			"name": "EX Barrage: Vampire Ⅰ",
-			"type": "Offensive",
-			"description": "Activate EX Barrage: Vampire Ⅰ once every 15 times the main gun is fired."
+		"2" : {
+			"icon" : "29091",
+			"requirement" : "Limit Break I (III)",
+			"name" : "All Out Assault Ⅰ",
+			"type" : "Offensive",
+			"description" : "Activates All Out Assault Ⅰ: Vampire once every 15 times the Main Guns are fired."
 		}
 	},
 	"skin": {
-		"1": {
-			"id": "xixuegui",
-			"name": "Vampire",
-			"description": "V-class destroyer ー Vampire, Hull Number D68!",
-			"expression": {
-				"0": {
-					"id": "0"
+		"1" : {
+			"id" : "xixuegui",
+			"name" : "Vampire",
+			"description" : "V-class destroyer ー Vampire, Hull Number D68!",
+			"expression" : {
+				"0" : {
+					"id" : "0"
 				}
 			}
 		},
-		"2": {
-			"id": "xixuegui_2",
-			"name": "The Breath of Spring ",
-			"description": "What do you think of my new outfit? You love it? Or just like it? Haha, your answer is written right on your face. Next... wait, wait, wait! I haven't put my socks on yet!",
-			"expression": {
-				"0": {
-					"id": "0"
+		"2" : {
+			"id" : "xixuegui_2",
+			"name" : "The Breath of Spring ",
+			"description" : "What do you think of my new outfit? You love it? Or just like it? Haha, your answer is written right on your face. Next... wait, wait, wait! I haven't put my socks on yet!",
+			"expression" : {
+				"0" : {
+					"id" : "0"
 				}
 			}
 		},
-		"3": {
-			"id": "xixuegui_3",
-			"name": "Little Devil in White ",
-			"description": "Commander, I am now a nurse, so thou hast no choice but to give me thy blood~! Hehe, just kidding~! ",
-			"expression": {
-				"0": {
-					"id": "0"
+		"3" : {
+			"id" : "xixuegui_3",
+			"name" : "Little Devil in White ",
+			"description" : "Commander, I am now a nurse, so thou hast no choice but to give me thy blood~! Hehe, just kidding~! ",
+			"expression" : {
+				"0" : {
+					"id" : "0"
 				},
-				"1": {
-					"id": "1"
+				"1" : {
+					"id" : "1"
 				},
-				"2": {
-					"id": "2"
+				"2" : {
+					"id" : "2"
 				},
-				"3": {
-					"id": "3"
+				"3" : {
+					"id" : "3"
 				}
 			}
 		},
-		"4": {
-			"id": "xixuegui_h",
-			"name": "Eloi's Blessing",
-			"description": "Those who fall in love with vampires are bound to suffer seven times more than their infatuation. After all, love is a poison which leads to death.",
-			"expression": {
-				"0": {
-					"id": "0"
+		"4" : {
+			"id" : "xixuegui_4",
+			"name" : "Night Princess's Regalia",
+			"description" : "Commander, thou promised to go to the festival with me, right? If thou forgot, I shall have to give thee a nibble upon the neck, ehehe~",
+			"expression" : {
+				"0" : {
+					"id" : "0"
+				},
+				"1" : {
+					"id" : "1"
+				},
+				"2" : {
+					"id" : "2"
+				},
+				"3" : {
+					"id" : "3"
+				},
+				"4" : {
+					"id" : "4"
+				},
+				"5" : {
+					"id" : "5"
+				},
+				"6" : {
+					"id" : "6"
+				},
+				"7" : {
+					"id" : "7"
+				},
+				"8" : {
+					"id" : "8"
+				},
+				"9" : {
+					"id" : "9"
+				}
+			}
+		},
+		"5" : {
+			"id" : "xixuegui_h",
+			"name" : "Eloi's Blessing",
+			"description" : "Those who fall in love with vampires are bound to suffer seven times more than their infatuation. After all, love is a poison which leads to death.",
+			"expression" : {
+				"0" : {
+					"id" : "0"
 				}
 			}
 		}
 	},
 	"defaultEquipment": {
-		"1": {
-			"icon": "21000",
-			"rarity": "",
-			"name": "Single 102mm Auxiliary Gun"
+		"1" : {
+			"icon" : "21000",
+			"rarity" : "",
+			"name" : "Single 102mm Auxiliary Gun"
 		},
-		"2": {
-			"icon": "5000",
-			"rarity": "",
-			"name": "Triple 533mm Torpedo"
+		"2" : {
+			"icon" : "5000",
+			"rarity" : "",
+			"name" : "Triple 533mm Torpedo"
 		},
-		"3": {
-			"icon": "",
-			"rarity": "",
-			"name": ""
+		"3" : {
+			"icon" : "",
+			"rarity" : "",
+			"name" : ""
 		}
 	},
 	"stats": {
+		"base": {
+			"hp" : "212",
+			"firepower" : "13",
+			"torpedo" : "71",
+			"antiAir" : "29",
+			"aviation" : "0",
+			"reload" : "72",
+			"hit" : "61",
+			"evasion" : "73",
+			"speed" : "40.8",
+			"luck" : "42",
+			"asw" : "51",
+			"oxygen" : "0",
+			"ammo" : "0",
+			"cost" : "2",
+			"armor" : "Light"
+		},
 		"100": {
-			"hp": "1095",
-			"firepower": "62",
-			"torpedo": "335",
-			"antiAir": "135",
-			"aviation": "0",
-			"reload": "171",
-			"hit": "159",
-			"evasion": "190",
-			"speed": "40.8",
-			"luck": "42",
-			"asw": "187",
-			"oxygen": "0",
-			"ammo": "0",
-			"cost": "9",
-			"armor": "Light"
+			"hp" : "1095",
+			"firepower" : "62",
+			"torpedo" : "335",
+			"antiAir" : "135",
+			"aviation" : "0",
+			"reload" : "171",
+			"hit" : "159",
+			"evasion" : "190",
+			"speed" : "40.8",
+			"luck" : "42",
+			"asw" : "187",
+			"oxygen" : "0",
+			"ammo" : "0",
+			"cost" : "9",
+			"armor" : "Light"
 		},
 		"120": {
-			"hp": "1314",
-			"firepower": "71",
-			"torpedo": "376",
-			"antiAir": "156",
-			"aviation": "0",
-			"reload": "196",
-			"hit": "167",
-			"evasion": "195",
-			"speed": "40.8",
-			"luck": "42",
-			"asw": "207",
-			"oxygen": "0",
-			"ammo": "0",
-			"cost": "9",
-			"armor": "Light"
-		},
-		"base": {
-			"hp": "212",
-			"firepower": "13",
-			"torpedo": "71",
-			"antiAir": "29",
-			"aviation": "0",
-			"reload": "72",
-			"hit": "61",
-			"evasion": "73",
-			"speed": "40.8",
-			"luck": "42",
-			"asw": "51",
-			"oxygen": "0",
-			"ammo": "0",
-			"cost": "2",
-			"armor": "Light"
+			"hp" : "1314",
+			"firepower" : "71",
+			"torpedo" : "376",
+			"antiAir" : "156",
+			"aviation" : "0",
+			"reload" : "196",
+			"hit" : "167",
+			"evasion" : "195",
+			"speed" : "40.8",
+			"luck" : "42",
+			"asw" : "207",
+			"oxygen" : "0",
+			"ammo" : "0",
+			"cost" : "9",
+			"armor" : "Light"
 		},
 		"100retrofit": {
-			"hp": "",
-			"firepower": "",
-			"torpedo": "",
-			"antiAir": "",
-			"aviation": "",
-			"reload": "",
-			"hit": "",
-			"evasion": "",
-			"speed": "40.8",
-			"luck": "42",
-			"asw": "",
-			"oxygen": "0",
-			"ammo": "0",
-			"cost": "9",
-			"armor": "Light"
+			"hp" : "",
+			"firepower" : "",
+			"torpedo" : "",
+			"antiAir" : "",
+			"aviation" : "",
+			"reload" : "",
+			"hit" : "",
+			"evasion" : "",
+			"speed" : "40.8",
+			"luck" : "42",
+			"asw" : "",
+			"oxygen" : "0",
+			"ammo" : "0",
+			"cost" : "9",
+			"armor" : "Light"
 		},
 		"120retrofit": {
-			"hp": "",
-			"firepower": "",
-			"torpedo": "",
-			"antiAir": "",
-			"aviation": "",
-			"reload": "",
-			"hit": "",
-			"evasion": "",
-			"speed": "40.8",
-			"luck": "42",
-			"asw": "",
-			"oxygen": "0",
-			"ammo": "0",
-			"cost": "9",
-			"armor": "Light"
+			"hp" : "",
+			"firepower" : "",
+			"torpedo" : "",
+			"antiAir" : "",
+			"aviation" : "",
+			"reload" : "",
+			"hit" : "",
+			"evasion" : "",
+			"speed" : "40.8",
+			"luck" : "42",
+			"asw" : "",
+			"oxygen" : "0",
+			"ammo" : "0",
+			"cost" : "9",
+			"armor" : "Light"
 		}
 	},
 	"limitBreak": {
@@ -243,17 +280,30 @@
 			"preload": "0/0/0/0"
 		},
 		"4": {
-			"type": "Auxiliary",
+			"type": "Auxilary",
 			"efficiency": "-",
 			"amount": "-",
 			"preload": "-"
 		},
 		"5": {
-			"type": "Auxiliary",
+			"type": "Auxilary",
 			"efficiency": "-",
 			"amount": "-",
 			"preload": "-"
 		}
+	},
+	"fleet_tech": {
+		"pt_get": "3",
+		"add_get_attr": "HP",
+		"add_get_value": "1",
+		"add_get_shiptype": "Destroyer",
+		"pt_upgrade": "6",
+		"pt_level": "4",
+		"add_level_attr": "Torpedo",
+		"add_level_value": "1",
+		"add_level_shiptype": "Destroyer",
+		"t_level": "1",
+		"ships": "vampire"
 	},
 	"build": {
 		"light": {
@@ -299,461 +349,497 @@
 	"lines": {
 		"skin": {
 			"1": {
-				"skin_id": "xixuegui",
-				"id": "0",
-				"label": "Vampire",
-				"dialogue": {
-					"1": {
-						"event": "Ship Description",
-						"media": "",
-						"chinese": "旧V级驱逐舰—吸血鬼，舷号D68",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "初代V級駆逐艦・ヴァンパイア（D68）",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "V-class destroyer ー Vampire, Hull Number D68!",
-						"englishNote": ""
+				"skin_id" : "xixuegui",
+				"id" : "0",
+				"label" : "Vampire",
+				"dialogue" : {
+					"1" : {
+						"event" : "Ship Description",
+						"media" : "",
+						"chinese" : "旧V级驱逐舰—吸血鬼，舷号D68",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "初代V級駆逐艦・ヴァンパイア（D68）",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "V-class destroyer ー Vampire, Hull Number D68!",
+						"englishNote" : ""
 					},
-					"2": {
-						"event": "Biography",
-						"media": "profile",
-						"chinese": "汝想知道些什么？人家是皇家“旧”v级驱逐舰吸血鬼，参与过许多护航和巡逻任务，也目睹了诸多同伴的沉亡……不，这次不会再见证失败了！奋战到底，然后一起痛饮敌人的鲜血吧！",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "汝が求める知識はなぁに？…私は王家の初代V級駆逐艦のヴァンパイアよ。護衛任務と哨戒任務、そして多くの仲間の轟沈するを目にしてきたの……次はもう失敗しないわ！最後まで戦い、共に敵の鮮血を飲み干そうではないか！",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "What is the knowledge you seek? ...I am the first V class destroyer of the royal family, the honorable Vampire. I was in escort and patrol missions, and I hath also witnessed the sinking of many allies... I will not fail come next time! Let us fight until the end, and drink the blood of our enemies dry together!",
-						"englishNote": ""
+					"2" : {
+						"event" : "Biography",
+						"media" : "profile",
+						"chinese" : "汝想知道些什么？人家是皇家“旧”v级驱逐舰吸血鬼，参与过许多护航和巡逻任务，也目睹了诸多同伴的沉亡……不，这次不会再见证失败了！奋战到底，然后一起痛饮敌人的鲜血吧！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "汝が求める知識はなぁに？…私は王家の初代V級駆逐艦のヴァンパイアよ。護衛任務と哨戒任務、そして多くの仲間の轟沈するを目にしてきたの……次はもう失敗しないわ！最後まで戦い、共に敵の鮮血を飲み干そうではないか！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "What is the knowledge you seek? ...I am the first V class destroyer of the royal family, the honorable Vampire. I was in escort and patrol missions, and I hath also witnessed the sinking of many allies... I will not fail come next time! Let us fight until the end, and drink the blood of our enemies dry together!",
+						"englishNote" : ""
 					},
-					"3": {
-						"event": "Acquisition",
-						"media": "get",
-						"chinese": "人家是V级吸血鬼号哦，汝的鲜血看起来十分美味呢——说回来，汝就这么喜欢盯着人家的胖次看吗？",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "私はV級駆逐艦のヴァンパイア。汝の鮮血、美味しそうだわ！――そう言えば、汝はそんなにコレをじっと見つめるのが好きなの？",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "I am V class' destroyer, Vampire. Thine blood looks delectable! --That said, thou doth fancy to stare at mine spots, do you not?",
-						"englishNote": ""
+					"3" : {
+						"event" : "Acquisition",
+						"media" : "get",
+						"chinese" : "人家是V级吸血鬼号哦，汝的鲜血看起来十分美味呢——说回来，汝就这么喜欢盯着人家的胖次看吗？",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "私はV級駆逐艦のヴァンパイア。汝の鮮血、美味しそうだわ！――そう言えば、汝はそんなにコレをじっと見つめるのが好きなの？",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "I am V class' destroyer, Vampire. Thine blood looks delectable! --That said, thou doth fancy to stare at mine spots, do you not?",
+						"englishNote" : ""
 					},
-					"4": {
-						"event": "Login",
-						"media": "login",
-						"chinese": "今天人家穿了什么颜色的胖次…想要知道吗？",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "今日はどんな色のを履いているか…知りたい？",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "Perhaps thou wish to inquire what color I adorn myself with today?",
-						"englishNote": ""
+					"4" : {
+						"event" : "Login",
+						"media" : "login",
+						"chinese" : "今天人家穿了什么颜色的胖次…想要知道吗？",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "今日はどんな色のを履いているか…知りたい？",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Perhaps thou wish to inquire what color I adorn myself with today?",
+						"englishNote" : ""
 					},
-					"5": {
-						"event": "Details",
-						"media": "detail",
-						"chinese": "怎么？对驱逐舰也会有什么奇怪的想法吗？",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "なぁに？駆逐艦にも変なことを考えてるの？",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "What? Dost thou have strange thoughts concerning destroyers?",
-						"englishNote": ""
+					"5" : {
+						"event" : "Details",
+						"media" : "detail",
+						"chinese" : "怎么？对驱逐舰也会有什么奇怪的想法吗？",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "なぁに？駆逐艦にも変なことを考えてるの？",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "What? Dost thou have strange thoughts concerning destroyers?",
+						"englishNote" : ""
 					},
-					"6": {
-						"event": "Main 1",
-						"media": "main_1",
-						"chinese": "好无聊……阅读？没办法的啦",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "暇……消灯したら寝る以外やることないもん",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "I'm bored... There is nothing to do after the lights are out",
-						"englishNote": ""
+					"6" : {
+						"event" : "Main 1",
+						"media" : "main_1",
+						"chinese" : "好无聊……阅读？没办法的啦",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "暇……消灯したら寝る以外やることないもん",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "I'm bored... There is nothing to do after the lights are out",
+						"englishNote" : ""
 					},
-					"7": {
-						"event": "Main 2",
-						"media": "main_2",
-						"chinese": "喂喂，我们去做些快乐的事吧",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "ねえねえ～楽しいことでもしよ？",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "Hey, hey~ How about let's do something exciting?",
-						"englishNote": ""
+					"7" : {
+						"event" : "Main 2",
+						"media" : "main_2",
+						"chinese" : "喂喂，我们去做些快乐的事吧",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "ねえねえ～楽しいことでもしよ？",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Hey, hey~ How about let's do something exciting?",
+						"englishNote" : ""
 					},
-					"8": {
-						"event": "Main 3",
-						"media": "main_3",
-						"chinese": "太平洋风平浪静？不，人家可不这样觉得",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "南太平洋が平穏？いいえ、私はそう思わないけど？",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "The Pacific is calm on this night? Well, that's not the case, I think?",
-						"englishNote": ""
+					"8" : {
+						"event" : "Main 3",
+						"media" : "main_3",
+						"chinese" : "太平洋风平浪静？不，人家可不这样觉得",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "南太平洋が平穏？いいえ、私はそう思わないけど？",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "The Pacific is calm on this night? Well, that's not the case, I think?",
+						"englishNote" : ""
 					},
-					"9": {
-						"event": "Touch",
-						"media": "touch_1",
-						"chinese": "诶！笨蛋！色狼！萝莉控！",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "どこを触ってるの？…もうおしまい？ふふふ、この意気地なしめ～",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "Where art thou touching? It is much better over there ...Done already? Hehehe, such a half-heart~",
-						"englishNote": ""
+					"9" : {
+						"event" : "Touch",
+						"media" : "touch_1",
+						"chinese" : "诶！笨蛋！色狼！萝莉控！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "どこを触ってるの？…もうおしまい？ふふふ、この意気地なしめ～",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Where art thou touching? It is much better over there ...Done already? Hehehe, such a half-heart~",
+						"englishNote" : ""
 					},
-					"10": {
-						"event": "Touch (Special)",
-						"media": "touch_2",
-						"chinese": "诶！笨蛋！色狼！萝莉控！",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "え…このバカ！変態！ロリコン！",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "Eh... You idiot! Pervert!",
-						"englishNote": ""
+					"10" : {
+						"event" : "Touch (Special)",
+						"media" : "touch_2",
+						"chinese" : "诶！笨蛋！色狼！萝莉控！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "え…このバカ！変態！ロリコン！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Eh... You idiot! Pervert!",
+						"englishNote" : ""
 					},
-					"11": {
-						"event": "Touch (Head)",
-						"media": "touch_head",
-						"chinese": "你当人家还是小孩子吗？……痒痒的，诶，这就结束了？",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "人を子供だと思ってるの？……くすぐったい～あ、あれ？もうおわり？",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "Art thou treating me as a child? ... It tickles~ Wh-what? Over already?",
-						"englishNote": ""
+					"11" : {
+						"event" : "Rub",
+						"media" : "touch_head",
+						"chinese" : "你当人家还是小孩子吗？……痒痒的，诶，这就结束了？",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "人を子供だと思ってるの？……くすぐったい～あ、あれ？もうおわり？",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Art thou treating me as a child? ... It tickles~ Wh-what? Over already?",
+						"englishNote" : ""
 					},
-					"12": {
-						"event": "Mission",
-						"media": "task",
-						"chinese": "你是工作狂吗？什么，人家也要去？",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "任務。汝、ワーカホリックなのかしら。え、私も行くの！？",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "Missions. One wonders if thou art a workaholic. What? I hast emark on a journey as well?",
-						"englishNote": ""
+					"12" : {
+						"event" : "Mission",
+						"media" : "task",
+						"chinese" : "你是工作狂吗？什么，人家也要去？",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "任務。汝、ワーカホリックなのかしら。え、私も行くの！？",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Missions. One wonders if thou art a workaholic. What? I hast emark on a journey as well?",
+						"englishNote" : ""
 					},
-					"13": {
-						"event": "Mission Complete",
-						"media": "mission_complete",
-						"chinese": "呼……可以稍微休息一下了，不知道会有什么奖励呢~",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "ふあ……ようやく休めるようね。ご褒美はどんなものかしら~",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "Phew... Finally, bedrest. I do wonder what the rewards can be~",
-						"englishNote": ""
+					"13" : {
+						"event" : "Mission Complete",
+						"media" : "mission_complete",
+						"chinese" : "呼……可以稍微休息一下了，不知道会有什么奖励呢~",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "ふあ……ようやく休めるようね。ご褒美はどんなものかしら~",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Phew... Finally, bedrest. I do wonder what the rewards can be~",
+						"englishNote" : ""
 					},
-					"14": {
-						"event": "Mail",
-						"media": "mail",
-						"chinese": "有新邮件，是什么呢？",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "新しいメールよ。どんなものかしら？",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "New postage? What secrets does this envelope contain?",
-						"englishNote": ""
+					"14" : {
+						"event" : "Mail",
+						"media" : "mail",
+						"chinese" : "有新邮件，是什么呢？",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "新しいメールよ。どんなものかしら？",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "New postage? What secrets does this envelope contain?",
+						"englishNote" : ""
 					},
-					"15": {
-						"event": "Return to Port",
-						"media": "home",
-						"chinese": "洗澡！然后进餐！咦，人家的葡萄酒呢？",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "お風呂！ディナー！…あれ？ワインはどこに置いてあったっけ…",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "Bathtime! Dinner! ...Huh? Where's the wine again?",
-						"englishNote": ""
+					"15" : {
+						"event" : "Return to Port",
+						"media" : "home",
+						"chinese" : "洗澡！然后进餐！咦，人家的葡萄酒呢？",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "お風呂！ディナー！…あれ？ワインはどこに置いてあったっけ…",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Bathtime! Dinner! ...Huh? Where's the wine again?",
+						"englishNote" : ""
 					},
-					"16": {
-						"event": "Commission Complete",
-						"media": "expedition",
-						"chinese": "有人回来了！有没有给人家带葡萄酒啊？",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "誰かが帰ってきたわ！ワインの差し入れはあるのかしら？",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "A lady approaches on the horizon? Is there wine in thier coffers?",
-						"englishNote": ""
+					"16" : {
+						"event" : "Commission Complete",
+						"media" : "expedition",
+						"chinese" : "有人回来了！有没有给人家带葡萄酒啊？",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "誰かが帰ってきたわ！ワインの差し入れはあるのかしら？",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "A lady approaches on the horizon? Is there wine in thier coffers?",
+						"englishNote" : ""
 					},
-					"17": {
-						"event": "Enhancement",
-						"media": "upgrade",
-						"chinese": "胸部好像又大了一点呢——什么你说没有？",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "ここが少し大きくなったかなーーえ？変わっていないって？",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "Perhaps I've grown a little bigger here --What? Are thou implying nothing has changed?",
-						"englishNote": ""
+					"17" : {
+						"event" : "Enhancement",
+						"media" : "upgrade",
+						"chinese" : "胸部好像又大了一点呢——什么你说没有？",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "ここが少し大きくなったかなーーえ？変わっていないって？",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Perhaps I've grown a little bigger here --What? Are thou implying nothing has changed?",
+						"englishNote" : ""
 					},
-					"18": {
-						"event": "Flagship",
-						"media": "warcry",
-						"chinese": "嚯嚯嚯，盛宴拉开帷幕了！",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "おーほっほっほ！狂宴のはじまりよ！",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "Oh ho ho ho! Let the banquet begin!",
-						"englishNote": ""
+					"18" : {
+						"event" : "Flagship",
+						"media" : "warcry",
+						"chinese" : "嚯嚯嚯，盛宴拉开帷幕了！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "おーほっほっほ！狂宴のはじまりよ！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Oh ho ho ho! Let the banquet begin!",
+						"englishNote" : ""
 					},
-					"19": {
-						"event": "Victory",
-						"media": "mvp",
-						"chinese": "看吧，这就是人家（吸血鬼）的实力！什么，奖励中没有葡萄酒？",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "見るがいい！これぞ私の実力よ！え！褒賞にワインが入ってないの！？",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "Beholdeth my power! What! There's no wine among the rewards?!",
-						"englishNote": ""
+					"19" : {
+						"event" : "Victory",
+						"media" : "mvp",
+						"chinese" : "看吧，这就是人家（吸血鬼）的实力！什么，奖励中没有葡萄酒？",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "見るがいい！これぞ私の実力よ！え！褒賞にワインが入ってないの！？",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Beholdeth my power! What! There's no wine among the rewards?!",
+						"englishNote" : ""
 					},
-					"20": {
-						"event": "Defeat",
-						"media": "lose",
-						"chinese": "啊……飞机什么的最讨厌了！可恶，吸血鬼是不会死的",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "うぅ……飛行機なんて大っ嫌い！う、ヴァンパイアは死なないのよ！",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "Ugh... I hate planes! I, Vampire, will not die!",
-						"englishNote": ""
+					"20" : {
+						"event" : "Defeat",
+						"media" : "lose",
+						"chinese" : "啊……飞机什么的最讨厌了！可恶，吸血鬼是不会死的",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "うぅ……飛行機なんて大っ嫌い！う、ヴァンパイアは死なないのよ！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Ugh... I hate planes! I, Vampire, will not die!",
+						"englishNote" : ""
 					},
-					"21": {
-						"event": "Skill",
-						"media": "skill",
-						"chinese": "奉上鲜血与恐惧吧！",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "鮮血と恐怖をよこしなさい！",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "Give me your blood and fear!",
-						"englishNote": ""
+					"21" : {
+						"event" : "Skill",
+						"media" : "skill",
+						"chinese" : "奉上鲜血与恐惧吧！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "鮮血と恐怖をよこしなさい！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Give me your blood and fear!",
+						"englishNote" : ""
 					},
-					"22": {
-						"event": "Low HP",
-						"media": "hp",
-						"chinese": "可恶，我需要更多的鲜血！",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "ちぃ、私にもっと鮮血を！",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "Tsk. I need more blood!",
-						"englishNote": ""
+					"22" : {
+						"event" : "Low HP",
+						"media" : "hp",
+						"chinese" : "可恶，我需要更多的鲜血！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "ちぃ、私にもっと鮮血を！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Tsk. I need more blood!",
+						"englishNote" : ""
 					},
-					"23": {
-						"event": "Affinity (Upset)",
-						"media": "feeling1",
-						"chinese": "哼，愚笨的下仆只配舔我的脚",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "ふん、愚かな人間は私の足を舐めるのに相応しいわ",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "Hmph. Licking my feet is suitable for foolish humans.",
-						"englishNote": ""
+					"23" : {
+						"event" : "Affinity (Upset)",
+						"media" : "feeling1",
+						"chinese" : "哼，愚笨的下仆只配舔我的脚",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "ふん、愚かな人間は私の足を舐めるのに相応しいわ",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Hmph. Licking my feet is suitable for foolish humans.",
+						"englishNote" : ""
 					},
-					"24": {
-						"event": "Affinity (Stranger)",
-						"media": "feeling2",
-						"chinese": "怎么？就这么想看人家的胖次吗？好啦，就勉为其难地告诉你，今天——是黑色哦",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "なに？私のコレをそんなにみたい？うふふ、じゃあ、ありがた～く教えてあげる。今日は～「黒」だよ～",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "What is it? Thou wills to see mine garmets that greatly? Hehe, then I tell you, today's color is~ black~",
-						"englishNote": ""
+					"24" : {
+						"event" : "Affinity (Stranger)",
+						"media" : "feeling2",
+						"chinese" : "怎么？就这么想看人家的胖次吗？好啦，就勉为其难地告诉你，今天——是黑色哦",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "なに？私のコレをそんなにみたい？うふふ、じゃあ、ありがた～く教えてあげる。今日は～「黒」だよ～",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "What is it? Thou wills to see mine garmets that greatly? Hehe, then I tell you, today's color is~ black~",
+						"englishNote" : ""
 					},
-					"25": {
-						"event": "Affinity (Friendly)",
-						"media": "feeling3",
-						"chinese": "呐，这么讨好人家，难道汝是萝莉控吗？真是禽兽呢。还要狡辩吗？床底下的H书，我可都翻过哦~",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "ねえ、こんなに媚びへつらって、汝はもしかしてロリコン？このケダモノ～まだ言い訳するの？ベッドの下の薄い本、全部読んだわよ～",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "Since thou are so allured by me, are thou perhaps a pervert? A beast. Seeking respite? More excuses? Lo, I've seen what's under thine bed and read them all",
-						"englishNote": ""
+					"25" : {
+						"event" : "Affinity (Friendly)",
+						"media" : "feeling3",
+						"chinese" : "呐，这么讨好人家，难道汝是萝莉控吗？真是禽兽呢。还要狡辩吗？床底下的H书，我可都翻过哦~",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "ねえ、こんなに媚びへつらって、汝はもしかしてロリコン？このケダモノ～まだ言い訳するの？ベッドの下の薄い本、全部読んだわよ～",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Since thou are so allured by me, are thou perhaps a pervert? A beast. Seeking respite? More excuses? Lo, I've seen what's under thine bed and read them all",
+						"englishNote" : ""
 					},
-					"26": {
-						"event": "Affinity (Like)",
-						"media": "feeling4",
-						"chinese": "别靠得这么近，不…人家也不是讨厌你，只是作为女孩的矜持啦！人家想葡萄酒了，快去拿！",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "そんなに近寄らないでよ！…べつに汝が嫌いになったわけじゃないけど、女の子には女の子のプライドがあるの！わ、ワインが飲みたくなったわ！早く持ってきなさい！",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "Do not get gammy with me! ...It is not that I hate you, but a lady must show her restraint! I-I now want to drink wine! Hurry up and fetch some to me!",
-						"englishNote": ""
+					"26" : {
+						"event" : "Affinity (Like)",
+						"media" : "feeling4",
+						"chinese" : "别靠得这么近，不…人家也不是讨厌你，只是作为女孩的矜持啦！人家想葡萄酒了，快去拿！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "そんなに近寄らないでよ！…べつに汝が嫌いになったわけじゃないけど、女の子には女の子のプライドがあるの！わ、ワインが飲みたくなったわ！早く持ってきなさい！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Do not get gammy with me! ...It is not that I hate you, but a lady must show her restraint! I-I now want to drink wine! Hurry up and fetch some to me!",
+						"englishNote" : ""
 					},
-					"27": {
-						"event": "Affinity (Love)",
-						"media": "feeling5",
-						"chinese": "这种心情真是奇怪……怎么，吸血鬼喜欢上人类很奇怪吗？高尚的人类是不会拒绝女孩子的请求的，对吧，呐",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "変な感じ……なによ、吸血鬼が人間を好きになるのってそんなにおかしいわけ？気高い人間は女の子からの誘いを断らないよね？そうでしょ？ねえ～",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "This be a strange feeling... What? Is it unnatural for a vampire to love a human? A noble human cannot refuse a lady's advances, right? Isn't that so? It is, right?",
-						"englishNote": ""
+					"27" : {
+						"event" : "Affinity (Love)",
+						"media" : "feeling5",
+						"chinese" : "这种心情真是奇怪……怎么，吸血鬼喜欢上人类很奇怪吗？高尚的人类是不会拒绝女孩子的请求的，对吧，呐",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "変な感じ……なによ、吸血鬼が人間を好きになるのってそんなにおかしいわけ？気高い人間は女の子からの誘いを断らないよね？そうでしょ？ねえ～",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "This be a strange feeling... What? Is it unnatural for a vampire to love a human? A noble human cannot refuse a lady's advances, right? Isn't that so? It is, right?",
+						"englishNote" : ""
 					},
-					"28": {
-						"event": "Pledge",
-						"media": "propose",
-						"chinese": "哼哼，你还真是不坦率……好啦，准备好收下我甜美的鲜血，迎接以罗伊的赐福吧",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "ふふん、汝って素直じゃないよね～はい、私の甘美なる鮮血を受け入れ、エロイの祝福を受けるよう準備しなさい～",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "Hmhm. Thou art insincere... So be it. Receive mine sweet blood, and be prepared to receive Eloi's most blessed of blessings~",
-						"englishNote": ""
+					"28" : {
+						"event" : "Pledge",
+						"media" : "propose",
+						"chinese" : "哼哼，你还真是不坦率……好啦，准备好收下我甜美的鲜血，迎接以罗伊的赐福吧",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "ふふん、汝って素直じゃないよね～はい、私の甘美なる鮮血を受け入れ、エロイの祝福を受けるよう準備しなさい～",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Hmhm. Thou art insincere... So be it. Receive mine sweet blood, and be prepared to receive Eloi's most blessed of blessings~",
+						"englishNote" : ""
+					},
+					"29" : {
+						"event" : "Like Present",
+						"media" : "present_like",
+						"chinese" : "",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"30" : {
+						"event" : "Dislike Present",
+						"media" : "present_dislike",
+						"chinese" : "",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"31" : {
+						"event" : "Main Title",
+						"media" : "extra",
+						"chinese" : "",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
 					}
 				}
 			},
 			"2": {
-				"skin_id": "xixuegui_2",
-				"id": "1",
-				"label": "The Breath of Spring ",
-				"dialogue": {
-					"1": {
-						"event": "Ship Description",
-						"media": "",
-						"chinese": "人家的新衣服怎么样？超喜欢？还是最喜欢？嘻嘻，答案都写在汝脸上了哟，接下来……等、等等！人家还没穿袜子呢——",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "この新しい衣装、どぉ？ダイスキ？ダイダイダイスキ？うふふ、顔に出てるわよ～で、次は……ま、待って！まだ靴下は履いていないのに――！",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "What dost thee think of my new dress? Like it? Or love it~? Eheh~ 'tis written all over thy face. Next is... w-wait! I haven't put on my stockings yet!",
-						"englishNote": ""
+				"skin_id" : "xixuegui_2",
+				"id" : "1",
+				"label" : "The Breath of Spring ",
+				"dialogue" : {
+					"1" : {
+						"event" : "Ship Description",
+						"media" : "",
+						"chinese" : "人家的新衣服怎么样？超喜欢？还是最喜欢？嘻嘻，答案都写在汝脸上了哟，接下来……等、等等！人家还没穿袜子呢——",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "この新しい衣装、どぉ？ダイスキ？ダイダイダイスキ？うふふ、顔に出てるわよ～で、次は……ま、待って！まだ靴下は履いていないのに――！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "What dost thee think of my new dress? Like it? Or love it~? Eheh~ 'tis written all over thy face. Next is... w-wait! I haven't put on my stockings yet!",
+						"englishNote" : ""
 					},
-					"2": {
-						"event": "Acquisition",
-						"media": "get_1",
-						"chinese": "人家的新衣服怎么样？超喜欢？还是最喜欢？嘻嘻，答案都写在汝脸上了哟，接下来……等、等等！人家还没穿袜子呢——",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "この新しい衣装、どぉ？ダイスキ？ダイダイダイスキ？うふふ、顔に出てるわよ～で、次は……ま、待って！まだ靴下は履いていないのに――！",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "What dost thee think of my new dress? Like it? Or love it~? Eheh~ 'tis written all over thy face. Next is... w-wait! I haven't put on my stockings yet!",
-						"englishNote": ""
+					"2" : {
+						"event" : "Acquisition",
+						"media" : "get_1",
+						"chinese" : "人家的新衣服怎么样？超喜欢？还是最喜欢？嘻嘻，答案都写在汝脸上了哟，接下来……等、等等！人家还没穿袜子呢——",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "この新しい衣装、どぉ？ダイスキ？ダイダイダイスキ？うふふ、顔に出てるわよ～で、次は……ま、待って！まだ靴下は履いていないのに――！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "What dost thee think of my new dress? Like it? Or love it~? Eheh~ 'tis written all over thy face. Next is... w-wait! I haven't put on my stockings yet!",
+						"englishNote" : ""
 					},
-					"3": {
-						"event": "Details",
-						"media": "detail_1",
-						"chinese": "指挥官，汝在盯着哪里看呢？胸部显小都是因为这身衣服的关系啦！",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "どこを見てるの？…！こ、これは着痩せなの！き・や・せ！",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "Commander, where art thee looking? ...! I-it's only because the dress is tight-fitting!",
-						"englishNote": ""
+					"3" : {
+						"event" : "Details",
+						"media" : "detail_1",
+						"chinese" : "指挥官，汝在盯着哪里看呢？胸部显小都是因为这身衣服的关系啦！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "どこを見てるの？…！こ、これは着痩せなの！き・や・せ！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Commander, where art thee looking? ...! I-it's only because the dress is tight-fitting!",
+						"englishNote" : ""
 					},
-					"4": {
-						"event": "Main 1",
-						"media": "main_1_1",
-						"chinese": "今天晚上，汝有安排吗？嘻嘻，人家有哦。人家晚上要和汝在一起，所以抽不开身去别的地方~",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "夜に予定あるの？うふふ、私はあるわ～汝にベッタリとくっついてーどこにも行かせないことだぞ～",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "Dost thee have plans for tonight? Ehehe, I do~ I plan to cling to thee all night so thee cannot go anywhere~ ",
-						"englishNote": ""
+					"4" : {
+						"event" : "Main 1",
+						"media" : "main_1_1",
+						"chinese" : "今天晚上，汝有安排吗？嘻嘻，人家有哦。人家晚上要和汝在一起，所以抽不开身去别的地方~",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "夜に予定あるの？うふふ、私はあるわ～汝にベッタリとくっついてーどこにも行かせないことだぞ～",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Dost thee have plans for tonight? Ehehe, I do~ I plan to cling to thee all night so thee cannot go anywhere~ ",
+						"englishNote" : ""
 					},
-					"5": {
-						"event": "Main 2",
-						"media": "main_2_1",
-						"chinese": "人家最喜欢的晚餐？嘻嘻，当然是吹灭了蜡烛的烛光晚餐~",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "ディナーはどんなのがいいって？うふふ、もちろん、キャンドルディナー！あ、最後は私がロウソクを消すのよ！",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "My favourite meal? Ehehe, obviously the one after I have blown out the candles~ ",
-						"englishNote": ""
+					"5" : {
+						"event" : "Main 2",
+						"media" : "main_2_1",
+						"chinese" : "人家最喜欢的晚餐？嘻嘻，当然是吹灭了蜡烛的烛光晚餐~",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "ディナーはどんなのがいいって？うふふ、もちろん、キャンドルディナー！あ、最後は私がロウソクを消すのよ！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "My favourite meal? Ehehe, obviously the one after I have blown out the candles~ ",
+						"englishNote" : ""
 					},
-					"6": {
-						"event": "Main 3",
-						"media": "main_3_1",
-						"chinese": "和喜欢的人，做愉快的事！",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "好きな人と～楽しいことやりたいな～",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "I wish to do fun things~ with the person I like~",
-						"englishNote": ""
+					"6" : {
+						"event" : "Main 3",
+						"media" : "main_3_1",
+						"chinese" : "和喜欢的人，做愉快的事！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "好きな人と～楽しいことやりたいな～",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "I wish to do fun things~ with the person I like~",
+						"englishNote" : ""
 					},
-					"7": {
-						"event": "Touch",
-						"media": "touch_1_1",
-						"chinese": "指挥官，人家摸起来舒服吗？冰肌玉骨……？嘻嘻~人家最喜欢油嘴滑舌的汝了",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "「氷肌玉骨」（ひょうきぎょっこつ）だって？汝のこういう口説き上手いなところが大好きよ♪",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "Commander, dost thee enjoy touching me? \"My skin is smooth and fair?\" Ehehe, I love thy sweet-talking~",
-						"englishNote": ""
+					"7" : {
+						"event" : "Touch",
+						"media" : "touch_1_1",
+						"chinese" : "指挥官，人家摸起来舒服吗？冰肌玉骨……？嘻嘻~人家最喜欢油嘴滑舌的汝了",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "「氷肌玉骨」（ひょうきぎょっこつ）だって？汝のこういう口説き上手いなところが大好きよ♪",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Commander, dost thee enjoy touching me? \"My skin is smooth and fair?\" Ehehe, I love thy sweet-talking~",
+						"englishNote" : ""
 					},
-					"8": {
-						"event": "Touch (Special)",
-						"media": "touch_2_1",
-						"chinese": "嘻嘻，指挥官是个只有我才会喜欢的无可救药的变态呢",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "うふふ、やっぱり指揮官は私がいないと…ヘンタイ♪",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "Ehehe, Commander is a pervert who only I could love~",
-						"englishNote": ""
+					"8" : {
+						"event" : "Touch (Special)",
+						"media" : "touch_2_1",
+						"chinese" : "嘻嘻，指挥官是个只有我才会喜欢的无可救药的变态呢",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "うふふ、やっぱり指揮官は私がいないと…ヘンタイ♪",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Ehehe, Commander is a pervert who only I could love~",
+						"englishNote" : ""
 					}
 				}
 			},
 			"3": {
-				"skin_id": "xixuegui_3",
-				"id": "2",
-				"label": "Little Devil in White ",
-				"dialogue": {
+				"skin_id" : "xixuegui_3",
+				"id" : "2",
+				"label" : "Little Devil in White ",
+				"dialogue" : {
 					"1" : {
 						"event" : "Ship Description",
 						"media" : "",
 						"chinese" : "指挥官，现在的人家是护士，所以人家要汝献出血液，汝就不能反抗哟~嘻嘻，开玩笑的",
-						"chineseTL" : "Commander, I'm a nurse, so I'm taking some of your blood. Please don't resist~ Hehe, just kidding.",
+						"chineseTL" : "",
 						"chineseNote" : "",
 						"japanese" : "指揮官、今の私はナース――つ・ま・り……おとなしく私にぃ～鮮血を差し出しなさいな～ふふふ、冗談よ～",
 						"japaneseTL" : "",
@@ -765,7 +851,7 @@
 						"event" : "Acquisition",
 						"media" : "get_2",
 						"chinese" : "指挥官，现在的人家是护士，所以人家要汝献出血液，汝就不能反抗哟~嘻嘻，开玩笑的",
-						"chineseTL" : "Commander, I'm a nurse, so I'm taking some of your blood. Please don't resist~ Hehe, just kidding.",
+						"chineseTL" : "",
 						"chineseNote" : "",
 						"japanese" : "",
 						"japaneseTL" : "",
@@ -777,7 +863,7 @@
 						"event" : "Details",
 						"media" : "detail_2",
 						"chinese" : "指挥官，想念人家无微不至的护理了吗~",
-						"chineseTL" : "Commander, did you miss my unyielding nursing?",
+						"chineseTL" : "",
 						"chineseNote" : "",
 						"japanese" : "",
 						"japaneseTL" : "",
@@ -786,10 +872,10 @@
 						"englishNote" : ""
 					},
 					"4" : {
-						"event" : "Main 1",
-						"media" : "main_1_2",
-						"chinese" : "指挥官，猜猜看，人家到~底有没有穿呢？",
-						"chineseTL" : "Commander, take a guess if I'm~ wearing~ anything~ underneath?",
+						"event" : "Touch",
+						"media" : "touch_1_2",
+						"chinese" : "话说，人家稍微检查了一下汝的身体，没想到汝还挺健康呢",
+						"chineseTL" : "",
 						"chineseNote" : "",
 						"japanese" : "",
 						"japaneseTL" : "",
@@ -798,10 +884,10 @@
 						"englishNote" : ""
 					},
 					"5" : {
-						"event" : "Main 2",
-						"media" : "main_2_2",
-						"chinese" : "指挥官，工作了这么久也该休息一下了哦，过来，人家帮你放松一下~",
-						"chineseTL" : "Commander, you should take a break from work. Come over and let me help you relax~",
+						"event" : "Touch (Special)",
+						"media" : "touch_2_2",
+						"chinese" : "呀！人、人家可是白衣天使，汝这变态！",
+						"chineseTL" : "",
 						"chineseNote" : "",
 						"japanese" : "",
 						"japaneseTL" : "",
@@ -810,10 +896,10 @@
 						"englishNote" : ""
 					},
 					"6" : {
-						"event" : "Main 3",
-						"media" : "main_3_2",
-						"chinese" : "诱惑汝和照顾汝明明一点也不矛盾，汝这个大笨蛋怎么就不明白呢",
-						"chineseTL" : "Fool, it's not contradictory to nurse and seduce you at the same time. Why can't you understand?",
+						"event" : "Return to Port",
+						"media" : "home_2",
+						"chinese" : "汝这笨蛋，别一副志得意满的样子，过来让人家看看有没有受伤",
+						"chineseTL" : "",
 						"chineseNote" : "",
 						"japanese" : "",
 						"japaneseTL" : "",
@@ -822,10 +908,10 @@
 						"englishNote" : ""
 					},
 					"7" : {
-						"event" : "Touch",
-						"media" : "touch_1_2",
-						"chinese" : "话说，人家稍微检查了一下汝的身体，没想到汝还挺健康呢",
-						"chineseTL" : "I gave your body a quick inspection, but I never expected it to be in such good shape.",
+						"event" : "Commission Complete",
+						"media" : "expedition_2",
+						"chinese" : "委托组的大家回来了啊，人家也去看看有没有受伤什么的好了",
+						"chineseTL" : "",
 						"chineseNote" : "",
 						"japanese" : "",
 						"japaneseTL" : "",
@@ -834,10 +920,10 @@
 						"englishNote" : ""
 					},
 					"8" : {
-						"event" : "Touch (Special)",
-						"media" : "touch_2_2",
-						"chinese" : "呀！人、人家可是白衣天使，汝这变态！",
-						"chineseTL" : "Ah! I-I'm an angel in white, you pervert!",
+						"event" : "Flagship",
+						"media" : "warcry_2",
+						"chinese" : "白衣吸血鬼可不会救助敌人哦~",
+						"chineseTL" : "",
 						"chineseNote" : "",
 						"japanese" : "",
 						"japaneseTL" : "",
@@ -846,10 +932,10 @@
 						"englishNote" : ""
 					},
 					"9" : {
-						"event" : "Return to Port",
-						"media" : "home_2",
-						"chinese" : "汝这笨蛋，别一副志得意满的样子，过来让人家看看有没有受伤",
-						"chineseTL" : "You fool, stop acting smug and let me check if you're hurt.",
+						"event" : "Victory",
+						"media" : "mvp_2",
+						"chinese" : "大家，受伤的话来我这里应急包扎一下哦~",
+						"chineseTL" : "",
 						"chineseNote" : "",
 						"japanese" : "",
 						"japaneseTL" : "",
@@ -858,46 +944,10 @@
 						"englishNote" : ""
 					},
 					"10" : {
-						"event" : "Commission Complete",
-						"media" : "expedition_2",
-						"chinese" : "委托组的大家回来了啊，人家也去看看有没有受伤什么的好了",
-						"chineseTL" : "The commission team is back, I'll go and see if there's any injuries.",
-						"chineseNote" : "",
-						"japanese" : "",
-						"japaneseTL" : "",
-						"japaneseNote" : "",
-						"english" : "",
-						"englishNote" : ""
-					},
-					"11" : {
-						"event" : "Flagship",
-						"media" : "warcry_2",
-						"chinese" : "白衣吸血鬼可不会救助敌人哦~",
-						"chineseTL" : "Don't expect vampires in white to save enemies~",
-						"chineseNote" : "",
-						"japanese" : "",
-						"japaneseTL" : "",
-						"japaneseNote" : "",
-						"english" : "",
-						"englishNote" : ""
-					},
-					"12" : {
-						"event" : "Victory",
-						"media" : "mvp_2",
-						"chinese" : "大家，受伤的话来我这里应急包扎一下哦~",
-						"chineseTL" : "Come to me if you're injured for an emergency bandaging.",
-						"chineseNote" : "",
-						"japanese" : "",
-						"japaneseTL" : "",
-						"japaneseNote" : "",
-						"english" : "",
-						"englishNote" : ""
-					},
-					"13" : {
 						"event" : "Affinity (Love)",
 						"media" : "feeling5_2",
 						"chinese" : "指挥官，别人的鲜血人家不管，但是汝的鲜血只有得到人家的允许才能流，知道了吗~",
-						"chineseTL" : "Commander, I don't care for blood of others, but you must obtain my permission before bleeding, understood?",
+						"chineseTL" : "",
 						"chineseNote" : "",
 						"japanese" : "",
 						"japaneseTL" : "",
@@ -908,217 +958,307 @@
 				}
 			},
 			"4": {
-				"skin_id": "xixuegui_h",
-				"id": "8",
-				"label": "Eloi's Blessing",
-				"dialogue": {
-					"1": {
-						"event": "Ship Description",
-						"media": "",
-						"chinese": "爱上吸血鬼的人，必将遭受七倍的迷恋。毕竟，爱乃致死之毒",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "吸血鬼に恋する者は、七倍に恋い焦がれる。愛こそ、死に至る毒なり。",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "Those who fall in love with vampires are bound to suffer seven times more than their infatuation. After all, love is a poison which leads to death.",
-						"englishNote": ""
+				"skin_id" : "xixuegui_4",
+				"id" : "3",
+				"label" : "Night Princess's Regalia",
+				"dialogue" : {
+					"1" : {
+						"event" : "Ship Description",
+						"media" : "",
+						"chinese" : "指挥官，今晚和人家约好一起去庙会的事情，没有忘记吧？要是汝说忘了，人家可是要在汝的脖子上“轻轻地”咬一口咯？",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "指揮官、お祭りに行く約束、忘れてない？忘れてたら汝の首に軽くパクっとしちゃうわよ？ふふふ",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Commander, thou promised to go to the festival with me, right? If thou forgot, I shall have to give thee a nibble upon the neck, ehehe~",
+						"englishNote" : ""
 					},
-					"2": {
-						"event": "Login",
-						"media": "login_8",
-						"chinese": "亲爱的，今天去哪里约会？",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "ダーリン♪今日はどこでデートするの？",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "Darling~ Where shall we date on this eve?",
-						"englishNote": ""
+					"2" : {
+						"event" : "Acquisition",
+						"media" : "get_3",
+						"chinese" : "指挥官，今晚和人家约好一起去祭典的事情，没有忘记吧？要是汝说忘了，人家可是要在汝的脖子上“轻轻地”咬一口咯？",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
 					},
-					"3": {
-						"event": "Details",
-						"media": "detail_8",
-						"chinese": "总算到两人独处的时间了，亲~爱~的！",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "ようやく二人きりね♪ダーリン♪",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "We're finally alone together~ Darling~",
-						"englishNote": ""
+					"3" : {
+						"event" : "Login",
+						"media" : "login_3",
+						"chinese" : "指挥官，今天，可要陪人家玩到尽兴才行哦？",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
 					},
-					"4": {
-						"event": "Main 1",
-						"media": "main_1_8",
-						"chinese": "打扫卫生好累……唔，偷偷懒应该没关系吧~",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "お掃除疲れた……うん、ちょっとサボっても大丈夫かな…",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "Cleaning is no task for a vampire! We can be lazy every once and a while!",
-						"englishNote": ""
+					"4" : {
+						"event" : "Details",
+						"media" : "detail_3",
+						"chinese" : "重樱的浴衣？那是什么，对人家来说这一身才是祭典的正装哦？",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
 					},
-					"5": {
-						"event": "Main 2",
-						"media": "main_2_8",
-						"chinese": "好无聊……去哪里约会吧！",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "暇……ねえダーリン、デートしない？",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "I'm bored... Mine darling, how about a date?",
-						"englishNote": ""
+					"5" : {
+						"event" : "Touch",
+						"media" : "touch_1_3",
+						"chinese" : "对人家来说，夜晚才刚刚开始呢，汝可不许说困了哦？",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
 					},
-					"6": {
-						"event": "Main 3",
-						"media": "main_3_8",
-						"chinese": "胖次的颜色？明明衣服都是你帮我穿的~",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "今日のパンツの色を知りたい？もう～服も着させたくせに～",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "Doth thou beseech the color of mine garmets today? Were thou not the one who dressed me on the morn~",
-						"englishNote": ""
+					"6" : {
+						"event" : "Commission Complete",
+						"media" : "expedition_3",
+						"chinese" : "委托？去吧，可别让人家等太久哦？",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
 					},
-					"7": {
-						"event": "Touch",
-						"media": "touch_1_8",
-						"chinese": "你对人家的爱有变多吗?",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "私への愛が高まったりしてる？",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "Are you elevating your love for me?",
-						"englishNote": ""
+					"7" : {
+						"event" : "Affinity (Love)",
+						"media" : "feeling5_3",
+						"chinese" : "嘻嘻，重樱真是有一些有趣的东西，人家刚刚学到了一句很有意思的话——月色真美…？不过，要人家说，还是月色之下的汝更美呢，让人忍不住……想把你吃掉~",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					}
+				}
+			},
+			"5": {
+				"skin_id" : "xixuegui_h",
+				"id" : "8",
+				"label" : "Eloi's Blessing",
+				"dialogue" : {
+					"1" : {
+						"event" : "Ship Description",
+						"media" : "",
+						"chinese" : "爱上吸血鬼的人，必将遭受七倍的迷恋。毕竟，爱乃致死之毒",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "吸血鬼に恋する者は、七倍に恋い焦がれる。愛こそ、死に至る毒なり。",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Those who fall in love with vampires are bound to suffer seven times more than their infatuation. After all, love is a poison which leads to death.",
+						"englishNote" : ""
 					},
-					"8": {
-						"event": "Touch (Special)",
-						"media": "touch_2_8",
-						"chinese": "呀~已经忍不住要宠爱人家了吗？",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "もう♡何してるの？",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "Aww~ What are you doing?",
-						"englishNote": ""
+					"2" : {
+						"event" : "Acquisition",
+						"media" : "get_8",
+						"chinese" : "爱上吸血鬼的人，必将遭受七倍的迷恋。毕竟，爱乃致死之毒",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Those who fall in love with vampires are bound to suffer seven times more than their infatuator. After all, love is a poison which leads to death.",
+						"englishNote" : ""
 					},
-					"9": {
-						"event": "Mission",
-						"media": "task_8",
-						"chinese": "比起任务，难道不是人家更重要？",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "任務より、私のほうが大事じゃない？",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "Rather than missions, am I not more important?",
-						"englishNote": ""
+					"3" : {
+						"event" : "Login",
+						"media" : "login_8",
+						"chinese" : "亲爱的，今天去哪里约会？",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "ダーリン♪今日はどこでデートするの？",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Darling~ Where shall we date on this eve?",
+						"englishNote" : ""
 					},
-					"10": {
-						"event": "Mission Complete",
-						"media": "mission_complete_8",
-						"chinese": "任务完成了！那就去约会吧！",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "任務完了！次はデートしよっ♪",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "Mission complete! Next up, dating time~",
-						"englishNote": ""
+					"4" : {
+						"event" : "Details",
+						"media" : "detail_8",
+						"chinese" : "总算到两人独处的时间了，亲~爱~的！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "ようやく二人きりね♪ダーリン♪",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "We're finally alone together~ Darling~",
+						"englishNote" : ""
 					},
-					"11": {
-						"event": "Mail",
-						"media": "mail_8",
-						"chinese": "想拿邮件？那就用甜死人的情书来换吧！",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "メールがほしい？じゃあ私への甘々なラブレターと交換ね♪",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "You want the mail? Then exchange sweet love letters with me~",
-						"englishNote": ""
+					"5" : {
+						"event" : "Main 1",
+						"media" : "main_1_8",
+						"chinese" : "打扫卫生好累……唔，偷偷懒应该没关系吧~",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "お掃除疲れた……うん、ちょっとサボっても大丈夫かな…",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Cleaning is no task for a vampire! We can be lazy every once and a while!",
+						"englishNote" : ""
 					},
-					"12": {
-						"event": "Return to Port",
-						"media": "home_8",
-						"chinese": "亲爱的，人家的礼物呢~让我猜猜，是葡萄酒？还是巧克力？",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "ダーリン、おみやげは？ちょっと中身当てさせて~ワイン？それともチョコレート？",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "Darling, what's the souvenir? A test? Could it be a fine wine, or maybe chocolates from a land over yonder?",
-						"englishNote": ""
+					"6" : {
+						"event" : "Main 2",
+						"media" : "main_2_8",
+						"chinese" : "好无聊……去哪里约会吧！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "暇……ねえダーリン、デートしない？",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "I'm bored... Mine darling, how about a date?",
+						"englishNote" : ""
 					},
-					"13": {
-						"event": "Commission Complete",
-						"media": "expedition_8",
-						"chinese": "亲爱的，我们一起前去迎接回来的舰娘们吧！",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "ダーリン♪帰ってきた子たちを迎えに行きましょう♪",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "Oh my darling~ Let us go and greet the maiden's upon thier return~",
-						"englishNote": ""
+					"7" : {
+						"event" : "Main 3",
+						"media" : "main_3_8",
+						"chinese" : "胖次的颜色？明明衣服都是你帮我穿的~",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "今日のパンツの色を知りたい？もう～服も着させたくせに～",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Doth thou beseech the color of mine garmets today? Were thou not the one who dressed me on the morn~",
+						"englishNote" : ""
 					},
-					"14": {
-						"event": "Flagship",
-						"media": "warcry_8",
-						"chinese": "来吧！为我们的爱喝彩吧！",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "来て！私たちの愛に喝采を！",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "Come! Raise thine glass to our love!",
-						"englishNote": ""
+					"8" : {
+						"event" : "Touch",
+						"media" : "touch_1_8",
+						"chinese" : "你对人家的爱有变多吗?",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "私への愛が高まったりしてる？",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Are you elevating your love for me?",
+						"englishNote" : ""
 					},
-					"15": {
-						"event": "Victory",
-						"media": "mvp_8",
-						"chinese": "为我们的爱献上鲜花与礼炮！",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "私の愛に鮮花と号砲を！",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "Flowers and salute fire for my love!",
-						"englishNote": ""
+					"9" : {
+						"event" : "Touch (Special)",
+						"media" : "touch_2_8",
+						"chinese" : "呀~已经忍不住要宠爱人家了吗？",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "もう♡何してるの？",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Aww~ What are you doing?",
+						"englishNote" : ""
 					},
-					"16": {
-						"event": "Affinity (Love)",
-						"media": "feeling5_8",
-						"chinese": "和指挥官待在一起无论多久都不会腻呢~呐，洗完澡后再给我讲讲故事好不好",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "指揮官と一緒にいる時間はいつまで経っても飽きないもん♪ねえ、お風呂が終わったらお話きかせてくれない？",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "I cannot possibly have enough of the time I spend with thee, Commander~ Once thou art done taking thine bath, will thou listen to what I say?",
-						"englishNote": ""
+					"10" : {
+						"event" : "Mission",
+						"media" : "task_8",
+						"chinese" : "比起任务，难道不是人家更重要？",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "任務より、私のほうが大事じゃない？",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Rather than missions, am I not more important?",
+						"englishNote" : ""
+					},
+					"11" : {
+						"event" : "Mission Complete",
+						"media" : "mission_complete_8",
+						"chinese" : "任务完成了！那就去约会吧！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "任務完了！次はデートしよっ♪",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Mission complete! Next up, dating time~",
+						"englishNote" : ""
+					},
+					"12" : {
+						"event" : "Mail",
+						"media" : "mail_8",
+						"chinese" : "想拿邮件？那就用甜死人的情书来换吧！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "メールがほしい？じゃあ私への甘々なラブレターと交換ね♪",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "You want the mail? Then exchange sweet love letters with me~",
+						"englishNote" : ""
+					},
+					"13" : {
+						"event" : "Return to Port",
+						"media" : "home_8",
+						"chinese" : "亲爱的，人家的礼物呢~让我猜猜，是葡萄酒？还是巧克力？",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "ダーリン、おみやげは？ちょっと中身当てさせて~ワイン？それともチョコレート？",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Darling, what's the souvenir? A test? Could it be a fine wine, or maybe chocolates from a land over yonder?",
+						"englishNote" : ""
+					},
+					"14" : {
+						"event" : "Commission Complete",
+						"media" : "expedition_8",
+						"chinese" : "亲爱的，我们一起前去迎接回来的舰娘们吧！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "ダーリン♪帰ってきた子たちを迎えに行きましょう♪",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Oh my darling~ Let us go and greet the maiden's upon thier return~",
+						"englishNote" : ""
+					},
+					"15" : {
+						"event" : "Flagship",
+						"media" : "warcry_8",
+						"chinese" : "来吧！为我们的爱喝彩吧！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "来て！私たちの愛に喝采を！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Come! Raise thine glass to our love!",
+						"englishNote" : ""
+					},
+					"16" : {
+						"event" : "Victory",
+						"media" : "mvp_8",
+						"chinese" : "为我们的爱献上鲜花与礼炮！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "私の愛に鮮花と号砲を！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Flowers and salute fire for my love!",
+						"englishNote" : ""
+					},
+					"17" : {
+						"event" : "Affinity (Love)",
+						"media" : "feeling5_8",
+						"chinese" : "和指挥官待在一起无论多久都不会腻呢~呐，洗完澡后再给我讲讲故事好不好",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "指揮官と一緒にいる時間はいつまで経っても飽きないもん♪ねえ、お風呂が終わったらお話きかせてくれない？",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "I cannot possibly have enough of the time I spend with thee, Commander~ Once thou art done taking thine bath, will thou listen to what I say?",
+						"englishNote" : ""
 					}
 				}
 			}
 		}
-	},
-	"fleet_tech": {
-		"pt_get": "3",
-		"add_get_attr": "HP",
-		"add_get_value": "1",
-		"add_get_shiptype": "Destroyer",
-		"pt_upgrade": "6",
-		"pt_level": "4",
-		"add_level_attr": "Torpedo",
-		"add_level_value": "1",
-		"add_level_shiptype": "Destroyer",
-		"t_level": "1",
-		"ships": "vampire"
 	}
 }

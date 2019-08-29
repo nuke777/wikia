@@ -1,192 +1,217 @@
 {
-	"name_reference": "ikazuchi",
-	"cn_reference": "lei",
-	"nameJP": "雷",
-	"nameCN": "雷",
-	"ID": "161",
-	"name": "Ikazuchi",
-	"internal_id": "301111",
-	"rarity": "Rare",
-	"initialStar": "★★☆☆☆",
-	"hull": "Destroyer",
-	"navy": "Sakura Empire",
-	"prefix": "IJN",
-	"buildTime": "",
-	"class": "Fubuki-Class Type III (Akatsuki)",
-	"voiceActress": "Kazusa Aranami",
+	"name_reference" : "ikazuchi",
+	"cn_reference" : "lei",
+	"nameJP" : "雷",
+	"nameCN" : "雷",
+	"ID" : "161",
+	"name" : "Ikazuchi",
+	"internal_id" : "301111",
+	"rarity" : "Rare",
+	"initialStar" : "★★☆☆☆",
+	"hull" : "Destroyer",
+	"navy" : "Sakura Empire",
+	"prefix" : "IJN",
+	"buildTime" : "N/A",
+	"voiceActress" : "Kazusa Aranami",
 	"parameters": {
-		"firepower": "D",
-		"torpedo": "A",
-		"aviation": "E",
-		"evasion": "A",
-		"antiAir": "D",
-		"hp": "D"
+		"firepower" : "D",
+		"torpedo" : "A",
+		"aviation" : "E",
+		"evasion" : "A",
+		"antiAir" : "D",
+		"hp" : "D"
 	},
 	"scrap": {
-		"gold": "4",
-		"oil": "3",
-		"medal": "1"
+		"gold" : "4",
+		"oil" : "3",
+		"medal" : "1"
 	},
 	"releaseDate": {
-		"JP": "",
-		"CN": "",
-		"KR": "",
-		"EN": ""
+		"JP" : "",
+		"CN" : "",
+		"KR" : "",
+		"EN" : ""
 	},
 	"artist": {
-		"name": "",
-		"weibo": "",
-		"twitter": "",
-		"pixiv": "",
-		"other": ""
+		"name" : "大月紅葉",
+		"weibo" : "http://weibo.com/ootsukimomiji",
+		"twitter" : "https://twitter.com/dayuehongye",
+		"pixiv" : "https://www.pixiv.net/member.php?id=591937",
+		"other" : ""
 	},
+	"class" : "Fubuki-Class Type III (Akatsuki)",
 	"enhance": {
-		"firepower": "4",
-		"torpedo": "31",
-		"aviation": "0",
-		"reload": "15"
+		"firepower" : "4",
+		"torpedo" : "31",
+		"aviation" : "0",
+		"reload" : "15"
 	},
-	"acquisitionMethod": "Explore Stage8-2",
+	"acquisitionMethod" : "Explore Stage8-2",
 	"skill": {
-		"1": {
-			"icon": "10620",
-			"requirement": "",
-			"name": "Destroyer Division 6: Ikazuchi",
-			"type": "Offensive",
-			"description": "When in a fleet with any member of Destroyer Division 6 (Akatsuki, Hibiki, or Inazuma), increase Firepower, Torpedo, and Reload by $1. Effect does not stack."
+		"1" : {
+			"icon" : "10620",
+			"requirement" : "Default unlocked",
+			"name" : "Destroyer Division 6: Ikazuchi",
+			"type" : "Offensive",
+			"description" : "When sortied with Akatsuki, Hibiki, or Inazuma: increases this ship's FP, TRP, and RLD by 5%(15%). Effect does not stack."
 		},
-		"2": {
-			"icon": "22071",
-			"requirement": "",
-			"name": "All Out Assault Ⅰ",
-			"type": "Offensive",
-			"description": "Activate All Out Assault Ⅰ: Akatsuki Class once every 15 times the main gun is fired."
+		"2" : {
+			"icon" : "22071",
+			"requirement" : "Limit Break I(III)",
+			"name" : "All Out Assault Ⅰ",
+			"type" : "Offensive",
+			"description" : "Activates All Out Assault Ⅰ: Akatsuki Class once every 15 times the Main Guns are fired."
 		}
 	},
 	"skin": {
-		"1": {
-			"id": "lei",
-			"name": "Ikazuchi",
-			"description": "Type III Akatsuki-class destroyer number three - Akatsuki.",
-			"expression": {
-				"0": {
-					"id": "0"
+		"1" : {
+			"id" : "lei",
+			"name" : "Ikazuchi",
+			"description" : "Type III Akatsuki-class destroyer number three - Akatsuki.",
+			"expression" : {
+				"0" : {
+					"id" : "0"
 				}
 			}
 		},
-		"2": {
-			"id": "lei_2",
-			"name": "Sakura Tea",
-			"description": "Ikazuchi, Ikazuchi has been transformed into tea! What should we do! Inazuma and Ikazuchi will get slurped up by the Commander!",
-			"expression": {
-				"0": {
-					"id": "0"
+		"2" : {
+			"id" : "lei_2",
+			"name" : "Sakura Tea",
+			"description" : "Ikazuchi, Ikazuchi has been transformed into tea! What should we do! Inazuma and Ikazuchi will get slurped up by the Commander!",
+			"expression" : {
+				"0" : {
+					"id" : "0"
+				}
+			}
+		},
+		"3" : {
+			"id" : "lei_3",
+			"name" : "Thunderous Festival",
+			"description" : "Inazuma and I have been to a lot of festivals together, but this would be the first time that I've gone with you, Commander. Isn't this totally like a date?",
+			"expression" : {
+				"0" : {
+					"id" : "0"
+				},
+				"1" : {
+					"id" : "1"
+				},
+				"2" : {
+					"id" : "2"
+				},
+				"3" : {
+					"id" : "3"
+				},
+				"4" : {
+					"id" : "4"
+				},
+				"5" : {
+					"id" : "5"
 				}
 			}
 		}
 	},
 	"defaultEquipment": {
-		"1": {
-			"icon": "31200",
-			"rarity": "Common",
-			"name": "127mm Mounted Gun"
+		"1" : {
+			"icon" : "31200",
+			"rarity" : "Common",
+			"name" : "127mm Mounted Gun"
 		},
-		"2": {
-			"icon": "35100",
-			"rarity": "Common",
-			"name": "Triple 610mm Torpedo"
+		"2" : {
+			"icon" : "35100",
+			"rarity" : "Common",
+			"name" : "Triple 610mm Torpedo"
 		},
-		"3": {
-			"icon": "",
-			"rarity": "",
-			"name": ""
+		"3" : {
+			"icon" : "",
+			"rarity" : "",
+			"name" : ""
 		}
 	},
 	"stats": {
+		"base": {
+			"hp" : "282",
+			"firepower" : "11",
+			"torpedo" : "95",
+			"antiAir" : "28",
+			"aviation" : "0",
+			"reload" : "77",
+			"hit" : "65",
+			"evasion" : "72",
+			"speed" : "45.6",
+			"luck" : "52",
+			"asw" : "41",
+			"oxygen" : "0",
+			"ammo" : "0",
+			"cost" : "2",
+			"armor" : "Light"
+		},
 		"100": {
-			"hp": "1456",
-			"firepower": "52",
-			"torpedo": "448",
-			"antiAir": "130",
-			"aviation": "0",
-			"reload": "183",
-			"hit": "170",
-			"evasion": "188",
-			"speed": "45.6",
-			"luck": "52",
-			"asw": "152",
-			"oxygen": "0",
-			"ammo": "0",
-			"cost": "8",
-			"armor": "Light"
+			"hp" : "1456",
+			"firepower" : "52",
+			"torpedo" : "448",
+			"antiAir" : "130",
+			"aviation" : "0",
+			"reload" : "183",
+			"hit" : "170",
+			"evasion" : "188",
+			"speed" : "45.6",
+			"luck" : "52",
+			"asw" : "152",
+			"oxygen" : "0",
+			"ammo" : "0",
+			"cost" : "8",
+			"armor" : "Light"
 		},
 		"120": {
-			"hp": "1747",
-			"firepower": "60",
-			"torpedo": "493",
-			"antiAir": "150",
-			"aviation": "0",
-			"reload": "210",
-			"hit": "178",
-			"evasion": "194",
-			"speed": "45.6",
-			"luck": "52",
-			"asw": "170",
-			"oxygen": "0",
-			"ammo": "0",
-			"cost": "8",
-			"armor": "Light"
-		},
-		"base": {
-			"hp": "282",
-			"firepower": "11",
-			"torpedo": "95",
-			"antiAir": "28",
-			"aviation": "0",
-			"reload": "77",
-			"hit": "65",
-			"evasion": "72",
-			"speed": "45.6",
-			"luck": "52",
-			"asw": "41",
-			"oxygen": "0",
-			"ammo": "0",
-			"cost": "2",
-			"armor": "Light"
+			"hp" : "1747",
+			"firepower" : "60",
+			"torpedo" : "493",
+			"antiAir" : "150",
+			"aviation" : "0",
+			"reload" : "210",
+			"hit" : "178",
+			"evasion" : "194",
+			"speed" : "45.6",
+			"luck" : "52",
+			"asw" : "170",
+			"oxygen" : "0",
+			"ammo" : "0",
+			"cost" : "8",
+			"armor" : "Light"
 		},
 		"100retrofit": {
-			"hp": "",
-			"firepower": "",
-			"torpedo": "",
-			"antiAir": "",
-			"aviation": "",
-			"reload": "",
-			"hit": "",
-			"evasion": "",
-			"speed": "45.6",
-			"luck": "52",
-			"asw": "",
-			"oxygen": "0",
-			"ammo": "0",
-			"cost": "8",
-			"armor": "Light"
+			"hp" : "",
+			"firepower" : "",
+			"torpedo" : "",
+			"antiAir" : "",
+			"aviation" : "",
+			"reload" : "",
+			"hit" : "",
+			"evasion" : "",
+			"speed" : "45.6",
+			"luck" : "52",
+			"asw" : "",
+			"oxygen" : "0",
+			"ammo" : "0",
+			"cost" : "8",
+			"armor" : "Light"
 		},
 		"120retrofit": {
-			"hp": "",
-			"firepower": "",
-			"torpedo": "",
-			"antiAir": "",
-			"aviation": "",
-			"reload": "",
-			"hit": "",
-			"evasion": "",
-			"speed": "45.6",
-			"luck": "52",
-			"asw": "",
-			"oxygen": "0",
-			"ammo": "0",
-			"cost": "8",
-			"armor": "Light"
+			"hp" : "",
+			"firepower" : "",
+			"torpedo" : "",
+			"antiAir" : "",
+			"aviation" : "",
+			"reload" : "",
+			"hit" : "",
+			"evasion" : "",
+			"speed" : "45.6",
+			"luck" : "52",
+			"asw" : "",
+			"oxygen" : "0",
+			"ammo" : "0",
+			"cost" : "8",
+			"armor" : "Light"
 		}
 	},
 	"limitBreak": {
@@ -214,17 +239,30 @@
 			"preload": "0/0/0/0"
 		},
 		"4": {
-			"type": "Auxiliary",
+			"type": "Auxilary",
 			"efficiency": "-",
 			"amount": "-",
 			"preload": "-"
 		},
 		"5": {
-			"type": "Auxiliary",
+			"type": "Auxilary",
 			"efficiency": "-",
 			"amount": "-",
 			"preload": "-"
 		}
+	},
+	"fleet_tech": {
+		"pt_get": "4",
+		"add_get_attr": "HP",
+		"add_get_value": "1",
+		"add_get_shiptype": "Destroyer",
+		"pt_upgrade": "9",
+		"pt_level": "7",
+		"add_level_attr": "Hit",
+		"add_level_value": "1",
+		"add_level_shiptype": "Destroyer",
+		"t_level": "5",
+		"ships": "akatsuki,ikazuchi,inazuma"
 	},
 	"build": {
 		"light": {
@@ -249,16 +287,28 @@
 		}
 	},
 	"drop": {
-		"droppable": "false",
+		"droppable": "true",
 		"list": {
 			"1": {
-				"event": "",
+				"event": "World",
 				"chapter": {
 					"1": {
-						"label": "Ch .1",
+						"label": "Ch.8",
 						"node": {
 							"1": {
+								"drop": "-",
+								"note": "-"
+							},
+							"2": {
 								"drop": "✓",
+								"note": "-"
+							},
+							"3": {
+								"drop": "-",
+								"note": "-"
+							},
+							"4": {
+								"drop": "-",
 								"note": "-"
 							}
 						}
@@ -270,452 +320,566 @@
 	"lines": {
 		"skin": {
 			"1": {
-				"skin_id": "lei",
-				"id": "0",
-				"label": "Ikazuchi",
-				"dialogue": {
-					"1": {
-						"event": "Ship Description",
-						"media": "",
-						"chinese": "特III型晓级驱逐舰三番舰—雷",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "特Ⅲ型駆逐艦三番艦・雷",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "Type III Akatsuki-class destroyer number three - Akatsuki.",
-						"englishNote": ""
+				"skin_id" : "lei",
+				"id" : "0",
+				"label" : "Ikazuchi",
+				"dialogue" : {
+					"1" : {
+						"event" : "Ship Description",
+						"media" : "",
+						"chinese" : "特III型晓级驱逐舰三番舰—雷",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "特Ⅲ型駆逐艦三番艦・雷",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Type III Akatsuki-class destroyer number three - Akatsuki.",
+						"englishNote" : ""
 					},
-					"2": {
-						"event": "Biography",
-						"media": "profile",
-						"chinese": "晓级驱逐舰雷……是也。虽然看起来不太像，但我可是重樱舰队中的老资格哦，大和什么的也要叫我……嘛，应该叫吧？那个！总之就是这样啦，以后也请多多支持雷的活跃，LIKE的那个按钮，也要多点几次哟！",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "暁型駆逐艦の雷だよ。こう見えても重桜の艦隊では大先輩なんだからね。あの大和も私を……えっと、なんて呼ぶんだっけ？まあとにかくこんな感じで！これからも雷の活躍に期待してね！あとこの「イイネ」ってボタン？もドンドン押してみてね！",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "I'm Ikazuchi, an Akatsuki-class destroyer. I may not look like it, but I'm a Sakura Empire veteran. Even Yamato calls me... um, what was I called again? Anyways, it was something like that! You can count on me to do my job! Also, see that LIKE button? Give it a good tap and make sure to subscribe to my channel!",
-						"englishNote": ""
+					"2" : {
+						"event" : "Biography",
+						"media" : "profile",
+						"chinese" : "晓级驱逐舰雷……是也。虽然看起来不太像，但我可是重樱舰队中的老资格哦，大和什么的也要叫我……嘛，应该叫吧？那个！总之就是这样啦，以后也请多多支持雷的活跃，LIKE的那个按钮，也要多点几次哟！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "暁型駆逐艦の雷だよ。こう見えても重桜の艦隊では大先輩なんだからね。あの大和も私を……えっと、なんて呼ぶんだっけ？まあとにかくこんな感じで！これからも雷の活躍に期待してね！あとこの「イイネ」ってボタン？もドンドン押してみてね！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "I'm Ikazuchi, an Akatsuki-class destroyer. I may not look like it, but I'm a Sakura Empire veteran. Even Yamato calls me... um, what was I called again? Anyways, it was something like that! You can count on me to do my job! Also, see that LIKE button? Give it a good tap and make sure to subscribe to my channel!",
+						"englishNote" : ""
 					},
-					"3": {
-						"event": "Acquisition",
-						"media": "get",
-						"chinese": "我是雷……一只不太会说话的舰娘……指挥官以后应该也会与我不断地相逢吧",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "私は雷。ちょっとだけ「くうきをよめない」かもね。……指揮官は多分これから、二人目以降の私にも出会っちゃうかな？",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "I am Ikazuchi…I’m simply not a very talkative...I think you’ll be seeing a lot more of me in the future, Commander. ",
-						"englishNote": ""
+					"3" : {
+						"event" : "Acquisition",
+						"media" : "get",
+						"chinese" : "我是雷……一只不太会说话的舰娘……指挥官以后应该也会与我不断地相逢吧",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "私は雷。ちょっとだけ「くうきをよめない」かもね。……指揮官は多分これから、二人目以降の私にも出会っちゃうかな？",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "I am Ikazuchi…I’m simply not a very talkative...I think you’ll be seeing a lot more of me in the future, Commander. ",
+						"englishNote" : ""
 					},
-					"4": {
-						"event": "Login",
-						"media": "login",
-						"chinese": "原来如此，这就是所谓的上线吗？人类的词语还真深奥",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "なるほどね！これが「ろぐいん」ね？人間の言葉は奥深いなぁ",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "I see! You just \"logged in\" didn't you? Human language sure is profound...",
-						"englishNote": ""
+					"4" : {
+						"event" : "Login",
+						"media" : "login",
+						"chinese" : "原来如此，这就是所谓的上线吗？人类的词语还真深奥",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "なるほどね！これが「ろぐいん」ね？人間の言葉は奥深いなぁ",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "I see! You just \"logged in\" didn't you? Human language sure is profound...",
+						"englishNote" : ""
 					},
-					"5": {
-						"event": "Details",
-						"media": "detail",
-						"chinese": "跪下拜雷大人的话，大抵什么愿望都能实现哦……没有效果？那个……嗯，一定是你的心不够虔诚！",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "この雷様に「さんぱいきゅうはい」すれば、大体の願い事は叶えるわ！……効果なし？えっと……まだ十分願っていないからよ！",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "If you bow deep and beg for it, I'll make your wishes basically come true! ... It didn't work? Um, well... that's because you haven't wished hard enough yet!",
-						"englishNote": ""
+					"5" : {
+						"event" : "Details",
+						"media" : "detail",
+						"chinese" : "跪下拜雷大人的话，大抵什么愿望都能实现哦……没有效果？那个……嗯，一定是你的心不够虔诚！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "この雷様に「さんぱいきゅうはい」すれば、大体の願い事は叶えるわ！……効果なし？えっと……まだ十分願っていないからよ！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "If you bow deep and beg for it, I'll make your wishes basically come true! ... It didn't work? Um, well... that's because you haven't wished hard enough yet!",
+						"englishNote" : ""
 					},
-					"6": {
-						"event": "Main 1",
-						"media": "main_1",
-						"chinese": "疾如岛风？难道岛风比我们雷电还要快吗？",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "島風と同じぐらい早いって？島風って雷と電より早いってこと？",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "Almost as fast as Shimakaze? So, the wind is faster than thunder and lighting?",
-						"englishNote": ""
+					"6" : {
+						"event" : "Main 1",
+						"media" : "main_1",
+						"chinese" : "疾如岛风？难道岛风比我们雷电还要快吗？",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "島風と同じぐらい早いって？島風って雷と電より早いってこと？",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Almost as fast as Shimakaze? So, the wind is faster than thunder and lighting?",
+						"englishNote" : ""
 					},
-					"7": {
-						"event": "Main 2",
-						"media": "main_2",
-						"chinese": "原来如此，电酱拿下了太平洋战争的first bool ",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "なるほどね！電ちゃんがあの大戦の「ふぁーすとあたっく」を貰ったのね！",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "I see! So Inazuma-chan landed the \"First Strike\" in the World War!",
-						"englishNote": ""
+					"7" : {
+						"event" : "Main 2",
+						"media" : "main_2",
+						"chinese" : "原来如此，电酱拿下了太平洋战争的first bool ",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "なるほどね！電ちゃんがあの大戦の「ふぁーすとあたっく」を貰ったのね！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "I see! So Inazuma-chan landed the \"First Strike\" in the World War!",
+						"englishNote" : ""
 					},
-					"8": {
-						"event": "Main 3",
-						"media": "main_3",
-						"chinese": "原来如此，我如果一直待在维修厂，也会成为不死鸟吧！唔……不死雷？",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "なるほどね！雷も造船所にずっといれば、「ふしちょう」になるよね！うんうん……「ふぇにっくすさんだー」…？",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "I see! So if I stay in the shipyard all the time I'll become a \"Phoenix\"! Yep, I'd be a... \"Thunder Phoenix\"...?",
-						"englishNote": ""
+					"8" : {
+						"event" : "Main 3",
+						"media" : "main_3",
+						"chinese" : "原来如此，我如果一直待在维修厂，也会成为不死鸟吧！唔……不死雷？",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "なるほどね！雷も造船所にずっといれば、「ふしちょう」になるよね！うんうん……「ふぇにっくすさんだー」…？",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "I see! So if I stay in the shipyard all the time I'll become a \"Phoenix\"! Yep, I'd be a... \"Thunder Phoenix\"...?",
+						"englishNote" : ""
 					},
-					"9": {
-						"event": "Touch",
-						"media": "touch_1",
-						"chinese": "原来如此，这是日常问候的礼仪啊",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "なるほどね！これが普段の「あいさつ」だよね！",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "I see! This is one of those ordinary \"greeting\" things, right?",
-						"englishNote": ""
+					"9" : {
+						"event" : "Touch",
+						"media" : "touch_1",
+						"chinese" : "原来如此，这是日常问候的礼仪啊",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "なるほどね！これが普段の「あいさつ」だよね！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "I see! This is one of those ordinary \"greeting\" things, right?",
+						"englishNote" : ""
 					},
-					"10": {
-						"event": "Touch (Special)",
-						"media": "touch_2",
-						"chinese": "你刚才做了什么，雷可是全都知道的哟",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "え、えっと……あれかな？指揮官がやったことの意味、雷はぜ、全部わかるから！な、なるほどね…",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "Uh, umm... is this what I think it is? I know full well the meaning of w-what you did! I-I see...",
-						"englishNote": ""
+					"10" : {
+						"event" : "Touch (Special)",
+						"media" : "touch_2",
+						"chinese" : "你刚才做了什么，雷可是全都知道的哟",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "え、えっと……あれかな？指揮官がやったことの意味、雷はぜ、全部わかるから！な、なるほどね…",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Uh, umm... is this what I think it is? I know full well the meaning of w-what you did! I-I see...",
+						"englishNote" : ""
 					},
-					"11": {
-						"event": "Mission",
-						"media": "task",
-						"chinese": "没有完成的任务？……听起来和没有完成的工作一样普遍呢",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "任務が完了していない？……お仕事が完了していないのと同じぐらい大変かな",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "You haven't finished the mission? ... That sounds about as bad as not finishing your job.",
-						"englishNote": ""
+					"11" : {
+						"event" : "Mission",
+						"media" : "task",
+						"chinese" : "没有完成的任务？……听起来和没有完成的工作一样普遍呢",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "任務が完了していない？……お仕事が完了していないのと同じぐらい大変かな",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "You haven't finished the mission? ... That sounds about as bad as not finishing your job.",
+						"englishNote" : ""
 					},
-					"12": {
-						"event": "Mission Complete",
-						"media": "mission_complete",
-						"chinese": "什么嘛！秘书舰居然不能代领物资，上层在想些什么啊！",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "なによ！「ひしょかん」なのに指揮官の代わりに資源を貰えないなんて！上の人は何考えてるの？",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "Come on! I'm the commander's secretary, but I can't claim rewards on his behalf?! What are the people in charge thinking!",
-						"englishNote": ""
+					"12" : {
+						"event" : "Mission Complete",
+						"media" : "mission_complete",
+						"chinese" : "什么嘛！秘书舰居然不能代领物资，上层在想些什么啊！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "なによ！「ひしょかん」なのに指揮官の代わりに資源を貰えないなんて！上の人は何考えてるの？",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Come on! I'm the commander's secretary, but I can't claim rewards on his behalf?! What are the people in charge thinking!",
+						"englishNote" : ""
 					},
-					"13": {
-						"event": "Mail",
-						"media": "mail",
-						"chinese": "原来如此，这……就是那个吧！拿着就可以进游乐园的那种东西！",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "なるほどね！これって……あれね！持っていれば「れじゃーらんど」に入れるってやつね！",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "I see! This is that... thingy! The thing you need to bring with you to be let into that one chocolate factory!",
-						"englishNote": ""
+					"13" : {
+						"event" : "Mail",
+						"media" : "mail",
+						"chinese" : "原来如此，这……就是那个吧！拿着就可以进游乐园的那种东西！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "なるほどね！これって……あれね！持っていれば「れじゃーらんど」に入れるってやつね！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "I see! This is that... thingy! The thing you need to bring with you to be let into that one chocolate factory!",
+						"englishNote" : ""
 					},
-					"14": {
-						"event": "Return to Port",
-						"media": "home",
-						"chinese": "这种时候就应该用美食和美酒犒劳心灵！诶，哪里来的？后宅里不是有很多吗",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "こういう時こそ「びしゅかこう」！疲れた心にご褒美をあげなきゃね！あれ？どこから？寮舎にたくさんあるじゃない！",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "Times like these call for fine wine and good food! Hard work shouldn't go unnoticed and all that! Hm? Where do we get it from? From the dorm! There's plenty of it there!",
-						"englishNote": ""
+					"14" : {
+						"event" : "Return to Port",
+						"media" : "home",
+						"chinese" : "这种时候就应该用美食和美酒犒劳心灵！诶，哪里来的？后宅里不是有很多吗",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "こういう時こそ「びしゅかこう」！疲れた心にご褒美をあげなきゃね！あれ？どこから？寮舎にたくさんあるじゃない！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Times like these call for fine wine and good food! Hard work shouldn't go unnoticed and all that! Hm? Where do we get it from? From the dorm! There's plenty of it there!",
+						"englishNote" : ""
 					},
-					"15": {
-						"event": "Commission Complete",
-						"media": "expedition",
-						"chinese": "如果一直放着委托不管，会不会有利息呢",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "完了した委託を放っておいたら、「りそく」とかつかないかな？",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "If you let a completed commission just sit there, does it gain any \"interest\"?",
-						"englishNote": ""
+					"15" : {
+						"event" : "Commission Complete",
+						"media" : "expedition",
+						"chinese" : "如果一直放着委托不管，会不会有利息呢",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "完了した委託を放っておいたら、「りそく」とかつかないかな？",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "If you let a completed commission just sit there, does it gain any \"interest\"?",
+						"englishNote" : ""
 					},
-					"16": {
-						"event": "Enhancement",
-						"media": "upgrade",
-						"chinese": "雷更想强化人气、爱和希望什么的啦！",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "「ひょうかすう」とか、「イイネ」とか、「ホシイ」とかのほうを強化したい！",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "I'd rather have my \"ratings\",\"likes\",and \"gimme\" stats enhanced instead!",
-						"englishNote": ""
+					"16" : {
+						"event" : "Enhancement",
+						"media" : "upgrade",
+						"chinese" : "雷更想强化人气、爱和希望什么的啦！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "「ひょうかすう」とか、「イイネ」とか、「ホシイ」とかのほうを強化したい！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "I'd rather have my \"ratings\",\"likes\",and \"gimme\" stats enhanced instead!",
+						"englishNote" : ""
 					},
-					"17": {
-						"event": "Flagship",
-						"media": "warcry",
-						"chinese": "原来如此，总之摁下左上方的那个就KO了吧！",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "なるほどね！とりあえず左上の「おーと」を押せばいいってことね！",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "I see! So all we need to do is press that auto button in the top left and we'll be fine!",
-						"englishNote": ""
+					"17" : {
+						"event" : "Flagship",
+						"media" : "warcry",
+						"chinese" : "原来如此，总之摁下左上方的那个就KO了吧！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "なるほどね！とりあえず左上の「おーと」を押せばいいってことね！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "I see! So all we need to do is press that auto button in the top left and we'll be fine!",
+						"englishNote" : ""
 					},
-					"18": {
-						"event": "Victory",
-						"media": "mvp",
-						"chinese": "原来如此，对雷大人来说是名副其实吧！诶，还是理所不容？",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "なるほどね！これこそこの雷様に「みぶんそうおう」ってやつ！えっと、それとも「けっきふけい」なの…？",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "I see! Now this is what you should expect of someone as \"prestigious\" as me! Er, or was it \"pretentious\"...?",
-						"englishNote": ""
+					"18" : {
+						"event" : "Victory",
+						"media" : "mvp",
+						"chinese" : "原来如此，对雷大人来说是名副其实吧！诶，还是理所不容？",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "なるほどね！これこそこの雷様に「みぶんそうおう」ってやつ！えっと、それとも「けっきふけい」なの…？",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "I see! Now this is what you should expect of someone as \"prestigious\" as me! Er, or was it \"pretentious\"...?",
+						"englishNote" : ""
 					},
-					"19": {
-						"event": "Defeat",
-						"media": "lose",
-						"chinese": "原来如此，这种时候就应该找代打了吧！代打！要不然就让雷大人来操纵试试吧！",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "なるほど…！こんな時こそ「ぷれいだいこう」に頼むべきね！「だいこう」！いっそのこと雷に任せてよ！",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "I see...! Times like these you should P2GSOE2PTG4U! Pay to get someone else to play the game for you! Or you can just let me handle it instead!",
-						"englishNote": ""
+					"19" : {
+						"event" : "Defeat",
+						"media" : "lose",
+						"chinese" : "原来如此，这种时候就应该找代打了吧！代打！要不然就让雷大人来操纵试试吧！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "なるほど…！こんな時こそ「ぷれいだいこう」に頼むべきね！「だいこう」！いっそのこと雷に任せてよ！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "I see...! Times like these you should P2GSOE2PTG4U! Pay to get someone else to play the game for you! Or you can just let me handle it instead!",
+						"englishNote" : ""
 					},
-					"20": {
-						"event": "Skill",
-						"media": "skill",
-						"chinese": "原来如此，我就是第六驱逐队的雷大人！？",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "なるほど！これが姉妹の力ね！",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "I see! This is the power that two sisters have!",
-						"englishNote": ""
+					"20" : {
+						"event" : "Skill",
+						"media" : "skill",
+						"chinese" : "原来如此，我就是第六驱逐队的雷大人！？",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "なるほど！これが姉妹の力ね！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "I see! This is the power that two sisters have!",
+						"englishNote" : ""
 					},
-					"21": {
-						"event": "Affinity (Upset)",
-						"media": "feeling1",
-						"chinese": "原来如此，从这里溜出去顺着洋流就能回到东京老家吗……",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "なるほどね！このまま海に流されていればお家に帰れるってことね…… ",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "I see! This means that if I just let myself get washed away by the ocean then I can come back home...",
-						"englishNote": ""
+					"21" : {
+						"event" : "Affinity (Upset)",
+						"media" : "feeling1",
+						"chinese" : "原来如此，从这里溜出去顺着洋流就能回到东京老家吗……",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "なるほどね！このまま海に流されていればお家に帰れるってことね…… ",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "I see! This means that if I just let myself get washed away by the ocean then I can come back home...",
+						"englishNote" : ""
 					},
-					"22": {
-						"event": "Affinity (Stranger)",
-						"media": "feeling2",
-						"chinese": "指挥官，有不懂的事可以来问雷，再怎么说，雷作为舰娘，烧过的油比你吃过的饭都多嘛",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "指揮官、わからないことがあったら雷に聞いてね。何と言っても、この雷が使った燃料は指揮官の食べたお米よりずっと多いからね ",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "Commander, if there's ever anything you don't understand, just ask me. After all, I've used up more oil than you ever will in your life.",
-						"englishNote": ""
+					"22" : {
+						"event" : "Affinity (Stranger)",
+						"media" : "feeling2",
+						"chinese" : "指挥官，有不懂的事可以来问雷，再怎么说，雷作为舰娘，烧过的油比你吃过的饭都多嘛",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "指揮官、わからないことがあったら雷に聞いてね。何と言っても、この雷が使った燃料は指揮官の食べたお米よりずっと多いからね ",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Commander, if there's ever anything you don't understand, just ask me. After all, I've used up more oil than you ever will in your life.",
+						"englishNote" : ""
 					},
-					"23": {
-						"event": "Affinity (Friendly)",
-						"media": "feeling3",
-						"chinese": "明天是雷酱的生日，指挥官有准备礼物吗？诶？没听说过？总之……那个项链好像很不错啊，送给舰娘的话舰娘一定会很高兴的！",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "明日は雷の誕生日だよ。「ぷれぜんと」はもう用意した？え？そんなの聞いてない？えっと……あそこにペンダントあるよね！それを買って気になる子に渡せばきっと喜ぶよ！",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "It's my birthday tomorrow. Have you gotten a gift for me yet? You didn't know it was my birthday? Ah, well... see that pendant over there? Buy it and give it to someone you like, I'm sure they'll be delighted!",
-						"englishNote": ""
+					"23" : {
+						"event" : "Affinity (Friendly)",
+						"media" : "feeling3",
+						"chinese" : "明天是雷酱的生日，指挥官有准备礼物吗？诶？没听说过？总之……那个项链好像很不错啊，送给舰娘的话舰娘一定会很高兴的！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "明日は雷の誕生日だよ。「ぷれぜんと」はもう用意した？え？そんなの聞いてない？えっと……あそこにペンダントあるよね！それを買って気になる子に渡せばきっと喜ぶよ！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "It's my birthday tomorrow. Have you gotten a gift for me yet? You didn't know it was my birthday? Ah, well... see that pendant over there? Buy it and give it to someone you like, I'm sure they'll be delighted!",
+						"englishNote" : ""
 					},
-					"24": {
-						"event": "Affinity (Like)",
-						"media": "feeling4",
-						"chinese": "指挥官！雷好像发现了一个发大财的机会！喏，这里写着“首付1W物资，发展两个下线的话，每月返还30%”什么的……下线是什么意思呀？",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "指揮官！雷、なんかすごい儲け話を見つけたよ！えっとこれ、「資金1万を元手にダウンラインを二人増やすと、毎月30%儲かる」とかとか……「だうんらいん」ってなにかな…",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "Commander! I found a sweet way to make a ton of money! Um, it says \"if you invest 10,000 coins then I can recruit 2 more people for my startup, and you'll see a monthly 30% profit\",stuff like that... But what's a \"startup\"...?",
-						"englishNote": ""
+					"24" : {
+						"event" : "Affinity (Like)",
+						"media" : "feeling4",
+						"chinese" : "指挥官！雷好像发现了一个发大财的机会！喏，这里写着“首付1W物资，发展两个下线的话，每月返还30%”什么的……下线是什么意思呀？",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "指揮官！雷、なんかすごい儲け話を見つけたよ！えっとこれ、「資金1万を元手にダウンラインを二人増やすと、毎月30%儲かる」とかとか……「だうんらいん」ってなにかな…",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Commander! I found a sweet way to make a ton of money! Um, it says \"if you invest 10,000 coins then I can recruit 2 more people for my startup, and you'll see a monthly 30% profit\",stuff like that... But what's a \"startup\"...?",
+						"englishNote" : ""
 					},
-					"25": {
-						"event": "Affinity (Love)",
-						"media": "feeling5",
-						"chinese": "原来如此，现在我胸口中翻涌的，就是被称作爱的那种情感吗！嗯嗯，我明白的，这也就代表……！诶，脑袋好晕……世界在摇晃，这也是爱吗？",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "なるほどね！今ドキドキしているのは「恋」ってことね！うん、わかるの。これって……！あ、あれ？あたまがちょっとふらふら……なんか世界が回ってるような…これも「恋」なの？",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "I see! This thing making my heart race is called \"love\"! Alright, I understand. That means...! W-wha...? I feel so lightheaded... It feels like the world's spinning around me... Is this \"love\" too?",
-						"englishNote": ""
+					"25" : {
+						"event" : "Affinity (Love)",
+						"media" : "feeling5",
+						"chinese" : "原来如此，现在我胸口中翻涌的，就是被称作爱的那种情感吗！嗯嗯，我明白的，这也就代表……！诶，脑袋好晕……世界在摇晃，这也是爱吗？",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "なるほどね！今ドキドキしているのは「恋」ってことね！うん、わかるの。これって……！あ、あれ？あたまがちょっとふらふら……なんか世界が回ってるような…これも「恋」なの？",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "I see! This thing making my heart race is called \"love\"! Alright, I understand. That means...! W-wha...? I feel so lightheaded... It feels like the world's spinning around me... Is this \"love\" too?",
+						"englishNote" : ""
 					},
-					"26": {
-						"event": "Pledge",
-						"media": "propose",
-						"chinese": "要在这里签字吗……诶，有点看不懂呐，电酱能帮我看一看吗？“签下字后，指挥官就是我一辈子的仆人了”？好的，我明白了！",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "ここに名前を書くってことね……えっと、ちょっとわからない…電ちゃん、これってどういうこと？「サインしたら、指揮官はずっと雷のモノになる」？うん、わかった！",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "Just gotta write my name here, right? ... Um, I don't think I get it... Inazuma-chan, care to explain this? ... \"After you sign it, you'll belong to the commander forever\"? Okay, got it!",
-						"englishNote": ""
+					"26" : {
+						"event" : "Pledge",
+						"media" : "propose",
+						"chinese" : "要在这里签字吗……诶，有点看不懂呐，电酱能帮我看一看吗？“签下字后，指挥官就是我一辈子的仆人了”？好的，我明白了！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "ここに名前を書くってことね……えっと、ちょっとわからない…電ちゃん、これってどういうこと？「サインしたら、指揮官はずっと雷のモノになる」？うん、わかった！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Just gotta write my name here, right? ... Um, I don't think I get it... Inazuma-chan, care to explain this? ... \"After you sign it, you'll belong to the commander forever\"? Okay, got it!",
+						"englishNote" : ""
 					},
-					"27": {
-						"event": "Easter Egg 1 (Inazuma)",
-						"media": "link1",
-						"chinese": "第六驱逐队……出击！",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "第六駆逐隊……発進！",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "Destroyer Division Six... depart!",
-						"englishNote": ""
+					"27" : {
+						"event" : "Easter Egg 1(Inazuma)",
+						"media" : "link1",
+						"chinese" : "第六驱逐队……出击！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "第六駆逐隊……発進！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Destroyer Division Six... depart!",
+						"englishNote" : ""
+					},
+					"28" : {
+						"event" : "Like Present",
+						"media" : "present_like",
+						"chinese" : "",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"29" : {
+						"event" : "Dislike Present",
+						"media" : "present_dislike",
+						"chinese" : "",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"30" : {
+						"event" : "Main Title",
+						"media" : "extra",
+						"chinese" : "",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
 					}
 				}
 			},
 			"2": {
-				"skin_id": "lei_2",
-				"id": "1",
-				"label": "Sakura Tea",
-				"dialogue": {
-					"1": {
-						"event": "Ship Description",
-						"media": "",
-						"chinese": "雷、雷变成了茶！？怎么办呀！电，雷要被指挥官吃掉了！",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "い、雷がお菓子になっちゃった！？どうしよう！雷、指揮官に食べられちゃうよ！",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "Ikazuchi, Ikazuchi has been transformed into tea! What should we do! Inazuma and Ikazuchi will get slurped up by the Commander!",
-						"englishNote": ""
+				"skin_id" : "lei_2",
+				"id" : "1",
+				"label" : "Sakura Tea",
+				"dialogue" : {
+					"1" : {
+						"event" : "Ship Description",
+						"media" : "",
+						"chinese" : "雷、雷变成了茶！？怎么办呀！电，雷要被指挥官吃掉了！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "い、雷がお菓子になっちゃった！？どうしよう！雷、指揮官に食べられちゃうよ！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Ikazuchi, Ikazuchi has been transformed into tea! What should we do! Inazuma and Ikazuchi will get slurped up by the Commander!",
+						"englishNote" : ""
 					},
-					"2": {
-						"event": "Acquisition",
-						"media": "get_1",
-						"chinese": "雷、雷变成了茶！？怎么办呀！电，雷要被指挥官吃掉了！",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "い、雷がお菓子になっちゃった！？どうしよう！雷、指揮官に食べられちゃうよ！",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "Ikazuchi, Ikazuchi has been transformed into tea! What should we do! Inazuma and Ikazuchi will get slurped up by the Commander!",
-						"englishNote": ""
+					"2" : {
+						"event" : "Acquisition",
+						"media" : "get_1",
+						"chinese" : "雷、雷变成了茶！？怎么办呀！电，雷要被指挥官吃掉了！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "い、雷がお菓子になっちゃった！？どうしよう！雷、指揮官に食べられちゃうよ！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Ikazuchi, Ikazuchi has been transformed into tea! What should we do! Inazuma and Ikazuchi will get slurped up by the Commander!",
+						"englishNote" : ""
 					},
-					"3": {
-						"event": "Details",
-						"media": "detail_1",
-						"chinese": "如果一定要吃，希望指挥官能一口……不、不对！果、果然还是放雷一马比较好！",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "雷を食べるなら、できたらひと口で……ち、違う！や、やっぱり雷を食べないで！",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "If it's inevitable, then hopefully the Commander will only take a small bite…. no, wrong! It’s, it’s probably better if Ikazuchi can be spared just this one time!",
-						"englishNote": ""
+					"3" : {
+						"event" : "Details",
+						"media" : "detail_1",
+						"chinese" : "如果一定要吃，希望指挥官能一口……不、不对！果、果然还是放雷一马比较好！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "雷を食べるなら、できたらひと口で……ち、違う！や、やっぱり雷を食べないで！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "If it's inevitable, then hopefully the Commander will only take a small bite…. no, wrong! It’s, it’s probably better if Ikazuchi can be spared just this one time!",
+						"englishNote" : ""
 					},
-					"4": {
-						"event": "Main 1",
-						"media": "main_1_1",
-						"chinese": "雷、雷还有好多动画没有看，指挥官，请至少让雷看完这一季！拜托了！ ",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "夕張さんから借りてた「あにめ」、まだ見終わってないよ！？お願い指揮官、せめてこの「しーずん」が終わるまでは…！",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "Ikazuchi, Ikazuchi still have a lot of anime to catch up on, Commander. At least let Ikazuchi finish the season she’s watching! Pretty please! ",
-						"englishNote": ""
+					"4" : {
+						"event" : "Main 1",
+						"media" : "main_1_1",
+						"chinese" : "雷、雷还有好多动画没有看，指挥官，请至少让雷看完这一季！拜托了！ ",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "夕張さんから借りてた「あにめ」、まだ見終わってないよ！？お願い指揮官、せめてこの「しーずん」が終わるまでは…！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Ikazuchi, Ikazuchi still have a lot of anime to catch up on, Commander. At least let Ikazuchi finish the season she’s watching! Pretty please! ",
+						"englishNote" : ""
 					},
-					"5": {
-						"event": "Main 2",
-						"media": "main_2_1",
-						"chinese": "好、好香……雷都有点忍不住要吃掉自己了 ",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "いい匂い……雷も自分をたべたくなっちゃった…",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": " It smells so, so good… Ikazuchi just can’t take it anymore and wants to have a bite. ",
-						"englishNote": ""
+					"5" : {
+						"event" : "Main 2",
+						"media" : "main_2_1",
+						"chinese" : "好、好香……雷都有点忍不住要吃掉自己了 ",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "いい匂い……雷も自分をたべたくなっちゃった…",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : " It smells so, so good… Ikazuchi just can’t take it anymore and wants to have a bite. ",
+						"englishNote" : ""
 					},
-					"6": {
-						"event": "Main 3",
-						"media": "main_3_1",
-						"chinese": "原来如此！在其他的世界中，雷会变成什么……呢？",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "なるほどね！ほかの世界の雷はどうかな……",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": " That being the case! What would Ikazuchi be like in another world… then?",
-						"englishNote": ""
+					"6" : {
+						"event" : "Main 3",
+						"media" : "main_3_1",
+						"chinese" : "原来如此！在其他的世界中，雷会变成什么……呢？",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "なるほどね！ほかの世界の雷はどうかな……",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : " That being the case! What would Ikazuchi be like in another world… then?",
+						"englishNote" : ""
 					},
-					"7": {
-						"event": "Touch",
-						"media": "touch_1_1",
-						"chinese": "指、指挥官，雷要从盘子上掉下去啦，呜哇哇—",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "し、指揮官！雷、落ちちゃうよ！あわわ！",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "C-Commander, Ikazuchi is falling off from the plate, whoaaa—",
-						"englishNote": ""
+					"7" : {
+						"event" : "Touch",
+						"media" : "touch_1_1",
+						"chinese" : "指、指挥官，雷要从盘子上掉下去啦，呜哇哇—",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "し、指揮官！雷、落ちちゃうよ！あわわ！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "C-Commander, Ikazuchi is falling off from the plate, whoaaa—",
+						"englishNote" : ""
 					},
-					"8": {
-						"event": "Touch (Special)",
-						"media": "touch_2_1",
-						"chinese": "呼……原来如此！指挥官原来知道雷是雷啊……",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "ふぅ……なるほどね！指揮官は雷だってわかるのよね！",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "Ha… So it turns out that the Commander already knew Ikazuchi is Ikazuchi...",
-						"englishNote": ""
+					"8" : {
+						"event" : "Touch (Special)",
+						"media" : "touch_2_1",
+						"chinese" : "呼……原来如此！指挥官原来知道雷是雷啊……",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "ふぅ……なるほどね！指揮官は雷だってわかるのよね！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Ha… So it turns out that the Commander already knew Ikazuchi is Ikazuchi...",
+						"englishNote" : ""
+					}
+				}
+			},
+			"3": {
+				"skin_id" : "lei_3",
+				"id" : "2",
+				"label" : "Thunderous Festival",
+				"dialogue" : {
+					"1" : {
+						"event" : "Ship Description",
+						"media" : "",
+						"chinese" : "雷虽然和电参加过不少次祭典，不过和指挥官一起参加还是第一次呢。简直像是“约会”一样呢！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "雷、いつもは電と一緒にお祭りに参加してるけど、指揮官と一緒のお祭りは初めてだね。なんだか「でーと」みたい！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Inazuma and I have been to a lot of festivals together, but this would be the first time that I've gone with you, Commander. Isn't this totally like a date?",
+						"englishNote" : ""
+					},
+					"2" : {
+						"event" : "Acquisition",
+						"media" : "get_2",
+						"chinese" : "雷虽然和电参加过不少次祭典，不过和指挥官一起参加还是第一次呢。简直像是“约会”一样呢！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"3" : {
+						"event" : "Login",
+						"media" : "login_2",
+						"chinese" : "原来如此！指挥官也很喜欢跟雷的“约会”呢！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"4" : {
+						"event" : "Details",
+						"media" : "detail_2",
+						"chinese" : "指挥官，买了雷的浴衣的话，把电的浴衣也一起买了吧！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"5" : {
+						"event" : "Touch",
+						"media" : "touch_1_2",
+						"chinese" : "指挥官似乎很喜欢戳雷，那雷就给你摆一个超级可爱的动作吧~",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"6" : {
+						"event" : "Touch (Special)",
+						"media" : "touch_2_2",
+						"chinese" : "虽然我摆出了害羞的姿势，不过我其实在生气哦？",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"7" : {
+						"event" : "Return to Port",
+						"media" : "home_2",
+						"chinese" : "虽然指挥官多半是按了左上角在战斗，不过也是辛苦了呢",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
 					}
 				}
 			}
 		}
-	},
-	"fleet_tech": {
-		"pt_get": "4",
-		"add_get_attr": "HP",
-		"add_get_value": "1",
-		"add_get_shiptype": "Destroyer",
-		"pt_upgrade": "9",
-		"pt_level": "7",
-		"add_level_attr": "Hit",
-		"add_level_value": "1",
-		"add_level_shiptype": "Destroyer",
-		"t_level": "5",
-		"ships": "akatsuki,ikazuchi,inazuma"
 	}
 }
