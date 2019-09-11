@@ -1,0 +1,747 @@
+{
+	"name_reference" : "littorio",
+	"cn_reference" : "lituoliao",
+	"nameJP" : "リットリオ",
+	"nameCN" : "利托里奥",
+	"ID" : "410",
+	"name" : "Littorio",
+	"internal_id" : "605021",
+	"rarity" : "Super Rare",
+	"initialStar" : "★★★☆☆☆",
+	"hull" : "Battleship",
+	"navy" : "Sardegna Empire",
+	"prefix" : "RN",
+	"buildTime" : "",
+	"parameters": {
+		"firepower" : "S",
+		"torpedo" : "E",
+		"aviation" : "E",
+		"evasion" : "D",
+		"antiAir" : "C",
+		"hp" : "S"
+	},
+	"scrap": {
+		"gold" : "11",
+		"oil" : "4",
+		"medal" : "10"
+	},
+	"releaseDate": {
+		"JP" : "",
+		"CN" : "",
+		"KR" : "",
+		"EN" : ""
+	},
+	"artist": {
+		"name" : "",
+		"weibo" : "",
+		"twitter" : "",
+		"pixiv" : "",
+		"other" : ""
+	},
+	"class" : "ヴィットリオ・ヴェネト級",
+	"enhance": {
+		"firepower" : "67",
+		"torpedo" : "0",
+		"aviation" : "0",
+		"reload" : "11"
+	},
+	"acquisitionMethod" : "イベント：悲歎せし焔海の詩",
+	"skill": {
+		"1" : {
+			"icon" : "12600",
+			"requirement" : "",
+			"name" : "ローザ・ボンバルダメント",
+			"type" : "Offensive",
+			"description" : "自身の主砲攻撃時$1で発動、特殊弾幕を展開する（威力はスキルレベルによる）；自身が「381mm三連装砲Model1934」を装備している場合、特殊弾幕を強化し、発動確率を10%上昇させる"
+		},
+		"2" : {
+			"icon" : "12610",
+			"requirement" : "",
+			"name" : "サディアの矜持",
+			"type" : "Support",
+			"description" : "戦闘開始時、自身と前衛艦隊先頭艦に魚雷を$1回まで無効できる盾をそれぞれ2つ生成する；海域に出撃した場合、自身が所属する艦隊の3回目の戦闘まで、自身の火力が$2アップ"
+		}
+	},
+	"skin": {
+		"1" : {
+			"id" : "lituoliao",
+			"name" : "リットリオ",
+			"description" : "ヴィットリオ・ヴェネト級戦艦・リットリオ",
+			"expression" : {
+				"0" : {
+					"id" : "0"
+				}
+			}
+		},
+		"2" : {
+			"id" : "lituoliao_2",
+			"name" : "ナポリに輝け",
+			"description" : "私とともに海辺に行きたいか？なら少し目立つように頑張れよ？でないとみんなの目はこのリットリオが独占してしまうからな",
+			"expression" : {
+				"0" : {
+					"id" : "0"
+				},
+				"1" : {
+					"id" : "1"
+				},
+				"2" : {
+					"id" : "2"
+				},
+				"3" : {
+					"id" : "3"
+				},
+				"4" : {
+					"id" : "4"
+				},
+				"5" : {
+					"id" : "5"
+				}
+			}
+		}
+	},
+	"defaultEquipment": {
+		"1" : {
+			"icon" : "55000",
+			"rarity" : "Rare",
+			"name" : "381mm三連装砲Model1934"
+		},
+		"2" : {
+			"icon" : "",
+			"rarity" : "",
+			"name" : ""
+		},
+		"3" : {
+			"icon" : "55100",
+			"rarity" : "Rare",
+			"name" : "90mm単装高角砲Model1939"
+		}
+	},
+	"stats": {
+		"base": {
+			"hp" : "1389",
+			"firepower" : "80",
+			"torpedo" : "0",
+			"antiAir" : "45",
+			"aviation" : "0",
+			"reload" : "57",
+			"hit" : "19",
+			"evasion" : "8",
+			"speed" : "30",
+			"luck" : "79",
+			"asw" : "0",
+			"oxygen" : "0",
+			"ammo" : "0",
+			"cost" : "5",
+			"armor" : "Heavy"
+		},
+		"100": {
+			"hp" : "7182",
+			"firepower" : "379",
+			"torpedo" : "0",
+			"antiAir" : "211",
+			"aviation" : "0",
+			"reload" : "134",
+			"hit" : "49",
+			"evasion" : "21",
+			"speed" : "30",
+			"luck" : "79",
+			"asw" : "0",
+			"oxygen" : "0",
+			"ammo" : "0",
+			"cost" : "15",
+			"armor" : "Heavy"
+		},
+		"120": {
+			"hp" : "8367",
+			"firepower" : "421",
+			"torpedo" : "0",
+			"antiAir" : "243",
+			"aviation" : "0",
+			"reload" : "154",
+			"hit" : "58",
+			"evasion" : "35",
+			"speed" : "30",
+			"luck" : "79",
+			"asw" : "0",
+			"oxygen" : "0",
+			"ammo" : "0",
+			"cost" : "15",
+			"armor" : "Heavy"
+		},
+		"100retrofit": {
+			"hp" : "",
+			"firepower" : "",
+			"torpedo" : "",
+			"antiAir" : "",
+			"aviation" : "",
+			"reload" : "",
+			"hit" : "",
+			"evasion" : "",
+			"speed" : "30",
+			"luck" : "79",
+			"asw" : "",
+			"oxygen" : "0",
+			"ammo" : "0",
+			"cost" : "15",
+			"armor" : "Heavy"
+		},
+		"120retrofit": {
+			"hp" : "",
+			"firepower" : "",
+			"torpedo" : "",
+			"antiAir" : "",
+			"aviation" : "",
+			"reload" : "",
+			"hit" : "",
+			"evasion" : "",
+			"speed" : "30",
+			"luck" : "79",
+			"asw" : "",
+			"oxygen" : "0",
+			"ammo" : "0",
+			"cost" : "15",
+			"armor" : "Heavy"
+		}
+	},
+	"limitBreak": {
+		"tier1": "主砲砲座+1/主砲補正+5%",
+		"tier2": "副砲砲座+2/主砲補正+10%",
+		"tier3": "主砲砲座+1/主砲補正+15%"
+	},
+	"equipmentLoadout": {
+		"1": {
+			"type": "Battleship",
+			"efficiency": "100%/105%/115%/130%",
+			"amount": "1/1/1/1",
+			"preload": "0/0/0/0"
+		},
+		"2": {
+			"type": "Light Cruiser",
+			"efficiency": "200%/200%/200%/200%",
+			"amount": "1/1/3/3",
+			"preload": "0/0/0/0"
+		},
+		"3": {
+			"type": "Anti-Air Gun",
+			"efficiency": "100%/100%/100%/100%",
+			"amount": "1/1/1/1",
+			"preload": "0/0/0/0"
+		},
+		"4": {
+			"type": "Auxilary",
+			"efficiency": "-",
+			"amount": "-",
+			"preload": "-"
+		},
+		"5": {
+			"type": "Auxilary",
+			"efficiency": "-",
+			"amount": "-",
+			"preload": "-"
+		}
+	},
+	"fleet_tech": {
+		"pt_get": "40",
+		"add_get_attr": "HP",
+		"add_get_value": "2",
+		"add_get_shiptype": "Battlecruiser,Battleship,Aviation Battleship",
+		"pt_upgrade": "80",
+		"pt_level": "60",
+		"add_level_attr": "Firepower",
+		"add_level_value": "1",
+		"add_level_shiptype": "Battlecruiser,Battleship,Aviation Battleship",
+		"t_level": "7",
+		"ships": "littorio"
+	},
+	"build": {
+		"light": {
+			"JP": "",
+			"CN": "",
+			"EN": ""
+		},
+		"heavy": {
+			"JP": "",
+			"CN": "",
+			"EN": ""
+		},
+		"special": {
+			"JP": "",
+			"CN": "",
+			"EN": ""
+		},
+		"limited": {
+			"JP": "",
+			"CN": "",
+			"EN": ""
+		}
+	},
+	"drop": {
+		"droppable": "false",
+		"list": {
+			"1": {
+				"event": "",
+				"chapter": {
+					"1": {
+						"label": "Ch .1",
+						"node": {
+							"1": {
+								"drop": "✓",
+								"note": "-"
+							}
+						}
+					}
+				}
+			}
+		}
+	},
+	"lines": {
+		"skin": {
+			"1": {
+				"skin_id" : "lituoliao",
+				"id" : "0",
+				"label" : "リットリオ",
+				"dialogue" : {
+					"1" : {
+						"event" : "Ship Description",
+						"media" : "",
+						"chinese" : "维托里奥·维内托级战列舰—利托里奥",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "ヴィットリオ・ヴェネト級戦艦・リットリオ",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"2" : {
+						"event" : "Biography",
+						"media" : "profile",
+						"chinese" : "地中海最强大的的战舰之一，维托里奥·维内托级二号舰，利托里奥，现在就站在你的面前。曾经，地中海是我午后漫步的花园，现在，这片蔚蓝大海也不会例外。让我们的敌人大吃一惊吧，指挥官",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "地中海最強の戦艦の一隻、ヴィットリオ・ヴェネト級の二番艦、リットリオはここだ。かの大戦で海を我が庭の如く練り歩いた、今も変わらない。さあ指揮官、敵の度肝を抜きに行こうではないか",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"3" : {
+						"event" : "Acquisition",
+						"media" : "get",
+						"chinese" : "露出笑容吧，指挥官。因为你可是获得了无敌的利托里奥哦，不过更重要的是——还是笑容更加适合这张可爱的脸呢~",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "さあ指揮官、笑うがいい！貴方はこの無敵なるリットリオを手に入れた、そしてなによりも――その可愛い顔には、笑顔こそが似合ってるよ",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"4" : {
+						"event" : "Login",
+						"media" : "login",
+						"chinese" : "等待虽然无趣，但等待你并不无趣，指挥官",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "待つのは退屈だが、貴方を待つとなれば退屈はしないよ？指揮官",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"5" : {
+						"event" : "Details",
+						"media" : "detail",
+						"chinese" : "维内托在总旗舰这个位置上还是做得挺不错的…不过，想要更进一步的话，还是需要向我学习呢，哈哈哈哈",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "ヴェネトめ、総旗艦としては中々やるな…ま、その先に進むというのなら、私を見習わないといかんな。はははは",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"6" : {
+						"event" : "Main 1",
+						"media" : "main_1",
+						"chinese" : "这个世界上存在两种舰船，一种是我利托里奥，一种是利托里奥以外的舰船",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "この世には二種類の艦船が存在する。このリットリオと、このリットリオじゃない奴らだ",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"7" : {
+						"event" : "Main 2",
+						"media" : "main_2",
+						"chinese" : "指挥官，你不觉得可惜吗？因为，世界上有那么多需要照亮的地方，却只有一个利托里奥",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "指揮官、惜しいとは思わないかな？世界で光を求める場所は多くあるというのに、このリットリオは一人しかいないということに",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"8" : {
+						"event" : "Main 3",
+						"media" : "main_3",
+						"chinese" : "没错，飞机它们确实拉开了新时代的帷幕，但是，战舰曾是海上霸主这一点永远不会改变。即使是我，也不认为世上有永恒的辉煌哦，指挥官",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "なに、戦艦が海を制した時代があっても、艦載機が新しい時代の始まりを告げたのは否定のしようがないことだ。いくら私でもそれを認めないわけにはいかないよ",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"9" : {
+						"event" : "Touch",
+						"media" : "touch_1",
+						"chinese" : "主动追求，也是种不一样的有趣体验，不是吗？",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "こちらから人を追い求めるのは、新鮮で面白い体験だ。違うか？",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"10" : {
+						"event" : "Touch (Special)",
+						"media" : "touch_2",
+						"chinese" : "指挥官，我理解我的魅力让你无法自拔，不过，这种事不是现在在这种场合应该做的吧~?",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "指揮官、私の魅力に惹かれたのはわかるが…まあ…今はこんなことをしている場合じゃないだろ？",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"11" : {
+						"event" : "Mission",
+						"media" : "task",
+						"chinese" : "指挥官，每一个任务，都有它独一无二的存在价值，你应当认真对待它们才对，不是吗？",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "指揮官、すべての任務にはそれ相応の価値がある、つまり真面目にこなしておくべきだ。違うか？",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"12" : {
+						"event" : "Mission Complete",
+						"media" : "mission_complete",
+						"chinese" : "下次应该告诉军部，这样的奖励，可无法满足利托里奥",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "次は上層部に連絡してくれよ？この程度の報酬じゃ、このリットリオを満足させるには程遠い、とな",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"13" : {
+						"event" : "Mail",
+						"media" : "mail",
+						"chinese" : "唔…似乎我的粉丝来信比指挥官的信更多呢…",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "……私への手紙が指揮官宛のより多いんだな",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"14" : {
+						"event" : "Return to Port",
+						"media" : "home",
+						"chinese" : "高兴一点，指挥官，因为出征回来后，还有利托里奥在等着你呢",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "喜ぶがいい。指揮官、貴方の帰還にこのリットリオの出迎えがあるのだ",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"15" : {
+						"event" : "Commission Complete",
+						"media" : "expedition",
+						"chinese" : "指挥官，别担心，有我在，委托组这一次也会是丰收",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "なに指揮官、心配するな。私がいれば委託の報酬は上々に決まっている",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"16" : {
+						"event" : "Enhancement",
+						"media" : "upgrade",
+						"chinese" : "能发现利托里奥的实力，正是你眼光的证明",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "このリットリオの真の力を見通せたなら、貴方のセンスが高い証明になるよ",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"17" : {
+						"event" : "Flagship",
+						"media" : "warcry",
+						"chinese" : "敌人迷路了吗？真没办法",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "敵はこちらに迷い込んだのかな？しょうがないな",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"18" : {
+						"event" : "Victory",
+						"media" : "mvp",
+						"chinese" : "你们最大的失误，就是选择了站在利托里奥的对立面",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "貴方達の最大の間違いは、このリットリオに立ち向かおうとしたことだ",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"19" : {
+						"event" : "Defeat",
+						"media" : "lose",
+						"chinese" : "输了？不，我们只是还没有赢而已",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "負けた？違う、まだ勝っていないだけよ",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"20" : {
+						"event" : "Skill",
+						"media" : "skill",
+						"chinese" : "Arrivederci！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "アリーヴェデルチ！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"21" : {
+						"event" : "Low HP",
+						"media" : "hp",
+						"chinese" : "普列赛，再努力一下",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "プリエーゼ、もう少しだ！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"22" : {
+						"event" : "Affinity (Upset)",
+						"media" : "feeling1",
+						"chinese" : "抱歉，指挥官。原本，我以为我的存在能成为你前进的动力，没想到，却成为了让你停滞的理由…",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "すまない、指揮官。貴方を推し進めるつもりでいたが、どうやら私の存在がかえって貴方の邁進を止めることになったな……",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"23" : {
+						"event" : "Affinity (Stranger)",
+						"media" : "feeling2",
+						"chinese" : "指挥官，想要我的签名吗？如果是你的话，特别给你免费吧，哈哈，开玩笑的",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "私のサインがほしいのかな？ほかならぬ指揮官の頼みだ、特別に無料でくれてやろう――なんてな、ははは",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"24" : {
+						"event" : "Affinity (Friendly)",
+						"media" : "feeling3",
+						"chinese" : "指挥官，你应该自信一点。因为，我信任着身为我的指挥官的你，也就是说，你可是被世界上最闪耀的舰船信任着，不是吗？",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "指揮官はもっと自信をもったほうがいい。なに、このリットリオの指揮官を務めるのはつまり、世界で一番輝かしい艦の信を得ているということだ。誇らしいとは思わないか？",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"25" : {
+						"event" : "Affinity (Like)",
+						"media" : "feeling4",
+						"chinese" : "不得不说，指挥官，你有成为像我这样光芒万丈的人的潜质——哈哈，我很高兴哦，有一个能够切磋琢磨，齐同并进的人可是求之不得的呢",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "指揮官にはこのリットリオのように輝かしい存在になれる素質があると、認めざるを得ないな。これは喜ばしいことだ、なにせ私とともに歩める存在は求めても得られないものだったからな",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"26" : {
+						"event" : "Affinity (Love)",
+						"media" : "feeling5",
+						"chinese" : "你怎样看待这个世界，世界就会怎样回馈你。所以别气馁，别灰心，喜欢的东西就去争取，想要的东西就去得到。你可是利托里奥唯一认同的人啊",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "貴方が周りと接している分だけ、周りが貴方のことを分かってくれて、報いてくれる。だから心配するな。好きなものは追い求め、奪い取るがいい。私が、このリットリオが貴方を認めるから",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"27" : {
+						"event" : "Pledge",
+						"media" : "propose",
+						"chinese" : "真不可思议，曾经，我以为我永远不会遇到能为我戴上指环的人。而现在，这个人就站在我的面前，而且他是如此的可爱……我的指挥官，告诉我，为什么你会让我如此心动？",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "まったく不思議なことだ。このリットリオに誓いの指輪を差し出す人なんているはずがないと思いきや、こうして貴方が目の前に現れて、そして私の心まで奪ったとは……教えてくれ、貴方はどうやって私を攻略したのだ？",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"28" : {
+						"event" : "Like Present",
+						"media" : "present_like",
+						"chinese" : "",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"29" : {
+						"event" : "Dislike Present",
+						"media" : "present_dislike",
+						"chinese" : "",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"30" : {
+						"event" : "Main Title",
+						"media" : "extra",
+						"chinese" : "",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					}
+				}
+			},
+			"2": {
+				"skin_id" : "lituoliao_2",
+				"id" : "1",
+				"label" : "ナポリに輝け",
+				"dialogue" : {
+					"1" : {
+						"event" : "Ship Description",
+						"media" : "",
+						"chinese" : "要和我一起去沙滩？呵呵，指挥官，那你可要努力一点。否则，我可要夺去沙滩上其他舰船们的目光了~",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "私とともに海辺に行きたいか？なら少し目立つように頑張れよ？でないとみんなの目はこのリットリオが独占してしまうからな",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"2" : {
+						"event" : "Acquisition",
+						"media" : "get_1",
+						"chinese" : "要和我一起去沙滩？呵呵，指挥官，那你可要努力一点。否则，我可要夺去沙滩上其他舰船们的目光了~",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"3" : {
+						"event" : "Login",
+						"media" : "login_1",
+						"chinese" : "指挥官，你来了，今天的我，可是比阳光还要耀眼呢",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"4" : {
+						"event" : "Details",
+						"media" : "detail_1",
+						"chinese" : "维内托？指挥官，奉劝你不要太过期待——不，我并不是说她的泳装，而是，她可是会花一整天在用沙子堆角斗场的天才",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"5" : {
+						"event" : "Touch",
+						"media" : "touch_1_1",
+						"chinese" : "穿上泳装将自己最有魅力的一面展现出来，这可是一件棒到不行的事呢，你说是吧，指挥官？",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"6" : {
+						"event" : "Return to Port",
+						"media" : "home_1",
+						"chinese" : "呵呵，就给你一点“杀必死”吧，指挥官，怎么样~?",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					}
+				}
+			}
+		}
+	}
+}
