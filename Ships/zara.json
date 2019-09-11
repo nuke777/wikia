@@ -11,7 +11,7 @@
 	"hull" : "Heavy Cruiser",
 	"navy" : "Sardegna Empire",
 	"prefix" : "RN",
-	"buildTime" : "",
+	"buildTime" : "01:55:00",
 	"voiceActress" : "Atsumi Tanezaki ",
 	"parameters": {
 		"firepower" : "B",
@@ -27,64 +27,76 @@
 		"medal" : "10"
 	},
 	"releaseDate": {
-		"JP" : "",
-		"CN" : "",
-		"KR" : "",
-		"EN" : ""
+		"JP" : "September 11, 2019",
+		"CN" : "September 11, 2019",
+		"KR" : "September 11, 2019",
+		"EN" : "September 11, 2019"
 	},
 	"artist": {
-		"name" : "",
-		"weibo" : "",
-		"twitter" : "",
-		"pixiv" : "",
+		"name" : "云桑",
+		"weibo" : "https://weibo.com/yunsang",
+		"twitter" : "https://twitter.com/_Yunsang",
+		"pixiv" : "https://www.pixiv.net/member.php?id=5358936",
 		"other" : ""
 	},
-	"class" : "ザラ級",
+	"class" : "Zara-class",
 	"enhance": {
 		"firepower" : "26",
 		"torpedo" : "0",
 		"aviation" : "0",
 		"reload" : "13"
 	},
-	"acquisitionMethod" : "イベント：悲歎せし焔海の詩",
+	"acquisitionMethod" : "Event: Empyreal Tragicomedy",
 	"skill": {
 		"1" : {
 			"icon" : "12620",
-			"requirement" : "",
-			"name" : "テルニシールド",
+			"requirement" : "Default Unlocked",
+			"name" : "Terni Shields",
 			"type" : "Defensive",
-			"description" : "自身がダメージを受けた場合$1で発動、12秒間、敵弾を10回まで無効できる盾を2つ生成する。"
+			"description" : "When this ship takes DMG: 8.0%(18.0%) chance to deploy 2 shields that can each block up to 10 shells (shields last for 12s.)"
 		},
 		"2" : {
 			"icon" : "12630",
-			"requirement" : "",
-			"name" : "半徹甲高爆榴弾",
+			"requirement" : "Default Unlocked",
+			"name" : "Semi-Armor Piercing High-Explosive",
 			"type" : "Offensive",
-			"description" : "自身が榴弾・SAP弾属性主砲を装備している場合、敵を炎上させる効果が無くなる代わりに与えるダメージを$1増加する；徹甲弾属性主砲を装備している場合、主砲攻撃が敵に命中した時に$2で発動：10秒間自身がその敵に与えるダメージが$3アップ"
+			"description" : "While this ship has an HE or SAP Main Gun equipped: increases its Main Gun DMG dealt by 4.5%(12.0%) but loses the ability to ignite enemies. While this ship has an AP Main Gun equipped: 3.5%(8.0%) chance to cause enemies hit with the gun to take 5.0%(15.0%) more DMG from this ship for 10s."
 		},
 		"3" : {
 			"icon" : "25221",
-			"requirement" : "",
-			"name" : "全弾発射Ⅰ",
+			"requirement" : "Limit Break I (III)",
+			"name" : "All Out Assault Ⅰ",
 			"type" : "Offensive",
-			"description" : "自身の主砲で12回攻撃する度に、全弾発射-ザラ級Ⅰを行う"
+			"description" : "Activates All Out Assault Ⅰ: Zara Class once every 12 times the Main Guns are fired."
 		}
 	},
 	"skin": {
 		"1" : {
 			"id" : "zhala",
-			"name" : "ザラ",
-			"description" : "ザラ級重巡洋艦・ザラ",
+			"name" : "Zara ",
+			"description" : "Zara-class heavy cruiser – Zara. ",
 			"expression" : {
 				"0" : {
 					"id" : "0"
+				},
+				"1" : {
+					"id" : "1"
+				},
+				"2" : {
+					"id" : "2"
+				},
+				"3" : {
+					"id" : "3"
+				},
+				"4" : {
+					"id" : "4"
 				}
 			}
 		},
 		"2" : {
 			"id" : "zhala_2",
-			"name" : "水辺の出逢い",
-			"description" : "ふぅ…やっぱり今日は水泳日和ね。あら、指揮官も泳ぎに来たの？それとも…なにか別の目的でもある？ふふふ♪",
+			"name" : "Poolside Coincidence",
+			"description" : "Phew... It's a perfect day for swimming. Oh my, Commander, did you come to swim too? Or... perhaps you had something else in mind? Ehehe~♪",
 			"expression" : {
 				"0" : {
 					"id" : "0"
@@ -111,7 +123,7 @@
 		"1" : {
 			"icon" : "55200",
 			"rarity" : "Rare",
-			"name" : "203mm連装砲Model1927"
+			"name" : "Twin 203mm Main Gun (M1927) "
 		},
 		"2" : {
 			"icon" : "",
@@ -121,7 +133,7 @@
 		"3" : {
 			"icon" : "55500",
 			"rarity" : "Common",
-			"name" : "37mm連装機銃Model1932"
+			"name" : "Twin 37mm AA Gun (M1932) "
 		}
 	},
 	"stats": {
@@ -212,9 +224,9 @@
 		}
 	},
 	"limitBreak": {
-		"tier1": "全弾発射スキル習得/主砲補正+5%",
-		"tier2": "主砲砲座+1/主砲補正+10%",
-		"tier3": "全弾発射弾幕強化/武器補正+5%"
+		"tier1": "Unlock All Out Assault Ⅰ/Main gun efficiency +5%",
+		"tier2": "Main gun base +1/Main gun efficiency +10%",
+		"tier3": "Improve All Out Assault/All weapons' efficiency +5%"
 	},
 	"equipmentLoadout": {
 		"1": {
@@ -278,9 +290,9 @@
 			"EN": ""
 		},
 		"limited": {
-			"JP": "",
-			"CN": "",
-			"EN": ""
+			"JP": "✓",
+			"CN": "✓",
+			"EN": "✓"
 		}
 	},
 	"drop": {
@@ -307,7 +319,7 @@
 			"1": {
 				"skin_id" : "zhala",
 				"id" : "0",
-				"label" : "ザラ",
+				"label" : "Zara ",
 				"dialogue" : {
 					"1" : {
 						"event" : "Ship Description",
@@ -318,7 +330,7 @@
 						"japanese" : "ザラ級重巡洋艦・ザラ",
 						"japaneseTL" : "",
 						"japaneseNote" : "",
-						"english" : "",
+						"english" : "Zara-class heavy cruiser – Zara. ",
 						"englishNote" : ""
 					},
 					"2" : {
@@ -330,7 +342,7 @@
 						"japanese" : "ザラ級重巡洋艦の1番艦、ザラよ。水上砲戦のために誕生した私は、誇らしい主砲射程と防御装甲を持ち、戦隊旗艦として戦ったわ。あの運命の夜までは……",
 						"japaneseTL" : "",
 						"japaneseNote" : "",
-						"english" : "",
+						"english" : "I am the first ship of the Zara class of heavy cruisers, Zara. I was born to be a marine battery, with my magnificent guns and armor plating. I served as the flagship of my squadron, at least until that fateful night...",
 						"englishNote" : ""
 					},
 					"3" : {
@@ -342,7 +354,7 @@
 						"japanese" : "チャオ。指揮官、会えて嬉しいわ。重巡ザラ、貴方の艦隊に勝利と栄光を。よろしくお願いよ",
 						"japaneseTL" : "",
 						"japaneseNote" : "",
-						"english" : "",
+						"english" : "Ciao. It's a pleasure to meet you, Commander. I'm the heavy cruiser, Zara, and I look forward to bringing victory and glory to your fleet. ",
 						"englishNote" : ""
 					},
 					"4" : {
@@ -354,7 +366,7 @@
 						"japanese" : "おかえり。ザラはみんなと一緒にいつでも観閲を待ってるわ",
 						"japaneseTL" : "",
 						"japaneseNote" : "",
-						"english" : "",
+						"english" : "Welcome back. I've gathered everyone up and we're awaiting your inspection.",
 						"englishNote" : ""
 					},
 					"5" : {
@@ -366,7 +378,7 @@
 						"japanese" : "あら、私とポーラはよく外見で褒められるけど、このようにじろじろ見ていては変に噂されるわよ？",
 						"japaneseTL" : "",
 						"japaneseNote" : "",
-						"english" : "",
+						"english" : "Now, Pola and I are often praised for our beauty, but aren't you worried that all this ogling might cause some unsavory rumors?",
 						"englishNote" : ""
 					},
 					"6" : {
@@ -378,7 +390,7 @@
 						"japanese" : "tenacemente（ティラチュメント）――どんな戦場にいようと、最後まで粘り強く戦う――これが私のモットーよ",
 						"japaneseTL" : "",
 						"japaneseNote" : "",
-						"english" : "",
+						"english" : "Tenacemente, that is, fighting to the bitter end, no matter the odds, is my personal motto.Looking up at the night sky, admiring the countless glimmering stars, it's really nice, actually. But it's better enjoyed from inside... don't you think?By the way, I've actually got kind of an eye for fashion. How about I help dress you next time, Commander?",
 						"englishNote" : ""
 					},
 					"7" : {
@@ -414,7 +426,7 @@
 						"japanese" : "指揮官はこの剣に興味が？それとも…ほかのところがお気に入りなのかな？",
 						"japaneseTL" : "",
 						"japaneseNote" : "",
-						"english" : "",
+						"english" : "You like my sword, Commander? Or could it be... something else you're interested in?",
 						"englishNote" : ""
 					},
 					"10" : {
@@ -426,7 +438,7 @@
 						"japanese" : "きゃっ！？―――コホン！ザラが誇らしいのは防御装甲だけじゃないわよ？主砲の「威力」、味わってみたいのかしら？",
 						"japaneseTL" : "",
 						"japaneseNote" : "",
-						"english" : "",
+						"english" : "Eeek?! ... Ahem! There is more to me than my armor plating, you know? Maybe you would like a taste of my guns as well?",
 						"englishNote" : ""
 					},
 					"11" : {
@@ -438,7 +450,7 @@
 						"japanese" : "難しい任務でもあったのかしら？私にも見せてちょうだい？",
 						"japaneseTL" : "",
 						"japaneseNote" : "",
-						"english" : "",
+						"english" : "Is this mission giving you trouble? Here, let me take a look.",
 						"englishNote" : ""
 					},
 					"12" : {
@@ -450,7 +462,7 @@
 						"japanese" : "任務完了よ！ふふふ、報酬がなかなか多いじゃない？指揮官、いい子いい子～",
 						"japaneseTL" : "",
 						"japaneseNote" : "",
-						"english" : "",
+						"english" : "Mission complete! My my, that's quite a big reward there, isn't it? Well done, Commander~",
 						"englishNote" : ""
 					},
 					"13" : {
@@ -462,7 +474,7 @@
 						"japanese" : "指揮官？メールが届いたわ。このまま確認しないと私が読み上げちゃうわよ？誰かからのラブレターかもしれないもの、ふふふ",
 						"japaneseTL" : "",
 						"japaneseNote" : "",
-						"english" : "",
+						"english" : "Commander? The mail is here. If you don't get to it soon, I could always read it out loud for you? I wonder if there are any love letters, hehehe...",
 						"englishNote" : ""
 					},
 					"14" : {
@@ -474,7 +486,7 @@
 						"japanese" : "出撃お疲れ様。気晴らしにワインでもどう？",
 						"japaneseTL" : "",
 						"japaneseNote" : "",
-						"english" : "",
+						"english" : "An exhausting mission, was it? Why not relax with a glass of wine?",
 						"englishNote" : ""
 					},
 					"15" : {
@@ -486,7 +498,7 @@
 						"japanese" : "物資をこんなに運んできてくれるなんて本当に頑張ったわね…指揮官、ちゃんとあの子たちをねぎらってちょうだい",
 						"japaneseTL" : "",
 						"japaneseNote" : "",
-						"english" : "",
+						"english" : "Commander, you must profusely thank all these girls for ensuring the safe delivery of these supplies.",
 						"englishNote" : ""
 					},
 					"16" : {
@@ -498,7 +510,7 @@
 						"japanese" : "Grazie！主砲が敵をより捉えやすくなったわ",
 						"japaneseTL" : "",
 						"japaneseNote" : "",
-						"english" : "",
+						"english" : "Grazie! Now my main guns are an even greater threat to the enemy.",
 						"englishNote" : ""
 					},
 					"17" : {
@@ -510,7 +522,7 @@
 						"japanese" : "旗艦は慣れているわ。全艦、戦闘陣形、Tiro（ティーロ）！",
 						"japaneseTL" : "",
 						"japaneseNote" : "",
-						"english" : "",
+						"english" : "I'm used to being flagship. All ships, get into formation! Tiro!",
 						"englishNote" : ""
 					},
 					"18" : {
@@ -522,7 +534,7 @@
 						"japanese" : "言ったとおりよ。指揮官に勝利と栄光を――",
 						"japaneseTL" : "",
 						"japaneseNote" : "",
-						"english" : "",
+						"english" : "I've brought you victory and glory, just as I promised.",
 						"englishNote" : ""
 					},
 					"19" : {
@@ -534,7 +546,7 @@
 						"japanese" : "くっ……あの屈辱的な夜、思い出したくもないわ…っ！",
 						"japaneseTL" : "",
 						"japaneseNote" : "",
-						"english" : "",
+						"english" : "Ugh... Don't make me recall the humiliation I endured that night...!",
 						"englishNote" : ""
 					},
 					"20" : {
@@ -546,7 +558,7 @@
 						"japanese" : "私の守り、容易く貫けるとは思わないことね！",
 						"japaneseTL" : "",
 						"japaneseNote" : "",
-						"english" : "",
+						"english" : "Don't think you can pierce my armor so easily! ",
 						"englishNote" : ""
 					},
 					"21" : {
@@ -558,7 +570,7 @@
 						"japanese" : "防御装甲…まだ行けるわ！",
 						"japaneseTL" : "",
 						"japaneseNote" : "",
-						"english" : "",
+						"english" : "My armor... will hold!",
 						"englishNote" : ""
 					},
 					"22" : {
@@ -570,7 +582,7 @@
 						"japanese" : "ダメね…こんな指揮官、人を惹きつけるところなんてちっともないもの…",
 						"japaneseTL" : "",
 						"japaneseNote" : "",
-						"english" : "",
+						"english" : "Terrible... There's absolutely nothing about this commander anyone could ever find appealing...",
 						"englishNote" : ""
 					},
 					"23" : {
@@ -582,7 +594,7 @@
 						"japanese" : "ザラは指揮官のどんな悩みも相談に乗るわ。遠慮しないで？",
 						"japaneseTL" : "",
 						"japaneseNote" : "",
-						"english" : "",
+						"english" : "Is there something bothering you, Commander? Let's hear it then.",
 						"englishNote" : ""
 					},
 					"24" : {
@@ -594,7 +606,7 @@
 						"japanese" : "ポーラはあんな感じであっても、本当は傷つきやすいタイプよ？…あの子をいじめる人は…例え指揮官でも簡単には許さないわよ？",
 						"japaneseTL" : "",
 						"japaneseNote" : "",
-						"english" : "",
+						"english" : "Despite her appearances, Pola is a really sensitive girl, you know? And anyone who dares to hurt her... even you, Commander, would not be easily forgiven.",
 						"englishNote" : ""
 					},
 					"25" : {
@@ -606,7 +618,7 @@
 						"japanese" : "せっかく指揮官と二人っきりになったし、なにかしたいことでもある？…耳かき？うん、じゃあ…はい、ここで横になって～もう指揮官ったら緊張しないでもいいわよ？このザラが優しく、しっかり「耳かき」、してあげるからね♪",
 						"japaneseTL" : "",
 						"japaneseNote" : "",
-						"english" : "",
+						"english" : "Now that we're finally alone together, was there something you wanted to do, Commander? ... You want me to clean your ears? Well, all right... Come, put your head right here~ And please, try to relax, okay? I'm going to very gently, very slowly, clean your ears♪",
 						"englishNote" : ""
 					},
 					"26" : {
@@ -618,7 +630,7 @@
 						"japanese" : "指揮官なら、私が言葉に出さなくても分かってくれるよね？ふふ、今私が誰のことを考えているかな？――まあ当てるまでもなく指揮官のことよ。ふふふ♪",
 						"japaneseTL" : "",
 						"japaneseNote" : "",
-						"english" : "",
+						"english" : "Commander, after all this time together, you should already know what I'm thinking before I even open my mouth. Hehe, so who am I thinking about right now? Of course it's you, Commander, that's too easy. Hehehe♪",
 						"englishNote" : ""
 					},
 					"27" : {
@@ -630,7 +642,7 @@
 						"japanese" : "小さな指輪だけでザラをずっとそばに繋ぎ止めるつもり？これではちょっと足りないかな～……ふふ、そんな顔しないで…はは、冗談はここまでにして～安心して、指揮官。私、ずっとあなたのそばにいてあげるわよ",
 						"japaneseTL" : "",
 						"japaneseNote" : "",
-						"english" : "",
+						"english" : "You really think you can bind me to you with nothing but a cheap little ring? This isn't nearly enough~ ... Hehe, don't give me that face... Haha, I'm only joking~ Don't worry, Commander. I'll be with you forever.",
 						"englishNote" : ""
 					},
 					"28" : {
@@ -642,7 +654,7 @@
 						"japanese" : "今は戦友、ね…火力支援、よろしく頼むわ！",
 						"japaneseTL" : "",
 						"japaneseNote" : "",
-						"english" : "",
+						"english" : "We're allies now, huh... I'm counting on your fire support then!",
 						"englishNote" : ""
 					},
 					"29" : {
@@ -686,7 +698,7 @@
 			"2": {
 				"skin_id" : "zhala_2",
 				"id" : "1",
-				"label" : "水辺の出逢い",
+				"label" : "Poolside Coincidence",
 				"dialogue" : {
 					"1" : {
 						"event" : "Ship Description",
@@ -697,7 +709,7 @@
 						"japanese" : "ふぅ…やっぱり今日は水泳日和ね。あら、指揮官も泳ぎに来たの？それとも…なにか別の目的でもある？ふふふ♪",
 						"japaneseTL" : "",
 						"japaneseNote" : "",
-						"english" : "",
+						"english" : "Phew... It's a perfect day for swimming. Oh my, Commander, did you come to swim too? Or... perhaps you had something else in mind? Ehehe~♪",
 						"englishNote" : ""
 					},
 					"2" : {
@@ -709,7 +721,7 @@
 						"japanese" : "ふぅ…やっぱり今日は水泳日和ね。あら、指揮官も泳ぎに来たの？それとも…なにか別の目的でもある？ふふふ♪",
 						"japaneseTL" : "",
 						"japaneseNote" : "",
-						"english" : "",
+						"english" : "Phew... It's a perfect day for swimming. Oh my, Commander, did you come to swim too? Or... perhaps you had something else in mind? Ehehe~♪",
 						"englishNote" : ""
 					},
 					"3" : {
@@ -721,7 +733,7 @@
 						"japanese" : "指揮官、深いところで泳ぐときは安全に気をつけたほうがいいわ",
 						"japaneseTL" : "",
 						"japaneseNote" : "",
-						"english" : "",
+						"english" : "Commander, please be careful swimming in the deep end, okay?",
 						"englishNote" : ""
 					},
 					"4" : {
@@ -733,7 +745,7 @@
 						"japanese" : "準備運動はちゃんとしてる？水中で足がつったら大変よ？",
 						"japaneseTL" : "",
 						"japaneseNote" : "",
-						"english" : "",
+						"english" : "Did you do your stretches? You don't want your legs cramping up in the water.",
 						"englishNote" : ""
 					},
 					"5" : {
@@ -745,7 +757,7 @@
 						"japanese" : "――こら、今のは危ないから、プールでしちゃダメよ？",
 						"japaneseTL" : "",
 						"japaneseNote" : "",
-						"english" : "",
+						"english" : "Hey, no horseplay in the pool!",
 						"englishNote" : ""
 					},
 					"6" : {
@@ -757,7 +769,7 @@
 						"japanese" : "泳ぐのは好きだけど、駆逐艦と潜水艦たちにはいつも勝てないわね…指揮官、なぜでしょうね…？",
 						"japaneseTL" : "",
 						"japaneseNote" : "",
-						"english" : "",
+						"english" : "I really like swimming, but the submarines and destroyers are always faster... Why is that, Commander...?",
 						"englishNote" : ""
 					},
 					"7" : {
@@ -769,7 +781,7 @@
 						"japanese" : "速さは別として、スタミナには自信があるわよ？指揮官、競争でもしてみない？",
 						"japaneseTL" : "",
 						"japaneseNote" : "",
-						"english" : "",
+						"english" : "Speed is one thing, but I'm quite confident in my stamina. How about it, Commander? Want to try me?",
 						"englishNote" : ""
 					},
 					"8" : {
@@ -781,7 +793,7 @@
 						"japanese" : "どこを見てるの？ふふ、今考えてること、素直に教えなさい？",
 						"japaneseTL" : "",
 						"japaneseNote" : "",
-						"english" : "",
+						"english" : "Your eyes are wandering. Hehe, what's on your mind? You can tell me.",
 						"englishNote" : ""
 					},
 					"9" : {
@@ -793,7 +805,7 @@
 						"japanese" : "もう、指揮官？焦ってるのはわかるけど、時と場合を考えるべきじゃなくて？",
 						"japaneseTL" : "",
 						"japaneseNote" : "",
-						"english" : "",
+						"english" : "Really now, Commander? I understand your eagerness, but there's a time and place, no?",
 						"englishNote" : ""
 					},
 					"10" : {
@@ -805,7 +817,7 @@
 						"japanese" : "足をまっすぐ、足首も伸ばして――あ、指揮官お疲れ様。見ての通り、他の子たちに水泳を教えていたところよ。指揮官も私から教わりたいのかしら？",
 						"japaneseTL" : "",
 						"japaneseNote" : "",
-						"english" : "",
+						"english" : "Legs straight, calves stretched– Ah, welcome back, Commander. I suppose you can tell I've been learning to swim. Would you like me to teach you?",
 						"englishNote" : ""
 					}
 				}

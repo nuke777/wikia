@@ -11,7 +11,8 @@
 	"hull" : "Destroyer",
 	"navy" : "Sardegna Empire",
 	"prefix" : "RN",
-	"buildTime" : "",
+	"buildTime" : "N/A",
+	"voiceActress" : "Rika Tachibana",
 	"parameters": {
 		"firepower" : "A",
 		"torpedo" : "D",
@@ -26,64 +27,73 @@
 		"medal" : "4"
 	},
 	"releaseDate": {
-		"JP" : "",
-		"CN" : "",
-		"KR" : "",
-		"EN" : ""
+		"JP" : "September 11, 2019",
+		"CN" : "September 11, 2019",
+		"KR" : "September 11, 2019",
+		"EN" : "September 11, 2019"
 	},
 	"artist": {
-		"name" : "",
-		"weibo" : "",
-		"twitter" : "",
-		"pixiv" : "",
+		"name" : "梦咲枫",
+		"weibo" : "https://weibo.com/u/3558369570",
+		"twitter" : "https://twitter.com/yumesaki_kaede/",
+		"pixiv" : "https://www.pixiv.net/member.php?id=1023957",
 		"other" : ""
 	},
-	"class" : " ソルダティ級",
+	"class" : "Soldati-class",
 	"enhance": {
 		"firepower" : "8",
 		"torpedo" : "16",
 		"aviation" : "0",
 		"reload" : "14"
 	},
-	"acquisitionMethod" : "イベント：悲歎せし焔海の詩",
+	"acquisitionMethod" : "Event: Empyreal Tragicomedy",
 	"skill": {
 		"1" : {
 			"icon" : "12660",
-			"requirement" : "",
-			"name" : "Ricarica！",
+			"requirement" : "Default Unlocked",
+			"name" : "Ricarica!",
 			"type" : "Offensive",
-			"description" : "戦闘中、自身の魚雷攻撃は3回目まで敵に与えるダメージが$1アップ"
+			"description" : "Increases this ship's Torpedo DMG by 30.0%(50.0%) for its first 3 Torpedo launches."
 		},
 		"2" : {
 			"icon" : "12670",
-			"requirement" : "",
-			"name" : "Fuoco di Copertura！ ",
+			"requirement" : "Default Unlocked",
+			"name" : "Fuoco di Copertura!",
 			"type" : "Support",
-			"description" : "自身が前衛艦隊の最後尾（前衛艦隊戦闘可能艦が2隻以上）にいる場合、20秒毎に$1で発動。10秒間、自身の与えるダメージが$2アップし、味方前衛艦隊先頭の艦船が与えるダメージが$3アップ"
+			"description" : "Every 20s, if this ship is in the backmost position of your Vanguard (there must be 2 or more ships alive in your Vanguard): 40.0%(70.0%) chance to increase this ship's DMG dealt by 5.0%(15.0%) and increase the DMG dealt by the ship in the frontmost position of your Vanguard by 5.0%(15.0%) for 10s."
 		},
 		"3" : {
 			"icon" : "25011",
-			"requirement" : "",
-			"name" : "全弾発射Ⅰ",
+			"requirement" : "Limit Break I (III)",
+			"name" : "All Out Assault Ⅰ",
 			"type" : "Offensive",
-			"description" : "自身の主砲で15回攻撃する度に、全弾発射-ソルダティ級Ⅰを行う"
+			"description" : "Activates All Out Assault Ⅰ: Soldati Class once every 15 times the Main Guns are fired."
 		}
 	},
 	"skin": {
 		"1" : {
 			"id" : "longqibing",
-			"name" : "カラビニエーレ",
-			"description" : "ソルダティ級駆逐艦・カラビニエーレ",
+			"name" : "Carabiniere ",
+			"description" : "Soldati-class destroyer – Carabiniere. ",
 			"expression" : {
 				"0" : {
 					"id" : "0"
+				},
+				"1" : {
+					"id" : "1"
+				},
+				"2" : {
+					"id" : "2"
+				},
+				"3" : {
+					"id" : "3"
 				}
 			}
 		},
 		"2" : {
 			"id" : "longqibing_2",
-			"name" : "スッキリ日曜チョイス",
-			"description" : "こ、これはヴェネト様から、休日は休日らしい格好に変えたほうがいいと言われまして……うっ、指揮官、へ、変じゃないですよね！？",
+			"name" : "Refreshing Sundress",
+			"description" : "Lady Veneto advised me to enjoy my time off by changing into something befitting the occasion... Um, Commander, I d-don't look strange, do I?",
 			"expression" : {
 				"0" : {
 					"id" : "0"
@@ -110,7 +120,7 @@
 		"1" : {
 			"icon" : "55400",
 			"rarity" : "Common",
-			"name" : "120mm連装砲Model1936"
+			"name" : "Twin 120mm Main Gun (M1936) "
 		},
 		"2" : {
 			"icon" : "5000",
@@ -211,9 +221,9 @@
 		}
 	},
 	"limitBreak": {
-		"tier1": "全弾発射スキル習得/主砲補正+5%",
-		"tier2": "魚雷装填数+1/開始時魚雷+1/主砲補正+10%",
-		"tier3": "全弾発射弾幕強化/武器補正+5%"
+		"tier1": "Unlock All Out Assault Ⅰ/Main gun efficiency +5%",
+		"tier2": "Torpedo base +1/Torpedo preload +1/Main gun efficiency +10%",
+		"tier3": "Improve All Out Assault/All weapons' efficiency +5%"
 	},
 	"equipmentLoadout": {
 		"1": {
@@ -306,7 +316,7 @@
 			"1": {
 				"skin_id" : "longqibing",
 				"id" : "0",
-				"label" : "カラビニエーレ",
+				"label" : "Carabiniere ",
 				"dialogue" : {
 					"1" : {
 						"event" : "Ship Description",
@@ -317,7 +327,7 @@
 						"japanese" : "ソルダティ級駆逐艦・カラビニエーレ",
 						"japaneseTL" : "",
 						"japaneseNote" : "",
-						"english" : "",
+						"english" : "Soldati-class destroyer – Carabiniere. ",
 						"englishNote" : ""
 					},
 					"2" : {
@@ -329,7 +339,7 @@
 						"japanese" : "自分はソルダティ級駆逐艦の一員として、また第12駆逐隊の隊長としてかの大戦で仲間たちと共に活躍したのであります！どんな時でも、どんな任務でも、全力で挑む所存であります！",
 						"japaneseTL" : "",
 						"japaneseNote" : "",
-						"english" : "",
+						"english" : "As a member of the Soldati-class destroyers, I served as the leader of the 12th Destroyer Squadron and led my compatriots through many battles. No matter when or where, I shall give it my all to complete any mission!",
 						"englishNote" : ""
 					},
 					"3" : {
@@ -341,7 +351,7 @@
 						"japanese" : "サディア帝国所属、総旗艦ヴェネト様の護衛、カラビニエーレであります！己が使命を果たし、忠実に任務をこなす覚悟であります！",
 						"japaneseTL" : "",
 						"japaneseNote" : "",
-						"english" : "",
+						"english" : "Flagship Veneto's escort, Carabiniere of the Sardegna Empire, reporting for duty! As your subordinate, I will carry out your orders and complete any mission!",
 						"englishNote" : ""
 					},
 					"4" : {
@@ -353,7 +363,7 @@
 						"japanese" : "敬礼！カラビニエーレ、指揮官の到着をお待ちしておりました！",
 						"japaneseTL" : "",
 						"japaneseNote" : "",
-						"english" : "",
+						"english" : "Salutations! Carabiniere welcomes you, Commander!",
 						"englishNote" : ""
 					},
 					"5" : {
@@ -365,7 +375,7 @@
 						"japanese" : "指揮官、パトロール中の自分に何かご指示はありますか？",
 						"japaneseTL" : "",
 						"japaneseNote" : "",
-						"english" : "",
+						"english" : "Commander, I'm currently on patrol. Do you have any new instructions for me?",
 						"englishNote" : ""
 					},
 					"6" : {
@@ -377,7 +387,7 @@
 						"japanese" : "ロイヤルの潜水艦はいつも神出鬼没で、自分もあの大戦で大いにやられたのでありましたね…",
 						"japaneseTL" : "",
 						"japaneseNote" : "",
-						"english" : "",
+						"english" : "Royal submarines have always been elusive and mercurial. They've gotten the better of me in the past... ",
 						"englishNote" : ""
 					},
 					"7" : {
@@ -389,7 +399,7 @@
 						"japanese" : "この艤装だけではなく、カービン銃も使いこなせるのであります！馬の上でも問題ありません！",
 						"japaneseTL" : "",
 						"japaneseNote" : "",
-						"english" : "",
+						"english" : "My gun? I'm telling you, it's real! I just don't have it loaded. ",
 						"englishNote" : ""
 					},
 					"8" : {
@@ -401,7 +411,7 @@
 						"japanese" : "「仕事中につき面会拒絶」っと、看板を外に飾っておきました！指揮官、ご安心ください！",
 						"japaneseTL" : "",
 						"japaneseNote" : "",
-						"english" : "",
+						"english" : "\"Don't disturb during work hours.\" I put this sign up so you can have your peace of mind!",
 						"englishNote" : ""
 					},
 					"9" : {
@@ -413,7 +423,7 @@
 						"japanese" : "Sì！",
 						"japaneseTL" : "",
 						"japaneseNote" : "",
-						"english" : "",
+						"english" : "Sì!",
 						"englishNote" : ""
 					},
 					"10" : {
@@ -425,7 +435,7 @@
 						"japanese" : "じ、自分を困らせないでください！",
 						"japaneseTL" : "",
 						"japaneseNote" : "",
-						"english" : "",
+						"english" : "P-please don't tease your subordinates like that!",
 						"englishNote" : ""
 					},
 					"11" : {
@@ -437,7 +447,7 @@
 						"japanese" : "指揮官、まだ完了されていない任務があります。自分になにかできることはないのでしょうか",
 						"japaneseTL" : "",
 						"japaneseNote" : "",
-						"english" : "",
+						"english" : "Commander, there are still tasks that need to be finished. Do you require anything of me?",
 						"englishNote" : ""
 					},
 					"12" : {
@@ -449,7 +459,7 @@
 						"japanese" : "任務完了であります！即物的な報酬は多いのでありますが、ほかにもなにかがあれば……",
 						"japaneseTL" : "",
 						"japaneseNote" : "",
-						"english" : "",
+						"english" : "The missions are done, and we have quite the rewards to show for it. If there were some non-material rewards though...",
 						"englishNote" : ""
 					},
 					"13" : {
@@ -461,7 +471,7 @@
 						"japanese" : "指揮官、メールが溜まっているようであります",
 						"japaneseTL" : "",
 						"japaneseNote" : "",
-						"english" : "",
+						"english" : "Commander, the mailbox seems to be filling up.",
 						"englishNote" : ""
 					},
 					"14" : {
@@ -473,7 +483,7 @@
 						"japanese" : "指揮官、出撃中の来訪者記録、ご確認になりますか？",
 						"japaneseTL" : "",
 						"japaneseNote" : "",
-						"english" : "",
+						"english" : "Commander, an inquiry arrived while you were gone. Do you want to look it over?",
 						"englishNote" : ""
 					},
 					"15" : {
@@ -485,7 +495,7 @@
 						"japanese" : "委託組の仲間たちであります！よかった、みんな無事帰還しました！",
 						"japaneseTL" : "",
 						"japaneseNote" : "",
-						"english" : "",
+						"english" : "The commission team has returned! I'm so glad that everyone came back safely.",
 						"englishNote" : ""
 					},
 					"16" : {
@@ -497,7 +507,7 @@
 						"japanese" : "より一層、精進します！",
 						"japaneseTL" : "",
 						"japaneseNote" : "",
-						"english" : "",
+						"english" : "I shall definitely become a better subordinate!",
 						"englishNote" : ""
 					},
 					"17" : {
@@ -509,7 +519,7 @@
 						"japanese" : "指揮官のために、出撃します！",
 						"japaneseTL" : "",
 						"japaneseNote" : "",
-						"english" : "",
+						"english" : "In Commander's name, I sortie!",
 						"englishNote" : ""
 					},
 					"18" : {
@@ -521,7 +531,7 @@
 						"japanese" : "勝利は我々のものであります！",
 						"japaneseTL" : "",
 						"japaneseNote" : "",
-						"english" : "",
+						"english" : "Victory is ours!",
 						"englishNote" : ""
 					},
 					"19" : {
@@ -533,7 +543,7 @@
 						"japanese" : "くっ…！ど、どんな懲罰でも自分、謹んでお受けします！",
 						"japaneseTL" : "",
 						"japaneseNote" : "",
-						"english" : "",
+						"english" : "Ugh... th-this subordinate will accept any punishment!",
 						"englishNote" : ""
 					},
 					"20" : {
@@ -545,7 +555,7 @@
 						"japanese" : "狙い定めた！",
 						"japaneseTL" : "",
 						"japaneseNote" : "",
-						"english" : "",
+						"english" : "Locked on! ",
 						"englishNote" : ""
 					},
 					"21" : {
@@ -557,7 +567,7 @@
 						"japanese" : "こんなはずでは……！",
 						"japaneseTL" : "",
 						"japaneseNote" : "",
-						"english" : "",
+						"english" : "This isn't how it was supposed to be...",
 						"englishNote" : ""
 					},
 					"22" : {
@@ -569,7 +579,7 @@
 						"japanese" : "指揮官、自分は……いいえ！何でもありません！ご命令に従います！",
 						"japaneseTL" : "",
 						"japaneseNote" : "",
-						"english" : "",
+						"english" : "Commander, I don't think that... Nevermind, your subordinate shall follow your order.",
 						"englishNote" : ""
 					},
 					"23" : {
@@ -581,7 +591,7 @@
 						"japanese" : "指揮官、ご安心を！自分の忠誠は決して揺るがないのであります！",
 						"japaneseTL" : "",
 						"japaneseNote" : "",
-						"english" : "",
+						"english" : "Rest assured, Commander. This subordinate shall always be loyal to you.",
 						"englishNote" : ""
 					},
 					"24" : {
@@ -593,7 +603,7 @@
 						"japanese" : "指揮官、外出なさるのでしたら護衛は自分に任せてください！",
 						"japaneseTL" : "",
 						"japaneseNote" : "",
-						"english" : "",
+						"english" : "Commander, if you plan on going out, please let me be your bodyguard!",
 						"englishNote" : ""
 					},
 					"25" : {
@@ -605,7 +615,7 @@
 						"japanese" : "いつもお引き立ていただき、誠に恐悦至極であります！…そばにいてくれると指揮官も安心できる、ですか？了解しました！より一層精進します！",
 						"japaneseTL" : "",
 						"japaneseNote" : "",
-						"english" : "",
+						"english" : "Commander, I'm really flattered that you treat me so well... You feel safe when I'm by your side? Understood. Your subordinate shall work harder in that regard!",
 						"englishNote" : ""
 					},
 					"26" : {
@@ -617,7 +627,7 @@
 						"japanese" : "外出なさるのですか？では護衛を――近いから大丈夫、ですか？お、お言葉ですがどんなに近所だろうとリスクがあります！是非自分にも同行させてください！",
 						"japaneseTL" : "",
 						"japaneseNote" : "",
-						"english" : "",
+						"english" : "Commander, are you heading out? Do you need a bodyguard... Oh, it's just a civilian errand? N-no! Even if it's just across the street, y-you never know what hazards lie in wait... S-so, let's go together!",
 						"englishNote" : ""
 					},
 					"27" : {
@@ -629,7 +639,7 @@
 						"japanese" : "自分、指揮官に一生ついていくのであります！…そういう意味じゃない、ですか？ほ、本当はわかっています！わかっていますけど、自分のような者が本当に指揮官と添い遂げられるでしょうか……？",
 						"japaneseTL" : "",
 						"japaneseNote" : "",
-						"english" : "",
+						"english" : "From now on, this subordinate shall serve you for life! ...That's not what it means? Um, then... I see! B-but, can someone like me really be your partner?",
 						"englishNote" : ""
 					},
 					"28" : {
@@ -673,7 +683,7 @@
 			"2": {
 				"skin_id" : "longqibing_2",
 				"id" : "1",
-				"label" : "スッキリ日曜チョイス",
+				"label" : "Refreshing Sundress",
 				"dialogue" : {
 					"1" : {
 						"event" : "Ship Description",
@@ -684,7 +694,7 @@
 						"japanese" : "こ、これはヴェネト様から、休日は休日らしい格好に変えたほうがいいと言われまして……うっ、指揮官、へ、変じゃないですよね！？",
 						"japaneseTL" : "",
 						"japaneseNote" : "",
-						"english" : "",
+						"english" : "Lady Veneto advised me to enjoy my time off by changing into something befitting the occasion... Um, Commander, I d-don't look strange, do I?",
 						"englishNote" : ""
 					},
 					"2" : {
@@ -696,7 +706,7 @@
 						"japanese" : "こ、これはヴェネト様から、休日は休日らしい格好に変えたほうがいいと言われまして……うっ、指揮官、へ、変じゃないですよね！？",
 						"japaneseTL" : "",
 						"japaneseNote" : "",
-						"english" : "",
+						"english" : "Lady Veneto advised me to enjoy my time off by changing into something befitting the occasion... Um, Commander, I d-don't look strange, do I?",
 						"englishNote" : ""
 					},
 					"3" : {
@@ -708,7 +718,7 @@
 						"japanese" : "ご帰還、お待ちしておりました！指揮官、非番の日ですしお散歩でも……差し出がましいことを申してしまい誠に失礼いたしました！",
 						"japaneseTL" : "",
 						"japaneseNote" : "",
-						"english" : "",
+						"english" : "Welcome back, Commander. W-would you like to accompany me on a walk while we both have some time off? S-sorry, I hope I'm not being pushy...",
 						"englishNote" : ""
 					},
 					"4" : {
@@ -720,7 +730,7 @@
 						"japanese" : "この格好をしていると、なんだか気分もいつもとは違いますね。か、解放感でスッキリというか、無防備でソワソワというか……",
 						"japaneseTL" : "",
 						"japaneseNote" : "",
-						"english" : "",
+						"english" : "I can't help but to feel a little different when I put on these clothes. I know it's supposed to feel light and refreshing, but instead I feel defenseless and nervous...",
 						"englishNote" : ""
 					},
 					"5" : {
@@ -732,7 +742,7 @@
 						"japanese" : "お水をお持ちしております。喉が渇いたらどうぞ！",
 						"japaneseTL" : "",
 						"japaneseNote" : "",
-						"english" : "",
+						"english" : "If you're thirsty, I brought some water. Here you go! ",
 						"englishNote" : ""
 					},
 					"6" : {
@@ -744,7 +754,7 @@
 						"japanese" : "優しい日差し、気持ちのいい風に、高温対策の棒アイス！気分は真夏ですね！指揮官！",
 						"japaneseTL" : "",
 						"japaneseNote" : "",
-						"english" : "",
+						"english" : "The warm sunlight, the gentle breeze, and an ice pop to beat the heat! That's the spirit of midsummer! ",
 						"englishNote" : ""
 					},
 					"7" : {
@@ -756,7 +766,7 @@
 						"japanese" : "女の子は二面性があると友人からお聞きしました。お聞きしましたが…こうして普段では絶対に考えられない服に着替えてしまうと……な、なにかに目覚めた気がします…",
 						"japaneseTL" : "",
 						"japaneseNote" : "",
-						"english" : "",
+						"english" : "Commander, I heard from a friend that all girls have multiple facets... When I changed into this outfit that I'd absolutely never wear normally... it, it was as if something awakened within me...",
 						"englishNote" : ""
 					},
 					"8" : {
@@ -768,7 +778,7 @@
 						"japanese" : "指揮官、んん！「ごめんあそばせ？」",
 						"japaneseTL" : "",
 						"japaneseNote" : "",
-						"english" : "",
+						"english" : "Commander! Err, I mean, good day?",
 						"englishNote" : ""
 					},
 					"9" : {
@@ -780,7 +790,7 @@
 						"japanese" : "先に任務を片付けたほうがよろしいのでしょうか…",
 						"japaneseTL" : "",
 						"japaneseNote" : "",
-						"english" : "",
+						"english" : "Wouldn't it be better to finish the missions first...",
 						"englishNote" : ""
 					},
 					"10" : {
@@ -792,7 +802,7 @@
 						"japanese" : "くっ…！や、やっぱり自分にはこんな格好なんて無理ですよぉ…！",
 						"japaneseTL" : "",
 						"japaneseNote" : "",
-						"english" : "",
+						"english" : "Ugh... I s-suppose I'm not cut out for this after all...",
 						"englishNote" : ""
 					},
 					"11" : {
@@ -804,7 +814,7 @@
 						"japanese" : "指揮官の護衛を務めるとは言いましたが…こうして並んで歩いていると、指揮官に守られているようにしか見えませんよ！こんなの、護衛失格じゃ……あ！別に迷惑でもなんでもありませんよ！？…はぃ……",
 						"japaneseTL" : "",
 						"japaneseNote" : "",
-						"english" : "",
+						"english" : "I once said I wanted to be your bodyguard, but when we're walking together like this, it feels like you're guarding me instead. Would this be dereliction of duty...? Ah! I wasn't saying that I disapproved of it! *sigh*...",
 						"englishNote" : ""
 					}
 				}

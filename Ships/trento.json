@@ -11,7 +11,7 @@
 	"hull" : "Heavy Cruiser",
 	"navy" : "Sardegna Empire",
 	"prefix" : "RN",
-	"buildTime" : "",
+	"buildTime" : "N/A",
 	"parameters": {
 		"firepower" : "B",
 		"torpedo" : "C",
@@ -26,10 +26,10 @@
 		"medal" : "1"
 	},
 	"releaseDate": {
-		"JP" : "",
-		"CN" : "",
-		"KR" : "",
-		"EN" : ""
+		"JP" : "September 11, 2019",
+		"CN" : "September 11, 2019",
+		"KR" : "September 11, 2019",
+		"EN" : "September 11, 2019"
 	},
 	"artist": {
 		"name" : "",
@@ -38,45 +38,60 @@
 		"pixiv" : "",
 		"other" : ""
 	},
-	"class" : "トレント级",
+	"class" : "Trento-class",
 	"enhance": {
 		"firepower" : "23",
 		"torpedo" : "11",
 		"aviation" : "0",
 		"reload" : "11"
 	},
-	"acquisitionMethod" : "イベント：悲歎せし焔海の詩",
+	"acquisitionMethod" : "Event: Empyreal Tragicomedy",
 	"skill": {
 		"1" : {
 			"icon" : "2011",
-			"requirement" : "",
+			"requirement" : "Default Unlocked",
 			"name" : "Full Firepower",
 			"type" : "Offensive",
-			"description" : "Every 20s: $1 chance to increase this ship's FP by $2 for 10s."
+			"description" : "Every 20s: 30.0%(60.0%) chance to increase this ship's FP by 20.0%(40.0%) for 10s."
 		},
 		"2" : {
 			"icon" : "25211",
-			"requirement" : "",
-			"name" : "全弾発射Ⅰ",
+			"requirement" : "Limit Break I (III)",
+			"name" : "All Out Assault Ⅰ",
 			"type" : "Offensive",
-			"description" : "自身の主砲で9回攻撃する度に、全弾発射-トレント 級Ⅰを行う"
+			"description" : "Activates All Out Assault Ⅰ: Trento Class once every 9 times the Main Guns are fired."
 		}
 	},
 	"skin": {
 		"1" : {
 			"id" : "teluntuo",
-			"name" : "トレント",
-			"description" : "トレント級重巡洋艦・トレント",
+			"name" : "Trento ",
+			"description" : "Trento-class heavy cruiser – Trento. ",
 			"expression" : {
 				"0" : {
 					"id" : "0"
+				},
+				"1" : {
+					"id" : "1"
+				},
+				"2" : {
+					"id" : "2"
+				},
+				"3" : {
+					"id" : "3"
+				},
+				"4" : {
+					"id" : "4"
+				},
+				"5" : {
+					"id" : "5"
 				}
 			}
 		},
 		"2" : {
 			"id" : "teluntuo_2",
-			"name" : "マルチプル・テンプテーション",
-			"description" : "海辺にいると、夏の暑さもいくらか感じなくなりますね～指揮官？今は何も考えてなくていいから、ゆっくり休みましょう？",
+			"name" : "Summer's Hotness?",
+			"description" : "The summer's scorching heat is alleviated by the ocean~ Commander, why don't you set aside your worries and... cut loose a bit~?",
 			"expression" : {
 				"0" : {
 					"id" : "0"
@@ -100,7 +115,7 @@
 		"1" : {
 			"icon" : "55300",
 			"rarity" : "Common",
-			"name" : "203mm連装砲Model1924"
+			"name" : "Twin 203mm Main Gun (M1924) "
 		},
 		"2" : {
 			"icon" : "",
@@ -110,7 +125,7 @@
 		"3" : {
 			"icon" : "55500",
 			"rarity" : "Common",
-			"name" : "37mm連装機銃Model1932"
+			"name" : "Twin 37mm AA Gun (M1932) "
 		}
 	},
 	"stats": {
@@ -201,9 +216,9 @@
 		}
 	},
 	"limitBreak": {
-		"tier1": "全弾発射スキル習得/主砲補正+5%",
-		"tier2": "魚雷装填数+1/開始時魚雷+1/魚雷補正+10%",
-		"tier3": "全弾発射弾幕強化/魚雷補正+15%"
+		"tier1": "Unlock All Out Assault Ⅰ/Main gun efficiency +5%",
+		"tier2": "Torpedo base +1/Torpedo preload +1/Torpedo efficiency +10%",
+		"tier3": "Improve All Out Assault/Torpedo efficiency +15%"
 	},
 	"equipmentLoadout": {
 		"1": {
@@ -296,7 +311,7 @@
 			"1": {
 				"skin_id" : "teluntuo",
 				"id" : "0",
-				"label" : "トレント",
+				"label" : "Trento ",
 				"dialogue" : {
 					"1" : {
 						"event" : "Ship Description",
@@ -307,7 +322,7 @@
 						"japanese" : "トレント",
 						"japaneseTL" : "",
 						"japaneseNote" : "",
-						"english" : "",
+						"english" : "Trento-class heavy cruiser – Trento. ",
 						"englishNote" : ""
 					},
 					"2" : {
@@ -319,7 +334,7 @@
 						"japanese" : "トレント級のネームシップだけど、進水日で数えるならトリエステのほうがカンレキが長いのよね～進水日の日にはちょっとした出来事がありましたけど…サディア帝国の一員として、ちゃんと使命を果たしましたわ～",
 						"japaneseTL" : "",
 						"japaneseNote" : "",
-						"english" : "",
+						"english" : "I am the nameship of the Trento class, but if you count the days since our launches, Trieste has a longer service record. Speaking of which, I had a little incident on my launch day... but I still carried out my missions as a member of the Sardegnian fleet~",
 						"englishNote" : ""
 					},
 					"3" : {
@@ -331,7 +346,7 @@
 						"japanese" : "サディア帝国最初の重巡洋艦・トレント、お仕事を手伝いに来ました。私なりにみんなの応援もしちゃいますから、楽しみにしていてくださいね。指揮官♪",
 						"japaneseTL" : "",
 						"japaneseNote" : "",
-						"english" : "",
+						"english" : "I am Trento, first heavy cruiser of the Sardegna Empire, here to help out. I'll support everyone in my own special little way, so please do look forward to that, Commander♪",
 						"englishNote" : ""
 					},
 					"4" : {
@@ -343,7 +358,7 @@
 						"japanese" : "時間通り～指揮官、よくできました～",
 						"japaneseTL" : "",
 						"japaneseNote" : "",
-						"english" : "",
+						"english" : "Right on time~ Way to go, Commander~!",
 						"englishNote" : ""
 					},
 					"5" : {
@@ -355,7 +370,7 @@
 						"japanese" : "あの……私、今何をしようとしていましたっけ？指揮官はなにか、手がかりとか…",
 						"japaneseTL" : "",
 						"japaneseNote" : "",
-						"english" : "",
+						"english" : "Umm... What was I doing just now? Do you have any ideas, Commander...?",
 						"englishNote" : ""
 					},
 					"6" : {
@@ -367,7 +382,7 @@
 						"japanese" : "書類作業、もう終わりました？よくできました～",
 						"japaneseTL" : "",
 						"japaneseNote" : "",
-						"english" : "",
+						"english" : "You've already finished all the paperwork? That's great~!",
 						"englishNote" : ""
 					},
 					"7" : {
@@ -379,7 +394,7 @@
 						"japanese" : "ブレンドティーは…うーん、このレシピだとロイヤルの子に何か言われちゃうんですか？そうですね…",
 						"japaneseTL" : "",
 						"japaneseNote" : "",
-						"english" : "",
+						"english" : "Tea blends, let's see... Hmm, would any Royal girls take issue with this mix? Yeah, they might...",
 						"englishNote" : ""
 					},
 					"8" : {
@@ -391,7 +406,7 @@
 						"japanese" : "ここなら、東煌と重桜のグルメも楽しめそうですね～嬉しいです～",
 						"japaneseTL" : "",
 						"japaneseNote" : "",
-						"english" : "",
+						"english" : "Looks like I'll get to enjoy both the Dragon Empery's AND the Sakura Empire's cuisine at this port~ That's wonderful~",
 						"englishNote" : ""
 					},
 					"9" : {
@@ -403,7 +418,7 @@
 						"japanese" : "人はハグされるとリラックスできると聞きましたね～指揮官、試してみます…？",
 						"japaneseTL" : "",
 						"japaneseNote" : "",
-						"english" : "",
+						"english" : "I've heard that hugs help people relax~ Shall we test that theory, Commander?",
 						"englishNote" : ""
 					},
 					"10" : {
@@ -415,7 +430,7 @@
 						"japanese" : "ダメですよ？女の子にこんなことしては嫌われますからね",
 						"japaneseTL" : "",
 						"japaneseNote" : "",
-						"english" : "",
+						"english" : "That's naughty, Commander! You'll be unpopular with the girls if you keep doing stuff like this.",
 						"englishNote" : ""
 					},
 					"11" : {
@@ -427,7 +442,7 @@
 						"japanese" : "あとちょっと頑張れば、新しい任務もこなせますよぉ？",
 						"japaneseTL" : "",
 						"japaneseNote" : "",
-						"english" : "",
+						"english" : "If we push on just a little more, we can take on a new mission!",
 						"englishNote" : ""
 					},
 					"12" : {
@@ -439,7 +454,7 @@
 						"japanese" : "うんうん、任務完了～指揮官、よくできました～",
 						"japaneseTL" : "",
 						"japaneseNote" : "",
-						"english" : "",
+						"english" : "Yup, yup, mission complete! Keep it up, Commander~!",
 						"englishNote" : ""
 					},
 					"13" : {
@@ -451,7 +466,7 @@
 						"japanese" : "新しいメールを忘れないでくださいね",
 						"japaneseTL" : "",
 						"japaneseNote" : "",
-						"english" : "",
+						"english" : "Please don't forget to check your new mail!",
 						"englishNote" : ""
 					},
 					"14" : {
@@ -463,7 +478,7 @@
 						"japanese" : "さすがは指揮官、みんなと勝利してきましたわ～",
 						"japaneseTL" : "",
 						"japaneseNote" : "",
-						"english" : "",
+						"english" : "You're amazing, Commander! Bringing home another victory for the team~",
 						"englishNote" : ""
 					},
 					"15" : {
@@ -475,7 +490,7 @@
 						"japanese" : "委託組、無事帰還しましたわ。みんなを出迎えに行っていいですか？",
 						"japaneseTL" : "",
 						"japaneseNote" : "",
-						"english" : "",
+						"english" : "The commission team is back, safe and sound. May I head out to receive them?",
 						"englishNote" : ""
 					},
 					"16" : {
@@ -487,7 +502,7 @@
 						"japanese" : "ほかの子の面倒も見てあげてね？",
 						"japaneseTL" : "",
 						"japaneseNote" : "",
-						"english" : "",
+						"english" : "Please take good care of the others as well, okay?",
 						"englishNote" : ""
 					},
 					"17" : {
@@ -499,7 +514,7 @@
 						"japanese" : "みんながんばれー！私たちは負けないよー！",
 						"japaneseTL" : "",
 						"japaneseNote" : "",
-						"english" : "",
+						"english" : "Come on, everyone! We are born winners!",
 						"englishNote" : ""
 					},
 					"18" : {
@@ -511,7 +526,7 @@
 						"japanese" : "みんな頑張ったね！勝利できて本当に良かった～",
 						"japaneseTL" : "",
 						"japaneseNote" : "",
-						"english" : "",
+						"english" : "Very well done, everyone! I'm so glad we won~!",
 						"englishNote" : ""
 					},
 					"19" : {
@@ -523,7 +538,7 @@
 						"japanese" : "大丈夫大丈夫、みんなのせいじゃないわよ？",
 						"japaneseTL" : "",
 						"japaneseNote" : "",
-						"english" : "",
+						"english" : "It's okay, it's okay! This isn't anybody's fault!",
 						"englishNote" : ""
 					},
 					"20" : {
@@ -535,7 +550,7 @@
 						"japanese" : "ふふ、みんな、行こうね",
 						"japaneseTL" : "",
 						"japaneseNote" : "",
-						"english" : "",
+						"english" : "Let's go, everyone! ",
 						"englishNote" : ""
 					},
 					"21" : {
@@ -547,7 +562,7 @@
 						"japanese" : "あまり良い状況じゃないわね……",
 						"japaneseTL" : "",
 						"japaneseNote" : "",
-						"english" : "",
+						"english" : "This doesn't look very promising...",
 						"englishNote" : ""
 					},
 					"22" : {
@@ -559,7 +574,7 @@
 						"japanese" : "指揮官、諦めないで、間違いを正そうとしている限り、みんなはあなたを見捨てませんからね",
 						"japaneseTL" : "",
 						"japaneseNote" : "",
-						"english" : "",
+						"english" : "Don't give up, Commander! If you just make amends for your mistakes, nobody's going to abandon you!",
 						"englishNote" : ""
 					},
 					"23" : {
@@ -571,7 +586,7 @@
 						"japanese" : "お叱りやお説教より、褒めて伸ばすほうが好きでね～",
 						"japaneseTL" : "",
 						"japaneseNote" : "",
-						"english" : "",
+						"english" : "I much prefer complimenting and congratulating people over scolding and blaming them~",
 						"englishNote" : ""
 					},
 					"24" : {
@@ -583,7 +598,7 @@
 						"japanese" : "疲労回復効果のあるコーヒー、どうぞ～……あら、味がヘン、ですか？ええと――んゆ！？砂糖と塩を間違えたのかしら……",
 						"japaneseTL" : "",
 						"japaneseNote" : "",
-						"english" : "",
+						"english" : "Please have some of this stamina-recovering coffee! ... Oh, does it taste bad? Let me try... Eww?! I might have mistook salt for sugar...",
 						"englishNote" : ""
 					},
 					"25" : {
@@ -595,7 +610,7 @@
 						"japanese" : "うまくいかないことでもありました？うんうん、私に教えてくださいますか？困ったことは人に相談したらきっとすっきりしますよぉ～",
 						"japaneseTL" : "",
 						"japaneseNote" : "",
-						"english" : "",
+						"english" : "Are you having troubles of any kind? Could you share them with me? Telling others what's on your mind can be a great help~",
 						"englishNote" : ""
 					},
 					"26" : {
@@ -607,7 +622,7 @@
 						"japanese" : "指揮官が私を必要としてくれる限り、私は指揮官を受け入れるわ。何が起きてもここにいるから、うんうん、大丈夫、大丈夫よ～",
 						"japaneseTL" : "",
 						"japaneseNote" : "",
-						"english" : "",
+						"english" : "As long as you need me, I accept you for who you are, Commander. No matter what happens, I'll always be here for you~ See? Everything's all right~",
 						"englishNote" : ""
 					},
 					"27" : {
@@ -619,7 +634,7 @@
 						"japanese" : "心の準備はしてましたけど、いざ本当に指輪を渡されたらやっぱり嬉しいですね～…指揮官、ありがとうございます。ふふ、これからはずっとそばにいるから、どんなことが起きても私に教えてくださいね？",
 						"japaneseTL" : "",
 						"japaneseNote" : "",
-						"english" : "",
+						"english" : "I thought I was prepared for this, but now with the ring on my finger, I feel so unbelievably happy~ With all my heart, thank you, Commander. Ehehe, we'll always be with each other now, so if anything ever happens, please let me know!",
 						"englishNote" : ""
 					},
 					"28" : {
@@ -663,7 +678,7 @@
 			"2": {
 				"skin_id" : "teluntuo_2",
 				"id" : "1",
-				"label" : "マルチプル・テンプテーション",
+				"label" : "Summer's Hotness?",
 				"dialogue" : {
 					"1" : {
 						"event" : "Ship Description",
@@ -674,7 +689,7 @@
 						"japanese" : "海辺にいると、夏の暑さもいくらか感じなくなりますね～指揮官？今は何も考えてなくていいから、ゆっくり休みましょう？",
 						"japaneseTL" : "",
 						"japaneseNote" : "",
-						"english" : "",
+						"english" : "The summer's scorching heat is alleviated by the ocean~ Commander, why don't you set aside your worries and... cut loose a bit~?",
 						"englishNote" : ""
 					},
 					"2" : {
