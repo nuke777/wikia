@@ -11,7 +11,7 @@
 	"hull" : "Battleship",
 	"navy" : "Sardegna Empire",
 	"prefix" : "RN",
-	"buildTime" : "",
+	"buildTime" : "05:15:00",
 	"parameters": {
 		"firepower" : "S",
 		"torpedo" : "E",
@@ -26,10 +26,10 @@
 		"medal" : "10"
 	},
 	"releaseDate": {
-		"JP" : "",
-		"CN" : "",
-		"KR" : "",
-		"EN" : ""
+		"JP" : "September 11, 2019",
+		"CN" : "September 11, 2019",
+		"KR" : "September 11, 2019",
+		"EN" : "September 11, 2019"
 	},
 	"artist": {
 		"name" : "",
@@ -38,45 +38,69 @@
 		"pixiv" : "",
 		"other" : ""
 	},
-	"class" : "ヴィットリオ・ヴェネト級",
+	"class" : "Vittorio Veneto-class",
 	"enhance": {
 		"firepower" : "67",
 		"torpedo" : "0",
 		"aviation" : "0",
 		"reload" : "11"
 	},
-	"acquisitionMethod" : "イベント：悲歎せし焔海の詩",
+	"acquisitionMethod" : "Event: Empyreal Tragicomedy",
 	"skill": {
 		"1" : {
 			"icon" : "12600",
-			"requirement" : "",
-			"name" : "ローザ・ボンバルダメント",
+			"requirement" : "Default Unlocked",
+			"name" : "Rosa Bombardamento",
 			"type" : "Offensive",
-			"description" : "自身の主砲攻撃時$1で発動、特殊弾幕を展開する（威力はスキルレベルによる）；自身が「381mm三連装砲Model1934」を装備している場合、特殊弾幕を強化し、発動確率を10%上昇させる"
+			"description" : "When this ship fires a Salvo: 35.0%(65.0%) chance to fire a special barrage (DMG is based on the skill's level.) While this ship has the Triple 381mm Main Gun (M1934) equipped: improves the barrage and increases its proc chance by 10.0%."
 		},
 		"2" : {
 			"icon" : "12610",
-			"requirement" : "",
-			"name" : "サディアの矜持",
+			"requirement" : "Default Unlocked",
+			"name" : "Sardegnian Discipline",
 			"type" : "Support",
-			"description" : "戦闘開始時、自身と前衛艦隊先頭艦に魚雷を$1回まで無効できる盾をそれぞれ2つ生成する；海域に出撃した場合、自身が所属する艦隊の3回目の戦闘まで、自身の火力が$2アップ"
+			"description" : "At the start of the battle, deploys 2 shields that can each block up to 1(2) enemy torpedoes around this ship and the ship in the frontmost position in your Vanguard. Additionally, increases this ship's FP by 4.0%(20.0%) for its first 3 battles of each sortie."
 		}
 	},
 	"skin": {
 		"1" : {
 			"id" : "lituoliao",
-			"name" : "リットリオ",
-			"description" : "ヴィットリオ・ヴェネト級戦艦・リットリオ",
+			"name" : "Littorio ",
+			"description" : "Vittorio Veneto-class battleship – Littorio. ",
 			"expression" : {
 				"0" : {
 					"id" : "0"
+				},
+				"1" : {
+					"id" : "1"
+				},
+				"2" : {
+					"id" : "2"
+				},
+				"3" : {
+					"id" : "3"
+				},
+				"4" : {
+					"id" : "4"
+				},
+				"5" : {
+					"id" : "5"
+				},
+				"6" : {
+					"id" : "6"
+				},
+				"7" : {
+					"id" : "7"
+				},
+				"8" : {
+					"id" : "8"
 				}
 			}
 		},
 		"2" : {
 			"id" : "lituoliao_2",
-			"name" : "ナポリに輝け",
-			"description" : "私とともに海辺に行きたいか？なら少し目立つように頑張れよ？でないとみんなの目はこのリットリオが独占してしまうからな",
+			"name" : "The Glory of Naples",
+			"description" : "A visit to the beach with me? Then you must try your hardest to stand out. Otherwise the eyes of the world will be on me alone.",
 			"expression" : {
 				"0" : {
 					"id" : "0"
@@ -103,7 +127,7 @@
 		"1" : {
 			"icon" : "55000",
 			"rarity" : "Rare",
-			"name" : "381mm三連装砲Model1934"
+			"name" : "Triple 381mm Main Gun (M1934) "
 		},
 		"2" : {
 			"icon" : "",
@@ -113,7 +137,7 @@
 		"3" : {
 			"icon" : "55100",
 			"rarity" : "Rare",
-			"name" : "90mm単装高角砲Model1939"
+			"name" : "Single 90mm High-Angle Gun (M1939) "
 		}
 	},
 	"stats": {
@@ -204,9 +228,9 @@
 		}
 	},
 	"limitBreak": {
-		"tier1": "主砲砲座+1/主砲補正+5%",
-		"tier2": "副砲砲座+2/主砲補正+10%",
-		"tier3": "主砲砲座+1/主砲補正+15%"
+		"tier1": "Main gun base +1/Main gun efficiency +5%",
+		"tier2": "Auxiliary gun base +2/Main gun efficiency +10%",
+		"tier3": "Main gun base +1/Main gun efficiency +15%"
 	},
 	"equipmentLoadout": {
 		"1": {
@@ -270,9 +294,9 @@
 			"EN": ""
 		},
 		"limited": {
-			"JP": "",
-			"CN": "",
-			"EN": ""
+			"JP": "✓",
+			"CN": "✓",
+			"EN": "✓"
 		}
 	},
 	"drop": {
@@ -299,7 +323,7 @@
 			"1": {
 				"skin_id" : "lituoliao",
 				"id" : "0",
-				"label" : "リットリオ",
+				"label" : "Littorio ",
 				"dialogue" : {
 					"1" : {
 						"event" : "Ship Description",
@@ -310,7 +334,7 @@
 						"japanese" : "ヴィットリオ・ヴェネト級戦艦・リットリオ",
 						"japaneseTL" : "",
 						"japaneseNote" : "",
-						"english" : "",
+						"english" : "Vittorio Veneto-class battleship – Littorio. ",
 						"englishNote" : ""
 					},
 					"2" : {
@@ -322,7 +346,7 @@
 						"japanese" : "地中海最強の戦艦の一隻、ヴィットリオ・ヴェネト級の二番艦、リットリオはここだ。かの大戦で海を我が庭の如く練り歩いた、今も変わらない。さあ指揮官、敵の度肝を抜きに行こうではないか",
 						"japaneseTL" : "",
 						"japaneseNote" : "",
-						"english" : "",
+						"english" : "I am Littorio, Vittorio Veneto-class battleship number two; the Mediterranean's mightiest battleship. During the war, I strutted about the ocean as if it was my garden, and that shall not change even now. Now, let us strike fear into the hearts of our enemies, Commander!",
 						"englishNote" : ""
 					},
 					"3" : {
@@ -334,7 +358,7 @@
 						"japanese" : "さあ指揮官、笑うがいい！貴方はこの無敵なるリットリオを手に入れた、そしてなによりも――その可愛い顔には、笑顔こそが似合ってるよ",
 						"japaneseTL" : "",
 						"japaneseNote" : "",
-						"english" : "",
+						"english" : "Rejoice, Commander! For you have gained an indomitable ally in Littorio, but more importantly... let's put a smile on that cute face of yours.",
 						"englishNote" : ""
 					},
 					"4" : {
@@ -346,7 +370,7 @@
 						"japanese" : "待つのは退屈だが、貴方を待つとなれば退屈はしないよ？指揮官",
 						"japaneseTL" : "",
 						"japaneseNote" : "",
-						"english" : "",
+						"english" : "Waiting is tedious, but waiting for you is anything but, Commander.",
 						"englishNote" : ""
 					},
 					"5" : {
@@ -358,7 +382,7 @@
 						"japanese" : "ヴェネトめ、総旗艦としては中々やるな…ま、その先に進むというのなら、私を見習わないといかんな。はははは",
 						"japaneseTL" : "",
 						"japaneseNote" : "",
-						"english" : "",
+						"english" : "That Veneto, she's not half bad for a fleet flagship... However, if she wants to move forward, she must learn from me. Hahahaha!",
 						"englishNote" : ""
 					},
 					"6" : {
@@ -370,7 +394,7 @@
 						"japanese" : "この世には二種類の艦船が存在する。このリットリオと、このリットリオじゃない奴らだ",
 						"japaneseTL" : "",
 						"japaneseNote" : "",
-						"english" : "",
+						"english" : "There are two kinds of people in the world: those who are Littorio, and those who are not.",
 						"englishNote" : ""
 					},
 					"7" : {
@@ -382,7 +406,7 @@
 						"japanese" : "指揮官、惜しいとは思わないかな？世界で光を求める場所は多くあるというのに、このリットリオは一人しかいないということに",
 						"japaneseTL" : "",
 						"japaneseNote" : "",
-						"english" : "",
+						"english" : "Isn't it lamentable, Commander? There are so many places in the world that yearn for light, but there is but one Littorio.",
 						"englishNote" : ""
 					},
 					"8" : {
@@ -394,7 +418,7 @@
 						"japanese" : "なに、戦艦が海を制した時代があっても、艦載機が新しい時代の始まりを告げたのは否定のしようがないことだ。いくら私でもそれを認めないわけにはいかないよ",
 						"japaneseTL" : "",
 						"japaneseNote" : "",
-						"english" : "",
+						"english" : "There is no denying that, though battleships once ruled the seas, aircraft have ushered in the beginning of a new era. This is a fact that not even I can refute.",
 						"englishNote" : ""
 					},
 					"9" : {
@@ -406,7 +430,7 @@
 						"japanese" : "こちらから人を追い求めるのは、新鮮で面白い体験だ。違うか？",
 						"japaneseTL" : "",
 						"japaneseNote" : "",
-						"english" : "",
+						"english" : "Chasing after others is a novel and interesting experience, is it not?",
 						"englishNote" : ""
 					},
 					"10" : {
@@ -418,7 +442,7 @@
 						"japanese" : "指揮官、私の魅力に惹かれたのはわかるが…まあ…今はこんなことをしている場合じゃないだろ？",
 						"japaneseTL" : "",
 						"japaneseNote" : "",
-						"english" : "",
+						"english" : "Commander, it's understandable that you would fall for me... but... this is not the time nor place for debauchery.",
 						"englishNote" : ""
 					},
 					"11" : {
@@ -430,7 +454,7 @@
 						"japanese" : "指揮官、すべての任務にはそれ相応の価値がある、つまり真面目にこなしておくべきだ。違うか？",
 						"japaneseTL" : "",
 						"japaneseNote" : "",
-						"english" : "",
+						"english" : "Commander, there is value to be found in all missions, so they should be carried out in earnest. Am I wrong?",
 						"englishNote" : ""
 					},
 					"12" : {
@@ -442,7 +466,7 @@
 						"japanese" : "次は上層部に連絡してくれよ？この程度の報酬じゃ、このリットリオを満足させるには程遠い、とな",
 						"japaneseTL" : "",
 						"japaneseNote" : "",
-						"english" : "",
+						"english" : "Contact your superiors for me. Tell them these paltry rewards do not satisfy me.",
 						"englishNote" : ""
 					},
 					"13" : {
@@ -454,7 +478,7 @@
 						"japanese" : "……私への手紙が指揮官宛のより多いんだな",
 						"japaneseTL" : "",
 						"japaneseNote" : "",
-						"english" : "",
+						"english" : "It appears there are more letters addressed to me than to you.",
 						"englishNote" : ""
 					},
 					"14" : {
@@ -466,7 +490,7 @@
 						"japanese" : "喜ぶがいい。指揮官、貴方の帰還にこのリットリオの出迎えがあるのだ",
 						"japaneseTL" : "",
 						"japaneseNote" : "",
-						"english" : "",
+						"english" : "Rejoice, Commander, for I am here to bid your return welcome.",
 						"englishNote" : ""
 					},
 					"15" : {
@@ -478,7 +502,7 @@
 						"japanese" : "なに指揮官、心配するな。私がいれば委託の報酬は上々に決まっている",
 						"japaneseTL" : "",
 						"japaneseNote" : "",
-						"english" : "",
+						"english" : "You need not worry, Commander. For as long as I am here, your commission rewards will be superb.",
 						"englishNote" : ""
 					},
 					"16" : {
@@ -490,7 +514,7 @@
 						"japanese" : "このリットリオの真の力を見通せたなら、貴方のセンスが高い証明になるよ",
 						"japaneseTL" : "",
 						"japaneseNote" : "",
-						"english" : "",
+						"english" : "Your ability to see my true potential proves that your perception is superb.",
 						"englishNote" : ""
 					},
 					"17" : {
@@ -514,7 +538,7 @@
 						"japanese" : "貴方達の最大の間違いは、このリットリオに立ち向かおうとしたことだ",
 						"japaneseTL" : "",
 						"japaneseNote" : "",
-						"english" : "",
+						"english" : "Trying to oppose me was your greatest mistake.",
 						"englishNote" : ""
 					},
 					"19" : {
@@ -526,7 +550,7 @@
 						"japanese" : "負けた？違う、まだ勝っていないだけよ",
 						"japaneseTL" : "",
 						"japaneseNote" : "",
-						"english" : "",
+						"english" : "Defeated? No, we are simply not victorious yet.",
 						"englishNote" : ""
 					},
 					"20" : {
@@ -538,7 +562,7 @@
 						"japanese" : "アリーヴェデルチ！",
 						"japaneseTL" : "",
 						"japaneseNote" : "",
-						"english" : "",
+						"english" : "Arrivederci！",
 						"englishNote" : ""
 					},
 					"21" : {
@@ -550,7 +574,7 @@
 						"japanese" : "プリエーゼ、もう少しだ！",
 						"japaneseTL" : "",
 						"japaneseNote" : "",
-						"english" : "",
+						"english" : "Don't give in yet, Pugliese system!",
 						"englishNote" : ""
 					},
 					"22" : {
@@ -562,7 +586,7 @@
 						"japanese" : "すまない、指揮官。貴方を推し進めるつもりでいたが、どうやら私の存在がかえって貴方の邁進を止めることになったな……",
 						"japaneseTL" : "",
 						"japaneseNote" : "",
-						"english" : "",
+						"english" : "I apologize, Commander. I only wanted to push you in the right direction, but it seems that all I did was impede your progress...",
 						"englishNote" : ""
 					},
 					"23" : {
@@ -574,7 +598,7 @@
 						"japanese" : "私のサインがほしいのかな？ほかならぬ指揮官の頼みだ、特別に無料でくれてやろう――なんてな、ははは",
 						"japaneseTL" : "",
 						"japaneseNote" : "",
-						"english" : "",
+						"english" : "You want my autograph? I will give you it for free, as a special favor... Just kidding. Hahaha!",
 						"englishNote" : ""
 					},
 					"24" : {
@@ -586,7 +610,7 @@
 						"japanese" : "指揮官はもっと自信をもったほうがいい。なに、このリットリオの指揮官を務めるのはつまり、世界で一番輝かしい艦の信を得ているということだ。誇らしいとは思わないか？",
 						"japaneseTL" : "",
 						"japaneseNote" : "",
-						"english" : "",
+						"english" : "Be more confident in yourself, Commander. To serve as the commander of Littorio means that have earned the trust of the most glorious ship in all the world. Aren't you proud?",
 						"englishNote" : ""
 					},
 					"25" : {
@@ -598,7 +622,7 @@
 						"japanese" : "指揮官にはこのリットリオのように輝かしい存在になれる素質があると、認めざるを得ないな。これは喜ばしいことだ、なにせ私とともに歩める存在は求めても得られないものだったからな",
 						"japaneseTL" : "",
 						"japaneseNote" : "",
-						"english" : "",
+						"english" : "Commander, I must admit that you have the qualities to become as glorious as me. That is a wonderful thing, for though I have always wanted a partner to journey with, none were capable of it until now.",
 						"englishNote" : ""
 					},
 					"26" : {
@@ -610,7 +634,7 @@
 						"japanese" : "貴方が周りと接している分だけ、周りが貴方のことを分かってくれて、報いてくれる。だから心配するな。好きなものは追い求め、奪い取るがいい。私が、このリットリオが貴方を認めるから",
 						"japaneseTL" : "",
 						"japaneseNote" : "",
-						"english" : "",
+						"english" : "When you give to the world, the world gives back to you. So put your mind at ease. Pursue the object of your desire and grab hold of it. Because I, Littorio, deem you worthy.",
 						"englishNote" : ""
 					},
 					"27" : {
@@ -622,7 +646,7 @@
 						"japanese" : "まったく不思議なことだ。このリットリオに誓いの指輪を差し出す人なんているはずがないと思いきや、こうして貴方が目の前に現れて、そして私の心まで奪ったとは……教えてくれ、貴方はどうやって私を攻略したのだ？",
 						"japaneseTL" : "",
 						"japaneseNote" : "",
-						"english" : "",
+						"english" : "I simply cannot understand. I was convinced that nobody would be worthy of placing this ring upon me, yet here you are before my eyes, having captured my very heart... Tell me, Commander, how did you successfully win me over?",
 						"englishNote" : ""
 					},
 					"28" : {
@@ -666,7 +690,7 @@
 			"2": {
 				"skin_id" : "lituoliao_2",
 				"id" : "1",
-				"label" : "ナポリに輝け",
+				"label" : "The Glory of Naples",
 				"dialogue" : {
 					"1" : {
 						"event" : "Ship Description",
@@ -677,7 +701,7 @@
 						"japanese" : "私とともに海辺に行きたいか？なら少し目立つように頑張れよ？でないとみんなの目はこのリットリオが独占してしまうからな",
 						"japaneseTL" : "",
 						"japaneseNote" : "",
-						"english" : "",
+						"english" : "A visit to the beach with me? Then you must try your hardest to stand out. Otherwise the eyes of the world will be on me alone.",
 						"englishNote" : ""
 					},
 					"2" : {

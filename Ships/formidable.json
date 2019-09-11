@@ -11,7 +11,7 @@
 	"hull" : "Aircraft Carrier",
 	"navy" : "Royal Navy",
 	"prefix" : "HMS",
-	"buildTime" : "",
+	"buildTime" : "04:30:00",
 	"voiceActress" : "Rie Kugimiya",
 	"parameters": {
 		"firepower" : "E",
@@ -27,16 +27,16 @@
 		"medal" : "10"
 	},
 	"releaseDate": {
-		"JP" : "",
-		"CN" : "",
-		"KR" : "",
-		"EN" : ""
+		"JP" : "September 11, 2019",
+		"CN" : "September 11, 2019",
+		"KR" : "September 11, 2019",
+		"EN" : "September 11, 2019"
 	},
 	"artist": {
-		"name" : "",
-		"weibo" : "",
-		"twitter" : "",
-		"pixiv" : "",
+		"name" : "Kincora",
+		"weibo" : "http://weibo.com/u/2061731981",
+		"twitter" : "https://twitter.com/KIncoraK",
+		"pixiv" : "https://www.pixiv.net/member.php?id=3054186",
 		"other" : ""
 	},
 	"class" : "Illustrious-Class",
@@ -46,45 +46,66 @@
 		"aviation" : "65",
 		"reload" : "8"
 	},
-	"acquisitionMethod" : "イベント：悲歎せし焔海の詩",
+	"acquisitionMethod" : "Event: Empyreal Tragicomedy",
 	"skill": {
 		"1" : {
 			"icon" : "12570",
-			"requirement" : "",
-			"name" : "フォロワーウィング",
+			"requirement" : "Default Unlocked",
+			"name" : "Supporting Wings",
 			"type" : "Offensive",
-			"description" : "自身の航空が$2アップする。自身が「フェアリーアルバコア」を装備している場合、下記の効果が適用される：①「フェアリーアルバコア」を装備している兵装枠の威力補正が$1アップする；⓶自身が航空攻撃を行う場合に$3で発動し、フェアリーアルバコアによる特殊航空攻撃を展開し、命中した敵を80%で9秒間進水させ浸水ダメージを与える（特殊航空攻撃と浸水のダメージは自身の航空ステータス・スキルレベルによる）"
+			"description" : "Increases this ship's AVI by 5.0%(15.0%). While this ship has a Fairey Albacore equipped: increases the gear efficiency of the slot(s) in which the Fairey Albacore is equipped by 5.0%(15.0%). When this ship launches an Airstrike: 70%(100%) chance to launch a special Fairey Albacore airstrike with an 80.0% chance to cause Flooding DMG for 9s to enemies hit. DMG is based on the skill's level and this ship's AVI stat."
 		},
 		"2" : {
 			"icon" : "12580",
-			"requirement" : "",
-			"name" : "じっとしてなさい！",
+			"requirement" : "Default Unlocked",
+			"name" : "Don't Move An Inch!",
 			"type" : "Support",
-			"description" : "自身が航空攻撃を行うときに$1で発動。$2秒間全てに敵の速力を0にする。その後、このスキルの効果は2.5秒間で無効になるまで減衰し続ける(このスキルは戦闘開始1回目の航空攻撃時に必ず発動する)"
+			"description" : "When this ship launches an Airstrike: 50%(80%) chance to set the Speed of all enemies to 0 for 0.5(1.5)s. After that, this effect will fade for 2.5s before completely ending. This skill will always activate on the ship's first Airstrike launch of each battle."
 		},
 		"3" : {
 			"icon" : "12590",
-			"requirement" : "",
-			"name" : "ボックスハンガー",
+			"requirement" : "Default Unlocked",
+			"name" : "Armoured Hangar",
 			"type" : "Defensive",
-			"description" : "自身の受けるダメージを$1軽減する；自身が航空攻撃を行う場合、10秒間、自身以外の味方主力艦隊の受けるダメージを$2軽減する"
+			"description" : "Decreases this ship's DMG taken by 3.5%(8.0%). When this ship launches an Airstrike: decreases your Main Fleet's DMG taken (excluding this ship) by 3.5%(8.0%) for 10s."
 		}
 	},
 	"skin": {
 		"1" : {
 			"id" : "kewei",
-			"name" : "フォーミダブル",
-			"description" : "イラストリアス航空母艦・フォーミダブル (HMS Formidable）",
+			"name" : "Formidable ",
+			"description" : "Illustrious-class aircraft carrier – Formidable. ",
 			"expression" : {
 				"0" : {
 					"id" : "0"
+				},
+				"1" : {
+					"id" : "1"
+				},
+				"2" : {
+					"id" : "2"
+				},
+				"3" : {
+					"id" : "3"
+				},
+				"4" : {
+					"id" : "4"
+				},
+				"5" : {
+					"id" : "5"
+				},
+				"6" : {
+					"id" : "6"
+				},
+				"7" : {
+					"id" : "7"
 				}
 			}
 		},
 		"2" : {
 			"id" : "kewei_2",
-			"name" : "ロイヤルレディの海",
-			"description" : "ロイヤルレディは水着姿でも優雅に振る舞いますわ。……あ、あまりそう見えないって？そ、そうでしょうか……おかしいですわね…",
+			"name" : "The Lady of the Beach ",
+			"description" : "Good day, Commander. I am Formidable, third ship of the Illustrious class. Pleased to make your acquaintance. ",
 			"expression" : {
 				"0" : {
 					"id" : "0"
@@ -119,12 +140,12 @@
 		"2" : {
 			"icon" : "28300",
 			"rarity" : "Common",
-			"name" : "フェアリーアルバコア"
+			"name" : "Fairey Albacore "
 		},
 		"3" : {
 			"icon" : "28300",
 			"rarity" : "Common",
-			"name" : "フェアリーアルバコア"
+			"name" : "Fairey Albacore "
 		}
 	},
 	"stats": {
@@ -215,9 +236,9 @@
 		}
 	},
 	"limitBreak": {
-		"tier1": "攻撃機数+1/艦載機補正+2%",
-		"tier2": "攻撃隊上限+1/戦闘機数+1/艦載機補正+3%",
-		"tier3": "攻撃機数+1/艦載機補正+5%/戦闘機枠で爆撃機装備可能に"
+		"tier1": "All Torpedo Bombers +1/Aircraft efficiency +2%",
+		"tier2": "Hangar capacity +1/All fighters +1/Aircraft efficiency +3%",
+		"tier3": "All Torpedo Bombers +1/Aircraft efficiency +5%/Can equip Dive Bombers in the Fighter slot"
 	},
 	"equipmentLoadout": {
 		"1": {
@@ -281,9 +302,9 @@
 			"EN": ""
 		},
 		"limited": {
-			"JP": "",
-			"CN": "",
-			"EN": ""
+			"JP": "✓",
+			"CN": "✓",
+			"EN": "✓"
 		}
 	},
 	"drop": {
@@ -310,7 +331,7 @@
 			"1": {
 				"skin_id" : "kewei",
 				"id" : "0",
-				"label" : "フォーミダブル",
+				"label" : "Formidable ",
 				"dialogue" : {
 					"1" : {
 						"event" : "Ship Description",
@@ -321,7 +342,7 @@
 						"japanese" : "イラストリアス航空母艦・フォーミダブル (HMS Formidable）",
 						"japaneseTL" : "",
 						"japaneseNote" : "",
-						"english" : "",
+						"english" : "Illustrious-class aircraft carrier – Formidable. ",
 						"englishNote" : ""
 					},
 					"2" : {
@@ -333,7 +354,7 @@
 						"japanese" : "イラストリアス級空母の三番艦、フォーミダブルですわ。地中海での戦いであのヴェネトさんと一戦を交え、その後は数々の海でカンレキを積み、目立つ戦果こそないものの、微力を捧げましたわ",
 						"japaneseTL" : "",
 						"japaneseNote" : "",
-						"english" : "",
+						"english" : "I am Formidable, third ship of the Illustrious class. I operated in the Mediterranean for a time, crossing swords with a certain Veneto. Thereafter, I found myself all across the Seven Seas. While my service record is not particularly impressive, I feel I made a small contribution to the war effort.",
 						"englishNote" : ""
 					},
 					"3" : {
@@ -345,7 +366,7 @@
 						"japanese" : "はじめまして指揮官、私はフォーミダブル、イラストリアスの3番艦ですわ。お見知りおきくださいませ",
 						"japaneseTL" : "",
 						"japaneseNote" : "",
-						"english" : "",
+						"english" : "Good day, Commander. I am Formidable, third ship of the Illustrious class. Pleased to make your acquaintance. ",
 						"englishNote" : ""
 					},
 					"4" : {
@@ -357,7 +378,7 @@
 						"japanese" : "指揮官、今日は時間を守っていますわね",
 						"japaneseTL" : "",
 						"japaneseNote" : "",
-						"english" : "",
+						"english" : "Commander, you're uncharacteristically punctual today.",
 						"englishNote" : ""
 					},
 					"5" : {
@@ -369,7 +390,7 @@
 						"japanese" : "！？……い、今のは部屋を掃除していただけでしてよ。どうぞお入りくださいませ",
 						"japaneseTL" : "",
 						"japaneseNote" : "",
-						"english" : "",
+						"english" : "?! ... Ah, I was just doing a bit of tidying up. Please, come right in.",
 						"englishNote" : ""
 					},
 					"6" : {
@@ -381,7 +402,7 @@
 						"japanese" : "指揮官、お仕事がはかどらないのでしたら少しお休みになってはいかが？お茶とお菓子を用意しておりますわよ？",
 						"japaneseTL" : "",
 						"japaneseNote" : "",
-						"english" : "",
+						"english" : "Commander, if you're not making any progress on your work, why not take a break? I've prepared tea and crumpets.",
 						"englishNote" : ""
 					},
 					"7" : {
@@ -393,7 +414,7 @@
 						"japanese" : "指揮官は見ていないですし、ちょっとだけサボ……わわ！ヴィクトリアス姉さん！？ご、御機嫌よう。指揮官になにか御用でしょうか？",
 						"japaneseTL" : "",
 						"japaneseNote" : "",
-						"english" : "",
+						"english" : "No harm in taking a rest while the Commander's dist– Heavens! Victorious! G-good day. Do you have some business with the Commander?",
 						"englishNote" : ""
 					},
 					"8" : {
@@ -405,7 +426,7 @@
 						"japanese" : "進水のときは、まあ……そうでしたわね…ちょっとだけやらかしてて…もう！過ぎたことですわよ？",
 						"japaneseTL" : "",
 						"japaneseNote" : "",
-						"english" : "",
+						"english" : "On the day of my launch, hmm... What a shame... though I didn't do it on purpose... Well! All water under the bridge now, isn't it?",
 						"englishNote" : ""
 					},
 					"9" : {
@@ -417,7 +438,7 @@
 						"japanese" : "ティルピッツ、手強い相手だと言わざるをえませんね",
 						"japaneseTL" : "",
 						"japaneseNote" : "",
-						"english" : "",
+						"english" : "I must admit, Tirpitz is quite the hard nut to crack.",
 						"englishNote" : ""
 					},
 					"10" : {
@@ -429,7 +450,7 @@
 						"japanese" : "指揮官、こういう行動は人としてはどうかと思いますわ？",
 						"japaneseTL" : "",
 						"japaneseNote" : "",
-						"english" : "",
+						"english" : "Commander, is this the appropriate way for one to behave?",
 						"englishNote" : ""
 					},
 					"11" : {
@@ -441,7 +462,7 @@
 						"japanese" : "指揮官、まとめた任務リストの確認を忘れないでくださいませ？",
 						"japaneseTL" : "",
 						"japaneseNote" : "",
-						"english" : "",
+						"english" : "Commander, please don't forget to review the mission list I prepared for you.",
 						"englishNote" : ""
 					},
 					"12" : {
@@ -453,7 +474,7 @@
 						"japanese" : "指揮官、任務報酬のリストも確認を忘れないでくださいませ？",
 						"japaneseTL" : "",
 						"japaneseNote" : "",
-						"english" : "",
+						"english" : "Commander, please don't forget to review the list of mission rewards.",
 						"englishNote" : ""
 					},
 					"13" : {
@@ -465,7 +486,7 @@
 						"japanese" : "指揮官、メールはこちらにおいてありますわ。確認を忘れないでくださいませ？",
 						"japaneseTL" : "",
 						"japaneseNote" : "",
-						"english" : "",
+						"english" : "Commander, I'm leaving the mail right here. Please don't forget to review it.",
 						"englishNote" : ""
 					},
 					"14" : {
@@ -477,7 +498,7 @@
 						"japanese" : "♪～し、指揮官！ご機嫌麗しゅうですわ",
 						"japaneseTL" : "",
 						"japaneseNote" : "",
-						"english" : "",
+						"english" : "Hmm~♪ Hmm~♪ C-Commander! I am p-please that you have returned!",
 						"englishNote" : ""
 					},
 					"15" : {
@@ -489,7 +510,7 @@
 						"japanese" : "指揮官、委託完了しましたよ。港にみんなを出迎えに行きませんこと？",
 						"japaneseTL" : "",
 						"japaneseNote" : "",
-						"english" : "",
+						"english" : "Commander, the commission is complete. Shall we go to the harbour and greet the team?",
 						"englishNote" : ""
 					},
 					"16" : {
@@ -501,7 +522,7 @@
 						"japanese" : "フォーミダブル、ご期待を裏切りませんわ",
 						"japaneseTL" : "",
 						"japaneseNote" : "",
-						"english" : "",
+						"english" : "Formidable shall not disappoint.",
 						"englishNote" : ""
 					},
 					"17" : {
@@ -513,7 +534,7 @@
 						"japanese" : "敵に情けをかけないのが、ロイヤルレディの作法ですわ！",
 						"japaneseTL" : "",
 						"japaneseNote" : "",
-						"english" : "",
+						"english" : "Ladies of the Royal Navy have many virtues, but mercy to enemies is not one of them!",
 						"englishNote" : ""
 					},
 					"18" : {
@@ -525,7 +546,7 @@
 						"japanese" : "素晴らしい勝利ですわ。みんな、引き続き励みなさい",
 						"japaneseTL" : "",
 						"japaneseNote" : "",
-						"english" : "",
+						"english" : "What a magnificent victory! Let us press the advantage.",
 						"englishNote" : ""
 					},
 					"19" : {
@@ -537,7 +558,7 @@
 						"japanese" : "こんちく……こ、コホン！尊敬すべき相手でしてよ？でも次は勝たせてもらいますわ！",
 						"japaneseTL" : "",
 						"japaneseNote" : "",
-						"english" : "",
+						"english" : "Why you miserab- Ahem! You are truly worthy adversaries, but next time victory will be mine!",
 						"englishNote" : ""
 					},
 					"20" : {
@@ -549,7 +570,7 @@
 						"japanese" : "幕引きよ",
 						"japaneseTL" : "",
 						"japaneseNote" : "",
-						"english" : "",
+						"english" : "The curtain falls. ",
 						"englishNote" : ""
 					},
 					"21" : {
@@ -561,7 +582,7 @@
 						"japanese" : "各員、もうちょっと頑張りなさい！",
 						"japaneseTL" : "",
 						"japaneseNote" : "",
-						"english" : "",
+						"english" : "You are all to redouble your efforts!",
 						"englishNote" : ""
 					},
 					"22" : {
@@ -573,7 +594,7 @@
 						"japanese" : "恐縮ですが、指揮官が近くにいると頭痛になる病気にかかっております。どこか見えない場所に行ってくださいませ？",
 						"japaneseTL" : "",
 						"japaneseNote" : "",
-						"english" : "",
+						"english" : "I'm afraid I've contracted a disease that gives me a dreadful headache when you're nearby. Would you mind going someplace else?",
 						"englishNote" : ""
 					},
 					"23" : {
@@ -585,7 +606,7 @@
 						"japanese" : "指揮官、なにか御用ですか？用がないのでしたら、一緒にお茶会でもいかがですか？",
 						"japaneseTL" : "",
 						"japaneseNote" : "",
-						"english" : "",
+						"english" : "Commander, is there something required of me? If you have a moment, why not join me for a cup of tea?",
 						"englishNote" : ""
 					},
 					"24" : {
@@ -597,7 +618,7 @@
 						"japanese" : "イラストリアス姉さんとヴィクトリアス姉さんだけでなく、こんなにも数多くの艦船たちを取りまとめているなんて、指揮官はものすごく包容力のある御方ですね。良ければぜひお近づきの印として…ふふふ、このケーキを少しお分けしますわ。召し上がってくださいませ？",
 						"japaneseTL" : "",
 						"japaneseNote" : "",
-						"english" : "",
+						"english" : "My big sisters Illustrious and Victorious, like so many other ships you've gathered here, vouch for what a great commander you are. Now come, let this cake be a symbol of our new friendship. Take a bite, won't you?",
 						"englishNote" : ""
 					},
 					"25" : {
@@ -609,7 +630,7 @@
 						"japanese" : "私、本当はロイヤルレディのように振る舞うことより、もう少し楽に生きたいですことよ？普段はそれが出来なくても、イラストリアス姉さんたちのように親しい相手の前でしたら……私ともうちょっとお近づきになりませんこと？",
 						"japaneseTL" : "",
 						"japaneseNote" : "",
-						"english" : "",
+						"english" : "Truthfully, even though I'm a Lady of the Royal Navy, I sometimes want to have a bit of fun too. A side of me that I can't normally show except to people close to me like Illustrious... Doesn't that make you want to get closer with me?",
 						"englishNote" : ""
 					},
 					"26" : {
@@ -621,7 +642,7 @@
 						"japanese" : "指揮官、御機嫌よう♪今日も一緒にケーキを食べません？メイド隊の子からすごく甘いものを手に入れましたの！…ん？私、指揮官の前では楽にしようって決めましたわ。ふふふ、こんな感じのフォーミダブルもカワイイかしら？",
 						"japaneseTL" : "",
 						"japaneseNote" : "",
-						"english" : "",
+						"english" : "Commander, good day to you ♪ Shall we share another cake today? The maids have prepared a dreadfully sweet treat for us! Hmm...? I decided to let my hair down a bit more for you, Commander. Hehehe, I wonder if you'll find me just as captivating a Formidable as I was before?",
 						"englishNote" : ""
 					},
 					"27" : {
@@ -633,7 +654,7 @@
 						"japanese" : "フォーミダブル、指揮官様に生涯の愛を捧げ、幸せな時も、困難な時も、富める時も、貧しき時も……長いから以下省略～はい、次は指揮官の番ですわ。ちょっと長いけど私のように略してはいけませんからね♪",
 						"japaneseTL" : "",
 						"japaneseNote" : "",
-						"english" : "",
+						"english" : "I, Formidable, hereby dedicate my life to the love of my Commander, through good times and bad, rich times and poor... This is quite long, so I'll omit the rest~ Now then, Commander, it's your turn. I know it's a long vow but you are not to skip a single word ♪",
 						"englishNote" : ""
 					},
 					"28" : {
@@ -645,7 +666,7 @@
 						"japanese" : "イラストリアス姉さん、後でお茶でもいかがかしら？",
 						"japaneseTL" : "",
 						"japaneseNote" : "",
-						"english" : "",
+						"english" : "Illustrious, my dear sister, what would you say to a spot of tea after this?",
 						"englishNote" : ""
 					},
 					"29" : {
@@ -657,7 +678,7 @@
 						"japanese" : "ヴィクトリアス姉さん、今日の私は美しいのでしょうか？",
 						"japaneseTL" : "",
 						"japaneseNote" : "",
-						"english" : "",
+						"english" : "Victorious, my dear sister, have I comported myself well today?",
 						"englishNote" : ""
 					},
 					"30" : {
@@ -701,7 +722,7 @@
 			"2": {
 				"skin_id" : "kewei_2",
 				"id" : "1",
-				"label" : "ロイヤルレディの海",
+				"label" : "The Lady of the Beach ",
 				"dialogue" : {
 					"1" : {
 						"event" : "Ship Description",
@@ -712,7 +733,7 @@
 						"japanese" : "ロイヤルレディは水着姿でも優雅に振る舞いますわ。……あ、あまりそう見えないって？そ、そうでしょうか……おかしいですわね…",
 						"japaneseTL" : "",
 						"japaneseNote" : "",
-						"english" : "",
+						"english" : "A Lady of the Royal Navy exudes elegance even when wearing her swimsuit. Huh...? Y-you're not seeing it? Really... that's weird...",
 						"englishNote" : ""
 					},
 					"2" : {
@@ -724,7 +745,7 @@
 						"japanese" : "ロイヤルレディは水着姿でも優雅に振る舞いますわ。……あ、あまりそう見えないって？そ、そうでしょうか……おかしいですわね…",
 						"japaneseTL" : "",
 						"japaneseNote" : "",
-						"english" : "",
+						"english" : "A Lady of the Royal Navy exudes elegance even when wearing her swimsuit. Huh...? Y-you're not seeing it? Really... that's weird...",
 						"englishNote" : ""
 					},
 					"3" : {
@@ -736,7 +757,7 @@
 						"japanese" : "指揮官、準備運動は十分ですこと？…よろしいですわ。では、泳ぎに参りましょう♪",
 						"japaneseTL" : "",
 						"japaneseNote" : "",
-						"english" : "",
+						"english" : "Are you done warming up, Commander? Right then, into the water with you♪",
 						"englishNote" : ""
 					},
 					"4" : {
@@ -748,7 +769,7 @@
 						"japanese" : "なんだか風景が地味ですわね……もうちょっとロッ…んー、刺激的ななにかがほしいのではなくて？",
 						"japaneseTL" : "",
 						"japaneseNote" : "",
-						"english" : "",
+						"english" : "Don't you find the atmosphere rather dreary...? What if we put on some rock... Er, something a little more stimulating?",
 						"englishNote" : ""
 					},
 					"5" : {
@@ -760,7 +781,7 @@
 						"japanese" : "さすがはフッド様、水着姿でも優雅で輝かしいですわ！私もできますけど……ね！",
 						"japaneseTL" : "",
 						"japaneseNote" : "",
-						"english" : "",
+						"english" : "Hmm, that would be Hood. Even in a swimsuit she's the picture of nobility. Of course, that's nothing I'm not incapable of...",
 						"englishNote" : ""
 					},
 					"6" : {
@@ -772,7 +793,7 @@
 						"japanese" : "ウォースパイト様、私の心配をしなくても大丈夫ですわ。指揮官に助けてもらわなくてもこのフォーミダブル、自分で海に入って泳げますから！",
 						"japaneseTL" : "",
 						"japaneseNote" : "",
-						"english" : "",
+						"english" : "Don't fret, Warspite. I wouldn't be able to swim without the Commander's help either!",
 						"englishNote" : ""
 					},
 					"7" : {
@@ -784,7 +805,7 @@
 						"japanese" : "イラストリアス姉さん？どこ？……もう、指揮官、私を騙すのは一体どういうつもり？！",
 						"japaneseTL" : "",
 						"japaneseNote" : "",
-						"english" : "",
+						"english" : "Huh? Illustrious?! Grr... You tricked me, Commander. Now you're in for it!",
 						"englishNote" : ""
 					},
 					"8" : {
@@ -796,7 +817,7 @@
 						"japanese" : "今日の指揮官は海が恋しいのかしら？ふふふ……",
 						"japaneseTL" : "",
 						"japaneseNote" : "",
-						"english" : "",
+						"english" : "Okay, I see how it is. The salty sea air has gotten you all frisky, Commander. Hehehe...",
 						"englishNote" : ""
 					},
 					"9" : {
@@ -808,7 +829,7 @@
 						"japanese" : "指揮官、レディの行動に余計な詮索は不要ですわ",
 						"japaneseTL" : "",
 						"japaneseNote" : "",
-						"english" : "",
+						"english" : "I was simply waiting here for you. Don't think too much on it, Commander.",
 						"englishNote" : ""
 					}
 				}

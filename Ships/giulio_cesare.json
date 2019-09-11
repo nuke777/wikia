@@ -11,7 +11,8 @@
 	"hull" : "Battleship",
 	"navy" : "Sardegna Empire",
 	"prefix" : "RN",
-	"buildTime" : "",
+	"buildTime" : "04:15:00",
+	"voiceActress" : "Ayaka Shimizu",
 	"parameters": {
 		"firepower" : "A",
 		"torpedo" : "D",
@@ -26,10 +27,10 @@
 		"medal" : "4"
 	},
 	"releaseDate": {
-		"JP" : "",
-		"CN" : "",
-		"KR" : "",
-		"EN" : ""
+		"JP" : "September 11, 2019",
+		"CN" : "September 11, 2019",
+		"KR" : "September 11, 2019",
+		"EN" : "September 11, 2019"
 	},
 	"artist": {
 		"name" : "",
@@ -38,45 +39,75 @@
 		"pixiv" : "",
 		"other" : ""
 	},
-	"class" : "コンテ・ディ・カブール級",
+	"class" : "Conte di Cavour-class",
 	"enhance": {
 		"firepower" : "55",
 		"torpedo" : "3",
 		"aviation" : "0",
 		"reload" : "10"
 	},
-	"acquisitionMethod" : "イベント：悲歎せし焔海の詩",
+	"acquisitionMethod" : "Event: Empyreal Tragicomedy",
 	"skill": {
 		"1" : {
 			"icon" : "12640",
-			"requirement" : "",
-			"name" : "サディアの威圧",
+			"requirement" : "Default Unlocked",
+			"name" : "Sardegnian Coercion",
 			"type" : "Offensive",
-			"description" : "自身の主砲攻撃時$1で発動。特殊弾幕を展開する（威力はスキルレベルによる）"
+			"description" : "When this ship fires a Salvo: 20.0%(50.0%) chance to fire a special barrage. Barrage DMG is based on the skill's level."
 		},
 		"2" : {
 			"icon" : "12650",
-			"requirement" : "",
-			"name" : "栄光、流れる記憶",
+			"requirement" : "Default Unlocked",
+			"name" : "Fading Memories of Glory",
 			"type" : "Offensive",
-			"description" : "戦闘開始10秒後魚雷弾幕$3を展開する（威力は雷装ステータスとスキルレベルによる）。自身の1回目の主砲攻撃5秒後、戦闘終了時まで自身の火力が$1、軽巡に与えるダメージが$2アップし、雷装ステータスが0になる"
+			"description" : "10s after the battle starts: fires a Lv.1(Lv.10) torpedo barrage (DMG is based on the skill's level and this ship's TRP stat.) 5s after this ship fires its first Volley: for the rest of the battle, increases this ship's FP by 5.0%(15.0%), DMG dealt to enemy CLs by 10.0%(20.0%), and sets this ship's TRP stat to 0."
 		}
 	},
 	"skin": {
 		"1" : {
 			"id" : "kaisa",
-			"name" : "ジュリオ・チェザーレ",
-			"description" : "コンテ・ディ・カブール級戦艦・ジュリオ・チェザーレ",
+			"name" : "Giulio Cesare ",
+			"description" : "Conte di Cavour-class battleship – Giulio Cesare. ",
 			"expression" : {
 				"0" : {
 					"id" : "0"
+				},
+				"1" : {
+					"id" : "1"
+				},
+				"2" : {
+					"id" : "2"
+				},
+				"3" : {
+					"id" : "3"
+				},
+				"4" : {
+					"id" : "4"
+				},
+				"5" : {
+					"id" : "5"
+				},
+				"6" : {
+					"id" : "6"
+				},
+				"7" : {
+					"id" : "7"
+				},
+				"8" : {
+					"id" : "8"
+				},
+				"9" : {
+					"id" : "9"
+				},
+				"10" : {
+					"id" : "10"
 				}
 			}
 		},
 		"2" : {
 			"id" : "kaisa_2",
-			"name" : "フィットネスマスター",
-			"description" : "運動も戦いも、大切なのはやる気よ！さあ指揮官、やりなさい！汗だくになるまで止まるんじゃないわ！",
+			"name" : "Fitness Master",
+			"description" : "Both exercise and war are at their core about willpower! Now, get ready, Commander! We're not finished until you're dripping with sweat!",
 			"expression" : {
 				"0" : {
 					"id" : "0"
@@ -112,12 +143,12 @@
 		"1" : {
 			"icon" : "55480",
 			"rarity" : "Rare",
-			"name" : "320mm三連装砲Model1934"
+			"name" : "Triple 320mm Main Gun (M1934) "
 		},
 		"2" : {
 			"icon" : "55460",
 			"rarity" : "Rare",
-			"name" : "120mm連装砲Model1933"
+			"name" : "Twin 120mm Main Gun (M1933) "
 		},
 		"3" : {
 			"icon" : "",
@@ -213,9 +244,9 @@
 		}
 	},
 	"limitBreak": {
-		"tier1": "主砲砲座+1/主砲補正+5%",
-		"tier2": "副砲砲座+2/主砲補正+10%",
-		"tier3": "主砲砲座+1/主砲補正+15%"
+		"tier1": "Main gun base +1/Main gun efficiency +5%",
+		"tier2": "Auxiliary gun base +2/Main gun efficiency +10%",
+		"tier3": "Main gun base +1/Main gun efficiency +15%"
 	},
 	"equipmentLoadout": {
 		"1": {
@@ -279,9 +310,9 @@
 			"EN": ""
 		},
 		"limited": {
-			"JP": "",
-			"CN": "",
-			"EN": ""
+			"JP": "✓",
+			"CN": "✓",
+			"EN": "✓"
 		}
 	},
 	"drop": {
@@ -308,7 +339,7 @@
 			"1": {
 				"skin_id" : "kaisa",
 				"id" : "0",
-				"label" : "ジュリオ・チェザーレ",
+				"label" : "Giulio Cesare ",
 				"dialogue" : {
 					"1" : {
 						"event" : "Ship Description",
@@ -319,7 +350,7 @@
 						"japanese" : "コンテ・ディ・カブール 級戦艦・ジュリオ・チェザーレ",
 						"japaneseTL" : "",
 						"japaneseNote" : "",
-						"english" : "",
+						"english" : "Conte di Cavour-class battleship – Giulio Cesare. ",
 						"englishNote" : ""
 					},
 					"2" : {
@@ -331,7 +362,7 @@
 						"japanese" : "記憶に残った出来事……あの戦い以外にないわ。プンタ・スティーロ海戦で私を一発で戦線離脱させたあの一撃…あの時、私が先に相手に命中させていれば…！",
 						"japaneseTL" : "",
 						"japaneseNote" : "",
-						"english" : "",
+						"english" : "Memories that haunt me? None but that dreaded battle. I had to retreat from the Battle of Punto Stilo after taking a single hit... Things would've gone differently, had I only gotten to strike first...!",
 						"englishNote" : ""
 					},
 					"3" : {
@@ -343,7 +374,7 @@
 						"japanese" : "ジュリオ・チェザーレ、サディア帝国所属の戦艦よ。艦隊統率の腕前をこの私に見せなさい！",
 						"japaneseTL" : "",
 						"japaneseNote" : "",
-						"english" : "",
+						"english" : "I'm Giulio Cesare, battleship of the Sardegna Empire. Prove to me your talent in commanding a fleet!",
 						"englishNote" : ""
 					},
 					"4" : {
@@ -355,7 +386,7 @@
 						"japanese" : "時間通り…さすがは指揮官ね。こういうのだけはあなたに学ばなきゃならないわ",
 						"japaneseTL" : "",
 						"japaneseNote" : "",
-						"english" : "",
+						"english" : "You're right on time... Naturally. I'll admit your timeliness is the one thing I could learn from.",
 						"englishNote" : ""
 					},
 					"5" : {
@@ -367,7 +398,7 @@
 						"japanese" : "ウォースパイト、対等な条件でようやく再戦できるのね。待ってたわ！",
 						"japaneseTL" : "",
 						"japaneseNote" : "",
-						"english" : "",
+						"english" : "At last I can have a rematch with Warspite on equal terms. I've been waiting for this!",
 						"englishNote" : ""
 					},
 					"6" : {
@@ -379,7 +410,7 @@
 						"japanese" : "事務処理？カブールのほうが得意だけど…ううん、やってあげる。今は私が秘書艦だから",
 						"japaneseTL" : "",
 						"japaneseNote" : "",
-						"english" : "",
+						"english" : "Office work? Cavour is better at it than me... but I'll still do it. As any secretary should.",
 						"englishNote" : ""
 					},
 					"7" : {
@@ -391,7 +422,7 @@
 						"japanese" : "指揮官、決断は果敢にやったほうがいい。躊躇って無駄にした時間は取り戻せないから",
 						"japaneseTL" : "",
 						"japaneseNote" : "",
-						"english" : "",
+						"english" : "Commander, be decisive. Hesitation wastes time, and wasted time is gone forever.",
 						"englishNote" : ""
 					},
 					"8" : {
@@ -403,7 +434,7 @@
 						"japanese" : "事細かく連絡や調停するのではなく、命令を下し決断をするのが指導者のなすべきことよ。指揮官もそう思わない？",
 						"japaneseTL" : "",
 						"japaneseNote" : "",
-						"english" : "",
+						"english" : "A good leader doesn't micromanage or mediate, they issue clear orders and make firm decisions. Isn't that right, Commander?",
 						"englishNote" : ""
 					},
 					"9" : {
@@ -415,7 +446,7 @@
 						"japanese" : "カブール、指揮官の前ではもっと普通に話しなさい！さすがに指揮官にお年寄りとは思われたくないわ",
 						"japaneseTL" : "",
 						"japaneseNote" : "",
-						"english" : "",
+						"english" : "Cavour, don't be so overly formal around the Commander! No one wants to be treated like an old-timer!",
 						"englishNote" : ""
 					},
 					"10" : {
@@ -427,7 +458,7 @@
 						"japanese" : "ん……え？すまない、ちょっとぼんやりしてた…指揮官、もしかして私に気を使ったの？",
 						"japaneseTL" : "",
 						"japaneseNote" : "",
-						"english" : "",
+						"english" : "Mh... Mm? Sorry, I zoned out for a bit... Were you worried about me, Commander?",
 						"englishNote" : ""
 					},
 					"11" : {
@@ -439,7 +470,7 @@
 						"japanese" : "これで私をからかってるつもりなら、バカにされても文句言うんじゃないわよ",
 						"japaneseTL" : "",
 						"japaneseNote" : "",
-						"english" : "",
+						"english" : "If you plan on toying around with me, don't blame me when you get burned.",
 						"englishNote" : ""
 					},
 					"12" : {
@@ -451,7 +482,7 @@
 						"japanese" : "やりたくない任務は飛ばせられればいいわね",
 						"japaneseTL" : "",
 						"japaneseNote" : "",
-						"english" : "",
+						"english" : "You can honestly skip missions you'd rather not take on.",
 						"englishNote" : ""
 					},
 					"13" : {
@@ -463,7 +494,7 @@
 						"japanese" : "任務をこなしたところで、戦況に影響があるのか？",
 						"japaneseTL" : "",
 						"japaneseNote" : "",
-						"english" : "",
+						"english" : "On the topic of completing missions, does it even affect the war situation?",
 						"englishNote" : ""
 					},
 					"14" : {
@@ -475,7 +506,7 @@
 						"japanese" : "手紙よ。プライベートのものじゃなければ、私が開封しても構わないわね？",
 						"japaneseTL" : "",
 						"japaneseNote" : "",
-						"english" : "",
+						"english" : "There's a letter for you. Assuming it's no private matter, you don't mind if I open it, do you?",
 						"englishNote" : ""
 					},
 					"15" : {
@@ -487,7 +518,7 @@
 						"japanese" : "いつも通りの勝利だったわね。あなたの顔がそう言っているわ",
 						"japaneseTL" : "",
 						"japaneseNote" : "",
-						"english" : "",
+						"english" : "Triumphant once again, yes? It's written all over your face.",
 						"englishNote" : ""
 					},
 					"16" : {
@@ -499,7 +530,7 @@
 						"japanese" : "あっちにいるのは委託組か？指揮官、あの子達に挨拶してみない？",
 						"japaneseTL" : "",
 						"japaneseNote" : "",
-						"english" : "",
+						"english" : "Isn't that the commission team? Why not go say hello to them, Commander?",
 						"englishNote" : ""
 					},
 					"17" : {
@@ -511,7 +542,7 @@
 						"japanese" : "私の限界はこの程度じゃないわ！",
 						"japaneseTL" : "",
 						"japaneseNote" : "",
-						"english" : "",
+						"english" : "I've yet to hit my own limits!",
 						"englishNote" : ""
 					},
 					"18" : {
@@ -523,7 +554,7 @@
 						"japanese" : "指揮官の命により、出陣せよ！",
 						"japaneseTL" : "",
 						"japaneseNote" : "",
-						"english" : "",
+						"english" : "As per the Commander's orders, we depart for the front!",
 						"englishNote" : ""
 					},
 					"19" : {
@@ -535,7 +566,7 @@
 						"japanese" : "veni，vidi，vici（ウェーニー・ウィーディー・ウィーキー）",
 						"japaneseTL" : "",
 						"japaneseNote" : "",
-						"english" : "",
+						"english" : "Veni, vidi, vici.",
 						"englishNote" : ""
 					},
 					"20" : {
@@ -547,7 +578,7 @@
 						"japanese" : "力不足、か……！",
 						"japaneseTL" : "",
 						"japaneseNote" : "",
-						"english" : "",
+						"english" : "Am I out of my depth...?!",
 						"englishNote" : ""
 					},
 					"21" : {
@@ -559,7 +590,7 @@
 						"japanese" : "この力、全てを平伏させるものなり！",
 						"japaneseTL" : "",
 						"japaneseNote" : "",
-						"english" : "",
+						"english" : "All shall bow before my might! ",
 						"englishNote" : ""
 					},
 					"22" : {
@@ -571,7 +602,7 @@
 						"japanese" : "この程度ではくじけないわ！",
 						"japaneseTL" : "",
 						"japaneseNote" : "",
-						"english" : "",
+						"english" : "You won't break my spirit so easily!",
 						"englishNote" : ""
 					},
 					"23" : {
@@ -583,7 +614,7 @@
 						"japanese" : "指揮官の席にふさわしい気迫を持ち合わせていないようね",
 						"japaneseTL" : "",
 						"japaneseNote" : "",
-						"english" : "",
+						"english" : "Seems you lack the mindset to be a worthy commander.",
 						"englishNote" : ""
 					},
 					"24" : {
@@ -595,7 +626,7 @@
 						"japanese" : "建前も社交辞令も大事だとカブールはいつも主張しているけど、私は自分の思ってることを伝えてこその言葉だと思う。意思疎通を気にしなければならないなんて窮屈だと思わない？",
 						"japaneseTL" : "",
 						"japaneseNote" : "",
-						"english" : "",
+						"english" : "Cavour always stresses the importance of courtesy and diplomatic discourse, but I believe in simply speaking one's mind. Doesn't it sound dreadful to obsess over some idea of formality?",
 						"englishNote" : ""
 					},
 					"25" : {
@@ -607,7 +638,7 @@
 						"japanese" : "命令に従わないやつは痛い目に遭わせて教訓を与えるに限るわね。…そんな単純なものじゃない、って？別に悪くないことだと思っていたけど…",
 						"japaneseTL" : "",
 						"japaneseNote" : "",
-						"english" : "",
+						"english" : "A little bit of harsh discipline is the right medicine for slouches who can't obey orders. \"It's not that simple\"? Well, I thought I was making a good suggestion...",
 						"englishNote" : ""
 					},
 					"26" : {
@@ -619,7 +650,7 @@
 						"japanese" : "休暇があると聞いて、オペラのチケットを二枚買ってきたけど、よかったら一緒に見ない？新しいものを見聞きするのはあなたにとっても悪いことじゃないわよ",
 						"japaneseTL" : "",
 						"japaneseNote" : "",
-						"english" : "",
+						"english" : "A little bird told me you're free, and I've got two tickets to the opera, so what do you say? I'd say you're due for something you haven't experienced before.",
 						"englishNote" : ""
 					},
 					"27" : {
@@ -631,7 +662,7 @@
 						"japanese" : "指揮官、安心して。この私があなたの背中を守っている以上、あなたはもうそのまま前に向かって進むことだけ考えていればいいわ。ほかのことは全て私に任せなさい！",
 						"japaneseTL" : "",
 						"japaneseNote" : "",
-						"english" : "",
+						"english" : "You can rest easy, Commander. For as long as I have your back, you can keep your eyes on the path ahead and continue moving forward. I'll take care of everything else for you!",
 						"englishNote" : ""
 					},
 					"28" : {
@@ -643,7 +674,7 @@
 						"japanese" : "はあ…準備しておいたカップル旅行ツアーが無駄になったわね…誰と行くって？あなたと行くに決まってるじゃない？…次から先に言ってって？そもそもこれ、私があなたのために準備してて……わ、分かったわよ…",
 						"japaneseTL" : "",
 						"japaneseNote" : "",
-						"english" : "",
+						"english" : "*Sigh*... The romantic vacation I booked was all for nothing... \"With who\"? With you, shouldn't that be obvious?! ... \"Just ask me next time\"? But I booked it just for you in the first place... F-fine, I will...",
 						"englishNote" : ""
 					},
 					"29" : {
@@ -711,7 +742,7 @@
 			"2": {
 				"skin_id" : "kaisa_2",
 				"id" : "1",
-				"label" : "フィットネスマスター",
+				"label" : "Fitness Master",
 				"dialogue" : {
 					"1" : {
 						"event" : "Ship Description",
@@ -722,7 +753,7 @@
 						"japanese" : "運動も戦いも、大切なのはやる気よ！さあ指揮官、やりなさい！汗だくになるまで止まるんじゃないわ！",
 						"japaneseTL" : "",
 						"japaneseNote" : "",
-						"english" : "",
+						"english" : "Both exercise and war are at their core about willpower! Now, get ready, Commander! We're not finished until you're dripping with sweat!",
 						"englishNote" : ""
 					},
 					"2" : {
@@ -734,7 +765,7 @@
 						"japanese" : "運動も戦いも、大切なのはやる気よ！さあ指揮官、やりなさい！汗だくになるまで止まるんじゃないわ！",
 						"japaneseTL" : "",
 						"japaneseNote" : "",
-						"english" : "",
+						"english" : "Both exercise and war are at their core about willpower! Now, get ready, Commander! We're not finished until you're dripping with sweat!",
 						"englishNote" : ""
 					},
 					"3" : {
@@ -746,7 +777,7 @@
 						"japanese" : "ランニングマシンが空いているわ。鍛えたいなら適当に使ってなさい",
 						"japaneseTL" : "",
 						"japaneseNote" : "",
-						"english" : "",
+						"english" : "The treadmill is free right now. Do use it if you plan to work out.",
 						"englishNote" : ""
 					},
 					"4" : {
@@ -758,7 +789,7 @@
 						"japanese" : "筋トレの計画でも作ってあげようか？……「チェザーレの鍛え方だと、栄養が筋肉に吸収されて脳に入らなくなる」って？カブールがそう言ったの！？",
 						"japaneseTL" : "",
 						"japaneseNote" : "",
-						"english" : "",
+						"english" : "Want me to make a training plan for you? ... \"Cesare's training methods send nutrients to your muscles and away from the brain\"? Did Cavour really say that?!",
 						"englishNote" : ""
 					},
 					"5" : {
@@ -770,7 +801,7 @@
 						"japanese" : "「運動してこそ命つながる」……誰が言ったっけ？",
 						"japaneseTL" : "",
 						"japaneseNote" : "",
-						"english" : "",
+						"english" : "\"Inaction saps the vigor of the mind\"... Who said that, again?",
 						"englishNote" : ""
 					},
 					"6" : {
@@ -782,7 +813,7 @@
 						"japanese" : "「ジョギングコース」「脂肪燃焼コース」「ローリングヒルコース」……こんなに複雑なものか？とりあえず一番難しそうなのを頼むわ",
 						"japaneseTL" : "",
 						"japaneseNote" : "",
-						"english" : "",
+						"english" : "Jogging courses, fat-burning courses, rolling hills courses... Is it really this complicated? I'll just start with whichever seems the toughest.",
 						"englishNote" : ""
 					},
 					"7" : {
@@ -794,7 +825,7 @@
 						"japanese" : "ストレスが溜まったら、あっちにあるサンドバッグで発散してみるといいわ。いい気分になれるって私自身で実証済みよ",
 						"japaneseTL" : "",
 						"japaneseNote" : "",
-						"english" : "",
+						"english" : "If you feel stressed out, just let it all out on that sandbag over there. I can attest that it does wonders for the mood.",
 						"englishNote" : ""
 					},
 					"8" : {
@@ -806,7 +837,7 @@
 						"japanese" : "この程度でもうへばってる？指揮官はまだまだだわ",
 						"japaneseTL" : "",
 						"japaneseNote" : "",
-						"english" : "",
+						"english" : "Are you out of breath already? You've still got a long way to go, Commander.",
 						"englishNote" : ""
 					},
 					"9" : {
@@ -818,7 +849,7 @@
 						"japanese" : "何やったの！こら、誤魔化すんじゃないわよ！",
 						"japaneseTL" : "",
 						"japaneseNote" : "",
-						"english" : "",
+						"english" : "What was that for?! Don't ignore me, answer!",
 						"englishNote" : ""
 					},
 					"10" : {
@@ -830,7 +861,7 @@
 						"japanese" : "ほら、これでも受け取りなさい！水分補給、忘れないで",
 						"japaneseTL" : "",
 						"japaneseNote" : "",
-						"english" : "",
+						"english" : "Here, take this! Don't forget to rehydrate.",
 						"englishNote" : ""
 					}
 				}

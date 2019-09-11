@@ -11,7 +11,8 @@
 	"hull" : "Battleship",
 	"navy" : "Sardegna Empire",
 	"prefix" : "RN",
-	"buildTime" : "",
+	"buildTime" : "N/A",
+	"voiceActress" : "Ayaka Shimizu",
 	"parameters": {
 		"firepower" : "A",
 		"torpedo" : "D",
@@ -26,10 +27,10 @@
 		"medal" : "1"
 	},
 	"releaseDate": {
-		"JP" : "",
-		"CN" : "",
-		"KR" : "",
-		"EN" : ""
+		"JP" : "September 11, 2019",
+		"CN" : "September 11, 2019",
+		"KR" : "September 11, 2019",
+		"EN" : "September 11, 2019"
 	},
 	"artist": {
 		"name" : "",
@@ -38,31 +39,40 @@
 		"pixiv" : "",
 		"other" : ""
 	},
-	"class" : "コンテ・ディ・カブール級",
+	"class" : "Conte di Cavour-class",
 	"enhance": {
 		"firepower" : "53",
 		"torpedo" : "3",
 		"aviation" : "0",
 		"reload" : "10"
 	},
-	"acquisitionMethod" : "イベント：悲歎せし焔海の詩",
+	"acquisitionMethod" : "Event: Empyreal Tragicomedy",
 	"skill": {
 		"1" : {
 			"icon" : "12650",
-			"requirement" : "",
-			"name" : "栄光、流れる記憶",
+			"requirement" : "Default Unlocked",
+			"name" : "Fading Memories of Glory",
 			"type" : "Offensive",
-			"description" : "戦闘開始10秒後魚雷弾幕$3を展開する（威力は雷装ステータスとスキルレベルによる）。自身の1回目の主砲攻撃5秒後、戦闘終了時まで自身の火力が$1、軽巡に与えるダメージが$2アップし、雷装ステータスが0になる"
+			"description" : "10s after the battle starts: fires a Lv.1(Lv.10) torpedo barrage (DMG is based on the skill's level and this ship's TRP stat.) 5s after this ship fires its first Volley: for the rest of the battle, increases this ship's FP by 5.0%(15.0%), DMG dealt to enemy CLs by 10.0%(20.0%), and sets this ship's TRP stat to 0."
 		}
 	},
 	"skin": {
 		"1" : {
 			"id" : "jiafuerbojue",
-			"name" : "コンテ・ディ・カブール ",
-			"description" : "コンテ・ディ・カブール級戦艦・コンテ・ディ・カブール ",
+			"name" : "Conte di Cavour ",
+			"description" : "Conte di Cavour-class battleship – Conte di Cavour. ",
 			"expression" : {
 				"0" : {
 					"id" : "0"
+				},
+				"1" : {
+					"id" : "1"
+				},
+				"2" : {
+					"id" : "2"
+				},
+				"3" : {
+					"id" : "3"
 				}
 			}
 		}
@@ -71,12 +81,12 @@
 		"1" : {
 			"icon" : "55480",
 			"rarity" : "Rare",
-			"name" : "320mm三連装砲Model1934"
+			"name" : "Triple 320mm Main Gun (M1934) "
 		},
 		"2" : {
 			"icon" : "55460",
 			"rarity" : "Rare",
-			"name" : "120mm連装砲Model1933"
+			"name" : "Twin 120mm Main Gun (M1933) "
 		},
 		"3" : {
 			"icon" : "",
@@ -172,9 +182,9 @@
 		}
 	},
 	"limitBreak": {
-		"tier1": "主砲砲座+1/主砲補正+5%",
-		"tier2": "副砲砲座+2/主砲補正+10%",
-		"tier3": "主砲砲座+1/主砲補正+15%"
+		"tier1": "Main gun base +1/Main gun efficiency +5%",
+		"tier2": "Auxiliary gun base +2/Main gun efficiency +10%",
+		"tier3": "Main gun base +1/Main gun efficiency +15%"
 	},
 	"equipmentLoadout": {
 		"1": {
@@ -244,15 +254,40 @@
 		}
 	},
 	"drop": {
-		"droppable": "false",
+		"droppable": "true",
 		"list": {
 			"1": {
-				"event": "",
+				"event": "Empyreal Tragicomedy",
 				"chapter": {
 					"1": {
-						"label": "Ch .1",
+						"label": "Ch.B",
 						"node": {
 							"1": {
+								"drop": "✓",
+								"note": "-"
+							},
+							"2": {
+								"drop": "✓",
+								"note": "-"
+							},
+							"3": {
+								"drop": "-",
+								"note": "-"
+							}
+						}
+					},
+					"2": {
+						"label": "Ch.D",
+						"node": {
+							"1": {
+								"drop": "✓",
+								"note": "-"
+							},
+							"2": {
+								"drop": "✓",
+								"note": "-"
+							},
+							"3": {
 								"drop": "✓",
 								"note": "-"
 							}
@@ -267,7 +302,7 @@
 			"1": {
 				"skin_id" : "jiafuerbojue",
 				"id" : "0",
-				"label" : "コンテ・ディ・カブール ",
+				"label" : "Conte di Cavour ",
 				"dialogue" : {
 					"1" : {
 						"event" : "Ship Description",
@@ -278,7 +313,7 @@
 						"japanese" : "コンテ・ディ・カブール 級戦艦・コンテ・ディ・カブール ",
 						"japaneseTL" : "",
 						"japaneseNote" : "",
-						"english" : "",
+						"english" : "Conte di Cavour-class battleship – Conte di Cavour. ",
 						"englishNote" : ""
 					},
 					"2" : {
@@ -290,7 +325,7 @@
 						"japanese" : "帝国艦隊の強盛も、かの大戦での、あの嘆かわしい夜もこの目で見た。艦隊の指導者、指揮官である君には気をつけてほしい。せめて、あのときの悲劇を繰り返さないように、ね",
 						"japaneseTL" : "",
 						"japaneseNote" : "",
-						"english" : "",
+						"english" : "I witnessed the ascendancy of the Imperial Fleet as well as its decay into powerlessness. Commander, I pray that you, as the leader of the fleet, will never repeat the tragedies of the past.",
 						"englishNote" : ""
 					},
 					"3" : {
@@ -302,7 +337,7 @@
 						"japanese" : "弩級戦艦、コンテ・ディ・カブールだ。小生がしてあげられるものは多いが…指揮官、君が信頼に値する者であるかどうかに賭かっているぞ",
 						"japaneseTL" : "",
 						"japaneseNote" : "",
-						"english" : "",
+						"english" : "I am the dreadnought, Conte di Cavour. There is much that I can do for you, Commander, but that depends on whether or not you are trustworthy.",
 						"englishNote" : ""
 					},
 					"4" : {
@@ -314,7 +349,7 @@
 						"japanese" : "多くは語るまい。今日の執務を始めよう",
 						"japaneseTL" : "",
 						"japaneseNote" : "",
-						"english" : "",
+						"english" : "Save your breath. Let's begin today's work.",
 						"englishNote" : ""
 					},
 					"5" : {
@@ -326,7 +361,7 @@
 						"japanese" : "レオナルド・ダ・ヴィンチ……あの事故さえなければ、チェザーレのようにサディアのために最後まで戦えたはずだ",
 						"japaneseTL" : "",
 						"japaneseNote" : "",
-						"english" : "",
+						"english" : "Leonardo da Vinci... had that tragedy not occurred, she surely would've fought to the last breath for the glory of the Sardegna Empire, just like Cesare.",
 						"englishNote" : ""
 					},
 					"6" : {
@@ -338,7 +373,7 @@
 						"japanese" : "ドレスか？はて、小生そういうのに興味はないね。うん、ないね",
 						"japaneseTL" : "",
 						"japaneseNote" : "",
-						"english" : "",
+						"english" : "A gown? I have no interest in things like that. Nor will I ever. ",
 						"englishNote" : ""
 					},
 					"7" : {
@@ -350,7 +385,7 @@
 						"japanese" : "指揮官、小生宛にロイヤルのお茶会の誘いがあったら、秘書艦の公務が忙しいからと言って断ってくれないかね？",
 						"japaneseTL" : "",
 						"japaneseNote" : "",
-						"english" : "",
+						"english" : "Commander, if I ever get invited to one of those Royal tea parties, please tell them that I am too busy with secretary work. ",
 						"englishNote" : ""
 					},
 					"8" : {
@@ -362,7 +397,7 @@
 						"japanese" : "小生はかつて高く期待されていたが…なに、人に追い越されるのは悪い気分ではないぞ",
 						"japaneseTL" : "",
 						"japaneseNote" : "",
-						"english" : "",
+						"english" : "Some people used to hold me to lofty expectations, but it feels natural to see the next generation surpass me.",
 						"englishNote" : ""
 					},
 					"9" : {
@@ -386,7 +421,7 @@
 						"japanese" : "一つ言っておこう。外見で人を判断するのは損するぞ",
 						"japaneseTL" : "",
 						"japaneseNote" : "",
-						"english" : "",
+						"english" : "Allow me to say this: judging people by their appearance will be your downfall.",
 						"englishNote" : ""
 					},
 					"11" : {
@@ -398,7 +433,7 @@
 						"japanese" : "小生を見くびっているのかね？",
 						"japaneseTL" : "",
 						"japaneseNote" : "",
-						"english" : "",
+						"english" : "Just how little do you think of me?",
 						"englishNote" : ""
 					},
 					"12" : {
@@ -410,7 +445,7 @@
 						"japanese" : "ふーん……こなした任務は全ての任務数に達していないな。指揮官、これはどうしてかね？",
 						"japaneseTL" : "",
 						"japaneseNote" : "",
-						"english" : "",
+						"english" : "Hmm... The number of missions you've completed seems to be lower than the number of missions you were given. Commander, may I ask why?",
 						"englishNote" : ""
 					},
 					"13" : {
@@ -422,7 +457,7 @@
 						"japanese" : "これは、また一つ減ったか。……未完了の任務のことだが？",
 						"japaneseTL" : "",
 						"japaneseNote" : "",
-						"english" : "",
+						"english" : "One more name off my list... Oh, I was talking about the list of unfinished missions.",
 						"englishNote" : ""
 					},
 					"14" : {
@@ -434,7 +469,7 @@
 						"japanese" : "手紙は――小生は執事ではないから、指揮官ご自身で取っていただいて結構。そう、その右手をちょっと動かすだけでいいぞ",
 						"japaneseTL" : "",
 						"japaneseNote" : "",
-						"english" : "",
+						"english" : "New mail has arrived... I'm not your butler, and you're perfectly capable of getting it yourself. Look, it's by your right hand.",
 						"englishNote" : ""
 					},
 					"15" : {
@@ -446,7 +481,7 @@
 						"japanese" : "戦闘ご苦労。次にこなしてほしいお仕事はこれだ――おっと、これは小生がうっかりこなしてしまったものだな。ここはお茶でも飲んで休憩するがいい",
 						"japaneseTL" : "",
 						"japaneseNote" : "",
-						"english" : "",
+						"english" : "A hard fought battle. Next, there are many missions that you must attend to... Oh my, it would appear that I've accidentally finished everything. Do have some tea and rest for a while.",
 						"englishNote" : ""
 					},
 					"16" : {
@@ -458,7 +493,7 @@
 						"japanese" : "委託組が母港に帰還した。これほどの手勢とはパレードでも行ってきたのかね？",
 						"japaneseTL" : "",
 						"japaneseNote" : "",
-						"english" : "",
+						"english" : "The commission squad has returned to port. Were you sending this bunch to a parade or something?",
 						"englishNote" : ""
 					},
 					"17" : {
@@ -470,7 +505,7 @@
 						"japanese" : "気を使わせてしまったな",
 						"japaneseTL" : "",
 						"japaneseNote" : "",
-						"english" : "",
+						"english" : "Thanks for your consideration.",
 						"englishNote" : ""
 					},
 					"18" : {
@@ -482,7 +517,7 @@
 						"japanese" : "知恵と勇気を振り絞る時だ",
 						"japaneseTL" : "",
 						"japaneseNote" : "",
-						"english" : "",
+						"english" : "It is time to clad yourselves in courage and wisdom!",
 						"englishNote" : ""
 					},
 					"19" : {
@@ -494,7 +529,7 @@
 						"japanese" : "多くても嫌われぬものこそ勝利というものだ",
 						"japaneseTL" : "",
 						"japaneseNote" : "",
-						"english" : "",
+						"english" : "One will never tire of victory.",
 						"englishNote" : ""
 					},
 					"20" : {
@@ -506,7 +541,7 @@
 						"japanese" : "ん…小生も時の流れに頭を垂れる番か…",
 						"japaneseTL" : "",
 						"japaneseNote" : "",
-						"english" : "",
+						"english" : "Ngh... Must I also bow my head to the passage of time...?",
 						"englishNote" : ""
 					},
 					"21" : {
@@ -518,7 +553,7 @@
 						"japanese" : "この一撃、絶唱にあらず！",
 						"japaneseTL" : "",
 						"japaneseNote" : "",
-						"english" : "",
+						"english" : "This volley... shall not be my last! ",
 						"englishNote" : ""
 					},
 					"22" : {
@@ -530,7 +565,7 @@
 						"japanese" : "各員、警戒を厳にせよ！",
 						"japaneseTL" : "",
 						"japaneseNote" : "",
-						"english" : "",
+						"english" : "Everyone, stay vigilant!",
 						"englishNote" : ""
 					},
 					"23" : {
@@ -542,7 +577,7 @@
 						"japanese" : "いずれ君のその自惚れに代償を支払うことになろう",
 						"japaneseTL" : "",
 						"japaneseNote" : "",
-						"english" : "",
+						"english" : "You will eventually pay the price for your arrogance.",
 						"englishNote" : ""
 					},
 					"24" : {
@@ -554,7 +589,7 @@
 						"japanese" : "これでもサディアの古参だ。根回しから艦隊の運営までそれなりに経験がある。小生が力になれることがあれば何でも相談してくれたまえ",
 						"japaneseTL" : "",
 						"japaneseNote" : "",
-						"english" : "",
+						"english" : "As one of Sardegna's veterans, I have ample experience ranging from communication to fleet management. If you need any advice, feel free to ask me.",
 						"englishNote" : ""
 					},
 					"25" : {
@@ -566,7 +601,7 @@
 						"japanese" : "指揮官は夜空を見るときにいつも何を思い浮かべるのかね？小生はいつもあの夜のことを、あのまるで流星が流れていたかのような空を思い出すのだ",
 						"japaneseTL" : "",
 						"japaneseNote" : "",
-						"english" : "",
+						"english" : "Commander, what do you think about when you gaze up into the night sky? I always think back to that night... when the skies were ablaze with what looked like countless meteors.",
 						"englishNote" : ""
 					},
 					"26" : {
@@ -578,7 +613,7 @@
 						"japanese" : "サディア帝国の栄光……まあ、小生にとっては過去のことだ。この艦隊にもそろそろ慣れてきたし、前向きに考えるとしよう",
 						"japaneseTL" : "",
 						"japaneseNote" : "",
-						"english" : "",
+						"english" : "Long live the glory of the Sardegna Empire... Forget it, it's all in the past now. I'm getting used to being in this fleet, so let's look ahead.",
 						"englishNote" : ""
 					},
 					"27" : {
@@ -590,7 +625,7 @@
 						"japanese" : "前向きに考える、と言ったのかね？ならば小生は君の後ろ盾になろう。何が起きようと、君が前だけを向いていればいいように背中をキッチリ守ってあげよう",
 						"japaneseTL" : "",
 						"japaneseNote" : "",
-						"english" : "",
+						"english" : "I said \"let's look ahead,\" right? In that case, I'll cover your back. That way, no matter what happens, you can always keep your eyes ahead of you and leave the rest to me.",
 						"englishNote" : ""
 					},
 					"28" : {
@@ -602,7 +637,7 @@
 						"japanese" : "こんなに大切なものを、小生に…？む、これは……んん！済まない、礼を失したようだな。では答えるぞ――「こんな自分でよければ、喜んで」――これでいいのかね？は、早く終わらせて……",
 						"japaneseTL" : "",
 						"japaneseNote" : "",
-						"english" : "",
+						"english" : "You're giving such an important thing to me...? I... this is... ahh! I'm sorry, I can't keep my composure, but I'll try my best to say it... \"I do!\" How's that? P-please let this embarrassing ritual be over already...",
 						"englishNote" : ""
 					},
 					"29" : {
@@ -614,7 +649,7 @@
 						"japanese" : "ロイヤルの戦士か。ともに戦えるとは思わなかったな",
 						"japaneseTL" : "",
 						"japaneseNote" : "",
-						"english" : "",
+						"english" : "Our battle isn't over yet!",
 						"englishNote" : ""
 					},
 					"30" : {
@@ -626,7 +661,7 @@
 						"japanese" : "チェザーレ、ついてきてくれたまえ",
 						"japaneseTL" : "",
 						"japaneseNote" : "",
-						"english" : "",
+						"english" : "Cavour, worry about yourself instead!",
 						"englishNote" : ""
 					},
 					"31" : {
