@@ -1,0 +1,818 @@
+{
+	"name_reference" : "formidable",
+	"cn_reference" : "kewei",
+	"nameJP" : "フォーミダブル",
+	"nameCN" : "可畏",
+	"ID" : "147",
+	"name" : "Formidable",
+	"internal_id" : "207051",
+	"rarity" : "Super Rare",
+	"initialStar" : "★★★☆☆☆",
+	"hull" : "Aircraft Carrier",
+	"navy" : "Royal Navy",
+	"prefix" : "HMS",
+	"buildTime" : "",
+	"voiceActress" : "Rie Kugimiya",
+	"parameters": {
+		"firepower" : "E",
+		"torpedo" : "E",
+		"aviation" : "A",
+		"evasion" : "D",
+		"antiAir" : "B",
+		"hp" : "S"
+	},
+	"scrap": {
+		"gold" : "9",
+		"oil" : "3",
+		"medal" : "10"
+	},
+	"releaseDate": {
+		"JP" : "",
+		"CN" : "",
+		"KR" : "",
+		"EN" : ""
+	},
+	"artist": {
+		"name" : "",
+		"weibo" : "",
+		"twitter" : "",
+		"pixiv" : "",
+		"other" : ""
+	},
+	"class" : "Illustrious-Class",
+	"enhance": {
+		"firepower" : "0",
+		"torpedo" : "0",
+		"aviation" : "65",
+		"reload" : "8"
+	},
+	"acquisitionMethod" : "イベント：悲歎せし焔海の詩",
+	"skill": {
+		"1" : {
+			"icon" : "12570",
+			"requirement" : "",
+			"name" : "フォロワーウィング",
+			"type" : "Offensive",
+			"description" : "自身の航空が$2アップする。自身が「フェアリーアルバコア」を装備している場合、下記の効果が適用される：①「フェアリーアルバコア」を装備している兵装枠の威力補正が$1アップする；⓶自身が航空攻撃を行う場合に$3で発動し、フェアリーアルバコアによる特殊航空攻撃を展開し、命中した敵を80%で9秒間進水させ浸水ダメージを与える（特殊航空攻撃と浸水のダメージは自身の航空ステータス・スキルレベルによる）"
+		},
+		"2" : {
+			"icon" : "12580",
+			"requirement" : "",
+			"name" : "じっとしてなさい！",
+			"type" : "Support",
+			"description" : "自身が航空攻撃を行うときに$1で発動。$2秒間全てに敵の速力を0にする。その後、このスキルの効果は2.5秒間で無効になるまで減衰し続ける(このスキルは戦闘開始1回目の航空攻撃時に必ず発動する)"
+		},
+		"3" : {
+			"icon" : "12590",
+			"requirement" : "",
+			"name" : "ボックスハンガー",
+			"type" : "Defensive",
+			"description" : "自身の受けるダメージを$1軽減する；自身が航空攻撃を行う場合、10秒間、自身以外の味方主力艦隊の受けるダメージを$2軽減する"
+		}
+	},
+	"skin": {
+		"1" : {
+			"id" : "kewei",
+			"name" : "フォーミダブル",
+			"description" : "イラストリアス航空母艦・フォーミダブル (HMS Formidable）",
+			"expression" : {
+				"0" : {
+					"id" : "0"
+				}
+			}
+		},
+		"2" : {
+			"id" : "kewei_2",
+			"name" : "ロイヤルレディの海",
+			"description" : "ロイヤルレディは水着姿でも優雅に振る舞いますわ。……あ、あまりそう見えないって？そ、そうでしょうか……おかしいですわね…",
+			"expression" : {
+				"0" : {
+					"id" : "0"
+				},
+				"1" : {
+					"id" : "1"
+				},
+				"2" : {
+					"id" : "2"
+				},
+				"3" : {
+					"id" : "3"
+				},
+				"4" : {
+					"id" : "4"
+				},
+				"5" : {
+					"id" : "5"
+				},
+				"6" : {
+					"id" : "6"
+				}
+			}
+		}
+	},
+	"defaultEquipment": {
+		"1" : {
+			"icon" : "27000",
+			"rarity" : "Common",
+			"name" : "Spitfire"
+		},
+		"2" : {
+			"icon" : "28300",
+			"rarity" : "Common",
+			"name" : "フェアリーアルバコア"
+		},
+		"3" : {
+			"icon" : "28300",
+			"rarity" : "Common",
+			"name" : "フェアリーアルバコア"
+		}
+	},
+	"stats": {
+		"base": {
+			"hp" : "1090",
+			"firepower" : "0",
+			"torpedo" : "0",
+			"antiAir" : "54",
+			"aviation" : "79",
+			"reload" : "43",
+			"hit" : "31",
+			"evasion" : "12",
+			"speed" : "30",
+			"luck" : "75",
+			"asw" : "0",
+			"oxygen" : "0",
+			"ammo" : "0",
+			"cost" : "4",
+			"armor" : "Heavy"
+		},
+		"100": {
+			"hp" : "5636",
+			"firepower" : "0",
+			"torpedo" : "0",
+			"antiAir" : "253",
+			"aviation" : "372",
+			"reload" : "102",
+			"hit" : "80",
+			"evasion" : "31",
+			"speed" : "30",
+			"luck" : "75",
+			"asw" : "0",
+			"oxygen" : "0",
+			"ammo" : "0",
+			"cost" : "13",
+			"armor" : "Heavy"
+		},
+		"120": {
+			"hp" : "6481",
+			"firepower" : "0",
+			"torpedo" : "0",
+			"antiAir" : "289",
+			"aviation" : "413",
+			"reload" : "117",
+			"hit" : "90",
+			"evasion" : "51",
+			"speed" : "30",
+			"luck" : "75",
+			"asw" : "0",
+			"oxygen" : "0",
+			"ammo" : "0",
+			"cost" : "13",
+			"armor" : "Heavy"
+		},
+		"100retrofit": {
+			"hp" : "",
+			"firepower" : "",
+			"torpedo" : "",
+			"antiAir" : "",
+			"aviation" : "",
+			"reload" : "",
+			"hit" : "",
+			"evasion" : "",
+			"speed" : "30",
+			"luck" : "75",
+			"asw" : "",
+			"oxygen" : "0",
+			"ammo" : "0",
+			"cost" : "13",
+			"armor" : "Heavy"
+		},
+		"120retrofit": {
+			"hp" : "",
+			"firepower" : "",
+			"torpedo" : "",
+			"antiAir" : "",
+			"aviation" : "",
+			"reload" : "",
+			"hit" : "",
+			"evasion" : "",
+			"speed" : "30",
+			"luck" : "75",
+			"asw" : "",
+			"oxygen" : "0",
+			"ammo" : "0",
+			"cost" : "13",
+			"armor" : "Heavy"
+		}
+	},
+	"limitBreak": {
+		"tier1": "攻撃機数+1/艦載機補正+2%",
+		"tier2": "攻撃隊上限+1/戦闘機数+1/艦載機補正+3%",
+		"tier3": "攻撃機数+1/艦載機補正+5%/戦闘機枠で爆撃機装備可能に"
+	},
+	"equipmentLoadout": {
+		"1": {
+			"type": "Fighter",
+			"efficiency": "110%/112%/115%/120%",
+			"amount": "1/1/2/2",
+			"preload": "0/0/0/0"
+		},
+		"2": {
+			"type": "Torpedo Bomber",
+			"efficiency": "125%/127%/130%/135%",
+			"amount": "1/2/2/3",
+			"preload": "0/0/0/0"
+		},
+		"3": {
+			"type": "Torpedo Bomber",
+			"efficiency": "115%/117%/120%/125%",
+			"amount": "1/2/2/3",
+			"preload": "0/0/0/0"
+		},
+		"4": {
+			"type": "Auxilary",
+			"efficiency": "-",
+			"amount": "-",
+			"preload": "-"
+		},
+		"5": {
+			"type": "Auxilary",
+			"efficiency": "-",
+			"amount": "-",
+			"preload": "-"
+		}
+	},
+	"fleet_tech": {
+		"pt_get": "17",
+		"add_get_attr": "HP",
+		"add_get_value": "2",
+		"add_get_shiptype": "Light Aircraft Carrier,Aircraft Carrier",
+		"pt_upgrade": "35",
+		"pt_level": "26",
+		"add_level_attr": "Anti-Air",
+		"add_level_value": "1",
+		"add_level_shiptype": "Light Aircraft Carrier,Aircraft Carrier",
+		"t_level": "8",
+		"ships": "illustrious,victorious,formidable"
+	},
+	"build": {
+		"light": {
+			"JP": "",
+			"CN": "",
+			"EN": ""
+		},
+		"heavy": {
+			"JP": "",
+			"CN": "",
+			"EN": ""
+		},
+		"special": {
+			"JP": "",
+			"CN": "",
+			"EN": ""
+		},
+		"limited": {
+			"JP": "",
+			"CN": "",
+			"EN": ""
+		}
+	},
+	"drop": {
+		"droppable": "false",
+		"list": {
+			"1": {
+				"event": "",
+				"chapter": {
+					"1": {
+						"label": "Ch .1",
+						"node": {
+							"1": {
+								"drop": "✓",
+								"note": "-"
+							}
+						}
+					}
+				}
+			}
+		}
+	},
+	"lines": {
+		"skin": {
+			"1": {
+				"skin_id" : "kewei",
+				"id" : "0",
+				"label" : "フォーミダブル",
+				"dialogue" : {
+					"1" : {
+						"event" : "Ship Description",
+						"media" : "",
+						"chinese" : "光辉级航空母舰—可畏，舷号67",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "イラストリアス航空母艦・フォーミダブル (HMS Formidable）",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"2" : {
+						"event" : "Biography",
+						"media" : "profile",
+						"chinese" : "我是光辉级的三号舰，可畏。曾经在地中海服役了一段时间，和那位维内托交过手。然后，我又去了印度洋，太平洋，最后，在重樱作战直至大战结束。虽然没有十分出色的战果，不过，也算是为大战的终结出过一份力了",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "イラストリアス級空母の三番艦、フォーミダブルですわ。地中海での戦いであのヴェネトさんと一戦を交え、その後は数々の海でカンレキを積み、目立つ戦果こそないものの、微力を捧げましたわ",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"3" : {
+						"event" : "Acquisition",
+						"media" : "get",
+						"chinese" : "初次见面，指挥官，我是光辉级的三号舰，可畏。从今往后，还请多多指教了。",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "はじめまして指揮官、私はフォーミダブル、イラストリアスの3番艦ですわ。お見知りおきくださいませ",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"4" : {
+						"event" : "Login",
+						"media" : "login",
+						"chinese" : "指挥官今天来的意外得准时呢",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "指揮官、今日は時間を守っていますわね",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"5" : {
+						"event" : "Details",
+						"media" : "detail",
+						"chinese" : "！？……咳咳，抱歉，刚才稍微整理了一下房间，请进",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "！？……い、今のは部屋を掃除していただけでしてよ。どうぞお入りくださいませ",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"6" : {
+						"event" : "Main 1",
+						"media" : "main_1",
+						"chinese" : "指挥官，工作遇到什么困难的话，就先放在一边，稍微休息一下如何？我准备了一些茶点，来一起享用吧？",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "指揮官、お仕事がはかどらないのでしたら少しお休みになってはいかが？お茶とお菓子を用意しておりますわよ？",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"7" : {
+						"event" : "Main 2",
+						"media" : "main_2",
+						"chinese" : "和指挥官独处的话，放松一下也——欸？胜利姐姐，你怎么来了？……没事，贵安，胜利姐姐，找指挥官有什么事吗？",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "指揮官は見ていないですし、ちょっとだけサボ……わわ！ヴィクトリアス姉さん！？ご、御機嫌よう。指揮官になにか御用でしょうか？",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"8" : {
+						"event" : "Main 3",
+						"media" : "main_3",
+						"chinese" : "说起来，曾经我也有过在造船厂因为太，嗯……奔放，而把下水日搞砸了的经历呢，不过那也已经是过去了",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "進水のときは、まあ……そうでしたわね…ちょっとだけやらかしてて…もう！過ぎたことですわよ？",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"9" : {
+						"event" : "Touch",
+						"media" : "touch_1",
+						"chinese" : "不得不说，提尔比茨真是一个顽强的对手呢",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "ティルピッツ、手強い相手だと言わざるをえませんね",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"10" : {
+						"event" : "Touch (Special)",
+						"media" : "touch_2",
+						"chinese" : "指挥官，这样的行动作为一个人来说是不是稍微有点…？",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "指揮官、こういう行動は人としてはどうかと思いますわ？",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"11" : {
+						"event" : "Mission",
+						"media" : "task",
+						"chinese" : "指挥官，整理好的任务书不要忘记检查哦",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "指揮官、まとめた任務リストの確認を忘れないでくださいませ？",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"12" : {
+						"event" : "Mission Complete",
+						"media" : "mission_complete",
+						"chinese" : "指挥官，任务奖励的清单还请不要忘记清点哦？",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "指揮官、任務報酬のリストも確認を忘れないでくださいませ？",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"13" : {
+						"event" : "Mail",
+						"media" : "mail",
+						"chinese" : "指挥官，你的邮件，放在这里了，请不要忘了哦？",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "指揮官、メールはこちらにおいてありますわ。確認を忘れないでくださいませ？",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"14" : {
+						"event" : "Return to Port",
+						"media" : "home",
+						"chinese" : "哼哼哼~啊，咳咳，欢、欢迎回来，指挥官",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "♪～し、指揮官！ご機嫌麗しゅうですわ",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"15" : {
+						"event" : "Commission Complete",
+						"media" : "expedition",
+						"chinese" : "指挥官，委托完成了，一起去港口迎接大家吧",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "指揮官、委託完了しましたよ。港にみんなを出迎えに行きませんこと？",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"16" : {
+						"event" : "Enhancement",
+						"media" : "upgrade",
+						"chinese" : "可畏不会辜负你的期望的",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "フォーミダブル、ご期待を裏切りませんわ",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"17" : {
+						"event" : "Flagship",
+						"media" : "warcry",
+						"chinese" : "淑女的礼仪中，不包括对敌人的仁慈哦",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "敵に情けをかけないのが、ロイヤルレディの作法ですわ！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"18" : {
+						"event" : "Victory",
+						"media" : "mvp",
+						"chinese" : "真是一场漂亮的胜利，大家再接再厉吧",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "素晴らしい勝利ですわ。みんな、引き続き励みなさい",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"19" : {
+						"event" : "Defeat",
+						"media" : "lose",
+						"chinese" : "你们这些可……咳，可敬的敌人，下次我会赢回来的！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "こんちく……こ、コホン！尊敬すべき相手でしてよ？でも次は勝たせてもらいますわ！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"20" : {
+						"event" : "Skill",
+						"media" : "skill",
+						"chinese" : "到谢幕的时候了…！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "幕引きよ",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"21" : {
+						"event" : "Low HP",
+						"media" : "hp",
+						"chinese" : "各位，请再坚持一下",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "各員、もうちょっと頑張りなさい！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"22" : {
+						"event" : "Affinity (Upset)",
+						"media" : "feeling1",
+						"chinese" : "抱歉，我得了指挥官一靠近就会头疼的病，可以稍微离我远一点吗？",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "恐縮ですが、指揮官が近くにいると頭痛になる病気にかかっております。どこか見えない場所に行ってくださいませ？",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"23" : {
+						"event" : "Affinity (Stranger)",
+						"media" : "feeling2",
+						"chinese" : "指挥官，有什么事吗？没事的话一起喝杯茶如何？",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "指揮官、なにか御用ですか？用がないのでしたら、一緒にお茶会でもいかがですか？",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"24" : {
+						"event" : "Affinity (Friendly)",
+						"media" : "feeling3",
+						"chinese" : "不光是光辉姐姐和胜利姐姐，竟然能把这么多舰船团结在一起，指挥官真是有包容力呢。作为友好的象征…呵呵…这块蛋糕，请享用吧？",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "イラストリアス姉さんとヴィクトリアス姉さんだけでなく、こんなにも数多くの艦船たちを取りまとめているなんて、指揮官はものすごく包容力のある御方ですね。良ければぜひお近づきの印として…ふふふ、このケーキを少しお分けしますわ。召し上がってくださいませ？",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"25" : {
+						"event" : "Affinity (Like)",
+						"media" : "feeling4",
+						"chinese" : "比起做一名皇家淑女，其实我还是更喜欢活得更轻松一点呢。虽然平时不能表现出来，但是在光辉姐姐那样比较亲近的人面前的话……指挥官，想要让我们之间的关系更进一步吗？",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "私、本当はロイヤルレディのように振る舞うことより、もう少し楽に生きたいですことよ？普段はそれが出来なくても、イラストリアス姉さんたちのように親しい相手の前でしたら……私ともうちょっとお近づきになりませんこと？",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"26" : {
+						"event" : "Affinity (Love)",
+						"media" : "feeling5",
+						"chinese" : "指挥官，贵安♪ 今天要不要也一起吃蛋糕呢？我从女仆队那边弄到了很甜很甜的蛋糕哦！…嗯？我决定在指挥官面前不掩饰自己了。其实这样的我也挺可爱的吧～？",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "指揮官、御機嫌よう♪今日も一緒にケーキを食べません？メイド隊の子からすごく甘いものを手に入れましたの！…ん？私、指揮官の前では楽にしようって決めましたわ。ふふふ、こんな感じのフォーミダブルもカワイイかしら？",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"27" : {
+						"event" : "Pledge",
+						"media" : "propose",
+						"chinese" : "从今往后，可畏会将毕生之爱奉献给我的指挥官，喜怒哀乐，酸甜苦辣……因为很长，所以以下省略！指挥官，到你了，虽然有点长，不过指挥官可不许像我一样省略哦~",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "フォーミダブル、指揮官様に生涯の愛を捧げ、幸せな時も、困難な時も、富める時も、貧しき時も……長いから以下省略～はい、次は指揮官の番ですわ。ちょっと長いけど私のように略してはいけませんからね♪",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"28" : {
+						"event" : "Easter Egg 1(Illustrious)",
+						"media" : "link1",
+						"chinese" : "光辉姐姐，稍后一起喝茶吧？",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "イラストリアス姉さん、後でお茶でもいかがかしら？",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"29" : {
+						"event" : "Easter Egg 2(Victorious)",
+						"media" : "link2",
+						"chinese" : "胜利姐姐，我今天的仪态没有问题吧？",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "ヴィクトリアス姉さん、今日の私は美しいのでしょうか？",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"30" : {
+						"event" : "Like Present",
+						"media" : "present_like",
+						"chinese" : "",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"31" : {
+						"event" : "Dislike Present",
+						"media" : "present_dislike",
+						"chinese" : "",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"32" : {
+						"event" : "Main Title",
+						"media" : "extra",
+						"chinese" : "",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					}
+				}
+			},
+			"2": {
+				"skin_id" : "kewei_2",
+				"id" : "1",
+				"label" : "ロイヤルレディの海",
+				"dialogue" : {
+					"1" : {
+						"event" : "Ship Description",
+						"media" : "",
+						"chinese" : "海边的“皇家淑女”",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "ロイヤルレディは水着姿でも優雅に振る舞いますわ。……あ、あまりそう見えないって？そ、そうでしょうか……おかしいですわね…",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"2" : {
+						"event" : "Acquisition",
+						"media" : "get_1",
+						"chinese" : "皇家的淑女即使是泳装也是十分优雅的。……看、看不出来？是吗……这就奇怪了……",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "ロイヤルレディは水着姿でも優雅に振る舞いますわ。……あ、あまりそう見えないって？そ、そうでしょうか……おかしいですわね…",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"3" : {
+						"event" : "Details",
+						"media" : "detail_1",
+						"chinese" : "指挥官，热身运动都做好了吧？…很好，下水游泳去吧♪",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "指揮官、準備運動は十分ですこと？…よろしいですわ。では、泳ぎに参りましょう♪",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"4" : {
+						"event" : "Main 1",
+						"media" : "main_1_1",
+						"chinese" : "总觉得气氛有点一般呢……要不要来点摇……嗯，刺激的东西？",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "なんだか風景が地味ですわね……もうちょっとロッ…んー、刺激的ななにかがほしいのではなくて？",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"5" : {
+						"event" : "Main 2",
+						"media" : "main_2_1",
+						"chinese" : "唔，不愧是胡德，泳装都穿得那么有气质呢，虽然我也做得到就是啦……",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "さすがはフッド様、水着姿でも優雅で輝かしいですわ！私もできますけど……ね！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"6" : {
+						"event" : "Main 3",
+						"media" : "main_3_1",
+						"chinese" : "厌战不用担心我啦。即使没有指挥官帮忙，我也是能自己下水游泳的！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "ウォースパイト様、私の心配をしなくても大丈夫ですわ。指揮官に助けてもらわなくてもこのフォーミダブル、自分で海に入って泳げますから！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"7" : {
+						"event" : "Touch",
+						"media" : "touch_1_1",
+						"chinese" : "欸，光辉姐姐来了？！……可恶，指挥官你居然骗我，嘿，吃我一招！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "イラストリアス姉さん？どこ？……もう、指揮官、私を騙すのは一体どういうつもり？！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"8" : {
+						"event" : "Touch (Special)",
+						"media" : "touch_2_1",
+						"chinese" : "嗯，我明白了，看来今天的指挥官很怀念大海的味道呢，呵呵呵……",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "今日の指揮官は海が恋しいのかしら？ふふふ……",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"9" : {
+						"event" : "Return to Port",
+						"media" : "home_1",
+						"chinese" : "人家只是特意在这里等你回来，可没有别的意思哦，指挥官",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "指揮官、レディの行動に余計な詮索は不要ですわ",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					}
+				}
+			}
+		}
+	}
+}

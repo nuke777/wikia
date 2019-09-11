@@ -186,6 +186,8 @@ function setShipNavyIcon(navy){
 		document.getElementById("shipNavyIcon").src = "Images/Navy/ijn_icon.png";
 	} else if (navy == "Royal Navy") {
 		document.getElementById("shipNavyIcon").src = "Images/Navy/hms_icon.png";
+	} else if (navy == "Sardegna Empire") {
+		document.getElementById("shipNavyIcon").src = "Images/Navy/rn_icon.png";
 	} else if (navy == "Ironblood") {
 		document.getElementById("shipNavyIcon").src = "Images/Navy/kms_icon.png";
 	} else if (navy == "Dragon Empery" || navy == "Eastern Radiance" || navy == "Dragon Empire") {

@@ -162,6 +162,8 @@ class CommentedShipDisplay extends HTMLElement{
 						self.shipNavy = "../Images/Navy/ijn_icon.png";
 					} else if (actual_JSON.navy == "Royal Navy") {
 						self.shipNavy = "../Images/Navy/hms_icon.png";
+					} else if (actual_JSON.navy == "Sardegna Empire") {
+						self.shipNavy = "../Images/Navy/rn_icon.png";
 					} else if (actual_JSON.navy == "Ironblood") {
 						self.shipNavy = "../Images/Navy/kms_icon.png";
 					} else if (actual_JSON.navy == "Dragon Empery" || actual_JSON.navy == "Dragon Empire" || actual_JSON.navy == "Eastern Radiance") {
