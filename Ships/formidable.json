@@ -129,6 +129,16 @@
 					"id" : "6"
 				}
 			}
+		},
+		"101" : {
+			"id" : "kewei_ex1100",
+			"name" : "Formidable ",
+			"description" : "Illustrious-class aircraft carrier – Formidable. ",
+			"expression" : {
+				"0" : {
+					"id" : "0"
+				}
+			}
 		}
 	},
 	"defaultEquipment": {
@@ -830,6 +840,157 @@
 						"japaneseTL" : "",
 						"japaneseNote" : "",
 						"english" : "I was simply waiting here for you. Don't think too much on it, Commander.",
+						"englishNote" : ""
+					}
+				}
+			},
+			"101": {
+				"skin_id" : "kewei_ex1100",
+				"id" : "0",
+				"label" : "Formidable ",
+				"dialogue" : {					
+					"1" : {
+						"event" : "Login",
+						"media" : "login_ex1100",
+						"chinese" : "指挥官，好慢，人家等得无聊死了",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "指揮官おそーい…もう、待ちくたびれたのですわ",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "You're late, Commander. I've been waiting for ages!",
+						"englishNote" : ""
+					},
+					"2" : {
+						"event" : "Details",
+						"media" : "detail_ex1100",
+						"chinese" : "房间里贴的海报，都是我喜欢的摇滚明星，一般是不能被其他人看到的，不过指挥官是例外~",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "部屋のポスターはまあ、好きなロックスターのものですわ。こういうの普通誰にも見せるもんじゃありませんけど、指揮官は別♪",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "The posters on the walls are all my favourite rock stars. I don't usually let anyone see them. You're a special exception, Commander~",
+						"englishNote" : ""
+					},
+					"3" : {
+						"event" : "Main 1",
+						"media" : "main_1_ex1100",
+						"chinese" : "阿贾克斯，一眼就看破了我的伪装，不愧是智将呢……不过，我和她意外地还挺合得来呢，从她那里学到了不少东西",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "エイジャックス、私の趣味を一発で見破って、頭が良いとは噂通りね…まあ、私ってこういう相手とは相性が良いですから、色々学ばせてもらってますわ",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "That Ajax, she saw straight through me right away... And yet, I think we get along rather well. I've learned a lot from her.",
+						"englishNote" : ""
+					},
+					"4" : {
+						"event" : "Main 2",
+						"media" : "main_2_ex1100",
+						"chinese" : "嗯…哈…我回来啦。茶会上虽然有很好吃的蛋糕，但是要一直注意仪态麻烦死了。指挥官，帮我脱鞋子~",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "ふぅ…ただいま…お茶会って美味しいケーキ食べられますけど、立ち振る舞いに気をつけなきゃいけませんよね…へへへ、指揮官、私のハイヒール、脱がせてもらってもよろしくて？",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Haah... I'm back. Those tea parties have some delicious snacks, sure, but they're so dreadfully uptight about bearing and deportment.... Hehehe, Commander, would you mind helping me with my shoes?",
+						"englishNote" : ""
+					},
+					"5" : {
+						"event" : "Main 3",
+						"media" : "main_3_ex1100",
+						"chinese" : "指挥官，你是喜欢光辉姐姐那样温柔的人，还是喜欢胜利姐姐那样热情的人，嗯？",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "指揮官はどんな子がタイプ？イラストリアス姉さんのような優しい子？それともヴィクトリアス姉さんのような騒がしい子ですか？",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Commander, which of my sisters is more your type? The sweet and gentle Illustrious, or the passionate Victorious?",
+						"englishNote" : ""
+					},
+					"6" : {
+						"event" : "Touch",
+						"media" : "touch_1_ex1100",
+						"chinese" : "指挥官，你不觉得，维内托虽然很有威严，但其实有些呆呆的？",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "指揮官、ヴェネトさんのこと、カッコいい割には天然っぽく思いません？",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Commander, don't you think Veneto looks a bit dim, cool as she might be?",
+						"englishNote" : ""
+					},
+					"7" : {
+						"event" : "Touch (Special)",
+						"media" : "touch_2_ex1100",
+						"chinese" : "指挥官，我要生气咯？哄不好的那种",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "指揮官、怒りますわよ？いくらよしよししたって機嫌は治りませんからね？",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Commander, should I be angry? Positively inconsolable?",
+						"englishNote" : ""
+					},
+					"8" : {
+						"event" : "Mission",
+						"media" : "task_ex1100",
+						"chinese" : "可畏，为了哥哥把任务列表整理好了♪……嘻嘻，指挥官，喜欢这样的可畏吗？",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "フォーミダブル、指揮官お兄ちゃんのために任務リストを準備したにゃん♪……こんなフォーミダブルはいかがですか？指揮官？",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Big Brother, I finished organizing your mission list ♪ ... Hehe, is that your type, Commander?",
+						"englishNote" : ""
+					},
+					"9" : {
+						"event" : "Mission Complete",
+						"media" : "mission_complete_ex1100",
+						"chinese" : "指挥官，任务奖励重要还是可畏重要，必须要选一个！……嘻嘻，开玩笑的~",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "任務報酬とフォーミダブル、どちらかを選んでね！……なんて、冗談ですわ♪",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Commander, do you want your mission rewards or do you want me? You have to choose! ... Hehe, just kidding~",
+						"englishNote" : ""
+					},
+					"10" : {
+						"event" : "Mail",
+						"media" : "mail_ex1100",
+						"chinese" : "指挥官，你的邮件到了，记得自己去拿一下~",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "指揮官、メールですよ。自分で持ってきてちょうだい？",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Commander, the mail is here. Would you mind getting it yourself?",
+						"englishNote" : ""
+					},
+					"11" : {
+						"event" : "Return to Port",
+						"media" : "home_ex1100",
+						"chinese" : "指挥官，我在沙发上睡一会儿，要是有人来了记得把我叫起来哦",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "指揮官、少しソファで寝ますわ。誰かが来たら起こしてちょうだぁい",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Commander, I'm going to catch a few winks on the sofa here. Wake me up if anyone comes calling.",
+						"englishNote" : ""
+					},
+					"12" : {
+						"event" : "Commission Complete",
+						"media" : "expedition_ex1100",
+						"chinese" : "叮咚珰咚，来自可畏的提醒，请指挥官注意，委托，已经完成，委托，已经完成",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "ディンドンディンドン♪フォーミダブルからお知らせしますわ。委託が完了しました。…繰り返します、委託、完了しましたわよ？",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Ding dong ding dong ♪, incoming message from Formidable: Commission complete. Repeat. Commission complete.",
 						"englishNote" : ""
 					}
 				}
