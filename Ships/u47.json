@@ -11,7 +11,7 @@
 	"hull": "Submarine",
 	"navy": "Ironblood",
 	"prefix": "KMS",
-	"buildTime": "",
+	"buildTime": "00:11:00",
 	"class": "VⅡB型",
 	"voiceActress": "Azumi Asakura",
 	"parameters": {
@@ -34,10 +34,10 @@
 		"EN": ""
 	},
 	"artist": {
-		"name": "",
-		"weibo": "",
-		"twitter": "",
-		"pixiv": "",
+		"name": "大月紅葉",
+		"weibo": "http://weibo.com/ootsukimomiji",
+		"twitter": "https://twitter.com/dayuehongye",
+		"pixiv": "https://www.pixiv.net/member.php?id=591937",
 		"other": ""
 	},
 	"enhance": {
@@ -50,24 +50,24 @@
 	"skill": {
 		"1": {
 			"icon": "11440",
-			"requirement": "",
-			"name": "斯卡帕湾之牛",
+			"requirement": "Default Unlocked",
+			"name": "The Bull of Scapa Flow",
 			"type": "Offensive",
-			"description": "鱼雷命中敌人后，若在5秒内自身鱼雷再次对该敌人造成伤害，造成的伤害提高$1"
+			"description": "When own torpedo hits an enemy ship: in the next 5 seconds, the next torpedo to hit that enemy will deal 20% (40%) more damage."
 		},
 		"2": {
 			"icon": "11460",
-			"requirement": "",
-			"name": "独狼",
+			"requirement": "Default Unlocked",
+			"name": "Lone Wolf",
 			"type": "Support",
-			"description": "进入关卡时，若潜艇编队仅有自身一名角色，自身对战列舰(不包括战巡、航战)造成的伤害提高$1、狩猎范围等级+1、携带弹药量+2"
+			"description": "When entering the map, if U-47 is the sole unit of the submarine fleet: increases damage dealt to Battleships (Battlecruisers and Aviation Battleships are not counted) by 5% (20%), increases Search Level by 1 and increases Ammo by 2."
 		},
 		"3": {
 			"icon": "29311",
-			"requirement": "",
-			"name": "专属弹幕-U47I",
+			"requirement": "Limit Break I(III)",
+			"name": "Full Barrage-U47I",
 			"type": "Offensive",
-			"description": "进入战斗时，触发专属弹幕-U47I"
+			"description": "When entering the battle, triggers Full Barrage - U-47 I（II）"
 		}
 	},
 	"skin": {
@@ -88,6 +88,31 @@
 			"expression": {
 				"0": {
 					"id": "0"
+				}
+			}
+		},
+		"3": {
+			"id": "U47_3",
+			"name": "Eigenen Raum",
+			"description": "はぁ…人が多いところより、やっぱりここが落ち着く…指揮官もそう思う？そ。じゃあ適当にね",
+			"expression": {
+				"0": {
+					"id": "0"
+				},
+				"1": {
+					"id": "1"
+				},
+				"2": {
+					"id": "2"
+				},
+				"3": {
+					"id": "3"
+				},
+				"4": {
+					"id": "4"
+				},
+				"5": {
+					"id": "5"
 				}
 			}
 		}
@@ -250,9 +275,9 @@
 			"EN": ""
 		},
 		"limited": {
-			"JP": "",
-			"CN": "",
-			"EN": ""
+			"JP": "✓",
+			"CN": "✓",
+			"EN": "✓"
 		}
 	},
 	"drop": {
@@ -751,6 +776,109 @@
 						"chineseTL": "",
 						"chineseNote": "",
 						"japanese": "海でも、陸でも……あなたさえいれば、そこはいい景色になるよ",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					}
+				}
+			},
+			"3": {
+				"skin_id": "U47_3",
+				"id": "2",
+				"label": "Eigenen Raum",
+				"dialogue": {
+					"1": {
+						"event": "Ship Description",
+						"media": "",
+						"chinese": "呼…比起喧嚣的宴会场，还是这种安静的地方更让人沉得下心…指挥官难道也这么觉得？不介意的话，一起在这坐会吧",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "はぁ…人が多いところより、やっぱりここが落ち着く…指揮官もそう思う？そ。じゃあ適当にね",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"2": {
+						"event": "Acquisition",
+						"media": "get_2",
+						"chinese": "呼…比起喧嚣的宴会场，还是这种安静的地方更让人沉得下心…指挥官难道也这么觉得？不介意的话，一起在这坐会吧",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"3": {
+						"event": "Login",
+						"media": "login_2",
+						"chinese": "…还是被你找到了呢，不愧是指挥官",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"4": {
+						"event": "Details",
+						"media": "detail_2",
+						"chinese": "唔…？需要出击了吗？马上就位……这身礼服很方便行动，没关系的",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"5": {
+						"event": "Touch",
+						"media": "touch_1_2",
+						"chinese": "作为平时受照顾的答谢，这杯敬指挥官吧",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"6": {
+						"event": "Touch (Special)",
+						"media": "touch_2_2",
+						"chinese": "要我帮你醒醒酒吗？",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"7": {
+						"event": "Return to Port",
+						"media": "home_2",
+						"chinese": "嗯？其他伙伴在找我？唔…可以的话帮我转告她们，不用担心",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"8": {
+						"event": "Affinity (Love)",
+						"media": "feeling5_2",
+						"chinese": "一个人独处的平静虽然也不错，但是和指挥官两人待在一起的这种安心感…似乎更让人难以自拔呢",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
 						"japaneseTL": "",
 						"japaneseNote": "",
 						"english": "",
