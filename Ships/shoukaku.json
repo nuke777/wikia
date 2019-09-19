@@ -73,6 +73,25 @@
 					"id": "0"
 				}
 			}
+		},
+		"2": {
+			"id": "xianghe_2",
+			"name": "風と舞う鶴",
+			"description": "此度のパーティーのために特別に用意した衣装ですが……指揮官、がっかりさせてはいませんよね？うふふ♪",
+			"expression": {
+				"0": {
+					"id": "0"
+				},
+				"1": {
+					"id": "1"
+				},
+				"2": {
+					"id": "2"
+				},
+				"3": {
+					"id": "3"
+				}
+			}
 		}
 	},
 	"defaultEquipment": {
@@ -636,6 +655,169 @@
 						"japaneseTL": "",
 						"japaneseNote": "",
 						"english": "Where is the Queen of the Docks heading to?",
+						"englishNote": ""
+					}
+				}
+			},
+			"2": {
+				"skin_id": "xianghe_2",
+				"id": "1",
+				"label": "風と舞う鶴",
+				"dialogue": {
+					"1": {
+						"event": "Ship Description",
+						"media": "",
+						"chinese": "为了这次的舞会，我可是做了特别的准备……如何，指挥官，没有让你失望吧？呵呵~",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "此度のパーティーのために特別に用意した衣装ですが……指揮官、がっかりさせてはいませんよね？うふふ♪",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"2": {
+						"event": "Acquisition",
+						"media": "get_1",
+						"chinese": "为了这次的舞会，我可是做了特别的准备……如何，指挥官，没有让你失望吧？呵呵~",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "此度のパーティーのために特別に用意した衣装ですが……指揮官、がっかりさせてはいませんよね？うふふ♪",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"3": {
+						"event": "Login",
+						"media": "login_1",
+						"chinese": "你会如何邀请我呢，指挥官？稍微有些期待呢~",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "指揮官は私をどう誘ってくれるのでしょう。ちょっと楽しみです。うふふ♪",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"4": {
+						"event": "Details",
+						"media": "detail_1",
+						"chinese": "花会凋零，叶会枯萎，舞会也会落下帷幕……不过现在，还是忘掉这些，享受快乐吧~",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "木枯れ果て、花散り、宴もいずれお開きとなる……今はいずれくる終わりのことを忘れ、思いっきり楽しみましょう",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"5": {
+						"event": "Main 1",
+						"media": "main_1_1",
+						"chinese": "瑞鹤，你太紧张了。听姐姐的，先放松，放松……",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "瑞鶴ったら緊張しすぎよ？お姉ちゃんの言う通り、まずはリラックス、リラックスと……",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"6": {
+						"event": "Main 2",
+						"media": "main_2_1",
+						"chinese": "在舞会正式开始前，再来一次练习如何？",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "パーティーが始まる前に、もう一回練習してみてはどうでしょう？",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"7": {
+						"event": "Main 3",
+						"media": "main_3_1",
+						"chinese": "今晚的主角会是谁呢？是我吗？还是说……我们？呵呵~",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "今宵の主役は誰でしょう。私？それとも…私たち？うふふ♪",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"8": {
+						"event": "Touch",
+						"media": "touch_1_1",
+						"chinese": "不用担心，指挥官，跟着我的步伐慢慢来就行了~",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "指揮官、心配しないで、私のステップに少しずつついてきてくれればいいですよ",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"9": {
+						"event": "Touch (Special)",
+						"media": "touch_2_1",
+						"chinese": "你在做什么呢，指挥官？舞蹈时要好好注视我的眼睛才行哦，指挥官~",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "指揮官、なにをしているんですか？ダンスの時は私の目をちゃんと見てくださいね",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"10": {
+						"event": "Mail",
+						"media": "mail_1",
+						"chinese": "来自舞会外的小插曲，会是什么呢~？",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "パーティーの外から寄せられた間奏曲…一体なんでしょう～",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"11": {
+						"event": "Return to Port",
+						"media": "home_1",
+						"chinese": "既然是难得的舞会，今天就暂时和前·辈们和解吧~",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "せっかくのパーティーですから、今日だけは先輩たちと休戦です♪",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"12": {
+						"event": "Defeat",
+						"media": "lose_1",
+						"chinese": "花，随风消逝……",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "花は風に散りゆく……",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"13": {
+						"event": "Affinity (Love)",
+						"media": "feeling5_1",
+						"chinese": "若我是随风而舞的翩翩舞鹤，谢幕时让我安心栖息的港湾，一定就是指挥官你的身旁吧…",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "私が風と舞う鶴だとすれば、一番安心して羽を休める場所はきっと……あなたの側に違いありませんわ",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
 						"englishNote": ""
 					}
 				}
