@@ -822,6 +822,29 @@ function loadShipDialogueElements(skinId){
 			<td style="text-align:center;">';
 			
 					if (actual_JSON.lines.skin[x].dialogue[y].media != ""){
+
+						/*if (actual_JSON.lines.skin[x].dialogue[y].media == "hp" ||
+							actual_JSON.lines.skin[x].dialogue[y].media == "lose" ||
+							actual_JSON.lines.skin[x].dialogue[y].media == "mvp" ||
+							actual_JSON.lines.skin[x].dialogue[y].media == "skill" ||
+							actual_JSON.lines.skin[x].dialogue[y].media == "warcry" ||
+							actual_JSON.lines.skin[x].dialogue[y].media.slice(0,4) == "link"){
+							text = text + '\
+				<a href="'+"https://media.alg-wiki.com/assets/cue/cv-"+Math.floor(parseInt(actual_JSON.internal_id)/10)+"-battle/acb/awb/"+actual_JSON.lines.skin[x].dialogue[y].media+".ogg"+'" onclick="return false;">\
+				<img id="btn_'+skinId+'_'+y+'" onclick="playAudio(\'btn_'+skinId+'_'+y+'\',\'audio_'+skinId+'_'+y+'\')" class="btnAudio" src="Images/sound_off.png"></a>\
+				<audio id="audio_'+skinId+'_'+y+'">\
+				  <source src="'+"https://media.alg-wiki.com/assets/cue/cv-"+Math.floor(parseInt(actual_JSON.internal_id)/10)+"-battle/acb/awb/"+actual_JSON.lines.skin[x].dialogue[y].media+".ogg"+'" type="audio/ogg">\
+				</audio>';
+						} else {
+							text = text + '\
+				<a href="'+"https://media.alg-wiki.com/assets/cue/cv-"+Math.floor(parseInt(actual_JSON.internal_id)/10)+"/acb/awb/"+actual_JSON.lines.skin[x].dialogue[y].media+".ogg"+'" onclick="return false;">\
+				<img id="btn_'+skinId+'_'+y+'" onclick="playAudio(\'btn_'+skinId+'_'+y+'\',\'audio_'+skinId+'_'+y+'\')" class="btnAudio" src="Images/sound_off.png"></a>\
+				<audio id="audio_'+skinId+'_'+y+'">\
+				  <source src="'+"https://media.alg-wiki.com/assets/cue/cv-"+Math.floor(parseInt(actual_JSON.internal_id)/10)+"/acb/awb/"+actual_JSON.lines.skin[x].dialogue[y].media+".ogg"+'" type="audio/ogg">\
+				</audio>';
+						}*/
+
+
 						text = text + '\
 				<a href="'+"https://media.alg-wiki.com/assets/voice/"+actual_JSON.cn_reference+"/"+actual_JSON.lines.skin[x].dialogue[y].media+".ogg"+'" onclick="return false;">\
 				<img id="btn_'+skinId+'_'+y+'" onclick="playAudio(\'btn_'+skinId+'_'+y+'\',\'audio_'+skinId+'_'+y+'\')" class="btnAudio" src="Images/sound_off.png"></a>\
