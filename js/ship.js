@@ -823,11 +823,11 @@ function loadShipDialogueElements(skinId){
 			
 					if (actual_JSON.lines.skin[x].dialogue[y].media != ""){
 
-						if (actual_JSON.lines.skin[x].dialogue[y].media == "hp" ||
-							actual_JSON.lines.skin[x].dialogue[y].media == "lose" ||
-							actual_JSON.lines.skin[x].dialogue[y].media == "mvp" ||
-							actual_JSON.lines.skin[x].dialogue[y].media == "skill" ||
-							actual_JSON.lines.skin[x].dialogue[y].media == "warcry" ||
+						if (actual_JSON.lines.skin[x].dialogue[y].media.slice(0,2) == "hp" ||
+							actual_JSON.lines.skin[x].dialogue[y].media.slice(0,4) == "lose" ||
+							actual_JSON.lines.skin[x].dialogue[y].media.slice(0,3) == "mvp" ||
+							actual_JSON.lines.skin[x].dialogue[y].media.slice(0,5) == "skill" ||
+							actual_JSON.lines.skin[x].dialogue[y].media.slice(0,6) == "warcry" ||
 							actual_JSON.lines.skin[x].dialogue[y].media.slice(0,4) == "link"){
 							text = text + '\
 				<a href="'+"https://media.alg-wiki.com/assets/cue/cv-"+Math.floor(parseInt(actual_JSON.internal_id)/10)+"-battle/acb/awb/"+actual_JSON.lines.skin[x].dialogue[y].media+".ogg"+'" onclick="return false;">\
