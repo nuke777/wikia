@@ -142,6 +142,28 @@
 			}
 		},
 		"6" : {
+			"id" : "shancheng_6",
+			"name" : "Street Corner Offensive!",
+			"description" : "Uwaah! M-Milord?! I'm so, so sorry... You didn't get hurt, did you? Um... This is my school uniform. Fusou tailored it for me, hehe~ ... Awawa! I should head off to class now! See you later!",
+			"expression" : {
+				"0" : {
+					"id" : "0"
+				},
+				"1" : {
+					"id" : "1"
+				},
+				"2" : {
+					"id" : "2"
+				},
+				"3" : {
+					"id" : "3"
+				},
+				"4" : {
+					"id" : "4"
+				}
+			}
+		},
+		"7" : {
 			"id" : "shancheng_h",
 			"name" : "Bridal Attack! ",
 			"description" : "Milord, Milord, I've finished changing! What do you think, what do you think? Milord, do you like Yamashiro's dress~? ",
@@ -163,7 +185,7 @@
 				}
 			}
 		},
-		"7" : {
+		"8" : {
 			"id" : "shancheng_g",
 			"name" : "Yamashiro (Retrofit)",
 			"description" : "Milord! I can do anything now~ bombardment or aerial strikes! So, the thing is, you can totally count on me, much much more, Milord! Milord~!",
@@ -1235,6 +1257,85 @@
 				}
 			},
 			"6": {
+				"skin_id" : "shancheng_6",
+				"id" : "6",
+				"label" : "Street Corner Offensive!",
+				"dialogue" : {
+					"1" : {
+						"event" : "Ship Description",
+						"media" : "",
+						"chinese" : "呜哇，殿、殿下！？对对对对不起，我没有撞伤你吧？……啊，这是我的校服哦，姐姐亲手缝的~嘿嘿……哇哇哇，那我去上课了！回见！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "あわわわ！と、殿様！？ごめんなさい！怪我していませんよね…？あっ、この制服はええと、扶桑姉さまが仕立ててくださいました！も、もう学園に行きますね、すみません！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Uwaah! M-Milord?! I'm so, so sorry... You didn't get hurt, did you? Um... This is my school uniform. Fusou tailored it for me, hehe~ ... Awawa! I should head off to class now! See you later! ",
+						"englishNote" : ""
+					},
+					"2" : {
+						"event" : "Acquisition",
+						"media" : "get_6",
+						"chinese" : "呜哇，殿、殿下！？对对对对不起，我没有撞伤你吧？……啊，这是我的校服哦，姐姐亲手缝的~嘿嘿……哇哇哇，那我去上课了！回见！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"3" : {
+						"event" : "Login",
+						"media" : "login_6",
+						"chinese" : "殿下，给你便当~这是我亲手做的哦！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"4" : {
+						"event" : "Details",
+						"media" : "detail_6",
+						"chinese" : "殿下殿下，其他阵营的伙伴们教给了我许多有趣的事情呢，作为答谢，我也教给了她们许多重樱传统的游戏玩法~",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"5" : {
+						"event" : "Touch",
+						"media" : "touch_1_6",
+						"chinese" : "在转角的时候撞到殿下，感觉好浪漫呀，下次干脆特地等殿下经过……欸，啊，我什么都没说！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"6" : {
+						"event" : "Return to Port",
+						"media" : "home_6",
+						"chinese" : "殿下辛苦啦，我们一起去天台上吃饭吧~",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					}
+				}
+			},
+			"7": {
 				"skin_id" : "shancheng_h",
 				"id" : "8",
 				"label" : "Bridal Attack! ",
@@ -1373,7 +1474,7 @@
 					}
 				}
 			},
-			"7": {
+			"8": {
 				"skin_id" : "shancheng_g",
 				"id" : "9",
 				"label" : "Yamashiro (Retrofit)",
