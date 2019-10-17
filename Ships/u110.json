@@ -1,0 +1,826 @@
+{
+	"name_reference" : "u110",
+	"cn_reference" : "U110",
+	"nameJP" : "U-110",
+	"nameCN" : "U-110",
+	"ID" : "416",
+	"name" : "U-110",
+	"internal_id" : "408081",
+	"rarity" : "Elite",
+	"initialStar" : "★★☆☆☆",
+	"hull" : "Submarine",
+	"navy" : "Ironblood",
+	"prefix" : "KMS",
+	"buildTime" : "",
+	"parameters": {
+		"firepower" : "D",
+		"torpedo" : "A",
+		"aviation" : "E",
+		"evasion" : "D",
+		"antiAir" : "E",
+		"hp" : "D"
+	},
+	"scrap": {
+		"gold" : "1",
+		"oil" : "4",
+		"medal" : "4"
+	},
+	"releaseDate": {
+		"JP" : "October 17, 2019",
+		"CN" : "October 17, 2019",
+		"KR" : "",
+		"EN" : ""
+	},
+	"artist": {
+		"name" : "",
+		"weibo" : "",
+		"twitter" : "",
+		"pixiv" : "",
+		"other" : ""
+	},
+	"class" : "Type IXB",
+	"enhance": {
+		"firepower" : "1",
+		"torpedo" : "38",
+		"aviation" : "0",
+		"reload" : "6"
+	},
+	"acquisitionMethod" : "Event : Ironblood shark and enigma",
+	"skill": {
+		"1" : {
+			"icon" : "12690",
+			"requirement" : "Default Unlocked",
+			"name" : "Enigma",
+			"type" : "Support",
+			"description" : "At start of battle, randomly give effects to ally Ironblood ship Lv.1(Lv.10)<br>★ Damage increase by 1.2%(3.0%)<br>★ Damage received mitigated by 1.2%(3.0%)<br>★ Critical Rate and Critical Damage increased by 1.2%(3.0%)<br>★ Increase any of Hit, Evasion, Anti-Air by 1.0%(4.0%)"
+		},
+		"2" : {
+			"icon" : "3611",
+			"requirement" : "Default Unlocked",
+			"name" : "Wolf Pack Tactics",
+			"type" : "Offensive",
+			"description" : "For each Iron Blood SS in your fleet: increases this boat's TRP, RLD, and Accuracy by 1.5%(6.0%)."
+		},
+		"3" : {
+			"icon" : "23321",
+			"requirement" : "Limit Break I(III)",
+			"name" : "All Out Assault I",
+			"type" : "Offensive",
+			"description" : "Activates All Out Assault I: IXB-Type Submarine immediately after entering the battle."
+		}
+	},
+	"skin": {
+		"1" : {
+			"id" : "U110",
+			"name" : "U-110",
+			"description" : "Iron Blood Type XIB submarine – U-101.",
+			"expression" : {
+				"0" : {
+					"id" : "0"
+				},
+				"1" : {
+					"id" : "1"
+				},
+				"2" : {
+					"id" : "2"
+				}
+			}
+		},
+		"2" : {
+			"id" : "U110_2",
+			"name" : "Kleiner Hai",
+			"description" : "ブルドッグとゲームすると、いつも負けちゃう。悔しい。だから、お勉強頑張って、いつか絶対に勝つぞー",
+			"expression" : {
+				"0" : {
+					"id" : "0"
+				},
+				"1" : {
+					"id" : "1"
+				},
+				"2" : {
+					"id" : "2"
+				},
+				"3" : {
+					"id" : "3"
+				}
+			}
+		}
+	},
+	"defaultEquipment": {
+		"1" : {
+			"icon" : "45300",
+			"rarity" : "Common",
+			"name" : "G7a Submarine Torpedo"
+		},
+		"2" : {
+			"icon" : "45300",
+			"rarity" : "Common",
+			"name" : "G7a Submarine Torpedo"
+		},
+		"3" : {
+			"icon" : "",
+			"rarity" : "",
+			"name" : ""
+		}
+	},
+	"stats": {
+		"base": {
+			"hp" : "236",
+			"firepower" : "9",
+			"torpedo" : "96",
+			"antiAir" : "0",
+			"aviation" : "0",
+			"reload" : "30",
+			"hit" : "61",
+			"evasion" : "7",
+			"speed" : "14.4",
+			"luck" : "28",
+			"asw" : "0",
+			"oxygen" : "208",
+			"ammo" : "2",
+			"cost" : "2",
+			"armor" : "Light"
+		},
+		"100": {
+			"hp" : "1219",
+			"firepower" : "41",
+			"torpedo" : "454",
+			"antiAir" : "0",
+			"aviation" : "0",
+			"reload" : "71",
+			"hit" : "159",
+			"evasion" : "18",
+			"speed" : "14.4",
+			"luck" : "28",
+			"asw" : "0",
+			"oxygen" : "208",
+			"ammo" : "2",
+			"cost" : "7",
+			"armor" : "Light"
+		},
+		"120": {
+			"hp" : "1463",
+			"firepower" : "48",
+			"torpedo" : "499",
+			"antiAir" : "0",
+			"aviation" : "0",
+			"reload" : "82",
+			"hit" : "178",
+			"evasion" : "37",
+			"speed" : "14.4",
+			"luck" : "28",
+			"asw" : "0",
+			"oxygen" : "208",
+			"ammo" : "2",
+			"cost" : "7",
+			"armor" : "Light"
+		},
+		"100retrofit": {
+			"hp" : "",
+			"firepower" : "",
+			"torpedo" : "",
+			"antiAir" : "",
+			"aviation" : "",
+			"reload" : "",
+			"hit" : "",
+			"evasion" : "",
+			"speed" : "14.4",
+			"luck" : "28",
+			"asw" : "",
+			"oxygen" : "208",
+			"ammo" : "2",
+			"cost" : "7",
+			"armor" : "Light"
+		},
+		"120retrofit": {
+			"hp" : "",
+			"firepower" : "",
+			"torpedo" : "",
+			"antiAir" : "",
+			"aviation" : "",
+			"reload" : "",
+			"hit" : "",
+			"evasion" : "",
+			"speed" : "14.4",
+			"luck" : "28",
+			"asw" : "",
+			"oxygen" : "208",
+			"ammo" : "2",
+			"cost" : "7",
+			"armor" : "Light"
+		}
+	},
+	"limitBreak": {
+		"tier1": "Unlock EX Barrage Ⅰ/Torpedo efficiency +5%",
+		"tier2": "Torpedo base +1/Improve Hunting range",
+		"tier3": "Improve EX Barrage/Torpedo efficiency +10%"
+	},
+	"equipmentLoadout": {
+		"1": {
+			"type": "Submarine Torpedo",
+			"efficiency": "110%/115%/115%/125%",
+			"amount": "1/1/2/2",
+			"preload": "0/0/0/0"
+		},
+		"2": {
+			"type": "Submarine Torpedo",
+			"efficiency": "105%/110%/110%/120%",
+			"amount": "1/1/2/2",
+			"preload": "0/0/0/0"
+		},
+		"3": {
+			"type": "Destroyer Gun",
+			"efficiency": "85%/85%/85%/85%",
+			"amount": "1/1/1/1",
+			"preload": "0/0/0/0"
+		},
+		"4": {
+			"type": "Auxilary",
+			"efficiency": "-",
+			"amount": "-",
+			"preload": "-"
+		},
+		"5": {
+			"type": "Auxilary",
+			"efficiency": "-",
+			"amount": "-",
+			"preload": "-"
+		}
+	},
+	"fleet_tech": {
+		"pt_get": "8",
+		"add_get_attr": "Evasion",
+		"add_get_value": "2",
+		"add_get_shiptype": "Submarine,Submarine Aircraft Carrier",
+		"pt_upgrade": "16",
+		"pt_level": "12",
+		"add_level_attr": "HP",
+		"add_level_value": "1",
+		"add_level_shiptype": "Submarine,Submarine Aircraft Carrier",
+		"t_level": "7",
+		"ships": "u110"
+	},
+	"build": {
+		"light": {
+			"JP": "",
+			"CN": "",
+			"EN": ""
+		},
+		"heavy": {
+			"JP": "",
+			"CN": "",
+			"EN": ""
+		},
+		"special": {
+			"JP": "",
+			"CN": "",
+			"EN": ""
+		},
+		"limited": {
+			"JP": "",
+			"CN": "",
+			"EN": ""
+		}
+	},
+	"drop": {
+		"droppable": "false",
+		"list": {
+			"1": {
+				"event": "",
+				"chapter": {
+					"1": {
+						"label": "Ch .1",
+						"node": {
+							"1": {
+								"drop": "✓",
+								"note": "-"
+							}
+						}
+					}
+				}
+			}
+		}
+	},
+	"lines": {
+		"skin": {
+			"1": {
+				"skin_id" : "U110",
+				"id" : "0",
+				"label" : "U-110",
+				"dialogue" : {
+					"1" : {
+						"event" : "Ship Description",
+						"media" : "",
+						"chinese" : "铁血IXB型潜艇U-110",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "鉄血IXB型潜水艦U-110",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"2" : {
+						"event" : "Biography",
+						"media" : "profile",
+						"chinese" : "U-110，是铁血所属的IXB型潜艇，擅长的是狩猎商船。背上的是恩尼格玛，是很厉害的密码机。U-110也很厉害，密码本和地图只是忘记了……",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "U-110、鉄血のIXB型潜水艦、通商破壊が得意。背負ってるかばんにあるのはエニグマ、すごい。U-110もすごいけど、暗号書と地図は忘れただけ……",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"3" : {
+						"event" : "Acquisition",
+						"media" : "get",
+						"chinese" : "嘎哦！U-110是大鲨鱼，很凶，欺负U-110，U-110就咬你",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "がおーU-110はサメだよー。怖いぞー。いじめてきたら噛みつくぞー",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"4" : {
+						"event" : "Login",
+						"media" : "login",
+						"chinese" : "指挥官，棒棒糖，带了吗",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "指揮官、ぐるぐる、もってるー？",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"5" : {
+						"event" : "Details",
+						"media" : "detail",
+						"chinese" : "头发才不是大蒜，是鲨鱼，可怕的鲨鱼，嘎哦",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "にんにくっ子じゃない。サメだぞー。怖いぞー。がおー",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"6" : {
+						"event" : "Main 1",
+						"media" : "main_1",
+						"chinese" : "密码本、密码本……啊，丢在宿舍里了",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "暗号書、暗号書と……あ、寮に忘れた",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"7" : {
+						"event" : "Main 2",
+						"media" : "main_2",
+						"chinese" : "指挥官，陪U-110玩，陪——U-110——玩",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "指揮官、一緒にあそぼー、いーしょーにーあーそーぼーうー",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"8" : {
+						"event" : "Main 3",
+						"media" : "main_3",
+						"chinese" : "刚才，在港口装鲨鱼被批评了……但是，很好玩",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "サメやったら説教された……でも、楽しかった",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"9" : {
+						"event" : "Touch",
+						"media" : "touch_1",
+						"chinese" : "指挥官，陪我玩我就把棒棒糖分给你一支",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "指揮官、一緒に遊んでくれたらぐるぐる一本進呈ー",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"10" : {
+						"event" : "Touch (Special)",
+						"media" : "touch_2",
+						"chinese" : "啊呜！（被U-110咬住了手指）",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "はむ！（U-110に指を噛まれた）",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"11" : {
+						"event" : "Mission",
+						"media" : "task",
+						"chinese" : "指挥官，完成任务后能陪U-110玩吗？",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "指揮官、任務終わったら一緒に遊ぼー",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"12" : {
+						"event" : "Mission Complete",
+						"media" : "mission_complete",
+						"chinese" : "嘎哦！大鲨鱼把任务奖励运过来了",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "がお！任務報酬、持ってきたー",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"13" : {
+						"event" : "Mail",
+						"media" : "mail",
+						"chinese" : "加密信件的话，交给U-110吧",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "暗号メールは、任せてくれー",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"14" : {
+						"event" : "Return to Port",
+						"media" : "home",
+						"chinese" : "指挥官，在办公室里好无聊",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "指揮官、執務室、つまらなーい",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"15" : {
+						"event" : "Commission Complete",
+						"media" : "expedition",
+						"chinese" : "指挥官，港口好像有人回来了",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "指揮官、母港に人が帰ってきたー",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"16" : {
+						"event" : "Enhancement",
+						"media" : "upgrade",
+						"chinese" : "U-110，超凶",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "U-110、怖いぞー",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"17" : {
+						"event" : "Flagship",
+						"media" : "warcry",
+						"chinese" : "大鲨鱼，出击",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "サメだー、がおー",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"18" : {
+						"event" : "Victory",
+						"media" : "mvp",
+						"chinese" : "嘎哦！敌人都被U-110吓跑了",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "がおー、敵さん、U-110が追い返したー",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"19" : {
+						"event" : "Defeat",
+						"media" : "lose",
+						"chinese" : "密码本、密码本……没有丢，太好了",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "暗号書、暗号書……よかった、大丈夫だ…",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"20" : {
+						"event" : "Skill",
+						"media" : "skill",
+						"chinese" : "嘎哦——！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "がおー！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"21" : {
+						"event" : "Low HP",
+						"media" : "hp",
+						"chinese" : "U-110，很厉害，不会输",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "U-110、すごいぞー負けないぞー",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"22" : {
+						"event" : "Affinity (Upset)",
+						"media" : "feeling1",
+						"chinese" : "指挥官，不陪我玩……",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "指揮官、一緒に遊んでくれない…",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"23" : {
+						"event" : "Affinity (Stranger)",
+						"media" : "feeling2",
+						"chinese" : "指挥官，难道说，恩尼格玛，现在已经不用了吗？唔，那就用来玩破译游戏吧",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "指揮官、エニグマ、もう使われなくなった？じゃあ、解読ゲームをしよー",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"24" : {
+						"event" : "Affinity (Friendly)",
+						"media" : "feeling3",
+						"chinese" : "大家好像都很喜欢玩U-110的头发。这是天生的，U-110是天生的大鲨鱼，嘎哦！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "U-110のこの髪型、実は生まれつきだぞー。うん、サメだぞー。がおー！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"25" : {
+						"event" : "Affinity (Like)",
+						"media" : "feeling4",
+						"chinese" : "大斗犬很聪明，U-110喜欢和大斗犬一起玩，指挥官下次也一起来玩吧",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "ブルドッグ、頭いい。一緒に遊ぶと楽しい。指揮官も今度一緒にあそぼー",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"26" : {
+						"event" : "Affinity (Love)",
+						"media" : "feeling5",
+						"chinese" : "指挥官，是好朋友，所以，恩尼格玛的密码本，也给你一份。而且，这样U-110忘记带也没有关系了",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "指揮官はお友達。エニグマの暗号書、指揮官にも一部あげる。これでU-110が忘れても大丈夫。うん",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"27" : {
+						"event" : "Pledge",
+						"media" : "propose",
+						"chinese" : "指挥官对U-110这么好，U-110也最喜欢指挥官了。以后，谁要是欺负指挥官，U-110就去咬他，U110可是很厉害的，嘎哦！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "指揮官、U-110にやさしい。U-110、指揮官大好き。指揮官をいじめる子はU-110が噛むぞ。U-110はすごいぞー。がおー！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"28" : {
+						"event" : "Like Present",
+						"media" : "present_like",
+						"chinese" : "",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"29" : {
+						"event" : "Dislike Present",
+						"media" : "present_dislike",
+						"chinese" : "",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"30" : {
+						"event" : "Main Title",
+						"media" : "extra",
+						"chinese" : "",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					}
+				}
+			},
+			"2": {
+				"skin_id" : "U110_2",
+				"id" : "1",
+				"label" : "Kleiner Hai",
+				"dialogue" : {
+					"1" : {
+						"event" : "Ship Description",
+						"media" : "",
+						"chinese" : "和大斗犬玩游戏，U-110每次都输，不甘心。所以，U-110要好好学习，有一天，一定能赢过她",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "ブルドッグとゲームすると、いつも負けちゃう。悔しい。だから、お勉強頑張って、いつか絶対に勝つぞー",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"2" : {
+						"event" : "Acquisition",
+						"media" : "get_1",
+						"chinese" : "和大斗犬玩游戏，U-110每次都输，不甘心。所以，U-110要好好学习，有一天，一定能赢过她",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "ブルドッグとゲームすると、いつも負けちゃう。悔しい。だから、お勉強頑張って、いつか絶対に勝つぞー",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"3" : {
+						"event" : "Login",
+						"media" : "login_1",
+						"chinese" : "指挥官，一起去学校？",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"4" : {
+						"event" : "Details",
+						"media" : "detail_1",
+						"chinese" : "帽子才不是大蒜，是鲨鱼，可怕的鲨鱼，嘎哦",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"5" : {
+						"event" : "Main 1",
+						"media" : "main_1_1",
+						"chinese" : "U-110，在学校里学到了，原来，密码机还有那么多种……学习，好有趣",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"6" : {
+						"event" : "Main 2",
+						"media" : "main_2_1",
+						"chinese" : "嘎哦，嘎哦，嘎哦——女将说，在学校里不能嘎哦，所以，U-110要在指挥官身边嘎哦",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"7" : {
+						"event" : "Main 3",
+						"media" : "main_3_1",
+						"chinese" : "大斗犬总是说，和U-110玩没意思，但是，每次都会和U-110玩，是好人",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"8" : {
+						"event" : "Touch",
+						"media" : "touch_1_1",
+						"chinese" : "唔，这件衣服很可爱，U-110很喜欢，但是，也变得不可怕了，是可爱的小鲨鱼，嘎哦",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"9" : {
+						"event" : "Mission",
+						"media" : "task_1",
+						"chinese" : "作业好多……但是U-110很厉害，所以，会做完的",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"10" : {
+						"event" : "Mission Complete",
+						"media" : "mission_complete_1",
+						"chinese" : "指挥官，U-110把作业做完了，是不是很厉害？",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"11" : {
+						"event" : "Mail",
+						"media" : "mail_1",
+						"chinese" : "U-110学了新的加密方式，要在信件上试试吗？",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"12" : {
+						"event" : "Return to Port",
+						"media" : "home_1",
+						"chinese" : "指挥官，为什么大家都这么喜欢弹U-110的头发呢？",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					}
+				}
+			}
+		}
+	}
+}
