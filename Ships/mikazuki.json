@@ -1,182 +1,210 @@
 {
-	"name_reference": "mikazuki",
-	"cn_reference": "sanriyue",
-	"nameJP": "三日月",
-	"nameCN": "三日月",
-	"ID": "280",
-	"name": "Mikazuki",
-	"internal_id": "301411",
-	"rarity": "Common",
-	"initialStar": "★☆☆☆",
-	"hull": "Destroyer",
-	"navy": "Sakura Empire",
-	"prefix": "IJN",
-	"buildTime": "",
-	"class": "Mutsuki-Class",
-	"voiceActress": "Mako Sakurai",
+	"name_reference" : "mikazuki",
+	"cn_reference" : "sanriyue",
+	"nameJP" : "三日月",
+	"nameCN" : "三日月",
+	"ID" : "280",
+	"name" : "Mikazuki",
+	"internal_id" : "301411",
+	"rarity" : "Common",
+	"initialStar" : "★☆☆☆",
+	"hull" : "Destroyer",
+	"navy" : "Sakura Empire",
+	"prefix" : "IJN",
+	"buildTime" : "N/A",
+	"voiceActress" : "Mako Sakurai",
 	"parameters": {
-		"firepower": "D",
-		"torpedo": "A",
-		"aviation": "E",
-		"evasion": "A",
-		"antiAir": "D",
-		"hp": "D"
+		"firepower" : "D",
+		"torpedo" : "A",
+		"aviation" : "E",
+		"evasion" : "A",
+		"antiAir" : "D",
+		"hp" : "D"
 	},
 	"scrap": {
-		"gold": "4",
-		"oil": "3",
-		"medal": "0"
+		"gold" : "4",
+		"oil" : "3",
+		"medal" : "0"
 	},
 	"releaseDate": {
-		"JP": "",
-		"CN": "",
-		"KR": "",
-		"EN": ""
+		"JP" : "",
+		"CN" : "",
+		"KR" : "",
+		"EN" : ""
 	},
 	"artist": {
-		"name": "",
-		"weibo": "",
-		"twitter": "",
-		"pixiv": "",
-		"other": ""
+		"name" : "月见",
+		"weibo" : "http://www.weibo.com/p/1005051807769224",
+		"twitter" : "https://twitter.com/tsukimi08",
+		"pixiv" : "https://www.pixiv.net/member.php?id=786200",
+		"other" : ""
 	},
+	"class" : "Mutsuki-Class",
 	"enhance": {
-		"firepower": "4",
-		"torpedo": "27",
-		"aviation": "0",
-		"reload": "14"
+		"firepower" : "4",
+		"torpedo" : "27",
+		"aviation" : "0",
+		"reload" : "14"
 	},
-	"acquisitionMethod": "Explore Stage10-1",
+	"acquisitionMethod" : "Explore Stage10-1",
 	"skill": {
-		"1": {
-			"icon": "2001",
-			"requirement": "",
-			"name": "Quick Reload",
-			"type": "Offensive",
-			"description": "$1 chance to activate every 20s: increases this ship's RLD by $2 for 10s."
+		"1" : {
+			"icon" : "2001",
+			"requirement" : "Default Unlocked",
+			"name" : "Quick Reload",
+			"type" : "Offensive",
+			"description" : "Every 20s: 30.0%(60.0%) chance to increase this ship's RLD by 20.0%(40.0%) for 10s."
 		},
-		"2": {
-			"icon": "22011",
-			"requirement": "",
-			"name": "All Out Assault Ⅰ",
-			"type": "Offensive",
-			"description": "Activate All Out Assault Ⅰ: Mutsuki Class once every 15 times the main gun is fired."
+		"2" : {
+			"icon" : "22011",
+			"requirement" : "Limit Break I (III)",
+			"name" : "All Out Assault Ⅰ",
+			"type" : "Offensive",
+			"description" : "Activates All Out Assault Ⅰ: Mutsuki Class once every 15 times the Main Guns are fired."
 		}
 	},
 	"skin": {
-		"1": {
-			"id": "sanriyue",
-			"name": "Mikazuki ",
-			"description": "Mutsuki-class destroyer number ten – Mikazuki.",
-			"expression": {
-				"0": {
-					"id": "0"
+		"1" : {
+			"id" : "sanriyue",
+			"name" : "Mikazuki ",
+			"description" : "Mutsuki-class destroyer number ten – Mikazuki.",
+			"expression" : {
+				"0" : {
+					"id" : "0"
+				}
+			}
+		},
+		"2" : {
+			"id" : "sanriyue_2",
+			"name" : "Sweet Zombie",
+			"description" : "Mikazuki is supposed to be... a jiangshi? Um... hip... hop... Commander, trick or treaaaaat~",
+			"expression" : {
+				"0" : {
+					"id" : "0"
+				},
+				"1" : {
+					"id" : "1"
+				},
+				"2" : {
+					"id" : "2"
+				},
+				"3" : {
+					"id" : "3"
+				},
+				"4" : {
+					"id" : "4"
+				},
+				"5" : {
+					"id" : "5"
+				},
+				"6" : {
+					"id" : "6"
 				}
 			}
 		}
 	},
 	"defaultEquipment": {
-		"1": {
-			"icon": "31100",
-			"rarity": "",
-			"name": "Single 120mm Main Gun"
+		"1" : {
+			"icon" : "31100",
+			"rarity" : "",
+			"name" : "Single 120mm Main Gun"
 		},
-		"2": {
-			"icon": "35100",
-			"rarity": "Common",
-			"name": "Triple 610mm Torpedo"
+		"2" : {
+			"icon" : "35100",
+			"rarity" : "Common",
+			"name" : "Triple 610mm Torpedo"
 		},
-		"3": {
-			"icon": "",
-			"rarity": "",
-			"name": ""
+		"3" : {
+			"icon" : "",
+			"rarity" : "",
+			"name" : ""
 		}
 	},
 	"stats": {
+		"base": {
+			"hp" : "240",
+			"firepower" : "11",
+			"torpedo" : "82",
+			"antiAir" : "26",
+			"aviation" : "0",
+			"reload" : "72",
+			"hit" : "65",
+			"evasion" : "72",
+			"speed" : "44.7",
+			"luck" : "40",
+			"asw" : "45",
+			"oxygen" : "0",
+			"ammo" : "0",
+			"cost" : "1",
+			"armor" : "Light"
+		},
 		"100": {
-			"hp": "1239",
-			"firepower": "51",
-			"torpedo": "385",
-			"antiAir": "120",
-			"aviation": "0",
-			"reload": "171",
-			"hit": "169",
-			"evasion": "187",
-			"speed": "44.7",
-			"luck": "40",
-			"asw": "164",
-			"oxygen": "0",
-			"ammo": "0",
-			"cost": "7",
-			"armor": "Light"
+			"hp" : "1239",
+			"firepower" : "51",
+			"torpedo" : "385",
+			"antiAir" : "120",
+			"aviation" : "0",
+			"reload" : "171",
+			"hit" : "169",
+			"evasion" : "187",
+			"speed" : "44.7",
+			"luck" : "40",
+			"asw" : "164",
+			"oxygen" : "0",
+			"ammo" : "0",
+			"cost" : "7",
+			"armor" : "Light"
 		},
 		"120": {
-			"hp": "1487",
-			"firepower": "59",
-			"torpedo": "427",
-			"antiAir": "138",
-			"aviation": "0",
-			"reload": "196",
-			"hit": "178",
-			"evasion": "193",
-			"speed": "44.7",
-			"luck": "40",
-			"asw": "182",
-			"oxygen": "0",
-			"ammo": "0",
-			"cost": "7",
-			"armor": "Light"
-		},
-		"base": {
-			"hp": "240",
-			"firepower": "11",
-			"torpedo": "82",
-			"antiAir": "26",
-			"aviation": "0",
-			"reload": "72",
-			"hit": "65",
-			"evasion": "72",
-			"speed": "44.7",
-			"luck": "40",
-			"asw": "45",
-			"oxygen": "0",
-			"ammo": "0",
-			"cost": "1",
-			"armor": "Light"
+			"hp" : "1487",
+			"firepower" : "59",
+			"torpedo" : "427",
+			"antiAir" : "138",
+			"aviation" : "0",
+			"reload" : "196",
+			"hit" : "178",
+			"evasion" : "193",
+			"speed" : "44.7",
+			"luck" : "40",
+			"asw" : "182",
+			"oxygen" : "0",
+			"ammo" : "0",
+			"cost" : "7",
+			"armor" : "Light"
 		},
 		"100retrofit": {
-			"hp": "",
-			"firepower": "",
-			"torpedo": "",
-			"antiAir": "",
-			"aviation": "",
-			"reload": "",
-			"hit": "",
-			"evasion": "",
-			"speed": "44.7",
-			"luck": "40",
-			"asw": "",
-			"oxygen": "0",
-			"ammo": "0",
-			"cost": "7",
-			"armor": "Light"
+			"hp" : "",
+			"firepower" : "",
+			"torpedo" : "",
+			"antiAir" : "",
+			"aviation" : "",
+			"reload" : "",
+			"hit" : "",
+			"evasion" : "",
+			"speed" : "44.7",
+			"luck" : "40",
+			"asw" : "",
+			"oxygen" : "0",
+			"ammo" : "0",
+			"cost" : "7",
+			"armor" : "Light"
 		},
 		"120retrofit": {
-			"hp": "",
-			"firepower": "",
-			"torpedo": "",
-			"antiAir": "",
-			"aviation": "",
-			"reload": "",
-			"hit": "",
-			"evasion": "",
-			"speed": "44.7",
-			"luck": "40",
-			"asw": "",
-			"oxygen": "0",
-			"ammo": "0",
-			"cost": "7",
-			"armor": "Light"
+			"hp" : "",
+			"firepower" : "",
+			"torpedo" : "",
+			"antiAir" : "",
+			"aviation" : "",
+			"reload" : "",
+			"hit" : "",
+			"evasion" : "",
+			"speed" : "44.7",
+			"luck" : "40",
+			"asw" : "",
+			"oxygen" : "0",
+			"ammo" : "0",
+			"cost" : "7",
+			"armor" : "Light"
 		}
 	},
 	"limitBreak": {
@@ -204,17 +232,30 @@
 			"preload": "0/0/0/0"
 		},
 		"4": {
-			"type": "Auxiliary",
+			"type": "Auxilary",
 			"efficiency": "-",
 			"amount": "-",
 			"preload": "-"
 		},
 		"5": {
-			"type": "Auxiliary",
+			"type": "Auxilary",
 			"efficiency": "-",
 			"amount": "-",
 			"preload": "-"
 		}
+	},
+	"fleet_tech": {
+		"pt_get": "2",
+		"add_get_attr": "HP",
+		"add_get_value": "1",
+		"add_get_shiptype": "Destroyer",
+		"pt_upgrade": "4",
+		"pt_level": "3",
+		"add_level_attr": "HP",
+		"add_level_value": "1",
+		"add_level_shiptype": "Destroyer",
+		"t_level": "3",
+		"ships": "mutsuki,kisaragi,uzuki,minazuki,fumizuki,nagatsuki,mikazuki"
 	},
 	"build": {
 		"light": {
@@ -239,15 +280,27 @@
 		}
 	},
 	"drop": {
-		"droppable": "false",
+		"droppable": "true",
 		"list": {
 			"1": {
-				"event": "",
+				"event": "World",
 				"chapter": {
 					"1": {
-						"label": "Ch .1",
+						"label": "Ch.10",
 						"node": {
 							"1": {
+								"drop": "✓",
+								"note": "-"
+							},
+							"2": {
+								"drop": "✓",
+								"note": "-"
+							},
+							"3": {
+								"drop": "✓",
+								"note": "-"
+							},
+							"4": {
 								"drop": "✓",
 								"note": "-"
 							}
@@ -260,337 +313,451 @@
 	"lines": {
 		"skin": {
 			"1": {
-				"skin_id": "sanriyue",
-				"id": "0",
-				"label": "Mikazuki ",
-				"dialogue": {
-					"1": {
-						"event": "Ship Description",
-						"media": "",
-						"chinese": "睦月级驱逐舰十番舰—三日月",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "睦月型駆逐艦十番艦・三日月",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "Mutsuki-class destroyer number ten – Mikazuki.",
-						"englishNote": ""
+				"skin_id" : "sanriyue",
+				"id" : "0",
+				"label" : "Mikazuki ",
+				"dialogue" : {
+					"1" : {
+						"event" : "Ship Description",
+						"media" : "",
+						"chinese" : "睦月级驱逐舰十番舰—三日月",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "睦月型駆逐艦十番艦・三日月",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Mutsuki-class destroyer number ten – Mikazuki.",
+						"englishNote" : ""
 					},
-					"2": {
-						"event": "Biography",
-						"media": "profile",
-						"chinese": "三日月是三日月，有许多姐姐，也有妹妹，大家都是好朋友。擅长护卫和……输送任务！喜欢鲷鱼烧，指挥官也要吃吗？",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "三日月は三日月だよ。おねえちゃん、いもうと、いっぱいいるの。みんななかよしなの。「ごえいにんむ」と……「ゆそうにんむ」がとくいなの！あと、たいやきがすきなの！しきかんも、いるの？",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "I'm Mikazuki. I've got a lot of little and big sisters. We're all friends. I'm really good at escort and transport missions! Oh, and I love taiyaki! Do you want some too, Commander?",
-						"englishNote": ""
+					"2" : {
+						"event" : "Biography",
+						"media" : "profile",
+						"chinese" : "三日月是三日月，有许多姐姐，也有妹妹，大家都是好朋友。擅长护卫和……输送任务！喜欢鲷鱼烧，指挥官也要吃吗？",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "三日月は三日月だよ。おねえちゃん、いもうと、いっぱいいるの。みんななかよしなの。「ごえいにんむ」と……「ゆそうにんむ」がとくいなの！あと、たいやきがすきなの！しきかんも、いるの？",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "I'm Mikazuki. I've got a lot of little and big sisters. We're all friends. I'm really good at escort and transport missions! Oh, and I love taiyaki! Do you want some too, Commander?",
+						"englishNote" : ""
 					},
-					"3": {
-						"event": "Acquisition",
-						"media": "get",
-						"chinese": "啊——呜，唔？指……挥……官（kan）？三日月是三日月，鲷鱼烧要吗？给你一半",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "あーーうん？うん？しゅ…き…かん？わたしは三日月よ。たいやき、いる？はんぶんあげるよ？",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "Aahh... Hm? Hmm? Co... main... der? I'm Mikazuki. Want some taiyaki? You can have half of mine.",
-						"englishNote": ""
+					"3" : {
+						"event" : "Acquisition",
+						"media" : "get",
+						"chinese" : "啊——呜，唔？指……挥……官（kan）？三日月是三日月，鲷鱼烧要吗？给你一半",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "あーーうん？うん？しゅ…き…かん？わたしは三日月よ。たいやき、いる？はんぶんあげるよ？",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Aahh... Hm? Hmm? Co... main... der? I'm Mikazuki. Want some taiyaki? You can have half of mine.",
+						"englishNote" : ""
 					},
-					"4": {
-						"event": "Login",
-						"media": "login",
-						"chinese": "指挥官，欢—迎—肥—来—啊呜，真好吃",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "しきかん？おーかーえーりーあむ！おいしい！",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "Commander? Wel~co~me back~! *Nom*... Delicious!",
-						"englishNote": ""
+					"4" : {
+						"event" : "Login",
+						"media" : "login",
+						"chinese" : "指挥官，欢—迎—肥—来—啊呜，真好吃",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "しきかん？おーかーえーりーあむ！おいしい！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Commander? Wel~co~me back~! *Nom*... Delicious!",
+						"englishNote" : ""
 					},
-					"5": {
-						"event": "Details",
-						"media": "detail",
-						"chinese": "指挥官，鲷鱼烧还有很多，不用担心",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "しきかん、たいやき、いっぱいあるから、だいじょうぶ",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "Commander, I still have lots of taiyaki, so I'm fine.",
-						"englishNote": ""
+					"5" : {
+						"event" : "Details",
+						"media" : "detail",
+						"chinese" : "指挥官，鲷鱼烧还有很多，不用担心",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "しきかん、たいやき、いっぱいあるから、だいじょうぶ",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Commander, I still have lots of taiyaki, so I'm fine.",
+						"englishNote" : ""
 					},
-					"6": {
-						"event": "Main 1",
-						"media": "main_1",
-						"chinese": "吃饱了，困……指挥官，抱抱",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "おなかいっぱい…ねむい……しきかん、だっこしてー",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "I'm full... and sleepy... Commander, gimme a hug~",
-						"englishNote": ""
+					"6" : {
+						"event" : "Main 1",
+						"media" : "main_1",
+						"chinese" : "吃饱了，困……指挥官，抱抱",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "おなかいっぱい…ねむい……しきかん、だっこしてー",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "I'm full... and sleepy... Commander, gimme a hug~",
+						"englishNote" : ""
 					},
-					"7": {
-						"event": "Main 2",
-						"media": "main_2",
-						"chinese": "三日月喜欢尾巴里也有馅的鲷鱼烧",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "三日月は、しっぽにもあんこがはいってるたいやきがすき",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "I like taiyaki filled with bean paste even in their tail fins.",
-						"englishNote": ""
+					"7" : {
+						"event" : "Main 2",
+						"media" : "main_2",
+						"chinese" : "三日月喜欢尾巴里也有馅的鲷鱼烧",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "三日月は、しっぽにもあんこがはいってるたいやきがすき",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "I like taiyaki filled with bean paste even in their tail fins.",
+						"englishNote" : ""
 					},
-					"8": {
-						"event": "Main 3",
-						"media": "main_3",
-						"chinese": "鲷鱼烧，鱼，唔……大海！然后……星球，宇宙！啊呜——好吃",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "たいやきはさかな……うみ！うん……ちきゅう！うちゅう！あむ――おいしい！",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "Taiyaki looks like a fish... Fish live in the sea! Hm... the sea is on Earth! Earth is in space! Mm... so tasty!",
-						"englishNote": ""
+					"8" : {
+						"event" : "Main 3",
+						"media" : "main_3",
+						"chinese" : "鲷鱼烧，鱼，唔……大海！然后……星球，宇宙！啊呜——好吃",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "たいやきはさかな……うみ！うん……ちきゅう！うちゅう！あむ――おいしい！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Taiyaki looks like a fish... Fish live in the sea! Hm... the sea is on Earth! Earth is in space! Mm... so tasty!",
+						"englishNote" : ""
 					},
-					"9": {
-						"event": "Touch",
-						"media": "touch_1",
-						"chinese": "指挥官要吗，分你一个",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "しきかん、これいる？あげるよ",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "Commander, want some? I don't mind sharing.",
-						"englishNote": ""
+					"9" : {
+						"event" : "Touch",
+						"media" : "touch_1",
+						"chinese" : "指挥官要吗，分你一个",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "しきかん、これいる？あげるよ",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Commander, want some? I don't mind sharing.",
+						"englishNote" : ""
 					},
-					"10": {
-						"event": "Touch (Special)",
-						"media": "touch_2",
-						"chinese": "啊，鲷鱼烧掉了",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "あ、たいやき、おちた",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "Oh, I dropped my taiyaki...",
-						"englishNote": ""
+					"10" : {
+						"event" : "Touch (Special)",
+						"media" : "touch_2",
+						"chinese" : "啊，鲷鱼烧掉了",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "あ、たいやき、おちた",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Oh, I dropped my taiyaki...",
+						"englishNote" : ""
 					},
-					"11": {
-						"event": "Mission",
-						"media": "task",
-						"chinese": "指挥官，任务！",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "しきかん、にんむ！",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "Commander, new missions!",
-						"englishNote": ""
+					"11" : {
+						"event" : "Mission",
+						"media" : "task",
+						"chinese" : "指挥官，任务！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "しきかん、にんむ！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Commander, new missions!",
+						"englishNote" : ""
 					},
-					"12": {
-						"event": "Mission Complete",
-						"media": "mission_complete",
-						"chinese": "指挥官，任务奖励里有鲷鱼烧吗？",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "しきかん、ボーナスに、たいやき、あるの？",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "Commander, does the reward include any taiyaki?",
-						"englishNote": ""
+					"12" : {
+						"event" : "Mission Complete",
+						"media" : "mission_complete",
+						"chinese" : "指挥官，任务奖励里有鲷鱼烧吗？",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "しきかん、ボーナスに、たいやき、あるの？",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Commander, does the reward include any taiyaki?",
+						"englishNote" : ""
 					},
-					"13": {
-						"event": "Mail",
-						"media": "mail",
-						"chinese": "指挥官，这包纸是什么，可以包鲷鱼烧吗？",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "しきかん、このつつみはなに？たいやきをつつんでもいい？",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "Commander, what's this package for? Can I pack up my taiyaki?",
-						"englishNote": ""
+					"13" : {
+						"event" : "Mail",
+						"media" : "mail",
+						"chinese" : "指挥官，这包纸是什么，可以包鲷鱼烧吗？",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "しきかん、このつつみはなに？たいやきをつつんでもいい？",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Commander, what's this package for? Can I pack up my taiyaki?",
+						"englishNote" : ""
 					},
-					"14": {
-						"event": "Return to Port",
-						"media": "home",
-						"chinese": "啊——指挥官，要吗，给你吃",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "あ――しきかん、これいる？あげるよ",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "Ah... Commander, want some too? I've got more.",
-						"englishNote": ""
+					"14" : {
+						"event" : "Return to Port",
+						"media" : "home",
+						"chinese" : "啊——指挥官，要吗，给你吃",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "あ――しきかん、これいる？あげるよ",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Ah... Commander, want some too? I've got more.",
+						"englishNote" : ""
 					},
-					"15": {
-						"event": "Commission Complete",
-						"media": "expedition",
-						"chinese": "指挥官，三日月先去接委托的姐妹们了，说好了给我带鲷鱼烧的！",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "しきかん、三日月はいたくにでたみんなにあいにいくよ！たいやきかってくれるってやくそくした！",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "Commander, I'm heading out to welcome back the commission team! They promised they'd buy me some taiyaki!",
-						"englishNote": ""
+					"15" : {
+						"event" : "Commission Complete",
+						"media" : "expedition",
+						"chinese" : "指挥官，三日月先去接委托的姐妹们了，说好了给我带鲷鱼烧的！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "しきかん、三日月はいたくにでたみんなにあいにいくよ！たいやきかってくれるってやくそくした！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Commander, I'm heading out to welcome back the commission team! They promised they'd buy me some taiyaki!",
+						"englishNote" : ""
 					},
-					"16": {
-						"event": "Enhancement",
-						"media": "upgrade",
-						"chinese": "感觉……好像吃了好多鲷鱼烧，饱了",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "たいやき……たべすぎた…おなかいっぱい…",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "I ate... too much taiyaki... I'm stuffed...",
-						"englishNote": ""
+					"16" : {
+						"event" : "Enhancement",
+						"media" : "upgrade",
+						"chinese" : "感觉……好像吃了好多鲷鱼烧，饱了",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "たいやき……たべすぎた…おなかいっぱい…",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "I ate... too much taiyaki... I'm stuffed...",
+						"englishNote" : ""
 					},
-					"17": {
-						"event": "Flagship",
-						"media": "warcry",
-						"chinese": "敌人……能吃吗？",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "てきだ……たべれる？",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "That's the enemy... can we eat them?",
-						"englishNote": ""
+					"17" : {
+						"event" : "Flagship",
+						"media" : "warcry",
+						"chinese" : "敌人……能吃吗？",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "てきだ……たべれる？",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "That's the enemy... can we eat them?",
+						"englishNote" : ""
 					},
-					"18": {
-						"event": "Victory",
-						"media": "mvp",
-						"chinese": "可以吃点心了吗？",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "そろそろおやつのじかんなの？",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "Isn't it about time for a snack?",
-						"englishNote": ""
+					"18" : {
+						"event" : "Victory",
+						"media" : "mvp",
+						"chinese" : "可以吃点心了吗？",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "そろそろおやつのじかんなの？",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Isn't it about time for a snack?",
+						"englishNote" : ""
 					},
-					"19": {
-						"event": "Defeat",
-						"media": "lose",
-						"chinese": "饿了……",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "おなかへった……",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "I'm hungry...",
-						"englishNote": ""
+					"19" : {
+						"event" : "Defeat",
+						"media" : "lose",
+						"chinese" : "饿了……",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "おなかへった……",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "I'm hungry...",
+						"englishNote" : ""
 					},
-					"20": {
-						"event": "Skill",
-						"media": "skill",
-						"chinese": "才不给你们鲷鱼烧",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "たいやき、あげないもん！",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "You're not getting any of my taiyaki!",
-						"englishNote": ""
+					"20" : {
+						"event" : "Skill",
+						"media" : "skill",
+						"chinese" : "才不给你们鲷鱼烧",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "たいやき、あげないもん！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "You're not getting any of my taiyaki!",
+						"englishNote" : ""
 					},
-					"21": {
-						"event": "Affinity (Upset)",
-						"media": "feeling1",
-						"chinese": "啊——呜（三日月并没有理会你）",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "あ～～むぐ（三日月はあなたに気づいていないようだ）",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "Ahh~ *Nom* (Mikazuki doesn't seem to notice you.)",
-						"englishNote": ""
+					"21" : {
+						"event" : "Affinity (Upset)",
+						"media" : "feeling1",
+						"chinese" : "啊——呜（三日月并没有理会你）",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "あ～～むぐ（三日月はあなたに気づいていないようだ）",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Ahh~ *Nom* (Mikazuki doesn't seem to notice you.)",
+						"englishNote" : ""
 					},
-					"22": {
-						"event": "Affinity (Stranger)",
-						"media": "feeling2",
-						"chinese": "指挥官要一起吃点心吗？",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "しきかん、たいやき、いっしょにたべる？",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "Commander, want to eat some taiyaki with me?",
-						"englishNote": ""
+					"22" : {
+						"event" : "Affinity (Stranger)",
+						"media" : "feeling2",
+						"chinese" : "指挥官要一起吃点心吗？",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "しきかん、たいやき、いっしょにたべる？",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Commander, want to eat some taiyaki with me?",
+						"englishNote" : ""
 					},
-					"23": {
-						"event": "Affinity (Friendly)",
-						"media": "feeling3",
-						"chinese": "穿衣服好麻烦，讨厌衣服……三日月只要有鲷鱼烧就好了",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "ふく、めんどう…ふく、きるのきらい……三日月はたいやきあればいいの……",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "Clothes are so annoying... I hate getting dressed... I just want to eat taiyaki...",
-						"englishNote": ""
+					"23" : {
+						"event" : "Affinity (Friendly)",
+						"media" : "feeling3",
+						"chinese" : "穿衣服好麻烦，讨厌衣服……三日月只要有鲷鱼烧就好了",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "ふく、めんどう…ふく、きるのきらい……三日月はたいやきあればいいの……",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Clothes are so annoying... I hate getting dressed... I just want to eat taiyaki...",
+						"englishNote" : ""
 					},
-					"24": {
-						"event": "Affinity (Like)",
-						"media": "feeling4",
-						"chinese": "指挥官像麻麻一样好啰嗦……但是三日月喜欢鲷鱼烧，也喜欢指挥官……唔，那指挥官帮三日月穿衣服就好了！",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "ふくをちゃんときてって…しきかんはママみたいでうるさい……でも三日月、たいやきとおなじくらい、しきかんがすき……じゃあ、しきかん、三日月にふくをきせてよ",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "Always telling me to wear my clothes... you're just like my mom... But I still like you, Commander. Almost as much as I like taiyaki... Okay, Commander, help me get dressed.",
-						"englishNote": ""
+					"24" : {
+						"event" : "Affinity (Like)",
+						"media" : "feeling4",
+						"chinese" : "指挥官像麻麻一样好啰嗦……但是三日月喜欢鲷鱼烧，也喜欢指挥官……唔，那指挥官帮三日月穿衣服就好了！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "ふくをちゃんときてって…しきかんはママみたいでうるさい……でも三日月、たいやきとおなじくらい、しきかんがすき……じゃあ、しきかん、三日月にふくをきせてよ",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Always telling me to wear my clothes... you're just like my mom... But I still like you, Commander. Almost as much as I like taiyaki... Okay, Commander, help me get dressed.",
+						"englishNote" : ""
 					},
-					"25": {
-						"event": "Affinity (Love)",
-						"media": "feeling5",
-						"chinese": "关系最亲近的人才能帮忙穿衣服？指挥官不是吗？三日月最喜欢指挥官了，指挥官不喜欢三日月吗？",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "「ふくをきせるのはいちばんしたしいひとじゃないとダメ」？しきかんはダメ？三日月、しきかんが大好きだよ？しきかんは三日月、すきじゃないの？",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "\"Only really close people should help each other get dressed\"? Are we not close, Commander? I love you, Commander. Do you not like me?",
-						"englishNote": ""
+					"25" : {
+						"event" : "Affinity (Love)",
+						"media" : "feeling5",
+						"chinese" : "关系最亲近的人才能帮忙穿衣服？指挥官不是吗？三日月最喜欢指挥官了，指挥官不喜欢三日月吗？",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "「ふくをきせるのはいちばんしたしいひとじゃないとダメ」？しきかんはダメ？三日月、しきかんが大好きだよ？しきかんは三日月、すきじゃないの？",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "\"Only really close people should help each other get dressed\"? Are we not close, Commander? I love you, Commander. Do you not like me?",
+						"englishNote" : ""
 					},
-					"26": {
-						"event": "Pledge",
-						"media": "propose",
-						"chinese": "契约？这样指挥官就会帮三日月换衣服了吗？唔……指挥官好奇怪，明明三日月只要是指挥官都可以的……",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "ケッコン……？これでしきかんは三日月にふくをきせるの？よくわかんない……やっぱりじぶんできてって？しきかん、変だよ…三日月はしきかんならダイジョウブっていったのに…",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "A promise...? Does that mean you'll help me get dressed? I don't really get it... I should really do it on my own...? Commander, you're weird... I'm fine with you helping me get dressed, I told you before...",
-						"englishNote": ""
+					"26" : {
+						"event" : "Pledge",
+						"media" : "propose",
+						"chinese" : "契约？这样指挥官就会帮三日月换衣服了吗？唔……指挥官好奇怪，明明三日月只要是指挥官都可以的……",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "ケッコン……？これでしきかんは三日月にふくをきせるの？よくわかんない……やっぱりじぶんできてって？しきかん、変だよ…三日月はしきかんならダイジョウブっていったのに…",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "A promise...? Does that mean you'll help me get dressed? I don't really get it... I should really do it on my own...? Commander, you're weird... I'm fine with you helping me get dressed, I told you before...",
+						"englishNote" : ""
+					},
+					"27" : {
+						"event" : "Like Present",
+						"media" : "present_like",
+						"chinese" : "",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"28" : {
+						"event" : "Dislike Present",
+						"media" : "present_dislike",
+						"chinese" : "",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"29" : {
+						"event" : "Main Title",
+						"media" : "extra",
+						"chinese" : "",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					}
+				}
+			},
+			"2": {
+				"skin_id" : "sanriyue_2",
+				"id" : "1",
+				"label" : "Sweet Zombie",
+				"dialogue" : {
+					"1" : {
+						"event" : "Ship Description",
+						"media" : "",
+						"chinese" : "三日月…变成了僵尸？我跳~我跳~指挥官，有稠鱼烧吗？",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "三日月のやくは…キョンシー？うん…ぴょんぴょん…しきかん、とりっくおあとりーとぉぉぉ～",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Mikazuki is supposed to be... a jiangshi? Um... hip... hop... Commander, trick or treaaaaat~",
+						"englishNote" : ""
+					},
+					"2" : {
+						"event" : "Acquisition",
+						"media" : "get_1",
+						"chinese" : "三日月…变成了僵尸？我跳~我跳~指挥官，有稠鱼烧吗？",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"3" : {
+						"event" : "Login",
+						"media" : "login_1",
+						"chinese" : "指挥官，不给稠鱼烧，三日月就叫水无月姐姐来捣乱了。",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"4" : {
+						"event" : "Details",
+						"media" : "detail_1",
+						"chinese" : "三日月不喜欢换麻烦的衣服，但是大家都想看三日月穿上它，所以三日月变成了僵尸。我跳~",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"5" : {
+						"event" : "Touch",
+						"media" : "touch_1_1",
+						"chinese" : "指挥官，不怕僵尸吗？",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"6" : {
+						"event" : "Touch (Special)",
+						"media" : "touch_2_1",
+						"chinese" : "被弄乱了，好不容易才穿好的衣服……",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"7" : {
+						"event" : "Return to Port",
+						"media" : "home_1",
+						"chinese" : "三日月得到了很多糖……睦月姐姐好像很喜欢，等下都给她吧。",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
 					}
 				}
 			}
 		}
-	},
-	"fleet_tech": {
-		"pt_get": "2",
-		"add_get_attr": "HP",
-		"add_get_value": "1",
-		"add_get_shiptype": "Destroyer",
-		"pt_upgrade": "4",
-		"pt_level": "3",
-		"add_level_attr": "HP",
-		"add_level_value": "1",
-		"add_level_shiptype": "Destroyer",
-		"t_level": "3",
-		"ships": "mutsuki,kisaragi,uzuki,minazuki,fumizuki,nagatsuki,mikazuki"
 	}
 }

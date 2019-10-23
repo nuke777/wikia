@@ -1,192 +1,217 @@
 {
-	"name_reference": "edinburgh",
-	"cn_reference": "aidingbao",
-	"nameJP": "エディンバラ",
-	"nameCN": "爱丁堡",
-	"ID": "114",
-	"name": "Edinburgh",
-	"internal_id": "202111",
-	"rarity": "Elite",
-	"initialStar": "★★☆☆☆",
-	"hull": "Light Cruiser",
-	"navy": "Royal Navy",
-	"prefix": "HMS",
-	"buildTime": "",
-	"class": "Edinburgh-Class",
-	"voiceActress": "Yuuko Gotou",
+	"name_reference" : "edinburgh",
+	"cn_reference" : "aidingbao",
+	"nameJP" : "エディンバラ",
+	"nameCN" : "爱丁堡",
+	"ID" : "114",
+	"name" : "Edinburgh",
+	"internal_id" : "202111",
+	"rarity" : "Elite",
+	"initialStar" : "★★☆☆☆",
+	"hull" : "Light Cruiser",
+	"navy" : "Royal Navy",
+	"prefix" : "HMS",
+	"buildTime" : "01:25:00",
+	"voiceActress" : "Yuuko Gotou",
 	"parameters": {
-		"firepower": "B",
-		"torpedo": "B",
-		"aviation": "E",
-		"evasion": "B",
-		"antiAir": "B",
-		"hp": "B"
+		"firepower" : "B",
+		"torpedo" : "B",
+		"aviation" : "E",
+		"evasion" : "B",
+		"antiAir" : "B",
+		"hp" : "B"
 	},
 	"scrap": {
-		"gold": "6",
-		"oil": "3",
-		"medal": "4"
+		"gold" : "6",
+		"oil" : "3",
+		"medal" : "4"
 	},
 	"releaseDate": {
-		"JP": "",
-		"CN": "",
-		"KR": "",
-		"EN": ""
+		"JP" : "",
+		"CN" : "",
+		"KR" : "",
+		"EN" : ""
 	},
 	"artist": {
-		"name": "",
-		"weibo": "",
-		"twitter": "",
-		"pixiv": "",
-		"other": ""
+		"name" : "深蓝的杰克",
+		"weibo" : "https://weibo.com/u/1889884713",
+		"twitter" : "https://twitter.com/JackNavy6",
+		"pixiv" : "https://www.pixiv.net/member.php?id=1562284",
+		"other" : ""
 	},
+	"class" : "Edinburgh-Class",
 	"enhance": {
-		"firepower": "12",
-		"torpedo": "17",
-		"aviation": "0",
-		"reload": "12"
+		"firepower" : "12",
+		"torpedo" : "17",
+		"aviation" : "0",
+		"reload" : "12"
 	},
-	"acquisitionMethod": "Light/Heavy/Special Construction",
+	"acquisitionMethod" : "Light/Heavy/Special Construction",
 	"skill": {
-		"1": {
-			"icon": "2081",
-			"requirement": "",
-			"name": "Piercing Shells",
-			"type": "Offensive",
-			"description": "Increases this ship's DMG with AP ammo by $1."
+		"1" : {
+			"icon" : "2081",
+			"requirement" : "Default Unlocked",
+			"name" : "Piercing Shells",
+			"type" : "Offensive",
+			"description" : "Increases this ship's DMG with AP by 15.0%(25.0%)."
 		},
-		"2": {
-			"icon": "21141",
-			"requirement": "",
-			"name": "All Out Assault Ⅰ",
-			"type": "Offensive",
-			"description": "Activate All Out Assault Ⅰ: Edinburgh Class once every 12 times the main gun is fired."
+		"2" : {
+			"icon" : "21141",
+			"requirement" : "Limit Break I (III)",
+			"name" : "All Out Assault Ⅰ",
+			"type" : "Offensive",
+			"description" : "Activates All Out Assault Ⅰ: Edinburgh Class once every 12 times the Main Guns are fired."
 		}
 	},
 	"skin": {
-		"1": {
-			"id": "aidingbao",
-			"name": "Edinburgh",
-			"description": "Edinburgh-Class light cruiser ー Edinburgh, Hull number 16!",
-			"expression": {
-				"0": {
-					"id": "0"
+		"1" : {
+			"id" : "aidingbao",
+			"name" : "Edinburgh",
+			"description" : "Edinburgh-Class light cruiser ー Edinburgh, Hull number 16!",
+			"expression" : {
+				"0" : {
+					"id" : "0"
 				}
 			}
 		},
-		"2": {
-			"id": "aidingbao_2",
-			"name": "The Library Fairy",
-			"description": "Why doesn't she have to go to school with me...she says she’s a maid for the Queen? Well, me too! You can be a maid and school girl at the same time...tsk tsk---",
-			"expression": {
-				"0": {
-					"id": "0"
+		"2" : {
+			"id" : "aidingbao_2",
+			"name" : "The Library Fairy",
+			"description" : "Why doesn't she have to go to school with me...she says she’s a maid for the Queen? Well, me too! You can be a maid and school girl at the same time...tsk tsk---",
+			"expression" : {
+				"0" : {
+					"id" : "0"
+				}
+			}
+		},
+		"3" : {
+			"id" : "aidingbao_3",
+			"name" : "Candy Maid",
+			"description" : "Ahem! I made this special candy just for Halloween! Here, Commander, take some! Wooaaooah! Wh-who put this pumpkin here? It, it was me?!",
+			"expression" : {
+				"0" : {
+					"id" : "0"
+				},
+				"1" : {
+					"id" : "1"
+				},
+				"2" : {
+					"id" : "2"
+				},
+				"3" : {
+					"id" : "3"
+				},
+				"4" : {
+					"id" : "4"
+				},
+				"5" : {
+					"id" : "5"
 				}
 			}
 		}
 	},
 	"defaultEquipment": {
-		"1": {
-			"icon": "22200",
-			"rarity": "Common",
-			"name": "Triple 152mm Main Gun"
+		"1" : {
+			"icon" : "22200",
+			"rarity" : "Common",
+			"name" : "Triple 152mm Main Gun"
 		},
-		"2": {
-			"icon": "5000",
-			"rarity": "",
-			"name": "Triple 533mm Torpedo"
+		"2" : {
+			"icon" : "5000",
+			"rarity" : "",
+			"name" : "Triple 533mm Torpedo"
 		},
-		"3": {
-			"icon": "",
-			"rarity": "",
-			"name": ""
+		"3" : {
+			"icon" : "",
+			"rarity" : "",
+			"name" : ""
 		}
 	},
 	"stats": {
+		"base": {
+			"hp" : "789",
+			"firepower" : "29",
+			"torpedo" : "52",
+			"antiAir" : "59",
+			"aviation" : "0",
+			"reload" : "65",
+			"hit" : "55",
+			"evasion" : "29",
+			"speed" : "32",
+			"luck" : "37",
+			"asw" : "24",
+			"oxygen" : "0",
+			"ammo" : "0",
+			"cost" : "3",
+			"armor" : "Light"
+		},
 		"100": {
-			"hp": "4078",
-			"firepower": "137",
-			"torpedo": "246",
-			"antiAir": "276",
-			"aviation": "0",
-			"reload": "153",
-			"hit": "143",
-			"evasion": "76",
-			"speed": "32",
-			"luck": "37",
-			"asw": "88",
-			"oxygen": "0",
-			"ammo": "0",
-			"cost": "10",
-			"armor": "Light"
+			"hp" : "4078",
+			"firepower" : "137",
+			"torpedo" : "246",
+			"antiAir" : "276",
+			"aviation" : "0",
+			"reload" : "153",
+			"hit" : "143",
+			"evasion" : "76",
+			"speed" : "32",
+			"luck" : "37",
+			"asw" : "88",
+			"oxygen" : "0",
+			"ammo" : "0",
+			"cost" : "10",
+			"armor" : "Light"
 		},
 		"120": {
-			"hp": "4486",
-			"firepower": "157",
-			"torpedo": "280",
-			"antiAir": "313",
-			"aviation": "0",
-			"reload": "176",
-			"hit": "160",
-			"evasion": "100",
-			"speed": "32",
-			"luck": "37",
-			"asw": "101",
-			"oxygen": "0",
-			"ammo": "0",
-			"cost": "10",
-			"armor": "Light"
-		},
-		"base": {
-			"hp": "789",
-			"firepower": "29",
-			"torpedo": "52",
-			"antiAir": "59",
-			"aviation": "0",
-			"reload": "65",
-			"hit": "55",
-			"evasion": "29",
-			"speed": "32",
-			"luck": "37",
-			"asw": "24",
-			"oxygen": "0",
-			"ammo": "0",
-			"cost": "3",
-			"armor": "Light"
+			"hp" : "4486",
+			"firepower" : "157",
+			"torpedo" : "280",
+			"antiAir" : "313",
+			"aviation" : "0",
+			"reload" : "176",
+			"hit" : "160",
+			"evasion" : "100",
+			"speed" : "32",
+			"luck" : "37",
+			"asw" : "101",
+			"oxygen" : "0",
+			"ammo" : "0",
+			"cost" : "10",
+			"armor" : "Light"
 		},
 		"100retrofit": {
-			"hp": "",
-			"firepower": "",
-			"torpedo": "",
-			"antiAir": "",
-			"aviation": "",
-			"reload": "",
-			"hit": "",
-			"evasion": "",
-			"speed": "32",
-			"luck": "37",
-			"asw": "",
-			"oxygen": "0",
-			"ammo": "0",
-			"cost": "10",
-			"armor": "Light"
+			"hp" : "",
+			"firepower" : "",
+			"torpedo" : "",
+			"antiAir" : "",
+			"aviation" : "",
+			"reload" : "",
+			"hit" : "",
+			"evasion" : "",
+			"speed" : "32",
+			"luck" : "37",
+			"asw" : "",
+			"oxygen" : "0",
+			"ammo" : "0",
+			"cost" : "10",
+			"armor" : "Light"
 		},
 		"120retrofit": {
-			"hp": "",
-			"firepower": "",
-			"torpedo": "",
-			"antiAir": "",
-			"aviation": "",
-			"reload": "",
-			"hit": "",
-			"evasion": "",
-			"speed": "32",
-			"luck": "37",
-			"asw": "",
-			"oxygen": "0",
-			"ammo": "0",
-			"cost": "10",
-			"armor": "Light"
+			"hp" : "",
+			"firepower" : "",
+			"torpedo" : "",
+			"antiAir" : "",
+			"aviation" : "",
+			"reload" : "",
+			"hit" : "",
+			"evasion" : "",
+			"speed" : "32",
+			"luck" : "37",
+			"asw" : "",
+			"oxygen" : "0",
+			"ammo" : "0",
+			"cost" : "10",
+			"armor" : "Light"
 		}
 	},
 	"limitBreak": {
@@ -214,33 +239,46 @@
 			"preload": "0/0/0/0"
 		},
 		"4": {
-			"type": "Auxiliary",
+			"type": "Auxilary",
 			"efficiency": "-",
 			"amount": "-",
 			"preload": "-"
 		},
 		"5": {
-			"type": "Auxiliary",
+			"type": "Auxilary",
 			"efficiency": "-",
 			"amount": "-",
 			"preload": "-"
 		}
 	},
+	"fleet_tech": {
+		"pt_get": "10",
+		"add_get_attr": "HP",
+		"add_get_value": "1",
+		"add_get_shiptype": "Light Cruiser",
+		"pt_upgrade": "20",
+		"pt_level": "15",
+		"add_level_attr": "Torpedo",
+		"add_level_value": "1",
+		"add_level_shiptype": "Light Cruiser",
+		"t_level": "7",
+		"ships": "edinburgh,belfast"
+	},
 	"build": {
 		"light": {
-			"JP": "",
-			"CN": "",
-			"EN": ""
+			"JP": "✓",
+			"CN": "✓",
+			"EN": "✓"
 		},
 		"heavy": {
-			"JP": "",
-			"CN": "",
-			"EN": ""
+			"JP": "✓",
+			"CN": "✓",
+			"EN": "✓"
 		},
 		"special": {
-			"JP": "",
-			"CN": "",
-			"EN": ""
+			"JP": "✓",
+			"CN": "✓",
+			"EN": "✓"
 		},
 		"limited": {
 			"JP": "",
@@ -270,512 +308,638 @@
 	"lines": {
 		"skin": {
 			"1": {
-				"skin_id": "aidingbao",
-				"id": "0",
-				"label": "Edinburgh",
-				"dialogue": {
-					"1": {
-						"event": "Ship Description",
-						"media": "",
-						"chinese": "爱丁堡级轻巡洋舰—爱丁堡，舷号16",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "エディンバラ級軽巡洋艦・エディンバラ（HMS Edinburgh）",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "Edinburgh-Class light cruiser ー Edinburgh, Hull number 16!",
-						"englishNote": ""
+				"skin_id" : "aidingbao",
+				"id" : "0",
+				"label" : "Edinburgh",
+				"dialogue" : {
+					"1" : {
+						"event" : "Ship Description",
+						"media" : "",
+						"chinese" : "爱丁堡级轻巡洋舰—爱丁堡，舷号16",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "エディンバラ級軽巡洋艦・エディンバラ（HMS Edinburgh）",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Edinburgh-Class light cruiser ー Edinburgh, Hull number 16!",
+						"englishNote" : ""
 					},
-					"2": {
-						"event": "Biography",
-						"media": "profile",
-						"chinese": "皇家海军爱丁堡级轻巡洋舰首号舰，拥有一个令人骄傲的妹妹偶尔也会感受到压力呢。追踪过俾斯麦和沙恩霍斯特，并在大西洋、北海与地中海执行过多次巡逻与护航任务，最终因为铁血的鱼雷和12吨黄金一起沉入了海底",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "ロイヤルネイビーエディンバラ級軽巡洋艦のネームシップです。デキすぎる妹を持っていると時々ストレスを感じますね…ビスマルクとシャルンホルストの追撃任務、そして大西洋・北海・地中海の数多くのパトロールと護衛任務に参加しました。最後は鉄血の魚雷で金塊と一緒に海に沈んじゃいました…",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "I am the lead ship of Edinburgh class of the Royal Navy. Sometimes it is stressful having an overly capable little sister... I took part in the pursuit of Bismarck and Scharnhorst, as well as many patrol missions in Atlantic, North sea and Mediterranean. In the end, I sunk with all my gold due to Ironblood torpedoes...",
-						"englishNote": ""
+					"2" : {
+						"event" : "Biography",
+						"media" : "profile",
+						"chinese" : "皇家海军爱丁堡级轻巡洋舰首号舰，拥有一个令人骄傲的妹妹偶尔也会感受到压力呢。追踪过俾斯麦和沙恩霍斯特，并在大西洋、北海与地中海执行过多次巡逻与护航任务，最终因为铁血的鱼雷和12吨黄金一起沉入了海底",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "ロイヤルネイビーエディンバラ級軽巡洋艦のネームシップです。デキすぎる妹を持っていると時々ストレスを感じますね…ビスマルクとシャルンホルストの追撃任務、そして大西洋・北海・地中海の数多くのパトロールと護衛任務に参加しました。最後は鉄血の魚雷で金塊と一緒に海に沈んじゃいました…",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "I am the lead ship of Edinburgh class of the Royal Navy. Sometimes it is stressful having an overly capable little sister... I took part in the pursuit of Bismarck and Scharnhorst, as well as many patrol missions in Atlantic, North sea and Mediterranean. In the end, I sunk with all my gold due to Ironblood torpedoes...",
+						"englishNote" : ""
 					},
-					"3": {
-						"event": "Acquisition",
-						"media": "get",
-						"chinese": "终于捞到我了吗。我就是那家伙的姐姐——爱丁堡！史上最昂贵的轻巡洋舰！",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "私の出番ってことですね！私は「アイツ」の姉、エディンバラです！ある意味、「一番高い」軽巡洋艦ですよ！",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "This is my turn, you might say! I am 'her' older sister, Edinburgh! In a sense, I am the 'most accomplished' light cruiser!",
-						"englishNote": ""
+					"3" : {
+						"event" : "Acquisition",
+						"media" : "get",
+						"chinese" : "终于捞到我了吗。我就是那家伙的姐姐——爱丁堡！史上最昂贵的轻巡洋舰！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "私の出番ってことですね！私は「アイツ」の姉、エディンバラです！ある意味、「一番高い」軽巡洋艦ですよ！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "This is my turn, you might say! I am 'her' older sister, Edinburgh! In a sense, I am the 'most accomplished' light cruiser!",
+						"englishNote" : ""
 					},
-					"4": {
-						"event": "Login",
-						"media": "login",
-						"chinese": "啊呀！我可没做什么奇怪的事，只是在把金块“运输”到房间里而已！",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "あう！変なことはやっていません！金塊を部屋に「輸送」しているだけです！",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "Ah! I'm not doing anything weird! I'm just transporting gold bars into the room!",
-						"englishNote": ""
+					"4" : {
+						"event" : "Login",
+						"media" : "login",
+						"chinese" : "啊呀！我可没做什么奇怪的事，只是在把金块“运输”到房间里而已！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "あう！変なことはやっていません！金塊を部屋に「輸送」しているだけです！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Ah! I'm not doing anything weird! I'm just transporting gold bars into the room!",
+						"englishNote" : ""
 					},
-					"5": {
-						"event": "Details",
-						"media": "detail",
-						"chinese": "再怎么盯着爱丁堡看，这些东西也不会送你哦",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "どんなにエディンバラを見つめてもこれはあげませんよ？",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "I'm not going to give these to you no matter how much you stare at me.",
-						"englishNote": ""
+					"5" : {
+						"event" : "Details",
+						"media" : "detail",
+						"chinese" : "再怎么盯着爱丁堡看，这些东西也不会送你哦",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "どんなにエディンバラを見つめてもこれはあげませんよ？",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "I'm not going to give these to you no matter how much you stare at me.",
+						"englishNote" : ""
 					},
-					"6": {
-						"event": "Main 1",
-						"media": "main_1",
-						"chinese": "我也想像胡德姐一样优雅，可是…… ",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "フッド姉みたいに優雅になりたいですけど、まあ…… ",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "I want to be as elegant as Hood but, well...",
-						"englishNote": ""
+					"6" : {
+						"event" : "Main 1",
+						"media" : "main_1",
+						"chinese" : "我也想像胡德姐一样优雅，可是…… ",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "フッド姉みたいに優雅になりたいですけど、まあ…… ",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "I want to be as elegant as Hood but, well...",
+						"englishNote" : ""
 					},
-					"7": {
-						"event": "Main 2",
-						"media": "main_2",
-						"chinese": "诶诶诶，贝法在哪里！我又忘带钥匙了",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "えええ！…ベル、今どこ？私また鍵を忘れちゃったよぉ…",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "Eeeh! ...Bel, where are you? I forgot my keys again...",
-						"englishNote": ""
+					"7" : {
+						"event" : "Main 2",
+						"media" : "main_2",
+						"chinese" : "诶诶诶，贝法在哪里！我又忘带钥匙了",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "えええ！…ベル、今どこ？私また鍵を忘れちゃったよぉ…",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Eeeh! ...Bel, where are you? I forgot my keys again...",
+						"englishNote" : ""
 					},
-					"8": {
-						"event": "Main 3",
-						"media": "main_3",
-						"chinese": "哼哼，沙恩霍斯特在爱丁堡大人面前也只能望风而逃！",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "ふふん、シャルンホルストもこのエディンバラ様の前から尻尾を巻いて逃げるしかなかったのですよ！",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "Hmhmm~ Even Scharnhorst had to turn tail and run away when she saw me!",
-						"englishNote": ""
+					"8" : {
+						"event" : "Main 3",
+						"media" : "main_3",
+						"chinese" : "哼哼，沙恩霍斯特在爱丁堡大人面前也只能望风而逃！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "ふふん、シャルンホルストもこのエディンバラ様の前から尻尾を巻いて逃げるしかなかったのですよ！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Hmhmm~ Even Scharnhorst had to turn tail and run away when she saw me!",
+						"englishNote" : ""
 					},
-					"9": {
-						"event": "Touch",
-						"media": "touch_1",
-						"chinese": "哇！！不要碰啊！要掉出来了！",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "うわあ！触らないでくださいよ！落ちちゃいますよ！",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "Hey!! Don't touch that! It's gonna fall!",
-						"englishNote": ""
+					"9" : {
+						"event" : "Touch",
+						"media" : "touch_1",
+						"chinese" : "哇！！不要碰啊！要掉出来了！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "うわあ！触らないでくださいよ！落ちちゃいますよ！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Hey!! Don't touch that! It's gonna fall!",
+						"englishNote" : ""
 					},
-					"10": {
-						"event": "Touch (Special)",
-						"media": "touch_2",
-						"chinese": "指挥官，淑女可是不会把金块藏在那里的",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "指揮官、レディは金塊をこんなところに隠しません！",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "Commander, a lady would never hide her gold bars there!",
-						"englishNote": ""
+					"10" : {
+						"event" : "Touch (Special)",
+						"media" : "touch_2",
+						"chinese" : "指挥官，淑女可是不会把金块藏在那里的",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "指揮官、レディは金塊をこんなところに隠しません！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Commander, a lady would never hide her gold bars there!",
+						"englishNote" : ""
 					},
-					"11": {
-						"event": "Mission",
-						"media": "task",
-						"chinese": "任务，一定要完成哦！",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "任務はちゃんとこなしますよ！",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "You have to finish your missions properly!",
-						"englishNote": ""
+					"11" : {
+						"event" : "Rub",
+						"media" : "touch_head",
+						"chinese" : "谢谢，稍微打起点精神了",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "ありがとうございます。少し元気づけられました",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Thanks! I'm feeling a bit more energized.",
+						"englishNote" : ""
 					},
-					"12": {
-						"event": "Mission Complete",
-						"media": "mission_complete",
-						"chinese": "好像忘记了什么东西……？算了，不管了！",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "なにかを忘れたような……まあいっか！",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "I seem to have forgotten about something... Well, whatever!",
-						"englishNote": ""
+					"12" : {
+						"event" : "Mission",
+						"media" : "task",
+						"chinese" : "任务，一定要完成哦！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "任務はちゃんとこなしますよ！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "You have to finish your missions properly!",
+						"englishNote" : ""
 					},
-					"13": {
-						"event": "Mail",
-						"media": "mail",
-						"chinese": "指挥官，新的……咦！邮件呢？？我刚刚放哪里了？？",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "指揮官、新しいメ……あ、あれ？メールは？どこに置きましたっけ…？？",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "Commander, there's a new ma... Wh-What? Where's the mail? Where did I leave it... ??",
-						"englishNote": ""
+					"13" : {
+						"event" : "Mission Complete",
+						"media" : "mission_complete",
+						"chinese" : "好像忘记了什么东西……？算了，不管了！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "なにかを忘れたような……まあいっか！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "I seem to have forgotten about something... Well, whatever!",
+						"englishNote" : ""
 					},
-					"14": {
-						"event": "Return to Port",
-						"media": "home",
-						"chinese": "我制作了茶点，敬请各位品尝。和贝法做的味道一样？我们是姐妹嘛！",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "クッキーを作りました、どうぞ召し上がってください。ベルのと味が同じですって？まあ、私たちは姉妹ですからね！",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "I made cookies! Please have a taste... They taste the same as Bel's? Well, we're sisters, after all!",
-						"englishNote": ""
+					"14" : {
+						"event" : "Mail",
+						"media" : "mail",
+						"chinese" : "指挥官，新的……咦！邮件呢？？我刚刚放哪里了？？",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "指揮官、新しいメ……あ、あれ？メールは？どこに置きましたっけ…？？",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Commander, there's a new ma... Wh-What? Where's the mail? Where did I leave it... ??",
+						"englishNote" : ""
 					},
-					"15": {
-						"event": "Commission Complete",
-						"media": "expedition",
-						"chinese": "说起军事委托，我可是专业的！",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "軍事委託といえば私、プロですから！",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "When it comes to military commissions, I'm a pro!",
-						"englishNote": ""
+					"15" : {
+						"event" : "Return to Port",
+						"media" : "home",
+						"chinese" : "我制作了茶点，敬请各位品尝。和贝法做的味道一样？我们是姐妹嘛！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "クッキーを作りました、どうぞ召し上がってください。ベルのと味が同じですって？まあ、私たちは姉妹ですからね！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "I made cookies! Please have a taste... They taste the same as Bel's? Well, we're sisters, after all!",
+						"englishNote" : ""
 					},
-					"16": {
-						"event": "Enhancement",
-						"media": "upgrade",
-						"chinese": "运气好像也提高了！",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "運も良くなったみたいです！",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "It seems like I've become luckier!",
-						"englishNote": ""
+					"16" : {
+						"event" : "Commission Complete",
+						"media" : "expedition",
+						"chinese" : "说起军事委托，我可是专业的！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "軍事委託といえば私、プロですから！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "When it comes to military commissions, I'm a pro!",
+						"englishNote" : ""
 					},
-					"17": {
-						"event": "Flagship",
-						"media": "warcry",
-						"chinese": "该怎么做才好？？总之先撤……啊不，迎击！",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "どどどうすれば？？まずはてっ……じゃなくて迎撃です！",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "Wh-Wh-What to do?? First let's retre... I mean, intercept them!",
-						"englishNote": ""
+					"17" : {
+						"event" : "Enhancement",
+						"media" : "upgrade",
+						"chinese" : "运气好像也提高了！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "運も良くなったみたいです！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "It seems like I've become luckier!",
+						"englishNote" : ""
 					},
-					"18": {
-						"event": "Victory",
-						"media": "mvp",
-						"chinese": "优雅地击溃敌军……这就是皇家的爱丁堡大人！",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "敵を優雅に打ち砕く……これこそ王家の優雅たるエディンバラ様です！",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "Crushing the enemies with elegance... That, is the elegant Ediburgh of the royal family!",
-						"englishNote": ""
+					"18" : {
+						"event" : "Flagship",
+						"media" : "warcry",
+						"chinese" : "该怎么做才好？？总之先撤……啊不，迎击！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "どどどうすれば？？まずはてっ……じゃなくて迎撃です！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Wh-Wh-What to do?? First let's retre... I mean, intercept them!",
+						"englishNote" : ""
 					},
-					"19": {
-						"event": "Defeat",
-						"media": "lose",
-						"chinese": "咕……我的金块……",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "くぅ……私の金塊が……",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "Gh... the bullion...",
-						"englishNote": ""
+					"19" : {
+						"event" : "Victory",
+						"media" : "mvp",
+						"chinese" : "优雅地击溃敌军……这就是皇家的爱丁堡大人！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "敵を優雅に打ち砕く……これこそ王家の優雅たるエディンバラ様です！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Crushing the enemies with elegance... That, is the elegant Ediburgh of the royal family!",
+						"englishNote" : ""
 					},
-					"20": {
-						"event": "Skill",
-						"media": "skill",
-						"chinese": "再厚的装甲也抵御不了黄金！",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "装甲は厚くても、金の力には勝てませんよ！",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "No matter how thick the armor is, it can't win against the power of gold!",
-						"englishNote": ""
+					"20" : {
+						"event" : "Defeat",
+						"media" : "lose",
+						"chinese" : "咕……我的金块……",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "くぅ……私の金塊が……",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Gh... the bullion...",
+						"englishNote" : ""
 					},
-					"21": {
-						"event": "Low HP",
-						"media": "hp",
-						"chinese": "咕……至少金块要……",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "くっ……せめて金塊だけは……！",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "Gh... At least let me protect the gold...!",
-						"englishNote": ""
+					"21" : {
+						"event" : "Skill",
+						"media" : "skill",
+						"chinese" : "再厚的装甲也抵御不了黄金！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "装甲は厚くても、金の力には勝てませんよ！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "No matter how thick the armor is, it can't win against the power of gold!",
+						"englishNote" : ""
 					},
-					"22": {
-						"event": "Affinity (Upset)",
-						"media": "feeling1",
-						"chinese": "正因为是指挥官，才要更加防范……（盯）",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "指揮官ですから、もっと警戒しないと…じー…",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "Since it's Commander, I have to be even more careful... *stare*...",
-						"englishNote": ""
+					"22" : {
+						"event" : "Low HP",
+						"media" : "hp",
+						"chinese" : "咕……至少金块要……",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "くっ……せめて金塊だけは……！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Gh... At least let me protect the gold...!",
+						"englishNote" : ""
 					},
-					"23": {
-						"event": "Affinity (Stranger)",
-						"media": "feeling2",
-						"chinese": "因为那家伙什么事都能做好，所以我偶尔大意一点也没关系吧",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "「あいつ」は何でも上手くやれますから、私は少しドジでも問題ないでしょ？",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "Everything goes well when 'that girl' does it, so it should be fine if I'm a little clumsy, shouldn't it?",
-						"englishNote": ""
+					"23" : {
+						"event" : "Affinity (Upset)",
+						"media" : "feeling1",
+						"chinese" : "正因为是指挥官，才要更加防范……（盯）",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "指揮官ですから、もっと警戒しないと…じー…",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Since it's Commander, I have to be even more careful... *stare*...",
+						"englishNote" : ""
 					},
-					"24": {
-						"event": "Affinity (Friendly)",
-						"media": "feeling3",
-						"chinese": "又被贝法训斥了，什么出门记得关灯、水龙头也要好好拧紧。什么嘛，那家伙一点也不像妹妹！",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "またベルに説教されました…出かける前に鍵閉め、蛇口閉めを忘れないようにって…なによ！あいつ全然妹らしくない！",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "I've been lectured by Bel again... Forgetting to lock doors when going out, and turning off the tap... What the heck! She's totally not like a little sister!",
-						"englishNote": ""
+					"24" : {
+						"event" : "Affinity (Stranger)",
+						"media" : "feeling2",
+						"chinese" : "因为那家伙什么事都能做好，所以我偶尔大意一点也没关系吧",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "「あいつ」は何でも上手くやれますから、私は少しドジでも問題ないでしょ？",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Everything goes well when 'that girl' does it, so it should be fine if I'm a little clumsy, shouldn't it?",
+						"englishNote" : ""
 					},
-					"25": {
-						"event": "Affinity (Like)",
-						"media": "feeling4",
-						"chinese": "呼……终于找到指挥官了。我……啊——哪里来的香蕉皮！",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "ふぅん……ようやく指揮官を見つけました。実は……ああーー誰よ！ここにバナナの皮を捨てたのは！",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "Phew... I've finally found you, Commander. Actually... Aaaah-- Who the heck! Who left the banana peel here!",
-						"englishNote": ""
+					"25" : {
+						"event" : "Affinity (Friendly)",
+						"media" : "feeling3",
+						"chinese" : "又被贝法训斥了，什么出门记得关灯、水龙头也要好好拧紧。什么嘛，那家伙一点也不像妹妹！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "またベルに説教されました…出かける前に鍵閉め、蛇口閉めを忘れないようにって…なによ！あいつ全然妹らしくない！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "I've been lectured by Bel again... Forgetting to lock doors when going out, and turning off the tap... What the heck! She's totally not like a little sister!",
+						"englishNote" : ""
 					},
-					"26": {
-						"event": "Affinity (Love)",
-						"media": "feeling5",
-						"chinese": "指挥官，天黑下之前，一起去海边散步吧。嗯，放心吧，灯关好了，窗也锁了，万事OK……咦……等等，我的钥匙呢！",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "指揮官、暗くなる前に一緒に海辺を散歩してはどうですか？はい、安心してください。電気は消したし、戸締まりも大丈夫、万事OKです！……あ、あれ…か、鍵はどこ行ったのー！？",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "Commander, want to have a walk together before it gets dark? Yes, don't worry. The lights were switched off, and the windows were shut. Everything's OK! ... W-what? ...Wh-Where did the keys go?!",
-						"englishNote": ""
+					"26" : {
+						"event" : "Affinity (Like)",
+						"media" : "feeling4",
+						"chinese" : "呼……终于找到指挥官了。我……啊——哪里来的香蕉皮！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "ふぅん……ようやく指揮官を見つけました。実は……ああーー誰よ！ここにバナナの皮を捨てたのは！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Phew... I've finally found you, Commander. Actually... Aaaah-- Who the heck! Who left the banana peel here!",
+						"englishNote" : ""
 					},
-					"27": {
-						"event": "Pledge",
-						"media": "propose",
-						"chinese": "嘿嘿，就分一点爱丁堡大人的财运给你吧。诶？那可不行，黄金都是留给贝法基金会的！",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "うふふ、エディンバラの金運なら少し分けてあげてもいいですよ。…金塊？ダメです！あれはベルファスト基金のものですよ！",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "Hmhm, I'm fine with sharing some of my money-luck with you. ...The gold? No! That belongs to the Belfast Foundation!",
-						"englishNote": ""
+					"27" : {
+						"event" : "Affinity (Love)",
+						"media" : "feeling5",
+						"chinese" : "指挥官，天黑下之前，一起去海边散步吧。嗯，放心吧，灯关好了，窗也锁了，万事OK……咦……等等，我的钥匙呢！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "指揮官、暗くなる前に一緒に海辺を散歩してはどうですか？はい、安心してください。電気は消したし、戸締まりも大丈夫、万事OKです！……あ、あれ…か、鍵はどこ行ったのー！？",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Commander, want to have a walk together before it gets dark? Yes, don't worry. The lights were switched off, and the windows were shut. Everything's OK! ... W-what? ...Wh-Where did the keys go?!",
+						"englishNote" : ""
 					},
-					"28": {
-						"event": "Easter Egg 1 (Belfast)",
-						"media": "link1",
-						"chinese": "没想到能和贝法一起战斗！",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "まさかベルと一緒に戦えるなんて！",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "I didn't think I'd get a chance to fight with Belfast!",
-						"englishNote": ""
+					"28" : {
+						"event" : "Pledge",
+						"media" : "propose",
+						"chinese" : "嘿嘿，就分一点爱丁堡大人的财运给你吧。诶？那可不行，黄金都是留给贝法基金会的！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "うふふ、エディンバラの金運なら少し分けてあげてもいいですよ。…金塊？ダメです！あれはベルファスト基金のものですよ！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Hmhm, I'm fine with sharing some of my money-luck with you. ...The gold? No! That belongs to the Belfast Foundation!",
+						"englishNote" : ""
+					},
+					"29" : {
+						"event" : "Easter Egg 1(Belfast)",
+						"media" : "link1",
+						"chinese" : "没想到能和贝法一起战斗！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "まさかベルと一緒に戦えるなんて！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "I didn't think I'd get a chance to fight with Belfast!",
+						"englishNote" : ""
+					},
+					"30" : {
+						"event" : "Like Present",
+						"media" : "present_like",
+						"chinese" : "",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"31" : {
+						"event" : "Dislike Present",
+						"media" : "present_dislike",
+						"chinese" : "",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"32" : {
+						"event" : "Main Title",
+						"media" : "extra",
+						"chinese" : "",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
 					}
 				}
 			},
 			"2": {
-				"skin_id": "aidingbao_2",
-				"id": "1",
-				"label": "The Library Fairy",
-				"dialogue": {
-					"1": {
-						"event": "Ship Description",
-						"media": "",
-						"chinese": "为什么那家伙不来和我一起上学呢……说什么自己是侍奉女王的女仆，我也是女仆呀，女仆和学生又没有冲突……嘁——",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "なんでアイツは一緒に学園に来ないのよ！「自分は陛下にご奉仕するメイドだから」って…私だってメイドなの！それに、メイドと学生は別に両立できなくもないのに……ちぇ",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "Why doesn't she have to go to school with me...she says she’s a maid for the Queen? Well, me too! You can be a maid and school girl at the same time...tsk tsk---",
-						"englishNote": ""
+				"skin_id" : "aidingbao_2",
+				"id" : "1",
+				"label" : "The Library Fairy",
+				"dialogue" : {
+					"1" : {
+						"event" : "Ship Description",
+						"media" : "",
+						"chinese" : "为什么那家伙不来和我一起上学呢……说什么自己是侍奉女王的女仆，我也是女仆呀，女仆和学生又没有冲突……嘁——",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "なんでアイツは一緒に学園に来ないのよ！「自分は陛下にご奉仕するメイドだから」って…私だってメイドなの！それに、メイドと学生は別に両立できなくもないのに……ちぇ",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Why doesn't she have to go to school with me...she says she’s a maid for the Queen? Well, me too! You can be a maid and school girl at the same time...tsk tsk---",
+						"englishNote" : ""
 					},
-					"2": {
-						"event": "Acquisition",
-						"media": "get_1",
-						"chinese": "为什么那家伙不来和我一起上学呢……说什么自己是侍奉女王的女仆，我也是女仆呀，女仆和学生又没有冲突……嘁——",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "なんでアイツは一緒に学園に来ないのよ！「自分は陛下にご奉仕するメイドだから」って…私だってメイドなの！それに、メイドと学生は別に両立できなくもないのに……ちぇ",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "Why doesn't she have to go to school with me...she says she’s a maid for the Queen? Well, me too! You can be a maid and school girl at the same time...tsk tsk---",
-						"englishNote": ""
+					"2" : {
+						"event" : "Acquisition",
+						"media" : "get_1",
+						"chinese" : "为什么那家伙不来和我一起上学呢……说什么自己是侍奉女王的女仆，我也是女仆呀，女仆和学生又没有冲突……嘁——",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "なんでアイツは一緒に学園に来ないのよ！「自分は陛下にご奉仕するメイドだから」って…私だってメイドなの！それに、メイドと学生は別に両立できなくもないのに……ちぇ",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Why doesn't she have to go to school with me...she says she’s a maid for the Queen? Well, me too! You can be a maid and school girl at the same time...tsk tsk---",
+						"englishNote" : ""
 					},
-					"3": {
-						"event": "Login",
-						"media": "login_1",
-						"chinese": "我身边的这个挂饰很可爱吧，这是我仿照那家伙缝制的，名字……就叫“贝法”吧",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "このストラップ可愛いでしょ？「アイツ」をモチーフにして作りました！名前は……「ベル子」って感じ？",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "This pendant is so cute, right?! I copied from that girl. Let's call her “Belfast”.",
-						"englishNote": ""
+					"3" : {
+						"event" : "Login",
+						"media" : "login_1",
+						"chinese" : "我身边的这个挂饰很可爱吧，这是我仿照那家伙缝制的，名字……就叫“贝法”吧",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "このストラップ可愛いでしょ？「アイツ」をモチーフにして作りました！名前は……「ベル子」って感じ？",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "This pendant is so cute, right?! I copied from that girl. Let's call her “Belfast”.",
+						"englishNote" : ""
 					},
-					"4": {
-						"event": "Details",
-						"media": "detail_1",
-						"chinese": "呼……炼金术还真是深奥呢，不过，只要掌握了炼金术，贝法基金会……",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "ふぅ……錬金術って奥深いですね…でもこれさえわかれば、ベルファスト基金会が…！",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "Hmm...this Alchemy is really mysterious, but once I mastered it, then Belfast’s trust fund will...",
-						"englishNote": ""
+					"4" : {
+						"event" : "Details",
+						"media" : "detail_1",
+						"chinese" : "呼……炼金术还真是深奥呢，不过，只要掌握了炼金术，贝法基金会……",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "ふぅ……錬金術って奥深いですね…でもこれさえわかれば、ベルファスト基金会が…！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Hmm...this Alchemy is really mysterious, but once I mastered it, then Belfast’s trust fund will...",
+						"englishNote" : ""
 					},
-					"5": {
-						"event": "Main 1",
-						"media": "main_1_1",
-						"chinese": "贝法，一定要叫醒我后再去叫醒伊丽莎白喔，不然伊丽莎白又要批评我赖床了…",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "ベル、今度陛下を起こす前に絶対私を起こしてね！でないとまた陛下に寝坊って叱られちゃう……",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "Belfast, wake me up before you wake up Elizabeth. Otherwise, she will criticize me for getting up late again... ",
-						"englishNote": ""
+					"5" : {
+						"event" : "Main 1",
+						"media" : "main_1_1",
+						"chinese" : "贝法，一定要叫醒我后再去叫醒伊丽莎白喔，不然伊丽莎白又要批评我赖床了…",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "ベル、今度陛下を起こす前に絶対私を起こしてね！でないとまた陛下に寝坊って叱られちゃう……",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Belfast, wake me up before you wake up Elizabeth. Otherwise, she will criticize me for getting up late again... ",
+						"englishNote" : ""
 					},
-					"6": {
-						"event": "Main 2",
-						"media": "main_2_1",
-						"chinese": "我像是那种会被欺负的孩子吗？不过，哼哼，容姿端丽如我，被称为妖精确实也无可奈何呢",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "図書室の妖精さんって…私、引きこもりっ子に見えます？まあこのエディンバラ様の美貌は妖精って例えられてもしょうがないですね！",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "Do I look like a child who’s so easily bullied? Hehe, but as elegant as I am, no wonder I am called a fairy. ",
-						"englishNote": ""
+					"6" : {
+						"event" : "Main 2",
+						"media" : "main_2_1",
+						"chinese" : "我像是那种会被欺负的孩子吗？不过，哼哼，容姿端丽如我，被称为妖精确实也无可奈何呢",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "図書室の妖精さんって…私、引きこもりっ子に見えます？まあこのエディンバラ様の美貌は妖精って例えられてもしょうがないですね！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Do I look like a child who’s so easily bullied? Hehe, but as elegant as I am, no wonder I am called a fairy. ",
+						"englishNote" : ""
 					},
-					"7": {
-						"event": "Main 3",
-						"media": "main_3_1",
-						"chinese": "胜利，再让我捏一捏脸颊嘛，总觉得捏了你的脸颊后，运气会变好呢",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "ヴィクトリアス、また顔をこねこねさせてよー！だってこの前こねこねしたら、なんか運がよくなった気がした！",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "Victory, let me rub your cheeks again, doing so always brings me good luck.",
-						"englishNote": ""
+					"7" : {
+						"event" : "Main 3",
+						"media" : "main_3_1",
+						"chinese" : "胜利，再让我捏一捏脸颊嘛，总觉得捏了你的脸颊后，运气会变好呢",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "ヴィクトリアス、また顔をこねこねさせてよー！だってこの前こねこねしたら、なんか運がよくなった気がした！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Victory, let me rub your cheeks again, doing so always brings me good luck.",
+						"englishNote" : ""
 					},
-					"8": {
-						"event": "Touch",
-						"media": "touch_1_1",
-						"chinese": "指挥官，要吃零嘴吗？啊~~",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "指揮官も食べたいんですか？はい、あーんして～",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "Commander, wanna try my snacks? Ah~~",
-						"englishNote": ""
+					"8" : {
+						"event" : "Touch",
+						"media" : "touch_1_1",
+						"chinese" : "指挥官，要吃零嘴吗？啊~~",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "指揮官も食べたいんですか？はい、あーんして～",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Commander, wanna try my snacks? Ah~~",
+						"englishNote" : ""
 					},
-					"9": {
-						"event": "Touch (Special)",
-						"media": "touch_2_1",
-						"chinese": "指挥官，出去，出去，不要打扰我念书啦！",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "指揮官！？もう出ていってくださいよ！読書の邪魔です！邪魔！",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "Commander! C’mon out now will ya. I can't study this way…",
-						"englishNote": ""
+					"9" : {
+						"event" : "Touch (Special)",
+						"media" : "touch_2_1",
+						"chinese" : "指挥官，出去，出去，不要打扰我念书啦！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "指揮官！？もう出ていってくださいよ！読書の邪魔です！邪魔！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Commander! C’mon out now will ya. I can't study this way…",
+						"englishNote" : ""
 					},
-					"10": {
-						"event": "Commission Complete",
-						"media": "expedition_1",
-						"chinese": "贝法，迎接委托队的孩子们前先帮我梳下头啦，头发都乱糟糟的了……",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "ベル、委託に出掛けた子たちを出迎える前に髪を作ってくれる？なんかボサボサしちゃって…",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "Belfast, before you go to greet the girls returning from commission, could you brush my hair? It's a mess...",
-						"englishNote": ""
+					"10" : {
+						"event" : "Commission Complete",
+						"media" : "expedition_1",
+						"chinese" : "贝法，迎接委托队的孩子们前先帮我梳下头啦，头发都乱糟糟的了……",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "ベル、委託に出掛けた子たちを出迎える前に髪を作ってくれる？なんかボサボサしちゃって…",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Belfast, before you go to greet the girls returning from commission, could you brush my hair? It's a mess...",
+						"englishNote" : ""
 					},
-					"11": {
-						"event": "Flagship",
-						"media": "warcry_1",
-						"chinese": "嘁，那家伙不在也没关系，反正“贝法”永远都会在我身边，全舰队迎击！",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "ちっ、「アイツ」がいなくたって「ベル子」が……！全艦、迎撃ぃ！",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "Tsk tsk, we don’t need her here. In any case, Belfast will always be by my side. Fleet, prepare for interception!",
-						"englishNote": ""
+					"11" : {
+						"event" : "Flagship",
+						"media" : "warcry_1",
+						"chinese" : "嘁，那家伙不在也没关系，反正“贝法”永远都会在我身边，全舰队迎击！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "ちっ、「アイツ」がいなくたって「ベル子」が……！全艦、迎撃ぃ！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Tsk tsk, we don’t need her here. In any case, Belfast will always be by my side. Fleet, prepare for interception!",
+						"englishNote" : ""
 					},
-					"12": {
-						"event": "Defeat",
-						"media": "lose_1",
-						"chinese": "我、我的“贝法”没事吧！？",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "べ、ベル子は大丈夫！？",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "M-my Belfast, are you ok?!",
-						"englishNote": ""
+					"12" : {
+						"event" : "Defeat",
+						"media" : "lose_1",
+						"chinese" : "我、我的“贝法”没事吧！？",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "べ、ベル子は大丈夫！？",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "M-my Belfast, are you ok?!",
+						"englishNote" : ""
+					}
+				}
+			},
+			"3": {
+				"skin_id" : "aidingbao_3",
+				"id" : "2",
+				"label" : "Candy Maid",
+				"dialogue" : {
+					"1" : {
+						"event" : "Ship Description",
+						"media" : "",
+						"chinese" : "嗯哼，这可是我为了万圣节特意准备的糖果哦！来吧，指挥官！糖果给你——欸？呀！疼疼疼……是，是谁把南瓜放这里的啦！唔？好像是我自己…",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "えっへん！これはハロウィンのために特別に作ったキャンディですよ！さあ、指揮官、どうぞ持って行って――あわわわ！だ、誰がこんなところにかぼちゃを…わ、私だったの――！？",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Ahem! I made this special candy just for Halloween! Here, Commander, take some! Wooaaooah! Wh-who put this pumpkin here? It, it was me?! ",
+						"englishNote" : ""
+					},
+					"2" : {
+						"event" : "Acquisition",
+						"media" : "get_2",
+						"chinese" : "嗯哼，这可是我为了万圣节特意准备的糖果哦！来吧，指挥官！糖果给你——欸？呀！疼疼疼……是，是谁把南瓜放这里的啦！唔？好像是我自己…",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"3" : {
+						"event" : "Login",
+						"media" : "login_2",
+						"chinese" : "哎呀！我只是在用南瓜把金块“运输”回房间而已！才没有在做什么奇怪的事！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"4" : {
+						"event" : "Details",
+						"media" : "detail_2",
+						"chinese" : "身为皇家女仆，怎么被区区的万圣节幽灵传闻给——哇啊！什什什么时候出现在我背后的！…别，别吓唬我啊！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"5" : {
+						"event" : "Touch",
+						"media" : "touch_1_2",
+						"chinese" : "万圣节糖果派送中！这位指挥官先生，要不要来一颗连女王陛下都赞不绝口的糖果呀？",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"6" : {
+						"event" : "Touch (Special)",
+						"media" : "touch_2_2",
+						"chinese" : "呀！别在人正忙的时候来捣乱嘛！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"7" : {
+						"event" : "Return to Port",
+						"media" : "home_2",
+						"chinese" : "贝法又以女仆长的工作推辞了万圣节的活动…真是的，她就不能偶尔陪下她的姐姐嘛！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
 					}
 				}
 			}
 		}
-	},
-	"fleet_tech": {
-		"pt_get": "10",
-		"add_get_attr": "HP",
-		"add_get_value": "1",
-		"add_get_shiptype": "Light Cruiser",
-		"pt_upgrade": "20",
-		"pt_level": "15",
-		"add_level_attr": "Torpedo",
-		"add_level_value": "1",
-		"add_level_shiptype": "Light Cruiser",
-		"t_level": "7",
-		"ships": "edinburgh,belfast"
 	}
 }
