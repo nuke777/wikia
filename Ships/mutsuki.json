@@ -91,28 +91,28 @@
 				}
 			}
 		},
-		"3" : {
-			"id" : "muyue_3",
-			"name" : "Candy Festival!",
-			"description" : "Comainder, I put on my yukata just like you said! Ehehe, you should take me to the festival so I can get lots and lots of candy!",
-			"expression" : {
-				"0" : {
-					"id" : "0"
+		"3": {
+			"id": "muyue_3",
+			"name": "Candy Festival!",
+			"description": "Comainder, I put on my yukata just like you said! Ehehe, you should take me to the festival so I can get lots and lots of candy!",
+			"expression": {
+				"0": {
+					"id": "0"
 				},
-				"1" : {
-					"id" : "1"
+				"1": {
+					"id": "1"
 				},
-				"2" : {
-					"id" : "2"
+				"2": {
+					"id": "2"
 				},
-				"3" : {
-					"id" : "3"
+				"3": {
+					"id": "3"
 				},
-				"4" : {
-					"id" : "4"
+				"4": {
+					"id": "4"
 				},
-				"5" : {
-					"id" : "5"
+				"5": {
+					"id": "5"
 				}
 			}
 		},
@@ -717,81 +717,117 @@
 				}
 			},
 			"3": {
-				"skin_id" : "muyue_3",
-				"id" : "2",
-				"label" : "Candy Festival!",
-				"dialogue" : {
-					"1" : {
-						"event" : "Ship Description",
-						"media" : "",
-						"chinese" : "指挥官，我按说好的穿上浴衣了哦！嘿嘿，该带睦月去祭典了~睦月要好多好多祭典上的糖果！",
-						"chineseTL" : "",
-						"chineseNote" : "",
-						"japanese" : "しゅきかん、睦月、ゆかたきがえた！えへへ、しゅきかんとおまつり～睦月、アメさんたっくさんもらっちゃうよー！",
-						"japaneseTL" : "",
-						"japaneseNote" : "",
-						"english" : "Comainder, I put on my yukata just like you said! Ehehe, you should take me to the festival so I can get lots and lots of candy!",
-						"englishNote" : ""
+				"skin_id": "muyue_3",
+				"id": "2",
+				"label": "Candy Festival!",
+				"dialogue": {
+					"1": {
+						"event": "Ship Description",
+						"media": "",
+						"chinese": "指挥官，我按说好的穿上浴衣了哦！嘿嘿，该带睦月去祭典了~睦月要好多好多祭典上的糖果！",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "しゅきかん、睦月、ゆかたきがえた！えへへ、しゅきかんとおまつり～睦月、アメさんたっくさんもらっちゃうよー！",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Comainder, I put on my yukata just like you said! Ehehe, you should take me to the festival so I can get lots and lots of candy!",
+						"englishNote": ""
 					},
-					"2" : {
-						"event" : "Acquisition",
-						"media" : "get_2",
-						"chinese" : "指挥官，我按说好的穿上浴衣了哦！嘿嘿，该带睦月去祭典了~睦月要好多好多祭典上的糖果！",
-						"chineseTL" : "",
-						"chineseNote" : "",
-						"japanese" : "",
-						"japaneseTL" : "",
-						"japaneseNote" : "",
-						"english" : "",
-						"englishNote" : ""
+					"2": {
+						"event": "Acquisition",
+						"media": "get_2",
+						"chinese": "指挥官，我按说好的穿上浴衣了哦！嘿嘿，该带睦月去祭典了~睦月要好多好多祭典上的糖果！",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "しゅきかん、睦月、ゆかたきがえた！えへへ、しゅきかんとおまつり～睦月、アメさんたっくさんもらっちゃうよー！",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Comainder, I put on my yukata just like you said! Ehehe, you should take me to the festival so I can get lots and lots of candy!",
+						"englishNote": ""
 					},
-					"3" : {
-						"event" : "Details",
-						"media" : "detail_2",
-						"chinese" : "巧克力香蕉~章鱼烧~都好吃~和糖果比…？就差一丢丢吧~",
-						"chineseTL" : "",
-						"chineseNote" : "",
-						"japanese" : "",
-						"japaneseTL" : "",
-						"japaneseNote" : "",
-						"english" : "",
-						"englishNote" : ""
+					"3": {
+						"event": "Details",
+						"media": "detail_2",
+						"chinese": "巧克力香蕉~章鱼烧~都好吃~和糖果比…？就差一丢丢吧~",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "チョコバナナ～たこやき～おいしい！アメさんとどっちがおいしい…？アメさん！のほうがちょっとだけおいしいよ～",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Chocolate bananas and taiyaki~ are all delicious~ but compared to candy...? Let's call it a draw~",
+						"englishNote": ""
 					},
-					"4" : {
-						"event" : "Touch",
-						"media" : "touch_1_2",
-						"chinese" : "啊，网又破了…捞金鱼好难！指挥官，帮帮睦月！",
-						"chineseTL" : "",
-						"chineseNote" : "",
-						"japanese" : "",
-						"japaneseTL" : "",
-						"japaneseNote" : "",
-						"english" : "",
-						"englishNote" : ""
+					"4": {
+						"event": "Main 1",
+						"media": "main_1_2",
+						"chinese": "烟火大会好漂亮~指挥官，港区可以天天放烟火吗？",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "おはなびだ～しゅきかん、ぼこうでまいにち、おはなびやってもいい？",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "The fireworks are so pretty~ Comainder, can we put on fireworks every day? ",
+						"englishNote": ""
 					},
-					"5" : {
-						"event" : "Touch (Special)",
-						"media" : "touch_2_2",
-						"chinese" : "糖果都要掉了啦！",
-						"chineseTL" : "",
-						"chineseNote" : "",
-						"japanese" : "",
-						"japaneseTL" : "",
-						"japaneseNote" : "",
-						"english" : "",
-						"englishNote" : ""
+					"5": {
+						"event": "Main 2",
+						"media": "main_2_2",
+						"chinese": "指挥官，睦月要这个糖果！啊，那个也要！",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "しゅきかん、睦月このアメさんがほしい！あ、それも！",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Comainder, I want this candy! Um, I want that one too! ",
+						"englishNote": ""
 					},
-					"6" : {
-						"event" : "Return to Port",
-						"media" : "home_2",
-						"chinese" : "啊，再不出发祭典的糖果都要被拿光了！",
-						"chineseTL" : "",
-						"chineseNote" : "",
-						"japanese" : "",
-						"japaneseTL" : "",
-						"japaneseNote" : "",
-						"english" : "",
-						"englishNote" : ""
+					"6": {
+						"event": "Main 3",
+						"media": "main_3_2",
+						"chinese": "捞金鱼的奖励是限定口味的糖果！？指挥官，我们马上去玩吧！！",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "きんぎょすくいの「けいひん」が、めずらしいアメさん！？しゅきかん、はやくあそびにいこうよ！",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "The prize for goldfish scooping is a special flavor candy?! Comainder, let's go do that right now!",
+						"englishNote": ""
+					},
+					"7": {
+						"event": "Touch",
+						"media": "touch_1_2",
+						"chinese": "啊，网又破了…捞金鱼好难！指挥官，帮帮睦月！",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "あ…キンギョさん、またにげた……キンギョすくい、むずかしいよぉ！しゅきかん～たすけて～",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Aww... my scooper broke again... goldfish scooping is so hard! Comainder, come help!",
+						"englishNote": ""
+					},
+					"8": {
+						"event": "Touch (Special)",
+						"media": "touch_2_2",
+						"chinese": "糖果都要掉了啦！",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "アメさんおちちゃうよ！",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "The candy's going to fall out!",
+						"englishNote": ""
+					},
+					"9": {
+						"event": "Return to Port",
+						"media": "home_2",
+						"chinese": "啊，再不出发祭典的糖果都要被拿光了！",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "あ！おまつりいかないと、アメさんなくなっちゃう！",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Ahh! If we don't hurry to the festival, all the candy will be gone!",
+						"englishNote": ""
 					}
 				}
 			},

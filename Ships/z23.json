@@ -1,1283 +1,1675 @@
 {
-   "name_reference":"z23",
-   "cn_reference":"z23",
-   "nameJP":"Z23",
-   "nameCN":"Z23",
-   "ID":"236",
-   "name":"Z23",
-   "internal_id":"401231",
-   "rarity":"Elite",
-   "initialStar":"★★☆☆☆",
-   "hull":"Destroyer",
-   "navy":"Ironblood",
-   "prefix":"KMS",
-   "buildTime":"",
-   "class":"Type 1336A",
-   "voiceActress":"Rika Abe",
-   "parameters":{
-      "firepower":"A",
-      "torpedo":"C",
-      "aviation":"E",
-      "evasion":"B",
-      "antiAir":"D",
-      "hp":"D"
-   },
-   "scrap":{
-      "gold":"4",
-      "oil":"3",
-      "medal":"4"
-   },
-   "releaseDate":{
-      "JP":"",
-      "CN":"",
-      "KR":"",
-      "EN":""
-   },
-   "artist":{
-      "name":"",
-      "weibo":"",
-      "twitter":"",
-      "pixiv":"",
-      "other":""
-   },
-   "enhance":{
-      "firepower":"7",
-      "torpedo":"20",
-      "aviation":"0",
-      "reload":"14"
-   },
-   "acquisitionMethod":"Explore Stage10-1",
-   "skill":{
-      "1":{
-         "icon":"10530",
-         "requirement":"",
-         "name":"Iron Blood Vanguard",
-         "type":"Offensive",
-         "description":"When this ship fires its Main Guns: 5.0% chance to increase this ship's FP by $1 for 8s."
-      },
-      "2":{
-         "icon":"11320",
-         "requirement":"",
-         "name":"Destruction Mode",
-         "type":"Offensive",
-         "description":"$1 chance to activate every 20s: this ship enters Destruction Mode, firing a powerful barrage, deploying 2 rotating shields that can each block up to 5 shells (shields last for 10s) and increases this ship's Main Gun Crit Rate to 100% for 10s."
-      },
-      "3":{
-         "icon":"29201",
-         "requirement":"",
-         "name":"EX Barrage: Z23 Ⅰ",
-         "type":"Offensive",
-         "description":"Activate EX Barrage: Z23 Ⅰ once every 15 times the main gun is fired."
-      }
-   },
-   "skin":{
-      "1":{
-         "id":"z23",
-         "name":"Z23",
-         "description":"Type 1336A destroyer, Z23.",
-         "expression":{
-            "0":{
-               "id":"0"
-            }
-         }
-      },
-      "2":{
-         "id":"z23_2",
-         "name":"Philosophy Sensei ",
-         "description":"This is going to be on the exam! If you don't take thorough notes, I am going to punish you! ",
-         "expression":{
-            "0":{
-               "id":"0"
-            }
-         }
-      },
-      "3":{
-         "id":"z23_4",
-         "name":"Perfect Smile?",
-         "description":"Welcome! A table for one today? Um... Commander, my smile doesn’t look stiff... right?",
-         "expression":{
-            "0":{
-               "id":"0"
-            },
-            "1":{
-               "id":"1"
-            },
-            "2":{
-               "id":"2"
-            },
-            "3":{
-               "id":"3"
-            }
-         }
-      },
-      "4":{
-         "id":"z23_3",
-         "name":"The Banquet's Honor Student ",
-         "description":"Oh, good evening, Commander. I was just looking for Javelin and the others... Say, would you like to keep me company for a bit? ",
-         "expression":{
-            "0":{
-               "id":"0"
-            },
-            "1":{
-               "id":"1"
-            },
-            "2":{
-               "id":"2"
-            },
-            "3":{
-               "id":"3"
-            },
-            "4":{
-               "id":"4"
-            },
-            "5":{
-               "id":"5"
-            }
-         }
-      },
-      "5":{
-         "id":"z23_g",
-         "name":"Z23 (Retrofit)",
-         "description":"My efficiency should be upgraded along with my performance. Paperwork, battle plans... I can handle them all! Commander, be prepared, we’ll be very busy~ ",
-         "expression":{
-            "0":{
-               "id":"0"
-            }
-         }
-      }
-   },
-   "defaultEquipment":{
-      "1":{
-         "icon":"42200",
-         "rarity":"Common",
-         "name":"Twin 150mm Main Gun (TbtsK C/36)"
-      },
-      "2":{
-         "icon":"",
-         "rarity":"",
-         "name":""
-      },
-      "3":{
-         "icon":"",
-         "rarity":"",
-         "name":""
-      }
-   },
-   "stats":{
-      "base":{
-         "hp":"345",
-         "firepower":"22",
-         "torpedo":"61",
-         "antiAir":"28",
-         "aviation":"0",
-         "reload":"73",
-         "hit":"64",
-         "evasion":"58",
-         "speed":"42",
-         "luck":"65",
-         "asw":"49",
-         "oxygen":"0",
-         "ammo":"0",
-         "cost":"2",
-         "armor":"Light"
-      },
-      "100":{
-         "hp":"1786",
-         "firepower":"104",
-         "torpedo":"289",
-         "antiAir":"131",
-         "aviation":"0",
-         "reload":"173",
-         "hit":"167",
-         "evasion":"152",
-         "speed":"42",
-         "luck":"65",
-         "asw":"181",
-         "oxygen":"0",
-         "ammo":"0",
-         "cost":"9",
-         "armor":"Light"
-      },
-      "120":{
-         "hp":"2125",
-         "firepower":"120",
-         "torpedo":"327",
-         "antiAir":"150",
-         "aviation":"0",
-         "reload":"199",
-         "hit":"175",
-         "evasion":"157",
-         "speed":"42",
-         "luck":"65",
-         "asw":"201",
-         "oxygen":"0",
-         "ammo":"0",
-         "cost":"9",
-         "armor":"Light"
-      },
-      "100retrofit":{
-         "hp":"1951",
-         "firepower":"154",
-         "torpedo":"309",
-         "antiAir":"196",
-         "aviation":"0",
-         "reload":"173",
-         "hit":"167",
-         "evasion":"157",
-         "speed":"42",
-         "luck":"65",
-         "asw":"201",
-         "oxygen":"0",
-         "ammo":"0",
-         "cost":"9",
-         "armor":"Light"
-      },
-      "120retrofit":{
-         "hp":"2290",
-         "firepower":"170",
-         "torpedo":"347",
-         "antiAir":"215",
-         "aviation":"0",
-         "reload":"199",
-         "hit":"175",
-         "evasion":"162",
-         "speed":"42",
-         "luck":"65",
-         "asw":"221",
-         "oxygen":"0",
-         "ammo":"0",
-         "cost":"9",
-         "armor":"Light"
-      }
-   },
-   "limitBreak":{
-      "tier1":"Unlock EX Barrage Ⅰ/Main gun efficiency +5%",
-      "tier2":"Torpedo base +1/Torpedo preload +1/Main gun efficiency +10%",
-      "tier3":"Improve EX Barrage/All weapons' efficiency +5%"
-   },
-   "equipmentLoadout":{
-      "1":{
-         "type":"Light Cruiser",
-         "efficiency":"140%/145%/155%/160%",
-         "amount":"1/1/1/1",
-         "preload":"0/0/0/0"
-      },
-      "2":{
-         "type":"Torpedo",
-         "efficiency":"115%/115%/115%/120%",
-         "amount":"1/1/2/2",
-         "preload":"0/0/1/1"
-      },
-      "3":{
-         "type":"Anti-Air Gun",
-         "efficiency":"70%/70%/70%/75%",
-         "amount":"1/1/1/1",
-         "preload":"0/0/0/0"
-      },
-      "4":{
-         "type":"Auxiliary",
-         "efficiency":"-",
-         "amount":"-",
-         "preload":"-"
-      },
-      "5":{
-         "type":"Auxiliary",
-         "efficiency":"-",
-         "amount":"-",
-         "preload":"-"
-      }
-   },
-   "build":{
-      "light":{
-         "JP":"",
-         "CN":"",
-         "EN":""
-      },
-      "heavy":{
-         "JP":"",
-         "CN":"",
-         "EN":""
-      },
-      "special":{
-         "JP":"",
-         "CN":"",
-         "EN":""
-      },
-      "limited":{
-         "JP":"",
-         "CN":"",
-         "EN":""
-      }
-   },
-   "drop":{
-      "droppable":"false",
-      "list":{
-         "1":{
-            "event":"",
-            "chapter":{
-               "1":{
-                  "label":"Ch .1",
-                  "node":{
-                     "1":{
-                        "drop":"✓",
-                        "note":"-"
-                     }
-                  }
-               }
-            }
-         }
-      }
-   },
-   "lines":{
-      "skin":{
-         "1":{
-            "skin_id":"z23",
-            "id":"0",
-            "label":"Z23",
-            "dialogue":{
-               "1":{
-                  "event":"Ship Description",
-                  "media":"",
-                  "chinese":"1936A “纳尔维克”型驱逐舰—Z23",
-                  "chineseTL":"",
-                  "chineseNote":"",
-                  "japanese":"1936A型「ナルヴィク」駆逐艦・Z23",
-                  "japaneseTL":"",
-                  "japaneseNote":"",
-                  "english":"Type 1336A destroyer, Z23.",
-                  "englishNote":""
-               },
-               "2":{
-                  "event":"Biography",
-                  "media":"profile",
-                  "chinese":"我是1936A型驱逐舰的大姐，Z23，从我开始的妹妹们都只有代号，不像姐姐们有继承前人的名字。 虽然有些不近人情不过确实比较方便，所以请不要客气直接叫我Z23就好",
-                  "chineseTL":"",
-                  "chineseNote":"",
-                  "japanese":"1936A型駆逐艦の長女Z23です。わたしの妹たちは番号だけで、姉たちのように先人からの襲名はありません。あまり親切ではないけれど、便利だと思います。遠慮なさらずにZ23と呼んでください",
-                  "japaneseTL":"",
-                  "japaneseNote":"",
-                  "english":"I’m Z23, the eldest sister of the 1936A-class destroyers. Unlike my sisters before me, who all had a namesake, my younger sisters and I only had a serial code for our names. It might be a little cold and impersonal, but I believe it’s also more convenient. So please, feel free to call me Z23.",
-                  "englishNote":""
-               },
-               "3":{
-                  "event":"Acquisition",
-                  "media":"get",
-                  "chinese":"Guten Tag，指挥官阁下。我是Z23，让我们共同学习，一起向顶点前进吧",
-                  "chineseTL":"",
-                  "chineseNote":"",
-                  "japanese":"Guten Tag、指揮官閣下。Z23と申します。一緒に勉強して頂点を目指しましょう！",
-                  "japaneseTL":"",
-                  "japaneseNote":"",
-                  "english":"Guten Tag, Commander.I am Z23. Let’s study hard together and aim for the top!",
-                  "englishNote":""
-               },
-               "4":{
-                  "event":"Login",
-                  "media":"login",
-                  "chinese":"今天还有好多事情要做呢，可不要偷懒哦",
-                  "chineseTL":"",
-                  "chineseNote":"",
-                  "japanese":"今日はやることがいっぱいありますから、サボってはダメですよ",
-                  "japaneseTL":"",
-                  "japaneseNote":"",
-                  "english":"There's still quite a lot to be done today. No procrastinating!",
-                  "englishNote":""
-               },
-               "5":{
-                  "event":"Details",
-                  "media":"detail",
-                  "chinese":"比起看我，不如多看看书啦！我也是会害羞的嘛……（小声）",
-                  "chineseTL":"",
-                  "chineseNote":"",
-                  "japanese":"わたしを見る時間がありましたら、より字の本を読んだほうがいいですよ！わたしだって恥ずかしがったりはするもん……",
-                  "japaneseTL":"",
-                  "japaneseNote":"",
-                  "english":"If you have the time to stare at me, shouldn’t you go back to your studies? Even I... can get embarrassed...",
-                  "englishNote":""
-               },
-               "6":{
-                  "event":"Main 1",
-                  "media":"main_1",
-                  "chinese":"不用担心，我的话，指挥官有这份心就够了",
-                  "chineseTL":"",
-                  "chineseNote":"",
-                  "japanese":"心配する必要はありません。指揮官にその心があれば十分ですから",
-                  "japaneseTL":"",
-                  "japaneseNote":"",
-                  "english":"Don’t worry, Commander. The fact that you care about me is enough.",
-                  "englishNote":""
-               },
-               "7":{
-                  "event":"Main 2",
-                  "media":"main_2",
-                  "chinese":"给指挥官准备什么点心好呢……最近好像也挺累的，稍微给他按摩一下吧……",
-                  "chineseTL":"",
-                  "chineseNote":"",
-                  "japanese":"指揮官になにを用意すればいいだろう……最近疲れているようだしマッサージとか……",
-                  "japaneseTL":"",
-                  "japaneseNote":"",
-                  "english":"I wonder if there’s something I can do for you, Commander. You seem tired lately, so maybe a massage would be good?",
-                  "englishNote":""
-               },
-               "8":{
-                  "event":"Main 3",
-                  "media":"main_3",
-                  "chinese":"嗯嗯，指挥官只要用心的话还是办得到的呢",
-                  "chineseTL":"",
-                  "chineseNote":"",
-                  "japanese":"うんうん、指揮官もやればできる子ですね",
-                  "japaneseTL":"",
-                  "japaneseNote":"",
-                  "english":"See, Commander? You can do it if you set your mind to it!",
-                  "englishNote":""
-               },
-               "9":{
-                  "event":"Main 4",
-                  "media":"main_4",
-                  "chinese":"欸？我负责的部分？啊，啊哈哈……糟了，真的忘了……",
-                  "chineseTL":"",
-                  "chineseNote":"",
-                  "japanese":"え？わたしの担当ですか？あ、あははは……しまった、忘れてた…",
-                  "japaneseTL":"",
-                  "japaneseNote":"",
-                  "english":"Huh? What am I in charge of? A-ahaha... I, uh... forgot...",
-                  "englishNote":""
-               },
-               "10":{
-                  "event":"Main 5",
-                  "media":"main_5",
-                  "chinese":"摸头？哦，你是说这个动作吧？",
-                  "chineseTL":"",
-                  "chineseNote":"",
-                  "japanese":"ナデナデ？あ、これのことですね？",
-                  "japaneseTL":"",
-                  "japaneseNote":"",
-                  "english":"Headpat? You mean like this...?",
-                  "englishNote":""
-               },
-               "11":{
-                  "event":"Touch",
-                  "media":"touch_1",
-                  "chinese":"有这个时间多处理些公文如何？",
-                  "chineseTL":"",
-                  "chineseNote":"",
-                  "japanese":"暇でしたら書類の処理でもしたらどうです？",
-                  "japaneseTL":"",
-                  "japaneseNote":"",
-                  "english":"If you’re free, why not help with some paperwork?",
-                  "englishNote":""
-               },
-               "12":{
-                  "event":"Touch (Special)",
-                  "media":"touch_2",
-                  "chinese":"这可不是指挥官应有的行为哦",
-                  "chineseTL":"",
-                  "chineseNote":"",
-                  "japanese":"これは指揮官のすべきことじゃありませんよ？",
-                  "japaneseTL":"",
-                  "japaneseNote":"",
-                  "english":"This isn’t something a commander should be doing...",
-                  "englishNote":""
-               },
-               "13":{
-                  "event":"Touch (Head)",
-                  "media":"touch_head",
-                  "chinese":"我可不是那种被摸摸头就可以蒙混过去的女孩子哦，指挥官，请好好工作",
-                  "chineseTL":"",
-                  "chineseNote":"",
-                  "japanese":"頭撫でるだけでごまかせる子じゃないです！指揮官、ちゃんと仕事してくださいね！",
-                  "japaneseTL":"",
-                  "japaneseNote":"",
-                  "english":"I’m not the kind of girl who you can fool with just a few headpats. Get back to work, Commander.",
-                  "englishNote":""
-               },
-               "14":{
-                  "event":"Mission",
-                  "media":"task",
-                  "chinese":"完成任务是熟练技巧的好途径哦，不要忘了",
-                  "chineseTL":"",
-                  "chineseNote":"",
-                  "japanese":"技術を習熟するには任務をこなすことがすごく役に立ちます。忘れないで下さいね",
-                  "japaneseTL":"",
-                  "japaneseNote":"",
-                  "english":"Completing missions is a great way to hone your skills. Don't ever forget that!",
-                  "englishNote":""
-               },
-               "15":{
-                  "event":"Mission Complete",
-                  "media":"mission_complete",
-                  "chinese":"任务奖励发放了喔",
-                  "chineseTL":"",
-                  "chineseNote":"",
-                  "japanese":"任務の報酬が届きましたよ",
-                  "japaneseTL":"",
-                  "japaneseNote":"",
-                  "english":"Commander, the mission rewards have arrived.",
-                  "englishNote":""
-               },
-               "16":{
-                  "event":"Mail",
-                  "media":"mail",
-                  "chinese":"有你的信，指挥官意外地挺受欢迎嘛",
-                  "chineseTL":"",
-                  "chineseNote":"",
-                  "japanese":"メールです。指揮官は意外と人気者ですね",
-                  "japaneseTL":"",
-                  "japaneseNote":"",
-                  "english":"There’s mail for you, Commander. You sure are popular.",
-                  "englishNote":""
-               },
-               "17":{
-                  "event":"Return to Port",
-                  "media":"home",
-                  "chinese":"刚才的战斗还有许多要检讨的地方呢……",
-                  "chineseTL":"",
-                  "chineseNote":"",
-                  "japanese":"今の戦闘、反省するところが多いですね…",
-                  "japaneseTL":"",
-                  "japaneseNote":"",
-                  "english":"We still have so much to review about the previous battle...",
-                  "englishNote":""
-               },
-               "18":{
-                  "event":"Commission Complete",
-                  "media":"expedition",
-                  "chinese":"时间到了，工作先放一放，去检查委托成果吧",
-                  "chineseTL":"",
-                  "chineseNote":"",
-                  "japanese":"時間になりました。お仕事を一旦止めて、委託の戦果を確認しましょう",
-                  "japaneseTL":"",
-                  "japaneseNote":"",
-                  "english":"It’s about time! Please put aside your work, and check on the results of your commissions.",
-                  "englishNote":""
-               },
-               "19":{
-                  "event":"Enhancement",
-                  "media":"upgrade",
-                  "chinese":"指挥官，我希望能跟你一起进步",
-                  "chineseTL":"",
-                  "chineseNote":"",
-                  "japanese":"指揮官と、一緒に上に行きたいです！",
-                  "japaneseTL":"",
-                  "japaneseNote":"",
-                  "english":"Commander, I hope that we'll improve, together!",
-                  "englishNote":""
-               },
-               "20":{
-                  "event":"Flagship",
-                  "media":"warcry",
-                  "chinese":"走吧，到了检验努力成果的时候了！",
-                  "chineseTL":"",
-                  "chineseNote":"",
-                  "japanese":"よし、努力の成果を試す時です！",
-                  "japaneseTL":"",
-                  "japaneseNote":"",
-                  "english":"Let’s go! It’s time to reap the rewards of our hard work!",
-                  "englishNote":""
-               },
-               "21":{
-                  "event":"Victory",
-                  "media":"mvp",
-                  "chinese":"战斗就像是考试，第一就意味着高分哟~",
-                  "chineseTL":"",
-                  "chineseNote":"",
-                  "japanese":"戦闘は試験と同じ、戦果一位を取るのはすなわちいい成績を取るものですよ~",
-                  "japaneseTL":"",
-                  "japaneseNote":"",
-                  "english":"Battles are like exams. Earning MVP is like getting the top score on a test.",
-                  "englishNote":""
-               },
-               "22":{
-                  "event":"Defeat",
-                  "media":"lose",
-                  "chinese":"呜……不行，我不能哭……",
-                  "chineseTL":"",
-                  "chineseNote":"",
-                  "japanese":"うぅ…だめ、まだ泣いちゃ…！",
-                  "japaneseTL":"",
-                  "japaneseNote":"",
-                  "english":"*sobs* ... No, I mustn’t cry...",
-                  "englishNote":""
-               },
-               "23":{
-                  "event":"Skill",
-                  "media":"skill",
-                  "chinese":"命中吧！",
-                  "chineseTL":"",
-                  "chineseNote":"",
-                  "japanese":"当たれ！",
-                  "japaneseTL":"",
-                  "japaneseNote":"",
-                  "english":"Take this!",
-                  "englishNote":""
-               },
-               "24":{
-                  "event":"Low HP",
-                  "media":"hp",
-                  "chinese":"我得想想办法……",
-                  "chineseTL":"",
-                  "chineseNote":"",
-                  "japanese":"対策を考えないと……",
-                  "japaneseTL":"",
-                  "japaneseNote":"",
-                  "english":"I've got to find a way out of this mess...",
-                  "englishNote":""
-               },
-               "25":{
-                  "event":"Affinity (Upset)",
-                  "media":"feeling1",
-                  "chinese":"指挥官，我要学习了，能不要打扰我吗？",
-                  "chineseTL":"",
-                  "chineseNote":"",
-                  "japanese":"指揮官、今勉強中です。邪魔しないでいただけます？",
-                  "japaneseTL":"",
-                  "japaneseNote":"",
-                  "english":"Commander, can you not bother me when I’m trying to study?",
-                  "englishNote":""
-               },
-               "26":{
-                  "event":"Affinity (Stranger)",
-                  "media":"feeling2",
-                  "chinese":"学习是很重要的喔，伟人说过：“知识就是力量”……法国就是培根？真是的，再耍小聪明我可要生气了哦",
-                  "chineseTL":"",
-                  "chineseNote":"",
-                  "japanese":"勉強は大切ですよ。「知識は力なり」と偉人の方が仰っていました……フランスといえばベーコン？ったく、もう何を言ってるんですか",
-                  "japaneseTL":"",
-                  "japaneseNote":"",
-                  "english":"Studying is important! A wise man once said, \"knowledge is power.\" ... France is bacon? Jeez... just what is going through that head of yours?",
-                  "englishNote":""
-               },
-               "27":{
-                  "event":"Affinity (Friendly)",
-                  "media":"feeling3",
-                  "chinese":"有点累了吗，嗯，休息也是很重要的。膝枕？真是没办法，就一会儿喔",
-                  "chineseTL":"",
-                  "chineseNote":"",
-                  "japanese":"疲れましたか？はい、休憩も大切です。膝枕ですか？しょうがない、少しだけですよ？",
-                  "japaneseTL":"",
-                  "japaneseNote":"",
-                  "english":"You’re a bit tired? Very well, getting rest is important. You want a lap pillow? I guess it’s fine... just for a little while...",
-                  "englishNote":""
-               },
-               "28":{
-                  "event":"Affinity (Like)",
-                  "media":"feeling4",
-                  "chinese":"指挥官，看着我干什么……认真的我很漂亮？笨，笨蛋，做自己的事去啦！",
-                  "chineseTL":"",
-                  "chineseNote":"",
-                  "japanese":"指揮官、なんで私を見るんですか……？真剣な表情が綺麗？ば、ばかぁ！自分のことでもしてよ～！",
-                  "japaneseTL":"",
-                  "japaneseNote":"",
-                  "english":"Commander, why are you staring at me? You think I’m pretty when I look serious? I-idiot! Go do your own work...",
-                  "englishNote":""
-               },
-               "29":{
-                  "event":"Affinity (Love)",
-                  "media":"feeling5",
-                  "chinese":"指挥官，你知道吗，人站得越高，看得越远，也会变得更冷……我希望指挥官你能登上高峰，但我也希望你在那时能和现在一样每天过得开心",
-                  "chineseTL":"",
-                  "chineseNote":"",
-                  "japanese":"指揮官は知っていますか？高いところに立っていれば遠くが見えるけど、より孤独感じることを……指揮官には高いところを目指してほしいですけど、その時にも今のように毎日楽しんでいて貰いたいです",
-                  "japaneseTL":"",
-                  "japaneseNote":"",
-                  "english":"Commander, did you know that the higher you stand, the further you can see, but also the lonelier you will be? I hope that you can rise to great heights one day, but still be as happy then as you are now.",
-                  "englishNote":""
-               },
-               "30":{
-                  "event":"Pledge",
-                  "media":"propose",
-                  "chinese":"这就是指挥官对我的认可……我明白了，我Z23从今往后也会一直陪在指挥官你的身边，为你能够正确又愉快的生活努力的",
-                  "chineseTL":"",
-                  "chineseNote":"",
-                  "japanese":"これが指揮官が認めてくれた証……分かりました。Z23はこれからも指揮官のそばにいて、正しく楽しく生きていくように努力します！",
-                  "japaneseTL":"",
-                  "japaneseNote":"",
-                  "english":"This is the proof that Commander acknowledges me... Understood. From now on, I shall stay by your side and work hard to ensure that your life is happy and upstanding.",
-                  "englishNote":""
-               },
-               "31":{
-                  "event":"Easter Egg 1 (Z25)",
-                  "media":"link1",
-                  "chinese":"Z25，一起加油吧！",
-                  "chineseTL":"",
-                  "chineseNote":"",
-                  "japanese":"25、一緒に頑張ろう！",
-                  "japaneseTL":"",
-                  "japaneseNote":"",
-                  "english":"Z25, let's do our best together!",
-                  "englishNote":""
-               }
-            }
-         },
-         "2":{
-            "skin_id":"z23_2",
-            "id":"1",
-            "label":"Philosophy Sensei ",
-            "dialogue":{
-               "1":{
-                  "event":"Ship Description",
-                  "media":"",
-                  "chinese":"这里是重点！（敲黑板）不乖乖记笔记的话，Z23老师就要惩罚你了哦！",
-                  "chineseTL":"",
-                  "chineseNote":"",
-                  "japanese":"ここは重点です！ちゃんとメモ取らないと、ニーミ先生が宿題を増やしますよ！",
-                  "japaneseTL":"",
-                  "japaneseNote":"",
-                  "english":"This is going to be on the exam! If you don't take thorough notes, I am going to punish you!",
-                  "englishNote":""
-               },
-               "2":{
-                  "event":"Acquisition",
-                  "media":"get_1",
-                  "chinese":"这里是重点！（敲黑板）不乖乖记笔记的话，Z23老师就要惩罚你了哦！",
-                  "chineseTL":"",
-                  "chineseNote":"",
-                  "japanese":"ここは重点です！ちゃんとメモ取らないと、ニーミ先生が宿題を増やしますよ！",
-                  "japaneseTL":"",
-                  "japaneseNote":"",
-                  "english":"This is going to be on the exam! If you don't take thorough notes, I am going to punish you!",
-                  "englishNote":""
-               },
-               "3":{
-                  "event":"Details",
-                  "media":"detail_1",
-                  "chinese":"都记住了吗？这些内容之后会出测验哦？不及格的话——",
-                  "chineseTL":"",
-                  "chineseNote":"",
-                  "japanese":"覚えました？これあとでテストに出ますよ？合格出来なければ――",
-                  "japaneseTL":"",
-                  "japaneseNote":"",
-                  "english":"Have you memorized this? This part's going to show up on the test. If you don't pass, you'll...",
-                  "englishNote":""
-               },
-               "4":{
-                  "event":"Main 1",
-                  "media":"main_1_1",
-                  "chinese":"指挥官，之前讲的海域情报没有忘吧，我来考考你怎么样？",
-                  "chineseTL":"",
-                  "chineseNote":"",
-                  "japanese":"指揮官、この前に説明しました海域情報はまだ覚えていますか？……質問しますよ？",
-                  "japaneseTL":"",
-                  "japaneseNote":"",
-                  "english":"Commander, do you remember the naval intelligence I explained to you earlier? ... I'm asking you a question here... ",
-                  "englishNote":""
-               },
-               "5":{
-                  "event":"Main 2",
-                  "media":"main_2_1",
-                  "chinese":"等会儿一起吃点什么吧，我请客，也算是对指挥官你辛苦一天的犒劳",
-                  "chineseTL":"",
-                  "chineseNote":"",
-                  "japanese":"あとで何かを食べましょうか。私の奢りで。指揮官が一日頑張ったことへのご褒美も兼ねて",
-                  "japaneseTL":"",
-                  "japaneseNote":"",
-                  "english":"Afterwards, let's get something to eat. It's on me. Consider it a reward for all your hard work today. ",
-                  "englishNote":""
-               },
-               "6":{
-                  "event":"Main 5",
-                  "media":"main_5_1",
-                  "chinese":"为了最终的胜利，一时的辛苦是必要的哦，指挥官",
-                  "chineseTL":"",
-                  "chineseNote":"",
-                  "japanese":"指揮官、最後の勝利のため、一時的な苦労も必要ですよ。",
-                  "japaneseTL":"",
-                  "japaneseNote":"",
-                  "english":"",
-                  "englishNote":""
-               },
-               "7":{
-                  "event":"Touch",
-                  "media":"touch_1_1",
-                  "chinese":"有不懂的地方要马上问哦",
-                  "chineseTL":"",
-                  "chineseNote":"",
-                  "japanese":"わからないところがあったらいつでも聞いてください",
-                  "japaneseTL":"",
-                  "japaneseNote":"",
-                  "english":"If there's a part you don't understand, speak up and ask.",
-                  "englishNote":""
-               },
-               "8":{
-                  "event":"Touch (Special)",
-                  "media":"touch_2_1",
-                  "chinese":"对、对老师恶作剧是不行的！(///",
-                  "chineseTL":"",
-                  "chineseNote":"",
-                  "japanese":"お、教える人にイタズラしちゃダメですっ！///",
-                  "japaneseTL":"",
-                  "japaneseNote":"",
-                  "english":"P-playing pranks on your instructor is prohibited! *blushes*",
-                  "englishNote":""
-               },
-               "9":{
-                  "event":"Return to Port",
-                  "media":"home_1",
-                  "chinese":"",
-                  "chineseTL":"",
-                  "chineseNote":"",
-                  "japanese":"この前分析したもの、役に立てましたよね？",
-                  "japaneseTL":"",
-                  "japaneseNote":"",
-                  "english":"What we analyzed earlier sure came in handy!",
-                  "englishNote":""
-               }
-            }
-         },
-         "3":{
-            "skin_id":"z23_4",
-            "id":"4",
-            "label":"Perfect Smile?",
-            "dialogue":{
-               "1":{
-                  "event":"Ship Description",
-                  "media":"",
-                  "chinese":"欢迎光临，请问客人只有一位吗？……那个，指挥官，我的笑容看起来应该不算僵硬……吧？",
-                  "chineseTL":"Welcome, only a seat for one?... Uh, Commander, my smile doesn't look stiff... right?",
-                  "chineseNote":"",
-                  "japanese":"いらっしゃいませ、お一人様ですか？……ええと、指揮官、今の笑顔は固くないですよね…？",
-                  "japaneseTL":"Welcome, only for me?... Uh, Commander, the smile just now didn't look stiff, right...?",
-                  "japaneseNote":"",
-                  "english":"Welcome! A table for one today? Um... Commander, my smile doesn’t look stiff... right?",
-                  "englishNote":""
-               },
-               "2":{
-                  "event":"Acquisition",
-                  "media":"get_3",
-                  "chinese":"欢迎光临，请问客人只有一位吗？……那个，指挥官，我的笑容看起来应该不算僵硬……吧？",
-                  "chineseTL":"Welcome, only a seat for one?... Uh, Commander, my smile doesn't look stiff... right?",
-                  "chineseNote":"",
-                  "japanese":"",
-                  "japaneseTL":"",
-                  "japaneseNote":"",
-                  "english":"",
-                  "englishNote":""
-               },
-               "3":{
-                  "event":"Login",
-                  "media":"login_3",
-                  "chinese":"啊……指挥官，欢迎光临！",
-                  "chineseTL":"Ah... Commander, welcome!",
-                  "chineseNote":"",
-                  "japanese":"",
-                  "japaneseTL":"",
-                  "japaneseNote":"",
-                  "english":"",
-                  "englishNote":""
-               },
-               "4":{
-                  "event":"Details",
-                  "media":"detail_3",
-                  "chinese":"呼……保持笑容可真是一件麻烦的事情，感觉嘴角都僵了……",
-                  "chineseTL":"Phew... Keeping a smile really is troublesome, my mouth feels all stiff...",
-                  "chineseNote":"",
-                  "japanese":"",
-                  "japaneseTL":"",
-                  "japaneseNote":"",
-                  "english":"",
-                  "englishNote":""
-               },
-               "5":{
-                  "event":"Main 1",
-                  "media":"main_1_3",
-                  "chinese":"指挥官，不要总是盯着……啊，笑容笑容……咳咳！请问您要点些什么呢？",
-                  "chineseTL":"Commander, don't be always staring... Ah, smile smile... *Cough*Cough*! What would you like to order?",
-                  "chineseNote":"",
-                  "japanese":"",
-                  "japaneseTL":"",
-                  "japaneseNote":"",
-                  "english":"",
-                  "englishNote":""
-               },
-               "6":{
-                  "event":"Main 2",
-                  "media":"main_2_3",
-                  "chinese":"如果您要点这份套餐的话，这里推荐再点一份这个或者这个，会有一个不错的折扣哦？",
-                  "chineseTL":"If you order this combo, it's also recommended to order this here... or this here, there will be a nice discount",
-                  "chineseNote":"",
-                  "japanese":"",
-                  "japaneseTL":"",
-                  "japaneseNote":"",
-                  "english":"",
-                  "englishNote":""
-               },
-               "7":{
-                  "event":"Main 3",
-                  "media":"main_3_3",
-                  "chinese":"唔，趁这个机会，或许学习一下厨艺是个不错的选择呢……啊，抱歉，这是您的餐点~",
-                  "chineseTL":"Hmm, not a bad idea if I can take this opportunity to learn some cooking... Ah sorry, your order is ready~",
-                  "chineseNote":"",
-                  "japanese":"",
-                  "japaneseTL":"",
-                  "japaneseNote":"",
-                  "english":"",
-                  "englishNote":""
-               },
-               "8":{
-                  "event":"Touch",
-                  "media":"touch_1_3",
-                  "chinese":"指挥官，不要随便和我搭话，会影响工作的",
-                  "chineseTL":"Commander, don't go casually making conversation with me, it'll affect my work",
-                  "chineseNote":"",
-                  "japanese":"",
-                  "japaneseTL":"",
-                  "japaneseNote":"",
-                  "english":"",
-                  "englishNote":""
-               },
-               "9":{
-                  "event":"Touch (Special)",
-                  "media":"touch_2_3",
-                  "chinese":"指挥官，再影响我工作可要请你出去了哦！",
-                  "chineseTL":"Commander, if you keep affecting my work please get out!",
-                  "chineseNote":"",
-                  "japanese":"",
-                  "japaneseTL":"",
-                  "japaneseNote":"",
-                  "english":"",
-                  "englishNote":""
-               },
-               "10":{
-                  "event":"Return to Port",
-                  "media":"home_3",
-                  "chinese":"指挥官，今天的推荐菜单是这些哦~",
-                  "chineseTL":"Commander, today's specials are these~",
-                  "chineseNote":"",
-                  "japanese":"",
-                  "japaneseTL":"",
-                  "japaneseNote":"",
-                  "english":"",
-                  "englishNote":""
-               },
-               "11":{
-                  "event":"Affinity (Love)",
-                  "media":"feeling5_3",
-                  "chinese":"呼，当服务员可真是一件辛苦的事……不过，总算是有些收获呢。嘻嘻，指挥官，你看……这个笑容，是不是比之前自然许多呢？",
-                  "chineseTL":"Phew, being a waitress is a tough job... But, it's also rewarding. Hehe, Commander, look... this smile, doesn't it look more natural than before?",
-                  "chineseNote":"",
-                  "japanese":"",
-                  "japaneseTL":"",
-                  "japaneseNote":"",
-                  "english":"",
-                  "englishNote":""
-               }
-            }
-         },
-         "4":{
-            "skin_id":"z23_3",
-            "id":"4",
-            "label":"The Banquet's Honor Student ",
-            "dialogue":{
-               "1":{
-                  "event":"Ship Description",
-                  "media":"",
-                  "chinese":"咦，指挥官，晚上好。我正在找标枪她们……那个，不介意的话，一起在会场里走一走如何？",
-                  "chineseTL":"",
-                  "chineseNote":"",
-                  "japanese":"あっ、指揮官、こんばんは。今ジャベリンたちと……あの、もしよかったらパーティー会場で一緒に歩きませんか？",
-                  "japaneseTL":"",
-                  "japaneseNote":"",
-                  "english":"Oh, good evening, Commander. I was just looking for Javelin and the others... Say, would you like to keep me company for a bit?",
-                  "englishNote":""
-               },
-               "2":{
-                  "event":"Acquisition",
-                  "media":"get_4",
-                  "chinese":"咦，指挥官，晚上好。我正在找标枪她们……那个，不介意的话，一起在会场里走一走如何？",
-                  "chineseTL":"",
-                  "chineseNote":"",
-                  "japanese":"あっ、指揮官、こんばんは。今ジャベリンたちと……あの、もしよかったらパーティー会場で一緒に歩きませんか？",
-                  "japaneseTL":"",
-                  "japaneseNote":"",
-                  "english":"Oh, good evening, Commander. I was just looking for Javelin and the others... Say, would you like to keep me company for a bit?",
-                  "englishNote":""
-               },
-               "3":{
-                  "event":"Login",
-                  "media":"login_4",
-                  "chinese":"指挥官，在宴会里过得愉快吗？",
-                  "chineseTL":"",
-                  "chineseNote":"",
-                  "japanese":"指揮官、パーティーを楽しんでいますか？",
-                  "japaneseTL":"",
-                  "japaneseNote":"",
-                  "english":"Are you enjoying the party, Commander?",
-                  "englishNote":""
-               },
-               "4":{
-                  "event":"Details",
-                  "media":"detail_4",
-                  "chinese":"我的笑容变多了吗？嗯……那一定是因为，指挥官逐渐变得可靠了吧",
-                  "chineseTL":"",
-                  "chineseNote":"",
-                  "japanese":"最近笑顔が多くなった理由、ですか？……指揮官が頼れるようになったからではないでしょうか",
-                  "japaneseTL":"",
-                  "japaneseNote":"",
-                  "english":"I've been smiling a lot more lately? ... Well, that's because you've gotten so much more respectable.",
-                  "englishNote":""
-               },
-               "5":{
-                  "event":"Main 1",
-                  "media":"main_1_4",
-                  "chinese":"看着大家的笑容，我总会想，我们真的一步一步努力到了今天呢。是吧，指挥官？",
-                  "chineseTL":"",
-                  "chineseNote":"",
-                  "japanese":"みんなの笑顔を見ると、今日まで頑張ってきた実感がわきますね。指揮官、そうですよね？",
-                  "japaneseTL":"",
-                  "japaneseNote":"",
-                  "english":"When I see everyone's smiling faces, I can't help but think about all the hard work that got us here. How about you, Commander?",
-                  "englishNote":""
-               },
-               "6":{
-                  "event":"Main 2",
-                  "media":"main_2_4",
-                  "chinese":"拉菲、标枪、还有绫波……呵呵，一开始，谁会想到，我们四个会成为形影不离的好朋友呢？",
-                  "chineseTL":"",
-                  "chineseNote":"",
-                  "japanese":"ラフィーとジャベリン、そして綾波……私たち四人がいつも一緒にいるような友だちになるなんて思いもしませんでしたね",
-                  "japaneseTL":"",
-                  "japaneseNote":"",
-                  "english":"The four of us: Laffey, Javelin, Ayanami, and I... Who would have thought we'd all become such good friends?",
-                  "englishNote":""
-               },
-               "7":{
-                  "event":"Main 3",
-                  "media":"main_3_4",
-                  "chinese":"酒？这里面装的可是橙汁哦，指挥官",
-                  "chineseTL":"",
-                  "chineseNote":"",
-                  "japanese":"お酒、ですか？ううん、指揮官、これはオレンジジュースですよ？",
-                  "japaneseTL":"",
-                  "japaneseNote":"",
-                  "english":"Champagne? Oh, heavens no, Commander! This is just sparkling apple juice.",
-                  "englishNote":""
-               },
-               "8":{
-                  "event":"Touch",
-                  "media":"touch_1_4",
-                  "chinese":"欸？跳舞？……糟、糟了，我完全没有想过这个状况……指挥官，你可以现场教我吗？",
-                  "chineseTL":"",
-                  "chineseNote":"",
-                  "japanese":"だ、ダンスですか！？……し、しまった、こうなるのを想定していなかった……指揮官、このまま教えてもらいながらや、やってもいいですか…？",
-                  "japaneseTL":"",
-                  "japaneseNote":"",
-                  "english":"D-D-Dance?! ... Oh my, I never thought it might come to this... Commander, can you teach me how to do it...?",
-                  "englishNote":""
-               },
-               "9":{
-                  "event":"Mission",
-                  "media":"task_4",
-                  "chinese":"指挥官，今天的话，可以稍微把任务放一放哦",
-                  "chineseTL":"",
-                  "chineseNote":"",
-                  "japanese":"指揮官、今日ぐらいは任務を少し後回しにしてもいいですよ",
-                  "japaneseTL":"",
-                  "japaneseNote":"",
-                  "english":"Just for today, Commander, I don't mind you putting off your missions for a while.",
-                  "englishNote":""
-               },
-               "10":{
-                  "event":"Mission Complete",
-                  "media":"mission_complete_4",
-                  "chinese":"这些是……不愧是指挥官呢",
-                  "chineseTL":"",
-                  "chineseNote":"",
-                  "japanese":"これは……さすが指揮官です！",
-                  "japaneseTL":"",
-                  "japaneseNote":"",
-                  "english":"This is... exactly what I'd expect from my Commander.",
-                  "englishNote":""
-               },
-               "11":{
-                  "event":"Mail",
-                  "media":"mail_4",
-                  "chinese":"收到了这么多邀请，指挥官，真受欢迎呢",
-                  "chineseTL":"",
-                  "chineseNote":"",
-                  "japanese":"招待状がこれほどまで……指揮官はすごく歓迎されていますね。ふふふ",
-                  "japaneseTL":"",
-                  "japaneseNote":"",
-                  "english":"Look how many invitations you've gotten, Commander. Aren't you popular? Hehehe.",
-                  "englishNote":""
-               },
-               "12":{
-                  "event":"Return to Port",
-                  "media":"home_4",
-                  "chinese":"指挥官，今天稍微放松一些也没关系哦？",
-                  "chineseTL":"",
-                  "chineseNote":"",
-                  "japanese":"指揮官、今日ぐらいは少し楽にしても大丈夫ですよ？",
-                  "japaneseTL":"",
-                  "japaneseNote":"",
-                  "english":"Commander, you don't mind if I cut a bit loose today, do you?",
-                  "englishNote":""
-               },
-               "13":{
-                  "event":"Victory",
-                  "media":"mvp_4",
-                  "chinese":"今天的我，可是状态绝佳哦",
-                  "chineseTL":"",
-                  "chineseNote":"",
-                  "japanese":"今日の私は絶好調ですよ！",
-                  "japaneseTL":"",
-                  "japaneseNote":"",
-                  "english":"I'm doing splendidly today.",
-                  "englishNote":""
-               },
-               "14":{
-                  "event":"Defeat",
-                  "media":"lose_4",
-                  "chinese":"没办法……不是很想弄脏礼服呢",
-                  "chineseTL":"",
-                  "chineseNote":"",
-                  "japanese":"仕方ないですね……ドレスを汚したくありませんし…",
-                  "japaneseTL":"",
-                  "japaneseNote":"",
-                  "english":"What can I do? ... I don't want to get my dress dirty.",
-                  "englishNote":""
-               },
-               "15":{
-                  "event":"Affinity (Love)",
-                  "media":"feeling5_4",
-                  "chinese":"说起来，指挥官，虽然平时，我很少去关注这方面，但是，今晚，在你的面前，我果然还是想要知道，那个，就是……在你的眼中，我漂亮吗？",
-                  "chineseTL":"",
-                  "chineseNote":"",
-                  "japanese":"そ、そういえば指揮官！わたしはこういうのには疎いと自覚がありますけど、ええと、つまりその、きょ、今日のわたしのこの格好は、指揮官からしてはですね、その、き、キレイ……ですか？",
-                  "japaneseTL":"",
-                  "japaneseNote":"",
-                  "english":"Erm, well, Commander! I don't usually think about things like this but, you know, tonight, I'm wondering, Commander, when I'm all dressed up like this, do you think I'm... well... pretty?",
-                  "englishNote":""
-               }
-            }
-         },
-         "5":{
-            "skin_id":"z23_g",
-            "id":"9",
-            "label":"Z23 (Retrofit)",
-            "dialogue":{
-               "1":{
-                  "event":"Ship Description",
-                  "media":"",
-                  "chinese":"既然能力提升了，效率也要提升，公文也好，作战计划也好，尽管来吧！指挥官，做好心理准备，接下来会很忙哦~",
-                  "chineseTL":"",
-                  "chineseNote":"",
-                  "japanese":"性能の向上はすなわち、業務効率の上昇です！さあ、文書の処理でも、作戦計画の立案でも、なんでも任せてください！指揮官、これからはどんどん忙しくなりますから、覚悟をしていてくださいね",
-                  "japaneseTL":"",
-                  "japaneseNote":"",
-                  "english":"My efficiency should be upgraded along with my performance. Paperwork, battle plans... I can handle them all! Commander, be prepared, we’ll be very busy~",
-                  "englishNote":""
-               },
-               "2":{
-                  "event":"Acquisition",
-                  "media":"get_9",
-                  "chinese":"既然能力提升了，效率也要提升，公文也好，作战计划也好，尽管来吧！指挥官，做好心理准备，接下来会很忙哦~",
-                  "chineseTL":"",
-                  "chineseNote":"",
-                  "japanese":"性能の向上はすなわち、業務効率の上昇です！さあ、文書の処理でも、作戦計画の立案でも、なんでも任せてください！指揮官、これからはどんどん忙しくなりますから、覚悟をしていてくださいね",
-                  "japaneseTL":"",
-                  "japaneseNote":"",
-                  "english":"My efficiency should be upgraded along with my performance. Paperwork, battle plans... I can handle them all! Commander, be prepared, we’ll be very busy~",
-                  "englishNote":""
-               },
-               "3":{
-                  "event":"Login",
-                  "media":"login_9",
-                  "chinese":"指挥官，打起精神，投入紧张的工作中吧",
-                  "chineseTL":"",
-                  "chineseNote":"",
-                  "japanese":"指揮官、しっかりしてください。これからお仕事ですよ",
-                  "japaneseTL":"",
-                  "japaneseNote":"",
-                  "english":"Commander, look alive, let’s make a greater effort on our attacks.",
-                  "englishNote":""
-               },
-               "4":{
-                  "event":"Details",
-                  "media":"detail_9",
-                  "chinese":"嗯，这样就完成得差不多了…好，去找标枪她们玩——欸，指、指挥官？！咳咳，正好，这里有一些文件……",
-                  "chineseTL":"",
-                  "chineseNote":"",
-                  "japanese":"これでよし、と…うん、そろそろジャベリンたちに会いに――え、し、指揮官！？コホン！ちょうどいいです！確認してほしい書類が……",
-                  "japaneseTL":"",
-                  "japaneseNote":"",
-                  "english":"Ok, just little bit more and the retrofit will be complete... let’s go find Javelin and play with them—— Hey, *points*, it’s the Commander?! *Cough*, great timing, here are some documents...",
-                  "englishNote":""
-               },
-               "5":{
-                  "event":"Main 3",
-                  "media":"main_3_9",
-                  "chinese":"俯瞰战场的战术，纵观全局的战略……除此之外！知道自己在为什么而战也是很重要的哟",
-                  "chineseTL":"",
-                  "chineseNote":"",
-                  "japanese":"戦場を見渡す戦術、大局を見る戦略……のほかに！何のために戦っているかを知ることも大事ですよ",
-                  "japaneseTL":"",
-                  "japaneseNote":"",
-                  "english":" Once we complete today’s mission, then come back and confirm our schedule for sorties over the next few days, there are still many things left to do.",
-                  "englishNote":""
-               },
-               "6":{
-                  "event":"Main 4",
-                  "media":"main_4_9",
-                  "chinese":"指挥官，休息够了的话，就开始处理这座公文山吧",
-                  "chineseTL":"",
-                  "chineseNote":"",
-                  "japanese":"指揮官、休憩が済んだら、引き続きこの文書の山の対応に励みましょう",
-                  "japaneseTL":"",
-                  "japaneseNote":"",
-                  "english":"",
-                  "englishNote":""
-               },
-               "7":{
-                  "event":"Main 5",
-                  "media":"main_5_9",
-                  "chinese":"今天的任务完成了的话，就来确认一下接下来几天的日程吧，事情还多的是呢",
-                  "chineseTL":"",
-                  "chineseNote":"",
-                  "japanese":"今日の任務完了しました？これからの数日間のスケジュールを確認しましょう。やることはいっぱいありますよ",
-                  "japaneseTL":"",
-                  "japaneseNote":"",
-                  "english":"",
-                  "englishNote":""
-               },
-               "8":{
-                  "event":"Touch (Special)",
-                  "media":"touch_2_9",
-                  "chinese":"指挥官，做好在禁闭室办公的准备了吗？",
-                  "chineseTL":"",
-                  "chineseNote":"",
-                  "japanese":"指揮官、独房で仕事をする準備は出来ていますよね…？",
-                  "japaneseTL":"",
-                  "japaneseNote":"",
-                  "english":"Commander, are you prepared to work in a lockdown environment?",
-                  "englishNote":""
-               },
-               "9":{
-                  "event":"Victory",
-                  "media":"mvp_9",
-                  "chinese":"很好，大家再接再厉！",
-                  "chineseTL":"",
-                  "chineseNote":"",
-                  "japanese":"よし！次もがんばりましょう！",
-                  "japaneseTL":"",
-                  "japaneseNote":"",
-                  "english":"Well done, let’s keep this up, everyone!",
-                  "englishNote":""
-               }
-            }
-         }
-      }
-   },
-   "fleet_tech":{
-      "pt_get":"14",
-      "add_get_attr":"HP",
-      "add_get_value":"1",
-      "add_get_shiptype":"Destroyer",
-      "pt_upgrade":"28",
-      "pt_level":"20",
-      "add_level_attr":"Firepower",
-      "add_level_value":"1",
-      "add_level_shiptype":"Destroyer",
-      "t_level":"6",
-      "ships":"z23,z25"
-   }
+	"name_reference" : "z23",
+	"cn_reference" : "z23",
+	"nameJP" : "Z23",
+	"nameCN" : "Z23",
+	"ID" : "236",
+	"name" : "Z23",
+	"internal_id" : "401231",
+	"rarity" : "Elite",
+	"initialStar" : "★★☆☆☆",
+	"hull" : "Destroyer",
+	"navy" : "Ironblood",
+	"prefix" : "KMS",
+	"buildTime" : "00:33:00",
+	"voiceActress" : "Rika Abe",
+	"parameters": {
+		"firepower" : "A",
+		"torpedo" : "C",
+		"aviation" : "E",
+		"evasion" : "B",
+		"antiAir" : "D",
+		"hp" : "D"
+	},
+	"scrap": {
+		"gold" : "4",
+		"oil" : "3",
+		"medal" : "4"
+	},
+	"releaseDate": {
+		"JP" : "",
+		"CN" : "",
+		"KR" : "",
+		"EN" : ""
+	},
+	"artist": {
+		"name": "梦咲枫",
+		"weibo": "http://weibo.com/u/3558369570",
+		"twitter": "https://twitter.com/yumesaki_kaede/",
+		"pixiv": "https://www.pixiv.net/member.php?id=1023957",
+		"other": ""
+	},
+	"class" : "Type 1336A",
+	"enhance": {
+		"firepower" : "7",
+		"torpedo" : "20",
+		"aviation" : "0",
+		"reload" : "14"
+	},
+	"acquisitionMethod" : "Explore Stage10-1",
+	"skill": {
+		"1" : {
+			"icon" : "10530",
+			"requirement" : "Default Unlocked",
+			"name" : "Iron Blood Vanguard",
+			"type" : "Offensive",
+			"description" : "When this ship fires its Main Guns: 5.0% chance to increase this ship's FP by 30.0%(60.0%) for 8s."
+		},
+		"2" : {
+			"icon" : "11320",
+			"requirement" : "Retrofit",
+			"name" : "Destruction Mode",
+			"type" : "Offensive",
+			"description" : "Every 20s: 40.0%(70.0%) chance for this ship to enter Destruction Mode, firing a powerful barrage, deploying 2 rotating shields that can each block up to 5 shells (shields last for 10s,) and increasing this ship's Main Gun Crit Rate to 100% for 10s."
+		},
+		"3" : {
+			"icon" : "29201",
+			"requirement" : "Limit Break I (III)",
+			"name" : "All Out Assault Ⅰ",
+			"type" : "Offensive",
+			"description" : "Activates All Out Assault Ⅰ: Z23 once every 15 times the Main Guns are fired."
+		}
+	},
+	"skin": {
+		"1" : {
+			"id" : "z23",
+			"name" : "Z23",
+			"description" : "Type 1336A destroyer, Z23.",
+			"expression" : {
+				"0" : {
+					"id" : "0"
+				}
+			}
+		},
+		"2" : {
+			"id" : "z23_2",
+			"name" : "Philosophy Sensei ",
+			"description" : "This is going to be on the exam! If you don't take thorough notes, I am going to punish you! ",
+			"expression" : {
+				"0" : {
+					"id" : "0"
+				}
+			}
+		},
+		"3" : {
+			"id" : "z23_4",
+			"name" : "Perfect Smile?",
+			"description" : "Welcome! A table for one today? Um... Commander, my smile doesn’t look stiff... right?",
+			"expression" : {
+				"0" : {
+					"id" : "0"
+				},
+				"1" : {
+					"id" : "1"
+				},
+				"2" : {
+					"id" : "2"
+				},
+				"3" : {
+					"id" : "3"
+				}
+			}
+		},
+		"4" : {
+			"id" : "z23_3",
+			"name" : "The Banquet's Honor Student ",
+			"description" : "Oh, good evening, Commander. I was just looking for Javelin and the others... Say, would you like to keep me company for a bit? ",
+			"expression" : {
+				"0" : {
+					"id" : "0"
+				},
+				"1" : {
+					"id" : "1"
+				},
+				"2" : {
+					"id" : "2"
+				},
+				"3" : {
+					"id" : "3"
+				},
+				"4" : {
+					"id" : "4"
+				},
+				"5" : {
+					"id" : "5"
+				}
+			}
+		},
+		"5" : {
+			"id" : "z23_5",
+			"name" : "真面目アイドル・マネージャー兼任!?",
+			"description" : "ジャベリンはいいけど、ラフィーと綾波がアイドルをやるなんてすごく心配ですから、私が面倒を見るしかないですね…あっ、指揮官、私への応援もわ、忘れないでくださいっ！",
+			"expression" : {
+				"0" : {
+					"id" : "0"
+				},
+				"1" : {
+					"id" : "1"
+				},
+				"2" : {
+					"id" : "2"
+				},
+				"3" : {
+					"id" : "3"
+				},
+				"4" : {
+					"id" : "4"
+				}
+			}
+		},
+		"6" : {
+			"id" : "z23_g",
+			"name" : "Z23 (Retrofit)",
+			"description" : "My efficiency should be upgraded along with my performance. Paperwork, battle plans... I can handle them all! Commander, be prepared, we’ll be very busy~ ",
+			"expression" : {
+				"0" : {
+					"id" : "0"
+				}
+			}
+		}
+	},
+	"defaultEquipment": {
+		"1" : {
+			"icon" : "42200",
+			"rarity" : "Common",
+			"name" : "Twin 150mm Main Gun (TbtsK C/36)"
+		},
+		"2" : {
+			"icon" : "",
+			"rarity" : "",
+			"name" : ""
+		},
+		"3" : {
+			"icon" : "",
+			"rarity" : "",
+			"name" : ""
+		}
+	},
+	"stats": {
+		"base": {
+			"hp" : "345",
+			"firepower" : "22",
+			"torpedo" : "61",
+			"antiAir" : "28",
+			"aviation" : "0",
+			"reload" : "73",
+			"hit" : "64",
+			"evasion" : "58",
+			"speed" : "42",
+			"luck" : "65",
+			"asw" : "49",
+			"oxygen" : "0",
+			"ammo" : "0",
+			"cost" : "2",
+			"armor" : "Light"
+		},
+		"100": {
+			"hp" : "1786",
+			"firepower" : "104",
+			"torpedo" : "289",
+			"antiAir" : "131",
+			"aviation" : "0",
+			"reload" : "173",
+			"hit" : "167",
+			"evasion" : "152",
+			"speed" : "42",
+			"luck" : "65",
+			"asw" : "181",
+			"oxygen" : "0",
+			"ammo" : "0",
+			"cost" : "9",
+			"armor" : "Light"
+		},
+		"120": {
+			"hp" : "2125",
+			"firepower" : "120",
+			"torpedo" : "327",
+			"antiAir" : "150",
+			"aviation" : "0",
+			"reload" : "199",
+			"hit" : "175",
+			"evasion" : "157",
+			"speed" : "42",
+			"luck" : "65",
+			"asw" : "201",
+			"oxygen" : "0",
+			"ammo" : "0",
+			"cost" : "9",
+			"armor" : "Light"
+		},
+		"100retrofit": {
+			"hp" : "1951",
+			"firepower" : "154",
+			"torpedo" : "309",
+			"antiAir" : "196",
+			"aviation" : "0",
+			"reload" : "173",
+			"hit" : "167",
+			"evasion" : "157",
+			"speed" : "42",
+			"luck" : "65",
+			"asw" : "201",
+			"oxygen" : "0",
+			"ammo" : "0",
+			"cost" : "9",
+			"armor" : "Light"
+		},
+		"120retrofit": {
+			"hp" : "2290",
+			"firepower" : "170",
+			"torpedo" : "347",
+			"antiAir" : "215",
+			"aviation" : "0",
+			"reload" : "199",
+			"hit" : "175",
+			"evasion" : "162",
+			"speed" : "42",
+			"luck" : "65",
+			"asw" : "221",
+			"oxygen" : "0",
+			"ammo" : "0",
+			"cost" : "9",
+			"armor" : "Light"
+		}
+	},
+	"limitBreak": {
+		"tier1": "Unlock EX Barrage Ⅰ/Main gun efficiency +5%",
+		"tier2": "Torpedo base +1/Torpedo preload +1/Main gun efficiency +10%",
+		"tier3": "Improve EX Barrage/All weapons' efficiency +5%"
+	},
+	"equipmentLoadout": {
+		"1": {
+			"type": "Light Cruiser",
+			"efficiency": "140%/145%/155%/160%",
+			"amount": "1/1/1/1",
+			"preload": "0/0/0/0"
+		},
+		"2": {
+			"type": "Torpedo",
+			"efficiency": "115%/115%/115%/120%",
+			"amount": "1/1/2/2",
+			"preload": "0/0/1/1"
+		},
+		"3": {
+			"type": "Anti-Air Gun",
+			"efficiency": "70%/70%/70%/75%",
+			"amount": "1/1/1/1",
+			"preload": "0/0/0/0"
+		},
+		"4": {
+			"type": "Auxilary",
+			"efficiency": "-",
+			"amount": "-",
+			"preload": "-"
+		},
+		"5": {
+			"type": "Auxilary",
+			"efficiency": "-",
+			"amount": "-",
+			"preload": "-"
+		}
+	},
+	"fleet_tech": {
+		"pt_get": "14",
+		"add_get_attr": "HP",
+		"add_get_value": "1",
+		"add_get_shiptype": "Destroyer",
+		"pt_upgrade": "28",
+		"pt_level": "20",
+		"add_level_attr": "Firepower",
+		"add_level_value": "1",
+		"add_level_shiptype": "Destroyer",
+		"t_level": "6",
+		"ships": "z23,z25"
+	},
+	"build": {
+		"light": {
+			"JP": "✓",
+			"CN": "✓",
+			"EN": "✓"
+		},
+		"heavy": {
+			"JP": "",
+			"CN": "",
+			"EN": ""
+		},
+		"special": {
+			"JP": "",
+			"CN": "",
+			"EN": ""
+		},
+		"limited": {
+			"JP": "",
+			"CN": "",
+			"EN": ""
+		}
+	},
+	"drop": {
+		"droppable": "true",
+		"list": {
+			"1": {
+				"event": "World",
+				"chapter": {
+					"1": {
+						"label": "Ch.2",
+						"node": {
+							"1": {
+								"drop": "✓",
+								"note": "-"
+							},
+							"2": {
+								"drop": "✓",
+								"note": "-"
+							},
+							"3": {
+								"drop": "✓",
+								"note": "-"
+							},
+							"4": {
+								"drop": "✓",
+								"note": "-"
+							}
+						}
+					},
+					"2": {
+						"label": "Ch.3",
+						"node": {
+							"1": {
+								"drop": "✓",
+								"note": "-"
+							},
+							"2": {
+								"drop": "✓",
+								"note": "-"
+							},
+							"3": {
+								"drop": "✓",
+								"note": "-"
+							},
+							"4": {
+								"drop": "✓",
+								"note": "-"
+							}
+						}
+					},
+					"3": {
+						"label": "Ch.4",
+						"node": {
+							"1": {
+								"drop": "✓",
+								"note": "-"
+							},
+							"2": {
+								"drop": "✓",
+								"note": "-"
+							},
+							"3": {
+								"drop": "✓",
+								"note": "-"
+							},
+							"4": {
+								"drop": "✓",
+								"note": "-"
+							}
+						}
+					},
+					"4": {
+						"label": "Ch.5",
+						"node": {
+							"1": {
+								"drop": "✓",
+								"note": "-"
+							},
+							"2": {
+								"drop": "✓",
+								"note": "-"
+							},
+							"3": {
+								"drop": "✓",
+								"note": "-"
+							},
+							"4": {
+								"drop": "✓",
+								"note": "-"
+							}
+						}
+					},
+					"5": {
+						"label": "Ch.6",
+						"node": {
+							"1": {
+								"drop": "✓",
+								"note": "-"
+							},
+							"2": {
+								"drop": "✓",
+								"note": "-"
+							},
+							"3": {
+								"drop": "✓",
+								"note": "-"
+							},
+							"4": {
+								"drop": "✓",
+								"note": "-"
+							}
+						}
+					},
+					"6": {
+						"label": "Ch.7",
+						"node": {
+							"1": {
+								"drop": "✓",
+								"note": "-"
+							},
+							"2": {
+								"drop": "✓",
+								"note": "-"
+							},
+							"3": {
+								"drop": "✓",
+								"note": "-"
+							},
+							"4": {
+								"drop": "✓",
+								"note": "-"
+							}
+						}
+					},
+					"7": {
+						"label": "Ch.8",
+						"node": {
+							"1": {
+								"drop": "✓",
+								"note": "-"
+							},
+							"2": {
+								"drop": "✓",
+								"note": "-"
+							},
+							"3": {
+								"drop": "✓",
+								"note": "-"
+							},
+							"4": {
+								"drop": "✓",
+								"note": "-"
+							}
+						}
+					},
+					"8": {
+						"label": "Ch.9",
+						"node": {
+							"1": {
+								"drop": "✓",
+								"note": "-"
+							},
+							"2": {
+								"drop": "✓",
+								"note": "-"
+							},
+							"3": {
+								"drop": "✓",
+								"note": "-"
+							},
+							"4": {
+								"drop": "✓",
+								"note": "-"
+							}
+						}
+					},
+					"9": {
+						"label": "Ch.10",
+						"node": {
+							"1": {
+								"drop": "✓",
+								"note": "-"
+							},
+							"2": {
+								"drop": "✓",
+								"note": "-"
+							},
+							"3": {
+								"drop": "✓",
+								"note": "-"
+							},
+							"4": {
+								"drop": "✓",
+								"note": "-"
+							}
+						}
+					},
+					"10": {
+						"label": "Ch.11",
+						"node": {
+							"1": {
+								"drop": "✓",
+								"note": "-"
+							},
+							"2": {
+								"drop": "✓",
+								"note": "-"
+							},
+							"3": {
+								"drop": "✓",
+								"note": "-"
+							},
+							"4": {
+								"drop": "✓",
+								"note": "-"
+							}
+						}
+					},
+					"11": {
+						"label": "Ch.12",
+						"node": {
+							"1": {
+								"drop": "✓",
+								"note": "-"
+							},
+							"2": {
+								"drop": "✓",
+								"note": "-"
+							},
+							"3": {
+								"drop": "✓",
+								"note": "-"
+							},
+							"4": {
+								"drop": "✓",
+								"note": "-"
+							}
+						}
+					},
+					"12": {
+						"label": "Ch.13",
+						"node": {
+							"1": {
+								"drop": "✓",
+								"note": "-"
+							},
+							"2": {
+								"drop": "✓",
+								"note": "-"
+							},
+							"3": {
+								"drop": "✓",
+								"note": "-"
+							},
+							"4": {
+								"drop": "✓",
+								"note": "-"
+							}
+						}
+					}
+				}
+			}
+		}
+	},
+	"lines": {
+		"skin": {
+			"1": {
+				"skin_id" : "z23",
+				"id" : "0",
+				"label" : "Z23",
+				"dialogue" : {
+					"1" : {
+						"event" : "Ship Description",
+						"media" : "",
+						"chinese" : "1936A “纳尔维克”型驱逐舰—Z23",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "1936A型「ナルヴィク」駆逐艦・Z23",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Type 1336A destroyer, Z23.",
+						"englishNote" : ""
+					},
+					"2" : {
+						"event" : "Biography",
+						"media" : "profile",
+						"chinese" : "我是1936A型驱逐舰的大姐，Z23，从我开始的妹妹们都只有代号，不像姐姐们有继承前人的名字。 虽然有些不近人情不过确实比较方便，所以请不要客气直接叫我Z23就好",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "1936A型駆逐艦の長女Z23です。わたしの妹たちは番号だけで、姉たちのように先人からの襲名はありません。あまり親切ではないけれど、便利だと思います。遠慮なさらずにZ23と呼んでください",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "I’m Z23, the eldest sister of the 1936A-class destroyers. Unlike my sisters before me, who all had a namesake, my younger sisters and I only had a serial code for our names. It might be a little cold and impersonal, but I believe it’s also more convenient. So please, feel free to call me Z23.",
+						"englishNote" : ""
+					},
+					"3" : {
+						"event" : "Acquisition",
+						"media" : "get",
+						"chinese" : "Guten Tag，指挥官阁下。我是Z23，让我们共同学习，一起向顶点前进吧",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "Guten Tag、指揮官閣下。Z23と申します。一緒に勉強して頂点を目指しましょう！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Guten Tag, Commander.I am Z23. Let’s study hard together and aim for the top!",
+						"englishNote" : ""
+					},
+					"4" : {
+						"event" : "Login",
+						"media" : "login",
+						"chinese" : "今天还有好多事情要做呢，可不要偷懒哦",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "今日はやることがいっぱいありますから、サボってはダメですよ",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "There's still quite a lot to be done today. No procrastinating!",
+						"englishNote" : ""
+					},
+					"5" : {
+						"event" : "Details",
+						"media" : "detail",
+						"chinese" : "比起看我，不如多看看书啦！我也是会害羞的嘛……（小声）",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "わたしを見る時間がありましたら、より字の本を読んだほうがいいですよ！わたしだって恥ずかしがったりはするもん……",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "If you have the time to stare at me, shouldn’t you go back to your studies? Even I... can get embarrassed...",
+						"englishNote" : ""
+					},
+					"6" : {
+						"event" : "Main 1",
+						"media" : "main_1",
+						"chinese" : "不用担心，我的话，指挥官有这份心就够了",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "心配する必要はありません。指揮官にその心があれば十分ですから",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Don’t worry, Commander. The fact that you care about me is enough.",
+						"englishNote" : ""
+					},
+					"7" : {
+						"event" : "Main 2",
+						"media" : "main_2",
+						"chinese" : "给指挥官准备什么点心好呢……最近好像也挺累的，稍微给他按摩一下吧……",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "指揮官になにを用意すればいいだろう……最近疲れているようだしマッサージとか……",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "I wonder if there’s something I can do for you, Commander. You seem tired lately, so maybe a massage would be good?",
+						"englishNote" : ""
+					},
+					"8" : {
+						"event" : "Main 3",
+						"media" : "main_3",
+						"chinese" : "嗯嗯，指挥官只要用心的话还是办得到的呢",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "うんうん、指揮官もやればできる子ですね",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "See, Commander? You can do it if you set your mind to it!",
+						"englishNote" : ""
+					},
+					"9" : {
+						"event" : "Main 4",
+						"media" : "main_4",
+						"chinese" : "欸？我负责的部分？啊，啊哈哈……糟了，真的忘了……",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "え？わたしの担当ですか？あ、あははは……しまった、忘れてた…",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Huh? What am I in charge of? A-ahaha... I, uh... forgot...",
+						"englishNote" : ""
+					},
+					"10" : {
+						"event" : "Main 5",
+						"media" : "main_5",
+						"chinese" : "摸头？哦，你是说这个动作吧？",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "ナデナデ？あ、これのことですね？",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Headpat? You mean like this...?",
+						"englishNote" : ""
+					},
+					"11" : {
+						"event" : "Touch",
+						"media" : "touch_1",
+						"chinese" : "有这个时间多处理些公文如何？",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "暇でしたら書類の処理でもしたらどうです？",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "If you’re free, why not help with some paperwork?",
+						"englishNote" : ""
+					},
+					"12" : {
+						"event" : "Touch (Special)",
+						"media" : "touch_2",
+						"chinese" : "这可不是指挥官应有的行为哦",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "これは指揮官のすべきことじゃありませんよ？",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "This isn’t something a commander should be doing...",
+						"englishNote" : ""
+					},
+					"13" : {
+						"event" : "Rub",
+						"media" : "touch_head",
+						"chinese" : "我可不是那种被摸摸头就可以蒙混过去的女孩子哦，指挥官，请好好工作",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "頭撫でるだけでごまかせる子じゃないです！指揮官、ちゃんと仕事してくださいね！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "I’m not the kind of girl who you can fool with just a few headpats. Get back to work, Commander.",
+						"englishNote" : ""
+					},
+					"14" : {
+						"event" : "Mission",
+						"media" : "task",
+						"chinese" : "完成任务是熟练技巧的好途径哦，不要忘了",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "技術を習熟するには任務をこなすことがすごく役に立ちます。忘れないで下さいね",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Completing missions is a great way to hone your skills. Don't ever forget that!",
+						"englishNote" : ""
+					},
+					"15" : {
+						"event" : "Mission Complete",
+						"media" : "mission_complete",
+						"chinese" : "任务奖励发放了喔",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "任務の報酬が届きましたよ",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Commander, the mission rewards have arrived.",
+						"englishNote" : ""
+					},
+					"16" : {
+						"event" : "Mail",
+						"media" : "mail",
+						"chinese" : "有你的信，指挥官意外地挺受欢迎嘛",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "メールです。指揮官は意外と人気者ですね",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "There’s mail for you, Commander. You sure are popular.",
+						"englishNote" : ""
+					},
+					"17" : {
+						"event" : "Return to Port",
+						"media" : "home",
+						"chinese" : "刚才的战斗还有许多要检讨的地方呢……",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "今の戦闘、反省するところが多いですね…",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "We still have so much to review about the previous battle...",
+						"englishNote" : ""
+					},
+					"18" : {
+						"event" : "Commission Complete",
+						"media" : "expedition",
+						"chinese" : "时间到了，工作先放一放，去检查委托成果吧",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "時間になりました。お仕事を一旦止めて、委託の戦果を確認しましょう",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "It’s about time! Please put aside your work, and check on the results of your commissions.",
+						"englishNote" : ""
+					},
+					"19" : {
+						"event" : "Enhancement",
+						"media" : "upgrade",
+						"chinese" : "指挥官，我希望能跟你一起进步",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "指揮官と、一緒に上に行きたいです！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Commander, I hope that we'll improve, together!",
+						"englishNote" : ""
+					},
+					"20" : {
+						"event" : "Flagship",
+						"media" : "warcry",
+						"chinese" : "走吧，到了检验努力成果的时候了！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "よし、努力の成果を試す時です！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Let’s go! It’s time to reap the rewards of our hard work!",
+						"englishNote" : ""
+					},
+					"21" : {
+						"event" : "Victory",
+						"media" : "mvp",
+						"chinese" : "战斗就像是考试，第一就意味着高分哟~",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "戦闘は試験と同じ、戦果一位を取るのはすなわちいい成績を取るものですよ~",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Battles are like exams. Earning MVP is like getting the top score on a test.",
+						"englishNote" : ""
+					},
+					"22" : {
+						"event" : "Defeat",
+						"media" : "lose",
+						"chinese" : "呜……不行，我不能哭……",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "うぅ…だめ、まだ泣いちゃ…！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "*sobs* ... No, I mustn’t cry...",
+						"englishNote" : ""
+					},
+					"23" : {
+						"event" : "Skill",
+						"media" : "skill",
+						"chinese" : "命中吧！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "当たれ！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Take this!",
+						"englishNote" : ""
+					},
+					"24" : {
+						"event" : "Low HP",
+						"media" : "hp",
+						"chinese" : "我得想想办法……",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "対策を考えないと……",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "I've got to find a way out of this mess...",
+						"englishNote" : ""
+					},
+					"25" : {
+						"event" : "Affinity (Upset)",
+						"media" : "feeling1",
+						"chinese" : "指挥官，我要学习了，能不要打扰我吗？",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "指揮官、今勉強中です。邪魔しないでいただけます？",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Commander, can you not bother me when I’m trying to study?",
+						"englishNote" : ""
+					},
+					"26" : {
+						"event" : "Affinity (Stranger)",
+						"media" : "feeling2",
+						"chinese" : "学习是很重要的喔，伟人说过：“知识就是力量”……法国就是培根？真是的，再耍小聪明我可要生气了哦",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "勉強は大切ですよ。「知識は力なり」と偉人の方が仰っていました……フランスといえばベーコン？ったく、もう何を言ってるんですか",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Studying is important! A wise man once said, \"knowledge is power.\" ... France is bacon? Jeez... just what is going through that head of yours?",
+						"englishNote" : ""
+					},
+					"27" : {
+						"event" : "Affinity (Friendly)",
+						"media" : "feeling3",
+						"chinese" : "有点累了吗，嗯，休息也是很重要的。膝枕？真是没办法，就一会儿喔",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "疲れましたか？はい、休憩も大切です。膝枕ですか？しょうがない、少しだけですよ？",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "You’re a bit tired? Very well, getting rest is important. You want a lap pillow? I guess it’s fine... just for a little while...",
+						"englishNote" : ""
+					},
+					"28" : {
+						"event" : "Affinity (Like)",
+						"media" : "feeling4",
+						"chinese" : "指挥官，看着我干什么……认真的我很漂亮？笨，笨蛋，做自己的事去啦！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "指揮官、なんで私を見るんですか……？真剣な表情が綺麗？ば、ばかぁ！自分のことでもしてよ～！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Commander, why are you staring at me? You think I’m pretty when I look serious? I-idiot! Go do your own work...",
+						"englishNote" : ""
+					},
+					"29" : {
+						"event" : "Affinity (Love)",
+						"media" : "feeling5",
+						"chinese" : "指挥官，你知道吗，人站得越高，看得越远，也会变得更冷……我希望指挥官你能登上高峰，但我也希望你在那时能和现在一样每天过得开心",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "指揮官は知っていますか？高いところに立っていれば遠くが見えるけど、より孤独感じることを……指揮官には高いところを目指してほしいですけど、その時にも今のように毎日楽しんでいて貰いたいです",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Commander, did you know that the higher you stand, the further you can see, but also the lonelier you will be? I hope that you can rise to great heights one day, but still be as happy then as you are now.",
+						"englishNote" : ""
+					},
+					"30" : {
+						"event" : "Pledge",
+						"media" : "propose",
+						"chinese" : "这就是指挥官对我的认可……我明白了，我Z23从今往后也会一直陪在指挥官你的身边，为你能够正确又愉快的生活努力的",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "これが指揮官が認めてくれた証……分かりました。Z23はこれからも指揮官のそばにいて、正しく楽しく生きていくように努力します！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "This is the proof that Commander acknowledges me... Understood. From now on, I shall stay by your side and work hard to ensure that your life is happy and upstanding.",
+						"englishNote" : ""
+					},
+					"31" : {
+						"event" : "Easter Egg 1(Z25)",
+						"media" : "link1",
+						"chinese" : "Z25，一起加油吧！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "25、一緒に頑張ろう！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Z25, let's do our best together!",
+						"englishNote" : ""
+					},
+					"32" : {
+						"event" : "Like Present",
+						"media" : "present_like",
+						"chinese" : "",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"33" : {
+						"event" : "Dislike Present",
+						"media" : "present_dislike",
+						"chinese" : "",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"34" : {
+						"event" : "Main Title",
+						"media" : "extra",
+						"chinese" : "",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					}
+				}
+			},
+			"2": {
+				"skin_id" : "z23_2",
+				"id" : "1",
+				"label" : "Philosophy Sensei ",
+				"dialogue" : {
+					"1" : {
+						"event" : "Ship Description",
+						"media" : "",
+						"chinese" : "这里是重点！（敲黑板）不乖乖记笔记的话，Z23老师就要惩罚你了哦！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "ここは重点です！ちゃんとメモ取らないと、ニーミ先生が宿題を増やしますよ！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "This is going to be on the exam! If you don't take thorough notes, I am going to punish you!",
+						"englishNote" : ""
+					},
+					"2" : {
+						"event" : "Acquisition",
+						"media" : "get_1",
+						"chinese" : "这里是重点！（敲黑板）不乖乖记笔记的话，Z23老师就要惩罚你了哦！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "ここは重点です！ちゃんとメモ取らないと、ニーミ先生が宿題を増やしますよ！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "This is going to be on the exam! If you don't take thorough notes, I am going to punish you!",
+						"englishNote" : ""
+					},
+					"3" : {
+						"event" : "Details",
+						"media" : "detail_1",
+						"chinese" : "都记住了吗？这些内容之后会出测验哦？不及格的话——",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "覚えました？これあとでテストに出ますよ？合格出来なければ――",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Have you memorized this? This part's going to show up on the test. If you don't pass, you'll...",
+						"englishNote" : ""
+					},
+					"4" : {
+						"event" : "Main 1",
+						"media" : "main_1_1",
+						"chinese" : "指挥官，之前讲的海域情报没有忘吧，我来考考你怎么样？",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "指揮官、この前に説明しました海域情報はまだ覚えていますか？……質問しますよ？",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Commander, do you remember the naval intelligence I explained to you earlier? ... I'm asking you a question here... ",
+						"englishNote" : ""
+					},
+					"5" : {
+						"event" : "Main 2",
+						"media" : "main_2_1",
+						"chinese" : "等会儿一起吃点什么吧，我请客，也算是对指挥官你辛苦一天的犒劳",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "あとで何かを食べましょうか。私の奢りで。指揮官が一日頑張ったことへのご褒美も兼ねて",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Afterwards, let's get something to eat. It's on me. Consider it a reward for all your hard work today. ",
+						"englishNote" : ""
+					},
+					"6" : {
+						"event" : "Main 5",
+						"media" : "main_5_1",
+						"chinese" : "为了最终的胜利，一时的辛苦是必要的哦，指挥官",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "指揮官、最後の勝利のため、一時的な苦労も必要ですよ。",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"7" : {
+						"event" : "Touch",
+						"media" : "touch_1_1",
+						"chinese" : "有不懂的地方要马上问哦",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "わからないところがあったらいつでも聞いてください",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "If there's a part you don't understand, speak up and ask.",
+						"englishNote" : ""
+					},
+					"8" : {
+						"event" : "Touch (Special)",
+						"media" : "touch_2_1",
+						"chinese" : "对、对老师恶作剧是不行的！(///",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "お、教える人にイタズラしちゃダメですっ！///",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "P-playing pranks on your instructor is prohibited! *blushes*",
+						"englishNote" : ""
+					},
+					"9" : {
+						"event" : "Rub",
+						"media" : "touch_head_1",
+						"chinese" : "之前分析的内容有派上用场吧？",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"10" : {
+						"event" : "Return to Port",
+						"media" : "home_1",
+						"chinese" : "",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "この前分析したもの、役に立てましたよね？",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "What we analyzed earlier sure came in handy!",
+						"englishNote" : ""
+					}
+				}
+			},
+			"3": {
+				"skin_id" : "z23_4",
+				"id" : "3",
+				"label" : "Perfect Smile?",
+				"dialogue" : {
+					"1" : {
+						"event" : "Ship Description",
+						"media" : "",
+						"chinese" : "欢迎光临，请问客人只有一位吗？……那个，指挥官，我的笑容看起来应该不算僵硬……吧？",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "いらっしゃいませ、お一人様ですか？……ええと、指揮官、今の笑顔は固くないですよね…？",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Welcome! A table for one today? Um... Commander, my smile doesn’t look stiff... right?",
+						"englishNote" : ""
+					},
+					"2" : {
+						"event" : "Acquisition",
+						"media" : "get_3",
+						"chinese" : "欢迎光临，请问客人只有一位吗？……那个，指挥官，我的笑容看起来应该不算僵硬……吧？",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"3" : {
+						"event" : "Login",
+						"media" : "login_3",
+						"chinese" : "啊……指挥官，欢迎光临！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"4" : {
+						"event" : "Details",
+						"media" : "detail_3",
+						"chinese" : "呼……保持笑容可真是一件麻烦的事情，感觉嘴角都僵了……",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"5" : {
+						"event" : "Touch",
+						"media" : "touch_1_3",
+						"chinese" : "指挥官，不要随便和我搭话，会影响工作的",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"6" : {
+						"event" : "Touch (Special)",
+						"media" : "touch_2_3",
+						"chinese" : "指挥官，再影响我工作可要请你出去了哦！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"7" : {
+						"event" : "Return to Port",
+						"media" : "home_3",
+						"chinese" : "指挥官，今天的推荐菜单是这些哦~",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"8" : {
+						"event" : "Affinity (Love)",
+						"media" : "feeling5_3",
+						"chinese" : "呼，当服务员可真是一件辛苦的事……不过，总算是有些收获呢。嘻嘻，指挥官，你看……这个笑容，是不是比之前自然许多呢？",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					}
+				}
+			},
+			"4": {
+				"skin_id" : "z23_3",
+				"id" : "4",
+				"label" : "The Banquet's Honor Student ",
+				"dialogue" : {
+					"1" : {
+						"event" : "Ship Description",
+						"media" : "",
+						"chinese" : "咦，指挥官，晚上好。我正在找标枪她们……那个，不介意的话，一起在会场里走一走如何？",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "あっ、指揮官、こんばんは。今ジャベリンたちと……あの、もしよかったらパーティー会場で一緒に歩きませんか？",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Oh, good evening, Commander. I was just looking for Javelin and the others... Say, would you like to keep me company for a bit?",
+						"englishNote" : ""
+					},
+					"2" : {
+						"event" : "Acquisition",
+						"media" : "get_4",
+						"chinese" : "咦，指挥官，晚上好。我正在找标枪她们……那个，不介意的话，一起在会场里走一走如何？",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "あっ、指揮官、こんばんは。今ジャベリンたちと……あの、もしよかったらパーティー会場で一緒に歩きませんか？",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Oh, good evening, Commander. I was just looking for Javelin and the others... Say, would you like to keep me company for a bit?",
+						"englishNote" : ""
+					},
+					"3" : {
+						"event" : "Login",
+						"media" : "login_4",
+						"chinese" : "指挥官，在宴会里过得愉快吗？",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "指揮官、パーティーを楽しんでいますか？",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Are you enjoying the party, Commander?",
+						"englishNote" : ""
+					},
+					"4" : {
+						"event" : "Details",
+						"media" : "detail_4",
+						"chinese" : "我的笑容变多了吗？嗯……那一定是因为，指挥官逐渐变得可靠了吧",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "最近笑顔が多くなった理由、ですか？……指揮官が頼れるようになったからではないでしょうか",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "I've been smiling a lot more lately? ... Well, that's because you've gotten so much more respectable.",
+						"englishNote" : ""
+					},
+					"5" : {
+						"event" : "Main 1",
+						"media" : "main_1_4",
+						"chinese" : "看着大家的笑容，我总会想，我们真的一步一步努力到了今天呢。是吧，指挥官？",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "みんなの笑顔を見ると、今日まで頑張ってきた実感がわきますね。指揮官、そうですよね？",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "When I see everyone's smiling faces, I can't help but think about all the hard work that got us here. How about you, Commander?",
+						"englishNote" : ""
+					},
+					"6" : {
+						"event" : "Main 2",
+						"media" : "main_2_4",
+						"chinese" : "拉菲、标枪、还有绫波……呵呵，一开始，谁会想到，我们四个会成为形影不离的好朋友呢？",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "ラフィーとジャベリン、そして綾波……私たち四人がいつも一緒にいるような友だちになるなんて思いもしませんでしたね",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "The four of us: Laffey, Javelin, Ayanami, and I... Who would have thought we'd all become such good friends?",
+						"englishNote" : ""
+					},
+					"7" : {
+						"event" : "Main 3",
+						"media" : "main_3_4",
+						"chinese" : "酒？这里面装的可是橙汁哦，指挥官",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "お酒、ですか？ううん、指揮官、これはオレンジジュースですよ？",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Champagne? Oh, heavens no, Commander! This is just sparkling orange juice.",
+						"englishNote" : ""
+					},
+					"8" : {
+						"event" : "Touch",
+						"media" : "touch_1_4",
+						"chinese" : "欸？跳舞？……糟、糟了，我完全没有想过这个状况……指挥官，你可以现场教我吗？",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "だ、ダンスですか！？……し、しまった、こうなるのを想定していなかった……指揮官、このまま教えてもらいながらや、やってもいいですか…？",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "D-D-Dance?! ... Oh my, I never thought it might come to this... Commander, can you teach me how to do it...?",
+						"englishNote" : ""
+					},
+					"9" : {
+						"event" : "Mission",
+						"media" : "task_4",
+						"chinese" : "指挥官，今天的话，可以稍微把任务放一放哦",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "指揮官、今日ぐらいは任務を少し後回しにしてもいいですよ",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Just for today, Commander, I don't mind you putting off your missions for a while.",
+						"englishNote" : ""
+					},
+					"10" : {
+						"event" : "Mission Complete",
+						"media" : "mission_complete_4",
+						"chinese" : "这些是……不愧是指挥官呢",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "これは……さすが指揮官です！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "This is... exactly what I'd expect from my Commander.",
+						"englishNote" : ""
+					},
+					"11" : {
+						"event" : "Mail",
+						"media" : "mail_4",
+						"chinese" : "收到了这么多邀请，指挥官，真受欢迎呢",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "招待状がこれほどまで……指揮官はすごく歓迎されていますね。ふふふ",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Look how many invitations you've gotten, Commander. Aren't you popular? Hehehe.",
+						"englishNote" : ""
+					},
+					"12" : {
+						"event" : "Return to Port",
+						"media" : "home_4",
+						"chinese" : "指挥官，今天稍微放松一些也没关系哦？",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "指揮官、今日ぐらいは少し楽にしても大丈夫ですよ？",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Commander, you don't mind if I cut a bit loose today, do you?",
+						"englishNote" : ""
+					},
+					"13" : {
+						"event" : "Victory",
+						"media" : "mvp_4",
+						"chinese" : "今天的我，可是状态绝佳哦",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "今日の私は絶好調ですよ！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "I'm doing splendidly today.",
+						"englishNote" : ""
+					},
+					"14" : {
+						"event" : "Defeat",
+						"media" : "lose_4",
+						"chinese" : "没办法……不是很想弄脏礼服呢",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "仕方ないですね……ドレスを汚したくありませんし…",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "What can I do? ... I don't want to get my dress dirty.",
+						"englishNote" : ""
+					},
+					"15" : {
+						"event" : "Affinity (Love)",
+						"media" : "feeling5_4",
+						"chinese" : "说起来，指挥官，虽然平时，我很少去关注这方面，但是，今晚，在你的面前，我果然还是想要知道，那个，就是……在你的眼中，我漂亮吗？",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "そ、そういえば指揮官！わたしはこういうのには疎いと自覚がありますけど、ええと、つまりその、きょ、今日のわたしのこの格好は、指揮官からしてはですね、その、き、キレイ……ですか？",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Erm, well, Commander! I don't usually think about things like this but, you know, tonight, I'm wondering, Commander, when I'm all dressed up like this, do you think I'm... well... pretty?",
+						"englishNote" : ""
+					}
+				}
+			},
+			"5": {
+				"skin_id" : "z23_5",
+				"id" : "6",
+				"label" : "真面目アイドル・マネージャー兼任!?",
+				"dialogue" : {
+					"1" : {
+						"event" : "Ship Description",
+						"media" : "",
+						"chinese" : "真是的，标枪还好，拉菲和绫波这两个人做偶像根本让人放心不下。没有办法，只好由我来帮她们规划了…啊，指挥官，也请不要忘记支持我哦？",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "ジャベリンはいいけど、ラフィーと綾波がアイドルをやるなんてすごく心配ですから、私が面倒を見るしかないですね…あっ、指揮官、私への応援もわ、忘れないでくださいっ！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"2" : {
+						"event" : "Acquisition",
+						"media" : "get_6",
+						"chinese" : "真是的，标枪还好，拉菲和绫波这两个人做偶像根本让人放心不下。没有办法，只好由我来帮她们规划了…啊，指挥官，也请不要忘记支持我哦？",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"3" : {
+						"event" : "Login",
+						"media" : "login_6",
+						"chinese" : "既然要做，就要做到最好！目标是，top idol！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"4" : {
+						"event" : "Details",
+						"media" : "detail_6",
+						"chinese" : "我并不讨厌一边做经纪人一边做偶像的感觉呢，不如说，或许这样才适合我也说不定",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"5" : {
+						"event" : "Touch",
+						"media" : "touch_1_6",
+						"chinese" : "指挥官，你觉得，我应该向哪个方向发展比较好呢？",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"6" : {
+						"event" : "Return to Port",
+						"media" : "home_6",
+						"chinese" : "指挥官在努力工作，我也不能懈怠了",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"7" : {
+						"event" : "Flagship",
+						"media" : "warcry_6",
+						"chinese" : "无论是战斗还是偶像，我都要做好！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"8" : {
+						"event" : "Defeat",
+						"media" : "lose_6",
+						"chinese" : "呼，看来需要加倍努力了",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					}
+				}
+			},
+			"6": {
+				"skin_id" : "z23_g",
+				"id" : "9",
+				"label" : "Z23 (Retrofit)",
+				"dialogue" : {
+					"1" : {
+						"event" : "Ship Description",
+						"media" : "",
+						"chinese" : "既然能力提升了，效率也要提升，公文也好，作战计划也好，尽管来吧！指挥官，做好心理准备，接下来会很忙哦~",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "性能の向上はすなわち、業務効率の上昇です！さあ、文書の処理でも、作戦計画の立案でも、なんでも任せてください！指揮官、これからはどんどん忙しくなりますから、覚悟をしていてくださいね",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "My efficiency should be upgraded along with my performance. Paperwork, battle plans... I can handle them all! Commander, be prepared, we’ll be very busy~",
+						"englishNote" : ""
+					},
+					"2" : {
+						"event" : "Acquisition",
+						"media" : "get_9",
+						"chinese" : "既然能力提升了，效率也要提升，公文也好，作战计划也好，尽管来吧！指挥官，做好心理准备，接下来会很忙哦~",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "性能の向上はすなわち、業務効率の上昇です！さあ、文書の処理でも、作戦計画の立案でも、なんでも任せてください！指揮官、これからはどんどん忙しくなりますから、覚悟をしていてくださいね",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "My efficiency should be upgraded along with my performance. Paperwork, battle plans... I can handle them all! Commander, be prepared, we’ll be very busy~",
+						"englishNote" : ""
+					},
+					"3" : {
+						"event" : "Login",
+						"media" : "login_9",
+						"chinese" : "指挥官，打起精神，投入紧张的工作中吧",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "指揮官、しっかりしてください。これからお仕事ですよ",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Commander, look alive, let’s make a greater effort on our attacks.",
+						"englishNote" : ""
+					},
+					"4" : {
+						"event" : "Details",
+						"media" : "detail_9",
+						"chinese" : "嗯，这样就完成得差不多了…好，去找标枪她们玩——欸，指、指挥官？！咳咳，正好，这里有一些文件……",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "これでよし、と…うん、そろそろジャベリンたちに会いに――え、し、指揮官！？コホン！ちょうどいいです！確認してほしい書類が……",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Ok, just little bit more and the retrofit will be complete... let’s go find Javelin and play with them—— Hey, *points*, it’s the Commander?! *Cough*, great timing, here are some documents...",
+						"englishNote" : ""
+					},
+					"5" : {
+						"event" : "Main 3",
+						"media" : "main_3_9",
+						"chinese" : "俯瞰战场的战术，纵观全局的战略……除此之外！知道自己在为什么而战也是很重要的哟",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "戦場を見渡す戦術、大局を見る戦略……のほかに！何のために戦っているかを知ることも大事ですよ",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : " Once we complete today’s mission, then come back and confirm our schedule for sorties over the next few days, there are still many things left to do.",
+						"englishNote" : ""
+					},
+					"6" : {
+						"event" : "Main 4",
+						"media" : "main_4_9",
+						"chinese" : "指挥官，休息够了的话，就开始处理这座公文山吧",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "指揮官、休憩が済んだら、引き続きこの文書の山の対応に励みましょう",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"7" : {
+						"event" : "Main 5",
+						"media" : "main_5_9",
+						"chinese" : "今天的任务完成了的话，就来确认一下接下来几天的日程吧，事情还多的是呢",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "今日の任務完了しました？これからの数日間のスケジュールを確認しましょう。やることはいっぱいありますよ",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"8" : {
+						"event" : "Touch",
+						"media" : "touch_1_9",
+						"chinese" : "指挥官，战场上气势也是很重要的哦，来，跟我一起练习出击姿势吧！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"9" : {
+						"event" : "Touch (Special)",
+						"media" : "touch_2_9",
+						"chinese" : "指挥官，做好在禁闭室办公的准备了吗？",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "指揮官、独房で仕事をする準備は出来ていますよね…？",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Commander, are you prepared to work in a lockdown environment?",
+						"englishNote" : ""
+					},
+					"10" : {
+						"event" : "Victory",
+						"media" : "mvp_9",
+						"chinese" : "很好，大家再接再厉！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "よし！次もがんばりましょう！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Well done, let’s keep this up, everyone!",
+						"englishNote" : ""
+					}
+				}
+			}
+		}
+	}
 }
