@@ -208,6 +208,8 @@ function setShipNavyIcon(navy){
 		document.getElementById("shipNavyIcon").src = "Images/Navy/uwrr_icon.png";
 	} else if (navy == "Bilibili") {
 		document.getElementById("shipNavyIcon").src = "Images/Navy/bili_icon.png";
+	} else if (navy == "Hololive") {
+		document.getElementById("shipNavyIcon").src = "Images/Navy/uwrr_icon.png";
 	}
 }
 

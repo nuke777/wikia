@@ -1,237 +1,251 @@
 {
-	"name_reference": "warspite",
-	"cn_reference": "yanzhan",
-	"nameJP": "ウォースパイト",
-	"nameCN": "厌战",
-	"ID": "131",
-	"name": "Warspite",
-	"internal_id": "205021",
-	"rarity": "Super Rare",
-	"initialStar": "★★★☆☆☆",
-	"hull": "Battleship",
-	"navy": "Royal Navy",
-	"prefix": "HMS",
-	"buildTime": "",
-	"class": "Queen Elizabeth-Class",
-	"voiceActress": "Sumire Uesaka",
+	"name_reference" : "warspite",
+	"cn_reference" : "yanzhan",
+	"nameJP" : "ウォースパイト",
+	"nameCN" : "厌战",
+	"ID" : "131",
+	"name" : "Warspite",
+	"internal_id" : "205021",
+	"rarity" : "Super Rare",
+	"initialStar" : "★★★☆☆☆",
+	"hull" : "Battleship",
+	"navy" : "Royal Navy",
+	"prefix" : "HMS",
+	"buildTime" : "04:10:00",
+	"voiceActress" : "Sumire Uesaka",
 	"parameters": {
-		"firepower": "S",
-		"torpedo": "E",
-		"aviation": "E",
-		"evasion": "D",
-		"antiAir": "D",
-		"hp": "A"
+		"firepower" : "S",
+		"torpedo" : "E",
+		"aviation" : "E",
+		"evasion" : "D",
+		"antiAir" : "D",
+		"hp" : "A"
 	},
 	"scrap": {
-		"gold": "11",
-		"oil": "4",
-		"medal": "10"
+		"gold" : "11",
+		"oil" : "4",
+		"medal" : "10"
 	},
 	"releaseDate": {
-		"JP": "",
-		"CN": "",
-		"KR": "",
-		"EN": ""
+		"JP" : "",
+		"CN" : "",
+		"KR" : "",
+		"EN" : ""
 	},
 	"artist": {
-		"name": "",
-		"weibo": "",
-		"twitter": "",
-		"pixiv": "",
-		"other": ""
+		"name" : "MD",
+		"weibo" : "",
+		"twitter" : "",
+		"pixiv" : "",
+		"other" : ""
 	},
+	"class" : "Queen Elizabeth-Class",
 	"enhance": {
-		"firepower": "69",
-		"torpedo": "0",
-		"aviation": "0",
-		"reload": "11"
+		"firepower" : "69",
+		"torpedo" : "0",
+		"aviation" : "0",
+		"reload" : "11"
 	},
-	"acquisitionMethod": "Honor medal exchange, Heavy Ship Construction",
+	"acquisitionMethod" : "Honor medal exchange, Heavy Ship Construction",
 	"skill": {
-		"1": {
-			"icon": "10310",
-			"requirement": "",
-			"name": "Divine Marksman",
-			"type": "Offensive",
-			"description": "Every $1s: fires a special barrage which will always be a Critical Hit towards the enemy farthest away from this ship. Barrage damage is based on the skill's level."
+		"1" : {
+			"icon" : "10310",
+			"requirement" : "Default Unlocked",
+			"name" : "Divine Marksman",
+			"type" : "Offensive",
+			"description" : "Every 35 (15) seconds, fires a barrage (damage based on Skill Level) at the furthest target with 100% critical hit chance. Shell type changes to AP at level 6."
+		},
+		"2" : {
+			"icon" : "10310",
+			"requirement" : "Retrofit",
+			"name" : "Divine Marksman +",
+			"type" : "Offensive",
+			"description" : "10 seconds after the start of a battle and every 35 (15) seconds after that, fires a barrage (damage based on Skill Level) at the furthest target with 100% critical hit chance. Every battle, increases the damage of the first barrage by 80% (130%). All allied main fleet Royal Navy ships' auto aim will have an increased chance of targeting the ship targeted by this barrage. Shell type changes to AP at Level 6. (Replaces Divine Marksman)"
+		},
+		"3" : {
+			"icon" : "11880",
+			"requirement" : "Retrofit",
+			"name" : "The Royal Legend",
+			"type" : "Offensive",
+			"description" : "Reduces the Dispersion of equipped main gun by 0.5 (5). Increases own Firepower by 3% (15%) and hit rate against Destroyers by 3% (15%)."
 		}
 	},
 	"skin": {
-		"1": {
-			"id": "yanzhan",
-			"name": "Warspite",
-			"description": "Queen Elizabeth-class battleship - Warspite, Hull Number 03!",
-			"expression": {
-				"0": {
-					"id": "0"
+		"1" : {
+			"id" : "yanzhan",
+			"name" : "Warspite",
+			"description" : "Queen Elizabeth-class battleship - Warspite, Hull Number 03!",
+			"expression" : {
+				"0" : {
+					"id" : "0"
 				}
 			}
 		},
-		"2": {
-			"id": "yanzhan_2",
-			"name": "Christmas Warrior ",
-			"description": "This year, I am in charge of delivering presents to the children of the Royal Navy. Let's get going once I finish decorating this Christmas tree! ",
-			"expression": {
-				"0": {
-					"id": "0"
+		"2" : {
+			"id" : "yanzhan_2",
+			"name" : "Christmas Warrior ",
+			"description" : "This year, I am in charge of delivering presents to the children of the Royal Navy. Let's get going once I finish decorating this Christmas tree! ",
+			"expression" : {
+				"0" : {
+					"id" : "0"
 				},
-				"1": {
-					"id": "1"
+				"1" : {
+					"id" : "1"
 				},
-				"2": {
-					"id": "2"
+				"2" : {
+					"id" : "2"
 				},
-				"3": {
-					"id": "3"
+				"3" : {
+					"id" : "3"
 				},
-				"4": {
-					"id": "4"
+				"4" : {
+					"id" : "4"
 				},
-				"5": {
-					"id": "5"
+				"5" : {
+					"id" : "5"
 				},
-				"6": {
-					"id": "6"
+				"6" : {
+					"id" : "6"
 				},
-				"7": {
-					"id": "7"
+				"7" : {
+					"id" : "7"
 				}
 			}
 		},
-		"3": {
-			"id": "yanzhan_g",
-			"name": "ウォースパイト改",
-			"description": "ウォースパイト、改造終了。ふむ、この一新された気分、悪くないわ…では指揮官、新たな戦場に参ろうか！",
-			"expression": {
-				"0": {
-					"id": "0"
+		"3" : {
+			"id" : "yanzhan_g",
+			"name" : "Warspite (Retrofit)",
+			"description" : "Warspite, retrofitting complete. Mm, I rather like this feeling of being rejuvenated... Now, Commander, let us make our way towards new battlegrounds! ",
+			"expression" : {
+				"0" : {
+					"id" : "0"
 				},
-				"1": {
-					"id": "1"
+				"1" : {
+					"id" : "1"
 				},
-				"2": {
-					"id": "2"
+				"2" : {
+					"id" : "2"
 				},
-				"3": {
-					"id": "3"
+				"3" : {
+					"id" : "3"
 				},
-				"4": {
-					"id": "4"
+				"4" : {
+					"id" : "4"
 				},
-				"5": {
-					"id": "5"
+				"5" : {
+					"id" : "5"
 				},
-				"6": {
-					"id": "6"
+				"6" : {
+					"id" : "6"
 				},
-				"7": {
-					"id": "7"
+				"7" : {
+					"id" : "7"
 				}
 			}
 		}
 	},
 	"defaultEquipment": {
-		"1": {
-			"icon": "24100",
-			"rarity": "Common",
-			"name": "Twin 381mm Main Gun"
+		"1" : {
+			"icon" : "24100",
+			"rarity" : "Common",
+			"name" : "Twin 381mm Main Gun"
 		},
-		"2": {
-			"icon": "22000",
-			"rarity": "",
-			"name": "Single 152mm Auxiliary Gun"
+		"2" : {
+			"icon" : "22000",
+			"rarity" : "",
+			"name" : "Single 152mm Auxiliary Gun"
 		},
-		"3": {
-			"icon": "",
-			"rarity": "",
-			"name": ""
+		"3" : {
+			"icon" : "",
+			"rarity" : "",
+			"name" : ""
 		}
 	},
 	"stats": {
+		"base": {
+			"hp" : "1298",
+			"firepower" : "84",
+			"torpedo" : "0",
+			"antiAir" : "41",
+			"aviation" : "0",
+			"reload" : "58",
+			"hit" : "24",
+			"evasion" : "6",
+			"speed" : "24",
+			"luck" : "90",
+			"asw" : "0",
+			"oxygen" : "0",
+			"ammo" : "0",
+			"cost" : "5",
+			"armor" : "Heavy"
+		},
 		"100": {
-			"hp": "6710",
-			"firepower": "396",
-			"torpedo": "0",
-			"antiAir": "191",
-			"aviation": "0",
-			"reload": "138",
-			"hit": "63",
-			"evasion": "15",
-			"speed": "24",
-			"luck": "90",
-			"asw": "0",
-			"oxygen": "0",
-			"ammo": "0",
-			"cost": "15",
-			"armor": "Heavy"
+			"hp" : "6710",
+			"firepower" : "396",
+			"torpedo" : "0",
+			"antiAir" : "191",
+			"aviation" : "0",
+			"reload" : "138",
+			"hit" : "63",
+			"evasion" : "15",
+			"speed" : "24",
+			"luck" : "90",
+			"asw" : "0",
+			"oxygen" : "0",
+			"ammo" : "0",
+			"cost" : "15",
+			"armor" : "Heavy"
 		},
 		"120": {
-			"hp": "7783",
-			"firepower": "426",
-			"torpedo": "0",
-			"antiAir": "220",
-			"aviation": "0",
-			"reload": "159",
-			"hit": "75",
-			"evasion": "33",
-			"speed": "24",
-			"luck": "90",
-			"asw": "0",
-			"oxygen": "0",
-			"ammo": "0",
-			"cost": "15",
-			"armor": "Heavy"
-		},
-		"base": {
-			"hp": "1298",
-			"firepower": "84",
-			"torpedo": "0",
-			"antiAir": "41",
-			"aviation": "0",
-			"reload": "58",
-			"hit": "24",
-			"evasion": "6",
-			"speed": "24",
-			"luck": "90",
-			"asw": "0",
-			"oxygen": "0",
-			"ammo": "0",
-			"cost": "5",
-			"armor": "Heavy"
+			"hp" : "7783",
+			"firepower" : "426",
+			"torpedo" : "0",
+			"antiAir" : "220",
+			"aviation" : "0",
+			"reload" : "159",
+			"hit" : "75",
+			"evasion" : "33",
+			"speed" : "24",
+			"luck" : "90",
+			"asw" : "0",
+			"oxygen" : "0",
+			"ammo" : "0",
+			"cost" : "15",
+			"armor" : "Heavy"
 		},
 		"100retrofit": {
-			"hp": "6950",
-			"firepower": "416",
-			"torpedo": "0",
-			"antiAir": "261",
-			"aviation": "0",
-			"reload": "158",
-			"hit": "88",
-			"evasion": "15",
-			"speed": "24",
-			"luck": "90",
-			"asw": "0",
-			"oxygen": "0",
-			"ammo": "0",
-			"cost": "15",
-			"armor": "Heavy"
+			"hp" : "6950",
+			"firepower" : "416",
+			"torpedo" : "0",
+			"antiAir" : "261",
+			"aviation" : "0",
+			"reload" : "158",
+			"hit" : "88",
+			"evasion" : "15",
+			"speed" : "24",
+			"luck" : "90",
+			"asw" : "0",
+			"oxygen" : "0",
+			"ammo" : "0",
+			"cost" : "15",
+			"armor" : "Heavy"
 		},
 		"120retrofit": {
-			"hp": "8023",
-			"firepower": "446",
-			"torpedo": "0",
-			"antiAir": "290",
-			"aviation": "0",
-			"reload": "179",
-			"hit": "100",
-			"evasion": "33",
-			"speed": "24",
-			"luck": "90",
-			"asw": "0",
-			"oxygen": "0",
-			"ammo": "0",
-			"cost": "15",
-			"armor": "Heavy"
+			"hp" : "8023",
+			"firepower" : "446",
+			"torpedo" : "0",
+			"antiAir" : "290",
+			"aviation" : "0",
+			"reload" : "179",
+			"hit" : "100",
+			"evasion" : "33",
+			"speed" : "24",
+			"luck" : "90",
+			"asw" : "0",
+			"oxygen" : "0",
+			"ammo" : "0",
+			"cost" : "15",
+			"armor" : "Heavy"
 		}
 	},
 	"limitBreak": {
@@ -259,17 +273,30 @@
 			"preload": "0/0/0/0"
 		},
 		"4": {
-			"type": "Auxiliary",
+			"type": "Auxilary",
 			"efficiency": "-",
 			"amount": "-",
 			"preload": "-"
 		},
 		"5": {
-			"type": "Auxiliary",
+			"type": "Auxilary",
 			"efficiency": "-",
 			"amount": "-",
 			"preload": "-"
 		}
+	},
+	"fleet_tech": {
+		"pt_get": "16",
+		"add_get_attr": "HP",
+		"add_get_value": "1",
+		"add_get_shiptype": "Battlecruiser,Battleship,Aviation Battleship",
+		"pt_upgrade": "32",
+		"pt_level": "24",
+		"add_level_attr": "Hit",
+		"add_level_value": "2",
+		"add_level_shiptype": "Battlecruiser,Battleship,Aviation Battleship",
+		"t_level": "5",
+		"ships": "queen_elizabeth,warspite"
 	},
 	"build": {
 		"light": {
@@ -278,9 +305,9 @@
 			"EN": ""
 		},
 		"heavy": {
-			"JP": "",
-			"CN": "",
-			"EN": ""
+			"JP": "✓",
+			"CN": "✓",
+			"EN": "✓"
 		},
 		"special": {
 			"JP": "",
@@ -315,651 +342,674 @@
 	"lines": {
 		"skin": {
 			"1": {
-				"skin_id": "yanzhan",
-				"id": "0",
-				"label": "Warspite",
-				"dialogue": {
-					"1": {
-						"event": "Ship Description",
-						"media": "",
-						"chinese": "伊丽莎白女王级战列舰—厌战，舷号03",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "クイーンエリザベス級戦艦・ウォースパイト（HMS Warspite）",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "Queen Elizabeth-class battleship - Warspite, Hull Number 03!",
-						"englishNote": ""
+				"skin_id" : "yanzhan",
+				"id" : "0",
+				"label" : "Warspite",
+				"dialogue" : {
+					"1" : {
+						"event" : "Ship Description",
+						"media" : "",
+						"chinese" : "伊丽莎白女王级战列舰—厌战，舷号03",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "クイーンエリザベス級戦艦・ウォースパイト（HMS Warspite）",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Queen Elizabeth-class battleship - Warspite, Hull Number 03!",
+						"englishNote" : ""
 					},
-					"2": {
-						"event": "Biography",
-						"media": "profile",
-						"chinese": "伊丽莎白级高速战列舰厌战，我是最远炮击命中移动目标的记录保持者。之前出征，好几次以为要撑不住了却都奇迹般的被救了回来——这一定是我的命运",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "クイーンエリザベス級高速戦艦ウォースパイト。移動する目標に対する長距離射撃の命中記録を持ってるの。絶体絶命の出撃を何度も奇跡的に生き抜いてきたわーーきっとすべて私の運命よ？",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "Elizabeth-class fast battleship, Warspite, reporting in. I hold the record for the longest ranged hit on a moving target. I've come close to being defeated quite a few times, but I managed to cheat death every time. This must be my fate.",
-						"englishNote": ""
+					"2" : {
+						"event" : "Biography",
+						"media" : "profile",
+						"chinese" : "伊丽莎白级高速战列舰厌战，我是最远炮击命中移动目标的记录保持者。之前出征，好几次以为要撑不住了却都奇迹般的被救了回来——这一定是我的命运",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "クイーンエリザベス級高速戦艦ウォースパイト。移動する目標に対する長距離射撃の命中記録を持ってるの。絶体絶命の出撃を何度も奇跡的に生き抜いてきたわーーきっとすべて私の運命よ？",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Elizabeth-class fast battleship, Warspite, reporting in. I hold the record for the longest ranged hit on a moving target. I've come close to being defeated quite a few times, but I managed to cheat death every time. This must be my fate.",
+						"englishNote" : ""
 					},
-					"3": {
-						"event": "Acquisition",
-						"media": "get",
-						"chinese": "初次见面，我是厌战，最远炮击命中移动目标的记录保持者——很意外吗？我比想象中的要小只？看来我们需要好好谈谈……",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "初めまして、私はウォースパイト。移動目標に対する長距離射撃の命中記録を持ってるの…意外かしら？思ったより小さい？どうやら話すことがたくさんありそうね…",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "Greetings, I'm Warspite. I hold the record for the longest ranged hit on a moving target. Surprised? I'm smaller than you thought? Looks like we need to have a long talk...",
-						"englishNote": ""
+					"3" : {
+						"event" : "Acquisition",
+						"media" : "get",
+						"chinese" : "初次见面，我是厌战，最远炮击命中移动目标的记录保持者——很意外吗？我比想象中的要小只？看来我们需要好好谈谈……",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "初めまして、私はウォースパイト。移動目標に対する長距離射撃の命中記録を持ってるの…意外かしら？思ったより小さい？どうやら話すことがたくさんありそうね…",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Greetings, I'm Warspite. I hold the record for the longest ranged hit on a moving target. Surprised? I'm smaller than you thought? Looks like we need to have a long talk...",
+						"englishNote" : ""
 					},
-					"4": {
-						"event": "Login",
-						"media": "login",
-						"chinese": "只要有我厌战在，敌人跑再远都能解决掉",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "このウォースパイト、どんなに遠くに逃げた敵でもやっつけてあげるわ",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "As long as I'm here, we can deal with any enemy, no matter how far they are.",
-						"englishNote": ""
+					"4" : {
+						"event" : "Login",
+						"media" : "login",
+						"chinese" : "只要有我厌战在，敌人跑再远都能解决掉",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "このウォースパイト、どんなに遠くに逃げた敵でもやっつけてあげるわ",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "As long as I'm here, we can deal with any enemy, no matter how far they are.",
+						"englishNote" : ""
 					},
-					"5": {
-						"event": "Details",
-						"media": "detail",
-						"chinese": "不要被数据迷惑双眼，影响胜利的还有许多东西",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "データに惑わされないで、勝利を導く条件は他にもっとあるわ",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "Don't be blinded by statistics. Victory depends on far more!",
-						"englishNote": ""
+					"5" : {
+						"event" : "Details",
+						"media" : "detail",
+						"chinese" : "不要被数据迷惑双眼，影响胜利的还有许多东西",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "データに惑わされないで、勝利を導く条件は他にもっとあるわ",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Don't be blinded by statistics. Victory depends on far more!",
+						"englishNote" : ""
 					},
-					"6": {
-						"event": "Main 1",
-						"media": "main_1",
-						"chinese": "指挥官的命令就是法令，我会优先对待的",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "指揮官の命令はすべてよ。最優先で対応しなくては",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "Your orders are absolute, Commander. They shall be my highest priority.",
-						"englishNote": ""
+					"6" : {
+						"event" : "Main 1",
+						"media" : "main_1",
+						"chinese" : "指挥官的命令就是法令，我会优先对待的",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "指揮官の命令はすべてよ。最優先で対応しなくては",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Your orders are absolute, Commander. They shall be my highest priority.",
+						"englishNote" : ""
 					},
-					"7": {
-						"event": "Main 2",
-						"media": "main_2",
-						"chinese": "老女士如果不穿裙子跑得就更快了，比比看吗？",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "オールド・レディは、スカートをはかなければもっと早く走れるの、試してみる？",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "This grand old lady can run faster without a skirt. Want to race with me?",
-						"englishNote": ""
+					"7" : {
+						"event" : "Main 2",
+						"media" : "main_2",
+						"chinese" : "老女士如果不穿裙子跑得就更快了，比比看吗？",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "オールド・レディは、スカートをはかなければもっと早く走れるの、試してみる？",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "This grand old lady can run faster without a skirt. Want to race with me?",
+						"englishNote" : ""
 					},
-					"8": {
-						"event": "Main 3",
-						"media": "main_3",
-						"chinese": "再拿我开玩笑的话，即使吃15寸炮弹也没关系吗？",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "これ以上私をからかうと、15inch砲弾を食らわすわよ？",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "If you make fun of me one more time, you'll be eating my 15 inch shells!",
-						"englishNote": ""
+					"8" : {
+						"event" : "Main 3",
+						"media" : "main_3",
+						"chinese" : "再拿我开玩笑的话，即使吃15寸炮弹也没关系吗？",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "これ以上私をからかうと、15inch砲弾を食らわすわよ？",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "If you make fun of me one more time, you'll be eating my 15 inch shells!",
+						"englishNote" : ""
 					},
-					"9": {
-						"event": "Touch",
-						"media": "touch_1",
-						"chinese": "身体的接触……并不讨厌……",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "こういうスキンシップは…嫌いじゃないわ",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "Body contact...? I don't hate it...",
-						"englishNote": ""
+					"9" : {
+						"event" : "Touch",
+						"media" : "touch_1",
+						"chinese" : "身体的接触……并不讨厌……",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "こういうスキンシップは…嫌いじゃないわ",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Body contact...? I don't hate it...",
+						"englishNote" : ""
 					},
-					"10": {
-						"event": "Touch (Special)",
-						"media": "touch_2",
-						"chinese": "你要清楚，我绝对没有那么的、呃……",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "いいこと？私は決してそんな、ええと･･･",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "Just so you understand, I'm definitely not that sort of, erm...",
-						"englishNote": ""
+					"10" : {
+						"event" : "Touch (Special)",
+						"media" : "touch_2",
+						"chinese" : "你要清楚，我绝对没有那么的、呃……",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "いいこと？私は決してそんな、ええと･･･",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Just so you understand, I'm definitely not that sort of, erm...",
+						"englishNote" : ""
 					},
-					"11": {
-						"event": "Mission",
-						"media": "task",
-						"chinese": "接下新的任务然后下令出征吧，指挥官",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "新しいクエストを受け次第、出陣するわ",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "Accept your new mission and then get ready to head out, Commander!",
-						"englishNote": ""
+					"11" : {
+						"event" : "Mission",
+						"media" : "task",
+						"chinese" : "接下新的任务然后下令出征吧，指挥官",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "新しいクエストを受け次第、出陣するわ",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Accept your new mission and then get ready to head out, Commander!",
+						"englishNote" : ""
 					},
-					"12": {
-						"event": "Mission Complete",
-						"media": "mission_complete",
-						"chinese": "所谓任务，完成必定有其奖励，可别忘了领取",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "ミッションにはボーナスがあるから、それを忘れないように",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "Missions give out rewards once you complete them. Don't forget that!",
-						"englishNote": ""
+					"12" : {
+						"event" : "Mission Complete",
+						"media" : "mission_complete",
+						"chinese" : "所谓任务，完成必定有其奖励，可别忘了领取",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "ミッションにはボーナスがあるから、それを忘れないように",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Missions give out rewards once you complete them. Don't forget that!",
+						"englishNote" : ""
 					},
-					"13": {
-						"event": "Mail",
-						"media": "mail",
-						"chinese": "指挥官，有你的信件",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "指揮官、メールがあるわよ",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "You've got mail, Commander!",
-						"englishNote": ""
+					"13" : {
+						"event" : "Mail",
+						"media" : "mail",
+						"chinese" : "指挥官，有你的信件",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "指揮官、メールがあるわよ",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "You've got mail, Commander!",
+						"englishNote" : ""
 					},
-					"14": {
-						"event": "Return to Port",
-						"media": "home",
-						"chinese": "呼…不错的杀气，不过回来了就放松一下吧",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "ふぅ~いい殺気だったわ。でも帰ったからにはもうゆっくりしようかしら",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "Whew, not a bad fight. Let's rest for a while.",
-						"englishNote": ""
+					"14" : {
+						"event" : "Return to Port",
+						"media" : "home",
+						"chinese" : "呼…不错的杀气，不过回来了就放松一下吧",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "ふぅ~いい殺気だったわ。でも帰ったからにはもうゆっくりしようかしら",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Whew, not a bad fight. Let's rest for a while.",
+						"englishNote" : ""
 					},
-					"15": {
-						"event": "Commission Complete",
-						"media": "expedition",
-						"chinese": "委托啊，真怀念，我以前也有到处跑的时候，走吧，努力的她们理应得到迎接",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "委託か。懐かしいわね。私も昔走り回ってた時期があったのよ。行こう。努力した彼女たちには出迎えが相応しいわ",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "Commissions? I suppose I do miss running around on errands... Let's go. We need to welcome back those hard workers!",
-						"englishNote": ""
+					"15" : {
+						"event" : "Commission Complete",
+						"media" : "expedition",
+						"chinese" : "委托啊，真怀念，我以前也有到处跑的时候，走吧，努力的她们理应得到迎接",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "委託か。懐かしいわね。私も昔走り回ってた時期があったのよ。行こう。努力した彼女たちには出迎えが相応しいわ",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Commissions? I suppose I do miss running around on errands... Let's go. We need to welcome back those hard workers!",
+						"englishNote" : ""
 					},
-					"16": {
-						"event": "Enhancement",
-						"media": "upgrade",
-						"chinese": "战场啊，我来了",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "戦場よ、私が参るわ",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "Battlefield, I'm coming for you.",
-						"englishNote": ""
+					"16" : {
+						"event" : "Enhancement",
+						"media" : "upgrade",
+						"chinese" : "战场啊，我来了",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "戦場よ、私が参るわ",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Battlefield, I'm coming for you.",
+						"englishNote" : ""
 					},
-					"17": {
-						"event": "Flagship",
-						"media": "warcry",
-						"chinese": "绝不放过与指挥官为敌的人！",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "指揮官の敵は絶対に見逃さない！",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "I would never let the commander's enemies escape!",
-						"englishNote": ""
+					"17" : {
+						"event" : "Flagship",
+						"media" : "warcry",
+						"chinese" : "绝不放过与指挥官为敌的人！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "指揮官の敵は絶対に見逃さない！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "I would never let the commander's enemies escape!",
+						"englishNote" : ""
 					},
-					"18": {
-						"event": "Victory",
-						"media": "mvp",
-						"chinese": "别被所谓的极限禁锢。不沉的传奇不是浪得虚名的！",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "限界に縛られちゃだめ。不沈艦の名はだてじゃないわ！",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "Don't be confined by the so-called \"limits\". It is indeed possible to be unsinkable!",
-						"englishNote": ""
+					"18" : {
+						"event" : "Victory",
+						"media" : "mvp",
+						"chinese" : "别被所谓的极限禁锢。不沉的传奇不是浪得虚名的！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "限界に縛られちゃだめ。不沈艦の名はだてじゃないわ！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Don't be confined by the so-called \"limits\". It is indeed possible to be unsinkable!",
+						"englishNote" : ""
 					},
-					"19": {
-						"event": "Defeat",
-						"media": "lose",
-						"chinese": "损管，舵机怎么又不好控制了？嘁！居然在这个时候",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "ダメコンが作動しない！？操舵装置もコントロールできなくなった！？ちょっと！肝心な時に！",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "My damage control isn't functioning?! I've lost control of my steering wheel as well! Why now, at such a critical moment?!",
-						"englishNote": ""
+					"19" : {
+						"event" : "Defeat",
+						"media" : "lose",
+						"chinese" : "损管，舵机怎么又不好控制了？嘁！居然在这个时候",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "ダメコンが作動しない！？操舵装置もコントロールできなくなった！？ちょっと！肝心な時に！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "My damage control isn't functioning?! I've lost control of my steering wheel as well! Why now, at such a critical moment?!",
+						"englishNote" : ""
 					},
-					"20": {
-						"event": "Skill",
-						"media": "skill",
-						"chinese": "Belli dura despicio！",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "Belli dura despicio！",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "Belli dura despicio!",
-						"englishNote": ""
+					"20" : {
+						"event" : "Skill",
+						"media" : "skill",
+						"chinese" : "Belli dura despicio！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "Belli dura despicio！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Belli dura despicio!",
+						"englishNote" : ""
 					},
-					"21": {
-						"event": "Low HP",
-						"media": "hp",
-						"chinese": "战斗的艰辛，不过如此",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "戦闘の厳しさもこの程度か",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "So this is how harsh the battlefield can be.",
-						"englishNote": ""
+					"21" : {
+						"event" : "Low HP",
+						"media" : "hp",
+						"chinese" : "战斗的艰辛，不过如此",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "戦闘の厳しさもこの程度か",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "So this is how harsh the battlefield can be.",
+						"englishNote" : ""
 					},
-					"22": {
-						"event": "Affinity (Upset)",
-						"media": "feeling1",
-						"chinese": "请你不要摆出一副好像你和我很熟的样子",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "馴れ馴れしいのはよしてもらえないかしら…",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "Would you please not act like we're close...",
-						"englishNote": ""
+					"22" : {
+						"event" : "Affinity (Upset)",
+						"media" : "feeling1",
+						"chinese" : "请你不要摆出一副好像你和我很熟的样子",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "馴れ馴れしいのはよしてもらえないかしら…",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Would you please not act like we're close...",
+						"englishNote" : ""
 					},
-					"23": {
-						"event": "Affinity (Stranger)",
-						"media": "feeling2",
-						"chinese": "指挥官，想要听听皇家海军史吗？我给你讲讲我以前跟随过的那些将领吧",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "指揮官、ロイヤルネイビーの歴史を知りたい？私を従えた将軍たちの話をしようかしら",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "Commander, want to hear about the history of the Royal Navy? Maybe I should tell you something about the generals who used to accompany me.",
-						"englishNote": ""
+					"23" : {
+						"event" : "Affinity (Stranger)",
+						"media" : "feeling2",
+						"chinese" : "指挥官，想要听听皇家海军史吗？我给你讲讲我以前跟随过的那些将领吧",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "指揮官、ロイヤルネイビーの歴史を知りたい？私を従えた将軍たちの話をしようかしら",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Commander, want to hear about the history of the Royal Navy? Maybe I should tell you something about the generals who used to accompany me.",
+						"englishNote" : ""
 					},
-					"24": {
-						"event": "Affinity (Friendly)",
-						"media": "feeling3",
-						"chinese": "没有什么贵族气质吗？不像胡德她们那样还真是对不起呢……我才没有在说欧派……",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "貴族気質がない、か？確かにフッドたちと違って申し訳……む、胸の話はなしだぞ！",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "I'm not very elegant? I'm sorry that I'm not like Hood or the others... No... I'm not talking about my body...",
-						"englishNote": ""
+					"24" : {
+						"event" : "Affinity (Friendly)",
+						"media" : "feeling3",
+						"chinese" : "没有什么贵族气质吗？不像胡德她们那样还真是对不起呢……我才没有在说欧派……",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "貴族気質がない、か？確かにフッドたちと違って申し訳……む、胸の話はなしだぞ！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "I'm not very elegant? I'm sorry that I'm not like Hood or the others... No... I'm not talking about my body...",
+						"englishNote" : ""
 					},
-					"25": {
-						"event": "Affinity (Like)",
-						"media": "feeling4",
-						"chinese": "怎么说呢……我在姐妹们之中是算得上是年长者的，虽然是这种体型……就是，感觉和她们争有点丢脸，又忍不住想见你……不知道怎么办好……",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "なんというか……私、姉妹の中では年長のほうなのに、スタイルがこう……年甲斐もなく若い子たちと争うわけには行かないし、せめてあなたの前だけでは魅力的にみせたくて……どうしたら……",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "How do I put this... I'm considered to be one of the older girls, yet my body is like this... It might be unbecoming of one my age to compete with the younger girls, but I wanted to at least be attractive to you… What is a lady meant to do…",
-						"englishNote": ""
+					"25" : {
+						"event" : "Affinity (Like)",
+						"media" : "feeling4",
+						"chinese" : "怎么说呢……我在姐妹们之中是算得上是年长者的，虽然是这种体型……就是，感觉和她们争有点丢脸，又忍不住想见你……不知道怎么办好……",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "なんというか……私、姉妹の中では年長のほうなのに、スタイルがこう……年甲斐もなく若い子たちと争うわけには行かないし、せめてあなたの前だけでは魅力的にみせたくて……どうしたら……",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "How do I put this... I'm considered to be one of the older girls, yet my body is like this... It might be unbecoming of one my age to compete with the younger girls, but I wanted to at least be attractive to you… What is a lady meant to do…",
+						"englishNote" : ""
 					},
-					"26": {
-						"event": "Affinity (Love)",
-						"media": "feeling5",
-						"chinese": "算了，我可是厌战，藐视战争的厌战！哼，不过要是有谁想抢指挥官，那就先问过我的大炮再说吧！",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "まあいいわ。私はウォースパイト、戦争を嫌悪するものよ。ふん！だが、この私から指揮官を奪おうとするやつは、先にこの大砲で見定めさせてもらうわ！",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "Well, enough of that. I'm Warspite, the one who spites war. Hmph! However, whosoever tries to take the Commander away from me will first have to face my cannons!",
-						"englishNote": ""
+					"26" : {
+						"event" : "Affinity (Love)",
+						"media" : "feeling5",
+						"chinese" : "算了，我可是厌战，藐视战争的厌战！哼，不过要是有谁想抢指挥官，那就先问过我的大炮再说吧！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "まあいいわ。私はウォースパイト、戦争を嫌悪するものよ。ふん！だが、この私から指揮官を奪おうとするやつは、先にこの大砲で見定めさせてもらうわ！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Well, enough of that. I'm Warspite, the one who spites war. Hmph! However, whosoever tries to take the Commander away from me will first have to face my cannons!",
+						"englishNote" : ""
 					},
-					"27": {
-						"event": "Pledge",
-						"media": "propose",
-						"chinese": "这一天终于来了吗，看来我的努力没有白费……走吧指挥官，我已经准备好了，Officers，draw swords！",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "この日がついに来たか。私の努力は無駄じゃなかった……ふぅ……では指揮官、参ろうか。用意はできているわ。Officers，draw swords！",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "Finally the day has come! It looks like my efforts were not in vain... Let's go, Commander, I'm prepared for this. Officers, draw swords!",
-						"englishNote": ""
+					"27" : {
+						"event" : "Pledge",
+						"media" : "propose",
+						"chinese" : "这一天终于来了吗，看来我的努力没有白费……走吧指挥官，我已经准备好了，Officers，draw swords！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "この日がついに来たか。私の努力は無駄じゃなかった……ふぅ……では指揮官、参ろうか。用意はできているわ。Officers，draw swords！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Finally the day has come! It looks like my efforts were not in vain... Let's go, Commander, I'm prepared for this. Officers, draw swords!",
+						"englishNote" : ""
 					},
-					"28": {
-						"event": "Easter Egg 1 (Gridley, Maury)",
-						"media": "link1",
-						"chinese": "要和老女士比比速度吗，小家伙",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "オールド·レディと速さ比べか？",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "Do you want to race this old lady?",
-						"englishNote": ""
+					"28" : {
+						"event" : "Easter Egg 1(Gridley, Maury)",
+						"media" : "link1",
+						"chinese" : "要和老女士比比速度吗，小家伙",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "オールド·レディと速さ比べか？",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Do you want to race this old lady?",
+						"englishNote" : ""
 					},
-					"29": {
-						"event": "Easter Egg 2 (Enterprise)",
-						"media": "link2",
-						"chinese": "天下无双？哈……",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "天下無双？はぁ……",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "Unmatched by any? *Sigh*...",
-						"englishNote": ""
+					"29" : {
+						"event" : "Easter Egg 2(Enterprise)",
+						"media" : "link2",
+						"chinese" : "天下无双？哈……",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "天下無双？はぁ……",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Unmatched by any? *Sigh*...",
+						"englishNote" : ""
 					},
-					"30": {
-						"event": "Easter Egg 3 (Hood)",
-						"media": "link3",
-						"chinese": "优雅可不适合战场",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "優雅は戦場に適さないわ。",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "Elegance does not belong on the battlefield.",
-						"englishNote": ""
+					"30" : {
+						"event" : "Easter Egg 3(Hood)",
+						"media" : "link3",
+						"chinese" : "优雅可不适合战场",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "優雅は戦場に適さないわ。",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Elegance does not belong on the battlefield.",
+						"englishNote" : ""
 					},
-					"31": {
-						"event": "Easter Egg 4 (Queen Elizabeth)",
-						"media": "link4",
-						"chinese": "陛下，请期待我的活跃",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "陛下、私の活躍に期待して頂戴。",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "Your Majesty, please look forward to my performance in battle.",
-						"englishNote": ""
+					"31" : {
+						"event" : "Easter Egg 4(Queen Elizabeth)",
+						"media" : "link4",
+						"chinese" : "陛下，请期待我的活跃",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "陛下、私の活躍に期待して頂戴。",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Your Majesty, please look forward to my performance in battle.",
+						"englishNote" : ""
 					},
-					"32": {
-						"event": "Easter Egg 5 (Nelson, Rodney)",
-						"media": "link5",
-						"chinese": "后辈们，跟上",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "後輩たち、ついてきなさい。",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "Youngsters, follow me.",
-						"englishNote": ""
+					"32" : {
+						"event" : "Easter Egg 5(Nelson, Rodney)",
+						"media" : "link5",
+						"chinese" : "后辈们，跟上",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "後輩たち、ついてきなさい。",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Youngsters, follow me.",
+						"englishNote" : ""
+					},
+					"33" : {
+						"event" : "Like Present",
+						"media" : "present_like",
+						"chinese" : "",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"34" : {
+						"event" : "Dislike Present",
+						"media" : "present_dislike",
+						"chinese" : "",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"35" : {
+						"event" : "Main Title",
+						"media" : "extra",
+						"chinese" : "",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
 					}
 				}
 			},
 			"2": {
-				"skin_id": "yanzhan_2",
-				"id": "1",
-				"label": "Christmas Warrior ",
-				"dialogue": {
-					"1": {
-						"event": "Ship Description",
-						"media": "",
-						"chinese": "今年是我负责给皇家的孩子们送礼物。嗯，把这个圣诞树装饰好就出发吧！",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "今年は私がロイヤルの子たちにプレゼントを配る番か。ふむ、このクリスマスツリーを飾り終わったら参ろうか！",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "This year, I am in charge of delivering presents to the children of the Royal Navy. Let's get going once I finish decorating this Christmas tree!",
-						"englishNote": ""
+				"skin_id" : "yanzhan_2",
+				"id" : "1",
+				"label" : "Christmas Warrior ",
+				"dialogue" : {
+					"1" : {
+						"event" : "Ship Description",
+						"media" : "",
+						"chinese" : "今年是我负责给皇家的孩子们送礼物。嗯，把这个圣诞树装饰好就出发吧！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "今年は私がロイヤルの子たちにプレゼントを配る番か。ふむ、このクリスマスツリーを飾り終わったら参ろうか！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "This year, I am in charge of delivering presents to the children of the Royal Navy. Let's get going once I finish decorating this Christmas tree!",
+						"englishNote" : ""
 					},
-					"2": {
-						"event": "Acquisition",
-						"media": "get_1",
-						"chinese": "今年是我负责给皇家的孩子们送礼物。嗯，把这个圣诞树装饰好就出发吧！",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "今年は私がロイヤルの子たちにプレゼントを配る番か。ふむ、このクリスマスツリーを飾り終わったら参ろうか！",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "This year, I am in charge of delivering presents to the children of the Royal Navy. Let's get going once I finish decorating this Christmas tree!",
-						"englishNote": ""
+					"2" : {
+						"event" : "Acquisition",
+						"media" : "get_1",
+						"chinese" : "今年是我负责给皇家的孩子们送礼物。嗯，把这个圣诞树装饰好就出发吧！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "今年は私がロイヤルの子たちにプレゼントを配る番か。ふむ、このクリスマスツリーを飾り終わったら参ろうか！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "This year, I am in charge of delivering presents to the children of the Royal Navy. Let's get going once I finish decorating this Christmas tree!",
+						"englishNote" : ""
 					},
-					"3": {
-						"event": "Login",
-						"media": "login_1",
-						"chinese": "战士也是需要适当休息的，既然是节日，你也不用太紧绷神经",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "戦士にも休息が必要よ。祝日はそう張り詰めなさんな",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "Even warriors need to rest. Since it's a holiday, you shouldn't be too uptight either.",
-						"englishNote": ""
+					"3" : {
+						"event" : "Login",
+						"media" : "login_1",
+						"chinese" : "战士也是需要适当休息的，既然是节日，你也不用太紧绷神经",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "戦士にも休息が必要よ。祝日はそう張り詰めなさんな",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Even warriors need to rest. Since it's a holiday, you shouldn't be too uptight either.",
+						"englishNote" : ""
 					},
-					"4": {
-						"event": "Details",
-						"media": "detail_1",
-						"chinese": "陛下房门上的圣诞节花圈……嗯嗯，贝法告诉我用贝壳做的就好！指挥官，赶快出海去捡一些吧！",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "陛下の執務室の扉に飾るリース……うんうん、ベルが教えてくれたシェルリースのほうがいい！指揮官、早くシェル拾いに出発するわ！",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "The wreath that goes on Her Majesty's door... Hmm, Belfast told me that the best way to make it is with seashells! Commander, let's head out to sea to collect some!",
-						"englishNote": ""
+					"4" : {
+						"event" : "Details",
+						"media" : "detail_1",
+						"chinese" : "陛下房门上的圣诞节花圈……嗯嗯，贝法告诉我用贝壳做的就好！指挥官，赶快出海去捡一些吧！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "陛下の執務室の扉に飾るリース……うんうん、ベルが教えてくれたシェルリースのほうがいい！指揮官、早くシェル拾いに出発するわ！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "The wreath that goes on Her Majesty's door... Hmm, Belfast told me that the best way to make it is with seashells! Commander, let's head out to sea to collect some!",
+						"englishNote" : ""
 					},
-					"5": {
-						"event": "Main 1",
-						"media": "main_1_1",
-						"chinese": "指挥官你也想要礼物…？真想要的话也不是不能给你…",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "指揮官もプレゼントがほしいかしら…？まあ、ほしいなら別にあげられなくはないけど…",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "Commander, do you want a present as well? If you really want one that badly, it's not like I can't give you one... ",
-						"englishNote": ""
+					"5" : {
+						"event" : "Main 1",
+						"media" : "main_1_1",
+						"chinese" : "指挥官你也想要礼物…？真想要的话也不是不能给你…",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "指揮官もプレゼントがほしいかしら…？まあ、ほしいなら別にあげられなくはないけど…",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Commander, do you want a present as well? If you really want one that badly, it's not like I can't give you one... ",
+						"englishNote" : ""
 					},
-					"6": {
-						"event": "Main 2",
-						"media": "main_2_1",
-						"chinese": "唔…该给陛下什么礼物呢，不能太贵又不能太便宜，不用太稀奇又不能太普通的礼物，那究竟是什么……",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "うむ…陛下へのプレゼントはどんなものがいいかしら。高すぎのもダメで安すぎのもダメ、珍しすぎるのは悪いし普通すぎるのは飽きられちゃう…一体どうすれば……",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "Hmm... what present should I pick out for Her Majesty? It can't be too expensive or too cheap, and it can't be too exotic or too ordinary. What exactly can I get her? ",
-						"englishNote": ""
+					"6" : {
+						"event" : "Main 2",
+						"media" : "main_2_1",
+						"chinese" : "唔…该给陛下什么礼物呢，不能太贵又不能太便宜，不用太稀奇又不能太普通的礼物，那究竟是什么……",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "うむ…陛下へのプレゼントはどんなものがいいかしら。高すぎのもダメで安すぎのもダメ、珍しすぎるのは悪いし普通すぎるのは飽きられちゃう…一体どうすれば……",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Hmm... what present should I pick out for Her Majesty? It can't be too expensive or too cheap, and it can't be too exotic or too ordinary. What exactly can I get her? ",
+						"englishNote" : ""
 					},
-					"7": {
-						"event": "Main 3",
-						"media": "main_3_1",
-						"chinese": "既然是圣诞礼物自然要从烟囱…诶？会被当成可疑人物吗？",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "サンタなら煙突から入るに決まっているじゃない。…ふ、不審者にされるの！？",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "If I'm delivering Christmas presents, it's only natural to go through the chimney... Eh? Wouldn't that make me seem suspicious?",
-						"englishNote": ""
+					"7" : {
+						"event" : "Main 3",
+						"media" : "main_3_1",
+						"chinese" : "既然是圣诞礼物自然要从烟囱…诶？会被当成可疑人物吗？",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "サンタなら煙突から入るに決まっているじゃない。…ふ、不審者にされるの！？",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "If I'm delivering Christmas presents, it's only natural to go through the chimney... Eh? Wouldn't that make me seem suspicious?",
+						"englishNote" : ""
 					},
-					"8": {
-						"event": "Touch",
-						"media": "touch_1_1",
-						"chinese": "指挥官，来帮我装饰一下圣诞树，我够不到……等等，谁让你把我抱起来了！",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "指揮官、クリスマスツリーを飾るのを手伝ってちょうだい。あそこにはちょっと届かな……ま、待って！誰が抱き上げていいと言ったの！？",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "Commander, come help me decorate this Christmas tree - I'm not tall enough to reach... W-wait, who gave you permission to pick me up?!",
-						"englishNote": ""
+					"8" : {
+						"event" : "Touch",
+						"media" : "touch_1_1",
+						"chinese" : "指挥官，来帮我装饰一下圣诞树，我够不到……等等，谁让你把我抱起来了！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "指揮官、クリスマスツリーを飾るのを手伝ってちょうだい。あそこにはちょっと届かな……ま、待って！誰が抱き上げていいと言ったの！？",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Commander, come help me decorate this Christmas tree - I'm not tall enough to reach... W-wait, who gave you permission to pick me up?!",
+						"englishNote" : ""
 					},
-					"9": {
-						"event": "Mission",
-						"media": "task_1",
-						"chinese": "指挥官，出任务的时候能顺便帮我把这个礼物送给那个孩子吗？",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "指揮官、任務のついでにこのプレゼントをあの子に渡してもらえる？",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "Commander, while you're out delegating missions, mind helping me deliver this present to one of the kids along the way?",
-						"englishNote": ""
+					"9" : {
+						"event" : "Mission",
+						"media" : "task_1",
+						"chinese" : "指挥官，出任务的时候能顺便帮我把这个礼物送给那个孩子吗？",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "指揮官、任務のついでにこのプレゼントをあの子に渡してもらえる？",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Commander, while you're out delegating missions, mind helping me deliver this present to one of the kids along the way?",
+						"englishNote" : ""
 					},
-					"10": {
-						"event": "Return to Port",
-						"media": "home_1",
-						"chinese": "好，既然回来了，就开始另一片战场的任务吧，目标是把这些礼物都发完！",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "ふむ、帰ってきたからには「別の戦場」でも向かおうかしら。……ここにあるプレゼントを全部配るわよ！",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "Good. Since you are here, I can proceed to my next battleground - the important mission of delivering these gifts!",
-						"englishNote": ""
+					"10" : {
+						"event" : "Return to Port",
+						"media" : "home_1",
+						"chinese" : "好，既然回来了，就开始另一片战场的任务吧，目标是把这些礼物都发完！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "ふむ、帰ってきたからには「別の戦場」でも向かおうかしら。……ここにあるプレゼントを全部配るわよ！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Good. Since you are here, I can proceed to my next battleground - the important mission of delivering these gifts!",
+						"englishNote" : ""
 					},
-					"11": {
-						"event": "Affinity (Love)",
-						"media": "feeling5_1",
-						"chinese": "抱歉啊，指挥官，让你陪我度过了一个不太浪漫的圣诞节。这样就好…吗，哼，你总是这样。那…至少，在圣夜的钟声里，让我们两个人享受这个夜晚吧。",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "指揮官、すまないわ。クリスマスなのにあまりロマンチックじゃない過ごし方をして……これでいい、か。ふん。あなたはいつもそうだわ。じゃあ…せめて聖夜の鐘が鳴る間だけ、ゆっくり二人で楽しませてちょうだい",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "Apologies, Commander, it seems like our Christmas together was a bit unromantic. You... enjoyed it just fine? Heh, you're always like this... Well, at least, let us enjoy the rest of the night together while the bells of the Holy Night toll.",
-						"englishNote": ""
+					"11" : {
+						"event" : "Affinity (Love)",
+						"media" : "feeling5_1",
+						"chinese" : "抱歉啊，指挥官，让你陪我度过了一个不太浪漫的圣诞节。这样就好…吗，哼，你总是这样。那…至少，在圣夜的钟声里，让我们两个人享受这个夜晚吧。",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "指揮官、すまないわ。クリスマスなのにあまりロマンチックじゃない過ごし方をして……これでいい、か。ふん。あなたはいつもそうだわ。じゃあ…せめて聖夜の鐘が鳴る間だけ、ゆっくり二人で楽しませてちょうだい",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Apologies, Commander, it seems like our Christmas together was a bit unromantic. You... enjoyed it just fine? Heh, you're always like this... Well, at least, let us enjoy the rest of the night together while the bells of the Holy Night toll.",
+						"englishNote" : ""
 					}
 				}
 			},
 			"3": {
-				"skin_id": "yanzhan_g",
-				"id": "9",
-				"label": "ウォースパイト改",
-				"dialogue": {
-					"1": {
-						"event": "Ship Description",
-						"media": "",
-						"chinese": "厌战、改造完毕。这种焕然一新的感觉确实不错…让我们一起迎接新的战场吧，指挥官",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "ウォースパイト、改造終了。ふむ、この一新された気分、悪くないわ…では指揮官、新たな戦場に参ろうか！",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "",
-						"englishNote": ""
+				"skin_id" : "yanzhan_g",
+				"id" : "9",
+				"label" : "Warspite (Retrofit)",
+				"dialogue" : {
+					"1" : {
+						"event" : "Ship Description",
+						"media" : "",
+						"chinese" : "厌战、改造完毕。这种焕然一新的感觉确实不错…让我们一起迎接新的战场吧，指挥官",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "ウォースパイト、改造終了。ふむ、この一新された気分、悪くないわ…では指揮官、新たな戦場に参ろうか！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Warspite, retrofitting complete. Mm, I rather like this feeling of being rejuvenated... Now, Commander, let us make our way towards new battlegrounds!",
+						"englishNote" : ""
 					},
-					"2": {
-						"event": "Acquisition",
-						"media": "get_9",
-						"chinese": "厌战、改造完毕。这种焕然一新的感觉确实不错…让我们一起迎接新的战场吧，指挥官",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "ウォースパイト、改造終了。ふむ、この一新された気分、悪くないわ…では指揮官、新たな戦場に参ろうか！",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "",
-						"englishNote": ""
+					"2" : {
+						"event" : "Acquisition",
+						"media" : "get_9",
+						"chinese" : "厌战、改造完毕。这种焕然一新的感觉确实不错…让我们一起迎接新的战场吧，指挥官",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "ウォースパイト、改造終了。ふむ、この一新された気分、悪くないわ…では指揮官、新たな戦場に参ろうか！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Warspite, retrofitting complete. Mm, I rather like this feeling of being rejuvenated... Now, Commander, let us make our way towards new battlegrounds!",
+						"englishNote" : ""
 					},
-					"3": {
-						"event": "Login",
-						"media": "login_9",
-						"chinese": "现在的我能解决更远的敌人了，指挥官，尽管把出击任务交给我吧",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "より遠くの敵をやっつけられるようになったわ。指揮官、出撃するならこのウォースパイトにまかせてちょうだい",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "",
-						"englishNote": ""
+					"3" : {
+						"event" : "Login",
+						"media" : "login_9",
+						"chinese" : "现在的我能解决更远的敌人了，指挥官，尽管把出击任务交给我吧",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "より遠くの敵をやっつけられるようになったわ。指揮官、出撃するならこのウォースパイトにまかせてちょうだい",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "My range extends even farther. Commander, send me out to fight, won't you? ",
+						"englishNote" : ""
 					},
-					"4": {
-						"event": "Main 1",
-						"media": "main_1_9",
-						"chinese": "对指挥官谏言，也是秘书舰的职责，所以当指挥官做出有失偏颇的言行时，我是不会客气的",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "指揮官を諌めるのも秘書艦の責務。指揮官が不埒な言動をしたら遠慮なく正させてもらうわ",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "",
-						"englishNote": ""
+					"4" : {
+						"event" : "Main 1",
+						"media" : "main_1_9",
+						"chinese" : "对指挥官谏言，也是秘书舰的职责，所以当指挥官做出有失偏颇的言行时，我是不会客气的",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "指揮官を諌めるのも秘書艦の責務。指揮官が不埒な言動をしたら遠慮なく正させてもらうわ",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "It is my duty as your secretary ship to counsel you, Commander. I won't hesitate to speak my mind if you make a poor decision.",
+						"englishNote" : ""
 					},
-					"5": {
-						"event": "Main 2",
-						"media": "main_2_9",
-						"chinese": "只有存活到最后，才足以被称为强者",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "最後まで生き抜いた者こそ強者と讃えられるのにふさわしいわ",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "",
-						"englishNote": ""
+					"5" : {
+						"event" : "Main 2",
+						"media" : "main_2_9",
+						"chinese" : "只有存活到最后，才足以被称为强者",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "最後まで生き抜いた者こそ強者と讃えられるのにふさわしいわ",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Survival is the key to becoming a stronger person.",
+						"englishNote" : ""
 					},
-					"6": {
-						"event": "Main 3",
-						"media": "main_3_9",
-						"chinese": "每一场战斗，最后都会化作自身的力量，所以面对任何战斗，我都会全力以赴",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "戦いは成長の糧――ゆえに、どんな戦闘にも全力を尽くすのがこのウォースパイトの流儀よ",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "",
-						"englishNote": ""
+					"6" : {
+						"event" : "Main 3",
+						"media" : "main_3_9",
+						"chinese" : "每一场战斗，最后都会化作自身的力量，所以面对任何战斗，我都会全力以赴",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "戦いは成長の糧――ゆえに、どんな戦闘にも全力を尽くすのがこのウォースパイトの流儀よ",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Battle is the fire that feeds one's growth. And so I fight with all that I have, in every conflict.",
+						"englishNote" : ""
 					},
-					"7": {
-						"event": "Touch",
-						"media": "touch_1_9",
-						"chinese": "指挥官，有什么想说的就尽管说吧，我会在这里好好地听着的",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "指揮官、言いたいことがあったら言ってちょうだい。このウォースパイト、謹んで静聴させてもらうわ",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "",
-						"englishNote": ""
+					"7" : {
+						"event" : "Touch",
+						"media" : "touch_1_9",
+						"chinese" : "指挥官，有什么想说的就尽管说吧，我会在这里好好地听着的",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "指揮官、言いたいことがあったら言ってちょうだい。このウォースパイト、謹んで静聴させてもらうわ",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Commander, if you have something to say, just come out and say it. I'm happy to listen. ",
+						"englishNote" : ""
 					},
-					"8": {
-						"event": "Touch (Special)",
-						"media": "touch_2_9",
-						"chinese": "关键的部分没什么成长？…看来指挥官是想尝尝高射炮的滋味了…",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "大事なところが成長していないって？…高角砲の的にでもなりたいのかしら……",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "",
-						"englishNote": ""
+					"8" : {
+						"event" : "Touch (Special)",
+						"media" : "touch_2_9",
+						"chinese" : "关键的部分没什么成长？…看来指挥官是想尝尝高射炮的滋味了…",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "大事なところが成長していないって？…高角砲の的にでもなりたいのかしら……",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "My important parts haven't grown at all...? Seems like someone wants to taste my high-angle mounts...",
+						"englishNote" : ""
 					}
 				}
 			}
 		}
-	},
-	"fleet_tech": {
-		"pt_get": "16",
-		"add_get_attr": "HP",
-		"add_get_value": "1",
-		"add_get_shiptype": "Battlecruiser,Battleship,Aviation Battleship",
-		"pt_upgrade": "32",
-		"pt_level": "24",
-		"add_level_attr": "Hit",
-		"add_level_value": "2",
-		"add_level_shiptype": "Battlecruiser,Battleship,Aviation Battleship",
-		"t_level": "5",
-		"ships": "queen_elizabeth,warspite"
 	}
 }
