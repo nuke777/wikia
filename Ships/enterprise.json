@@ -118,19 +118,19 @@
 				}
 			}
 		},
-		"5" : {
-			"id" : "qiye_5",
-			"name" : "翱翔的自由之翼",
-			"description" : "对于为战争而生这件事我并没有疑问。为了碧蓝航路的自由——企业，出击！",
-			"expression" : {
-				"0" : {
-					"id" : "0"
+		"5": {
+			"id": "qiye_5",
+			"name": "Soaring Wings of Freedom",
+			"description": "There is no doubt in my mind that I was born to fight. For the azure lanes of liberty, Enterprise, engaging!",
+			"expression": {
+				"0": {
+					"id": "0"
 				},
-				"1" : {
-					"id" : "1"
+				"1": {
+					"id": "1"
 				},
-				"2" : {
-					"id" : "2"
+				"2": {
+					"id": "2"
 				}
 			}
 		},
@@ -1175,153 +1175,189 @@
 				}
 			},
 			"5": {
-				"skin_id" : "qiye_5",
-				"id" : "4",
-				"label" : "翱翔的自由之翼",
-				"dialogue" : {
-					"1" : {
-						"event" : "Ship Description",
-						"media" : "",
-						"chinese" : "对于为战争而生这件事我并没有疑问。为了碧蓝航路的自由——企业，出击！",
-						"chineseTL" : "",
-						"chineseNote" : "",
-						"japanese" : "戦うために生まれたことに疑問はない。碧き航路の自由のため――エンタープライズ、エンゲージ！",
-						"japaneseTL" : "",
-						"japaneseNote" : "",
-						"english" : "对于为战争而生这件事我并没有疑问。为了碧蓝航路的自由——企业，出击！",
-						"englishNote" : ""
+				"skin_id": "qiye_5",
+				"id": "4",
+				"label": "Soaring Wings of Freedom",
+				"dialogue": {
+					"1": {
+						"event": "Ship Description",
+						"media": "",
+						"chinese": "对于为战争而生这件事我并没有疑问。为了碧蓝航路的自由——企业，出击！",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "戦うために生まれたことに疑問はない。碧き航路の自由のため――エンタープライズ、エンゲージ！",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "There is no doubt in my mind that I was born to fight. For the azure lanes of liberty, Enterprise, engaging!",
+						"englishNote": ""
 					},
-					"2" : {
-						"event" : "Acquisition",
-						"media" : "get_4",
-						"chinese" : "对于为战争而生这件事我并没有疑问。为了碧蓝航路的自由——企业，出击！",
-						"chineseTL" : "",
-						"chineseNote" : "",
-						"japanese" : "",
-						"japaneseTL" : "",
-						"japaneseNote" : "",
-						"english" : "对于为战争而生这件事我并没有疑问。为了碧蓝航路的自由——企业，出击！",
-						"englishNote" : ""
+					"2": {
+						"event": "Acquisition",
+						"media": "get_4",
+						"chinese": "对于为战争而生这件事我并没有疑问。为了碧蓝航路的自由——企业，出击！",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
 					},
-					"3" : {
-						"event" : "Login",
-						"media" : "login_4",
-						"chinese" : "早安指挥官。距离作战会议开始还有点时间。趁着还能放松的时候好好放松一下吧",
-						"chineseTL" : "",
-						"chineseNote" : "",
-						"japanese" : "",
-						"japaneseTL" : "",
-						"japaneseNote" : "",
-						"english" : "早安指挥官。距离作战会议开始还有点时间。趁着还能放松的时候好好放松一下吧",
-						"englishNote" : ""
+					"3": {
+						"event": "Login",
+						"media": "login_4",
+						"chinese": "早安指挥官。距离作战会议开始还有点时间。趁着还能放松的时候好好放松一下吧",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
 					},
-					"4" : {
-						"event" : "Details",
-						"media" : "detail_4",
-						"chinese" : "只要是为了正义就不惜付诸武力，伤害她人…我不认为这样是正确的",
-						"chineseTL" : "",
-						"chineseNote" : "",
-						"japanese" : "",
-						"japaneseTL" : "",
-						"japaneseNote" : "",
-						"english" : "只要是为了正义就不惜付诸武力，伤害她人…我不认为这样是正确的",
-						"englishNote" : ""
+					"4": {
+						"event": "Details",
+						"media": "detail_4",
+						"chinese": "只要是为了正义就不惜付诸武力，伤害她人…我不认为这样是正确的",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
 					},
-					"5" : {
-						"event" : "Touch",
-						"media" : "touch_1_4",
-						"chinese" : "指挥官，有什么事吗？",
-						"chineseTL" : "",
-						"chineseNote" : "",
-						"japanese" : "",
-						"japaneseTL" : "",
-						"japaneseNote" : "",
-						"english" : "指挥官，有什么事吗？",
-						"englishNote" : ""
+					"5": {
+						"event": "Main 1",
+						"media": "main_1_4",
+						"chinese": "皇家女仆队还真是各种令人惊讶啊。对于战斗之外的各种工作也十分得心应手呢",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "nil",
+						"englishNote": ""
 					},
-					"6" : {
-						"event" : "Touch (Special)",
-						"media" : "touch_2_4",
-						"chinese" : "你不会对约克城姐姐也做了这种事情吧…",
-						"chineseTL" : "",
-						"chineseNote" : "",
-						"japanese" : "",
-						"japaneseTL" : "",
-						"japaneseNote" : "",
-						"english" : "你不会对约克城姐姐也做了这种事情吧…",
-						"englishNote" : ""
+					"6": {
+						"event": "Main 2",
+						"media": "main_2_4",
+						"chinese": "女灶神，怎么了？…不，我没有不注重饮食！指挥官做了各种…不！我有时候也会做饭的！",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "nil",
+						"englishNote": ""
 					},
-					"7" : {
-						"event" : "Mission",
-						"media" : "task_4",
-						"chinese" : "还有未完成的任务哦，还是确认下进度比较好",
-						"chineseTL" : "",
-						"chineseNote" : "",
-						"japanese" : "",
-						"japaneseTL" : "",
-						"japaneseNote" : "",
-						"english" : "还有未完成的任务哦，还是确认下进度比较好",
-						"englishNote" : ""
+					"7": {
+						"event": "Main 3",
+						"media": "main_3_4",
+						"chinese": "小鹰和指挥官很亲热呢。能和平共处是最好的，呵呵",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "nil",
+						"englishNote": ""
 					},
-					"8" : {
-						"event" : "Return to Port",
-						"media" : "home_4",
-						"chinese" : "指挥官，辛苦了。开始准备下一次作战吧",
-						"chineseTL" : "",
-						"chineseNote" : "",
-						"japanese" : "",
-						"japaneseTL" : "",
-						"japaneseNote" : "",
-						"english" : "指挥官，辛苦了。开始准备下一次作战吧",
-						"englishNote" : ""
+					"8": {
+						"event": "Touch",
+						"media": "touch_1_4",
+						"chinese": "指挥官，有什么事吗？",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
 					},
-					"9" : {
-						"event" : "Commission Complete",
-						"media" : "expedition_4",
-						"chinese" : "要去迎接委托归来的同伴们吗？偶尔还是运动下比较好，在被大黄蜂念叨之前",
-						"chineseTL" : "",
-						"chineseNote" : "",
-						"japanese" : "",
-						"japaneseTL" : "",
-						"japaneseNote" : "",
-						"english" : "要去迎接委托归来的同伴们吗？偶尔还是运动下比较好，在被大黄蜂念叨之前",
-						"englishNote" : ""
+					"9": {
+						"event": "Touch (Special)",
+						"media": "touch_2_4",
+						"chinese": "你不会对约克城姐姐也做了这种事情吧…",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
 					},
-					"10" : {
-						"event" : "Flagship",
-						"media" : "warcry_4",
-						"chinese" : "企业，前进！粉碎敌人！",
-						"chineseTL" : "",
-						"chineseNote" : "",
-						"japanese" : "",
-						"japaneseTL" : "",
-						"japaneseNote" : "",
-						"english" : "企业，前进！粉碎敌人！",
-						"englishNote" : ""
+					"10": {
+						"event": "Mission",
+						"media": "task_4",
+						"chinese": "还有未完成的任务哦，还是确认下进度比较好",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
 					},
-					"11" : {
-						"event" : "Victory",
-						"media" : "mvp_4",
-						"chinese" : "似乎这边以些微的优势胜利了呢",
-						"chineseTL" : "",
-						"chineseNote" : "",
-						"japanese" : "",
-						"japaneseTL" : "",
-						"japaneseNote" : "",
-						"english" : "似乎这边以些微的优势胜利了呢",
-						"englishNote" : ""
+					"11": {
+						"event": "Return to Port",
+						"media": "home_4",
+						"chinese": "指挥官，辛苦了。开始准备下一次作战吧",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
 					},
-					"12" : {
-						"event" : "Defeat",
-						"media" : "lose_4",
-						"chinese" : "还是太勉强了…吗……",
-						"chineseTL" : "",
-						"chineseNote" : "",
-						"japanese" : "",
-						"japaneseTL" : "",
-						"japaneseNote" : "",
-						"english" : "还是太勉强了…吗……",
-						"englishNote" : ""
+					"12": {
+						"event": "Commission Complete",
+						"media": "expedition_4",
+						"chinese": "要去迎接委托归来的同伴们吗？偶尔还是运动下比较好，在被大黄蜂念叨之前",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"13": {
+						"event": "Flagship",
+						"media": "warcry_4",
+						"chinese": "企业，前进！粉碎敌人！",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"14": {
+						"event": "Victory",
+						"media": "mvp_4",
+						"chinese": "似乎这边以些微的优势胜利了呢",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"15": {
+						"event": "Defeat",
+						"media": "lose_4",
+						"chinese": "还是太勉强了…吗……",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
 					}
 				}
 			},
