@@ -1,0 +1,863 @@
+{
+	"name_reference" : "hibiki",
+	"cn_reference" : "xiang",
+	"nameJP" : "響",
+	"nameCN" : "响",
+	"ID" : "160",
+	"name" : "Hibiki",
+	"internal_id" : "301101",
+	"rarity" : "Elite",
+	"initialStar" : "★★☆☆☆",
+	"hull" : "Destroyer",
+	"navy" : "Sakura Empire",
+	"prefix" : "IJN",
+	"buildTime" : "N/A",
+	"voiceActress" : "Maaya Uchida",
+	"parameters": {
+		"firepower" : "D",
+		"torpedo" : "A",
+		"aviation" : "E",
+		"evasion" : "A",
+		"antiAir" : "D",
+		"hp" : "D"
+	},
+	"scrap": {
+		"gold" : "4",
+		"oil" : "3",
+		"medal" : "4"
+	},
+	"releaseDate": {
+		"JP" : "December 26, 2019",
+		"CN" : "December 26, 2019",
+		"KR" : "December 26, 2019",
+		"EN" : "December 26, 2019"
+	},
+	"artist": {
+		"name" : "大月紅葉",
+		"weibo" : "http://weibo.com/ootsukimomiji",
+		"twitter" : "https://twitter.com/dayuehongye",
+		"pixiv" : "https://www.pixiv.net/member.php?id=591937",
+		"other" : ""
+	},
+	"class" : "Fubuki-Class Type III (Akatsuki)",
+	"enhance": {
+		"firepower" : "4",
+		"torpedo" : "33",
+		"aviation" : "0",
+		"reload" : "15"
+	},
+	"acquisitionMethod" : "Event: Swirling Cherry Blossoms",
+	"skill": {
+		"1" : {
+			"icon" : "12900",
+			"requirement" : "Default Unlocked",
+			"name" : "Phoenix's Plumage",
+			"type" : "Offensive",
+			"description" : "When this ship fires its torpedoes: 15.0%(30.0%) chance to launch a second wave of torpedoes. Once per battle, when this ship's HP drops below 20.0%: restores 10.0%(20.0%) of this ship's max HP."
+		},
+		"2" : {
+			"icon" : "12910",
+			"requirement" : "Default Unlocked",
+			"name" : "Destroyer Division 6: Hibiki",
+			"type" : "Offensive",
+			"description" : "When sortied with Akatsuki, Ikazuchi, or Inazuma: increases this ship's FP, TRP, and RLD by 5.0%(15.0%). Effect does not stack."
+		},
+		"3" : {
+			"icon" : "22071",
+			"requirement" : "Limit Break I (III)",
+			"name" : "All Out Assault Ⅰ",
+			"type" : "Offensive",
+			"description" : "Activates All Out Assault Ⅰ: Akatsuki Class once every 15 times the Main Guns are fired."
+		}
+	},
+	"skin": {
+		"1" : {
+			"id" : "xiang",
+			"name" : "Hibiki ",
+			"description" : "Type III Akatsuki-class destroyer number two – Hibiki. ",
+			"expression" : {
+				"0" : {
+					"id" : "0"
+				},
+				"1" : {
+					"id" : "1"
+				},
+				"2" : {
+					"id" : "2"
+				},
+				"3" : {
+					"id" : "3"
+				},
+				"4" : {
+					"id" : "4"
+				},
+				"5" : {
+					"id" : "5"
+				},
+				"6" : {
+					"id" : "6"
+				},
+				"7" : {
+					"id" : "7"
+				},
+				"8" : {
+					"id" : "8"
+				}
+			}
+		},
+		"2" : {
+			"id" : "xiang_2",
+			"name" : "New Year's Little Imp",
+			"description" : "New Year's finally comes to port! I, Hibiki of the 6th DesDiv, will be marking my new arrival in my New Year's attire! Commander, don't you dare change the channel - you've gotta watch my every move~!",
+			"expression" : {
+				"0" : {
+					"id" : "0"
+				},
+				"1" : {
+					"id" : "1"
+				},
+				"2" : {
+					"id" : "2"
+				},
+				"3" : {
+					"id" : "3"
+				},
+				"4" : {
+					"id" : "4"
+				},
+				"5" : {
+					"id" : "5"
+				}
+			}
+		}
+	},
+	"defaultEquipment": {
+		"1" : {
+			"icon" : "31200",
+			"rarity" : "Common",
+			"name" : "127mm Mounted Gun"
+		},
+		"2" : {
+			"icon" : "35100",
+			"rarity" : "Common",
+			"name" : "Triple 610mm Torpedo"
+		},
+		"3" : {
+			"icon" : "",
+			"rarity" : "",
+			"name" : ""
+		}
+	},
+	"stats": {
+		"base": {
+			"hp" : "290",
+			"firepower" : "12",
+			"torpedo" : "101",
+			"antiAir" : "29",
+			"aviation" : "0",
+			"reload" : "79",
+			"hit" : "65",
+			"evasion" : "72",
+			"speed" : "45.6",
+			"luck" : "88",
+			"asw" : "48",
+			"oxygen" : "0",
+			"ammo" : "0",
+			"cost" : "2",
+			"armor" : "Light"
+		},
+		"100": {
+			"hp" : "1498",
+			"firepower" : "54",
+			"torpedo" : "477",
+			"antiAir" : "134",
+			"aviation" : "0",
+			"reload" : "187",
+			"hit" : "170",
+			"evasion" : "188",
+			"speed" : "45.6",
+			"luck" : "88",
+			"asw" : "175",
+			"oxygen" : "0",
+			"ammo" : "0",
+			"cost" : "9",
+			"armor" : "Light"
+		},
+		"120": {
+			"hp" : "1798",
+			"firepower" : "62",
+			"torpedo" : "524",
+			"antiAir" : "154",
+			"aviation" : "0",
+			"reload" : "215",
+			"hit" : "178",
+			"evasion" : "194",
+			"speed" : "45.6",
+			"luck" : "88",
+			"asw" : "195",
+			"oxygen" : "0",
+			"ammo" : "0",
+			"cost" : "9",
+			"armor" : "Light"
+		},
+		"100retrofit": {
+			"hp" : "",
+			"firepower" : "",
+			"torpedo" : "",
+			"antiAir" : "",
+			"aviation" : "",
+			"reload" : "",
+			"hit" : "",
+			"evasion" : "",
+			"speed" : "45.6",
+			"luck" : "88",
+			"asw" : "",
+			"oxygen" : "0",
+			"ammo" : "0",
+			"cost" : "9",
+			"armor" : "Light"
+		},
+		"120retrofit": {
+			"hp" : "",
+			"firepower" : "",
+			"torpedo" : "",
+			"antiAir" : "",
+			"aviation" : "",
+			"reload" : "",
+			"hit" : "",
+			"evasion" : "",
+			"speed" : "45.6",
+			"luck" : "88",
+			"asw" : "",
+			"oxygen" : "0",
+			"ammo" : "0",
+			"cost" : "9",
+			"armor" : "Light"
+		}
+	},
+	"limitBreak": {
+		"tier1": "Unlock All Out Assault Ⅰ/Torpedo efficiency +5%",
+		"tier2": "Torpedo base +1/Torpedo preload +1/Torpedo efficiency +10%",
+		"tier3": "Improve All Out Assault/All weapons' efficiency +5%"
+	},
+	"equipmentLoadout": {
+		"1": {
+			"type": "Destroyer Gun",
+			"efficiency": "70%/70%/70%/75%",
+			"amount": "1/1/1/1",
+			"preload": "0/0/0/0"
+		},
+		"2": {
+			"type": "Torpedo",
+			"efficiency": "135%/140%/150%/155%",
+			"amount": "1/1/2/2",
+			"preload": "0/0/1/1"
+		},
+		"3": {
+			"type": "Anti-Air Gun",
+			"efficiency": "70%/70%/70%/75%",
+			"amount": "1/1/1/1",
+			"preload": "0/0/0/0"
+		},
+		"4": {
+			"type": "Auxilary",
+			"efficiency": "-",
+			"amount": "-",
+			"preload": "-"
+		},
+		"5": {
+			"type": "Auxilary",
+			"efficiency": "-",
+			"amount": "-",
+			"preload": "-"
+		}
+	},
+	"fleet_tech": {
+		"pt_get": "6",
+		"add_get_attr": "HP",
+		"add_get_value": "1",
+		"add_get_shiptype": "Destroyer",
+		"pt_upgrade": "12",
+		"pt_level": "9",
+		"add_level_attr": "Hit",
+		"add_level_value": "1",
+		"add_level_shiptype": "Destroyer",
+		"t_level": "5",
+		"ships": "akatsuki,hibiki,ikazuchi,inazuma"
+	},
+	"build": {
+		"light": {
+			"JP": "",
+			"CN": "",
+			"EN": ""
+		},
+		"heavy": {
+			"JP": "",
+			"CN": "",
+			"EN": ""
+		},
+		"special": {
+			"JP": "",
+			"CN": "",
+			"EN": ""
+		},
+		"limited": {
+			"JP": "",
+			"CN": "",
+			"EN": ""
+		}
+	},
+	"drop": {
+		"droppable": "false",
+		"list": {
+			"1": {
+				"event": "",
+				"chapter": {
+					"1": {
+						"label": "Ch .1",
+						"node": {
+							"1": {
+								"drop": "✓",
+								"note": "-"
+							}
+						}
+					}
+				}
+			}
+		}
+	},
+	"lines": {
+		"skin": {
+			"1": {
+				"skin_id" : "xiang",
+				"id" : "0",
+				"label" : "Hibiki ",
+				"dialogue" : {
+					"1" : {
+						"event" : "Ship Description",
+						"media" : "",
+						"chinese" : "特III型晓级驱逐舰二番舰—响",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "特Ⅲ型駆逐艦二番艦・響",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Type III Akatsuki-class destroyer number two – Hibiki.",
+						"englishNote" : ""
+					},
+					"2" : {
+						"event" : "Biography",
+						"media" : "profile",
+						"chinese" : "我是第六驱逐队的响！我和大家一起参加了许多战役，并且都坚持了下来。……不过好像自己回港修理的时间都比较微妙呢，啊哈哈……",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "第六駆逐隊の響だよ♪　みんなとたくさんの戦闘に参加して、最後まで無事！なのはよかったけど……修理に入ったタイミングは全部ビミョーだったのね…あははは……",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "I'm Hibiki, from the 6th DesDiv~♪ I fought in many battles with my friends, and even saw the end of things. That's good and all, but... having to go in for repairs at that time was a bit awkward... Ahaha...",
+						"englishNote" : ""
+					},
+					"3" : {
+						"event" : "Acquisition",
+						"media" : "get",
+						"chinese" : "尼嘻嘻~终于见到指挥官先生了呢~我是响，要好好记住我啊！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "にひひ～ようやく指揮官さんに会えたね！響って言うんだ！ちゃんと覚えてね！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Nihihi~ We finally meet at last, Commander! The name's Hibiki! Don't you forget it!",
+						"englishNote" : ""
+					},
+					"4" : {
+						"event" : "Login",
+						"media" : "login",
+						"chinese" : "指挥官来啦~？嗯~…嘿咻~今天的工作也一起加油吧！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "指揮官さん今来たの？よいっしょ…今日もお仕事一緒に頑張ろう！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Commander, did you just pop in~? All righty... Let's both get some good work done today!",
+						"englishNote" : ""
+					},
+					"5" : {
+						"event" : "Details",
+						"media" : "detail",
+						"chinese" : "六驱的大家都很有个性呢，不管是雷、电，还是喜欢当忍者的晓姐姐。不过，我最喜欢这样的大家了，嘻嘻～",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "第六駆逐隊はみんな個性的だね～雷と電、それとニンジャの暁ちゃんも！みんな大好き！えへへへ～",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Everyone in the 6th DesDiv is super unique! There's Ikazuchi, Inazuma, and we even have Akatsuki the ninja! I love everyone! Ehehe~",
+						"englishNote" : ""
+					},
+					"6" : {
+						"event" : "Main 1",
+						"media" : "main_1",
+						"chinese" : "“Верный”…？这个名字似乎有点熟悉……",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "「Верный（ベールヌイ）」…？なんだか懐かしい響きね……",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Verniy...? It has a nostalgic ring to it... ",
+						"englishNote" : ""
+					},
+					"7" : {
+						"event" : "Main 2",
+						"media" : "main_2",
+						"chinese" : "能再次和大家团聚，实在是太好了呢~",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "みんなとまた会えて本当に良かった♪",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "I'm so glad that we can all be together again~♪ ",
+						"englishNote" : ""
+					},
+					"8" : {
+						"event" : "Main 3",
+						"media" : "main_3",
+						"chinese" : "没有什么事的话，我就去找雷和电她们玩了哦~",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "特に用がないなら、雷と電たちと遊びに行っちゃうよー",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "If you don't need me for anything, I'm going to go play with Ikazuchi and Inazuma~",
+						"englishNote" : ""
+					},
+					"9" : {
+						"event" : "Touch",
+						"media" : "touch_1",
+						"chinese" : "哦哦！指挥官，你喊我？",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "おお！指揮官さん、呼んだ？",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Yo! Did you call me, Commander?",
+						"englishNote" : ""
+					},
+					"10" : {
+						"event" : "Touch (Special)",
+						"media" : "touch_2",
+						"chinese" : "啊～！指挥官刚才绝对是故意的吧！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "あー！指揮官さん、今のはわざとだったよね！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Ah~! Commander, I bet you did that on purpose just now!",
+						"englishNote" : ""
+					},
+					"11" : {
+						"event" : "Mission",
+						"media" : "task",
+						"chinese" : "大大小小的任务还真是多啊……不用担心，我会帮你的啦！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "大きい任務に小さい任務、いっぱいあるよね……大丈夫大丈夫！手伝うから！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "We sure have all sorts of different missions, huh... Don't sweat it though! I'll help you out!",
+						"englishNote" : ""
+					},
+					"12" : {
+						"event" : "Mission Complete",
+						"media" : "mission_complete",
+						"chinese" : "任~务~完~成~啦！……喂，我说指挥官，你也给点反应嘛！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "にーんむーかんーりょー！……って指揮官さん、もうちょっとノリが良くたっていいじゃない！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Missionnnn... complete! ...Hey, Commander, you should get pumped up too!",
+						"englishNote" : ""
+					},
+					"13" : {
+						"event" : "Mail",
+						"media" : "mail",
+						"chinese" : "邮件？也给我看看嘛！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "メール？響にも見せて見せて！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Mail? Show me as well! Show me!",
+						"englishNote" : ""
+					},
+					"14" : {
+						"event" : "Return to Port",
+						"media" : "home",
+						"chinese" : "辛苦啦~话虽这么说，要做的事情还有很多呢，啊哈哈……",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "お疲れ様～って言っても、やるべきことはまだいっぱいあるよね…あははは……",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Good work out there~ Well, having that said, you still have a lot of stuff that needs to be done... Ahaha...",
+						"englishNote" : ""
+					},
+					"15" : {
+						"event" : "Commission Complete",
+						"media" : "expedition",
+						"chinese" : "啊对了，委托好像完成了呢。要陪你一起去接她们吗~？",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "そうだ！委託がなんか完了したっぽいよ？出迎えに響も行ってもいい？",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Ah, that's right, the commission fleet seems to have returned? Should I go with you to welcome them back?",
+						"englishNote" : ""
+					},
+					"16" : {
+						"event" : "Enhancement",
+						"media" : "upgrade",
+						"chinese" : "按照雷的说法，这就是所谓的“Level up”吧？嘻嘻~",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "雷が言ってた「レベルアップ」ってやつ？にひひ～",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "So this is that \"leveling up\" thing that Ikazuchi mentioned? Nihihi~",
+						"englishNote" : ""
+					},
+					"17" : {
+						"event" : "Flagship",
+						"media" : "warcry",
+						"chinese" : "哼哼~响可是很厉害的！不信就看着吧~",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "ぬっふふん～響は強いぞー！とくと見やがれ♪",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Heheh~ Hibiki is super strong~! If you don't believe me, just take a look at this~♪",
+						"englishNote" : ""
+					},
+					"18" : {
+						"event" : "Victory",
+						"media" : "mvp",
+						"chinese" : "嘿嘿，这次的MVP，我就不客气地收下啦！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "ふっふん♪大金星いただき～",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Heheh~ I'll be taking that gold star~!",
+						"englishNote" : ""
+					},
+					"19" : {
+						"event" : "Defeat",
+						"media" : "lose",
+						"chinese" : "哎呀呀…感觉又要回港修理了呢……",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "ぬぬぬ、こりゃ母港に戻って修理しなくちゃね……",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Awww... Looks like I'll have to go back to port for repairs...",
+						"englishNote" : ""
+					},
+					"20" : {
+						"event" : "Skill",
+						"media" : "skill",
+						"chinese" : "",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "響を信じて！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Trust in me! ",
+						"englishNote" : ""
+					},
+					"21" : {
+						"event" : "Low HP",
+						"media" : "hp",
+						"chinese" : "才不会就这么简单的结束呢！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "この程度じゃ終わらないよ！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "I won't let it end like this!",
+						"englishNote" : ""
+					},
+					"22" : {
+						"event" : "Affinity (Upset)",
+						"media" : "feeling1",
+						"chinese" : "看来只有物理上的方法能让指挥官醒悟过来了呢……真是糟透了",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "指揮官に目を覚まさせるには物理的にやるしかないよね……あーあ",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Commander, it seems like the only way to get you to open your eyes is to get a bit rough... *sigh*...",
+						"englishNote" : ""
+					},
+					"23" : {
+						"event" : "Affinity (Stranger)",
+						"media" : "feeling2",
+						"chinese" : "一直以来都让晓姐姐担心了呢，得好好向她道歉和道谢才行",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "暁ちゃんに心配をかけたね。うん、「ごめんなさい、そしてありがとう」ってちゃんと言わなきゃ",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "I've been making Akatsuki worried all this time. I have to apologize to her properly, as well as thank her.",
+						"englishNote" : ""
+					},
+					"24" : {
+						"event" : "Affinity (Friendly)",
+						"media" : "feeling3",
+						"chinese" : "晓姐姐一直想重建第六驱逐队呢……我觉得嘛，只要大家都在一起，名号什么的就不用在意那么多的啦!",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "暁ちゃん、第六駆逐隊の再結成に結構熱心だよね……まあみんな一緒にいれば、別に名前とか気にしなくてもいいじゃんって、響的に思うんだ～",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Akatsuki, you've been pretty gung-ho about getting the 6th DesDiv back together... Well, the name's not that important as long as we're all together. That's what I think anyway~",
+						"englishNote" : ""
+					},
+					"25" : {
+						"event" : "Affinity (Like)",
+						"media" : "feeling4",
+						"chinese" : "啊，对了！指挥官平时有好好注意自己的身体吗？要是生病倒下的话可就麻烦了呢……不过放心吧，如果真的生病了的话，我会好好照顾你的啦！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "そういえば、指揮官さんって体調管理ちゃんと気を使ってる？もし病気で倒れたら大変だよ？……まあまあ安心して、指揮官さんが本当に倒れたら、この響がちゃんと世話を焼いてあげるからね♪",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Ah, that reminds me! Commander, have you been taking care of yourself properly? We'd be in serious trouble if you got sick and collapsed or something... Well, even if that happened to you, Hibiki would tenderly nurse you back to health~♪",
+						"englishNote" : ""
+					},
+					"26" : {
+						"event" : "Affinity (Love)",
+						"media" : "feeling5",
+						"chinese" : "也和我讲讲指挥官的故事吧，我可是非常感兴趣的呢！……理由？那种东西才不需要呢！我们之间难道不是已经无话不说了吗？嘻嘻~",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "響に指揮官さんのことを教えて？実はすごく興味があるんだ！……理由？別にそんなの特にないよ？だってもうなんでも話せる仲じゃない～えへへへ～",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Commander, why don't you tell me your story? I'm really interested! ...Why? No particular reason~ Haven't we exhausted all the other topics already? Ehehe~",
+						"englishNote" : ""
+					},
+					"27" : {
+						"event" : "Pledge",
+						"media" : "propose",
+						"chinese" : "终于到这个时候了呢。嘿嘿~我喜欢指挥官啦！……啊，莫非你害羞了？但是我的攻击还没有结束呢！喜欢你，喜欢你，最喜欢你了！嘻嘻嘻～",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "ついにこの時がやってきたね！えへへ～指揮官さんのことが大好き！……あ、今ので照れた？でも響のターンはまだ終わってないよ？好き好き大好き！えへへへ～",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "I've been waiting so long for this! Ehehe~ I love you, Commander! ...Ah, look at you getting all bashful~ But my turn's not over yet. I love love love you~! Ehehe~",
+						"englishNote" : ""
+					},
+					"28" : {
+						"event" : "Easter Egg 1(Phoenix)",
+						"media" : "link1",
+						"chinese" : "哦哦，你也是不死鸟吗？",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "おお、あなたも不死鳥なの？",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Woah, are you a phoenix as well?",
+						"englishNote" : ""
+					},
+					"29" : {
+						"event" : "Easter Egg 2(Akatsuki, Ikazuchi, Inazuma)",
+						"media" : "link2",
+						"chinese" : "第六驱逐队，要上了！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "第六駆逐隊、いっくよー！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "6th DesDiv, set sail!",
+						"englishNote" : ""
+					},
+					"30" : {
+						"event" : "Easter Egg 3(Yukikaze)",
+						"media" : "link3",
+						"chinese" : "也许你才是真正的不死鸟呢，哈哈！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "あなたこそ真の不死鳥なのかもね！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Maybe you're a real phoenix!",
+						"englishNote" : ""
+					},
+					"31" : {
+						"event" : "Easter Egg 4(Akatsuki)",
+						"media" : "link4",
+						"chinese" : "晓姐姐，我会和你一起战斗的！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "暁ちゃん、一緒に戦おー",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Akatsuki, let's do this, together!",
+						"englishNote" : ""
+					},
+					"32" : {
+						"event" : "Easter Egg 5(Ikazuchi)",
+						"media" : "link5",
+						"chinese" : "雷，要小心那些看不见的敌人啊！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "雷、見えない敵には注意して！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Ikazuchi, be careful for unseen enemies!",
+						"englishNote" : ""
+					},
+					"33" : {
+						"event" : "Easter Egg 6(Inazuma)",
+						"media" : "link6",
+						"chinese" : "电，要小心那些看不见的敌人啊！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "電、見えない敵には気をつけて！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Inazuma, be on the lookout for unseen enemies!",
+						"englishNote" : ""
+					},
+					"34" : {
+						"event" : "Like Present",
+						"media" : "present_like",
+						"chinese" : "",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"35" : {
+						"event" : "Dislike Present",
+						"media" : "present_dislike",
+						"chinese" : "",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"36" : {
+						"event" : "Main Title",
+						"media" : "extra",
+						"chinese" : "",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					}
+				}
+			},
+			"2": {
+				"skin_id" : "xiang_2",
+				"id" : "1",
+				"label" : "New Year's Little Imp",
+				"dialogue" : {
+					"1" : {
+						"event" : "Ship Description",
+						"media" : "",
+						"chinese" : "港区的新年终于到了！我是来自六驱的新人响，以新年服饰再度登场！指挥官，请不要换台，继续关注我的活跃哦~！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "おいでませ母港のお正月！というわけで第六駆逐隊、新顔の響ちゃん、正月衣装で再登場！指揮官、チャンネル変えず引き続きよろしく～！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "New Year's finally comes to port! I, Hibiki of the 6th DesDiv, will be marking my new arrival in my New Year's attire! Commander, don't you dare change the channel - you've gotta watch my every move~!",
+						"englishNote" : ""
+					},
+					"2" : {
+						"event" : "Acquisition",
+						"media" : "get_1",
+						"chinese" : "港区的新年终于到了！我是来自六驱的新人响，以新年服饰再度登场！指挥官，请不要换台，继续关注我的活跃哦~！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"3" : {
+						"event" : "Login",
+						"media" : "login_1",
+						"chinese" : "指挥官还要工作吗？至少今天稍微休息下比较好吧？",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"4" : {
+						"event" : "Details",
+						"media" : "detail_1",
+						"chinese" : "哎呀，确实是让大家久等了呢，响也觉得非常对不住呢，不过，既然都来了，就开心点吧~向前看向前看~嘿嘿！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"5" : {
+						"event" : "Touch (Special)",
+						"media" : "touch_2_1",
+						"chinese" : "衣服太性感把住不住了吗？指挥官~",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"6" : {
+						"event" : "Rub",
+						"media" : "touch_head_1",
+						"chinese" : "在意的是这个鬼角？还是这个金鬼面？",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"7" : {
+						"event" : "Return to Port",
+						"media" : "home_1",
+						"chinese" : "辛苦啦~虽然是新年休假，要做的事情还是有一大堆呢~想要倒头睡个痛快也没那么容易呢，呜…",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					}
+				}
+			}
+		}
+	}
+}

@@ -149,6 +149,28 @@
 			}
 		},
 		"6" : {
+			"id" : "lafei_h",
+			"name" : "White Rabbit's Oath",
+			"description" : "Laffey seems to have changed a bit... Commander, do you like how Laffey is now?",
+			"expression" : {
+				"0" : {
+					"id" : "0"
+				},
+				"1" : {
+					"id" : "1"
+				},
+				"2" : {
+					"id" : "2"
+				},
+				"3" : {
+					"id" : "3"
+				},
+				"4" : {
+					"id" : "4"
+				}
+			}
+		},
+		"7" : {
 			"id" : "lafei_g",
 			"name" : "Laffey (Retrofit)",
 			"description" : "Laffey, improved and reporting in! I feel energized and ready to redouble my efforts! Hey, Commander, I still don't want you to touch my ears...",
@@ -1475,6 +1497,253 @@
 				}
 			},
 			"6": {
+				"skin_id" : "lafei_h",
+				"id" : "8",
+				"label" : "White Rabbit's Oath",
+				"dialogue" : {
+					"1" : {
+						"event" : "Ship Description",
+						"media" : "",
+						"chinese" : "拉菲，变成了有点不一样的拉菲……指挥官，喜欢这样的拉菲吗？",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "ラフィー、いつもと違う格好にした……指揮官、今のラフィー、好き？",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Laffey seems to have changed a bit... Commander, do you like how Laffey is now?.",
+						"englishNote" : ""
+					},
+					"2" : {
+						"event" : "Acquisition",
+						"media" : "get_8",
+						"chinese" : "拉菲，变成了有点不一样的拉菲……指挥官，喜欢这样的拉菲吗？",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "ラフィー、いつもと違う格好にした……指揮官、今のラフィー、好き？",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Laffey seems to have changed a bit... Commander, do you like how Laffey is now?",
+						"englishNote" : ""
+					},
+					"3" : {
+						"event" : "Login",
+						"media" : "login_8",
+						"chinese" : "拉菲没有一直在等指挥官回来……嗯，大概。",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "ラフィー、指揮官が戻ってくるのを待ってない。……多分",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Laffey has not been waiting for Commander to come back this entire time... Nnh, probably.",
+						"englishNote" : ""
+					},
+					"4" : {
+						"event" : "Details",
+						"media" : "detail_8",
+						"chinese" : "指挥官…无论拉菲变成怎么样都喜欢拉菲…？虽然不太明白，那应该就是指挥官会一直陪着拉菲的意思吧",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "指揮官、「どんなラフィーでも好き」、よくわからない…ずっとラフィーと一緒、でいいよね",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Commander... you love me for who I am inside, not my body? Laffey doesn't understand the complicated stuff, but that means you'll always stay with me?",
+						"englishNote" : ""
+					},
+					"5" : {
+						"event" : "Main 1",
+						"media" : "main_1_8",
+						"chinese" : "唔，拉菲好像有点困了。指挥官腿躺着很舒服，所以拉菲要睡在上面……",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "うぅ…ラフィー、眠いかも…指揮官の膝枕、気持ちよさそう…ラフィー、ここでおねんねする…",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Mm... Laffey is getting sleepy. Commander's lap feels nice, so I'll sleep here... ",
+						"englishNote" : ""
+					},
+					"6" : {
+						"event" : "Main 2",
+						"media" : "main_2_8",
+						"chinese" : "拉菲得了离开指挥官就没有精神的病。拉菲没有说谎，是真的。",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "「ラフィー、指揮官がいないと元気がないビョウキになった」…ラフィーは嘘を言ってない。うん、言ってない",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Laffey gets a disease that makes her fall asleep when she's not with Commander. I'm not lying, it's true... ",
+						"englishNote" : ""
+					},
+					"7" : {
+						"event" : "Main 3",
+						"media" : "main_3_8",
+						"chinese" : "就算指挥官盯着别人看，拉菲也不会生气的。嗯，真的，一，点，都，不，生，气，的。",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "指揮官が他の子をじっと見てても、ラフィーは怒らない。うん。お・こ・ら・な・い",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Even if Commander if is staring at another girl, Laffey won't get upset at all. Mm, I really won't. Get. Upset. At. All. ",
+						"englishNote" : ""
+					},
+					"8" : {
+						"event" : "Main 4",
+						"media" : "main_4_8",
+						"chinese" : "就算指挥官再怎么照顾拉菲，拉菲也不会过度依赖指挥官的。嗯，不会变成习惯被饲养的废柴的",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "指揮官がラフィーの面倒を見ても、ラフィーは指揮官に頼らない。うん、ラフィー、指揮官に飼い慣らされない",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Commander, if you pamper Laffey so much, she will turn into a Yayanami. ",
+						"englishNote" : ""
+					},
+					"9" : {
+						"event" : "Main 5",
+						"media" : "main_5_8",
+						"chinese" : "无论遇到什么困难，拉菲都一定会回到指挥官身边的。因为，拉菲这样和指挥官约好了的",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "どんなことがあっても、ラフィー、指揮官のもとに戻る。約束…したから",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "No matter how tough things get, Laffey will always return to Commander's side... Because we made a vow...",
+						"englishNote" : ""
+					},
+					"10" : {
+						"event" : "Touch",
+						"media" : "touch_1_8",
+						"chinese" : "指挥官，也得了离开拉菲就会没有精神的病吗？",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "「指揮官、ラフィーがいないと元気がないビョウキになった」？",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Commander, did you also contract the disease that makes you fall asleep if you leave Laffey's side?",
+						"englishNote" : ""
+					},
+					"11" : {
+						"event" : "Touch (Special)",
+						"media" : "touch_2_8",
+						"chinese" : "拉菲，快要适应指挥官这些奇怪的想法了",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "ラフィー、指揮官が考えてるヘンなこと、慣れてしまいそう……",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Laffey... has almost gotten used to Commander's lechery...",
+						"englishNote" : ""
+					},
+					"12" : {
+						"event" : "Rub",
+						"media" : "touch_head_8",
+						"chinese" : "指挥官，喜欢拉菲的兔兔耳朵？",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "指揮官、ラフィーのウサミミ、好き？",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Commander, do you like Laffey's bunny ears?",
+						"englishNote" : ""
+					},
+					"13" : {
+						"event" : "Mission Complete",
+						"media" : "mission_complete_8",
+						"chinese" : "任务完成。拉菲的奖励…就要指挥官的抱抱吧",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "任務完了。指揮官がご褒美に抱っこしてくれると思ってない",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Mission complete. For the reward, Laffey wants... a hug from Commander.",
+						"englishNote" : ""
+					},
+					"14" : {
+						"event" : "Mail",
+						"media" : "mail_8",
+						"chinese" : "指挥官，拉菲想看看信里写了什么，可以吗？",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "指揮官、お手紙の中身見たい。いい？",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Commander, Laffey wants to see what's in those letters. You don't mind, right?",
+						"englishNote" : ""
+					},
+					"15" : {
+						"event" : "Return to Port",
+						"media" : "home_8",
+						"chinese" : "为了指挥官，拉菲会更加的努力。所以拉菲也要睡更多的觉……呼呼……",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "指揮官のためなら、ラフィーやる気だす。だから今はおねむ………Zzzz",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Commander, Laffey will become stronger for your sake. That is why more sleep is required... zzz...",
+						"englishNote" : ""
+					},
+					"16" : {
+						"event" : "Commission Complete",
+						"media" : "expedition_8",
+						"chinese" : "（拉袖子）指挥官，一起去迎接委托队吧。",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "指揮官、委託チーム、出迎えに行く",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Commander... let's go welcome back the commission team together.",
+						"englishNote" : ""
+					},
+					"17" : {
+						"event" : "Flagship",
+						"media" : "warcry_8",
+						"chinese" : "打倒敌人，然后回去……",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "敵を倒して、戻る",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Defeat the enemy, and then go back to sleep...",
+						"englishNote" : ""
+					},
+					"18" : {
+						"event" : "Defeat",
+						"media" : "lose_8",
+						"chinese" : "让指挥官担心了，对不起……",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "指揮官に心配させちゃった。ラフィー、悪かった……",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Sorry... for making you worry...",
+						"englishNote" : ""
+					},
+					"19" : {
+						"event" : "Low HP",
+						"media" : "hp_8",
+						"chinese" : "指挥官在等我，我不会倒下的。",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "ラフィーは倒れない。指揮官が待ってるから",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "As long as Commander is waiting for me, I will not fall.",
+						"englishNote" : ""
+					},
+					"20" : {
+						"event" : "Affinity (Love)",
+						"media" : "feeling5_8",
+						"chinese" : "只要在指挥官的身边，拉菲就觉得很开心。所以，指挥官，能一直和拉菲在一起吗？",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "指揮官のそばにいると、ラフィーは嬉しい、幸せ。指揮官、ラフィーとずっと一緒にいて",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Laffey feels very happy when she is at your side, Commander. So, can you always stay with Laffey?",
+						"englishNote" : ""
+					}
+				}
+			},
+			"7": {
 				"skin_id" : "lafei_g",
 				"id" : "9",
 				"label" : "Laffey (Retrofit)",
