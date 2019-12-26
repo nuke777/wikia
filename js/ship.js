@@ -186,6 +186,8 @@ function setShipNavyIcon(navy){
 		document.getElementById("shipNavyIcon").src = "Images/Navy/ijn_icon.png";
 	} else if (navy == "Royal Navy") {
 		document.getElementById("shipNavyIcon").src = "Images/Navy/hms_icon.png";
+	} else if (navy == "Sardegna Empire") {
+		document.getElementById("shipNavyIcon").src = "Images/Navy/rn_icon.png";
 	} else if (navy == "Ironblood") {
 		document.getElementById("shipNavyIcon").src = "Images/Navy/kms_icon.png";
 	} else if (navy == "Dragon Empery" || navy == "Eastern Radiance" || navy == "Dragon Empire") {
@@ -206,6 +208,8 @@ function setShipNavyIcon(navy){
 		document.getElementById("shipNavyIcon").src = "Images/Navy/uwrr_icon.png";
 	} else if (navy == "Bilibili") {
 		document.getElementById("shipNavyIcon").src = "Images/Navy/bili_icon.png";
+	} else if (navy == "Hololive") {
+		document.getElementById("shipNavyIcon").src = "Images/Navy/uwrr_icon.png";
 	}
 }
 
@@ -820,12 +824,35 @@ function loadShipDialogueElements(skinId){
 			<td style="text-align:center;">';
 			
 					if (actual_JSON.lines.skin[x].dialogue[y].media != ""){
-						text = text + '\
+
+						if (actual_JSON.lines.skin[x].dialogue[y].media.slice(0,2) == "hp" ||
+							actual_JSON.lines.skin[x].dialogue[y].media.slice(0,4) == "lose" ||
+							actual_JSON.lines.skin[x].dialogue[y].media.slice(0,3) == "mvp" ||
+							actual_JSON.lines.skin[x].dialogue[y].media.slice(0,5) == "skill" ||
+							actual_JSON.lines.skin[x].dialogue[y].media.slice(0,6) == "warcry" ||
+							actual_JSON.lines.skin[x].dialogue[y].media.slice(0,4) == "link"){
+							text = text + '\
+				<a href="'+"https://media.alg-wiki.com/assets/cue/cv-"+Math.floor(parseInt(actual_JSON.internal_id)/10)+"-battle/acb/awb/"+actual_JSON.lines.skin[x].dialogue[y].media+".ogg"+'" onclick="return false;">\
+				<img id="btn_'+skinId+'_'+y+'" onclick="playAudio(\'btn_'+skinId+'_'+y+'\',\'audio_'+skinId+'_'+y+'\')" class="btnAudio" src="Images/sound_off.png"></a>\
+				<audio id="audio_'+skinId+'_'+y+'">\
+				  <source src="'+"https://media.alg-wiki.com/assets/cue/cv-"+Math.floor(parseInt(actual_JSON.internal_id)/10)+"-battle/acb/awb/"+actual_JSON.lines.skin[x].dialogue[y].media+".ogg"+'" type="audio/ogg">\
+				</audio>';
+						} else {
+							text = text + '\
+				<a href="'+"https://media.alg-wiki.com/assets/cue/cv-"+Math.floor(parseInt(actual_JSON.internal_id)/10)+"/acb/awb/"+actual_JSON.lines.skin[x].dialogue[y].media+".ogg"+'" onclick="return false;">\
+				<img id="btn_'+skinId+'_'+y+'" onclick="playAudio(\'btn_'+skinId+'_'+y+'\',\'audio_'+skinId+'_'+y+'\')" class="btnAudio" src="Images/sound_off.png"></a>\
+				<audio id="audio_'+skinId+'_'+y+'">\
+				  <source src="'+"https://media.alg-wiki.com/assets/cue/cv-"+Math.floor(parseInt(actual_JSON.internal_id)/10)+"/acb/awb/"+actual_JSON.lines.skin[x].dialogue[y].media+".ogg"+'" type="audio/ogg">\
+				</audio>';
+						}
+
+
+						/*text = text + '\
 				<a href="'+"https://media.alg-wiki.com/assets/voice/"+actual_JSON.cn_reference+"/"+actual_JSON.lines.skin[x].dialogue[y].media+".ogg"+'" onclick="return false;">\
 				<img id="btn_'+skinId+'_'+y+'" onclick="playAudio(\'btn_'+skinId+'_'+y+'\',\'audio_'+skinId+'_'+y+'\')" class="btnAudio" src="Images/sound_off.png"></a>\
 				<audio id="audio_'+skinId+'_'+y+'">\
 				  <source src="'+"https://media.alg-wiki.com/assets/voice/"+actual_JSON.cn_reference+"/"+actual_JSON.lines.skin[x].dialogue[y].media+".ogg"+'" type="audio/ogg">\
-				</audio>';
+				</audio>';*/
 				
 					}
 					

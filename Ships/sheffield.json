@@ -11,8 +11,7 @@
 	"hull": "Light Cruiser",
 	"navy": "Royal Navy",
 	"prefix": "HMS",
-	"buildTime": "",
-	"class": "Sheffield-Class",
+	"buildTime": "01:25:00",
 	"voiceActress": "Konomi Kohara",
 	"parameters": {
 		"firepower": "B",
@@ -34,40 +33,41 @@
 		"EN": ""
 	},
 	"artist": {
-		"name": "",
-		"weibo": "",
-		"twitter": "",
-		"pixiv": "",
+		"name": "玛雅G",
+		"weibo": "http://weibo.com/p/1005051970961102",
+		"twitter": "https://twitter.com/mayag_nya",
+		"pixiv": "https://www.pixiv.net/member.php?id=1287983",
 		"other": ""
 	},
+	"class": "Southampton-Class ",
 	"enhance": {
 		"firepower": "12",
 		"torpedo": "17",
 		"aviation": "0",
 		"reload": "13"
 	},
-	"acquisitionMethod": "Event: Winter's Crown",
+	"acquisitionMethod": "Event: Winter's Crown, Light Build",
 	"skill": {
 		"1": {
 			"icon": "11140",
-			"requirement": "",
+			"requirement": "Default Unlocked",
 			"name": "Shiny Sheff",
 			"type": "Defensive",
-			"description": "Friendlies with less HP than Sheffield at the start of the battle have a $1 chance to take $2 less DMG when attacked. Friendlies may only receive this buff if they have less HP than Sheffield at the start of the battle."
+			"description": "At the start of battle, if your ships' HP is less than Sheffield's: 10.0%(30.0%) chance for those ships to take 20%(50%) less DMG when attacked. Ships that have less HP than Sheffield after the battle starts will not gain the buff."
 		},
 		"2": {
 			"icon": "11150",
-			"requirement": "",
+			"requirement": "Default Unlocked",
 			"name": "Counterattack of the Barents Sea",
 			"type": "Offensive",
-			"description": "Increase Crit Rate of Main Gun by $1 and Crit DMG by 30%."
+			"description": "Increases this ship's Main Gun Crit Rate by 4.5%(10.0%) and increases its Crit DMG by 30.0%."
 		},
 		"3": {
 			"icon": "21151",
-			"requirement": "",
+			"requirement": "Limit Break I (III)",
 			"name": "All Out Assault Ⅰ",
 			"type": "Offensive",
-			"description": "Activate All Out Assault Ⅰ: Southampton Class once every 12 times the main gun is fired."
+			"description": "Activates All Out Assault Ⅰ: Southampton Class once every 12 times the Main Guns are fired."
 		}
 	},
 	"skin": {
@@ -85,6 +85,25 @@
 			"id": "xiefeierde_2",
 			"name": "Cloak and Dagger ",
 			"description": "... Did you find out about my undercover identity? You leave me no choice. Master, I cannot allow you to leave this room... Of course I'm jesting, it's merely a hobby. ",
+			"expression": {
+				"0": {
+					"id": "0"
+				},
+				"1": {
+					"id": "1"
+				},
+				"2": {
+					"id": "2"
+				},
+				"3": {
+					"id": "3"
+				}
+			}
+		},
+		"3": {
+			"id": "xiefeierde_3",
+			"name": "A Moment's Respite",
+			"description": "The Sakura Empire's summer festivals... they're quite noisy. It will be difficult to keep things clean with so many people around... Despite that, I'm still having a good time. Is there a problem?",
 			"expression": {
 				"0": {
 					"id": "0"
@@ -230,17 +249,30 @@
 			"preload": "0/0/0/0"
 		},
 		"4": {
-			"type": "Auxiliary",
+			"type": "Auxilary",
 			"efficiency": "-",
 			"amount": "-",
 			"preload": "-"
 		},
 		"5": {
-			"type": "Auxiliary",
+			"type": "Auxilary",
 			"efficiency": "-",
 			"amount": "-",
 			"preload": "-"
 		}
+	},
+	"fleet_tech": {
+		"pt_get": "10",
+		"add_get_attr": "ASW",
+		"add_get_value": "1",
+		"add_get_shiptype": "Light Cruiser",
+		"pt_upgrade": "20",
+		"pt_level": "15",
+		"add_level_attr": "Torpedo",
+		"add_level_value": "1",
+		"add_level_shiptype": "Light Cruiser",
+		"t_level": "7",
+		"ships": "southampton,newcastle,sheffield,glasgow"
 	},
 	"build": {
 		"light": {
@@ -259,9 +291,9 @@
 			"EN": ""
 		},
 		"limited": {
-			"JP": "",
-			"CN": "",
-			"EN": ""
+			"JP": "✓",
+			"CN": "✓",
+			"EN": "✓"
 		}
 	},
 	"drop": {
@@ -296,7 +328,7 @@
 						"chinese": "南安普顿级轻巡洋舰——谢菲尔德，舷号C24",
 						"chineseTL": "",
 						"chineseNote": "",
-						"japanese": "シェフィールド級軽巡洋艦・シェフィールド（HMS Sheffield）",
+						"japanese": "サウサンプトン級軽巡洋艦・シェフィールド（HMS Sheffield）",
 						"japaneseTL": "",
 						"japaneseNote": "",
 						"english": "Sheffield-class Light Cruiser - HMS Sheffield",
@@ -615,7 +647,7 @@
 						"englishNote": ""
 					},
 					"28": {
-						"event": "Easter Egg 1 (Belfast)",
+						"event": "Easter Egg 1(Belfast)",
 						"media": "link1",
 						"chinese": "战斗没有生疏吧？",
 						"chineseTL": "",
@@ -627,7 +659,7 @@
 						"englishNote": ""
 					},
 					"29": {
-						"event": "Easter Egg 2 (Ark Royal)",
+						"event": "Easter Egg 2(Ark Royal)",
 						"media": "link2",
 						"chinese": "你的剑鱼请小心点……",
 						"chineseTL": "",
@@ -639,7 +671,7 @@
 						"englishNote": ""
 					},
 					"30": {
-						"event": "Easter Egg 3 (Ajax)",
+						"event": "Easter Egg 3(Ajax)",
 						"media": "link3",
 						"chinese": "这也算是…某种缘分吧",
 						"chineseTL": "",
@@ -651,7 +683,7 @@
 						"englishNote": ""
 					},
 					"31": {
-						"event": "Easter Egg 4 (Sheffield, Edinburgh, Belfast, Belfast, Newcastle, Suffolk)",
+						"event": "Easter Egg 4(Sheffield, Edinburgh, Belfast, Belfast, Newcastle, Suffolk)",
 						"media": "link4",
 						"chinese": "主人，这该不会是您的某种兴趣吧？",
 						"chineseTL": "",
@@ -663,7 +695,7 @@
 						"englishNote": ""
 					},
 					"32": {
-						"event": "Easter Egg 5 (Jamaica)",
+						"event": "Easter Egg 5(Jamaica)",
 						"media": "link5",
 						"chinese": "让我见识一下你的正义吧",
 						"chineseTL": "",
@@ -672,6 +704,42 @@
 						"japaneseTL": "",
 						"japaneseNote": "",
 						"english": "Let me witness your \"justice.\"",
+						"englishNote": ""
+					},
+					"33": {
+						"event": "Like Present",
+						"media": "present_like",
+						"chinese": "",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"34": {
+						"event": "Dislike Present",
+						"media": "present_dislike",
+						"chinese": "",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"35": {
+						"event": "Main Title",
+						"media": "extra",
+						"chinese": "",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
 						"englishNote": ""
 					}
 				}
@@ -814,20 +882,158 @@
 						"englishNote": ""
 					}
 				}
+			},
+			"3": {
+				"skin_id": "xiefeierde_3",
+				"id": "2",
+				"label": "A Moment's Respite",
+				"dialogue": {
+					"1": {
+						"event": "Ship Description",
+						"media": "",
+						"chinese": "这就是重樱的祭典…非常嘈杂呢。这么多人，结束以后的扫除想必也会非常麻烦吧。……即使这么说，我也是在享受祭典的，有什么问题吗？",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "重桜の祭り…騒がしいですね。これだけの人が集まると、後片付けも大変でしょうに。…これでも祭りを楽しんでいるのですが、何でしょうか",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "The Sakura Empire's summer festivals... they're quite noisy. It will be difficult to keep things clean with so many people around... Despite that, I'm still having a good time. Is there a problem?",
+						"englishNote": ""
+					},
+					"2": {
+						"event": "Acquisition",
+						"media": "get_2",
+						"chinese": "这就是重樱的祭典…非常嘈杂呢。这么多人，结束以后的扫除想必也会非常麻烦吧。……即使这么说，我也是在享受祭典的，有什么问题吗？",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "重桜の祭り…騒がしいですね。これだけの人が集まると、後片付けも大変でしょうに。…これでも祭りを楽しんでいるのですが、何でしょうか",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "The Sakura Empire's summer festivals... they're quite noisy. It will be difficult to keep things clean with so many people around... Despite that, I'm still having a good time. Is there a problem?",
+						"englishNote": ""
+					},
+					"3": {
+						"event": "Login",
+						"media": "login_2",
+						"chinese": "主人原来在这里啊。我还以为走丢了，正想要联系女仆队的其他人来着。到底去干什么了？",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "ご主人様、ここにいましたか。はぐれたと思ってメイド隊に連絡しようとしていましたが、一体何をしていたのですか",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "So this is where you were, Master. I was afraid that you had gotten lost and almost mobilised the entire Maid Team. What exactly were you doing?",
+						"englishNote": ""
+					},
+					"4": {
+						"event": "Details",
+						"media": "detail_2",
+						"chinese": "确捷，祭典的时候不要呆在房间里，和大家一起出去玩。…和大家一起玩当然是很开心的",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "スウィフトシュア、祭りの日は引きこもってないで、みんなと楽しんで来てください。…楽しいに決まっています",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Swiftsure, don’t stay in your room while the festival is going on. Go out there and socialise with the others. Of course it&apos;s worth the effort... ",
+						"englishNote": ""
+					},
+					"5": {
+						"event": "Main 1",
+						"media": "main_1_2",
+						"chinese": "这就是棉花糖吗。…（咬）很甜，嗯……您在期待什么呢",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "これが綿あめですか。…（はむっ）甘い、ですね。……何を期待しているんですか",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "So this is cotton candy... Mmf.. It's very sweet... Nn... What are you waiting for? ",
+						"englishNote": ""
+					},
+					"6": {
+						"event": "Main 2",
+						"media": "main_2_2",
+						"chinese": "主人觉得这种祭典怎么样？如果您愿意的话，下次别的机会也可以试试欧罗巴的类似的活动",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "ご主人様は祭りを楽しんでおられますか？ご所望でしたら、今度別の機会にエウロパの似たような催事でもいかがですか？",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Master, what do you think about this festival? If you're enjoying it, perhaps we can go to a similar Western-style event next time. ",
+						"englishNote": ""
+					},
+					"7": {
+						"event": "Main 3",
+						"media": "main_3_2",
+						"chinese": "南安普顿，执勤的时候为什么跑到祭典这边来了？…哈啊…真拿你没办法……",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "サウサンプトン、当番なのに何祭りを満喫しているのですか。…はぁ…これだからあなたは……",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Southampton, why did you run off to the festival when you're supposed to be on duty? Ugh... What am I going to do with you... ",
+						"englishNote": ""
+					},
+					"8": {
+						"event": "Touch",
+						"media": "touch_1_2",
+						"chinese": "这身装扮还算凉快。看来要代表女仆队谢谢胜利小姐了",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "この格好は少し涼しいですね。ヴィクトリアス様にはメイド隊としてお礼をしませんと",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "This outfit is quite breezy. I will have to thank Ms. Victorious on behalf of the Maid Team.",
+						"englishNote": ""
+					},
+					"9": {
+						"event": "Touch (Special)",
+						"media": "touch_2_2",
+						"chinese": "枪可是好好带在身上的",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "銃砲ならしっかり隠し持っていますが",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "I keep a gun with me at all times.",
+						"englishNote": ""
+					},
+					"10": {
+						"event": "Rub",
+						"media": "touch_head_2",
+						"chinese": "有什么事吗？",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "なんですか？",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Do you need something?",
+						"englishNote": ""
+					},
+					"11": {
+						"event": "Return to Port",
+						"media": "home_2",
+						"chinese": "烟花的品味不错。平时为了陛下准备的豪华皇家烟花都看惯了，感觉这种的也不坏呢",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "花火はいいセンスです。いつもは陛下のために用意された豪華なロイヤル花火を見ていますが、これはこれで悪くありませんね",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Not a bad selection of fireworks. I thought that I had nothing to see since I've had to put on so many opulent displays of pyrotechnics for Her Majesty's enjoyment, but I feel like these are pretty tasteful.",
+						"englishNote": ""
+					},
+					"12": {
+						"event": "Flagship",
+						"media": "warcry_2",
+						"chinese": "无论在哪里，害虫都是必须清除掉的",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "害虫はソウジします。どこにいようと",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Regardless of the occasion, there is always time to take out the trash.",
+						"englishNote": ""
+					}
+				}
 			}
 		}
-	},
-	"fleet_tech": {
-		"pt_get": "10",
-		"add_get_attr": "ASW",
-		"add_get_value": "1",
-		"add_get_shiptype": "Light Cruiser",
-		"pt_upgrade": "20",
-		"pt_level": "15",
-		"add_level_attr": "Torpedo",
-		"add_level_value": "1",
-		"add_level_shiptype": "Light Cruiser",
-		"t_level": "7",
-		"ships": "newcastle,sheffield"
 	}
 }

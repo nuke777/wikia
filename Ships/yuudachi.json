@@ -11,8 +11,7 @@
 	"hull": "Destroyer",
 	"navy": "Sakura Empire",
 	"prefix": "IJN",
-	"buildTime": "",
-	"class": "Shiratsuyu-Class",
+	"buildTime": "N/A",
 	"voiceActress": "Natsumi Takamori",
 	"parameters": {
 		"firepower": "C",
@@ -34,12 +33,13 @@
 		"EN": ""
 	},
 	"artist": {
-		"name": "",
-		"weibo": "",
-		"twitter": "",
-		"pixiv": "",
+		"name": "Saru",
+		"weibo": "https://www.weibo.com/u/1054234800",
+		"twitter": "https://twitter.com/saru_1127",
+		"pixiv": "https://www.pixiv.net/member.php?id=1422579",
 		"other": ""
 	},
+	"class": "Shiratsuyu-Class",
 	"enhance": {
 		"firepower": "4",
 		"torpedo": "35",
@@ -50,17 +50,17 @@
 	"skill": {
 		"1": {
 			"icon": "10360",
-			"requirement": "",
+			"requirement": "Default Unlocked",
 			"name": "Nightmare of Solomon",
 			"type": "Offensive",
-			"description": "When this ship fires its Main Guns: 6.0% chance to increase this ship's FP, TRP, RLD, and EVA by $1 for 8s."
+			"description": "When this ship fires its Main Guns: 6.0% chance to increase this ship's FP, TRP, RLD, and EVA by 20.0%(40.0%) for 8s."
 		},
 		"2": {
 			"icon": "29121",
-			"requirement": "",
-			"name": "EX Barrage: {namecode:16} Ⅰ",
+			"requirement": "Limit Break I (III)",
+			"name": "All Out Assault Ⅰ",
 			"type": "Offensive",
-			"description": "Activate EX Barrage: Yuudachi Ⅰ once every 15 times the main gun is fired."
+			"description": "Activates All Out Assault Ⅰ: Yuudachi once every 15 times the Main Guns are fired."
 		}
 	},
 	"skin": {
@@ -85,6 +85,31 @@
 			}
 		},
 		"3": {
+			"id": "xili_4",
+			"name": "Carnivore Carnival!",
+			"description": "Commander, look at me, look at me! What do you think of my new outfit? If you like it, wanna give it a feel?",
+			"expression": {
+				"0": {
+					"id": "0"
+				},
+				"1": {
+					"id": "1"
+				},
+				"2": {
+					"id": "2"
+				},
+				"3": {
+					"id": "3"
+				},
+				"4": {
+					"id": "4"
+				},
+				"5": {
+					"id": "5"
+				}
+			}
+		},
+		"4": {
 			"id": "xili_h",
 			"name": "The Bride of Solomon ",
 			"description": " Commander, look! Look at this new dress. Red and white, I really really like it! But what's the occasion?",
@@ -233,17 +258,30 @@
 			"preload": "0/0/0/0"
 		},
 		"4": {
-			"type": "Auxiliary",
+			"type": "Auxilary",
 			"efficiency": "-",
 			"amount": "-",
 			"preload": "-"
 		},
 		"5": {
-			"type": "Auxiliary",
+			"type": "Auxilary",
 			"efficiency": "-",
 			"amount": "-",
 			"preload": "-"
 		}
+	},
+	"fleet_tech": {
+		"pt_get": "8",
+		"add_get_attr": "Firepower",
+		"add_get_value": "1",
+		"add_get_shiptype": "Destroyer",
+		"pt_upgrade": "16",
+		"pt_level": "12",
+		"add_level_attr": "Torpedo",
+		"add_level_value": "1",
+		"add_level_shiptype": "Destroyer",
+		"t_level": "5",
+		"ships": "shiratsuyu,shigure,yuudachi,kawakaze"
 	},
 	"build": {
 		"light": {
@@ -268,15 +306,27 @@
 		}
 	},
 	"drop": {
-		"droppable": "false",
+		"droppable": "true",
 		"list": {
 			"1": {
-				"event": "",
+				"event": "World",
 				"chapter": {
 					"1": {
-						"label": "Ch .1",
+						"label": "Ch.6",
 						"node": {
 							"1": {
+								"drop": "-",
+								"note": "-"
+							},
+							"2": {
+								"drop": "-",
+								"note": "-"
+							},
+							"3": {
+								"drop": "-",
+								"note": "-"
+							},
+							"4": {
 								"drop": "✓",
 								"note": "-"
 							}
@@ -616,6 +666,42 @@
 						"japaneseNote": "",
 						"english": "Pro... mise? What's that? You mean from now you'll always pat my head, never get angry when I screw up, and let me eat tons of tasty food?! Hell yeah, I'm in!",
 						"englishNote": ""
+					},
+					"28": {
+						"event": "Like Present",
+						"media": "present_like",
+						"chinese": "",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"29": {
+						"event": "Dislike Present",
+						"media": "present_dislike",
+						"chinese": "",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"30": {
+						"event": "Main Title",
+						"media": "extra",
+						"chinese": "",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
 					}
 				}
 			},
@@ -735,6 +821,145 @@
 				}
 			},
 			"3": {
+				"skin_id": "xili_4",
+				"id": "3",
+				"label": "Carnivore Carnival!",
+				"dialogue": {
+					"1": {
+						"event": "Ship Description",
+						"media": "",
+						"chinese": "指挥官，快看看快看看，我的新衣服好不好看呀？好看的话，要不要摸摸看？",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "指揮官、ほらほら！この「どれす」って服はどうだ？へへへ、触ってもいいんだぜ！",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Commander, look at me, look at me! What do you think of my new outfit? If you like it, wanna give it a feel?",
+						"englishNote": ""
+					},
+					"2": {
+						"event": "Acquisition",
+						"media": "get_3",
+						"chinese": "指挥官，快看看快看看，我的新衣服好不好看呀？好看的话，要不要摸摸看？",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "指揮官、ほらほら！この「どれす」って服はどうだ？へへへ、触ってもいいんだぜ！",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Commander, look at me, look at me! What do you think of my new outfit? If you like it, wanna give it a feel?",
+						"englishNote": ""
+					},
+					"3": {
+						"event": "Login",
+						"media": "login_3",
+						"chinese": "听说宴会上有很多很多肉吃，我已经等不及了！",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "パーティーでお肉がたくさん食べれると聞いて、もう待ちきれないぜ！",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "I heard there's gonna be a ton of meat at the banquet! I can't wait any longer!",
+						"englishNote": ""
+					},
+					"4": {
+						"event": "Details",
+						"media": "detail_3",
+						"chinese": "指挥官，快看，夕立的战利品！晚会上有很多很多好吃的肉，实在是太棒啦！",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "指揮官、ほら！夕立の戦利品！うまいお肉がたくさん食えるなんてやっぱりパーティーは最高だぜ！",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Commander, look, these are my spoils of war! Ahh, I'm so glad that there's so much delicious meat to chow down on at the banquet!",
+						"englishNote": ""
+					},
+					"5": {
+						"event": "Main 1",
+						"media": "main_1_3",
+						"chinese": "唔，时雨去哪了呢…肯定是又去找雪风比赛什么东西了吧！",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "時雨のやつどこいってんだ？どうせ雪風とまたよくわからん競争でもしてるな？",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Erm, where'd Shigure go... I bet she went off to have one of her dumb contests with Yukikaze again! ",
+						"englishNote": ""
+					},
+					"6": {
+						"event": "Main 2",
+						"media": "main_2_3",
+						"chinese": "我听说晚上还有舞会。指挥官，跳舞是怎样的呀？",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "「だんすぱーてぃー」？うん？指揮官、「だんす」ってなんだ？",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "I heard there's also going to be a ball tonight. Commander, how do you dance? ",
+						"englishNote": ""
+					},
+					"7": {
+						"event": "Main 3",
+						"media": "main_3_3",
+						"chinese": "“小心不要弄脏衣服”？嗯，我知道的！夕立也很喜欢这身衣服，一定会注意的！",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "服をあまり汚すなって？わかってるよ！この服結構気に入ったし、気をつける！",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Be careful not to get my clothes dirty? Mhm, I already know! I really like this outfit too, so I'll take good care of it!",
+						"englishNote": ""
+					},
+					"8": {
+						"event": "Touch",
+						"media": "touch_1_3",
+						"chinese": "诶嘿嘿，指挥官，是要带我去吃更多好吃的，还是去玩更多好玩的呀？",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "指揮官、えへへへ～これからはもっとうまいものを食わせてくれるのか？それとも面白いもので一緒に遊ぶとかか？",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Ehehe... Commander, are you taking me to get more delicious meat, or to have even more fun?",
+						"englishNote": ""
+					},
+					"9": {
+						"event": "Touch (Special)",
+						"media": "touch_2_3",
+						"chinese": "指挥官！夕立要生气了！",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "指揮官！こら！怒るぜ！",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Commander! I'm gonna get super mad!",
+						"englishNote": ""
+					},
+					"10": {
+						"event": "Return to Port",
+						"media": "home_3",
+						"chinese": "啊呜啊呜，这个肉串好好吃~嗯？指挥官，你也想吃吗？我可以分给你一点！",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "はむはむむしゃむしゃ、うっま～！おっ指揮官も食べるか？いいぜ、ほら！",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Awoooo! This skewer is so yummy! Nnh? Commander, want a bite? Here's a piece for you!",
+						"englishNote": ""
+					},
+					"11": {
+						"event": "Affinity (Love)",
+						"media": "feeling5_3",
+						"chinese": "虽然今天夕立吃得玩得都很开心，但还是指挥官的身边最好啦！诶嘿嘿，指挥官，多陪陪我嘛。",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "うまいものを食えるのもいいけど、でもパーティーはやっぱり指揮官と一緒のほうが一番楽しいな！えへへ、指揮官、夕立ともっと一緒に遊ぼうぜ！",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Even though I had a ton of fun and ate a ton of yummy food tonight, nothing beats being at your side! Ehehe, Commander, play with me a bit more~",
+						"englishNote": ""
+					}
+				}
+			},
+			"4": {
 				"skin_id": "xili_h",
 				"id": "8",
 				"label": "The Bride of Solomon ",
@@ -910,18 +1135,5 @@
 				}
 			}
 		}
-	},
-	"fleet_tech": {
-		"pt_get": "8",
-		"add_get_attr": "Firepower",
-		"add_get_value": "1",
-		"add_get_shiptype": "Destroyer",
-		"pt_upgrade": "16",
-		"pt_level": "12",
-		"add_level_attr": "Torpedo",
-		"add_level_value": "1",
-		"add_level_shiptype": "Destroyer",
-		"t_level": "5",
-		"ships": "shiratsuyu,shigure,yuudachi,kawakaze"
 	}
 }

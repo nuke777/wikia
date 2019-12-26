@@ -11,8 +11,8 @@
 	"hull": "Destroyer",
 	"navy": "Royal Navy",
 	"prefix": "HMS",
-	"buildTime": "",
-	"class": "A級",
+	"buildTime": "00:19:00",
+	"class": "A-Class",
 	"voiceActress": "Kaya Okuno",
 	"parameters": {
 		"firepower": "D",
@@ -28,16 +28,16 @@
 		"medal": "1"
 	},
 	"releaseDate": {
-		"JP": "",
-		"CN": "",
+		"JP": "May 18, 2018",
+		"CN": "October 26, 2017",
 		"KR": "",
-		"EN": ""
+		"EN": "June 20, 2019"
 	},
 	"artist": {
-		"name": "",
-		"weibo": "",
+		"name": "ALLENES",
+		"weibo": "https://weibo.com/u/3818062182",
 		"twitter": "",
-		"pixiv": "",
+		"pixiv": "https://www.pixiv.net/member.php?id=8217405",
 		"other": ""
 	},
 	"enhance": {
@@ -46,42 +46,42 @@
 		"aviation": "0",
 		"reload": "13"
 	},
-	"acquisitionMethod": "小型艦建造",
+	"acquisitionMethod": "Event: Glorious Final Battle",
 	"skill": {
 		"1": {
 			"icon": "10840",
-			"requirement": "",
+			"requirement": "Default Unlocked",
 			"name": "Death Raid",
 			"type": "Offensive",
-			"description": "Increase own DMG by $1 and DMG taken by $2 when becoming the only surviving ship in the vanguard."
+			"description": "While this ship is the last one afloat in your Vanguard: increases its DMG by 20.0% (50.0%) but increases the DMG it takes by 8.0% (20.0%)."
 		},
 		"2": {
 			"icon": "4081",
-			"requirement": "",
+			"requirement": "Default Unlocked",
 			"name": "Smokescreen",
 			"type": "Defensive",
-			"description": "Activates after the battle begins and has a $1 chance to activate every 15s after that: deploys a smokescreen that increases Evasion Rate by $2 for all friendlies within it. Does not stack with other smokescreen skills. Smokescreen lasts 5s."
+			"description": "After the battle begins and 15.0% (30.0%) chance every 15s after that: deploys a smokescreen that increases Evasion Rate by 20.0% (40.0%) for all your ships in it. Does not stack with other smokescreen skills. Smokescreen lasts 5s."
 		},
 		"3": {
 			"icon": "5051",
-			"requirement": "",
+			"requirement": "Retrofit",
 			"name": "Flagship Cover",
 			"type": "Support",
-			"description": "While alive, reduce DMG taken by Flagship by $1."
+			"description": "While this ship is afloat: decreases the DMG your Flagship takes by 15.0% (25.0%)."
 		},
 		"4": {
 			"icon": "21011",
-			"requirement": "",
+			"requirement": "Limit Break I (III)",
 			"name": "All Out Assault Ⅰ",
 			"type": "Offensive",
-			"description": "Activate All Out Assault Ⅰ: A Class once every 15 times the main gun is fired."
+			"description": "Activates All Out Assault Ⅰ: A Class once every 15 times the Main Guns are fired."
 		}
 	},
 	"skin": {
 		"1": {
 			"id": "akasita",
-			"name": "アカスタ",
-			"description": "A級実験駆逐艦・アカスタ（H09)",
+			"name": "Acasta",
+			"description": "A-class destroyer – Acasta, Hull Number H09. ",
 			"expression": {
 				"0": {
 					"id": "0"
@@ -90,8 +90,8 @@
 		},
 		"2": {
 			"id": "akasita_2",
-			"name": "お出かけスタイル",
-			"description": "うん？指揮官もお出かけなのかな。…そんな目で見ないで…私だってお出かけぐらい…ええと、目的地…途中まででも一緒に歩こう…かな？",
+			"name": "Fashionable Outing ",
+			"description": "Hm? Guess we're both about to head out... Don't stare at me like that... Even I go outdoors sometimes... Since we're both, uh, headed the same way... maybe we could... walk there together? ",
 			"expression": {
 				"0": {
 					"id": "0"
@@ -100,8 +100,8 @@
 		},
 		"3": {
 			"id": "akasita_g",
-			"name": "アカスタ改",
-			"description": "「いつも眠そうにしてるのはよくなーい」「もっと女のコっぽくしたほうがいーよ」ってアーデントに言われたから、改造ついでに…指揮官は私が誰かって分かるかな…ええと、アカスタだよ？",
+			"name": "Acasta (Retrofit) ",
+			"description": "Ardent told me I \"gotta stop looking so tired\" and I \"gotta be more girly,\" so I did it while I was retrofitting... Do you recognise me, Commander? ... Umm, I'm Acasta, okay? ",
 			"expression": {
 				"0": {
 					"id": "0"
@@ -214,9 +214,9 @@
 		}
 	},
 	"limitBreak": {
-		"tier1": "全弾発射スキル習得/主砲補正+5%",
-		"tier2": "魚雷装填数+1/開始時魚雷+1/魚雷補正+10%",
-		"tier3": "全弾発射弾幕強化/武器補正+5%"
+		"tier1": "Unlock All Out Assault Ⅰ/Main gun efficiency +5%",
+		"tier2": "Torpedo base +1/Torpedo preload +1/Torpedo efficiency +10%",
+		"tier3": "Improve All Out Assault/All weapons' efficiency +5%"
 	},
 	"equipmentLoadout": {
 		"1": {
@@ -252,8 +252,8 @@
 	},
 	"build": {
 		"light": {
-			"JP": "",
-			"CN": "",
+			"JP": "✓",
+			"CN": "✓",
 			"EN": ""
 		},
 		"heavy": {
@@ -296,7 +296,7 @@
 			"1": {
 				"skin_id": "akasita",
 				"id": "0",
-				"label": "アカスタ",
+				"label": "Acasta",
 				"dialogue": {
 					"1": {
 						"event": "Ship Description",
@@ -307,7 +307,7 @@
 						"japanese": "A級実験駆逐艦・アカスタ（H09)",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "A-class destroyer – Acasta, Hull Number H09.",
 						"englishNote": ""
 					},
 					"2": {
@@ -319,7 +319,7 @@
 						"japanese": "アカスタ……A型の一員。勇敢なんて、ちょっと褒め過ぎたかな。ただやるべきことをやっただけ……そんなに強くないけど、指揮官が必要というのなら、ちゃんと頑張るよ。",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "I'm Acasta... part of the A-class. Calling me \"brave\" would be flattery. I was just doing my job... I'm not all that strong, but I'll do my best if you need me to.",
 						"englishNote": ""
 					},
 					"3": {
@@ -331,7 +331,7 @@
 						"japanese": "はい……アカスタっていうの。こんにちは",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Right... I'm Acasta. Good day.",
 						"englishNote": ""
 					},
 					"4": {
@@ -343,7 +343,7 @@
 						"japanese": "Zzzz……あ、指揮官、おかえり",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Zzzz... Ah, Commander. Welcome back",
 						"englishNote": ""
 					},
 					"5": {
@@ -355,7 +355,7 @@
 						"japanese": "顔には何かがあるのかな？",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Is there something on my face?",
 						"englishNote": ""
 					},
 					"6": {
@@ -367,7 +367,7 @@
 						"japanese": "あ……あまりしゃべらない？ーーはぁ…いつも眠そうにしているせいかな…",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Hmm? Not very talkative...? *Yawn*... I guess it's because I'm always so sleepy...",
 						"englishNote": ""
 					},
 					"7": {
@@ -379,7 +379,7 @@
 						"japanese": "ほぇ？…落ちたかな。いい天気だからつい……",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Wha...? Guess I fell asleep. With weather this fine, I couldn't help it...",
 						"englishNote": ""
 					},
 					"8": {
@@ -391,7 +391,7 @@
 						"japanese": "指揮官も私と同じあまり喋らなくなった。いいね…",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "You don't talk much, just like me, Commander. How nice...",
 						"englishNote": ""
 					},
 					"9": {
@@ -403,7 +403,7 @@
 						"japanese": "zzzZZ……ぐぅ……少し寝るから……触らないで……",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Zzzzz... Ugh... I'm trying to sleep... don't poke me like that...",
 						"englishNote": ""
 					},
 					"10": {
@@ -415,7 +415,7 @@
 						"japanese": "あの……見られたら捕まっちゃうよ？",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Uhh... if anyone sees us, you'll get arrested.",
 						"englishNote": ""
 					},
 					"11": {
@@ -427,7 +427,7 @@
 						"japanese": "ミッションログも確認したほうがいいかな？",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Maybe you should take a look at the mission log?",
 						"englishNote": ""
 					},
 					"12": {
@@ -439,7 +439,7 @@
 						"japanese": "はぁ、ボーナスが届いたかな……",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "*Yawn*... Maybe the rewards are here now...",
 						"englishNote": ""
 					},
 					"13": {
@@ -451,7 +451,7 @@
 						"japanese": "メール……指揮官宛かな。",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Got some mail... Wonder if it's for you.",
 						"englishNote": ""
 					},
 					"14": {
@@ -463,7 +463,7 @@
 						"japanese": "おかえり、はぁ……（あくび）、眠いかな……",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Welcome back... *Yawn*... Guess I'm a little sleepy...",
 						"englishNote": ""
 					},
 					"15": {
@@ -475,7 +475,7 @@
 						"japanese": "Zzzzzz……うん？指揮官、委託完了の時間かな？",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Zzzzzz... Hmm? Commander, shouldn't that commission be done by now?",
 						"englishNote": ""
 					},
 					"16": {
@@ -487,7 +487,7 @@
 						"japanese": "強くなった……努力を期待しててね。",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "I've gotten stronger... I'll work harder, so look forward to that.",
 						"englishNote": ""
 					},
 					"17": {
@@ -499,7 +499,7 @@
 						"japanese": "みんな……落ち着いて、チャンスを掴んで敵を痛打してね。",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Everyone... calm down. Seize the chance and hit the enemy where it hurts.",
 						"englishNote": ""
 					},
 					"18": {
@@ -511,7 +511,7 @@
 						"japanese": "勝った。まあ顔だけは立てれたかな",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "We won. Well, at least I didn't make a fool of myself, I guess.",
 						"englishNote": ""
 					},
 					"19": {
@@ -523,7 +523,7 @@
 						"japanese": "この結果じゃいい気にはなれないかな……",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "I figure this outcome isn't something to celebrate...",
 						"englishNote": ""
 					},
 					"20": {
@@ -535,7 +535,7 @@
 						"japanese": "少し頑張ろうかな……",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Guess I should put in a little more effort...?",
 						"englishNote": ""
 					},
 					"21": {
@@ -547,7 +547,7 @@
 						"japanese": "少し静かにしてよ……",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Keep it down, will you...",
 						"englishNote": ""
 					},
 					"22": {
@@ -559,7 +559,7 @@
 						"japanese": "やる気が出ない…寝ようかな……",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "I just can't be bothered... Maybe I should go to sleep...",
 						"englishNote": ""
 					},
 					"23": {
@@ -571,7 +571,7 @@
 						"japanese": "寝るにはちょうどいいとこを知ってるよ……指揮官も一緒にサボるってのはどうかな？",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "I know just the place to take a nap... You wanna come along and play hooky with me, Commander?",
 						"englishNote": ""
 					},
 					"24": {
@@ -583,7 +583,7 @@
 						"japanese": "指揮官……ちゃんと考えてね。私と一緒にいるとつまらないよ…？",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Commander... give this some thought: isn't it boring, being with me...?",
 						"englishNote": ""
 					},
 					"25": {
@@ -595,7 +595,7 @@
 						"japanese": "私あまりしゃべらないけど……でも私たち、もう言葉交わさなくても分かり合えるよね……そうよね？",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "I'm not all that talkative... but we don't even need words to understand each other... do we?",
 						"englishNote": ""
 					},
 					"26": {
@@ -607,6 +607,42 @@
 						"japanese": "……………ごめん…嬉しすぎてもう何を話したらいいかわからない……大事にする……",
 						"japaneseTL": "",
 						"japaneseNote": "",
+						"english": "... Sorry... I'm just so happy that I don't even know what to say... I'll take good care of this...",
+						"englishNote": ""
+					},
+					"27": {
+						"event": "Like Present",
+						"media": "present_like",
+						"chinese": "",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"28": {
+						"event": "Dislike Present",
+						"media": "present_dislike",
+						"chinese": "",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"29": {
+						"event": "Main Title",
+						"media": "extra",
+						"chinese": "",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
 						"english": "",
 						"englishNote": ""
 					}
@@ -615,7 +651,7 @@
 			"2": {
 				"skin_id": "akasita_2",
 				"id": "1",
-				"label": "お出かけスタイル",
+				"label": "Fashionable Outing ",
 				"dialogue": {
 					"1": {
 						"event": "Ship Description",
@@ -626,7 +662,7 @@
 						"japanese": "うん？指揮官もお出かけなのかな。…そんな目で見ないで…私だってお出かけぐらい…ええと、目的地…途中まででも一緒に歩こう…かな？ ",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Hm? Guess we're both about to head out... Don't stare at me like that... Even I go outdoors sometimes... Since we're both, uh, headed the same way... maybe we could... walk there together?",
 						"englishNote": ""
 					},
 					"2": {
@@ -638,7 +674,7 @@
 						"japanese": "うん？指揮官もお出かけなのかな。…そんな目で見ないで…私だってお出かけぐらい…ええと、目的地…途中まででも一緒に歩こう…かな？",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Hm? Guess we're both about to head out... Don't stare at me like that... Even I go outdoors sometimes... Since we're both, uh, headed the same way... maybe we could... walk there together?",
 						"englishNote": ""
 					},
 					"3": {
@@ -650,7 +686,7 @@
 						"japanese": "私だってこういう「お出かけスタイル」は……疲れるけど、ね……",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Even I go on these \"fashionable outings\"... They do wear me out, though...",
 						"englishNote": ""
 					},
 					"4": {
@@ -662,7 +698,7 @@
 						"japanese": "緊急の出撃に備えて、基本的な兵装はいつも持っているかな",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "I always bring some weapons with me, in case I'm needed for a sudden sortie, I guess.",
 						"englishNote": ""
 					},
 					"5": {
@@ -674,7 +710,7 @@
 						"japanese": "「アカスタ、やっぱりオシャレすると可愛いよね」って最近良く言われる……うぅ、ちょっと微妙かな……",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Recently, I've gotten a lot of compliments like \"see, a little fashion could make you cute after all\"... *Sigh*, it feels kinda odd, I guess...",
 						"englishNote": ""
 					},
 					"6": {
@@ -686,7 +722,7 @@
 						"japanese": "指揮官が忙しくないなら私、ちょっと寝ようかな…？",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Commander, think I could take a nap if you're busy with that stuff...?",
 						"englishNote": ""
 					},
 					"7": {
@@ -698,7 +734,7 @@
 						"japanese": "うぅ……元の服に戻したほうがいいかな…",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "*Sigh*... Maybe I should swap back to my old clothes...",
 						"englishNote": ""
 					},
 					"8": {
@@ -710,7 +746,7 @@
 						"japanese": "あの……不用意に触ったら爆発しちゃうよ？",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Uhh... something might blow up if you poke me so casually.",
 						"englishNote": ""
 					}
 				}
@@ -718,7 +754,7 @@
 			"3": {
 				"skin_id": "akasita_g",
 				"id": "9",
-				"label": "アカスタ改",
+				"label": "Acasta (Retrofit) ",
 				"dialogue": {
 					"1": {
 						"event": "Ship Description",
@@ -729,7 +765,7 @@
 						"japanese": "「いつも眠そうにしてるのはよくなーい」「もっと女のコっぽくしたほうがいーよ」ってアーデントに言われたから、改造ついでに…指揮官は私が誰かって分かるかな…ええと、アカスタだよ？",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Ardent told me I \"gotta stop looking so tired\" and I \"gotta be more girly,\" so I did it while I was retrofitting... Do you recognise me, Commander? ... Umm, I'm Acasta, okay?",
 						"englishNote": ""
 					},
 					"2": {
@@ -741,7 +777,7 @@
 						"japanese": "「いつも眠そうにしてるのはよくなーい」「もっと女のコっぽくしたほうがいーよ」ってアーデントに言われたから、改造ついでに…指揮官は私が誰かって分かるかな…ええと、アカスタだよ？",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Ardent told me I \"gotta stop looking so tired\" and I \"gotta be more girly,\" so I did it while I was retrofitting... Do you recognise me, Commander? ... Umm, I'm Acasta, okay?",
 						"englishNote": ""
 					},
 					"3": {
@@ -753,7 +789,7 @@
 						"japanese": "改造してもやる気でないよね…",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "I just can't be bothered even after retrofitting...",
 						"englishNote": ""
 					},
 					"4": {
@@ -765,7 +801,7 @@
 						"japanese": "見た目は変わっても、指揮官は相変わらず優しくしてくれてる…よかった……",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "I'm dressing differently, but you're still just as nice to me... Thank goodness...",
 						"englishNote": ""
 					},
 					"5": {
@@ -777,7 +813,7 @@
 						"japanese": "ふは……主砲で隠したから…今のあくび、見られていない、かな…",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "*Yawn*... Nobody'll see me yawning... if I cover it up with my turret... I think...",
 						"englishNote": ""
 					},
 					"6": {
@@ -789,7 +825,7 @@
 						"japanese": "……！あ、危ない、寝落ちするところだった…指揮官にはバレてないかな……",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Zzz... Oh, shoot! I almost fell asleep... I hope the Commander didn't notice...",
 						"englishNote": ""
 					},
 					"7": {
@@ -801,7 +837,7 @@
 						"japanese": "指揮官、アカスタはもっと女のコっぽくなったほうがいいのかな……それとも今のままでいいのかな…？",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Commander, do you wish I'd be even girlier than this...? Or am I fine the way I am now...?",
 						"englishNote": ""
 					},
 					"8": {
@@ -813,7 +849,7 @@
 						"japanese": "気だるくしすぎると好きな人に嫌われちゃうって、アーデントが……あれ、指揮官！？うぅ……今のは聞こえてなかったかな…",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Ardent warned me about my sweetheart growing to dislike me if I'm too passive... Huh?! Commander? Jeez... I hope you didn't hear that...",
 						"englishNote": ""
 					},
 					"9": {
@@ -825,7 +861,7 @@
 						"japanese": "指揮官お疲れ様、少し寝てみようかな？",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Nice work, Commander. Now, how about getting some sleep?",
 						"englishNote": ""
 					},
 					"10": {
@@ -837,7 +873,7 @@
 						"japanese": "委託が完了したのかな……えっと、指揮官、一緒に…一緒に港にいこ？",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Wonder if that commission's done yet... Um, Commander, let's... let's head to the harbour together.",
 						"englishNote": ""
 					},
 					"11": {
@@ -849,7 +885,7 @@
 						"japanese": "これで指揮官は満足かな……",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Hope this'll be enough to satisfy the Commander...",
 						"englishNote": ""
 					}
 				}
@@ -868,5 +904,125 @@
 		"add_level_shiptype": "Destroyer",
 		"t_level": "3",
 		"ships": "acasta,ardent"
-	}
+	},
+	"retrofit": {
+		"1": {
+			"nodeSettings": "retronode, a1, n y y n",
+			"stat": "evasion, base, Evasion +5",
+			"stage": "1",
+			"desc": "Evasion Enhancement I",
+			"level": "5",
+			"limitBreak": "★★☆☆☆",
+			"material": "bpt1 2, gold 400"
+		},
+		"2": {
+			"nodeSettings": "retronode, a2, y y n n",
+			"stat": "hp, base, HP +45",
+			"stage": "1",
+			"desc": "Hull Improvement I",
+			"level": "1",
+			"limitBreak": "★★☆☆☆",
+			"material": "bpt1 1, gold 300"
+		},
+		"3": {
+			"nodeSettings": "line, b1, n y n y"
+		},
+		"4": {
+			"nodeSettings": "retronode, b2, n y y y",
+			"stat": "antiair, efficiency, Anti-Air Efficiency +5%",
+			"stage": "1",
+			"desc": "Anti-Air Improvement I",
+			"level": "20",
+			"limitBreak": "★★★☆☆",
+			"material": "bpt1 3, gold 600"
+		},
+		"5": {
+			"nodeSettings": "retronode, b3, y n n n",
+			"stat": "antiair, base, Anti-Air +15",
+			"stage": "1",
+			"desc": "Anti-Air Enhancement I",
+			"level": "25",
+			"limitBreak": "★★★☆☆",
+			"material": "bpt1 3, gold 500"
+		},
+		"6": {
+			"nodeSettings": "line, c1, n y n y"
+		},
+		"7": {
+			"nodeSettings": "retronode, c2, n y y y",
+			"stat": "torpedo, efficiency, Torpedo Efficiency +5%",
+			"stage": "1",
+			"desc": "Torpedo Improvement I",
+			"level": "35",
+			"limitBreak": "★★★★☆",
+			"material": "bpt1 3, gold 1000"
+		},
+		"8": {
+			"nodeSettings": "retronode, c3, y n n n",
+			"stat": "torpedo, base, Torpedo +10",
+			"stage": "1",
+			"desc": "Torpedo Enhancement I",
+			"level": "40",
+			"limitBreak": "★★★★☆",
+			"material": "bpt1 4, gold 1200"
+		},
+		"9": {
+			"nodeSettings": "line, d1, n y n y"
+		},
+		"10": {
+			"nodeSettings": "retronode, d2, n y y y",
+			"stat": "hp, base, HP +45/75",
+			"stage": "2",
+			"desc": "Hull Improvement II",
+			"level": "50",
+			"limitBreak": "★★★★☆",
+			"material": "bpt2 3, gold 3000"
+		},
+		"11": {
+			"nodeSettings": "retronode, d3, y y n n",
+			"stat": "skill, support, Learn skill \"Flagship Cover\"",
+			"stage": "1",
+			"desc": "Tactical Learning",
+			"level": "55",
+			"limitBreak": "★★★★☆",
+			"material": "bpt2 3, gold 1800"
+		},
+		"12": {
+			"nodeSettings": "retronode, e1, n y y y",
+			"stat": "evasion, base, Evasion +5/+10",
+			"stage": "2",
+			"desc": "Reload Enhancement II",
+			"level": "75",
+			"limitBreak": "★★★★★",
+			"material": "bpt2 4, gold 5000"
+		},
+		"13": {
+			"nodeSettings": "retronode, e2, y y n y",
+			"stat": "speed, base, Speed +3",
+			"stage": "1",
+			"desc": "Motor",
+			"level": "70",
+			"limitBreak": "★★★★★",
+			"material": "bpt2 3, gold 2000"
+		},
+		"14": {
+			"nodeSettings": "line, e3, n y n y"
+		},
+		"15": {
+			"nodeSettings": "line, f1, n n y y"
+		},
+		"16": {
+			"nodeSettings": "retronode, f2, y n y y",
+			"stat": "modernization, offensive, Torpedo +30 / Evasion +15",
+			"stage": "1",
+			"desc": "Modernization",
+			"level": "85",
+			"limitBreak": "★★★★★",
+			"material": "bpt3 1, duplicate 1, gold 3000"
+		},
+		"17": {
+			"nodeSettings": "line, f3, y n n y"
+		}
+	},
+	"retroParameter": "Elite, Destroyer, 2"
 }

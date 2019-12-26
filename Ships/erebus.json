@@ -11,8 +11,7 @@
 	"hull": "Monitor",
 	"navy": "Royal Navy",
 	"prefix": "HMS",
-	"buildTime": "",
-	"class": "Erebus-Class",
+	"buildTime": "01:00:00",
 	"voiceActress": "Saya Horigome",
 	"parameters": {
 		"firepower": "B",
@@ -34,12 +33,13 @@
 		"EN": ""
 	},
 	"artist": {
-		"name": "",
-		"weibo": "",
-		"twitter": "",
-		"pixiv": "",
+		"name": "Saru(猴妈)",
+		"weibo": "http://weibo.com/p/1005051054234800",
+		"twitter": "https://twitter.com/saru_1127",
+		"pixiv": "https://www.pixiv.net/member.php?id=1422579",
 		"other": ""
 	},
+	"class": "Erebus-Class",
 	"enhance": {
 		"firepower": "35",
 		"torpedo": "0",
@@ -50,10 +50,10 @@
 	"skill": {
 		"1": {
 			"icon": "10350",
-			"requirement": "",
+			"requirement": "Default Unlocked",
 			"name": "Infinite Darkness",
 			"type": "Offensive",
-			"description": "$1 chance every 20s: fires a special barrage. Barrage damage is based on the skill's level."
+			"description": "Every 20s: 30%(60%) chance to fire a special barrage. Barrage DMG is based on the skill's level."
 		}
 	},
 	"skin": {
@@ -74,6 +74,28 @@
 			"expression": {
 				"0": {
 					"id": "0"
+				}
+			}
+		},
+		"3": {
+			"id": "heianjie_3",
+			"name": "Wardrobe Witchery",
+			"description": "\"I am the witch of Hallow's Eve, here to guide your soul into the ever darkness\"... that's what the concept of the Halloween witch is about, right?",
+			"expression": {
+				"0": {
+					"id": "0"
+				},
+				"1": {
+					"id": "1"
+				},
+				"2": {
+					"id": "2"
+				},
+				"3": {
+					"id": "3"
+				},
+				"4": {
+					"id": "4"
 				}
 			}
 		}
@@ -207,17 +229,30 @@
 			"preload": "0/0/0/0"
 		},
 		"4": {
-			"type": "Auxiliary",
+			"type": "Auxilary",
 			"efficiency": "-",
 			"amount": "-",
 			"preload": "-"
 		},
 		"5": {
-			"type": "Auxiliary",
+			"type": "Auxilary",
 			"efficiency": "-",
 			"amount": "-",
 			"preload": "-"
 		}
+	},
+	"fleet_tech": {
+		"pt_get": "5",
+		"add_get_attr": "HP",
+		"add_get_value": "1",
+		"add_get_shiptype": "Heavy Cruiser,Monitor,Super Cruiser",
+		"pt_upgrade": "10",
+		"pt_level": "7",
+		"add_level_attr": "Reload",
+		"add_level_value": "1",
+		"add_level_shiptype": "Heavy Cruiser,Monitor,Super Cruiser",
+		"t_level": "2",
+		"ships": "erebus,terror"
 	},
 	"build": {
 		"light": {
@@ -226,9 +261,9 @@
 			"EN": ""
 		},
 		"heavy": {
-			"JP": "",
-			"CN": "",
-			"EN": ""
+			"JP": "✓",
+			"CN": "✓",
+			"EN": "✓"
 		},
 		"special": {
 			"JP": "",
@@ -242,16 +277,70 @@
 		}
 	},
 	"drop": {
-		"droppable": "false",
+		"droppable": "true",
 		"list": {
 			"1": {
-				"event": "",
+				"event": "World",
 				"chapter": {
 					"1": {
-						"label": "Ch .1",
+						"label": "Ch.4",
 						"node": {
 							"1": {
+								"drop": "-",
+								"note": "-"
+							},
+							"2": {
+								"drop": "-",
+								"note": "-"
+							},
+							"3": {
 								"drop": "✓",
+								"note": "-"
+							},
+							"4": {
+								"drop": "-",
+								"note": "-"
+							}
+						}
+					},
+					"2": {
+						"label": "Ch.7",
+						"node": {
+							"1": {
+								"drop": "-",
+								"note": "-"
+							},
+							"2": {
+								"drop": "-",
+								"note": "-"
+							},
+							"3": {
+								"drop": "-",
+								"note": "-"
+							},
+							"4": {
+								"drop": "✓",
+								"note": "-"
+							}
+						}
+					},
+					"3": {
+						"label": "Ch.9",
+						"node": {
+							"1": {
+								"drop": "-",
+								"note": "-"
+							},
+							"2": {
+								"drop": "✓",
+								"note": "-"
+							},
+							"3": {
+								"drop": "-",
+								"note": "-"
+							},
+							"4": {
+								"drop": "-",
 								"note": "-"
 							}
 						}
@@ -592,7 +681,7 @@
 						"englishNote": ""
 					},
 					"28": {
-						"event": "Easter Egg 1 (Terror)",
+						"event": "Easter Egg 1(Terror)",
 						"media": "link1",
 						"chinese": "恐怖，待在姐姐身边",
 						"chineseTL": "",
@@ -600,7 +689,43 @@
 						"japanese": "テラー、姉ちゃんから離れないでね。",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "Terror, stay close to me!",
+						"english": "Terror, stay close to me.",
+						"englishNote": ""
+					},
+					"29": {
+						"event": "Like Present",
+						"media": "present_like",
+						"chinese": "",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"30": {
+						"event": "Dislike Present",
+						"media": "present_dislike",
+						"chinese": "",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"31": {
+						"event": "Main Title",
+						"media": "extra",
+						"chinese": "",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
 						"englishNote": ""
 					}
 				}
@@ -731,20 +856,134 @@
 						"englishNote": ""
 					}
 				}
+			},
+			"3": {
+				"skin_id": "heianjie_3",
+				"id": "2",
+				"label": "Wardrobe Witchery",
+				"dialogue": {
+					"1": {
+						"event": "Ship Description",
+						"media": "",
+						"chinese": "「我是万圣前夜的女巫，引导着彷徨于黑暗中的灵魂」…万圣节的女巫…是这种感觉吗？",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "「ハロウィンイブに現れ、闇に彷徨う魂を導く存在」…ハロウィンの概念に内包された「ウィッチ」、こんな感じでいいかしら",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "\"I am the witch of Hallow's Eve, here to guide your soul into the ever darkness\"... that's what the concept of the Halloween witch is about, right?",
+						"englishNote": ""
+					},
+					"2": {
+						"event": "Acquisition",
+						"media": "get_2",
+						"chinese": "「我是万圣前夜的女巫，引导着彷徨于黑暗中的灵魂」…万圣节的女巫…是这种感觉吗？",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "\"I am the witch of Hallow's Eve, here to guide your soul into the ever darkness\"... that's what the concept of the Halloween witch is about, right?",
+						"englishNote": ""
+					},
+					"3": {
+						"event": "Login",
+						"media": "login_2",
+						"chinese": "万圣派对开始了。不过女巫只需要在黑暗之中静静守候…",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "The Halloween event has started. But, I'm supposed to wait here until it's my time to come out.",
+						"englishNote": ""
+					},
+					"4": {
+						"event": "Details",
+						"media": "detail_2",
+						"chinese": "恐怖看上去非常希望我能和她一起参加万圣前夜的派对…不过…我……",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Terror really wanted to go to the Halloween party with me, but... I...",
+						"englishNote": ""
+					},
+					"5": {
+						"event": "Main 1",
+						"media": "main_1_2",
+						"chinese": "据说在万圣前夜的派对上，也许会有真正的妖怪混入其中…要找找看吗？",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Legend has it that real monsters come out on Hallow's Eve... Shall we search for them? ",
+						"englishNote": ""
+					},
+					"6": {
+						"event": "Main 2",
+						"media": "main_2_2",
+						"chinese": "原本深邃幽暗的黑夜，也因为派对变得热闹了起来，感觉……并不坏",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "These festivities have diluted the ever darkness with noise and light... but it's not such a bad thing. ",
+						"englishNote": ""
+					},
+					"7": {
+						"event": "Main 3",
+						"media": "main_3_2",
+						"chinese": "要糖果吗？给，女巫的特制糖果。",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "T-trick or treat...? Oh, right, you can have this special bewitched candy.",
+						"englishNote": ""
+					},
+					"8": {
+						"event": "Touch (Special)",
+						"media": "touch_2_2",
+						"chinese": "指挥官…被奇怪的怨灵附身了么…",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Commander, have you been possessed by a perverted ghost?",
+						"englishNote": ""
+					},
+					"9": {
+						"event": "Return to Port",
+						"media": "home_2",
+						"chinese": "我能听到，黑夜之中…彷徨的灵魂们在窃窃私语…想知道她们说了什么吗？",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "I can hear the wailing of souls passing through the ever darkness... You want to know what they're saying...?",
+						"englishNote": ""
+					},
+					"10": {
+						"event": "Affinity (Love)",
+						"media": "feeling5_2",
+						"chinese": "要和女巫签订契约吗？女巫…会实现你的愿望。代价是，你的灵魂将永远无法与女巫分开… 指挥官，要向我许个愿吗？",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Forming a contract with a witch will allow one of your wishes to come true. In return, your souls will forever be bound, unable to separate from one another... Commander, tell me... what is your wish?",
+						"englishNote": ""
+					}
+				}
 			}
 		}
-	},
-	"fleet_tech": {
-		"pt_get": "5",
-		"add_get_attr": "HP",
-		"add_get_value": "1",
-		"add_get_shiptype": "Heavy Cruiser,Monitor,Super Cruiser",
-		"pt_upgrade": "10",
-		"pt_level": "7",
-		"add_level_attr": "Reload",
-		"add_level_value": "1",
-		"add_level_shiptype": "Heavy Cruiser,Monitor,Super Cruiser",
-		"t_level": "2",
-		"ships": "erebus,terror"
 	}
 }

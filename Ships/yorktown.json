@@ -11,9 +11,8 @@
 	"hull": "Aircraft Carrier",
 	"navy": "Eagle Union",
 	"prefix": "USS",
-	"buildTime": "",
+	"buildTime": "04:20:00",
 	"class": "Yorktown-Class",
-	"voiceActress": "Kana Yuuki",
 	"parameters": {
 		"firepower": "E",
 		"torpedo": "E",
@@ -34,10 +33,10 @@
 		"EN": ""
 	},
 	"artist": {
-		"name": "",
-		"weibo": "",
-		"twitter": "",
-		"pixiv": "",
+		"name": "八才提督",
+		"weibo": "http://weibo.com/vihao",
+		"twitter": "https://twitter.com/haorabbit",
+		"pixiv": "https://www.pixiv.net/member.php?id=1393609",
 		"other": ""
 	},
 	"enhance": {
@@ -50,17 +49,17 @@
 	"skill": {
 		"1": {
 			"icon": "10190",
-			"requirement": "",
+			"requirement": "Default Unlocked",
 			"name": "Vengeance",
 			"type": "Defensive",
-			"description": "When this ship's HP falls below 20.0%: recovers $1 of this ship's max HP. This effect can only activate once per battle. Additionally, each time this ship takes DMG: launches a special airstrike. Special airstrike has a cooldown of 20s and its damage is based on the skill's level."
+			"description": "When this ship's HP falls below 20.0%: recovers 15.0%(25.0%) of this ship's max HP. This effect can only activate once per battle. Additionally, each time this ship takes DMG: launches a special airstrike. Special airstrike has a cooldown of 20s and its damage is based on the skill's level."
 		},
 		"2": {
 			"icon": "3021",
-			"requirement": "",
+			"requirement": "Default Unlocked",
 			"name": "Fleet Carrier",
 			"type": "Support",
-			"description": "When this ship launches an Airstrike: increases the DMG the Vanguard Fleet deals by $1 for 8s. Does not stack with the same skill."
+			"description": "When this ship launches an Airstrike: increases the DMG the Vanguard Fleet deals by 5%(15%) for 8s. Does not stack with the same skill."
 		}
 	},
 	"skin": {
@@ -253,9 +252,9 @@
 			"EN": ""
 		},
 		"special": {
-			"JP": "",
-			"CN": "",
-			"EN": ""
+			"JP": "✓",
+			"CN": "✓",
+			"EN": "✓"
 		},
 		"limited": {
 			"JP": "",
@@ -264,16 +263,70 @@
 		}
 	},
 	"drop": {
-		"droppable": "false",
+		"droppable": "true",
 		"list": {
 			"1": {
-				"event": "",
+				"event": "World",
 				"chapter": {
 					"1": {
-						"label": "Ch .1",
+						"label": "Ch.3",
 						"node": {
 							"1": {
+								"drop": "-",
+								"note": "-"
+							},
+							"2": {
+								"drop": "-",
+								"note": "-"
+							},
+							"3": {
+								"drop": "-",
+								"note": "-"
+							},
+							"4": {
 								"drop": "✓",
+								"note": "-"
+							}
+						}
+					},
+					"2": {
+						"label": "Ch.7",
+						"node": {
+							"1": {
+								"drop": "-",
+								"note": "-"
+							},
+							"2": {
+								"drop": "✓",
+								"note": "-"
+							},
+							"3": {
+								"drop": "-",
+								"note": "-"
+							},
+							"4": {
+								"drop": "-",
+								"note": "-"
+							}
+						}
+					},
+					"3": {
+						"label": "Ch.13",
+						"node": {
+							"1": {
+								"drop": "-",
+								"note": "-"
+							},
+							"2": {
+								"drop": "-",
+								"note": "-"
+							},
+							"3": {
+								"drop": "✓",
+								"note": "-"
+							},
+							"4": {
+								"drop": "-",
 								"note": "-"
 							}
 						}
@@ -672,7 +725,7 @@
 						"event": "Ship Description",
 						"media": "",
 						"chinese": "咦，指挥官，在会场迷路了吗~要不要来喝一杯？……欸，醉了？真是的，指挥官，真爱说笑呢，这些不是果汁吗？……",
-						"chineseTL": "",
+						"chineseTL": "Oh, Commander, are you lost? Do you want a drink? Hm? Drunk? me? Oh now Commander, You really love telling jokes. Oh, isn't this grape juice?...",
 						"chineseNote": "",
 						"japanese": "あら、指揮官、迷子になった？ふふふ、一杯どぉ？……えっ、私が…酔ってる？もう、指揮官ったら冗談が好きね…ジュース…じゃなかった…っけ？",
 						"japaneseTL": "",
@@ -684,192 +737,228 @@
 						"event": "Acquisition",
 						"media": "get_1",
 						"chinese": "咦，指挥官，在会场迷路了吗~要不要来喝一杯？……欸，醉了？真是的，指挥官，真爱说笑呢，这些不是果汁吗？……",
-						"chineseTL": "",
+						"chineseTL": "Oh, Commander, are you lost? Do you want a drink? Hm? Drunk? me? Oh now Commander, You really love telling jokes. Oh, isn't this grape juice?...",
 						"chineseNote": "",
-						"japanese": "",
+						"japanese": "あら、指揮官、迷子になった？ふふふ、一杯どぉ？……えっ、私が…酔ってる？もう、指揮官ったら冗談が好きね…ジュース…じゃなかった…っけ？",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Hey, Commander, are you lost? How about a drink? ... Huh? Drunk? Me? Oh, Commander, you're such a card. This is just grape juice... isn't it?",
 						"englishNote": ""
 					},
 					"3": {
 						"event": "Login",
 						"media": "login_1",
 						"chinese": "指挥官，作为来晚的惩罚，先喝一杯~",
-						"chineseTL": "",
+						"chineseTL": "Oh, Commander, are you lost? Do you want a drink? Hm? Drunk? me? Oh now Commander, You really love telling jokes. Oh, isn't this grape juice?...",
 						"chineseNote": "",
-						"japanese": "",
+						"japanese": "ふふふ、指揮官？遅れた罰として、まずは一杯どうぞ～",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "You're late, Commander. You know what THAT means. One penalty drink!",
 						"englishNote": ""
 					},
 					"4": {
 						"event": "Details",
 						"media": "detail_1",
 						"chinese": "说起来，企业曾经劝告我说千万不要喝酒，指挥官，你说这是为什么呢？",
-						"chineseTL": "",
+						"chineseTL": "Speaking of which, Enterprise adamantly warned that I shouldn't imbibe alcohol. Commander, why do you think that is so?",
 						"chineseNote": "",
-						"japanese": "",
+						"japanese": "そういえば、エンタープライズから絶対お酒を飲んじゃダメって言われたけどぉ……指揮官、なんでだろう……",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Come to think of it, Enterprise did tell me not to drink the blue stuff like A MILLION TIMES. But like, what's the dig beal, Commander?",
 						"englishNote": ""
 					},
 					"5": {
-						"event": "Touch",
-						"media": "touch_1_1",
-						"chinese": "指挥官，想听企业或者大黄蜂的事吗？欸，我的？呵呵，也可以哦。",
+						"event": "Main 1",
+						"media": "main_1_1",
+						"chinese": "企业也好，大黄蜂也好，还有小哈曼……她们呢，都在舰队里找到了自己的位置，姐姐我真是又高兴，又有点寂寞呢",
 						"chineseTL": "",
 						"chineseNote": "",
-						"japanese": "",
+						"japanese": "エンタープライズも、ホーネットも、ハムマンちゃんも…みんなこの艦隊で居場所を見つけたのね……私、嬉しくて、寂しくて……くすん…",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Enterprise is a good girl. So's Hornet. And Hammann. They all found their PLACE in this fleet. But me? The big sister? I'm HAPPY for them. And a teeeensy bit lonely.",
 						"englishNote": ""
 					},
 					"6": {
-						"event": "Touch (Special)",
-						"media": "touch_2_1",
-						"chinese": "指挥官，当坏孩子可不好哦~",
+						"event": "Main 2",
+						"media": "main_2_1",
+						"chinese": "我现在稍微有些后悔呢，指挥官……要是早知道指挥官是这么好的人，我或许也会对自己更率直一点吧",
 						"chineseTL": "",
 						"chineseNote": "",
-						"japanese": "",
+						"japanese": "私、時々ちょっと後悔しちゃうわ…指揮官がこんなに素晴らしい方だともっと早くわかってたら、もっと素直になれたはずなのに……くすん…",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "You know, Commander, looking back, I have some regrets. Like if I knew you were THIS good? I'd've been more HONEST with myself.",
 						"englishNote": ""
 					},
 					"7": {
-						"event": "Mission",
-						"media": "task_1",
-						"chinese": "指挥官，借着任务逃跑我可是会生气的哦？",
+						"event": "Main 3",
+						"media": "main_3_1",
+						"chinese": "咦，小哈曼，你怎么忽然长得这么高啦？……哎呀，这不是指挥官吗，你有看到小哈曼吗？",
 						"chineseTL": "",
 						"chineseNote": "",
-						"japanese": "",
+						"japanese": "ハムマンちゃん…？どうして急に背がこんなに高く伸びたの…？あら、指揮官、ハムマンちゃんを見なかった…？",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Oh! Is that my cute little Hammann?! When did you get so BIG?! ...Oh, you're the Commander, aren't you? Have you seen Hammann?",
 						"englishNote": ""
 					},
 					"8": {
-						"event": "Mission Complete",
-						"media": "mission_complete_1",
-						"chinese": "庆祝任务完成，干杯~",
-						"chineseTL": "",
+						"event": "Touch",
+						"media": "touch_1_1",
+						"chinese": "指挥官，想听企业或者大黄蜂的事吗？欸，我的？呵呵，也可以哦。",
+						"chineseTL": "Speaking of which, Enterprise adamantly warned that I shouldn't imbibe alcohol. Commander, why do you think that is so?",
 						"chineseNote": "",
-						"japanese": "",
+						"japanese": "指揮官、エンタープライズとホーネットのこと、知りたい？え、私…？ふふふ、うん、いいわ…",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Hey, Commander, you wanna hear some EMBARRASSING stories about Enterprise and Hornet? Oh, you'd rather hear mine? Hehe, THAT can be arranged.",
 						"englishNote": ""
 					},
 					"9": {
-						"event": "Mail",
-						"media": "mail_1",
-						"chinese": "指挥官，别人的邀请，要等到和我喝完才能去哦？",
-						"chineseTL": "",
+						"event": "Touch (Special)",
+						"media": "touch_2_1",
+						"chinese": "指挥官，当坏孩子可不好哦~",
+						"chineseTL": "Commander, being a bad kid is no good~",
 						"chineseNote": "",
-						"japanese": "",
+						"japanese": "指揮官…悪い子……めっ、だわ～ふふふ",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "OH! Commander, at least buy me a drink first!",
 						"englishNote": ""
 					},
 					"10": {
-						"event": "Return to Port",
-						"media": "home_1",
-						"chinese": "指挥官，不喝一杯的话，我可不放你走哦",
-						"chineseTL": "",
+						"event": "Mission",
+						"media": "task_1",
+						"chinese": "指挥官，借着任务逃跑我可是会生气的哦？",
+						"chineseTL": "Commander, I'll get angry if you use the mission as an excuse to escape",
 						"chineseNote": "",
-						"japanese": "",
+						"japanese": "指揮官、任務をダシにして逃げたら…お、怒るわよ…？",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Now now, Commander, I'll be mad at you if you ditch these assignments.",
 						"englishNote": ""
 					},
 					"11": {
-						"event": "Commission Complete",
-						"media": "expedition_1",
-						"chinese": "一起去港口？真是的，指挥官，我都说了我没醉！",
-						"chineseTL": "",
+						"event": "Mission Complete",
+						"media": "mission_complete_1",
+						"chinese": "庆祝任务完成，干杯~",
+						"chineseTL": "Let's celebrate our mission completion, cheers~",
 						"chineseNote": "",
-						"japanese": "",
+						"japanese": "任務完了を祝って、ふふ、かんぱーい",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Here's to a mission accomplished! CHEERS!",
 						"englishNote": ""
 					},
 					"12": {
-						"event": "Flagship",
-						"media": "warcry_1",
-						"chinese": "咦，这里是哪儿？",
-						"chineseTL": "",
+						"event": "Mail",
+						"media": "mail_1",
+						"chinese": "指挥官，别人的邀请，要等到和我喝完才能去哦？",
+						"chineseTL": "Commander, you'll have to wait for me to finish drinking before you can accept the invitations of others.",
 						"chineseNote": "",
-						"japanese": "",
+						"japanese": "指揮官、ほかの人に誘われても、せめて私の分を飲んでからにして…？",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "You can't go off with someone else until you finish drinking with ME, Commander!",
 						"englishNote": ""
 					},
 					"13": {
-						"event": "Victory",
-						"media": "mvp_1",
-						"chinese": "…………？！我刚刚，都在会场里说了些什么……",
-						"chineseTL": "",
+						"event": "Return to Port",
+						"media": "home_1",
+						"chinese": "指挥官，不喝一杯的话，我可不放你走哦",
+						"chineseTL": "Commander, I'm not letting you off until you drink a glass.",
 						"chineseNote": "",
-						"japanese": "",
+						"japanese": "指揮官、一杯飲んでくれないと、離さないんだからね……",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "I'm not letting you leave until YOU have a drink with me, Commander.",
 						"englishNote": ""
 					},
 					"14": {
-						"event": "Defeat",
-						"media": "lose_1",
-						"chinese": "这、这下，作为姐姐的尊严完全一扫而空了呢……",
-						"chineseTL": "",
+						"event": "Commission Complete",
+						"media": "expedition_1",
+						"chinese": "一起去港口？真是的，指挥官，我都说了我没醉！",
+						"chineseTL": "Return to port? Really now, Commander, I told you I'm not drunk!",
 						"chineseNote": "",
-						"japanese": "",
+						"japanese": "一緒に埠頭まで…？やだ、指揮官、酔ってないって言ってるのにぃ……",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "You wanna sneak off to the harbor? Ugh, I TOLD you already, Commander, I'm *hic* not as think as you drunk I am!",
 						"englishNote": ""
 					},
 					"15": {
-						"event": "Skill",
-						"media": "skill_1",
-						"chinese": "为了自由~嗝！",
-						"chineseTL": "",
+						"event": "Flagship",
+						"media": "warcry_1",
+						"chinese": "咦，这里是哪儿？",
+						"chineseTL": "Huh? Where is this place?",
 						"chineseNote": "",
-						"japanese": "",
+						"japanese": "あら、ここは……？",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Uhhh, where am I?",
 						"englishNote": ""
 					},
 					"16": {
-						"event": "Low HP",
-						"media": "hp_1",
-						"chinese": "唔，稍微……有点反胃……",
-						"chineseTL": "",
+						"event": "Victory",
+						"media": "mvp_1",
+						"chinese": "…………？！我刚刚，都在会场里说了些什么……",
+						"chineseTL": "........?! What did I say at the ballroom just now...?",
 						"chineseNote": "",
-						"japanese": "",
+						"japanese": "……？！やだ、今私何か言ってたの……？",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "OOPSIE! What was that I just said in front of EVERYONE...?",
+						"englishNote": ""
+					},
+					"17": {
+						"event": "Defeat",
+						"media": "lose_1",
+						"chinese": "这、这下，作为姐姐的尊严完全一扫而空了呢……",
+						"chineseTL": "........?! What did I say at the ballroom just now...?",
+						"chineseNote": "",
+						"japanese": "こ、これじゃエンタープライズたちに会わせる顔が……",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "I, I have a feeling... like all the clout I had as a big sister is COMPLETELY GONE... after tonight...",
+						"englishNote": ""
+					},
+					"18": {
+						"event": "Skill",
+						"media": "skill_1",
+						"chinese": "为了自由~嗝！",
+						"chineseTL": "For freedom~ hic!",
+						"chineseNote": "",
+						"japanese": "自由のために……うぅ……",
 						"japaneseTL": "",
 						"japaneseNote": "",
 						"english": "",
 						"englishNote": ""
 					},
-					"17": {
+					"19": {
+						"event": "Low HP",
+						"media": "hp_1",
+						"chinese": "唔，稍微……有点反胃……",
+						"chineseTL": "Oh.... I'm a little.... nauseous...",
+						"chineseNote": "",
+						"japanese": "うぅ、少し……飲みすぎたわ……",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Urk. I feel... a little sick...",
+						"englishNote": ""
+					},
+					"20": {
 						"event": "Affinity (Love)",
 						"media": "feeling5_1",
 						"chinese": "所以说，指挥官，两情相悦的人，怎么会不想粘在一起呢？姐姐是因为脸皮薄，不好意思主动。所以呀，指挥官你要主动一点才行，知道了吗？",
-						"chineseTL": "",
+						"chineseTL": "So I'm saying.. commander, when two people are in love with each other, how could they not want to be together? Your sister's sensitive, so she's embarrassed to make the first move. So Commander, you have to take the initiative a little more, understand?",
 						"chineseNote": "",
-						"japanese": "",
+						"japanese": "ふふふ、好きだから一緒にいたいって当然よ？こういうの私、奥手だからあまりアタックしないだけなのぉ……ほーら、指揮官ももっと積極的にならないと…ねえ？",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "I mean, it's only natural for a good couple to be a little clingy, right? After all I've been through, I'm WAY too shy to make the first move. So that means YOU have to do it. Got it?",
 						"englishNote": ""
 					}
 				}
@@ -888,5 +977,6 @@
 		"add_level_shiptype": "Light Aircraft Carrier,Aircraft Carrier",
 		"t_level": "6",
 		"ships": "yorktown,enterprise,hornet"
-	}
+	},
+	"voiceActress": "Kana Yuuki"
 }

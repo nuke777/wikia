@@ -1,0 +1,824 @@
+{
+	"name_reference" : "carabiniere",
+	"cn_reference" : "longqibing",
+	"nameJP" : "カラビニエーレ",
+	"nameCN" : "龙骑兵",
+	"ID" : "415",
+	"name" : "Carabiniere",
+	"internal_id" : "601021",
+	"rarity" : "Elite",
+	"initialStar" : "★★☆☆☆",
+	"hull" : "Destroyer",
+	"navy" : "Sardegna Empire",
+	"prefix" : "RN",
+	"buildTime" : "N/A",
+	"voiceActress" : "Rika Tachibana",
+	"parameters": {
+		"firepower" : "A",
+		"torpedo" : "D",
+		"aviation" : "E",
+		"evasion" : "A",
+		"antiAir" : "C",
+		"hp" : "D"
+	},
+	"scrap": {
+		"gold" : "4",
+		"oil" : "3",
+		"medal" : "4"
+	},
+	"releaseDate": {
+		"JP" : "September 11, 2019",
+		"CN" : "September 11, 2019",
+		"KR" : "September 11, 2019",
+		"EN" : "September 11, 2019"
+	},
+	"artist": {
+		"name" : "梦咲枫",
+		"weibo" : "https://weibo.com/u/3558369570",
+		"twitter" : "https://twitter.com/yumesaki_kaede/",
+		"pixiv" : "https://www.pixiv.net/member.php?id=1023957",
+		"other" : ""
+	},
+	"class" : "Soldati-class",
+	"enhance": {
+		"firepower" : "8",
+		"torpedo" : "16",
+		"aviation" : "0",
+		"reload" : "14"
+	},
+	"acquisitionMethod" : "Event: Empyreal Tragicomedy",
+	"skill": {
+		"1" : {
+			"icon" : "12660",
+			"requirement" : "Default Unlocked",
+			"name" : "Ricarica!",
+			"type" : "Offensive",
+			"description" : "Increases this ship's Torpedo DMG by 30.0%(50.0%) for its first 3 Torpedo launches."
+		},
+		"2" : {
+			"icon" : "12670",
+			"requirement" : "Default Unlocked",
+			"name" : "Fuoco di Copertura!",
+			"type" : "Support",
+			"description" : "Every 20s, if this ship is in the backmost position of your Vanguard (there must be 2 or more ships alive in your Vanguard): 40.0%(70.0%) chance to increase this ship's DMG dealt by 5.0%(15.0%) and increase the DMG dealt by the ship in the frontmost position of your Vanguard by 5.0%(15.0%) for 10s."
+		},
+		"3" : {
+			"icon" : "25011",
+			"requirement" : "Limit Break I (III)",
+			"name" : "All Out Assault Ⅰ",
+			"type" : "Offensive",
+			"description" : "Activates All Out Assault Ⅰ: Soldati Class once every 15 times the Main Guns are fired."
+		}
+	},
+	"skin": {
+		"1" : {
+			"id" : "longqibing",
+			"name" : "Carabiniere ",
+			"description" : "Soldati-class destroyer – Carabiniere. ",
+			"expression" : {
+				"0" : {
+					"id" : "0"
+				},
+				"1" : {
+					"id" : "1"
+				},
+				"2" : {
+					"id" : "2"
+				},
+				"3" : {
+					"id" : "3"
+				}
+			}
+		},
+		"2" : {
+			"id" : "longqibing_2",
+			"name" : "Refreshing Sundress",
+			"description" : "Lady Veneto advised me to enjoy my time off by changing into something befitting the occasion... Um, Commander, I d-don't look strange, do I?",
+			"expression" : {
+				"0" : {
+					"id" : "0"
+				},
+				"1" : {
+					"id" : "1"
+				},
+				"2" : {
+					"id" : "2"
+				},
+				"3" : {
+					"id" : "3"
+				},
+				"4" : {
+					"id" : "4"
+				},
+				"5" : {
+					"id" : "5"
+				}
+			}
+		}
+	},
+	"defaultEquipment": {
+		"1" : {
+			"icon" : "55400",
+			"rarity" : "Common",
+			"name" : "Twin 120mm Main Gun (M1936) "
+		},
+		"2" : {
+			"icon" : "5000",
+			"rarity" : "",
+			"name" : "Triple 533mm Torpedo"
+		},
+		"3" : {
+			"icon" : "",
+			"rarity" : "",
+			"name" : ""
+		}
+	},
+	"stats": {
+		"base": {
+			"hp" : "291",
+			"firepower" : "23",
+			"torpedo" : "49",
+			"antiAir" : "30",
+			"aviation" : "0",
+			"reload" : "74",
+			"hit" : "69",
+			"evasion" : "79",
+			"speed" : "45.6",
+			"luck" : "65",
+			"asw" : "50",
+			"oxygen" : "0",
+			"ammo" : "0",
+			"cost" : "2",
+			"armor" : "Light"
+		},
+		"100": {
+			"hp" : "1502",
+			"firepower" : "109",
+			"torpedo" : "233",
+			"antiAir" : "139",
+			"aviation" : "0",
+			"reload" : "175",
+			"hit" : "180",
+			"evasion" : "206",
+			"speed" : "45.6",
+			"luck" : "65",
+			"asw" : "184",
+			"oxygen" : "0",
+			"ammo" : "0",
+			"cost" : "9",
+			"armor" : "Light"
+		},
+		"120": {
+			"hp" : "1788",
+			"firepower" : "126",
+			"torpedo" : "267",
+			"antiAir" : "160",
+			"aviation" : "0",
+			"reload" : "201",
+			"hit" : "189",
+			"evasion" : "214",
+			"speed" : "45.6",
+			"luck" : "65",
+			"asw" : "204",
+			"oxygen" : "0",
+			"ammo" : "0",
+			"cost" : "9",
+			"armor" : "Light"
+		},
+		"100retrofit": {
+			"hp" : "",
+			"firepower" : "",
+			"torpedo" : "",
+			"antiAir" : "",
+			"aviation" : "",
+			"reload" : "",
+			"hit" : "",
+			"evasion" : "",
+			"speed" : "45.6",
+			"luck" : "65",
+			"asw" : "",
+			"oxygen" : "0",
+			"ammo" : "0",
+			"cost" : "9",
+			"armor" : "Light"
+		},
+		"120retrofit": {
+			"hp" : "",
+			"firepower" : "",
+			"torpedo" : "",
+			"antiAir" : "",
+			"aviation" : "",
+			"reload" : "",
+			"hit" : "",
+			"evasion" : "",
+			"speed" : "45.6",
+			"luck" : "65",
+			"asw" : "",
+			"oxygen" : "0",
+			"ammo" : "0",
+			"cost" : "9",
+			"armor" : "Light"
+		}
+	},
+	"limitBreak": {
+		"tier1": "Unlock All Out Assault Ⅰ/Main gun efficiency +5%",
+		"tier2": "Torpedo base +1/Torpedo preload +1/Main gun efficiency +10%",
+		"tier3": "Improve All Out Assault/All weapons' efficiency +5%"
+	},
+	"equipmentLoadout": {
+		"1": {
+			"type": "Destroyer Gun",
+			"efficiency": "140%/145%/155%/160%",
+			"amount": "1/1/1/1",
+			"preload": "0/0/0/0"
+		},
+		"2": {
+			"type": "Torpedo",
+			"efficiency": "115%/115%/115%/120%",
+			"amount": "1/1/2/2",
+			"preload": "0/0/1/1"
+		},
+		"3": {
+			"type": "Anti-Air Gun",
+			"efficiency": "70%/70%/70%/75%",
+			"amount": "1/1/1/1",
+			"preload": "0/0/0/0"
+		},
+		"4": {
+			"type": "Auxilary",
+			"efficiency": "-",
+			"amount": "-",
+			"preload": "-"
+		},
+		"5": {
+			"type": "Auxilary",
+			"efficiency": "-",
+			"amount": "-",
+			"preload": "-"
+		}
+	},
+	"fleet_tech": {
+		"pt_get": "14",
+		"add_get_attr": "HP",
+		"add_get_value": "1",
+		"add_get_shiptype": "Destroyer",
+		"pt_upgrade": "28",
+		"pt_level": "20",
+		"add_level_attr": "Evasion",
+		"add_level_value": "1",
+		"add_level_shiptype": "Destroyer",
+		"t_level": "6",
+		"ships": "carabiniere"
+	},
+	"build": {
+		"light": {
+			"JP": "",
+			"CN": "",
+			"EN": ""
+		},
+		"heavy": {
+			"JP": "",
+			"CN": "",
+			"EN": ""
+		},
+		"special": {
+			"JP": "",
+			"CN": "",
+			"EN": ""
+		},
+		"limited": {
+			"JP": "",
+			"CN": "",
+			"EN": ""
+		}
+	},
+	"drop": {
+		"droppable": "false",
+		"list": {
+			"1": {
+				"event": "",
+				"chapter": {
+					"1": {
+						"label": "Ch .1",
+						"node": {
+							"1": {
+								"drop": "✓",
+								"note": "-"
+							}
+						}
+					}
+				}
+			}
+		}
+	},
+	"lines": {
+		"skin": {
+			"1": {
+				"skin_id" : "longqibing",
+				"id" : "0",
+				"label" : "Carabiniere ",
+				"dialogue" : {
+					"1" : {
+						"event" : "Ship Description",
+						"media" : "",
+						"chinese" : "士兵级驱逐舰—龙骑兵",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "ソルダティ級駆逐艦・カラビニエーレ",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Soldati-class destroyer – Carabiniere. ",
+						"englishNote" : ""
+					},
+					"2" : {
+						"event" : "Biography",
+						"media" : "profile",
+						"chinese" : "身为索尔达蒂级驱逐舰的一员，属下曾经是第12驱逐舰中队的队长，与同伴们一起活跃在战斗中。无论何时，无论什么任务，属下都会尽全部之力去完成！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "自分はソルダティ級駆逐艦の一員として、また第12駆逐隊の隊長としてかの大戦で仲間たちと共に活躍したのであります！どんな時でも、どんな任務でも、全力で挑む所存であります！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "As a member of the Soldati-class destroyers, I served as the leader of the 12th Destroyer Squadron and led my compatriots through many battles. No matter when or where, I shall give it my all to complete any mission!",
+						"englishNote" : ""
+					},
+					"3" : {
+						"event" : "Acquisition",
+						"media" : "get",
+						"chinese" : "撒丁帝国所属，旗舰维内托的护卫，龙骑兵号，向指挥官报道！属下一定恪尽职守，完成任务！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "サディア帝国所属、総旗艦ヴェネト様の護衛、カラビニエーレであります！己が使命を果たし、忠実に任務をこなす覚悟であります！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Flagship Veneto's escort, Carabiniere of the Sardegna Empire, reporting for duty! As your subordinate, I will carry out your orders and complete any mission!",
+						"englishNote" : ""
+					},
+					"4" : {
+						"event" : "Login",
+						"media" : "login",
+						"chinese" : "敬礼！龙骑兵，恭迎指挥官！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "敬礼！カラビニエーレ、指揮官の到着をお待ちしておりました！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Salutations! Carabiniere welcomes you, Commander!",
+						"englishNote" : ""
+					},
+					"5" : {
+						"event" : "Details",
+						"media" : "detail",
+						"chinese" : "指挥官，属下正在巡逻，有什么要吩咐的吗？",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "指揮官、パトロール中の自分に何かご指示はありますか？",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Commander, I'm currently on patrol. Do you have any new instructions for me?",
+						"englishNote" : ""
+					},
+					"6" : {
+						"event" : "Main 1",
+						"media" : "main_1",
+						"chinese" : "皇家的潜艇总是神出鬼没，属下就曾吃过亏…",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "ロイヤルの潜水艦はいつも神出鬼没で、自分もあの大戦で大いにやられたのでありましたね…",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Royal submarines have always been elusive and mercurial. They've gotten the better of me in the past... ",
+						"englishNote" : ""
+					},
+					"7" : {
+						"event" : "Main 2",
+						"media" : "main_2",
+						"chinese" : "您说属下的这把枪吗？这可是真的！不过请放心，属下现在并没有给它装填子弹。",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "この艤装だけではなく、カービン銃も使いこなせるのであります！馬の上でも問題ありません！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "My gun? I'm telling you, it's real! I just don't have it loaded. ",
+						"englishNote" : ""
+					},
+					"8" : {
+						"event" : "Main 3",
+						"media" : "main_3",
+						"chinese" : "龙骑兵并不是真的骑在龙背上的。不过，要是真能那样的话，好像也挺酷的…",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "「仕事中につき面会拒絶」っと、看板を外に飾っておきました！指揮官、ご安心ください！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "\"Don't disturb during work hours.\" I put this sign up so you can have your peace of mind!",
+						"englishNote" : ""
+					},
+					"9" : {
+						"event" : "Touch",
+						"media" : "touch_1",
+						"chinese" : "是！ ",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "Sì！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Sì!",
+						"englishNote" : ""
+					},
+					"10" : {
+						"event" : "Touch (Special)",
+						"media" : "touch_2",
+						"chinese" : "请，请不要为难属下！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "じ、自分を困らせないでください！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "P-please don't tease your subordinates like that!",
+						"englishNote" : ""
+					},
+					"11" : {
+						"event" : "Mission",
+						"media" : "task",
+						"chinese" : "指挥官，还有任务没有完成。需要属下做些什么吗？",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "指揮官、まだ完了されていない任務があります。自分になにかできることはないのでしょうか",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Commander, there are still tasks that need to be finished. Do you require anything of me?",
+						"englishNote" : ""
+					},
+					"12" : {
+						"event" : "Mission Complete",
+						"media" : "mission_complete",
+						"chinese" : "任务完成了，物质上的奖赏很丰富呢。如果有别的方面的奖励的话…",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "任務完了であります！即物的な報酬は多いのでありますが、ほかにもなにかがあれば……",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "The missions are done, and we have quite the rewards to show for it. If there were some non-material rewards though...",
+						"englishNote" : ""
+					},
+					"13" : {
+						"event" : "Mail",
+						"media" : "mail",
+						"chinese" : "指挥官，邮箱里似乎堆积了不少信件。",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "指揮官、メールが溜まっているようであります",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Commander, the mailbox seems to be filling up.",
+						"englishNote" : ""
+					},
+					"14" : {
+						"event" : "Return to Port",
+						"media" : "home",
+						"chinese" : "指挥官，在您的外出期间有来访记录。需要过目吗？",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "指揮官、出撃中の来訪者記録、ご確認になりますか？",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Commander, an inquiry arrived while you were gone. Do you want to look it over?",
+						"englishNote" : ""
+					},
+					"15" : {
+						"event" : "Commission Complete",
+						"media" : "expedition",
+						"chinese" : "是委托队的同伴们！太好了，所有人平安地回来了。",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "委託組の仲間たちであります！よかった、みんな無事帰還しました！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "The commission team has returned! I'm so glad that everyone came back safely.",
+						"englishNote" : ""
+					},
+					"16" : {
+						"event" : "Enhancement",
+						"media" : "upgrade",
+						"chinese" : "属下一定会做得更好的！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "より一層、精進します！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "I shall definitely become a better subordinate!",
+						"englishNote" : ""
+					},
+					"17" : {
+						"event" : "Flagship",
+						"media" : "warcry",
+						"chinese" : "为了指挥官，出击！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "指揮官のために、出撃します！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "In Commander's name, I sortie!",
+						"englishNote" : ""
+					},
+					"18" : {
+						"event" : "Victory",
+						"media" : "mvp",
+						"chinese" : "胜利是属于我们的！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "勝利は我々のものであります！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Victory is ours!",
+						"englishNote" : ""
+					},
+					"19" : {
+						"event" : "Defeat",
+						"media" : "lose",
+						"chinese" : "呜…无论什么样的责罚，属、属下都愿意承担！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "くっ…！ど、どんな懲罰でも自分、謹んでお受けします！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Ugh... th-this subordinate will accept any punishment!",
+						"englishNote" : ""
+					},
+					"20" : {
+						"event" : "Skill",
+						"media" : "skill",
+						"chinese" : "瞄准了！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "狙い定めた！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Locked on! ",
+						"englishNote" : ""
+					},
+					"21" : {
+						"event" : "Low HP",
+						"media" : "hp",
+						"chinese" : "不应该是这样的……",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "こんなはずでは……！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "This isn't how it was supposed to be...",
+						"englishNote" : ""
+					},
+					"22" : {
+						"event" : "Affinity (Upset)",
+						"media" : "feeling1",
+						"chinese" : "指挥官，属下认为……不，没什么，属下会听从您的命令。",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "指揮官、自分は……いいえ！何でもありません！ご命令に従います！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Commander, I don't think that... Nevermind, your subordinate shall follow your order.",
+						"englishNote" : ""
+					},
+					"23" : {
+						"event" : "Affinity (Stranger)",
+						"media" : "feeling2",
+						"chinese" : "请放心，指挥官，属下永远忠心于您！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "指揮官、ご安心を！自分の忠誠は決して揺るがないのであります！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Rest assured, Commander. This subordinate shall always be loyal to you.",
+						"englishNote" : ""
+					},
+					"24" : {
+						"event" : "Affinity (Friendly)",
+						"media" : "feeling3",
+						"chinese" : "指挥官，如果您要外出的话，请务必让属下负责您的安全！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "指揮官、外出なさるのでしたら護衛は自分に任せてください！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Commander, if you plan on going out, please let me be your bodyguard!",
+						"englishNote" : ""
+					},
+					"25" : {
+						"event" : "Affinity (Like)",
+						"media" : "feeling4",
+						"chinese" : "指挥官对属下如此关心，属下实在是受宠若惊…“在我身旁很安心”？明白了，属下会更加努力的！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "いつもお引き立ていただき、誠に恐悦至極であります！…そばにいてくれると指揮官も安心できる、ですか？了解しました！より一層精進します！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Commander, I'm really flattered that you treat me so well... You feel safe when I'm by your side? Understood. Your subordinate shall work harder in that regard!",
+						"englishNote" : ""
+					},
+					"26" : {
+						"event" : "Affinity (Love)",
+						"media" : "feeling5",
+						"chinese" : "指挥官，您是要外出吗？那护卫工作——只是普通的任务，没有必要吗…不，不行！再短的路程，万一真的遇上危险什么的…所，所以，还是让属下与你一起吧！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "外出なさるのですか？では護衛を――近いから大丈夫、ですか？お、お言葉ですがどんなに近所だろうとリスクがあります！是非自分にも同行させてください！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Commander, are you heading out? Do you need a bodyguard... Oh, it's just a civilian errand? N-no! Even if it's just across the street, y-you never know what hazards lie in wait... S-so, let's go together!",
+						"englishNote" : ""
+					},
+					"27" : {
+						"event" : "Pledge",
+						"media" : "propose",
+						"chinese" : "从今往后，属下将会追随您一生！…不是那个意思？那，那是…我，我明白的！但是，像，像属下我这样的，真的能成为陪伴在指挥官身边的人吗？",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "自分、指揮官に一生ついていくのであります！…そういう意味じゃない、ですか？ほ、本当はわかっています！わかっていますけど、自分のような者が本当に指揮官と添い遂げられるでしょうか……？",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "From now on, this subordinate shall serve you for life! ...That's not what it means? Um, then... I see! B-but, can someone like me really be your partner?",
+						"englishNote" : ""
+					},
+					"28" : {
+						"event" : "Like Present",
+						"media" : "present_like",
+						"chinese" : "",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"29" : {
+						"event" : "Dislike Present",
+						"media" : "present_dislike",
+						"chinese" : "",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"30" : {
+						"event" : "Main Title",
+						"media" : "extra",
+						"chinese" : "",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					}
+				}
+			},
+			"2": {
+				"skin_id" : "longqibing_2",
+				"id" : "1",
+				"label" : "Refreshing Sundress",
+				"dialogue" : {
+					"1" : {
+						"event" : "Ship Description",
+						"media" : "",
+						"chinese" : "在维内托大人的建议下，趁着休息日尝试了风格的转变…唔…不、不会很奇怪吧，指挥官？",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "こ、これはヴェネト様から、休日は休日らしい格好に変えたほうがいいと言われまして……うっ、指揮官、へ、変じゃないですよね！？",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Lady Veneto advised me to enjoy my time off by changing into something befitting the occasion... Um, Commander, I d-don't look strange, do I?",
+						"englishNote" : ""
+					},
+					"2" : {
+						"event" : "Acquisition",
+						"media" : "get_1",
+						"chinese" : "在维内托大人的建议下，趁着休息日尝试了风格的转变…唔…不、不会很奇怪吧，指挥官？",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "こ、これはヴェネト様から、休日は休日らしい格好に変えたほうがいいと言われまして……うっ、指揮官、へ、変じゃないですよね！？",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Lady Veneto advised me to enjoy my time off by changing into something befitting the occasion... Um, Commander, I d-don't look strange, do I?",
+						"englishNote" : ""
+					},
+					"3" : {
+						"event" : "Login",
+						"media" : "login_1",
+						"chinese" : "欢迎回来，指挥官。要、要不要趁着假日去外面走走呢？对、对不起，我是不是僭越了……",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "ご帰還、お待ちしておりました！指揮官、非番の日ですしお散歩でも……差し出がましいことを申してしまい誠に失礼いたしました！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Welcome back, Commander. W-would you like to accompany me on a walk while we both have some time off? S-sorry, I hope I'm not being pushy...",
+						"englishNote" : ""
+					},
+					"4" : {
+						"event" : "Details",
+						"media" : "detail_1",
+						"chinese" : "不知是不是换上这身的原因，心情上也有些不一样了，该说是清爽的开放感呢，还是毫无防备的不安感呢…",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "この格好をしていると、なんだか気分もいつもとは違いますね。か、解放感でスッキリというか、無防備でソワソワというか……",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "I can't help but to feel a little different when I put on these clothes. I know it's supposed to feel light and refreshing, but instead I feel defenseless and nervous...",
+						"englishNote" : ""
+					},
+					"5" : {
+						"event" : "Main 1",
+						"media" : "main_1_1",
+						"chinese" : "口渴的话，我带了水哦，请用",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "お水をお持ちしております。喉が渇いたらどうぞ！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "If you're thirsty, I brought some water. Here you go! ",
+						"englishNote" : ""
+					},
+					"6" : {
+						"event" : "Main 2",
+						"media" : "main_2_1",
+						"chinese" : "和煦的阳光，舒爽的微风，还有冰凉的雪糕…很有夏天的感觉呢，指挥官！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "優しい日差し、気持ちのいい風に、高温対策の棒アイス！気分は真夏ですね！指揮官！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "The warm sunlight, the gentle breeze, and an ice pop to beat the heat! That's the spirit of midsummer! ",
+						"englishNote" : ""
+					},
+					"7" : {
+						"event" : "Main 3",
+						"media" : "main_3_1",
+						"chinese" : "有朋友说过，女孩子都是有两面的…像这样换上平时绝对不敢想象的服装…总觉得好像发现了自己的另一面呢",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "女の子は二面性があると友人からお聞きしました。お聞きしましたが…こうして普段では絶対に考えられない服に着替えてしまうと……な、なにかに目覚めた気がします…",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Commander, I heard from a friend that all girls have multiple facets... When I changed into this outfit that I'd absolutely never wear normally... it, it was as if something awakened within me...",
+						"englishNote" : ""
+					},
+					"8" : {
+						"event" : "Touch",
+						"media" : "touch_1_1",
+						"chinese" : "指挥官，咳咳！“贵安？”",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "指揮官、んん！「ごめんあそばせ？」",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Commander! Err, I mean, good day?",
+						"englishNote" : ""
+					},
+					"9" : {
+						"event" : "Mission",
+						"media" : "task_1",
+						"chinese" : "是不是把任务先完成了再做其他事情比较好呢…",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "先に任務を片付けたほうがよろしいのでしょうか…",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Wouldn't it be better to finish the missions first...",
+						"englishNote" : ""
+					},
+					"10" : {
+						"event" : "Defeat",
+						"media" : "lose_1",
+						"chinese" : "呜…果、果然我还是不适合这种的吧……",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "くっ…！や、やっぱり自分にはこんな格好なんて無理ですよぉ…！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Ugh... I s-suppose I'm not cut out for this after all...",
+						"englishNote" : ""
+					},
+					"11" : {
+						"event" : "Affinity (Love)",
+						"media" : "feeling5_1",
+						"chinese" : "虽然曾经说过要“担任指挥官的护卫”，但是像这样走在一起，感觉更像是被指挥官护卫着呢。这算不算护卫失职了啊…啊！我并不是说这样会对我造成困扰什么的哦？！…哈啊……",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "指揮官の護衛を務めるとは言いましたが…こうして並んで歩いていると、指揮官に守られているようにしか見えませんよ！こんなの、護衛失格じゃ……あ！別に迷惑でもなんでもありませんよ！？…はぃ……",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "I once said I wanted to be your bodyguard, but when we're walking together like this, it feels like you're guarding me instead. Would this be dereliction of duty...? Ah! I wasn't saying that I disapproved of it! *sigh*...",
+						"englishNote" : ""
+					}
+				}
+			}
+		}
+	}
+}

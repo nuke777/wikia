@@ -94,7 +94,7 @@
 		"3": {
 			"id": "kelifulan_3",
 			"name": "Gentry Knight",
-			"description": "みんなドレスなのに、なんで私だけ男装なのさ！……まあ、これはこれで着心地が良くて、結構いい感じだし？指揮官、パーティーに行こうって約束したじゃない？そろそろ出発しようぜ！",
+			"description": "Why am I stuck with this tuxedo when everyone else is wearing a dress?! ... Though it does feel slick, so I guess it's pretty nice. So, weren't we gonna go to the party, Commander? Then it's about time we head out!",
 			"expression": {
 				"0": {
 					"id": "0"
@@ -102,6 +102,44 @@
 			}
 		},
 		"4": {
+			"id": "kelifulan_4",
+			"name": "Road Trip! ",
+			"description": "Good timing! I was just about to take my little buddy here out for a road trip! Commander, there's room for two if you want to come! ",
+			"expression": {
+				"0": {
+					"id": "0"
+				},
+				"1": {
+					"id": "1"
+				},
+				"2": {
+					"id": "2"
+				},
+				"3": {
+					"id": "3"
+				}
+			}
+		},
+		"5" : {
+			"id" : "kelifulan_5",
+			"name" : "New Year's Challenge!",
+			"description" : "Happy New Year's, Commander! I heard everyone from the Sakura Empire was dressing like this, so... Hehehe, think this looks good on me? I thought I'd ask for your impression first, Commander.",
+			"expression" : {
+				"0" : {
+					"id" : "0"
+				},
+				"1" : {
+					"id" : "1"
+				},
+				"2" : {
+					"id" : "2"
+				},
+				"3" : {
+					"id" : "3"
+				}
+			}
+		},
+		"6": {
 			"id": "kelifulan_h",
 			"name": "Heartfelt Moment ",
 			"description": "Man, this is so embarrassing... C-Commander, w-w-what do you, umm, like, think of my d-d-d-dress...? ",
@@ -729,6 +767,30 @@
 						"englishNote": ""
 					},
 					"30": {
+						"event": "Dislike Present",
+						"media": "present_dislike",
+						"chinese": "",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"31": {
+						"event": "Main Title",
+						"media": "extra",
+						"chinese": "",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"32": {
 						"event": "Valentines 2018",
 						"media": "",
 						"chinese": "嘿嘿，指挥官，情人节快乐！这是我的一点心意！嘛虽然是自己做的吧，不过我不大会做这个请了别人帮忙呢。好吃的话就当是运气好啦！",
@@ -740,7 +802,7 @@
 						"english": "",
 						"englishNote": ""
 					},
-					"31": {
+					"33": {
 						"event": "Valentines 2019",
 						"media": "",
 						"chinese": "",
@@ -848,7 +910,7 @@
 			"3": {
 				"skin_id": "kelifulan_3",
 				"id": "2",
-				"label": "ジェントリーナイト",
+				"label": "Gentry Knight",
 				"dialogue": {
 					"1": {
 						"event": "Ship Description",
@@ -859,7 +921,7 @@
 						"japanese": "みんなドレスなのに、なんで私だけ男装なのさ！……まあ、これはこれで着心地が良くて、結構いい感じだし？指揮官、パーティーに行こうって約束したじゃない？そろそろ出発しようぜ！",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Why am I stuck with this tuxedo when everyone else is wearing a dress?! ... Though it does feel slick, so I guess it's pretty nice. So, weren't we gonna go to the party, Commander? Then it's about time we head out!",
 						"englishNote": ""
 					},
 					"2": {
@@ -871,7 +933,7 @@
 						"japanese": "みんなドレスなのに、なんで私だけ男装なのさ！……まあ、これはこれで着心地が良くて、結構いい感じだし？指揮官、パーティーに行こうって約束したじゃない？そろそろ出発しようぜ！",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Why am I stuck with this tuxedo when everyone else is wearing a dress?! ... Though it does feel slick, so I guess it's pretty nice. So, weren't we gonna go to the party, Commander? Then it's about time we head out!",
 						"englishNote": ""
 					},
 					"3": {
@@ -883,7 +945,7 @@
 						"japanese": "指揮官、まだ大丈夫？次はパーティーに行くんだぞ！",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Ready yet, Commander? It's time to go to the party!",
 						"englishNote": ""
 					},
 					"4": {
@@ -895,7 +957,7 @@
 						"japanese": "ああ指揮官、慌てなくていいぞ。あなたのお誘いは最優先だぜ",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Ah, don't you worry, Commander. Your invitation's got top priority to me.",
 						"englishNote": ""
 					},
 					"5": {
@@ -907,7 +969,7 @@
 						"japanese": "「ないと」、お前もパーティーに行きたいのか？じゃあ…一緒に行こう！ ",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "You wanna come to the party too, Knight? All right... you're coming, too!",
 						"englishNote": ""
 					},
 					"6": {
@@ -919,7 +981,7 @@
 						"japanese": "ダンスのお誘いを結構受けたけど、私こういうのは本当にからっきしで……指揮官、少し練習に付き合ってもらえないかな？",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Quite a few people have asked me for a dance, but I'm not a great dancer... Commander, could ya help me learn the basics of dancing?",
 						"englishNote": ""
 					},
 					"7": {
@@ -931,7 +993,7 @@
 						"japanese": "ふぅ…指揮官、パーティーが終わったらなんか軽いものでも食べに行かない？私のおごりだから、そう遠慮しなくていいよ？ほらほら、私たちの仲じゃないか～",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "*Phew*... You wanna go for something to eat when the party's over, Commander? I'll treat you, so don't be shy! I mean come on, we're friends~",
 						"englishNote": ""
 					},
 					"8": {
@@ -943,7 +1005,7 @@
 						"japanese": "「ないと」、どうした？……バラ？……ちょうどいい、指揮官、「素敵な君へのプレゼント」だ",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "What's up, Knight? ... A rose...? Just what I needed! Here, Commander. A little gift from me to you, darling.",
 						"englishNote": ""
 					},
 					"9": {
@@ -955,7 +1017,7 @@
 						"japanese": "指揮官、任務なんてパーティーが始まる前にちゃっちゃと片付いちゃおう！",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Commander, let's wrap up those missions pronto before the party starts!",
 						"englishNote": ""
 					},
 					"10": {
@@ -967,7 +1029,7 @@
 						"japanese": "お？「ないと」、指揮官のメールをもってきてくれた？よしよし、いい子だ！",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Hm? You brought the Commander's mail, Knight? Aren't you a clever dog! Good boy!",
 						"englishNote": ""
 					},
 					"11": {
@@ -979,7 +1041,7 @@
 						"japanese": "指揮官、次は私にも出撃させてよ。座して待つのは性分じゃないからさ！",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Let me join for the next sortie, Commander. It's not my style to just sit on my butt and wait around!",
 						"englishNote": ""
 					},
 					"12": {
@@ -991,7 +1053,7 @@
 						"japanese": "速戦即決で行こう！",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Let's finish this in a flash!",
 						"englishNote": ""
 					},
 					"13": {
@@ -1003,7 +1065,7 @@
 						"japanese": "お前たちにプレゼントだ！",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Here's a present for you party poopers!",
 						"englishNote": ""
 					},
 					"14": {
@@ -1015,12 +1077,254 @@
 						"japanese": "正直、男装でみんなに色々言われて、なんか男の子を演じるのもいいかなって一瞬だけ思ってたけど……ううん、やっぱり指揮官の側が一番いいに決まってるさ！ ",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Honestly, what with how people treat me when I wear this tuxedo, for a moment I considered acting more like a boy... But nah! In the end, it's obvious nothing beats being with you, Commander!",
 						"englishNote": ""
 					}
 				}
 			},
 			"4": {
+				"skin_id": "kelifulan_4",
+				"id": "3",
+				"label": "Road Trip! ",
+				"dialogue": {
+					"1": {
+						"event": "Ship Description",
+						"media": "",
+						"chinese": "来得正好！我刚准备和这个新的小伙伴来一场“公路之旅”呢！指挥官也要一起来吗？",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "いいタイミングで来てくれた！私、この子で「ロードトリップ」にチャレンジしようとしているんだ！指揮官もどうかな？",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Good timing! I was just about to take my little buddy here out for a road trip! Commander, there's room for two if you want to come!",
+						"englishNote": ""
+					},
+					"2": {
+						"event": "Acquisition",
+						"media": "get_3",
+						"chinese": "来得正好！我刚准备和这个新的小伙伴来一场“公路之旅”呢！指挥官也要一起来吗？",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "いいタイミングで来てくれた！私、この子で「ロードトリップ」にチャレンジしようとしているんだ！指揮官もどうかな？",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Good timing! I was just about to take my little buddy here out for a road trip! Commander, there's room for two if you want to come!",
+						"englishNote": ""
+					},
+					"3": {
+						"event": "Login",
+						"media": "login_3",
+						"chinese": "做好准备了吗，指挥官？接下来我们可是要去追风的哦！",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "指揮官、準備はいい？これからは風を追っていくんだからな！",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Ready to go, Commander? We're about to go chase the wind!",
+						"englishNote": ""
+					},
+					"4": {
+						"event": "Details",
+						"media": "detail_3",
+						"chinese": "指挥官喜欢听什么样的音乐？我的话，果然还是要能让人打起精神来的音乐才好呢",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "指揮官はどんな音楽が好き？私、やっぱり元気の出る音楽が好きだぜ！",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "What kind of music do you like, Commander? I've gotta have the stuff that gets you pumped up.",
+						"englishNote": ""
+					},
+					"5": {
+						"event": "Main 1",
+						"media": "main_1_3",
+						"chinese": "这孩子的涂装可是我亲手弄的呢，有没有很帅呀，嘿嘿～",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "塗装は自分でやったんだぜ。えへへ、かっこいいだろ？",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "I did this guy's paint job myself. Pretty sweet, huh? Hehe~ ",
+						"englishNote": ""
+					},
+					"6": {
+						"event": "Main 2",
+						"media": "main_2_3",
+						"chinese": "虽然不是重型机车，不过这孩子的马力也是不容小觑的哦",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "大型じゃないけど、この子の馬力も侮っちゃダメよ♪",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Don't let the size fool you. This little guy has some serious kick! ",
+						"englishNote": ""
+					},
+					"7": {
+						"event": "Main 3",
+						"media": "main_3_3",
+						"chinese": "就算是兜风的时候，也要注意遵守交通规则呢，毕竟安全第一嘛～",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "走るときでも交通規則厳守！安全第一だからね",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Even when we're out for a spin, we have to observe the traffic rules. Safety first, after all~",
+						"englishNote": ""
+					},
+					"8": {
+						"event": "Touch",
+						"media": "touch_1_3",
+						"chinese": "指挥官，你也准备辆车吧！涂装交给我就行了，嘿嘿",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "指揮官も乗り物用意してみない？塗装は私に任せてよし！へへへ",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Commander, you should pick out a bike too! Just leave the paint job to me, hehe!",
+						"englishNote": ""
+					},
+					"9": {
+						"event": "Return to Port",
+						"media": "home_3",
+						"chinese": "到外面活动一下筋骨吧，指挥官～",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "指揮官、外に出て運動してみよう～",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Let's go outside and get some stretching in, Commander~",
+						"englishNote": ""
+					}
+				}
+			},
+			"5": {
+				"skin_id" : "kelifulan_5",
+				"id" : "4",
+				"label" : "New Year's Challenge!",
+				"dialogue" : {
+					"1" : {
+						"event" : "Ship Description",
+						"media" : "",
+						"chinese" : "新年快乐！指挥官，听说重樱的新年大家都要穿上这样的衣服出去玩呢！嘿嘿…这衣服适合我吗？想第一个听听你的看法呢",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "ハッピーニューイヤー！重桜のみんなはこんな格好に着替えると聞いたけど、へへへ…これ似合ってるかな？最初はやっぱり指揮官に感想を聞いてくて",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Happy New Year's, Commander! I heard everyone from the Sakura Empire was dressing like this, so... Hehehe, think this looks good on me? I thought I'd ask for your impression first, Commander.",
+						"englishNote" : ""
+					},
+					"2" : {
+						"event" : "Acquisition",
+						"media" : "get_4",
+						"chinese" : "新年快乐！指挥官，听说重樱的新年大家都要穿上这样的衣服出去玩呢！嘿嘿…这衣服适合我吗？想第一个听听你的看法呢",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "ハッピーニューイヤー！重桜のみんなはこんな格好に着替えると聞いたけど、へへへ…これ似合ってるかな？最初はやっぱり指揮官に感想を聞いておきたくて",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Happy New Year's, Commander! I heard everyone from the Sakura Empire was dressing like this, so... Hehehe, think this looks good on me? I thought I'd ask for your impression first, Commander.",
+						"englishNote" : ""
+					},
+					"3" : {
+						"event" : "Login",
+						"media" : "login_4",
+						"chinese" : "嘿嘿，指挥官，要来一场羽板球比赛吗？",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "へへ、指揮官、羽根つき対決でもどうだ？",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Hehe, Commander, how about a hanetsuki match?",
+						"englishNote" : ""
+					},
+					"4" : {
+						"event" : "Details",
+						"media" : "detail_4",
+						"chinese" : "我原本还不知道，原来重樱的羽板球，输掉的人要被人在脸上涂鸦作为惩罚啊…",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "うわぁ…重桜の羽根つきの罰ゲーム、墨で顔に落書きするんだ…知らなかったよ…",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Woahh... In the Sakura Empire, if you lose at a game of hanetsuki, they draw all over your face with a marker... Never knew that...",
+						"englishNote" : ""
+					},
+					"5" : {
+						"event" : "Main 1",
+						"media" : "main_1_4",
+						"chinese" : "下次再和川内她们对决的时候，我一定不能输！所以~就拜托指挥官做我的陪练啦！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "今度川内たちとやるときは絶対に負けるわけにはいかない！というわけで指揮官、へへ、練習の相手をよろしくな！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Next time, I won't lose to the Sendai sisters! That's why, hehe... Commander, glad you're going to be my practice partner! ",
+						"englishNote" : ""
+					},
+					"6" : {
+						"event" : "Main 2",
+						"media" : "main_2_4",
+						"chinese" : "去年种的盆栽，感觉没什么变化啊……不，一定是我观察得不够仔细的缘故",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "去年育てた盆栽、あまり変わってないように見えるな……もうちょっと頑張って観察してみるか",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "The bonsai tree I planted last year doesn't seem to have grown much... I'll have to tend to it better this year. ",
+						"englishNote" : ""
+					},
+					"7" : {
+						"event" : "Main 3",
+						"media" : "main_3_4",
+						"chinese" : "穿着这身衣服多少有点不太方便活动呢…重樱的伙伴们究竟是怎么做到那么灵活的呢…",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "この格好だとちょっと動きづらいよな…重桜の子たちはどうやって普通に動いてるんだ？？",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "It's hard to move around in this outfit... how do the Sakura girls make it look so effortless?",
+						"englishNote" : ""
+					},
+					"8" : {
+						"event" : "Touch",
+						"media" : "touch_1_4",
+						"chinese" : "板子上的图案是海伦娜画的，看起来很不错吧~？",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "この羽子板の絵はヘレナが描いてくれたんだ。へへ、いい感じだろ？",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Helena was the one who drew the design on this paddle. Hehe, isn't it sweet?",
+						"englishNote" : ""
+					},
+					"9" : {
+						"event" : "Touch (Special)",
+						"media" : "touch_2_4",
+						"chinese" : "指、指挥官…新的一年也要注意下自己的形象啊",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "し、指揮官…お正月は人の目に気をつけないと…",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "C-Commander... even if it's the New Year's, people are going to stare...",
+						"englishNote" : ""
+					},
+					"10" : {
+						"event" : "Return to Port",
+						"media" : "home_4",
+						"chinese" : "啊，丹佛，站住！输了的人要乖乖接受惩罚！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "ああ、待てーデンバー！負けたやつは罰ゲームって言ったじゃないかー！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Ahh, Denver, wait up! Didn't we agree that the loser has to do the winner's bidding...?!",
+						"englishNote" : ""
+					}
+				}
+			},
+			"6": {
 				"skin_id": "kelifulan_h",
 				"id": "8",
 				"label": "Heartfelt Moment ",
@@ -1196,6 +1500,6 @@
 		"add_level_value": "1",
 		"add_level_shiptype": "Light Cruiser",
 		"t_level": "7",
-		"ships": "cleveland,columbia,montpelier,denver"
+		"ships": "cleveland,columbia,montpelier,denver,birmingham"
 	}
 }

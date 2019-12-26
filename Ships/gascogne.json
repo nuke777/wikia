@@ -12,7 +12,7 @@
 	"navy": "Vichya Dominion",
 	"prefix": "MNF",
 	"buildTime": "N/A",
-	"class": "リシュリュー級",
+	"class": "Richelieu-Class",
 	"voiceActress": "Mikako Komatsu",
 	"parameters": {
 		"firepower": "S",
@@ -31,7 +31,7 @@
 		"JP": "April 18, 2019",
 		"CN": "April 18, 2019",
 		"KR": "April 18, 2019",
-		"EN": ""
+		"EN": "December 19, 2019"
 	},
 	"artist": {
 		"name": "Liduke(日子)",
@@ -46,25 +46,25 @@
 		"aviation": "0",
 		"reload": "0"
 	},
-	"acquisitionMethod": "Priority Research",
+	"acquisitionMethod": "Research and Development",
 	"skill": {
 		"1": {
 			"icon": "19250",
-			"requirement": "",
-			"name": "Sensory Inhibition Module ",
+			"requirement": "Default Unlocked",
+			"name": "Emotion Inhibition Module",
 			"type": "Defensive",
 			"description": "When taking damage in battle take brings health below 50%, increase own evasion by 15-30%, recover 8% hp in 8 seconds, activates a maximum of 2 times"
 		},
 		"2": {
 			"icon": "19260",
-			"requirement": "",
-			"name": "Precise Operation Protocol ",
+			"requirement": "Default Unlocked",
+			"name": "Precision Salvo Protocol",
 			"type": "Offensive",
 			"description": "Every main gun shot can be manually aimed, manual aiming damage bonus is increased to 25-40%; Every 20 seconds after the beginning of battle, fire a strong barrage at 50-100% chance (firepower increases with skill level)"
 		},
 		"3": {
 			"icon": "19000",
-			"requirement": "",
+			"requirement": "Default Unlocked",
 			"name": "Siren Killer Ⅰ",
 			"type": "Offensive",
 			"description": "Increases the DMG this ship deals to Sirens by 5.0%."
@@ -73,8 +73,8 @@
 	"skin": {
 		"1": {
 			"id": "jiasikenie",
-			"name": "Gascogne",
-			"description": "Improved Richelieu Class Battleship - Gascogne",
+			"name": "Gascogne ",
+			"description": "Battleship – Gascogne. ",
 			"expression": {
 				"0": {
 					"id": "0"
@@ -99,6 +99,40 @@
 				},
 				"7": {
 					"id": "7"
+				}
+			}
+		},
+		"2": {
+			"id": "jiasikenie_2",
+			"name": "夏季环境应对外装",
+			"description": "加斯科涅，准备完成。确认指令：陪伴主人在沙滩玩耍——…主人请求对指示“在沙滩玩耍”的详细说明",
+			"expression": {
+				"0": {
+					"id": "0"
+				},
+				"1": {
+					"id": "1"
+				},
+				"2": {
+					"id": "2"
+				},
+				"3": {
+					"id": "3"
+				},
+				"4": {
+					"id": "4"
+				},
+				"5": {
+					"id": "5"
+				},
+				"6": {
+					"id": "6"
+				},
+				"7": {
+					"id": "7"
+				},
+				"8": {
+					"id": "8"
 				}
 			}
 		},
@@ -303,7 +337,7 @@
 			"1": {
 				"skin_id": "jiasikenie",
 				"id": "0",
-				"label": "ガスコーニュ",
+				"label": "Gascogne ",
 				"dialogue": {
 					"1": {
 						"event": "Ship Description",
@@ -314,7 +348,7 @@
 						"japanese": "戦艦・ガスコーニュ",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Battleship – Gascogne.",
 						"englishNote": ""
 					},
 					"2": {
@@ -326,7 +360,7 @@
 						"japanese": "ガスコーニュ、リシュリュー級戦艦四番艦、戦火により建造頓挫。…今は、主のために戦闘行動を行い、敵を殲滅する",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Gascogne, Richelieu-class battleship number 4, construction canceled due to wartime conditions. Purpose: engage in battle and destroy Master's enemies.",
 						"englishNote": ""
 					},
 					"3": {
@@ -338,7 +372,7 @@
 						"japanese": "ガスコーニュ、起動完了。指示確認：主（maître＝メートル）に自由と勝利を――ガスコーニュ、これより奉仕行動を開始する",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Gascogne activation process complete. Directive assigned: secure liberty and victory for Master. Gascogne commencing active service.",
 						"englishNote": ""
 					},
 					"4": {
@@ -350,7 +384,7 @@
 						"japanese": "照合完了――お帰りなさい、主",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Identification complete. Welcome back, Master.",
 						"englishNote": ""
 					},
 					"5": {
@@ -362,7 +396,7 @@
 						"japanese": "兵装検査…状態良好。ガスコーニュ、命令の遂行が可能",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Analyzing armaments... Condition: satisfactory. Gascogne is able to execute orders.",
 						"englishNote": ""
 					},
 					"6": {
@@ -374,7 +408,7 @@
 						"japanese": "「口角を上げる」…その行動の意義を判断しかねる",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "\"Raise the corners of your lips\"... Unable to determine significance of said action.",
 						"englishNote": ""
 					},
 					"7": {
@@ -386,7 +420,7 @@
 						"japanese": "検証完了――主の状態は「サボり」という状態に該当と判断。執務への支障を認む",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Analysis complete. Master identified to be in a state of \"slacking off.\" State evaluated as an impediment to productivity.",
 						"englishNote": ""
 					},
 					"8": {
@@ -398,7 +432,7 @@
 						"japanese": "「適当にして」…戦術的な意義は分析不可能と判断",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "\"Do whatever you want\"... Analysis of strategic significance of order deemed impossible.",
 						"englishNote": ""
 					},
 					"9": {
@@ -410,7 +444,7 @@
 						"japanese": "所属艦隊の構成員、ガスコーニュの記憶情報と、表情認識記録における「笑顔」の発生頻度に相違点を認む",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Discrepancy detected in the frequency of \"smiles\" recorded between members of the fleet, Gascogne's recollection, and expression identification database.",
 						"englishNote": ""
 					},
 					"10": {
@@ -422,7 +456,7 @@
 						"japanese": "主、ご命令を",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Awaiting Master's orders.",
 						"englishNote": ""
 					},
 					"11": {
@@ -434,7 +468,7 @@
 						"japanese": "体温の異常を感知。主、特別検査を――",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Body temperature abnormality detected. Requesting thorough physical examination.",
 						"englishNote": ""
 					},
 					"12": {
@@ -446,7 +480,7 @@
 						"japanese": "注意、未完了の任務を確認",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Attention: confirmation required for incomplete missions.",
 						"englishNote": ""
 					},
 					"13": {
@@ -458,7 +492,7 @@
 						"japanese": "注意、任務報酬の到着を確認",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Attention: confirmation required for mission rewards.",
 						"englishNote": ""
 					},
 					"14": {
@@ -470,7 +504,7 @@
 						"japanese": "注意、新着メールを確認",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Attention: confirmation required for new mail.",
 						"englishNote": ""
 					},
 					"15": {
@@ -482,7 +516,7 @@
 						"japanese": "アルマニャック、どうぞ",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "A glass of armagnac has been prepared.",
 						"englishNote": ""
 					},
 					"16": {
@@ -494,7 +528,7 @@
 						"japanese": "注意、委託チームの帰還を確認",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Attention: confirmation required for commission team's return.",
 						"englishNote": ""
 					},
 					"17": {
@@ -506,7 +540,7 @@
 						"japanese": "能力上昇…確認",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Ability enhancements... Confirmed.",
 						"englishNote": ""
 					},
 					"18": {
@@ -518,7 +552,7 @@
 						"japanese": "目標視認――殲滅を開始する",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Targets identified. Commencing destruction.",
 						"englishNote": ""
 					},
 					"19": {
@@ -530,7 +564,7 @@
 						"japanese": "報告。対象の殲滅を確認、戦闘任務完了",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Report: destruction of targets confirmed. Combat mission complete.",
 						"englishNote": ""
 					},
 					"20": {
@@ -542,7 +576,7 @@
 						"japanese": "失敗は許されない。……ガスコーニュの機能向上、もしくは廃棄処分を申請する",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Failure is intolerable. Proposal: improve Gascogne's capabilities, or terminate system.",
 						"englishNote": ""
 					},
 					"21": {
@@ -554,7 +588,7 @@
 						"japanese": "兵装起動、火力全開",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Armaments activated. Engaging at maximum output.",
 						"englishNote": ""
 					},
 					"22": {
@@ -566,7 +600,7 @@
 						"japanese": "作戦遂行能力低下、増援を求む",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Combat execution systems failing, requesting support.",
 						"englishNote": ""
 					},
 					"23": {
@@ -578,7 +612,7 @@
 						"japanese": "ガスコーニュは兵器、艦船、それ以外の定義を認めない",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Gascogne is a weapon and a warship. No other definitions are applicable.",
 						"englishNote": ""
 					},
 					"24": {
@@ -590,7 +624,7 @@
 						"japanese": "所属艦隊の構成員によるガスコーニュへの、戦術的な意義を有しない行動への参加要請が多数。主のご判断を求む",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Numerous requests for Gascogne's participation in activities without strategic significance received from members of the fleet. Requesting Master's assessment.",
 						"englishNote": ""
 					},
 					"25": {
@@ -602,7 +636,7 @@
 						"japanese": "所属艦隊との構成員の共同行動中に、「カンジョウ」「ショウドウ」の事象が発生。次なる対応の指示を求む",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Phenomena known as \"emotions\" and \"impulses\" occur when interacting with members of the fleet. Requesting instructions for achieving satisfactory interaction.",
 						"englishNote": ""
 					},
 					"26": {
@@ -614,7 +648,7 @@
 						"japanese": "接触における「カンジョウ」を分析し、「アンシン」「ヨロコビ」と判断。主の希望上…戦術的な意義はあると認む",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "\"Emotions\" generated from physical contact were analyzed and interpreted as \"comfort\" and \"happiness.\" Concluding that this holds strategic significance if this is Master's intention.",
 						"englishNote": ""
 					},
 					"27": {
@@ -626,7 +660,7 @@
 						"japanese": "「カンジョウ」の蓄積作業の過程において、「ナヤミ」「タノシミ」なる事象を確認・分析に成功。主のご希望なら、「カンジョウ」の開放及び行動機能の更新が可能。主、「ありがとう」",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Phenomena known as \"worries\" and \"hopes\" were observed and successfully classified during routine \"emotion\" cache analysis. System can be updated with permissions to access and act upon \"emotions\" if Master so wishes. Thank you, Master.",
 						"englishNote": ""
 					},
 					"28": {
@@ -638,7 +672,7 @@
 						"japanese": "今なら理解できる、「愛」という感情――それは心のときめき、見返りを求めない相手への貢献、渇望、情熱、そして「光」……この指輪こそ、ガスコーニュにとって一番大切な宝物。主、愛しています",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "I now understand the emotion known as love. It is the throbbing of one's heart; the gratitude, longing, warmth, and light one feels for a person who does not seek recompense. This ring is the greatest gift I could ask for. I love you, Master.",
 						"englishNote": ""
 					},
 					"29": {
@@ -691,6 +725,133 @@
 					}
 				}
 			},
+			"2": {
+				"skin_id": "jiasikenie_2",
+				"id": "1",
+				"label": "夏季环境应对外装",
+				"dialogue": {
+					"1": {
+						"event": "Ship Description",
+						"media": "",
+						"chinese": "加斯科涅，准备完成。确认指令：陪伴主人在沙滩玩耍——…主人请求对指示“在沙滩玩耍”的详细说明",
+						"chineseTL": "Gascogne, preparations complete. Confirm directive: Have fun with Maître at the beach —— Maître, please clarify directive: What does \"Have fun with Maître at the beach\" entail?",
+						"chineseNote": "",
+						"japanese": "ガスコーニュ、装備変更完了。指示確認：主（メートル）と砂浜で遊びを――メートル、「砂浜で遊び」について詳細の指示を求む",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"2": {
+						"event": "Acquisition",
+						"media": "get_1",
+						"chinese": "加斯科涅，准备完成。确认指令：陪伴主人在沙滩玩耍——…主人请求对指示“在沙滩玩耍”的详细说明",
+						"chineseTL": "Gascogne, preparations complete. Confirm directive: Have fun with Maître at the beach —— Maître, please clarify directive: What does \"Have fun with Maître at the beach\" entail?",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"3": {
+						"event": "Login",
+						"media": "login_1",
+						"chinese": "欢迎回来，主人。关于“自由行动”，加斯科涅正在进行数据累积以进行定性定义 ",
+						"chineseTL": "Welcome back, Maître. Regarding \"Autonomous operation\", Gascogne is currently gathering data for a definitive elucidation.",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"4": {
+						"event": "Details",
+						"media": "detail_1",
+						"chinese": "主人要对加斯科涅进行检查吗？",
+						"chineseTL": "Does Maître wish to inspect Gascogne?",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"5": {
+						"event": "Main 1",
+						"media": "main_1_1",
+						"chinese": "风速、气温，气象数据符合记录平均值，对航行没有影响",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"6": {
+						"event": "Main 2",
+						"media": "main_2_1",
+						"chinese": "发现非敌性生物，主人，请指示下一步行动",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"7": {
+						"event": "Main 3",
+						"media": "main_3_1",
+						"chinese": "一起游泳吗？请稍等，加斯科涅需要准备游泳圈…——“游泳不需要游泳圈”的指令和记录中出现不一致——",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"8": {
+						"event": "Touch",
+						"media": "touch_1_1",
+						"chinese": "主人的眼神…无法判断战术意义",
+						"chineseTL": "Maître's gaze.. unable to explicate tactical intent.",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"9": {
+						"event": "Touch (Special)",
+						"media": "touch_2_1",
+						"chinese": "主人。加斯科涅，自检中发现非正常高温",
+						"chineseTL": "Maître. Gascogne's self diagnostics detects abnormal body temperature.",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"10": {
+						"event": "Return to Port",
+						"media": "home_1",
+						"chinese": "加斯科涅准备了饮料和食物，主人，请问是否需要进行营养补充",
+						"chineseTL": "Gascogne has prepared drinks and snacks. Maître, do you require nutritional replenishment?",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					}
+				}
+			},
 			"101": {
 				"skin_id": "jiasikenie_ex100",
 				"id": "ex100",
@@ -705,7 +866,7 @@
 						"japanese": "照合完了――お帰りなさい、主",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Identification complete. Welcome back, Master!",
 						"englishNote": ""
 					},
 					"2": {
@@ -717,7 +878,7 @@
 						"japanese": "兵装検査…状態良好。主、ガスコーニュになんなりとご命令を",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Analyzing armaments... Condition: satisfactory. Please inform me if you have any orders, Master.",
 						"englishNote": ""
 					},
 					"3": {
@@ -729,7 +890,7 @@
 						"japanese": "「口角を上げる」…命令受諾した。こ、こう…？よくわからない…",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "\"Raise the corners of your lips\"... Executing order. L-like this...? I may be doing it wrong...",
 						"englishNote": ""
 					},
 					"4": {
@@ -741,7 +902,7 @@
 						"japanese": "検証完了――主の状態は「サボり」であると。「サボり」、よくない",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Analysis complete. Master is in a state of \"slacking off.\" Slacking off is not good.",
 						"englishNote": ""
 					},
 					"5": {
@@ -753,7 +914,7 @@
 						"japanese": "「適当にして」…主、ガスコーニュは一体何をすれば…？",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "\"Do whatever you want\"... Master, how am I meant to do \"whatever\"...?",
 						"englishNote": ""
 					},
 					"6": {
@@ -765,7 +926,7 @@
 						"japanese": "所属艦隊の構成員、ガスコーニュのリュウコツの情報との相違を認む。なぜ、みんな笑顔をしている？",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Discrepancy detected between the information in my core and the members of the fleet. Why does everyone smile?",
 						"englishNote": ""
 					},
 					"7": {
@@ -777,7 +938,7 @@
 						"japanese": "主、なんでもガスコーニュにおまかせを",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "I'm waiting for any order you may have, Master.",
 						"englishNote": ""
 					},
 					"8": {
@@ -789,7 +950,7 @@
 						"japanese": "体温に異常を感知。主、ガスコーニュはど、どうなってるの…？",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Body temperature abnormality detected. Master, what's happening to me...?",
 						"englishNote": ""
 					},
 					"9": {
@@ -801,7 +962,7 @@
 						"japanese": "注意、未完了の任務を確認。主…？",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Attention: confirmation required for incomplete missions. Master...?",
 						"englishNote": ""
 					},
 					"10": {
@@ -813,7 +974,7 @@
 						"japanese": "注意、任務報酬の到着を確認。あぁ…！",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Attention: confirmation required for mission rewards. Wow...!",
 						"englishNote": ""
 					},
 					"11": {
@@ -825,7 +986,7 @@
 						"japanese": "注意、新着メールを確認。こ、コホン！",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Attention: confirmation required for new mail. A-ahem!",
 						"englishNote": ""
 					},
 					"12": {
@@ -837,7 +998,7 @@
 						"japanese": "アルマニャック。どうぞごゆっくり",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Here is a glass of armagnac, if you'd like.",
 						"englishNote": ""
 					},
 					"13": {
@@ -849,7 +1010,7 @@
 						"japanese": "注意、委託チームの帰還を確認。ふぅ……",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Attention: confirmation required for commission team's return. Whew...",
 						"englishNote": ""
 					},
 					"14": {
@@ -861,7 +1022,7 @@
 						"japanese": "能力上昇を確認。…よし！",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Ability enhancements confirmed... Nice!",
 						"englishNote": ""
 					},
 					"15": {
@@ -873,7 +1034,7 @@
 						"japanese": "この艦隊で学んだ多くの「感情」、「悩み」、そして「楽しみ」……主がガスコーニュに望むこと、今ようやく理解した。主、本当に、ありがとう……",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "I've studied many emotions, worries, and hopes during my time in this fleet... Now I finally understand what you expect of me, Master. Thank you so, so much, Master...",
 						"englishNote": ""
 					}
 				}

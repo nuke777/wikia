@@ -11,7 +11,7 @@
 	"hull": "Repair",
 	"navy": "Eagle Union",
 	"prefix": "USS",
-	"buildTime": "",
+	"buildTime": "02:00:00",
 	"class": "Vestal-Class",
 	"voiceActress": "Maia",
 	"parameters": {
@@ -28,16 +28,16 @@
 		"medal": "4"
 	},
 	"releaseDate": {
-		"JP": "",
-		"CN": "",
-		"KR": "",
-		"EN": ""
+		"JP": "September 13, 2017",
+		"CN": "May 25, 2017",
+		"KR": "March 27, 2018",
+		"EN": "August 16, 2018"
 	},
 	"artist": {
-		"name": "",
-		"weibo": "",
-		"twitter": "",
-		"pixiv": "",
+		"name": "Saru",
+		"weibo": "https://www.weibo.com/p/1005051054234800",
+		"twitter": "https://twitter.com/Saru_1127",
+		"pixiv": "https://www.pixiv.net/member.php?id=1422579",
 		"other": ""
 	},
 	"enhance": {
@@ -53,7 +53,7 @@
 			"requirement": "",
 			"name": "Damage Control",
 			"type": "Defensive",
-			"description": "When a friendly ship's HP falls below 20.0%: heals them for $1 of their max HP. If the recipient is Enterprise, the healing's potency is increased by 50.0%. This skill can only activate once per battle."
+			"description": "When a friendly ship's HP falls below 20.0%: heals them for 10.0% (20.0%) of their max HP. If the recipient is Enterprise, the healing's potency is increased by 50.0%. This skill can only activate once per battle."
 		},
 		"2": {
 			"icon": "10520",
@@ -76,8 +76,8 @@
 		},
 		"2": {
 			"id": "zaoshen_2",
-			"name": "清爽なヘスティアー",
-			"description": "みんな～海で遊ぶのはいいけど、安全には気をつけてくださ～い！具合が悪かったら私に聞いてね～！",
+			"name": "Revigorating Hestia ",
+			"description": "Listen, everyone~! Playing by the beach is fun, but please keep safety in mind! If you begin to feel ill, come see me~! ",
 			"expression": {
 				"0": {
 					"id": "0"
@@ -630,13 +630,49 @@
 						"japaneseNote": "",
 						"english": "Big sis is here. It's gonna be fine!",
 						"englishNote": ""
+					},
+					"30": {
+						"event": "Like Present",
+						"media": "present_like",
+						"chinese": "",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"31": {
+						"event": "Dislike Present",
+						"media": "present_dislike",
+						"chinese": "",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"32": {
+						"event": "Main Title",
+						"media": "extra",
+						"chinese": "",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
 					}
 				}
 			},
 			"2": {
 				"skin_id": "zaoshen_2",
 				"id": "1",
-				"label": "清爽なヘスティアー",
+				"label": "Revigorating Hestia ",
 				"dialogue": {
 					"1": {
 						"event": "Ship Description",
@@ -647,7 +683,7 @@
 						"japanese": "みんな～海で遊ぶのはいいけど、安全には気をつけてくださ～い！具合が悪かったら私に聞いてね～！",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Listen, everyone~! Playing by the beach is fun, but please keep safety in mind! If you begin to feel ill, come see me~!",
 						"englishNote": ""
 					},
 					"2": {
@@ -659,7 +695,7 @@
 						"japanese": "みんな～海で遊ぶのはいいけど、安全には気をつけてくださ～い！具合が悪かったら私に聞いてね～！",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Listen, everyone~! Playing by the beach is fun, but please keep safety in mind! If you begin to feel ill, come see me~!",
 						"englishNote": ""
 					},
 					"3": {
@@ -671,7 +707,7 @@
 						"japanese": "指揮官、海辺では熱中症に気をつけてくださいね",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Commander, please be aware of the risk of heatstroke when at the beach.",
 						"englishNote": ""
 					},
 					"4": {
@@ -683,7 +719,7 @@
 						"japanese": "夏はみんながバカンスに行く季節ですけど、私はお仕事的に年中無休です♪",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Although summer is a vacation period for many, Doctor Vestal is in all year round♪",
 						"englishNote": ""
 					},
 					"5": {
@@ -695,7 +731,7 @@
 						"japanese": "私はここでみんなの面倒を見るから、指揮官は海に行っちゃって～～あ、そんな顔しないで、私の分も遊んじゃっていいですよ～",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "I'll stay here and watch over everyone, so you go on ahead into the ocean, Commander~ Now, now, don't be disappointed, you can enjoy yourself on my behalf~",
 						"englishNote": ""
 					},
 					"6": {
@@ -707,7 +743,7 @@
 						"japanese": "指揮官、日焼け止めオイルでもどうですか？さあさあ遠慮しないで、私、こう見えてもプロですよ～",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Commander, would you like me to apply some sunscreen to your skin? There's no need to be hesitant, I'm actually quite good at it~",
 						"englishNote": ""
 					},
 					"7": {
@@ -719,7 +755,7 @@
 						"japanese": "エンタープライズちゃん、サウスダコタ、勝負するのはいいけど皆を巻き込まないでね～",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Enterprise, South Dakota, it's all right to have a showdown, but don't drag others into it~",
 						"englishNote": ""
 					},
 					"8": {
@@ -731,7 +767,7 @@
 						"japanese": "一緒に海に行きたいって？……ふぅ、せっかくのお誘いですし、少しだけサボっちゃいましょうか。少しだけですよ～",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "You want to go in the ocean with me...? Hmm, I suppose I should accept your invitation and take a quick dip. But just a quick one, okay~?",
 						"englishNote": ""
 					},
 					"9": {
@@ -743,7 +779,7 @@
 						"japanese": "指揮官、夏の養生クエスト、という任務でも任せちゃおうかな～",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Commander, I'm thinking about giving you the \"Hygiene in Summer\" mission~",
 						"englishNote": ""
 					},
 					"10": {
@@ -755,7 +791,7 @@
 						"japanese": "指揮官、お家に戻ったら着替えるのを忘れないでくださいね。汗を吸った服を着続けると風邪になりやすいですよ？",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Commander, please don't forget to change clothes once we get back home. Otherwise, you may catch a cold from wearing wet clothes.",
 						"englishNote": ""
 					},
 					"11": {
@@ -767,7 +803,7 @@
 						"japanese": "よく委託に出ている子たち、ちょっと肌が焼けたような気がしますね",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "I think those girls are starting to develop tans from going on so many commissions.",
 						"englishNote": ""
 					},
 					"12": {
@@ -779,7 +815,7 @@
 						"japanese": "潮風はやっぱり気持ちいいですねー",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "The sea breeze is so refreshing, isn't it~",
 						"englishNote": ""
 					},
 					"13": {
@@ -791,7 +827,7 @@
 						"japanese": "かかりつけ医として、どんな時でもあなたの側に――うん？格好がお医者さんらしくないって？ふふ、これぐらいは大丈夫ですよ♪私だって指揮官とデートしたいですもの～",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "As your personal doctor, I will always be by your side, ready to– Hm? Doctors don't usually dress like this? Aha~ It's fine though, isn't it~? I want to go on a date with you, after all~",
 						"englishNote": ""
 					}
 				}

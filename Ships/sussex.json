@@ -50,14 +50,14 @@
 	"skill": {
 		"1": {
 			"icon": "2061",
-			"requirement": "",
+			"requirement": "Default Unlocked",
 			"name": "Double Gun",
 			"type": "Offensive",
 			"description": "When this ship fires its Main Guns: 15% (25%) chance to fire its Main Guns twice."
 		},
 		"2": {
 			"icon": "21211",
-			"requirement": "",
+			"requirement": "Limit Break I (III)",
 			"name": "All Out Assault Ⅰ",
 			"type": "Offensive",
 			"description": "Activate All Out Assault Ⅰ: London Class once every 9 times the main gun is fired."
@@ -71,6 +71,28 @@
 			"expression": {
 				"0": {
 					"id": "0"
+				}
+			}
+		},
+		"2": {
+			"id": "susaikesi_2",
+			"name": "太陽とチューリップ ",
+			"description": "何を呆けているのですか？そろそろ水着も見飽きたでしょう？まったく…パラソルをかざすとか、チェアを組み立てるとか、手伝えることはいっぱいあるでしょうに",
+			"expression": {
+				"0": {
+					"id": "0"
+				},
+				"1": {
+					"id": "1"
+				},
+				"2": {
+					"id": "2"
+				},
+				"3": {
+					"id": "3"
+				},
+				"4": {
+					"id": "4"
 				}
 			}
 		}
@@ -643,6 +665,169 @@
 						"chineseTL": "",
 						"chineseNote": "",
 						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					}
+				}
+			},
+			"2": {
+				"skin_id": "susaikesi_2",
+				"id": "1",
+				"label": "太陽とチューリップ ",
+				"dialogue": {
+					"1": {
+						"event": "Ship Description",
+						"media": "",
+						"chinese": "站在那里发什么呆呢，指挥官，那么多泳装还没看够吗？真是的…帮忙撑撑遮阳伞摆摆躺椅之类的总会吧？",
+						"chineseTL": "What are you standing in a trance for, haven't you seen enough swimsuits? Really.. don't you know how to help with setting up umbrellas and beach chairs?",
+						"chineseNote": "",
+						"japanese": "何を呆けているのですか？そろそろ水着も見飽きたでしょう？まったく…パラソルをかざすとか、チェアを組み立てるとか、手伝えることはいっぱいあるでしょうに",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"2": {
+						"event": "Acquisition",
+						"media": "get_1",
+						"chinese": "站在那里发什么呆呢，指挥官，那么多泳装还没看够吗？真是的…帮忙撑撑遮阳伞摆摆躺椅之类的总会吧？",
+						"chineseTL": "What are you standing in a trance for, haven't you seen enough swimsuits? Really.. don't you know how to help with setting up umbrellas and beach chairs?",
+						"chineseNote": "",
+						"japanese": "何を呆けているのですか？そろそろ水着も見飽きたでしょう？まったく…パラソルをかざすとか、チェアを組み立てるとか、手伝えることはいっぱいあるでしょうに",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"3": {
+						"event": "Login",
+						"media": "login_1",
+						"chinese": "指挥官，工作都完成了吧？要是你是偷溜过来的，呵呵……",
+						"chineseTL": "Commander, are you done with your work? If you're slacking off.. heh, heh..",
+						"chineseNote": "",
+						"japanese": "指揮官、仕事は大丈夫？いい加減にやってきたのなら、ふふふ……",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"4": {
+						"event": "Details",
+						"media": "detail_1",
+						"chinese": "姐姐觉得泳装太暴露了，总是不愿意穿。哈……我偶尔也会觉得，姐姐应该学习一下什罗普郡的大胆…",
+						"chineseTL": "My sister thinks swimsuits are too revealing, and is unwilling to wear them. Hah.. Sometimes I think my sister could take a few lessons from Shropshire about boldness.",
+						"chineseNote": "",
+						"japanese": "ロンドン姉さん、水着の露出度が高いって着たがらないですね…（小声）たまにはシュロップシャーのようにポジティブに考えたほうがいいのに",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"5": {
+						"event": "Main 1",
+						"media": "main_1_1",
+						"chinese": "虽然你是指挥官，不过要是以为大家都是为了你才换上泳装的话，那就大错特错了哦？",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "いいですか？みんな指揮官のために水着を着たわけじゃありませんからね…！",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"6": {
+						"event": "Main 2",
+						"media": "main_2_1",
+						"chinese": "指挥官，如果遇到什罗普郡的话，你要小心一点，虽然她平时就很烦人，但是夏天的她，是烦人的化身……",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "シュロップシャーに会ったら気をつけたほうがいいですよ。あの子は夏になると色々と…なんというか、悪い意味であざといというか……",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"7": {
+						"event": "Main 3",
+						"media": "main_3_1",
+						"chinese": "嗯？没什么，在海边的时候，你想做什么就做什么，我才不管。只是不知道为什么，看到你这张脸就有点来气…",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "ん？なんでもありませんよ。ここでなら好きなことをしても問題ないですっ。…はあ……なんで指揮官の顔を見ると落ち着かないのよ…",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"8": {
+						"event": "Touch",
+						"media": "touch_1_1",
+						"chinese": "指挥官，你也想冲浪吗？那我来教你一些基本常识吧",
+						"chineseTL": "Commander, do you want to surf too? Then let me teach you some basics.",
+						"chineseNote": "",
+						"japanese": "指揮官もサーフィンに興味あります？ふふ、基本から教えてあげます",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"9": {
+						"event": "Touch (Special)",
+						"media": "touch_2_1",
+						"chinese": "你这人真是不长记性呢……",
+						"chineseTL": "You really do have a short term memory..",
+						"chineseNote": "",
+						"japanese": "懲りないわね…っ！",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"10": {
+						"event": "Mission",
+						"media": "task_1",
+						"chinese": "任务？我陪你一起去吧……干什么，我可没有忘记身为秘书舰的职责！",
+						"chineseTL": "Mission? Let me accompany you... What? I haven't forgotten my duties as a secretary ship!",
+						"chineseNote": "",
+						"japanese": "ミッション？私も行きます。……これでも秘書艦ですからね！",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"11": {
+						"event": "Mission Complete",
+						"media": "mission_complete_1",
+						"chinese": "这些冰淇淋是……你买的吗？唔，谢谢…",
+						"chineseTL": "Did you buy these ice creams...? Hm, thanks...",
+						"chineseNote": "",
+						"japanese": "このアイスは指揮官が買ってくれたものなの……？あ、ありがとうございます……",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"12": {
+						"event": "Return to Port",
+						"media": "home_1",
+						"chinese": "真是的，指挥官，和你说过多少次了，确认过没有其他任务了再好好休息",
+						"chineseTL": "Again, Commander, I have already confirmed many times there's no missions, so have a good rest.",
+						"chineseNote": "",
+						"japanese": "もう指揮官、他に出撃任務がなくなってから休んでいいって何度も言いましたよね",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"13": {
+						"event": "Commission Complete",
+						"media": "expedition_1",
+						"chinese": "指挥官，要去接委托组的话，把这些冰西瓜带上吧——是慰问品",
+						"chineseTL": "Commander, take these watermelons if you're meeting with the commission team. It's a token of appreciation.",
+						"chineseNote": "",
+						"japanese": "指揮官、委託組を出迎えるのでしたらこの冷えたスイカでも持って行って頂戴？差し入れですから",
 						"japaneseTL": "",
 						"japaneseNote": "",
 						"english": "",

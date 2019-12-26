@@ -11,8 +11,8 @@
 	"hull": "Submarine",
 	"navy": "Ironblood",
 	"prefix": "KMS",
-	"buildTime": "",
-	"class": "VⅡB型",
+	"buildTime": "00:11:00",
+	"class": "Type VIIB",
 	"voiceActress": "Azumi Asakura",
 	"parameters": {
 		"firepower": "D",
@@ -34,10 +34,10 @@
 		"EN": ""
 	},
 	"artist": {
-		"name": "",
-		"weibo": "",
-		"twitter": "",
-		"pixiv": "",
+		"name": "大月紅葉",
+		"weibo": "http://weibo.com/ootsukimomiji",
+		"twitter": "https://twitter.com/dayuehongye",
+		"pixiv": "https://www.pixiv.net/member.php?id=591937",
 		"other": ""
 	},
 	"enhance": {
@@ -46,35 +46,35 @@
 		"aviation": "0",
 		"reload": "8"
 	},
-	"acquisitionMethod": "イベント：鏡写されし異色",
+	"acquisitionMethod": "Event: Divergent Chessboard, 特型艦建造",
 	"skill": {
 		"1": {
 			"icon": "11440",
-			"requirement": "",
-			"name": "斯卡帕湾之牛",
+			"requirement": "Default Unlocked",
+			"name": "The Bull of Scapa Flow",
 			"type": "Offensive",
-			"description": "鱼雷命中敌人后，若在5秒内自身鱼雷再次对该敌人造成伤害，造成的伤害提高$1"
+			"description": "When own torpedo hits an enemy ship: in the next 5 seconds, the next torpedo to hit that enemy will deal 20% (40%) more damage."
 		},
 		"2": {
 			"icon": "11460",
-			"requirement": "",
-			"name": "独狼",
+			"requirement": "Default Unlocked",
+			"name": "Lone Wolf",
 			"type": "Support",
-			"description": "进入关卡时，若潜艇编队仅有自身一名角色，自身对战列舰(不包括战巡、航战)造成的伤害提高$1、狩猎范围等级+1、携带弹药量+2"
+			"description": "When entering the map, if U-47 is the sole unit of the submarine fleet: increases damage dealt to Battleships (Battlecruisers and Aviation Battleships are not counted) by 5% (20%), increases Search Level by 1 and increases Ammo by 2."
 		},
 		"3": {
 			"icon": "29311",
-			"requirement": "",
-			"name": "专属弹幕-U47I",
+			"requirement": "Limit Break I(III)",
+			"name": "All Out Assault Ⅰ",
 			"type": "Offensive",
-			"description": "进入战斗时，触发专属弹幕-U47I"
+			"description": "When entering the battle, triggers Full Barrage - U-47 I（II）"
 		}
 	},
 	"skin": {
 		"1": {
 			"id": "U47",
 			"name": "U-47",
-			"description": "鉄血ⅦB型潜水艦U-47",
+			"description": "Iron Blood Type VIIB submarine – U-47. ",
 			"expression": {
 				"0": {
 					"id": "0"
@@ -83,11 +83,36 @@
 		},
 		"2": {
 			"id": "U47_2",
-			"name": "ビギナーライダー",
-			"description": "陸の風景なんてちゃんと見たことはないが……指揮官、一緒に見回ってこない？",
+			"name": "Rookie Rider",
+			"description": "I haven't seen much of the world on land... Commander, want to explore it with me?",
 			"expression": {
 				"0": {
 					"id": "0"
+				}
+			}
+		},
+		"3": {
+			"id": "U47_3",
+			"name": "Eigenen Raum",
+			"description": "はぁ…人が多いところより、やっぱりここが落ち着く…指揮官もそう思う？そ。じゃあ適当にね",
+			"expression": {
+				"0": {
+					"id": "0"
+				},
+				"1": {
+					"id": "1"
+				},
+				"2": {
+					"id": "2"
+				},
+				"3": {
+					"id": "3"
+				},
+				"4": {
+					"id": "4"
+				},
+				"5": {
+					"id": "5"
 				}
 			}
 		}
@@ -197,9 +222,9 @@
 		}
 	},
 	"limitBreak": {
-		"tier1": "特殊弾幕スキル習得/魚雷補正+5%",
-		"tier2": "魚雷装填数+1/支援範囲拡大",
-		"tier3": "特殊弾幕強化/魚雷補正+10%"
+		"tier1": "Unlock EX Barrage Ⅰ/Torpedo efficiency +5%",
+		"tier2": "Torpedo base +1/Improve Hunting range",
+		"tier3": "Improve EX Barrage/Torpedo efficiency +10%"
 	},
 	"equipmentLoadout": {
 		"1": {
@@ -250,9 +275,9 @@
 			"EN": ""
 		},
 		"limited": {
-			"JP": "",
-			"CN": "",
-			"EN": ""
+			"JP": "✓",
+			"CN": "✓",
+			"EN": "✓"
 		}
 	},
 	"drop": {
@@ -290,7 +315,7 @@
 						"japanese": "鉄血ⅦB型潜水艦U-47",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Iron Blood Type VIIB submarine – U-47.",
 						"englishNote": ""
 					},
 					"2": {
@@ -302,7 +327,7 @@
 						"japanese": "U-47だよ。スカパ・フローの防衛線を突破して、ロイヤル・オークを沈めてきた。あの時と同じように、敵を沈め、そして戻ってくるつもりよ",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "I'm U-47. I went behind enemy lines at Scapa Flow and sunk Royal Oak. I'm going to go out, sink the enemy, and come back. Just like I did then.",
 						"englishNote": ""
 					},
 					"3": {
@@ -314,7 +339,7 @@
 						"japanese": "VIIB型潜水艦のU-47。人混みは苦手。……用がないなら、もう帰る",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Type VIIB submarine, U-47. I don't like crowds... If that's all, I'll be in my room.",
 						"englishNote": ""
 					},
 					"4": {
@@ -326,7 +351,7 @@
 						"japanese": "あー戻ってきたんか",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Oh. You're back.",
 						"englishNote": ""
 					},
 					"5": {
@@ -338,7 +363,7 @@
 						"japanese": "私が出ようか？一人で全て片付けられるわよ",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Are you sending me out? I can handle it by myself.",
 						"englishNote": ""
 					},
 					"6": {
@@ -350,7 +375,7 @@
 						"japanese": "敵はこのエリアにいるか。じゃあ……",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Enemies nearby? Welp...",
 						"englishNote": ""
 					},
 					"7": {
@@ -362,7 +387,7 @@
 						"japanese": "パトロールが必要ならいつでも動けるよ",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "If you need someone to patrol, I'm good to go anytime.",
 						"englishNote": ""
 					},
 					"8": {
@@ -374,7 +399,7 @@
 						"japanese": "静かな執務室…いい場所じゃない",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Such a quiet office... I approve.",
 						"englishNote": ""
 					},
 					"9": {
@@ -386,7 +411,7 @@
 						"japanese": "装備の検査、する？",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Inspecting my equipment?",
 						"englishNote": ""
 					},
 					"10": {
@@ -398,7 +423,7 @@
 						"japanese": "スカパ・フローの海底に永眠するつもり？",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "You looking to take a nap at the bottom of Scapa Flow?",
 						"englishNote": ""
 					},
 					"11": {
@@ -410,7 +435,7 @@
 						"japanese": "まだ任務があるの……",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "There's another mission...",
 						"englishNote": ""
 					},
 					"12": {
@@ -422,7 +447,7 @@
 						"japanese": "報酬。……確認、しないの？",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Rewards are in... You don't want to see them?",
 						"englishNote": ""
 					},
 					"13": {
@@ -434,7 +459,7 @@
 						"japanese": "新しい情報。……敵に解読されないよね……",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "New report is in... I hope the enemy doesn't crack our codes...",
 						"englishNote": ""
 					},
 					"14": {
@@ -446,7 +471,7 @@
 						"japanese": "人が増えてきた…うるさい…",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "So many people here now... It's so loud...",
 						"englishNote": ""
 					},
 					"15": {
@@ -458,7 +483,7 @@
 						"japanese": "委託組が戻ってきたな。……人が多いね。行きたくない……",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Looks like the commission team is back... There's a lot of them. I don't want to go...",
 						"englishNote": ""
 					},
 					"16": {
@@ -470,7 +495,7 @@
 						"japanese": "強化…役に立てるといいね",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Enhancing... sounds good.",
 						"englishNote": ""
 					},
 					"17": {
@@ -482,7 +507,7 @@
 						"japanese": "ここで眠りな！",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "This is where you'll all sleep!",
 						"englishNote": ""
 					},
 					"18": {
@@ -494,7 +519,7 @@
 						"japanese": "そんなもんね",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "That's how it goes.",
 						"englishNote": ""
 					},
 					"19": {
@@ -506,7 +531,7 @@
 						"japanese": "私はここで終わるのか…",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "So this is how it ends...",
 						"englishNote": ""
 					},
 					"20": {
@@ -518,7 +543,7 @@
 						"japanese": "Auf Wiedersehen（アウフ ウィダゼン）……",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Auf Wiedersehen...",
 						"englishNote": ""
 					},
 					"21": {
@@ -527,10 +552,10 @@
 						"chinese": "我得和你保持距离……",
 						"chineseTL": "",
 						"chineseNote": "",
-						"japanese": "距離を取らせてもらうよ",
+						"japanese": "",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "You can't be serious.",
 						"englishNote": ""
 					},
 					"22": {
@@ -539,10 +564,10 @@
 						"chinese": "指挥官的办公室很安静呢，我喜欢这里。",
 						"chineseTL": "",
 						"chineseNote": "",
-						"japanese": "指揮官の執務室は静かね。好きよ、ここ",
+						"japanese": "距離を取らせてもらうよ",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Give me some space.",
 						"englishNote": ""
 					},
 					"23": {
@@ -551,10 +576,10 @@
 						"chinese": "不过，指挥官的事情我也帮不上什么忙……总是呆在这里的话……没问题吗？",
 						"chineseTL": "",
 						"chineseNote": "",
-						"japanese": "と言っても指揮官の仕事、私、手伝えないし。…このままここにいても……大丈夫？",
+						"japanese": "指揮官の執務室は静かね。好きよ、ここ",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Your office is very quiet. I like it here.",
 						"englishNote": ""
 					},
 					"24": {
@@ -563,10 +588,10 @@
 						"chinese": "我可以随时来这里吗？谢谢……只是最近不知为何，在这里我反而变得有些难静下心来了……",
 						"chineseTL": "",
 						"chineseNote": "",
-						"japanese": "いつ来てもいいの？ありがと……でも…よくわからないけど、最近ここにいると逆に落ち着かない気がする……",
+						"japanese": "と言っても指揮官の仕事、私、手伝えないし。…このままここにいても……大丈夫？",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "So like, I can't really help with your work at all... But you'll let me stay here... You don't mind?",
 						"englishNote": ""
 					},
 					"25": {
@@ -575,10 +600,10 @@
 						"chinese": "原以为我已经习惯了在黑暗的海面之下潜行…但是最近出击的时候，却总是忍不住想起指挥室的明亮温暖…或许，我已经无法离开指挥官了吧。",
 						"chineseTL": "",
 						"chineseNote": "",
-						"japanese": "暗い海の中での潜航には慣れているつもりだけど…最近出撃するたびに、執務室の明るさと暖かさが恋しくて…私、もう指揮官から離れないかもね",
+						"japanese": "いつ来てもいいの？ありがと……でも…よくわからないけど、最近ここにいると逆に落ち着かない気がする……",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "I can visit anytime I want? Thanks... But... For some reason, I feel like I can't really relax here... I'm always on edge...",
 						"englishNote": ""
 					},
 					"26": {
@@ -587,10 +612,10 @@
 						"chinese": "现在…对我来说，自身的意义不只存在于冰冷的海水之下，更存在于岸上和指挥官身边…与你一起，即使无言，也是我最幸福的时光。",
 						"chineseTL": "",
 						"chineseNote": "",
-						"japanese": "私の存在価値は、冷たい海の中でだけじゃなく、母港、そしてあなたのそばでも…あなたと一緒なら、たとえ言葉を交わさなくても、私は……幸せよ",
+						"japanese": "暗い海の中での潜航には慣れているつもりだけど…最近出撃するたびに、執務室の明るさと暖かさが恋しくて…私、もう指揮官から離れないかもね",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "I've spent thousands of hours swimming through the dark depths of the ocean... But lately all I can think about when I'm out on a mission is the warmth and light of your office... I think... I think I need to be with you, Commander.",
 						"englishNote": ""
 					},
 					"27": {
@@ -599,10 +624,10 @@
 						"chinese": "「狼群」……出动了……",
 						"chineseTL": "",
 						"chineseNote": "",
-						"japanese": "ウルフパック……狩るわよ！",
+						"japanese": "私の存在価値は、冷たい海の中でだけじゃなく、母港、そしてあなたのそばでも…あなたと一緒なら、たとえ言葉を交わさなくても、私は……幸せよ",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "I'm meant for more than just voyaging through the cold, dark oceans. My place is here, at the port, by your side... When I'm with you, even just sitting in silence, I feel... happy.",
 						"englishNote": ""
 					}
 				}
@@ -610,7 +635,7 @@
 			"2": {
 				"skin_id": "U47_2",
 				"id": "1",
-				"label": "ビギナーライダー",
+				"label": "Rookie Rider",
 				"dialogue": {
 					"1": {
 						"event": "Ship Description",
@@ -621,7 +646,7 @@
 						"japanese": "陸の風景なんてちゃんと見たことはないが……指揮官、一緒に見回ってこない？",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "I haven't seen much of the world on land... Commander, want to explore it with me?",
 						"englishNote": ""
 					},
 					"2": {
@@ -633,7 +658,7 @@
 						"japanese": "陸の風景なんてちゃんと見たことはないが……指揮官、一緒に見に行かない？",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "I haven't seen much of the world on land... Commander, want to explore it with me?",
 						"englishNote": ""
 					},
 					"3": {
@@ -645,7 +670,7 @@
 						"japanese": "あーきたんか。私？……別に、同じく来たばかりってとこ",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Ah, you're here. Me...? Pretty much the same. I just got back.",
 						"englishNote": ""
 					},
 					"4": {
@@ -657,7 +682,7 @@
 						"japanese": "他人と一緒にお出かけはしたくない性分だが…一人だと道に迷ったら困るな。…指揮官、今日は空いているのか？",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "It's not really my style to go out with anybody... But I'm worried about getting lost if I'm alone... Commander, you got plans today?",
 						"englishNote": ""
 					},
 					"5": {
@@ -669,7 +694,7 @@
 						"japanese": "近眼？違う…ただの飾りよ",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Nearsighted? No... there are no lenses in them.",
 						"englishNote": ""
 					},
 					"6": {
@@ -681,7 +706,7 @@
 						"japanese": "喉乾いたら……半分あげようか？",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "If you're thirsty... You can have half.",
 						"englishNote": ""
 					},
 					"7": {
@@ -693,7 +718,7 @@
 						"japanese": "この服？みんなが選んでくれた。こういうの普段は全然気にしていないけど…",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "My outfit? My friends picked it out for me. I don't usually think about that stuff...",
 						"englishNote": ""
 					},
 					"8": {
@@ -705,7 +730,7 @@
 						"japanese": "陸のことはわからないから……案内、よろしく",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "I don't know my way around on land, so... You're my guide.",
 						"englishNote": ""
 					},
 					"9": {
@@ -717,7 +742,7 @@
 						"japanese": "今から海の中に連れてってやろっか？そこの景色も結構見ものよ？",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "How about I take you on a trip to the bottom of the sea? It's really pretty down there too.",
 						"englishNote": ""
 					},
 					"10": {
@@ -729,7 +754,7 @@
 						"japanese": "メール？……この前のポストカードが戻ってきた？",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Mail? ... Is it that postcard we sent?",
 						"englishNote": ""
 					},
 					"11": {
@@ -741,7 +766,7 @@
 						"japanese": "ふぅ……陸の景色、意外と悪くないのね",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Phew... The view up here on land isn't as bad as I thought.",
 						"englishNote": ""
 					},
 					"12": {
@@ -751,6 +776,145 @@
 						"chineseTL": "",
 						"chineseNote": "",
 						"japanese": "海でも、陸でも……あなたさえいれば、そこはいい景色になるよ",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Under the sea or up on land, it doesn't really matter... As long as you're with me, it's beautiful.",
+						"englishNote": ""
+					}
+				}
+			},
+			"3": {
+				"skin_id": "U47_3",
+				"id": "2",
+				"label": "Eigenen Raum",
+				"dialogue": {
+					"1": {
+						"event": "Ship Description",
+						"media": "",
+						"chinese": "呼…比起喧嚣的宴会场，还是这种安静的地方更让人沉得下心…指挥官难道也这么觉得？不介意的话，一起在这坐会吧",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "はぁ…人が多いところより、やっぱりここが落ち着く…指揮官もそう思う？そ。じゃあ適当にね",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"2": {
+						"event": "Acquisition",
+						"media": "get_2",
+						"chinese": "呼…比起喧嚣的宴会场，还是这种安静的地方更让人沉得下心…指挥官难道也这么觉得？不介意的话，一起在这坐会吧",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "はぁ…人が多いところより、やっぱりここが落ち着く…指揮官もそう思う？そ。じゃあ適当にね",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"3": {
+						"event": "Login",
+						"media": "login_2",
+						"chinese": "…还是被你找到了呢，不愧是指挥官",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "…見つかったね。さすが",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"4": {
+						"event": "Details",
+						"media": "detail_2",
+						"chinese": "唔…？需要出击了吗？马上就位……这身礼服很方便行动，没关系的",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "…もう出撃か。すぐ行く。……この服でも平気よ",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"5": {
+						"event": "Main 1",
+						"media": "main_1_2",
+						"chinese": "…我的话变多了？是吗…在指挥官身边，总能有新的话题从脑海里浮现出来",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "少しおしゃべりになった？そう…あなたのそばにいると、言いたいものが浮かんでくるね",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"6": {
+						"event": "Main 2",
+						"media": "main_2_2",
+						"chinese": "宴会…？就算去了，我也不知道该做什么好",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "パーティー…？行ってもやることないし",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"7": {
+						"event": "Main 3",
+						"media": "main_3_2",
+						"chinese": "回想起来，身边似乎挺多吵吵闹闹的同伴的呢，U73、U81、U101…虽然不喜欢吵闹的地方，不过…并不讨厌这些“吵闹”的同伴",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "私の周り、うるさい子多いね。U-73にU-81、U-101…うるさいのは嫌だけど、仲間は……別よ",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"8": {
+						"event": "Touch",
+						"media": "touch_1_2",
+						"chinese": "作为平时受照顾的答谢，这杯敬指挥官吧",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "いつもお世話になってるお礼。かんぱい、ね？",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"9": {
+						"event": "Touch (Special)",
+						"media": "touch_2_2",
+						"chinese": "要我帮你醒醒酒吗？",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "目を覚ましたろか？",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"10": {
+						"event": "Return to Port",
+						"media": "home_2",
+						"chinese": "嗯？其他伙伴在找我？唔…可以的话帮我转告她们，不用担心",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "私を探している子がいるって？…無事だから気にしなくていいって伝えてくれない？",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"11": {
+						"event": "Affinity (Love)",
+						"media": "feeling5_2",
+						"chinese": "一个人独处的平静虽然也不错，但是和指挥官两人待在一起的这种安心感…似乎更让人难以自拔呢",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "ひとりでいてもいいけど、あなたといて得られるこの安心感……ちょっと、ヤミツキになっちゃったね",
 						"japaneseTL": "",
 						"japaneseNote": "",
 						"english": "",
@@ -771,6 +935,6 @@
 		"add_level_value": "2",
 		"add_level_shiptype": "Submarine,Submarine Aircraft Carrier",
 		"t_level": "6",
-		"ships": "u47"
+		"ships": "u47,u73,u101"
 	}
 }

@@ -11,7 +11,7 @@
 	"hull": "Light Cruiser",
 	"navy": "Eagle Union",
 	"prefix": "USS",
-	"buildTime": "",
+	"buildTime": "01:10:00",
 	"class": "Atlanta-Class",
 	"voiceActress": "Juri Kimura",
 	"parameters": {
@@ -34,10 +34,10 @@
 		"EN": ""
 	},
 	"artist": {
-		"name": "",
-		"weibo": "",
-		"twitter": "",
-		"pixiv": "",
+		"name": "梦咲枫",
+		"weibo": "http://weibo.com/u/3558369570",
+		"twitter": "https://twitter.com/yumesaki_kaede/",
+		"pixiv": "https://www.pixiv.net/member.php?id=1023957",
 		"other": ""
 	},
 	"enhance": {
@@ -50,21 +50,21 @@
 	"skill": {
 		"1": {
 			"icon": "10080",
-			"requirement": "",
+			"requirement": "Default Unlocked",
 			"name": "Martyr",
 			"type": "Defensive",
-			"description": "When this ship is sunk: heals all friendlies for $1 of their max HP."
+			"description": "When this ship is sunk: heals all friendlies for 15%(25%) of their max HP."
 		},
 		"2": {
 			"icon": "4091",
-			"requirement": "",
+			"requirement": "Default Unlocked",
 			"name": "Anti-Air Mode",
 			"type": "Defensive",
-			"description": "When this ship fires its Anti-Air Guns: 25.0% chance to increase this ship's AA by $1 but decrease its FP by $2 for 3s."
+			"description": "When this ship fires its Anti-Air Guns: 25.0% chance to increase this ship's AA by 20.0%(40.0%) but decrease its FP by 40.0%(20.0%) for 3s."
 		},
 		"3": {
 			"icon": "20131",
-			"requirement": "",
+			"requirement": "Limit Break I(III)",
 			"name": "All Out Assault Ⅰ",
 			"type": "Offensive",
 			"description": "Activate All Out Assault Ⅰ: Atlanta Class once every 12 times the main gun is fired."
@@ -225,9 +225,9 @@
 	},
 	"build": {
 		"light": {
-			"JP": "",
-			"CN": "",
-			"EN": ""
+			"JP": "✓",
+			"CN": "✓",
+			"EN": "✓"
 		},
 		"heavy": {
 			"JP": "",
@@ -598,6 +598,6 @@
 		"add_level_value": "1",
 		"add_level_shiptype": "Light Cruiser",
 		"t_level": "5",
-		"ships": "atlanta,juneau,san_diego"
+		"ships": "atlanta,juneau,san_diego,san_juan"
 	}
 }

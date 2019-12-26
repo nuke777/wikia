@@ -88,7 +88,7 @@
 		"1": {
 			"id": "yichui",
 			"name": "Ibuki",
-			"description": "You're the one who awakened me from my long, long dream? I'm Ibuki. Use me as you please, but know that my body is still in training. Be careful with me!",
+			"description": "Heavy cruiser – Ibuki. ",
 			"expression": {
 				"0": {
 					"id": "0"
@@ -97,8 +97,8 @@
 		},
 		"2": {
 			"id": "yichui_2",
-			"name": "Wish of a Snow Goddess",
-			"description": "Milord, it's snowing... If you don't mind, come hide under my umbrella.",
+			"name": "Winter Sylph's Reverie",
+			"description": "Milord, it's starting to snow... If it suits you, please take shelter under Ibuki's umbrella.",
 			"expression": {
 				"0": {
 					"id": "0"
@@ -120,6 +120,28 @@
 				},
 				"6": {
 					"id": "6"
+				}
+			}
+		},
+		"3": {
+			"id": "yichui_3",
+			"name": "Snow on the Wind",
+			"description": "This is my first time wearing Western clothes... Um, Milord! Does this outfit... suit Ibuki well...?",
+			"expression": {
+				"0": {
+					"id": "0"
+				},
+				"1": {
+					"id": "1"
+				},
+				"2": {
+					"id": "2"
+				},
+				"3": {
+					"id": "3"
+				},
+				"4": {
+					"id": "4"
 				}
 			}
 		}
@@ -652,15 +674,63 @@
 						"japaneseNote": "",
 						"english": "",
 						"englishNote": ""
+					},
+					"29": {
+						"event": "Like Present",
+						"media": "present_like",
+						"chinese": "",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"30": {
+						"event": "Dislike Present",
+						"media": "present_dislike",
+						"chinese": "",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"31": {
+						"event": "Main Title",
+						"media": "extra",
+						"chinese": "",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
 					}
 				}
 			},
 			"2": {
 				"skin_id": "yichui_2",
 				"id": "1",
-				"label": "永梦的青女",
+				"label": "Winter Sylph's Reverie",
 				"dialogue": {
 					"1": {
+						"event": "Ship Description",
+						"media": "",
+						"chinese": "主上，下雪了呢……不介意的话，请来伊吹的伞下躲一躲吧",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "雪が…降っていますね。主殿……よろしければ伊吹の傘で少しやり過ごしませんか",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Milord, it's starting to snow... If it suits you, please take shelter under Ibuki's umbrella.",
+						"englishNote": ""
+					},
+					"2": {
 						"event": "Acquisition",
 						"media": "get_1",
 						"chinese": "主上，下雪了呢……不介意的话，请来伊吹的伞下躲一躲吧。",
@@ -669,10 +739,10 @@
 						"japanese": "雪が…降っていますね。主殿……よろしければ伊吹の傘で少しやり過ごしませんか",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Milord, it's starting to snow... If it suits you, please take shelter under Ibuki's umbrella.",
 						"englishNote": ""
 					},
-					"2": {
+					"3": {
 						"event": "Login",
 						"media": "login_1",
 						"chinese": "主上，要一起外出吗",
@@ -681,10 +751,10 @@
 						"japanese": "主殿、一緒におでかけしませんか？",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Milord, shall we go outside together?",
 						"englishNote": ""
 					},
-					"3": {
+					"4": {
 						"event": "Details",
 						"media": "detail_1",
 						"chinese": "这一身衣服，不好好感谢凤翔小姐可不行",
@@ -693,10 +763,10 @@
 						"japanese": "この着物、鳳翔さんに感謝しないといけませんよね……",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "I'll have to thank Houshou for this lovely kimono...",
 						"englishNote": ""
 					},
-					"4": {
+					"5": {
 						"event": "Main 1",
 						"media": "main_1_1",
 						"chinese": "阿嚏！……打喷嚏的样子很可爱？请、请不要笑话我了……",
@@ -705,10 +775,10 @@
 						"japanese": "はくしょん！……くしゃみする姿がなんだかカワイイ、ですか？か、からかわないでください……",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Achoo! ...I'm cute when I sneeze? D- don't make fun of me...",
 						"englishNote": ""
 					},
-					"5": {
+					"6": {
 						"event": "Main 2",
 						"media": "main_2_1",
 						"chinese": "这就是真正的雪……真漂亮啊",
@@ -717,10 +787,10 @@
 						"japanese": "これが…本物の雪……綺麗……",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "This is... real snow... beautiful...",
 						"englishNote": ""
 					},
-					"6": {
+					"7": {
 						"event": "Main 3",
 						"media": "main_3_1",
 						"chinese": "冬天会有很热闹的祭典吗……稍微……有些感兴趣",
@@ -729,10 +799,10 @@
 						"japanese": "冬にもみんなで大騒ぎする祭りがあるのですか？…ちょっとだけ興味が湧きました…ちょっとだけ！",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Aren't there some big festivals in the wintertime? I guess you could say... I'm a little interested... only a little!",
 						"englishNote": ""
 					},
-					"7": {
+					"8": {
 						"event": "Touch",
 						"media": "touch_1_1",
 						"chinese": "主上……有想去的地方了？我会陪您一起去的",
@@ -741,10 +811,10 @@
 						"japanese": "主殿、行きたい場所はありますか？伊吹、ご一緒します",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Is there someplace you'd like to go, Milord? Of course I'll accompany you.",
 						"englishNote": ""
 					},
-					"8": {
+					"9": {
 						"event": "Touch (Special)",
 						"media": "touch_2_1",
 						"chinese": "主、主上，手好冷……",
@@ -753,10 +823,10 @@
 						"japanese": "あ、主殿、手が冷たいです……",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Um, Milord, my hands are cold...",
 						"englishNote": ""
 					},
-					"9": {
+					"10": {
 						"event": "Return to Port",
 						"media": "home_1",
 						"chinese": "外面在下雪呢……主上，我给您再添一件毛衣吧",
@@ -765,10 +835,10 @@
 						"japanese": "外は雪が降っていますね……主殿、セーターをかけさせていただきます",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "The snow is coming down outside... Milord, let me get an extra sweater for you.",
 						"englishNote": ""
 					},
-					"10": {
+					"11": {
 						"event": "Affinity (Love)",
 						"media": "feeling5_1",
 						"chinese": "在永梦之中，冬天的安静的，冰冷的。但在这里，在主上身边，冬天依然是温暖的……主上，我能和您……牵手吗？",
@@ -777,7 +847,134 @@
 						"japanese": "永き夢の中の冬は静かで、冷たい冬でした。今、主殿のそばの冬は心まで暖かい冬……主殿、伊吹の手…取って…いただけないでしょうか…？",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "The winter in my timeless slumber was silent and cold. But here, at Milord's side, I feel only warmth... Milord, would you... take my hand?",
+						"englishNote": ""
+					}
+				}
+			},
+			"3": {
+				"skin_id": "yichui_3",
+				"id": "2",
+				"label": "Snow on the Wind",
+				"dialogue": {
+					"1": {
+						"event": "Ship Description",
+						"media": "",
+						"chinese": "这是我第一次穿像这样的洋装…那个，主上…您觉得这身适合伊吹吗？",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "このようなお洋服は初めて、ですが……あの、主殿！伊吹、この格好に合っているのでしょうか…？",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "This is my first time wearing Western clothes... Um, Milord! Does this outfit... suit Ibuki well...? ",
+						"englishNote": ""
+					},
+					"2": {
+						"event": "Acquisition",
+						"media": "get_2",
+						"chinese": "这是我第一次穿像这样的洋装…那个，主上…您觉得这身适合伊吹吗？",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "このようなお洋服は初めて、ですが……あの、主殿！伊吹、この格好に合っているのでしょうか…？",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "This is my first time wearing Western clothes... Um, Milord! Does this outfit... suit Ibuki well...?",
+						"englishNote": ""
+					},
+					"3": {
+						"event": "Login",
+						"media": "login_2",
+						"chinese": "「宴会」具体要做些什么，还是不太清楚呢…主上，我能跟着你吗？",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "西洋の「ぱーてぃー」は一体何をすれば良いのでしょうか…伊吹、主殿について行ってもよろしいのでしょうか…？",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "I am unsure how I should conduct myself at a \"banquet...\" Milord, may I just follow you?",
+						"englishNote": ""
+					},
+					"4": {
+						"event": "Details",
+						"media": "detail_2",
+						"chinese": "他乡的茶与酒，也别有一番滋味呢",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "異国のお飲み物、普段とは違う美味しさがありますね",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "These foreign beverages and teas have quite a distinctive flavor...",
+						"englishNote": ""
+					},
+					"5": {
+						"event": "Main 1",
+						"media": "main_1_2",
+						"chinese": "果然宴会上尽是一些不太明白的事情呢…啊，请不要误会，我只是觉得…要修行学习的东西还有很多呢",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "「ぱーてぃー」というのは、わからないことだらけですね…主殿、誤解しないでくださいっ。伊吹はただ、自分の不勉強に嘆いているばかりで…",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "There are so many things at this banquet that I simply do not understand... Ah, please don't get the wrong idea... I merely realized that there is much for me to learn still. ",
+						"englishNote": ""
+					},
+					"6": {
+						"event": "Main 2",
+						"media": "main_2_2",
+						"chinese": "其实，我是被西雅图小姐邀请来的……西雅图小姐，真是一位很有活力的人呢",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "今日は…本当はシアトルさんに誘われたから参加したんです。シアトルさん、元気なお方ですね……",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Actually, it was Miss Seattle who invited me here... She's quite a charismatic person. ",
+						"englishNote": ""
+					},
+					"7": {
+						"event": "Main 3",
+						"media": "main_3_2",
+						"chinese": "虽然我更喜欢安静的一隅，不过…像这样大家一起其乐融融聊天的环境，感觉，也不讨厌",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "伊吹はもっと静かで、心が落ち着く場所のほうが好きですが…こうしてみなさんと一緒に楽しくおしゃべりする行事は…ええ、嫌いじゃありませんよ",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Though I prefer my outings to be a bit more... introspective, I don't mind the camaraderie and joyfulness here.",
+						"englishNote": ""
+					},
+					"8": {
+						"event": "Touch",
+						"media": "touch_1_2",
+						"chinese": "风儿像这样吹在脸上，感觉很舒服呢，主上",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "風が頬を撫でるのは気持ちいいですね。主殿",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Milord, it feels nice when the wind gently strokes my cheeks.",
+						"englishNote": ""
+					},
+					"9": {
+						"event": "Touch (Special)",
+						"media": "touch_2_2",
+						"chinese": "果、果然是伊吹不适合这样的衣服吗？",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "や、やっぱり伊吹はこの格好に合わないのでしょうか…",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "D-do these clothes not suit me after all?",
+						"englishNote": ""
+					},
+					"10": {
+						"event": "Return to Port",
+						"media": "home_2",
+						"chinese": "主上，请用蛋糕，甜甜的很好吃哦",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "主殿、どうぞ召し上がってください。甘くて、美味しいケーキですよ",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Milord, please try this cake. It's fluffy, sweet, and delicious.",
 						"englishNote": ""
 					}
 				}

@@ -11,8 +11,7 @@
 	"hull": "Heavy Cruiser",
 	"navy": "Ironblood",
 	"prefix": "KMS",
-	"buildTime": "",
-	"class": "Deutschland-Class",
+	"buildTime": "01:55:00",
 	"voiceActress": "Mai Fuchigami",
 	"parameters": {
 		"firepower": "A",
@@ -34,33 +33,34 @@
 		"EN": ""
 	},
 	"artist": {
-		"name": "",
-		"weibo": "",
-		"twitter": "",
-		"pixiv": "",
+		"name": "RAN",
+		"weibo": "https://weibo.com/u/2235541213",
+		"twitter": "https://twitter.com/bukeranwu",
+		"pixiv": "https://www.pixiv.net/member.php?id=2957827",
 		"other": ""
 	},
+	"class": "Deutschland-Class",
 	"enhance": {
 		"firepower": "31",
 		"torpedo": "13",
 		"aviation": "0",
 		"reload": "12"
 	},
-	"acquisitionMethod": "Event: The Pursuit of Graf Spee",
+	"acquisitionMethod": "Event: The Pursuit of Graf Spee, Heavy Construction",
 	"skill": {
 		"1": {
 			"icon": "10650",
-			"requirement": "",
+			"requirement": "Default Unlocked",
 			"name": "Pocket Battleship",
 			"type": "Offensive",
-			"description": "Increases the DMG this ship deals to DDs and CLs by $1."
+			"description": "Increases this ship's DMG to enemy DDs and CLs by 15.0%(35.0%)."
 		},
 		"2": {
 			"icon": "23221",
-			"requirement": "",
+			"requirement": "Limit Break I (III)",
 			"name": "All Out Assault Ⅰ",
 			"type": "Offensive",
-			"description": "Activate All Out Assault Ⅰ: Deutschland Class once every 9 times the main gun is fired."
+			"description": "Activates All Out Assault Ⅰ: Deutschland Class once every 9 times the Main Guns are fired."
 		}
 	},
 	"skin": {
@@ -119,6 +119,31 @@
 			"id": "sipeibojue_4",
 			"name": "A Novel Anniversary ",
 			"description": "It's so fancy, so formal... Is this a \"party\"? I'm not sure I'll be able to fit in... But if you'll go with me, Commander, I'll give it a try! ",
+			"expression": {
+				"0": {
+					"id": "0"
+				},
+				"1": {
+					"id": "1"
+				},
+				"2": {
+					"id": "2"
+				},
+				"3": {
+					"id": "3"
+				},
+				"4": {
+					"id": "4"
+				},
+				"5": {
+					"id": "5"
+				}
+			}
+		},
+		"5": {
+			"id": "sipeibojue_5",
+			"name": "Tekketsu♥Kawaii",
+			"description": "姉ちゃんがいい加減しつこすぎたから、仕方なくちょっとだけアイドルやるのを了承したけど……とにかく、ステージに上がって歌えばいいんだよね？",
 			"expression": {
 				"0": {
 					"id": "0"
@@ -270,17 +295,30 @@
 			"preload": "0/0/0/0"
 		},
 		"4": {
-			"type": "Auxiliary",
+			"type": "Auxilary",
 			"efficiency": "-",
 			"amount": "-",
 			"preload": "-"
 		},
 		"5": {
-			"type": "Auxiliary",
+			"type": "Auxilary",
 			"efficiency": "-",
 			"amount": "-",
 			"preload": "-"
 		}
+	},
+	"fleet_tech": {
+		"pt_get": "18",
+		"add_get_attr": "HP",
+		"add_get_value": "1",
+		"add_get_shiptype": "Heavy Cruiser,Monitor,Super Cruiser",
+		"pt_upgrade": "38",
+		"pt_level": "28",
+		"add_level_attr": "Firepower",
+		"add_level_value": "1",
+		"add_level_shiptype": "Heavy Cruiser,Monitor,Super Cruiser",
+		"t_level": "5",
+		"ships": "deutschland,admiral_graf_spee"
 	},
 	"build": {
 		"light": {
@@ -289,9 +327,9 @@
 			"EN": ""
 		},
 		"heavy": {
-			"JP": "",
-			"CN": "",
-			"EN": ""
+			"JP": "✓",
+			"CN": "✓",
+			"EN": "✓"
 		},
 		"special": {
 			"JP": "",
@@ -451,7 +489,7 @@
 						"englishNote": ""
 					},
 					"11": {
-						"event": "Touch (Head)",
+						"event": "Rub",
 						"media": "touch_head",
 						"chinese": "指挥官……请不要一直那么用力的摸我的头好吗。",
 						"chineseTL": "",
@@ -667,7 +705,7 @@
 						"englishNote": ""
 					},
 					"29": {
-						"event": "Easter Egg 1 (Renown)",
+						"event": "Easter Egg 1(Renown)",
 						"media": "link1",
 						"chinese": "可以离我远一点吗……",
 						"chineseTL": "",
@@ -679,7 +717,7 @@
 						"englishNote": ""
 					},
 					"30": {
-						"event": "Easter Egg 2 (Ajax)",
+						"event": "Easter Egg 2(Ajax)",
 						"media": "link2",
 						"chinese": "你还是和过去一样性格恶劣啊",
 						"chineseTL": "",
@@ -691,7 +729,7 @@
 						"englishNote": ""
 					},
 					"31": {
-						"event": "Easter Egg 3 (Scharnhorst, Gneisenau)",
+						"event": "Easter Egg 3(Scharnhorst, Gneisenau)",
 						"media": "link3",
 						"chinese": "能与你再次携手作战真是荣幸",
 						"chineseTL": "",
@@ -700,6 +738,42 @@
 						"japaneseTL": "",
 						"japaneseNote": "",
 						"english": "It's an honor to fight alongside you again.",
+						"englishNote": ""
+					},
+					"32": {
+						"event": "Like Present",
+						"media": "present_like",
+						"chinese": "",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"33": {
+						"event": "Dislike Present",
+						"media": "present_dislike",
+						"chinese": "",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"34": {
+						"event": "Main Title",
+						"media": "extra",
+						"chinese": "",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
 						"englishNote": ""
 					}
 				}
@@ -1204,20 +1278,194 @@
 						"englishNote": ""
 					}
 				}
+			},
+			"5": {
+				"skin_id": "sipeibojue_5",
+				"id": "4",
+				"label": "Tekketsu♥Kawaii",
+				"dialogue": {
+					"1": {
+						"event": "Ship Description",
+						"media": "",
+						"chinese": "姐姐实在是太缠人了，最后没有办法只好答应了她……总而言之，在舞台上唱歌就可以了，吧？",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "姉ちゃんがいい加減しつこすぎたから、仕方なくちょっとだけアイドルやるのを了承したけど……とにかく、ステージに上がって歌えばいいんだよね？",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"2": {
+						"event": "Acquisition",
+						"media": "get_4",
+						"chinese": "姐姐实在是太缠人了，最后没有办法只好答应了她……总而言之，在舞台上唱歌就可以了，吧？",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "姉ちゃんがいい加減しつこすぎたから、仕方なくちょっとだけアイドルやるのを了承したけど……とにかく、ステージに上がって歌えばいいんだよね？",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"3": {
+						"event": "Login",
+						"media": "login_4",
+						"chinese": "指挥官，我在这里练习可以吗？",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "指揮官、ここで練習してもいいの？",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"4": {
+						"event": "Details",
+						"media": "detail_4",
+						"chinese": "说着什么“为了铁血的荣耀”把这样的事情塞给我，明明姐姐也可以的……",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "姉ちゃん、「鉄血の栄光のために」とか言って、「アイドル」任務を押し付けてきたの。自分でもできるはずなのに……",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"5": {
+						"event": "Main 1",
+						"media": "main_1_4",
+						"chinese": "嗯……是因为已经和大家熟悉起来的原因吗，感觉，在舞台上表演，也没有想象中那么困难",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "ん……みんなといつも仲良くしているおかげか、ステージで歌うのは、思いのほか平気かも",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"6": {
+						"event": "Main 2",
+						"media": "main_2_4",
+						"chinese": "指挥官，你能让姐姐不要每次演出的时候都让人举“铁血❤最可爱”的牌子吗，那个实在是太丢人了……",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "指揮官、姉ちゃんが持ってるあの「Tekketsu♥Kawaii」のカードを下げてきてもらえない？さ、流石に恥ずかしいよ……",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"7": {
+						"event": "Main 3",
+						"media": "main_3_4",
+						"chinese": "偶像，是为其他人带去笑容的职业……真不可思议，原来我也能做到这样的事",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "アイドルってみんなに笑顔をもたらす……私にもそれができるなんて、不思議な気分…",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"8": {
+						"event": "Touch",
+						"media": "touch_1_4",
+						"chinese": "这双手，如今不仅仅是为了战斗，更是为了响应大家的应援而存在的。嗯，我会加油的…！",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "この手は今、戦うためではなく、みんなの応援に応えるためにあるわ。うん、私、頑張る…！",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"9": {
+						"event": "Touch (Special)",
+						"media": "touch_2_4",
+						"chinese": "指挥官，没忘记这双手原本是做什么的吧？",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "指揮官、この手でできること、忘れないでね？",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"10": {
+						"event": "Mail",
+						"media": "mail_4",
+						"chinese": "指挥官，有新的演出邀请，我应该去吗？",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "指揮官、新しいオファーよ。私…受けてもいいの？",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"11": {
+						"event": "Return to Port",
+						"media": "home_4",
+						"chinese": "指挥官辛苦了，指挥官真棒——偶像似乎应该这么做的样子",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "指揮官おつかれー、指揮官ふぁいとーーーアイドルはこんな感じで合ってるよね",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"12": {
+						"event": "Flagship",
+						"media": "warcry_4",
+						"chinese": "今天的课程还没有完成呢……",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "今日のレッスン、まだ続くね…",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"13": {
+						"event": "Victory",
+						"media": "mvp_4",
+						"chinese": "指挥官，可以回去了吗？",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "指揮官、もう帰ってもいいの？",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"14": {
+						"event": "Defeat",
+						"media": "lose_4",
+						"chinese": "难道说，是因为最近太过专注于偶像课程了吗……",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "最近はレッスンに時間取られすぎたのかな…",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"15": {
+						"event": "Affinity (Love)",
+						"media": "feeling5_4",
+						"chinese": "过去的我，想要摆脱手中的利爪却不知道该怎么做。现在，我却已经能够不再介怀地进行着“偶像”一类的活动……人生真是不可思议呢，指挥官",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "この手から逃げたくてもどうしようもできなかった私が、こうして気にせず「アイドルカツドウ」できるなんて……指揮官、人生って不思議ね。ふふ",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					}
+				}
 			}
 		}
-	},
-	"fleet_tech": {
-		"pt_get": "18",
-		"add_get_attr": "HP",
-		"add_get_value": "1",
-		"add_get_shiptype": "Heavy Cruiser,Monitor,Super Cruiser",
-		"pt_upgrade": "38",
-		"pt_level": "28",
-		"add_level_attr": "Firepower",
-		"add_level_value": "1",
-		"add_level_shiptype": "Heavy Cruiser,Monitor,Super Cruiser",
-		"t_level": "5",
-		"ships": "deutschland,admiral_graf_spee"
 	}
 }

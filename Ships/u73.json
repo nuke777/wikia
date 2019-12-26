@@ -62,9 +62,9 @@
 			"description": "For each Iron Blood SS in your fleet: increases this boat's TRP, RLD and Accuracy by 1.5% (6.0%)."
 		},
 		"3": {
-			"icon": "23411",
+			"icon": "20300",
 			"requirement": "",
-			"name": "全弹发射I",
+			"name": "All Out Assault Ⅰ",
 			"type": "Offensive",
 			"description": "Activates All Out Assault I: VIIB-Type Submarine immediately after entering the battle."
 		}
@@ -97,8 +97,8 @@
 		},
 		"2": {
 			"id": "U73_3",
-			"name": "Science Rules! ",
-			"description": "It's time for science class with U-73! Now, Commander, let's try out an exhilarating and positively fascinating experiment! ",
+			"name": "Science Rules!",
+			"description": "It's time for science class with U-73! Now, Commander, let's try out an exhilarating and positively fascinating experiment!",
 			"expression": {
 				"0": {
 					"id": "0"
@@ -123,6 +123,11 @@
 	},
 	"defaultEquipment": {
 		"1": {
+			"icon": "45300",
+			"rarity": "Common",
+			"name": "G7a Submarine Torpedo"
+		},
+		"2": {
 			"icon": "45300",
 			"rarity": "Common",
 			"name": "G7a Submarine Torpedo"
@@ -268,7 +273,7 @@
 		"add_level_value": "1",
 		"add_level_shiptype": "Submarine,Submarine Aircraft Carrier",
 		"t_level": "6",
-		"ships": "u47,u73"
+		"ships": "u47,u73,u101"
 	},
 	"build": {
 		"light": {
@@ -695,7 +700,7 @@
 			"2": {
 				"skin_id": "U73_3",
 				"id": "1",
-				"label": "Science Rules! ",
+				"label": "Science Rules!",
 				"dialogue": {
 					"1": {
 						"event": "Ship Description",
@@ -706,7 +711,7 @@
 						"japanese": "U-73の理科実験タイム、始まるよ～！指揮官、一緒に楽しく面白く、科学実験をやってみよう！",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "It's time for science class with U-73! Now, Commander, let's try out an exhilarating and positively fascinating experiment! ",
+						"english": "It's time for science class with U-73! Now, Commander, let's try out an exhilarating and positively fascinating experiment!",
 						"englishNote": ""
 					},
 					"2": {
@@ -715,10 +720,10 @@
 						"chinese": "好～U-73的理科实验时间要开始咯～指挥官，一起来进行快乐又有趣的科学实验吧！",
 						"chineseTL": "",
 						"chineseNote": "",
-						"japanese": "",
+						"japanese": "U-73の理科実験タイム、始まるよ～！指揮官、一緒に楽しく面白く、科学実験をやってみよう！",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "It's time for science class with U-73! Now, Commander, let's try out an exhilarating and positively fascinating experiment!",
 						"englishNote": ""
 					},
 					"3": {
@@ -727,10 +732,10 @@
 						"chinese": "把这个加进这里，然后再——哇！指挥官不要突然出现啦，差点就手抖出大事了!",
 						"chineseTL": "",
 						"chineseNote": "",
-						"japanese": "",
+						"japanese": "これをこれぐらい入れて、こう――わ！指揮官急に出てこないでってば～大変なことになるところだったよ？",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Now we add some of this, then– Whuah! Don't surprise me like that, Commander! You nearly just caused an accident!",
 						"englishNote": ""
 					},
 					"4": {
@@ -739,10 +744,10 @@
 						"chinese": "这里需要加热一下……呜哇啊啊啊，火、火太大了啊啊啊！！！",
 						"chineseTL": "",
 						"chineseNote": "",
-						"japanese": "",
+						"japanese": "ここはちょっと加熱して……あわわわ！も、燃えちゃってるよ！！",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "nil",
+						"english": "Now we raise the heat slightly, then... Oh, God! I-it's on fire!",
 						"englishNote": ""
 					},
 					"5": {
@@ -751,10 +756,10 @@
 						"chinese": "实验的精度可是很重要的，差0.01毫升都可能得出完全不一样的结果呢",
 						"chineseTL": "",
 						"chineseNote": "",
-						"japanese": "",
+						"japanese": "実験は精度が肝心ね。百分の一ミリリットルでも違えば結果が変わっちゃうんだから",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "nil",
+						"english": "Experiments necessitate preciseness. Being even one 100th of a milliliter off affects the result!",
 						"englishNote": ""
 					},
 					"6": {
@@ -763,10 +768,10 @@
 						"chinese": "白衣正是实验室的浪漫！——诶？这个不叫白衣？啊哈，啊哈哈……",
 						"chineseTL": "",
 						"chineseNote": "",
-						"japanese": "",
+						"japanese": "理科室のロマンはこの白衣！――え？これ白衣じゃないって？あは、あははははは……",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "nil",
+						"english": "The glamor of this lab coat drew me to the science room! ... Huh? This ISN'T a lab coat? Aha, ahahahaha...",
 						"englishNote": ""
 					},
 					"7": {
@@ -775,10 +780,10 @@
 						"chinese": "啊，不要在这时候碰我啦指挥官，剂量要不准了都……",
 						"chineseTL": "",
 						"chineseNote": "",
-						"japanese": "",
+						"japanese": "えー指揮官？スキンシップはちょーっと後でね？今は試薬の調整で大変だから……",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Hey, Commander? No intimacy right now, okay? I'm fine-tuning this compound, you see...",
 						"englishNote": ""
 					},
 					"8": {
@@ -787,10 +792,10 @@
 						"chinese": "……加了特殊燃料的鱼雷，指挥官想要试试吗？",
 						"chineseTL": "",
 						"chineseNote": "",
-						"japanese": "",
+						"japanese": "特殊燃料が充填された魚雷、試してみたいの？",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "You wanna be the target of my experimental fuel-powered torpedoes?",
 						"englishNote": ""
 					},
 					"9": {
@@ -799,10 +804,10 @@
 						"chinese": "就拿你们来做实验吧！",
 						"chineseTL": "",
 						"chineseNote": "",
-						"japanese": "",
+						"japanese": "お前たちで実験したろうかー！",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Time for an experiment on you numskulls!",
 						"englishNote": ""
 					}
 				}

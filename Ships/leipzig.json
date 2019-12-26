@@ -11,7 +11,7 @@
 	"hull": "Light Cruiser",
 	"navy": "Ironblood",
 	"prefix": "KMS",
-	"buildTime": "",
+	"buildTime": "01:20:00",
 	"class": "Leipzig-Class",
 	"voiceActress": "Ryoko Ono",
 	"parameters": {
@@ -34,10 +34,10 @@
 		"EN": ""
 	},
 	"artist": {
-		"name": "",
-		"weibo": "",
-		"twitter": "",
-		"pixiv": "",
+		"name": "梦咲枫",
+		"weibo": "http://weibo.com/u/3558369570",
+		"twitter": "https://twitter.com/yumesaki_kaede/",
+		"pixiv": "https://www.pixiv.net/member.php?id=1023957",
 		"other": ""
 	},
 	"enhance": {
@@ -50,14 +50,21 @@
 	"skill": {
 		"1": {
 			"icon": "1052",
-			"requirement": "",
+			"requirement": "Default Unlocked",
 			"name": "Tactical Command: Cruisers",
 			"type": "Support",
-			"description": "Increases the FP, TRP, and RLD of all friendly Cruisers by $1. Does not stack with the same skill."
+			"description": "Increases the FP, TRP, and RLD of all friendly Cruisers by 1.0% (10.0%). Does not stack with the same skill."
 		},
 		"2": {
+			"icon": "12290",
+			"requirement": "Default Unlocked",
+			"name": "Safety First！",
+			"type": "Defensive",
+			"description": "As long as this ship is alive, increase vanguard fleet Speed by 3 and decrease ramming damage taken by 15.0% (25.0%). When this ship's HP falls below 30%, evade all damage for the next 2.0 (5.0) seconds and increase damage dealt by 5.0% (15.0%) for the rest of the battle (only activates once per battle)."
+		},
+		"3": {
 			"icon": "23121",
-			"requirement": "",
+			"requirement": "Limit Break I(III)",
 			"name": "All Out Assault Ⅰ",
 			"type": "Offensive",
 			"description": "Activate All Out Assault Ⅰ: Leipzig Class once every 12 times the main gun is fired."
@@ -71,6 +78,28 @@
 			"expression": {
 				"0": {
 					"id": "0"
+				}
+			}
+		},
+		"2": {
+			"id": "laibixi_g",
+			"name": "Leipzig (Retrofit)",
+			"description": "I feel like Fishy is a lot more capable than before, but I don't feel much different... M-maybe Fishy was the one to get a retrofit instead of me?!",
+			"expression": {
+				"0": {
+					"id": "0"
+				},
+				"1": {
+					"id": "1"
+				},
+				"2": {
+					"id": "2"
+				},
+				"3": {
+					"id": "3"
+				},
+				"4": {
+					"id": "4"
 				}
 			}
 		}
@@ -145,34 +174,34 @@
 			"armor": "Light"
 		},
 		"100retrofit": {
-			"hp": "",
-			"firepower": "",
-			"torpedo": "",
-			"antiAir": "",
-			"aviation": "",
-			"reload": "",
-			"hit": "",
-			"evasion": "",
+			"hp": "3346",
+			"firepower": "149",
+			"torpedo": "291",
+			"antiAir": "348",
+			"aviation": "0",
+			"reload": "166",
+			"hit": "138",
+			"evasion": "76",
 			"speed": "32",
 			"luck": "67",
-			"asw": "",
+			"asw": "87",
 			"oxygen": "0",
 			"ammo": "0",
 			"cost": "9",
 			"armor": "Light"
 		},
 		"120retrofit": {
-			"hp": "",
-			"firepower": "",
-			"torpedo": "",
-			"antiAir": "",
-			"aviation": "",
-			"reload": "",
-			"hit": "",
-			"evasion": "",
+			"hp": "3734",
+			"firepower": "168",
+			"torpedo": "325",
+			"antiAir": "387",
+			"aviation": "0",
+			"reload": "190",
+			"hit": "158",
+			"evasion": "102",
 			"speed": "32",
 			"luck": "67",
-			"asw": "",
+			"asw": "99",
 			"oxygen": "0",
 			"ammo": "0",
 			"cost": "9",
@@ -218,19 +247,19 @@
 	},
 	"build": {
 		"light": {
-			"JP": "",
-			"CN": "",
-			"EN": ""
+			"JP": "✓",
+			"CN": "✓",
+			"EN": "✓"
 		},
 		"heavy": {
-			"JP": "",
-			"CN": "",
-			"EN": ""
+			"JP": "✓",
+			"CN": "✓",
+			"EN": "✓"
 		},
 		"special": {
-			"JP": "",
-			"CN": "",
-			"EN": ""
+			"JP": "✓",
+			"CN": "✓",
+			"EN": "✓"
 		},
 		"limited": {
 			"JP": "",
@@ -273,7 +302,7 @@
 						"japanese": "ライプツィヒ級軽巡洋艦・ライプツィヒ",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "Leipzig-class light cruiser, Leipzig.<color=#fad545>Can be built after unlocking</color>",
+						"english": "Leipzig-class light cruiser, Leipzig.<color=#ffde38>Can be built after unlocking</color>",
 						"englishNote": ""
 					},
 					"2": {
@@ -574,6 +603,217 @@
 						"japaneseTL": "",
 						"japaneseNote": "",
 						"english": "I'm so glad that you returned my feelings, Commander. I'll do my best... not to faint in front of you anymore.",
+						"englishNote": ""
+					},
+					"27": {
+						"event": "Like Present",
+						"media": "present_like",
+						"chinese": "",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"28": {
+						"event": "Dislike Present",
+						"media": "present_dislike",
+						"chinese": "",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"29": {
+						"event": "Main Title",
+						"media": "extra",
+						"chinese": "",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					}
+				}
+			},
+			"2": {
+				"skin_id": "laibixi_g",
+				"id": "9",
+				"label": "Leipzig (Retrofit)",
+				"dialogue": {
+					"1": {
+						"event": "Ship Description",
+						"media": "",
+						"chinese": "总觉得鱼鱼比以前能干了许多，而我却没有什么变化……难道是鱼鱼代替我变强了吗…！？",
+						"chineseTL": "It somehow feels like Fishy can do a lot more than before, but I didn't change at all... Could it be that Fishy was the one that became stronger in my stead...?!",
+						"chineseNote": "",
+						"japanese": "さかなきゅん、前より色々できるようになったけど、私なんだかあんまり変わってなくて……もしかして私の代わりにさかなきゅんが強くなったのですか！？",
+						"japaneseTL": "Fishy-kyun, we can do a lot more than to before, but it doesn't feel like I've changed much... Could it be that Fishy-kyun was the one that became stronger instead of me!?",
+						"japaneseNote": "",
+						"english": "I feel like Fishy is a lot more capable than before, but I don't feel much different... M-maybe Fishy was the one to get a retrofit instead of me?!",
+						"englishNote": ""
+					},
+					"2": {
+						"event": "Acquisition",
+						"media": "get_9",
+						"chinese": "总觉得鱼鱼比以前能干了许多，而我却没有什么变化……难道是鱼鱼代替我变强了吗…！？",
+						"chineseTL": "It somehow feels like Fishy can do a lot more than before, but I didn't change at all... Could it be that Fishy was the one that became stronger in my stead...?!",
+						"chineseNote": "",
+						"japanese": "さかなきゅん、前より色々できるようになったけど、私なんだかあんまり変わってなくて……もしかして私の代わりにさかなきゅんが強くなったのですか！？",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "I feel like Fishy is a lot more capable than before, but I don't feel much different... M-maybe Fishy was the one to get a retrofit instead of me?!",
+						"englishNote": ""
+					},
+					"3": {
+						"event": "Login",
+						"media": "login_9",
+						"chinese": "呼……指挥官，我、我把文件整理好了哦",
+						"chineseTL": "Phew... Commander, I-I organized the documents together.",
+						"chineseNote": "",
+						"japanese": "ふぅ……指揮官さん、ファイルをせ、整理しましたよ",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Phew... Commander, I, I organized your files!",
+						"englishNote": ""
+					},
+					"4": {
+						"event": "Details",
+						"media": "detail_9",
+						"chinese": "鱼鱼虽然表现得很凶，其实很温柔的！额，不过好像只有对我时是这样……不好意思……",
+						"chineseTL": "Although Fishy looks intimidating, it's actually very gentle! Uh, but it seems it's just like that with me... Sorry...",
+						"chineseNote": "",
+						"japanese": "さかなきゅん、見た目は怖そうだけど、本当は優しいですよ！……あ…なんか優しいのは私にだけかもしれません……ごめんなさい……",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Fishy looks a bit intimidating, but he's really kind! ... Well... I might be the only one he's kind to... Sorry...",
+						"englishNote": ""
+					},
+					"5": {
+						"event": "Main 1",
+						"media": "main_1_9",
+						"chinese": "嗯…注意营养，及时补充……找点什么好吃的呢……？",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "はい…栄養補給は大事……美味しいものとか…ええと、何がいいでしょうか……？",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "You're right, a nutritious diet is important... Do you have any... um, yummy recommendations...?",
+						"englishNote": ""
+					},
+					"6": {
+						"event": "Main 2",
+						"media": "main_2_9",
+						"chinese": "鱼鱼其实有自己的意识哦，只不过好像只有我能听懂……",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "さかなきゅん、ああ見えて、ちゃんと考えて自分なりの意見を持っているんですよ？でもさかなきゅんの言ってることがわかるのは私だけのようです……",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Despite how Fishy looks, he really does have his own thoughts and feelings. But it seems I'm the only person who understands what he says...",
+						"englishNote": ""
+					},
+					"7": {
+						"event": "Main 3",
+						"media": "main_3_9",
+						"chinese": "鱼鱼，不要担心，指挥官只是有点忙啦……",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "さかんきゅん、心配ないよ？指揮官さんはちょっと忙しいだけで……",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "It's okay, Fishy. Commander is just a little busy right now...",
+						"englishNote": ""
+					},
+					"8": {
+						"event": "Touch",
+						"media": "touch_1_9",
+						"chinese": "呃呃……加油，不要晕倒……！",
+						"chineseTL": "*Pant pant*... Hang in there, don't faint...!",
+						"chineseNote": "",
+						"japanese": "んん……しっかりして、気を失っちゃダメよ……！",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Unghh... Get a grip, me! I can't faint now...!",
+						"englishNote": ""
+					},
+					"9": {
+						"event": "Touch (Special)",
+						"media": "touch_2_9",
+						"chinese": "呀！……好、好像坚持住没晕倒了……？指挥官，谢谢你！",
+						"chineseTL": "Hya!... S-seems like I managed to not faint...? Commmander, thank you!",
+						"chineseNote": "",
+						"japanese": "きゃっ！？……き、気を失わずに済んだの……？指揮官さん、ありがとう！",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Eek! I-I managed to not faint...! Thank you, Commander!",
+						"englishNote": ""
+					},
+					"10": {
+						"event": "Mission",
+						"media": "task_9",
+						"chinese": "（小声）指、指挥官…………(大声）指挥官，做任务啦！！！",
+						"chineseTL": "(Whisper) C-commander......... (Shout) Commander, there's mission!!!",
+						"chineseNote": "",
+						"japanese": "し、指揮官さん…………指揮官さーん！！任務ですよ！！",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "C-Commander...! Commandeeeer! Don't forget your missions!",
+						"englishNote": ""
+					},
+					"11": {
+						"event": "Mission Complete",
+						"media": "mission_complete_9",
+						"chinese": "指挥官，鱼鱼把任务奖励都给运过来了呢，谢谢你，鱼鱼~",
+						"chineseTL": "Commander, Fishy brought back the mission rewards. Thank you, Fishy~",
+						"chineseNote": "",
+						"japanese": "指揮官さん、さかなきゅんが任務報酬を持ってきましたよ。さかなきゅん、ありがとう～",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Commander, Fishy brought us the mission rewards. Thank you, Fishy~",
+						"englishNote": ""
+					},
+					"12": {
+						"event": "Commission Complete",
+						"media": "expedition_9",
+						"chinese": "指挥官，我能带鱼鱼去港口散步吗，正好接一下委托回来的大家",
+						"chineseTL": "Commander, may I take Fishy out for a walk around the port? We'll be welcoming back the commissions team on the way.",
+						"chineseNote": "",
+						"japanese": "指揮官さん、さかなきゅんを連れて港まで散歩に行っても大丈夫でしょうか…？委託から戻ってきたみんなを出迎えてあげたいです",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Commander, would you mind if I took Fishy with us on a walk to the harbor? The commission team returned, and I want to go greet them.",
+						"englishNote": ""
+					},
+					"13": {
+						"event": "Flagship",
+						"media": "warcry_9",
+						"chinese": "虽然还是会紧张……但我会努力的！",
+						"chineseTL": "I'm still nervous... but I'll do my best!",
+						"chineseNote": "",
+						"japanese": "まだちょっと緊張してますけど……がんばりますっ！",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "I'm pretty nervous... but I'll do my best!",
+						"englishNote": ""
+					},
+					"14": {
+						"event": "Defeat",
+						"media": "lose_9",
+						"chinese": "指挥官，对不起……不、不过，我会继续努力的！",
+						"chineseTL": "Commander, sorry... b-but I'll keep trying to do my best!",
+						"chineseNote": "",
+						"japanese": "指揮官さん、ごめんなさい……わ、私、もっとがんばります！",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "I'm so sorry, Commander... I-I'll try harder next time!",
 						"englishNote": ""
 					}
 				}

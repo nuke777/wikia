@@ -11,7 +11,7 @@
 	"hull": "Submarine",
 	"navy": "Ironblood",
 	"prefix": "KMS",
-	"buildTime": "",
+	"buildTime": "00:12:00",
 	"class": "Type VIIC",
 	"voiceActress": "Haruka Yamazaki",
 	"parameters": {
@@ -34,10 +34,10 @@
 		"EN": ""
 	},
 	"artist": {
-		"name": "",
-		"weibo": "",
+		"name": "黑猫",
+		"weibo": "http://weibo.com/u/2959771544",
 		"twitter": "",
-		"pixiv": "",
+		"pixiv": "https://www.pixiv.net/member.php?id=2331978",
 		"other": ""
 	},
 	"enhance": {
@@ -50,21 +50,21 @@
 	"skill": {
 		"1": {
 			"icon": "11390",
-			"requirement": "",
+			"requirement": "Default Unlocked",
 			"name": "Silent Hunter",
 			"type": "Offensive",
-			"description": "Increases this boat's DMG to CVs by $2. When this boat hits an enemy with its Torpedoes: $1 chance to inflicts Flooding that lasts 24s, inflicting DMG every 3s (DMG is based on this ship's TRP stat.) Effect does not stack, but the Flooding duration can be refreshed."
+			"description": "Increases this boat's DMG to CVs by 5.0%(20.0%). When this boat hits an enemy with its Torpedoes: 5%(15%) chance to inflicts Flooding that lasts 24s, inflicting DMG every 3s (DMG is based on this ship's TRP stat.) Effect does not stack, but the Flooding duration can be refreshed."
 		},
 		"2": {
 			"icon": "11410",
-			"requirement": "",
+			"requirement": "Default Unlocked",
 			"name": "Wolf Pack Formation - U81 ",
 			"type": "Offensive",
-			"description": "Increases this boat's EVA by $2. For each Iron Blood SS in your fleet: increases this boat's TRP, RLD, and Accuracy by $1. "
+			"description": "Increases this boat's EVA by 20.0%(40.0%). For each Iron Blood SS in your fleet: increases this boat's TRP, RLD, and Accuracy by 2.5%(7.0%). "
 		},
 		"3": {
 			"icon": "29271",
-			"requirement": "",
+			"requirement": "Limit Break I (III)",
 			"name": "All Out Assault Ⅰ",
 			"type": "Offensive",
 			"description": "Activates All Out Assault Ⅰ: U-81 immediately after entering the battle."
@@ -83,8 +83,8 @@
 		},
 		"2": {
 			"id": "U81_2",
-			"name": "静謐なセレナーデ",
-			"description": "ぐう…このふわふわドレス、やっぱり動きづらいかも…え？キレイ？あ、あはは、ちょっと恥ずかしいかな……",
+			"name": "Soft Serenade",
+			"description": "*Ugh*... I figured this bulky dress would be hard to move in... Huh? I look pretty? Aha, ahaha... You're makin' me blush...",
 			"expression": {
 				"0": {
 					"id": "0"
@@ -259,9 +259,9 @@
 			"EN": ""
 		},
 		"limited": {
-			"JP": "",
-			"CN": "",
-			"EN": ""
+			"JP": "✓",
+			"CN": "✓",
+			"EN": "✓"
 		}
 	},
 	"drop": {
@@ -613,13 +613,49 @@
 						"japaneseNote": "",
 						"english": "This... must be what \"getting hitched\" means! Hehehe~ I'm happy, but also kinda embarrassed... O-of course, I love you very much, Commander!",
 						"englishNote": ""
+					},
+					"28" : {
+						"event" : "Like Present",
+						"media" : "present_like",
+						"chinese" : "",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"29" : {
+						"event" : "Dislike Present",
+						"media" : "present_dislike",
+						"chinese" : "",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"30" : {
+						"event" : "Main Title",
+						"media" : "extra",
+						"chinese" : "",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
 					}
 				}
 			},
 			"2": {
 				"skin_id": "U81_2",
 				"id": "1",
-				"label": "静謐なセレナーデ",
+				"label": "Soft Serenade",
 				"dialogue": {
 					"1": {
 						"event": "Ship Description",
@@ -630,7 +666,7 @@
 						"japanese": "ぐう…このふわふわドレス、やっぱり動きづらいかも…え？キレイ？あ、あはは、ちょっと恥ずかしいかな……",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "*Ugh*... I figured this bulky dress would be hard to move in... Huh? I look pretty? Aha, ahaha... You're makin' me blush...",
 						"englishNote": ""
 					},
 					"2": {
@@ -642,7 +678,7 @@
 						"japanese": "ぐう…このふわふわドレス、やっぱり動きづらいかも…え？キレイ？あ、あはは、ちょっと恥ずかしいかな……",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "*Ugh*... I figured this bulky dress would be hard to move in... Huh? I look pretty? Aha, ahaha... You're makin' me blush...",
 						"englishNote": ""
 					},
 					"3": {
@@ -654,7 +690,7 @@
 						"japanese": "指揮官おそーい！どれだけ待たせているんだー！",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "You're LATE, Commander! Just how long are you gonna keep me waiting?!",
 						"englishNote": ""
 					},
 					"4": {
@@ -666,7 +702,7 @@
 						"japanese": "酒じゃなくてソフトドリンクだぞ～信じられないなら自分で飲んでみなよ！ほい！",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "This isn't wine, it's a soft drink! Don't believe me? Then have a sip for yourself! C'mon!",
 						"englishNote": ""
 					},
 					"5": {
@@ -678,7 +714,7 @@
 						"japanese": "えっ、わたしと踊りたいって…？そ、そそそんなの無理だよぉ……",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Err, you wanna dance with me...? B-b-b-but I have no idea how to dance...",
 						"englishNote": ""
 					},
 					"6": {
@@ -690,7 +726,7 @@
 						"japanese": "専属の執事さんはこのニャンニャンなんだ！どう？カッコいいだろ？",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "This here kitty is my personal butler! Whaddya think? Is that awesome or what?",
 						"englishNote": ""
 					},
 					"7": {
@@ -702,7 +738,7 @@
 						"japanese": "わたしがピアノを弾くとこを見たい？うぐ…も、もうちょっと待ってて！……",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "You wanna hear me play the piano? Errm... I-in a bit, so just hold on a few...!",
 						"englishNote": ""
 					},
 					"8": {
@@ -714,7 +750,7 @@
 						"japanese": "あ！今のわざとだろ！",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Hey! You did that on purpose, didn't you?!",
 						"englishNote": ""
 					},
 					"9": {
@@ -726,7 +762,7 @@
 						"japanese": "指揮官、ここだぞ――鬼ごっこはやめたのかって？しょうがないじゃない！こんな派手な服を着て鬼ごっこなんてできっこないよ…",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "I'm right here, Commander. ... Not hiding for once? Well, it's not like I can! Nobody could play hide-and-seek in this gaudy frickin' dress...",
 						"englishNote": ""
 					},
 					"10": {
@@ -738,7 +774,7 @@
 						"japanese": "せ、セレナーデが愛を伝える曲だとお姉ちゃんたちから聞いて……ちょっとだけベンキョーしたぞ。き、きき、聞きたい？ああ！下手でも笑うんじゃないぞ！",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "S-some people told me a serenade is a perfect love song... so I did some practice. Y-y-you wanna hear it? Whuah! Just don't laugh if it sounds bad!",
 						"englishNote": ""
 					}
 				}
@@ -756,6 +792,6 @@
 		"add_level_value": "2",
 		"add_level_shiptype": "Submarine,Submarine Aircraft Carrier",
 		"t_level": "7",
-		"ships": "u81,u557"
+		"ships": "u81,u557,u556"
 	}
 }

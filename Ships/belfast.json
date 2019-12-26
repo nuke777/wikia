@@ -11,8 +11,7 @@
 	"hull": "Light Cruiser",
 	"navy": "Royal Navy",
 	"prefix": "HMS",
-	"buildTime": "",
-	"class": "Edinburgh-Class",
+	"buildTime": "01:25:00",
 	"voiceActress": "Yui Horie",
 	"parameters": {
 		"firepower": "B",
@@ -34,12 +33,13 @@
 		"EN": ""
 	},
 	"artist": {
-		"name": "",
-		"weibo": "",
-		"twitter": "",
-		"pixiv": "",
+		"name": "kisetsu",
+		"weibo": "https://weibo.com/kisetsu2010",
+		"twitter": "https://twitter.com/kisetsu2010",
+		"pixiv": "https://www.pixiv.net/member.php?id=317823",
 		"other": ""
 	},
+	"class": "Edinburgh-Class",
 	"enhance": {
 		"firepower": "14",
 		"torpedo": "21",
@@ -50,24 +50,24 @@
 	"skill": {
 		"1": {
 			"icon": "10610",
-			"requirement": "",
+			"requirement": "Default Unlocked",
 			"name": "Burn Order",
 			"type": "Offensive",
-			"description": "Increases the DMG this ship deals with HE ammo by $1 and increases its chance to ignite enemies by $2."
+			"description": "Increases this ship's DMG with HE by 15%(25%) and chance to ignite enemies by 1.2%(3.0%)."
 		},
 		"2": {
 			"icon": "4101",
-			"requirement": "",
+			"requirement": "Default Unlocked",
 			"name": "Smokescreen: Light Cruisers",
 			"type": "Defensive",
-			"description": "Activates 10s after the battle begins and has a 20.0% chance to activate every 20s after that: deploys a smokescreen that increases Evasion Rate by $1 (this effect does not stack with other smokescreen skills) and decreases incoming AVI DMG by $2 for all friendlies within it. Smokescreen lasts 10s."
+			"description": "10s after the battle begins and 20.0% chance every 20s after that: deploys a smokescreen that increases Evasion Rate by 15%(35%) (this effect does not stack with other smokescreen skills) and decreases enemy aircraft DMG by 15%(35%) for all your ships in it. Smokescr"
 		},
 		"3": {
 			"icon": "29101",
-			"requirement": "",
-			"name": "EX Barrage: Belfast Ⅰ",
+			"requirement": "Limit Break I (III)",
+			"name": "All Out Assault Ⅰ",
 			"type": "Offensive",
-			"description": "Activate EX Barrage: Belfast Ⅰ once every 12 times the main gun is fired."
+			"description": "Activates All Out Assault Ⅰ: Belfast once every 12 times the Main Guns are fired."
 		}
 	},
 	"skin": {
@@ -101,6 +101,53 @@
 			}
 		},
 		"3": {
+			"id": "beierfasite_3",
+			"name": "The Noble Attendant",
+			"description": "Good evening. The Royal Maids will be chaperoning this event. It is my hope to prevent any inappropriate behaviour that might interfere with the enjoyment of the attendees. Please pardon any inconveniences this may cause.",
+			"expression": {
+				"0": {
+					"id": "0"
+				},
+				"1": {
+					"id": "1"
+				},
+				"2": {
+					"id": "2"
+				},
+				"3": {
+					"id": "3"
+				},
+				"4": {
+					"id": "4"
+				},
+				"5": {
+					"id": "5"
+				}
+			}
+		},
+		"4" : {
+			"id" : "beierfasite_4",
+			"name" : "Shopping with the Head Maid",
+			"description" : "Hehe~ Judging from your expression, Master, my outfit has not fallen short of your expectations. As time is precious, allow me to serve you to the utmost on this \"date.\"",
+			"expression" : {
+				"0" : {
+					"id" : "0"
+				},
+				"1" : {
+					"id" : "1"
+				},
+				"2" : {
+					"id" : "2"
+				},
+				"3" : {
+					"id" : "3"
+				},
+				"4" : {
+					"id" : "4"
+				}
+			}
+		},
+		"5": {
 			"id": "beierfasite_h",
 			"name": "The Pledge of Claddagh",
 			"description": "Are you destined for me? Greetings Belfast, from this moment onwards, I will always be with you.",
@@ -240,33 +287,46 @@
 			"preload": "0/0/0/0"
 		},
 		"4": {
-			"type": "Auxiliary",
+			"type": "Auxilary",
 			"efficiency": "-",
 			"amount": "-",
 			"preload": "-"
 		},
 		"5": {
-			"type": "Auxiliary",
+			"type": "Auxilary",
 			"efficiency": "-",
 			"amount": "-",
 			"preload": "-"
 		}
 	},
+	"fleet_tech": {
+		"pt_get": "12",
+		"add_get_attr": "Anti-Air",
+		"add_get_value": "1",
+		"add_get_shiptype": "Light Cruiser",
+		"pt_upgrade": "24",
+		"pt_level": "18",
+		"add_level_attr": "Firepower",
+		"add_level_value": "1",
+		"add_level_shiptype": "Light Cruiser",
+		"t_level": "7",
+		"ships": "edinburgh,belfast"
+	},
 	"build": {
 		"light": {
-			"JP": "",
-			"CN": "",
-			"EN": ""
+			"JP": "✓",
+			"CN": "✓",
+			"EN": "✓"
 		},
 		"heavy": {
-			"JP": "",
-			"CN": "",
-			"EN": ""
+			"JP": "✓",
+			"CN": "✓",
+			"EN": "✓"
 		},
 		"special": {
-			"JP": "",
-			"CN": "",
-			"EN": ""
+			"JP": "✓",
+			"CN": "✓",
+			"EN": "✓"
 		},
 		"limited": {
 			"JP": "",
@@ -623,6 +683,42 @@
 						"japaneseNote": "",
 						"english": "Now this is a little troubling... I'm fine with simply protecting you, my master, as well as occassionally enjoying your troubled look... But with such an important bond being formed, I've become wanting to serve you even more, as well as receiving more of your attention, master...",
 						"englishNote": ""
+					},
+					"28": {
+						"event": "Like Present",
+						"media": "present_like",
+						"chinese": "",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"29": {
+						"event": "Dislike Present",
+						"media": "present_dislike",
+						"chinese": "",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"30": {
+						"event": "Main Title",
+						"media": "extra",
+						"chinese": "",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
 					}
 				}
 			},
@@ -778,6 +874,224 @@
 				}
 			},
 			"3": {
+				"skin_id": "beierfasite_3",
+				"id": "3",
+				"label": "The Noble Attendant",
+				"dialogue": {
+					"1": {
+						"event": "Ship Description",
+						"media": "",
+						"chinese": "贵安，主人。因为女仆队的部分成员承担了会场的警备工作，所以我也顺便换上了与宴会氛围相符的服装。作为女仆多少有些僭越了，还请多见谅",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "ご機嫌麗しゅうございます。ロイヤルメイド隊の一部メンバーは会場の警備を担当するゆえ、このようなパーティーに相応しい格好にてご相伴させていただきます。メイドの身として誠に恐縮ですが、何卒ご容赦くださいませ",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Good evening. The Royal Maids will be chaperoning this event. It is my hope to prevent any inappropriate behaviour that might interfere with the enjoyment of the attendees. Please pardon any inconveniences this may cause. ",
+						"englishNote": ""
+					},
+					"2": {
+						"event": "Acquisition",
+						"media": "get_3",
+						"chinese": "贵安，主人。因为女仆队的部分成员承担了会场的警备工作，所以我也顺便换上了与宴会氛围相符的服装。作为女仆多少有些僭越了，还请多见谅",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Good evening. The Royal Maids will be chaperoning this event. It is my hope to prevent any inappropriate behaviour that might interfere with the enjoyment of the attendees. Please pardon any inconveniences this may cause.",
+						"englishNote": ""
+					},
+					"3": {
+						"event": "Login",
+						"media": "login_3",
+						"chinese": "主人，宴会有让您满意吗？",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Master, are you pleased with the festivities?",
+						"englishNote": ""
+					},
+					"4": {
+						"event": "Details",
+						"media": "detail_3",
+						"chinese": "为了主人与陛下，也为了不令华丽的宴会失色，无论合适都保持优雅的举止，是女仆应尽的义务",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "It is a maid's duty, in service to her master and Her Majesty, to uphold the elegance of the banquet and safeguard it from disgrace.",
+						"englishNote": ""
+					},
+					"5": {
+						"event": "Touch (Special)",
+						"media": "touch_2_3",
+						"chinese": "主人…？在会场还请稍微自重一些",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Master...? Please, have some self-respect. We are in public.",
+						"englishNote": ""
+					},
+					"6": {
+						"event": "Return to Port",
+						"media": "home_3",
+						"chinese": "请继续享受宴会的乐趣吧，主人",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Please continue to enjoy the banquet, Master.",
+						"englishNote": ""
+					},
+					"7": {
+						"event": "Flagship",
+						"media": "warcry_3",
+						"chinese": "皇家女仆队，轻巡贝尔法斯特，参上",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Belfast of the Royal Maids, reporting in.",
+						"englishNote": ""
+					}
+				}
+			},
+			"4": {
+				"skin_id" : "beierfasite_4",
+				"id" : "4",
+				"label" : "Shopping with the Head Maid",
+				"dialogue" : {
+					"1" : {
+						"event" : "Ship Description",
+						"media" : "",
+						"chinese" : "呵呵，看主人的表情，看来这身和平常稍有不同的打扮没有让您失望呢~难得的“约会”时光，就让贝尔法斯特好好侍奉您吧",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "ふふ、ご主人様の表情から察するに、どうやらこの格好に大変満足いただけたご様子ですね。貴重なお時間を使った「デート」、このベルファスト、誠心誠意ご奉仕いたします",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Hehe~ Judging from your expression, Master, my outfit has not fallen short of your expectations. As time is precious, allow me to serve you to the utmost on this \"date.\"",
+						"englishNote" : ""
+					},
+					"2" : {
+						"event" : "Acquisition",
+						"media" : "get_4",
+						"chinese" : "呵呵，看主人的表情，看来这身和平常稍有不同的打扮没有让您失望呢~难得的“约会”时光，就让贝尔法斯特好好侍奉您吧",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"3" : {
+						"event" : "Login",
+						"media" : "login_4",
+						"chinese" : "平时的我都是负责安排的，偶尔尝试下听从他人的计划似乎也不错呢，指挥官，接下来的目的地就交给您了。呵呵，我很期待~",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"4" : {
+						"event" : "Details",
+						"media" : "detail_4",
+						"chinese" : "主人想吃什么午餐呢？我为您准备了…——吃这个就可以？零食可不能当作正餐哦",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"5" : {
+						"event" : "Main 1",
+						"media" : "main_1_4",
+						"chinese" : "这个好像是时下挺流行的零食呢，主人也想吃吗？，来，“啊~嗯”~呵呵，这个似乎也是流行的一部分呢",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "nil",
+						"englishNote" : ""
+					},
+					"6" : {
+						"event" : "Main 2",
+						"media" : "main_2_4",
+						"chinese" : "身为女仆，自应当为主人服务。不过，为了主人给别人留下好的印象，这一半的购物袋就辛苦主人您了。",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "nil",
+						"englishNote" : ""
+					},
+					"7" : {
+						"event" : "Main 3",
+						"media" : "main_3_4",
+						"chinese" : "除了自己的，也给其他女仆队的孩子们看点服装好了…当然，还要给主人也看看呢，呵呵~",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "nil",
+						"englishNote" : ""
+					},
+					"8" : {
+						"event" : "Touch",
+						"media" : "touch_1_4",
+						"chinese" : "牵手么……主人的手，有种令人怀念的感觉呢。",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"9" : {
+						"event" : "Touch (Special)",
+						"media" : "touch_2_4",
+						"chinese" : "就算是在约会中，太心急也是不行的哦，主人？",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"10" : {
+						"event" : "Return to Port",
+						"media" : "home_4",
+						"chinese" : "主人，如果对接下来目的地没有头绪的话，不如干脆漫无目的地走下去如何？有时候偶遇的风景反倒更迷人呢~",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					}
+				}
+			},
+			"5": {
 				"skin_id": "beierfasite_h",
 				"id": "8",
 				"label": "The Pledge of Claddagh",
@@ -917,18 +1231,5 @@
 				}
 			}
 		}
-	},
-	"fleet_tech": {
-		"pt_get": "12",
-		"add_get_attr": "Anti-Air",
-		"add_get_value": "1",
-		"add_get_shiptype": "Light Cruiser",
-		"pt_upgrade": "24",
-		"pt_level": "18",
-		"add_level_attr": "Firepower",
-		"add_level_value": "1",
-		"add_level_shiptype": "Light Cruiser",
-		"t_level": "7",
-		"ships": "edinburgh,belfast"
 	}
 }

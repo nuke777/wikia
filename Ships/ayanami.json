@@ -1,4 +1,4 @@
-﻿{
+{
 	"name_reference": "ayanami",
 	"cn_reference": "lingbo",
 	"nameJP": "綾波",
@@ -156,6 +156,53 @@
 			}
 		},
 		"7": {
+			"id": "lingbo_7",
+			"name": "おませアイドル・困惑中",
+			"description": "鬼神アイドル綾波、デビューです。ジャベリンたちも頑張ってるから、綾波も……指揮官、アイドルって何をすればいいです？",
+			"expression": {
+				"0": {
+					"id": "0"
+				},
+				"1": {
+					"id": "1"
+				},
+				"2": {
+					"id": "2"
+				},
+				"3": {
+					"id": "3"
+				},
+				"4": {
+					"id": "4"
+				}
+			}
+		},
+		"8": {
+			"id": "lingbo_8",
+			"name": "Pulse of the New Year",
+			"description": "Commander, Happy New Year's. In this coming year, please continue to look after me...",
+			"expression": {
+				"0": {
+					"id": "0"
+				},
+				"1": {
+					"id": "1"
+				},
+				"2": {
+					"id": "2"
+				},
+				"3": {
+					"id": "3"
+				},
+				"4": {
+					"id": "4"
+				},
+				"5": {
+					"id": "5"
+				}
+			}
+		},
+		"9": {
 			"id": "lingbo_h",
 			"name": "Demon's Finest Dress ",
 			"description": "This dress is... Ayanami’s. I'm not used to this dress yet... Commander, do you think it fits me?",
@@ -180,7 +227,7 @@
 				}
 			}
 		},
-		"8": {
+		"10": {
 			"id": "lingbo_g",
 			"name": "Ayanami (Retrofit) ",
 			"description": "Ayanami, retrofit complete. I feel stronger, yes... Having that said, Commander, can you pat my head? I want to be spoiled a bit...",
@@ -1438,131 +1485,445 @@
 				"id": "6",
 				"label": "Grade A Sailor Uniform",
 				"dialogue": {
-					"1" : {
-						"event" : "Ship Description",
-						"media" : "",
-						"chinese" : "“欢迎光临，指挥官”…打招呼的时候是这样…吧？",
-						"chineseTL" : "\"Welcome, commander\" greetings should be made like this, yes?",
-						"chineseNote" : "",
-						"japanese" : "「指揮官、いらっしゃいませ、です」…挨拶はこんな感じでいいですか？",
-						"japaneseTL" : "",
-						"japaneseNote" : "",
-						"english" : "“Welcome, Commander...” I should greet customers like this... yes? ",
-						"englishNote" : ""
+					"1": {
+						"event": "Ship Description",
+						"media": "",
+						"chinese": "“欢迎光临，指挥官”…打招呼的时候是这样…吧？",
+						"chineseTL": "\"Welcome, commander\" greetings should be made like this, yes?",
+						"chineseNote": "",
+						"japanese": "「指揮官、いらっしゃいませ、です」…挨拶はこんな感じでいいですか？",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "“Welcome, Commander...” I should greet customers like this... yes? ",
+						"englishNote": ""
 					},
-					"2" : {
-						"event" : "Acquisition",
-						"media" : "get_5",
-						"chinese" : "“欢迎光临，指挥官”…打招呼的时候是这样…吧？",
-						"chineseTL" : "\"Welcome, commander\" greetings should be made like this, yes?",
-						"chineseNote" : "",
-						"japanese" : "「指揮官、いらっしゃいませ、です」…挨拶はこんな感じでいいですか？",
-						"japaneseTL" : "",
-						"japaneseNote" : "",
-						"english" : "“Welcome, Commander...” I should greet customers like this... yes? ",
-						"englishNote" : ""
+					"2": {
+						"event": "Acquisition",
+						"media": "get_5",
+						"chinese": "“欢迎光临，指挥官”…打招呼的时候是这样…吧？",
+						"chineseTL": "\"Welcome, commander\" greetings should be made like this, yes?",
+						"chineseNote": "",
+						"japanese": "「指揮官、いらっしゃいませ、です」…挨拶はこんな感じでいいですか？",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "“Welcome, Commander...” I should greet customers like this... yes? ",
+						"englishNote": ""
 					},
-					"3" : {
-						"event" : "Login",
-						"media" : "login_5",
-						"chinese" : "指挥官，今天想要来点什么吗？菜单在这里…的说",
-						"chineseTL" : "Commander, what do you want to eat today? The menu is here. Desu.",
-						"chineseNote" : "",
-						"japanese" : "",
-						"japaneseTL" : "",
-						"japaneseNote" : "",
-						"english" : "",
-						"englishNote" : ""
+					"3": {
+						"event": "Login",
+						"media": "login_5",
+						"chinese": "指挥官，今天想要来点什么吗？菜单在这里…的说",
+						"chineseTL": "Commander, what do you want to eat today? The menu is here. Desu.",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
 					},
-					"4" : {
-						"event" : "Details",
-						"media" : "detail_5",
-						"chinese" : "见习服务生，是绫波没有经历过的体验，感觉很新鲜…的说",
-						"chineseTL" : "Training as a waitress.. Is something Ayanami has never done.. It's a fresh experience.. Desu.",
-						"chineseNote" : "",
-						"japanese" : "",
-						"japaneseTL" : "",
-						"japaneseNote" : "",
-						"english" : "",
-						"englishNote" : ""
+					"4": {
+						"event": "Details",
+						"media": "detail_5",
+						"chinese": "见习服务生，是绫波没有经历过的体验，感觉很新鲜…的说",
+						"chineseTL": "Training as a waitress.. Is something Ayanami has never done.. It's a fresh experience.. Desu.",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
 					},
-					"5" : {
-						"event" : "Main 1",
-						"media" : "main_1_5",
-						"chinese" : "拉菲说，有时候也需要换换口味，所以…今天要来点甜点吗，指挥官？",
-						"chineseTL" : "Laffey said it's necessary to change up flavours, so...how about some dessert today, Commander?",
-						"chineseNote" : "",
-						"japanese" : "",
-						"japaneseTL" : "",
-						"japaneseNote" : "",
-						"english" : "",
-						"englishNote" : ""
+					"5": {
+						"event": "Main 1",
+						"media": "main_1_5",
+						"chinese": "拉菲说，有时候也需要换换口味，所以…今天要来点甜点吗，指挥官？",
+						"chineseTL": "Laffey said it's necessary to change up flavours, so...how about some dessert today, Commander?",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
 					},
-					"6" : {
-						"event" : "Main 2",
-						"media" : "main_2_5",
-						"chinese" : "标枪无论做什么的时候都好有精神，有点羡慕…的说",
-						"chineseTL" : "Javelin is always energetic no matter what she's doing.. I'm a little envious.. Desu.",
-						"chineseNote" : "",
-						"japanese" : "",
-						"japaneseTL" : "",
-						"japaneseNote" : "",
-						"english" : "",
-						"englishNote" : ""
+					"6": {
+						"event": "Main 2",
+						"media": "main_2_5",
+						"chinese": "标枪无论做什么的时候都好有精神，有点羡慕…的说",
+						"chineseTL": "Javelin is always energetic no matter what she's doing.. I'm a little envious.. Desu.",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
 					},
-					"7" : {
-						"event" : "Main 3",
-						"media" : "main_3_5",
-						"chinese" : "服务生的工作…果然没有想象中的那么简单…的说",
-						"chineseTL" : "Like I thought, waitressing isn't easy... desu.",
-						"chineseNote" : "",
-						"japanese" : "",
-						"japaneseTL" : "",
-						"japaneseNote" : "",
-						"english" : "",
-						"englishNote" : ""
+					"7": {
+						"event": "Main 3",
+						"media": "main_3_5",
+						"chinese": "服务生的工作…果然没有想象中的那么简单…的说",
+						"chineseTL": "Like I thought, waitressing isn't easy... desu.",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
 					},
-					"8" : {
-						"event" : "Touch",
-						"media" : "touch_1_5",
-						"chinese" : "餐盘要像这样端…的说？——指挥官想要帮绫波？没关系的，还是让绫波自己来吧",
-						"chineseTL" : "The plates should be like this... Desu? Commander wishes to help Ayanami? It's okay, Ayanami can handle it herself.",
-						"chineseNote" : "",
-						"japanese" : "",
-						"japaneseTL" : "",
-						"japaneseNote" : "",
-						"english" : "",
-						"englishNote" : ""
+					"8": {
+						"event": "Touch",
+						"media": "touch_1_5",
+						"chinese": "餐盘要像这样端…的说？——指挥官想要帮绫波？没关系的，还是让绫波自己来吧",
+						"chineseTL": "The plates should be like this... Desu? Commander wishes to help Ayanami? It's okay, Ayanami can handle it herself.",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
 					},
-					"9" : {
-						"event" : "Return to Port",
-						"media" : "home_5",
-						"chinese" : "要来一份庆祝胜利回港的特别套餐吗…？",
-						"chineseTL" : "Do you want a special celebratory return to port set meal?",
-						"chineseNote" : "",
-						"japanese" : "",
-						"japaneseTL" : "",
-						"japaneseNote" : "",
-						"english" : "",
-						"englishNote" : ""
+					"9": {
+						"event": "Return to Port",
+						"media": "home_5",
+						"chinese": "要来一份庆祝胜利回港的特别套餐吗…？",
+						"chineseTL": "Do you want a special celebratory return to port set meal?",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
 					},
-					"10" : {
-						"event" : "Affinity (Love)",
-						"media" : "feeling5_5",
-						"chinese" : "等店里忙完以后，想要和指挥官一起…绫波会给指挥官准备，在店里学会的，特别料理套餐…的说，指挥官，可以吗？",
-						"chineseTL" : "Once rush hour is over, Ayanami wants to prepare a special meal she learnt from the shop with Commander. Commander, can we?",
-						"chineseNote" : "",
-						"japanese" : "",
-						"japaneseTL" : "",
-						"japaneseNote" : "",
-						"english" : "",
-						"englishNote" : ""
+					"10": {
+						"event": "Affinity (Love)",
+						"media": "feeling5_5",
+						"chinese": "等店里忙完以后，想要和指挥官一起…绫波会给指挥官准备，在店里学会的，特别料理套餐…的说，指挥官，可以吗？",
+						"chineseTL": "Once rush hour is over, Ayanami wants to prepare a special meal she learnt from the shop with Commander. Commander, can we?",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
 					}
 				}
 			},
 			"7": {
-				"skin_id": "lingbo_h",
+				"skin_id": "lingbo_7",
+				"id": "7",
+				"label": "おませアイドル・困惑中",
+				"dialogue": {
+					"1": {
+						"event": "Ship Description",
+						"media": "",
+						"chinese": "偶像，绫波，出道？唔，因为标枪她们也出道了，所以，我也要一起……指挥官，偶像平时，都做些什么呢？",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "鬼神アイドル綾波、デビューです。ジャベリンたちも頑張ってるから、綾波も……指揮官、アイドルって何をすればいいです？",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"2": {
+						"event": "Acquisition",
+						"media": "get_7",
+						"chinese": "偶像，绫波，出道？唔，因为标枪她们也出道了，所以，我也要一起……指挥官，偶像平时，都做些什么呢？",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "鬼神アイドル綾波、デビューです。ジャベリンたちも頑張ってるから、綾波も……指揮官、アイドルって何をすればいいです？",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"3": {
+						"event": "Login",
+						"media": "login_7",
+						"chinese": "指挥官，我正在练习跳舞，要看吗？",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "指揮官、綾波のダンス練習を見学するです？",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"4": {
+						"event": "Details",
+						"media": "detail_7",
+						"chinese": "Z23，很关心大家……明明自己也有活动，还会帮大家做日程安排，很可靠",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "ニーミ、みんなの面倒をよく見てくれるです。……自分のオファーもあるのに、みんなのスケジュールまで組んでくれて…頼もしい、です",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"5": {
+						"event": "Main 1",
+						"media": "main_1_7",
+						"chinese": "舞蹈和唱歌我都会，露出笑容，好难…但是，标枪说，这也是我的“萌点”，是真的吗，指挥官？",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "歌も踊りも楽勝です。笑顔は…難しいです。ジャベリン、綾波の萌えポイントだと言ってたですけど、指揮官、本当ですか？",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"6": {
+						"event": "Main 2",
+						"media": "main_2_7",
+						"chinese": "Z23说，偶像和摇滚可能不是很搭，唔，这样的话，可爱金属？",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "ニーミ、このユニットの芸風はロックとちょっと合わないと言ったです。カワイイメタルのほうがいいです？",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"7": {
+						"event": "Main 3",
+						"media": "main_3_7",
+						"chinese": "吹雪好像也在做偶像练习。一会…去看看她好了",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "吹雪もアイドルの練習やってるらしい、です。あとで見に行くです",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"8": {
+						"event": "Main 4",
+						"media": "main_4_7",
+						"chinese": "原来，当偶像每天有那么多的事情要做，感觉，燃起了斗志",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "スケジュールがいっぱいです。綾波、やる気出てきたです",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"9": {
+						"event": "Touch",
+						"media": "touch_1_7",
+						"chinese": "指挥官，这里是绫波今天训练的成果",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "指揮官、綾波の今日のレッスンの成果です",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"10": {
+						"event": "Return to Port",
+						"media": "home_7",
+						"chinese": "把演出看作战斗，观众是敌人的话……唔，好像不行",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "ライブは戦い、観客は敵……と見てはだめです",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"11": {
+						"event": "Commission Complete",
+						"media": "expedition_7",
+						"chinese": "训练与委托…无论何时都不能懈怠…",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"12": {
+						"event": "Flagship",
+						"media": "warcry_7",
+						"chinese": "偶像的职责，是保护大家的笑容！",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "アイドルは、みんなの笑顔を守るものです！",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"13": {
+						"event": "Victory",
+						"media": "mvp_7",
+						"chinese": "胜利的pose，yeah",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "勝利の決めポーズ、いえーい…です",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					}
+				}
+			},
+			"8": {
+				"skin_id": "lingbo_8",
 				"id": "8",
+				"label": "Pulse of the New Year",
+				"dialogue": {
+					"1": {
+						"event": "Ship Description",
+						"media": "",
+						"chinese": "指挥官，新年快乐。新的一年，也请多多指教…的说。",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "指揮官、あけましておめでとうです。この一年も、綾波をよろしく…です",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Commander, Happy New Year's. In this coming year, please continue to look after me...",
+						"englishNote": ""
+					},
+					"2": {
+						"event": "Acquisition",
+						"media": "get_10",
+						"chinese": "指挥官，新年快乐。新的一年，也请多多指教…的说。",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "指揮官、あけましておめでとうです。この一年も、綾波をよろしく…です",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Commander, Happy New Year's. In this coming year, please continue to look after me...",
+						"englishNote": ""
+					},
+					"3": {
+						"event": "Login",
+						"media": "login_10",
+						"chinese": "节日里，大家都很开心。绫波，也很开心…",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "祝日は皆、楽しいです。もちろん、綾波も楽しい…です",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "During holidays, everyone always has lots of fun. Of course, Ayanami is also having lots of fun...",
+						"englishNote": ""
+					},
+					"4": {
+						"event": "Details",
+						"media": "detail_10",
+						"chinese": "吹雪在神社抽到了“凶”，不过，她好像不怎么在意。…我？“小吉”，有点高兴",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "吹雪、おみくじで凶が出たですけど、あまり気にしていなかったようです。綾波は…小吉、です。嬉しいです",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Fubuki seems to have drawn \"Misfortune\" at the fortune-telling shrine, but she doesn't really seem to mind... Me? \"Small blessing.\" I'm glad.",
+						"englishNote": ""
+					},
+					"5": {
+						"event": "Main 1",
+						"media": "main_1_10",
+						"chinese": "新年的衣服，很华丽，但是行动有些不便。绫波还没有完全适应…",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "お正月の衣装、とても綺麗です。でもちょっと動きづらいです…綾波、まだ慣れていないです……",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "New Year's outfits... are very pretty, but they're hard to move around in... Ayanami still isn't used to it yet... ",
+						"englishNote": ""
+					},
+					"6": {
+						"event": "Main 2",
+						"media": "main_2_10",
+						"chinese": "雪花很漂亮，但是，一落在手上，就消失不见了",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "雪の結晶、とても綺麗ですけど……手のひらに載せるとすぐ融けるです",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Snowflakes are very beautiful, but, they melt as soon as they land in your palm. ",
+						"englishNote": ""
+					},
+					"7": {
+						"event": "Main 3",
+						"media": "main_3_10",
+						"chinese": "新的一年，也希望能和指挥官，还有大家，一直在一起。",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "この一年も、指揮官とみんなと、一緒にいたいです",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "This year as well... I hope to stay together with everyone, and Commander as well. ",
+						"englishNote": ""
+					},
+					"8": {
+						"event": "Main 4",
+						"media": "main_4_10",
+						"chinese": "说到新年的话…煮年糕？指挥官，要来一份吗？还热腾腾的",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "お正月といえば…お雑煮です。ホカホカです。どうぞ召し上がって、です",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "New Year's isn't complete... without ozoni. It's piping hot. Please have some if you'd like.",
+						"englishNote": ""
+					},
+					"9": {
+						"event": "Touch",
+						"media": "touch_1_10",
+						"chinese": "绫波，不冷的说",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "綾波、別に寒くないです",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Ayanami... isn't cold.",
+						"englishNote": ""
+					},
+					"10": {
+						"event": "Touch (Special)",
+						"media": "touch_2_10",
+						"chinese": "不要把衣服弄乱了，不然绫波也不知道该怎么弄好…",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "服に変なことしちゃダメですっ、綾波、着付けがわからないです……",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Please do not mess up my clothes... Otherwise, Ayanami would not know how to fix them...",
+						"englishNote": ""
+					},
+					"11": {
+						"event": "Return to Port",
+						"media": "home_10",
+						"chinese": "新年有很多有趣的活动，绫波想都试试…的说。",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "お正月には、面白いイベントがたくさん行われるそうです。綾波はどれも試してみたいです",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "During New Year's, there are many interesting-looking events. Ayanami would like to try going to some...",
+						"englishNote": ""
+					},
+					"12": {
+						"event": "Affinity (Love)",
+						"media": "feeling5_10",
+						"chinese": "新的一年想做的事情？和指挥官还有大家在一起…不算吗？那…春天的时候，想和指挥官一起看樱花，可以吗？",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "この一年で新たにしたいこと、ですか？指揮官と皆と一緒…じゃ「したいこと」とは言えないですか？指揮官とお花見にいきたい、でもいい…ですか？",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "What I'd like to do this year? I'd like to continue being with you as well as my friends... That doesn't count? Um... in that case, I'd like to watch the petals with you during the spring? Is that better?",
+						"englishNote": ""
+					}
+				}
+			},
+			"9": {
+				"skin_id": "lingbo_h",
+				"id": "9",
 				"label": "Demon's Finest Dress ",
 				"dialogue": {
 					"1": {
@@ -1699,9 +2060,9 @@
 					}
 				}
 			},
-			"8": {
+			"10": {
 				"skin_id": "lingbo_g",
-				"id": "9",
+				"id": "10",
 				"label": "Ayanami (Retrofit) ",
 				"dialogue": {
 					"1": {

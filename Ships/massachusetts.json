@@ -11,7 +11,7 @@
 	"hull": "Battleship",
 	"navy": "Eagle Union",
 	"prefix": "USS",
-	"buildTime": "",
+	"buildTime": "05:00:00",
 	"class": "South Dakota-Class",
 	"voiceActress": "Rie Takahashi",
 	"parameters": {
@@ -28,16 +28,16 @@
 		"medal": "10"
 	},
 	"releaseDate": {
-		"JP": "",
-		"CN": "",
-		"KR": "",
-		"EN": ""
+		"JP": "July 26, 2018",
+		"CN": "July 26, 2018",
+		"KR": "March 27, 2019",
+		"EN": "June 27, 2019"
 	},
 	"artist": {
-		"name": "",
-		"weibo": "",
+		"name": "Enka",
+		"weibo": "https://weibo.com/maoqishi",
 		"twitter": "",
-		"pixiv": "",
+		"pixiv": "https://www.pixiv.net/member.php?id=3321609",
 		"other": ""
 	},
 	"enhance": {
@@ -46,32 +46,38 @@
 		"aviation": "0",
 		"reload": "11"
 	},
-	"acquisitionMethod": "イベント：光と影のアイリス",
+	"acquisitionMethod": "Event: Iris of Light and Dark",
 	"skill": {
 		"1": {
 			"icon": "11550",
-			"requirement": "",
+			"requirement": "Default Unlocked",
 			"name": "Big Mamie",
 			"type": "Offensive",
-			"description": "出击时，队友中每有一个白鹰联邦重巡或战列舰角色，自身炮击、防空、机动属性上升$1，效果最多叠加3层"
+			"description": "For each Eagle Union CA and/or BB (excluding this ship) in your fleet: increases this ship's FP, AA, and EVA by 1.0% (5.0%). Can be stacked up to 3 times."
 		},
 		"2": {
 			"icon": "11560",
-			"requirement": "",
-			"name": "2700磅的正义",
+			"requirement": "Default Unlocked",
+			"name": "2,700 Pounds of Justice",
 			"type": "Offensive",
-			"description": "主炮的弹药种类改为穿甲超重弹，命中目标时，根据飞行距离提高炮弹伤害，最高提高$1"
+			"description": "This ship's Main Gun attribute is changed to Super-Heavy Shell. The DMG of the shells increases based on their distance traveled, up to a maximum of 15.0% (30.0%)."
 		}
 	},
 	"skin": {
 		"1": {
 			"id": "masazhusai",
-			"name": "マサチューセッツ",
-			"description": "サウスダコタ型戦艦マサチューセッツ（BB-59）",
+			"name": "Massachusetts ",
+			"description": "South Dakota-class battleship – Massachusetts, Hull Number BB-59. ",
 			"expression": {
 				"0": {
 					"id": "0"
-				}
+				},
+				"1": {
+					"id": "1"
+				},
+				"2": {
+					"id": "2"
+				}			
 			}
 		}
 	},
@@ -180,9 +186,9 @@
 		}
 	},
 	"limitBreak": {
-		"tier1": "主砲砲座+1/主砲補正+5%",
-		"tier2": "副砲砲座+2/主砲補正+10%",
-		"tier3": "主砲砲座+1/主砲補正+15%"
+		"tier1": "Main gun base +1/Main gun efficiency +5%",
+		"tier2": "Auxiliary gun base +2/Main gun efficiency +10%",
+		"tier3": "Main gun base +1/Main gun efficiency +15%"
 	},
 	"equipmentLoadout": {
 		"1": {
@@ -233,9 +239,9 @@
 			"EN": ""
 		},
 		"limited": {
-			"JP": "",
-			"CN": "",
-			"EN": ""
+			"JP": "✓",
+			"CN": "✓",
+			"EN": "✓"
 		}
 	},
 	"drop": {
@@ -262,7 +268,7 @@
 			"1": {
 				"skin_id": "masazhusai",
 				"id": "0",
-				"label": "マサチューセッツ",
+				"label": "Massachusetts ",
 				"dialogue": {
 					"1": {
 						"event": "Ship Description",
@@ -273,7 +279,7 @@
 						"japanese": "サウスダコタ型戦艦マサチューセッツ（BB-59）",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "South Dakota-class battleship – Massachusetts, Hull Number BB-59.",
 						"englishNote": ""
 					},
 					"2": {
@@ -285,7 +291,7 @@
 						"japanese": "ぼくは同型艦の中では普通、かな。バトルスターは11個で、サウスダコタより少ない。僕はあまり怪我をしたことがないって？ちゃんとした相手が、いなかったからね……あの時の姉と同じように、全力で戦ってみたいな",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "I guess I'm the most normal ship in my class. I earned 11 battle stars, which is less than South Dakota did. \"I hardly suffered any damage\"? That's cause I never fought anyone strong enough... Here's hoping that I'll get to fight as hard as my sister did back then.",
 						"englishNote": ""
 					},
 					"3": {
@@ -297,7 +303,7 @@
 						"japanese": "うん？あ……ぼくの番ね。ぼくはマサチューセッツ、いつでもどこでもみかけられる普通のサウスダコタ級……えっと、はい、とにかく仲良く…しよ？",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Hm? Ah... my turn to speak. I'm Massachusetts. I'm just a regular old South Dakota-class you can find anywhere... So, yeah, I hope we can... get along.",
 						"englishNote": ""
 					},
 					"4": {
@@ -309,7 +315,7 @@
 						"japanese": "お昼は……あ、指揮官、今からお散歩？",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "For lunch, I'll make... Oh, Commander, are you going for a stroll?",
 						"englishNote": ""
 					},
 					"5": {
@@ -321,7 +327,7 @@
 						"japanese": "見終わったら、言って",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Tell me when you're done inspecting.",
 						"englishNote": ""
 					},
 					"6": {
@@ -333,7 +339,7 @@
 						"japanese": "……実はこの髪の色、気にいっているんだ。ハクトウワシと似ていると思わない？",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "... You know, I actually like this hair color. It's like that of a bald eagle, isn't it?",
 						"englishNote": ""
 					},
 					"7": {
@@ -345,7 +351,7 @@
 						"japanese": "この服、ヘン？でも航行時、潮風を直接肌に当てられる……気持ちいいよ",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "You think my jacket is strange? This way I can feel the breeze hit my skin when out at sea, though... I love it.",
 						"englishNote": ""
 					},
 					"8": {
@@ -357,7 +363,7 @@
 						"japanese": "印象深い相手？えっと……カサブランカのとき、主砲が一門しかないのに結構持ちこたえてた戦艦が……あの子が万全の状態でもう一度戦いたいな",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "People that impressed me? Umm... when I was in Casablanca, I fought a battleship who held out a long time even with just a single turret... I'd like to fight her again in her finished state.",
 						"englishNote": ""
 					},
 					"9": {
@@ -369,7 +375,7 @@
 						"japanese": "指揮官は甘えたい？……ぼくに？",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "You want someone to pamper you? ... You want ME to?",
 						"englishNote": ""
 					},
 					"10": {
@@ -381,7 +387,7 @@
 						"japanese": "……体を動かせば、変な考えも少なくなるよ",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "... If you'd move your body more, you'd have fewer weird thoughts.",
 						"englishNote": ""
 					},
 					"11": {
@@ -393,7 +399,7 @@
 						"japanese": "任務、多いな……",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "So many missions waiting on us...",
 						"englishNote": ""
 					},
 					"12": {
@@ -405,7 +411,7 @@
 						"japanese": "あ、報酬が来た……夕食はお肉食べられそう？",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Ah, the rewards have arrived... Seems we can afford beef for dinner tonight.",
 						"englishNote": ""
 					},
 					"13": {
@@ -417,7 +423,7 @@
 						"japanese": "お手紙、ここに置いといた。あとで読んで",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "I'll leave your letter here. Check it later.",
 						"englishNote": ""
 					},
 					"14": {
@@ -429,7 +435,7 @@
 						"japanese": "戻ったか。……怪我はないか？いじめられたら、ぼくに相談して",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "You're back... Did you get hurt? If anyone pokes fun at you, we can talk about it.",
 						"englishNote": ""
 					},
 					"15": {
@@ -441,7 +447,7 @@
 						"japanese": "……お。いっぱい持ち帰ってる。手伝ってくる",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "... Oh, look. They've brought so much back. I'll go help them out.",
 						"englishNote": ""
 					},
 					"16": {
@@ -453,7 +459,7 @@
 						"japanese": "少し、変わった……",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "I feel a bit different...",
 						"englishNote": ""
 					},
 					"17": {
@@ -465,7 +471,7 @@
 						"japanese": "結構丈夫だよね？殴られても泣かないよね？",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Pretty tough, aren't you? You won't cry if I hit you, will you?",
 						"englishNote": ""
 					},
 					"18": {
@@ -477,7 +483,7 @@
 						"japanese": "もう、終わり？ヒートアップしてきたばかりなのに……ほかに敵、いない？",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "It's over already? But I was just warming up... Aren't there any other enemies left?",
 						"englishNote": ""
 					},
 					"19": {
@@ -489,7 +495,7 @@
 						"japanese": "ごめん、よそ見してた…",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Sorry, I got distracted...",
 						"englishNote": ""
 					},
 					"20": {
@@ -501,7 +507,7 @@
 						"japanese": "この一発は重いよ",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "This one's really heavy.",
 						"englishNote": ""
 					},
 					"21": {
@@ -513,7 +519,7 @@
 						"japanese": "……本気にさせたいのか",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "... So you want me to get serious?",
 						"englishNote": ""
 					},
 					"22": {
@@ -525,7 +531,7 @@
 						"japanese": "指揮官の体、少し弱い。ちゃんと食べてるか？",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Your body is weak, Commander. Are you eating properly?",
 						"englishNote": ""
 					},
 					"23": {
@@ -537,7 +543,7 @@
 						"japanese": "強くなる方法？えっと、腕立て伏せ……ダメだった？",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "How to get stronger? Uhh, do some push-ups? ... Not working for you?",
 						"englishNote": ""
 					},
 					"24": {
@@ -549,7 +555,7 @@
 						"japanese": "自分のできないことに挑み続ける指揮官……面白そう。ぼくも自分の限界を試してみたくなっているね",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Seeing you challenging yourself with things you can't do is... interesting. It makes me want to explore my own limits, too.",
 						"englishNote": ""
 					},
 					"25": {
@@ -561,7 +567,7 @@
 						"japanese": "指揮官が必死に頑張っている姿、かっこいいけど……無理しすぎは良くない。強引にでもサボらせるね",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "I like how cool you look when you're pushing yourself hard... but overdoing it isn't good. I'll force you to rest if I have to.",
 						"englishNote": ""
 					},
 					"26": {
@@ -573,7 +579,7 @@
 						"japanese": "ぼくに望みなどない。でも、望みを叶える力ならある。指揮官、いつか、ぼくに叶えてほしい望み、ある？",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "I don't have any dreams. But I have the power to grant them. Commander, do you have a dream for me to grant one day?",
 						"englishNote": ""
 					},
 					"27": {
@@ -585,7 +591,7 @@
 						"japanese": "ええと、うん……指揮官の言いたいこと、やりたいこと、わかっている。……ぼくも、指揮官のことが大好きだから",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Umm, yeah... I already know what you want to do and want to say... Because I love you too, Commander.",
 						"englishNote": ""
 					},
 					"28": {
@@ -597,7 +603,7 @@
 						"japanese": "今のあなたは……いいね。これでいい",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "The way you are now... I like it. This is good.",
 						"englishNote": ""
 					},
 					"29": {
@@ -607,6 +613,42 @@
 						"chineseTL": "",
 						"chineseNote": "",
 						"japanese": "姉貴の防御力、羨ましい……",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "I envy your defense, sis...",
+						"englishNote": ""
+					},
+					"30": {
+						"event": "Like Present",
+						"media": "present_like",
+						"chinese": "",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"31": {
+						"event": "Dislike Present",
+						"media": "present_dislike",
+						"chinese": "",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"32": {
+						"event": "Main Title",
+						"media": "extra",
+						"chinese": "",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
 						"japaneseTL": "",
 						"japaneseNote": "",
 						"english": "",
@@ -627,6 +669,6 @@
 		"add_level_value": "2",
 		"add_level_shiptype": "Battlecruiser,Battleship,Aviation Battleship",
 		"t_level": "7",
-		"ships": "south_dakota,massachusetts"
+		"ships": "south_dakota,massachusetts,alabama"
 	}
 }

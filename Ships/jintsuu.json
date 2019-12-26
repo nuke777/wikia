@@ -11,7 +11,7 @@
 	"hull": "Light Cruiser",
 	"navy": "Sakura Empire",
 	"prefix": "IJN",
-	"buildTime": "",
+	"buildTime": "N/A",
 	"class": "Sendai-Class",
 	"voiceActress": "Hisako Kanemoto",
 	"parameters": {
@@ -34,10 +34,10 @@
 		"EN": ""
 	},
 	"artist": {
-		"name": "",
-		"weibo": "",
+		"name": "卑しい人间",
+		"weibo": "https://weibo.com/u/1847715713",
 		"twitter": "",
-		"pixiv": "",
+		"pixiv": "https://www.pixiv.net/member.php?id=1584611",
 		"other": ""
 	},
 	"enhance": {
@@ -50,21 +50,21 @@
 	"skill": {
 		"1": {
 			"icon": "10870",
-			"requirement": "",
+			"requirement": "Default Unlocked",
 			"name": "2nd Torpedo Squadron",
 			"type": "Support",
-			"description": "While this ship is afloat: increases the TRP and RLD of all friendly CLs and DDs by $1."
+			"description": "While this ship is afloat: increases the TRP and RLD of all friendly CLs and DDs by 5.0%(20.0%)."
 		},
 		"2": {
 			"icon": "10890",
-			"requirement": "",
+			"requirement": "Default Unlocked",
 			"name": "The Unyielding Jintsuu",
 			"type": "Support",
-			"description": "Reduce own DMG received by 20.0%. In addition, increase Destroyers' and Light Cruisers' Torpedo Crit Rate by $1$2. "
+			"description": "Reduce own DMG received by 20.0%. In addition, increase Destroyers' and Light Cruisers' Torpedo Crit Rate by 4.0%(10.0%) Starting at Lv. 5, also increases their Torpedo Crit DMG by 5.0%(30.0%). "
 		},
 		"3": {
 			"icon": "22131",
-			"requirement": "",
+			"requirement": "Limit Break I(III)",
 			"name": "All Out Assault Ⅰ",
 			"type": "Offensive",
 			"description": "Activate All Out Assault Ⅰ: Sendai Class once every 12 times the main gun is fired."
@@ -275,17 +275,29 @@
 		}
 	},
 	"drop": {
-		"droppable": "false",
+		"droppable": "true",
 		"list": {
 			"1": {
 				"event": "",
 				"chapter": {
 					"1": {
-						"label": "Ch .1",
+						"label": "Ch.10",
 						"node": {
 							"1": {
-								"drop": "✓",
+								"drop": "-",
 								"note": "-"
+							},
+							"2": {
+								"drop": "-",
+								"note": "-"
+							},
+							"3": {
+								"drop": "-",
+								"note": "-"
+							},
+							"4": {
+								"drop": "✓",
+								"note": "Boss Only"
 							}
 						}
 					}
@@ -611,6 +623,42 @@
 						"japaneseNote": "",
 						"english": "Deciding on the best course of action before acting cautiously has always been my creed. I can now say with confidence that choosing you, Commander, was the correct decision.",
 						"englishNote": ""
+					},
+					"27": {
+						"event": "Like Present",
+						"media": "present_like",
+						"chinese": "",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"28": {
+						"event": "Dislike Present",
+						"media": "present_dislike",
+						"chinese": "",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"29": {
+						"event": "Main Title",
+						"media": "extra",
+						"chinese": "",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
 					}
 				}
 			},
@@ -628,7 +676,115 @@
 						"japanese": "…あら、意外って仰るのですね。うふふ、いくら私でも頭脳の休息は必要ありましょう。指揮官も気分転換にお出かけになってはいかがかしら？",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "Hmm? Is it unusual? Hah. Even I require a change of pace to clear my mind every so often. Commander, why don’t you come out and get some fresh air as well?",
+						"english": "Hmm? Is it unusual? Hah. Even I require a change of pace to clear my mind every so often. Commander, why don't you come out and get some fresh air as well?",
+						"englishNote": ""
+					},
+					"2": {
+						"event": "Acquisition",
+						"media": "get_1",
+						"chinese": "…嗯？意外吗？呵呵，偶尔放松一下大脑对我来说也是很有必要的呢，指挥官，你也出来透透气如何？",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "…あら、意外って仰るのですね。うふふ、いくら私でも頭脳の休息は必要ありましょう。指揮官も気分転換にお出かけになってはいかがかしら？",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Hmm? Is it unusual? Hah. Even I require a change of pace to clear my mind every so often. Commander, why don't you come out and get some fresh air as well?",
+						"englishNote": ""
+					},
+					"3": {
+						"event": "Login",
+						"media": "login_1",
+						"chinese": "今天的工作完成后去沙滩放松一下吗？",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "今日の執務が終わりましたら、砂浜で気分転換でもなさってはいかがかしら？",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "After we finish work today, how about taking a break on the beach?",
+						"englishNote": ""
+					},
+					"4": {
+						"event": "Details",
+						"media": "detail_1",
+						"chinese": "说是放松，其实在海边也都在想舰队的事务就是了……我也真是劳碌命呢",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "リラックスと言っても、こうして砂浜で艦隊のことを思案しているわけです。……少し働きすぎなのかしら",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "I said I was taking a vacation, but even out here on the beach, I'm still thinking about the affairs of the fleet... I really am a workaholic, aren't I?",
+						"englishNote": ""
+					},
+					"5": {
+						"event": "Main 1",
+						"media": "main_1_1",
+						"chinese": "太放松固然会懈怠，一直绷紧神经也只会让自己喘不过气来哦",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "気を抜きすぎては怠けますが、気を張りすぎても息が詰まってしまうのでしょう",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "If you relax too much, you'll become undisciplined. If you're too uptight, you'll only find yourself out of breath. ",
+						"englishNote": ""
+					},
+					"6": {
+						"event": "Main 2",
+						"media": "main_2_1",
+						"chinese": "每年到穿泳装就会很羡慕川内…指挥官，我看起来没有太缺乏运动…吧？",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "水着の季節が来るたびに川内のことが羨ましすぎて仕方ありません。…指揮官、私運動不足に見えるかしら…ね？",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Every year when it is swimsuit season, I can't help but to be envious of Sendai... Commander, I'm not being negligent in my exercise, am I? ",
+						"englishNote": ""
+					},
+					"7": {
+						"event": "Main 3",
+						"media": "main_3_1",
+						"chinese": "指挥官，心思飘到沙滩去了吧，都写在脸上了哦？",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "指揮官――うふふ♪砂浜に想いを馳せ、心ここにあらず………ええ、まあ、顔に出ていますよ",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Commander, your mind has wandered off onto the beach, hasn't it? It’s written all over your face.",
+						"englishNote": ""
+					},
+					"8": {
+						"event": "Touch",
+						"media": "touch_1_1",
+						"chinese": "指挥官果然也很在意吧？换上泳装后，尾巴就变得特别显眼呢…",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "指揮官もやはり気になるのですね。水着に着替えると尻尾が目立つことが……",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Commander, you're concerned about it too, right? My tail is so conspicuous in this swimsuit...",
+						"englishNote": ""
+					},
+					"9": {
+						"event": "Touch (Special)",
+						"media": "touch_2_1",
+						"chinese": "泳装让您无法静下心工作了吗？呵呵，请把这当做某种考验吧",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "水着姿が執務に障るのですか？そうね……これは指揮官への試練と受け取っていただいてもよろしいかしら。うふふ",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "You can't concentrate on your work when I'm wearing a swimsuit, right? Hehe, just consider this a test of will then.",
+						"englishNote": ""
+					},
+					"10": {
+						"event": "Return to Port",
+						"media": "home_1",
+						"chinese": "冰镇椰子汁，请用",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "冷やしたココナッツミルクです。どうぞ",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Here, iced coconut water. Please have some.",
 						"englishNote": ""
 					}
 				}

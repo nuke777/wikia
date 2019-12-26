@@ -68,7 +68,7 @@ class CommentedShipDisplay extends HTMLElement{
 
 		template(){
 			return html`
-			<div style="float:left;margin:10px 0px 0px 10px;" id="${this.parentID}">
+			<div style="display:inline-block;vertical-align:top;margin:10px 0px 0px 10px;" id="${this.parentID}">
 					<div style="border-radius: 10px;border: 3px double #ffffff;background: #24252d;width: 108px;height: 220px; position: relative">
 						<div style="width: 36px;height: 27px;float:left;text-align:center;color:white;padding-top:6px;font-size:13px;">
 							<img src="${this.shipHull}" style="padding-left:3px;width:33px;height:auto;">
@@ -162,6 +162,8 @@ class CommentedShipDisplay extends HTMLElement{
 						self.shipNavy = "../Images/Navy/ijn_icon.png";
 					} else if (actual_JSON.navy == "Royal Navy") {
 						self.shipNavy = "../Images/Navy/hms_icon.png";
+					} else if (actual_JSON.navy == "Sardegna Empire") {
+						self.shipNavy = "../Images/Navy/rn_icon.png";
 					} else if (actual_JSON.navy == "Ironblood") {
 						self.shipNavy = "../Images/Navy/kms_icon.png";
 					} else if (actual_JSON.navy == "Dragon Empery" || actual_JSON.navy == "Dragon Empire" || actual_JSON.navy == "Eastern Radiance") {
@@ -179,6 +181,8 @@ class CommentedShipDisplay extends HTMLElement{
 					} else if (actual_JSON.navy == "Utawarerumono") {
 						self.shipNavy = "../Images/Navy/uwrr_icon.png";
 					} else if (actual_JSON.navy == "KizunaAI") {
+						self.shipNavy = "../Images/Navy/uwrr_icon.png";
+					} else if (actual_JSON.navy == "Hololive") {
 						self.shipNavy = "../Images/Navy/uwrr_icon.png";
 					} else if (actual_JSON.navy == "Bilibili") {
 						self.shipNavy = "../Images/Navy/bili_icon.png";

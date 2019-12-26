@@ -11,7 +11,7 @@
 	"hull": "Destroyer",
 	"navy": "Sakura Empire",
 	"prefix": "IJN",
-	"buildTime": "",
+	"buildTime": "00:25:00",
 	"class": "Hatsuharu-Class",
 	"voiceActress": "Minami Tanaka",
 	"parameters": {
@@ -34,10 +34,10 @@
 		"EN": ""
 	},
 	"artist": {
-		"name": "",
-		"weibo": "",
-		"twitter": "",
-		"pixiv": "",
+		"name": "ALLENES",
+		"weibo": "https://weibo.com/u/3818062182",
+		"twitter": "https://twitter.com/CN_ALLENES",
+		"pixiv": "https://www.pixiv.net/member.php?id=8217405",
 		"other": ""
 	},
 	"enhance": {
@@ -50,14 +50,14 @@
 	"skill": {
 		"1": {
 			"icon": "2051",
-			"requirement": "",
+			"requirement": "Default Unlocked",
 			"name": "Double Torpedo",
 			"type": "Offensive",
-			"description": "When this ship fires its Torpedoes: $1 chance to launch a second wave of Torpedoes."
+			"description": "When this ship fires its Torpedoes: 15.0%(30.0%) chance to launch a second wave of Torpedoes."
 		},
 		"2": {
 			"icon": "22041",
-			"requirement": "",
+			"requirement": "Limit Break I (III)",
 			"name": "All Out Assault Ⅰ",
 			"type": "Offensive",
 			"description": "Activate All Out Assault Ⅰ: Hatsuharu Class once every 15 times the main gun is fired."
@@ -71,6 +71,25 @@
 			"expression": {
 				"0": {
 					"id": "0"
+				}
+			}
+		},
+		"2": {
+			"id": "ruoye_2",
+			"name": "Holiday Special Wakaba!",
+			"description": "Yaho~ Good morning, Commander! For a limited time only, Wakaba Claus will be delivering Christmas presents! Huh? My bag? Aaahhh! C-Commander, help me pick everything up!",
+			"expression": {
+				"0": {
+					"id": "0"
+				},
+				"1": {
+					"id": "1"
+				},
+				"2": {
+					"id": "2"
+				},
+				"3": {
+					"id": "3"
 				}
 			}
 		}
@@ -218,9 +237,9 @@
 	},
 	"build": {
 		"light": {
-			"JP": "",
-			"CN": "",
-			"EN": ""
+			"JP": "✓",
+			"CN": "✓",
+			"EN": "✓"
 		},
 		"heavy": {
 			"JP": "",
@@ -586,6 +605,121 @@
 						"japaneseTL": "",
 						"japaneseNote": "",
 						"english": "You can do it, Hatsuharu!",
+						"englishNote": ""
+					}
+				}
+			},
+			"2": {
+				"skin_id": "ruoye_2",
+				"id": "1",
+				"label": "Holiday Special Wakaba!",
+				"dialogue": {
+					"1": {
+						"event": "Ship Description",
+						"media": "",
+						"chinese": "呀吼~早上好，指挥官！这里是正在配送圣诞礼物的限时圣诞老人若叶！欸？袋子？啊哇哇哇，指、指挥官快帮我捡一下！——",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Yaho~ Good morning, Commander! For a limited time only, Wakaba Claus will be delivering Christmas presents! Huh? My bag? Aaahhh! C-Commander, help me pick everything up!",
+						"englishNote": ""
+					},
+					"2": {
+						"event": "Acquisition",
+						"media": "get_1",
+						"chinese": "呀吼~早上好，指挥官！这里是正在配送圣诞礼物的限时圣诞老人若叶！欸？袋子？啊哇哇哇，指、指挥官快帮我捡一下！——",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"3": {
+						"event": "Login",
+						"media": "login_1",
+						"chinese": "指挥官，早上好……能帮我找找掉了的圣诞礼物吗？不知道怎么的少了一个呜呜……",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"4": {
+						"event": "Details",
+						"media": "detail_1",
+						"chinese": "就算是忙着派送礼物，也不能忽略了尾巴的护理呢~",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"5": {
+						"event": "Main 1",
+						"media": "main_1_1",
+						"chinese": "冬天也是不错的季节呢，毕竟马上就要春天了嘛，嘿嘿~",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "nil",
+						"englishNote": ""
+					},
+					"6": {
+						"event": "Main 2",
+						"media": "main_2_1",
+						"chinese": "圣诞的若叶耳朵还是一样灵敏！嘿嘿，指挥官，要不要帮你打听下谁都想要什么样的礼物呀？",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "nil",
+						"englishNote": ""
+					},
+					"7": {
+						"event": "Main 3",
+						"media": "main_3_1",
+						"chinese": "难得的节日，特别让指挥官摸摸尾巴也不是不行哦？",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "nil",
+						"englishNote": ""
+					},
+					"8": {
+						"event": "Touch",
+						"media": "touch_1_1",
+						"chinese": "指挥官，工作要专心哦，我也要专心送圣诞礼物去啦——",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"9": {
+						"event": "Touch (Special)",
+						"media": "touch_2_1",
+						"chinese": "啊，不可以趁机捋我尾巴啦！",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
 						"englishNote": ""
 					}
 				}

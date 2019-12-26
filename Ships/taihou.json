@@ -12,7 +12,7 @@
 	"navy": "Sakura Empire",
 	"prefix": "IJN",
 	"buildTime": "04:45:00",
-	"class": "大鳳",
+	"class": "Taihou",
 	"voiceActress": "Aoi Yuuki",
 	"parameters": {
 		"firepower": "E",
@@ -31,7 +31,7 @@
 		"JP": "September 14, 2018",
 		"CN": "September 14, 2018",
 		"KR": "September 14, 2018",
-		"EN": ""
+		"EN": "August 15, 2019"
 	},
 	"artist": {
 		"name": "云桑",
@@ -46,28 +46,28 @@
 		"aviation": "63",
 		"reload": "8"
 	},
-	"acquisitionMethod": "Limited Build, First Anniversary",
+	"acquisitionMethod": "Time-Limited Build",
 	"skill": {
 		"1": {
 			"icon": "11620",
 			"requirement": "Default Unlocked",
-			"name": "Dice of Destiny",
+			"name": "Predestined Launch",
 			"type": "Offensive",
-			"description": "Every time own airstrike finishes loading, 20% (40%) chance to launch an attack with Ryuusei, Suisei, and/or Saiun squadrons (the squadrons are independent variables of each other). Saiun squadron does not carry any ammunition and increases main fleet's damage by 10% for 8 seconds upon activation."
+			"description": "When this ship's Airstrike has finished loading: 20.0%(40.0%) chance to launch an additional Ryuusei, Suisei, or Saiun airstrike. Each proc chance is independent of the others. (The Saiuns will not attack, but they will increase your Main Fleet's DMG by 10.0% for 8s when launched.)"
 		},
 		"2": {
 			"icon": "11630",
 			"requirement": "Default Unlocked",
-			"name": "Sakura Armored Carrier",
+			"name": "Heavily Armored",
 			"type": "Defensive",
-			"description": "Reduce high explosive damage by 5% (20%) (only applies to self) and reduce aviation damage received by 5% (20%) (only applies to self)."
+			"description": "Decreases the DMG this ship takes from enemy Airstrikes and HE ammo by 5.0%(20.0%)."
 		}
 	},
 	"skin": {
 		"1": {
 			"id": "dafeng",
-			"name": "大鳳",
-			"description": "大鳳型航空母艦・大鳳",
+			"name": "Taihou ",
+			"description": "Taihou-class aircraft carrier – Taihou. ",
 			"expression": {
 				"0": {
 					"id": "0"
@@ -91,8 +91,8 @@
 		},
 		"2": {
 			"id": "dafeng_2",
-			"name": "禁断の宴",
-			"description": "指揮官様、着替えるのにそんなに掛かって、大鳳に合う服を選ぶのに苦労したんですか…？ふふ、指揮官がどんな格好でも、大鳳はお慕いしますよ♡",
+			"name": "Forbidden Fruit",
+			"description": "You're taking so long to dress yourself, my Commander. Are you struggling to find something to match my dress? Hehe, it doesn't matter what you wear, you're always perfect to me♡",
 			"expression": {
 				"0": {
 					"id": "0"
@@ -204,9 +204,9 @@
 		}
 	},
 	"limitBreak": {
-		"tier1": "Number of Dive Bombers +1 / Dive Bomber Efficiency +5%",
-		"tier2": "Hanger Capacity +1 / Number of Torpedo Bombers +1 / Fighter Efficiency +10%",
-		"tier3": "Number of All Planes +1 / Torpedo Bombers Efficiency +15%"
+		"tier1": "All Dive Bombers +1/Dive Bomber efficiency +5%",
+		"tier2": "Hangar capacity +1/All Torpedo Bombers +1/Fighter efficiency +10%",
+		"tier3": "All aircraft +1/Torpedo Bomber efficiency +15%"
 	},
 	"equipmentLoadout": {
 		"1": {
@@ -286,7 +286,7 @@
 			"1": {
 				"skin_id": "dafeng",
 				"id": "0",
-				"label": "大鳳",
+				"label": "Taihou ",
 				"dialogue": {
 					"1": {
 						"event": "Ship Description",
@@ -297,7 +297,7 @@
 						"japanese": "大鳳型航空母艦・大鳳",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Taihou-class aircraft carrier – Taihou.",
 						"englishNote": ""
 					},
 					"2": {
@@ -309,7 +309,7 @@
 						"japanese": "装甲を強化された最新型空母ですわ。この飛行甲板、そしてこの閉鎖式の格納庫、すごくいいと思いません？ん？搭載数と消防システム？そんなのどうでもいいの……それより、大鳳のこの体は……どぉ？ ",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "I'm a state-of-the-art aircraft carrier with extra reinforced armor. Just look at my flight deck and enclosed hangar. Amazing, aren't they? Hmm? What's this about carrying capacity and firefighting systems? Never mind that... Tell me, what do you think of my... body?",
 						"englishNote": ""
 					},
 					"3": {
@@ -321,7 +321,7 @@
 						"japanese": "この火照り、そしてこのときめき……やっと会えましたわ、指揮官様！大鳳、不束者ですが、よろしくお願いします♡",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "This heat, and this throbbing... We meet at last, my dear Commander! I am Taihou, unworthy as I am, at your service♡",
 						"englishNote": ""
 					},
 					"4": {
@@ -333,7 +333,7 @@
 						"japanese": "大鳳と一緒にお風呂に入ります？大鳳を食べてみます？それとも～大鳳とあんなこと、シちゃいます…？うふふ ",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Would you like to take a bath with me? Maybe you'd like to taste me? Orrr~ would you like to do it with me...? Ahahaha!",
 						"englishNote": ""
 					},
 					"5": {
@@ -345,7 +345,7 @@
 						"japanese": "私の全ては、指揮官様に……",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "I belong to you, my Commander, body and soul...",
 						"englishNote": ""
 					},
 					"6": {
@@ -357,7 +357,7 @@
 						"japanese": "ふふっ、指揮官様がほしいというなら、お月様だって摘み取って見せますわ～",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Hehehe, I would pull the moon from the sky for you, if you wanted it, my Commander.",
 						"englishNote": ""
 					},
 					"7": {
@@ -369,7 +369,7 @@
 						"japanese": "指揮官様は小さいのはお好みかしら？そう、なら大きいのからを消し去ってやりますわ、うふふ……",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "You like small ones, my Commander? Then I'm off to cull the big ones, hehehe...",
 						"englishNote": ""
 					},
 					"8": {
@@ -381,7 +381,7 @@
 						"japanese": "指揮官様、大鳳にウソだけはつかないでくださいね。でないと……",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "My Commander, you know you can never EVER lie to me. Or else...",
 						"englishNote": ""
 					},
 					"9": {
@@ -393,7 +393,7 @@
 						"japanese": "もっと触ってぇ～ ",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Touch me more!",
 						"englishNote": ""
 					},
 					"10": {
@@ -405,7 +405,7 @@
 						"japanese": "他の子にこんなことをしたら、少し罰をあたえますわよ、指揮官様？",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "If you touch any other girls like this, I might have to punish you, my Commander.",
 						"englishNote": ""
 					},
 					"11": {
@@ -417,7 +417,7 @@
 						"japanese": "新しい任務～、一緒にいきましょ？ ",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "There's a new mission. Can we go?",
 						"englishNote": ""
 					},
 					"12": {
@@ -429,7 +429,7 @@
 						"japanese": "任務完了～、ご褒美もらいに行ってみます？ ",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Mission complete~ Want to go get the rewards?",
 						"englishNote": ""
 					},
 					"13": {
@@ -441,7 +441,7 @@
 						"japanese": "指揮官様、新しいメールです～毒味は大鳳がしっかり舌でしておきましたわ ",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "My Commander, you've got mail~ I licked it very tho-rough-ly. It's safe.",
 						"englishNote": ""
 					},
 					"14": {
@@ -453,7 +453,7 @@
 						"japanese": "作戦完了です！戦場での姿も素敵ですわ ",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Mission accomplished! And let me say how fantastic you looked on the battlefield.",
 						"englishNote": ""
 					},
 					"15": {
@@ -465,7 +465,7 @@
 						"japanese": "委託完了……指揮官様が命令してくださるなら大鳳は全部やってもいいのに…やはり指揮官様は大鳳のことを大切に思ってますのね ",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Commission complete... But if you ordered it, my Commander, I would clear all of them for you... I must mean so much to my Commander.",
 						"englishNote": ""
 					},
 					"16": {
@@ -477,7 +477,7 @@
 						"japanese": "うふふ、これでもっと指揮官様の役に立てるわ……",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Ahaha, now I can serve my Commander even better...",
 						"englishNote": ""
 					},
 					"17": {
@@ -489,7 +489,7 @@
 						"japanese": "指揮官様との間のすべてが全部壊れてしまえばいいのに！あははははは！ ",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "I'll tear down everything and everyone that stands between me and my Commander! AHAHAHAHA!",
 						"englishNote": ""
 					},
 					"18": {
@@ -501,7 +501,7 @@
 						"japanese": "この勝利を指揮官様に捧げるわ！",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "I dedicate this victory to my Commander!",
 						"englishNote": ""
 					},
 					"19": {
@@ -513,7 +513,7 @@
 						"japanese": "みんな死んじゃえ…死んじゃえばいいのに！！",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Why aren't you dead... why won't you all just DIE?!",
 						"englishNote": ""
 					},
 					"20": {
@@ -525,7 +525,7 @@
 						"japanese": "幸せそうに逝っちゃって、ふふふ…",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Now you can die happy, ahaha...",
 						"englishNote": ""
 					},
 					"21": {
@@ -537,7 +537,7 @@
 						"japanese": "指揮官様のために勝たなきゃ……！",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "For my Commander, I have to win...!",
 						"englishNote": ""
 					},
 					"22": {
@@ -549,7 +549,7 @@
 						"japanese": "あの害虫たち……指揮官様、ちょっと待ってて、今あのしつこく付きまとっている害虫たちを…… ",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Those insects... Just a second, my Commander, I need to do something about these impudent little insects...",
 						"englishNote": ""
 					},
 					"23": {
@@ -561,7 +561,7 @@
 						"japanese": "指揮官様のことなら、大鳳はぜんぶぜーんぶ知ってますもの～、だって大鳳の目に映るのは指揮官様だけですよぉ～ ",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "I know everything, EVERYTHING there is to know about you, my Commander~ In fact, my Commander is my entire world.",
 						"englishNote": ""
 					},
 					"24": {
@@ -573,7 +573,7 @@
 						"japanese": "ーーあの娘からの贈り物？はい、処分しましたわ。だって当たり前じゃないですか？指揮官様の机の上に置けるのは大鳳のものだけですよ～",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "... That gift she gave you? Oh, I threw that out. Why wouldn't I? Only my things belong on your desk~",
 						"englishNote": ""
 					},
 					"25": {
@@ -585,7 +585,7 @@
 						"japanese": "コート忘れました？指揮官様ったら結構忘れっぽいですね…仕方ありませんね、大鳳が取ってきてあげますーーん？部屋のカギ、ですか？うふふ、ご安心ください。大鳳はちゃんと用意してありますから ",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "You forgot your coat? Well isn't my Commander forgetful... Don't worry about it, I'll go get your coat for you. Huh? The key to your quarters? Hehehe, you can keep it. Taihou has her ways.",
 						"englishNote": ""
 					},
 					"26": {
@@ -597,7 +597,7 @@
 						"japanese": "指揮官様の自室にあるあのベッドと日用品？もちろん大鳳の分ですよ。私ったらうっかりしてぇ～指揮官様が勝手に出入りしないって仰るなら、同衾すればいいですもの……うふふ、これからも、よろしくお願いしますね ",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "The bed and toiletries in your quarters? Of course they're mine. I should have thought of this before~ If you don't want me going in and out of your room all the time, we should just be sleeping together. Hehehe... please be gentle with me.",
 						"englishNote": ""
 					},
 					"27": {
@@ -609,6 +609,42 @@
 						"japanese": "ようやく大鳳の手に届きましたね～大鳳の名前が書いていなければとっくに処分しましたの、うふふーーうん？なぜ知ってるかって？大鳳、指揮官様のことはぜーんぶ知っています。これからも指揮官様のことをぜーんぶ愛してあげますよ～ ",
 						"japaneseTL": "",
 						"japaneseNote": "",
+						"english": "It's finally on my finger! You know, I would have thrown this ring out long ago if it didn't have my name on it. Hehehe. Oh? How did I know about it? I tollld you, I know EVERYTHING about my Commander. And from now on I'm going to love EVERYTHING about you too~",
+						"englishNote": ""
+					},
+					"28": {
+						"event": "Like Present",
+						"media": "present_like",
+						"chinese": "",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"29": {
+						"event": "Dislike Present",
+						"media": "present_dislike",
+						"chinese": "",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"30": {
+						"event": "Main Title",
+						"media": "extra",
+						"chinese": "",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
 						"english": "",
 						"englishNote": ""
 					}
@@ -617,7 +653,7 @@
 			"2": {
 				"skin_id": "dafeng_2",
 				"id": "1",
-				"label": "禁断の宴",
+				"label": "Forbidden Fruit",
 				"dialogue": {
 					"1": {
 						"event": "Ship Description",
@@ -628,7 +664,151 @@
 						"japanese": "指揮官様、着替えるのにそんなに掛かって、大鳳に合う服を選ぶのに苦労したんですか…？ふふ、指揮官がどんな格好でも、大鳳はお慕いしますよ♡",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "You're taking so long to dress yourself, my Commander. Are you struggling to find something to match my dress? Hehe, it doesn't matter what you wear, you're always perfect to me♡",
+						"englishNote": ""
+					},
+					"2": {
+						"event": "Acquisition",
+						"media": "get_1",
+						"chinese": "指挥官大人，换衣服用的时间稍微有些久呢，在想穿什么搭配大凤的礼服吗？嘻嘻，指挥官大人穿什么大凤都喜欢哦",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "指揮官様、着替えるのにそんなに掛かって、大鳳に合う服を選ぶのに苦労したんですか…？ふふ、指揮官様がどんな格好でも、大鳳はお慕いしますよ♡",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "You're taking so long to dress yourself, my Commander. Are you struggling to find something to match my dress? Hehe, it doesn't matter what you wear, you're always perfect to me♡",
+						"englishNote": ""
+					},
+					"3": {
+						"event": "Login",
+						"media": "login_1",
+						"chinese": "指挥官大人，大凤一直在等着您哦",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "指揮官様、大鳳は待ちわびていましたわ",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "I've been waiting for you, my Commander.",
+						"englishNote": ""
+					},
+					"4": {
+						"event": "Details",
+						"media": "detail_1",
+						"chinese": "真羡慕你呢，小猫咪。大凤要是变成你，就能一直被指挥官大人抱在怀里了",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "なんて羨ましい子……大鳳もこんな姿になれば、ずっと指揮官様に抱きしめてもらえますのに。ふふふ♡",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Oh, how I envy you, kitty. If I were you, my Commander could hold me tight and never let go.",
+						"englishNote": ""
+					},
+					"5": {
+						"event": "Main 1",
+						"media": "main_1_1",
+						"chinese": "指挥官大人，您刚才看了别的人一眼，对吧？",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "指揮官様、いま他の子に目移りしていましたよね？そうですよね？",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "My Commander, you just stole a glance at another girl, didn't you?",
+						"englishNote": ""
+					},
+					"6": {
+						"event": "Main 2",
+						"media": "main_2_1",
+						"chinese": "指挥官大人，大凤要是醉了的话，就要麻烦您把大凤送回去了呢",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "指揮官様、大鳳が酔って倒れたら、おうちまで運んでくださいね～♡",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "My Commander, if I were to drink a little too much, do you think you could take me home?",
+						"englishNote": ""
+					},
+					"7": {
+						"event": "Main 3",
+						"media": "main_3_1",
+						"chinese": "指挥官大人，没有人的时候，突然袭击大凤也是可以的哦~",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "指揮官様～人が居なくなったら大鳳を襲っちゃってもいいですわよ～♡",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "My Commander, it's safe for you to attack me when no one's around~",
+						"englishNote": ""
+					},
+					"8": {
+						"event": "Touch",
+						"media": "touch_1_1",
+						"chinese": "指挥官大人，和大凤两个人去僻静无人的地方走走吧？",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "指揮官様～大鳳と二人っきりで、人のいない所へ行ってみませんか？",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "My Commander, how would you like to go for a stroll somewhere private?",
+						"englishNote": ""
+					},
+					"9": {
+						"event": "Touch (Special)",
+						"media": "touch_2_1",
+						"chinese": "这样就对了，指挥官大人，您只需要关注大凤一个人……",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "そうですわ～指揮官様には大鳳だけいればい・い・ん・で・す♡",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Yesss, that's it, my Commander, give all your love and attention to Taihou alone...",
+						"englishNote": ""
+					},
+					"10": {
+						"event": "Return to Port",
+						"media": "home_1",
+						"chinese": "指挥官大人，要是还有害虫没有清理干净，就让大凤去吧",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "指揮官様～ノミどもの駆除がまだ十分でないのでしたら、この大鳳にお任せくださいな♡",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "My Commander, let me clean up the few remaining insects troubling you.",
+						"englishNote": ""
+					},
+					"11": {
+						"event": "Flagship",
+						"media": "warcry_1",
+						"chinese": "让指挥官大人无法专心宴会的就是你们吗？",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "宴会に集中する指揮官様の邪魔をするのはあなた達？",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Are you the ones distracting my Commander from the party?",
+						"englishNote": ""
+					},
+					"12": {
+						"event": "Victory",
+						"media": "mvp_1",
+						"chinese": "这就是妨碍指挥官大人的下场！",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "指揮官様を邪魔したものの末路よ！",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "This is what happens when you get between me and my Commander!",
+						"englishNote": ""
+					},
+					"13": {
+						"event": "Affinity (Love)",
+						"media": "feeling5_1",
+						"chinese": "指挥官大人，走吧，这是一个多么好的机会，让我们在宴会上宣布对彼此的爱意，告诉所有人我们是对方的所有物吧~",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "さあ指揮官様、参りましょう。千載一遇のチャンスですもの、宴会で私たちの愛を、そして私たちがお互いの所有物であることをみんなに示そうじゃありませんか～♡",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Come, my Commander, this party is a perfect opportunity to proclaim our love to everyone, to let them all know that we belong only to one another.",
 						"englishNote": ""
 					}
 				}

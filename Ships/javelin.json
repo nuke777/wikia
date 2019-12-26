@@ -1,4 +1,4 @@
-﻿{
+{
 	"name_reference": "javelin",
 	"cn_reference": "biaoqiang",
 	"nameJP": "ジャベリン",
@@ -11,8 +11,7 @@
 	"hull": "Destroyer",
 	"navy": "Royal Navy",
 	"prefix": "HMS",
-	"buildTime": "",
-	"class": "J-Class",
+	"buildTime": "00:27:00",
 	"voiceActress": "Nozomi Yamane",
 	"parameters": {
 		"firepower": "D",
@@ -34,12 +33,13 @@
 		"EN": ""
 	},
 	"artist": {
-		"name": "",
-		"weibo": "",
-		"twitter": "",
-		"pixiv": "",
+		"name": "梦咲枫",
+		"weibo": "http://weibo.com/u/3558369570",
+		"twitter": "https://twitter.com/yumesaki_kaede/",
+		"pixiv": "https://www.pixiv.net/member.php?id=1023957",
 		"other": ""
 	},
+	"class": "J-Class",
 	"enhance": {
 		"firepower": "5",
 		"torpedo": "23",
@@ -50,24 +50,24 @@
 	"skill": {
 		"1": {
 			"icon": "10250",
-			"requirement": "",
+			"requirement": "Default Unlocked",
 			"name": "Javelin Raid",
 			"type": "Defensive",
-			"description": "When this ship fires its Main Guns: 5.0% chance to increase this ship's EVA by $1 for 8s."
+			"description": "When this ship fires its Main Guns: 5.0% chance to increase this ship's EVA by 30.0%(60.0%) for 8s."
 		},
 		"2": {
 			"icon": "10860",
-			"requirement": "",
+			"requirement": "Retrofit",
 			"name": "Assault Mode",
 			"type": "Offensive",
-			"description": "$1 chance to activate every 20s: this ship enters Assault Mode, firing a powerful barrage and increasing this ship's TRP by 30.0% for 5s."
+			"description": "Every 20s: 40.0%(70.0%) chance for this ship to enter Assault Mode, firing a powerful barrage and increasing this ship's TRP by 30.0% for 5s."
 		},
 		"3": {
 			"icon": "29081",
-			"requirement": "",
-			"name": "EX Barrage: Javelin Ⅰ",
+			"requirement": "Limit Break I (III)",
+			"name": "All Out Assault Ⅰ",
 			"type": "Offensive",
-			"description": "Activate EX Barrage: Javelin Ⅰ once every 15 times the main gun is fired."
+			"description": "Activates All Out Assault Ⅰ: Javelin once every 15 times the Main Guns are fired."
 		}
 	},
 	"skin": {
@@ -82,9 +82,9 @@
 			}
 		},
 		"2": {
-			"id": "biaoqiang_2",
-			"name": "22-Nyan",
-			"description": "It's everyone's idol, 22~ Unharmonious broadcast is not allowed~ Bili~",
+			"id": "biaoqiang_3",
+			"name": "Beach Picnic! ",
+			"description": "Everyone, hurry up! We rarely get to go out to play, so let's make every minute count! Javelin packed plenty of lunches, so let's have a picnic by the beach! ",
 			"expression": {
 				"0": {
 					"id": "0"
@@ -92,18 +92,8 @@
 			}
 		},
 		"3": {
-			"id": "biaoqiang_3",
-			"name": "Beach Picnic！",
-			"description": "指揮官、みんな～早く早く！せっかくみんなとのお出かけなんだから、モタモタしないの！ジャベリンは弁当をいっぱい作ったから、海辺でピクニックでもやりましょー！",
-			"expression": {
-				"0": {
-					"id": "0"
-				}
-			}
-		},
-		"4": {
 			"id": "biaoqiang_4",
-			"name": "Let's Become Waitresses!",
+			"name": "Let’s Become Waitresses! ",
 			"description": "Tada! We’re all wearing the same uniform! It’s super cute, isn’t it? Heehee, I’ll be wearing it the entire time I’m on duty, so make sure to visit! ",
 			"expression": {
 				"0": {
@@ -120,7 +110,57 @@
 				}
 			}
 		},
+		"4": {
+			"id": "biaoqiang_5",
+			"name": "Very Slow Advance! ",
+			"description": "Javelin, advancing very slowly! Heehee~♪ ",
+			"expression": {
+				"0": {
+					"id": "0"
+				},
+				"1": {
+					"id": "1"
+				},
+				"2": {
+					"id": "2"
+				},
+				"3": {
+					"id": "3"
+				},
+				"4": {
+					"id": "4"
+				},
+				"5": {
+					"id": "5"
+				},
+				"6": {
+					"id": "6"
+				}
+			}
+		},
 		"5": {
+			"id": "biaoqiang_6",
+			"name": "元気アイドル・やる気120％！",
+			"description": "「みなさーん！ロイヤル出身の新人アイドル、Jクラスのジャベリンだよ！歌でみんなを笑顔にするから、よろしくおねがいしまーす！」――えへへ、指揮官、挨拶はこんな感じでどうですか？",
+			"expression": {
+				"0": {
+					"id": "0"
+				},
+				"1": {
+					"id": "1"
+				},
+				"2": {
+					"id": "2"
+				},
+				"3": {
+					"id": "3"
+				},
+				"4": {
+					"id": "4"
+				}
+			}
+		},
+		"6": {
 			"id": "biaoqiang_h",
 			"name": "Blissful Purity ",
 			"description": "Today, I must be the happiest girl in the world! Hehe~ ",
@@ -142,20 +182,10 @@
 				}
 			}
 		},
-		"6": {
+		"7": {
 			"id": "biaoqiang_g",
 			"name": "Javelin (Retrofit)",
 			"description": "Heavy attack mode prepared, ready to use ultimate firepower! Check out the incredible glow on this new gun!",
-			"expression": {
-				"0": {
-					"id": "0"
-				}
-			}
-		},
-		"101": {
-			"id": "biaoqiang_old",
-			"name": "Javelin",
-			"description": "J-class destroyer ー Javelin, Hull Number F61!",
 			"expression": {
 				"0": {
 					"id": "0"
@@ -181,23 +211,6 @@
 		}
 	},
 	"stats": {
-		"base": {
-			"hp": "255",
-			"firepower": "15",
-			"torpedo": "71",
-			"antiAir": "30",
-			"aviation": "0",
-			"reload": "76",
-			"hit": "71",
-			"evasion": "78",
-			"speed": "43.2",
-			"luck": "65",
-			"asw": "53",
-			"oxygen": "0",
-			"ammo": "0",
-			"cost": "2",
-			"armor": "Light"
-		},
 		"100": {
 			"hp": "1317",
 			"firepower": "70",
@@ -230,6 +243,23 @@
 			"oxygen": "0",
 			"ammo": "0",
 			"cost": "9",
+			"armor": "Light"
+		},
+		"base": {
+			"hp": "255",
+			"firepower": "15",
+			"torpedo": "71",
+			"antiAir": "30",
+			"aviation": "0",
+			"reload": "76",
+			"hit": "71",
+			"evasion": "78",
+			"speed": "43.2",
+			"luck": "65",
+			"asw": "53",
+			"oxygen": "0",
+			"ammo": "0",
+			"cost": "2",
 			"armor": "Light"
 		},
 		"100retrofit": {
@@ -292,23 +322,36 @@
 			"preload": "0/0/0/0"
 		},
 		"4": {
-			"type": "Auxiliary",
+			"type": "Auxilary",
 			"efficiency": "-",
 			"amount": "-",
 			"preload": "-"
 		},
 		"5": {
-			"type": "Auxiliary",
+			"type": "Auxilary",
 			"efficiency": "-",
 			"amount": "-",
 			"preload": "-"
 		}
 	},
+	"fleet_tech": {
+		"pt_get": "6",
+		"add_get_attr": "HP",
+		"add_get_value": "1",
+		"add_get_shiptype": "Destroyer",
+		"pt_upgrade": "12",
+		"pt_level": "9",
+		"add_level_attr": "Evasion",
+		"add_level_value": "1",
+		"add_level_shiptype": "Destroyer",
+		"t_level": "5",
+		"ships": "javelin,juno,jupiter,jersey"
+	},
 	"build": {
 		"light": {
-			"JP": "",
-			"CN": "",
-			"EN": ""
+			"JP": "✓",
+			"CN": "✓",
+			"EN": "✓"
 		},
 		"heavy": {
 			"JP": "",
@@ -337,19 +380,19 @@
 						"node": {
 							"1": {
 								"drop": "✓",
-								"note": ""
+								"note": "-"
 							},
 							"2": {
 								"drop": "✓",
-								"note": ""
+								"note": "-"
 							},
 							"3": {
 								"drop": "✓",
-								"note": ""
+								"note": "-"
 							},
 							"4": {
 								"drop": "✓",
-								"note": ""
+								"note": "-"
 							}
 						}
 					},
@@ -358,19 +401,19 @@
 						"node": {
 							"1": {
 								"drop": "✓",
-								"note": ""
+								"note": "-"
 							},
 							"2": {
 								"drop": "✓",
-								"note": ""
+								"note": "-"
 							},
 							"3": {
 								"drop": "✓",
-								"note": ""
+								"note": "-"
 							},
 							"4": {
 								"drop": "✓",
-								"note": ""
+								"note": "-"
 							}
 						}
 					},
@@ -379,19 +422,19 @@
 						"node": {
 							"1": {
 								"drop": "✓",
-								"note": ""
+								"note": "-"
 							},
 							"2": {
 								"drop": "✓",
-								"note": ""
+								"note": "-"
 							},
 							"3": {
 								"drop": "✓",
-								"note": ""
+								"note": "-"
 							},
 							"4": {
 								"drop": "✓",
-								"note": ""
+								"note": "-"
 							}
 						}
 					},
@@ -400,19 +443,19 @@
 						"node": {
 							"1": {
 								"drop": "✓",
-								"note": ""
+								"note": "-"
 							},
 							"2": {
 								"drop": "✓",
-								"note": ""
+								"note": "-"
 							},
 							"3": {
 								"drop": "✓",
-								"note": ""
+								"note": "-"
 							},
 							"4": {
 								"drop": "✓",
-								"note": ""
+								"note": "-"
 							}
 						}
 					},
@@ -421,19 +464,19 @@
 						"node": {
 							"1": {
 								"drop": "✓",
-								"note": ""
+								"note": "-"
 							},
 							"2": {
 								"drop": "✓",
-								"note": ""
+								"note": "-"
 							},
 							"3": {
 								"drop": "✓",
-								"note": ""
+								"note": "-"
 							},
 							"4": {
 								"drop": "✓",
-								"note": ""
+								"note": "-"
 							}
 						}
 					},
@@ -442,19 +485,19 @@
 						"node": {
 							"1": {
 								"drop": "✓",
-								"note": ""
+								"note": "-"
 							},
 							"2": {
 								"drop": "✓",
-								"note": ""
+								"note": "-"
 							},
 							"3": {
 								"drop": "✓",
-								"note": ""
+								"note": "-"
 							},
 							"4": {
 								"drop": "✓",
-								"note": ""
+								"note": "-"
 							}
 						}
 					},
@@ -463,19 +506,19 @@
 						"node": {
 							"1": {
 								"drop": "✓",
-								"note": ""
+								"note": "-"
 							},
 							"2": {
 								"drop": "✓",
-								"note": ""
+								"note": "-"
 							},
 							"3": {
 								"drop": "✓",
-								"note": ""
+								"note": "-"
 							},
 							"4": {
 								"drop": "✓",
-								"note": ""
+								"note": "-"
 							}
 						}
 					},
@@ -484,19 +527,19 @@
 						"node": {
 							"1": {
 								"drop": "✓",
-								"note": ""
+								"note": "-"
 							},
 							"2": {
 								"drop": "✓",
-								"note": ""
+								"note": "-"
 							},
 							"3": {
 								"drop": "✓",
-								"note": ""
+								"note": "-"
 							},
 							"4": {
 								"drop": "✓",
-								"note": ""
+								"note": "-"
 							}
 						}
 					},
@@ -505,19 +548,19 @@
 						"node": {
 							"1": {
 								"drop": "✓",
-								"note": ""
+								"note": "-"
 							},
 							"2": {
 								"drop": "✓",
-								"note": ""
+								"note": "-"
 							},
 							"3": {
 								"drop": "✓",
-								"note": ""
+								"note": "-"
 							},
 							"4": {
 								"drop": "✓",
-								"note": ""
+								"note": "-"
 							}
 						}
 					},
@@ -526,19 +569,19 @@
 						"node": {
 							"1": {
 								"drop": "✓",
-								"note": ""
+								"note": "-"
 							},
 							"2": {
 								"drop": "✓",
-								"note": ""
+								"note": "-"
 							},
 							"3": {
 								"drop": "✓",
-								"note": ""
+								"note": "-"
 							},
 							"4": {
 								"drop": "✓",
-								"note": ""
+								"note": "-"
 							}
 						}
 					},
@@ -547,19 +590,19 @@
 						"node": {
 							"1": {
 								"drop": "✓",
-								"note": ""
+								"note": "-"
 							},
 							"2": {
 								"drop": "✓",
-								"note": ""
+								"note": "-"
 							},
 							"3": {
 								"drop": "✓",
-								"note": ""
+								"note": "-"
 							},
 							"4": {
 								"drop": "✓",
-								"note": ""
+								"note": "-"
 							}
 						}
 					},
@@ -568,19 +611,19 @@
 						"node": {
 							"1": {
 								"drop": "✓",
-								"note": ""
+								"note": "-"
 							},
 							"2": {
 								"drop": "✓",
-								"note": ""
+								"note": "-"
 							},
 							"3": {
 								"drop": "✓",
-								"note": ""
+								"note": "-"
 							},
 							"4": {
 								"drop": "✓",
-								"note": ""
+								"note": "-"
 							}
 						}
 					}
@@ -752,7 +795,7 @@
 						"englishNote": ""
 					},
 					"14": {
-						"event": "Touch (Head)",
+						"event": "Rub",
 						"media": "touch_head",
 						"chinese": "指挥官，标枪很有精神哦！",
 						"chineseTL": "",
@@ -872,7 +915,7 @@
 						"englishNote": ""
 					},
 					"24": {
-						"event": "skill",
+						"event": "Skill",
 						"media": "skill",
 						"chinese": "好好看着标枪的活跃吧",
 						"chineseTL": "",
@@ -968,7 +1011,7 @@
 						"englishNote": ""
 					},
 					"32": {
-						"event": "Easter Egg 1 (Juno)",
+						"event": "Easter Egg 1(Juno)",
 						"media": "link1",
 						"chinese": "见识一下J级的实力吧！",
 						"chineseTL": "",
@@ -980,7 +1023,7 @@
 						"englishNote": ""
 					},
 					"33": {
-						"event": "Easter Egg 2 (Laffey)",
+						"event": "Easter Egg 2(Laffey)",
 						"media": "link2",
 						"chinese": "为了指挥官一起加油吧~",
 						"chineseTL": "",
@@ -992,29 +1035,10 @@
 						"englishNote": ""
 					},
 					"34": {
-						"event": "Easter Egg 3 (Kaede x5)",
-						"media": "",
-						"chinese": "枫军的姐妹们，Fight~",
-						"chineseTL": "Kaede Legion sisters, Fight~",
-						"chineseNote": "",
-						"japanese": "",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "Kaede's Legion, fight!",
-						"englishNote": ""
-					}
-				}
-			},
-			"2": {
-				"skin_id": "biaoqiang_2",
-				"id": "1",
-				"label": "22-Nyan",
-				"dialogue": {
-					"1": {
-						"event": "Ship Description",
-						"media": "",
-						"chinese": "大家的偶像，22哟~不和谐的视频是不可以的～哔哩～",
-						"chineseTL": "It's everyone's idol, 22~ Unharmonious broadcast is not allowed~ Bili~",
+						"event": "Like Present",
+						"media": "present_like",
+						"chinese": "",
+						"chineseTL": "",
 						"chineseNote": "",
 						"japanese": "",
 						"japaneseTL": "",
@@ -1022,11 +1046,23 @@
 						"english": "",
 						"englishNote": ""
 					},
-					"2": {
-						"event": "Acquisition",
-						"media": "",
-						"chinese": "大家的偶像，22哟~不和谐的视频是不可以的～哔哩～",
-						"chineseTL": "It's everyone's idol, 22~ Unharmonious broadcast is not allowed~ Bili~",
+					"35": {
+						"event": "Dislike Present",
+						"media": "present_dislike",
+						"chinese": "",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"36": {
+						"event": "Main Title",
+						"media": "extra",
+						"chinese": "",
+						"chineseTL": "",
 						"chineseNote": "",
 						"japanese": "",
 						"japaneseTL": "",
@@ -1036,10 +1072,10 @@
 					}
 				}
 			},
-			"3": {
+			"2": {
 				"skin_id": "biaoqiang_3",
 				"id": "2",
-				"label": "Beach Picnic！",
+				"label": "Beach Picnic! ",
 				"dialogue": {
 					"1": {
 						"event": "Ship Description",
@@ -1050,7 +1086,7 @@
 						"japanese": "指揮官、みんな～早く早く！せっかくみんなとのお出かけなんだから、モタモタしないの！ジャベリンは弁当をいっぱい作ったから、海辺でピクニックでもやりましょー！",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Everyone, hurry up! We rarely get to go out to play, so let's make every minute count! Javelin packed plenty of lunches, so let's have a picnic by the beach!",
 						"englishNote": ""
 					},
 					"2": {
@@ -1062,7 +1098,7 @@
 						"japanese": "指揮官、みんな～早く早く！せっかくみんなとのお出かけなんだから、モタモタしないの！ジャベリンは弁当をいっぱい作ったから、海辺でピクニックでもやりましょー！",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Everyone, hurry up! We rarely get to go out to play, so let's make every minute count! Javelin packed plenty of lunches, so let's have a picnic by the beach!",
 						"englishNote": ""
 					},
 					"3": {
@@ -1074,7 +1110,7 @@
 						"japanese": "指揮官、おそーい！",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Commander, you're taking too long!",
 						"englishNote": ""
 					},
 					"4": {
@@ -1086,7 +1122,7 @@
 						"japanese": "ラフィーちゃん、ニーミちゃん、綾波ちゃん、それと指揮官が好きな料理はぜーんぶ準備したから！大丈夫～！",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Don't worry, guys~! I've already packed all your favorite foods!",
 						"englishNote": ""
 					},
 					"5": {
@@ -1098,7 +1134,7 @@
 						"japanese": "指揮官、呼ばれてるよ～！仕事が終わったら一緒に海に行こー！",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Commander, the others are rushing us. Let's finish strong, so we can join them on the beach! ",
 						"englishNote": ""
 					},
 					"6": {
@@ -1110,7 +1146,7 @@
 						"japanese": "海辺で遊ぶ子は結構多いですよね！指揮官、よかったら私、弁当もっと作ってきますよ！",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Look at all our friends out there! Commander, if you don't mind, I'll go prepare some extra lunches! ",
 						"englishNote": ""
 					},
 					"7": {
@@ -1122,7 +1158,7 @@
 						"japanese": "指揮官！今年も海辺で思い出をたくさん作りましょー！",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Commander, let's make a bunch of unforgettable memories on the beach this year as well!",
 						"englishNote": ""
 					},
 					"8": {
@@ -1134,7 +1170,7 @@
 						"japanese": "指揮官の手、冷たっ！もう、つっつき返しちゃいますよ！えい！えい！",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Commander, your hands are freezing cold! Jeez, it's payback time! Take this! And this!",
 						"englishNote": ""
 					},
 					"9": {
@@ -1146,7 +1182,7 @@
 						"japanese": "指揮官、モテたいなら、女の子をもーっと大切にしないとダメですよ？",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Commander, if you want to be more popular, you'll have to treat your girls better~",
 						"englishNote": ""
 					},
 					"10": {
@@ -1158,7 +1194,7 @@
 						"japanese": "お休みのために、みんな、がんばろー！",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Everyone, let's do our best to kick back and relax!",
 						"englishNote": ""
 					},
 					"11": {
@@ -1170,139 +1206,369 @@
 						"japanese": "目標は～海辺～！",
 						"japaneseTL": "",
 						"japaneseNote": "",
+						"english": "Our destination is... the beach~!",
+						"englishNote": ""
+					}
+				}
+			},
+			"3": {
+				"skin_id": "biaoqiang_4",
+				"id": "3",
+				"label": "Let’s Become Waitresses! ",
+				"dialogue": {
+					"1": {
+						"event": "Ship Description",
+						"media": "",
+						"chinese": "锵锵！和大家一样的制服！是不是很可爱，是不是很可爱？嘻嘻，我会一直穿着这个工作的，所以一定要来光顾哦？",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "じゃじゃーん！ジャベリンのみんなとお揃いの制服！どう？かわいいですか？ふふん、これを着てオシゴトを頑張るから、ぜひ見に来てね！",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Tada! We’re all wearing the same uniform! It’s super cute, isn’t it? Heehee, I’ll be wearing it the entire time I’m on duty, so make sure to visit! ",
+						"englishNote": ""
+					},
+					"2": {
+						"event": "Acquisition",
+						"media": "get_3",
+						"chinese": "锵锵！和大家一样的制服！是不是很可爱，是不是很可爱？嘻嘻，我会一直穿着这个工作的，所以一定要来光顾哦？",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"3": {
+						"event": "Login",
+						"media": "login_3",
+						"chinese": "啊，指挥官，欢迎光临~店员标枪，为你服务~",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"4": {
+						"event": "Details",
+						"media": "detail_3",
+						"chinese": "指挥官，你不觉得，拉菲酱她们的制服也很可爱吗？",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"5": {
+						"event": "Touch",
+						"media": "touch_1_3",
+						"chinese": "指挥官，悄悄告诉你哦，我在这里学到了不少新菜式呢！回去之后做给你吃~",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"6": {
+						"event": "Return to Port",
+						"media": "home_3",
+						"chinese": "指挥官，辛苦啦，好好休息一下吧~",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"7": {
+						"event": "Affinity (Love)",
+						"media": "feeling5_3",
+						"chinese": "这个工作虽然也很开心，不过对我来说，果然还是在指挥官的身边最开心呢~啊，要不然这样吧，指挥官日后也开一家自己的店，这样标枪就能一直在指挥官身边了！好不好呀？",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
 						"english": "",
 						"englishNote": ""
 					}
 				}
 			},
 			"4": {
-				"skin_id": "biaoqiang_4",
+				"skin_id": "biaoqiang_5",
 				"id": "4",
-				"label": "Let's Become Waitresses!",
+				"label": "Very Slow Advance! ",
 				"dialogue": {
-					"1" : {
-						"event" : "Ship Description",
-						"media" : "",
-						"chinese" : "锵锵！和大家一样的制服！是不是很可爱，是不是很可爱？嘻嘻，我会一直穿着这个工作的，所以一定要来光顾哦？",
-						"chineseTL" : "Ja~jan~! Wearing the same uniform as everyone! Isn't it cute, isn't it cute? Hehe, I'll be always wearing it during work, make sure to pay us a visit?",
-						"chineseNote" : "",
-						"japanese" : "じゃじゃーん！ジャベリンのみんなとお揃いの制服！どう？かわいいですか？ふふん、これを着てオシゴトを頑張るから、ぜひ見に来てね！",
-						"japaneseTL" : "Ja~Ja~n! Javelin is wearing a matching uniform with everyone! How is it? Is it cute? Fufun, I'll be working hard while wearing this, make sure to visit!",
-						"japaneseNote" : "",
-						"english" : "Tada! We’re all wearing the same uniform! It’s super cute, isn’t it? Heehee, I’ll be wearing it the entire time I’m on duty, so make sure to visit! ",
-						"englishNote" : ""
+					"1": {
+						"event": "Ship Description",
+						"media": "",
+						"chinese": "标枪、微速前进！嘿嘿♪",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "ジャベリン、びそくぜんしんでいきまーす！です♪",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Javelin, advancing very slowly! ",
+						"englishNote": ""
 					},
-					"2" : {
-						"event" : "Acquisition",
-						"media" : "get_3",
-						"chinese" : "锵锵！和大家一样的制服！是不是很可爱，是不是很可爱？嘻嘻，我会一直穿着这个工作的，所以一定要来光顾哦？",
-						"chineseTL" : "Ja~jan~! Wearing the same uniform as everyone! Isn't it cute, isn't it cute? Hehe, I'll be always wearing it during work, make sure to pay us a visit?",
-						"chineseNote" : "",
-						"japanese" : "",
-						"japaneseTL" : "",
-						"japaneseNote" : "",
-						"english" : "",
-						"englishNote" : ""
+					"2": {
+						"event": "Acquisition",
+						"media": "get_4",
+						"chinese": "标枪、微速前进！嘿嘿♪",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "ジャベリン、びそくぜんしんでいきまーす！です♪",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Javelin, advancing very slowly! ",
+						"englishNote": ""
 					},
-					"3" : {
-						"event" : "Login",
-						"media" : "login_3",
-						"chinese" : "啊，指挥官，欢迎光临~店员标枪，为你服务~",
-						"chineseTL" : "Ah Commander, welcome~ Waitress Javelin, at your service~",
-						"chineseNote" : "",
-						"japanese" : "",
-						"japaneseTL" : "",
-						"japaneseNote" : "",
-						"english" : "",
-						"englishNote" : ""
+					"3": {
+						"event": "Login",
+						"media": "login_4",
+						"chinese": "指挥官，欢迎回来！今天标枪是不是特别好看呢？欸嘿嘿♪",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "指揮官、おかえりなさい！今日のジャベリンはイケてます？えへへ♪",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Welcome back, Commander! Don't I look super cool today? Ehehe~♪",
+						"englishNote": ""
 					},
-					"4" : {
-						"event" : "Details",
-						"media" : "detail_3",
-						"chinese" : "指挥官，你不觉得，拉菲酱她们的制服也很可爱吗？",
-						"chineseTL" : "Commander, don't you think Laffey-chan and everyone else's uniforms are very cute?",
-						"chineseNote" : "",
-						"japanese" : "",
-						"japaneseTL" : "",
-						"japaneseNote" : "",
-						"english" : "",
-						"englishNote" : ""
+					"4": {
+						"event": "Details",
+						"media": "detail_4",
+						"chinese": "♪~今天的便当做点什么好呢~",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "♪～今日のお弁当はなにを作ろっかなー",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "♪~What kind of lunch should I pack today~",
+						"englishNote": ""
 					},
-					"5" : {
-						"event" : "Main 1",
-						"media" : "main_1_3",
-						"chinese" : "要是遇到什么问题的话，请尽管呼唤标枪~",
-						"chineseTL" : "If you find any problems, please tell Javelin~",
-						"chineseNote" : "",
-						"japanese" : "",
-						"japaneseTL" : "",
-						"japaneseNote" : "",
-						"english" : "",
-						"englishNote" : ""
+					"5": {
+						"event": "Main 1",
+						"media": "main_1_4",
+						"chinese": "小贝法和贝尔法斯特小姐之间的那种氛围该怎么说呢…母、母女？",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "ベルちゃんとベルファストさんのあの感じはなんだろう…お、親子？",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Little Bel and Belfast somehow feel like... mother and child?",
+						"englishNote": ""
 					},
-					"6" : {
-						"event" : "Main 2",
-						"media" : "main_2_3",
-						"chinese" : "Z23，笑容笑容~绫波，不要对客人释放杀气。拉菲，起床啦！……好啦，那么，请问客人您要来点什么呢？",
-						"chineseTL" : "Z23, smile smile~ Ayanami, don't give that murderous look to customers. Laffey, wake up!... Alright so, what would you like to order?",
-						"chineseNote" : "",
-						"japanese" : "",
-						"japaneseTL" : "",
-						"japaneseNote" : "",
-						"english" : "",
-						"englishNote" : ""
+					"6": {
+						"event": "Main 2",
+						"media": "main_2_4",
+						"chinese": "要参加什么社团呢…料理社？手工艺社？唔…好难决定啊~",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "部活はどれにしよう…料理部？手芸部？んんん…なかなか決められないですー",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Which club should I join...? Cooking club? Knitting club? Nnnh... I just can't decide!",
+						"englishNote": ""
 					},
-					"7" : {
-						"event" : "Main 3",
-						"media" : "main_3_3",
-						"chinese" : "指挥官，要是觉得累了的话，随时可以来这里休息哦~",
-						"chineseTL" : "Commander, if you feel tired, you can come rest here anytime~",
-						"chineseNote" : "",
-						"japanese" : "",
-						"japaneseTL" : "",
-						"japaneseNote" : "",
-						"english" : "",
-						"englishNote" : ""
+					"7": {
+						"event": "Main 3",
+						"media": "main_3_4",
+						"chinese": "天后，待会要和大家一起去买东西？啊，我也要去！",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "ジュノーちゃん、このあと皆でお買い物に出かけるの？あっ、私も行く！",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Juneau, are you going shopping with the others later? Aww, let me come too!",
+						"englishNote": ""
 					},
-					"8" : {
-						"event" : "Touch",
-						"media" : "touch_1_3",
-						"chinese" : "指挥官，悄悄告诉你哦，我在这里学到了不少新菜式呢！回去之后做给你吃~",
-						"chineseTL" : "Commander, just between you and me, I learned a lot of new dishes here! I'll make them for you when we go back~",
-						"chineseNote" : "",
-						"japanese" : "",
-						"japaneseTL" : "",
-						"japaneseNote" : "",
-						"english" : "",
-						"englishNote" : ""
+					"8": {
+						"event": "Touch (Special)",
+						"media": "touch_2_4",
+						"chinese": "真是的，工口是不行的哦！不用让我再说一次吧？",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "もう、エロはいけませんよ！なにを今更ですか？",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Jeez, no lewding! How many times do I have to repeat myself?",
+						"englishNote": ""
 					},
-					"9" : {
-						"event" : "Return to Port",
-						"media" : "home_3",
-						"chinese" : "指挥官，辛苦啦，好好休息一下吧~",
-						"chineseTL" : "Good work Commander, take a good rest~",
-						"chineseNote" : "",
-						"japanese" : "",
-						"japaneseTL" : "",
-						"japaneseNote" : "",
-						"english" : "",
-						"englishNote" : ""
+					"9": {
+						"event": "Return to Port",
+						"media": "home_4",
+						"chinese": "辛苦啦！好啦，Z23！报告什么的待会再说，先让指挥官休息下嘛~",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "お疲れ様です！ってニーミちゃん！レポートはあとでいいからまずは指揮官を休ませてよー",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Good job out there! Hey, Zed! Save the report for later, and let Commander rest first~!",
+						"englishNote": ""
 					},
-					"10" : {
-						"event" : "Affinity (Love)",
-						"media" : "feeling5_3",
-						"chinese" : "这个工作虽然也很开心，不过对我来说，果然还是在指挥官的身边最开心呢~啊，要不然这样吧，指挥官日后也开一家自己的店，这样标枪就能一直在指挥官身边了！好不好呀？",
-						"chineseTL" : "Although I'm very content working here, but it turns out I'm the happiest by Commander's side~ Ah, how about Commander also opens his own store, that way Javelin can always be by your side! Sounds good?",
-						"chineseNote" : "",
-						"japanese" : "",
-						"japaneseTL" : "",
-						"japaneseNote" : "",
-						"english" : "",
-						"englishNote" : ""
+					"10": {
+						"event": "Flagship",
+						"media": "warcry_4",
+						"chinese": "标枪，全力出击！",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "ジャベリン、全力で行きまぁす",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Javelin, full speed ahead!",
+						"englishNote": ""
 					}
 				}
 			},
 			"5": {
+				"skin_id": "biaoqiang_6",
+				"id": "6",
+				"label": "元気アイドル・やる気120％！",
+				"dialogue": {
+					"1": {
+						"event": "Ship Description",
+						"media": "",
+						"chinese": "“大家好，我是来自皇家的新人偶像，J级的标枪，希望能用歌声给大家带去笑容，请多指教！”——嘿嘿，这样的招呼语怎么样呢，指挥官！",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "「みなさーん！ロイヤル出身の新人アイドル、Jクラスのジャベリンだよ！歌でみんなを笑顔にするから、よろしくおねがいしまーす！」――えへへ、指揮官、挨拶はこんな感じでどうですか？",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"2": {
+						"event": "Acquisition",
+						"media": "get_6",
+						"chinese": "“大家好，我是来自皇家的新人偶像，J级的标枪，希望能用歌声给大家带去笑容，请多指教！”——嘿嘿，这样的招呼语怎么样呢，指挥官！",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "「みなさーん！ロイヤル出身の新人アイドル、Jクラスのジャベリンだよ！歌でみんなを笑顔にするから、よろしくおねがいしまーす！」――えへへ、指揮官、挨拶はこんな感じでどうですか？",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"3": {
+						"event": "Login",
+						"media": "login_6",
+						"chinese": "嘿嘿，一起精神满满地度过这美好的一天吧！",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "えへへ、元気いっぱいに、今日も頑張りましょう！",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"4": {
+						"event": "Details",
+						"media": "detail_6",
+						"chinese": "嘿嘿，下次还要四个人一起在舞台上表演！",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "えへへ、次も四人でライブできるといいですね！",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"5": {
+						"event": "Main 1",
+						"media": "main_1_6",
+						"chinese": "指挥官，我在台上的表现怎么样，可爱吗？嘻嘻，我会更加努力的！",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "指揮官、ステージでのジャベリンはどうですか？可愛いですか？えへへ、もっとがんばります！",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"6": {
+						"event": "Main 2",
+						"media": "main_2_6",
+						"chinese": "指挥官，我今天学到了新的舞蹈动作哦，想看吗？",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "指揮官、新しいダンス覚えたんですよ！見てみます？",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"7": {
+						"event": "Main 3",
+						"media": "main_3_6",
+						"chinese": "现在的我，有自信说，我想要将笑容带给不仅仅是我身边的人，还有更多更多，甚至是这个世界上的每一个人！嘿嘿~",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "今は自信持って言えます。ジャベリン、周りの人だけじゃなく、世界中の人を笑顔にできまーす！えへへ♪",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"8": {
+						"event": "Main 4",
+						"media": "main_4_6",
+						"chinese": "指挥官！！！快看，我收到了新的试镜邀请！太好啦",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "指揮官、新しいオーディションを受けることになりました！嬉しいです！",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"9": {
+						"event": "Touch",
+						"media": "touch_1_6",
+						"chinese": "嘿嘿，既然指挥官这么热情，那就再来一曲吧！",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "えへへ、指揮官がそんなに聞きたいようでしたら、もう一曲いきますよ！",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"10": {
+						"event": "Return to Port",
+						"media": "home_6",
+						"chinese": "指挥官辛苦啦，我来给你唱首歌吧~",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "指揮官お疲れ様！ジャベリンが一曲、歌ってあげますね♪",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"11": {
+						"event": "Defeat",
+						"media": "lose_6",
+						"chinese": "呜…标枪，会继续加油的！",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "うぅ…ジャベリン、もっとがんばりまーす！",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					}
+				}
+			},
+			"6": {
 				"skin_id": "biaoqiang_h",
 				"id": "8",
 				"label": "Blissful Purity ",
@@ -1501,7 +1767,7 @@
 					}
 				}
 			},
-			"6": {
+			"7": {
 				"skin_id": "biaoqiang_g",
 				"id": "9",
 				"label": "Javelin (Retrofit)",
@@ -1615,423 +1881,7 @@
 						"englishNote": ""
 					}
 				}
-			},
-			"101": {
-				"skin_id": "biaoqiang_old",
-				"id": "old",
-				"label": "Javelin",
-				"dialogue": {
-					"1": {
-						"event": "Ship Description",
-						"media": "",
-						"chinese": "J级驱逐舰—标枪，舷号F61",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "J級駆逐艦・ジャベリン（F61)",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "J-class destroyer ー Javelin, Hull Number F61!",
-						"englishNote": ""
-					},
-					"2": {
-						"event": "Biography",
-						"media": "old/profile",
-						"chinese": "指挥官好，我是J级驱逐标枪。 和姐妹们参加了纳尔维克海战以及敦刻尔克大撤退，虽然中间闹了一些小别扭，不过也算是奋战到最后了啦！",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "指揮官こんにちは！Jクラスの駆逐艦のジャベリンです！姉妹たちとナルヴィク海戦と、ダンケルクの戦いに参加しました！途中でちょっとトラブルがありましたけど、最後まで戦い抜きましたよ！",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "Good day, Commander! I'm the J class destroyer Javelin! My sisters and I sisters were part of the Narvik battle and the evacuation of Dunkirk! I had a little trouble along the way, but I fought until the very end!",
-						"englishNote": ""
-					},
-					"3": {
-						"event": "Acquisition",
-						"media": "old/get",
-						"chinese": "我是标枪，指挥官指挥官，请多指教啦～欸嘿嘿，因为在意的女生突然自己加入到手下来，不知所措了？",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "ジャベリンです、指揮官、どうぞよろしく。あれれ、好みの女の子が配下になったから、どうしていいか分からないって顔してる！",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "I'm Javelin, Commander. Nice to meet you. Oh ho? You look like you have no idea what to do with a girl of your type being assigned to you!",
-						"englishNote": ""
-					},
-					"4": {
-						"event": "Login",
-						"media": "old/login",
-						"chinese": "指挥官，欢迎肥……回来！",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "指揮官、お帰り…なさい！",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "Welcome back, Commander!",
-						"englishNote": ""
-					},
-					"5": {
-						"event": "Details",
-						"media": "old/detail",
-						"chinese": "指挥官这么在意标枪，好开心！",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "指揮官がこんなにジャベリンのこと気にしてくれるなんて、嬉しいです！",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "Commander, you care so much about me... I'm so very happy!",
-						"englishNote": ""
-					},
-					"6": {
-						"event": "Main 1",
-						"media": "old/main_1",
-						"chinese": "今天一天也好好加油吧！ ",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "今日も一日がんばりましょ！",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "Let's work hard for the whole day!",
-						"englishNote": ""
-					},
-					"7": {
-						"event": "Main 2",
-						"media": "old/main_2",
-						"chinese": "呼啊……讨厌存在感稀薄，我要逆袭~",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "ふあ…やっぱり存在感が薄れるのはいやですね、反撃しましょう～",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "Fwa... I don't like to feel nonexistent. I'm gonna strike back~",
-						"englishNote": ""
-					},
-					"8": {
-						"event": "Main 3",
-						"media": "old/main_3",
-						"chinese": "标枪可是很幸运的哦！",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "ジャベリンはとってもラッキーです！",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "I'm very lucky!",
-						"englishNote": ""
-					},
-					"9": {
-						"event": "Main 4",
-						"media": "old/main_4",
-						"chinese": "指挥官指挥官，陪标枪玩嘛",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "指揮官指揮官、ジャベリンと遊んで~！",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "Commander, Commander, let's play with me~!",
-						"englishNote": ""
-					},
-					"10": {
-						"event": "Main 5",
-						"media": "old/main_5",
-						"chinese": " 指挥官在身边的感觉好安心",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "指揮官が隣…安心します~",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "Commander... it feels safe by your side~",
-						"englishNote": ""
-					},
-					"11": {
-						"event": "Touch",
-						"media": "old/touch_1",
-						"chinese": "指挥官，标枪很有精神哦~",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "指揮官、ジャベリンは元気ですよ！",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "Commander, I'm pumped up!",
-						"englishNote": ""
-					},
-					"12": {
-						"event": "Touch (Special)",
-						"media": "old/touch_2",
-						"chinese": "嘎哦——！指挥官，工口是不行的哦！",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "きゃあ～！指揮官、エロはいけません！",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "Kyaa~! Commander, perverted behaviour is bad!",
-						"englishNote": ""
-					},
-					"13": {
-						"event": "Touch (Head)",
-						"media": "old/touch_head",
-						"chinese": "指挥官指挥官，标枪很有精神哦！",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "指揮官、ジャベリンは元気ですよ！",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "Commander, I'm feeling energetic!",
-						"englishNote": ""
-					},
-					"14": {
-						"event": "Mission",
-						"media": "old/task",
-						"chinese": "指挥官指挥官，新的任务下达了呢",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "指揮官指揮官、新しい任務が発動されましたよ",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "Commander, Commander, new missions have been issued!",
-						"englishNote": ""
-					},
-					"15": {
-						"event": "Mission Complete",
-						"media": "old/mission_complete",
-						"chinese": "指挥官指挥官，快看看奖励都有什么吧？",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "指揮官指揮官、ボーナスに何があるか早く見てみましょう！",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "Commander, Commander! Let's go check out the rewards!",
-						"englishNote": ""
-					},
-					"16": {
-						"event": "Mail",
-						"media": "old/mail",
-						"chinese": "呐呐~有新邮件！",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "ねえねえ、新しいメールですよ！",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "Hey hey, you've got mail",
-						"englishNote": ""
-					},
-					"17": {
-						"event": "Return to Port",
-						"media": "old/home",
-						"chinese": "指挥官辛苦了，我来给你捶捶背吧",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "指揮官お疲れ様です。背中叩いてあげましょうか？",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "Great work, Commander. Do you want a back massage?",
-						"englishNote": ""
-					},
-					"18": {
-						"event": "Commission Complete",
-						"media": "old/expedition",
-						"chinese": "是不是有点累了？正好委托应该完成了，散步去港口迎接姐妹们吧",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "ちょっと疲れました？ちょうど委託が完了したところですよ。港に出て姉妹たちを迎えに行きましょ？",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "Getting tired? The commissions should be done just around this time. Shall we go to the docks to welcome them back?",
-						"englishNote": ""
-					},
-					"19": {
-						"event": "Enhancement",
-						"media": "old/upgrade",
-						"chinese": "嘻嘻，被指挥官关心的感觉好温暖",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "えへへ、指揮官に気を使われると、なんだか温かいです！",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "Hehe, your care is very heart-warming, Commander!",
-						"englishNote": ""
-					},
-					"20": {
-						"event": "Flagship",
-						"media": "old/warcry",
-						"chinese": "消磨下时间吧！",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "良いひまつぶしになりますね！",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "This seems like a good way to kill time!",
-						"englishNote": ""
-					},
-					"21": {
-						"event": "Victory",
-						"media": "old/mvp",
-						"chinese": "我厉害吧？——笨蛋~不会夸得更帅气一点啊！",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "私、すごいですか？そんな～でも、もっといいホメ方でホメてくださいね！",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "Am I amazing? Oh you shouldn't have~ But, please learn how to do a better job praising me!",
-						"englishNote": ""
-					},
-					"22": {
-						"event": "Defeat",
-						"media": "old/lose",
-						"chinese": "啧，大意了！",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "うぅぅ…油断しました…",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "Ugh... I let my guard down...",
-						"englishNote": ""
-					},
-					"23": {
-						"event": "skill",
-						"media": "old/skill",
-						"chinese": "好好看着标枪的活跃吧",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "ジャベリン、全力でいきま～すです！",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "Javelin, full power advance~ Yep!",
-						"englishNote": ""
-					},
-					"24": {
-						"event": "Low HP",
-						"media": "old/hp",
-						"chinese": "为了指挥官，大家加油！",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "指揮官のために、みんな頑張って！",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "Everyone, let's work hard! For the commander's sake!",
-						"englishNote": ""
-					},
-					"25": {
-						"event": "Affinity (Upset)",
-						"media": "old/feeling1",
-						"chinese": "指挥官，再不自重一点的话标枪可就真的不喜欢你了！",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "指揮官、もう少し自重しないと、ジャベリンが指揮官のことを好きじゃなくなりますよ？",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "Commander, if you don't behave yourself, I am going to start disliking you. You hear me?",
-						"englishNote": ""
-					},
-					"26": {
-						"event": "Affinity (Stranger)",
-						"media": "old/feeling2",
-						"chinese": "——我可爱？欸~~？骗人的吧！指挥官你又在骗小孩了～！",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "ーー私が可愛いですか？…えぇぇ~~！ウソでしょう？指揮官また騙すんですか~",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "...I'm cute? ...Eeeeh~! You're lying, right? Commander, are you trying to trick me again~",
-						"englishNote": ""
-					},
-					"27": {
-						"event": "Affinity (Friendly)",
-						"media": "old/feeling3",
-						"chinese": "感觉和指挥官的距离越来越近了呢，嘻嘻，不过还要再努力一点哦~",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "指揮官との距離がどんどん近くなっていますね。ふふふ、でももう少し頑張らないと~",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "I've gotten closer to you now, Commander. Hehehe. But I'm gonna have to work harder~",
-						"englishNote": ""
-					},
-					"28": {
-						"event": "Affinity (Like)",
-						"media": "old/feeling4",
-						"chinese": "指挥官，人家一直想要像漫画里面那样，在大树下被喜欢的人表白呢……",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "指揮官、私ね、マンガみたいに伝説の木の下で告白されたいな~って……",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "Commander, you see, I want to be confessed to under the legendary tree like in comics~ and stuff...",
-						"englishNote": ""
-					},
-					"29": {
-						"event": "Affinity (Love)",
-						"media": "old/feeling5",
-						"chinese": "能和指挥官两个人一起就好让人开心呀～啊，标枪亲手做了便当哦，要吃吗~",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "指揮官と二人きりになるだけで、すごくうれしいです~あ、ジャベリン弁当作りましたよ。食べます~？",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "Being together with you makes me so happy, Commander~ Ah, I made a boxed meal. Do you want to try some?",
-						"englishNote": ""
-					},
-					"30": {
-						"event": "Pledge",
-						"media": "old/propose",
-						"chinese": "指挥官，怎么了，一脸慎重的样子……欸？……等等，标枪还没有做好心理准备，怎么办怎么办，头发还有些乱，也没有打扮过……指挥官，等我一下，绝对要等我哦！",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "指揮官どうしました？表情を固くして……え？……待って、ジャベリンの心の準備はまだ…どうしようどうしよう、髪がちょっとぼさぼさだし格好も普通だし……指揮官、ちょっと待ってて！絶対に待っててね！",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "Commander, what's wrong? Your face looks frozen... Eh? ... Wait, my heart isn't ready... what to do, what to do, my hair is messy and I haven't put on any makup or a dress... Commander, wait for me! Definitely wait for me!",
-						"englishNote": ""
-					},
-					"31": {
-						"event": "Easter Egg 1 (Juno)",
-						"media": "old/link1",
-						"chinese": "见识一下J级的实力吧！",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "Jクラスの実力をご覧なさい！",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "Witness the power of the J-class!",
-						"englishNote": ""
-					},
-					"32": {
-						"event": "Easter Egg 2 (Laffey)",
-						"media": "old/link2",
-						"chinese": "为了指挥官一起加油吧~",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "指揮官のために、一緒にがんばりましょう！",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "Let's work hard for the Commander!",
-						"englishNote": ""
-					},
-					"34": {
-						"event": "Easter Egg 3 (Kaede x5)",
-						"media": "",
-						"chinese": "枫军的姐妹们，Fight~",
-						"chineseTL": "Kaede Legion sisters, Fight~",
-						"chineseNote": "",
-						"japanese": "",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "Kaede's Legion, fight!",
-						"englishNote": ""
-					}
-				}
 			}
 		}
-	},
-	"fleet_tech": {
-		"pt_get": "6",
-		"add_get_attr": "HP",
-		"add_get_value": "1",
-		"add_get_shiptype": "Destroyer",
-		"pt_upgrade": "12",
-		"pt_level": "9",
-		"add_level_attr": "Evasion",
-		"add_level_value": "1",
-		"add_level_shiptype": "Destroyer",
-		"t_level": "5",
-		"ships": "javelin,juno,jupiter,jersey"
 	}
 }

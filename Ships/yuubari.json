@@ -12,7 +12,7 @@
 	"navy": "Sakura Empire",
 	"prefix": "IJN",
 	"buildTime": "01:12:00",
-	"class": "夕張",
+	"class": "Yuubari-class",
 	"voiceActress": "Yui Ogura",
 	"parameters": {
 		"firepower": "C",
@@ -31,7 +31,7 @@
 		"JP": "September 13, 2017",
 		"CN": "June 23, 2017",
 		"KR": "March 27, 2018",
-		"EN": ""
+		"EN": "August 15, 2019"
 	},
 	"artist": {
 		"name": "梦咲枫",
@@ -46,42 +46,42 @@
 		"aviation": "0",
 		"reload": "13"
 	},
-	"acquisitionMethod": "Light Build",
+	"acquisitionMethod": "Light/Heavy/Special Construction",
 	"skill": {
 		"1": {
 			"icon": "10590",
 			"requirement": "Default Unlocked",
-			"name": "Experimental Cruiser",
+			"name": "Prototype Cruiser",
 			"type": "Support",
-			"description": "After combat, increases experience gained by Light Cruisers and Heavy Cruisers by 5% (15%)"
+			"description": "Increases the EXP that your Cruisers earn by 5%(15%)."
 		},
 		"2": {
 			"icon": "2011",
 			"requirement": "Default Unlocked",
 			"name": "Full Firepower",
 			"type": "Offensive",
-			"description": "30% (60%) activation every 20s: For 10 seconds, increases own FP by 20% (40%)"
+			"description": "Every 20s: 30.0%(60.0%) chance to increase this ship's FP by 20.0%(40.0%) for 10s."
 		},
 		"3": {
 			"icon": "12040",
 			"requirement": "Retrofit Unlock",
-			"name": "The Unstable Inventor",
+			"name": "Erratic Inventor",
 			"type": "Support",
 			"description": "Use a random piece of prototype equipment with various effects every 12 seconds: <br>&emsp;★(17%) Prototype Gun Type 0: 6x56dmg HE (Main Gun Efficiency 120%, Armor Modifier 135%/95%/70%)<br>&emsp;★(17%) Prototype Chain Torpedos: 12x32 dmg (Armor Modifier 80%/100%/130%)<br>&emsp;★(14%) Yuubari Fireworks: 1x10 dmg Normal (Armor Modifier 100%/80%/60%)<br>&emsp;★(14%) 18s Endurance: Shield that can take 60 hits<br>&emsp;★(14%) 6s Endurance: Shield that can take 99 hits<br>&emsp;★(14%) Entire fleet recovers 2.4% of Yuubari's Max HP<br>&emsp;★(10%) Band-aid: Heals all friendly ships for 9 HP"
 		},
 		"4": {
 			"icon": "22161",
 			"requirement": "Default Unlocked",
-			"name": "Full Barrage I (II)",
+			"name": "All Out Assault Ⅰ",
 			"type": "Offensive",
-			"description": "Every 12 (8) times the main battery is fired, trigger Full Barrage - Yuubari I (II)"
+			"description": "Activates All Out Assault Ⅰ: Yuubari once every 12 times the Main Guns are fired."
 		}
 	},
 	"skin": {
 		"1": {
 			"id": "xizhang",
-			"name": "Yuubari",
-			"description": "Light cruiser Yuubari.",
+			"name": "Yuubari ",
+			"description": "Yuubari-class light cruiser – Yuubari. ",
 			"expression": {
 				"0": {
 					"id": "0"
@@ -91,7 +91,7 @@
 		"2": {
 			"id": "xizhang_g",
 			"name": "Yuubari (Retrofit)",
-			"description": "New equipment, finally completed! Master, let's perform a live test in a real battle immediately!",
+			"description": "I've finally finished developing my new equipment! Since we still have time, let's go and try it out in live combat right now, Master!",
 			"expression": {
 				"0": {
 					"id": "0"
@@ -208,9 +208,9 @@
 		}
 	},
 	"limitBreak": {
-		"tier1": "Gains Full Barrage I / Main Gun Efficiency +5%",
-		"tier2": "Max Torpedo Capacity +1 / Pre-Loaded Torpedo +1 / Torpedo Efficiency +10%",
-		"tier3": "Upgrades Full Barrage I→II / Torpedo Efficiency +15%"
+		"tier1": "Unlock All Out Assault Ⅰ/AA gun efficiency +5%",
+		"tier2": "Torpedo base +1/Torpedo preload +1/Torpedo efficiency +10%",
+		"tier3": "Improve All Out Assault/Torpedo efficiency +15%"
 	},
 	"equipmentLoadout": {
 		"1": {
@@ -248,7 +248,7 @@
 		"light": {
 			"JP": "✓",
 			"CN": "✓",
-			"EN": "-"
+			"EN": "✓"
 		},
 		"heavy": {
 			"JP": "-",
@@ -290,7 +290,7 @@
 			"1": {
 				"skin_id": "xizhang",
 				"id": "0",
-				"label": "Yuubari",
+				"label": "Yuubari ",
 				"dialogue": {
 					"1": {
 						"event": "Ship Description",
@@ -301,7 +301,7 @@
 						"japanese": "軽巡洋艦・夕張",
 						"japaneseTL": "Yuubari-type light cruiser - Yuubari",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Yuubari-class light cruiser – Yuubari.",
 						"englishNote": ""
 					},
 					"2": {
@@ -313,7 +313,7 @@
 						"japanese": "重桜夕張型軽巡洋艦夕張。設計は海軍条約の制限を受けたけど、逆に新しいギミックが数多く応用されたぞ。太平洋戦争では水雷戦隊の旗艦として活躍した。むむむ、酸素魚雷、研究しに何本か手に入れたいな…",
 						"japaneseTL": "I'm Yuubari, a Sakura Empire Yuubari-class Light Cruiser. A naval treaty imposed limitations on my design, although as a result, many new gimmicks were applied to me. I served as the flagship of destroyer squadrons during the Pacific War. Mmpf, I wish I could get my hands on some books for my research on oxygen torpedoes…",
 						"japaneseNote": "",
-						"english": "",
+						"english": "I am Yuubari, Sakura Empire Yuubari-class light cruiser. I was developed under the constraints of a naval treaty, but this conversely allowed me to utilize a great number of new technologies. I served as the flagship of a Destroyer Squadron in the Pacific War. Hmm... I will need many oxygen torpedoes if I am to research them...",
 						"englishNote": ""
 					},
 					"3": {
@@ -325,7 +325,7 @@
 						"japanese": "私は軽巡洋艦・「夕張」。ご主人はどこかで私と会ったことあるって？むむむ…あ、ありえん…私に姉妹などいないはず…",
 						"japaneseTL": "I'm Yuubari, the light cruiser. Master, you say you've seen me somewhere before? Mmpf… th-that's impossible… I shouldn't have any sisters…",
 						"japaneseNote": "",
-						"english": "",
+						"english": "I am light cruiser Yuubari. You say we've met before, Master? Hmm... b-but that's not possible... I don't have any sisters after all...",
 						"englishNote": ""
 					},
 					"4": {
@@ -337,7 +337,7 @@
 						"japanese": "ご主人さえいれば、夕張はもう何も怖くない…！",
 						"japaneseTL": "So long as my Master is here, Yuubari fears nothing…!",
 						"japaneseNote": "",
-						"english": "",
+						"english": "With you by my side, Master, I have nothing to fear...!",
 						"englishNote": ""
 					},
 					"5": {
@@ -349,7 +349,7 @@
 						"japanese": "缶でも兵装でも、夕張のが一番先進的だぞ（ドヤッ",
 						"japaneseTL": "Be it boilers or armaments, Yuubari's ones are the most advanced (smug.)",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Be they canisters or weaponry, my developments in them are the latest!",
 						"englishNote": ""
 					},
 					"6": {
@@ -361,7 +361,7 @@
 						"japanese": "ふぅ……（昼寝中）",
 						"japaneseTL": "Zzz… (napping)",
 						"japaneseNote": "",
-						"english": "",
+						"english": "*Yawn*...",
 						"englishNote": ""
 					},
 					"7": {
@@ -373,7 +373,7 @@
 						"japanese": "メロン？すごく食べてみたい…",
 						"japaneseTL": "A melon? I'd really like to taste one…",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Melon bread? I'm extraordinarily curious as to how it tastes...",
 						"englishNote": ""
 					},
 					"8": {
@@ -385,7 +385,7 @@
 						"japanese": "ガトー、怖い…あんな怖いのにネコの名前とかなくね？",
 						"japaneseTL": "Gato sounds scary… Even though it's scary, doesn't it sound sort of like a cat's name?",
 						"japaneseNote": "",
-						"english": "",
+						"english": "The Gatos are terrifying... Why are such frightening submarines named after a catshark?",
 						"englishNote": ""
 					},
 					"9": {
@@ -397,7 +397,7 @@
 						"japanese": "ご主人の手、暖かくて気持ちい～",
 						"japaneseTL": "Master's hand is nice and warm~",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Your hand is so warm and gentle, Master~",
 						"englishNote": ""
 					},
 					"10": {
@@ -409,7 +409,7 @@
 						"japanese": "ん…うっ…あぅ～～～もう噛むよ！",
 						"japaneseTL": "Mm… Uuh-Auu~~~ I'll bite you!",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Mmh... ugh... gah... stop, or I will bite!",
 						"englishNote": ""
 					},
 					"11": {
@@ -433,7 +433,7 @@
 						"japanese": "未完了の任務……むむむ、残念ながら夕張、研究の成果は役に立たない模様…",
 						"japaneseTL": "There are unfinished missions… Mmpf, I'm sorry to say this, but it seems like the results of Yuubari's research cannot be applied there...",
 						"japaneseNote": "",
-						"english": "",
+						"english": "You have incomplete missions... Hmm, it appears the results of my research will not be of any use...",
 						"englishNote": ""
 					},
 					"13": {
@@ -445,7 +445,7 @@
 						"japanese": "ご主人。任務完了したら、そろそろ昼寝の時間かな？",
 						"japaneseTL": "Master, once the missions are complete, wouldn't it be about time for an afternoon nap?",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Master, I believe it is time for a nap once you've finished your missions.",
 						"englishNote": ""
 					},
 					"14": {
@@ -457,7 +457,7 @@
 						"japanese": "むむむ、怪しいメール…ご主人~開けてみてよ~",
 						"japaneseTL": "Mmpf, a suspicious mail… Master~ Open it up~",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Hmm, this mail seems questionable... Master, I urge you to open it!",
 						"englishNote": ""
 					},
 					"15": {
@@ -469,7 +469,7 @@
 						"japanese": "データ収集完了。次は装備のカイゼンね",
 						"japaneseTL": "Data collection complete. Next up would be equipment improvement.",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Data collection complete. Now we shall use it to improve our gear.",
 						"englishNote": ""
 					},
 					"16": {
@@ -481,7 +481,7 @@
 						"japanese": "委託完了だ！むむむ、お土産あるかな…",
 						"japaneseTL": "The commission is complete! Mmpf, I wonder if they brought any souvenirs…",
 						"japaneseNote": "",
-						"english": "",
+						"english": "A commission is done! Hmm, I wonder if they brought us gifts...",
 						"englishNote": ""
 					},
 					"17": {
@@ -493,7 +493,7 @@
 						"japanese": "むむむ、詰め込みすぎたかも…",
 						"japaneseTL": "Mmpf, I may have tried to fit too much in…",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Hmm... It seems to be a bit too tight in here...",
 						"englishNote": ""
 					},
 					"18": {
@@ -505,7 +505,7 @@
 						"japanese": "新型兵装実戦テストーー始めっ！",
 						"japaneseTL": "Live combat testing for new armament… Begin!",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Combat trial for new equipment... begin!",
 						"englishNote": ""
 					},
 					"19": {
@@ -517,7 +517,7 @@
 						"japanese": "これでご主人も装備更新の大切さが少しわかったかな",
 						"japaneseTL": "Does Master now know a little more about the importance of improving your equipment?",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Surely by now, you've begun to understand the importance of developing new gear, Master?",
 						"englishNote": ""
 					},
 					"20": {
@@ -529,7 +529,7 @@
 						"japanese": "はわわ！……新しい装備ができたら二度と負けないぞ！",
 						"japaneseTL": "Hawawa! …Once I get new equipment I won't lose to you again!",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Dear me! ... Once I'm done developing new gear, I won't lose like this again!",
 						"englishNote": ""
 					},
 					"21": {
@@ -541,7 +541,7 @@
 						"japanese": "新兵器の力を喰らえ！",
 						"japaneseTL": "Taste the power of my new weapons!",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Feel the power of my advanced weapons!",
 						"englishNote": ""
 					},
 					"22": {
@@ -553,7 +553,7 @@
 						"japanese": "うぅ……兵装が無事ならいいけど…",
 						"japaneseTL": "Uuh… As long as the armaments aren't damaged…",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Oww... No issue, as long as my equipment is fine...",
 						"englishNote": ""
 					},
 					"23": {
@@ -565,7 +565,7 @@
 						"japanese": "ご主人、夕張には近寄らないでもらえる？",
 						"japaneseTL": "Master, can you please not come close to Yuubari?",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Master, could you just stay away from me?",
 						"englishNote": ""
 					},
 					"24": {
@@ -577,7 +577,7 @@
 						"japanese": "ご主人、夕張をじっと見つめて何を考えてるの？ふふふ、夕張はこういうのに結構鋭いぞ～",
 						"japaneseTL": "Master, what's on your mind while you stare at Yuubari? Hehehe, Yuubari is quite perceptive of these things~",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Master, what's on your mind when you stare at me? Hohoho, I'm rather perceptive, I'll have you know!",
 						"englishNote": ""
 					},
 					"25": {
@@ -589,7 +589,7 @@
 						"japanese": "夕張、出撃よりやっぱり母港にいるほうがいいなあ。ここぞ夕張のお家。青き海に眩しくて暖かい太陽……うぅ…ふむむ……Zzzzz",
 						"japaneseTL": "Yuubari prefers to stay in port rather than sortie after all. This is Yuubari's home. The blue ocean and the dazzling warm Sun… Auh… Mmmf… Zzzzz.",
 						"japaneseNote": "",
-						"english": "",
+						"english": "I much prefer staying in the port than going on sorties. This is my home; by the blue seas, beneath the warm and dazzling sunlight... *Yawn*... Mmhh... Zzzz...",
 						"englishNote": ""
 					},
 					"26": {
@@ -601,7 +601,7 @@
 						"japanese": "ご主人はどんな娘がタイプかな？夕張かな？夕張は、ご主人のような人が好きだよ~",
 						"japaneseTL": "What type of girl does Master fancy? A girl like Yuubari perhaps? Yuubari likes people like you, Master~",
 						"japaneseNote": "",
-						"english": "",
+						"english": "What girls are your type, Master? Someone like me? You know, my type is people like you, Master~",
 						"englishNote": ""
 					},
 					"27": {
@@ -613,7 +613,7 @@
 						"japanese": "ご主人もお昼寝？はい、これは夕張の一番お気に入りの枕。さてこの枕、もしかしたら夢の中で夕張と出会える枕かも?もしそうなら……へへへ♪",
 						"japaneseTL": "About to take a nap, Master? Here, this is Yuubari's favorite pillow. Who knows, if you use this pillow, you might meet Yuubari in your dreams, perhaps? If that happens… Ehehe♪",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Do you want to nap with me, Master? Take this, it is my favorite pillow. Perhaps if you sleep on it, you will see me in your dreams. And if you do... Hehehe♪",
 						"englishNote": ""
 					},
 					"28": {
@@ -625,10 +625,46 @@
 						"japanese": "嬉しい♪これからご主人が毎日朝目が覚めた時、真っ先に目に入るのは夕張になるのだぞ！えへへ♪",
 						"japaneseTL": "I'm so happy♪ From now on when Master wakes up in the morning, the first thing he sees will be Yuubari! Ehehe♪",
 						"japaneseNote": "",
-						"english": "",
+						"english": "I'm overjoyed♪ Starting today, every day when you wake up, the first thing you'll see in the morning is me~! Hehehe♪",
 						"englishNote": ""
 					},
 					"29": {
+						"event": "Like Present",
+						"media": "present_like",
+						"chinese": "",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"30": {
+						"event": "Dislike Present",
+						"media": "present_dislike",
+						"chinese": "",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"31": {
+						"event": "Main Title",
+						"media": "extra",
+						"chinese": "",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"32": {
 						"event": "Valentines 2018",
 						"media": "",
 						"chinese": "唔唔，巧克力的“改良”来不及了吗…没办法了，这个“情人节巧克力试做型改二”先送给指挥官吧。吃完后记得写“意见书”反馈给我",
@@ -640,7 +676,7 @@
 						"english": "",
 						"englishNote": ""
 					},
-					"30": {
+					"33": {
 						"event": "Valentines 2019",
 						"media": "",
 						"chinese": "主人，我把制作巧克力的蛮啾们借给你一天，想吃的话指挥它们就可以。夕张已经做了“改善”，不管怎样的巧克力它们都能做哦，确定确定，嗯嗯",
@@ -668,12 +704,24 @@
 						"japanese": "新しい装備、ついに完成！ご主人、すぐに実戦でテストを行おう！",
 						"japaneseTL": "New equipment, finally completed! Master, let's perform a live test in a real battle immediately!",
 						"japaneseNote": "",
-						"english": "",
+						"english": "I've finally finished developing my new equipment! Since we still have time, let's go and try it out in live combat right now, Master!",
 						"englishNote": ""
 					},
 					"2": {
+						"event": "Acquisition",
+						"media": "get_9",
+						"chinese": "新的装备终于完成了！事不宜迟，马上来试试看实战效果如何吧，主人",
+						"chineseTL": "The new equipment is complete! Without further ado, let's try it out in battle, Master!",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "New equipment, finally completed! Master, let's perform a live test in a real battle immediately!",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"3": {
 						"event": "Login",
-						"media": "",
+						"media": "login_9",
 						"chinese": "主人，今天也来帮夕张一起收集数据吧？",
 						"chineseTL": "Master, will you help Yuubari collect data again today?",
 						"chineseNote": "",
@@ -683,10 +731,10 @@
 						"english": "",
 						"englishNote": ""
 					},
-					"3": {
+					"4": {
 						"event": "Details",
-						"media": "",
-						"chinese": "明石非常热心地给夕张的研究提供了很多帮助，但总觉得她好像有什么别的目的...",
+						"media": "detail_9",
+						"chinese": "明石非常热心地给夕张的研究提供了很多帮助，但总觉得她好像有什么别的目的…",
 						"chineseTL": "Akashi seems very enthusiastic in providing help with Yuubari's research, but I get a feeling she has other purposes in mind...",
 						"chineseNote": "",
 						"japanese": "",
@@ -695,45 +743,9 @@
 						"english": "",
 						"englishNote": ""
 					},
-					"4": {
-						"event": "Idle 1",
-						"media": "",
-						"chinese": "研究总是会伴随着失败......不过有主人的支持，这些困难都不算什么！",
-						"chineseTL": "Research is always accompanied by failures... but with Master's support, these difficulties don't mean anything!",
-						"chineseNote": "",
-						"japanese": "",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "",
-						"englishNote": ""
-					},
 					"5": {
-						"event": "Idle 2",
-						"media": "",
-						"chinese": "唔...夕张有点累了...能在这里小睡一会吗？",
-						"chineseTL": "Hmm... Yuubari is a bit tired... can I take a nap here?",
-						"chineseNote": "",
-						"japanese": "",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "",
-						"englishNote": ""
-					},
-					"6": {
-						"event": "Idle 3",
-						"media": "",
-						"chinese": "现在的话，就算遇到猫鲨级我也不会怕了，大概",
-						"chineseTL": "The current me won't be afraid anymore even if I meet a Gato-class, probably",
-						"chineseNote": "",
-						"japanese": "",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "",
-						"englishNote": ""
-					},
-					"7": {
 						"event": "Touch",
-						"media": "",
+						"media": "touch_1_9",
 						"chinese": "主人也要记得好好休息哦？",
 						"chineseTL": "Master must remember to take a good rest too",
 						"chineseNote": "",
@@ -743,9 +755,9 @@
 						"english": "",
 						"englishNote": ""
 					},
-					"8": {
-						"event": "Special Touch",
-						"media": "",
+					"6": {
+						"event": "Touch (Special)",
+						"media": "touch_2_9",
 						"chinese": "呜~~敲你哦！",
 						"chineseTL": "Uuu~~ I'll hit you!",
 						"chineseNote": "",
@@ -755,9 +767,9 @@
 						"english": "",
 						"englishNote": ""
 					},
-					"9": {
-						"event": "Return from Sortie",
-						"media": "",
+					"7": {
+						"event": "Return to Port",
+						"media": "home_9",
 						"chinese": "嗯嗯，这次的数据收集也很成功呢",
 						"chineseTL": "Hmm, the data collection was successful this time as well",
 						"chineseNote": "",
@@ -767,9 +779,9 @@
 						"english": "",
 						"englishNote": ""
 					},
-					"10": {
-						"event": "MVP",
-						"media": "",
+					"8": {
+						"event": "Victory",
+						"media": "mvp_9",
 						"chinese": "重新认识到更新装备的重要性了吧，主人？",
 						"chineseTL": "Do you recognize the importance of upgrading equipment, Master?",
 						"chineseNote": "",
@@ -779,10 +791,10 @@
 						"english": "",
 						"englishNote": ""
 					},
-					"11": {
+					"9": {
 						"event": "Defeat",
-						"media": "",
-						"chinese": "唔...看来装备更新还不够...",
+						"media": "lose_9",
+						"chinese": "唔…看来装备更新还不够…",
 						"chineseTL": "Hmph... seems like the equipment upgrades aren't enough still",
 						"chineseNote": "",
 						"japanese": "",
