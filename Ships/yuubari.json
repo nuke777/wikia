@@ -12,7 +12,7 @@
 	"navy": "Sakura Empire",
 	"prefix": "IJN",
 	"buildTime": "01:12:00",
-	"class": "夕張",
+	"class": "Yuubari-class",
 	"voiceActress": "Yui Ogura",
 	"parameters": {
 		"firepower": "C",
@@ -60,7 +60,7 @@
 			"requirement": "Default Unlocked",
 			"name": "Full Firepower",
 			"type": "Offensive",
-			"description": "Every 20s: $1 chance to increase this ship's FP by $2 for 10s."
+			"description": "Every 20s: 30.0%(60.0%) chance to increase this ship's FP by 20.0%(40.0%) for 10s."
 		},
 		"3": {
 			"icon": "12040",
@@ -90,8 +90,8 @@
 		},
 		"2": {
 			"id": "xizhang_g",
-			"name": "夕張改",
-			"description": "新しい装備、ついに完成！ご主人、すぐに実戦でテストを行おう！",
+			"name": "Yuubari (Retrofit)",
+			"description": "I've finally finished developing my new equipment! Since we still have time, let's go and try it out in live combat right now, Master!",
 			"expression": {
 				"0": {
 					"id": "0"
@@ -693,7 +693,7 @@
 			"2": {
 				"skin_id": "xizhang_g",
 				"id": "9",
-				"label": "夕張改",
+				"label": "Yuubari (Retrofit)",
 				"dialogue": {
 					"1": {
 						"event": "Ship Description",
@@ -704,7 +704,7 @@
 						"japanese": "新しい装備、ついに完成！ご主人、すぐに実戦でテストを行おう！",
 						"japaneseTL": "New equipment, finally completed! Master, let's perform a live test in a real battle immediately!",
 						"japaneseNote": "",
-						"english": "",
+						"english": "I've finally finished developing my new equipment! Since we still have time, let's go and try it out in live combat right now, Master!",
 						"englishNote": ""
 					},
 					"2": {
@@ -734,7 +734,7 @@
 					"4": {
 						"event": "Details",
 						"media": "detail_9",
-						"chinese": "明石非常热心地给夕张的研究提供了很多帮助，但总觉得她好像有什么别的目的...",
+						"chinese": "明石非常热心地给夕张的研究提供了很多帮助，但总觉得她好像有什么别的目的…",
 						"chineseTL": "Akashi seems very enthusiastic in providing help with Yuubari's research, but I get a feeling she has other purposes in mind...",
 						"chineseNote": "",
 						"japanese": "",
@@ -744,42 +744,6 @@
 						"englishNote": ""
 					},
 					"5": {
-						"event": "Main 1",
-						"media": "main_1_9",
-						"chinese": "研究总是会伴随着失败......不过有主人的支持，这些困难都不算什么！",
-						"chineseTL": "Research is always accompanied by failures... but with Master's support, these difficulties don't mean anything!",
-						"chineseNote": "",
-						"japanese": "",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "",
-						"englishNote": ""
-					},
-					"6": {
-						"event": "Main 2",
-						"media": "main_2_9",
-						"chinese": "唔...夕张有点累了...能在这里小睡一会吗？",
-						"chineseTL": "Hmm... Yuubari is a bit tired... can I take a nap here?",
-						"chineseNote": "",
-						"japanese": "",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "",
-						"englishNote": ""
-					},
-					"7": {
-						"event": "Main 3",
-						"media": "main_3_9",
-						"chinese": "现在的话，就算遇到猫鲨级我也不会怕了，大概",
-						"chineseTL": "The current me won't be afraid anymore even if I meet a Gato-class, probably",
-						"chineseNote": "",
-						"japanese": "",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "",
-						"englishNote": ""
-					},
-					"8": {
 						"event": "Touch",
 						"media": "touch_1_9",
 						"chinese": "主人也要记得好好休息哦？",
@@ -791,7 +755,7 @@
 						"english": "",
 						"englishNote": ""
 					},
-					"9": {
+					"6": {
 						"event": "Touch (Special)",
 						"media": "touch_2_9",
 						"chinese": "呜~~敲你哦！",
@@ -803,7 +767,7 @@
 						"english": "",
 						"englishNote": ""
 					},
-					"10": {
+					"7": {
 						"event": "Return to Port",
 						"media": "home_9",
 						"chinese": "嗯嗯，这次的数据收集也很成功呢",
@@ -815,7 +779,7 @@
 						"english": "",
 						"englishNote": ""
 					},
-					"11": {
+					"8": {
 						"event": "Victory",
 						"media": "mvp_9",
 						"chinese": "重新认识到更新装备的重要性了吧，主人？",
@@ -827,10 +791,10 @@
 						"english": "",
 						"englishNote": ""
 					},
-					"12": {
+					"9": {
 						"event": "Defeat",
 						"media": "lose_9",
-						"chinese": "唔...看来装备更新还不够...",
+						"chinese": "唔…看来装备更新还不够…",
 						"chineseTL": "Hmph... seems like the equipment upgrades aren't enough still",
 						"chineseNote": "",
 						"japanese": "",

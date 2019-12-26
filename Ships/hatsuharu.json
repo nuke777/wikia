@@ -1,201 +1,227 @@
 {
-	"name_reference": "hatsuharu",
-	"cn_reference": "chuchun",
-	"nameJP": "初春",
-	"nameCN": "初春",
-	"ID": "171",
-	"name": "Hatsuharu",
-	"internal_id": "301211",
-	"rarity": "Rare",
-	"initialStar": "★★☆☆☆",
-	"hull": "Destroyer",
-	"navy": "Sakura Empire",
-	"prefix": "IJN",
-	"buildTime": "",
-	"class": "Hatsuharu-Class",
-	"voiceActress": "Marika Kouno",
+	"name_reference" : "hatsuharu",
+	"cn_reference" : "chuchun",
+	"nameJP" : "初春",
+	"nameCN" : "初春",
+	"ID" : "171",
+	"name" : "Hatsuharu",
+	"internal_id" : "301211",
+	"rarity" : "Rare",
+	"initialStar" : "★★☆☆☆",
+	"hull" : "Destroyer",
+	"navy" : "Sakura Empire",
+	"prefix" : "IJN",
+	"buildTime" : "00:25:00",
+	"voiceActress" : "Marika Kouno",
 	"parameters": {
-		"firepower": "D",
-		"torpedo": "A",
-		"aviation": "E",
-		"evasion": "A",
-		"antiAir": "D",
-		"hp": "D"
+		"firepower" : "D",
+		"torpedo" : "A",
+		"aviation" : "E",
+		"evasion" : "A",
+		"antiAir" : "D",
+		"hp" : "D"
 	},
 	"scrap": {
-		"gold": "4",
-		"oil": "3",
-		"medal": "1"
+		"gold" : "4",
+		"oil" : "3",
+		"medal" : "1"
 	},
 	"releaseDate": {
-		"JP": "",
-		"CN": "",
-		"KR": "",
-		"EN": ""
+		"JP" : "",
+		"CN" : "",
+		"KR" : "",
+		"EN" : ""
 	},
 	"artist": {
-		"name": "",
-		"weibo": "",
-		"twitter": "",
-		"pixiv": "",
-		"other": ""
+		"name" : "ALLENES",
+		"weibo" : "https://weibo.com/u/3818062182",
+		"twitter" : "https://twitter.com/CN_ALLENES",
+		"pixiv" : "https://www.pixiv.net/member.php?id=8217405",
+		"other" : ""
 	},
+	"class" : "Hatsuharu-Class",
 	"enhance": {
-		"firepower": "4",
-		"torpedo": "30",
-		"aviation": "0",
-		"reload": "14"
+		"firepower" : "4",
+		"torpedo" : "30",
+		"aviation" : "0",
+		"reload" : "14"
 	},
-	"acquisitionMethod": "Monthly Sign-in, 小型艦建造",
+	"acquisitionMethod" : "Monthly Sign-in, Light ship Construction",
 	"skill": {
-		"1": {
-			"icon": "2051",
-			"requirement": "",
-			"name": "Double Torpedo",
-			"type": "Offensive",
-			"description": "When this ship fires its Torpedoes: $1 chance to launch a second wave of Torpedoes."
+		"1" : {
+			"icon" : "2051",
+			"requirement" : "Default Unlocked",
+			"name" : "Double Torpedo",
+			"type" : "Offensive",
+			"description" : "When this ship fires its Torpedoes: 15.0%(30.0%) chance to launch a second wave of Torpedoes."
 		},
-		"2": {
-			"icon": "22041",
-			"requirement": "",
-			"name": "All Out Assault Ⅰ",
-			"type": "Offensive",
-			"description": "Activate All Out Assault Ⅰ: Hatsuharu Class once every 15 times the main gun is fired."
+		"2" : {
+			"icon" : "1011",
+			"requirement" : "Default Unlocked",
+			"name" : "Torpedo Command: Destroyers",
+			"type" : "Support",
+			"description" : "Increases the TRP of all DDs in your fleet by 5.0%(15.0%). Does not stack with the same skill."
+		},
+		"3" : {
+			"icon" : "22041",
+			"requirement" : "Limit Break I (III)",
+			"name" : "All Out Assault Ⅰ",
+			"type" : "Offensive",
+			"description" : "Activates All Out Assault Ⅰ: Hatsuharu Class once every 15 times the Main Guns are fired."
 		}
 	},
 	"skin": {
-		"1": {
-			"id": "chuchun",
-			"name": "Hatsuharu",
-			"description": "Hatsuharu-class destroyer number one – Hatsuharu.",
-			"expression": {
-				"0": {
-					"id": "0"
+		"1" : {
+			"id" : "chuchun",
+			"name" : "Hatsuharu",
+			"description" : "Hatsuharu-class destroyer number one – Hatsuharu.",
+			"expression" : {
+				"0" : {
+					"id" : "0"
 				}
 			}
 		},
-		"2": {
-			"id": "chuchun_2",
-			"name": "雪の初春",
-			"description": "みんなが一緒に遊んでいる…私、や、やっぱり……えっ、私も参加するの……あぅ…がが、がんばりますぅ……",
-			"expression": {
-				"0": {
-					"id": "0"
+		"2" : {
+			"id" : "chuchun_2",
+			"name" : "Snow Day Hatsuharu",
+			"description" : "Everyone's playing together...? I-I think I'll pass... Y-you want me to join them? Ugh, well, if you say so, then I-I-I'll try to socialize with them...!",
+			"expression" : {
+				"0" : {
+					"id" : "0"
 				},
-				"1": {
-					"id": "1"
+				"1" : {
+					"id" : "1"
 				},
-				"2": {
-					"id": "2"
+				"2" : {
+					"id" : "2"
 				},
-				"3": {
-					"id": "3"
+				"3" : {
+					"id" : "3"
+				}
+			}
+		},
+		"3" : {
+			"id" : "chuchun_g",
+			"name" : "初春改",
+			"description" : "初春、改造完了しました…こ、これでもうちょっと気を強く持てるといいけど……",
+			"expression" : {
+				"0" : {
+					"id" : "0"
+				},
+				"1" : {
+					"id" : "1"
+				},
+				"2" : {
+					"id" : "2"
+				},
+				"3" : {
+					"id" : "3"
 				}
 			}
 		}
 	},
 	"defaultEquipment": {
-		"1": {
-			"icon": "31200",
-			"rarity": "Common",
-			"name": "127mm Mounted Gun"
+		"1" : {
+			"icon" : "31200",
+			"rarity" : "Common",
+			"name" : "127mm Mounted Gun"
 		},
-		"2": {
-			"icon": "35100",
-			"rarity": "Common",
-			"name": "Triple 610mm Torpedo"
+		"2" : {
+			"icon" : "35100",
+			"rarity" : "Common",
+			"name" : "Triple 610mm Torpedo"
 		},
-		"3": {
-			"icon": "",
-			"rarity": "",
-			"name": ""
+		"3" : {
+			"icon" : "",
+			"rarity" : "",
+			"name" : ""
 		}
 	},
 	"stats": {
+		"base": {
+			"hp" : "286",
+			"firepower" : "11",
+			"torpedo" : "92",
+			"antiAir" : "27",
+			"aviation" : "0",
+			"reload" : "72",
+			"hit" : "66",
+			"evasion" : "71",
+			"speed" : "43.2",
+			"luck" : "45",
+			"asw" : "46",
+			"oxygen" : "0",
+			"ammo" : "0",
+			"cost" : "2",
+			"armor" : "Light"
+		},
 		"100": {
-			"hp": "1477",
-			"firepower": "51",
-			"torpedo": "435",
-			"antiAir": "126",
-			"aviation": "0",
-			"reload": "171",
-			"hit": "171",
-			"evasion": "186",
-			"speed": "43.2",
-			"luck": "45",
-			"asw": "169",
-			"oxygen": "0",
-			"ammo": "0",
-			"cost": "8",
-			"armor": "Light"
+			"hp" : "1477",
+			"firepower" : "51",
+			"torpedo" : "435",
+			"antiAir" : "126",
+			"aviation" : "0",
+			"reload" : "171",
+			"hit" : "171",
+			"evasion" : "186",
+			"speed" : "43.2",
+			"luck" : "45",
+			"asw" : "169",
+			"oxygen" : "0",
+			"ammo" : "0",
+			"cost" : "8",
+			"armor" : "Light"
 		},
 		"120": {
-			"hp": "1773",
-			"firepower": "59",
-			"torpedo": "478",
-			"antiAir": "145",
-			"aviation": "0",
-			"reload": "196",
-			"hit": "180",
-			"evasion": "192",
-			"speed": "43.2",
-			"luck": "45",
-			"asw": "189",
-			"oxygen": "0",
-			"ammo": "0",
-			"cost": "8",
-			"armor": "Light"
-		},
-		"base": {
-			"hp": "286",
-			"firepower": "11",
-			"torpedo": "92",
-			"antiAir": "27",
-			"aviation": "0",
-			"reload": "72",
-			"hit": "66",
-			"evasion": "71",
-			"speed": "43.2",
-			"luck": "45",
-			"asw": "46",
-			"oxygen": "0",
-			"ammo": "0",
-			"cost": "2",
-			"armor": "Light"
+			"hp" : "1773",
+			"firepower" : "59",
+			"torpedo" : "478",
+			"antiAir" : "145",
+			"aviation" : "0",
+			"reload" : "196",
+			"hit" : "180",
+			"evasion" : "192",
+			"speed" : "43.2",
+			"luck" : "45",
+			"asw" : "189",
+			"oxygen" : "0",
+			"ammo" : "0",
+			"cost" : "8",
+			"armor" : "Light"
 		},
 		"100retrofit": {
-			"hp": "",
-			"firepower": "",
-			"torpedo": "",
-			"antiAir": "",
-			"aviation": "",
-			"reload": "",
-			"hit": "",
-			"evasion": "",
-			"speed": "43.2",
-			"luck": "45",
-			"asw": "",
-			"oxygen": "0",
-			"ammo": "0",
-			"cost": "8",
-			"armor": "Light"
+			"hp" : "1642",
+			"firepower" : "51",
+			"torpedo" : "475",
+			"antiAir" : "156",
+			"aviation" : "0",
+			"reload" : "171",
+			"hit" : "171",
+			"evasion" : "206",
+			"speed" : "46.2",
+			"luck" : "45",
+			"asw" : "169",
+			"oxygen" : "0",
+			"ammo" : "0",
+			"cost" : "8",
+			"armor" : "Light"
 		},
 		"120retrofit": {
-			"hp": "",
-			"firepower": "",
-			"torpedo": "",
-			"antiAir": "",
-			"aviation": "",
-			"reload": "",
-			"hit": "",
-			"evasion": "",
-			"speed": "43.2",
-			"luck": "45",
-			"asw": "",
-			"oxygen": "0",
-			"ammo": "0",
-			"cost": "8",
-			"armor": "Light"
+			"hp" : "1938",
+			"firepower" : "59",
+			"torpedo" : "518",
+			"antiAir" : "175",
+			"aviation" : "0",
+			"reload" : "196",
+			"hit" : "180",
+			"evasion" : "212",
+			"speed" : "46.2",
+			"luck" : "45",
+			"asw" : "189",
+			"oxygen" : "0",
+			"ammo" : "0",
+			"cost" : "8",
+			"armor" : "Light"
 		}
 	},
 	"limitBreak": {
@@ -223,23 +249,36 @@
 			"preload": "0/0/0/0"
 		},
 		"4": {
-			"type": "Auxiliary",
+			"type": "Auxilary",
 			"efficiency": "-",
 			"amount": "-",
 			"preload": "-"
 		},
 		"5": {
-			"type": "Auxiliary",
+			"type": "Auxilary",
 			"efficiency": "-",
 			"amount": "-",
 			"preload": "-"
 		}
 	},
+	"fleet_tech": {
+		"pt_get": "4",
+		"add_get_attr": "HP",
+		"add_get_value": "1",
+		"add_get_shiptype": "Destroyer",
+		"pt_upgrade": "8",
+		"pt_level": "6",
+		"add_level_attr": "Reload",
+		"add_level_value": "1",
+		"add_level_shiptype": "Destroyer",
+		"t_level": "4",
+		"ships": "hatsuharu,wakaba,hatsushimo,ariake,yuugure"
+	},
 	"build": {
 		"light": {
-			"JP": "",
-			"CN": "",
-			"EN": ""
+			"JP": "✓",
+			"CN": "✓",
+			"EN": "✓"
 		},
 		"heavy": {
 			"JP": "",
@@ -279,488 +318,590 @@
 	"lines": {
 		"skin": {
 			"1": {
-				"skin_id": "chuchun",
-				"id": "0",
-				"label": "Hatsuharu",
-				"dialogue": {
-					"1": {
-						"event": "Ship Description",
-						"media": "",
-						"chinese": "初春级驱逐舰一番舰—初春",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "初春型駆逐艦一番艦・初春",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "Hatsuharu-class destroyer number one – Hatsuharu.",
-						"englishNote": ""
+				"skin_id" : "chuchun",
+				"id" : "0",
+				"label" : "Hatsuharu",
+				"dialogue" : {
+					"1" : {
+						"event" : "Ship Description",
+						"media" : "",
+						"chinese" : "初春级驱逐舰一番舰—初春",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "初春型駆逐艦一番艦・初春",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Hatsuharu-class destroyer number one – Hatsuharu.",
+						"englishNote" : ""
 					},
-					"2": {
-						"event": "Biography",
-						"media": "profile",
-						"chinese": "我是初春级一号舰的初春……隶属于第二十一驱逐队，一直和妹妹们在北方海域活动……虽然没有什么战功，也努力过了……",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "は、初春級の、一番艦の、は、初春です……に、二十一駆逐隊の、妹たちと、ほ、北方海域で……戦果はなかったけど、が、がががんばりました……",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "I-I'm Hatsuharu, first ship of t-the Hatsuharu-class... I-I served in the north, together with my s-sisters from Destroyer Division 21... I didn't achieve much, b-b-but I tried my best...",
-						"englishNote": ""
+					"2" : {
+						"event" : "Biography",
+						"media" : "profile",
+						"chinese" : "我是初春级一号舰的初春……隶属于第二十一驱逐队，一直和妹妹们在北方海域活动……虽然没有什么战功，也努力过了……",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "は、初春級の、一番艦の、は、初春です……に、二十一駆逐隊の、妹たちと、ほ、北方海域で……戦果はなかったけど、が、がががんばりました……",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "I-I'm Hatsuharu, first ship of t-the Hatsuharu-class... I-I served in the north, together with my s-sisters from Destroyer Division 21... I didn't achieve much, b-b-but I tried my best...",
+						"englishNote" : ""
 					},
-					"3": {
-						"event": "Acquisition",
-						"media": "get",
-						"chinese": "您好，我是初春……那个，请不要一直盯着我……",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "はは、初めまして、わ、私ははつは……あ、あの…あ、あまり見ないでください…！",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "I-i-it's nice to meet you, I-I'm Hatsuha... U-um... P-please don't stare at me so much...!",
-						"englishNote": ""
+					"3" : {
+						"event" : "Acquisition",
+						"media" : "get",
+						"chinese" : "您好，我是初春……那个，请不要一直盯着我……",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "はは、初めまして、わ、私ははつは……あ、あの…あ、あまり見ないでください…！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "I-i-it's nice to meet you, I-I'm Hatsuha... U-um... P-please don't stare at me so much...!",
+						"englishNote" : ""
 					},
-					"4": {
-						"event": "Login",
-						"media": "login",
-						"chinese": "呜呜……秘书什么的我不行的啦……",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "うぅ……秘書艦なんてむりぃ……",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "*Cries*... I can't possibly be a secretary...",
-						"englishNote": ""
+					"4" : {
+						"event" : "Login",
+						"media" : "login",
+						"chinese" : "呜呜……秘书什么的我不行的啦……",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "うぅ……秘書艦なんてむりぃ……",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "*Cries*... I can't possibly be a secretary...",
+						"englishNote" : ""
 					},
-					"5": {
-						"event": "Details",
-						"media": "detail",
-						"chinese": "指挥官，虽、虽然关心我是很感激……",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "し、指揮官、その…し、心配してくれるのはう、嬉しい、けど…",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "C-Commander, um... I-I'm glad you're c-checking in on me, but...",
-						"englishNote": ""
+					"5" : {
+						"event" : "Details",
+						"media" : "detail",
+						"chinese" : "指挥官，虽、虽然关心我是很感激……",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "し、指揮官、その…し、心配してくれるのはう、嬉しい、けど…",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "C-Commander, um... I-I'm glad you're c-checking in on me, but...",
+						"englishNote" : ""
 					},
-					"6": {
-						"event": "Main 1",
-						"media": "main_1",
-						"chinese": "真想念妹妹们……",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "妹たちが恋しい……",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "I miss my sisters so much...",
-						"englishNote": ""
+					"6" : {
+						"event" : "Main 1",
+						"media" : "main_1",
+						"chinese" : "真想念妹妹们……",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "妹たちが恋しい……",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "I miss my sisters so much...",
+						"englishNote" : ""
 					},
-					"7": {
-						"event": "Main 2",
-						"media": "main_2",
-						"chinese": "指、指挥官，不要老是看我……",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "し、指揮官、あ、あまり見ないでください……",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "C-Commander... p-please don't stare at me so much...",
-						"englishNote": ""
+					"7" : {
+						"event" : "Main 2",
+						"media" : "main_2",
+						"chinese" : "指、指挥官，不要老是看我……",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "し、指揮官、あ、あまり見ないでください……",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "C-Commander... p-please don't stare at me so much...",
+						"englishNote" : ""
 					},
-					"8": {
-						"event": "Main 3",
-						"media": "main_3",
-						"chinese": "虽、虽然我很胆小，但是工作会努力的……大概",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "わ、わたし、お、臆病な性格だけど、が、がんばりますぅ！……たぶん……",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "I-I'm quite timid, b-but I'll work really hard! ... I hope...",
-						"englishNote": ""
+					"8" : {
+						"event" : "Main 3",
+						"media" : "main_3",
+						"chinese" : "虽、虽然我很胆小，但是工作会努力的……大概",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "わ、わたし、お、臆病な性格だけど、が、がんばりますぅ！……たぶん……",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "I-I'm quite timid, b-but I'll work really hard! ... I hope...",
+						"englishNote" : ""
 					},
-					"9": {
-						"event": "Touch",
-						"media": "touch_1",
-						"chinese": "我也要努力和指挥官交流才行……呀！！",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "指揮官とはもっと話さなくちゃ……きゃっ！？",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "I need to talk with you more oft... Eek?!",
-						"englishNote": ""
+					"9" : {
+						"event" : "Touch",
+						"media" : "touch_1",
+						"chinese" : "我也要努力和指挥官交流才行……呀！！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "指揮官とはもっと話さなくちゃ……きゃっ！？",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "I need to talk with you more oft... Eek?!",
+						"englishNote" : ""
 					},
-					"10": {
-						"event": "Touch (Special)",
-						"media": "touch_2",
-						"chinese": "呜……（初春晕了过去）",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "…！！（初春は気を失ったようだ）",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "...!! (It seems Hatsuharu has fainted.)",
-						"englishNote": ""
+					"10" : {
+						"event" : "Touch (Special)",
+						"media" : "touch_2",
+						"chinese" : "呜……（初春晕了过去）",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "…！！（初春は気を失ったようだ）",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "...!! (It seems Hatsuharu has fainted.)",
+						"englishNote" : ""
 					},
-					"11": {
-						"event": "Mission",
-						"media": "task",
-						"chinese": "指、指挥官，拖延任务是、是不对的！",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "し、指揮官！そ、その…任務をほったらかしてはだ、だめですよ！",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "C-Commander! Um, well... you shouldn't ignore your m-missions!",
-						"englishNote": ""
+					"11" : {
+						"event" : "Mission",
+						"media" : "task",
+						"chinese" : "指、指挥官，拖延任务是、是不对的！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "し、指揮官！そ、その…任務をほったらかしてはだ、だめですよ！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "C-Commander! Um, well... you shouldn't ignore your m-missions!",
+						"englishNote" : ""
 					},
-					"12": {
-						"event": "Mission Complete",
-						"media": "mission_complete",
-						"chinese": "指挥官，奖励下达了哦……欸？我、我不要的啦",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "し、指揮官、ぼーな……え！？わ、わたしはいいです！！",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "C-Commander, our rewards ha... Huh?! N-no, I don't need any!",
-						"englishNote": ""
+					"12" : {
+						"event" : "Mission Complete",
+						"media" : "mission_complete",
+						"chinese" : "指挥官，奖励下达了哦……欸？我、我不要的啦",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "し、指揮官、ぼーな……え！？わ、わたしはいいです！！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "C-Commander, our rewards ha... Huh?! N-no, I don't need any!",
+						"englishNote" : ""
 					},
-					"13": {
-						"event": "Mail",
-						"media": "mail",
-						"chinese": "指挥官，邮件……",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "指揮官…め、メールです…",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "Commander... Y-you have mail...",
-						"englishNote": ""
+					"13" : {
+						"event" : "Mail",
+						"media" : "mail",
+						"chinese" : "指挥官，邮件……",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "指揮官…め、メールです…",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Commander... Y-you have mail...",
+						"englishNote" : ""
 					},
-					"14": {
-						"event": "Return to Port",
-						"media": "home",
-						"chinese": "指、指挥官，您您您辛苦了！……说出来了！",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "しし、指揮官、お、おお、お疲れさまです…！い、言えました！！",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "C-C-Commander, g-g-great work...! I-I finally managed to say it!",
-						"englishNote": ""
+					"14" : {
+						"event" : "Return to Port",
+						"media" : "home",
+						"chinese" : "指、指挥官，您您您辛苦了！……说出来了！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "しし、指揮官、お、おお、お疲れさまです…！い、言えました！！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "C-C-Commander, g-g-great work...! I-I finally managed to say it!",
+						"englishNote" : ""
 					},
-					"15": {
-						"event": "Commission Complete",
-						"media": "expedition",
-						"chinese": "指挥官，姐妹们完成委托回来了……我去迎接？不不不我不行的啦！",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "指揮官、その、委託に出た皆が帰って……わ、私が出迎え？むむむむりです！！",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "Commander, um, the commission team is back... I-I should go greet them? N-n-n-no, there's no way!",
-						"englishNote": ""
+					"15" : {
+						"event" : "Commission Complete",
+						"media" : "expedition",
+						"chinese" : "指挥官，姐妹们完成委托回来了……我去迎接？不不不我不行的啦！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "指揮官、その、委託に出た皆が帰って……わ、私が出迎え？むむむむりです！！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Commander, um, the commission team is back... I-I should go greet them? N-n-n-no, there's no way!",
+						"englishNote" : ""
 					},
-					"16": {
-						"event": "Enhancement",
-						"media": "upgrade",
-						"chinese": "能帮上大家的忙就好了……",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "みんなの役に立っていれば…",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "I hope I can be of service to everyone...",
-						"englishNote": ""
+					"16" : {
+						"event" : "Enhancement",
+						"media" : "upgrade",
+						"chinese" : "能帮上大家的忙就好了……",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "みんなの役に立っていれば…",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "I hope I can be of service to everyone...",
+						"englishNote" : ""
 					},
-					"17": {
-						"event": "Flagship",
-						"media": "warcry",
-						"chinese": "初、初春，会加油的！",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "は、初春、がんばります！",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "I-I'll give it all I've got!",
-						"englishNote": ""
+					"17" : {
+						"event" : "Flagship",
+						"media" : "warcry",
+						"chinese" : "初、初春，会加油的！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "は、初春、がんばります！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "I-I'll give it all I've got!",
+						"englishNote" : ""
 					},
-					"18": {
-						"event": "Victory",
-						"media": "mvp",
-						"chinese": "赢了……吗？",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "勝った…の？",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "Did we... win?",
-						"englishNote": ""
+					"18" : {
+						"event" : "Victory",
+						"media" : "mvp",
+						"chinese" : "赢了……吗？",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "勝った…の？",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Did we... win?",
+						"englishNote" : ""
 					},
-					"19": {
-						"event": "Defeat",
-						"media": "lose",
-						"chinese": "呜呜果然我不适合战斗……",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "うぅ……私やっぱり戦闘には向いていないよ……",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "*Cries*... I really am not suited for combat...",
-						"englishNote": ""
+					"19" : {
+						"event" : "Defeat",
+						"media" : "lose",
+						"chinese" : "呜呜果然我不适合战斗……",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "うぅ……私やっぱり戦闘には向いていないよ……",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "*Cries*... I really am not suited for combat...",
+						"englishNote" : ""
 					},
-					"20": {
-						"event": "Skill",
-						"media": "skill",
-						"chinese": "大、大家，都让一让……",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "み、みなさん、どいてください……！",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "P-please get out of the way, everyone...!",
-						"englishNote": ""
+					"20" : {
+						"event" : "Skill",
+						"media" : "skill",
+						"chinese" : "大、大家，都让一让……",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "み、みなさん、どいてください……！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "P-please get out of the way, everyone...!",
+						"englishNote" : ""
 					},
-					"21": {
-						"event": "Affinity (Upset)",
-						"media": "feeling1",
-						"chinese": "指、指挥官，再靠近我就开、开炮了！",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "し、指揮官、こ、これ以上近づくと、う、撃ちますよ！",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "C-Commander, i-if you get any closer then I'll s-shoot you!",
-						"englishNote": ""
+					"21" : {
+						"event" : "Affinity (Upset)",
+						"media" : "feeling1",
+						"chinese" : "指、指挥官，再靠近我就开、开炮了！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "し、指揮官、こ、これ以上近づくと、う、撃ちますよ！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "C-Commander, i-if you get any closer then I'll s-shoot you!",
+						"englishNote" : ""
 					},
-					"22": {
-						"event": "Affinity (Stranger)",
-						"media": "feeling2",
-						"chinese": "指、指挥官，你觉得胆小真的能改过来吗……",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "し、指揮官、私の人見知りって、な、治りますでしょうか……",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "C-Commander, do you think it's possible for me to get over my fear of s-strangers...?",
-						"englishNote": ""
+					"22" : {
+						"event" : "Affinity (Stranger)",
+						"media" : "feeling2",
+						"chinese" : "指、指挥官，你觉得胆小真的能改过来吗……",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "し、指揮官、私の人見知りって、な、治りますでしょうか……",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "C-Commander, do you think it's possible for me to get over my fear of s-strangers...?",
+						"englishNote" : ""
 					},
-					"23": {
-						"event": "Affinity (Friendly)",
-						"media": "feeling3",
-						"chinese": "指挥官，能、能和我一起练习对话吗……我也想和舰队的大家交朋友……",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "えっと、し、指揮官…わ、私と会話の練習を…お願いできますか…？わ、私…艦隊の皆と仲良くなりたいです…",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "Umm, C-Commander... C-can I ask you to be my... conversation practice partner...? I-I... want to make friends with everyone in the fleet...",
-						"englishNote": ""
+					"23" : {
+						"event" : "Affinity (Friendly)",
+						"media" : "feeling3",
+						"chinese" : "指挥官，能、能和我一起练习对话吗……我也想和舰队的大家交朋友……",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "えっと、し、指揮官…わ、私と会話の練習を…お願いできますか…？わ、私…艦隊の皆と仲良くなりたいです…",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Umm, C-Commander... C-can I ask you to be my... conversation practice partner...? I-I... want to make friends with everyone in the fleet...",
+						"englishNote" : ""
 					},
-					"24": {
-						"event": "Affinity (Like)",
-						"media": "feeling4",
-						"chinese": "呜呜呜……果然还是不行……我只要能和指挥官交流就好了……",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "うぅぅ……やっぱりむ、むりぃ！……も、もし、指揮官とだけ話せれば…",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "*Sob*... I can't, I-I can't do it! ... B-but maybe I can hold a conversation with you, Commander...",
-						"englishNote": ""
+					"24" : {
+						"event" : "Affinity (Like)",
+						"media" : "feeling4",
+						"chinese" : "呜呜呜……果然还是不行……我只要能和指挥官交流就好了……",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "うぅぅ……やっぱりむ、むりぃ！……も、もし、指揮官とだけ話せれば…",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "*Sob*... I can't, I-I can't do it! ... B-but maybe I can hold a conversation with you, Commander...",
+						"englishNote" : ""
 					},
-					"25": {
-						"event": "Affinity (Love)",
-						"media": "feeling5",
-						"chinese": "指挥官，指挥官！刚、刚才我和其他姐妹们正常对话了！太好了……多亏指挥官一直给我勇气……",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "し、指揮官！さ、さっきほかの子と普通に話せました！！よかったぁ……し、指揮官のおかげです…",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "C-Commander! I-I just managed to have a normal conversation with someone else! I'm so relieved... I-it's all thanks to you, Commander...",
-						"englishNote": ""
+					"25" : {
+						"event" : "Affinity (Love)",
+						"media" : "feeling5",
+						"chinese" : "指挥官，指挥官！刚、刚才我和其他姐妹们正常对话了！太好了……多亏指挥官一直给我勇气……",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "し、指揮官！さ、さっきほかの子と普通に話せました！！よかったぁ……し、指揮官のおかげです…",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "C-Commander! I-I just managed to have a normal conversation with someone else! I'm so relieved... I-it's all thanks to you, Commander...",
+						"englishNote" : ""
 					},
-					"26": {
-						"event": "Pledge",
-						"media": "propose",
-						"chinese": "虽然想要变得勇敢可能还要花很长时间，但是现在我不会担心了……因为指挥官会一直在我身边……",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "お、臆病な性格を克服するには時間がかかりますけど、今はもう心配していません……だって指揮官が、ずっと側にいてくれますから……",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "O-overcoming my timid nature is going to take a lot of time, but I'm not anxious anymore... Because I know you'll always be with me, Commander...",
-						"englishNote": ""
+					"26" : {
+						"event" : "Pledge",
+						"media" : "propose",
+						"chinese" : "虽然想要变得勇敢可能还要花很长时间，但是现在我不会担心了……因为指挥官会一直在我身边……",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "お、臆病な性格を克服するには時間がかかりますけど、今はもう心配していません……だって指揮官が、ずっと側にいてくれますから……",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "O-overcoming my timid nature is going to take a lot of time, but I'm not anxious anymore... Because I know you'll always be with me, Commander...",
+						"englishNote" : ""
 					},
-					"27": {
-						"event": "Easter Egg 1 (Yuugure, Shiratsuyu)",
-						"media": "link1",
-						"chinese": "跟、跟紧姐姐",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "ね、姉さんに付いてきて！",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "F-follow me!",
-						"englishNote": ""
+					"27" : {
+						"event" : "Easter Egg 1(Yuugure, Shiratsuyu)",
+						"media" : "link1",
+						"chinese" : "跟、跟紧姐姐",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "ね、姉さんに付いてきて！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "F-follow me!",
+						"englishNote" : ""
+					},
+					"28" : {
+						"event" : "Like Present",
+						"media" : "present_like",
+						"chinese" : "",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"29" : {
+						"event" : "Dislike Present",
+						"media" : "present_dislike",
+						"chinese" : "",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"30" : {
+						"event" : "Main Title",
+						"media" : "extra",
+						"chinese" : "",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
 					}
 				}
 			},
 			"2": {
-				"skin_id": "chuchun_2",
-				"id": "1",
-				"label": "雪の初春",
-				"dialogue": {
-					"1": {
-						"event": "Ship Description",
-						"media": "",
-						"chinese": "大家都聚在一起玩……我，我的话要不还是算了……我，我也要一起吗？呜呜，指挥官这么说的话，我，我也要努力才行……",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "みんなが一緒に遊んでいる…私、や、やっぱり……えっ、私も参加するの……あぅ…がが、がんばりますぅ……",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "",
-						"englishNote": ""
+				"skin_id" : "chuchun_2",
+				"id" : "1",
+				"label" : "Snow Day Hatsuharu",
+				"dialogue" : {
+					"1" : {
+						"event" : "Ship Description",
+						"media" : "",
+						"chinese" : "大家都聚在一起玩……我，我的话要不还是算了……我，我也要一起吗？呜呜，指挥官这么说的话，我，我也要努力才行……",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "みんなが一緒に遊んでいる…私、や、やっぱり……えっ、私も参加するの……あぅ…がが、がんばりますぅ……",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Everyone's playing together...? I-I think I'll pass... Y-you want me to join them? Ugh, well, if you say so, then I-I-I'll try to socialize with them...!",
+						"englishNote" : ""
 					},
-					"2": {
-						"event": "Acquisition",
-						"media": "get_1",
-						"chinese": "大家都聚在一起玩……我，我的话要不还是算了……我，我也要一起吗？呜呜，指挥官这么说的话，我，我也要努力才行……",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "皆が集まって……や、やっぱりいいです……わ、私も参加するのですか？うぅ、指揮官がそう言ってくれたら、が、がが、頑張らないと……！",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "",
-						"englishNote": ""
+					"2" : {
+						"event" : "Acquisition",
+						"media" : "get_1",
+						"chinese" : "大家都聚在一起玩……我，我的话要不还是算了……我，我也要一起吗？呜呜，指挥官这么说的话，我，我也要努力才行……",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "皆が集まって……や、やっぱりいいです……わ、私も参加するのですか？うぅ、指揮官がそう言ってくれたら、が、がが、頑張らないと……！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Everyone's playing together...? I-I think I'll pass... Y-you want me to join them? Ugh, well, if you say so, then I-I-I'll try to socialize with them...!",
+						"englishNote" : ""
 					},
-					"3": {
-						"event": "Login",
-						"media": "login_1",
-						"chinese": "那个……指挥官的目光已经适应了所以没关系的！但，但是，一直被盯着的话，还是会……",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "あ、あの！……指揮官の目線ならも、もう慣れてるから大丈夫です！ですけど…じ、じっと見られたらやっぱり、私……",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "",
-						"englishNote": ""
+					"3" : {
+						"event" : "Login",
+						"media" : "login_1",
+						"chinese" : "那个……指挥官的目光已经适应了所以没关系的！但，但是，一直被盯着的话，还是会……",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "あ、あの！……指揮官の目線ならも、もう慣れてるから大丈夫です！ですけど…じ、じっと見られたらやっぱり、私……",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "U-Um! ... I-I've already gotten u-used to Commander's gaze, so I'm okay! But... b-being stared at... I-I really can't...",
+						"englishNote" : ""
 					},
-					"4": {
-						"event": "Details",
-						"media": "detail_1",
-						"chinese": "这个是……雪做的小兔子，但是还没有完成……雪能够变成各种各样的样子，感觉很有趣……",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "これは…雪で作ったウサギさん…ま、まだできていません！……けどぉ…雪で色々作れて、お、面白い、ですぅ……",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "",
-						"englishNote": ""
+					"4" : {
+						"event" : "Details",
+						"media" : "detail_1",
+						"chinese" : "这个是……雪做的小兔子，但是还没有完成……雪能够变成各种各样的样子，感觉很有趣……",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "これは…雪で作ったウサギさん…ま、まだできていません！……けどぉ…雪で色々作れて、お、面白い、ですぅ……",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "This is... a rabbit made of snow... I-It's still not done! ... But... making various things out of snow... i-is fun...",
+						"englishNote" : ""
 					},
-					"5": {
-						"event": "Main 1",
-						"media": "main_1_1",
-						"chinese": "眼睛，眉毛，鼻子……还差一点就完成了……",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "目と、眉毛と、お鼻……あと少しだけ……",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "",
-						"englishNote": ""
+					"5" : {
+						"event" : "Main 1",
+						"media" : "main_1_1",
+						"chinese" : "眼睛，眉毛，鼻子……还差一点就完成了……",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "目と、眉毛と、お鼻……あと少しだけ……",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Eyes, eyebrows, and a nose... Just a little bit more... ",
+						"englishNote" : ""
 					},
-					"6": {
-						"event": "Main 2",
-						"media": "main_2_1",
-						"chinese": "若叶，我想港区的雪里应该是没有松果的……",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "わ、若葉ちゃん？み、港の雪には松の実はう、埋まってないよ……",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "",
-						"englishNote": ""
+					"6" : {
+						"event" : "Main 2",
+						"media" : "main_2_1",
+						"chinese" : "若叶，我想港区的雪里应该是没有松果的……",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "わ、若葉ちゃん？み、港の雪には松の実はう、埋まってないよ……",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : " W-Wakaba? T-The snow at home port isn't c-covered in pine nuts... ",
+						"englishNote" : ""
 					},
-					"7": {
-						"event": "Main 3",
-						"media": "main_3_1",
-						"chinese": "雪仗？我，我这样子的根本不行的……呜呜……",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "ゆ、雪合戦！？わ、わわ、私なんて無理ですぅ！……あぅ……",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "",
-						"englishNote": ""
+					"7" : {
+						"event" : "Main 3",
+						"media" : "main_3_1",
+						"chinese" : "雪仗？我，我这样子的根本不行的……呜呜……",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "ゆ、雪合戦！？わ、わわ、私なんて無理ですぅ！……あぅ……",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : " S-Snowball fight?! It's im-impossible for me! ...Hau...",
+						"englishNote" : ""
 					},
-					"8": {
-						"event": "Touch",
-						"media": "touch_1_1",
-						"chinese": "和指挥官一起，这次一定，一定要提起勇气和大家……",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "指揮官と一緒なら、今回こそ…今回こそ皆に……！",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "",
-						"englishNote": ""
+					"8" : {
+						"event" : "Touch",
+						"media" : "touch_1_1",
+						"chinese" : "和指挥官一起，这次一定，一定要提起勇气和大家……",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "指揮官と一緒なら、今回こそ…今回こそ皆に……！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "If it's with the Commander, this time... this time for sure... with everyone...!",
+						"englishNote" : ""
 					},
-					"9": {
-						"event": "Touch (Special)",
-						"media": "touch_2_1",
-						"chinese": "咿呀！这，这样子……呜呜……（初春又晕了过去）",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "ひゃう！？こ、こういうのは……あぅ……（初春は気を失ったようだ）",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "",
-						"englishNote": ""
+					"9" : {
+						"event" : "Touch (Special)",
+						"media" : "touch_2_1",
+						"chinese" : "咿呀！这，这样子……呜呜……（初春又晕了过去）",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "ひゃう！？こ、こういうのは……あぅ……（初春は気を失ったようだ）",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Wah?! Th-This is... unhh... (It looks like Hatsuharu fainted again)",
+						"englishNote" : ""
 					},
-					"10": {
-						"event": "Return to Port",
-						"media": "home_1",
-						"chinese": "雪人……一个人的时候，不知不觉就完成了……",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "雪だるまさん……いつのまにかできちゃいました……",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "",
-						"englishNote": ""
+					"10" : {
+						"event" : "Return to Port",
+						"media" : "home_1",
+						"chinese" : "雪人……一个人的时候，不知不觉就完成了……",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "雪だるまさん……いつのまにかできちゃいました……",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "A snowman... Somehow, I was able to finish it...",
+						"englishNote" : ""
 					},
-					"11": {
-						"event": "Affinity (Love)",
-						"media": "feeling5_1",
-						"chinese": "和指挥官说话，感觉好温暖……冬天好像也不冷了……这样的话，我也一定能和大家正常对话的！",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "し、指揮官と一緒にいると、暖かくて、雪の寒気にもだ、大丈夫のようです……な、なんだか皆ともちゃんと話せるようになる気もします……",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "",
-						"englishNote": ""
+					"11" : {
+						"event" : "Affinity (Love)",
+						"media" : "feeling5_1",
+						"chinese" : "和指挥官说话，感觉好温暖……冬天好像也不冷了……这样的话，我也一定能和大家正常对话的！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "し、指揮官と一緒にいると、暖かくて、雪の寒気にもだ、大丈夫のようです……な、なんだか皆ともちゃんと話せるようになる気もします……",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "B-Being with the Commander, is so warm... it seems that it makes even the cold of the snow f-fine... I-I feel like I'll also be able to talk properly with everyone else...",
+						"englishNote" : ""
+					}
+				}
+			},
+			"3": {
+				"skin_id" : "chuchun_g",
+				"id" : "9",
+				"label" : "初春改",
+				"dialogue" : {
+					"1" : {
+						"event" : "Ship Description",
+						"media" : "",
+						"chinese" : "",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "初春、改造完了しました…こ、これでもうちょっと気を強く持てるといいけど……",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"2" : {
+						"event" : "Acquisition",
+						"media" : "get_9",
+						"chinese" : "初春、改造完毕…这、这样是不是能变得更坚强一些了呢…",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"3" : {
+						"event" : "Login",
+						"media" : "login_9",
+						"chinese" : "秘书舰的工作什么的…现在的初春没问题的！大概…",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"4" : {
+						"event" : "Touch",
+						"media" : "touch_1_9",
+						"chinese" : "现在的初春，应该可以和指挥官，还有大家……",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"5" : {
+						"event" : "Touch (Special)",
+						"media" : "touch_2_9",
+						"chinese" : "呀！？这、这种事情…是不可以的！！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"6" : {
+						"event" : "Return to Port",
+						"media" : "home_9",
+						"chinese" : "虽、虽说是趁着改造改变一下形象…不过这一身果然还是有点……呜呜",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
 					}
 				}
 			}
 		}
-	},
-	"fleet_tech": {
-		"pt_get": "4",
-		"add_get_attr": "HP",
-		"add_get_value": "1",
-		"add_get_shiptype": "Destroyer",
-		"pt_upgrade": "8",
-		"pt_level": "6",
-		"add_level_attr": "Reload",
-		"add_level_value": "1",
-		"add_level_shiptype": "Destroyer",
-		"t_level": "4",
-		"ships": "hatsuharu,wakaba,hatsushimo,ariake,yuugure"
 	}
 }
