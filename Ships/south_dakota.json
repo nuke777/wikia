@@ -11,7 +11,7 @@
 	"hull": "Battleship",
 	"navy": "Eagle Union",
 	"prefix": "USS",
-	"buildTime": "",
+	"buildTime": "N/A",
 	"class": "South Dakota-Class",
 	"voiceActress": "Tomoyo Kurosawa",
 	"parameters": {
@@ -34,10 +34,10 @@
 		"EN": ""
 	},
 	"artist": {
-		"name": "",
-		"weibo": "",
-		"twitter": "",
-		"pixiv": "",
+		"name": "梦咲枫",
+		"weibo": "http://weibo.com/u/3558369570",
+		"twitter": "https://twitter.com/yumesaki_kaede/",
+		"pixiv": "https://www.pixiv.net/member.php?id=1023957",
 		"other": ""
 	},
 	"enhance": {
@@ -50,17 +50,17 @@
 	"skill": {
 		"1": {
 			"icon": "10160",
-			"requirement": "",
+			"requirement": "Default Unlocked",
 			"name": "The Strongest Shield",
 			"type": "Defensive",
-			"description": "Every 30s: absorbs 50.0% of the DMG the Main Fleet takes for 8s. Once the effect ends: this ship heals itself for $1 of the DMG it took."
+			"description": "Every 30s: absorbs 50.0% of the DMG the Main Fleet takes for 8s. Once the effect ends: this ship heals itself for 20.0%(50.0%) of the DMG it took."
 		},
 		"2": {
 			"icon": "2041",
-			"requirement": "",
+			"requirement": "Default Unlocked",
 			"name": "Focused Assault",
 			"type": "Offensive",
-			"description": "When this ship fires its Main Guns: $1 chance to deal double DMG with its Main Guns."
+			"description": "When this ship fires its Main Guns: 15.0%(30.0%) chance to deal double DMG with its Main Guns."
 		}
 	},
 	"skin": {
@@ -76,8 +76,8 @@
 		},
 		"2": {
 			"id": "nandaketa_2",
-			"name": "ソロコンサート",
-			"description": "マサチューセッツから戦い以外に何か約に立てるものを探そうと勧められ、それでピアノを始めたわけだが……無理と思っていたけど、いざやってみると意外と手応えはあるな",
+			"name": "Solo Concert",
+			"description": "Massachusetts suggested I learn something useful that's unrelated to combat, so I started playing the piano... It seemed impossible at first, but after actually trying it, I've developed a pretty good feel for it.",
 			"expression": {
 				"0": {
 					"id": "0"
@@ -645,13 +645,73 @@
 						"japaneseNote": "",
 						"english": "Enterprise! Victory is now!",
 						"englishNote": ""
+					},
+					"31" : {
+						"event" : "Easter Egg 4(Washington)",
+						"media" : "link4",
+						"chinese" : "华盛顿，再来比一场吗？",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "ワシントン、もう一回やるか？",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"32" : {
+						"event" : "Easter Egg 5(Massachusetts)",
+						"media" : "link5",
+						"chinese" : "马萨诸塞，战场上认真点",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "マサチューセッツ、戦場では真面目にやって",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"33" : {
+						"event" : "Like Present",
+						"media" : "present_like",
+						"chinese" : "",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"34" : {
+						"event" : "Dislike Present",
+						"media" : "present_dislike",
+						"chinese" : "",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"35" : {
+						"event" : "Main Title",
+						"media" : "extra",
+						"chinese" : "",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
 					}
 				}
 			},
 			"2": {
 				"skin_id": "nandaketa_2",
 				"id": "1",
-				"label": "ソロコンサート",
+				"label": "Solo Concert",
 				"dialogue": {
 					"1": {
 						"event": "Ship Description",
@@ -662,7 +722,7 @@
 						"japanese": "マサチューセッツから戦い以外に何か約に立てるものを探そうと勧められ、それでピアノを始めたわけだが……無理と思っていたけど、いざやってみると意外と手応えはあるな",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Massachusetts suggested I learn something useful that's unrelated to combat, so I started playing the piano... It seemed impossible at first, but after actually trying it, I've developed a pretty good feel for it.",
 						"englishNote": ""
 					}
 				}
@@ -680,6 +740,6 @@
 		"add_level_value": "2",
 		"add_level_shiptype": "Battlecruiser,Battleship,Aviation Battleship",
 		"t_level": "7",
-		"ships": "south_dakota,massachusetts"
+		"ships": "south_dakota,massachusetts,alabama"
 	}
 }

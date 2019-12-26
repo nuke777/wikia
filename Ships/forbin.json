@@ -11,8 +11,8 @@
 	"hull": "Destroyer",
 	"navy": "Iris Libre",
 	"prefix": "FFNF",
-	"buildTime": "",
-	"class": "ラドロア級",
+	"buildTime": "00:23:00",
+	"class": "L'Adroit-Class",
 	"voiceActress": "Akiko Hasegawa",
 	"parameters": {
 		"firepower": "C",
@@ -28,16 +28,16 @@
 		"medal": "1"
 	},
 	"releaseDate": {
-		"JP": "",
-		"CN": "",
-		"KR": "",
-		"EN": ""
+		"JP": "July 26, 2018",
+		"CN": "July 26, 2018",
+		"KR": "March 27, 2019",
+		"EN": "June 27, 2019"
 	},
 	"artist": {
-		"name": "",
+		"name": "夜ノみつき",
 		"weibo": "",
-		"twitter": "",
-		"pixiv": "",
+		"twitter": "https://twitter.com/mituk1",
+		"pixiv": "https://www.pixiv.net/member.php?id=44234",
 		"other": ""
 	},
 	"enhance": {
@@ -46,35 +46,35 @@
 		"aviation": "0",
 		"reload": "13"
 	},
-	"acquisitionMethod": "イベント：光と影のアイリス",
+	"acquisitionMethod": "Event: Iris of Light and Dark",
 	"skill": {
 		"1": {
 			"icon": "5071",
-			"requirement": "",
-			"name": "骑士之盾",
+			"requirement": "Default Unlocked",
+			"name": "Chevalier's Bouclier",
 			"type": "Defensive",
-			"description": "当先锋舰队只有自由鸢尾、维希教廷阵营的角色时生效，每隔20秒，有50%的概率发动，我方所有单位受到的伤害降低$1，持续8秒，同技能效果不叠加"
+			"description": "Every 20s, if your Vanguard consists of only Iris Libre and/or Vichya Dominion ships: 50.0% chance to decrease the DMG your fleet takes by 10.0% (30.0%) for 8s. Does not stack with the same skill."
 		},
 		"2": {
 			"icon": "4071",
-			"requirement": "",
+			"requirement": "Retrofit",
 			"name": "Emergency Maneuvers",
 			"type": "Defensive",
-			"description": "$1 chance to activate every 20s: this ship evades all enemy attacks for 6s."
+			"description": "Every 20s: 15.0% (30.0%) chance for this ship to evade all enemy attacks for 6s."
 		},
 		"3": {
 			"icon": "28011",
-			"requirement": "",
-			"name": "全弹发射I",
+			"requirement": "Limit Break I (III)",
+			"name": "All Out Assault Ⅰ",
 			"type": "Offensive",
-			"description": "主炮每进行15次攻击，触发全弹发射-机敏级I"
+			"description": "Activates All Out Assault Ⅰ: L'Adroit Class once every 15 times the Main Guns are fired."
 		}
 	},
 	"skin": {
 		"1": {
 			"id": "fuerban",
-			"name": "フォルバン",
-			"description": "ラドロア級駆逐艦フォルバン",
+			"name": "Forbin ",
+			"description": "L'Adroit-class destroyer – Forbin. ",
 			"expression": {
 				"0": {
 					"id": "0"
@@ -83,8 +83,8 @@
 		},
 		"2": {
 			"id": "fuerban_2",
-			"name": "フルール・ド・ブラン",
-			"description": "たまにはこうして外で新鮮な空気を吸うのも悪くありませんね。あの…指揮官、もうすこし付き合っていただけないでしょうか",
+			"name": "Fleur Blanche",
+			"description": "It's good to be able to stop and smell the roses every now and then. Um, Commander, would you be able to accompany me a bit longer? ",
 			"expression": {
 				"0": {
 					"id": "0"
@@ -92,9 +92,40 @@
 			}
 		},
 		"3": {
+			"id": "fuerban_3",
+			"name": "École de Chevalier",
+			"description": "Even though I'm an Iris Libre squire, I'm currently working hard to have a rich student life. Um... maybe this is a bit too laid back?",
+			"expression": {
+				"0": {
+					"id": "0"
+				},
+				"1": {
+					"id": "1"
+				},
+				"2": {
+					"id": "2"
+				},
+				"3": {
+					"id": "3"
+				},
+				"4": {
+					"id": "4"
+				},
+				"5": {
+					"id": "5"
+				},
+				"6": {
+					"id": "6"
+				},
+				"7": {
+					"id": "7"
+				}
+			}
+		},
+		"4": {
 			"id": "fuerban_g",
-			"name": "フォルバン改",
-			"description": "長い努力がついに報われました！…指揮官、いつもご指導ごありがとうございます！このご恩はより華やかな戦果をもって報います！",
+			"name": "Forbin (Retrofit) ",
+			"description": "My hard work has finally paid off! Commander, thank you for your guidance all this time! I'll return the favor by bringing you even more honors in battle! ",
 			"expression": {
 				"0": {
 					"id": "0"
@@ -106,7 +137,7 @@
 		"1": {
 			"icon": "50000",
 			"rarity": "",
-			"name": "130mm单装炮Mle1924"
+			"name": "Single 130mm Main Gun (Mle 1924)"
 		},
 		"2": {
 			"icon": "5400",
@@ -207,9 +238,9 @@
 		}
 	},
 	"limitBreak": {
-		"tier1": "全弾発射スキル習得/魚雷補正+5%",
-		"tier2": "魚雷装填数+1/開始時魚雷+1/魚雷補正+10%",
-		"tier3": "全弾発射弾幕強化/武器補正+5%"
+		"tier1": "Unlock All Out Assault Ⅰ/Torpedo efficiency +5%",
+		"tier2": "Torpedo base +1/Torpedo preload +1/Torpedo efficiency +10%",
+		"tier3": "Improve All Out Assault/All weapons' efficiency +5%"
 	},
 	"equipmentLoadout": {
 		"1": {
@@ -260,9 +291,9 @@
 			"EN": ""
 		},
 		"limited": {
-			"JP": "",
-			"CN": "",
-			"EN": ""
+			"JP": "✓",
+			"CN": "✓",
+			"EN": "✓"
 		}
 	},
 	"drop": {
@@ -289,7 +320,7 @@
 			"1": {
 				"skin_id": "fuerban",
 				"id": "0",
-				"label": "フォルバン",
+				"label": "Forbin ",
 				"dialogue": {
 					"1": {
 						"event": "Ship Description",
@@ -300,7 +331,7 @@
 						"japanese": "ラドロア級駆逐艦フォルバン",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "L'Adroit-class destroyer – Forbin.",
 						"englishNote": ""
 					},
 					"2": {
@@ -312,7 +343,7 @@
 						"japanese": "ラドロア級駆逐艦、自由アイリス教国の見習い騎士・フォルバンと申します。とある理由で母港で二年間こもっていましたけど、復帰後は多くの任務に参加し、無為な時間を戦場での活躍で挽回する事ができました",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "I'm Forbin, a L'Adroit-class destroyer from Iris Libre. For various reasons, I was stuck in port for two years, but after returning to service, I was able to get a lot done and make up for some of that lost time on the battlefield.",
 						"englishNote": ""
 					},
 					"3": {
@@ -324,7 +355,7 @@
 						"japanese": "自由アイリス教国の見習い騎士、フォルバンといいます。大型艦の先輩方とまだ肩を並べられない修行中の身ですが、何卒ご指導をよろしくお願いします！",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "I am Forbin, a squire from Iris Libre. I may not match up to the stature of my seniors, but please offer me your guidance!",
 						"englishNote": ""
 					},
 					"4": {
@@ -336,7 +367,7 @@
 						"japanese": "ふん！は！あ、指揮官！一緒にウォーミングアップでもいかがですか？",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Hooo! Haah! Oh, Commander, let's do our warm-up exercises together!",
 						"englishNote": ""
 					},
 					"5": {
@@ -348,7 +379,7 @@
 						"japanese": "ふん！は！あ、指揮官ちょうどいいところに！私の自主練に付き合っていただけないでしょうか？ ",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Hooh! Haah! Oh, great timing, Commander! Let's practice some swordplay!",
 						"englishNote": ""
 					},
 					"6": {
@@ -360,7 +391,7 @@
 						"japanese": "鉄血もロイヤルも、いつか話してみたいのですね",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Iron Blood or Royal Navy, I don't care who it is, I just want to learn more about them! ",
 						"englishNote": ""
 					},
 					"7": {
@@ -372,7 +403,7 @@
 						"japanese": "いつになったら先輩方のように強くて格好良くなれるのでしょうか…",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "When will I become as strong and cool as the knights? ",
 						"englishNote": ""
 					},
 					"8": {
@@ -384,7 +415,7 @@
 						"japanese": "人生を無駄に過ごすつもりはありません。…ですから、今度は何事にも全力です！",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "I don't want my life to end without having accomplished anything... so this time, I'll give it my all!",
 						"englishNote": ""
 					},
 					"9": {
@@ -396,7 +427,7 @@
 						"japanese": "指揮官、知っていますか？一口に剣と言ってもいろんな種類がありますよ？レイピアやセイバー、ブランベルジェとか",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Commander, did you know that there are many different kinds of swords? For example, there are rapiers, sabres, flamberges, and so on...",
 						"englishNote": ""
 					},
 					"10": {
@@ -408,7 +439,7 @@
 						"japanese": "丸腰の相手に剣を向けるのは不本意ですが……無礼をお許しください！",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "I didn't mean to draw my sword upon someone unarmed... I am very sorry.",
 						"englishNote": ""
 					},
 					"11": {
@@ -420,7 +451,7 @@
 						"japanese": "指揮官、任務を完遂するのは義務だと思いますよ",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Commander, I believe that it is your duty to complete these missions.",
 						"englishNote": ""
 					},
 					"12": {
@@ -432,7 +463,7 @@
 						"japanese": "指揮官、任務報酬を無駄にしてはいけませんよ",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Don't let these mission rewards go to waste, Commander.",
 						"englishNote": ""
 					},
 					"13": {
@@ -444,7 +475,7 @@
 						"japanese": "手紙……？挑戦状でしたか……？",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "A letter...? Wonder if someone's challenging you to a duel...",
 						"englishNote": ""
 					},
 					"14": {
@@ -456,7 +487,7 @@
 						"japanese": "指揮官、お疲れ様です。母港に異常はありません。ご安心ください",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Welcome back, Commander. Don't worry, nothing happened when you were gone.",
 						"englishNote": ""
 					},
 					"15": {
@@ -468,7 +499,7 @@
 						"japanese": "委託が完了しました。次は私にも行かせてください。もっと頑張ります",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Commission complete! Next time, let me go as well. I swear I'll do better!",
 						"englishNote": ""
 					},
 					"16": {
@@ -480,7 +511,7 @@
 						"japanese": "決闘の勝算が高まりました",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "My odds of victory have improved!",
 						"englishNote": ""
 					},
 					"17": {
@@ -492,7 +523,7 @@
 						"japanese": "よし、今の調子なら勝てるはずです！",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "All right! I'll surely be able to win in this condition!",
 						"englishNote": ""
 					},
 					"18": {
@@ -504,7 +535,7 @@
 						"japanese": "先輩方にまた一歩近づきました！",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "I'm one step closer to becoming a knight!",
 						"englishNote": ""
 					},
 					"19": {
@@ -516,7 +547,7 @@
 						"japanese": "この敗北……決して忘れはしません！",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "I swear... to take this defeat to heart!",
 						"englishNote": ""
 					},
 					"20": {
@@ -528,7 +559,7 @@
 						"japanese": "これでどうです！",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "How's this?",
 						"englishNote": ""
 					},
 					"21": {
@@ -540,7 +571,7 @@
 						"japanese": "決闘はまだこれからです！",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "This fight's not decided yet!",
 						"englishNote": ""
 					},
 					"22": {
@@ -552,7 +583,7 @@
 						"japanese": "忠誠を誓った対象がこのような方だと先輩方に知られたら…私を責めるのでしょうか、それとも宥めるのでしょうか……",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "If the knights found out that I had sworn fealty to a person like you... I don't know if they'd blame me or pity me...",
 						"englishNote": ""
 					},
 					"23": {
@@ -564,7 +595,7 @@
 						"japanese": "この艦隊は凄い方が結構多いですね。色々学べそう……うん、私も頑張らないと！",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "There are all kinds of amazing people gathered here. There's just so much to learn... Ahh, I've gotta work even harder!",
 						"englishNote": ""
 					},
 					"24": {
@@ -576,7 +607,7 @@
 						"japanese": "剣を練習する理由、ですか？確かに、出撃時にはほぼ使いませんが…でも、自分の調子をいつも最高の状態にすることができますから、戦いで良いことはあっても悪いことなんて一つもありませんよ",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Why do I spend so much time training with the sword? Well, it's true that I don't plan on using it during sorties, but being able to keep myself sharp and in shape is surely an asset on the battlefield!",
 						"englishNote": ""
 					},
 					"25": {
@@ -588,7 +619,7 @@
 						"japanese": "指揮官、私には夢が２つあります。一つは先輩方のように強くなること、もう一つは忠誠を誓うに値する方を見つけること……二番目の夢は先に実現しそう、ですね",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Commander, did you know that I've always had two dreams? The first was to become a worthy knight like my seniors. The second was to find someone worthy of swearing fealty to... I never expected that my second dream would come true first~",
 						"englishNote": ""
 					},
 					"26": {
@@ -600,7 +631,7 @@
 						"japanese": "指揮官、信じてください。指揮官が傷つく時――それはきっと私が二度と剣を振れなくなり、弾薬も尽き果てた時であるということ",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Commander, please believe in me. The only time someone will be able to hurt you is when the last shell has been spent and I am no longer able to lift my sword.",
 						"englishNote": ""
 					},
 					"27": {
@@ -612,16 +643,52 @@
 						"japanese": "誓います。この剣は指揮官を守るためだけに振るおう――そして、指揮官にも道を踏み外さないよう誓ってほしい……もう二度と、あの時のようなことを味わいたくありません……！",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "This I do swear - my sword shall be your shield, Commander. In return, please promise to guide me down the correct path... I don't ever want to experience that ever again...!",
 						"englishNote": ""
 					},
 					"28": {
-						"event": "Easter Egg 1 (Le Mars)",
+						"event": "Easter Egg 1(Le Mars)",
 						"media": "link1",
 						"chinese": "勒马尔，注意队形！",
 						"chineseTL": "",
 						"chineseNote": "",
 						"japanese": "ル・マルス、陣形に注意して！",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Le Mars, stay in formation!",
+						"englishNote": ""
+					},
+					"29": {
+						"event": "Like Present",
+						"media": "present_like",
+						"chinese": "",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"30": {
+						"event": "Dislike Present",
+						"media": "present_dislike",
+						"chinese": "",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"31": {
+						"event": "Main Title",
+						"media": "extra",
+						"chinese": "",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
 						"japaneseTL": "",
 						"japaneseNote": "",
 						"english": "",
@@ -632,7 +699,7 @@
 			"2": {
 				"skin_id": "fuerban_2",
 				"id": "1",
-				"label": "フルール・ド・ブラン",
+				"label": "Fleur Blanche",
 				"dialogue": {
 					"1": {
 						"event": "Ship Description",
@@ -643,7 +710,7 @@
 						"japanese": "たまにはこうして外で新鮮な空気を吸うのも悪くありませんね。あの…指揮官、もうすこし付き合っていただけないでしょうか",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "It's good to be able to stop and smell the roses every now and then. Um, Commander, would you be able to accompany me a bit longer?",
 						"englishNote": ""
 					},
 					"2": {
@@ -655,7 +722,7 @@
 						"japanese": "たまにはこうして外で新鮮な空気を吸うのも悪くありませんね。あの…指揮官、もうすこし付き合っていただけないでしょうか",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "It's good to be able to stop and smell the roses every now and then. Um, Commander, would you be able to accompany me a bit longer?",
 						"englishNote": ""
 					},
 					"3": {
@@ -667,7 +734,7 @@
 						"japanese": "指揮官、新鮮な果物でもいかがですか？",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Would you like some fresh fruit, Commander?",
 						"englishNote": ""
 					},
 					"4": {
@@ -679,7 +746,7 @@
 						"japanese": "せっかくリンゴとトマトをもらいましたから、ミックスジュースでもいかがでしょうか？健康にいいんですよ",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "We don't usually get such fresh apples and tomatoes, so how about a mixed juice? It's good for your health! ",
 						"englishNote": ""
 					},
 					"5": {
@@ -691,7 +758,7 @@
 						"japanese": "争いのない、平和な日…私たちはそれを奪い返すために戦っているのですね",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "No more fighting, no more wars... That's the peace that we're fighting to reclaim. ",
 						"englishNote": ""
 					},
 					"6": {
@@ -703,7 +770,7 @@
 						"japanese": "花の香りは疲労回復の効果があると聞きました。指揮官、お花を植えてはいかがでしょうか？",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Commander, I heard that aromatherapy can help you recover from fatigue. Why don't you try growing some flowers?",
 						"englishNote": ""
 					},
 					"7": {
@@ -715,7 +782,7 @@
 						"japanese": "先輩方がせっかく選んでくれましたけど……こういうふわっとした服、やっぱりちょっと慣れませんね……",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "I know the other knights went out of their way to pick this dress for me... but I'm not used to all the frills and whatnot...",
 						"englishNote": ""
 					},
 					"8": {
@@ -727,7 +794,7 @@
 						"japanese": "きゃっ！つ、次は手加減しませんよっ！",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Eep! N-next time, I won't hold back!",
 						"englishNote": ""
 					},
 					"9": {
@@ -739,7 +806,7 @@
 						"japanese": "この服……あまり汚してはいけませんね",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "I hope... I don't get these clothes dirty...",
 						"englishNote": ""
 					},
 					"10": {
@@ -751,15 +818,154 @@
 						"japanese": "この平和がずっと続いたら――ううん、指揮官と一緒に努力すれば、きっと夢じゃないですよね？そうですよね？ふふ",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "If only this peace could last forever... Nay, as long as we work together, this won't merely be a dream. Right, Commander? Hehe~",
 						"englishNote": ""
 					}
 				}
 			},
 			"3": {
+				"skin_id": "fuerban_3",
+				"id": "2",
+				"label": "École de Chevalier",
+				"dialogue": {
+					"1": {
+						"event": "Ship Description",
+						"media": "",
+						"chinese": "自由鸢尾见习骑士福尔班，现在正作为学生努力适应着校园生活。唔……这样是不是有些悠闲过头了？",
+						"chineseTL": "Iris Libre's Forbin, currently a student trying her best to adapt to campus life. Ah... but am I being too carefree?",
+						"chineseNote": "",
+						"japanese": "自由アイリス教国所属、見習い騎士フォルバン、学園生活を満喫させていただいております！……こ、これで本当に大丈夫でしょうか…？",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Even though I'm an Iris Libre squire, I'm currently working hard to have a rich student life. Um... maybe this is a bit too laid back?",
+						"englishNote": ""
+					},
+					"2": {
+						"event": "Acquisition",
+						"media": "get_2",
+						"chinese": "自由鸢尾见习骑士福尔班，现在正作为学生努力适应着校园生活。唔……这样是不是有些悠闲过头了？",
+						"chineseTL": "Ah, Good morning, Commander! The weather is good today too.",
+						"chineseNote": "",
+						"japanese": "自由アイリス教国所属、見習い騎士フォルバン、学園生活を満喫させていただいております！……こ、これで本当に大丈夫でしょうか…？",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Even though I'm an Iris Libre squire, I'm currently working hard to have a rich student life. Um... maybe this is a bit too laid back?",
+						"englishNote": ""
+					},
+					"3": {
+						"event": "Login",
+						"media": "login_2",
+						"chinese": "啊，早安，指挥官！今天也是好天气呢。",
+						"chineseTL": "Ah, Good morning, Commander! The weather is good today too.",
+						"chineseNote": "",
+						"japanese": "あ、指揮官、おはようございます！今日も良い天気ですね",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"4": {
+						"event": "Details",
+						"media": "detail_2",
+						"chinese": "我参加了剑道社。这样在学习之余，我也能与同伴们一起练习剑术，提升自己的实力了——呃？这个剑不一样吗！？",
+						"chineseTL": "I've joined the Kendo club, this way I can study and practice sword skills with my comrades and improve my strength —— Eh? Isn't this sword different!?",
+						"chineseNote": "",
+						"japanese": "剣道サークルに入部しました。勉強の余暇には、仲間たちと剣の練習をして、実力を磨き――え！使う剣が違うのですか？！",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "I joined the Kendo Club. I'm thinking it'll be good to hone my swordsmanship skills against my peers and build up my streng— Huh? What do you mean it's a different kind of sword!?",
+						"englishNote": ""
+					},
+					"5": {
+						"event": "Main 1",
+						"media": "main_1_2",
+						"chinese": "指挥官，你有看到勒马尔吗？她再不认真看书的话，下次的考试就有点难办了呀……",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "指揮官、ル・マルスを見かけませんでしたか？もう、今からでも真面目に勉強しておかないと、次の試験は危ないですよ……",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Commander, have you seen Le Mars? If she's slacking off again, I don't know how she thinks she's going to pass the exam...",
+						"englishNote": ""
+					},
+					"6": {
+						"event": "Main 2",
+						"media": "main_2_2",
+						"chinese": "学习就和剑术一样，要认真对待才会有提高。",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "勉強も剣に通じるところがあります――真面目に練習をこなさないと上達しないところ、ですね",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Study is much like swordsmanship, you have to take it seriously if you want to improve.",
+						"englishNote": ""
+					},
+					"7": {
+						"event": "Main 3",
+						"media": "main_3_2",
+						"chinese": "指挥官，你的衣领歪了。别动，我来帮你——好，这下就没问题了！",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "指揮官、襟が乱れていますよ。あ、そのまま動かないで、私が正してあげますから――はい、これでよし！",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Commander, your collar's all twisted. Hold still, I'll get it— There, that's better!",
+						"englishNote": ""
+					},
+					"8": {
+						"event": "Touch",
+						"media": "touch_1_2",
+						"chinese": "呀，风！……！？指挥官？！没，没看到吧？",
+						"chineseTL": "Ah, wind!....!? Commander ?! Y-you didn't see anything, right?",
+						"chineseNote": "",
+						"japanese": "きゃっ！？風が……指揮官？！み、見ていませんよね！？",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Aie! The wind! ...Erm!? Commander!? You, you didn't see anything, did you?",
+						"englishNote": ""
+					},
+					"9": {
+						"event": "Touch (Special)",
+						"media": "touch_2_2",
+						"chinese": "这、这种违反风纪的行为…是不可以的，指挥官！",
+						"chineseTL": "T-This sort of rule violating behavior... is unacceptable, Commander!",
+						"chineseNote": "",
+						"japanese": "ふ、風紀違反は……ダメです！指揮官！",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "S- such filthy, immoral behavior... You can't do this, Commander!",
+						"englishNote": ""
+					},
+					"10": {
+						"event": "Mission",
+						"media": "task_2",
+						"chinese": "无论在学校还是在指挥室，都不能忘了自己的任务哦，指挥官？",
+						"chineseTL": "No matter in school or the command room, you can't forget your mission, Commander.",
+						"chineseNote": "",
+						"japanese": "指揮官？学園でも執務室でも、自分の使命を忘れてはいけませんよ？",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "In study as in war, we must always remember the mission. Isn't that right, Commander?",
+						"englishNote": ""
+					},
+					"11": {
+						"event": "Return to Port",
+						"media": "home_2",
+						"chinese": "指挥官，中午有空的话，一起吃午饭怎样？",
+						"chineseTL": "Commander, if you have time at noon, how about we have lunch together?",
+						"chineseNote": "",
+						"japanese": "指揮官、お時間がありましたら、一緒にお昼でもいかがでしょうか",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Commander, what do you say we have lunch together, if you have time?",
+						"englishNote": ""
+					}
+				}
+			},
+			"4": {
 				"skin_id": "fuerban_g",
 				"id": "9",
-				"label": "フォルバン改",
+				"label": "Forbin (Retrofit) ",
 				"dialogue": {
 					"1": {
 						"event": "Ship Description",
@@ -770,7 +976,7 @@
 						"japanese": "長い努力がついに報われました！…指揮官、いつもご指導ごありがとうございます！このご恩はより華やかな戦果をもって報います！",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "My hard work has finally paid off! Commander, thank you for your guidance all this time! I'll return the favor by bringing you even more honors in battle!",
 						"englishNote": ""
 					},
 					"2": {
@@ -782,7 +988,7 @@
 						"japanese": "長い努力がついに報われました！…指揮官、いつもご指導ありがとうございます！このご恩はより華やかな戦果をもって報います！",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "My hard work has finally paid off! Commander, thank you for your guidance all this time! I'll return the favor by bringing you even more honors in battle!",
 						"englishNote": ""
 					},
 					"3": {
@@ -794,7 +1000,7 @@
 						"japanese": "重桜には剣の心得のある方がたくさんいますね。機会があったら、ぜひ手合わせしてみたいものです",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Looks like there are plenty of folks in the Sakura Empire who understand the way of the sword. I'd love to meet with them sometime. ",
 						"englishNote": ""
 					},
 					"4": {
@@ -806,7 +1012,7 @@
 						"japanese": "先輩方にはまだ及びませんが、今は焦らず、自分のペースで追いついてみせます",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "I still fall short compared to the other knights, but I'm in no rush. Slowly but surely, I know I'll be able to catch up to them. ",
 						"englishNote": ""
 					},
 					"5": {
@@ -818,7 +1024,7 @@
 						"japanese": "ふん！は！…あっ…思わず剣を振り始めてしまいました…",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Hnn! Haah! Oh... I started swinging my sword again without even realizing it...",
 						"englishNote": ""
 					},
 					"6": {
@@ -830,7 +1036,7 @@
 						"japanese": "指揮官、どこが変わったか確認しますか？",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Commander, are you trying to see what's different about me?",
 						"englishNote": ""
 					},
 					"7": {
@@ -842,7 +1048,7 @@
 						"japanese": "ここは変わっていませんが……わざとでしたよね！？",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Hey, there's nothing different about that place... Are you doing this on purpose?!",
 						"englishNote": ""
 					},
 					"8": {
@@ -854,7 +1060,7 @@
 						"japanese": "愛する全てを守るために！",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "In order to protect everything that we cherish!",
 						"englishNote": ""
 					},
 					"9": {
@@ -866,7 +1072,7 @@
 						"japanese": "言ったはずです。指揮官の努力を無駄にはしません！",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "I'll say it again. I won't let Commander's efforts go to waste!",
 						"englishNote": ""
 					}
 				}
@@ -884,6 +1090,114 @@
 		"add_level_value": "1",
 		"add_level_shiptype": "Destroyer",
 		"t_level": "4",
-		"ships": "forbin"
-	}
+		"ships": "forbin,le_mars"
+	},
+	"retrofit": {
+		"1": {
+			"nodeSettings": "retronode, a1, n y y n",
+			"stat": "torpedo, base, Torpedo +5",
+			"stage": "1",
+			"desc": "Torpedo Enhancement I",
+			"level": "5",
+			"limitBreak": "★★☆☆☆",
+			"material": "bpt1 2, gold 400"
+		},
+		"2": {
+			"nodeSettings": "retronode, a2, y y n n",
+			"stat": "hp, base, HP +60",
+			"stage": "1",
+			"desc": "Hull Improvement I",
+			"level": "1",
+			"limitBreak": "★★☆☆☆",
+			"material": "bpt1 2, gold 300"
+		},
+		"3": {
+			"nodeSettings": "line, b1, n y n y"
+		},
+		"4": {
+			"nodeSettings": "retronode, b2, n y y y",
+			"stat": "antiair, efficiency, Anti-Air Efficiency +5%",
+			"stage": "1",
+			"desc": "Anti-Air Improvement I",
+			"level": "20",
+			"limitBreak": "★★★☆☆",
+			"material": "bpt1 3, gold 600"
+		},
+		"5": {
+			"nodeSettings": "retronode, b3, y n n n",
+			"stat": "antiair, base, Anti-Air +15",
+			"stage": "1",
+			"desc": "Anti-Air Improvement I",
+			"level": "25",
+			"limitBreak": "★★★☆☆",
+			"material": "bpt1 3, gold 800"
+		},
+		"6": {
+			"nodeSettings": "retronode, c1, n n y y",
+			"stat": "torpedo, base, Torpedo +5/+15",
+			"stage": "2",
+			"desc": "Torpedo Enhancement II",
+			"level": "40",
+			"limitBreak": "★★★★☆",
+			"material": "bpt1 4, gold 2400"
+		},
+		"7": {
+			"nodeSettings": "retronode, c2, y y n y",
+			"stat": "torpedo, efficiency, Torpedo Efficiency +5%",
+			"stage": "1",
+			"desc": "Torpedo Improvement I",
+			"level": "35",
+			"limitBreak": "★★★★☆",
+			"material": "bpt1 3, gold 1000"
+		},
+		"8": {
+			"nodeSettings": "retronode, d2, n y y y",
+			"stat": "maingun, efficiency, Main Gun Efficiency +5%",
+			"stage": "1",
+			"desc": "Main Gun Improvement I",
+			"level": "50",
+			"limitBreak": "★★★★☆",
+			"material": "bpt2 3, gold 1500"
+		},
+		"9": {
+			"nodeSettings": "retronode, d3, y n n n",
+			"stat": "firepower, base, Firepower +5/+15",
+			"stage": "2",
+			"desc": "Firepower Enhancement II",
+			"level": "55",
+			"limitBreak": "★★★★☆",
+			"material": "bpt2 3, gold 3600"
+		},
+		"10": {
+			"nodeSettings": "retronode, e1, n y y n",
+			"stat": "skill, defensive, Learn skill \"Emergency Maneuvers\"",
+			"stage": "1",
+			"desc": "Tactical Learning",
+			"level": "75",
+			"limitBreak": "★★★★★",
+			"material": "bpt2 4, gold 2500"
+		},
+		"13": {
+			"nodeSettings": "retronode, e2, y y n y",
+			"stat": "speed, base, Speed +3",
+			"stage": "1",
+			"desc": "Motor Enhancement",
+			"level": "70",
+			"limitBreak": "★★★★★",
+			"material": "bpt2 3, gold 2000"
+		},
+		"14": {
+			"nodeSettings": "line, f1, n n y y"
+		},
+		"15": {
+			"nodeSettings": "retronode, f2, y n n y",
+			"stat": "modernization, defensive, ASW +30 / Anti-Air +15",
+			"stage": "1",
+			"desc": "Modernization",
+			"level": "85",
+			"limitBreak": "★★★★★",
+			"material": "bpt3 1, duplicate 1, gold 3000"
+		}
+	},
+	"retroParameter": "Elite, Destroyer"
 }

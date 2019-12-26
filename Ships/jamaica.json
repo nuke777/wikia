@@ -11,8 +11,7 @@
 	"hull": "Light Cruiser",
 	"navy": "Royal Navy",
 	"prefix": "HMS",
-	"buildTime": "",
-	"class": "Fiji-Class",
+	"buildTime": "01:22:00",
 	"voiceActress": "Yuuko Sanpei",
 	"parameters": {
 		"firepower": "C",
@@ -34,33 +33,34 @@
 		"EN": ""
 	},
 	"artist": {
-		"name": "",
-		"weibo": "",
-		"twitter": "",
-		"pixiv": "",
+		"name": "大月紅葉",
+		"weibo": "http://weibo.com/ootsukimomiji",
+		"twitter": "https://twitter.com/dayuehongye",
+		"pixiv": "https://www.pixiv.net/member.php?id=591937",
 		"other": ""
 	},
+	"class": "Fiji-Class",
 	"enhance": {
 		"firepower": "12",
 		"torpedo": "16",
 		"aviation": "0",
 		"reload": "13"
 	},
-	"acquisitionMethod": "Event: Winter's Crown",
+	"acquisitionMethod": "Event: Winter's Crown, Light Construction",
 	"skill": {
 		"1": {
 			"icon": "11170",
-			"requirement": "",
+			"requirement": "Default Unlocked",
 			"name": "Allies of Justice",
 			"type": "Offensive",
-			"description": "When sortied with Sheffield: increases this ship's FP and TRP by $1."
+			"description": "When sortied with Sheffield: increases this ship's FP and TRP by 5%(15%)."
 		},
 		"2": {
 			"icon": "21161",
-			"requirement": "",
+			"requirement": "Limit Break I(III)",
 			"name": "All Out Assault Ⅰ",
 			"type": "Offensive",
-			"description": "Activate All Out Assault Ⅰ: Fiji Class once every 12 times the main gun is fired."
+			"description": "Activates All Out Assault Ⅰ: Fiji once every 12 times the Main Guns are fired."
 		}
 	},
 	"skin": {
@@ -99,6 +99,28 @@
 				},
 				"6": {
 					"id": "6"
+				}
+			}
+		},
+		"3": {
+			"id": "yamaijia_3",
+			"name": "Highway Star",
+			"description": "Look, Boss, this is the new bike that Akashi sent me. She said she wanted me to be her brand ambassador... Doesn't that job sound badass?",
+			"expression": {
+				"0": {
+					"id": "0"
+				},
+				"1": {
+					"id": "1"
+				},
+				"2": {
+					"id": "2"
+				},
+				"3": {
+					"id": "3"
+				},
+				"4": {
+					"id": "4"
 				}
 			}
 		}
@@ -232,22 +254,35 @@
 			"preload": "0/0/0/0"
 		},
 		"4": {
-			"type": "Auxiliary",
+			"type": "Auxilary",
 			"efficiency": "-",
 			"amount": "-",
 			"preload": "-"
 		},
 		"5": {
-			"type": "Auxiliary",
+			"type": "Auxilary",
 			"efficiency": "-",
 			"amount": "-",
 			"preload": "-"
 		}
 	},
+	"fleet_tech": {
+		"pt_get": "7",
+		"add_get_attr": "HP",
+		"add_get_value": "1",
+		"add_get_shiptype": "Light Cruiser",
+		"pt_upgrade": "14",
+		"pt_level": "10",
+		"add_level_attr": "ASW",
+		"add_level_value": "1",
+		"add_level_shiptype": "Light Cruiser",
+		"t_level": "6",
+		"ships": "fiji,jamaica"
+	},
 	"build": {
 		"light": {
-			"JP": "",
-			"CN": "",
+			"JP": "✓",
+			"CN": "✓",
 			"EN": ""
 		},
 		"heavy": {
@@ -617,7 +652,7 @@
 						"englishNote": ""
 					},
 					"28": {
-						"event": "Easter Egg 1 (Charles Ausburne)",
+						"event": "Easter Egg 1(Charles Ausburne)",
 						"media": "link1",
 						"chinese": "同志啊，携手共进吧。",
 						"chineseTL": "",
@@ -629,7 +664,7 @@
 						"englishNote": ""
 					},
 					"29": {
-						"event": "Easter Egg 2 (Sheffield)",
+						"event": "Easter Egg 2(Sheffield)",
 						"media": "link2",
 						"chinese": "谢菲，你终于也觉醒了正义之心吗",
 						"chineseTL": "",
@@ -638,6 +673,42 @@
 						"japaneseTL": "",
 						"japaneseNote": "",
 						"english": "Sheffy, have you awakened to your Heart of Justice?",
+						"englishNote": ""
+					},
+					"30": {
+						"event": "Like Present",
+						"media": "present_like",
+						"chinese": "",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"31": {
+						"event": "Dislike Present",
+						"media": "present_dislike",
+						"chinese": "",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"32": {
+						"event": "Main Title",
+						"media": "extra",
+						"chinese": "",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
 						"englishNote": ""
 					}
 				}
@@ -780,20 +851,98 @@
 						"englishNote": ""
 					}
 				}
+			},
+			"3": {
+				"skin_id": "yamaijia_3",
+				"id": "2",
+				"label": "Highway Star",
+				"dialogue": {
+					"1": {
+						"event": "Ship Description",
+						"media": "",
+						"chinese": "boss，看，这是明石送给我的新车，说是让我做新产品的“代言人”……代言人，呵呵，听起来很帅啊",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "ボス、明石が手配してくれた新しい相棒だ。なんだか「タレント」をやってほしいとの依頼も頼みたいらしいが……ふん、「タレント」、いい響きだ",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Look, Boss, this is the new bike that Akashi sent me. She said she wanted me to be her brand ambassador... Doesn't that job sound badass?",
+						"englishNote": ""
+					},
+					"2": {
+						"event": "Acquisition",
+						"media": "get_2",
+						"chinese": "boss，看，这是明石送给我的新车，说是让我做新产品的“代言人”……代言人，呵呵，听起来很帅啊",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"3": {
+						"event": "Login",
+						"media": "login_2",
+						"chinese": "boss，今天天气不错，要出去兜风吗？",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"4": {
+						"event": "Details",
+						"media": "detail_2",
+						"chinese": "明石说，这辆车送给我的代价是，我也要帮她“推销”。所以，boss你要不要也买一辆？",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"5": {
+						"event": "Touch",
+						"media": "touch_1_2",
+						"chinese": "听啊，boss，这马达的轰鸣声，它在渴望着奔跑，那么，还等什么，上车吧，别忘了安全帽",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"6": {
+						"event": "Return to Port",
+						"media": "home_2",
+						"chinese": "boss，这个时节的山上非常美丽，一起去看看吗",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"7": {
+						"event": "Affinity (Love)",
+						"media": "feeling5_2",
+						"chinese": "我曾以为我是旅行者，我不是任何地方的故人，我也没有寻求的终点…现在，我发现我错了，boss，无论发生什么，我都会回到你的身边",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					}
+				}
 			}
 		}
-	},
-	"fleet_tech": {
-		"pt_get": "7",
-		"add_get_attr": "HP",
-		"add_get_value": "1",
-		"add_get_shiptype": "Light Cruiser",
-		"pt_upgrade": "14",
-		"pt_level": "10",
-		"add_level_attr": "ASW",
-		"add_level_value": "1",
-		"add_level_shiptype": "Light Cruiser",
-		"t_level": "6",
-		"ships": "fiji,jamaica"
 	}
 }

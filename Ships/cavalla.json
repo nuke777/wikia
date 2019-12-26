@@ -1,0 +1,876 @@
+{
+	"name_reference": "cavalla",
+	"cn_reference": "jiqi",
+	"nameJP": "カヴァラ",
+	"nameCN": "棘鳍",
+	"ID": "402",
+	"name": "Cavalla",
+	"internal_id": "108031",
+	"rarity": "Super Rare",
+	"initialStar": "★★★☆☆☆",
+	"hull": "Submarine",
+	"navy": "Eagle Union",
+	"prefix": "USS",
+	"buildTime": "N/A",
+	"voiceActress": "Kubo Yurika",
+	"parameters": {
+		"firepower": "D",
+		"torpedo": "S",
+		"aviation": "E",
+		"evasion": "D",
+		"antiAir": "E",
+		"hp": "D"
+	},
+	"scrap": {
+		"gold": "1",
+		"oil": "4",
+		"medal": "10"
+	},
+	"releaseDate": {
+		"JP": "July 31, 2019",
+		"CN": "July 31, 2019",
+		"KR": "July 31, 2019",
+		"EN": "July 31, 2019"
+	},
+	"artist": {
+		"name": "",
+		"weibo": "",
+		"twitter": "",
+		"pixiv": "",
+		"other": ""
+	},
+	"class": "Gato-Class",
+	"enhance": {
+		"firepower": "1",
+		"torpedo": "40",
+		"aviation": "0",
+		"reload": "7"
+	},
+	"acquisitionMethod": "Event: Ashen Simulacrum",
+	"skill": {
+		"1": {
+			"icon": "12460",
+			"requirement": "Default Unlocked",
+			"name": "Guardian Piscis",
+			"type": "Defensive",
+			"description": "Allied submarines and aviation submarines take 10.0%(15.0%) less damage, and regains 3.5%(8.0%) of their health when leaving combat"
+		},
+		"2": {
+			"icon": "12470",
+			"requirement": "Default Unlocked",
+			"name": "Double The Gato",
+			"type": "Offensive",
+			"description": "Damage done to CVs increased by 5.0%(20.%); When surfacing in battle, fire a torpedo barrage Lv.1(Lv.10) (strength and fire pattern improve with skill level) that increases in damage by 5.0%(15.0%) when sortied with Albacore"
+		},
+		"3": {
+			"icon": "29441",
+			"requirement": "Limit Break I(III)",
+			"name": "All Out Assault Ⅰ",
+			"type": "Offensive",
+			"description": "When entering battle, fire special barrage - Cavalla I"
+		}
+	},
+	"skin": {
+		"1": {
+			"id": "jiqi",
+			"name": "Cavalla ",
+			"description": "Gato-class submarine – Cavalla, Hull Number SS-244. ",
+			"expression": {
+				"0": {
+					"id": "0"
+				},
+				"1": {
+					"id": "1"
+				},
+				"2": {
+					"id": "2"
+				},
+				"3": {
+					"id": "3"
+				},
+				"4": {
+					"id": "4"
+				},
+				"5": {
+					"id": "5"
+				}
+			}
+		},
+		"2": {
+			"id": "jiqi_2",
+			"name": "Convenience Store Raid! ",
+			"description": "You're late, Commander! ... What's all this? Heheh, it's loot I got from the stop n' rob's bargain bin! Here, have some bread! ",
+			"expression": {
+				"0": {
+					"id": "0"
+				},
+				"1": {
+					"id": "1"
+				},
+				"2": {
+					"id": "2"
+				},
+				"3": {
+					"id": "3"
+				},
+				"4": {
+					"id": "4"
+				}
+			}
+		}
+	},
+	"defaultEquipment": {
+		"1": {
+			"icon": "15000",
+			"rarity": "Common",
+			"name": "Mark 14 Submarine Torpedo"
+		},
+		"2": {
+			"icon": "15000",
+			"rarity": "Common",
+			"name": "Mark 14 Submarine Torpedo"
+		},
+		"3": {
+			"icon": "",
+			"rarity": "",
+			"name": ""
+		}
+	},
+	"stats": {
+		"100": {
+			"hp": "1582",
+			"firepower": "57",
+			"torpedo": "477",
+			"antiAir": "0",
+			"aviation": "0",
+			"reload": "81",
+			"hit": "171",
+			"evasion": "22",
+			"speed": "16.8",
+			"luck": "78",
+			"asw": "0",
+			"oxygen": "243",
+			"ammo": "2",
+			"cost": "8",
+			"armor": "Light"
+		},
+		"120": {
+			"hp": "1899",
+			"firepower": "65",
+			"torpedo": "524",
+			"antiAir": "0",
+			"aviation": "0",
+			"reload": "93",
+			"hit": "192",
+			"evasion": "41",
+			"speed": "16.8",
+			"luck": "78",
+			"asw": "0",
+			"oxygen": "243",
+			"ammo": "2",
+			"cost": "8",
+			"armor": "Light"
+		},
+		"base": {
+			"hp": "306",
+			"firepower": "12",
+			"torpedo": "101",
+			"antiAir": "0",
+			"aviation": "0",
+			"reload": "34",
+			"hit": "66",
+			"evasion": "9",
+			"speed": "16.8",
+			"luck": "78",
+			"asw": "0",
+			"oxygen": "243",
+			"ammo": "2",
+			"cost": "2",
+			"armor": "Light"
+		},
+		"100retrofit": {
+			"hp": "",
+			"firepower": "",
+			"torpedo": "",
+			"antiAir": "",
+			"aviation": "",
+			"reload": "",
+			"hit": "",
+			"evasion": "",
+			"speed": "16.8",
+			"luck": "78",
+			"asw": "",
+			"oxygen": "243",
+			"ammo": "2",
+			"cost": "8",
+			"armor": "Light"
+		},
+		"120retrofit": {
+			"hp": "",
+			"firepower": "",
+			"torpedo": "",
+			"antiAir": "",
+			"aviation": "",
+			"reload": "",
+			"hit": "",
+			"evasion": "",
+			"speed": "16.8",
+			"luck": "78",
+			"asw": "",
+			"oxygen": "243",
+			"ammo": "2",
+			"cost": "8",
+			"armor": "Light"
+		}
+	},
+	"limitBreak": {
+		"tier1": "Unlock EX Barrage Ⅰ/Torpedo efficiency +5%",
+		"tier2": "Torpedo base +1/Improve Hunting range",
+		"tier3": "Improve EX Barrage/Torpedo efficiency +10%"
+	},
+	"equipmentLoadout": {
+		"1": {
+			"type": "Submarine Torpedo",
+			"efficiency": "110%/115%/115%/125%",
+			"amount": "1/1/2/2",
+			"preload": "0/0/0/0"
+		},
+		"2": {
+			"type": "Submarine Torpedo",
+			"efficiency": "110%/115%/115%/125%",
+			"amount": "1/1/2/2",
+			"preload": "0/0/0/0"
+		},
+		"3": {
+			"type": "Destroyer Gun",
+			"efficiency": "85%/85%/85%/85%",
+			"amount": "1/1/1/1",
+			"preload": "0/0/0/0"
+		},
+		"4": {
+			"type": "Auxilary",
+			"efficiency": "-",
+			"amount": "-",
+			"preload": "-"
+		},
+		"5": {
+			"type": "Auxilary",
+			"efficiency": "-",
+			"amount": "-",
+			"preload": "-"
+		}
+	},
+	"fleet_tech": {
+		"pt_get": "5",
+		"add_get_attr": "Hit",
+		"add_get_value": "1",
+		"add_get_shiptype": "Submarine,Submarine Aircraft Carrier",
+		"pt_upgrade": "10",
+		"pt_level": "8",
+		"add_level_attr": "Torpedo",
+		"add_level_value": "2",
+		"add_level_shiptype": "Submarine,Submarine Aircraft Carrier",
+		"t_level": "6",
+		"ships": "albacore,cavalla,dace"
+	},
+	"build": {
+		"light": {
+			"JP": "",
+			"CN": "",
+			"EN": ""
+		},
+		"heavy": {
+			"JP": "",
+			"CN": "",
+			"EN": ""
+		},
+		"special": {
+			"JP": "",
+			"CN": "",
+			"EN": ""
+		},
+		"limited": {
+			"JP": "",
+			"CN": "",
+			"EN": ""
+		}
+	},
+	"drop": {
+		"droppable": "true",
+		"list": {
+			"1": {
+				"event": "Ashen Simulacrum",
+				"chapter": {
+					"1": {
+						"label": "Ch.B",
+						"node": {
+							"1": {
+								"drop": "-",
+								"note": "-"
+							},
+							"2": {
+								"drop": "-",
+								"note": "-"
+							},
+							"3": {
+								"drop": "✓",
+								"note": "-"
+							}
+						}
+					},
+					"2": {
+						"label": "Ch.D",
+						"node": {
+							"1": {
+								"drop": "-",
+								"note": "-"
+							},
+							"2": {
+								"drop": "-",
+								"note": "-"
+							},
+							"3": {
+								"drop": "✓",
+								"note": "-"
+							}
+						}
+					}
+				}
+			}
+		}
+	},
+	"lines": {
+		"skin": {
+			"1": {
+				"skin_id": "jiqi",
+				"id": "0",
+				"label": "Cavalla ",
+				"dialogue": {
+					"1": {
+						"event": "Ship Description",
+						"media": "",
+						"chinese": "猫鲨级潜艇棘鳍，舷号SS-244",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "ガトー級潜水艦カヴァラ・SS-244",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Gato-class submarine – Cavalla, Hull Number SS-244.",
+						"englishNote": ""
+					},
+					"2": {
+						"event": "Biography",
+						"media": "profile",
+						"chinese": "我在第一次执行巡航任务的时候，就逮到了机会，击沉了重樱的航空母舰！……轻松？才不呢！那次行动的前前后后可是充满了危机！不过，我都一一挺过去啦！指挥官有兴趣的话，我可以把这个故事慢慢说给你听！",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "あたし、初パトロールでチャンスを見つけて空母を沈めたんだ！……結構ピンチもあったから、別に楽なんかじゃなかったよ！まあ、全部乗り越えたけどね！この話に興味があったら今度教えてあげる！",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "I was given a golden opportunity during my maiden voyage and sank a carrier! ... It was a pretty risky move, and it wasn't easy! But in the end, I came out on top! If you wanna hear the whole story, just ask!",
+						"englishNote": ""
+					},
+					"3": {
+						"event": "Acquisition",
+						"media": "get",
+						"chinese": "我是白鹰的潜水艇，棘鳍！我会为这支舰队带来更多的战果，请看着吧！指挥官",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "ユニオンの潜水艦、カヴァラ！艦隊のために戦果を持ってくるから待ってて！指揮官！",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "I'm Cavalla, the Eagle Union submarine! I'll make this fleet famous through glorious victories, so just you wait, Commander!",
+						"englishNote": ""
+					},
+					"4": {
+						"event": "Login",
+						"media": "login",
+						"chinese": "早安！指挥官今天也准时到了呢～",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "おはよう！今日も定刻通りに来たね！",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Morning! You're right on time today!",
+						"englishNote": ""
+					},
+					"5": {
+						"event": "Details",
+						"media": "detail",
+						"chinese": "潜艇可不只会藏在海中猎杀敌人。就算是在水面上，我也一样能战斗的！",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "海の中だけでしか戦えない潜水艦じゃないよ！水上でも問題ないよ！",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "I'm no fish out of water that can't fight on the surface! It's no problem for me!",
+						"englishNote": ""
+					},
+					"6": {
+						"event": "Main 1",
+						"media": "main_1",
+						"chinese": "以后潜艇会不会变得更强？比如说……能带更厉害的武器什么的？",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "潜水艦はもっと強くならないかな？例えば……もっとすごい武器を積めるようになるとか？",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Could we make submarines stronger? By, for example... giving them stronger, better weapons or something?",
+						"englishNote": ""
+					},
+					"7": {
+						"event": "Main 2",
+						"media": "main_2",
+						"chinese": "待在这里却什么也不做，总觉得有点空虚呢……指挥官，让我做点什么吧！",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "何もしないのにここにいるのはつまんないね。…指揮官、なんかやらせて！",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "It's so boring to just sit here and twiddle my thumbs... Give me something to do, Commander!",
+						"englishNote": ""
+					},
+					"8": {
+						"event": "Main 3",
+						"media": "main_3",
+						"chinese": "呼哇——在陆地上，也能感受到不输海上的舒服的风呢！",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "ふはー！陸の上でも海と同じぐらい気持ちいい風があるんだー！",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Whew! The breeze feels almost as good on land as it does at sea!",
+						"englishNote": ""
+					},
+					"9": {
+						"event": "Touch",
+						"media": "touch_1",
+						"chinese": "啊哈，哈哈哈！……别，别摸啦！哈哈，很，很痒的啦！",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "あははは！もう触るなははは！くすぐったいあははは！",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Ahahaha~! Stop! Ahahah~! That tickles– ahahaha!",
+						"englishNote": ""
+					},
+					"10": {
+						"event": "Touch (Special)",
+						"media": "touch_2",
+						"chinese": "你，你被逮捕了！",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "た、逮捕されちゃうよ！",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "I-I'll have you arrested!",
+						"englishNote": ""
+					},
+					"11": {
+						"event": "Mission",
+						"media": "task",
+						"chinese": "把这些任务完成的话会有很多奖励吗？",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "任務をこなしたら報酬をいっぱい貰える？",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Do we get a boatload of rewards if we do these missions?",
+						"englishNote": ""
+					},
+					"12": {
+						"event": "Mission Complete",
+						"media": "mission_complete",
+						"chinese": "哦哦！奖励有好多！指挥官，我想吃顿大餐！",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "おお！報酬が一杯！指揮官、いいもの食べよう！",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Ooh! A boatload of rewards! Let's treat ourselves, Commander!",
+						"englishNote": ""
+					},
+					"13": {
+						"event": "Mail",
+						"media": "mail",
+						"chinese": "有新的信息！会不会是潜艇同伴发来的？",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "新しいメッセージ！潜水艦の仲間からか？",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "A new message has arrived! Wonder if it's from one of my submarine friends!",
+						"englishNote": ""
+					},
+					"14": {
+						"event": "Return to Port",
+						"media": "home",
+						"chinese": "指挥官，需要潜艇发挥力量的时候，尽管找我吧！",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "指揮官、潜水艦の活躍が必要になったらカヴァラに声をかけて！",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Commander, if you need the expertise of a submarine, just call on Cavalla!",
+						"englishNote": ""
+					},
+					"15": {
+						"event": "Commission Complete",
+						"media": "expedition",
+						"chinese": "委托队顺利地返航了呢！",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "委託組、無事帰ってきたね！",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "The commission team has returned safely!",
+						"englishNote": ""
+					},
+					"16": {
+						"event": "Enhancement",
+						"media": "upgrade",
+						"chinese": "我变强了！哼哼~",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "強くなった！ふふん！",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "I feel stronger! Heheh!",
+						"englishNote": ""
+					},
+					"17": {
+						"event": "Flagship",
+						"media": "warcry",
+						"chinese": "同伴们，请借给我勇气吧！",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "仲間たち、勇気をちょうだい！",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Give me strength, my friends!",
+						"englishNote": ""
+					},
+					"18": {
+						"event": "Victory",
+						"media": "mvp",
+						"chinese": "这次的胜利可是多亏了我在哦，嘿嘿～",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "勝利はカヴァラのおかげ！へへへー",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "You can thank Cavalla for this victory! Hehehe~",
+						"englishNote": ""
+					},
+					"19": {
+						"event": "Defeat",
+						"media": "lose",
+						"chinese": "呜呜呜，海水…好咸……",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "ぐぅ…海の水が塩辛いからだよぉ……",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Bah... This happened just cause the sea is so salty...",
+						"englishNote": ""
+					},
+					"20": {
+						"event": "Skill",
+						"media": "skill",
+						"chinese": "这个机会，等了很久了！",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "待ってたよ！このチャンスを！",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "I've been waiting for this chance!",
+						"englishNote": ""
+					},
+					"21": {
+						"event": "Low HP",
+						"media": "hp",
+						"chinese": "不管情况多么险恶都不能放弃！",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "どんなに厳しい状況でも諦めない！",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "I won't give up, no matter how bad it gets!",
+						"englishNote": ""
+					},
+					"22": {
+						"event": "Affinity (Upset)",
+						"media": "feeling1",
+						"chinese": "我不喜欢你！",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "嫌いだ！",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "I hate you!",
+						"englishNote": ""
+					},
+					"23": {
+						"event": "Affinity (Stranger)",
+						"media": "feeling2",
+						"chinese": "对失败的恐惧感，就用心中的勇气来克服！",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "負けるのが怖いなら、勇気を奮い立たせよう！",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Fear of failure can be overcome by showing your courage!",
+						"englishNote": ""
+					},
+					"24": {
+						"event": "Affinity (Friendly)",
+						"media": "feeling3",
+						"chinese": "光靠勇气是不能轻松胜利的！…这时候就需要依靠指挥官的力量啦！指挥官，有你的指示，我们就能跨过一切困难！",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "勇気だけでは楽に勝てない！…って時は、指揮官の力が大事ね！指揮官の指示さえあれば、あたしたちは何でも乗り越えられる！",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Sometimes, courage alone isn't enough... And that's when I need your strength, Commander! With your instructions, we can overcome anything!",
+						"englishNote": ""
+					},
+					"25": {
+						"event": "Affinity (Like)",
+						"media": "feeling4",
+						"chinese": "最近…感觉自己好像变胆小了…出击作战的时候不再像以前那样果断，思考的时候还总是不知不觉想到指挥官……一定是指挥官的错！…但是，真的是指挥官的错吗…",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "最近なんか臆病になった気がする…出撃のときに今までのようにシャキッと戦えなくなっちゃったし、指揮官のことを思うと……きっと指揮官のせいだ！…でも、本当に指揮官のせいなのかな……",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "I've been feeling sick lately... I can't fight with the same flair as I used to when I think about you... That's it, it's gotta be your fault, Commander! ... Actually, I'm not so sure...",
+						"englishNote": ""
+					},
+					"26": {
+						"event": "Affinity (Love)",
+						"media": "feeling5",
+						"chinese": "我做了一个梦，梦到指挥官把我像个小孩一样抱起来，然后绕着整个港区在跑……很奇怪吧？更奇怪的事是，我居然还觉得挺开心的…为什么呢……",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "指揮官があたしを子供のように抱っこしながら母港中を走り回る夢を見た……おかしいよねこれ！でもなぜか妙に嬉しく気持ちになっちゃって……なんだろう…",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "I had a dream where you carried me and walked around the port... It was really weird! But for some strange reason, it makes me feel happy... I wonder why...",
+						"englishNote": ""
+					},
+					"27": {
+						"event": "Pledge",
+						"media": "propose",
+						"chinese": "欸，等等，指挥官，你为什么把我抱起来了？你，你要做什么？“负重跑步训练”？别，别开玩笑了，大，大家都在看着啊！快把我放下来啦！",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "あわわ！待って待って！なんでいきなりだっこしてきたの！何をする気なの！？「ウェイトトレーニングの練習」？じょ、冗談じゃないよ！？みんなが見てるから早く下ろしてーー！！",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Whuah! Hold on a sec! Why are you hugging me out of the blue?! What are you doing?! You call this \"weight training\"? A-are you kidding me?! Everyone's staring at us, so let go already!",
+						"englishNote": ""
+					},
+					"28": {
+						"event": "Easter Egg 1(Albacore)",
+						"media": "link1",
+						"chinese": "要来比比看谁更厉害吗！",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "どっちか強いか競争だ！",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Let's see who of us is the strongest!",
+						"englishNote": ""
+					},
+					"29": {
+						"event": "Like Present",
+						"media": "present_like",
+						"chinese": "",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"30": {
+						"event": "Dislike Present",
+						"media": "present_dislike",
+						"chinese": "",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"31": {
+						"event": "Main Title",
+						"media": "extra",
+						"chinese": "",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					}
+				}
+			},
+			"2": {
+				"skin_id": "jiqi_2",
+				"id": "1",
+				"label": "Convenience Store Raid! ",
+				"dialogue": {
+					"1": {
+						"event": "Ship Description",
+						"media": "",
+						"chinese": "啊~指挥官你好慢啊！…嗯？这些东西？嘿嘿，这是刚从便利店的减价专区拿下的战利品哦！喏，分你个面包~",
+						"chineseTL": "Ah~ You're slow commander! Hmm? These things? Hmhm, these are the trophies I won from the convenience store! Hey, I'll let you have some bread~",
+						"chineseNote": "",
+						"japanese": "指揮官おそいよ！…これ？ふふん、コンビニの割引コーナーから手に入れた戦果だよ！はい、このパンあげる！",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "You're late, Commander! ... What's all this? Heheh, it's loot I got from the stop n' rob's bargain bin! Here, have some bread!",
+						"englishNote": ""
+					},
+					"2": {
+						"event": "Acquisition",
+						"media": "get_1",
+						"chinese": "啊~指挥官你好慢啊！…嗯？这些东西？嘿嘿，这是刚从便利店的减价专区拿下的战利品哦！喏，分你个面包~",
+						"chineseTL": "Ah~ You're slow commander! Hmm? These things? Hmhm, these are the trophies I won from the convenience store! Hey, I'll let you have some bread~",
+						"chineseNote": "",
+						"japanese": "指揮官おそいよ！…これ？ふふん、コンビニの割引コーナーから手に入れた戦果だよ！はい、このパンあげる！",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "You're late, Commander! ... What's all this? Heheh, it's loot I got from the stop n' rob's bargain bin! Here, have some bread!",
+						"englishNote": ""
+					},
+					"3": {
+						"event": "Login",
+						"media": "login_1",
+						"chinese": "等你很久啦，指挥官！",
+						"chineseTL": "You've kept me waiting, Commander!",
+						"chineseNote": "",
+						"japanese": "指揮官、待ってたよ！",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "I've been waiting for you, Commander!",
+						"englishNote": ""
+					},
+					"4": {
+						"event": "Details",
+						"media": "detail_1",
+						"chinese": "这些零食是大青花鱼让我帮忙买的，鱼雷模型则是鲦鱼拜托的…便利店还真是什么都有呢！",
+						"chineseTL": "I bought these snacks for Albacore, and the torpedo model are dace's. Convenience stores really do have everything!",
+						"chineseNote": "",
+						"japanese": "スナックはアルバコアちゃんの分、魚雷プラモデルはデイスちゃんの分……コンビニって何でも置いてあるあるよね！",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Some snacks for Albacore and a torpedo model kit for Dace... These convenience stores really have everything, don't they!",
+						"englishNote": ""
+					},
+					"5": {
+						"event": "Main 1",
+						"media": "main_1_1",
+						"chinese": "这个是……哦哦，是超稀有啊！好厉害！指挥官指挥官，快看我抽到了什么！",
+						"chineseTL": "This is... a super rare! How wonderful! Quick, Commander, watch what I just drew!",
+						"chineseNote": "(she's playing AL..)",
+						"japanese": "！！スーパーレア！すごい！指揮官これこれ！へへへ～見せてやるー！",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "IT'S A SUPER RARE! Holy mackerel! Commander, look! Hehehe~ See what I just got?!",
+						"englishNote": ""
+					},
+					"6": {
+						"event": "Main 2",
+						"media": "main_2_1",
+						"chinese": "限定版萨拉托加玩偶！怎么样，很羡慕吧！……之前就有了？难，难道我被骗了！",
+						"chineseTL": "Limited edition Saratoga dolls! How about it, envious yet? ......It's not limited? D-did I get cheated!?",
+						"chineseNote": "",
+						"japanese": "限定版サラトガちゃんぬいぐるみ！羨ましいでしょ～……も、もう持ってるの？あたし、騙された！？",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "I snagged myself a limited-edition Sara plushie! Aren't you jealous~? ... Y-you already own one? D-did they scam me?!",
+						"englishNote": ""
+					},
+					"7": {
+						"event": "Main 3",
+						"media": "main_3_1",
+						"chinese": "学校生活比我想象中的有趣很多呢！嘿嘿，说不定我很适合当学生哦！",
+						"chineseTL": "School was much more interesting than I imagined! Hmhm, looks like I'm well suited to be a student!",
+						"chineseNote": "",
+						"japanese": "学園生活、思ってたよりずっと面白いよね！あたし、学生さんに向いてるかも！",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "School life is a lot more fun than I expected! I might just be a natural scholar!",
+						"englishNote": ""
+					},
+					"8": {
+						"event": "Touch",
+						"media": "touch_1_1",
+						"chinese": "啊，指挥官，不准抢我辛苦买来的半价薯片！",
+						"chineseTL": "Ah! Commander, you're not allowed to touch my hard earned, half priced chips!",
+						"chineseNote": "",
+						"japanese": "あ、指揮官！半額のポテチを持って行っちゃダメ！",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "No, Commander! You can't have my precious discounted chips!",
+						"englishNote": ""
+					},
+					"9": {
+						"event": "Touch (Special)",
+						"media": "touch_2_1",
+						"chinese": "指挥官，难道是挑准了这个在学校外的这个时机吗！",
+						"chineseTL": "Commander, were you planning for this opportunity while we were still outside of school?",
+						"chineseNote": "",
+						"japanese": "指揮官、学園の外にいるのを狙ってたの！",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "I bet you waited for me to leave school just to do that!",
+						"englishNote": ""
+					},
+					"10": {
+						"event": "Mission",
+						"media": "task_1",
+						"chinese": "任务？是学校布置的作业吗？",
+						"chineseTL": "Mission? Is it like a school assignment?",
+						"chineseNote": "",
+						"japanese": "任務？学園の宿題なの？",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "A mission? Is that my homework?",
+						"englishNote": ""
+					},
+					"11": {
+						"event": "Return to Port",
+						"media": "home_1",
+						"chinese": "指挥官，今天店里的热狗只要半价呢！",
+						"chineseTL": "Commander, the hot dogs in the store today are only half the price!",
+						"chineseNote": "",
+						"japanese": "指揮官、今日はホットドッグ半額だって！",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Commander, hotdogs are 50% off today!",
+						"englishNote": ""
+					},
+					"12": {
+						"event": "Commission Complete",
+						"media": "expedition_1",
+						"chinese": "那，那难道就是传说中的“便利店扫荡大队”！……呃，原来是委托队吗。",
+						"chineseTL": "C-could they be the legendary \"convenience store clearing brigade\"!? Oh, it's just the Commission squad.",
+						"chineseNote": "",
+						"japanese": "あ、あれは伝説の「シールハンター」？！……あ、委託組だった",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "A-are they the fabled Fantastic Forty Percent Off?! ... Oh, it's just the commission team.",
+						"englishNote": ""
+					}
+				}
+			}
+		}
+	}
+}

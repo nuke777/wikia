@@ -1,0 +1,655 @@
+{
+	"name_reference" : "stanly",
+	"cn_reference" : "sitanli",
+	"nameJP" : "スタンリー ",
+	"nameCN" : "斯坦利",
+	"ID" : "409",
+	"name" : "Stanly",
+	"internal_id" : "101411",
+	"rarity" : "Rare",
+	"initialStar" : "★★☆☆☆",
+	"hull" : "Destroyer",
+	"navy" : "Eagle Union",
+	"prefix" : "USS",
+	"buildTime" : "N/A",
+	"parameters": {
+		"firepower" : "C",
+		"torpedo" : "C",
+		"aviation" : "E",
+		"evasion" : "B",
+		"antiAir" : "C",
+		"hp" : "C"
+	},
+	"scrap": {
+		"gold" : "4",
+		"oil" : "3",
+		"medal" : "1"
+	},
+	"releaseDate": {
+		"JP" : "September 5, 2019",
+		"CN" : "September 5, 2019",
+		"KR" : "September 5, 2019",
+		"EN" : "September 5, 2019"
+	},
+	"artist": {
+		"name" : "",
+		"weibo" : "",
+		"twitter" : "",
+		"pixiv" : "",
+		"other" : ""
+	},
+	"class" : "Fletcher-Class",
+	"enhance": {
+		"firepower" : "5",
+		"torpedo" : "17",
+		"aviation" : "0",
+		"reload" : "14"
+	},
+	"acquisitionMethod" : "Event Login Bonus",
+	"skill": {
+		"1" : {
+			"icon" : "4091",
+			"requirement" : "Default Unlocked",
+			"name" : "Anti-Air Mode",
+			"type" : "Defensive",
+			"description" : "When this ship fires its Anti-Air Guns: 25.0% chance to increase this ship's AA by 20%(40%) but decrease its FP by 40%(20%) for 3s."
+		},
+		"2" : {
+			"icon" : "20041",
+			"requirement" : "Limit Break I (III)",
+			"name" : "All Out Assault Ⅰ",
+			"type" : "Offensive",
+			"description" : "Activates All Out Assault Ⅰ: Fletcher Class once every 15 times the Main Guns are fired."
+		}
+	},
+	"skin": {
+		"1" : {
+			"id" : "sitanli",
+			"name" : "Stanly ",
+			"description" : "Fletcher-class destroyer - Stanly , Hull Number DD-478.",
+			"expression" : {
+				"0" : {
+					"id" : "0"
+				}
+			}
+		}
+	},
+	"defaultEquipment": {
+		"1" : {
+			"icon" : "11100",
+			"rarity" : "Common",
+			"name" : "Single 127mm Main Gun"
+		},
+		"2" : {
+			"icon" : "",
+			"rarity" : "",
+			"name" : ""
+		},
+		"3" : {
+			"icon" : "",
+			"rarity" : "",
+			"name" : ""
+		}
+	},
+	"stats": {
+		"base": {
+			"hp" : "338",
+			"firepower" : "16",
+			"torpedo" : "53",
+			"antiAir" : "32",
+			"aviation" : "0",
+			"reload" : "75",
+			"hit" : "72",
+			"evasion" : "59",
+			"speed" : "42",
+			"luck" : "90",
+			"asw" : "51",
+			"oxygen" : "0",
+			"ammo" : "0",
+			"cost" : "2",
+			"armor" : "Light"
+		},
+		"100": {
+			"hp" : "1746",
+			"firepower" : "74",
+			"torpedo" : "248",
+			"antiAir" : "150",
+			"aviation" : "0",
+			"reload" : "177",
+			"hit" : "188",
+			"evasion" : "154",
+			"speed" : "42",
+			"luck" : "90",
+			"asw" : "186",
+			"oxygen" : "0",
+			"ammo" : "0",
+			"cost" : "8",
+			"armor" : "Light"
+		},
+		"120": {
+			"hp" : "2095",
+			"firepower" : "85",
+			"torpedo" : "283",
+			"antiAir" : "172",
+			"aviation" : "0",
+			"reload" : "204",
+			"hit" : "197",
+			"evasion" : "160",
+			"speed" : "42",
+			"luck" : "90",
+			"asw" : "206",
+			"oxygen" : "0",
+			"ammo" : "0",
+			"cost" : "8",
+			"armor" : "Light"
+		},
+		"100retrofit": {
+			"hp" : "",
+			"firepower" : "",
+			"torpedo" : "",
+			"antiAir" : "",
+			"aviation" : "",
+			"reload" : "",
+			"hit" : "",
+			"evasion" : "",
+			"speed" : "42",
+			"luck" : "90",
+			"asw" : "",
+			"oxygen" : "0",
+			"ammo" : "0",
+			"cost" : "8",
+			"armor" : "Light"
+		},
+		"120retrofit": {
+			"hp" : "",
+			"firepower" : "",
+			"torpedo" : "",
+			"antiAir" : "",
+			"aviation" : "",
+			"reload" : "",
+			"hit" : "",
+			"evasion" : "",
+			"speed" : "42",
+			"luck" : "90",
+			"asw" : "",
+			"oxygen" : "0",
+			"ammo" : "0",
+			"cost" : "8",
+			"armor" : "Light"
+		}
+	},
+	"limitBreak": {
+		"tier1": "Unlock All Out Assault Ⅰ/All weapons' efficiency +2%",
+		"tier2": "Torpedo base +1/Torpedo preload +1/All weapons' efficiency +3%",
+		"tier3": "Improve All Out Assault/All weapons' efficiency +5%"
+	},
+	"equipmentLoadout": {
+		"1": {
+			"type": "Destroyer Gun",
+			"efficiency": "110%/112%/115%/120%",
+			"amount": "1/1/1/1",
+			"preload": "0/0/0/0"
+		},
+		"2": {
+			"type": "Torpedo",
+			"efficiency": "120%/122%/125%/130%",
+			"amount": "1/1/2/2",
+			"preload": "0/0/1/1"
+		},
+		"3": {
+			"type": "Anti-Air Gun",
+			"efficiency": "125%/127%/130%/135%",
+			"amount": "1/1/1/1",
+			"preload": "0/0/0/0"
+		},
+		"4": {
+			"type": "Auxilary",
+			"efficiency": "-",
+			"amount": "-",
+			"preload": "-"
+		},
+		"5": {
+			"type": "Auxilary",
+			"efficiency": "-",
+			"amount": "-",
+			"preload": "-"
+		}
+	},
+	"fleet_tech": {
+		"pt_get": "6",
+		"add_get_attr": "HP",
+		"add_get_value": "1",
+		"add_get_shiptype": "Destroyer",
+		"pt_upgrade": "13",
+		"pt_level": "9",
+		"add_level_attr": "Anti-Air",
+		"add_level_value": "1",
+		"add_level_shiptype": "Destroyer",
+		"t_level": "8",
+		"ships": "fletcher,radford,jenkins,nicholas,bache,stanly,foote,spence,thatcher,kimberly,mullany,bush,hazelwood,aulick,charles_ausburne"
+	},
+	"build": {
+		"light": {
+			"JP": "",
+			"CN": "",
+			"EN": ""
+		},
+		"heavy": {
+			"JP": "",
+			"CN": "",
+			"EN": ""
+		},
+		"special": {
+			"JP": "",
+			"CN": "",
+			"EN": ""
+		},
+		"limited": {
+			"JP": "",
+			"CN": "",
+			"EN": ""
+		}
+	},
+	"drop": {
+		"droppable": "false",
+		"list": {
+			"1": {
+				"event": "",
+				"chapter": {
+					"1": {
+						"label": "Ch .1",
+						"node": {
+							"1": {
+								"drop": "✓",
+								"note": "-"
+							}
+						}
+					}
+				}
+			}
+		}
+	},
+	"lines": {
+		"skin": {
+			"1": {
+				"skin_id" : "sitanli",
+				"id" : "0",
+				"label" : "Stanly ",
+				"dialogue" : {
+					"1" : {
+						"event" : "Ship Description",
+						"media" : "",
+						"chinese" : "弗莱彻级驱逐舰—斯坦利，舷号DD-478",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "フレッチャー級駆逐艦・スタンリー（DD-478)",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Good morning, Commander. I'm Stanly, a destroyer from the Eagle Union. I will follow your every order to bring you victory... Pffft! Bahaha! S-Sorry, this whole \"serious introduction\" thing totally cramps my style, haha!",
+						"englishNote" : ""
+					},
+					"2" : {
+						"event" : "Biography",
+						"media" : "profile",
+						"chinese" : "斯坦利呢，曾经护航过很多同伴，还作为小海狸分队的一员参加过奥古斯塔皇后湾海战……不管白天还是夜晚，认真模式的斯坦利都是很可靠的！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "スタンリーは～仲間の護衛をたくさんこなして～ビーバーズ隊の一員としてエンプレス・オーガスタ湾での戦いに参加したよ！……昼でも夜でも、真面目スタイルのスタンリーは頼りになるんだからね！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "In the past, I've escorted many of my allies, and served in the Battle of Empress Augusta Bay as a member of the Little Beaver Squadron. As long as I'm in my serious mode, I'm really reliable in both day and night battles.",
+						"englishNote" : ""
+					},
+					"3" : {
+						"event" : "Acquisition",
+						"media" : "get",
+						"chinese" : "你好，指挥官，我是白鹰所属驱逐舰斯坦利。我将听从你的命令，为你带来胜利……噗——哈哈哈！抱歉啦，正经的自我介绍果然还是太难了呢哈哈哈……",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "ハロー指揮官、ユニオン所属の駆逐艦スタンリーよ。さあ、あなたの命令に従って、あなたに勝利を――あははは！真面目にやるのってやっぱ難しすぎだってば！あはははは！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Good morning, Commander. I'm Stanly, a destroyer from the Eagle Union. I will follow your every order to bring you victory... Pffft! Bahaha! S-Sorry, this whole \"serious introduction\" thing totally cramps my style, haha!",
+						"englishNote" : ""
+					},
+					"4" : {
+						"event" : "Login",
+						"media" : "login",
+						"chinese" : "斯坦利已经进入工作模式了！顺便一提，这个模式的持续时间是很短的呢。",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "スタンリー、お仕事スタイル！ついでに言うけど、このスタイルは持続時間が短いって定評があるよー",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Stanly has entered work mode! By the way, it doesn't last very long.",
+						"englishNote" : ""
+					},
+					"5" : {
+						"event" : "Details",
+						"media" : "detail",
+						"chinese" : "再怎么看，斯坦利都不会变身的哟？",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "スタンリーをいくら見てもスタイルチェンジしないわよ？",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "What are you staring at? I'm not going to transform...",
+						"englishNote" : ""
+					},
+					"6" : {
+						"event" : "Main 1",
+						"media" : "main_1",
+						"chinese" : "指挥官，和我一起成为正义的伙伴吧……噗哈哈哈！开玩笑的啦！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "指揮官、あたしと一緒に正義の味方になってよ！……あははは！冗談だって！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Commander, join me in becoming a hero of justice... Bahaha! Just kidding! ",
+						"englishNote" : ""
+					},
+					"7" : {
+						"event" : "Main 2",
+						"media" : "main_2",
+						"chinese" : "指挥官，还在工作模式中吗？真是的，别让斯坦利等太久了啦……",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "指揮官はお仕事スタイル中？もう、あんまりスタンリーを待たせないでね！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Commander, are you still in work mode? Jeez, don't keep me waiting much longer... ",
+						"englishNote" : ""
+					},
+					"8" : {
+						"event" : "Main 3",
+						"media" : "main_3",
+						"chinese" : "指挥官的头发真好玩！我卷~我卷~",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "指揮官の髪型おもしろ～い！巻いちゃえ巻いちゃえ～グルグル～",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Commander, your hair sure is funny! Let's give it a good twirl~!",
+						"englishNote" : ""
+					},
+					"9" : {
+						"event" : "Touch",
+						"media" : "touch_1",
+						"chinese" : "自我防卫模式启动——骗你的啦，哈哈！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "自己防衛スタイル、アクティベイト！――なんてね、あはは！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Self-defense mode activating... Bahaha, you should've seen your face!",
+						"englishNote" : ""
+					},
+					"10" : {
+						"event" : "Touch (Special)",
+						"media" : "touch_2",
+						"chinese" : "很遗憾，奇怪的模式是没有的呢~",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "変わった反応ができなくてごめんねー",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Sorry to disappoint, but I don't have a hot and bothered mode.",
+						"englishNote" : ""
+					},
+					"11" : {
+						"event" : "Mission",
+						"media" : "task",
+						"chinese" : "要是有什么模式能跳过任务就好了呢。",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "任務をスキップできるスタイルとかあればいいのになー",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "I wish I had some mode that would let me skip the daily grind...",
+						"englishNote" : ""
+					},
+					"12" : {
+						"event" : "Mission Complete",
+						"media" : "mission_complete",
+						"chinese" : "哦哦！奖励来了！指挥官，快去看看啦！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "おお！ボーナスだよボーナス！指揮官、早く見に行こうよ！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Whoa! The rewards are here! Commander, let's go take a look!",
+						"englishNote" : ""
+					},
+					"13" : {
+						"event" : "Mail",
+						"media" : "mail",
+						"chinese" : "有新的消息！可别说我没提醒过你哟？",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "新しいメッセージよ！これで知らせてないなんて言わせないからね！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "There's a news update! Don't say I didn't tell you!",
+						"englishNote" : ""
+					},
+					"14" : {
+						"event" : "Return to Port",
+						"media" : "home",
+						"chinese" : "欸，指挥官什么时候回来的？斯坦利的休息模式剩余时间还很长呢……",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "あれ？指揮官いつ戻ってきたの？スタンリーの休憩スタイル、残り時間まだ結構あるのに…",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Yo... When'd you get back, Commander? Stanly's rest mode still needs a while to run its course.",
+						"englishNote" : ""
+					},
+					"15" : {
+						"event" : "Commission Complete",
+						"media" : "expedition",
+						"chinese" : "下次有委托的时候，就让斯坦利帮忙护送吧！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "今度委託があったら、スタンリーに護衛を任せてよ！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Next time you're sending a commission, let Stanly handle the escort duty!",
+						"englishNote" : ""
+					},
+					"16" : {
+						"event" : "Enhancement",
+						"media" : "upgrade",
+						"chinese" : "强化成功！嗯，奖励自己休息一会好了！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "強化成功！自分へのご褒美としてちょっと休憩しなきゃ！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Strengthening complete! I'm gonna reward myself to a little rest and relaxation!",
+						"englishNote" : ""
+					},
+					"17" : {
+						"event" : "Flagship",
+						"media" : "warcry",
+						"chinese" : "战斗模式启动！出击！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "バトルスタイルアクティベイト！いけーぇ！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Combat mode, activate! Set sail!",
+						"englishNote" : ""
+					},
+					"18" : {
+						"event" : "Victory",
+						"media" : "mvp",
+						"chinese" : "哼哼，mvp可是我的！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "ムフフ、MVPはあたしのものよ！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Heheh! MVP belongs to me!",
+						"englishNote" : ""
+					},
+					"19" : {
+						"event" : "Defeat",
+						"media" : "lose",
+						"chinese" : "糟了，赶紧启动逃——撤退模式！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "しまった、にげ――じゃなくて、撤退スタイルだ！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Crap, gotta switch to retreat mode pronto!",
+						"englishNote" : ""
+					},
+					"20" : {
+						"event" : "Skill",
+						"media" : "skill",
+						"chinese" : "攻击！攻击！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "いけいけいけ！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Attack! Attack!",
+						"englishNote" : ""
+					},
+					"21" : {
+						"event" : "Low HP",
+						"media" : "hp",
+						"chinese" : "转，转换成防御模式！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "でぃ、ディフェンススタイル！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "C-convert to defense mode!",
+						"englishNote" : ""
+					},
+					"22" : {
+						"event" : "Affinity (Upset)",
+						"media" : "feeling1",
+						"chinese" : "现在的斯坦利正处于失望模式！哼！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "スタンリーは今、ディスアポインテッドスタイル中！ふん！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Stanly is now operating in disappointment mode! Hmph!",
+						"englishNote" : ""
+					},
+					"23" : {
+						"event" : "Affinity (Stranger)",
+						"media" : "feeling2",
+						"chinese" : "今天的斯坦利是做什么都有精神的开心模式！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "今日のスタンリーはなんでもやる気いっぱいのハッピースタイルよ！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Stanly's in happy mode today – I can take on any task with a spring in my step!",
+						"englishNote" : ""
+					},
+					"24" : {
+						"event" : "Affinity (Friendly)",
+						"media" : "feeling3",
+						"chinese" : "虽然小海狸分队的其它同伴也很有趣，不过还是和指挥官在一起最开心！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "ビーバーズ隊のみんなと一緒にいるのは楽しいけど、指揮官と一緒にいるのも楽しいね！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "The other members of the Little Beaver Squad are fun to hang out with, but I still have the best time when I'm with you, Commander!",
+						"englishNote" : ""
+					},
+					"25" : {
+						"event" : "Affinity (Like)",
+						"media" : "feeling4",
+						"chinese" : "只要和指挥官在一起，斯坦利的幸福值就会一直上升呢！所以指挥官，再陪斯坦利玩一会嘛。",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "指揮官と一緒にいると、スタンリーの幸福度が上がりっぱなし！だから指揮官、スタンリーともっと一緒にいてね",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "As long as I'm with you, my happiness gauge will continue to fill up! So, Commander, please stay and play with me for a while.",
+						"englishNote" : ""
+					},
+					"26" : {
+						"event" : "Affinity (Love)",
+						"media" : "feeling5",
+						"chinese" : "警告，斯坦利已经进入了“和指挥官分开3米以上就会自我毁灭模式”……是，是真的啦！所以，斯坦利要一直跟在指挥官身边才行呢，嘻嘻~",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "指揮官と3メートル以上離れると自爆するスタイル、アクティベイト！……ほ、本当だよ？スタンリーは指揮官から離れないもん！えへへ！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Warning, Stanly has entered the \"will self-destruct if not within a 3-meter radius of Commander\" mode... I-I'm serious! So, I'm going to make sure I'm never separated from you, heehee~",
+						"englishNote" : ""
+					},
+					"27" : {
+						"event" : "Pledge",
+						"media" : "propose",
+						"chinese" : "指挥官，伸出手来——好的，链接成功！这样一来，斯坦利就能和指挥官心意相通了！嘿嘿，感受到斯坦利的幸福了吗？",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "指揮官、手を出して――よし、ケッコンスタイルアクティベイト！これで指揮官とスタンリーの心が一つに！えへへ、今スタンリーが幸せだってわかるかな？",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Commander, your hand, please... Good, connection complete! From now on, we will be able to communicate telepathically! Heehee, do you feel how happy I am?",
+						"englishNote" : ""
+					},
+					"28" : {
+						"event" : "Easter Egg 1(Charles Ausburne)",
+						"media" : "link1",
+						"chinese" : "这就是，小海狸分队的“正义模式”！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "ビーバーズ隊のジャスティススタイルよ！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "This is the Little Beavers' justice mode!",
+						"englishNote" : ""
+					},
+					"29" : {
+						"event" : "Like Present",
+						"media" : "present_like",
+						"chinese" : "",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"30" : {
+						"event" : "Dislike Present",
+						"media" : "present_dislike",
+						"chinese" : "",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"31" : {
+						"event" : "Main Title",
+						"media" : "extra",
+						"chinese" : "",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					}
+				}
+			}
+		}
+	}
+}

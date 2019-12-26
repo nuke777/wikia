@@ -11,7 +11,7 @@
 	"hull": "Light Cruiser",
 	"navy": "Eagle Union",
 	"prefix": "USS",
-	"buildTime": "",
+	"buildTime": "01:05:00",
 	"class": "Omaha-Class",
 	"voiceActress": "Kana Yuuki",
 	"parameters": {
@@ -34,10 +34,10 @@
 		"EN": ""
 	},
 	"artist": {
-		"name": "",
+		"name": "大嘘",
 		"weibo": "",
-		"twitter": "",
-		"pixiv": "",
+		"twitter": "https://twitter.com/U_S_O",
+		"pixiv": "https://www.pixiv.net/member.php?id=457541",
 		"other": ""
 	},
 	"enhance": {
@@ -50,14 +50,14 @@
 	"skill": {
 		"1": {
 			"icon": "2001",
-			"requirement": "",
+			"requirement": "Default Unlocked",
 			"name": "Quick Reload",
 			"type": "Offensive",
-			"description": "$1 chance to activate every 20s: increases this ship's RLD by $2 for 10s."
+			"description": "30.0%(60.0%) chance to activate every 20s: increases this ship's RLD by 20.0%(40.0%) for 10s."
 		},
 		"2": {
 			"icon": "20111",
-			"requirement": "",
+			"requirement": "Limit Break I (III)",
 			"name": "All Out Assault Ⅰ",
 			"type": "Offensive",
 			"description": "Activate All Out Assault Ⅰ: Omaha Class once every 12 times the main gun is fired."
@@ -96,6 +96,37 @@
 				},
 				"5": {
 					"id": "5"
+				}
+			}
+		},
+		"3": {
+			"id": "kangkede_3",
+			"name": "Sweet☆Christmas",
+			"description": "Merry Sweetsmas, Commander! Today, I get to eat as many sweets as I want without anyone saying things about it~♪ Hmm, I already eat this much every day? I guess so~",
+			"expression": {
+				"0": {
+					"id": "0"
+				},
+				"1": {
+					"id": "1"
+				},
+				"2": {
+					"id": "2"
+				},
+				"3": {
+					"id": "3"
+				},
+				"4": {
+					"id": "4"
+				},
+				"5": {
+					"id": "5"
+				},
+				"6": {
+					"id": "6"
+				},
+				"7": {
+					"id": "7"
 				}
 			}
 		}
@@ -243,9 +274,9 @@
 	},
 	"build": {
 		"light": {
-			"JP": "",
-			"CN": "",
-			"EN": ""
+			"JP": "✓",
+			"CN": "✓",
+			"EN": "✓"
 		},
 		"heavy": {
 			"JP": "",
@@ -726,6 +757,133 @@
 						"japaneseTL": "",
 						"japaneseNote": "",
 						"english": "Commander~? You can either be kicked or stepped on by me, please choose?",
+						"englishNote": ""
+					}
+				}
+			},
+			"3": {
+				"skin_id": "kangkede_3",
+				"id": "2",
+				"label": "Sweet☆Christmas",
+				"dialogue": {
+					"1": {
+						"event": "Ship Description",
+						"media": "",
+						"chinese": "Sweetie Christmas！指挥官，圣诞快乐！今天是白鹰怎么吃都不会被说的日子哦♪额，每天都吃这么多？好像也是～",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Merry Sweetsmas, Commander! Today, I get to eat as many sweets as I want without anyone saying things about it~♪ Hmm, I already eat this much every day? I guess so~",
+						"englishNote": ""
+					},
+					"2": {
+						"event": "Acquisition",
+						"media": "get_2",
+						"chinese": "Sweetie Christmas！指挥官，圣诞快乐！今天是白鹰怎么吃都不会被说的日子哦♪额，每天都吃这么多？好像也是～",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"3": {
+						"event": "Login",
+						"media": "login_2",
+						"chinese": "指挥官早♪今天也和康克德一起补充糖分吧！",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"4": {
+						"event": "Details",
+						"media": "detail_2",
+						"chinese": "港区的冬天很冷呢～这种时候就要靠糖分补充卡路里熬过去！不会变胖的体质可是要好好利用才行的♪",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"5": {
+						"event": "Main 1",
+						"media": "main_1_2",
+						"chinese": "敦刻尔克的点心我也不讨厌啦。我是糖分优先的，所以不管是大众便宜货还是高级品我都不会挑拣哦♪",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "nil",
+						"englishNote": ""
+					},
+					"6": {
+						"event": "Main 2",
+						"media": "main_2_2",
+						"chinese": "孟菲斯那个辛苦命，真是麻烦呢…总想帮她做点什么，不过怎么办才好呢～",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "nil",
+						"englishNote": ""
+					},
+					"7": {
+						"event": "Main 3",
+						"media": "main_3_2",
+						"chinese": "那是……姜饼…啾？还能做成那样的吗…？",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "nil",
+						"englishNote": ""
+					},
+					"8": {
+						"event": "Touch",
+						"media": "touch_1_2",
+						"chinese": "感觉真棒♪ 指挥官也尝一块吧！",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"9": {
+						"event": "Touch (Special)",
+						"media": "touch_2_2",
+						"chinese": "呵呵，你以为这个姿势我就不能把你踢飞了吗～？",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"10": {
+						"event": "Victory",
+						"media": "mvp_2",
+						"chinese": "圣诞甜点，记得给我哦♪",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
 						"englishNote": ""
 					}
 				}

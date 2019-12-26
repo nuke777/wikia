@@ -11,8 +11,7 @@
 	"hull": "Destroyer",
 	"navy": "Sakura Empire",
 	"prefix": "IJN",
-	"buildTime": "",
-	"class": "Fubuki-Class Type I (Fubuki)",
+	"buildTime": "00:23:00",
 	"voiceActress": "Mao Ichimichi",
 	"parameters": {
 		"firepower": "D",
@@ -34,12 +33,13 @@
 		"EN": ""
 	},
 	"artist": {
-		"name": "",
-		"weibo": "",
+		"name": "Alisa",
+		"weibo": "https://weibo.com/u/6056658230",
 		"twitter": "",
-		"pixiv": "",
+		"pixiv": "https://www.pixiv.net/member.php?id=1966676",
 		"other": ""
 	},
+	"class": "Fubuki-Class Type I (Fubuki)",
 	"enhance": {
 		"firepower": "4",
 		"torpedo": "32",
@@ -50,17 +50,17 @@
 	"skill": {
 		"1": {
 			"icon": "10960",
-			"requirement": "",
+			"requirement": "Default Unlocked",
 			"name": "Special Lead Ship",
 			"type": "Support",
-			"description": "Grants the following buffs to Ayanami, Akatsuki, Ikazuchi, Inazuma, and Fubuki: increases FP and EVA by $1 and TRP by $2."
+			"description": "Grants the following buffs to Ayanami, Akatsuki, Ikazuchi, Inazuma, and Fubuki: increases FP and EVA by 15.0%(30.0%) and TRP by 4.0%(10.0%)."
 		},
 		"2": {
 			"icon": "22021",
-			"requirement": "",
+			"requirement": "Limit Break I (III)",
 			"name": "All Out Assault Ⅰ",
 			"type": "Offensive",
-			"description": "Activate All Out Assault Ⅰ: Fubuki Class once every 15 times the main gun is fired."
+			"description": "Activates All Out Assault Ⅰ: Fubuki Class once every 15 times the Main Guns are fired."
 		}
 	},
 	"skin": {
@@ -86,8 +86,8 @@
 		},
 		"3": {
 			"id": "chuixue_4",
-			"name": "看板娘ブッキー",
-			"description": "「い、いらっしゃいませ！ただいまキャンペーン開催中！」――あ、あれ？「かわいくセクシーな看板娘」ってこんな感じだっけ…？思ってたのと違くない？…それに暑いし……",
+			"name": "Mascot Bucky",
+			"description": "\"C-come on in! We've got special offers for you!\" ... W-wait, is this really what a \"sexy mascot\" would wear? It feels pretty different from what I was expecting... And boy, is it stuffy in this thing...",
 			"expression": {
 				"0": {
 					"id": "0"
@@ -106,7 +106,7 @@
 		"4": {
 			"id": "chuixue_3",
 			"name": "Music Pixy",
-			"description": "指揮官、見て見て！これ、どうかな？……って服じゃないよ！このチューバのことだよ！指揮官に聞かせちゃおうかなー？ ",
+			"description": "Check it out, Commander! What do you think? ... No, not my dress! I'm talking about the tuba! Want me to play a tune for you~? ",
 			"expression": {
 				"0": {
 					"id": "0"
@@ -119,6 +119,37 @@
 				},
 				"3": {
 					"id": "3"
+				}
+			}
+		},
+		"5": {
+			"id": "chuixue_5",
+			"name": "スノーストーム！",
+			"description": "世界を驚かせる特型アイドル――吹雪、登場！",
+			"expression": {
+				"0": {
+					"id": "0"
+				},
+				"1": {
+					"id": "1"
+				},
+				"2": {
+					"id": "2"
+				},
+				"3": {
+					"id": "3"
+				},
+				"4": {
+					"id": "4"
+				},
+				"5": {
+					"id": "5"
+				},
+				"6": {
+					"id": "6"
+				},
+				"7": {
+					"id": "7"
 				}
 			}
 		}
@@ -252,23 +283,36 @@
 			"preload": "0/0/0/0"
 		},
 		"4": {
-			"type": "Auxiliary",
+			"type": "Auxilary",
 			"efficiency": "-",
 			"amount": "-",
 			"preload": "-"
 		},
 		"5": {
-			"type": "Auxiliary",
+			"type": "Auxilary",
 			"efficiency": "-",
 			"amount": "-",
 			"preload": "-"
 		}
 	},
+	"fleet_tech": {
+		"pt_get": "5",
+		"add_get_attr": "HP",
+		"add_get_value": "1",
+		"add_get_shiptype": "Destroyer",
+		"pt_upgrade": "11",
+		"pt_level": "8",
+		"add_level_attr": "Torpedo",
+		"add_level_value": "1",
+		"add_level_shiptype": "Destroyer",
+		"t_level": "4",
+		"ships": "fubuki"
+	},
 	"build": {
 		"light": {
-			"JP": "",
-			"CN": "",
-			"EN": ""
+			"JP": "✓",
+			"CN": "✓",
+			"EN": "✓"
 		},
 		"heavy": {
 			"JP": "",
@@ -637,7 +681,7 @@
 						"englishNote": ""
 					},
 					"28": {
-						"event": "Easter Egg 1 (Ayanami)",
+						"event": "Easter Egg 1(Ayanami)",
 						"media": "link1",
 						"chinese": "让我们给敌人点颜色瞧瞧！",
 						"chineseTL": "",
@@ -646,6 +690,42 @@
 						"japaneseTL": "",
 						"japaneseNote": "",
 						"english": "Let’s give the enemy a taste of our might!",
+						"englishNote": ""
+					},
+					"29": {
+						"event": "Like Present",
+						"media": "present_like",
+						"chinese": "",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"30": {
+						"event": "Dislike Present",
+						"media": "present_dislike",
+						"chinese": "",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"31": {
+						"event": "Main Title",
+						"media": "extra",
+						"chinese": "",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
 						"englishNote": ""
 					}
 				}
@@ -756,150 +836,150 @@
 			"3": {
 				"skin_id": "chuixue_4",
 				"id": "2",
-				"label": "看板娘ブッキー",
+				"label": "Mascot Bucky",
 				"dialogue": {
 					"1": {
 						"event": "Ship Description",
 						"media": "",
-						"chinese": "",
+						"chinese": "「欢、欢迎光临！特别促销活动绝赞进行中！」——嗯？哎？所谓“可爱的看板娘”是这种感觉的吗…？好像和想象中的不大一样…而且好热（小声）…",
 						"chineseTL": "",
 						"chineseNote": "",
 						"japanese": "「い、いらっしゃいませ！ただいまキャンペーン開催中！」――あ、あれ？「かわいくセクシーな看板娘」ってこんな感じだっけ…？思ってたのと違くない？…それに暑いし……",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "\"C-come on in! We've got special offers for you!\" ... W-wait, is this really what a \"sexy mascot\" would wear? It feels pretty different from what I was expecting... And boy, is it stuffy in this thing...",
 						"englishNote": ""
 					},
 					"2": {
 						"event": "Acquisition",
 						"media": "get_2",
-						"chinese": "",
+						"chinese": "「欢、欢迎光临！特别促销活动绝赞进行中！」——嗯？哎？所谓“可爱的看板娘”是这种感觉的吗…？好像和想象中的不大一样…而且好热（小声）…",
 						"chineseTL": "",
 						"chineseNote": "",
 						"japanese": "「い、いらっしゃいませ！ただいまキャンペーン開催中！」――あ、あれ？「かわいくセクシーな看板娘」ってこんな感じだっけ…？思ってたのと違くない？…それに暑いし……",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "\"C-come on in! We've got special offers for you!\" ... W-wait, is this really what a \"sexy mascot\" would wear? It feels pretty different from what I was expecting... And boy, is it stuffy in this thing...",
 						"englishNote": ""
 					},
 					"3": {
 						"event": "Login",
 						"media": "login_2",
-						"chinese": "",
+						"chinese": "欢、欢迎光临！不对呜呜，欢迎回来，指挥官…",
 						"chineseTL": "",
 						"chineseNote": "",
 						"japanese": "い、いらっしゃいませ！……じゃなくて！指揮官、おかえりなさい！",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "C-come on in! ... Oops, I mean, welcome back, Commander!",
 						"englishNote": ""
 					},
 					"4": {
 						"event": "Details",
 						"media": "detail_2",
-						"chinese": "",
+						"chinese": "呜…感觉意识…要飞走了…",
 						"chineseTL": "",
 						"chineseNote": "",
 						"japanese": "い、意識が……飛んじゃうよぉ……",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "I-I feel my consciousness... flapping away...",
 						"englishNote": ""
 					},
 					"5": {
 						"event": "Main 1",
 						"media": "main_1_2",
-						"chinese": "",
+						"chinese": "虽说是自己答应明石要当看板娘的…不过，总有种被骗了的感觉呢…",
 						"chineseTL": "",
 						"chineseNote": "",
 						"japanese": "看板娘をやるって明石と約束したけど…なんか騙された気が……",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "I did promise Akashi I'd be the mascot... but it kind of feels like she tricked me...",
 						"englishNote": ""
 					},
 					"6": {
 						"event": "Main 2",
 						"media": "main_2_2",
-						"chinese": "",
+						"chinese": "指挥官，能帮我捡一下掉下来的玩偶吗，穿着这个有点…够不到…",
 						"chineseTL": "",
 						"chineseNote": "",
 						"japanese": "指揮官、これ拾うの手伝ってもらえない？これを着てる状態だと……んんっ……と、届きそうに、ない……",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Could you help me pick these up, Commander? Wearing this makes them... mmrgh... impossible to reach, you see...",
 						"englishNote": ""
 					},
 					"7": {
 						"event": "Main 3",
 						"media": "main_3_2",
-						"chinese": "",
+						"chinese": "听说…今天有高温警报呢…不过…吹雪身体的高温警报已经早就拉响了…",
 						"chineseTL": "",
 						"chineseNote": "",
 						"japanese": "あれ？今日って高温警報あったっけ……いやいやいや、高温警報なんて吹雪とっくに慣れただけなんじゃ……",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "What? The forecast warned about high temperatures? ... That's no biggie, I've already gotten used to it being really hot...",
 						"englishNote": ""
 					},
 					"8": {
 						"event": "Touch",
 						"media": "touch_1_2",
-						"chinese": "",
+						"chinese": "指、指挥官…不要随便碰我，我有点…控制不好平衡",
 						"chineseTL": "",
 						"chineseNote": "",
 						"japanese": "し、指揮官…触らないで…ば、バランスが…",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "C-Commander, don't touch me... I'm going to lose my balance...",
 						"englishNote": ""
 					},
 					"9": {
 						"event": "Touch (Special)",
 						"media": "touch_2_2",
-						"chinese": "",
+						"chinese": "诶、诶？指挥官你在干嘛！？",
 						"chineseTL": "",
 						"chineseNote": "",
 						"japanese": "ほ、ほぇ？指揮官、何やってるの！？",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Wh-what? What the heck are you doing, Commander?",
 						"englishNote": ""
 					},
 					"10": {
 						"event": "Return to Port",
 						"media": "home_2",
-						"chinese": "",
+						"chinese": "作、作战辛苦了！",
 						"chineseTL": "",
 						"chineseNote": "",
 						"japanese": "お、お疲れ様ぁ！",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "N-nicely done!",
 						"englishNote": ""
 					},
 					"11": {
 						"event": "Flagship",
 						"media": "warcry_2",
-						"chinese": "",
+						"chinese": "好、好热…赶紧解决掉敌人回去吧——",
 						"chineseTL": "",
 						"chineseNote": "",
 						"japanese": "あ、暑い…早く敵をやっつけて帰ろう……",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "It's so hot... Let's mop up the enemies quickly so we can go home...",
 						"englishNote": ""
 					},
 					"12": {
 						"event": "Victory",
 						"media": "mvp_2",
-						"chinese": "",
+						"chinese": "嗯～哼！即使穿着一身厚重的外套，也不影响我发挥该有的实力～",
 						"chineseTL": "",
 						"chineseNote": "",
 						"japanese": "えっへん！キグルミ装備でも…吹雪の実力、影響なーーーしっ！",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Heheh! Wearing this costume... doesn't impact my performance at aaaall!",
 						"englishNote": ""
 					}
 				}
@@ -918,7 +998,7 @@
 						"japanese": "指揮官、見て見て！これ、どうかな？……って服じゃないよ！このチューバのことだよ！指揮官に聞かせちゃおうかなー？ ",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Check it out, Commander! What do you think? ... No, not my dress! I'm talking about the tuba! Want me to play a tune for you~?",
 						"englishNote": ""
 					},
 					"2": {
@@ -930,7 +1010,7 @@
 						"japanese": "指揮官、見て見て！これ、どうかな？……って服じゃないよ！このチューバのことだよ！指揮官に聞かせちゃおうかなー？ ",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Check it out, Commander! What do you think? ... No, not my dress! I'm talking about the tuba! Want me to play a tune for you~?",
 						"englishNote": ""
 					},
 					"3": {
@@ -942,7 +1022,7 @@
 						"japanese": "指揮官、目覚ましのソロマーチング、いっくよ！",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "My marching solo will wake you up, Commander!",
 						"englishNote": ""
 					},
 					"4": {
@@ -954,7 +1034,7 @@
 						"japanese": "楽器って意外と面白いね！ほかの子にも布教しなくっちゃ！",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Didn't think an instrument could be so fun! I have to teach others about the joy of music!",
 						"englishNote": ""
 					},
 					"5": {
@@ -966,7 +1046,7 @@
 						"japanese": "指揮官、これで応援してあげる！プー！！……あ、あれ？うるさかった…？ごめんなさい！",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Let me play you a motivational song, Commander! Tooooot! ... Wh-what? That's annoying...? Sorry!",
 						"englishNote": ""
 					},
 					"6": {
@@ -978,7 +1058,7 @@
 						"japanese": "指揮官もなにか楽器を勉強して、一緒に演奏しようよ～",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "You should learn an instrument so we can play a song together, Commander!",
 						"englishNote": ""
 					},
 					"7": {
@@ -990,7 +1070,7 @@
 						"japanese": "そういえば指揮官、私の洋服姿ってどう？似合ってる？これ、ふわふわしててすごく気に入ってるんだよー",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Oh yeah, what do you think about my dress, Commander? Does it suit me? I absolutely adore it, it's all fluffy and stuff!",
 						"englishNote": ""
 					},
 					"8": {
@@ -1002,7 +1082,7 @@
 						"japanese": "指揮官は私の演奏を聞きたい？よぉし！饅頭たち、準備はいい？",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Do you wanna hear a song, Commander? You got it! Manjuus, you all ready to go?",
 						"englishNote": ""
 					},
 					"9": {
@@ -1014,7 +1094,7 @@
 						"japanese": "うわっ！……指揮官、これにぶつかっても知らないわよ！",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Whuah! ... Don't expect me to feel bad if I smack you with this thing, Commander!",
 						"englishNote": ""
 					},
 					"10": {
@@ -1026,7 +1106,7 @@
 						"japanese": "指揮官、出撃前の応援曲、役に立ってた？",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Did my pre-sortie motivational song serve you well, Commander?",
 						"englishNote": ""
 					},
 					"11": {
@@ -1038,7 +1118,7 @@
 						"japanese": "プー！！指揮官、委託組が帰ってきたぞー！…うんうん、やっぱりチューバの効果は段違いだね♪",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Tooooot! The commission team has come back, Commander! ... No surprise: this tuba's reminding potential is totally next-level♪",
 						"englishNote": ""
 					},
 					"12": {
@@ -1050,7 +1130,7 @@
 						"japanese": "このチューバ……やっぱり戦闘用…？",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Maybe my tuba... is useful in battle after all...?",
 						"englishNote": ""
 					},
 					"13": {
@@ -1062,7 +1142,7 @@
 						"japanese": "よぉし、みんなのためのビクトリーマーチを……ちょ、ちょっと待ってーー！！",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Okay, let's play a victory march to celebrate... H-hey! Wait for meeee!",
 						"englishNote": ""
 					},
 					"14": {
@@ -1074,24 +1154,102 @@
 						"japanese": "もし私がいつか本当にステージに上ったら、指揮官、見に来てくれないかな？っていうか、いっそう指揮官に私の演奏を指揮してほしいな～",
 						"japaneseTL": "",
 						"japaneseNote": "",
+						"english": "If I ever perform on stage, will you be there to listen, Commander? Actually, it'd be even better if you could be my maestro~",
+						"englishNote": ""
+					}
+				}
+			},
+			"5": {
+				"skin_id": "chuixue_5",
+				"id": "4",
+				"label": "スノーストーム！",
+				"dialogue": {
+					"1": {
+						"event": "Ship Description",
+						"media": "",
+						"chinese": "让世界都感到震撼的特型偶像，吹雪，正式出道！",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "世界を驚かせる特型アイドル――吹雪、登場！",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"2": {
+						"event": "Acquisition",
+						"media": "get_4",
+						"chinese": "让世界都感到震撼的特型偶像，吹雪，正式出道！",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"3": {
+						"event": "Login",
+						"media": "login_4",
+						"chinese": "开始今天的表演吧，3,2,1，Start！",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"4": {
+						"event": "Details",
+						"media": "detail_4",
+						"chinese": "我可是背负着整个特型驱逐的希望呢，不好好表现可不行呀！",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"5": {
+						"event": "Touch",
+						"media": "touch_1_4",
+						"chinese": "啊，是水！不愧是指挥官，注意到我渴了呢，谢谢~",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"6": {
+						"event": "Return to Port",
+						"media": "home_4",
+						"chinese": "啊，指挥官，工作辛苦啦！正好来看我的演出吧，特等席哦~",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"7": {
+						"event": "Affinity (Love)",
+						"media": "feeling5_4",
+						"chinese": "指挥官，其实我是知道的，吹雪我没有其他舰船那么有特色，但是，有指挥官在的话，我就能够在舞台上一直一直，一直一直闪耀下去，所以，要一直看着我哦！",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
 						"english": "",
 						"englishNote": ""
 					}
 				}
 			}
 		}
-	},
-	"fleet_tech": {
-		"pt_get": "5",
-		"add_get_attr": "HP",
-		"add_get_value": "1",
-		"add_get_shiptype": "Destroyer",
-		"pt_upgrade": "11",
-		"pt_level": "8",
-		"add_level_attr": "Torpedo",
-		"add_level_value": "1",
-		"add_level_shiptype": "Destroyer",
-		"t_level": "4",
-		"ships": "fubuki"
 	}
 }

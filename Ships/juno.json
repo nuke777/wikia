@@ -11,8 +11,7 @@
 	"hull": "Destroyer",
 	"navy": "Royal Navy",
 	"prefix": "HMS",
-	"buildTime": "",
-	"class": "J-Class",
+	"buildTime": "00:27:00",
 	"voiceActress": "Sawako Shirakabe",
 	"parameters": {
 		"firepower": "D",
@@ -34,33 +33,34 @@
 		"EN": ""
 	},
 	"artist": {
-		"name": "",
-		"weibo": "",
-		"twitter": "",
-		"pixiv": "",
+		"name": "梦咲枫",
+		"weibo": "http://weibo.com/u/3558369570",
+		"twitter": "https://twitter.com/yumesaki_kaede/",
+		"pixiv": "https://www.pixiv.net/member.php?id=1023957",
 		"other": ""
 	},
+	"class": "J-Class",
 	"enhance": {
 		"firepower": "5",
 		"torpedo": "23",
 		"aviation": "0",
 		"reload": "14"
 	},
-	"acquisitionMethod": "Honor medal exchange, Explore Stage2-1, Light ship Construction",
+	"acquisitionMethod": "Honor medal exchange, Explore Stage2-1",
 	"skill": {
 		"1": {
 			"icon": "4081",
-			"requirement": "",
+			"requirement": "Default Unlocked",
 			"name": "Smokescreen",
 			"type": "Defensive",
-			"description": "Activates after the battle begins and has a $1 chance to activate every 15s after that: deploys a smokescreen that increases Evasion Rate by $2 for all friendlies within it. Does not stack with other smokescreen skills. Smokescreen lasts 5s."
+			"description": "After the battle begins and 15%(30%) chance every 15s after that: deploys a smokescreen that increases Evasion Rate by 20%(40%) for all your ships in it. Does not stack with other smokescreen skills. Smokescreen lasts 5s."
 		},
 		"2": {
 			"icon": "21071",
-			"requirement": "",
+			"requirement": "Limit Break I (III)",
 			"name": "All Out Assault Ⅰ",
 			"type": "Offensive",
-			"description": "Activate All Out Assault Ⅰ: J Class once every 15 times the main gun is fired."
+			"description": "Activates All Out Assault Ⅰ: J Class once every 15 times the Main Guns are fired."
 		}
 	},
 	"skin": {
@@ -71,6 +71,31 @@
 			"expression": {
 				"0": {
 					"id": "0"
+				}
+			}
+		},
+		"2": {
+			"id": "tianhou_2",
+			"name": "Fairly Flavourful Festival",
+			"description": "I love the bustle of a Sakura festival! Commander, care to try some of Akashi's takoyaki? I've heard their taste is out of this world!",
+			"expression": {
+				"0": {
+					"id": "0"
+				},
+				"1": {
+					"id": "1"
+				},
+				"2": {
+					"id": "2"
+				},
+				"3": {
+					"id": "3"
+				},
+				"4": {
+					"id": "4"
+				},
+				"5": {
+					"id": "5"
 				}
 			}
 		}
@@ -204,23 +229,36 @@
 			"preload": "0/0/0/0"
 		},
 		"4": {
-			"type": "Auxiliary",
+			"type": "Auxilary",
 			"efficiency": "-",
 			"amount": "-",
 			"preload": "-"
 		},
 		"5": {
-			"type": "Auxiliary",
+			"type": "Auxilary",
 			"efficiency": "-",
 			"amount": "-",
 			"preload": "-"
 		}
 	},
+	"fleet_tech": {
+		"pt_get": "4",
+		"add_get_attr": "HP",
+		"add_get_value": "1",
+		"add_get_shiptype": "Destroyer",
+		"pt_upgrade": "9",
+		"pt_level": "7",
+		"add_level_attr": "ASW",
+		"add_level_value": "1",
+		"add_level_shiptype": "Destroyer",
+		"t_level": "5",
+		"ships": "javelin,juno,jupiter,jersey"
+	},
 	"build": {
 		"light": {
-			"JP": "",
-			"CN": "",
-			"EN": ""
+			"JP": "✓",
+			"CN": "✓",
+			"EN": "✓"
 		},
 		"heavy": {
 			"JP": "",
@@ -239,16 +277,133 @@
 		}
 	},
 	"drop": {
-		"droppable": "false",
+		"droppable": "true",
 		"list": {
 			"1": {
-				"event": "",
+				"event": "World",
 				"chapter": {
 					"1": {
-						"label": "Ch .1",
+						"label": "Ch.2",
 						"node": {
 							"1": {
 								"drop": "✓",
+								"note": "-"
+							},
+							"2": {
+								"drop": "-",
+								"note": "-"
+							},
+							"3": {
+								"drop": "-",
+								"note": "-"
+							},
+							"4": {
+								"drop": "-",
+								"note": "-"
+							}
+						}
+					},
+					"2": {
+						"label": "Ch.3",
+						"node": {
+							"1": {
+								"drop": "-",
+								"note": "-"
+							},
+							"2": {
+								"drop": "-",
+								"note": "-"
+							},
+							"3": {
+								"drop": "-",
+								"note": "-"
+							},
+							"4": {
+								"drop": "✓",
+								"note": "-"
+							}
+						}
+					},
+					"3": {
+						"label": "Ch.5",
+						"node": {
+							"1": {
+								"drop": "-",
+								"note": "-"
+							},
+							"2": {
+								"drop": "-",
+								"note": "-"
+							},
+							"3": {
+								"drop": "✓",
+								"note": "-"
+							},
+							"4": {
+								"drop": "-",
+								"note": "-"
+							}
+						}
+					},
+					"4": {
+						"label": "Ch.6",
+						"node": {
+							"1": {
+								"drop": "-",
+								"note": "-"
+							},
+							"2": {
+								"drop": "✓",
+								"note": "-"
+							},
+							"3": {
+								"drop": "-",
+								"note": "-"
+							},
+							"4": {
+								"drop": "-",
+								"note": "-"
+							}
+						}
+					},
+					"5": {
+						"label": "Ch.9",
+						"node": {
+							"1": {
+								"drop": "-",
+								"note": "-"
+							},
+							"2": {
+								"drop": "-",
+								"note": "-"
+							},
+							"3": {
+								"drop": "✓",
+								"note": "-"
+							},
+							"4": {
+								"drop": "-",
+								"note": "-"
+							}
+						}
+					},
+					"6": {
+						"label": "Ch.10",
+						"node": {
+							"1": {
+								"drop": "-",
+								"note": "-"
+							},
+							"2": {
+								"drop": "-",
+								"note": "-"
+							},
+							"3": {
+								"drop": "✓",
+								"note": "-"
+							},
+							"4": {
+								"drop": "-",
 								"note": "-"
 							}
 						}
@@ -575,22 +730,160 @@
 						"japaneseNote": "",
 						"english": "My dream... is to be your bride, Commander. Is it alright to treat this ring as your promise to me...?",
 						"englishNote": ""
+					},
+					"27": {
+						"event": "Like Present",
+						"media": "present_like",
+						"chinese": "",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"28": {
+						"event": "Dislike Present",
+						"media": "present_dislike",
+						"chinese": "",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"29": {
+						"event": "Main Title",
+						"media": "extra",
+						"chinese": "",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					}
+				}
+			},
+			"2": {
+				"skin_id": "tianhou_2",
+				"id": "1",
+				"label": "Fairly Flavourful Festival",
+				"dialogue": {
+					"1": {
+						"event": "Ship Description",
+						"media": "",
+						"chinese": "重樱的祭典真的好棒啊~指挥官，要不要来点明石小姐准备的章鱼烧呢？据说很好吃哦？",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "重桜のお祭り、楽しいです！指揮官、明石さんのたこ焼きはいかがですか？すごく美味しいと聞きましたよ？",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "I love the bustle of a Sakura festival! Commander, care to try some of Akashi's takoyaki? I've heard their taste is out of this world!",
+						"englishNote": ""
+					},
+					"2": {
+						"event": "Acquisition",
+						"media": "get_1",
+						"chinese": "重樱的祭典真的好棒啊~指挥官，要不要来点明石小姐准备的章鱼烧呢？据说很好吃哦？",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "重桜のお祭り、楽しいです！指揮官、明石さんのたこ焼きはいかがですか？すごく美味しいと聞きましたよ？",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "I love the bustle of a Sakura festival! Commander, care to try some of Akashi's takoyaki? I've heard their taste is out of this world!",
+						"englishNote": ""
+					},
+					"3": {
+						"event": "Login",
+						"media": "login_1",
+						"chinese": "我已经核查过了，今天没有什么特别重大的任务！嘿嘿，可以安心享受祭典了呢，指挥官！",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "うん、今日は重要なタスクはありませんっと！えへへ、指揮官、これで思いっきりお祭りを楽しめそうですよ！",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "I already checked your schedule - there aren't any particularly important missions today! Hehe, now you can enjoy the summer festival without any worries, Commander!",
+						"englishNote": ""
+					},
+					"4": {
+						"event": "Details",
+						"media": "detail_1",
+						"chinese": "现、现在要检查吗…？(小声)在祭典吃得有点…——啊哇哇，没、没什么！",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "し、身体検査ですか…？（小声）しまった、お祭りで食べ過ぎちゃ……わわ！な、なんでもありませんっ！",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "An in-inspection, now...? Um... I had a little too much to eat at the festival... Awawa! N-nevermind!",
+						"englishNote": ""
+					},
+					"5": {
+						"event": "Main 1",
+						"media": "main_1_1",
+						"chinese": "唔…下次祭典也叫上标枪她们好了…一定会更热闹更有趣的",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "ジャベリンちゃんたちも呼びましょう。きっともっと楽しくなりますから！",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Umm, next time, we should invite Javelin to the festival... I'm sure she'll make things even more lively. ",
+						"englishNote": ""
+					},
+					"6": {
+						"event": "Main 2",
+						"media": "main_2_1",
+						"chinese": "通过祭典又一次认识到，重樱真是个好地方呀，还有这么多的美味~",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "お祭りも楽しいですし、やっぱり重桜はいい場所ですね～美味しいものがいっぱいありますから！",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "This festival has reminded me of how wonderful the Sakura Empire is. There's even so much good food~ ",
+						"englishNote": ""
+					},
+					"7": {
+						"event": "Main 3",
+						"media": "main_3_1",
+						"chinese": "哇~那边的摊子看起来也很美味呢…——身材？唔…指挥官，真是坏心眼…",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "あそこの屋台も美味しそう……た、食べすぎ…？ひゃぅ…指揮官、イジワルですよ……",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Woah, the food over there looks so good as well... Huh, my figure...? Uu... Commander, what a meanie...",
+						"englishNote": ""
+					},
+					"8": {
+						"event": "Touch",
+						"media": "touch_1_1",
+						"chinese": "这就是“浴衣”呀，还挺可爱的呢，嘻嘻…——哇哇哇！？指指指指挥官！？",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "これが「浴衣」ですね。えへへ、くるっとしてキャワイイ感じ～……ひゃぅ！？し、指揮官！？",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "This is a yukata, pretty cute, right? Hehe~ Awawa?! C-c-commander?!",
+						"englishNote": ""
+					},
+					"9": {
+						"event": "Affinity (Love)",
+						"media": "feeling5_1",
+						"chinese": "像这样穿着特别的衣服，和指挥官一起逛着祭典……感觉自己就是世界上最幸福的那个人呢…嘻嘻~",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "こうして特別な衣装を着付けてもらって、指揮官と一緒にお祭りを楽しんで……なんだかジュノーが世界で一番幸せな子みたいに思います…えへへ……",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Commander, being able to wear beautiful clothes like this and visiting the temple with you makes me feel like the happiest girl in the world... Hehe~",
+						"englishNote": ""
 					}
 				}
 			}
 		}
-	},
-	"fleet_tech": {
-		"pt_get": "4",
-		"add_get_attr": "HP",
-		"add_get_value": "1",
-		"add_get_shiptype": "Destroyer",
-		"pt_upgrade": "9",
-		"pt_level": "7",
-		"add_level_attr": "ASW",
-		"add_level_value": "1",
-		"add_level_shiptype": "Destroyer",
-		"t_level": "5",
-		"ships": "javelin,juno,jupiter,jersey"
 	}
 }

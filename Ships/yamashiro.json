@@ -11,8 +11,7 @@
 	"hull": "Battleship",
 	"navy": "Sakura Empire",
 	"prefix": "IJN",
-	"buildTime": "",
-	"class": "Fusou-Class",
+	"buildTime": "N/A",
 	"voiceActress": "Ami Koshimizu",
 	"parameters": {
 		"firepower": "A",
@@ -34,12 +33,13 @@
 		"EN": ""
 	},
 	"artist": {
-		"name": "",
-		"weibo": "",
-		"twitter": "",
-		"pixiv": "",
+		"name": "Rain Lan",
+		"weibo": "https://weibo.com/u/2120756483",
+		"twitter": "https://twitter.com/h49889577",
+		"pixiv": "https://www.pixiv.net/member.php?id=2922722",
 		"other": ""
 	},
+	"class": "Fusou-Class",
 	"enhance": {
 		"firepower": "61",
 		"torpedo": "0",
@@ -50,17 +50,17 @@
 	"skill": {
 		"1": {
 			"icon": "2071",
-			"requirement": "",
+			"requirement": "Default Unlocked",
 			"name": "Cover Fire",
 			"type": "Offensive",
-			"description": "Increases this ship's FP by $1."
+			"description": "Increases this ship's FP by 10%(20%)."
 		},
 		"2": {
 			"icon": "10830",
-			"requirement": "",
+			"requirement": "Retrofit",
 			"name": "Aviation Preparations",
 			"type": "Offensive",
-			"description": "Launch an additional barrage attack for $1 when deploying an airstrike for the first time. May only use once per battle."
+			"description": "Once per battle, when this ship launches its first Airstrike: launches an additional Lv.1(Lv.10) special airstrike."
 		}
 	},
 	"skin": {
@@ -96,8 +96,8 @@
 		},
 		"4": {
 			"id": "shancheng_4",
-			"name": "盛装の黒猫",
-			"description": "姉さまが宴会にはお洋服が必要と、私のために用意してくださいました！殿様殿様、このお洋服、綺麗ですか？",
+			"name": "Dressy Black Cat",
+			"description": "Fusou told me that I have to wear a Western-style dress to the banquet, so she got one for me! Milord, Milord, isn't this dress pretty?",
 			"expression": {
 				"0": {
 					"id": "0"
@@ -117,6 +117,53 @@
 			}
 		},
 		"5": {
+			"id": "shancheng_7",
+			"name": "Sales Clerk Offensive?!",
+			"description": "Milord, Milord, welcome to the store! Yamashiro is a sales clerk today! Mhm, I'll do my best!",
+			"expression": {
+				"0": {
+					"id": "0"
+				},
+				"1": {
+					"id": "1"
+				},
+				"2": {
+					"id": "2"
+				},
+				"3": {
+					"id": "3"
+				},
+				"4": {
+					"id": "4"
+				},
+				"5": {
+					"id": "5"
+				}
+			}
+		},
+		"6": {
+			"id": "shancheng_6",
+			"name": "Street Corner Offensive!",
+			"description": "Uwaah! M-Milord?! I'm so, so sorry... You didn't get hurt, did you? Um... This is my school uniform. Fusou tailored it for me, hehe~ ... Awawa! I should head off to class now! See you later!",
+			"expression": {
+				"0": {
+					"id": "0"
+				},
+				"1": {
+					"id": "1"
+				},
+				"2": {
+					"id": "2"
+				},
+				"3": {
+					"id": "3"
+				},
+				"4": {
+					"id": "4"
+				}
+			}
+		},
+		"7": {
 			"id": "shancheng_h",
 			"name": "Bridal Attack! ",
 			"description": "Milord, Milord, I've finished changing! What do you think, what do you think? Milord, do you like Yamashiro's dress~? ",
@@ -138,7 +185,7 @@
 				}
 			}
 		},
-		"6": {
+		"8": {
 			"id": "shancheng_g",
 			"name": "Yamashiro (Retrofit)",
 			"description": "Milord! I can do anything now~ bombardment or aerial strikes! So, the thing is, you can totally count on me, much much more, Milord! Milord~!",
@@ -278,17 +325,30 @@
 			"preload": "0/0/0/0"
 		},
 		"4": {
-			"type": "Auxiliary",
+			"type": "Auxilary",
 			"efficiency": "-",
 			"amount": "-",
 			"preload": "-"
 		},
 		"5": {
-			"type": "Auxiliary",
+			"type": "Auxilary",
 			"efficiency": "-",
 			"amount": "-",
 			"preload": "-"
 		}
+	},
+	"fleet_tech": {
+		"pt_get": "11",
+		"add_get_attr": "HP",
+		"add_get_value": "2",
+		"add_get_shiptype": "Battlecruiser,Battleship,Aviation Battleship",
+		"pt_upgrade": "22",
+		"pt_level": "16",
+		"add_level_attr": "Reload",
+		"add_level_value": "1",
+		"add_level_shiptype": "Battlecruiser,Battleship,Aviation Battleship",
+		"t_level": "4",
+		"ships": "fusou,yamashiro"
 	},
 	"build": {
 		"light": {
@@ -313,15 +373,27 @@
 		}
 	},
 	"drop": {
-		"droppable": "false",
+		"droppable": "true",
 		"list": {
 			"1": {
-				"event": "",
+				"event": "World",
 				"chapter": {
 					"1": {
-						"label": "Ch .1",
+						"label": "Ch.6",
 						"node": {
 							"1": {
+								"drop": "-",
+								"note": "-"
+							},
+							"2": {
+								"drop": "✓",
+								"note": "-"
+							},
+							"3": {
+								"drop": "✓",
+								"note": "-"
+							},
+							"4": {
 								"drop": "✓",
 								"note": "-"
 							}
@@ -661,6 +733,42 @@
 						"japaneseNote": "",
 						"english": "Milord? You're going to give this to me? ...Even though I am slow-footed and far from perfect? Milord, you are far too kind. I love you too.",
 						"englishNote": ""
+					},
+					"28": {
+						"event": "Like Present",
+						"media": "present_like",
+						"chinese": "",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"29": {
+						"event": "Dislike Present",
+						"media": "present_dislike",
+						"chinese": "",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"30": {
+						"event": "Main Title",
+						"media": "extra",
+						"chinese": "",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
 					}
 				}
 			},
@@ -885,7 +993,7 @@
 			"4": {
 				"skin_id": "shancheng_4",
 				"id": "3",
-				"label": "盛装の黒猫",
+				"label": "Dressy Black Cat",
 				"dialogue": {
 					"1": {
 						"event": "Ship Description",
@@ -896,7 +1004,7 @@
 						"japanese": "姉さまが宴会にはお洋服が必要と、私のために用意してくださいました！殿様殿様、このお洋服、綺麗ですか？",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Fusou told me that I have to wear a Western-style dress to the banquet, so she got one for me! Milord, Milord, isn't this dress pretty?",
 						"englishNote": ""
 					},
 					"2": {
@@ -908,7 +1016,7 @@
 						"japanese": "姉さまが宴会にはお洋服が必要と、私のために用意してくださいました！殿様殿様、このお洋服、綺麗ですか？",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Fusou told me that I have to wear a Western-style dress to the banquet, so she got one for me! Milord, Milord, isn't this dress pretty?",
 						"englishNote": ""
 					},
 					"3": {
@@ -920,7 +1028,7 @@
 						"japanese": "ふんふんふーん♪殿様と一緒に宴会……はわわ！？殿様はいつからいたのですか…？",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Heheh~♪ Going to a banquet with Milord... Hawawa?! Milord, how long have you been standing there?",
 						"englishNote": ""
 					},
 					"4": {
@@ -932,7 +1040,7 @@
 						"japanese": "宴会ってすごく面白いのですね！今度重桜で宴会を開催できたら、ほかの陣営のみんなも誘ってみたいと思います！",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Banquets are a lot of fun! Next time, we should have a Sakura-style banquet and invite everyone from the other camps!",
 						"englishNote": ""
 					},
 					"5": {
@@ -944,7 +1052,7 @@
 						"japanese": "殿様殿様、これはなんですか？これは？宴会はわからないことが多すぎて目まぐるしいです！",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Milord, Milord, what's this? And this? There are so many things I haven't experienced before, my head's spinning! ",
 						"englishNote": ""
 					},
 					"6": {
@@ -956,7 +1064,7 @@
 						"japanese": "殿様、私、宴会のことはチンプンカンプンで…、一緒に参加すると殿様に迷惑をかけてしまいますでしょうか……",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Milord, are you sure you'd like to take someone like me to the banquet...? I won't make you look bad, right? ",
 						"englishNote": ""
 					},
 					"7": {
@@ -968,7 +1076,7 @@
 						"japanese": "時雨ちゃん、宴会で変なことをしてはいけませんよ。みんなに迷惑をかけてしまいますからっ！",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Shigure, don't do anything weird at the banquet. You'll bother the others!",
 						"englishNote": ""
 					},
 					"8": {
@@ -980,7 +1088,7 @@
 						"japanese": "殿様殿様、宴会でダンスをすることも出来ると聞きました！私も、殿様と一緒に踊ってもいいでしょうか？",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Milord, Milord, I hear that there will be dancing at the banquet! Would it be okay for me to dance with you?",
 						"englishNote": ""
 					},
 					"9": {
@@ -992,7 +1100,7 @@
 						"japanese": "と、殿様！みんなに見られたら大変なことになりますよ！",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "M-Milord! It's going to be troublesome if everyone sees us!",
 						"englishNote": ""
 					},
 					"10": {
@@ -1004,12 +1112,230 @@
 						"japanese": "殿様殿様、殿様は私にいっぱい良くしてくれましたけど、殿様のためになにか出来たのでしょうか…？殿様のご希望なら、私、なんでもします！",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Milord, Milord, you've done so much for me, so is there anything I can do for you...? Whatever you want, I-I'll do it!",
 						"englishNote": ""
 					}
 				}
 			},
 			"5": {
+				"skin_id": "shancheng_7",
+				"id": "4",
+				"label": "Sales Clerk Offensive?!",
+				"dialogue": {
+					"1": {
+						"event": "Ship Description",
+						"media": "",
+						"chinese": "殿下殿下，欢迎光临！今天是山城在这里当店员哦！嗯嗯！山城会加油的！",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "殿様殿様、いらっしゃいませー！今日は山城が看板娘をやりますよ！うんうん！山城、がんばりますよ―！",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Milord, Milord, welcome to the store! Yamashiro is a sales clerk today! Mhm, I'll do my best!",
+						"englishNote": ""
+					},
+					"2": {
+						"event": "Acquisition",
+						"media": "get_4",
+						"chinese": "殿下殿下，欢迎光临！今天是山城在这里当店员哦！嗯嗯！山城会加油的！",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "殿様殿様、いらっしゃいませー！今日は山城が看板娘をやりますよ！うんうん！山城、がんばりますよ―！",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Milord, Milord, welcome to the store! Yamashiro is a sales clerk today! Mhm, I'll do my best!",
+						"englishNote": ""
+					},
+					"3": {
+						"event": "Login",
+						"media": "login_4",
+						"chinese": "殿下！山城今天被明石拉来给店员帮忙了哦？怎么样？这身……额？有点奇怪吗…？",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "殿様！明石ちゃんに言われて今日は看板娘の手伝いに来ました！どうですか？この格好…あ、あれ？変ですか…？",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Milord! Akashi told me to help her out by being a sales clerk today! What do you think about my outfit? Err, huh? It looks funny...?",
+						"englishNote": ""
+					},
+					"4": {
+						"event": "Details",
+						"media": "detail_4",
+						"chinese": "这个衣服是扶桑姐准备的！诶嘿嘿，山城今天会和吹雪酱一起加油！",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "この衣装は扶桑姉さまが準備してくださったのですよ！えへへ、私、吹雪ちゃんと一緒にがんばりますね！",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "I asked Fusou to prepare this outfit for me! Ehehe, Fubuki and I are going to work hard together!",
+						"englishNote": ""
+					},
+					"5": {
+						"event": "Main 1",
+						"media": "main_1_4",
+						"chinese": "殿下，新商品进货了哦！要不要看看？（星星眼）",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "殿様、新しい商品を入荷しましたよ！見てみませんか？（キラッ",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Milord, we have new goodies! Want to take a look? ~☆ ",
+						"englishNote": ""
+					},
+					"6": {
+						"event": "Main 2",
+						"media": "main_2_4",
+						"chinese": "吹雪酱，为什么要打扮成那个样子……嗯，反正也挺可爱的，不想太多比较好！",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "吹雪ちゃん、なんであんな格好してるんだろ……カワイイし、深く考えないほうがいいですね！うん！",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Fubuki, why are you wearing that... I mean, it's cute, but... Maybe it's best not to think too much about it! Mhm! ",
+						"englishNote": ""
+					},
+					"7": {
+						"event": "Main 3",
+						"media": "main_3_4",
+						"chinese": "时雨酱，今天也和夕立她们一起来买东西吗？真是的，偶尔也带野分酱一起玩啦…",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "時雨ちゃん、今日も夕立ちゃんたちとお買い物に来たのですか？もう、たまには野分ちゃんも一緒に連れてきてよぉ…",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Shigure, are you shopping with Yuudachi and the others today? Jeez, you should bring Nowaki with you once in a while...",
+						"englishNote": ""
+					},
+					"8": {
+						"event": "Touch",
+						"media": "touch_1_4",
+						"chinese": "殿下，这个可不能打折的哦？",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "むぅ、殿様、割引はできませんよ？",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Um, Milord, I can't give you a discount on that.",
+						"englishNote": ""
+					},
+					"9": {
+						"event": "Touch (Special)",
+						"media": "touch_2_4",
+						"chinese": "殿下也觉得这身衣服特别可爱吗？",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "殿様もこの格好、カワイイと思ってくれてますか？",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Milord, you also think this outfit is super cute, right?",
+						"englishNote": ""
+					},
+					"10": {
+						"event": "Return to Port",
+						"media": "home_4",
+						"chinese": "谢谢惠顾！哇哇！忘了找钱了！对、对不起……",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "まいどありがとうございます！あわわ！お釣りを忘れちゃいました！す、すみませんでした……",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Thank you for your patronage! Awawa... I forgot to give back the change! I, I'm so sorry... ",
+						"englishNote": ""
+					},
+					"11": {
+						"event": "Flagship",
+						"media": "warcry_4",
+						"chinese": "战斗看板娘，登场！……是、是这个没错吧！？",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "戦う看板娘、登場！……でいいんでしたっけ！？",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Combat clerk, sortieing! Th-that's what I'm supposed to say, right?!",
+						"englishNote": ""
+					}
+				}
+			},
+			"6": {
+				"skin_id": "shancheng_6",
+				"id": "6",
+				"label": "Street Corner Offensive!",
+				"dialogue": {
+					"1": {
+						"event": "Ship Description",
+						"media": "",
+						"chinese": "呜哇，殿、殿下！？对对对对不起，我没有撞伤你吧？……啊，这是我的校服哦，姐姐亲手缝的~嘿嘿……哇哇哇，那我去上课了！回见！",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "あわわわ！と、殿様！？ごめんなさい！怪我していませんよね…？あっ、この制服はええと、扶桑姉さまが仕立ててくださいました！も、もう学園に行きますね、すみません！",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Uwaah! M-Milord?! I'm so, so sorry... You didn't get hurt, did you? Um... This is my school uniform. Fusou tailored it for me, hehe~ ... Awawa! I should head off to class now! See you later! ",
+						"englishNote": ""
+					},
+					"2": {
+						"event": "Acquisition",
+						"media": "get_6",
+						"chinese": "呜哇，殿、殿下！？对对对对不起，我没有撞伤你吧？……啊，这是我的校服哦，姐姐亲手缝的~嘿嘿……哇哇哇，那我去上课了！回见！",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"3": {
+						"event": "Login",
+						"media": "login_6",
+						"chinese": "殿下，给你便当~这是我亲手做的哦！",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"4": {
+						"event": "Details",
+						"media": "detail_6",
+						"chinese": "殿下殿下，其他阵营的伙伴们教给了我许多有趣的事情呢，作为答谢，我也教给了她们许多重樱传统的游戏玩法~",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"5": {
+						"event": "Touch",
+						"media": "touch_1_6",
+						"chinese": "在转角的时候撞到殿下，感觉好浪漫呀，下次干脆特地等殿下经过……欸，啊，我什么都没说！",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"6": {
+						"event": "Return to Port",
+						"media": "home_6",
+						"chinese": "殿下辛苦啦，我们一起去天台上吃饭吧~",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					}
+				}
+			},
+			"7": {
 				"skin_id": "shancheng_h",
 				"id": "8",
 				"label": "Bridal Attack! ",
@@ -1148,7 +1474,7 @@
 					}
 				}
 			},
-			"6": {
+			"8": {
 				"skin_id": "shancheng_g",
 				"id": "9",
 				"label": "Yamashiro (Retrofit)",
@@ -1264,18 +1590,5 @@
 				}
 			}
 		}
-	},
-	"fleet_tech": {
-		"pt_get": "11",
-		"add_get_attr": "HP",
-		"add_get_value": "2",
-		"add_get_shiptype": "Battlecruiser,Battleship,Aviation Battleship",
-		"pt_upgrade": "22",
-		"pt_level": "16",
-		"add_level_attr": "Reload",
-		"add_level_value": "1",
-		"add_level_shiptype": "Battlecruiser,Battleship,Aviation Battleship",
-		"t_level": "4",
-		"ships": "fusou,yamashiro"
 	}
 }

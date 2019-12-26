@@ -11,8 +11,7 @@
 	"hull": "Destroyer",
 	"navy": "Sakura Empire",
 	"prefix": "IJN",
-	"buildTime": "",
-	"class": "Fubuki-Class Type III (Akatsuki)",
+	"buildTime": "N/A",
 	"voiceActress": "Emiri Kato",
 	"parameters": {
 		"firepower": "D",
@@ -34,12 +33,13 @@
 		"EN": ""
 	},
 	"artist": {
-		"name": "",
-		"weibo": "",
-		"twitter": "",
-		"pixiv": "",
+		"name": "大月紅葉",
+		"weibo": "http://weibo.com/ootsukimomiji",
+		"twitter": "https://twitter.com/dayuehongye",
+		"pixiv": "https://www.pixiv.net/member.php?id=591937",
 		"other": ""
 	},
+	"class": "Fubuki-Class Type III (Akatsuki)",
 	"enhance": {
 		"firepower": "4",
 		"torpedo": "31",
@@ -50,17 +50,17 @@
 	"skill": {
 		"1": {
 			"icon": "10630",
-			"requirement": "",
+			"requirement": "Default Unlocked",
 			"name": "Destroyer Division 6: Inazuma",
 			"type": "Offensive",
-			"description": "When in a fleet with any member of Destroyer Division 6 (Akatsuki, Hibiki, or Ikazuchi), increase Firepower, Torpedo, and Reload by $1. Effect does not stack."
+			"description": "When sortied with Akatsuki, Hibiki, or Ikazuchi: increases this ship's FP, TRP, and RLD by 5%(15%). Effect does not stack."
 		},
 		"2": {
 			"icon": "22071",
-			"requirement": "",
+			"requirement": "Limit Break I (III)",
 			"name": "All Out Assault Ⅰ",
 			"type": "Offensive",
-			"description": "Activate All Out Assault Ⅰ: Akatsuki Class once every 15 times the main gun is fired."
+			"description": "Activates All Out Assault Ⅰ: Akatsuki Class once every 15 times the Main Guns are fired."
 		}
 	},
 	"skin": {
@@ -81,6 +81,28 @@
 			"expression": {
 				"0": {
 					"id": "0"
+				}
+			}
+		},
+		"3": {
+			"id": "dian_3",
+			"name": "Flash of Fireworks",
+			"description": "I usually go to festivals with Ikazuchi, but this would be my first time going with you. Hmm? Where should we visit first?",
+			"expression": {
+				"0": {
+					"id": "0"
+				},
+				"1": {
+					"id": "1"
+				},
+				"2": {
+					"id": "2"
+				},
+				"3": {
+					"id": "3"
+				},
+				"4": {
+					"id": "4"
 				}
 			}
 		}
@@ -214,17 +236,30 @@
 			"preload": "0/0/0/0"
 		},
 		"4": {
-			"type": "Auxiliary",
+			"type": "Auxilary",
 			"efficiency": "-",
 			"amount": "-",
 			"preload": "-"
 		},
 		"5": {
-			"type": "Auxiliary",
+			"type": "Auxilary",
 			"efficiency": "-",
 			"amount": "-",
 			"preload": "-"
 		}
+	},
+	"fleet_tech": {
+		"pt_get": "4",
+		"add_get_attr": "HP",
+		"add_get_value": "1",
+		"add_get_shiptype": "Destroyer",
+		"pt_upgrade": "9",
+		"pt_level": "7",
+		"add_level_attr": "Hit",
+		"add_level_value": "1",
+		"add_level_shiptype": "Destroyer",
+		"t_level": "5",
+		"ships": "akatsuki,ikazuchi,inazuma"
 	},
 	"build": {
 		"light": {
@@ -249,16 +284,28 @@
 		}
 	},
 	"drop": {
-		"droppable": "false",
+		"droppable": "true",
 		"list": {
 			"1": {
-				"event": "",
+				"event": "World",
 				"chapter": {
 					"1": {
-						"label": "Ch .1",
+						"label": "Ch.8",
 						"node": {
 							"1": {
 								"drop": "✓",
+								"note": "-"
+							},
+							"2": {
+								"drop": "-",
+								"note": "-"
+							},
+							"3": {
+								"drop": "-",
+								"note": "-"
+							},
+							"4": {
+								"drop": "-",
 								"note": "-"
 							}
 						}
@@ -587,7 +634,7 @@
 						"englishNote": ""
 					},
 					"27": {
-						"event": "Easter Egg 1 (Phoenix)",
+						"event": "Easter Egg 1(Phoenix)",
 						"media": "link1",
 						"chinese": "响姐姐……不好意思，我认错人了……",
 						"chineseTL": "",
@@ -599,7 +646,7 @@
 						"englishNote": ""
 					},
 					"28": {
-						"event": "Easter Egg 2 (Ikazuchi)",
+						"event": "Easter Egg 2(Ikazuchi)",
 						"media": "link2",
 						"chinese": "第六驱逐队……出击！",
 						"chineseTL": "",
@@ -608,6 +655,42 @@
 						"japaneseTL": "",
 						"japaneseNote": "",
 						"english": "Destroyer Division Six... departing!",
+						"englishNote": ""
+					},
+					"29": {
+						"event": "Like Present",
+						"media": "present_like",
+						"chinese": "",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"30": {
+						"event": "Dislike Present",
+						"media": "present_dislike",
+						"chinese": "",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"31": {
+						"event": "Main Title",
+						"media": "extra",
+						"chinese": "",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
 						"englishNote": ""
 					}
 				}
@@ -726,20 +809,134 @@
 						"englishNote": ""
 					}
 				}
+			},
+			"3": {
+				"skin_id": "dian_3",
+				"id": "2",
+				"label": "Flash of Fireworks",
+				"dialogue": {
+					"1": {
+						"event": "Ship Description",
+						"media": "",
+						"chinese": "平常都是和雷一起参加的祭典，和指挥官还是头一次呢。嗯？…要从哪里开始逛起呢？",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "普段はいつも雷と一緒にお祭りに出ていますけど、指揮官さんとは初めてですね。ええと、何から遊びますか？",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "I usually go to festivals with Ikazuchi, but this would be my first time going with you. Hmm? Where should we visit first?",
+						"englishNote": ""
+					},
+					"2": {
+						"event": "Acquisition",
+						"media": "get_2",
+						"chinese": "平常都是和雷一起参加的祭典，和指挥官还是头一次呢。嗯？…要从哪里开始逛起呢？",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "普段はいつも雷と一緒にお祭りに出ていますけど、指揮官さんとは初めてですね。ええと、何から遊びますか？",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "I usually go to festivals with Ikazuchi, but this would be my first time going with you. Hmm? Where should we visit first?",
+						"englishNote": ""
+					},
+					"3": {
+						"event": "Login",
+						"media": "login_2",
+						"chinese": "还以为指挥官先生忘了和电的约定了呢",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "指揮官さん、電との約束を忘れちゃったと思ってました",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "I was beginning to think that you forgot about our plans, Commander.",
+						"englishNote": ""
+					},
+					"4": {
+						"event": "Details",
+						"media": "detail_2",
+						"chinese": "指挥官先生，不会是听了雷的话才给电买的新衣服吧？电其实不怎么在意的哦？嗯…不怎么在意…",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "指揮官さんは雷に言われてこの衣装を買ったのですか？電、別に気にしていませんよ？うん…別に…",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Commander, you didn't just buy these clothes for me because Ikazuchi asked you to, right? It doesn't bother me. Not one bit...",
+						"englishNote": ""
+					},
+					"5": {
+						"event": "Main 1",
+						"media": "main_1_2",
+						"chinese": "指挥官先生，电想吃烤鱿鱼，可以吗？",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "指揮官さん、ええと、電のためイカ焼きを買っていただけませんか？",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Commander, I'd like some taiyaki. Is that okay? ",
+						"englishNote": ""
+					},
+					"6": {
+						"event": "Main 2",
+						"media": "main_2_2",
+						"chinese": "像这样脱掉鞋子走在小石子路上，意外地还挺舒服呢，指挥官先生也可以试试？",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "こうして靴を履かないで歩くと意外と気持ちいいですね。指揮官さんも試してみたらどうですか？",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "It feels unexpectedly nice to walk around without my shoes... Commander, why don't you try it too? ",
+						"englishNote": ""
+					},
+					"7": {
+						"event": "Main 3",
+						"media": "main_3_2",
+						"chinese": "指挥官先生，去看一看其他人的浴衣也可以哦，电可以自己先逛逛",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "指揮官さん、他の子の浴衣に目移りしても大丈夫ですよ。電は一人でも平気ですから",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Commander, you can go check out everyone's yukatas if you'd like. I'll look around by myself first.",
+						"englishNote": ""
+					},
+					"8": {
+						"event": "Touch",
+						"media": "touch_1_2",
+						"chinese": "指挥官先生，就算一直戳电，也不会出现“动作差分”的哦",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "指揮官さん、電を突っついても「ぽーずさぶん」は出ませんよ",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Commander, no matter how much you poke me, I won't have any Live2D.",
+						"englishNote": ""
+					},
+					"9": {
+						"event": "Return to Port",
+						"media": "home_2",
+						"chinese": "比起电更重视工作…指挥官是个“工作狂”呢",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "指揮官さん、電よりお仕事が大事…ちょっと「わーかほりっく」なヒトですね",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Prioritizing work over Inazuma... Commander, you sure are a workaholic.",
+						"englishNote": ""
+					},
+					"10": {
+						"event": "Affinity (Love)",
+						"media": "feeling5_2",
+						"chinese": "指挥官先生，因为电很可爱很照顾电，所以一直和电黏在一起而忽略其他人是不行的，会变成社交恐惧症的，也要和其他人一起享受祭典的乐趣哦",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "指揮官さん、電がいくら可愛くても、電にずっとベッタリくっついて、ほかの子をほったらかしたままでは「こみゅしょう」になっちゃうかもしれませんよ？ほかの子とも一緒にお祭りを楽しんでくださいね",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Commander, I know I'm super cute and all, but you'll develop social anxiety if you constantly cling to me and ignore everyone else. Since I'm also super responsible, you should go to the festival and enjoy the company of others.",
+						"englishNote": ""
+					}
+				}
 			}
 		}
-	},
-	"fleet_tech": {
-		"pt_get": "4",
-		"add_get_attr": "HP",
-		"add_get_value": "1",
-		"add_get_shiptype": "Destroyer",
-		"pt_upgrade": "9",
-		"pt_level": "7",
-		"add_level_attr": "Hit",
-		"add_level_value": "1",
-		"add_level_shiptype": "Destroyer",
-		"t_level": "5",
-		"ships": "akatsuki,ikazuchi,inazuma"
 	}
 }

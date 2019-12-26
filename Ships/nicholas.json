@@ -11,7 +11,7 @@
 	"hull": "Destroyer",
 	"navy": "Eagle Union",
 	"prefix": "USS",
-	"buildTime": "",
+	"buildTime": "N/A",
 	"class": "Fletcher-Class",
 	"voiceActress": "Mao Ichimichi",
 	"parameters": {
@@ -28,16 +28,16 @@
 		"medal": "4"
 	},
 	"releaseDate": {
-		"JP": "",
-		"CN": "",
+		"JP": "November 16, 2017",
+		"CN": "September 20, 2017",
 		"KR": "",
-		"EN": ""
+		"EN": "November 15, 2018"
 	},
 	"artist": {
-		"name": "",
-		"weibo": "",
+		"name": "团子",
+		"weibo": "http://weibo.com/soramiao",
 		"twitter": "",
-		"pixiv": "",
+		"pixiv": "https://www.pixiv.net/member.php?id=7703737",
 		"other": ""
 	},
 	"enhance": {
@@ -46,32 +46,32 @@
 		"aviation": "0",
 		"reload": "14"
 	},
-	"acquisitionMethod": "Explore Stage9-3",
+	"acquisitionMethod": "Explore Stage 9-3",
 	"skill": {
 		"1": {
 			"icon": "10750",
-			"requirement": "",
+			"requirement": "Default Unlocked",
 			"name": "The Nick",
 			"type": "Defensive",
-			"description": "When this ship fires its Main Guns: 5.0% chance to increase this ship's EVA by $1 and decrease the DMG it takes from enemy aircraft by $2 for 8s."
+			"description": "When this ship fires its Main Guns: 5.0% chance to increase this ship's EVA by 16.0% (40.0%) and decrease the DMG it takes from enemy aircraft by 16.0% (40.0%) for 8s."
 		},
 		"2": {
 			"icon": "2011",
-			"requirement": "",
+			"requirement": "Default Unlocked",
 			"name": "Full Firepower",
 			"type": "Offensive",
-			"description": "$1 chance to activate every 20s: increases this ship's FP by $2 for 10s."
+			"description": "30.0% (60.0%) chance to activate every 20s: increases this ship's FP by 20.0% (40.0%) for 10s."
 		},
 		"3": {
 			"icon": "11480",
-			"requirement": "",
+			"requirement": "Retrofit",
 			"name": "Battle of Kula Gulf ",
 			"type": "Defensive",
-			"description": "$1 chance to activate every 20s: increases this ship's FP, TRP, and RLD by $2 for 10s. Once per battle, when the HP of a friendly in the Vanguard Fleet falls below 20.0%: decreases the DMG they take by $3 for the rest of the battle. If the recipient is Helena: also restores 8.0% of her max HP."
+			"description": "40.0% (70.0%) chance to activate every 20s: increases this ship's FP, TRP, and RLD by 20.0% (40.0%) for 10s. Once per battle, when the HP of a friendly in the Vanguard Fleet falls below 20.0%: decreases the DMG they take by 5.0% (15.0%) for the rest of the battle. If the recipient is Helena: also restores 8.0% of her max HP."
 		},
 		"4": {
 			"icon": "20041",
-			"requirement": "",
+			"requirement": "Limit Break I (III)",
 			"name": "All Out Assault Ⅰ",
 			"type": "Offensive",
 			"description": "Activate All Out Assault Ⅰ: Fletcher Class once every 15 times the main gun is fired."
@@ -122,8 +122,8 @@
 		},
 		"4": {
 			"id": "nigulasi_g",
-			"name": "ニコラス改",
-			"description": "指揮官、今日は何月ー？ちょっと寝すぎて……体が大きくなっちゃった？ふはぁ…ずっと寝てたからねー",
+			"name": "Nicholas (Retrofit)",
+			"description": "Commander, what month is it...? I think I overslept a bit... am I taller than I was before? *Yawn*... Gotta be because I slept the whole time... ",
 			"expression": {
 				"0": {
 					"id": "0"
@@ -295,16 +295,28 @@
 		}
 	},
 	"drop": {
-		"droppable": "false",
+		"droppable": "true",
 		"list": {
 			"1": {
-				"event": "",
+				"event": "World",
 				"chapter": {
 					"1": {
-						"label": "Ch .1",
+						"label": "Ch.9",
 						"node": {
 							"1": {
+								"drop": "-",
+								"note": "-"
+							},
+							"2": {
+								"drop": "-",
+								"note": "-"
+							},
+							"3": {
 								"drop": "✓",
+								"note": "-"
+							},
+							"4": {
+								"drop": "-",
 								"note": "-"
 							}
 						}
@@ -643,6 +655,42 @@
 						"japaneseNote": "",
 						"english": "Helena, keep an eye out for what's hidden under the water!",
 						"englishNote": ""
+					},
+					"28": {
+						"event": "Like Present",
+						"media": "present_like",
+						"chinese": "",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"29": {
+						"event": "Dislike Present",
+						"media": "present_dislike",
+						"chinese": "",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"30": {
+						"event": "Main Title",
+						"media": "extra",
+						"chinese": "",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
 					}
 				}
 			},
@@ -915,7 +963,7 @@
 			"4": {
 				"skin_id": "nigulasi_g",
 				"id": "9",
-				"label": "ニコラス改",
+				"label": "Nicholas (Retrofit)",
 				"dialogue": {
 					"1": {
 						"event": "Ship Description",
@@ -926,7 +974,7 @@
 						"japanese": "指揮官、今日は何月ー？ちょっと寝すぎて……体が大きくなっちゃった？ふはぁ…ずっと寝てたからねー",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Commander, what month is it...? I think I overslept a bit... am I taller than I was before? *Yawn*... Gotta be because I slept the whole time...",
 						"englishNote": ""
 					},
 					"2": {
@@ -938,7 +986,7 @@
 						"japanese": "指揮官、今日は何月ー？ちょっと寝すぎて……体が大きくなっちゃった？ふはぁ…ずっと寝てたからねー",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Commander, what month is it...? I think I overslept a bit... am I taller than I was before? *Yawn*... Gotta be because I slept the whole time...",
 						"englishNote": ""
 					},
 					"3": {
@@ -950,7 +998,7 @@
 						"japanese": "出かけなくてもやれる仕事はわたしに任せていいよ―",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "You can let me handle all the work you don't have to go outdoors for...",
 						"englishNote": ""
 					},
 					"4": {
@@ -962,7 +1010,7 @@
 						"japanese": "魚雷……枕代わりもぎりぎりイケるかも",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "These torpedoes... could work as a half-decent pillow replacement.",
 						"englishNote": ""
 					},
 					"5": {
@@ -974,7 +1022,7 @@
 						"japanese": "別にいまでも毎日寝てるわけじゃないよー。まあ、起きている間でも動きたくないけどね…",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "It's not like I sleep all day EVERY day... But that's not to say I like moving around when awake...",
 						"englishNote": ""
 					},
 					"6": {
@@ -986,7 +1034,7 @@
 						"japanese": "ニコラス……夢はスタチューになる……",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Nicholas has a dream... A dream of becoming a statue...",
 						"englishNote": ""
 					},
 					"7": {
@@ -998,7 +1046,7 @@
 						"japanese": "ねねね寝てないってば！",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "S-s-s-still awake, okay?!",
 						"englishNote": ""
 					},
 					"8": {
@@ -1010,7 +1058,7 @@
 						"japanese": "ば、ばかー……",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Y-you jerk...",
 						"englishNote": ""
 					}
 				}
@@ -1029,5 +1077,125 @@
 		"add_level_shiptype": "Destroyer",
 		"t_level": "8",
 		"ships": "fletcher,radford,jenkins,nicholas,foote,spence,thatcher,kimberly,mullany,bush,hazelwood,aulick,charles_ausburne"
-	}
+	},
+	"retrofit": {
+		"1": {
+			"nodeSettings": "retronode, a1, n y y n",
+			"stat": "antiair, base, Anti-Air +15",
+			"stage": "1",
+			"desc": "Anti-Air Enhancement I",
+			"level": "5",
+			"limitBreak": "★★☆☆☆",
+			"material": "bpt1 3, gold 600"
+		},
+		"2": {
+			"nodeSettings": "retronode, a2, y y n n",
+			"stat": "hp, base, HP +45",
+			"stage": "1",
+			"desc": "Hull Improvement I",
+			"level": "1",
+			"limitBreak": "★★☆☆☆",
+			"material": "bpt1 2, gold 400"
+		},
+		"3": {
+			"nodeSettings": "line, b1, n y n y"
+		},
+		"4": {
+			"nodeSettings": "retronode, b2, n y y y",
+			"stat": "maingun, efficiency, Main Weapon Efficiency +5%",
+			"stage": "1",
+			"desc": "Main Gun Improvement I",
+			"level": "20",
+			"limitBreak": "★★★☆☆",
+			"material": "bpt1 3, gold 800"
+		},
+		"5": {
+			"nodeSettings": "retronode, b3, y y n n",
+			"stat": "firepower, base, Firepower +10",
+			"stage": "1",
+			"desc": "Firepower Enhancement I",
+			"level": "25",
+			"limitBreak": "★★★☆☆",
+			"material": "bpt1 5, gold 1000"
+		},
+		"6": {
+			"nodeSettings": "line, c1, n y n y"
+		},
+		"7": {
+			"nodeSettings": "retronode, c2, n y y y",
+			"stat": "maingun, efficiency, Main Gun Efficiency +5%/+5%",
+			"stage": "2",
+			"desc": "Main Gun Improvement II",
+			"level": "35",
+			"limitBreak": "★★★★☆",
+			"material": "bpt2 3, gold 2400"
+		},
+		"8": {
+			"nodeSettings": "retronode, c3, y n n y",
+			"stat": "firepower, base, Firepower +5/+15",
+			"stage": "2",
+			"desc": "Firepower Enhancement II",
+			"level": "40",
+			"limitBreak": "★★★★☆",
+			"material": "bpt2 2, gold 3000"
+		},
+		"9": {
+			"nodeSettings": "retronode, d1, n n y y",
+			"stat": "antiair, base, Anti-Air +15/+25",
+			"stage": "2",
+			"desc": "Anti-Air Enhancement II",
+			"level": "55",
+			"limitBreak": "★★★★☆",
+			"material": "bpt2 3, gold 4000"
+		},
+		"10": {
+			"nodeSettings": "retronode, d2, y y n y",
+			"stat": "hp, base, HP +45/+75",
+			"stage": "2",
+			"desc": "Hull Improvement II",
+			"level": "50",
+			"limitBreak": "★★★★☆",
+			"material": "bpt2 5, gold 3600"
+		},
+		"11": {
+			"nodeSettings": "retronode, e2, n y y y",
+			"stat": "torpedo, efficiency, Torpedo Efficiency +5%/+5%",
+			"stage": "2",
+			"desc": "Torpedo Improvement II",
+			"level": "70",
+			"limitBreak": "★★★★★",
+			"material": "bpt3 2, gold 5000"
+		},
+		"12": {
+			"nodeSettings": "retronode, e3, y y n n",
+			"stat": "torpedo, base, Torpedo +5/+10/+15",
+			"stage": "3",
+			"desc": "Torpedo Enhancement III",
+			"level": "75",
+			"limitBreak": "★★★★★",
+			"material": "bpt3 3, plt3_torp 15, gold 9000"
+		},
+		"13": {
+			"nodeSettings": "retronode, f1, n n y n",
+			"stat": "skill, defensive, Learn skill \"Battle of Kula Gulf\"",
+			"stage": "1",
+			"desc": "Tactical Learning",
+			"level": "90",
+			"limitBreak": "★★★★★",
+			"material": "bpt3 2, plt3_aux 50, gold 3000"
+		},
+		"14": {
+			"nodeSettings": "retronode, f2, y n y y",
+			"stat": "modernization, offensive, ASW +10 / Torpedo +20",
+			"stage": "1",
+			"desc": "Modernization",
+			"level": "85",
+			"limitBreak": "★★★★★",
+			"material": "duplicate 1, bpt3 3, gold 4000"
+		},
+		"15": {
+			"nodeSettings": "line, f3, y n n y"
+		}
+	},
+	"retroParameter": "Super Rare, Destroyer"
 }

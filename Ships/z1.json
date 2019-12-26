@@ -55,19 +55,19 @@
 			"type": "Support",
 			"description": "Increases the FP and EVA of all friendly Z-class DDs by 20.0% (40.0%)."
 		},
-		"2" : {
-			"icon" : "12280",	
-			"requirement" : "",
-			"name" : "Destruction Mode (Prototype)",
-			"type" : "Offensive",
-			"description" : "Every 20 seconds, 50.0% (80.0%) chance to activate Destruction Mode (Prototype) and fires a barrage. For 10 seconds, increase critical damage by 30.0% (50.0%) and decrease aviation damage taken by vanguard fleet receives by 10.0% (30.0%)."
+		"2": {
+			"icon": "12280",
+			"requirement": "",
+			"name": "Destruction Mode (Prototype)",
+			"type": "Offensive",
+			"description": "Every 20 seconds, 50.0% (80.0%) chance to activate Destruction Mode (Prototype) and fires a barrage. For 10 seconds, increase critical damage by 30.0% (50.0%) and decrease aviation damage taken by vanguard fleet receives by 10.0% (30.0%)."
 		},
-		"3" : {
-			"icon" : "29171",
-			"requirement" : "",
-			"name" : "EX Barrage: Z1 I",
-			"type" : "Offensive",
-			"description" : "Activates All Out Assault I: Z1 once every 15 times the Main Guns are fired."
+		"3": {
+			"icon": "29171",
+			"requirement": "",
+			"name": "EX Barrage: Z1 I",
+			"type": "Offensive",
+			"description": "Activates All Out Assault I: Z1 once every 15 times the Main Guns are fired."
 		}
 	},
 	"skin": {
@@ -91,28 +91,28 @@
 				}
 			}
 		},
-		"3" : {
-			"id" : "Z1_g",
-			"name" : "Z1 Retrofit",
-			"description" : "Phew... So this is retrofitting? Feels great! Commander, let's rejoice once more! No matter what difficulties or strong enemies, just leave them to the now stronger Z1!",
-			"expression" : {
-				"0" : {
-					"id" : "0"
+		"3": {
+			"id": "Z1_g",
+			"name": "Z1 (Retrofit) ",
+			"description": "Hmm... So this is a retrofit, huh? Not bad! Rejoice once more, Commander, for no task or enemy is too daunting for the new and improved Z1! ",
+			"expression": {
+				"0": {
+					"id": "0"
 				},
-				"1" : {
-					"id" : "1"
+				"1": {
+					"id": "1"
 				},
-				"2" : {
-					"id" : "2"
+				"2": {
+					"id": "2"
 				},
-				"3" : {
-					"id" : "3"
+				"3": {
+					"id": "3"
 				},
-				"4" : {
-					"id" : "4"
+				"4": {
+					"id": "4"
 				},
-				"5" : {
-					"id" : "5"
+				"5": {
+					"id": "5"
 				}
 			}
 		}
@@ -187,38 +187,38 @@
 			"armor": "Light"
 		},
 		"100retrofit": {
-			"hp" : "1890",
-			"firepower" : "77",
-			"torpedo" : "447",
-			"antiAir" : "209",
-			"aviation" : "0",
-			"reload" : "180",
-			"hit" : "165",
-			"evasion" : "148",
-			"speed" : "41",
-			"luck" : "40",
-			"asw" : "187",
-			"oxygen" : "0",
-			"ammo" : "0",
-			"cost" : "9",
-			"armor" : "Light"
+			"hp": "1890",
+			"firepower": "77",
+			"torpedo": "447",
+			"antiAir": "209",
+			"aviation": "0",
+			"reload": "180",
+			"hit": "165",
+			"evasion": "148",
+			"speed": "41",
+			"luck": "40",
+			"asw": "187",
+			"oxygen": "0",
+			"ammo": "0",
+			"cost": "9",
+			"armor": "Light"
 		},
 		"120retrofit": {
-			"hp" : "2218",
-			"firepower" : "85",
-			"torpedo" : "490",
-			"antiAir" : "229",
-			"aviation" : "0",
-			"reload" : "207",
-			"hit" : "173",
-			"evasion" : "153",
-			"speed" : "41",
-			"luck" : "40",
-			"asw" : "207",
-			"oxygen" : "0",
-			"ammo" : "0",
-			"cost" : "9",
-			"armor" : "Light"
+			"hp": "2218",
+			"firepower": "85",
+			"torpedo": "490",
+			"antiAir": "229",
+			"aviation": "0",
+			"reload": "207",
+			"hit": "173",
+			"evasion": "153",
+			"speed": "41",
+			"luck": "40",
+			"asw": "207",
+			"oxygen": "0",
+			"ammo": "0",
+			"cost": "9",
+			"armor": "Light"
 		}
 	},
 	"limitBreak": {
@@ -748,69 +748,105 @@
 				}
 			},
 			"3": {
-				"skin_id" : "Z1_g",
-				"id" : "9",
-				"label" : "Z1 Retrofit",
-				"dialogue" : {
-					"1" : {
-						"event" : "Ship Description",
-						"media" : "",
-						"chinese" : "哼～这就是改造吗…？感觉不错！再次欢呼吧，指挥官！万事继续交给变得更强的Z1大人就没问题啦！",
-						"chineseTL" : "Huh~ So this is retrofitting...? Feels great! Let's rejoice once more, Commander! Just leave everything to the great Z1 who has now become stronger and there won't be any problems!",
-						"chineseNote" : "",
-						"japanese" : "ふぅ…これが改造か？いい感じだ！指揮官、今一度喝采せよ！どんな困難と強敵でも、さらに強くなったZ1様に任せれば良いのだ！",
-						"japaneseTL" : "Phew... So this is retrofitting? Feels great! Commander, let's rejoice once more! No matter what difficulties or strong enemies, just leave them to the now stronger Z1-sama!",
-						"japaneseNote" : "",
-						"english" : "",
-						"englishNote" : ""
+				"skin_id": "Z1_g",
+				"id": "9",
+				"label": "Z1 (Retrofit) ",
+				"dialogue": {
+					"1": {
+						"event": "Ship Description",
+						"media": "",
+						"chinese": "哼～这就是改造吗…？感觉不错！再次欢呼吧，指挥官！万事继续交给变得更强的Z1大人就没问题啦！",
+						"chineseTL": "Huh~ So this is retrofitting...? Feels great! Let's rejoice once more, Commander! Just leave everything to the great Z1 who has now become stronger and there won't be any problems!",
+						"chineseNote": "",
+						"japanese": "ふぅ…これが改造か？いい感じだ！指揮官、今一度喝采せよ！どんな困難と強敵でも、さらに強くなったZ1様に任せれば良いのだ！",
+						"japaneseTL": "Phew... So this is retrofitting? Feels great! Commander, let's rejoice once more! No matter what difficulties or strong enemies, just leave them to the now stronger Z1-sama!",
+						"japaneseNote": "",
+						"english": "Hmm... So this is a retrofit, huh? Not bad! Rejoice once more, Commander, for no task or enemy is too daunting for the new and improved Z1!",
+						"englishNote": ""
 					},
-					"2" : {
-						"event" : "Acquisition",
-						"media" : "get_9",
-						"chinese" : "哼～这就是改造吗…？感觉不错！再次欢呼吧，指挥官！万事继续交给变得更强的Z1大人就没问题啦！",
-						"chineseTL" : "Huh~ So this is retrofitting...? Feels great! Let's rejoice once more, Commander! Just leave everything to the great Z1 who has now become stronger and there won't be any problems!",
-						"chineseNote" : "",
-						"japanese" : "",
-						"japaneseTL" : "",
-						"japaneseNote" : "",
-						"english" : "",
-						"englishNote" : ""
+					"2": {
+						"event": "Acquisition",
+						"media": "get_9",
+						"chinese": "哼～这就是改造吗…？感觉不错！再次欢呼吧，指挥官！万事继续交给变得更强的Z1大人就没问题啦！",
+						"chineseTL": "Huh~ So this is retrofitting...? Feels great! Let's rejoice once more, Commander! Just leave everything to the great Z1 who has now become stronger and there won't be any problems!",
+						"chineseNote": "",
+						"japanese": "ふぅ…これが改造か？いい感じだ！指揮官、今一度喝采せよ！どんな困難と強敵でも、さらに強くなったZ1様に任せれば良いのだ！",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Hmm... So this is a retrofit, huh? Not bad! Rejoice once more, Commander, for no task or enemy is too daunting for the new and improved Z1!",
+						"englishNote": ""
 					},
-					"3" : {
-						"event" : "Login",
-						"media" : "login_9",
-						"chinese" : "终于来了吗，我已经迫不及待要大闹一场了！",
-						"chineseTL" : "You finally came back, I can't wait to wreck some havoc!",
-						"chineseNote" : "",
-						"japanese" : "",
-						"japaneseTL" : "",
-						"japaneseNote" : "",
-						"english" : "",
-						"englishNote" : ""
+					"3": {
+						"event": "Login",
+						"media": "login_9",
+						"chinese": "终于来了吗，我已经迫不及待要大闹一场了！",
+						"chineseTL": "You finally came back, I can't wait to wreck some havoc!",
+						"chineseNote": "",
+						"japanese": "来たな。さあ、このZ1様と一緒にドンパチやろうぜ！",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "You're finally here! Come on, I want to start brawling already!",
+						"englishNote": ""
 					},
-					"4" : {
-						"event" : "Details",
-						"media" : "detail_9",
-						"chinese" : "哼哼，Z1大人还可以变得更快更强！",
-						"chineseTL" : "Hoho, the great Z1 can still become faster and stronger!",
-						"chineseNote" : "",
-						"japanese" : "",
-						"japaneseTL" : "",
-						"japaneseNote" : "",
-						"english" : "",
-						"englishNote" : ""
+					"4": {
+						"event": "Details",
+						"media": "detail_9",
+						"chinese": "哼哼，Z1大人还可以变得更快更强！",
+						"chineseTL": "Hoho, the great Z1 can still become faster and stronger!",
+						"chineseNote": "",
+						"japanese": "ふふん、このZ1様はまだまだ速く、強くなれるんだぜ？",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Heheh~ The mighty Z1 can get even stronger and faster!",
+						"englishNote": ""
 					},
-					"5" : {
-						"event" : "Touch",
-						"media" : "touch_1_9",
-						"chinese" : "这么没精神可不行啊指挥官，让我来给你打打气吧！",
-						"chineseTL" : "It's no good to feel so down, Commander. Let me cheer you up!",
-						"chineseNote" : "",
-						"japanese" : "",
-						"japaneseTL" : "",
-						"japaneseNote" : "",
-						"english" : "",
-						"englishNote" : ""
+					"5": {
+						"event": "Main 1",
+						"media": "main_1_9",
+						"chinese": "改造以后的Z1大人处理公文的速度也加倍了！指挥官还能追得上我吗～？",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "書類の処理速度も倍増したか。指揮官、俺のスピードについてこれるか？",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Even my work productivity has doubled! Commander, can you even keep up with me~? ",
+						"englishNote": ""
+					},
+					"6": {
+						"event": "Main 2",
+						"media": "main_2_9",
+						"chinese": "Z46，想要名字的话Z1大人给你起个好听的吧！《歌剧战姬Ritter der Walküre》——诶，不行吗！？",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "フィーゼ、名前がほしいならこのZ1様がつけてやるぜ。「鉄血の戦姫リッター・ド・ヴァルキュリア」――だ、ダメか！？",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Viersechs, if you want a name, let me choose a great one for you: \"Iron Blood Warrior Princess, Ritter der Walküre!\" ...H-huh? You don't like it?! ",
+						"englishNote": ""
+					},
+					"7": {
+						"event": "Main 3",
+						"media": "main_3_9",
+						"chinese": "是不是觉得没有我在你身边就不行了呢，指挥官！嘿嘿～",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "指揮官、このZ1様がいないとやる気も出ないってか？あははは～",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Commander, do you feel like you can't get anything done without me? Ahahaha~!",
+						"englishNote": ""
+					},
+					"8": {
+						"event": "Touch",
+						"media": "touch_1_9",
+						"chinese": "这么没精神可不行啊指挥官，让我来给你打打气吧！",
+						"chineseTL": "It's no good to feel so down, Commander. Let me cheer you up!",
+						"chineseNote": "",
+						"japanese": "指揮官、そんな元気のない感じじゃダメだな～このZ1様が一発、元気づけてやるぜ！",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Commander, I can't have you being this listless! Allow the great Z1 to pump you up!",
+						"englishNote": ""
 					}
 				}
 			}

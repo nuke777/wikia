@@ -11,8 +11,7 @@
 	"hull": "Destroyer",
 	"navy": "Sakura Empire",
 	"prefix": "IJN",
-	"buildTime": "",
-	"class": "Mutsuki-Class",
+	"buildTime": "N/A",
 	"voiceActress": "Mako Sakurai",
 	"parameters": {
 		"firepower": "D",
@@ -34,12 +33,13 @@
 		"EN": ""
 	},
 	"artist": {
-		"name": "",
-		"weibo": "",
-		"twitter": "",
-		"pixiv": "",
+		"name": "月见",
+		"weibo": "http://www.weibo.com/p/1005051807769224",
+		"twitter": "https://twitter.com/tsukimi08",
+		"pixiv": "https://www.pixiv.net/member.php?id=786200",
 		"other": ""
 	},
+	"class": "Mutsuki-Class",
 	"enhance": {
 		"firepower": "4",
 		"torpedo": "27",
@@ -50,17 +50,17 @@
 	"skill": {
 		"1": {
 			"icon": "2001",
-			"requirement": "",
+			"requirement": "Default Unlocked",
 			"name": "Quick Reload",
 			"type": "Offensive",
-			"description": "$1 chance to activate every 20s: increases this ship's RLD by $2 for 10s."
+			"description": "Every 20s: 30.0%(60.0%) chance to increase this ship's RLD by 20.0%(40.0%) for 10s."
 		},
 		"2": {
 			"icon": "22011",
-			"requirement": "",
+			"requirement": "Limit Break I (III)",
 			"name": "All Out Assault Ⅰ",
 			"type": "Offensive",
-			"description": "Activate All Out Assault Ⅰ: Mutsuki Class once every 15 times the main gun is fired."
+			"description": "Activates All Out Assault Ⅰ: Mutsuki Class once every 15 times the Main Guns are fired."
 		}
 	},
 	"skin": {
@@ -71,6 +71,34 @@
 			"expression": {
 				"0": {
 					"id": "0"
+				}
+			}
+		},
+		"2": {
+			"id": "sanriyue_2",
+			"name": "Sweet Zombie",
+			"description": "Mikazuki is supposed to be... a jiangshi? Um... hip... hop... Commander, trick or treaaaaat~",
+			"expression": {
+				"0": {
+					"id": "0"
+				},
+				"1": {
+					"id": "1"
+				},
+				"2": {
+					"id": "2"
+				},
+				"3": {
+					"id": "3"
+				},
+				"4": {
+					"id": "4"
+				},
+				"5": {
+					"id": "5"
+				},
+				"6": {
+					"id": "6"
 				}
 			}
 		}
@@ -204,17 +232,30 @@
 			"preload": "0/0/0/0"
 		},
 		"4": {
-			"type": "Auxiliary",
+			"type": "Auxilary",
 			"efficiency": "-",
 			"amount": "-",
 			"preload": "-"
 		},
 		"5": {
-			"type": "Auxiliary",
+			"type": "Auxilary",
 			"efficiency": "-",
 			"amount": "-",
 			"preload": "-"
 		}
+	},
+	"fleet_tech": {
+		"pt_get": "2",
+		"add_get_attr": "HP",
+		"add_get_value": "1",
+		"add_get_shiptype": "Destroyer",
+		"pt_upgrade": "4",
+		"pt_level": "3",
+		"add_level_attr": "HP",
+		"add_level_value": "1",
+		"add_level_shiptype": "Destroyer",
+		"t_level": "3",
+		"ships": "mutsuki,kisaragi,uzuki,minazuki,fumizuki,nagatsuki,mikazuki"
 	},
 	"build": {
 		"light": {
@@ -239,15 +280,27 @@
 		}
 	},
 	"drop": {
-		"droppable": "false",
+		"droppable": "true",
 		"list": {
 			"1": {
-				"event": "",
+				"event": "World",
 				"chapter": {
 					"1": {
-						"label": "Ch .1",
+						"label": "Ch.10",
 						"node": {
 							"1": {
+								"drop": "✓",
+								"note": "-"
+							},
+							"2": {
+								"drop": "✓",
+								"note": "-"
+							},
+							"3": {
+								"drop": "✓",
+								"note": "-"
+							},
+							"4": {
 								"drop": "✓",
 								"note": "-"
 							}
@@ -575,22 +628,172 @@
 						"japaneseNote": "",
 						"english": "A promise...? Does that mean you'll help me get dressed? I don't really get it... I should really do it on my own...? Commander, you're weird... I'm fine with you helping me get dressed, I told you before...",
 						"englishNote": ""
+					},
+					"27": {
+						"event": "Like Present",
+						"media": "present_like",
+						"chinese": "",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"28": {
+						"event": "Dislike Present",
+						"media": "present_dislike",
+						"chinese": "",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"29": {
+						"event": "Main Title",
+						"media": "extra",
+						"chinese": "",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					}
+				}
+			},
+			"2": {
+				"skin_id": "sanriyue_2",
+				"id": "1",
+				"label": "Sweet Zombie",
+				"dialogue": {
+					"1": {
+						"event": "Ship Description",
+						"media": "",
+						"chinese": "三日月…变成了僵尸？我跳~我跳~指挥官，有鲷鱼烧吗？",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "三日月のやくは…キョンシー？うん…ぴょんぴょん…しきかん、とりっくおあとりーとぉぉぉ～",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Mikazuki is supposed to be... a jiangshi? Um... hip... hop... Commander, trick or treaaaaat~",
+						"englishNote": ""
+					},
+					"2": {
+						"event": "Acquisition",
+						"media": "get_1",
+						"chinese": "三日月…变成了僵尸？我跳~我跳~指挥官，有鲷鱼烧吗？",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Mikazuki is supposed to be... a zombie? Um... hip... hop... Commander, trick or treaaaaat~",
+						"englishNote": ""
+					},
+					"3": {
+						"event": "Login",
+						"media": "login_1",
+						"chinese": "指挥官，不给鲷鱼烧，三日月就叫水无月姐姐来捣乱了。",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Commander? If you don't give me taiyaki, I'll summon Minazuki~",
+						"englishNote": ""
+					},
+					"4": {
+						"event": "Details",
+						"media": "detail_1",
+						"chinese": "三日月不喜欢换麻烦的衣服，但是大家都想看三日月穿上它，所以三日月变成了僵尸。我跳~",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Getting changed is a pain, but since everyone wanted to see me in a costume, I did it... Hip, hop.",
+						"englishNote": ""
+					},
+					"5": {
+						"event": "Main 1",
+						"media": "main_1_1",
+						"chinese": "三日月跳累了。是指挥官的腿，我坐~",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Bouncing around is exhausting. Commander, your lap please. ",
+						"englishNote": ""
+					},
+					"6": {
+						"event": "Main 2",
+						"media": "main_2_1",
+						"chinese": "万圣节，魔女，南瓜，好吃的……鲷鱼烧！啊呜——",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Halloween is all about witches, pumpkins, and... delicious taiyaki! Ommfh!",
+						"englishNote": ""
+					},
+					"7": {
+						"event": "Main 3",
+						"media": "main_3_1",
+						"chinese": "拿走头上的封印的话，三日月就会变成真的僵尸——水无月姐姐这么说的。",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "If the seal on my head gets removed, I'll turn into a real zombie... That's what Minazuki said, anyway.",
+						"englishNote": ""
+					},
+					"8": {
+						"event": "Touch",
+						"media": "touch_1_1",
+						"chinese": "指挥官，不怕僵尸吗？",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Commander, are you scared of zombies?",
+						"englishNote": ""
+					},
+					"9": {
+						"event": "Touch (Special)",
+						"media": "touch_2_1",
+						"chinese": "被弄乱了，好不容易才穿好的衣服……",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "My outfit is all messed up now... even though it took so long to put on...",
+						"englishNote": ""
+					},
+					"10": {
+						"event": "Return to Port",
+						"media": "home_1",
+						"chinese": "三日月得到了很多糖……睦月姐姐好像很喜欢，等下都给她吧。",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "I got so much candy... Mutsuki seems to really like them, so I'll give it all to her later.",
+						"englishNote": ""
 					}
 				}
 			}
 		}
-	},
-	"fleet_tech": {
-		"pt_get": "2",
-		"add_get_attr": "HP",
-		"add_get_value": "1",
-		"add_get_shiptype": "Destroyer",
-		"pt_upgrade": "4",
-		"pt_level": "3",
-		"add_level_attr": "HP",
-		"add_level_value": "1",
-		"add_level_shiptype": "Destroyer",
-		"t_level": "3",
-		"ships": "mutsuki,kisaragi,uzuki,minazuki,fumizuki,nagatsuki,mikazuki"
 	}
 }

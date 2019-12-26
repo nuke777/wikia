@@ -11,8 +11,7 @@
 	"hull": "Destroyer",
 	"navy": "Royal Navy",
 	"prefix": "HMS",
-	"buildTime": "",
-	"class": "J-Class",
+	"buildTime": "N/A",
 	"voiceActress": "Tomoyo Takayanagi",
 	"parameters": {
 		"firepower": "D",
@@ -31,46 +30,72 @@
 		"JP": "",
 		"CN": "",
 		"KR": "",
-		"EN": ""
+		"EN": "August 7, 2019"
 	},
 	"artist": {
-		"name": "",
+		"name": "6音",
 		"weibo": "",
-		"twitter": "",
-		"pixiv": "",
+		"twitter": "https://twitter.com/sein_66",
+		"pixiv": "https://www.pixiv.net/member.php?id=2118700",
 		"other": ""
 	},
+	"class": "J-Class",
 	"enhance": {
 		"firepower": "5",
 		"torpedo": "23",
 		"aviation": "0",
 		"reload": "14"
 	},
-	"acquisitionMethod": "ログインスタンプ",
+	"acquisitionMethod": "1st anniversary login reward",
 	"skill": {
 		"1": {
 			"icon": "5031",
-			"requirement": "",
+			"requirement": "Default Unlocked",
 			"name": "Battleship Escort",
 			"type": "Defensive",
-			"description": "While this ship is afloat: decreases the DMG taken by all friendly BCs and BBs by $1. Does not stack with the same skill."
+			"description": "While this ship is afloat: decreases the DMG all BCs and BBs in your fleet take by 5%(15%). Does not stack with the same skill."
 		},
 		"2": {
 			"icon": "21071",
-			"requirement": "",
+			"requirement": "Limit Break I(III)",
 			"name": "All Out Assault Ⅰ",
 			"type": "Offensive",
-			"description": "Activate All Out Assault Ⅰ: J Class once every 15 times the main gun is fired."
+			"description": "Activates All Out Assault Ⅰ: J Class once every 15 times the Main Guns are fired."
 		}
 	},
 	"skin": {
 		"1": {
 			"id": "qiubite",
-			"name": "ジュピター",
-			"description": "J級駆逐艦・ジュピター（F85)",
+			"name": "Jupiter",
+			"description": "J-class destroyer – Jupiter, Hull Number F85. ",
 			"expression": {
 				"0": {
 					"id": "0"
+				}
+			}
+		},
+		"2": {
+			"id": "qiubite_2",
+			"name": "Fanclub Sleepover",
+			"description": "Good evening, Commander. There's a new show on the telly. You want to watch with me?",
+			"expression": {
+				"0": {
+					"id": "0"
+				},
+				"1": {
+					"id": "1"
+				},
+				"2": {
+					"id": "2"
+				},
+				"3": {
+					"id": "3"
+				},
+				"4": {
+					"id": "4"
+				},
+				"5": {
+					"id": "5"
 				}
 			}
 		}
@@ -180,9 +205,9 @@
 		}
 	},
 	"limitBreak": {
-		"tier1": "全弾発射スキル習得/主砲補正+5%",
-		"tier2": "魚雷装填数+1/開始時魚雷+1/主砲補正+10%",
-		"tier3": "全弾発射弾幕強化/武器補正+5%"
+		"tier1": "Unlock All Out Assault Ⅰ/Main gun efficiency +5%",
+		"tier2": "Torpedo base +1/Torpedo preload +1/Main gun efficiency +10%",
+		"tier3": "Improve All Out Assault/All weapons' efficiency +5%"
 	},
 	"equipmentLoadout": {
 		"1": {
@@ -204,17 +229,30 @@
 			"preload": "0/0/0/0"
 		},
 		"4": {
-			"type": "Auxiliary",
+			"type": "Auxilary",
 			"efficiency": "-",
 			"amount": "-",
 			"preload": "-"
 		},
 		"5": {
-			"type": "Auxiliary",
+			"type": "Auxilary",
 			"efficiency": "-",
 			"amount": "-",
 			"preload": "-"
 		}
+	},
+	"fleet_tech": {
+		"pt_get": "4",
+		"add_get_attr": "HP",
+		"add_get_value": "1",
+		"add_get_shiptype": "Destroyer",
+		"pt_upgrade": "9",
+		"pt_level": "7",
+		"add_level_attr": "ASW",
+		"add_level_value": "1",
+		"add_level_shiptype": "Destroyer",
+		"t_level": "5",
+		"ships": "javelin,juno,jupiter,jersey"
 	},
 	"build": {
 		"light": {
@@ -262,7 +300,7 @@
 			"1": {
 				"skin_id": "qiubite",
 				"id": "0",
-				"label": "ジュピター",
+				"label": "Jupiter",
 				"dialogue": {
 					"1": {
 						"event": "Ship Description",
@@ -273,7 +311,7 @@
 						"japanese": "J級駆逐艦・ジュピター（F85)",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "J-class destroyer – Jupiter, Hull Number F85.",
 						"englishNote": ""
 					},
 					"2": {
@@ -285,7 +323,7 @@
 						"japanese": "わたしは魚雷装備を強化されたJクラス駆逐艦のジュピター……ジュノーちゃん？わたしたち、ただの姉妹だよ。伊60？たしかにわたしが沈めたけど……",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "I am the J class destroyer with improved torpedo equipment, Jupiter... \"Juno\"? We're just sisters. I-60? I think I sank her, but...",
 						"englishNote": ""
 					},
 					"3": {
@@ -297,7 +335,7 @@
 						"japanese": "ロイヤルネイビーJクラス駆逐艦ジュピター……ジュノー？えっと、どの「ジュノー」なの？",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "I am the Royal Navy J-class destroyer, Jupiter... \"Jue-know\"? Erm, which one are you referring to?",
 						"englishNote": ""
 					},
 					"4": {
@@ -309,7 +347,7 @@
 						"japanese": "じゅ、ジュノーちゃん、そんなに気を使わなくてもいいよ……わたしのほうがカンレキが長いのに……",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Ju-Juno, you don't need to be concerned about me... I've been in this longer than you...",
 						"englishNote": ""
 					},
 					"5": {
@@ -321,7 +359,7 @@
 						"japanese": "伊60を沈めた？ソンナコト……",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "I sank I-60? That's not...",
 						"englishNote": ""
 					},
 					"6": {
@@ -333,7 +371,7 @@
 						"japanese": "わたしは「ジュピター」…「キューピッド」…チガイマス…",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "My name is \"Jupiter\"... not \"Cupider\"...",
 						"englishNote": ""
 					},
 					"7": {
@@ -345,7 +383,7 @@
 						"japanese": "指揮官といると、楽しい……",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "It's fun to be with you, Commander...",
 						"englishNote": ""
 					},
 					"8": {
@@ -357,7 +395,7 @@
 						"japanese": "いつか…故郷に帰りたい……",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "I hope I'll... get to come home some day...",
 						"englishNote": ""
 					},
 					"9": {
@@ -369,7 +407,7 @@
 						"japanese": "指揮官……わたしの手、温かい…？",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Commander... my hands... are they warm...?",
 						"englishNote": ""
 					},
 					"10": {
@@ -381,7 +419,7 @@
 						"japanese": "…！？ジュノーちゃんじゃなくて指揮官だったの！？",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Huh...?! It wasn't Juno, but you, Commander?!",
 						"englishNote": ""
 					},
 					"11": {
@@ -393,7 +431,7 @@
 						"japanese": "やらなきゃならないの……",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Do we really have to do this...",
 						"englishNote": ""
 					},
 					"12": {
@@ -405,7 +443,7 @@
 						"japanese": "ジュノーちゃん、心配しないで、任務は完了したよ",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Don't worry, Juno. The mission has been completed.",
 						"englishNote": ""
 					},
 					"13": {
@@ -417,7 +455,7 @@
 						"japanese": "指揮官、あなたのメールよ…",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Commander, here's your mail...",
 						"englishNote": ""
 					},
 					"14": {
@@ -429,7 +467,7 @@
 						"japanese": "指揮官、私にも出来ることは……ハイ！チャントスワリマス！",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Commander, is there anything you need me to... Got... I'll just sit down...",
 						"englishNote": ""
 					},
 					"15": {
@@ -441,7 +479,7 @@
 						"japanese": "物資が増えた……",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Our resources have increased...",
 						"englishNote": ""
 					},
 					"16": {
@@ -453,7 +491,7 @@
 						"japanese": "なにかが変わった……",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "I feel like something's changed...",
 						"englishNote": ""
 					},
 					"17": {
@@ -465,7 +503,7 @@
 						"japanese": "神さまの裁き…フフフ…",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "This is God's judgement... Hehehe...",
 						"englishNote": ""
 					},
 					"18": {
@@ -477,7 +515,7 @@
 						"japanese": "不思議……",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "I wasn't expecting this...",
 						"englishNote": ""
 					},
 					"19": {
@@ -489,7 +527,7 @@
 						"japanese": "テ、テッタイスルノ！？",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "A-are we retreating...?",
 						"englishNote": ""
 					},
 					"20": {
@@ -501,7 +539,7 @@
 						"japanese": "よ、避けないで……",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "P-please don't dodge this...",
 						"englishNote": ""
 					},
 					"21": {
@@ -513,7 +551,7 @@
 						"japanese": "指揮官……わたしのことキライ？",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Commander... do you hate me?",
 						"englishNote": ""
 					},
 					"22": {
@@ -525,7 +563,7 @@
 						"japanese": "ヒトリデイインデス……",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "I'll be fine on my own...",
 						"englishNote": ""
 					},
 					"23": {
@@ -537,7 +575,7 @@
 						"japanese": "じゅ、ジュノーちゃん…指揮官はわたしひとりでも大丈夫だから、ついてこなくても……",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "J-Juno... the Commander's fine being alone with me, so you don't have to be here...",
 						"englishNote": ""
 					},
 					"24": {
@@ -549,7 +587,7 @@
 						"japanese": "指揮官、わたしが焼いたトースト、フフフ……美味しい？",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Commander, about that toast I made for you... hehehe... did you like it?",
 						"englishNote": ""
 					},
 					"25": {
@@ -561,7 +599,7 @@
 						"japanese": "指揮官、わたしカワイイ？…フフフ……お礼に――",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Commander, do you think I'm cute? ... Hehehe... Then, as a reward for you...",
 						"englishNote": ""
 					},
 					"26": {
@@ -573,11 +611,11 @@
 						"japanese": "こ、これで指揮官とずっと一緒なの？じゃ、じゃあ…指揮官、目を閉じて、わたしからもプレゼント……",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "D-does this mean we'll always be together? Th-then... Commander, close your eyes and I'll give you a present...",
 						"englishNote": ""
 					},
 					"27": {
-						"event": "Easter Egg 1 (Juneau)",
+						"event": "Easter Egg 1(Juneau)",
 						"media": "link1",
 						"chinese": "请打起精神来！",
 						"chineseTL": "",
@@ -585,11 +623,11 @@
 						"japanese": "げ、元気出して！",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "P-please, cheer up!",
 						"englishNote": ""
 					},
 					"28": {
-						"event": "Easter Egg 2 (Juno)",
+						"event": "Easter Egg 2(Juno)",
 						"media": "link2",
 						"chinese": "应、应该是我来照顾你吧…",
 						"chineseTL": "",
@@ -597,24 +635,174 @@
 						"japanese": "わ、わたしが世話する番でしょ…？",
 						"japaneseTL": "",
 						"japaneseNote": "",
+						"english": "Sh-shouldn't it be my turn to care for you...?",
+						"englishNote": ""
+					},
+					"29": {
+						"event": "Like Present",
+						"media": "present_like",
+						"chinese": "",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
 						"english": "",
+						"englishNote": ""
+					},
+					"30": {
+						"event": "Dislike Present",
+						"media": "present_dislike",
+						"chinese": "",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"31": {
+						"event": "Main Title",
+						"media": "extra",
+						"chinese": "",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					}
+				}
+			},
+			"2": {
+				"skin_id": "qiubite_2",
+				"id": "1",
+				"label": "Fanclub Sleepover",
+				"dialogue": {
+					"1": {
+						"event": "Ship Description",
+						"media": "",
+						"chinese": "晚上好，指挥官。今晚有新的节目放送呢，要一起来看电视吗？",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "指揮官、こんばんは。新番組、近々放送スタート…指揮官も見る…？",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Good evening, Commander. There's a new show on the telly. You want to watch with me?",
+						"englishNote": ""
+					},
+					"2": {
+						"event": "Acquisition",
+						"media": "get_1",
+						"chinese": "晚上好，指挥官。今晚有新的节目放送呢，要一起来看电视吗？",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Good evening, Commander. There's a new show on the telly. You want to watch with me?",
+						"englishNote": ""
+					},
+					"3": {
+						"event": "Login",
+						"media": "login_1",
+						"chinese": "新节目好像要开始了呢。嘿嘿，有点期待。指挥官期待吗？",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "That new show is about to start. Hehe. I've been looking forward to it. Are you interested, Commander?",
+						"englishNote": ""
+					},
+					"4": {
+						"event": "Details",
+						"media": "detail_1",
+						"chinese": "呼欸？我的拖鞋哪里去了…啊，就在我身后吗？谢谢指挥官……",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Huh? Where's my slipper...? Oh, it's behind me? Thanks, Commander...",
+						"englishNote": ""
+					},
+					"5": {
+						"event": "Main 1",
+						"media": "main_1_1",
+						"chinese": "鱼雷抱枕……抱着它，感觉就很安心…",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "My torpedo pillow...? Hugging it... makes me feel very safe...",
+						"englishNote": ""
+					},
+					"6": {
+						"event": "Main 2",
+						"media": "main_2_1",
+						"chinese": "要是天后也能一起的话就好了。不过，能让指挥官陪着我，我就已经很开心了，嘿嘿~",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "I do wish Juno was here. But having you with me, Commander, that makes me very happy too. Hehe~",
+						"englishNote": ""
+					},
+					"7": {
+						"event": "Main 3",
+						"media": "main_3_1",
+						"chinese": "听说，白鹰的幽灵小姐和重樱的鬼神小姐，好像也对新节目感兴趣呢。",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "I heard a rumor that a certain Ghost of the Eagle Union and a Demon from the Sakura Empire are interested in this show too.",
+						"englishNote": ""
+					},
+					"8": {
+						"event": "Touch",
+						"media": "touch_1_1",
+						"chinese": "指挥官，我在晚上看电视的事情……不要告诉泽西姐姐，可以吗？",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Commander, can you please not tell my sisters... how I spend all night watching TV?",
+						"englishNote": ""
+					},
+					"9": {
+						"event": "Touch (Special)",
+						"media": "touch_2_1",
+						"chinese": "呀！吓，吓到我了…",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Eek! You, you scared me...",
+						"englishNote": ""
+					},
+					"10": {
+						"event": "Return to Port",
+						"media": "home_1",
+						"chinese": "回来得正好，还没错过节目……",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "You're just in time. The show hasn't started yet...",
 						"englishNote": ""
 					}
 				}
 			}
 		}
-	},
-	"fleet_tech": {
-		"pt_get": "4",
-		"add_get_attr": "HP",
-		"add_get_value": "1",
-		"add_get_shiptype": "Destroyer",
-		"pt_upgrade": "9",
-		"pt_level": "7",
-		"add_level_attr": "ASW",
-		"add_level_value": "1",
-		"add_level_shiptype": "Destroyer",
-		"t_level": "5",
-		"ships": "javelin,juno,jupiter,jersey"
 	}
 }

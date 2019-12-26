@@ -11,7 +11,7 @@
 	"hull": "Light Cruiser",
 	"navy": "Eagle Union",
 	"prefix": "USS",
-	"buildTime": "",
+	"buildTime": "N/A",
 	"class": "Brooklyn-Class",
 	"voiceActress": "Yoko Hikasa",
 	"parameters": {
@@ -34,10 +34,10 @@
 		"EN": ""
 	},
 	"artist": {
-		"name": "",
-		"weibo": "",
-		"twitter": "",
-		"pixiv": "",
+		"name": "云桑",
+		"weibo": "https://weibo.com/yunsang",
+		"twitter": "https://twitter.com/_Yunsang",
+		"pixiv": "https://www.pixiv.net/member.php?id=5358936",
 		"other": ""
 	},
 	"enhance": {
@@ -50,14 +50,14 @@
 	"skill": {
 		"1": {
 			"icon": "2011",
-			"requirement": "",
+			"requirement": "Default Unlocked",
 			"name": "Full Firepower",
 			"type": "Offensive",
-			"description": "$1 chance to activate every 20s: increases this ship's FP by $2 for 10s."
+			"description": "30.0% (60.0%) chance to activate every 20s: increases this ship's FP by 20.0% (40.0%) for 10s."
 		},
 		"2": {
 			"icon": "20121",
-			"requirement": "",
+			"requirement": "Limit Break I (III)",
 			"name": "All Out Assault Ⅰ",
 			"type": "Offensive",
 			"description": "Activate All Out Assault Ⅰ: Brooklyn Class once every 15 times the main gun is fired."
@@ -86,8 +86,8 @@
 		},
 		"3": {
 			"id": "huonululu_3",
-			"name": "盛夏的「灾难」",
-			"description": "唔哇哇哇，我的圣代！这根水管是怎么回事啦！指挥官，我说你别站那边看了，有空过来帮我一下！",
+			"name": "Summer Accident?!",
+			"description": "Aaaahh! My sundae! What's up with this stupid hose?! Commander, don't just stand there, help me!",
 			"expression": {
 				"0": {
 					"id": "0"
@@ -116,6 +116,28 @@
 				},
 				"5": {
 					"id": "5"
+				}
+			}
+		},
+		"5": {
+			"id": "huonululu_5",
+			"name": "Among the Stalls",
+			"description": "Come on, Louis, the goldfish stall is this way! ... W-why are you giving me that weird look like th– Wait... Eeeek! C-Commander?! When did you get here?!",
+			"expression": {
+				"0": {
+					"id": "0"
+				},
+				"1": {
+					"id": "1"
+				},
+				"2": {
+					"id": "2"
+				},
+				"3": {
+					"id": "3"
+				},
+				"4": {
+					"id": "4"
 				}
 			}
 		}
@@ -284,16 +306,28 @@
 		}
 	},
 	"drop": {
-		"droppable": "false",
+		"droppable": "true",
 		"list": {
 			"1": {
-				"event": "",
+				"event": "World",
 				"chapter": {
 					"1": {
-						"label": "Ch .1",
+						"label": "Ch.10",
 						"node": {
 							"1": {
+								"drop": "-",
+								"note": "-"
+							},
+							"2": {
 								"drop": "✓",
+								"note": "-"
+							},
+							"3": {
+								"drop": "-",
+								"note": "-"
+							},
+							"4": {
+								"drop": "-",
 								"note": "-"
 							}
 						}
@@ -620,6 +654,42 @@
 						"japaneseNote": "",
 						"english": "This is really embarrassing, so could we just get this over with... Y-you can do whatever you want when it's just the two of us...",
 						"englishNote": ""
+					},
+					"27": {
+						"event": "Like Present",
+						"media": "present_like",
+						"chinese": "",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"28": {
+						"event": "Dislike Present",
+						"media": "present_dislike",
+						"chinese": "",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"29": {
+						"event": "Main Title",
+						"media": "extra",
+						"chinese": "",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
 					}
 				}
 			},
@@ -729,7 +799,7 @@
 			"3": {
 				"skin_id": "huonululu_3",
 				"id": "2",
-				"label": "盛夏的「灾难」",
+				"label": "Summer Accident?!",
 				"dialogue": {
 					"1": {
 						"event": "Ship Description",
@@ -740,7 +810,7 @@
 						"japanese": "うわあああああ！私のサンデーがああ！このホースはなんなのよぉ！指揮官、もー！見てないで助けてぇ！！",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "唔哇哇哇，我的圣代！这根水管是怎么回事啦！指挥官，我说你别站那边看了，有空过来帮我一下！",
+						"english": "Aaaahh! My sundae! What's up with this stupid hose?! Commander, don't just stand there, help me!",
 						"englishNote": ""
 					},
 					"2": {
@@ -752,7 +822,7 @@
 						"japanese": "うわあああああ！私のサンデーがああ！このホースはなんなのよぉ！指揮官、もー！見てないで助けてぇ！！",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "唔哇哇哇，我的圣代！这根水管是怎么回事啦！指挥官，我说你别站那边看了，有空过来帮我一下！",
+						"english": "Aaaahh! My sundae! What's up with this stupid hose?! Commander, don't just stand there, help me!",
 						"englishNote": ""
 					},
 					"3": {
@@ -764,7 +834,7 @@
 						"japanese": "指揮官、私の主砲にいたずらしたのはあなただよね？は、白状してよ！今ならまだ間に合うから……",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "指挥官你老实说，是不是你偷偷对我的主炮做了手脚？现在坦白还来得及……",
+						"english": "Commander, you're the one who messed with my cannons, didn't you? A-admit it! Admit it while you still have the chance...",
 						"englishNote": ""
 					},
 					"4": {
@@ -776,7 +846,7 @@
 						"japanese": "あああ！この水は一体どこから噴き出して来たの！？",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "呜呜呜这水到底从哪里喷出来的啦！！",
+						"english": "*Gasp*! Where the heck is all this water coming from?!",
 						"englishNote": ""
 					},
 					"5": {
@@ -788,7 +858,7 @@
 						"japanese": "指揮官、笑いながら「水着がカワイイ」って言ってもぜーんっぜん説得力ないんだからぁ！",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "指挥官，一边笑一边说“泳装真好看”这种话一点说服力都没有好吗！",
+						"english": "Commander, you don't sound convincing at all when you tell me my swimsuit is cute while you're laughing!",
 						"englishNote": ""
 					},
 					"6": {
@@ -800,7 +870,7 @@
 						"japanese": "うぅ……みんなに笑われちゃうよ……",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "呜……去沙滩的时候要被大家笑死了……",
+						"english": "*Sob*... Everyone's going to laugh at me...",
 						"englishNote": ""
 					},
 					"7": {
@@ -812,7 +882,7 @@
 						"japanese": "ヘレナちゃんを呼んだの！？あの子を笑わせたいからってこんな方法じゃ嫌――！！",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "再坚持一下你叫了海伦娜过来？我不需要用这种方法逗她笑啦！",
+						"english": "You called over Helena?! This is NOT the way I want to make her laugh!",
 						"englishNote": ""
 					},
 					"8": {
@@ -824,7 +894,7 @@
 						"japanese": "指揮官、許さないわ……私と一緒にずぶ濡れになっちゃえええ！",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "指挥官你死定了……给我也变成落汤鸡吧！",
+						"english": "How could you, Commander... I'll hose you till you're as soaked as I am!",
 						"englishNote": ""
 					},
 					"9": {
@@ -836,7 +906,7 @@
 						"japanese": "し、指揮官、ええと、冷たいシャワーでもどう……？",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "指、指挥官，要来冲个凉吗",
+						"english": "C-Commander, umm, do you wanna take a cold shower...?",
 						"englishNote": ""
 					},
 					"10": {
@@ -848,7 +918,7 @@
 						"japanese": "見た人を全て消せば…恥ずかしがらなくてよくなるよねっ！",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "消灭掉所有目击者…就不会再觉得丢脸了吧…！",
+						"english": "If I get rid of everyone who saw me... then I won't have anything to be embarrassed about!",
 						"englishNote": ""
 					},
 					"11": {
@@ -860,7 +930,7 @@
 						"japanese": "運が悪かったわね…今日の私はすごく機嫌悪いんだからっ！",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "我今天心情不好，算你们倒霉……",
+						"english": "Today was your unlucky day... because I'm in a REALLY bad mood!",
 						"englishNote": ""
 					}
 				}
@@ -1024,6 +1094,181 @@
 						"japaneseTL": "",
 						"japaneseNote": "",
 						"english": "*Sigh*... \"Go visit the Commander and say 'I'm your present~!'\"... That's ridiculous, the Commander would never like this stupid costu... D-did you just hear that?!",
+						"englishNote": ""
+					}
+				}
+			},
+			"5": {
+				"skin_id": "huonululu_5",
+				"id": "4",
+				"label": "Among the Stalls",
+				"dialogue": {
+					"1": {
+						"event": "Ship Description",
+						"media": "",
+						"chinese": "路易斯，快看，那边有捞金鱼……你笑得那么诡异地看着我干什么？欸，哇啊啊！指、指挥官，你、你什么时候来的！",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "ルイス、ほら、金魚すくいはあっち……な、なんで変な顔でこっち見て…えっ。きゃああ！し、指揮官！？いつからいたのよ…！？",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Come on, Louis, the goldfish stall is this way! ... W-why are you giving me that weird look like th– Wait... Eeeek! C-Commander?! When did you get here?!",
+						"englishNote": ""
+					},
+					"2": {
+						"event": "Acquisition",
+						"media": "get_4",
+						"chinese": "路易斯，快看，那边有捞金鱼……你笑得那么诡异地看着我干什么？欸，哇啊啊！指、指挥官，你、你什么时候来的！",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "ルイス、ほら、金魚すくいはあっち……な、なんで変な顔でこっち見て…えっ。きゃああ！し、指揮官！？いつからいたのよ…！？",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Come on, Louis, the goldfish stall is this way! ... W-why are you giving me that weird look like th– Wait... Eeeek! C-Commander?! When did you get here?!",
+						"englishNote": ""
+					},
+					"3": {
+						"event": "Login",
+						"media": "login_4",
+						"chinese": "事先声明，我、我可不是因为喜欢祭典才……啊啊啊，算了！指挥官，和我一起逛啦！",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "言っておくけど、別にお祭りが好きなんかじゃ……も、もうどうだっていいから！指揮官、付き合ってよ…！",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "I'll say this now: I don't like festivals in any... Ah, you know what, never mind! Just come with me, okay?!",
+						"englishNote": ""
+					},
+					"4": {
+						"event": "Details",
+						"media": "detail_4",
+						"chinese": "看什么看，喜欢祭典很奇怪吗？",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "な、何見てるのよ…お祭りが好きなのは変なの……？",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Wh-what are you staring at me for... Is it weird to have fun at a festival now...?",
+						"englishNote": ""
+					},
+					"5": {
+						"event": "Main 1",
+						"media": "main_1_4",
+						"chinese": "路易斯那个家伙，说什么“那我就不当电灯泡了”就不知道去哪了……哼，不管她了，指挥官，你在看什么呢，吃不吃烤鱿鱼？",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "ルイスのやつ、「馬に蹴られたくない」って言ってどっか行っちゃって……もうルイスのことはいいから、指揮官、イカ焼き…食べる？",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Stupid Louis... She just went \"I'd rather not be kicked by a horse\" and walked off... Let's just forget about her... Commander, do you want... some fried squid?",
+						"englishNote": ""
+					},
+					"6": {
+						"event": "Main 2",
+						"media": "main_2_4",
+						"chinese": "我说过，我不是讨厌你才对你摆脸色的。现在，你总该相信了吧？不过，突然被看到这一面，果然……还是有些尴尬",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "さ、さっきは私の恥ずかしい姿、見たのね…別にあなたが嫌いなわけじゃないけど……",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Y-you saw how flustered I was just now, didn't you... I don't hate you or anything like that, you know...",
+						"englishNote": ""
+					},
+					"7": {
+						"event": "Main 3",
+						"media": "main_3_4",
+						"chinese": "可恶，这些金鱼怎么这么难捞……指挥官，来帮我一下，我想捞几条金鱼送给海伦娜",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "金魚すくい、難しい……指揮官、手を貸してくれない？ヘレナちゃんにこれ、贈りたいから…！",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Goldfish scooping is pretty hard... Could you lend me a hand, Commander? I want one to give to Helena...!",
+						"englishNote": ""
+					},
+					"8": {
+						"event": "Touch",
+						"media": "touch_1_4",
+						"chinese": "港口那边好像很适合看烟花，指挥官，我们散步过去吧？",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "港の方で花火大会をやっているらしいの…指揮官、散歩がてら見に行こう？",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Seems there'll be a fireworks display by the harbor... Commander, how about we go there on our walk?",
+						"englishNote": ""
+					},
+					"9": {
+						"event": "Touch (Special)",
+						"media": "touch_2_4",
+						"chinese": "虽然人是很多，但别以为我不知道你是故意的…",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "人が多いからって……今のはわざとだってわかってるからね…！",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Don't make excuses... I know you did that on purpose...!",
+						"englishNote": ""
+					},
+					"10": {
+						"event": "Return to Port",
+						"media": "home_4",
+						"chinese": "指挥官也想要这个…？给、给你吧",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "これがほしいの…？ほ、ほら",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Do you want this...? Here, take it...",
+						"englishNote": ""
+					},
+					"11": {
+						"event": "Flagship",
+						"media": "warcry_4",
+						"chinese": "赶快解决掉，回去继续逛祭典…！",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "さっさと片付けてお祭りに戻るわよ…！",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Let's get this over with quick, I wanna go back to the festival...!",
+						"englishNote": ""
+					},
+					"12": {
+						"event": "Victory",
+						"media": "mvp_4",
+						"chinese": "指挥官，可以回去了吗？",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "指揮官、もう戻っていいでしょ？",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Can we go back now, Commander?",
+						"englishNote": ""
+					},
+					"13": {
+						"event": "Defeat",
+						"media": "lose_4",
+						"chinese": "讨厌，刚刚好不容易才换上的衣服…",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "せっかく着替えたのに…やだよ……",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "After all that trouble putting this on... This sucks...",
+						"englishNote": ""
+					},
+					"14": {
+						"event": "Affinity (Love)",
+						"media": "feeling5_4",
+						"chinese": "真是的，为什么只有在你面前，我总是会失去方寸呢……嗯？我没在自言自语什么啦，笨蛋…！",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "もう、なんであなたの前ではいつも調子が狂っちゃうのよ……何よ独り言言ってたって……べ、別に何も言ってないわよ…！バカ…！",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "*Sigh*, why can't I ever keep my composure in front of you... \"What am I murmuring about\"...? N-nothing! I didn't say a word...! Dummy...!",
 						"englishNote": ""
 					}
 				}

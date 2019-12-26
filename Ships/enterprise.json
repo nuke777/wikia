@@ -11,8 +11,7 @@
 	"hull": "Aircraft Carrier",
 	"navy": "Eagle Union",
 	"prefix": "USS",
-	"buildTime": "",
-	"class": "Yorktown-Class",
+	"buildTime": "04:20:00",
 	"voiceActress": "Yui Ishikawa",
 	"parameters": {
 		"firepower": "E",
@@ -34,12 +33,13 @@
 		"EN": ""
 	},
 	"artist": {
-		"name": "",
-		"weibo": "",
+		"name": "八才提督",
+		"weibo": "http://weibo.com/vihao",
 		"twitter": "",
-		"pixiv": "",
+		"pixiv": "https://www.pixiv.net/member.php?id=1393609",
 		"other": ""
 	},
+	"class": "Yorktown-Class",
 	"enhance": {
 		"firepower": "0",
 		"torpedo": "0",
@@ -50,10 +50,10 @@
 	"skill": {
 		"1": {
 			"icon": "10200",
-			"requirement": "",
+			"requirement": "Default Unlocked",
 			"name": "Lucky E",
 			"type": "Offensive",
-			"description": "When this ship launches an Airstrike: $1 chance for the Airstrike to deal double DMG and for this ship to evade all enemy attacks for 8s."
+			"description": "When this ship launches an Airstrike: 40.0%(70.0%) chance for the Airstrike to deal double DMG and for this ship to evade all enemy attacks for 8s."
 		}
 	},
 	"skin": {
@@ -97,6 +97,44 @@
 			}
 		},
 		"4": {
+			"id": "qiye_4",
+			"name": "Anniversary Ride",
+			"description": "Happy Anniversary! Commander, celebrate to your heart's content today! I'll be praying for our continued victories!",
+			"expression": {
+				"0": {
+					"id": "0"
+				},
+				"1": {
+					"id": "1"
+				},
+				"2": {
+					"id": "2"
+				},
+				"3": {
+					"id": "3"
+				},
+				"4": {
+					"id": "4"
+				}
+			}
+		},
+		"5": {
+			"id": "qiye_5",
+			"name": "Soaring Wings of Freedom",
+			"description": "There is no doubt in my mind that I was born to fight. For the azure lanes of liberty, Enterprise, engaging!",
+			"expression": {
+				"0": {
+					"id": "0"
+				},
+				"1": {
+					"id": "1"
+				},
+				"2": {
+					"id": "2"
+				}
+			}
+		},
+		"6": {
 			"id": "qiye_h",
 			"name": "Starlight Oath ",
 			"description": "How, how does it look? Do I look a bit strange... no, of course I like it. I'd say every girl dreams about this day, just that... ",
@@ -236,17 +274,30 @@
 			"preload": "0/0/0/0"
 		},
 		"4": {
-			"type": "Auxiliary",
+			"type": "Auxilary",
 			"efficiency": "-",
 			"amount": "-",
 			"preload": "-"
 		},
 		"5": {
-			"type": "Auxiliary",
+			"type": "Auxilary",
 			"efficiency": "-",
 			"amount": "-",
 			"preload": "-"
 		}
+	},
+	"fleet_tech": {
+		"pt_get": "12",
+		"add_get_attr": "HP",
+		"add_get_value": "1",
+		"add_get_shiptype": "Light Aircraft Carrier,Aircraft Carrier",
+		"pt_upgrade": "25",
+		"pt_level": "19",
+		"add_level_attr": "Aviation",
+		"add_level_value": "2",
+		"add_level_shiptype": "Light Aircraft Carrier,Aircraft Carrier",
+		"t_level": "6",
+		"ships": "yorktown,enterprise,hornet"
 	},
 	"build": {
 		"light": {
@@ -260,9 +311,9 @@
 			"EN": ""
 		},
 		"special": {
-			"JP": "",
-			"CN": "",
-			"EN": ""
+			"JP": "✓",
+			"CN": "✓",
+			"EN": "✓"
 		},
 		"limited": {
 			"JP": "",
@@ -621,7 +672,7 @@
 						"englishNote": ""
 					},
 					"28": {
-						"event": "Easter Egg 1 (Akagi, Kaga, Hiryuu)",
+						"event": "Easter Egg 1(Akagi, Kaga, Hiryuu)",
 						"media": "link1",
 						"chinese": "和老对手联手的感觉也不坏",
 						"chineseTL": "",
@@ -633,7 +684,7 @@
 						"englishNote": ""
 					},
 					"29": {
-						"event": "Easter Egg 2 (Yorktown, Hornet)",
+						"event": "Easter Egg 2(Yorktown, Hornet)",
 						"media": "link2",
 						"chinese": "让你们见识一下真正的无敌吧",
 						"chineseTL": "",
@@ -645,7 +696,7 @@
 						"englishNote": ""
 					},
 					"30": {
-						"event": "Easter Egg 3 (Saratoga)",
+						"event": "Easter Egg 3(Saratoga)",
 						"media": "link3",
 						"chinese": "真是贪玩的老伙计",
 						"chineseTL": "",
@@ -657,7 +708,7 @@
 						"englishNote": ""
 					},
 					"31": {
-						"event": "Easter Egg 4 ()",
+						"event": "Easter Egg 4()",
 						"media": "link4",
 						"chinese": "白鹰的战士们，赌上性命吧！",
 						"chineseTL": "",
@@ -669,7 +720,7 @@
 						"englishNote": ""
 					},
 					"32": {
-						"event": "Easter Egg 5 ()",
+						"event": "Easter Egg 5()",
 						"media": "link5",
 						"chinese": "呵呵，要和我比赛吗？",
 						"chineseTL": "",
@@ -681,7 +732,7 @@
 						"englishNote": ""
 					},
 					"33": {
-						"event": "Easter Egg 6 ()",
+						"event": "Easter Egg 6()",
 						"media": "link6",
 						"chinese": "都是熟人啊，好，上吧！",
 						"chineseTL": "",
@@ -690,6 +741,42 @@
 						"japaneseTL": "",
 						"japaneseNote": "",
 						"english": "We all know each other. Come on, let's go!",
+						"englishNote": ""
+					},
+					"34": {
+						"event": "Like Present",
+						"media": "present_like",
+						"chinese": "",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"35": {
+						"event": "Dislike Present",
+						"media": "present_dislike",
+						"chinese": "",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"36": {
+						"event": "Main Title",
+						"media": "extra",
+						"chinese": "",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
 						"englishNote": ""
 					}
 				}
@@ -865,7 +952,7 @@
 					"7": {
 						"event": "Main 3",
 						"media": "main_3_2",
-						"chinese": "听说东煌的新年有”发红包“的习俗，我要不要也给白鹰的孩子们准备些红包呢……",
+						"chinese": "听说东煌的新年有“发红包”的习俗，我要不要也给白鹰的孩子们准备些红包呢……",
 						"chineseTL": "",
 						"chineseNote": "",
 						"japanese": "「お年玉」を贈る風習か。そうだな、ユニオンの小さい子たちにもお年玉を用意してみるか……",
@@ -901,6 +988,380 @@
 				}
 			},
 			"4": {
+				"skin_id": "qiye_4",
+				"id": "3",
+				"label": "Anniversary Ride",
+				"dialogue": {
+					"1": {
+						"event": "Ship Description",
+						"media": "",
+						"chinese": "「Happy anniversary！」……指挥官，今天就尽情庆祝吧！然后一起祈愿吧，祈愿我们能一直胜利下去——",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "「ハッピーアニバーサリー！」……指揮官、今日は思いっきり祝おう！そして祈ろう、私たちの戦いがこれからも勝利し続けることを――",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Happy Anniversary! Commander, celebrate to your heart's content today! I'll be praying for our continued victories!",
+						"englishNote": ""
+					},
+					"2": {
+						"event": "Acquisition",
+						"media": "get_3",
+						"chinese": "「Happy anniversary！」……指挥官，今天就 尽情庆祝吧！然后一起祈愿吧，祈愿我们能一直胜利下去——",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "「ハッピーアニバーサリー！」……指揮官、今日は思いっきり祝おう！そして祈ろう、私たちの戦いがこれからも勝利し続けることを――",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Happy Anniversary! Commander, celebrate to your heart's content today! I'll be praying for our continued victories!",
+						"englishNote": ""
+					},
+					"3": {
+						"event": "Login",
+						"media": "login_3",
+						"chinese": "来了吗。我已经做好出发准备了。啊，别忘了戴上安全帽哦",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "来たか。出発の準備なら出来ているぞ。あっ、ヘルメットを持っていくのを忘れないで",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Ah, you're here. I'm ready to go whenever you are. Oh, can't be forgetting my helmet!",
+						"englishNote": ""
+					},
+					"4": {
+						"event": "Details",
+						"media": "detail_3",
+						"chinese": "指挥官，感觉还好吗？…“生生不息，繁荣昌盛”！呵呵",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "指揮官、元気にしているか？…「あなたに長き青春と繁栄の加護を」！ふふふ",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Commander, are you doing well? Live long and prosper!",
+						"englishNote": ""
+					},
+					"5": {
+						"event": "Main 1",
+						"media": "main_1_3",
+						"chinese": "指挥官？…最近开始觉得，自己是不是有一天甚至能够在天际飞翔…嗯，果然还是太勉强了。抱歉，就当作没听到吧",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "指揮官か？…最近、自分がいつか空を飛べるようになるんじゃないかと思い始めたが…流石に無理か。すまない、今のは聞かなかったことにしてくれ",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Commander? Recently... I've been thinking about how it would feel to be able to soar through the skies and stars... but that's not really possible. Sorry for making you listen to my idle thoughts. ",
+						"englishNote": ""
+					},
+					"6": {
+						"event": "Main 2",
+						"media": "main_2_3",
+						"chinese": "旅行啊……服役时间长了，自然造访过的地方就多了，甚至有时会让人搞不清楚自己究竟是在旅行，还是在执勤呢",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "旅行は…まあ、長くこの責務を務めている分、自ずと訪れる場所も多くなる、自分が旅しているか任務で移動しているだけか、時々わからなくなるな",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Vacation, huh... To be honest, I've been deployed in so many places during my lengthy service that sometimes even vacations feel like yet another mission... ",
+						"englishNote": ""
+					},
+					"7": {
+						"event": "Main 3",
+						"media": "main_3_3",
+						"chinese": "最近埃塞克斯也对这个燃起了兴趣呢，下次大家能一起去兜风就好了",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "最近エセックスも乗り物に興味を持ち始めたし、今度みんなでツーリングできるといいな",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Recently, Essex has picked up biking as well. It'd be great to go out with everyone else next time.",
+						"englishNote": ""
+					},
+					"8": {
+						"event": "Touch",
+						"media": "touch_1_3",
+						"chinese": "你也想看看我的「爱马」吗？",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "私の「愛馬」も見てみるか？",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Would you also like to see my trusty steed?",
+						"englishNote": ""
+					},
+					"9": {
+						"event": "Mail",
+						"media": "mail_3",
+						"chinese": "",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "指揮官、艦隊司令部からの通信だ",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Commander, there's an incoming message from fleet command. ",
+						"englishNote": ""
+					},
+					"10": {
+						"event": "Return to Port",
+						"media": "home_3",
+						"chinese": "出击辛苦了，在其他同伴检查的时候稍微休息下吧",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "出撃ご苦労。他の子が点検している間に少し休憩を取ったほうがいい",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Good work out there! Go ahead and take a break while the others are being inspected.",
+						"englishNote": ""
+					},
+					"11": {
+						"event": "Flagship",
+						"media": "warcry_3",
+						"chinese": "Enterprise, engage!",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "エンタープライズ、エンゲージ！",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Enterprise, engage!",
+						"englishNote": ""
+					},
+					"12": {
+						"event": "Victory",
+						"media": "mvp_3",
+						"chinese": "我会继续战斗下去，为了碧蓝色的自由意志——",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "私は戦い続ける、この青き航路と自由のために――",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "For the sake of freedom and the Azur Lane, I'll keep on winning!",
+						"englishNote": ""
+					},
+					"13": {
+						"event": "Defeat",
+						"media": "lose_3",
+						"chinese": "",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "時には、勝てないというシナリオもある……",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Sometimes there really is a no-win scenario... ",
+						"englishNote": ""
+					},
+					"14": {
+						"event": "Affinity (Upset)",
+						"media": "feeling1_3",
+						"chinese": "",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "振り返らず、このまま進み続けるべきか…",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Maybe I should just hit the road and never look back... ",
+						"englishNote": ""
+					},
+					"15": {
+						"event": "Affinity (Love)",
+						"media": "feeling5_3",
+						"chinese": "",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "指揮官、一緒に来てくれるか？あなたの思うがままどこまでも一緒に旅をし、新しい文化、そして人々と出会い続けることを――",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Would you like to come with me, Commander? We can go anywhere in the world. Think of all the new people and cultures we could discover together on our trek!",
+						"englishNote": ""
+					}
+				}
+			},
+			"5": {
+				"skin_id": "qiye_5",
+				"id": "4",
+				"label": "Soaring Wings of Freedom",
+				"dialogue": {
+					"1": {
+						"event": "Ship Description",
+						"media": "",
+						"chinese": "对于为战争而生这件事我并没有疑问。为了碧蓝航路的自由——企业，出击！",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "戦うために生まれたことに疑問はない。碧き航路の自由のため――エンタープライズ、エンゲージ！",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "There is no doubt in my mind that I was born to fight. For the azure lanes of liberty, Enterprise, engaging!",
+						"englishNote": ""
+					},
+					"2": {
+						"event": "Acquisition",
+						"media": "get_4",
+						"chinese": "对于为战争而生这件事我并没有疑问。为了碧蓝航路的自由——企业，出击！",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"3": {
+						"event": "Login",
+						"media": "login_4",
+						"chinese": "早安指挥官。距离作战会议开始还有点时间。趁着还能放松的时候好好放松一下吧",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"4": {
+						"event": "Details",
+						"media": "detail_4",
+						"chinese": "只要是为了正义就不惜付诸武力，伤害她人…我不认为这样是正确的",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"5": {
+						"event": "Main 1",
+						"media": "main_1_4",
+						"chinese": "皇家女仆队还真是各种令人惊讶啊。对于战斗之外的各种工作也十分得心应手呢",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "nil",
+						"englishNote": ""
+					},
+					"6": {
+						"event": "Main 2",
+						"media": "main_2_4",
+						"chinese": "女灶神，怎么了？…不，我没有不注重饮食！指挥官做了各种…不！我有时候也会做饭的！",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "nil",
+						"englishNote": ""
+					},
+					"7": {
+						"event": "Main 3",
+						"media": "main_3_4",
+						"chinese": "小鹰和指挥官很亲热呢。能和平共处是最好的，呵呵",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "nil",
+						"englishNote": ""
+					},
+					"8": {
+						"event": "Touch",
+						"media": "touch_1_4",
+						"chinese": "指挥官，有什么事吗？",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"9": {
+						"event": "Touch (Special)",
+						"media": "touch_2_4",
+						"chinese": "你不会对约克城姐姐也做了这种事情吧…",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"10": {
+						"event": "Mission",
+						"media": "task_4",
+						"chinese": "还有未完成的任务哦，还是确认下进度比较好",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"11": {
+						"event": "Return to Port",
+						"media": "home_4",
+						"chinese": "指挥官，辛苦了。开始准备下一次作战吧",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"12": {
+						"event": "Commission Complete",
+						"media": "expedition_4",
+						"chinese": "要去迎接委托归来的同伴们吗？偶尔还是运动下比较好，在被大黄蜂念叨之前",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"13": {
+						"event": "Flagship",
+						"media": "warcry_4",
+						"chinese": "企业，前进！粉碎敌人！",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"14": {
+						"event": "Victory",
+						"media": "mvp_4",
+						"chinese": "似乎这边以些微的优势胜利了呢",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"15": {
+						"event": "Defeat",
+						"media": "lose_4",
+						"chinese": "还是太勉强了…吗……",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					}
+				}
+			},
+			"6": {
 				"skin_id": "qiye_h",
 				"id": "8",
 				"label": "Starlight Oath ",
@@ -980,18 +1441,5 @@
 				}
 			}
 		}
-	},
-	"fleet_tech": {
-		"pt_get": "12",
-		"add_get_attr": "HP",
-		"add_get_value": "1",
-		"add_get_shiptype": "Light Aircraft Carrier,Aircraft Carrier",
-		"pt_upgrade": "25",
-		"pt_level": "19",
-		"add_level_attr": "Aviation",
-		"add_level_value": "2",
-		"add_level_shiptype": "Light Aircraft Carrier,Aircraft Carrier",
-		"t_level": "6",
-		"ships": "yorktown,enterprise,hornet"
 	}
 }

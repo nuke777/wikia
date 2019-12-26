@@ -11,7 +11,7 @@
 	"hull": "Light Cruiser",
 	"navy": "Sakura Empire",
 	"prefix": "IJN",
-	"buildTime": "",
+	"buildTime": "N/A",
 	"class": "Nagara-Class",
 	"voiceActress": "Akari Kito",
 	"parameters": {
@@ -34,10 +34,10 @@
 		"EN": ""
 	},
 	"artist": {
-		"name": "",
-		"weibo": "",
-		"twitter": "",
-		"pixiv": "",
+		"name": "大月紅葉",
+		"weibo": "http://weibo.com/ootsukimomiji",
+		"twitter": "https://twitter.com/dayuehongye",
+		"pixiv": "https://www.pixiv.net/member.php?id=591937",
 		"other": ""
 	},
 	"enhance": {
@@ -50,14 +50,14 @@
 	"skill": {
 		"1": {
 			"icon": "4091",
-			"requirement": "",
+			"requirement": "Default Unlocked",
 			"name": "Anti-Air Mode",
 			"type": "Defensive",
-			"description": "When this ship fires its Anti-Air Guns: 25.0% chance to increase this ship's AA by $1 but decrease its FP by $2 for 3s."
+			"description": "When this ship fires its Anti-Air Guns: 25.0% chance to increase this ship's AA by 20.0%(40.0%) but decrease its FP by 40.0%(20.0%) for 3s."
 		},
 		"2": {
 			"icon": "22141",
-			"requirement": "",
+			"requirement": "Limit Break I (III)",
 			"name": "All Out Assault Ⅰ",
 			"type": "Offensive",
 			"description": "Activate All Out Assault Ⅰ: Nagara Class once every 12 times the main gun is fired."
@@ -96,6 +96,34 @@
 				},
 				"5": {
 					"id": "5"
+				}
+			}
+		},
+		"3": {
+			"id": "wushiling_3",
+			"name": "Cozy Christmas Eve",
+			"description": "Commander? I only came here to help wrap up all the presents for tomorrow, n-not because the fireplace is too cozy and I don't want to get up...",
+			"expression": {
+				"0": {
+					"id": "0"
+				},
+				"1": {
+					"id": "1"
+				},
+				"2": {
+					"id": "2"
+				},
+				"3": {
+					"id": "3"
+				},
+				"4": {
+					"id": "4"
+				},
+				"5": {
+					"id": "5"
+				},
+				"6": {
+					"id": "6"
 				}
 			}
 		}
@@ -264,16 +292,28 @@
 		}
 	},
 	"drop": {
-		"droppable": "false",
+		"droppable": "true",
 		"list": {
 			"1": {
-				"event": "",
+				"event": "World",
 				"chapter": {
 					"1": {
-						"label": "Ch .1",
+						"label": "Ch.7",
 						"node": {
 							"1": {
+								"drop": "-",
+								"note": "-"
+							},
+							"2": {
+								"drop": "-",
+								"note": "-"
+							},
+							"3": {
 								"drop": "✓",
+								"note": "-"
+							},
+							"4": {
+								"drop": "-",
 								"note": "-"
 							}
 						}
@@ -726,6 +766,145 @@
 						"japaneseTL": "",
 						"japaneseNote": "",
 						"english": "If only I could board the pumpkin carriage and meet the prince of my... What?! Commander, h-how long have you been here?! D-don't stare at my face! *Sob*...",
+						"englishNote": ""
+					}
+				}
+			},
+			"3": {
+				"skin_id": "wushiling_3",
+				"id": "2",
+				"label": "Cozy Christmas Eve",
+				"dialogue": {
+					"1": {
+						"event": "Ship Description",
+						"media": "",
+						"chinese": "指挥官？我是为了准备打包圣诞礼物才一直待在这里的，可、可不是因为壁炉太暖和不想离开哦？",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Commander? I only came here to help wrap up all the presents for tomorrow, n-not because the fireplace is too cozy and I don't want to get up...",
+						"englishNote": ""
+					},
+					"2": {
+						"event": "Acquisition",
+						"media": "get_2",
+						"chinese": "指挥官？我是为了准备打包圣诞礼物才一直待在这里的，可、可不是因为壁炉太暖和不想离开哦？",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"3": {
+						"event": "Login",
+						"media": "login_2",
+						"chinese": "像这样两个人坐在壁炉旁边，感觉像是家人一样……",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"4": {
+						"event": "Details",
+						"media": "detail_2",
+						"chinese": "长良姐和阿武隈要在半夜扮成圣诞老人给孩子们派发礼物。因，因为夜里黑乎乎的很可怕，所以我没和她们一起……",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"5": {
+						"event": "Main 1",
+						"media": "main_1_2",
+						"chinese": "壁炉旁边真是暖和啊~还有松松软软的啾啾可以抱着~",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "nil",
+						"englishNote": ""
+					},
+					"6": {
+						"event": "Main 2",
+						"media": "main_2_2",
+						"chinese": "唔…指挥官，你觉得给大家准备怎么样的圣诞礼物比较好呢？",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "nil",
+						"englishNote": ""
+					},
+					"7": {
+						"event": "Main 3",
+						"media": "main_3_2",
+						"chinese": "我确认过了，圣诞节没有任何和鬼怪或者幽灵有关系的传说…指挥官，是，是这样的吧？",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "nil",
+						"englishNote": ""
+					},
+					"8": {
+						"event": "Touch",
+						"media": "touch_1_2",
+						"chinese": "要，要靠着取暖吗？",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"9": {
+						"event": "Touch (Special)",
+						"media": "touch_2_2",
+						"chinese": "你绝对是故意趁机欺负我！",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"10": {
+						"event": "Return to Port",
+						"media": "home_2",
+						"chinese": "长良姐和我说这是家居服，可这也太松松垮垮了……别，别盯着看啦。",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"11": {
+						"event": "Affinity (Love)",
+						"media": "feeling5_2",
+						"chinese": "我也不太清楚圣诞节应该怎么过。像现在这样，和指挥官两个人靠着坐在壁炉旁，就，就挺好的……有，有点冷，我想再靠紧一点……",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
 						"englishNote": ""
 					}
 				}

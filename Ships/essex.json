@@ -12,7 +12,7 @@
 	"navy": "Eagle Union",
 	"prefix": "USS",
 	"buildTime": "04:25:00",
-	"class": "エセックス級",
+	"class": "Essex-Class",
 	"voiceActress": "Kaori Mizuhashi",
 	"parameters": {
 		"firepower": "E",
@@ -31,7 +31,7 @@
 		"JP": "September 14, 2018",
 		"CN": "September 14, 2018",
 		"KR": "September 14, 2018",
-		"EN": "Not Released"
+		"EN": "August 15, 2019"
 	},
 	"artist": {
 		"name": "德意志的科学",
@@ -46,35 +46,35 @@
 		"aviation": "68",
 		"reload": "9"
 	},
-	"acquisitionMethod": "Limited Build",
+	"acquisitionMethod": "Time-Limited Build",
 	"skill": {
 		"1": {
 			"icon": "11640",
 			"requirement": "Default Unlocked",
-			"name": "Warrior Vessel",
+			"name": "Valorous Avengers",
 			"type": "Offensive",
-			"description": "When Essex launches an airstrike: launch an additional TBF Avenger squadron that inflicts flood damage on hit. Damage against BBs (BCs and BBVs do not count) is increased by 4% (10%)."
+			"description": "When this ship launches an Airstrike: launches an additional Lv.1(Lv.10) TBF Avenger airstrike that causes Flooding DoT to enemies hit by their torpedoes (Flooding DMG is based on this ship's AVI stat and the skill's level.) Also increases this ship's DMG to enemy BBs (but not BCs or BBVs) by 4.0%(10.0%)."
 		},
 		"2": {
 			"icon": "11650",
 			"requirement": "Default Unlocked",
-			"name": "Carrier Formation",
+			"name": "Covering Formation",
 			"type": "Support",
-			"description": "During battle: increase own Air Power and Anti-Air stats by 1.5% (5%) for every Eagle Union CV and/or CVL in the fleet. When own aircraft shoots down an enemy aircraft: increase own Air Power by 1.0% (3.0%). Effect can be stacked up to 5 times."
+			"description": "For each Eagle Union CV or CVL in the same fleet as this ship: increases this ship's AVI and AA by 1.5%(5.0%). Each time this ship's planes shoot down an enemy plane: increases this ship's AVI by 1%(3%). Can be stacked up to 5 times."
 		},
 		"3": {
 			"icon": "11660",
 			"requirement": "Default Unlocked",
 			"name": "Absolute Evasion",
 			"type": "Defensive",
-			"description": "During battle, if the fleet contains 4 or more Eagle Union ships: 4.5% (12%) chance to reduce aircraft torpedo and bomb damage to 1."
+			"description": "When there are 4 or more Eagle Union ships in the same fleet as this ship: 4.5%(12.0%) chance to reduce DMG taken to 1 when a ship in your fleet is attacked by enemy Torpedo Bombers or Dive Bombers."
 		}
 	},
 	"skin": {
 		"1": {
 			"id": "aisaikesi",
-			"name": "Essex",
-			"description": "Essex-class Aircraft Carrier - Essex (CV-9)",
+			"name": "Essex ",
+			"description": "Essex-class aircraft carrier – Essex, Hull Number CV-9. ",
 			"expression": {
 				"0": {
 					"id": "0"
@@ -87,6 +87,31 @@
 				},
 				"3": {
 					"id": "3"
+				}
+			}
+		},
+		"2": {
+			"id": "aisaikesi_3",
+			"name": "A Trip Down Route 66",
+			"description": "I'm not trying to go anywhere in particular; I just want to enjoy the scenery along the way. Commander, let's go experience the thrills of the road together.",
+			"expression": {
+				"0": {
+					"id": "0"
+				},
+				"1": {
+					"id": "1"
+				},
+				"2": {
+					"id": "2"
+				},
+				"3": {
+					"id": "3"
+				},
+				"4": {
+					"id": "4"
+				},
+				"5": {
+					"id": "5"
 				}
 			}
 		}
@@ -186,9 +211,9 @@
 		}
 	},
 	"limitBreak": {
-		"tier1": "Number of Fighters +1, All Plane Efficiency +3%",
-		"tier2": "Hangar Capacity +1, Number of Dive Bombers +1, All Plane Efficiency +5%",
-		"tier3": "Number of All Planes +1, All Plane Efficiency +7%"
+		"tier1": "All fighters +1/Aircraft efficiency +3%",
+		"tier2": "Hangar capacity +1/All Dive Bombers +1/Aircraft efficiency +5%",
+		"tier3": "All aircraft +1/Aircraft efficiency +7%"
 	},
 	"equipmentLoadout": {
 		"1": {
@@ -241,7 +266,7 @@
 		"limited": {
 			"JP": "✓",
 			"CN": "✓",
-			"EN": "-"
+			"EN": "✓"
 		}
 	},
 	"drop": {
@@ -268,7 +293,7 @@
 			"1": {
 				"skin_id": "aisaikesi",
 				"id": "0",
-				"label": "Essex",
+				"label": "Essex ",
 				"dialogue": {
 					"1": {
 						"event": "Ship Description",
@@ -279,7 +304,7 @@
 						"japanese": "エセックス級航空母艦・エセックス（CV-9)",
 						"japaneseTL": "Essex-class Aircraft Carrier - Essex (CV-9)",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Essex-class aircraft carrier – Essex, Hull Number CV-9.",
 						"englishNote": ""
 					},
 					"2": {
@@ -291,7 +316,7 @@
 						"japanese": "エセックス級のネームシップエセックスです。建造されてから多くの期待を寄せられていましたが、やはり私よりエンタープライズ先輩の活躍の方がもっと注目されていましたね。……私だってもっと早く戦闘に参加していたら……",
 						"japaneseTL": "Lead ship Essex of the Essex-class. I was anticipated by many since I was still in construction, but compared to me, Enterprise-senpai ended up receiving more attention for her exploits... If only I had participated in the war earlier...",
 						"japaneseNote": "",
-						"english": "",
+						"english": "I am the nameship of the Essex-class carriers. Although I was built with great expectations, I was always overshadowed by Enterprise's success. If only I could have been deployed sooner...",
 						"englishNote": ""
 					},
 					"3": {
@@ -303,7 +328,7 @@
 						"japanese": "ここがエンタープライズ先輩の…こ、コホン！ユニオンの最新鋭空母・エセックス、正式に着任しました。指揮官、私の活躍を期待していてください！みんなの期待を絶対に裏切ったりはしません！",
 						"japaneseTL": "This is Enterprise-senpai's... A-Ahem! Union's newest elite aircraft carrier, Essex, officially reporting in. Commander, please look forward to my activities! I would absolutely not let down on everyone's hopes!",
 						"japaneseNote": "",
-						"english": "",
+						"english": "So this is where Enterprise is... A-ahem! I am Essex, one of the Union's state-of-the-art aircraft carriers. Commander, you can expect great things from me! I swear that I won't disappoint you!",
 						"englishNote": ""
 					},
 					"4": {
@@ -315,7 +340,7 @@
 						"japanese": "やっと来ましたか。…全ては準備万端です。指揮官、出撃の指示を！",
 						"japaneseTL": "You finally came... All set. Commander, give orders to sortie!",
 						"japaneseNote": "",
-						"english": "",
+						"english": "There you are. I've already finished preparing everything. Commander, give us your orders!",
 						"englishNote": ""
 					},
 					"5": {
@@ -327,7 +352,7 @@
 						"japanese": "指揮官は何を知りたいですか？私が知っていることならなんでもお答えしますが――",
 						"japaneseTL": "What does Commander want to know? If it's something I know about, I can tell you anything-",
 						"japaneseNote": "",
-						"english": "",
+						"english": "What would you like to know, Commander? I'll answer to the best of my abilities.",
 						"englishNote": ""
 					},
 					"6": {
@@ -339,7 +364,7 @@
 						"japanese": "みんなエセックス級は強いと認めていても、いざ口にするとやはりエンタープライズ先輩ばっかり…はあ……",
 						"japaneseTL": "Even though everyone can admit that the Essex-class is strong, all they end up talking about is Enterprise-senpai... Haa...",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Everyone knows that the Essex class is strong, but still, Enterprise is all they ever talk about... *sigh*... ",
 						"englishNote": ""
 					},
 					"7": {
@@ -351,7 +376,7 @@
 						"japanese": "私には同型艦がたくさんいますね。ネームシップとして頑張って手本を見せてあげないと……",
 						"japaneseTL": "There are lots of ships in the same class as me. As the lead ship, I need to do my best to set an example...",
 						"japaneseNote": "",
-						"english": "",
+						"english": "There are a lot of ships in my class. As the nameship, I have to do everything I can to be a good role model... ",
 						"englishNote": ""
 					},
 					"8": {
@@ -363,7 +388,7 @@
 						"japanese": "武蔵と大和ですか？彼女たちは…うん、尊敬すべき素晴らしいライバルです。いつかまた出会えたらいいですね",
 						"japaneseTL": "Musashi and Yamato? They were... Yes, they were rivals worthy of respect. I hope we can meet again one day.",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Musashi and Yamato? They were... yes, formidable rivals worthy of respect. I hope I can meet them again one day.",
 						"englishNote": ""
 					},
 					"9": {
@@ -375,7 +400,7 @@
 						"japanese": "！出撃ですか？私に任せてください！――はあ、雑談したかっただけですか……",
 						"japaneseTL": "! Are we sortieing? Leave it to me!- Haa, you just wanted to chat...",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Time to sortie?! Just leave it to me! Oh... you just wanted to chat...?",
 						"englishNote": ""
 					},
 					"10": {
@@ -387,7 +412,7 @@
 						"japanese": "こ、こんなこと！私、私……",
 						"japaneseTL": "S-such thing! I-I...",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Wh-what is this?! I, I...",
 						"englishNote": ""
 					},
 					"11": {
@@ -399,7 +424,7 @@
 						"japanese": "まだ新しい任務が……私にも任せてみませんか？",
 						"japaneseTL": "There are new missions still... How about leaving it to me?",
 						"japaneseNote": "",
-						"english": "",
+						"english": "There are still unfinished missions? Mind letting me handle things this time...?",
 						"englishNote": ""
 					},
 					"12": {
@@ -411,7 +436,7 @@
 						"japanese": "任務報酬が届きました。受け取りに行かなくてもいいですか？",
 						"japaneseTL": "Mission rewards have arrived. Is it alright if we don't collect them?",
 						"japaneseNote": "",
-						"english": "",
+						"english": "The mission rewards have arrived. Are you sure you don't need me to go get it?",
 						"englishNote": ""
 					},
 					"13": {
@@ -423,7 +448,7 @@
 						"japanese": "新しいメールです。どうぞ",
 						"japaneseTL": "It's new mail. Here.",
 						"japaneseNote": "",
-						"english": "",
+						"english": "There's new mail for you. Here you go.",
 						"englishNote": ""
 					},
 					"14": {
@@ -435,7 +460,7 @@
 						"japanese": "出撃艦隊…無事母港に帰投しました。指揮官、戦闘報告の下準備は完了済みです。時間が惜しいので、今からその振り返りをしましょう",
 						"japaneseTL": "The sortie fleet... returned safely to port. Commander, the battle reports have been prepared. We're short on time, let's start reviewing right now.",
 						"japaneseNote": "",
-						"english": "",
+						"english": "The fleet has safely returned. Commander, I've prepared the battle report for you. Time is of the essence, so please review it right away.",
 						"englishNote": ""
 					},
 					"15": {
@@ -447,7 +472,7 @@
 						"japanese": "私たちエセックス級の誕生は、強い兵站部署があってのことです。ちゃんとみんなに感謝しないと",
 						"japaneseTL": "The birth of us the Essex-class was realized thanks to strong support from the logistics department. We have to thank them properly.",
 						"japaneseNote": "",
-						"english": "",
+						"english": "The birth of the Essex-class would not have been possible without the hard work of the logistics teams. I have to show my gratitude to everyone.",
 						"englishNote": ""
 					},
 					"16": {
@@ -459,7 +484,7 @@
 						"japanese": "ジェット機はいつになったら……",
 						"japaneseTL": "I wonder when jet planes will come to be...",
 						"japaneseNote": "",
-						"english": "",
+						"english": "When will I be able to get jets...",
 						"englishNote": ""
 					},
 					"17": {
@@ -471,7 +496,7 @@
 						"japanese": "航空隊直掩配置に到達、防空態勢移行完了――全艦、最大戦速！",
 						"japaneseTL": "Aircraft squadron in support formation, transition to anti-air focus complete- All ships, at max speed!",
 						"japaneseNote": "",
-						"english": "",
+						"english": "All carrier-based aircraft in position, anti-air defense preparations complete. All forces, full speed ahead!",
 						"englishNote": ""
 					},
 					"18": {
@@ -483,7 +508,7 @@
 						"japanese": "エンタープライズ先輩、私の活躍を見ましたか！",
 						"japaneseTL": "Enterprise-senpai, did you see my performance!",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Enterprise, did you see my feat?",
 						"englishNote": ""
 					},
 					"19": {
@@ -495,7 +520,7 @@
 						"japanese": "このままでは終わらない……絶対に！",
 						"japaneseTL": "It won't end like this... absolutely not!",
 						"japaneseNote": "",
-						"english": "",
+						"english": "I won't let it end like this... I swear it!",
 						"englishNote": ""
 					},
 					"20": {
@@ -507,10 +532,22 @@
 						"japanese": "大空を翔けよ！",
 						"japaneseTL": "Soar through the skies!",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Spread your wings and soar!",
 						"englishNote": ""
 					},
 					"21": {
+						"event": "Low HP",
+						"media": "hp",
+						"chinese": "战斗…才刚刚开始！",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"22": {
 						"event": "Affinity (Upset)",
 						"media": "feeling1",
 						"chinese": "原来企业前辈一直忍受着这样的指挥官……",
@@ -519,10 +556,10 @@
 						"japanese": "エンタープライズ先輩、こんな指揮官に我慢して従っているのか……",
 						"japaneseTL": "Enterprise-senpai, seems like you had to tolerate this kind of Commander...",
 						"japaneseNote": "",
-						"english": "",
+						"english": "I wonder how Enterprise puts up with someone like you...",
 						"englishNote": ""
 					},
-					"22": {
+					"23": {
 						"event": "Affinity (Stranger)",
 						"media": "feeling2",
 						"chinese": "我曾见证过大舰巨炮时代的终结。航空母舰的时代，也会在某个时候终结吗……",
@@ -531,10 +568,10 @@
 						"japanese": "大艦巨砲主義の時代の終焉をこの目で見届けました。航空母艦の時代も、いつか終わりを迎えるのでしょうか……",
 						"japaneseTL": "I witnessed the end of the age of battleships myself. The age of aircraft carriers, I wonder when will it end too...",
 						"japaneseNote": "",
-						"english": "",
+						"english": "I witnessed the end of the era of battleships with my own eyes. Will carriers share the same fate some day...?",
 						"englishNote": ""
 					},
-					"23": {
+					"24": {
 						"event": "Affinity (Friendly)",
 						"media": "feeling3",
 						"chinese": "嫉妒？不，我从未这么想过，前辈是值得我们每一个人尊敬的英雄。只是那种一直处在前辈光环之下的感觉，让我多少感到有些……",
@@ -543,10 +580,10 @@
 						"japanese": "妬み？いいえ、そんなことはありません。エンタープライズ先輩は私達全員に尊敬される英雄です。ただ、彼女の七光だとされていることは、私にはやっぱり……",
 						"japaneseTL": "Envy? No, it's not like that. Enterprise-senpai is a hero that every one of us should respect. However, when it comes to being under her influence and fame, turns out I...",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Jealousy? No, that's not the case. Enterprise is a true hero worthy of all the respect she gets. However, compared to her dazzling aura, I'm just...",
 						"englishNote": ""
 					},
-					"24": {
+					"25": {
 						"event": "Affinity (Like)",
 						"media": "feeling4",
 						"chinese": "埃塞克斯不会输给任何人，企业前辈也一样。但是，我怎样才能让大家认同这一点？指挥官，是你的话，应该知道该怎么做吧",
@@ -555,10 +592,10 @@
 						"japanese": "私エセックスは誰にも負けません。たとえ相手がエンタープライズ先輩だとしても、です。……しかし、どうやってみんなにそれ認めてもらえるか――指揮官、あなたならきっと分かっていますよね？",
 						"japaneseTL": "I, Essex, won't lose to anyone. Even if my opponent Enterprise-senpai, yes... But, how do I get everyone to recognize this... Commander, since it's you, you must know a way, right?",
 						"japaneseNote": "",
-						"english": "",
+						"english": "I won't lose to anyone, not even to Enterprise. But how do I get everyone to acknowledge this? Commander, if you were in my shoes, what would you do?",
 						"englishNote": ""
 					},
-					"25": {
+					"26": {
 						"event": "Affinity (Love)",
 						"media": "feeling5",
 						"chinese": "或许，我没法成为像企业前辈那样独当一面的英雄。但是我总感觉，和你一起，好像很多事情都能做到呢。",
@@ -567,10 +604,10 @@
 						"japanese": "エンタープライズ先輩のようなヒーローになれないかもしれません。ですが、彼女と同じく人々の記憶に残る存在になれるような気がします。……だって指揮官となら私、どんなことでもできる気がしますから…",
 						"japaneseTL": "I might not be able to become a hero like Enterprise-senpai. However, I feel like I can become a memorable existence to many in the same way she was... Because when I'm with Commander, I feel like I can accomplish anything...",
 						"japaneseNote": "",
-						"english": "",
+						"english": "I might never be able to become a hero like Enterprise... But when I'm with you, I feel like I can do so much more than just that...",
 						"englishNote": ""
 					},
-					"26": {
+					"27": {
 						"event": "Pledge",
 						"media": "propose",
 						"chinese": "两人互相支持的那种幸福感，一旦尝到了就会被俘获其中。谢谢你，指挥官。我不需要再独自去证明什么了。无论前行多远，我都会在你身旁，陪你一起继续走下去。",
@@ -579,10 +616,10 @@
 						"japanese": "お互いが支え合っている幸せな気持ちは、一度でも感じたら虜にされますね。指揮官、ありがとうございます。エセックスがどうやってみんなに認めてもらえるか、一人で悩む必要はなくなりました――エセックス、これからはずっとあなたのそばで、あなたと共に歩むことを誓います",
 						"japaneseTL": "The feeling of happiness that comes from supporting each other, captivates you the first time you have felt it. Commander, thanks. Essex doesn't need to worry about getting recognized by everyone by herself- Essex, from this moment will be always by your side and promise to walk along the same path.",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Once you've experienced the happiness of two people supporting each other, it becomes something you can't live without. Thank you, Commander. I no longer have to walk alone in my quest to prove my worth. I promise to always be at your side, wherever you go.",
 						"englishNote": ""
 					},
-					"27": {
+					"28": {
 						"event": "Easter Egg 1 (Enterprise)",
 						"media": "link1",
 						"chinese": "前辈，请看着吧，我是不会轻易输给你的！",
@@ -594,7 +631,7 @@
 						"english": "",
 						"englishNote": ""
 					},
-					"28": {
+					"29": {
 						"event": "Easter Egg 2 (Carrier x3)",
 						"media": "link2",
 						"chinese": "现在是航母时间！",
@@ -606,7 +643,7 @@
 						"english": "",
 						"englishNote": ""
 					},
-					"29": {
+					"30": {
 						"event": "Present (Dislike)",
 						"media": "present_dislike",
 						"chinese": "",
@@ -618,7 +655,7 @@
 						"english": "",
 						"englishNote": ""
 					},
-					"30": {
+					"31": {
 						"event": "Present (Like)",
 						"media": "present_like",
 						"chinese": "",
@@ -626,18 +663,6 @@
 						"chineseNote": "",
 						"japanese": "",
 						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "",
-						"englishNote": ""
-					},
-					"31": {
-						"event": "Valentines (2019)",
-						"media": "",
-						"chinese": "尝试了难度比较高的情人节巧克力，失败了好几次才顺利完成…这个应该…没问题吧…指挥官，请收下这份巧克力吧！接、接下来还要送、送给前辈，唔唔……",
-						"chineseTL": "I tried making a Valentines chocolate of a relatively high difficulty, only managed to complete it after failing a few times... There shouldn't be any problems... Commander, please take this chocolate! N-next, I have to gift senpai too... Hmm...",
-						"chineseNote": "",
-						"japanese": "バレンタインのチョコレート、高難易度のオペラに挑戦しました……しましたけど…これで本当に大丈夫でしょうか…指揮官、よかったらまずこれを食べてみてください！あとはエンタープライズ先輩の分もありますので…！",
-						"japaneseTL": "This Valentines chocolate, I took the challenge of making one of high difficulty... I managed to make it but... I wonder if it is really alright... Commander, if it's fine with you please eat this one first! The next one is for Enterprise-senpai...!",
 						"japaneseNote": "",
 						"english": "",
 						"englishNote": ""
@@ -652,6 +677,145 @@
 						"japaneseTL": "",
 						"japaneseNote": "",
 						"english": "",
+						"englishNote": ""
+					},
+					"33": {
+						"event": "Valentines (2019)",
+						"media": "",
+						"chinese": "尝试了难度比较高的情人节巧克力，失败了好几次才顺利完成…这个应该…没问题吧…指挥官，请收下这份巧克力吧！接、接下来还要送、送给前辈，唔唔……",
+						"chineseTL": "I tried making a Valentines chocolate of a relatively high difficulty, only managed to complete it after failing a few times... There shouldn't be any problems... Commander, please take this chocolate! N-next, I have to gift senpai too... Hmm...",
+						"chineseNote": "",
+						"japanese": "バレンタインのチョコレート、高難易度のオペラに挑戦しました……しましたけど…これで本当に大丈夫でしょうか…指揮官、よかったらまずこれを食べてみてください！あとはエンタープライズ先輩の分もありますので…！",
+						"japaneseTL": "This Valentines chocolate, I took the challenge of making one of high difficulty... I managed to make it but... I wonder if it is really alright... Commander, if it's fine with you please eat this one first! The next one is for Enterprise-senpai...!",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					}
+				}
+			},
+			"2": {
+				"skin_id": "aisaikesi_3",
+				"id": "1",
+				"label": "A Trip Down Route 66",
+				"dialogue": {
+					"1": {
+						"event": "Ship Description",
+						"media": "",
+						"chinese": "不为追求终点，只是欣赏沿途风景的骑行之旅，似乎也挺有意思的。指挥官，一起来感受下公路之旅的乐趣吧。",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "移動するためではなく、道中の風景を楽しむツーリング――面白そうですね。指揮官、一緒に旅を楽しみましょう",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "I'm not trying to go anywhere in particular; I just want to enjoy the scenery along the way. Commander, let's go experience the thrills of the road together.",
+						"englishNote": ""
+					},
+					"2": {
+						"event": "Acquisition",
+						"media": "get_1",
+						"chinese": "不为追求终点，只是欣赏沿途风景的骑行之旅，似乎也挺有意思的。指挥官，一起来感受下公路之旅的乐趣吧。",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "I'm not trying to go anywhere in particular; I just want to enjoy the scenery along the way. Commander, let's go experience the thrills of the road together.",
+						"englishNote": ""
+					},
+					"3": {
+						"event": "Login",
+						"media": "login_1",
+						"chinese": "指挥官，安全帽戴好了吗？我们要继续出发了！",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Commander, have you put on your helmet yet? We're about to get going!",
+						"englishNote": ""
+					},
+					"4": {
+						"event": "Details",
+						"media": "detail_1",
+						"chinese": "2448英里，仅仅一小段的景色就让人心旷神怡…即使没能跑完全程，能有这样的体验，已经让人非常满足了",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Even being able to see a small portion of these 2448 miles has been an eye-opening experience. Though I wasn't able to ride from sea to shining sea, what an unforgettable journey it's been!",
+						"englishNote": ""
+					},
+					"5": {
+						"event": "Main 1",
+						"media": "main_1_1",
+						"chinese": "企业前辈和我说过，除了战斗之外还有很多值得我去尝试的事情…这应该就是其中一件吧！",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Enterprise advised me to pursue some hobbies that aren't related to combat... This should count as one of those. ",
+						"englishNote": ""
+					},
+					"6": {
+						"event": "Main 2",
+						"media": "main_2_1",
+						"chinese": "战斗时要全力以赴，但是骑行的时候可不能一直开足马力呢，嗯…",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Combat is something that must be done at full throttle. It'd be dangerous to do that while riding though... ",
+						"englishNote": ""
+					},
+					"7": {
+						"event": "Main 3",
+						"media": "main_3_1",
+						"chinese": "你也一路跟着我们过来了呢，真是只了不起的鹰",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "You followed us the entire way? What an incredible eagle!",
+						"englishNote": ""
+					},
+					"8": {
+						"event": "Touch",
+						"media": "touch_1_1",
+						"chinese": "呼…嗯？这是给我的水吗？那我就不客气了",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Phew... Hm? This bottle of water is for me? Thank you very much! I'll help myself then.",
+						"englishNote": ""
+					},
+					"9": {
+						"event": "Touch (Special)",
+						"media": "touch_2_1",
+						"chinese": "指挥官该不会是……骑行太久头晕了？！还，还是休息一下吧。",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Commander, could you be... too tired to know what you're doing? I knew we should have stopped to rest...",
+						"englishNote": ""
+					},
+					"10": {
+						"event": "Return to Port",
+						"media": "home_1",
+						"chinese": "想休息一下吗？没问题，我等你。",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Did you want to rest for a bit? That's fine, take your time.",
 						"englishNote": ""
 					}
 				}

@@ -11,8 +11,7 @@
 	"hull": "Heavy Cruiser",
 	"navy": "Royal Navy",
 	"prefix": "HMS",
-	"buildTime": "",
-	"class": "York-Class",
+	"buildTime": "01:45:00",
 	"voiceActress": "Ai Kakuma",
 	"parameters": {
 		"firepower": "B",
@@ -34,12 +33,13 @@
 		"EN": ""
 	},
 	"artist": {
-		"name": "",
-		"weibo": "",
-		"twitter": "",
-		"pixiv": "",
+		"name": "Mkiiiiii33",
+		"weibo": "https://weibo.com/kawa33",
+		"twitter": "https://twitter.com/33kawa",
+		"pixiv": "https://www.pixiv.net/member.php?id=661601",
 		"other": ""
 	},
+	"class": "York-Class",
 	"enhance": {
 		"firepower": "23",
 		"torpedo": "12",
@@ -50,31 +50,31 @@
 	"skill": {
 		"1": {
 			"icon": "2011",
-			"requirement": "",
+			"requirement": "Default Unlocked",
 			"name": "Full Firepower",
 			"type": "Offensive",
-			"description": "$1 chance to activate every 20s: increases this ship's FP by $2 for 10s."
+			"description": "Every 20s: 30.0%(60.0%) chance to increase this ship's FP by 20.0%(40.0%) for 10s."
 		},
 		"2": {
 			"icon": "4011",
-			"requirement": "",
+			"requirement": "Default Unlocked",
 			"name": "Defense Order",
 			"type": "Support",
-			"description": "25.0% chance to activate every 20s: decreases the DMG all friendlies in the entire fleet take by $1 for 8s. Does not stack with the same skill."
+			"description": "Every 20s: 25.0% chance to decrease the DMG your entire fleet takes by 5.0%(15.0%) for 8s. Does not stack with the same skill."
 		},
 		"3": {
 			"icon": "10710",
-			"requirement": "",
+			"requirement": "Retrofit",
 			"name": "Giant Hunter",
 			"type": "Offensive",
-			"description": "Increases the DMG this ship deals to enemy CAs by $1."
+			"description": "Increases this ship's DMG to enemy CAs by 15.0%(25.0%)."
 		},
 		"4": {
 			"icon": "21241",
-			"requirement": "",
+			"requirement": "Limit Break I (III)",
 			"name": "All Out Assault Ⅰ",
 			"type": "Offensive",
-			"description": "Activate All Out Assault Ⅰ: York Class once every 9 times the main gun is fired."
+			"description": "Activates All Out Assault Ⅰ: York Class once every 9 times the Main Guns are fired."
 		}
 	},
 	"skin": {
@@ -90,8 +90,8 @@
 		},
 		"2": {
 			"id": "aikesaite_g",
-			"name": "エクセター改",
-			"description": "指揮官殿、どうでしょうか！今の自分は前より成長したと思うのですが…そう見えますでしょうか？",
+			"name": "Exeter (Retrofit)",
+			"description": "Commander, what do you think? I look more mature than I did before... right? ",
 			"expression": {
 				"0": {
 					"id": "0"
@@ -228,17 +228,30 @@
 			"preload": "0/0/0/0"
 		},
 		"4": {
-			"type": "Auxiliary",
+			"type": "Auxilary",
 			"efficiency": "-",
 			"amount": "-",
 			"preload": "-"
 		},
 		"5": {
-			"type": "Auxiliary",
+			"type": "Auxilary",
 			"efficiency": "-",
 			"amount": "-",
 			"preload": "-"
 		}
+	},
+	"fleet_tech": {
+		"pt_get": "8",
+		"add_get_attr": "HP",
+		"add_get_value": "1",
+		"add_get_shiptype": "Heavy Cruiser,Monitor,Super Cruiser",
+		"pt_upgrade": "16",
+		"pt_level": "12",
+		"add_level_attr": "Torpedo",
+		"add_level_value": "1",
+		"add_level_shiptype": "Heavy Cruiser,Monitor,Super Cruiser",
+		"t_level": "5",
+		"ships": "york,exeter"
 	},
 	"build": {
 		"light": {
@@ -247,9 +260,9 @@
 			"EN": ""
 		},
 		"heavy": {
-			"JP": "",
-			"CN": "",
-			"EN": ""
+			"JP": "✓",
+			"CN": "✓",
+			"EN": "✓"
 		},
 		"special": {
 			"JP": "",
@@ -263,16 +276,70 @@
 		}
 	},
 	"drop": {
-		"droppable": "false",
+		"droppable": "true",
 		"list": {
 			"1": {
-				"event": "",
+				"event": "World",
 				"chapter": {
 					"1": {
-						"label": "Ch .1",
+						"label": "Ch.6",
+						"node": {
+							"1": {
+								"drop": "-",
+								"note": "-"
+							},
+							"2": {
+								"drop": "✓",
+								"note": "-"
+							},
+							"3": {
+								"drop": "-",
+								"note": "-"
+							},
+							"4": {
+								"drop": "-",
+								"note": "-"
+							}
+						}
+					},
+					"2": {
+						"label": "Ch.8",
 						"node": {
 							"1": {
 								"drop": "✓",
+								"note": "-"
+							},
+							"2": {
+								"drop": "-",
+								"note": "-"
+							},
+							"3": {
+								"drop": "-",
+								"note": "-"
+							},
+							"4": {
+								"drop": "✓",
+								"note": "-"
+							}
+						}
+					},
+					"3": {
+						"label": "Ch.11",
+						"node": {
+							"1": {
+								"drop": "-",
+								"note": "-"
+							},
+							"2": {
+								"drop": "✓",
+								"note": "-"
+							},
+							"3": {
+								"drop": "-",
+								"note": "-"
+							},
+							"4": {
+								"drop": "-",
 								"note": "-"
 							}
 						}
@@ -613,7 +680,7 @@
 						"englishNote": ""
 					},
 					"28": {
-						"event": "Easter Egg 1 (York)",
+						"event": "Easter Egg 1(York)",
 						"media": "link1",
 						"chinese": "姐姐，为了荣耀而战吧！",
 						"chineseTL": "",
@@ -623,13 +690,49 @@
 						"japaneseNote": "",
 						"english": "My sister, let us fight for glory!",
 						"englishNote": ""
+					},
+					"29": {
+						"event": "Like Present",
+						"media": "present_like",
+						"chinese": "",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"30": {
+						"event": "Dislike Present",
+						"media": "present_dislike",
+						"chinese": "",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"31": {
+						"event": "Main Title",
+						"media": "extra",
+						"chinese": "",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
 					}
 				}
 			},
 			"2": {
 				"skin_id": "aikesaite_g",
 				"id": "9",
-				"label": "エクセター改",
+				"label": "Exeter (Retrofit)",
 				"dialogue": {
 					"1": {
 						"event": "Ship Description",
@@ -640,24 +743,84 @@
 						"japanese": "指揮官殿、どうでしょうか！今の自分は前より成長したと思うのですが…そう見えますでしょうか？",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Commander, what do you think? I look more mature than I did before... right?",
+						"englishNote": ""
+					},
+					"2": {
+						"event": "Acquisition",
+						"media": "get_9",
+						"chinese": "指挥官，怎么样，现在的我比过去看起来要成熟些了…吗？",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "指揮官殿、どうでしょうか！今の自分は前より成長したと思うのですが…そう見えますでしょうか？",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Commander, what do you think? I look more mature than I did before... right?",
+						"englishNote": ""
+					},
+					"3": {
+						"event": "Login",
+						"media": "login_9",
+						"chinese": "作为皇室…呃，那个，欢迎回来，指挥官",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "王家の…え、えっと、おかえりなさい！指揮官殿！",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "As a royal elite... Ah, um... Welcome back, Commander.",
+						"englishNote": ""
+					},
+					"4": {
+						"event": "Main 1",
+						"media": "main_1_9",
+						"chinese": "虽然说要变得成熟一点，不过很多地方不是一时半会就能改过来的呢……",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "成長はしたけど、すぐには治らないくせもありますね",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Even though I said I had become more mature, there are things that can't be changed overnight... ",
+						"englishNote": ""
+					},
+					"5": {
+						"event": "Main 3",
+						"media": "main_3_9",
+						"chinese": "现在的衣服虽然不会被打湿了，不过会不会有点太不知廉耻了……？",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "このスカートならたしかに波に濡れづらくなりましたけど…す、すこし大胆すぎなのでは…！？",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "My clothes won't hang down into the water now, but don't you think this is a bit too revealing...?",
+						"englishNote": ""
+					},
+					"6": {
+						"event": "Touch (Special)",
+						"media": "touch_2_9",
+						"chinese": "呀！指挥官……请、请注意场合！",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "きゃっ！？指揮官殿…！ば、場所を弁えてください！！",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Eek! Commander... P-please pay attention to the time and place...",
+						"englishNote": ""
+					},
+					"7": {
+						"event": "Return to Port",
+						"media": "home_9",
+						"chinese": "辛苦了，指挥官，要不要，稍微休息一下呢？",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "指揮官殿、お疲れ様です。少しお休みになってはいかがですか？",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Good work, Commander. Would you like to take a little break?",
 						"englishNote": ""
 					}
 				}
 			}
 		}
 	},
-	"fleet_tech": {
-		"pt_get": "8",
-		"add_get_attr": "HP",
-		"add_get_value": "1",
-		"add_get_shiptype": "Heavy Cruiser,Monitor,Super Cruiser",
-		"pt_upgrade": "16",
-		"pt_level": "12",
-		"add_level_attr": "Torpedo",
-		"add_level_value": "1",
-		"add_level_shiptype": "Heavy Cruiser,Monitor,Super Cruiser",
-		"t_level": "5",
-		"ships": "york,exeter"
-	}
+	"retroParameter": "Super Rare, Heavy Cruiser"
 }

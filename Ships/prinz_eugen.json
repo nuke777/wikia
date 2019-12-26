@@ -95,6 +95,28 @@
 			}
 		},
 		"4": {
+			"id": "ougen_4",
+			"name": "Cordial Cornflower",
+			"description": "... Huh? Commander, is that you? Me, drunk? No way... *hic*... If I was, Commander, then what are you planning to do to me? Hehe...",
+			"expression": {
+				"0": {
+					"id": "0"
+				},
+				"1": {
+					"id": "1"
+				},
+				"2": {
+					"id": "2"
+				},
+				"3": {
+					"id": "3"
+				},
+				"4": {
+					"id": "4"
+				}
+			}
+		},
+		"5": {
 			"id": "ougen_h",
 			"name": "Symphonic Fate ",
 			"description": "If fate brought us together, then it has my thanks… I look forward to our future together~ ",
@@ -911,6 +933,145 @@
 				}
 			},
 			"4": {
+				"skin_id": "ougen_4",
+				"id": "3",
+				"label": "Cordial Cornflower",
+				"dialogue": {
+					"1": {
+						"event": "Ship Description",
+						"media": "",
+						"chinese": "…嗯？什么啊，原来是指挥官吗，我没醉…难道说，指挥官想趁着我喝醉的时候，对我做些什么吗？嘻嘻…",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "…ん？なんだ、指揮官じゃない。私、別に酔ってなんか…ひっく…指揮官は私が酔ってたら何をするつもりなのかしら？うふふ……",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "... Huh? Commander, is that you? Me, drunk? No way... *hic*... If I was, Commander, then what are you planning to do to me? Hehe...",
+						"englishNote": ""
+					},
+					"2": {
+						"event": "Acquisition",
+						"media": "get_3",
+						"chinese": "…嗯？什么啊，原来是指挥官吗，我没醉…难道说，指挥官想趁着我喝醉的时候，对我做些什么吗？嘻嘻…",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "... Huh? Commander, is that you? Me, drunk? No way... *hic*... If I was, Commander, then what are you planning to do to me? Hehe...",
+						"englishNote": ""
+					},
+					"3": {
+						"event": "Login",
+						"media": "login_3",
+						"chinese": "指挥官，你也来喝一杯？",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Commander, did you come to have a drink?",
+						"englishNote": ""
+					},
+					"4": {
+						"event": "Details",
+						"media": "detail_3",
+						"chinese": "呵呵…指挥官，露出了不争气的表情呢…脸这么红，难道是喝醉了吗~？",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Hehe... Commander, that's quite the scandalous expression you've got there... Are you sure you're not drunk, with how red your face is~?",
+						"englishNote": ""
+					},
+					"5": {
+						"event": "Main 1",
+						"media": "main_1_3",
+						"chinese": "比起拘谨的宴席，还是这样能够纵情畅饮的宴会更让人喜欢。你说是吧，指挥官？",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Compared to those other stuffy, teetotaling banquets, something a bit more... liberated like this one is much more enjoyable. Don't you agree, Commander? ",
+						"englishNote": ""
+					},
+					"6": {
+						"event": "Main 2",
+						"media": "main_2_3",
+						"chinese": "真正吸引你的，究竟是我的外表…还是我的内在呢？说错的话，可要罚一杯哦？",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "So, what do you like about me? My personality... or my body? If you lie, I'll make you take a shot~ ",
+						"englishNote": ""
+					},
+					"7": {
+						"event": "Main 3",
+						"media": "main_3_3",
+						"chinese": "重樱的酒虽然也别有一番风味，不过，果然还是这熟悉的味道更让人沉醉呢~",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "The Sakura Empire's liquors certainly have a distinctive flavor, but when a girl wants to cut loose, it's gotta be one of the classics~",
+						"englishNote": ""
+					},
+					"8": {
+						"event": "Touch",
+						"media": "touch_1_3",
+						"chinese": "噗…像这样一边脸红一边又忍不住偷瞟的指挥官，真是太可爱了，哈哈哈~",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Pfft... You're just too cute when you act all bashful but still can't resist trying to ogle me, ahaha~!",
+						"englishNote": ""
+					},
+					"9": {
+						"event": "Touch (Special)",
+						"media": "touch_2_3",
+						"chinese": "小·色·鬼~哈哈哈哈~",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "You~ lewd~ beast~ Ahahaha~!",
+						"englishNote": ""
+					},
+					"10": {
+						"event": "Return to Port",
+						"media": "home_3",
+						"chinese": "好啦，别那么紧绷着，来放松一下吧",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Come on, don't be so tense. Just let go and relax.",
+						"englishNote": ""
+					},
+					"11": {
+						"event": "Flagship",
+						"media": "warcry_3",
+						"chinese": "嘁，真是一群不解风情的家伙…",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Tsk... These fools need to learn how to read a room.",
+						"englishNote": ""
+					}
+				}
+			},
+			"5": {
 				"skin_id": "ougen_h",
 				"id": "8",
 				"label": "Symphonic Fate ",

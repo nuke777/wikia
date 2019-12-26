@@ -11,8 +11,7 @@
 	"hull": "Light Cruiser",
 	"navy": "Royal Navy",
 	"prefix": "HMS",
-	"buildTime": "",
-	"class": "Edinburgh-Class",
+	"buildTime": "01:25:00",
 	"voiceActress": "Yuuko Gotou",
 	"parameters": {
 		"firepower": "B",
@@ -34,12 +33,13 @@
 		"EN": ""
 	},
 	"artist": {
-		"name": "",
-		"weibo": "",
-		"twitter": "",
-		"pixiv": "",
+		"name": "深蓝的杰克",
+		"weibo": "https://weibo.com/u/1889884713",
+		"twitter": "https://twitter.com/JackNavy6",
+		"pixiv": "https://www.pixiv.net/member.php?id=1562284",
 		"other": ""
 	},
+	"class": "Edinburgh-Class",
 	"enhance": {
 		"firepower": "12",
 		"torpedo": "17",
@@ -50,17 +50,17 @@
 	"skill": {
 		"1": {
 			"icon": "2081",
-			"requirement": "",
+			"requirement": "Default Unlocked",
 			"name": "Piercing Shells",
 			"type": "Offensive",
-			"description": "Increases this ship's DMG with AP ammo by $1."
+			"description": "Increases this ship's DMG with AP by 15.0%(25.0%)."
 		},
 		"2": {
 			"icon": "21141",
-			"requirement": "",
+			"requirement": "Limit Break I (III)",
 			"name": "All Out Assault Ⅰ",
 			"type": "Offensive",
-			"description": "Activate All Out Assault Ⅰ: Edinburgh Class once every 12 times the main gun is fired."
+			"description": "Activates All Out Assault Ⅰ: Edinburgh Class once every 12 times the Main Guns are fired."
 		}
 	},
 	"skin": {
@@ -81,6 +81,31 @@
 			"expression": {
 				"0": {
 					"id": "0"
+				}
+			}
+		},
+		"3": {
+			"id": "aidingbao_3",
+			"name": "Candy Maid",
+			"description": "Ahem! I made this special candy just for Halloween! Here, Commander, take some! Wooaaooah! Wh-who put this pumpkin here? It, it was me?!",
+			"expression": {
+				"0": {
+					"id": "0"
+				},
+				"1": {
+					"id": "1"
+				},
+				"2": {
+					"id": "2"
+				},
+				"3": {
+					"id": "3"
+				},
+				"4": {
+					"id": "4"
+				},
+				"5": {
+					"id": "5"
 				}
 			}
 		}
@@ -214,33 +239,46 @@
 			"preload": "0/0/0/0"
 		},
 		"4": {
-			"type": "Auxiliary",
+			"type": "Auxilary",
 			"efficiency": "-",
 			"amount": "-",
 			"preload": "-"
 		},
 		"5": {
-			"type": "Auxiliary",
+			"type": "Auxilary",
 			"efficiency": "-",
 			"amount": "-",
 			"preload": "-"
 		}
 	},
+	"fleet_tech": {
+		"pt_get": "10",
+		"add_get_attr": "HP",
+		"add_get_value": "1",
+		"add_get_shiptype": "Light Cruiser",
+		"pt_upgrade": "20",
+		"pt_level": "15",
+		"add_level_attr": "Torpedo",
+		"add_level_value": "1",
+		"add_level_shiptype": "Light Cruiser",
+		"t_level": "7",
+		"ships": "edinburgh,belfast"
+	},
 	"build": {
 		"light": {
-			"JP": "",
-			"CN": "",
-			"EN": ""
+			"JP": "✓",
+			"CN": "✓",
+			"EN": "✓"
 		},
 		"heavy": {
-			"JP": "",
-			"CN": "",
-			"EN": ""
+			"JP": "✓",
+			"CN": "✓",
+			"EN": "✓"
 		},
 		"special": {
-			"JP": "",
-			"CN": "",
-			"EN": ""
+			"JP": "✓",
+			"CN": "✓",
+			"EN": "✓"
 		},
 		"limited": {
 			"JP": "",
@@ -395,6 +433,18 @@
 						"englishNote": ""
 					},
 					"11": {
+						"event": "Rub",
+						"media": "touch_head",
+						"chinese": "谢谢，稍微打起点精神了",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "ありがとうございます。少し元気づけられました",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Thanks! I'm feeling a bit more energized.",
+						"englishNote": ""
+					},
+					"12": {
 						"event": "Mission",
 						"media": "task",
 						"chinese": "任务，一定要完成哦！",
@@ -406,7 +456,7 @@
 						"english": "You have to finish your missions properly!",
 						"englishNote": ""
 					},
-					"12": {
+					"13": {
 						"event": "Mission Complete",
 						"media": "mission_complete",
 						"chinese": "好像忘记了什么东西……？算了，不管了！",
@@ -418,7 +468,7 @@
 						"english": "I seem to have forgotten about something... Well, whatever!",
 						"englishNote": ""
 					},
-					"13": {
+					"14": {
 						"event": "Mail",
 						"media": "mail",
 						"chinese": "指挥官，新的……咦！邮件呢？？我刚刚放哪里了？？",
@@ -430,7 +480,7 @@
 						"english": "Commander, there's a new ma... Wh-What? Where's the mail? Where did I leave it... ??",
 						"englishNote": ""
 					},
-					"14": {
+					"15": {
 						"event": "Return to Port",
 						"media": "home",
 						"chinese": "我制作了茶点，敬请各位品尝。和贝法做的味道一样？我们是姐妹嘛！",
@@ -442,7 +492,7 @@
 						"english": "I made cookies! Please have a taste... They taste the same as Bel's? Well, we're sisters, after all!",
 						"englishNote": ""
 					},
-					"15": {
+					"16": {
 						"event": "Commission Complete",
 						"media": "expedition",
 						"chinese": "说起军事委托，我可是专业的！",
@@ -454,7 +504,7 @@
 						"english": "When it comes to military commissions, I'm a pro!",
 						"englishNote": ""
 					},
-					"16": {
+					"17": {
 						"event": "Enhancement",
 						"media": "upgrade",
 						"chinese": "运气好像也提高了！",
@@ -466,7 +516,7 @@
 						"english": "It seems like I've become luckier!",
 						"englishNote": ""
 					},
-					"17": {
+					"18": {
 						"event": "Flagship",
 						"media": "warcry",
 						"chinese": "该怎么做才好？？总之先撤……啊不，迎击！",
@@ -478,7 +528,7 @@
 						"english": "Wh-Wh-What to do?? First let's retre... I mean, intercept them!",
 						"englishNote": ""
 					},
-					"18": {
+					"19": {
 						"event": "Victory",
 						"media": "mvp",
 						"chinese": "优雅地击溃敌军……这就是皇家的爱丁堡大人！",
@@ -490,7 +540,7 @@
 						"english": "Crushing the enemies with elegance... That, is the elegant Ediburgh of the royal family!",
 						"englishNote": ""
 					},
-					"19": {
+					"20": {
 						"event": "Defeat",
 						"media": "lose",
 						"chinese": "咕……我的金块……",
@@ -502,7 +552,7 @@
 						"english": "Gh... the bullion...",
 						"englishNote": ""
 					},
-					"20": {
+					"21": {
 						"event": "Skill",
 						"media": "skill",
 						"chinese": "再厚的装甲也抵御不了黄金！",
@@ -514,7 +564,7 @@
 						"english": "No matter how thick the armor is, it can't win against the power of gold!",
 						"englishNote": ""
 					},
-					"21": {
+					"22": {
 						"event": "Low HP",
 						"media": "hp",
 						"chinese": "咕……至少金块要……",
@@ -526,7 +576,7 @@
 						"english": "Gh... At least let me protect the gold...!",
 						"englishNote": ""
 					},
-					"22": {
+					"23": {
 						"event": "Affinity (Upset)",
 						"media": "feeling1",
 						"chinese": "正因为是指挥官，才要更加防范……（盯）",
@@ -538,7 +588,7 @@
 						"english": "Since it's Commander, I have to be even more careful... *stare*...",
 						"englishNote": ""
 					},
-					"23": {
+					"24": {
 						"event": "Affinity (Stranger)",
 						"media": "feeling2",
 						"chinese": "因为那家伙什么事都能做好，所以我偶尔大意一点也没关系吧",
@@ -550,7 +600,7 @@
 						"english": "Everything goes well when 'that girl' does it, so it should be fine if I'm a little clumsy, shouldn't it?",
 						"englishNote": ""
 					},
-					"24": {
+					"25": {
 						"event": "Affinity (Friendly)",
 						"media": "feeling3",
 						"chinese": "又被贝法训斥了，什么出门记得关灯、水龙头也要好好拧紧。什么嘛，那家伙一点也不像妹妹！",
@@ -562,7 +612,7 @@
 						"english": "I've been lectured by Bel again... Forgetting to lock doors when going out, and turning off the tap... What the heck! She's totally not like a little sister!",
 						"englishNote": ""
 					},
-					"25": {
+					"26": {
 						"event": "Affinity (Like)",
 						"media": "feeling4",
 						"chinese": "呼……终于找到指挥官了。我……啊——哪里来的香蕉皮！",
@@ -574,7 +624,7 @@
 						"english": "Phew... I've finally found you, Commander. Actually... Aaaah-- Who the heck! Who left the banana peel here!",
 						"englishNote": ""
 					},
-					"26": {
+					"27": {
 						"event": "Affinity (Love)",
 						"media": "feeling5",
 						"chinese": "指挥官，天黑下之前，一起去海边散步吧。嗯，放心吧，灯关好了，窗也锁了，万事OK……咦……等等，我的钥匙呢！",
@@ -586,7 +636,7 @@
 						"english": "Commander, want to have a walk together before it gets dark? Yes, don't worry. The lights were switched off, and the windows were shut. Everything's OK! ... W-what? ...Wh-Where did the keys go?!",
 						"englishNote": ""
 					},
-					"27": {
+					"28": {
 						"event": "Pledge",
 						"media": "propose",
 						"chinese": "嘿嘿，就分一点爱丁堡大人的财运给你吧。诶？那可不行，黄金都是留给贝法基金会的！",
@@ -598,8 +648,8 @@
 						"english": "Hmhm, I'm fine with sharing some of my money-luck with you. ...The gold? No! That belongs to the Belfast Foundation!",
 						"englishNote": ""
 					},
-					"28": {
-						"event": "Easter Egg 1 (Belfast)",
+					"29": {
+						"event": "Easter Egg 1(Belfast)",
 						"media": "link1",
 						"chinese": "没想到能和贝法一起战斗！",
 						"chineseTL": "",
@@ -608,6 +658,42 @@
 						"japaneseTL": "",
 						"japaneseNote": "",
 						"english": "I didn't think I'd get a chance to fight with Belfast!",
+						"englishNote": ""
+					},
+					"30": {
+						"event": "Like Present",
+						"media": "present_like",
+						"chinese": "",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"31": {
+						"event": "Dislike Present",
+						"media": "present_dislike",
+						"chinese": "",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"32": {
+						"event": "Main Title",
+						"media": "extra",
+						"chinese": "",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
 						"englishNote": ""
 					}
 				}
@@ -762,20 +848,134 @@
 						"englishNote": ""
 					}
 				}
+			},
+			"3": {
+				"skin_id": "aidingbao_3",
+				"id": "2",
+				"label": "Candy Maid",
+				"dialogue": {
+					"1": {
+						"event": "Ship Description",
+						"media": "",
+						"chinese": "嗯哼，这可是我为了万圣节特意准备的糖果哦！来吧，指挥官！糖果给你——欸？呀！疼疼疼……是，是谁把南瓜放这里的啦！唔？好像是我自己…",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "えっへん！これはハロウィンのために特別に作ったキャンディですよ！さあ、指揮官、どうぞ持って行って――あわわわ！だ、誰がこんなところにかぼちゃを…わ、私だったの――！？",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Ahem! I made this special candy just for Halloween! Here, Commander, take some! Wooaaooah! Wh-who put this pumpkin here? It, it was me?!",
+						"englishNote": ""
+					},
+					"2": {
+						"event": "Acquisition",
+						"media": "get_2",
+						"chinese": "嗯哼，这可是我为了万圣节特意准备的糖果哦！来吧，指挥官！糖果给你——欸？呀！疼疼疼……是，是谁把南瓜放这里的啦！唔？好像是我自己…",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Ahem! I made this special candy just for Halloween! Here, Commander, take some! Wooaaooah! Wh-who put this pumpkin here? It, it was me?!",
+						"englishNote": ""
+					},
+					"3": {
+						"event": "Login",
+						"media": "login_2",
+						"chinese": "哎呀！我只是在用南瓜把金块“运输”回房间而已！才没有在做什么奇怪的事！",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Ah! I'm just transporting the Queen's bullion in the pumpkin! It's not what you think!",
+						"englishNote": ""
+					},
+					"4": {
+						"event": "Details",
+						"media": "detail_2",
+						"chinese": "身为皇家女仆，怎么被区区的万圣节幽灵传闻给——哇啊！什什什么时候出现在我背后的！…别，别吓唬我啊！",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "I'm a Royal Maid, I'm certainly not afraid of any- Hyaaaaah!? Wh-wh-where did that come from!? ... Phew... D- don't scare me like that now!",
+						"englishNote": ""
+					},
+					"5": {
+						"event": "Main 1",
+						"media": "main_1_2",
+						"chinese": "据说有吃了我这里的糖果被辣到哭鼻子的传闻……明明每个糖果都是我亲自挑选的，这，这到底是怎么回事？",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "They're saying I've got spicy candy mixed in here...? That's odd... I hand picked them all myself... Now where did that rumor come from?",
+						"englishNote": ""
+					},
+					"6": {
+						"event": "Main 2",
+						"media": "main_2_2",
+						"chinese": "锵锵~万圣节特别款的女仆装！好看吧！哼哼，我也是有比贝法厉害的地方的嘛！虽然只是负责设计的…（小声）",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Ta-daaah! It's a special Halloween Maid uniform! Lovely, innit? Heheee, I'd say bits of me even outshine Bel!",
+						"englishNote": ""
+					},
+					"7": {
+						"event": "Main 3",
+						"media": "main_3_2",
+						"chinese": "格奈森瑙准备的万圣节服装…该怎么说呢…好、好厉害啊…",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Gneisenau's costume there, it's a bit... Um, it's something...",
+						"englishNote": ""
+					},
+					"8": {
+						"event": "Touch",
+						"media": "touch_1_2",
+						"chinese": "万圣节糖果派送中！这位指挥官先生，要不要来一颗连女王陛下都赞不绝口的糖果呀？",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Halloween candy delivery! You there, Commander, how would you like a treat endorsed by the Queen herself?",
+						"englishNote": ""
+					},
+					"9": {
+						"event": "Touch (Special)",
+						"media": "touch_2_2",
+						"chinese": "呀！别在人正忙的时候来捣乱嘛！",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Oi there! Don't be doing that when I'm busy!",
+						"englishNote": ""
+					},
+					"10": {
+						"event": "Return to Port",
+						"media": "home_2",
+						"chinese": "贝法又以女仆长的工作推辞了万圣节的活动…真是的，她就不能偶尔陪下她的姐姐嘛！",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Bel, are you really turning down the Halloween event because you're too busy with Head Maid duties? Gosh, you really ought to make time for your sister~",
+						"englishNote": ""
+					}
+				}
 			}
 		}
-	},
-	"fleet_tech": {
-		"pt_get": "10",
-		"add_get_attr": "HP",
-		"add_get_value": "1",
-		"add_get_shiptype": "Light Cruiser",
-		"pt_upgrade": "20",
-		"pt_level": "15",
-		"add_level_attr": "Torpedo",
-		"add_level_value": "1",
-		"add_level_shiptype": "Light Cruiser",
-		"t_level": "7",
-		"ships": "edinburgh,belfast"
 	}
 }

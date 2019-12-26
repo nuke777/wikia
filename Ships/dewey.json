@@ -13,6 +13,7 @@
 	"prefix": "USS",
 	"buildTime": "N/A",
 	"class": "ファラガット級",
+	"voiceActress": "Shimabukuro Miyuri",
 	"parameters": {
 		"firepower": "C",
 		"torpedo": "C",
@@ -33,10 +34,10 @@
 		"EN": ""
 	},
 	"artist": {
-		"name": "",
-		"weibo": "",
+		"name": "或一",
+		"weibo": "http://bcy.net/u/1495574",
 		"twitter": "",
-		"pixiv": "",
+		"pixiv": "http://www.pixiv.net/member.php?id=1904395",
 		"other": ""
 	},
 	"enhance": {
@@ -91,6 +92,41 @@
 				},
 				"7": {
 					"id": "7"
+				}
+			}
+		},
+		"2": {
+			"id": "duwei_2",
+			"name": "夏に憧れ",
+			"description": "Miss Saratoga is over there, and Miss lexington is.. Ah, it's Commander. Is Commander here to play, or to relax?",
+			"expression": {
+				"0": {
+					"id": "0"
+				},
+				"1": {
+					"id": "1"
+				},
+				"2": {
+					"id": "2"
+				},
+				"3": {
+					"id": "3"
+				}
+			}
+		},
+		"3": {
+			"id": "duwei_3",
+			"name": "冬夜的感谢",
+			"description": "列克星敦小姐，把这身圣诞节风格的衣服送给了我，说这是作为她的粉丝的礼物。指挥官，觉得好看吗？",
+			"expression": {
+				"0": {
+					"id": "0"
+				},
+				"1": {
+					"id": "1"
+				},
+				"2": {
+					"id": "2"
 				}
 			}
 		}
@@ -700,6 +736,236 @@
 						"englishNote": ""
 					}
 				}
+			},
+			"2": {
+				"skin_id": "duwei_2",
+				"id": "1",
+				"label": "夏に憧れ",
+				"dialogue": {
+					"1": {
+						"event": "Ship Description",
+						"media": "",
+						"chinese": "萨拉托加小姐在那边，列克星敦小姐在……啊，是指挥官。指挥官是准备来海边玩的，还是打算休息呢？",
+						"chineseTL": "Miss Saratoga is over there, and Miss lexington is.. Ah, it's Commander. Is Commander here to play, or to relax?",
+						"chineseNote": "",
+						"japanese": "サラトガちゃんはあっち、レキシントンさんは……指揮官、おはようございますっ！指揮官はこれからみんなと一緒に遊ぶのですか？それともひとりで休憩するのですか…？",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"2": {
+						"event": "Acquisition",
+						"media": "get_1",
+						"chinese": "萨拉托加小姐在那边，列克星敦小姐在……啊，是指挥官。指挥官是准备来海边玩的，还是打算休息呢？",
+						"chineseTL": "Miss Saratoga is over there, and Miss lexington is.. Ah, it's Commander. Is Commander here to play, or to relax?",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"3": {
+						"event": "Login",
+						"media": "login_1",
+						"chinese": "指挥官，天气预报说，今天会是一个大晴天呢。",
+						"chineseTL": "Commander, weather reports suggest it's going to be sunny today.",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"4": {
+						"event": "Details",
+						"media": "detail_1",
+						"chinese": "这个绘本？这个是杜威画的，一个女孩在梦中追逐着自己憧憬的人的故事呢。指挥官，想看？要记得…对列克星敦小姐保密哦。",
+						"chineseTL": "This sketchbook? Dewey drew it. It's a story about a girl chasing the person of her yearning in her dreams. Commander, want to take a look? Remember.. keep it a secret from Miss Lexington. ",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"5": {
+						"event": "Touch",
+						"media": "touch_1_1",
+						"chinese": "唔，指挥官，不要摇杜威的游泳圈啦，绘本会被弄湿的。",
+						"chineseTL": "Hey! Commander, stop shaking Dewey's swimming tube, the sketchbook's going to get wet.",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"6": {
+						"event": "Touch (Special)",
+						"media": "touch_2_1",
+						"chinese": "呀，救、救生圈要翻掉了！",
+						"chineseTL": "Ah! T-the life preserver is going to turn over!",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"7": {
+						"event": "Mail",
+						"media": "mail_1",
+						"chinese": "有新的信息，希望不要是风暴的预警…",
+						"chineseTL": "New message. Hopefully it's not reports about a storm..",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"8": {
+						"event": "Return to Port",
+						"media": "home_1",
+						"chinese": "指挥官，累了的话，可以让杜威帮忙按摩放松的哦。",
+						"chineseTL": "Commander, if you're tired, Dewey could offer a massage for relaxation.",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					}
+				}
+			},
+			"3": {
+				"skin_id": "duwei_3",
+				"id": "2",
+				"label": "冬夜的感谢",
+				"dialogue": {
+					"1": {
+						"event": "Ship Description",
+						"media": "",
+						"chinese": "列克星敦小姐，把这身圣诞节风格的衣服送给了我，说这是作为她的粉丝的礼物。指挥官，觉得好看吗？",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"2": {
+						"event": "Acquisition",
+						"media": "get_2",
+						"chinese": "列克星敦小姐，把这身圣诞节风格的衣服送给了我，说这是作为她的粉丝的礼物。指挥官，觉得好看吗？",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"3": {
+						"event": "Login",
+						"media": "login_2",
+						"chinese": "圣诞快乐，指挥官。愿您能享受这个充满了美好祝福的夜晚。",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"4": {
+						"event": "Details",
+						"media": "detail_2",
+						"chinese": "我也想给列克星敦小姐一个特别的圣诞礼物……指挥官觉得，怎样的礼物比较好呢？",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"5": {
+						"event": "Main 1",
+						"media": "main_1_2",
+						"chinese": "圣诞树顶上的星星，象征的是什么呢？",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"6": {
+						"event": "Main 2",
+						"media": "main_2_2",
+						"chinese": "指挥官，也别忘了给其她人送去圣诞的祝福哦？大家可都期待着呢。",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"7": {
+						"event": "Main 3",
+						"media": "main_3_2",
+						"chinese": "格里德利顺手帮忙拍了好多张列克星敦小姐的照片，一会要好好谢谢她才行。",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"8": {
+						"event": "Touch",
+						"media": "touch_1_2",
+						"chinese": "唔…感觉换上这一身以后，是不是能够感觉到本森热情的眼神呢…",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"9": {
+						"event": "Touch (Special)",
+						"media": "touch_2_2",
+						"chinese": "唔，不要一直玩杜威胸口的铃铛啦…",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"10": {
+						"event": "Return to Port",
+						"media": "home_2",
+						"chinese": "指挥官，准备给谁送圣诞礼物了吗？稍微有点好奇呢。",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					}
+				}
 			}
 		}
 	},
@@ -714,6 +980,6 @@
 		"add_level_value": "1",
 		"add_level_shiptype": "Destroyer",
 		"t_level": "3",
-		"ships": "dewey"
+		"ships": "dewey,aylwin"
 	}
 }

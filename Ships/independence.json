@@ -11,7 +11,7 @@
 	"hull": "Light Aircraft Carrier",
 	"navy": "Eagle Union",
 	"prefix": "USS",
-	"buildTime": "",
+	"buildTime": "N/A",
 	"class": "インディペンデンス級",
 	"voiceActress": "Haruka Yamazaki",
 	"parameters": {
@@ -34,10 +34,10 @@
 		"EN": ""
 	},
 	"artist": {
-		"name": "",
-		"weibo": "",
-		"twitter": "",
-		"pixiv": "",
+		"name": "ATDAN",
+		"weibo": "http://www.weibo.com/atdan",
+		"twitter": "https://twitter.com/Atdan86",
+		"pixiv": "https://www.pixiv.net/member.php?id=6662895",
 		"other": ""
 	},
 	"enhance": {
@@ -50,17 +50,17 @@
 	"skill": {
 		"1": {
 			"icon": "11910",
-			"requirement": "",
-			"name": "大空を撃つ白鷹 ",
+			"requirement": "Default Unlocked",
+			"name": "Eagle Sky ",
 			"type": "Offensive",
-			"description": "自身がクロキッド艦載機を装備している場合、同艦載機枠の装備補正が$1上昇する "
+			"description": "Eagle Union airplanes in use gain 5% (15%) additional Efficiency."
 		},
 		"2": {
 			"icon": "11920",
-			"requirement": "",
-			"name": "大空の騎士団 ",
+			"requirement": "Default Unlocked",
+			"name": "Knight of the Sky ",
 			"type": "Support",
-			"description": "自身が航空攻撃を行う時、TBFによる追加攻撃を行う$1（威力はスキルレベルによる）。出撃時、同じ艦隊にクリーブランド級の艦が編成されている場合、クリーブランド級の火力が$3、自身の航空・命中が$2アップし、スキルのTBF追加攻撃を強化する "
+			"description": "When launching an airstrike: launch an additional Lv.1 (Lv.10) TBF Avenger squadron. If sortied with any Cleveland-class cruisers, increase their Firepower by 3.5% (8.0%), increase own Air Power and Accuracy by 5% (15%), and enhance TBF Avenger squadron barrage pattern."
 		}
 	},
 	"skin": {
@@ -803,6 +803,6 @@
 		"add_level_value": "1",
 		"add_level_shiptype": "Light Aircraft Carrier,Aircraft Carrier",
 		"t_level": "4",
-		"ships": "independence"
+		"ships": "independence,bataan"
 	}
 }

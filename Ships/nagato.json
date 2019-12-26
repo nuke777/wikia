@@ -76,8 +76,8 @@
 		},
 		"2": {
 			"id": "changmen_2",
-			"name": "Great Fox's Respite",
-			"description": "I shalt be hosting the Commander today. Manjuus, please dress me up nicely! I, fwah... will sleep a bit more... Ughh, why are thee all so restless?... M-milord!? When did thee get here!?",
+			"name": "Great Fox's Respite ",
+			"description": "I shall be hosting the commander today. Manjuus, I beseech you to help me look my best. I am... *yawn* a bit sleepy... Urghh... what is that ruckus out there? C-Commander! When did you arrive? ",
 			"expression": {
 				"0": {
 					"id": "0"
@@ -93,7 +93,35 @@
 				}
 			}
 		},
-		"3": {
+		"3" : {
+			"id" : "changmen_3",
+			"name" : "Guardian Fox's Shining Furisode",
+			"description" : "Perfect, you have arrived. As long as you are here, the usual moon-watching will prove to be much more enjoyable... Why don't you stay here today and rest for a while?",
+			"expression" : {
+				"0" : {
+					"id" : "0"
+				},
+				"1" : {
+					"id" : "1"
+				},
+				"2" : {
+					"id" : "2"
+				},
+				"3" : {
+					"id" : "3"
+				},
+				"4" : {
+					"id" : "4"
+				},
+				"5" : {
+					"id" : "5"
+				},
+				"6" : {
+					"id" : "6"
+				}
+			}
+		},
+		"4": {
 			"id": "changmen_h",
 			"name": "Great Fox's Shiroshouzoku",
 			"description": "I-I'm not much good at anything, but please be kind to me... Was that good enough? T-this is... rather embarrassing... H-hahaha...",
@@ -648,7 +676,7 @@
 			"2": {
 				"skin_id": "changmen_2",
 				"id": "1",
-				"label": "Great Fox's Respite",
+				"label": "Great Fox's Respite ",
 				"dialogue": {
 					"1": {
 						"event": "Ship Description",
@@ -683,7 +711,7 @@
 						"japanese": "ふぁ……お、お主か？余はもう少し……おやすみ……",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "*yawn* Oh... Commander? I desire a few more minutes of respite... Good night...",
 						"englishNote": ""
 					},
 					"4": {
@@ -695,7 +723,7 @@
 						"japanese": "お主が休日になにをしておるのか……す、少しだけ余に聞かせてもよいぞ",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Commander, what are you going to do on your next day off? I-I would not mind hearing you out.",
 						"englishNote": ""
 					},
 					"5": {
@@ -707,7 +735,7 @@
 						"japanese": "いいところに来た。余の服を探すのを手伝ってくれぬか……予め言っておくが…け、決して余が散らかして見つからなくなったわけではないぞっ！？",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Good timing. I require your assistance in locating my lost clothes... Just so you know, I did not misplace them because I was playing around, understood?! ",
 						"englishNote": ""
 					},
 					"6": {
@@ -719,7 +747,7 @@
 						"japanese": "陸奥のことが羨ましく思える時もある…神子として拝まれ、ただただ雲の上にいた余は、今こうして自由でいても、あの子のように遊べんのだ",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "I sometimes envy Mutsu... Even though I have my freedom now, unlike when I was placed upon a pedestal and worshipped, I can't be carefree like her... ",
 						"englishNote": ""
 					},
 					"7": {
@@ -731,7 +759,7 @@
 						"japanese": "都合が付く時は、いつでも余に会いにくるがよいぞ。この場所は陸奥と江風たちを入れても…いささか広すぎるからな",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Commander, you should come visit me more often if you're not busy. Though Mutsu and Kawakaze keep me company, this place is still too spacious for my tastes.",
 						"englishNote": ""
 					},
 					"8": {
@@ -743,7 +771,7 @@
 						"japanese": "余に外遊を誘うつもりか？…良い、余もお主と一緒に出かけたいところだぞ",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Commander, did you plan to invite me out? ... Very well. Our interests happen to be in concordance.",
 						"englishNote": ""
 					},
 					"9": {
@@ -755,12 +783,163 @@
 						"japanese": "お主、小腹が空いておるのか？このお団子で腹ごしらえでもするがよい",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Commander, do you hunger? Then do partake of this dango.",
 						"englishNote": ""
 					}
 				}
 			},
 			"3": {
+				"skin_id" : "changmen_3",
+				"id" : "2",
+				"label" : "Guardian Fox's Shining Furisode",
+				"dialogue" : {
+					"1" : {
+						"event" : "Ship Description",
+						"media" : "",
+						"chinese" : "来得正好，有汝在，就算是一成不变的赏月也多少会变得有趣些吧——今天就好好在这休息吧",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "よくぞ来てくれた。お主がいれば、同じ月見でもいつもよりも楽しくなるやもしれぬ――今日はここでゆ、ゆっくりくつろいでゆくが良いぞ？",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Perfect, you have arrived. As long as you are here, the usual moon-watching will prove to be much more enjoyable... Why don't you stay here today and rest for a while?",
+						"englishNote" : ""
+					},
+					"2" : {
+						"event" : "Acquisition",
+						"media" : "get_2",
+						"chinese" : "来得正好，有汝在，就算是一成不变的赏月也多少会变得有趣些吧——今天就好好在这休息吧",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "よくぞ来てくれた。お主がいれば、同じ月見でもいつもよりも楽しくなるやもしれぬ――今日はここでゆ、ゆっくりくつろいでゆくが良いぞ？",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Perfect, you have arrived. As long as you are here, the usual moon-watching will prove to be much more enjoyable... Why don't you stay here today and rest for a while?",
+						"englishNote" : ""
+					},
+					"3" : {
+						"event" : "Login",
+						"media" : "login_2",
+						"chinese" : "今天要做些什么？尽管指示吾没关系的",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "今日は何をするか？余に手伝えることを指示するが良い",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "What do you plan to do today? Do call upon me if you need my help.",
+						"englishNote" : ""
+					},
+					"4" : {
+						"event" : "Details",
+						"media" : "detail_2",
+						"chinese" : "也、也不用那么急着走吧…？这里又宽阔，又安静，还有暖气…想要埋在这孩子身上蹭蹭也是可以的哦！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "べ、別に急いで外に出ることもなかろう…？ここは広いし、静かだし、暖房も効いておる…なんなら余をモフモフしても良いぞ！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Th-there's no need to be in a hurry to go outside, right...? It's spacious, quiet, and warm here... and you are authorized to pat my fluffy friend.",
+						"englishNote" : ""
+					},
+					"5" : {
+						"event" : "Main 1",
+						"media" : "main_1_2",
+						"chinese" : "虽说一年到头都可以赏月，不过，像这样和汝两人一同赏月，就不是那么随时可以的了…",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "月見というのは年中できるものだが、お主とこうして二人っきりになるきっかけは中々ないものだな…",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "The moon can be freely enjoyed throughout the year, but there are few opportunities for the two of us to gaze at the moon together... ",
+						"englishNote" : ""
+					},
+					"6" : {
+						"event" : "Main 2",
+						"media" : "main_2_2",
+						"chinese" : "陆奥？让她出去玩了。那孩子，跟江风比起来…该说她不懂得看气氛还是什么呢…呜…就、就别让吾想起这事了！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "陸奥？あの子は出かけさせておる。江風と違って、空気を読まないというか…うぅ……思い出させるでない！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Mutsu? Let her go out and play. Unlike Kawakaze, she has no awareness of her surroundings... Ah, b-but don't let her hear I said that!",
+						"englishNote" : ""
+					},
+					"7" : {
+						"event" : "Main 3",
+						"media" : "main_3_2",
+						"chinese" : "月见酒？确实挺风雅的，吾就…果然还是算了！想喝的话就汝自己喝吧！……(小声)吾是不能喝酒的……",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "月見酒？確かに風流ではるが、余は……や、やっぱり……飲むならお主ひとりで酌をするが良い！……（小声）余はお酒は飲めぬぞ……",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Moon-viewing sake? This has indeed been quite popular, but I... Ah, f-forget it! If you want to drink, then treat yourself! ...after all, I'm not allowed to...",
+						"englishNote" : ""
+					},
+					"8" : {
+						"event" : "Touch",
+						"media" : "touch_1_2",
+						"chinese" : "汝是想要点评吾这身衣裳吗？哼哼，可别小看了重樱匠人的技巧哦？",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "余のこの衣装を品評するつもりか？ふふ、重桜の職人の腕を甘く見るでないぞ？",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Do you wish to comment upon my attire? Hehe, don't underestimate the skill of the Sakura Empire's craftspeople!",
+						"englishNote" : ""
+					},
+					"9" : {
+						"event" : "Touch (Special)",
+						"media" : "touch_2_2",
+						"chinese" : "汝、汝想做什么！？",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "な、何をしておる？！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Wh-what are you doing?!",
+						"englishNote" : ""
+					},
+					"10" : {
+						"event" : "Return to Port",
+						"media" : "home_2",
+						"chinese" : "江风，给指挥官准备个坐垫。可不能只有吾这么享受",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "江風、指揮官の座布団も支度せよ。余だけが楽するわけにはいかぬぞ",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Kawakaze, prepare a cushion for the Commander. It would be inappropriate for only me to be comfortable.",
+						"englishNote" : ""
+					},
+					"11" : {
+						"event" : "Victory",
+						"media" : "mvp_2",
+						"chinese" : "在吾等重樱的力量之前倾倒吧！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "我が重桜の力にひれ伏すが良い！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Prostrate yourself before the might of the Sakura Empire!",
+						"englishNote" : ""
+					},
+					"12" : {
+						"event" : "Affinity (Love)",
+						"media" : "feeling5_2",
+						"chinese" : "汝、汝啊！那个，吾想说的是…“今晚月色真美”……唔…！果然还是太令人害羞了…说不出口……",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "お、お主！ええと、余は…こ、「今夜の月は綺麗だね…」ぐぅうううう…！こんな恥ずかしいことうまく言えぬぞ………",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "C-Commander, I, um... \"th-the moon is beautiful tonight...!\" Gyaaah...! It's way too embarrassing... there's no way I could say that...",
+						"englishNote" : ""
+					}
+				}
+			},
+			"4": {
 				"skin_id": "changmen_h",
 				"id": "8",
 				"label": "Great Fox's Shiroshouzoku",

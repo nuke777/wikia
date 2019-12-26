@@ -11,8 +11,7 @@
 	"hull": "Heavy Cruiser",
 	"navy": "Royal Navy",
 	"prefix": "HMS",
-	"buildTime": "",
-	"class": "London-Class",
+	"buildTime": "01:30:00",
 	"voiceActress": "Naomi Mukaiyama",
 	"parameters": {
 		"firepower": "A",
@@ -34,12 +33,13 @@
 		"EN": ""
 	},
 	"artist": {
-		"name": "",
-		"weibo": "",
-		"twitter": "",
-		"pixiv": "",
+		"name": "时辰",
+		"weibo": "https://weibo.com/u/3042386674",
+		"twitter": "https://twitter.com/shichen00",
+		"pixiv": "https://www.pixiv.net/member.php?id=7514361",
 		"other": ""
 	},
+	"class": "London-Class",
 	"enhance": {
 		"firepower": "23",
 		"torpedo": "14",
@@ -53,14 +53,21 @@
 			"requirement": "",
 			"name": "Artillery Command: Vanguard",
 			"type": "Support",
-			"description": "Increases the FP of all friendlies in the Vanguard Fleet by $1. Does not stack with the same skill."
+			"description": "Increases the FP of your Vanguard by 5.0% (15.0%). Does not stack with the same skill."
 		},
 		"2": {
+			"icon": "12420",
+			"requirement": "",
+			"name": "Sharpshooter of Londinium",
+			"type": "Offensive",
+			"description": "When this ship fires its Main Guns: 15.0% (30.0%) chance to deal double DMG with them. When this ship sinks an enemy: increases its Accuracy by 0.5% (1.5%) (can be stacked up to 8 times.)"
+		},
+		"3": {
 			"icon": "21211",
 			"requirement": "",
 			"name": "All Out Assault Ⅰ",
 			"type": "Offensive",
-			"description": "Activate All Out Assault Ⅰ: London Class once every 9 times the main gun is fired."
+			"description": "Activates All Out Assault Ⅰ: London Class once every 9 times the Main Guns are fired."
 		}
 	},
 	"skin": {
@@ -71,6 +78,25 @@
 			"expression": {
 				"0": {
 					"id": "0"
+				}
+			}
+		},
+		"2": {
+			"id": "lundun_g",
+			"name": "London (Retrofit) ",
+			"description": "Um... Your Excellency, could you please stop staring at me like you don't recognise me? I didn't think that I'd get a new look for my retrofit, either... But, don't you think it's rather cute? ",
+			"expression": {
+				"0": {
+					"id": "0"
+				},
+				"1": {
+					"id": "1"
+				},
+				"2": {
+					"id": "2"
+				},
+				"3": {
+					"id": "3"
 				}
 			}
 		}
@@ -145,34 +171,34 @@
 			"armor": "Light"
 		},
 		"100retrofit": {
-			"hp": "",
-			"firepower": "",
-			"torpedo": "",
-			"antiAir": "",
-			"aviation": "",
-			"reload": "",
-			"hit": "",
-			"evasion": "",
+			"hp": "3417",
+			"firepower": "204",
+			"torpedo": "194",
+			"antiAir": "270",
+			"aviation": "0",
+			"reload": "144",
+			"hit": "119",
+			"evasion": "37",
 			"speed": "25.6",
 			"luck": "62",
-			"asw": "",
+			"asw": "0",
 			"oxygen": "0",
 			"ammo": "0",
 			"cost": "11",
 			"armor": "Light"
 		},
 		"120retrofit": {
-			"hp": "",
-			"firepower": "",
-			"torpedo": "",
-			"antiAir": "",
-			"aviation": "",
-			"reload": "",
-			"hit": "",
-			"evasion": "",
+			"hp": "3841",
+			"firepower": "233",
+			"torpedo": "223",
+			"antiAir": "297",
+			"aviation": "0",
+			"reload": "165",
+			"hit": "136",
+			"evasion": "82",
 			"speed": "25.6",
 			"luck": "62",
-			"asw": "",
+			"asw": "0",
 			"oxygen": "0",
 			"ammo": "0",
 			"cost": "11",
@@ -204,17 +230,30 @@
 			"preload": "0/0/0/0"
 		},
 		"4": {
-			"type": "Auxiliary",
+			"type": "Auxilary",
 			"efficiency": "-",
 			"amount": "-",
 			"preload": "-"
 		},
 		"5": {
-			"type": "Auxiliary",
+			"type": "Auxilary",
 			"efficiency": "-",
 			"amount": "-",
 			"preload": "-"
 		}
+	},
+	"fleet_tech": {
+		"pt_get": "8",
+		"add_get_attr": "HP",
+		"add_get_value": "1",
+		"add_get_shiptype": "Heavy Cruiser,Monitor,Super Cruiser",
+		"pt_upgrade": "16",
+		"pt_level": "12",
+		"add_level_attr": "Torpedo",
+		"add_level_value": "1",
+		"add_level_shiptype": "Heavy Cruiser,Monitor,Super Cruiser",
+		"t_level": "4",
+		"ships": "london,shropshire,sussex"
 	},
 	"build": {
 		"light": {
@@ -223,14 +262,14 @@
 			"EN": ""
 		},
 		"heavy": {
-			"JP": "",
-			"CN": "",
-			"EN": ""
+			"JP": "✓",
+			"CN": "✓",
+			"EN": "✓"
 		},
 		"special": {
-			"JP": "",
-			"CN": "",
-			"EN": ""
+			"JP": "✓",
+			"CN": "✓",
+			"EN": "✓"
 		},
 		"limited": {
 			"JP": "",
@@ -309,7 +348,7 @@
 						"japanese": "ごきげんよう、閣下、ロンドンは今日もおそばにおりますよ",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "Good day do you, your Excellency. I shall accompany you for today as well.",
+						"english": "Good day to you, your Excellency. I shall accompany you for today as well.",
 						"englishNote": ""
 					},
 					"5": {
@@ -589,7 +628,7 @@
 						"englishNote": ""
 					},
 					"28": {
-						"event": "Easter Egg 1 (Kent, Suffolk, Norfolk)",
+						"event": "Easter Egg 1(Kent, Suffolk, Norfolk)",
 						"media": "link1",
 						"chinese": "城级的姐妹们，我们上吧",
 						"chineseTL": "",
@@ -599,22 +638,160 @@
 						"japaneseNote": "",
 						"english": "County-class sisters, now is our time!",
 						"englishNote": ""
+					},
+					"29": {
+						"event": "Easter Egg 2(Sussex)",
+						"media": "link2",
+						"chinese": "好啦，不要整天板着一张脸",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "よしよし、もう少し表情を緩めた方がいいですよ",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"30": {
+						"event": "Easter Egg 3(Shropshire)",
+						"media": "link3",
+						"chinese": "再捉弄阁下，我要生气咯？",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "これ以上閣下をからかうと怒りますよ？",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"31": {
+						"event": "Like Present",
+						"media": "present_like",
+						"chinese": "",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"32": {
+						"event": "Dislike Present",
+						"media": "present_dislike",
+						"chinese": "",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"33": {
+						"event": "Main Title",
+						"media": "extra",
+						"chinese": "",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					}
+				}
+			},
+			"2": {
+				"skin_id": "lundun_g",
+				"id": "9",
+				"label": "London (Retrofit) ",
+				"dialogue": {
+					"1": {
+						"event": "Ship Description",
+						"media": "",
+						"chinese": "那个…阁下，能不能不要用“你是谁”的目光盯着我看，我也没有想到，改造后会换上这样的衣服。不过……稍微有些可爱呢，阁下觉得呢？",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "あの…閣下、その「どちら様？」というような顔をされましても…私も改造でこんな格好になるなんて思っていませんでしたよ？でも、そうですね…閣下、この服、かわいいとは思いませんか？ふふふ",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Um... Your Excellency, could you please stop staring at me like you don't recognise me? I didn't think that I'd get a new look for my retrofit, either... But, don't you think it's rather cute?",
+						"englishNote": ""
+					},
+					"2": {
+						"event": "Acquisition",
+						"media": "get_9",
+						"chinese": "那个…阁下，能不能不要用“你是谁”的目光盯着我看，我也没有想到，改造后会换上这样的衣服。不过……稍微有些可爱呢，阁下觉得呢？",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "あの…閣下、その「どちら様？」というような顔をされましても…私も改造でこんな格好になるなんて思っていませんでしたよ？でも、そうですね…閣下、この服、かわいいとは思いませんか？ふふふ",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Um... Your Excellency, could you please stop staring at me like you don't recognise me? I didn't think that I'd get a new look for my retrofit, either... But, don't you think it's rather cute?",
+						"englishNote": ""
+					},
+					"3": {
+						"event": "Details",
+						"media": "detail_9",
+						"chinese": "虽然可以换回原来的衣服，不过，我其实一直有些憧憬这样的穿衣风格呢。阁下希望我换回去吗？",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "元の衣装もいいですけど、本当は今のようなちょっとおしゃれな衣装もずっと着てみたかったんですよ。閣下は…やっぱり前の衣装がいいですか？",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "I can always change back to my old outfit, but to be frank, I've always looked forward to being able to wear something like this. Your Excellency, would you like me to get changed?",
+						"englishNote": ""
+					},
+					"4": {
+						"event": "Main 1",
+						"media": "main_1_9",
+						"chinese": "换了一身衣服以后，感觉心情也变得有些不一样了呢，阁下，稍后一起吃点心吗？",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "衣装を変えると、なんだか気持ちも少し変わりますね……閣下、仕事のあとは甘い物でもいかがですか？",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "I feel like my mood has been changing since I got my new outfit. Your Excellency, would you like to go for some dessert in a little bit? ",
+						"englishNote": ""
+					},
+					"5": {
+						"event": "Main 2",
+						"media": "main_2_9",
+						"chinese": "阁下，请不要忘记我是您的秘书舰这件事哦？那么，请收回目光，好好工作！",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "閣下。私が秘書艦であること、ちょっと忘れていませんか？ふふ、はい、よそ見はここまで、お仕事に戻ってくださいね",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Your Excellency, please do not forget the fact that I am still your secretary ship. Now, please focus and get back to your work! ",
+						"englishNote": ""
+					},
+					"6": {
+						"event": "Main 3",
+						"media": "main_3_9",
+						"chinese": "阁下，你知道吗，苏塞克斯那孩子，夸奖这身打扮很漂亮哦？能被那孩子夸奖可是很少见的事呢，呵呵~",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "閣下？サセックスもこの格好を可愛いと言ってくれましたよ？あの子が何かを褒めるなんて珍しいことなんですよ。ふふ",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Your Excellency, did you know that Sussex said that this outfit looks really pretty? You don't hear words of praise from her often, hehe~",
+						"englishNote": ""
+					},
+					"7": {
+						"event": "Touch",
+						"media": "touch_1_9",
+						"chinese": "真拿你没办法呢。那么，阁下，稍微休息一会儿吧，我来准备点心",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "致し方ありませんね…では閣下、少し休憩しましょう。軽食をご用意しますね",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "What am I going to do with you... Well then, Your Excellency, please rest for a while. I'll prepare the snacks.",
+						"englishNote": ""
 					}
 				}
 			}
 		}
-	},
-	"fleet_tech": {
-		"pt_get": "8",
-		"add_get_attr": "HP",
-		"add_get_value": "1",
-		"add_get_shiptype": "Heavy Cruiser,Monitor,Super Cruiser",
-		"pt_upgrade": "16",
-		"pt_level": "12",
-		"add_level_attr": "Torpedo",
-		"add_level_value": "1",
-		"add_level_shiptype": "Heavy Cruiser,Monitor,Super Cruiser",
-		"t_level": "4",
-		"ships": "london,shropshire,sussex"
 	}
 }

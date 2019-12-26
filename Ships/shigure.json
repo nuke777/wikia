@@ -51,16 +51,23 @@
 		"1": {
 			"icon": "10370",
 			"requirement": "Default Unlocked",
-			"name": "Sasebo Shigure",
+			"name": "Shigure of Sasebo",
 			"type": "Defensive",
-			"description": "5% activation chance when firing, increase evasion by 30.0% (60.0%), duration lasts 8 seconds"
+			"description": "When this ship fires its Main Guns: 5.0% chance to increase this ship's EVA by 30.0%(60.0%) for 8s."
 		},
 		"2": {
+			"icon": "12680",
+			"requirement": "Retrofit",
+			"name": "仲間思いの幸運艦",
+			"type": "Support",
+			"description": "戦闘開始時、艦隊に戦闘可能な「雪風」がいる場合、下記の効果を適用する【自身の雷装が$1アップし、20秒毎に$2で強力な弾幕を展開する】；戦闘可能な「雪風」がいない場合、下記の効果を適用する【自身が戦闘可能である限り、自身以外の味方艦船が受けるダメージを$3軽減し、自身以外の味方艦船がダメージを受け耐久が最大値の20%を下回った場合に一度だけ、その艦の耐久を$4回復する】 "
+		},
+		"3": {
 			"icon": "22031",
-			"requirement": "Limit Break Rank 1 (I) / Rank 3 (II)",
-			"name": "Full Barrage",
+			"requirement": "Limit Break I(III)",
+			"name": "All Out Assault Ⅰ",
 			"type": "Offensive",
-			"description": "Every 15 (10) times the main battery is fired, trigger Full Barrage - Shiratsuyu I (II)"
+			"description": "Activates All Out Assault Ⅰ: Shiratsuyu Class once every 15 times the Main Guns are fired."
 		}
 	},
 	"skin": {
@@ -106,6 +113,34 @@
 				},
 				"5": {
 					"id": "5"
+				}
+			}
+		},
+		"4": {
+			"id": "shiyu_g",
+			"name": "時雨改",
+			"description": "ふふん、この時雨様を近代化改修するのはいい選択ね！これからはもっと私の力と運を頼りなさいな、この幸せ者のバカ指揮官♪",
+			"expression": {
+				"0": {
+					"id": "0"
+				},
+				"1": {
+					"id": "1"
+				},
+				"2": {
+					"id": "2"
+				},
+				"3": {
+					"id": "3"
+				},
+				"4": {
+					"id": "4"
+				},
+				"5": {
+					"id": "5"
+				},
+				"6": {
+					"id": "6"
 				}
 			}
 		}
@@ -175,34 +210,34 @@
 			"armor": "Light"
 		},
 		"100retrofit": {
-			"hp": "",
-			"firepower": "",
-			"torpedo": "",
-			"antiAir": "",
-			"aviation": "",
-			"reload": "",
-			"hit": "",
-			"evasion": "",
+			"hp": "1634",
+			"firepower": "77",
+			"torpedo": "542",
+			"antiAir": "131",
+			"aviation": "0",
+			"reload": "184",
+			"hit": "174",
+			"evasion": "204",
 			"speed": "40.8",
 			"luck": "84",
-			"asw": "",
+			"asw": "182",
 			"oxygen": "0",
 			"ammo": "0",
 			"cost": "9",
 			"armor": "Light"
 		},
 		"120retrofit": {
-			"hp": "",
-			"firepower": "",
-			"torpedo": "",
-			"antiAir": "",
-			"aviation": "",
-			"reload": "",
-			"hit": "",
-			"evasion": "",
+			"hp": "1928",
+			"firepower": "85",
+			"torpedo": "589",
+			"antiAir": "150",
+			"aviation": "0",
+			"reload": "212",
+			"hit": "182",
+			"evasion": "210",
 			"speed": "40.8",
 			"luck": "84",
-			"asw": "",
+			"asw": "201",
 			"oxygen": "0",
 			"ammo": "0",
 			"cost": "9",
@@ -816,6 +851,133 @@
 						"event": "Affinity (Love)",
 						"media": "feeling5_2",
 						"chinese": "为了不让笨笨的指挥官走丢，时雨大人只好一直陪着你了呢。时雨可是有着幸运之神的加护，绝对不会弄丢指挥官的哦！",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					}
+				}
+			},
+			"4": {
+				"skin_id": "shiyu_g",
+				"id": "9",
+				"label": "時雨改",
+				"dialogue": {
+					"1": {
+						"event": "Ship Description",
+						"media": "",
+						"chinese": "哼哼，让时雨大人进行改造，是个明智的选择呢！今后也多多依靠我的力量与好运吧，你这个幸运的笨蛋指挥官～",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "ふふん、この時雨様を近代化改修するのはいい選択ね！これからはもっと私の力と運を頼りなさいな、この幸せ者のバカ指揮官♪",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"2": {
+						"event": "Acquisition",
+						"media": "get_9",
+						"chinese": "哼哼，让时雨大人进行改造，是个明智的选择呢！今后也多多依靠我的力量与好运吧，你这个幸运的笨蛋指挥官～",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"3": {
+						"event": "Login",
+						"media": "login_9",
+						"chinese": "今天要做什么？跟本时雨大人比运气吗？哈哈，明知会输还要送上门的大笨蛋，真有趣～",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"4": {
+						"event": "Details",
+						"media": "detail_9",
+						"chinese": "在看哪里啊？笨·蛋·指·挥·官？",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"5": {
+						"event": "Touch",
+						"media": "touch_1_9",
+						"chinese": "哼哼，是在对时雨打什么鬼主意吧～？指·挥·官～",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"6": {
+						"event": "Touch (Special)",
+						"media": "touch_2_9",
+						"chinese": "好在本时雨大人大发慈悲，才只是报警就完事了哦？现在就看你能跑多远了，哈哈～",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"7": {
+						"event": "Rub",
+						"media": "touch_head_9",
+						"chinese": "你干什么！？时雨大人可不是雪风啊！",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"8": {
+						"event": "Mission Complete",
+						"media": "mission_complete_9",
+						"chinese": "笨蛋指挥官在干嘛啊？真是的，任务奖励都已经送到啦！",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"9": {
+						"event": "Return to Port",
+						"media": "home_9",
+						"chinese": "哦~呵~呵~不用猜啦，反正你也知道本时雨大人会来迎接你的吧？指挥官～",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"10": {
+						"event": "Flagship",
+						"media": "warcry_9",
+						"chinese": "来吧，让你们见识时雨大人的能耐！",
 						"chineseTL": "",
 						"chineseNote": "",
 						"japanese": "",

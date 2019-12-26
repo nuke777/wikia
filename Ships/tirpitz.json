@@ -11,8 +11,7 @@
 	"hull": "Battleship",
 	"navy": "Ironblood",
 	"prefix": "KMS",
-	"buildTime": "",
-	"class": "Bismarck-Class",
+	"buildTime": "N/A",
 	"voiceActress": "Atsuko Tanaka",
 	"parameters": {
 		"firepower": "A",
@@ -28,18 +27,19 @@
 		"medal": "10"
 	},
 	"releaseDate": {
-		"JP": "",
-		"CN": "",
+		"JP": "December 26, 2017",
+		"CN": "August 2, 2017",
 		"KR": "",
-		"EN": ""
+		"EN": "December 13, 2018"
 	},
 	"artist": {
-		"name": "",
-		"weibo": "",
-		"twitter": "",
-		"pixiv": "",
+		"name": "八才提督",
+		"weibo": "https://weibo.com/vihao",
+		"twitter": "https://twitter.com/haorabbit",
+		"pixiv": "https://www.pixiv.net/member.php?id=1393609",
 		"other": ""
 	},
+	"class": "Bismarck-Class",
 	"enhance": {
 		"firepower": "68",
 		"torpedo": "4",
@@ -50,17 +50,17 @@
 	"skill": {
 		"1": {
 			"icon": "10670",
-			"requirement": "",
+			"requirement": "Default Unlocked",
 			"name": "Lone Queen of the North",
 			"type": "Offensive",
-			"description": "Increases the DMG this ship deals by $1 when there are no other BBs or BCs in the Main Fleet."
+			"description": "Increases this ship's DMG by 10%(30%) when there are no other BBs or BCs in your Main Fleet."
 		},
 		"2": {
 			"icon": "2091",
-			"requirement": "",
+			"requirement": "Default Unlocked",
 			"name": "Magnetic Torpedoes",
 			"type": "Offensive",
-			"description": "Every $1s: fires 4 magnetic torpedoes that track the enemy. Torpedo damage is based on the skill's level."
+			"description": "Every 35(15)s: fires 4 magnetic torpedoes that track the enemy. Torpedo DMG is based on the skill's level."
 		}
 	},
 	"skin": {
@@ -81,6 +81,28 @@
 			"expression": {
 				"0": {
 					"id": "0"
+				}
+			}
+		},
+		"3": {
+			"id": "tierbici_3",
+			"name": "Iron Blood Snowstorm",
+			"description": "I bet Bismarck must've been thinking about how to invite me to the party, but ended up asking you to do it, Commander. Hehe... Let's get going soon. It's best not to keep her waiting.",
+			"expression": {
+				"0": {
+					"id": "0"
+				},
+				"1": {
+					"id": "1"
+				},
+				"2": {
+					"id": "2"
+				},
+				"3": {
+					"id": "3"
+				},
+				"4": {
+					"id": "4"
 				}
 			}
 		}
@@ -214,17 +236,30 @@
 			"preload": "0/0/0/0"
 		},
 		"4": {
-			"type": "Auxiliary",
+			"type": "Auxilary",
 			"efficiency": "-",
 			"amount": "-",
 			"preload": "-"
 		},
 		"5": {
-			"type": "Auxiliary",
+			"type": "Auxilary",
 			"efficiency": "-",
 			"amount": "-",
 			"preload": "-"
 		}
+	},
+	"fleet_tech": {
+		"pt_get": "40",
+		"add_get_attr": "HP",
+		"add_get_value": "1",
+		"add_get_shiptype": "Battlecruiser,Battleship,Aviation Battleship",
+		"pt_upgrade": "80",
+		"pt_level": "60",
+		"add_level_attr": "Firepower",
+		"add_level_value": "2",
+		"add_level_shiptype": "Battlecruiser,Battleship,Aviation Battleship",
+		"t_level": "7",
+		"ships": "bismarck,tirpitz"
 	},
 	"build": {
 		"light": {
@@ -597,6 +632,42 @@
 						"japaneseNote": "",
 						"english": "Ahh... so this is the warmth of one's beating heart... It's melting the cold and despair remaining within me. Danke sehr, Commander. The \"Queen of the North\" is no longer alone.",
 						"englishNote": ""
+					},
+					"28": {
+						"event": "Like Present",
+						"media": "present_like",
+						"chinese": "",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"29": {
+						"event": "Dislike Present",
+						"media": "present_dislike",
+						"chinese": "",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"30": {
+						"event": "Main Title",
+						"media": "extra",
+						"chinese": "",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
 					}
 				}
 			},
@@ -616,22 +687,292 @@
 						"japaneseNote": "",
 						"english": "Summer... In the past, it was always just a hot and stifling season... But now...? Doesn't my outfit tell the whole story? Let's get going, there's bound to be a lot of people on the beach.",
 						"englishNote": ""
+					},
+					"2": {
+						"event": "Acquisition",
+						"media": "get_1",
+						"chinese": "夏天，对过去的我而言不过是个闷热的季节…如今么…？看到我的打扮还不明白吗？走吧，沙滩那里应该有许多人了",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "昔の私にとって、夏は蒸し暑い季節――ただそれだけだった。…今は…？この姿を見たらわかると思うが…行こう、皆はもう海辺に集まっているはずよ",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "In the past, I never saw summer as more than a hot and humid slog... But now? My outfit probably says it all... Let's go, everyone's already waiting for us at the beach.",
+						"englishNote": ""
+					},
+					"3": {
+						"event": "Login",
+						"media": "login_1",
+						"chinese": "指挥官，不用急，对我来说，等你是一件有意义的事",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "指揮官、急ぐ必要はないわ。あなたを待つことはそれだけ価値のあることよ",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Commander, there's no need to rush yourself. There is meaning in simply waiting for you.",
+						"englishNote": ""
+					},
+					"4": {
+						"event": "Details",
+						"media": "detail_1",
+						"chinese": "平日的战斗正是为了这片刻的安宁——而正是有休息，才能让我们的斗志更加昂扬",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "指揮官、思いっきり羽を伸ばしておいて。普段の戦闘はこの安寧のため――休憩あってこそ、私たちの闘志をより漲らせられるのよ",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Commander, enjoy yourself to the fullest. Our hard-fought battles are for the sake of peaceful moments like these... and our hard-earned breaks provide us with will to keep fighting.",
+						"englishNote": ""
+					},
+					"5": {
+						"event": "Main 1",
+						"media": "main_1_1",
+						"chinese": "和你一起在沙滩，即使只是坐着看海平线，也丝毫不会觉得无聊",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "隣にあなたがいれば、海の水平線を眺めているだけでも、退屈ではなくなるわ",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "As long as you're by my side, even looking off into the horizon is meaningful. ",
+						"englishNote": ""
+					},
+					"6": {
+						"event": "Main 2",
+						"media": "main_2_1",
+						"chinese": "部分同僚对我似乎有些误解，我并不是深居闺中的大小姐…呼，稍微陪她们玩玩好了，排球之类的",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "誤解されているようだけど、私は別に深窓のお嬢様でもなんでもないわ。……少し遊んでみようか。ビーチバレー",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Some of my colleagues seem to mistake me for some unapproachable ice queen... Perhaps playing beach volleyball with them would help... ",
+						"englishNote": ""
+					},
+					"7": {
+						"event": "Main 3",
+						"media": "main_3_1",
+						"chinese": "夕阳下和夜晚的沙滩景色很美，工作结束后一起去散散步吗？",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "夕焼け…夜の砂浜はいい景色。仕事が終わったら、一緒に海辺でも散歩してみないか？",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "The sunset and the beach at night are wonderful views. When you're done with work, want to accompany me for a walk along the shore?",
+						"englishNote": ""
+					},
+					"8": {
+						"event": "Touch",
+						"media": "touch_1_1",
+						"chinese": "稍微有些热……指挥官，空调能开大一点吗？",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "少し、蒸し熱い……指揮官、冷気を少し強めにお願いできるか？",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "It's a bit stuffy... Commander, would you mind turning up the air conditioner?",
+						"englishNote": ""
+					},
+					"9": {
+						"event": "Touch (Special)",
+						"media": "touch_2_1",
+						"chinese": "既然是夏天……也是没办法的事",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "夏だから……致し方ないのね……",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Even though it's summer... there are still some things you shouldn't do...",
+						"englishNote": ""
+					},
+					"10": {
+						"event": "Mission",
+						"media": "task_1",
+						"chinese": "就算是我，在夏天时也不会热衷于完成任务的，因为…很热",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "いくら私でも、夏場の任務にはそこまで熱はあがらない…熱い、から……",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Even I can't get fired up about doing missions during the summer... because it's too hot...",
+						"englishNote": ""
+					},
+					"11": {
+						"event": "Low HP",
+						"media": "hp_1",
+						"chinese": "等待机会，不要冒进",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					}
+				}
+			},
+			"3": {
+				"skin_id": "tierbici_3",
+				"id": "2",
+				"label": "Iron Blood Snowstorm",
+				"dialogue": {
+					"1": {
+						"event": "Ship Description",
+						"media": "",
+						"chinese": "我正在想，我的那位姐姐会怎么来邀请我，果然是拜托指挥官你了吗……呵呵，那就走吧，别让她等太久了——",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "姉さんならどう誘ってくれるかと思ってたところだったけど、やっぱり指揮官を頼ったわね……ふふ、では早く出発しましょう。あまり彼女を待たせない方がいいわ",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "我正在想，我的那位姐姐会怎么来邀请我，果然是拜托指挥官你了吗……呵呵，那就走吧，别让她等太久了——",
+						"englishNote": ""
+					},
+					"2": {
+						"event": "Acquisition",
+						"media": "get_2",
+						"chinese": "我正在想，我的那位姐姐会怎么来邀请我，果然是拜托指挥官你了吗……呵呵，那就走吧，别让她等太久了——",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "I bet Bismarck must've been thinking about how to invite me to the party, but ended up asking you to do it, Commander. Hehe... Let's get going soon. It's best not to keep her waiting.",
+						"englishNote": ""
+					},
+					"3": {
+						"event": "Login",
+						"media": "login_2",
+						"chinese": "你来了，指挥官。不用紧张，夜晚还很长",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "So you've come, Commander. Don't be anxious, the night is still young.",
+						"englishNote": ""
+					},
+					"4": {
+						"event": "Details",
+						"media": "detail_2",
+						"chinese": "其实，我也不知道和姐姐有什么可以聊的话题…不过，这一次，我们不缺时间。所以总会有话题的，不是吗？",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Truthfully, I still have a hard time conversing with Bismarck... But at least now, time is on our side. There will be plenty of things for us to talk about in the future, wouldn't you agree?",
+						"englishNote": ""
+					},
+					"5": {
+						"event": "Touch",
+						"media": "touch_1_2",
+						"chinese": "嗯？啊，没什么，我只是在思考，究竟是叫她“姐姐”，还是“俾斯麦”好呢",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Hm? Ah, don't worry. I was merely pondering if I should call her \"Bismarck\" or \"Sister.\"",
+						"englishNote": ""
+					},
+					"6": {
+						"event": "Touch (Special)",
+						"media": "touch_2_2",
+						"chinese": "嗯？我的紧张原来表现得这么明显吗？",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Huh? Was my discomfort that evident?",
+						"englishNote": ""
+					},
+					"7": {
+						"event": "Mission",
+						"media": "task_2",
+						"chinese": "有新的任务吗？没关系，那就让姐姐稍微多等一会儿吧",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Do we have new missions? Don't worry, Bismarck won't mind waiting a bit longer.",
+						"englishNote": ""
+					},
+					"8": {
+						"event": "Mission Complete",
+						"media": "mission_complete_2",
+						"chinese": "指挥官，难得的宴会，也不必太过焦急，先一起吃点什么吧",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Commander, we don't have too many of these banquets, so don't get too anxious about work. Let's have something to eat first.",
+						"englishNote": ""
+					},
+					"9": {
+						"event": "Mail",
+						"media": "mail_2",
+						"chinese": "舞蹈的邀请络绎不绝啊，指挥官。不如，我也邀请你跳一支舞吧？",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "We're getting all these requests to dance with you, Commander. Maybe I should put in one as well?",
+						"englishNote": ""
+					},
+					"10": {
+						"event": "Return to Port",
+						"media": "home_2",
+						"chinese": "指挥官，想知道我是怎么看待我的那位姐姐的吗？",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Commander, do you wish to know how I feel about Bismarck?",
+						"englishNote": ""
+					},
+					"11": {
+						"event": "Commission Complete",
+						"media": "expedition_2",
+						"chinese": "指挥官，似乎有新的委托完成了。去吧，我会在这里等你",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Commander, it seems like another commission has been completed. Go ahead and take care of it; I'll be waiting for you right here.",
+						"englishNote": ""
+					},
+					"12": {
+						"event": "Victory",
+						"media": "mvp_2",
+						"chinese": "如果是她…会怎么打这场仗呢？",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "If she was here... how would she have fought this battle?",
+						"englishNote": ""
+					},
+					"13": {
+						"event": "Affinity (Love)",
+						"media": "feeling5_2",
+						"chinese": "虽然幻想她请求你时的窘迫样子相当有趣，不过，真到了面对她时，我也无法像现在这样游刃有余吧……指挥官，到时候就要麻烦你了",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Just imagining Bismarck's embarrassment when asking you for a favor has provided me with quite the source of entertainment, but I don't think I'll be able to keep it together when I'm actually in front of her... Commander, that's where I'll be relying on you.",
+						"englishNote": ""
 					}
 				}
 			}
 		}
-	},
-	"fleet_tech": {
-		"pt_get": "40",
-		"add_get_attr": "HP",
-		"add_get_value": "1",
-		"add_get_shiptype": "Battlecruiser,Battleship,Aviation Battleship",
-		"pt_upgrade": "80",
-		"pt_level": "60",
-		"add_level_attr": "Firepower",
-		"add_level_value": "2",
-		"add_level_shiptype": "Battlecruiser,Battleship,Aviation Battleship",
-		"t_level": "7",
-		"ships": "tirpitz"
 	}
 }

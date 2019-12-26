@@ -53,14 +53,21 @@
 			"requirement": "",
 			"name": "Aerial Support",
 			"type": "Offensive",
-			"description": "When enemy aircraft are shot down within this ship's Anti-Air Gun range: increases this ship's FP and AA by $1 for 8s. Effect does not stack, but shooting down additional aircraft will refresh its duration."
+			"description": "When enemy aircraft are shot down within this ship's Anti-Air Gun range: increases this ship's FP and AA by 5.0% (25.0%) for 8s. Effect does not stack, but shooting down additional aircraft will refresh its duration."
 		},
-		"2": {
-			"icon": "21171",
-			"requirement": "",
-			"name": "All Out Assault: Ceres-Class I",
-			"type": "Offensive",
-			"description": "Activate All Out Assault: Ceres-Class I once every 24 times the main guns are fired."
+		"2" : {
+			"icon" : "1081",
+			"requirement" : "",
+			"name" : "Air Raid Assistance",
+			"type" : "Support",
+			"description" : "While this ship is afloat: increases the DMG of all Carriers in your fleet by 5.0% (15.0%). Does not stack with the same skill."
+		},
+		"3" : {
+			"icon" : "21171",
+			"requirement" : "",
+			"name" : "All Out Assault: Ceres-Class I",
+			"type" : "Offensive",
+			"description" : "Activates All Out Assault Ⅰ: Ceres Class once every 24 times the Main Guns are fired."
 		}
 	},
 	"skin": {
@@ -90,6 +97,25 @@
 				},
 				"3": {
 					"id": "3"
+				}
+			}
+		},
+		"3" : {
+			"id" : "biaoyu_g",
+			"name" : "カーリュー改",
+			"description" : "ロイヤルメイドの風格をより一層お見せできる様になりました。姉のキュラソーほどではありませんが、ご満足いただけるようご奉仕できるかと存じます。何卒よろしくお願い致します",
+			"expression" : {
+				"0" : {
+					"id" : "0"
+				},
+				"1" : {
+					"id" : "1"
+				},
+				"2" : {
+					"id" : "2"
+				},
+				"3" : {
+					"id" : "3"
 				}
 			}
 		}
@@ -164,38 +190,38 @@
 			"armor": "Light"
 		},
 		"100retrofit": {
-			"hp": "",
-			"firepower": "",
-			"torpedo": "",
-			"antiAir": "",
-			"aviation": "",
-			"reload": "",
-			"hit": "",
-			"evasion": "",
-			"speed": "29",
-			"luck": "45",
-			"asw": "",
-			"oxygen": "0",
-			"ammo": "0",
-			"cost": "9",
-			"armor": "Light"
+			"hp" : "2708",
+			"firepower" : "151",
+			"torpedo" : "0",
+			"antiAir" : "200",
+			"aviation" : "0",
+			"reload" : "165",
+			"hit" : "153",
+			"evasion" : "68",
+			"speed" : "29",
+			"luck" : "45",
+			"asw" : "46",
+			"oxygen" : "0",
+			"ammo" : "0",
+			"cost" : "9",
+			"armor" : "Light"
 		},
 		"120retrofit": {
-			"hp": "",
-			"firepower": "",
-			"torpedo": "",
-			"antiAir": "",
-			"aviation": "",
-			"reload": "",
-			"hit": "",
-			"evasion": "",
-			"speed": "29",
-			"luck": "45",
-			"asw": "",
-			"oxygen": "0",
-			"ammo": "0",
-			"cost": "9",
-			"armor": "Light"
+			"hp" : "3029",
+			"firepower" : "168",
+			"torpedo" : "0",
+			"antiAir" : "223",
+			"aviation" : "0",
+			"reload" : "190",
+			"hit" : "171",
+			"evasion" : "92",
+			"speed" : "29",
+			"luck" : "45",
+			"asw" : "53",
+			"oxygen" : "0",
+			"ammo" : "0",
+			"cost" : "9",
+			"armor" : "Light"
 		}
 	},
 	"limitBreak": {
@@ -711,6 +737,121 @@
 						"englishNote": ""
 					}
 				}
+			},
+			"3": {
+				"skin_id" : "biaoyu_g",
+				"id" : "9",
+				"label" : "カーリュー改",
+				"dialogue" : {
+					"1" : {
+						"event" : "Ship Description",
+						"media" : "",
+						"chinese" : "现在的我，似乎可以更好的向世人展现皇家女仆的风范了，虽然还比不上姐姐库拉索，不过我相信，现在的自己一定能够提供让指挥官满意的服务的，还请多多指教了",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "ロイヤルメイドの風格をより一層お見せできる様になりました。姉のキュラソーほどではありませんが、ご満足いただけるようご奉仕できるかと存じます。何卒よろしくお願い致します",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"2" : {
+						"event" : "Acquisition",
+						"media" : "get_9",
+						"chinese" : "现在的我，似乎可以更好的向世人展现皇家女仆的风范了，虽然还比不上姐姐库拉索，不过我相信，现在的自己一定能够提供让指挥官满意的服务的，还请多多指教了",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "ロイヤルメイドの風格をより一層お見せできる様になりました。姉のキュラソーほどではありませんが、ご満足いただけるようご奉仕できるかと存じます。何卒よろしくお願い致します",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"3" : {
+						"event" : "Details",
+						"media" : "detail_9",
+						"chinese" : "您很在意我的新装备吗？请放心，它们不会妨碍到女仆的日常工作。",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "新しい兵装がお気になさるのですか？メイドとしての責務に影響を及ぼしませんので、何卒ご安心くださいませ",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"4" : {
+						"event" : "Main 1",
+						"media" : "main_1_9",
+						"chinese" : "提高就是改变，而要达到完美就必须不断改变，希望您也能记住这句话呢，指挥官",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "「向上とは変化であり、完全になるとは変化し続けることである」――この言葉、ぜひ覚えていただきたく存じます",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"5" : {
+						"event" : "Main 2",
+						"media" : "main_2_9",
+						"chinese" : "新装备的日常养护是很费时的，这也许就是变强的代价吧",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "兵装のメンテナンスに時間がもっとかかるようになりした。強さへの対価、ということでしょうか",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"6" : {
+						"event" : "Main 3",
+						"media" : "main_3_9",
+						"chinese" : "学习礼仪也是一种修行，严于律己，方能律人，一起努力吧，指挥官。",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "礼儀作法を勉強するのは修行です。「己を律せる者こそ人を導ける」――ご主人様、一緒に頑張りましょう",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"7" : {
+						"event" : "Touch",
+						"media" : "touch_1_9",
+						"chinese" : "根据大家的建议，我将女仆装的裙摆改短了一些，您觉得如何？",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "皆様のご要望どおりメイド服に少し手直しを加えさせていただきました。ご主人様、いかがでしょうか？",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"8" : {
+						"event" : "Touch (Special)",
+						"media" : "touch_2_9",
+						"chinese" : "指、指挥官，您在做什么呢？！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "ご、ご主人様、これは……きゃっ！？",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"9" : {
+						"event" : "Return to Port",
+						"media" : "home_9",
+						"chinese" : "出击辛苦了，这是按照您现在的心情准备的红茶——体察主人的心情和状态是女仆的专长，请放心饮用吧",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "お疲れ様でございます。本日の紅茶はご主人様のご気分に合わせました。……ご主人様のご体調・ご気分を察するのはメイドの嗜みです。どうぞ安心して召し上がってくださいませ。ふふふ",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					}
+				}
 			}
 		}
 	},
@@ -726,5 +867,6 @@
 		"add_level_shiptype": "Light Cruiser",
 		"t_level": "2",
 		"ships": "curacoa,curlew"
-	}
+	},
+	"retroParameter": "Elite, Light Cruiser, 2"
 }

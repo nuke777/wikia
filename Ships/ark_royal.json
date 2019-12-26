@@ -11,7 +11,7 @@
 	"hull": "Aircraft Carrier",
 	"navy": "Royal Navy",
 	"prefix": "HMS",
-	"buildTime": "",
+	"buildTime": "04:00:00",
 	"class": "Ark Royal-Class",
 	"voiceActress": "Asuka Itou",
 	"parameters": {
@@ -28,16 +28,16 @@
 		"medal": "4"
 	},
 	"releaseDate": {
-		"JP": "",
-		"CN": "",
-		"KR": "",
-		"EN": ""
+		"JP": "September 13, 2017",
+		"CN": "May 25, 2017",
+		"KR": "March 27, 2018",
+		"EN": "August 16, 2018"
 	},
 	"artist": {
-		"name": "",
-		"weibo": "",
-		"twitter": "",
-		"pixiv": "",
+		"name": "MKiiiiii",
+		"weibo": "https://www.weibo.com/kawa33?is_hot=1",
+		"twitter": "https://twitter.com/33kawa",
+		"pixiv": "https://www.pixiv.net/member.php?id=661601",
 		"other": ""
 	},
 	"enhance": {
@@ -50,17 +50,17 @@
 	"skill": {
 		"1": {
 			"icon": "10330",
-			"requirement": "",
+			"requirement": "Default Unlocked",
 			"name": "Swordfishes, Strike!",
 			"type": "Offensive",
-			"description": "When this ship launches an Airstrike: launches an additional special airstrike with Swordfishes $1 and decreases the Speed of all onscreen enemies by $2 for 8s."
+			"description": "When this ship launches an Airstrike: launches an additional special airstrike with Swordfishes (Power++) and decreases the Speed of all onscreen enemies by 30.0% (60.0%) for 8s."
 		},
 		"2": {
 			"icon": "3011",
-			"requirement": "",
+			"requirement": "Default Unlocked",
 			"name": "Assault Carrier",
 			"type": "Offensive",
-			"description": "When this ship launches an Airstrike: $1 chance for the Airstrike to deal double DMG."
+			"description": "When this ship launches an Airstrike: 15.0% (25.0%) chance for the Airstrike to deal double DMG."
 		}
 	},
 	"skin": {
@@ -76,8 +76,8 @@
 		},
 		"2": {
 			"id": "huangjiafangzhou_2",
-			"name": "コーストウォッチャー",
-			"description": "夏、砂浜、くちく……コホン！そうだ！海を楽しむのもいいが、敵を駆逐するのも忘れるでないぞ！閣下、このアーク・ロイヤル、水着姿でも準備万端だ！",
+			"name": "Coast Watcher ",
+			"description": "Nothing says summer like the sun, the beach, and destroyers... Ahem! Th-that's right! Even though we're relaxing, we still have to keep an eye out for enemy destroyers! Commander, I may be in a swimsuit, but I'm ready to sortie at any time! ",
 			"expression": {
 				"0": {
 					"id": "0"
@@ -103,6 +103,34 @@
 				},
 				"4": {
 					"id": "4"
+				}
+			}
+		},
+		"4": {
+			"id": "huangjiafangzhou_4",
+			"name": "New Year's Protectress",
+			"description": "Commander, Happy New Year. Oh no, I'm not going hunting. I'm patrolling the port during the New Year's celebrations. Naturally, I volunteered for the job.",
+			"expression": {
+				"0": {
+					"id": "0"
+				},
+				"1": {
+					"id": "1"
+				},
+				"2": {
+					"id": "2"
+				},
+				"3": {
+					"id": "3"
+				},
+				"4": {
+					"id": "4"
+				},
+				"5": {
+					"id": "5"
+				},
+				"6": {
+					"id": "6"
 				}
 			}
 		}
@@ -260,9 +288,9 @@
 			"EN": ""
 		},
 		"special": {
-			"JP": "",
-			"CN": "",
-			"EN": ""
+			"JP": "✓",
+			"CN": "✓",
+			"EN": "✓"
 		},
 		"limited": {
 			"JP": "",
@@ -271,16 +299,28 @@
 		}
 	},
 	"drop": {
-		"droppable": "false",
+		"droppable": "true",
 		"list": {
 			"1": {
-				"event": "",
+				"event": "World",
 				"chapter": {
 					"1": {
-						"label": "Ch .1",
+						"label": "Ch.6",
 						"node": {
 							"1": {
+								"drop": "-",
+								"note": "-"
+							},
+							"2": {
+								"drop": "-",
+								"note": "-"
+							},
+							"3": {
 								"drop": "✓",
+								"note": "-"
+							},
+							"4": {
+								"drop": "-",
 								"note": "-"
 							}
 						}
@@ -643,13 +683,49 @@
 						"japaneseNote": "",
 						"english": "I've got to set an example for the others!",
 						"englishNote": ""
+					},
+					"30": {
+						"event": "Like Present",
+						"media": "present_like",
+						"chinese": "",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"31": {
+						"event": "Dislike Present",
+						"media": "present_dislike",
+						"chinese": "",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"32": {
+						"event": "Main Title",
+						"media": "extra",
+						"chinese": "",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
 					}
 				}
 			},
 			"2": {
 				"skin_id": "huangjiafangzhou_2",
 				"id": "1",
-				"label": "コーストウォッチャー",
+				"label": "Coast Watcher ",
 				"dialogue": {
 					"1": {
 						"event": "Ship Description",
@@ -660,7 +736,7 @@
 						"japanese": "夏、砂浜、くちく……コホン！そうだ！海を楽しむのもいいが、敵を駆逐するのも忘れるでないぞ！閣下、このアーク・ロイヤル、水着姿でも準備万端だ！",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Nothing says summer like the sun, the beach, and destroyers... Ahem! Th-that's right! Even though we're relaxing, we still have to keep an eye out for enemy destroyers! Commander, I may be in a swimsuit, but I'm ready to sortie at any time!",
 						"englishNote": ""
 					},
 					"2": {
@@ -672,7 +748,7 @@
 						"japanese": "夏、砂浜、くちく……コホン！そうだ！海を楽しむのもいいが、敵を駆逐するのも忘れるでないぞ！閣下、このアーク・ロイヤル、水着姿でも準備万端だ！",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Nothing says summer like the sun, the beach, and destroyers... Ahem! Th-that's right! Even though we're relaxing, we still have to keep an eye out for enemy destroyers! Commander, I may be in a swimsuit, but I'm ready to sortie at any time!",
 						"englishNote": ""
 					},
 					"3": {
@@ -684,7 +760,7 @@
 						"japanese": "夏か……閣下は夏が好きか？私は好きだぞ",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Summer, huh... Commander, do you enjoy the summertime? I know I do.",
 						"englishNote": ""
 					},
 					"4": {
@@ -696,7 +772,7 @@
 						"japanese": "駆逐艦の妹たちだけで砂浜で遊ぶのは危険だな……時間帯を設け、集中して遊んでもらえるように具申する！",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "It is dangerous to let the destroyers play on the beach alone... I suggest setting aside time every day to allow them to frolic together.",
 						"englishNote": ""
 					},
 					"5": {
@@ -708,7 +784,7 @@
 						"japanese": "閣下、実は砂浜で遊ぶ遊具を購入したがいまいち使い方がわからないのだ。後学のために駆逐艦の妹たちのところへ教えてもらいに行っても大丈夫だろうか…？",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "To be honest, Commander, I wanted to provide everyone with some toys to play with while on the beach, but don't know what would be well received. Could I go consult the destroyers to see what they think? ",
 						"englishNote": ""
 					},
 					"6": {
@@ -720,7 +796,7 @@
 						"japanese": "閣下、どうしてこっちを……「黙っていれば美人なのに」だと！？",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Commander, why have you been staring at me this whole time? Huh, I'm \"quite the beauty when I'm not running my mouth\"...?! ",
 						"englishNote": ""
 					},
 					"7": {
@@ -732,7 +808,7 @@
 						"japanese": "趣味がちょっと変わっているかもしれないが、秘書艦としては自信があるんだぞ！仕事はぜひ私にまかせてくれ！",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Some say that my tastes are a bit questionable, but I have complete confidence in my abilities as secretary ship. I'll take care of the work!",
 						"englishNote": ""
 					},
 					"8": {
@@ -744,7 +820,7 @@
 						"japanese": "水着姿で泳いでいる駆逐艦が！？どこだ！……閣下！からかわないでくれ！",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Destroyers frolicking around in swimsuits? Where?! ...Commander, don't mess with me like that!",
 						"englishNote": ""
 					}
 				}
@@ -884,6 +960,97 @@
 						"japaneseTL": "",
 						"japaneseNote": "",
 						"english": "Time to get rid of some troublemakers!",
+						"englishNote": ""
+					}
+				}
+			},
+			"4": {
+				"skin_id": "huangjiafangzhou_4",
+				"id": "3",
+				"label": "New Year's Protectress",
+				"dialogue": {
+					"1": {
+						"event": "Ship Description",
+						"media": "",
+						"chinese": "哟，指挥官，新年快乐。不，我并不是准备去打猎，我只是在负责新年期间港区的安保而已——当然是自愿的。",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "閣下、あけましておめでとう。ああ、別に狩りに出るのではなく、お正月の母港の見回りをしているんだ。もちろん、私から手を挙げてやらせてもらったんだぞ？",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Commander, Happy New Year. Oh no, I'm not going hunting. I'm patrolling the port during the New Year's celebrations. Naturally, I volunteered for the job.",
+						"englishNote": ""
+					},
+					"2": {
+						"event": "Acquisition",
+						"media": "get_3",
+						"chinese": "哟，指挥官，新年快乐。不，我并不是准备去打猎，我只是在负责新年期间港区的安保而已——当然是自愿的。",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"3": {
+						"event": "Login",
+						"media": "login_3",
+						"chinese": "越是温馨和谐的场景，越是让人想要守护好它。指挥官，你觉得呢？",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"4": {
+						"event": "Details",
+						"media": "detail_3",
+						"chinese": "这把枪也能用来发射礼炮。在晚宴上，本人会让它派上用场的！",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"5": {
+						"event": "Touch",
+						"media": "touch_1_3",
+						"chinese": "指挥官，你要亲自试试发射礼炮吗？可要小心后坐力。",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"6": {
+						"event": "Touch (Special)",
+						"media": "touch_2_3",
+						"chinese": "衣服领口歪了？啊，谢谢。……等等，不，不是这样的吧？！",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"7": {
+						"event": "Return to Port",
+						"media": "home_3",
+						"chinese": "能在这里守望着驱逐——舰队的大家，对我来说，就是新年最好的礼物了呢。",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
 						"englishNote": ""
 					}
 				}
