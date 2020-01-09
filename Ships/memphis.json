@@ -98,8 +98,8 @@
 		},
 		"3": {
 			"id": "mengfeisi_3",
-			"name": "ミスティックナイト",
-			"description": "お祭り騒ぎは全力でやってこそよ？指揮官、準備はいいかしら？全力でハロウィンを楽しんでいくわよ？",
+			"name": "Mystical Night",
+			"description": "We have to work hard if we want to play hard, isn't that right, Commander? Are you ready for our happy Halloween? ",
 			"expression": {
 				"0": {
 					"id": "0"
@@ -776,7 +776,7 @@
 			"3": {
 				"skin_id": "mengfeisi_3",
 				"id": "2",
-				"label": "ミスティックナイト",
+				"label": "Mystical Night",
 				"dialogue": {
 					"1": {
 						"event": "Ship Description",
@@ -787,7 +787,7 @@
 						"japanese": "お祭り騒ぎは全力でやってこそよ？指揮官、準備はいいかしら？全力でハロウィンを楽しんでいくわよ？",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "We have to work hard if we want to play hard, isn't that right, Commander? Are you ready for our happy Halloween? ",
 						"englishNote": ""
 					},
 					"2": {
@@ -796,10 +796,10 @@
 						"chinese": "就算是狂欢，也要拿出干劲，全力以赴才行呢~指挥官，准备好了吗？愉快的万圣之夜现在才要开始呢~",
 						"chineseTL": "",
 						"chineseNote": "",
-						"japanese": "",
+						"japanese": "お祭り騒ぎは全力でやってこそよ？指揮官、準備はいいかしら？全力でハロウィンを楽しんでいくわよ？",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "We have to work hard if we want to play hard, isn't that right, Commander? Are you ready for our happy Halloween? ",
 						"englishNote": ""
 					},
 					"3": {
@@ -808,10 +808,10 @@
 						"chinese": "指挥官来得正好~一起来做个南瓜灯吧？可要按照我的最高标准来做~",
 						"chineseTL": "",
 						"chineseNote": "",
-						"japanese": "",
+						"japanese": "指揮官、ちょうどいいところに。カボチャランプを作るの、手伝ってくれない？ふふ、作るからには私のペースで行くわよ？",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Commander, you came at just the right time~! Shall we go carve the jack-o'-lanterns together? Just make sure you keep up with my high standards!",
 						"englishNote": ""
 					},
 					"4": {
@@ -820,58 +820,94 @@
 						"chinese": "指挥官要来颗糖果吗？我从阿贝克隆比那里拿来的~（瞄）",
 						"chineseTL": "",
 						"chineseNote": "",
-						"japanese": "",
+						"japanese": "指揮官、お菓子でもいかがかしら？アバークロンビーちゃんからもらってきたの",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Commander, are you here to trick-or-treat? Here, I got this candy from Abercrombie.",
 						"englishNote": ""
 					},
 					"5": {
+						"event": "Main 1",
+						"media": "main_1_2",
+						"chinese": "给来访的孩子们发糖果的任务就交给你了，指挥官~…我？嘻嘻，当然是想办法再要点糖果回来~",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "指揮官、お菓子配りを任せるわよ。私？ふふ、もちろんお菓子をもうちょっと調達してくるわ",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "I'll let you handle giving candy out to the trick-or-treaters, Commander~ Me? Hehe, of course I'm going to go bring back more candy~ ",
+						"englishNote": ""
+					},
+					"6": {
+						"event": "Main 2",
+						"media": "main_2_2",
+						"chinese": "现在的我可是魔女哦，不好好表现的话，就把你变成幽灵~嘻嘻，开玩笑的",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "ええ、魔女として素行の悪い指揮官をお化けにしちゃおうかしら？ふふ、冗談よ",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "I'm a witch now, so if you're not on your best behavior, I'll turn you into a critter~ Hehe, just kidding! ",
+						"englishNote": ""
+					},
+					"7": {
+						"event": "Main 3",
+						"media": "main_3_2",
+						"chinese": "扫帚和魔女可是标准搭配，不接受反驳哦",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "魔法とホウキこそ定番――反論なんて許さないわよ？",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Look, a witch and her broomstick are always paired together. I won't hear your objections!",
+						"englishNote": ""
+					},
+					"8": {
 						"event": "Touch",
 						"media": "touch_1_2",
 						"chinese": "指挥官也想和我一起坐扫帚吗？真拿你没办法…掉下去我可不管哦？",
 						"chineseTL": "",
 						"chineseNote": "",
-						"japanese": "",
+						"japanese": "指揮官もこのホウキに乗りたいのかしら？しょうがないわね…落ちても知らないわよ？",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Commander, you'd like to sit on the broom with me? I suppose you can... but it's not my problem if you fall off, okay?",
 						"englishNote": ""
 					},
-					"6": {
+					"9": {
 						"event": "Touch (Special)",
 						"media": "touch_2_2",
 						"chinese": "…还是把你从扫帚上踢下去算了！",
 						"chineseTL": "",
 						"chineseNote": "",
-						"japanese": "",
+						"japanese": "…蹴り落としてやるわよ！",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "... I should just boot you off the broomstick and be done with it!",
 						"englishNote": ""
 					},
-					"7": {
+					"10": {
 						"event": "Return to Port",
 						"media": "home_2",
 						"chinese": "大家都在用各自的方式享受着万圣节呢，嗯嗯~很好很好~",
 						"chineseTL": "",
 						"chineseNote": "",
-						"japanese": "",
+						"japanese": "みんなハロウィンを楽しんでるわね。ふふ、良かったわ",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Everyone has a different way of enjoying Halloween. Hehe, that's how it should be~",
 						"englishNote": ""
 					},
-					"8": {
+					"11": {
 						"event": "Flagship",
 						"media": "warcry_2",
 						"chinese": "让你们尝尝魔女的厉害~",
 						"chineseTL": "",
 						"chineseNote": "",
-						"japanese": "",
+						"japanese": "魔女の力を思い知りなさい！",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Have a taste of a witch's power!",
 						"englishNote": ""
 					}
 				}
