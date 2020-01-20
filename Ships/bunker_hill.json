@@ -12,7 +12,7 @@
 	"navy": "Eagle Union",
 	"prefix": "USS",
 	"buildTime": "N/A",
-	"class": "エセックス級",
+	"class": "Essex-Class",
 	"parameters": {
 		"firepower": "E",
 		"torpedo": "E",
@@ -30,7 +30,7 @@
 		"JP": "March 22, 2019",
 		"CN": "March 22, 2019",
 		"KR": "March 22, 2019",
-		"EN": ""
+		"EN": "January 17, 2020"
 	},
 	"artist": {
 		"name": "德意志的科学",
@@ -45,19 +45,19 @@
 		"aviation": "67",
 		"reload": "9"
 	},
-	"acquisitionMethod": "Drop 13-4",
+	"acquisitionMethod": "Explore Stage13-4",
 	"skill": {
 		"1": {
 			"icon": "11980",
 			"requirement": "Default Unlocked",
-			"name": "Task Group",
+			"name": "Task Force Leader",
 			"type": "Support",
 			"description": "Increase self Aviation by 5 (15%). When used as flagship, increase allied Eagle Union Battleship Firepower by 5% (15%). When not used as a flagship, increase Eagle Union Destroyer Firepower and Anti-Air by 5% (15%)"
 		},
 		"2": {
 			"icon": "11990",
 			"requirement": "Default Unlocked",
-			"name": "Indomitable Perseverance",
+			"name": "Unwavering Resolution",
 			"type": "Offensive",
 			"description": "When there are no CV/CVL in the allied fleet, increase allied main fleet Anti-Air by 4.5% (12%). After launching an airstrike, launch an Aviation Barrage:<br>&emsp;★Fighter: 2x100lb (121 DMG) 120% Efficiency<br>&emsp;★Dive Bomber: 1x2000lb (456 DMG) + 2x100lb (121 DMG) 120% Efficiency<br>&emsp;★Torpedo Bomber: 3x Air Torpedo (240 DMG) 100% Efficiency<br>When there is only one CV/CVL, only launches a Fighter. When there are two CV/CVL, launches a Fighter and a Dive Bomber. When there are three CV/CVL, launches a Fighter, a Dive Bomber and a Torpedo Bomber."
 		}
@@ -65,8 +65,8 @@
 	"skin": {
 		"1": {
 			"id": "bangkeshan",
-			"name": "Bunker Hill",
-			"description": "Essex-Class Aircraft Carrier - Essex (CV-17)",
+			"name": "Bunker Hill ",
+			"description": "Essex-class aircraft carrier – Bunker Hill, Hull Number CV-17. ",
 			"expression": {
 				"0": {
 					"id": "0"
@@ -178,9 +178,9 @@
 		}
 	},
 	"limitBreak": {
-		"tier1": "Number of Fighters +1, All Plane Efficiency +3%",
-		"tier2": "Hangar Capacity +1, Number of Dive Bombers +1, All Plane Efficiency +5%",
-		"tier3": "Number of All Planes +1, All Plane Efficiency +7%"
+		"tier1": "All fighters +1/Aircraft efficiency +3%",
+		"tier2": "Hangar capacity +1/All Dive Bombers +1/Aircraft efficiency +5%",
+		"tier3": "All aircraft +1/Aircraft efficiency +7%"
 	},
 	"equipmentLoadout": {
 		"1": {
@@ -272,7 +272,7 @@
 			"1": {
 				"skin_id": "bangkeshan",
 				"id": "0",
-				"label": "バンカー・ヒル",
+				"label": "Bunker Hill ",
 				"dialogue": {
 					"1": {
 						"event": "Ship Description",
@@ -283,7 +283,7 @@
 						"japanese": "エセックス級航空母艦・バンカー・ヒル（CV-17)",
 						"japaneseTL": "Essex-class aircraft carrier Bunker Hill (CV-17)",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Essex-class aircraft carrier – Bunker Hill, Hull Number CV-17.",
 						"englishNote": ""
 					},
 					"2": {
@@ -295,7 +295,7 @@
 						"japanese": "エセックス級のバンカー・ヒルだ。名はかの独立戦争の戦場から来ている。活躍した戦闘は多いが…悲しみと痛みをもたらす戦争のことだ。多くは語るまい",
 						"japaneseTL": "I'm Bunker Hill of the Essex-class. I'm named after that battlefield of the Revolutionary War. I've participated in many battles but... it was a war that brought about sadness and pain. I won't talk much about it.",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Essex-class, Bunker Hill. My name comes from a battlefield in the Revolutionary War. I've seen my fair share of battles... and know that war brings nothing but sorrow and pain. Let's not talk about it any more.",
 						"englishNote": ""
 					},
 					"3": {
@@ -307,7 +307,7 @@
 						"japanese": "エセックス級の一人、このバンカー・ヒルが艦隊に加わり、お前の指揮下に入った。案ずるな、じきにお前も私の実力を目にすることになるだろう",
 						"japaneseTL": "As one of the Essex-class, this Bunker Hill is joining the fleet under your command. Fear not, for you too will soon witness my true strength.",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Bunker Hill, one of the Essex-class carriers, is joining the fleet under your command. Don't worry, you'll see the extent of my abilities soon enough.",
 						"englishNote": ""
 					},
 					"4": {
@@ -319,7 +319,7 @@
 						"japanese": "今は非常時だ。休日でも「ホリデーエクスプレス」の覚悟をしてくれたまえ",
 						"japaneseTL": "Now is a time of crisis. Even during days off, please be prepared for the \"Holiday Express\"",
 						"japaneseNote": "",
-						"english": "",
+						"english": "We're in a state of emergency. Be prepared to run the Holiday Express, even if it's a holiday.",
 						"englishNote": ""
 					},
 					"5": {
@@ -331,7 +331,7 @@
 						"japanese": "指揮官、なぜこちらを見つめている……？",
 						"japaneseTL": "Commander, why are you staring my way...?",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Commander, why are you staring at me...?",
 						"englishNote": ""
 					},
 					"6": {
@@ -343,7 +343,7 @@
 						"japanese": "今日もどこかでは、戦争の炎に巻き込まれているのだな",
 						"japaneseTL": "I wonder if today too, some place will be swallowed by the flames of war.",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Right now, another place out there is being engulfed by the flames of war...",
 						"englishNote": ""
 					},
 					"7": {
@@ -355,7 +355,7 @@
 						"japanese": "エルドリッジの能力？あまりよくわからないが……どこかで見たような……",
 						"japaneseTL": "Eldridge's ability? Even though I don't understand it well...I feel like I've seen it somewhere...",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Eldridge's ability? I'm not exactly sure, but... I feel like I've seen it somewhere... ",
 						"englishNote": ""
 					},
 					"8": {
@@ -367,7 +367,7 @@
 						"japanese": "エセックス級攻撃空母編隊の前で、抵抗など無意味だ",
 						"japaneseTL": "Resistance is meaningless before the attack formation of the Essex-class.",
 						"japaneseNote": "",
-						"english": "",
+						"english": "All resistance is meaningless before the Essex-class's attack formation.",
 						"englishNote": ""
 					},
 					"9": {
@@ -379,7 +379,7 @@
 						"japanese": "……沈黙は苛立ちを意味しているわけではない。用事があれば声をかけてくれ",
 						"japaneseTL": "...It's not like my silence is a sign of me being irritated. Call out to me if there's something to do.",
 						"japaneseNote": "",
-						"english": "",
+						"english": "...Don't think I'm upset just because I have little to say. Just let me know if you need anything.",
 						"englishNote": ""
 					},
 					"10": {
@@ -391,7 +391,7 @@
 						"japanese": "どうやら指揮官には記憶に残る「体験」が必要のようだな",
 						"japaneseTL": "Seems like Commander is in need of a memorable \"physical experience\".",
 						"japaneseNote": "",
-						"english": "",
+						"english": "By the looks of things, you won't learn your lesson without some harder-hitting \"experience.\"",
 						"englishNote": ""
 					},
 					"11": {
@@ -403,7 +403,7 @@
 						"japanese": "任務…早くこなしたほうがいい",
 						"japaneseTL": "Missions...It'd be good to finish them fast.",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Missions... should best be completed in a timely manner.",
 						"englishNote": ""
 					},
 					"12": {
@@ -415,7 +415,7 @@
 						"japanese": "報酬が多い？当然だ",
 						"japaneseTL": "There's a lot of rewards? That's only natural.",
 						"japaneseNote": "",
-						"english": "",
+						"english": "There are a ton of rewards? Of course.",
 						"englishNote": ""
 					},
 					"13": {
@@ -427,7 +427,7 @@
 						"japanese": "メール…新しい情報はあるか？",
 						"japaneseTL": "Mail...is there new information?",
 						"japaneseNote": "",
-						"english": "",
+						"english": "The mail's here... Wonder if there's any new intel?",
 						"englishNote": ""
 					},
 					"14": {
@@ -439,7 +439,7 @@
 						"japanese": "戻ったか。……では、次の出撃の準備に入るか？",
 						"japaneseTL": "You're back? ...then let us begin the preparations for the next sortie.",
 						"japaneseNote": "",
-						"english": "",
+						"english": "You've returned? ...Very well. Why don't we prepare for the next sortie?",
 						"englishNote": ""
 					},
 					"15": {
@@ -451,7 +451,7 @@
 						"japanese": "すまん、委託から戻ってきた子たちを出迎えてくる。お前はここで結果を待っていればいい",
 						"japaneseTL": "Excuse me, I'll go welcome the girls who've returned from the commission. You should wait here for the results.",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Pardon, but I'll go greet the girls who are coming back from their commission. Just wait here until I report back.",
 						"englishNote": ""
 					},
 					"16": {
@@ -463,7 +463,7 @@
 						"japanese": "また…強くなったか",
 						"japaneseTL": "I've become stronger again, huh.",
 						"japaneseNote": "",
-						"english": "",
+						"english": "I grow stronger... yet again...",
 						"englishNote": ""
 					},
 					"17": {
@@ -475,7 +475,7 @@
 						"japanese": "なぜ敵になるのを選んだか……！",
 						"japaneseTL": "Why did you choose to be our enemies...!",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Why did they choose to become our enemy...?!",
 						"englishNote": ""
 					},
 					"18": {
@@ -487,7 +487,7 @@
 						"japanese": "お前たちが選んだ結末はこれか",
 						"japaneseTL": "So this is the end you chose",
 						"japaneseNote": "",
-						"english": "",
+						"english": "So this is the end that you all chose...",
 						"englishNote": ""
 					},
 					"19": {
@@ -499,7 +499,7 @@
 						"japanese": "その力……「竜の顎（ドラゴンジョーズ）」をも凌ぐ強敵だというのか…！",
 						"japaneseTL": "That power...an enemy formidable enough to endure \"Dragon's Jaws\"...!",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Their power... surpasses even the \"Dragon's Jaws\"...?",
 						"englishNote": ""
 					},
 					"20": {
@@ -511,7 +511,7 @@
 						"japanese": "足掻くな！",
 						"japaneseTL": "Don't struggle!",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Resistance is futile!",
 						"englishNote": ""
 					},
 					"21": {
@@ -523,7 +523,7 @@
 						"japanese": "このタイミングで……！",
 						"japaneseTL": "This timing...!",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Why now of all times...?!",
 						"englishNote": ""
 					},
 					"22": {
@@ -535,7 +535,7 @@
 						"japanese": "今は話したくない",
 						"japaneseTL": "I don't want to talk right now.",
 						"japaneseNote": "",
-						"english": "",
+						"english": "I'd rather not talk to you right now.",
 						"englishNote": ""
 					},
 					"23": {
@@ -547,7 +547,7 @@
 						"japanese": "人間の戦争に美しさなど存在しない。傷つけ合い、殺し合いなど醜いものしか存在しないのだ",
 						"japaneseTL": "There is no such thing as beauty in mankind's war. Only unsightly things like hurt and death exist.",
 						"japaneseNote": "",
-						"english": "",
+						"english": "There is no beauty in warfare. There is only ugliness in the suffering and loss of life we inflict upon each other.",
 						"englishNote": ""
 					},
 					"24": {
@@ -559,7 +559,7 @@
 						"japanese": "…沈黙は苛立ちを意味しているわけではない。考え込んでいる、もしくは考え込んだことをどうやって言い出すか、考え込んでしまっているだけだ",
 						"japaneseTL": "...It's not like my silence is a sign of me being irritated. I'm simply lost in thought, or pondering how to express the things I'm thinking about.",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Don't think I'm upset just because I have little to say. If anything, I'm probably thinking about something, or about how to express myself.",
 						"englishNote": ""
 					},
 					"25": {
@@ -571,7 +571,7 @@
 						"japanese": "最近、思考が妙によく阻害される気がする。考え込むと、ついつい誰かの顔が思い浮かび、冷静ではいられなくなる……",
 						"japaneseTL": "Lately, I feel like my thoughts are disrupted by something weird. Whenever I get lost in thought, a certain someone's face would unintentionally come to mind, and I would lose my composure...",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Something strange has been going on with my thoughts recently. Whenever I start thinking about things, your face pops up in my head and makes it hard for me to stay calm...",
 						"englishNote": ""
 					},
 					"26": {
@@ -583,7 +583,7 @@
 						"japanese": "戦いのために生まれた私たちは、戦闘以外に存在価値などないと思った。お前との日々を過ごして、私たちには戦うこと以外にも生きる価値がある――そんな…気がする",
 						"japaneseTL": "I thought that we, who had been born for war, had nothing to live for but the battlefield. But spending my days with you, I feel like... there's more to live for than just waging war.",
 						"japaneseNote": "",
-						"english": "",
+						"english": "We were born as weapons of warfare, and I thought that is all we would ever be. But having spent time with you, I'm beginning to think... that there's more to our lives than war.",
 						"englishNote": ""
 					},
 					"27": {
@@ -595,7 +595,7 @@
 						"japanese": "すまない…頭の中が真っ白だ。くっ、一体なにを言えば……そうだ！「お前への忠誠と愛は永遠に続くだろう」――これでいいか？",
 						"japaneseTL": "I'm sorry...my mind is blank right now. Ugh, just what should I say... I got it! \"My loyalty and love for you will surely continue for all eternity\" - is this alright?",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Sorry... My mind has gone completely blank... I'm lost for words... Oh, that's right! \"I pledge loyalty and love to you until the end of time.\" ...How does that sound?",
 						"englishNote": ""
 					},
 					"28": {
@@ -607,7 +607,7 @@
 						"japanese": "エセックス級の前でお前たちは無力だ",
 						"japaneseTL": "You're powerless before the Essex-class",
 						"japaneseNote": "",
-						"english": "",
+						"english": "You are nothing before the Essex class.",
 						"englishNote": ""
 					},
 					"29": {
@@ -619,7 +619,7 @@
 						"japanese": "レインボープラン？…いい響きだな……",
 						"japaneseTL": "Rainbow Plan? ...it's got a nice ring to it...",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Project Rainbow? ...It has a nice ring to it...",
 						"englishNote": ""
 					},
 					"30": {
@@ -674,5 +674,6 @@
 		"add_level_shiptype": "Light Aircraft Carrier,Aircraft Carrier",
 		"t_level": "8",
 		"ships": "essex,bunker_hill,shangri-la"
-	}
+	},
+	"voiceActress": "Kana Ichinose"
 }
