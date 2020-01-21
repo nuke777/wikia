@@ -1,883 +1,1023 @@
 {
-  "name_reference": "sirius",
-  "cn_reference": "tianlangxing",
-  "nameJP": "シリアス",
-  "nameCN": "天狼星",
-  "ID": "371",
-  "name": "Sirius",
-  "internal_id": "202201",
-  "rarity": "Super Rare",
-  "initialStar": "★★★☆☆☆",
-  "hull": "Light Cruiser",
-  "navy": "Royal Navy",
-  "prefix": "HMS",
-  "buildTime": "",
-  "class": "Dido-Class",
-  "parameters": {
-    "firepower": "B",
-    "torpedo": "D",
-    "aviation": "E",
-    "evasion": "B",
-    "antiAir": "A",
-    "hp": "C"
-  },
-  "scrap": {
-    "gold": "6",
-    "oil": "3",
-    "medal": "10"
-  },
-  "releaseDate": {
-    "JP": "",
-    "CN": "",
-    "KR": "",
-    "EN": ""
-  },
-  "artist": {
-    "name": "",
-    "weibo": "",
-    "twitter": "",
-    "pixiv": "",
-    "other": ""
-  },
-  "enhance": {
-    "firepower": "12",
-    "torpedo": "10",
-    "aviation": "0",
-    "reload": "13"
-  },
-  "acquisitionMethod": "Event: Winter's Crown",
-  "skill": {
-    "1": {
-      "icon": "11860",
-      "requirement": "",
-      "name": "Mark of Sirius ",
-      "type": "Support",
-      "description": "Increases the AVI of all friendly CVs and CVLs by 1.0% (10.0%) and increases their Hit Rate against DDs, CLs, and CAs by 1.0% (10.0%). Additionally, for each friendly CV or CVL in the Main Fleet: increases this ship's FP, TRP, and RLD by 1.5% (7.0%)."
-    },
-    "2": {
-      "icon": "2071",
-      "requirement": "",
-      "name": "Cover Fire",
-      "type": "Offensive",
-      "description": "Increases this ship's FP by 10.0% (20.0%)."
-    },
-    "3": {
-      "icon": "29361",
-      "requirement": "",
-      "name": "All Out Assault: Sirius I ",
-      "type": "Offensive",
-      "description": "Activate All Out Assault: Sirius I once every 15 times the main guns are fired. "
-    }
-  },
-  "skin": {
-    "1": {
-      "id": "tianlangxing",
-      "name": "Sirius",
-      "description": "Dido-class light cruiser – Sirius.",
-      "expression": {
-        "0": {
-          "id": "0"
-        }
-      }
-    },
-    "2": {
-      "id": "tianlangxing_2",
-      "name": "White Rose",
-      "description": "My dear, I changed into the new outfit as per your request. I would be most grateful were you to offer me words of praise, Master.",
-      "expression": {
-        "0": {
-          "id": "0"
-        },
-        "1": {
-          "id": "1"
-        },
-        "2": {
-          "id": "2"
-        },
-        "3": {
-          "id": "3"
-        }
-      }
-    },
-    "3": {
-      "id": "tianlangxing_3",
-      "name": "Midsummer Seirios",
-      "description": "メイド隊の仲間から色々アドバイス頂いて選ばせていただきました水着です。誇らしきご主人様、シリアスのこの姿にご満足いただけるでしょうか",
-      "expression": {
-        "0": {
-          "id": "0"
-        },
-        "1": {
-          "id": "1"
-        },
-        "2": {
-          "id": "2"
-        },
-        "3": {
-          "id": "3"
-        }
-      }
-    }
-  },
-  "defaultEquipment": {
-    "1": {
-      "icon": "21500",
-      "rarity": "Common",
-      "name": "Twin 134mm AA Gun"
-    },
-    "2": {
-      "icon": "5000",
-      "rarity": "",
-      "name": "Triple 533mm Torpedo"
-    },
-    "3": {
-      "icon": "",
-      "rarity": "",
-      "name": ""
-    }
-  },
-  "stats": {
-    "100": {
-      "hp": "3343",
-      "firepower": "131",
-      "torpedo": "140",
-      "antiAir": "344",
-      "aviation": "0",
-      "reload": "158",
-      "hit": "151",
-      "evasion": "73",
-      "speed": "32.25",
-      "luck": "70",
-      "asw": "146",
-      "oxygen": "0",
-      "ammo": "0",
-      "cost": "11",
-      "armor": "Light"
-    },
-    "120": {
-      "hp": "3744",
-      "firepower": "151",
-      "torpedo": "161",
-      "antiAir": "385",
-      "aviation": "0",
-      "reload": "182",
-      "hit": "169",
-      "evasion": "97",
-      "speed": "32.25",
-      "luck": "70",
-      "asw": "164",
-      "oxygen": "0",
-      "ammo": "0",
-      "cost": "11",
-      "armor": "Light"
-    },
-    "base": {
-      "hp": "647",
-      "firepower": "28",
-      "torpedo": "30",
-      "antiAir": "74",
-      "aviation": "0",
-      "reload": "67",
-      "hit": "58",
-      "evasion": "28",
-      "speed": "32.25",
-      "luck": "70",
-      "asw": "40",
-      "oxygen": "0",
-      "ammo": "0",
-      "cost": "3",
-      "armor": "Light"
-    },
-    "100retrofit": {
-      "hp": "",
-      "firepower": "",
-      "torpedo": "",
-      "antiAir": "",
-      "aviation": "",
-      "reload": "",
-      "hit": "",
-      "evasion": "",
-      "speed": "32.25",
-      "luck": "70",
-      "asw": "",
-      "oxygen": "0",
-      "ammo": "0",
-      "cost": "11",
-      "armor": "Light"
-    },
-    "120retrofit": {
-      "hp": "",
-      "firepower": "",
-      "torpedo": "",
-      "antiAir": "",
-      "aviation": "",
-      "reload": "",
-      "hit": "",
-      "evasion": "",
-      "speed": "32.25",
-      "luck": "70",
-      "asw": "",
-      "oxygen": "0",
-      "ammo": "0",
-      "cost": "11",
-      "armor": "Light"
-    }
-  },
-  "limitBreak": {
-    "tier1": "Unlock EX Barrage Ⅰ/Main gun efficiency +5%",
-    "tier2": "Torpedo base +1/Torpedo preload +1/Torpedo efficiency +10%",
-    "tier3": "Improve EX Barrage/Main gun efficiency +15%"
-  },
-  "equipmentLoadout": {
-    "1": {
-      "type": "Destroyer Gun",
-      "efficiency": "115%/120%/120%/135%",
-      "amount": "1/1/1/1",
-      "preload": "0/0/0/0"
-    },
-    "2": {
-      "type": "Torpedo",
-      "efficiency": "120%/120%/130%/130%",
-      "amount": "1/1/2/2",
-      "preload": "0/0/1/1"
-    },
-    "3": {
-      "type": "Anti-Air Gun",
-      "efficiency": "130%/130%/130%/130%",
-      "amount": "1/1/1/1",
-      "preload": "0/0/0/0"
-    },
-    "4": {
-      "type": "Auxiliary",
-      "efficiency": "-",
-      "amount": "-",
-      "preload": "-"
-    },
-    "5": {
-      "type": "Auxiliary",
-      "efficiency": "-",
-      "amount": "-",
-      "preload": "-"
-    }
-  },
-  "build": {
-    "light": {
-      "JP": "",
-      "CN": "",
-      "EN": ""
-    },
-    "heavy": {
-      "JP": "",
-      "CN": "",
-      "EN": ""
-    },
-    "special": {
-      "JP": "",
-      "CN": "",
-      "EN": ""
-    },
-    "limited": {
-      "JP": "",
-      "CN": "",
-      "EN": ""
-    }
-  },
-  "drop": {
-    "droppable": "false",
-    "list": {
-      "1": {
-        "event": "",
-        "chapter": {
-          "1": {
-            "label": "Ch .1",
-            "node": {
-              "1": {
-                "drop": "✓",
-                "note": "-"
-              }
-            }
-          }
-        }
-      }
-    }
-  },
-  "lines": {
-    "skin": {
-      "1": {
-        "skin_id": "tianlangxing",
-        "id": "0",
-        "label": "Sirius",
-        "dialogue": {
-          "1": {
-            "event": "Ship Description",
-            "media": "",
-            "chinese": "黛朵级轻巡洋舰-天狼星，舷号82",
-            "chineseTL": "",
-            "chineseNote": "",
-            "japanese": "ダイドー級軽巡洋艦・シリアス (HMS Sirius) ",
-            "japaneseTL": "",
-            "japaneseNote": "",
-            "english": "Dido-class light cruiser – Sirius.",
-            "englishNote": ""
-          },
-          "2": {
-            "event": "Biography",
-            "media": "profile",
-            "chinese": "我是皇家黛朵级防空巡洋舰第二批第五号舰，参加过地中海的最后一场海战“斯科雷湾海战”。现在作为皇家战斗女仆，只为主人而战斗！",
-            "chineseTL": "",
-            "chineseNote": "",
-            "japanese": "ロイヤルダイドー級防空巡洋艦第二グループ五番艦シリアスと申します。かつてはペテスタル作戦に参加しました。今はロイヤルメイドとして、我が誇らしきご主人様のために戦わせていただきます",
-            "japaneseTL": "",
-            "japaneseNote": "",
-            "english": "I am Sirius, the 5th ship in the 2nd group of the Royal Navy's Dido-class of light cruisers. I participated in Operation Pedestal in the past, but now I serve as a Royal Maid and have the privilege of fighting for my honourable Master.",
-            "englishNote": ""
-          },
-          "3": {
-            "event": "Acquisition",
-            "media": "get",
-            "chinese": "贵安，皇家女仆天狼星号，前来就任。自此刻起，将守护主人的荣耀与信念，直至永恒的终结——",
-            "chineseTL": "",
-            "chineseNote": "",
-            "japanese": "ご機嫌麗しゅうございます。ロイヤルメイド隊所属、軽巡シリアス、参上しました。これより御身と、御身の栄光と信念を守るべくお仕えさせていただきます",
-            "japaneseTL": "",
-            "japaneseNote": "",
-            "english": "It is an honour to meet you. I am Sirius of the Royal Maids, here to assume the position. Henceforth, Master, I shall serve you to protect your glory and your beliefs.",
-            "englishNote": ""
-          },
-          "4": {
-            "event": "Login",
-            "media": "login",
-            "chinese": "欢迎回来，我骄傲的主人",
-            "chineseTL": "",
-            "chineseNote": "",
-            "japanese": "よくお戻りになられました。誇らしきご主人様",
-            "japaneseTL": "",
-            "japaneseNote": "",
-            "english": "It is good to see you return, my honourable Master.",
-            "englishNote": ""
-          },
-          "5": {
-            "event": "Details",
-            "media": "detail",
-            "chinese": "主人，今天想要探讨什么？文学名著？军事艺术？绘画雕塑？亦或是…“爱”的问题？",
-            "chineseTL": "",
-            "chineseNote": "",
-            "japanese": "誇らしきご主人様、今日は何をお勉強なさるのですか？文学教養？兵站軍学？芸術百般？それとも…男女の「まぐわい」ということにご興味が……？",
-            "japaneseTL": "",
-            "japaneseNote": "",
-            "english": "My honourable Master, what would you like to learn more about today? Literature and culture? Logistics and strategy? The fine arts? Or, perhaps, you are more interested in more... carnal knowledge...?",
-            "englishNote": ""
-          },
-          "6": {
-            "event": "Main 1",
-            "media": "main_1",
-            "chinese": "“扫除”吗…战斗的话我一定不会让您失望的，主人",
-            "chineseTL": "",
-            "chineseNote": "",
-            "japanese": "「お掃除」ですか……戦闘ならご期待に沿える働きをさせていただきます。誇らしきご主人様",
-            "japaneseTL": "",
-            "japaneseNote": "",
-            "english": "\"Cleaning\"...? If it is combat you are referring to, then I vow to meet all expectations you set for me, my honourable Master.",
-            "englishNote": ""
-          },
-          "7": {
-            "event": "Main 2",
-            "media": "main_2",
-            "chinese": "请放心，无论遇到何种困难，我都永远会和您在一起，我骄傲的主人",
-            "chineseTL": "",
-            "chineseNote": "",
-            "japanese": "どんなことがあってもご一緒します。誇らしきご主人様",
-            "japaneseTL": "",
-            "japaneseNote": "",
-            "english": "Regardless of what may ever happen, I shall always accompany you, my honourable Master.",
-            "englishNote": ""
-          },
-          "8": {
-            "event": "Main 3",
-            "media": "main_3",
-            "chinese": "适量饮食是健康的基础，所以——即使天狼星的料理再怎么不尽如人意，也请不要挑食，我…骄傲的主人",
-            "chineseTL": "",
-            "chineseNote": "",
-            "japanese": "バランスの取れた食事は健康の肝要でございます。――ですから、シリアスの料理の腕がお気に召さないからといって、食事を取らないのはおやめになってください。誇らしきご主人様",
-            "japaneseTL": "",
-            "japaneseNote": "",
-            "english": "Achieving a balanced diet is essential for one's health. Therefore, although my cooking skill may be unsatisfactory to you, please do not forgo the meals I prepare, my honourable Master.",
-            "englishNote": ""
-          },
-          "9": {
-            "event": "Touch",
-            "media": "touch_1",
-            "chinese": "这种肢体接触还请在他人看不到的地方做，我骄傲的主人",
-            "chineseTL": "",
-            "chineseNote": "",
-            "japanese": "スキンシップは余人の見えないところでお願いします。誇らしきご主人様",
-            "japaneseTL": "",
-            "japaneseNote": "",
-            "english": "Please refrain from intimate contact while others can see us, my honourable Master.",
-            "englishNote": ""
-          },
-          "10": {
-            "event": "Touch (Special)",
-            "media": "touch_2",
-            "chinese": "如果主人想要天狼星的话…是、是吗…非常抱歉，是我太心急了……",
-            "chineseTL": "",
-            "chineseNote": "",
-            "japanese": "シリアスをご所望でしたら……そ、そうですか。申し訳ございません、早まったことをしてしまいまして……",
-            "japaneseTL": "",
-            "japaneseNote": "",
-            "english": "If you wish for me to service you tonight, then... M-my apologies! I made a rather careless assumption...",
-            "englishNote": ""
-          },
-          "11": {
-            "event": "Mission",
-            "media": "task",
-            "chinese": "这点任务算不上什么，对吧？我骄傲的主人",
-            "chineseTL": "",
-            "chineseNote": "",
-            "japanese": "これしきの任務など物の数に入りません。そうですよね？誇らしきご主人様",
-            "japaneseTL": "",
-            "japaneseNote": "",
-            "english": "A mission of this magnitude is inconsequential. Isn't that correct, my honourable Master?",
-            "englishNote": ""
-          },
-          "12": {
-            "event": "Mission Complete",
-            "media": "mission_complete",
-            "chinese": "主人，任务的报酬已经送达了",
-            "chineseTL": "",
-            "chineseNote": "",
-            "japanese": "誇らしきご主人様、任務報酬が届いていました",
-            "japaneseTL": "",
-            "japaneseNote": "",
-            "english": "My honourable Master, the mission rewards have arrived.",
-            "englishNote": ""
-          },
-          "13": {
-            "event": "Mail",
-            "media": "mail",
-            "chinese": "主人，最新的邮件在这里",
-            "chineseTL": "",
-            "chineseNote": "",
-            "japanese": "誇らしきご主人様、メールはこちらに",
-            "japaneseTL": "",
-            "japaneseNote": "",
-            "english": "My honourable Master, the mail is here.",
-            "englishNote": ""
-          },
-          "14": {
-            "event": "Return to Port",
-            "media": "home",
-            "chinese": "欢迎回来，红茶与茶点已经准备好了。另外，我烤了…唔，让人烤了可丽饼，要来几块吗？",
-            "chineseTL": "",
-            "chineseNote": "",
-            "japanese": "よくお戻りになられました。紅茶と軽食を手配しました。また、僭越ながらクレープの方もやき…焼いてもらいました。お召し上がりになりますか？",
-            "japaneseTL": "",
-            "japaneseNote": "",
-            "english": "It is good to see you return. There is tea and a light meal prepared for you. And, if you'll pardon my initiative, I have also prepared a creep... a crêpe. Would you like to have it now?",
-            "englishNote": ""
-          },
-          "15": {
-            "event": "Commission Complete",
-            "media": "expedition",
-            "chinese": "军事委托的结果会由我为您拿来，请先在沙发上休息片刻，我骄傲的主人",
-            "chineseTL": "",
-            "chineseNote": "",
-            "japanese": "誇らしきご主人様。軍事委託の結果のお知らせを持ってまいりますので、今しばしソファでおくつろぎくださいませ",
-            "japaneseTL": "",
-            "japaneseNote": "",
-            "english": "My honourable Master, I have information regarding the results of a commission, so please relocate to the sofa and get in a relaxing position.",
-            "englishNote": ""
-          },
-          "16": {
-            "event": "Enhancement",
-            "media": "upgrade",
-            "chinese": "骄傲的主人啊——天狼星，因您而变得更加美丽",
-            "chineseTL": "",
-            "chineseNote": "",
-            "japanese": "誇らしきご主人様――シリアス、より美しくなってみせます",
-            "japaneseTL": "",
-            "japaneseNote": "",
-            "english": "My honourable Master, I shall become even more gorgeous for you.",
-            "englishNote": ""
-          },
-          "17": {
-            "event": "Flagship",
-            "media": "warcry",
-            "chinese": "将胜利与荣耀献予我骄傲的主人！",
-            "chineseTL": "",
-            "chineseNote": "",
-            "japanese": "勝利と栄光は我が誇らしき主に捧げます！",
-            "japaneseTL": "",
-            "japaneseNote": "",
-            "english": "Let us bring victory and glory to our honourable Master!",
-            "englishNote": ""
-          },
-          "18": {
-            "event": "Victory",
-            "media": "mvp",
-            "chinese": "我骄傲的主人，道路已经为您清扫完毕",
-            "chineseTL": "",
-            "chineseNote": "",
-            "japanese": "誇らしきご主人様、御身が進む道はシリアスが掃除してまいりました",
-            "japaneseTL": "",
-            "japaneseNote": "",
-            "english": "My honourable Master, I have cleared the path so that you may move forward.",
-            "englishNote": ""
-          },
-          "19": {
-            "event": "Defeat",
-            "media": "lose",
-            "chinese": "失策…请惩罚犯了错误的女仆吧，我…骄傲的主人",
-            "chineseTL": "",
-            "chineseNote": "",
-            "japanese": "無念…誇らしきご主人様、どうか粗相をしてしまいました、この卑しきメイドに罰をお与えくださいませ",
-            "japaneseTL": "",
-            "japaneseNote": "",
-            "english": "How shameful... My honourable Master, it seems I have made a mess of myself. Please give this naughty maid her due punishment.",
-            "englishNote": ""
-          },
-          "20": {
-            "event": "Skill",
-            "media": "skill",
-            "chinese": "我骄傲的主人啊，请借给我力量！",
-            "chineseTL": "",
-            "chineseNote": "",
-            "japanese": "誇らしきご主人様、どうかシリアスに力を！",
-            "japaneseTL": "",
-            "japaneseNote": "",
-            "english": "My honourable Master, please grant me strength!",
-            "englishNote": ""
-          },
-          "21": {
-            "event": "Low HP",
-            "media": "hp",
-            "chinese": "主人的女仆，可不容你们损坏！",
-            "chineseTL": "",
-            "chineseNote": "",
-            "japanese": "ご主人様のメイドはやらせはしません！",
-            "japaneseTL": "",
-            "japaneseNote": "",
-            "english": "As the Masters maid, I shall not be defeated!",
-            "englishNote": ""
-          },
-          "22": {
-            "event": "Affinity (Upset)",
-            "media": "feeling1",
-            "chinese": "……请骄傲起来，我那令人遗憾的主人",
-            "chineseTL": "",
-            "chineseNote": "",
-            "japanese": "……どうか誇らしくなってくださいませ。少し残念になったご主人様",
-            "japaneseTL": "",
-            "japaneseNote": "",
-            "english": "...I implore you to be more honourable, my slightly disappointing Master.",
-            "englishNote": ""
-          },
-          "23": {
-            "event": "Affinity (Stranger)",
-            "media": "feeling2",
-            "chinese": "对于侍奉好主人这件事还是很有自信的，不过——若是有哪方面比起女仆长还有所不足，请您务必指出来",
-            "chineseTL": "",
-            "chineseNote": "",
-            "japanese": "ご主人様へのご奉仕には自信があります。ただ、メイド長と比べてご満足いただけないところがありましたら、どうかご指摘くださいませ",
-            "japaneseTL": "",
-            "japaneseNote": "",
-            "english": "I take honour in my service to you, Master. However, should you find my service unsatisfactory in any way compared to the Head Maid, I kindly ask of you to tell me.",
-            "englishNote": ""
-          },
-          "24": {
-            "event": "Affinity (Friendly)",
-            "media": "feeling3",
-            "chinese": "我最骄傲的地方就在于能够找到并侍奉您，我骄傲的主人",
-            "chineseTL": "",
-            "chineseNote": "",
-            "japanese": "シリアスにとって一番誇らしいことは、あなた様にお仕えできることです。誇らしきご主人様",
-            "japaneseTL": "",
-            "japaneseNote": "",
-            "english": "To me, there is nothing more honourable than to have the privilege of serving you, my honourable Master.",
-            "englishNote": ""
-          },
-          "25": {
-            "event": "Affinity (Like)",
-            "media": "feeling4",
-            "chinese": "如果天狼星的拥抱能给予您慰藉，那我随时乐意为您奉上，我骄傲的主人",
-            "chineseTL": "",
-            "chineseNote": "",
-            "japanese": "シリアスの抱擁がお慰めになれるのでしたらいつでも喜んで致します。誇らしきご主人様",
-            "japaneseTL": "",
-            "japaneseNote": "",
-            "english": "If you find my embrace to be relieving, then I would gladly do so again at your command, my honourable Master.",
-            "englishNote": ""
-          },
-          "26": {
-            "event": "Affinity (Love)",
-            "media": "feeling5",
-            "chinese": "请昂首挺胸，洋溢着笑容尽情焕发光彩照耀这个世界吧！我骄傲的…主人",
-            "chineseTL": "",
-            "chineseNote": "",
-            "japanese": "どうか胸を張り、その輝く姿で世界を照らしてくださいませ！シリアスの誇らしきご主人様……",
-            "japaneseTL": "",
-            "japaneseNote": "",
-            "english": "I ask of you to stand proud and illuminate all the world with your glorious image, my honourable Master...!",
-            "englishNote": ""
-          },
-          "27": {
-            "event": "Pledge",
-            "media": "propose",
-            "chinese": "居然能得到主人的誓约…现在，请允许我闭上双眼，品尝您的温暖，我骄傲的…主人",
-            "chineseTL": "",
-            "chineseNote": "",
-            "japanese": "こんな素晴らしき約束をいただけるなんて……どうかこの卑しきメイドに目を閉じて、貴方様のぬくもりを感じることをお許しくださいませ……シリアスの誇らしきご主人様……",
-            "japaneseTL": "",
-            "japaneseNote": "",
-            "english": "Oh, the bliss of getting to make this wondrous vow... Please, close your eyes for this unseemly maid and permit her to feel your warmth... My honourable Master...",
-            "englishNote": ""
-          }
-        }
-      },
-      "2": {
-        "skin_id": "tianlangxing_2",
-        "id": "1",
-        "label": "White Rose",
-        "dialogue": {
-          "1": {
-            "event": "Ship Description",
-            "media": "",
-            "chinese": "贵安，遵从您的指示，天狼星换上了新的衣装。若是能得到您的赞美，我会万分感激的，主人",
-            "chineseTL": "",
-            "chineseNote": "",
-            "japanese": "ご機嫌麗しゅうございます。シリアス、ご指示通りにドレス姿に着替えました。ご賛辞をいただけるのでしたらありがたき幸せでございます。誇らしきご主人様",
-            "japaneseTL": "",
-            "japaneseNote": "",
-            "english": "My dear, I changed into the new outfit as per your request. I would be most grateful were you to offer me words of praise, Master.",
-            "englishNote": ""
-          },
-          "2": {
-            "event": "Acquisition",
-            "media": "get_1",
-            "chinese": "贵安，遵从您的指示，天狼星换上了新的衣装。若是能得到您的赞美，我会万分感激的，主人",
-            "chineseTL": "",
-            "chineseNote": "",
-            "japanese": "ご機嫌麗しゅうございます。シリアス、ご指示通りにドレス姿に着替えました。ご賛辞をいただけるのでしたらありがたき幸せでございます。誇らしきご主人様",
-            "japaneseTL": "",
-            "japaneseNote": "",
-            "english": "My dear, I changed into the new outfit as per your request. I would be most grateful were you to offer me words of praise, Master.",
-            "englishNote": ""
-          },
-          "3": {
-            "event": "Details",
-            "media": "detail_1",
-            "chinese": "无论身着什么样的服饰，我都是您的女仆，全力实现您的期望，我骄傲的主人",
-            "chineseTL": "",
-            "chineseNote": "",
-            "japanese": "どんな服を着ていても、シリアスはお望みを全力で叶えるメイドでございます。誇らしきご主人様",
-            "japaneseTL": "",
-            "japaneseNote": "",
-            "english": "No matter what clothing I wear, I am still your maid and live only to fulfill your expectations, my honourable Master.",
-            "englishNote": ""
-          },
-          "4": {
-            "event": "Main 1",
-            "media": "main_1_1",
-            "chinese": "区区女仆却妄想以这般身姿站在主人身边…请原谅我的僭越…",
-            "chineseTL": "",
-            "chineseNote": "",
-            "japanese": "たかがメイドの分際でドレス姿でご主人様の側に控えるなどと妄想してしまう失態……どうかこのシリアスをお許しください…",
-            "japaneseTL": "",
-            "japaneseNote": "",
-            "english": "Every single maid dreams of being able to stand beside her master in such a dress... Please forgive me for my presumptuousness... ",
-            "englishNote": ""
-          },
-          "5": {
-            "event": "Main 2",
-            "media": "main_2_1",
-            "chinese": "这样的装扮似乎不太利于战斗…不过既然是主人的愿望，天狼星一定会全力配合",
-            "chineseTL": "",
-            "chineseNote": "",
-            "japanese": "戦闘に適さない格好ですが…ご主人様がお望みならば、シリアス、全力でお応え致します",
-            "japaneseTL": "",
-            "japaneseNote": "",
-            "english": "This dress seems ill-suited for combat... but since it is your wish, Master, I shall humbly carry out your will. ",
-            "englishNote": ""
-          },
-          "6": {
-            "event": "Main 3",
-            "media": "main_3_1",
-            "chinese": "项链很适合我…？谢谢您的夸奖，我骄傲的主人",
-            "chineseTL": "",
-            "chineseNote": "",
-            "japanese": "ネックレスがお似合い、ですか…？このシリアスにそのような賞賛、感謝致します。誇らしきご主人様",
-            "japaneseTL": "",
-            "japaneseNote": "",
-            "english": "This necklaces suits me well...? Thank you for praising this unworthy maid, my honourable Master.",
-            "englishNote": ""
-          },
-          "7": {
-            "event": "Touch",
-            "media": "touch_1_1",
-            "chinese": "能收到您的舞蹈邀请是天狼星的荣幸，令我沉醉的主人",
-            "chineseTL": "",
-            "chineseNote": "",
-            "japanese": "ダンスにお誘い頂き、誠にありがとうございます。シリアスが心酔するご主人様",
-            "japaneseTL": "",
-            "japaneseNote": "",
-            "english": "Oh, my Master who has intoxicated me with passions so, it is an honour to have been chosen as your dance partner.",
-            "englishNote": ""
-          },
-          "8": {
-            "event": "Return to Port",
-            "media": "home_1",
-            "chinese": "最让人高兴的事，莫过于主人的平安归来了，要把大家召集起来举行茶会吗？",
-            "chineseTL": "",
-            "chineseNote": "",
-            "japanese": "ご主人様の無事のご帰還以上喜ばしいことはございません。皆を集めてお茶会でも致しましょうか？",
-            "japaneseTL": "",
-            "japaneseNote": "",
-            "english": "There is no greater happiness than your safe return, Master. Would you like to gather everyone to have tea?",
-            "englishNote": ""
-          },
-          "9": {
-            "event": "Affinity (Love)",
-            "media": "feeling5_1",
-            "chinese": "无论在宴会舞台的灯光下，还是硝烟弥漫的战场上，您都是我眼中最耀眼的存在。我骄傲的主人，请让我一直看着您，陪伴在您的身边，直到永远——",
-            "chineseTL": "",
-            "chineseNote": "",
-            "japanese": "パーティーのダンスフロアでも、硝煙漂う戦場でも、貴方はシリアスにとって一番輝く存在です。誇らしきご主人様、どうかこのシリアスに永遠なる相伴をお許しくださいませ――",
-            "japaneseTL": "",
-            "japaneseNote": "",
-            "english": "Whether it's under the swirling lights of the ballroom stage, or in the smoke and explosions of the battlefield, there will never be anything more radiant than you in my eyes. My honourable Master, please allow me to gaze upon you and be at your side, always...",
-            "englishNote": ""
-          }
-        }
-      },
-      "3": {
-        "skin_id": "tianlangxing_3",
-        "id": "2",
-        "label": "Midsummer Seirios",
-        "dialogue": {
-          "1": {
-            "event": "Ship Description",
-            "media": "",
-            "chinese": "从女仆队的同伴那里得到了许多的意见…这身泳装没有让您失望吧，我骄傲的主人？",
-            "chineseTL": "After recieving lots of feedback from the maid team.. this swimsuit didn't disappoint, did it? My proud Master?",
-            "chineseNote": "",
-            "japanese": "メイド隊の仲間から色々アドバイス頂いて選ばせていただきました水着です。誇らしきご主人様、シリアスのこの姿にご満足いただけるでしょうか",
-            "japaneseTL": "",
-            "japaneseNote": "",
-            "english": "",
-            "englishNote": ""
-          },
-          "2": {
-            "event": "Acquisition",
-            "media": "get_2",
-            "chinese": "从女仆队的同伴那里得到了许多的意见…这身泳装没有让您失望吧，我骄傲的主人？",
-            "chineseTL": "After recieving lots of feedback from the maid team.. this swimsuit didn't disappoint, did it? My proud Master?",
-            "chineseNote": "",
-            "japanese": "メイド隊の仲間から色々アドバイス頂いて選ばせていただきました水着です。誇らしきご主人様、シリアスのこの姿にご満足いただけるでしょうか",
-            "japaneseTL": "",
-            "japaneseNote": "",
-            "english": "",
-            "englishNote": ""
-          },
-          "3": {
-            "event": "Login",
-            "media": "login_2",
-            "chinese": "无论在何处，天狼星都会侍奉并保护好主人。主人只要做自己想做的事就好。",
-            "chineseTL": "No matter where we are, Sirius will serve and protect Master. Master should just do the things he wishes to do.",
-            "chineseNote": "",
-            "japanese": "どこにいようと、シリアスは全力でお守りいたします。誇らしきご主人様、どうかお好きなことを、お好きなようになさってくださいませ",
-            "japaneseTL": "",
-            "japaneseNote": "",
-            "english": "",
-            "englishNote": ""
-          },
-          "4": {
-            "event": "Details",
-            "media": "detail_2",
-            "chinese": "请放心，天狼星已经为这次海滩之行做了充分的准备。食物，饮料，杂志，防晒油，舰装和救生器材，还有……猫？为什么会在这……?不，没什么，我骄傲的主人。",
-            "chineseTL": "Don't worry, Sirius has already prepared everything for the beach trip. Food, magazines, drinks, sunscreen, search and rescue equipment, and... cats? Why is it... No, nothing, my proud Master.",
-            "chineseNote": "",
-            "japanese": "ご安心くださいませ。シリアスはあらゆる状況に備えて準備しておきました。お食事にお飲み物、雑誌、日焼け止め、緊急時の艤装に救命機材に……ネコ？…どうしてここに？……あ、いいえ、なんでもございません！",
-            "japaneseTL": "",
-            "japaneseNote": "",
-            "english": "",
-            "englishNote": ""
-          },
-          "5": {
-            "event": "Main 1",
-            "media": "main_1_2",
-            "chinese": "主人，为何一直看着天狼星？莫，莫非我给主人带来了困扰？…是我多虑了吗…",
-            "chineseTL": "Master, why do you keep looking at Sirius? H-have I troubled the Master? ...am I thinking too much...?",
-            "chineseNote": "",
-            "japanese": "誇らしきご主人様、どうしてシリアスのことを凝視なさってるのですか？もしやこの卑しきメイドがまた粗相をしてしまいましたか？？…シリアスの考え過ぎ、ですか…？",
-            "japaneseTL": "",
-            "japaneseNote": "",
-            "english": "",
-            "englishNote": ""
-          },
-          "6": {
-            "event": "Main 2",
-            "media": "main_2_2",
-            "chinese": "游泳吗？如，如果主人能教我的话……不，区区女仆，无权劳烦主人……",
-            "chineseTL": "Swimming? I-if Master could teach me... no, a lowly maid doesn't have the right to trouble Master..",
-            "chineseNote": "",
-            "japanese": "泳ぎですか？ご、ご主人様が教えてくださるのでしたら……いいえ、たかがメイドの分際で誇らしきご主人様に教えを請うなど……",
-            "japaneseTL": "",
-            "japaneseNote": "",
-            "english": "",
-            "englishNote": ""
-          },
-          "7": {
-            "event": "Main 3",
-            "media": "main_3_2",
-            "chinese": "主人是累了吗？方便休息的地方……唔……如果主人不嫌弃的话，就，就用天狼星的身体代替吧！",
-            "chineseTL": "Is the Master tired? A convenient place for resting.. well, if the Master doesn't mind, j-just use Sirius' body!",
-            "chineseNote": "",
-            "japanese": "誇らしきご主人様、お疲れなのでしょうか？でしたら、おくつろぎになれる場所や機材とか…どこかにあれば………うっ、申し訳ございません…差し支えなければ、このシリアスが代わりを務めさせていただきます…！",
-            "japaneseTL": "",
-            "japaneseNote": "",
-            "english": "",
-            "englishNote": ""
-          },
-          "8": {
-            "event": "Touch",
-            "media": "touch_1_2",
-            "chinese": "就让天狼星为你遮挡阳光吧，我骄傲的主人。",
-            "chineseTL": "Just let Sirius shield you from the sun, my proud Master.",
-            "chineseNote": "",
-            "japanese": "誇らしきご主人様、シリアスが日差しから守らせていただきます",
-            "japaneseTL": "",
-            "japaneseNote": "",
-            "english": "",
-            "englishNote": ""
-          },
-          "9": {
-            "event": "Touch (Special)",
-            "media": "touch_2_2",
-            "chinese": "我明白了，我骄傲的主人，如果您希望身着泳装的天狼星…—啊…又会错意了吗？万分抱歉……",
-            "chineseTL": "I understand, my proud Master, if your wish is for a swimsuit clad Sirius.. oh... wrong idea again? I'm sorry..",
-            "chineseNote": "",
-            "japanese": "かしこまりました。水着姿のシリアスをご所望でしたら――そ、そうですか？誠に申し訳ございません……シリアスまた早まったことをしてしまいまして…",
-            "japaneseTL": "",
-            "japaneseNote": "",
-            "english": "",
-            "englishNote": ""
-          }
-        }
-      }
-    }
-  },
-  "fleet_tech": {
-    "pt_get": "10",
-    "add_get_attr": "Anti-Air",
-    "add_get_value": "1",
-    "add_get_shiptype": "Light Cruiser",
-    "pt_upgrade": "21",
-    "pt_level": "16",
-    "add_level_attr": "Torpedo",
-    "add_level_value": "1",
-    "add_level_shiptype": "Light Cruiser",
-    "t_level": "6",
-    "ships": "sirius"
-  },
-  "voiceActress": "Ruriko Aoki"
+	"name_reference": "sirius",
+	"cn_reference": "tianlangxing",
+	"nameJP": "シリアス",
+	"nameCN": "天狼星",
+	"ID": "371",
+	"name": "Sirius",
+	"internal_id": "202201",
+	"rarity": "Super Rare",
+	"initialStar": "★★★☆☆☆",
+	"hull": "Light Cruiser",
+	"navy": "Royal Navy",
+	"prefix": "HMS",
+	"buildTime": "",
+	"class": "Dido-Class",
+	"parameters": {
+		"firepower": "B",
+		"torpedo": "D",
+		"aviation": "E",
+		"evasion": "B",
+		"antiAir": "A",
+		"hp": "C"
+	},
+	"scrap": {
+		"gold": "6",
+		"oil": "3",
+		"medal": "10"
+	},
+	"releaseDate": {
+		"JP": "",
+		"CN": "",
+		"KR": "",
+		"EN": ""
+	},
+	"artist": {
+		"name": "",
+		"weibo": "",
+		"twitter": "",
+		"pixiv": "",
+		"other": ""
+	},
+	"enhance": {
+		"firepower": "12",
+		"torpedo": "10",
+		"aviation": "0",
+		"reload": "13"
+	},
+	"acquisitionMethod": "Event: Winter's Crown",
+	"skill": {
+		"1": {
+			"icon": "11860",
+			"requirement": "",
+			"name": "Mark of Sirius ",
+			"type": "Support",
+			"description": "Increases the AVI of all friendly CVs and CVLs by 1.0% (10.0%) and increases their Hit Rate against DDs, CLs, and CAs by 1.0% (10.0%). Additionally, for each friendly CV or CVL in the Main Fleet: increases this ship's FP, TRP, and RLD by 1.5% (7.0%)."
+		},
+		"2": {
+			"icon": "2071",
+			"requirement": "",
+			"name": "Cover Fire",
+			"type": "Offensive",
+			"description": "Increases this ship's FP by 10.0% (20.0%)."
+		},
+		"3": {
+			"icon": "29361",
+			"requirement": "",
+			"name": "All Out Assault: Sirius I ",
+			"type": "Offensive",
+			"description": "Activate All Out Assault: Sirius I once every 15 times the main guns are fired. "
+		}
+	},
+	"skin": {
+		"1": {
+			"id": "tianlangxing",
+			"name": "Sirius",
+			"description": "Dido-class light cruiser – Sirius.",
+			"expression": {
+				"0": {
+					"id": "0"
+				}
+			}
+		},
+		"2": {
+			"id": "tianlangxing_2",
+			"name": "White Rose",
+			"description": "My dear, I changed into the new outfit as per your request. I would be most grateful were you to offer me words of praise, Master.",
+			"expression": {
+				"0": {
+					"id": "0"
+				},
+				"1": {
+					"id": "1"
+				},
+				"2": {
+					"id": "2"
+				},
+				"3": {
+					"id": "3"
+				}
+			}
+		},
+		"3": {
+			"id": "tianlangxing_3",
+			"name": "Midsummer Seirios",
+			"description": "メイド隊の仲間から色々アドバイス頂いて選ばせていただきました水着です。誇らしきご主人様、シリアスのこの姿にご満足いただけるでしょうか",
+			"expression": {
+				"0": {
+					"id": "0"
+				},
+				"1": {
+					"id": "1"
+				},
+				"2": {
+					"id": "2"
+				},
+				"3": {
+					"id": "3"
+				}
+			}
+		},
+		"4": {
+			"id": "tianlangxing_4",
+			"name": "Azure Horizons",
+			"description": "I have heard it is part of a maid's duties to dress to her honourable Master's liking over the holidays. Would this outfit happen to... satisfy the honourable Master's wishes?",
+			"expression": {
+				"0": {
+					"id": "0"
+				},
+				"1": {
+					"id": "1"
+				},
+				"2": {
+					"id": "2"
+				},
+				"3": {
+					"id": "3"
+				},
+				"4": {
+					"id": "4"
+				},
+				"5": {
+					"id": "5"
+				}
+			}
+		}
+	},
+	"defaultEquipment": {
+		"1": {
+			"icon": "21500",
+			"rarity": "Common",
+			"name": "Twin 134mm AA Gun"
+		},
+		"2": {
+			"icon": "5000",
+			"rarity": "",
+			"name": "Triple 533mm Torpedo"
+		},
+		"3": {
+			"icon": "",
+			"rarity": "",
+			"name": ""
+		}
+	},
+	"stats": {
+		"100": {
+			"hp": "3343",
+			"firepower": "131",
+			"torpedo": "140",
+			"antiAir": "344",
+			"aviation": "0",
+			"reload": "158",
+			"hit": "151",
+			"evasion": "73",
+			"speed": "32.25",
+			"luck": "70",
+			"asw": "146",
+			"oxygen": "0",
+			"ammo": "0",
+			"cost": "11",
+			"armor": "Light"
+		},
+		"120": {
+			"hp": "3744",
+			"firepower": "151",
+			"torpedo": "161",
+			"antiAir": "385",
+			"aviation": "0",
+			"reload": "182",
+			"hit": "169",
+			"evasion": "97",
+			"speed": "32.25",
+			"luck": "70",
+			"asw": "164",
+			"oxygen": "0",
+			"ammo": "0",
+			"cost": "11",
+			"armor": "Light"
+		},
+		"base": {
+			"hp": "647",
+			"firepower": "28",
+			"torpedo": "30",
+			"antiAir": "74",
+			"aviation": "0",
+			"reload": "67",
+			"hit": "58",
+			"evasion": "28",
+			"speed": "32.25",
+			"luck": "70",
+			"asw": "40",
+			"oxygen": "0",
+			"ammo": "0",
+			"cost": "3",
+			"armor": "Light"
+		},
+		"100retrofit": {
+			"hp": "",
+			"firepower": "",
+			"torpedo": "",
+			"antiAir": "",
+			"aviation": "",
+			"reload": "",
+			"hit": "",
+			"evasion": "",
+			"speed": "32.25",
+			"luck": "70",
+			"asw": "",
+			"oxygen": "0",
+			"ammo": "0",
+			"cost": "11",
+			"armor": "Light"
+		},
+		"120retrofit": {
+			"hp": "",
+			"firepower": "",
+			"torpedo": "",
+			"antiAir": "",
+			"aviation": "",
+			"reload": "",
+			"hit": "",
+			"evasion": "",
+			"speed": "32.25",
+			"luck": "70",
+			"asw": "",
+			"oxygen": "0",
+			"ammo": "0",
+			"cost": "11",
+			"armor": "Light"
+		}
+	},
+	"limitBreak": {
+		"tier1": "Unlock EX Barrage Ⅰ/Main gun efficiency +5%",
+		"tier2": "Torpedo base +1/Torpedo preload +1/Torpedo efficiency +10%",
+		"tier3": "Improve EX Barrage/Main gun efficiency +15%"
+	},
+	"equipmentLoadout": {
+		"1": {
+			"type": "Destroyer Gun",
+			"efficiency": "115%/120%/120%/135%",
+			"amount": "1/1/1/1",
+			"preload": "0/0/0/0"
+		},
+		"2": {
+			"type": "Torpedo",
+			"efficiency": "120%/120%/130%/130%",
+			"amount": "1/1/2/2",
+			"preload": "0/0/1/1"
+		},
+		"3": {
+			"type": "Anti-Air Gun",
+			"efficiency": "130%/130%/130%/130%",
+			"amount": "1/1/1/1",
+			"preload": "0/0/0/0"
+		},
+		"4": {
+			"type": "Auxiliary",
+			"efficiency": "-",
+			"amount": "-",
+			"preload": "-"
+		},
+		"5": {
+			"type": "Auxiliary",
+			"efficiency": "-",
+			"amount": "-",
+			"preload": "-"
+		}
+	},
+	"build": {
+		"light": {
+			"JP": "",
+			"CN": "",
+			"EN": ""
+		},
+		"heavy": {
+			"JP": "",
+			"CN": "",
+			"EN": ""
+		},
+		"special": {
+			"JP": "",
+			"CN": "",
+			"EN": ""
+		},
+		"limited": {
+			"JP": "",
+			"CN": "",
+			"EN": ""
+		}
+	},
+	"drop": {
+		"droppable": "false",
+		"list": {
+			"1": {
+				"event": "",
+				"chapter": {
+					"1": {
+						"label": "Ch .1",
+						"node": {
+							"1": {
+								"drop": "✓",
+								"note": "-"
+							}
+						}
+					}
+				}
+			}
+		}
+	},
+	"lines": {
+		"skin": {
+			"1": {
+				"skin_id": "tianlangxing",
+				"id": "0",
+				"label": "Sirius",
+				"dialogue": {
+					"1": {
+						"event": "Ship Description",
+						"media": "",
+						"chinese": "黛朵级轻巡洋舰-天狼星，舷号82",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "ダイドー級軽巡洋艦・シリアス (HMS Sirius) ",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Dido-class light cruiser – Sirius.",
+						"englishNote": ""
+					},
+					"2": {
+						"event": "Biography",
+						"media": "profile",
+						"chinese": "我是皇家黛朵级防空巡洋舰第二批第五号舰，参加过地中海的最后一场海战“斯科雷湾海战”。现在作为皇家战斗女仆，只为主人而战斗！",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "ロイヤルダイドー級防空巡洋艦第二グループ五番艦シリアスと申します。かつてはペテスタル作戦に参加しました。今はロイヤルメイドとして、我が誇らしきご主人様のために戦わせていただきます",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "I am Sirius, the 5th ship in the 2nd group of the Royal Navy's Dido-class of light cruisers. I participated in Operation Pedestal in the past, but now I serve as a Royal Maid and have the privilege of fighting for my honourable Master.",
+						"englishNote": ""
+					},
+					"3": {
+						"event": "Acquisition",
+						"media": "get",
+						"chinese": "贵安，皇家女仆天狼星号，前来就任。自此刻起，将守护主人的荣耀与信念，直至永恒的终结——",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "ご機嫌麗しゅうございます。ロイヤルメイド隊所属、軽巡シリアス、参上しました。これより御身と、御身の栄光と信念を守るべくお仕えさせていただきます",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "It is an honour to meet you. I am Sirius of the Royal Maids, here to assume the position. Henceforth, Master, I shall serve you to protect your glory and your beliefs.",
+						"englishNote": ""
+					},
+					"4": {
+						"event": "Login",
+						"media": "login",
+						"chinese": "欢迎回来，我骄傲的主人",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "よくお戻りになられました。誇らしきご主人様",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "It is good to see you return, my honourable Master.",
+						"englishNote": ""
+					},
+					"5": {
+						"event": "Details",
+						"media": "detail",
+						"chinese": "主人，今天想要探讨什么？文学名著？军事艺术？绘画雕塑？亦或是…“爱”的问题？",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "誇らしきご主人様、今日は何をお勉強なさるのですか？文学教養？兵站軍学？芸術百般？それとも…男女の「まぐわい」ということにご興味が……？",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "My honourable Master, what would you like to learn more about today? Literature and culture? Logistics and strategy? The fine arts? Or, perhaps, you are more interested in more... carnal knowledge...?",
+						"englishNote": ""
+					},
+					"6": {
+						"event": "Main 1",
+						"media": "main_1",
+						"chinese": "“扫除”吗…战斗的话我一定不会让您失望的，主人",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "「お掃除」ですか……戦闘ならご期待に沿える働きをさせていただきます。誇らしきご主人様",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "\"Cleaning\"...? If it is combat you are referring to, then I vow to meet all expectations you set for me, my honourable Master.",
+						"englishNote": ""
+					},
+					"7": {
+						"event": "Main 2",
+						"media": "main_2",
+						"chinese": "请放心，无论遇到何种困难，我都永远会和您在一起，我骄傲的主人",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "どんなことがあってもご一緒します。誇らしきご主人様",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Regardless of what may ever happen, I shall always accompany you, my honourable Master.",
+						"englishNote": ""
+					},
+					"8": {
+						"event": "Main 3",
+						"media": "main_3",
+						"chinese": "适量饮食是健康的基础，所以——即使天狼星的料理再怎么不尽如人意，也请不要挑食，我…骄傲的主人",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "バランスの取れた食事は健康の肝要でございます。――ですから、シリアスの料理の腕がお気に召さないからといって、食事を取らないのはおやめになってください。誇らしきご主人様",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Achieving a balanced diet is essential for one's health. Therefore, although my cooking skill may be unsatisfactory to you, please do not forgo the meals I prepare, my honourable Master.",
+						"englishNote": ""
+					},
+					"9": {
+						"event": "Touch",
+						"media": "touch_1",
+						"chinese": "这种肢体接触还请在他人看不到的地方做，我骄傲的主人",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "スキンシップは余人の見えないところでお願いします。誇らしきご主人様",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Please refrain from intimate contact while others can see us, my honourable Master.",
+						"englishNote": ""
+					},
+					"10": {
+						"event": "Touch (Special)",
+						"media": "touch_2",
+						"chinese": "如果主人想要天狼星的话…是、是吗…非常抱歉，是我太心急了……",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "シリアスをご所望でしたら……そ、そうですか。申し訳ございません、早まったことをしてしまいまして……",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "If you wish for me to service you tonight, then... M-my apologies! I made a rather careless assumption...",
+						"englishNote": ""
+					},
+					"11": {
+						"event": "Mission",
+						"media": "task",
+						"chinese": "这点任务算不上什么，对吧？我骄傲的主人",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "これしきの任務など物の数に入りません。そうですよね？誇らしきご主人様",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "A mission of this magnitude is inconsequential. Isn't that correct, my honourable Master?",
+						"englishNote": ""
+					},
+					"12": {
+						"event": "Mission Complete",
+						"media": "mission_complete",
+						"chinese": "主人，任务的报酬已经送达了",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "誇らしきご主人様、任務報酬が届いていました",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "My honourable Master, the mission rewards have arrived.",
+						"englishNote": ""
+					},
+					"13": {
+						"event": "Mail",
+						"media": "mail",
+						"chinese": "主人，最新的邮件在这里",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "誇らしきご主人様、メールはこちらに",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "My honourable Master, the mail is here.",
+						"englishNote": ""
+					},
+					"14": {
+						"event": "Return to Port",
+						"media": "home",
+						"chinese": "欢迎回来，红茶与茶点已经准备好了。另外，我烤了…唔，让人烤了可丽饼，要来几块吗？",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "よくお戻りになられました。紅茶と軽食を手配しました。また、僭越ながらクレープの方もやき…焼いてもらいました。お召し上がりになりますか？",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "It is good to see you return. There is tea and a light meal prepared for you. And, if you'll pardon my initiative, I have also prepared a creep... a crêpe. Would you like to have it now?",
+						"englishNote": ""
+					},
+					"15": {
+						"event": "Commission Complete",
+						"media": "expedition",
+						"chinese": "军事委托的结果会由我为您拿来，请先在沙发上休息片刻，我骄傲的主人",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "誇らしきご主人様。軍事委託の結果のお知らせを持ってまいりますので、今しばしソファでおくつろぎくださいませ",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "My honourable Master, I have information regarding the results of a commission, so please relocate to the sofa and get in a relaxing position.",
+						"englishNote": ""
+					},
+					"16": {
+						"event": "Enhancement",
+						"media": "upgrade",
+						"chinese": "骄傲的主人啊——天狼星，因您而变得更加美丽",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "誇らしきご主人様――シリアス、より美しくなってみせます",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "My honourable Master, I shall become even more gorgeous for you.",
+						"englishNote": ""
+					},
+					"17": {
+						"event": "Flagship",
+						"media": "warcry",
+						"chinese": "将胜利与荣耀献予我骄傲的主人！",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "勝利と栄光は我が誇らしき主に捧げます！",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Let us bring victory and glory to our honourable Master!",
+						"englishNote": ""
+					},
+					"18": {
+						"event": "Victory",
+						"media": "mvp",
+						"chinese": "我骄傲的主人，道路已经为您清扫完毕",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "誇らしきご主人様、御身が進む道はシリアスが掃除してまいりました",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "My honourable Master, I have cleared the path so that you may move forward.",
+						"englishNote": ""
+					},
+					"19": {
+						"event": "Defeat",
+						"media": "lose",
+						"chinese": "失策…请惩罚犯了错误的女仆吧，我…骄傲的主人",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "無念…誇らしきご主人様、どうか粗相をしてしまいました、この卑しきメイドに罰をお与えくださいませ",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "How shameful... My honourable Master, it seems I have made a mess of myself. Please give this naughty maid her due punishment.",
+						"englishNote": ""
+					},
+					"20": {
+						"event": "Skill",
+						"media": "skill",
+						"chinese": "我骄傲的主人啊，请借给我力量！",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "誇らしきご主人様、どうかシリアスに力を！",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "My honourable Master, please grant me strength!",
+						"englishNote": ""
+					},
+					"21": {
+						"event": "Low HP",
+						"media": "hp",
+						"chinese": "主人的女仆，可不容你们损坏！",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "ご主人様のメイドはやらせはしません！",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "As the Masters maid, I shall not be defeated!",
+						"englishNote": ""
+					},
+					"22": {
+						"event": "Affinity (Upset)",
+						"media": "feeling1",
+						"chinese": "……请骄傲起来，我那令人遗憾的主人",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "……どうか誇らしくなってくださいませ。少し残念になったご主人様",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "...I implore you to be more honourable, my slightly disappointing Master.",
+						"englishNote": ""
+					},
+					"23": {
+						"event": "Affinity (Stranger)",
+						"media": "feeling2",
+						"chinese": "对于侍奉好主人这件事还是很有自信的，不过——若是有哪方面比起女仆长还有所不足，请您务必指出来",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "ご主人様へのご奉仕には自信があります。ただ、メイド長と比べてご満足いただけないところがありましたら、どうかご指摘くださいませ",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "I take honour in my service to you, Master. However, should you find my service unsatisfactory in any way compared to the Head Maid, I kindly ask of you to tell me.",
+						"englishNote": ""
+					},
+					"24": {
+						"event": "Affinity (Friendly)",
+						"media": "feeling3",
+						"chinese": "我最骄傲的地方就在于能够找到并侍奉您，我骄傲的主人",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "シリアスにとって一番誇らしいことは、あなた様にお仕えできることです。誇らしきご主人様",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "To me, there is nothing more honourable than to have the privilege of serving you, my honourable Master.",
+						"englishNote": ""
+					},
+					"25": {
+						"event": "Affinity (Like)",
+						"media": "feeling4",
+						"chinese": "如果天狼星的拥抱能给予您慰藉，那我随时乐意为您奉上，我骄傲的主人",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "シリアスの抱擁がお慰めになれるのでしたらいつでも喜んで致します。誇らしきご主人様",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "If you find my embrace to be relieving, then I would gladly do so again at your command, my honourable Master.",
+						"englishNote": ""
+					},
+					"26": {
+						"event": "Affinity (Love)",
+						"media": "feeling5",
+						"chinese": "请昂首挺胸，洋溢着笑容尽情焕发光彩照耀这个世界吧！我骄傲的…主人",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "どうか胸を張り、その輝く姿で世界を照らしてくださいませ！シリアスの誇らしきご主人様……",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "I ask of you to stand proud and illuminate all the world with your glorious image, my honourable Master...!",
+						"englishNote": ""
+					},
+					"27": {
+						"event": "Pledge",
+						"media": "propose",
+						"chinese": "居然能得到主人的誓约…现在，请允许我闭上双眼，品尝您的温暖，我骄傲的…主人",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "こんな素晴らしき約束をいただけるなんて……どうかこの卑しきメイドに目を閉じて、貴方様のぬくもりを感じることをお許しくださいませ……シリアスの誇らしきご主人様……",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Oh, the bliss of getting to make this wondrous vow... Please, close your eyes for this unseemly maid and permit her to feel your warmth... My honourable Master...",
+						"englishNote": ""
+					}
+				}
+			},
+			"2": {
+				"skin_id": "tianlangxing_2",
+				"id": "1",
+				"label": "White Rose",
+				"dialogue": {
+					"1": {
+						"event": "Ship Description",
+						"media": "",
+						"chinese": "贵安，遵从您的指示，天狼星换上了新的衣装。若是能得到您的赞美，我会万分感激的，主人",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "ご機嫌麗しゅうございます。シリアス、ご指示通りにドレス姿に着替えました。ご賛辞をいただけるのでしたらありがたき幸せでございます。誇らしきご主人様",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "My dear, I changed into the new outfit as per your request. I would be most grateful were you to offer me words of praise, Master.",
+						"englishNote": ""
+					},
+					"2": {
+						"event": "Acquisition",
+						"media": "get_1",
+						"chinese": "贵安，遵从您的指示，天狼星换上了新的衣装。若是能得到您的赞美，我会万分感激的，主人",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "ご機嫌麗しゅうございます。シリアス、ご指示通りにドレス姿に着替えました。ご賛辞をいただけるのでしたらありがたき幸せでございます。誇らしきご主人様",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "My dear, I changed into the new outfit as per your request. I would be most grateful were you to offer me words of praise, Master.",
+						"englishNote": ""
+					},
+					"3": {
+						"event": "Details",
+						"media": "detail_1",
+						"chinese": "无论身着什么样的服饰，我都是您的女仆，全力实现您的期望，我骄傲的主人",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "どんな服を着ていても、シリアスはお望みを全力で叶えるメイドでございます。誇らしきご主人様",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "No matter what clothing I wear, I am still your maid and live only to fulfill your expectations, my honourable Master.",
+						"englishNote": ""
+					},
+					"4": {
+						"event": "Main 1",
+						"media": "main_1_1",
+						"chinese": "区区女仆却妄想以这般身姿站在主人身边…请原谅我的僭越…",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "たかがメイドの分際でドレス姿でご主人様の側に控えるなどと妄想してしまう失態……どうかこのシリアスをお許しください…",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Every single maid dreams of being able to stand beside her master in such a dress... Please forgive me for my presumptuousness... ",
+						"englishNote": ""
+					},
+					"5": {
+						"event": "Main 2",
+						"media": "main_2_1",
+						"chinese": "这样的装扮似乎不太利于战斗…不过既然是主人的愿望，天狼星一定会全力配合",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "戦闘に適さない格好ですが…ご主人様がお望みならば、シリアス、全力でお応え致します",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "This dress seems ill-suited for combat... but since it is your wish, Master, I shall humbly carry out your will. ",
+						"englishNote": ""
+					},
+					"6": {
+						"event": "Main 3",
+						"media": "main_3_1",
+						"chinese": "项链很适合我…？谢谢您的夸奖，我骄傲的主人",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "ネックレスがお似合い、ですか…？このシリアスにそのような賞賛、感謝致します。誇らしきご主人様",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "This necklaces suits me well...? Thank you for praising this unworthy maid, my honourable Master.",
+						"englishNote": ""
+					},
+					"7": {
+						"event": "Touch",
+						"media": "touch_1_1",
+						"chinese": "能收到您的舞蹈邀请是天狼星的荣幸，令我沉醉的主人",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "ダンスにお誘い頂き、誠にありがとうございます。シリアスが心酔するご主人様",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Oh, my Master who has intoxicated me with passions so, it is an honour to have been chosen as your dance partner.",
+						"englishNote": ""
+					},
+					"8": {
+						"event": "Return to Port",
+						"media": "home_1",
+						"chinese": "最让人高兴的事，莫过于主人的平安归来了，要把大家召集起来举行茶会吗？",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "ご主人様の無事のご帰還以上喜ばしいことはございません。皆を集めてお茶会でも致しましょうか？",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "There is no greater happiness than your safe return, Master. Would you like to gather everyone to have tea?",
+						"englishNote": ""
+					},
+					"9": {
+						"event": "Affinity (Love)",
+						"media": "feeling5_1",
+						"chinese": "无论在宴会舞台的灯光下，还是硝烟弥漫的战场上，您都是我眼中最耀眼的存在。我骄傲的主人，请让我一直看着您，陪伴在您的身边，直到永远——",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "パーティーのダンスフロアでも、硝煙漂う戦場でも、貴方はシリアスにとって一番輝く存在です。誇らしきご主人様、どうかこのシリアスに永遠なる相伴をお許しくださいませ――",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Whether it's under the swirling lights of the ballroom stage, or in the smoke and explosions of the battlefield, there will never be anything more radiant than you in my eyes. My honourable Master, please allow me to gaze upon you and be at your side, always...",
+						"englishNote": ""
+					}
+				}
+			},
+			"3": {
+				"skin_id": "tianlangxing_3",
+				"id": "2",
+				"label": "Midsummer Seirios",
+				"dialogue": {
+					"1": {
+						"event": "Ship Description",
+						"media": "",
+						"chinese": "从女仆队的同伴那里得到了许多的意见…这身泳装没有让您失望吧，我骄傲的主人？",
+						"chineseTL": "After recieving lots of feedback from the maid team.. this swimsuit didn't disappoint, did it? My proud Master?",
+						"chineseNote": "",
+						"japanese": "メイド隊の仲間から色々アドバイス頂いて選ばせていただきました水着です。誇らしきご主人様、シリアスのこの姿にご満足いただけるでしょうか",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"2": {
+						"event": "Acquisition",
+						"media": "get_2",
+						"chinese": "从女仆队的同伴那里得到了许多的意见…这身泳装没有让您失望吧，我骄傲的主人？",
+						"chineseTL": "After recieving lots of feedback from the maid team.. this swimsuit didn't disappoint, did it? My proud Master?",
+						"chineseNote": "",
+						"japanese": "メイド隊の仲間から色々アドバイス頂いて選ばせていただきました水着です。誇らしきご主人様、シリアスのこの姿にご満足いただけるでしょうか",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"3": {
+						"event": "Login",
+						"media": "login_2",
+						"chinese": "无论在何处，天狼星都会侍奉并保护好主人。主人只要做自己想做的事就好。",
+						"chineseTL": "No matter where we are, Sirius will serve and protect Master. Master should just do the things he wishes to do.",
+						"chineseNote": "",
+						"japanese": "どこにいようと、シリアスは全力でお守りいたします。誇らしきご主人様、どうかお好きなことを、お好きなようになさってくださいませ",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"4": {
+						"event": "Details",
+						"media": "detail_2",
+						"chinese": "请放心，天狼星已经为这次海滩之行做了充分的准备。食物，饮料，杂志，防晒油，舰装和救生器材，还有……猫？为什么会在这……?不，没什么，我骄傲的主人。",
+						"chineseTL": "Don't worry, Sirius has already prepared everything for the beach trip. Food, magazines, drinks, sunscreen, search and rescue equipment, and... cats? Why is it... No, nothing, my proud Master.",
+						"chineseNote": "",
+						"japanese": "ご安心くださいませ。シリアスはあらゆる状況に備えて準備しておきました。お食事にお飲み物、雑誌、日焼け止め、緊急時の艤装に救命機材に……ネコ？…どうしてここに？……あ、いいえ、なんでもございません！",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"5": {
+						"event": "Main 1",
+						"media": "main_1_2",
+						"chinese": "主人，为何一直看着天狼星？莫，莫非我给主人带来了困扰？…是我多虑了吗…",
+						"chineseTL": "Master, why do you keep looking at Sirius? H-have I troubled the Master? ...am I thinking too much...?",
+						"chineseNote": "",
+						"japanese": "誇らしきご主人様、どうしてシリアスのことを凝視なさってるのですか？もしやこの卑しきメイドがまた粗相をしてしまいましたか？？…シリアスの考え過ぎ、ですか…？",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"6": {
+						"event": "Main 2",
+						"media": "main_2_2",
+						"chinese": "游泳吗？如，如果主人能教我的话……不，区区女仆，无权劳烦主人……",
+						"chineseTL": "Swimming? I-if Master could teach me... no, a lowly maid doesn't have the right to trouble Master..",
+						"chineseNote": "",
+						"japanese": "泳ぎですか？ご、ご主人様が教えてくださるのでしたら……いいえ、たかがメイドの分際で誇らしきご主人様に教えを請うなど……",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"7": {
+						"event": "Main 3",
+						"media": "main_3_2",
+						"chinese": "主人是累了吗？方便休息的地方……唔……如果主人不嫌弃的话，就，就用天狼星的身体代替吧！",
+						"chineseTL": "Is the Master tired? A convenient place for resting.. well, if the Master doesn't mind, j-just use Sirius' body!",
+						"chineseNote": "",
+						"japanese": "誇らしきご主人様、お疲れなのでしょうか？でしたら、おくつろぎになれる場所や機材とか…どこかにあれば………うっ、申し訳ございません…差し支えなければ、このシリアスが代わりを務めさせていただきます…！",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"8": {
+						"event": "Touch",
+						"media": "touch_1_2",
+						"chinese": "就让天狼星为你遮挡阳光吧，我骄傲的主人。",
+						"chineseTL": "Just let Sirius shield you from the sun, my proud Master.",
+						"chineseNote": "",
+						"japanese": "誇らしきご主人様、シリアスが日差しから守らせていただきます",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"9": {
+						"event": "Touch (Special)",
+						"media": "touch_2_2",
+						"chinese": "我明白了，我骄傲的主人，如果您希望身着泳装的天狼星…—啊…又会错意了吗？万分抱歉……",
+						"chineseTL": "I understand, my proud Master, if your wish is for a swimsuit clad Sirius.. oh... wrong idea again? I'm sorry..",
+						"chineseNote": "",
+						"japanese": "かしこまりました。水着姿のシリアスをご所望でしたら――そ、そうですか？誠に申し訳ございません……シリアスまた早まったことをしてしまいまして…",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					}
+				}
+			},
+			"4": {
+				"skin_id": "tianlangxing_4",
+				"id": "3",
+				"label": "Azure Horizons",
+				"dialogue": {
+					"1": {
+						"event": "Ship Description",
+						"media": "",
+						"chinese": "随节日改变自己的服装，也是女仆修行重要的一环。我骄傲的主人，天狼星这身打扮，没有让您失望吧？",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "祝日に応じて、誇らしきご主人様の好みに合わせた衣装に変えるのもメイドの務めだとお聞きしました。シリアスのこの格好は…ご満足いただけますでしょうか？",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "I have heard it is part of a maid's duties to dress to her honourable Master's liking over the holidays. Would this outfit happen to... satisfy the honourable Master's wishes?",
+						"englishNote": ""
+					},
+					"2": {
+						"event": "Acquisition",
+						"media": "get_3",
+						"chinese": "随节日改变自己的服装，也是女仆修行重要的一环。我骄傲的主人，天狼星这身打扮，没有让您失望吧？",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "祝日に応じて、誇らしきご主人様の好みに合わせた衣装に変えるのもメイドの務めだとお聞きしました。シリアスのこの格好は…ご満足いただけますでしょうか？",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "I have heard it is part of a maid's duties to dress to her honourable Master's liking over the holidays. Would this outfit happen to... satisfy the honourable Master's wishes?",
+						"englishNote": ""
+					},
+					"3": {
+						"event": "Login",
+						"media": "login_3",
+						"chinese": "春节快乐，我骄傲的主人。茶水已经为您准备好了。",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "春節おめでとうございます。誇らしきご主人様、お茶を用意してあります",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Happy Lunar New Year, honourable Master. I have made a cup of tea for you.",
+						"englishNote": ""
+					},
+					"4": {
+						"event": "Details",
+						"media": "detail_3",
+						"chinese": "尝试做了些东煌的料理，虽然结果……请放心，明年的这个时候，天狼星一定能做出让您赞不绝口的东煌美食的。",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "東煌の料理を作って…みたのですが……ご、ご安心ください！来年こそこのシリアス、誇らしきご主人様のお口に合う素晴らしい料理をお作りいたします！",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "I made some Dragon Empery dishes, however they turned out quite... Pl-Please, do not be concerned! *This* year, I vow to make delectable food that shall suit the honourable Master's palate!",
+						"englishNote": ""
+					},
+					"5": {
+						"event": "Main 1",
+						"media": "main_1_3",
+						"chinese": "主人，您有吃到过一个形状有些独特，没有内馅的饺子吗？没什么，我只是随口问问而已……",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "誇らしきご主人様、恐れ入りますが、形がちょっと独特な、中身がない「ギョウザ」を食べませんでしたか？…い、いいえ！なんでもございません…",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "A cat has wandered into the room. My honourable Master, I shall take it upon myself to catch it before it causes damage. But first, I must find it...",
+						"englishNote": ""
+					},
+					"6": {
+						"event": "Main 2",
+						"media": "main_2_3",
+						"chinese": "明明只是一介女仆，却能在节日里一直侍奉在指挥官左右，实在是受宠若惊。",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "卑しいメイドの身で、こうして誇らしきご主人様と一緒に祝日を過ごさせていただけるなんて…シリアス、誠に恐縮千万でございます",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "My honourable Master, if you'll forgive my asking, have you eaten any unusually shaped, unstuffed gyoza? ...P-Pardon me, I was merely wondering...",
+						"englishNote": ""
+					},
+					"7": {
+						"event": "Touch",
+						"media": "touch_1_3",
+						"chinese": "嗯？我敏锐的主人，是我的衣服上沾了灰尘吗？",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "鋭いご主人様、シリアスの衣装に埃がついてしまっているのでしょうか…？",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "My perceptive Master, would there happen to be dust clinging to my dress...?",
+						"englishNote": ""
+					},
+					"8": {
+						"event": "Touch (Special)",
+						"media": "touch_2_3",
+						"chinese": "主人，您是希望在节日与身着旗袍的天狼星……是我又想多了吗？真是抱歉……",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "はい、祝日に東煌風の衣装のシリアスをご所望でしたら……あっ、申し訳ございません！シリアス、また早まったことを…",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "If you wish me to service you in these Dragon Empery garments, then... Oh, my apologies! I've made yet another careless assumption...",
+						"englishNote": ""
+					},
+					"9": {
+						"event": "Return to Port",
+						"media": "home_3",
+						"chinese": "这身装扮如果风很大的话很危险…？难道是担心天狼星会感冒吗？能得到您的关心，天狼星受宠若惊…我骄傲的主人…！",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "この格好は風が強い天気だと危ない、ですか…？もしかして、シリアスが風邪を引かないようご心配いただいているのですか？誇らしきご主人様、恐れ入ります…！",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "My outfit is unsafe to wear in windy weather? Are you concerned with my wellbeing and would not want me catching a cold? Oh, honourable Master, your thoughtfulness humbles me!",
+						"englishNote": ""
+					}
+				}
+			}
+		}
+	},
+	"fleet_tech": {
+		"pt_get": "10",
+		"add_get_attr": "Anti-Air",
+		"add_get_value": "1",
+		"add_get_shiptype": "Light Cruiser",
+		"pt_upgrade": "21",
+		"pt_level": "16",
+		"add_level_attr": "Torpedo",
+		"add_level_value": "1",
+		"add_level_shiptype": "Light Cruiser",
+		"t_level": "6",
+		"ships": "sirius"
+	},
+	"voiceActress": "Ruriko Aoki"
 }
