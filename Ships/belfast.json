@@ -147,7 +147,32 @@
 				}
 			}
 		},
-		"5": {
+		"5" : {
+			"id" : "beierfasite_5",
+			"name" : "Serene Steel",
+			"description" : "This is special cold-weather equipment inspired by Eagle Union designs. It was made for practical purposes such as special operations in frigid climates, and as such, was not designed with appearances in mind. Please do forgive me, Master.",
+			"expression" : {
+				"0" : {
+					"id" : "0"
+				},
+				"1" : {
+					"id" : "1"
+				},
+				"2" : {
+					"id" : "2"
+				},
+				"3" : {
+					"id" : "3"
+				},
+				"4" : {
+					"id" : "4"
+				},
+				"5" : {
+					"id" : "5"
+				}
+			}
+		},
+		"6": {
 			"id": "beierfasite_h",
 			"name": "The Pledge of Claddagh",
 			"description": "Are you destined for me? Greetings Belfast, from this moment onwards, I will always be with you.",
@@ -1092,6 +1117,145 @@
 				}
 			},
 			"5": {
+				"skin_id" : "beierfasite_5",
+				"id" : "2",
+				"label" : "Serene Steel",
+				"dialogue" : {
+					"1" : {
+						"event" : "Ship Description",
+						"media" : "",
+						"chinese" : "这是引入了白鹰风格的严寒区域用特殊装备。毕竟是以抗寒·特殊行动支援为目的，设计上更偏重于实用、多少有些朴实…关于这点，还请主人多加谅解了",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "ユニオンのテイストを取り入れた、寒冷地仕様の特殊装備でございます。あくまで防寒・特殊行動のサポートといった実用性偏重で、華のない設計になっておりますが……ご主人様、何卒ご容赦くださいませ",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "This is special cold-weather equipment inspired by Eagle Union designs. It was made for practical purposes such as special operations in frigid climates, and as such, was not designed with appearances in mind. Please do forgive me, Master.",
+						"englishNote" : ""
+					},
+					"2" : {
+						"event" : "Acquisition",
+						"media" : "get_2",
+						"chinese" : "这是引入了白鹰风格的严寒区域用特殊装备。毕竟是以抗寒·特殊行动支援为目的，设计上更偏重于实用、多少有些朴实…关于这点，还请主人多加谅解了",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "ユニオンのテイストを取り入れた、寒冷地仕様の特殊装備でございます。あくまで防寒・特殊行動のサポートといった実用性偏重で、華のない設計になっておりますが……ご主人様、何卒ご容赦くださいませ",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "This is special cold-weather equipment inspired by Eagle Union designs. It was made for practical purposes such as special operations in frigid climates, and as such, was not designed with appearances in mind. Please do forgive me, Master.",
+						"englishNote" : ""
+					},
+					"3" : {
+						"event" : "Login",
+						"media" : "login_2",
+						"chinese" : "欢迎回来，主人。咖啡已经为您准备好了，请用",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "おかえりなさいご主人様。コーヒーをお持ちしました。どうぞ召し上がってください",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Welcome home, Master. Your coffee is ready. Please, enjoy it at your leisure.",
+						"englishNote" : ""
+					},
+					"4" : {
+						"event" : "Details",
+						"media" : "detail_2",
+						"chinese" : "只有平时坚持规律的生活，才能在突发意外时有冷静的判断，以及从容的行动…贝尔法斯特作为女仆，将对主人的生活方面进行全面支援",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "規則正しい生活をしてこそ、いざというときに冷静に判断し、余裕を持って行動することができます。…このベルファスト、メイドとしてご主人様の生活をサポートさせていただきます",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "It is only by maintaining a well-regulated lifestyle that one may keep a cool head and act appropriately when backed into a corner... It is with this in mind that I, Belfast, serve my Master as a maid.",
+						"englishNote" : ""
+					},
+					"5" : {
+						"event" : "Main 1",
+						"media" : "main_1_2",
+						"chinese" : "企业的料理越来越进步了，一方面是女灶神指导有方，另一方面…主人的存在也是重要的原因吧",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "エンタープライズ様の料理の腕、めきめきと上達していますね。ヴェスタル様の教育の賜物ですが、ご主人様の存在もその一因になっているかと",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Madam Enterprise's cooking has improved noticeably. This is certainly thanks to Madam Vestal's lessons, but no doubt the Master is another important reason.",
+						"englishNote" : ""
+					},
+					"6" : {
+						"event" : "Main 2",
+						"media" : "main_2_2",
+						"chinese" : "胡闹的打扮…女仆装可是女仆的正装哦？",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "ふざけた格好などと……メイド服はメイドにとって正装でございますが？",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Such a willful appearance... a maid uniform is of course the appropriate dress for a maid, is it not?",
+						"englishNote" : ""
+					},
+					"7" : {
+						"event" : "Main 3",
+						"media" : "main_3_2",
+						"chinese" : "多点时间陪姐姐一起比较好、吗…我会遵照主人的吩咐的，让您担心了，非常抱歉",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "姉さんと一緒にいる時間をもう少し増やしたほうがいい、と……ご主人様の仰るとおりです。ご心配をおかけして、誠に申し訳ございません",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "It would be nice if I spent more time with my sister, hm...? I must agree with you, Master. I beg your pardon for making you worry so.",
+						"englishNote" : ""
+					},
+					"8" : {
+						"event" : "Touch",
+						"media" : "touch_1_2",
+						"chinese" : "有任何想要女仆队执行的任务的话，请尽管吩咐",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "メイド隊に依頼する任務がありましたら何でもおっしゃってください",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Do let us know if you have any needs that the Royal Maids might service.",
+						"englishNote" : ""
+					},
+					"9" : {
+						"event" : "Touch (Special)",
+						"media" : "touch_2_2",
+						"chinese" : "非常抱歉，战斗装束不能满足主人",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "戦闘装束によりご主人様に十分満足していただけず、誠に申し訳ございません",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "I'm afraid this battle dress may not adequately satisfy you, Master. I beg your pardon.",
+						"englishNote" : ""
+					},
+					"10" : {
+						"event" : "Return to Port",
+						"media" : "home_2",
+						"chinese" : "欢迎回来，主人。周边的警戒就交给我们女仆队，请好好休息一下吧",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "おかえりなさいませご主人様。身辺警護はメイド隊に任せてお休みになってください",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Welcome home, Master. You may rest easy knowing the Royal Maids are here to protect you.",
+						"englishNote" : ""
+					},
+					"11" : {
+						"event" : "Victory",
+						"media" : "mvp_2",
+						"chinese" : "为主人献上胜利——",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "勝利はご主人様のためにーー",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "A victory for the Master...",
+						"englishNote" : ""
+					}
+				}
+			},
+			"6": {
 				"skin_id": "beierfasite_h",
 				"id": "8",
 				"label": "The Pledge of Claddagh",

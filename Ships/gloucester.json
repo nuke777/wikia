@@ -1,0 +1,839 @@
+{
+	"name_reference" : "gloucester",
+	"cn_reference" : "geluosite",
+	"nameJP" : "グロスター",
+	"nameCN" : "格罗斯特",
+	"ID" : "113",
+	"name" : "Gloucester",
+	"internal_id" : "202101",
+	"rarity" : "Elite",
+	"initialStar" : "★★☆☆☆",
+	"hull" : "Light Cruiser",
+	"navy" : "Royal Navy",
+	"prefix" : "HMS",
+	"buildTime" : "",
+	"voiceActress" : "Reina Ueda",
+	"parameters": {
+		"firepower" : "",
+		"torpedo" : "",
+		"aviation" : "",
+		"evasion" : "",
+		"antiAir" : "",
+		"hp" : ""
+	},
+	"scrap": {
+		"gold" : "6",
+		"oil" : "3",
+		"medal" : "4"
+	},
+	"releaseDate": {
+		"JP" : "January 21, 2020",
+		"CN" : "January 21, 2020",
+		"KR" : "January 21, 2020",
+		"EN" : "January 21, 2020"
+	},
+	"artist": {
+		"name" : "",
+		"weibo" : "",
+		"twitter" : "",
+		"pixiv" : "",
+		"other" : ""
+	},
+	"class" : "Gloucester-Class",
+	"enhance": {
+		"firepower" : "12",
+		"torpedo" : "17",
+		"aviation" : "0",
+		"reload" : "12"
+	},
+	"acquisitionMethod" : "Event: Fight On, Royal Maids!",
+	"skill": {
+		"1" : {
+			"icon" : "2191",
+			"requirement" : "Default Unlocked",
+			"name" : "Ammunition Command",
+			"type" : "Support",
+			"description" : "When the fleet this ship is in is Out of Ammo: decreases the effect of the DMG debuff by 5.0%(15.0%)."
+		},
+		"2" : {
+			"icon" : "12950",
+			"requirement" : "Default Unlocked",
+			"name" : "The Fighting G",
+			"type" : "Offensive",
+			"description" : "Increases this ship's FP and Accuracy by 5.0%. Every time this ship sinks an enemy: increases this ship's FP and Accuracy by 1.0%(2.0%) for the rest of the battle (can be stacked up to 5 times.)"
+		},
+		"3" : {
+			"icon" : "21181",
+			"requirement" : "Limit Break I (III)",
+			"name" : "All Out Assault Ⅰ",
+			"type" : "Offensive",
+			"description" : "Activates All Out Assault Ⅰ: Gloucester Class once every 12 times the Main Guns are fired."
+		}
+	},
+	"skin": {
+		"1" : {
+			"id" : "geluosite",
+			"name" : "Gloucester ",
+			"description" : "Gloucester-class light cruiser – Gloucester (HMS Gloucester.) ",
+			"expression" : {
+				"0" : {
+					"id" : "0"
+				},
+				"1" : {
+					"id" : "1"
+				},
+				"2" : {
+					"id" : "2"
+				},
+				"3" : {
+					"id" : "3"
+				},
+				"4" : {
+					"id" : "4"
+				},
+				"5" : {
+					"id" : "5"
+				}
+			}
+		},
+		"2" : {
+			"id" : "geluosite_2",
+			"name" : "Brilliance in Purple",
+			"description" : "Gloucester, light cruiser of the Royal Maids, at your service for the Spring Festival... You say I look displeased? I beg your pardon, it's just... Such holidays are in fact quite busy for the Maids. We have much on our minds. It is none of your concern.",
+			"expression" : {
+				"0" : {
+					"id" : "0"
+				},
+				"1" : {
+					"id" : "1"
+				},
+				"2" : {
+					"id" : "2"
+				},
+				"3" : {
+					"id" : "3"
+				},
+				"4" : {
+					"id" : "4"
+				}
+			}
+		}
+	},
+	"defaultEquipment": {
+		"1" : {
+			"icon" : "22200",
+			"rarity" : "Common",
+			"name" : "Triple 152mm Main Gun"
+		},
+		"2" : {
+			"icon" : "5000",
+			"rarity" : "",
+			"name" : "Triple 533mm Torpedo"
+		},
+		"3" : {
+			"icon" : "",
+			"rarity" : "",
+			"name" : ""
+		}
+	},
+	"stats": {
+		"base": {
+			"hp" : "666",
+			"firepower" : "29",
+			"torpedo" : "52",
+			"antiAir" : "60",
+			"aviation" : "0",
+			"reload" : "65",
+			"hit" : "54",
+			"evasion" : "29",
+			"speed" : "32",
+			"luck" : "45",
+			"asw" : "34",
+			"oxygen" : "0",
+			"ammo" : "0",
+			"cost" : "3",
+			"armor" : "Light"
+		},
+		"100": {
+			"hp" : "3444",
+			"firepower" : "135",
+			"torpedo" : "246",
+			"antiAir" : "279",
+			"aviation" : "0",
+			"reload" : "153",
+			"hit" : "140",
+			"evasion" : "76",
+			"speed" : "32",
+			"luck" : "45",
+			"asw" : "125",
+			"oxygen" : "0",
+			"ammo" : "0",
+			"cost" : "10",
+			"armor" : "Light"
+		},
+		"120": {
+			"hp" : "3789",
+			"firepower" : "156",
+			"torpedo" : "280",
+			"antiAir" : "317",
+			"aviation" : "0",
+			"reload" : "176",
+			"hit" : "157",
+			"evasion" : "100",
+			"speed" : "32",
+			"luck" : "45",
+			"asw" : "141",
+			"oxygen" : "0",
+			"ammo" : "0",
+			"cost" : "10",
+			"armor" : "Light"
+		},
+		"100retrofit": {
+			"hp" : "",
+			"firepower" : "",
+			"torpedo" : "",
+			"antiAir" : "",
+			"aviation" : "",
+			"reload" : "",
+			"hit" : "",
+			"evasion" : "",
+			"speed" : "32",
+			"luck" : "45",
+			"asw" : "",
+			"oxygen" : "0",
+			"ammo" : "0",
+			"cost" : "10",
+			"armor" : "Light"
+		},
+		"120retrofit": {
+			"hp" : "",
+			"firepower" : "",
+			"torpedo" : "",
+			"antiAir" : "",
+			"aviation" : "",
+			"reload" : "",
+			"hit" : "",
+			"evasion" : "",
+			"speed" : "32",
+			"luck" : "45",
+			"asw" : "",
+			"oxygen" : "0",
+			"ammo" : "0",
+			"cost" : "10",
+			"armor" : "Light"
+		}
+	},
+	"limitBreak": {
+		"tier1": "Unlock All Out Assault Ⅰ/Main gun efficiency +5%",
+		"tier2": "Torpedo base +1/Torpedo preload +1/Torpedo efficiency +10%",
+		"tier3": "Improve All Out Assault/Main gun efficiency +15%"
+	},
+	"equipmentLoadout": {
+		"1": {
+			"type": "Light Cruiser",
+			"efficiency": "130%/135%/135%/150%",
+			"amount": "1/1/1/1",
+			"preload": "0/0/0/0"
+		},
+		"2": {
+			"type": "Torpedo",
+			"efficiency": "140%/140%/150%/150%",
+			"amount": "1/1/2/2",
+			"preload": "0/0/1/1"
+		},
+		"3": {
+			"type": "Anti-Air Gun",
+			"efficiency": "110%/110%/110%/110%",
+			"amount": "1/1/1/1",
+			"preload": "0/0/0/0"
+		},
+		"4": {
+			"type": "Auxilary",
+			"efficiency": "-",
+			"amount": "-",
+			"preload": "-"
+		},
+		"5": {
+			"type": "Auxilary",
+			"efficiency": "-",
+			"amount": "-",
+			"preload": "-"
+		}
+	},
+	"fleet_tech": {
+		"pt_get": "10",
+		"add_get_attr": "HP",
+		"add_get_value": "1",
+		"add_get_shiptype": "Light Cruiser",
+		"pt_upgrade": "20",
+		"pt_level": "15",
+		"add_level_attr": "Anti-Air",
+		"add_level_value": "1",
+		"add_level_shiptype": "Light Cruiser",
+		"t_level": "7",
+		"ships": "gloucester"
+	},
+	"build": {
+		"light": {
+			"JP": "",
+			"CN": "",
+			"EN": ""
+		},
+		"heavy": {
+			"JP": "",
+			"CN": "",
+			"EN": ""
+		},
+		"special": {
+			"JP": "",
+			"CN": "",
+			"EN": ""
+		},
+		"limited": {
+			"JP": "✓",
+			"CN": "✓",
+			"EN": "✓"
+		}
+	},
+	"drop": {
+		"droppable": "false",
+		"list": {
+			"1": {
+				"event": "",
+				"chapter": {
+					"1": {
+						"label": "Ch .1",
+						"node": {
+							"1": {
+								"drop": "✓",
+								"note": "-"
+							}
+						}
+					}
+				}
+			}
+		}
+	},
+	"lines": {
+		"skin": {
+			"1": {
+				"skin_id" : "geluosite",
+				"id" : "0",
+				"label" : "Gloucester ",
+				"dialogue" : {
+					"1" : {
+						"event" : "Ship Description",
+						"media" : "",
+						"chinese" : "格罗斯特级轻巡洋舰—格罗斯特，舷号75",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "グロスター級軽巡洋艦・グロスター（HMS Edinburgh）",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Gloucester-class light cruiser – Gloucester (HMS Gloucester.) ",
+						"englishNote" : ""
+					},
+					"2" : {
+						"event" : "Biography",
+						"media" : "profile",
+						"chinese" : "作为皇家的一员，我曾在大大小小的战役中履行自己的职责。战场无情，也经历过生离死别，但没想过自己是因为弹药匮乏而遭遇不测……主人，你一定不能犯与那时相同的错误。",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "ロイヤルネイビーの一員として、数々の作戦に参加しました。沈むことを覚悟していましたが、まさか弾薬不足で無念な結果に……ご主人様、くれぐれもあの時の過ちを繰り返さないよう心がけることです",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "I participated in a number of operations as a member of the Royal Navy. And while I was prepared to face my own sinking, I never would have imagined it would come thanks to a shortage of ammunition... Master, I swear to you that such a fatal mistake will absolutely never happen again.",
+						"englishNote" : ""
+					},
+					"3" : {
+						"event" : "Acquisition",
+						"media" : "get",
+						"chinese" : "皇家女仆队所属，巡洋舰格罗斯特，向主人问好。辅佐您成为优秀的指挥官，便是我的义务。",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "ロイヤルメイド隊、軽巡洋艦グロスター、参上しました。ご主人様が優秀な指揮官になれるよう補佐すること――これこそが私の務めにして義務でございます",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Gloucester, light cruiser of the Royal Maids, at your service, Master. It is my honor and my duty to assist you in becoming a most magnificent commander.",
+						"englishNote" : ""
+					},
+					"4" : {
+						"event" : "Login",
+						"media" : "login",
+						"chinese" : "准时不是一种品德，而是一个原则。主人，请铭记于心",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "時間厳守――美徳（バーチャ―）ではなく原則（デューティ）です。ご主人様、ちゃんと覚えていなさい",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Punctuality is not a virtue, it is rather a duty. Master, do bear that in mind.",
+						"englishNote" : ""
+					},
+					"5" : {
+						"event" : "Details",
+						"media" : "detail",
+						"chinese" : "有观摩女仆工作的闲情逸致，不如多去处理些公文呢，主人",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "メイドが仕事しているのを覗く暇があったら仕事しなさい。ご主人様",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "If you have the time to gape at working maids, you have the time to do your own work. Master.",
+						"englishNote" : ""
+					},
+					"6" : {
+						"event" : "Main 1",
+						"media" : "main_1",
+						"chinese" : "女仆队时不时会有个性鲜明的伙伴犯些小错……是不是应该让贝尔法斯特更加关照她们一些？",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "今日もメイド隊の仕事にトラブルが起きましたが…ベルファスト、ドジっ子たちにもっと気を使うようにすべきか",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "More trouble from the Royal Maids today... Belfast, do look after this troop of clumsy louts.",
+						"englishNote" : ""
+					},
+					"7" : {
+						"event" : "Main 2",
+						"media" : "main_2",
+						"chinese" : "每次见到斐济，她都说要给我化妆，还要给我穿上她亲自挑选的衣服…主人可不能学她，生活还是要简朴点才是。",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "フィジー、化粧品だの新しい服だのをいつも買いたがっているが……ご主人様はあの子の真似をしないで、ちゃんと生活を節制しなさい",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "That Fiji is always buying cosmetics, clothes and the like... You must not learn from her, Master. Life is to be lived in moderation.",
+						"englishNote" : ""
+					},
+					"8" : {
+						"event" : "Main 3",
+						"media" : "main_3",
+						"chinese" : "女仆有女仆的工作，主人有主人的工作。女仆的工作是为了主人，而主人您的工作是为了所有人。",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "メイドにはメイドの務めがあり、ご主人さまも然り。メイドはご主人様のため、ご主人様は皆のために働く。つまりそういうことです",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "A maid has a maid's work, the master has the master's. The maids serve the master, while the master serves everyone. This is the way of the world.",
+						"englishNote" : ""
+					},
+					"9" : {
+						"event" : "Touch",
+						"media" : "touch_1",
+						"chinese" : "有何事吩咐？我是您的女仆，在您义务之外的要求我会尽量满足。",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "なにかご用でしょうか。メイドとして務めている以上、ご主人様自身でなすべきこと以外のリクエストに応じるつもりでございます",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Do you need something of me? As your maid, Master, I will do what I can to satisfy your requests above and beyond our typical responsibilities.",
+						"englishNote" : ""
+					},
+					"10" : {
+						"event" : "Touch (Special)",
+						"media" : "touch_2",
+						"chinese" : "请在那边坐好，主人。我要教给您对待女士的基本礼节。",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "そこに座りなさい。女性への接し方、身をもって分からせて差し上げます",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Take a seat over there. I am going to educate you on the proper way to treat a lady.",
+						"englishNote" : ""
+					},
+					"11" : {
+						"event" : "Mission",
+						"media" : "task",
+						"chinese" : "您还有未完成的任务——在完成之前，我会一直提醒主人您的哦",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "未完了の任務を確認しなさい。――全てをこなすまでメイドとして何度も言わせていただきますよ",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "You have as yet uncompleted tasks... I will continue to remind you until all of your missions have been completed.",
+						"englishNote" : ""
+					},
+					"12" : {
+						"event" : "Mission Complete",
+						"media" : "mission_complete",
+						"chinese" : "还有未领取的任务报酬。就算要我帮您领取，也请先给我指示",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "任務の報酬を受け取りなさい。私に取らせるにしても、そのようにご指示をください",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "You have uncollected mission rewards. If you would rather I collect them for you, simply direct me to do so.",
+						"englishNote" : ""
+					},
+					"13" : {
+						"event" : "Mail",
+						"media" : "mail",
+						"chinese" : "请及时检查邮件…不想被我反复提醒的话，就请在我催促之前及时确认",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "メールのチェックをしなさい。…言われたくなければ言われる前に確認しなさい",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Do check your mail... If you would prefer I not remind you, you need only check it sooner.",
+						"englishNote" : ""
+					},
+					"14" : {
+						"event" : "Return to Port",
+						"media" : "home",
+						"chinese" : "欢迎回来，主人，请用茶。对了，我稍微确认一下，您没有借着外出的时刻偷懒吧？",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "おかえりなさいご主人様。はい、お茶です。ところで確認ですが、出撃中に手を抜いてはいないでしょうね",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Welcome home, Master. Have some tea. Now then, I must ask, you were fully committed to your duties during the sortie, yes?",
+						"englishNote" : ""
+					},
+					"15" : {
+						"event" : "Commission Complete",
+						"media" : "expedition",
+						"chinese" : "主人，放着归来委托队不管也许会影响您在她们心目中的评价，请妥善处理",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "委託チームの状態をチェックしなさい。ご主人様の評価に響きますから、善処するように",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "You should check on the commission team, Master. Do consider how it may affect their assessment of you.",
+						"englishNote" : ""
+					},
+					"16" : {
+						"event" : "Enhancement",
+						"media" : "upgrade",
+						"chinese" : "不错的选择。不过，如果也能强化一下其他的姐妹就好更好了",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "いい選択です。もっとも、ほかの子も同じように強化して頂けると嬉しいですが",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Excellent choice. Now, if you could also strengthen some of the other girls as well, I'd be delighted.",
+						"englishNote" : ""
+					},
+					"17" : {
+						"event" : "Flagship",
+						"media" : "warcry",
+						"chinese" : "再检查一遍弹药储备吧。",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "弾薬の残量、もう一回チェックしなさい",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Please check your remaining ammunition stocks.",
+						"englishNote" : ""
+					},
+					"18" : {
+						"event" : "Victory",
+						"media" : "mvp",
+						"chinese" : "这只是一次微不足道的胜利。主人，如果您满足于此…我会感到很困扰的",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "些細な勝利です。ご主人様が先を目指す上で、この程度では満足できないでしょう。…満足されても困ります",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "This is but a trifling victory. Master, should you be satisfied with such triviality... I would find that rather troubling.",
+						"englishNote" : ""
+					},
+					"19" : {
+						"event" : "Defeat",
+						"media" : "lose",
+						"chinese" : "对不起，主人，这次是我辜负了您的期望。",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "申し訳ございませんご主人様。今度ばかりは私の落ち度でした",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "I beg your pardon, Master. I have failed you.",
+						"englishNote" : ""
+					},
+					"20" : {
+						"event" : "Skill",
+						"media" : "skill",
+						"chinese" : "一切为了主人",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "全てはご主人様のために",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "All for our master. ",
+						"englishNote" : ""
+					},
+					"21" : {
+						"event" : "Low HP",
+						"media" : "hp",
+						"chinese" : "和预计的情况似乎有些出入…不过…！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "予定とは異なる展開…ですが！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "This is not going according... to plan!",
+						"englishNote" : ""
+					},
+					"22" : {
+						"event" : "Affinity (Upset)",
+						"media" : "feeling1",
+						"chinese" : "我不会对着木头谏言。",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "木偶（デク）に言う言葉はございません",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "I do not speak to things.",
+						"englishNote" : ""
+					},
+					"23" : {
+						"event" : "Affinity (Stranger)",
+						"media" : "feeling2",
+						"chinese" : "人不会永远不犯错，而我会以我的经验，努力减少主人犯错的机会，请作做好心理准备",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "間違いを起こさない人間などいません。ご主人様にしていることは、私めの経験と努力でご主人様の間違いを減らすことです。覚悟しなさい",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Everyone makes mistakes. But I will use my experience to reduce the opportunities my master has to make such mistakes. Do be aware.",
+						"englishNote" : ""
+					},
+					"24" : {
+						"event" : "Affinity (Friendly)",
+						"media" : "feeling3",
+						"chinese" : "主人，为了健康，您该注意饮食均衡。觉得麻烦的话，就让我为您准备一日三餐吧，这也是女仆应该做的",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "ご主人様、健康のために食事の栄養バランスに気をつけなさい。面倒くさいということでしたら、私に全部作らせてください。そのためのメイドですから",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Master, you must keep a healthy, balanced diet. If you find it troublesome, I can your meals for you. Such is a maid's duty, after all.",
+						"englishNote" : ""
+					},
+					"25" : {
+						"event" : "Affinity (Like)",
+						"media" : "feeling4",
+						"chinese" : "主人，请注意在女性面前的行为举止，特别是接触女性的方式…如果觉得有困难的话，请把我当作练习对象吧，咳咳…请——",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "ご主人様、女性の前での振る舞い、特にはスキンシップのやり方には気をつけなさい。…難しそうなら私が練習台になって差し上げましょう。コホン、では――",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Master, you must be mindful of your comportment around women, particularly the way you touch and handle them... If you find this challenging, I am willing to practice with you. Ahem, now then...",
+						"englishNote" : ""
+					},
+					"26" : {
+						"event" : "Affinity (Love)",
+						"media" : "feeling5",
+						"chinese" : "主人，为了提升工作的效率，需要从改善生活习惯做起…主人如果不嫌弃的话，我很乐意照顾你——不，我很乐意与主人一起生活，一起进步",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "ご主人様、仕事の能率向上のために生活習慣の改善を…ご主人様さえよろければ、私が喜んで世話を――いいえ、ご主人様と共にさせていただきますから",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Master, we must improve your daily habits if we are to raise your work efficiency... If you would like, Master, I could take care of- Rather, I would be happy to stay with you.",
+						"englishNote" : ""
+					},
+					"27" : {
+						"event" : "Pledge",
+						"media" : "propose",
+						"chinese" : "主人，想要让我一直留在您的身边，即使不用这种手段也可以的……如果这便是主人您的意志的话，格罗斯特、乐意之至",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "ご主人様、私を永遠にそばに置きたいのなら、こんな方法を用いずとも……これがご主人様の意志とあらば、グロスター、喜んで――！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Master, you need not resort to such methods to keep me by your side... But if this is indeed your wish, I, Gloucester, am happy to oblige...!",
+						"englishNote" : ""
+					},
+					"28" : {
+						"event" : "Easter Egg 1(Fiji)",
+						"media" : "link1",
+						"chinese" : "相信我，主人不会让那一幕重演。",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "信じなさい。ご主人様ならあの過ちを繰り返しません",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Have faith, the master will not let that happen again.",
+						"englishNote" : ""
+					},
+					"29" : {
+						"event" : "Easter Egg 2(Southampton)",
+						"media" : "link2",
+						"chinese" : "皇家骑士小姐，请务必保护好自己。",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "騎士隊に入ったからには自分の身は自分で守りなさい",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Madam Royal Knight, do take care of yourself.",
+						"englishNote" : ""
+					},
+					"30" : {
+						"event" : "Like Present",
+						"media" : "present_like",
+						"chinese" : "",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"31" : {
+						"event" : "Dislike Present",
+						"media" : "present_dislike",
+						"chinese" : "",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"32" : {
+						"event" : "Main Title",
+						"media" : "extra",
+						"chinese" : "",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					}
+				}
+			},
+			"2": {
+				"skin_id" : "geluosite_2",
+				"id" : "1",
+				"label" : "Brilliance in Purple",
+				"dialogue" : {
+					"1" : {
+						"event" : "Ship Description",
+						"media" : "",
+						"chinese" : "主人，皇家女仆队格罗斯特向您致节日的问好…看起来心情不佳？非常抱歉…只是到了节日，需要烦恼的事情变多了而已，一切都是女仆分内的事情，请不用在意——",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "ロイヤルメイド隊、軽巡洋艦グロスター、春節の挨拶を申し上げます。…機嫌が良くなさそう、ですか？これはお恥ずかしいことを…メイドにとって悩ましいことは普段より祝日のほうが多いということだけです。お気遣いなく",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Gloucester, light cruiser of the Royal Maids, at your service for the Spring Festival... You say I look displeased? I beg your pardon, it's just... Such holidays are in fact quite busy for the Maids. We have much on our minds. It is none of your concern.",
+						"englishNote" : ""
+					},
+					"2" : {
+						"event" : "Acquisition",
+						"media" : "get_1",
+						"chinese" : "主人，皇家女仆队格罗斯特向您致节日的问好…看起来心情不佳？非常抱歉…只是到了节日，需要烦恼的事情变多了而已，一切都是女仆分内的事情，请不用在意——",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "ロイヤルメイド隊、軽巡洋艦グロスター、春節の挨拶を申し上げます。…機嫌が良くなさそう、ですか？これはお恥ずかしいことを…メイドにとって悩ましいことは普段より祝日のほうが多いということだけです。お気遣いなく",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Gloucester, light cruiser of the Royal Maids, at your service for the Spring Festival... You say I look displeased? I beg your pardon, it's just... Such holidays are in fact quite busy for the Maids. We have much on our minds. It is none of your concern.",
+						"englishNote" : ""
+					},
+					"3" : {
+						"event" : "Login",
+						"media" : "login_1",
+						"chinese" : "主人，工作都完成了吗？把事情拖到节日中可不好哦？",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "ご主人様、仕事の進捗はいかがですか？祝日出勤になることだけは避けなさい",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Master, how is your work coming along? Let's avoid having you at the office for the holiday.",
+						"englishNote" : ""
+					},
+					"4" : {
+						"event" : "Details",
+						"media" : "detail_1",
+						"chinese" : "哈啊…当初就不该答应斐济，让她帮我准备什么“节日服装”…“这里稍稍撩起来一点指挥官会更喜欢”什么的…这都什么跟什么啊…",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "フィジーに祝日の衣装を用意してもらったのは完全に失敗しました。…「ここをちらつかせば指揮官がきっと喜ぶ」など、あの子、なんてふざけたことを……",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "It was a terrible mistake letting Fiji handle this festival costuming... \"Spice up this bit and the Commander'll love it,\" and such. It's all a game to that girl...",
+						"englishNote" : ""
+					},
+					"5" : {
+						"event" : "Main 1",
+						"media" : "main_1_1",
+						"chinese" : "地板又被踩脏了吗？真是的…都提醒那些孩子们把鞋子弄干再进来了…",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "フロアがまた汚れたのですか？…あの子たちときたら…「靴の汚れは落としなさい」とあれほど注意しておいたのに…",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "The floor is filthy again...? Oh those girls... I told them a thousand times to wipe their dirty shoes before coming inside...",
+						"englishNote" : ""
+					},
+					"6" : {
+						"event" : "Main 2",
+						"media" : "main_2_1",
+						"chinese" : "主人，有空的话，抽点时间陪陪其他孩子们吧？别忘了准备好红包。",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "ご主人様、時間がありましたら他の子にも付き合いなさい。お年玉の用意もお忘れなく",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Master, you should find a bit of time to spend with the girls. Don't forget those packets of New Year money.",
+						"englishNote" : ""
+					},
+					"7" : {
+						"event" : "Main 3",
+						"media" : "main_3_1",
+						"chinese" : "女仆们应该是在准备晚上的聚餐。有贝尔法斯特在的话应该没什么问题…算了，还是去看一眼吧…",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "メイド隊の子たちは夜の宴会の準備をしているのですね。ベルファストがいれば問題が起きるとは思いませんが……やっぱり様子を見に行ったほうが……",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "The Royal Maids are preparing tonight's banquet. As long as Belfast is there, I don't think they will have any issues... Actually, I think I will go take a look after all...",
+						"englishNote" : ""
+					},
+					"8" : {
+						"event" : "Touch",
+						"media" : "touch_1_1",
+						"chinese" : "指挥官，无论是女仆还是别的女孩子，一直盯着她们看都是很失礼的哦",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "ご主人様、メイドでも他の子でも、ずっと見つめるのは失礼です",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Master, it's impolite to stare at a lady, maid or otherwise.",
+						"englishNote" : ""
+					},
+					"9" : {
+						"event" : "Touch (Special)",
+						"media" : "touch_2_1",
+						"chinese" : "看来，就应该把指挥官这双手用铁链绑起来，等到节日过去了再解开才对呢…",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "祝日が終わるまで、ご主人様の両腕を鎖で縛り付けておくべきか…",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "We'll have to shackle the master until the end of the festival, I'm afraid...",
+						"englishNote" : ""
+					},
+					"10" : {
+						"event" : "Return to Port",
+						"media" : "home_1",
+						"chinese" : "港区已经被装扮成了节日的模样。一想到之后要把它恢复原状，不免就有些头疼……",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "母港はすっかり祝日モードですね。原状回復のことを考えると、頭を抱えそうになりますが…",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "The port is all done up for the festival. But I get a headache when I think about having to put it back as it was...",
+						"englishNote" : ""
+					}
+				}
+			}
+		}
+	}
+}

@@ -11,7 +11,7 @@
 	"hull": "Light Cruiser",
 	"navy": "Dragon Empire",
 	"prefix": "ROC",
-	"buildTime": "",
+	"buildTime": "00:40:00",
 	"class": "Yat Sen-Class",
 	"voiceActress": "Yuu Asakawa",
 	"parameters": {
@@ -34,10 +34,10 @@
 		"EN": ""
 	},
 	"artist": {
-		"name": "",
-		"weibo": "",
-		"twitter": "",
-		"pixiv": "",
+		"name": "木shiyo",
+		"weibo": "https://weibo.com/u/2481339344",
+		"twitter": "https://twitter.com/kishiyo1943",
+		"pixiv": "https://www.pixiv.net/member.php?id=40222",
 		"other": ""
 	},
 	"enhance": {
@@ -50,21 +50,21 @@
 	"skill": {
 		"1": {
 			"icon": "10760",
-			"requirement": "",
+			"requirement": "Default Unlocked",
 			"name": "Dragon Empery Bond ",
 			"type": "Support",
-			"description": "When sortied with Ning Hai, Ping Hai, or both, Yat Sen and the aforementioned ship(s) receive the following buffs: DMG taken is decreased by $1 and Evasion Rate is increased by $2."
+			"description": "When sortied with Ning Hai, Ping Hai, or both, Yat Sen and the aforementioned ship(s) receive the following buffs: DMG taken is decreased by 8.0%(20.0%) and Evasion Rate is increased by 15.0%(30.0%)."
 		},
 		"2": {
 			"icon": "10500",
-			"requirement": "",
+			"requirement": "Default Unlocked",
 			"name": "For The Dragon Empery",
 			"type": "Offensive",
-			"description": "Increases the DMG this ship deals to enemy Sakura Empire ships by $1."
+			"description": "Increases the DMG this ship deals to enemy Sakura Empire ships by 5.0%(25.0%)."
 		},
 		"3": {
 			"icon": "24121",
-			"requirement": "",
+			"requirement": "Limit Break I (III)",
 			"name": "All Out Assault I",
 			"type": "Offensive",
 			"description": "Activate All Out Assault I once every 18 times the main guns are fired."
@@ -78,6 +78,28 @@
 			"expression": {
 				"0": {
 					"id": "0"
+				}
+			}
+		},
+		"2": {
+			"id": "yixian_h",
+			"name": "Coronal Afterglow",
+			"description": "Commander, thank you for waiting for me. Though I am unworthy of this honor, thank you so much...",
+			"expression": {
+				"0": {
+					"id": "0"
+				},
+				"1": {
+					"id": "1"
+				},
+				"2": {
+					"id": "2"
+				},
+				"3": {
+					"id": "3"
+				},
+				"4": {
+					"id": "4"
 				}
 			}
 		}
@@ -225,9 +247,9 @@
 	},
 	"build": {
 		"light": {
-			"JP": "",
-			"CN": "",
-			"EN": ""
+			"JP": "✓",
+			"CN": "✓",
+			"EN": "✓"
 		},
 		"heavy": {
 			"JP": "",
@@ -617,6 +639,97 @@
 						"japaneseTL": "",
 						"japaneseNote": "",
 						"english": "I'm so glad I can be with everyone again, just as before.",
+						"englishNote": ""
+					}
+				}
+			},
+			"2": {
+				"skin_id": "yixian_h",
+				"id": "8",
+				"label": "Coronal Afterglow",
+				"dialogue": {
+					"1": {
+						"event": "Ship Description",
+						"media": "",
+						"chinese": "呼…让您久等了，指挥官。逸仙不才，烦请指挥官多多包涵了——",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "指揮官、おまたせしました。不束者ですが、何卒よろしくお願いいたします――",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Commander, thank you for waiting for me. Though I am unworthy of this honor, thank you so much...",
+						"englishNote": ""
+					},
+					"2": {
+						"event": "Acquisition",
+						"media": "get_8",
+						"chinese": "呼…让您久等了，指挥官。逸仙不才，烦请指挥官多多包涵了——",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"3": {
+						"event": "Touch",
+						"media": "touch_1_8",
+						"chinese": "怎么了，指挥官？逸仙在此处，无论何时，逸仙都在此等着您",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"4": {
+						"event": "Touch (Special)",
+						"media": "touch_2_8",
+						"chinese": "指挥官，请不要操之过急…至少等回到房间…",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"5": {
+						"event": "Return to Port",
+						"media": "home_8",
+						"chinese": "等待良人归来…亦是一种别样的温暖",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"6": {
+						"event": "Flagship",
+						"media": "warcry_8",
+						"chinese": "有您陪伴身旁，逸仙便无所不能",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"7": {
+						"event": "Affinity (Love)",
+						"media": "feeling5_8",
+						"chinese": "身无彩凤双飞翼，心有灵犀一点通。指挥官对逸仙，也是这样的感觉吗？呵呵…",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
 						"englishNote": ""
 					}
 				}
