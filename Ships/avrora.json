@@ -1,182 +1,204 @@
 {
-	"name_reference": "avrora",
-	"cn_reference": "afuleer",
-	"nameJP": "アヴローラ",
-	"nameCN": "阿芙乐尔",
-	"ID": "262",
-	"name": "Avrora",
-	"internal_id": "702011",
-	"rarity": "Super Rare",
-	"initialStar": "★★★☆☆☆",
-	"hull": "Light Cruiser",
-	"navy": "Northern Union",
-	"prefix": "SN",
-	"buildTime": "",
-	"class": "Pallada-Class",
-	"voiceActress": "Marie Miyake",
+	"name_reference" : "avrora",
+	"cn_reference" : "afuleer",
+	"nameJP" : "アヴローラ",
+	"nameCN" : "阿芙乐尔",
+	"ID" : "262",
+	"name" : "Avrora",
+	"internal_id" : "702011",
+	"rarity" : "Super Rare",
+	"initialStar" : "★★★☆☆☆",
+	"hull" : "Light Cruiser",
+	"navy" : "Northern Union",
+	"prefix" : "SN",
+	"buildTime" : "",
+	"voiceActress" : "Marie Miyake",
 	"parameters": {
-		"firepower": "D",
-		"torpedo": "D",
-		"aviation": "E",
-		"evasion": "C",
-		"antiAir": "C",
-		"hp": "C"
+		"firepower" : "D",
+		"torpedo" : "D",
+		"aviation" : "E",
+		"evasion" : "C",
+		"antiAir" : "C",
+		"hp" : "C"
 	},
 	"scrap": {
-		"gold": "6",
-		"oil": "3",
-		"medal": "10"
+		"gold" : "6",
+		"oil" : "3",
+		"medal" : "10"
 	},
 	"releaseDate": {
-		"JP": "",
-		"CN": "",
-		"KR": "",
-		"EN": ""
+		"JP" : "",
+		"CN" : "",
+		"KR" : "",
+		"EN" : ""
 	},
 	"artist": {
-		"name": "",
-		"weibo": "",
-		"twitter": "",
-		"pixiv": "",
-		"other": ""
+		"name" : "梦咲枫",
+		"weibo" : "http://weibo.com/u/3558369570",
+		"twitter" : "https://twitter.com/yumesaki_kaede/",
+		"pixiv" : "https://www.pixiv.net/member.php?id=1023957",
+		"other" : ""
 	},
+	"class" : "Pallada-Class",
 	"enhance": {
-		"firepower": "8",
-		"torpedo": "14",
-		"aviation": "0",
-		"reload": "10"
+		"firepower" : "8",
+		"torpedo" : "14",
+		"aviation" : "0",
+		"reload" : "10"
 	},
-	"acquisitionMethod": "CBT reward",
+	"acquisitionMethod" : "CBT reward, Event: Northern Overture",
 	"skill": {
-		"1": {
-			"icon": "10510",
-			"requirement": "",
-			"name": "Revolyutsiya",
-			"type": "Support",
-			"description": "Increases the DMG that all friendlies in the Vanguard Fleet deal by $1."
+		"1" : {
+			"icon" : "10510",
+			"requirement" : "Default Unlocked",
+			"name" : "Revolyutsiya",
+			"type" : "Support",
+			"description" : "Increases your Vanguard's DMG by 15% (35%)."
 		},
-		"2": {
-			"icon": "29191",
-			"requirement": "",
-			"name": "EX Barrage: Avrora Ⅰ",
-			"type": "Offensive",
-			"description": "Activate EX Barrage: Avrora Ⅰ once every 12 times the main gun is fired."
+		"2" : {
+			"icon" : "29191",
+			"requirement" : "Limit Break I (III)",
+			"name" : "All Out Assault Ⅰ",
+			"type" : "Offensive",
+			"description" : "Activates All Out Assault Ⅰ: Avrora once every 12 times the Main Guns are fired."
 		}
 	},
 	"skin": {
-		"1": {
-			"id": "afuleer",
-			"name": "Avrora",
-			"description": "Pallada-class Light Cruiser, Avrora",
-			"expression": {
-				"0": {
-					"id": "0"
+		"1" : {
+			"id" : "afuleer",
+			"name" : "Avrora",
+			"description" : "Pallada-class Light Cruiser, Avrora",
+			"expression" : {
+				"0" : {
+					"id" : "0"
+				}
+			}
+		},
+		"2" : {
+			"id" : "afuleer_2",
+			"name" : "Shackled Saule",
+			"description" : "\"I am Avrora, the princess bound within this tower by a cruel fate... My beloved, please come for me soon...\"",
+			"expression" : {
+				"0" : {
+					"id" : "0"
+				},
+				"1" : {
+					"id" : "1"
+				},
+				"2" : {
+					"id" : "2"
+				},
+				"3" : {
+					"id" : "3"
+				},
+				"4" : {
+					"id" : "4"
 				}
 			}
 		}
 	},
 	"defaultEquipment": {
-		"1": {
-			"icon": "7000",
-			"rarity": "",
-			"name": "Single 152mm Main Gun"
+		"1" : {
+			"icon" : "7000",
+			"rarity" : "",
+			"name" : "Single 152mm Main Gun"
 		},
-		"2": {
-			"icon": "5000",
-			"rarity": "",
-			"name": "Triple 533mm Torpedo"
+		"2" : {
+			"icon" : "5000",
+			"rarity" : "",
+			"name" : "Triple 533mm Torpedo"
 		},
-		"3": {
-			"icon": "",
-			"rarity": "",
-			"name": ""
+		"3" : {
+			"icon" : "",
+			"rarity" : "",
+			"name" : ""
 		}
 	},
 	"stats": {
+		"base": {
+			"hp" : "585",
+			"firepower" : "19",
+			"torpedo" : "41",
+			"antiAir" : "30",
+			"aviation" : "0",
+			"reload" : "55",
+			"hit" : "45",
+			"evasion" : "24",
+			"speed" : "19",
+			"luck" : "55",
+			"asw" : "14",
+			"oxygen" : "0",
+			"ammo" : "0",
+			"cost" : "3",
+			"armor" : "Medium"
+		},
 		"100": {
-			"hp": "3024",
-			"firepower": "91",
-			"torpedo": "194",
-			"antiAir": "139",
-			"aviation": "0",
-			"reload": "130",
-			"hit": "116",
-			"evasion": "62",
-			"speed": "19",
-			"luck": "55",
-			"asw": "50",
-			"oxygen": "0",
-			"ammo": "0",
-			"cost": "11",
-			"armor": "Medium"
+			"hp" : "3024",
+			"firepower" : "91",
+			"torpedo" : "194",
+			"antiAir" : "139",
+			"aviation" : "0",
+			"reload" : "130",
+			"hit" : "116",
+			"evasion" : "62",
+			"speed" : "19",
+			"luck" : "55",
+			"asw" : "50",
+			"oxygen" : "0",
+			"ammo" : "0",
+			"cost" : "11",
+			"armor" : "Medium"
 		},
 		"120": {
-			"hp": "3372",
-			"firepower": "104",
-			"torpedo": "223",
-			"antiAir": "160",
-			"aviation": "0",
-			"reload": "150",
-			"hit": "130",
-			"evasion": "79",
-			"speed": "19",
-			"luck": "55",
-			"asw": "57",
-			"oxygen": "0",
-			"ammo": "0",
-			"cost": "11",
-			"armor": "Medium"
-		},
-		"base": {
-			"hp": "585",
-			"firepower": "19",
-			"torpedo": "41",
-			"antiAir": "30",
-			"aviation": "0",
-			"reload": "55",
-			"hit": "45",
-			"evasion": "24",
-			"speed": "19",
-			"luck": "55",
-			"asw": "14",
-			"oxygen": "0",
-			"ammo": "0",
-			"cost": "3",
-			"armor": "Medium"
+			"hp" : "3372",
+			"firepower" : "104",
+			"torpedo" : "223",
+			"antiAir" : "160",
+			"aviation" : "0",
+			"reload" : "150",
+			"hit" : "130",
+			"evasion" : "79",
+			"speed" : "19",
+			"luck" : "55",
+			"asw" : "57",
+			"oxygen" : "0",
+			"ammo" : "0",
+			"cost" : "11",
+			"armor" : "Medium"
 		},
 		"100retrofit": {
-			"hp": "",
-			"firepower": "",
-			"torpedo": "",
-			"antiAir": "",
-			"aviation": "",
-			"reload": "",
-			"hit": "",
-			"evasion": "",
-			"speed": "19",
-			"luck": "55",
-			"asw": "",
-			"oxygen": "0",
-			"ammo": "0",
-			"cost": "11",
-			"armor": "Medium"
+			"hp" : "",
+			"firepower" : "",
+			"torpedo" : "",
+			"antiAir" : "",
+			"aviation" : "",
+			"reload" : "",
+			"hit" : "",
+			"evasion" : "",
+			"speed" : "19",
+			"luck" : "55",
+			"asw" : "",
+			"oxygen" : "0",
+			"ammo" : "0",
+			"cost" : "11",
+			"armor" : "Medium"
 		},
 		"120retrofit": {
-			"hp": "",
-			"firepower": "",
-			"torpedo": "",
-			"antiAir": "",
-			"aviation": "",
-			"reload": "",
-			"hit": "",
-			"evasion": "",
-			"speed": "19",
-			"luck": "55",
-			"asw": "",
-			"oxygen": "0",
-			"ammo": "0",
-			"cost": "11",
-			"armor": "Medium"
+			"hp" : "",
+			"firepower" : "",
+			"torpedo" : "",
+			"antiAir" : "",
+			"aviation" : "",
+			"reload" : "",
+			"hit" : "",
+			"evasion" : "",
+			"speed" : "19",
+			"luck" : "55",
+			"asw" : "",
+			"oxygen" : "0",
+			"ammo" : "0",
+			"cost" : "11",
+			"armor" : "Medium"
 		}
 	},
 	"limitBreak": {
@@ -204,17 +226,30 @@
 			"preload": "0/0/0/0"
 		},
 		"4": {
-			"type": "Auxiliary",
+			"type": "Auxilary",
 			"efficiency": "-",
 			"amount": "-",
 			"preload": "-"
 		},
 		"5": {
-			"type": "Auxiliary",
+			"type": "Auxilary",
 			"efficiency": "-",
 			"amount": "-",
 			"preload": "-"
 		}
+	},
+	"fleet_tech": {
+		"pt_get": "8",
+		"add_get_attr": "Hit",
+		"add_get_value": "1",
+		"add_get_shiptype": "Light Cruiser",
+		"pt_upgrade": "18",
+		"pt_level": "14",
+		"add_level_attr": "Firepower",
+		"add_level_value": "1",
+		"add_level_shiptype": "Light Cruiser",
+		"t_level": "1",
+		"ships": "avrora"
 	},
 	"build": {
 		"light": {
@@ -233,9 +268,9 @@
 			"EN": ""
 		},
 		"limited": {
-			"JP": "",
-			"CN": "",
-			"EN": ""
+			"JP": "✓",
+			"CN": "✓",
+			"EN": "✓"
 		}
 	},
 	"drop": {
@@ -260,349 +295,559 @@
 	"lines": {
 		"skin": {
 			"1": {
-				"skin_id": "afuleer",
-				"id": "0",
-				"label": "Avrora",
-				"dialogue": {
-					"1": {
-						"event": "Ship Description",
-						"media": "",
-						"chinese": "帕拉达级轻巡洋舰—阿芙乐尔",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "アヴローラ級軽巡洋艦・アヴローラ",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "Pallada-class Light Cruiser, Avrora",
-						"englishNote": ""
+				"skin_id" : "afuleer",
+				"id" : "0",
+				"label" : "Avrora",
+				"dialogue" : {
+					"1" : {
+						"event" : "Ship Description",
+						"media" : "",
+						"chinese" : "帕拉达级轻巡洋舰—阿芙乐尔",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "アヴローラ級軽巡洋艦・アヴローラ",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Pallada-class Light Cruiser, Avrora",
+						"englishNote" : ""
 					},
-					"2": {
-						"event": "Biography",
-						"media": "profile",
-						"chinese": "我是巡洋舰阿芙乐尔，如您所知道的，我曾经为那一场著名的革命打响了第一炮，不过在那之后的世界变得我也有些看不懂了…… 总之，在舰队中我也只是普通的士兵，请尽情使用我吧，我会为舰队带来胜利的！",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "巡洋艦アヴローラです。知っての通り、かつての革命の一番槍を勤めました。ただあのあと世界がどう変わったか、今となってはよくわからないですね…とにかく、艦隊での私はただの兵士ですから、遠慮なくお使いください。艦隊に勝利をもたらしてみせますわ！",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "I am Avrora, a light cruiser. I started a famous revolution, but I cannot understand what happened the world after that...|I’m no more than just another soldier in your fleet. Please utilize my abilities to their fullest, and I’ll make sure to ring victory to the fleet.",
-						"englishNote": ""
+					"2" : {
+						"event" : "Biography",
+						"media" : "profile",
+						"chinese" : "我是巡洋舰阿芙乐尔，如您所知道的，我曾经为那一场著名的革命打响了第一炮，不过在那之后的世界变得我也有些看不懂了…… 总之，在舰队中我也只是普通的士兵，请尽情使用我吧，我会为舰队带来胜利的！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "巡洋艦アヴローラです。知っての通り、かつての革命の一番槍を勤めました。ただあのあと世界がどう変わったか、今となってはよくわからないですね…とにかく、艦隊での私はただの兵士ですから、遠慮なくお使いください。艦隊に勝利をもたらしてみせますわ！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "I am Avrora, a light cruiser. I started a famous revolution, but I cannot understand what happened to the world after that...|I’m no more than just another soldier in your fleet. Please utilize my abilities to their fullest, and I’ll make sure to ring victory to the fleet.",
+						"englishNote" : ""
 					},
-					"3": {
-						"event": "Acquisition",
-						"media": "get",
-						"chinese": "Здравствуйте，阿芙乐尔向您报到。我将曙光带来，愿胜利与您同在",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "Здравствуйте！アヴローラ、着任しました。暁の光とともに、あなたに勝利を",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "Здравствуйте! Avrora, reporting in. Along with the light of dawn, I shall bring you victory.",
-						"englishNote": ""
+					"3" : {
+						"event" : "Acquisition",
+						"media" : "get",
+						"chinese" : "Здравствуйте，阿芙乐尔向您报到。我将曙光带来，愿胜利与您同在",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "Здравствуйте！アヴローラ、着任しました。暁の光とともに、あなたに勝利を",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Здравствуйте! Avrora, reporting in. Along with the light of dawn, I shall bring you victory.",
+						"englishNote" : ""
 					},
-					"4": {
-						"event": "Login",
-						"media": "login",
-						"chinese": "啊，指挥官，您回来了，要喝罗宋汤吗？",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "あ、指揮官、お帰りなさい。ボルシチでもどうです？",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "Ah, Commander, you're back! Would you like some borscht?",
-						"englishNote": ""
+					"4" : {
+						"event" : "Login",
+						"media" : "login",
+						"chinese" : "啊，指挥官，您回来了，要喝罗宋汤吗？",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "あ、指揮官、お帰りなさい。ボルシチでもどうです？",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Ah, Commander, you're back! Would you like some borscht?",
+						"englishNote" : ""
 					},
-					"5": {
-						"event": "Details",
-						"media": "detail",
-						"chinese": "只是作为战士存在的感觉还有些新奇呢",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "戦士だけとして振る舞うのはなんだか新鮮ですね",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "For combat to be the sole purpose of my existence is a strange and novel feeling.",
-						"englishNote": ""
+					"5" : {
+						"event" : "Details",
+						"media" : "detail",
+						"chinese" : "只是作为战士存在的感觉还有些新奇呢",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "戦士だけとして振る舞うのはなんだか新鮮ですね",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "For combat to be the sole purpose of my existence is a strange and novel feeling.",
+						"englishNote" : ""
 					},
-					"6": {
-						"event": "Main 1",
-						"media": "main_1",
-						"chinese": "我的胸襟很广阔……？谢谢您的夸奖",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "心が広いですか……？褒めていただきありがとうございます",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "I have a big heart? Thanks for the compliment. ",
-						"englishNote": ""
+					"6" : {
+						"event" : "Main 1",
+						"media" : "main_1",
+						"chinese" : "我的胸襟很广阔……？谢谢您的夸奖",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "心が広いですか……？褒めていただきありがとうございます",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "I have a big heart? Thanks for the compliment. ",
+						"englishNote" : ""
 					},
-					"7": {
-						"event": "Main 2",
-						"media": "main_2",
-						"chinese": "作为司晨之人，我将为大家带来曙光",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "朝を司るものとして、皆に暁の光をもたらしましょう",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "As the herald of dawn, I shall bring light to everyone.",
-						"englishNote": ""
+					"7" : {
+						"event" : "Main 2",
+						"media" : "main_2",
+						"chinese" : "作为司晨之人，我将为大家带来曙光",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "朝を司るものとして、皆に暁の光をもたらしましょう",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "As the herald of dawn, I shall bring light to everyone.",
+						"englishNote" : ""
 					},
-					"8": {
-						"event": "Main 3",
-						"media": "main_3",
-						"chinese": "熊？以前养过哦，很可爱的",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "クマですか？昔飼っていました。可愛いですよ？",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "Bears? They’re pretty cute. I used to raise one.",
-						"englishNote": ""
+					"8" : {
+						"event" : "Main 3",
+						"media" : "main_3",
+						"chinese" : "熊？以前养过哦，很可爱的",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "クマですか？昔飼っていました。可愛いですよ？",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Bears? They’re pretty cute. I used to raise one.",
+						"englishNote" : ""
 					},
-					"9": {
-						"event": "Touch",
-						"media": "touch_1",
-						"chinese": "我不冷哦",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "寒くないですよ？",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "I’m not cold though~",
-						"englishNote": ""
+					"9" : {
+						"event" : "Touch",
+						"media" : "touch_1",
+						"chinese" : "我不冷哦",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "寒くないですよ？",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "I’m not cold though~",
+						"englishNote" : ""
 					},
-					"10": {
-						"event": "Touch (Special)",
-						"media": "touch_2",
-						"chinese": "表达感情要用更热情的方式哦",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "感情をアピールするなら、もっと情熱的なやり方で、ね？",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "You should express your feelings in a more passionate manner.",
-						"englishNote": ""
+					"10" : {
+						"event" : "Touch (Special)",
+						"media" : "touch_2",
+						"chinese" : "表达感情要用更热情的方式哦",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "感情をアピールするなら、もっと情熱的なやり方で、ね？",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "You should express your feelings in a more passionate manner.",
+						"englishNote" : ""
 					},
-					"11": {
-						"event": "Mission",
-						"media": "task",
-						"chinese": "新的任务，总觉得有些激动呢",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "新しい任務。なんだかドキドキしますね",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "A new mission! I'm more excited than I should be.",
-						"englishNote": ""
+					"11" : {
+						"event" : "Mission",
+						"media" : "task",
+						"chinese" : "新的任务，总觉得有些激动呢",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "新しい任務。なんだかドキドキしますね",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "A new mission! I'm more excited than I should be.",
+						"englishNote" : ""
 					},
-					"12": {
-						"event": "Mission Complete",
-						"media": "mission_complete",
-						"chinese": "这是任务奖励，是您应得的",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "報酬です。得るべきものです",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "Here are your well-deserved rewards.",
-						"englishNote": ""
+					"12" : {
+						"event" : "Mission Complete",
+						"media" : "mission_complete",
+						"chinese" : "这是任务奖励，是您应得的",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "報酬です。得るべきものです",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Here are your well-deserved rewards.",
+						"englishNote" : ""
 					},
-					"13": {
-						"event": "Mail",
-						"media": "mail",
-						"chinese": "这里是远方而来的信件，请您过目",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "遥か遠い場所から寄せたメールです。ご確認ください",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "This mail has traveled a long way to get here. Please read it.",
-						"englishNote": ""
+					"13" : {
+						"event" : "Mail",
+						"media" : "mail",
+						"chinese" : "这里是远方而来的信件，请您过目",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "遥か遠い場所から寄せたメールです。ご確認ください",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "This mail has traveled a long way to get here. Please read it.",
+						"englishNote" : ""
 					},
-					"14": {
-						"event": "Return to Port",
-						"media": "home",
-						"chinese": "辛苦了，要来一瓶伏特加暖暖身子吗？",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "お疲れ様、ヴォッカ一本開けて体を温めます？",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "Good work, Commander. Would you like a bottle of vodka to warm you up?",
-						"englishNote": ""
+					"14" : {
+						"event" : "Return to Port",
+						"media" : "home",
+						"chinese" : "辛苦了，要来一瓶伏特加暖暖身子吗？",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "お疲れ様、ヴォッカ一本開けて体を温めます？",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Good work, Commander. Would you like a bottle of vodka to warm you up?",
+						"englishNote" : ""
 					},
-					"15": {
-						"event": "Commission Complete",
-						"media": "expedition",
-						"chinese": "指挥官，有一个委托完成了呢，把酒带上去给姐妹们暖暖身子吧",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "指揮官？委託が完了されたようです。帰ってきた娘達に酒を振る舞って体を温めましょ？",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "Commander, a commission has been completed. Let’s bring some vodka to the girls to warm them up.",
-						"englishNote": ""
+					"15" : {
+						"event" : "Commission Complete",
+						"media" : "expedition",
+						"chinese" : "指挥官，有一个委托完成了呢，把酒带上去给姐妹们暖暖身子吧",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "指揮官？委託が完了されたようです。帰ってきた娘達に酒を振る舞って体を温めましょ？",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Commander, a commission has been completed. Let’s bring some vodka to the girls to warm them up.",
+						"englishNote" : ""
 					},
-					"16": {
-						"event": "Enhancement",
-						"media": "upgrade",
-						"chinese": "感觉现在能把一头熊给举起来呢，呵呵",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "クマさんも持ち上げられるような気がしますね。ふふっ ",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "I feel like I could lift an entire bear! Hehe...",
-						"englishNote": ""
+					"16" : {
+						"event" : "Enhancement",
+						"media" : "upgrade",
+						"chinese" : "感觉现在能把一头熊给举起来呢，呵呵",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "クマさんも持ち上げられるような気がしますね。ふふっ ",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "I feel like I could lift an entire bear! Hehe...",
+						"englishNote" : ""
 					},
-					"17": {
-						"event": "Flagship",
-						"media": "warcry",
-						"chinese": "我们的前方是，胜利！",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "我々の向かう先は勝利です！",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "Victory lies ahead!",
-						"englishNote": ""
+					"17" : {
+						"event" : "Flagship",
+						"media" : "warcry",
+						"chinese" : "我们的前方是，胜利！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "我々の向かう先は勝利です！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Victory lies ahead!",
+						"englishNote" : ""
 					},
-					"18": {
-						"event": "Victory",
-						"media": "mvp",
-						"chinese": "要谨记胜利的背后是怎样的牺牲……",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "勝利の裏にある犠牲を心に……",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "We must remember the sacrifices that made this victory possible...",
-						"englishNote": ""
+					"18" : {
+						"event" : "Victory",
+						"media" : "mvp",
+						"chinese" : "要谨记胜利的背后是怎样的牺牲……",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "勝利の裏にある犠牲を心に……",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "We must remember the sacrifices that made this victory possible...",
+						"englishNote" : ""
 					},
-					"19": {
-						"event": "Defeat",
-						"media": "lose",
-						"chinese": "革命是不会停下脚步的",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "革命は歩みを止めませんわ",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "The Revolution shall not cease its march.",
-						"englishNote": ""
+					"19" : {
+						"event" : "Defeat",
+						"media" : "lose",
+						"chinese" : "革命是不会停下脚步的",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "革命は歩みを止めませんわ",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "The Revolution shall not cease its march.",
+						"englishNote" : ""
 					},
-					"20": {
-						"event": "Skill",
-						"media": "skill",
-						"chinese": "曙光之中，是鲜血与烈火……",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "暁の光の中にある、血と炎……",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "Within the light of dawn are spilled blood and raging flames",
-						"englishNote": ""
+					"20" : {
+						"event" : "Skill",
+						"media" : "skill",
+						"chinese" : "曙光之中，是鲜血与烈火……",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "暁の光の中にある、血と炎……",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
 					},
-					"21": {
-						"event": "Low HP",
-						"media": "hp",
-						"chinese": "",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "苦難を乗り越えてこその暁を…！",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "",
-						"englishNote": ""
+					"21" : {
+						"event" : "Low HP",
+						"media" : "hp",
+						"chinese" : "",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "苦難を乗り越えてこその暁を…！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
 					},
-					"22": {
-						"event": "Affinity (Upset)",
-						"media": "feeling1",
-						"chinese": "指挥官心中的黑暗……连我都无能为力吗",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "指揮官の心の闇……私でも無理でしょうか",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "Even I am unable to shed a light into the darkness of your heart, Commander?",
-						"englishNote": ""
+					"22" : {
+						"event" : "Affinity (Upset)",
+						"media" : "feeling1",
+						"chinese" : "指挥官心中的黑暗……连我都无能为力吗",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "指揮官の心の闇……私でも無理でしょうか",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Even I am unable to shed a light into the darkness of your heart, Commander?",
+						"englishNote" : ""
 					},
-					"23": {
-						"event": "Affinity (Stranger)",
-						"media": "feeling2",
-						"chinese": "指挥官，要喝一杯吗？不过想灌醉我做奇怪的事的话，可就要看您的本事了~",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "指揮官、一杯どうです？私を酔わせて変なことをすることができるかどうか…指揮官の強さ次第ですよ～",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "Commander, care for a drink? Whether you can get me to do strange things afterwards... depends entirely on your ability~",
-						"englishNote": ""
+					"23" : {
+						"event" : "Affinity (Stranger)",
+						"media" : "feeling2",
+						"chinese" : "指挥官，要喝一杯吗？不过想灌醉我做奇怪的事的话，可就要看您的本事了~",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "指揮官、一杯どうです？私を酔わせて変なことをすることができるかどうか…指揮官の強さ次第ですよ～",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Commander, care for a drink? Whether you can get me to do strange things afterwards... depends entirely on your ability~",
+						"englishNote" : ""
 					},
-					"24": {
-						"event": "Affinity (Friendly)",
-						"media": "feeling3",
-						"chinese": "我的故乡？那里很美哦，不过指挥官去可能要做好保暖措施……我的话就算不穿衣服也不怕的，呵呵，您…想看看？",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "故郷ですか？美しい場所ですけど、指揮官ならちゃんと防寒対策しないと……私は何も着ていなくても平気です、うふふ。…見たい？",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "My hometown? It’s very beautiful. Although if you want to go there, you would need to be prepared for the cold. Me? I’ll be fine, even without clothes. Hehe... want proof?",
-						"englishNote": ""
+					"24" : {
+						"event" : "Affinity (Friendly)",
+						"media" : "feeling3",
+						"chinese" : "我的故乡？那里很美哦，不过指挥官去可能要做好保暖措施……我的话就算不穿衣服也不怕的，呵呵，您…想看看？",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "故郷ですか？美しい場所ですけど、指揮官ならちゃんと防寒対策しないと……私は何も着ていなくても平気です、うふふ。…見たい？",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "My hometown? It’s very beautiful. Although if you want to go there, you would need to be prepared for the cold. Me? I’ll be fine, even without clothes. Hehe... want proof?",
+						"englishNote" : ""
 					},
-					"25": {
-						"event": "Affinity (Like)",
-						"media": "feeling4",
-						"chinese": "指挥官，我家乡的人都很直爽的，我也不例外哦~只要你能喝下这里的伏特加，想对我做什么都可以哦",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "指揮官、故郷の人はみんなとても素直ですよ。私も例外なく～ふふ、このヴォッカ一本飲みきれたら私に何をしてもいいですよ？",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "Commander, everyone from my hometown is straightforward, and I'm no exception... If you can finish this drink, you can do anything you'd like with me...",
-						"englishNote": ""
+					"25" : {
+						"event" : "Affinity (Like)",
+						"media" : "feeling4",
+						"chinese" : "指挥官，我家乡的人都很直爽的，我也不例外哦~只要你能喝下这里的伏特加，想对我做什么都可以哦",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "指揮官、故郷の人はみんなとても素直ですよ。私も例外なく～ふふ、このヴォッカ一本飲みきれたら私に何をしてもいいですよ？",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Commander, everyone from my hometown is straightforward, and I'm no exception... If you can finish this drink, you can do anything you'd like with me...",
+						"englishNote" : ""
 					},
-					"26": {
-						"event": "Affinity (Love)",
-						"media": "feeling5",
-						"chinese": "Я люблю тебя，指挥官~想知道意思的话，就请好好学习我的母语然后……和我回去一起看看吧",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "指揮官、Я люблю тебя。意味を知りたいのでしたら、私の国の言葉を勉強して……一緒に里帰りでもしましょ？ ",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "Я люблю тебя, Commander. If you want to know what it means, you'll have to learn my mother tongue... and come to my hometown.",
-						"englishNote": ""
+					"26" : {
+						"event" : "Affinity (Love)",
+						"media" : "feeling5",
+						"chinese" : "Я люблю тебя，指挥官~想知道意思的话，就请好好学习我的母语然后……和我回去一起看看吧",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "指揮官、Я люблю тебя。意味を知りたいのでしたら、私の国の言葉を勉強して……一緒に里帰りでもしましょ？ ",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Я люблю тебя, Commander. If you want to know what it means, you'll have to learn my mother tongue... and come to my hometown.",
+						"englishNote" : ""
 					},
-					"27": {
-						"event": "Pledge",
-						"media": "propose",
-						"chinese": "指挥官，保暖措施做好了吗？返乡旅行可能会很冷哦~不过也不用太担心，我带了很多伏特加呢~",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "指揮官、防寒対策はちゃんとしていますか？里帰りの旅は寒いかもしれませんよ？そんなに心配しなくても大丈夫、私ウォッカいっぱい持ってきていますから～",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "Commander, are you all geared up? The journey is going to be cold. Don't worry! I've brought plenty of vodka to keep us warm...",
-						"englishNote": ""
+					"27" : {
+						"event" : "Pledge",
+						"media" : "propose",
+						"chinese" : "指挥官，保暖措施做好了吗？返乡旅行可能会很冷哦~不过也不用太担心，我带了很多伏特加呢~",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "指揮官、防寒対策はちゃんとしていますか？里帰りの旅は寒いかもしれませんよ？そんなに心配しなくても大丈夫、私ウォッカいっぱい持ってきていますから～",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Commander, are you all geared up? The journey is going to be cold. Don't worry! I've brought plenty of vodka to keep us warm...",
+						"englishNote" : ""
+					},
+					"28" : {
+						"event" : "Easter Egg 1(Gangut)",
+						"media" : "link1",
+						"chinese" : "别太欺负指挥官了哦，甘古特",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "ガングート、あまり指揮官をいじめないでね",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Gangut, don't bully the commander too much, okay?",
+						"englishNote" : ""
+					},
+					"29" : {
+						"event" : "Easter Egg 2(Pamiat' Merkuria)",
+						"media" : "link2",
+						"chinese" : "水星纪念。你的说话方式，是不是有点…啊哈哈哈…",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "クーちゃんって呼び方、ちょっとどうかなと思いますね…あははは…",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Kuku? I'm not sure I want to call you that... Ahaha...",
+						"englishNote" : ""
+					},
+					"30" : {
+						"event" : "Easter Egg 3(Grozny, Minsk, Tashkent, Raleigh, Chapayev)",
+						"media" : "link3",
+						"chinese" : "北方联合，前进！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "北方連合、前進します！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Forward, comrades of the Northern Parliament!",
+						"englishNote" : ""
+					},
+					"31" : {
+						"event" : "Like Present",
+						"media" : "present_like",
+						"chinese" : "",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"32" : {
+						"event" : "Dislike Present",
+						"media" : "present_dislike",
+						"chinese" : "",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"33" : {
+						"event" : "Main Title",
+						"media" : "extra",
+						"chinese" : "",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					}
+				}
+			},
+			"2": {
+				"skin_id" : "afuleer_2",
+				"id" : "1",
+				"label" : "Shackled Saule",
+				"dialogue" : {
+					"1" : {
+						"event" : "Ship Description",
+						"media" : "",
+						"chinese" : "「我是阿芙乐尔，被囚禁于高塔的不幸公主…心爱的人啊，请尽快将我拯救出去吧…」",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "「私はアヴローラ、高い塔に囚われし悲運のプリンセス…愛しい人よ、早く私をここから救い出して…」",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "\"I am Avrora, the princess bound within this tower by a cruel fate... My beloved, please come for me soon...\"",
+						"englishNote" : ""
+					},
+					"2" : {
+						"event" : "Acquisition",
+						"media" : "get_1",
+						"chinese" : "「我是阿芙乐尔，被囚禁于高塔的不幸公主…心爱的人啊，请尽快将我拯救出去吧…」",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "「私はアヴローラ、高い塔に囚われし悲運のプリンセス…愛しい人よ、早く私をここから救い出して…」",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "\"I am Avrora, the princess bound within this tower by a cruel fate... My beloved, please come for me soon...\"",
+						"englishNote" : ""
+					},
+					"3" : {
+						"event" : "Login",
+						"media" : "login_1",
+						"chinese" : "啊，指挥官，欢迎回来。您是来拯救阿芙乐尔的吗？呵呵~",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "あ、指揮官、お帰りなさい。アヴローラを助けに来てくれたのですか？はい、どうぞ～",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Ah, Commander, welcome back. Did you come to save me? Here, I'm all yours~",
+						"englishNote" : ""
+					},
+					"4" : {
+						"event" : "Details",
+						"media" : "detail_1",
+						"chinese" : "扮演公主还是挺有新鲜感的呢，呵呵~",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "お姫様として振る舞うのも新鮮ですね。ふふふ",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Roleplaying as a damsel in distress is rather new and exciting. Hehe~",
+						"englishNote" : ""
+					},
+					"5" : {
+						"event" : "Main 1",
+						"media" : "main_1_1",
+						"chinese" : "这里的构造，采光和通风都很好，氛围也很棒呢。呵呵~",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "ここの構造、採光も風通しもすごくいいですし、雰囲気もバッチリです。ふふふ",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "This building's ambience and lighting are just right. Heehee~ ",
+						"englishNote" : ""
+					},
+					"6" : {
+						"event" : "Main 2",
+						"media" : "main_2_1",
+						"chinese" : "「绝不向命运妥协，我会在这里祈祷，祈祷黎明的到来——」",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "「悲運には負けません。私はここで、暁の到来を祈って――」",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "\"I won't surrender myself to fate. I pray that the light of dawn will reach even this dark place.\"",
+						"englishNote" : ""
+					},
+					"7" : {
+						"event" : "Main 3",
+						"media" : "main_3_1",
+						"chinese" : "就算骑士大人要前来拯救，也会被我家的熊打败吧…开玩笑的♪",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "騎士さんを期待しても、ここに辿り着く前にクマさんにみんな返り討ちにされていますね…なんてね♪",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Even if my knight in shining armor was to come, they probably wouldn't be able to get past the bears... Just kidding~♪",
+						"englishNote" : ""
+					},
+					"8" : {
+						"event" : "Touch",
+						"media" : "touch_1_1",
+						"chinese" : "我不觉得冷哦？这点程度还不成问题。倒是指挥官，要注意保暖措施哦",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "別に寒くありませんよ？これぐらいは平気ですから。指揮官こそ、防寒に気をつけてくださいね",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "I'm not particularly cold, you know? I'm actually pretty used to it. Commander, make sure you stay warm though.",
+						"englishNote" : ""
+					},
+					"9" : {
+						"event" : "Touch (Special)",
+						"media" : "touch_2_1",
+						"chinese" : "「被囚禁的公主，受到敌人肆意的玩弄」——这种展开是绝对不会出现的哦",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "「囚われた姫は、敵のなすがまま」――にはなりませんね。私の場合は…",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "\"The captured princess was toyed with by her tormentors...\" Something like that won't happen to me, right? ",
+						"englishNote" : ""
+					},
+					"10" : {
+						"event" : "Return to Port",
+						"media" : "home_1",
+						"chinese" : "指挥官，对不起，我去取个文件，先把这个解开一会哦",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "指揮官、ごめんなさい。ちょっとこれ外してからレポートを取りまとめますね",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Commander, my apologies. I'll go compile the reports, so please let me out of these for a bit.",
+						"englishNote" : ""
+					},
+					"11" : {
+						"event" : "Victory",
+						"media" : "mvp_1",
+						"chinese" : "愿自由的破晓，早日到来——",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "願わくば、自由の暁を――",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "May freedom soon dawn upon this land...",
+						"englishNote" : ""
+					},
+					"12" : {
+						"event" : "Defeat",
+						"media" : "lose_1",
+						"chinese" : "还未到…破晓之时吗",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "夜明けは、まだ…",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "The coming of dawn... is yet deferred...",
+						"englishNote" : ""
 					}
 				}
 			}
 		}
-	},
-	"fleet_tech": {
-		"pt_get": "8",
-		"add_get_attr": "Hit",
-		"add_get_value": "1",
-		"add_get_shiptype": "Light Cruiser",
-		"pt_upgrade": "18",
-		"pt_level": "14",
-		"add_level_attr": "Firepower",
-		"add_level_value": "1",
-		"add_level_shiptype": "Light Cruiser",
-		"t_level": "1",
-		"ships": "avrora"
 	}
 }
