@@ -71,6 +71,18 @@
 			"expression": {
 				"0": {
 					"id": "0"
+				},
+				"1" : {
+					"id" : "1"
+				},
+				"2" : {
+					"id" : "2"
+				},
+				"3" : {
+					"id" : "3"
+				},
+				"4" : {
+					"id" : "4"
 				}
 			}
 		},
@@ -131,6 +143,28 @@
 				},
 				"6": {
 					"id": "6"
+				}
+			}
+		},
+		"101" : {
+			"id" : "huangjiafangzhou_ex1100",
+			"name" : "Ark Royal",
+			"description" : "Aircraft carrier – Ark Royal, Hull Number 91!",
+			"expression" : {
+				"0" : {
+					"id" : "0"
+				},
+				"1" : {
+					"id" : "1"
+				},
+				"2" : {
+					"id" : "2"
+				},
+				"3" : {
+					"id" : "3"
+				},
+				"4" : {
+					"id" : "4"
 				}
 			}
 		}
@@ -1088,6 +1122,121 @@
 						"japaneseNote": "",
 						"english": "To be able to watch over the destro– The fleet here, that's the best new year's gift anyone could give me.",
 						"englishNote": ""
+					}
+				}
+			},
+			"101": {
+				"skin_id" : "huangjiafangzhou_ex1100",
+				"id" : "0",
+				"label" : "Ark Royal",
+				"dialogue" : {
+					"1" : {
+						"event" : "Login",
+						"media" : "login_ex1100",
+						"chinese" : "指挥官，本人已准备就绪。当然是战斗的准备了！好啦，让敌人见识下皇家航母的威力吧！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "閣下、準備は整ったぞ。もちろん戦闘のことだ。さあ、ロイヤル攻撃空母の力を敵に見せてやろう！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Commander, I am ready to act. I mean ready to fight, of course! Let us show the enemy the might of a Royal Navy aircraft carrier!",
+						"englishNote" : ""
+					},
+					"2" : {
+						"event" : "Details",
+						"media" : "detail_ex1100",
+						"chinese" : "指挥官和驱逐妹妹们都由本人来守护！只要有本人在，谁都别想伤害到你们",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "閣下、駆逐艦の妹たちを…ああ、一緒に守ろう！私達がいる限り、誰にも傷つけさせやしない！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Commander, I'll take care of the destroyers... Err, WE'LL take care of the destroyers! As long as we're around, no one can do them harm!",
+						"englishNote" : ""
+					},
+					"3" : {
+						"event" : "Main 1",
+						"media" : "main_1_ex1100",
+						"chinese" : "在想什么？啊，当然是在考虑指挥官和舰队的事情了",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "考え事、か？ああ、閣下と艦隊のことを考えていたんだ",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "What am I thinking? Oh, just about you, and the fleet.",
+						"englishNote" : ""
+					},
+					"4" : {
+						"event" : "Main 2",
+						"media" : "main_2_ex1100",
+						"chinese" : "什么！？要把驱逐妹妹们喊过来…？！指挥官阁下，这个任务请务必交给本人！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "駆逐艦の妹たちをこの執務室に呼んできてほしい、だと…？！閣下、この任務はぜひこのアーク・ロイヤルに！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "You want to call the destroyer girls here to your office, do you...? Commander, this is a task you must entrust to me, Ark Royal!",
+						"englishNote" : ""
+					},
+					"5" : {
+						"event" : "Main 3",
+						"media" : "main_3_ex1100",
+						"chinese" : "光荣，给阿卡斯塔和热心推荐的衣服…应该是这样才好。下次注意点比较好噢",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "グロリアス、アカスタとアーデントに薦める服は…こうしよう。次からは気をつけたほうがいいぞ",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "The outfit Glorious, Acasta, and Ardent recommended... should go like this. One must be more careful next time.",
+						"englishNote" : ""
+					},
+					"6" : {
+						"event" : "Main 4",
+						"media" : "main_4_ex1100",
+						"chinese" : "好，那个潜艇妹妹不在。真是的，老是把在别人的屋子玩捉迷藏…",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "よし、あの潜水艦の子はいないな。全く、人の部屋を鬼ごっこに使うとは一体どういうことだ…",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "That little submarine is missing again. Heavens, she's always stealing away into other people's rooms to play hide and seek...",
+						"englishNote" : ""
+					},
+					"7" : {
+						"event" : "Touch (Special)",
+						"media" : "touch_2_ex1100",
+						"chinese" : "阁下！这、这里可不行…！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "閣下！こ、ここではダメだぞ…！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Commander! N-not here...!",
+						"englishNote" : ""
+					},
+					"8" : {
+						"event" : "Flagship",
+						"media" : "warcry_ex1100",
+						"chinese" : "海燕中队，剑鱼中队，准备起飞！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "フルマー隊、ソードフィッシュ隊、発進準備だ！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Fulmar squadron, Swordfish squadron, prepare to launch!",
+						"englishNote" : ""
+					},
+					"9" : {
+						"event" : "Victory",
+						"media" : "mvp_ex1100",
+						"chinese" : "因为有阁下的指挥我们才能发挥全力——胜利也是理所当然的",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "閣下の指揮があってこそ私たちは全力を発揮できた――つまり勝てたのは当然ということだ",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "It is thanks to the Commander's guidance that I reach my full potential and seize victory!",
+						"englishNote" : ""
 					}
 				}
 			}

@@ -11,7 +11,7 @@
 	"hull": "Light Cruiser",
 	"navy": "Eagle Union",
 	"prefix": "USS",
-	"buildTime": "",
+	"buildTime": "01:15:00",
 	"class": "Brooklyn-Class",
 	"voiceActress": "Tomoyo Chuujou",
 	"parameters": {
@@ -34,10 +34,10 @@
 		"EN": ""
 	},
 	"artist": {
-		"name": "",
-		"weibo": "",
-		"twitter": "",
-		"pixiv": "",
+		"name": "realmbw",
+		"weibo": "http://weibo.com/realmbw",
+		"twitter": "https://twitter.com/realmbw",
+		"pixiv": "https://www.pixiv.net/member.php?id=529070",
 		"other": ""
 	},
 	"enhance": {
@@ -50,14 +50,14 @@
 	"skill": {
 		"1": {
 			"icon": "10070",
-			"requirement": "",
+			"requirement": "Default Unlocked",
 			"name": "Radar Scan",
 			"type": "Support",
-			"description": "$1 chance to activate every 20s: applies a debuff to all onscreen enemies, increasing the DMG they take by $2 for 10s."
+			"description": "30% (60%) chance to activate every 20s: applies a debuff to all onscreen enemies, increasing the DMG they take by 20% (40%) for 10s."
 		},
 		"2": {
 			"icon": "20121",
-			"requirement": "",
+			"requirement": "Limit Break I (III)",
 			"name": "All Out Assault Ⅰ",
 			"type": "Offensive",
 			"description": "Activate All Out Assault Ⅰ: Brooklyn Class once every 15 times the main gun is fired."
@@ -71,6 +71,18 @@
 			"expression": {
 				"0": {
 					"id": "0"
+				},
+				"1": {
+					"id": "1"
+				},
+				"2": {
+					"id": "2"
+				},
+				"3": {
+					"id": "3"
+				},
+				"4": {
+					"id": "4"
 				}
 			}
 		},
