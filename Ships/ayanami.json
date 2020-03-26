@@ -138,8 +138,8 @@
 		},
 		"6": {
 			"id": "lingbo_6",
-			"name": "Low-Key Idol @Confused",
-			"description": "I guess I'm making my idol debut? Um, Javelin and the others are making their debuts, so, I also had to... Commander, what are idols supposed to do normally?",
+			"name": "Grade A Sailor Uniform",
+			"description": "\"Welcome, Commander...\" I should greet customers like this... yes?",
 			"expression": {
 				"0": {
 					"id": "0"
@@ -155,10 +155,38 @@
 				}
 			}
 		},
-		"7": {
+		"7" : {
+			"id" : "lingbo_9",
+			"name" : "Covert Ops Cloak",
+			"description" : "Ayanami here. Successfully infiltrated Commander's office. Oh... Commander saw me. Operation failed...",
+			"expression" : {
+				"0" : {
+					"id" : "0"
+				},
+				"1" : {
+					"id" : "1"
+				},
+				"2" : {
+					"id" : "2"
+				},
+				"3" : {
+					"id" : "3"
+				},
+				"4" : {
+					"id" : "4"
+				},
+				"5" : {
+					"id" : "5"
+				},
+				"6" : {
+					"id" : "6"
+				}
+			}
+		},
+		"8": {
 			"id": "lingbo_7",
-			"name": "おませアイドル・困惑中",
-			"description": "鬼神アイドル綾波、デビューです。ジャベリンたちも頑張ってるから、綾波も……指揮官、アイドルって何をすればいいです？",
+			"name": "Low-Key Idol @Confused",
+			"description": "I guess I'm making my idol debut? Um, Javelin and the others are making their debuts, so, I also had to... Commander, what are idols supposed to do normally?",
 			"expression": {
 				"0": {
 					"id": "0"
@@ -177,7 +205,7 @@
 				}
 			}
 		},
-		"8": {
+		"9": {
 			"id": "lingbo_8",
 			"name": "Pulse of the New Year",
 			"description": "Commander, Happy New Year's. In this coming year, please continue to look after me...",
@@ -202,7 +230,7 @@
 				}
 			}
 		},
-		"9": {
+		"10": {
 			"id": "lingbo_h",
 			"name": "Demon's Finest Dress ",
 			"description": "This dress is... Ayanami’s. I'm not used to this dress yet... Commander, do you think it fits me?",
@@ -227,7 +255,7 @@
 				}
 			}
 		},
-		"10": {
+		"11": {
 			"id": "lingbo_g",
 			"name": "Ayanami (Retrofit) ",
 			"description": "Ayanami, retrofit complete. I feel stronger, yes... Having that said, Commander, can you pat my head? I want to be spoiled a bit...",
@@ -1481,332 +1509,399 @@
 				}
 			},
 			"6": {
-				"skin_id": "lingbo_7",
-				"id": "7",
-				"label": "Low-Key Idol @Confused",
-				"dialogue": {
-					"1": {
-						"event": "Ship Description",
-						"media": "",
-						"chinese": "偶像，绫波，出道？唔，因为标枪她们也出道了，所以，我也要一起……指挥官，偶像平时，都做些什么呢？",
-						"chineseTL": "\"Welcome, commander\" greetings should be made like this, yes?",
-						"chineseNote": "",
-						"japanese": "「指揮官、いらっしゃいませ、です」…挨拶はこんな感じでいいですか？",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "I guess I'm making my idol debut? Um, Javelin and the others are making their debuts, so, I also had to... Commander, what are idols supposed to do normally?",
-						"englishNote": ""
+				"skin_id" : "lingbo_6",
+				"id" : "5",
+				"label" : "Grade A Sailor Uniform",
+				"dialogue" : {
+					"1" : {
+						"event" : "Ship Description",
+						"media" : "",
+						"chinese" : "“欢迎光临，指挥官”…打招呼的时候是这样…吧？",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "「指揮官、いらっしゃいませ、です」…挨拶はこんな感じでいいですか？",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "“Welcome, Commander...” I should greet customers like this... yes? ",
+						"englishNote" : ""
 					},
-					"2": {
-						"event": "Acquisition",
-						"media": "get_7",
-						"chinese": "偶像，绫波，出道？唔，因为标枪她们也出道了，所以，我也要一起……指挥官，偶像平时，都做些什么呢？",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "I guess I'm making my idol debut? Um, Javelin and the others are making their debuts, so, I also had to... Commander, what are idols supposed to do normally?",
-						"englishNote": ""
+					"2" : {
+						"event" : "Acquisition",
+						"media" : "get_5",
+						"chinese" : "“欢迎光临，指挥官”…打招呼的时候是这样…吧？",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
 					},
-					"3": {
-						"event": "Login",
-						"media": "login_7",
-						"chinese": "指挥官，我正在练习跳舞，要看吗？",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "Commander, I'm currently practicing my dance routine. Want to watch?",
-						"englishNote": ""
+					"3" : {
+						"event" : "Login",
+						"media" : "login_5",
+						"chinese" : "指挥官，今天想要来点什么吗？菜单在这里…的说",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
 					},
-					"4": {
-						"event": "Details",
-						"media": "detail_7",
-						"chinese": "Z23，很关心大家……明明自己也有活动，还会帮大家做日程安排，很可靠",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "Z23 is always looking out for us... Even though she has her own schedule to worry about, she always helps us manage ours.",
-						"englishNote": ""
+					"4" : {
+						"event" : "Details",
+						"media" : "detail_5",
+						"chinese" : "见习服务生，是绫波没有经历过的体验，感觉很新鲜…的说",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
 					},
-					"5": {
-						"event": "Main 1",
-						"media": "main_1_7",
-						"chinese": "舞蹈和唱歌我都会，露出笑容，好难…但是，标枪说，这也是我的“萌点”，是真的吗，指挥官？",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "Singing and dancing are no problem for me, but smiling is hard... Javelin said that's what makes me cute though. Is that true, Commander? ",
-						"englishNote": ""
+					"5" : {
+						"event" : "Touch",
+						"media" : "touch_1_5",
+						"chinese" : "餐盘要像这样端…的说？——指挥官想要帮绫波？没关系的，还是让绫波自己来吧",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
 					},
-					"6": {
-						"event": "Main 2",
-						"media": "main_2_7",
-						"chinese": "Z23说，偶像和摇滚可能不是很搭，唔，这样的话，可爱金属？",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "Commander, Z23 told me that rock n' roll and idols don't really go together. Do you think I could make metal cute?",
-						"englishNote": ""
+					"6" : {
+						"event" : "Return to Port",
+						"media" : "home_5",
+						"chinese" : "要来一份庆祝胜利回港的特别套餐吗…？",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
 					},
-					"7": {
-						"event": "Main 3",
-						"media": "main_3_7",
-						"chinese": "吹雪好像也在做偶像练习。一会…去看看她好了",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "Fubuki seems to also be doing idol training. We should go see her... in a little bit. ",
-						"englishNote": ""
-					},
-					"8": {
-						"event": "Main 4",
-						"media": "main_4_7",
-						"chinese": "原来，当偶像每天有那么多的事情要做，感觉，燃起了斗志",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "I never knew that there were so many things to do as an idol. I'm getting all fired up.",
-						"englishNote": ""
-					},
-					"9": {
-						"event": "Touch",
-						"media": "touch_1_7",
-						"chinese": "指挥官，这里是绫波今天训练的成果",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "Commander, this is what I learned from my lessons today.",
-						"englishNote": ""
-					},
-					"10": {
-						"event": "Return to Port",
-						"media": "home_7",
-						"chinese": "把演出看作战斗，观众是敌人的话……唔，好像不行",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "If I imagine performances to be like battles, and think of the audience as enemies... Err, wait, that's not going to work.",
-						"englishNote": ""
-					},
-					"11": {
-						"event": "Commission Complete",
-						"media": "expedition_7",
-						"chinese": "训练与委托…无论何时都不能懈怠…",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "",
-						"englishNote": ""
-					},
-					"12": {
-						"event": "Flagship",
-						"media": "warcry_7",
-						"chinese": "偶像的职责，是保护大家的笑容！",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "An idol's duty is to protect everyone's smiles!",
-						"englishNote": ""
-					},
-					"13": {
-						"event": "Victory",
-						"media": "mvp_7",
-						"chinese": "胜利的pose，yeah",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "Victory pose. Yeah.",
-						"englishNote": ""
+					"7" : {
+						"event" : "Affinity (Love)",
+						"media" : "feeling5_5",
+						"chinese" : "等店里忙完以后，想要和指挥官一起…绫波会给指挥官准备，在店里学会的，特别料理套餐…的说，指挥官，可以吗？",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
 					}
 				}
 			},
 			"7": {
-				"skin_id": "lingbo_7",
-				"id": "7",
-				"label": "おませアイドル・困惑中",
-				"dialogue": {
-					"1": {
-						"event": "Ship Description",
-						"media": "",
-						"chinese": "偶像，绫波，出道？唔，因为标枪她们也出道了，所以，我也要一起……指挥官，偶像平时，都做些什么呢？",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "鬼神アイドル綾波、デビューです。ジャベリンたちも頑張ってるから、綾波も……指揮官、アイドルって何をすればいいです？",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "",
-						"englishNote": ""
+				"skin_id" : "lingbo_9",
+				"id" : "6",
+				"label" : "Covert Ops Cloak",
+				"dialogue" : {
+					"1" : {
+						"event" : "Ship Description",
+						"media" : "",
+						"chinese" : "这里是绫波，成功潜入指挥室。…啊，被指挥官发现了， 作战失败…的说",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "こちら綾波、指揮官の執務室周辺に潜入成功したです。…あ、指揮官に見られたです。作戦失敗です…",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Ayanami here. Successfully infiltrated Commander's office. Oh... Commander saw me. Operation failed...",
+						"englishNote" : ""
 					},
-					"2": {
-						"event": "Acquisition",
-						"media": "get_7",
-						"chinese": "偶像，绫波，出道？唔，因为标枪她们也出道了，所以，我也要一起……指挥官，偶像平时，都做些什么呢？",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "鬼神アイドル綾波、デビューです。ジャベリンたちも頑張ってるから、綾波も……指揮官、アイドルって何をすればいいです？",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "",
-						"englishNote": ""
+					"2" : {
+						"event" : "Acquisition",
+						"media" : "get_6",
+						"chinese" : "这里是绫波，成功潜入指挥室。…啊，被指挥官发现了， 作战失败…的说",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
 					},
-					"3": {
-						"event": "Login",
-						"media": "login_7",
-						"chinese": "指挥官，我正在练习跳舞，要看吗？",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "指揮官、綾波のダンス練習を見学するです？",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "",
-						"englishNote": ""
+					"3" : {
+						"event" : "Login",
+						"media" : "login_6",
+						"chinese" : "指挥官，要和绫波一起进行潜入作战的训练吗？…好像不太行，的说",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
 					},
-					"4": {
-						"event": "Details",
-						"media": "detail_7",
-						"chinese": "Z23，很关心大家……明明自己也有活动，还会帮大家做日程安排，很可靠",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "ニーミ、みんなの面倒をよく見てくれるです。……自分のオファーもあるのに、みんなのスケジュールまで組んでくれて…頼もしい、です",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "",
-						"englishNote": ""
+					"4" : {
+						"event" : "Details",
+						"media" : "detail_6",
+						"chinese" : "虽然和加贺定了潜入作战用的代号，不过大家似乎都不怎么用，有点困扰的说…",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
 					},
-					"5": {
-						"event": "Main 1",
-						"media": "main_1_7",
-						"chinese": "舞蹈和唱歌我都会，露出笑容，好难…但是，标枪说，这也是我的“萌点”，是真的吗，指挥官？",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "歌も踊りも楽勝です。笑顔は…難しいです。ジャベリン、綾波の萌えポイントだと言ってたですけど、指揮官、本当ですか？",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "",
-						"englishNote": ""
+					"5" : {
+						"event" : "Touch",
+						"media" : "touch_1_6",
+						"chinese" : "指挥官要吃苹果吗？很好吃的说",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
 					},
-					"6": {
-						"event": "Main 2",
-						"media": "main_2_7",
-						"chinese": "Z23说，偶像和摇滚可能不是很搭，唔，这样的话，可爱金属？",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "ニーミ、このユニットの芸風はロックとちょっと合わないと言ったです。カワイイメタルのほうがいいです？",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "",
-						"englishNote": ""
+					"6" : {
+						"event" : "Rub",
+						"media" : "touch_head_6",
+						"chinese" : "这是耳朵，不是角的说…",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
 					},
-					"7": {
-						"event": "Main 3",
-						"media": "main_3_7",
-						"chinese": "吹雪好像也在做偶像练习。一会…去看看她好了",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "吹雪もアイドルの練習やってるらしい、です。あとで見に行くです",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "",
-						"englishNote": ""
+					"7" : {
+						"event" : "Mail",
+						"media" : "mail_6",
+						"chinese" : "邮件已经由大f…负责护卫的女仆队成员确认过了。没问题，可以直接打开的说",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
 					},
-					"8": {
-						"event": "Main 4",
-						"media": "main_4_7",
-						"chinese": "原来，当偶像每天有那么多的事情要做，感觉，燃起了斗志",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "スケジュールがいっぱいです。綾波、やる気出てきたです",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "",
-						"englishNote": ""
+					"8" : {
+						"event" : "Enhancement",
+						"media" : "upgrade_6",
+						"chinese" : "这是为了同伴而存在的力量…的说!",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
 					},
-					"9": {
-						"event": "Touch",
-						"media": "touch_1_7",
-						"chinese": "指挥官，这里是绫波今天训练的成果",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "指揮官、綾波の今日のレッスンの成果です",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "",
-						"englishNote": ""
+					"9" : {
+						"event" : "Flagship",
+						"media" : "warcry_6",
+						"chinese" : "见识下绫波和伙伴们的力量！的说！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
 					},
-					"10": {
-						"event": "Return to Port",
-						"media": "home_7",
-						"chinese": "把演出看作战斗，观众是敌人的话……唔，好像不行",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "ライブは戦い、観客は敵……と見てはだめです",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "",
-						"englishNote": ""
+					"10" : {
+						"event" : "Victory",
+						"media" : "mvp_6",
+						"chinese" : "成功击破敌方侦察部队，指挥官，感谢的说",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
 					},
-					"11": {
-						"event": "Commission Complete",
-						"media": "expedition_7",
-						"chinese": "训练与委托…无论何时都不能懈怠…",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "",
-						"englishNote": ""
-					},
-					"12": {
-						"event": "Flagship",
-						"media": "warcry_7",
-						"chinese": "偶像的职责，是保护大家的笑容！",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "アイドルは、みんなの笑顔を守るものです！",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "",
-						"englishNote": ""
-					},
-					"13": {
-						"event": "Victory",
-						"media": "mvp_7",
-						"chinese": "胜利的pose，yeah",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "勝利の決めポーズ、いえーい…です",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "",
-						"englishNote": ""
+					"11" : {
+						"event" : "Defeat",
+						"media" : "lose_6",
+						"chinese" : "夕张开发的隐蔽功能，没派上用场的说…",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
 					}
 				}
 			},
 			"8": {
+				"skin_id" : "lingbo_7",
+				"id" : "7",
+				"label" : "Low-Key Idol @Confused",
+				"dialogue" : {
+					"1" : {
+						"event" : "Ship Description",
+						"media" : "",
+						"chinese" : "偶像，绫波，出道？唔，因为标枪她们也出道了，所以，我也要一起……指挥官，偶像平时，都做些什么呢？",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "鬼神アイドル綾波、デビューです。ジャベリンたちも頑張ってるから、綾波も……指揮官、アイドルって何をすればいいです？",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "I guess I'm making my idol debut? Um, Javelin and the others are making their debuts, so, I also had to... Commander, what are idols supposed to do normally?",
+						"englishNote" : ""
+					},
+					"2" : {
+						"event" : "Acquisition",
+						"media" : "get_7",
+						"chinese" : "偶像，绫波，出道？唔，因为标枪她们也出道了，所以，我也要一起……指挥官，偶像平时，都做些什么呢？",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "鬼神アイドル綾波、デビューです。ジャベリンたちも頑張ってるから、綾波も……指揮官、アイドルって何をすればいいです？",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "I guess I'm making my idol debut? Um, Javelin and the others are making their debuts, so, I also had to... Commander, what are idols supposed to do normally?",
+						"englishNote" : ""
+					},
+					"3" : {
+						"event" : "Login",
+						"media" : "login_7",
+						"chinese" : "指挥官，我正在练习跳舞，要看吗？",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "指揮官、綾波のダンス練習を見学するです？",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Commander, I'm currently practicing my dance routine. Want to watch?",
+						"englishNote" : ""
+					},
+					"4" : {
+						"event" : "Details",
+						"media" : "detail_7",
+						"chinese" : "Z23，很关心大家……明明自己也有活动，还会帮大家做日程安排，很可靠",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "ニーミ、みんなの面倒をよく見てくれるです。……自分のオファーもあるのに、みんなのスケジュールまで組んでくれて…頼もしい、です",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Z23 is always looking out for us... Even though she has her own schedule to worry about, she always helps us manage ours.",
+						"englishNote" : ""
+					},
+					"5" : {
+						"event" : "Main 1",
+						"media" : "main_1_7",
+						"chinese" : "舞蹈和唱歌我都会，露出笑容，好难…但是，标枪说，这也是我的“萌点”，是真的吗，指挥官？",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "歌も踊りも楽勝です。笑顔は…難しいです。ジャベリン、綾波の萌えポイントだと言ってたですけど、指揮官、本当ですか？",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Singing and dancing are no problem for me, but smiling is hard... Javelin said that's what makes me cute though. Is that true, Commander? ",
+						"englishNote" : ""
+					},
+					"6" : {
+						"event" : "Main 2",
+						"media" : "main_2_7",
+						"chinese" : "Z23说，偶像和摇滚可能不是很搭，唔，这样的话，可爱金属？",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "ニーミ、このユニットの芸風はロックとちょっと合わないと言ったです。カワイイメタルのほうがいいです？",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Commander, Z23 told me that rock n' roll and idols don't really go together. Do you think I could make metal cute?",
+						"englishNote" : ""
+					},
+					"7" : {
+						"event" : "Main 3",
+						"media" : "main_3_7",
+						"chinese" : "吹雪好像也在做偶像练习。一会…去看看她好了",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "吹雪もアイドルの練習やってるらしい、です。あとで見に行くです",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Fubuki seems to also be doing idol training. We should go see her... in a little bit. ",
+						"englishNote" : ""
+					},
+					"8" : {
+						"event" : "Main 4",
+						"media" : "main_4_7",
+						"chinese" : "原来，当偶像每天有那么多的事情要做，感觉，燃起了斗志",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "スケジュールがいっぱいです。綾波、やる気出てきたです",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "I never knew that there were so many things to do as an idol. I'm getting all fired up.",
+						"englishNote" : ""
+					},
+					"9" : {
+						"event" : "Touch",
+						"media" : "touch_1_7",
+						"chinese" : "指挥官，这里是绫波今天训练的成果",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "指揮官、綾波の今日のレッスンの成果です",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Commander, this is what I learned from my lessons today.",
+						"englishNote" : ""
+					},
+					"10" : {
+						"event" : "Return to Port",
+						"media" : "home_7",
+						"chinese" : "把演出看作战斗，观众是敌人的话……唔，好像不行",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "ライブは戦い、観客は敵……と見てはだめです",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "If I imagine performances to be like battles, and think of the audience as enemies... Err, wait, that's not going to work.",
+						"englishNote" : ""
+					},
+					"11" : {
+						"event" : "Commission Complete",
+						"media" : "expedition_7",
+						"chinese" : "训练与委托…无论何时都不能懈怠…",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"12" : {
+						"event" : "Flagship",
+						"media" : "warcry_7",
+						"chinese" : "偶像的职责，是保护大家的笑容！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "アイドルは、みんなの笑顔を守るものです！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "An idol's duty is to protect everyone's smiles!",
+						"englishNote" : ""
+					},
+					"13" : {
+						"event" : "Victory",
+						"media" : "mvp_7",
+						"chinese" : "胜利的pose，yeah",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "勝利の決めポーズ、いえーい…です",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Victory pose. Yeah.",
+						"englishNote" : ""
+					}
+				}
+			},
+			"9": {
 				"skin_id": "lingbo_8",
 				"id": "8",
 				"label": "Pulse of the New Year",
@@ -1957,7 +2052,7 @@
 					}
 				}
 			},
-			"9": {
+			"10": {
 				"skin_id": "lingbo_h",
 				"id": "9",
 				"label": "Demon's Finest Dress ",
@@ -2096,7 +2191,7 @@
 					}
 				}
 			},
-			"10": {
+			"11": {
 				"skin_id": "lingbo_g",
 				"id": "10",
 				"label": "Ayanami (Retrofit) ",
