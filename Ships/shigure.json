@@ -58,9 +58,9 @@
 		"2": {
 			"icon": "12680",
 			"requirement": "Retrofit",
-			"name": "仲間思いの幸運艦",
+			"name": "Rain and Snow",
 			"type": "Support",
-			"description": "戦闘開始時、艦隊に戦闘可能な「雪風」がいる場合、下記の効果を適用する【自身の雷装が$1アップし、20秒毎に$2で強力な弾幕を展開する】；戦闘可能な「雪風」がいない場合、下記の効果を適用する【自身が戦闘可能である限り、自身以外の味方艦船が受けるダメージを$3軽減し、自身以外の味方艦船がダメージを受け耐久が最大値の20%を下回った場合に一度だけ、その艦の耐久を$4回復する】 "
+			"description": "If sortied with Yukikaze: increases own Torpedo stat by 5% (15%); every 20 seconds, 70% chance to launch a barrage. If not sortied with Yukikaze, while being alive in fleet: decreases damage taken by other ships in the same fleet by 1% (5%); once per battle, when Health of any allied ship drops below 20%: heals said ship for 4% (10%) of their max Health."
 		},
 		"3": {
 			"icon": "22031",
@@ -118,8 +118,8 @@
 		},
 		"4": {
 			"id": "shiyu_g",
-			"name": "時雨改",
-			"description": "ふふん、この時雨様を近代化改修するのはいい選択ね！これからはもっと私の力と運を頼りなさいな、この幸せ者のバカ指揮官♪",
+			"name": "Shigure (Retrofit)",
+			"description": "Heheh~ Retrofitting the mighty Shigure proves that you are quite perceptive! Aren't you glad that you get to rely on me more, you lucky idiot of a commander~♪",
 			"expression": {
 				"0": {
 					"id": "0"
@@ -781,10 +781,10 @@
 						"chinese": "哦呀？指挥官居然能在这里遇到我，运气真好呢～哼哼，既然如此，就让幸运的时雨大人稍微陪陪你好了！要感谢我啊！",
 						"chineseTL": "",
 						"chineseNote": "",
-						"japanese": "",
+						"japanese": "あら、こんなところで私と出会うなんて、指揮官は運がいいのね～ふふん、じゃあこの幸運の時雨様が少し付き合ってやるわ！感謝しなさいな♪",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Oh my. Commander, you must be pretty lucky to bump into me here, hehe~ Since you're here, you can have the privilege of being my escort tonight. Now, be grateful~♪",
 						"englishNote": ""
 					},
 					"3": {
@@ -793,10 +793,10 @@
 						"chinese": "指挥官，来得正好！宴会的精彩部分正要开始呢！",
 						"chineseTL": "",
 						"chineseNote": "",
-						"japanese": "",
+						"japanese": "指揮官、いいところに来たわ！パーティーの目玉がこれから始まるわよ！",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "You came at a good time, Commander! This is where the highlight of the party begins!",
 						"englishNote": ""
 					},
 					"4": {
@@ -805,58 +805,94 @@
 						"chinese": "山城姐姐一直叮嘱我不要做奇怪的事，时雨又不是小孩子了……相比之下，我有些担心山城姐姐会不会遇上麻烦……",
 						"chineseTL": "",
 						"chineseNote": "",
-						"japanese": "",
+						"japanese": "山城姉さん、変ないたずらしないでって小言言ってくるけど、この時雨様は子供なんかじゃないし……むしろ山城姉さんのほうが心配だよね……",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Yamashiro warned me not to pull any weird tricks, and she's treating me like I don't know that already... If anything, she's the one we should worry about...",
 						"englishNote": ""
 					},
 					"5": {
+						"event": "Main 1",
+						"media": "main_1_2",
+						"chinese": "东张西望的看着哪里呢？时雨大人就在这里哦",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "きょろきょろして何を見てるの？時雨様はここにいるわよ",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "What's with that spinning gaze of yours? I'm right over here!",
+						"englishNote": ""
+					},
+					"6": {
+						"event": "Main 2",
+						"media": "main_2_2",
+						"chinese": "喂，笨蛋夕立，稍微注意一下吃相啊！",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "あ、こらバカ夕立！食べ方にちょっと注意しなさいよ！",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "What the hell, Yuudachi! At least try to mind your table manners!",
+						"englishNote": ""
+					},
+					"7": {
+						"event": "Main 3",
+						"media": "main_3_2",
+						"chinese": "一会好像有抽奖呢！哼哼，这次绝对要赢过雪风！",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "抽選大会？ふふん、今度こそあの馬鹿雪風に勝ってみせるわ！",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "There'll be a raffle? Hmph, this time I'll defeat that stupid Yukikaze!",
+						"englishNote": ""
+					},
+					"8": {
 						"event": "Touch",
 						"media": "touch_1_2",
 						"chinese": "指挥官，你的脸很红哦？被时雨大人迷住了吗？嘻嘻~",
 						"chineseTL": "",
 						"chineseNote": "",
-						"japanese": "",
+						"japanese": "指揮官の顔赤くなってない？もしかしてこの時雨様に見惚れた？ふふふーん",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Look at how you're blushing, Commander! Have you fallen head over heels for me? Heheheh~",
 						"englishNote": ""
 					},
-					"6": {
+					"9": {
 						"event": "Touch (Special)",
 						"media": "touch_2_2",
 						"chinese": "唔呃！当，当心等下走路摔跤哦，白痴指挥官！",
 						"chineseTL": "",
 						"chineseNote": "",
-						"japanese": "",
+						"japanese": "きゃぅ！こ、この馬鹿指揮官！あとで足元に注意しなさいな！",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Eek! Y-you moronic commander! Pay attention to your footwork!",
 						"englishNote": ""
 					},
-					"7": {
+					"10": {
 						"event": "Return to Port",
 						"media": "home_2",
 						"chinese": "别擅自丢下时雨大人去别的地方啊！",
 						"chineseTL": "",
 						"chineseNote": "",
-						"japanese": "",
+						"japanese": "ちょ、ちょっとこの時雨様を置いて行かないでよ！",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "H-hey! Don't you leave me hanging over here!",
 						"englishNote": ""
 					},
-					"8": {
+					"11": {
 						"event": "Affinity (Love)",
 						"media": "feeling5_2",
 						"chinese": "为了不让笨笨的指挥官走丢，时雨大人只好一直陪着你了呢。时雨可是有着幸运之神的加护，绝对不会弄丢指挥官的哦！",
 						"chineseTL": "",
 						"chineseNote": "",
-						"japanese": "",
+						"japanese": "バカ指揮官が迷子にならないようにするには、どうやら私がずっと一緒じゃないとダメみたい♪ふふん、この幸運のメガミがついている時雨は絶対に見放さないわよ♪",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "I guess I have to always be with you to make sure an idiot like you doesn't get lost♪ Heheh, this beneficiary of Lady Luck will never lose sight of you♪",
 						"englishNote": ""
 					}
 				}
@@ -864,7 +900,7 @@
 			"4": {
 				"skin_id": "shiyu_g",
 				"id": "9",
-				"label": "時雨改",
+				"label": "Shigure (Retrofit)",
 				"dialogue": {
 					"1": {
 						"event": "Ship Description",
@@ -875,7 +911,7 @@
 						"japanese": "ふふん、この時雨様を近代化改修するのはいい選択ね！これからはもっと私の力と運を頼りなさいな、この幸せ者のバカ指揮官♪",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Heheh~ Retrofitting the mighty Shigure proves that you are quite perceptive! Aren't you glad that you get to rely on me more, you lucky idiot of a commander~♪",
 						"englishNote": ""
 					},
 					"2": {
@@ -887,7 +923,7 @@
 						"japanese": "ふふん、この時雨様を近代化改修するのはいい選択ね！これからはもっと私の力と運を頼りなさいな、この幸せ者のバカ指揮官♪",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Heheh~ Retrofitting the mighty Shigure proves that you are quite perceptive! Aren't you glad that you get to rely on me more, you lucky idiot of a commander~♪",
 						"englishNote": ""
 					},
 					"3": {
@@ -899,7 +935,7 @@
 						"japanese": "今日はなにをするの？この時雨様と運比べ？いいわね～負けを知ってもなお挑んでくるおバカさん♪",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "So what are we doing today? Trying your luck against mine? Very well~ Since you insist, even though you know you're gonna lose, dummy♪",
 						"englishNote": ""
 					},
 					"4": {
@@ -911,7 +947,7 @@
 						"japanese": "どこを見てるのぉ？指揮官のお・バ・カ・さん？",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "What are you looking at? Well, you big idiot?",
 						"englishNote": ""
 					},
 					"5": {
@@ -923,7 +959,7 @@
 						"japanese": "山城姉さん、あとで手伝いに行くわよーあ、ついでに指揮官も連れて行くから！",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "I'll head over and help you out later, Yamashiro! Oh, and I'll bring the Commander too, 'cause why not!",
 						"englishNote": ""
 					},
 					"6": {
@@ -935,7 +971,7 @@
 						"japanese": "白露、また迷っちゃったの？もうせわしないわね…指揮官、一緒に探しにいくわよ？",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Shiratsuyu really got lost again? You can never get any rest with that girl around... Come on, Commander, we're going looking for her.",
 						"englishNote": ""
 					},
 					"7": {
@@ -947,7 +983,7 @@
 						"japanese": "このネイル可愛いでしょ？ふっふっふん、ちなみにぃ夕立のもこの時雨様がいつもしてるのだわ！褒めなさいな♪",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Aren't my nails super cute? Hah hah hah! By the by, I'm the one always painting Yuudachi's nails and making them look pretty! Now tell Shigure how awesome she is♪",
 						"englishNote": ""
 					},
 					"8": {
@@ -959,7 +995,7 @@
 						"japanese": "ふふーん、さてはこの時雨様になーんかしようとしているの？し・き・かん♪",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Heheh~! Well, well, what do you think you're doing? Com-man-der?",
 						"englishNote": ""
 					},
 					"9": {
@@ -971,7 +1007,7 @@
 						"japanese": "この慈悲深い時雨様だからこそ、通報だけで済んだのよ？ははは、いつまで逃げられるか見せてみなさいな♪",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Because the mighty Shigure is such a benevolent girl, all I've done is report what you did. Hahaha! Time to see how long you can evade capture♪",
 						"englishNote": ""
 					},
 					"10": {
@@ -983,7 +1019,7 @@
 						"japanese": "なにをするの！？時雨様は雪風じゃないから！",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "What are you doing?! Don't lump me together with that dumb Yukikaze!",
 						"englishNote": ""
 					},
 					"11": {
@@ -995,7 +1031,7 @@
 						"japanese": "バカ指揮官何やってたの？もう、ボーナスが来たじゃない！",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Stupid Commander, what are you waiting for? The mission rewards are here now!",
 						"englishNote": ""
 					},
 					"12": {
@@ -1007,7 +1043,7 @@
 						"japanese": "ふんふんふーん、あー当てなくていいわよ？どうせこの時雨様が出迎えてくると分かってるでしょ？指揮官♪",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Heheh~! You don't need to hope for it, you can count on the mighty Shigure being there when you return, Commander♪",
 						"englishNote": ""
 					},
 					"13": {
@@ -1019,7 +1055,7 @@
 						"japanese": "さあ、時雨様の力を見せてやるわよ！",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "You're gonna see what the mighty Shigure's really made of!",
 						"englishNote": ""
 					}
 				}

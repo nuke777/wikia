@@ -135,6 +135,25 @@
 				}
 			}
 		},
+		"5": {
+			"id": "mingshi_5",
+			"name": "Welcome to Sofmap!",
+			"description": "Hehehe, come on in, nya! Can I help you find something, nya? Your genial and knowledgeable staff, Akashi, will gladly provide her detailed recommendations, nya!",
+			"expression": {
+				"0": {
+					"id": "0"
+				},
+				"1": {
+					"id": "1"
+				},
+				"2": {
+					"id": "2"
+				},
+				"3": {
+					"id": "3"
+				}
+			}
+		},
 		"101": {
 			"id": "mingshi_shop",
 			"name": "",
@@ -1110,6 +1129,157 @@
 						"japaneseTL": "",
 						"japaneseNote": "",
 						"english": "D-Don't run in the sea corridors!",
+						"englishNote": ""
+					}
+				}
+			},
+			"5": {
+				"skin_id": "mingshi_5",
+				"id": "4",
+				"label": "Welcome to Sofmap!",
+				"dialogue": {
+					"1": {
+						"event": "Ship Description",
+						"media": "",
+						"chinese": "呼呼呼，欢迎光临喵！想要找什么喵？让亲切待人又知识丰富的导购明石来给你详细的建议喵！",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "ムフフフ、いらっしゃいませにゃ！何かお探しかにゃ？この親切丁寧知識豊富のスタッフ明石が詳しくアドバイスしてあげますにゃ！",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Hehehe, come on in, nya! Can I help you find something, nya? Your genial and knowledgeable staff, Akashi, will gladly provide her detailed recommendations, nya!",
+						"englishNote": ""
+					},
+					"2": {
+						"event": "Acquisition",
+						"media": "get_4",
+						"chinese": "呼呼呼，欢迎光临喵！想要找什么喵？让亲切待人又知识丰富的导购明石来给你详细的建议喵！",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "ムフフフ、いらっしゃいませにゃ！何かお探しかにゃ？この親切丁寧知識豊富のスタッフ明石が詳しくアドバイスしてあげますにゃ！",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Hehehe, come on in, nya! Can I help you find something, nya? Your genial and knowledgeable staff, Akashi, will gladly provide her detailed recommendations, nya!",
+						"englishNote": ""
+					},
+					"3": {
+						"event": "Login",
+						"media": "login_4",
+						"chinese": "欢迎光临喵！指挥官是来探望看板娘明石的喵？",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "いらっしゃいませにゃ！看板娘の明石に会いに来たのかにゃ？",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Welcome, nya! Has Akashi convinced you to visit the store, nya?",
+						"englishNote": ""
+					},
+					"4": {
+						"event": "Details",
+						"media": "detail_4",
+						"chinese": "呼呼，今天的销售额又刷新记录了喵！明石果然还是很能干的喵！也要感谢指挥官喵！",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "ムフフ、今日も売上記録更新にゃ！やっぱり明石、やればできるにゃ！指揮官にも感謝するにゃ♪",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Hehehe, we broke our sales record today, nya! See, I can do anything if I set my mind to it, nya! You deserve thanks too, Commander♪",
+						"englishNote": ""
+					},
+					"5": {
+						"event": "Main 1",
+						"media": "main_1_4",
+						"chinese": "明石可是有发电量和大和同级的电机工厂的喵！所以熟悉家用电器也没什么奇怪的喵！",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "明石は艦内工場を持っていて、発電能力もあの大和と同等だにゃ。家電に詳しくても何もおかしいことはないにゃ",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "I have an onboard factory that can produce as much energy as Yamato herself, nya. It's only natural I'd be an expert with consumer electronics, nya.",
+						"englishNote": ""
+					},
+					"6": {
+						"event": "Main 2",
+						"media": "main_2_4",
+						"chinese": "指挥官，是不是想找些“那样”的游戏喵？不用担心，明石会给你包好，不会被人看出来的喵~",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "さては指揮官、ムフフなゲームをお探しかにゃ？気づかれないように袋や梱包には気をつけるにゃ～",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Let me guess: you're looking to buy some nyasty games, Commander? I'll wrap and bag it for you so nobody gives you weird looks, nya~",
+						"englishNote": ""
+					},
+					"7": {
+						"event": "Main 3",
+						"media": "main_3_4",
+						"chinese": "呼喵？指挥官看中了哪个商品喵？请拿好购买券直接到收银台结账喵",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "にゃ？目当てのものでもあるのかにゃ？札を取ってそのままレジまで直行するにゃ",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Nya? Are you looking for a particular item, nya? Then take a ticket and go right for the register, nya.",
+						"englishNote": ""
+					},
+					"8": {
+						"event": "Touch",
+						"media": "touch_1_4",
+						"chinese": "呼喵？想要借用那个直播间喵？",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "うにゃ？例の撮影会場を使いたいのかにゃ？",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Hmm? Do you wanna use our well-known photography hall, nya?",
+						"englishNote": ""
+					},
+					"9": {
+						"event": "Touch (Special)",
+						"media": "touch_2_4",
+						"chinese": "呼喵！？报、报警了喵！",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "にゃ！？つ、通報するにゃ！",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Nya?! I-I'm going to report this, nya!",
+						"englishNote": ""
+					},
+					"10": {
+						"event": "Mission",
+						"media": "task_4",
+						"chinese": "有奖励能兑换积分的任务喵？",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "報酬をポイントに変える任務もあるのかにゃ？",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Check to see if you any point-exchange missions, nya.",
+						"englishNote": ""
+					},
+					"11": {
+						"event": "Return to Port",
+						"media": "home_4",
+						"chinese": "欢迎回来喵！想要这个挂饰喵？下次会进货的喵！",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "おかえりにゃ。この饅頭がほしいのかにゃ？今度母港の購買部にも入荷するにゃ",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Welcome back, nya. Are you interested in this Manjuu, nya? I can add some to the Munition shop's stock, nya.",
+						"englishNote": ""
+					},
+					"12": {
+						"event": "Victory",
+						"media": "mvp_4",
+						"chinese": "零件也请多买点喵！",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "部品の買取もしてるにゃ！",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "We'll buy your parts for a good price, nya!",
 						"englishNote": ""
 					}
 				}
