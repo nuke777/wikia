@@ -1,19 +1,18 @@
 {
-	"name_reference": "pennsylvania",
-	"cn_reference": "binxifaniya",
-	"nameJP": "ペンシルベニア",
-	"nameCN": "宾夕法尼亚",
-	"ID": "54",
-	"name": "Pennsylvania",
-	"internal_id": "105031",
-	"rarity": "Rare",
-	"initialStar": "★★☆☆☆",
-	"hull": "Battleship",
-	"navy": "Eagle Union",
-	"prefix": "USS",
-	"buildTime": "",
-	"class": "Pennsylvania-Class",
-	"voiceActress": "Nozomi Yamane",
+	"name_reference" : "pennsylvania",
+	"cn_reference" : "binxifaniya",
+	"nameJP" : "ペンシルベニア",
+	"nameCN" : "宾夕法尼亚",
+	"ID" : "54",
+	"name" : "Pennsylvania",
+	"internal_id" : "105031",
+	"rarity" : "Rare",
+	"initialStar" : "★★☆☆☆",
+	"hull" : "Battleship",
+	"navy" : "Eagle Union",
+	"prefix" : "USS",
+	"buildTime" : "04:10:00",
+	"voiceActress" : "Nozomi Yamane",
 	"parameters": {
 		"firepower": "A",
 		"torpedo": "E",
@@ -23,153 +22,164 @@
 		"hp": "A"
 	},
 	"scrap": {
-		"gold": "11",
-		"oil": "4",
-		"medal": "1"
+		"gold" : "11",
+		"oil" : "4",
+		"medal" : "1"
 	},
 	"releaseDate": {
-		"JP": "",
-		"CN": "",
-		"KR": "",
-		"EN": ""
+		"JP" : "",
+		"CN" : "",
+		"KR" : "",
+		"EN" : ""
 	},
 	"artist": {
-		"name": "",
-		"weibo": "",
-		"twitter": "",
-		"pixiv": "",
-		"other": ""
+		"name" : "SA",
+		"weibo" : "http://weibo.com/u/3405529060",
+		"twitter" : "",
+		"pixiv" : "https://www.pixiv.net/member.php?id=5529284",
+		"other" : ""
 	},
+	"class" : "Pennsylvania-Class",
 	"enhance": {
-		"firepower": "61",
-		"torpedo": "0",
-		"aviation": "0",
-		"reload": "10"
+		"firepower" : "61",
+		"torpedo" : "0",
+		"aviation" : "0",
+		"reload" : "10"
 	},
-	"acquisitionMethod": "Honor medal exchange, Explore Stage2-2, Heavy Ship Construction",
+	"acquisitionMethod" : "Honor medal exchange, Explore Stage2-2, Heavy Ship Construction",
 	"skill": {
-		"1": {
-			"icon": "10130",
-			"requirement": "",
-			"name": "Sister Penn",
-			"type": "Offensive",
-			"description": "$1 chance every 20s: fires a special barrage. Barrage damage is based on the skill's level."
+		"1" : {
+			"icon" : "10130",
+			"requirement" : "Default Unlocked",
+			"name" : "Sister Penn",
+			"type" : "Offensive",
+			"description" : "Every 20s: $30% (60%) chance to fire a special barrage. Barrage DMG is based on the skill's level."
 		}
 	},
 	"skin": {
-		"1": {
-			"id": "binxifaniya",
-			"name": "Pennsylvania",
-			"description": "Pennsylvania-class battleship – Pennsylvania, Hull Number BB-38!",
-			"expression": {
-				"0": {
-					"id": "0"
+		"1" : {
+			"id" : "binxifaniya",
+			"name" : "Pennsylvania",
+			"description" : "Pennsylvania-class battleship – Pennsylvania, Hull Number BB-38!",
+			"expression" : {
+				"0" : {
+					"id" : "0"
+				}
+			}
+		},
+		"101" : {
+			"id" : "binxifaniya_ex1100",
+			"name" : "Pennsylvania",
+			"description" : "Pennsylvania-class battleship – Pennsylvania, Hull Number BB-38!",
+			"expression" : {
+				"0" : {
+					"id" : "0"
 				}
 			}
 		}
 	},
 	"defaultEquipment": {
-		"1": {
-			"icon": "14100",
-			"rarity": "",
-			"name": "Triple 356mm Main Gun"
+		"1" : {
+			"icon" : "14100",
+			"rarity" : "",
+			"name" : "Triple 356mm Main Gun"
 		},
-		"2": {
-			"icon": "",
-			"rarity": "",
-			"name": ""
+		"2" : {
+			"icon" : "",
+			"rarity" : "",
+			"name" : ""
 		},
-		"3": {
-			"icon": "",
-			"rarity": "",
-			"name": ""
+		"3" : {
+			"icon" : "",
+			"rarity" : "",
+			"name" : ""
 		}
 	},
 	"stats": {
+		"base": {
+			"hp" : "1192",
+			"firepower" : "74",
+			"torpedo" : "0",
+			"antiAir" : "40",
+			"aviation" : "0",
+			"reload" : "50",
+			"hit" : "21",
+			"evasion" : "4",
+			"speed" : "21",
+			"luck" : "72",
+			"asw" : "0",
+			"oxygen" : "0",
+			"ammo" : "0",
+			"cost" : "4",
+			"armor" : "Heavy"
+		},
 		"100": {
-			"hp": "6165",
-			"firepower": "349",
-			"torpedo": "0",
-			"antiAir": "185",
-			"aviation": "0",
-			"reload": "119",
-			"hit": "54",
-			"evasion": "11",
-			"speed": "21",
-			"luck": "72",
-			"asw": "0",
-			"oxygen": "0",
-			"ammo": "0",
-			"cost": "13",
-			"armor": "Heavy"
+			"hp" : "6165",
+			"firepower" : "349",
+			"torpedo" : "0",
+			"antiAir" : "185",
+			"aviation" : "0",
+			"reload" : "119",
+			"hit" : "54",
+			"evasion" : "11",
+			"speed" : "21",
+			"luck" : "72",
+			"asw" : "0",
+			"oxygen" : "0",
+			"ammo" : "0",
+			"cost" : "13",
+			"armor" : "Heavy"
 		},
 		"120": {
-			"hp": "7194",
-			"firepower": "390",
-			"torpedo": "0",
-			"antiAir": "212",
-			"aviation": "0",
-			"reload": "137",
-			"hit": "70",
-			"evasion": "27",
-			"speed": "21",
-			"luck": "72",
-			"asw": "0",
-			"oxygen": "0",
-			"ammo": "0",
-			"cost": "13",
-			"armor": "Heavy"
-		},
-		"base": {
-			"hp": "1192",
-			"firepower": "74",
-			"torpedo": "0",
-			"antiAir": "40",
-			"aviation": "0",
-			"reload": "50",
-			"hit": "21",
-			"evasion": "4",
-			"speed": "21",
-			"luck": "72",
-			"asw": "0",
-			"oxygen": "0",
-			"ammo": "0",
-			"cost": "4",
-			"armor": "Heavy"
+			"hp" : "7194",
+			"firepower" : "390",
+			"torpedo" : "0",
+			"antiAir" : "212",
+			"aviation" : "0",
+			"reload" : "137",
+			"hit" : "70",
+			"evasion" : "27",
+			"speed" : "21",
+			"luck" : "72",
+			"asw" : "0",
+			"oxygen" : "0",
+			"ammo" : "0",
+			"cost" : "13",
+			"armor" : "Heavy"
 		},
 		"100retrofit": {
-			"hp": "",
-			"firepower": "",
-			"torpedo": "",
-			"antiAir": "",
-			"aviation": "",
-			"reload": "",
-			"hit": "",
-			"evasion": "",
-			"speed": "21",
-			"luck": "72",
-			"asw": "",
-			"oxygen": "0",
-			"ammo": "0",
-			"cost": "13",
-			"armor": "Heavy"
+			"hp" : "",
+			"firepower" : "",
+			"torpedo" : "",
+			"antiAir" : "",
+			"aviation" : "",
+			"reload" : "",
+			"hit" : "",
+			"evasion" : "",
+			"speed" : "21",
+			"luck" : "72",
+			"asw" : "",
+			"oxygen" : "0",
+			"ammo" : "0",
+			"cost" : "13",
+			"armor" : "Heavy"
 		},
 		"120retrofit": {
-			"hp": "",
-			"firepower": "",
-			"torpedo": "",
-			"antiAir": "",
-			"aviation": "",
-			"reload": "",
-			"hit": "",
-			"evasion": "",
-			"speed": "21",
-			"luck": "72",
-			"asw": "",
-			"oxygen": "0",
-			"ammo": "0",
-			"cost": "13",
-			"armor": "Heavy"
+			"hp" : "",
+			"firepower" : "",
+			"torpedo" : "",
+			"antiAir" : "",
+			"aviation" : "",
+			"reload" : "",
+			"hit" : "",
+			"evasion" : "",
+			"speed" : "21",
+			"luck" : "72",
+			"asw" : "",
+			"oxygen" : "0",
+			"ammo" : "0",
+			"cost" : "13",
+			"armor" : "Heavy"
 		}
 	},
 	"limitBreak": {
@@ -197,17 +207,30 @@
 			"preload": "0/0/0/0"
 		},
 		"4": {
-			"type": "Auxiliary",
+			"type": "Auxilary",
 			"efficiency": "-",
 			"amount": "-",
 			"preload": "-"
 		},
 		"5": {
-			"type": "Auxiliary",
+			"type": "Auxilary",
 			"efficiency": "-",
 			"amount": "-",
 			"preload": "-"
 		}
+	},
+	"fleet_tech": {
+		"pt_get": "11",
+		"add_get_attr": "HP",
+		"add_get_value": "2",
+		"add_get_shiptype": "Battlecruiser,Battleship,Aviation Battleship",
+		"pt_upgrade": "22",
+		"pt_level": "16",
+		"add_level_attr": "Reload",
+		"add_level_value": "1",
+		"add_level_shiptype": "Battlecruiser,Battleship,Aviation Battleship",
+		"t_level": "4",
+		"ships": "pennsylvania,arizona"
 	},
 	"build": {
 		"light": {
@@ -253,337 +276,475 @@
 	"lines": {
 		"skin": {
 			"1": {
-				"skin_id": "binxifaniya",
-				"id": "0",
-				"label": "Pennsylvania",
-				"dialogue": {
-					"1": {
-						"event": "Ship Description",
-						"media": "",
-						"chinese": "宾夕法尼亚级战列舰—宾夕法尼亚，舷号BB-38",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "ペンシルベニア級戦艦・ペンシルベニア（BB-38)",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "Pennsylvania-class battleship –  Pennsylvania, Hull Number BB-38!",
-						"englishNote": ""
+				"skin_id" : "binxifaniya",
+				"id" : "0",
+				"label" : "Pennsylvania",
+				"dialogue" : {
+					"1" : {
+						"event" : "Ship Description",
+						"media" : "",
+						"chinese" : "宾夕法尼亚级战列舰—宾夕法尼亚，舷号BB-38",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "ペンシルベニア級戦艦・ペンシルベニア（BB-38)",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Pennsylvania-class battleship –  Pennsylvania, Hull Number BB-38!",
+						"englishNote" : ""
 					},
-					"2": {
-						"event": "Biography",
-						"media": "profile",
-						"chinese": "我是内华达级战列舰的改进型，宾夕法尼亚级大姐头——宾夕法尼亚号。 虽然也没什么好自夸的，不过我也曾多次优秀地完成支援与护航任务，对自己的能力是很自信的，尽管依赖我吧",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "ネバダ級の改良型、ペンシルベニア級のネームシップーーペンシルベニアだ。自慢ではないけど、支援と護衛任務を何度も上手く遂行した。能力には自信があるから、どんどん頼ってくれ",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "I'm Pennsylvania, lead ship of an improved Nevada class. You can call me \"Sister Penn.\" I really shouldn't brag, but I've sortied on countless successful missions. You can definitely depend on me!",
-						"englishNote": ""
+					"2" : {
+						"event" : "Biography",
+						"media" : "profile",
+						"chinese" : "我是内华达级战列舰的改进型，宾夕法尼亚级大姐头——宾夕法尼亚号。 虽然也没什么好自夸的，不过我也曾多次优秀地完成支援与护航任务，对自己的能力是很自信的，尽管依赖我吧",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "ネバダ級の改良型、ペンシルベニア級のネームシップーーペンシルベニアだ。自慢ではないけど、支援と護衛任務を何度も上手く遂行した。能力には自信があるから、どんどん頼ってくれ",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "I'm Pennsylvania, lead ship of an improved Nevada class. You can call me \"Sister Penn.\" I really shouldn't brag, but I've sortied on countless successful missions. You can definitely depend on me!",
+						"englishNote" : ""
 					},
-					"3": {
-						"event": "Acquisition",
-						"media": "get",
-						"chinese": "我是内华达级战列舰的改进型，宾夕法尼亚级大姐头——宾夕法尼亚号，你可以叫我崩姐。多次优秀地完成支援与护航的任务，我对自己的能力是很自信的",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "私はネバダ級戦艦の改良型、ペンシルベニア級戦艦のネームシップ、ペンシルベニアよ。ペン姉さんって呼んで。支援と護衛任務を何度も成功させてきた。何でもできる自信があるわ",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "I'm Pennsylvania, lead ship of an improved Nevada class. You can call me \"Sister Penn.\" I've sortied on countless successful missions, so you can be confident in my ability.",
-						"englishNote": ""
+					"3" : {
+						"event" : "Acquisition",
+						"media" : "get",
+						"chinese" : "我是内华达级战列舰的改进型，宾夕法尼亚级大姐头——宾夕法尼亚号，你可以叫我崩姐。多次优秀地完成支援与护航的任务，我对自己的能力是很自信的",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "私はネバダ級戦艦の改良型、ペンシルベニア級戦艦のネームシップ、ペンシルベニアよ。ペン姉さんって呼んで。支援と護衛任務を何度も成功させてきた。何でもできる自信があるわ",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "I'm Pennsylvania, lead ship of an improved Nevada class. You can call me \"Sister Penn.\" I've sortied on countless successful missions, so you can be confident in my ability.",
+						"englishNote" : ""
 					},
-					"4": {
-						"event": "Login",
-						"media": "login",
-						"chinese": "指挥官，如果有什么意见的话，不用顾虑地直接说出来",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "指揮官、意見があれば、遠慮なく言って",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "Commander, you know you can always share any thoughts you have with me.",
-						"englishNote": ""
+					"4" : {
+						"event" : "Login",
+						"media" : "login",
+						"chinese" : "指挥官，如果有什么意见的话，不用顾虑地直接说出来",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "指揮官、意見があれば、遠慮なく言って",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Commander, you know you can always share any thoughts you have with me.",
+						"englishNote" : ""
 					},
-					"5": {
-						"event": "Details",
-						"media": "detail",
-						"chinese": "十分感谢。被人这么关心还是头一次……",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "ありがとう、こんなに気にかけてもらえるの、初めてだ…",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "Thanks. This is the first time someone has really cared about me...",
-						"englishNote": ""
+					"5" : {
+						"event" : "Details",
+						"media" : "detail",
+						"chinese" : "十分感谢。被人这么关心还是头一次……",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "ありがとう、こんなに気にかけてもらえるの、初めてだ…",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Thanks. This is the first time someone has really cared about me...",
+						"englishNote" : ""
 					},
-					"6": {
-						"event": "Main 1",
-						"media": "main_1",
-						"chinese": "你这眼神，怎么好像被抛弃的小狗一样",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "その目、なんだか捨てられた子犬みたいね",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "Your eyes... Why do they look like those of an abandoned puppy?",
-						"englishNote": ""
+					"6" : {
+						"event" : "Main 1",
+						"media" : "main_1",
+						"chinese" : "你这眼神，怎么好像被抛弃的小狗一样",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "その目、なんだか捨てられた子犬みたいね",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Your eyes... Why do they look like those of an abandoned puppy?",
+						"englishNote" : ""
 					},
-					"7": {
-						"event": "Main 2",
-						"media": "main_2",
-						"chinese": "麻烦你别用那种看见食物般的眼神看着我",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "そんな飢えた目で私を見ないでくれる？",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "Can you please not look at me with those hungry eyes?",
-						"englishNote": ""
+					"7" : {
+						"event" : "Main 2",
+						"media" : "main_2",
+						"chinese" : "麻烦你别用那种看见食物般的眼神看着我",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "そんな飢えた目で私を見ないでくれる？",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Can you please not look at me with those hungry eyes?",
+						"englishNote" : ""
 					},
-					"8": {
-						"event": "Main 3",
-						"media": "main_3",
-						"chinese": "你的想象真是贫乏啊。不会是姐控吧？！",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "ほんと、想像力が乏しいのね。あなた…まさかシスコン！？",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "You don't have the best imagination, do you?",
-						"englishNote": ""
+					"8" : {
+						"event" : "Main 3",
+						"media" : "main_3",
+						"chinese" : "你的想象真是贫乏啊。不会是姐控吧？！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "ほんと、想像力が乏しいのね。あなた…まさかシスコン！？",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "You don't have the best imagination, do you?",
+						"englishNote" : ""
 					},
-					"9": {
-						"event": "Touch",
-						"media": "touch_1",
-						"chinese": "没什么事就别一惊一乍的",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "何もないなら、いちいち興奮しないでよ",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "You dont have to get worked up over tiny things, Commander.",
-						"englishNote": ""
+					"9" : {
+						"event" : "Touch",
+						"media" : "touch_1",
+						"chinese" : "没什么事就别一惊一乍的",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "何もないなら、いちいち興奮しないでよ",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "You dont have to get worked up over tiny things, Commander.",
+						"englishNote" : ""
 					},
-					"10": {
-						"event": "Touch (Special)",
-						"media": "touch_2",
-						"chinese": "……！！你、你真的是笨蛋吗？",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "…！！ちょっと、頭大丈夫？",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "...!! Hold up, are you alright in the head?",
-						"englishNote": ""
+					"10" : {
+						"event" : "Touch (Special)",
+						"media" : "touch_2",
+						"chinese" : "……！！你、你真的是笨蛋吗？",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "…！！ちょっと、頭大丈夫？",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "...!! Hold up, are you alright in the head?",
+						"englishNote" : ""
 					},
-					"11": {
-						"event": "Mission",
-						"media": "task",
-						"chinese": "我说，你是不是有任务忘了？",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "任務、忘れた？",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "I say, have you forgotten a mission?",
-						"englishNote": ""
+					"11" : {
+						"event" : "Mission",
+						"media" : "task",
+						"chinese" : "我说，你是不是有任务忘了？",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "任務、忘れた？",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "I say, have you forgotten a mission?",
+						"englishNote" : ""
 					},
-					"12": {
-						"event": "Mission Complete",
-						"media": "mission_complete",
-						"chinese": "奖励就放着了，别忘了收起来",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "ボーナスはこっちに置いておく。回収するのだけは忘れるでないぞ",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "I left your rewards over there. Don't forget to collect them!",
-						"englishNote": ""
+					"12" : {
+						"event" : "Mission Complete",
+						"media" : "mission_complete",
+						"chinese" : "奖励就放着了，别忘了收起来",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "ボーナスはこっちに置いておく。回収するのだけは忘れるでないぞ",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "I left your rewards over there. Don't forget to collect them!",
+						"englishNote" : ""
 					},
-					"13": {
-						"event": "Mail",
-						"media": "mail",
-						"chinese": "接着，信，好好回复人家啊",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "ほら、メールだ。ちゃんと返しなさいな",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "Here, I got your mail. Will ya make sure to reply soon?",
-						"englishNote": ""
+					"13" : {
+						"event" : "Mail",
+						"media" : "mail",
+						"chinese" : "接着，信，好好回复人家啊",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "ほら、メールだ。ちゃんと返しなさいな",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Here, I got your mail. Will ya make sure to reply soon?",
+						"englishNote" : ""
 					},
-					"14": {
-						"event": "Return to Port",
-						"media": "home",
-						"chinese": "战斗完后喝一杯的滋味可是不同凡响的，来一杯？",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "戦闘のあとの一杯は格別よ。あなたもどう？",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "Having a drink after battle is something else. You want some?",
-						"englishNote": ""
+					"14" : {
+						"event" : "Return to Port",
+						"media" : "home",
+						"chinese" : "战斗完后喝一杯的滋味可是不同凡响的，来一杯？",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "戦闘のあとの一杯は格別よ。あなたもどう？",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Having a drink after battle is something else. You want some?",
+						"englishNote" : ""
 					},
-					"15": {
-						"event": "Commission Complete",
-						"media": "expedition",
-						"chinese": "委托完成了……不错，大家都在成长",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "委託完了だ。みんなが成長している。結構よ",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "Commission completed... Not bad. Everyone seems to be growing stronger.",
-						"englishNote": ""
+					"15" : {
+						"event" : "Commission Complete",
+						"media" : "expedition",
+						"chinese" : "委托完成了……不错，大家都在成长",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "委託完了だ。みんなが成長している。結構よ",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Commission completed... Not bad. Everyone seems to be growing stronger.",
+						"englishNote" : ""
 					},
-					"16": {
-						"event": "Enhancement",
-						"media": "upgrade",
-						"chinese": "尽管依赖我吧",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "私に頼っていいわ",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "You can depend on me.",
-						"englishNote": ""
+					"16" : {
+						"event" : "Enhancement",
+						"media" : "upgrade",
+						"chinese" : "尽管依赖我吧",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "私に頼っていいわ",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "You can depend on me.",
+						"englishNote" : ""
 					},
-					"17": {
-						"event": "Flagship",
-						"media": "warcry",
-						"chinese": "来，尝尝我14英寸的舰炮吧！",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "さあ、この14インチ砲を受けるがいい！",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "Come on, taste my 14-inch guns!",
-						"englishNote": ""
+					"17" : {
+						"event" : "Flagship",
+						"media" : "warcry",
+						"chinese" : "来，尝尝我14英寸的舰炮吧！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "さあ、この14インチ砲を受けるがいい！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Come on, taste my 14-inch guns!",
+						"englishNote" : ""
 					},
-					"18": {
-						"event": "Victory",
-						"media": "mvp",
-						"chinese": "啧……无聊，真是个十分无趣的结果啊",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "ちぇっ…こんなんで勝ってもちっとも面白くないわ",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "Tsk...Winning like this is so dull...",
-						"englishNote": ""
+					"18" : {
+						"event" : "Victory",
+						"media" : "mvp",
+						"chinese" : "啧……无聊，真是个十分无趣的结果啊",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "ちぇっ…こんなんで勝ってもちっとも面白くないわ",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Tsk...Winning like this is so dull...",
+						"englishNote" : ""
 					},
-					"19": {
-						"event": "Defeat",
-						"media": "lose",
-						"chinese": "稍微有点期待你指挥能力的我也是太轻率了",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "あなたの指揮能力にちょっとでも期待した私がバカだった…",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "I was a fool to have any expectations of your commanding abilities.",
-						"englishNote": ""
+					"19" : {
+						"event" : "Defeat",
+						"media" : "lose",
+						"chinese" : "稍微有点期待你指挥能力的我也是太轻率了",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "あなたの指揮能力にちょっとでも期待した私がバカだった…",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "I was a fool to have any expectations of your commanding abilities.",
+						"englishNote" : ""
 					},
-					"20": {
-						"event": "Skill",
-						"media": "skill",
-						"chinese": "你们只有这种程度吗？",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "あんたたち、この程度？",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "Is that the best you've got?",
-						"englishNote": ""
+					"20" : {
+						"event" : "Skill",
+						"media" : "skill",
+						"chinese" : "你们只有这种程度吗？",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "あんたたち、この程度？",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Is that the best you've got?",
+						"englishNote" : ""
 					},
-					"21": {
-						"event": "Affinity (Upset)",
-						"media": "feeling1",
-						"chinese": "你还真是个胆小鬼啊……",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "こんな臆病者だったとは……",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "You're such a coward...",
-						"englishNote": ""
+					"21" : {
+						"event" : "Affinity (Upset)",
+						"media" : "feeling1",
+						"chinese" : "你还真是个胆小鬼啊……",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "こんな臆病者だったとは……",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "You're such a coward...",
+						"englishNote" : ""
 					},
-					"22": {
-						"event": "Affinity (Stranger)",
-						"media": "feeling2",
-						"chinese": "你就和亚利桑那一样站在我的身后就好了，姐姐会保护好你们的",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "アリゾナと同じく私の後ろに隠れてな。この私が守ってやるよ",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "You and Arizona can hide behind me. I'll protect you.",
-						"englishNote": ""
+					"22" : {
+						"event" : "Affinity (Stranger)",
+						"media" : "feeling2",
+						"chinese" : "你就和亚利桑那一样站在我的身后就好了，姐姐会保护好你们的",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "アリゾナと同じく私の後ろに隠れてな。この私が守ってやるよ",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "You and Arizona can hide behind me. I'll protect you.",
+						"englishNote" : ""
 					},
-					"23": {
-						"event": "Affinity (Friendly)",
-						"media": "feeling3",
-						"chinese": "想要和我站在一起？……你要想好，这可是非常，非常难的事",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "私と肩を並べる気？……よく考えてごらん。それはとても困難なことなのよ",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "You want to stand next to me?... Think carefully now. That is a very hard thing to do.",
-						"englishNote": ""
+					"23" : {
+						"event" : "Affinity (Friendly)",
+						"media" : "feeling3",
+						"chinese" : "想要和我站在一起？……你要想好，这可是非常，非常难的事",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "私と肩を並べる気？……よく考えてごらん。それはとても困難なことなのよ",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "You want to stand next to me?... Think carefully now. That is a very hard thing to do.",
+						"englishNote" : ""
 					},
-					"24": {
-						"event": "Affinity (Like)",
-						"media": "feeling4",
-						"chinese": "不用勉强也没关系，你已经很努力了，没想到你居然不是开玩笑……怎么说呢，我习惯去保护人了……像你这样的，还真是头一个",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "そんなに無理しなくてもいいわ。あなたが頑張っているもの。私もまさか本気だったとは考えていなかったけど……なんというか、人を守るのは慣れているが……あなたのような人は、初めてだ",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "It's alright if you don't want to push yourself further. You've worked very hard. I thought you were joking, but... How do I say this... I'm used to protecting others... But to meet someone who cares about me really is something else.",
-						"englishNote": ""
+					"24" : {
+						"event" : "Affinity (Like)",
+						"media" : "feeling4",
+						"chinese" : "不用勉强也没关系，你已经很努力了，没想到你居然不是开玩笑……怎么说呢，我习惯去保护人了……像你这样的，还真是头一个",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "そんなに無理しなくてもいいわ。あなたが頑張っているもの。私もまさか本気だったとは考えていなかったけど……なんというか、人を守るのは慣れているが……あなたのような人は、初めてだ",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "It's alright if you don't want to push yourself further. You've worked very hard. I thought you were joking, but... How do I say this... I'm used to protecting others... But to meet someone who cares about me really is something else.",
+						"englishNote" : ""
 					},
-					"25": {
-						"event": "Affinity (Love)",
-						"media": "feeling5",
-						"chinese": "嗯，你很努力了，我也没想到你真的跟上了我的脚步……想要什么奖励吗？一个吻，还是一个难忘的夜晚？都可以哦~",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "うん、頑張ってるな。まさか本当に私について来れてるとは思わなかったが……ご褒美は何がいい？キスか？忘れられないほど素敵な夜か？どっちでもいいわ",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "Mmm, you've worked so hard. I didn't think that you'd be able to catch up with me... You want a reward? How about a kiss? Or an unforgettable evening? Both are fine with me~!",
-						"englishNote": ""
+					"25" : {
+						"event" : "Affinity (Love)",
+						"media" : "feeling5",
+						"chinese" : "嗯，你很努力了，我也没想到你真的跟上了我的脚步……想要什么奖励吗？一个吻，还是一个难忘的夜晚？都可以哦~",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "うん、頑張ってるな。まさか本当に私について来れてるとは思わなかったが……ご褒美は何がいい？キスか？忘れられないほど素敵な夜か？どっちでもいいわ",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Mmm, you've worked so hard. I didn't think that you'd be able to catch up with me... You want a reward? How about a kiss? Or an unforgettable evening? Both are fine with me~!",
+						"englishNote" : ""
 					},
-					"26": {
-						"event": "Pledge",
-						"media": "propose",
-						"chinese": "这支舰队看来就是我的归宿了……有应该保护的人，有明明一只鸡都杀不死却想要保护我的人，偏偏我还高兴的不行……笨蛋，抱住我",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "この艦隊こそ私の帰る場所のようだな……守りたい人と、虫も殺せないのにこの私を守ろうとする人、そしてその人のために舞い上がってる私……バカ…",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "This fleet has turned into a place I can call home... The people I want to protect, and the person who protects me despite being unable to kill a bug, and then the 'me' who becomes so giddy for that person are all here... You idiot *blush*...",
-						"englishNote": ""
+					"26" : {
+						"event" : "Pledge",
+						"media" : "propose",
+						"chinese" : "这支舰队看来就是我的归宿了……有应该保护的人，有明明一只鸡都杀不死却想要保护我的人，偏偏我还高兴的不行……笨蛋，抱住我",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "この艦隊こそ私の帰る場所のようだな……守りたい人と、虫も殺せないのにこの私を守ろうとする人、そしてその人のために舞い上がってる私……バカ…",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "This fleet has turned into a place I can call home... The people I want to protect, and the person who protects me despite being unable to kill a bug, and then the 'me' who becomes so giddy for that person are all here... You idiot *blush*...",
+						"englishNote" : ""
+					},
+					"27" : {
+						"event" : "Easter Egg 1(Nagato, Saratoga)",
+						"media" : "link1",
+						"chinese" : "作为大人，让我来保护你们！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "大人として守ってやるわ！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "作为大人，让我来保护你们！",
+						"englishNote" : ""
+					},
+					"28" : {
+						"event" : "Like Present",
+						"media" : "present_like",
+						"chinese" : "",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"29" : {
+						"event" : "Dislike Present",
+						"media" : "present_dislike",
+						"chinese" : "",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"30" : {
+						"event" : "Main Title",
+						"media" : "extra",
+						"chinese" : "",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					}
+				}
+			},
+			"101": {
+				"skin_id" : "binxifaniya_ex1100",
+				"id" : "0",
+				"label" : "Pennsylvania",
+				"dialogue" : {
+					"1" : {
+						"event" : "Login",
+						"media" : "login_ex1100",
+						"chinese" : "指挥官，有什么需要我帮助的，尽管跟我说吧",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "指揮官、私に手伝えることがあったらいつでも言って",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Commander, if there's anything I can help with, just say the word.",
+						"englishNote" : ""
+					},
+					"2" : {
+						"event" : "Details",
+						"media" : "detail_ex1100",
+						"chinese" : "指挥官，有好好吃饭吗？怎么，不想让我关心？真是嚣张的孩子",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "指揮官、ちゃんとご飯食べてる？なに、私から気にかけちゃダメ？生意気な子ね",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Have you been getting enough food, Commander? What? Am I not allowed to be concerned for you? How rude of you.",
+						"englishNote" : ""
+					},
+					"3" : {
+						"event" : "Main 1",
+						"media" : "main_1_ex1100",
+						"chinese" : "好孩子好孩子，呵呵，这样还不够？又不是小狗，就这么摸摸就好啦",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "いい子いい子。ふふ、これでいい？子犬じゃないんだし、これぐらいにしておいてあげるわよ",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "There, you deserve a patting. Heheh... Feeling better? You're not a puppy; that's all you're getting for now.",
+						"englishNote" : ""
+					},
+					"4" : {
+						"event" : "Main 2",
+						"media" : "main_2_ex1100",
+						"chinese" : "亚利桑那，下次一起吃饭吧。你当然会来的吧？",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "アリゾナ、今度一緒にご飯しようって。もちろん一緒に来るわよね？",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Arizona, I was thinking we could have lunch later. You'll come along, won't you?",
+						"englishNote" : ""
+					},
+					"5" : {
+						"event" : "Main 3",
+						"media" : "main_3_ex1100",
+						"chinese" : "…！唐斯，虽然我会帮你善后，但也不可以干太危险的事情噢？…看来听不进去啊",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "…！ダウンズ、私がちゃんと受け止めるからってあまり危ないことをするなよ？………言っても聞いてくれないか",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Hey...! Downes! Don't throw stuff at me, even if I can catch it in time! I know you won't listen to me, but still...",
+						"englishNote" : ""
+					},
+					"6" : {
+						"event" : "Touch",
+						"media" : "touch_1_ex1100",
+						"chinese" : "找崩姐有什么事？",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "ペン姉さんに何か用？",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "What can Sister Penn do for you?",
+						"englishNote" : ""
+					},
+					"7" : {
+						"event" : "Touch (Special)",
+						"media" : "touch_2_ex1100",
+						"chinese" : "…！怎么了，突然这么焦急？",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "…！そんなに焦ってどうした？",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Hey...! Why so restless all of a sudden?",
+						"englishNote" : ""
+					},
+					"8" : {
+						"event" : "Return to Port",
+						"media" : "home_ex1100",
+						"chinese" : "干杯。香槟就留到下次更大的胜利时吧",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "乾杯。シャンパンはもっと大きな勝利の時まで預けておくわ",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Cheers! I'll save the champagne until our next magnificent victory.",
+						"englishNote" : ""
 					}
 				}
 			}
 		}
-	},
-	"fleet_tech": {
-		"pt_get": "11",
-		"add_get_attr": "HP",
-		"add_get_value": "2",
-		"add_get_shiptype": "Battlecruiser,Battleship,Aviation Battleship",
-		"pt_upgrade": "22",
-		"pt_level": "16",
-		"add_level_attr": "Reload",
-		"add_level_value": "1",
-		"add_level_shiptype": "Battlecruiser,Battleship,Aviation Battleship",
-		"t_level": "4",
-		"ships": "pennsylvania,arizona"
 	}
 }
