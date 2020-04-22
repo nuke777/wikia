@@ -81,16 +81,16 @@
 				}
 			}
 		},
-      "2":{
-         "id":"lafei_2",
-         "name":"33-Nyan",
-         "description":"Zzz... feels like... I have to charge again... Bili...",
-         "expression":{
-            "0":{
-               "id":"0"
-            }
-         }
-      },
+		"2": {
+			"id": "lafei_2",
+			"name": "33-Nyan",
+			"description": "Zzz... feels like... I have to charge again... Bili...",
+			"expression": {
+				"0": {
+					"id": "0"
+				}
+			}
+		},
 		"3": {
 			"id": "lafei_3",
 			"name": "Snow Rabbit and Candy Apple ",
@@ -137,6 +137,31 @@
 			}
 		},
 		"6": {
+			"id": "lafei_8",
+			"name": "Picnic Adventure?",
+			"description": "Commander, ahhn... Umm, Commander, Laffey does not need to be fed... Rather, Laffey should be the one feeding you...",
+			"expression": {
+				"0": {
+					"id": "0"
+				},
+				"1": {
+					"id": "1"
+				},
+				"2": {
+					"id": "2"
+				},
+				"3": {
+					"id": "3"
+				},
+				"4": {
+					"id": "4"
+				},
+				"5": {
+					"id": "5"
+				}
+			}
+		},
+		"7": {
 			"id": "lafei_6",
 			"name": "Bunny Clerk?",
 			"description": "I'm done changing... how is it? Today, I’m supposed to call you “valued guest?” Um... I don’t really get it...",
@@ -158,7 +183,7 @@
 				}
 			}
 		},
-		"7": {
+		"8": {
 			"id": "lafei_h",
 			"name": "Bunny Idol @Unmotivated",
 			"description": "\"Laffey came from Planet Bunny...\" Umm, I forgot that line Benson told me to say... In any case, everyone, please give me lots of support... Actually, just a little support is fine... Uhh, I have to do it again with more motivation?",
@@ -180,7 +205,7 @@
 				}
 			}
 		},
-		"8": {
+		"9": {
 			"id": "lafei_g",
 			"name": "Laffey (Retrofit)",
 			"description": "Laffey, improved and reporting in! I feel energized and ready to redouble my efforts! Hey, Commander, I still don't want you to touch my ears...",
@@ -1058,37 +1083,37 @@
 					}
 				}
 			},
-         "2":{
-            "skin_id":"lafei_2",
-            "id":"1",
-            "label":"33-Nyan",
-            "dialogue":{
-               "1":{
-                  "event":"Ship Description",
-                  "media":"",
-                  "chinese":"呒…感觉…又要充电了…哔哩……",
-                  "chineseTL":"Zzz... feels like... I have to charge again... Bili...",
-                  "chineseNote":"",
-                  "japanese":"",
-                  "japaneseTL":"",
-                  "japaneseNote":"",
-                  "english":"",
-                  "englishNote":""
-               },
-               "2":{
-                  "event":"Acquisition",
-                  "media":"",
-                  "chinese":"呒…感觉…又要充电了…哔哩……",
-                  "chineseTL":"Zzz... feels like... I have to charge again... Bili...",
-                  "chineseNote":"",
-                  "japanese":"",
-                  "japaneseTL":"",
-                  "japaneseNote":"",
-                  "english":"",
-                  "englishNote":""
-               }
-            }
-         },
+			"2": {
+				"skin_id": "lafei_2",
+				"id": "1",
+				"label": "33-Nyan",
+				"dialogue": {
+					"1": {
+						"event": "Ship Description",
+						"media": "",
+						"chinese": "呒…感觉…又要充电了…哔哩……",
+						"chineseTL": "Zzz... feels like... I have to charge again... Bili...",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"2": {
+						"event": "Acquisition",
+						"media": "",
+						"chinese": "呒…感觉…又要充电了…哔哩……",
+						"chineseTL": "Zzz... feels like... I have to charge again... Bili...",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					}
+				}
+			},
 			"3": {
 				"skin_id": "lafei_3",
 				"id": "2",
@@ -1447,6 +1472,109 @@
 				}
 			},
 			"6": {
+				"skin_id": "lafei_8",
+				"id": "5",
+				"label": "Picnic Adventure?",
+				"dialogue": {
+					"1": {
+						"event": "Ship Description",
+						"media": "",
+						"chinese": "指挥官，啊——…拉菲，并没有想要指挥官喂。…嗯，拉菲是要喂指挥官才对…",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "指揮官、あーん…ラフィー、指揮官に食べさせてもらうとは思ってない…うん。ラフィーは指揮官を食べさせる…",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Commander, ahhn... Umm, Commander, Laffey does not need to be fed... Rather, Laffey should be the one feeding you... ",
+						"englishNote": ""
+					},
+					"2": {
+						"event": "Acquisition",
+						"media": "get_5",
+						"chinese": "指挥官，啊——…拉菲，并没有想要指挥官喂。…嗯，拉菲是要喂指挥官才对…",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"3": {
+						"event": "Login",
+						"media": "login_5",
+						"chinese": "指挥官，想要吃点什么吗？拉菲的都可以给你哦",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"4": {
+						"event": "Details",
+						"media": "detail_5",
+						"chinese": "和指挥官还有大家一起野餐，很开心……拉菲，看到大家都很和睦，很高兴……",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"5": {
+						"event": "Touch",
+						"media": "touch_1_5",
+						"chinese": "指挥官，不可以用手直接抓吃的…",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"6": {
+						"event": "Rub",
+						"media": "touch_head_5",
+						"chinese": "指挥官，喜欢拉菲的兔兔耳朵？",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"7": {
+						"event": "Victory",
+						"media": "mvp_5",
+						"chinese": "咕嘟咕嘟…胜利的酸素可乐，呼……",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"8": {
+						"event": "Defeat",
+						"media": "lose_5",
+						"chinese": "……可能吃多了",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					}
+				}
+			},
+			"7": {
 				"skin_id": "lafei_5",
 				"id": "4",
 				"label": "Bunny Clerk?",
@@ -1585,7 +1713,7 @@
 					}
 				}
 			},
-			"7": {
+			"8": {
 				"skin_id": "lafei_6",
 				"id": "6",
 				"label": "Bunny Idol @Unmotivated",
@@ -1724,7 +1852,7 @@
 					}
 				}
 			},
-			"8": {
+			"9": {
 				"skin_id": "lafei_g",
 				"id": "9",
 				"label": "Laffey (Retrofit)",
