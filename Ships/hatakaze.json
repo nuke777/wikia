@@ -11,7 +11,7 @@
 	"hull": "Destroyer",
 	"navy": "Sakura Empire",
 	"prefix": "IJN",
-	"buildTime": "",
+	"buildTime": "00:20:00",
 	"class": "Kamikaze-Class",
 	"voiceActress": "Madoka Asahina",
 	"parameters": {
@@ -28,16 +28,16 @@
 		"medal": "1"
 	},
 	"releaseDate": {
-		"JP": "",
-		"CN": "",
-		"KR": "",
-		"EN": ""
+		"JP" : "January 17, 2019",
+		"CN" : "January 17, 2019",
+		"KR" : "January 17, 2019",
+		"EN" : "January 17, 2019"
 	},
 	"artist": {
-		"name": "",
-		"weibo": "",
-		"twitter": "",
-		"pixiv": "",
+		"name": "NoriZC",
+		"weibo": "https://weibo.com/zicaitangxiansheng",
+		"twitter": "https://twitter.com/norizci",
+		"pixiv": "https://www.pixiv.net/member.php?id=4592232",
 		"other": ""
 	},
 	"enhance": {
@@ -50,14 +50,14 @@
 	"skill": {
 		"1": {
 			"icon": "4141",
-			"requirement": "",
+			"requirement": "Default Unlocked",
 			"name": "Swift Defender",
 			"type": "Defensive",
-			"description": "While this ship is afloat: decreases the DMG all friendlies in the Main Fleet take by $1 and decreases the Torpedo and Main Gun DMG this ship takes from enemy DDs and CLs by $2."
+			"description": "While this ship is afloat: decreases the DMG all friendlies in the Main Fleet take by 3.5% (8.0%) and decreases the Torpedo and Main Gun DMG this ship takes from enemy DDs and CLs by 1.0% (10.0%)."
 		},
 		"2": {
 			"icon": "22081",
-			"requirement": "",
+			"requirement": "Limit Break I (III)",
 			"name": "All Out Assault Ⅰ",
 			"type": "Offensive",
 			"description": "Activate All Out Assault Ⅰ: Kamikaze Class once every 15 times the main gun is fired."
@@ -71,6 +71,15 @@
 			"expression": {
 				"0": {
 					"id": "0"
+				},
+				"1" : {
+					"id" : "1"
+				},
+				"2" : {
+					"id" : "2"
+				},
+				"3" : {
+					"id" : "3"
 				}
 			}
 		}
@@ -233,9 +242,9 @@
 			"EN": ""
 		},
 		"limited": {
-			"JP": "",
-			"CN": "",
-			"EN": ""
+			"JP": "✓",
+			"CN": "✓",
+			"EN": "✓"
 		}
 	},
 	"drop": {

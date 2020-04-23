@@ -1,19 +1,18 @@
 {
-	"name_reference": "naka",
-	"cn_reference": "nake",
-	"nameJP": "那珂",
-	"nameCN": "那珂",
-	"ID": "310",
-	"name": "Naka",
-	"internal_id": "302141",
-	"rarity": "Rare",
-	"initialStar": "★★☆☆☆",
-	"hull": "Light Cruiser",
-	"navy": "Sakura Empire",
-	"prefix": "IJN",
-	"buildTime": "",
-	"class": "Sendai-Class",
-	"voiceActress": "Konomi Fujimura",
+	"name_reference" : "naka",
+	"cn_reference" : "nake",
+	"nameJP" : "那珂",
+	"nameCN" : "那珂",
+	"ID" : "310",
+	"name" : "Naka",
+	"internal_id" : "302141",
+	"rarity" : "Rare",
+	"initialStar" : "★★☆☆☆",
+	"hull" : "Light Cruiser",
+	"navy" : "Sakura Empire",
+	"prefix" : "IJN",
+	"buildTime" : "01:20:00",
+	"voiceActress" : "Konomi Fujimura",
 	"parameters": {
 		"firepower": "C",
 		"torpedo": "B",
@@ -23,160 +22,195 @@
 		"hp": "C"
 	},
 	"scrap": {
-		"gold": "6",
-		"oil": "3",
-		"medal": "1"
+		"gold" : "6",
+		"oil" : "3",
+		"medal" : "1"
 	},
 	"releaseDate": {
-		"JP": "",
-		"CN": "",
-		"KR": "",
-		"EN": ""
+		"JP" : "January 17, 2019",
+		"CN" : "January 17, 2019",
+		"KR" : "January 17, 2019",
+		"EN" : "January 17, 2019"
 	},
 	"artist": {
-		"name": "",
-		"weibo": "",
-		"twitter": "",
-		"pixiv": "",
-		"other": ""
+		"name" : "卑しい人间",
+		"weibo" : "https://weibo.com/u/1847715713",
+		"twitter" : "",
+		"pixiv" : "https://www.pixiv.net/member.php?id=1584611",
+		"other" : ""
 	},
+	"class" : "Sendai-Class",
 	"enhance": {
-		"firepower": "12",
-		"torpedo": "22",
-		"aviation": "0",
-		"reload": "13"
+		"firepower" : "12",
+		"torpedo" : "22",
+		"aviation" : "0",
+		"reload" : "13"
 	},
-	"acquisitionMethod": "Event: Crimson Echoes",
+	"acquisitionMethod" : "Event: Crimson Echoes",
 	"skill": {
-		"1": {
-			"icon": "1091",
-			"requirement": "",
-			"name": "Torpedo Squadron",
-			"type": "Support",
-			"description": "While this ship is afloat: increases the TRP and RLD of all friendly DDs and CLs in the Vanguard Fleet by $1."
+		"1" : {
+			"icon" : "1091",
+			"requirement" : "Default Unlocked",
+			"name" : "Torpedo Squadron",
+			"type" : "Support",
+			"description" : "While this ship is afloat: increases the TRP and RLD of all DDs and CLs in your fleet by 3% (15%)."
 		},
-		"2": {
-			"icon": "22131",
-			"requirement": "",
-			"name": "All Out Assault Ⅰ",
-			"type": "Offensive",
-			"description": "Activate All Out Assault Ⅰ: Sendai Class once every 12 times the main gun is fired."
+		"2" : {
+			"icon" : "22131",
+			"requirement" : "Limit Break I (III)",
+			"name" : "All Out Assault Ⅰ",
+			"type" : "Offensive",
+			"description" : "Activates All Out Assault Ⅰ: Sendai Class once every 12 times the Main Guns are fired."
 		}
 	},
 	"skin": {
-		"1": {
-			"id": "nake",
-			"name": "Naka ",
-			"description": "Sendai-class light cruiser number three – Naka. ",
-			"expression": {
-				"0": {
-					"id": "0"
+		"1" : {
+			"id" : "nake",
+			"name" : "Naka ",
+			"description" : "Sendai-class light cruiser number three – Naka. ",
+			"expression" : {
+				"0" : {
+					"id" : "0"
+				},
+				"1" : {
+					"id" : "1"
+				},
+				"2" : {
+					"id" : "2"
+				},
+				"3" : {
+					"id" : "3"
+				}
+			}
+		},
+		"2" : {
+			"id" : "nake_2",
+			"name" : "Foxy Summer Surfer",
+			"description" : "Ahaha! Another big one's coming~! Phew~ that felt amazing~! Ah, Commander, let's hit the waves together, shall we?",
+			"expression" : {
+				"0" : {
+					"id" : "0"
+				},
+				"1" : {
+					"id" : "1"
+				},
+				"2" : {
+					"id" : "2"
+				},
+				"3" : {
+					"id" : "3"
+				},
+				"4" : {
+					"id" : "4"
+				},
+				"5" : {
+					"id" : "5"
 				}
 			}
 		}
 	},
 	"defaultEquipment": {
-		"1": {
-			"icon": "32000",
-			"rarity": "",
-			"name": "Single 140mm Main Gun"
+		"1" : {
+			"icon" : "32000",
+			"rarity" : "",
+			"name" : "Single 140mm Main Gun"
 		},
-		"2": {
-			"icon": "35000",
-			"rarity": "",
-			"name": "Twin 610mm Torpedo"
+		"2" : {
+			"icon" : "35000",
+			"rarity" : "",
+			"name" : "Twin 610mm Torpedo"
 		},
-		"3": {
-			"icon": "",
-			"rarity": "",
-			"name": ""
+		"3" : {
+			"icon" : "",
+			"rarity" : "",
+			"name" : ""
 		}
 	},
 	"stats": {
+		"base": {
+			"hp" : "434",
+			"firepower" : "28",
+			"torpedo" : "65",
+			"antiAir" : "54",
+			"aviation" : "0",
+			"reload" : "68",
+			"hit" : "52",
+			"evasion" : "29",
+			"speed" : "35.3",
+			"luck" : "53",
+			"asw" : "25",
+			"oxygen" : "0",
+			"ammo" : "0",
+			"cost" : "2",
+			"armor" : "Light"
+		},
 		"100": {
-			"hp": "2243",
-			"firepower": "131",
-			"torpedo": "308",
-			"antiAir": "251",
-			"aviation": "0",
-			"reload": "161",
-			"hit": "135",
-			"evasion": "75",
-			"speed": "35.3",
-			"luck": "53",
-			"asw": "91",
-			"oxygen": "0",
-			"ammo": "0",
-			"cost": "9",
-			"armor": "Light"
+			"hp" : "2243",
+			"firepower" : "131",
+			"torpedo" : "308",
+			"antiAir" : "251",
+			"aviation" : "0",
+			"reload" : "161",
+			"hit" : "135",
+			"evasion" : "75",
+			"speed" : "35.3",
+			"luck" : "53",
+			"asw" : "91",
+			"oxygen" : "0",
+			"ammo" : "0",
+			"cost" : "9",
+			"armor" : "Light"
 		},
 		"120": {
-			"hp": "2540",
-			"firepower": "151",
-			"torpedo": "337",
-			"antiAir": "286",
-			"aviation": "0",
-			"reload": "185",
-			"hit": "151",
-			"evasion": "108",
-			"speed": "35.3",
-			"luck": "53",
-			"asw": "104",
-			"oxygen": "0",
-			"ammo": "0",
-			"cost": "9",
-			"armor": "Light"
-		},
-		"base": {
-			"hp": "434",
-			"firepower": "28",
-			"torpedo": "65",
-			"antiAir": "54",
-			"aviation": "0",
-			"reload": "68",
-			"hit": "52",
-			"evasion": "29",
-			"speed": "35.3",
-			"luck": "53",
-			"asw": "25",
-			"oxygen": "0",
-			"ammo": "0",
-			"cost": "2",
-			"armor": "Light"
+			"hp" : "2540",
+			"firepower" : "151",
+			"torpedo" : "337",
+			"antiAir" : "286",
+			"aviation" : "0",
+			"reload" : "185",
+			"hit" : "151",
+			"evasion" : "108",
+			"speed" : "35.3",
+			"luck" : "53",
+			"asw" : "104",
+			"oxygen" : "0",
+			"ammo" : "0",
+			"cost" : "9",
+			"armor" : "Light"
 		},
 		"100retrofit": {
-			"hp": "",
-			"firepower": "",
-			"torpedo": "",
-			"antiAir": "",
-			"aviation": "",
-			"reload": "",
-			"hit": "",
-			"evasion": "",
-			"speed": "35.3",
-			"luck": "53",
-			"asw": "",
-			"oxygen": "0",
-			"ammo": "0",
-			"cost": "9",
-			"armor": "Light"
+			"hp" : "",
+			"firepower" : "",
+			"torpedo" : "",
+			"antiAir" : "",
+			"aviation" : "",
+			"reload" : "",
+			"hit" : "",
+			"evasion" : "",
+			"speed" : "35.3",
+			"luck" : "53",
+			"asw" : "",
+			"oxygen" : "0",
+			"ammo" : "0",
+			"cost" : "9",
+			"armor" : "Light"
 		},
 		"120retrofit": {
-			"hp": "",
-			"firepower": "",
-			"torpedo": "",
-			"antiAir": "",
-			"aviation": "",
-			"reload": "",
-			"hit": "",
-			"evasion": "",
-			"speed": "35.3",
-			"luck": "53",
-			"asw": "",
-			"oxygen": "0",
-			"ammo": "0",
-			"cost": "9",
-			"armor": "Light"
+			"hp" : "",
+			"firepower" : "",
+			"torpedo" : "",
+			"antiAir" : "",
+			"aviation" : "",
+			"reload" : "",
+			"hit" : "",
+			"evasion" : "",
+			"speed" : "35.3",
+			"luck" : "53",
+			"asw" : "",
+			"oxygen" : "0",
+			"ammo" : "0",
+			"cost" : "9",
+			"armor" : "Light"
 		}
 	},
 	"limitBreak": {
@@ -204,17 +238,30 @@
 			"preload": "0/0/0/0"
 		},
 		"4": {
-			"type": "Auxiliary",
+			"type": "Auxilary",
 			"efficiency": "-",
 			"amount": "-",
 			"preload": "-"
 		},
 		"5": {
-			"type": "Auxiliary",
+			"type": "Auxilary",
 			"efficiency": "-",
 			"amount": "-",
 			"preload": "-"
 		}
+	},
+	"fleet_tech": {
+		"pt_get": "5",
+		"add_get_attr": "HP",
+		"add_get_value": "1",
+		"add_get_shiptype": "Light Cruiser",
+		"pt_upgrade": "11",
+		"pt_level": "8",
+		"add_level_attr": "Torpedo",
+		"add_level_value": "1",
+		"add_level_shiptype": "Light Cruiser",
+		"t_level": "4",
+		"ships": "sendai,jintsuu,naka"
 	},
 	"build": {
 		"light": {
@@ -233,9 +280,9 @@
 			"EN": ""
 		},
 		"limited": {
-			"JP": "",
-			"CN": "",
-			"EN": ""
+			"JP": "✓",
+			"CN": "✓",
+			"EN": "✓"
 		}
 	},
 	"drop": {
@@ -260,361 +307,499 @@
 	"lines": {
 		"skin": {
 			"1": {
-				"skin_id": "nake",
-				"id": "0",
-				"label": "Naka ",
-				"dialogue": {
-					"1": {
-						"event": "Ship Description",
-						"media": "",
-						"chinese": "川内级轻巡洋舰三番舰—那珂",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "川内型軽巡洋艦三番艦・那珂",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "Sendai-class light cruiser number three – Naka.",
-						"englishNote": ""
+				"skin_id" : "nake",
+				"id" : "0",
+				"label" : "Naka ",
+				"dialogue" : {
+					"1" : {
+						"event" : "Ship Description",
+						"media" : "",
+						"chinese" : "川内级轻巡洋舰三番舰—那珂",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "川内型軽巡洋艦三番艦・那珂",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Sendai-class light cruiser number three – Naka.",
+						"englishNote" : ""
 					},
-					"2": {
-						"event": "Biography",
-						"media": "profile",
-						"chinese": "我是川内型的三号舰那珂，因为地震的关系，比姐姐们晚降生许多，而且经历也比较坎坷，作为第四水雷战队的旗舰也没什么成绩……不过没关系，我会以姐姐们为目标继续努力，直到超过她们！",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "川内型三番艦の那珂です！とある理由から姉さんたちより遅れて建造され、色んな配置を転々して、四水戦の旗艦としての戦績はぱっとしなかったけど……大丈夫！那珂、姉さんたちを越えるよう頑張っちゃいますよ！",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "I'm Naka, Sendai-class light cruiser number three! Due to certain circumstances, my construction was delayed, I was redeployed to place after place, and my service record as the flagship of Desron 4 isn't much to brag about... but that's okay! I'll still work my butt off to try to surpass my sisters!",
-						"englishNote": ""
+					"2" : {
+						"event" : "Biography",
+						"media" : "profile",
+						"chinese" : "我是川内型的三号舰那珂，因为地震的关系，比姐姐们晚降生许多，而且经历也比较坎坷，作为第四水雷战队的旗舰也没什么成绩……不过没关系，我会以姐姐们为目标继续努力，直到超过她们！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "川内型三番艦の那珂です！とある理由から姉さんたちより遅れて建造され、色んな配置を転々して、四水戦の旗艦としての戦績はぱっとしなかったけど……大丈夫！那珂、姉さんたちを越えるよう頑張っちゃいますよ！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "I'm Naka, Sendai-class light cruiser number three! Due to certain circumstances, my construction was delayed, I was redeployed to place after place, and my service record as the flagship of Desron 4 isn't much to brag about... but that's okay! I'll still work my butt off to try to surpass my sisters!",
+						"englishNote" : ""
 					},
-					"3": {
-						"event": "Acquisition",
-						"media": "get",
-						"chinese": "指挥官，初次见面！我是轻巡洋舰那珂，虽然没有两个姐姐那么有名，不过总有一天我会超过她们的！",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "指揮官、はじめまして！軽巡洋艦の那珂です！お姉さん二人ほど有名じゃないけど、いつか絶対に超えてみせますよ！",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "Nice to meet you, Commander! I'm the light cruiser Naka! My sisters are better known than me, but I swear that one day I'll be even more famous than them!",
-						"englishNote": ""
+					"3" : {
+						"event" : "Acquisition",
+						"media" : "get",
+						"chinese" : "指挥官，初次见面！我是轻巡洋舰那珂，虽然没有两个姐姐那么有名，不过总有一天我会超过她们的！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "指揮官、はじめまして！軽巡洋艦の那珂です！お姉さん二人ほど有名じゃないけど、いつか絶対に超えてみせますよ！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Nice to meet you, Commander! I'm the light cruiser Naka! My sisters are better known than me, but I swear that one day I'll be even more famous than them!",
+						"englishNote" : ""
 					},
-					"4": {
-						"event": "Login",
-						"media": "login",
-						"chinese": "指挥官，欢迎回来，今天我也会努力加油的！",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "指揮官、おかえりなさい！今日も頑張っちゃいますよ！",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "Welcome back, Commander! I'll try to be the best secretary you've ever had!",
-						"englishNote": ""
+					"4" : {
+						"event" : "Login",
+						"media" : "login",
+						"chinese" : "指挥官，欢迎回来，今天我也会努力加油的！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "指揮官、おかえりなさい！今日も頑張っちゃいますよ！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Welcome back, Commander! I'll try to be the best secretary you've ever had!",
+						"englishNote" : ""
 					},
-					"5": {
-						"event": "Details",
-						"media": "detail",
-						"chinese": "指挥官，来开学习会吗？",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "指揮官、お勉強会でもしちゃってみます？",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "Commander, would you like to study together with me?",
-						"englishNote": ""
+					"5" : {
+						"event" : "Details",
+						"media" : "detail",
+						"chinese" : "指挥官，来开学习会吗？",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "指揮官、お勉強会でもしちゃってみます？",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Commander, would you like to study together with me?",
+						"englishNote" : ""
 					},
-					"6": {
-						"event": "Main 1",
-						"media": "main_1",
-						"chinese": "指挥官，暂时用不到我的话，我能做些自己的训练吗？不会打扰到你的~",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "指揮官、那珂に手伝えることがなさそうなら、少しの間だけ自主練しちゃっても大丈夫ですか？指揮官の仕事の邪魔はしませんよ",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "If it looks like there's nothing for me to do, would you mind if I did a little training on my own? I won't get in the way of your work!",
-						"englishNote": ""
+					"6" : {
+						"event" : "Main 1",
+						"media" : "main_1",
+						"chinese" : "指挥官，暂时用不到我的话，我能做些自己的训练吗？不会打扰到你的~",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "指揮官、那珂に手伝えることがなさそうなら、少しの間だけ自主練しちゃっても大丈夫ですか？指揮官の仕事の邪魔はしませんよ",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "If it looks like there's nothing for me to do, would you mind if I did a little training on my own? I won't get in the way of your work!",
+						"englishNote" : ""
 					},
-					"7": {
-						"event": "Main 2",
-						"media": "main_2",
-						"chinese": "神通姐是文，川内姐是武，那我那珂就要做到文武双全！……啊哈哈，虽然不知道能不能做到就是了",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "知の神通姉さんに、力の川内姉さん…那珂は文武両道で行っちゃいます！…あはは、できるかどうかはわかりませんけどねっ",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "Jintsuu is wise, Sendai is strong... but I'll work my way towards both brains and brawn! ...Ahahah, though I'm not sure if I can actually do it.",
-						"englishNote": ""
+					"7" : {
+						"event" : "Main 2",
+						"media" : "main_2",
+						"chinese" : "神通姐是文，川内姐是武，那我那珂就要做到文武双全！……啊哈哈，虽然不知道能不能做到就是了",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "知の神通姉さんに、力の川内姉さん…那珂は文武両道で行っちゃいます！…あはは、できるかどうかはわかりませんけどねっ",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Jintsuu is wise, Sendai is strong... but I'll work my way towards both brains and brawn! ...Ahahah, though I'm not sure if I can actually do it.",
+						"englishNote" : ""
 					},
-					"8": {
-						"event": "Main 3",
-						"media": "main_3",
-						"chinese": "指挥官，累了的话，要不要我教你一些放松的办法？我知道很多哦~",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "指揮官、疲れてたらいいリラックスの仕方を教えましょうか？実は那珂、結構知っているんですよ～",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "If you're tired, would you like me to give you a good relaxation tip? I actually know quite a lot about it~",
-						"englishNote": ""
+					"8" : {
+						"event" : "Main 3",
+						"media" : "main_3",
+						"chinese" : "指挥官，累了的话，要不要我教你一些放松的办法？我知道很多哦~",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "指揮官、疲れてたらいいリラックスの仕方を教えましょうか？実は那珂、結構知っているんですよ～",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "If you're tired, would you like me to give you a good relaxation tip? I actually know quite a lot about it~",
+						"englishNote" : ""
 					},
-					"9": {
-						"event": "Touch",
-						"media": "touch_1",
-						"chinese": "哼~哼~哼哼~♪啊，不好意思，指挥官，没有吵到你吧？",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "♪～あ、すみません指揮官、仕事の邪魔になったのですか…？",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "Hum hum~♪ Oh, sorry, am I disturbing you in the middle of work...?",
-						"englishNote": ""
+					"9" : {
+						"event" : "Touch",
+						"media" : "touch_1",
+						"chinese" : "哼~哼~哼哼~♪啊，不好意思，指挥官，没有吵到你吧？",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "♪～あ、すみません指揮官、仕事の邪魔になったのですか…？",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Hum hum~♪ Oh, sorry, am I disturbing you in the middle of work...?",
+						"englishNote" : ""
 					},
-					"10": {
-						"event": "Touch (Special)",
-						"media": "touch_2",
-						"chinese": "呀！……真是的，指挥官，工作的时候请做该做的事！",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "きゃっ！……もう、指揮官？勤務中はお仕事に集中してください！",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "Eek! ...Please, Commander, try to stay focused on your work while in the office!",
-						"englishNote": ""
+					"10" : {
+						"event" : "Touch (Special)",
+						"media" : "touch_2",
+						"chinese" : "呀！……真是的，指挥官，工作的时候请做该做的事！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "きゃっ！……もう、指揮官？勤務中はお仕事に集中してください！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Eek! ...Please, Commander, try to stay focused on your work while in the office!",
+						"englishNote" : ""
 					},
-					"11": {
-						"event": "Mission",
-						"media": "task",
-						"chinese": "指挥官，任务书整理好了，来，请选一份吧！",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "指揮官、任務のリストを整理しました！はい、一つ選んでください！",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "I reorganized the mission list for you! Here, please choose one!",
-						"englishNote": ""
+					"11" : {
+						"event" : "Mission",
+						"media" : "task",
+						"chinese" : "指挥官，任务书整理好了，来，请选一份吧！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "指揮官、任務のリストを整理しました！はい、一つ選んでください！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "I reorganized the mission list for you! Here, please choose one!",
+						"englishNote" : ""
 					},
-					"12": {
-						"event": "Mission Complete",
-						"media": "mission_complete",
-						"chinese": "又完成了一件任务，不愧是指挥官呢，我也要加油！",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "また一つ、任務がクリアされました！さすがは指揮官です！那珂も頑張らないと！",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "You've cleared another mission! You're so brilliant, Commander! I'll need to work just as hard!",
-						"englishNote": ""
+					"12" : {
+						"event" : "Mission Complete",
+						"media" : "mission_complete",
+						"chinese" : "又完成了一件任务，不愧是指挥官呢，我也要加油！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "また一つ、任務がクリアされました！さすがは指揮官です！那珂も頑張らないと！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "You've cleared another mission! You're so brilliant, Commander! I'll need to work just as hard!",
+						"englishNote" : ""
 					},
-					"13": {
-						"event": "Mail",
-						"media": "mail",
-						"chinese": "指挥官，有你的邮件，我锻炼回来的路上看到的",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "指揮官、メールですよ。自主練から帰ってくる途中についでに取ってきました",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "Commander, I have mail for you. I picked it up on the way back from my training.",
-						"englishNote": ""
+					"13" : {
+						"event" : "Mail",
+						"media" : "mail",
+						"chinese" : "指挥官，有你的邮件，我锻炼回来的路上看到的",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "指揮官、メールですよ。自主練から帰ってくる途中についでに取ってきました",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Commander, I have mail for you. I picked it up on the way back from my training.",
+						"englishNote" : ""
 					},
-					"14": {
-						"event": "Return to Port",
-						"media": "home",
-						"chinese": "回家的感觉真好，指挥官也这么觉得吧？",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "やっぱり母港に帰れるのはいいですよね。指揮官もそう思うでしょう？",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "There's nothing better than getting to come back home. Wouldn't you agree, Commander?",
-						"englishNote": ""
+					"14" : {
+						"event" : "Return to Port",
+						"media" : "home",
+						"chinese" : "回家的感觉真好，指挥官也这么觉得吧？",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "やっぱり母港に帰れるのはいいですよね。指揮官もそう思うでしょう？",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "There's nothing better than getting to come back home. Wouldn't you agree, Commander?",
+						"englishNote" : ""
 					},
-					"15": {
-						"event": "Commission Complete",
-						"media": "expedition",
-						"chinese": "军事委托好像完成了，去打个招呼吧！",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "軍事委託が完了したようですよ？帰ってくる皆を労いに行きましょう！",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "I think a commission has been completed. We should go and say thanks to the returning team!",
-						"englishNote": ""
+					"15" : {
+						"event" : "Commission Complete",
+						"media" : "expedition",
+						"chinese" : "军事委托好像完成了，去打个招呼吧！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "軍事委託が完了したようですよ？帰ってくる皆を労いに行きましょう！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "I think a commission has been completed. We should go and say thanks to the returning team!",
+						"englishNote" : ""
 					},
-					"16": {
-						"event": "Enhancement",
-						"media": "upgrade",
-						"chinese": "有指挥官的支持，我一定会更努力的！",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "指揮官のサポートがあれば、もっと頑張っちゃいます！",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "With your support I can work even harder!",
-						"englishNote": ""
+					"16" : {
+						"event" : "Enhancement",
+						"media" : "upgrade",
+						"chinese" : "有指挥官的支持，我一定会更努力的！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "指揮官のサポートがあれば、もっと頑張っちゃいます！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "With your support I can work even harder!",
+						"englishNote" : ""
 					},
-					"17": {
-						"event": "Flagship",
-						"media": "warcry",
-						"chinese": "姐姐们，请期待我的活跃吧！",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "姉さんたち、那珂の活躍を期待しててね！",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "My sisters, please look forward to my performance in battle!",
-						"englishNote": ""
+					"17" : {
+						"event" : "Flagship",
+						"media" : "warcry",
+						"chinese" : "姐姐们，请期待我的活跃吧！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "姉さんたち、那珂の活躍を期待しててね！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "My sisters, please look forward to my performance in battle!",
+						"englishNote" : ""
 					},
-					"18": {
-						"event": "Victory",
-						"media": "mvp",
-						"chinese": "我的目标是超越姐姐们，这点程度可还不够呢！",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "姉さんたちを越えるのが目標なんだから、これぐらいなんてことないんだからっ！",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "Compared to my goal of surpassing my sisters, this is no big deal at all!",
-						"englishNote": ""
+					"18" : {
+						"event" : "Victory",
+						"media" : "mvp",
+						"chinese" : "我的目标是超越姐姐们，这点程度可还不够呢！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "姉さんたちを越えるのが目標なんだから、これぐらいなんてことないんだからっ！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Compared to my goal of surpassing my sisters, this is no big deal at all!",
+						"englishNote" : ""
 					},
-					"19": {
-						"event": "Defeat",
-						"media": "lose",
-						"chinese": "呼，指挥官，撤退吧，神通姐说过，无谓的牺牲是不必要的",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "わわ、指揮官、早く撤退しましょう！神通姉さんは無駄な犧牲は必要ないって言ってましたし！",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "Oh no! Commander, we should retreat immediately! Jintsuu said we shouldn't make meaningless sacrifices!",
-						"englishNote": ""
+					"19" : {
+						"event" : "Defeat",
+						"media" : "lose",
+						"chinese" : "呼，指挥官，撤退吧，神通姐说过，无谓的牺牲是不必要的",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "わわ、指揮官、早く撤退しましょう！神通姉さんは無駄な犧牲は必要ないって言ってましたし！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Oh no! Commander, we should retreat immediately! Jintsuu said we shouldn't make meaningless sacrifices!",
+						"englishNote" : ""
 					},
-					"20": {
-						"event": "Skill",
-						"media": "skill",
-						"chinese": "那珂我可是很厉害的！",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "那珂はすごいんだからねっ！",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "I'm really powerful, you know!",
-						"englishNote": ""
+					"20" : {
+						"event" : "Skill",
+						"media" : "skill",
+						"chinese" : "那珂我可是很厉害的！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "那珂はすごいんだからねっ！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "I'm really powerful, you know!",
+						"englishNote" : ""
 					},
-					"21": {
-						"event": "Low HP",
-						"media": "hp",
-						"chinese": "各位，不要慌张，改变策略！",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "みんな、落ち着いて、やり方を変えよう！",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "Everyone, stay calm! Let's change our strategy!",
-						"englishNote": ""
+					"21" : {
+						"event" : "Low HP",
+						"media" : "hp",
+						"chinese" : "各位，不要慌张，改变策略！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "みんな、落ち着いて、やり方を変えよう！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Everyone, stay calm! Let's change our strategy!",
+						"englishNote" : ""
 					},
-					"22": {
-						"event": "Affinity (Upset)",
-						"media": "feeling1",
-						"chinese": "姐姐们之所以会选择指挥官，难道只是因为指挥官什么都不会，正好能让她们可以自由发挥……？真奇怪…",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "姉さんたちはとやかく言われずのびのびできるから、指揮官を選んだのですか？変ですね……",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "My sisters chose you because you just let them mess around without being scolded? How strange...",
-						"englishNote": ""
+					"22" : {
+						"event" : "Affinity (Upset)",
+						"media" : "feeling1",
+						"chinese" : "姐姐们之所以会选择指挥官，难道只是因为指挥官什么都不会，正好能让她们可以自由发挥……？真奇怪…",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "姉さんたちはとやかく言われずのびのびできるから、指揮官を選んだのですか？変ですね……",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "My sisters chose you because you just let them mess around without being scolded? How strange...",
+						"englishNote" : ""
 					},
-					"23": {
-						"event": "Affinity (Stranger)",
-						"media": "feeling2",
-						"chinese": "休息日在做什么吗？早上起来先晨练一小时，接着读一小时的书，再进行两小时的炮术训练，然后……唔，总之排的挺满啦，为了变强这是必须的哦？",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "休日ですか？ええと、起きてから朝練一時間に読書一時間、砲術訓練二時間、そして……とにかくテキパキと過ごしています！あ、強くなるためには必須な努力ですよ？",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "What I do on my days off? Well, I get up and do morning training, I read for an hour, I do target practice for 2 hours, and then... Basically, I make full use of my vacation days! I have to work really hard to become stronger, you know?",
-						"englishNote": ""
+					"23" : {
+						"event" : "Affinity (Stranger)",
+						"media" : "feeling2",
+						"chinese" : "休息日在做什么吗？早上起来先晨练一小时，接着读一小时的书，再进行两小时的炮术训练，然后……唔，总之排的挺满啦，为了变强这是必须的哦？",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "休日ですか？ええと、起きてから朝練一時間に読書一時間、砲術訓練二時間、そして……とにかくテキパキと過ごしています！あ、強くなるためには必須な努力ですよ？",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "What I do on my days off? Well, I get up and do morning training, I read for an hour, I do target practice for 2 hours, and then... Basically, I make full use of my vacation days! I have to work really hard to become stronger, you know?",
+						"englishNote" : ""
 					},
-					"24": {
-						"event": "Affinity (Friendly)",
-						"media": "feeling3",
-						"chinese": "欸？爱好啊……我倒是没想过呢，对我来说，读书和训练都挺开心哦，指挥官也来一起努力怎么样，嘻嘻？",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "趣味ですか？……特に考えたことないですね。読書も訓練も楽しいですし…あ、指揮官も那珂と一緒に努力しちゃってみます？へへへ",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "What are my hobbies? ...I don't really have one in particular. But I enjoy reading and training... Oh, would you like to train together with me? Heheheh~",
-						"englishNote": ""
+					"24" : {
+						"event" : "Affinity (Friendly)",
+						"media" : "feeling3",
+						"chinese" : "欸？爱好啊……我倒是没想过呢，对我来说，读书和训练都挺开心哦，指挥官也来一起努力怎么样，嘻嘻？",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "趣味ですか？……特に考えたことないですね。読書も訓練も楽しいですし…あ、指揮官も那珂と一緒に努力しちゃってみます？へへへ",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "What are my hobbies? ...I don't really have one in particular. But I enjoy reading and training... Oh, would you like to train together with me? Heheheh~",
+						"englishNote" : ""
 					},
-					"25": {
-						"event": "Affinity (Like)",
-						"media": "feeling4",
-						"chinese": "唔，让指挥官总是陪着我也不太好意思呢，指挥官有什么想做的事吗，我也可以陪你哦？",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "うーん、指揮官にいつもご一緒いただくのはやはりちょっと申し訳ないですね…指揮官もやりたいこととかありますか？那珂もご一緒しますよ？",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "Hmm, I feel a little guilty over always making you come with me... Is there anything you'd like to do? We'll do it together, of course!",
-						"englishNote": ""
+					"25" : {
+						"event" : "Affinity (Like)",
+						"media" : "feeling4",
+						"chinese" : "唔，让指挥官总是陪着我也不太好意思呢，指挥官有什么想做的事吗，我也可以陪你哦？",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "うーん、指揮官にいつもご一緒いただくのはやはりちょっと申し訳ないですね…指揮官もやりたいこととかありますか？那珂もご一緒しますよ？",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Hmm, I feel a little guilty over always making you come with me... Is there anything you'd like to do? We'll do it together, of course!",
+						"englishNote" : ""
 					},
-					"26": {
-						"event": "Affinity (Love)",
-						"media": "feeling5",
-						"chinese": "什么呀，指挥官也一直想要约我而找不到机会吗，那我们不就是想到一起去了？嘻嘻，那，指挥官，我们一起去约会吧~",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "あれ、指揮官も那珂と同じ、デートのチャンスを伺っていたというのですか？えへへ、じゃあ指揮官～デート、しちゃいましょうか？",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "Huh? Are you saying you've been waiting for a chance to go on a date too? Heheh, in that case~ Why don't we do it, Commander?",
-						"englishNote": ""
+					"26" : {
+						"event" : "Affinity (Love)",
+						"media" : "feeling5",
+						"chinese" : "什么呀，指挥官也一直想要约我而找不到机会吗，那我们不就是想到一起去了？嘻嘻，那，指挥官，我们一起去约会吧~",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "あれ、指揮官も那珂と同じ、デートのチャンスを伺っていたというのですか？えへへ、じゃあ指揮官～デート、しちゃいましょうか？",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Huh? Are you saying you've been waiting for a chance to go on a date too? Heheh, in that case~ Why don't we do it, Commander?",
+						"englishNote" : ""
 					},
-					"27": {
-						"event": "Pledge",
-						"media": "propose",
-						"chinese": "指挥官，再多注视着我一点也没关系哦，因为这样你会收获一个文武双全，还全心全意喜欢着你的那珂的~",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "那珂のことをもっとじっと見つめても大丈夫ですよ？えへへ～これからは文武両道で指揮官のことが大好きな那珂があなたのもとに来ちゃいますからねっ！",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "You can stare as much as you'd like. Hehehe~ From now on I will use my brains and brawn to serve you, my sweetheart whom I love so much!",
-						"englishNote": ""
+					"27" : {
+						"event" : "Pledge",
+						"media" : "propose",
+						"chinese" : "指挥官，再多注视着我一点也没关系哦，因为这样你会收获一个文武双全，还全心全意喜欢着你的那珂的~",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "那珂のことをもっとじっと見つめても大丈夫ですよ？えへへ～これからは文武両道で指揮官のことが大好きな那珂があなたのもとに来ちゃいますからねっ！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "You can stare as much as you'd like. Hehehe~ From now on I will use my brains and brawn to serve you, my sweetheart whom I love so much!",
+						"englishNote" : ""
 					},
-					"28": {
-						"event": "Easter Egg 1 (Sendai, Jintsuu)",
-						"media": "link1",
-						"chinese": "我也要绽放和姐姐们一样的光芒！",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "姉さんたちみたいに輝いちゃいます！",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "I want to shine as gloriously as you, my sisters!",
-						"englishNote": ""
+					"28" : {
+						"event" : "Easter Egg 1(Sendai, Jintsuu)",
+						"media" : "link1",
+						"chinese" : "我也要绽放和姐姐们一样的光芒！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "姉さんたちみたいに輝いちゃいます！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "I want to shine as gloriously as you, my sisters!",
+						"englishNote" : ""
+					},
+					"29" : {
+						"event" : "Like Present",
+						"media" : "present_like",
+						"chinese" : "",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"30" : {
+						"event" : "Dislike Present",
+						"media" : "present_dislike",
+						"chinese" : "",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"31" : {
+						"event" : "Main Title",
+						"media" : "extra",
+						"chinese" : "",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					}
+				}
+			},
+			"2": {
+				"skin_id" : "nake_2",
+				"id" : "1",
+				"label" : "Foxy Summer Surfer",
+				"dialogue" : {
+					"1" : {
+						"event" : "Ship Description",
+						"media" : "",
+						"chinese" : "啊哈哈哈，海浪要拍过来啦！呼~凉爽的感觉！嘿嘿，指挥官要来一起感受夏日的海浪吗？",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "ははは！また波が来ちゃいますよ～ふぅーー気持ちいい～！あ、指揮官も一緒にやっちゃいませんか？",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Ahaha! Another big one's coming~! Phew~ that felt amazing~! Ah, Commander, let's hit the waves together, shall we?",
+						"englishNote" : ""
+					},
+					"2" : {
+						"event" : "Acquisition",
+						"media" : "get_1",
+						"chinese" : "啊哈哈哈，海浪要拍过来啦！呼~凉爽的感觉！嘿嘿，指挥官要来一起感受夏日的海浪吗？",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"3" : {
+						"event" : "Login",
+						"media" : "login_1",
+						"chinese" : "指挥官！在开始感受海浪之前，来一起做热身运动怎样？",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"4" : {
+						"event" : "Details",
+						"media" : "detail_1",
+						"chinese" : "听说冲浪不仅可以锻炼运动神经，还能增强平衡感呢！要不试试看好了~",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"5" : {
+						"event" : "Touch",
+						"media" : "touch_1_1",
+						"chinese" : "嘿嘿，指挥官是要帮那珂做放松按摩吗？",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"6" : {
+						"event" : "Touch (Special)",
+						"media" : "touch_2_1",
+						"chinese" : "指挥官…在海边做这种事可是要被女孩子嫌弃的哦！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"7" : {
+						"event" : "Mission",
+						"media" : "task_1",
+						"chinese" : "欸？神通姐把任务书也拿过来了吗？",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"8" : {
+						"event" : "Mail",
+						"media" : "mail_1",
+						"chinese" : "指、指挥官？！有个装着信的漂流瓶被海浪冲过来了！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"9" : {
+						"event" : "Return to Port",
+						"media" : "home_1",
+						"chinese" : "唔，有没有办法在游泳的时候克服这个大尾巴带来的阻力呢……啊，对了，擅长运动的川内姐一定是知道的吧！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
 					}
 				}
 			}
 		}
-	},
-	"fleet_tech": {
-		"pt_get": "5",
-		"add_get_attr": "HP",
-		"add_get_value": "1",
-		"add_get_shiptype": "Light Cruiser",
-		"pt_upgrade": "11",
-		"pt_level": "8",
-		"add_level_attr": "Torpedo",
-		"add_level_value": "1",
-		"add_level_shiptype": "Light Cruiser",
-		"t_level": "4",
-		"ships": "sendai,jintsuu,naka"
 	}
 }

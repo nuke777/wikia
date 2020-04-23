@@ -53,14 +53,21 @@
 			"requirement": "Default Unlocked",
 			"name": "Anti-Air Mode",
 			"type": "Defensive",
-			"description": "When this ship fires its Anti-Air Guns: 25.0% chance to increase this ship's AA by 20.0%(40.0%) but decrease its FP by 40.0%(20.0%) for 3s."
+			"description": "When this ship fires its Anti-Air Guns: 25.0% chance to increase this ship's AA by 20.0% (40.0%) but decrease its FP by 40.0% (20.0%) for 3s."
 		},
 		"2": {
+			"icon": "13190",
+			"requirement": "Default Unlocked",
+			"name": "I'm Not Afraid Anymore! ",
+			"type": "Offensive",
+			"description": "While this ship has a Sakura Empire Main Gun equipped: decreases its DMG taken by 4.5% (12.0%); while equipping a Main Gun from any other faction: decreases this ship's AA Gun efficiency by 50.0%, but increases its Main Gun efficiency by 5.0% (20.0%) and Torpedo efficiency by 20.0% (50.0%), and also fires a special Lv.1 (Lv.10) torpedo barrage at the same time as this ship's All Out Assault activates. Torpedo barrage DMG is based on the skill's level. "
+		},
+		"3": {
 			"icon": "22141",
 			"requirement": "Limit Break I (III)",
 			"name": "All Out Assault Ⅰ",
 			"type": "Offensive",
-			"description": "Activate All Out Assault Ⅰ: Nagara Class once every 12 times the main gun is fired."
+			"description": "Activates All Out Assault Ⅰ: Nagara Class once every 12 times the Main Guns are fired."
 		}
 	},
 	"skin": {
@@ -103,6 +110,34 @@
 			"id": "wushiling_3",
 			"name": "Cozy Christmas Eve",
 			"description": "Commander? I only came here to help wrap up all the presents for tomorrow, n-not because the fireplace is too cozy and I don't want to get up...",
+			"expression": {
+				"0": {
+					"id": "0"
+				},
+				"1": {
+					"id": "1"
+				},
+				"2": {
+					"id": "2"
+				},
+				"3": {
+					"id": "3"
+				},
+				"4": {
+					"id": "4"
+				},
+				"5": {
+					"id": "5"
+				},
+				"6": {
+					"id": "6"
+				}
+			}
+		},
+		"4": {
+			"id": "wushiling_g",
+			"name": "Isuzu (Retrofit)",
+			"description": "Retrofit complete! ...Umm, Commander? ...Wh-what's the matter? Do I really look that different...?!",
 			"expression": {
 				"0": {
 					"id": "0"
@@ -198,34 +233,34 @@
 			"armor": "Light"
 		},
 		"100retrofit": {
-			"hp": "",
-			"firepower": "",
-			"torpedo": "",
-			"antiAir": "",
-			"aviation": "",
-			"reload": "",
-			"hit": "",
-			"evasion": "",
+			"hp": "3084",
+			"firepower": "104",
+			"torpedo": "201",
+			"antiAir": "354",
+			"aviation": "0",
+			"reload": "153",
+			"hit": "144",
+			"evasion": "76",
 			"speed": "36",
 			"luck": "33",
-			"asw": "",
+			"asw": "122",
 			"oxygen": "0",
 			"ammo": "0",
 			"cost": "9",
 			"armor": "Light"
 		},
 		"120retrofit": {
-			"hp": "",
-			"firepower": "",
-			"torpedo": "",
-			"antiAir": "",
-			"aviation": "",
-			"reload": "",
-			"hit": "",
-			"evasion": "",
+			"hp": "3454",
+			"firepower": "120",
+			"torpedo": "230",
+			"antiAir": "393",
+			"aviation": "0",
+			"reload": "176",
+			"hit": "160",
+			"evasion": "100",
 			"speed": "36",
 			"luck": "33",
-			"asw": "",
+			"asw": "134",
 			"oxygen": "0",
 			"ammo": "0",
 			"cost": "9",
@@ -905,6 +940,133 @@
 						"japaneseTL": "",
 						"japaneseNote": "",
 						"english": "I'm not really sure how Christmas should be celebrated. But just sitting next to you in front of the fireplace like this... is probably fine. Commander, i-it's a bit cold... I'd like to get a little closer...",
+						"englishNote": ""
+					}
+				}
+			},
+			"4": {
+				"skin_id": "wushiling_g",
+				"id": "9",
+				"label": "Isuzu (Retrofit)",
+				"dialogue": {
+					"1": {
+						"event": "Ship Description",
+						"media": "",
+						"chinese": "这下子就改造完成了！……嗯，指挥官？那个……你好像很吃惊呢，我的变化真的很大吗？",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "改造、完了！……あ、あれ、指揮官？……ど、どうしたの？あてはそんなに変わったの…？！",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Retrofit complete! ...Umm, Commander? ...Wh-what's the matter? Do I really look that different...?!",
+						"englishNote": ""
+					},
+					"2": {
+						"event": "Acquisition",
+						"media": "get_9",
+						"chinese": "这下子就改造完成了！……嗯，指挥官？那个……你好像很吃惊呢，我的变化真的很大吗？",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"3": {
+						"event": "Login",
+						"media": "login_9",
+						"chinese": "哇！……指挥官，你该不会是故意吓我的吧？",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"4": {
+						"event": "Details",
+						"media": "detail_9",
+						"chinese": "指挥官，对我一直都很温柔呢。谢谢你。",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"5": {
+						"event": "Touch",
+						"media": "touch_1_9",
+						"chinese": "指挥官，我也稍微变得可靠一点了吧？",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"6": {
+						"event": "Touch (Special)",
+						"media": "touch_2_9",
+						"chinese": "我、我才不怕呢！",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"7": {
+						"event": "Return to Port",
+						"media": "home_9",
+						"chinese": "指挥官，欢迎回来。…以前我在这个时候会向指挥官撒娇？是、是这样的吗？我记不太清了呢，哈哈……",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"8": {
+						"event": "Commission Complete",
+						"media": "expedition_9",
+						"chinese": "完成委托的姐妹们回来了。那个，没带回来什么奇怪的东西吧？",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"9": {
+						"event": "Flagship",
+						"media": "warcry_9",
+						"chinese": "防空支援就交给我吧。",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"10": {
+						"event": "Skill",
+						"media": "skill_9",
+						"chinese": "我，我不再害怕了！",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
 						"englishNote": ""
 					}
 				}
