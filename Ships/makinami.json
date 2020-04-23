@@ -1,19 +1,18 @@
 {
-	"name_reference": "makinami",
-	"cn_reference": "juanbo",
-	"nameJP": "巻波",
-	"nameCN": "卷波",
-	"ID": "370",
-	"name": "Makinami",
-	"internal_id": "301801",
-	"rarity": "Elite",
-	"initialStar": "★★☆☆☆",
-	"hull": "Destroyer",
-	"navy": "Sakura Empire",
-	"prefix": "IJN",
-	"buildTime": "",
-	"class": "Yuugumo-Class",
-	"voiceActress": "Rui Tanabe",
+	"name_reference" : "makinami",
+	"cn_reference" : "juanbo",
+	"nameJP" : "巻波",
+	"nameCN" : "卷波",
+	"ID" : "370",
+	"name" : "Makinami",
+	"internal_id" : "301801",
+	"rarity" : "Elite",
+	"initialStar" : "★★☆☆☆",
+	"hull" : "Destroyer",
+	"navy" : "Sakura Empire",
+	"prefix" : "IJN",
+	"buildTime" : "N/A",
+	"voiceActress" : "Rui Tanabe",
 	"parameters": {
 		"firepower": "D",
 		"torpedo": "A",
@@ -23,167 +22,199 @@
 		"hp": "C"
 	},
 	"scrap": {
-		"gold": "4",
-		"oil": "3",
-		"medal": "4"
+		"gold" : "4",
+		"oil" : "3",
+		"medal" : "4"
 	},
 	"releaseDate": {
-		"JP": "",
-		"CN": "",
-		"KR": "",
-		"EN": ""
+		"JP" : "January 17, 2019",
+		"CN" : "January 17, 2019",
+		"KR" : "January 17, 2019",
+		"EN" : "January 17, 2019"
 	},
 	"artist": {
-		"name": "",
-		"weibo": "",
-		"twitter": "",
-		"pixiv": "",
-		"other": ""
+		"name" : "PHI",
+		"weibo" : "https://www.weibo.com/208827897",
+		"twitter" : "https://twitter.com/phi_owo",
+		"pixiv" : "https://www.pixiv.net/member.php?id=272220",
+		"other" : ""
 	},
+	"class" : "Yuugumo-Class",
 	"enhance": {
-		"firepower": "4",
-		"torpedo": "33",
-		"aviation": "0",
-		"reload": "15"
+		"firepower" : "4",
+		"torpedo" : "33",
+		"aviation" : "0",
+		"reload" : "15"
 	},
-	"acquisitionMethod": "Event: Crimson Echoes",
+	"acquisitionMethod" : "Event: Crimson Echoes",
 	"skill": {
-		"1": {
-			"icon": "2011",
-			"requirement": "",
-			"name": "Full Firepower",
-			"type": "Offensive",
-			"description": "$1 chance to activate every 20s: increases this ship's FP by $2 for 10s."
+		"1" : {
+			"icon" : "2011",
+			"requirement" : "Default Unlocked",
+			"name" : "Full Firepower",
+			"type" : "Offensive",
+			"description" : "Every 20s: 30% (60%) chance to increase this ship's FP by 20% (40%) for 10s."
 		},
-		"2": {
-			"icon": "2051",
-			"requirement": "",
-			"name": "Double Torpedo",
-			"type": "Offensive",
-			"description": "When this ship fires its Torpedoes: $1 chance to launch a second wave of Torpedoes."
+		"2" : {
+			"icon" : "2051",
+			"requirement" : "Default Unlocked",
+			"name" : "Double Torpedo",
+			"type" : "Offensive",
+			"description" : "When this ship fires its Torpedoes: 15% (30%) chance to launch a second wave of Torpedoes."
 		},
-		"3": {
-			"icon": "22056",
-			"requirement": "",
-			"name": "All Out Assault Ⅰ",
-			"type": "Offensive",
-			"description": "Activate All Out Assault Ⅰ: Yugumo Class once every 15 times the main gun is fired."
+		"3" : {
+			"icon" : "22056",
+			"requirement" : "Limit Break I (III)",
+			"name" : "All Out Assault Ⅰ",
+			"type" : "Offensive",
+			"description" : "Activates All Out Assault Ⅰ: Yuugumo Class once every 15 times the Main Guns are fired."
 		}
 	},
 	"skin": {
-		"1": {
-			"id": "juanbo",
-			"name": "Makinami ",
-			"description": "Yuugumo-class destroyer number five – Makinami. ",
-			"expression": {
-				"0": {
-					"id": "0"
+		"1" : {
+			"id" : "juanbo",
+			"name" : "Makinami ",
+			"description" : "Yuugumo-class destroyer number five – Makinami. ",
+			"expression" : {
+				"0" : {
+					"id" : "0"
+				},
+				"1" : {
+					"id" : "1"
+				},
+				"2" : {
+					"id" : "2"
+				},
+				"3" : {
+					"id" : "3"
+				},
+				"4" : {
+					"id" : "4"
+				}
+			}
+		},
+		"2" : {
+			"id" : "juanbo_2",
+			"name" : "Time for School!",
+			"description" : "All right, everything looks good! I'm super excited and my batteries are fully charged! I'm heading out~!",
+			"expression" : {
+				"0" : {
+					"id" : "0"
+				},
+				"1" : {
+					"id" : "1"
+				},
+				"2" : {
+					"id" : "2"
+				},
+				"3" : {
+					"id" : "3"
 				}
 			}
 		}
 	},
 	"defaultEquipment": {
-		"1": {
-			"icon": "31200",
-			"rarity": "Common",
-			"name": "127mm Mounted Gun"
+		"1" : {
+			"icon" : "31200",
+			"rarity" : "Common",
+			"name" : "127mm Mounted Gun"
 		},
-		"2": {
-			"icon": "35200",
-			"rarity": "Rare",
-			"name": "Quadruple 610mm Torpedo"
+		"2" : {
+			"icon" : "35200",
+			"rarity" : "Rare",
+			"name" : "Quadruple 610mm Torpedo"
 		},
-		"3": {
-			"icon": "",
-			"rarity": "",
-			"name": ""
+		"3" : {
+			"icon" : "",
+			"rarity" : "",
+			"name" : ""
 		}
 	},
 	"stats": {
+		"base": {
+			"hp" : "348",
+			"firepower" : "13",
+			"torpedo" : "101",
+			"antiAir" : "29",
+			"aviation" : "0",
+			"reload" : "79",
+			"hit" : "69",
+			"evasion" : "71",
+			"speed" : "42",
+			"luck" : "40",
+			"asw" : "47",
+			"oxygen" : "0",
+			"ammo" : "0",
+			"cost" : "2",
+			"armor" : "Light"
+		},
 		"100": {
-			"hp": "1798",
-			"firepower": "61",
-			"torpedo": "478",
-			"antiAir": "135",
-			"aviation": "0",
-			"reload": "187",
-			"hit": "180",
-			"evasion": "185",
-			"speed": "42",
-			"luck": "40",
-			"asw": "174",
-			"oxygen": "0",
-			"ammo": "0",
-			"cost": "9",
-			"armor": "Light"
+			"hp" : "1798",
+			"firepower" : "61",
+			"torpedo" : "478",
+			"antiAir" : "135",
+			"aviation" : "0",
+			"reload" : "187",
+			"hit" : "180",
+			"evasion" : "185",
+			"speed" : "42",
+			"luck" : "40",
+			"asw" : "174",
+			"oxygen" : "0",
+			"ammo" : "0",
+			"cost" : "9",
+			"armor" : "Light"
 		},
 		"120": {
-			"hp": "2157",
-			"firepower": "70",
-			"torpedo": "526",
-			"antiAir": "156",
-			"aviation": "0",
-			"reload": "215",
-			"hit": "189",
-			"evasion": "191",
-			"speed": "42",
-			"luck": "40",
-			"asw": "193",
-			"oxygen": "0",
-			"ammo": "0",
-			"cost": "9",
-			"armor": "Light"
-		},
-		"base": {
-			"hp": "348",
-			"firepower": "13",
-			"torpedo": "101",
-			"antiAir": "29",
-			"aviation": "0",
-			"reload": "79",
-			"hit": "69",
-			"evasion": "71",
-			"speed": "42",
-			"luck": "40",
-			"asw": "47",
-			"oxygen": "0",
-			"ammo": "0",
-			"cost": "2",
-			"armor": "Light"
+			"hp" : "2157",
+			"firepower" : "70",
+			"torpedo" : "526",
+			"antiAir" : "156",
+			"aviation" : "0",
+			"reload" : "215",
+			"hit" : "189",
+			"evasion" : "191",
+			"speed" : "42",
+			"luck" : "40",
+			"asw" : "193",
+			"oxygen" : "0",
+			"ammo" : "0",
+			"cost" : "9",
+			"armor" : "Light"
 		},
 		"100retrofit": {
-			"hp": "",
-			"firepower": "",
-			"torpedo": "",
-			"antiAir": "",
-			"aviation": "",
-			"reload": "",
-			"hit": "",
-			"evasion": "",
-			"speed": "42",
-			"luck": "40",
-			"asw": "",
-			"oxygen": "0",
-			"ammo": "0",
-			"cost": "9",
-			"armor": "Light"
+			"hp" : "",
+			"firepower" : "",
+			"torpedo" : "",
+			"antiAir" : "",
+			"aviation" : "",
+			"reload" : "",
+			"hit" : "",
+			"evasion" : "",
+			"speed" : "42",
+			"luck" : "40",
+			"asw" : "",
+			"oxygen" : "0",
+			"ammo" : "0",
+			"cost" : "9",
+			"armor" : "Light"
 		},
 		"120retrofit": {
-			"hp": "",
-			"firepower": "",
-			"torpedo": "",
-			"antiAir": "",
-			"aviation": "",
-			"reload": "",
-			"hit": "",
-			"evasion": "",
-			"speed": "42",
-			"luck": "40",
-			"asw": "",
-			"oxygen": "0",
-			"ammo": "0",
-			"cost": "9",
-			"armor": "Light"
+			"hp" : "",
+			"firepower" : "",
+			"torpedo" : "",
+			"antiAir" : "",
+			"aviation" : "",
+			"reload" : "",
+			"hit" : "",
+			"evasion" : "",
+			"speed" : "42",
+			"luck" : "40",
+			"asw" : "",
+			"oxygen" : "0",
+			"ammo" : "0",
+			"cost" : "9",
+			"armor" : "Light"
 		}
 	},
 	"limitBreak": {
@@ -211,17 +242,30 @@
 			"preload": "0/0/0/0"
 		},
 		"4": {
-			"type": "Auxiliary",
+			"type": "Auxilary",
 			"efficiency": "-",
 			"amount": "-",
 			"preload": "-"
 		},
 		"5": {
-			"type": "Auxiliary",
+			"type": "Auxilary",
 			"efficiency": "-",
 			"amount": "-",
 			"preload": "-"
 		}
+	},
+	"fleet_tech": {
+		"pt_get": "8",
+		"add_get_attr": "HP",
+		"add_get_value": "1",
+		"add_get_shiptype": "Destroyer",
+		"pt_upgrade": "17",
+		"pt_level": "13",
+		"add_level_attr": "Torpedo",
+		"add_level_value": "1",
+		"add_level_shiptype": "Destroyer",
+		"t_level": "8",
+		"ships": "makinami,kiyonami,naganami"
 	},
 	"build": {
 		"light": {
@@ -267,361 +311,511 @@
 	"lines": {
 		"skin": {
 			"1": {
-				"skin_id": "juanbo",
-				"id": "0",
-				"label": "Makinami ",
-				"dialogue": {
-					"1": {
-						"event": "Ship Description",
-						"media": "",
-						"chinese": "夕云级驱逐舰五番舰—卷波",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "夕雲型駆逐艦五番艦・巻波",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "Yuugumo-class destroyer number five – Makinami.",
-						"englishNote": ""
+				"skin_id" : "juanbo",
+				"id" : "0",
+				"label" : "Makinami ",
+				"dialogue" : {
+					"1" : {
+						"event" : "Ship Description",
+						"media" : "",
+						"chinese" : "夕云级驱逐舰五番舰—卷波",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "夕雲型駆逐艦五番艦・巻波",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Yuugumo-class destroyer number five – Makinami.",
+						"englishNote" : ""
 					},
-					"2": {
-						"event": "Biography",
-						"media": "profile",
-						"chinese": "隶属于31驱逐队的夕云级五妹。护卫过金刚、榛名并参与了太平洋上的诸多行动……嘿嘿~塔萨法隆格中，我们可是让白鹰吃了大苦头哟！？",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "第三一駆逐隊所属、夕雲型の五番艦の巻波よ。金剛さんと榛名さんの護衛として、太平洋での多くの戦いに参加したの！……えへへ～ルンガ沖夜戦ではユニオンをぼこぼこにしたよ？",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "I'm Makinami, I belonged to Destroyer Division 31. Serving as Kongou-san's and Haruna-san's escort, I helped in tons of battles in the Pacific! ...Hehehe~ I gave the Eagle Union a real beating in the Battle of Tassafaronga!",
-						"englishNote": ""
+					"2" : {
+						"event" : "Biography",
+						"media" : "profile",
+						"chinese" : "隶属于31驱逐队的夕云级五妹。护卫过金刚、榛名并参与了太平洋上的诸多行动……嘿嘿~塔萨法隆格中，我们可是让白鹰吃了大苦头哟！？",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "第三一駆逐隊所属、夕雲型の五番艦の巻波よ。金剛さんと榛名さんの護衛として、太平洋での多くの戦いに参加したの！……えへへ～ルンガ沖夜戦ではユニオンをぼこぼこにしたよ？",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "I'm Makinami, I belonged to Destroyer Division 31. Serving as Kongou-san's and Haruna-san's escort, I helped in tons of battles in the Pacific! ...Hehehe~ I gave the Eagle Union a real beating in the Battle of Tassafaronga!",
+						"englishNote" : ""
 					},
-					"3": {
-						"event": "Acquisition",
-						"media": "get",
-						"chinese": "夕云级驱逐舰卷波，跨越波涛而来~指挥官，可要好好招待我哟~",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "夕雲型駆逐艦巻波、波を越えて着任したよ！指揮官、ちゃんとわたしの面倒をみてね！",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "I'm Makinami, the Yuugumo-class destroyer! I surfed the waves to come here! I'll be counting on you, Commander!",
-						"englishNote": ""
+					"3" : {
+						"event" : "Acquisition",
+						"media" : "get",
+						"chinese" : "夕云级驱逐舰卷波，跨越波涛而来~指挥官，可要好好招待我哟~",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "夕雲型駆逐艦巻波、波を越えて着任したよ！指揮官、ちゃんとわたしの面倒をみてね！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "I'm Makinami, the Yuugumo-class destroyer! I surfed the waves to come here! I'll be counting on you, Commander!",
+						"englishNote" : ""
 					},
-					"4": {
-						"event": "Login",
-						"media": "login",
-						"chinese": "指挥官，脸色不要那么凝重，乐观、乐观一点~",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "指揮官ったら重い表情をしない！ポジティブポジティブ！",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "C'mon, stop being so blue and be positively positive!",
-						"englishNote": ""
+					"4" : {
+						"event" : "Login",
+						"media" : "login",
+						"chinese" : "指挥官，脸色不要那么凝重，乐观、乐观一点~",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "指揮官ったら重い表情をしない！ポジティブポジティブ！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "C'mon, stop being so blue and be positively positive!",
+						"englishNote" : ""
 					},
-					"5": {
-						"event": "Details",
-						"media": "detail",
-						"chinese": "一直从事物资运输？不要那么说嘛，我也有好好战斗过啦！",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "ずっと輸送任務だったって？せ、戦闘もやったもん！",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "You've heard I've only been on transport missions? No, I-I've totally fought before too!",
-						"englishNote": ""
+					"5" : {
+						"event" : "Details",
+						"media" : "detail",
+						"chinese" : "一直从事物资运输？不要那么说嘛，我也有好好战斗过啦！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "ずっと輸送任務だったって？せ、戦闘もやったもん！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "You've heard I've only been on transport missions? No, I-I've totally fought before too!",
+						"englishNote" : ""
 					},
-					"6": {
-						"event": "Main 1",
-						"media": "main_1",
-						"chinese": "金刚姐和榛名姐对我都很温柔，指挥官，你也向她们学习一下嘛",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "金剛さんと榛名さんはわたしに優しいのに…指揮官も見習ってよー",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "Kongou-san and Haruna-san were so nice to me... You should be too, Commander!",
-						"englishNote": ""
+					"6" : {
+						"event" : "Main 1",
+						"media" : "main_1",
+						"chinese" : "金刚姐和榛名姐对我都很温柔，指挥官，你也向她们学习一下嘛",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "金剛さんと榛名さんはわたしに優しいのに…指揮官も見習ってよー",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Kongou-san and Haruna-san were so nice to me... You should be too, Commander!",
+						"englishNote" : ""
 					},
-					"7": {
-						"event": "Main 2",
-						"media": "main_2",
-						"chinese": "鼠运输……那种事情一点都不好玩！ ",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "ネズミ輸送……全然笑えるものじゃなかったのね……",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "Doing Tokyo Express runs... wasn't any fun at all...",
-						"englishNote": ""
+					"7" : {
+						"event" : "Main 2",
+						"media" : "main_2",
+						"chinese" : "鼠运输……那种事情一点都不好玩！ ",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "ネズミ輸送……全然笑えるものじゃなかったのね……",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Doing Tokyo Express runs... wasn't any fun at all...",
+						"englishNote" : ""
 					},
-					"8": {
-						"event": "Main 3",
-						"media": "main_3",
-						"chinese": "夜里就是我们第二水雷战队的天下！",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "夜戦は二水戦のドクセンジョウだからね！",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "Night battles are what Desron 2 do better than anyone else!",
-						"englishNote": ""
+					"8" : {
+						"event" : "Main 3",
+						"media" : "main_3",
+						"chinese" : "夜里就是我们第二水雷战队的天下！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "夜戦は二水戦のドクセンジョウだからね！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Night battles are what Desron 2 do better than anyone else!",
+						"englishNote" : ""
 					},
-					"9": {
-						"event": "Touch",
-						"media": "touch_1",
-						"chinese": "那个，指挥官……我可没在偷懒噢……呀！！！",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "あのぉ、指揮官……別にサボって……きゃう！？",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "Umm, Commander... I'm not slacking off on pur... Eeek?!",
-						"englishNote": ""
+					"9" : {
+						"event" : "Touch",
+						"media" : "touch_1",
+						"chinese" : "那个，指挥官……我可没在偷懒噢……呀！！！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "あのぉ、指揮官……別にサボって……きゃう！？",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Umm, Commander... I'm not slacking off on pur... Eeek?!",
+						"englishNote" : ""
 					},
-					"10": {
-						"event": "Touch (Special)",
-						"media": "touch_2",
-						"chinese": "指挥官，为什么突然紧紧抱住我！？",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "わわ、急に抱きついてどうしたの！？",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "Commander, why are you suddenly glomping me?!",
-						"englishNote": ""
+					"10" : {
+						"event" : "Touch (Special)",
+						"media" : "touch_2",
+						"chinese" : "指挥官，为什么突然紧紧抱住我！？",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "わわ、急に抱きついてどうしたの！？",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Commander, why are you suddenly glomping me?!",
+						"englishNote" : ""
 					},
-					"11": {
-						"event": "Touch (Head)",
-						"media": "touch_head",
-						"chinese": "指挥官是想给我换个发型吗？",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "指揮官はわたしの髪型を変えてほしいの…？",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "Do you want to do my hair...?",
-						"englishNote": ""
+					"11" : {
+						"event" : "Rub",
+						"media" : "touch_head",
+						"chinese" : "指挥官是想给我换个发型吗？",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "指揮官はわたしの髪型を変えてほしいの…？",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Do you want to do my hair...?",
+						"englishNote" : ""
 					},
-					"12": {
-						"event": "Mission",
-						"media": "task",
-						"chinese": "啊啊，又有新任务了呢……",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "ああ、また任務が来たのね……",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "Oh, we've got another mission...",
-						"englishNote": ""
+					"12" : {
+						"event" : "Mission",
+						"media" : "task",
+						"chinese" : "啊啊，又有新任务了呢……",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "ああ、また任務が来たのね……",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Oh, we've got another mission...",
+						"englishNote" : ""
 					},
-					"13": {
-						"event": "Mission Complete",
-						"media": "mission_complete",
-						"chinese": "呀吼！完成啦，完成啦！",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "やっほー完了だ完了だ！",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "Heeey! A commission's done!",
-						"englishNote": ""
+					"13" : {
+						"event" : "Mission Complete",
+						"media" : "mission_complete",
+						"chinese" : "呀吼！完成啦，完成啦！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "やっほー完了だ完了だ！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Heeey! A commission's done!",
+						"englishNote" : ""
 					},
-					"14": {
-						"event": "Mail",
-						"media": "mail",
-						"chinese": "欸欸……指挥官，能念一下上面的字吗？",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "ええと……指揮官、何が書いてあるか読んでもらっていい…？",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "Hey, Commander... Can you read what's written in this letter for me...?",
-						"englishNote": ""
+					"14" : {
+						"event" : "Mail",
+						"media" : "mail",
+						"chinese" : "欸欸……指挥官，能念一下上面的字吗？",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "ええと……指揮官、何が書いてあるか読んでもらっていい…？",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Hey, Commander... Can you read what's written in this letter for me...?",
+						"englishNote" : ""
 					},
-					"15": {
-						"event": "Return to Port",
-						"media": "home",
-						"chinese": "大家回来啦！嘿嘿，欢迎~欢迎~",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "みんな帰ってきたね！えへへ、おかえりおかえり～",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "The team has returned! Hehehe~ Welcome back, everyone~",
-						"englishNote": ""
+					"15" : {
+						"event" : "Return to Port",
+						"media" : "home",
+						"chinese" : "大家回来啦！嘿嘿，欢迎~欢迎~",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "みんな帰ってきたね！えへへ、おかえりおかえり～",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "The team has returned! Hehehe~ Welcome back, everyone~",
+						"englishNote" : ""
 					},
-					"16": {
-						"event": "Commission Complete",
-						"media": "expedition",
-						"chinese": "小看军事委托会吃大苦头的！",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "軍事委託を甘く見たら大変なことになるよ！",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "If you don't take commissions seriously then you'll be in serious trouble!",
-						"englishNote": ""
+					"16" : {
+						"event" : "Commission Complete",
+						"media" : "expedition",
+						"chinese" : "小看军事委托会吃大苦头的！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "軍事委託を甘く見たら大変なことになるよ！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "If you don't take commissions seriously then you'll be in serious trouble!",
+						"englishNote" : ""
 					},
-					"17": {
-						"event": "Enhancement",
-						"media": "upgrade",
-						"chinese": "呼呼，变强啦！",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "ふっふん、強くなっちゃった！",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "Heh heh~ I feel stronger!",
-						"englishNote": ""
+					"17" : {
+						"event" : "Enhancement",
+						"media" : "upgrade",
+						"chinese" : "呼呼，变强啦！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "ふっふん、強くなっちゃった！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Heh heh~ I feel stronger!",
+						"englishNote" : ""
 					},
-					"18": {
-						"event": "Flagship",
-						"media": "warcry",
-						"chinese": "嘻嘻，轮到我指挥了！",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "えへへ～わたしが指揮を取る番よ！",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "Hehehe~ Now it's my turn to take command!",
-						"englishNote": ""
+					"18" : {
+						"event" : "Flagship",
+						"media" : "warcry",
+						"chinese" : "嘻嘻，轮到我指挥了！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "えへへ～わたしが指揮を取る番よ！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Hehehe~ Now it's my turn to take command!",
+						"englishNote" : ""
 					},
-					"19": {
-						"event": "Victory",
-						"media": "mvp",
-						"chinese": "果然我是最棒的~",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "やっぱりわたしが一番だよね～",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "I'm just the best ship ever~",
-						"englishNote": ""
+					"19" : {
+						"event" : "Victory",
+						"media" : "mvp",
+						"chinese" : "果然我是最棒的~",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "やっぱりわたしが一番だよね～",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "I'm just the best ship ever~",
+						"englishNote" : ""
 					},
-					"20": {
-						"event": "Defeat",
-						"media": "lose",
-						"chinese": "只能把希望留给下次了……",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "次に希望を託すしかない……",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "All we can do is place our hopes on the next one... ",
-						"englishNote": ""
+					"20" : {
+						"event" : "Defeat",
+						"media" : "lose",
+						"chinese" : "只能把希望留给下次了……",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "次に希望を託すしかない……",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "All we can do is place our hopes on the next one... ",
+						"englishNote" : ""
 					},
-					"21": {
-						"event": "Skill",
-						"media": "skill",
-						"chinese": "收下我的“礼物”吧！",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "わたしからのプレゼントよ～！",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "Here's a present from me~!",
-						"englishNote": ""
+					"21" : {
+						"event" : "Skill",
+						"media" : "skill",
+						"chinese" : "收下我的“礼物”吧！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "わたしからのプレゼントよ～！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Here's a present from me~!",
+						"englishNote" : ""
 					},
-					"22": {
-						"event": "Low HP",
-						"media": "hp",
-						"chinese": "撤、撤退吧！",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "て、撤退しよう！？",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "C-could we retreat?!",
-						"englishNote": ""
+					"22" : {
+						"event" : "Low HP",
+						"media" : "hp",
+						"chinese" : "撤、撤退吧！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "て、撤退しよう！？",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "C-could we retreat?!",
+						"englishNote" : ""
 					},
-					"23": {
-						"event": "Affinity (Upset)",
-						"media": "feeling1",
-						"chinese": "欸……不要来烦我",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "ちぇ。……構わないでよ",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "Hmph. ...Leave me alone.",
-						"englishNote": ""
+					"23" : {
+						"event" : "Affinity (Upset)",
+						"media" : "feeling1",
+						"chinese" : "欸……不要来烦我",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "ちぇ。……構わないでよ",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Hmph. ...Leave me alone.",
+						"englishNote" : ""
 					},
-					"24": {
-						"event": "Affinity (Stranger)",
-						"media": "feeling2",
-						"chinese": "这么好的天气，不出去玩实在太浪费了！呐，是吧！？",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "いい天気だしお出かけしないと損だよ！ね？いいでしょ～",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "It'd be a shame to not go out and play on a sunny day like this! Right? Let's head out~",
-						"englishNote": ""
+					"24" : {
+						"event" : "Affinity (Stranger)",
+						"media" : "feeling2",
+						"chinese" : "这么好的天气，不出去玩实在太浪费了！呐，是吧！？",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "いい天気だしお出かけしないと損だよ！ね？いいでしょ～",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "It'd be a shame to not go out and play on a sunny day like this! Right? Let's head out~",
+						"englishNote" : ""
 					},
-					"25": {
-						"event": "Affinity (Friendly)",
-						"media": "feeling3",
-						"chinese": "呜呜，又摔跤了……指挥官，能背我回去吗？",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "うぅ…また転んじゃった……指揮官、おんぶして連れて帰ってもらっていい…？",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "Oww... I tripped again... Can you give me a piggyback ride back home, Commander...?",
-						"englishNote": ""
+					"25" : {
+						"event" : "Affinity (Friendly)",
+						"media" : "feeling3",
+						"chinese" : "呜呜，又摔跤了……指挥官，能背我回去吗？",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "うぅ…また転んじゃった……指揮官、おんぶして連れて帰ってもらっていい…？",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Oww... I tripped again... Can you give me a piggyback ride back home, Commander...?",
+						"englishNote" : ""
 					},
-					"26": {
-						"event": "Affinity (Like)",
-						"media": "feeling4",
-						"chinese": "好啦好啦，以后我走路会好好看前面，不再随便跑跳……指挥官，每次都念叨这些你不觉得烦吗？",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "わかったよ…これからはちゃんと前を見て歩いて、はしゃがないって……もう、指揮官っていつもこんなのばかりでつまらなく思わないの…？",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "Fine... I'll start looking where I'm going and not run and jump so much... Doesn't it get boring for you, always walking like that...?",
-						"englishNote": ""
+					"26" : {
+						"event" : "Affinity (Like)",
+						"media" : "feeling4",
+						"chinese" : "好啦好啦，以后我走路会好好看前面，不再随便跑跳……指挥官，每次都念叨这些你不觉得烦吗？",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "わかったよ…これからはちゃんと前を見て歩いて、はしゃがないって……もう、指揮官っていつもこんなのばかりでつまらなく思わないの…？",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Fine... I'll start looking where I'm going and not run and jump so much... Doesn't it get boring for you, always walking like that...?",
+						"englishNote" : ""
 					},
-					"27": {
-						"event": "Affinity (Love)",
-						"media": "feeling5",
-						"chinese": "这、这就是公主抱吗！？嘿嘿……但我还是觉得指挥官的后背更舒服——",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "こ、これがお姫様抱っこ！？え、えへへ……でもわたし、やっぱり指揮官におんぶしてもらったほうが気持ちいいと思うけどな……",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "I-is this a bride carry?! H-hehehe... But I still think I prefer your piggyback rides...",
-						"englishNote": ""
+					"27" : {
+						"event" : "Affinity (Love)",
+						"media" : "feeling5",
+						"chinese" : "这、这就是公主抱吗！？嘿嘿……但我还是觉得指挥官的后背更舒服——",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "こ、これがお姫様抱っこ！？え、えへへ……でもわたし、やっぱり指揮官におんぶしてもらったほうが気持ちいいと思うけどな……",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "I-is this a bride carry?! H-hehehe... But I still think I prefer your piggyback rides...",
+						"englishNote" : ""
 					},
-					"28": {
-						"event": "Pledge",
-						"media": "propose",
-						"chinese": "嘿嘿~如果以后指挥官受伤了，我一定也会拼命把你背回来的！所以，现在，能先背背我吗？嘻嘻~",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "今度指揮官が怪我したら、わたしが絶対におんぶして連れて帰ってくるの！だから今はわたしのことをおんぶしてね？えへへ～",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "If you ever get hurt, I promise I'll carry YOU back home! So can you give me a piggyback ride now? Hehehe~",
-						"englishNote": ""
+					"28" : {
+						"event" : "Pledge",
+						"media" : "propose",
+						"chinese" : "嘿嘿~如果以后指挥官受伤了，我一定也会拼命把你背回来的！所以，现在，能先背背我吗？嘻嘻~",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "今度指揮官が怪我したら、わたしが絶対におんぶして連れて帰ってくるの！だから今はわたしのことをおんぶしてね？えへへ～",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "If you ever get hurt, I promise I'll carry YOU back home! So can you give me a piggyback ride now? Hehehe~",
+						"englishNote" : ""
+					},
+					"29" : {
+						"event" : "Like Present",
+						"media" : "present_like",
+						"chinese" : "",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"30" : {
+						"event" : "Dislike Present",
+						"media" : "present_dislike",
+						"chinese" : "",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"31" : {
+						"event" : "Main Title",
+						"media" : "extra",
+						"chinese" : "",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					}
+				}
+			},
+			"2": {
+				"skin_id" : "juanbo_2",
+				"id" : "1",
+				"label" : "Time for School!",
+				"dialogue" : {
+					"1" : {
+						"event" : "Ship Description",
+						"media" : "",
+						"chinese" : "好的，这样就万无一失了！体力满满，精神百分百，卷波，出发咯！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "よし、これで問題なし！体力満タン、元気百倍！巻波、いっきま～す！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "All right, everything looks good! I'm super excited and my batteries are fully charged! I'm heading out~!",
+						"englishNote" : ""
+					},
+					"2" : {
+						"event" : "Acquisition",
+						"media" : "get_1",
+						"chinese" : "好的，这样就万无一失了！体力满满，精神百分百，卷波，出发咯！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "よし、これで問題なし！体力満タン、元気百倍！巻波、いっきま～す！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "All right, everything looks good! I'm super excited and my batteries are fully charged! I'm heading out~!",
+						"englishNote" : ""
+					},
+					"3" : {
+						"event" : "Login",
+						"media" : "login_1",
+						"chinese" : "那个那个，听说～学院里有好几个不可思议的传说呢！指挥官～一起去探索传说的真相嘛！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "あのねあのね、学園には不思議な言い伝えがあるって聞いちゃったの！指揮官、一緒に確かめに行こうよ！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Hey, listen! I've heard there are these cool legendary things at school! Let's go check if they're true or not!",
+						"englishNote" : ""
+					},
+					"4" : {
+						"event" : "Details",
+						"media" : "detail_1",
+						"chinese" : "今天跑步的时候又不小心摔跤了……不过有滨风的帮助，现在已经不疼了呢！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "今日走った時また転んじゃったよ……でも浜風が助けてくれたから、もうだいじょうぶだよ！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "I was running earlier and tripped on something... But Hamakaze helped me back up, and now I feel fine!",
+						"englishNote" : ""
+					},
+					"5" : {
+						"event" : "Main 1",
+						"media" : "main_1_1",
+						"chinese" : "啊，是榛名姐！榛名姐——！我们一起跑步去教室吧！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "あ、榛名さんだ！榛名さーん――！一緒に教室に行こ～！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Oh, it's Haruna! Hey, Harunaaaaa! Let's head to the classroom together~",
+						"englishNote" : ""
+					},
+					"6" : {
+						"event" : "Main 2",
+						"media" : "main_2_1",
+						"chinese" : "对了对了，指挥官，我们来交换便当的配菜吧！指挥官的便当都有些什么呢~",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "そうだ！指揮官、お弁当のおかずを交換しよ～！指揮官のお弁当には何が入ってるのかな～",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Hey, I know! We can trade snacks with each other, Commander! Lemme see what you brought for lunch~!",
+						"englishNote" : ""
+					},
+					"7" : {
+						"event" : "Main 3",
+						"media" : "main_3_1",
+						"chinese" : "欸？晚上没有安排活动吗？要不…我们自己想一个吧！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "ええ？なんで夜にイベントがないの？それじゃあ……わたしたちで考えてみよっか！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Huh? You don't have any evening plans? In that case... Let's come up with something to do!",
+						"englishNote" : ""
+					},
+					"8" : {
+						"event" : "Touch",
+						"media" : "touch_1_1",
+						"chinese" : "指挥官的课外辅导？嘻嘻，很期待呢！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "指揮官の課外授業？へへ、期待してるよ！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "You're gonna give me extra lessons, Commander? Hehe~ That sounds like fun!",
+						"englishNote" : ""
+					},
+					"9" : {
+						"event" : "Touch (Special)",
+						"media" : "touch_2_1",
+						"chinese" : "难，难道说，接下来就是……那，那种展开？！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "ま、まさか、ここからは……そ、そういう展開なの！？",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "W-wait, is this... Th-that \"student and teacher\" thing...?!",
+						"englishNote" : ""
+					},
+					"10" : {
+						"event" : "Return to Port",
+						"media" : "home_1",
+						"chinese" : "啊，好像快上课了！笔记本，笔记本笔记本……咦，放到哪里去了？",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "あっ、もうすぐ授業だ！ノート、ノートノート……あれ？どこにいったの？",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Oh right, it's almost time for class! I'm gonna need my notepad... Wait, huh? Where'd it go?",
+						"englishNote" : ""
 					}
 				}
 			}
 		}
-	},
-	"fleet_tech": {
-		"pt_get": "8",
-		"add_get_attr": "HP",
-		"add_get_value": "1",
-		"add_get_shiptype": "Destroyer",
-		"pt_upgrade": "17",
-		"pt_level": "13",
-		"add_level_attr": "Torpedo",
-		"add_level_value": "1",
-		"add_level_shiptype": "Destroyer",
-		"t_level": "8",
-		"ships": "makinami"
 	}
 }

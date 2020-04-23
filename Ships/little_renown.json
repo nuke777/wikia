@@ -1,0 +1,653 @@
+{
+	"name_reference" : "little_renown",
+	"cn_reference" : "shengwang_younv",
+	"nameJP" : "リトル・レナウン",
+	"nameCN" : "小声望",
+	"ID" : "451",
+	"name" : "Renown",
+	"internal_id" : "204041",
+	"rarity" : "Elite",
+	"initialStar" : "★★☆☆☆",
+	"hull" : "Battlecruiser",
+	"navy" : "Royal Navy",
+	"prefix" : "HMS",
+	"buildTime" : "N/A",
+	"parameters": {
+		"firepower" : "",
+		"torpedo" : "",
+		"aviation" : "",
+		"evasion" : "",
+		"antiAir" : "",
+		"hp" : ""
+	},
+	"scrap": {
+		"gold" : "10",
+		"oil" : "3",
+		"medal" : "4"
+	},
+	"releaseDate": {
+		"JP" : "April 23, 2020",
+		"CN" : "April 23, 2020",
+		"KR" : "April 23, 2020",
+		"EN" : "April 23, 2020"
+	},
+	"artist": {
+		"name" : "",
+		"weibo" : "",
+		"twitter" : "",
+		"pixiv" : "",
+		"other" : ""
+	},
+	"enhance": {
+		"firepower" : "43",
+		"torpedo" : "0",
+		"aviation" : "0",
+		"reload" : "11"
+	},
+	"acquisitionMethod" : "Event: Little Royal Knight",
+	"skill": {
+		"1" : {
+			"icon" : "13200",
+			"requirement" : "Default Unlocked",
+			"name" : "Knight's Shooting Training",
+			"type" : "Offensive",
+			"description" : "Decreases the loading time of this ship's first 3 Salvos by 40.0%, but DMG dealt will be changed to 40.0%, 60.0% (80.0%), and 100.0% (120.0%) each. From the 4th Salvo onwards: this ship deals 100.0% (120.0%) DMG with its Salvoes."
+		},
+		"2" : {
+			"icon" : "13210",
+			"requirement" : "Default Unlocked",
+			"name" : "Knight's Formation Drill",
+			"type" : "Support",
+			"description" : "At the start of the battle: increases this ship's FP, RLD, and Accuracy by 1.0% (5.0%) for every Royal Navy ship in the same fleet. Can be stacked up to 4 times."
+		}
+	},
+	"skin": {
+		"1" : {
+			"id" : "shengwang_younv",
+			"name" : "Little Renown ",
+			"description" : "Renown-Class Battlecruiser - HMS Renown ",
+			"expression" : {
+				"0" : {
+					"id" : "0"
+				},
+				"1" : {
+					"id" : "1"
+				},
+				"2" : {
+					"id" : "2"
+				},
+				"3" : {
+					"id" : "3"
+				},
+				"4" : {
+					"id" : "4"
+				}
+			}
+		}
+	},
+	"defaultEquipment": {
+		"1" : {
+			"icon" : "24100",
+			"rarity" : "Common",
+			"name" : "Twin 381mm Main Gun"
+		},
+		"2" : {
+			"icon" : "21200",
+			"rarity" : "Common",
+			"name" : "Triple 102mm Auxiliary Gun"
+		},
+		"3" : {
+			"icon" : "",
+			"rarity" : "",
+			"name" : ""
+		}
+	},
+	"stats": {
+		"base": {
+			"hp" : "1040",
+			"firepower" : "65",
+			"torpedo" : "0",
+			"antiAir" : "57",
+			"aviation" : "0",
+			"reload" : "56",
+			"hit" : "22",
+			"evasion" : "10",
+			"speed" : "32.58",
+			"luck" : "85",
+			"asw" : "0",
+			"oxygen" : "0",
+			"ammo" : "0",
+			"cost" : "5",
+			"armor" : "Medium"
+		},
+		"100": {
+			"hp" : "5377",
+			"firepower" : "305",
+			"torpedo" : "0",
+			"antiAir" : "266",
+			"aviation" : "0",
+			"reload" : "133",
+			"hit" : "56",
+			"evasion" : "26",
+			"speed" : "32.58",
+			"luck" : "85",
+			"asw" : "0",
+			"oxygen" : "0",
+			"ammo" : "0",
+			"cost" : "13",
+			"armor" : "Medium"
+		},
+		"120": {
+			"hp" : "6318",
+			"firepower" : "344",
+			"torpedo" : "0",
+			"antiAir" : "303",
+			"aviation" : "0",
+			"reload" : "153",
+			"hit" : "68",
+			"evasion" : "41",
+			"speed" : "32.58",
+			"luck" : "85",
+			"asw" : "0",
+			"oxygen" : "0",
+			"ammo" : "0",
+			"cost" : "13",
+			"armor" : "Medium"
+		},
+		"100retrofit": {
+			"hp" : "",
+			"firepower" : "",
+			"torpedo" : "",
+			"antiAir" : "",
+			"aviation" : "",
+			"reload" : "",
+			"hit" : "",
+			"evasion" : "",
+			"speed" : "32.58",
+			"luck" : "85",
+			"asw" : "",
+			"oxygen" : "0",
+			"ammo" : "0",
+			"cost" : "13",
+			"armor" : "Medium"
+		},
+		"120retrofit": {
+			"hp" : "",
+			"firepower" : "",
+			"torpedo" : "",
+			"antiAir" : "",
+			"aviation" : "",
+			"reload" : "",
+			"hit" : "",
+			"evasion" : "",
+			"speed" : "32.58",
+			"luck" : "85",
+			"asw" : "",
+			"oxygen" : "0",
+			"ammo" : "0",
+			"cost" : "13",
+			"armor" : "Medium"
+		}
+	},
+	"limitBreak": {
+		"tier1": "Main gun base +1/Main gun efficiency +5%",
+		"tier2": "Auxiliary gun base +2/Main gun efficiency +10%",
+		"tier3": "Main gun base +1/Main gun efficiency +15%"
+	},
+	"equipmentLoadout": {
+		"1": {
+			"type": "Battleship",
+			"efficiency": "105%/110%/120%/135%",
+			"amount": "1/1/1/1",
+			"preload": "0/0/0/0"
+		},
+		"2": {
+			"type": "Destroyer Gun",
+			"efficiency": "150%/150%/150%/150%",
+			"amount": "1/1/3/3",
+			"preload": "0/0/0/0"
+		},
+		"3": {
+			"type": "Anti-Air Gun",
+			"efficiency": "70%/70%/70%/70%",
+			"amount": "1/1/1/1",
+			"preload": "0/0/0/0"
+		},
+		"4": {
+			"type": "Auxilary",
+			"efficiency": "-",
+			"amount": "-",
+			"preload": "-"
+		},
+		"5": {
+			"type": "Auxilary",
+			"efficiency": "-",
+			"amount": "-",
+			"preload": "-"
+		}
+	},
+	"build": {
+		"light": {
+			"JP": "",
+			"CN": "",
+			"EN": ""
+		},
+		"heavy": {
+			"JP": "",
+			"CN": "",
+			"EN": ""
+		},
+		"special": {
+			"JP": "",
+			"CN": "",
+			"EN": ""
+		},
+		"limited": {
+			"JP": "",
+			"CN": "",
+			"EN": ""
+		}
+	},
+	"drop": {
+		"droppable": "false",
+		"list": {
+			"1": {
+				"event": "",
+				"chapter": {
+					"1": {
+						"label": "Ch .1",
+						"node": {
+							"1": {
+								"drop": "✓",
+								"note": "-"
+							}
+						}
+					}
+				}
+			}
+		}
+	},
+	"lines": {
+		"skin": {
+			"1": {
+				"skin_id" : "shengwang_younv",
+				"id" : "0",
+				"label" : "Little Renown ",
+				"dialogue" : {
+					"1" : {
+						"event" : "Ship Description",
+						"media" : "",
+						"chinese" : "声望级战列巡洋舰—声望",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "レナウン級巡洋戦艦・レナウン (HMS Renown)",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Renown-Class Battlecruiser - HMS Renown ",
+						"englishNote" : ""
+					},
+					"2" : {
+						"event" : "Biography",
+						"media" : "profile",
+						"chinese" : "来此之前，我一直在法尔费德船厂磨练自己。能提前踏上战场是对我实力的肯定，我一定不会辜负大家期望的！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "ゴーヴァンにて鍛えられてきた巡洋戦艦、レナウンです！こうして戦えるようになったのは皆から実力を認められたため…はい！皆の期待をぜったいに裏切りません！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "I am the battlecruiser Renown, and I was training in Govan before coming here! Being able to weigh anchor ahead of schedule is a testament to my strength... Indeed! I will do my utmost to live up to everyone's expectations!",
+						"englishNote" : ""
+					},
+					"3" : {
+						"event" : "Acquisition",
+						"media" : "get",
+						"chinese" : "声望级战列巡洋舰声望，现在加入战斗序列！指挥官，虽然我现在还小，但我不会让您失望的！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "レナウン級巡洋戦艦、レナウン、戦闘序列に加わりました！体こそ小さいですけど、失望はさせませんよ！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "The Renown-class battlecruiser Renown has come to join your ranks! My stature may be small, but my desire to succeed is great!",
+						"englishNote" : ""
+					},
+					"4" : {
+						"event" : "Login",
+						"media" : "login",
+						"chinese" : "指挥官，声望正在待机中，请下达今天的命令吧！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "指揮官、待機中で暇を持て余しているレナウンです！今日のご命令をください！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Commander, Renown is awaiting your orders! Please issue today's commands!",
+						"englishNote" : ""
+					},
+					"5" : {
+						"event" : "Details",
+						"media" : "detail",
+						"chinese" : "指挥官，我找到了一本和骑士有关的书，但是上面有好多我不理解的内容，我可以向您请教吗？",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "ロイヤルナイトの本、分からないことがいっぱいです！指揮官、い、色々教えてもらっていいですか？",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "There are many things that I do not understand in the Codex of the Royal Knights! Commander, can you offer me any guidance?",
+						"englishNote" : ""
+					},
+					"6" : {
+						"event" : "Main 1",
+						"media" : "main_1",
+						"chinese" : "只要有我在，没有人可以伤到指挥官",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "レナウンがいる限り、指揮官は誰からも傷つけさせません！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "As long as Renown is here, no harm shall befall you, Commander! ",
+						"englishNote" : ""
+					},
+					"7" : {
+						"event" : "Main 2",
+						"media" : "main_2",
+						"chinese" : "认真的小声望很可爱吗？…嗯嗯，我会转告小声望的…唔嗯？",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "真面目なレナウンちゃんが可愛い…ですか？はい、そのレナウンちゃんに代わって指揮官に感謝しますーーほえ？",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "The serious and dedicated Little Renown is cute? I see, I'll be sure to pass on the message to... wait, what? ",
+						"englishNote" : ""
+					},
+					"8" : {
+						"event" : "Main 3",
+						"media" : "main_3",
+						"chinese" : "不光是指挥官，港区的大家都好厉害...我也要再加把劲才行！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "指揮官だけじゃなく、母港のみんなも凄いです！…レナウン、もっと頑張らないと…！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "It's not just you. Everyone here at port is truly amazing... I must redouble my efforts...!",
+						"englishNote" : ""
+					},
+					"9" : {
+						"event" : "Touch",
+						"media" : "touch_1",
+						"chinese" : "糖果？指挥官，我现在还不需要补充糖分",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "お菓子ですか？…レナウン、糖分の補給はまだ不要です！指揮官！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Candy? I'll have you know, Commander... Renown has no use for such things!",
+						"englishNote" : ""
+					},
+					"10" : {
+						"event" : "Touch (Special)",
+						"media" : "touch_2",
+						"chinese" : "指挥官，这种事是违反皇家海军纪律条例的！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "指揮官！これはロイヤルの規則に反します！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Commander! That's in violation of Royal etiquette!",
+						"englishNote" : ""
+					},
+					"11" : {
+						"event" : "Rub",
+						"media" : "touch_head",
+						"chinese" : "呜哇！？要干什么啊！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "むひゃ！？ま、何をするんですか！？",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Myahh?! Wh-what are you doing?!",
+						"englishNote" : ""
+					},
+					"12" : {
+						"event" : "Mission",
+						"media" : "task",
+						"chinese" : "指挥官，任务请放心交给我吧。哎？任务是由您来完成么？！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "指揮官、任務はレナウンにお任せください！あ、あれ？指揮官が受けるのですか？！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Commander, please allow Renown to handle the missions! H-huh? Commander, you're doing them all yourself?!",
+						"englishNote" : ""
+					},
+					"13" : {
+						"event" : "Mission Complete",
+						"media" : "mission_complete",
+						"chinese" : "嘿——咻，指挥官，我把任务奖励全都搬过来……哇啊啊啊啊！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "よいっしょ……し、しきかーん、にに、任務のほ、報酬をおおわああああ！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Heave-ho... C-Commander, the m-mission rewards are... wooooahhhh!!",
+						"englishNote" : ""
+					},
+					"14" : {
+						"event" : "Mail",
+						"media" : "mail",
+						"chinese" : "唔嗯，这份邮件是指挥官的，这份是指挥官的，这份也是指挥官的…",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "これは指揮官への。これも指揮官への…このメールも指揮官への……",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "This one's for you, Commander. This one's also for you... and this one too...",
+						"englishNote" : ""
+					},
+					"15" : {
+						"event" : "Return to Port",
+						"media" : "home",
+						"chinese" : "指挥官好厉害啊……如果我坚持努力下去，也能变得像指挥官一样厉害么？",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "指揮官は凄いですね…レナウンも頑張れば、きっと指揮官のように…なれるでしょうか？",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "You're not too bad, Commander... If Renown also works harder, will she be able to... be like you one day?",
+						"englishNote" : ""
+					},
+					"16" : {
+						"event" : "Commission Complete",
+						"media" : "expedition",
+						"chinese" : "指挥官，委托组会在10分钟之后返回，请……欸，我记错了吗？！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "指揮官！委託組、10分後に母港に帰還、とのこと…です！ま、間違っていませんよね…",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Commander! The commission fleet will return to port in ten minutes! Please... Wait, did I get the time wrong...?",
+						"englishNote" : ""
+					},
+					"17" : {
+						"event" : "Enhancement",
+						"media" : "upgrade",
+						"chinese" : "为了指挥官，我要变得更强！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "指揮官のために、もっと強くなるしょ…所存です！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "For the Commander's sake, I'm ready... to become stronger!",
+						"englishNote" : ""
+					},
+					"18" : {
+						"event" : "Flagship",
+						"media" : "warcry",
+						"chinese" : "皇家海军，见敌必战！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "ロイヤルネイビー、サーチ・アンド・デストロイ！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Royal Navy, search and destroy!",
+						"englishNote" : ""
+					},
+					"19" : {
+						"event" : "Victory",
+						"media" : "mvp",
+						"chinese" : "赢啦~！啊，不行不行。书上说，不能因为一场战斗的胜利而沾沾自喜...唔唔，要忍耐！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "やりまし…っていけません！一度の勝利で浮かれてはダメって教えに書いてありました！我慢、うぅ、我慢…！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "I've done it...! Wait, no! The books clearly teach that it is foolish to gloat over a single victory! Self control... self control...!",
+						"englishNote" : ""
+					},
+					"20" : {
+						"event" : "Defeat",
+						"media" : "lose",
+						"chinese" : "对不起，指挥官…",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "指揮官、ごめんなさい……",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "My apologies, Commander...",
+						"englishNote" : ""
+					},
+					"21" : {
+						"event" : "Skill",
+						"media" : "skill",
+						"chinese" : "声望，绝不退缩！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "レナウン、敵に背中を見せません！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "The enemy shall never see my back turned!",
+						"englishNote" : ""
+					},
+					"22" : {
+						"event" : "Low HP",
+						"media" : "hp",
+						"chinese" : "冲散你们！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "レナウン、蹴散らします！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Renown shall break your lines!",
+						"englishNote" : ""
+					},
+					"23" : {
+						"event" : "Affinity (Upset)",
+						"media" : "feeling1",
+						"chinese" : "指挥官，要振作起来！无论如何，我都是不会抛弃你的！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "指揮官、しっかりしてください！レナウンは指揮官を見捨てません！はい！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Commander, please get your act together! Renown shall not abandon you!",
+						"englishNote" : ""
+					},
+					"24" : {
+						"event" : "Affinity (Stranger)",
+						"media" : "feeling2",
+						"chinese" : "理论知识和实战技能都很重要。为了成为合格的皇家骑士，我每天都要磨练自己。指挥官也要一起来吗？",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "勉強も演習も大事…騎士隊の一員に相応しくなれるよう毎日頑張るのがか、ええと…肝心、です！指揮官も一緒にどうですか",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "I mustn't neglect my training or my studies... I'll do my utmost each day so that I may become a proper knight. Commander, do you want to follow this path as well?",
+						"englishNote" : ""
+					},
+					"25" : {
+						"event" : "Affinity (Friendly)",
+						"media" : "feeling3",
+						"chinese" : "休息和工作同样重要。就算以骑士的标准来看，指挥官每天也太辛苦了。这份工作结束之后，快去放松一下吧。",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "お仕事も大事ですけど、休憩も大事です！ロイヤルナイトと比べても指揮官は頑張りすぎです！この仕事が終わったら休んでください！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Work is important, but taking breaks is also important! Coming from a Royal Knight, you're overworking yourself! After you finish this, please make sure to get some rest!",
+						"englishNote" : ""
+					},
+					"26" : {
+						"event" : "Affinity (Like)",
+						"media" : "feeling4",
+						"chinese" : "指挥官，为什么书中的骑士一个又一个的离开了他们宣誓效忠的王呀。我和他们才不一样，只要立下了誓言，就算死也不会反悔哦。",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "指揮官、本の中の騎士たちはどうして王様から離れていったのでしょうか。レナウンはあの騎士たちとは違います！誓ったからには死んでも裏切りません！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Commander, why did the knights in that book betray their own king? Renown is nothing like those knights! I would never betray you even if it cost me my life!",
+						"englishNote" : ""
+					},
+					"27" : {
+						"event" : "Affinity (Love)",
+						"media" : "feeling5",
+						"chinese" : "指挥官，我可以一直留在指挥官的舰队里吗？因为我觉得在指挥官的身边我可以变得更强，而且我也很喜欢指挥官！……唔嗯？我说了什么奇怪的话吗？",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "では指揮官、レナウン、ずっとこの母港にいてもいいでしょうか？指揮官のそばにいると力が湧き上がりますし、何より指揮官のことをお慕いしております！……ん？レナウン、なにか変なことを言いましたのでしょうか…？",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "So, Commander, is it fine for Renown to always stay here? Being close to you gives me strength, and above else, my love for you is absolute! ...Huh? Did I say something weird...?",
+						"englishNote" : ""
+					},
+					"28" : {
+						"event" : "Pledge",
+						"media" : "propose",
+						"chinese" : "这一刻终于来临了么......我明白了。以声望之名起誓，我发誓善待弱者<be gentle unto the weak>，我发誓......哎？誓约不是立下骑士的誓言的意思么？那直接到最后一句，「我发誓对所爱至死不渝<be faithful in love>」。指挥官，我愿意哦~！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "誓いの指輪…わかりました！誓いですね！「ええと弱者をいじめず、勇気を持って行動して……」――あ、これを読めばいいですか？では――「苦しみも痛みも分かち合って、喜んで永遠の愛を捧げます」……指揮官、これでいいですか？",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "A promise ring? I know about this! Um, \"I pledge to defend the weak and act with valor...\" Oh, all I have to do is read this? Well then... \"through thick and thin, we shall share our pain and willingly give love eternal.\" ...Commander, does that sound right?",
+						"englishNote" : ""
+					},
+					"29" : {
+						"event" : "Like Present",
+						"media" : "present_like",
+						"chinese" : "",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"30" : {
+						"event" : "Dislike Present",
+						"media" : "present_dislike",
+						"chinese" : "",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"31" : {
+						"event" : "Main Title",
+						"media" : "extra",
+						"chinese" : "",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					}
+				}
+			}
+		}
+	}
+}
