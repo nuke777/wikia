@@ -12,7 +12,7 @@
 	"navy": "Royal Navy",
 	"prefix": "HMS",
 	"buildTime": "",
-	"class": "Swiftsure-Class",
+	"class": "Swiftsure-Class ",
 	"parameters": {
 		"firepower": "B",
 		"torpedo": "A",
@@ -45,19 +45,19 @@
 		"aviation": "0",
 		"reload": "13"
 	},
-	"acquisitionMethod": "Light Construction",
+	"acquisitionMethod": "Light ship Construction",
 	"skill": {
 		"1": {
 			"icon": "12300",
 			"requirement": "",
-			"name": "Swift Shoot",
+			"name": "Swift Shooting",
 			"type": "Defensive",
 			"description": "Upon AA gun activation, 10.0% (30.0%) to activate: Increase Fleet AA by 10.0% (30.0%) for 10 seconds; At every 5 enemy planes that are shot down, increase own FP by 1% and reduce aviation damage received by the Allied Main Fleet by 1%, stacks up to 5 (10) times."
 		},
 		"2": {
 			"icon": "12310",
 			"requirement": "",
-			"name": "Swift Analyze ",
+			"name": "Swift Analysis",
 			"type": "Offensive",
 			"description": "Increase own Critical Rate by 10.0% (30.0%). Increase own HIT by 4.0% (10.0%) against enemy DD/CL. Upon firing the main gun, 10% chance to reduce enemy EVA by 4.0% (10.0%)."
 		},
@@ -72,8 +72,8 @@
 	"skin": {
 		"1": {
 			"id": "quejie",
-			"name": "Swiftsure",
-			"description": "Swiftsure-Class Light Cruiser - (HMS Swiftsure) ",
+			"name": "Swiftsure ",
+			"description": "I am Swiftsure, a light cruiser of the Royal Navy... If it is not too much for one such as myself to ask, I would like to support your fleet in whatever way I can. ",
 			"expression": {
 				"0": {
 					"id": "0"
@@ -94,8 +94,8 @@
 		},
 		"2": {
 			"id": "quejie_2",
-			"name": "Secluded Cyclamen",
-			"description": "Commander, why are you here? Me? Yes, as you can see, I'm in the middle of studying... Since we were too late to gain enough live battle experience, I think we have no choice but to compensate through classroom learning at this school.",
+			"name": "Study Hall Cyclamen",
+			"description": "Commander, why are you here...? Me? Yes, as you can see, I'm still studying... I figured that acquiring knowledge would be the best way to make up for my lack of experience on the actual battlefield.",
 			"expression": {
 				"0": {
 					"id": "0"
@@ -240,9 +240,9 @@
 		}
 	},
 	"limitBreak": {
-		"tier1": "Unlock All Out Assault Ⅰ/Main gun efficiency +5%",
+		"tier1": "Unlock EX Barrage Ⅰ/Main gun efficiency +5%",
 		"tier2": "Torpedo base +1/Torpedo preload +1/Torpedo efficiency +10%",
-		"tier3": "Improve All Out Assault/Main gun efficiency +15%"
+		"tier3": "Improve EX Barrage/Main gun efficiency +15%"
 	},
 	"equipmentLoadout": {
 		"1": {
@@ -322,7 +322,7 @@
 			"1": {
 				"skin_id": "quejie",
 				"id": "0",
-				"label": "Swiftsure",
+				"label": "Swiftsure ",
 				"dialogue": {
 					"1": {
 						"event": "Ship Description",
@@ -333,7 +333,7 @@
 						"japanese": "ロイヤルネイビー、スウィフトシュアと申します。…こんな私でよろしければ、全力で艦隊をサポートいたします",
 						"japaneseTL": "I am Swiftsure of the Royal Navy. Please let me give my full support to this fleet.",
 						"japaneseNote": "",
-						"english": "",
+						"english": "I am Swiftsure, a light cruiser of the Royal Navy... If it is not too much for one such as myself to ask, I would like to support your fleet in whatever way I can.",
 						"englishNote": ""
 					},
 					"2": {
@@ -345,7 +345,7 @@
 						"japanese": "マイノーター級のスウィフトシュアと申します。かの大戦の末期に参加しましたが、戦争終結と色々事情があって期待された程の活躍ができませんでした。そんな私でもよろしければ、この艦隊のために微力を尽くさせていただきたく存じます。あっ、お気に召さないようでしたら、私のことはお構いなく……",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "I am Swiftsure, of the Royal Navy. I joined towards the end of the war, but with it winding down and fate taking some odd twists and turns, I wasn't able to perform as expected. If it pleases you, I will serve the fleet with everything I have. Oh, but if it doesn't, you need not worry about me...",
 						"englishNote": ""
 					},
 					"3": {
@@ -357,7 +357,7 @@
 						"japanese": "マイノーター級巡洋艦、スウィフトシュアと申します。…こんな私でよろしければ、全力で艦隊をサポートいたします",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "I am Swiftsure, a light cruiser of the Royal Navy... If it is not too much for one such as myself to ask, I would like to support your fleet in whatever way I can.",
 						"englishNote": ""
 					},
 					"4": {
@@ -369,7 +369,7 @@
 						"japanese": "おはようございます。本日の業務はこちらになります。……ふぅ…",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Good morning. Here is your work for the day... *Sigh*...",
 						"englishNote": ""
 					},
 					"5": {
@@ -381,7 +381,7 @@
 						"japanese": "あ、ごめんなさいなんだか散らかしてて……シェフィールドが教えてくれた掃除アイテム、意外と使い勝手がわからなくて…あはは…",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Um, sorry I made such a mess... Sheffield tried to teach me how to clean, but I'm a lot worse at it than I expected... Ahaha...",
 						"englishNote": ""
 					},
 					"6": {
@@ -393,7 +393,7 @@
 						"japanese": "指揮官、今日も一日みんなと一緒に頑張りましょ？",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Commander, let's work as hard as we ever do, eh?",
 						"englishNote": ""
 					},
 					"7": {
@@ -405,7 +405,7 @@
 						"japanese": "指揮官、ロイヤルレディは優雅であるべきだと思いませんか？メイド隊ならともかく、フィジーやジャマイカたち…こう、派手というか、はしたないと言うか…本当に大丈夫です？",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Commander, do you think a Lady of the Royal Navy should be more elegant? Not like the maids, I mean Fiji and Jamaica... They stand out quite a bit... is that alright?",
 						"englishNote": ""
 					},
 					"8": {
@@ -417,7 +417,7 @@
 						"japanese": "騎士長のことが羨ましく思います。私でもあんなに気丈に振る舞うことができれば……すみません、今のは忘れてください",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "I envy the Knight Commander. If only I could comport myself so... Sorry about that. Forget I said anything.",
 						"englishNote": ""
 					},
 					"9": {
@@ -429,7 +429,7 @@
 						"japanese": "秘書艦を担当している以上、報告するもの全てに責任を持って確認させていただきます",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "As your secretary ship, I am responsibile for everything in all of the reports.",
 						"englishNote": ""
 					},
 					"10": {
@@ -441,7 +441,7 @@
 						"japanese": "指揮官、その…こういうのは艦隊の規律上、あまり相応しい行動ではないかと……",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Commander, um... I think fleet regulations call this kind of thing \"inappropriate...\"",
 						"englishNote": ""
 					},
 					"11": {
@@ -453,7 +453,7 @@
 						"japanese": "指揮官、任務の仕分けが完了しました。ご確認ください",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Commander, I've finished sorting out these tasks. Do look them over.",
 						"englishNote": ""
 					},
 					"12": {
@@ -465,7 +465,7 @@
 						"japanese": "指揮官、任務報酬のリストアップが完了しました。ご確認ください",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Commander, I've finished tallying up the mission rewards. Do look them over.",
 						"englishNote": ""
 					},
 					"13": {
@@ -477,7 +477,7 @@
 						"japanese": "指揮官、新しいメールです。あ、約一時間おきにチェックしていますので、抜かりは…はい、ないと思います",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Commander, you have new mail. Oh, I've been checking about once per hour. So I don't think I've... no, I haven't missed any.",
 						"englishNote": ""
 					},
 					"14": {
@@ -489,7 +489,7 @@
 						"japanese": "お疲れ様でございます。レポートを取りまとめました。お手すきの際にご確認を",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Excellent work. I've prepared a report for you. Take a moment to look it over.",
 						"englishNote": ""
 					},
 					"15": {
@@ -501,7 +501,7 @@
 						"japanese": "指揮官、そろそろ委託完了の時間です。今から出発すれば、ちょうどみんなが帰還した頃には着きますよ",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Commander, the commission is nearly complete. If you head out now, you should be able to meet them as they return.",
 						"englishNote": ""
 					},
 					"16": {
@@ -513,7 +513,7 @@
 						"japanese": "スウィフトシュア、しっかりして、あなた期待されているのよ…！",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Swiftsure, swiftly and surely, everyone is counting on you...!",
 						"englishNote": ""
 					},
 					"17": {
@@ -525,7 +525,7 @@
 						"japanese": "全艦、前進！…しっかりして、私っ！",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "All ships, forward...! Form up on me!",
 						"englishNote": ""
 					},
 					"18": {
@@ -537,7 +537,7 @@
 						"japanese": "わ、私、頑張りました……",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Um, I... really tried...",
 						"englishNote": ""
 					},
 					"19": {
@@ -549,7 +549,7 @@
 						"japanese": "すみません、私がもう少し上手くやれたら……",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Sorry. If only I had tried harder...",
 						"englishNote": ""
 					},
 					"20": {
@@ -561,7 +561,7 @@
 						"japanese": "このタイミング、行ける…はず！",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Get the timing right... I should be able to do this!",
 						"englishNote": ""
 					},
 					"21": {
@@ -573,7 +573,7 @@
 						"japanese": "せめて仲間たちを無事に撤退させないと…！",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "I have to get the others to safety, at least...!",
 						"englishNote": ""
 					},
 					"22": {
@@ -585,7 +585,7 @@
 						"japanese": "私のような者にはやっぱりこんな指揮官がお似合いなのね……",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Someone like me deserves a Commander like this...",
 						"englishNote": ""
 					},
 					"23": {
@@ -597,7 +597,7 @@
 						"japanese": "指揮官、何か御用でしょうか？なんでもお任せください。…あっ、私などでよければ、ですが…",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Commander, do you have something for me? I can handle anything... Oh, but only if you're okay with me...",
 						"englishNote": ""
 					},
 					"24": {
@@ -609,7 +609,7 @@
 						"japanese": "フィジーからいつも「スウィフトシュアはもっと笑ったほうがいい」って言われますけど、どうしたら良いか…ああすみません、つまらない相談をしてしまいまして",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Fiji is always telling me to smile more. Is she right? Oh... Sorry, I must be boring you with this...",
 						"englishNote": ""
 					},
 					"25": {
@@ -621,7 +621,7 @@
 						"japanese": "指揮官に言われてこの間ジャマイカのバイクの改装を手伝いに行きましたけど、ふふふ、意外と楽しかったですね。…あっ、指揮官、すみません…今のは、ええと、あの……",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "The Commander told me to help Jamaica fix up her bike. Hehehe, it turned out to be a lot more fun than I thought... Oh, Commander, sorry... about that... just now...",
 						"englishNote": ""
 					},
 					"26": {
@@ -633,7 +633,7 @@
 						"japanese": "フィジーのようによく笑うことより、シェフィールドのようなクールに振る舞うほうが私はちょっと楽…かな？たまに笑顔を見せれば指揮官がドキッとしてくれるってみんなが言っていましたし…い、今の聞かなかったことにしてください！",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "I think I'd probably be better off being all cool like Sheffield than trying to smile all the time like Fiji... Right? If I every so often let slip a smile that could catch the Commander's eye... Oh, um, forget everything I said just now!",
 						"englishNote": ""
 					},
 					"27": {
@@ -645,7 +645,7 @@
 						"japanese": "今更で申し訳ございません。私のような者で本当に大丈夫ですか？……こんな私でも…ううん、私でよければ、喜んでお相手いたします！――指揮官、これからもよろしくお願いします！",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "I'm really sorry about all this. Are you honestly okay with someone like me...? The way I am...? Umm, if you're alright with me, then I'll gladly be your partner! Commander, thank you so much! ",
 						"englishNote": ""
 					},
 					"28": {
@@ -657,7 +657,7 @@
 						"japanese": "はい！しっかりしなさい…私！",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Right! Here I go... swiftly!",
 						"englishNote": ""
 					},
 					"29": {
@@ -701,7 +701,7 @@
 			"2": {
 				"skin_id": "quejie_2",
 				"id": "1",
-				"label": "Secluded Cyclamen",
+				"label": "Study Hall Cyclamen",
 				"dialogue": {
 					"1": {
 						"event": "Ship Description",
@@ -712,7 +712,7 @@
 						"japanese": "指揮官、どうしてここに…？私？はい、ご覧の通り勉強中ですが…実戦経験でみんなに遅れを取っている分は、学園での座学で補うしかないと思っています",
 						"japaneseTL": "Commander, why are you here? Me? Yes, as you can see, I'm in the middle of studying... Since we were too late to gain enough live battle experience, I think we have no choice but to compensate through classroom learning at this school.",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Commander, why are you here...? Me? Yes, as you can see, I'm still studying... I figured that acquiring knowledge would be the best way to make up for my lack of experience on the actual battlefield.",
 						"englishNote": ""
 					},
 					"2": {
@@ -724,7 +724,7 @@
 						"japanese": "指揮官、どうしてここに…？私？はい、ご覧の通り勉強中ですが…実戦経験でみんなに遅れを取っている分は、学園での座学で補うしかないと思っています",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Commander, why are you here...? Me? Yes, as you can see, I'm still studying... I figured that acquiring knowledge would be the best way to make up for my lack of experience on the actual battlefield.",
 						"englishNote": ""
 					},
 					"3": {
@@ -736,7 +736,7 @@
 						"japanese": "おはようございます。今日のカリキュラムはこちらになります。ご確認ください",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Good morning. Here is the outline for today's course. Please make sure to review it.",
 						"englishNote": ""
 					},
 					"4": {
@@ -748,7 +748,7 @@
 						"japanese": "ユニコーンさん、ここはこう…あ、指揮官、すみません今ほかの子の勉強を教えています。どうぞおくつろぎになっていてください",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Unicorn, this is how you do this problem... Oh sorry, Commander, I'm currently helping the others study. Please make yourself feel at home.",
 						"englishNote": ""
 					},
 					"5": {
@@ -760,7 +760,7 @@
 						"japanese": "フィジー、たまには勉強したほうがいいですよ？ほら指揮官も何か言ってあげて？",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Fiji, don't you know that studying is good for you? Come on, Commander, care to back me up on this one? ",
 						"englishNote": ""
 					},
 					"6": {
@@ -772,7 +772,7 @@
 						"japanese": "カンレキ的に旗艦を務めたことがありますけど、ここでの戦いとは関係ありません。素直な気持ちでみんなから学ばないと",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "While I have served as a flagship before, that has nothing to do with what's going on now. I have to be humble and learn from everyone. ",
 						"englishNote": ""
 					},
 					"7": {
@@ -784,7 +784,7 @@
 						"japanese": "エディンバラとはよく図書室で会っています。メイド隊の近況とか、たまに愚痴も聞かされますね……",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "I often see Edinburgh in the library. She's always grumbling about what's going on in the maid team or something...",
 						"englishNote": ""
 					}
 				}
@@ -894,5 +894,6 @@
 		"add_level_shiptype": "Light Cruiser",
 		"t_level": "7",
 		"ships": "swiftsure"
-	}
+	},
+	"voiceActress": "Hitomi Ohwada"
 }
