@@ -76,17 +76,36 @@
 			"name": "Albacore ",
 			"description": "Gato-class submarine – Albacore, Hull Number SS-218. ",
 			"expression": {
-				"0" : {
-					"id" : "0"
+				"0": {
+					"id": "0"
 				},
-				"1" : {
-					"id" : "1"
+				"1": {
+					"id": "1"
 				},
-				"2" : {
-					"id" : "2"
+				"2": {
+					"id": "2"
 				},
-				"3" : {
-					"id" : "3"
+				"3": {
+					"id": "3"
+				}
+			}
+		},
+		"2": {
+			"id": "daqinghuayu_4",
+			"name": "Beneath the Black Dress",
+			"description": "Oopsie! I totally just dropped something by mistake~! I'd better pick it up quick! Hmm? Saw something you shouldn't have, Commander? Hehehe~ That makes you my partner in crime now!",
+			"expression": {
+				"0": {
+					"id": "0"
+				},
+				"1": {
+					"id": "1"
+				},
+				"2": {
+					"id": "2"
+				},
+				"3": {
+					"id": "3"
 				}
 			}
 		}
@@ -638,6 +657,145 @@
 						"japaneseTL": "",
 						"japaneseNote": "",
 						"english": "",
+						"englishNote": ""
+					}
+				}
+			},
+			"2": {
+				"skin_id": "daqinghuayu_4",
+				"id": "1",
+				"label": "Beneath the Black Dress",
+				"dialogue": {
+					"1": {
+						"event": "Ship Description",
+						"media": "",
+						"chinese": "啊，糟了，居然掉到地上了！得赶快捡起来才行呢。……指挥官？你，莫非是看到了？那从现在起，你就是大青花鱼的共犯了！",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "あ、しまったー大事なアイテムをうっかり落としてしまったよぉ～早く拾わないと…あれれ？指揮官もしかして見たの？ヒヒヒ、じゃあ今からアルバコアの共犯者！よろしくね～",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Oopsie! I totally just dropped something by mistake~! I'd better pick it up quick! Hmm? Saw something you shouldn't have, Commander? Hehehe~ That makes you my partner in crime now!",
+						"englishNote": ""
+					},
+					"2": {
+						"event": "Acquisition",
+						"media": "get_1",
+						"chinese": "啊，糟了，居然掉到地上了！得赶快捡起来才行呢。……指挥官？你，莫非是看到了？那从现在起，你就是大青花鱼的共犯了！",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "あ、しまったー大事なアイテムをうっかり落としてしまったよぉ～早く拾わないと…あれれ？指揮官もしかして見たの？ヒヒヒ、じゃあ今からアルバコアの共犯者！よろしくね～",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Oopsie! I totally just dropped something by mistake~! I'd better pick it up quick! Hmm? Saw something you shouldn't have, Commander? Hehehe~ That makes you my partner in crime now!",
+						"englishNote": ""
+					},
+					"3": {
+						"event": "Login",
+						"media": "login_1",
+						"chinese": "嘭！嘿嘿，吓到你了吗？看来这个自制拉炮的效果还蛮不错的嘛！",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "試しに――ドカン！おお、いまのでビックリした？むひひ、あたしながらいい出来じゃない～",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "How about a... KAPOW! Gave you a real scare, didn't I? Teehee~ Turned out pretty good, if I say so myself~",
+						"englishNote": ""
+					},
+					"4": {
+						"event": "Details",
+						"media": "detail_1",
+						"chinese": "要提醒大家小心拉炮？哼哼，请便~不过，拉炮我都藏在裙子下面了，指挥官是怎么知道的呢~…指挥官，你明白我的意思的吧？嘻嘻~",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "クラッカーのことを皆に注意したいって？ふふふ、どうぞお好きに～でもぉ、ドレスの下のクラッカー、指揮官はどうしてそれを知ってるのかにゃ～…指揮官さぁ、この意味、わかるよね？へへへ～",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "You wanna warn people about my firecrackers? Hehehe~ By all means, go ahead~ But how exactly are you gonna explain knowing that I had 'em hidden under my dress~? You get where I'm going with this, don'tcha? Hehehe~",
+						"englishNote": ""
+					},
+					"5": {
+						"event": "Main 1",
+						"media": "main_1_1",
+						"chinese": "指挥官，你有没有见到大凤呀？我也想给她看看我准备的惊喜呢！",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "指揮官、大鳳見なかった？今日のサプライズを見せてやろうって！",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Commander, you seen Taihou anywhere? I've got an explosive surprise for her!",
+						"englishNote": ""
+					},
+					"6": {
+						"event": "Main 2",
+						"media": "main_2_1",
+						"chinese": "现在的我和平时的我，指挥官更喜欢哪一个？为什么呢？欸，不要害羞啦，说嘛说嘛~",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "この格好と普段の格好、どちらが気になる？なんでそういう事聞くって？へへへ、恥ずかしがらなくていいって♪",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Which do you like more: this dress, or my ordinary getup? Why do I even ask? Hehehe~ C'mon, don't be shy and answer the question~",
+						"englishNote": ""
+					},
+					"7": {
+						"event": "Main 3",
+						"media": "main_3_1",
+						"chinese": "指挥官，这边这边！我们现在可是“共犯”，所以要一起行动才行！",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "指揮官は、こっちこっち！あたしの計画を知った指揮官は共犯者だからね…今日は一日一緒に行動しないと～",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Over here, Commander! You agreed to be my accomplice right when you caught wind of my plan, so you've gotta follow me around the whole day~",
+						"englishNote": ""
+					},
+					"8": {
+						"event": "Touch",
+						"media": "touch_1_1",
+						"chinese": "借着跳舞的机会，摸清楚会场里的情况！指挥官的这个想法很不错哦！……嗯？莫非你只是单纯地想邀请我跳舞？",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "ダンスタイムで作戦地の下調べをするってキミ、中々いい発想してるよね～ん？本当にダンス？あたしと？",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "You're gonna dig up location info under the guise of dancing with someone? Hey, pretty good idea! Huh? You just wanna dance? With me?",
+						"englishNote": ""
+					},
+					"9": {
+						"event": "Touch (Special)",
+						"media": "touch_2_1",
+						"chinese": "要是我在这里拉响礼炮的话，所有人都会在一瞬间看过来的吧？嘻嘻~",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "今もし、あたしがクラッカーを鳴らしたら～指揮官……皆にどぉ見られちゃうのかな？フフフ～",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "I wonder how people would look at you if I set off a firecracker right now... Wanna find out? Heheheh~",
+						"englishNote": ""
+					},
+					"10": {
+						"event": "Return to Port",
+						"media": "home_1",
+						"chinese": "偷偷地把棘鳍的饮料换成酒的话——咕呜，被指挥官发现了呢。我只是想让她在不知不觉中尝尝“大人的味道”而已嘛~",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "カヴァラの飲み物は、こう――むぅ、指揮官にバレたか…こっちはノンアルでオトナの気分、味わってもらいたかっただけなのにぃ？",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Time to spice up Cavalla's drink with a little... Darnit, you caught me in the act, Commander... All I wanted to do was give it a more mature but alcohol-free taste!",
+						"englishNote": ""
+					},
+					"11": {
+						"event": "Affinity (Love)",
+						"media": "feeling5_1",
+						"chinese": "指、指挥官！谢谢你愿意陪我，当我的“共犯”！对了对了指挥官，把耳朵凑过来，我有悄悄话和你说！再近点啦！那个，其实…啾~嘻嘻，你又被我骗了呢~",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "し、指揮官、付き合って、いじられてくれて、本当にありがとうなの！あたし、指揮官に言いたい大切な言葉が……耳、こっち…ほら、もうちょっと…チュッ♡　なんてね！これからもいじり倒してあげる♪",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "L-listen, I'm really grateful that you hang out and let me mess around with you! I've got something important to say... Come here so I can whisper... C'mon, a little closer... *smooch*♡ Hah, got 'em! Expect much more teasing to come~",
 						"englishNote": ""
 					}
 				}

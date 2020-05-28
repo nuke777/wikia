@@ -123,6 +123,34 @@
 			}
 		},
 		"4": {
+			"id": "fuerban_4",
+			"name": "Feast of Champagne",
+			"description": "Good evening, Commander. I am currently enjoying the party in the company of my friends, as my duties as a squire entail. Um... I've had a bit too much to drink? R-really...?",
+			"expression": {
+				"0": {
+					"id": "0"
+				},
+				"1": {
+					"id": "1"
+				},
+				"2": {
+					"id": "2"
+				},
+				"3": {
+					"id": "3"
+				},
+				"4": {
+					"id": "4"
+				},
+				"5": {
+					"id": "5"
+				},
+				"6": {
+					"id": "6"
+				}
+			}
+		},
+		"5": {
 			"id": "fuerban_g",
 			"name": "Forbin (Retrofit) ",
 			"description": "My hard work has finally paid off! Commander, thank you for your guidance all this time! I'll return the favor by bringing you even more honors in battle! ",
@@ -963,6 +991,133 @@
 				}
 			},
 			"4": {
+				"skin_id": "fuerban_4",
+				"id": "3",
+				"label": "Feast of Champagne",
+				"dialogue": {
+					"1": {
+						"event": "Ship Description",
+						"media": "",
+						"chinese": "指挥官，你好。见习骑士福尔班，正在遵循指示与大家享受宴会的氛围。唔…看起来喝得有点多…？会、会吗…？",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "指揮官、こんばんは。見習い騎士フォルバン、ご指示通りパーティーを仲間のみんなと満喫しています。うっ……ちょっと飲みすぎ、ですか？そ、そうですか…？",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Good evening, Commander. I am currently enjoying the party in the company of my friends, as my duties as a squire entail. Um... I've had a bit too much to drink? R-really...?",
+						"englishNote": ""
+					},
+					"2": {
+						"event": "Acquisition",
+						"media": "get_3",
+						"chinese": "指挥官，你好。见习骑士福尔班，正在遵循指示与大家享受宴会的氛围。唔…看起来喝得有点多…？会、会吗…？",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "指揮官、こんばんは。見習い騎士フォルバン、ご指示通りパーティーを仲間のみんなと満喫しています。うっ……ちょっと飲みすぎ、ですか？そ、そうですか…？",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Good evening, Commander. I am currently enjoying the party in the company of my friends, as my duties as a squire entail. Um... I've had a bit too much to drink? R-really...?",
+						"englishNote": ""
+					},
+					"3": {
+						"event": "Login",
+						"media": "login_3",
+						"chinese": "指挥官也要来一点吗？这个很好喝哦？欸嘿嘿…",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"4": {
+						"event": "Details",
+						"media": "detail_3",
+						"chinese": "勒马尔在哪里？真是的，又不做作业—我要好好说说她…指挥官也是，也来好好教训一下…欸，奇怪？",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"5": {
+						"event": "Touch",
+						"media": "touch_1_3",
+						"chinese": "指挥官想要一起再来一杯吗？",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"6": {
+						"event": "Touch (Special)",
+						"media": "touch_2_3",
+						"chinese": "咕…明明是骑士，居然会落到这种地步……",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"7": {
+						"event": "Mail",
+						"media": "mail_3",
+						"chinese": "信件……唔唔，是什么信来着……",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"8": {
+						"event": "Return to Port",
+						"media": "home_3",
+						"chinese": "啊哇哇…奇、奇怪？指挥官什么时候…看我快摔倒了？这样…",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"9": {
+						"event": "Commission Complete",
+						"media": "expedition_3",
+						"chinese": "委托组回来了呢。我这就去迎接…欸，现在的我不能去…？",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"10": {
+						"event": "Victory",
+						"media": "mvp_3",
+						"chinese": "这种程度的东西是无法阻挡鸢尾的骑士的！",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					}
+				}
+			},
+			"5": {
 				"skin_id": "fuerban_g",
 				"id": "9",
 				"label": "Forbin (Retrofit) ",
