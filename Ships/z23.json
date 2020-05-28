@@ -91,7 +91,35 @@
 				}
 			}
 		},
-		"3": {
+		"3" : {
+			"id" : "z23_7",
+			"name" : "ツーマンセルマッチ！",
+			"description" : "はあああ！綾波、次は任せるよ！――って指揮官！ちゃんとポイント集計してます？ちゃんとした試合ではなくても、そこでぼーっとしてはいけませんよ？",
+			"expression" : {
+				"0" : {
+					"id" : "0"
+				},
+				"1" : {
+					"id" : "1"
+				},
+				"2" : {
+					"id" : "2"
+				},
+				"3" : {
+					"id" : "3"
+				},
+				"4" : {
+					"id" : "4"
+				},
+				"5" : {
+					"id" : "5"
+				},
+				"6" : {
+					"id" : "6"
+				}
+			}
+		},
+		"4": {
 			"id": "z23_4",
 			"name": "Perfect Smile?",
 			"description": "Welcome! A table for one today? Um... Commander, my smile doesn’t look stiff... right?",
@@ -110,7 +138,7 @@
 				}
 			}
 		},
-		"4": {
+		"5": {
 			"id": "z23_3",
 			"name": "The Banquet's Honor Student ",
 			"description": "Oh, good evening, Commander. I was just looking for Javelin and the others... Say, would you like to keep me company for a bit? ",
@@ -135,7 +163,7 @@
 				}
 			}
 		},
-		"5" : {
+		"6" : {
 			"id" : "z23_8",
 			"name" : "Café Trainee @New Base",
 			"description" : "Hi, welcome! How may I serve y– It's you, Commander?! Err, well, I'm working as a trainee at this Sakura Empire-style café, you see... What do you think of this outfit?",
@@ -163,7 +191,7 @@
 				}
 			}
 		},
-		"6": {
+		"7": {
 			"id": "z23_5",
 			"name": "Serious Idol @Acting Manager?!",
 			"description": "Jeez... Javelin's got what it takes, but I'm really concerned about Laffey and Ayanami. Oh well, I guess it's up to me to manage them... Commander, please don't forget to support me too.",
@@ -185,7 +213,7 @@
 				}
 			}
 		},
-		"7": {
+		"8": {
 			"id": "z23_g",
 			"name": "Z23 (Retrofit)",
 			"description": "My efficiency should be upgraded along with my performance. Paperwork, battle plans... I can handle them all! Commander, be prepared, we’ll be very busy~ ",
@@ -1179,6 +1207,109 @@
 				}
 			},
 			"3": {
+				"skin_id" : "z23_7",
+				"id" : "2",
+				"label" : "ツーマンセルマッチ！",
+				"dialogue" : {
+					"1" : {
+						"event" : "Ship Description",
+						"media" : "",
+						"chinese" : "嘿~！绫波，进攻就交给你了！—呼…指挥官，有好好计分了吗？就算是非正式的沙滩排球比赛，裁判成天发呆也是不行的哦？",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "はあああ！綾波、次は任せるよ！――って指揮官！ちゃんとポイント集計してます？ちゃんとした試合ではなくても、そこでぼーっとしてはいけませんよ？",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"2" : {
+						"event" : "Acquisition",
+						"media" : "get_2",
+						"chinese" : "嘿~！绫波，进攻就交给你了！—呼…指挥官，有好好计分了吗？就算是非正式的沙滩排球比赛，裁判成天发呆也是不行的哦？",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"3" : {
+						"event" : "Login",
+						"media" : "login_2",
+						"chinese" : "今天是个适合运动的好天气呢，指挥官",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"4" : {
+						"event" : "Details",
+						"media" : "detail_2",
+						"chinese" : "欸？被可爱的泳装吸引了注意力所以忽略了球？真、真是的，都在干什么啊指挥官！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"5" : {
+						"event" : "Touch",
+						"media" : "touch_1_2",
+						"chinese" : "啊，指挥官小心！——哦哦…漂亮的接球！抱、抱歉，不小心打歪了…",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"6" : {
+						"event" : "Touch (Special)",
+						"media" : "touch_2_2",
+						"chinese" : "你、你在做什么啊！？",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"7" : {
+						"event" : "Flagship",
+						"media" : "warcry_2",
+						"chinese" : "无论比赛还是战斗，都不会轻易输掉的！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"8" : {
+						"event" : "Defeat",
+						"media" : "lose_2",
+						"chinese" : "呜…还要多加练习才行…",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					}
+				}
+			},
+			"4": {
 				"skin_id": "z23_4",
 				"id": "3",
 				"label": "Perfect Smile?",
@@ -1281,7 +1412,7 @@
 					}
 				}
 			},
-			"4": {
+			"5": {
 				"skin_id": "z23_3",
 				"id": "4",
 				"label": "The Banquet's Honor Student ",
@@ -1468,7 +1599,7 @@
 					}
 				}
 			},
-			"5": {
+			"6": {
 				"skin_id" : "z23_8",
 				"id" : "5",
 				"label" : "Café Trainee @New Base",
@@ -1607,7 +1738,7 @@
 					}
 				}
 			},
-			"6": {
+			"7": {
 				"skin_id": "z23_5",
 				"id": "6",
 				"label": "Serious Idol @Acting Manager?!",
@@ -1758,7 +1889,7 @@
 					}
 				}
 			},
-			"7": {
+			"8": {
 				"skin_id": "z23_g",
 				"id": "9",
 				"label": "Z23 (Retrofit)",

@@ -1,70 +1,132 @@
 {
-	"name_reference" : "hanazuki",
-	"cn_reference" : "huayue",
-	"nameJP" : "花月",
-	"nameCN" : "花月",
-	"ID" : "449",
-	"name" : "Hanazuki",
-	"internal_id" : "301821",
-	"rarity" : "Elite",
-	"initialStar" : "★★☆☆☆",
-	"hull" : "Destroyer",
-	"navy" : "Sakura Empire",
-	"prefix" : "IJN",
-	"buildTime" : "00:29:00",
+	"name_reference": "hanazuki",
+	"cn_reference": "huayue",
+	"nameJP": "花月",
+	"nameCN": "花月",
+	"ID": "449",
+	"name": "Hanazuki",
+	"internal_id": "301821",
+	"rarity": "Elite",
+	"initialStar": "★★☆☆☆",
+	"hull": "Destroyer",
+	"navy": "Sakura Empire",
+	"prefix": "IJN",
+	"buildTime": "00:29:00",
 	"parameters": {
-		"firepower" : "",
-		"torpedo" : "",
-		"aviation" : "",
-		"evasion" : "",
-		"antiAir" : "",
-		"hp" : ""
+		"firepower": "",
+		"torpedo": "",
+		"aviation": "",
+		"evasion": "",
+		"antiAir": "",
+		"hp": ""
 	},
 	"scrap": {
-		"gold" : "4",
-		"oil" : "3",
-		"medal" : "4"
+		"gold": "4",
+		"oil": "3",
+		"medal": "4"
 	},
 	"releaseDate": {
-		"JP" : "April 23, 2020",
-		"CN" : "April 23, 2020",
-		"KR" : "April 23, 2020",
-		"EN" : "April 23, 2020"
+		"JP": "April 23, 2020",
+		"CN": "April 23, 2020",
+		"KR": "April 23, 2020",
+		"EN": "April 23, 2020"
 	},
 	"artist": {
-		"name" : "しろきつね",
-		"weibo" : "",
-		"twitter" : "https://twitter.com/shirorokitsune",
-		"pixiv" : "https://www.pixiv.net/en/users/146135",
-		"other" : ""
+		"name": "しろきつね",
+		"weibo": "",
+		"twitter": "https://twitter.com/shirorokitsune",
+		"pixiv": "https://www.pixiv.net/en/users/146135",
+		"other": ""
 	},
-	"class" : "Niizuki-Class",
+	"class": "Niizuki-Class",
 	"enhance": {
-		"firepower" : "5",
-		"torpedo" : "23",
-		"aviation" : "0",
-		"reload" : "15"
+		"firepower": "5",
+		"torpedo": "23",
+		"aviation": "0",
+		"reload": "15"
 	},
-	"acquisitionMethod" : "Event: Crimson Echoes",
+	"acquisitionMethod": "Event: Crimson Echoes",
 	"skill": {
-		"1" : {
-			"icon" : "2131",
-			"requirement" : "Default Unlocked",
-			"name" : "Aerial Support",
-			"type" : "Offensive",
-			"description" : "When an enemy aircraft is shot down within your fleet's Anti-Air Gun range: increases this ship's FP and AA by 5.0% (25.0%) for 8s. Effect does not stack, but shooting down additional aircraft will refresh its duration."
+		"1": {
+			"icon": "2131",
+			"requirement": "Default Unlocked",
+			"name": "Aerial Support",
+			"type": "Offensive",
+			"description": "When an enemy aircraft is shot down within your fleet's Anti-Air Gun range: increases this ship's FP and AA by 5.0% (25.0%) for 8s. Effect does not stack, but shooting down additional aircraft will refresh its duration."
 		},
-		"2" : {
-			"icon" : "22061",
-			"requirement" : "Limit Break I (III)",
-			"name" : "All Out Assault Ⅰ",
-			"type" : "Offensive",
-			"description" : "Activates All Out Assault Ⅰ: Akizuki Class once every 24 times the Main Guns are fired."
+		"2": {
+			"icon": "22061",
+			"requirement": "Limit Break I (III)",
+			"name": "All Out Assault Ⅰ",
+			"type": "Offensive",
+			"description": "Activates All Out Assault Ⅰ: Akizuki Class once every 24 times the Main Guns are fired."
 		}
 	},
 	"skin": {
-		"1" : {
-			"id" : "huayue",
+		"1": {
+			"id": "huayue",
+			"name": "Hanazuki ",
+			"description": "Akizuki-class destroyer number thirteen – Hanazuki. ",
+			"expression": {
+				"0": {
+					"id": "0"
+				},
+				"1": {
+					"id": "1"
+				},
+				"2": {
+					"id": "2"
+				},
+				"3": {
+					"id": "3"
+				},
+				"4": {
+					"id": "4"
+				},
+				"5": {
+					"id": "5"
+				},
+				"6": {
+					"id": "6"
+				},
+				"7": {
+					"id": "7"
+				},
+				"8": {
+					"id": "8"
+				}
+			}
+		},
+		"2": {
+			"id": "huayue_3",
+			"name": "Morning Moon, Beachside Flower",
+			"description": "I've heard some say that summer is the season of cherry blossoms, lotus petals, and sunflowers, but... If you ask me, being able to leisurely enjoy the breeze with you feels pretty good too. Hehe~",
+			"expression": {
+				"0": {
+					"id": "0"
+				},
+				"1": {
+					"id": "1"
+				},
+				"2": {
+					"id": "2"
+				},
+				"3": {
+					"id": "3"
+				},
+				"4": {
+					"id": "4"
+				},
+				"5": {
+					"id": "5"
+				},
+				"6": {
+					"id": "6"
+				}
+			}
+		},
+		"101" : {
+			"id" : "huayue_ex1100",
 			"name" : "Hanazuki ",
 			"description" : "Akizuki-class destroyer number thirteen – Hanazuki. ",
 			"expression" : {
@@ -96,138 +158,110 @@
 					"id" : "8"
 				}
 			}
-		},
-		"2" : {
-			"id" : "huayue_3",
-			"name" : "Morning Moon, Beachside Flower",
-			"description" : "I've heard some say that summer is the season of cherry blossoms, lotus petals, and sunflowers, but... If you ask me, being able to leisurely enjoy the breeze with you feels pretty good too. Hehe~",
-			"expression" : {
-				"0" : {
-					"id" : "0"
-				},
-				"1" : {
-					"id" : "1"
-				},
-				"2" : {
-					"id" : "2"
-				},
-				"3" : {
-					"id" : "3"
-				},
-				"4" : {
-					"id" : "4"
-				},
-				"5" : {
-					"id" : "5"
-				},
-				"6" : {
-					"id" : "6"
-				}
-			}
 		}
 	},
 	"defaultEquipment": {
-		"1" : {
-			"icon" : "31000",
-			"rarity" : "Rare",
-			"name" : "Twin 100mm (Type 98) AA Gun"
+		"1": {
+			"icon": "31000",
+			"rarity": "Rare",
+			"name": "Twin 100mm (Type 98) AA Gun"
 		},
-		"2" : {
-			"icon" : "35200",
-			"rarity" : "Rare",
-			"name" : "Quadruple 610mm Torpedo"
+		"2": {
+			"icon": "35200",
+			"rarity": "Rare",
+			"name": "Quadruple 610mm Torpedo"
 		},
-		"3" : {
-			"icon" : "",
-			"rarity" : "",
-			"name" : ""
+		"3": {
+			"icon": "",
+			"rarity": "",
+			"name": ""
 		}
 	},
 	"stats": {
-		"base": {
-			"hp" : "394",
-			"firepower" : "14",
-			"torpedo" : "70",
-			"antiAir" : "37",
-			"aviation" : "0",
-			"reload" : "77",
-			"hit" : "66",
-			"evasion" : "67",
-			"speed" : "39.6",
-			"luck" : "65",
-			"asw" : "49",
-			"oxygen" : "0",
-			"ammo" : "0",
-			"cost" : "2",
-			"armor" : "Light"
-		},
 		"100": {
-			"hp" : "2037",
-			"firepower" : "66",
-			"torpedo" : "330",
-			"antiAir" : "173",
-			"aviation" : "0",
-			"reload" : "183",
-			"hit" : "171",
-			"evasion" : "174",
-			"speed" : "39.6",
-			"luck" : "65",
-			"asw" : "180",
-			"oxygen" : "0",
-			"ammo" : "0",
-			"cost" : "9",
-			"armor" : "Light"
+			"hp": "2037",
+			"firepower": "66",
+			"torpedo": "330",
+			"antiAir": "173",
+			"aviation": "0",
+			"reload": "183",
+			"hit": "171",
+			"evasion": "174",
+			"speed": "39.6",
+			"luck": "65",
+			"asw": "180",
+			"oxygen": "0",
+			"ammo": "0",
+			"cost": "9",
+			"armor": "Light"
 		},
 		"120": {
-			"hp" : "2445",
-			"firepower" : "76",
-			"torpedo" : "370",
-			"antiAir" : "199",
-			"aviation" : "0",
-			"reload" : "210",
-			"hit" : "180",
-			"evasion" : "179",
-			"speed" : "39.6",
-			"luck" : "65",
-			"asw" : "200",
-			"oxygen" : "0",
-			"ammo" : "0",
-			"cost" : "9",
-			"armor" : "Light"
+			"hp": "2445",
+			"firepower": "76",
+			"torpedo": "370",
+			"antiAir": "199",
+			"aviation": "0",
+			"reload": "210",
+			"hit": "180",
+			"evasion": "179",
+			"speed": "39.6",
+			"luck": "65",
+			"asw": "200",
+			"oxygen": "0",
+			"ammo": "0",
+			"cost": "9",
+			"armor": "Light"
+		},
+		"base": {
+			"hp": "394",
+			"firepower": "14",
+			"torpedo": "70",
+			"antiAir": "37",
+			"aviation": "0",
+			"reload": "77",
+			"hit": "66",
+			"evasion": "67",
+			"speed": "39.6",
+			"luck": "65",
+			"asw": "49",
+			"oxygen": "0",
+			"ammo": "0",
+			"cost": "2",
+			"armor": "Light"
 		},
 		"100retrofit": {
-			"hp" : "",
-			"firepower" : "",
-			"torpedo" : "",
-			"antiAir" : "",
-			"aviation" : "",
-			"reload" : "",
-			"hit" : "",
-			"evasion" : "",
-			"speed" : "39.6",
-			"luck" : "65",
-			"asw" : "",
-			"oxygen" : "0",
-			"ammo" : "0",
-			"cost" : "9",
-			"armor" : "Light"
+			"hp": "",
+			"firepower": "",
+			"torpedo": "",
+			"antiAir": "",
+			"aviation": "",
+			"reload": "",
+			"hit": "",
+			"evasion": "",
+			"speed": "39.6",
+			"luck": "65",
+			"asw": "",
+			"oxygen": "0",
+			"ammo": "0",
+			"cost": "9",
+			"armor": "Light"
 		},
 		"120retrofit": {
-			"hp" : "",
-			"firepower" : "",
-			"torpedo" : "",
-			"antiAir" : "",
-			"aviation" : "",
-			"reload" : "",
-			"hit" : "",
-			"evasion" : "",
-			"speed" : "39.6",
-			"luck" : "65",
-			"asw" : "",
-			"oxygen" : "0",
-			"ammo" : "0",
-			"cost" : "9",
-			"armor" : "Light"
+			"hp": "",
+			"firepower": "",
+			"torpedo": "",
+			"antiAir": "",
+			"aviation": "",
+			"reload": "",
+			"hit": "",
+			"evasion": "",
+			"speed": "39.6",
+			"luck": "65",
+			"asw": "",
+			"oxygen": "0",
+			"ammo": "0",
+			"cost": "9",
+			"armor": "Light"
 		}
 	},
 	"limitBreak": {
@@ -324,468 +358,595 @@
 	"lines": {
 		"skin": {
 			"1": {
-				"skin_id" : "huayue",
-				"id" : "0",
-				"label" : "Hanazuki ",
-				"dialogue" : {
-					"1" : {
-						"event" : "Ship Description",
-						"media" : "",
-						"chinese" : "秋月级驱逐舰十三番舰—花月",
-						"chineseTL" : "",
-						"chineseNote" : "",
-						"japanese" : "秋月型駆逐艦十三番艦・宵月",
-						"japaneseTL" : "",
-						"japaneseNote" : "",
-						"english" : "Akizuki-class destroyer number thirteen – Hanazuki.",
-						"englishNote" : ""
+				"skin_id": "huayue",
+				"id": "0",
+				"label": "Hanazuki ",
+				"dialogue": {
+					"1": {
+						"event": "Ship Description",
+						"media": "",
+						"chinese": "秋月级驱逐舰十三番舰—花月",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "秋月型駆逐艦十三番艦・宵月",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Akizuki-class destroyer number thirteen – Hanazuki.",
+						"englishNote": ""
 					},
-					"2" : {
-						"event" : "Biography",
-						"media" : "profile",
-						"chinese" : "我是花月，于大战末期才登上舞台，是针对防空和反潜能力进行了特化的秋月型的一员…不，冬月型…唔，还是满月型…？呜呜…非、非常抱歉。虽然经验尚且不足，也还请多多关照！",
-						"chineseTL" : "",
-						"chineseNote" : "",
-						"japanese" : "かの大戦の末期に登場しました、対空能力と対潜能力を強化した秋月型の一隻とし……いいえ、冬月型…でも、満月型……ううう…す、すみません、若輩者ですが、何卒よろしくお願いいたします！",
-						"japaneseTL" : "",
-						"japaneseNote" : "",
-						"english" : "I entered service during the tail end of the War as an Akizuki-class specialized for anti-air and anti-submarine capabilities... Err, I guess it was the Fuyutsuki-class... Or was it the Michitsuki-class... Err... S-sorry, I still have a lot to learn, so I'd greatly appreciate your guidance!",
-						"englishNote" : ""
+					"2": {
+						"event": "Biography",
+						"media": "profile",
+						"chinese": "我是花月，于大战末期才登上舞台，是针对防空和反潜能力进行了特化的秋月型的一员…不，冬月型…唔，还是满月型…？呜呜…非、非常抱歉。虽然经验尚且不足，也还请多多关照！",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "かの大戦の末期に登場しました、対空能力と対潜能力を強化した秋月型の一隻とし……いいえ、冬月型…でも、満月型……ううう…す、すみません、若輩者ですが、何卒よろしくお願いいたします！",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "I entered service during the tail end of the War as an Akizuki-class specialized for anti-air and anti-submarine capabilities... Err, I guess it was the Fuyutsuki-class... Or was it the Michitsuki-class... Err... S-sorry, I still have a lot to learn, so I'd greatly appreciate your guidance!",
+						"englishNote": ""
 					},
-					"3" : {
-						"event" : "Acquisition",
-						"media" : "get",
-						"chinese" : "重樱所属，驱逐舰花月，乐意为您效劳。跟同级姐妹们一样，防空和反潜是我最擅长的，还有其它帮得上忙的事我也会尽力协助您，请多指教了。",
-						"chineseTL" : "",
-						"chineseNote" : "",
-						"japanese" : "重桜所属、駆逐艦花月、挨拶申し上げます。秋月型ゆえ対空・対潜が得意ですが、わたしにできることならなんなりとお申し付けくださいませ",
-						"japaneseTL" : "",
-						"japaneseNote" : "",
-						"english" : "I, destroyer Hanazuki from the Sakura Empire, would like to extend my humble greetings to you. As a member of the Akizuki class, I specialize in anti-air and anti-sub warfare, but please do not hesitate to call upon me where I am needed.",
-						"englishNote" : ""
+					"3": {
+						"event": "Acquisition",
+						"media": "get",
+						"chinese": "重樱所属，驱逐舰花月，乐意为您效劳。跟同级姐妹们一样，防空和反潜是我最擅长的，还有其它帮得上忙的事我也会尽力协助您，请多指教了。",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "重桜所属、駆逐艦花月、挨拶申し上げます。秋月型ゆえ対空・対潜が得意ですが、わたしにできることならなんなりとお申し付けくださいませ",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "I, destroyer Hanazuki from the Sakura Empire, would like to extend my humble greetings to you. As a member of the Akizuki class, I specialize in anti-air and anti-sub warfare, but please do not hesitate to call upon me where I am needed.",
+						"englishNote": ""
 					},
-					"4" : {
-						"event" : "Login",
-						"media" : "login",
-						"chinese" : "欢迎回来，指挥官。是要继续工作了吗？如果遇到什么困难的话，花月很乐意为指挥官分忧~",
-						"chineseTL" : "",
-						"chineseNote" : "",
-						"japanese" : "おかえりなさい指揮官さん。お仕事を続けますか？なにか気になることがおありでしたら仰ってください。お力添えいたします",
-						"japaneseTL" : "",
-						"japaneseNote" : "",
-						"english" : "Welcome back, Commander. Shall we continue our work? Should you have any concerns, please feel free to consult me. I shall do all I can to assist you.",
-						"englishNote" : ""
+					"4": {
+						"event": "Login",
+						"media": "login",
+						"chinese": "欢迎回来，指挥官。是要继续工作了吗？如果遇到什么困难的话，花月很乐意为指挥官分忧~",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "おかえりなさい指揮官さん。お仕事を続けますか？なにか気になることがおありでしたら仰ってください。お力添えいたします",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Welcome back, Commander. Shall we continue our work? Should you have any concerns, please feel free to consult me. I shall do all I can to assist you.",
+						"englishNote": ""
 					},
-					"5" : {
-						"event" : "Details",
-						"media" : "detail",
-						"chinese" : "我喜欢百花齐放的春天，不过，如果一年四季都是春天，对其他季节才开的花似乎不太公平呢…大自然有她的四季，一定是为了能让更多的花儿都有开放的机会吧",
-						"chineseTL" : "",
-						"chineseNote" : "",
-						"japanese" : "百花繚乱の春は好きですが、かといって一年中春では他の季節に咲く花にちょっと不公平でしょう。異なる季節には異なる花が彩る――大自然の心遣いかもしれませんね。ふふ",
-						"japaneseTL" : "",
-						"japaneseNote" : "",
-						"english" : "I love the way countless flowers bloom vividly during the spring, but even so, I wouldn't want it to be spring all year long - that would be unfair to the flowers that only bloom in other seasons. Mhm, I'm sure the four seasons exist so that all flowers have a chance to bloom. Hehe~",
-						"englishNote" : ""
+					"5": {
+						"event": "Details",
+						"media": "detail",
+						"chinese": "我喜欢百花齐放的春天，不过，如果一年四季都是春天，对其他季节才开的花似乎不太公平呢…大自然有她的四季，一定是为了能让更多的花儿都有开放的机会吧",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "百花繚乱の春は好きですが、かといって一年中春では他の季節に咲く花にちょっと不公平でしょう。異なる季節には異なる花が彩る――大自然の心遣いかもしれませんね。ふふ",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "I love the way countless flowers bloom vividly during the spring, but even so, I wouldn't want it to be spring all year long - that would be unfair to the flowers that only bloom in other seasons. Mhm, I'm sure the four seasons exist so that all flowers have a chance to bloom. Hehe~",
+						"englishNote": ""
 					},
-					"6" : {
-						"event" : "Main 1",
-						"media" : "main_1",
-						"chinese" : "唔，花茶和红茶，哪一个指挥官会更喜欢呢…",
-						"chineseTL" : "",
-						"chineseNote" : "",
-						"japanese" : "ハーブティーと紅茶、指揮官さんはどちらがお好みでしょう",
-						"japaneseTL" : "",
-						"japaneseNote" : "",
-						"english" : "Commander, do you prefer herbal tea, or black tea? ",
-						"englishNote" : ""
+					"6": {
+						"event": "Main 1",
+						"media": "main_1",
+						"chinese": "唔，花茶和红茶，哪一个指挥官会更喜欢呢…",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "ハーブティーと紅茶、指揮官さんはどちらがお好みでしょう",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Commander, do you prefer herbal tea, or black tea? ",
+						"englishNote": ""
 					},
-					"7" : {
-						"event" : "Main 2",
-						"media" : "main_2",
-						"chinese" : "指挥官，春月好像遇到了麻烦的事情呢。我想去看看她有什么需要帮助的，能暂时失陪一下吗？",
-						"chineseTL" : "",
-						"chineseNote" : "",
-						"japanese" : "指揮官さん、春月が困っているようです。少し様子を見てきますので、少々席をはずします",
-						"japaneseTL" : "",
-						"japaneseNote" : "",
-						"english" : "Commander, Harutsuki seems to have gotten herself in some trouble. I'd like to check on her, so would you mind if I left you for a bit? ",
-						"englishNote" : ""
+					"7": {
+						"event": "Main 2",
+						"media": "main_2",
+						"chinese": "指挥官，春月好像遇到了麻烦的事情呢。我想去看看她有什么需要帮助的，能暂时失陪一下吗？",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "指揮官さん、春月が困っているようです。少し様子を見てきますので、少々席をはずします",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Commander, Harutsuki seems to have gotten herself in some trouble. I'd like to check on her, so would you mind if I left you for a bit? ",
+						"englishNote": ""
 					},
-					"8" : {
-						"event" : "Main 3",
-						"media" : "main_3",
-						"chinese" : "“菜花黄，明月东方，日在西。”要是能拥有像这样的一片景就好了呢",
-						"chineseTL" : "",
-						"chineseNote" : "",
-						"japanese" : "「菜の花や月は東に日は西に」この景色が見られれば嬉しいものです",
-						"japaneseTL" : "",
-						"japaneseNote" : "",
-						"english" : "\"The sun in the west, the moon in the east, canola blossoms inbetween.\" I'd love to see this scenery myself.",
-						"englishNote" : ""
+					"8": {
+						"event": "Main 3",
+						"media": "main_3",
+						"chinese": "“菜花黄，明月东方，日在西。”要是能拥有像这样的一片景就好了呢",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "「菜の花や月は東に日は西に」この景色が見られれば嬉しいものです",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "\"The sun in the west, the moon in the east, canola blossoms inbetween.\" I'd love to see this scenery myself.",
+						"englishNote": ""
 					},
-					"9" : {
-						"event" : "Touch",
-						"media" : "touch_1",
-						"chinese" : "嗯？有什么要花月做的吗？只要是力所能及的，花月很愿意能帮您。",
-						"chineseTL" : "",
-						"chineseNote" : "",
-						"japanese" : "花月に任せる事、花月にできること、なんでも仰ってくださいね",
-						"japaneseTL" : "",
-						"japaneseNote" : "",
-						"english" : "Anything you need me to do, as long as it is within my abilities, I would gladly do for you.",
-						"englishNote" : ""
+					"9": {
+						"event": "Touch",
+						"media": "touch_1",
+						"chinese": "嗯？有什么要花月做的吗？只要是力所能及的，花月很愿意能帮您。",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "花月に任せる事、花月にできること、なんでも仰ってくださいね",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Anything you need me to do, as long as it is within my abilities, I would gladly do for you.",
+						"englishNote": ""
 					},
-					"10" : {
-						"event" : "Touch (Special)",
-						"media" : "touch_2",
-						"chinese" : "呀啊！？那个，指挥官…我觉得，这样子是不好的…指挥官，请千万不要对其他人这样做…",
-						"chineseTL" : "",
-						"chineseNote" : "",
-						"japanese" : "きゃっ？！その、申し上げにくいのですが…このような行動はフウキ的によろしくないゆえ…ほかの子にはなさらないほうが……",
-						"japaneseTL" : "",
-						"japaneseNote" : "",
-						"english" : "Eek?! Um, if I may be so bold... this sort of behavior is... It would be best not to do this to the other girls...",
-						"englishNote" : ""
+					"10": {
+						"event": "Touch (Special)",
+						"media": "touch_2",
+						"chinese": "呀啊！？那个，指挥官…我觉得，这样子是不好的…指挥官，请千万不要对其他人这样做…",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "きゃっ？！その、申し上げにくいのですが…このような行動はフウキ的によろしくないゆえ…ほかの子にはなさらないほうが……",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Eek?! Um, if I may be so bold... this sort of behavior is... It would be best not to do this to the other girls...",
+						"englishNote": ""
 					},
-					"11" : {
-						"event" : "Mission",
-						"media" : "task",
-						"chinese" : "没完成的任务还有不少…唔唔，指挥官觉得先完成哪一个会比较好？",
-						"chineseTL" : "",
-						"chineseNote" : "",
-						"japanese" : "未完了の任務が……指揮官さん、どど、どれから始めましょうか？",
-						"japaneseTL" : "",
-						"japaneseNote" : "",
-						"english" : "So many unfinished tasks... Commander, wh-where should we start?",
-						"englishNote" : ""
+					"11": {
+						"event": "Mission",
+						"media": "task",
+						"chinese": "没完成的任务还有不少…唔唔，指挥官觉得先完成哪一个会比较好？",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "未完了の任務が……指揮官さん、どど、どれから始めましょうか？",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "So many unfinished tasks... Commander, wh-where should we start?",
+						"englishNote": ""
 					},
-					"12" : {
-						"event" : "Mission Complete",
-						"media" : "mission_complete",
-						"chinese" : "太好了~不愧是指挥官，出色地完成任务了呢。",
-						"chineseTL" : "",
-						"chineseNote" : "",
-						"japanese" : "お喜び申し上げます！流石は指揮官さん、任務の完成評価が完璧です",
-						"japaneseTL" : "",
-						"japaneseNote" : "",
-						"english" : "Congratulations! As expected Commander, you've completed our missions with flying colors!",
-						"englishNote" : ""
+					"12": {
+						"event": "Mission Complete",
+						"media": "mission_complete",
+						"chinese": "太好了~不愧是指挥官，出色地完成任务了呢。",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "お喜び申し上げます！流石は指揮官さん、任務の完成評価が完璧です",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Congratulations! As expected Commander, you've completed our missions with flying colors!",
+						"englishNote": ""
 					},
-					"13" : {
-						"event" : "Mail",
-						"media" : "mail",
-						"chinese" : "又有新的邮件来了呢。需要花月为您整理的话，请尽管和我说吧~",
-						"chineseTL" : "",
-						"chineseNote" : "",
-						"japanese" : "新しいメールですね。整理すべきものはご指示くださいませ",
-						"japaneseTL" : "",
-						"japaneseNote" : "",
-						"english" : "New mail seems to have arrived. If you need me to sort it for you, please let me know.",
-						"englishNote" : ""
+					"13": {
+						"event": "Mail",
+						"media": "mail",
+						"chinese": "又有新的邮件来了呢。需要花月为您整理的话，请尽管和我说吧~",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "新しいメールですね。整理すべきものはご指示くださいませ",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "New mail seems to have arrived. If you need me to sort it for you, please let me know.",
+						"englishNote": ""
 					},
-					"14" : {
-						"event" : "Return to Port",
-						"media" : "home",
-						"chinese" : "欢迎回来，指挥官。港区就如同家一般，没有什么比回到这里更加让人安心的了，对吧？",
-						"chineseTL" : "",
-						"chineseNote" : "",
-						"japanese" : "おかえりなさい指揮官さん。我が家の如く安心できる母港に戻るのは嬉しいですね。そう思いませんか？",
-						"japaneseTL" : "",
-						"japaneseNote" : "",
-						"english" : "Welcome back, Commander. ",
-						"englishNote" : ""
+					"14": {
+						"event": "Return to Port",
+						"media": "home",
+						"chinese": "欢迎回来，指挥官。港区就如同家一般，没有什么比回到这里更加让人安心的了，对吧？",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "おかえりなさい指揮官さん。我が家の如く安心できる母港に戻るのは嬉しいですね。そう思いませんか？",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Welcome back, Commander. ",
+						"englishNote": ""
 					},
-					"15" : {
-						"event" : "Commission Complete",
-						"media" : "expedition",
-						"chinese" : "委托组的大家回来了。指挥官，要不让花月准备一些花茶去慰问她们吧？",
-						"chineseTL" : "",
-						"chineseNote" : "",
-						"japanese" : "委託組の皆が帰還しました。指揮官さん、ハーブティーでも差し入れに持って行ってあげたほうがよろしいでしょうか",
-						"japaneseTL" : "",
-						"japaneseNote" : "",
-						"english" : "The commission fleet has returned. Commander, should I bring some herbal tea with me to welcome them back?",
-						"englishNote" : ""
+					"15": {
+						"event": "Commission Complete",
+						"media": "expedition",
+						"chinese": "委托组的大家回来了。指挥官，要不让花月准备一些花茶去慰问她们吧？",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "委託組の皆が帰還しました。指揮官さん、ハーブティーでも差し入れに持って行ってあげたほうがよろしいでしょうか",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "The commission fleet has returned. Commander, should I bring some herbal tea with me to welcome them back?",
+						"englishNote": ""
 					},
-					"16" : {
-						"event" : "Enhancement",
-						"media" : "upgrade",
-						"chinese" : "嗯嗯，原来如此，又学到了新的东西呢",
-						"chineseTL" : "",
-						"chineseNote" : "",
-						"japanese" : "なるほどなるほど、勉強になりました",
-						"japaneseTL" : "",
-						"japaneseNote" : "",
-						"english" : "I see, I see. That was quite educational.",
-						"englishNote" : ""
+					"16": {
+						"event": "Enhancement",
+						"media": "upgrade",
+						"chinese": "嗯嗯，原来如此，又学到了新的东西呢",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "なるほどなるほど、勉強になりました",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "I see, I see. That was quite educational.",
+						"englishNote": ""
 					},
-					"17" : {
-						"event" : "Flagship",
-						"media" : "warcry",
-						"chinese" : "各位，小心潜艇的伏击！",
-						"chineseTL" : "",
-						"chineseNote" : "",
-						"japanese" : "敵潜水艦に警戒しつつ、慎重に…！",
-						"japaneseTL" : "",
-						"japaneseNote" : "",
-						"english" : "Be careful, everyone. Watch out for the submarines...!",
-						"englishNote" : ""
+					"17": {
+						"event": "Flagship",
+						"media": "warcry",
+						"chinese": "各位，小心潜艇的伏击！",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "敵潜水艦に警戒しつつ、慎重に…！",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Be careful, everyone. Watch out for the submarines...!",
+						"englishNote": ""
 					},
-					"18" : {
-						"event" : "Victory",
-						"media" : "mvp",
-						"chinese" : "要感谢一同作战的各位才是呢",
-						"chineseTL" : "",
-						"chineseNote" : "",
-						"japanese" : "一緒に戦った皆さんに感謝、ですね",
-						"japaneseTL" : "",
-						"japaneseNote" : "",
-						"english" : "It's only right that I offer my gratitude to everyone who fought alongside me.",
-						"englishNote" : ""
+					"18": {
+						"event": "Victory",
+						"media": "mvp",
+						"chinese": "要感谢一同作战的各位才是呢",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "一緒に戦った皆さんに感謝、ですね",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "It's only right that I offer my gratitude to everyone who fought alongside me.",
+						"englishNote": ""
 					},
-					"19" : {
-						"event" : "Defeat",
-						"media" : "lose",
-						"chinese" : "果然还是太优柔寡断了吗…连累了大家，对不起…",
-						"chineseTL" : "",
-						"chineseNote" : "",
-						"japanese" : "やっぱりわたし、優柔不断すぎたでしょうか…迷惑をかけて申し訳ございません…",
-						"japaneseTL" : "",
-						"japaneseNote" : "",
-						"english" : "I see, because of my indecisiveness... I am terribly sorry for dragging everyone down...",
-						"englishNote" : ""
+					"19": {
+						"event": "Defeat",
+						"media": "lose",
+						"chinese": "果然还是太优柔寡断了吗…连累了大家，对不起…",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "やっぱりわたし、優柔不断すぎたでしょうか…迷惑をかけて申し訳ございません…",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "I see, because of my indecisiveness... I am terribly sorry for dragging everyone down...",
+						"englishNote": ""
 					},
-					"20" : {
-						"event" : "Skill",
-						"media" : "skill",
-						"chinese" : "花月，会全力支援大家的！",
-						"chineseTL" : "",
-						"chineseNote" : "",
-						"japanese" : "花月、支援に参ります！",
-						"japaneseTL" : "",
-						"japaneseNote" : "",
-						"english" : "Hanazuki is here to offer support!",
-						"englishNote" : ""
+					"20": {
+						"event": "Skill",
+						"media": "skill",
+						"chinese": "花月，会全力支援大家的！",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "花月、支援に参ります！",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Hanazuki is here to offer support!",
+						"englishNote": ""
 					},
-					"21" : {
-						"event" : "Low HP",
-						"media" : "hp",
-						"chinese" : "咕呜…只要其他同伴们没事就好…",
-						"chineseTL" : "",
-						"chineseNote" : "",
-						"japanese" : "くっ…ほかの子が無事でいれば…",
-						"japaneseTL" : "",
-						"japaneseNote" : "",
-						"english" : "Ngh... As long as the others are safe...",
-						"englishNote" : ""
+					"21": {
+						"event": "Low HP",
+						"media": "hp",
+						"chinese": "咕呜…只要其他同伴们没事就好…",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "くっ…ほかの子が無事でいれば…",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Ngh... As long as the others are safe...",
+						"englishNote": ""
 					},
-					"22" : {
-						"event" : "Affinity (Upset)",
-						"media" : "feeling1",
-						"chinese" : "指挥官，花月不想看到您就这么被大家疏远。但是再这样下去的话，恐怕花月也没法帮到您了…",
-						"chineseTL" : "",
-						"chineseNote" : "",
-						"japanese" : "指揮官さんが疎まれていくのは、見るに忍びません……ですが、このままではいずれわたしも…",
-						"japaneseTL" : "",
-						"japaneseNote" : "",
-						"english" : "Commander, I do not wish to see you ostracized by anyone... But at this rate, I may not be able to do anything for you...",
-						"englishNote" : ""
+					"22": {
+						"event": "Affinity (Upset)",
+						"media": "feeling1",
+						"chinese": "指挥官，花月不想看到您就这么被大家疏远。但是再这样下去的话，恐怕花月也没法帮到您了…",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "指揮官さんが疎まれていくのは、見るに忍びません……ですが、このままではいずれわたしも…",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Commander, I do not wish to see you ostracized by anyone... But at this rate, I may not be able to do anything for you...",
+						"englishNote": ""
 					},
-					"23" : {
-						"event" : "Affinity (Stranger)",
-						"media" : "feeling2",
-						"chinese" : "指挥官，今天阳光灿烂，是个美好的大晴天呢。有兴趣的话，要和花月一起赏花吗？",
-						"chineseTL" : "",
-						"chineseNote" : "",
-						"japanese" : "温かい日差し――気持ちいい晴れ日和ですね、指揮官さん。よろしければわたしとお花見でもいかがでしょうか？",
-						"japaneseTL" : "",
-						"japaneseNote" : "",
-						"english" : "The sun is shining brightly, and it's another beautiful day outside. Commander, if you aren't busy, would you like to view the flowers with me?",
-						"englishNote" : ""
+					"23": {
+						"event": "Affinity (Stranger)",
+						"media": "feeling2",
+						"chinese": "指挥官，今天阳光灿烂，是个美好的大晴天呢。有兴趣的话，要和花月一起赏花吗？",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "温かい日差し――気持ちいい晴れ日和ですね、指揮官さん。よろしければわたしとお花見でもいかがでしょうか？",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "The sun is shining brightly, and it's another beautiful day outside. Commander, if you aren't busy, would you like to view the flowers with me?",
+						"englishNote": ""
 					},
-					"24" : {
-						"event" : "Affinity (Friendly)",
-						"media" : "feeling3",
-						"chinese" : "说起来有些惭愧，每次想试着自己种点什么的时候，都会演变成纠结养究竟种哪种花，结果最后还是没能动手……指挥官有喜欢的花吗？这次我想给自己下定决心试一试呢。",
-						"chineseTL" : "",
-						"chineseNote" : "",
-						"japanese" : "お恥ずかしいことですが、園芸に何度も挑戦しようと思いましたが、どの花を生けるかの段階でどうしても選べず挫折してしまいまして……指揮官さんはお好きな花はありますでしょうか。今度こそ決心したく存じます！",
-						"japaneseTL" : "",
-						"japaneseNote" : "",
-						"english" : "It's embarrassing to admit it, but... I tried to pick up gardening several times but kept getting stuck because I couldn't decide what I wanted to grow... Commander, do you have any flowers that you're partial towards? I want to make up my mind this time!",
-						"englishNote" : ""
+					"24": {
+						"event": "Affinity (Friendly)",
+						"media": "feeling3",
+						"chinese": "说起来有些惭愧，每次想试着自己种点什么的时候，都会演变成纠结养究竟种哪种花，结果最后还是没能动手……指挥官有喜欢的花吗？这次我想给自己下定决心试一试呢。",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "お恥ずかしいことですが、園芸に何度も挑戦しようと思いましたが、どの花を生けるかの段階でどうしても選べず挫折してしまいまして……指揮官さんはお好きな花はありますでしょうか。今度こそ決心したく存じます！",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "It's embarrassing to admit it, but... I tried to pick up gardening several times but kept getting stuck because I couldn't decide what I wanted to grow... Commander, do you have any flowers that you're partial towards? I want to make up my mind this time!",
+						"englishNote": ""
 					},
-					"25" : {
-						"event" : "Affinity (Like)",
-						"media" : "feeling4",
-						"chinese" : "有的花一年四季都会绽放，有的花开花转瞬即逝…有观赏用的花，也有芳疗用的…指挥官喜欢的，是夺目盛放的花，还是不被注意，默默绽放的花呢…啊！那个，不好意思，我说了奇怪的话呢。",
-						"chineseTL" : "",
-						"chineseNote" : "",
-						"japanese" : "一年中咲く花、咲くも散るも一瞬の花、観賞用の花とアロマテラピー専門の……指揮官さんが好むのは目立つものか、目立たないものか……あ！すみません、今変な独り言を言っていましたね…",
-						"japaneseTL" : "",
-						"japaneseNote" : "",
-						"english" : "Some flowers bloom all year long while others are fleeting and ephemeral. Some are purely ornamental, while others have therapeutic uses... Commander, do you like flowers that bloom dazzlingly, or those that bloom silently and out of view? ...Ah, sorry, I'm not making any sense...",
-						"englishNote" : ""
+					"25": {
+						"event": "Affinity (Like)",
+						"media": "feeling4",
+						"chinese": "有的花一年四季都会绽放，有的花开花转瞬即逝…有观赏用的花，也有芳疗用的…指挥官喜欢的，是夺目盛放的花，还是不被注意，默默绽放的花呢…啊！那个，不好意思，我说了奇怪的话呢。",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "一年中咲く花、咲くも散るも一瞬の花、観賞用の花とアロマテラピー専門の……指揮官さんが好むのは目立つものか、目立たないものか……あ！すみません、今変な独り言を言っていましたね…",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Some flowers bloom all year long while others are fleeting and ephemeral. Some are purely ornamental, while others have therapeutic uses... Commander, do you like flowers that bloom dazzlingly, or those that bloom silently and out of view? ...Ah, sorry, I'm not making any sense...",
+						"englishNote": ""
 					},
-					"26" : {
-						"event" : "Affinity (Love)",
-						"media" : "feeling5",
-						"chinese" : "指挥官，我想用一些花来装饰办公室，可以吗？我不在的时候，指挥官看到这些花，应该就能想起我了吧？嘻嘻，这是我的一点小私心哦~",
-						"chineseTL" : "",
-						"chineseNote" : "",
-						"japanese" : "指揮官さん、恐れ入りますが…執務室に生け花を飾ってもよろしいでしょうか？これでわたしがいないときでも、指揮官さんがわたしのことを思い出していただければと――小さなわがままでございます。ふふ",
-						"japaneseTL" : "",
-						"japaneseNote" : "",
-						"english" : "Commander, I hope this is not too presumptuous of me, but may I decorate your office with some fresh flowers? I want to give you something that reminds you of me, even when I am absent... It's just a little selfish whim of mine, hehe~",
-						"englishNote" : ""
+					"26": {
+						"event": "Affinity (Love)",
+						"media": "feeling5",
+						"chinese": "指挥官，我想用一些花来装饰办公室，可以吗？我不在的时候，指挥官看到这些花，应该就能想起我了吧？嘻嘻，这是我的一点小私心哦~",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "指揮官さん、恐れ入りますが…執務室に生け花を飾ってもよろしいでしょうか？これでわたしがいないときでも、指揮官さんがわたしのことを思い出していただければと――小さなわがままでございます。ふふ",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Commander, I hope this is not too presumptuous of me, but may I decorate your office with some fresh flowers? I want to give you something that reminds you of me, even when I am absent... It's just a little selfish whim of mine, hehe~",
+						"englishNote": ""
 					},
-					"27" : {
-						"event" : "Pledge",
-						"media" : "propose",
-						"chinese" : "没想到，在我还在为自己的感情犹豫不决的时候，指挥官就已经先一步给出了答案呢。我也是时候真正地自己做出一次决定了…嗯，指挥官，花月很高兴能收下您的戒指，也很荣幸能成为您眼中最珍贵的那个人！",
-						"chineseTL" : "",
-						"chineseNote" : "",
-						"japanese" : "わたしが迷っている間に、指揮官さんはとっくに答えをお持ちでしたね。でしたらわたしも迷うことなく……花月、喜んでこの指輪をお受けします。指揮官さんにとって、大切な子として――",
-						"japaneseTL" : "",
-						"japaneseNote" : "",
-						"english" : "I see that while my heart was still wavering, you've already made up yours. Then, I won't hesitate to reciprocate your feelings either... Hanazuki will gladly accept this ring. I'm so glad that I can be someone who is important to you...",
-						"englishNote" : ""
+					"27": {
+						"event": "Pledge",
+						"media": "propose",
+						"chinese": "没想到，在我还在为自己的感情犹豫不决的时候，指挥官就已经先一步给出了答案呢。我也是时候真正地自己做出一次决定了…嗯，指挥官，花月很高兴能收下您的戒指，也很荣幸能成为您眼中最珍贵的那个人！",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "わたしが迷っている間に、指揮官さんはとっくに答えをお持ちでしたね。でしたらわたしも迷うことなく……花月、喜んでこの指輪をお受けします。指揮官さんにとって、大切な子として――",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "I see that while my heart was still wavering, you've already made up yours. Then, I won't hesitate to reciprocate your feelings either... Hanazuki will gladly accept this ring. I'm so glad that I can be someone who is important to you...",
+						"englishNote": ""
 					},
-					"28" : {
-						"event" : "Easter Egg 1(Niizuki, Harutsuki, Yoizuki)",
-						"media" : "link1",
-						"chinese" : "注意反潜和防空警戒！",
-						"chineseTL" : "",
-						"chineseNote" : "",
-						"japanese" : "対潜対空哨戒、気をつけて！",
-						"japaneseTL" : "",
-						"japaneseNote" : "",
-						"english" : "Anti-sub, anti-air patrol, be careful!",
-						"englishNote" : ""
+					"28": {
+						"event": "Easter Egg 1(Niizuki, Harutsuki, Yoizuki)",
+						"media": "link1",
+						"chinese": "注意反潜和防空警戒！",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "対潜対空哨戒、気をつけて！",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Anti-sub, anti-air patrol, be careful!",
+						"englishNote": ""
 					},
-					"29" : {
-						"event" : "Easter Egg 2(Aurora)",
-						"media" : "link2",
-						"chinese" : "今天庭院的状况如何呢？",
-						"chineseTL" : "",
-						"chineseNote" : "",
-						"japanese" : "今日のガーデンの様子はいかがでしょうか？",
-						"japaneseTL" : "",
-						"japaneseNote" : "",
-						"english" : "How does your garden fare today?",
-						"englishNote" : ""
+					"29": {
+						"event": "Easter Egg 2(Aurora)",
+						"media": "link2",
+						"chinese": "今天庭院的状况如何呢？",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "今日のガーデンの様子はいかがでしょうか？",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "How does your garden fare today?",
+						"englishNote": ""
 					},
-					"30" : {
-						"event" : "Like Present",
-						"media" : "present_like",
-						"chinese" : "",
-						"chineseTL" : "",
-						"chineseNote" : "",
-						"japanese" : "",
-						"japaneseTL" : "",
-						"japaneseNote" : "",
-						"english" : "",
-						"englishNote" : ""
+					"30": {
+						"event": "Like Present",
+						"media": "present_like",
+						"chinese": "",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
 					},
-					"31" : {
-						"event" : "Dislike Present",
-						"media" : "present_dislike",
-						"chinese" : "",
-						"chineseTL" : "",
-						"chineseNote" : "",
-						"japanese" : "",
-						"japaneseTL" : "",
-						"japaneseNote" : "",
-						"english" : "",
-						"englishNote" : ""
+					"31": {
+						"event": "Dislike Present",
+						"media": "present_dislike",
+						"chinese": "",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
 					},
-					"32" : {
-						"event" : "Main Title",
-						"media" : "extra",
-						"chinese" : "",
-						"chineseTL" : "",
-						"chineseNote" : "",
-						"japanese" : "",
-						"japaneseTL" : "",
-						"japaneseNote" : "",
-						"english" : "",
-						"englishNote" : ""
+					"32": {
+						"event": "Main Title",
+						"media": "extra",
+						"chinese": "",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
 					}
 				}
 			},
 			"2": {
-				"skin_id" : "huayue_3",
-				"id" : "1",
-				"label" : "Morning Moon, Beachside Flower",
+				"skin_id": "huayue_3",
+				"id": "1",
+				"label": "Morning Moon, Beachside Flower",
+				"dialogue": {
+					"1": {
+						"event": "Ship Description",
+						"media": "",
+						"chinese": "说到夏天，就会想到叶樱和莲花，还有一望无际的向日葵花田…不过，偶尔像这样和指挥官一起悠闲地泡泡水，吹吹风，感觉也不错呢~",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "夏といえば葉桜に蓮華、ひまわりの季節だとお聞きしましたが……指揮官さんと一緒にのんびりと風に当たるのもいい気持ちですね。ふふ",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "I've heard some say that summer is the season of cherry blossoms, lotus petals, and sunflowers, but... If you ask me, being able to leisurely enjoy the breeze with you feels pretty good too. Hehe~",
+						"englishNote": ""
+					},
+					"2": {
+						"event": "Acquisition",
+						"media": "get_1",
+						"chinese": "说到夏天，就会想到叶樱和莲花，还有一望无际的向日葵花田…不过，偶尔像这样和指挥官一起悠闲地泡泡水，吹吹风，感觉也不错呢~",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "夏といえば葉桜に蓮華、ひまわりの季節だとお聞きしましたが……指揮官さんと一緒にのんびりと風に当たるのもいい気持ちですね。ふふ",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "I've heard some say that summer is the season of cherry blossoms, lotus petals, and sunflowers, but... If you ask me, being able to leisurely enjoy the breeze with you feels pretty good too. Hehe~",
+						"englishNote": ""
+					},
+					"3": {
+						"event": "Login",
+						"media": "login_1",
+						"chinese": "指挥官，今天虽然是休息放松的日子，但有什么需要花月帮忙的，也一定要说哦~",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "非番の日ではございますが、わたしがお力になれることがありましたら何でも仰ってくださいね",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Today may be my day off, but if there is anything I can do for you, please do not hesitate to call upon me.",
+						"englishNote": ""
+					},
+					"4": {
+						"event": "Details",
+						"media": "detail_1",
+						"chinese": "盛夏，真是不可思议…本应已经熟悉无比的场所，只是换了件泳装，像这样指挥官一起看着云彩，就有一种不可思议的新奇感……",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "いつもの海なのに、こうして違う格好で指揮官さんと一緒に雲を眺めたりしていると、不思議と新鮮な気持ちになりますね",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Even though it's the same sea as always, watching the clouds with you while wearing this unusual outfit is filling me with novel sensations I've never felt before...",
+						"englishNote": ""
+					},
+					"5": {
+						"event": "Main 1",
+						"media": "main_1_1",
+						"chinese": "指挥官！那边的水下好像有珊瑚群呢…真漂亮呀，感觉海中的“花田”也是一片绝妙的美景呢！",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "指揮官さん、あのサンゴ礁は…ふふふ、海の中にある「花」も美しいですね",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Look, Commander, that coral reef... Hehehe, the \"flowers\" in the sea are quite beautiful as well, aren't they? ",
+						"englishNote": ""
+					},
+					"6": {
+						"event": "Main 2",
+						"media": "main_2_1",
+						"chinese": "嗯~泳装我考虑了很久，最后是春月帮我决定的…指挥官觉得怎么样？合适吗？",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "この水着は…すごく悩みましたけど、最後は春月が選んでくれました。…指揮官さん、どうですか？似合っていますか？",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "This swimsuit... took a lot of agonizing over, but I eventually made my decision... Commander, what do you think? Does it look good on me? ",
+						"englishNote": ""
+					},
+					"7": {
+						"event": "Main 3",
+						"media": "main_3_1",
+						"chinese": "唔…啊，抱歉，看着海面就习惯性的想着会不会有潜艇了。今天是玩的日子，可不能这样，嗯！",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "…っ！‥あ、すみません、海を見ていたらいつの間にか対潜哨戒モードに……非番の日に張り詰めてはダメ、ですね！",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Gah...! ...Ah, s-sorry! I was just looking at the ocean... and suddenly shifted into anti-submarine mode... I know I shouldn't be so uptight during time off!",
+						"englishNote": ""
+					},
+					"8": {
+						"event": "Touch",
+						"media": "touch_1_1",
+						"chinese": "指挥官也想要游泳圈吗…？",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "浮き輪をお貸ししましょうか？",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Do you need me to lend you a swim ring?",
+						"englishNote": ""
+					},
+					"9": {
+						"event": "Touch (Special)",
+						"media": "touch_2_1",
+						"chinese": "呀哈！？诶？诶！等一下，那个…指挥官，再这样的话，带子就要松了…",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "きゃっ？！え、え！？すみません！…そ、その、指揮官さん、紐が……",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Eek?! Ehh?! S-sorry! Ah, um, Commander, the strap is...",
+						"englishNote": ""
+					},
+					"10": {
+						"event": "Return to Port",
+						"media": "home_1",
+						"chinese": "指挥官也玩累了吗？那么，要不要品尝一下我带的薰衣草蜂蜜茶？会让你感觉整个人又精神了哦~",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "指揮官さんもお疲れでしょうか…？ではラベンターティーはいかがでしょう。疲労回復には最適ですよ",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Are you weary, Commander? If so, why not try some of my lavender honey tea? It's great for recovering from fatigue.",
+						"englishNote": ""
+					}
+				}
+			},
+			"101": {
+				"skin_id" : "huayue_ex1100",
+				"id" : "0",
+				"label" : "Hanazuki ",
 				"dialogue" : {
 					"1" : {
-						"event" : "Ship Description",
-						"media" : "",
-						"chinese" : "说到夏天，就会想到叶樱和莲花，还有一望无际的向日葵花田…不过，偶尔像这样和指挥官一起悠闲地泡泡水，吹吹风，感觉也不错呢~",
+						"event" : "Login",
+						"media" : "login_ex1100",
+						"chinese" : "指挥官，辛苦了。接下来的工作…唔唔…先是整理资料，嗯！",
 						"chineseTL" : "",
 						"chineseNote" : "",
-						"japanese" : "夏といえば葉桜に蓮華、ひまわりの季節だとお聞きしましたが……指揮官さんと一緒にのんびりと風に当たるのもいい気持ちですね。ふふ",
+						"japanese" : "指揮官さん、お疲れ様でございます。わたしのすべき仕事は…え、ええと、まずは資料の整理、ですね！",
 						"japaneseTL" : "",
 						"japaneseNote" : "",
-						"english" : "I've heard some say that summer is the season of cherry blossoms, lotus petals, and sunflowers, but... If you ask me, being able to leisurely enjoy the breeze with you feels pretty good too. Hehe~",
+						"english" : "",
 						"englishNote" : ""
 					},
 					"2" : {
-						"event" : "Acquisition",
-						"media" : "get_1",
-						"chinese" : "说到夏天，就会想到叶樱和莲花，还有一望无际的向日葵花田…不过，偶尔像这样和指挥官一起悠闲地泡泡水，吹吹风，感觉也不错呢~",
+						"event" : "Details",
+						"media" : "detail_ex1100",
+						"chinese" : "这个月的花…再加上季节性的组合…全部都放上去好像不太行呢。果然还是得再挑选一下……指挥官，这、这样如何？",
 						"chineseTL" : "",
 						"chineseNote" : "",
-						"japanese" : "",
+						"japanese" : "今月の花は…あとは季節的に組み合わせを…全部飾ってはダメですね。一回絞り込まないと…指揮官さん、こ、これはどうでしょうか？",
 						"japaneseTL" : "",
 						"japaneseNote" : "",
 						"english" : "",
 						"englishNote" : ""
 					},
 					"3" : {
-						"event" : "Login",
-						"media" : "login_1",
-						"chinese" : "指挥官，今天虽然是休息放松的日子，但有什么需要花月帮忙的，也一定要说哦~",
+						"event" : "Main 1",
+						"media" : "main_1_ex1100",
+						"chinese" : "今天为指挥官准备的是…茉莉花茶！虽说最后还是随机选的就是了…",
 						"chineseTL" : "",
 						"chineseNote" : "",
-						"japanese" : "",
+						"japanese" : "今日、指揮官さんのために用意したのは…ええと、ジャスミンティーです！運任せに選びましたけど…",
 						"japaneseTL" : "",
 						"japaneseNote" : "",
 						"english" : "",
 						"englishNote" : ""
 					},
 					"4" : {
-						"event" : "Details",
-						"media" : "detail_1",
-						"chinese" : "盛夏，真是不可思议…本应已经熟悉无比的场所，只是换了件泳装，像这样指挥官一起看着云彩，就有一种不可思议的新奇感……",
+						"event" : "Main 2",
+						"media" : "main_2_ex1100",
+						"chinese" : "跟新月聊天是很开心的事情呢，不过，那孩子和熟人以外的对象说话时为什么会变成那样呢…",
 						"chineseTL" : "",
 						"chineseNote" : "",
-						"japanese" : "",
+						"japanese" : "新月の話し相手をするのは楽しいです。でも、あの子、身内以外と話すときはどうしてあんなに…",
 						"japaneseTL" : "",
 						"japaneseNote" : "",
 						"english" : "",
 						"englishNote" : ""
 					},
 					"5" : {
-						"event" : "Touch",
-						"media" : "touch_1_1",
-						"chinese" : "指挥官也想要游泳圈吗…？",
+						"event" : "Touch (Special)",
+						"media" : "touch_2_ex1100",
+						"chinese" : "",
 						"chineseTL" : "",
 						"chineseNote" : "",
-						"japanese" : "",
+						"japanese" : "…！指揮官さん、その…わたしにも予め、断っていただいたほうが心の準備ができるというか……うぅ…",
 						"japaneseTL" : "",
 						"japaneseNote" : "",
 						"english" : "",
 						"englishNote" : ""
 					},
 					"6" : {
-						"event" : "Touch (Special)",
-						"media" : "touch_2_1",
-						"chinese" : "呀哈！？诶？诶！等一下，那个…指挥官，再这样的话，带子就要松了…",
+						"event" : "Mission",
+						"media" : "task_ex1100",
+						"chinese" : "指挥官，下一个任务…做、做这个怎么样？",
 						"chineseTL" : "",
 						"chineseNote" : "",
-						"japanese" : "",
+						"japanese" : "指揮鑑さん、次の任務は……こ、これなんかどうでしょう？",
 						"japaneseTL" : "",
 						"japaneseNote" : "",
 						"english" : "",
@@ -793,11 +954,23 @@
 					},
 					"7" : {
 						"event" : "Return to Port",
-						"media" : "home_1",
-						"chinese" : "指挥官也玩累了吗？那么，要不要品尝一下我带的薰衣草蜂蜜茶？会让你感觉整个人又精神了哦~",
+						"media" : "home_ex1100",
+						"chinese" : "欢迎回来，指挥官。在亲潮的建议下，把装饰用的花稍微换了下，感觉如何呢？",
 						"chineseTL" : "",
 						"chineseNote" : "",
-						"japanese" : "",
+						"japanese" : "おかえりなさい指揮官さん。親潮にアドバイスしてもらって飾っている花をちょっと変えてみました。いかがでしょうか？",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"8" : {
+						"event" : "Affinity (Love)",
+						"media" : "feeling5_ex1100",
+						"chinese" : "指挥官，有好好给指挥室的花浇水了吗？…我也会好好照料这些花就是了，因为指挥官不在的时候，只要看到这些花，我就能想起指挥官了呢。呵呵",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "指揮官さん、執務室の花の水やり、しっかりやっていますか？……わたしも、指揮官さんがいないときは、いつでも思い出せるようこの子を大切にしています。ふふ",
 						"japaneseTL" : "",
 						"japaneseNote" : "",
 						"english" : "",

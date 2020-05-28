@@ -92,6 +92,38 @@
 					"id": "3"
 				}
 			}
+		},
+		"3": {
+			"id": "rangbaer_3",
+			"name": "秘密のAprès midi",
+			"description": "全く、お前ってやつは…人の隠れ家に立ち入ったのは覚悟の上の事だろうな。……いや、こっちだってたまたまこの場所を見つけただけだ。他のやつには教えんなよ",
+			"expression": {
+				"0": {
+					"id": "0"
+				},
+				"1": {
+					"id": "1"
+				},
+				"2": {
+					"id": "2"
+				},
+				"3": {
+					"id": "3"
+				},
+				"4": {
+					"id": "4"
+				}
+			}
+		},
+		"101": {
+			"id": "rangbaer_ex1100",
+			"name": "Jean Bart ",
+			"description": "Richelieu-class battleship – Jean Bart. ",
+			"expression": {
+				"0": {
+					"id": "0"
+				}
+			}
 		}
 	},
 	"defaultEquipment": {
@@ -828,6 +860,296 @@
 						"japaneseTL": "",
 						"japaneseNote": "",
 						"english": "I loathe red tape, nor do I have any desire to stand here like a flower vase for people to stare at... But I'm doing all of this for you, because you make me feel like it's all worth it. You've committed quite the serious offense, mon amour...",
+						"englishNote": ""
+					}
+				}
+			},
+			"3": {
+				"skin_id": "rangbaer_3",
+				"id": "2",
+				"label": "秘密のAprès midi",
+				"dialogue": {
+					"1": {
+						"event": "Ship Description",
+						"media": "",
+						"chinese": "你这家伙，知道擅自闯进海盗的秘密基地会有什么后果吧？……哼，好吧，我也是偶然发现的这里，别告诉别人",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "全く、お前ってやつは…人の隠れ家に立ち入ったのは覚悟の上の事だろうな。……いや、こっちだってたまたまこの場所を見つけただけだ。他のやつには教えんなよ",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"2": {
+						"event": "Acquisition",
+						"media": "get_2",
+						"chinese": "你这家伙，知道擅自闯进海盗的秘密基地会有什么后果吧？……哼，好吧，我也是偶然发现的这里，别告诉别人",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "全く、お前ってやつは…人の隠れ家に立ち入ったのは覚悟の上の事だろうな。……いや、こっちだってたまたまこの場所を見つけただけだ。他のやつには教えんなよ",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"3": {
+						"event": "Login",
+						"media": "login_2",
+						"chinese": "别乱动我的东西，小心我把你轰飞",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "オレの私物に勝手に触るなよ？…ぶっ飛ばすぞ",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"4": {
+						"event": "Details",
+						"media": "detail_2",
+						"chinese": "寻宝？哼，近海能有什么宝藏，等哪天解决了塞壬，我带你体会一下真正的寻宝",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "宝探しゲームだと？こんなところお宝なんてない。いつか…ふん、いつか退屈な平和が訪れたら、本物の宝探しというものを体験させてやる",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"5": {
+						"event": "Main 1",
+						"media": "main_1_2",
+						"chinese": "吊床只有一张，想休息自己想办法，我可不是你的保姆",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "悪いがハンモックはひとり用だ。休みたければ自分で準備しろ。オレはそこまで面倒を見ない",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"6": {
+						"event": "Main 2",
+						"media": "main_2_2",
+						"chinese": "竟然把工作也带到这里来做，你就这么喜欢这个地方吗？……喜欢和我相处？啧……",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "こんなところにまで仕事を持ち込むとは、どんだけ……オレと一緒にいるのが楽しい、だと？ちっ……///",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"7": {
+						"event": "Main 3",
+						"media": "main_3_2",
+						"chinese": "…咳咳咳！什么玩意…这不是絮库夫吗，啧，这家伙是怎么找到这里还睡得这么香的？真是麻烦的家伙",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "…！こいつ……シュルクーフじゃないか。ちっ…なんでここに寝込んでんだ？世話の焼ける奴だ",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"8": {
+						"event": "Touch",
+						"media": "touch_1_2",
+						"chinese": "……！用冰可乐搞突然袭击，你这家伙，最近胆子越来越大了啊",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "……！？冷たいコーラを当ててくるんじゃねぇぞ！お前…調子に乗ってんな…",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"9": {
+						"event": "Touch (Special)",
+						"media": "touch_2_2",
+						"chinese": "没人会来不意味着只有你可以为所欲为——我也可以，明白吗？",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "誰も来ないからとお前だけが好き勝手していいってことじゃない。――オレも、だ。わかるか？",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"10": {
+						"event": "Return to Port",
+						"media": "home_2",
+						"chinese": "别一回来就往我这里跑，我可不想这里变成派对场地",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "帰ってくるなり会いに来るのはよせ。…ここがパーティー会場みたいに騒がしくなるのはゴメンだからな",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"11": {
+						"event": "Affinity (Love)",
+						"media": "feeling5_2",
+						"chinese": "……嗯，啊，阳光真刺眼。……嗯？你还没走吗？……也不用一直待在我身边……啧，你这家伙，总是知道怎么让我高兴，真是令人生气",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "……ふぅ…まったく眩しい太陽だ。……まだいたのか？別にいつまでもここに……ふん、相変わらずオレを怒らせるのも喜ばせるのも上手い奴だ",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					}
+				}
+			},
+			"101": {
+				"skin_id": "rangbaer_ex1100",
+				"id": "0",
+				"label": "Jean Bart ",
+				"dialogue": {
+					"1": {
+						"event": "Login",
+						"media": "login_ex1100",
+						"chinese": "拿来，我帮你。…我是秘书舰，做这些是理所当然的吧？",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "よこせ。手伝わせろ。…オレが秘書艦だ。当然だろ？",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"2": {
+						"event": "Details",
+						"media": "detail_ex1100",
+						"chinese": "我可没有和敦刻尔克阿尔及利亚她们一起逛街买东西的闲心。你是最了解我的吧？反过来说，和你一起逛逛的话，倒是无妨",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "ダンケルクやアルジェリーたちと一緒に買い物する性分ではない。オレを一番よく知っているお前ならわかるだろ？逆に言えば、お前となら別にいいってことだ",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"3": {
+						"event": "Main 1",
+						"media": "main_1_ex1100",
+						"chinese": "我可不会输给什么新型舰，我可是维希的让巴尔，背负着神圣的鸢尾之名，唯有这份骄傲，绝不容退让",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "新鋭艦なぞに負ける気はない。オレはジャン・バール、ヴィシアの精強にして……聖なるアイリスの名を背負っているものだ。プライドを決して捨てたりはしない",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"4": {
+						"event": "Main 2",
+						"media": "main_2_ex1100",
+						"chinese": "要是在意黎塞留，不如一起去看看她？虽然信念不同，姑且我们也是姐妹",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "リシュリューのことが気になるなら、一緒に様子を見に行かないか？信念こそ違えど、オレたちは姉妹艦だ",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"5": {
+						"event": "Main 3",
+						"media": "main_3_ex1100",
+						"chinese": "虽然祈祷毫无意义，但发自内心的祈愿却是无妨，祈愿挚爱之人平安无事——这就是所谓的“人”之本心吧",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "祈るのは嫌いだが、願うことなら別にいい。愛する人の無事を心から願う――それがヒトというものだ",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"6": {
+						"event": "Touch",
+						"media": "touch_1_ex1100",
+						"chinese": "…可不能太依赖我了啊",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "……あまり甘えすぎんなよ",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"7": {
+						"event": "Touch (Special)",
+						"media": "touch_2_ex1100",
+						"chinese": "……就这么喜欢这里吗？",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "…………そんなにこの体が好きか？",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"8": {
+						"event": "Mission",
+						"media": "task_ex1100",
+						"chinese": "这点程度的奖励，似乎不太够呢，无论对你来说还是对我来说",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "この程度の報酬、足りないだろうな。お前にもオレにも",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"9": {
+						"event": "Return to Port",
+						"media": "home_ex1100",
+						"chinese": "有必要的话，我也会出击的。不过，在你的指挥下，似乎没有什么我的发挥机会了啊",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "オレが出る幕もあったかもしれないが、お前が指揮したならなんとも思わないな",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"10": {
+						"event": "Commission Complete",
+						"media": "expedition_ex1100",
+						"chinese": "吵吵闹闹的家伙们回来了呢。",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "騒がしい連中が戻ってきたな",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"11": {
+						"event": "Flagship",
+						"media": "warcry_ex1100",
+						"chinese": "荣光属于维希！",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "ヴィシアに栄光あれ！",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"12": {
+						"event": "Affinity (Love)",
+						"media": "feeling5_ex1100",
+						"chinese": "……啊，抱歉，不小心打了个盹，你也要睡一会吗？膝盖可以借你。……没关系，我会一直跟你待在一起的",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "…………あっ、すまないつい寝ぼけてしまったか。お前も少し寝るか？今度はこっちが膝枕してやろう。…大丈夫。お前とオレはいつも繋がっている",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
 						"englishNote": ""
 					}
 				}
