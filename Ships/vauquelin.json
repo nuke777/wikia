@@ -3,67 +3,116 @@
 	"cn_reference" : "wokelan",
 	"nameJP" : "ヴォークラン",
 	"nameCN" : "沃克兰",
-	"ID": "",
-	"name": "Vauquelin",
-	"internal_id": "",
-	"rarity": "",
-	"initialStar": "",
-	"hull": "Destroyer",
-	"navy": "Vichya Dominion",
-	"prefix": "MNF",
-	"buildTime": "",
-	"class": "Vauquelin-class ",
-	"voiceActress": "",
+	"cn_reference" : "wokelan",
+	"nameJP" : "ヴォークラン",
+	"nameCN" : "沃克兰",
+	"ID" : "457",
+	"name" : "Vauquelin",
+	"internal_id" : "901031",
+	"rarity" : "Elite",
+	"initialStar" : "★★☆☆☆",
+	"hull" : "Destroyer",
+	"navy" : "Vichya Dominion",
+	"prefix" : "MNF",
+	"buildTime" : "00:26:00",
 	"parameters": {
-		"firepower": "",
-		"torpedo": "",
-		"aviation": "",
-		"evasion": "",
-		"antiAir": "",
-		"hp": ""
+		"firepower" : "",
+		"torpedo" : "",
+		"aviation" : "",
+		"evasion" : "",
+		"antiAir" : "",
+		"hp" : ""
 	},
 	"scrap": {
-		"gold": "",
-		"oil": "",
-		"medal": ""
+		"gold" : "4",
+		"oil" : "3",
+		"medal" : "4"
 	},
 	"releaseDate": {
-		"JP": "",
-		"CN": "",
-		"KR": "",
-		"EN": ""
+		"JP" : "May 21, 2020",
+		"CN" : "May 21, 2020",
+		"KR" : "May 21, 2020",
+		"EN" : ""
 	},
 	"artist": {
-		"name": "",
-		"weibo": "",
-		"twitter": "",
-		"pixiv": "",
-		"other": ""
+		"name" : "Vilor",
+		"weibo" : "https://weibo.com/u/2450411934",
+		"twitter" : "https://twitter.com/Vilor_0414",
+		"pixiv" : "https://www.pixiv.net/member.php?id=2436160",
+		"other" : ""
 	},
+	"class" : "Vauquelin-Class ",
 	"enhance": {
-		"firepower": "",
-		"torpedo": "",
-		"aviation": "",
-		"reload": ""
+		"firepower" : "7",
+		"torpedo" : "17",
+		"aviation" : "0",
+		"reload" : "14"
 	},
-	"acquisitionMethod": "",
+	"acquisitionMethod" : "Event: Skybound Oratorio",
 	"skill": {
-		"1": {
-			"icon": "",
-			"requirement": "",
-			"name": "",
-			"type": "",
-			"description": ""
+		"1" : {
+			"icon" : "13330",
+			"requirement" : "Default Unlocked",
+			"name" : "Sonnez la charge!",
+			"type" : "Support",
+			"description" : "All Vauquelin-class ships gain 5% (15%) more TP/EV; self FP/AA/ACC is increased by 4.5% (12%) for first 30s of battle."
+		},
+		"2" : {
+			"icon" : "28031",
+			"requirement" : "Limit Break I (III)",
+			"name" : "All Out Assault Ⅰ",
+			"type" : "Offensive",
+			"description" : "Activates All Out Assault Ⅰ: Vauquelin-class once every 15 times the Main Guns are fired."
 		}
 	},
 	"skin": {
-		"1": {
-			"id": "wokelan",
-			"name": "Vauquelin",
-			"description": "Vauquelin-class destroyer – Vauquelin. ",
-			"expression": {
+		"1" : {
+			"id" : "wokelan",
+			"name" : "ヴォークラン",
+			"description" : "ヴォークラン級駆逐艦・ヴォークラン",
+			"expression" : {
 				"0": {
 					"id": ""
+				},
+				"1" : {
+					"id" : "1"
+				},
+				"2" : {
+					"id" : "2"
+				},
+				"3" : {
+					"id" : "3"
+				},
+				"4" : {
+					"id" : "4"
+				},
+				"5" : {
+					"id" : "5"
+				},
+				"6" : {
+					"id" : "6"
+				},
+				"7" : {
+					"id" : "7"
+				},
+				"8" : {
+					"id" : "8"
+				},
+				"9" : {
+					"id" : "9"
+				},
+				"10" : {
+					"id" : "10"
+				}
+			}
+		},
+		"2" : {
+			"id" : "wokelan_2",
+			"name" : "天然純真サマーナイト",
+			"description" : "しきかーん！もう、非番の日に何をしてるの？今日は思いっきり頭を空っぽにして遊ぶって決めたじゃない！ほら、さっさと海に行こうよ！",
+			"expression" : {
+				"0" : {
+					"id" : "0"
 				},
 				"1" : {
 					"id" : "1"
@@ -99,145 +148,158 @@
 		}
 	},
 	"defaultEquipment": {
-		"1": {
-			"icon": "",
-			"rarity": "",
-			"name": ""
+		"1" : {
+			"icon" : "50700",
+			"rarity" : "Common",
+			"name" : "Single 138.6mm Main Gun (Mle 1927)"
 		},
-		"2": {
-			"icon": "",
-			"rarity": "",
-			"name": ""
+		"2" : {
+			"icon" : "5400",
+			"rarity" : "Common",
+			"name" : "Triple 550mm Torpedo"
 		},
-		"3": {
-			"icon": "",
-			"rarity": "",
-			"name": ""
+		"3" : {
+			"icon" : "",
+			"rarity" : "",
+			"name" : ""
 		}
 	},
 	"stats": {
+		"base": {
+			"hp" : "301",
+			"firepower" : "21",
+			"torpedo" : "52",
+			"antiAir" : "27",
+			"aviation" : "0",
+			"reload" : "76",
+			"hit" : "70",
+			"evasion" : "78",
+			"speed" : "43.2",
+			"luck" : "48",
+			"asw" : "51",
+			"oxygen" : "0",
+			"ammo" : "0",
+			"cost" : "2",
+			"armor" : "Light"
+		},
 		"100": {
-			"hp": "",
-			"firepower": "",
-			"torpedo": "",
-			"antiAir": "",
-			"aviation": "",
-			"reload": "",
-			"hit": "",
-			"evasion": "",
-			"speed": "",
-			"luck": "",
-			"asw": "",
-			"oxygen": "",
-			"ammo": "",
-			"cost": "",
-			"armor": ""
+			"hp" : "1557",
+			"firepower" : "98",
+			"torpedo" : "244",
+			"antiAir" : "124",
+			"aviation" : "0",
+			"reload" : "179",
+			"hit" : "182",
+			"evasion" : "204",
+			"speed" : "43.2",
+			"luck" : "48",
+			"asw" : "187",
+			"oxygen" : "0",
+			"ammo" : "0",
+			"cost" : "9",
+			"armor" : "Light"
 		},
 		"120": {
-			"hp": "",
-			"firepower": "",
-			"torpedo": "",
-			"antiAir": "",
-			"aviation": "",
-			"reload": "",
-			"hit": "",
-			"evasion": "",
-			"speed": "",
-			"luck": "",
-			"asw": "",
-			"oxygen": "",
-			"ammo": "",
-			"cost": "",
-			"armor": ""
-		},
-		"base": {
-			"hp": "",
-			"firepower": "",
-			"torpedo": "",
-			"antiAir": "",
-			"aviation": "",
-			"reload": "",
-			"hit": "",
-			"evasion": "",
-			"speed": "",
-			"luck": "",
-			"asw": "",
-			"oxygen": "",
-			"ammo": "",
-			"cost": "",
-			"armor": ""
+			"hp" : "1868",
+			"firepower" : "113",
+			"torpedo" : "279",
+			"antiAir" : "143",
+			"aviation" : "0",
+			"reload" : "206",
+			"hit" : "191",
+			"evasion" : "212",
+			"speed" : "43.2",
+			"luck" : "48",
+			"asw" : "207",
+			"oxygen" : "0",
+			"ammo" : "0",
+			"cost" : "9",
+			"armor" : "Light"
 		},
 		"100retrofit": {
-			"hp": "",
-			"firepower": "",
-			"torpedo": "",
-			"antiAir": "",
-			"aviation": "",
-			"reload": "",
-			"hit": "",
-			"evasion": "",
-			"speed": "",
-			"luck": "",
-			"asw": "",
-			"oxygen": "",
-			"ammo": "",
-			"cost": "",
-			"armor": ""
+			"hp" : "",
+			"firepower" : "",
+			"torpedo" : "",
+			"antiAir" : "",
+			"aviation" : "",
+			"reload" : "",
+			"hit" : "",
+			"evasion" : "",
+			"speed" : "43.2",
+			"luck" : "48",
+			"asw" : "",
+			"oxygen" : "0",
+			"ammo" : "0",
+			"cost" : "9",
+			"armor" : "Light"
 		},
 		"120retrofit": {
-			"hp": "",
-			"firepower": "",
-			"torpedo": "",
-			"antiAir": "",
-			"aviation": "",
-			"reload": "",
-			"hit": "",
-			"evasion": "",
-			"speed": "",
-			"luck": "",
-			"asw": "",
-			"oxygen": "",
-			"ammo": "",
-			"cost": "",
-			"armor": ""
+			"hp" : "",
+			"firepower" : "",
+			"torpedo" : "",
+			"antiAir" : "",
+			"aviation" : "",
+			"reload" : "",
+			"hit" : "",
+			"evasion" : "",
+			"speed" : "43.2",
+			"luck" : "48",
+			"asw" : "",
+			"oxygen" : "0",
+			"ammo" : "0",
+			"cost" : "9",
+			"armor" : "Light"
 		}
 	},
 	"limitBreak": {
-		"tier1": "",
-		"tier2": "",
-		"tier3": ""
+		"tier1": "全弾発射スキル習得/主砲補正+5%",
+		"tier2": "魚雷装填数+1/開始時魚雷+1/主砲補正+10%",
+		"tier3": "全弾発射弾幕強化/武器補正+5%"
 	},
 	"equipmentLoadout": {
 		"1": {
-			"type": "",
-			"efficiency": "",
-			"amount": "",
-			"preload": ""
+			"type": "Destroyer Gun",
+			"efficiency": "120%/125%/135%/140%",
+			"amount": "1/1/1/1",
+			"preload": "0/0/0/0"
 		},
 		"2": {
-			"type": "",
-			"efficiency": "",
-			"amount": "",
-			"preload": ""
+			"type": "Torpedo",
+			"efficiency": "135%/135%/135%/140%",
+			"amount": "1/1/2/2",
+			"preload": "0/0/1/1"
 		},
 		"3": {
-			"type": "",
-			"efficiency": "",
-			"amount": "",
-			"preload": ""
+			"type": "Anti-Air Gun",
+			"efficiency": "70%/70%/70%/75%",
+			"amount": "1/1/1/1",
+			"preload": "0/0/0/0"
 		},
 		"4": {
-			"type": "Auxiliary",
+			"type": "Auxilary",
 			"efficiency": "-",
 			"amount": "-",
 			"preload": "-"
 		},
 		"5": {
-			"type": "Auxiliary",
+			"type": "Auxilary",
 			"efficiency": "-",
 			"amount": "-",
 			"preload": "-"
 		}
+	},
+	"fleet_tech": {
+		"pt_get": "16",
+		"add_get_attr": "HP",
+		"add_get_value": "1",
+		"add_get_shiptype": "Destroyer",
+		"pt_upgrade": "32",
+		"pt_level": "24",
+		"add_level_attr": "Firepower",
+		"add_level_value": "1",
+		"add_level_shiptype": "Destroyer",
+		"t_level": "7",
+		"ships": "tartu,vauquelin"
 	},
 	"build": {
 		"light": {
@@ -256,9 +318,9 @@
 			"EN": ""
 		},
 		"limited": {
-			"JP": "",
-			"CN": "",
-			"EN": ""
+			"JP": "✓",
+			"CN": "✓",
+			"EN": "✓"
 		}
 	},
 	"drop": {
@@ -283,37 +345,463 @@
 	"lines": {
 		"skin": {
 			"1": {
-				"skin_id": "wokelan",
-				"id": "0",
-				"label": "Vauquelin",
-				"dialogue": {
-					"1": {
-						"event": "",
-						"media": "",
-						"chinese": "",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "",
-						"englishNote": ""
+				"skin_id" : "wokelan",
+				"id" : "0",
+				"label" : "ヴォークラン",
+				"dialogue" : {
+					"1" : {
+						"event" : "Ship Description",
+						"media" : "",
+						"chinese" : "维希教廷沃克兰级驱逐舰—沃克兰",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "ヴォークラン級駆逐艦・ヴォークラン",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"2" : {
+						"event" : "Biography",
+						"media" : "profile",
+						"chinese" : "（虽然很想做个超帅的自我介绍，但是我的舰历确实没有什么值得一提的呢，除了护送过敦刻尔克和阿尔及利亚……）嗯，这样吧，我是维希教廷的沃克兰，将来会成为很厉害的舰船！怎么样！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "（自己紹介をカッコよくやってみたいけど、カンレキ的になんか言うことあんまりないよね…ダンケルクさんとアルジェリーさんを護衛したとか、うん、まあ…）と、というわけで、ヴィシア所属・ヴォークラン、将来有望な艦船なんだぞ！ど、どうだ！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"3" : {
+						"event" : "Acquisition",
+						"media" : "get",
+						"chinese" : "锵锵锵锵！沃克兰级大型驱逐舰一号舰，沃克兰，闪亮登场~欸，指挥官，不要露出那种表情嘛，我可是很厉害的哦！大概！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "じゃじゃーん！ヴォークラン級大型駆逐艦の一番艦、ヴォークラン、華麗に参上！…って、何だその顔！わたし、こう見えても強いよ！……た、多分ね！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"4" : {
+						"event" : "Login",
+						"media" : "login",
+						"chinese" : "指挥官，你走之前不是说好要给带点心的吗？我的点心呢！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "指揮官、お菓子の差し入れを持ってくるって約束してなかった？あ、あれ？してなかったっけ？",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"5" : {
+						"event" : "Details",
+						"media" : "detail",
+						"chinese" : "指挥官，你能不能不要突然出现，很吓人的",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "うわ？！指揮官、きゅ、急に現れないでよ…ビックリするし…",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"6" : {
+						"event" : "Main 1",
+						"media" : "main_1",
+						"chinese" : "指挥官，你好像很无聊的样子，我来给你表演个舞枪才艺吧！嘿呀！哇，指挥官当心！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "指揮官、なんかつまらそうにしてない？ふふん、余興に我が槍捌きを――わわ！？指揮官、危ないよ！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"7" : {
+						"event" : "Main 2",
+						"media" : "main_2",
+						"chinese" : "指挥官，我可不可以拜托你一件事？唔，就是，那个……晚饭的青椒可不可以去掉？",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "指揮官、一つお願いしても良い？あ、つまりね、その…夕食はピーマン抜きにしてもらえないかな…",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"8" : {
+						"event" : "Main 3",
+						"media" : "main_3",
+						"chinese" : "嗯嗯，嗯嗯嗯，哦哦，原来如此，我完全听明白了，指挥官，交给我吧！——才怪啊！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "おー、あー、そーゆーことね、完全に理解したー。わたしにおまかせ―…ってなるかー！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"9" : {
+						"event" : "Touch",
+						"media" : "touch_1",
+						"chinese" : "干嘛干嘛，有重要的事拜托我吗？",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "なになに？わたしに頼み事なの？",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"10" : {
+						"event" : "Touch (Special)",
+						"media" : "touch_2",
+						"chinese" : "指挥官，我稍微有点受到了惊吓……",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "指揮官、ちょっと引くわー",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"11" : {
+						"event" : "Rub",
+						"media" : "touch_head",
+						"chinese" : "诶嘿嘿嘿嘿嘿……",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "うへへへへへへ～",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"12" : {
+						"event" : "Mission",
+						"media" : "task",
+						"chinese" : "任务？哼哼，终于到了我出场的时候了吗！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "任務？ふふん、ついにわたしの出番ってことね！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"13" : {
+						"event" : "Mission Complete",
+						"media" : "mission_complete",
+						"chinese" : "指挥官，任务报酬一定有很多吧！？欸，没有吗！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "おお、指揮官、任務報酬が大漁大漁ー！あ、あれ？普通なの？",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"14" : {
+						"event" : "Mail",
+						"media" : "mail",
+						"chinese" : "邮件？啊，我这就去拿！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "メール？…あ、ちょっと取ってくるね！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"15" : {
+						"event" : "Return to Port",
+						"media" : "home",
+						"chinese" : "指挥官，来，让我摸摸你的头奖励你……呀哈哈，不要露出那副表情嘛~",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "ご褒美に指揮官、頭ナデナデの……わわ！そんな顔しないでってば！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"16" : {
+						"event" : "Commission Complete",
+						"media" : "expedition",
+						"chinese" : "接下来是委托完成，的，通，知——！唔唔，好啦，普通地迎接大家就行了对吧",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "委託完了の、お・し・ら・せー！…うん、普通に皆を出迎えてくるね",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"17" : {
+						"event" : "Enhancement",
+						"media" : "upgrade",
+						"chinese" : "该不会……我的工作也变多了吧……",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "もしかして…ついでに仕事も増やすつもり？",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"18" : {
+						"event" : "Flagship",
+						"media" : "warcry",
+						"chinese" : "让你们见识一下大型！驱逐舰的实力！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "大型の！駆逐艦の実力をご覧あれ！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"19" : {
+						"event" : "Victory",
+						"media" : "mvp",
+						"chinese" : "第一名！让我摆个超帅的pose！……呜哇，大家的眼神好伤人！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "一位！うんうん、ここはかっこいいガッツポーズを決めて……って、周りの視線が痛い！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"20" : {
+						"event" : "Defeat",
+						"media" : "lose",
+						"chinese" : "欸，指挥官，你难道在征求我的意见？这种事交给指挥官解决就好啦！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "え、まさか今わたしに意見を求めようとしなかった？いやいや、そこは指揮官が決めてくださいよ！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"21" : {
+						"event" : "Skill",
+						"media" : "skill",
+						"chinese" : "我还蛮厉害哦，大概！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "わたしは強いよー！多分！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"22" : {
+						"event" : "Low HP",
+						"media" : "hp",
+						"chinese" : "冷静，先寻找机会……",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "落ち着いて、機を見て……",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"23" : {
+						"event" : "Affinity (Upset)",
+						"media" : "feeling1",
+						"chinese" : "指挥官，你知道吗，我最讨厌的，就是没有自知之明的人了",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "指揮官さぁ、あのね？自分を省みない人はわりとね？嫌われると思うんだ…",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"24" : {
+						"event" : "Affinity (Stranger)",
+						"media" : "feeling2",
+						"chinese" : "哼哼哼，敦刻尔克的蛋糕~今天会是什么样的呢~指挥官也猜猜看吧",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "ダンケルクさんのケーキケーキ♪今日はどんなのがあるかなー？指揮官も当ててみない？",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"25" : {
+						"event" : "Affinity (Friendly)",
+						"media" : "feeling3",
+						"chinese" : "话说，以前塔尔图来向我咨询如何成为成熟女性时，我随口给了让她多看推理小说的建议，结果她真的听进去了……感觉，有点对不起她……",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "最近気になったこと…うーん…タルテュにどうやったらオトナのレディになれるか聞かれたとき、適当に最近読んだ推理小説を薦めたらなぜかハマっちゃったみたいで……なんか、悪いことをした気がする…",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"26" : {
+						"event" : "Affinity (Like)",
+						"media" : "feeling4",
+						"chinese" : "是不是真的笨蛋先不提，偶尔装傻是有好处的哦，这样的话，在聪明的时候就会让大家觉得，哇，沃克兰好像很聪明！……应该有吧？！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "本当にバカかどうかはともかく、たまにはバカをやったほうが良いと思うんだ。そしたら頭が冴えたときに「おっ、ヴォークラン凄い！」と思われることも……きっとある！ある…よね？",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"27" : {
+						"event" : "Affinity (Love)",
+						"media" : "feeling5",
+						"chinese" : "不过，老实说，当个笨蛋有时候很快乐哦，不用去想复杂的事情，而且还能给大家带来欢乐，推荐指挥官你要是累了的话也来试试~",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "それと、バカをやるときはなーんにも考えなくていいから、頭をすっきりすることができるよ！それに自分が楽しければ皆も楽しくなる！だから指揮官もやってみて、ね！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"28" : {
+						"event" : "Pledge",
+						"media" : "propose",
+						"chinese" : "欸，指挥官，你之前说要和我契约难道是来真的？……欸，虽然我也不是说哎呀一定是骗人的，是玩笑……但是，你确定你知道自己在说什么吧？",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "わわ。指揮官、この間言ってたケッコンって本気なの？！……ま、まあわたしも別に、絶対冗談だ―とか、ウソだーとかって思っていなかったけど…え、ええと…い、言ってることわかるよね……？",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"29" : {
+						"event" : "Easter Egg 1(Tartu)",
+						"media" : "link1",
+						"chinese" : "塔尔图，借你的书看完了吗？",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "タルテュ、この間貸した本もう呼んだ？",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"30" : {
+						"event" : "Like Present",
+						"media" : "present_like",
+						"chinese" : "",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"31" : {
+						"event" : "Dislike Present",
+						"media" : "present_dislike",
+						"chinese" : "",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"32" : {
+						"event" : "Main Title",
+						"media" : "extra",
+						"chinese" : "",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					}
+				}
+			},
+			"2": {
+				"skin_id" : "wokelan_2",
+				"id" : "1",
+				"label" : "天然純真サマーナイト",
+				"dialogue" : {
+					"1" : {
+						"event" : "Ship Description",
+						"media" : "",
+						"chinese" : "指挥官！真是的，明明今天不上班在干什么呢！不是说好了今天要放空大脑玩个痛快吗！快点一起去海里吧！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "しきかーん！もう、非番の日に何をしてるの？今日は思いっきり頭を空っぽにして遊ぶって決めたじゃない！ほら、さっさと海に行こうよ！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"2" : {
+						"event" : "Acquisition",
+						"media" : "get_1",
+						"chinese" : "指挥官！真是的，明明今天放假在干什么呢！不是说好了今天要放空大脑玩个痛快吗！快点一起去海边玩吧！ ",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"3" : {
+						"event" : "Details",
+						"media" : "detail_1",
+						"chinese" : "塔尔图，不会不小心被海浪冲走了吧……不，应该不可能",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"4" : {
+						"event" : "Touch",
+						"media" : "touch_1_1",
+						"chinese" : "嘻嘻，怎么样，沃克兰的泳装？……嗯，该凸的地方没有凸对吧，我知道的……",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"5" : {
+						"event" : "Touch (Special)",
+						"media" : "touch_2_1",
+						"chinese" : "和塔尔图比的话那我确实……等等你在干啥啊！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
 					}
 				}
 			}
 		}
-	},
-	"fleet_tech": {
-		"pt_get": "",
-		"add_get_attr": "",
-		"add_get_value": "",
-		"add_get_shiptype": "",
-		"pt_upgrade": "",
-		"pt_level": "",
-		"add_level_attr": "",
-		"add_level_value": "",
-		"add_level_shiptype": "",
-		"t_level": "",
-		"ships": ""
 	}
 }

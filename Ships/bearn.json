@@ -1,0 +1,816 @@
+{
+	"name_reference" : "bearn",
+	"cn_reference" : "beiyaen",
+	"nameJP" : "ベアルン",
+	"nameCN" : "贝亚恩",
+	"ID" : "458",
+	"name" : "Béarn",
+	"internal_id" : "807011",
+	"rarity" : "Elite",
+	"initialStar" : "★★☆☆☆",
+	"hull" : "Aircraft Carrier",
+	"navy" : "Iris Libre",
+	"prefix" : "FFNF",
+	"buildTime" : "",
+	"parameters": {
+		"firepower" : "",
+		"torpedo" : "",
+		"aviation" : "",
+		"evasion" : "",
+		"antiAir" : "",
+		"hp" : ""
+	},
+	"scrap": {
+		"gold" : "9",
+		"oil" : "3",
+		"medal" : "4"
+	},
+	"releaseDate": {
+		"JP" : "May 21, 2020",
+		"CN" : "May 21, 2020",
+		"KR" : "May 21, 2020",
+		"EN" : ""
+	},
+	"artist": {
+		"name" : "股间少女",
+		"weibo" : "https://www.weibo.com/u/5205759948",
+		"twitter" : "https://twitter.com/gujianshaonv",
+		"pixiv" : "https://www.pixiv.net/member.php?id=12834728",
+		"other" : "Béarn-Class"
+	},
+	"class" : "ベアルン",
+	"enhance": {
+		"firepower" : "3",
+		"torpedo" : "5",
+		"aviation" : "58",
+		"reload" : "8"
+	},
+	"acquisitionMethod" : "Event: Skybound Oratorio",
+	"skill": {
+		"1" : {
+			"icon" : "13340",
+			"requirement" : "Default Unlocked",
+			"name" : "秘蹟・聖装砲撃",
+			"type" : "Offensive",
+			"description" : "If this ship's third slot is equipped with a gun, increase its slot efficiency by 25% (45%), increase that weapon's range to 80, and fire a special barrage every 24 seconds. If the third slot is equipped with a dive bomber, decrease the load time of this ship's first airstrike by 20% (50%)."
+		},
+		"2" : {
+			"icon" : "13350",
+			"requirement" : "Default Unlocked",
+			"name" : "秘蹟・聖翼積装",
+			"type" : "Offensive",
+			"description" : "Five seconds after an airstrike is ready to launch, trigger a special torpedo and plane barrage. Barrage damage is based on skill level. This may trigger up to three times per battle."
+		}
+	},
+	"skin": {
+		"1" : {
+			"id" : "beiyaen",
+			"name" : "ベアルン",
+			"description" : "航空母艦ベアルン",
+			"expression" : {
+				"0" : {
+					"id" : "0"
+				},
+				"1" : {
+					"id" : "1"
+				},
+				"2" : {
+					"id" : "2"
+				},
+				"3" : {
+					"id" : "3"
+				},
+				"4" : {
+					"id" : "4"
+				},
+				"5" : {
+					"id" : "5"
+				},
+				"6" : {
+					"id" : "6"
+				},
+				"7" : {
+					"id" : "7"
+				},
+				"8" : {
+					"id" : "8"
+				}
+			}
+		},
+		"2" : {
+			"id" : "beiyaen_2",
+			"name" : "アイリス・ライフガード",
+			"description" : "指揮官様、具合が悪いのですか？…そうですか、ただ日陰を探しているだけでしたか。承知しました。では、よければこちらにおかけください",
+			"expression" : {
+				"0" : {
+					"id" : "0"
+				},
+				"1" : {
+					"id" : "1"
+				},
+				"2" : {
+					"id" : "2"
+				},
+				"3" : {
+					"id" : "3"
+				},
+				"4" : {
+					"id" : "4"
+				}
+			}
+		}
+	},
+	"defaultEquipment": {
+		"1" : {
+			"icon" : "50820",
+			"rarity" : "Rare",
+			"name" : "グールドゥ・ルスールGL.2戦闘機"
+		},
+		"2" : {
+			"icon" : "50840",
+			"rarity" : "Rare",
+			"name" : "ピエール・ルヴァッスールPL.7攻撃機"
+		},
+		"3" : {
+			"icon" : "50800",
+			"rarity" : "Rare",
+			"name" : "155mm単装副砲Mle1920"
+		}
+	},
+	"stats": {
+		"base": {
+			"hp" : "1072",
+			"firepower" : "32",
+			"torpedo" : "47",
+			"antiAir" : "58",
+			"aviation" : "71",
+			"reload" : "41",
+			"hit" : "29",
+			"evasion" : "9",
+			"speed" : "21.5",
+			"luck" : "42",
+			"asw" : "0",
+			"oxygen" : "0",
+			"ammo" : "0",
+			"cost" : "4",
+			"armor" : "Medium"
+		},
+		"100": {
+			"hp" : "5541",
+			"firepower" : "152",
+			"torpedo" : "222",
+			"antiAir" : "270",
+			"aviation" : "335",
+			"reload" : "96",
+			"hit" : "76",
+			"evasion" : "23",
+			"speed" : "21.5",
+			"luck" : "42",
+			"asw" : "0",
+			"oxygen" : "0",
+			"ammo" : "0",
+			"cost" : "12",
+			"armor" : "Medium"
+		},
+		"120": {
+			"hp" : "6261",
+			"firepower" : "174",
+			"torpedo" : "255",
+			"antiAir" : "307",
+			"aviation" : "376",
+			"reload" : "110",
+			"hit" : "85",
+			"evasion" : "36",
+			"speed" : "21.5",
+			"luck" : "42",
+			"asw" : "0",
+			"oxygen" : "0",
+			"ammo" : "0",
+			"cost" : "12",
+			"armor" : "Medium"
+		},
+		"100retrofit": {
+			"hp" : "",
+			"firepower" : "",
+			"torpedo" : "",
+			"antiAir" : "",
+			"aviation" : "",
+			"reload" : "",
+			"hit" : "",
+			"evasion" : "",
+			"speed" : "21.5",
+			"luck" : "42",
+			"asw" : "",
+			"oxygen" : "0",
+			"ammo" : "0",
+			"cost" : "12",
+			"armor" : "Medium"
+		},
+		"120retrofit": {
+			"hp" : "",
+			"firepower" : "",
+			"torpedo" : "",
+			"antiAir" : "",
+			"aviation" : "",
+			"reload" : "",
+			"hit" : "",
+			"evasion" : "",
+			"speed" : "21.5",
+			"luck" : "42",
+			"asw" : "",
+			"oxygen" : "0",
+			"ammo" : "0",
+			"cost" : "12",
+			"armor" : "Medium"
+		}
+	},
+	"limitBreak": {
+		"tier1": "艦載機数+1/艦載機補正+3%",
+		"tier2": "攻撃隊上限+1/副兵装装備+1/艦載機補正+5%",
+		"tier3": "艦載機数+1/艦載機補正+7%"
+	},
+	"equipmentLoadout": {
+		"1": {
+			"type": "Fighter",
+			"efficiency": "120%/123%/128%/135%",
+			"amount": "1/2/2/3",
+			"preload": "0/0/0/0"
+		},
+		"2": {
+			"type": "Torpedo Bomber",
+			"efficiency": "125%/128%/133%/140%",
+			"amount": "1/2/2/3",
+			"preload": "0/0/0/0"
+		},
+		"3": {
+			"type": "Dive Bomber",
+			"efficiency": "55%/55%/55%/55%",
+			"amount": "1/1/2/2",
+			"preload": "0/0/0/0"
+		},
+		"4": {
+			"type": "Auxilary",
+			"efficiency": "-",
+			"amount": "-",
+			"preload": "-"
+		},
+		"5": {
+			"type": "Auxilary",
+			"efficiency": "-",
+			"amount": "-",
+			"preload": "-"
+		}
+	},
+	"fleet_tech": {
+		"pt_get": "18",
+		"add_get_attr": "HP",
+		"add_get_value": "1",
+		"add_get_shiptype": "Light Aircraft Carrier,Aircraft Carrier",
+		"pt_upgrade": "38",
+		"pt_level": "28",
+		"add_level_attr": "Aviation",
+		"add_level_value": "1",
+		"add_level_shiptype": "Light Aircraft Carrier,Aircraft Carrier",
+		"t_level": "4",
+		"ships": "baern"
+	},
+	"build": {
+		"light": {
+			"JP": "",
+			"CN": "",
+			"EN": ""
+		},
+		"heavy": {
+			"JP": "",
+			"CN": "",
+			"EN": ""
+		},
+		"special": {
+			"JP": "",
+			"CN": "",
+			"EN": ""
+		},
+		"limited": {
+			"JP": "",
+			"CN": "",
+			"EN": ""
+		}
+	},
+	"drop": {
+		"droppable": "false",
+		"list": {
+			"1": {
+				"event": "",
+				"chapter": {
+					"1": {
+						"label": "Ch .1",
+						"node": {
+							"1": {
+								"drop": "✓",
+								"note": "-"
+							}
+						}
+					}
+				}
+			}
+		}
+	},
+	"lines": {
+		"skin": {
+			"1": {
+				"skin_id" : "beiyaen",
+				"id" : "0",
+				"label" : "ベアルン",
+				"dialogue" : {
+					"1" : {
+						"event" : "Ship Description",
+						"media" : "",
+						"chinese" : "自由鸢尾航空母舰—贝亚恩",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "航空母艦ベアルン",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"2" : {
+						"event" : "Biography",
+						"media" : "profile",
+						"chinese" : "我曾是诺曼底级的一员，后来成为了鸢尾第一艘航空母舰。再后来，见证了自由鸢尾与维希教廷的同根相煎…真是的，希望这样的悲剧永远不要再在世界上发生了。",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "超弩級戦艦ノルマンディー級の5番艦――から改造された、アイリス初の空母・ベアルンと申します。アイリスとヴィシアとの軋轢を最後まで見届けていましたが……そのような悲劇が繰り返されませんよう願っています",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"3" : {
+						"event" : "Acquisition",
+						"media" : "get",
+						"chinese" : "鸢尾最初的航空母舰，贝亚恩号，向您报道。能与您共事是我的荣幸。指挥官大人，请按照您的需要吩咐我便是。",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "アイリス初の空母、ベアルン、着任しました。共に戦えて光栄です。なんなりとお命じください、指揮官様",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"4" : {
+						"event" : "Login",
+						"media" : "login",
+						"chinese" : "这是今天的事务安排，指挥官大人，请您过目。",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "本日のスケジュールです。指揮官様、ご確認を",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"5" : {
+						"event" : "Details",
+						"media" : "detail",
+						"chinese" : "操作的方式…过去的记录…材料的改良…如果尝试一下这个组合的话，会不会很有趣呢.....嗯，先记下来吧。",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "操作規定、ファクターの改良…この組み合わせなら役に立つでしょう。…書き記しておきましょう",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"6" : {
+						"event" : "Main 1",
+						"media" : "main_1",
+						"chinese" : "指挥官大人，不可以轻易翻开我带着的这本书哦。没有开玩笑，我是认真的。",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "恐縮ですが指揮官様、私の本、不用意に読まないほうがいいかと。…ウソでも冗談でもありませんが。",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"7" : {
+						"event" : "Main 2",
+						"media" : "main_2",
+						"chinese" : "指挥官大人，您是在发呆么？没关系，今天的规划上给您预留了充分的空余时间，请尽情发呆吧。",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "黄昏ているのですか。ご心配なく、どうぞ気の向くまま上の空でいてください。本日の予定ではその分ゆとりを取っていますので",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"8" : {
+						"event" : "Main 3",
+						"media" : "main_3",
+						"chinese" : "不论是工作日程还是晚餐食谱，我都会亲自为您安排。指挥官大人只需要将注意力集中在眼前的事上就好。",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "スケジュール管理や所用はこの私めが執り行います。どうぞ、目の前の仕事に集中を",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"9" : {
+						"event" : "Touch",
+						"media" : "touch_1",
+						"chinese" : "指挥官大人，我在这里。如果有事情需要我去做的话，请尽管开口。",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "指揮官様、ここにいます。所用がありましたらこの私めにご指示を",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"10" : {
+						"event" : "Touch (Special)",
+						"media" : "touch_2",
+						"chinese" : "“人最可悲的是没有知识和不能自我约束”指挥官大人是哪一种呢？",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "人たらしめる知識を持ち合わせていないか、己を律せないか、指揮官様はどっちなんでしょう",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"11" : {
+						"event" : "Mission",
+						"media" : "task",
+						"chinese" : "指挥官大人，指挥部发来了新的任务委托，我这就进行整理。",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "指揮官様、上層部より新しい任務指示の連絡が届いております。今整理を取り掛かります",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"12" : {
+						"event" : "Mission Complete",
+						"media" : "mission_complete",
+						"chinese" : "任务完成。很好，这样需要操心的事情就又少了一件。",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "任務完了です。心配事がまた一つ減りましたね",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"13" : {
+						"event" : "Mail",
+						"media" : "mail",
+						"chinese" : "指挥官大人，这是最新的邮件，我替您拿过来了。",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "届けに参りました。指揮官様、新たに届いた手紙です",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"14" : {
+						"event" : "Return to Port",
+						"media" : "home",
+						"chinese" : "指挥官大人需要糖分补充么？我明白了。给，这是我整理的港区甜品清单，请过目。",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "頭脳労働のための糖分補充、と仰いますか。では…在庫の甘味品の一覧になります。ご清覧を",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"15" : {
+						"event" : "Commission Complete",
+						"media" : "expedition",
+						"chinese" : "委托环节中，运输舰队的安全固然重要，但容易被忽视的一点是，收发港口的安全也同样重要哦。",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "輸送に関わる委託、積荷を守るのは重要ですが、積卸しの港の安全も大切でしょう",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"16" : {
+						"event" : "Enhancement",
+						"media" : "upgrade",
+						"chinese" : "您的付出不会白费的，指挥官大人。",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "報われない努力はありませんよ。指揮官様",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"17" : {
+						"event" : "Flagship",
+						"media" : "warcry",
+						"chinese" : "大家按照计划行事，准备战斗！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "作戦計画通り、戦闘準備を！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"18" : {
+						"event" : "Victory",
+						"media" : "mvp",
+						"chinese" : "如何，指挥官大人，我的发挥还让您满意吗？",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "いかがでしたか。ご満足いただける活躍でしたか",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"19" : {
+						"event" : "Defeat",
+						"media" : "lose",
+						"chinese" : "非常抱歉，指挥官大人，这次失败的责任完全在我。",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "申し訳ございません。指揮官様、今の敗北は全て私めの責任です",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"20" : {
+						"event" : "Skill",
+						"media" : "skill",
+						"chinese" : "就按照计划那样——",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "計画通りに参りましょう――",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"21" : {
+						"event" : "Low HP",
+						"media" : "hp",
+						"chinese" : "还好，损伤情况还在可控范围内……",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "よし、損傷状況、対処可能……",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"22" : {
+						"event" : "Affinity (Upset)",
+						"media" : "feeling1",
+						"chinese" : "您是我见过最英明的指挥官，您的所作所为都是对的——在指挥官大人梦里的话，我也许会这么说呢。",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "あなたは今までに出会ったことのない、この上なく素晴らしい指揮官であると――そんな言葉を私めが口にするのは夢のまた夢の話でしょう",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"23" : {
+						"event" : "Affinity (Stranger)",
+						"media" : "feeling2",
+						"chinese" : "嗯？指挥官大人果然还是对这本书很在意么。其实只是用来记录琐事的笔记本而已，不是什么可疑物品，请您放心——也没有什么好看的，请不用在意",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "この本のことが気になるのですか？ただのメモ帳「のような」ものです。怪しげな品ではありませんので、ご安心を――指揮官様がご覧になるようなものは何一つありませんよ",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"24" : {
+						"event" : "Affinity (Friendly)",
+						"media" : "feeling3",
+						"chinese" : "“魔导书”？倔强是这么向您介绍的啊，真是有趣的说法呢~很抱歉，指挥官大人。我突然想起了一件急事，请允许我先离开一下。",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "「魔導書」――なるほど、ルピニャ―トがそう言っていましたか。面白い例えですね。…申し訳ございません。所用が出来たゆえ少々席を外させていただきます",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"25" : {
+						"event" : "Affinity (Like)",
+						"media" : "feeling4",
+						"chinese" : "又是这个话题么...指挥官大人对此还真是热衷啊。“鸢尾的秘仪能实现任何奇迹”——如果是真的，指挥官会用来做什么呢~？",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "またその話題ですか。問い詰めてくるのは感心しませんね。「アイリスの秘蹟ならいかなる奇跡も成し得る」――仮にもし本当にそうだとしたら、指揮官様はその力をどう用いるのでしょうか？",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"26" : {
+						"event" : "Affinity (Love)",
+						"media" : "feeling5",
+						"chinese" : "指挥官大人，工作完成了，办公室整理好了，天气看起来也不错。接下来的时间——就如您所愿，让您勘见一下我的“爱之秘仪”吧",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "指揮官様、これにて本日の予定、執務室の雑務が全て終了しました。良いタイミングですので、これから――ええ、お望み通り、「愛の秘蹟」とやらをお見せしましょうか",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"27" : {
+						"event" : "Pledge",
+						"media" : "propose",
+						"chinese" : "改变心意，影响意志——如果这样的“秘仪”真的存在的话，誓约这一仪式毫无疑问就是最高级的魔法了吧。感觉身体轻飘飘的，幸福抑制不住的从心中涌出。呵呵，被这样的魔法“击中”的感觉，还不坏嘛~",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "人の心を動かし、相手を縛り付ける――そんな類の秘蹟があるとすれば、この「ケッコン」というものが最上級のものでしょうね。この多幸感と浮遊感…なるほど、秘蹟を施されるとはこういうことでしょう。悪くありませんね。ふふふ",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"28" : {
+						"event" : "Easter Egg 1(Émile Bertin, Jeanne d'Arc)",
+						"media" : "link1",
+						"chinese" : "这次也来运输些有趣的东西吧",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "面白いものを運んでみたいですね",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"29" : {
+						"event" : "Easter Egg 2(Richelieu, Jean Bart)",
+						"media" : "link2",
+						"chinese" : "很荣幸，能与你们两位并肩作战！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "肩を並べて戦える、恐悦至極です",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"30" : {
+						"event" : "Easter Egg 3(Hermes, Houshou)",
+						"media" : "link3",
+						"chinese" : "见识一下鸢尾的“秘仪”吧",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "アイリスの秘蹟、お見せしましょう",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"31" : {
+						"event" : "Like Present",
+						"media" : "present_like",
+						"chinese" : "",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"32" : {
+						"event" : "Dislike Present",
+						"media" : "present_dislike",
+						"chinese" : "",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"33" : {
+						"event" : "Main Title",
+						"media" : "extra",
+						"chinese" : "",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					}
+				}
+			},
+			"2": {
+				"skin_id" : "beiyaen_2",
+				"id" : "1",
+				"label" : "アイリス・ライフガード",
+				"dialogue" : {
+					"1" : {
+						"event" : "Ship Description",
+						"media" : "",
+						"chinese" : "指挥官大人感觉哪里不舒服吗？……只是来避暑的？嗯，我明白了，这里还有多余的空间，请坐吧。",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "指揮官様、具合が悪いのですか？…そうですか、ただ日陰を探しているだけでしたか。承知しました。では、よければこちらにおかけください",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"2" : {
+						"event" : "Acquisition",
+						"media" : "get_1",
+						"chinese" : "指挥官大人感觉哪里不舒服吗？……只是来避暑的？嗯，我明白了，这里还有多余的空间，请坐吧。",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"3" : {
+						"event" : "Login",
+						"media" : "login_1",
+						"chinese" : "指挥官大人，需要游泳圈吗？和那边的孩子们玩的时候也许用得上呢。",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"4" : {
+						"event" : "Details",
+						"media" : "detail_1",
+						"chinese" : "大家都以自己的方式在享受着盛夏的海滩呢，指挥官大人也去加入她们如何？堆沙堡或是打排球什么的…我？我的话，还是在这里看着大家就好",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"5" : {
+						"event" : "Touch",
+						"media" : "touch_1_1",
+						"chinese" : "泳装的姿态充满魅力？…指挥官大人，其实对每个女孩子都是这样称赞的吧？",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"6" : {
+						"event" : "Touch (Special)",
+						"media" : "touch_2_1",
+						"chinese" : "见不得人的事就应该在见不到人的地方做…不愧是指挥官啊。",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"7" : {
+						"event" : "Return to Port",
+						"media" : "home_1",
+						"chinese" : "指挥官大人刚刚是去游泳了吗？这里有还没用过的干毛巾，请用。",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					}
+				}
+			}
+		}
+	}
+}
