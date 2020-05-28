@@ -12,7 +12,7 @@
 	"navy": "Vichya Dominion",
 	"prefix": "MNF",
 	"buildTime": "00:33:00",
-	"class": "Le Fantasque-class",
+	"class": "Le Fantasque-class ",
 	"parameters": {
 		"firepower": "A",
 		"torpedo": "C",
@@ -45,19 +45,19 @@
 		"aviation": "0",
 		"reload": "14"
 	},
-	"acquisitionMethod": "Event: Iris of Light and Dark",
+	"acquisitionMethod": "Event: Iris of Light and Dark, 小型艦建造",
 	"skill": {
 		"1": {
 			"icon": "12320",
 			"requirement": "Default Unlocked",
-			"name": "Poison +Croix",
+			"name": "Poisonous Sting",
 			"type": "Offensive",
 			"description": "When main guns hits the same enemy 10 times, increase the damage it receives from destroyer torpedoes by 4.5%(12%) for 5s. When destroying an enemy ship, increase own Firepower by 0.5%(2%), stacks up to 10 times."
 		},
 		"2": {
 			"icon": "12330",
 			"requirement": "Default Unlocked",
-			"name": "Vichya's Heartbeat",
+			"name": "Vichya's Vindictive Blade",
 			"type": "Defensive",
 			"description": "When battles starts, increase own Evasion and Torpedo by 5%(20%). 30s after battles starts, this bonus fades over the next 20s"
 		},
@@ -72,8 +72,8 @@
 	"skin": {
 		"1": {
 			"id": "edu",
-			"name": "Le Malin",
-			"description": "Le Fantasque-class Destroyer - Le Malin",
+			"name": "Le Malin ",
+			"description": "Le Fantasque-class destroyer – Le Malin. ",
 			"expression": {
 				"0": {
 					"id": "0"
@@ -94,8 +94,8 @@
 		},
 		"2": {
 			"id": "edu_2",
-			"name": "ぐーだらディマンシュ",
-			"description": "指揮官、おはよー。はい、今日は神様的にも休息日だから、トリオンファンの名前を出しても無駄ですよ。今日はゼッタイに、頑張りませんからね",
+			"name": "Sleepy Sunday",
+			"description": "Morning, Commander~ Mm, the Sabbath is the day of rest, so I shall not budge from my sacred charge even if you were to call Triomphant over. I solemnly swear to do absolutely nothing today.",
 			"expression": {
 				"0": {
 					"id": "0"
@@ -226,9 +226,9 @@
 		}
 	},
 	"limitBreak": {
-		"tier1": "Unlock All Out Assault Ⅰ/Main gun efficiency +5%",
-		"tier2": "Torpedo base +1/Torpedo preload +1/Torpedo efficiency +10%",
-		"tier3": "Improve All Out Assault/All weapons' efficiency +5%"
+		"tier1": "Unlock EX Barrage Ⅰ/Main gun efficiency +5%",
+		"tier2": "Torpedo base +1/Torpedo preload +1/Main gun efficiency +10%",
+		"tier3": "Improve EX Barrage/All weapons' efficiency +5%"
 	},
 	"equipmentLoadout": {
 		"1": {
@@ -308,7 +308,7 @@
 			"1": {
 				"skin_id": "edu",
 				"id": "0",
-				"label": "Le Malin",
+				"label": "Le Malin ",
 				"dialogue": {
 					"1": {
 						"event": "Ship Description",
@@ -319,7 +319,7 @@
 						"japanese": "ル・ファンタスク級駆逐艦ル・マラン",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Le Fantasque-class destroyer – Le Malin.",
 						"englishNote": ""
 					},
 					"2": {
@@ -331,7 +331,7 @@
 						"japanese": "ヴィシア聖座所属。ル・ファンタスク級駆逐艦、ル・マラン。かつてはブレストの第八分隊に所属し、同型艦と一緒に戦っていました。その後、トリオンファンは私達とは異なる道を歩みましたが…えぇ、お互い無理しないことですね",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "I am Le Malin, Le Fantasque-class destroyer of the Vichya Dominion. I once fought alongside my friends of the 8th Light Division in Brest. After that, Le Triomphant went down a different path... Well, we don't hold it against each other.",
 						"englishNote": ""
 					},
 					"3": {
@@ -343,7 +343,7 @@
 						"japanese": "我は浪を駆ける空想、「エレガント」なるヴィシアの邪しき剣――駆逐艦ル・マラン、そなたの命に従うしもべとならん",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "I am the mirage that chases the waves, the poisoned blade that protects the Vichya Dominion. Super Destroyer, Le Malin, is yours to command.",
 						"englishNote": ""
 					},
 					"4": {
@@ -355,7 +355,7 @@
 						"japanese": "駆逐艦ル・マラン。いつでもご命令を……はああ……",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Destroyer, Le Malin, is ready to take your orders at any time... *yaawnn*...",
 						"englishNote": ""
 					},
 					"5": {
@@ -367,7 +367,7 @@
 						"japanese": "はあ……眠い……ベッドでゴロゴロしたい……Zzzzz……！？な、なんですか！？",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "*Yawn*... Sleepy... I wanna go roll around in bed... Zzzzz... Geh?! Wh-what is it?!",
 						"englishNote": ""
 					},
 					"6": {
@@ -379,7 +379,7 @@
 						"japanese": "速さがあっても、火力がなければ敵は倒せません。当然です",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Without firepower, speed alone is not enough to defeat the enemy. That goes without saying. ",
 						"englishNote": ""
 					},
 					"7": {
@@ -391,7 +391,7 @@
 						"japanese": "だるい……秘書艦やめ……はっ！なんでもありません！",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "So bored... maybe it's time to quit... Gah! I didn't say anything!",
 						"englishNote": ""
 					},
 					"8": {
@@ -403,7 +403,7 @@
 						"japanese": "ダンケルクさんの手作りお菓子……ぐへへへ……いかんいかん！まだ勤務時間中だぞ…！",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Dunkerque's handmade sweets... Guhehe... Ah, I mustn't! I'm still at work...!",
 						"englishNote": ""
 					},
 					"9": {
@@ -415,7 +415,7 @@
 						"japanese": "エレガントは…疲れるよね……！？な、なにか御用でしょうか！",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Being elegant... isn't worth the effort... Geh?! Wh-what do you want?!",
 						"englishNote": ""
 					},
 					"10": {
@@ -427,7 +427,7 @@
 						"japanese": "ひゃぅ！？な、何をするんですか！",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Hyah?! Wh-what are you doing?!",
 						"englishNote": ""
 					},
 					"11": {
@@ -439,7 +439,7 @@
 						"japanese": "新しい指示です。指揮官",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "We have new orders, Commander.",
 						"englishNote": ""
 					},
 					"12": {
@@ -451,7 +451,7 @@
 						"japanese": "指揮官、上からの褒賞です",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Commander, rewards incoming from above.",
 						"englishNote": ""
 					},
 					"13": {
@@ -463,7 +463,7 @@
 						"japanese": "指揮官への手紙です。……私への手紙はないですか？",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "This letter's for you, Commander... Is there nothing for me?",
 						"englishNote": ""
 					},
 					"14": {
@@ -475,7 +475,7 @@
 						"japanese": "トリオンファンに教えてもらった紅茶です。……バレましたか。ええ、ただのティーパックです。飲めば？",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "I steeped this tea just the way Triomphant taught me. ...So you knew, huh? Indeed, it's just a normal cup of tea. Please enjoy it.",
 						"englishNote": ""
 					},
 					"15": {
@@ -487,7 +487,7 @@
 						"japanese": "みんなが帰ってきました。早く出迎えに行きましょう",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "The others have returned. Let's hurry and greet them.",
 						"englishNote": ""
 					},
 					"16": {
@@ -499,7 +499,7 @@
 						"japanese": "頑張らなくてはなりませんね",
 						"japaneseTL": "I have to work my harndest now, ain't I.",
 						"japaneseNote": "",
-						"english": "",
+						"english": "It wouldn't be right if I didn't work even harder.",
 						"englishNote": ""
 					},
 					"17": {
@@ -511,7 +511,7 @@
 						"japanese": "ヴィシアを守る邪しき剣、参ります！",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "The blade that protects the Vichya Dominion advances!",
 						"englishNote": ""
 					},
 					"18": {
@@ -523,7 +523,7 @@
 						"japanese": "邪魔者は片付けておきました",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "I've eliminated those who would stand in our way.",
 						"englishNote": ""
 					},
 					"19": {
@@ -535,7 +535,7 @@
 						"japanese": "まだ負けていない……まだ……まだよ！！",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "I won't admit defeat... I haven't lost yet!!",
 						"englishNote": ""
 					},
 					"20": {
@@ -547,7 +547,7 @@
 						"japanese": "消えろ！！",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Begone!!",
 						"englishNote": ""
 					},
 					"21": {
@@ -559,7 +559,7 @@
 						"japanese": "手強い…！",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "So strong...!",
 						"englishNote": ""
 					},
 					"22": {
@@ -571,7 +571,7 @@
 						"japanese": "……（ル・マランは寝ているようだ）",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "...... (Le Malin seems to have fallen asleep)",
 						"englishNote": ""
 					},
 					"23": {
@@ -583,7 +583,7 @@
 						"japanese": "駆逐艦ル・マラン、そなたの秘書艦にして、ヴィシアの邪しき剣。なんなりとご命令ください",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Destroyer Le Malin is both your secretary and the blade that protects the Vichya Dominion. Please give me your orders.",
 						"englishNote": ""
 					},
 					"24": {
@@ -595,7 +595,7 @@
 						"japanese": "な、なんでもするとは言いましたけど…流石に仕事が多すぎですよ……もうだめ…疲れた……休みをください……",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "I, I did say that I was ready to take your orders at any time, but... there's just too much work after all...... Tired... Can't work anymore... Please let me go on leave...",
 						"englishNote": ""
 					},
 					"25": {
@@ -607,7 +607,7 @@
 						"japanese": "きょ、今日は頑張って働いたから、早退しても大丈夫ですか…？や、やった！これで帰って寝られるよ！…す、すみませんはしゃぎすぎました…",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "I, I can go home early today because I did such a good job...? Woah... Woohoo! Now I can head back and go to sleep! ...S-sorry, I got a bit excited there...",
 						"englishNote": ""
 					},
 					"26": {
@@ -619,7 +619,7 @@
 						"japanese": "指揮官、きょ、今日は一緒にちょっと早めに上がったら……別に疲れたわけじゃありませんよ！えっと、でで、デートとかでもどうかなと、お、思いまして……",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Commander, t-today, can we leave work a bit earlier? ...It's not because I'm tired! Um, I was thinking... if you wanted to go on a date or something...",
 						"englishNote": ""
 					},
 					"27": {
@@ -631,7 +631,7 @@
 						"japanese": "ヴィシアの剣として、私――ル・マランはこれからもずっとそなたを守り、そなたに永遠なる愛を捧げることを誓おう。……つ、疲れました…指揮官、早く帰りましょうよ……",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "As the blade that protects the Vichya Dominion, I, Le Malin, swear to defend you and offer you my eternal love. Um... this is really tiring... Commander, let's head back already...",
 						"englishNote": ""
 					},
 					"28": {
@@ -643,7 +643,7 @@
 						"japanese": "ル・トリオンファン……おかえり",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Welcome back... Le Triomphant.",
 						"englishNote": ""
 					},
 					"29": {
@@ -687,7 +687,7 @@
 			"2": {
 				"skin_id": "edu_2",
 				"id": "1",
-				"label": "ぐーだらディマンシュ",
+				"label": "Sleepy Sunday",
 				"dialogue": {
 					"1": {
 						"event": "Ship Description",
@@ -698,7 +698,7 @@
 						"japanese": "指揮官、おはよー。はい、今日は神様的にも休息日だから、トリオンファンの名前を出しても無駄ですよ。今日はゼッタイに、頑張りませんからね",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Morning, Commander~ Mm, the Sabbath is the day of rest, so I shall not budge from my sacred charge even if you were to call Triomphant over. I solemnly swear to do absolutely nothing today.",
 						"englishNote": ""
 					},
 					"2": {
@@ -710,7 +710,7 @@
 						"japanese": "指揮官、おはよー。はい、今日は神様的にも休息日だから、トリオンファンの名前を出しても無駄ですよ。今日はゼッタイに、頑張りませんからね",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Morning, Commander~ Mm, the Sabbath is the day of rest, so I shall not budge from my sacred charge even if you were to call Triomphant over. I solemnly swear to do absolutely nothing today.",
 						"englishNote": ""
 					},
 					"3": {
@@ -722,7 +722,7 @@
 						"japanese": "だるい…頑張りたくない……指揮官、用事があっても呼ばないでね……",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Tired... Don't wanna work... Commander, don't call for me even if you have something that needs doing...",
 						"englishNote": ""
 					},
 					"4": {
@@ -734,7 +734,7 @@
 						"japanese": "コホン！指揮官、コーヒーを持ってきました！……ま、まさか…安眠系の風邪薬をこっそり入れたのがバレたの…！？",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Ahem! Commander, I brought coffee! N-no way! How'd you figure out that I slipped cold medication into it...?!",
 						"englishNote": ""
 					},
 					"5": {
@@ -746,7 +746,7 @@
 						"japanese": "もう今日は仕事したくないですよぉ…しきかーん、早く休憩しましょうよ～休憩！はい！",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "I don't wanna do any more work todayyy... Commander, let's hurry up and take a break already~! Right! Now!",
 						"englishNote": ""
 					},
 					"6": {
@@ -758,7 +758,7 @@
 						"japanese": "ひゃぅ！？…もう、何するんですか！せっかく寝られそうだったのに……",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Hyah?! ...Jeez, what are you doing! Just when I was about to fall asleep...",
 						"englishNote": ""
 					},
 					"7": {
@@ -770,7 +770,7 @@
 						"japanese": "ル・ファンタスク級の力をご覧あれ！",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Witness the power of the Le Fantasque class!",
 						"englishNote": ""
 					},
 					"8": {
@@ -782,7 +782,7 @@
 						"japanese": "殲滅、完了。……って、今日は頑張らないと言ったじゃありませんか！",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Extermination complete...... Wait, didn't I say I wasn't going to do anything today?!",
 						"englishNote": ""
 					},
 					"9": {
@@ -794,7 +794,7 @@
 						"japanese": "今日はやっぱり仕事ができる日じゃないのね……早く帰って休みたい…",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "I really can't get any work done today after all... I just want to head back and relax already...",
 						"englishNote": ""
 					}
 				}
