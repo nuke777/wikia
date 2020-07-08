@@ -34,10 +34,10 @@
 		"EN": ""
 	},
 	"artist": {
-		"name": "",
-		"weibo": "",
-		"twitter": "",
-		"pixiv": "",
+		"name": "木shiyo",
+		"weibo": "https://weibo.com/u/2481339344",
+		"twitter": "https://twitter.com/kishiyo1943",
+		"pixiv": "https://www.pixiv.net/member.php?id=40222",
 		"other": ""
 	},
 	"enhance": {
@@ -50,21 +50,21 @@
 	"skill": {
 		"1": {
 			"icon": "2041",
-			"requirement": "",
+			"requirement": "Default Unlocked",
 			"name": "Focused Assault",
 			"type": "Offensive",
-			"description": "When this ship fires its Main Guns: $1 chance to deal double DMG with its Main Guns."
+			"description": "When this ship fires its Main Guns: 15.0% (30.0%) chance to deal double DMG with its Main Guns."
 		},
 		"2": {
 			"icon": "2051",
-			"requirement": "",
+			"requirement": "Default Unlocked",
 			"name": "Double Torpedo",
 			"type": "Offensive",
-			"description": "When this ship fires its Torpedoes: $1 chance to launch a second wave of Torpedoes."
+			"description": "When this ship fires its Torpedoes: 15.0% (30.0%) chance to launch a second wave of Torpedoes."
 		},
 		"3": {
 			"icon": "22261",
-			"requirement": "",
+			"requirement": "Limit Break I (III)",
 			"name": "All Out Assault Ⅰ",
 			"type": "Offensive",
 			"description": "Activate All Out Assault Ⅰ: Takao Class once every 9 times the main gun is fired."
@@ -78,6 +78,18 @@
 			"expression": {
 				"0": {
 					"id": "0"
+				},
+				"1": {
+					"id": "1"
+				},
+				"2": {
+					"id": "2"
+				},
+				"3": {
+					"id": "3"
+				},
+				"4": {
+					"id": "4"
 				}
 			}
 		},
@@ -112,6 +124,25 @@
 			}
 		},
 		"5": {
+			"id": "gaoxiong_5",
+			"name": "Full Throttle Charmer",
+			"description": "Ugh... S-such shameless attire... If not for Atago saying that it would benefit me to experience different things...! It looks good on me?! I, I see...",
+			"expression": {
+				"0": {
+					"id": "0"
+				},
+				"1": {
+					"id": "1"
+				},
+				"2": {
+					"id": "2"
+				},
+				"3": {
+					"id": "3"
+				}
+			}
+		},
+		"6": {
 			"id": "gaoxiong_h",
 			"name": "Sakura Hanami ",
 			"description": "Commander, I've been undertaking countless bride training sessions in order to prepare for this day. As your bride, I won't let you down. ",
@@ -279,9 +310,9 @@
 			"EN": ""
 		},
 		"heavy": {
-			"JP": "",
-			"CN": "",
-			"EN": ""
+			"JP": "✓",
+			"CN": "✓",
+			"EN": "✓"
 		},
 		"special": {
 			"JP": "",
@@ -1040,6 +1071,145 @@
 				}
 			},
 			"5": {
+				"skin_id": "gaoxiong_5",
+				"id": "5",
+				"label": "Full Throttle Charmer",
+				"dialogue": {
+					"1": {
+						"event": "Ship Description",
+						"media": "",
+						"chinese": "呜…这、这种不知廉耻的装扮…要不是爱宕一直说要有更多的生活体验…诶？很适合我？谢、谢谢……",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "くっ…こ、こんなけしからん衣装など…愛宕がもっといろいろ体験したほうがいいというのを聞かなければ…！拙者によく似合ってる…だと！？う、うむ……",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Ugh... S-such shameless attire... If not for Atago saying that it would benefit me to experience different things...! It looks good on me?! I, I see...",
+						"englishNote": ""
+					},
+					"2": {
+						"event": "Acquisition",
+						"media": "get_5",
+						"chinese": "呜…这、这种不知廉耻的装扮…要不是爱宕一直说要有更多的生活体验…诶？很适合我？谢、谢谢……",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "くっ…こ、こんなけしからん衣装など…愛宕がもっといろいろ体験したほうがいいというのを聞かなければ…！拙者によく似合ってる…だと！？う、うむ……",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Ugh... S-such shameless attire... If not for Atago saying that it would benefit me to experience different things...! It looks good on me?! I, I see...",
+						"englishNote": ""
+					},
+					"3": {
+						"event": "Login",
+						"media": "login_5",
+						"chinese": "这姿势保持久了有些累人。不过通过这种训练，能让身体变柔软一些也好…",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "同じポーズで座り続けるのは疲れるが、これも修業のうち。体の柔軟性を鍛えることができれば無駄ではなかろう…",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Sitting in this same pose is rather tiring, but this is also part of my training. After all, improving my flexibility should not be something that goes to waste...",
+						"englishNote": ""
+					},
+					"4": {
+						"event": "Details",
+						"media": "detail_5",
+						"chinese": "无论是什么任务，只要接下来了，就必须全力以赴的完成——不、不过指挥官，能不要像这样一直盯着我看吗，有点…害羞……",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "どんな任務でも請け負った以上、全力で挑むのみ――だが…指揮官殿、そんなに拙者のことを凝視しないでくれぬか？いささか…こそばゆい気がする……",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "I will give my all to fulfill any task I've been assigned... B-but, Commander, could you not stare at me so much? It's a bit... embarrassing...",
+						"englishNote": ""
+					},
+					"5": {
+						"event": "Main 1",
+						"media": "main_1_5",
+						"chinese": "拍照的闪光灯多少有些刺眼。不过没事的，指挥官，在下会认真对待每一个镜头。",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "フラッシュが少し強いのだが、心配は無用。指揮官殿、拙者は一枚一枚、全力で挑む所存だ",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "The flashes from the camera are a bit too bright, but worry not about me. Commander, I shall face down each and every challenge before me. ",
+						"englishNote": ""
+					},
+					"6": {
+						"event": "Main 2",
+						"media": "main_2_5",
+						"chinese": "这种时候脸上要时刻保持笑容？既然……是指挥官的提议，在下会试着改进",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "こういう時こそ笑顔を保ち続けるべき、か？そな……指揮官殿のご助言なら、努力させてもらおう",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "I should try to maintain my smile at times like these? If you say so... then I shall do as you advised to the utmost of my ability. ",
+						"englishNote": ""
+					},
+					"7": {
+						"event": "Main 3",
+						"media": "main_3_5",
+						"chinese": "指挥官，能帮在下撑一下伞吗？想把发带的蝴蝶结绑得更整齐一点…",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "指揮官殿、傘をしばし持っていてくれぬか？この髪飾りを少し整えたいのだが…",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Commander, would you mind holding onto my parasol for a bit? I need to fix my hair accessory...",
+						"englishNote": ""
+					},
+					"8": {
+						"event": "Touch",
+						"media": "touch_1_5",
+						"chinese": "诶？要调整下姿势，才有更好的拍摄效果？那、那就…呜…果然还是有点羞耻……",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "ポーズを変えたほうがよく映えるのか？で、では……くっ……やはりはしたないぞ……！",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "I should change my pose to make it easier to take pictures? V-very well... Ugh... Th-this is too embarrassing after all...!",
+						"englishNote": ""
+					},
+					"9": {
+						"event": "Touch (Special)",
+						"media": "touch_2_5",
+						"chinese": "现、现在还是在工作时间…！",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "ま、まだ勤務時間中だぞ…！",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "I, I'm still working right now...!",
+						"englishNote": ""
+					},
+					"10": {
+						"event": "Return to Port",
+						"media": "home_5",
+						"chinese": "总、总算回来了…围观的人越来越多，我一直期盼着指挥官的身影能快点出现……",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "よ、ようやく帰還したか…くっ、この格好ではやはり……指揮官殿が一刻でも早く戻ってくれるよう心で念じておったぞ……",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "F-finally, you're back... With so many people staring at me, I was so hoping that you'd come back soon...",
+						"englishNote": ""
+					},
+					"11": {
+						"event": "Victory",
+						"media": "mvp_5",
+						"chinese": "忘掉羞耻心，集中精神全力奋战……这也算修行吧",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "心を無にして全力で戦闘に挑む……これも修行の内だと思いたい……！",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Calm your spirit and dedicate yourself to the task... I want to believe that this is part of my training!",
+						"englishNote": ""
+					}
+				}
+			},
+			"6": {
 				"skin_id": "gaoxiong_h",
 				"id": "8",
 				"label": "Sakura Hanami ",

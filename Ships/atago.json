@@ -34,10 +34,10 @@
 		"EN": ""
 	},
 	"artist": {
-		"name": "",
-		"weibo": "",
-		"twitter": "",
-		"pixiv": "",
+		"name": "木shiyo",
+		"weibo": "https://weibo.com/u/2481339344",
+		"twitter": "https://twitter.com/kishiyo1943",
+		"pixiv": "https://www.pixiv.net/member.php?id=40222",
 		"other": ""
 	},
 	"enhance": {
@@ -50,21 +50,21 @@
 	"skill": {
 		"1": {
 			"icon": "10570",
-			"requirement": "",
+			"requirement": "Default Unlocked",
 			"name": "Arsonist",
 			"type": "Offensive",
-			"description": "Increases the DMG this ship deals with HE ammo by $3, increases its chance to ignite enemies by $1, and increases the Burn DMG it deals to enemies by $2."
+			"description": "Increases the DMG this ship deals with HE ammo by 5.0% (15.0%), increases its chance to ignite enemies by 20.0% (50.0%), and increases the Burn DMG it deals to enemies by 4.5% (12.0%)."
 		},
 		"2": {
 			"icon": "2051",
-			"requirement": "",
+			"requirement": "Default Unlocked",
 			"name": "Double Torpedo",
 			"type": "Offensive",
-			"description": "When this ship fires its Torpedoes: $1 chance to launch a second wave of Torpedoes."
+			"description": "When this ship fires its Torpedoes: 15.0% (30.0%) chance to launch a second wave of Torpedoes."
 		},
 		"3": {
 			"icon": "22261",
-			"requirement": "",
+			"requirement": "Limit Break I (III)",
 			"name": "All Out Assault Ⅰ",
 			"type": "Offensive",
 			"description": "Activate All Out Assault Ⅰ: Takao Class once every 9 times the main gun is fired."
@@ -112,6 +112,25 @@
 			}
 		},
 		"5": {
+			"id": "aidang_5",
+			"name": "Stunning Speedster ",
+			"description": "So, you want big sister to be your \"fleet queen\"? You got it. But you'd better give it your all out there, or else I'll be upset with you! ",
+			"expression": {
+				"0": {
+					"id": "0"
+				},
+				"1": {
+					"id": "1"
+				},
+				"2": {
+					"id": "2"
+				},
+				"3": {
+					"id": "3"
+				}
+			}
+		},
+		"6": {
 			"id": "aidang_h",
 			"name": "Lily-White Vow ",
 			"description": "Commander... Ahh, from now on, shouldn't I call you \"darling?\" Come and hold my hand... Ah, at times like these, I just can't help but to want to eat you up, dar~ling~ ",
@@ -282,9 +301,9 @@
 			"EN": ""
 		},
 		"heavy": {
-			"JP": "",
-			"CN": "",
-			"EN": ""
+			"JP": "✓",
+			"CN": "✓",
+			"EN": "✓"
 		},
 		"special": {
 			"JP": "",
@@ -1031,6 +1050,145 @@
 				}
 			},
 			"5": {
+				"skin_id": "aidang_5",
+				"id": "4",
+				"label": "Stunning Speedster ",
+				"dialogue": {
+					"1": {
+						"event": "Ship Description",
+						"media": "",
+						"chinese": "想让姐姐来担任“舰队女郎”？没问题~不过，要是指挥官接下来不更加努力的话，姐姐我可是会生气的哦？",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "お姉さんに「フリートクイーン」をやってほしい？いいわよ？でもぉ、これで指揮官がもっと頑張らないと、お姉さん怒っちゃうからね？",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "So, you want big sister to be your \"fleet queen\"? You got it. But you'd better give it your all out there, or else I'll be upset with you!",
+						"englishNote": ""
+					},
+					"2": {
+						"event": "Acquisition",
+						"media": "get_4",
+						"chinese": "想让姐姐来担任“舰队女郎”？没问题~不过，要是指挥官接下来不更加努力的话，姐姐我可是会生气的哦？",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "お姉さんに「フリートクイーン」をやってほしい？いいわよ？でもぉ、これで指揮官がもっと頑張らないと、お姉さん怒っちゃうからね？",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "So, you want big sister to be your \"fleet queen\"? You got it. But you'd better give it your all out there, or else I'll be upset with you!",
+						"englishNote": ""
+					},
+					"3": {
+						"event": "Login",
+						"media": "login_4",
+						"chinese": "指挥官，今天工作也要加油哦~啾~（飞吻）",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "指揮官、今日のお仕事、頑張って頂戴♡（チュッ",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Commander~ Please do your best today♡ *smooch*",
+						"englishNote": ""
+					},
+					"4": {
+						"event": "Details",
+						"media": "detail_4",
+						"chinese": "虽说风格就是这样，不过这套衣服的露出度也是格外的高呢……嘻嘻，直白的指挥官，姐姐并不讨厌哦？",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "そういうデザインだと思うけど、この衣装、露出度高いわね……ふふふ、指揮官のそういう素直なところ、お姉さん嫌いじゃないわよ？",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "I'm pretty sure it was on purpose, but these clothes are very revealing... Hehehe. Big sister thinks it's cute when you're honest like this.",
+						"englishNote": ""
+					},
+					"5": {
+						"event": "Main 1",
+						"media": "main_1_4",
+						"chinese": "指挥官，累了吗？呵呵，要在这里躺会吗～？哪里？当然是这·里·啦～",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "指揮官、疲れた？ふふふ、少し横になって休まない？どこにって？もちろん～こ・こ・よ♡",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Commander, are you tired? Hehehe, why don't you lay down and rest for a bit? Where, you ask? Well of course... right here~♡",
+						"englishNote": ""
+					},
+					"6": {
+						"event": "Main 2",
+						"media": "main_2_4",
+						"chinese": "呼，一直保持这个姿势果然还是有些费力呢，指挥官，可以过来扶姐姐起来吗？",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "ふぅ…こういうポーズをずっとしていると少し大変ね…指揮官、お姉さんを起こしてくれないかしら？",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Sigh, it's a pain to have to keep maintaining this pose... Commander, won't you help big sister up?",
+						"englishNote": ""
+					},
+					"7": {
+						"event": "Main 3",
+						"media": "main_3_4",
+						"chinese": "明石说，想要出姐姐我的写真集……指挥官，想看吗？",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "明石ちゃん、お姉さんのグラビア写真集を出したいと言ってたわね……指揮官、お姉さんのグラビアを見てみたい？",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Akashi, you said you wanted to publish a lingerie photobook starring me, right? Then... Commander, would you like to see those photos?",
+						"englishNote": ""
+					},
+					"8": {
+						"event": "Touch",
+						"media": "touch_1_4",
+						"chinese": "指挥官，加油工作唷，姐姐我会一直陪在你身边的~",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "指揮官、お仕事頑張ってね。お姉さんはずっとそばにいるから♡",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Commander, keep at it~ Big sister is always by your side♡",
+						"englishNote": ""
+					},
+					"9": {
+						"event": "Flagship",
+						"media": "warcry_4",
+						"chinese": "指挥官，加油指挥哦~",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "指揮官、艦隊の指揮、頑張って♡",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Commander~ Work hard on leading the fleet, okay♡",
+						"englishNote": ""
+					},
+					"10": {
+						"event": "Victory",
+						"media": "mvp_4",
+						"chinese": "作为舰队的形象代言人，这种程度的表现理所应当呢~",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "艦隊のイメージタレントとして、この程度は当たり前よ",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Me being the fleet's showgirl, isn't this much to be expected~?",
+						"englishNote": ""
+					},
+					"11": {
+						"event": "Affinity (Love)",
+						"media": "feeling5_4",
+						"chinese": "指挥官，姐姐的写真集就交给你来拍咯，两个人的时候，慢慢地……不过，总觉得，最后会变成指挥官专属的写真集呢，嘻嘻……",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "今度写真を撮る時は指揮官に任せるわ。そう、ふたりでゆっくりと……なんだか指揮官専用の写真集になりそうな予感ね、ふふふ♡",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Commander, next time we take photos, I'm counting on you. That's right. We can spend some quality time together, just the two of us... For some reason, I get the feeling that we're going to end up with an album that's for your eyes only, hehe♡",
+						"englishNote": ""
+					}
+				}
+			},
+			"6": {
 				"skin_id": "aidang_h",
 				"id": "8",
 				"label": "Lily-White Vow ",

@@ -141,6 +141,28 @@
 					"id": "4"
 				}
 			}
+		},
+		"101" : {
+			"id" : "edu_ex1100",
+			"name" : "Le Malin ",
+			"description" : "Le Fantasque-class destroyer – Le Malin. ",
+			"expression" : {
+				"0" : {
+					"id" : "0"
+				},
+				"1" : {
+					"id" : "1"
+				},
+				"2" : {
+					"id" : "2"
+				},
+				"3" : {
+					"id" : "3"
+				},
+				"4" : {
+					"id" : "4"
+				}
+			}
 		}
 	},
 	"defaultEquipment": {
@@ -993,6 +1015,157 @@
 						"japaneseNote": "",
 						"english": "Eh? It's already time to go home...? Geh! It's already evening! Hmm?! I can't move my legs because I overslept... Commander, help me...",
 						"englishNote": ""
+					}
+				}
+			},
+			"101": {
+				"skin_id" : "edu_ex1100",
+				"id" : "0",
+				"label" : "Le Malin ",
+				"dialogue" : {
+					"1" : {
+						"event" : "Login",
+						"media" : "login_ex1100",
+						"chinese" : "驱逐舰恶毒……哈啊……听候差遣……不行了，好困",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "駆逐艦ル・マラン。はぁ…いつでもご命令を……はああ……もう無理…眠い……",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Destroyer, Le Malin... *yawn*... ready to sortie at... *yaawn*... Can't do this... Too sleepy...",
+						"englishNote" : ""
+					},
+					"2" : {
+						"event" : "Details",
+						"media" : "detail_ex1100",
+						"chinese" : "滚来……滚去……滚来……滚去……指挥官也要一起来吗？",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "ゴロゴロ…ゴロゴロ……指揮官も一緒にどうですか？",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Roll, roll, rolling around... Commander, wanna join me?",
+						"englishNote" : ""
+					},
+					"3" : {
+						"event" : "Main 2",
+						"media" : "main_2_ex1100",
+						"chinese" : "虽然今天没做什么事，但是也辛苦我自己了……嗯嗯，我真伟大",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "特に何もしていないけどよく頑張りましたね私……うんうん、ル・マラン、偉いですねー",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "I didn't really do anything, but I still worked hard anyway... Yeah, go me~!",
+						"englishNote" : ""
+					},
+					"4" : {
+						"event" : "Main 3",
+						"media" : "main_3_ex1100",
+						"chinese" : "指挥官，好饿，我想吃敦刻尔克小姐的点心……欸，努力工作就可以休息十分钟……唔，好麻烦",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "お腹減った…ダンケルクさんの作ったお菓子を食べたい……お仕事頑張ればあとで休憩取れる……め、面倒くさい……",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Hungry... Wanna eat Dunkerque's sweets... If I push through this, I'll be able to slack off later...Wh-what a pain...",
+						"englishNote" : ""
+					},
+					"5" : {
+						"event" : "Mission",
+						"media" : "task_ex1100",
+						"chinese" : "给指挥官的新指示来了哦",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "新しい指示です。指揮官宛の",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "We have new orders. They're addressed to you, Commander.",
+						"englishNote" : ""
+					},
+					"6" : {
+						"event" : "Mission Complete",
+						"media" : "mission_complete_ex1100",
+						"chinese" : "指挥官，任务奖励来了哦！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "指揮官、任務報酬ですよ！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Commander, the mission rewards are here!",
+						"englishNote" : ""
+					},
+					"7" : {
+						"event" : "Return to Port",
+						"media" : "home_ex1100",
+						"chinese" : "照着凯旋教的泡了一杯红茶……是真的，虽然我不保证好喝",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "トリオンファンに教えてもらった紅茶です。……普通に淹れたんですよ。美味しいかどうかわかりませんけど…",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Le Triomphant taught me how to make this tea... Look, I did it normally this time. No idea if it tastes any good though...",
+						"englishNote" : ""
+					},
+					"8" : {
+						"event" : "Commission Complete",
+						"media" : "expedition_ex1100",
+						"chinese" : "大家都回来了，快去迎接她们吧，去吧~",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "みんなが帰ってきましたよー早く出迎えに行ってきて、どうぞー",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "The others have come back. Let's hurry up and welcome them back. Come on~!",
+						"englishNote" : ""
+					},
+					"9" : {
+						"event" : "Flagship",
+						"media" : "warcry_ex1100",
+						"chinese" : "鸢尾之心，就存在于此！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "アイリスの心は、私に！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "The heart of the Iris continues through me!",
+						"englishNote" : ""
+					},
+					"10" : {
+						"event" : "Victory",
+						"media" : "mvp_ex1100",
+						"chinese" : "空想级优雅的实力——是无敌的。",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "ル・ファンタスク級のエレガントなる実力――敵なし、です",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "The elegant arts of the Le Fantasque class... knows no equal!",
+						"englishNote" : ""
+					},
+					"11" : {
+						"event" : "Defeat",
+						"media" : "lose_ex1100",
+						"chinese" : "凯旋、指挥官，对不起…！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "トリオンファン、指揮官、ごめん…っ！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Le Triomphant... Commander... I'm sorry!",
+						"englishNote" : ""
+					},
+					"12" : {
+						"event" : "Affinity (Love)",
+						"media" : "feeling5_ex1100",
+						"chinese" : "虽然想和指挥官约会，但是每次都要出门好麻烦，走路也很麻烦……唔，指挥官，下次我们还是在宿舍约会吧！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "デート……はしたいですけど、遠くまで出かけるとか疲れちゃいますよ……や、やっぱり寮舎でデートしましょうよ！ね！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "I do want... to go on a date, but I always get tired when we go to some faraway place... W-we should just go on a date at the dorms! Right?",
+						"englishNote" : ""
 					}
 				}
 			}

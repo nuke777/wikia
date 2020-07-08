@@ -34,10 +34,10 @@
 		"EN": ""
 	},
 	"artist": {
-		"name": "",
-		"weibo": "",
+		"name": "Enka",
+		"weibo": "http://weibo.com/maoqishi",
 		"twitter": "",
-		"pixiv": "",
+		"pixiv": "https://www.pixiv.net/member.php?id=3321609",
 		"other": ""
 	},
 	"enhance": {
@@ -50,10 +50,10 @@
 	"skill": {
 		"1": {
 			"icon": "10540",
-			"requirement": "",
+			"requirement": "Default Unlocked",
 			"name": "Royal Alliance",
 			"type": "Offensive",
-			"description": "For each Eagle Union ship in the same fleet as this ship: increases this ship's FP, AA, RLD, and EVA by $1."
+			"description": "For each Eagle Union ship in the same fleet as this ship: increases this ship's FP, AA, RLD, and EVA by 1.0% (5.0%)."
 		}
 	},
 	"skin": {
@@ -64,6 +64,18 @@
 			"expression": {
 				"0": {
 					"id": "0"
+				},
+				"1": {
+					"id": "1"
+				},
+				"2": {
+					"id": "2"
+				},
+				"3": {
+					"id": "3"
+				},
+				"4": {
+					"id": "4"
 				}
 			}
 		},
@@ -81,6 +93,47 @@
 			"id": "weiershiqinwang_4",
 			"name": "Sakura Elegance ",
 			"description": "I've been wearing Royal attire my whole life, so a change in pace doesn't seem bad. Oh, Commander, good timing. Can you explain to me how to celebrate the New Year here? ",
+			"expression": {
+				"0": {
+					"id": "0"
+				},
+				"1": {
+					"id": "1"
+				},
+				"2": {
+					"id": "2"
+				},
+				"3": {
+					"id": "3"
+				},
+				"4": {
+					"id": "4"
+				}
+			}
+		},
+		"4": {
+			"id": "weiershiqinwang_3",
+			"name": "The Laureate's Victory Lap",
+			"description": "Oh, Commander. Worry not. Since I've been given this job, I will see through it until the end. Besides, it's been a while since I've gotten this fired up. Haha!",
+			"expression": {
+				"0": {
+					"id": "0"
+				},
+				"1": {
+					"id": "1"
+				},
+				"2": {
+					"id": "2"
+				},
+				"3": {
+					"id": "3"
+				}
+			}
+		},
+		"101": {
+			"id": "weiershiqinwang_ex1100",
+			"name": "Prince of Wales",
+			"description": "King George V-class battleship – Prince of Wales, Hull Number 53!",
 			"expression": {
 				"0": {
 					"id": "0"
@@ -248,9 +301,9 @@
 			"EN": ""
 		},
 		"heavy": {
-			"JP": "",
-			"CN": "",
-			"EN": ""
+			"JP": "✓",
+			"CN": "✓",
+			"EN": "✓"
 		},
 		"special": {
 			"JP": "",
@@ -997,6 +1050,272 @@
 						"japaneseTL": "",
 						"japaneseNote": "",
 						"english": "To be able to experience a new culture like this, and spend the New Year peacefully... is like a dream come true. Commander, it's all thanks to you. As expected of the one I chose.",
+						"englishNote": ""
+					}
+				}
+			},
+			"4": {
+				"skin_id": "weiershiqinwang_3",
+				"id": "4",
+				"label": "The Laureate's Victory Lap",
+				"dialogue": {
+					"1": {
+						"event": "Ship Description",
+						"media": "",
+						"chinese": "指挥官吗。不用担心，既然我接受了这份工作自然会干到最后——而且好久没有这种想和人竞争的感觉了呢。哈哈",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "指揮官か。なに、心配する必要はないわ。仕事を引き受けた以上、最後まできっちりこなす――それに、久しぶりに張り合いたい気分になった。ふふふ",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Oh, Commander. Worry not. Since I've been given this job, I will see through it until the end. Besides, it's been a while since I've gotten this fired up. Haha!",
+						"englishNote": ""
+					},
+					"2": {
+						"event": "Acquisition",
+						"media": "get_4",
+						"chinese": "指挥官吗。不用担心，既然我接受了这份工作自然会干到最后——而且好久没有这种想和人竞争的感觉了呢。哈哈",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "指揮官か。なに、心配する必要はないわ。仕事を引き受けた以上、最後まできっちりこなす――それに、久しぶりに張り合いたい気分になった。ふふふ",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Oh, Commander. Worry not. Since I've been given this job, I will see through it until the end. Besides, it's been a while since I've gotten this fired up. Haha!",
+						"englishNote": ""
+					},
+					"3": {
+						"event": "Login",
+						"media": "login_4",
+						"chinese": "回来了吗？在来的路上没有碰到其他姐妹吧？",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "戻ってきたか。ここまで来る途中に姉妹艦と出会ってないだろうな？",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Oh, you're back. Did you run into any of my sisters on the way here?",
+						"englishNote": ""
+					},
+					"4": {
+						"event": "Details",
+						"media": "detail_4",
+						"chinese": "命运是很容易脱离轨迹的——在比赛里驶出赛道有时也会很危险呢。指挥官，观战的时候注意一些",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "運命はよくレールから外れるものだが――レースでコースから外れたら大惨事になることもあるわ。指揮官、観戦時には気をつけて",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "While destiny tends to fly off the rails pretty often, flying off the course during a match would be a major accident. Commander, be careful while you watch the match.",
+						"englishNote": ""
+					},
+					"5": {
+						"event": "Main 1",
+						"media": "main_1_4",
+						"chinese": "那些孩子们也在开车…方向盘姑且不说，油门是怎么能踩下去的…？",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "饅頭たちが運転している……ハンドルはともかく、アクセルをどうやって踏むんだ…？",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "The Manjuus drive these things... Sure, it's a mystery how they're able to turn the steering wheel, but I'm more curious about how they're able to step on the accelerator...",
+						"englishNote": ""
+					},
+					"6": {
+						"event": "Main 2",
+						"media": "main_2_4",
+						"chinese": "不管比赛还是战斗，决定胜败的并不只有性能，选手的技术，指挥官的指挥都可以成为逆转形势的关键——所以赌起胜负来才有意思啊",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "レースも戦いもマシンや艦の性能だけではない。選手の腕、指揮官の采配次第で大逆転もありえる。ふふ、それでこそ熱狂できるってものよ",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Whether in a match or in a battle, a machine's or ship's capability isn't everything. Depending on the driver's skill or the commander's directions, the course of the match or battle can be completely reversed. Hehe, that's exactly what makes betting fun.",
+						"englishNote": ""
+					},
+					"7": {
+						"event": "Main 3",
+						"media": "main_3_4",
+						"chinese": "这身打扮的话不大方便吃饭啊…指挥官，我那份三明治你吃了就好",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "この格好のままだと食事を取ることもなかなか難しそうね…ああ指揮官、私の分――サンドイッチだが、代わりに食べてもいいわよ",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "These clothes make eating quite difficult... Oh, I give up. Commander, you can have the rest of my sandwich.",
+						"englishNote": ""
+					},
+					"8": {
+						"event": "Touch",
+						"media": "touch_1_4",
+						"chinese": "有什么在意的地方吗",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "気になるところでもあるか？",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Does something about this outfit bother you?",
+						"englishNote": ""
+					},
+					"9": {
+						"event": "Touch (Special)",
+						"media": "touch_2_4",
+						"chinese": "呵呵，再进一步可不行哦",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "ふふ、それ以上はやらせないわよ",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Heh, I won't let you go any further.",
+						"englishNote": ""
+					},
+					"10": {
+						"event": "Return to Port",
+						"media": "home_4",
+						"chinese": "为了指挥官的胜利——来一场与此相符的表演吧",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "あなたの勝利――それを飾るのにふさわしいパフォーマンスをしてあげよう",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Let's put on a performance to be remembered – for the sake of your victory.",
+						"englishNote": ""
+					}
+				}
+			},
+			"101": {
+				"skin_id": "weiershiqinwang_ex1100",
+				"id": "0",
+				"label": "Prince of Wales",
+				"dialogue": {
+					"1": {
+						"event": "Login",
+						"media": "login_ex1100",
+						"chinese": "舰队的管理工作还是挺繁杂的呢。有什么要我做的尽管来找我商量吧",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "艦隊の管理は複雑で大変だ。私にできることなら何でも相談してくれ",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Managing the fleet is complicated and difficult. If there's anything I can help out with, let me know.",
+						"englishNote": ""
+					},
+					"2": {
+						"event": "Details",
+						"media": "detail_ex1100",
+						"chinese": "要给你准备些点心吗？虽然没到乔治五世那样的水平，不过还是勉强能拿得出手的。",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "軽食でも用意してあげようか？ジョージのように人に自慢できるほどの腕はないが、がっかりさせるようなものにはならないさ",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Should I prepare a snack for you? I'm not skilled enough to be able to boast to others like George does, but my cooking won't disappoint, either.",
+						"englishNote": ""
+					},
+					"3": {
+						"event": "Main 2",
+						"media": "main_2_ex1100",
+						"chinese": "反击、吸血鬼、胡德、还有欧根、俾斯麦…在你身边还真是永远没有无聊的机会呢",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "レパルス、ヴァンパイア、フッド、そしてオイゲン、ビスマルク……あなたの側にいると退屈する機会なんて来なさそうだわ",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Repulse, Vampire, and Hood, and Eugen and Bismarck... It seems there'll be no risk of boredom while I'm by your side.",
+						"englishNote": ""
+					},
+					"4": {
+						"event": "Main 3",
+						"media": "main_3_ex1100",
+						"chinese": "我已经习惯满足陛下了，所以你偶尔也提出些难办点的需求也没关系哦？我会完成它们，然后让你又一次迷恋上我的——呵呵，怎么样？",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "陛下のお世話には慣れているから、貴方も時々は無茶な要望を出してくれていいのよ？それに上手く応えてみせ、惚れ直させる――ふふ、どうかしら？",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "I'm used to taking care of Her Highness' needs, so it's perfectly fine for you to make absurd requests from time to time. On top of that, I'll flawlessly complete your request and make you fall in love with me all over again... Hehe, how does that sound?",
+						"englishNote": ""
+					},
+					"5": {
+						"event": "Touch",
+						"media": "touch_1_ex1100",
+						"chinese": "差不多到茶会的时间了吧？",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "そろそろお茶会の時間か？",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Is it already time for the tea party?",
+						"englishNote": ""
+					},
+					"6": {
+						"event": "Touch (Special)",
+						"media": "touch_2_ex1100",
+						"chinese": "你知道这举动的意义吧？呵呵呵",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "どういう意味なのかわかってるよね？ふふふ",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "You know exactly what this means, right? Hehe.",
+						"englishNote": ""
+					},
+					"7": {
+						"event": "Return to Port",
+						"media": "home_ex1100",
+						"chinese": "为胜利干杯。多亏有你，大家才能得到这样和平的喘息，不要忘了这点。",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "勝利に乾杯。あなたのおかげで、みんながまた一日平和に過ごせていることを忘れないで",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "A toast to our victory. Never forget that you are the reason that everyone can enjoy this peace for yet another day.",
+						"englishNote": ""
+					},
+					"8": {
+						"event": "Commission Complete",
+						"media": "expedition_ex1100",
+						"chinese": "军事委托完成了。一起去迎接她们吧。",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "軍事委託が完了した。ともに彼女たちを出迎えに行こう",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Commissions have been completed. Let's go greet the girls together.",
+						"englishNote": ""
+					},
+					"9": {
+						"event": "Flagship",
+						"media": "warcry_ex1100",
+						"chinese": "为了陛下、以及指挥官的荣耀！",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "陛下に、そして指揮官に栄光を！",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "For the glory of Her Majesty and the Commander!",
+						"englishNote": ""
+					},
+					"10": {
+						"event": "Defeat",
+						"media": "lose_ex1100",
+						"chinese": "A light heart lives long，不要太失落了。",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "ゆとりある心は長生きの秘訣さ。あまり落ち込まないで",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "A light heart lives long. Don't be too hard on yourself.",
+						"englishNote": ""
+					},
+					"11": {
+						"event": "Affinity (Love)",
+						"media": "feeling5_ex1100",
+						"chinese": "需要算计的恋情是最卑微的。我会向你呈现最真实的我，并且接受最真实的你——别担心，被幸福的热泪湿润的我的眼睛里，不会看到你的一点点小小失误的。这就是所谓的恋人啊。",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "計算された恋は卑しいものだ。私はありのままの自分をあなたに捧げ、ありのままのあなたを受け入れる――なに、幸せの涙で潤った私の目は、あなたの小さなミスなんかいくらでも見逃してあげられる。それが恋人というものよ",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Love based on pretense is a vile thing. I give myself to you as I am, and I accept you for who you are. No matter how many mistakes you make, I can overlook them all, because my eyes are cloudy with tears of happiness. That's what lovers do, after all.",
 						"englishNote": ""
 					}
 				}
