@@ -50,17 +50,24 @@
 	"skill": {
 		"1": {
 			"icon": "10070",
-			"requirement": "Default Unlocked",
+			"requirement": "",
 			"name": "Radar Scan",
 			"type": "Support",
-			"description": "30% (60%) chance to activate every 20s: applies a debuff to all onscreen enemies, increasing the DMG they take by 20% (40%) for 10s."
+			"description": "Every 20s: $1 chance to apply a debuff to all onscreen enemies, increasing the DMG they take by $2 for 10s."
 		},
 		"2": {
+			"icon": "13380",
+			"requirement": "",
+			"name": "The Wonder of Kula Gulf",
+			"type": "Support",
+			"description": "Decreases this ship's torpedo DMG taken by $1. At the start of the battle, if there are 3 ships afloat in your Vanguard and there is an Eagle Union ship in the backmost position (other than this ship): increases that ship's EVA by $2."
+		},
+		"3": {
 			"icon": "20121",
-			"requirement": "Limit Break I (III)",
+			"requirement": "",
 			"name": "All Out Assault Ⅰ",
 			"type": "Offensive",
-			"description": "Activate All Out Assault Ⅰ: Brooklyn Class once every 15 times the main gun is fired."
+			"description": "Activates All Out Assault Ⅰ: Brooklyn Class once every 15 times the Main Guns are fired."
 		}
 	},
 	"skin": {
@@ -109,6 +116,28 @@
 			"id": "hailunna_3",
 			"name": "May I Have this Dance? ",
 			"description": "Um, Commander, could we... share a dance? I have things I want to tell you... ",
+			"expression": {
+				"0": {
+					"id": "0"
+				},
+				"1": {
+					"id": "1"
+				},
+				"2": {
+					"id": "2"
+				},
+				"3": {
+					"id": "3"
+				},
+				"4": {
+					"id": "4"
+				}
+			}
+		},
+		"4": {
+			"id": "hailunna_g",
+			"name": "Helena (Retrofit)",
+			"description": "This new equipment... might take some time to get used to... N-no, I'm sure I can handle it now! Commander, Helena will... meet your expectations!",
 			"expression": {
 				"0": {
 					"id": "0"
@@ -198,34 +227,34 @@
 			"armor": "Light"
 		},
 		"100retrofit": {
-			"hp": "",
-			"firepower": "",
-			"torpedo": "",
-			"antiAir": "",
-			"aviation": "",
-			"reload": "",
-			"hit": "",
-			"evasion": "",
+			"hp": "3444",
+			"firepower": "159",
+			"torpedo": "0",
+			"antiAir": "369",
+			"aviation": "0",
+			"reload": "166",
+			"hit": "171",
+			"evasion": "73",
 			"speed": "32.5",
 			"luck": "33",
-			"asw": "",
+			"asw": "96",
 			"oxygen": "0",
 			"ammo": "0",
 			"cost": "10",
 			"armor": "Light"
 		},
 		"120retrofit": {
-			"hp": "",
-			"firepower": "",
-			"torpedo": "",
-			"antiAir": "",
-			"aviation": "",
-			"reload": "",
-			"hit": "",
-			"evasion": "",
+			"hp": "3844",
+			"firepower": "181",
+			"torpedo": "0",
+			"antiAir": "406",
+			"aviation": "0",
+			"reload": "190",
+			"hit": "190",
+			"evasion": "90",
 			"speed": "32.5",
 			"luck": "33",
-			"asw": "",
+			"asw": "109",
 			"oxygen": "0",
 			"ammo": "0",
 			"cost": "10",
@@ -1061,6 +1090,169 @@
 						"japaneseTL": "",
 						"japaneseNote": "",
 						"english": "You and my friends have always taken care of, looked after, and protected me. But that can't go on forever. I want to stand beside you and become someone people can count on... So, could you wait for me just a little longer... please?",
+						"englishNote": ""
+					}
+				}
+			},
+			"4": {
+				"skin_id": "hailunna_g",
+				"id": "9",
+				"label": "Helena (Retrofit)",
+				"dialogue": {
+					"1": {
+						"event": "Ship Description",
+						"media": "",
+						"chinese": "全新的装备…适应起来会稍微有些复杂呢，但是现在的我，有信心驾驱这些力量！指挥官，请期待我的表现吧！",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "新しい装備…使いこなすにはちょっと大変そう…ううん、今の私ならきっと大丈夫！指揮官、ヘレナに…期待してて！",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "This new equipment... might take some time to get used to... N-no, I'm sure I can handle it now! Commander, Helena will... meet your expectations!",
+						"englishNote": ""
+					},
+					"2": {
+						"event": "Acquisition",
+						"media": "get_9",
+						"chinese": "全新的装备…适应起来会稍微有些复杂呢，但是现在的我，有信心驾驱这些力量！指挥官，请期待我的表现吧！",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "新しい装備…使いこなすにはちょっと大変そう…ううん、今の私ならきっと大丈夫！指揮官、ヘレナに…期待してて！",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "This new equipment... might take some time to get used to... N-no, I'm sure I can handle it now! Commander, Helena will... meet your expectations!",
+						"englishNote": ""
+					},
+					"3": {
+						"event": "Login",
+						"media": "login_9",
+						"chinese": "指挥官，欢迎回来，今天也一起加油吧！",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "指揮官、おかえりなさい。今日も一緒に頑張ろ？",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Welcome back, Commander. Let's get to work and do our best.",
+						"englishNote": ""
+					},
+					"4": {
+						"event": "Details",
+						"media": "detail_9",
+						"chinese": "最近我只要一主动做什么事，路易斯姐姐就会一边说“哎呀，女儿长大了”一边假装唉声叹气……真是的，欺负人……",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "セントルイス姉さん、私がなにかをするたびに「大きくなったわね」って感動したふりして……もう、困っちゃうわ…",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "St. Louis always praises me like, \"my, how you've grown\" whenever I do anything... It's kind of embarrassing...",
+						"englishNote": ""
+					},
+					"5": {
+						"event": "Main 1",
+						"media": "main_1_9",
+						"chinese": "指挥官，想知道强化后的SG的性能吗？嘻嘻，那就请你找一个谁都不知道的地方藏起来吧~",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "指揮官、強くなったSGの性能を知りたい？じゃあ…どこか誰も知らない場所に隠れてみて？ふふふ",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "You want to know what my new and improved SG is capable of? All right... Find a place to hide that nobody knows about. Hehehe~",
+						"englishNote": ""
+					},
+					"6": {
+						"event": "Main 2",
+						"media": "main_2_9",
+						"chinese": "我已经决定了，比起想象未来的事，首先要做好眼前的事，过好现在的每一天",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "未来のことを不安がるより、まずは今――悔いのないように毎日を過ごすべきだと思う",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "I think everyone would be better off living in the present without regrets than spend every day anxious about the future.",
+						"englishNote": ""
+					},
+					"7": {
+						"event": "Main 3",
+						"media": "main_3_9",
+						"chinese": "光是装备强化是不够的，我要让自己足够配上这些优秀的装备才行呢",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "兵装の強化ばかりに気を取られていてはダメ。私もこの兵装を上手く使えるように強くならなきゃ",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "It's not enough to focus only on improving my equipment. I need to become stronger to use it properly, too.",
+						"englishNote": ""
+					},
+					"8": {
+						"event": "Touch (Special)",
+						"media": "touch_2_9",
+						"chinese": "指挥官，这样的事，不可以在这里做……",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "指揮官、こういうのは…ダメ！",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "You really can't go around doing this, Commander!",
+						"englishNote": ""
+					},
+					"9": {
+						"event": "Commission Complete",
+						"media": "expedition_9",
+						"chinese": "强化后的SG真厉害呢……在办公室里能直接看到返航的委托组",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "SGより受信。……うん、委託に出かけたみんなが戻ってきたよ",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "SG receiving message... A commission team has returned to port.",
+						"englishNote": ""
+					},
+					"10": {
+						"event": "Flagship",
+						"media": "warcry_9",
+						"chinese": "我……会赢！",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "私……勝てるよ！",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "I'm... going to win!",
+						"englishNote": ""
+					},
+					"11": {
+						"event": "Victory",
+						"media": "mvp_9",
+						"chinese": "海伦娜，你还不可以骄傲，你要变得更厉害才行！",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "ヘレナ、驕ってはダメ…もっともっと強くならなきゃ！",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Don't get complacent, Helena... You've got to get even stronger!",
+						"englishNote": ""
+					},
+					"12": {
+						"event": "Defeat",
+						"media": "lose_9",
+						"chinese": "没关系，还有下一次……！",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "大丈夫よヘレナ。きっと次があるから……！",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "It's okay, Helena. There's always next time...!",
+						"englishNote": ""
+					},
+					"13": {
+						"event": "Affinity (Love)",
+						"media": "feeling5_9",
+						"chinese": "现在的我，对站在指挥官身边这件事，稍微有了一些自信……但是，人果然总是贪心的呢，我想要变得更出色，想要更多地占据指挥官的视线……指挥官，这样的我，你会讨厌吗？",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "私、指揮官のそばにいると、ちょっと自信をもてるようになったわ。だから今は、もっともっと頼れるようになって、指揮官にもっともっと振り向いてほしくて……こんなヘレナを、指揮官は好きになってくれる……？",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "I feel a bit more confident in myself when I'm with you, Commander. But I want more; I want to be the girl you rely on so I can be the center of your attention... It might be selfish to ask, but... will you love me?",
 						"englishNote": ""
 					}
 				}
