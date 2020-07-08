@@ -170,6 +170,16 @@
 					"id": "0"
 				}
 			}
+		},
+		"101" : {
+			"id" : "xiaotiane_ex1100",
+			"name" : "Cygnet",
+			"description" : "C-class destroyer ー Cygnet, Hull Number H83!",
+			"expression" : {
+				"0" : {
+					"id" : "0"
+				}
+			}
 		}
 	},
 	"defaultEquipment": {
@@ -1813,7 +1823,7 @@
 						"chinese": "指、指挥官？那个……咱被选为了皇家的啦啦队代表，要在运动会上给大家加油，所以现在咱正在练习啦啦操…请不要这样一直盯着看…很让人害羞的，呜…",
 						"chineseTL": "",
 						"chineseNote": "",
-						"japanese": "し、指揮官？あの…うち、母港運動会のロイヤルチームのチアリーダーに選ばれて、みんなを応援するために今練習してて…う、うちをそんなにじっと見ないで…恥ずかしいよぉ…うぅ…",
+						"japanese": "し、指揮官？あの…うち、あの…うち…母港運動会のロイヤルチームのチアリーダーに選ばれて、みんなを応援するために今練習してて…う、うちをそんなにじっと見ないで…恥ずかしいよぉ…うぅ…",
 						"japaneseTL": "",
 						"japaneseNote": "",
 						"english": "C-Commander? Erm... They picked me to be a cheerleader for the Royal Navy team at the sports thing, so I'm practicin' my cheers... D-don't stare at me like that... I'm shy enough... Already...",
@@ -1825,10 +1835,10 @@
 						"chinese": "指、指挥官？那个……咱被选为了皇家的啦啦队代表，要在运动会上给大家加油，所以现在咱正在练习啦啦操…请不要这样一直盯着看…很让人害羞的，呜…",
 						"chineseTL": "",
 						"chineseNote": "",
-						"japanese": "",
+						"japanese": "し、指揮官？あの…うち、あの…うち…母港運動会のロイヤルチームのチアリーダーに選ばれて、みんなを応援するために今練習してて…う、うちをそんなにじっと見ないで…恥ずかしいよぉ…うぅ…",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "C-Commander? Erm... They picked me to be a cheerleader for the Royal Navy team at the sports thing, so I'm practicin' my cheers... D-don't stare at me like that... I'm shy enough... Already...",
 						"englishNote": ""
 					},
 					"3": {
@@ -1837,10 +1847,10 @@
 						"chinese": "听说，推荐咱当皇家的啦啦队代表的是胡德姐姐。咱一定不能辜负了她对咱的期待！但是，啦啦操好像比想象的难…到现在也没能跳好…咱真的没问题吗…",
 						"chineseTL": "",
 						"chineseNote": "",
-						"japanese": "",
+						"japanese": "フッド姉さまがうちをチアリーダーに推薦したと聞いて…うち、フッド姉さまのためにがんばる！…でもチアダンス、難しくて上手くできないよぉ…うち本当に大丈夫かな…",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "I heard it was Hood who said I should be a cheerleader... So I won't let her down...! But these moves ain't easy... Maybe it shouldn't be me...",
 						"englishNote": ""
 					},
 					"4": {
@@ -1849,46 +1859,82 @@
 						"chinese": "咱有点担心，会不会表现不好，丢了胡德姐姐和皇家的面子…欸？指挥官会给咱加油吗？那，那咱一定会努力的！",
 						"chineseTL": "",
 						"chineseNote": "",
-						"japanese": "",
+						"japanese": "うち、ドジしてフッド姉さまとロイヤルに恥をかかせそう…指揮官はうちの応援をしてくれる？が、がががんばるよ！",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "If I cock this up, it'll make Hood and the whole Royal Navy look bad... You believe in me, Commander? I-I'll do my best then!",
 						"englishNote": ""
 					},
 					"5": {
+						"event": "Main 1",
+						"media": "main_1_5",
+						"chinese": "克雷文耐心地教了咱啦啦操，但咱感觉自己还是不怎么熟练……",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "クレイヴンちゃんにしっかり教えてもらったけど、うち、動きがまだぎこちなくて……",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Craven did her best to teach me how to cheer, but I'm still not very good...",
+						"englishNote": ""
+					},
+					"6": {
+						"event": "Main 2",
+						"media": "main_2_5",
+						"chinese": "皇家的各位，所有的运动员们，加、加油！Fight！……欸？要，要更大声一点吗？咱做不到的啦……",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "ロイヤルのみんなも！参加者のみんなもぉ！ふぁ、ファイトおおお！……も、もっと大きい声で！？うちには無理だよぉ…",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Ships of the Royal Navy! And everyone on the field! Umm, gooooooooo...! I need to be louder?! I really don't think I can...",
+						"englishNote": ""
+					},
+					"7": {
+						"event": "Main 3",
+						"media": "main_3_5",
+						"chinese": "萨拉前辈曾说，偶像就应该有各种方面的才能…所以，咱、咱会加油的！",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "サラトガさん、アイドルはマルチタレントであるべし！って…うん！うちもがんばるよ！",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Saratoga says idols have to be \"multi-talented\"! S-so I have to do this! I will!",
+						"englishNote": ""
+					},
+					"8": {
 						"event": "Touch",
 						"media": "touch_1_5",
 						"chinese": "呀！……好、好险啊，要是指挥官没扶住咱的话，咱刚刚肯定要摔到地上了……",
 						"chineseTL": "",
 						"chineseNote": "",
-						"japanese": "",
+						"japanese": "きゃっ！？……危なかった…指揮官がうちを支えてくれてなかったら転んじゃうところだった…",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Aiieee...?! That was close... If you didn't catch me, Commander, I would've fallen right over...",
 						"englishNote": ""
 					},
-					"6": {
+					"9": {
 						"event": "Touch (Special)",
 						"media": "touch_2_5",
 						"chinese": "总感觉身体好奇怪呀？一定是咱累了吧…",
 						"chineseTL": "",
 						"chineseNote": "",
-						"japanese": "",
+						"japanese": "うち、なんか体が変…き、きっと疲れてるからだよね？",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "I'm feelin' kinda funny... M-must be I'm too tired is all?",
 						"englishNote": ""
 					},
-					"7": {
+					"10": {
 						"event": "Return to Port",
 						"media": "home_5",
 						"chinese": "是炸鱼薯条！但是，咱听说啦啦队员要控制饮食……吃一点的话没关系？那，那咱就开动了！谢谢指挥官！",
 						"chineseTL": "",
 						"chineseNote": "",
-						"japanese": "",
+						"japanese": "フィッシュアンドチップス！…ダメダメ、チアリーダーは体型が……少しだけなら大丈夫なの？い、いただきます！指揮官、ありがとう！！",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Fish and chips...! No, no, a cheerleader's gotta watch her figure... Maybe just a little's okay? J-just a little! Thanks, Commander!",
 						"englishNote": ""
 					}
 				}
@@ -1969,6 +2015,121 @@
 						"japaneseNote": "",
 						"english": "E-even I... am not oblivious to all things! ...B-but if it's you, Commander...",
 						"englishNote": ""
+					}
+				}
+			},
+			"101": {
+				"skin_id" : "xiaotiane_ex1100",
+				"id" : "0",
+				"label" : "Cygnet",
+				"dialogue" : {
+					"1" : {
+						"event" : "Login",
+						"media" : "login_ex1100",
+						"chinese" : "指、指挥官……你终于来了~~肚、肚子都饿了…",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "し、指揮官……やっと来てくれた~う、うち、ちょっとお腹減ったよぉ……",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "C-Commander... I've been waitin' for ya~ Ah, um, I'm a tad peckish...",
+						"englishNote" : ""
+					},
+					"2" : {
+						"event" : "Details",
+						"media" : "detail_ex1100",
+						"chinese" : "下一个是…嘿！好，这次的动作也摆得很完美！嘿嘿~",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "次はこう…え、ええい！よし、今回もポーズ、上手に決まった！えへへ～",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Next I've got... Eh, hey! Righto, what a pose that was! Eheheh~",
+						"englishNote" : ""
+					},
+					"3" : {
+						"event" : "Main 2",
+						"media" : "main_2_ex1100",
+						"chinese" : "明尼阿波利斯小姐捕鱼的时候应该是这样…嘿！…欸嘿嘿，咱的”圣劳伦斯河流特技“，怎、怎么样？",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "ミネアポリスさんとお魚を捕るときはこう…ええい！って…えへへ、うちの「セントローレンス川仕込みの特技」、ど、どうかな？",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Just like that time I went fishing with Minneapolis... Ahey! Like that... Heh heh. That's my \"St. Lawrence River\" technique. Wh-what do you think?",
+						"englishNote" : ""
+					},
+					"4" : {
+						"event" : "Main 3",
+						"media" : "main_3_ex1100",
+						"chinese" : "咱、咱很可爱…？欸嘿嘿…指挥官觉得咱很可爱吗…欸嘿嘿…",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "う、うちのこと、カワイイ…の？え、えへへ…指揮官がうちのこと、可愛いって…えへへ…",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Y-you think I'm cute? Hehehe... the Commander thinks I'm cute... eheheh...",
+						"englishNote" : ""
+					},
+					"5" : {
+						"event" : "Touch (Special)",
+						"media" : "touch_2_ex1100",
+						"chinese" : "指挥官，咱、咱好歹也是偶像…这这这种事还是…不过…啊呜……",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "指揮官、い、一応うちはアイドルだからね？そ、そそそのぉ…でも…あぅ…",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Commnader, y-ya know I'm an idol? W-w-w-we can't do that... but... um...",
+						"englishNote" : ""
+					},
+					"6" : {
+						"event" : "Return to Port",
+						"media" : "home_ex1100",
+						"chinese" : "欸嘿……爬床爬床——欸？指挥官！？啊，这里是指挥官的房间不是我的？？呜呜…对不起…",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "えへへ……ベッドに行ってゴロゴローーえええ！指揮官～な、なんでいるの？！こ、ここは指揮官の部屋でうちのじゃない？？うぅ…ごめんなさい……",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Eheheh... Now I got the bed to mysel– Huh?! Commander! What're ya doin' here?! Th-this ain't my room? It's yours? Waah... I'm so sorry...",
+						"englishNote" : ""
+					},
+					"7" : {
+						"event" : "Victory",
+						"media" : "mvp_ex1100",
+						"chinese" : "小、小天鹅，胜利~！萨拉小姐，这个风格真的不适合咱啦！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "し、シグニットちゃん、大勝利ぃ～！サラトガさん、これうちに合わないよぉ！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Cy-Cyget is victorious~! Saratoga, I don't think I'm cut out for this!",
+						"englishNote" : ""
+					},
+					"8" : {
+						"event" : "Defeat",
+						"media" : "lose_ex1100",
+						"chinese" : "呜呜~指挥官…咱们还是赶紧撤退吧…",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "うえええ~指揮官…早く撤退しようよ……",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Waaaaahhhh~ Commander... let's get out of heeere...",
+						"englishNote" : ""
+					},
+					"9" : {
+						"event" : "Affinity (Love)",
+						"media" : "feeling5_ex1100",
+						"chinese" : "♪～炸鱼薯条♪指挥官要加盐还是蛋黄酱？咱喂你吃吧！欸嘿嘿…啊、啊嗯~",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "♪～フィッシュアンドチップス♪塩とマヨネーズどっちをかけるの？うち、指揮官に食べさせるよ！えへへ…あ、あーん",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "♪ Fish and chips ♪ with salt or with mayonnaise? I'll feed 'em to ya, Commander! Eheheh... open up~",
+						"englishNote" : ""
 					}
 				}
 			}

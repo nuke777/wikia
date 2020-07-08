@@ -34,10 +34,10 @@
 		"EN": ""
 	},
 	"artist": {
-		"name": "",
+		"name": "米白粕",
 		"weibo": "",
-		"twitter": "",
-		"pixiv": "",
+		"twitter": "https://twitter.com/kasu1923",
+		"pixiv": "https://www.pixiv.net/member.php?id=867590",
 		"other": ""
 	},
 	"enhance": {
@@ -50,21 +50,21 @@
 	"skill": {
 		"1": {
 			"icon": "11370",
-			"requirement": "",
+			"requirement": "Default Unlocked",
 			"name": "Fatal Perforation ",
 			"type": "Offensive",
 			"description": "8s after this boat enters the battle: fires a torpedo barrage that can pierce through armor, damaging up to 2 targets per torpedo. Barrage damage is based on the skill's level. "
 		},
 		"2": {
 			"icon": "3531",
-			"requirement": "",
+			"requirement": "Default Unlocked",
 			"name": "Slow Torpedoes",
 			"type": "Offensive",
-			"description": "Increases the DMG of this ship's Torpedoes by $1 but decreases their speed by 1."
+			"description": "Increases the DMG of this ship's Torpedoes by 4.5% (12.0%) but decreases their speed by 1."
 		},
 		"3": {
 			"icon": "29261",
-			"requirement": "",
+			"requirement": "Limit Break I (III)",
 			"name": "All Out Assault Ⅰ",
 			"type": "Offensive",
 			"description": "Activates All Out Assault Ⅰ: I-19 immediately after entering the battle."
@@ -88,6 +88,28 @@
 			"expression": {
 				"0": {
 					"id": "0"
+				}
+			}
+		},
+		"3": {
+			"id": "I19_3",
+			"name": "Pillowy Paradise",
+			"description": "So sleepy... Hey, Commandeeer? Do you wanna nap with me and my torpedo?",
+			"expression": {
+				"0": {
+					"id": "0"
+				},
+				"1": {
+					"id": "1"
+				},
+				"2": {
+					"id": "2"
+				},
+				"3": {
+					"id": "3"
+				},
+				"4": {
+					"id": "4"
 				}
 			}
 		}
@@ -245,9 +267,9 @@
 			"EN": ""
 		},
 		"special": {
-			"JP": "",
-			"CN": "",
-			"EN": ""
+			"JP": "✓",
+			"CN": "✓",
+			"EN": "✓"
 		},
 		"limited": {
 			"JP": "",
@@ -754,6 +776,121 @@
 						"japaneseTL": "",
 						"japaneseNote": "",
 						"english": "Mail? I hope it's not an angry letter from some teacher...",
+						"englishNote": ""
+					}
+				}
+			},
+			"3": {
+				"skin_id": "I19_3",
+				"id": "2",
+				"label": "Pillowy Paradise",
+				"dialogue": {
+					"1": {
+						"event": "Ship Description",
+						"media": "",
+						"chinese": "好困……嗯，指挥官？要和“鱼雷先生”一起睡会吗？",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "ねむねむ……しきかーん？「ギョライさん」と、一緒にねちゃおー？",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "So sleepy... Hey, Commandeeer? Do you wanna nap with me and my torpedo?",
+						"englishNote": ""
+					},
+					"2": {
+						"event": "Acquisition",
+						"media": "get_2",
+						"chinese": "好困……嗯，指挥官？要和“鱼雷先生”一起睡会吗？",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"3": {
+						"event": "Login",
+						"media": "login_2",
+						"chinese": "呼呼……人家还想多睡一会啦……",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"4": {
+						"event": "Details",
+						"media": "detail_2",
+						"chinese": "还是抱着“鱼雷先生”睡比较舒服呢~欸嘿嘿~",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"5": {
+						"event": "Touch",
+						"media": "touch_1_2",
+						"chinese": "唔……人家可不是抱枕……",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"6": {
+						"event": "Touch (Special)",
+						"media": "touch_2_2",
+						"chinese": "这比“鱼雷先生”舒服多了吧？嘻嘻~",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"7": {
+						"event": "Mission",
+						"media": "task_2",
+						"chinese": "任务？等睡醒再说啦……",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"8": {
+						"event": "Mail",
+						"media": "mail_2",
+						"chinese": "有新的枕头到了吗？呼……",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"9": {
+						"event": "Return to Port",
+						"media": "home_2",
+						"chinese": "“鱼雷先生”，指挥官回来了呢……呼呼……",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
 						"englishNote": ""
 					}
 				}

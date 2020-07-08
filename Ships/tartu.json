@@ -1,70 +1,117 @@
 {
-	"name_reference" : "tartu",
-	"cn_reference" : "taertu",
-	"nameJP" : "タルテュ",
-	"nameCN" : "塔尔图",
-	"ID" : "452",
-	"name" : "Tartu",
-	"internal_id" : "901021",
-	"rarity" : "Elite",
-	"initialStar" : "★★☆☆☆",
-	"hull" : "Destroyer",
-	"navy" : "Vichya Dominion",
-	"prefix" : "MNF",
-	"buildTime" : "00:27:00",
+	"name_reference": "tartu",
+	"cn_reference": "taertu",
+	"nameJP": "タルテュ",
+	"nameCN": "塔尔图",
+	"ID": "452",
+	"name": "Tartu",
+	"internal_id": "901021",
+	"rarity": "Elite",
+	"initialStar": "★★☆☆☆",
+	"hull": "Destroyer",
+	"navy": "Vichya Dominion",
+	"prefix": "MNF",
+	"buildTime": "00:27:00",
 	"parameters": {
-		"firepower" : "",
-		"torpedo" : "",
-		"aviation" : "",
-		"evasion" : "",
-		"antiAir" : "",
-		"hp" : ""
+		"firepower": "",
+		"torpedo": "",
+		"aviation": "",
+		"evasion": "",
+		"antiAir": "",
+		"hp": ""
 	},
 	"scrap": {
-		"gold" : "4",
-		"oil" : "3",
-		"medal" : "4"
+		"gold": "4",
+		"oil": "3",
+		"medal": "4"
 	},
 	"releaseDate": {
-		"JP" : "May 7, 2020",
-		"CN" : "May 7, 2020",
-		"KR" : "May 7, 2020",
-		"EN" : "May 7, 2020"
+		"JP": "May 7, 2020",
+		"CN": "May 7, 2020",
+		"KR": "May 7, 2020",
+		"EN": "May 7, 2020"
 	},
 	"artist": {
-		"name" : "",
-		"weibo" : "",
-		"twitter" : "",
-		"pixiv" : "",
-		"other" : ""
-	},	
-	"class" : "Vauquelin-class ",
-	"enhance": {
-		"firepower" : "7",
-		"torpedo" : "17",
-		"aviation" : "0",
-		"reload" : "14"
+		"name": "",
+		"weibo": "",
+		"twitter": "",
+		"pixiv": "",
+		"other": ""
 	},
-	"acquisitionMethod" : "Event: The Way Home in the Night",
+	"class": "Vauquelin-class ",
+	"enhance": {
+		"firepower": "7",
+		"torpedo": "17",
+		"aviation": "0",
+		"reload": "14"
+	},
+	"acquisitionMethod": "Event: The Way Home in the Night",
 	"skill": {
-		"1" : {
-			"icon" : "13230",
-			"requirement" : "Default Unlocked",
-			"name" : "Arbiter of Z",
-			"type" : "Support",
-			"description" : "At the start of the battle, if there is an Iris Libre or Vichya Dominion CL or CA in your fleet: increases this ship's FP and EVA by 5% (15%) and increases FP and AA by 3.5% (8%) for all your Iris Libre and Vichya Dominion CLs and CAs."
+		"1": {
+			"icon": "13230",
+			"requirement": "Default Unlocked",
+			"name": "Arbiter of Z",
+			"type": "Support",
+			"description": "At the start of the battle, if there is an Iris Libre or Vichya Dominion CL or CA in your fleet: increases this ship's FP and EVA by 5% (15%) and increases FP and AA by 3.5% (8%) for all your Iris Libre and Vichya Dominion CLs and CAs."
 		},
-		"2" : {
-			"icon" : "28031",
-			"requirement" : "Limit Break I (III)",
-			"name" : "All Out Assault Ⅰ",
-			"type" : "Offensive",
-			"description" : "Activates All Out Assault Ⅰ: Vauquelin-class once every 15 times the Main Guns are fired."
+		"2": {
+			"icon": "28031",
+			"requirement": "Limit Break I (III)",
+			"name": "All Out Assault Ⅰ",
+			"type": "Offensive",
+			"description": "Activates All Out Assault Ⅰ: Vauquelin-class once every 15 times the Main Guns are fired."
 		}
 	},
 	"skin": {
-		"1" : {
-			"id" : "taertu",
+		"1": {
+			"id": "taertu",
+			"name": "Tartu ",
+			"description": "Vauquelin-class destroyer – Tartu. ",
+			"expression": {
+				"0": {
+					"id": "0"
+				},
+				"1": {
+					"id": "1"
+				},
+				"2": {
+					"id": "2"
+				},
+				"3": {
+					"id": "3"
+				},
+				"4": {
+					"id": "4"
+				}
+			}
+		},
+		"2": {
+			"id": "taertu_2",
+			"name": "Overthinking Summer ",
+			"description": "Commander, you're not going to get into the water? ...Ah, I'm fine right here. To tell you the truth, I once got washed away by the waves, and then got laughed at by Vauquelin... so I'm perfectly fine right here. ",
+			"expression": {
+				"0": {
+					"id": "0"
+				},
+				"1": {
+					"id": "1"
+				},
+				"2": {
+					"id": "2"
+				},
+				"3": {
+					"id": "3"
+				},
+				"4": {
+					"id": "4"
+				},
+				"5": {
+					"id": "5"
+				}
+			}
+		},
+		"101" : {
+			"id" : "taertu_ex1100",
 			"name" : "Tartu ",
 			"description" : "Vauquelin-class destroyer – Tartu. ",
 			"expression" : {
@@ -84,135 +131,110 @@
 					"id" : "4"
 				}
 			}
-		},
-		"2" : {
-			"id" : "taertu_2",
-			"name" : "Overthinking Summer ",
-			"description" : "Commander, you're not going to get into the water? ...Ah, I'm fine right here. To tell you the truth, I once got washed away by the waves, and then got laughed at by Vauquelin... so I'm perfectly fine right here. ",
-			"expression" : {
-				"0" : {
-					"id" : "0"
-				},
-				"1" : {
-					"id" : "1"
-				},
-				"2" : {
-					"id" : "2"
-				},
-				"3" : {
-					"id" : "3"
-				},
-				"4" : {
-					"id" : "4"
-				},
-				"5" : {
-					"id" : "5"
-				}
-			}
 		}
 	},
 	"defaultEquipment": {
-		"1" : {
-			"icon" : "50700",
-			"rarity" : "Common",
-			"name" : "Single 138.6mm Main Gun (Mle 1927)"
+		"1": {
+			"icon": "50700",
+			"rarity": "Common",
+			"name": "Single 138.6mm Main Gun (Mle 1927)"
 		},
-		"2" : {
-			"icon" : "5400",
-			"rarity" : "Common",
-			"name" : "Triple 550mm Torpedo"
+		"2": {
+			"icon": "5400",
+			"rarity": "Common",
+			"name": "Triple 550mm Torpedo"
 		},
-		"3" : {
-			"icon" : "",
-			"rarity" : "",
-			"name" : ""
+		"3": {
+			"icon": "",
+			"rarity": "",
+			"name": ""
 		}
 	},
 	"stats": {
-		"base": {
-			"hp" : "301",
-			"firepower" : "22",
-			"torpedo" : "51",
-			"antiAir" : "26",
-			"aviation" : "0",
-			"reload" : "75",
-			"hit" : "67",
-			"evasion" : "78",
-			"speed" : "43.2",
-			"luck" : "45",
-			"asw" : "51",
-			"oxygen" : "0",
-			"ammo" : "0",
-			"cost" : "2",
-			"armor" : "Light"
-		},
 		"100": {
-			"hp" : "1557",
-			"firepower" : "104",
-			"torpedo" : "239",
-			"antiAir" : "123",
-			"aviation" : "0",
-			"reload" : "177",
-			"hit" : "174",
-			"evasion" : "204",
-			"speed" : "43.2",
-			"luck" : "45",
-			"asw" : "187",
-			"oxygen" : "0",
-			"ammo" : "0",
-			"cost" : "9",
-			"armor" : "Light"
+			"hp": "1557",
+			"firepower": "104",
+			"torpedo": "239",
+			"antiAir": "123",
+			"aviation": "0",
+			"reload": "177",
+			"hit": "174",
+			"evasion": "204",
+			"speed": "43.2",
+			"luck": "45",
+			"asw": "187",
+			"oxygen": "0",
+			"ammo": "0",
+			"cost": "9",
+			"armor": "Light"
 		},
 		"120": {
-			"hp" : "1868",
-			"firepower" : "120",
-			"torpedo" : "273",
-			"antiAir" : "141",
-			"aviation" : "0",
-			"reload" : "204",
-			"hit" : "183",
-			"evasion" : "212",
-			"speed" : "43.2",
-			"luck" : "45",
-			"asw" : "208",
-			"oxygen" : "0",
-			"ammo" : "0",
-			"cost" : "9",
-			"armor" : "Light"
+			"hp": "1868",
+			"firepower": "120",
+			"torpedo": "273",
+			"antiAir": "141",
+			"aviation": "0",
+			"reload": "204",
+			"hit": "183",
+			"evasion": "212",
+			"speed": "43.2",
+			"luck": "45",
+			"asw": "208",
+			"oxygen": "0",
+			"ammo": "0",
+			"cost": "9",
+			"armor": "Light"
+		},
+		"base": {
+			"hp": "301",
+			"firepower": "22",
+			"torpedo": "51",
+			"antiAir": "26",
+			"aviation": "0",
+			"reload": "75",
+			"hit": "67",
+			"evasion": "78",
+			"speed": "43.2",
+			"luck": "45",
+			"asw": "51",
+			"oxygen": "0",
+			"ammo": "0",
+			"cost": "2",
+			"armor": "Light"
 		},
 		"100retrofit": {
-			"hp" : "",
-			"firepower" : "",
-			"torpedo" : "",
-			"antiAir" : "",
-			"aviation" : "",
-			"reload" : "",
-			"hit" : "",
-			"evasion" : "",
-			"speed" : "43.2",
-			"luck" : "45",
-			"asw" : "",
-			"oxygen" : "0",
-			"ammo" : "0",
-			"cost" : "9",
-			"armor" : "Light"
+			"hp": "",
+			"firepower": "",
+			"torpedo": "",
+			"antiAir": "",
+			"aviation": "",
+			"reload": "",
+			"hit": "",
+			"evasion": "",
+			"speed": "43.2",
+			"luck": "45",
+			"asw": "",
+			"oxygen": "0",
+			"ammo": "0",
+			"cost": "9",
+			"armor": "Light"
 		},
 		"120retrofit": {
-			"hp" : "",
-			"firepower" : "",
-			"torpedo" : "",
-			"antiAir" : "",
-			"aviation" : "",
-			"reload" : "",
-			"hit" : "",
-			"evasion" : "",
-			"speed" : "43.2",
-			"luck" : "45",
-			"asw" : "",
-			"oxygen" : "0",
-			"ammo" : "0",
-			"cost" : "9",
-			"armor" : "Light"
+			"hp": "",
+			"firepower": "",
+			"torpedo": "",
+			"antiAir": "",
+			"aviation": "",
+			"reload": "",
+			"hit": "",
+			"evasion": "",
+			"speed": "43.2",
+			"luck": "45",
+			"asw": "",
+			"oxygen": "0",
+			"ammo": "0",
+			"cost": "9",
+			"armor": "Light"
 		}
 	},
 	"limitBreak": {
@@ -309,519 +331,610 @@
 	"lines": {
 		"skin": {
 			"1": {
-				"skin_id" : "taertu",
-				"id" : "0",
-				"label" : "Tartu ",
-				"dialogue" : {
-					"1" : {
-						"event" : "Ship Description",
-						"media" : "",
-						"chinese" : "维希教廷沃克兰级驱逐舰—塔尔图",
-						"chineseTL" : "",
-						"chineseNote" : "",
-						"japanese" : "ヴォークラン級駆逐艦タルテュ",
-						"japaneseTL" : "",
-						"japaneseNote" : "",
-						"english" : "Vauquelin-class destroyer – Tartu. ",
-						"englishNote" : ""
+				"skin_id": "taertu",
+				"id": "0",
+				"label": "Tartu ",
+				"dialogue": {
+					"1": {
+						"event": "Ship Description",
+						"media": "",
+						"chinese": "维希教廷沃克兰级驱逐舰—塔尔图",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "ヴォークラン級駆逐艦タルテュ",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Vauquelin-class destroyer – Tartu. ",
+						"englishNote": ""
 					},
-					"2" : {
-						"event" : "Biography",
-						"media" : "profile",
-						"chinese" : "我是维希教廷的塔尔图，在战争中一直在陆间海服役，也参与了皇家发动的那场战役，最后在土伦和其他姐妹们一同迎来了结局…嗯？我对过去没有什么特别的想法呢…“重要的是现在！”如果是沃克兰的话，大概会这么说吧，呵呵…",
-						"chineseTL" : "",
-						"chineseNote" : "",
-						"japanese" : "ヴィシア聖座のタルテュです。かの大戦では地中海に配属され、ロイヤルとの戦いに参加しました。トゥーロンで他の皆と……ううん、昔のことを思い詰める必要はありません。大事なのは今！と、ヴォークランなら言いそうですね。ふふ",
-						"japaneseTL" : "",
-						"japaneseNote" : "",
-						"english" : "I am Tartu of the Vichya Dominion. During the war, I was assigned to the Mediterranean and joined the fight against the Royal Navy. At Toulon, the others and I were... No, I can't get caught up about the past. The important thing is what's now in front of us! That's what Vauquelin would say, hehe. ",
-						"englishNote" : ""
+					"2": {
+						"event": "Biography",
+						"media": "profile",
+						"chinese": "我是维希教廷的塔尔图，在战争中一直在陆间海服役，也参与了皇家发动的那场战役，最后在土伦和其他姐妹们一同迎来了结局…嗯？我对过去没有什么特别的想法呢…“重要的是现在！”如果是沃克兰的话，大概会这么说吧，呵呵…",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "ヴィシア聖座のタルテュです。かの大戦では地中海に配属され、ロイヤルとの戦いに参加しました。トゥーロンで他の皆と……ううん、昔のことを思い詰める必要はありません。大事なのは今！と、ヴォークランなら言いそうですね。ふふ",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "I am Tartu of the Vichya Dominion. During the war, I was assigned to the Mediterranean and joined the fight against the Royal Navy. At Toulon, the others and I were... No, I can't get caught up about the past. The important thing is what's now in front of us! That's what Vauquelin would say, hehe. ",
+						"englishNote": ""
 					},
-					"3" : {
-						"event" : "Acquisition",
-						"media" : "get",
-						"chinese" : "你好，指挥官，我是沃克兰级的塔尔图…—啊，抱歉，我只是在想，这座港口真大呢…",
-						"chineseTL" : "",
-						"chineseNote" : "",
-						"japanese" : "こんにちは、指揮官。ヴォークラン級のタルテュです。…………ん？あっ、ごめんなさい、母港が大きいなぁって考えてました…",
-						"japaneseTL" : "",
-						"japaneseNote" : "",
-						"english" : "Good day, Commander. I'm Tartu of the Vauquelin-class. ...Huh? Oh, I'm so sorry, I got caught up in thinking about how large the port is...",
-						"englishNote" : ""
+					"3": {
+						"event": "Acquisition",
+						"media": "get",
+						"chinese": "你好，指挥官，我是沃克兰级的塔尔图…—啊，抱歉，我只是在想，这座港口真大呢…",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "こんにちは、指揮官。ヴォークラン級のタルテュです。…………ん？あっ、ごめんなさい、母港が大きいなぁって考えてました…",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Good day, Commander. I'm Tartu of the Vauquelin-class. ...Huh? Oh, I'm so sorry, I got caught up in thinking about how large the port is...",
+						"englishNote": ""
 					},
-					"4" : {
-						"event" : "Login",
-						"media" : "login",
-						"chinese" : "啊，指挥官，你好。我正在想你怎么还没有来呢",
-						"chineseTL" : "",
-						"chineseNote" : "",
-						"japanese" : "指揮官、こんにちは。……あっ、どうして今まで来なかったのかなぁって考えてました…",
-						"japaneseTL" : "",
-						"japaneseNote" : "",
-						"english" : "Commander, good day...... Oh, I was deep in thought about why you hadn't shown up yet...",
-						"englishNote" : ""
+					"4": {
+						"event": "Login",
+						"media": "login",
+						"chinese": "啊，指挥官，你好。我正在想你怎么还没有来呢",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "指揮官、こんにちは。……あっ、どうして今まで来なかったのかなぁって考えてました…",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Commander, good day...... Oh, I was deep in thought about why you hadn't shown up yet...",
+						"englishNote": ""
 					},
-					"5" : {
-						"event" : "Details",
-						"media" : "detail",
-						"chinese" : "照顾人的敦刻尔克，优雅大方的阿尔及利亚，正气凛然的黎塞留…大家都是充满成熟魅力的女性呢，嗯，我也要以她们为目标，努力加油才行！",
-						"chineseTL" : "",
-						"chineseNote" : "",
-						"japanese" : "世話焼きのダンケルクさんに、エレガントのアルジェリーさん、リシュリュー様…みんな魅力的な女性です。タルテュもみんなを目標に頑張っています",
-						"japaneseTL" : "",
-						"japaneseNote" : "",
-						"english" : "The motherly Dunkerque, the elegant Algérie, and Lady Richelieu... They all represent the pinnacles of womanhood. I must strive to be more like them.",
-						"englishNote" : ""
+					"5": {
+						"event": "Details",
+						"media": "detail",
+						"chinese": "照顾人的敦刻尔克，优雅大方的阿尔及利亚，正气凛然的黎塞留…大家都是充满成熟魅力的女性呢，嗯，我也要以她们为目标，努力加油才行！",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "世話焼きのダンケルクさんに、エレガントのアルジェリーさん、リシュリュー様…みんな魅力的な女性です。タルテュもみんなを目標に頑張っています",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "The motherly Dunkerque, the elegant Algérie, and Lady Richelieu... They all represent the pinnacles of womanhood. I must strive to be more like them.",
+						"englishNote": ""
 					},
-					"6" : {
-						"event" : "Main 1",
-						"media" : "main_1",
-						"chinese" : "指挥官，你觉得我能够成为敦刻尔克那样可以照顾别人的成熟女性么？",
-						"chineseTL" : "",
-						"chineseNote" : "",
-						"japanese" : "指揮官、タルテュがダンケルクさんのような、人を思いやれる、大人の女性に成長できると思いますか？",
-						"japaneseTL" : "",
-						"japaneseNote" : "",
-						"english" : "Commander, do you think I can grow up to become a mature, caring woman like Dunkerque? ",
-						"englishNote" : ""
+					"6": {
+						"event": "Main 1",
+						"media": "main_1",
+						"chinese": "指挥官，你觉得我能够成为敦刻尔克那样可以照顾别人的成熟女性么？",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "指揮官、タルテュがダンケルクさんのような、人を思いやれる、大人の女性に成長できると思いますか？",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Commander, do you think I can grow up to become a mature, caring woman like Dunkerque? ",
+						"englishNote": ""
 					},
-					"7" : {
-						"event" : "Main 2",
-						"media" : "main_2",
-						"chinese" : "沃克兰说想要成为成熟的女性，首先要有成熟的精神，于是推荐我多读读推理小说，实际读过以后，其实还挺有趣的呢，呵呵",
-						"chineseTL" : "",
-						"chineseNote" : "",
-						"japanese" : "大人になるためには、まず精神を鍛えないと――と、ヴォークランが探偵小説を読むよう薦めてくれました。結構面白いですよ。ふふ",
-						"japaneseTL" : "",
-						"japaneseNote" : "",
-						"english" : "Vauquelin, about the donuts last time... Oh, you already heard about that? ...Sorry, I must have gotten lost in my thoughts again... ",
-						"englishNote" : ""
+					"7": {
+						"event": "Main 2",
+						"media": "main_2",
+						"chinese": "沃克兰说想要成为成熟的女性，首先要有成熟的精神，于是推荐我多读读推理小说，实际读过以后，其实还挺有趣的呢，呵呵",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "大人になるためには、まず精神を鍛えないと――と、ヴォークランが探偵小説を読むよう薦めてくれました。結構面白いですよ。ふふ",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Vauquelin, about the donuts last time... Oh, you already heard about that? ...Sorry, I must have gotten lost in my thoughts again... ",
+						"englishNote": ""
 					},
-					"8" : {
-						"event" : "Main 3",
-						"media" : "main_3",
-						"chinese" : "沃克兰很喜欢运动呢。运动，疲劳，休息，营养，糖分……唔，有点想吃敦刻尔克做的甜点了",
-						"chineseTL" : "",
-						"chineseNote" : "",
-						"japanese" : "ヴォークランは運動が好きですね。運動して疲れて、休んで、お腹が減って……あっ、ごめんなさい、今ダンケルクさんのお菓子について考えてました…",
-						"japaneseTL" : "",
-						"japaneseNote" : "",
-						"english" : "Vauquelin is really athletic. Getting tired from exercising, resting, and getting hungry... Oh, sorry, I started thinking about Dunkerque's sweets...",
-						"englishNote" : ""
+					"8": {
+						"event": "Main 3",
+						"media": "main_3",
+						"chinese": "沃克兰很喜欢运动呢。运动，疲劳，休息，营养，糖分……唔，有点想吃敦刻尔克做的甜点了",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "ヴォークランは運動が好きですね。運動して疲れて、休んで、お腹が減って……あっ、ごめんなさい、今ダンケルクさんのお菓子について考えてました…",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Vauquelin is really athletic. Getting tired from exercising, resting, and getting hungry... Oh, sorry, I started thinking about Dunkerque's sweets...",
+						"englishNote": ""
 					},
-					"9" : {
-						"event" : "Touch",
-						"media" : "touch_1",
-						"chinese" : "……啊！指挥官，关于前面你问的的那个问题…欸？已经没问题了吗？这样啊…",
-						"chineseTL" : "",
-						"chineseNote" : "",
-						"japanese" : "指揮官、さっき聞いてくださったことですが…え？も、もう大丈夫ですか？そうですか…",
-						"japaneseTL" : "",
-						"japaneseNote" : "",
-						"english" : "Commander, regarding what you asked me earlier... Eh? You've already taken care of it? I, I see...",
-						"englishNote" : ""
+					"9": {
+						"event": "Touch",
+						"media": "touch_1",
+						"chinese": "……啊！指挥官，关于前面你问的的那个问题…欸？已经没问题了吗？这样啊…",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "指揮官、さっき聞いてくださったことですが…え？も、もう大丈夫ですか？そうですか…",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Commander, regarding what you asked me earlier... Eh? You've already taken care of it? I, I see...",
+						"englishNote": ""
 					},
-					"10" : {
-						"event" : "Touch (Special)",
-						"media" : "touch_2",
-						"chinese" : "唔…按照沃克兰推荐的书来说…这种时候应该是…证据确凿，人赃俱获…吧？",
-						"chineseTL" : "",
-						"chineseNote" : "",
-						"japanese" : "ヴォークランが薦めてくれた本によれば、この場合……証拠を押さえて現行犯逮捕…ですか？",
-						"japaneseTL" : "",
-						"japaneseNote" : "",
-						"english" : "According to the book Vauquelin recommended me, what I should do in this situation is... gather the evidence, and... detain the offender?",
-						"englishNote" : ""
+					"10": {
+						"event": "Touch (Special)",
+						"media": "touch_2",
+						"chinese": "唔…按照沃克兰推荐的书来说…这种时候应该是…证据确凿，人赃俱获…吧？",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "ヴォークランが薦めてくれた本によれば、この場合……証拠を押さえて現行犯逮捕…ですか？",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "According to the book Vauquelin recommended me, what I should do in this situation is... gather the evidence, and... detain the offender?",
+						"englishNote": ""
 					},
-					"11" : {
-						"event" : "Mission",
-						"media" : "task",
-						"chinese" : "上次任务得到的奖励，要怎么使用比较好呢…咦，又有新的任务发下来了吗？",
-						"chineseTL" : "",
-						"chineseNote" : "",
-						"japanese" : "この前の任務で頂いたものはたしか…あ、新しい任務ですか？",
-						"japaneseTL" : "",
-						"japaneseNote" : "",
-						"english" : "How should we spend the rewards from last time... Oh, we have new missions?",
-						"englishNote" : ""
+					"11": {
+						"event": "Mission",
+						"media": "task",
+						"chinese": "上次任务得到的奖励，要怎么使用比较好呢…咦，又有新的任务发下来了吗？",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "この前の任務で頂いたものはたしか…あ、新しい任務ですか？",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "How should we spend the rewards from last time... Oh, we have new missions?",
+						"englishNote": ""
 					},
-					"12" : {
-						"event" : "Mission Complete",
-						"media" : "mission_complete",
-						"chinese" : "任务完成。报告的排序，应该按照优先级、完成时间、还是报酬多少呢，唔.......",
-						"chineseTL" : "",
-						"chineseNote" : "",
-						"japanese" : "任務完了です。次は任務報告の書き方、優先順位と終了時間、報酬と…うん…",
-						"japaneseTL" : "",
-						"japaneseNote" : "",
-						"english" : "Mission complete. Should I arrange the report based upon priority, completion time, payout, or... Mmm...",
-						"englishNote" : ""
+					"12": {
+						"event": "Mission Complete",
+						"media": "mission_complete",
+						"chinese": "任务完成。报告的排序，应该按照优先级、完成时间、还是报酬多少呢，唔.......",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "任務完了です。次は任務報告の書き方、優先順位と終了時間、報酬と…うん…",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Mission complete. Should I arrange the report based upon priority, completion time, payout, or... Mmm...",
+						"englishNote": ""
 					},
-					"13" : {
-						"event" : "Mail",
-						"media" : "mail",
-						"chinese" : "啊…对了，我是来给指挥官送信的",
-						"chineseTL" : "",
-						"chineseNote" : "",
-						"japanese" : "あら、タルテュは、今…そうですね、指揮官への手紙を届けに来たんです",
-						"japaneseTL" : "",
-						"japaneseNote" : "",
-						"english" : "Ah, um... Right, Commander, I came to bring you the mail.",
-						"englishNote" : ""
+					"13": {
+						"event": "Mail",
+						"media": "mail",
+						"chinese": "啊…对了，我是来给指挥官送信的",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "あら、タルテュは、今…そうですね、指揮官への手紙を届けに来たんです",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Ah, um... Right, Commander, I came to bring you the mail.",
+						"englishNote": ""
 					},
-					"14" : {
-						"event" : "Return to Port",
-						"media" : "home",
-						"chinese" : "该用什么样的方式欢迎指挥官回来比较好呢…",
-						"chineseTL" : "",
-						"chineseNote" : "",
-						"japanese" : "うーん、指揮官をどう出迎えれば良いかなぁ…",
-						"japaneseTL" : "",
-						"japaneseNote" : "",
-						"english" : "Hmm... What would be the optimal way to welcome back the Commander...",
-						"englishNote" : ""
+					"14": {
+						"event": "Return to Port",
+						"media": "home",
+						"chinese": "该用什么样的方式欢迎指挥官回来比较好呢…",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "うーん、指揮官をどう出迎えれば良いかなぁ…",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Hmm... What would be the optimal way to welcome back the Commander...",
+						"englishNote": ""
 					},
-					"15" : {
-						"event" : "Commission Complete",
-						"media" : "expedition",
-						"chinese" : "差点忘记了。指挥官，远征完成了哦。",
-						"chineseTL" : "",
-						"chineseNote" : "",
-						"japanese" : "委託が完了しました。ごめんなさい指揮官、言い忘れるところでした…",
-						"japaneseTL" : "",
-						"japaneseNote" : "",
-						"english" : "The commission has been completed. Sorry, Commander, I forgot to tell you...",
-						"englishNote" : ""
+					"15": {
+						"event": "Commission Complete",
+						"media": "expedition",
+						"chinese": "差点忘记了。指挥官，远征完成了哦。",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "委託が完了しました。ごめんなさい指揮官、言い忘れるところでした…",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "The commission has been completed. Sorry, Commander, I forgot to tell you...",
+						"englishNote": ""
 					},
-					"16" : {
-						"event" : "Enhancement",
-						"media" : "upgrade",
-						"chinese" : "感觉，好像变得厉害了一点",
-						"chineseTL" : "",
-						"chineseNote" : "",
-						"japanese" : "ちょっと強くなりました…気がします",
-						"japaneseTL" : "",
-						"japaneseNote" : "",
-						"english" : "I feel like... I've become stronger.",
-						"englishNote" : ""
+					"16": {
+						"event": "Enhancement",
+						"media": "upgrade",
+						"chinese": "感觉，好像变得厉害了一点",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "ちょっと強くなりました…気がします",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "I feel like... I've become stronger.",
+						"englishNote": ""
 					},
-					"17" : {
-						"event" : "Flagship",
-						"media" : "warcry",
-						"chinese" : "集中精神…！",
-						"chineseTL" : "",
-						"chineseNote" : "",
-						"japanese" : "集中、集中…！",
-						"japaneseTL" : "",
-						"japaneseNote" : "",
-						"english" : "Focus, focus...!",
-						"englishNote" : ""
+					"17": {
+						"event": "Flagship",
+						"media": "warcry",
+						"chinese": "集中精神…！",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "集中、集中…！",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Focus, focus...!",
+						"englishNote": ""
 					},
-					"18" : {
-						"event" : "Victory",
-						"media" : "mvp",
-						"chinese" : "……啊，抱歉，谁是MVP来着？欸，我是MVP？",
-						"chineseTL" : "",
-						"chineseNote" : "",
-						"japanese" : "………あっ、ごめんなさい、MVPが誰かなぁって…タルテュですか？",
-						"japaneseTL" : "",
-						"japaneseNote" : "",
-						"english" : "......Oh, sorry, who got MVP again? Oh, it was me?",
-						"englishNote" : ""
+					"18": {
+						"event": "Victory",
+						"media": "mvp",
+						"chinese": "……啊，抱歉，谁是MVP来着？欸，我是MVP？",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "………あっ、ごめんなさい、MVPが誰かなぁって…タルテュですか？",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "......Oh, sorry, who got MVP again? Oh, it was me?",
+						"englishNote": ""
 					},
-					"19" : {
-						"event" : "Defeat",
-						"media" : "lose",
-						"chinese" : "嗯…果然，刚才那一发炮弹应该再右移一点比较好…啊，对不起，已经要撤退了对吧…！",
-						"chineseTL" : "",
-						"chineseNote" : "",
-						"japanese" : "んー今の砲撃はもう少し右にしたほうが…あ、ごめんなさいっ。もう撤退するんですねっ…！",
-						"japaneseTL" : "",
-						"japaneseNote" : "",
-						"english" : "Hmm... I knew I should have aimed a bit more to the left on that last shot... Oh, I'm sorry... I should be retreating right now...1",
-						"englishNote" : ""
+					"19": {
+						"event": "Defeat",
+						"media": "lose",
+						"chinese": "嗯…果然，刚才那一发炮弹应该再右移一点比较好…啊，对不起，已经要撤退了对吧…！",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "んー今の砲撃はもう少し右にしたほうが…あ、ごめんなさいっ。もう撤退するんですねっ…！",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Hmm... I knew I should have aimed a bit more to the left on that last shot... Oh, I'm sorry... I should be retreating right now...1",
+						"englishNote": ""
 					},
-					"20" : {
-						"event" : "Skill",
-						"media" : "skill",
-						"chinese" : "这种情况下应该…这样！",
-						"chineseTL" : "",
-						"chineseNote" : "",
-						"japanese" : "この状況では…こう！",
-						"japaneseTL" : "",
-						"japaneseNote" : "",
-						"english" : "The right thing to do in this situation is... this!",
-						"englishNote" : ""
+					"20": {
+						"event": "Skill",
+						"media": "skill",
+						"chinese": "这种情况下应该…这样！",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "この状況では…こう！",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "The right thing to do in this situation is... this!",
+						"englishNote": ""
 					},
-					"21" : {
-						"event" : "Low HP",
-						"media" : "hp",
-						"chinese" : "唔，要更加集中注意力！",
-						"chineseTL" : "",
-						"chineseNote" : "",
-						"japanese" : "…っ！もっと集中しないと……",
-						"japaneseTL" : "",
-						"japaneseNote" : "",
-						"english" : "...Eep! I've got to stay focused...",
-						"englishNote" : ""
+					"21": {
+						"event": "Low HP",
+						"media": "hp",
+						"chinese": "唔，要更加集中注意力！",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "…っ！もっと集中しないと……",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "...Eep! I've got to stay focused...",
+						"englishNote": ""
 					},
-					"22" : {
-						"event" : "Affinity (Upset)",
-						"media" : "feeling1",
-						"chinese" : "指挥官，能安静一些吗，思路要被打断了。",
-						"chineseTL" : "",
-						"chineseNote" : "",
-						"japanese" : "ごめんなさい、静かにしていただけますでしょうか。ちょっと考えるのに集中できないです…",
-						"japaneseTL" : "",
-						"japaneseNote" : "",
-						"english" : "Commander, please be quiet. I can't even hear my own thoughts over your ruckus...",
-						"englishNote" : ""
+					"22": {
+						"event": "Affinity (Upset)",
+						"media": "feeling1",
+						"chinese": "指挥官，能安静一些吗，思路要被打断了。",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "ごめんなさい、静かにしていただけますでしょうか。ちょっと考えるのに集中できないです…",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Commander, please be quiet. I can't even hear my own thoughts over your ruckus...",
+						"englishNote": ""
 					},
-					"23" : {
-						"event" : "Affinity (Stranger)",
-						"media" : "feeling2",
-						"chinese" : "疼--！原来是树枝...啊，指挥官，早上好。嗯？我只是在散步的时候想事情入迷了。请不要在意，对我来说，这是很常有的事。",
-						"chineseTL" : "",
-						"chineseNote" : "",
-						"japanese" : "いたっ？！うう、木の枝に……あ、指揮官、こんにちは。タルテュは…ええ、大丈夫です。ただ散歩中にほかのことを考えていただけでした。よくあることです。気にしないでくださいませ",
-						"japaneseTL" : "",
-						"japaneseNote" : "",
-						"english" : "Ow...! Ugh, where did that tree branch come from... Oh, Commander, good morning. I'm... Mm, I'm fine. I just got lost in my thoughts while I was walking. Don't worry, this kind of stuff happens all the time.",
-						"englishNote" : ""
+					"23": {
+						"event": "Affinity (Stranger)",
+						"media": "feeling2",
+						"chinese": "疼--！原来是树枝...啊，指挥官，早上好。嗯？我只是在散步的时候想事情入迷了。请不要在意，对我来说，这是很常有的事。",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "いたっ？！うう、木の枝に……あ、指揮官、こんにちは。タルテュは…ええ、大丈夫です。ただ散歩中にほかのことを考えていただけでした。よくあることです。気にしないでくださいませ",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Ow...! Ugh, where did that tree branch come from... Oh, Commander, good morning. I'm... Mm, I'm fine. I just got lost in my thoughts while I was walking. Don't worry, this kind of stuff happens all the time.",
+						"englishNote": ""
 					},
-					"24" : {
-						"event" : "Affinity (Friendly)",
-						"media" : "feeling3",
-						"chinese" : "我的坏习惯是一旦开始想事情，很容易无视周围环境陷入沉思之中。这样的话，没有办法成为可以照顾他人的成熟女性吧......",
-						"chineseTL" : "",
-						"chineseNote" : "",
-						"japanese" : "タルテュ、考え込んでしまいますと、周りのことが全然見えなくなって……このままでは思いやりのできる大人の女性にはなれませんよね…",
-						"japaneseTL" : "",
-						"japaneseNote" : "",
-						"english" : "Listen up, me, if I keep overthinking everything, I won't notice what's going on around me... and then won't be able to become a mature and compassionate woman...",
-						"englishNote" : ""
+					"24": {
+						"event": "Affinity (Friendly)",
+						"media": "feeling3",
+						"chinese": "我的坏习惯是一旦开始想事情，很容易无视周围环境陷入沉思之中。这样的话，没有办法成为可以照顾他人的成熟女性吧......",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "タルテュ、考え込んでしまいますと、周りのことが全然見えなくなって……このままでは思いやりのできる大人の女性にはなれませんよね…",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Listen up, me, if I keep overthinking everything, I won't notice what's going on around me... and then won't be able to become a mature and compassionate woman...",
+						"englishNote": ""
 					},
-					"25" : {
-						"event" : "Affinity (Like)",
-						"media" : "feeling4",
-						"chinese" : "指挥官一直都在配合着我的节奏聊天呢……谢谢你。不过，有时候也请直接地打断我，如果是指挥官的话，我是不会生气的…",
-						"chineseTL" : "",
-						"chineseNote" : "",
-						"japanese" : "指揮官はいつも、タルテュのペースに付き合ってくださいますね。…ありがとうございます。でも、タルテュが急に何かを考え込んでいたときは、注意してくださってもだいじょうぶですよ。指揮官ならタルテュ、怒ったり困ったりはしませんよ",
-						"japaneseTL" : "",
-						"japaneseNote" : "",
-						"english" : "Commander, you're always trying to follow my pace during conversations... Thank you. However, if I end talking to myself, feel free to snap me out of it. I won't get angry or embarrassed if it's you...",
-						"englishNote" : ""
+					"25": {
+						"event": "Affinity (Like)",
+						"media": "feeling4",
+						"chinese": "指挥官一直都在配合着我的节奏聊天呢……谢谢你。不过，有时候也请直接地打断我，如果是指挥官的话，我是不会生气的…",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "指揮官はいつも、タルテュのペースに付き合ってくださいますね。…ありがとうございます。でも、タルテュが急に何かを考え込んでいたときは、注意してくださってもだいじょうぶですよ。指揮官ならタルテュ、怒ったり困ったりはしませんよ",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Commander, you're always trying to follow my pace during conversations... Thank you. However, if I end talking to myself, feel free to snap me out of it. I won't get angry or embarrassed if it's you...",
+						"englishNote": ""
 					},
-					"26" : {
-						"event" : "Affinity (Love)",
-						"media" : "feeling5",
-						"chinese" : "最近，只要一想到指挥官的事，就会陷入比以往更久的深思之中。感觉状况更严重了.....唔—啊！抱歉，指挥官，我又走神了…",
-						"chineseTL" : "",
-						"chineseNote" : "",
-						"japanese" : "最近はタルテュ、指揮官のことになると、どうしても今まで以上に考え込んでしまいまして……あ！ごめんなさい…タルテュ、今また……",
-						"japaneseTL" : "",
-						"japaneseNote" : "",
-						"english" : "Nowadays, when I think about you, I end up even deeper in thought than ever... Ah! I'm so sorry... Just now, I...",
-						"englishNote" : ""
+					"26": {
+						"event": "Affinity (Love)",
+						"media": "feeling5",
+						"chinese": "最近，只要一想到指挥官的事，就会陷入比以往更久的深思之中。感觉状况更严重了.....唔—啊！抱歉，指挥官，我又走神了…",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "最近はタルテュ、指揮官のことになると、どうしても今まで以上に考え込んでしまいまして……あ！ごめんなさい…タルテュ、今また……",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Nowadays, when I think about you, I end up even deeper in thought than ever... Ah! I'm so sorry... Just now, I...",
+						"englishNote": ""
 					},
-					"27" : {
-						"event" : "Pledge",
-						"media" : "propose",
-						"chinese" : "指挥官喜欢现在这样的我吗？嗯，我也喜欢现在这样的指挥官哦。但是，总觉得一直在被指挥官单方面照顾......我一定会努力成为成熟的女性，成为可以照顾指挥官的人！",
-						"chineseTL" : "",
-						"chineseNote" : "",
-						"japanese" : "こんなタルテュでも好きでいてくださるのですか？タルテュも…指揮官のことが好きですけど、このままではお世話をされてばかりで……いつか、指揮官のお世話をできるよう、頑張ります…！",
-						"japaneseTL" : "",
-						"japaneseNote" : "",
-						"english" : "Commander, do you like me as I am now? I also... like you a lot, but it feels like you're always looking after me... I'll do my best to grow up into someone who can look after you, Commander...!",
-						"englishNote" : ""
+					"27": {
+						"event": "Pledge",
+						"media": "propose",
+						"chinese": "指挥官喜欢现在这样的我吗？嗯，我也喜欢现在这样的指挥官哦。但是，总觉得一直在被指挥官单方面照顾......我一定会努力成为成熟的女性，成为可以照顾指挥官的人！",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "こんなタルテュでも好きでいてくださるのですか？タルテュも…指揮官のことが好きですけど、このままではお世話をされてばかりで……いつか、指揮官のお世話をできるよう、頑張ります…！",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Commander, do you like me as I am now? I also... like you a lot, but it feels like you're always looking after me... I'll do my best to grow up into someone who can look after you, Commander...!",
+						"englishNote": ""
 					},
-					"28" : {
-						"event" : "Easter Egg 1(Dunkerque)",
-						"media" : "link1",
-						"chinese" : "和敦刻尔克一起……要、要加油！",
-						"chineseTL" : "",
-						"chineseNote" : "",
-						"japanese" : "ダンケルクさんと一緒……が、頑張ります…！",
-						"japaneseTL" : "",
-						"japaneseNote" : "",
-						"english" : "Miss Dunkerque is with us... I'll have to do my very best...!",
-						"englishNote" : ""
+					"28": {
+						"event": "Easter Egg 1(Dunkerque)",
+						"media": "link1",
+						"chinese": "和敦刻尔克一起……要、要加油！",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "ダンケルクさんと一緒……が、頑張ります…！",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Miss Dunkerque is with us... I'll have to do my very best...!",
+						"englishNote": ""
 					},
-					"29" : {
-						"event" : "Like Present",
-						"media" : "present_like",
-						"chinese" : "",
-						"chineseTL" : "",
-						"chineseNote" : "",
-						"japanese" : "",
-						"japaneseTL" : "",
-						"japaneseNote" : "",
-						"english" : "",
-						"englishNote" : ""
+					"29": {
+						"event": "Like Present",
+						"media": "present_like",
+						"chinese": "",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
 					},
-					"30" : {
-						"event" : "Dislike Present",
-						"media" : "present_dislike",
-						"chinese" : "",
-						"chineseTL" : "",
-						"chineseNote" : "",
-						"japanese" : "",
-						"japaneseTL" : "",
-						"japaneseNote" : "",
-						"english" : "",
-						"englishNote" : ""
+					"30": {
+						"event": "Dislike Present",
+						"media": "present_dislike",
+						"chinese": "",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
 					},
-					"31" : {
-						"event" : "Main Title",
-						"media" : "extra",
-						"chinese" : "",
-						"chineseTL" : "",
-						"chineseNote" : "",
-						"japanese" : "",
-						"japaneseTL" : "",
-						"japaneseNote" : "",
-						"english" : "",
-						"englishNote" : ""
+					"31": {
+						"event": "Main Title",
+						"media": "extra",
+						"chinese": "",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
 					}
 				}
 			},
 			"2": {
-				"skin_id" : "taertu_2",
-				"id" : "1",
-				"label" : "Overthinking Summer ",
+				"skin_id": "taertu_2",
+				"id": "1",
+				"label": "Overthinking Summer ",
+				"dialogue": {
+					"1": {
+						"event": "Ship Description",
+						"media": "",
+						"chinese": "指挥官不去海里玩吗？……嗯？我就不去了。之前有过因为走神而被海浪冲到远方的经历，被沃克兰笑了好久啊……嗯，我坐在这里就好",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "指揮官は海に入らないのですか？…あ、タルテュのことはいいです。実は昔、海で流されたことがあって、そのときはヴォークランにすごく笑われました…ですから、タルテュはこのままでいいですよ",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"2": {
+						"event": "Acquisition",
+						"media": "get_1",
+						"chinese": "指挥官不去海里玩吗？……嗯？我就不去了。之前有过因为走神而被海浪冲到远方的经历，被沃克兰笑了好久啊……嗯，我坐在这里就好",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "指揮官は海に入らないのですか？…あ、タルテュのことはいいです。実は昔、海で流されたことがあって、そのときはヴォークランにすごく笑われました…ですから、タルテュはこのままでいいですよ",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Commander, you're not going to get into the water? ...Ah, I'm fine right here. To tell you the truth, I once got washed away by the waves, and then got laughed at by Vauquelin... so I'm perfectly fine right here.",
+						"englishNote": ""
+					},
+					"3": {
+						"event": "Login",
+						"media": "login_1",
+						"chinese": "啊，指挥官，你好。要吃棒冰吗？",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "あ、指揮官、こんにちは。アイスを食べませんか？",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Oh, Commander, good day. Would you like some ice cream?",
+						"englishNote": ""
+					},
+					"4": {
+						"event": "Details",
+						"media": "detail_1",
+						"chinese": "啊，指挥官，我正在回忆最近读过的一本，关于发生在沙滩上的凶杀案的侦探小说呢",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "最近読んだ本で、確かビーチと言えば……ビーチでの殺人事件、でしたっけ？",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "The book I last read took place on the beach, if I remember properly... It was a murder mystery on the beach, right?",
+						"englishNote": ""
+					},
+					"5": {
+						"event": "Main 1",
+						"media": "main_1_1",
+						"chinese": "指挥官，我和白鹰的麦考尔还有皇家的萨福克成为朋友了，大家都是很有趣的人呢。",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "ユニオンのマッコールさん、ロイヤルのサフォークさん、仲良くなれました。皆面白い人です。ふふ",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "McCall from the Eagle Union and Suffolk from the Royal Navy seem to get along really well. The two of them are pretty funny, hehe. ",
+						"englishNote": ""
+					},
+					"6": {
+						"event": "Main 2",
+						"media": "main_2_1",
+						"chinese": "沃克兰，这次我是绝对不会下水的，我要一直待在岸上，就这样度过美好的一天。",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "ヴォークラン、タルテュは海に絶対に入りませんよ。このままビーチで、平穏に一日を過ごすのですから",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Vauquelin, I'm not going into the water. I'll just spend a nice, peaceful day on the beach like this. ",
+						"englishNote": ""
+					},
+					"7": {
+						"event": "Main 3",
+						"media": "main_3_1",
+						"chinese": "指挥官不穿泳装吗？唔，嗯，我有点在意，很想看……",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "指揮官は水着に着替えないのですか？…少し、ええと、いえ、気になります……",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Commander, aren't you going to change into a swimsuit? ...Um, I'm slightly curious, just a little...",
+						"englishNote": ""
+					},
+					"8": {
+						"event": "Touch (Special)",
+						"media": "touch_2_1",
+						"chinese": "怎么了，指挥官？棒冰？…啊，滴下来了，好冰！",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "指揮官、どうしました？アイスが……あ。ひゃぅ？！",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Commander, what's wrong? The ice cream? ...Hyaa?!",
+						"englishNote": ""
+					},
+					"9": {
+						"event": "Mail",
+						"media": "mail_1",
+						"chinese": "唔，和指挥官聊的太开心好像忘了一件事……啊，是新的信件！",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "あ、そういえば手紙が……ごめんなさい、指揮官とおしゃべりして、つい忘れちゃいまして…",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Oh, speaking of letters... I'm so sorry, Commander, I got engrossed in our conversation and totally forgot...",
+						"englishNote": ""
+					},
+					"10": {
+						"event": "Flagship",
+						"media": "warcry_1",
+						"chinese": "才不会被浪吹走呢…！",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "流されませんよ…！",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "I won't get washed away...!",
+						"englishNote": ""
+					},
+					"11": {
+						"event": "Victory",
+						"media": "mvp_1",
+						"chinese": "想吃敦刻尔克做的甜甜圈…",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "ダンケルクさんのドーナツも、いいかなぁ……",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "I could really go for one of Dunkerque's donuts right about now...",
+						"englishNote": ""
+					}
+				}
+			},
+			"101": {
+				"skin_id" : "taertu_ex1100",
+				"id" : "0",
+				"label" : "Tartu ",
 				"dialogue" : {
 					"1" : {
-						"event" : "Ship Description",
-						"media" : "",
-						"chinese" : "指挥官不去海里玩吗？……嗯？我就不去了。之前有过因为走神而被海浪冲到远方的经历，被沃克兰笑了好久啊……嗯，我坐在这里就好",
+						"event" : "Login",
+						"media" : "login_ex1100",
+						"chinese" : "指挥官，你好。…啊，我还在想一会给指挥官做点什么吃的呢…",
 						"chineseTL" : "",
 						"chineseNote" : "",
-						"japanese" : "指揮官は海に入らないのですか？…あ、タルテュのことはいいです。実は昔、海で流されたことがあって、そのときはヴォークランにすごく笑われました…ですから、タルテュはこのままでいいですよ",
+						"japanese" : "指揮官、こんにちは。……あっ、あとで指揮官に何をつくってあげようかと考えていたところです…",
 						"japaneseTL" : "",
 						"japaneseNote" : "",
-						"english" : "Commander, you're not going to get into the water? ...Ah, I'm fine right here. To tell you the truth, I once got washed away by the waves, and then got laughed at by Vauquelin... so I'm perfectly fine right here. ",
+						"english" : "Hello, Commander. Ah, um... I was just thinking about what to make for you to eat...",
 						"englishNote" : ""
 					},
 					"2" : {
-						"event" : "Acquisition",
-						"media" : "get_1",
-						"chinese" : "指挥官不去海里玩吗？……嗯？我就不去了。之前有过因为走神而被海浪冲到远方的经历，被沃克兰笑了好久啊……嗯，我坐在这里就好",
+						"event" : "Main 1",
+						"media" : "main_1_ex1100",
+						"chinese" : "指挥官，之前的甜甜圈…啊，已经问过感想了吗…对不起，一直在想事情忘记了了…",
 						"chineseTL" : "",
 						"chineseNote" : "",
-						"japanese" : "指揮官は海に入らないのですか？…あ、タルテュのことはいいです。実は昔、海で流されたことがあって、そのときはヴォークランにすごく笑われました…ですから、タルテュはこのままでいいですよ",
+						"japanese" : "指揮官、この間のドーナツは…あ、もう感想を聞きましたか…ごめんなさい、タルテュもしかしてまた考え込んでいたのかもしれません…",
 						"japaneseTL" : "",
 						"japaneseNote" : "",
-						"english" : "Commander, you're not going to get into the water? ...Ah, I'm fine right here. To tell you the truth, I once got washed away by the waves, and then got laughed at by Vauquelin... so I'm perfectly fine right here.",
+						"english" : "Commander, about that donut from earlier... Oh, I already asked you about it? ...Sorry, I was caught up thinking about other things and forgot...",
 						"englishNote" : ""
 					},
 					"3" : {
-						"event" : "Login",
-						"media" : "login_1",
-						"chinese" : "啊，指挥官，你好。要吃棒冰吗？",
+						"event" : "Main 2",
+						"media" : "main_2_ex1100",
+						"chinese" : "指挥官也要看看书吗？我可以给你推荐几本哦",
 						"chineseTL" : "",
 						"chineseNote" : "",
-						"japanese" : "",
+						"japanese" : "指揮官も読書、いかがでしょうか。タルテュからも何冊かオススメしますよ",
 						"japaneseTL" : "",
 						"japaneseNote" : "",
-						"english" : "",
+						"english" : "Commander, would you like to read as well? I have lots of recommendations for you.",
 						"englishNote" : ""
 					},
 					"4" : {
-						"event" : "Details",
-						"media" : "detail_1",
-						"chinese" : "啊，指挥官，我正在回忆最近读过的一本，关于发生在沙滩上的凶杀案的侦探小说呢",
+						"event" : "Touch (Special)",
+						"media" : "touch_2_ex1100",
+						"chinese" : "……呀！啊，对不起，想指挥官的事情想入神了",
 						"chineseTL" : "",
 						"chineseNote" : "",
-						"japanese" : "",
+						"japanese" : "…………あぅ。あ、ごめんなさい。指揮官のことを考えていました…",
 						"japaneseTL" : "",
 						"japaneseNote" : "",
-						"english" : "",
+						"english" : "...Eek! Ah, I'm sorry, I got too absorbed into thinking about you...",
 						"englishNote" : ""
 					},
 					"5" : {
-						"event" : "Main 1",
-						"media" : "main_1_1",
-						"chinese" : "指挥官，我和白鹰的麦考尔还有皇家的萨福克成为朋友了，大家都是很有趣的人呢。",
+						"event" : "Return to Port",
+						"media" : "home_ex1100",
+						"chinese" : "指挥官，欢迎回来，要不要我帮你捶捶背呢？",
 						"chineseTL" : "",
 						"chineseNote" : "",
-						"japanese" : "",
+						"japanese" : "指揮官、おかえりなさいませ。タルテュが肩を叩いてあげますね",
 						"japaneseTL" : "",
 						"japaneseNote" : "",
-						"english" : "nil",
+						"english" : "Welcome back, Commander. Would you like me to give you a massage?",
 						"englishNote" : ""
 					},
 					"6" : {
-						"event" : "Main 2",
-						"media" : "main_2_1",
-						"chinese" : "沃克兰，这次我是绝对不会下水的，我要一直待在岸上，就这样度过美好的一天。",
+						"event" : "Victory",
+						"media" : "mvp_ex1100",
+						"chinese" : "MVP是…唔？为什么大家都看着我…？",
 						"chineseTL" : "",
 						"chineseNote" : "",
-						"japanese" : "",
+						"japanese" : "MVPは……あら、皆、どうしてタルテュを見ているんですか…？",
 						"japaneseTL" : "",
 						"japaneseNote" : "",
-						"english" : "nil",
+						"english" : "Who's the MVP? Um... Why's everyone looking at me...?",
 						"englishNote" : ""
 					},
 					"7" : {
-						"event" : "Main 3",
-						"media" : "main_3_1",
-						"chinese" : "指挥官不穿泳装吗？唔，嗯，我有点在意，很想看……",
+						"event" : "Affinity (Love)",
+						"media" : "feeling5_ex1100",
+						"chinese" : "一直想着指挥官的事情也没关系？嗯…塔尔图的话，感觉可以就这样一直想下去呢…",
 						"chineseTL" : "",
 						"chineseNote" : "",
-						"japanese" : "",
+						"japanese" : "タルテュ、指揮官のことをどんなときでも想ってて大丈夫ですか？じゃあ……………タルテュ、永遠に想い続けます…",
 						"japaneseTL" : "",
 						"japaneseNote" : "",
-						"english" : "nil",
-						"englishNote" : ""
-					},
-					"8" : {
-						"event" : "Touch (Special)",
-						"media" : "touch_2_1",
-						"chinese" : "怎么了，指挥官？棒冰？…啊，滴下来了，好冰！",
-						"chineseTL" : "",
-						"chineseNote" : "",
-						"japanese" : "",
-						"japaneseTL" : "",
-						"japaneseNote" : "",
-						"english" : "",
-						"englishNote" : ""
-					},
-					"9" : {
-						"event" : "Mail",
-						"media" : "mail_1",
-						"chinese" : "唔，和指挥官聊的太开心好像忘了一件事……啊，是新的信件！",
-						"chineseTL" : "",
-						"chineseNote" : "",
-						"japanese" : "",
-						"japaneseTL" : "",
-						"japaneseNote" : "",
-						"english" : "",
-						"englishNote" : ""
-					},
-					"10" : {
-						"event" : "Flagship",
-						"media" : "warcry_1",
-						"chinese" : "才不会被浪吹走呢…！",
-						"chineseTL" : "",
-						"chineseNote" : "",
-						"japanese" : "",
-						"japaneseTL" : "",
-						"japaneseNote" : "",
-						"english" : "",
-						"englishNote" : ""
-					},
-					"11" : {
-						"event" : "Victory",
-						"media" : "mvp_1",
-						"chinese" : "想吃敦刻尔克做的甜甜圈…",
-						"chineseTL" : "",
-						"chineseNote" : "",
-						"japanese" : "",
-						"japaneseTL" : "",
-						"japaneseNote" : "",
-						"english" : "",
+						"english" : "It's fine to always be thinking about you? In that case....... Huh? Didn't you just say it was fine...? I sometimes feel like I could just daydream about you forever...",
 						"englishNote" : ""
 					}
 				}

@@ -56,11 +56,18 @@
 			"description": "When this ship fires its Torpedoes: $1 chance to launch a second wave of Torpedoes."
 		},
 		"2": {
+			"icon": "1061",
+			"requirement": "",
+			"name": "Flank Defense",
+			"type": "Defensive",
+			"description": "While this ship is afloat: decreases the DMG your Main Fleet takes by $1. Does not stack with the same skill."
+		},
+		"3": {
 			"icon": "22041",
 			"requirement": "",
 			"name": "All Out Assault Ⅰ",
 			"type": "Offensive",
-			"description": "Activate All Out Assault Ⅰ: Hatsuharu Class once every 15 times the main gun is fired."
+			"description": "Activates All Out Assault Ⅰ: Hatsuharu Class once every 15 times the Main Guns are fired."
 		}
 	},
 	"skin": {
@@ -71,6 +78,28 @@
 			"expression": {
 				"0": {
 					"id": "0"
+				}
+			}
+		},
+		"2": {
+			"id": "chushuang_g",
+			"name": "Hatsushimo (Retrofit)",
+			"description": "Hatsushimo's retrofitting is complete. You don't think I look all that different? Oh, Commander, you're still as simple as ever~ I've changed in tons of ways beyond what's just on the surface. Heheheh~",
+			"expression": {
+				"0": {
+					"id": "0"
+				},
+				"1": {
+					"id": "1"
+				},
+				"2": {
+					"id": "2"
+				},
+				"3": {
+					"id": "3"
+				},
+				"4": {
+					"id": "4"
 				}
 			}
 		}
@@ -145,34 +174,34 @@
 			"armor": "Light"
 		},
 		"100retrofit": {
-			"hp": "",
-			"firepower": "",
-			"torpedo": "",
-			"antiAir": "",
-			"aviation": "",
-			"reload": "",
-			"hit": "",
-			"evasion": "",
-			"speed": "43.2",
+			"hp": "1642",
+			"firepower": "51",
+			"torpedo": "475",
+			"antiAir": "156",
+			"aviation": "0",
+			"reload": "171",
+			"hit": "171",
+			"evasion": "206",
+			"speed": "46.2",
 			"luck": "51",
-			"asw": "",
+			"asw": "169",
 			"oxygen": "0",
 			"ammo": "0",
 			"cost": "8",
 			"armor": "Light"
 		},
 		"120retrofit": {
-			"hp": "",
-			"firepower": "",
-			"torpedo": "",
-			"antiAir": "",
-			"aviation": "",
-			"reload": "",
-			"hit": "",
-			"evasion": "",
-			"speed": "43.2",
+			"hp": "1938",
+			"firepower": "59",
+			"torpedo": "518",
+			"antiAir": "175",
+			"aviation": "0",
+			"reload": "196",
+			"hit": "180",
+			"evasion": "212",
+			"speed": "46.2",
 			"luck": "51",
-			"asw": "",
+			"asw": "189",
 			"oxygen": "0",
 			"ammo": "0",
 			"cost": "8",
@@ -616,6 +645,97 @@
 						"event": "Main Title",
 						"media": "extra",
 						"chinese": "",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					}
+				}
+			},
+			"2": {
+				"skin_id": "chushuang_g",
+				"id": "9",
+				"label": "Hatsushimo (Retrofit)",
+				"dialogue": {
+					"1": {
+						"event": "Ship Description",
+						"media": "",
+						"chinese": "初霜，改造完成。似乎也没什么变化？指挥官，看来你还嫩着啊，很多东西光从外表是看不出来的哦？呵呵~",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "初霜、改造完了よ。そう大きく変わってないって？指揮官、あいかわらずウブなこと～表面だけ見てわからないこともいっぱいあるわよ？フフフ",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Hatsushimo's retrofitting is complete. You don't think I look all that different? Oh, Commander, you're still as simple as ever~ I've changed in tons of ways beyond what's just on the surface. Heheheh~",
+						"englishNote": ""
+					},
+					"2": {
+						"event": "Acquisition",
+						"media": "get_9",
+						"chinese": "初霜，改造完成。似乎也没什么变化？指挥官，看来你还嫩着啊，很多东西光从外表是看不出来的哦？呵呵~",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"3": {
+						"event": "Login",
+						"media": "login_9",
+						"chinese": "哦呀？今天倒是很准时嘛。",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"4": {
+						"event": "Details",
+						"media": "detail_9",
+						"chinese": "~来到这个港区，又得到了改造…看来我的运气也不算太差呢，呼呼~",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"5": {
+						"event": "Touch",
+						"media": "touch_1_9",
+						"chinese": "哎呀，你就这么惦记我的尾巴么？算了，勉为其难地给你摸一会好了~",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"6": {
+						"event": "Touch (Special)",
+						"media": "touch_2_9",
+						"chinese": "想亲身体会下我从外表看不出的变化吗，指挥官~？",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"7": {
+						"event": "Return to Port",
+						"media": "home_9",
+						"chinese": "辛苦了…虽然想这么说，但是，指挥官要做的事情还有很多的样子呢，要加油哦~",
 						"chineseTL": "",
 						"chineseNote": "",
 						"japanese": "",

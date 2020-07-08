@@ -34,10 +34,10 @@
 		"EN": ""
 	},
 	"artist": {
-		"name": "",
-		"weibo": "",
+		"name": "Enka",
+		"weibo": "http://weibo.com/maoqishi",
 		"twitter": "",
-		"pixiv": "",
+		"pixiv": "https://www.pixiv.net/member.php?id=3321609",
 		"other": ""
 	},
 	"enhance": {
@@ -50,17 +50,17 @@
 	"skill": {
 		"1": {
 			"icon": "11100",
-			"requirement": "",
+			"requirement": "Default Unlocked",
 			"name": "Concerto of Blood",
 			"type": "Offensive",
-			"description": "Every $1s: launches a special barrage towards the enemy farthest away from this ship. Decreases the Speed of enemies hit by the barrage by 40.0% for 6s."
+			"description": "Every 40 (20)s: launches a special barrage towards the enemy farthest away from this ship. Decreases the Speed of enemies hit by the barrage by 40.0% for 6s."
 		},
 		"2": {
 			"icon": "11110",
-			"requirement": "",
+			"requirement": "Default Unlocked",
 			"name": "Trepidation of Destruction",
 			"type": "Support",
-			"description": "During battle, increase first round of Main Gun DMG by $1. When Main Gun hits an enemy target, increase that target's DMG taken by $2 for 8 seconds."
+			"description": "During battle, increase first round of Main Gun DMG by 20.0% (50.0%). When Main Gun hits an enemy target, increase that target's DMG taken by 3.0% (12.0%) for 8 seconds."
 		}
 	},
 	"skin": {
@@ -90,6 +90,35 @@
 				},
 				"3": {
 					"id": "3"
+				}
+			}
+		},
+		"3": {
+			"id": "yuekegongjue_2",
+			"name": "Prestige of the Glorious Formula",
+			"description": "My beautiful Adonis, why dost thou refuseth to take refuge in the trove of everlasting love... Perhaps my outfit can finally pierce thy heart? Hehe~",
+			"expression": {
+				"0": {
+					"id": "0"
+				},
+				"1": {
+					"id": "1"
+				},
+				"2": {
+					"id": "2"
+				},
+				"3": {
+					"id": "3"
+				}
+			}
+		},
+		"101": {
+			"id": "yuekegongjue_ex1100",
+			"name": "Duke of York",
+			"description": "King George V-class battleship - HMS Duke of York.",
+			"expression": {
+				"0": {
+					"id": "0"
 				}
 			}
 		}
@@ -242,9 +271,9 @@
 			"EN": ""
 		},
 		"heavy": {
-			"JP": "",
-			"CN": "",
-			"EN": ""
+			"JP": "✓",
+			"CN": "✓",
+			"EN": "✓"
 		},
 		"special": {
 			"JP": "",
@@ -768,6 +797,224 @@
 						"japaneseTL": "",
 						"japaneseNote": "",
 						"english": "Become intoxicated with me. Then, giveth me thy purity, thy, devotion, and thy love. In return... I shall pledge thee an eternity of comfort within my bosom.",
+						"englishNote": ""
+					}
+				}
+			},
+			"3": {
+				"skin_id": "yuekegongjue_2",
+				"id": "3",
+				"label": "Prestige of the Glorious Formula",
+				"dialogue": {
+					"1": {
+						"event": "Ship Description",
+						"media": "",
+						"chinese": "俊美的阿多尼斯啊，为何汝不愿选择停留箱中享受宠爱呢——余这一身装扮是否又能留住汝之心？呵呵呵",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "美しきアドーニスよ、ずっと箱のままで永遠なる寵愛を選ばぬとは――この姿では、そなたの心を射止められぬのかしら？ふふふ",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "My beautiful Adonis, why dost thou refuseth to take refuge in the trove of everlasting love... Perhaps my outfit can finally pierce thy heart? Hehe~",
+						"englishNote": ""
+					},
+					"2": {
+						"event": "Acquisition",
+						"media": "get_3",
+						"chinese": "俊美的阿多尼斯啊，为何汝不愿选择停留箱中享受宠爱呢——余这一身装扮是否又能留住汝之心？呵呵呵",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "美しきアドーニスよ、ずっと箱のままで永遠なる寵愛を選ばぬとは――この姿では、そなたの心を射止められぬのかしら？ふふふ",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "My beautiful Adonis, why dost thou refuseth to take refuge in the trove of everlasting love... Perhaps my outfit can finally pierce thy heart? Hehe~",
+						"englishNote": ""
+					},
+					"3": {
+						"event": "Details",
+						"media": "detail_3",
+						"chinese": "会被人夺走的爱并非余所好。只有汝完全成为余之所有，才值得让余花出十分的时间相伴——",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "奪われる愛は好まないわ。そなたが私だけのものでさえいれば、私の時間を分け与えるに足るだけの価値があるのよ",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Love that can be robbed away holds no value. Only by becoming mine entirely will thou be worthy of my absolute attention.",
+						"englishNote": ""
+					},
+					"4": {
+						"event": "Main 1",
+						"media": "main_1_3",
+						"chinese": "威尔士，阿多尼斯岂能容你夺去…念在汝于之情面，独占他的时间分汝三成也并无不可",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "ウェールズ、我がアドーニスを奪わせないわよ。…ふふふ、せめてもの情けよ、この子を独占する時間を3割分けてやるわ",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Wales, thou shalt not take my Adonis from me... Hehehe, but out of compassion, I shall allow you to have a third of our precious time together.",
+						"englishNote": ""
+					},
+					"5": {
+						"event": "Main 2",
+						"media": "main_2_3",
+						"chinese": "啊啊，就是这个眼神，想要控制住自己但却又随时可能败北的眼神——用那双眼睛永远取悦余吧",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "ああその目よ。己の激情に抗おうにも今にも負けてしまいそうな理性の輝き――いつまでもその目で私を楽しませて頂戴",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Yes, thy gaze... So full of resistance, yet also ready to give in at any time... How thine eyes can keep me entertained for all eternity... ",
+						"englishNote": ""
+					},
+					"6": {
+						"event": "Main 3",
+						"media": "main_3_3",
+						"chinese": "汝绝无取胜可能——无论是这场比赛的热烈气氛，还是甘甜而又绝对的余的存在——",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "そなたは勝てないわ。このレースの熱気にも、私という甘美にして絶対な存在にも――",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Thou canst not win, be it in the heated environment of this sport, or in the sweetness of my absolute existence...",
+						"englishNote": ""
+					},
+					"7": {
+						"event": "Touch",
+						"media": "touch_1_3",
+						"chinese": "渗人心脾？汝选的这件衣装最能激起汝的感情——这点再明白不过了吧？",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "美しかろう？そなたがくれた装いはそなたの恋情を煽るに最適――何もおかしくはないわよ？",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Beautiful, is it not? This outfit thou hath bestowed upon me is perfect for inspiring thy adoration... Is that difficult to understand?",
+						"englishNote": ""
+					},
+					"8": {
+						"event": "Touch (Special)",
+						"media": "touch_2_3",
+						"chinese": "毒蛇贪恋禁果——汝的愿望、本性、一切余都了如指掌。呵呵呵",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "蛇は果実を貪る――そなたの望みが、本性が、手に取るように分かるわよ。ふふふふ",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "The snake devours the fruit — thy desires, thy true nature... I have grasped it all. Hehehe~",
+						"englishNote": ""
+					},
+					"9": {
+						"event": "Victory",
+						"media": "mvp_3",
+						"chinese": "比起香槟，还是红酒更对余的喜好…无妨，就按照汝的期望庆祝一番吧",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "シャンパンよりワインのほうを好むが…いいわ。そなたの言う通り祝ってやろう",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "I prefer wine over champagne... But very well. We shall celebrate as thou so desires.",
+						"englishNote": ""
+					}
+				}
+			},
+			"101": {
+				"skin_id": "yuekegongjue_ex1100",
+				"id": "0",
+				"label": "Duke of York",
+				"dialogue": {
+					"1": {
+						"event": "Login",
+						"media": "login_ex1100",
+						"chinese": "得到余之宠爱的指挥官啊，汝现在在想着什么呢？",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "私の寵愛を預かる指揮官よ、そなたは今何を思い浮かべているのかしら？",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "O, Commander who hath earned my adoration, what is thy desire?",
+						"englishNote": ""
+					},
+					"2": {
+						"event": "Main 1",
+						"media": "main_1_ex1100",
+						"chinese": "汝之存在对余的战斗方式有着很大的影响——没错，与汝充满激情的目光共鸣，余之瞳孔也染上了鲜血一般的赤红之色——",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "そなたの存在は私の戦い方にも影響しているわ――ああ、そなたの激情に満ちた目に共鳴して、我が瞳も血に染まるように赤く、赤く――",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Thy existence has greatly influenced my fighting style — Yes, it resonates with thy passionate eyes, and my pupils also become stained with thy blood-red colour. ",
+						"englishNote": ""
+					},
+					"3": {
+						"event": "Main 2",
+						"media": "main_2_ex1100",
+						"chinese": "无论是乔治五世还是威尔士，安森还是豪，余是绝不会把汝让给她们的。汝是余最棒的猎物，也是余之证明。",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "ウェールズにもジョージにも、アンソンにもハウにもそなたは渡さないわ。そなたは私の最高の獲物にして尊き王冠…私を証明するものなのよ",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "I shalt not giveth thee to Wales, George, Anson, or Howe. Thou art my trophy, and the proof of my conquest.",
+						"englishNote": ""
+					},
+					"4": {
+						"event": "Main 3",
+						"media": "main_3_ex1100",
+						"chinese": "悲哀的沙恩霍斯特，汝完全没有理解这肌肤、这眼瞳、还有这身体的价值。没错…指挥官对余来说，就是如此重要的存在。",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "哀れなシャルンホルスト、そなたはこの肌の、目の、体の価値が分からないわ。そう…指揮官は私にとってそれほどの存在よ",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Pitiable Scharnhorst, who knows not the value of thy skin, thy eyes, thy very body... Yes, Commander, thou art the world to me.",
+						"englishNote": ""
+					},
+					"5": {
+						"event": "Touch (Special)",
+						"media": "touch_2_ex1100",
+						"chinese": "融为一体吧，无论是汝，还是余，抑或是其他一切——",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "蕩けなさい、そなたも私も、何もかもすべて――",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Melt into one, be it thou or myself, be it anything in existence—",
+						"englishNote": ""
+					},
+					"6": {
+						"event": "Flagship",
+						"media": "warcry_ex1100",
+						"chinese": "与余之眼瞳一起染成鲜红吧。",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "この目とともに赤に染まれ――",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "May these eyes sink into deep crimson...",
+						"englishNote": ""
+					},
+					"7": {
+						"event": "Victory",
+						"media": "mvp_ex1100",
+						"chinese": "在赤色的破坏前消融吧。光是撕裂破坏已经不足以满足余了。",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "赤き破壊の前に熔けなさい。もはや引き裂くだけでは物足りないわ",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Melt before the crimson apocalypse. Merely tearing thy husks apart is no longer enough to sate me.",
+						"englishNote": ""
+					},
+					"8": {
+						"event": "Affinity (Love)",
+						"media": "feeling5_ex1100",
+						"chinese": "罪孽深重的蛇啊，汝注定要被束缚在余之身旁，并奉上永恒的爱——作为交换，汝会得到余之宠爱，余将赐予汝拥抱余的权利。",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "罪なる蛇よ、そなたは私の側にとこしえに縛り付けられるのが定め。その愛を永遠に私に捧げなさい――その代わりに、私からの寵愛と、抱擁を賜る権利を与えるわよ",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "O sinful serpent, thou hast chosen to entwine thyself around me. Dedicate thy love to me for all of eternity— and in return, accept my love, and the right to embrace me.",
 						"englishNote": ""
 					}
 				}

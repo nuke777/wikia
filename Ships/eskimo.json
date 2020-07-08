@@ -1,0 +1,733 @@
+{
+	"name_reference" : "eskimo",
+	"cn_reference" : "aisijimo",
+	"nameJP" : "エスキモー",
+	"nameCN" : "爱斯基摩人",
+	"ID" : "460",
+	"name" : "Eskimo",
+	"internal_id" : "201321",
+	"rarity" : "Elite",
+	"initialStar" : "★★☆☆☆",
+	"hull" : "Destroyer",
+	"navy" : "Royal Navy",
+	"prefix" : "HMS",
+	"buildTime" : "",
+	"parameters": {
+		"firepower" : "",
+		"torpedo" : "",
+		"aviation" : "",
+		"evasion" : "",
+		"antiAir" : "",
+		"hp" : ""
+	},
+	"scrap": {
+		"gold" : "4",
+		"oil" : "3",
+		"medal" : "4"
+	},
+	"releaseDate": {
+		"JP" : "June 3, 2020",
+		"CN" : "June 3, 2020",
+		"KR" : "June 3, 2020",
+		"EN" : ""
+	},
+	"artist": {
+		"name" : "shisantian",
+		"weibo" : "https://www.weibo.com/p/1005053082090661",
+		"twitter" : "https://twitter.com/shisantian",
+		"pixiv" : "https://www.pixiv.net/en/users/13138388",
+		"other" : ""
+	},
+	"enhance": {
+		"firepower" : "5",
+		"torpedo" : "22",
+		"aviation" : "0",
+		"reload" : "15"
+	},
+	"acquisitionMethod" : "Event: Counterattack through the Fjord",
+	"skill": {
+		"1" : {
+			"icon" : "13390",
+			"requirement" : "Default Unlocked",
+			"name" : "Eskimo, attack!",
+			"type" : "Offensive",
+			"description" : "Every 30s, with a 50% (100%) chance a special barrage gets fired (power and style based on skill level). If own HP falls below 30%, immediately restore 10% of own health and fire special barrage, limited to once per battle."
+		},
+		"2" : {
+			"icon" : "21016",
+			"requirement" : "Limit Break I (III)",
+			"name" : "All Out Assault",
+			"type" : "Offensive",
+			"description" : "Every 16 times the main gun is fired, trigger Full Barrage - Tribal-Class I (II)"
+		}
+	},
+	"skin": {
+		"1" : {
+			"id" : "aisijimo",
+			"name" : "Eskimo",
+			"description" : "トライバル級駆逐艦・エスキモー",
+			"expression" : {
+				"0" : {
+					"id" : "0"
+				}
+			}
+		},
+		"2" : {
+			"id" : "aisijimo_2",
+			"name" : "アティギの問題児？",
+			"description" : "いやぁ、まさか他の子がみんな取り込み中なんてねーエスキモーに構ってもらえる子がいないのか～…おっ、この饅頭は……へへへ、ちょっとこの子を起こして遊んでもらおう！",
+			"expression" : {
+				"0" : {
+					"id" : "0"
+				},
+				"1" : {
+					"id" : "1"
+				},
+				"2" : {
+					"id" : "2"
+				},
+				"3" : {
+					"id" : "3"
+				},
+				"4" : {
+					"id" : "4"
+				},
+				"5" : {
+					"id" : "5"
+				}
+			}
+		}
+	},
+	"defaultEquipment": {
+		"1" : {
+			"icon" : "21400",
+			"rarity" : "Common",
+			"name" : "Twin 120mm Main Gun"
+		},
+		"2" : {
+			"icon" : "5100",
+			"rarity" : "Common",
+			"name" : "Quadruple 533mm Torpedo"
+		},
+		"3" : {
+			"icon" : "",
+			"rarity" : "",
+			"name" : ""
+		}
+	},
+	"stats": {
+		"base": {
+			"hp" : "267",
+			"firepower" : "16",
+			"torpedo" : "66",
+			"antiAir" : "29",
+			"aviation" : "0",
+			"reload" : "78",
+			"hit" : "69",
+			"evasion" : "78",
+			"speed" : "43.2",
+			"luck" : "72",
+			"asw" : "47",
+			"oxygen" : "0",
+			"ammo" : "0",
+			"cost" : "2",
+			"armor" : "Light"
+		},
+		"100": {
+			"hp" : "1381",
+			"firepower" : "76",
+			"torpedo" : "311",
+			"antiAir" : "136",
+			"aviation" : "0",
+			"reload" : "184",
+			"hit" : "179",
+			"evasion" : "204",
+			"speed" : "43.2",
+			"luck" : "72",
+			"asw" : "174",
+			"oxygen" : "0",
+			"ammo" : "0",
+			"cost" : "9",
+			"armor" : "Light"
+		},
+		"120": {
+			"hp" : "1657",
+			"firepower" : "87",
+			"torpedo" : "350",
+			"antiAir" : "156",
+			"aviation" : "0",
+			"reload" : "212",
+			"hit" : "188",
+			"evasion" : "211",
+			"speed" : "43.2",
+			"luck" : "72",
+			"asw" : "193",
+			"oxygen" : "0",
+			"ammo" : "0",
+			"cost" : "9",
+			"armor" : "Light"
+		},
+		"100retrofit": {
+			"hp" : "",
+			"firepower" : "",
+			"torpedo" : "",
+			"antiAir" : "",
+			"aviation" : "",
+			"reload" : "",
+			"hit" : "",
+			"evasion" : "",
+			"speed" : "43.2",
+			"luck" : "72",
+			"asw" : "",
+			"oxygen" : "0",
+			"ammo" : "0",
+			"cost" : "9",
+			"armor" : "Light"
+		},
+		"120retrofit": {
+			"hp" : "",
+			"firepower" : "",
+			"torpedo" : "",
+			"antiAir" : "",
+			"aviation" : "",
+			"reload" : "",
+			"hit" : "",
+			"evasion" : "",
+			"speed" : "43.2",
+			"luck" : "72",
+			"asw" : "",
+			"oxygen" : "0",
+			"ammo" : "0",
+			"cost" : "9",
+			"armor" : "Light"
+		}
+	},
+	"limitBreak": {
+		"tier1": "Gains Full Barrage I / Main Gun Efficiency +5%",
+		"tier2": "Main Gun Mount +1 / Pre-Loaded Torpedo +1 / Torpedo Efficiency +10%",
+		"tier3": "Upgrades Full Barrage I→II / All Weapon Efficiency +5%"
+	},
+	"equipmentLoadout": {
+		"1": {
+			"type": "Destroyer Gun",
+			"efficiency": "90%/95%/95%/100%",
+			"amount": "1/1/2/2",
+			"preload": "0/0/0/0"
+		},
+		"2": {
+			"type": "Torpedo",
+			"efficiency": "120%/120%/130%/135%",
+			"amount": "1/1/1/1",
+			"preload": "0/0/1/1"
+		},
+		"3": {
+			"type": "Anti-Air Gun",
+			"efficiency": "95%/95%/95%/100%",
+			"amount": "1/1/1/1",
+			"preload": "0/0/0/0"
+		},
+		"4": {
+			"type": "Auxilary",
+			"efficiency": "-",
+			"amount": "-",
+			"preload": "-"
+		},
+		"5": {
+			"type": "Auxilary",
+			"efficiency": "-",
+			"amount": "-",
+			"preload": "-"
+		}
+	},
+	"build": {
+		"light": {
+			"JP": "",
+			"CN": "",
+			"EN": ""
+		},
+		"heavy": {
+			"JP": "",
+			"CN": "",
+			"EN": ""
+		},
+		"special": {
+			"JP": "",
+			"CN": "",
+			"EN": ""
+		},
+		"limited": {
+			"JP": "",
+			"CN": "",
+			"EN": ""
+		}
+	},
+	"drop": {
+		"droppable": "false",
+		"list": {
+			"1": {
+				"event": "",
+				"chapter": {
+					"1": {
+						"label": "Ch .1",
+						"node": {
+							"1": {
+								"drop": "✓",
+								"note": "-"
+							}
+						}
+					}
+				}
+			}
+		}
+	},
+	"lines": {
+		"skin": {
+			"1": {
+				"skin_id" : "aisijimo",
+				"id" : "0",
+				"label" : "エスキモー",
+				"dialogue" : {
+					"1" : {
+						"event" : "Ship Description",
+						"media" : "",
+						"chinese" : "部族级驱逐舰—爱斯基摩人",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "トライバル級駆逐艦・エスキモー",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"2" : {
+						"event" : "Biography",
+						"media" : "profile",
+						"chinese" : "部族级的爱斯基摩人号就是我啦~我大部分时间都在本土舰队服役，在第二次纳尔维克海战里击败了Z19，但是在那之后也被Z2反整了一波…不过，修复之后也有在地中海好好活跃哦！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "トライバル級駆逐艦エスキモーだ！かの大戦ではほとんど本国艦隊勤務で、ナルヴィクの戦いでZ19を倒したけど、そのあとはZ2に逆襲されたなぁ…あのあとは地中海でも活躍したよ！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"3" : {
+						"event" : "Acquisition",
+						"media" : "get",
+						"chinese" : "部族级驱逐舰，爱斯基摩人号，报到！这支舰队看起来好像很不错呢，那么，请多指教啦，指挥官！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "トライバル級駆逐艦エスキモー、到着ぅ！おっ、いいねこの艦隊は！よろしくね！指揮官！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"4" : {
+						"event" : "Login",
+						"media" : "login",
+						"chinese" : "指挥官，我等得无聊把你椅子拆了，这个怎么装回去啊？",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "指揮官を待ちくたびれたエスキモー、怒りの椅子分解作業！――げ、原状回復できなかったけどどうしようかな…",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"5" : {
+						"event" : "Details",
+						"media" : "detail",
+						"chinese" : "指挥官，我正要去找你玩呢！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "指揮官と遊ぶために、今会いに行こうとしてたところだ！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"6" : {
+						"event" : "Main 1",
+						"media" : "main_1",
+						"chinese" : "指挥官，冬天港区要是下雪的话，我们来搭个冰屋吧！我很擅长的！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "指揮官、雪が降ったらイグルーでも作ってみようよ！いやいやこればかりは得意中の得意なんだよ！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"7" : {
+						"event" : "Main 2",
+						"media" : "main_2",
+						"chinese" : "耶——呀——哇——欸？我为什么在跑来跑去？因为没事做很无聊",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "おーあーいやっほぉぉ！！あ、指揮官、これはね～やることなさすぎて走り回ってるだけだよー",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"8" : {
+						"event" : "Main 3",
+						"media" : "main_3",
+						"chinese" : "嘻嘻嘻，目标，发呆中的指挥官，爱斯基摩人号头槌，发射！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "うおっしゃ、ボンヤリしてる指揮官にエスキモーのヘッドハンマー――うおりゃ！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"9" : {
+						"event" : "Touch",
+						"media" : "touch_1",
+						"chinese" : "指挥官，怎么啦？咦，有事要交给我做？耶，终于有事做啦！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "指揮官、どうしたの？お、仕事か？うおっしゃ仕事だ！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"10" : {
+						"event" : "Touch (Special)",
+						"media" : "touch_2",
+						"chinese" : "唔？指挥官，我衣服乱了吗？",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "うお？もしかして服が乱れてる？",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"11" : {
+						"event" : "Mission",
+						"media" : "task",
+						"chinese" : "有新任务吗？耶，新任务~",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "新しい任務か？うおっしゃ新しい任務だ―！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"12" : {
+						"event" : "Mission Complete",
+						"media" : "mission_complete",
+						"chinese" : "指挥官，任务报酬都在这里啦！快看看，快看看！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "指揮官、任務報酬はこれで全部だよ？ささ、確認を早く、早くぅ！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"13" : {
+						"event" : "Mail",
+						"media" : "mail",
+						"chinese" : "指挥官，邮件我帮你拿来啦~嘿嘿，这些都是小意思~",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "指揮官、メールを持ってきたよ～へへ、これぐらいちょちょいのちょい！だよ？",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"14" : {
+						"event" : "Return to Port",
+						"media" : "home",
+						"chinese" : "指挥官，你出征之前交给我的工作已经完成了哦！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "指揮官、出撃前に任された仕事、全部完了してるよ",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"15" : {
+						"event" : "Commission Complete",
+						"media" : "expedition",
+						"chinese" : "去迎接委托组？交给我吧！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "委託組の出迎え？任せて任せて！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"16" : {
+						"event" : "Enhancement",
+						"media" : "upgrade",
+						"chinese" : "我现在精神百倍哦！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "ヤッパ！テンションマックスだ！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"17" : {
+						"event" : "Flagship",
+						"media" : "warcry",
+						"chinese" : "爱斯基摩人，出击！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "エスキモー、アタック！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"18" : {
+						"event" : "Victory",
+						"media" : "mvp",
+						"chinese" : "哇，我是MVP！指挥官，夸夸我！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "そう！MVPはこのエスキモーであーる！さあ、褒め称えてちょーだい！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"19" : {
+						"event" : "Defeat",
+						"media" : "lose",
+						"chinese" : "呜，指挥官，对不起……",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "あわわ、指揮官、ごめん……",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"20" : {
+						"event" : "Skill",
+						"media" : "skill",
+						"chinese" : "尝尝这个！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "うおっしゃ！これでもくらえ！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"21" : {
+						"event" : "Low HP",
+						"media" : "hp",
+						"chinese" : "还不到撤退的时候呢！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "まだ撤退する時じゃないよー！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"22" : {
+						"event" : "Affinity (Upset)",
+						"media" : "feeling1",
+						"chinese" : "指挥官好严肃，好没劲……",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "指揮官、いかつい顔、つまらなそー",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"23" : {
+						"event" : "Affinity (Stranger)",
+						"media" : "feeling2",
+						"chinese" : "我的穿着？这个呀，因为我服役的时候也经常在比较冷的海域活动，就打扮成这样了，我觉得还挺好看的呢！指挥官觉得呢？",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "この格好のこと？これはカンレキ的に寒い海域で頑張ってたから、こんな感じになったね～ふふん、中々イケてるだろ？指揮官はどう思う？",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"24" : {
+						"event" : "Affinity (Friendly)",
+						"media" : "feeling3",
+						"chinese" : "欸，我的宿舍怎么乱糟糟的？唔，因为我有时候太无聊了，就把很多家具拆开来看看，但是组装回去的时候就多了不少东西……这是为什么呢……",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "りょ、寮舎のこと？ここ、これは暇な時によく家具を分解したり組み直したりして…気づいたら元に戻せなかったりして…ななななんでだろうなー",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"25" : {
+						"event" : "Affinity (Like)",
+						"media" : "feeling4",
+						"chinese" : "唔？有点太闹腾了？唔…只是有时候会想让大家陪我玩所以想要引起大家的注意……欸，给其他人造成困扰了吗？哇哇哇，那我去道歉！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "ちょこっとうるさいこと？んーこれはねーちょっと指揮官かみんなに構ってほしいなーってサイン……わわ、もしかして困ってる人がいるの？謝ってくる！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"26" : {
+						"event" : "Affinity (Love)",
+						"media" : "feeling5",
+						"chinese" : "最近乖了许多？欸嘿嘿，因为现在有指挥官了呀，我知道指挥官一定会陪我玩的，所以只要忍耐到指挥官有空的时候就好了，对吧，指挥官？",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "おとなしくなった？えへへ、これはねー指揮官がいるからだよー。だって指揮官が構ってくれるから、他の子に構ってもらわなくても指揮官の手が空くまで我慢すればいいでしょ？ねー",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"27" : {
+						"event" : "Pledge",
+						"media" : "propose",
+						"chinese" : "嗯，我答应指挥官，从今往后，我会好好忍耐，不给大家添麻烦，争取做个好孩子的！但是但是，指挥官也要多陪我玩哦！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "うん、指揮官と約束するよ！エスキモーはこれから頑張ってみんなに迷惑かけないで、いい子でいること！んで、指揮官はもっと構ってくれること！えへへ！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"28" : {
+						"event" : "Easter Egg 1(Georg Thiele)",
+						"media" : "link1",
+						"chinese" : "哇哇！？Z2，管管你们家Z1啦！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "うわわ！？ちょっとティーレ、レーベくんを大人しくさせて！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"29" : {
+						"event" : "Like Present",
+						"media" : "present_like",
+						"chinese" : "",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"30" : {
+						"event" : "Dislike Present",
+						"media" : "present_dislike",
+						"chinese" : "",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"31" : {
+						"event" : "Main Title",
+						"media" : "extra",
+						"chinese" : "",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					}
+				}
+			},
+			"2": {
+				"skin_id" : "aisijimo_2",
+				"id" : "1",
+				"label" : "アティギの問題児？",
+				"dialogue" : {
+					"1" : {
+						"event" : "Ship Description",
+						"media" : "",
+						"chinese" : "唔，其他人都有自己的事，都没人陪我玩呢…咦，这里有只小家伙…呼呼，就用这个捉弄一下它，让小家伙陪我玩好了~",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "いやぁ、まさか他の子がみんな取り込み中なんてねーエスキモーに構ってもらえる子がいないのか～…おっ、この饅頭は……へへへ、ちょっとこの子を起こして遊んでもらおう！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"2" : {
+						"event" : "Acquisition",
+						"media" : "get_1",
+						"chinese" : "唔，其他人都有自己的事，都没人陪我玩呢…咦，这里有只小家伙…呼呼，就用这个捉弄一下它，让小家伙陪我玩好了~",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"3" : {
+						"event" : "Login",
+						"media" : "login_1",
+						"chinese" : "指挥官，嘘——",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"4" : {
+						"event" : "Touch",
+						"media" : "touch_1_1",
+						"chinese" : "呀，好痛！？不要敲我脑袋嘛…呜呜，都是指挥官不陪我我才会…好吧，对不起…",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"5" : {
+						"event" : "Return to Port",
+						"media" : "home_1",
+						"chinese" : "指挥官，你终于回来啦！一起去游泳吗！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					}
+				}
+			}
+		}
+	}
+}

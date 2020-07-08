@@ -99,6 +99,50 @@
 					"id": "3"
 				}
 			}
+		},
+		"3": {
+			"id": "mingniabolisi_3",
+			"name": "eXtreme Games",
+			"description": "Oh crap! Move outta the way, Commander! Come on, man, look out next time! You'd have gotten hurt if I'd slammed into you!",
+			"expression": {
+				"0": {
+					"id": "0"
+				},
+				"1": {
+					"id": "1"
+				},
+				"2": {
+					"id": "2"
+				},
+				"3": {
+					"id": "3"
+				},
+				"4": {
+					"id": "4"
+				}
+			}
+		},
+		"4": {
+			"id": "mingniabolisi_h",
+			"name": "Trapper White",
+			"description": "Commander, why's that Quincy so happy to see me in this outfit? It's hard to move around in, and there's all this stuff flapping around that makes it hard to hunt. What do you think of this outfit?",
+			"expression": {
+				"0": {
+					"id": "0"
+				},
+				"1": {
+					"id": "1"
+				},
+				"2": {
+					"id": "2"
+				},
+				"3": {
+					"id": "3"
+				},
+				"4": {
+					"id": "4"
+				}
+			}
 		}
 	},
 	"defaultEquipment": {
@@ -787,6 +831,284 @@
 						"japaneseTL": "",
 						"japaneseNote": "",
 						"english": "Do you want to play with me after class, Commander? Em… I don’t have any particular place in mind, I just want to play with you, that’s all.",
+						"englishNote": ""
+					}
+				}
+			},
+			"3": {
+				"skin_id": "mingniabolisi_3",
+				"id": "2",
+				"label": "eXtreme Games",
+				"dialogue": {
+					"1": {
+						"event": "Ship Description",
+						"media": "",
+						"chinese": "啊，指挥官，闪开闪开！…真是的，小心点啊，要是刚刚撞上了可怎么办！",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "ああ、指揮官、ちょっとそこどいて！……ったく、気をつけろよ！ぶつかったら危ないんだぞ！",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Oh crap! Move outta the way, Commander! Come on, man, look out next time! You'd have gotten hurt if I'd slammed into you!",
+						"englishNote": ""
+					},
+					"2": {
+						"event": "Acquisition",
+						"media": "get_2",
+						"chinese": "啊，指挥官，闪开闪开！…真是的，小心点啊，要是刚刚撞上了可怎么办！",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"3": {
+						"event": "Login",
+						"media": "login_2",
+						"chinese": "身体借我用一下——嘿！谢啦！这样就停下来了！",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"4": {
+						"event": "Details",
+						"media": "detail_2",
+						"chinese": "难得出来玩，指挥官也来试试滑板如何？先从简单的滑行开始吧！放心，我会在旁边好好看着你的。",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"5": {
+						"event": "Touch",
+						"media": "touch_1_2",
+						"chinese": "想跟上我的话就试试吧！",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"6": {
+						"event": "Touch (Special)",
+						"media": "touch_2_2",
+						"chinese": "呜哇哇——！你、你干嘛啊！",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"7": {
+						"event": "Return to Port",
+						"media": "home_2",
+						"chinese": "滑板是我自学的。对于擅长狩猎的我来说，这些都是小菜一碟啦。",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"8": {
+						"event": "Flagship",
+						"media": "warcry_2",
+						"chinese": "滑板时间到了！",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					}
+				}
+			},
+			"4": {
+				"skin_id": "mingniabolisi_h",
+				"id": "8",
+				"label": "Trapper White",
+				"dialogue": {
+					"1": {
+						"event": "Ship Description",
+						"media": "",
+						"chinese": "",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "指揮官、クインシーのやつ、なんでこの格好を見て喜んでんだ？動きにくいし、飾りがヒラヒラしてて落ち着いて狩れやしない。指揮官のためとはいえ、これ本当に大丈夫か…",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Commander, why's that Quincy so happy to see me in this outfit? It's hard to move around in, and there's all this stuff flapping around that makes it hard to hunt. What do you think of this outfit?",
+						"englishNote": ""
+					},
+					"2": {
+						"event": "Acquisition",
+						"media": "get_8",
+						"chinese": "昆西那家伙，为什么看到我穿成这样就特别开心呢？又不方便活动，零零碎碎的装饰又不方便打猎…虽说是为了指挥官才穿的，不过，这一身真的没问题吗…",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "指揮官、クインシーのやつ、なんでこの格好を見て喜んでんだ？動きにくいし、飾りがヒラヒラしてて落ち着いて狩れやしない。指揮官のためとはいえ、これ本当に大丈夫か…",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Commander, why's that Quincy so happy to see me in this outfit? It's hard to move around in, and there's all this stuff flapping around that makes it hard to hunt. What do you think of this outfit?",
+						"englishNote": ""
+					},
+					"3": {
+						"event": "Login",
+						"media": "login_8",
+						"chinese": "指挥官，今天也要出去打猎吗？出击也没问题哦！",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "指揮官、今日も狩りに出かけるか？出撃でもいいぜ！",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "You wanna go on a hunt again, Commander? Or a sortie, that's fine too!",
+						"englishNote": ""
+					},
+					"4": {
+						"event": "Details",
+						"media": "detail_8",
+						"chinese": "好疼！可恶，厨艺修行是什么鬼啦！文森斯那家伙，平时自己明明也都是微波炉叮一下就好了！…我做就是了！为了指挥官啊啊啊啊！",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "あいて！くっそー料理修行ってなんだよ！ヴィンセンスのやつ、普段はレンジを使ってチンしてるだけじゃねぇか！…やってやる！指揮官のためだああ！",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Oww! Son of a...! Learning how to cook sucks! Can't believe Vincennes told me to do this when all she does is microwave her food... But I'll keep trying! Just for the Commander!",
+						"englishNote": ""
+					},
+					"5": {
+						"event": "Main 1",
+						"media": "main_1_8",
+						"chinese": "！？誓约以后还要做这种事情的！？…“一起打扫指挥室什么的”…",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "！？ケッコンしたらこんなこともやるのか！？…「執務室を一緒に掃除する」なんて…！",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "You serious?! Now that we're married, we're gonna be cleaning the office together?!",
+						"englishNote": ""
+					},
+					"6": {
+						"event": "Main 2",
+						"media": "main_2_8",
+						"chinese": "今天也要和指挥官一直在一起！",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "今日は一日中指揮官といてやるよ！",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "I'll be here the whole day if you need me, Commander!",
+						"englishNote": ""
+					},
+					"7": {
+						"event": "Main 3",
+						"media": "main_3_8",
+						"chinese": "指挥官，有什么要我帮忙的吗？誓约以后又担当了秘书舰，机会难得，多让我帮点忙也好吧",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "指揮官、なんか手伝えることないか？ほらせっかくケッコンして秘書艦を担当してんだ、もっと色々使ってくれても良いんだぜ？",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Anything I could help out with, Commander? Like, c'mon, we're wed and I'm your secretary. Put me to work doing more stuff if you want.",
+						"englishNote": ""
+					},
+					"8": {
+						"event": "Touch",
+						"media": "touch_1_8",
+						"chinese": "怎么？指挥官…哈呜？！别突然说爱什么的啊！太让人羞耻了啦！",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "なんだ？指揮官…んぐ？！きゅ、急に愛とか言い出すのはやめろって！死ぬほど恥ずかしいぞ！",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Yeah? What is i– Huh?! S-seriously, I've told you not to randomly go \"I love you\" around me! I'm so embarrassed I could die!",
+						"englishNote": ""
+					},
+					"9": {
+						"event": "Touch (Special)",
+						"media": "touch_2_8",
+						"chinese": "连连连连连这样都可以了吗？！",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "ここここんなことも許されるというのか？！",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "S-s-s-so this kinda thing's fine now, huh?",
+						"englishNote": ""
+					},
+					"10": {
+						"event": "Rub",
+						"media": "touch_head_8",
+						"chinese": "……哈？干、干嘛？？",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "……は？な、なんだ？？",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "...Huh? Wh-what was that for?",
+						"englishNote": ""
+					},
+					"11": {
+						"event": "Return to Port",
+						"media": "home_8",
+						"chinese": "“亲爱的，欢迎回来~”…呜…阿斯托里亚，竟然要我说这样的台词…！不可能，绝对办不到的！…啊！指挥官！？",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "「あなた、おかえりなさいませ♪」――くっ、アストリア、似合わない言葉使わせやがって…！私には絶対無理だって！……あ！指揮官！",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "\"Welcome home, Honey♪\" – Urgh! Stupid Astoria, forcing me to say this cheesy crap... It's not my style, for crying out loud... Huh?! C-Commander?!",
+						"englishNote": ""
+					},
+					"12": {
+						"event": "Flagship",
+						"media": "warcry_8",
+						"chinese": "掉进我准备的陷阱里来吧！",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "さあ、罠にかかりやがれ！",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Walk right into my trap, you scrapheaps!",
+						"englishNote": ""
+					},
+					"13": {
+						"event": "Victory",
+						"media": "mvp_8",
+						"chinese": "哈哈哈！怎么样，我的战果很不错吧！",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "ははは！どうだ！私の戦果は！",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Hahahah! Check out these results!",
+						"englishNote": ""
+					},
+					"14": {
+						"event": "Defeat",
+						"media": "lose_8",
+						"chinese": "抱歉，指挥官，下次一定干掉敌人的！",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "…っ！すまない指揮官、次は絶対仕留める！",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Sorry for this, Commander. But I'll get 'em next time!",
 						"englishNote": ""
 					}
 				}

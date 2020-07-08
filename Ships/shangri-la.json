@@ -12,7 +12,6 @@
 	"navy": "Eagle Union",
 	"prefix": "USS",
 	"buildTime": "",
-	"class": "エセックス級",
 	"voiceActress": "Akane Fujita",
 	"parameters": {
 		"firepower": "E",
@@ -28,16 +27,16 @@
 		"medal": "10"
 	},
 	"releaseDate": {
-		"JP": "",
-		"CN": "",
-		"KR": "",
-		"EN": ""
+		"JP": "February 28, 2019",
+		"CN": "February 28, 2019",
+		"KR": "February 28, 2019",
+		"EN": "June 24, 2020"
 	},
 	"artist": {
-		"name": "",
-		"weibo": "",
-		"twitter": "",
-		"pixiv": "",
+		"name": "德意志的科学",
+		"weibo": "https://www.weibo.com/onlykexue",
+		"twitter": "https://twitter.com/ls809251250",
+		"pixiv": "https://www.pixiv.net/member.php?id=6054803",
 		"other": ""
 	},
 	"enhance": {
@@ -46,28 +45,28 @@
 		"aviation": "68",
 		"reload": "9"
 	},
-	"acquisitionMethod": "イベント：特別演習・超空強襲波",
+	"acquisitionMethod": "Event: Air Raid Drills with Essex",
 	"skill": {
 		"1": {
 			"icon": "11930",
-			"requirement": "",
-			"name": "理想郷より発つ ",
+			"requirement": "Default Unlocked",
+			"name": "Fantastical Takeoff",
 			"type": "Offensive",
-			"description": "航空攻撃時、$1で発動する。B25で航空攻撃をもう一度行う "
+			"description": "When this ship launches an Airstrike: 50.0% (80.0%) chance to launch an additional airstrike using B25 bombers."
 		},
 		"2": {
 			"icon": "11940",
-			"requirement": "",
-			"name": "空と海の観測者 ",
+			"requirement": "Default Unlocked",
+			"name": "Observer of the Sky and Sea",
 			"type": "Support",
-			"description": "戦闘開始10秒後、F6F観測機を配置させ、8秒毎に自身の命中が$2、ダメージが$1上昇させる（最大5回まで加算可能）。観測機が撃墜された時、特殊航空攻撃（威力はスキルレベルによる）を行う。"
+			"description": "10s after the battle starts: launches an F6F recon plane and increases this ship's Accuracy by 1.0% (3.0%) and DMG dealt by 2.5% (7.0%) every 8s (this buff can stack up to 5 times.) If the recon plane is shot down: launches a special airstrike (DMG is based on the skill's level.)"
 		}
 	},
 	"skin": {
 		"1": {
 			"id": "xianggelila",
-			"name": "シャングリラ",
-			"description": "エセックス級航空母艦・シャングリラ（CV-38)",
+			"name": "Shangri-La ",
+			"description": "Essex-class aircraft carrier – Shangri-La, Hull Number CV-38. ",
 			"expression": {
 				"0": {
 					"id": "0"
@@ -76,8 +75,8 @@
 		},
 		"2": {
 			"id": "xianggelila_2",
-			"name": "ユートピアの蒐集家",
-			"description": "指揮官、私の「ユートピア」へようこそ。ここにあるのは全て自慢のコレクション――さて、この私から一度説明をいたしましょうか？",
+			"name": "Utopia's Collector ",
+			"description": "Commander, welcome to my \"Utopia.\" Here, you can find my prized collection. Now, where should we start our detailed tour? ",
 			"expression": {
 				"0": {
 					"id": "0"
@@ -202,9 +201,9 @@
 		}
 	},
 	"limitBreak": {
-		"tier1": "戦闘機数+1/艦載機補正+3%",
-		"tier2": "攻撃隊上限+1/爆撃機数+1/艦載機補正+5%",
-		"tier3": "艦載機数+1/艦載機補正+7%"
+		"tier1": "All fighters +1/Aircraft efficiency +3%",
+		"tier2": "Hangar capacity +1/All Dive Bombers +1/Aircraft efficiency +5%",
+		"tier3": "All aircraft +1/Aircraft efficiency +7%"
 	},
 	"equipmentLoadout": {
 		"1": {
@@ -255,9 +254,9 @@
 			"EN": ""
 		},
 		"limited": {
-			"JP": "",
-			"CN": "",
-			"EN": ""
+			"JP": "✓",
+			"CN": "✓",
+			"EN": "✓"
 		}
 	},
 	"drop": {
@@ -284,7 +283,7 @@
 			"1": {
 				"skin_id": "xianggelila",
 				"id": "0",
-				"label": "シャングリラ",
+				"label": "Shangri-La ",
 				"dialogue": {
 					"1": {
 						"event": "Ship Description",
@@ -295,7 +294,7 @@
 						"japanese": "エセックス級航空母艦・シャングリラ（CV-38)",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Essex-class aircraft carrier – Shangri-La, Hull Number CV-38.",
 						"englishNote": ""
 					},
 					"2": {
@@ -307,7 +306,7 @@
 						"japanese": "私の名前・シャングリラはかの大戦でのとある作戦に由来しています。エセックス級として様々な場所を歩き回った私は、このノートに数々の物事とエピソードを書き記すことができました。これこそ私にとっての誇りです",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "My name, Shangri-La, has its origins in a famous operation from the war. Being an Essex-class, I've been all over the world and got to record a myriad of things and events in my notebook. This, to me, is my source of pride.",
 						"englishNote": ""
 					},
 					"3": {
@@ -319,7 +318,7 @@
 						"japanese": "CV-38、シャングリラ、着任しました。このノートに書き記されている数々のエピソード、いつか指揮官にも共有したいのですが……今は目の前の仕事に集中しましょう",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "CV-38, Shangri-La, has arrived. I'd like to share the stories in this notebook with you someday... but first, let's concentrate on the task at hand.",
 						"englishNote": ""
 					},
 					"4": {
@@ -331,7 +330,7 @@
 						"japanese": "おかえりなさい、指揮官。指揮官がいない間に起きた重要な出来事はこちらに書き記しました。ご確認いただけますか？",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Welcome back, Commander. I recorded all the noteworthy events that took place while you were gone. Would you care to read about them?",
 						"englishNote": ""
 					},
 					"5": {
@@ -343,7 +342,7 @@
 						"japanese": "外部への秘密厳守、上官への滅私奉公、くれぐれも疑うことなきよう",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "I strictly follow the principle of divulging nothing to outsiders, but giving full disclosure to my superior officers.",
 						"englishNote": ""
 					},
 					"6": {
@@ -355,7 +354,7 @@
 						"japanese": "この子のことが気になりますか？実は昆虫の観察も私の趣味の一つです。この子はパナマから連れてきました",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Are you curious about these butterflies? Bugwatching is one of my hobbies, actually. I brought these darlings with me from Panama.",
 						"englishNote": ""
 					},
 					"7": {
@@ -367,7 +366,7 @@
 						"japanese": "対潜作戦ですか…？機会があればトライしたいですね。もしかしたら意外と行けるかもしれません！",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Anti-sub warfare? I'd love to try my hand at it, should the opportunity arise. Who knows, I may be surprisingly talented!",
 						"englishNote": ""
 					},
 					"8": {
@@ -379,7 +378,7 @@
 						"japanese": "指揮官の健康を保つのも私の仕事です。くれぐれも体には気を付けて疲労を過度に溜め込まないようにしてください",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Ensuring you stay in good health is part of my job, Commander. I sincerely urge you to be careful so as to not overwork yourself.",
 						"englishNote": ""
 					},
 					"9": {
@@ -391,7 +390,7 @@
 						"japanese": "指揮官はどのエピソードを聞きたいですか？人跡未踏の安息地、それとも水平線の向こうの理想郷？",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Which story would you like to hear, Commander? The one about the undiscovered haven, or the wonderland beyond the horizon?",
 						"englishNote": ""
 					},
 					"10": {
@@ -403,7 +402,7 @@
 						"japanese": "私の健康状態を確認したかったのですか？",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Did you just perform a health examination on me?",
 						"englishNote": ""
 					},
 					"11": {
@@ -415,7 +414,7 @@
 						"japanese": "この髪飾りですか？私の名前にお似合いだと、逸仙さんからもらったんです",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "My hair ornaments? They're a gift from Yat Sen; she said they go well with my name.",
 						"englishNote": ""
 					},
 					"12": {
@@ -427,7 +426,7 @@
 						"japanese": "本部より入電です。タスクリストに書き記しましたので、ご確認ください",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "We've received a mission from headquarters. I made note of it in our task list.",
 						"englishNote": ""
 					},
 					"13": {
@@ -439,7 +438,7 @@
 						"japanese": "任務が完了しました。今回の報酬は何でしょう？無人観測機？それとも……",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "A mission has been completed. I wonder what our reward will be. Perhaps an unmanned recon aircraft?",
 						"englishNote": ""
 					},
 					"14": {
@@ -451,7 +450,7 @@
 						"japanese": "新しいメールがあります。私が代わりに読み上げることも可能ですので、お時間がない時はご検討ください",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "You've received new mail. If you're short on time, you could consider having me read it out for you.",
 						"englishNote": ""
 					},
 					"15": {
@@ -463,7 +462,7 @@
 						"japanese": "艦隊が母港に帰還しました。皆さんと少し休憩してから、先程の出撃の振り返りと戦術レポートの確認を行いましょう",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "The fleet has returned to port. Let us hold a tactical debriefing once everyone has had some time to rest.",
 						"englishNote": ""
 					},
 					"16": {
@@ -475,7 +474,7 @@
 						"japanese": "委託が完了しました。戻ってくる皆の出迎えに参りましょう",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "A commission has been completed. Shall go and we receive the returning team?",
 						"englishNote": ""
 					},
 					"17": {
@@ -487,7 +486,7 @@
 						"japanese": "感謝します。新たな戦果でお応えしましょう",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Thank you. I will repay your generosity with greater glory in battle.",
 						"englishNote": ""
 					},
 					"18": {
@@ -499,7 +498,7 @@
 						"japanese": "艦首、風上！自由の重み、思い知らせてやりましょう！",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Turn bow to the wind! We shall teach them the importance of freedom!",
 						"englishNote": ""
 					},
 					"19": {
@@ -511,7 +510,7 @@
 						"japanese": "あなたたちではシャングリラにたどり着くことは叶わないのですよ",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Shangri-La will forever be out of reach to the likes of you.",
 						"englishNote": ""
 					},
 					"20": {
@@ -523,7 +522,7 @@
 						"japanese": "こんな…はずでは…！",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "This wasn't... supposed to happen!",
 						"englishNote": ""
 					},
 					"21": {
@@ -535,7 +534,7 @@
 						"japanese": "嵐を越えて、全力で挑む！",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Weather the storm and fight with all your might!",
 						"englishNote": ""
 					},
 					"22": {
@@ -547,7 +546,7 @@
 						"japanese": "消火作業、準備を急いでください！",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Put out the fire! Please, hurry!",
 						"englishNote": ""
 					},
 					"23": {
@@ -559,7 +558,7 @@
 						"japanese": "指揮官は信用情報のブラックリストに入っています。ご注意ください",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "You've been added to my confidential informee blacklist, Commander. Do keep that in mind.",
 						"englishNote": ""
 					},
 					"24": {
@@ -571,7 +570,7 @@
 						"japanese": "今日から指揮官のすべてを書き記していきますね",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Starting today, I will take notes on everything related to you, Commander.",
 						"englishNote": ""
 					},
 					"25": {
@@ -583,7 +582,7 @@
 						"japanese": "指揮官、いくら時間が惜しくても、ジャンクフードを食べては身体に悪い影響しか与えません。…はい、手作りのサンドイッチです。どうぞこちらを召し上がってください",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Commander, no matter how pressed for time you may be, eating junk food will only impact your health negatively. Please, I urge you to have this more healthy sandwich I made.",
 						"englishNote": ""
 					},
 					"26": {
@@ -595,7 +594,7 @@
 						"japanese": "はあ、身体を大事にして、と散々言いましたのに……はい、サフランティーを用意しました。身体にいいですよ",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "*sigh*, I've asked you time and time again to be more health-conscious... Please, have this cup of saffron tea. It's good for you.",
 						"englishNote": ""
 					},
 					"27": {
@@ -607,7 +606,7 @@
 						"japanese": "サフランの花言葉は「喜び」って知っていますか？こうして間近であなたの物語を書き記し、あなたと一緒に戦い、あなたの生活の面倒を見られること――これこそ私にとっての一番の喜びです",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Did you know that the saffron flower symbolizes joy in floriography? To me, writing your biography, fighting by your side, and personally looking after you... That is the greatest joy of my life.",
 						"englishNote": ""
 					},
 					"28": {
@@ -619,7 +618,7 @@
 						"japanese": "この気持ちを一刻でも早くノートに書き記したいのですが、この両手には今もっと大切な役割があります。それはあなたを抱きしめること――これからシャングリラはずっとあなたと一緒に、あなたの行く道の先にある、「理想郷」を目指して……",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "I'd love to write down my feelings without a moment's delay, but a more important task is at hand: holding you in a close embrace. I, Shangri-La, will forever be with you, following you to the mystical land at the end of your journey.",
 						"englishNote": ""
 					},
 					"29": {
@@ -631,7 +630,7 @@
 						"japanese": "安心して、私たちはきっと先輩を越えられます",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Don't worry too much, I'm sure we will one day surpass Enterprise.",
 						"englishNote": ""
 					},
 					"30": {
@@ -643,7 +642,7 @@
 						"japanese": "飛行機を貸していただけますか？ええと……カウガール…さん？",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Would you mind lending me some aircraft, Miss... Umm, \"Miss Cowgirl\"?",
 						"englishNote": ""
 					}
 				}
@@ -651,7 +650,7 @@
 			"2": {
 				"skin_id": "xianggelila_2",
 				"id": "1",
-				"label": "ユートピアの蒐集家",
+				"label": "Utopia's Collector ",
 				"dialogue": {
 					"1": {
 						"event": "Ship Description",
@@ -662,7 +661,7 @@
 						"japanese": "指揮官、私の「ユートピア」へようこそ。ここにあるのは全て自慢のコレクション――さて、この私から一度説明をいたしましょうか？",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Commander, welcome to my \"Utopia.\" Here, you can find my prized collection. Now, where should we start our detailed tour?",
 						"englishNote": ""
 					},
 					"2": {
@@ -674,7 +673,7 @@
 						"japanese": "指揮官、私の「ユートピア」へようこそ。ここにあるのは全て自慢のコレクション――さて、この私から一度説明をいたしましょうか？",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Commander, welcome to my \"Utopia.\" Here, you can find my prized collection. Now, where should we start our detailed tour?",
 						"englishNote": ""
 					},
 					"3": {
@@ -686,7 +685,7 @@
 						"japanese": "おかえりなさい、指揮官。熱い飲み物でも飲んで体を温めましょう。コーヒー？ココア？どっちにします？",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Welcome back, Commander. Let's warm you up with a nice, hot drink. Would you like coffee or hot cocoa?",
 						"englishNote": ""
 					},
 					"4": {
@@ -698,7 +697,7 @@
 						"japanese": "指揮官が贈ってくれたこのショールはとても暖かいですね。ふふ、どうでしょう。これをこうして…一緒に暖を取りませんか？",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "This shawl you gave me is really cozy. Hehe, let's huddle up like this... There, now we share the warmth.",
 						"englishNote": ""
 					},
 					"5": {
@@ -710,7 +709,7 @@
 						"japanese": "きっかけさえあれば、ちゃんとした個展でも開いたほうがよさそうですね。名前は…「カラカル」というのはどうでしょう？",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "If the opportunity presents itself, I might just host my own exhibit. Perhaps I could call it... \"Caracal\"?",
 						"englishNote": ""
 					},
 					"6": {
@@ -722,7 +721,7 @@
 						"japanese": "指揮官になら私のコレクションを分け与えても大丈夫でしょう。きっと大切にしてくださいますよね？",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "I wouldn't mind sharing some of my prized specimens with you, Commander. You'd take good care of them, wouldn't you?",
 						"englishNote": ""
 					},
 					"7": {
@@ -734,7 +733,7 @@
 						"japanese": "（パシャ）よし、新しいコレクションをゲットしました。名前は…「苦労人の横顔」でどうでしょう？ふふふ",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "*click*! Nice, a fine new addition to my photo collection. I name it... \"Fleet Commander, in Profile.\" Hehehe~",
 						"englishNote": ""
 					},
 					"8": {
@@ -746,7 +745,7 @@
 						"japanese": "指揮官も標本作りを勉強したいのですか？",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Would you like to learn how to pin a specimen, Commander?",
 						"englishNote": ""
 					},
 					"9": {
@@ -758,7 +757,7 @@
 						"japanese": "コレクションも女の子も、気軽に触るのは禁止ですよ。指揮官？",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Both specimens and girls alike must be treated delicately. Understood, Commander?",
 						"englishNote": ""
 					},
 					"10": {
@@ -770,7 +769,7 @@
 						"japanese": "指揮官、私のコレクションに加わる発見物でもあったりしました？ふふふ",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Did you come across a new specimen I could add to my collection, Commander? Hehehe~",
 						"englishNote": ""
 					},
 					"11": {
@@ -782,7 +781,7 @@
 						"japanese": "ふぅ……あっ、今寝落ちしたのでしょうか？すみません指揮官、あなたのそばにいるとつい気を緩めてしまいまして…肩を貸していただきありがとうございました。ふふふ",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "*yawn*... Oh, was I dozing off just now? Sorry for that, Commander. I just feel so relaxed when I'm with you... But thanks for lending me your shoulder to rest on. Hehehe~",
 						"englishNote": ""
 					}
 				}
