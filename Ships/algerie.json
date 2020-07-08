@@ -29,7 +29,7 @@
 		"JP": "May 21, 2020",
 		"CN": "May 21, 2020",
 		"KR": "May 21, 2020",
-		"EN": ""
+		"EN": "June 11, 2020"
 	},
 	"artist": {
 		"name": "四々九",
@@ -38,7 +38,6 @@
 		"pixiv": "https://www.pixiv.net/en/users/533800",
 		"other": "https://yoshiku449.tumblr.com/"
 	},
-	"class": "Algérie-Class",
 	"enhance": {
 		"firepower": "28",
 		"torpedo": "14",
@@ -50,21 +49,21 @@
 		"1": {
 			"icon": "13270",
 			"requirement": "Default Unlocked",
-			"name": "熱風の轟炎",
+			"name": "Bellowing Gusts of Fire",
 			"type": "Offensive",
 			"description": "Deal 5% (15%) more damage to ships that are burning; 20s after battle starts, fire a barrage that causes burning, when firing main guns, 40% (70%) chance to fire this barrage. (10s cooldown between triggering from main gun)"
 		},
 		"2": {
 			"icon": "13280",
 			"requirement": "Default Unlocked",
-			"name": "神穹の盾",
+			"name": "Divine Aegis",
 			"type": "Defensive",
 			"description": "Gain a shield for 20s at start of battle and every 30s after, shield blocks up to 5 torpedos; while this shield is not broken, increases FP to self by 5% (15%) and damage dealt to DDs/BBs by 4.5% (12%). After auto-mode has been off for 5s, gain 5% (15%) Evasion and 8 Speed, this buff is lost upon entering auto-mode."
 		},
 		"3": {
 			"icon": "28211",
 			"requirement": "Limit Break I (III)",
-			"name": "全弾発射-アルジェリーⅠ",
+			"name": "All Out Assault Ⅰ",
 			"type": "Offensive",
 			"description": "Every 9 (6) shots from the main battery, triggers Full Barrage - Algérie I (II)."
 		}
@@ -72,8 +71,8 @@
 	"skin": {
 		"1": {
 			"id": "aerjiliya",
-			"name": "アルジェリー",
-			"description": "アルジェリー級重巡洋艦・アルジェリー",
+			"name": "Algérie ",
+			"description": "Algérie-class heavy cruiser – Algérie. ",
 			"expression": {
 				"0": {
 					"id": "0"
@@ -94,8 +93,8 @@
 		},
 		"2": {
 			"id": "aerjiliya_2",
-			"name": "白浜ヘヴンズフィール",
-			"description": "あら、ふふふ…ここの日光浴はいかがかしら？ずっと横になっているままでもいいけど、みんなと一緒に遊んでもいいんじゃない？",
+			"name": "White Sand Paradise",
+			"description": "Oh my, hehe... Are you enjoying the warmth of the sunlight here? I'm glad that you're finding some time to relax here, but wouldn't you rather come play with everyone else?",
 			"expression": {
 				"0": {
 					"id": "0"
@@ -117,6 +116,28 @@
 				},
 				"6": {
 					"id": "6"
+				}
+			}
+		},
+		"101" : {
+			"id" : "aerjiliya_ex1100",
+			"name" : "Algérie ",
+			"description" : "Algérie-class heavy cruiser – Algérie. ",
+			"expression" : {
+				"0" : {
+					"id" : "0"
+				},
+				"1" : {
+					"id" : "1"
+				},
+				"2" : {
+					"id" : "2"
+				},
+				"3" : {
+					"id" : "3"
+				},
+				"4" : {
+					"id" : "4"
 				}
 			}
 		}
@@ -226,9 +247,9 @@
 		}
 	},
 	"limitBreak": {
-		"tier1": "全弾発射スキル習得/主砲補正+5%",
-		"tier2": "魚雷装填数+1/開始時魚雷+1/魚雷補正+10%",
-		"tier3": "全弾発射弾幕強化/魚雷補正+15%"
+		"tier1": "Unlock All Out Assault Ⅰ/Main gun efficiency +5%",
+		"tier2": "Torpedo base +1/Torpedo preload +1/Torpedo efficiency +10%",
+		"tier3": "Improve All Out Assault/Torpedo efficiency +15%"
 	},
 	"equipmentLoadout": {
 		"1": {
@@ -321,7 +342,7 @@
 			"1": {
 				"skin_id": "aerjiliya",
 				"id": "0",
-				"label": "アルジェリー",
+				"label": "Algérie ",
 				"dialogue": {
 					"1": {
 						"event": "Ship Description",
@@ -332,7 +353,7 @@
 						"japanese": "アルジェリー級重巡洋艦・アルジェリー",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Algérie-class heavy cruiser – Algérie.",
 						"englishNote": ""
 					},
 					"2": {
@@ -344,7 +365,7 @@
 						"japanese": "ヴィシア所属、第一巡洋艦隊の旗艦・護教騎士アルジェリーよ。カンレキでは…最優の条約型重巡洋艦と言われたように、いくつか面白いエピソードがあるけど…ふふふ、指揮官はどう感じるかしら？",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "I'm the flagship of the Vichya's First Cruiser Fleet, Algérie of the Templar Knights. In my history as a ship... I was called the best-designed treaty cruiser. Accordingly, I've been through plenty of interesting escapades... Hehehe. How do you feel about me, Commander?",
 						"englishNote": ""
 					},
 					"3": {
@@ -356,7 +377,7 @@
 						"japanese": "Bonjour。本日より母港に着任しました、ヴィシア聖座所属、重巡洋艦のアルジェリーよ。会えて嬉しいわ、ふふふ。よければ指揮官、お互い仲良くやりましょう？",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Bonjour. From today, this heavy cruiser of the Vichya Dominion shall now be serving at this port. It's a pleasure to meet you, hehe. If it's not too much to ask, I hope that we can get along well.",
 						"englishNote": ""
 					},
 					"4": {
@@ -368,7 +389,7 @@
 						"japanese": "仲良くやっている間柄だもの。もう少し待ってても平気だったわよ",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "We're on great terms after all. I would've been fine waiting a bit longer.",
 						"englishNote": ""
 					},
 					"5": {
@@ -380,7 +401,7 @@
 						"japanese": "歴史のウソと信実を知るには、他人に言われるだけでなく、自分で学ぶべきよ",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "When it comes to history, relying on second-hand accounts is not enough to sift fact from fiction. You must conduct your own research.",
 						"englishNote": ""
 					},
 					"6": {
@@ -392,7 +413,7 @@
 						"japanese": "賞状や勲章がなくても、力そのものが強者を証明してくれるわ",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Even if I don’t have any honors or decorations, my strength can speak for itself. ",
 						"englishNote": ""
 					},
 					"7": {
@@ -404,7 +425,7 @@
 						"japanese": "あら指揮官、あとでワインでもいかがかしら？ふふ、仕事が終わった後、ね？",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": " Oh, Commander. How about enjoying some wine with me later? Hehe, only after you finish up the rest of your work though, alright? ",
 						"englishNote": ""
 					},
 					"8": {
@@ -416,7 +437,7 @@
 						"japanese": "黄金…？あら、指揮官はあの話にご興味が？ふふふ、あのときのアイリスは……",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": " Gold...? Oh, were you interested in that story? Hehehe. At that time, the Iris were... ",
 						"englishNote": ""
 					},
 					"9": {
@@ -428,7 +449,7 @@
 						"japanese": "猫カフェ巡りは趣味だけど、この母港は…そうね。この母港にも、愛でたくなる子がいっぱいいれば嬉しいわ。……うん！",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": " My hobby is touring cat cafés, but this port doesn't... Oh, that's right. Even at this port, there are plenty of adorable creatures... Yes, how lovely! ",
 						"englishNote": ""
 					},
 					"10": {
@@ -440,7 +461,7 @@
 						"japanese": "ロイヤルは共に戦った仲間、そして…昨日の敵は今日の友とも言うし、面白い人生ね…ふふふ",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": " The Royal Navy are now allies who fight together with us. Furthermore... even yesterday's enemies are today's allies. What an interesting life this has been... Hehehe.",
 						"englishNote": ""
 					},
 					"11": {
@@ -452,7 +473,7 @@
 						"japanese": "あら、少しサボりたいのかしら？ふふ、他の子には言わないから、くつろいでちょうだいね",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Oh my, did you want to slack off for a bit? Hehe, I won't tell anyone else, so take some time off, okay?",
 						"englishNote": ""
 					},
 					"12": {
@@ -464,7 +485,7 @@
 						"japanese": "相手がどんなに優しくても、調子に乗るのはいけないことよ。ふふふ",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Commander~? No matter how nice the other person may be, you shouldn't get too carried away. Hehe.",
 						"englishNote": ""
 					},
 					"13": {
@@ -476,7 +497,7 @@
 						"japanese": "熱を測ってくれてるのかしら…？",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Are you trying to see if I have a fever...?",
 						"englishNote": ""
 					},
 					"14": {
@@ -485,10 +506,10 @@
 						"chinese": "指挥官，又有新的任务下发下来了。嗯？如果忙不开的话，我可以帮您申请延长任务期限哦",
 						"chineseTL": "",
 						"chineseNote": "",
-						"japanese": "新しい任務が通達されたわよ。あら？相変わらず忙しいようね…私が代わりにってのは、流石にできないのかしら？",
+						"japanese": "新しい任務が通達されたわよ。あら？相変わらず忙しいようね…私が代わりにというのは、流石にできないのかしら？",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "We've just received a new directive from the higher-ups. Oh? It seems that you're just as busy as always... As much as I'd like to do some of this work in your stead, I suppose I wouldn't be able to?",
 						"englishNote": ""
 					},
 					"15": {
@@ -500,7 +521,7 @@
 						"japanese": "任務が完了したのかしら？お疲れ様、レポートは私に任せて休んでいいわよ",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Have you finished the mission? Good work. Please leave the report to me and go get some rest.",
 						"englishNote": ""
 					},
 					"16": {
@@ -512,7 +533,7 @@
 						"japanese": "手紙を読むことはそこに隠された人の心を知ること――ふふふ、ドキドキするわね。はい指揮官、新しい手紙が来たわよ",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Reading a letter allows you to peek into the hidden heart of the person who sent it... Hehehe, how exciting! Here, Commander, some new mail's come in for you.",
 						"englishNote": ""
 					},
 					"17": {
@@ -524,7 +545,7 @@
 						"japanese": "作戦お疲れ様、指揮官。淹れたてのコーヒーでもいかがかしら？",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Good work planning out the operation, Commander. How would you like some freshly brewed coffee?",
 						"englishNote": ""
 					},
 					"18": {
@@ -536,7 +557,7 @@
 						"japanese": "委託組の子たちが戻ってきたわよ。重要物資はどの子が持っているのか当てさせてもらおうかしら",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "The girls from the commission team have come back. I wonder if I can guess which girl's carrying the most important goods?",
 						"englishNote": ""
 					},
 					"19": {
@@ -548,7 +569,7 @@
 						"japanese": "このまま一気に枷を壊すのも一興…かな？ふふふふ",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Shattering the confines of the treaty... is rather pleasurable. Hehehe~",
 						"englishNote": ""
 					},
 					"20": {
@@ -560,7 +581,7 @@
 						"japanese": "望まれた通りの戦いができればいいわね",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "It'd be nice if the battle goes the way we want it to.",
 						"englishNote": ""
 					},
 					"21": {
@@ -572,7 +593,7 @@
 						"japanese": "もう少し早く状況を認識しておけばこうはならなかった…今更何をするというの？",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "If only you realized the situation you were in a little sooner, you might've been able to avoid this outcome... but what can you do at this point?",
 						"englishNote": ""
 					},
 					"22": {
@@ -584,7 +605,7 @@
 						"japanese": "負けたかしら…指揮官、大丈夫よ。しっかり準備してからもう一回挑みましょ？",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "It seems that I lost... But don't worry, Commander. Let's prepare carefully and try again.",
 						"englishNote": ""
 					},
 					"23": {
@@ -596,7 +617,7 @@
 						"japanese": "今更逃げられないわよ",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "It's too late to run~",
 						"englishNote": ""
 					},
 					"24": {
@@ -608,7 +629,7 @@
 						"japanese": "条約とやらの枷はまだきついというの…",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "I'm telling you, the constraints of the treaty are still too suffocatingly restrictive...",
 						"englishNote": ""
 					},
 					"25": {
@@ -620,7 +641,7 @@
 						"japanese": "あら、指揮官の退官手続きの書類について調べているけど、もう準備できたの？",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Oh, Commander. I've been looking into the documents that need to be prepared for your formal retirement. Are you ready to start the process?",
 						"englishNote": ""
 					},
 					"26": {
@@ -632,7 +653,7 @@
 						"japanese": "私のことが少し怖いのかしら？ふふ、落ち着いて、仲間を傷つけたりはしないわよ？",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Are you a bit scared of me? Hehe, don't worry, Commander. I wouldn't harm an ally.",
 						"englishNote": ""
 					},
 					"27": {
@@ -644,7 +665,7 @@
 						"japanese": "指揮官、少し飲みに付き合ってもらえないかしら？もしかしてお酒が苦手？大丈夫よ、少しだけでもこう…ゆっくりと喉で味わってみるだけでも――そうね…情熱と冷涼、オトナの濃厚な味わいよ",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Commander, won't you drink a little with me? Are you perhaps bad at holding your alcohol? That's alright. Just take a little sip, like this... and try slowly tasting it with your throat... That's it... Don't you taste it?... The cool, rich flavor of maturity.",
 						"englishNote": ""
 					},
 					"28": {
@@ -656,7 +677,7 @@
 						"japanese": "あら、こう見えてもカワイイものを愛でるのが好きよ。小物とか、こう丸っこい子猫たちとか、お菓子作りとか…ふふ、オトナがこういう可愛い趣味を持っているの、良いと思わない？",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "You know, I actually really, really like cute things. Those trinkets, those squishy furballs, making sweets... Hehe, don't you think it's nice for an adult to enjoy cute things?",
 						"englishNote": ""
 					},
 					"29": {
@@ -668,7 +689,7 @@
 						"japanese": "指揮官は私に…アルジェリーに頼ってほしいの？そうね…指揮官になら私も頼ってあげて、そしてずっとそばにいて支えてもいいわよ？ふふ、その代わり…指揮官は私に何をしてくれるか、見させてもらおうかしら",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Commander... would you like to rely on me? ...If it's you, I'd be happy to let you rely on me, and I'd always be supporting you from your side. Hehe, in exchange... I hope you'll show me just how much you can achieve, with me by your side.",
 						"englishNote": ""
 					},
 					"30": {
@@ -680,7 +701,7 @@
 						"japanese": "ありがとうございます。今よりアルジェリーは身も心も全て捧げることを誓うわ。これからの甘い日々を――ふたりでゆっくり、じっくりと一緒に味わっていきましょう？私の仲間にして、愛する貴方――",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Thank you. Henceforth, I vow to dedicate my whole heart and body to you. Together, let us enjoy - slowly and surely - just how sweet our future will be. My partner, my beloved...",
 						"englishNote": ""
 					},
 					"31": {
@@ -692,7 +713,7 @@
 						"japanese": "恐れることはないわ。どんな危機にも立ち向かうのが聖座の艦船よ",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "There's nothing to fear. The Vichya Dominion rises up to face any crisis.",
 						"englishNote": ""
 					},
 					"32": {
@@ -704,7 +725,7 @@
 						"japanese": "ようやくチャンスが来たわね。ザラ、少し競争してみない？",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "We've finally got a chance to compete, Zara. Wanna see who's better?",
 						"englishNote": ""
 					},
 					"33": {
@@ -716,7 +737,7 @@
 						"japanese": "ふふ、いい匂い…ちょっとだけ付き合ってもらえるかしら？",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Hehe, what a nice smell. Will you let me tag along for a bit?",
 						"englishNote": ""
 					},
 					"34": {
@@ -760,7 +781,7 @@
 			"2": {
 				"skin_id": "aerjiliya_2",
 				"id": "1",
-				"label": "白浜ヘヴンズフィール",
+				"label": "White Sand Paradise",
 				"dialogue": {
 					"1": {
 						"event": "Ship Description",
@@ -771,7 +792,7 @@
 						"japanese": "あら、ふふふ…ここの日光浴はいかがかしら？ずっと横になっているままでもいいけど、みんなと一緒に遊んでもいいんじゃない？",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Oh my, hehe... Are you enjoying the warmth of the sunlight here? I'm glad that you're finding some time to relax here, but wouldn't you rather come play with everyone else?",
 						"englishNote": ""
 					},
 					"2": {
@@ -783,7 +804,7 @@
 						"japanese": "あら、ふふふ…ここの日光浴はいかがかしら？ずっと横になっているままでもいいけど、みんなと一緒に遊んでもいいんじゃない？",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Oh my, hehe... Are you enjoying the warmth of the sunlight here? I'm glad that you're finding some time to relax here, but wouldn't you rather come play with everyone else?",
 						"englishNote": ""
 					},
 					"3": {
@@ -795,7 +816,7 @@
 						"japanese": "日焼け止めがあっても、流石に焼き過ぎは良くないわ",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Even if you've already applied some sunscreen, you still need to take care to not get sunburns.",
 						"englishNote": ""
 					},
 					"4": {
@@ -807,7 +828,7 @@
 						"japanese": "ふふふ、可愛い子たちに囲まれてとても幸せそうだったわ。どの子に一番、目が留まったのかしら？",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Hehehe. Commander, it seemed like you enjoyed being surrounded by so many cute girls. Who caught your attention the most?",
 						"englishNote": ""
 					},
 					"5": {
@@ -819,7 +840,7 @@
 						"japanese": "ほら、日よけの帽子よ。海を楽しむのは、日差し対策をちゃんとしてからでお願いね",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Here, a sun cap. If you want to play out on the beach, please make the proper preparations against the sun's rays first.",
 						"englishNote": ""
 					},
 					"6": {
@@ -831,7 +852,7 @@
 						"japanese": "ヴィシアのロイヤルのビーチバレー試合…面白そうね。一緒に観戦してみるのはどう？",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "A beach volleyball match between the Vichya and Royal Navy... Sounds fun. How about watching it together?",
 						"englishNote": ""
 					},
 					"7": {
@@ -843,7 +864,7 @@
 						"japanese": "砂浜に文字を書き込んで、海に流されるのを待つ――ふふふ、楽しそう～何を書こうかしら？",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Writing words on the beach and waiting for the waves to wash them away... Hehe, seems like it'd be fun~ What shall we write?",
 						"englishNote": ""
 					},
 					"8": {
@@ -855,7 +876,7 @@
 						"japanese": "はぁ…やっぱりちょっと暑いわね…指揮官も無理せず、体調が悪かったら言ってちょうだい？",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Sigh... It's seriously quite hot... Commander, don't push yourself, you hear? Please let me know if you start to feel worse.",
 						"englishNote": ""
 					},
 					"9": {
@@ -867,7 +888,7 @@
 						"japanese": "ココナッツジュース…？分かったわ。今持ってくるわね",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "You want some coconut juice...? Alright, wait there for now. I'll bring some over.",
 						"englishNote": ""
 					},
 					"10": {
@@ -879,7 +900,7 @@
 						"japanese": "…っ！？この格好だと指揮官もちょっと浮ついちゃうのかしら…",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Huh?! I wonder, do these clothes make the Commander more impertinent...?",
 						"englishNote": ""
 					},
 					"11": {
@@ -891,7 +912,7 @@
 						"japanese": "ワイン…はちょっと場違いだわね。ふふふ、トロピカルジュースはいかがかしら？",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Wine... would be a little bit out of place here. Hehe. Commander, will some tropical juice suffice?",
 						"englishNote": ""
 					},
 					"12": {
@@ -903,11 +924,163 @@
 						"japanese": "指揮官をこう砂に埋めて動けなくすれば好き放題にできるわね～ふふふ、冗談だわ。それとも指揮官が私にそうしたいの？ふふふふ",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Commander, if I buried you in the sand neck-down, you wouldn't be able to move, and I'd be able to do whatever I want to you~ Hehehe, I'm joking. Or, would you like to do that to me? Hehehehe.",
 						"englishNote": ""
+					}
+				}
+			},
+			"101": {
+				"skin_id" : "aerjiliya_ex1100",
+				"id" : "0",
+				"label" : "Algérie ",
+				"dialogue" : {
+					"1" : {
+						"event" : "Login",
+						"media" : "login_ex1100",
+						"chinese" : "欢迎回来，今天要先做什么呢？亲.爱.的~？",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "おかえりなさいませ。あなた。今日は何から始めるの？",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Welcome back, dear. What will you start working on first?",
+						"englishNote" : ""
+					},
+					"2" : {
+						"event" : "Details",
+						"media" : "detail_ex1100",
+						"chinese" : "嗯…？我正在看下次要和敦刻尔克一起去逛的店呢。当然，你要一起来也是可以的哦？呵呵呵~",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "あら、指揮官。…今度非番のときにダンケルクと回る店をチェックしているわ。もちろん、一緒に来てくださってもいいわよ？ふふふ",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Oh, Commander. ...Next time I'm off duty, I'm planning on checking out a sushi train with Dunkerque. Of course, you're welcome to join me. Hehehe.",
+						"englishNote" : ""
+					},
+					"3" : {
+						"event" : "Main 2",
+						"media" : "main_2_ex1100",
+						"chinese" : "今天晚饭想吃什么呢？晚饭之外的…？哎呀，真是大胆呢…那个就敬请期待晚饭后吧~♪",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "指揮官、今日の夕餉になにかご注文は？夕餉以外のも…？あら、大胆ね…そこはあとでの楽しみということで♪",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Commander, is there anything you'd like for dinner today? Something other than dinner...? Oh my, how bold~ ...That's something you can look forward to later♪",
+						"englishNote" : ""
+					},
+					"4" : {
+						"event" : "Main 3",
+						"media" : "main_3_ex1100",
+						"chinese" : "无论工作还是生活，绷得太紧都会反而做不好事情呢，该休息的时候就要好好休息哦？",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "仕事も生活も、厳しくしたってなんにもならないわ。休むときはしっかり休むこと、ね？",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Whether it's during work or in your daily life, it's no good to be too strict on yourself. Make sure you rest properly when you have the time, alright?",
+						"englishNote" : ""
+					},
+					"5" : {
+						"event" : "Main 4",
+						"media" : "main_4_ex1100",
+						"chinese" : "(捏)嗯~这孩子怎么会这么可爱呢~对了，下次和黎塞留大人一起分享下也不错呢，呵呵呵",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "ん～この子ってなんでこんなに可愛いのかしらぁ…そうだ、リシュリュー様にも今度見せようかしら、ふふふ",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Hmm~ How is this one thiiiis cute... That's right. I'll have to show this to Miss Richelieu next time. Hehehe~. ",
+						"englishNote" : ""
+					},
+					"6" : {
+						"event" : "Touch (Special)",
+						"media" : "touch_2_ex1100",
+						"chinese" : "是什么让你变得这么躁动的呢？呵呵~♡",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "何をそう焦っちゃっているの？ふふふ♡",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "There's no reason to be so impatient, right? Hehehe♡",
+						"englishNote" : ""
+					},
+					"7" : {
+						"event" : "Rub",
+						"media" : "touch_head_ex1100",
+						"chinese" : "",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "あら、今日は子供っぽく甘えてほしいの？",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "My my, do you want to be pampered like a child today?",
+						"englishNote" : ""
+					},
+					"8" : {
+						"event" : "Mission",
+						"media" : "task_ex1100",
+						"chinese" : "新的任务下发了哦。嗯？还是很忙的样子呢…我来替你完成…果然还是不太行吧……",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "新しい任務が通達されたわよ。あら？相変わらず忙しいようね…私が代わりにというのは、流石にできないのかしら？",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "We've just received a new directive from the higher-ups. Oh? It seems that you're just as busy as always... As much as I'd like to do some of this work in your stead, I suppose I wouldn't be able to?",
+						"englishNote" : ""
+					},
+					"9" : {
+						"event" : "Mail",
+						"media" : "mail_ex1100",
+						"chinese" : "有你的信哦。呵呵，我要不要也像这样写点信呢~",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "あなた、新しい手紙よ。私も少しこういうの、書いてみようかしら。ふふふ",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Dear, you've got some new mail. I wonder if I should try my hand at writing some love letters myself. Hehehe.",
+						"englishNote" : ""
+					},
+					"10" : {
+						"event" : "Return to Port",
+						"media" : "home_ex1100",
+						"chinese" : "累了吧…可不能勉强自己哦。把一切交给我，你就好好躺一会吧？",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "疲れたようね…あなた、無理をしてはダメよ。私に任せて横になってちょうだい？",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "You look really tired... Darling, you shouldn't push yourself too hard. Please, leave this to me and go lie down for a bit.",
+						"englishNote" : ""
+					},
+					"11" : {
+						"event" : "Defeat",
+						"media" : "lose_ex1100",
+						"chinese" : "失败了么…非常抱歉，辜负了你的期待…",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "負けたのね…ごめんなさい。あなたの期待に背いちゃって…",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Oh no, I lost... I'm sorry for letting you down...",
+						"englishNote" : ""
+					},
+					"12" : {
+						"event" : "Affinity (Love)",
+						"media" : "feeling5_ex1100",
+						"chinese" : "今天的约会怎么说？哎呀，去哪儿不是早就决定好了吗？我说的不是这个，而是…晚餐和住宿…为了能更好的享受约会，得先做好各种准备才行呢~",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "あなた、今度のデートの計画はどうかしら？あら、行先はもうとっくに決まっているでしょ？そういう話じゃなくて…ディナーとか泊まる宿、あなたがじっくり楽しめるようもっと色々準備しておきたいの",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Love, how are the plans for our next date looking? Oh, I know that the destination's basically decided upon. More than that, I was thinking things like... where we'll eat dinner, or where we'll stay. We have to plan out everything carefully so we can enjoy the date that much more!",
+						"englishNote" : ""
 					}
 				}
 			}
 		}
-	}
+	},
+	"voiceActress": "Shizuka Ito"
 }

@@ -100,8 +100,8 @@
 		},
 		"3": {
 			"id": "aimierbeierding_3",
-			"name": "Fantastiqueメイド",
-			"description": "「メイド」というロマンもあると聞いて、だからこの衣装に着替えて実際に感じてみることにしたわ～指揮官、いかがかしら？",
+			"name": "Maid Fantastique",
+			"description": "I heard of this romantic concept of maid outfits, and thought I'd try one on to see how it feels~ What are your thoughts, Commander?",
 			"expression": {
 				"0": {
 					"id": "0"
@@ -830,7 +830,7 @@
 			"3": {
 				"skin_id": "aimierbeierding_3",
 				"id": "2",
-				"label": "Fantastiqueメイド",
+				"label": "Maid Fantastique",
 				"dialogue": {
 					"1": {
 						"event": "Ship Description",
@@ -841,7 +841,7 @@
 						"japanese": "「メイド」というロマンもあると聞いて、だからこの衣装に着替えて実際に感じてみることにしたわ～指揮官、いかがかしら？",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "I heard of this romantic concept of maid outfits, and thought I'd try one on to see how it feels~ What are your thoughts, Commander?",
 						"englishNote": ""
 					},
 					"2": {
@@ -850,10 +850,10 @@
 						"chinese": "我听说“女仆”好像有一种独特的浪漫，不过还是要实际穿上才能有所感受吧！指挥官，你觉得怎么样呢？",
 						"chineseTL": "",
 						"chineseNote": "",
-						"japanese": "",
+						"japanese": "「メイド」というロマンもあると聞いて、だからこの衣装に着替えて実際に感じてみることにしたわ～指揮官、いかがかしら？",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "I heard of this romantic concept of maid outfits, and thought I'd try one on to see how it feels~ What are your thoughts, Commander?",
 						"englishNote": ""
 					},
 					"3": {
@@ -862,10 +862,10 @@
 						"chinese": "“欢迎回来，主人~”我看皇家的女仆们都是这么问好的呢～",
 						"chineseTL": "",
 						"chineseNote": "",
-						"japanese": "",
+						"japanese": "「おかえりなさいませ、ご主人サマ～」ロイヤルメイド隊はみんなこうして挨拶しているのね～",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "\"Welcome back, Master~\" – Just like how all the Royal Maids do it~",
 						"englishNote": ""
 					},
 					"4": {
@@ -874,46 +874,82 @@
 						"chinese": "无论衣装朴素亦或华丽，只要用心体会，就一定能发现其中独特的浪漫！",
 						"chineseTL": "",
 						"chineseNote": "",
-						"japanese": "",
+						"japanese": "質素な衣装も、豪華な衣装も、実際身につけてみれば、どんな衣装でもロマンを感じられるわ！",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Be they simple dresses or extravagant costumes, any outfit can be romantic once you actually put it on!",
 						"englishNote": ""
 					},
 					"5": {
+						"event": "Main 1",
+						"media": "main_1_2",
+						"chinese": "兔子先生和公鸡先生，要是能随着我的舞蹈动起来就好了呢。",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "このぬいぐるみたちも一緒に踊ってくれるといいわね～",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Wouldn't it be lovely if these stuffed toys could join me for a dance~?",
+						"englishNote": ""
+					},
+					"6": {
+						"event": "Main 2",
+						"media": "main_2_2",
+						"chinese": "在梦里总是能见到很多奇怪而又浪漫的事情呢，指挥官，你做过什么有趣的梦吗？",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "ヒトは夢を驚きとロマンに例えると聞くわ。指揮官はどんな面白い夢を見たことがあるのかしら？",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "I've heard people describe their dreams as astonishing or romantic. I wonder, have you had any fascinating dreams like that, Commander?",
+						"englishNote": ""
+					},
+					"7": {
+						"event": "Main 3",
+						"media": "main_3_2",
+						"chinese": "比起安静舒适地坐在一旁，我还是喜欢挥洒自己的能量，用行动把热情传递给别人~",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "座ったまま語るよりも、ちゃんと自分の情熱を行動で伝えるほうが好きよ～",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "I'm more fond of imparting my passion to others through actions than through words while sitting down~",
+						"englishNote": ""
+					},
+					"8": {
 						"event": "Touch",
 						"media": "touch_1_2",
 						"chinese": "那么，就由我给指挥官献上“女仆之舞”吧~",
 						"chineseTL": "",
 						"chineseNote": "",
-						"japanese": "",
+						"japanese": "ふふ、指揮官に一曲、「ダンス・オブ・メイド」の踊りを披露するわ～",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Hehe~ I will perform a little number called \"The Maid's Dance\" for you~",
 						"englishNote": ""
 					},
-					"6": {
+					"9": {
 						"event": "Touch (Special)",
 						"media": "touch_2_2",
 						"chinese": "这样的热情，可是不能称作是浪漫哦？",
 						"chineseTL": "",
 						"chineseNote": "",
-						"japanese": "",
+						"japanese": "こういう情熱はロマンと言わないわよ？",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "This sort of lust is not what romance is about!",
 						"englishNote": ""
 					},
-					"7": {
+					"10": {
 						"event": "Return to Port",
 						"media": "home_2",
 						"chinese": "这个时候……啊，我知道了，到了听取指挥官的烦恼，然后一鼓作气解决问题的时候了吧！",
 						"chineseTL": "",
 						"chineseNote": "",
-						"japanese": "",
+						"japanese": "こういうときは……うん♪指揮官の悩みを聞いて一気に片付けちゃお♪",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "You know what comes next? Mhm! Tell me what's on your mind and your worries will all go away, Commander♪",
 						"englishNote": ""
 					}
 				}
