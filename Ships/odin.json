@@ -39,6 +39,7 @@
 		"pixiv" : "https://www.pixiv.net/member.php?id=2957827",
 		"other" : ""
 	},
+	"class" : "Odin-Class",
 	"enhance": {
 		"firepower" : "0",
 		"torpedo" : "0",
@@ -236,6 +237,19 @@
 			"amount": "-",
 			"preload": "-"
 		}
+	},
+	"fleet_tech": {
+		"pt_get": "48",
+		"add_get_attr": "HP",
+		"add_get_value": "2",
+		"add_get_shiptype": "Battlecruiser,Battleship,Aviation Battleship",
+		"pt_upgrade": "96",
+		"pt_level": "72",
+		"add_level_attr": "Hit",
+		"add_level_value": "1",
+		"add_level_shiptype": "Battlecruiser,Battleship,Aviation Battleship",
+		"t_level": "8",
+		"ships": "odin"
 	},
 	"build": {
 		"light": {
