@@ -39,6 +39,7 @@
 		"pixiv" : "",
 		"other" : ""
 	},
+	"class" : "Cheshire-Class",
 	"enhance": {
 		"firepower" : "0",
 		"torpedo" : "0",
@@ -249,6 +250,19 @@
 			"amount": "-",
 			"preload": "-"
 		}
+	},
+	"fleet_tech": {
+		"pt_get": "17",
+		"add_get_attr": "HP",
+		"add_get_value": "1",
+		"add_get_shiptype": "Heavy Cruiser,Monitor,Super Cruiser",
+		"pt_upgrade": "35",
+		"pt_level": "26",
+		"add_level_attr": "Anti-Air",
+		"add_level_value": "1",
+		"add_level_shiptype": "Heavy Cruiser,Monitor,Super Cruiser",
+		"t_level": "8",
+		"ships": "chesire"
 	},
 	"build": {
 		"light": {
