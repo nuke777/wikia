@@ -50,28 +50,35 @@
 	"skill": {
 		"1": {
 			"icon": "19170",
-			"requirement": "",
+			"requirement": "Default Unlocked",
 			"name": "Kitakaze Style - Horizon Splitter",
 			"type": "Support",
 			"description": "All main gun ammo is not affected by armor type (only applies to main gun). All main gun ammo damage is increased by skill level and when equipping Sakura Empire main guns, increase main gun efficiency by 5-15%"
 		},
 		"2": {
 			"icon": "19180",
-			"requirement": "",
+			"requirement": "Default Unlocked",
 			"name": "Kitakaze Style - Lotus Torpedoes",
 			"type": "Offensive",
-			"description": "When set as the vanguard flagship, launch a special torpedo barrage after 10 seconds into the battle. After hitting with 10 torpedoes, launch a special torpedo barrage"
+			"description": "10s after the start of battle, if this ship is in the frontmost position of your Vanguard: fires a special torpedo barrage (Lv.1 (Lv.10).) After every 10 hits with this ship's Torpedoes (barrage torpedoes do not count): fires this same barrage."
 		},
 		"3": {
+			"icon": "18180",
+			"requirement": "Strengthen Level 35",
+			"name": "Kitakaze Style - Lotus Torpedoes+",
+			"type": "Offensive",
+			"description": "10s after the start of the battle: fires a special torpedo barrage (Lv.1 (Lv.10)) and decreases this ship's DMG taken by 1.5% (6.0%) for 50s. After every 8 hits with this ship's Torpedoes (barrage torpedoes do not count): fires this same barrage."
+		},
+		"4": {
 			"icon": "19000",
-			"requirement": "",
+			"requirement": "Strenghten Level 10 (I) / Level 20 (II) / Level 30 (III)",
 			"name": "Siren Killer Ⅰ",
 			"type": "Offensive",
 			"description": "Increases the DMG this ship deals to Sirens by 5.0%."
 		},
-		"4": {
+		"5": {
 			"icon": "29381",
-			"requirement": "",
+			"requirement": "Strenghten Level 10 (I) / Level 30 (III)",
 			"name": "All Out Assault Ⅰ",
 			"type": "Offensive",
 			"description": "When the main gun attacks 16 times, fire exclusive barrage - Kitakaze II"
@@ -245,7 +252,8 @@
 		"level15": "HP+221 | Anti-Air+18 | Main Gun Efficiency＋10% | Torpedo Preload+1",
 		"level20": "Anti-Air Efficiency+10% | Limit Break ★★★★★☆",
 		"level25": "HP+333 | Anti-Air+27",
-		"level30": "Full Barrage II | All Weapon Efficiency+5% | Limit Break ★★★★★★"
+		"level30": "Full Barrage II | All Weapon Efficiency+5% | Limit Break ★★★★★★",		
+		"level35": "Luck +5, Improve skill \"Kitakaze Style - Lotus Torpedoes\""
 	},
 	"equipmentLoadout": {
 		"1": {

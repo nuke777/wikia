@@ -1,0 +1,679 @@
+{
+	"name_reference" : "champagne",
+	"cn_reference" : "xiangbin",
+	"nameJP" : "シャンパーニュ",
+	"nameCN" : "香槟",
+	"ID" : "P017",
+	"name" : "Champagne",
+	"internal_id" : "899021",
+	"rarity" : "Priority",
+	"initialStar" : "★★★☆☆☆",
+	"hull" : "Battleship",
+	"navy" : "Iris Libre",
+	"prefix" : "FFNF",
+	"buildTime" : "N/A",
+	"voiceActress" : "Lynn",
+	"parameters": {
+		"firepower" : "",
+		"torpedo" : "",
+		"aviation" : "",
+		"evasion" : "",
+		"antiAir" : "",
+		"hp" : ""
+	},
+	"scrap": {
+		"gold" : "11",
+		"oil" : "4",
+		"medal" : "10"
+	},
+	"releaseDate": {
+		"JP" : "July 9, 2020",
+		"CN" : "July 9, 2020",
+		"KR" : "July 9, 2020",
+		"EN" : "July 9, 2020"
+	},
+	"artist": {
+		"name" : "nineo",
+		"weibo" : "https://www.weibo.com/p/1005051869856223",
+		"twitter" : "https://twitter.com/nineeeeeeeeo",
+		"pixiv" : "https://www.pixiv.net/member.php?id=2827978",
+		"other" : ""
+	},
+	"enhance": {
+		"firepower" : "0",
+		"torpedo" : "0",
+		"aviation" : "0",
+		"reload" : "0"
+	},
+	"acquisitionMethod" : "Research and Development",
+	"skill": {
+		"1" : {
+			"icon" : "19350",
+			"requirement" : "Default Unlocked",
+			"name" : "Augmenting Mechanism: Setzer Principle",
+			"type" : "Offensive",
+			"description" : "Decreases the loading time of this ship's Main Guns by 20.0% (40.0%) and fires an additional Lv.1 (Lv.10) barrage along with its primary Salvoes. Every 20s: fires a Lv.1 (Lv.10) special barrage (DMG is based on the skill's level.)"
+		},
+		"2" : {
+			"icon" : "19360",
+			"requirement" : "Default Unlocked",
+			"name" : "Substitute Mechanism: Holy Thurible",
+			"type" : "Support",
+			"description" : "When this ship uses a Main Gun that fires HE ammo: increases its FP by 1.0% (5.0%), AA by 5.0% (15.0%), and increases its HE DMG modifier against enemies with Heavy armor by 5.0% (15.0%); when using one that fires AP: increases this ship's FP by 1.0% (5.0%), RLD by 5.0% (15.0%), and increases its Crit Rate by 5.0% (20.0%). While this ship is above 75.0% HP: absorbs 50.0% of the DMG your Flagship takes (does nothing if this ship is the Flagship); when this ship's HP falls below 75.0%: increases this ship's EVA and Accuracy by 5.0% (15.0%)."
+		},
+		"3" : {
+			"icon" : "19000",
+			"requirement" : "Strenghten Level 10 (I) / Level 20 (II) / Level 30 (III)",
+			"name" : "Siren Killer Ⅰ",
+			"type" : "Offensive",
+			"description" : "Increases this ship's DMG to Sirens by 5.0%."
+		}
+	},
+	"skin": {
+		"1" : {
+			"id" : "xiangbin",
+			"name" : "Champagne",
+			"description" : "Battleship – Champagne. ",
+			"expression" : {
+				"0" : {
+					"id" : "0"
+				},
+				"1" : {
+					"id" : "1"
+				},
+				"2" : {
+					"id" : "2"
+				},
+				"3" : {
+					"id" : "3"
+				},
+				"4" : {
+					"id" : "4"
+				},
+				"5" : {
+					"id" : "5"
+				}
+			}
+		}
+	},
+	"defaultEquipment": {
+		"1" : {
+			"icon" : "",
+			"rarity" : "",
+			"name" : ""
+		},
+		"2" : {
+			"icon" : "",
+			"rarity" : "",
+			"name" : ""
+		},
+		"3" : {
+			"icon" : "",
+			"rarity" : "",
+			"name" : ""
+		}
+	},
+	"stats": {
+		"base": {
+			"hp" : "1170",
+			"firepower" : "88",
+			"torpedo" : "0",
+			"antiAir" : "45",
+			"aviation" : "0",
+			"reload" : "66",
+			"hit" : "26",
+			"evasion" : "10",
+			"speed" : "32",
+			"luck" : "0",
+			"asw" : "0",
+			"oxygen" : "0",
+			"ammo" : "0",
+			"cost" : "5",
+			"armor" : "Medium"
+		},
+		"100": {
+			"hp" : "4235",
+			"firepower" : "412",
+			"torpedo" : "0",
+			"antiAir" : "140",
+			"aviation" : "0",
+			"reload" : "157",
+			"hit" : "68",
+			"evasion" : "25",
+			"speed" : "32",
+			"luck" : "0",
+			"asw" : "0",
+			"oxygen" : "0",
+			"ammo" : "0",
+			"cost" : "16",
+			"armor" : "Medium"
+		},
+		"120": {
+			"hp" : "5082",
+			"firepower" : "454",
+			"torpedo" : "0",
+			"antiAir" : "171",
+			"aviation" : "0",
+			"reload" : "181",
+			"hit" : "77",
+			"evasion" : "36",
+			"speed" : "32",
+			"luck" : "0",
+			"asw" : "0",
+			"oxygen" : "0",
+			"ammo" : "0",
+			"cost" : "16",
+			"armor" : "Medium"
+		},
+		"100retrofit": {
+			"hp" : "",
+			"firepower" : "",
+			"torpedo" : "",
+			"antiAir" : "",
+			"aviation" : "",
+			"reload" : "",
+			"hit" : "",
+			"evasion" : "",
+			"speed" : "32",
+			"luck" : "0",
+			"asw" : "",
+			"oxygen" : "0",
+			"ammo" : "0",
+			"cost" : "16",
+			"armor" : "Medium"
+		},
+		"120retrofit": {
+			"hp" : "",
+			"firepower" : "",
+			"torpedo" : "",
+			"antiAir" : "",
+			"aviation" : "",
+			"reload" : "",
+			"hit" : "",
+			"evasion" : "",
+			"speed" : "32",
+			"luck" : "0",
+			"asw" : "",
+			"oxygen" : "0",
+			"ammo" : "0",
+			"cost" : "16",
+			"armor" : "Medium"
+		}
+	},
+	"strengthenLevel": {
+		"level5": "HP +285/Anti-Air +11/Main gun efficiency +5%/Main gun preload +1",
+		"level10": "Main gun efficiency +5%/Limit Break ★★★★☆☆",
+		"level5": "HP +571/Anti-Air +22/AA gun efficiency +10%",
+		"level20": "Secondary Gun base +2/Main gun efficiency +10%/Limit Break ★★★★★☆",
+		"level5": "HP +856/Anti-Air +33/Main gun efficiency +5%",
+		"level30": "Main gun efficiency +15%/Limit Break ★★★★★★"
+	},
+	"equipmentLoadout": {
+		"1": {
+			"type": "Battleship",
+			"efficiency": "140%/145%/155%/170%",
+			"amount": "1/1/1/1",
+			"preload": "0/1/1/1"
+		},
+		"2": {
+			"type": "Light Cruiser",
+			"efficiency": "200%/200%/200%/200%",
+			"amount": "1/1/3/3",
+			"preload": "0/0/0/0"
+		},
+		"3": {
+			"type": "Anti-Air Gun",
+			"efficiency": "70%/70%/70%/70%",
+			"amount": "1/1/1/1",
+			"preload": "0/0/0/0"
+		},
+		"4": {
+			"type": "Auxilary",
+			"efficiency": "-",
+			"amount": "-",
+			"preload": "-"
+		},
+		"5": {
+			"type": "Auxilary",
+			"efficiency": "-",
+			"amount": "-",
+			"preload": "-"
+		}
+	},
+	"build": {
+		"light": {
+			"JP": "",
+			"CN": "",
+			"EN": ""
+		},
+		"heavy": {
+			"JP": "",
+			"CN": "",
+			"EN": ""
+		},
+		"special": {
+			"JP": "",
+			"CN": "",
+			"EN": ""
+		},
+		"limited": {
+			"JP": "",
+			"CN": "",
+			"EN": ""
+		}
+	},
+	"drop": {
+		"droppable": "false",
+		"list": {
+			"1": {
+				"event": "",
+				"chapter": {
+					"1": {
+						"label": "Ch .1",
+						"node": {
+							"1": {
+								"drop": "✓",
+								"note": "-"
+							}
+						}
+					}
+				}
+			}
+		}
+	},
+	"lines": {
+		"skin": {
+			"1": {
+				"skin_id" : "xiangbin",
+				"id" : "0",
+				"label" : "Champagne",
+				"dialogue" : {
+					"1" : {
+						"event" : "Ship Description",
+						"media" : "",
+						"chinese" : "战列舰——香槟",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "戦艦・香槟",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Battleship – Champagne.",
+						"englishNote" : ""
+					},
+					"2" : {
+						"event" : "Biography",
+						"media" : "profile",
+						"chinese" : "不曾有过使命，不曾有过功名。我本是虚无，却具现于此世。我的指挥官，愿香槟能成为胜者的佳酿。",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "たった一度も命令を預かることはなく、戦果を手にしたこともなし。シャンパーニュは具現されし白き虚無――指揮官に、勝者に奉じる栄光の美酒とならん",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Never have I received orders, nor have I ever accomplished anything. I am merely a blank slate—existing simply to become the delectable champagne presented to thee, the victor.",
+						"englishNote" : ""
+					},
+					"3" : {
+						"event" : "Acquisition",
+						"media" : "get",
+						"chinese" : "自由鸢尾、香槟。指挥官，请给予我使命，请给予我存在的理由。",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "自由アイリス教国に所属する、シャンパーニュの具現なり。指揮官、シャンパーニュに使命・存在意義の提示を",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "I am the personification of Champagne, part of the Iris Libre. Commander, please give me an order—a reason to exist.",
+						"englishNote" : ""
+					},
+					"4" : {
+						"event" : "Login",
+						"media" : "login",
+						"chinese" : "告诉我，你需要的，你期望我做的一切。",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "提示を。指揮官が希求せしめるものを、シャンパーニュが取るべき行動を",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Your orders, Commander. Whatever your will may be, I shall usher into reality.",
+						"englishNote" : ""
+					},
+					"5" : {
+						"event" : "Details",
+						"media" : "detail",
+						"chinese" : "指挥官，告诉我你所追求的终点——是无人能及的丰功伟业，君临世界的顶点，亦或只是经营好属于自己的一隅天地？",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "未曾有の偉業の達成、支配の頂点への君臨、安心する片隅の維持――指揮官が辿ろうとする終着点をシャンパーニュに提示を",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Whether your ambitions leads you into the wilderness of unparalleled achievements, the lofty spires of world domination, or the gardens of peaceful sanctuary, command me as would best serve your will.",
+						"englishNote" : ""
+					},
+					"6" : {
+						"event" : "Main 1",
+						"media" : "main_1",
+						"chinese" : "指挥官，你在思考什么？生存的意义、亦或是…？",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "指揮官、「生きる」行動の意味を見出せんとするか、それとも―",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Commander, art thou pondering the meaning of life? Or perhaps...",
+						"englishNote" : ""
+					},
+					"7" : {
+						"event" : "Main 2",
+						"media" : "main_2",
+						"chinese" : "潮起潮落，浪涌浪跌，此乃自然之理，随波逐流也许正是你我的宿命。",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "引き寄せる潮流は自然の摂理なり、流されるがままはヒトの運命なり",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "The ebb and flow of tides are natural phenomena, and so are the flowing fates of humankind.",
+						"englishNote" : ""
+					},
+					"8" : {
+						"event" : "Main 3",
+						"media" : "main_3",
+						"chinese" : "与这支舰队共存，就是我的使命——是你给予了我这个使命。",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "「艦隊とともに生きる」、シャンパーニュが指揮官から課された使命なり",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "\"Live, together with the fleet.\" Understood. I have received my newest directive from the Commander.",
+						"englishNote" : ""
+					},
+					"9" : {
+						"event" : "Touch",
+						"media" : "touch_1",
+						"chinese" : "互相碰触的温暖…令人难忘。",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "触れ合うことで感じる温度・感触…いと忘れがたし",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "The warmth and sensation of being touched... How exceedingly difficult to forget.",
+						"englishNote" : ""
+					},
+					"10" : {
+						"event" : "Touch (Special)",
+						"media" : "touch_2",
+						"chinese" : "指挥官的所为——是最原始，也最为人忌惮的…冲动。",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "指揮官の行動、非行にして、人を忌避せしめると知れ",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Though your transgression may be slight, such conduct may turn others away from you.",
+						"englishNote" : ""
+					},
+					"11" : {
+						"event" : "Mission",
+						"media" : "task",
+						"chinese" : "不奋力挥舞双翼，便无法触及蓝天。不奋勇滑动双桨，便无法到达彼岸。",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "翼羽ばたかぬオオトリ、空翔けること叶わず。櫂漕がぬハコフネ、彼岸着くこと叶わず",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "The falcon that spreads not its wings cannot reach the sky. The ship that rows not its oars cannot not reach the other shore.",
+						"englishNote" : ""
+					},
+					"12" : {
+						"event" : "Mission Complete",
+						"media" : "mission_complete",
+						"chinese" : "最美的鸢尾花，会绽放在最辛勤的园丁的泥土上。",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "庭師は己が心血を土に注ぎ、アイリスは美しく咲き誇らん",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Only for the gardener whose blood nurtures the soil can the iris bloom in triumphant beauty.",
+						"englishNote" : ""
+					},
+					"13" : {
+						"event" : "Mail",
+						"media" : "mail",
+						"chinese" : "报信人带来了远方的呼唤。是喜？是悲？还是，一如既往？",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "知らせは届く――楽しきかな、悲しきかな。懐かしきかな、空しきかな",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "A notice has arrived. Is it a joyous one, or is it a tragic one? Is it a desirable one, or a hateful one?",
+						"englishNote" : ""
+					},
+					"14" : {
+						"event" : "Return to Port",
+						"media" : "home",
+						"chinese" : "暂时，让脑海里只留下白兰地的醇香吧。世界需要“暂时”，人人都需要“暂时”。",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "酒精にもたらされる酩酊に浸れよ。脳が休憩を必要とし、憩いを求めし者こそヒトなり",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Immerse yourself in the liberating quintessence of wine, for the mind requires reprieve. Man is naught without repose.",
+						"englishNote" : ""
+					},
+					"15" : {
+						"event" : "Commission Complete",
+						"media" : "expedition",
+						"chinese" : "鸟儿们的啼鸣近了——她们要归巢了。",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "伝わるは鳥の調べ――喜び合うる仲間の帰還なり",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "The birds' clarion call... It seems that our comrades have returned to us.",
+						"englishNote" : ""
+					},
+					"16" : {
+						"event" : "Enhancement",
+						"media" : "upgrade",
+						"chinese" : "利刃终会锈蚀，一味追求强大，又有何意义？",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "幾度研がれようとも刃は錆びつく――強さを求める、その行動に意味ありや",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Even the most polished blade must eventually rot. That is to say, there is no point in chasing power.",
+						"englishNote" : ""
+					},
+					"17" : {
+						"event" : "Flagship",
+						"media" : "warcry",
+						"chinese" : "为舰队而战，便是我的使命。",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "艦隊のために戦わん――シャンパーニュに課されし使命なり",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Devote thyself not to the fleet― for that is my solemn charge.",
+						"englishNote" : ""
+					},
+					"18" : {
+						"event" : "Victory",
+						"media" : "mvp",
+						"chinese" : "使命，必须得到践行。",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "シャンパーニュに課された使命、果たすべきものなり",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "I ensure that missions sown shall bear rich fruit.",
+						"englishNote" : ""
+					},
+					"19" : {
+						"event" : "Defeat",
+						"media" : "lose",
+						"chinese" : "此处…还不是终点。",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "終着点はここにあらず",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Our true destination still awaits.",
+						"englishNote" : ""
+					},
+					"20" : {
+						"event" : "Skill",
+						"media" : "skill",
+						"chinese" : "于深邃的蓝色中沉睡吧。",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "深き青に眠れよ",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Sleep in the blue depths of the ocean...",
+						"englishNote" : ""
+					},
+					"21" : {
+						"event" : "Low HP",
+						"media" : "hp",
+						"chinese" : "伤痕，终会成为甲胄。",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "己が体を傷で強固にせん",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "These scars will become my aegis.",
+						"englishNote" : ""
+					},
+					"22" : {
+						"event" : "Affinity (Upset)",
+						"media" : "feeling1",
+						"chinese" : "为何，要给与我虚假的光明？",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "偽りの光を与えんとする――指揮官、何故このような乱心を",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "The hope you brought was but a false light. Why, Commander, must you torment me so?",
+						"englishNote" : ""
+					},
+					"23" : {
+						"event" : "Affinity (Stranger)",
+						"media" : "feeling2",
+						"chinese" : "世界如同平静的巨大湖泊。投以卵石，至多激起些许涟漪，而后终将重归永恒的平静。",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "世界は鏡写されし湖の如く、出来事は小さな石の如し。漣起これど、やがて全て平穏に戻れん",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "This world is the surface of a calm lake— Disturbances may mar the waters with ripples, but peace must return in time.",
+						"englishNote" : ""
+					},
+					"24" : {
+						"event" : "Affinity (Friendly)",
+						"media" : "feeling3",
+						"chinese" : "树木为了抵御风雨而深扎土壤，鱼儿为了种族存续逆流而上。即便知晓己身终归虚无，万物仍会奋力抵抗命运——",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "風に飛ばされまいと木は深く根を張り、種を存続させんと魚は遡上す。無に返される運命を知ってもなお、命ある存在は環境に抗おうとする――",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Trees bury their roots deep into the ground to avoid being blown away, and fish swim upstream to propagate their kind. Though they know they are fated to return to nothingness, living things defy their circumstances to the best of their ability.",
+						"englishNote" : ""
+					},
+					"25" : {
+						"event" : "Affinity (Like)",
+						"media" : "feeling4",
+						"chinese" : "守护舰队必要之武装——装甲、主炮、鱼雷——指挥官皆无法装备。是故，身为舰船的我，才更应履行使命，守护舰队与指挥官。",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "艦隊を守る為に必要とされる兵装――装甲・主砲・魚雷――指揮官には備えつけること叶わず。故に、艦船たるシャンパーニュがこの使命を果たし、艦隊と指揮官を守護せん",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Commander, there is no way for you to wear the rigging—armor, main guns, and torpedoes—that is required to defend the fleet. As I am a ship, I will take on the mission to protect you.",
+						"englishNote" : ""
+					},
+					"26" : {
+						"event" : "Affinity (Love)",
+						"media" : "feeling5",
+						"chinese" : "若无力之人都试图反抗宿命，手握力量之人便更不能袖手旁观。指挥官之光辉、温暖、感情——值得我献上全部保护。",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "力なき者は運命に抗い、力ある者は見守りに徹すべからず。指揮官の輝き、温もり、愛情――シャンパーニュが体を捧げ、「愛」を誓うに値する",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "If those who are powerless resist fate, those with power cannot stand by and do nothing. Commander, your radiance, warmth, and affection—in order to protect all of this, I offer up my body and swear my love.",
+						"englishNote" : ""
+					},
+					"27" : {
+						"event" : "Pledge",
+						"media" : "propose",
+						"chinese" : "即使世界失去言语，我仍会倾听你的呼吸；即便世界失去色彩，我仍会注视你的脸庞。没有任何事物，能将你从我心中抹去分毫。…你给了我心灵的温暖，我会予你永恒的守护。这是…我的意志。",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "言葉が失われようと指揮官の声を聞き、光彩が失われようと指揮官の目を見る。あらゆる存在も、指揮官の存在をかき消すことを能わず。賜った温もりに、永久の守護を以て報いる――シャンパーニュの思いなり",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Even if words stop existing, I will still listen to your voice. Even if the world loses its radiance, I will still look into your eyes. There is nothing in this world that can erase your existence from my heart. The warmth I've received from you, I shall repay with my eternal protection... These are my true feelings.",
+						"englishNote" : ""
+					},
+					"28" : {
+						"event" : "Easter Egg 1(Z46)",
+						"media" : "link1",
+						"chinese" : "只要你想要看见，世界就是五彩的颜色。",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "彩りに瞳開けよう",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Let us open our eyes to this colorful world.",
+						"englishNote" : ""
+					},
+					"29" : {
+						"event" : "Easter Egg 2(Gascogne)",
+						"media" : "link2",
+						"chinese" : "凝视、倾听，这个世界，满溢着感情。",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "世界に耳を傾けよう",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Let us harken, for the world speaks.",
+						"englishNote" : ""
+					},
+					"30" : {
+						"event" : "Like Present",
+						"media" : "present_like",
+						"chinese" : "",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"31" : {
+						"event" : "Dislike Present",
+						"media" : "present_dislike",
+						"chinese" : "",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"32" : {
+						"event" : "Main Title",
+						"media" : "extra",
+						"chinese" : "",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					}
+				}
+			}
+		}
+	}
+}

@@ -50,28 +50,35 @@
 	"skill": {
 		"1": {
 			"icon": "19130",
-			"requirement": "",
+			"requirement": "Default Unlocked",
 			"name": "No-Fly Zone!",
 			"type": "Defensive",
-			"description": "When enemy planes are shot down within the air defense circle, own firepower and anti-air are increased by 5-15% for 8 seconds, does not stack. When 15 enemy planes are shot down, increase firepower by 15% and reload by 20%"
+			"description": "When an enemy aircraft is shot down within your fleet's Anti-Air Gun range: increases this ship's FP and AA by 5.0% (15.0%) for 8s. When your fleet has shot down 15 or more aircraft in one battle: increases this ship's FP by 5.0% (15.0%) and RLD by 10.0% (20.0%) until the end of the battle."
 		},
 		"2": {
+			"icon": "18130",
+			"requirement": "Strengthen Level 35",
+			"name": "No-Fly Zone!+",
+			"type": "Defensive",
+			"description": "When an enemy aircraft is shot down within your fleet's Anti-Air Gun range: increases this ship's FP and AA by 5.0% (15.0%) for 8s; if your Airspace Control of the map is at Parity or higher: this buff's duration extends until the end of the battle, but does not stack. Additionally, when your fleet has shot down 15 or more aircraft in one battle: increases this ship's FP and RLD by 10.0% (20.0%) until the end of the battle."
+		},
+		"3": {
 			"icon": "19140",
-			"requirement": "",
+			"requirement": "Default Unlocked",
 			"name": "Dual Nock",
 			"type": "Support",
 			"description": "When equipping main gun in the secondary weapon slot, increase anti-air efficiency by 5-15%. When equipping anti-air in the secondary weapon slot, increase main-gun efficiency by 5-15%. When in the rear position of the vanguard, reduce damage taken by self by 5-15%"
 		},
-		"3": {
+		"4": {
 			"icon": "19000",
-			"requirement": "",
+			"requirement": "Strenghten Level 10 (I) / Level 20 (II) / Level 30 (III)",
 			"name": "Siren Killer Ⅰ",
 			"type": "Offensive",
 			"description": "Increases the DMG this ship deals to Sirens by 5.0%."
 		},
-		"4": {
+		"5": {
 			"icon": "29391",
-			"requirement": "",
+			"requirement": "Strenghten Level 10 (I) / Level 30 (III)",
 			"name": "All Out Assault Ⅰ",
 			"type": "Offensive",
 			"description": "When the main gun attacks 10 times, fire exclusive barrage - Seattle II"
@@ -141,6 +148,25 @@
 			"id": "xiyatu_3",
 			"name": "Christmas Party Prep!",
 			"description": "Meeeerry Christmas~! Even though the party is about to start, as you can see, I'm still getting ready~ Just gimme a moment, all righty~?",
+			"expression": {
+				"0": {
+					"id": "0"
+				},
+				"1": {
+					"id": "1"
+				},
+				"2": {
+					"id": "2"
+				},
+				"3": {
+					"id": "3"
+				}
+			}
+		},
+		"4": {
+			"id": "xiyatu_4",
+			"name": "Sunfish Spell!",
+			"description": "Supportive sorceress Seattle, comin' in hot! So, something got you down, my good pal? I'm up to talk about whatever's on your mind, but in return, you've gotta come to my party tonight!",
 			"expression": {
 				"0": {
 					"id": "0"
@@ -267,7 +293,8 @@
 		"level15": "HP+451 | Anti-Air+34 | Main Gun Efficiency＋5% ",
 		"level20": "Main Gun Efficiency+10% | CL/DD Gun can be equipped on second slot | Limit Break ★★★★★☆",
 		"level25": "HP+677 | Anti-Air+51 | Main Gun Efficiency＋5%",
-		"level30": "Full Barrage II | Main Gun Efficiency+15% | Limit Break ★★★★★★"
+		"level30": "Full Barrage II | Main Gun Efficiency+15% | Limit Break ★★★★★★",
+		"level35": "Luck +5, Improve skill \"No Fly Zone!\""
 	},
 	"equipmentLoadout": {
 		"1": {
@@ -997,6 +1024,109 @@
 						"japaneseTL": "",
 						"japaneseNote": "",
 						"english": "All righty, that should about do it for the food preparations.",
+						"englishNote": ""
+					}
+				}
+			},
+			"4": {
+				"skin_id": "xiyatu_4",
+				"id": "3",
+				"label": "Sunfish Spell!",
+				"dialogue": {
+					"1": {
+						"event": "Ship Description",
+						"media": "",
+						"chinese": "我是来助人为乐的海之魔女西雅图！好啦，你有什么烦恼吗？无~论什么都可以和我说哦？作为代价——要来参加今天的宴会哦♪",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "お助け魔女のシアトルっす！さては君、なにか困っているのかね？なーんでも相談に乗ってあげるから、代わりに――今日のパーティー、参加してもらうっすよ♪",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Supportive sorceress Seattle, comin' in hot! So, something got you down, my good pal? I'm up to talk about whatever's on your mind, but in return, you've gotta come to my party tonight!",
+						"englishNote": ""
+					},
+					"2": {
+						"event": "Acquisition",
+						"media": "get_3",
+						"chinese": "我是来助人为乐的海之魔女西雅图！好啦，你有什么烦恼吗？无~论什么都可以和我说哦？作为代价——要来参加今天的宴会哦♪",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"3": {
+						"event": "Login",
+						"media": "login_3",
+						"chinese": "指挥官也想试试潜水？好~那就让西雅图来帮你吧！",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"4": {
+						"event": "Details",
+						"media": "detail_3",
+						"chinese": "白天的游戏大赛和晚上的烧烤大会……果然有各种各样的活动才开心嘛！",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"5": {
+						"event": "Touch",
+						"media": "touch_1_3",
+						"chinese": "指挥官，牢牢抓住我的手哦！",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"6": {
+						"event": "Mission",
+						"media": "task_3",
+						"chinese": "新任务！倔强说的“咒语”就是拿来处理这个的吗？",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"7": {
+						"event": "Return to Port",
+						"media": "home_3",
+						"chinese": "放松休息固然重要，不过，正是这种时候才更要认真去照顾大家才行！",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"8": {
+						"event": "Flagship",
+						"media": "warcry_3",
+						"chinese": "可不能继续潜在水里了呢！",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
 						"englishNote": ""
 					}
 				}
