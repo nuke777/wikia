@@ -1,0 +1,924 @@
+{
+	"name_reference" : "hermione",
+	"cn_reference" : "hemin",
+	"nameJP" : "ハーマイオニー",
+	"nameCN" : "赫敏",
+	"ID" : "463",
+	"name" : "Hermione",
+	"internal_id" : "202271",
+	"rarity" : "Super Rare",
+	"initialStar" : "★★★☆☆☆",
+	"hull" : "Light Cruiser",
+	"navy" : "Royal Navy",
+	"prefix" : "HMS",
+	"buildTime" : "",
+	"parameters": {
+		"firepower" : "",
+		"torpedo" : "",
+		"aviation" : "",
+		"evasion" : "",
+		"antiAir" : "",
+		"hp" : ""
+	},
+	"scrap": {
+		"gold" : "6",
+		"oil" : "3",
+		"medal" : "10"
+	},
+	"releaseDate": {
+		"JP" : "July 23, 2020",
+		"CN" : "July 23, 2020",
+		"KR" : "July 23, 2020",
+		"EN" : ""
+	},
+	"artist": {
+		"name" : "",
+		"weibo" : "",
+		"twitter" : "",
+		"pixiv" : "",
+		"other" : ""
+	},
+	"class" : "Dido-Class",
+	"enhance": {
+		"firepower" : "12",
+		"torpedo" : "11",
+		"aviation" : "0",
+		"reload" : "13"
+	},
+	"acquisitionMethod" : "Event : Noctis Borealis",
+	"skill": {
+		"1" : {
+			"icon" : "13460",
+			"requirement" : "Default Unlocked",
+			"name" : "Blast Geminio",
+			"type" : "Offensive",
+			"description" : "Every 15s after battle starts, fire a barrage, when this barrage triggers, if there is no enemy within 30 units, fire an extra special barrage."
+		},
+		"2" : {
+			"icon" : "13470",
+			"requirement" : "Default Unlocked",
+			"name" : "Background Support",
+			"type" : "Support",
+			"description" : "If not the vanguard lead ship, self FP/Torp/AA/Reload increased by 10.0% (20.0%), if there are other HMS ships in fleet, self damage dealt increased by 3.5% (8.0%)."
+		},
+		"3" : {
+			"icon" : "29581",
+			"requirement" : "Limit Break I (III)",
+			"name" : "All Out Assault: Hermione I",
+			"type" : "Offensive",
+			"description" : "Activate All Out Assault: Hermione I once every 15 times the main guns are fired."
+		}
+	},
+	"skin": {
+		"1" : {
+			"id" : "hemin",
+			"name" : "ハーマイオニー",
+			"description" : "ダイドー級軽巡洋艦・ハーマイオニー（HMS Hermione）",
+			"expression" : {
+				"0" : {
+					"id" : "0"
+				},
+				"1" : {
+					"id" : "1"
+				},
+				"2" : {
+					"id" : "2"
+				},
+				"3" : {
+					"id" : "2"
+				},
+				"4" : {
+					"id" : "4"
+				},
+				"5" : {
+					"id" : "5"
+				}
+			}
+		},
+		"2" : {
+			"id" : "hemin_3",
+			"name" : "ピュアホワイトエンジェル",
+			"description" : "あら、指揮官様、どうしてここに…？具合が悪いのですか？大変…こちらにおかけになってくださいね。まず体温を測りますから――",
+			"expression" : {
+				"0" : {
+					"id" : "0"
+				},
+				"1" : {
+					"id" : "1"
+				},
+				"2" : {
+					"id" : "2"
+				},
+				"3" : {
+					"id" : "2"
+				}
+			}
+		},
+		"101" : {
+			"id" : "hemin_ex1100",
+			"name" : "ハーマイオニー",
+			"description" : "ダイドー級軽巡洋艦・ハーマイオニー（HMS Hermione）",
+			"expression" : {
+				"0" : {
+					"id" : "0"
+				}
+			}
+		}
+	},
+	"defaultEquipment": {
+		"1" : {
+			"icon" : "21500",
+			"rarity" : "Common",
+			"name" : "Twin 134mm AA Gun"
+		},
+		"2" : {
+			"icon" : "5000",
+			"rarity" : "",
+			"name" : "Triple 533mm Torpedo"
+		},
+		"3" : {
+			"icon" : "",
+			"rarity" : "",
+			"name" : ""
+		}
+	},
+	"stats": {
+		"base": {
+			"hp" : "647",
+			"firepower" : "29",
+			"torpedo" : "32",
+			"antiAir" : "73",
+			"aviation" : "0",
+			"reload" : "71",
+			"hit" : "55",
+			"evasion" : "28",
+			"speed" : "32",
+			"luck" : "58",
+			"asw" : "46",
+			"oxygen" : "0",
+			"ammo" : "0",
+			"cost" : "3",
+			"armor" : "Light"
+		},
+		"100": {
+			"hp" : "3343",
+			"firepower" : "138",
+			"torpedo" : "150",
+			"antiAir" : "340",
+			"aviation" : "0",
+			"reload" : "168",
+			"hit" : "143",
+			"evasion" : "72",
+			"speed" : "32",
+			"luck" : "58",
+			"asw" : "168",
+			"oxygen" : "0",
+			"ammo" : "0",
+			"cost" : "11",
+			"armor" : "Light"
+		},
+		"120": {
+			"hp" : "3744",
+			"firepower" : "159",
+			"torpedo" : "173",
+			"antiAir" : "381",
+			"aviation" : "0",
+			"reload" : "193",
+			"hit" : "160",
+			"evasion" : "96",
+			"speed" : "32",
+			"luck" : "58",
+			"asw" : "187",
+			"oxygen" : "0",
+			"ammo" : "0",
+			"cost" : "11",
+			"armor" : "Light"
+		},
+		"100retrofit": {
+			"hp" : "",
+			"firepower" : "",
+			"torpedo" : "",
+			"antiAir" : "",
+			"aviation" : "",
+			"reload" : "",
+			"hit" : "",
+			"evasion" : "",
+			"speed" : "32",
+			"luck" : "58",
+			"asw" : "",
+			"oxygen" : "0",
+			"ammo" : "0",
+			"cost" : "11",
+			"armor" : "Light"
+		},
+		"120retrofit": {
+			"hp" : "",
+			"firepower" : "",
+			"torpedo" : "",
+			"antiAir" : "",
+			"aviation" : "",
+			"reload" : "",
+			"hit" : "",
+			"evasion" : "",
+			"speed" : "32",
+			"luck" : "58",
+			"asw" : "",
+			"oxygen" : "0",
+			"ammo" : "0",
+			"cost" : "11",
+			"armor" : "Light"
+		}
+	},
+	"limitBreak": {
+		"tier1": "特殊弾幕スキル習得/主砲補正+5%",
+		"tier2": "魚雷装填数+1/開始時魚雷+1/魚雷補正+10%",
+		"tier3": "特殊弾幕強化/主砲補正+15%"
+	},
+	"equipmentLoadout": {
+		"1": {
+			"type": "Destroyer Gun",
+			"efficiency": "120%/125%/125%/140%",
+			"amount": "1/1/1/1",
+			"preload": "0/0/0/0"
+		},
+		"2": {
+			"type": "Torpedo",
+			"efficiency": "120%/120%/130%/130%",
+			"amount": "1/1/2/2",
+			"preload": "0/0/1/1"
+		},
+		"3": {
+			"type": "Anti-Air Gun",
+			"efficiency": "130%/130%/130%/130%",
+			"amount": "1/1/1/1",
+			"preload": "0/0/0/0"
+		},
+		"4": {
+			"type": "Auxilary",
+			"efficiency": "-",
+			"amount": "-",
+			"preload": "-"
+		},
+		"5": {
+			"type": "Auxilary",
+			"efficiency": "-",
+			"amount": "-",
+			"preload": "-"
+		}
+	},
+	"fleet_tech": {
+		"pt_get": "10",
+		"add_get_attr": "HP",
+		"add_get_value": "1",
+		"add_get_shiptype": "Light Cruiser",
+		"pt_upgrade": "21",
+		"pt_level": "16",
+		"add_level_attr": "Anti-Air",
+		"add_level_value": "2",
+		"add_level_shiptype": "Light Cruiser",
+		"t_level": "6",
+		"ships": "dido,sirius,black_prince,hermione"
+	},
+	"build": {
+		"light": {
+			"JP": "",
+			"CN": "",
+			"EN": ""
+		},
+		"heavy": {
+			"JP": "",
+			"CN": "",
+			"EN": ""
+		},
+		"special": {
+			"JP": "",
+			"CN": "",
+			"EN": ""
+		},
+		"limited": {
+			"JP": "",
+			"CN": "",
+			"EN": ""
+		}
+	},
+	"drop": {
+		"droppable": "false",
+		"list": {
+			"1": {
+				"event": "",
+				"chapter": {
+					"1": {
+						"label": "Ch .1",
+						"node": {
+							"1": {
+								"drop": "✓",
+								"note": "-"
+							}
+						}
+					}
+				}
+			}
+		}
+	},
+	"lines": {
+		"skin": {
+			"1": {
+				"skin_id" : "hemin",
+				"id" : "0",
+				"label" : "ハーマイオニー",
+				"dialogue" : {
+					"1" : {
+						"event" : "Ship Description",
+						"media" : "",
+						"chinese" : "黛朵级轻巡洋舰—赫敏",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "ダイドー級軽巡洋艦・ハーマイオニー（HMS Hermione）",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"2" : {
+						"event" : "Biography",
+						"media" : "profile",
+						"chinese" : "我是皇家黛朵级的赫敏哦~舰历的话…参加过对俾斯麦的追击，还对付过撒丁的潜艇…除此之外，好像也没有什么太值得一提的了呢，还想知道什么吗，指挥官？",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "ロイヤルネイビー所属、ダイドー級のハーマイオニーです。カンレキは…ビスマルク様の追撃戦や、サディアの潜水艦との交戦…これといったものはありませんね。指揮官様、何かご質問はありますか？",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"3" : {
+						"event" : "Acquisition",
+						"media" : "get",
+						"chinese" : "你好呀，我是黛朵级的赫敏，是皇家女仆队的一员，希望我们能够好好相处呢，指挥官。",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "こんにちは、メイド隊のハーマイオニーと申します。これからよろしくお願いしますね、指揮官様",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"4" : {
+						"event" : "Login",
+						"media" : "login",
+						"chinese" : "早上好呀，指挥官。有好好休息过了吗？",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "指揮官様、おはようございます。よくお休みになれましたか？",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"5" : {
+						"event" : "Details",
+						"media" : "detail",
+						"chinese" : "女仆长…贝尔法斯特小姐能力很强，又有着坚定的意志…我很憧憬呢，要是有一天，能成为那样的存在就好了…",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "メイド長さん…ベルファストさんは何でもこなせて、心も強くて…ハーマイオニー、ベルファストさんにすごく憧れているんです。いつかあんな風になれたらいいなあ…",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"6" : {
+						"event" : "Main 1",
+						"media" : "main_1",
+						"chinese" : "用眼过度可不是什么好事哦？来，先洗把脸精神一下吧。",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "張り詰めすぎるのはよくありませんよ？顔でも洗ってリフレッシュしませんか？",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"7" : {
+						"event" : "Main 2",
+						"media" : "main_2",
+						"chinese" : "嗯…最近这些食材的价格好像上涨了一些呢…指挥官，接下来包含这些食材的菜会减少一些哦？",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "この食材、値上がりしましたね…指揮官様、今後の献立ではこの素材を使うものを控えめにしますね",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"8" : {
+						"event" : "Main 3",
+						"media" : "main_3",
+						"chinese" : "看着指挥官顺利解决一个个工作的样子，不知为何连我都变得开心起来了呢…真是不可思议。",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "指揮官がお仕事をこなしている姿を見ていると、ハーマイオニーもいい気分になります…なんででしょう…？",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"9" : {
+						"event" : "Touch",
+						"media" : "touch_1",
+						"chinese" : "碳酸饮料？唔，真是没办法呢，今天只能喝一瓶哦？",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "炭酸のお飲み物ですか？…しょうがありませんね、今日は一本までですよ？",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"10" : {
+						"event" : "Touch (Special)",
+						"media" : "touch_2",
+						"chinese" : "做这种事还是要注意一下场合哦？",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "こういうことは、シチュエーションに気を使っていただいたほうがいいですよ？",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"11" : {
+						"event" : "Mission",
+						"media" : "task",
+						"chinese" : "指挥官，任务不做的话只会越来越多哦？",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "指揮官様、お仕事は片付けない限り増えていくだけですよ？",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"12" : {
+						"event" : "Mission Complete",
+						"media" : "mission_complete",
+						"chinese" : "哇，任务奖励还不少呢，指挥官真厉害~",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "任務報酬、たくさんありますね。指揮官様、おめでとうございます！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"13" : {
+						"event" : "Mail",
+						"media" : "mail",
+						"chinese" : "指挥官，这是你的邮件吧？我放在这里了哦。",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "指揮官様へのメールでしょうか…？すみません、ここに置いておきますね",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"14" : {
+						"event" : "Return to Port",
+						"media" : "home",
+						"chinese" : "指挥官，接下来禁止工作了哦？你需要先好好休息一下才行呢。",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "指揮官様、しばらくお仕事禁止ですよ？しっかり休憩をとっていただかないと",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"15" : {
+						"event" : "Commission Complete",
+						"media" : "expedition",
+						"chinese" : "指挥官，手边的工作先放一放，去迎接回来的委托组吧。",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "指揮官様、執務室での仕事はひとまず置いておいて、委託から戻ってきた皆様を出迎えに行きましょう",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"16" : {
+						"event" : "Enhancement",
+						"media" : "upgrade",
+						"chinese" : "咦，我变强了吗？",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "あら、強くなりました？",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"17" : {
+						"event" : "Flagship",
+						"media" : "warcry",
+						"chinese" : "发现敌人咯~",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "敵、発見しました～",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"18" : {
+						"event" : "Victory",
+						"media" : "mvp",
+						"chinese" : "指挥官一定也会很高兴吧~",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "指揮官様もきっとお喜びになるでしょう～",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"19" : {
+						"event" : "Defeat",
+						"media" : "lose",
+						"chinese" : "哎呀呀，失败了呢…",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "哎あらら、失敗しちゃった……",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"20" : {
+						"event" : "Skill",
+						"media" : "skill",
+						"chinese" : "能命中就好了呢~",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "当たればいいですね～",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"21" : {
+						"event" : "Low HP",
+						"media" : "hp",
+						"chinese" : "有些大意了呢…",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "油断しちゃいましたね…",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"22" : {
+						"event" : "Affinity (Upset)",
+						"media" : "feeling1",
+						"chinese" : "指挥官…为什么这么顽固呢…",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "指揮官様、どうしてそんなに頭が固いのでしょうか…",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"23" : {
+						"event" : "Affinity (Stranger)",
+						"media" : "feeling2",
+						"chinese" : "黛朵…很害怕失去主人呢，她那么努力，又那么能干，指挥官怎么可能讨厌她呢…不过我说了多少次都没用…还是要麻烦指挥官多照顾她一些了呢。",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "ダイドーちゃんは…心配しすぎじゃないでしょうか？あんなに努力していますし、指揮官様に嫌われるなんてないと思いますが…指揮官様、ダイドーちゃんのことをもっと見てあげてくださいね",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"24" : {
+						"event" : "Affinity (Friendly)",
+						"media" : "feeling3",
+						"chinese" : "指挥官，你今天打算加班吗？这样的话，我稍后准备一壶咖啡带去办公室吧。欸？没关系，不麻烦的。即使没有要交给我的工作，只是在你身边陪着你也好呀~",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "指揮官様、今日は残業なさるのですか？でしたらコーヒーを持ってきますね。……んー別に手間なんてほどではありませんよ？手伝える仕事がなくても側にいるのがメイドですから",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"25" : {
+						"event" : "Affinity (Like)",
+						"media" : "feeling4",
+						"chinese" : "指挥官，要是不介意的话，把你的换洗衣服也交给我来洗吧，一起洗比较方便，而且，也想让你感受一下手洗的衣服呢~",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "指揮官様、差し支えなければお洗濯のほうもハーマイオニーにまかせていただけますでしょうか。お洋服は一緒に洗濯したほうが手間かかりませんし、指揮官様にメイド隊の手洗いはどんな感じか知っていただきたくて♪",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"26" : {
+						"event" : "Affinity (Love)",
+						"media" : "feeling5",
+						"chinese" : "呼…房间这样就算打扫完毕了，接下来…啊，你回来了呀，那我就先开始做饭吧，请先做点别的什么事等一下吧~",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "ふぅ…部屋のお掃除はこれでオッケー、と。次は…あ、おかえりなさいませ。すぐお食事を用意しますから、少しお待ちくださいね、指揮官様",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"27" : {
+						"event" : "Pledge",
+						"media" : "propose",
+						"chinese" : "希望我永远留在身边？可以哦，照顾指挥官本来就是我的职责呢。……欸，难道说，这是告白吗？……嗯，我的回答，依然是——yes哦。从今往后，也请多多指教了，指挥官~",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "ハーマイオニーにずっとそばにいてほしい、ですか…？もちろんです。指揮官様のお世話をするのはハーマイオニーのお仕事ですから。あっ、もしかしてこれは告白というものですか…？ええ、もちろんですよ。指揮官様、これからもよろしくお願いいたしますね",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"28" : {
+						"event" : "Easter Egg 1(Dido)",
+						"media" : "link1",
+						"chinese" : "黛朵，不要太烦恼啦",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "ダイドーちゃん、悩み過ぎはよくありませんよ",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"29" : {
+						"event" : "Easter Egg 2(Belfast)",
+						"media" : "link2",
+						"chinese" : "我会好好向您学习的！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "ベルファストさん、色々見習わせてください！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"30" : {
+						"event" : "Like Present",
+						"media" : "present_like",
+						"chinese" : "",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"31" : {
+						"event" : "Dislike Present",
+						"media" : "present_dislike",
+						"chinese" : "",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"32" : {
+						"event" : "Main Title",
+						"media" : "extra",
+						"chinese" : "",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					}
+				}
+			},
+			"2": {
+				"skin_id" : "hemin_3",
+				"id" : "1",
+				"label" : "ピュアホワイトエンジェル",
+				"dialogue" : {
+					"1" : {
+						"event" : "Ship Description",
+						"media" : "",
+						"chinese" : "哎呀，指挥官，你怎么来这里了，难道是身体不舒服吗？来这边坐好，我先来给你测量一下体温吧。",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "あら、指揮官様、どうしてここに…？具合が悪いのですか？大変…こちらにおかけになってくださいね。まず体温を測りますから――",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"2" : {
+						"event" : "Acquisition",
+						"media" : "get_1",
+						"chinese" : "哎呀，指挥官，你怎么来这里了，难道是身体不舒服吗？来这边坐好，我先来给你测量一下体温吧。",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "あら、指揮官様、どうしてここに…？具合が悪いのですか？大変…こちらにおかけになってくださいね。まず体温を測りますから――",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"3" : {
+						"event" : "Login",
+						"media" : "login_1",
+						"chinese" : "指挥官，你怎么又来了，啊，是来…视察的吗？",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "ん？指揮官様どうしてまたここに…？ええと、ご視察…ですか？",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"4" : {
+						"event" : "Details",
+						"media" : "detail_1",
+						"chinese" : "就算是舰船也是会生病的呢…指挥官也要注意自己的身体哦？",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "艦船も病気になりますから…指揮官様、お体は大事になさってくださいね",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"5" : {
+						"event" : "Main 1",
+						"media" : "main_1_1",
+						"chinese" : "指挥官，装病的话我可是会生气的哦？",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "もう指揮官様？仮病はハーマイオニーでも怒りますよ？",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"6" : {
+						"event" : "Main 2",
+						"media" : "main_2_1",
+						"chinese" : "指挥官，你不觉得这件衣服稍微有些小吗…唔唔，我穿的稍微有些不习惯呢…",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "指揮官様、この衣装少しサイズが小さいと思いませんか…？いえ…ちょっと着こなせていない気が……",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"7" : {
+						"event" : "Main 3",
+						"media" : "main_3_1",
+						"chinese" : "指挥官，平时不注意作息健康是很容易得病的哦，就算是我，也不可能每时每刻在你身边呢",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "指揮官様、ご自分でも普段から養生に気を使わないと。ハーマイオニーは四六時中は側にいてサポートしてあげられませんからね",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"8" : {
+						"event" : "Touch",
+						"media" : "touch_1_1",
+						"chinese" : "指挥官，来这边躺下吧，我先为您做一些检查",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "指揮官様、こちらに横になってくださいね。健康診断をさせていだきます",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"9" : {
+						"event" : "Touch (Special)",
+						"media" : "touch_2_1",
+						"chinese" : "指挥官…想当医生吗？",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "お医者さんごっこ…ですか？",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"10" : {
+						"event" : "Return to Port",
+						"media" : "home_1",
+						"chinese" : "指挥官，稍等一会哦，我先给这孩子做个检查…",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "指揮官様、ちょっと待ってくださいね。今はこの子の検査を……",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					}
+				}
+			},
+			"101": {
+				"skin_id" : "hemin_ex1100",
+				"id" : "0",
+				"label" : "ハーマイオニー",
+				"dialogue" : {
+					"1" : {
+						"event" : "Login",
+						"media" : "login_ex1100",
+						"chinese" : "早上好呀，指挥官，看你睡得熟我就没叫醒你，今天也一起加油工作吧~",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "おはようございます指揮官様。ぐっすりお眠りになられていましたので起こしませんでした、ふふふ。今日も一日頑張りましょう",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"2" : {
+						"event" : "Main 1",
+						"media" : "main_1_ex1100",
+						"chinese" : "指挥官，请坐好，然后闭上眼睛。我来给你做个皇家式的脸部按摩吧~",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "指揮官様、こちらに横になってください。ふふふ、ロイヤル式のフェイスマッサージをして差し上げます",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"3" : {
+						"event" : "Main 3",
+						"media" : "main_3_ex1100",
+						"chinese" : "像这样和指挥官一起解决掉一个个的工作，真是让人感到无比开心的事情呢~",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "指揮官様と一緒に仕事をこなしていく感じ…とても楽しいです。はい♪",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"4" : {
+						"event" : "Touch",
+						"media" : "touch_1_ex1100",
+						"chinese" : "碳酸饮料？唔，真是没办法呢，今天只能再喝一瓶哦？",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "炭酸のお飲み物ですか？…しょうがありませんね、あと一本だけですよ？",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"5" : {
+						"event" : "Touch (Special)",
+						"media" : "touch_2_ex1100",
+						"chinese" : "真是的，唯有在这点上永远学不乖呢…",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "もう、いつまでも変わらないんですから……",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"6" : {
+						"event" : "Affinity (Love)",
+						"media" : "feeling5_ex1100",
+						"chinese" : "♪～房间打扫完毕，接下来是…啊，你回来了呀，指挥官。我马上给你做饭，稍微等一下就好~",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "♪～部屋のお掃除はよし、次は…おかえりなさいませ指揮官様。お食事を用意しますから、ちょっとだけ待っていてくださいね",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					}
+				}
+			}
+		}
+	}
+}

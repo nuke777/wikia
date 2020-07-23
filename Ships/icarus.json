@@ -1,0 +1,934 @@
+{
+	"name_reference" : "icarus",
+	"cn_reference" : "yikaluosi",
+	"nameJP" : "イカルス",
+	"nameCN" : "伊卡洛斯",
+	"ID" : "465",
+	"name" : "Icarus",
+	"internal_id" : "201331",
+	"rarity" : "Elite",
+	"initialStar" : "★★☆☆☆",
+	"hull" : "Destroyer",
+	"navy" : "Royal Navy",
+	"prefix" : "HMS",
+	"buildTime" : "",
+	"voiceActress" : "Yuuki Takada",
+	"parameters": {
+		"firepower" : "",
+		"torpedo" : "",
+		"aviation" : "",
+		"evasion" : "",
+		"antiAir" : "",
+		"hp" : ""
+	},
+	"scrap": {
+		"gold" : "4",
+		"oil" : "3",
+		"medal" : "4"
+	},
+	"releaseDate": {
+		"JP" : "July 23, 2020",
+		"CN" : "July 23, 2020",
+		"KR" : "July 23, 2020",
+		"EN" : ""
+	},
+	"artist": {
+		"name" : "ALLENES",
+		"weibo" : "https://weibo.com/u/3818062182",
+		"twitter" : "https://twitter.com/CN_ALLENES",
+		"pixiv" : "https://www.pixiv.net/member.php?id=8217405",
+		"other" : ""
+	},
+	"class" : "I-Class",
+	"enhance": {
+		"firepower" : "5",
+		"torpedo" : "23",
+		"aviation" : "0",
+		"reload" : "14"
+	},
+	"acquisitionMethod" : "Event : Noctis Borealis",
+	"skill": {
+		"1" : {
+			"icon" : "13480",
+			"requirement" : "Default Unlocked",
+			"name" : "全弾発射・火力制圧です！",
+			"type" : "Offensive",
+			"description" : "5s after battle starts, fire a barrage, 40.0% (70.0%) chance to trigger again every 30s after battle starts."
+		},
+		"2" : {
+			"icon" : "13490",
+			"requirement" : "Default Unlocked",
+			"name" : "Focused Torpedos ",
+			"type" : "Defensive",
+			"description" : "At the start of battle and every 20s after, reduce self torp damage taken by 6.0% (20.0%) and modify self torp firing patterns for 10s."
+		},
+		"3" : {
+			"icon" : "21026",
+			"requirement" : "Limit Break I (III)",
+			"name" : "All Out Assault: I-Class I",
+			"type" : "Offensive",
+			"description" : "Activate All Out Assault: I-Class I once every 15 times the main guns are fired."
+		}
+	},
+	"skin": {
+		"1" : {
+			"id" : "yikaluosi",
+			"name" : "イカルス",
+			"description" : "I級駆逐艦・イカルス",
+			"expression" : {
+				"0" : {
+					"id" : "0"
+				},
+				"1" : {
+					"id" : "1"
+				},
+				"2" : {
+					"id" : "2"
+				},
+				"3" : {
+					"id" : "2"
+				},
+				"4" : {
+					"id" : "4"
+				}
+			}
+		},
+		"2" : {
+			"id" : "yikaluosi_3",
+			"name" : "医療施設体験週？",
+			"description" : "母港の医療施設の稼働演習！だそうですけど、やっぱりちょっと変な感じですね…なんというかわたし、世話を焼かれるより焼くほうですから…",
+			"expression" : {
+				"0" : {
+					"id" : "0"
+				},
+				"1" : {
+					"id" : "1"
+				},
+				"2" : {
+					"id" : "2"
+				},
+				"3" : {
+					"id" : "2"
+				},
+				"4" : {
+					"id" : "4"
+				},
+				"5" : {
+					"id" : "5"
+				},
+				"6" : {
+					"id" : "6"
+				},
+				"7" : {
+					"id" : "7"
+				}
+			}
+		},
+		"101" : {
+			"id" : "yikaluosi_ex1100",
+			"name" : "イカルス",
+			"description" : "I級駆逐艦・イカルス",
+			"expression" : {
+				"0" : {
+					"id" : "0"
+				}
+			}
+		}
+	},
+	"defaultEquipment": {
+		"1" : {
+			"icon" : "21300",
+			"rarity" : "",
+			"name" : "Single 120mm Main Gun"
+		},
+		"2" : {
+			"icon" : "5200",
+			"rarity" : "Rare",
+			"name" : "Quintuple 533mm Torpedo"
+		},
+		"3" : {
+			"icon" : "",
+			"rarity" : "",
+			"name" : ""
+		}
+	},
+	"stats": {
+		"base": {
+			"hp" : "269",
+			"firepower" : "15",
+			"torpedo" : "71",
+			"antiAir" : "29",
+			"aviation" : "0",
+			"reload" : "76",
+			"hit" : "71",
+			"evasion" : "78",
+			"speed" : "42.6",
+			"luck" : "70",
+			"asw" : "53",
+			"oxygen" : "0",
+			"ammo" : "0",
+			"cost" : "2",
+			"armor" : "Light"
+		},
+		"100": {
+			"hp" : "1391",
+			"firepower" : "69",
+			"torpedo" : "335",
+			"antiAir" : "136",
+			"aviation" : "0",
+			"reload" : "180",
+			"hit" : "185",
+			"evasion" : "203",
+			"speed" : "42.6",
+			"luck" : "70",
+			"asw" : "193",
+			"oxygen" : "0",
+			"ammo" : "0",
+			"cost" : "9",
+			"armor" : "Light"
+		},
+		"120": {
+			"hp" : "1669",
+			"firepower" : "79",
+			"torpedo" : "376",
+			"antiAir" : "157",
+			"aviation" : "0",
+			"reload" : "207",
+			"hit" : "194",
+			"evasion" : "210",
+			"speed" : "42.6",
+			"luck" : "70",
+			"asw" : "213",
+			"oxygen" : "0",
+			"ammo" : "0",
+			"cost" : "9",
+			"armor" : "Light"
+		},
+		"100retrofit": {
+			"hp" : "",
+			"firepower" : "",
+			"torpedo" : "",
+			"antiAir" : "",
+			"aviation" : "",
+			"reload" : "",
+			"hit" : "",
+			"evasion" : "",
+			"speed" : "42.6",
+			"luck" : "70",
+			"asw" : "",
+			"oxygen" : "0",
+			"ammo" : "0",
+			"cost" : "9",
+			"armor" : "Light"
+		},
+		"120retrofit": {
+			"hp" : "",
+			"firepower" : "",
+			"torpedo" : "",
+			"antiAir" : "",
+			"aviation" : "",
+			"reload" : "",
+			"hit" : "",
+			"evasion" : "",
+			"speed" : "42.6",
+			"luck" : "70",
+			"asw" : "",
+			"oxygen" : "0",
+			"ammo" : "0",
+			"cost" : "9",
+			"armor" : "Light"
+		}
+	},
+	"limitBreak": {
+		"tier1": "全弾発射スキル習得/主砲補正+5%",
+		"tier2": "魚雷装填数+1/開始時魚雷+1/主砲補正+10%",
+		"tier3": "全弾発射弾幕強化/武器補正+5%"
+	},
+	"equipmentLoadout": {
+		"1": {
+			"type": "Destroyer Gun",
+			"efficiency": "100%/105%/115%/120%",
+			"amount": "1/1/1/1",
+			"preload": "0/0/0/0"
+		},
+		"2": {
+			"type": "Torpedo",
+			"efficiency": "140%/140%/140%/145%",
+			"amount": "1/1/2/2",
+			"preload": "0/0/1/1"
+		},
+		"3": {
+			"type": "Anti-Air Gun",
+			"efficiency": "95%/95%/95%/100%",
+			"amount": "1/1/1/1",
+			"preload": "0/0/0/0"
+		},
+		"4": {
+			"type": "Auxilary",
+			"efficiency": "-",
+			"amount": "-",
+			"preload": "-"
+		},
+		"5": {
+			"type": "Auxilary",
+			"efficiency": "-",
+			"amount": "-",
+			"preload": "-"
+		}
+	},
+	"fleet_tech": {
+		"pt_get": "5",
+		"add_get_attr": "HP",
+		"add_get_value": "1",
+		"add_get_shiptype": "Destroyer",
+		"pt_upgrade": "11",
+		"pt_level": "8",
+		"add_level_attr": "ASW",
+		"add_level_value": "1",
+		"add_level_shiptype": "Destroyer",
+		"t_level": "4",
+		"ships": "icarus"
+	},
+	"build": {
+		"light": {
+			"JP": "",
+			"CN": "",
+			"EN": ""
+		},
+		"heavy": {
+			"JP": "",
+			"CN": "",
+			"EN": ""
+		},
+		"special": {
+			"JP": "",
+			"CN": "",
+			"EN": ""
+		},
+		"limited": {
+			"JP": "",
+			"CN": "",
+			"EN": ""
+		}
+	},
+	"drop": {
+		"droppable": "false",
+		"list": {
+			"1": {
+				"event": "",
+				"chapter": {
+					"1": {
+						"label": "Ch .1",
+						"node": {
+							"1": {
+								"drop": "✓",
+								"note": "-"
+							}
+						}
+					}
+				}
+			}
+		}
+	},
+	"lines": {
+		"skin": {
+			"1": {
+				"skin_id" : "yikaluosi",
+				"id" : "0",
+				"label" : "イカルス",
+				"dialogue" : {
+					"1" : {
+						"event" : "Ship Description",
+						"media" : "",
+						"chinese" : "I级驱逐舰—伊卡洛斯",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "I級駆逐艦・イカルス",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"2" : {
+						"event" : "Biography",
+						"media" : "profile",
+						"chinese" : "说到经历的话…我曾经为胡德和厌战护航过，然后…对反潜作战多少有些心得吧？也算去过各种地方，参与过不少任务，可以说有丰富的经验了？呵呵~所以，无论是战斗上还是生活中，都尽管把事情交给伊卡洛斯吧~",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "カンレキといえば…フッドさんとウォースパイトさんの護衛と、対潜作戦ですね…まあ色んな海に行って色んな戦いに参加して、ちょっとだけ経験が多いってところかな？というわけで、戦いでもなんでも、イカルスにお任せくださいね！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"3" : {
+						"event" : "Acquisition",
+						"media" : "get",
+						"chinese" : "你好，指挥官，我是皇家I级驱逐舰伊卡洛斯，擅长的是护航作战和反潜作战。接下来的日子请您多多指教了哦。",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "指揮官、こんにちは、ロイヤルIクラス駆逐艦のイカルスです。護衛作戦、対潜作戦が得意です。これからよろしくお願いしますね",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"4" : {
+						"event" : "Login",
+						"media" : "login",
+						"chinese" : "指挥官来了？嗯，需要的资料都给您摆在桌上了。茶水一会就给你端过来，请安心工作吧。",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "指揮官、今来ました？ふふ、資料は机の上です。お茶もすぐにお持ちしますので、お仕事始めててくださいね",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"5" : {
+						"event" : "Details",
+						"media" : "detail",
+						"chinese" : "指挥官换洗的衣服…明天三餐的准备…然后还有……啊，指挥官什么时候来的？…嗯？没什么，只是在做一些日常的筹备工作而已~",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "今度指揮官が着る服に、明日の献立は……あ、指揮官、いつ来ました？…なんでもありませんよ。いつもの準備です♪",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"6" : {
+						"event" : "Main 1",
+						"media" : "main_1",
+						"chinese" : "指挥官要出门的话先跟我说一声哦，我根据天气帮你准备下东西，雨伞还是外套什么的",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "指指揮官、出かける前に声をかけてください！傘でもコートでもなんでも用意しますよ",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"7" : {
+						"event" : "Main 2",
+						"media" : "main_2",
+						"chinese" : "爱斯基摩人…好像想找人玩的样子呢…指挥官先专心工作，我帮她联系几个小伙伴。…嗯，阿贝克隆比应该挺合适的",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "エスキモー、構って欲しそうな顔をしていますね…指揮官はお仕事に集中してください、あの子はわたしがなんとかしてみます。…そうです、アバークロンビーちゃんを呼びましょう！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"8" : {
+						"event" : "Main 3",
+						"media" : "main_3",
+						"chinese" : "驱逐果然还是有极限的呢，要是能有更大的炮管和更多的鱼雷………啊，只是一点自言自语，请不要在意(///",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "駆逐艦だとやっぱり限界がありますね…もっとこう大口径砲とか魚雷とかガンガン積めれば……あっ、今のは独り言です！気にしないでくださいっ！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"9" : {
+						"event" : "Touch",
+						"media" : "touch_1",
+						"chinese" : "有什么要我做的事情吗？",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "わたしに任せたいことはありますか？",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"10" : {
+						"event" : "Touch (Special)",
+						"media" : "touch_2",
+						"chinese" : "这、这种事情果然还是…(///",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "こ、こういうのはですね……////",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"11" : {
+						"event" : "Rub",
+						"media" : "touch_head",
+						"chinese" : "嘻嘻…这样的…我不讨厌哦？",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "ふふふ、嫌いではありませんよ？こういうの",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"12" : {
+						"event" : "Mission",
+						"media" : "task",
+						"chinese" : "有新的任务下发了，打起精神来完成吧！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "新しい任務です。気を引き締めましょう！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"13" : {
+						"event" : "Mission Complete",
+						"media" : "mission_complete",
+						"chinese" : "完成任务了呢，指挥官真棒~",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "任務が完了しました！指揮官、よかったですね！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"14" : {
+						"event" : "Mail",
+						"media" : "mail",
+						"chinese" : "新邮件帮您整理好了~要给你拿过来吗？",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "新しいメールを整理しました！持ってきてもいいですか？",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"15" : {
+						"event" : "Return to Port",
+						"media" : "home",
+						"chinese" : "欢迎回来，指挥官，您不在的时候，我都把房间打扫过了哦~欸？夸奖什么的…不用那么客气的~",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "おかえりなさい指揮官。出撃の間に部屋を片付けておきましたよ。…褒めていただくなんてとんでもありません！全然大したことしてないですよ！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"16" : {
+						"event" : "Commission Complete",
+						"media" : "expedition",
+						"chinese" : "指挥官，需要我去迎接委托组的同伴们吗？",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "指揮官、委託組のみんなをわたしが代わりに出迎えに行って来てもいいですか？",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"17" : {
+						"event" : "Enhancement",
+						"media" : "upgrade",
+						"chinese" : "这样就能发射更多的火力、咳咳…就能更好地帮助指挥官了~",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "んん～これで火力マシマシ…じゃなくて、もっと指揮官のお役に立てられますね！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"18" : {
+						"event" : "Flagship",
+						"media" : "warcry",
+						"chinese" : "好…！接下来要火力全开了哦！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "よし…！次は全弾発射ですね！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"19" : {
+						"event" : "Victory",
+						"media" : "mvp",
+						"chinese" : "胜利了~这都多亏了指挥官~",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "勝ちました！指揮官のおかげです！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"20" : {
+						"event" : "Defeat",
+						"media" : "lose",
+						"chinese" : "如果刚才能再来一次鱼雷齐射的话…",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "魚雷斉射をもう一回行えていればなぁ……",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"21" : {
+						"event" : "Skill",
+						"media" : "skill",
+						"chinese" : "装填完毕…！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "装填完了…っと！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"22" : {
+						"event" : "Low HP",
+						"media" : "hp",
+						"chinese" : "鱼雷还没准备好么…唔…伊卡洛斯，再坚持一下！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "魚雷はまだですか…ちょっとなら持ちこたえられます…！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"23" : {
+						"event" : "Affinity (Upset)",
+						"media" : "feeling1",
+						"chinese" : "唔…再这样下去，就只有伊卡洛斯会愿意陪在指挥官身边了…",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "…このままでは、指揮官をそばで見守り続けたいと思ってるのはイカルスだけになっちゃいそうですね…",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"24" : {
+						"event" : "Affinity (Stranger)",
+						"media" : "feeling2",
+						"chinese" : "指挥官，还有港区的伙伴们，都是伊卡洛斯应当守护的重要存在。所以，对于想伤害大家的敌人，火力全开，迅速消灭是理所当然的哦。",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "指揮官と母港の仲間たちはイカルスが守るべき存在です。みんなを傷つける敵は火力全開でパーッとぶっ倒すべし！ですよ",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"25" : {
+						"event" : "Affinity (Friendly)",
+						"media" : "feeling3",
+						"chinese" : "指挥官最近是不是有点努力过头了…？要注意适当的休息哦。一口气飞得太快太高的话，可是会被太阳融掉翅膀，掉到海里死掉的哦？…嗯？这个好像是哪里看到过的传说故事的情节呢",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "指揮官は最近、頑張りすぎではありません？…休むときはちゃんと休んでくださいね、太陽まで飛ぼうとしても、翼が熔けたら落ちちゃいますよ？……ん？何を言っていましたの、わたし…",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"26" : {
+						"event" : "Affinity (Like)",
+						"media" : "feeling4",
+						"chinese" : "呼…最近陪在指挥官身边的时间越来越长了呢，照顾指挥官也已经变成了习惯的一部分…难道，反而是伊卡洛斯对指挥官产生依赖性了？",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "んー指揮官のそばにいると、指揮官の代わりになんでもしてあげたくなるんですよね……もしかしてイカルス、指揮官から離れられなくなったりして……？",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"27" : {
+						"event" : "Affinity (Love)",
+						"media" : "feeling5",
+						"chinese" : "指挥官，就好像太阳一样呢。仅仅存在于那里，就能让人感到温暖。但是太过靠近的话，又让人有些害怕，会不会被过于强烈的光热吞没……指挥官，我可以…更靠近你一点吗？",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "「君という太陽は、そこにいるだけで暖かく感じる。君という太陽は、近づこうとすると、飲み込まれるのではないかと怖くなる――」指揮官、もう少し…近くに寄っても大丈夫ですか？",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"28" : {
+						"event" : "Pledge",
+						"media" : "propose",
+						"chinese" : "原来，正如我对指挥官一样，指挥官也觉得离不开我了吗？嘻嘻…我很高兴。接下来的生活，各种事情也请指挥官…继续多多指教了哦？",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "わたしが指揮官から離れないように、指揮官もわたしから離れなくなりましたね？嬉しいです！これからも、色々と…お願いしますね♪",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"29" : {
+						"event" : "Easter Egg 1(Hood)",
+						"media" : "link1",
+						"chinese" : "这次不会与您错过了！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "フッド様、今回はしっかりお守りします！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"30" : {
+						"event" : "Easter Egg 2(Warspite)",
+						"media" : "link2",
+						"chinese" : "又能一起作战了呢~",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "またご一緒になりましたね！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"31" : {
+						"event" : "Like Present",
+						"media" : "present_like",
+						"chinese" : "",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"32" : {
+						"event" : "Dislike Present",
+						"media" : "present_dislike",
+						"chinese" : "",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"33" : {
+						"event" : "Main Title",
+						"media" : "extra",
+						"chinese" : "",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					}
+				}
+			},
+			"2": {
+				"skin_id" : "yikaluosi_3",
+				"id" : "1",
+				"label" : "医療施設体験週？",
+				"dialogue" : {
+					"1" : {
+						"event" : "Ship Description",
+						"media" : "",
+						"chinese" : "虽然说是配合港区医院进行的特别演习…还是感觉有些奇怪…啊哈哈…比起被人照顾，感觉我应该更适合当照顾人的那边呢……",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "母港の医療施設の稼働演習！だそうですけど、やっぱりちょっと変な感じですね…なんというかわたし、世話を焼かれるより焼くほうですから…",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"2" : {
+						"event" : "Acquisition",
+						"media" : "get_1",
+						"chinese" : "虽然说是配合港区医院进行的特别演习…还是感觉有些奇怪…啊哈哈…比起被人照顾，感觉我应该更适合当照顾人的那边呢……",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "母港の医療施設の稼働演習！だそうですけど、やっぱりちょっと変な感じですね…なんというかわたし、世話を焼かれるより焼くほうですから…",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"3" : {
+						"event" : "Login",
+						"media" : "login_1",
+						"chinese" : "啊，指挥官来探望我了吗？伊卡洛斯很精神，没什么事的~",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "指揮官、お見舞いですか？こう見えてもイカルスはバッチリ健康ですよ～",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"4" : {
+						"event" : "Details",
+						"media" : "detail_1",
+						"chinese" : "应该换洗的衣服，日常用品，都提前帮指挥官准备好了。伊卡洛斯在这边的时候，你要照顾好自己哦？",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "着替えと日用品、全部予め準備しましたよ。イカルスがここで演習に参加している間に不摂生な生活を送らないでくださいね？",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"5" : {
+						"event" : "Main 1",
+						"media" : "main_1_1",
+						"chinese" : "像这样坐在医院房间里，看着窗外的风景，不知怎么的，就有种微妙的心情涌上心头呢…",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "こうして病室で外の風景を眺めると、なんだか微妙な気持ちになりますね……",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"6" : {
+						"event" : "Main 2",
+						"media" : "main_2_1",
+						"chinese" : "啊，这些绷带之类的都只是为了演习看上去真实而准备的，伊卡洛斯没有受伤哦？",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "包帯とか点滴とか、あくまで演習のための見せかけで、本物ではありませんよ？",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"7" : {
+						"event" : "Main 3",
+						"media" : "main_3_1",
+						"chinese" : "唔，这样好像就不能太剧烈地运动了…不知道会不会影响到火力的发挥呢…",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "この格好だと激しく動きづらいですね…火力を出すのにも影響がありそう…",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"8" : {
+						"event" : "Touch",
+						"media" : "touch_1_1",
+						"chinese" : "即使是这样的情况，也是有伊卡洛斯能帮指挥官做的事情的哦",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "この状況でも、指揮官のためにできることがきっとありますよ",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"9" : {
+						"event" : "Touch (Special)",
+						"media" : "touch_2_1",
+						"chinese" : "这、这里可是医院哦，指挥官？",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "こ、ここは医療施設ですよ？指揮官？",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"10" : {
+						"event" : "Return to Port",
+						"media" : "home_1",
+						"chinese" : "指挥官的房间…是不是应该再委托下女仆队的各位多打扫一下比较好呢…",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "指揮官のお部屋は…メイド隊に掃除をお願いしたほうがよろしいでしょうか…",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					}
+				}
+			},
+			"101": {
+				"skin_id" : "yikaluosi_ex1100",
+				"id" : "0",
+				"label" : "イカルス",
+				"dialogue" : {
+					"1" : {
+						"event" : "Login",
+						"media" : "login_ex1100",
+						"chinese" : "指挥官来了？嗯，资料和行程都在这里，还帮你准备了柠檬水，补充维生素，才能更好的工作哦~",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "指揮官、今来ました？戦力の資料と予定表、それとレモンウォーターを用意しました。――はい、ビタミン補充して、しっかりお仕事してくださいね",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"2" : {
+						"event" : "Touch",
+						"media" : "touch_1_ex1100",
+						"chinese" : "伊卡洛斯就在这里，有什么事情尽管跟我说吧~",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "イカルスならここにいます。なんでも言ってくださいね",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"3" : {
+						"event" : "Touch (Special)",
+						"media" : "touch_2_ex1100",
+						"chinese" : "这、这种事情还是换个地方…(///",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "こ、こういうのはちょっと、場所を変えたほうが……///",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"4" : {
+						"event" : "Rub",
+						"media" : "touch_head_ex1100",
+						"chinese" : "嗯…~指挥官的抚摸，让人很安心~",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "ふふふ、指揮官に良くしていただくと安心します",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"5" : {
+						"event" : "Affinity (Love)",
+						"media" : "feeling5_ex1100",
+						"chinese" : "现在看来，比起太阳，指挥官更像冬天的暖炉呢，让人感到温暖，又不用担心灼伤~嘻嘻~就算像这样贴在一起~也没有关系吧！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "「君という太陽…」とは、ちょっと違いますね。指揮官はどちらかというと…冬の暖房？そばにいると暖かくてやけどする危険もなくて…こうしてべったりとくっついてもきっと大丈夫ですね！ふふふ",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					}
+				}
+			}
+		}
+	}
+}
