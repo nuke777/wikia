@@ -45,26 +45,26 @@
 		"aviation": "0",
 		"reload": "12"
 	},
-	"acquisitionMethod": "Limited Construction in Ink-stained Steel Sakura event",
+	"acquisitionMethod": "Event: Ink-Stained Steel Sakura, イベント：墨染まりし鋼の桜",
 	"skill": {
 		"1": {
 			"icon": "12030",
 			"requirement": "Default Unlocked",
-			"name": "Break Through the Fiery Night Sky",
+			"name": "The Dark-Dispelling Flame",
 			"type": "Offensive",
 			"description": "At every 8 times an enemy is hit by the Main Gun, increase own Firepower by 1.5% (5.0%), Reload by 10.0% (25.0%), for a maximum of 3 stacks. At maxed stacks, Full Barrage is upgraded. <br><i>Upgraded barrage: 35 dmg x 15 HE (125%/100%/80% Armor Modifier) and 35 dmg x 8 AP (75%/110%/75%)</i>"
 		},
 		"2": {
 			"icon": "4111",
 			"requirement": "Default Unlocked",
-			"name": "AP Armor Protection",
+			"name": "AP Protection",
 			"type": "Defensive",
 			"description": "Decrease AP ammo damage taken by 10.0% (20.0%)"
 		},
 		"3": {
 			"icon": "22254",
 			"requirement": "Limit Break Rank 1 (I) / Rank 3 (II)",
-			"name": "Full Barrage",
+			"name": "All Out Assault Ⅰ",
 			"type": "Offensive",
 			"description": "Every 6 times the main battery is fired, trigger Full Barrage - Mogami Class Type Suzuya I (II)"
 		}
@@ -72,8 +72,8 @@
 	"skin": {
 		"1": {
 			"id": "linggu",
-			"name": "鈴谷",
-			"description": "最上型重巡洋艦三番艦・鈴谷",
+			"name": "Suzuya",
+			"description": "Mogami-class heavy cruiser number three – Suzuya.",
 			"expression": {
 				"0": {
 					"id": "0"
@@ -196,9 +196,9 @@
 		}
 	},
 	"limitBreak": {
-		"tier1": "Gains Full Barrage I / Main Gun Efficiency +5%",
-		"tier2": "Max Torpedo Capacity +1 / Pre-Loaded Torpedo +1 / Anti-Air Efficiency +10%",
-		"tier3": "Upgrades Full Barrage I→II / All Weapon Efficiency +5%"
+		"tier1": "Unlock All Out Assault Ⅰ/Main gun efficiency +5%",
+		"tier2": "Torpedo base +1/Torpedo preload +1/AA gun efficiency +10%",
+		"tier3": "Improve All Out Assault/All weapons' efficiency +5%"
 	},
 	"equipmentLoadout": {
 		"1": {
@@ -278,7 +278,7 @@
 			"1": {
 				"skin_id": "linggu",
 				"id": "0",
-				"label": "鈴谷",
+				"label": "Suzuya",
 				"dialogue": {
 					"1": {
 						"event": "Ship Description",
@@ -289,7 +289,7 @@
 						"japanese": "最上型重巡洋艦三番艦・鈴谷",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Mogami-class heavy cruiser number three – Suzuya.",
 						"englishNote": ""
 					},
 					"2": {
@@ -301,7 +301,7 @@
 						"japanese": "最上型三番艦の鈴谷と申します。かの大戦では第七戦隊のメンバーとして、最上姉さんたちと奮戦しました。最後の戦いは少し無念でしたけど…この新しい戦場では心機一転して、新しい仲間たちとともに奮闘する所存です。何卒よろしくお願いします",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "I am Suzuya, third ship of the Mogami class. During that war, I fought alongside Mogami as a member of CruDiv 7. My last battle left me with a bit of regret... but I've been given a new beginning on this battlefield, and I'll fight alongside my new companions with a fresh outlook. I look forward to working with you.",
 						"englishNote": ""
 					},
 					"3": {
@@ -313,7 +313,7 @@
 						"japanese": "最上型重巡洋艦、鈴谷です。指揮官、今日から私のことをよろしくお願いしますね",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "I am Suzuya, Mogami-class heavy cruiser. I place myself under your command from this day forward.",
 						"englishNote": ""
 					},
 					"4": {
@@ -325,7 +325,7 @@
 						"japanese": "お帰りなさい。指揮官。手始めにどの仕事からされます？",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Welcome back, Commander. Which job should we take on first?",
 						"englishNote": ""
 					},
 					"5": {
@@ -334,10 +334,10 @@
 						"chinese": "指挥官？啊，我在预习下次上课的内容。请不用顾忌我，继续您的工作就可以了",
 						"chineseTL": "Commander? Ah, I'm preparing the materials for the next class. Please don't mind me and continue your work.",
 						"chineseNote": "",
-						"japanese": "指揮官？ああ、次の大講堂授業の予習をしています。私のことをお気になさらず執務に励んでください",
+						"japanese": "指揮官？ああ、次の大講堂授業の予習をしています。私のことはお気になさらず執務に励んでください",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Commander? Oh, I'm just preparing for the next lecture at the auditorium. Please don't worry about me, and continue your work as normal.",
 						"englishNote": ""
 					},
 					"6": {
@@ -349,7 +349,7 @@
 						"japanese": "指揮官からシセンが……な、なんでもありませんっ",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Commander is looking at... N-nothing, don't worry about it!",
 						"englishNote": ""
 					},
 					"7": {
@@ -361,7 +361,7 @@
 						"japanese": "熊野、あまり最上姉さんに迷惑をかけてはダメよ？三隈姉さんの胃が痛くなる意味で……",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Kumano, please don't make trouble for Mogami, all right? She's going to get a stomachache again...",
 						"englishNote": ""
 					},
 					"8": {
@@ -373,7 +373,7 @@
 						"japanese": "鈴谷型とも言われていましたけど、私はやはり最上型のほうがしっくり来ます。 あの大戦ではみんな一緒でしたから…",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "We're sometimes called the Suzuya class, but I still prefer being called the Mogami class. We all fought together during that war after all..",
 						"englishNote": ""
 					},
 					"9": {
@@ -385,7 +385,7 @@
 						"japanese": "指揮官…私のココを見ましたよね？分かっていますよ…？今すごくシセンを注がれた気がして…ねぇ？",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Commander... where do you think you're looking? Don't think I wouldn't notice... I could feel your gaze boring into me... Am I right?",
 						"englishNote": ""
 					},
 					"10": {
@@ -397,7 +397,7 @@
 						"japanese": "んっ…はじめからそういうつもりだったこと…鈴谷ははっきりと分かっていますよ。ぜーんぶ、分かってます…ふふふふ♡",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Nnh... So this is what you were after from the very beginning... I knew it all along. I've always known, this entire time... Ehehehe~♡",
 						"englishNote": ""
 					},
 					"11": {
@@ -409,7 +409,7 @@
 						"japanese": "任務の遂行状況を整理しました。ご参考までにどうぞ",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "I've arranged the status of our current missions. Please look over them.",
 						"englishNote": ""
 					},
 					"12": {
@@ -421,7 +421,7 @@
 						"japanese": "任務報酬が届きました。嬉しいことです",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "The mission rewards have arrived. That is good news.",
 						"englishNote": ""
 					},
 					"13": {
@@ -433,7 +433,7 @@
 						"japanese": "メールが届きました。指揮官へのメール……あぁ…",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "The mail has arrived. There's something for you, Commander... Ah...",
 						"englishNote": ""
 					},
 					"14": {
@@ -445,7 +445,7 @@
 						"japanese": "教訓を次に活かすのは大事ですね。レポートを優先して確認しましょうか？",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "We must apply what we've learned to future battles. Shall I prioritize writing the report first?",
 						"englishNote": ""
 					},
 					"15": {
@@ -457,7 +457,7 @@
 						"japanese": "委託組が母港に帰還しました。どうでしょう。一緒に出迎えに行きませんか？",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "The commission team has returned to port. What's next? Shall I go with you to greet them?",
 						"englishNote": ""
 					},
 					"16": {
@@ -469,7 +469,7 @@
 						"japanese": "戦力が強化されました。やりましたね",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "My abilities have been enhanced. Well done.",
 						"englishNote": ""
 					},
 					"17": {
@@ -481,7 +481,7 @@
 						"japanese": "今回は逃げません…決して！",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "I won't run away again... I swear it!",
 						"englishNote": ""
 					},
 					"18": {
@@ -493,7 +493,7 @@
 						"japanese": "おめでとうございます。え、鈴谷がMVPですか…？あ、ありがとうございます…",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Congratulations. Eh, I'm the MVP...? Th-thank you very much...",
 						"englishNote": ""
 					},
 					"19": {
@@ -505,7 +505,7 @@
 						"japanese": "くっ…仕方ありませんね……",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Ugh... I guess that's it...",
 						"englishNote": ""
 					},
 					"20": {
@@ -517,7 +517,7 @@
 						"japanese": "本気で行きます…！",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "It's time to get serious...!",
 						"englishNote": ""
 					},
 					"21": {
@@ -529,7 +529,7 @@
 						"japanese": "この程度では…引き返しませんよ！",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "As if this... would be enough to make me turn back!",
 						"englishNote": ""
 					},
 					"22": {
@@ -541,7 +541,7 @@
 						"japanese": "最上姉さんは自己評価が低いですけど、指揮官は他人からの評価が低くなりそうですね",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Mogami may often fail to recognize her own worth, but more and more people are starting to see how little you're worth.",
 						"englishNote": ""
 					},
 					"23": {
@@ -553,7 +553,7 @@
 						"japanese": "最上型のことが気になるのですか？はい、私でよければ詳しく説明して差し上げます。どの艦からにしますか？",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Would you like to learn more about the Mogami class? Very well, I'll be glad to explain everything from the top. Which one of us would you like to hear about first?",
 						"englishNote": ""
 					},
 					"24": {
@@ -565,7 +565,7 @@
 						"japanese": "鈴谷自身のことが気になるのですか？もちろんお聞かせしても構いませんが……説明だけで十分でしょうか…？",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "You're... most interested in Suzuya? Of course, I'd be glad to give you the details... but just explaining things wouldn't be enough, right...?",
 						"englishNote": ""
 					},
 					"25": {
@@ -577,7 +577,7 @@
 						"japanese": "……隠しても無駄です。鈴谷にその気があるのを分かってますよ。指揮官はもう素直になって……なりなさいっての！",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "...There's no point hiding it. I already know how you feel about me. Just shut up and... give in to your feelings already!",
 						"englishNote": ""
 					},
 					"26": {
@@ -589,7 +589,7 @@
 						"japanese": "あぁ……指揮官のシセンはこんなにも…今なら上手く言えます。鈴谷、指揮官のことをお慕いして………（小声）あぅ！？やだ、なんかうずいちゃうじゃない……！",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Ahh... Commander, your gaze is so passionate... so I can finally tell you... I've always admired you... Huh?! What's this? I feel all fluttery...!",
 						"englishNote": ""
 					},
 					"27": {
@@ -601,7 +601,7 @@
 						"japanese": "（小声）指揮官、この儀式が終わったら……分かっていますよね？ご安心ください。鈴谷はこれから誰よりも指揮官のことを良くして差し上げますから。ねぇ、ダーリン……♡",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "(whispers) Commander, when this ritual is over... you know what's next, right? Don't worry. I'll treat you better than anyone else. Isn't that right, darling~♡",
 						"englishNote": ""
 					},
 					"28": {
@@ -613,7 +613,7 @@
 						"japanese": "苦労はお察しします",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "I can understand your pain.",
 						"englishNote": ""
 					},
 					"29": {
@@ -625,7 +625,7 @@
 						"japanese": "この私が…？違う、そんなことは……",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Did I also...? No, I would never.",
 						"englishNote": ""
 					},
 					"30": {
@@ -680,5 +680,6 @@
 		"add_level_shiptype": "Heavy Cruiser,Monitor,Super Cruiser",
 		"t_level": "7",
 		"ships": "mogami,mikuma,suzuya"
-	}
+	},
+	"voiceActress": "Azumi Waki"
 }

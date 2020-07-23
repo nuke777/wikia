@@ -71,8 +71,8 @@
 	"skin": {
 		"1": {
 			"id": "jialisuoniye",
-			"name": "La Galissonnière ",
-			"description": "La Galissonnière-class light cruiser – La Galissonnière. ",
+			"name": "La Galissonnière",
+			"description": "La Galissonnière-class light cruiser – La Galissonnière.",
 			"expression": {
 				"0": {
 					"id": "0"
@@ -107,6 +107,25 @@
 				},
 				"4": {
 					"id": "4"
+				}
+			}
+		},
+		"101" : {
+			"id" : "jialisuoniye_ex1100",
+			"name" : "La Galissonnière",
+			"description" : "La Galissonnière-class light cruiser – La Galissonnière.",
+			"expression" : {
+				"0" : {
+					"id" : "0"
+				},
+				"1" : {
+					"id" : "1"
+				},
+				"2" : {
+					"id" : "2"
+				},
+				"3" : {
+					"id" : "3"
 				}
 			}
 		}
@@ -311,7 +330,7 @@
 			"1": {
 				"skin_id": "jialisuoniye",
 				"id": "0",
-				"label": "La Galissonnière ",
+				"label": "La Galissonnière",
 				"dialogue": {
 					"1": {
 						"event": "Ship Description",
@@ -607,7 +626,7 @@
 						"chinese": "不光是鱼雷火炮，偶尔聊聊冷兵器或者别的什么话题不也挺有趣嘛？看起来你也不是那么无趣的人，下次有空再一起聊天啦！",
 						"chineseTL": "",
 						"chineseNote": "",
-						"japanese": "艦船は魚雷とか艦砲とかぶっ放してなんぼだけど、たまにはこういう武器の話題も面白いでしょ？指揮官、今度またお喋りしようよ！あなたのことも、面白そうだしね！",
+						"japanese": "艦船は魚雷とか艦砲とかぶっ放してなんぼだけど、たまにはこういう武器の話も面白いでしょ？指揮官、今度またお喋りしようよ！あなたのことも、面白そうだしね！",
 						"japaneseTL": "",
 						"japaneseNote": "",
 						"english": "Sure, we ships fire our guns and torpedoes all day, but it's fun to just have a chat about weapons now and then. Hit me up for that sometime, Commander! You seem like a cool person!",
@@ -722,10 +741,10 @@
 						"chinese": "呼~果然夏天要有游泳池才算完整呢！喂，那边傻站着的指挥官，不下水享受一下吗？",
 						"chineseTL": "",
 						"chineseNote": "",
-						"japanese": "",
+						"japanese": "夏といえばプール！…あれ？指揮官、そこに突っ立ってないで楽しもうよ♪",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Summertime means pool time! Oh, hey, Commander. What are you waiting for? Come over and let's have fun!",
 						"englishNote": ""
 					},
 					"3": {
@@ -734,10 +753,10 @@
 						"chinese": "准备活动？我不需要啦~反正我就在这里玩玩水，不会有问题的。",
 						"chineseTL": "",
 						"chineseNote": "",
-						"japanese": "",
+						"japanese": "今日はそんなに泳ぐ気にならないから、ウォーミングアップとかパス～大丈夫でしょ♪",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "I'm not gonna swim all day, so I'll just skip the warm-ups. Should be no biggie!",
 						"englishNote": ""
 					},
 					"4": {
@@ -746,10 +765,10 @@
 						"chinese": "如果指挥官意外溺水了的话，我会第一时间把游泳圈给你扔过去的！指挥官身手那么敏捷，到时候肯定能接住的啦~",
 						"chineseTL": "",
 						"chineseNote": "",
-						"japanese": "",
+						"japanese": "もし指揮官が溺れそうになったら浮き輪を投げとくね？大丈夫、指揮官ならちゃんとしがみつけるって信じてる！",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "I'll throw the swim ring at you if you get close to drowning. Relax, knowin' you, I'm sure you'll catch it!",
 						"englishNote": ""
 					},
 					"5": {
@@ -758,10 +777,10 @@
 						"chinese": "哦？指挥官是想要吓我一跳吗？很遗憾，被我发现了呢~",
 						"chineseTL": "",
 						"chineseNote": "",
-						"japanese": "",
+						"japanese": "別にプールがあるからって泳がなきゃならないってルールはないでしょ？適当に遊んでも問題ないよ",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "We don't really NEED to swim just 'cause we've got a pool, do we? Nothing wrong with just dipping our toes, you know.",
 						"englishNote": ""
 					},
 					"6": {
@@ -770,10 +789,10 @@
 						"chinese": "啊哈哈，是不是想让我帮你来做憋气练习呀？指挥官？",
 						"chineseTL": "",
 						"chineseNote": "",
-						"japanese": "",
+						"japanese": "指揮官、こっち！ええい！…あははは、スッキリした？",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Over here, Commander! Ka-splash! Ahahahah! Feelin' refreshed now?",
 						"englishNote": ""
 					},
 					"7": {
@@ -782,14 +801,95 @@
 						"chinese": "啊，指挥官，你回来的正好！能到泳池里帮我把那个皮球扔给我吗？谢啦~",
 						"chineseTL": "",
 						"chineseNote": "",
-						"japanese": "",
+						"japanese": "んーこの手持ち無沙汰な感じ、気になるかも…",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Hmm... Feels a little weird, not having my hands full with something...",
 						"englishNote": ""
+					}
+				}
+			},
+			"101": {
+				"skin_id" : "jialisuoniye_ex1100",
+				"id" : "0",
+				"label" : "La Galissonnière",
+				"dialogue" : {
+					"1" : {
+						"event" : "Login",
+						"media" : "login_ex1100",
+						"chinese" : "今天要做些什么？在身体生锈前快给我点事做吧？",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "今日は何するの？あたしが錆びついちゃう前に色々やってみて？",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "What are we doing today? Why don't you gimme something to do before I turn to rust?",
+						"englishNote" : ""
+					},
+					"2" : {
+						"event" : "Details",
+						"media" : "detail_ex1100",
+						"chinese" : "“本职工作”是什么…？这个嘛…应该是叫做“inquisition”…吧~至于含义嘛…果然还是不跟你说了~",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "“「アッチ」の仕事って…ええと、「いんくいずいしょん」だっけ？名前。意味は…やっぱり教えない♪",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "You wanna know about \"that\" work? How do I say this... Let's just call it the \"Inquisition?\" What it means is... Hmm, I really can't tell you after all~♪",
+						"englishNote" : ""
+					},
+					"3" : {
+						"event" : "Main 2",
+						"media" : "main_2_ex1100",
+						"chinese" : "♪～指挥官，能帮我检查下这个有没有磨利嘛？嗯~自己来的话，总会担心上面是不是还沾了什么东西…",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "♪～指揮官、これ上手く磨けてるかどうか見てもらえない？いつもなんか残ってるんじゃないかって心配なんだよね…",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "♪～Hey Commander, can you help me check if I sharpened this enough? I'm always afraid that I missed a spot or something...",
+						"englishNote" : ""
+					},
+					"4" : {
+						"event" : "Main 3",
+						"media" : "main_3_ex1100",
+						"chinese" : "比起阿尔及利亚，还是在让巴尔底下干活感觉更适合我呢~你看嘛，就是那种“总之把对面全部干掉”就好的感觉…",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "アルジェリーより、ジャン・バールのところで働いたほうがあたしに合ってる気がするね～ほら、気にせずぶっ飛ばす！みたいなノリで何もかも押し進む――みたいな…",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Gotta say, I still prefer working under Jean Bart rather than Algérie. Y'know, it's that whole \"don't worry about anything other than slaughtering your enemies\" kind of feeling...",
+						"englishNote" : ""
+					},
+					"5" : {
+						"event" : "Touch (Special)",
+						"media" : "touch_2_ex1100",
+						"chinese" : "嗯嗯？嗯嗯嗯？…嗯…算啦♪",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "んん？んんん？…うーん……まあいっか♪",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Hm? Hmmmmm? ...Mmm... Well, whatever~♪",
+						"englishNote" : ""
+					},
+					"6" : {
+						"event" : "Return to Port",
+						"media" : "home_ex1100",
+						"chinese" : "在港区里果然不太有“本职”方面的工作呢…嗯，反正鸢尾的伙伴们也其乐融融地在这里，我也乐得轻松，嘿嘿~",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "この母港ではさすがに「アッチ」の仕事はないよね…うん、アイリスのコも平気でいるし、あたしも楽！へへへ",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "There's not too much of \"that\" kind of work to do at this port, huh... Well, as long as the Iris girls are safe and sound here, then I can have fun without worrying about anything! Hehehe!",
+						"englishNote" : ""
 					}
 				}
 			}
 		}
-	}
+	},
+	"class": "La Galissonnière",
+	"voiceActress": "Yui Makino"
 }
