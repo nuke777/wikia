@@ -1,0 +1,947 @@
+{
+	"name_reference" : "valiant",
+	"cn_reference" : "yingyong",
+	"nameJP" : "ヴァリアント",
+	"nameCN" : "英勇",
+	"ID" : "464",
+	"name" : "Valiant",
+	"internal_id" : "205101",
+	"rarity" : "Elite",
+	"initialStar" : "★★☆☆☆",
+	"hull" : "Battleship",
+	"navy" : "Royal Navy",
+	"prefix" : "HMS",
+	"buildTime" : "",
+	"parameters": {
+		"firepower" : "",
+		"torpedo" : "",
+		"aviation" : "",
+		"evasion" : "",
+		"antiAir" : "",
+		"hp" : ""
+	},
+	"scrap": {
+		"gold" : "11",
+		"oil" : "4",
+		"medal" : "4"
+	},
+	"releaseDate": {
+		"JP" : "July 23, 2020",
+		"CN" : "July 23, 2020",
+		"KR" : "July 23, 2020",
+		"EN" : ""
+	},
+	"artist": {
+		"name": "Alisa",
+		"weibo": "https://weibo.com/u/6056658230",
+		"twitter": "https://twitter.com/16119831274",
+		"pixiv": "https://www.pixiv.net/member.php?id=1966676",
+		"other": ""
+	},
+	"class" : "Queen Elizabeth-Class",
+	"enhance": {
+		"firepower" : "65",
+		"torpedo" : "0",
+		"aviation" : "0",
+		"reload" : "10"
+	},
+	"acquisitionMethod" : "Event : Noctis Borealis",
+	"skill": {
+		"1" : {
+			"icon" : "13500",
+			"requirement" : "Default Unlocked",
+			"name" : "Charisma One Shot",
+			"type" : "Support",
+			"description" : "10s after main gun fires, fires a barrage Lv.1 (Lv.10) that causes special armor break [8%] for 20s."
+		},
+		"2" : {
+			"icon" : "13510",
+			"requirement" : "Default Unlocked",
+			"name" : "Charisma Full Charge",
+			"type" : "Offensive",
+			"description" : "Upon firing, 20.0% (50.0%) chance to fire a Lv.1 (Lv.10) barrage."
+		}
+	},
+	"skin": {
+		"1" : {
+			"id" : "yingyong",
+			"name" : "ヴァリアント",
+			"description" : "クイーン・エリザベス級戦艦·ヴァリアント(HMS Valiant）",
+			"expression" : {
+				"0" : {
+					"id" : "0"
+				},
+				"1" : {
+					"id" : "1"
+				},
+				"2" : {
+					"id" : "2"
+				},
+				"3" : {
+					"id" : "2"
+				}
+			}
+		},
+		"2" : {
+			"id" : "yingyong_2",
+			"name" : "リトルナースタイム",
+			"description" : "ふふん、この「母港医療施設稼働特別演習」、非常に重要なイベントだから、このリーダーたるわたしもカリスマを発揮して…ってなんなのこの格好！？ちょっとあんた、一体どういうことか説明しなさい！",
+			"expression" : {
+				"0" : {
+					"id" : "0"
+				},
+				"1" : {
+					"id" : "1"
+				},
+				"2" : {
+					"id" : "2"
+				},
+				"3" : {
+					"id" : "2"
+				}
+			}
+		},
+		"101" : {
+			"id" : "yingyong_ex1100",
+			"name" : "ヴァリアント",
+			"description" : "クイーン・エリザベス級戦艦·ヴァリアント(HMS Valiant）",
+			"expression" : {
+				"0" : {
+					"id" : "0"
+				}
+			}
+		}
+	},
+	"defaultEquipment": {
+		"1" : {
+			"icon" : "24100",
+			"rarity" : "Common",
+			"name" : "Twin 381mm Main Gun"
+		},
+		"2" : {
+			"icon" : "22000",
+			"rarity" : "",
+			"name" : "Single 152mm Secondary Gun"
+		},
+		"3" : {
+			"icon" : "",
+			"rarity" : "",
+			"name" : ""
+		}
+	},
+	"stats": {
+		"base": {
+			"hp" : "1250",
+			"firepower" : "79",
+			"torpedo" : "0",
+			"antiAir" : "40",
+			"aviation" : "0",
+			"reload" : "55",
+			"hit" : "22",
+			"evasion" : "6",
+			"speed" : "24",
+			"luck" : "72",
+			"asw" : "0",
+			"oxygen" : "0",
+			"ammo" : "0",
+			"cost" : "5",
+			"armor" : "Heavy"
+		},
+		"100": {
+			"hp" : "6464",
+			"firepower" : "372",
+			"torpedo" : "0",
+			"antiAir" : "185",
+			"aviation" : "0",
+			"reload" : "130",
+			"hit" : "57",
+			"evasion" : "15",
+			"speed" : "24",
+			"luck" : "72",
+			"asw" : "0",
+			"oxygen" : "0",
+			"ammo" : "0",
+			"cost" : "14",
+			"armor" : "Heavy"
+		},
+		"120": {
+			"hp" : "7467",
+			"firepower" : "407",
+			"torpedo" : "0",
+			"antiAir" : "212",
+			"aviation" : "0",
+			"reload" : "150",
+			"hit" : "70",
+			"evasion" : "31",
+			"speed" : "24",
+			"luck" : "72",
+			"asw" : "0",
+			"oxygen" : "0",
+			"ammo" : "0",
+			"cost" : "14",
+			"armor" : "Heavy"
+		},
+		"100retrofit": {
+			"hp" : "",
+			"firepower" : "",
+			"torpedo" : "",
+			"antiAir" : "",
+			"aviation" : "",
+			"reload" : "",
+			"hit" : "",
+			"evasion" : "",
+			"speed" : "24",
+			"luck" : "72",
+			"asw" : "",
+			"oxygen" : "0",
+			"ammo" : "0",
+			"cost" : "14",
+			"armor" : "Heavy"
+		},
+		"120retrofit": {
+			"hp" : "",
+			"firepower" : "",
+			"torpedo" : "",
+			"antiAir" : "",
+			"aviation" : "",
+			"reload" : "",
+			"hit" : "",
+			"evasion" : "",
+			"speed" : "24",
+			"luck" : "72",
+			"asw" : "",
+			"oxygen" : "0",
+			"ammo" : "0",
+			"cost" : "14",
+			"armor" : "Heavy"
+		}
+	},
+	"limitBreak": {
+		"tier1": "主砲砲座+1/主砲補正+5%",
+		"tier2": "副砲砲座+2/主砲補正+10%",
+		"tier3": "主砲砲座+1/主砲補正+15%"
+	},
+	"equipmentLoadout": {
+		"1": {
+			"type": "Battleship",
+			"efficiency": "100%/105%/115%/130%",
+			"amount": "1/1/1/1",
+			"preload": "0/0/0/0"
+		},
+		"2": {
+			"type": "Light Cruiser",
+			"efficiency": "200%/200%/200%/200%",
+			"amount": "1/1/3/3",
+			"preload": "0/0/0/0"
+		},
+		"3": {
+			"type": "Anti-Air Gun",
+			"efficiency": "100%/100%/100%/100%",
+			"amount": "1/1/1/1",
+			"preload": "0/0/0/0"
+		},
+		"4": {
+			"type": "Auxilary",
+			"efficiency": "-",
+			"amount": "-",
+			"preload": "-"
+		},
+		"5": {
+			"type": "Auxilary",
+			"efficiency": "-",
+			"amount": "-",
+			"preload": "-"
+		}
+	},
+	"fleet_tech": {
+		"pt_get": "14",
+		"add_get_attr": "HP",
+		"add_get_value": "2",
+		"add_get_shiptype": "Battlecruiser,Battleship,Aviation Battleship",
+		"pt_upgrade": "28",
+		"pt_level": "21",
+		"add_level_attr": "Hit",
+		"add_level_value": "1",
+		"add_level_shiptype": "Battlecruiser,Battleship,Aviation Battleship",
+		"t_level": "5",
+		"ships": "queen_elizabeth,warspite,valiant"
+	},
+	"build": {
+		"light": {
+			"JP": "",
+			"CN": "",
+			"EN": ""
+		},
+		"heavy": {
+			"JP": "",
+			"CN": "",
+			"EN": ""
+		},
+		"special": {
+			"JP": "",
+			"CN": "",
+			"EN": ""
+		},
+		"limited": {
+			"JP": "",
+			"CN": "",
+			"EN": ""
+		}
+	},
+	"drop": {
+		"droppable": "false",
+		"list": {
+			"1": {
+				"event": "",
+				"chapter": {
+					"1": {
+						"label": "Ch .1",
+						"node": {
+							"1": {
+								"drop": "✓",
+								"note": "-"
+							}
+						}
+					}
+				}
+			}
+		}
+	},
+	"lines": {
+		"skin": {
+			"1": {
+				"skin_id" : "yingyong",
+				"id" : "0",
+				"label" : "ヴァリアント",
+				"dialogue" : {
+					"1" : {
+						"event" : "Ship Description",
+						"media" : "",
+						"chinese" : "伊丽莎白女王级战列舰—英勇，舷号02",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "クイーン・エリザベス級戦艦·ヴァリアント(HMS Valiant）",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"2" : {
+						"event" : "Biography",
+						"media" : "profile",
+						"chinese" : "我是伊丽莎白女王级的英勇号。从日德兰到远东，都曾有我英勇战斗的身姿。而接下来，我将带领这支舰队继续前行。作为我的得力侍从，我相信你能辅佐好我的。",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "我是クイーン・エリザベス級のヴァリアントよ。ふふ、この艦隊はユトランドから極東にまで勇姿を知らしめた、このわたしが率いることにするわ。さて指揮官――我が配下として補佐にしっかり励んでもらうわよ",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"3" : {
+						"event" : "Acquisition",
+						"media" : "get",
+						"chinese" : "英勇，是我，也是将要领导这个舰队的人的名字，好好铭记在心吧。……对了，你是哪位？指挥官…？我明白了，差不多把你当作侍从就行了吧！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "ヴァリアントとはわたしのことよ。この艦隊のリーダーの顔としてよーく覚えておきなさい！……そういえばあんたは？指揮官…？じゃあわたしの従僕程度の扱いでいいわねっ！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"4" : {
+						"event" : "Login",
+						"media" : "login",
+						"chinese" : "侍从，来得正好，把今天的报告拿出来吧。",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "来てくれたわね。今日のレポートを差し出しなさい",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"5" : {
+						"event" : "Details",
+						"media" : "detail",
+						"chinese" : "伊丽莎白作为领导者而言，多少有些任性过头了…厌战她们又太宠着她了，果然这里应该由我来…嗯？某种意义上我也差不多…？你说什么？",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "ほら、エリザベス様ってワガママすぎない？そしてウォースパイトたちもエリザベス様を甘やかしすぎじゃない？だからリーダーはこのわたしが…「ある意味似たもの同士」…？な、何を言うの！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"6" : {
+						"event" : "Main 1",
+						"media" : "main_1",
+						"chinese" : "侍从，我渴了，帮我去通知女仆队准备红茶…不，那样太慢了。侍从，今天的茶就交给你了，没有问题吧？",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "侍喉が渇いた…コホン、我が配下よ、メイド隊に紅茶の用意を……じゃ遅いわね…んんっ、今日の紅茶はあんたに任せるわ！やってくれるわね？",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"7" : {
+						"event" : "Main 2",
+						"media" : "main_2",
+						"chinese" : "当指挥官，最重要的就是“气场”。气场有了，才有威严，大家才会听从你的话。学到了吗，侍从？",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "リーダーに一番大事なのはカリスマよ！カリスマがあってこその威厳、そしてみんながなんでも聞いてくれるという……コホン！今ので分かった？",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"8" : {
+						"event" : "Main 3",
+						"media" : "main_3",
+						"chinese" : "点心时间！？…咳、咳咳…懂得合理安排工作和休息也是身为指挥官应有的素质之一，好好学着吧，侍从。",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "お菓子タイム！？…コホン！…ワークライフバランスを優雅に整えるのもリーダーの素質よ。しっかり覚えておきなさい",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"9" : {
+						"event" : "Touch",
+						"media" : "touch_1",
+						"chinese" : "有事就尽管说吧，我会听着的，侍从。",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "申し出ることがあれば申し出なさい。ちゃんと聞いてやるわ",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"10" : {
+						"event" : "Touch (Special)",
+						"media" : "touch_2",
+						"chinese" : "你干什么！？…宽容侍从也是上位者应有的“气场”…这次就不跟你计较了！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "何をする！？……ぐぬぬ、は、配下に寛容なカリスマだから今回だけは許してやるわ！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"11" : {
+						"event" : "Rub",
+						"media" : "touch_head",
+						"chinese" : "你、你干什么啦！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "な、何すんのよ！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"12" : {
+						"event" : "Mission",
+						"media" : "task",
+						"chinese" : "这些琐碎的任务，就交给侍从你去做了。",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "この細かいクエストはあんたに任せるわ",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"13" : {
+						"event" : "Mission Complete",
+						"media" : "mission_complete",
+						"chinese" : "虽然只是琐碎的任务，但你出色地完成了，就应当收到嘉奖。",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "細かいクエストでも上出来じゃない。褒美を授かるべきよ",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"14" : {
+						"event" : "Mail",
+						"media" : "mail",
+						"chinese" : "嘁，为什么邮件都是给侍从你的？",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "ちっ、なんであんたへのメールだけなの……",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"15" : {
+						"event" : "Return to Port",
+						"media" : "home",
+						"chinese" : "侍从，战况如何？详细说给我听听吧。",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "我が配下よ、戦況はどうだったの？詳しく述べなさい",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"16" : {
+						"event" : "Commission Complete",
+						"media" : "expedition",
+						"chinese" : "嗯哼，委托组似乎很顺利。替我去慰问一下她们吧，侍从。",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "ふふん、委託組は順調だったようね。わたしの代わりにねぎらって差し上げなさい",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"17" : {
+						"event" : "Enhancement",
+						"media" : "upgrade",
+						"chinese" : "呼，做得不错，侍从。想要什么奖赏吗？",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "ふふ、大義だったわ～ご褒美は何がいい？",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"18" : {
+						"event" : "Flagship",
+						"media" : "warcry",
+						"chinese" : "听我的指挥，一起上吧！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "わたしの指揮に従って――前進よっ！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"19" : {
+						"event" : "Victory",
+						"media" : "mvp",
+						"chinese" : "准确的指挥，英勇的战斗，是一场完美的胜利呢。",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "優雅な指揮にして勇敢なる戦いっぷり、わたしにしては完璧な勝利だったわ",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"20" : {
+						"event" : "Defeat",
+						"media" : "lose",
+						"chinese" : "呜…怎么会这样…",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "うっ…ど、どうしてこうなったの……",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"21" : {
+						"event" : "Skill",
+						"media" : "skill",
+						"chinese" : "一切都在掌握之中！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "一すべてわたしの手の中（うち）よ！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"22" : {
+						"event" : "Low HP",
+						"media" : "hp",
+						"chinese" : "侍从，快、快想办法保护我……！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "は、早く何とかしてよ…！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"23" : {
+						"event" : "Affinity (Upset)",
+						"media" : "feeling1",
+						"chinese" : "本来还对你有点期待的…",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "期待していたのに……",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"24" : {
+						"event" : "Affinity (Stranger)",
+						"media" : "feeling2",
+						"chinese" : "侍从，来得正好。工作忙完了的话，来陪我下几盘国际象棋吧。",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "よく来てくれたわ。ほかにやるべき仕事がなかったらチェスに付き合ってもらうわよ",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"25" : {
+						"event" : "Affinity (Friendly)",
+						"media" : "feeling3",
+						"chinese" : "没、没想到侍从你的棋艺还挺厉害的啊。以、以后我就稍微认真点对付你吧！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "あんたにしてはいい腕してるじゃない…つ、次からは本気を出すわよ…っ！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"26" : {
+						"event" : "Affinity (Like)",
+						"media" : "feeling4",
+						"chinese" : "等，等等！既然是下棋，就要考虑到所有的情况。刚刚那步，只是我没注意到，所以被侍从你钻了空子而已！所以，这，这步不算！侍从，你明白了吧！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "ま、待って！チェスというのは実戦の演習みたいなものだからあらゆる状況を想定するべきだわ！つ、つまり今のはフェイク！まぐれ！ノーカウント！取り消し！分かった！？",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"27" : {
+						"event" : "Affinity (Love)",
+						"media" : "feeling5",
+						"chinese" : "作为侍从，应该有能体察上级的心……我、我的意思是，差不多该让我赢一次了吧？（小声）总是输给你，我都快没有下棋的信心了…总、总之！你得输我一把！而且得是让我看不出故意输掉的那种！这是命令，侍从你明白了吧！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "配下に少しは主の気持ちを察してもらいたいものね…つまり一度だけでも勝たせてほしいの！いつも負けてるから、もうモチベーションが……と、とにかく！一度だけ負けて！それもわざと負けるのはナシでお願いするわ！これは命令よ！分かった！？",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"28" : {
+						"event" : "Pledge",
+						"media" : "propose",
+						"chinese" : "嗯，很好，我认可你为本指挥官身边最值得信赖的侍从！看在你一直以来如此忠诚的份上，特别允许你继续在我身边感受我的伟大吧！就让这戒指成为我们主从之绊的见证吧！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "大儀である！あんたをわたしの配下の一番槍だと認めてやるわ！ふふん、その忠誠に免じて、私のカリスマに身近なところから酔いしれることを許す！わたしとあんたの絆は、この指輪が証明してくれているからね♪",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"29" : {
+						"event" : "Easter Egg 1(Queen Elizabeth, Warspite)",
+						"media" : "link1",
+						"chinese" : "见识下高贵的伊丽莎白级的实力吧！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "见高貴なるクイーン・エリザベス級の力を見よ！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"30" : {
+						"event" : "Easter Egg 2(Warspite)",
+						"media" : "link2",
+						"chinese" : "我会注意你的动向的。",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "ちゃ、ちゃんと見ているからね！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"31" : {
+						"event" : "Like Present",
+						"media" : "present_like",
+						"chinese" : "",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"32" : {
+						"event" : "Dislike Present",
+						"media" : "present_dislike",
+						"chinese" : "",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"33" : {
+						"event" : "Main Title",
+						"media" : "extra",
+						"chinese" : "",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					}
+				}
+			},
+			"2": {
+				"skin_id" : "yingyong_2",
+				"id" : "1",
+				"label" : "リトルナースタイム",
+				"dialogue" : {
+					"1" : {
+						"event" : "Ship Description",
+						"media" : "",
+						"chinese" : "嗯哼，这次的“港区医院特别演习”是一次很有意义的活动，作为领导舰队之人，自然要大力支持…但是！为什么我只是个小护士！？侍从，这到底是怎么一回事！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "ふふん、この「母港医療施設稼働特別演習」、非常に重要なイベントだから、このリーダーたるわたしもカリスマを発揮して…ってなんなのこの格好！？ちょっとあんた、一体どういうことか説明しなさい！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"2" : {
+						"event" : "Acquisition",
+						"media" : "get_1",
+						"chinese" : "嗯哼，这次的“港区医院特别演习”是一次很有意义的活动，作为领导舰队之人，自然要大力支持…但是！为什么我只是个小护士！？侍从，这到底是怎么一回事！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "ふふん、この「母港医療施設稼働特別演習」、非常に重要なイベントだから、このリーダーたるわたしもカリスマを発揮して…ってなんなのこの格好！？ちょっとあんた、一体どういうことか説明しなさい！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"3" : {
+						"event" : "Login",
+						"media" : "login_1",
+						"chinese" : "你回来了，侍从。…不对，你现在扮演的是病人，为什么病人还那么生龙活虎？快回去躺在病床上啦！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "来てくれたわね。…じゃなくて！あんたは患者役でしょ？そんなに歩き回ってどうすんのよ！早くベッドに戻りなさい！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"4" : {
+						"event" : "Details",
+						"media" : "detail_1",
+						"chinese" : "侍从，其实你很享受这样被照顾的感觉吧？呣呣…总感觉不太公平…这样吧！下次我来做病人，侍从你来当医生照顾我，怎么样？",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "ちょっとあんた、もしかして世話されるのを楽しんでない！？ぐぬぬ…不公平よ…！そうだ！次はわたしが患者役で、あんたに世話してもらうってのはどう？",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"5" : {
+						"event" : "Main 1",
+						"media" : "main_1_1",
+						"chinese" : "因为侍从现在扮演的是病人，我才勉为其难帮你泡次红茶的，可别误会了！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "勘違いするんじゃないわ。あんたが患者役だからこうして紅茶を注いでやってるの！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"6" : {
+						"event" : "Main 2",
+						"media" : "main_2_1",
+						"chinese" : "嗯哼，趁着演习的间隙来下盘棋怎么样？我把棋盘拿来了，就在病床上下就行！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "演習中は暇だし、チェスでもどうかしら？ふふん、もうボードを持ってきてあるわ。準備するからそのままベッドでじっと待ってなさい！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"7" : {
+						"event" : "Main 3",
+						"media" : "main_3_1",
+						"chinese" : "侍从，你现在是病人，病人要乖乖地听护士的话才行！唔，好像作为侍从本来也该乖乖听我的话才对？",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "あんたは患者役なんだから、ナース役のわたしの話をちゃんと聞きなさい！…むぅ、そもそも普段は配下なんだし、こういうのがなくてもわたしの話を聞くべきなのでは？",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"8" : {
+						"event" : "Main 4",
+						"media" : "main_4_1",
+						"chinese" : "",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "今日のあんたはわたしの患者よ！ふふん、ありがたくこのカリスマナースヴァリアントの世話になりなさい！…べ、べべ別にノリノリでやってるわけじゃないわよ！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"9" : {
+						"event" : "Main 5",
+						"media" : "main_5_1",
+						"chinese" : "",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "ほら採血よ、さっさと腕出しなさい！…あぅ……ヴァンパイアみたいな耐性がないだけよ…！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"10" : {
+						"event" : "Touch",
+						"media" : "touch_1_1",
+						"chinese" : "怎么了侍从？莫非是没有我的照顾就不行了吗？",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "どうしたの？わたしが世話してやらないとダメなの～？",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"11" : {
+						"event" : "Touch (Special)",
+						"media" : "touch_2_1",
+						"chinese" : "侍从！你，你的手在摸哪里！算，算了，你现在是病人，这次就不计较了！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "…い、今のあんたは患者役だから大目に見てやるわ！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"12" : {
+						"event" : "Return to Port",
+						"media" : "home_1",
+						"chinese" : "侍从，我给你倒了水来，都说多喝水有益于身体健康，你一天一定要喝够八大杯才行！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "水を持ってきてやったわ。健康のために毎日たくさん飲むのよ。…はい、一日コップ8杯！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					}
+				}
+			},
+			"101": {
+				"skin_id" : "yingyong_ex1100",
+				"id" : "0",
+				"label" : "ヴァリアント",
+				"dialogue" : {
+					"1" : {
+						"event" : "Login",
+						"media" : "login_ex1100",
+						"chinese" : "侍从，来得正好，一起研究下今天的报告吧！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "来てくれたわね！今日のレポートを共に確認するわよ！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"2" : {
+						"event" : "Main 1",
+						"media" : "main_1_ex1100",
+						"chinese" : "太慢啦…红茶还没好吗…？我都喝习惯你泡的了，别让我等着嘛…",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "お、遅いわね……紅茶まだ…？慣れたからって焦らさないでよ…",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"3" : {
+						"event" : "Main 2",
+						"media" : "main_2_ex1100",
+						"chinese" : "\"气场\"固然重要，不过，要令人真正心悦诚服，还得加上能力，以及真心呢…",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "カリスマは大事だけど、本当に相手を従わせるには自分の才能と、そして真心が必要ね",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"4" : {
+						"event" : "Touch",
+						"media" : "touch_1_ex1100",
+						"chinese" : "有什么事情？我在听着哦，侍从。",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "…？なに？ちゃんと聞いてるわ？",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"5" : {
+						"event" : "Return to Port",
+						"media" : "home_ex1100",
+						"chinese" : "侍从，战况如何？没有遇到什么问题吧？",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "我が配下よ、戦況はどうだったの？も、問題なかったわよね…？",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"6" : {
+						"event" : "Affinity (Love)",
+						"media" : "feeling5_ex1100",
+						"chinese" : "事到如今，无论输赢都已经无所谓了。对我而言，与侍从你一起度过的时光才是最值得开心的事。…你也是这样想的吗？那太好了！我们再来一盘吧！",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "勝ち負けなんてどうだっていいわよ…ま、まあわたしにとって配下のあんたと一緒にいるほうが大事だし……？あんたもそう思う！？…いいわ！もう一回勝負よ！",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					}
+				}
+			}
+		}
+	}
+}

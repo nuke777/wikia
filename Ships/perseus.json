@@ -1,0 +1,960 @@
+{
+	"name_reference" : "perseus",
+	"cn_reference" : "yingxianzuo",
+	"nameJP" : "パーシュース",
+	"nameCN" : "英仙座",
+	"ID" : "462",
+	"name" : "Perseus",
+	"internal_id" : "206061",
+	"rarity" : "Super Rare",
+	"initialStar" : "★★★☆☆☆",
+	"hull" : "Light Aircraft Carrier",
+	"navy" : "Royal Navy",
+	"prefix" : "HMS",
+	"buildTime" : "02:30:00",
+	"parameters": {
+		"firepower" : "",
+		"torpedo" : "",
+		"aviation" : "",
+		"evasion" : "",
+		"antiAir" : "",
+		"hp" : ""
+	},
+	"scrap": {
+		"gold" : "7",
+		"oil" : "3",
+		"medal" : "10"
+	},
+	"releaseDate": {
+		"JP" : "July 23, 2020",
+		"CN" : "July 23, 2020",
+		"KR" : "July 23, 2020",
+		"EN" : ""
+	},
+	"artist": {
+		"name" : "Kincora",
+		"weibo" : "http://weibo.com/u/2061731981",
+		"twitter" : "https://twitter.com/KIncoraK",
+		"pixiv" : "https://www.pixiv.net/member.php?id=3054186",
+		"other" : ""
+	},
+	"class" : "Colossus-Class",
+	"enhance": {
+		"firepower" : "0",
+		"torpedo" : "0",
+		"aviation" : "41",
+		"reload" : "12"
+	},
+	"acquisitionMethod" : "Event : Noctis Borealis",
+	"skill": {
+		"1" : {
+			"icon" : "13410",
+			"requirement" : "Default Unlocked",
+			"name" : "Num Scrambler",
+			"type" : "Defensive",
+			"description" : "Preload 1 (2) airstrike charges at the start of battle, airstrike reload time increased by 90%; On airstrike, heal vanguard ships for 1.5% (7.0%) of their max HP and main fleet ships for 1.0% (3.5%) of their max HP."
+		},
+		"2" : {
+			"icon" : "13420",
+			"requirement" : "Default Unlocked",
+			"name" : "Athens Catapult",
+			"type" : "Offensive",
+			"description" : "Every 12s after battle starts, randomly launch a flight of Hornets/TBFs/Fireflies."
+		},
+		"3" : {
+			"icon" : "13430",
+			"requirement" : "Default Unlocked",
+			"name" : "Hades Repairer",
+			"type" : "Support",
+			"description" : "Can store 3 aistrikes, all allied ships recover 1% of their max HP every 40 (20)s while in battle; When other fleets in the sortie enter battle and this ship is alive, they heal for 3% of their max HP 20s after battle starts."
+		}
+	},
+	"skin": {
+		"1" : {
+			"id" : "yingxianzuo",
+			"name" : "パーシュース",
+			"description" : "コロッサス級航空母艦・ユニコーン （HMS Perseus）",
+			"expression" : {
+				"0" : {
+					"id" : "0"
+				},
+				"1" : {
+					"id" : "1"
+				},
+				"2" : {
+					"id" : "2"
+				},
+				"3" : {
+					"id" : "2"
+				},
+				"4" : {
+					"id" : "4"
+				}
+			}
+		},
+		"2" : {
+			"id" : "yingxianzuo_2",
+			"name" : "ナーセリー勤務タイム",
+			"description" : "当直のパーシュースよ。ご用があったらそこの呼び鈴鳴らして。…何か用？",
+			"expression" : {
+				"0" : {
+					"id" : "0"
+				},
+				"1" : {
+					"id" : "1"
+				},
+				"2" : {
+					"id" : "2"
+				},
+				"3" : {
+					"id" : "2"
+				},
+				"4" : {
+					"id" : "4"
+				}
+			}
+		},
+		"101" : {
+			"id" : "yingxianzuo_ex1100",
+			"name" : "パーシュース",
+			"description" : "コロッサス級航空母艦・ユニコーン （HMS Perseus）",
+			"expression" : {
+				"0" : {
+					"id" : "0"
+				}
+			}
+		}
+	},
+	"defaultEquipment": {
+		"1" : {
+			"icon" : "",
+			"rarity" : "",
+			"name" : ""
+		},
+		"2" : {
+			"icon" : "",
+			"rarity" : "",
+			"name" : ""
+		},
+		"3" : {
+			"icon" : "26100",
+			"rarity" : "Common",
+			"name" : "Quadruple 40mm Pom Pom Gun"
+		}
+	},
+	"stats": {
+		"base": {
+			"hp" : "916",
+			"firepower" : "0",
+			"torpedo" : "0",
+			"antiAir" : "49",
+			"aviation" : "61",
+			"reload" : "62",
+			"hit" : "28",
+			"evasion" : "18",
+			"speed" : "25",
+			"luck" : "82",
+			"asw" : "35",
+			"oxygen" : "0",
+			"ammo" : "0",
+			"cost" : "4",
+			"armor" : "Medium"
+		},
+		"100": {
+			"hp" : "4735",
+			"firepower" : "0",
+			"torpedo" : "0",
+			"antiAir" : "230",
+			"aviation" : "289",
+			"reload" : "146",
+			"hit" : "73",
+			"evasion" : "47",
+			"speed" : "25",
+			"luck" : "82",
+			"asw" : "128",
+			"oxygen" : "0",
+			"ammo" : "0",
+			"cost" : "12",
+			"armor" : "Medium"
+		},
+		"120": {
+			"hp" : "5540",
+			"firepower" : "0",
+			"torpedo" : "0",
+			"antiAir" : "264",
+			"aviation" : "327",
+			"reload" : "168",
+			"hit" : "87",
+			"evasion" : "71",
+			"speed" : "25",
+			"luck" : "82",
+			"asw" : "144",
+			"oxygen" : "0",
+			"ammo" : "0",
+			"cost" : "12",
+			"armor" : "Medium"
+		},
+		"100retrofit": {
+			"hp" : "",
+			"firepower" : "",
+			"torpedo" : "",
+			"antiAir" : "",
+			"aviation" : "",
+			"reload" : "",
+			"hit" : "",
+			"evasion" : "",
+			"speed" : "25",
+			"luck" : "82",
+			"asw" : "",
+			"oxygen" : "0",
+			"ammo" : "0",
+			"cost" : "12",
+			"armor" : "Medium"
+		},
+		"120retrofit": {
+			"hp" : "",
+			"firepower" : "",
+			"torpedo" : "",
+			"antiAir" : "",
+			"aviation" : "",
+			"reload" : "",
+			"hit" : "",
+			"evasion" : "",
+			"speed" : "25",
+			"luck" : "82",
+			"asw" : "",
+			"oxygen" : "0",
+			"ammo" : "0",
+			"cost" : "12",
+			"armor" : "Medium"
+		}
+	},
+	"limitBreak": {
+		"tier1": "戦闘機数+1/戦闘機補正+5%",
+		"tier2": "攻撃機数+1/戦闘機補正+10%",
+		"tier3": "艦載機数+1/攻撃機補正+15%"
+	},
+	"equipmentLoadout": {
+		"1": {
+			"type": "Fighter",
+			"efficiency": "85%/90%/100%/100%",
+			"amount": "1/2/2/3",
+			"preload": "0/0/0/0"
+		},
+		"2": {
+			"type": "Torpedo Bomber",
+			"efficiency": "85%/85%/85%/100%",
+			"amount": "1/1/2/3",
+			"preload": "0/0/0/0"
+		},
+		"3": {
+			"type": "Anti-Air Gun",
+			"efficiency": "110%/110%/110%/110%",
+			"amount": "1/1/1/1",
+			"preload": "0/0/0/0"
+		},
+		"4": {
+			"type": "Auxilary",
+			"efficiency": "-",
+			"amount": "-",
+			"preload": "-"
+		},
+		"5": {
+			"type": "Auxilary",
+			"efficiency": "-",
+			"amount": "-",
+			"preload": "-"
+		}
+	},
+	"fleet_tech": {
+		"pt_get": "12",
+		"add_get_attr": "HP",
+		"add_get_value": "1",
+		"add_get_shiptype": "Light Aircraft Carrier",
+		"pt_upgrade": "25",
+		"pt_level": "18",
+		"add_level_attr": "Aviation",
+		"add_level_value": "2",
+		"add_level_shiptype": "Light Aircraft Carrier",
+		"t_level": "6",
+		"ships": "perseus"
+	},
+	"build": {
+		"light": {
+			"JP": "",
+			"CN": "",
+			"EN": ""
+		},
+		"heavy": {
+			"JP": "",
+			"CN": "",
+			"EN": ""
+		},
+		"special": {
+			"JP": "",
+			"CN": "",
+			"EN": ""
+		},
+		"limited": {
+			"JP": "",
+			"CN": "",
+			"EN": ""
+		}
+	},
+	"drop": {
+		"droppable": "false",
+		"list": {
+			"1": {
+				"event": "",
+				"chapter": {
+					"1": {
+						"label": "Ch .1",
+						"node": {
+							"1": {
+								"drop": "✓",
+								"note": "-"
+							}
+						}
+					}
+				}
+			}
+		}
+	},
+	"lines": {
+		"skin": {
+			"1": {
+				"skin_id" : "yingxianzuo",
+				"id" : "0",
+				"label" : "パーシュース",
+				"dialogue" : {
+					"1" : {
+						"event" : "Ship Description",
+						"media" : "",
+						"chinese" : "巨像级航空母舰—英仙座",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "コロッサス級航空母艦・ユニコーン （HMS Perseus）",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"2" : {
+						"event" : "Biography",
+						"media" : "profile",
+						"chinese" : "我是巨像级航空母舰·英仙座。我是在大战之后才加入的，也没有太多足以夸耀的功绩，但我会用自己的方式努力的……这样就可以了吗？……呼",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "コロッサス級空母のパーシュースよ。かの大戦では惜しくも就役が間に合わなかったわ。だからカンレキはもとより、戦歴なんてほぼないの。自分なりに頑張るからね。……こんなところでいい？……ふぅ",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"3" : {
+						"event" : "Acquisition",
+						"media" : "get",
+						"chinese" : "皇家海军，英仙座，你也可以叫我帕尔修斯。……还有什么要说的吗？…那就，从今往后请多关照。",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "ロイヤルネイビーのパーシュース、ああ別にペルセウスでもよかったっけ。……冗談よ。それで？他に何か？…んじゃ、よろしく",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"4" : {
+						"event" : "Login",
+						"media" : "login",
+						"chinese" : "早起的鸟儿有虫吃，指挥官…大概是会饿死的鸟儿吧。",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "「早起きの鳥は虫を捕らえる」っていうけど、指揮官は…そうね、餓死するってオチじゃない？",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"5" : {
+						"event" : "Details",
+						"media" : "detail",
+						"chinese" : "房间里有许多全身镜？那是…因为我喜欢镜子…这么回答能满足你了吗？",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "私の部屋にある姿見…？さあね、姿見が好きなんだとでも答えたら満足するの？",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"6" : {
+						"event" : "Main 1",
+						"media" : "main_1",
+						"chinese" : "有什么需要帮忙的，可以告诉我。不过在那之前，还请先自己试着努力完成，指挥官。",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "手伝えることがあったら言って。…その前に、まずはひとりでできないか努力して",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"7" : {
+						"event" : "Main 2",
+						"media" : "main_2",
+						"chinese" : "工作就和即将到保质期的食物一样，放着不管会出问题的，指挥官。",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "お仕事だって食べ物みたいに期限があるわ。腐らなくても放置したら迷惑、ね",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"8" : {
+						"event" : "Main 3",
+						"media" : "main_3",
+						"chinese" : "夕张和明石她们，好像经常在做一些有意思的试验呢。嗯，我有点感兴趣…",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "夕張や明石たち科学部って、面白い実験でもしていそうね。…興味があるの。ちょっとだけ",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"9" : {
+						"event" : "Touch",
+						"media" : "touch_1",
+						"chinese" : "在和我闲聊前，先关注下自己手头的事情如何？",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "雑談だの面談だの言い訳するよりお仕事のほうが先じゃなくて？",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"10" : {
+						"event" : "Touch (Special)",
+						"media" : "touch_2",
+						"chinese" : "指挥官，是不是想念海军部拘留处的餐食了呢？",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "へー指揮官、海軍部の営倉の食卓が恋しいんだ",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"11" : {
+						"event" : "Rub",
+						"media" : "touch_head",
+						"chinese" : "…嗯。",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "……うん",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"12" : {
+						"event" : "Mission",
+						"media" : "task",
+						"chinese" : "指挥官原来是不愿意执行任务的懒惰虫吗？",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "任務もやりたくなさそうなグータラな猫かな？あなた",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"13" : {
+						"event" : "Mission Complete",
+						"media" : "mission_complete",
+						"chinese" : "指挥官，再不收，任务奖励就要过期了。",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "任務報酬を受け取らないと保証切れになるよー、なんて",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"14" : {
+						"event" : "Mail",
+						"media" : "mail",
+						"chinese" : "指挥官，有你的邮件…没什么，只是举手之劳。",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "シキカンヘノメール。いやいや、私の手を借りたいときは言ってくれたら考えておくよ",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"15" : {
+						"event" : "Return to Port",
+						"media" : "home",
+						"chinese" : "这样的战斗就感到疲惫…指挥官，就像可爱的小鸡一样呢。",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "これぐらいの戦闘でバテるなんて指揮官…打ち上げられたアザラシみたい",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"16" : {
+						"event" : "Commission Complete",
+						"media" : "expedition",
+						"chinese" : "指挥官…不，我没有生气，我只是想提醒你委托完成了。",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "指揮官…別に怒ってないよ。委託完了って知らせたかっただけ",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"17" : {
+						"event" : "Enhancement",
+						"media" : "upgrade",
+						"chinese" : "非常感谢。…想要回礼吗？",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "感謝するわ。…お礼が聞きたいんでしょ？",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"18" : {
+						"event" : "Flagship",
+						"media" : "warcry",
+						"chinese" : "请大家保持慎重，敌人…也不是省油的灯。",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "慎重にね。一捻りできる相手じゃないよ",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"19" : {
+						"event" : "Victory",
+						"media" : "mvp",
+						"chinese" : "对面…看起来还需要努力呢。",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "向こうは…まぁ、まだまだだね",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"20" : {
+						"event" : "Defeat",
+						"media" : "lose",
+						"chinese" : "…对不起，失败了",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "…ごめん、負けちゃった…",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"21" : {
+						"event" : "Skill",
+						"media" : "skill",
+						"chinese" : "…交给我吧。",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "任せて",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"22" : {
+						"event" : "Low HP",
+						"media" : "hp",
+						"chinese" : "…不能掉以轻心呢。",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "…油断できないね",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"23" : {
+						"event" : "Affinity (Upset)",
+						"media" : "feeling1",
+						"chinese" : "指挥官，就像腌熟了的鲱鱼罐头一样呢…",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "熟成されたシュールストレミングみたいね。あなた",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"24" : {
+						"event" : "Affinity (Stranger)",
+						"media" : "feeling2",
+						"chinese" : "指挥官，我听得到，所以请不要在我身边发出很大的声音，有点吵。",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "指揮官、聞こえているから耳元で叫ばないように。ちょっとうるさい…",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"25" : {
+						"event" : "Affinity (Friendly)",
+						"media" : "feeling3",
+						"chinese" : "大家…都能好好说出想说的话呢……没什么，你好，指挥官。",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "普通言いたいこと言えてるよね。みんな。……あ、指揮官、こんにちは。なんでもないよ",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"26" : {
+						"event" : "Affinity (Like)",
+						"media" : "feeling4",
+						"chinese" : "我真是笨蛋…明明想和指挥官搞好关系的，却每次都说出那些话…指挥官一定讨厌我了吧…",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "バカだね…仲良くしたきゃ変にバカにしないほうがいいのに、これじゃあ嫌われちゃうじゃない……私……",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"27" : {
+						"event" : "Affinity (Love)",
+						"media" : "feeling5",
+						"chinese" : "对指挥官的看法？…就像是夜航中突然袭来的暴雨一般……啊，不，不是，我不是想说这个，我想说的是…其实我对指挥官是……",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "あなたをどう思うかって？さあ、航行中に突然襲ってくる嵐みたいな…………違う、そうじゃなくて、私、その…本当に言いたいことは……",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"28" : {
+						"event" : "Pledge",
+						"media" : "propose",
+						"chinese" : "其实，我并不讨厌指挥官的…指挥官总是愿意和我说话，愿意摸摸我的头…我其实…最喜欢指挥官了。嗯…",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "別に指揮官のことは嫌いじゃないよ。だっていつもお話付き合ってくれるし、頭をなでてくれる……つ、つまり…好きだよ。うん…",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"29" : {
+						"event" : "Easter Egg 1(Yuubari)",
+						"media" : "link1",
+						"chinese" : "这次又有什么有趣的新装备了吗？",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "新しい実験なの？",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"30" : {
+						"event" : "Like Present",
+						"media" : "present_like",
+						"chinese" : "",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"31" : {
+						"event" : "Dislike Present",
+						"media" : "present_dislike",
+						"chinese" : "",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"32" : {
+						"event" : "Main Title",
+						"media" : "extra",
+						"chinese" : "",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					}
+				}
+			},
+			"2": {
+				"skin_id" : "yingxianzuo_2",
+				"id" : "1",
+				"label" : "ナーセリー勤務タイム",
+				"dialogue" : {
+					"1" : {
+						"event" : "Ship Description",
+						"media" : "",
+						"chinese" : "我是今天的值班护士，英仙座。有任何情况请按铃呼换我。…还有什么问题吗？",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "当直のパーシュースよ。ご用があったらそこの呼び鈴鳴らして。…何か用？",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"2" : {
+						"event" : "Acquisition",
+						"media" : "get_1",
+						"chinese" : "我是今天的值班护士，英仙座。有任何情况请按铃呼换我。…还有什么问题吗？",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "当直のパーシュースよ。ご用があったらそこの呼び鈴鳴らして。…何か用？",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"3" : {
+						"event" : "Login",
+						"media" : "login_1",
+						"chinese" : "…眼神？对不起，我不太清楚这种时候应该用什么表情面对指挥官…",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "…分からないわよ、こういう演習のときにどんな顔をすればいいかなんて",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"4" : {
+						"event" : "Details",
+						"media" : "detail_1",
+						"chinese" : "无论是打针、包扎，还是护理，我都有在练习哦。指挥官，下次能当我的练习对象吗？",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "練習中だけど、お注射も止血も看病もなんでもどうぞ。…指揮官は練習相手、なってくれる？",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"5" : {
+						"event" : "Main 1",
+						"media" : "main_1_1",
+						"chinese" : "帮助有困难的人是护士的职责，不过，任何帮助都是有极限的，能自己完成的事，还是请尽量自己完成吧，指挥官。",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "困った人を助けるのはいいけど限界があるよ。…要は自分でできることは自分でやってってこと。指揮官",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"6" : {
+						"event" : "Main 2",
+						"media" : "main_2_1",
+						"chinese" : "护士有时候要给难以行动的病人翻身呢…指挥官，能拜托你暂时像死鱼一样躺着不要动吗？",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "重傷者の体をひっくり返す演習ね――はいそこ、そのまま仰向けになってて",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"7" : {
+						"event" : "Main 3",
+						"media" : "main_3_1",
+						"chinese" : "港区刚到了一批新的医疗设备，指挥官，能麻烦你当实验、…不，当一回测试者吗？",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "新しい医療機材。指揮官、モルモット……じゃなくて、実験に協力してもらえない？",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"8" : {
+						"event" : "Touch",
+						"media" : "touch_1_1",
+						"chinese" : "指挥官的眼神，就像猴子一样精神呢。看来很健康，嗯。",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "指揮官の今の目、生き生きとしてて健康そうだね",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"9" : {
+						"event" : "Touch (Special)",
+						"media" : "touch_2_1",
+						"chinese" : "比起医院的病床，拘留处的铁床似乎更适合指挥官呢。",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "病床より営巣のパイプベッドのほうが良さそうね",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"10" : {
+						"event" : "Return to Port",
+						"media" : "home_1",
+						"chinese" : "指挥官…果然有点虚弱呢。需要来点补充营养的药剂吗？",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "指揮官、ちょっと貧弱すぎない？栄養剤でも出そっか？",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					}
+				}
+			},
+			"101": {
+				"skin_id" : "yingxianzuo_ex1100",
+				"id" : "0",
+				"label" : "パーシュース",
+				"dialogue" : {
+					"1" : {
+						"event" : "Login",
+						"media" : "login_ex1100",
+						"chinese" : "早起的鸟儿有虫吃，指挥官…要加油成为不被饿死的鸟儿哦。",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "「早起きの鳥は虫を捕らえる」っていうけど、指揮官は…餓死しないように頑張ってー",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"2" : {
+						"event" : "Details",
+						"media" : "detail_ex1100",
+						"chinese" : "房间里的镜子，其实是为了方便随时练习对话用的…啊，不许笑我…",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "あの姿見、人と話す練習をするためで……笑わないでよ、もう……",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"3" : {
+						"event" : "Main 1",
+						"media" : "main_1_ex1100",
+						"chinese" : "有什么需要的，尽管告诉我。我会和你一起努力完成的，指挥官",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "手伝えることがあったら言って。…その前に、まずはひとりで頑張ってみなさい、なんてね",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"4" : {
+						"event" : "Main 2",
+						"media" : "main_2_ex1100",
+						"chinese" : "工作就和即将到保质期的食物一样，放着不管会出问题的，有需要的话我来帮你吧，指挥官？",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "お仕事だって食べ物みたいに賞味期限があるわ。早く食べるの、手伝おうか？",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"5" : {
+						"event" : "Touch",
+						"media" : "touch_1_ex1100",
+						"chinese" : "要和我聊聊天吗？",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "雑談でもしようか？",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"6" : {
+						"event" : "Touch (Special)",
+						"media" : "touch_2_ex1100",
+						"chinese" : "…………",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "…………",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"7" : {
+						"event" : "Commission Complete",
+						"media" : "expedition_ex1100",
+						"chinese" : "指挥官…嗯，委托组完成委托回来了哦。",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "指揮官、委託組戻ってきたよ",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"8" : {
+						"event" : "Enhancement",
+						"media" : "upgrade_ex1100",
+						"chinese" : "非常感谢。…想要回礼吗？",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"9" : {
+						"event" : "Affinity (Love)",
+						"media" : "feeling5_ex1100",
+						"chinese" : "最近感觉…不止对指挥官，和其他舰船伙伴们都能更好地说上话了呢…都是因为有指挥官在我的身边，给我勇气与鼓励…我最喜欢指挥官了。",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "普通に喋れているよね、最近…あっ、指揮官と母港の仲間たちとだよ。指揮官が励ましてくれてるおかげで……大好きだよ。うん",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					}
+				}
+			}
+		}
+	}
+}
